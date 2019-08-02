@@ -48,10 +48,6 @@ def custom_card_check(args, card, pack_code, factions_data, types_data):
     if card["type_code"] not in [f["code"] for f in types_data]:
         raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid type code." % (card["type_code"], card["code"]))
     
-def custom_pack_check(args, pack, cycles_data):
-   if pack["cycle_code"] not in [c["code"] for c in cycles_data]:
-        raise jsonschema.ValidationError("Cycle code '%s' of the pack '%s' doesn't match any valid cycle code." % (pack["cycle_code"], pack["code"]))
-
 def format_json(json_data):
     formatted_data = json.dumps(json_data, ensure_ascii=False, sort_keys=True, indent=4, separators=(',', ': '))
     formatted_data = formatted_data.replace(u"\u2018", "'").replace(u"\u2019", "'")
@@ -268,7 +264,6 @@ def validate_packs(args, packs_data, cycles_data):
         try:
             verbose_print(args, "Validating pack %s... " % p.get("name"), 2)
             jsonschema.validate(p, PACK_SCHEMA)
-            custom_pack_check(args, p, cycles_data)
             verbose_print(args, "OK\n", 2)
         except jsonschema.ValidationError as e:
             verbose_print(args, "ERROR\n",2)
