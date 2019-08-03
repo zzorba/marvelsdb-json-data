@@ -93,32 +93,20 @@ def load_json_file(args, path):
                 print(e)
     return json_data
 
-def load_cycles(args):
-    verbose_print(args, "Loading cycle index file...\n", 1)
-    cycles_path = os.path.join(args.base_path, "cycles.json")
-    cycles_data = load_json_file(args, cycles_path)
-
-    if not validate_cycles(args, cycles_data):
-        return None
-
-    return cycles_data
-
-def load_packs(args, cycles_data):
+def load_packs(args):
     verbose_print(args, "Loading pack index file...\n", 1)
     packs_path = os.path.join(args.base_path, "packs.json")
     packs_data = load_json_file(args, packs_path)
 
-    if not validate_packs(args, packs_data, cycles_data):
+    if not validate_packs(args, packs_data):
         return None
 
     for p in packs_data:
-        if p["cycle_code"] == "promotional":
-            p["cycle_code"] = "promo"
         pack_filename = "{}.json".format(p["code"])
-        pack_path = os.path.join(args.pack_path, p["cycle_code"], pack_filename)
+        pack_path = os.path.join(args.pack_path, pack_filename)
         p['player'] = check_file_access(pack_path)
         pack_filename = "{}_encounter.json".format(p["code"])
-        pack_path = os.path.join(args.pack_path, p["cycle_code"], pack_filename)
+        pack_path = os.path.join(args.pack_path, pack_filename)
         p['encounter'] = check_file_access(pack_path)
 
     return packs_data
@@ -203,49 +191,20 @@ def validate_cards(args, packs_data, factions_data, types_data):
 
         if (p['player']):
             verbose_print(args, "Validating player cards...\n", 1)
-            pack_path = os.path.join(args.pack_path, p["cycle_code"], "{}.json".format(p["code"]))
+            pack_path = os.path.join(args.pack_path, "{}.json".format(p["code"]))
             pack_data = load_json_file(args, pack_path)
             if pack_data:
                 for card in pack_data:
                     validate_card(args, card, CARD_SCHEMA, p["code"], factions_data, types_data)
         if (p['encounter']):
             verbose_print(args, "Validating encounter cards...\n", 1)
-            pack_path = os.path.join(args.pack_path, p["cycle_code"], "{}_encounter.json".format(p["code"]))
+            pack_path = os.path.join(args.pack_path, "{}_encounter.json".format(p["code"]))
             pack_data = load_json_file(args, pack_path)
             if not pack_data:
                 for card in pack_data:
                     validate_card(args, card, CARD_SCHEMA, p["code"], factions_data, types_data)
 
-def validate_cycles(args, cycles_data):
-    global validation_errors
-
-    verbose_print(args, "Validating cycle index file...\n", 1)
-    cycle_schema_path = os.path.join(args.schema_path, "cycle_schema.json")
-    CYCLE_SCHEMA = load_json_file(args, cycle_schema_path)
-    if not isinstance(cycles_data, list):
-        verbose_print(args, "Insides of cycle index file are not a list!\n", 0)
-        return False
-    if not CYCLE_SCHEMA:
-        return False
-    if not check_json_schema(args, CYCLE_SCHEMA, cycle_schema_path):
-        return False
-
-    retval = True
-    for c in cycles_data:
-        try:
-            verbose_print(args, "Validating cycle %s... " % c.get("name"), 2)
-            jsonschema.validate(c, CYCLE_SCHEMA)
-            verbose_print(args, "OK\n", 2)
-        except jsonschema.ValidationError as e:
-            verbose_print(args, "ERROR\n",2)
-            verbose_print(args, "Validation error in cycle: (code: '%s' name: '%s')\n" % (c.get("code"), c.get("name")), 0)
-            validation_errors += 1
-            verbose_print(args, "%s\n" % e.message, 0)
-            retval = False
-
-    return retval
-
-def validate_packs(args, packs_data, cycles_data):
+def validate_packs(args, packs_data):
     global validation_errors
 
     verbose_print(args, "Validating pack index file...\n", 1)
@@ -370,18 +329,15 @@ def check_translations_simple(args, base_translations_path, locale_name, base_fi
 
 def check_translations_packs(args, base_translations_path, locale_name):
     packs_translations_path = os.path.join(base_translations_path, locale_name, 'pack')
-    cycle_dirs = os.listdir(packs_translations_path)
-    for cycle_dir in cycle_dirs:
-        file_names = os.listdir(os.path.join(packs_translations_path, cycle_dir))
-        for file_name in file_names:
-            verbose_print(args, "Loading file %s...\n" % file_name, 1)
-            file_path = os.path.join(packs_translations_path, cycle_dir, file_name)
-            load_json_file(args, file_path)
+    file_names = os.listdir(os.path.join(packs_translations_path))
+    for file_name in file_names:
+        verbose_print(args, "Loading file %s...\n" % file_name, 1)
+        file_path = os.path.join(packs_translations_path, file_name)
+        load_json_file(args, file_path)
 
 def check_translations(args, base_translations_path, locale_name):
     verbose_print(args, "Loading Translations for %s...\n" % locale_name, 1)
     translations_path = os.path.join(base_translations_path, locale_name)
-    check_translations_simple(args, base_translations_path, locale_name, 'cycles')
     check_translations_simple(args, base_translations_path, locale_name, 'factions')
     check_translations_simple(args, base_translations_path, locale_name, 'packs')
     check_translations_simple(args, base_translations_path, locale_name, 'types')
@@ -417,9 +373,7 @@ def main():
 
     args = parse_commandline()
 
-    cycles = load_cycles(args)
-
-    packs = load_packs(args, cycles)
+    packs = load_packs(args)
 
     factions = load_factions(args)
     

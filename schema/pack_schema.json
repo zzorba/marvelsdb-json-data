@@ -5,7 +5,7 @@
             "minLength": 1,
             "type": "string"
         },
-        "cycle_code": {
+        "type_code": {
             "minLength": 1,
             "type": "string"
         },
@@ -51,7 +51,7 @@
     },
     "required": [
         "code",
-        "cycle_code",
+        "type_code",
         "name",
         "position",
         "date_release",
