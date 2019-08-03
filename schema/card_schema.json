@@ -120,13 +120,9 @@
             "minimum": 0,
             "type": "integer"
         },
-        "sanity": {
-            "minimum": 1,
-            "type": "integer"
-        },
-        "slot": {
+        "set_code": {
             "minLength": 1,
-            "type": "string"
+            "type": "string
         },
         "subname": {
             "minLength": 1,
@@ -155,10 +151,6 @@
             "minLength": 1,
             "type": "string"
         },
-        "victory": {
-            "minimum": 1,
-            "type": "integer"
-        },
         "is_unique": {
             "oneof":[
                 {
@@ -169,17 +161,6 @@
                 }
             ]
             
-        },
-        "xp": {
-            "oneOf": [
-                {
-                    "minimum": 0,
-                    "type": "integer"
-                },
-                {
-                    "type": "null"
-                }
-            ]
         }
     },
     "required": [
