@@ -10,7 +10,7 @@
             "type": "string"
         },
         "code": {
-            "pattern": "^[0-9abcdef]{5}$",
+            "pattern": "^[0-9]{5}[abcdef]?$",
             "type": "string"
         },
         "cost": {
@@ -122,7 +122,7 @@
         },
         "set_code": {
             "minLength": 1,
-            "type": "string
+            "type": "string"
         },
         "subname": {
             "minLength": 1,
