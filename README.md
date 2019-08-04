@@ -1,20 +1,12 @@
-ArkhamDB cards JSON data
+MarvelsDB cards JSON data
 =========
 
-The goal of this repository is to store [ArkhamDB](https://Arkhamdb.com) card data in a format that can be easily updated by multiple people and their changes reviewed.
+The goal of this repository is to store marvelsdb card data in a format that can be easily updated by multiple people and their changes reviewed.
 
-
-#### Cycle schema
-
-* **code** - identifier of the cycle. One single lowercase word. Examples: `"core"`
-* **name** - properly formatted name of the cycle. Examples: `"Core Set"`
-* **position** - number of the cycle, counting in chronological order. For packs released outside of normal constructed play cycles (such as draft packs), the special cycle with position `0` should be used. Examples: `1` for Core Set
-* **size** - number of packs in the cycle. Examples: `1` for big boxes, `6` for regular pack cycles.
-
+ 
 #### Pack schema
 
-* **code** - identifier of the pack. The acronym of the pack name, with matching case, except for Core Set. Examples: `"Core"` for Core Set
-* **cycle_code** - identifier of the cycle the pack belongs to. Must refer to one of the values from cycles' `"code"`. Examples: `"core"` 
+* **code** - identifier of the pack. The acronym of the pack name, with matching case, except for Core Set. Examples: `"Core"` for Core Set.
 * **name** - properly formatted name of the pack. Examples: `"Core Set"`
 * **position** - number of the pack within the cycle. Examples: `1` for Core Set
 * **released** - date when the pack was officially released by FFG. When in doubt, look at the date of the pack release news on FFG's news page. Format of the date is YYYY-MM-DD. May be `null` - this value is used when the date is unknown. Examples: `"2016-10-08"` for Core Set
