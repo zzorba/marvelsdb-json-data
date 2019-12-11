@@ -90,7 +90,7 @@
 		"resource_physical": 1,
 		"set_code": "thor",
 		"set_position": 5,
-		"text": "<b>Alter-Ego Action</b>: Search your deck and discard pile for a card with the <b>ASGARD</b> trait and add it to your hand. Shuffle your deck.",
+		"text": "<b>Alter-Ego Action</b>: Search your deck and discard pile for a card with the [[Asgard]] trait and add it to your hand. Shuffle your deck.",
 		"type_code": "event"
 	},
 	{
@@ -123,7 +123,7 @@
 		"resource_mental": 1,
 		"set_code": "thor",
 		"set_position": 9,
-		"text": "<b>Hero Action</b>: Spend X [energy] ressources → deal X damages to the villain and each minion engaged with you. This attack ignores tough statuses card if you have the <b>AERIAL</b> trait.",
+		"text": "<b>Hero Action</b>: Spend X [energy] ressources → deal X damages to the villain and each minion engaged with you. This attack ignores tough statuses card if you have the [[Aerial]] trait.",
 		"traits": "Superpower.",
 		"type_code": "event"
 	},
@@ -177,7 +177,7 @@
 		"resource_energy": 1,
 		"set_code": "thor",
 		"set_position": 14,
-		"text": "Restricted. <i>(Max 2 restricted cards per player.)</i>\nThor gets +1 ATK and gains the <b>AERIAL</b> trait.",
+		"text": "Restricted. <i>(Max 2 restricted cards per player.)</i>\nThor gets +1 ATK and gains the [[Aerial]] trait.",
 		"traits": "Asgard. Weapon.",
 		"type_code": "upgrade"
 	},
@@ -187,6 +187,7 @@
 		"deck_limit": 1,
 		"faction_code": "hero",
 		"flavor": "\"Brothers and sisters -- prepare yourselves. Today we go to WAR!\" -- Thor",
+		"is_unique": true,
 		"name": "Thor's Helmet",
 		"pack_code": "thor",
 		"position": 10,
