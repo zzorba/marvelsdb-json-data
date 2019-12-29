@@ -18,7 +18,8 @@
 		"text": "Spider-Sense — <b>Interrupt</b>: When the villain initiates an attack against you, draw 1 card.",
 		"thwart": 1,
 		"traits": "Avenger.",
-		"type_code": "hero"
+		"type_code": "hero",
+		"octgn_id": "18ae183c-de26-4369-8a41-424d58f01631"
 	},
 	{
 		"code": "01001b",
@@ -37,7 +38,8 @@
 		"set_code": "spider_man",
 		"text": "Scientist — <b>Resource</b>: Generate a [mental] resource. (Limit once per round.)",
 		"traits": "Genius.",
-		"type_code": "alter_ego"
+		"type_code": "alter_ego",
+		"octgn_id": "18ae183c-de26-4369-8a41-424d58f01631"
 	},
 	{
 		"attack": 1,
@@ -52,7 +54,7 @@
 		"pack_code": "core",
 		"position": 2,
 		"quantity": 1,
-		"resource_energy": 1,		
+		"resource_energy": 1,
 		"set_code": "spider_man",
 		"set_position": 1,
 		"subname": "Felicia Hardy",
@@ -60,7 +62,8 @@
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Hero For Hire.",
-		"type_code": "ally"
+		"type_code": "ally",
+		"octgn_id": "471e5531-48c9-4b6c-8417-7158b81f4287"
 	},
 	{
 		"code": "01003",
@@ -77,7 +80,8 @@
 		"set_position": 2,
 		"text": "<b>Interrupt</b> <i>(defense)</i>: When you would take any amount of damage from an attack, prevent all of that damage.",
 		"traits": "Defense. Skill.",
-		"type_code": "event"
+		"type_code": "event",
+		"octgn_id": "942a87e3-0ab3-4544-85ff-473cfdf622ba"
 	},
 	{
 		"code": "01004",
@@ -94,7 +98,8 @@
 		"set_position": 4,
 		"text": "<b>Hero Interrupt</b>: When a treachery card is revealed from the encounter deck, cancel its \"<b>When Revealed</b>\" effects.",
 		"traits": "Superpower.",
-		"type_code": "event"
+		"type_code": "event",
+		"octgn_id": "816c6c4a-0745-4610-81f5-29dc97865873"
 	},
 	{
 		"code": "01005",
@@ -111,7 +116,8 @@
 		"set_position": 6,
 		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 8 damage to an enemy.",
 		"traits": "Aerial. Attack. Superpower.",
-		"type_code": "event"
+		"type_code": "event",
+		"octgn_id": "933069ad-ebd7-4813-a058-4729d1db1ca7"
 	},
 	{
 		"code": "01006",
@@ -129,7 +135,8 @@
 		"set_position": 9,
 		"text": "<b>Alter-Ego Action</b>: Exhaust Aunt May → heal 4 damage from Peter Parker.",
 		"traits": "Persona.",
-		"type_code": "support"
+		"type_code": "support",
+		"octgn_id": "880a92cd-9a2b-4ed6-b283-6f7d98ca6fc7"
 	},
 	{
 		"code": "01007",
@@ -145,7 +152,8 @@
 		"set_position": 10,
 		"text": "Attach to a minion.\n<b>Forced Interrupt</b>: When attached minion is defeated, remove 3 threat from a scheme.",
 		"traits": "Item. Tech.",
-		"type_code": "upgrade"
+		"type_code": "upgrade",
+		"octgn_id": "feead700-3e37-4ecb-9f14-15a17a6f0d70"
 	},
 	{
 		"code": "01008",
@@ -161,7 +169,8 @@
 		"set_position": 12,
 		"text": "Uses (3 web counters). <i>(Enters play with 3 counters. When those are gone, discard this card)</i>\n<b>Hero Resource</b>: Exhaust Web-Shooter and remove 1 web counter from it → generate a [wild] resource.",
 		"traits": "Item. Tech.",
-		"type_code": "upgrade"
+		"type_code": "upgrade",
+		"octgn_id": "ab2d0f0d-5df7-4269-876d-99fe1f1d25d4"
 	},
 	{
 		"code": "01009",
@@ -177,7 +186,8 @@
 		"set_position": 14,
 		"text": "Hero form only. Attach to an enemy. Max 1 per enemy.\n<b>Forced Interrupt</b>: When attached enemy would attack, discard Webbed Up instead. Then, stun that enemy.",
 		"traits": "Condition.",
-		"type_code": "upgrade"
+		"type_code": "upgrade",
+		"octgn_id": "6bd78cc3-bc7f-4382-b063-5d69a70a0cdc"
 	},
 	{
 		"attack": 2,
@@ -198,7 +208,8 @@
 		"text": "Rechannel — <b>Action</b>: Spend a [energy] resource and heal 1 damage from Captain Marvel → draw 1 card. (Limit once per round.)",
 		"thwart": 2,
 		"traits": "Avenger. Soldier.",
-		"type_code": "hero"
+		"type_code": "hero",
+		"octgn_id": "78343f41-6bfd-456d-965a-d6456a01a581"
 	},
 	{
 		"code": "01010b",
@@ -217,7 +228,8 @@
 		"set_code": "captain_marvel",
 		"text": "Commander — <b>Action</b>: Choose a player to draw 1 card. (Limit once per round.)",
 		"traits": "S.H.I.E.L.D. Soldier.",
-		"type_code": "alter_ego"
+		"type_code": "alter_ego",
+		"octgn_id": "78343f41-6bfd-456d-965a-d6456a01a581"
 	},
 	{
 		"attack": 2,
@@ -241,8 +253,9 @@
 		"thwart": 2,
 		"thwart_cost": 1,
 		"traits": "Avenger. Spy.",
-		"type_code": "ally"
-	},		
+		"type_code": "ally",
+		"octgn_id": "66c3024c-28aa-4803-b772-b21c5397fa64"
+	},
 	{
 		"code": "01012",
 		"cost": 2,
@@ -258,7 +271,8 @@
 		"set_position": 2,
 		"text": "<b>Hero Action</b> (<i>thwart</i>): Remove 2 threat from a scheme. Then, if you have the [[Aerial]] trait, remove 2 threat from a different scheme.",
 		"traits": "Thwart.",
-		"type_code": "event"
+		"type_code": "event",
+		"octgn_id": "dd9fbd85-7a49-4bb5-bcb2-7ef92333ce33"
 	},
 	{
 		"code": "01013",
@@ -274,7 +288,8 @@
 		"set_position": 5,
 		"text": "<b>Hero Action</b> (<i>attack</i>): Deal 5 damage to an enemy. If you paid for this card using a [energy] resource, draw 1 card.",
 		"traits": "Attack. Superpower.",
-		"type_code": "event"
+		"type_code": "event",
+		"octgn_id": "9843b01c-f11d-4a3f-9bc0-f20a9bbc48cd"
 	},
 	{
 		"code": "01014",
@@ -288,7 +303,8 @@
 		"resource_energy": 3,
 		"set_code": "captain_marvel",
 		"set_position": 8,
-		"type_code": "resource"
+		"type_code": "resource",
+		"octgn_id": "5fd7d61f-d44e-43cc-b5a2-982d0e68c3aa"
 	},
 	{
 		"code": "01015",
@@ -306,7 +322,8 @@
 		"set_position": 10,
 		"text": "<b>Action</b>: Exhaust Alpha Flight Station, choose and discard 1 card from your hand → draw 1 card (draw 2 cards instead if you are Carol Danvers).",
 		"traits": "Location. S.H.I.E.L.D.",
-		"type_code": "support"
+		"type_code": "support",
+		"octgn_id": "fa6f18d7-8d43-4a69-9eaf-a9b5b6577fce"
 	},
 	{
 		"code": "01016",
@@ -324,7 +341,8 @@
 		"set_position": 11,
 		"text": "Captain Marvel gets +1 DEF (+2 DEF instead if you have the [[Aerial]] trait).",
 		"traits": "Armor. Tech.",
-		"type_code": "upgrade"
+		"type_code": "upgrade",
+		"octgn_id": "4a0711af-292a-4fb5-8e1c-23c726465354"
 	},
 	{
 		"code": "01017",
@@ -340,7 +358,8 @@
 		"set_position": 12,
 		"text": "Captain Marvel gains the [[Aerial]] trait.\n<b>Hero Interrupt</b> (<i>defense</i>): When Captain Marvel would take damage, discard Cosmic Flight → prevent 3 of that damage.",
 		"traits": "Superpower.",
-		"type_code": "upgrade"
+		"type_code": "upgrade",
+		"octgn_id": "5b294403-a4c7-4786-867e-cc8bced674f6"
 	},
 	{
 		"code": "01018",
@@ -356,7 +375,8 @@
 		"set_position": 14,
 		"text": "Max 1 per player.\n<b>Action</b>: Spend X [energy] resources → put X energy counters here.\n<b>Hero Action</b> (<i>attack</i>): Discard Energy Channel → deal 2 damage to an enemy (to a maximum of 10) for each energy counter here.",
 		"traits": "Superpower.",
-		"type_code": "upgrade"
+		"type_code": "upgrade",
+		"octgn_id": "88a66ea4-d071-463e-8c43-24f53350ea4c"
 	},
 	{
 		"attack": 3,
@@ -377,7 +397,8 @@
 		"text": "\"Do You Even Lift?\" — <b>Response</b>: After you change to this form, deal 2 damage to an enemy.",
 		"thwart": 1,
 		"traits": "Avenger. Gamma.",
-		"type_code": "hero"
+		"type_code": "hero",
+		"octgn_id": "d46d5e03-c8b7-4ff5-8633-3941c0561812"
 	},
 	{
 		"code": "01019b",
@@ -396,8 +417,9 @@
 		"set_code": "she_hulk",
 		"text": "\"I Object!\" — <b>Interrupt</b>: When threat would be placed on a scheme, prevent 1 of that threat. (Limit once per round.)",
 		"traits": "Attorney. Gamma.",
-		"type_code": "alter_ego"
-	},	
+		"type_code": "alter_ego",
+		"octgn_id": "d46d5e03-c8b7-4ff5-8633-3941c0561812"
+	},
 	{
 		"attack": 1,
 		"attack_cost": 1,
@@ -412,7 +434,7 @@
 		"pack_code": "core",
 		"position": 20,
 		"quantity": 1,
-		"resource_wild": 1,	 
+		"resource_wild": 1,
 		"set_code": "she_hulk",
 		"set_position": 1,
 		"subname": "Patsy Walker",
@@ -420,7 +442,8 @@
 		"thwart": 2,
 		"thwart_cost": 1,
 		"traits": "Avenger.",
-		"type_code": "ally"
+		"type_code": "ally",
+		"octgn_id": "c7bff565-c40b-4ed7-a46f-a8c28ce6c589"
 	},
 	{
 		"code": "01021",
@@ -437,7 +460,8 @@
 		"set_position": 2,
 		"text": "<b>Hero Action</b> (<i>attack</i>): Deal X damage to an enemy (to a maximum of 15). X is the amount of damage you have sustained.",
 		"traits": "Attack. Superpower.",
-		"type_code": "event"
+		"type_code": "event",
+		"octgn_id": "c7be5de7-441e-4077-a21a-211b8552bcb2"
 	},
 	{
 		"code": "01022",
@@ -454,7 +478,8 @@
 		"set_position": 3,
 		"text": "<b>Hero Action</b>: Deal 1 damage to each enemy.",
 		"traits": "Superpower.",
-		"type_code": "event"
+		"type_code": "event",
+		"octgn_id": "2546232b-5f39-43d5-8427-69bd1fbb9da8"
 	},
 	{
 		"code": "01023",
@@ -471,7 +496,8 @@
 		"set_position": 5,
 		"text": "<b>Alter-Ego Action</b> (<i>thwart</i>): Choose and discard up to 5 cards from your hand → remove 1 threat from a scheme for each card discarded this way.",
 		"traits": "Skill. Thwart.",
-		"type_code": "event"
+		"type_code": "event",
+		"octgn_id": "2d07f30d-9abe-49a3-8e8e-09a7fa925a41"
 	},
 	{
 		"code": "01024",
@@ -488,7 +514,8 @@
 		"set_position": 7,
 		"text": "<b>Response</b>: After you make a basic attack <i>(using your ATK)</i>, ready She-Hulk.",
 		"traits": "Skill.",
-		"type_code": "event"
+		"type_code": "event",
+		"octgn_id": "14b62a1f-56a2-4115-9717-9c7ca0c706ac"
 	},
 	{
 		"code": "01025",
@@ -504,7 +531,8 @@
 		"set_code": "she_hulk",
 		"set_position": 10,
 		"text": "<b>Action</b>: Change your form <i>(flip your identity card)</i>. Then, draw up to your printed hand size.",
-		"type_code": "event"
+		"type_code": "event",
+		"octgn_id": "4d711d6f-e5f3-4e22-b1d4-e3f8e2f82b88"
 	},
 	{
 		"code": "01026",
@@ -521,7 +549,8 @@
 		"set_position": 11,
 		"text": "<b>Alter-Ego Action</b> (<i>thwart</i>): Exhaust Superhuman Law Division and spend a [mental] resource → remove 2 threat from a scheme.",
 		"traits": "Location.",
-		"type_code": "support"
+		"type_code": "support",
+		"octgn_id": "316e8579-6ef0-476a-b449-eda0d05ecdd2"
 	},
 	{
 		"code": "01027",
@@ -537,7 +566,8 @@
 		"set_position": 12,
 		"text": "<b>Hero Action</b>: Exhaust Focused Rage and take 1 damage → draw 1 card.",
 		"traits": "Skill.",
-		"type_code": "upgrade"
+		"type_code": "upgrade",
+		"octgn_id": "b37aeafa-227b-4edf-8b00-7326ae1b45db"
 	},
 	{
 		"code": "01028",
@@ -553,7 +583,8 @@
 		"set_position": 14,
 		"text": "She-Hulk gets +2 ATK.\n<b>Forced Response</b>: After She-Hulk attacks, discard Superhuman Strength → stun the attacked enemy.",
 		"traits": "Superpower.",
-		"type_code": "upgrade"
+		"type_code": "upgrade",
+		"octgn_id": "562fbca4-2d38-4b65-96ba-4e933b0cea2f"
 	},
 	{
 		"attack": 1,
@@ -574,7 +605,8 @@
 		"text": "You get +1 hand size for each [[Tech]] upgrade you control (to a maximum hand size of 7).",
 		"thwart": 2,
 		"traits": "Avenger.",
-		"type_code": "hero"
+		"type_code": "hero",
+		"octgn_id": "9780ba79-44e4-4530-b865-5983a60372b0"
 	},
 	{
 		"code": "01029b",
@@ -593,7 +625,8 @@
 		"set_code": "iron_man",
 		"text": "Futurist — <b>Action</b>: Look at the top 3 cards of your deck. Add 1 to your hand and discard the others. (Limit once per round.)",
 		"traits": "Genius.",
-		"type_code": "alter_ego"
+		"type_code": "alter_ego",
+		"octgn_id": "9780ba79-44e4-4530-b865-5983a60372b0"
 	},
 	{
 		"attack": 2,
@@ -617,7 +650,8 @@
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "S.H.I.E.L.D. Soldier.",
-		"type_code": "ally"
+		"type_code": "ally",
+		"octgn_id": "091b226f-5285-40f1-9aa0-a4b7a9449a7c"
 	},
 	{
 		"code": "01031",
@@ -633,8 +667,9 @@
 		"set_position": 2,
 		"text": "<b>Hero Action</b> (<i>attack</i>): Deal 1 damage to an enemy and discard the top 5 cards of your deck. For each printed [energy] resource discarded this way, deal 2 additional damage to that enemy.",
 		"traits": "Attack. Superpower.",
-		"type_code": "event"
-	}, 
+		"type_code": "event",
+		"octgn_id": "08234002-9dd8-4a63-b012-7a9647b49b8a"
+	},
 	{
 		"code": "01032",
 		"cost": 2,
@@ -650,8 +685,9 @@
 		"set_position": 5,
 		"text": "<b>Hero Action</b> (<i>attack</i>): Deal 4 damage to an enemy (8 damage instead if you have the [[Aerial]] trait).",
 		"traits": "Attack.",
-		"type_code": "event"
-	},	 
+		"type_code": "event",
+		"octgn_id": "98a1d5d7-e576-4da3-8d13-82fbb2042bfc"
+	},
 	{
 		"code": "01033",
 		"cost": 3,
@@ -668,8 +704,9 @@
 		"set_position": 7,
 		"text": "<b>Resource</b>: Exhaust Pepper Potts → generate the resources of the top card in your discard pile.",
 		"traits": "Persona.",
-		"type_code": "support"
-	},	 
+		"type_code": "support",
+		"octgn_id": "e7e08f4c-7505-46fa-be88-9e9e71c2470a"
+	},
 	{
 		"code": "01034",
 		"cost": 2,
@@ -686,8 +723,9 @@
 		"set_position": 8,
 		"text": "<b>Alter-Ego Action</b>: Exhaust Stark Tower → choose a player. That player returns the topmost [[Tech]] upgrade in their discard pile to their hand.",
 		"traits": "Location.",
-		"type_code": "support"
-	},		
+		"type_code": "support",
+		"octgn_id": "a880a5d8-3030-4b78-b924-31a6911730cc"
+	},
 	{
 		"code": "01035",
 		"cost": 2,
@@ -704,8 +742,9 @@
 		"set_position": 9,
 		"text": "<b>Hero Action</b>: Exhaust Arc Reactor → ready Iron Man.",
 		"traits": "Item. Tech.",
-		"type_code": "upgrade"
-	},		
+		"type_code": "upgrade",
+		"octgn_id": "2b05d67a-9741-4636-a7d7-1b8e130ba380"
+	},
 	{
 		"code": "01036",
 		"cost": 3,
@@ -722,8 +761,9 @@
 		"set_position": 10,
 		"text": "You get +6 hit points.",
 		"traits": "Armor. Tech.",
-		"type_code": "upgrade"
-	},		
+		"type_code": "upgrade",
+		"octgn_id": "43b510f4-1d90-42d4-b414-c7e27ff8e824"
+	},
 	{
 		"code": "01037",
 		"cost": 1,
@@ -740,8 +780,9 @@
 		"set_position": 11,
 		"text": "<b>Hero Action</b> (<i>thwart</i>): Exhaust Mark V Helmet → remove 1 threat from a scheme (from each scheme instead if you have the [[Aerial]] trait).",
 		"traits": "Armor. Tech.",
-		"type_code": "upgrade"
-	},			 
+		"type_code": "upgrade",
+		"octgn_id": "2cd0b387-5223-484f-8cfe-2d8d7a7cc7e8"
+	},
 	{
 		"code": "01038",
 		"cost": 2,
@@ -757,8 +798,9 @@
 		"set_position": 12,
 		"text": "<b>Hero Action</b> (<i>attack</i>): Exhaust Powered Gauntlets → deal 1 damage to an enemy (2 damage instead if you have the [[Aerial]] trait).",
 		"traits": "Armor. Tech.",
-		"type_code": "upgrade"
-	},				 
+		"type_code": "upgrade",
+		"octgn_id": "13e64917-d277-44e7-a649-90e69df67ba9"
+	},
 	{
 		"code": "01039",
 		"cost": 1,
@@ -773,8 +815,9 @@
 		"set_position": 14,
 		"text": "You get +1 hit point.\n<b>Hero Action</b>: Exhaust Rocket Boots and spend a [mental] resource → gain the [[Aerial]] trait until the end of the phase.",
 		"traits": "Armor. Tech.",
-		"type_code": "upgrade"
-	}, 
+		"type_code": "upgrade",
+		"octgn_id": "fd37efd8-d1fd-49c1-9ded-9ef3ebb763b2"
+	},
 	{
 		"attack": 2,
 		"code": "01040a",
@@ -794,7 +837,8 @@
 		"text": "Retaliate 1. <i>(After this character is attacked, deal 1 damage to the attacking character.)</i>",
 		"thwart": 2,
 		"traits": "Avenger. Wakanda.",
-		"type_code": "hero"
+		"type_code": "hero",
+		"octgn_id": "ced52353-61f7-4ed1-8469-01d396904d61"
 	},
 	{
 		"code": "01040b",
@@ -812,7 +856,8 @@
 		"set_code": "black_panther",
 		"text": "Foresight - <b>Setup</b>: Search your deck for a [[Black Panther]] upgrade and add it to your hand. Shuffle your deck.",
 		"traits": "King. Wakanda.",
-		"type_code": "alter_ego"
+		"type_code": "alter_ego",
+		"octgn_id": "ced52353-61f7-4ed1-8469-01d396904d61"
 	},
 	{
 		"attack": 1,
@@ -835,7 +880,8 @@
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Genius. Wakanda.",
-		"type_code": "ally"
+		"type_code": "ally",
+		"octgn_id": "b089edac-1010-4dcb-a679-dab7ba75b041"
 	},
 	{
 		"code": "01042",
@@ -851,8 +897,9 @@
 		"set_code": "black_panther",
 		"set_position": 2,
 		"text": "<b>Alter-Ego Action</b>: Choose up to 3 different cards in your discard pile and shuffle them into your deck.",
-		"type_code": "event"
-	}, 
+		"type_code": "event",
+		"octgn_id": "d0b8108c-26a7-45bc-a529-3244768f474d"
+	},
 	{
 		"code": "01043a",
 		"cost": 1,
@@ -867,8 +914,9 @@
 		"set_position": 3,
 		"text": "<b>Hero Action</b>: Resolve the \"<b>Special</b>\" ability on each [[Black Panther]] upgrade you control in any order. <i>(Resolving each ability is a step in a sequence.)</i>",
 		"traits": "Tactic.",
-		"type_code": "event"
-	}, 
+		"type_code": "event",
+		"octgn_id": "9e348b42-e067-4bae-acf3-46d2d742e9ff"
+	},
 	{
 		"code": "01043b",
 		"cost": 1,
@@ -883,8 +931,9 @@
 		"set_position": 4,
 		"text": "<b>Hero Action</b>: Resolve the \"<b>Special</b>\" ability on each [[Black Panther]] upgrade you control in any order. <i>(Resolving each ability is a step in a sequence.)</i>",
 		"traits": "Tactic.",
-		"type_code": "event"
-	}, 
+		"type_code": "event",
+		"octgn_id": "9129d847-2443-4cb2-9f5f-6542c7c01718"
+	},
 	{
 		"code": "01043c",
 		"cost": 1,
@@ -899,8 +948,9 @@
 		"set_position": 5,
 		"text": "<b>Hero Action</b>: Resolve the \"<b>Special</b>\" ability on each [[Black Panther]] upgrade you control in any order. <i>(Resolving each ability is a step in a sequence.)</i>",
 		"traits": "Tactic.",
-		"type_code": "event"
-	}, 
+		"type_code": "event",
+		"octgn_id": "4b88f8df-9eeb-43ba-9114-40b76b55cb6f"
+	},
 	{
 		"code": "01043d",
 		"cost": 1,
@@ -915,8 +965,9 @@
 		"set_position": 6,
 		"text": "<b>Hero Action</b>: Resolve the \"<b>Special</b>\" ability on each [[Black Panther]] upgrade you control in any order. <i>(Resolving each ability is a step in a sequence.)</i>",
 		"traits": "Tactic.",
-		"type_code": "event"
-	},	
+		"type_code": "event",
+		"octgn_id": "20def532-1101-43f3-b27b-2d57335664d0"
+	},
 	{
 		"code": "01044",
 		"deck_limit": 3,
@@ -929,8 +980,9 @@
 		"resource_wild": 2,
 		"set_code": "black_panther",
 		"set_position": 8,
-		"type_code": "resource"
-	}, 
+		"type_code": "resource",
+		"octgn_id": "04138154-763e-449d-b53e-ef3b1f053bb3"
+	},
 	{
 		"code": "01045",
 		"cost": 2,
@@ -947,8 +999,9 @@
 		"set_position": 11,
 		"text": "<b>Alter-Ego Action</b>: Exhaust The Golden City → draw 2 cards.",
 		"traits": "Location. Wakanda.",
-		"type_code": "support"
-	},			 
+		"type_code": "support",
+		"octgn_id": "f0d47c90-7349-4440-b6e8-78a04293621c"
+	},
 	{
 		"code": "01046",
 		"cost": 2,
@@ -963,8 +1016,9 @@
 		"set_position": 12,
 		"text": "<b>Special</b>: Choose a player. Deal 1 damage to the villain and to each enemy engaged with that player (2 damage instead if this is the final step of this sequence).\n<i>(Play the \"Wakanda Forever!\" event to use this ability.)</i>",
 		"traits": "Black Panther. Weapon.",
-		"type_code": "upgrade"
-	},		
+		"type_code": "upgrade",
+		"octgn_id": "cfbadb2e-90cc-4898-b760-0fa7f971fcfe"
+	},
 	{
 		"code": "01047",
 		"cost": 2,
@@ -979,8 +1033,9 @@
 		"set_position": 13,
 		"text": "<b>Special</b> (<i>attack</i>): Deal 2 damage to an enemy (4 damage instead if this is the final step of this sequence).\n<i>(Play the \"Wakanda Forever!\" event to use this ability.)</i>",
 		"traits": "Black Panther. Weapon.",
-		"type_code": "upgrade"
-	}, 
+		"type_code": "upgrade",
+		"octgn_id": "576fa771-26be-497f-b5b2-ff86edb09bfa"
+	},
 	{
 		"code": "01048",
 		"cost": 2,
@@ -995,8 +1050,9 @@
 		"set_position": 14,
 		"text": "<b>Special</b> (<i>thwart</i>): Remove 1 threat from a scheme (2 threat instead if this is the final step of this sequence).\n<i>(Play the \"Wakanda Forever!\" event to use this ability.)</i>",
 		"traits": "Black Panther. Skill.",
-		"type_code": "upgrade"
-	}, 
+		"type_code": "upgrade",
+		"octgn_id": "6f0c70e1-1b39-4ec8-89f5-62dcd9b406a7"
+	},
 	{
 		"code": "01049",
 		"cost": 2,
@@ -1011,8 +1067,9 @@
 		"set_position": 15,
 		"text": "<b>Special</b> (<i>attack</i>): Move 1 damage from your hero to an enemy (2 damage instead if this is the final step of this sequence).\n<i>(Play the \"Wakanda Forever!\" event to use this ability.)</i>",
 		"traits": "Armor. Black Panther.",
-		"type_code": "upgrade"
-	}, 
+		"type_code": "upgrade",
+		"octgn_id": "a9469ef7-c792-4b2b-a2ed-d46684cf67a5"
+	},
 	{
 		"attack": 3,
 		"attack_cost": 1,
@@ -1026,12 +1083,13 @@
 		"pack_code": "core",
 		"position": 50,
 		"quantity": 1,
-		"resource_energy": 1,	 
+		"resource_energy": 1,
 		"subname": "Bruce Banner",
 		"text": "<b>Forced Response</b>: After Hulk attacks, discard the top card of your deck. If that card's printed resource has:\n[physical] - Deal 2 damage to an enemy.\n[energy] - Deal 1 damage to each character.\n[mental] - Discard Hulk.\n[wild] - All of the above.",
 		"thwart": null,
 		"traits": "Avenger. Gamma.",
-		"type_code": "ally"
+		"type_code": "ally",
+		"octgn_id": "a690f1b8-7ffc-4330-b715-298e76851f71"
 	},
 	{
 		"attack": 2,
@@ -1047,14 +1105,15 @@
 		"pack_code": "core",
 		"position": 51,
 		"quantity": 1,
-		"resource_mental": 1,	 
+		"resource_mental": 1,
 		"subname": "Greer Grant Nelson",
 		"text": "<b>Response</b>: After Tigra attacks and defeats a minion, heal 1 damage from her.",
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Avenger.",
-		"type_code": "ally"
-	}, 
+		"type_code": "ally",
+		"octgn_id": "ce90e714-7f44-4343-9d2e-a67ff71c119c"
+	},
 	{
 		"code": "01052",
 		"cost": 0,
@@ -1068,8 +1127,9 @@
 		"resource_mental": 1,
 		"text": "<b>Response</b> (<i>thwart</i>): After your hero attacks and defeats an enemy, remove 2 threat from a scheme.",
 		"traits": "Thwart.",
-		"type_code": "event"
-	}, 
+		"type_code": "event",
+		"octgn_id": "2e4ddba3-8b3f-479b-bf64-c2c25b5b6fef"
+	},
 	{
 		"code": "01053",
 		"cost": 2,
@@ -1082,8 +1142,9 @@
 		"resource_energy": 1,
 		"text": "<b>Hero Action</b> (<i>attack</i>): Deal 5 damage to a minion. If you paid for this card using a [physical] resource, this attack gains overkill. <i>(Excess damage from this attack is dealt to the villain.)</i>",
 		"traits": "Attack.",
-		"type_code": "event"
-	}, 
+		"type_code": "event",
+		"octgn_id": "540a11a4-a630-4a18-b59b-d11f60191b92"
+	},
 	{
 		"code": "01054",
 		"cost": 3,
@@ -1097,8 +1158,9 @@
 		"resource_physical": 1,
 		"text": "<b>Hero Action</b> (<i>attack</i>): Deal 5 damage to an enemy.",
 		"traits": "Attack.",
-		"type_code": "event"
-	}, 
+		"type_code": "event",
+		"octgn_id": "30d53042-f68d-4607-afad-257f33099788"
+	},
 	{
 		"code": "01055",
 		"deck_limit": 2,
@@ -1109,8 +1171,9 @@
 		"quantity": 2,
 		"resource_wild": 1,
 		"text": "Max 2 per deck.\nDouble the number of resources this card generates while paying for a Aggression <i>(red)</i> card.",
-		"type_code": "resource"
-	}, 
+		"type_code": "resource",
+		"octgn_id": "e81c8970-6e8f-4dff-ac6b-b2a913329e8e"
+	},
 	{
 		"code": "01056",
 		"cost": 3,
@@ -1123,8 +1186,9 @@
 		"resource_energy": 1,
 		"text": "Uses (3 attack counters). <i>(Enters play with 3 counters. When those are gone, discard this card)</i>\n<b>Action</b>: Exhaust Tac Team and remove 1 attack counter from it → deal 2 damage to an enemy.",
 		"traits": "S.H.I.E.L.D.",
-		"type_code": "support"
-	},	 
+		"type_code": "support",
+		"octgn_id": "8c19e625-e6b4-4b77-ae79-2ef6e946511d"
+	},
 	{
 		"code": "01057",
 		"cost": 2,
@@ -1138,8 +1202,9 @@
 		"resource_physical": 1,
 		"text": "Play under any player's control. Max 1 per player.\nYour hero gets +1 ATK.",
 		"traits": "Skill.",
-		"type_code": "upgrade"
-	},	 
+		"type_code": "upgrade",
+		"octgn_id": "55102c6c-0197-41af-999d-47df7f8ce521"
+	},
 	{
 		"attack": 2,
 		"attack_cost": 1,
@@ -1154,13 +1219,14 @@
 		"pack_code": "core",
 		"position": 58,
 		"quantity": 1,
-		"resource_energy": 1,	 
+		"resource_energy": 1,
 		"text": "Jessica Jones gets +1 THW for each side scheme in play.",
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Defender.",
-		"type_code": "ally"
-	},	
+		"type_code": "ally",
+		"octgn_id": "0edd43ce-a861-4352-aea7-8a53a100f6cd"
+	},
 	{
 		"attack": 2,
 		"attack_cost": 1,
@@ -1175,14 +1241,15 @@
 		"pack_code": "core",
 		"position": 59,
 		"quantity": 1,
-		"resource_physical": 1,	 
+		"resource_physical": 1,
 		"subname": "Matt Murdock",
 		"text": "<b>Response</b>: After Daredevil thwarts, deal 1 damage to an enemy.",
 		"thwart": 2,
 		"thwart_cost": 1,
 		"traits": "Defender.",
-		"type_code": "ally"
-	}, 
+		"type_code": "ally",
+		"octgn_id": "9db3e447-9429-4641-8dfd-2f34e3ca64cc"
+	},
 	{
 		"code": "01060",
 		"cost": 2,
@@ -1196,8 +1263,9 @@
 		"resource_energy": 1,
 		"text": "<b>Hero Action</b> (<i>thwart</i>): Remove 3 threat from a scheme (4 threat instead if you paid for this card using a [mental] resource).",
 		"traits": "Thwart.",
-		"type_code": "event"
-	},	
+		"type_code": "event",
+		"octgn_id": "8c071923-f2b1-44e9-a579-db84bb823cc0"
+	},
 	{
 		"code": "01061",
 		"cost": 0,
@@ -1209,8 +1277,9 @@
 		"quantity": 3,
 		"resource_mental": 1,
 		"text": "<b>Hero Interrupt</b>: When any amount of threat would be placed on a scheme, you take it as damage instead.",
-		"type_code": "event"
-	},	
+		"type_code": "event",
+		"octgn_id": "48acb22e-8bb3-4e0c-ae62-696bbf5830ac"
+	},
 	{
 		"code": "01062",
 		"deck_limit": 2,
@@ -1221,8 +1290,9 @@
 		"quantity": 2,
 		"resource_wild": 1,
 		"text": "Max 2 per deck.\nDouble the number of resources this card generates while paying for a Justice <i>(yellow)</i> card.",
-		"type_code": "resource"
-	},	
+		"type_code": "resource",
+		"octgn_id": "e026becd-b30b-42de-b699-dfc9041c3e87"
+	},
 	{
 		"code": "01063",
 		"cost": 1,
@@ -1236,8 +1306,9 @@
 		"resource_energy": 1,
 		"text": "Max 1 per player.\n<b>Response</b>: After you defeat a minion, exhaust Interrogation Room → remove 1 threat from a scheme.",
 		"traits": "Location.",
-		"type_code": "support"
-	},	 
+		"type_code": "support",
+		"octgn_id": "4ba26dae-aba7-49ad-b32f-ac8f7082dd65"
+	},
 	{
 		"code": "01064",
 		"cost": 2,
@@ -1250,8 +1321,9 @@
 		"resource_mental": 1,
 		"text": "Uses (3 snoop counters). <i>(Enters play with 3 counters. When those are gone, discard this card)</i>\n<b>Action</b>: Exhaust Surveillance Team and remove 1 snoop counter from it → remove 1 threat from a scheme.",
 		"traits": "S.H.I.E.L.D.",
-		"type_code": "support"
-	},	
+		"type_code": "support",
+		"octgn_id": "32d2a72b-c11b-4269-99c8-83bf6ec3633a"
+	},
 	{
 		"code": "01065",
 		"cost": 2,
@@ -1264,8 +1336,9 @@
 		"resource_energy": 1,
 		"text": "Play under any player's control. Max 1 per player.\nYour hero gets +1 THW.",
 		"traits": "Skill.",
-		"type_code": "upgrade"
-	},	
+		"type_code": "upgrade",
+		"octgn_id": "c7bb3cde-ddd6-415d-a999-29fc98c841d8"
+	},
 	{
 		"attack": 1,
 		"attack_cost": 1,
@@ -1279,13 +1352,14 @@
 		"pack_code": "core",
 		"position": 66,
 		"quantity": 1,
-		"resource_energy": 1,	 
+		"resource_energy": 1,
 		"text": "Hawkeye enters play with 4 arrow counters on him.\n<b>Response</b>: After a minion enters play, remove 1 arrow counter from Hawkeye → deal 2 damage to that minion.",
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Avenger.",
-		"type_code": "ally"
-	},	 
+		"type_code": "ally",
+		"octgn_id": "132a6e25-8d70-416a-aede-2e9cc243de66"
+	},
 	{
 		"attack": 1,
 		"attack_cost": 1,
@@ -1300,13 +1374,14 @@
 		"pack_code": "core",
 		"position": 67,
 		"quantity": 1,
-		"resource_mental": 1,	 
+		"resource_mental": 1,
 		"text": "<b>Response</b>: After Maria Hill enters play, each player draws 1 card.",
 		"thwart": 2,
 		"thwart_cost": 1,
 		"traits": "S.H.I.E.L.D.",
-		"type_code": "ally"
-	},	 
+		"type_code": "ally",
+		"octgn_id": "ae2b89a1-2c67-4207-9281-21bdae5c176b"
+	},
 	{
 		"attack": 2,
 		"attack_cost": 1,
@@ -1321,13 +1396,14 @@
 		"pack_code": "core",
 		"position": 68,
 		"quantity": 1,
-		"resource_physical": 1,	 
+		"resource_physical": 1,
 		"text": "<b>Action</b>: Spend a [energy] resource → choose THW or ATK. Until the end of the phase, Vision gets +2 to the chosen power. (Limit oncer per round.)",
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Android. Avenger.",
-		"type_code": "ally"
-	},	
+		"type_code": "ally",
+		"octgn_id": "a19ba47a-07f7-4521-9d50-5367e375cb01"
+	},
 	{
 		"code": "01069",
 		"cost": 0,
@@ -1340,8 +1416,9 @@
 		"quantity": 3,
 		"resource_physical": 1,
 		"text": "<b>Action</b>: Ready an ally.",
-		"type_code": "event"
-	},	
+		"type_code": "event",
+		"octgn_id": "6d82a251-a132-4b20-a941-fc04b1cf10ef"
+	},
 	{
 		"code": "01070",
 		"cost": 2,
@@ -1355,8 +1432,9 @@
 		"resource_energy": 1,
 		"text": "<b>Hero Action</b>: Choose a player. Each character that player controls gets +1 THW and +1 ATK until the end of the phase.",
 		"traits": "Tactic.",
-		"type_code": "event"
-	},	
+		"type_code": "event",
+		"octgn_id": "1447eda1-bb33-4abd-b78b-b278a87f1631"
+	},
 	{
 		"code": "01071",
 		"cost": 0,
@@ -1369,8 +1447,9 @@
 		"quantity": 3,
 		"resource_mental": 1,
 		"text": "<b>Action</b>: Pay the printed cost of an ally in any player's discard pile → put that ally into play under your control.",
-		"type_code": "event"
-	},	
+		"type_code": "event",
+		"octgn_id": "23d1d2d0-88ea-410c-84a8-da63872db6b9"
+	},
 	{
 		"code": "01072",
 		"deck_limit": 2,
@@ -1381,8 +1460,9 @@
 		"quantity": 2,
 		"resource_wild": 1,
 		"text": "Max 2 per deck.\nDouble the number of resources this card generates while paying for a Leadership <i>(blue)</i> card.",
-		"type_code": "resource"
-	},	 
+		"type_code": "resource",
+		"octgn_id": "ba5d2c1f-2fb8-4e92-9c77-c50222bc1a9c"
+	},
 	{
 		"code": "01073",
 		"cost": 1,
@@ -1397,8 +1477,9 @@
 		"resource_energy": 1,
 		"text": "Increase your ally limit by 1. <i>(This allows you to control more than 3 allies.)</i>",
 		"traits": "Location. S.H.I.E.L.D.",
-		"type_code": "support"
-	},	
+		"type_code": "support",
+		"octgn_id": "f8d06472-2828-4a79-8ffc-4234025efd14"
+	},
 	{
 		"code": "01074",
 		"cost": 1,
@@ -1412,8 +1493,9 @@
 		"resource_physical": 1,
 		"text": "Attach to an ally. Max 1 per ally.\nAttached ally gets +1 THW and +1 ATK.",
 		"traits": "Condition.",
-		"type_code": "upgrade"
-	}, 
+		"type_code": "upgrade",
+		"octgn_id": "9c6681b7-42bf-4ae8-a123-8ca9a8a28ac3"
+	},
 	{
 		"attack": 1,
 		"attack_cost": 1,
@@ -1427,14 +1509,15 @@
 		"pack_code": "core",
 		"position": 75,
 		"quantity": 1,
-		"resource_physical": 1,	 
+		"resource_physical": 1,
 		"subname": "Natasha Romanoff",
 		"text": "<b>Interrupt</b>: When a card is revealed from the encounter deck, exhaust Black Widow and spend a [mental] resource → cancel the effects of that card and discard it. Then, reveal another card from the encounter deck.",
 		"thwart": 2,
 		"thwart_cost": 1,
 		"traits": "S.H.I.E.L.D. Spy.",
-		"type_code": "ally"
-	},		 
+		"type_code": "ally",
+		"octgn_id": "5a7fee35-ad78-4763-ae4a-8455f8872289"
+	},
 	{
 		"attack": 2,
 		"attack_cost": 1,
@@ -1449,13 +1532,14 @@
 		"pack_code": "core",
 		"position": 76,
 		"quantity": 1,
-		"resource_energy": 1,	 
+		"resource_energy": 1,
 		"text": "Toughness. <i>(This character enters play with a tough status card.)</i>",
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Defender.",
-		"type_code": "ally"
-	},			 
+		"type_code": "ally",
+		"octgn_id": "03db5a4b-3bdf-4a8e-8569-d9641ee4565f"
+	},
 	{
 		"code": "01077",
 		"cost": 0,
@@ -1469,8 +1553,9 @@
 		"resource_physical": 1,
 		"text": "<b>Response</b> (<i>attack</i>): After your hero defends against an enemy attack, deal damage to that enemy equal to your hero's ATK.",
 		"traits": "Attack.",
-		"type_code": "event"
-	},				
+		"type_code": "event",
+		"octgn_id": "d9099ad2-c654-411f-8e9b-080bee245ef4"
+	},
 	{
 		"code": "01078",
 		"cost": 1,
@@ -1483,8 +1568,9 @@
 		"quantity": 3,
 		"resource_mental": 1,
 		"text": "<b>Hero Interrupt</b>: When a treachery card is revealed from the encounter deck, cancel its \"<b>When Revealed</b>\" effects. The villain attacks you instead.",
-		"type_code": "event"
-	}, 
+		"type_code": "event",
+		"octgn_id": "67148069-a6e4-4f69-856c-a08c8c4ae5e1"
+	},
 	{
 		"code": "01079",
 		"deck_limit": 2,
@@ -1495,8 +1581,9 @@
 		"quantity": 2,
 		"resource_wild": 1,
 		"text": "Max 2 per deck.\nDouble the number of resources this card generates while paying for a Protection <i>(green)</i> card.",
-		"type_code": "resource"
-	},		 
+		"type_code": "resource",
+		"octgn_id": "a0390985-df47-494a-85fc-f92a83518e34"
+	},
 	{
 		"code": "01080",
 		"cost": 3,
@@ -1509,8 +1596,9 @@
 		"resource_energy": 1,
 		"text": "Uses (3 medical counters). <i>(Enters play with 3 counters. When those are gone, discard this card.)</i>\n<b>Action</b>: Exhaust Med Team and remove 1 medical counter from it → heal 2 damage from a friendly character.",
 		"traits": "S.H.I.E.L.D.",
-		"type_code": "support"
-	}, 
+		"type_code": "support",
+		"octgn_id": "b7c500ec-9b58-43cb-9310-0ac806a102c8"
+	},
 	{
 		"code": "01081",
 		"cost": 1,
@@ -1524,8 +1612,9 @@
 		"resource_mental": 1,
 		"text": "Play under any player's control. Max 1 per player.\nYour hero gets +1 DEF.",
 		"traits": "Armor.",
-		"type_code": "upgrade"
-	}, 
+		"type_code": "upgrade",
+		"octgn_id": "2bd1068a-73f7-4c58-a212-55cde44e09b1"
+	},
 	{
 		"code": "01082",
 		"cost": 1,
@@ -1539,8 +1628,9 @@
 		"resource_energy": 1,
 		"text": "<b>Response</b>: After your hero defends, discard indomitable → ready your hero.",
 		"traits": "Condition.",
-		"type_code": "upgrade"
-	}, 
+		"type_code": "upgrade",
+		"octgn_id": "0b68b17c-bf82-446c-933a-e6fafbca360e"
+	},
 	{
 		"attack": 1,
 		"attack_cost": 1,
@@ -1560,8 +1650,9 @@
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "S.H.I.E.L.D. Spy.",
-		"type_code": "ally"
-	},		 
+		"type_code": "ally",
+		"octgn_id": "07bcfd3b-b6a0-4d70-8f6e-b5f152adf98d"
+	},
 	{
 		"attack": 2,
 		"attack_cost": 1,
@@ -1575,13 +1666,14 @@
 		"pack_code": "core",
 		"position": 84,
 		"quantity": 1,
-		"resource_mental": 1,	 
+		"resource_mental": 1,
 		"text": "<b>Forced Response</b>: After Nick Fury enters play, choose one: remove 2 threat from a scheme, draw 3 cards, or deal 4 damage to an enemy. At the end of the round, if Nick Fury is still in play, discard him.",
 		"thwart": 2,
 		"thwart_cost": 1,
 		"traits": "S.H.I.E.L.D. Spy.",
-		"type_code": "ally"
-	},	 
+		"type_code": "ally",
+		"octgn_id": "81144a13-02ef-4873-b0b8-bb8544d62c10"
+	},
 	{
 		"code": "01085",
 		"cost": 0,
@@ -1595,8 +1687,9 @@
 		"resource_energy": 1,
 		"text": "<b>Interrupt</b> (<i>thwart</i>): When the villain schemes, reduce the amount of threat placed on the scheme by 1.",
 		"traits": "Thwart.",
-		"type_code": "event"
-	}, 
+		"type_code": "event",
+		"octgn_id": "cef2d14c-8e58-48e3-9330-5342b583f532"
+	},
 	{
 		"code": "01086",
 		"cost": 1,
@@ -1609,7 +1702,8 @@
 		"quantity": 3,
 		"resource_mental": 1,
 		"text": "<b>Action</b>: Heal 2 damage from any character.",
-		"type_code": "event"
+		"type_code": "event",
+		"octgn_id": "559ea4da-8bb7-4021-b4ed-ebb7c8d9bc2c"
 	},
 	{
 		"code": "01087",
@@ -1624,8 +1718,9 @@
 		"resource_energy": 1,
 		"text": "<b>Hero Action</b> (<i>attack</i>): Deal 3 damage to an enemy.",
 		"traits": "Attack.",
-		"type_code": "event"
-	}, 
+		"type_code": "event",
+		"octgn_id": "270f6e5d-6331-4211-a3a1-d0bdcc9fa4e2"
+	},
 	{
 		"code": "01088",
 		"deck_limit": 1,
@@ -1636,8 +1731,9 @@
 		"quantity": 4,
 		"resource_energy": 2,
 		"text": "Max 1 per deck.",
-		"type_code": "resource"
-	},	 
+		"type_code": "resource",
+		"octgn_id": "dd796868-b224-4ec0-be8f-46507c86cbef"
+	},
 	{
 		"code": "01089",
 		"deck_limit": 1,
@@ -1648,8 +1744,9 @@
 		"quantity": 4,
 		"resource_mental": 2,
 		"text": "Max 1 per deck.",
-		"type_code": "resource"
-	},	 
+		"type_code": "resource",
+		"octgn_id": "ec9d5930-031c-493c-920b-32d980409567"
+	},
 	{
 		"code": "01090",
 		"deck_limit": 1,
@@ -1660,8 +1757,9 @@
 		"quantity": 4,
 		"resource_physical": 2,
 		"text": "Max 1 per deck.",
-		"type_code": "resource"
-	}, 
+		"type_code": "resource",
+		"octgn_id": "a3fcb7fc-5fbf-4566-b29f-4abdd841e2cc"
+	},
 	{
 		"code": "01091",
 		"cost": 4,
@@ -1675,8 +1773,9 @@
 		"resource_mental": 1,
 		"text": "Max 1 per player.\n<b>Action</b>: Exhaust Avengers Mansion → choose a player. That player draws 1 card.",
 		"traits": "Avenger. Location.",
-		"type_code": "support"
-	},	
+		"type_code": "support",
+		"octgn_id": "f5ab3190-a2d1-4f1f-be25-de0085706eff"
+	},
 	{
 		"code": "01092",
 		"cost": 3,
@@ -1690,8 +1789,9 @@
 		"resource_physical": 1,
 		"text": "Max 1 per player.\n<b>Action</b>: Exhaust Helicarrier → choose a player. Reduce the resource cost of the next card that player plays this phase by 1.",
 		"traits": "Location. S.H.I.E.L.D.",
-		"type_code": "support"
-	},	
+		"type_code": "support",
+		"octgn_id": "1350f98c-921d-4594-9189-c1f852526870"
+	},
 	{
 		"code": "01093",
 		"cost": 2,
@@ -1704,6 +1804,7 @@
 		"resource_energy": 1,
 		"text": "<b>Hero Action</b>: Spend a [physical] resource and discard this card → ready your hero.",
 		"traits": "Condition.",
-		"type_code": "upgrade"
+		"type_code": "upgrade",
+		"octgn_id": "c5cfd294-2e88-4ec8-a2e8-b51309f94bb6"
 	}
 ]
