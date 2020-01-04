@@ -43,7 +43,7 @@
 	},
 	{
 		"attack": null,
-		"attack_text": "<b>Forced Interrupt</b>: When Norman Osborn would attack, place 1 infamy counter on Criminal Enterprise instead.",
+		"attack_text": "<b>Forced Interrupt</b>: When Norman Osborn would attack, place 2 infamy counter on Criminal Enterprise instead.",
 		"code": "02002a",
 		"faction_code": "encounter",
 		"health": 18,
@@ -54,7 +54,7 @@
 		"pack_code": "gob",
 		"position": 2,
 		"quantity": 1,
-		"scheme": 3,
+		"scheme": 2,
 		"set_code": "risky_business",
 		"set_position": 2,
 		"stage": 2,
@@ -85,7 +85,7 @@
 	},
 	{
 		"attack": null,
-		"attack_text": "<b>Forced Interrupt</b>: When Norman Osborn would attack, place 1 infamy counter on Criminal Enterprise instead.",
+		"attack_text": "<b>Forced Interrupt</b>: When Norman Osborn would attack, place 3 infamy counter on Criminal Enterprise instead.",
 		"code": "02003a",
 		"faction_code": "encounter",
 		"health": 22,
@@ -121,13 +121,12 @@
 		"set_code": "risky_business",
 		"set_position": 3,
 		"stage": 3,
-		"text": "<b>When Revealed</b>: Deal 4 indirect damage to each player.",
+		"text": "<b>When Revealed</b>: Deal 4 damage to each player.",
 		"traits": "Goblin.",
 		"type_code": "villain"
 	},
 	{
-		"back_flavor": "",
-		"back_text": "",
+		"back_text": "<b>Contents</b>: Norman Osborn (I) and Norman Osborn (II). <i>(Norman Osborn (II) and Norman Osborn (III) instead for expert mode.)</i> Risky Business and Standard encounter sets. One modular encounter set <i>(recommended: Goblin Gimmicks)</i>.\n<b>Setup</b>: Put the Criminal Enterprise environment into play. Shuffle the encounter deck. Advance to stage 1B.",
 		"base_threat": 2,
 		"base_threat_fixed": false,
 		"code": "02004",
@@ -147,8 +146,8 @@
 		"type_code": "main_scheme"
 	},
 	{
-		"back_flavor": "",
-		"back_text": "",
+		"back_flavor": "With a branch of Stark Industries under his control, Normon Osborn will gain access to deadly technologies and quadruple the manufacturing capabilities of Oscorp.",
+		"back_text": "<b>When Revealed</b>: Advance to stage 2B.",
 		"base_threat": 1,
 		"base_threat_fixed": false,
 		"code": "02005",
@@ -186,7 +185,8 @@
 		"code": "02006b",
 		"faction_code": "encounter",
 		"flavor": "\"Fool! Your power is nothing compared to mine! Your strength is nothing, your intellect is NOTHING!\" -- Green Goblin",
-		"name": "State of Madness",
+		"hidden": true,
+    "name": "State of Madness",
 		"pack_code": "gob",
 		"position": 6,
 		"quantity": 1,
@@ -197,7 +197,7 @@
 	},
 	{
 		"attack": 2,
-		"boost": 1,
+		"boost": 2,
 		"boost_text": "Place 1 infamy counter on Criminal Enterprise. If you cannot, remove 1 madness counter from State of Madness.",
 		"code": "02007",
 		"faction_code": "encounter",
@@ -370,8 +370,7 @@
 		"type_code": "villain"
 	},
 	{
-		"back_flavor": "",
-		"back_text": "",
+		"back_text": "<b>Contents</b>: Green Goblin (I) and Green Goblin (II). <i>(Green Goblin (II) and Green Goblin (III) instead for expert mode.)</i> Mutagen Formula and Standard encounter sets. One modular encounter set <i>(recommended: Goblin Gimmicks)</i>.\n<b>Setup</b>: Put a Goblin Thrall minion into play engaged with each player. Shuffle the encounter deck. Advance to stage 1B.",
 		"base_threat": 2,
 		"base_threat_fixed": false,
 		"code": "02017",
@@ -379,7 +378,7 @@
 		"escalation_threat": 1,
 		"faction_code": "encounter",
 		"flavor": "Green Goblin has released a toxic mutagen gas on New York City.",
-		"name": "Unleasing the Mutagen",
+		"name": "Unleashing the Mutagen",
 		"pack_code": "gob",
 		"position": 17,
 		"quantity": 1,
@@ -391,13 +390,14 @@
 		"type_code": "main_scheme"
 	},
 	{
-		"back_flavor": "",
-		"back_text": "",
+		"back_flavor": "As the cloud engulfs the city, those unfortunate enough to be caught in the vapors begin to shiver and shift, mutating into hideous goblin creatures.",
+		"back_text": "<b>When Revealed</b>: Advance to stage 2B.",
 		"base_threat": 4,
 		"base_threat_fixed": false,
 		"code": "02018",
 		"double_sided": true,
 		"escalation_threat": -2,
+    "escalation_threat_fixed": true,
 		"faction_code": "encounter",
 		"flavor": "The goblin creatures serve Green Goblin's every command. Stop Green Goblin before his monstrous militia overruns the city!",
 		"name": "Mutagen Cloud",
@@ -438,7 +438,7 @@
 		"set_code": "mutagen_formula",
 		"set_position": 7,
 		"scheme_text": "<b>Forced Interrupt</b>: When Green Goblin schemes or attacks, give him 1 additional boost card for that activation.",
-		"text": "<b>Hero Action</b>: Spend [mental] [mental] resources → discard this card.",
+		"text": "Attach to Green Goblin.\n<b>Hero Action</b>: Spend [mental] [mental] resources → discard this card.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -453,7 +453,7 @@
 		"quantity": 1,
 		"set_code": "mutagen_formula",
 		"set_position": 8,
-		"text": "<b>Hero Action</b>: Spend [physical] [physical] resources → discard this card.",
+		"text": "Attach to the villain.\n<b>Hero Action</b>: Spend [physical] [physical] resources → discard this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -549,7 +549,6 @@
 	{
 		"base_threat": 2,
 		"base_threat_fixed": false,
-		"boost": 1,
 		"boost_text": "Put Goblin Nation into play.",
 		"code": "02027",
 		"faction_code": "encounter",
@@ -558,7 +557,6 @@
 		"pack_code": "gob",
 		"position": 27,
 		"quantity": 1,
-		"scheme_hazard": 1,
 		"set_code": "mutagen_formula",
 		"set_position": 23,
 		"text": "Each [[Goblin]] enemy <i>(including Green Goblin)</i> gets +1 ATK.",
@@ -567,7 +565,7 @@
 	{
 		"base_threat": 1,
 		"base_threat_fixed": false,
-		"boost": 2,
+		"boost": 1,
 		"code": "02028",
 		"faction_code": "encounter",
 		"name": "Overrun",
@@ -595,7 +593,7 @@
 	},
 	{
 		"boost": 1,
-		"boost_text": "This card gets +1 boost icons ([boost]) if at least one [[Goblin]] minion is engaged with you.",
+		"boost_text": "This card gets +1 boost icon ([boost]) if at least one [[Goblin]] minion is engaged with you.",
 		"code": "02030",
 		"faction_code": "encounter",
 		"name": "I See You",
@@ -609,7 +607,6 @@
 	},
 	{
 		"boost": 1,
-		"boost_text": "This card gets +1 boost icons ([boost]) if at least one [[Goblin]] minion is engaged with you.",
 		"code": "02031",
 		"faction_code": "encounter",
 		"name": "Overconfidence",
@@ -685,7 +682,7 @@
 		"name": "Regenerative Healing",
 		"pack_code": "gob",
 		"position": 36,
-		"quantity": 1,
+		"quantity": 2,
 		"set_code": "goblin_gimmicks",
 		"set_position": 7,
 		"text": "<b>When Revealed</b>: The villain heals X damage, where X is equal to double the villain's stage number. If no damage was healed this way, this card gains surge.",
@@ -705,13 +702,13 @@
 		"scheme_hazard": 1,
 		"set_code": "a_mess_of_things",
 		"set_position": 1,
+    "text": "<b>When Revealed</b>: Place 2 additional threat here for each stunned friendly character.",
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 3,
 		"attack_text": "<b>Forced Response</b>: After Scorpion attacks and damages a character, stun that character.",
 		"boost": 2,
-		"boost_text": "After this activation ends, shuffle this card into the encounter deck.",
 		"code": "02038",
 		"faction_code": "encounter",
 		"health": 7,
@@ -727,6 +724,7 @@
 		"type_code": "minion"
 	},
 	{
+    "boost": 1,
 		"code": "02039",
 		"faction_code": "encounter",
 		"name": "Gang-Up",
@@ -783,10 +781,11 @@
 		"scheme": 2,
 		"set_code": "power_drain",
 		"set_position": 2,
+    "traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
-		"boost": 1,
+		"boost": 2,
 		"boost_text": "Discard 3 cards from the encounter deck.",
 		"code": "02043",
 		"faction_code": "encounter",
@@ -831,7 +830,7 @@
 	{
 		"base_threat": 1,
 		"base_threat_fixed": false,
-		"boost": 2,
+		"boost": 1,
 		"code": "02046",
 		"faction_code": "encounter",
 		"name": "Running Interference",
@@ -859,6 +858,7 @@
 		"scheme": 2,
 		"set_code": "running_interference",
 		"set_position": 2,
+    "traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
@@ -883,7 +883,7 @@
 		"quantity": 2,
 		"set_code": "running_interference",
 		"set_position": 4,
-		"text": "Attach to your identity card.\nResolve each \"<b>When Revealed</b>\" ability that you reveal 1 additional time.\n<b>Alter-Ego Action</b>: Spend [mental] resource → discard this card.",
+		"text": "Attach to your identity card.\nResolve each \"<b>When Revealed</b>\" ability that you reveal 1 additional time.\n<b>Alter-Ego Action</b>: Spend a [mental] resource → discard this card.",
 		"type_code": "attachment"
 	}
 ]
