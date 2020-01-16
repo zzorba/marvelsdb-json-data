@@ -1,6 +1,7 @@
 [
 	{
 		"attack": 2,
+		"back_link": "03001b",
 		"code": "03001a",
 		"deck_limit": 1,
 		"defense": 2,
@@ -10,7 +11,7 @@
 		"health": 11,
 		"is_unique": true,
 		"name": "Captain America",
-		"back_link": "03001b",
+		"octgn_id": "cc51a04c-6cfa-4cbd-b04f-12b4f2ef0de1",
 		"pack_code": "cap",
 		"position": 1,
 		"quantity": 1,
@@ -18,8 +19,7 @@
 		"text": "\"I Can Do This All Day!\" — <b>Action</b>: Discard 1 card from your hand → ready Captain America. (Limit once per round.)",
 		"thwart": 2,
 		"traits": "Avenger. Soldier.",
-		"type_code": "hero",
-		"octgn_id": "cc51a04c-6cfa-4cbd-b04f-12b4f2ef0de1"
+		"type_code": "hero"
 	},
 	{
 		"code": "03001b",
@@ -30,6 +30,7 @@
 		"hidden": true,
 		"is_unique": true,
 		"name": "Steve Rogers",
+		"octgn_id": "cc51a04c-6cfa-4cbd-b04f-12b4f2ef0de1",
 		"pack_code": "cap",
 		"position": 1,
 		"quantity": 1,
@@ -37,8 +38,7 @@
 		"set_code": "captain_america",
 		"text": "Living Legend — Reduce the cost of the first ally played each round by 1.\n<b>Setup</b>: Search your deck and discard pile for the Captain America's Shield upgrade and add it to your hand. Shuffle your deck.",
 		"traits": "S.H.I.E.L.D. Soldier.",
-		"type_code": "alter_ego",
-		"octgn_id": "cc51a04c-6cfa-4cbd-b04f-12b4f2ef0de1"
+		"type_code": "alter_ego"
 	},
 	{
 		"attack": 1,
@@ -51,6 +51,7 @@
 		"health": 3,
 		"is_unique": true,
 		"name": "Agent 13",
+		"octgn_id": "5107e3f0-75cd-4472-96c2-59a8dbf508db",
 		"pack_code": "cap",
 		"position": 2,
 		"quantity": 1,
@@ -62,8 +63,7 @@
 		"thwart": 2,
 		"thwart_cost": 1,
 		"traits": "S.H.I.E.L.D.",
-		"type_code": "ally",
-		"octgn_id": "5107e3f0-75cd-4472-96c2-59a8dbf508db"
+		"type_code": "ally"
 	},
 	{
 		"code": "03003",
@@ -72,6 +72,7 @@
 		"faction_code": "hero",
 		"flavor": "\"No one dies on my watch.\" -- Captain America",
 		"name": "Fearless Determination",
+		"octgn_id": "9d70e70b-d878-4f62-aebf-10f4e6e9f378",
 		"pack_code": "cap",
 		"position": 3,
 		"quantity": 2,
@@ -80,8 +81,7 @@
 		"set_position": 2,
 		"text": "<b>Hero Action</b>: Captain America gets +1 THW until the end of the phase. Draw 1 card.",
 		"traits": "Superpower.",
-		"type_code": "event",
-		"octgn_id": "9d70e70b-d878-4f62-aebf-10f4e6e9f378"
+		"type_code": "event"
 	},
 	{
 		"code": "03004",
@@ -90,6 +90,7 @@
 		"faction_code": "hero",
 		"flavor": "\"No, you move.\" -- Captain America",
 		"name": "Heroic Strike",
+		"octgn_id": "9b47c698-4b9b-4f77-8fa1-cf89219cfc7c",
 		"pack_code": "cap",
 		"position": 4,
 		"quantity": 3,
@@ -98,8 +99,7 @@
 		"set_position": 4,
 		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. If you paid for this card using a [physical] resource, stun that enemy.",
 		"traits": "Superpower.",
-		"type_code": "event",
-		"octgn_id": "9b47c698-4b9b-4f77-8fa1-cf89219cfc7c"
+		"type_code": "event"
 	},
 	{
 		"code": "03005",
@@ -108,6 +108,7 @@
 		"faction_code": "hero",
 		"flavor": "\"Is that all you've got?\" -- Captain America",
 		"name": "Shield Block",
+		"octgn_id": "cc0c1ee8-936f-4e33-825d-0b0ffec6acf5",
 		"pack_code": "cap",
 		"position": 5,
 		"quantity": 2,
@@ -116,8 +117,7 @@
 		"set_position": 7,
 		"text": "<b>Interrupt</b> <i>(defense)</i>: When you would take any amount of damage, exhaust Captain America's Shield → prevent all of that damage.",
 		"traits": "Defense.",
-		"type_code": "event",
-		"octgn_id": "cc0c1ee8-936f-4e33-825d-0b0ffec6acf5"
+		"type_code": "event"
 	},
 	{
 		"code": "03006",
@@ -126,6 +126,7 @@
 		"faction_code": "hero",
 		"flavor": "\"Sharon! Duck!\" -- Captain America",
 		"name": "Shield Toss",
+		"octgn_id": "ffe47983-735a-44de-b9c1-8ae26cb6f3e4",
 		"pack_code": "cap",
 		"position": 6,
 		"quantity": 2,
@@ -134,8 +135,7 @@
 		"set_position": 9,
 		"text": "<b>Hero Action</b> <i>(attack)</i>: Discard X cards from your hand, then return Captain America's Shield from play to your hand → deal 4 damage to X enemies.",
 		"traits": "Attack. Superpower.",
-		"type_code": "event",
-		"octgn_id": "ffe47983-735a-44de-b9c1-8ae26cb6f3e4"
+		"type_code": "event"
 	},
 	{
 		"code": "03007",
@@ -145,6 +145,7 @@
 		"flavor": "Even Captain America needs a place to get away and rest.",
 		"is_unique": true,
 		"name": "Steve's Apartment",
+		"octgn_id": "4ffc5f67-e06d-4bf1-b09c-f25fa659f3a1",
 		"pack_code": "cap",
 		"position": 7,
 		"quantity": 1,
@@ -153,8 +154,7 @@
 		"set_position": 11,
 		"text": "<b>Alter-Ego Action</b>: Exhaust Steve's Apartment → draw 1 card and heal 1 damage from Steve Rogers.",
 		"traits": "Location.",
-		"type_code": "support",
-		"octgn_id": "4ffc5f67-e06d-4bf1-b09c-f25fa659f3a1"
+		"type_code": "support"
 	},
 	{
 		"code": "03008",
@@ -164,6 +164,7 @@
 		"flavor": "\"A soldier, even a super-soldier, is only as strong as his ideals.\" -- Steve Rogers",
 		"is_unique": true,
 		"name": "Captain America's Helmet",
+		"octgn_id": "13ca6feb-7020-4a30-9492-36bde06cad26",
 		"pack_code": "cap",
 		"position": 8,
 		"quantity": 1,
@@ -172,8 +173,7 @@
 		"set_position": 12,
 		"text": "<b>Interrupt</b>: When Captain America would be defeated, set his hit point dial to 1 instead. Then, discard this card.",
 		"traits": "Item.",
-		"type_code": "upgrade",
-		"octgn_id": "13ca6feb-7020-4a30-9492-36bde06cad26"
+		"type_code": "upgrade"
 	},
 	{
 		"code": "03009",
@@ -183,6 +183,7 @@
 		"flavor": "\"This shield is a symbol of freedom.\" -- Captain America",
 		"is_unique": true,
 		"name": "Captain America's Shield",
+		"octgn_id": "7a661d63-e889-4c3e-9e6f-2655676d7d9d",
 		"pack_code": "cap",
 		"position": 9,
 		"quantity": 1,
@@ -191,8 +192,7 @@
 		"set_position": 13,
 		"text": "Restricted. <i>(Max 2 restricted cards per player.)</i>\nCaptain America gets +1 DEF and gains retaliate 1.",
 		"traits": "Item.",
-		"type_code": "upgrade",
-		"octgn_id": "7a661d63-e889-4c3e-9e6f-2655676d7d9d"
+		"type_code": "upgrade"
 	},
 	{
 		"code": "03010",
@@ -201,6 +201,7 @@
 		"faction_code": "hero",
 		"flavor": "\"The serum gave Cap his super-strength. But his heart, his unrelenting determination -- those were Steve's long before he picked up the shield.\" -- Sharon Carter",
 		"name": "Super-Soldier Serum",
+		"octgn_id": "bc87714b-a44a-49f5-a24f-769e22bd6545",
 		"pack_code": "cap",
 		"position": 10,
 		"quantity": 2,
@@ -209,8 +210,7 @@
 		"set_position": 14,
 		"text": "<b>Resource</b>: Exhaust Super-Soldier Serum → generate a [physical] resource.",
 		"traits": "Item.",
-		"type_code": "upgrade",
-		"octgn_id": "bc87714b-a44a-49f5-a24f-769e22bd6545"
+		"type_code": "upgrade"
 	},
 	{
 		"attack": 2,
@@ -222,6 +222,7 @@
 		"health": 3,
 		"is_unique": true,
 		"name": "Falcon",
+		"octgn_id": "1fa82660-21b8-418c-a5c8-af1156338572",
 		"pack_code": "cap",
 		"position": 11,
 		"quantity": 1,
@@ -231,8 +232,7 @@
 		"thwart": 2,
 		"thwart_cost": 1,
 		"traits": "Aerial. Avenger.",
-		"type_code": "ally",
-		"octgn_id": "1fa82660-21b8-418c-a5c8-af1156338572"
+		"type_code": "ally"
 	},
 	{
 		"attack": 1,
@@ -245,6 +245,7 @@
 		"health": 2,
 		"is_unique": true,
 		"name": "Squirrel Girl",
+		"octgn_id": "a9461524-590d-4547-9678-a8cef09a8760",
 		"pack_code": "cap",
 		"position": 13,
 		"quantity": 1,
@@ -254,8 +255,7 @@
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Avenger.",
-		"type_code": "ally",
-		"octgn_id": "a9461524-590d-4547-9678-a8cef09a8760"
+		"type_code": "ally"
 	},
 	{
 		"attack": 3,
@@ -268,6 +268,7 @@
 		"health": 3,
 		"is_unique": true,
 		"name": "Wonder Man",
+		"octgn_id": "d2a467b2-d9b8-416f-b8f7-b470997657e6",
 		"pack_code": "cap",
 		"position": 14,
 		"quantity": 1,
@@ -277,8 +278,7 @@
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Avenger.",
-		"type_code": "ally",
-		"octgn_id": "d2a467b2-d9b8-416f-b8f7-b470997657e6"
+		"type_code": "ally"
 	},
 	{
 		"code": "03015",
@@ -286,13 +286,13 @@
 		"deck_limit": 3,
 		"faction_code": "leadership",
 		"name": "Avengers Assemble!",
+		"octgn_id": "84167f22-c123-45dd-9fb5-625aaf3d63e5",
 		"pack_code": "cap",
 		"position": 15,
 		"quantity": 3,
 		"resource_energy": 1,
 		"text": "Max 1 per round.\n<b>Hero Action</b></i>: Ready each [[Avenger]] character you control. Until the end of the phase, each [[Avenger]] character in play gets +1 THW and +1 ATK.",
-		"type_code": "event",
-		"octgn_id": "84167f22-c123-45dd-9fb5-625aaf3d63e5"
+		"type_code": "event"
 	},
 	{
 		"code": "03017",
@@ -301,13 +301,13 @@
 		"faction_code": "leadership",
 		"flavor": "\"Good thing I brought friends.\" -- Captain America",
 		"name": "Strength In Numbers",
+		"octgn_id": "8d7aae51-045d-4dd8-a8a3-9f16be4eb08e",
 		"pack_code": "cap",
 		"position": 17,
 		"quantity": 3,
 		"resource_physical": 1,
 		"text": "<b>Action</b>: Exhaust any number of allies you control → draw 1 card for each ally exhausted this way.",
-		"type_code": "event",
-		"octgn_id": "8d7aae51-045d-4dd8-a8a3-9f16be4eb08e"
+		"type_code": "event"
 	},
 	{
 		"code": "03019",
@@ -315,14 +315,14 @@
 		"deck_limit": 3,
 		"faction_code": "leadership",
 		"name": "Quinjet",
+		"octgn_id": "6016a632-63e8-4ea7-b464-abdccc660b3c",
 		"pack_code": "cap",
 		"position": 19,
 		"quantity": 1,
 		"resource_energy": 1,
 		"text": "<b>Response:</b> After your turn begins, place 1 time counter on Quinjet.\n <b>Action:</b> Put an [[Avenger]] ally from your hand into play with printed cost equal to or less than the number of time counters on Quinjet. Then, discard Quinjet.",
 		"traits": "Avenger. Vehicle.",
-		"type_code": "support",
-		"octgn_id": "6016a632-63e8-4ea7-b464-abdccc660b3c"
+		"type_code": "support"
 	},
 	{
 		"code": "03024",
@@ -331,14 +331,14 @@
 		"faction_code": "basic",
 		"is_unique": true,
 		"name": "Avengers Tower",
+		"octgn_id": "cf838165-508c-42b9-a8d3-92238741b795",
 		"pack_code": "cap",
 		"position": 24,
 		"quantity": 1,
 		"resource_mental": 1,
 		"text": "If each of your allies has the [[Avenger]] trait, increase your ally limit by 1.\n<b>Action:</b> Exhaust Avengers Tower → reduce the cost of the next [[Avenger]] ally played this phase by 1.",
 		"traits": "Avenger. Location.",
-		"type_code": "support",
-		"octgn_id": "cf838165-508c-42b9-a8d3-92238741b795"
+		"type_code": "support"
 	},
 	{
 		"code": "03025",
@@ -346,14 +346,14 @@
 		"deck_limit": 3,
 		"faction_code": "basic",
 		"name": "Honorary Avenger",
+		"octgn_id": "d6d98813-2703-46ea-b7ab-30010d75af86",
 		"pack_code": "cap",
 		"position": 25,
 		"quantity": 3,
 		"resource_physical": 1,
 		"text": "Play only if your identity has the [[Avenger]] trait.\nAttach to a friendly character.\nAttached character gets +1 hit point and gains the [[Avenger]] trait.",
 		"traits": "Title.",
-		"type_code": "upgrade",
-		"octgn_id": "d6d98813-2703-46ea-b7ab-30010d75af86"
+		"type_code": "upgrade"
 	},
 	{
 		"code": "03031",
@@ -362,14 +362,14 @@
 		"faction_code": "aggression",
 		"flavor": "\"Should I be worried about him?\" -- Spider-Man",
 		"name": "Enraged",
+		"octgn_id": "575a8eb8-a419-42c9-a128-b0f954419e98",
 		"pack_code": "cap",
 		"position": 31,
 		"quantity": 3,
 		"resource_physical": 1,
 		"text": "Attach to an ally. Max 1 per ally.\nAttached ally gets +2 ATK and takes +1 consequential damage after it attacks.",
 		"traits": "Condition.",
-		"type_code": "upgrade",
-		"octgn_id": "575a8eb8-a419-42c9-a128-b0f954419e98"
+		"type_code": "upgrade"
 	},
 	{
 		"code": "03032",
@@ -377,13 +377,13 @@
 		"deck_limit": 3,
 		"faction_code": "justice",
 		"name": "Followed",
+		"octgn_id": "0602bedd-bac1-4cea-8ca3-079fa0fdef36",
 		"pack_code": "cap",
 		"position": 32,
 		"quantity": 3,
 		"resource_energy": 1,
 		"text": "Attach to a side scheme. Max 1 per scheme.\n<b>Response</b>: When attached scheme is defeated, deal 4 damage to an enemy.",
-		"type_code": "upgrade",
-		"octgn_id": "0602bedd-bac1-4cea-8ca3-079fa0fdef36"
+		"type_code": "upgrade"
 	},
 	{
 		"code": "03033",
@@ -392,14 +392,14 @@
 		"faction_code": "protection",
 		"flavor": "\"Do these guys ever run out of ammo!\" -- Captain America",
 		"name": "Expert Defense",
+		"octgn_id": "435570c2-1522-4295-b0dc-5c618190a168",
 		"pack_code": "cap",
 		"position": 33,
 		"quantity": 3,
 		"resource_mental": 1,
 		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When your hero defends against an attack, it gets +3 DEF for that attack.",
 		"traits": "Defense.",
-		"type_code": "event",
-		"octgn_id": "435570c2-1522-4295-b0dc-5c618190a168"
+		"type_code": "event"
 	},
 	{
 		"code": "03034",
@@ -407,13 +407,13 @@
 		"deck_limit": 3,
 		"faction_code": "basic",
 		"name": "Enhanced Awareness",
+		"octgn_id": "e798e771-db92-4108-8cf5-81019e16cb3c",
 		"pack_code": "cap",
 		"position": 34,
 		"quantity": 3,
 		"resource_mental": 1,
 		"text": "Uses (3 mental counters).\n<b>Hero Resource</b>: Exhaust Enhanced Awareness and remove 1 mental counter from it → generate a [mental] resource.",
 		"traits": "Condition.",
-		"type_code": "upgrade",
-		"octgn_id": "e798e771-db92-4108-8cf5-81019e16cb3c"
+		"type_code": "upgrade"
 	}
 ]
