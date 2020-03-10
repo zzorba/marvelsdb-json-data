@@ -58,7 +58,7 @@
 		"text": "<b>Response</b>: After Lady Sif enters play, ready Thor or Odinson.",
 		"thwart": 2,
 		"thwart_cost": 1,
-		"traits": "Asgard",
+		"traits": "Asgard.",
 		"type_code": "ally"
 	},
 	{
@@ -123,7 +123,7 @@
 		"resource_mental": 1,
 		"set_code": "thor",
 		"set_position": 9,
-		"text": "<b>Hero Action</b>: Spend X [energy] ressources → deal X damages to the villain and each minion engaged with you. This attack ignores tough statuses card if you have the [[Aerial]] trait.",
+		"text": "<b>Hero Action</b>: Spend X [energy] resources → deal X damages to the villain and each minion engaged with you. This attack ignores tough statuses card if you have the [[Aerial]] trait.",
 		"traits": "Superpower.",
 		"type_code": "event"
 	},
@@ -219,7 +219,8 @@
 		"thwart_cost": 1,
 		"traits": "Avenger. Olympus.",
 		"type_code": "ally"
-	},{
+	},
+	{
 		"attack": 2,
 		"attack_cost": 1,
 		"code": "06012",
@@ -241,17 +242,48 @@
 		"type_code": "ally"
 	},
 	{
+		"code": "06014",
+		"cost": 0,
+		"deck_limit": 3,
+		"faction_code": "aggression",
+		"flavor": "\"I would have words with thee!\" -- Thor",
+		"name": "Get Over Here!",
+		"pack_code": "thor",
+		"position": 14,
+		"quantity": 3,
+		"resource_energy": 1,
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 1 damage to a minion. If you have the [[Aerial]] trait, engage that enemy.",
+		"traits": "Attack.",
+		"type_code": "event"
+	},
+	{
+		"code": "06015",
+		"cost": 0,
+		"deck_limit": 3,
+		"faction_code": "aggression",
+		"flavor": "POW!",
+		"name": "Mean Swing",
+		"pack_code": "thor",
+		"position": 15,
+		"quantity": 3,
+		"resource_physical": 1,
+		"text": "<b>Hero Interrupt</b>: When your hero makes a basic attack, exhaust a [[Weapon]] upgrade on your hero → your hero gets +3 ATK for this attack.",
+		"traits": "Skill.",
+		"type_code": "event"
+	},
+	{
 		"code": "06017",
 		"cost": 2,
 		"deck_limit": 1,
 		"faction_code": "aggression",
+		"is_unique": true,
 		"name": "Hall of Heroes",
 		"pack_code": "thor",
 		"position": 17,
 		"quantity": 1,
 		"resource_mental": 1,
 		"text": "<b>Response:</b> After you defeat a minion, place 1 glory counter here.\n <b>Alter-Ego Action:</b> Exhaust Hall of Heroes and remove 3 glory counters from it -> draw 3 cards.",
-		"traits": "Asgard. Location",
+		"traits": "Asgard. Location.",
 		"type_code": "support"
 	},
 	{
@@ -265,7 +297,7 @@
 		"quantity": 3,
 		"resource_energy": 1,
 		"text": "Play under any player's control. \n Max 1 per player. \n <b>Response:</b> After your hero attacks and defeats a minion, deal 1 damage to your hero and discard Battle Fury -> ready your hero.",
-		"traits": "Condition",
+		"traits": "Condition.",
 		"type_code": "upgrade"
 	},
 	{
@@ -280,7 +312,57 @@
 		"quantity": 1,
 		"resource_physical": 1,
 		"text": "Restricted. \n <b>Response:</b> After your hero attacks an enemy, spend a [physical] resource → deal 2 damage to an enemy.",
-		"traits": "Asgard. Weapon",
+		"traits": "Asgard. Weapon.",
+		"type_code": "upgrade"
+	},
+	{
+		"attack": 3,
+		"attack_cost": 2,
+		"code": "06020",
+		"cost": 5,
+		"deck_limit": 1,
+		"faction_code": "basic",
+		"flavor": "\"You wish to know what I see?\"",
+		"health": 4,
+		"is_unique": true,
+		"name": "Heimdall",
+		"pack_code": "thor",
+		"position": 20,
+		"quantity": 1,
+		"resource_mental": 1,
+		"text": "<b>Response:</b> After Heimdall enters play, look at the top 3 cards of the encounter deck. Discard 1 of them and put the others back in any order.",
+		"thwart": 2,
+		"thwart_cost": 1,
+		"traits": "Asgard.",
+		"type_code": "ally"
+	},
+	{
+		"code": "06021",
+		"cost": 3,
+		"deck_limit": 3,
+		"faction_code": "basic",
+		"flavor": "\"It's unbreakable skin, man. Don't you know who I am?\" -- Luke Cage",
+		"name": "Invulnerability",
+		"pack_code": "thor",
+		"position": 21,
+		"quantity": 3,
+		"resource_physical": 1,
+		"text": "<b>Hero Action</b>: Give your hero a tough status card.",
+		"traits": "Superpower.",
+		"type_code": "event"
+	},
+	{
+		"code": "06031",
+		"cost": 2,
+		"deck_limit": 3,
+		"faction_code": "justice",
+		"name": "Under Surveillance",
+		"pack_code": "thor",
+		"position": 31,
+		"quantity": 3,
+		"resource_energy": 1,
+		"text": "Attach to the main scheme. Max 1 per scheme.\nIncrease the target threat value of attached scheme by 4.",
+		"traits": "Condition.",
 		"type_code": "upgrade"
 	},
 	{
@@ -288,14 +370,39 @@
 		"cost": 0,
 		"deck_limit": 3,
 		"faction_code": "leadership",
-		"flavor": "",
 		"name": "Teamwork",
 		"pack_code": "thor",
 		"position": 32,
 		"quantity": 3,
 		"resource_energy": 1,
-		"text": "<b>Hero Interrupt</b> When you use your basic thwart power (THW) or basic attack power (ATK), exhaust an ally you control → add that ally's matching power to your hero's power for this use.",
+		"text": "<b>Hero Interrupt</b> When you use your basic thwart power <i>(THW)</i> or basic attack power <i>(ATK)</i>, exhaust an ally you control → add that ally's matching power to your hero's power for this use.",
 		"traits": "Tactic.",
 		"type_code": "event"
+	},
+	{
+		"code": "06033",
+		"cost": 3,
+		"deck_limit": 3,
+		"faction_code": "protection",
+		"name": "Second Wind",
+		"pack_code": "thor",
+		"position": 33,
+		"quantity": 3,
+		"resource_mental": 1,
+		"text": "<b>Action</b>: Heal 4 damage from an identity (5 damage instead if you paid for this card using a [mental] resource).",
+		"type_code": "event"
+	},
+	{
+		"code": "06034",
+		"cost": 2,
+		"deck_limit": 3,
+		"faction_code": "basic",
+		"name": "Enhanced Physique",
+		"pack_code": "thor",
+		"position": 34,
+		"quantity": 3,
+		"resource_physical": 1,
+		"text": "Uses (3 physical counters).\n<b>Hero Resource</b>: Exhaust Enhanced Physique and remove 1 physical counter from it → generate a [physical] resource.",
+		"type_code": "upgrade"
 	}
 ]
