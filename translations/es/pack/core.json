@@ -1,0 +1,662 @@
+[
+    {
+        "code": "01001a",
+        "flavor": "\"Just your friendly neighborhood Spider-Man!\"",
+        "name": "Spider-Man",
+        "text": "Spider-Sense — <b>Interrupt</b>: When the villain initiates an attack against you, draw 1 card.",
+        "traits": "Avenger."
+    },
+    {
+        "code": "01001b",
+        "flavor": "\"Right now, I'd trade the whole Spider-Man bit for a rocking chair and a good book.\"",
+        "name": "Peter Parker",
+        "text": "Scientist — <b>Resource</b>: Generate a [mental] resource. (Limit once per round.)",
+        "traits": "Genius."
+    },
+    {
+        "code": "01002",
+        "flavor": "\"I'm not a hero, I'm a thief.\"",
+        "name": "Black Cat",
+        "subname": "Felicia Hardy",
+        "text": "<b>Forced Response</b>: After you play Black Cat, discard the top 2 cards of your deck. Add each card with a printed [mental] resource discarded this way to your hand.",
+        "traits": "Hero For Hire."
+    },
+    {
+        "code": "01003",
+        "flavor": "\"Have you been training? 'Cause that almost hit me.\" -- Spider-Man",
+        "name": "Backflip",
+        "text": "<b>Interrupt</b> <i>(defense)</i>: When you would take any amount of damage from an attack, prevent all of that damage.",
+        "traits": "Defense. Skill."
+    },
+    {
+        "code": "01004",
+        "flavor": "\"My spider-sense is tingling\" -- Spider-Man",
+        "name": "Enhanced Spider-Sense",
+        "text": "<b>Hero Interrupt</b>: When a treachery card is revealed from the encounter deck, cancel its \"<b>When Revealed</b>\" effects.",
+        "traits": "Superpower."
+    },
+    {
+        "code": "01005",
+        "flavor": "\"tally-ho!\" -- Spider-Man",
+        "name": "Swinging Web Kick",
+        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 8 damage to an enemy.",
+        "traits": "Aerial. Attack. Superpower."
+    },
+    {
+        "code": "01006",
+        "flavor": "\"Goodness, Peter! You've been so clumsy lately.\"",
+        "name": "Aunt May",
+        "text": "<b>Alter-Ego Action</b>: Exhaust Aunt May → heal 4 damage from Peter Parker.",
+        "traits": "Persona."
+    },
+    {
+        "code": "01007",
+        "name": "Spider-Tracer",
+        "text": "Attach to a minion.\n<b>Forced Interrupt</b>: When attached minion is defeated, remove 3 threat from a scheme.",
+        "traits": "Item. Tech."
+    },
+    {
+        "code": "01008",
+        "name": "Web-Shooter",
+        "text": "Uses (3 web counters). <i>(Enters play with 3 counters. When those are gone, discard this card)</i>\n<b>Hero Resource</b>: Exhaust Web-Shooter and remove 1 web counter from it → generate a [wild] resource.",
+        "traits": "Item. Tech."
+    },
+    {
+        "code": "01009",
+        "name": "Webbed Up",
+        "text": "Hero form only. Attach to an enemy. Max 1 per enemy.\n<b>Forced Interrupt</b>: When attached enemy would attack, discard Webbed Up instead. Then, stun that enemy.",
+        "traits": "Condition."
+    },
+    {
+        "code": "01010a",
+        "flavor": "\"I never quit.\"",
+        "name": "Captain Marvel",
+        "text": "Rechannel — <b>Action</b>: Spend a [energy] resource and heal 1 damage from Captain Marvel → draw 1 card. (Limit once per round.)",
+        "traits": "Avenger. Soldier."
+    },
+    {
+        "code": "01010b",
+        "flavor": "\"It's my job to protect the Earth and everyone on it.\"",
+        "name": "Carol Danvers",
+        "text": "Commander — <b>Action</b>: Choose a player to draw 1 card. (Limit once per round.)",
+        "traits": "S.H.I.E.L.D. Soldier."
+    },
+    {
+        "code": "01011",
+        "flavor": "\"This is what I wanted: helping the innocents by hospitalizing the guilty.\"",
+        "name": "Spider-Woman",
+        "subname": "Jessica Drew",
+        "text": "<b>Response</b>: After Spider-Woman enters play, confuse the villain.",
+        "traits": "Avenger. Spy."
+    },
+    {
+        "code": "01012",
+        "flavor": "\"This is one of the more impressive messes I've ever seen.\" -- Carol Danvers",
+        "name": "Crisis Interdiction",
+        "text": "<b>Hero Action</b> (<i>thwart</i>): Remove 2 threat from a scheme. Then, if you have the [[Aerial]] trait, remove 2 threat from a different scheme.",
+        "traits": "Thwart."
+    },
+    {
+        "code": "01013",
+        "name": "Photonic Blast",
+        "text": "<b>Hero Action</b> (<i>attack</i>): Deal 5 damage to an enemy. If you paid for this card using a [energy] resource, draw 1 card.",
+        "traits": "Attack. Superpower."
+    },
+    {
+        "code": "01014",
+        "flavor": "\"That's enough!\" -- Carol Danvers",
+        "name": "Energy Absorption"
+    },
+    {
+        "code": "01015",
+        "flavor": "This low-orbit space station can beam cargo and crew to and from the Triskelion",
+        "name": "Alpha Flight Station",
+        "text": "<b>Action</b>: Exhaust Alpha Flight Station, choose and discard 1 card from your hand → draw 1 card (draw 2 cards instead if you are Carol Danvers).",
+        "traits": "Location. S.H.I.E.L.D."
+    },
+    {
+        "code": "01016",
+        "flavor": "\"This is so cool!\" -- Jessica Drew",
+        "name": "Captain Marvel's Helmet",
+        "text": "Captain Marvel gets +1 DEF (+2 DEF instead if you have the [[Aerial]] trait).",
+        "traits": "Armor. Tech."
+    },
+    {
+        "code": "01017",
+        "name": "Cosmic Flight",
+        "text": "Captain Marvel gains the [[Aerial]] trait.\n<b>Hero Interrupt</b> (<i>defense</i>): When Captain Marvel would take damage, discard Cosmic Flight → prevent 3 of that damage.",
+        "traits": "Superpower."
+    },
+    {
+        "code": "01018",
+        "name": "Energy Channel",
+        "text": "Max 1 per player.\n<b>Action</b>: Spend X [energy] resources → put X energy counters here.\n<b>Hero Action</b> (<i>attack</i>): Discard Energy Channel → deal 2 damage to an enemy (to a maximum of 10) for each energy counter here.",
+        "traits": "Superpower."
+    },
+    {
+        "code": "01019a",
+        "flavor": "\"I'm six foot seven and bright green! People are gonna stare no matter how I dress.\"",
+        "name": "She-Hulk",
+        "text": "\"Do You Even Lift?\" — <b>Response</b>: After you change to this form, deal 2 damage to an enemy.",
+        "traits": "Avenger. Gamma."
+    },
+    {
+        "code": "01019b",
+        "flavor": "\"I can turn into a Hulk anytime I want. But just because you can do something doesn't always mean you should.",
+        "name": "Jennifer Walters",
+        "text": "\"I Object!\" — <b>Interrupt</b>: When threat would be placed on a scheme, prevent 1 of that threat. (Limit once per round.)",
+        "traits": "Attorney. Gamma."
+    },
+    {
+        "code": "01020",
+        "flavor": "\"Turn around gentlemen, and meet -- the Hellcat!\"",
+        "name": "Hellcat",
+        "subname": "Patsy Walker",
+        "text": "<b>Action</b>: Return Hellcat to your hand.",
+        "traits": "Avenger."
+    },
+    {
+        "code": "01021",
+        "flavor": "\"You messed with the wrong woman!\" -- She-Hulk",
+        "name": "Gamma Slam",
+        "text": "<b>Hero Action</b> (<i>attack</i>): Deal X damage to an enemy (to a maximum of 15). X is the amount of damage you have sustained.",
+        "traits": "Attack. Superpower."
+    },
+    {
+        "code": "01022",
+        "flavor": "\"These boots were made for stompin'.\" -- She-Hulk",
+        "name": "Ground Stomp",
+        "text": "<b>Hero Action</b>: Deal 1 damage to each enemy.",
+        "traits": "Superpower."
+    },
+    {
+        "code": "01023",
+        "flavor": "\"That's the first time I've ever seen someone argue their way out of a fight.\" -- Spider-Man",
+        "name": "Legal Practice",
+        "text": "<b>Alter-Ego Action</b> (<i>thwart</i>): Choose and discard up to 5 cards from your hand → remove 1 threat from a scheme for each card discarded this way.",
+        "traits": "Skill. Thwart."
+    },
+    {
+        "code": "01024",
+        "flavor": "\"I just don't care for men with fresh mouths.\" -- Jennifer Walters",
+        "name": "One-Two Punch",
+        "text": "<b>Response</b>: After you make a basic attack <i>(using your ATK)</i>, ready She-Hulk.",
+        "traits": "Skill."
+    },
+    {
+        "code": "01025",
+        "flavor": "\"I know a thing or two about rage. And that kind of fury... it's not going to pass without taking someone with it.\" -- Jennifer Walters",
+        "name": "Split Personality",
+        "text": "<b>Action</b>: Change your form <i>(flip your identity card)</i>. Then, draw up to your printed hand size."
+    },
+    {
+        "code": "01026",
+        "flavor": "\"I'll be sending you a bill. My time is valuable these days.\" -- Jennifer Walters",
+        "name": "Superhuman Law Division",
+        "text": "<b>Alter-Ego Action</b> (<i>thwart</i>): Exhaust Superhuman Law Division and spend a [mental] resource → remove 2 threat from a scheme.",
+        "traits": "Location."
+    },
+    {
+        "code": "01027",
+        "name": "Focused Rage",
+        "text": "<b>Hero Action</b>: Exhaust Focused Rage and take 1 damage → draw 1 card.",
+        "traits": "Skill."
+    },
+    {
+        "code": "01028",
+        "name": "Superhuman Strength",
+        "text": "She-Hulk gets +2 ATK.\n<b>Forced Response</b>: After She-Hulk attacks, discard Superhuman Strength → stun the attacked enemy.",
+        "traits": "Superpower."
+    },
+    {
+        "code": "01029a",
+        "flavor": "\"I am Iron Man.\"",
+        "name": "Iron Man",
+        "text": "You get +1 hand size for each [[Tech]] upgrade you control (to a maximum hand size of 7).",
+        "traits": "Avenger."
+    },
+    {
+        "code": "01029b",
+        "flavor": "\"I'm obviously not doing this for the money...\"",
+        "name": "Tony Stark",
+        "text": "Futurist — <b>Action</b>: Look at the top 3 cards of your deck. Add 1 to your hand and discard the others. (Limit once per round.)",
+        "traits": "Genius."
+    },
+    {
+        "code": "01030",
+        "flavor": "\"Is this a private war -- or can anyone join?\"",
+        "name": "War Machine",
+        "subname": "James Rhodes",
+        "text": "<b>Action</b>: Exhaust War Machine and deal 2 damage to him → deal 1 damage to each enemy.",
+        "traits": "S.H.I.E.L.D. Soldier."
+    },
+    {
+        "code": "01031",
+        "name": "Repulsor Blast",
+        "text": "<b>Hero Action</b> (<i>attack</i>): Deal 1 damage to an enemy and discard the top 5 cards of your deck. For each printed [energy] resource discarded this way, deal 2 additional damage to that enemy.",
+        "traits": "Attack. Superpower."
+    },
+    {
+        "code": "01032",
+        "flavor": "\"Nice technique. But if you do it like this... it hurts more.\" -- Tony Stark",
+        "name": "Supersonic Punch",
+        "text": "<b>Hero Action</b> (<i>attack</i>): Deal 4 damage to an enemy (8 damage instead if you have the [[Aerial]] trait).",
+        "traits": "Attack."
+    },
+    {
+        "code": "01033",
+        "flavor": "\"Do your thing. I've got this.\"",
+        "name": "Pepper Potts",
+        "text": "<b>Resource</b>: Exhaust Pepper Potts → generate the resources of the top card in your discard pile.",
+        "traits": "Persona."
+    },
+    {
+        "code": "01034",
+        "flavor": "\"I was hoping for something a little bigger. But this will do.\" -- Tony Stark",
+        "name": "Stark Tower",
+        "text": "<b>Alter-Ego Action</b>: Exhaust Stark Tower → choose a player. That player returns the topmost [[Tech]] upgrade in their discard pile to their hand.",
+        "traits": "Location."
+    },
+    {
+        "code": "01035",
+        "flavor": "\"When I put on this armor, I took on more power than any human was ever intended to have... and maybe more responsibility than my heart can truly bear.\" -- Tony Stark",
+        "name": "Arc Reactor",
+        "text": "<b>Hero Action</b>: Exhaust Arc Reactor → ready Iron Man.",
+        "traits": "Item. Tech."
+    },
+    {
+        "code": "01036",
+        "flavor": "\"Is that all you've got!\" -- Tony Stark",
+        "name": "Mark V Armor",
+        "text": "You get +6 hit points.",
+        "traits": "Armor. Tech."
+    },
+    {
+        "code": "01037",
+        "flavor": "\"Tony, are you sure you want to do that!\" -- P.E.P.P.E.R.",
+        "name": "Mark V Helmet",
+        "text": "<b>Hero Action</b> (<i>thwart</i>): Exhaust Mark V Helmet → remove 1 threat from a scheme (from each scheme instead if you have the [[Aerial]] trait).",
+        "traits": "Armor. Tech."
+    },
+    {
+        "code": "01038",
+        "flavor": "\"Please, let me give you... a hand.\" -- Tony Stark",
+        "name": "Powered Gauntlets",
+        "text": "<b>Hero Action</b> (<i>attack</i>): Exhaust Powered Gauntlets → deal 1 damage to an enemy (2 damage instead if you have the [[Aerial]] trait).",
+        "traits": "Armor. Tech."
+    },
+    {
+        "code": "01039",
+        "name": "Rocket Boots",
+        "text": "You get +1 hit point.\n<b>Hero Action</b>: Exhaust Rocket Boots and spend a [mental] resource → gain the [[Aerial]] trait until the end of the phase.",
+        "traits": "Armor. Tech."
+    },
+    {
+        "code": "01040a",
+        "flavor": "\"To attack me is to attack Wakanda.\"",
+        "name": "Black Panther",
+        "text": "Retaliate 1. <i>(After this character is attacked, deal 1 damage to the attacking character.)</i>",
+        "traits": "Avenger. Wakanda."
+    },
+    {
+        "code": "01040b",
+        "name": "T'Challa",
+        "text": "Foresight - <b>Setup</b>: Search your deck for a [[Black Panther]] upgrade and add it to your hand. Shuffle your deck.",
+        "traits": "King. Wakanda."
+    },
+    {
+        "code": "01041",
+        "flavor": "\"You would be lost without me, brother!\"",
+        "name": "Shuri",
+        "text": "<b>Response</b>: After Shuri enters play, search your deck for an upgrade and add it to your hand. Shuffle your deck.",
+        "traits": "Genius. Wakanda."
+    },
+    {
+        "code": "01042",
+        "flavor": "\"In Wakanda, we draw strength from the knowledge of our ancestors.\" -- T'Challa",
+        "name": "Ancestral Knowledge",
+        "text": "<b>Alter-Ego Action</b>: Choose up to 3 different cards in your discard pile and shuffle them into your deck."
+    },
+    {
+        "code": "01043a",
+        "name": "Wakanda Forever!",
+        "text": "<b>Hero Action</b>: Resolve the \"<b>Special</b>\" ability on each [[Black Panther]] upgrade you control in any order. <i>(Resolving each ability is a step in a sequence.)</i>",
+        "traits": "Tactic."
+    },
+    {
+        "code": "01043b",
+        "name": "Wakanda Forever!",
+        "text": "<b>Hero Action</b>: Resolve the \"<b>Special</b>\" ability on each [[Black Panther]] upgrade you control in any order. <i>(Resolving each ability is a step in a sequence.)</i>",
+        "traits": "Tactic."
+    },
+    {
+        "code": "01043c",
+        "name": "Wakanda Forever!",
+        "text": "<b>Hero Action</b>: Resolve the \"<b>Special</b>\" ability on each [[Black Panther]] upgrade you control in any order. <i>(Resolving each ability is a step in a sequence.)</i>",
+        "traits": "Tactic."
+    },
+    {
+        "code": "01043d",
+        "name": "Wakanda Forever!",
+        "text": "<b>Hero Action</b>: Resolve the \"<b>Special</b>\" ability on each [[Black Panther]] upgrade you control in any order. <i>(Resolving each ability is a step in a sequence.)</i>",
+        "traits": "Tactic."
+    },
+    {
+        "code": "01044",
+        "flavor": "\"Since the time of Bashenga, we've controlled our destiny as few other nations have.\"",
+        "name": "Vibranium"
+    },
+    {
+        "code": "01045",
+        "flavor": "Wakanda's capital city is an unrivaled architectural and technological marvel.",
+        "name": "The Golden City",
+        "text": "<b>Alter-Ego Action</b>: Exhaust The Golden City → draw 2 cards.",
+        "traits": "Location. Wakanda."
+    },
+    {
+        "code": "01046",
+        "name": "Energy Daggers",
+        "text": "<b>Special</b>: Choose a player. Deal 1 damage to the villain and to each enemy engaged with that player (2 damage instead if this is the final step of this sequence).\n<i>(Play the \"Wakanda Forever!\" event to use this ability.)</i>",
+        "traits": "Black Panther. Weapon."
+    },
+    {
+        "code": "01047",
+        "name": "Panther Claws",
+        "text": "<b>Special</b> (<i>attack</i>): Deal 2 damage to an enemy (4 damage instead if this is the final step of this sequence).\n<i>(Play the \"Wakanda Forever!\" event to use this ability.)</i>",
+        "traits": "Black Panther. Weapon."
+    },
+    {
+        "code": "01048",
+        "name": "Tactical Genius",
+        "text": "<b>Special</b> (<i>thwart</i>): Remove 1 threat from a scheme (2 threat instead if this is the final step of this sequence).\n<i>(Play the \"Wakanda Forever!\" event to use this ability.)</i>",
+        "traits": "Black Panther. Skill."
+    },
+    {
+        "code": "01049",
+        "name": "Vibranium Suit",
+        "text": "<b>Special</b> (<i>attack</i>): Move 1 damage from your hero to an enemy (2 damage instead if this is the final step of this sequence).\n<i>(Play the \"Wakanda Forever!\" event to use this ability.)</i>",
+        "traits": "Armor. Black Panther."
+    },
+    {
+        "code": "01050",
+        "name": "Hulk",
+        "subname": "Bruce Banner",
+        "text": "<b>Forced Response</b>: After Hulk attacks, discard the top card of your deck. If that card's printed resource has:\n[physical] - Deal 2 damage to an enemy.\n[energy] - Deal 1 damage to each character.\n[mental] - Discard Hulk.\n[wild] - All of the above.",
+        "traits": "Avenger. Gamma."
+    },
+    {
+        "code": "01051",
+        "flavor": "\"Sorry -- no autographs.\"",
+        "name": "Tigra",
+        "subname": "Greer Grant Nelson",
+        "text": "<b>Response</b>: After Tigra attacks and defeats a minion, heal 1 damage from her.",
+        "traits": "Avenger."
+    },
+    {
+        "code": "01052",
+        "flavor": "\"Kamala, we don't have a theme song. Please stop humming one...\" -- Captain Marvel",
+        "name": "Chase Them Down",
+        "text": "<b>Response</b> (<i>thwart</i>): After your hero attacks and defeats an enemy, remove 2 threat from a scheme.",
+        "traits": "Thwart."
+    },
+    {
+        "code": "01053",
+        "name": "Relentless Assault",
+        "text": "<b>Hero Action</b> (<i>attack</i>): Deal 5 damage to a minion. If you paid for this card using a [physical] resource, this attack gains overkill. <i>(Excess damage from this attack is dealt to the villain.)</i>",
+        "traits": "Attack."
+    },
+    {
+        "code": "01054",
+        "flavor": "SMACK!",
+        "name": "Uppercut",
+        "text": "<b>Hero Action</b> (<i>attack</i>): Deal 5 damage to an enemy.",
+        "traits": "Attack."
+    },
+    {
+        "code": "01055",
+        "name": "The Power of Aggression",
+        "text": "Max 2 per deck.\nDouble the number of resources this card generates while paying for a Aggression <i>(red)</i> card."
+    },
+    {
+        "code": "01056",
+        "name": "Tac Team",
+        "text": "Uses (3 attack counters). <i>(Enters play with 3 counters. When those are gone, discard this card)</i>\n<b>Action</b>: Exhaust Tac Team and remove 1 attack counter from it → deal 2 damage to an enemy.",
+        "traits": "S.H.I.E.L.D."
+    },
+    {
+        "code": "01057",
+        "flavor": "\"Tony! She did it again!\" -- Janet Van Dyne",
+        "name": "Combat Training",
+        "text": "Play under any player's control. Max 1 per player.\nYour hero gets +1 ATK.",
+        "traits": "Skill."
+    },
+    {
+        "code": "01058",
+        "flavor": "\"Sometimes, I think I accomplish more with my fists than with my law firm.\"",
+        "name": "Daredevil",
+        "subname": "Matt Murdock",
+        "text": "<b>Response</b>: After Daredevil thwarts, deal 1 damage to an enemy.",
+        "traits": "Defender."
+    },
+    {
+        "code": "01059",
+        "flavor": "\"I am very good at finding people.\"",
+        "name": "Jessica Jones",
+        "text": "Jessica Jones gets +1 THW for each side scheme in play.",
+        "traits": "Defender."
+    },
+    {
+        "code": "01060",
+        "flavor": "\"You lose. And you're going to answer for what you've done.\" -- Captain America",
+        "name": "For Justice!",
+        "text": "<b>Hero Action</b> (<i>thwart</i>): Remove 3 threat from a scheme (4 threat instead if you paid for this card using a [mental] resource).",
+        "traits": "Thwart."
+    },
+    {
+        "code": "01061",
+        "name": "Great Responsibility",
+        "text": "<b>Hero Interrupt</b>: When any amount of threat would be placed on a scheme, you take it as damage instead."
+    },
+    {
+        "code": "01062",
+        "name": "The Power of Justice",
+        "text": "Max 2 per deck.\nDouble the number of resources this card generates while paying for a Justice <i>(yellow)</i> card."
+    },
+    {
+        "code": "01063",
+        "flavor": "\"Oh, she's sorry! Let me get the keys and call you a car service!\" -- Misty Knight",
+        "name": "Interrogation Room",
+        "text": "Max 1 per player.\n<b>Response</b>: After you defeat a minion, exhaust Interrogation Room → remove 1 threat from a scheme.",
+        "traits": "Location."
+    },
+    {
+        "code": "01064",
+        "name": "Surveillance Team",
+        "text": "Uses (3 snoop counters). <i>(Enters play with 3 counters. When those are gone, discard this card)</i>\n<b>Action</b>: Exhaust Surveillance Team and remove 1 snoop counter from it → remove 1 threat from a scheme.",
+        "traits": "S.H.I.E.L.D."
+    },
+    {
+        "code": "01065",
+        "name": "Heroic Intuition",
+        "text": "Play under any player's control. Max 1 per player.\nYour hero gets +1 THW.",
+        "traits": "Skill."
+    },
+    {
+        "code": "01066",
+        "name": "Hawkeye",
+        "text": "Hawkeye enters play with 4 arrow counters on him.\n<b>Response</b>: After a minion enters play, remove 1 arrow counter from Hawkeye → deal 2 damage to that minion.",
+        "traits": "Avenger."
+    },
+    {
+        "code": "01067",
+        "flavor": "\"Believe it or not, we all want the same thing.\"",
+        "name": "Maria Hill",
+        "text": "<b>Response</b>: After Maria Hill enters play, each player draws 1 card.",
+        "traits": "S.H.I.E.L.D."
+    },
+    {
+        "code": "01068",
+        "flavor": "\"I will handle this\"",
+        "name": "Vision",
+        "text": "<b>Action</b>: Spend a [energy] resource → choose THW or ATK. Until the end of the phase, Vision gets +2 to the chosen power. (Limit once per round.)",
+        "traits": "Android. Avenger."
+    },
+    {
+        "code": "01069",
+        "flavor": "\"We train hard every day so that when the time comes, we'll be ready\" -- Steve Rogers",
+        "name": "Get Ready",
+        "text": "<b>Action</b>: Ready an ally."
+    },
+    {
+        "code": "01070",
+        "flavor": "\"Let's go everyone!\" -- Carol Danvers",
+        "name": "Lead from the Front",
+        "text": "<b>Hero Action</b>: Choose a player. Each character that player controls gets +1 THW and +1 ATK until the end of the phase.",
+        "traits": "Tactic."
+    },
+    {
+        "code": "01071",
+        "flavor": "\"This is a code red! All hands on deck!\" -- Maria Hill",
+        "name": "Make the Call",
+        "text": "<b>Action</b>: Pay the printed cost of an ally in any player's discard pile → put that ally into play under your control."
+    },
+    {
+        "code": "01072",
+        "name": "The Power of Leadership",
+        "text": "Max 2 per deck.\nDouble the number of resources this card generates while paying for a Leadership <i>(blue)</i> card."
+    },
+    {
+        "code": "01073",
+        "flavor": "\"This they made it tall enough?\" -- She-Hulk",
+        "name": "The Triskelion",
+        "text": "Increase your ally limit by 1. <i>(This allows you to control more than 3 allies.)</i>",
+        "traits": "Location. S.H.I.E.L.D."
+    },
+    {
+        "code": "01074",
+        "flavor": "\"I'm glad she's on our side.\" -- Star-Lord",
+        "name": "Inspired",
+        "text": "Attach to an ally. Max 1 per ally.\nAttached ally gets +1 THW and +1 ATK.",
+        "traits": "Condition."
+    },
+    {
+        "code": "01075",
+        "name": "Black Widow",
+        "subname": "Natasha Romanoff",
+        "text": "<b>Interrupt</b>: When a card is revealed from the encounter deck, exhaust Black Widow and spend a [mental] resource → cancel the effects of that card and discard it. Then, reveal another card from the encounter deck.",
+        "traits": "S.H.I.E.L.D. Spy."
+    },
+    {
+        "code": "01076",
+        "flavor": "\"Power Man for hire -- Cage speakin'.",
+        "name": "Luke Cage",
+        "text": "Toughness. <i>(This character enters play with a tough status card.)</i>",
+        "traits": "Defender."
+    },
+    {
+        "code": "01077",
+        "flavor": "\"That's what you get!\" -- Iron Fist",
+        "name": "Counter-Punch",
+        "text": "<b>Response</b> (<i>attack</i>): After your hero defends against an enemy attack, deal damage to that enemy equal to your hero's ATK.",
+        "traits": "Attack."
+    },
+    {
+        "code": "01078",
+        "flavor": "\"Ahem! Stand aside, citizens!\" -- Ms. Marvel",
+        "name": "Get Behind Me!",
+        "text": "<b>Hero Interrupt</b>: When a treachery card is revealed from the encounter deck, cancel its \"<b>When Revealed</b>\" effects. The villain attacks you instead."
+    },
+    {
+        "code": "01079",
+        "name": "The Power of Protection",
+        "text": "Max 2 per deck.\nDouble the number of resources this card generates while paying for a Protection <i>(green)</i> card."
+    },
+    {
+        "code": "01080",
+        "name": "Med Team",
+        "text": "Uses (3 medical counters). <i>(Enters play with 3 counters. When those are gone, discard this card.)</i>\n<b>Action</b>: Exhaust Med Team and remove 1 medical counter from it → heal 2 damage from a friendly character.",
+        "traits": "S.H.I.E.L.D."
+    },
+    {
+        "code": "01081",
+        "flavor": "Life-saving and stylish.",
+        "name": "Armored Vest",
+        "text": "Play under any player's control. Max 1 per player.\nYour hero gets +1 DEF.",
+        "traits": "Armor."
+    },
+    {
+        "code": "01082",
+        "flavor": "\"We have no choice. So we fight -- and we win. There are no other options.\" -- Cacptain America",
+        "name": "Indomitable",
+        "text": "<b>Response</b>: After your hero defends, discard indomitable → ready your hero.",
+        "traits": "Condition."
+    },
+    {
+        "code": "01083",
+        "name": "Mockingbird",
+        "subname": "Bobbi Morse",
+        "text": "<b>Response</b>: After Mockingbird enters play, stun an enemy.",
+        "traits": "S.H.I.E.L.D. Spy."
+    },
+    {
+        "code": "01084",
+        "name": "Nick Fury",
+        "text": "<b>Forced Response</b>: After Nick Fury enters play, choose one: remove 2 threat from a scheme, draw 3 cards, or deal 4 damage to an enemy. At the end of the round, if Nick Fury is still in play, discard him.",
+        "traits": "S.H.I.E.L.D. Spy."
+    },
+    {
+        "code": "01085",
+        "flavor": "\"CALLING ALL UNITS! CALLING ALL UNITS!\"",
+        "name": "Emergency",
+        "text": "<b>Interrupt</b> (<i>thwart</i>): When the villain schemes, reduce the amount of threat placed on the scheme by 1.",
+        "traits": "Thwart."
+    },
+    {
+        "code": "01086",
+        "flavor": "\"Does it still qualify as first aid if it's your second day in the hospital!\" -- Clint Barton",
+        "name": "First Aid",
+        "text": "<b>Action</b>: Heal 2 damage from any character."
+    },
+    {
+        "code": "01087",
+        "flavor": "WHAM!",
+        "name": "Haymaker",
+        "text": "<b>Hero Action</b> (<i>attack</i>): Deal 3 damage to an enemy.",
+        "traits": "Attack."
+    },
+    {
+        "code": "01088",
+        "name": "Energy",
+        "text": "Max 1 per deck."
+    },
+    {
+        "code": "01089",
+        "name": "Genius",
+        "text": "Max 1 per deck."
+    },
+    {
+        "code": "01090",
+        "name": "Strength",
+        "text": "Max 1 per deck."
+    },
+    {
+        "code": "01091",
+        "flavor": "\"Did you remember to turn off the stove?\" -- Janet Van Dyne",
+        "name": "Avengers Mansion",
+        "text": "Max 1 per player.\n<b>Action</b>: Exhaust Avengers Mansion → choose a player. That player draws 1 card.",
+        "traits": "Avenger. Location."
+    },
+    {
+        "code": "01092",
+        "flavor": "\"A flying aircraft carrier? You're kidding, right?\" -- Jennifer Walters",
+        "name": "Helicarrier",
+        "text": "Max 1 per player.\n<b>Action</b>: Exhaust Helicarrier → choose a player. Reduce the resource cost of the next card that player plays this phase by 1.",
+        "traits": "Location. S.H.I.E.L.D."
+    },
+    {
+        "code": "01093",
+        "name": "Tenacity",
+        "text": "<b>Hero Action</b>: Spend a [physical] resource and discard this card → ready your hero.",
+        "traits": "Condition."
+    }
+]
