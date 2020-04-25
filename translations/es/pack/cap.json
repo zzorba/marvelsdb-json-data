@@ -3,7 +3,7 @@
         "code": "03001a",
         "flavor": "\"Mi deber con mi país está primero... ¡no importa cuál sea el precio!\"",
         "name": "Capitán América",
-        "text": "\"Aguantaría todo el día!\" — <b>Acción</b>: descarta 1 carta de tu mano → prepara al Capitán América. (Límite de una vez por ronda.)",
+        "text": "\"¡Aguantaría todo el día!\" — <b>Acción</b>: descarta 1 carta de tu mano → prepara al Capitán América. (Límite de una vez por ronda.)",
         "traits": "Vengador. Soldado."
     },
     {
@@ -52,7 +52,7 @@
         "code": "03007",
         "flavor": "Incluso el Capitán América necesita un lugar en el que refugiarse y descansar.",
         "name": "Apartamento de Steve",
-        "text": "<b>Acción de Alter ego</b>: agota el Apartamente de Steve → roba 1 carta y cura 1 de Daño a Steve Rogers.",
+        "text": "<b>Acción de Alter ego</b>: agota el Apartamento de Steve → roba 1 carta y cura 1 de Daño a Steve Rogers.",
         "traits": "Lugar."
     },
     {
@@ -85,23 +85,24 @@
     },
     {
         "code": "03013",
-        "flavor": "¡Venga ardillitas, vamos a por él!.",
+        "flavor": "¡Venga ardillitas, vamos a por él!",
         "name": "Chica Ardilla",
         "subname": "Doreen Green",
-        "text": "<b>Respuesta</b>: despuñes de que la Chica Ardilla entre en juego, inflige 1 de Daño a cada enemigo.",
+        "text": "<b>Respuesta</b>: después de que la Chica Ardilla entre en juego, inflige 1 de Daño a cada enemigo.",
         "traits": "Vengador."
     },
     {
         "code": "03014",
-        "flavor": "¡Es la hora de saldar cuentas!.",
+        "flavor": "¡Es la hora de saldar cuentas!",
         "name": "Hombre Maravilla",
         "subname": "Simon Williams",
+        "text": "Como coste adicional para que el Hombre Maravilla ataque, debes descartar una carta de tu mano.",
         "traits": "Vengador."
     },
     {
         "code": "03015",
-        "name": "¡Vengadores, reuníos!!",
-        "text": "Máximo de 1 por ronda.\n<b>Acción de Héroe</b></i>: prepara todos los personajes [[Vengador]] que controles. Hasta el final de la fase, cada personaje [[Vengador]] que esté en juego recibe +1 INT y +1 ATQ."
+        "name": "¡Vengadores, reuníos!",
+        "text": "Máximo de 1 por ronda.\n<b>Acción de Héroe</b></i>: prepara todos los personajes [[VENGADOR]] que controles. Hasta el final de la fase, cada personaje [[VENGADOR]] que esté en juego recibe +1 INT y +1 ATQ."
     },
     {
         "code": "03017",
@@ -112,32 +113,32 @@
     {
         "code": "03019",
         "name": "Quinjet",
-        "text": "<b>Respuesta:</b> después de que empiece tu turno, coloca 1 contador de Tiempo sobre el Quinjet.\n <b>Acción:</b> pon en juego desde tu mano un Aliado [[Vengador]] cuyo coste impreso sea igual o inferior al número de contadores de Tiempo que haya sobre el Quinjet. Luego descarta el Quinjet.",
+        "text": "<b>Respuesta:</b> después de que empiece tu turno, coloca 1 contador de Tiempo sobre el Quinjet.\n <b>Acción:</b> pon en juego desde tu mano un Aliado [[VENGADOR]] cuyo coste impreso sea igual o inferior al número de contadores de Tiempo que haya sobre el Quinjet. Luego descarta el Quinjet.",
         "traits": "Vengador. Vehículo."
     },
     {
         "code": "03024",
         "name": "Torre de los Vengadores",
-        "text": "Si todos tus Aliados tienen el rasgo [[Vengador]], tu límite de Aliados se incrementa en 1.\n<b>Acción:</b> agota la Torre de los Vengadores → reduce en 1 el coste del siguiente Aliado [[Vengador]] que se juegue en esta fase.",
+        "text": "Si todos tus Aliados tienen el rasgo [[VENGADOR]], tu límite de Aliados se incrementa en 1.\n<b>Acción:</b> agota la Torre de los Vengadores → reduce en 1 el coste del siguiente Aliado [[VENGADOR]] que se juegue en esta fase.",
         "traits": "Vengador. Lugar."
     },
     {
         "code": "03025",
         "name": "Vengador honorario",
-        "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[Vengador]].\nVincula esta carta a un personaje amigo.\nEl personaje vinculado recibe +1 de Vida y gana el rasgo [[Vengador]].",
+        "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[Vengador]].\nVincula esta carta a un personaje amigo.\nEl personaje vinculado recibe +1 de Vida y gana el rasgo [[VENGADOR]].",
         "traits": "Título."
     },
     {
         "code": "03031",
         "flavor": "\"¿Debería preocuparme por él?\" -- Spiderman",
         "name": "Enfurecido",
-        "text": "Vinvula esta carta a un Aliado. Máximo de 1 por Aliado.\nAEl Aliado vinculado recibe +2 ATQ y sufre +1 de Daño derivado después de atacar.",
+        "text": "Vincula esta carta a un Aliado. Máximo de 1 por Aliado.\nAEl Aliado vinculado recibe +2 ATQ y sufre +1 de Daño derivado después de atacar.",
         "traits": "Alteración."
     },
     {
         "code": "03032",
         "name": "Seguimiento",
-        "text": "Vinvula esta carta a un Plan. Máximo de 1 por Plan.\n<b>Respuesta</b>: cuando se derrote el Plan vinculado, inflige 4 de Daño a un enemigo."
+        "text": "Vincula esta carta a un Plan. Máximo de 1 por Plan.\n<b>Respuesta</b>: cuando se derrote el Plan vinculado, inflige 4 de Daño a un enemigo."
     },
     {
         "code": "03033",
@@ -148,7 +149,7 @@
     },
     {
         "code": "03034",
-        "name": "Consciencia Mejorada",
+        "name": "Consciencia mejorada",
         "text": "Usos (3 contadores Mentales).\n<b>Recurso de Héroe</b>: agota la Consciencia mejorada y quítale 1 contador Mental → genera un recurso [mental].",
         "traits": "Alteración."
     }
