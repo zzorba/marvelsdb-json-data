@@ -30,6 +30,21 @@
     "type_code": "minion"
   },
   {
+    "base_threat": 3,
+    "boost": 3,
+    "code": "09029",
+    "faction_code": "encounter",
+    "name": "Open the Dark Dimension",
+    "pack_code": "drs",
+    "position": 29,
+    "quantity": 1,
+    "set_code": "doctor_strange_nemesis",
+    "set_position": 2,
+    "text": "<b>When revealed</b>: Place the top card of the [[Invocation]] deck facedown under this scheme.\n<b>When Defeated</b>: Shuffle the [[Invocation]] cardd under here into the [[Invocation]] deck.",
+    "scheme_acceleration": 1,
+    "type_code": "side_scheme"
+  },
+  {
     "boost": 1,
     "code": "09030",
     "faction_code": "encounter",
@@ -42,5 +57,18 @@
     "set_position": 3,
     "text": "Attach to your hero.\n<b>Forced Interrupt</b>: When you play an event, cancel its effects and discard it. Then, discard this card.",
     "type_code": "attachment"
+  },
+  {
+    "boost": 1,
+    "code": "09031",
+    "faction_code": "encounter",
+    "name": "Thoughtcasting",
+    "pack_code": "drs",
+    "position": 31,
+    "quantity": 1,
+    "set_code": "doctor_strange_nemesis",
+    "set_position": 5,
+    "text": "<b>When Revealed (Alter-Ego)</b>: Discarrd a card from your hand with the highest cost. Plae threat on the main scheme equal to the printed cost of that card.\n<b>When Revealed (Hero)</b>: Discard a card from your hand with the highest cost. Take damage equal to the printed cost of that card.",
+    "type_code": "treachery"
   }
 ]
