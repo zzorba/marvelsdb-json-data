@@ -8,7 +8,7 @@ mkdirp = require 'mkdirp'
 [bin, script, locale] = process.argv
 
 i18nDir = path.join __dirname, 'translations'
-things = ['cycles', 'encounters', 'factions', 'packs', 'types', 'subtypes', 'campaigns', 'scenarios']
+things = ['factions', 'packs', 'packtypes', 'types', 'subtypes', 'sets']
 
 stripProps = (json, props) ->
     _.map json, (item) ->
