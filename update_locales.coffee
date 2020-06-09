@@ -8,7 +8,8 @@ mkdirp = require 'mkdirp'
 [bin, script, locale] = process.argv
 
 i18nDir = path.join __dirname, 'translations'
-things = ['factions', 'packs', 'packtypes', 'types', 'subtypes', 'sets']
+things = ['factions', 'packs', 'packtypes', 'sets', 'subtypes', 'types']
+textProperties = ['code', 'flavor', 'name', 'text', 'traits', 'subname', 'back_text', 'back_flavor', 'attack_text', 'scheme_text', 'boost_text']
 
 stripProps = (json, props) ->
     _.map json, (item) ->
@@ -40,13 +41,13 @@ loadCards = (root) ->
                 fileContents = fs.readFileSync(path.join(localeRoot, file, pack_file), 'UTF-8')
                 if !!fileContents.trim()
                     json = JSON.parse fileContents
-                    result["#{path.join(file, pack_file)}"] = stripProps json, ['code', 'flavor', 'name', 'subname', 'text', 'traits', 'back_name', 'back_flavor', 'back_text', 'slot']
+                    result["#{path.join(file, pack_file)}"] = stripProps json, textProperties
         else
             #console.log "Reading regular #{path.join(localeRoot, file)}"
             fileContents = fs.readFileSync(path.join(localeRoot, file), 'UTF-8')
             if !!fileContents.trim()
                 json = JSON.parse fileContents
-                result[file] = stripProps json, ['code', 'flavor', 'name', 'subname', 'text', 'traits', 'back_name', 'back_flavor', 'back_text', 'slot']
+                result[file] = stripProps json, textProperties
     result
 
 merge_data = (defaultLocale, locale) ->
