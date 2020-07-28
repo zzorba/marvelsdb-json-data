@@ -68,6 +68,250 @@
         "traits": "Condizione."
     },
     {
+        "code": "01010a",
+        "flavor": "\"Io non mollo mai.\"",
+        "name": "Capitan Marvel",
+        "text": "Reincanalare – <b>Azione:</b> Spendi [energy] e cura 1 danno a Capitan Marvel → pesca 1 carta. (Limite di una volta per round.)",
+        "traits": "Avenger. Soldato."
+    },
+        "code": "01010b",
+        "flavor": "\"Il mio compito è proteggere la Terra e tutti quelli che ci vivono.\"",
+        "name": "Carol Danvers",
+        "text": "Comandante – <b>Azione:</b> Scegli 1 giocatore a cui far pescare 1 carta. (Limite di una volta per round.)",
+        "traits": "S.H.I.E.L.D. Soldato."
+    },
+    {
+        "code": "01011",
+        "flavor": "\"Questo è quello che volevo: aiutare gli innocenti mandando in ospedale i criminali.\"",
+        "name": "Spider-Woman",
+        "subname": "Jessica Drew",
+        "text": "<b>Risposta:</b> Dopo che Spider-Woman è entrata in gioco, confondi il criminale.",
+        "traits": "Avenger. Spia."
+    },
+    {
+        "code": "01012",
+        "flavor": "\"Questo è uno dei disastri più notevoli che mi sia mai capitato di vedere.\" –Carol Danvers",
+        "name": "Crisi Scongiurata",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 2 minacce da una trama. Poi, se possiedi il tratto [[Aereo]], rimuovi 2 minacce da una trama diversa.",
+        "traits": "Intervento."
+    },
+    {
+        "code": "01013",
+        "name": "Scarica Fotonica",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 5 danni a un nemico. Se hai pagato questa carta usando una [energy], pesca 1 carta.",
+        "traits": "Attacco. Superpotere."
+    },
+    {
+        "code": "01014",
+        "flavor": "\"Ora basta!\" –Capitan Marvel",
+        "name": "Assorbimento di Energia",
+    },
+    {
+        "code": "01015",
+        "flavor": "Questa stazione di bassa orbita può teletrasportare carichi e personale in arrivo e in partenza dal Triskelion.",
+        "name": "Stazione Alpha Flight",
+        "text": "<b>Azione:</b> Esaurisci Stazione Alpha Flight, scegli e scarta 1 carta dalla tua mano → pesca 1 carta (pesca invece 2 carte se sei Carol Danvers).",
+        "traits": "Luogo. S.H.I.E.L.D."
+    },
+    {
+        "code": "01016",
+        "flavor": "\"È fighissimo!\" –Jessica Drew",
+        "name": "Elmo di Capitan Marvel",
+        "text": "Capitan Marvel riceve +1 DIF (+2 DIF se invece possiedi il tratto [[Aereo]]).",
+        "traits": "Armatura. Tecnologia."
+    },
+    {
+        "code": "01017",
+        "name": "Volo Cosmico",
+        "text": "Capitan Marvel ottiene il tratto [[Aereo]].\n<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando Capitan Marvel sta per subire danni, scarta Volo Cosmico → previeni 3 di quei danni.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "01018",
+        "name": "Incanalare Energia",
+        "text": "Massimo 1 per giocatore.\n<b>Azione:</b> Spendi X [energy] → metti X gettoni energia su questa carta.\n<b>Azione Eroe</b> <i>(attacco)</i>: Scarta Incanalare Energia → infliggi 2 danni a un nemico per ogni gettone energia su questa carta (fino a un massimo di 10 danni).",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "01019a",
+        "flavor": "\"Sono alta due metri e color verde chiaro: la gente mi guarderà comunque, a prescindere da come mi vesto.\"",
+        "name": "She-Hulk",
+        "text": "\"Ma tu qualche volta ti alleni?\" – <b>Risposta:</b> Dopo che hai assunto questa sembianza, infliggi 2 danni a un nemico.",
+        "traits": "Avenger. Gamma."
+    },
+    {
+        "code": "01019b",
+        "flavor": "\"Posso diventare una Hulk ogni volta che voglio. Ma poter fare qualcosa non sempre significa che vada fatto.\"",
+        "name": "Jennifer Walters",
+        "text": "\"Obiezione!\" – <b>Interruzione:</b> Quando 1 o più minacce stanno per essere collocate su una trama, previeni 1 di quelle minacce. (Limite di una volta per round.)",
+        "traits": "Avvocato. Gamma."
+    },
+    {
+        "code": "01020",
+        "flavor": "\"Da questa parte, signori. Vi presento… Hellcat!\"",
+        "name": "Hellcat",
+        "subname": "Patsy Walker",
+        "text": "<b>Azione:</b> Rimetti Hellcat nella tua mano.",
+        "traits": "Avenger."
+    },
+    {
+        "code": "01021",
+        "flavor": "\"Ti sei messo contro la donna sbagliata!\" –She-Hulk",
+        "name": "Schianto Gamma",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi X danni a un nemico (fino a un massimo di 15 danni), dove X è l’ammontare di danni che sostieni.",
+        "traits": "Attacco. Superpotere."
+    },
+    {
+        "code": "01022",
+        "flavor": "\"Questi stivali sono fatti per calpestare.\" –She-Hulk",
+        "name": "Pestone a Terra",
+        "text": "<b>Azione Eroe:</b> Infliggi 1 danno a ogni nemico.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "01023",
+        "flavor": "\"È la prima volta che vedo qualcuno che tenta di sfuggire a un combattimento argomentando.\" –Spider-Man",
+        "name": "Pratica Legale",
+        "text": "<b>Azione Alter Ego</b> <i>(intervento)</i>: Scegli e scarta fino a 5 carte dalla tua mano → rimuovi 1 minaccia da una trama per ogni carta scartata in questo modo.",
+        "traits": "Abilità. Intervento."
+    },
+    {
+        "code": "01024",
+        "flavor": "\"Mai piaciuti gli uomini che chiacchierano troppo.\"–Jennifer Walters",
+        "name": "Pugno Uno-Due",
+        "text": "<b>Risposta:</b> Dopo che hai effettuato un attacco base <i>(usando il tuo ATT)</i>, ripristina She-Hulk.",
+        "traits": "Abilità."
+    },
+    {
+        "code": "01025",
+        "flavor": "\"So qualcosina sulla rabbia. E quel tipo di furia… non se ne va senza portarsi via qualcuno.\" –Jennifer Walters",
+        "name": "Doppia Personalità",
+        "text": "<b>Azione:</b> Cambia la tua sembianza (gira la tua carta identità). Poi pesca fino al tuo limite di mano stampato.",
+    },
+    {
+        "code": "01026",
+        "flavor": "\"Ti manderò il conto. Il mio tempo è prezioso, ultimamente.\" –Jennifer Walters",
+        "name": "Divisione Legale Superumana",
+        "text": "<b>Azione Alter Ego</b> <i>(intervento)</i>: Esaurisci Divisione Legale Superumana e spendi [mental] → rimuovi 2 minacce da una trama.",
+        "traits": "Luogo."
+    },
+    {
+        "code": "01027",
+        "flavor": "\"Come Bruce, pensavo di poter controllare il mio potere. La mia rabbia.\" –Jennifer Walters",
+        "name": "Ira Concentrata",
+        "text": "<b>Azione Eroe:</b> Esaurisci Ira Concentrata e subisci 1 danno → pesca 1 carta.",
+        "traits": "Abilità."
+    },
+    {
+        "code": "01028",
+        "name": "Forza Sovrumana",
+        "text": "She-Hulk riceve +2 ATT.\n<b>Risposta Obbligata:</b> Dopo che She-Hulk ha attaccato, scarta Forza Sovrumana → stordisci il nemico attaccato.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "01029a",
+        "flavor": "\"Io sono Iron Man.\"",
+        "name": "Iron Man",
+        "text": "Ricevi +1 limite di mano per ogni miglioria [[TECNOLOGIA]] che controlli (fino a un limite di mano massimo pari a 7).",
+        "traits": "Avenger."
+    },
+    {
+        "code": "01029b",
+        "flavor": "\"È ovvio che non lo faccio per soldi…\"",
+        "name": "Tony Stark",
+        "text": "Futurista – <b>Azione:</b> Guarda 3 carte dalla cima del tuo mazzo. Aggiungine 1 alla tua mano e scarta le altre. (Limite di una volta per round.)",
+        "traits": "Genio."
+    },
+    {
+        "code": "01030",
+        "flavor": "\"È una guerra privata… o tutti possono partecipare?\"",
+        "name": "War Machine",
+        "subname": "James Rhodes",
+        "text": "<b>Azione:</b> Esaurisci War Machine e infliggigli 2 danni → infliggi 1 danno a ogni nemico.",
+        "traits": "S.H.I.E.L.D. Soldato."
+    },
+    {
+        "code": "01031",
+        "name": "Scarica Repulsiva",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 1 danno a un nemico e scarta 5 carte dalla cima del tuo mazzo. Per ogni [energy] stampata scartata in questo modo, infliggi 2 danni aggiuntivi a quel nemico.",
+        "traits": "Attacco. Superpotere."
+    },
+    {
+        "code": "01032",
+        "flavor": "\"Bella tecnica. Ma prova a fare così… Fa molto più male.\" –Tony Stark",
+        "name": "Pugno Supersonico",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 4 danni a un nemico (8 danni se invece possiedi il tratto [[Aereo]]).",
+        "traits": "Attacco."
+    },
+    {
+        "code": "01033",
+        "flavor": "\"Fa’ il tuo numero. Qui ci penso io.\"",
+        "name": "Pepper Potts",
+        "text": "<b>Risorsa:</b> Esaurisci Pepper Potts → genera le risorse della carta in cima alla tua pila degli scarti.",
+        "traits": "Persona."
+    },
+    {
+        "code": "01034",
+        "flavor": "\"Speravo in qualcosa di leggermente più grande, ma andrà bene.\" –Tony Stark",
+        "name": "Stark Tower",
+        "text": "<b>Azione Alter Ego:</b> Esaurisci Stark Tower → scegli 1 giocatore. Quel giocatore rimette nella sua mano la prima miglioria [[TECNOLOGIA]] dalla cima della sua pila degli scarti.",
+        "traits": "Luogo."
+    },
+    {
+        "code": "01035",
+        "flavor": "\"Quando indosso questa armatura, acquisisco più potere di quanto qualsiasi essere umano dovrebbe avere… e forse anche più responsabilità di quanta il mio cuore possa sopportare.\" –Tony Stark",
+        "name": "Reattore Arc",
+        "text": "<b>Azione Eroe:</b> Esaurisci Reattore Arc → ripristina Iron Man.",
+        "traits": "Oggetto. Tecnologia."
+    },
+    {
+        "code": "01036",
+        "flavor": "\"Tutto qui?\" –Tony Stark",
+        "name": "Armatura Mark V",
+        "text": "Ricevi +6 punti ferita.",
+        "traits": "Armatura. Tecnologia."
+    },
+    {
+        "code": "01037",
+        "flavor": "\"Tony, sicuro di volerlo fare?\" –P.E.P.P.E.R.",
+        "name": "Elmo Mark V",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Esaurisci Elmo Mark V → rimuovi 1 minaccia da una trama (da ogni trama se invece possiedi il tratto [[Aereo]]).",
+        "traits": "Armatura. Tecnologia."
+    },
+    {
+        "code": "01038",
+        "flavor": "\"Ecco, vieni, ti do… una mano.\" –Tony Stark",
+        "name": "Guanti a Energia",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Esaurisci Guanti a Energia → infliggi 1 danno a un nemico (2 danni se invece possiedi il tratto [[Aereo]]).",
+        "traits": "Armatura. Tecnologia."
+    },
+    {
+        "code": "01039",
+        "name": "Stivali a Razzo",
+        "text": "Ricevi +1 punti ferita.\n<b>Azione Eroe:</b> Esaurisci Stivali a Razzo e spendi [mental] → ottieni il tratto [[Aereo]] fino alla fine della fase.",
+        "traits": "Armatura. Tecnologia."
+    },
+    {
+        "code": "01040a",
+        "flavor": "\"Se attacchi me, attacchi il Wakanda.\"",
+        "name": "Pantera Nera",
+        "text": "Ritorsione 1. <i>(Dopo che questo personaggio è stato attaccato, infliggi 1 danno al personaggio attaccante.)</i>",
+        "traits": "Avenger. Wakanda."
+    },
+    {
+        "code": "01040b",
+        "name": "T'Challa",
+        "text": "Preveggenza – <b>Preparazione:</b> Cerca nel tuo mazzo 1 miglioria [[Pantera Nera]] e aggiungila alla tua mano. Mescola il tuo mazzo.",
+        "traits": "Re. Wakanda."
+    },
+    {
+        "code": "01041",
+        "flavor": "\"Che faresti mai senza di me, fratello?\"",
+        "name": "Shuri",
+        "text": "<b>Risposta:</b> Dopo che Shuri è entrata in gioco, cerca nel tuo mazzo 1 miglioria e aggiungila alla tua mano. Mescola il tuo mazzo.",
+        "traits": "Genio. Wakanda."
+    },
+    {
         "code": "",
         "flavor": "",
         "name": "",
@@ -75,3 +319,4 @@
         "text": "",
         "traits": ""
     },
+]
