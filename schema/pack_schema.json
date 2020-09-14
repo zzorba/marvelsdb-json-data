@@ -1,11 +1,17 @@
 {
 	"additionalProperties": false,
 	"properties": {
-		"code": {
-			"minLength": 1,
-			"type": "string"
+		"cgdb_id": {
+			"oneOf": [
+				{
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
 		},
-		"type_code": {
+		"code": {
 			"minLength": 1,
 			"type": "string"
 		},
@@ -19,17 +25,15 @@
 				}
 			]
 		},
-		"cgdb_id": {
-			"oneOf": [
-				{
-					"type": "integer"
-				},
-				{
-					"type": "null"
-				}
-			]
-		},
 		"name": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"octgn_id": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"pack_type_code": {
 			"minLength": 1,
 			"type": "string"
 		},
@@ -51,8 +55,8 @@
 	},
 	"required": [
 		"code",
-		"type_code",
 		"name",
+		"pack_type_code",
 		"position",
 		"date_release",
 		"size"
