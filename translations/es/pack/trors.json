@@ -1,24 +1,249 @@
 [
     {
+        "code": "04001a",
+        "flavor": "\"Puede que no sea el Vengador más poderoso, pero desde luego soy el que más mola.\"",
+        "name": "Ojo de Halcón",
+        "text": "Desefundado rápido — <b>Acción</b>: agota a Ojo de Halcón → prepara el Arco de Ojo de Halcón",
+        "traits": "Vengador."
+    },
+    {
+        "code": "04001b",
+        "name": "Clint Barton",
+        "text": "Arma predilecta — <b>Acción</b>: gasta 1 recurso de cualquier tipo → busca el Arco de Ojo de Halcón en tu mazo y tu pila de descartes y añádelo a tu mano. Baraja tu mazo. (Límite de una vez por fase.)",
+        "traits": "S.H.I.E.L.D."
+    },
+    {
+        "code": "04002",
+        "name": "Arco de Ojo de Halcón",
+        "text": "Restringida.\nTu Héroe recibe +1 ATQ y todos tus ataques de [[FLECHA]] ganan A distancia.",
+        "traits": "Arma."
+    },
+    {
+        "code": "04003",
+        "name": "Carcaj de Ojo de Halcón",
+        "text": "Puedes jugar Eventos [[FLECHA]] vinculados a esta carta como si estuvieran en tu mano.\n<b>Acción de Héroe</b>: agota el Carcaj de Ojo de Halcón → busca un Evento [[FLECHA]] entre las 5 primeras cartas de tu mazo y vincúlalo a esta carta boca arriba.",
+        "traits": "Objeto."
+    },
+    {
+        "code": "04004",
+        "flavor": "\"¿Eso es todo lo que tienes?\"",
+        "name": "Pájaro Burlón",
+        "text": "<b>Interrupción</b>: cuando el Villano inicie un ataque contra ti, gasta 1 recurso de cualquier tipo y devuelve a Pájaro Burlón a tu mano → evita todo el Daño de este ataque.",
+        "traits": "Vengador. S.H.I.E.L.D.",
+        "subname": "Bobbi Morse"
+    },
+    {
+        "code": "04005",
+        "flavor": "¡¡¡IIIIIIIIIIIIIIIIH!!!",
+        "name": "Flecha sónica",
+        "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: agota el Arco de Ojo de Halcón → confunde a un enemigo e inflígele 3 de Daño (5 de daño si ya estaba confundido).",
+        "traits": "Flecha. Ataque."
+    },
+    {
+        "code": "04006",
+        "flavor": "\"¿Nunca te han dicho que los ojos te echan chispas cuando te enfadas?\" —Clint Barton",
+        "name": "Flecha explosiva",
+        "text": "<b>Acción de Héroe</b>: agota el Arco de Ojo de Halcón y elige un jugador → inflige 3 de Daño al Villano y a cada Esbirro que esté enfrentado a ese jugador.",
+        "traits": "Flecha."
+    },
+    {
+        "code": "04007",
+        "flavor": "\"¡Hail, Ojo de Halcón!\" —Clint Barton",
+        "name": "Flecha eléctrica",
+        "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: agota el Arco de Ojo de Halcón → ature a un enemigo e inflígele 3 de Daño (5 de Daño si ya estaba confundido).",
+        "traits": "Arrow. Thwart."
+    },
+    {
+        "code": "04008",
+        "flavor": "\"Es un método estupendo para desplazarse.\" —Clint Barton",
+        "name": "Flecha con cable",
+        "text": "<b>Acción de Héroe</b> <i>(intervención)</i>: agota el Arco de Ojo de Halcón → quita 3 de Amenaza de un Plan, ignorando los iconos de Crisis que haya en juego.",
+        "traits": "Flecha. Intervención."
+    },
+    {
+        "code": "04009",
+        "name": "Flecha de vibránium",
+        "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: agota el Arco de Ojo de Halcón  → inflige 6 de Daño a un enemigo. Este ataque gana Penetrante.",
+        "traits": "Flecha. Ataque."
+    },
+    {
+        "code": "04010",
+        "flavor": "\"Cuando uno lucha junto a dioses y monstruos, no basta con ser bueno; hay que ser el mejor.\" —Clint Barton",
+        "name": "Tirador experto",
+        "text": "<b>Recurso</b>: agota Tirador experto → genera un recurso [wild] para un Evento [[FLECHA]].",
+        "traits": "Flecha. Ataque."
+    },
+    {
         "code": "04011",
-        "flavor": "\"You see I', literally pointing arrows at your, right?.\"",
-        "name": "Hawkeye",
-        "text": "<b>Action</b>: Exhaust this ally and discard 1 card from your hand → deal X damage to an enemy, where X is the number of printed resources on that card.",
-        "traits": "Avenger.",
+        "flavor": "\"Veis que os estoy apuntando con flechas literales, ¿verdad?\"",
+        "name": "Ojo de Halcón",
+        "text": "<b>Acción</b>: agota este Aliado y descarta 1 carta de tu mano → inflige X de Daño a un enemigo, siendo X el número de recursos impresos en esa carta",
+        "traits": "Vengador.",
         "subname": "Kate Bishop"
     },
     {
+        "code": "04012",
+        "flavor": "\"Mientras la Espada Negra brilla en mi mano, debo luchar… ¡cueste lo que cueste!\"",
+        "name": "Caballero Negro",
+        "text": "El ataque básico del Caballero Negro gana Penetrante.",
+        "traits": "Vengador.",
+        "subname": "Dane Whitman"
+    },
+    {
+        "code": "04013",
+        "flavor": "\"A veces para ser un caballero hay que sostener la puerta, y el resto del edificio.\"",
+        "name": "Goliat",
+        "text": "<b>Acción</b>: Goliat recibe +4 ATQ hasta el final de la fase. Al final de la fase, descarta a Goliat. (Máximo de una vez por fase.)",
+        "traits": "Vengador.",
+        "subname": "Bill Foster"
+    },
+    {
+        "code": "04014",
+        "flavor": "\"El Capi no es el único soldado que ama a su país.\"",
+        "name": "USAgente",
+        "text": "Represalia 1.",
+        "traits": "Vengador.",
+        "subname": "John Walker"
+    },
+    {
+        "code": "04015",
+        "name": "Aeromoto",
+        "text": "Vincula esta carta a un Aliado [[VENGADOR]]. Máximo de 1 por Aliado.\nEl Aliado vinculado gana [[AÉREO]].\n<b>Acción</b>: agota la Aeromoto → prepara al Aliado vinculado.",
+        "traits": "Vehículo."
+    },
+    {
         "code": "04016",
-        "flavor": "\"We mostly just wait for Cap to yell 'Avengers Aseemble' and attack in the same direction as him\" -- Clint Barton",
-        "name": "Team Training",
-        "text": "Play under any player's control. Max 1 per player.\n Each ally you control gets +1 hit point.",
-        "traits": "Condition."
+        "flavor": "\"Normalmente esperamos a que el Capi exclame 'Vengadores, reuníos' y atacamos todos en la misma dirección que él.\" —Clint Barton",
+        "name": "Entrenamiento en equipo",
+        "text": "Juega esta carta poniéndola bajo el control de cualquier jugador. Máximo de 1 por jugador.\nCada Aliado que controles recibe +1 de Vida.",
+        "traits": "Alteración."
+    },
+    {
+        "code": "04017",
+        "flavor": "\"Inténtalo otra vez. Si te atreves.\" —Jessica Drew",
+        "name": "Listo para la acción",
+        "text": "<b>Acción de Héroe</b>: dale una carta de Estado \"Duro\" a un Aliado que controles.",
+        "traits": "Táctica."
+    },
+    {
+        "code": "04020",
+        "name": "Máquina de Guerra",
+        "text": "Dureza.\nEl ataque básico de Máquina de Guerra gana A distancia.",
+        "traits": "Vengador. S.H.I.E.L.D.",
+        "subname": "James Rhodes"
+    },
+    {
+        "code": "04022",
+        "flavor": "\"Nos unimos para luchar contra aquello que no podríamos solos.\" —Luke Cage",
+        "name": "Los héroes más poderosos",
+        "text": "<b>Acción de Héroe</b>: agota un personaje [[VENGADOR]] que controles → prepara otro personaje [[VENGADOR]] que controles.",
+        "traits": ""
+    },
+    {
+        "code": "04031a",
+        "name": "Spiderwoman",
+        "text": "Agilidad sobrehumana — <b>Interrupción</b>: cuando juegues una carta de Aspecto, Spiderwoman recibe +1 INT, +1 ATQ y +1 DEF hasta el final de la ronda. (Límite de una vez por ronda para cada aspecto.)",
+        "traits": "Vengador. Espía."
+    },
+    {
+        "code": "04031b",
+        "name": "Jessica Drew",
+        "text": "Agente Doble — Elige dos aspectos en vez de uno durante la creación de tu mazo. Debes incluir en tu mazo la misma cantidad de cartas de ambos aspectos.\n<b>Acción:</b> mira la primera carta de cualquier mazo. (Límite de una vez por ronda.)",
+        "traits": "S.H.I.E.L.D. Espía."
+    },
+    {
+        "code": "04032",
+        "flavor": "\"Chica, te lo reconozco. Pocos desastres he visto más impresionantes que éste.\"",
+        "name": "Capitana Marvel",
+        "text": "<b>Respuesta</b>: después de que la Capitana Marvel use un atributo básico, roba 1 carta.",
+        "traits": "Vengador.",
+        "subname": "Carol Danvers"
+    },
+    {
+        "code": "04033",
+        "name": "Sutileza",
+        "text": "<b>Recurso de Héroe</b>: agota Sutileza → genera un recurso [wild] para una carta de Aspecto.",
+        "traits": "Alteración."
+    },
+    {
+        "code": "04034",
+        "name": "Apartamento de Jessica Drew",
+        "text": "<b>Acción de Alter ego</b>: agota el Apartamento de Jessica Drew → busca una carta de Aspecto entre las 5 primeras cartas de tu mazo y añádela a tu mano. Baraja tu mazo.",
+        "traits": "Lugar."
+    },
+    {
+        "code": "04035",
+        "name": "Rayo venenoso",
+        "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 5 de Daño a un enemigo.\n<i>(Esta carta es de Spiderwoman y también de Agresividad.)</i>",
+        "traits": "Ataque. Superpoder."
+    },
+    {
+        "code": "04036",
+        "flavor": "\"La próxima vez que vayas a usar ese poder, avisa, ¿vale?\" —Peter Parker",
+        "name": "Feromonas",
+        "text": "<b>Acción de Héroe</b>: aturde y confunde a un enemigo.\n<i>(Esta carta es de Spiderwoman y también de Liderazgo.)</i>",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "04037",
+        "name": "Inmunidad a toxinas",
+        "text": "<b>Acción de Héroe</b>: cura 3 de Daño a Spiderwoman y dale una carta de Estado \"Duro\".\n<i>(Esta carta es de Spiderwoman y también de Protección.)</i>",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "04038",
+        "flavor": "\"Ahora sólo me queda infiltrarme, hacer de arañita espía…\" —Jessica Drew",
+        "name": "Pasar desapercibida",
+        "text": "<b>Acción de Héroe</b> <i>(intervención)</i>: quita un total de 3 de Amenaza de entre todos los planes que haya en juego.\n<i>(Esta carta es de Spiderwoman y también de Justicia.)</i>",
+        "traits": "Habilidad. Intervención."
+    },
+    {
+        "code": "04039",
+        "flavor": "\"Todo el mundo cree que puedo volar. Y no puedo. Pero planear se me da de escándalo.\" —Jessica Drew",
+        "name": "Planeo controlado",
+        "text": "<b>Acción de Héroe</b>: prepara a Spiderwoman. Gana [[AÉREO]] hasta el final de la ronda.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "04040",
+        "flavor": "\"¡Vale, panda de pringaos! ¿Quién quiere un pedazo de mí?\"",
+        "name": "Spidergirl",
+        "text": "<b>Respuesta</b>: después de que juegues a Spidergirl desde tu mano, aturde y confunde a un Esbirro.",
+        "traits": "Vengador.",
+        "subname": "Anya Corazon"
     },
     {
         "code": "04043",
-        "flavor": "\"You are in Wakanda now!\" -- T'Challa",
-        "name": "Press the Advantage",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 2 damage to an enemy. If that enemy is stunned or confused, draw 1 card.",
-        "traits": "Attack."
+        "flavor": "\"¡Ahora estás en Wakanda!\" —T'Challa",
+        "name": "Aprovechar la ventaja",
+        "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 2 de Daño a un enemigo. Si ese enemigo está aturdido o confundido, roba 1 carta.",
+        "traits": "Ataque."
+    },
+    {
+        "code": "04044",
+        "name": "Golpe imparable",
+        "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 3 de Daño a un enemigo. Este ataque gana Penetrante.",
+        "traits": "Ataque."
+    },
+    {
+        "code": "04045",
+        "flavor": "\"En serio, ¿qué tiene Nueva York? ¿Por qué nunca os da por invadir Denver?\"",
+        "name": "Spiderman",
+        "text": "<b>Respuesta</b>: después de que juegues a Spiderman desde tu mano, quita 3[per_hero] de Amenaza de un Plan secundario.",
+        "traits": "Vengador.",
+        "subname": "Peter Parker"
+    },
+    {
+        "code": "04047",
+        "name": "Investigador sagaz",
+        "text": "Juega esta carta poniéndola bajo el control de cualquier jugador. Máximo de 1 por jugador.\n<b>Respuesta de Héroe</b>: después de que se derrote un Plan secundario, agota Investigador sagaz → roba 1 carta.",
+        "traits": "Habilidad."
+    },
+    {
+        "code": "04049",
+        "flavor": "\"No te asustes, pequeña. Piensa en lo celosos que se pondrán los demás niños cuando les cuentes cómo te ha rescatado Iron Man.\" —Tony Stark",
+        "name": "Despejar la zona",
+        "text": "<b>Acción de Héroe</b> <i>(intervención)</i>: quita 2 de Amenaza de un Plan. Si con esto se quita la última ficha de Amenaza de ese Plan, roba 1 carta.",
+        "traits": "Intervención."
     }
 ]
