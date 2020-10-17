@@ -148,8 +148,8 @@
 		"set_code": "risky_business",
 		"set_position": 4,
 		"stage": 1,
-		"threat": 7,
 		"text": "<b>When Completed</b>: Place 1[per_hero] infamy counters on Criminal Enterpise. Then discard 1 card from each player's deck for each infamy counter on Criminal Enterprise.",
+		"threat": 7,
 		"type_code": "main_scheme"
 	},
 	{
@@ -171,8 +171,8 @@
 		"set_code": "risky_business",
 		"set_position": 5,
 		"stage": 2,
-		"threat": 10,
 		"text": "<b>If this stage is completed, the players lose the game.</b>",
+		"threat": 10,
 		"type_code": "main_scheme"
 	},
 	{
@@ -195,8 +195,8 @@
 		"faction_code": "encounter",
 		"flavor": "\"Fool! Your power is nothing compared to mine! Your strength is nothing, your intellect is NOTHING!\" -- Green Goblin",
 		"hidden": true,
-    "name": "State of Madness",
-    "octgn_id": "0a59161d-7db6-4328-9eeb-1906ce8715a5",
+		"name": "State of Madness",
+		"octgn_id": "0a59161d-7db6-4328-9eeb-1906ce8715a5",
 		"pack_code": "gob",
 		"position": 6,
 		"quantity": 1,
@@ -336,7 +336,6 @@
 		"pack_code": "gob",
 		"position": 14,
 		"quantity": 1,
-		"scheme": null,
 		"scheme": 1,
 		"set_code": "mutagen_formula",
 		"set_position": 1,
@@ -357,7 +356,6 @@
 		"pack_code": "gob",
 		"position": 15,
 		"quantity": 1,
-		"scheme": null,
 		"scheme": 2,
 		"set_code": "mutagen_formula",
 		"set_position": 2,
@@ -379,7 +377,6 @@
 		"pack_code": "gob",
 		"position": 16,
 		"quantity": 1,
-		"scheme": null,
 		"scheme": 2,
 		"set_code": "mutagen_formula",
 		"set_position": 3,
@@ -405,8 +402,8 @@
 		"set_code": "mutagen_formula",
 		"set_position": 4,
 		"stage": 1,
-		"threat": 7,
 		"text": "<b>When Completed</b>: In player order, each player not engaged with a [[Goblin]] minion must discard 3 cards from the encounter deck and put the first [[Goblin]] minion they discarded this way into play engaged with them.",
+		"threat": 7,
 		"type_code": "main_scheme"
 	},
 	{
@@ -417,7 +414,7 @@
 		"code": "02018",
 		"double_sided": true,
 		"escalation_threat": -2,
-    "escalation_threat_fixed": true,
+		"escalation_threat_fixed": true,
 		"faction_code": "encounter",
 		"flavor": "The goblin creatures serve Green Goblin's every command. Stop Green Goblin before his monstrous militia overruns the city!",
 		"name": "Mutagen Cloud",
@@ -428,8 +425,8 @@
 		"set_code": "mutagen_formula",
 		"set_position": 5,
 		"stage": 2,
-		"threat": 11,
 		"text": "X is equal to the number of [[Goblin]] enemies (including Green Goblin) in play.\n<b>If this stage is completed, the players lose the game.</b>",
+		"threat": 11,
 		"type_code": "main_scheme"
 	},
 	{
@@ -458,9 +455,9 @@
 		"pack_code": "gob",
 		"position": 20,
 		"quantity": 1,
+		"scheme_text": "<b>Forced Interrupt</b>: When Green Goblin schemes or attacks, give him 1 additional boost card for that activation.",
 		"set_code": "mutagen_formula",
 		"set_position": 7,
-		"scheme_text": "<b>Forced Interrupt</b>: When Green Goblin schemes or attacks, give him 1 additional boost card for that activation.",
 		"text": "Attach to Green Goblin.\n<b>Hero Action</b>: Spend [mental] [mental] resources → discard this card.",
 		"traits": "Condition.",
 		"type_code": "attachment"
@@ -742,7 +739,7 @@
 		"scheme_hazard": 1,
 		"set_code": "a_mess_of_things",
 		"set_position": 1,
-    "text": "<b>When Revealed</b>: Place 2 additional threat here for each stunned friendly character.",
+		"text": "<b>When Revealed</b>: Place 2 additional threat here for each stunned friendly character.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -766,7 +763,7 @@
 		"type_code": "minion"
 	},
 	{
-    "boost": 1,
+		"boost": 1,
 		"code": "02039",
 		"faction_code": "encounter",
 		"name": "Gang-Up",
@@ -827,7 +824,7 @@
 		"scheme": 2,
 		"set_code": "power_drain",
 		"set_position": 2,
-    "traits": "Criminal.",
+		"traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
@@ -875,7 +872,6 @@
 		"text": "<b>When Revealed</b>: Discard 1[per_hero] cards from the encounter deck. The villain heals 1 damage for each boost icon discarded this way.",
 		"type_code": "treachery"
 	},
-
 	{
 		"base_threat": 1,
 		"base_threat_fixed": false,
@@ -909,7 +905,7 @@
 		"scheme": 2,
 		"set_code": "running_interference",
 		"set_position": 2,
-    "traits": "Criminal.",
+		"traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
