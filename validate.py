@@ -36,7 +36,7 @@ def check_json_schema(args, data, path):
     except jsonschema.exceptions.SchemaError as e:
         verbose_print(args, "%s: Schema file is not valid Draft 4 JSON schema.\n" % path, 0)
         validation_errors += 1
-        verbose_print(args, "%s\n" % e.message, 0)
+        verbose_print(args, "%s\n" % e, 0)
         return False
 
 def custom_card_check(args, card, pack_code, factions_data, types_data):
@@ -68,7 +68,7 @@ def load_json_file(args, path):
     except ValueError as e:
         verbose_print(args, "%s: File is not valid JSON.\n" % path, 0)
         validation_errors += 1
-        verbose_print(args, "%s\n" % e.message, 0)
+        verbose_print(args, "%s\n" % e, 0)
         return None
 
     verbose_print(args, "%s: Checking JSON formatting...\n" % path, 1)
@@ -173,7 +173,7 @@ def validate_card(args, card, card_schema, pack_code, factions_data, types_data)
         verbose_print(args, "ERROR\n",2)
         verbose_print(args, "Validation error in card: (pack code: '%s' card code: '%s' title: '%s')\n" % (pack_code, card.get("code"), card.get("name")), 0)
         validation_errors += 1
-        verbose_print(args, "%s\n" % e.message, 0)
+        verbose_print(args, "%s\n" % e, 0)
 
 def validate_cards(args, packs_data, factions_data, types_data):
     global validation_errors
@@ -228,7 +228,7 @@ def validate_packs(args, packs_data):
             verbose_print(args, "ERROR\n",2)
             verbose_print(args, "Validation error in pack: (code: '%s' name: '%s')\n" % (p.get("code"), p.get("name")), 0)
             validation_errors += 1
-            verbose_print(args, "%s\n" % e.message, 0)
+            verbose_print(args, "%s\n" % e, 0)
             retval = False
 
     return retval
@@ -257,7 +257,7 @@ def validate_factions(args, factions_data):
             verbose_print(args, "ERROR\n",2)
             verbose_print(args, "Validation error in faction: (code: '%s' name: '%s')\n" % (c.get("code"), c.get("name")), 0)
             validation_errors += 1
-            verbose_print(args, "%s\n" % e.message, 0)
+            verbose_print(args, "%s\n" % e, 0)
             retval = False
 
     return retval
@@ -286,7 +286,7 @@ def validate_types(args, types_data):
             verbose_print(args, "ERROR\n",2)
             verbose_print(args, "Validation error in type: (code: '%s' name: '%s')\n" % (c.get("code"), c.get("name")), 0)
             validation_errors += 1
-            verbose_print(args, "%s\n" % e.message, 0)
+            verbose_print(args, "%s\n" % e, 0)
             retval = False
 
     return retval
@@ -315,7 +315,7 @@ def validate_sides(args, sides_data):
             verbose_print(args, "ERROR\n",2)
             verbose_print(args, "Validation error in side: (code: '%s' name: '%s')\n" % (c.get("code"), c.get("name")), 0)
             validation_errors += 1
-            verbose_print(args, "%s\n" % e.message, 0)
+            verbose_print(args, "%s\n" % e, 0)
             retval = False
 
     return retval
