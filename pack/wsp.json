@@ -1,8 +1,7 @@
 [
 	{
 		"attack": 1,
-    "back_link": "13001b",
-		"set_code": "wsp",
+		"back_link": "13001b",
 		"code": "13001a",
 		"deck_limit": 1,
 		"defense": 2,
@@ -16,13 +15,13 @@
 		"pack_code": "wsp",
 		"position": 1,
 		"quantity": 1,
+		"set_code": "wsp",
 		"text": "Small but Mighty - <b>Response:</b> After Wasp <em>(or an event you play)</em> defeats a minion or side scheme, deal 1 damage to the villain.",
 		"thwart": 1,
 		"traits": "Avenger. Tiny.",
 		"type_code": "hero"
 	},
 	{
-		"set_code": "wsp",
 		"code": "13001b",
 		"deck_limit": 1,
 		"faction_code": "hero",
@@ -36,6 +35,7 @@
 		"position": 1,
 		"quantity": 1,
 		"recover": 3,
+		"set_code": "wsp",
 		"text": "G.I.R.L. - <b>Action:</b> Shuffle up to 2 cards with a printed [mental] resource from your discard pile into your deck. (Limit once per round.)",
 		"traits": "Genius.",
 		"type_code": "alter_ego"
@@ -43,7 +43,6 @@
 	{
 		"attack": 2,
 		"attack_text": "Damage you deal using your basic attack power (ATK) can be divided among enemies as you choose.",
-		"set_code": "wsp",
 		"code": "13001c",
 		"deck_limit": 1,
 		"defense": 3,
@@ -58,12 +57,12 @@
 		"position": 1,
 		"quantity": 1,
 		"scheme_text": "Threat you remove using your basic thwart power (THW) can be divided among schemes as you choose.",
+		"set_code": "wsp",
 		"thwart": 2,
 		"traits": "Avenger. Giant.",
 		"type_code": "hero"
 	},
 	{
-		"set_code": "wsp",
 		"code": "13003",
 		"cost": 2,
 		"deck_limit": 2,
@@ -76,13 +75,13 @@
 		"position": 3,
 		"quantity": 2,
 		"resource_mental": 1,
+		"set_code": "wsp",
 		"set_position": 2,
 		"text": "<b>Hero Action</b> (thwart): Remove 3 threat from a scheme (remove a total of 4 threat divided among schemes as you choose instead if you are in <b>Giant</b> hero form).",
 		"traits": "Thwart.",
 		"type_code": "event"
 	},
 	{
-		"set_code": "wsp",
 		"code": "13004",
 		"cost": 3,
 		"deck_limit": 2,
@@ -95,13 +94,13 @@
 		"position": 4,
 		"quantity": 2,
 		"resource_mental": 1,
+		"set_code": "wsp",
 		"set_position": 4,
 		"text": "<b>Hero Action</b> (attack): Deal 7 damage to an enemy. IF you are in <b>Tiny</b> hero form, this attack deals 1 additional damage to that enemy and gains overkill.",
 		"traits": "Attack.",
 		"type_code": "event"
 	},
 	{
-		"set_code": "wsp",
 		"code": "13005",
 		"cost": 1,
 		"deck_limit": 2,
@@ -111,11 +110,11 @@
 		"pack_code": "wsp",
 		"position": 5,
 		"quantity": 2,
+		"set_code": "wsp",
 		"set_position": 7,
 		"type_code": "event"
 	},
 	{
-		"set_code": "wsp",
 		"code": "13006",
 		"cost": 2,
 		"deck_limit": 2,
@@ -126,13 +125,13 @@
 		"pack_code": "wsp",
 		"position": 6,
 		"quantity": 2,
+		"set_code": "wsp",
 		"set_position": 9,
 		"text": "<b>Hero Action</b> (attack): If you are in <b>Giant</> hero form, deal a total of 4 damage divided among enemies you choose.<br>\n<b>Hero Action</b> (attack): If you are in <b>Tiny</b> hero form, deal 5 damage to an enemy.",
 		"traits": "Attack.",
 		"type_code": "event"
 	},
 	{
-		"set_code": "wsp",
 		"code": "13010",
 		"cost": 2,
 		"deck_limit": 1,
@@ -143,6 +142,7 @@
 		"position": 10,
 		"quantity": 1,
 		"resource_energy": 1,
+		"set_code": "wsp",
 		"set_position": 15,
 		"text": "Wasp gains the <b>Aerial</b> trait.<br>\n<b>Interrupt:</b> When you would take any amount of damage, if you are in <b>Tiny</b> hero form, exhaust Bio-Synthetic Wings → prevent 3 of that damage.",
 		"traits": "Item. Tech.",
