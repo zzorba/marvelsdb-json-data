@@ -135,6 +135,7 @@
 		"double_sided": false,
 		"escalation_threat_fixed": false,
 		"faction_code": "encounter",
+		"health": 18,
 		"health_per_hero": false,
 		"hidden": false,
 		"illustrator": "Eduardo Mello",
@@ -224,6 +225,7 @@
 		"back_flavor": "Kang reels back, but saves himself by separating the heroes through time and space.",
 		"back_name": "The Master of Time",
 		"back_text": "<b>When Revealed:</b> Place 1 acceleration token here for each side scheme in play, then discard each side scheme.  Each player reveals a random stage 3A in turn oder. Remove any unused stage 3 schemes from the game.",
+		"base_threat": 0,
 		"base_threat_fixed": true,
 		"card_set_type_name_code": "villain",
 		"code": "11008",
@@ -246,6 +248,7 @@
 		"spoiler": 1,
 		"stage": 2,
 		"text": "<b>Forced Interrupt:</b> When an acceleration token would be placed on another scheme, place it here instead.<br>\n<b>Players cannot join this game area unless there are no other game areas remaining. When all the players have joined this game area, advanced to stage 4A.</b>",
+		"threat": 0,
 		"threat_fixed": true,
 		"type_code": "main_scheme"
 	},
@@ -1444,7 +1447,7 @@
 		"text": "Incite 1. Surge.",
 		"threat_fixed": false,
 		"traits": "Elite. Temporal.",
-		"type_code": "event"
+		"type_code": "minion"
 	},
 	{
 		"base_threat_fixed": false,
