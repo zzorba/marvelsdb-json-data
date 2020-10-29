@@ -3,7 +3,46 @@ MarvelsDB cards JSON data
 
 The goal of this repository is to store marvelsdb card data in a format that can be easily updated by multiple people and their changes reviewed.
 
- 
+## Validating and Formatting JSON
+
+Steps have been verified with Python 2.7.x and 3.7.x.
+
+#### Set Up Python Environment
+
+The validation script requires python package `jsonschema` which can be installed using `pip` via `pip install jsonschema`. It is recommended that you use a virtual environment, but this is strictly optional.
+
+```bash
+# use a virtual environment (optional)
+virtualenv venv
+source venv/bin/activate
+pip install jsonschema
+```
+
+If you see an error like _"No module named jsonschema"_ when running the script, you have not installed the `jsonschema` package correctly.
+
+#### Run the Validation Script
+
+To check the JSON files:
+
+```bash
+./validate.py
+
+# or for more detailed output, include the --verbose flag
+
+./validate.py --verbose
+```
+
+To check and apply formatting to JSON files:
+
+```bash
+./validate.py --fix_formatting
+
+# or for more detailed output, include the --verbose flag
+
+./validate.py --verbose --fix_formatting
+```
+
+
 #### Pack schema
 
 * **code** - identifier of the pack. The acronym of the pack name, with matching case, except for Core Set. Examples: `"Core"` for Core Set.
@@ -18,7 +57,7 @@ The goal of this repository is to store marvelsdb card data in a format that can
 * **code** - 5 digit card identifier. Consists of two zero-padded numbers: first two digits are the cycle position, last three are position of the card within the cycle (printed on the card).
 * cost - Play cost of the card. Relevant for all cards except agendas and titles. May be `null` - this value is used when the card has a special, possibly variable, cost.
 * **deck_limit**
-* deck_options - Investigator only - Special string describing the card options for an investigator. e.g. "faction:guardian:0:5" 
+* deck_options - Investigator only - Special string describing the card options for an investigator. e.g. "faction:guardian:0:5"
 * deck_requirements - Investigator only - Special string describing the card requirements for an investigator. e.g. "size:30" "card:01007" "random:subtype:basicweakness"
 * **faction_code**
 * flavor
@@ -56,7 +95,7 @@ To get the 4-letter hexcode of a UTF-8 symbol (or look up what a particular hexc
 
 To have text spanning multiple lines, use `\n` to separate them. To have quotes as part of the text, use `\"`.  For example, `"flavor": "\"Winter is Fghghghghfhgh.\"\n-Eddard Stark"` results in following flavor text:
 
-> *"Winter is Fghghghghfhgh."*  
+> *"Winter is Fghghghghfhgh."*
 > *-Eddard Stark*
 
 #### Arkham LCG Game Symbols
