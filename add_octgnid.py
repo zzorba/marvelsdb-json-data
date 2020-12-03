@@ -1,7 +1,7 @@
 import json
 import uuid
 
-runFile = 'trors_encounter.json'
+runFile = 'ant_encounter.json'
 
 with open('./pack/' + runFile) as json_file:
     data = json.load(json_file)
