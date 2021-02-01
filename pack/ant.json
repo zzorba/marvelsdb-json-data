@@ -81,7 +81,7 @@
 		"set_code": "ant",
 		"set_position": 2,
 		"subname": "Nadia Van Dyne",
-		"text": "<b>Hero Response:</b> After Wasp enters play, deal 2 damage to an enemy if you are in <b><i>Giant</i></b> hero form or remove 2 threat from a scheme if you are in <b><i>Tiny</i></b> hero form.",
+		"text": "<b>Hero Response:</b> After Wasp enters play, deal 2 damage to an enemy if you are in [[Giant]] hero form or remove 2 threat from a scheme if you are in [[Tiny]] hero form.",
 		"thwart": 2,
 		"thwart_cost": 1,
 		"traits": "Aerial. Avenger.",
@@ -102,7 +102,7 @@
 		"resource_energy": 1,
 		"set_code": "ant",
 		"set_position": 3,
-		"text": "Play only if you are in <b>Giant</b> hero form. <br>\n<b>Hero Action</b> <i>(attack)</i>: Deal 1 damage to each minion. Deal 8 damage to an enemy.",
+		"text": "Play only if you are in [[Giant]] hero form. <br>\n<b>Hero Action</b> <i>(attack)</i>: Deal 1 damage to each minion. Deal 8 damage to an enemy.",
 		"traits": "Attack. Giant.",
 		"type_code": "event"
 	},
@@ -119,7 +119,7 @@
 		"resource_physical": 1,
 		"set_code": "ant",
 		"set_position": 5,
-		"text": "Play only if you are in <b>Tiny</b> hero form.\n<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from a scheme. Remove 1 additional threat from that scheme for each Army of Ants support you control.",
+		"text": "Play only if you are in [[Tiny]] hero form.\n<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from a scheme. Remove 1 additional threat from that scheme for each Army of Ants support you control.",
 		"traits": "Attack. Tiny.",
 		"type_code": "event"
 	},
@@ -155,7 +155,7 @@
 		"resource_wild": 1,
 		"set_code": "ant",
 		"set_position": 7,
-		"text": "<b>Hero Response:</b> After you spend this card, heal 2 damage from your hero if you are in <b>Giant</b> hero form or draw 1 card if you are in <b>Tiny</b> hero form.",
+		"text": "<b>Hero Response:</b> After you spend this card, heal 2 damage from your hero if you are in [[Giant]] hero form or draw 1 card if you are in [[Tiny]] hero form.",
 		"type_code": "resource"
 	},
 	{
@@ -173,7 +173,7 @@
 		"resource_physical": 1,
 		"set_code": "ant",
 		"set_position": 9,
-		"text": "<b>Hero Action:</b> If you are in <b>Tiny</b> hero form, exhaust Army of Ants → deal 1 damage to an enemy.",
+		"text": "<b>Hero Action:</b> If you are in [[Tiny]] hero form, exhaust Army of Ants → deal 1 damage to an enemy.",
 		"traits": "Ants. Tiny.",
 		"type_code": "support"
 	},
@@ -191,7 +191,7 @@
 		"resource_mental": 1,
 		"set_code": "ant",
 		"set_position": 12,
-		"text": "<b>Hero Response:</b> After you change to <b>Giant</b> hero form, heal 2 damage from your hero.<br>\n<b>Hero Response:</b> After you change to <b>Tiny</b> hero form, draw 1 card.",
+		"text": "<b>Hero Response:</b> After you change to [[Giant]] hero form, heal 2 damage from your hero.<br>\n<b>Hero Response:</b> After you change to [[Tiny]] hero form, draw 1 card.",
 		"traits": "Armor. Tech.",
 		"type_code": "upgrade"
 	},
@@ -210,7 +210,7 @@
 		"resource_energy": 1,
 		"set_code": "ant",
 		"set_position": 13,
-		"text": "<b>Hero Response:</b> After you change to <b><i>Giant</i></b> hero form, you get +1 ATK until the end of this turn.",
+		"text": "<b>Hero Response:</b> After you change to [[Giant]] hero form, you get +1 ATK until the end of this turn.",
 		"traits": "Condition. Giant.",
 		"type_code": "upgrade"
 	},
@@ -228,7 +228,7 @@
 		"resource_mental": 1,
 		"set_code": "ant",
 		"set_position": 15,
-		"text": "<b>Hero Action:</b> If you are in <b>Giant</b> hero form, exhaust Wrist Gauntlets and spend [physical][physical] resources → stun an enemy.<br>\n<b>Hero Action:</b> If you are in <b>Tiny</b> hero form, exhaust Wrist Gauntlets and spend [energy][energy] resources → confuse an enemy.",
+		"text": "<b>Hero Action:</b> If you are in [[Giant]] hero form, exhaust Wrist Gauntlets and spend [physical][physical] resources → stun an enemy.<br>\n<b>Hero Action:</b> If you are in [[Tiny]] hero form, exhaust Wrist Gauntlets and spend [energy][energy] resources → confuse an enemy.",
 		"traits": "Item. Tech.",
 		"type_code": "upgrade"
 	},
@@ -313,7 +313,7 @@
 		"quantity": 1,
 		"resource_energy": 1,
 		"subname": "Cassie Lang",
-		"text": "Play only if your identity has the <b>Avenger</b> trait.<br>\nStinger does not count against your ally limit.",
+		"text": "Play only if your identity has the [[Avenger]] trait.<br>\nStinger does not count against your ally limit.",
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Avenger.",
@@ -331,7 +331,7 @@
 		"position": 15,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "<b>Hero Action:</b> Discard cards from the top of your deck until you discard an <b><i>Avenger</i></b> ally, then add that ally to your hand.",
+		"text": "<b>Hero Action:</b> Discard cards from the top of your deck until you discard an [[Avenger]] ally, then add that ally to your hand.",
 		"threat_fixed": false,
 		"type_code": "event"
 	},
@@ -361,7 +361,7 @@
 		"position": 17,
 		"quantity": 3,
 		"resource_mental": 1,
-		"text": "Attach to an <b>Avenger</b> ally. Max 1 per ally.<br>\n<b>Response:</b> After attached ally attacks or thwarts, deal 1 damage to an enemy.",
+		"text": "Attach to an [[Avenger]] ally. Max 1 per ally.<br>\n<b>Response:</b> After attached ally attacks or thwarts, deal 1 damage to an enemy.",
 		"traits": "Armor. Tech.",
 		"type_code": "upgrade"
 	},
@@ -453,7 +453,7 @@
 		"position": 32,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "Play only if your identity has the <b>Avenger</b> trait.\n<b>Hero Action:</b> Give up to X friendly characters a tough status card (to a maximum of 3 characters), where X is equal to the villain's stage number.",
+		"text": "Play only if your identity has the [[Avenger]] trait.\n<b>Hero Action:</b> Give up to X friendly characters a tough status card (to a maximum of 3 characters), where X is equal to the villain's stage number.",
 		"type_code": "event"
 	},
 	{
