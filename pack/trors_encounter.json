@@ -17,7 +17,7 @@
 		"quantity": 1,
 		"set_code": "hawkeye",
 		"spoiler": 1,
-		"text": "<b>Give to the Clint Barton Player.</b><br>\nYou may flip to alter-ego form. Choose:<br>\n·Exhaust Clint Barton → remove this card from the game.<br>\n·Discard Hawkeye's Bow from play. Discard this obligation.\n",
+		"text": "<b><i>Give to the Clint Barton Player.</i></b><br>\nYou may flip to alter-ego form. Choose:<br>\n- Exhaust Clint Barton → remove this card from the game.<br>\n- Discard Hawkeye's Bow from play. Discard this obligation.\n",
 		"threat_fixed": false,
 		"type_code": "obligation"
 	},
@@ -144,7 +144,7 @@
 		"quantity": 1,
 		"set_code": "spider_woman",
 		"spoiler": 1,
-		"text": "<b>Give tot he Jessica Drew Player.</b><br>\n·Exhaust Jessica Drew → remove Uncertain Loyalties from the game.<br>\n·Place 3 threat on the main scheme. Discard this obligation.\n",
+		"text": "<b><i>Give tot he Jessica Drew Player.</i></b><br>\n- Exhaust Jessica Drew → remove Uncertain Loyalties from the game.<br>\n- Place 3 threat on the main scheme. Discard this obligation.\n",
 		"threat_fixed": false,
 		"type_code": "obligation"
 	},
@@ -251,13 +251,13 @@
 		"set_code": "spider_woman_nemesis",
 		"set_position": 5,
 		"spoiler": 1,
-		"text": "<b>When Revealed:</b> Each <b>Hydra</b> minion engaged with a hero attacks that hero. Each player who was not attacked this way searches the encounter deck and discard pile for a <b>Hydra</b> minion and puts it into play engaged with them. Shuffle the encounter deck.",
+		"text": "<b>When Revealed:</b> Each [[Hydra]] minion engaged with a hero attacks that hero. Each player who was not attacked this way searches the encounter deck and discard pile for a [[Hydra]] minion and puts it into play engaged with them. Shuffle the encounter deck.",
 		"threat_fixed": false,
 		"type_code": "treachery"
 	},
 	{
 		"attack": 1,
-		"attack_text": "While Crossbones has a <b>Weapon</b> attachment, his attacks gain piercing. <em>(Discard any tough status cards from the target before dealing damage.)</em>",
+		"attack_text": "While Crossbones has a [[Weapon]] attachment, his attacks gain piercing. <em>(Discard any tough status cards from the target before dealing damage.)</em>",
 		"base_threat_fixed": false,
 		"card_set_type_name_code": "villain",
 		"code": "04058",
@@ -286,7 +286,7 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "While Crossbones has a <b>Weapon</b> attachment, his attacks gain piercing.",
+		"attack_text": "While Crossbones has a [[Weapon]] attachment, his attacks gain piercing.",
 		"base_threat_fixed": false,
 		"card_set_type_name_code": "villain",
 		"code": "04059",
@@ -315,7 +315,7 @@
 	},
 	{
 		"attack": 3,
-		"attack_text": "While Crossbones has a <b>Weapon</b> attachment, his attacks gain piercing.",
+		"attack_text": "While Crossbones has a [[Weapon]] attachment, his attacks gain piercing.",
 		"base_threat_fixed": false,
 		"card_set_type_name_code": "villain",
 		"code": "04060",
@@ -580,7 +580,7 @@
 		"set_code": "crossbones",
 		"set_position": 15,
 		"spoiler": 1,
-		"text": "Incite 1. <em>(When this card is revealed place 1 threat on the main scheme.)</em> <br>\n<b>When Revealed:</b> Discard cards from the top of the encounter deck until a <b>Weapon</b> attachment is discarded. Reveal that card.",
+		"text": "Incite 1. <em>(When this card is revealed place 1 threat on the main scheme.)</em> <br>\n<b>When Revealed:</b> Discard cards from the top of the encounter deck until a [[Weapon]] attachment is discarded. Reveal that card.",
 		"threat_fixed": false,
 		"type_code": "treachery"
 	},
@@ -803,7 +803,7 @@
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Response:</b> After Absorbing Man activates against you, if he has the:<br>\n·<b>Ice</b> or <b>Stone</b> trait, place 1 threat on the main scheme.<br>\n·<b>Metal</b> or <b>Wood</b> trait, take 1 indirect damage.",
+		"attack_text": "<b>Forced Response:</b> After Absorbing Man activates against you, if he has the:<br>\n- [[Ice]] or [[Stone]] trait, place 1 threat on the main scheme.<br>\n- [[Metal]] or [[Wood]] trait, take 1 indirect damage.",
 		"base_threat_fixed": false,
 		"card_set_type_name_code": "villain",
 		"code": "04078",
@@ -821,7 +821,7 @@
 		"position": 78,
 		"quantity": 1,
 		"scheme": 2,
-		"scheme_text": "<b>Forced Response:</b> After Absorbing Man activates against you, if he has the:<br>\n·<b>Ice</b> or <b>Stone</b> trait, place 1 threat on the main scheme.<br>\n·<b>Metal</b> or <b>Wood</b> trait, take 1 indirect damage.",
+		"scheme_text": "<b>Forced Response:</b> After Absorbing Man activates against you, if he has the:<br>\n- [[Ice]] or [[Stone]] trait, place 1 threat on the main scheme.<br>\n- [[Metal]] or [[Wood]] trait, take 1 indirect damage.",
 		"set_code": "absorbing_man",
 		"set_position": 3,
 		"spoiler": 1,
@@ -1031,7 +1031,7 @@
 		"set_code": "absorbing_man",
 		"set_position": 12,
 		"spoiler": 1,
-		"text": "<b>When Revealed (Alter-Ego):</b> Absorbing Man schemes. If Absorbing Man has the <b>Stone</b> trait, he gets +1 SCH for this activation.<br>\n<b>When Revealed (Hero):</b> Absorbing Man attacks you. If Absorbing Man has the <b>Stone</b> trait, he gets +1 ATK for this activation.",
+		"text": "<b>When Revealed (Alter-Ego):</b> Absorbing Man schemes. If Absorbing Man has the [[Stone]] trait, he gets +1 SCH for this activation.<br>\n<b>When Revealed (Hero):</b> Absorbing Man attacks you. If Absorbing Man has the [[Stone]] trait, he gets +1 ATK for this activation.",
 		"threat_fixed": false,
 		"type_code": "environment"
 	},
@@ -1055,14 +1055,14 @@
 		"set_code": "absorbing_man",
 		"set_position": 14,
 		"spoiler": 1,
-		"text": "<b>When Revealed (Alter-Ego):</b> Place 2 threat on the main scheme (3 threat instead if Absorbing Man has the <b>Metal</b> trait.)<br>\n<b>When Revealed (Hero):</b> Take 3 indirect damage (4 indirect damage instead if Absorbing Man has the <b>Metal</b> trait.)",
+		"text": "<b>When Revealed (Alter-Ego):</b> Place 2 threat on the main scheme (3 threat instead if Absorbing Man has the [[Metal]] trait.)<br>\n<b>When Revealed (Hero):</b> Take 3 indirect damage (4 indirect damage instead if Absorbing Man has the [[Metal]] trait.)",
 		"threat_fixed": false,
 		"type_code": "treachery"
 	},
 	{
 		"base_threat_fixed": false,
 		"boost": 1,
-		"boost_text": "If Absorbing Man has the <b>Stone</b> or <b>Wood</b> trait, you are stunned.",
+		"boost_text": "If Absorbing Man has the [[Stone]] or [[Wood]] trait, you are stunned.",
 		"card_set_type_name_code": "villain",
 		"code": "04088",
 		"deck_limit": 2,
@@ -1080,7 +1080,7 @@
 		"set_code": "absorbing_man",
 		"set_position": 16,
 		"spoiler": 1,
-		"text": "<b>When Revealed:</b> Discard 1 card at random from your hand. If Absorbing Man has the <b>Wood</b> trait, discard 1 card you control.",
+		"text": "<b>When Revealed:</b> Discard 1 card at random from your hand. If Absorbing Man has the [[Wood]] trait, discard 1 card you control.",
 		"threat_fixed": false,
 		"type_code": "treachery"
 	},
@@ -1104,14 +1104,14 @@
 		"set_code": "absorbing_man",
 		"set_position": 18,
 		"spoiler": 1,
-		"text": "<b>When Revealed:</b> If Absorbing Man has the:<br>\n·<b>Ice</b> trait, exhaust your identity.<br>\n·<b>Metal</b> trait, give Absorbing Man a tough status card and heal 1 damage from him.<br>\n·<b>Stone</b> trait, give Absorbing Man 1 facedown boost card.\n·<b>Wood</b> trait, discard 1 card at random from your hand.",
+		"text": "<b>When Revealed:</b> If Absorbing Man has the:<br>\n- [[Ice]] trait, exhaust your identity.<br>\n- [[Metal]] trait, give Absorbing Man a tough status card and heal 1 damage from him.<br>\n- [[Stone]] trait, give Absorbing Man 1 facedown boost card.\n- [[Wood]] trait, discard 1 card at random from your hand.",
 		"threat_fixed": false,
 		"type_code": "treachery"
 	},
 	{
 		"base_threat_fixed": false,
 		"boost": 2,
-		"boost_text": "If Absorbing Man has the <b>Ice</b> or <b>Metal</b> trait, give him a tough status card.",
+		"boost_text": "If Absorbing Man has the [[Ice]] or [[Metal]] trait, give him a tough status card.",
 		"card_set_type_name_code": "villain",
 		"code": "04090",
 		"deck_limit": 2,
@@ -1129,7 +1129,7 @@
 		"set_code": "absorbing_man",
 		"set_position": 21,
 		"spoiler": 1,
-		"text": "<b>When Revealed:</b> You are stunned. If Absorbing Man has the <b>Ice</b> trait, take 2 indirect damage.",
+		"text": "<b>When Revealed:</b> You are stunned. If Absorbing Man has the [[Ice]] trait, take 2 indirect damage.",
 		"threat_fixed": false,
 		"type_code": "treachery"
 	},
@@ -1181,7 +1181,7 @@
 		"set_code": "absorbing_man",
 		"set_position": 25,
 		"spoiler": 1,
-		"text": "Absorbing Man gains the <b>Ice, Metal, Stone,</b> and <b>Wood</b> traits.",
+		"text": "Absorbing Man gains the [[Ice]], [[Metal]], [[Stone]], and [[Wood]] traits.",
 		"threat_fixed": false,
 		"type_code": "side_scheme"
 	},
@@ -1269,7 +1269,7 @@
 	},
 	{
 		"back_name": "Hunting Down Heroes",
-		"back_text": "<b>Contents:</b> Taskmaster (I) and Taskmaster (II). Taskmaster, Hydra Patrol, and Standard encounter sets.  One modular encounter set <em>(Weapon Master).</em><br>\n<b>Setup:</b> Set each <b>Captive</b> ally aside out of play. Search the encounter deck for Hydra Patrol and put it into play. Shuffle the encounter deck.",
+		"back_text": "<b>Contents:</b> Taskmaster (I) and Taskmaster (II). Taskmaster, Hydra Patrol, and Standard encounter sets.  One modular encounter set <em>(Weapon Master).</em><br>\n<b>Setup:</b> Set each [[Captive]] ally aside out of play. Search the encounter deck for Hydra Patrol and put it into play. Shuffle the encounter deck.",
 		"base_threat": 1,
 		"base_threat_fixed": false,
 		"card_set_type_name_code": "villain",
@@ -1543,7 +1543,7 @@
 		"set_code": "taskmaster",
 		"set_position": 15,
 		"spoiler": 1,
-		"text": "<b>When Revealed (Alter-Ego):</b> Discard the top 5 cards of your deck. If a <b>Thwart</b> card was discarded this way, Taskmaster schemes.<br>\n<b>When Revealed (Hero):</b> Discard the top 5 cards of your deck. If an <b>Attack</b> card was discarded this way, Taskmaster attacks you.",
+		"text": "<b>When Revealed (Alter-Ego):</b> Discard the top 5 cards of your deck. If a [[Thwart]] card was discarded this way, Taskmaster schemes.<br>\n<b>When Revealed (Hero):</b> Discard the top 5 cards of your deck. If an [[Attack]] card was discarded this way, Taskmaster attacks you.",
 		"threat_fixed": false,
 		"type_code": "treachery"
 	},
@@ -1594,7 +1594,7 @@
 		"set_code": "taskmaster",
 		"set_position": 19,
 		"spoiler": 1,
-		"text": "<b>When Revealed:</b> Place 1 random set-aside <b>Captive</b> ally facedown beneath this scheme. When this scheme is defeated, the player who defeated it takes that ally into their hand and removes this scheme from the game.",
+		"text": "<b>When Revealed:</b> Place 1 random set-aside [[Captive]] ally facedown beneath this scheme. When this scheme is defeated, the player who defeated it takes that ally into their hand and removes this scheme from the game.",
 		"threat_fixed": false,
 		"type_code": "side_scheme"
 	},
@@ -1821,7 +1821,7 @@
 		"set_code": "zola",
 		"set_position": 10,
 		"spoiler": 1,
-		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a <b>Tech</b> attachment is discarded. Attach that card to Zola's Mutate.",
+		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a [[Tech]] attachment is discarded. Attach that card to Zola's Mutate.",
 		"threat_fixed": false,
 		"traits": "Hydra. Mutate.",
 		"type_code": "minion"
@@ -2054,7 +2054,7 @@
 		"set_code": "zola",
 		"set_position": 31,
 		"spoiler": 1,
-		"text": "<b>Forced Response:</b> After a minion enters play, attach the topmost <b>Tech</b> attachment in the encounter discard pile to that minion.",
+		"text": "<b>Forced Response:</b> After a minion enters play, attach the topmost [[Tech]] attachment in the encounter discard pile to that minion.",
 		"threat_fixed": false,
 		"type_code": "side_scheme"
 	},
@@ -2675,7 +2675,7 @@
 		"set_code": "hydra_assault",
 		"set_position": 6,
 		"spoiler": 1,
-		"text": "<b>When Revealed:</b> Each <b>Hydra</b> minion engaged with a hero makes an attack against that hero. Each player who was not attacked this way searches the encounter deck and discard pile for a <b>Hydra</b> minion, puts it into play engaged with them, and shuffles the encounter deck.",
+		"text": "<b>When Revealed:</b> Each [[Hydra]] minion engaged with a hero makes an attack against that hero. Each player who was not attacked this way searches the encounter deck and discard pile for a [[Hydra]] minion, puts it into play engaged with them, and shuffles the encounter deck.",
 		"threat_fixed": false,
 		"type_code": "treachery"
 	},
@@ -2701,7 +2701,7 @@
 		"set_code": "weap_master",
 		"set_position": 1,
 		"spoiler": 1,
-		"text": "Attach to the villain.<br>\n<b>Hero Action:</b> Spend [mental][physical resources → discard this card.",
+		"text": "Attach to the villain.<br>\n<b>Hero Action:</b> Spend [mental][physical] resources → discard this card.",
 		"threat_fixed": false,
 		"traits": "Weapon.",
 		"type_code": "attachment"
@@ -2752,7 +2752,7 @@
 		"set_code": "weap_master",
 		"set_position": 3,
 		"spoiler": 1,
-		"text": "<b>When Reveled (Alter-Ego):</b> The villain schemes. If they have a <b>Weapon</b> attachment, this card gains surge.<br>\n<b>When Reveled (Hero):</b> the villain attacks you. If they have a <b>Weapon</b> attachment, this card gains surge.",
+		"text": "<b>When Reveled (Alter-Ego):</b> The villain schemes. If they have a [[Weapon]] attachment, this card gains surge.<br>\n<b>When Reveled (Hero):</b> the villain attacks you. If they have a [[Weapon]] attachment, this card gains surge.",
 		"threat_fixed": false,
 		"type_code": "treachery"
 	},
@@ -2858,7 +2858,7 @@
 		"set_code": "hydra_patrol",
 		"set_position": 6,
 		"spoiler": 1,
-		"text": "<b>When Defeated:</b> Each player searches the encounter deck and discard pile for a <b>Hydra</b> minion and puts it into play engaged with them. Shuffle the encounter deck.",
+		"text": "<b>When Defeated:</b> Each player searches the encounter deck and discard pile for a [[Hydra]] minion and puts it into play engaged with them. Shuffle the encounter deck.",
 		"threat_fixed": false,
 		"type_code": "side_scheme"
 	}
