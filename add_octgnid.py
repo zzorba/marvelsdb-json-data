@@ -1,7 +1,7 @@
 import json
 import uuid
 
-runFile = 'ant_encounter.json'
+runFile = 'qsv_encounter.json'
 
 with open('./pack/' + runFile) as json_file:
     data = json.load(json_file)
