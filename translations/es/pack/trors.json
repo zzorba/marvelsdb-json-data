@@ -245,5 +245,101 @@
 		"name": "Despejar la zona",
 		"text": "<b>Acción de Héroe</b> <i>(intervención)</i>: quita 2 de Amenaza de un Plan. Si con esto se quita la última ficha de Amenaza de ese Plan, roba 1 carta.",
 		"traits": "Intervención."
+	},
+	{
+		"code": "04155",
+		"name": "Estimulantes adrenales",
+		"text": "Inicio.\n<b>Acción de Héroe:</b> descarta esta carta y quítala de la hoja de campaña → prepara tu Héroe y cúrale 5 de Daño.",
+		"traits": "Tecnología.",
+	},
+	{
+		"code": "04156",
+		"name": "Escáner táctico",
+		"text": "Inicio.\n<b>Acción de Héroe:</b> descarta esta carta y quítala de la hoja de campaña → roba 5 cartas.",
+		"traits": "Tecnología.",
+	},
+	{
+		"code": "04157",
+		"name": "Teletransportador de emergencia",
+		"text": "Inicio.\n<b>Acción de Héroe:</b> descarta esta carta y quítala de la hoja de campaña → busca un Aliado en tu mazo y tu pila de descartes, ponlo en juego y dale una carta de Estado \"Duro\".",
+		"traits": "Tecnología.",
+	},
+	{
+		"code": "04158",
+		"name": "Cañón láser",
+		"text": "Inicio.\n<b>Acción de Héroe:</b> descarta esta carta y quítala de la hoja de campaña → inflige 5 de Daño al Villano y a cada enemigo que esté enfrentado a ti.",
+		"traits": "Tecnología.",
+	},
+	{
+		"code": "04159a",
+		"name": "Mejora básica de Intervención",
+		"text": "Permanente. Inicio.\nRecibes +2 de Vida.\nTu Héroe recibe +1 INT.",
+		"traits": "Alteración.",
+	},
+	{
+		"code": "04159b",
+		"name": "Mejora superior de Intervención",
+		"text": "Permanente. Inicio.\nRecibes +2 de Vida.\nTu Héroe recibe +1 INT.\n<b>Respuesta:</b> después de que derrotes un Plan secundario, agota esta carta → roba 1 carta.",
+		"traits": "Alteración.",
+	},
+	{
+		"code": "04160a",
+		"name": "Mejora básica de Ataque",
+		"text": "Permanente. Inicio.\nRecibes +1 de Vida.\nTu Héroe recibe +1 ATQ.",
+		"traits": "Alteración.",
+	},
+	{
+		"code": "04160b",
+		"name": "Mejora superior de Ataque",
+		"text": "Permanente. Inicio.\nRecibes +1 de Vida.\nTu Héroe recibe +1 ATQ.\n<b>Respuesta:</b> después de que derrotes a un Esbirro, agota esta carta → roba 1 carta.",
+		"traits": "Alteración.",
+	},
+	{
+		"code": "04161a",
+		"name": "Mejora básica de Defensa",
+		"text": "Permanente. Inicio.\nRecibes +3 de Vida.\nTu Héroe recibe +1 DEF.",
+		"traits": "Alteración.",
+	},
+	{
+		"code": "04161b",
+		"name": "Mejora superior de Defensa",
+		"text": "Permanente. Inicio.\nRecibes +3 de Vida.\nTu Héroe recibe +1 DEF.\n<b>Respuesta:</b> después de que te defiendas contra un ataque, agota esta carta → roba 1 carta.",
+		"traits": "Alteración.",
+	},
+	{
+		"code": "04162a",
+		"name": "Mejora básica de Recuperación",
+		"text": "Permanente. Inicio.\nRecibes +4 de Vida.\nTu Héroe recibe +1 REC.",
+		"traits": "Alteración.",
+	},
+	{
+		"code": "04162b",
+		"name": "Mejora superior de Recuperación",
+		"text": "Permanente. Inicio.\nRecibes +4 de Vida.\nTu Héroe recibe +1 REC.\n<b>Respuesta:</b> después de que uses tu REC, agota esta carta → roba 1 carta.",
+		"traits": "Alteración.",
+	},
+	{
+		"code": "04163",
+		"flavor": "\"Un hermoso parásito que crece en el seno de los sistemas informáticos más seguros del mundo.\" -- Arnim Zola",
+		"name": "Algoritmo de Zola",
+		"text": "<b>Acción de Alter ego:</b> agota tu Alter ego y gasta un recurso [mental] → descarta esta carta.",
+	},
+	{
+		"code": "04164",
+		"flavor": "\"Esto va a necesitar puntos de sutura.\" -- Stephen Extraño",
+		"name": "Emergencia médica",
+		"text": "<b>Respuesta obligada:</b> al final de tu turno, sufres 1 de Daño si tienes adoptada tu identidad de Héroe.\n<b>Acción de Alter ego:</b> descarta las 5 primeras cartas de tu mazo y gasta un recurso [physical] → descarta esta carta.",
+	},
+	{
+		"code": "04165",
+		"flavor": "\"Lleváoslo a un lado para interrogarlo.\" -- Soldado de Hydra",
+		"name": "Ley marcial",
+		"text": "El tamaño de tu mano se reduce en 1.\n<b>Acción de Alter ego:</b> date a ti mismo una carta de Encuentro y gasta un recurso [energy] → descarta esta carta.",
+	},
+	{
+		"code": "04166",
+		"flavor": "\"Estos disidentes siembran el conflicto. Ellos son vuestro verdadero enemigo.\" -- Boletín informativo de Hydra",
+		"name": "Propaganda antiheroica",
+		"text": "Tu Héroe recibe -1 INT, -1 ATQ y -1 DEF.\n<b>Acción de Alter ego:</b> sufre 2 de Daño y gasta un recurso [wild] → descarta esta carta.",
 	}
 ]
