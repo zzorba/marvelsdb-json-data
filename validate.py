@@ -43,9 +43,9 @@ def custom_card_check(args, card, pack_code, factions_data, types_data):
     "Performs more in-depth sanity checks than jsonschema validator is capable of. Assumes that the basic schema validation has already completed successfully."
     if card["pack_code"] != pack_code:
         raise jsonschema.ValidationError("Pack code '%s' of the card '%s' doesn't match the pack code '%s' of the file it appears in." % (card["pack_code"], card["code"], pack_code))
-    if card["faction_code"] not in [f["code"] for f in factions_data]:
+    if card.get("faction_code") and card["faction_code"] not in [f["code"] for f in factions_data]:
         raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid faction code." % (card["faction_code"], card["code"]))
-    if card["type_code"] not in [f["code"] for f in types_data]:
+    if card.get("type_code") and  card["type_code"] not in [f["code"] for f in types_data]:
         raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid type code." % (card["type_code"], card["code"]))
 
 def format_json(json_data):
@@ -165,7 +165,7 @@ def validate_card(args, card, card_schema, pack_code, factions_data, types_data)
     global validation_errors
 
     try:
-        verbose_print(args, "Validating card %s... " % card["name"], 2)
+        verbose_print(args, "Validating card %s... " % card["code"], 2)
         jsonschema.validate(card, card_schema)
         custom_card_check(args, card, pack_code, factions_data, types_data)
         verbose_print(args, "OK\n", 2)
