@@ -218,6 +218,13 @@
 		"traits": "Aerial. Guardian.",
 		"type_code": "ally"
 	},
+	{
+		"code": "16013",
+		"duplicate_of": "09015",
+		"pack_code": "gmw",
+		"position": 13,
+		"quantity": 3
+	},
   {
 		"code": "16014",
 		"cost": 2,
@@ -233,6 +240,13 @@
 		"traits": "Attack.",
 		"type_code": "event"
 	},
+	{
+		"code": "16015",
+		"duplicate_of": "01079",
+		"pack_code": "gmw",
+		"position": 15,
+		"quantity": 2
+	},
   {
 		"code": "16016",
 		"cost": 1,
@@ -245,7 +259,7 @@
     "resource_energy": 1,
 		"text": "Play under any player's control.\n Max 1 per player.\n While your hero's remaining hit points are equal to or greter than your hero's starting hit points, your hero gains retaliate 1.",
 		"traits": "Attack.",
-		"type_code": "event"
+		"type_code": "upgrade"
 	},
   {
 		"code": "16017",
@@ -260,7 +274,14 @@
     "resource_physical": 1,
 		"text": "<b>Hero Response</b>: After youer hero defends against an attack and takes no damage, exhaust Hard to Ignore → remote 1 threat from the main scheme.",
 		"traits": "Attack.",
-		"type_code": "event"
+		"type_code": "upgrade"
+	},
+	{
+		"code": "16018",
+		"duplicate_of": "01082",
+		"pack_code": "gmw",
+		"position": 18,
+		"quantity": 2
 	},
 	{
 		"attack": 1,
@@ -294,6 +315,27 @@
     "resource_wild": 1,
 		"text": "Team Up (Groot and Rocket Raccoon).\n Max 1 per deck\n <b>Hero Action</b>: Place 2 growth counters on Groot (to a maximum of 10) and ready him, or place 2 charge counters on a Rocket Raccoon upgrade and ready that upgrade.",
 		"type_code": "event"
+	},
+	{
+		"code": "16021",
+		"duplicate_of": "01088",
+		"pack_code": "gmw",
+		"position": 21,
+		"quantity": 1
+	},
+	{
+		"code": "16022",
+		"duplicate_of": "01089",
+		"pack_code": "gmw",
+		"position": 22,
+		"quantity": 1
+	},
+	{
+		"code": "16023",
+		"duplicate_of": "01090",
+		"pack_code": "gmw",
+		"position": 23,
+		"quantity": 1
 	},
   {
 		"code": "16024",
@@ -524,6 +566,20 @@
 		"type_code": "ally"
 	},
 	{
+		"code": "16041",
+		"duplicate_of": "01052",
+		"pack_code": "gmw",
+		"position": 41,
+		"quantity": 2
+	},
+	{
+		"code": "16042",
+		"duplicate_of": "13013",
+		"pack_code": "gmw",
+		"position": 42,
+		"quantity": 3
+	},
+	{
 		"code": "16043",
 		"cost": 0,
 		"deck_limit": 3,
@@ -535,6 +591,13 @@
     "resource_physical": 1,
 		"text": "<b>Hero Action</b> (thwart): Discard cards from the top of the encounter deck until you discard a minion. Put that minion into play engaged with you → remove 3 threat from the main scheme.",
 		"type_code": "event"
+	},
+	{
+		"code": "16044",
+		"duplicate_of": "01053",
+		"pack_code": "gmw",
+		"position": 44,
+		"quantity": 2
 	},
 	{
 		"code": "16045",
@@ -588,16 +651,31 @@
 	},
   {
 		"code": "16048",
-		"cost": 1,
-		"deck_limit": 1,
-		"faction_code": "basic",
-		"name": "Flora and Fauna",
+		"duplicate_of": "16020",
 		"pack_code": "gmw",
 		"position": 48,
-		"quantity": 1,
-    "resource_wild": 1,
-		"text": "Team Up (Groot and Rocket Raccoon).\n Max 1 per deck\n <b>Hero Action</b>: Place 2 growth counters on Groot (to a maximum of 10) and ready him, or place 2 charge counters on a Rocket Raccoon upgrade and ready that upgrade.",
-		"type_code": "event"
+		"quantity": 1
+	},
+	{
+		"code": "16049",
+		"duplicate_of": "01088",
+		"pack_code": "gmw",
+		"position": 49,
+		"quantity": 1
+	},
+	{
+		"code": "16050",
+		"duplicate_of": "01089",
+		"pack_code": "gmw",
+		"position": 50,
+		"quantity": 1
+	},
+	{
+		"code": "16051",
+		"duplicate_of": "01090",
+		"pack_code": "gmw",
+		"position": 51,
+		"quantity": 1
 	},
 	{
 		"code": "16052",
