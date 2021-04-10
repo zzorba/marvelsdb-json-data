@@ -1,5 +1,11 @@
 {
 	"additionalProperties": true,
+	"dependencies": {
+		"name": [
+			"faction_code",
+			"type_code"
+		]
+	},
 	"properties": {
 		"back_flavor": {
 			"minLength": 1,
@@ -175,11 +181,5 @@
 		"position",
 		"quantity"
 	],
-	"dependencies": {
-		"name" : [
-				"faction_code",
-				"type_code"
-		]
-	},
 	"type": "object"
 }
