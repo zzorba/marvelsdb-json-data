@@ -25,7 +25,7 @@
 		"code": "05001b",
 		"deck_limit": 1,
 		"faction_code": "hero",
-		"flavor": "\"I want to be beautiful and awesome and buttkicking and less complicated\"",
+		"flavor": "\"I want to be beautiful and awesome and butt-kicking and less complicated\"",
 		"hand_size": 6,
 		"health": 10,
 		"hidden": true,
@@ -254,6 +254,13 @@
 		"type_code": "ally"
 	},
 	{
+		"code": "05013",
+		"duplicate_of": "01078",
+		"pack_code": "msm",
+		"position": 13,
+		"quantity": 2
+	},
+	{
 		"code": "05014",
 		"cost": 1,
 		"deck_limit": 3,
@@ -265,7 +272,7 @@
 		"position": 14,
 		"quantity": 3,
 		"resource_energy": 1,
-		"text": "<b>Hero Interrupt</b> (defense): When a boost card is turned face up while the villain attacks, cancel all boost icons ([boost]) on that card. Then deal 1 damage to the villain for each boost icon cancelled this way.",
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When a boost card is turned face up while the villain attacks, cancel all boost icons ([boost]) on that card. Then deal 1 damage to the villain for each boost icon cancelled this way.",
 		"traits": "Defense.",
 		"type_code": "event"
 	},
@@ -286,6 +293,13 @@
 		"type_code": "event"
 	},
 	{
+		"code": "05016",
+		"duplicate_of": "01079",
+		"pack_code": "msm",
+		"position": 16,
+		"quantity": 2
+	},
+	{
 		"code": "05017",
 		"cost": 2,
 		"deck_limit": 3,
@@ -297,7 +311,7 @@
 		"position": 17,
 		"quantity": 3,
 		"resource_energy": 1,
-		"text": "Uses (3 reflection counters). <b>Interrupt</b> When you would take any amount of damage, remove 1 reflection counter from here → prevent 1 of that damage and deal 1 damage to an enemy.",
+		"text": "Uses (3 reflection counters). <b>Interrupt:</b> When you would take any amount of damage, remove 1 reflection counter from here → prevent 1 of that damage and deal 1 damage to an enemy.",
 		"traits": "Item. Tech.",
 		"type_code": "upgrade"
 	},
@@ -322,6 +336,34 @@
 		"thwart_cost": 2,
 		"traits": "Inhuman.",
 		"type_code": "ally"
+	},
+	{
+		"code": "05019",
+		"duplicate_of": "01088",
+		"pack_code": "msm",
+		"position": 19,
+		"quantity": 1
+	},
+	{
+		"code": "05020",
+		"duplicate_of": "01089",
+		"pack_code": "msm",
+		"position": 20,
+		"quantity": 1
+	},
+	{
+		"code": "05021",
+		"duplicate_of": "01090",
+		"pack_code": "msm",
+		"position": 21,
+		"quantity": 1
+	},
+	{
+		"code": "05022",
+		"duplicate_of": "01091",
+		"pack_code": "msm",
+		"position": 22,
+		"quantity": 1
 	},
 	{
 		"code": "05023",

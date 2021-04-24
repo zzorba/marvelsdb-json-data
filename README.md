@@ -53,33 +53,55 @@ To check and apply formatting to JSON files:
 
 #### Card schema
 
-* agility - Agility value of investigator or number of Agility icons for use in skill checks
+* **attack** - Character's attack value
+* **attack_cost** - Cost for the character to attack (commonly, the amount of consequential damage)
+* **attack_text** - Ability text associated with the character's attack  
 * **code** - 5 digit card identifier. Consists of two zero-padded numbers: first two digits are the cycle position, last three are position of the card within the cycle (printed on the card).
 * cost - Play cost of the card. Relevant for all cards except agendas and titles. May be `null` - this value is used when the card has a special, possibly variable, cost.
 * **deck_limit**
-* deck_options - Investigator only - Special string describing the card options for an investigator. e.g. "faction:guardian:0:5"
-* deck_requirements - Investigator only - Special string describing the card requirements for an investigator. e.g. "size:30" "card:01007" "random:subtype:basicweakness"
+* deck_requirements - Alter-ego/hero only - describes the character's requirements for an investigator. e.g.:
+  ```json
+  "deck_requirements": [
+    {
+      "aspects": 2
+    }
+  ]
+  ```
+* **defense** - Character's defense value  
 * **faction_code**
 * flavor
-* health - Health of Investigator or Ally Asset
+* **hand_size** - Character's hand size
+* **health** - Character's health
 * illustrator
 * **is_unique**
-* lore - Lore value of investigator or number of Lore icons for use in skill checks
 * **name**
 * octgn_id
 * **pack_code**
 * **position**
 * **quantity**
-* restrictions - Special string describing what decks this is restricted to e.g. investigaor:01001 will limit it to investigator with id 01001
-* sanity - Sanity of Investigator or Ally Asset
-* slot - Asset only - Which item slot it takes up, 1-Handed, 2-Handed, Amulet, Arcane, Ally
-* strength - Strength value of investigator or number of Strength icons for use in skill checks
-* subtype_code - Subtype of card, e.g. basicweakness or weakness.
+* **recover** - Character's recover value
+* **resource_[energy|mental|physical|wild]** - Amount of resources of the given type
+* **subname** - Subname associated with a character (e.g. `Carol Danvers` is a subname for `Captain Marvel`)
 * text
-* traits
-* **type_code** - Type of the card. Possible values: `"asset"`, `"event"`, `"skill"`, `"treachery"`, `"investigator"`
-* wild - Number of wild icons for use in skill checks
-* will - Will value of investigator or number of Will icons for use in skill checks
+* **thwart** - Character's thwart value
+* **thwart_cost** - Cost for the character to thwart (commonly, the amount of consequential damage)
+* **thwart_text** - Ability text associated with the character's thwart
+* **traits** - List of traits following the pattern `Trait1. Trait2.`
+* **type_code** - Type of the card. Possible values (in quotes): 
+  * `hero`
+  * `alter_hero`
+  * `ally` 
+  * `event` 
+  * `support` 
+  * `upgrade`
+  * `resource` 
+  * `villain` 
+  * `obligation`
+  * `main_scheme`  
+  * `side_scheme`
+  * `minion`
+  * `attachment`
+  * `treachery`
 
 ## JSON text editing tips
 
@@ -93,25 +115,21 @@ To get the 4-letter hexcode of a UTF-8 symbol (or look up what a particular hexc
 
 #### Quotes and breaking text into multiple lines
 
-To have text spanning multiple lines, use `\n` to separate them. To have quotes as part of the text, use `\"`.  For example, `"flavor": "\"Winter is Fghghghghfhgh.\"\n-Eddard Stark"` results in following flavor text:
+To have text spanning multiple lines, use `\n` to separate them. To have quotes as part of the text, use `\"`.  For example, `"flavor": "\"I'd run if I were you.\"\n - Scott Lang",` results in following flavor text:
 
-> *"Winter is Fghghghghfhgh."*
-> *-Eddard Stark*
+> *"I'd run if I were you."*
+> *- Scott Lang*
 
-#### Arkham LCG Game Symbols
+#### Game Symbols
 
 These can be used in a card's `text` section.
 
-* `[reaction]`
-* `[action]`
-* `[free]`
-* `[eldersign]`
-* `[will]`
-* `[lore]`
-* `[strength]`
-* `[agility]`
-* `[health]`
-* `[sanity]`
+* `[boost]`
+* `[energy]`
+* `[mental]`
+* `[per_hero]`
+* `[physical]`
+* `[wild]`
 
 #### Translations
 

@@ -6,6 +6,7 @@
 		"code": "07001",
 		"double_sided": true,
 		"escalation_threat": 1,
+		"escalation_threat_fixed": true,
 		"faction_code": "encounter",
 		"name": "Breakout",
 		"octgn_id": "0a41a3f9-9056-48d9-a2f1-908cfc6adc05",
@@ -15,7 +16,7 @@
 		"set_code": "wrecking_crew",
 		"set_position": 1,
 		"stage": 1,
-		"text": "[star]<b>Forced Response</b>: After step one of the villain phase, place 1 threat on each side scheme. Move the active counter to the villain whose scheme has the most threat. <i>(If there is a tie, the first player chooses.)</i>\n<b>If theis stage is completed, the players lose the game</b>",
+		"text": "[star] <b>Forced Response</b>: After step one of the villain phase, place 1 threat on each side scheme. Move the active counter to the villain whose scheme has the most threat. <i>(If there is a tie, the first player chooses.)</i>\n<b>If this stage is completed, the players lose the game</b>",
 		"threat": 6,
 		"type_code": "main_scheme"
 	},
@@ -138,7 +139,7 @@
 		"scheme": 0,
 		"set_code": "wrecker",
 		"set_position": 7,
-		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>\n",
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>",
 		"traits": "Traitor.",
 		"type_code": "minion"
 	},
@@ -494,7 +495,7 @@
 		"quantity": 2,
 		"set_code": "thunderball",
 		"set_position": 17,
-		"text": "<b>When Revealed</b>: Move all threat from the side scheme with the least threat to the side scheme with the most threat. If that scheme's \"<b>Forced Repsonse</b>\" ability is not triggered this way, this card gains surge.",
+		"text": "<b>When Revealed</b>: Move all threat from the side scheme with the least threat to the side scheme with the most threat. If that scheme's \"<b>Forced Response</b>\" ability is not triggered this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{

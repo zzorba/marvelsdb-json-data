@@ -315,6 +315,13 @@
 		"type_code": "event"
 	},
 	{
+		"code": "10017",
+		"duplicate_of": "01055",
+		"pack_code": "hlk",
+		"position": 17,
+		"quantity": 2
+	},
+	{
 		"code": "10018",
 		"cost": 2,
 		"deck_limit": 3,
@@ -325,7 +332,7 @@
 		"position": 18,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "Play under any player's control.\n Max 1 per player.\n <b>Resource</b>: Exhaust Martial Prowess → generate a [physical] resource for an ATTACK event.",
+		"text": "Play under any player's control.\n Max 1 per player.\n <b>Resource</b>: Exhaust Martial Prowess → generate a [physical] resource for an [[Attack]] event.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -343,6 +350,41 @@
 		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from a scheme.",
 		"traits": "Thwart.",
 		"type_code": "event"
+	},
+	{
+		"code": "10020",
+		"duplicate_of": "01088",
+		"pack_code": "hlk",
+		"position": 20,
+		"quantity": 1
+	},
+	{
+		"code": "10021",
+		"duplicate_of": "01089",
+		"pack_code": "hlk",
+		"position": 21,
+		"quantity": 1
+	},
+	{
+		"code": "10022",
+		"duplicate_of": "01090",
+		"pack_code": "hlk",
+		"position": 22,
+		"quantity": 1
+	},
+	{
+		"code": "10023",
+		"duplicate_of": "01091",
+		"pack_code": "hlk",
+		"position": 23,
+		"quantity": 1
+	},
+	{
+		"code": "10024",
+		"duplicate_of": "01092",
+		"pack_code": "hlk",
+		"position": 24,
+		"quantity": 1
 	},
 	{
 		"code": "10029",
@@ -370,7 +412,7 @@
 		"position": 30,
 		"quantity": 3,
 		"resource_mental": 1,
-		"text": "Play only if your identity has the <b>AVENGER</b> trait.\n <b>Hero Action</b>: Heal 1 damage from an ally and ready it.",
+		"text": "Play only if your identity has the [[Avenger]] trait.\n <b>Hero Action</b>: Heal 1 damage from an ally and ready it.",
 		"traits": "",
 		"type_code": "event"
 	},

@@ -37,7 +37,7 @@
 		"quantity": 1,
 		"recover": 3,
 		"set_code": "black_widow",
-		"text": "Mission Prep — <b>Response</b>: After you play a [[Preparation]] cardd, draw 1 card. (Limit once per phase.)",
+		"text": "Mission Prep — <b>Response</b>: After you play a [[Preparation]] card, draw 1 card. (Limit once per phase.)",
 		"traits": "S.H.I.E.L.D. Spy.",
 		"type_code": "alter_ego"
 	},
@@ -151,7 +151,7 @@
 		"resource_physical": 1,
 		"set_code": "black_widow",
 		"set_position": 9,
-		"text": "<b>Resource</b>: Exhaust Black Widdow's Gauntlet → generate a [wild] resource for a [[Preparation]] card.",
+		"text": "<b>Resource</b>: Exhaust Black Widow's Gauntlet → generate a [wild] resource for a [[Preparation]] card.",
 		"traits": "Tech.",
 		"type_code": "upgrade"
 	},
@@ -266,9 +266,30 @@
 		"position": 13,
 		"quantity": 3,
 		"resource_mental": 1,
-		"text": "<b>Hero Action</b> (attack): Deal 4 damage to an enemy. If that enemy is defeated by this attack, remove 2 threat from a scheme.",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. If that enemy is defeated by this attack, remove 2 threat from a scheme.",
 		"traits": "Attack.",
 		"type_code": "event"
+	},
+	{
+		"code": "08014",
+		"duplicate_of": "01062",
+		"pack_code": "bkw",
+		"position": 14,
+		"quantity": 2
+	},
+	{
+		"code": "08015",
+		"duplicate_of": "01063",
+		"pack_code": "bkw",
+		"position": 15,
+		"quantity": 2
+	},
+	{
+		"code": "08016",
+		"duplicate_of": "01064",
+		"pack_code": "bkw",
+		"position": 16,
+		"quantity": 2
 	},
 	{
 		"code": "08017",
@@ -296,9 +317,37 @@
 		"position": 18,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "Play only if you control a [[Spy]] character.\n<b>Interrupt</b>: When you reveal an encounter card, discard Spycraft → cancel the effects of that card discard it. Then, reveal another card from the encounter deck.",
+		"text": "Play only if you control a [[Spy]] character.\n<b>Interrupt</b>: When you reveal an encounter card, discard Spycraft → cancel the effects of that card and discard it. Then, reveal another card from the encounter deck.",
 		"traits": "Preparation. Skill.",
 		"type_code": "upgrade"
+	},
+	{
+		"code": "08019",
+		"duplicate_of": "01084",
+		"pack_code": "bkw",
+		"position": 19,
+		"quantity": 1
+	},
+	{
+		"code": "08020",
+		"duplicate_of": "01088",
+		"pack_code": "bkw",
+		"position": 20,
+		"quantity": 1
+	},
+	{
+		"code": "08021",
+		"duplicate_of": "01089",
+		"pack_code": "bkw",
+		"position": 21,
+		"quantity": 1
+	},
+	{
+		"code": "08022",
+		"duplicate_of": "01090",
+		"pack_code": "bkw",
+		"position": 22,
+		"quantity": 1
 	},
 	{
 		"code": "08023",
@@ -343,7 +392,7 @@
 		"position": 30,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "Max 1 per player.\n<b>Hero Response</b> (attack): After you take damage from an enemy attack, discard Counterattack → deal an equal amount of damage to that enemy.",
+		"text": "Max 1 per player.\n<b>Hero Response</b> <i>(attack)</i>: After you take damage from an enemy attack, discard Counterattack → deal an equal amount of damage to that enemy.",
 		"traits": "Preparation. Tactic.",
 		"type_code": "upgrade"
 	},

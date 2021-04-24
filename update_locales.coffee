@@ -47,6 +47,7 @@ loadCards = (root) ->
             fileContents = fs.readFileSync(path.join(localeRoot, file), 'UTF-8')
             if !!fileContents.trim()
                 json = JSON.parse fileContents
+                json = json.filter((card) -> !!!card.duplicate_of)
                 result[file] = stripProps json, textProperties
     result
 

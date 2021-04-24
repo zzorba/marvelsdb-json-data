@@ -57,7 +57,7 @@
 		"set_code": "rhino",
 		"set_position": 3,
 		"stage": 3,
-		"text": "Toughness <i>(This character enter play with a tough status card.</i><b>When Revealed</b>: Search the encounter deck and discard pile for the Breakin' & Takin' side scheme and reveal it. Shuffle the encounter deck.",
+		"text": "Toughness. <i>(This character enter play with a tough status card.)</i>\n<b>When Revealed</b>: Stun each hero.",
 		"traits": "Brute. Criminal.",
 		"type_code": "villain"
 	},
@@ -85,7 +85,7 @@
 		"type_code": "main_scheme"
 	},
 	{
-		"boost": 2,
+		"boost": 0,
 		"code": "01098",
 		"faction_code": "encounter",
 		"name": "Armored Rhino Suit",
@@ -100,7 +100,7 @@
 		"type_code": "attachment"
 	},
 	{
-		"attack": "3",
+		"attack": 3,
 		"attack_text": "<b>Forced Interrupt</b>: When Rhino attacks, the attack gains overkill. <i>(Excess damage to any ally from this attack is dealt to that ally's controller.)</i> At the end of this attack, discard Charge.",
 		"boost": 2,
 		"code": "01099",
@@ -116,7 +116,7 @@
 		"type_code": "attachment"
 	},
 	{
-		"attack": "1",
+		"attack": 1,
 		"boost": 2,
 		"code": "01100",
 		"faction_code": "encounter",
@@ -442,7 +442,7 @@
 		"type_code": "main_scheme"
 	},
 	{
-		"attack": "1",
+		"attack": 1,
 		"attack_text": "<b>Forced Response</b>: After Klaw attacks and damages a character, stun that character.",
 		"boost": 3,
 		"code": "01118",
@@ -680,7 +680,7 @@
 	},
 	{
 		"attack": 3,
-		"attack_text": "The engaged player must defend against Melter's atatcks with an ally they control, if able.",
+		"attack_text": "The engaged player must defend against Melter's attacks with an ally they control, if able.",
 		"boost_text": "Exhaust each ally you control.",
 		"code": "01132",
 		"faction_code": "encounter",
@@ -776,7 +776,7 @@
 	},
 	{
 		"back_flavor": "Klaw's mysterious, red-hooded employer is really the genocidal android Ultron.",
-		"back_text": "<b>Contents</b>: Ultron (I) and Ultron (II). <i>(Ultron (II) and Ultron (III) instead foar expert mode.)</i> Ultron and Standard encounter sets. One modular encounter set <i>(recommended: Under Attack).</i>\n<b>Setup</b>: Put the Ultron Drones environment into play. Shuffle the encounter deck. Advanced to stage 1B.",
+		"back_text": "<b>Contents</b>: Ultron (I) and Ultron (II). <i>(Ultron (II) and Ultron (III) instead for expert mode.)</i> Ultron and Standard encounter sets. One modular encounter set <i>(recommended: Under Attack).</i>\n<b>Setup</b>: Put the Ultron Drones environment into play. Shuffle the encounter deck. Advanced to stage 1B.",
 		"base_threat": 0,
 		"base_threat_fixed": true,
 		"boost": null,
@@ -820,7 +820,7 @@
 		"set_position": 5,
 		"stage": 2,
 		"text": "<b>Forced Response</b>: After placing threat here during step one of the villain phase, each player must choose to either place 2 threat here or put the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
-		"threat": 3,
+		"threat": 10,
 		"type_code": "main_scheme"
 	},
 	{
@@ -844,7 +844,7 @@
 		"set_position": 6,
 		"stage": 3,
 		"text": "Threat cannot be removed from this scheme.\n<b>If this stage is completed, the players lose the game</b>",
-		"threat": 3,
+		"threat": 5,
 		"type_code": "main_scheme"
 	},
 	{
@@ -962,7 +962,7 @@
 		"quantity": 2,
 		"set_code": "ultron",
 		"set_position": 17,
-		"text": "<b>When Revealed (Alter-Ego)</b>: Ultron schemes. Discard the top card of your deck for each threat placed this way.\n<b>When Revelaed (Hero)</b>: Ultron attacks you. Discard the top card of your deck for each damage dealt by this attack.",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Ultron schemes. Discard the top card of your deck for each threat placed this way.\n<b>When Revealed (Hero)</b>: Ultron attacks you. Discard the top card of your deck for each damage dealt by this attack.",
 		"type_code": "treachery"
 	},
 	{
@@ -1033,7 +1033,7 @@
 		"boost": 3,
 		"code": "01150",
 		"faction_code": "encounter",
-		"flavor": "Ultron directs his drone army through hive circuity.",
+		"flavor": "Ultron directs his drone army through hive circuitry.",
 		"name": "Ultron's Imperative",
 		"octgn_id": "0f38393d-c11d-49c7-b9a0-4c7c61f098d4",
 		"pack_code": "core",
@@ -1442,7 +1442,7 @@
 		"boost": 3,
 		"code": "01176",
 		"faction_code": "encounter",
-		"flavor": "The Psych-Magnitron is a Kree device with the power to turn thoughts into reality. In the hands of Yon-Rogg, it would be a devestating weapon.",
+		"flavor": "The Psych-Magnitron is a Kree device with the power to turn thoughts into reality. In the hands of Yon-Rogg, it would be a devastating weapon.",
 		"name": "The Psych-Magnitron",
 		"octgn_id": "78ea09d6-bdd6-4133-b1b4-446ae53a68f6",
 		"pack_code": "core",
@@ -1460,7 +1460,7 @@
 		"boost": 2,
 		"code": "01177",
 		"faction_code": "encounter",
-		"flavor": "\"It isn't real power unles they fear you\"",
+		"flavor": "\"It isn't real power unless they fear you\"",
 		"health": 5,
 		"is_unique": true,
 		"name": "Yon-Rogg",
@@ -1635,7 +1635,7 @@
 		"quantity": 2,
 		"set_code": "standard",
 		"set_position": 3,
-		"text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revelaed (Hero)</b>: The villain attacks you.",
+		"text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: The villain attacks you.",
 		"type_code": "treachery"
 	},
 	{
@@ -1663,7 +1663,7 @@
 		"quantity": 1,
 		"set_code": "standard",
 		"set_position": 6,
-		"text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revelaed (Hero)</b>: The villain and each minion engaged with you attacks you.",
+		"text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: The villain and each minion engaged with you attacks you.",
 		"type_code": "treachery"
 	},
 	{

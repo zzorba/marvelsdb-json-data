@@ -73,7 +73,7 @@
 		"octgn_id": "a9ff1d22-93b0-4992-a75d-5410f22b6481",
 		"pack_code": "thor",
 		"position": 3,
-		"quantity": 2,
+		"quantity": 3,
 		"resource_physical": 1,
 		"set_code": "thor",
 		"set_position": 2,
@@ -159,7 +159,6 @@
 		"deck_limit": 2,
 		"faction_code": "hero",
 		"flavor": "\"I am the God of Thunder, lord of the savage Lightning. The vary skies must tremble when speaks the Mighty Thor!\" -- Thor",
-		"is_unique": false,
 		"name": "God of Thunder",
 		"octgn_id": "40b769d9-c132-4850-a6be-6dbfb43b1a1f",
 		"pack_code": "thor",
@@ -255,6 +254,13 @@
 		"type_code": "ally"
 	},
 	{
+		"code": "05013",
+		"duplicate_of": "01052",
+		"pack_code": "thor",
+		"position": 13,
+		"quantity": 2
+	},
+	{
 		"code": "06014",
 		"cost": 0,
 		"deck_limit": 3,
@@ -285,6 +291,13 @@
 		"text": "<b>Hero Interrupt</b>: When your hero makes a basic attack, exhaust a [[Weapon]] upgrade on your hero → your hero gets +3 ATK for this attack.",
 		"traits": "Skill.",
 		"type_code": "event"
+	},
+	{
+		"code": "05016",
+		"duplicate_of": "01055",
+		"pack_code": "thor",
+		"position": 16,
+		"quantity": 2
 	},
 	{
 		"code": "06017",
@@ -372,6 +385,34 @@
 		"type_code": "event"
 	},
 	{
+		"code": "06022",
+		"duplicate_of": "01088",
+		"pack_code": "thor",
+		"position": 22,
+		"quantity": 1
+	},
+	{
+		"code": "06023",
+		"duplicate_of": "01089",
+		"pack_code": "thor",
+		"position": 23,
+		"quantity": 1
+	},
+	{
+		"code": "06024",
+		"duplicate_of": "01090",
+		"pack_code": "thor",
+		"position": 24,
+		"quantity": 1
+	},
+	{
+		"code": "06025",
+		"duplicate_of": "01091",
+		"pack_code": "thor",
+		"position": 25,
+		"quantity": 1
+	},
+	{
 		"code": "06031",
 		"cost": 2,
 		"deck_limit": 3,
@@ -427,6 +468,7 @@
 		"quantity": 3,
 		"resource_physical": 1,
 		"text": "Uses (3 physical counters).\n<b>Hero Resource</b>: Exhaust Enhanced Physique and remove 1 physical counter from it → generate a [physical] resource.",
+		"traits": "Condition.",
 		"type_code": "upgrade"
 	}
 ]
