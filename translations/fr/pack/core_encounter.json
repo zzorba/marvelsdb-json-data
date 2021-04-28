@@ -1,0 +1,625 @@
+[
+    {
+        "code": "01094",
+        "flavor": "\"Je suis Rhino. Je casse des trucs. C'est ce que je fais. C'est ce que je suis.\"",
+        "name": "Rhino",
+        "traits": "Brute. Criminel."
+    },
+    {
+        "code": "01095",
+        "flavor": "\"Hors de mon chemin !\"",
+        "name": "Rhino",
+        "text": "<b>Une fois révélée</b> : cherchez la manigance annexe Casser et Emporter dans le deck Rencontre ou la pile de défausse Rencontre et révélez-la. Mélangez le deck Rencontre.",
+        "traits": "Brute. Criminel."
+    },
+    {
+        "code": "01096",
+        "flavor": "\"C'est vous qui l'avez cherché !\"",
+        "name": "Rhino",
+        "text": "Tenacité. <i>(Ce personnage entre en jeu avec une carte d'état Tenace.)</i>\n<b>Une fois révélée</b> : sonnez chaque héros.",
+        "traits": "Brute. Criminel."
+    },
+    {
+        "code": "01097",
+        "flavor": "Rhino essaye de défoncer les murs de l'usine afin de dérober une cargaison de vibranium. Vous devez l'arrêter !",
+        "name": "L'Effraction !",
+        "text": "<b>Si ce stage est achevé, les joueurs perdent la partie.</b>",
+        "back_text": "<b>Contenu</b> : Rhino (I) et Rhino (II). <i>(Rhino (II) et Rhino (III) à la place en mode expert.)</i> Les sets de rencontre Rhino et Standard. Un set de rencontre modulaire <i>(recommandé : Alerte à la Bombe)</i>.\n<b>Mise en place</b> : avancez au stade 1B.",
+        "back_flavor": "Rhino est en train d'attaquer une usine du S.H.I.E.L.D"
+    },
+    {
+        "code": "01098",
+        "name": "Costume Blindé de Rhino",
+        "text": "Attachez cette carte à Rhino.\n<b>Interruption forcée</b> : quand n'importe quelle quantité de dégâts devrait être infligée à Rhino, placez ces dégâts sur cette carte à la place. Ensuite, s'il y a au moins 5 dégâts sur cette carte, défaussez-la.",
+        "traits": "Armure."
+    },
+    {
+        "code": "01099",
+        "name": "Charge",
+        "text": "Attachez cette carte à Rhino.",
+        "attack_text": "<b>Interruption forcée</b> : quand Rhino attaque, son attaque gagne Déferlement. <i>(Si un allié a défendu, les dégâts excédentaires de cette attaque sont infligés au contrôleur de cet allié.)</i> À la fin de cette attaque, défaussez Charge."
+    },
+    {
+        "code": "01100",
+        "name": "Corne en Ivoire Renforcée",
+        "text": "Attachez cette carte à Rhino.\n<b>Action de héros</b> : dépensez les ressources suivantes : [physical] [physical] [physical] → défaussez cette carte.",
+        "traits": "Arme."
+    },
+    {
+        "code": "01101",
+        "flavor": "\"Mais que fait Hydra ici ?\" — Carol Danvers",
+        "name": "Mercenaire d'Hydra",
+        "text": "Garde. <i>(Tant que ce sbire est engagé avec vous, vous ne pouvez pas attaquer le méchant.)</i>",
+        "traits": "Hydra."
+    },
+    {
+        "code": "01102",
+        "flavor": "\"Je veux juste être payé !\"",
+        "name": "L'Homme-Sable",
+        "text": "Ténacité. <i>(Ce personnage entre en jeu avec une carte d'état Tenace.)</i>",
+        "traits": "Criminel. Élite."
+    },
+    {
+        "code": "01103",
+        "flavor": "\"J'imagine que vous êtes choqué de me voir.\"",
+        "name": "Shocker",
+        "text": "<b>Une fois révélée</b> : infligez 1 dégât à chaque héros.",
+        "traits": "Criminel."
+    },
+    {
+        "code": "01104",
+        "flavor": "\"Tu penses pouvoir m'arrêter ? Quelle blague !\" — Rhino",
+        "name": "Difficile à Contenir",
+        "text": "<b>Une fois révélée</b> : Rhino se soigne de 4 dégâts. Si aucun dégât n'est soigné par cet effet, cette carte gagne Renfort."
+    },
+    {
+        "code": "01105",
+        "flavor": "\"Vas-y !\" — Rhino",
+        "name": "\"Je suis Balèze\"",
+        "text": "<b>Une fois révélée</b> : donnez une carte d'état Tenace à Rhino. Si Rhino a déjà une carte d'état Tenace, cette carte gagne Renfort."
+    },
+    {
+        "code": "01106",
+        "name": "Ruée",
+        "text": "<b>Une fois révélée (alter ego)</b> : cette carte gagne Renfort.\n<b>Une fois révélée (héros)</b> : Rhino vous attaque. Si un personnage est blessé par cette attaque, ce personnage est sonné."
+    },
+    {
+        "code": "01107",
+        "flavor": "Rhino casse des trucs et les emporte.",
+        "name": "Casser et Emporter",
+        "text": "<b>Une fois révélée</b> : placez 1[per_hero] menace supplémentaire sur cette carte.\n<i>(Icône d'Aléas : attribuez +1 carte Rencontre lors de la phase du Méchant.)</i>"
+    },
+    {
+        "code": "01108",
+        "flavor": "Des civils paniqués pullulent dans le coin. Il est difficile d'affronter Rhino sans les mettre en danger. Il faut mettre ces gens à l'abri !",
+        "name": "Contrôler la Foule",
+        "text": "<i>(Icône de Crise : tant que cette manigance est en jeu, vous ne pouvez pas retirer de menance de la manigance principale.)</i>"
+    },
+    {
+        "code": "01109",
+        "flavor": "Reports are out that Hydra agents have planted a bomb in a nearby hotel.",
+        "name": "Bomb Scare",
+        "text": "<b>Une fois révélée</b> : Place an additional 1 [per_hero] threat here.\n<i>(Acceleration Icon: Place +1 threat on the main scheme at the start of the villain phase.)</i>"
+    },
+    {
+        "code": "01110",
+        "flavor": "\"Je sais que si on coupe une tête, deux autres prennent sa place. Mais il se passe quoi si on la fait exploser à la place ?\" — Miss Hulk",
+        "name": "Poseur de Bombe d'Hydra",
+        "text": "<b>Une fois révélée</b> : choisissez : soit vous subissez 2 dégâts, soit vous placez 1 menace sur la manigance principale.",
+        "traits": "Hydra."
+    },
+    {
+        "code": "01111",
+        "name": "Explosion",
+        "text": "<b>Une fois révélée</b> : si Alerte à la Bombe est en jeu, répartissez X dégâts parmi les héros et les alliés, X étant la quantité de menaces sur Alerte à la Bombe. Si Alerte à la Bombe n'est pas en jeu, cette carte gagne Renfort"
+    },
+    {
+        "code": "01112",
+        "flavor": "\"Circulez, il n'y a rien à voir !\" — Iron Man",
+        "name": "Fausse Alerte",
+        "text": "<b>Une fois révélée</b> : vous êtes sésorienté. Si vous êtes déjà désorienté, cette carte gagne Renfort."
+    },
+    {
+        "code": "01113",
+        "flavor": "\"Venez à la rencontre de votre destin !\"",
+        "name": "Klaw",
+        "traits": "Maîtres du Mal.",
+        "attack_text": "<b>Interruption forcée</b> : quand Klaw attaque, donnez-lui 1 carte de boost supplémentaire pour cette activation."
+    },
+    {
+        "code": "01114",
+        "name": "Klaw",
+        "text": "<b>Une fois révélée</b> : cherchez la manigance annexe Klow \"l'Immortel\" dans le deck Rencontre ou la pile de défausse Rencontre et révélez-la. Mélangez le deck Rencontre.",
+        "traits": "Maîtres du Mal.",
+        "attack_text": "<b>Interruption forcée</b> : quand Klaw attaque, donnez-lui 1 carte de boost supplémentaire pour cette activation."
+    },
+    {
+        "code": "01115",
+        "name": "Klaw",
+        "text": "Ténacité. <i>(Ce personnage entre en jeu avec une carte d'état Tenace.)</i>",
+        "traits": "Maîtres du Mal.",
+        "attack_text": "<b>Interruption forcée</b> : quand Klaw attaque, donnez-lui 1 carte de boost supplémentaire pour cette activation."
+    },
+    {
+        "code": "01116",
+        "flavor": "Votre enquête révèle que c'est Klaw, un vieil ennemi des Avengers, qui est derrière cette entreprise criminelle !",
+        "name": "Trafic Clandestin",
+        "text": "<b>Une fois révélée</b> : défaussez des cartes du deck Rencontre jusqu'à ce qu'un sbire soit défaussé. Mettez en jeu ce sbire, engagé avec le premier joueur.",
+        "back_text": "<b>Contenu</b> : Klaw (I) et Klaw (II). <i>(Klaw (II) et Klaw (III) à la place en mode expert.)</i> Les sets de rencontre Klaw et Standard.Un set de rencontre modulaire <i>(recommandé : Maîtres du Mal)</i>\n<b>Mise en place</b> : cherchez la manigance annexe Réseau de Défense dans le deck Rencontre et révélez-la. Mélangez le deck Rencontre. Avancez au stage 1B.",
+        "back_flavor": "L'attaque sur le complexe du S.H.I.E.L.D semble liée à un réseau de trafic d'armes souuterrain."
+    },
+    {
+        "code": "01117",
+        "flavor": "Klaw a rendez-vous avec le Crimson Cowl. Klaw et le mystérieux personnage se précipitent dans l'ombre quand vous leur faites face et les sbires de Klaw approchent pour couvrir leur fuite.",
+        "name": "Rendez-Vous Secret",
+        "text": "<b>Si ce stage est achevé, les joueurs perdent la partie.</b>",
+        "back_text": "<b>Une fois révélée</b> : défaussez des cartes du deck Rencontre jusqu'à ce qu'un sbire soit défaussé. Mettez en jeu ce sbire, engagé avec le premier joueur. Avancez au stade 2B.",
+        "back_flavor": "Klaw a trouvé un acheteur pour ses armes illégales. Vous devez empêcher la ventre, mais le lieu du rendez-vous est gardé par des sbires de Klaw."
+    },
+    {
+        "code": "01118",
+        "name": "Convertisseur Sonique",
+        "text": "Attachez cette carte à Klaw.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy] [mental] [physical] → défaussez cette carte.",
+        "traits": "Arme.",
+        "attack_text": "<b>Réponse forcée</b> : après que Klaw a attaqué et blessé un personnage, sonnez ce personnage."
+    },
+    {
+        "code": "01119",
+        "name": "Corps de Son Solidifié",
+        "text": "Attachez cette carte à Klaw.\nKlaw gagne Riposte 1. <i>(Après que ce personnage a été attaqué, infligez 1 dégât au personnage attaquant.)</i>\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy] [mental] [physical] → défaussez cette carte.",
+        "traits": "Condition."
+    },
+    {
+        "code": "01120",
+        "name": "Garde Blindé",
+        "text": "Garde. <i>(Tant que ce sbire est engagé avec vous, vous ne pouvez pas attaquer le méchant.)</i>\nTénacité. <i>(Ce personnage entre en jeu avec une carte d'état Tenace.)</i>",
+        "traits": "Mercenaire."
+    },
+    {
+        "code": "01121",
+        "name": "Trafiquant d'Armes",
+        "text": "Renfort. <i>(Après la résolution de cette carte, révélez 1 carte Rencontre supplémentaire.)</i>",
+        "traits": "Mercenaire.",
+        "boost_text": "mettez en jeu le Trafiquant d'Armes, engagé avec vous."
+    },
+    {
+        "code": "01122",
+        "name": "La Vengeance de Klaw",
+        "text": "<b>Une fois révélée (alter ego)</b> : défausssez 1 carte prise au hasard dans votre main.\n<b>Une fois révélée (héros)</b> : Klaw vous attaque. Si cette attaque inflige des dégâts, placez 1 menace sur la manigance principale."
+    },
+    {
+        "code": "01123",
+        "name": "Boom Sonique",
+        "text": "<b>Une fois révélée</b> : choisissez : soit vous dépensez les ressources suivantes : [energy] [mental] [physical] soit vous inclinez chaque personnage que vous contrôlez.",
+        "boost_text": "si cette activation vous inflige des dégâts, inclinez votre héros."
+    },
+    {
+        "code": "01124",
+        "name": "Manipulation du Son",
+        "text": "<b>Une fois révélée (alter ego)</b> : Klaw se soigne de 4 dégâts. Si aucun dégât n'est soigné par cet effet, cette carte gagne Renfort.\n<b>Une fois révélée (héros)</b> : subissez 2 dégâts. Klaw se soigne de 2 dégâts."
+    },
+    {
+        "code": "01125",
+        "flavor": "L'entreprise criminelle de Klaw est protégée par un gang de voyous.",
+        "name": "Réseau de Défense",
+        "text": "<b>Une fois révélée</b> : placez 1[per_hero] menace supplémentaire sur cette carte."
+    },
+    {
+        "code": "01126",
+        "flavor": "Klaw fournit d'autres malfrats avec les armes avancées issues d'une fabrique d'armes clandestine.",
+        "name": "Fabrique d'Armes Clandestine",
+        "text": "<b>Une fois révélée</b> : placez 1[per_hero] menace supplémentaire sur cette carte."
+    },
+    {
+        "code": "01127",
+        "flavor": "La maîtrise du son de Klaw lui permet de soigner sa forme solide par la simple force de sa volonté.",
+        "name": "Klaw \"l'Immortel\"",
+        "text": "Klaw gagne +10 points de vie. <i>(Quand cette manigance est déjouée, Klaw perd ces points de vie.)</i>"
+    },
+    {
+        "code": "01128",
+        "flavor": "Les Maîtres du Mal sont arrivés et attaquent les héros !",
+        "name": "Les Maîtres du Mal",
+        "text": "<b>Une fois révélée</b> : défaussez des cartes du deck Rencontre jusqu'à ce qu'un sbire [[Maîtres du Mal]] soit défaussé. Mettez en jeu ce sbire, engagé avec le premier joueur."
+    },
+    {
+        "code": "01129",
+        "name": "l'Homme-Radioactif",
+        "traits": "Élite. Maîtres du Mal.",
+        "attack_text": "<b>Réponse forcée</b> : après que l'Homme-Radioactif vous a attaqué, défaussez 1 carte prise au hasard dans votre main.",
+        "boost_text": "défaussez 1 carte prise au hasard dans votre main."
+    },
+    {
+        "code": "01130",
+        "name": "Le Tourbillon",
+        "traits": "Maîtres du Mal.",
+        "attack_text": "<b>Interruption forcée</b> : quand le Tourbillon vous attaque,résolvez également son attaque contre chaque autre héros.",
+        "boost_text": "infligez 1 dégât à chaque héros."
+    },
+    {
+        "code": "01131",
+        "name": "Le Requin-Tigre",
+        "traits": "Maîtres du Mal.",
+        "attack_text": "<b>Réponse forcée</b> : après que Le Requin-Tigre a attaqué, donnez-lui une carte d'état Tenace.",
+        "boost_text": "donnez au méchant une carte d'état Tenace."
+    },
+    {
+        "code": "01132",
+        "name": "le Fondeur",
+        "traits": "Maîtres du Mal.",
+        "attack_text": "Le joueur engagé doit défendre contre les attaques effectuées par Le Fondeur avec un alliée qu'il contrôle, si possible.",
+        "boost_text": "inclinez chaque alliée que vous contrôlez."
+    },
+    {
+        "code": "01133",
+        "name": "Maîtres du Chaos",
+        "text": "<b>Une fois révélée</b> : chaque sbire [[Maîtres du Mal]] attaque le héros engagé avec lui. Si aucune attaque n'est effectuée par cette effet, cherchez un sbire [[Maîtres du Mal]] dans le deck Rencontre ou la pile de défausse Rencontre et mettez-le en jeu, engagé avec vous. Ensuite, mélangez le deck Rencontre."
+    },
+    {
+        "code": "01134",
+        "name": "Ultron",
+        "traits": "Androïde.",
+        "attack_text": "<b>Réponse forcée</b> : après qu'Ultron vous a attaqué, choisissez : soit vous placez 1 menace sur la manigance principale, soit vous mettez en jeu la carte du dessus de votre deck, face cachée, engagée avec vous en tant que sbire [[Drone]]."
+    },
+    {
+        "code": "01135",
+        "name": "Ultron",
+        "traits": "Androïde.",
+        "attack_text": "<b>Interruption forcée</b> : quand Ultron vous attaque, mettez en jeu la carte du dessus de votre deck, face cachée, engagée avec vous en tant que sbire [[Drone]]. Jusqu'à la fin de cette attaque, Ultron gagne +1 ATQ pour chaque sbire [[Drone]] engagé avec vous.."
+    },
+    {
+        "code": "01136",
+        "name": "Ultron",
+        "text": "Chaque sbire [[Drone]] gagne +1 ATQ et +1 point de vie. Ultron ne peut pas subir de dégâts tant qu'il y a au moins un sbire [[Drone]] en jeu.\n<b>Une fois révélée</b> : cherchez la manigance annexe Ordre d'Ultron dans le deck Rencontre ou la pile de défausse rencontre et révélez-la. Mélangez le deck Rencontre.",
+        "traits": "Androïde."
+    },
+    {
+        "code": "01137",
+        "flavor": "Ultron utilise les matériaux livrés par Klaw afin de se fabriquer une armée de drones.",
+        "name": "Le Crimson Cowl",
+        "text": "<b>Une fois révélée</b> : chaque joueur met en jeu la carte du dessus de son deck, face cachée, engagée avec lui en tant que sbire [[Drone]].",
+        "back_text": "<b>Contenu</b> : Ultron (I) et Ultron (II). <i>(Ultron (II) et Ultron (III) à la place en mode expert.)</i> Les sets de rencontre Ultron et Standard. Un set de rencontre modulaire <i>(recommandé : Civils Attaqués).</i>\n<b>Mise en place</b> :  mettez en jeu l'environnement Drones d'Ultron. Mélangez le deck Rencontre. Avancez au stade 1B.",
+        "back_flavor": "Le Mystérieux employeur encapuchonné de rouge de Klaw n'est autre que l'androïde meurtrier, Ultron."
+    },
+    {
+        "code": "01138",
+        "flavor": "Si Ultron prend le contrôle du NORAD, il aura accès aux commandes des missiles balistiques des États-Unis !",
+        "name": "Assaut sur le NORAD",
+        "text": "<b>Réponse forcée</b> : après avoir placé de la menace sur cette carte lors de la première étape de la phase du Méchant, chaque joueur doit choisir : soit il place 2 menaces sur cette carte, soit il met en jeu la carte du dessus de son deck, face cachée, engagée avec lui en tant que sbire [[Drone]].",
+        "back_text": "<b>Une fois révélée</b> : chaque joueur met en jeu la carte du dessus de son deck, face cachée, engagée avec lui en tant que sbire [[Drone]]. Avancez au stade 2B.",
+        "back_flavor": "Alors que vous poursuivez Ultron, vous recevez un appel de détresse de la part du Commandement de la défense aérospatiale de l'Amérique du Nord dans le Colorado. Ils sont assiégés par une armée de drones d'Ultron !",
+        "boost_text": null
+    },
+    {
+        "code": "01139",
+        "flavor": "C'est à vous de sauver le monde d'une apocalypse nucléaire !",
+        "name": "Compte à Rebours pour l'Enfer",
+        "text": "Les menaces ne peuvent pas être retirées de cette manigance.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>",
+        "back_text": "<b>Une fois révélée</b> : chaque joueur met en jeu la carte du dessus de son deck, face cachée, engagée avec lui en tant que sbire [[Drone]]. Avancez au stade 3B.",
+        "back_flavor": "Ultron a pris le contrôle du NORAD. Ce n'est plus qu'une question de temps avant qu'il ne pirate le dispositif de sécurité et soit en mesure de lancer l'arsenal nucléaire."
+    },
+    {
+        "code": "01140",
+        "name": "Drones d'Ultron",
+        "text": "Chaque sbire [[Drone]] face cachée engagé avec un joueur a une MNG de base de 1, une ATQ de base de 1 et des points de vie de base de 1.\n<b>Réponse forcée</b> : après qu'un sbire [[Drone]] face cachée a été vaincu, placez-le dans la pile de défausse de son propriétaire."
+    },
+    {
+        "code": "01141",
+        "name": "Transmetteur de Programmation",
+        "text": "Attachez cette carte à Ultron.\n<b>Action de héros</b> : inclinez votre héros et dépensez les ressources suivantes : [mental] [mental] → défaussez cette carte.",
+        "traits": "Objet. Tech.",
+        "scheme_text": "<b>Réponse forcée</b> : après qu'Ultron a manigancé, placez 1 menace sur chaque manigance annexe."
+    },
+    {
+        "code": "01142",
+        "name": "Drones Améliorés",
+        "text": "Attachez cette carte à l'environnement Drones d'Ultron.\nChaque sbire [[Drone]] face cachée gagne +1 ATQ et +1 point de vie.\n<b>Action de héros</b> : dépensez les ressources suivantes [energy] [mental] [physical] → défaussez cette carte.",
+        "traits": "Condition."
+    },
+    {
+        "code": "01143",
+        "name": "Drone d'Ultron Avancé",
+        "text": "Garde.\n<b>Interruption forcée</b> : quand le Drone d'Ultron Avancé est vaincu, le joueur engagé met en jeu la carte du dessus de son deck, facé cachée, engagée avec lui en tant que sbire [[Drone]].",
+        "traits": "Drone."
+    },
+    {
+        "code": "01144a",
+        "name": "Efficacité d'Androïde",
+        "text": "<b>Une fois révélée</b> : chaque joueur met en jeu la carte du dessus de notre deck, face cachée, engagée avec lui en tant que sbire [[Drone]].",
+        "boost_text": "choisissez : soit vous dépensez une ressource [energy], soit vous mettez en jeu la carte du dessus de votre deck, face cachée, engagée avec vous en tant que sbire [[Drone]]."
+    },
+    {
+        "code": "01144b",
+        "name": "Efficacité d'Androïde",
+        "text": "<b>Une fois révélée</b> : chaque joueur met en jeu la carte du dessus de notre deck, face cachée, engagée avec lui en tant que sbire [[Drone]].",
+        "boost_text": "choisissez : soit vous dépensez une ressource [mental], soit vous mettez en jeu la carte du dessus de votre deck, face cachée, engagée avec vous en tant que sbire [[Drone]]."
+    },
+    {
+        "code": "01144c",
+        "name": "Efficacité d'Androïde",
+        "text": "<b>Une fois révélée</b> : chaque joueur met en jeu la carte du dessus de notre deck, face cachée, engagée avec lui en tant que sbire [[Drone]].",
+        "boost_text": "choisissez : soit vous dépensez une ressource [physical], soit vous mettez en jeu la carte du dessus de votre deck, face cachée, engagée avec vous en tant que sbire [[Drone]]."
+    },
+    {
+        "code": "01145",
+        "name": "Rage d'Ultron",
+        "text": "<b>Une fois révélée (alter ego)</b> : Ultron manigance. Défaussez la carte du dessus de votre deck pour chaque menace placée par cet effet.\n<b>Une fois révélée (héros)</b> : Ultron vous attaque. Défaussez la carte du dessus de votre deck pour chaque dégât infligé par cette attaque."
+    },
+    {
+        "code": "01146",
+        "name": "Séquence de Réparation",
+        "text": "<b>Une fois révélée</b> : Ultron se soigne de 2 dégäts pour chaque sbire [[Drone]] engagé avec vous. Si aucun dégât n'est soigné par cet effet, cette carte gagne Renfort.",
+        "boost_text": "Ultron se soigne de 1 dégât pour chaque sbire [[Drone]] engagé avec vous."
+    },
+    {
+        "code": "01147",
+        "name": "Attaque en Essaim",
+        "text": "<b>Une fois révélée</b> : chaque sbire [[Drone]] engagé avec votre héros attaque. Si aucune attaque n'est effectuée par cet effet, mettez en jeu la carte du dessus de votre deck, face cachée, engagée avec vous en tant que sbire [[Drone]]."
+    },
+    {
+        "code": "01148",
+        "name": "Fabrique de Drones",
+        "text": "<b>Une fois révélée</b> : chaque joueur met en jeu la carte du dessus de son deck, face cachée, engagée avec lui en tant que sbire [[Drone]]. Placez 1 menace sur cette manigance annexe pour chaque sbire [[Drone]] en jeu."
+    },
+    {
+        "code": "01149",
+        "flavor": "Ultron pirate les réseaux sans-fil de la planète pour créer une panique globale.",
+        "name": "I.A. Invasive",
+        "text": "<b>Une fois révélée</b> : chaque joueur défausse les 3 cartes du dessus de son deck.."
+    },
+    {
+        "code": "01150",
+        "flavor": "Ultron dirige son armée de drones comme s'il s'agissait d'une ruche.",
+        "name": "Ordre d'Ultron",
+        "text": "<b>Une fois révélée</b> : le premier met en jeu les 2 cartes du dessus de son deck, face cachée, engagées avec lui en tant que sbires [[Drone]]."
+    },
+    {
+        "code": "01151",
+        "flavor": "Des civils sont attaqués. Ils ont besoin d'aide, et vite !",
+        "name": "Civils Attaqués",
+        "text": "<b>Une fois révélée</b> : chaque joueur choisit : soit il place 2 menaces sur cette carte, soit il inflige 3 dégâts à son héros."
+    },
+    {
+        "code": "01152",
+        "name": "Armure en Vibranium",
+        "text": "Attachez cette carte à au méchant.\n<b>Réponse forcée</b> : après que le méchant a subi au moins un dégât, donnez-lui une carte d'état Tenace.\n<b>Action de héros</b> : inclinez votre héros et dépensez les ressources suivantes : [physical] [physical] → défaussez cette carte.",
+        "traits": "Armure."
+    },
+    {
+        "code": "01153",
+        "name": "Phaseurs de Pulvérisation",
+        "text": "Attachez cette carte au méchant.\nLe méchant gagne Riposte 1.\n<b>Action de héros</b> : inclinez votre héros et dépensez les ressources suivantes : [energy] [energy] → défaussez cette carte.",
+        "traits": "Arme."
+    },
+    {
+        "code": "01154",
+        "name": "Rayon Pulvérisateur",
+        "text": "<b>Une fois révélée</b> : infligez 1 dégât à chaque personnage ami.",
+        "boost_text": "infligez 1 dégât à chaque personnage que vous contrôlez."
+    },
+    {
+        "code": "01155",
+        "name": "Affaires d'État",
+        "text": "<b><i>Donnez cette carte au joueur de T'Challa.</i></b>\nVous pouvez passer sous forme d'alter ego. Choisissez :\n- Inclinez T'Challa → retirez Affaires d'État de la partie.\n- Choisissez et défaussez une amélioration [[Black Panther]] que vous contrôlez. Défaussez cette obligation."
+    },
+    {
+        "code": "01156",
+        "flavor": "Killmonger, le renégat, prépare un coup d'État pour prendre le contrôle du Wakanda.",
+        "name": "Usurper le Trône"
+    },
+    {
+        "code": "01157",
+        "flavor": "\"C'est moi qui devrais occuper ce trône !\"",
+        "name": "Killmonger",
+        "text": "Killmonger ne peut pas subir de dégâts de la part des améliorations [[Black Panther]].",
+        "traits": "Assassin. Élite. Mercenaire."
+    },
+    {
+        "code": "01158",
+        "name": "Plante en forme de Cœur",
+        "text": "Renfort <i>(Après la résolution de cette carte, révélez 1 carte Rencontre supplémentaire.)</i>\n<b>Une fois révélée</b> : donnez une carte d'état Tenace au méchant et à chaque sbire engagé avec vous.",
+        "boost_text": "donnez une carte d'état Tenace au méchant."
+    },
+    {
+        "code": "01159",
+        "name": "Combat Rituel",
+        "text": "<b>Une fois révélée</b> : défaussez la carte du dessus du deck Rencontre. Ensuite, choisissez : soit vous infligez X dégâts à votre héros, soit vous placez X menaces sur la manigance principale. X est égal au nombre d'icônes de boost sur la carte Rencontre défaussée plus 1."
+    },
+    {
+        "code": "01160",
+        "name": "Profession Juridique",
+        "text": "<b><i>Donnez cette carte au joueur de Jennifer Walters.</i></b>\nVous pouvez passer sous forme d'alter ego. Choisissez :\n- Inclinez Jennifer Walters →  retirez Profession Juridique de la partie.\n- Donnez 1 pion Accélération à la manigance principale."
+    },
+    {
+        "code": "01161",
+        "flavor": "Titania had held a grudge against She-Hulk for years. She won't rest until she settles the score.",
+        "name": "Défi Personnel",
+        "text": "<b>Une fois révélée</b> : placez 1[per_hero] menace supplémentaire sur cette carte."
+    },
+    {
+        "code": "01162",
+        "flavor": "\"Admet-le, tronche d'avocat. Il ne peut y avoir qu'une seule femme la plus forte du monde... et ce n'est pas toi !\"",
+        "name": "Titania",
+        "text": "X est égal aux points de vie restants de Titania.",
+        "traits": "Brute. Élite."
+    },
+    {
+        "code": "01163",
+        "name": "Génétiquement Amélioré",
+        "text": "Attachez cette carte à au sbire avec le plus de points de vie imprimés. S'il n'y a pas de sbire en jeu, cette carte gagne Renfort.\nLe sbire attaché gagne +3 points de vie.",
+        "traits": "Condition."
+    },
+    {
+        "code": "01164",
+        "name": "Fureur de Titania",
+        "text": "<b>Une fois révélée</b> : Titania attaque votre héros. Si elle n'a pas attaqué, soignez tous les dégâts sur Titania et cette carte gagne Renfort",
+        "boost_text": "donnez 1 carte de boost supplémentaire au méchant pour cette activation."
+    },
+    {
+        "code": "01165",
+        "name": "Avis d'Expulsion",
+        "text": "<b><i>Donnez cette carte au joueur de Peter Parker.</i></b>\nVous pouvez passer sous forme d'alter ego. Choisissez :\n- Inclinez Peter Parker → retirez l'Avis d'Expulsion de la partie.\n- Défaussez 1 carte prise au hasard dans votre main. Cette obligation gagne Renfort. Défaussez cette obligation."
+    },
+    {
+        "code": "01166",
+        "name": "Cambriolage de Haut Vol",
+        "text": "<b>Une fois révélée</b> : Chaque joueur place face cachée sur cette carte une carte prise au hasard dans sa main.\n<b>Une fois révélée</b> : renvoyez dans la main de son proprétaire chaque carte face cachée qui est sur cette carte."
+    },
+    {
+        "code": "01167",
+        "flavor": "\"I'm faster, strong, and smarter than a hundred men my age!\"",
+        "name": "Le Vautour",
+        "text": "Coup Rapide. <i>(Après que ce sbire a engagé votre héros, il attaque.)</i>",
+        "traits": "Criminel."
+    },
+    {
+        "code": "01168",
+        "name": "Coup en Piqué",
+        "text": "<b>Une fois révélée</b> : sonnez votre héros. Si le Vautour est en jeu, cette carte gagne Renfort.",
+        "boost_text": "si cette activation inflige des dégâts à un personnage ami, sonnez ce personnage."
+    },
+    {
+        "code": "01169",
+        "flavor": "\"Spider-Man paiera pour avoir interféré avec mes plans !\" — Le Vautour",
+        "name": "Les Plans du Vautour",
+        "text": "<b>Une fois révélée</b> : défaussez 1 carte prise au hasard dans la main de chaque joueur. Placez 1 menace sur la manigance principale pour chaque type de ressource différent défaussé par cette effet."
+    },
+    {
+        "code": "01170",
+        "name": "Surmenage",
+        "text": "<b><i>Donnez cette carte au joueur de Tony Stark.</i></b>\nVous pouvez passer sous forme d'alter ego. Choisissez :\n- Inclinez Tony Stark → retirez Surmenage de la partie.\n- Inclinez chaque amélioration que vous contrôlez. Défaussez cette obligation."
+    },
+    {
+        "code": "01171",
+        "flavor": "Whiplash a pris le contrôle d'une centrale électrique et menace de surcharger les transformateurs si l'on n'accède pas à ses exigences.",
+        "name": "Surchage Imminente",
+        "text": "<b>Une fois révélée</b> : placez 1[per_hero] supplémentaire sur cette carte."
+    },
+    {
+        "code": "01172",
+        "flavor": "\"C'est toi qui a commencé, Tony. Mais c'est moi qui finirais.\"",
+        "name": "Whiplash",
+        "text": "Riposte 1 <i>(Après que ce personnage a été attaqué, infligez 1 dégât au personnage attaquant.)</i>"
+    },
+    {
+        "code": "01173",
+        "name": "Attaque au Fouet Électrique",
+        "text": "<b>Une fois révélée</b> : choisissez : soit vous infligez à votre héros 1 dégât pour chaque amélioration que vous contrôlez, soit vous choisissez et défaussez une amélioration que vous contrôlez.",
+        "boost_text": "si le méchant effectue une attaque non défendue, choisissez et défaussez une amélioration que vous contrôlez."
+    },
+    {
+        "code": "01174",
+        "flavor": "Cinq, quatre, trois, deux...",
+        "name": "Contre-Attaque Électromagnétique",
+        "text": "<b>Une fois révélée</b> : chaque joueur défausse les 5 cartes du dessus de son deck. Il subit 1 dégât pour chaque ressource [energy] imprimée qu'il a défaussée par cet effet."
+    },
+    {
+        "code": "01175",
+        "name": "Urgence Familiale",
+        "text": "<b><i>Donnez cette carte au joueur de Carol Danvers.</i></b>\nVous pouvez passer sous forme d'alter ego. Choisissez :\n- Inclinez Carol Danvers → retirez Urgence Familiale de la partie.\n- Vous êtes sonné. Cette carte gagne Renfort. Défaussez cette obligation."
+    },
+    {
+        "code": "01176",
+        "flavor": "Le Psycho-Magnitron est un dispositif Kree permettant de transformer les pensées en réalité. Entre les mains de Yon-Rogg, ce serait une arme dévastatrice.",
+        "name": "Le Psycho-Magnitron",
+        "text": "<b>Une fois révélée</b> : placez 1[per_hero] menace supplémentaire sur cette carte."
+    },
+    {
+        "code": "01177",
+        "flavor": "\"Vous n'avez pas réellement de pouvoir tant qu'ils ne vous craignent pas.\"",
+        "name": "Yon-Rogg",
+        "attack_text": "<b>Réponse forcée/b> : après que Yon-Rogg a attaqué, placez 1 menace sur le Psycho-Magnitron."
+    },
+    {
+        "code": "01178",
+        "name": "Manipulateur Kree",
+        "text": "Renfort. <i>(Après la résolution de cette carte, révélez 1 carte Rencontre supplémentaire.)</i>\n<b>Une fois révélée</b> : placez 1 menace sur la manigance principale.",
+        "boost_text": "si le méchant effectue une attaque non défendue, placez 1 menace sur la manigance principale."
+    },
+    {
+        "code": "01179",
+        "flavor": "\"Ce monde appartient désormais à l'empire Kree !\" — Yon-Rogg",
+        "name": "La Trahison de Yon-Rogg",
+        "text": "<b>Une fois révélée</b> : défaussez chaque ressource [energy] de votre main. Si vous ne défaussez aucune carte à cause de cet effet, cette carte gagne Renfort."
+    },
+    {
+        "code": "01180",
+        "name": "Légions d'Hydra",
+        "text": "<b>Une fois révélée</b> : si Madame Hydra n'est pas en jeu, cherchez-la dans le deck Rencontre ou la pile de défausse Rencontre et mettez-la en jeu engagée avec vous. Ensuite, mélangez le deck Rencontre. Placez 2 menaces supplémentaires sur cette manigance annexe pour chaque ennemi [[Hydra]] en jeu."
+    },
+    {
+        "code": "01181",
+        "name": "Madame Hydra",
+        "text": "Madame Hydra ne peut pas subir de dégâts tant que la manigance annexe Légions d'Hydra est en jeu.",
+        "traits": "Élite. Hydra.",
+        "attack_text": "<b>Réponse forcée</b> : après que Madame Hydra a manigancé ou attaqué, placez 2 menaces sur la manigance annexe Légions d'Hydra.",
+        "scheme_text": "<b>Réponse forcée</b> : après que Madame Hydra a manigancé ou attaqué, placez 2 menaces sur la manigance annexe Légions d'Hydra."
+    },
+    {
+        "code": "01182",
+        "name": "Soldat d'Hydra",
+        "text": "Garde. <i>(Tant que ce sbire est engagé avec vous, vous ne pouvez pas attaquer le méchant.)</i>\n<b>Une fois vaincu</b> : attribuez une carte Rencontre au joueur engagé.",
+        "traits": "Hydra."
+    },
+    {
+        "code": "01183",
+        "name": "Le Siège de l'Apocalypse",
+        "text": "<b>Une fois révélée</b> : si MODOK n'est pas en jeu, cherchez-le dans le deck rencontre ou la pile de défausse Rencontre et mettez-le en jeu engagé avec vous. Ensuite, mélangez le deck Rencontre."
+    },
+    {
+        "code": "01184",
+        "flavor": "\"Tu aurais dû rester caché sous le rocher duquel tu as rampé !\"",
+        "name": "MODOK",
+        "text": "Riposte 2. <i>(Après que ce personnage a été attaqué, infligez 2 dégâts au personnage attaquant.)</i>",
+        "traits": "Cyborg. Élite."
+    },
+    {
+        "code": "01185",
+        "name": "Améliorations Biomécaniques",
+        "text": "Renfort.\nAttachez cette carte au sbire avec le plus de points de vie imprimés et qui n'a pas déjà une carte Améliorations Biomécaniques attachée.\n<b>Interruption forcée</b> : quand le sbire attaché est censé être vaincu, soignez tous ses dégâts à la place. Ensuite, défaussez cette carte.",
+        "traits": "Tech."
+    },
+    {
+        "code": "01186",
+        "flavor": "\"Le monde sera à moi !\" — Crâne Rouge",
+        "name": "Avancée",
+        "text": "<b>Une fois révélée</b> : le méchant manigance."
+    },
+    {
+        "code": "01187",
+        "flavor": "\"Meurs !\" — Venom",
+        "name": "Assaut",
+        "text": "<b>Une fois révélée (alter ego)</b> : cette carte gagne Renfort.\n<b>Une fois révélée (héros)</b> : le méchant vous attaque."
+    },
+    {
+        "code": "01188",
+        "name": "Pris par Surprise",
+        "text": "<b>Une fois révélée</b> : défaussez une amélioration ou un soutien que vous contrôlez. Si aucune carte n'est défaussée par cette effet, cette carte gagne Renfort."
+    },
+    {
+        "code": "01189",
+        "name": "Se Liguer",
+        "text": "<b>Une fois révélée (alter ego)</b> : cette carte gagne Renfort.\n<b>Une fois révélée (héros)</b> : le méchant et chaque sbire engagé avec vous vous attaquent."
+    },
+    {
+        "code": "01190",
+        "name": "L'Ombre du Passé",
+        "text": "<b>Une fois révélée</b> : révélez votre sbire Némésis mis de côté et mettez-le en jeu engagé avec vous. Révélez votre manigance annexe Némésis mise de côté et mettez-la en jeu. Mélangez dans le deck Rencontre les cartes restantes de votre set de rencontre Némésis mis de côté. Si votre sbire Némésis n'entre pas en jeu à cause de cet effet, cette carte gagne Renfort."
+    },
+    {
+        "code": "01191",
+        "name": "Épuisement",
+        "text": "Renfort.\n<b>Une fois révélée</b> : inclinez votre carte Identité."
+    },
+    {
+        "code": "01192",
+        "name": "Plan Machiavélique",
+        "text": "<b>Une fois révélée</b> : placez 4 menaces sur chaque manigance annexe. S'il n'y a pas de manigance annexe en jeu, défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'une manigance annexe soit défaussée. Révélez cette manigance annexe."
+    },
+    {
+        "code": "01193",
+        "flavor": "\"Attendez, il y en a encore !\" — Klaw",
+        "name": "Sous le Feu",
+        "text": "Renfort.\n<b>Une fois révélée</b> : révélez la carte du dessus du deck Rencontre."
+    }
+]
