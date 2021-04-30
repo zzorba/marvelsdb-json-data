@@ -1,0 +1,625 @@
+[
+    {
+        "code": "01094",
+        "flavor": "\"I'm Rhino, I knock things down. That's what I do. That's who I am.\"",
+        "name": "Rhino",
+        "traits": "Brute. Criminal."
+    },
+    {
+        "code": "01095",
+        "flavor": "\"Out of my way!\"",
+        "name": "Rhino",
+        "text": "<b>When Revealed</b>: Search the encounter deck and discard pile for the Breakin' & Takin' side scheme and reveal it. Shuffle the encounter deck.",
+        "traits": "Brute. Criminal."
+    },
+    {
+        "code": "01096",
+        "flavor": "\"You brought this on yourself!\"",
+        "name": "Rhino",
+        "text": "Toughness. <i>(This character enter play with a tough status card.)</i>\n<b>When Revealed</b>: Stun each hero.",
+        "traits": "Brute. Criminal."
+    },
+    {
+        "code": "01097",
+        "flavor": "Rhino is trying to smash through the facility wall and steal a shipment of vibranium. You must stop him!",
+        "name": "The Break-In!",
+        "text": "<b>If this stage is completed, the players lose the game.</b>",
+        "back_text": "<b>Contents</b>: Rhino (I) and Rhino (II). (Rhino (II) and Rhino (III) instead for expert mode.) Rhino and Standard encounter sets. One modular encounter set <i>(recommended: Bomb Scare)</i>.\n<b>Setup</b>: Advance to stage 1B.",
+        "back_flavor": "Rhino is attacking a S.H.I.E.L.D. facility!"
+    },
+    {
+        "code": "01098",
+        "name": "Armored Rhino Suit",
+        "text": "Attach to Rhino.\n<b>Forced Interrupt</b>: When any amount of damage would be dealt to Rhino, place it here instead. Then, if there is at least 5 damage here, discard Armored Rhino Suit.",
+        "traits": "Armor."
+    },
+    {
+        "code": "01099",
+        "name": "Charge",
+        "text": "Attach to Rhino.",
+        "attack_text": "<b>Forced Interrupt</b>: When Rhino attacks, the attack gains overkill. <i>(Excess damage to any ally from this attack is dealt to that ally's controller.)</i> At the end of this attack, discard Charge."
+    },
+    {
+        "code": "01100",
+        "name": "Enhanced Ivory Horn",
+        "text": "Attach to Rhino.\n<b>Hero Action</b>: Spend [physical] [physical] [physical] resources → discard this card",
+        "traits": "Weapon."
+    },
+    {
+        "code": "01101",
+        "flavor": "\"What is Hydra doing here?\" -- Carol Danvers",
+        "name": "Hydra Mercenary",
+        "text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>",
+        "traits": "Hydra."
+    },
+    {
+        "code": "01102",
+        "flavor": "\"I just wanna get paid!\"",
+        "name": "Sandman",
+        "text": "Toughness. <i>(This character enters play with a tough status card.)</i>",
+        "traits": "Criminal. Elite."
+    },
+    {
+        "code": "01103",
+        "flavor": "\"I bet you're shocked to see me!\"",
+        "name": "Shocker",
+        "text": "<b>When Revealed</b>: Deal 1 damage to each hero.",
+        "traits": "Criminal."
+    },
+    {
+        "code": "01104",
+        "flavor": "\"You think you can stop me? What a joke!\" -- Rhino",
+        "name": "Hard to Keep Down",
+        "text": "<b>When Revealed</b>: Rhino heals 4 damage. If no damage was healed this way, this card gains surge."
+    },
+    {
+        "code": "01105",
+        "flavor": "\"Bring it!\" -- Rhino",
+        "name": "\"I'm Tough\"",
+        "text": "<b>When Revealed</b>: Give Rhino a tough status card. If Rhino already has a tough status card, this card gains surge."
+    },
+    {
+        "code": "01106",
+        "name": "Stampede",
+        "text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: Rhino attacks you. If a character is damaged by this attack, that character is stunned."
+    },
+    {
+        "code": "01107",
+        "flavor": "Rhino is breaking things and taking them!",
+        "name": "Breakin' & Takin'",
+        "text": "<b>When Revealed</b>: Place an additional 1 [per_hero] threat here.\n<i>(Hazard Icon: Deal +1 encounter card during the villain phase.)</i>"
+    },
+    {
+        "code": "01108",
+        "flavor": "Panicked civilians crowd the area. It is difficult to confront Rhino without putting them at risk. Get the people to safety!",
+        "name": "Crowd Control",
+        "text": "<i>(Crisis Icon: While this scheme is in play, you cannot remove threat from the main scheme.)</i>"
+    },
+    {
+        "code": "01109",
+        "flavor": "Reports are out that Hydra agents have planted a bomb in a nearby hotel.",
+        "name": "Bomb Scare",
+        "text": "<b>When Revealed</b>: Place an additional 1 [per_hero] threat here.\n<i>(Acceleration Icon: Place +1 threat on the main scheme at the start of the villain phase.)</i>"
+    },
+    {
+        "code": "01110",
+        "flavor": "\"I know that if you cut off one head, two more will take its place. But what if it blows up instead!\" -- She-Hulk",
+        "name": "Hydra Bomber",
+        "text": "<b>When Revealed</b>: Choose to either take 2 damage or place 1 threat on the main scheme.",
+        "traits": "Hydra."
+    },
+    {
+        "code": "01111",
+        "name": "Explosion",
+        "text": "<b>When Revealed</b>: If Bomb Scare is in play, assign X damage among heroes and allies, where X is the amount of threat on Bomb Scare. If Bomb Scare is not in play, this card gains surge."
+    },
+    {
+        "code": "01112",
+        "flavor": "\"Nothing to see here people!\" -- Iron Man",
+        "name": "False Alarm",
+        "text": "<b>When Revealed</b>: You are confused. If you are already confused, this card gains surge."
+    },
+    {
+        "code": "01113",
+        "flavor": "\"Come meet your doom!\"",
+        "name": "Klaw",
+        "traits": "Masters of Evil.",
+        "attack_text": "<b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation."
+    },
+    {
+        "code": "01114",
+        "name": "Klaw",
+        "text": "<b>When Revealed</b>: Search the encounter deck and discard pile for The \"Immortal\" Klaw and reveal it. Shuffle the encounter deck.",
+        "traits": "Masters of Evil.",
+        "attack_text": "<b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation."
+    },
+    {
+        "code": "01115",
+        "name": "Klaw",
+        "text": "Toughness. <i>(This character enters play with a tough status card.)</i>",
+        "traits": "Masters of Evil.",
+        "attack_text": "<b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation."
+    },
+    {
+        "code": "01116",
+        "flavor": "Your investigation reveals that the criminal enterprise is operated by Klaw, an old rival of the Avengers!",
+        "name": "Underground Distribution",
+        "text": "<b>When Revealed</b>: Discard cards from the encounter deck until a minion is discarded. Put that minion into play engaged with the first player.",
+        "back_text": "<b>Contents: Klaw (I) and Klaw (II). <i>(Klaw (II) and Klaw (III) instead for expert mode.)</i> Klaw and Standard encounter sets. One modular encounter set <i>(recommended: Masters of Evil)</i>\n<b>Setup</b>: Search the encounter deck for the Defense Network side scheme and reveal it. Shuffle the encounter deck. Advance to stage 1B.",
+        "back_flavor": "The attack on the S.H.I.E.L.D. facility has been linked to an underground weapons network."
+    },
+    {
+        "code": "01117",
+        "flavor": "Klaw is meeting with the Crimson Cowl. Klaw and the mysterious figure dart into the shadows when you confront them, and Klaw's minions move to cover their escape.",
+        "name": "Secret Rendezvous",
+        "text": "<b>If this stage is completed, the players lose the game.</b>",
+        "back_text": "<b>When Revealed</b>: Discard cards from the encounter deck until a minion is discarded. Put that minion into play engaged with the first player. Advance to stage 2B",
+        "back_flavor": "Klaw has found a buyer for his illegal weapons. It's up to you to stop the sale but the meeting is surrounded by Klaw's cronies."
+    },
+    {
+        "code": "01118",
+        "name": "Sonic Converter",
+        "text": "Attach to Klaw.\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
+        "traits": "Weapon.",
+        "attack_text": "<b>Forced Response</b>: After Klaw attacks and damages a character, stun that character."
+    },
+    {
+        "code": "01119",
+        "name": "Solid-Sound Body",
+        "text": "Attach to Klaw.\nKlaw gains retaliate 1. <i>(After this character is attacked, deal 1 damage to the attacking character.)</i>\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
+        "traits": "Condition."
+    },
+    {
+        "code": "01120",
+        "name": "Armored Guard",
+        "text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>\nToughness. <i>(This character enters play with a tough status card.)</i>",
+        "traits": "Mercenary."
+    },
+    {
+        "code": "01121",
+        "name": "Weapons Runner",
+        "text": "Surge. <i>(After this card is revealed, reveal 1 additional encounter card.)</i>",
+        "traits": "Mercenary.",
+        "boost_text": "Put Weapons Runner into play engaged with you."
+    },
+    {
+        "code": "01122",
+        "name": "Klaw's Vengeance",
+        "text": "<b>When Revealed (Alter-Ego)</b>: Discard 1 card at random from your hand.\n<b>When Revealed (Hero)</b>: Klaw attacks you. If this attack does damage, place 1 threat on the main scheme."
+    },
+    {
+        "code": "01123",
+        "name": "Sonic Boom",
+        "text": "<b>When Revealed</b>: Either spend [energy] [mental] [physical] or exhaust each character you control.",
+        "boost_text": "If this activation deals damage to you, exhaust your hero."
+    },
+    {
+        "code": "01124",
+        "name": "Sound Manipulation",
+        "text": "<b>When Revealed (Alter-Ego)</b>: Klaw heals 4 damage. If no damage was healed this way, this card gains surge.\n<b>When Revealed (Hero)</b>: Take 2 damage. Klaw heals 2 damage."
+    },
+    {
+        "code": "01125",
+        "flavor": "Klaw's criminal enterprise is protected by a gang of hired thugs.",
+        "name": "Defense Network",
+        "text": "<b>When Revealed</b>: Place an additional 1 [per_hero] threat here."
+    },
+    {
+        "code": "01126",
+        "flavor": "Klaw is supplying villains with advanced weaponry from a clandestine arms facility.",
+        "name": "Illegal Arms Factory",
+        "text": "<b>When Revealed</b>: Place an additional 1 [per_hero] threat here."
+    },
+    {
+        "code": "01127",
+        "flavor": "Klaw's mastery of sound allows him to restore his solid form through sheer power of will.",
+        "name": "The \"Immortal\" Klaw",
+        "text": "Klaw gets +10 hit points. <i>(When this scheme is defeated, Klaw loses those hit points.)</i>"
+    },
+    {
+        "code": "01128",
+        "flavor": "The Masters of Evil have arrived to attack the heroes!",
+        "name": "The Masters of Evil",
+        "text": "<b>When Revealed</b>: Discard cards from the encounter deck until a [[Masters of Evil]] minion is discarded. Put that minion into play engaged with the first player."
+    },
+    {
+        "code": "01129",
+        "name": "Radioactive Man",
+        "traits": "Elite. Masters of Evil.",
+        "attack_text": "<b>Forced Response</b>: After Radioactive Man attacks you, discard 1 card at random from your hand.",
+        "boost_text": "Discard 1 card at random from your hand."
+    },
+    {
+        "code": "01130",
+        "name": "Whirlwind",
+        "traits": "Masters of Evil.",
+        "attack_text": "<b>Forced Interrupt</b>: When Whirlwind attacks you, also resolve his attack against each other hero.",
+        "boost_text": "Deal 1 damage to each hero."
+    },
+    {
+        "code": "01131",
+        "name": "Tiger Shark",
+        "traits": "Masters of Evil.",
+        "attack_text": "<b>Forced Response</b>: After Tiger Shark attacks, give him a tough status card.",
+        "boost_text": "Give the villain a tough status card."
+    },
+    {
+        "code": "01132",
+        "name": "Melter",
+        "traits": "Masters of Evil.",
+        "attack_text": "The engaged player must defend against Melter's attacks with an ally they control, if able.",
+        "boost_text": "Exhaust each ally you control."
+    },
+    {
+        "code": "01133",
+        "name": "Masters of Mayhem",
+        "text": "<b>When Revealed</b>: Each [[Masters of Evil]] minion attacks the hero it is engaged with. If no attacks were made this way, search the encounter deck and discard pile for a [[Masters of Evil]] minion and put it into play engaged with you, the shuffle the encounter deck."
+    },
+    {
+        "code": "01134",
+        "name": "Ultron",
+        "traits": "Android.",
+        "attack_text": "<b>Forced Response</b>: After Ultron attacks you, choose to either place 1 threat on the main scheme or put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion."
+    },
+    {
+        "code": "01135",
+        "name": "Ultron",
+        "traits": "Android.",
+        "attack_text": "<b>Forced Interrupt</b>: When Ultron attacks you, put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion. Until the end of his attack, Ultron gets +1 ATK for each [[Drone]] minion engaged with you."
+    },
+    {
+        "code": "01136",
+        "name": "Ultron",
+        "text": "Each [[Drone]] minion gets +1 ATK and +1 hit point. Ultron cannot take damage while a [[Drone]] minion is in play.\n<b>When Revealed</b>: Search the encounter deck and discard pile for the Ultron's Imperative side scheme and reveal it. Then shuffle the encounter deck.",
+        "traits": "Android."
+    },
+    {
+        "code": "01137",
+        "flavor": "Ultron is using the components Klaw delivered in order to build an army of Ultron drones.",
+        "name": "The Crimson Cowl",
+        "text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
+        "back_text": "<b>Contents</b>: Ultron (I) and Ultron (II). <i>(Ultron (II) and Ultron (III) instead for expert mode.)</i> Ultron and Standard encounter sets. One modular encounter set <i>(recommended: Under Attack).</i>\n<b>Setup</b>: Put the Ultron Drones environment into play. Shuffle the encounter deck. Advanced to stage 1B.",
+        "back_flavor": "Klaw's mysterious, red-hooded employer is really the genocidal android Ultron."
+    },
+    {
+        "code": "01138",
+        "flavor": "If Ultron gains control of NORAD, he will have access to the United States' ballistic missile command!",
+        "name": "Assault on NORAD",
+        "text": "<b>Forced Response</b>: After placing threat here during step one of the villain phase, each player must choose to either place 2 threat here or put the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
+        "back_text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion. Advance to stage 2B.",
+        "back_flavor": "As you pursue Ultron, you receive a distress call from the North American Aerospace Defense Command in Colorado. They are besieged by an army of Ultron drones!",
+        "boost_text": null
+    },
+    {
+        "code": "01139",
+        "flavor": "It's up to you to save the world from nuclear armageddon!",
+        "name": "Countdown to Oblivion",
+        "text": "Threat cannot be removed from this scheme.\n<b>If this stage is completed, the players lose the game</b>",
+        "back_text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion. Advance to stage 3B.",
+        "back_flavor": "Ultron has seized control of NORAD. It's only a matter of time before he overcomes the command safeguards and launches the nuclear arsenal."
+    },
+    {
+        "code": "01140",
+        "name": "Ultron Drones",
+        "text": "Each facedown [[Drone]] minion engaged with a player has a base SCH of 1, a base ATK of 1, and a base hit points of 1.\n<b>Forced Response</b>: After a facedown [[Drone]] minion is defeated, place that card in it's owners discard pile."
+    },
+    {
+        "code": "01141",
+        "name": "Program Transmitter",
+        "text": "Attach to Ultron.\n<b>Hero Action</b>: Exhaust your hero and spend [mental] [mental] resources → discard this card.",
+        "traits": "Item. Tech.",
+        "scheme_text": "<b>Forced Response</b>: After Ultron schemes, place 1 threat on each side scheme."
+    },
+    {
+        "code": "01142",
+        "name": "Upgraded Drones",
+        "text": "Attach to the Ultron Drones environment.\nEach facedown [[Drone]] minion gets +1 ATK and +1 hit point.\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
+        "traits": "Condition."
+    },
+    {
+        "code": "01143",
+        "name": "Advanced Ultron Drone",
+        "text": "Guard.\n<b>Forced Interrupt</b>: When Advanced Ultron Drone is defeated, the engaged player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
+        "traits": "Drone."
+    },
+    {
+        "code": "01144a",
+        "name": "Android Efficiency",
+        "text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
+        "boost_text": "Choose to either spend a [energy] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion."
+    },
+    {
+        "code": "01144b",
+        "name": "Android Efficiency",
+        "text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
+        "boost_text": "Choose to either spend a [mental] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion."
+    },
+    {
+        "code": "01144c",
+        "name": "Android Efficiency",
+        "text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
+        "boost_text": "Choose to either spend a [physical] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion."
+    },
+    {
+        "code": "01145",
+        "name": "Rage of Ultron",
+        "text": "<b>When Revealed (Alter-Ego)</b>: Ultron schemes. Discard the top card of your deck for each threat placed this way.\n<b>When Revealed (Hero)</b>: Ultron attacks you. Discard the top card of your deck for each damage dealt by this attack."
+    },
+    {
+        "code": "01146",
+        "name": "Repair Sequence",
+        "text": "<b>When Revealed</b>: Ultron heals 2 damage for each [[Drone]] minion engaged with you. If no damage was healed this way, this card gains surge.",
+        "boost_text": "Ultron heals 1 damage for each [[Drone]] minion engaged with you."
+    },
+    {
+        "code": "01147",
+        "name": "Swarm Attack",
+        "text": "<b>When Revealed</b>: Each [[Drone]] minion engaged with your hero attacks. If no attack was made this way, put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion."
+    },
+    {
+        "code": "01148",
+        "name": "Drone Factory",
+        "text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion. Place 1 threat here for each [[Drone]] minion in play."
+    },
+    {
+        "code": "01149",
+        "flavor": "Ultron is hacking wireless networks around the world to create a global crisis.",
+        "name": "Invasive AI",
+        "text": "<b>When Revealed</b>: Each player discards the top 3 cards of their deck."
+    },
+    {
+        "code": "01150",
+        "flavor": "Ultron directs his drone army through hive circuitry.",
+        "name": "Ultron's Imperative",
+        "text": "<b>When Revealed</b>: The first player puts the top 2 cards of their deck into play facedown, engaged with them as [[Drone]] minions."
+    },
+    {
+        "code": "01151",
+        "flavor": "Civilians are under attack. They need your help fast!",
+        "name": "Under Attack",
+        "text": "<b>When Revealed</b>: Each player chooses to either place 2 threat here or deal 3 damage to their hero."
+    },
+    {
+        "code": "01152",
+        "name": "Vibranium Armor",
+        "text": "Attach to the villain.\n<b>Forced Response</b>: After the villain take damage, give it a tough status card.\n<b>Hero Action</b>: Exhaust your hero and spend [physical] [physical] resources → discard this card.",
+        "traits": "Armor."
+    },
+    {
+        "code": "01153",
+        "name": "Concussion Blasters",
+        "text": "Attach to the villain.\nThe villain gains retaliate 1.\n<b>Hero Action</b>: Exhaust your hero and spend [energy] [energy] resources → discard this card.",
+        "traits": "Weapon."
+    },
+    {
+        "code": "01154",
+        "name": "Concussive Blast",
+        "text": "<b>When Revealed</b>: Deal 1 damage to each friendly character.",
+        "boost_text": "Deal 1 damage to each character you control."
+    },
+    {
+        "code": "01155",
+        "name": "Affairs of State",
+        "text": "<b><i>Give to the T'Challa player.</i></b>\nYou may flip to your alter-ego form. Choose:\n- Exhaust T'Challa → remove Affairs of State from the game.\n- Choose and discard a [[Black Panther]] upgrade you control. Discard this obligation."
+    },
+    {
+        "code": "01156",
+        "flavor": "The renegade, Killmonger, is leading a coup to seize control of Wakanda.",
+        "name": "Usurp The Throne"
+    },
+    {
+        "code": "01157",
+        "flavor": "\"That should be me on the throne!\"",
+        "name": "Killmonger",
+        "text": "Killmonger cannot take damage from [[Black Panther]] upgrades.",
+        "traits": "Assassin. Elite. Mercenary."
+    },
+    {
+        "code": "01158",
+        "name": "Heart-Shaped Herb",
+        "text": "Surge <i>(After this card resolves, reveal 1 additional encounter card)</i>\n<b>When Revealed</b>: Give the villain and each minion engaged with you a tough status card.",
+        "boost_text": "Give the villain a tough status card."
+    },
+    {
+        "code": "01159",
+        "name": "Ritual Combat",
+        "text": "<b>When Revealed</b>: Discard the top card of the encounter deck. Then, choose to either deal X damage to your hero or place X threat on the main scheme. X is 1 more than the number of boost icons on the discarded encounter card."
+    },
+    {
+        "code": "01160",
+        "name": "Legal Work",
+        "text": "<b><i>Give to the Jennifer Walters player.</i></b>\nYou may flip to your alter-ego form. Choose:\n- Exhaust Jennifer Walters → remove Legal Work from the game.\n- Give the main scheme 1 acceleration token. Discard this obligation."
+    },
+    {
+        "code": "01161",
+        "flavor": "Titania had held a grudge against She-Hulk for years. She won't rest until she settles the score.",
+        "name": "Personal Challenge",
+        "text": "<b>When Revealed</b>: Place an additional 1 [per_hero] threat here."
+    },
+    {
+        "code": "01162",
+        "flavor": "\"Face it, Greenie. There's only room for one strongest woman... and it ain't you!\"",
+        "name": "Titania",
+        "text": "X is equal to Titania's remaining hit points.",
+        "traits": "Brute. Elite."
+    },
+    {
+        "code": "01163",
+        "name": "Genetically Enhanced",
+        "text": "Attach to the minion with the highest printed hit points. If there are no minions in play, this card gains surge.\nAttached minion gets +3 hit points.",
+        "traits": "Condition."
+    },
+    {
+        "code": "01164",
+        "name": "Titania's Fury",
+        "text": "<b>When Revealed</b>: Titania attacks your hero. If Titania did not attack, heal all damage from Titania and this card gains surge.",
+        "boost_text": "Give the villain 1 additional boost card for this activation."
+    },
+    {
+        "code": "01165",
+        "name": "Eviction Notice",
+        "text": "<b><i>Give to the Peter Parker player.</i></b>\nYou may flip to your alter-ego form. Choose:\n- Exhaust Peter Parker → remove Eviction Notice from the game.\n- Discard 1 card at random from your hand. This card gains surge. Discard this obligation."
+    },
+    {
+        "code": "01166",
+        "name": "Highway Robbery",
+        "text": "<b>When Revealed</b>: Each player places a random card from their hand facedown here.\n<b>When Defeated</b>: Return each facedown card here to its owner's hand."
+    },
+    {
+        "code": "01167",
+        "flavor": "\"I'm faster, strong, and smarter than a hundred men my age!\"",
+        "name": "Vulture",
+        "text": "Quickstrike. <i>(After this minion engages your hero, it attacks.)</i>",
+        "traits": "Criminal."
+    },
+    {
+        "code": "01168",
+        "name": "Sweeping Swoop",
+        "text": "<b>When Revealed</b>: Stun your hero. If Vulture is in play, this card gains surge.",
+        "boost_text": "If this activation deals damage to a friendly character, stun that character."
+    },
+    {
+        "code": "01169",
+        "flavor": "\"Spider-Man will pay for interfering with my plans!\" -- The Vulture",
+        "name": "The Vulture's Plans",
+        "text": "<b>When Revealed</b>: Discard 1 card at random from each player's hand. Place 1 threat on the main scheme for each different resource type discarded this way."
+    },
+    {
+        "code": "01170",
+        "name": "Business Problems",
+        "text": "<b><i>Give to the Tony Stark player.</i></b>\nYou may flip to your alter-ego form. Choose:\n- Exhaust Tony Stark → remove Business Problems from the game.\n- Exhaust each upgrade you control. Discard this obligation."
+    },
+    {
+        "code": "01171",
+        "flavor": "Whiplash has seized control of a power plant, threatening to overload the transformers if his demands are not met.",
+        "name": "Imminent Overload",
+        "text": "<b>When Revealed</b>: Place an additional 1 [per_hero] threat here."
+    },
+    {
+        "code": "01172",
+        "flavor": "\"You started this, Tony. I will finish it.\"",
+        "name": "Whiplash",
+        "text": "Retaliate 1 <i>(After this character is attacked, deal 1 damage to the attacking character.)</i>"
+    },
+    {
+        "code": "01173",
+        "name": "Electric Whip Attack",
+        "text": "<b>When Revealed</b>: Choose to either deal 1 damage to your hero for each upgrade you control or choose and discard an upgrade you control.",
+        "boost_text": "If the villain is making an undefended attack, choose and discard an upgrade you control."
+    },
+    {
+        "code": "01174",
+        "flavor": "Five, four, three, two...",
+        "name": "Electromagnetic Backlash",
+        "text": "<b>When Revealed</b>: Each player discards the top 5 cards of their deck. For each printed [energy] resource a player discards this way, that player takes 1 damage."
+    },
+    {
+        "code": "01175",
+        "name": "Family Emergency",
+        "text": "<b><i>Give to the Carol Danvers player.</i></b>\nYou may flip to your alter-ego form. Choose:\n- Exhaust Carol Danvers → remove Family Emergency from the game.\n- You are stunned. This card gains surge. Discard this obligation."
+    },
+    {
+        "code": "01176",
+        "flavor": "The Psych-Magnitron is a Kree device with the power to turn thoughts into reality. In the hands of Yon-Rogg, it would be a devastating weapon.",
+        "name": "The Psych-Magnitron",
+        "text": "<b>When Revealed</b>: Place an additional 1 [per_hero] threat here."
+    },
+    {
+        "code": "01177",
+        "flavor": "\"It isn't real power unless they fear you\"",
+        "name": "Yon-Rogg",
+        "attack_text": "<b>Forced Response/b>: After Yon-Rogg attacks, place 1 threat on The Psych-Magnitron."
+    },
+    {
+        "code": "01178",
+        "name": "Kree Manipulator",
+        "text": "Surge. <i>(After this card resolves, reveal 1 additional encounter card.)</i>\n<b>When Revealed</b>: Place 1 threat on the main scheme.",
+        "boost_text": "If the villain is making an undefended attack, place 1 threat on the main scheme."
+    },
+    {
+        "code": "01179",
+        "flavor": "\"This world now belongs to the Kree empire!\" -- Yon-Rogg",
+        "name": "Yon-Rogg's Treason",
+        "text": "<b>When Revealed</b>: Discard each [energy] resource from your hand. If you discarded no cards this way, this card gains surge."
+    },
+    {
+        "code": "01180",
+        "name": "Legions of Hydra",
+        "text": "<b>When Revealed</b>: If Madame Hydra is not in play, search the encounter deck and discard pile for Madame Hydra and put her into play engaged with you, then shuffle the encounter deck. Place 2 additional threat here for each [[Hydra]] enemy in play."
+    },
+    {
+        "code": "01181",
+        "name": "Madame Hydra",
+        "text": "Madame Hydra cannot take damage while the Legions of Hydra side scheme is in play.",
+        "traits": "Elite. Hydra.",
+        "attack_text": "<b>Forced Response</b>: After Madame Hydra schemes or attacks, place 2 threat on the Legions of Hydra side scheme.",
+        "scheme_text": "<b>Forced Response</b>: After Madame Hydra schemes or attacks, place 2 threat on the Legions of Hydra side scheme."
+    },
+    {
+        "code": "01182",
+        "name": "Hydra Soldier",
+        "text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>\n<b>When Defeated</b>: Deal the engaged player an encounter card.",
+        "traits": "Hydra."
+    },
+    {
+        "code": "01183",
+        "name": "The Doomsday Chair",
+        "text": "<b>When Revealed</b>: If MODOK is not in play, search the encounter deck and discard pile for MODOK and put him into play engaged with you, then shuffle the encounter deck."
+    },
+    {
+        "code": "01184",
+        "flavor": "\"You should have stayed hidden under the rock you crawled out from!\"",
+        "name": "MODOK",
+        "text": "Retaliate 2. <i>(After this character is attacked, deal 2 damage to the attacking character.)</i>",
+        "traits": "Cyborg. Elite."
+    },
+    {
+        "code": "01185",
+        "name": "Biomechanical Upgrades",
+        "text": "Surge.\nAttach to the minion with the highest printed hit points and without another Biomechanical Upgrades attachment.\n<b>Forced Interrupt</b>: When attached minion would be defeated, heal all damage from it instead, this discard this card.",
+        "traits": "Tech."
+    },
+    {
+        "code": "01186",
+        "flavor": "\"The world will be mine!\" -- Red Skull",
+        "name": "Advance",
+        "text": "<b>When Revealed</b>: The villain schemes."
+    },
+    {
+        "code": "01187",
+        "flavor": "\"Die!\" -- Venom",
+        "name": "Assault",
+        "text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: The villain attacks you."
+    },
+    {
+        "code": "01188",
+        "name": "Caught Off Guard",
+        "text": "<b>When Revealed</b>: Discard an upgrade or support you control. If no cards were discarded this way, this card gains surge."
+    },
+    {
+        "code": "01189",
+        "name": "Gang-Up",
+        "text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: The villain and each minion engaged with you attacks you."
+    },
+    {
+        "code": "01190",
+        "name": "Shadow of the Past",
+        "text": "<b>When Revealed</b>: Reveal your set-aside nemesis minion and put it into play engaged with you. Reveal your set-aside nemesis side scheme and put it into play. Shuffle the rest of your set-aside nemesis encounter set into the encounter deck. If your nemesis minion does not enter the game this way, this card gains surge."
+    },
+    {
+        "code": "01191",
+        "name": "Exhaustion",
+        "text": "Surge.\n<b>When Revealed</b>: Exhaust your identity card."
+    },
+    {
+        "code": "01192",
+        "name": "Masterplan",
+        "text": "<b>When Revealed</b>: Place 4 threat on each side scheme. If there are no side schemes in play, discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that side scheme."
+    },
+    {
+        "code": "01193",
+        "flavor": "\"But wait, there's more\" --Klaw",
+        "name": "Under Fire",
+        "text": "Surge.\n<b>When Revealed</b>: Reveal the top card of the encounter deck."
+    }
+]

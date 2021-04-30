@@ -1,0 +1,143 @@
+[
+    {
+        "code": "15001a",
+        "name": "Scarlet Witch",
+        "text": "<i>Chaos Control</i> - <b>Interrupt:</b> When boost icons on an encounter card would be counted, discard the top card of the encounter deck and count the number of boost icons on that card instead. (Limit once per phase.)",
+        "traits": "Avenger. Mystic."
+    },
+    {
+        "code": "15001b",
+        "name": "Wanda Maximoff",
+        "text": "<i>Superpowered Siblings</i> - <b>Action:</b> Discard 2 cards from your hand → draw 2 cards (draw 3 cards instead if Pietro Maximoff is in play). (Limit once per round.)",
+        "traits": "Mystic."
+    },
+    {
+        "code": "15002",
+        "flavor": "\"I've warned you never to threaten my sister!\"",
+        "name": "Quicksilver",
+        "text": "<b>Action:</b> Ready Quicksilver. (Limit once per phase.)",
+        "traits": "Avenger.",
+        "subname": "Pietro Maximoff"
+    },
+    {
+        "code": "15003",
+        "flavor": "\"I will shape the world as I see fit.\" - Scarlet Witch",
+        "name": "Chaos Magic",
+        "text": "<b>Hero Action:</b> Play a card from your hand, ignoring its resource cost. Discard cards from the top of the encounter deck equal to that card's printed resource cost.",
+        "traits": "Spell. Superpower."
+    },
+    {
+        "code": "15004",
+        "name": "Hex Bolt",
+        "text": "<b>Hero Action</b>: Discard the top 3 cards of the encounter deck. For each card discarded this way that has boost icons equal to:\n- 0, deal 2 damage to an enemy.\n- 1, remove 2 threat from a scheme.\n- 2, draw 1 card.\n- 3+, place a status card on a character.",
+        "traits": "Spell. Superpower."
+    },
+    {
+        "code": "15005",
+        "flavor": "\"There is no defense against the Scarlet Witch!\"",
+        "name": "Molecular Decay",
+        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 5 damage to an enemy and discard the top 2 cards of the encounter deck. For each boost icon discarded this way, deal 1 additional damage to that enemy.",
+        "traits": "Attack. Spell."
+    },
+    {
+        "code": "15006",
+        "name": "Warp Reality",
+        "text": "<b>Hero Interrupt:</b> When an encounter card is revealed from the encounter deck, cancel all of its effects and discard it. Discard cards from the top of the encounter deck equal to the number of boost icons on that card.",
+        "traits": "Spell. Superpower."
+    },
+    {
+        "code": "15007",
+        "flavor": "\"Don't let your anger get the best of you, Wanda.\"",
+        "name": "Agatha Harkness",
+        "text": "<b>Alter-Ego Action:</b> Exhaust Agatha Harkness → look at the top 3 cards of your deck. Add 1 of those to your hand and place the rest on the bottom of your deck in any order.",
+        "traits": "Persona."
+    },
+    {
+        "code": "15008",
+        "name": "Magic Shield",
+        "text": "<b>Hero Interrupt:</b> When a friendly character would take any amount of damage, discard Magic Shield → prevent 3 of that damage.",
+        "traits": "Spell."
+    },
+    {
+        "code": "15009",
+        "name": "Scarlet Witch's Crest",
+        "text": "<b>Interrupt:</b> When boost icons on an encounter card are counted, exhaust Scarlet Witch's Crest → increase or decrease the number of boost icons on that card by 1 for this count.",
+        "traits": "Item."
+    },
+    {
+        "code": "15010",
+        "flavor": "\"Hey! Geriatrics! Let's get a move on. The Avengers need us!\"",
+        "name": "Speed",
+        "text": "<b>Response</b>: After Speed thwarts, ready him. (Limit once per round.)",
+        "traits": "Avenger.",
+        "subname": "Thomas Shepherd"
+    },
+    {
+        "code": "15011",
+        "flavor": "\"I'm the child of a witch and an android. I'm their wish come true.\"",
+        "name": "Wiccan",
+        "text": "<b>Response:</b> After Wiccan thwarts, discard the top card of the encounter deck. For each boost icon discarded this way, deal 1 damage to an enemy.",
+        "traits": "Avenger.",
+        "subname": "William Kaplan"
+    },
+    {
+        "code": "15012",
+        "name": "Crisis Averted",
+        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 6 threat from the main scheme. If you paid for this card using a [mental] resource, this thwart ignores the crisis icon ([crisis]).",
+        "traits": "Thwart."
+    },
+    {
+        "code": "15013",
+        "flavor": "\"A hero isn't the one who always wins. They're the one who always tries.\" - Spider-Man",
+        "name": "Multitasking",
+        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from a scheme. If you paid for this card using a [mental] resource, remove 2 threat from a different scheme.",
+        "traits": "Thwart."
+    },
+    {
+        "code": "15014",
+        "flavor": "\"Return what you've taken and I'll let you go. This time. But next time, you won't be so lucky. And I won't be so kind.\" - Moon Knight",
+        "name": "Swift Retribution",
+        "text": "<b>Hero Action</b> <i>(attack)</i>: The villain schemes. Deal 4 damage to the villain.",
+        "traits": "Attack."
+    },
+    {
+        "code": "15015",
+        "flavor": "\"Back, you rabble!\" - Scarlet Witch",
+        "name": "Turn the Tide",
+        "text": "<b>Response</b> <i>(attack)</i>: After your hero thwarts and removes all threat from a scheme, deal 3 damage to an enemy.",
+        "traits": "Attack."
+    },
+    {
+        "code": "15019",
+        "flavor": "\"Every spell, every sigil, every manipulation... you must keep a close eye on everything so it doesn't backfire.\"",
+        "name": "Spiritual Meditation",
+        "text": "Play only if your identity has the [[Mystic]] trait.\n<b>Action</b>: Draw 2 cards. Choose and discard 1 card from your hand.",
+        "traits": "Spell."
+    },
+    {
+        "code": "15028",
+        "name": "Browbeat",
+        "text": "Play only if your identity has the [[Avenger]] trait.\n<b>Hero Action</b> <i>(attack)</i>: Deal 2 damage to the villain. Deal X additional damage to the villain (to a maximum of 3), where X is equal to the villain's stage number.",
+        "traits": "Attack."
+    },
+    {
+        "code": "15029",
+        "flavor": "\"Heed, great fiend! Thou shalt not defeat me easily!\" - Lady Sif",
+        "name": "Last Stand",
+        "text": "<b>Hero Interrupt</b>: When an ally you control attacks, it gets +3 ATK for that attack. After that attack resolves, discard that ally.",
+        "traits": "Tactic."
+    },
+    {
+        "code": "15030",
+        "flavor": "\"You didn't really think I'd let you get away with that, did you?\" - Spider-Man",
+        "name": "Bait and Switch",
+        "text": "<b>Hero Action</b> <i>(thwart)</i>: The villain attacks you. Remove 4 threat from the main scheme.",
+        "traits": "Thwart."
+    },
+    {
+        "code": "15031",
+        "flavor": "\"You look to be feeling better.\" - Stephen Strange",
+        "name": "Recuperation",
+        "text": "<b>Alter-Ego Action</b>: Heal damage from your alter-ego equal to your REC."
+    }
+]
