@@ -1,624 +1,624 @@
 [
-    {
-        "code": "01094",
-        "flavor": "\"Ich bin Rhino. Ich hau Sachen kaputt. Das ist mein Ding. Das bin ich.\"",
-        "name": "Rhino",
-        "traits": "Krimineller. Schläger."
-    },
-    {
-        "code": "01095",
-        "flavor": "\"Aus dem Weg!\"",
-        "name": "Rhino",
-        "text": "<b>Sobald aufgedeckt</b>: Durchsuche das Begegnungsdeck und den Ablagestapel nach dem Nebenplan Hauen & Klauen und decke ihn auf. Mische das Begegnungsdeck.",
-        "traits": "Krimineller. Schläger."
-    },
-    {
-        "code": "01096",
-        "flavor": "\"Das habt ihr euch selbst eingebrockt!\"",
-        "name": "Rhino",
-        "text": "Zähigkeit. <i>(Dieser Charakter kommt mit einer Zäh-Statuskarte ins Spiel.)</i>\n<b>Sobald aufgedeckt</b>: Betäube jeden Helden.",
-        "traits": "Krimineller. Schläger."
-    },
-    {
-        "code": "01097",
-        "flavor": "Rhino versucht, die Mauer der Einrichtung zu durchbrechen und eine Lieferung Vibranium zu stehlen. Ihr müsst ihn aufhalten!",
-        "name": "Der Einbruch!",
-        "text": "<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>",
-        "back_text": "<b>Inhalt</b>: Rhino (I) und Rhino (II). (stattdessen Rhino (II) und Rhino (III) im Expertenmodus.) Rhino- und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(empfohlen: Bombendrohung)</i>.\n<b>Spielaufbau</b>: Rücke zu Abschnitt 1B vor.",
-        "back_flavor": "Rhino greift eine S.H.I.E.L.D.-Einrichtung an!"
-    },
-    {
-        "code": "01098",
-        "name": "Gepanzerter Rhino-Anzug",
-        "text": "Hänge diese Karte an Rhino an.\n<b>Erzwungene Unterbrechung</b>: Sobald Rhino eine beliebige Menge an Schaden zugefügt werden würde, platziere den Schaden stattdessen hier. Falls sich dann mindestens 5 Schaden auf dieser Karte befinden, lege Gepanzerter Rhino-Anzug ab.",
-        "traits": "Rüstung."
-    },
-    {
-        "code": "01099",
-        "name": "Sturmangriff",
-        "text": "Hänge diese Karte an Rhino an.",
-        "attack_text": "<b>Erzwungene Unterbrechung</b>: Sobald Rhiono angreift, erhält der Angriff Overkill. <i>(Überschüssiger Schaden dieses Angriffs gegen einen Verbündeten wird dem Spieler zugefügt, der den Verbündeten kontrolliert.)</i> Lege Sturmangriff am Ende dieses Angriffs ab."
-    },
-    {
-        "code": "01100",
-        "name": "Verstärktes Elfenbeinhorn",
-        "text": "Hänge diese Karte an Rhino an.\n<b>Held - Aktion</b>: Gib [physical] [physical] [physical] Ressourcen aus → lege diese Karte ab.",
-        "traits": "Waffe."
-    },
-    {
-        "code": "01101",
-        "flavor": "\"Was hat Hydra hier zu suchen?\" -- Carol Danvers",
-        "name": "Hydra-Söldner",
-        "text": "Wache. <i>(Solange dieser Scherge mit dir im Kampf ist, kannst du den Schurken nicht angreifen.)</i>",
-        "traits": "Hydra."
-    },
-    {
-        "code": "01102",
-        "flavor": "\"Ich will nur bezahlt werden!\"",
-        "name": "Sandman",
-        "text": "Zähigkeit. <i>(Dieser Charakter kommt mit einer Zäh-Statuskarte ins Spiel.)</i>",
-        "traits": "Krimineller. Elite."
-    },
-    {
-        "code": "01103",
-        "flavor": "\"Ich wette, ihr seid schockiert, mich zu sehen!\"",
-        "name": "Shocker",
-        "text": "<b>Sobald aufgedeckt</b>: Füge jedem Helden 1 Schaden zu.",
-        "traits": "Krimineller."
-    },
-    {
-        "code": "01104",
-        "flavor": "\"Du glaubst, du kannst mich aufhalten? Lächerlich, so was!\" -- Rhino",
-        "name": "Schwer am Boden zu halten",
-        "text": "<b>Sobald aufgedeckt</b>: Rhino heilt 4 Schaden. Falls auf diese Weise kein Schaden geheilt wurde, erhält diese Karte Nachrüsten."
-    },
-    {
-        "code": "01105",
-        "flavor": "\"Zeig's mir!\" -- Rhino",
-        "name": "\"Ich bin Zäh!\"",
-        "text": "<b>Sobald aufgedeckt</b>: Gib Rhino eine Zäh-Statuskarte. Falls Rhino bereits eine Zäh-Statuskarte hat, erhält diese Karte Nachrüsten."
-    },
-    {
-        "code": "01106",
-        "name": "Stampede",
-        "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Diese Karte erhält Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Rhino greift dich an. Falls ein Charakter durch diesen Angriff Schaden nimmt, wird der Charakter betäubt."
-    },
-    {
-        "code": "01107",
-        "flavor": "Rhino haut Dinge kaputt und klaut Sachen!",
-        "name": "Hauen & Klauen",
-        "text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung.\n<i>(Gefahrensymbol: Teile in der Schurkenphase +1 Begegnungskarte zu.)</i>"
-    },
-    {
-        "code": "01108",
-        "flavor": "Panische Zivilisten halten sich in der Gegend auf. Es ist schwierig, Rhino anzugreifen, ohne sie in Gefahr zu bringen. Bringt die Menschen in Sicherheit!",
-        "name": "Kontrolle der Menschenmenge",
-        "text": "<i>(Krisensymbol: Solange dieser Plan im Spiel ist, kann vom Hauptplan keine Bedrohung entfernt werden.)</i>"
-    },
-    {
-        "code": "01109",
-        "flavor": "Es wird berichtet, dass Hydra-Agenten in einem nahe gelegenen Hotel eine Bombe gelegt haben.",
-        "name": "Bombendrohung",
-        "text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung.\n<i>(Beschleunigungssymbol: Platziere zu Beginn der Schurkenphase +1 Bedrohung auf dem Hauptplan.)</i>"
-    },
-    {
-        "code": "01110",
-        "flavor": "\"Ich weiß, dass wenn man einen Kopf abschlägt, zwei Köpfe nachwachsen werden. Aber was ist, wenn er stattdessen explodiert?\" -- She-Hulk",
-        "name": "Hydra-Bombenleger",
-        "text": "<b>Sobald aufgedeckt</b>: Wähle: Nimm entweder 2 Schaden oder platziere 1 Bedrohung auf dem Hauptplan.",
-        "traits": "Hydra."
-    },
-    {
-        "code": "01111",
-        "name": "Explosion",
-        "text": "<b>Sobald aufgedeckt</b>: Falls Bombendrohung im Spiel ist, weise X Schaden unter allen Helden und Verbündeten zu, wobei X die Menge an Bedrohung auf Bombendrohung ist. Falls Bombendrohung nicht im Spiel ist, erhält diese Karte Nachrüsten."
-    },
-    {
-        "code": "01112",
-        "flavor": "\"Hier gibt es nichts zu sehen, Leute!\" -- Iron Man",
-        "name": "Falscher Alarm",
-        "text": "<b>Sobald aufgedeckt</b>: Du wirst verwirrt. Falls du bereits verwirrt bist, erhält diese Karte Nachrüsten."
-    },
-    {
-        "code": "01113",
-        "flavor": "\"Kommt und findet euer Verderben!\"",
-        "name": "Klaw",
-        "traits": "Masters of Evil.",
-        "attack_text": "<b>Erzwungene Unterbrechung</b>: Sobald Klaw angreift, gib ihm für diese Aktivierung 1 zusätzliche Boost-Karte."
-    },
-    {
-        "code": "01114",
-        "name": "Klaw",
-        "text": "<b>Sobald aufgedeckt</b>: Durchsuche das Begegnungsdeck und den Ablagestapel nach dem Nebenplan Der \"unsterbliche\" Klaw und decke ihn auf. Mische das Begegnungsdeck.",
-        "traits": "Masters of Evil.",
-        "attack_text": "<b>Erzwungene Unterbrechung</b>: Sobald Klaw angreift, gib ihm für diese Aktivierung 1 zusätzliche Boost-Karte."
-    },
-    {
-        "code": "01115",
-        "name": "Klaw",
-        "text": "Zähigkeit. <i>(Dieser Charakter kommt mit einer Zäh-Statuskarte ins Spiel.)</i>",
-        "traits": "Masters of Evil.",
-        "attack_text": "<b>Erzwungene Unterbrechung</b>: Sobald Klaw angreift, gib ihm für diese Aktivierung 1 zusätzliche Boost-Karte."
-    },
-    {
-        "code": "01116",
-        "flavor": "Eure Nachforschungen haben ergeben, dass das kriminelle Unternehmen von Klaw, einem alten Rivalen der Avengers, geleitet wird.",
-        "name": "Untergrundgeschäfte",
-        "text": "<b>Sobald aufgedeckt</b>: Lege Karten vom Begegnungsdeck ab, bis ein Scherge abgelegt wird. Bringe den Schergen mit dem Startspieler im Kampf ins Spiel.",
-        "back_text": "<b>Inhalt: Klaw (I) und Klaw (II). <i>(stattdessen Klaw (II) und Klaw (III) im Expertenmodus.)</i> Klaw und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(empfohlen: Masters of Evil)</i>\n<b>Spielaufbau</b>: Durchsuche das Begegnungsdeck nach dem Nebenplan Verteidigungsnetzwerk und decke ihn auf. Mische das Begegnungsdeck. Rücke zu Abschnitt 1B vor.",
-        "back_flavor": "Der Angriff auf die S.H.I.E.L.D.-Einrichtung steht in Verbindung mit einem illegalen Waffenschmugglerring."
-    },
-    {
-        "code": "01117",
-        "flavor": "Klaw trifft sich mit Crimson Cowl. Klaw und die mysteriöse Gestalt fliehen in die Dunkelheit, als ihr sie konfrontiert, und Klaws Schergen versuchen, ihre Flucht zu decken.",
-        "name": "Geheimes Treffen",
-        "text": "<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>",
-        "back_text": "<b>Sobald aufgedeckt</b>: Lege Karten vom Begegnungsdeck ab, bis ein Scherge abgelegt wird. Bringe den Schergen mit dem Startspieler im Kampf ins Spiel. Rücke zu Abschnitt 2B vor.",
-        "back_flavor": "Klaw hat einen Käufer für seine illegalen Waffen gefunden. Es liegt an euch, den Verkauf zu stoppen, aber die Übergabe wird von Klaws Handlangern gesichert."
-    },
-    {
-        "code": "01118",
-        "name": "Schallwandler",
-        "text": "Hänge diese Karte an Klaw an.\n<b>Held - Aktion</b>: Gib [energy] [mental] [physical] - Ressourcen aus → lege diese Karte ab.",
-        "traits": "Waffe.",
-        "attack_text": "<b>Erzwungene Reaktion</b>: Nachdem Klaw einen Charakter angegriffen hat und ihm Schaden zugefügt hat, betäube den Charakter."
-    },
-    {
-        "code": "01119",
-        "name": "Fester Schallkörper",
-        "text": "Hänge diese Karte an Klaw an.\nKlaw erhält Vergeltung 1. <i>(Nachdem dieser Charakter angegriffen worden ist, füge dem angreifenden Charakter 1 Schaden zu.)</i>\n<b>Held - Aktion</b>: Gib [energy] [mental] [physical] - Ressourcen aus → lege diese Karte ab.",
-        "traits": "Zustand."
-    },
-    {
-        "code": "01120",
-        "name": "Gepanzerte Wache",
-        "text": "Wache. <i>(Solange dieser Scherge mit dir im Kampf ist, kannst du den Schurken nicht angreifen.)</i>\nZähigkeit. <i>(Dieser Charakter kommt mit einer Zäh-Statuskarte ins Spiel.)</i>",
-        "traits": "Söldner."
-    },
-    {
-        "code": "01121",
-        "name": "Waffenschmuggler",
-        "text": "Nachrüsten. <i>(Nachdem diese Karte aufgedeckt worden ist, decke 1 zusätzliche Begegnungskarte auf.)</i>",
-        "traits": "Söldner.",
-        "boost_text": "Bringe Waffenschmuggler mit dir im Kampf ins Spiel."
-    },
-    {
-        "code": "01122",
-        "name": "Klaws Vergeltung",
-        "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Lege 1 zufällige Karte von deiner Hand ab.\n<b>Sobald aufgedeckt (Held)</b>: Klaw greift dich an. Falls dieser Angriff Schaden zufügt, platziere 1 Bedrohung auf dem Hauptplan."
-    },
-    {
-        "code": "01123",
-        "name": "Donnernde Schallwelle",
-        "text": "<b>Sobald aufgedeckt</b>: Gib entweder [energy] [mental] [physical]-Ressourcen aus oder erschöpfe jeden Charakter unter deiner Kontrolle.",
-        "boost_text": "Falls dir diese Aktivierung Schaden zufügt, erschöpfe deinen Helden."
-    },
-    {
-        "code": "01124",
-        "name": "Geräuschmanipulation",
-        "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Klaw heilt 4 Schaden. Falls auf diese Weise kein Schaden geheilt wurde, erhält diese Karte Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Nimm 2 Schaden. Klaw heilt 2 Schaden."
-    },
-    {
-        "code": "01125",
-        "flavor": "Klaws kriminelles Unternehmen wird durch eine angeheuerte Schlägerbande geschützt.",
-        "name": "Verteidigungsnetzwerk",
-        "text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung."
-    },
-    {
-        "code": "01126",
-        "flavor": "Klaw beliefert Schurken mit hochmodernen Waffen aus einer geheimen Waffenfabrik.",
-        "name": "Illegale Waffenfabrik",
-        "text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung."
-    },
-    {
-        "code": "01127",
-        "flavor": "Klaws Beherrschung des Schalls erlaubt es ihm, seine feste Form durch reine Willenskraft wiederherzustellen.",
-        "name": "Der \"unsterbliche\" Klaw",
-        "text": "Klaw bekommt +10 Lebens-punkte. <i>(Sobald dieser Plan besiegt wird, verliert Klaw diese Lebenspunkte wieder.)</i>"
-    },
-    {
-        "code": "01128",
-        "flavor": "Die Masters of Evil sind aufgetaucht und greifen die Helden an!",
-        "name": "Masters of Evil",
-        "text": "<b>Sobald aufgedeckt</b>: Lege Karten vom Begegnungsdeck ab, bis ein [[Masters of Evil]]-Scherge abgelegt wird. Bringe den Schergen mit dem Startspieler im Kampf ins Spiel."
-    },
-    {
-        "code": "01129",
-        "name": "Radioactive Man",
-        "traits": "Elite. Masters of Evil.",
-        "attack_text": "<b>Erzwungene Reaktion</b>: Nachdem Radioactive Man dich angegriffen hat, lege 1 zufällige Karte von deiner Hand ab.",
-        "boost_text": "Lege 1 zufällige Karte von deiner Hand ab."
-    },
-    {
-        "code": "01130",
-        "name": "Whirlwind",
-        "traits": "Masters of Evil.",
-        "attack_text": "<b>Erzwungene Unterbrechung</b>: Sobald Whirlwind dich angreift, handle seinen Angriff auch gegen jeden anderen Helden ab.",
-        "boost_text": "Füge jedem Helden 1 Schaden zu."
-    },
-    {
-        "code": "01131",
-        "name": "Tiger Shark",
-        "traits": "Masters of Evil.",
-        "attack_text": "<b>Erzwungene Reaktion</b>: Nachdem Tiger Shark angegriffen hat, gib ihm eine Zäh-Statuskarte.",
-        "boost_text": "Gib dem Schurken eine Zäh-Statuskarte."
-    },
-    {
-        "code": "01132",
-        "name": "Melter",
-        "traits": "Masters of Evil.",
-        "attack_text": "Der Spieler, der mit Melter im Kampf ist, muss mit einem Verbündeten unter seiner Kontrolle gegen die Angriffe von Melter verteidigen, falls möglich.",
-        "boost_text": "Erschöpfe jeden Verbündeten unter deiner Kontrolle."
-    },
-    {
-        "code": "01133",
-        "name": "Die Meister des Chaos",
-        "text": "<b>Sobald aufgedeckt</b>: Jeder [[Masters of Evil]]-Scherge greift den Helden an mit dem er im Kampf ist. Falls auf diese Weise keine Angriffe durchgeführt wurden, durchsuche das Begegnungsdeck und den Ablagestapel nach einem [[Masters of Evil]]-Schergen und bringe ihn mit dir im Kampf ins Spiel. Mische dann das Begegnungsdeck."
-    },
-    {
-        "code": "01134",
-        "name": "Ultron",
-        "traits": "Androide.",
-        "attack_text": "<b>Erzwungene Reaktion</b>: Nachdem Ultron dich angegriffen hat, wähle: Platziere entweder 1 Bedrohung auf dem Hauptplan oder bringe die oberste Karte deines Decks verdeckt als [[Drohne]]-Scherge mit dir im Kampf ins Spiel."
-    },
-    {
-        "code": "01135",
-        "name": "Ultron",
-        "traits": "Androide.",
-        "attack_text": "<b>Erzwungene Unterbrechung</b>: Sobald Ultron dich angreift, bringe die oberste Karte deines Decks verdeckt als [[Drohne]]-Scherge mit dir im Kampf ins Spiel. Ultron bekommt bis zum Ende dieses Angriffs +1 ANG für jeden [[Drohne]]-Schergen, der mit dir im Kampf ist."
-    },
-    {
-        "code": "01136",
-        "name": "Ultron",
-        "text": "Jeder [[Drohne]]-Scherge bekommt +1 ANG und +1 Lebenspunkt. Ultron kann keinen Schaden nehmen, solange ein [[Drohne]]-Scherge im Spiel ist.\n<b>Sobald aufgedeckt</b>: Durchsuche das Begegnungsdeck und den Ablagestapel nach dem Nebenplan the Ultrons Befehl und decke ihn auf. Mische das Begegnungsdeck.",
-        "traits": "Androide."
-    },
-    {
-        "code": "01137",
-        "flavor": "Ultron verwendet die von Klaw gelieferten Komponenten, um eine Armee von Ultron-Drohnen zu erschafen.",
-        "name": "Crimson Cowl",
-        "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel.",
-        "back_text": "<b>Inhalt</b>: Ultron (I) und Ultron (II). <i>(stattdessen Ultron (II) und Ultron (III) im Expertenmodus.)</i> Ultron- und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(empfohlen: Unter Beschuss).</i>\n<b>Spielaufbau</b>: Bringe die Umgebung Ultron-Drohnen ins Spiel. Mische das Begegnungsdeck. Rücke zu Abschnitt 1B vor.",
-        "back_flavor": "Klaws mysteriöser Auftraggeber mit der roten Kapuze ist in Wirklichkeit der völkermordende Androide Ultron."
-    },
-    {
-        "code": "01138",
-        "flavor": "Wenn Ultron die Kontrolle über NORAD erlangt, werden ihm die ballistischen Raketen der Vereinigten Staaten zur Verfügung stehen!",
-        "name": "Überfall auf NORAD",
-        "text": "<b>Erzwungene Reaktion</b>: Nachdem im ersten Schritt der Schurkenphase hier Bedrohung platziert worden ist, muss jeder Spieler wählen, ob er entweder hier 2 Bedrohung platziert oder die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel bringt.",
-        "back_text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel. Rücke zu Abschnitt 2B vor.",
-        "back_flavor": "Während ihr Ultron verfolgt, erhaltet ihr einen Notruf vom North American Aerospace Defense Command in Colorado. Sie werden von einer Armee von Ultron-Drohnen belagert!"
-    },
-    {
-        "code": "01139",
-        "flavor": "Es liegt an euch, die Welt vor einem nuklearen Armaggeddon zu retten!",
-        "name": "Countdown bis zur Auslöschung",
-        "text": "Von diesem Plan kann keine Bedrohung entfernt werden.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>",
-        "back_text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel. Rücke zu Abschnitt 3B vor.",
-        "back_flavor": "Ultron hat die Kontrolle über NORAD übernommen. Es ist nur eine Frage der Zeit, bis er die Sicherungsmaßnahmen des Kommandostands überwindet und das Atomwaffenarsenal einsetzt."
-    },
-    {
-        "code": "01140",
-        "name": "Ultron-Drohnen",
-        "text": "Jeder verdeckte [[Drohne]]-Scherge, der mit einem Spieler im Kampf ist, hat einen PLA-Basiswert von 1, einen ANG-Basiswert von 1 und 1 Basis-Lebenspunkt.\n<b>Erzwungene Reaktion</b>: Nachdem ein verdeckter [[Drohne]]-Scherge besiegt worden ist, platziere jene Karte auf dem Ablagestapel ihres Besitzers."
-    },
-    {
-        "code": "01141",
-        "name": "Programm-Transmitter",
-        "text": "Hänge diese Karte an Ultron an.\n<b>Held - Aktion</b>: Erschöpfe deinen Helden und gib [mental] [mental]-Ressourcen aus → lege diese Karte ab.",
-        "traits": "Gegenstand. Tech.",
-        "scheme_text": "<b>Erzwungene Reaktion</b>: Nachdem Ultron den Plan vorangetrieben hat, platziere 1 Bedrohung auf jedem Nebenplan."
-    },
-    {
-        "code": "01142",
-        "name": "Aufgerüstete Drohnen",
-        "text": "Hänge diese Karte an die Umgebung Ultron-Drohnen an..\nJeder verdeckte [[Drohne]]-Scherge bekommt +1 ANG und +1 Lebenspunkt.\n<b>Held - Aktion</b>: Gib [energy] [mental] [physical]-Ressourcen aus → lege diese Karte ab.",
-        "traits": "Zustand."
-    },
-    {
-        "code": "01143",
-        "name": "Verbesserte Ultron-Drohne",
-        "text": "Wache.\n<b>Erzwungene Unterbrechung</b>: Sobald Verbesserte Ultron-Drohne besiegt wird, bringt der Spieler, der mit diesem Gegner im Kampf ist, die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel.",
-        "traits": "Drohne."
-    },
-    {
-        "code": "01144a",
-        "name": "Androideneffizienz",
-        "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel.",
-        "boost_text": "Wähle: Gib entwerder eine [energy]-Ressource aus oder bringe die oberste Karte deines Decks verdeckt als [[Drohne]]-Scherge mit dir im Kampf ins Spiel."
-    },
-    {
-        "code": "01144b",
-        "name": "Androideneffizienz",
-        "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel.",
-        "boost_text": "Wähle: Gib entwerder eine [mental]-Ressource aus oder bringe die oberste Karte deines Decks verdeckt als [[Drohne]]-Scherge mit dir im Kampf ins Spiel."
-    },
-    {
-        "code": "01144c",
-        "name": "Androideneffizienz",
-        "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel.",
-        "boost_text": "Wähle: Gib entwerder eine [physical]-Ressource aus oder bringe die oberste Karte deines Decks verdeckt als [[Drohne]]-Scherge mit dir im Kampf ins Spiel."
-    },
-    {
-        "code": "01145",
-        "name": "Ultrons Zorn",
-        "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Ultron treibt den Plan voran. Lege für jede auf diese Weise platzierte Bedrohung die oberste Karte deines Decks ab.\n<b>Sobald aufgedeckt (Held)</b>: Ultron greift dich an. Lege für jeden durch diesen Angriff zugefügten Schaden die oberste Karte deines Decks ab."
-    },
-    {
-        "code": "01146",
-        "name": "Reperatursequenz",
-        "text": "<b>Sobald aufgedeckt</b>: Ultron heilt 2 Schaden für jeden [[Drohne]]-Schergen, der mit dir im Kampf ist. Falls auf diese Weise kein Schaden geheilt wurde, erhält diese Karte Nachrüsten.",
-        "boost_text": "Ultron heilt 1 Schaden für jeden [[Drohne]]-Schergen, der mit dir im Kampf ist."
-    },
-    {
-        "code": "01147",
-        "name": "Schwarmangriff",
-        "text": "<b>Sobald aufgedeckt</b>: Jeder [[Drohne]]-Scherge im Kampf mit deinem Helden greift an. Falls auf diese Weise keine Angriffe durchgeführt wurden, bringe die oberste Karte deines Decks verdeckt als [[Drohne]]-Scherge mit dir im Kampf ins Spiel."
-    },
-    {
-        "code": "01148",
-        "name": "Drohnenfabrik",
-        "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel. Platziere hier 1 Bedrohung für jeden [[Drohne]]-Schergen im Spiel."
-    },
-    {
-        "code": "01149",
-        "flavor": "Ultron hackt sich in drahtlose Netzwerke auf der ganzen Welt ein, um eine globale Krise auszulösen.",
-        "name": "Invasive KI",
-        "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler legt die obersten 3 Karten seines Decks ab."
-    },
-    {
-        "code": "01150",
-        "flavor": "Ultron steuert seine Drohnenarmee durch eine Hive-Schaltung.",
-        "name": "Ultron's Imperative",
-        "text": "<b>Sobald aufgedeckt</b>: Der Startspieler bringt die obersten 2 Karten seines Decks verdeckt als [[Drohne]]-Schergen mit sich im Kampf ins Spiel."
-    },
-    {
-        "code": "01151",
-        "flavor": "Zivilisten werden angegriffen. Sie brauchen eure Hilfe, und zwar schnell!",
-        "name": "Unter Beschuss",
-        "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler wählt, ob er entweder hier 2 Bedrohung platziert oder seinem Helden 3 Schaden zufügt."
-    },
-    {
-        "code": "01152",
-        "name": "Vibranium Rüstung",
-        "text": "Hänge diese Karte an den Schurken an.\n<b>Erzwungene Reaktion</b>: Nachdem der Schurke Schaden genommen hat, gib ihm eine Zäh-Statuskarte.\n<b>Held - Aktion</b>: Erschöpfe deinen Helden und gib [physical] [physical]-Ressourcen aus → lege diese Karte ab.",
-        "traits": "Rüstung."
-    },
-    {
-        "code": "01153",
-        "name": "Erschütterungsstrahlen",
-        "text": "Hänge diese Karte an den Schurken an.\nDer Schurke erhält Vergeltung 1.\n<b>Held - Aktion</b>: Erschöpfe deinen Helden und gib [energy] [energy]-Ressourcen aus → lege diese Karte ab.",
-        "traits": "Waffe."
-    },
-    {
-        "code": "01154",
-        "name": "Erschütternde Explosion",
-        "text": "<b>Sobald aufgedeckt</b>: Füge jedem befreundeten Charakter 1 Schaden zu.",
-        "boost_text": "Füge jedem Charakter unter deiner Kontrolle 1 Schaden zu."
-    },
-    {
-        "code": "01155",
-        "name": "Staatsgeschäfte",
-        "text": "<b><i>Gib dies dem Spieler von T'Challa.</i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n- Erschöpfe T'Challa → entferne Staatsgeschäfte aus dem Spiel.\n- Wähle ein [[Black Panther]]-Upgrade unter deiner Kontrolle und lege es ab. Lege diese Verpflichtung ab."
-    },
-    {
-        "code": "01156",
-        "flavor": "Der Abtrünnige Killmonger führt einen Putsch an, um die Kontrolle über Wakanda an sich zu reißen.",
-        "name": "Den Thron an sich reissen"
-    },
-    {
-        "code": "01157",
-        "flavor": "\"Ich sollte auf dem Thron sitzen!\"",
-        "name": "Killmonger",
-        "text": "Killmonger kann keinen Schaden durch [[Black Panther]]-Upgrades nehmen.",
-        "traits": "Attentäter. Elite. Söldner."
-    },
-    {
-        "code": "01158",
-        "name": "Herzförmiges Kraut",
-        "text": "Nachrüsten. <i>(Nachdem diese Karte aufgedeckt worden ist, decke eine zusätzliche Begegnungskarte auf.)</i>\n<b>Sobald aufgedeckt</b>: Gib dem Schurken und jedem Schergen der mit dir im Kampf ist eine Zäh-Statuskarte.",
-        "boost_text": "Gib dem Schurken eine Zäh-Statuskarte."
-    },
-    {
-        "code": "01159",
-        "name": "Ritueller Kampf",
-        "text": "<b>Sobald aufgedeckt</b>: Lege die oberste Karte des Begegnungsdecks ab. Dann wähle: Füge deinem Helden entweder X Schaden zu oder platziere X Bedrohung auf dem Hauptplan. X ist 1 plus die Anzahl der Boost-Symbole auf der abgelegten Begegnungskarte."
-    },
-    {
-        "code": "01160",
-        "name": "Anwaltstätigkeit",
-        "text": "<b><i>Gib dies dem Spieler von Jennifer Walters.</i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n- Erschöpfe Jennifer Walters → entferne Anwaltstätigkeit aus dem Spiel.\n- Gib dem Hauptplan 1 Beschleunigungsmarker. Lege diese Verpflichtung ab."
-    },
-    {
-        "code": "01161",
-        "flavor": "Titania hegt seit Jahren einen Groll gegen She-Hulk. Sie wird nicht ruhen, bis sie die Rechnung beglichen hat.",
-        "name": "Persönliche Herausforderung",
-        "text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung."
-    },
-    {
-        "code": "01162",
-        "flavor": "\"Sieh es ein, Greenie. Es kann nur eine stärkste Frau geben ... und das bist nicht du!\"",
-        "name": "Titania",
-        "text": "X entspricht den verbleibenden Lebenspunkten von Titania.\n(She-Hulks Erzfeind-Scherge.)",
-        "traits": "Elite. Schläger."
-    },
-    {
-        "code": "01163",
-        "name": "Genetisch verbessert",
-        "text": "Hänge diese Karte an den Schergen mit den höchsten aufgedruckten Lebenspunkten an. Falls keine Schergen im Spiel sind, erhält diese Karte Nachrüsten.\nDer Scherge mit diesem Anhang bekommt +3 Lebenspunkte.",
-        "traits": "Zustand."
-    },
-    {
-        "code": "01164",
-        "name": "Titanias Wut",
-        "text": "<b>Sobald aufgedeckt</b>: Titania greift deinen Helden an. Falls Titania nicht angegriffen hat, heile allen Schaden von Titania und diese Karte erhält Nachrüsten.",
-        "boost_text": "Gib dem Schurken für diese Aktivierung 1 zusätzliche Boost-Karte."
-    },
-    {
-        "code": "01165",
-        "name": "Räumungsbescheid",
-        "text": "<b><i>Gib dies dem Spieler von Peter Parker.</i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n- Erschöpfe Peter Parker → entferne Räumungsbefehl aus dem Spiel.\n- Lege 1 zufällige Karte von deiner Hand ab. Diese Karte erhält Nachrüsten. Lege diese Verpflichtung ab."
-    },
-    {
-        "code": "01166",
-        "name": "Raub auf offener Strasse",
-        "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler legt eine Zufällige Karte von seiner Hand verdeckt hierher.\n<b>Sobald besiegt</b>: Schicke jede hier liegende verdeckte Karte zurück auf die Hand ihres Besitzers."
-    },
-    {
-        "code": "01167",
-        "flavor": "\"Ich bin schneller, stärker und klüger als hundert Männer meines Alters!\"",
-        "name": "Vulture",
-        "text": "Erstschlag. <i>(Nachdem dieser Scherge deinen Helden in einen Kampf verwickelt hat, greift er an.)</i>\n<i>(Spider-Mans Erzfeind-Scherge.)</i>",
-        "traits": "Krimineller."
-    },
-    {
-        "code": "01168",
-        "name": "Schwungvoller Sturzflug",
-        "text": "<b>Sobald aufgedeckt</b>: Betäube deinen Helden. Falls Vulture im Spiel ist, erhält diese Karte Nachrüsten.",
-        "boost_text": "Falls diese Aktivierung einem befreundeten Charakter Schaden zufügt, betäube den Charakter."
-    },
-    {
-        "code": "01169",
-        "flavor": "\"Spider-Man wird dafür bezahlen, dass er sich in meine Pläne eingemischt hat!\" -- Vulture",
-        "name": "Vultures Pläne",
-        "text": "<b>Sobald aufgedeckt</b>: Lege 1 zufällige Karte von der Hand jedes Spielers ab. Platziere 1 Bedrohung auf dem Hauptplan für jeden unterschiedlichen Ressourcentyp, der auf diese Weise abgelegt wurde."
-    },
-    {
-        "code": "01170",
-        "name": "Geschäftliche Probleme",
-        "text": "<b><i>Gib dies dem Spieler von Tony Stark.</i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n- Erschöpfe Tony Stark → entferne Geschäftliche Probleme aus dem Spiel.\n- Erschöpfe jedes Upgrade unter deiner Kontrolle. Lege diese Verpflichtung ab."
-    },
-    {
-        "code": "01171",
-        "flavor": "Whiplash hat die Kontrolle über ein Kraftwerk übernommen und droht damit, die Transformatoren zu überlasten, wenn seine Forderungen nicht erfüllt werden.",
-        "name": "Bevorstehende Überlastung",
-        "text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung."
-    },
-    {
-        "code": "01172",
-        "flavor": "\"Du hast damit angefangen, Tony. Ich werde es beenden.\"",
-        "name": "Whiplash",
-        "text": "Vergeltung 1 <i>(Nachdem dieser Charakter angegriffen worden ist, füge dem angreifenden Charakter 1 Schaden zu.)</i><i>(Iron Mans Erzfein-Scherge.)</i>"
-    },
-    {
-        "code": "01173",
-        "name": "Elektropeitschenangriff",
-        "text": "<b>Sobald aufgedeckt</b>: Wähle: Füge entweder deinem Helden für jedes Upgrade unter deiner Kontrolle 1 Schaden zu oder wähle ein Upgrade unter deiner Kontrolle und lege es ab..",
-        "boost_text": "Falls der Schurke einen unverteidigten Angriff durchführt, wähle ein Upgrade unter deiner Kontrolle und lege es ab."
-    },
-    {
-        "code": "01174",
-        "flavor": "Fünf, vier, drei, zwei ...",
-        "name": "Elektromagnetischer Rückstoss",
-        "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler legt die obersten 5 Karten seines Decks ab. Für jede aufgedruckte [energy]-Ressource, die ein Spieler auf diese Weise ablegt, nimmt er 1 Schaden."
-    },
-    {
-        "code": "01175",
-        "name": "Familiärer Notfall",
-        "text": "<b><i>Gib dies dem Spieler von Carol Danvers.</i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n- Erschöpfe Carol Danvers → entferne Familiärer Notfall aus dem Spiel.\n- Du wirst betäubt. Diese Karte erhält Nachrüsten. Lege diese Verpflichtung ab."
-    },
-    {
-        "code": "01176",
-        "flavor": "Das Psyche-Magnetron ist eine Maschine der Kree mit der Fähigkeit, Gedanken Realität werden zu lassen. In den Händen von Yon-Rogg wäre es eine verheerende Waffe.",
-        "name": "Das Psyche-Magnetron",
-        "text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung."
-    },
-    {
-        "code": "01177",
-        "flavor": "\"Du bist nicht mächtig, wenn du nicht gefürchtet wirst.\"",
-        "name": "Yon-Rogg",
-        "attack_text": "<b>Erzwungene Reaktion/b>: Nachdem Yon-Rogg angegriffen hat, platziere 1 Bedrohung auf Das Psyche-Magnetron.\n<i>(Captain Marvels Erzfeind-Scherge.)</i>"
-    },
-    {
-        "code": "01178",
-        "name": "Kree-Drahtzieher",
-        "text": "Nachrüsten. <i>(Nachdem diese Karte aufgedeckt worden ist, decke 1 zusätzliche Begegnungskarte auf.)</i>\n<b>Sobald aufgedeckt</b>: Platziere 1 Bedrohung auf dem Hauptplan.",
-        "boost_text": "Falls der Schurke einen unverteidigten Angriff durchführt, platziere 1 Bedrohung auf dem Hauptplan."
-    },
-    {
-        "code": "01179",
-        "flavor": "\"Diese Welt gehört jetzt dem Kree-Imperium!\" -- Yon-Rogg",
-        "name": "Yon-Roggs Verrat",
-        "text": "<b>Sobald aufgedeckt</b>: Lege jede [energy]-Ressource von deiner Hand ab. Falls du auf diese Weise keine Karten abgelegt hast, erhält diese Karte Nachrüsten."
-    },
-    {
-        "code": "01180",
-        "name": "Hydras Legionen",
-        "text": "<b>Sobald aufgedeckt</b>: Falls Madame Hydra nicht im Spiel ist, durchsuche das Begegnungsdeck und den Ablagestapel nach Madam Hydra und bringe sie mit dir im Kampf ins Spiel. Mische dann das Begegnungsdeck. Platziere hier 2 zusätzliche Bedrohung für jeden [[Hydra]]-Gegner im Spiel."
-    },
-    {
-        "code": "01181",
-        "name": "Madame Hydra",
-        "text": "Madame Hydra kann keinen Schaden nehmen, solange der Nebenplan Hydras Legionen im Spiel ist.",
-        "traits": "Elite. Hydra.",
-        "attack_text": "<b>Erzwungene Reaktion</b>: Nachdem Madame Hydra den Plan vorangetrieben oder angegriffen hat, platziere 2 Bedrohung auf dem Nebenplaun Hydras Legionen.",
-        "scheme_text": "<b>Erzwungene Reaktion</b>: Nachdem Madame Hydra den Plan vorangetrieben oder angegriffen hat, platziere 2 Bedrohung auf dem Nebenplaun Hydras Legionen."
-    },
-    {
-        "code": "01182",
-        "name": "Hydra-Soldat",
-        "text": "Wache. <i>(Solange dieser Scherge mit dir im Kampf ist, kannst du den Schurken nicht angreifen.)</i>\n<b>Sobald besiegt</b>: Teile dem Spieler, der mit Hydra-Soldat im Kampf ist, eine Begegnungskarte zu.",
-        "traits": "Hydra."
-    },
-    {
-        "code": "01183",
-        "name": "Doomsday Chair",
-        "text": "<b>Sobald aufgedeckt</b>: Falls MODOK nicht im Spiel ist, durchsuche das Begegnungsdeck und den Ablagestapel nach MODOK und bringe ihn mit dir im Kampf ins Spiel, Mische dann das Begegnungsdeck."
-    },
-    {
-        "code": "01184",
-        "flavor": "\"Du hättest unter dem Stein versteckt bleiben sollen, unter dem du hervorgekrochen bist!\"",
-        "name": "MODOK",
-        "text": "Vergeltung 2. <i>(Nachdem dieser Charakter angegriffen worden ist, füge dem angreifenden Charakter 2 Schaden zu.)</i>",
-        "traits": "Cyborg. Elite."
-    },
-    {
-        "code": "01185",
-        "name": "Biomechanische Upgrades",
-        "text": "Nachrüsten.\nHänge diese Karte an den Schergen mit den höchsten aufgedruckten Lebenspunkten an, an den noch keine andere Karte Biomechanische Upgrades angehängt ist.\n<b>Erzwungene Unterbrechung</b>: Sobald der Scherge mit diesem Anhang besiegt werden würde, heile stattdessen allen Schaden von ihm. Lege dann diese Karte ab.",
-        "traits": "Tech."
-    },
-    {
-        "code": "01186",
-        "flavor": "\"Die Welt wird mir gehören!\" -- Red Skull",
-        "name": "Fortschritt",
-        "text": "<b>Sobald aufgedeckt</b>: Der Schurke treibt den Plan voran."
-    },
-    {
-        "code": "01187",
-        "flavor": "\"Stirb!\" -- Venom",
-        "name": "Überfall",
-        "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Diese Karte erhält Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Der Schurke greift dich an."
-    },
-    {
-        "code": "01188",
-        "name": "Auf dem falschen Fuss erwischt",
-        "text": "<b>Sobald aufgedeckt</b>: Lege ein Upgrade oder einen Vorteil unter deiner Kontrolle ab. Falls auf diese Weise keine Karten abgelegt wurden, erhält diese Karte Nachrüsten."
-    },
-    {
-        "code": "01189",
-        "name": "Zusammenrotten",
-        "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Diese Karte erhält Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Der Schurke und jeder Scherge im Kampf mit dir greifen dich an."
-    },
-    {
-        "code": "01190",
-        "name": "Schatten der Vergangenheit",
-        "text": "<b>Sobald aufgedeckt</b>: Decke deinen beiseitegelegten Erzfeind-Schergen auf und bringe ihn mit dir im Kampf ins Spiel. Decke deinen beiseitegelegten Erzfeind-Nebenplan auf und bringe ihn ins Spiel. Mische den Rest deines beiseitegelegten Erzfeind-Begegnungssets in das Begegnungsdeck. Falls dein Erzfeind-Scherge nicht auf diese Weise ins Spiel kommt, erhält diese Karte Nachrüsten."
-    }, 
-    {
-        "code": "01191",
-        "name": "Erschöpfung",
-        "text": "Nachrüsten.\n<b>Sobald aufgedeckt</b>: Erschöpfe deine Identitätskarte."
-    },
-    {
-        "code": "01192",
-        "name": "Masterplan",
-        "text": "<b>Sobald aufgedeckt</b>: Platziere 4 Bedrohung auf jedem Nebenplan. Falls sich kein Nebenplan im Spiel befindet, lege Karten vom Begegnungsdeck ab, bis ein Nebenplan abgelegt wird. Decke den Nebenplan auf."
-    },
-    {
-        "code": "01193",
-        "flavor": "\"Warte, da kommt noch mehr!\" --Klaw",
-        "name": "Unter Feuer",
-        "text": "Nachrüsten.\n<b>Sobald aufgedeckt</b>: Decke die oberste Karte des Begegnungsdecks auf."
-    }
+	{
+		"code": "01094",
+		"flavor": "\"Ich bin Rhino. Ich hau Sachen kaputt. Das ist mein Ding. Das bin ich.\"",
+		"name": "Rhino",
+		"traits": "Krimineller. Schläger."
+	},
+	{
+		"code": "01095",
+		"flavor": "\"Aus dem Weg!\"",
+		"name": "Rhino",
+		"text": "<b>Sobald aufgedeckt</b>: Durchsuche das Begegnungsdeck und den Ablagestapel nach dem Nebenplan Hauen & Klauen und decke ihn auf. Mische das Begegnungsdeck.",
+		"traits": "Krimineller. Schläger."
+	},
+	{
+		"code": "01096",
+		"flavor": "\"Das habt ihr euch selbst eingebrockt!\"",
+		"name": "Rhino",
+		"text": "Zähigkeit. <i>(Dieser Charakter kommt mit einer Zäh-Statuskarte ins Spiel.)</i>\n<b>Sobald aufgedeckt</b>: Betäube jeden Helden.",
+		"traits": "Krimineller. Schläger."
+	},
+	{
+		"back_flavor": "Rhino greift eine S.H.I.E.L.D.-Einrichtung an!",
+		"back_text": "<b>Inhalt</b>: Rhino (I) und Rhino (II). (stattdessen Rhino (II) und Rhino (III) im Expertenmodus.) Rhino- und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(empfohlen: Bombendrohung)</i>.\n<b>Spielaufbau</b>: Rücke zu Abschnitt 1B vor.",
+		"code": "01097",
+		"flavor": "Rhino versucht, die Mauer der Einrichtung zu durchbrechen und eine Lieferung Vibranium zu stehlen. Ihr müsst ihn aufhalten!",
+		"name": "Der Einbruch!",
+		"text": "<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+	},
+	{
+		"code": "01098",
+		"name": "Gepanzerter Rhino-Anzug",
+		"text": "Hänge diese Karte an Rhino an.\n<b>Erzwungene Unterbrechung</b>: Sobald Rhino eine beliebige Menge an Schaden zugefügt werden würde, platziere den Schaden stattdessen hier. Falls sich dann mindestens 5 Schaden auf dieser Karte befinden, lege Gepanzerter Rhino-Anzug ab.",
+		"traits": "Rüstung."
+	},
+	{
+		"attack_text": "<b>Erzwungene Unterbrechung</b>: Sobald Rhiono angreift, erhält der Angriff Overkill. <i>(Überschüssiger Schaden dieses Angriffs gegen einen Verbündeten wird dem Spieler zugefügt, der den Verbündeten kontrolliert.)</i> Lege Sturmangriff am Ende dieses Angriffs ab.",
+		"code": "01099",
+		"name": "Sturmangriff",
+		"text": "Hänge diese Karte an Rhino an."
+	},
+	{
+		"code": "01100",
+		"name": "Verstärktes Elfenbeinhorn",
+		"text": "Hänge diese Karte an Rhino an.\n<b>Held - Aktion</b>: Gib [physical] [physical] [physical] Ressourcen aus → lege diese Karte ab.",
+		"traits": "Waffe."
+	},
+	{
+		"code": "01101",
+		"flavor": "\"Was hat Hydra hier zu suchen?\" -- Carol Danvers",
+		"name": "Hydra-Söldner",
+		"text": "Wache. <i>(Solange dieser Scherge mit dir im Kampf ist, kannst du den Schurken nicht angreifen.)</i>",
+		"traits": "Hydra."
+	},
+	{
+		"code": "01102",
+		"flavor": "\"Ich will nur bezahlt werden!\"",
+		"name": "Sandman",
+		"text": "Zähigkeit. <i>(Dieser Charakter kommt mit einer Zäh-Statuskarte ins Spiel.)</i>",
+		"traits": "Krimineller. Elite."
+	},
+	{
+		"code": "01103",
+		"flavor": "\"Ich wette, ihr seid schockiert, mich zu sehen!\"",
+		"name": "Shocker",
+		"text": "<b>Sobald aufgedeckt</b>: Füge jedem Helden 1 Schaden zu.",
+		"traits": "Krimineller."
+	},
+	{
+		"code": "01104",
+		"flavor": "\"Du glaubst, du kannst mich aufhalten? Lächerlich, so was!\" -- Rhino",
+		"name": "Schwer am Boden zu halten",
+		"text": "<b>Sobald aufgedeckt</b>: Rhino heilt 4 Schaden. Falls auf diese Weise kein Schaden geheilt wurde, erhält diese Karte Nachrüsten."
+	},
+	{
+		"code": "01105",
+		"flavor": "\"Zeig's mir!\" -- Rhino",
+		"name": "\"Ich bin Zäh!\"",
+		"text": "<b>Sobald aufgedeckt</b>: Gib Rhino eine Zäh-Statuskarte. Falls Rhino bereits eine Zäh-Statuskarte hat, erhält diese Karte Nachrüsten."
+	},
+	{
+		"code": "01106",
+		"name": "Stampede",
+		"text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Diese Karte erhält Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Rhino greift dich an. Falls ein Charakter durch diesen Angriff Schaden nimmt, wird der Charakter betäubt."
+	},
+	{
+		"code": "01107",
+		"flavor": "Rhino haut Dinge kaputt und klaut Sachen!",
+		"name": "Hauen & Klauen",
+		"text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung.\n<i>(Gefahrensymbol: Teile in der Schurkenphase +1 Begegnungskarte zu.)</i>"
+	},
+	{
+		"code": "01108",
+		"flavor": "Panische Zivilisten halten sich in der Gegend auf. Es ist schwierig, Rhino anzugreifen, ohne sie in Gefahr zu bringen. Bringt die Menschen in Sicherheit!",
+		"name": "Kontrolle der Menschenmenge",
+		"text": "<i>(Krisensymbol: Solange dieser Plan im Spiel ist, kann vom Hauptplan keine Bedrohung entfernt werden.)</i>"
+	},
+	{
+		"code": "01109",
+		"flavor": "Es wird berichtet, dass Hydra-Agenten in einem nahe gelegenen Hotel eine Bombe gelegt haben.",
+		"name": "Bombendrohung",
+		"text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung.\n<i>(Beschleunigungssymbol: Platziere zu Beginn der Schurkenphase +1 Bedrohung auf dem Hauptplan.)</i>"
+	},
+	{
+		"code": "01110",
+		"flavor": "\"Ich weiß, dass wenn man einen Kopf abschlägt, zwei Köpfe nachwachsen werden. Aber was ist, wenn er stattdessen explodiert?\" -- She-Hulk",
+		"name": "Hydra-Bombenleger",
+		"text": "<b>Sobald aufgedeckt</b>: Wähle: Nimm entweder 2 Schaden oder platziere 1 Bedrohung auf dem Hauptplan.",
+		"traits": "Hydra."
+	},
+	{
+		"code": "01111",
+		"name": "Explosion",
+		"text": "<b>Sobald aufgedeckt</b>: Falls Bombendrohung im Spiel ist, weise X Schaden unter allen Helden und Verbündeten zu, wobei X die Menge an Bedrohung auf Bombendrohung ist. Falls Bombendrohung nicht im Spiel ist, erhält diese Karte Nachrüsten."
+	},
+	{
+		"code": "01112",
+		"flavor": "\"Hier gibt es nichts zu sehen, Leute!\" -- Iron Man",
+		"name": "Falscher Alarm",
+		"text": "<b>Sobald aufgedeckt</b>: Du wirst verwirrt. Falls du bereits verwirrt bist, erhält diese Karte Nachrüsten."
+	},
+	{
+		"attack_text": "<b>Erzwungene Unterbrechung</b>: Sobald Klaw angreift, gib ihm für diese Aktivierung 1 zusätzliche Boost-Karte.",
+		"code": "01113",
+		"flavor": "\"Kommt und findet euer Verderben!\"",
+		"name": "Klaw",
+		"traits": "Masters of Evil."
+	},
+	{
+		"attack_text": "<b>Erzwungene Unterbrechung</b>: Sobald Klaw angreift, gib ihm für diese Aktivierung 1 zusätzliche Boost-Karte.",
+		"code": "01114",
+		"name": "Klaw",
+		"text": "<b>Sobald aufgedeckt</b>: Durchsuche das Begegnungsdeck und den Ablagestapel nach dem Nebenplan Der \"unsterbliche\" Klaw und decke ihn auf. Mische das Begegnungsdeck.",
+		"traits": "Masters of Evil."
+	},
+	{
+		"attack_text": "<b>Erzwungene Unterbrechung</b>: Sobald Klaw angreift, gib ihm für diese Aktivierung 1 zusätzliche Boost-Karte.",
+		"code": "01115",
+		"name": "Klaw",
+		"text": "Zähigkeit. <i>(Dieser Charakter kommt mit einer Zäh-Statuskarte ins Spiel.)</i>",
+		"traits": "Masters of Evil."
+	},
+	{
+		"back_flavor": "Der Angriff auf die S.H.I.E.L.D.-Einrichtung steht in Verbindung mit einem illegalen Waffenschmugglerring.",
+		"back_text": "<b>Inhalt: Klaw (I) und Klaw (II). <i>(stattdessen Klaw (II) und Klaw (III) im Expertenmodus.)</i> Klaw und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(empfohlen: Masters of Evil)</i>\n<b>Spielaufbau</b>: Durchsuche das Begegnungsdeck nach dem Nebenplan Verteidigungsnetzwerk und decke ihn auf. Mische das Begegnungsdeck. Rücke zu Abschnitt 1B vor.",
+		"code": "01116",
+		"flavor": "Eure Nachforschungen haben ergeben, dass das kriminelle Unternehmen von Klaw, einem alten Rivalen der Avengers, geleitet wird.",
+		"name": "Untergrundgeschäfte",
+		"text": "<b>Sobald aufgedeckt</b>: Lege Karten vom Begegnungsdeck ab, bis ein Scherge abgelegt wird. Bringe den Schergen mit dem Startspieler im Kampf ins Spiel."
+	},
+	{
+		"back_flavor": "Klaw hat einen Käufer für seine illegalen Waffen gefunden. Es liegt an euch, den Verkauf zu stoppen, aber die Übergabe wird von Klaws Handlangern gesichert.",
+		"back_text": "<b>Sobald aufgedeckt</b>: Lege Karten vom Begegnungsdeck ab, bis ein Scherge abgelegt wird. Bringe den Schergen mit dem Startspieler im Kampf ins Spiel. Rücke zu Abschnitt 2B vor.",
+		"code": "01117",
+		"flavor": "Klaw trifft sich mit Crimson Cowl. Klaw und die mysteriöse Gestalt fliehen in die Dunkelheit, als ihr sie konfrontiert, und Klaws Schergen versuchen, ihre Flucht zu decken.",
+		"name": "Geheimes Treffen",
+		"text": "<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+	},
+	{
+		"attack_text": "<b>Erzwungene Reaktion</b>: Nachdem Klaw einen Charakter angegriffen hat und ihm Schaden zugefügt hat, betäube den Charakter.",
+		"code": "01118",
+		"name": "Schallwandler",
+		"text": "Hänge diese Karte an Klaw an.\n<b>Held - Aktion</b>: Gib [energy] [mental] [physical] - Ressourcen aus → lege diese Karte ab.",
+		"traits": "Waffe."
+	},
+	{
+		"code": "01119",
+		"name": "Fester Schallkörper",
+		"text": "Hänge diese Karte an Klaw an.\nKlaw erhält Vergeltung 1. <i>(Nachdem dieser Charakter angegriffen worden ist, füge dem angreifenden Charakter 1 Schaden zu.)</i>\n<b>Held - Aktion</b>: Gib [energy] [mental] [physical] - Ressourcen aus → lege diese Karte ab.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "01120",
+		"name": "Gepanzerte Wache",
+		"text": "Wache. <i>(Solange dieser Scherge mit dir im Kampf ist, kannst du den Schurken nicht angreifen.)</i>\nZähigkeit. <i>(Dieser Charakter kommt mit einer Zäh-Statuskarte ins Spiel.)</i>",
+		"traits": "Söldner."
+	},
+	{
+		"boost_text": "Bringe Waffenschmuggler mit dir im Kampf ins Spiel.",
+		"code": "01121",
+		"name": "Waffenschmuggler",
+		"text": "Nachrüsten. <i>(Nachdem diese Karte aufgedeckt worden ist, decke 1 zusätzliche Begegnungskarte auf.)</i>",
+		"traits": "Söldner."
+	},
+	{
+		"code": "01122",
+		"name": "Klaws Vergeltung",
+		"text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Lege 1 zufällige Karte von deiner Hand ab.\n<b>Sobald aufgedeckt (Held)</b>: Klaw greift dich an. Falls dieser Angriff Schaden zufügt, platziere 1 Bedrohung auf dem Hauptplan."
+	},
+	{
+		"boost_text": "Falls dir diese Aktivierung Schaden zufügt, erschöpfe deinen Helden.",
+		"code": "01123",
+		"name": "Donnernde Schallwelle",
+		"text": "<b>Sobald aufgedeckt</b>: Gib entweder [energy] [mental] [physical]-Ressourcen aus oder erschöpfe jeden Charakter unter deiner Kontrolle."
+	},
+	{
+		"code": "01124",
+		"name": "Geräuschmanipulation",
+		"text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Klaw heilt 4 Schaden. Falls auf diese Weise kein Schaden geheilt wurde, erhält diese Karte Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Nimm 2 Schaden. Klaw heilt 2 Schaden."
+	},
+	{
+		"code": "01125",
+		"flavor": "Klaws kriminelles Unternehmen wird durch eine angeheuerte Schlägerbande geschützt.",
+		"name": "Verteidigungsnetzwerk",
+		"text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung."
+	},
+	{
+		"code": "01126",
+		"flavor": "Klaw beliefert Schurken mit hochmodernen Waffen aus einer geheimen Waffenfabrik.",
+		"name": "Illegale Waffenfabrik",
+		"text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung."
+	},
+	{
+		"code": "01127",
+		"flavor": "Klaws Beherrschung des Schalls erlaubt es ihm, seine feste Form durch reine Willenskraft wiederherzustellen.",
+		"name": "Der \"unsterbliche\" Klaw",
+		"text": "Klaw bekommt +10 Lebens-punkte. <i>(Sobald dieser Plan besiegt wird, verliert Klaw diese Lebenspunkte wieder.)</i>"
+	},
+	{
+		"code": "01128",
+		"flavor": "Die Masters of Evil sind aufgetaucht und greifen die Helden an!",
+		"name": "Masters of Evil",
+		"text": "<b>Sobald aufgedeckt</b>: Lege Karten vom Begegnungsdeck ab, bis ein [[Masters of Evil]]-Scherge abgelegt wird. Bringe den Schergen mit dem Startspieler im Kampf ins Spiel."
+	},
+	{
+		"attack_text": "<b>Erzwungene Reaktion</b>: Nachdem Radioactive Man dich angegriffen hat, lege 1 zufällige Karte von deiner Hand ab.",
+		"boost_text": "Lege 1 zufällige Karte von deiner Hand ab.",
+		"code": "01129",
+		"name": "Radioactive Man",
+		"traits": "Elite. Masters of Evil."
+	},
+	{
+		"attack_text": "<b>Erzwungene Unterbrechung</b>: Sobald Whirlwind dich angreift, handle seinen Angriff auch gegen jeden anderen Helden ab.",
+		"boost_text": "Füge jedem Helden 1 Schaden zu.",
+		"code": "01130",
+		"name": "Whirlwind",
+		"traits": "Masters of Evil."
+	},
+	{
+		"attack_text": "<b>Erzwungene Reaktion</b>: Nachdem Tiger Shark angegriffen hat, gib ihm eine Zäh-Statuskarte.",
+		"boost_text": "Gib dem Schurken eine Zäh-Statuskarte.",
+		"code": "01131",
+		"name": "Tiger Shark",
+		"traits": "Masters of Evil."
+	},
+	{
+		"attack_text": "Der Spieler, der mit Melter im Kampf ist, muss mit einem Verbündeten unter seiner Kontrolle gegen die Angriffe von Melter verteidigen, falls möglich.",
+		"boost_text": "Erschöpfe jeden Verbündeten unter deiner Kontrolle.",
+		"code": "01132",
+		"name": "Melter",
+		"traits": "Masters of Evil."
+	},
+	{
+		"code": "01133",
+		"name": "Die Meister des Chaos",
+		"text": "<b>Sobald aufgedeckt</b>: Jeder [[Masters of Evil]]-Scherge greift den Helden an mit dem er im Kampf ist. Falls auf diese Weise keine Angriffe durchgeführt wurden, durchsuche das Begegnungsdeck und den Ablagestapel nach einem [[Masters of Evil]]-Schergen und bringe ihn mit dir im Kampf ins Spiel. Mische dann das Begegnungsdeck."
+	},
+	{
+		"attack_text": "<b>Erzwungene Reaktion</b>: Nachdem Ultron dich angegriffen hat, wähle: Platziere entweder 1 Bedrohung auf dem Hauptplan oder bringe die oberste Karte deines Decks verdeckt als [[Drohne]]-Scherge mit dir im Kampf ins Spiel.",
+		"code": "01134",
+		"name": "Ultron",
+		"traits": "Androide."
+	},
+	{
+		"attack_text": "<b>Erzwungene Unterbrechung</b>: Sobald Ultron dich angreift, bringe die oberste Karte deines Decks verdeckt als [[Drohne]]-Scherge mit dir im Kampf ins Spiel. Ultron bekommt bis zum Ende dieses Angriffs +1 ANG für jeden [[Drohne]]-Schergen, der mit dir im Kampf ist.",
+		"code": "01135",
+		"name": "Ultron",
+		"traits": "Androide."
+	},
+	{
+		"code": "01136",
+		"name": "Ultron",
+		"text": "Jeder [[Drohne]]-Scherge bekommt +1 ANG und +1 Lebenspunkt. Ultron kann keinen Schaden nehmen, solange ein [[Drohne]]-Scherge im Spiel ist.\n<b>Sobald aufgedeckt</b>: Durchsuche das Begegnungsdeck und den Ablagestapel nach dem Nebenplan the Ultrons Befehl und decke ihn auf. Mische das Begegnungsdeck.",
+		"traits": "Androide."
+	},
+	{
+		"back_flavor": "Klaws mysteriöser Auftraggeber mit der roten Kapuze ist in Wirklichkeit der völkermordende Androide Ultron.",
+		"back_text": "<b>Inhalt</b>: Ultron (I) und Ultron (II). <i>(stattdessen Ultron (II) und Ultron (III) im Expertenmodus.)</i> Ultron- und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(empfohlen: Unter Beschuss).</i>\n<b>Spielaufbau</b>: Bringe die Umgebung Ultron-Drohnen ins Spiel. Mische das Begegnungsdeck. Rücke zu Abschnitt 1B vor.",
+		"code": "01137",
+		"flavor": "Ultron verwendet die von Klaw gelieferten Komponenten, um eine Armee von Ultron-Drohnen zu erschafen.",
+		"name": "Crimson Cowl",
+		"text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel."
+	},
+	{
+		"back_flavor": "Während ihr Ultron verfolgt, erhaltet ihr einen Notruf vom North American Aerospace Defense Command in Colorado. Sie werden von einer Armee von Ultron-Drohnen belagert!",
+		"back_text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel. Rücke zu Abschnitt 2B vor.",
+		"code": "01138",
+		"flavor": "Wenn Ultron die Kontrolle über NORAD erlangt, werden ihm die ballistischen Raketen der Vereinigten Staaten zur Verfügung stehen!",
+		"name": "Überfall auf NORAD",
+		"text": "<b>Erzwungene Reaktion</b>: Nachdem im ersten Schritt der Schurkenphase hier Bedrohung platziert worden ist, muss jeder Spieler wählen, ob er entweder hier 2 Bedrohung platziert oder die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel bringt."
+	},
+	{
+		"back_flavor": "Ultron hat die Kontrolle über NORAD übernommen. Es ist nur eine Frage der Zeit, bis er die Sicherungsmaßnahmen des Kommandostands überwindet und das Atomwaffenarsenal einsetzt.",
+		"back_text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel. Rücke zu Abschnitt 3B vor.",
+		"code": "01139",
+		"flavor": "Es liegt an euch, die Welt vor einem nuklearen Armaggeddon zu retten!",
+		"name": "Countdown bis zur Auslöschung",
+		"text": "Von diesem Plan kann keine Bedrohung entfernt werden.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+	},
+	{
+		"code": "01140",
+		"name": "Ultron-Drohnen",
+		"text": "Jeder verdeckte [[Drohne]]-Scherge, der mit einem Spieler im Kampf ist, hat einen PLA-Basiswert von 1, einen ANG-Basiswert von 1 und 1 Basis-Lebenspunkt.\n<b>Erzwungene Reaktion</b>: Nachdem ein verdeckter [[Drohne]]-Scherge besiegt worden ist, platziere jene Karte auf dem Ablagestapel ihres Besitzers."
+	},
+	{
+		"code": "01141",
+		"name": "Programm-Transmitter",
+		"scheme_text": "<b>Erzwungene Reaktion</b>: Nachdem Ultron den Plan vorangetrieben hat, platziere 1 Bedrohung auf jedem Nebenplan.",
+		"text": "Hänge diese Karte an Ultron an.\n<b>Held - Aktion</b>: Erschöpfe deinen Helden und gib [mental] [mental]-Ressourcen aus → lege diese Karte ab.",
+		"traits": "Gegenstand. Tech."
+	},
+	{
+		"code": "01142",
+		"name": "Aufgerüstete Drohnen",
+		"text": "Hänge diese Karte an die Umgebung Ultron-Drohnen an..\nJeder verdeckte [[Drohne]]-Scherge bekommt +1 ANG und +1 Lebenspunkt.\n<b>Held - Aktion</b>: Gib [energy] [mental] [physical]-Ressourcen aus → lege diese Karte ab.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "01143",
+		"name": "Verbesserte Ultron-Drohne",
+		"text": "Wache.\n<b>Erzwungene Unterbrechung</b>: Sobald Verbesserte Ultron-Drohne besiegt wird, bringt der Spieler, der mit diesem Gegner im Kampf ist, die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel.",
+		"traits": "Drohne."
+	},
+	{
+		"boost_text": "Wähle: Gib entwerder eine [energy]-Ressource aus oder bringe die oberste Karte deines Decks verdeckt als [[Drohne]]-Scherge mit dir im Kampf ins Spiel.",
+		"code": "01144a",
+		"name": "Androideneffizienz",
+		"text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel."
+	},
+	{
+		"boost_text": "Wähle: Gib entwerder eine [mental]-Ressource aus oder bringe die oberste Karte deines Decks verdeckt als [[Drohne]]-Scherge mit dir im Kampf ins Spiel.",
+		"code": "01144b",
+		"name": "Androideneffizienz",
+		"text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel."
+	},
+	{
+		"boost_text": "Wähle: Gib entwerder eine [physical]-Ressource aus oder bringe die oberste Karte deines Decks verdeckt als [[Drohne]]-Scherge mit dir im Kampf ins Spiel.",
+		"code": "01144c",
+		"name": "Androideneffizienz",
+		"text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel."
+	},
+	{
+		"code": "01145",
+		"name": "Ultrons Zorn",
+		"text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Ultron treibt den Plan voran. Lege für jede auf diese Weise platzierte Bedrohung die oberste Karte deines Decks ab.\n<b>Sobald aufgedeckt (Held)</b>: Ultron greift dich an. Lege für jeden durch diesen Angriff zugefügten Schaden die oberste Karte deines Decks ab."
+	},
+	{
+		"boost_text": "Ultron heilt 1 Schaden für jeden [[Drohne]]-Schergen, der mit dir im Kampf ist.",
+		"code": "01146",
+		"name": "Reperatursequenz",
+		"text": "<b>Sobald aufgedeckt</b>: Ultron heilt 2 Schaden für jeden [[Drohne]]-Schergen, der mit dir im Kampf ist. Falls auf diese Weise kein Schaden geheilt wurde, erhält diese Karte Nachrüsten."
+	},
+	{
+		"code": "01147",
+		"name": "Schwarmangriff",
+		"text": "<b>Sobald aufgedeckt</b>: Jeder [[Drohne]]-Scherge im Kampf mit deinem Helden greift an. Falls auf diese Weise keine Angriffe durchgeführt wurden, bringe die oberste Karte deines Decks verdeckt als [[Drohne]]-Scherge mit dir im Kampf ins Spiel."
+	},
+	{
+		"code": "01148",
+		"name": "Drohnenfabrik",
+		"text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt die oberste Karte seines Decks verdeckt als [[Drohne]]-Scherge mit sich im Kampf ins Spiel. Platziere hier 1 Bedrohung für jeden [[Drohne]]-Schergen im Spiel."
+	},
+	{
+		"code": "01149",
+		"flavor": "Ultron hackt sich in drahtlose Netzwerke auf der ganzen Welt ein, um eine globale Krise auszulösen.",
+		"name": "Invasive KI",
+		"text": "<b>Sobald aufgedeckt</b>: Jeder Spieler legt die obersten 3 Karten seines Decks ab."
+	},
+	{
+		"code": "01150",
+		"flavor": "Ultron steuert seine Drohnenarmee durch eine Hive-Schaltung.",
+		"name": "Ultron's Imperative",
+		"text": "<b>Sobald aufgedeckt</b>: Der Startspieler bringt die obersten 2 Karten seines Decks verdeckt als [[Drohne]]-Schergen mit sich im Kampf ins Spiel."
+	},
+	{
+		"code": "01151",
+		"flavor": "Zivilisten werden angegriffen. Sie brauchen eure Hilfe, und zwar schnell!",
+		"name": "Unter Beschuss",
+		"text": "<b>Sobald aufgedeckt</b>: Jeder Spieler wählt, ob er entweder hier 2 Bedrohung platziert oder seinem Helden 3 Schaden zufügt."
+	},
+	{
+		"code": "01152",
+		"name": "Vibranium Rüstung",
+		"text": "Hänge diese Karte an den Schurken an.\n<b>Erzwungene Reaktion</b>: Nachdem der Schurke Schaden genommen hat, gib ihm eine Zäh-Statuskarte.\n<b>Held - Aktion</b>: Erschöpfe deinen Helden und gib [physical] [physical]-Ressourcen aus → lege diese Karte ab.",
+		"traits": "Rüstung."
+	},
+	{
+		"code": "01153",
+		"name": "Erschütterungsstrahlen",
+		"text": "Hänge diese Karte an den Schurken an.\nDer Schurke erhält Vergeltung 1.\n<b>Held - Aktion</b>: Erschöpfe deinen Helden und gib [energy] [energy]-Ressourcen aus → lege diese Karte ab.",
+		"traits": "Waffe."
+	},
+	{
+		"boost_text": "Füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.",
+		"code": "01154",
+		"name": "Erschütternde Explosion",
+		"text": "<b>Sobald aufgedeckt</b>: Füge jedem befreundeten Charakter 1 Schaden zu."
+	},
+	{
+		"code": "01155",
+		"name": "Staatsgeschäfte",
+		"text": "<b><i>Gib dies dem Spieler von T'Challa.</i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n- Erschöpfe T'Challa → entferne Staatsgeschäfte aus dem Spiel.\n- Wähle ein [[Black Panther]]-Upgrade unter deiner Kontrolle und lege es ab. Lege diese Verpflichtung ab."
+	},
+	{
+		"code": "01156",
+		"flavor": "Der Abtrünnige Killmonger führt einen Putsch an, um die Kontrolle über Wakanda an sich zu reißen.",
+		"name": "Den Thron an sich reissen"
+	},
+	{
+		"code": "01157",
+		"flavor": "\"Ich sollte auf dem Thron sitzen!\"",
+		"name": "Killmonger",
+		"text": "Killmonger kann keinen Schaden durch [[Black Panther]]-Upgrades nehmen.",
+		"traits": "Attentäter. Elite. Söldner."
+	},
+	{
+		"boost_text": "Gib dem Schurken eine Zäh-Statuskarte.",
+		"code": "01158",
+		"name": "Herzförmiges Kraut",
+		"text": "Nachrüsten. <i>(Nachdem diese Karte aufgedeckt worden ist, decke eine zusätzliche Begegnungskarte auf.)</i>\n<b>Sobald aufgedeckt</b>: Gib dem Schurken und jedem Schergen der mit dir im Kampf ist eine Zäh-Statuskarte."
+	},
+	{
+		"code": "01159",
+		"name": "Ritueller Kampf",
+		"text": "<b>Sobald aufgedeckt</b>: Lege die oberste Karte des Begegnungsdecks ab. Dann wähle: Füge deinem Helden entweder X Schaden zu oder platziere X Bedrohung auf dem Hauptplan. X ist 1 plus die Anzahl der Boost-Symbole auf der abgelegten Begegnungskarte."
+	},
+	{
+		"code": "01160",
+		"name": "Anwaltstätigkeit",
+		"text": "<b><i>Gib dies dem Spieler von Jennifer Walters.</i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n- Erschöpfe Jennifer Walters → entferne Anwaltstätigkeit aus dem Spiel.\n- Gib dem Hauptplan 1 Beschleunigungsmarker. Lege diese Verpflichtung ab."
+	},
+	{
+		"code": "01161",
+		"flavor": "Titania hegt seit Jahren einen Groll gegen She-Hulk. Sie wird nicht ruhen, bis sie die Rechnung beglichen hat.",
+		"name": "Persönliche Herausforderung",
+		"text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung."
+	},
+	{
+		"code": "01162",
+		"flavor": "\"Sieh es ein, Greenie. Es kann nur eine stärkste Frau geben ... und das bist nicht du!\"",
+		"name": "Titania",
+		"text": "X entspricht den verbleibenden Lebenspunkten von Titania.\n(She-Hulks Erzfeind-Scherge.)",
+		"traits": "Elite. Schläger."
+	},
+	{
+		"code": "01163",
+		"name": "Genetisch verbessert",
+		"text": "Hänge diese Karte an den Schergen mit den höchsten aufgedruckten Lebenspunkten an. Falls keine Schergen im Spiel sind, erhält diese Karte Nachrüsten.\nDer Scherge mit diesem Anhang bekommt +3 Lebenspunkte.",
+		"traits": "Zustand."
+	},
+	{
+		"boost_text": "Gib dem Schurken für diese Aktivierung 1 zusätzliche Boost-Karte.",
+		"code": "01164",
+		"name": "Titanias Wut",
+		"text": "<b>Sobald aufgedeckt</b>: Titania greift deinen Helden an. Falls Titania nicht angegriffen hat, heile allen Schaden von Titania und diese Karte erhält Nachrüsten."
+	},
+	{
+		"code": "01165",
+		"name": "Räumungsbescheid",
+		"text": "<b><i>Gib dies dem Spieler von Peter Parker.</i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n- Erschöpfe Peter Parker → entferne Räumungsbefehl aus dem Spiel.\n- Lege 1 zufällige Karte von deiner Hand ab. Diese Karte erhält Nachrüsten. Lege diese Verpflichtung ab."
+	},
+	{
+		"code": "01166",
+		"name": "Raub auf offener Strasse",
+		"text": "<b>Sobald aufgedeckt</b>: Jeder Spieler legt eine Zufällige Karte von seiner Hand verdeckt hierher.\n<b>Sobald besiegt</b>: Schicke jede hier liegende verdeckte Karte zurück auf die Hand ihres Besitzers."
+	},
+	{
+		"code": "01167",
+		"flavor": "\"Ich bin schneller, stärker und klüger als hundert Männer meines Alters!\"",
+		"name": "Vulture",
+		"text": "Erstschlag. <i>(Nachdem dieser Scherge deinen Helden in einen Kampf verwickelt hat, greift er an.)</i>\n<i>(Spider-Mans Erzfeind-Scherge.)</i>",
+		"traits": "Krimineller."
+	},
+	{
+		"boost_text": "Falls diese Aktivierung einem befreundeten Charakter Schaden zufügt, betäube den Charakter.",
+		"code": "01168",
+		"name": "Schwungvoller Sturzflug",
+		"text": "<b>Sobald aufgedeckt</b>: Betäube deinen Helden. Falls Vulture im Spiel ist, erhält diese Karte Nachrüsten."
+	},
+	{
+		"code": "01169",
+		"flavor": "\"Spider-Man wird dafür bezahlen, dass er sich in meine Pläne eingemischt hat!\" -- Vulture",
+		"name": "Vultures Pläne",
+		"text": "<b>Sobald aufgedeckt</b>: Lege 1 zufällige Karte von der Hand jedes Spielers ab. Platziere 1 Bedrohung auf dem Hauptplan für jeden unterschiedlichen Ressourcentyp, der auf diese Weise abgelegt wurde."
+	},
+	{
+		"code": "01170",
+		"name": "Geschäftliche Probleme",
+		"text": "<b><i>Gib dies dem Spieler von Tony Stark.</i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n- Erschöpfe Tony Stark → entferne Geschäftliche Probleme aus dem Spiel.\n- Erschöpfe jedes Upgrade unter deiner Kontrolle. Lege diese Verpflichtung ab."
+	},
+	{
+		"code": "01171",
+		"flavor": "Whiplash hat die Kontrolle über ein Kraftwerk übernommen und droht damit, die Transformatoren zu überlasten, wenn seine Forderungen nicht erfüllt werden.",
+		"name": "Bevorstehende Überlastung",
+		"text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung."
+	},
+	{
+		"code": "01172",
+		"flavor": "\"Du hast damit angefangen, Tony. Ich werde es beenden.\"",
+		"name": "Whiplash",
+		"text": "Vergeltung 1 <i>(Nachdem dieser Charakter angegriffen worden ist, füge dem angreifenden Charakter 1 Schaden zu.)</i><i>(Iron Mans Erzfein-Scherge.)</i>"
+	},
+	{
+		"boost_text": "Falls der Schurke einen unverteidigten Angriff durchführt, wähle ein Upgrade unter deiner Kontrolle und lege es ab.",
+		"code": "01173",
+		"name": "Elektropeitschenangriff",
+		"text": "<b>Sobald aufgedeckt</b>: Wähle: Füge entweder deinem Helden für jedes Upgrade unter deiner Kontrolle 1 Schaden zu oder wähle ein Upgrade unter deiner Kontrolle und lege es ab.."
+	},
+	{
+		"code": "01174",
+		"flavor": "Fünf, vier, drei, zwei ...",
+		"name": "Elektromagnetischer Rückstoss",
+		"text": "<b>Sobald aufgedeckt</b>: Jeder Spieler legt die obersten 5 Karten seines Decks ab. Für jede aufgedruckte [energy]-Ressource, die ein Spieler auf diese Weise ablegt, nimmt er 1 Schaden."
+	},
+	{
+		"code": "01175",
+		"name": "Familiärer Notfall",
+		"text": "<b><i>Gib dies dem Spieler von Carol Danvers.</i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n- Erschöpfe Carol Danvers → entferne Familiärer Notfall aus dem Spiel.\n- Du wirst betäubt. Diese Karte erhält Nachrüsten. Lege diese Verpflichtung ab."
+	},
+	{
+		"code": "01176",
+		"flavor": "Das Psyche-Magnetron ist eine Maschine der Kree mit der Fähigkeit, Gedanken Realität werden zu lassen. In den Händen von Yon-Rogg wäre es eine verheerende Waffe.",
+		"name": "Das Psyche-Magnetron",
+		"text": "<b>Sobald aufgedeckt</b>: Platziere hier zusätzlich 1 [per_hero] Bedrohung."
+	},
+	{
+		"attack_text": "<b>Erzwungene Reaktion/b>: Nachdem Yon-Rogg angegriffen hat, platziere 1 Bedrohung auf Das Psyche-Magnetron.\n<i>(Captain Marvels Erzfeind-Scherge.)</i>",
+		"code": "01177",
+		"flavor": "\"Du bist nicht mächtig, wenn du nicht gefürchtet wirst.\"",
+		"name": "Yon-Rogg"
+	},
+	{
+		"boost_text": "Falls der Schurke einen unverteidigten Angriff durchführt, platziere 1 Bedrohung auf dem Hauptplan.",
+		"code": "01178",
+		"name": "Kree-Drahtzieher",
+		"text": "Nachrüsten. <i>(Nachdem diese Karte aufgedeckt worden ist, decke 1 zusätzliche Begegnungskarte auf.)</i>\n<b>Sobald aufgedeckt</b>: Platziere 1 Bedrohung auf dem Hauptplan."
+	},
+	{
+		"code": "01179",
+		"flavor": "\"Diese Welt gehört jetzt dem Kree-Imperium!\" -- Yon-Rogg",
+		"name": "Yon-Roggs Verrat",
+		"text": "<b>Sobald aufgedeckt</b>: Lege jede [energy]-Ressource von deiner Hand ab. Falls du auf diese Weise keine Karten abgelegt hast, erhält diese Karte Nachrüsten."
+	},
+	{
+		"code": "01180",
+		"name": "Hydras Legionen",
+		"text": "<b>Sobald aufgedeckt</b>: Falls Madame Hydra nicht im Spiel ist, durchsuche das Begegnungsdeck und den Ablagestapel nach Madam Hydra und bringe sie mit dir im Kampf ins Spiel. Mische dann das Begegnungsdeck. Platziere hier 2 zusätzliche Bedrohung für jeden [[Hydra]]-Gegner im Spiel."
+	},
+	{
+		"attack_text": "<b>Erzwungene Reaktion</b>: Nachdem Madame Hydra den Plan vorangetrieben oder angegriffen hat, platziere 2 Bedrohung auf dem Nebenplaun Hydras Legionen.",
+		"code": "01181",
+		"name": "Madame Hydra",
+		"scheme_text": "<b>Erzwungene Reaktion</b>: Nachdem Madame Hydra den Plan vorangetrieben oder angegriffen hat, platziere 2 Bedrohung auf dem Nebenplaun Hydras Legionen.",
+		"text": "Madame Hydra kann keinen Schaden nehmen, solange der Nebenplan Hydras Legionen im Spiel ist.",
+		"traits": "Elite. Hydra."
+	},
+	{
+		"code": "01182",
+		"name": "Hydra-Soldat",
+		"text": "Wache. <i>(Solange dieser Scherge mit dir im Kampf ist, kannst du den Schurken nicht angreifen.)</i>\n<b>Sobald besiegt</b>: Teile dem Spieler, der mit Hydra-Soldat im Kampf ist, eine Begegnungskarte zu.",
+		"traits": "Hydra."
+	},
+	{
+		"code": "01183",
+		"name": "Doomsday Chair",
+		"text": "<b>Sobald aufgedeckt</b>: Falls MODOK nicht im Spiel ist, durchsuche das Begegnungsdeck und den Ablagestapel nach MODOK und bringe ihn mit dir im Kampf ins Spiel, Mische dann das Begegnungsdeck."
+	},
+	{
+		"code": "01184",
+		"flavor": "\"Du hättest unter dem Stein versteckt bleiben sollen, unter dem du hervorgekrochen bist!\"",
+		"name": "MODOK",
+		"text": "Vergeltung 2. <i>(Nachdem dieser Charakter angegriffen worden ist, füge dem angreifenden Charakter 2 Schaden zu.)</i>",
+		"traits": "Cyborg. Elite."
+	},
+	{
+		"code": "01185",
+		"name": "Biomechanische Upgrades",
+		"text": "Nachrüsten.\nHänge diese Karte an den Schergen mit den höchsten aufgedruckten Lebenspunkten an, an den noch keine andere Karte Biomechanische Upgrades angehängt ist.\n<b>Erzwungene Unterbrechung</b>: Sobald der Scherge mit diesem Anhang besiegt werden würde, heile stattdessen allen Schaden von ihm. Lege dann diese Karte ab.",
+		"traits": "Tech."
+	},
+	{
+		"code": "01186",
+		"flavor": "\"Die Welt wird mir gehören!\" -- Red Skull",
+		"name": "Fortschritt",
+		"text": "<b>Sobald aufgedeckt</b>: Der Schurke treibt den Plan voran."
+	},
+	{
+		"code": "01187",
+		"flavor": "\"Stirb!\" -- Venom",
+		"name": "Überfall",
+		"text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Diese Karte erhält Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Der Schurke greift dich an."
+	},
+	{
+		"code": "01188",
+		"name": "Auf dem falschen Fuss erwischt",
+		"text": "<b>Sobald aufgedeckt</b>: Lege ein Upgrade oder einen Vorteil unter deiner Kontrolle ab. Falls auf diese Weise keine Karten abgelegt wurden, erhält diese Karte Nachrüsten."
+	},
+	{
+		"code": "01189",
+		"name": "Zusammenrotten",
+		"text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Diese Karte erhält Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Der Schurke und jeder Scherge im Kampf mit dir greifen dich an."
+	},
+	{
+		"code": "01190",
+		"name": "Schatten der Vergangenheit",
+		"text": "<b>Sobald aufgedeckt</b>: Decke deinen beiseitegelegten Erzfeind-Schergen auf und bringe ihn mit dir im Kampf ins Spiel. Decke deinen beiseitegelegten Erzfeind-Nebenplan auf und bringe ihn ins Spiel. Mische den Rest deines beiseitegelegten Erzfeind-Begegnungssets in das Begegnungsdeck. Falls dein Erzfeind-Scherge nicht auf diese Weise ins Spiel kommt, erhält diese Karte Nachrüsten."
+	},
+	{
+		"code": "01191",
+		"name": "Erschöpfung",
+		"text": "Nachrüsten.\n<b>Sobald aufgedeckt</b>: Erschöpfe deine Identitätskarte."
+	},
+	{
+		"code": "01192",
+		"name": "Masterplan",
+		"text": "<b>Sobald aufgedeckt</b>: Platziere 4 Bedrohung auf jedem Nebenplan. Falls sich kein Nebenplan im Spiel befindet, lege Karten vom Begegnungsdeck ab, bis ein Nebenplan abgelegt wird. Decke den Nebenplan auf."
+	},
+	{
+		"code": "01193",
+		"flavor": "\"Warte, da kommt noch mehr!\" --Klaw",
+		"name": "Unter Feuer",
+		"text": "Nachrüsten.\n<b>Sobald aufgedeckt</b>: Decke die oberste Karte des Begegnungsdecks auf."
+	}
 ]
