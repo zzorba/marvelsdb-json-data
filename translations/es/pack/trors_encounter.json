@@ -1,697 +1,697 @@
 [
-    {
-        "code": "04026",
-        "name": "Pasado criminal",
-        "text": "<b><i>Dale esta carta al jugador que lleva a Clint Barton.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n- Agota a Clint Barton → retira del juego Pasado criminal.\n- Descarta del juego el Arco de Ojo de Halcón. Descarta esta Obligación."
-    },
-    {
-        "code": "04027",
-        "name": "Fuego Cruzado",
-        "text": "Ataque veloz.",
-        "traits": "Mercenario.",
-        "attack_text": "Los ataques de Fuego Cruzado ganan Penetrante.",
-        "boost_text": "<b>Aumento:</b> si este aumento se resuelve durante un ataque, dicho ataque gana Penetrante."
-    },
-    {
-        "code": "04028",
-        "name": "En el punto de mira",
-        "text": "<b>Cuando se muestre esta carta:</b> el jugador que lleva a Clint Barton busca a Pájaro Burlón en su mano, su mazo, su pila de descartes y su zona de juego, y la coloca boca arriba debajo de esta carta. Cuando se derrote esta etapa del Plan, devuelve Pájaro Burlón a la mano de su propietario."
-    },
-    {
-        "code": "04029",
-        "name": "Fusil de Fuego Cruzado",
-        "text": "Vincula esta carta a Fuego Cruzado. De no ser así, vincula esta carta al Villano.\n<b>Acción de Héroe:</b> agota tu Héroe y gasta un recurso [wild] → descarta el Fusil de Fuego Cruzado.",
-        "traits": "Arma.",
-        "attack_text": "Cuando el enemigo vinculado ataque, ese ataque gana A distancia."
-    },
-    {
-        "code": "04030",
-        "flavor": "\"Me gusta dejar que corran un poco antes de dispararles.\" -- Fuego Cruzado",
-        "name": "Disparo de francotirador",
-        "text": "<b>Cuando se muestre esta carta (Alter ego):</b> coloca 3 de Amenaza sobre el Plan principal.\n<b>Cuando se muestre esta carta (Héror):</b> inflige 3 de Daño a tu Héroe."
-    },
-    {
-        "code": "04053",
-        "name": "Lealtad dudosa",
-        "text": "<b><i>Dale esta carta al jugador que lleva a Jessica Drew.</i></b>\nPuedes adoptar la identidad de ti Alter ego. Elige una opción:\n- Agota a Jessica Drew → retira del juego Lealtad dudosa.\n- Coloca 3 de Amenaza sobre el Plan principal. Descarta esta Obligación."
-    },
-    {
-        "code": "04054",
-        "flavor": "\"Es hora de que vuelvas a casa, Jessica.\"",
-        "name": "Víbora",
-        "text": "Mientras Víbora esté enfrentada a ti, el tamaño de tu mano se reduce en 1.\n(Esbirro Archienemigo de Spiderwoman.)",
-        "traits": "Élite. Hydra."
-    },
-    {
-        "code": "04055",
-        "flavor": "Víbora se ha entregado a Hydra en cuerpo y alma a cambio de la promesa de poder.",
-        "name": "La ambición de Víbora",
-        "text": "<b>Cuando se muestre esta carta:</b> coloca 1[per_hero] de Amenaza sobre esta carta."
-    },
-    {
-        "code": "04056",
-        "flavor": "\"Teniendo en cuenta qué tipo de personas se unirían a una organización terrorista obsesionada con dominar el mundo, es obvio por qué las tropas de Hydra dejan tanto que desear.\" -- Jessica Drew",
-        "name": "Tropa de Hydra",
-        "text": "Incitar 1. (Cuando se muestre esta carta, coloca 1 de Amenaza sobre el Plan principal.)",
-        "traits": "Hydra."
-    },
-    {
-        "code": "04057",
-        "name": "¡Hail, Hydra!",
-        "text": "<b>Cuando se muestre esta carta:</b> todo Esbirro [[HYDRA]] que esté enfrentado a un Héroe ataca a ese Héroe. Cada jugador que no sea atacado de este modo busca un Esbirro [[HYDRA]] en el mazo y la pila de descartes de Encuentros y lo pone en juego enfrentado a él. Baraja el mazo de Encuentros si se ha buscado en él."
-    },
-    {
-        "code": "04058",
-        "flavor": "\"Me considero un artista. Un auténtico artesano especializado en asesinato, destrucción y terror.\"",
-        "name": "Calavera",
-        "traits": "Hydra. Mercenario.",
-        "attack_text": "Mientras Calavera tenga vinculado un Accesorio [[ARMA]], sus ataques ganan Penetrante. <em>(Las cartas de Estado \"Duro\" del objetivo se descartan antes de infligirle Daño.)</em>"
-    },
-    {
-        "code": "04059",
-        "name": "Calavera",
-        "text": "<b>Cuando se muestre esta carta:</b> busca la Ametralladora de Calavera en el mazo y la pila de descartes de Encuentros y vincúlala a Calavera. Baraja el mazo de Encuentros.",
-        "traits": "Hydra. Mercenario.",
-        "attack_text": "Mientras Calavera tenga vinculado un Accesorio [[ARMA]], sus ataques ganan Penetrante."
-    },
-    {
-        "code": "04060",
-        "flavor": "\"Mucho superpoder y mucha fuerza, pero ninguno de ellos tiene mi estilo.\"",
-        "name": "Calavera",
-        "text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Armas experimentales.",
-        "traits": "Hydra. Mercenario.",
-        "attack_text": "Mientras Calavera tenga vinculado un Accesorio [[ARMA]], sus ataques ganan Penetrante."
-    },
-    {
-        "code": "04061",
-        "flavor": "Calavera lidera un contingente de soldados de Hydra en una ofensiva directa contra las instalaciones del Proyecto Pegaso en las montañas de Adirondack.",
-        "name": "Ataque al monte Atenea",
-        "back_text": "<b>Contenido:</b> Calavera (I) y Calavera (II). Conjuntos de Encuentros de Calavera, Armas experimentales y Normal. Tres conjuntos de Encuentros modulares <em>(Asalto de Hydra, Maestro de armas y Legiones de Hydra).</em>\n<b>Preparación:</b> crea el mazo de Armas experimentales y colócalo junto al mazo del Plan principal. <em>(ver página 5 del cuaderno de reglas.)</em>",
-        "text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Armas experimentales."
-    },
-    {
-        "code": "04062",
-        "name": "La piedra del infinito",
-        "text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Armas experimentales.",
-        "back_flavor": "En el interior del complejo del Proyecto Pegaso, los agentes de S.H.I.E.L.D. libran una batalla desesperada para evitar que Hydra se apodere de la Gema de la Realidad."
-    },
-    {
-        "code": "04063",
-        "name": "La huida",
-        "text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Armas experimentales.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
-        "back_flavor": "Hydra se ha apoderado de la piedra del infinito y Calavera ha ordenado la retirada. ¡Tenéis que detenerlos antes de que se escapen!"
-    },
-    {
-        "code": "04064",
-        "name": "Ametralladora de Calavera",
-        "text": "Vincula esta carta a Calavera. Usos (2[per_hero] contadores de Munición).",
-        "traits": "Arma.",
-        "attack_text": "<b>Interrupción obligada:</b> cuando Calavera te ataque, quita 1 contador de Munición de esta carta y descarta la primera carta del mazo de Encuentros → sufres tanto Daño indirecto como el número de iconos de Aumento que haya en la carta descartada."
-    },
-    {
-        "code": "04065",
-        "name": "Armadura de Calavera",
-        "text": "Vincula esta carta a Calavera.\n<b>Interrupción obligada:</b> cuando Calavera vaya a sufrir cualquier cantidad de Daño, en vez de eso coloca ese Daño sobre esta carta. Si hay al menos 5 de Daño aquí, descarta la Armadura de Calavera.",
-        "traits": "Armadura."
-    },
-    {
-        "code": "04066",
-        "flavor": "\"Sé que si cortas una cabeza, otras dos ocupan su lugar. Pero ¿y si explota?\" -- Hulka",
-        "name": "Terrorista de Hydra",
-        "text": "<b>Cuando se muestre esta carta:</b> elige entre sufrir 2 de Daño o colocar 1 de Amenaza sobre el Plan principal.",
-        "traits": "Hydra."
-    },
-    {
-        "code": "04067",
-        "name": "Fuego automático",
-        "text": "<b>Cuando se muestre esta carta (Alter ego):</b> Oleada.\n<b>Cuando se muestre esta carta (Héroe):</b> descarta X cartas de la parte superior del mazo de Encuentros, siendo X el ATQ de Calavera. Sufres 1 de Daño indirecto por cada icono de Aumento que se haya descartado de este modo."
-    },
-    {
-        "code": "04068",
-        "name": "Duro de pelar",
-        "text": "<b>Cuando se muestre esta carta:</b> dale al Villano una carta de Estado \"Duro\". Si no es posible, en vez de eso cúrale 3 de Daño.",
-        "boost_text": "dale al Villano una carta de Estado \"Duro\". Si no es posible, en vez de eso cúrale 3 de Daño."
-    },
-    {
-        "code": "04069",
-        "name": "Saquear el arsenal",
-        "text": "Incitar 1. <em>(Cuando se muestre esta carta, coloca 1 de Amenaza sobre el Plan principal.)</em>\n<b>Cuando se muestre esta carta:</b> descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Accesorio [[ARMA]]. Muestra esa carta."
-    },
-    {
-        "code": "04070",
-        "flavor": "Calavera es un asesino desalmado, pero no es ningún psicópata. Su asalto al Proyecto Pegaso es despiadado y efectivo.",
-        "name": "El ataque de Calavera",
-        "text": "<b>Cuando se derrote esta carta:</b> Calavera se activa contra el jugador que haya derrotado este Plan."
-    },
-    {
-        "code": "04071",
-        "flavor": "Hydra ha arrinconado a los empleados del Proyecto Pegaso para utilizarlos como rehenes.",
-        "name": "Personal acorralado",
-        "text": "<b>Cuando se muestre esta carta:</b> descarta 1[per_hero] cartas de la parte superior del mazo de Encuentros. Coloca 1 de Amenaza adicional sobre esta carta por cada icono de Aumento que haya en las cartas que se descartasen de este modo."
-    },
-    {
-        "code": "04072",
-        "name": "Fusil láser",
-        "text": "Vincula esta carta al Villano.\n<b>Acción de Héroe:</b> gasta recursos [energy][physical] → descarta esta carta.",
-        "traits": "Experimental. Arma.",
-        "attack_text": "<b>Interrupción obligada:</b> cuando el Villano vinculado ataque, ese ataque gana A distancia."
-    },
-    {
-        "code": "04073",
-        "flavor": "\"Nunca convencerás al Capi de que un escudo de energía es mejor que su viejo disco arrojadizo.\" -- Carol Danvers",
-        "name": "Escudo de energía",
-        "text": "Vincula esta carta al Villano.\nEl Villano vinculado gana Represalia 1.\n<b>Acción de Héroe:</b> gasta recursos [energy][mental] → descarta esta carta.",
-        "traits": "Experimental. Arma."
-    },
-    {
-        "code": "04074",
-        "name": "Servopuños",
-        "text": "Vincula esta carta al Villano.\n<b>Acción de Héroe:</b> gasta recursos [mental][physical] → descarta esta carta.",
-        "traits": "Experimental. Arma.",
-        "attack_text": "<b>Respuesta obligada:</b> después de que el Villano vinculado ataque y te inflija Daño, descarta 1 carta de tu mano."
-    },
-    {
-        "code": "04075",
-        "flavor": "\"Jamás debí compartir mi tecnologóa con S.H.I.E.L.D.\" -- Tony Stark",
-        "name": "Exoarmadura",
-        "text": "Vincula esta carta al Villano.\n<b>Acción de Héroe:</b> gasta recursos [energy][mental][physical] → descarta esta carta.",
-        "traits": "Experimental. Arma."
-    },
-    {
-        "code": "04076",
-        "flavor": "\"¿Sabes que una vez le di una paliza a Thor? Imagínatelo: 'Aplastador' Creel, triunfante, con el Dios del Trueno tirado a sus pies. ¿Y te crees que tú me asustas?\"",
-        "name": "Hombre Absorbente",
-        "text": "El Hombre Absorbente gana el rasgo de todo Entorno que haya en juego.",
-        "traits": "Bruto."
-    },
-    {
-        "code": "04077",
-        "name": "Hombre Absorbente",
-        "text": "El Hombre Absorbente gana el rasgo de todo Entorno que haya en juego.\n<b>Cuando se muestre esta carta:</b> si está en juego Poder de absorción superior, dale 1 carta de Encuentro a cada jugador. De no ser así, busca Poder de absorción superior en el mazo y la pila de descartes de Encuentros y muéstralo. Baraja el mazo de Encuentros si se ha buscado en él de este modo.",
-        "traits": "Bruto."
-    },
-    {
-        "code": "04078",
-        "name": "Hombre Absorbente",
-        "text": "El Hombre Absorbente gana el rasgo de todo Entorno que haya en juego.\n",
-        "traits": "Bruto.",
-        "attack_text": "<b>Respuesta obligada:</b> después de que el Hombre Absorbente se active contra ti, si tiene los rasgos:\n- [[HIELO]] o [[PIEDRA]], coloca 1 de Amenaza sobre el Plan principal.\n- [[METAL]] o [[MADERA]], sufres 1 de Daño indirecto.",
-        "scheme_text": "<b>Respuesta obligada:</b> después de que el Hombre Absorbente se active contra ti, si tiene los rasgos:\n- [[HIELO]] o [[PIEDRA]], coloca 1 de Amenaza sobre el Plan principal.\n- [[METAL]] o [[MADERA]], sufres 1 de Daño indirecto."
-    },
-    {
-        "code": "04079",
-        "name": "Por aquí no pasa nadie",
-        "text": "<b>[star] Respuesta obligada:</b> después de resolver el paso uno de la fase del Villano, coloca 1 contador de Demora sobre esta carta.\n<b>Interrupción obligada:</b> cuando entre en juego un Entorno, descarta todos los demás Entornos que haya en juego.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
-        "back_text": "<b>Contenido:</b> Hombre Absorbente (I) y Hombre Absorbente (II). Conjuntos de Encuentros del Hombre Absorbente y Normal. Un conjunto de Encuentros modular <em>(Patrulla de Hydra).</em>\n<b>Preparación:</b> descarta cartas del mazo de Encuentros hasta que se descarte un Entorno. Pon en juego esa carta y baraja el mazo de Encuentros junto con su pila de descartes."
-    },
-    {
-        "code": "04080",
-        "name": "Bosque frondoso",
-        "text": "Oleada.\n<b>Respuesta obligada:</b> después de que el Hombre Absorbente realice un ataque no defendido contra ti, sufres 1 de Daño indirecto (2 de Daño indirecto si hay al menos 5 contadores de Demora sobre el Plan principal).",
-        "traits": "Madera.",
-        "boost_text": "Put this card into play."
-    },
-    {
-        "code": "04081",
-        "name": "Colina nevada",
-        "text": "Oleada.\n<b>Respuesta obligada:</b> después de que el Hombre Absorbente realice un ataque no defendido contra ti, coloca 1 de Amenaza sobre el Plan principal (2 de Amenaza si hay al menos 5 contadores de Demora sobre el Plan principal).",
-        "traits": "Hielo.",
-        "boost_text": "pon en juego esta carta."
-    },
-    {
-        "code": "04082",
-        "name": "Promontorio rocoso",
-        "text": "Oleada.\n<b>Respuesta obligada:</b> después de que el Hombre Absorbente realice un ataque no defendido contra ti, cúrale 1 de Daño (2 de Daño indirecto si hay al menos 5 contadores de Demora sobre el Plan principal).",
-        "traits": "Piedra.",
-        "boost_text": "pon en juego esta carta."
-    },
-    {
-        "code": "04083",
-        "name": "Complejo abandonado",
-        "text": "Oleada.\n<b>Respuesta obligada:</b> después de que el Hombre Absorbente realice un ataque no defendido contra ti, descarta 1 icono de recurso de tu mano (2 iconos de recurso si hay al menos 5 contadores de Demora sobre el Plan principal).",
-        "traits": "Metal.",
-        "boost_text": "pon en juego esta carta."
-    },
-    {
-        "code": "04084",
-        "name": "Bola y cadena",
-        "text": "Vincula esta carta al Hombre Absorbente.\n<b>Acción de Héroe:</b> gasta un recurso [physical] → añade esta carta al mazo de Encuentros y barájalo.",
-        "traits": "Arma.",
-        "boost_text": "muestra esta carta."
-    },
-    {
-        "code": "04085",
-        "name": "Tácticas dilatorias",
-        "text": "<b>Cuando se muestre esta carta:</b> coloca 1 de Amenaza sobre el Plan principal por cada 2 contadores de Demora que haya sobre el Plan principal. Si no se coloca Amenaza de este modo, esta carta gana Oleada.",
-        "boost_text": "si hay al menos 5 contadores de Demora sobre el Plan principal, sufres 1 de Daño indirecto."
-    },
-    {
-        "code": "04086",
-        "name": "Barrido pétreo",
-        "text": "<b>Cuando se muestre esta carta (Alter ego):</b> el Hombre Absorbente ejecuta el Plan. Si el Hombre Absorbente posee el rasgo [[PIEDRA]], recibe +1 PLA para esta activación.\n<b>Cuando se muestre esta carta (Héroe):</b> el Hombre Absorbente te ataca. Si el Hombre Absorbente posee el rasgo [[PIEDRA]], recibe +1 ATQ para esta activación."
-    },
-    {
-        "code": "04087",
-        "name": "Patada de acero",
-        "text": "<b>Cuando se muestre esta carta (Alter ego):</b> coloca 2 de Amenaza sobre el Plan principal (3 de Amenaza si el Hombre Absorbente posee el rasgo [[Metal]].)\n<b>Cuando se muestre esta carta (Héroe):</b> sufres 3 de Daño indirecto (4 de Daño indirecto si el Hombre Absorbente posee el rasgo [[Metal]].)"
-    },
-    {
-        "code": "04088",
-        "name": "Espinas perforantes",
-        "text": "<b>Cuando se muestre esta carta:</b> descarta 1 carta de tu mano al azar. Si el Hombre Absorbente posee el rasgo [[MADERA]], descarta 1 carta que controles.",
-        "boost_text": "si el Hombre Absorbente posee los rasgos [[PIEDRA]] o [[MADERA]], quedas aturdido."
-    },
-    {
-        "code": "04089",
-        "name": "Duplicación omnimórfica",
-        "text": "<b>Cuando se muestre esta carta:</b> si el Hombre Absorbente posee el rasgo:\n- [[HIELO]], agota tu carta de Superhéroe.\n- [[METAL]], dale al Hombre Absorbente una carta de Estado \"Duro\" y cúrale 1 de Daño.\n- [[PIEDRA]], dale al Hombre Absorbente 1 carta de aumento boca abajo.\n- [[MADERA]], descarta 1 carta de tu mano al azar."
-    },
-    {
-        "code": "04090",
-        "name": "Presa gélida",
-        "text": "<b>Cuando se muestre esta carta:</b> quedas aturdido. Si el Hombre Absorbente posee el rasgo [[HIELO]], sufres 2 de Daño indirecto.",
-        "boost_text": "si el Hombre Absorbente posee los rasgos [[HIELO]] o [[METAL]], dale una carta de Estado \"Duro\"."
-    },
-    {
-        "code": "04091",
-        "name": "¡Avalancha!",
-        "text": "<b>Cuando se muestre esta carta:</b> cada jugador debe elegir entre gastar un recurso [energy] o bien sufrir 2 de Daño indirecto (3 de Daño indirecto si hay al menos 5 contadores de Demora sobre el Plan principal.)"
-    },
-    {
-        "code": "04092",
-        "flavor": "Creel posee la habilidad de absorber las propiedades de varios materiales al mismo tiempo, pero esto le exige una intensa concentración.",
-        "name": "Poder de absorción superior",
-        "text": "El Hombre Absorbente gana los rasgos [[HIELO]], [[METAL]], [[PIEDRA]], y [[MADERA]].",
-        "boost_text": "muestra esta carta."
-    },
-    {
-        "code": "04093",
-        "flavor": "\"No hay nada de lo que haces que yo no pueda hacer mejor que tú.\"",
-        "name": "Supervisor",
-        "text": "<b>Respuesta obligada:</b> después de que un jugador adopte su identidad de Héroe, ese jugador descarta la primera carta del mazo de Encuentros y sufre tanto Daño como el número de iconos de Aumento que haya en esa carta.",
-        "traits": "Hydra. Mercenario."
-    },
-    {
-        "code": "04094",
-        "name": "Supervisor",
-        "text": "<b>Cuando se muestre esta carta:</b> dale una carta de Encuentro a cada jugador.\n<b>Respuesta obligada:</b> después de que un jugador adopte su identidad de Héroe, ese jugador descarta la primera carta del mazo de Encuentros y sufre tanto Daño como el número de iconos de Aumento que haya en esa carta.",
-        "traits": "Hydra. Mercenario."
-    },
-    {
-        "code": "04095",
-        "name": "Supervisor",
-        "text": "<b>Cuando se muestre esta carta:</b> dale una carta de Encuentro a cada jugador.\n<b>Respuesta obligada:</b> después de que un jugador adopte su identidad de Héroe, ese jugador descarta la primera carta del mazo de Encuentros y sufre tanto Daño como el número de iconos de Aumento que haya en esa carta.",
-        "traits": "Hydra. Mercenario."
-    },
-    {
-        "code": "04096",
-        "flavor": "El infame Supervisor ha sido nombrado jefe de policía en el nuevo régimen de Hydra. Su principal prioridad consiste en dar caza a los héroes proscritos.",
-        "name": "A la caza del héroe",
-        "text": "<b>[star] Respuesta obligada:</b> después de resolver el paso uno de la fase del Villano, cada jugador que tenga adoptada su identidad de Héroe debe elegir entre colocar 1 de Amenaza sobre esta carta o bien sufrir 1 de Daño.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
-        "back_text": "<b>Contenido:</b> Supervisor (I) y Supervisor (II). Conjuntos de Encuentros del Supervisor, Patrulla de Hydra y Normal. Un conjunto de Encuentros modular <em>(Maestro de armas).</em>\n<b>Preparación:</b> aparta todos los Aliados [[CAUTIVO]] a un lado, fuera del juego. Busca la carta Patrulla de Hydra en el mazo de Encuentros y ponla en juego. Baraja el mazo de Encuentros."
-    },
-    {
-        "code": "04097",
-        "flavor": "\"Hydra se hizo con el poder tan deprisa que aquello no parecía real.\"",
-        "name": "Caballero Luna",
-        "text": "<b>Respuesta:</b> después de que juegues al Caballero Luna desde tu mano, gasta un recurso [wild] → roba 2 cartas.",
-        "traits": "Cautivo. Héroe de alquiler.",
-        "subname": "Marc Spector"
-    },
-    {
-        "code": "04098",
-        "name": "Shang-Chi",
-        "text": "<b>Response:</b> After you play Shang-Chi from your hand, spend a [energy] resource → stun an enemy.",
-        "traits": "Captive. Hero for Hire."
-    },
-    {
-        "code": "04099",
-        "name": "Tigre Blanco",
-        "text": "<b>Respuesta:</b> después de que juegues a Tigre Blanco desde tu mano, gasta un recurso [mental] → quita 3 de Amenaza de un Plan.",
-        "traits": "Cautivo. Héroe de alquiler.",
-        "subname": "Angela Del Toro",
-        "flavor": "\"Cuando Hydra subió al poder e ilegalizó los superhéroes, un vecino me delató al nuevo jefe de policía.\""
-    },
-    {
-        "code": "04100",
-        "flavor": "\"Me atraparon intentando ayudar a unos civiles a escapar de una patrulla de Hydra. Resultó que los civiles eran agentes de paisano en una operación encubierta.\"",
-        "name": "Elektra",
-        "text": "<b>Respuesta:</b> después de que juegues a Elektra desde tu mano, gasta un recurso [physical] → inflige 3 de Daño a un enemigo.",
-        "traits": "Cautivo. Héroe de alquiler."
-    },
-    {
-        "code": "04101",
-        "name": "Cazador de Hydra",
-        "traits": "Hydra.",
-        "attack_text": "Los ataques del Cazador de Hydra ganan A distancia y Penetrante.",
-        "boost_text": "si tienes adoptada tu identidad de Héroe, sufres 1 de Daño. De no ser así, coloca 1 de Amenaza sobre el Plan principal."
-    },
-    {
-        "code": "04102",
-        "name": "Espada del Supervisor",
-        "text": "Vincula esta carta al Supervisor.\n<b>Acción de Héroe:</b> agota tu Héroe y gasta recursos [mental][physical] → descarta esta carta.",
-        "traits": "Arma.",
-        "attack_text": "Los ataques del Supervisor ganan Penetrante."
-    },
-    {
-        "code": "04103",
-        "flavor": "\"Aprendí este movimiento del capitán América.\" -- Supervisor",
-        "name": "Escudo del Supervisor",
-        "text": "Vincula esta carta al Supervisor.\nEl Supervisor gana Represalia 1.\n<b>Acción de Héroe:</b> agota tu Héroe y gasta recursos [mental][physical] → descarta esta carta.",
-        "traits": "Armadura. Arma."
-    },
-    {
-        "code": "04104",
-        "name": "Reflejos fotográficos",
-        "text": "Vincula esta carta al Supervisor.\n<b>Interrupción obligada:</b> cuando un jugador ataque al Supervisor, se evita todo el Daño que vaya a infligir al Supervisor y se inflige esa misma cantidad de Daño a la carta de Superhéroe de ese jugador. Luego descarta Reflejos fotográficos. (Máximo de una vez por ataque.)"
-    },
-    {
-        "code": "04105",
-        "name": "Imitación",
-        "text": "<b>Cuando se muestre esta carta (Alter ego):</b> descarta las 5 primeras cartas de tu mazo. Si se ha descartado de este modo una carta con [[INTERVENCIÓN]], el Supervisor ejecuta el Plan.\n<b>Cuando se muestre esta carta (Héroe):</b> descarta las 5 primeras cartas de tu mazo. Si se ha descartado de este modo una carta con [[ATAQUE]], el Supervisor te ataca."
-    },
-    {
-        "code": "04106",
-        "flavor": "\"Es mal momento para ser héroe.\" -- Bucky Barnes",
-        "name": "Perseguidos por Hydra",
-        "text": "Incitar 1. <em>(Cuando se muestre esta carta, coloca 1 de Amenaza sobre el Plan principal.)</em>\n<b>Cuando se muestre esta carta:</b> cada jugador que tenga adoptada su identidad de Héroe sufre 1 de Daño y descarta 1 carta de su mano al azar."
-    },
-    {
-        "code": "04107",
-        "name": "Capturado por Hydra",
-        "text": "<b>Cuando se muestre esta carta:</b> coloca boca abajo y debajo de este Plan 1 Aliado [[CAUTIVO]] al azar que esté apartado. Cuando se derrote este Plan, el jugador que lo haya derrotado añade ese Aliado a su mano y retira del juego este Plan."
-    },
-    {
-        "code": "04108",
-        "flavor": "El Supervisor únicamente acepta a los mejores reclutas en su cuerpo de policía. Todo soldado de Hydra que desea alistarse debe sobrevivir primero a su campo de instrucción.",
-        "name": "Campamento de instrucción del Supervisor",
-        "text": "<b>Respuesta obligada:</b> después de que entre en juego un Esbirro, dale una carta de Estado \"Duro\"."
-    },
-    {
-        "code": "04109",
-        "flavor": "\"¡Mi programa de mutados transformará estas patéticas criaturas en soldados de choque de élite para Hydra!\"",
-        "name": "Zola",
-        "text": "Represalia 1.",
-        "traits": "Androide. Hydra."
-    },
-    {
-        "code": "04110",
-        "name": "Zola",
-        "text": "Represalia 1.\n<b>Cuando se muestre esta carta:</b> busca el Plan secundario \"Sujetos de prueba\" en el mazo y la pila de descartes de Encuentros y muéstralo. Baraja el mazo de Encuentros.",
-        "traits": "Androide. Hydra."
-    },
-    {
-        "code": "04111",
-        "name": "Zola",
-        "text": "Represalia 1.\n<b>Cuando se muestre esta carta:</b> cada jugador busca un Esbirro en el mazo y la pila de descartes de Encuentros y lo muestra. Baraja el mazo de Encuentros.",
-        "traits": "Androide. Hydra."
-    },
-    {
-        "code": "04112",
-        "name": "La isla del doctor Zola",
-        "text": "<b>[star] Respuesta obligada:</b> después de resolver el paso uno de la fase del Villano, coloca 1 contador de Prueba sobre esta carta. Luego, si hay al menos 3 contadores de Prueba sobre esta carta, descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Esbirro. Pon en juego ese Esbirro enfrentado al jugador inicial y quita 3 contadores de Prueba de este Plan.",
-        "back_text": "<b>Contenido:</b> Zola (I) y Zola (II). Conjuntos de Encuentros de Zola y Normal. Un conjunto de Encuentros modular <em>(Civiles en peligro).</em>\n<b>Preparación:</b> busca la carta Prisión de Hydra en el mazo de Encuentros y muéstrala. Cada jugador busca en el mazo de Encuentros una copia del Biosiervo definitivo y la pone en juego enfrentada a él. Baraja el mazo de Encuentros."
-    },
-    {
-        "code": "04113",
-        "name": "El científico loco",
-        "text": "<b>[star] Respuesta obligada:</b> después de resolver el paso uno de la fase del Villano, coloca 1 contador de Prueba sobre esta carta. Luego, si hay al menos 3 contadores de Prueba sobre esta carta, descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Esbirro. Pon en juego ese Esbirro enfrentado al jugador inicial y quita 3 contadores de Prueba de este Plan..\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
-        "back_text": "<b>Cuando se muestre esta carta:</b> cada jugador busca un Esbirro en el mazo y la pila de descartes de Encuentros y lo muestra. Baraja el mazo de Encuentros.",
-        "back_flavor": "Los mutados de Zola os atacan con obediencia ciega y furia salvaje. ¡De vosotros depende poner fin a esta pesadilla antes de que el científico loco la desate sobre el mundo!"
-    },
-    {
-        "code": "04114",
-        "name": "Biosiervo definitivo",
-        "text": "Dureza.",
-        "traits": "Hydra. Mutado.",
-        "attack_text": "El Biosiervo definitivo recibe +1 ATQ por cada Accesorio que tenga vinculado.",
-        "boost_text": "dale al Villano una carta de Estado \"Duro\"."
-    },
-    {
-        "code": "04115",
-        "name": "Mutado de Zola",
-        "text": "<b>Cuando se muestre esta carta:</b> descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Accesorio [[TECNOLOGÍA]]. Vincula esta carta al Mutado de Zola.",
-        "traits": "Hydra. Mutado.",
-        "boost_text": "añade el Mutado de Zola al mazo de Encuentros y barájalo."
-    },
-    {
-        "code": "04116",
-        "name": "Mutado rabioso",
-        "text": "Ataque veloz.",
-        "traits": "Hydra. Mutado.",
-        "boost_text": "coloca 1 contador de Prueba sobre el Plan principal. Por cada contador de Prueba que haya sobre el Plan principal, Zola recibe +1 PLA y +1 ATQ para esta activación."
-    },
-    {
-        "code": "04117",
-        "name": "Programación defensiva",
-        "text": "Vincula esta carta al Esbirro que tenga más Vida restante y que no tenga ya vinculada otra copia de Programación defensiva. Si no puedes hacerlo, esta carta gana Oleada.\nEl Esbirro vinculado recibe +2 de Vida y gana Guardia.",
-        "traits": "Tecnología."
-    },
-    {
-        "code": "04118",
-        "name": "Inhibidores del dolor",
-        "text": "Vincula esta carta al Esbirro que tenga más Vida restante y que no tenga ya vinculada otra copia de Inhibidores del dolor. Si no puedes hacerlo, esta carta gana Oleada.\nEl Esbirro vinculado recibe +2 de Vida y gana Represalia 1.",
-        "traits": "Tecnología."
-    },
-    {
-        "code": "04119",
-        "name": "Implantes neurológicos",
-        "text": "Vincula esta carta al Esbirro que tenga más Vida restante y que no tenga ya vinculada otra copia de Implantes neurológicos. Si no puedes hacerlo, esta carta gana Oleada.\nEl Esbirro vinculado recibe +2 de Vida.",
-        "traits": "Tecnología."
-    },
-    {
-        "code": "04120",
-        "flavor": "\"¿Creías que Zola estaba indefenso? ¡Necio arrogante!\" -- Arnim Zola",
-        "name": "Rayo mental",
-        "text": "<B>Cuando se muestre esta carta (Alter ego):</b> Zola ejecuta el Plan. Quedas confundido.\n<b>Cuando se muestre esta carta (Héroe):</b> Zola te ataca. Quedas aturdido."
-    },
-    {
-        "code": "04121",
-        "name": "Mejoras tecnológicas",
-        "text": "Incitar 1.\n<b>Cuando se muestre esta carta:</b> coloca 1 contador de Prueba sobre el Plan principal.",
-        "boost_text": "coloca 1 contador de Prueba sobre el Plan principal."
-    },
-    {
-        "code": "04122",
-        "name": "Prisión de Hydra",
-        "text": "<b>Cuando se muestre esta carta:</b> cada jugador busca en su mano, su mazo y su pila de descartes un Aliado de un Héroe específico y lo coloca boca abajo debajo de este Plan. Coloca X de Amenaza sobre este Plan, siendo X el coste total de todos los Aliados que tenga debajo. Cada jugador baraja su mazo.\n<b>Cuando se derrote esta carta:</b> este Plan se retira del juego y todos los Aliados que tenga debajo se devuelven a las manos de sus propietarios."
-    },
-    {
-        "code": "04123",
-        "flavor": "Es un destino peor que la muerte.",
-        "name": "Sujetos de prueba",
-        "text": "<b>Cuando se derrote esta carta:</b> el jugador inicial descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Esbirro. Muestra ese Esbirro."
-    },
-    {
-        "code": "04124",
-        "flavor": "El científico loco nunca se cansa de experimentar con sus víctimas.",
-        "name": "Los experimentos de Zola",
-        "text": "<b>Respuesta obligada:</b> después de que entre en juego un Esbirro, vincúlale el primer Accesorio [[TECNOLOGÍA]] que haya en la pila de descartes del mazo de Encuentros."
-    },
-    {
-        "code": "04125",
-        "flavor": "\"¡La liberta es tan sólo para los que gobiernan! ¡Todos los demás deben ser esclavos!\"",
-        "name": "Cráneo Rojo",
-        "traits": "Hydra.",
-        "attack_text": "Cráneo Rojo recibe +1 ATQ por cada Plan secundario que haya en juego."
-    },
-    {
-        "code": "04126",
-        "flavor": "\"¡Nadie se interpondrá en mis planes!\"",
-        "name": "Cráneo Rojo",
-        "text": "<b>Cuando se muestre esta carta:</b> dale una carta de Encuentro a cada jugador.",
-        "traits": "Hydra.",
-        "attack_text": "Cráneo Rojo recibe +1 ATQ por cada Plan secundario que haya en juego."
-    },
-    {
-        "code": "04127",
-        "flavor": "\"¡El mundo entero se postrará ante Cráneo Rojo!\"",
-        "name": "Cráneo Rojo",
-        "text": "<b>Cuando se muestre esta carta:</b> dale una carta de Encuentro a cada jugador.",
-        "traits": "Hydra.",
-        "attack_text": "Cráneo Rojo recibe +1 ATQ por cada Plan secundario que haya en juego."
-    },
-    {
-        "code": "04128",
-        "flavor": "Cráneo Rojo planea conquistar el mundo con el poder de la Gema de la Realidad. El villano emplea sus excepcionales dotes de estratega para manteneros ocupados mientras él pone en marcha sus planes.",
-        "name": "La tiranía de Cráneo Rojo",
-        "text": "<b>[star] Respuesta obligada:</b> después de resolver el paso uno de la fase del Villano, muestra la primera carta del mazo de Planes secundarios y ponla en juego.",
-        "back_text": "<b>Contenido:</b> Cráneo Rojo (I) y Cráneo Rojo (II). Conjuntos de Encuentros de Cráneo Rojo y Normal. Dos conjuntos de Encuentros modulares <em>(Asalto de Hydra y Patrulla de Hydra).</em>\n<b>Preparación:</b> pon en juego La Casa Roja. Añade todos los demás Planes secundarios al mazo de Planes secundarios, barájalo y colócalo junto al mazo de Encuentros (ver cuaderno de reglas).\nAparta El Durmiente a un lado, fuera del juego."
-    },
-    {
-        "code": "04129",
-        "name": "El nuevo mundo de Hydra",
-        "text": "<b>[star] Respuesta obligada:</b> después de resolver el paso uno de la fase del Villano, muestra la primera carta del mazo de Planes secundarios y ponla en juego.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
-        "back_text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Planes secundarios y ponla en juego.",
-        "back_flavor": "Cráneo Rojo está un paso más cerca de dominar el poder de la piedra del infinito en toda su plenitud. Tenéis que detenerlo antes de que lo consiga y moldee la realidad a su maligna voluntad."
-    },
-    {
-        "code": "04130",
-        "name": "El Durmiente",
-        "text": "Guardia. Represalia 1. Dureza.\n<b>Cuando se muestre esta carta:</b> El Durmiente se enfrenta al jugador inicial.\n<b>Cuando se derrote esta carta:</b> retira del juego El Durmiente.",
-        "traits": "Élite. Hydra. Robot."
-    },
-    {
-        "code": "04131",
-        "flavor": "\"Cuidado, equipo. ¡Estos tíos pegan duro!\" -- Capitán América",
-        "name": "Soldado de Hydra con exoarmadura",
-        "text": "Dureza.",
-        "traits": "Hydra.",
-        "boost_text": "dale al Villano una carta de Estado \"Duro\" y otra carta de aumento."
-    },
-    {
-        "code": "04132",
-        "name": "Luger de Cráneo Rojo",
-        "text": "Vincula esta carta a Cráneo Rojo.\n<b>Acción de Héroe:</b> gasta recursos [energy][mental][physical] → descarta esta carta.",
-        "traits": "Arma.",
-        "attack_text": "Los ataques de Cráneo Rojo ganan A distancia y Penetrante.",
-        "boost_text": "vincula esta carta a Cráneo Rojo."
-    },
-    {
-        "code": "04133",
-        "flavor": "\"¡Soy superior a ti en todos los aspectos!\" -- Cráneo Rojo",
-        "name": "Derechazo de Cráneo Rojo",
-        "text": "Vincula esta carta a Cráneo Rojo.\nCráneo Rojo gana Represalia 1.\n<b>Acción de Héroe:</b> gasta recursos [energy][mental][physical] → descarta esta carta.",
-        "traits": "Habilidadad."
-    },
-    {
-        "code": "04134",
-        "flavor": "\"En el ajedrez, la única pieza que realmente importa es el rey, y ése soy yo.\" -- Cráneo Rojo",
-        "name": "Estratega consumado",
-        "text": "Vincula esta carta a Cráneo Rojo.",
-        "traits": "Habilidadad.",
-        "attack_text": "<b>Interrupción obligada:</b> cuando Cráneo Rojo se active, dale una carta de aumento adicional por cada Plan secundario que haya en juego. Luego descarta esta carta. (Máximo una vez por activación.)",
-        "scheme_text": "<b>Interrupción obligada:</b> cuando Cráneo Rojo se active, dale una carta de aumento adicional por cada Plan secundario que haya en juego. Luego descarta esta carta. (Máximo una vez por activación.)"
-    },
-    {
-        "code": "04135",
-        "flavor": "La piedra del infinito otorga a Cráneo Rojo el poder de moldear la realidad a su antojo.",
-        "name": "Realidad distorsionada",
-        "text": "Incitar 1.\nVincula esta carta a un Plan secundario.\n<b>Respuesta obligada:</b> cuando el Plan secundario vinculado sea derrotado, dale una carta de Encuentro al jugador inicial.",
-        "traits": "Alteración."
-    },
-    {
-        "code": "04136",
-        "flavor": "\"¡Éste será tu final, Herr Capitán!\" -- Cráneo Rojo",
-        "name": "Enemigo acérrimo",
-        "text": "<b>Cuando se muestre esta carta:</b> agota un personaje que controles por cada Plan secundario que haya en juego.",
-        "boost_text": "agota un personaje que controles."
-    },
-    {
-        "code": "04137",
-        "flavor": "\"¡Gracias a mi incomparable astucia, la supremacía de Hydra será absoluta!\" -- Cráneo Rojo",
-        "name": "Difundir mentiras",
-        "text": "<b>Cuando se muestre esta carta:</b> coloca 2 de Amenaza sobre cada Plan que haya en juego.",
-        "boost_text": "dale a Cráneo Rojo una carta de estado \"Duro\"."
-    },
-    {
-        "code": "04138",
-        "name": "Poder infinito",
-        "text": "<b>Cuando se muestre esta carta (Alter ego):</b> dale a Cráneo Rojo una carta de Estado \"Duro\". Cráneo Rojo ejecuta el Plan.\n<b>Cuando se muestre esta carta (Héroe):</b> dale a Cráneo Rojo una carta de Estado \"Duro\". Cráneo Rojo te ataca."
-    },
-    {
-        "code": "04139",
-        "flavor": "Cráneo Rojo ha erigido su fortaleza sobre la Casa Blanca como símbolo de la supremacía de Hydra sobre los Estados Unidos.",
-        "name": "La Casa Roja",
-        "text": "Cráneo Rojo no puede sufrir Daño.\n<b>Interrupción:</b> cuando un personaje intervenga contra este Plan secundario, puede usar su ATQ en vez de su INT."
-    },
-    {
-        "code": "04140",
-        "flavor": "El Durmiente ha despertado y se alza de las profundidades del río Potomac para responder a la llamada de Cráneo Rojo.",
-        "name": "El Durmiente ha despertado",
-        "text": "Este Plan no puede abandonar el juego mientras El Durmiente esté en juego.\n<b>Cuando se muestre esta carta:</b> pon en juego El Durmiente enfrentado al jugador inicial. Cuando El Durmiente sea derrotado, retira esta carta del juego."
-    },
-    {
-        "code": "04141",
-        "flavor": "Bajo el régimen de Hydra, familias enteras son separadas y encarceladas sin un juicio justo.",
-        "name": "Campos de concentración",
-        "text": "<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan busca un Aliado en su mazo y su pila de descartes, lo pone en juego y luego baraja su mazo."
-    },
-    {
-        "code": "04142",
-        "flavor": "Hydra controla todos los medios de comunicación y recurre a la propaganda para enfrentar a la opinión pública contra los antiguos héroes.",
-        "name": "Censurar el pasado",
-        "text": "<b>Cuando se derrote esta carta:</b> cada jugador elige hasta 3 cartas de su pila de descartes, las añade a su mazo y lo baraja."
-    },
-    {
-        "code": "04143",
-        "flavor": "Hydra compensa la falta de aptitudes de sus tropas con una ingente superioridad numérica.",
-        "name": "Refuerzos de Hydra",
-        "text": "<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan descarta un Esbirro que no sea de [[ÉLITE]]."
-    },
-    {
-        "code": "04144",
-        "flavor": "Cráneo Rojo provoca catástrofes por todo el país para mantener ocupados a sus enemigos.",
-        "name": "Caos generalizado",
-        "text": "<b>Cuando se muestre esta carta:</b> cada jugador descarta las 5 primeras cartas de su mazo y coloca 1 de Amenaza sobre esta carta por cada tipo distinto de icono de recurso ([energy],[mental],[physical], o [wild]) que haya descartado de este modo."
-    },
-    {
-        "code": "04145",
-        "name": "Soldado de Hydra con lanzallamas",
-        "traits": "Hydra.",
-        "attack_text": "<B>Respuesta obligada:</b> después de que el Soldado de Hydra con lanzallamas efectúe un ataque no defendido contra ti, descarta un Apoyo que controles.",
-        "boost_text": "si esta carta se resuelve durante un ataque no defendido, descarta un Apoyo que controles."
-    },
-    {
-        "code": "04146",
-        "name": "Soldado colador de Hydra",
-        "text": "Ataque veloz.",
-        "traits": "Hydra.",
-        "boost_text": "si tienes adoptada tu identidad de Héroe, el Villano te ataca después de esta activación. No des al Villano cartas de aumento para ese ataque."
-    },
-    {
-        "code": "04147",
-        "name": "¡Hail, Hydra!",
-        "text": "<b>Cuando se muestre esta carta:</b> todo Esbirro [[Hydra]] que esté enfrentado a un Héroe ataca a ese Héroe. Cada jugador que no sea atacado de este modo busca un Esbirro [[Hydra]] en el mazo y la pila de descartes de Encuentros y lo pone en juego enfrentado a él. Baraja el mazo de Encuentros si se ha buscado en él."
-    },
-    {
-        "code": "04148",
-        "name": "Cuchillo de combate",
-        "text": "Vincula esta carta al Villano.\n<b>Acción de Héroe:</b> gasta recursos [mental][physical] → descarta esta carta.",
-        "traits": "Arma.",
-        "attack_text": "Los ataques del Villano vinculado ganan Penetrante."
-    },
-    {
-        "code": "04149",
-        "name": "Arma corta de Hydra",
-        "text": "Vincula esta carta al Villano.\n<b>Acción de Héroe:</b> gasta recursos [mental][physical] → descarta esta carta.",
-        "traits": "Arma.",
-        "attack_text": "<b>Interrupción obligada:</b> cuando el Villano vinculado ataque, ese ataque gana A distancia."
-    },
-    {
-        "code": "04150",
-        "name": "Maestro de armas",
-        "text": "<b>Cuando se muestre esta carta (Alter ego):</b> el Villano ejecuta el Plan. Si tiene un Accesorio [[ARMA]], esta carta gana Oleada.\n<b>Cuando se muestre esta carta (Héroe):</b> el Villano te ataca. Si tiene un Accesorio [[ARMA]], esta carta gana Oleada."
-    },
-    {
-        "code": "04151",
-        "name": "Granada de conmoción",
-        "text": "<b>Cuando se muestre esta carta (Alter ego):</b> quedas confundido. Coloca 1 de Amenaza sobre el Plan principal (2 de Amenaza si ya estabas confundido).\n<b>Cuando se muestre esta carta (Héroe):</b> quedas aturdido. Inflige 1 de Daño a tu Héroe (2 de Daño si ya estabas aturdido)."
-    },
-    {
-        "code": "04152",
-        "flavor": "\"Teniendo en cuenta qué tipo de personas se unirían a una organización terrorista obsesionada con dominar el mundo, es obvio por qué las tropas de Hydra dejan tanto que desear.\" -- Jessica Drew",
-        "name": "Tropa de Hydra",
-        "text": "Incitar 1. <em>(Cuando se muestre esta carta, coloca 1 de Amenaza sobre el Plan principal.)</em>",
-        "traits": "Hydra."
-    },
-    {
-        "code": "04153",
-        "name": "Soldado de Hydra",
-        "text": "Guardia.<em>(Mientras este Esbirro esté enfrentado a ti, no podrás atacar al Villano.)</em>\n<b>Cuando se derrote esta carta:</b> reparte una carta de Encuentro al jugador enfrentado.",
-        "traits": "Hydra."
-    },
-    {
-        "code": "04154",
-        "flavor": "Los soldados de Hydra organizan patrullas rutinarias para mantener el control en su territorio.",
-        "name": "Patrulla de Hydra",
-        "text": "<b>Cuando se derrote esta carta:</b> cada jugador busca un Esbirro [[HYDRA]] en el mazo y la pila de descartes de Encuentros y lo pone en juego enfrentado a él. Baraja el mazo de Encuentros."
-    },
-    {
-        "code": "10098",
-        "flavor": "\"Un equipo de asalto de Hydra irrumpió en mi casa mientras meditaba. Los eché a patadas, pero fuera había otras dos unidades esperándome.\"",
-        "name": "Shang-Chi",
-        "text": "<b>Respuesta:</b> después de que juegues a Shang-Chi desde tu mano, gasta un recurso [energy] → aturde a un enemigo.",
-        "traits": "Cautivo. Héroe de alquiler."
-    }
+	{
+		"code": "04026",
+		"name": "Pasado criminal",
+		"text": "<b><i>Dale esta carta al jugador que lleva a Clint Barton.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n- Agota a Clint Barton → retira del juego Pasado criminal.\n- Descarta del juego el Arco de Ojo de Halcón. Descarta esta Obligación."
+	},
+	{
+		"attack_text": "Los ataques de Fuego Cruzado ganan Penetrante.",
+		"boost_text": "<b>Aumento:</b> si este aumento se resuelve durante un ataque, dicho ataque gana Penetrante.",
+		"code": "04027",
+		"name": "Fuego Cruzado",
+		"text": "Ataque veloz.",
+		"traits": "Mercenario."
+	},
+	{
+		"code": "04028",
+		"name": "En el punto de mira",
+		"text": "<b>Cuando se muestre esta carta:</b> el jugador que lleva a Clint Barton busca a Pájaro Burlón en su mano, su mazo, su pila de descartes y su zona de juego, y la coloca boca arriba debajo de esta carta. Cuando se derrote esta etapa del Plan, devuelve Pájaro Burlón a la mano de su propietario."
+	},
+	{
+		"attack_text": "Cuando el enemigo vinculado ataque, ese ataque gana A distancia.",
+		"code": "04029",
+		"name": "Fusil de Fuego Cruzado",
+		"text": "Vincula esta carta a Fuego Cruzado. De no ser así, vincula esta carta al Villano.\n<b>Acción de Héroe:</b> agota tu Héroe y gasta un recurso [wild] → descarta el Fusil de Fuego Cruzado.",
+		"traits": "Arma."
+	},
+	{
+		"code": "04030",
+		"flavor": "\"Me gusta dejar que corran un poco antes de dispararles.\" -- Fuego Cruzado",
+		"name": "Disparo de francotirador",
+		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> coloca 3 de Amenaza sobre el Plan principal.\n<b>Cuando se muestre esta carta (Héror):</b> inflige 3 de Daño a tu Héroe."
+	},
+	{
+		"code": "04053",
+		"name": "Lealtad dudosa",
+		"text": "<b><i>Dale esta carta al jugador que lleva a Jessica Drew.</i></b>\nPuedes adoptar la identidad de ti Alter ego. Elige una opción:\n- Agota a Jessica Drew → retira del juego Lealtad dudosa.\n- Coloca 3 de Amenaza sobre el Plan principal. Descarta esta Obligación."
+	},
+	{
+		"code": "04054",
+		"flavor": "\"Es hora de que vuelvas a casa, Jessica.\"",
+		"name": "Víbora",
+		"text": "Mientras Víbora esté enfrentada a ti, el tamaño de tu mano se reduce en 1.\n(Esbirro Archienemigo de Spiderwoman.)",
+		"traits": "Élite. Hydra."
+	},
+	{
+		"code": "04055",
+		"flavor": "Víbora se ha entregado a Hydra en cuerpo y alma a cambio de la promesa de poder.",
+		"name": "La ambición de Víbora",
+		"text": "<b>Cuando se muestre esta carta:</b> coloca 1[per_hero] de Amenaza sobre esta carta."
+	},
+	{
+		"code": "04056",
+		"flavor": "\"Teniendo en cuenta qué tipo de personas se unirían a una organización terrorista obsesionada con dominar el mundo, es obvio por qué las tropas de Hydra dejan tanto que desear.\" -- Jessica Drew",
+		"name": "Tropa de Hydra",
+		"text": "Incitar 1. (Cuando se muestre esta carta, coloca 1 de Amenaza sobre el Plan principal.)",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04057",
+		"name": "¡Hail, Hydra!",
+		"text": "<b>Cuando se muestre esta carta:</b> todo Esbirro [[HYDRA]] que esté enfrentado a un Héroe ataca a ese Héroe. Cada jugador que no sea atacado de este modo busca un Esbirro [[HYDRA]] en el mazo y la pila de descartes de Encuentros y lo pone en juego enfrentado a él. Baraja el mazo de Encuentros si se ha buscado en él."
+	},
+	{
+		"attack_text": "Mientras Calavera tenga vinculado un Accesorio [[ARMA]], sus ataques ganan Penetrante. <em>(Las cartas de Estado \"Duro\" del objetivo se descartan antes de infligirle Daño.)</em>",
+		"code": "04058",
+		"flavor": "\"Me considero un artista. Un auténtico artesano especializado en asesinato, destrucción y terror.\"",
+		"name": "Calavera",
+		"traits": "Hydra. Mercenario."
+	},
+	{
+		"attack_text": "Mientras Calavera tenga vinculado un Accesorio [[ARMA]], sus ataques ganan Penetrante.",
+		"code": "04059",
+		"name": "Calavera",
+		"text": "<b>Cuando se muestre esta carta:</b> busca la Ametralladora de Calavera en el mazo y la pila de descartes de Encuentros y vincúlala a Calavera. Baraja el mazo de Encuentros.",
+		"traits": "Hydra. Mercenario."
+	},
+	{
+		"attack_text": "Mientras Calavera tenga vinculado un Accesorio [[ARMA]], sus ataques ganan Penetrante.",
+		"code": "04060",
+		"flavor": "\"Mucho superpoder y mucha fuerza, pero ninguno de ellos tiene mi estilo.\"",
+		"name": "Calavera",
+		"text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Armas experimentales.",
+		"traits": "Hydra. Mercenario."
+	},
+	{
+		"back_text": "<b>Contenido:</b> Calavera (I) y Calavera (II). Conjuntos de Encuentros de Calavera, Armas experimentales y Normal. Tres conjuntos de Encuentros modulares <em>(Asalto de Hydra, Maestro de armas y Legiones de Hydra).</em>\n<b>Preparación:</b> crea el mazo de Armas experimentales y colócalo junto al mazo del Plan principal. <em>(ver página 5 del cuaderno de reglas.)</em>",
+		"code": "04061",
+		"flavor": "Calavera lidera un contingente de soldados de Hydra en una ofensiva directa contra las instalaciones del Proyecto Pegaso en las montañas de Adirondack.",
+		"name": "Ataque al monte Atenea",
+		"text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Armas experimentales."
+	},
+	{
+		"back_flavor": "En el interior del complejo del Proyecto Pegaso, los agentes de S.H.I.E.L.D. libran una batalla desesperada para evitar que Hydra se apodere de la Gema de la Realidad.",
+		"code": "04062",
+		"name": "La piedra del infinito",
+		"text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Armas experimentales."
+	},
+	{
+		"back_flavor": "Hydra se ha apoderado de la piedra del infinito y Calavera ha ordenado la retirada. ¡Tenéis que detenerlos antes de que se escapen!",
+		"code": "04063",
+		"name": "La huida",
+		"text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Armas experimentales.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+	},
+	{
+		"attack_text": "<b>Interrupción obligada:</b> cuando Calavera te ataque, quita 1 contador de Munición de esta carta y descarta la primera carta del mazo de Encuentros → sufres tanto Daño indirecto como el número de iconos de Aumento que haya en la carta descartada.",
+		"code": "04064",
+		"name": "Ametralladora de Calavera",
+		"text": "Vincula esta carta a Calavera. Usos (2[per_hero] contadores de Munición).",
+		"traits": "Arma."
+	},
+	{
+		"code": "04065",
+		"name": "Armadura de Calavera",
+		"text": "Vincula esta carta a Calavera.\n<b>Interrupción obligada:</b> cuando Calavera vaya a sufrir cualquier cantidad de Daño, en vez de eso coloca ese Daño sobre esta carta. Si hay al menos 5 de Daño aquí, descarta la Armadura de Calavera.",
+		"traits": "Armadura."
+	},
+	{
+		"code": "04066",
+		"flavor": "\"Sé que si cortas una cabeza, otras dos ocupan su lugar. Pero ¿y si explota?\" -- Hulka",
+		"name": "Terrorista de Hydra",
+		"text": "<b>Cuando se muestre esta carta:</b> elige entre sufrir 2 de Daño o colocar 1 de Amenaza sobre el Plan principal.",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04067",
+		"name": "Fuego automático",
+		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> Oleada.\n<b>Cuando se muestre esta carta (Héroe):</b> descarta X cartas de la parte superior del mazo de Encuentros, siendo X el ATQ de Calavera. Sufres 1 de Daño indirecto por cada icono de Aumento que se haya descartado de este modo."
+	},
+	{
+		"boost_text": "dale al Villano una carta de Estado \"Duro\". Si no es posible, en vez de eso cúrale 3 de Daño.",
+		"code": "04068",
+		"name": "Duro de pelar",
+		"text": "<b>Cuando se muestre esta carta:</b> dale al Villano una carta de Estado \"Duro\". Si no es posible, en vez de eso cúrale 3 de Daño."
+	},
+	{
+		"code": "04069",
+		"name": "Saquear el arsenal",
+		"text": "Incitar 1. <em>(Cuando se muestre esta carta, coloca 1 de Amenaza sobre el Plan principal.)</em>\n<b>Cuando se muestre esta carta:</b> descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Accesorio [[ARMA]]. Muestra esa carta."
+	},
+	{
+		"code": "04070",
+		"flavor": "Calavera es un asesino desalmado, pero no es ningún psicópata. Su asalto al Proyecto Pegaso es despiadado y efectivo.",
+		"name": "El ataque de Calavera",
+		"text": "<b>Cuando se derrote esta carta:</b> Calavera se activa contra el jugador que haya derrotado este Plan."
+	},
+	{
+		"code": "04071",
+		"flavor": "Hydra ha arrinconado a los empleados del Proyecto Pegaso para utilizarlos como rehenes.",
+		"name": "Personal acorralado",
+		"text": "<b>Cuando se muestre esta carta:</b> descarta 1[per_hero] cartas de la parte superior del mazo de Encuentros. Coloca 1 de Amenaza adicional sobre esta carta por cada icono de Aumento que haya en las cartas que se descartasen de este modo."
+	},
+	{
+		"attack_text": "<b>Interrupción obligada:</b> cuando el Villano vinculado ataque, ese ataque gana A distancia.",
+		"code": "04072",
+		"name": "Fusil láser",
+		"text": "Vincula esta carta al Villano.\n<b>Acción de Héroe:</b> gasta recursos [energy][physical] → descarta esta carta.",
+		"traits": "Experimental. Arma."
+	},
+	{
+		"code": "04073",
+		"flavor": "\"Nunca convencerás al Capi de que un escudo de energía es mejor que su viejo disco arrojadizo.\" -- Carol Danvers",
+		"name": "Escudo de energía",
+		"text": "Vincula esta carta al Villano.\nEl Villano vinculado gana Represalia 1.\n<b>Acción de Héroe:</b> gasta recursos [energy][mental] → descarta esta carta.",
+		"traits": "Experimental. Arma."
+	},
+	{
+		"attack_text": "<b>Respuesta obligada:</b> después de que el Villano vinculado ataque y te inflija Daño, descarta 1 carta de tu mano.",
+		"code": "04074",
+		"name": "Servopuños",
+		"text": "Vincula esta carta al Villano.\n<b>Acción de Héroe:</b> gasta recursos [mental][physical] → descarta esta carta.",
+		"traits": "Experimental. Arma."
+	},
+	{
+		"code": "04075",
+		"flavor": "\"Jamás debí compartir mi tecnologóa con S.H.I.E.L.D.\" -- Tony Stark",
+		"name": "Exoarmadura",
+		"text": "Vincula esta carta al Villano.\n<b>Acción de Héroe:</b> gasta recursos [energy][mental][physical] → descarta esta carta.",
+		"traits": "Experimental. Arma."
+	},
+	{
+		"code": "04076",
+		"flavor": "\"¿Sabes que una vez le di una paliza a Thor? Imagínatelo: 'Aplastador' Creel, triunfante, con el Dios del Trueno tirado a sus pies. ¿Y te crees que tú me asustas?\"",
+		"name": "Hombre Absorbente",
+		"text": "El Hombre Absorbente gana el rasgo de todo Entorno que haya en juego.",
+		"traits": "Bruto."
+	},
+	{
+		"code": "04077",
+		"name": "Hombre Absorbente",
+		"text": "El Hombre Absorbente gana el rasgo de todo Entorno que haya en juego.\n<b>Cuando se muestre esta carta:</b> si está en juego Poder de absorción superior, dale 1 carta de Encuentro a cada jugador. De no ser así, busca Poder de absorción superior en el mazo y la pila de descartes de Encuentros y muéstralo. Baraja el mazo de Encuentros si se ha buscado en él de este modo.",
+		"traits": "Bruto."
+	},
+	{
+		"attack_text": "<b>Respuesta obligada:</b> después de que el Hombre Absorbente se active contra ti, si tiene los rasgos:\n- [[HIELO]] o [[PIEDRA]], coloca 1 de Amenaza sobre el Plan principal.\n- [[METAL]] o [[MADERA]], sufres 1 de Daño indirecto.",
+		"code": "04078",
+		"name": "Hombre Absorbente",
+		"scheme_text": "<b>Respuesta obligada:</b> después de que el Hombre Absorbente se active contra ti, si tiene los rasgos:\n- [[HIELO]] o [[PIEDRA]], coloca 1 de Amenaza sobre el Plan principal.\n- [[METAL]] o [[MADERA]], sufres 1 de Daño indirecto.",
+		"text": "El Hombre Absorbente gana el rasgo de todo Entorno que haya en juego.\n",
+		"traits": "Bruto."
+	},
+	{
+		"back_text": "<b>Contenido:</b> Hombre Absorbente (I) y Hombre Absorbente (II). Conjuntos de Encuentros del Hombre Absorbente y Normal. Un conjunto de Encuentros modular <em>(Patrulla de Hydra).</em>\n<b>Preparación:</b> descarta cartas del mazo de Encuentros hasta que se descarte un Entorno. Pon en juego esa carta y baraja el mazo de Encuentros junto con su pila de descartes.",
+		"code": "04079",
+		"name": "Por aquí no pasa nadie",
+		"text": "<b>[star] Respuesta obligada:</b> después de resolver el paso uno de la fase del Villano, coloca 1 contador de Demora sobre esta carta.\n<b>Interrupción obligada:</b> cuando entre en juego un Entorno, descarta todos los demás Entornos que haya en juego.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+	},
+	{
+		"boost_text": "Put this card into play.",
+		"code": "04080",
+		"name": "Bosque frondoso",
+		"text": "Oleada.\n<b>Respuesta obligada:</b> después de que el Hombre Absorbente realice un ataque no defendido contra ti, sufres 1 de Daño indirecto (2 de Daño indirecto si hay al menos 5 contadores de Demora sobre el Plan principal).",
+		"traits": "Madera."
+	},
+	{
+		"boost_text": "pon en juego esta carta.",
+		"code": "04081",
+		"name": "Colina nevada",
+		"text": "Oleada.\n<b>Respuesta obligada:</b> después de que el Hombre Absorbente realice un ataque no defendido contra ti, coloca 1 de Amenaza sobre el Plan principal (2 de Amenaza si hay al menos 5 contadores de Demora sobre el Plan principal).",
+		"traits": "Hielo."
+	},
+	{
+		"boost_text": "pon en juego esta carta.",
+		"code": "04082",
+		"name": "Promontorio rocoso",
+		"text": "Oleada.\n<b>Respuesta obligada:</b> después de que el Hombre Absorbente realice un ataque no defendido contra ti, cúrale 1 de Daño (2 de Daño indirecto si hay al menos 5 contadores de Demora sobre el Plan principal).",
+		"traits": "Piedra."
+	},
+	{
+		"boost_text": "pon en juego esta carta.",
+		"code": "04083",
+		"name": "Complejo abandonado",
+		"text": "Oleada.\n<b>Respuesta obligada:</b> después de que el Hombre Absorbente realice un ataque no defendido contra ti, descarta 1 icono de recurso de tu mano (2 iconos de recurso si hay al menos 5 contadores de Demora sobre el Plan principal).",
+		"traits": "Metal."
+	},
+	{
+		"boost_text": "muestra esta carta.",
+		"code": "04084",
+		"name": "Bola y cadena",
+		"text": "Vincula esta carta al Hombre Absorbente.\n<b>Acción de Héroe:</b> gasta un recurso [physical] → añade esta carta al mazo de Encuentros y barájalo.",
+		"traits": "Arma."
+	},
+	{
+		"boost_text": "si hay al menos 5 contadores de Demora sobre el Plan principal, sufres 1 de Daño indirecto.",
+		"code": "04085",
+		"name": "Tácticas dilatorias",
+		"text": "<b>Cuando se muestre esta carta:</b> coloca 1 de Amenaza sobre el Plan principal por cada 2 contadores de Demora que haya sobre el Plan principal. Si no se coloca Amenaza de este modo, esta carta gana Oleada."
+	},
+	{
+		"code": "04086",
+		"name": "Barrido pétreo",
+		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> el Hombre Absorbente ejecuta el Plan. Si el Hombre Absorbente posee el rasgo [[PIEDRA]], recibe +1 PLA para esta activación.\n<b>Cuando se muestre esta carta (Héroe):</b> el Hombre Absorbente te ataca. Si el Hombre Absorbente posee el rasgo [[PIEDRA]], recibe +1 ATQ para esta activación."
+	},
+	{
+		"code": "04087",
+		"name": "Patada de acero",
+		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> coloca 2 de Amenaza sobre el Plan principal (3 de Amenaza si el Hombre Absorbente posee el rasgo [[Metal]].)\n<b>Cuando se muestre esta carta (Héroe):</b> sufres 3 de Daño indirecto (4 de Daño indirecto si el Hombre Absorbente posee el rasgo [[Metal]].)"
+	},
+	{
+		"boost_text": "si el Hombre Absorbente posee los rasgos [[PIEDRA]] o [[MADERA]], quedas aturdido.",
+		"code": "04088",
+		"name": "Espinas perforantes",
+		"text": "<b>Cuando se muestre esta carta:</b> descarta 1 carta de tu mano al azar. Si el Hombre Absorbente posee el rasgo [[MADERA]], descarta 1 carta que controles."
+	},
+	{
+		"code": "04089",
+		"name": "Duplicación omnimórfica",
+		"text": "<b>Cuando se muestre esta carta:</b> si el Hombre Absorbente posee el rasgo:\n- [[HIELO]], agota tu carta de Superhéroe.\n- [[METAL]], dale al Hombre Absorbente una carta de Estado \"Duro\" y cúrale 1 de Daño.\n- [[PIEDRA]], dale al Hombre Absorbente 1 carta de aumento boca abajo.\n- [[MADERA]], descarta 1 carta de tu mano al azar."
+	},
+	{
+		"boost_text": "si el Hombre Absorbente posee los rasgos [[HIELO]] o [[METAL]], dale una carta de Estado \"Duro\".",
+		"code": "04090",
+		"name": "Presa gélida",
+		"text": "<b>Cuando se muestre esta carta:</b> quedas aturdido. Si el Hombre Absorbente posee el rasgo [[HIELO]], sufres 2 de Daño indirecto."
+	},
+	{
+		"code": "04091",
+		"name": "¡Avalancha!",
+		"text": "<b>Cuando se muestre esta carta:</b> cada jugador debe elegir entre gastar un recurso [energy] o bien sufrir 2 de Daño indirecto (3 de Daño indirecto si hay al menos 5 contadores de Demora sobre el Plan principal.)"
+	},
+	{
+		"boost_text": "muestra esta carta.",
+		"code": "04092",
+		"flavor": "Creel posee la habilidad de absorber las propiedades de varios materiales al mismo tiempo, pero esto le exige una intensa concentración.",
+		"name": "Poder de absorción superior",
+		"text": "El Hombre Absorbente gana los rasgos [[HIELO]], [[METAL]], [[PIEDRA]], y [[MADERA]]."
+	},
+	{
+		"code": "04093",
+		"flavor": "\"No hay nada de lo que haces que yo no pueda hacer mejor que tú.\"",
+		"name": "Supervisor",
+		"text": "<b>Respuesta obligada:</b> después de que un jugador adopte su identidad de Héroe, ese jugador descarta la primera carta del mazo de Encuentros y sufre tanto Daño como el número de iconos de Aumento que haya en esa carta.",
+		"traits": "Hydra. Mercenario."
+	},
+	{
+		"code": "04094",
+		"name": "Supervisor",
+		"text": "<b>Cuando se muestre esta carta:</b> dale una carta de Encuentro a cada jugador.\n<b>Respuesta obligada:</b> después de que un jugador adopte su identidad de Héroe, ese jugador descarta la primera carta del mazo de Encuentros y sufre tanto Daño como el número de iconos de Aumento que haya en esa carta.",
+		"traits": "Hydra. Mercenario."
+	},
+	{
+		"code": "04095",
+		"name": "Supervisor",
+		"text": "<b>Cuando se muestre esta carta:</b> dale una carta de Encuentro a cada jugador.\n<b>Respuesta obligada:</b> después de que un jugador adopte su identidad de Héroe, ese jugador descarta la primera carta del mazo de Encuentros y sufre tanto Daño como el número de iconos de Aumento que haya en esa carta.",
+		"traits": "Hydra. Mercenario."
+	},
+	{
+		"back_text": "<b>Contenido:</b> Supervisor (I) y Supervisor (II). Conjuntos de Encuentros del Supervisor, Patrulla de Hydra y Normal. Un conjunto de Encuentros modular <em>(Maestro de armas).</em>\n<b>Preparación:</b> aparta todos los Aliados [[CAUTIVO]] a un lado, fuera del juego. Busca la carta Patrulla de Hydra en el mazo de Encuentros y ponla en juego. Baraja el mazo de Encuentros.",
+		"code": "04096",
+		"flavor": "El infame Supervisor ha sido nombrado jefe de policía en el nuevo régimen de Hydra. Su principal prioridad consiste en dar caza a los héroes proscritos.",
+		"name": "A la caza del héroe",
+		"text": "<b>[star] Respuesta obligada:</b> después de resolver el paso uno de la fase del Villano, cada jugador que tenga adoptada su identidad de Héroe debe elegir entre colocar 1 de Amenaza sobre esta carta o bien sufrir 1 de Daño.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+	},
+	{
+		"code": "04097",
+		"flavor": "\"Hydra se hizo con el poder tan deprisa que aquello no parecía real.\"",
+		"name": "Caballero Luna",
+		"subname": "Marc Spector",
+		"text": "<b>Respuesta:</b> después de que juegues al Caballero Luna desde tu mano, gasta un recurso [wild] → roba 2 cartas.",
+		"traits": "Cautivo. Héroe de alquiler."
+	},
+	{
+		"code": "04098",
+		"name": "Shang-Chi",
+		"text": "<b>Response:</b> After you play Shang-Chi from your hand, spend a [energy] resource → stun an enemy.",
+		"traits": "Captive. Hero for Hire."
+	},
+	{
+		"code": "04099",
+		"flavor": "\"Cuando Hydra subió al poder e ilegalizó los superhéroes, un vecino me delató al nuevo jefe de policía.\"",
+		"name": "Tigre Blanco",
+		"subname": "Angela Del Toro",
+		"text": "<b>Respuesta:</b> después de que juegues a Tigre Blanco desde tu mano, gasta un recurso [mental] → quita 3 de Amenaza de un Plan.",
+		"traits": "Cautivo. Héroe de alquiler."
+	},
+	{
+		"code": "04100",
+		"flavor": "\"Me atraparon intentando ayudar a unos civiles a escapar de una patrulla de Hydra. Resultó que los civiles eran agentes de paisano en una operación encubierta.\"",
+		"name": "Elektra",
+		"text": "<b>Respuesta:</b> después de que juegues a Elektra desde tu mano, gasta un recurso [physical] → inflige 3 de Daño a un enemigo.",
+		"traits": "Cautivo. Héroe de alquiler."
+	},
+	{
+		"attack_text": "Los ataques del Cazador de Hydra ganan A distancia y Penetrante.",
+		"boost_text": "si tienes adoptada tu identidad de Héroe, sufres 1 de Daño. De no ser así, coloca 1 de Amenaza sobre el Plan principal.",
+		"code": "04101",
+		"name": "Cazador de Hydra",
+		"traits": "Hydra."
+	},
+	{
+		"attack_text": "Los ataques del Supervisor ganan Penetrante.",
+		"code": "04102",
+		"name": "Espada del Supervisor",
+		"text": "Vincula esta carta al Supervisor.\n<b>Acción de Héroe:</b> agota tu Héroe y gasta recursos [mental][physical] → descarta esta carta.",
+		"traits": "Arma."
+	},
+	{
+		"code": "04103",
+		"flavor": "\"Aprendí este movimiento del capitán América.\" -- Supervisor",
+		"name": "Escudo del Supervisor",
+		"text": "Vincula esta carta al Supervisor.\nEl Supervisor gana Represalia 1.\n<b>Acción de Héroe:</b> agota tu Héroe y gasta recursos [mental][physical] → descarta esta carta.",
+		"traits": "Armadura. Arma."
+	},
+	{
+		"code": "04104",
+		"name": "Reflejos fotográficos",
+		"text": "Vincula esta carta al Supervisor.\n<b>Interrupción obligada:</b> cuando un jugador ataque al Supervisor, se evita todo el Daño que vaya a infligir al Supervisor y se inflige esa misma cantidad de Daño a la carta de Superhéroe de ese jugador. Luego descarta Reflejos fotográficos. (Máximo de una vez por ataque.)"
+	},
+	{
+		"code": "04105",
+		"name": "Imitación",
+		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> descarta las 5 primeras cartas de tu mazo. Si se ha descartado de este modo una carta con [[INTERVENCIÓN]], el Supervisor ejecuta el Plan.\n<b>Cuando se muestre esta carta (Héroe):</b> descarta las 5 primeras cartas de tu mazo. Si se ha descartado de este modo una carta con [[ATAQUE]], el Supervisor te ataca."
+	},
+	{
+		"code": "04106",
+		"flavor": "\"Es mal momento para ser héroe.\" -- Bucky Barnes",
+		"name": "Perseguidos por Hydra",
+		"text": "Incitar 1. <em>(Cuando se muestre esta carta, coloca 1 de Amenaza sobre el Plan principal.)</em>\n<b>Cuando se muestre esta carta:</b> cada jugador que tenga adoptada su identidad de Héroe sufre 1 de Daño y descarta 1 carta de su mano al azar."
+	},
+	{
+		"code": "04107",
+		"name": "Capturado por Hydra",
+		"text": "<b>Cuando se muestre esta carta:</b> coloca boca abajo y debajo de este Plan 1 Aliado [[CAUTIVO]] al azar que esté apartado. Cuando se derrote este Plan, el jugador que lo haya derrotado añade ese Aliado a su mano y retira del juego este Plan."
+	},
+	{
+		"code": "04108",
+		"flavor": "El Supervisor únicamente acepta a los mejores reclutas en su cuerpo de policía. Todo soldado de Hydra que desea alistarse debe sobrevivir primero a su campo de instrucción.",
+		"name": "Campamento de instrucción del Supervisor",
+		"text": "<b>Respuesta obligada:</b> después de que entre en juego un Esbirro, dale una carta de Estado \"Duro\"."
+	},
+	{
+		"code": "04109",
+		"flavor": "\"¡Mi programa de mutados transformará estas patéticas criaturas en soldados de choque de élite para Hydra!\"",
+		"name": "Zola",
+		"text": "Represalia 1.",
+		"traits": "Androide. Hydra."
+	},
+	{
+		"code": "04110",
+		"name": "Zola",
+		"text": "Represalia 1.\n<b>Cuando se muestre esta carta:</b> busca el Plan secundario \"Sujetos de prueba\" en el mazo y la pila de descartes de Encuentros y muéstralo. Baraja el mazo de Encuentros.",
+		"traits": "Androide. Hydra."
+	},
+	{
+		"code": "04111",
+		"name": "Zola",
+		"text": "Represalia 1.\n<b>Cuando se muestre esta carta:</b> cada jugador busca un Esbirro en el mazo y la pila de descartes de Encuentros y lo muestra. Baraja el mazo de Encuentros.",
+		"traits": "Androide. Hydra."
+	},
+	{
+		"back_text": "<b>Contenido:</b> Zola (I) y Zola (II). Conjuntos de Encuentros de Zola y Normal. Un conjunto de Encuentros modular <em>(Civiles en peligro).</em>\n<b>Preparación:</b> busca la carta Prisión de Hydra en el mazo de Encuentros y muéstrala. Cada jugador busca en el mazo de Encuentros una copia del Biosiervo definitivo y la pone en juego enfrentada a él. Baraja el mazo de Encuentros.",
+		"code": "04112",
+		"name": "La isla del doctor Zola",
+		"text": "<b>[star] Respuesta obligada:</b> después de resolver el paso uno de la fase del Villano, coloca 1 contador de Prueba sobre esta carta. Luego, si hay al menos 3 contadores de Prueba sobre esta carta, descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Esbirro. Pon en juego ese Esbirro enfrentado al jugador inicial y quita 3 contadores de Prueba de este Plan."
+	},
+	{
+		"back_flavor": "Los mutados de Zola os atacan con obediencia ciega y furia salvaje. ¡De vosotros depende poner fin a esta pesadilla antes de que el científico loco la desate sobre el mundo!",
+		"back_text": "<b>Cuando se muestre esta carta:</b> cada jugador busca un Esbirro en el mazo y la pila de descartes de Encuentros y lo muestra. Baraja el mazo de Encuentros.",
+		"code": "04113",
+		"name": "El científico loco",
+		"text": "<b>[star] Respuesta obligada:</b> después de resolver el paso uno de la fase del Villano, coloca 1 contador de Prueba sobre esta carta. Luego, si hay al menos 3 contadores de Prueba sobre esta carta, descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Esbirro. Pon en juego ese Esbirro enfrentado al jugador inicial y quita 3 contadores de Prueba de este Plan..\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+	},
+	{
+		"attack_text": "El Biosiervo definitivo recibe +1 ATQ por cada Accesorio que tenga vinculado.",
+		"boost_text": "dale al Villano una carta de Estado \"Duro\".",
+		"code": "04114",
+		"name": "Biosiervo definitivo",
+		"text": "Dureza.",
+		"traits": "Hydra. Mutado."
+	},
+	{
+		"boost_text": "añade el Mutado de Zola al mazo de Encuentros y barájalo.",
+		"code": "04115",
+		"name": "Mutado de Zola",
+		"text": "<b>Cuando se muestre esta carta:</b> descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Accesorio [[TECNOLOGÍA]]. Vincula esta carta al Mutado de Zola.",
+		"traits": "Hydra. Mutado."
+	},
+	{
+		"boost_text": "coloca 1 contador de Prueba sobre el Plan principal. Por cada contador de Prueba que haya sobre el Plan principal, Zola recibe +1 PLA y +1 ATQ para esta activación.",
+		"code": "04116",
+		"name": "Mutado rabioso",
+		"text": "Ataque veloz.",
+		"traits": "Hydra. Mutado."
+	},
+	{
+		"code": "04117",
+		"name": "Programación defensiva",
+		"text": "Vincula esta carta al Esbirro que tenga más Vida restante y que no tenga ya vinculada otra copia de Programación defensiva. Si no puedes hacerlo, esta carta gana Oleada.\nEl Esbirro vinculado recibe +2 de Vida y gana Guardia.",
+		"traits": "Tecnología."
+	},
+	{
+		"code": "04118",
+		"name": "Inhibidores del dolor",
+		"text": "Vincula esta carta al Esbirro que tenga más Vida restante y que no tenga ya vinculada otra copia de Inhibidores del dolor. Si no puedes hacerlo, esta carta gana Oleada.\nEl Esbirro vinculado recibe +2 de Vida y gana Represalia 1.",
+		"traits": "Tecnología."
+	},
+	{
+		"code": "04119",
+		"name": "Implantes neurológicos",
+		"text": "Vincula esta carta al Esbirro que tenga más Vida restante y que no tenga ya vinculada otra copia de Implantes neurológicos. Si no puedes hacerlo, esta carta gana Oleada.\nEl Esbirro vinculado recibe +2 de Vida.",
+		"traits": "Tecnología."
+	},
+	{
+		"code": "04120",
+		"flavor": "\"¿Creías que Zola estaba indefenso? ¡Necio arrogante!\" -- Arnim Zola",
+		"name": "Rayo mental",
+		"text": "<B>Cuando se muestre esta carta (Alter ego):</b> Zola ejecuta el Plan. Quedas confundido.\n<b>Cuando se muestre esta carta (Héroe):</b> Zola te ataca. Quedas aturdido."
+	},
+	{
+		"boost_text": "coloca 1 contador de Prueba sobre el Plan principal.",
+		"code": "04121",
+		"name": "Mejoras tecnológicas",
+		"text": "Incitar 1.\n<b>Cuando se muestre esta carta:</b> coloca 1 contador de Prueba sobre el Plan principal."
+	},
+	{
+		"code": "04122",
+		"name": "Prisión de Hydra",
+		"text": "<b>Cuando se muestre esta carta:</b> cada jugador busca en su mano, su mazo y su pila de descartes un Aliado de un Héroe específico y lo coloca boca abajo debajo de este Plan. Coloca X de Amenaza sobre este Plan, siendo X el coste total de todos los Aliados que tenga debajo. Cada jugador baraja su mazo.\n<b>Cuando se derrote esta carta:</b> este Plan se retira del juego y todos los Aliados que tenga debajo se devuelven a las manos de sus propietarios."
+	},
+	{
+		"code": "04123",
+		"flavor": "Es un destino peor que la muerte.",
+		"name": "Sujetos de prueba",
+		"text": "<b>Cuando se derrote esta carta:</b> el jugador inicial descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Esbirro. Muestra ese Esbirro."
+	},
+	{
+		"code": "04124",
+		"flavor": "El científico loco nunca se cansa de experimentar con sus víctimas.",
+		"name": "Los experimentos de Zola",
+		"text": "<b>Respuesta obligada:</b> después de que entre en juego un Esbirro, vincúlale el primer Accesorio [[TECNOLOGÍA]] que haya en la pila de descartes del mazo de Encuentros."
+	},
+	{
+		"attack_text": "Cráneo Rojo recibe +1 ATQ por cada Plan secundario que haya en juego.",
+		"code": "04125",
+		"flavor": "\"¡La liberta es tan sólo para los que gobiernan! ¡Todos los demás deben ser esclavos!\"",
+		"name": "Cráneo Rojo",
+		"traits": "Hydra."
+	},
+	{
+		"attack_text": "Cráneo Rojo recibe +1 ATQ por cada Plan secundario que haya en juego.",
+		"code": "04126",
+		"flavor": "\"¡Nadie se interpondrá en mis planes!\"",
+		"name": "Cráneo Rojo",
+		"text": "<b>Cuando se muestre esta carta:</b> dale una carta de Encuentro a cada jugador.",
+		"traits": "Hydra."
+	},
+	{
+		"attack_text": "Cráneo Rojo recibe +1 ATQ por cada Plan secundario que haya en juego.",
+		"code": "04127",
+		"flavor": "\"¡El mundo entero se postrará ante Cráneo Rojo!\"",
+		"name": "Cráneo Rojo",
+		"text": "<b>Cuando se muestre esta carta:</b> dale una carta de Encuentro a cada jugador.",
+		"traits": "Hydra."
+	},
+	{
+		"back_text": "<b>Contenido:</b> Cráneo Rojo (I) y Cráneo Rojo (II). Conjuntos de Encuentros de Cráneo Rojo y Normal. Dos conjuntos de Encuentros modulares <em>(Asalto de Hydra y Patrulla de Hydra).</em>\n<b>Preparación:</b> pon en juego La Casa Roja. Añade todos los demás Planes secundarios al mazo de Planes secundarios, barájalo y colócalo junto al mazo de Encuentros (ver cuaderno de reglas).\nAparta El Durmiente a un lado, fuera del juego.",
+		"code": "04128",
+		"flavor": "Cráneo Rojo planea conquistar el mundo con el poder de la Gema de la Realidad. El villano emplea sus excepcionales dotes de estratega para manteneros ocupados mientras él pone en marcha sus planes.",
+		"name": "La tiranía de Cráneo Rojo",
+		"text": "<b>[star] Respuesta obligada:</b> después de resolver el paso uno de la fase del Villano, muestra la primera carta del mazo de Planes secundarios y ponla en juego."
+	},
+	{
+		"back_flavor": "Cráneo Rojo está un paso más cerca de dominar el poder de la piedra del infinito en toda su plenitud. Tenéis que detenerlo antes de que lo consiga y moldee la realidad a su maligna voluntad.",
+		"back_text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Planes secundarios y ponla en juego.",
+		"code": "04129",
+		"name": "El nuevo mundo de Hydra",
+		"text": "<b>[star] Respuesta obligada:</b> después de resolver el paso uno de la fase del Villano, muestra la primera carta del mazo de Planes secundarios y ponla en juego.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+	},
+	{
+		"code": "04130",
+		"name": "El Durmiente",
+		"text": "Guardia. Represalia 1. Dureza.\n<b>Cuando se muestre esta carta:</b> El Durmiente se enfrenta al jugador inicial.\n<b>Cuando se derrote esta carta:</b> retira del juego El Durmiente.",
+		"traits": "Élite. Hydra. Robot."
+	},
+	{
+		"boost_text": "dale al Villano una carta de Estado \"Duro\" y otra carta de aumento.",
+		"code": "04131",
+		"flavor": "\"Cuidado, equipo. ¡Estos tíos pegan duro!\" -- Capitán América",
+		"name": "Soldado de Hydra con exoarmadura",
+		"text": "Dureza.",
+		"traits": "Hydra."
+	},
+	{
+		"attack_text": "Los ataques de Cráneo Rojo ganan A distancia y Penetrante.",
+		"boost_text": "vincula esta carta a Cráneo Rojo.",
+		"code": "04132",
+		"name": "Luger de Cráneo Rojo",
+		"text": "Vincula esta carta a Cráneo Rojo.\n<b>Acción de Héroe:</b> gasta recursos [energy][mental][physical] → descarta esta carta.",
+		"traits": "Arma."
+	},
+	{
+		"code": "04133",
+		"flavor": "\"¡Soy superior a ti en todos los aspectos!\" -- Cráneo Rojo",
+		"name": "Derechazo de Cráneo Rojo",
+		"text": "Vincula esta carta a Cráneo Rojo.\nCráneo Rojo gana Represalia 1.\n<b>Acción de Héroe:</b> gasta recursos [energy][mental][physical] → descarta esta carta.",
+		"traits": "Habilidadad."
+	},
+	{
+		"attack_text": "<b>Interrupción obligada:</b> cuando Cráneo Rojo se active, dale una carta de aumento adicional por cada Plan secundario que haya en juego. Luego descarta esta carta. (Máximo una vez por activación.)",
+		"code": "04134",
+		"flavor": "\"En el ajedrez, la única pieza que realmente importa es el rey, y ése soy yo.\" -- Cráneo Rojo",
+		"name": "Estratega consumado",
+		"scheme_text": "<b>Interrupción obligada:</b> cuando Cráneo Rojo se active, dale una carta de aumento adicional por cada Plan secundario que haya en juego. Luego descarta esta carta. (Máximo una vez por activación.)",
+		"text": "Vincula esta carta a Cráneo Rojo.",
+		"traits": "Habilidadad."
+	},
+	{
+		"code": "04135",
+		"flavor": "La piedra del infinito otorga a Cráneo Rojo el poder de moldear la realidad a su antojo.",
+		"name": "Realidad distorsionada",
+		"text": "Incitar 1.\nVincula esta carta a un Plan secundario.\n<b>Respuesta obligada:</b> cuando el Plan secundario vinculado sea derrotado, dale una carta de Encuentro al jugador inicial.",
+		"traits": "Alteración."
+	},
+	{
+		"boost_text": "agota un personaje que controles.",
+		"code": "04136",
+		"flavor": "\"¡Éste será tu final, Herr Capitán!\" -- Cráneo Rojo",
+		"name": "Enemigo acérrimo",
+		"text": "<b>Cuando se muestre esta carta:</b> agota un personaje que controles por cada Plan secundario que haya en juego."
+	},
+	{
+		"boost_text": "dale a Cráneo Rojo una carta de estado \"Duro\".",
+		"code": "04137",
+		"flavor": "\"¡Gracias a mi incomparable astucia, la supremacía de Hydra será absoluta!\" -- Cráneo Rojo",
+		"name": "Difundir mentiras",
+		"text": "<b>Cuando se muestre esta carta:</b> coloca 2 de Amenaza sobre cada Plan que haya en juego."
+	},
+	{
+		"code": "04138",
+		"name": "Poder infinito",
+		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> dale a Cráneo Rojo una carta de Estado \"Duro\". Cráneo Rojo ejecuta el Plan.\n<b>Cuando se muestre esta carta (Héroe):</b> dale a Cráneo Rojo una carta de Estado \"Duro\". Cráneo Rojo te ataca."
+	},
+	{
+		"code": "04139",
+		"flavor": "Cráneo Rojo ha erigido su fortaleza sobre la Casa Blanca como símbolo de la supremacía de Hydra sobre los Estados Unidos.",
+		"name": "La Casa Roja",
+		"text": "Cráneo Rojo no puede sufrir Daño.\n<b>Interrupción:</b> cuando un personaje intervenga contra este Plan secundario, puede usar su ATQ en vez de su INT."
+	},
+	{
+		"code": "04140",
+		"flavor": "El Durmiente ha despertado y se alza de las profundidades del río Potomac para responder a la llamada de Cráneo Rojo.",
+		"name": "El Durmiente ha despertado",
+		"text": "Este Plan no puede abandonar el juego mientras El Durmiente esté en juego.\n<b>Cuando se muestre esta carta:</b> pon en juego El Durmiente enfrentado al jugador inicial. Cuando El Durmiente sea derrotado, retira esta carta del juego."
+	},
+	{
+		"code": "04141",
+		"flavor": "Bajo el régimen de Hydra, familias enteras son separadas y encarceladas sin un juicio justo.",
+		"name": "Campos de concentración",
+		"text": "<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan busca un Aliado en su mazo y su pila de descartes, lo pone en juego y luego baraja su mazo."
+	},
+	{
+		"code": "04142",
+		"flavor": "Hydra controla todos los medios de comunicación y recurre a la propaganda para enfrentar a la opinión pública contra los antiguos héroes.",
+		"name": "Censurar el pasado",
+		"text": "<b>Cuando se derrote esta carta:</b> cada jugador elige hasta 3 cartas de su pila de descartes, las añade a su mazo y lo baraja."
+	},
+	{
+		"code": "04143",
+		"flavor": "Hydra compensa la falta de aptitudes de sus tropas con una ingente superioridad numérica.",
+		"name": "Refuerzos de Hydra",
+		"text": "<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan descarta un Esbirro que no sea de [[ÉLITE]]."
+	},
+	{
+		"code": "04144",
+		"flavor": "Cráneo Rojo provoca catástrofes por todo el país para mantener ocupados a sus enemigos.",
+		"name": "Caos generalizado",
+		"text": "<b>Cuando se muestre esta carta:</b> cada jugador descarta las 5 primeras cartas de su mazo y coloca 1 de Amenaza sobre esta carta por cada tipo distinto de icono de recurso ([energy],[mental],[physical], o [wild]) que haya descartado de este modo."
+	},
+	{
+		"attack_text": "<B>Respuesta obligada:</b> después de que el Soldado de Hydra con lanzallamas efectúe un ataque no defendido contra ti, descarta un Apoyo que controles.",
+		"boost_text": "si esta carta se resuelve durante un ataque no defendido, descarta un Apoyo que controles.",
+		"code": "04145",
+		"name": "Soldado de Hydra con lanzallamas",
+		"traits": "Hydra."
+	},
+	{
+		"boost_text": "si tienes adoptada tu identidad de Héroe, el Villano te ataca después de esta activación. No des al Villano cartas de aumento para ese ataque.",
+		"code": "04146",
+		"name": "Soldado colador de Hydra",
+		"text": "Ataque veloz.",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04147",
+		"name": "¡Hail, Hydra!",
+		"text": "<b>Cuando se muestre esta carta:</b> todo Esbirro [[Hydra]] que esté enfrentado a un Héroe ataca a ese Héroe. Cada jugador que no sea atacado de este modo busca un Esbirro [[Hydra]] en el mazo y la pila de descartes de Encuentros y lo pone en juego enfrentado a él. Baraja el mazo de Encuentros si se ha buscado en él."
+	},
+	{
+		"attack_text": "Los ataques del Villano vinculado ganan Penetrante.",
+		"code": "04148",
+		"name": "Cuchillo de combate",
+		"text": "Vincula esta carta al Villano.\n<b>Acción de Héroe:</b> gasta recursos [mental][physical] → descarta esta carta.",
+		"traits": "Arma."
+	},
+	{
+		"attack_text": "<b>Interrupción obligada:</b> cuando el Villano vinculado ataque, ese ataque gana A distancia.",
+		"code": "04149",
+		"name": "Arma corta de Hydra",
+		"text": "Vincula esta carta al Villano.\n<b>Acción de Héroe:</b> gasta recursos [mental][physical] → descarta esta carta.",
+		"traits": "Arma."
+	},
+	{
+		"code": "04150",
+		"name": "Maestro de armas",
+		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> el Villano ejecuta el Plan. Si tiene un Accesorio [[ARMA]], esta carta gana Oleada.\n<b>Cuando se muestre esta carta (Héroe):</b> el Villano te ataca. Si tiene un Accesorio [[ARMA]], esta carta gana Oleada."
+	},
+	{
+		"code": "04151",
+		"name": "Granada de conmoción",
+		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> quedas confundido. Coloca 1 de Amenaza sobre el Plan principal (2 de Amenaza si ya estabas confundido).\n<b>Cuando se muestre esta carta (Héroe):</b> quedas aturdido. Inflige 1 de Daño a tu Héroe (2 de Daño si ya estabas aturdido)."
+	},
+	{
+		"code": "04152",
+		"flavor": "\"Teniendo en cuenta qué tipo de personas se unirían a una organización terrorista obsesionada con dominar el mundo, es obvio por qué las tropas de Hydra dejan tanto que desear.\" -- Jessica Drew",
+		"name": "Tropa de Hydra",
+		"text": "Incitar 1. <em>(Cuando se muestre esta carta, coloca 1 de Amenaza sobre el Plan principal.)</em>",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04153",
+		"name": "Soldado de Hydra",
+		"text": "Guardia.<em>(Mientras este Esbirro esté enfrentado a ti, no podrás atacar al Villano.)</em>\n<b>Cuando se derrote esta carta:</b> reparte una carta de Encuentro al jugador enfrentado.",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04154",
+		"flavor": "Los soldados de Hydra organizan patrullas rutinarias para mantener el control en su territorio.",
+		"name": "Patrulla de Hydra",
+		"text": "<b>Cuando se derrote esta carta:</b> cada jugador busca un Esbirro [[HYDRA]] en el mazo y la pila de descartes de Encuentros y lo pone en juego enfrentado a él. Baraja el mazo de Encuentros."
+	},
+	{
+		"code": "10098",
+		"flavor": "\"Un equipo de asalto de Hydra irrumpió en mi casa mientras meditaba. Los eché a patadas, pero fuera había otras dos unidades esperándome.\"",
+		"name": "Shang-Chi",
+		"text": "<b>Respuesta:</b> después de que juegues a Shang-Chi desde tu mano, gasta un recurso [energy] → aturde a un enemigo.",
+		"traits": "Cautivo. Héroe de alquiler."
+	}
 ]
