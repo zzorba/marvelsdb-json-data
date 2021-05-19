@@ -4,6 +4,13 @@
 		"back_link": "18001b",
 		"code": "18001a",
 		"deck_limit": 1,
+		"deck_options": [
+			{
+				"trait":["attack", "thwart"],
+				"type": ["event"],
+				"limit": 6
+			}
+		],
 		"defense": 2,
 		"faction_code": "hero",
 		"hand_size": 5,
@@ -135,7 +142,7 @@
 		"deck_limit": 2,
 		"faction_code": "hero",
 		"flavor": "\"This isn't going to go well for you.\" - Gamora",
-		"name": "Decisive Blow",
+		"name": "Forward Momentum",
 		"pack_code": "gam",
 		"position": 7,
 		"quantity": 2,
@@ -280,6 +287,7 @@
 		"quantity": 3,
 		"resource_mental": 1,
 		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from the main scheme. If this is the first card you have played this round, return this card to your hand.",
+		"traits": "Thwart.",
 		"type_code": "event"
 	},
 	{
