@@ -15,7 +15,7 @@
 		"position": 1,
 		"quantity": 1,
 		"set_code": "stld",
-		"text": "Each ally you control gains the [[guardian]] trait.\n \"What could go wrong?\" - <b>Interrupt:</b> When you play a card from your hand, deal yourself 1 facedown encounter card -> reduce the cost to play that card by 3. (Limit once per round.)",
+		"text": "Each ally you control gains the [[guardian]] trait.\n\"What could go wrong?\" - <b>Interrupt:</b> When you play a card from your hand, deal yourself 1 facedown encounter card → reduce the cost to play that card by 3. (Limit once per round.)",
 		"thwart": 2,
 		"traits": "Guardian.",
 		"type_code": "hero"
@@ -35,7 +35,7 @@
 		"quantity": 1,
 		"recover": 3,
 		"set_code": "stld",
-		"text": "<b>Setup:</b> Search your deck and discard pile for a copy of the Element Gun upgrade and add it to your hand.\n Smooth Talker - <b>Action:</b> Choose a card in your hand. Swap that card with the top card of your deck. (Limit once per round.)",
+		"text": "<b>Setup:</b> Search your deck and discard pile for a copy of the Element Gun upgrade and add it to your hand.\nSmooth Talker - <b>Action:</b> Choose a card in your hand. Swap that card with the top card of your deck. (Limit once per round.)",
 		"traits": "Outlaw.",
 		"type_code": "alter_ego"
 	},
@@ -76,7 +76,7 @@
 		"resource_energy": 1,
 		"set_code": "stld",
 		"set_position": 2,
-		"text": "<b>Hero Action</b> Deal yourself 1 facedown encounter card -> ready your hero and draw 1 card.",
+		"text": "<b>Hero Action</b> Deal yourself 1 facedown encounter card → ready your hero and draw 1 card.",
 		"type_code": "event"
 	},
 	{
@@ -108,7 +108,7 @@
 		"resource_physical": 1,
 		"set_code": "stld",
 		"set_position": 7,
-		"text": "Play only if you control an Element Gun.\n <b>Hero Action</b> <i>(attack)</i>: Deal 5 damage to an enemy. Deal 2 additional damage to that enemy for each facedown encounter card in front of you.",
+		"text": "Play only if you control an Element Gun.\n<b>Hero Action</b> <i>(attack)</i>: Deal 5 damage to an enemy. Deal 2 additional damage to that enemy for each facedown encounter card in front of you.",
 		"traits": "Attack.",
 		"type_code": "event"
 	},
@@ -127,7 +127,7 @@
 		"resource_physical": 1,
 		"set_code": "stld",
 		"set_position": 10,
-		"text": "<b>Hero Interrupt</b> When you would take any amount of damage from the villain's attack, discard this card -> prevent all of that damage. Change to alter-ego form and draw 2 cards.",
+		"text": "<b>Hero Interrupt</b> When you would take any amount of damage from the villain's attack, discard this card → prevent all of that damage. Change to alter-ego form and draw 2 cards.",
 		"traits": "Vehicle.",
 		"type_code": "support"
 	},
@@ -144,7 +144,7 @@
 		"resource_energy": 1,
 		"set_code": "stld",
 		"set_position": 11,
-		"text": "Restricted.\n <b>Hero Action</b> <i>(attack)</i>: Exhaust Element Gun and spend 1 resource of any type -> deal 3 damage to an enemy. This attack gains piercing.",
+		"text": "Restricted.\n<b>Hero Action</b> <i>(attack)</i>: Exhaust Element Gun and spend 1 resource of any type → deal 3 damage to an enemy. This attack gains piercing.",
 		"traits": "Tech. Weapon.",
 		"type_code": "upgrade"
 	},
@@ -161,7 +161,7 @@
 		"resource_mental": 1,
 		"set_code": "stld",
 		"set_position": 13,
-		"text": "Star-Lord gains the [[aerial]] trait.\n <b>Hero Interrupt</b>: When Star-Lord would take any amount of damage, exhaust Jet Boots -> prevent 1 of that damage for each facedown encounter card in front of you.",
+		"text": "Star-Lord gains the [[aerial]] trait.\n<b>Hero Interrupt</b>: When Star-Lord would take any amount of damage, exhaust Jet Boots → prevent 1 of that damage for each facedown encounter card in front of you.",
 		"traits": "Item. Tech.",
 		"type_code": "upgrade"
 	},
@@ -216,7 +216,7 @@
 		"position": 11,
 		"quantity": 1,
 		"resource_physical": 1,
-		"text": "<b>Response:</b> After Adam Warlock attacks or thwarts, discard 1 card at random from your hand. If that card's printed resource has:\n [physical] - Remove 3 threat from a scheme.\n [energy] - Heal 3 damage from an identity\n [mental] - Deal 3 damage to an enemy\n [wild] - Choose one of the above.",
+		"text": "<b>Response:</b> After Adam Warlock attacks or thwarts, discard 1 card at random from your hand. If that card's printed resource has:\n[physical] - Remove 3 threat from a scheme.\n[energy] - Heal 3 damage from an identity\n[mental] - Deal 3 damage to an enemy\n[wild] - Choose one of the above.",
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Aerial. Mystic.",
@@ -273,7 +273,7 @@
 		"position": 14,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "<b>Hero Action</b>: Choose up to X enemies, where X is equal to the number of [[aerial]] characters you control -> deal 3 damage to each chosen enemy.",
+		"text": "<b>Hero Action</b>: Choose up to X enemies, where X is equal to the number of [[aerial]] characters you control → deal 3 damage to each chosen enemy.",
 		"traits": "Aerial. Tactic.",
 		"type_code": "event"
 	},
@@ -287,7 +287,7 @@
 		"position": 15,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "Max 1 per round.\n <b>Hero Action</b>: Each [[guardian]] character gets +2 THW and +2 ATK this phase. At the end of the phase, deal 1 damage to each [[guardian]] character.",
+		"text": "Max 1 per round.\n<b>Hero Action</b>: Each [[guardian]] character gets +2 THW and +2 ATK this phase. At the end of the phase, deal 1 damage to each [[guardian]] character.",
 		"type_code": "event"
 	},
 	{
@@ -308,7 +308,7 @@
 		"position": 17,
 		"quantity": 3,
 		"resource_mental": 1,
-		"text": "<b>Interrupt</b>: When an ally with a [[weapon]] attachment upgrade makes an attack, discard Target Practice -> that ally gets +2 ATK for that attack.",
+		"text": "<b>Interrupt</b>: When an ally with a [[weapon]] attachment upgrade makes an attack, discard Target Practice → that ally gets +2 ATK for that attack.",
 		"traits": "Skill.",
 		"type_code": "support"
 	},
@@ -330,7 +330,7 @@
 		"position": 19,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "Attach to a [[guardian]] ally. Max 1 per ally.\n Attached ally gets +1 ATK and its attacks gain overkill.",
+		"text": "Attach to a [[guardian]] ally. Max 1 per ally.\nAttached ally gets +1 ATK and its attacks gain overkill.",
 		"traits": "Tech. Weapon.",
 		"type_code": "upgrade"
 	},
@@ -365,7 +365,7 @@
 		"position": 21,
 		"quantity": 1,
 		"resource_wild": 1,
-		"text": "<b>Hero Action</b>: Exhaust C.I.T.T. and spend 2 resources of any type -> ready a [[guardian]] character.",
+		"text": "<b>Hero Action</b>: Exhaust C.I.T.T. and spend 2 resources of any type → ready a [[guardian]] character.",
 		"traits": "Vehicle.",
 		"type_code": "support"
 	},
@@ -380,7 +380,7 @@
 		"position": 22,
 		"quantity": 1,
 		"resource_energy": 1,
-		"text": "Play only if your identity has the [[guardian]] trait.\n Increase your ally limit by 1.\n <b>Response</b>: After a player plays a [[guardian]] ally, exhaust Knowhere -> that player draws 1 card.",
+		"text": "Play only if your identity has the [[guardian]] trait.\nIncrease your ally limit by 1.\n<b>Response</b>: After a player plays a [[guardian]] ally, exhaust Knowhere → that player draws 1 card.",
 		"traits": "Location.",
 		"type_code": "support"
 	},
@@ -394,7 +394,7 @@
 		"position": 23,
 		"quantity": 3,
 		"resource_energy": 1,
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Discard Pulse Grenade and choose an enemy -> discard the top 2 cards of the encounter deck. Deal 1 damage to the chosen enemy for each boost icon discarded this way.",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Discard Pulse Grenade and choose an enemy → discard the top 2 cards of the encounter deck. Deal 1 damage to the chosen enemy for each boost icon discarded this way.",
 		"traits": "Weapon.",
 		"type_code": "upgrade"
 	},
