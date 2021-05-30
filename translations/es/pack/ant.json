@@ -1,171 +1,172 @@
 [
-	{
-		"code": "12001a",
-		"flavor": "\"¿Por qué no te metes con alguien de tu tamaño?\"",
-		"name": "Hombre Hormiga",
-		"text": "<i>Insecto irritante</i> - <b>Respuesta:</b> después de que cambies a esta identidad, quita 1 de Amenaza de un Plan.",
-		"traits": "Vengador. Diminuto."
-	},
-	{
-		"code": "12001b",
-		"flavor": "\"Ser el héroe de Cassie es lo que siempre he querido en la vida.\"",
-		"name": "Scott Lang",
-		"text": "<i>Tiempo para relajarse</i> - <b>Respuesta:</b> después de que cambies a esta identidad, cura 1 de Daño a Scott Lang.",
-		"traits": "Civil."
-	},
-	{
-		"code": "12001c",
-		"flavor": "\"¡El chiquitín ya no es pequeño!\"",
-		"name": "Hombre Hormiga",
-		"text": "<i>Molestia mayúscula</i> - <b>Respuesta:</b> después de que cambies a esta identidad, inflige 1 de Daño a un enemigo.",
-		"traits": "Vengador. Gigante."
-	},
-	{
-		"code": "12002",
-		"name": "Avispa",
-		"subname": "Nadia Van Dyne",
-		"text": "<b>Respuesta de Héroe:</b> después de que la Avispa entre en juego, inflige 2 de Daño a un enemigo si tu identidad de Héroe es [[Gigante]], o quita 2 de Amenaza de un Plan si tu identidad de Héroe es [[Diminuto]].",
-		"traits": "Aéreo. Vengador."
-	},
-	{
-		"code": "12003",
-		"flavor": "\"Yo de ti echaría a correr.\" - Scott Lang",
-		"name": "Pisotón de gigante",
-		"text": "Juega esta carta sólo si tu identidad de Héroe es [[Gigante]].\n<b>Acción de Héroe<b> <i>(ataque)</i>: inflige 1 de Daño a cada Esbirro. Inflige 8 de Daño a un enemigo.",
-		"traits": "Ataque. Gigante."
-	},
-	{
-		"code": "12004",
-		"name": "Mente colmena",
-		"text": "Juega esta carta sólo si tu identidad de Héroe es [[Diminuto]].\n<b>Acción de Héroe</b> <i>(intervención)</i>: quita 2 de Amenaza de un Plan. Quita 1 de Amenaza adicional de ese Plan por cada Apoyo \"Ejército de hormigas\" que controles.",
-		"traits": "Ataque. Diminuto."
-	},
-	{
-		"code": "12005",
-		"flavor": "\"¡Esto es una pasada!\" - Scott Lang",
-		"name": "Cambio de tamaño",
-		"text": "<b>Acción de Héroe:</b> cambia a tu otra identidad de Héroe. Roba 1 carta.",
-		"traits": "Superpoder."
-	},
-	{
-		"code": "12006",
-		"name": "Partículas Pym",
-		"text": "<b>Respuesta de Héroe:</b> después de que gastes esta carta, cura 2 de Daño a tu Héroe si tu identidad de Héroe es [[Gigante]], o roba 1 carta si tu identidad de Héroe es [[Diminuto]]."
-	},
-	{
-		"code": "12007",
-		"flavor": "\"¡Hormigadores, reuníos!\" - Scott Lang",
-		"name": "Ejército de hormigas",
-		"text": "<b>Acción de Héroe:</b> si tu identidad de Héroe es [[Diminuto]], agota Ejército de hormigas → inflige 1 de Daño a un enemigo.",
-		"traits": "Hormigas. Diminuto."
-	},
-	{
-		"code": "12008",
-		"name": "Casco del Hombre Hormiga",
-		"text": "<b>Respuesta de Héroe:</b> después de que cambies a tu identidad de Héroe [[Gigante]], cura 2 de Daño a tu Héroe.\n<b>Respuesta de Héroe:</b> después de que cambies a tu identidad de Héroe [[Diminuto]], roba 1 carta.",
-		"traits": "Armadura. Tecnología."
-	},
-	{
-		"code": "12009",
-		"flavor": "\"A mi hija se la ha perdido el móvil. Y he pensado que a lo mejor estaba debajo de estos edificios.\" - Scott Lang",
-		"name": "Fuerza de gigante",
-		"text": "<b>Respuesta de Héroe:</b> después de que cambies a tu identidad de Héroe [[Gigante]], recibes +1 ATQ hasta el final de este turno.",
-		"traits": "Alteración. Gigante."
-	},
-	{
-		"code": "12010",
-		"name": "Guantes de descargas",
-		"text": "<b>Acción de Héroe:</b> si tu identidad de Héroe es [[Gigante]], agota los Guantes de descargas y gasta recursos [physical][physical] → aturde a un enemigo.\n<b>Acción de Héroe:</b> si tu identidad de Héroe es [[Diminuto]], agota los Guantes de descargas y gasta recursos [energy][energy] → confunde a un enemigo.",
-		"traits": "Objeto. Tecnología."
-	},
-	{
-		"code": "12011",
-		"name": "Hombre Hormiga",
-		"subname": "Hank Pym",
-		"text": "El Hombre Hormiga recibe +1 de Vida por cada contador Pym que tenga encima.\n<b>Interrupción:</b> cuando el Hombre Hormiga entre en juego, coloca 1 contador Pym sobre su carta (hasta un máximo de 4) por cada recurso que hayas pagado de más al cubrir su coste.",
-		"traits": "Vengador."
-	},
-	{
-		"code": "12012",
-		"flavor": "\"El tamaño no lo es todo. A menos que tengas que pasar por encima de un puente.\"",
-		"name": "Hombre Gigante",
-		"subname": "Raz Malhotra",
-		"text": "El Hombre Gigante recibe +2 ATQ mientras tenga al menos 3 de Vida restante.",
-		"traits": "Vengador. Gigante."
-	},
-	{
-		"code": "12013",
-		"flavor": "\"No sé quién llevará el traje ahora, pero está claro que sabe como manejarse en una pelea.\" - Spectrum",
-		"name": "Ronin",
-		"text": "Ronin recibe +1 INT y +1 ATQ mientras tenga vinculada una mejora.",
-		"traits": "Vengador."
-	},
-	{
-		"code": "12014",
-		"name": "Aguijón",
-		"subname": "Cassie Lang",
-		"text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[Vengador]].\nAguijón no se cuenta de cara a tu límite de Aliados.",
-		"traits": "Vengador."
-	},
-	{
-		"code": "12015",
-		"flavor": "\"¿Has llamado?\" - Tony Stark",
-		"name": "Pedir ayuda",
-		"text": "<b>Acción de Héroe:</b> descarta cartas de la parte superior de tu mazo hasta que descartes un Aliado [[Vengador]], luego añade ese Aliado a tu mano."
-	},
-	{
-		"code": "12016",
-		"flavor": "\"Si te metes con uno de nosotros, ¡te las ves con todos! Aunque sea el último.\" - Nova",
-		"name": "Aplomo",
-		"text": "<b>Respuesta de Héroe:</b> después de que cambies de identidad, tu Héroe recibe +1 INT, +1 ATQ y +1 DEF hasta el final de la ronda."
-	},
-	{
-		"code": "12017",
-		"name": "Guanteletes de energía",
-		"text": "Vincula esta carta a un Aliado [[Vengador]]. Máximo de 1 por Aliado.\n<b>Respuesta:</b> después de que el Aliado vinculado ataque o intervenga, inflige 1 de Daño a un enemigo.",
-		"traits": "Armadura. Tecnología."
-	},
-	{
-		"code": "12018",
-		"flavor": "\"Recuerda que el poder no está en el traje, sino en el uso que le das.\" - Hank Pym",
-		"name": "Traje reforzado",
-		"text": "Vincula esta carta a un Aliado. Máximo de 1 por Aliado.\nEl Aliado vinculado recibe +2 de Vida.",
-		"traits": "Armadura. Tecnología."
-	},
-	{
-		"code": "12020",
-		"name": "Tácticas de enjambre",
-		"text": "Equipo (Hombre Hormiga y Avispa). Máximo de 1 por mazo.\n<b>Acción de Héroe:</b> cambia a tu otra identidad de Héroe. Prepara a tu Héroe.",
-		"traits": "Táctica."
-	},
-	{
-		"code": "12024",
-		"name": "Espíritu de equipo",
-		"text": "<b>Acción de Héroe:</b> agota Espíritu de equipo → juega una carta de tu mano que tenga un rasgo en común con tu Héroe, reduciendo en 1 su coste en recursos.",
-		"traits": "Alteración."
-	},
-	{
-		"code": "12030",
-		"name": "Momento triunfal",
-		"text": "<b>Respuesta de Héroe:</b> después de que ataques y derrotes a un enemigo, cura 1 de Daño a tu Héroe por cada punto de Daño sobrante infligido a ese enemigo mediante ese ataque."
-	},
-	{
-		"code": "12031",
-		"flavor": "\"¡Que esto te sirva de lección!\" - Capitán América",
-		"name": "Imponer la ley",
-		"text": "<b>Respuesta de Héroe</b> <i>(intervención)</i>: después de que cambies de identidad, quita 3 de Amenaza de un Plan (4 de Amenaza si has pagado el coste de esta carta usando un recurso [mental]).",
-		"traits": "Intervención."
-	},
-	{
-		"code": "12032",
-		"name": "Armarse de valor",
-		"text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[Vengador]].\n<b>Acción de Héroe:</b> dale una carta de Estado \"Duro\" a no más de X personajes amigos (hasta un máximo de 3 personajes), siendo X igual al número de la etapa del Villano."
-	},
-	{
-		"code": "12033",
-		"flavor": "\"Bueno, si huyo, no molo. Y si me quedo y me zumban… tampoco. Es un dilema.\" - Tony Stark",
-		"name": "Evaluar la situación",
-		"text": "<b>Acción:</b> recibes +1 al tamaño de tu mano hasta el final de la fase.",
-		"traits": "Táctica."
-	}
+    {
+        "code": "12001a",
+        "flavor": "\"¿Por qué no te metes con alguien de tu tamaño?\"",
+        "name": "Hombre Hormiga",
+        "text": "<i>Insecto irritante</i> - <b>Respuesta:</b> después de que cambies a esta identidad, quita 1 de Amenaza de un Plan.",
+        "traits": "Vengador. Diminuto."
+    },
+    {
+        "code": "12001b",
+        "flavor": "\"Ser el héroe de Cassie es lo que siempre he querido en la vida.\"",
+        "name": "Scott Lang",
+        "text": "<i>Tiempo para relajarse</i> - <b>Respuesta:</b> después de que cambies a esta identidad, cura 1 de Daño a Scott Lang.",
+        "traits": "Civil."
+    },
+    {
+        "code": "12001c",
+        "flavor": "\"¡El chiquitín ya no es pequeño!\"",
+        "name": "Hombre Hormiga",
+        "text": "<i>Molestia mayúscula</i> - <b>Respuesta:</b> después de que cambies a esta identidad, inflige 1 de Daño a un enemigo.",
+        "traits": "Vengador. Gigante."
+    },
+    {
+        "code": "12002",
+        "name": "Avispa",
+        "text": "<b>Respuesta de Héroe:</b> después de que la Avispa entre en juego, inflige 2 de Daño a un enemigo si tu identidad de Héroe es [[Gigante]], o quita 2 de Amenaza de un Plan si tu identidad de Héroe es [[Diminuto]].",
+        "traits": "Aéreo. Vengador.",
+        "subname": "Nadia Van Dyne"
+    },
+    {
+        "code": "12003",
+        "flavor": "\"Yo de ti echaría a correr.\" - Scott Lang",
+        "name": "Pisotón de gigante",
+        "text": "Juega esta carta sólo si tu identidad de Héroe es [[Gigante]].\n<b>Acción de Héroe<b> <i>(ataque)</i>: inflige 1 de Daño a cada Esbirro. Inflige 8 de Daño a un enemigo.",
+        "traits": "Ataque. Gigante."
+    },
+    {
+        "code": "12004",
+        "name": "Mente colmena",
+        "text": "Juega esta carta sólo si tu identidad de Héroe es [[Diminuto]].\n<b>Acción de Héroe</b> <i>(intervención)</i>: quita 2 de Amenaza de un Plan. Quita 1 de Amenaza adicional de ese Plan por cada Apoyo \"Ejército de hormigas\" que controles.",
+        "traits": "Ataque. Diminuto."
+    },
+    {
+        "code": "12005",
+        "flavor": "\"¡Esto es una pasada!\" - Scott Lang",
+        "name": "Cambio de tamaño",
+        "text": "<b>Acción de Héroe:</b> cambia a tu otra identidad de Héroe. Roba 1 carta.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "12006",
+        "name": "Partículas Pym",
+        "text": "<b>Respuesta de Héroe:</b> después de que gastes esta carta, cura 2 de Daño a tu Héroe si tu identidad de Héroe es [[Gigante]], o roba 1 carta si tu identidad de Héroe es [[Diminuto]]."
+    },
+    {
+        "code": "12007",
+        "flavor": "\"¡Hormigadores, reuníos!\" - Scott Lang",
+        "name": "Ejército de hormigas",
+        "text": "<b>Acción de Héroe:</b> si tu identidad de Héroe es [[Diminuto]], agota Ejército de hormigas → inflige 1 de Daño a un enemigo.",
+        "traits": "Hormigas. Diminuto."
+    },
+    {
+        "code": "12008",
+        "name": "Casco del Hombre Hormiga",
+        "text": "<b>Respuesta de Héroe:</b> después de que cambies a tu identidad de Héroe [[Gigante]], cura 2 de Daño a tu Héroe.\n<b>Respuesta de Héroe:</b> después de que cambies a tu identidad de Héroe [[Diminuto]], roba 1 carta.",
+        "traits": "Armadura. Tecnología."
+    },
+    {
+        "code": "12009",
+        "flavor": "\"A mi hija se la ha perdido el móvil. Y he pensado que a lo mejor estaba debajo de estos edificios.\" - Scott Lang",
+        "name": "Fuerza de gigante",
+        "text": "<b>Respuesta de Héroe:</b> después de que cambies a tu identidad de Héroe [[Gigante]], recibes +1 ATQ hasta el final de este turno.",
+        "traits": "Alteración. Gigante."
+    },
+    {
+        "code": "12010",
+        "name": "Guantes de descargas",
+        "text": "<b>Acción de Héroe:</b> si tu identidad de Héroe es [[Gigante]], agota los Guantes de descargas y gasta recursos [physical][physical] → aturde a un enemigo.\n<b>Acción de Héroe:</b> si tu identidad de Héroe es [[Diminuto]], agota los Guantes de descargas y gasta recursos [energy][energy] → confunde a un enemigo.",
+        "traits": "Objeto. Tecnología."
+    },
+    {
+        "code": "12011",
+        "name": "Hombre Hormiga",
+        "text": "El Hombre Hormiga recibe +1 de Vida por cada contador Pym que tenga encima.\n<b>Interrupción:</b> cuando el Hombre Hormiga entre en juego, coloca 1 contador Pym sobre su carta (hasta un máximo de 4) por cada recurso que hayas pagado de más al cubrir su coste.",
+        "traits": "Vengador.",
+        "subname": "Hank Pym"
+    },
+    {
+        "code": "12012",
+        "flavor": "\"El tamaño no lo es todo. A menos que tengas que pasar por encima de un puente.\"",
+        "name": "Hombre Gigante",
+        "text": "El Hombre Gigante recibe +2 ATQ mientras tenga al menos 3 de Vida restante.",
+        "traits": "Vengador. Gigante.",
+        "subname": "Raz Malhotra"
+    },
+    {
+        "code": "12013",
+        "flavor": "\"No sé quién llevará el traje ahora, pero está claro que sabe como manejarse en una pelea.\" - Spectrum",
+        "name": "Ronin",
+        "text": "Ronin recibe +1 INT y +1 ATQ mientras tenga vinculada una mejora.",
+        "traits": "Vengador."
+    },
+    {
+        "code": "12014",
+        "name": "Aguijón",
+        "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[Vengador]].\nAguijón no se cuenta de cara a tu límite de Aliados.",
+        "traits": "Vengador.",
+        "subname": "Cassie Lang"
+    },
+    {
+        "code": "12015",
+        "flavor": "\"¿Has llamado?\" - Tony Stark",
+        "name": "Pedir ayuda",
+        "text": "<b>Acción de Héroe:</b> descarta cartas de la parte superior de tu mazo hasta que descartes un Aliado [[Vengador]], luego añade ese Aliado a tu mano."
+    },
+    {
+        "code": "12016",
+        "flavor": "\"Si te metes con uno de nosotros, ¡te las ves con todos! Aunque sea el último.\" - Nova",
+        "name": "Aplomo",
+        "text": "<b>Respuesta de Héroe:</b> después de que cambies de identidad, tu Héroe recibe +1 INT, +1 ATQ y +1 DEF hasta el final de la ronda."
+    },
+    {
+        "code": "12017",
+        "name": "Guanteletes de energía",
+        "text": "Vincula esta carta a un Aliado [[Vengador]]. Máximo de 1 por Aliado.\n<b>Respuesta:</b> después de que el Aliado vinculado ataque o intervenga, inflige 1 de Daño a un enemigo.",
+        "traits": "Armadura. Tecnología."
+    },
+    {
+        "code": "12018",
+        "flavor": "\"Recuerda que el poder no está en el traje, sino en el uso que le das.\" - Hank Pym",
+        "name": "Traje reforzado",
+        "text": "Vincula esta carta a un Aliado. Máximo de 1 por Aliado.\nEl Aliado vinculado recibe +2 de Vida.",
+        "traits": "Armadura. Tecnología."
+    },
+    {
+        "code": "12020",
+        "name": "Tácticas de enjambre",
+        "text": "Equipo (Hombre Hormiga y Avispa). Máximo de 1 por mazo.\n<b>Acción de Héroe:</b> cambia a tu otra identidad de Héroe. Prepara a tu Héroe.",
+        "traits": "Táctica."
+    },
+    {
+        "code": "12024",
+        "flavor": "",
+        "name": "Espíritu de equipo",
+        "text": "<b>Acción de Héroe:</b> agota Espíritu de equipo → juega una carta de tu mano que tenga un rasgo en común con tu Héroe, reduciendo en 1 su coste en recursos.",
+        "traits": "Alteración."
+    },
+    {
+        "code": "12030",
+        "name": "Momento triunfal",
+        "text": "<b>Respuesta de Héroe:</b> después de que ataques y derrotes a un enemigo, cura 1 de Daño a tu Héroe por cada punto de Daño sobrante infligido a ese enemigo mediante ese ataque."
+    },
+    {
+        "code": "12031",
+        "flavor": "\"¡Que esto te sirva de lección!\" - Capitán América",
+        "name": "Imponer la ley",
+        "text": "<b>Respuesta de Héroe</b> <i>(intervención)</i>: después de que cambies de identidad, quita 3 de Amenaza de un Plan (4 de Amenaza si has pagado el coste de esta carta usando un recurso [mental]).",
+        "traits": "Intervención."
+    },
+    {
+        "code": "12032",
+        "name": "Armarse de valor",
+        "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[Vengador]].\n<b>Acción de Héroe:</b> dale una carta de Estado \"Duro\" a no más de X personajes amigos (hasta un máximo de 3 personajes), siendo X igual al número de la etapa del Villano."
+    },
+    {
+        "code": "12033",
+        "flavor": "\"Bueno, si huyo, no molo. Y si me quedo y me zumban… tampoco. Es un dilema.\" - Tony Stark",
+        "name": "Evaluar la situación",
+        "text": "<b>Acción:</b> recibes +1 al tamaño de tu mano hasta el final de la fase.",
+        "traits": "Táctica."
+    }
 ]
