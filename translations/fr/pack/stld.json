@@ -1,0 +1,161 @@
+[
+    {
+        "code": "17001a",
+        "name": "Star-Lord",
+        "text": "Chaque allié que vous contrôlez gagne le trait [[Gardien]].\n<i>\"Qu'est ce qui pourrait mal tourner ?\"</i> — <b>Interruption</b> : quand vous jouez une carte de votre main, attribuez-vous 1 carte Rencontre face cachée → réduisez de 3 le coût en ressources pour jouer cette carte. (Limite d'une fois par round.)",
+        "traits": "Gardien"
+    },
+    {
+        "code": "17001b",
+        "name": "Peter Quill",
+        "text": "<b>Mise en place</b> : cherchez un exemplaire de l'amélioration Pistolet Élémentaire dans votre deck ou votre pile de défausse et ajoutez-le à votre main. Mélangez votre deck.\n<i>Beau Parleur</i> — <b>Action</b> : choisissez une carte dans votre main. Échangez cette carte contre la carte du dessus de votre deck. (Limite d'une fois par round.)",
+        "traits": "Hors-la-loi."
+    },
+    {
+        "code": "17002",
+        "flavor": "\"Ça, c'est pour les Nova Corps !\" — Nova Prime",
+        "name": "Nova Prime",
+        "text": "<b>Réponse</b> : après avoir joué Nova Prime de votre main, vainquez un sbire non-[[Élite]].",
+        "traits": "Aérien. Nova Corps.",
+        "subname": "Richard Rider"
+    },
+    {
+        "code": "17003",
+        "flavor": "\"Bon, c'est pas pour me vanter, mais c'est probablement le truc le plus courageux qu'aucun de nous ai jamais fait.\" — Star-lord",
+        "name": "Évasion Audacieuse",
+        "text": "<b>Action de héros</b> attribuez-vous 1 carte Rencontre face cachée → redressez votre héros et piochez 1 carte."
+    },
+    {
+        "code": "17004",
+        "name": "Geste Téméraire",
+        "text": "<b>Action de héros</b> <i>(contre)</i> : retirez 2 menaces d'une manigance. Retirez 2 menaces supplémentaires de cette manigance pour chaque carte Rencontre face cachée devant vous.",
+        "traits": "Contre."
+    },
+    {
+        "code": "17005",
+        "name": "Tir en Glissant",
+        "text": "Jouez cette carte uniquement si vous contrôlez un Pistolet Élémentaire.\n<b>Action de héros</b> <i>(attaque)</i> : infligez 5 dégâts à un ennemi. Infligez-lui 2 dégâts supplémentaires pour chaque carte Rencontre face cachée devant vous.",
+        "traits": "Attaque."
+    },
+    {
+        "code": "17006",
+        "flavor": "\"Piloter avec style !\" — Peter Quill",
+        "name": "Bad Boy",
+        "text": "<b>Interruption de héros</b> : quand vous êtes censé subir n'importe quelle quantité de dégâts de l'attaque du méchant, défaussez cette carte → prévenez tous ces dégâts. Passez sous forme d'alter ego et piochez 2 cartes.",
+        "traits": "Véhicule."
+    },
+    {
+        "code": "17007",
+        "name": "Pistolet Élémentaire",
+        "text": "Restreint. <i>(2 cartes restreintes max par joueur.)</i>\n<b>Action de héros</b> <i>(attaque)</i> : inclinez le Pistolet Élémentaire et dépensez 1 ressource de n'importe quel type → infligez 3 dégâts à un ennemi. Cette attaque gagne Perçant.",
+        "traits": "Tech. Arme."
+    },
+    {
+        "code": "17008",
+        "name": "Bottes à Réaction",
+        "text": "Star-Lord gagne le trait [[Aérien]].\n<b>Interruption de héros</b> : quand Star-Lord est censé subir n'importe quelle quantité de dégâts, inclinez les Bottes à Réaction → prévenez 1 de ces dégâts pour chaque carte Rencontre face cachée devant vous.",
+        "traits": "Objet. Tech."
+    },
+    {
+        "code": "17009",
+        "flavor": "\"Je sais bien qu'on se déteste tous mutuellement et qu'on a tous essayé de s'entre-tuer. Mais à partir de maintenant et jusqu'à ce qu'on ait fini ce job… nous sommes tous des Gardiens.\" — Peter Quill",
+        "name": "Chef des Gardiens",
+        "text": "Chaque personnage [[Gardien]] que vous contrôlez gagne +1 CTR.",
+        "traits": "Titre."
+    },
+    {
+        "code": "17010",
+        "flavor": "\"Tu ne vois pas que je suis en train de te juger, mais je suis entrain de te juger.\" — Star-Lord",
+        "name": "Casque de Star-Lord",
+        "text": "Tant que vous êtes sous forme de héros, la taille de votre main augmente de +1 pour chaque carte Rencontre face cachée devant vous (jusqu'à un maximum de +3).",
+        "traits": "Armure. Tech."
+    },
+    {
+        "code": "17011",
+        "name": "Adam Warlock",
+        "text": "<b>Réponse</b> : après qu'Adam Warlock a attaqué ou contré, défaussez 1 carte prise au hasard dans votre main. Si cette carte a comme ressource imprimé :\n[physical] — Retirez 3 menaces d'une manigance.\n[energy] — Soignez 3 dégâts d'une identité.\n[mental] — Infligez 3 dégâts à un ennemi.\n[wild] — Choisissez l'une des options ci-dessus.",
+        "traits": "Aérien. Mystique."
+    },
+    {
+        "code": "17012",
+        "flavor": "Je ne suis peut-être pas natif du Royaume Éternel, mais le pouvoir de mon marteau provient d'Odin lui-même. Je combats donc pour Asgard, aujourd'hui et pour tous les jours à venir !",
+        "name": "Beta Ray Bill",
+        "text": "<b>Réponse</b> : après que Beta Ray Bill a attaqué et vaincu un sbire, retirez 2 menaces de la manigance principale.",
+        "traits": "Asgard."
+    },
+    {
+        "code": "17013",
+        "name": "Yondu",
+        "attack_text": "Les attaques de Yondu gagnent À Distance. <i>(Les attaques À Distance ignorent Riposte.)</i>",
+        "traits": "Gardien"
+    },
+    {
+        "code": "17014",
+        "name": "Supériorité Aérienne",
+        "text": "<b>Action de héros</b> : choisissez jusqu'à X ennemis, X étant égal au nombre de personnages [[Aérien]] que vous contrôlez → infligez 3 dégâts à chaque ennemi choisi.",
+        "traits": "Aérien. Tactique."
+    },
+    {
+        "code": "17015",
+        "name": "Coup d'Éclat",
+        "text": "1 max par round.\n<b>Action de héros</b> : chaque personnage [[Gardien]] gagne +2 CTR et +2 ATQ durant cette phase. À la fin de la phase, infligez 1 dégât à chaque personnage [[Gardien]]."
+    },
+    {
+        "code": "17017",
+        "flavor": "\"Trop facile, mec.\" — Star-Lord",
+        "name": "Entraînement au Tir",
+        "text": "<b>Interruption</b> : quand un allié ayant une amélioration [[Arme]] effectue une attaque, défaussez Entraînement au Tir → cet allié gagne +2 ATQ pour cette attaque.",
+        "traits": "Compétence."
+    },
+    {
+        "code": "17019",
+        "flavor": "\"Je ne ferai qu'une bouchée de toi.\" — Nebula",
+        "name": "Phaseur Laser",
+        "text": "Attachez cette carte à un allié [[Gardien]].\n1 max par allié.\nL'allié attaché gagne +1 ATQ et ses attaques gagnent Déferlement.",
+        "traits": "Tech. Arme."
+    },
+    {
+        "code": "17020",
+        "name": "Cosmo",
+        "text": "<b>Interruption</b> : quand Cosmo attaque ou contre, nommez un type de carte, ensuite, défaussez la carte du dessus d'un deck. Si cette carte est du type nommé, Cosmo ne subit pas de dégâts consécutifs <i>(les dégâts indiqués sous CTR ou ATQ)</i> pour cette utilisation.",
+        "traits": "Gardien"
+    },
+    {
+        "code": "17021",
+        "flavor": "\"JE ne sais pas si ce vaisseau à un nom, mais j'aime bien l'appeler Carlingue Interstrellaire Tip Top.\" — Peter Quill",
+        "name": "C.I.T.T.",
+        "text": "<b>Action de héros</b> : inclinez le C.I.T.T. et dépensez 2 ressources de n'importe quel type → redressez un personnage [[Gardien]].",
+        "traits": "Véhicule."
+    },
+    {
+        "code": "17022",
+        "name": "Nulle-Part",
+        "text": "Jouez cette carte uniquement si votre identité a le trait [[Gardien]].\nAugmentez de 1 votre limite d'alliés.\n<b>Réponse</b> : après qu'un joueur a joué un allié [[Gardien]], inclinez Nulle-Part → ce joueur pioche 1 carte.",
+        "traits": "Location."
+    },
+    {
+        "code": "17023",
+        "name": "Grenade À Impulsion",
+        "text": "<b>Action de héros</b> <i>(attaque)</i> : défaussez la Grenade à Impulsion et choissez un ennemi → défaussez les 2 cartes du dessus du deck Rencontre. Infligez 1 dégât à l'ennemi choisi pour chaque icône de boost ([boost]) ainsi défaussée.",
+        "traits": "Arme."
+    },
+    {
+        "code": "17028",
+        "name": "Plongeon Explosif",
+        "text": "Jouez cette carte uniquement si votre identité a le trait [[Aérien]].\n<b>Action de héros</b> <i>(attaque)</i> : infligez 7 dégâts à un ennemi. Infligez 1 dégât à chaque autre ennemi.",
+        "traits": "Aérien. Attaque."
+    },
+    {
+        "code": "17029",
+        "name": "Vol Agile",
+        "text": "Jouez cette carte uniquement si votre identité a le trait [[Aérien]].\n<b>Action de héros</b> <i>(contre)</i> : retirez un total de 5 menaces ou moins parmi les manigances de votre choix <i>(réparties comme vous le souhaitez)</i>.",
+        "traits": "Aérien. Contre."
+    },
+    {
+        "code": "17030",
+        "flavor": "\"J'ai l'impression de porter le poids du monde sur mes épaules.\" — Captain Marvel",
+        "name": "Toujours sur ses Gardes",
+        "text": "Jouez cette carte uniquement si votre identité a le trait [[Aérien]].\n<b>Action de héros</b> : redressez votre héros et retirez 2 menaces de la manigance principale.",
+        "traits": "Aérien. Compétence."
+    }
+]
