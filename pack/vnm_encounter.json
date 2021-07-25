@@ -1,0 +1,50 @@
+[
+	{	
+		"boost": 2,
+		"code": "20023",
+		"faction_code": "encounter",
+		"name": "Struggle for Control",
+		"octgn_id": "f269a59a-4bc6-476f-9c36-20586a3de340",
+		"pack_code": "vnm",
+		"position": 23,
+		"quantity": 1,
+		"set_code": "vnm",
+		"set_position": 23,
+		"text": "<b><i>Give to the Flash Thompson player.</i></b>\nYou may flip to your alter-ego form. Choose:\n- Exhaust Flash Thompson and take 2 damage → discard this obligation.\n- Put 1 set-aside copy of Enraged Symbiote into play engaged with the first player. If you cannot, this card gains surge. Discard this obligation.",
+		"type_code": "obligation"
+	},	
+	{	
+		"boost": 3,
+		"code": "20024",
+		"faction_code": "encounter",
+		"flavor": "<b><i>The Venom symbiote is distraught, bonding with everyone it touches and sending them into a destructive rage.</i></b>",
+		"name": "Klyntar Frenzy",
+		"octgn_id": "a0444c6e-31f1-4de9-91ff-25b2de655cf2",
+		"pack_code": "vnm",
+		"position": 24,
+		"quantity": 1,
+		"set_code": "vnm_nemesis",
+		"set_position": 1,
+		"text": "Threat cannot be removed from this scheme while a [[Symbiote]] enemy is in play.",
+		"type_code": "side_scheme"
+	},	
+	{	
+		"attack": 2,
+		"boost_text": "Put Enraged Symbiote into play engaged with you.",
+		"code": "20025",
+		"faction_code": "encounter",
+		"flavor": "\"You will kneel before the true Destroyer!\"",
+		"health": 2,
+		"name": "Enraged Symbiote",
+		"octgn_id": "cdc9410c-6315-4c1c-a92e-4069c71ed2d8",
+		"pack_code": "vnm",
+		"position": 25,
+		"quantity": 4,
+		"scheme": 1,
+		"set_code": "vnm_nemesis",
+		"set_position": 2,
+		"text": "Guard. Patrol. <i>(While this minion is engaged with you, you cannot thwart the main scheme.)\n(Venom's nemesis minion.)</i>",
+		"traits": "Symbiote.",
+		"type_code": "minion"
+	}
+]
