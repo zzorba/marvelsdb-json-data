@@ -47,6 +47,8 @@ def custom_card_check(args, card, pack_code, factions_data, types_data):
         raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid faction code." % (card["faction_code"], card["code"]))
     if card.get("type_code") and  card["type_code"] not in [f["code"] for f in types_data]:
         raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid type code." % (card["type_code"], card["code"]))
+    if card.get("traits") and not card["traits"].endswith("."):
+        raise jsonschema.ValidationError("The traits list \"%s\" on card %s does not end with a period (.)" % (card["traits"], card["code"]))
 
 def format_json(json_data):
     formatted_data = json.dumps(json_data, ensure_ascii=False, sort_keys=True, indent=4, separators=(',', ': '))
