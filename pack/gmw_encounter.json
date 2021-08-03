@@ -212,7 +212,9 @@
 		"type_code": "villain"
 	},	
 	{	
+		"back_link": "16061b",
 		"code": "16061a",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"flavor": "<i>Drang's overwhelming forces have mounted a surprise attack against Earth!</i>",
 		"name": "Terrestrial Invasion",
@@ -241,7 +243,9 @@
 		"type_code": "main_scheme"
 	},	
 	{	
+		"back_link": "16062b",
 		"code": "16062a",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"flavor": "<i>The Badoon have punctured through Earth's defenses! Beat them back before it's too late.</i>",
 		"name": "Protect the Planet",
@@ -286,6 +290,7 @@
 		"type_code": "environment"
 	},	
 	{	
+		"boost": 3,
 		"code": "16064",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -319,6 +324,7 @@
 		"type_code": "minion"
 	},	
 	{	
+		"boost": 1,
 		"code": "16066",
 		"faction_code": "encounter",
 		"name": "Blockade",
@@ -326,12 +332,14 @@
 		"pack_code": "gmw",
 		"position": 66,
 		"quantity": 1,
+		"scheme_crisis": 1,
 		"set_code": "brotherhood_of_badoon",
 		"set_position": 10,
 		"text": "Hinder 2[per_player]. <i>(When revealed, place 2[per_player] theat here.)</i> \n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
 	},	
 	{	
+		"boost": 2,
 		"code": "16067",
 		"faction_code": "encounter",
 		"name": "Bombardment",
@@ -345,6 +353,7 @@
 		"type_code": "side_scheme"
 	},	
 	{	
+		"boost": 1,
 		"code": "16068",
 		"faction_code": "encounter",
 		"name": "Oppressive Armada",
@@ -358,6 +367,7 @@
 		"type_code": "side_scheme"
 	},	
 	{	
+		"boost": 3,
 		"code": "16069",
 		"faction_code": "encounter",
 		"name": "Spatial Positionning",
@@ -432,7 +442,9 @@
 		"type_code": "villain"
 	},	
 	{	
+		"back_link": "16073b",
 		"code": "16073a",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"name": "The Grand Collection",
 		"octgn_id": "fbd98e39-52f9-4a87-83f5-4e47d4b998d9",
@@ -460,6 +472,7 @@
 		"type_code": "main_scheme"
 	},	
 	{	
+		"boost": 1,
 		"boost_text": "After this activation ends, reveal this card.",
 		"code": "16074",
 		"faction_code": "encounter",
@@ -476,6 +489,7 @@
 	},	
 	{	
 		"attack": 2,
+		"boost": 3,
 		"code": "16075",
 		"faction_code": "encounter",
 		"flavor": "<b>\"No one can hide from me.\"</b>",
@@ -508,6 +522,7 @@
 		"type_code": "treachery"
 	},	
 	{	
+		"boost": 2,
 		"code": "16077",
 		"faction_code": "encounter",
 		"name": "View the Cosmos",
@@ -521,6 +536,7 @@
 		"type_code": "treachery"
 	},	
 	{	
+		"boost": 1,
 		"code": "16078",
 		"faction_code": "encounter",
 		"name": "Stay Awhile",
@@ -534,6 +550,7 @@
 		"type_code": "treachery"
 	},	
 	{	
+		"boost": 1,
 		"code": "16079",
 		"faction_code": "encounter",
 		"name": "Caught Off Guard",
@@ -548,7 +565,9 @@
 	},	
 	{	
 		"attack": 1,
+		"back_link": "16080b",
 		"code": "16080a",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"health": 8,
 		"health_per_hero": true,
@@ -586,7 +605,9 @@
 	},	
 	{	
 		"attack": 2,
+		"back_link": "16081b",
 		"code": "16081a",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"health": 10,
 		"health_per_hero": true,
@@ -623,7 +644,9 @@
 		"type_code": "villain"
 	},	
 	{	
+		"back_link": "16082b",
 		"code": "16082a",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"name": "The Missing Milano",
 		"octgn_id": "2ec8d391-2690-4910-82e1-692015682f87",
@@ -650,7 +673,9 @@
 		"type_code": "main_scheme"
 	},	
 	{	
+		"back_link": "16083b",
 		"code": "16083a",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"flavor": "<b><i>The Milano is being held in a massive container. You try to pry open the side, but ultimately resolve to smashing the glass as hard as you can.</i></b>",
 		"name": "Lost in the Museum",
@@ -678,7 +703,9 @@
 		"type_code": "main_scheme"
 	},	
 	{	
+		"back_link": "16084b",
 		"code": "16084a",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"flavor": "<b><i>You've found the exit! As the Milano bursts into space and readies its thrusters, you see the Museum Ship's cannons beginning to charge.</i></b>",
 		"name": "The Great Escape",
@@ -706,7 +733,9 @@
 		"type_code": "main_scheme"
 	},	
 	{	
+		"back_link": "16085b",
 		"code": "16085a",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"flavor": "<b><i>The Collector's museum is a maze of miscellaneous trinkets from every culture and hapless creatures from every star system.</i></b>",
 		"name": "Library Labyrinth",
@@ -735,6 +764,7 @@
 		"type_code": "environment"
 	},	
 	{	
+		"boost": 1,
 		"boost_text": "Give Collector a tough status card.",
 		"code": "16086",
 		"faction_code": "encounter",
@@ -749,6 +779,7 @@
 		"type_code": "treachery"
 	},	
 	{	
+		"boost": 1,
 		"code": "16087",
 		"faction_code": "encounter",
 		"flavor": "<b><i>\"I… am… Groot???\" - Groot</i></b>",
@@ -823,7 +854,9 @@
 		"type_code": "villain"
 	},	
 	{	
+		"back_link": "16091b",
 		"code": "16091a",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"name": "The Art of Evasion",
 		"octgn_id": "3d5f8cf4-9d76-4a23-9789-e0a17268ecc0",
@@ -852,7 +885,9 @@
 		"type_code": "main_scheme"
 	},	
 	{	
+		"back_link": "16092b",
 		"code": "16092a",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"flavor": "<b><i>With expert precision, Nebula's Ship pitches and yaws, outmaneuvering the Milano and putting Nebula just far enough away that she might have a chance to escape.</i></b>",
 		"name": "Warp Drive Initiated",
@@ -979,12 +1014,14 @@
 		"pack_code": "gmw",
 		"position": 99,
 		"quantity": 2,
+		"scheme_hazard": 1,
 		"set_code": "nebula",
 		"set_position": 15,
 		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a [[Technique]] attachment is discarded. Reveal that card.",
 		"type_code": "side_scheme"
 	},	
 	{	
+		"boost": 1,
 		"boost_text": "Place 1 evasion counter on Nebula's Ship.",
 		"code": "16100",
 		"faction_code": "encounter",
@@ -999,6 +1036,7 @@
 		"type_code": "treachery"
 	},	
 	{	
+		"boost": 2,
 		"code": "16101",
 		"faction_code": "encounter",
 		"flavor": "<b><i>\"I'll never be finished until I've gotten what I want.\" - Nebula</i></b>",
@@ -1013,6 +1051,7 @@
 		"type_code": "treachery"
 	},	
 	{	
+		"boost": 2,
 		"code": "16102",
 		"faction_code": "encounter",
 		"name": "Ruthless",
@@ -1087,7 +1126,9 @@
 		"type_code": "villain"
 	},	
 	{	
+		"back_link": "16106b",
 		"code": "16106a",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"name": "Interception Imminent",
 		"octgn_id": "ac9e35f9-fd37-4bc5-ad25-0853ee2be8c8",
@@ -1116,7 +1157,9 @@
 		"type_code": "main_scheme"
 	},	
 	{	
+		"back_link": "16107b",
 		"code": "16107a",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"flavor": "<b><i>Ronan the Accuser's ship has docked with yours. Boarding the Milano, he makes one strike of his Universal Weapon to knock you off your feet. Before you're able to recover, he grabs the Power Stone.</i></b>",
 		"name": "\"Take What Is Mine\"",
@@ -1154,6 +1197,7 @@
 		"pack_code": "gmw",
 		"position": 108,
 		"quantity": 1,
+		"scheme_hazard": 1,
 		"set_code": "ronan",
 		"set_position": 6,
 		"text": "<b>First Player Interrupt:</b> When a treachery card is revealed from the encounter deck, exhaust the Milano and spend 1 resource of any type → cancel that card's <b>\"When Revealed\" effects.",
@@ -1177,6 +1221,7 @@
 		"type_code": "attachment"
 	},	
 	{	
+		"boost": 2,
 		"code": "16110",
 		"faction_code": "encounter",
 		"name": "Fanaticism",
@@ -1199,11 +1244,13 @@
 		"pack_code": "gmw",
 		"position": 111,
 		"quantity": 1,
+		"scheme_crisis": 1,
 		"set_code": "ronan",
 		"set_position": 10,
 		"type_code": "side_scheme"
 	},	
 	{	
+		"boost": 3,
 		"code": "16112",
 		"faction_code": "encounter",
 		"name": "Pincer Maneuver",
@@ -1211,12 +1258,14 @@
 		"pack_code": "gmw",
 		"position": 112,
 		"quantity": 2,
+		"scheme_acceleration": 2,
 		"set_code": "ronan",
 		"set_position": 11,
 		"text": "Hinder 2[per_player] <i>(When revealed, place 2[per_player] threat here.)</i>.\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
 	},	
 	{	
+		"boost": 2,
 		"code": "16113",
 		"faction_code": "encounter",
 		"flavor": "<b><i>Ronan the Accuser's advanced Kree training and fanatical determination make him an opponen like no other.</i></b>",
@@ -1245,6 +1294,7 @@
 		"type_code": "treachery"
 	},	
 	{	
+		"boost": 1,
 		"code": "16115",
 		"faction_code": "encounter",
 		"flavor": "<b><i>\"Kneel before me!\" - Ronan the Accuser</i></b>",
@@ -1259,6 +1309,7 @@
 		"type_code": "treachery"
 	},	
 	{	
+		"boost": 1,
 		"boost_text": "Give the villain 1 additional boost card for this activation.",
 		"code": "16116",
 		"faction_code": "encounter",
@@ -1274,6 +1325,7 @@
 	},	
 	{	
 		"attack": 1,
+		"boost_text": "If this activation is an attack, this attack gains overkill, piercing, and ranged.",
 		"code": "16117",
 		"faction_code": "encounter",
 		"health": 1,
@@ -1285,11 +1337,13 @@
 		"scheme": 1,
 		"set_code": "band_of_badoon",
 		"set_position": 1,
+		"text": "<b>Forced Response:</b> After Badoon Assassin engages your hero, it attacks you with +2 ATK.",
 		"traits": "Badoon.",
 		"type_code": "minion"
 	},	
 	{	
 		"attack": 2,
+		"boost_text": "Put Badoon Grunt into play engaged with you.",
 		"code": "16118",
 		"faction_code": "encounter",
 		"health": 2,
@@ -1301,11 +1355,14 @@
 		"scheme": 2,
 		"set_code": "band_of_badoon",
 		"set_position": 3,
+		"text": "<b>Forced Response:</b> After Badoon Grunt engages you, if there are no other minions engaged with you, deal yourself 1 facedown encounter card.",
 		"traits": "Badoon.",
 		"type_code": "minion"
 	},	
 	{	
 		"attack": 2,
+		"boost": 1,
+		"boost_text": "If this activation is a scheme, this card gets +2 boost icons ([boost][boost]) for this activation.",
 		"code": "16119",
 		"faction_code": "encounter",
 		"health": 6,
@@ -1317,11 +1374,14 @@
 		"scheme": 2,
 		"set_code": "band_of_badoon",
 		"set_position": 6,
+		"text": "Patrol. <i>(While this minion is engaged with you, you cannot thwart the main scheme.)</i>",
 		"traits": "Badoon.",
 		"type_code": "minion"
 	},	
 	{	
 		"attack": 1,
+		"boost": 1,
+		"boost_text": "Give the villain a tough status card. If the villain already has a tough status card, this card gets +2 boost icons ([boost][boost]) for this activation.",
 		"code": "16120",
 		"faction_code": "encounter",
 		"health": 5,
@@ -1333,11 +1393,13 @@
 		"scheme": 1,
 		"set_code": "band_of_badoon",
 		"set_position": 7,
+		"text": "Retaliate 1.",
 		"traits": "Badoon.",
 		"type_code": "minion"
 	},	
 	{	
 		"attack": 3,
+		"boost_text": "If this activation is an attack, this card gets +2 boost icons ([boost][boost]) for this activation.",
 		"code": "16121",
 		"faction_code": "encounter",
 		"health": 4,
@@ -1349,12 +1411,15 @@
 		"scheme": 1,
 		"set_code": "band_of_badoon",
 		"set_position": 9,
+		"text": "[star] Badoon Warlord's attacks gain overkill.",
 		"traits": "Badoon.",
 		"type_code": "minion"
 	},	
 	{	
+		"boost": 2,
 		"code": "16122",
 		"faction_code": "encounter",
+		"flavor": "<b><i>The cloak of the fabled hero Hercules. Those fortunate enough to don this mantle are granted unimaginable strenght.</i></b>",
 		"is_unique": true,
 		"name": "Cloak of Hercules",
 		"octgn_id": "23273bad-6eaa-46c3-9bbc-9a50c0d3f1b5",
@@ -1363,10 +1428,12 @@
 		"quantity": 1,
 		"set_code": "galactic_artifacts",
 		"set_position": 1,
+		"text": "Attach to the enemy with the lowest ATK.\n<b>Hero Action:</b> Spend [physical][physical][physical] resources → discard this card.",
 		"traits": "Artifact.",
 		"type_code": "attachment"
 	},	
 	{	
+		"boost": 2,
 		"code": "16123",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1377,10 +1444,12 @@
 		"quantity": 1,
 		"set_code": "galactic_artifacts",
 		"set_position": 2,
+		"text": "Attach to your identity.\nAttached character gets -1 THW, -1 ATK, and -1 DEF.\n<b>Hero Action:</b> Take 1 damage and spend [mental][mental] resources → discard this card. <i>(Any player can do this.)</i>",
 		"traits": "Artifact.",
 		"type_code": "attachment"
 	},	
 	{	
+		"boost": 3,
 		"code": "16124",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1389,14 +1458,18 @@
 		"pack_code": "gmw",
 		"position": 124,
 		"quantity": 1,
+		"scheme_boost": 1,
 		"set_code": "galactic_artifacts",
 		"set_position": 3,
+		"text": "Attach to the enemy with the highest SCH.\n<b>Hero Action:</b> Place 2 threat on the main scheme and spend 2 resources → discard this card.",
 		"traits": "Artifact.",
 		"type_code": "attachment"
 	},	
 	{	
+		"boost": 2,
 		"code": "16125",
 		"faction_code": "encounter",
+		"flavor": "<b><i>The deadliest toxin in the galaxy.</i></b>",
 		"is_unique": true,
 		"name": "The Poison",
 		"octgn_id": "04a662f5-6b00-4f2a-8c10-a6889a4c368f",
@@ -1405,10 +1478,12 @@
 		"quantity": 1,
 		"set_code": "galactic_artifacts",
 		"set_position": 4,
+		"text": "Attach to your identity.\n<b>Forced Interrupt:</b> When your turn begins, place 1 poison counter here, the take 1 damage for each poison counter here.\n<b>Hero Action:</b> Spend 3 resources of different types → discard this card. <i>(Any player can do this.)</i>",
 		"traits": "Artifact.",
 		"type_code": "attachment"
 	},	
 	{	
+		"boost": 1,
 		"code": "16126",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1417,12 +1492,15 @@
 		"pack_code": "gmw",
 		"position": 126,
 		"quantity": 1,
+		"scheme_hazard": 1,
 		"set_code": "galactic_artifacts",
 		"set_position": 5,
+		"text": "Attach to the enemy with the lowest SCH.\n<b>Hero Action:</b> Spend [energy][energy][energy] resources → discard this card.",
 		"traits": "Artifact.",
 		"type_code": "attachment"
 	},	
 	{	
+		"boost": 1,
 		"code": "16127",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1431,11 +1509,14 @@
 		"pack_code": "gmw",
 		"position": 127,
 		"quantity": 1,
+		"scheme_acceleration": 1,
 		"set_code": "galactic_artifacts",
 		"set_position": 6,
+		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may ready their identity.",
 		"type_code": "side_scheme"
 	},	
 	{	
+		"boost": 1,
 		"code": "16128",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1444,11 +1525,14 @@
 		"pack_code": "gmw",
 		"position": 128,
 		"quantity": 1,
+		"scheme_hazard": 1,
 		"set_code": "galactic_artifacts",
 		"set_position": 7,
+		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may heal 4 damage from their identity.",
 		"type_code": "side_scheme"
 	},	
 	{	
+		"boost": 1,
 		"code": "16129",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1457,11 +1541,14 @@
 		"pack_code": "gmw",
 		"position": 129,
 		"quantity": 1,
+		"scheme_boost": 1,
 		"set_code": "galactic_artifacts",
 		"set_position": 8,
+		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may draw 2 cards.",
 		"type_code": "side_scheme"
 	},	
 	{	
+		"boost": 1,
 		"code": "16130",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1470,11 +1557,14 @@
 		"pack_code": "gmw",
 		"position": 130,
 		"quantity": 1,
+		"scheme_acceleration": 1,
 		"set_code": "galactic_artifacts",
 		"set_position": 9,
+		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may play a card from their hand, reducing its resources cost by 3.",
 		"type_code": "side_scheme"
 	},	
 	{	
+		"boost": 2,
 		"code": "16131",
 		"faction_code": "encounter",
 		"name": "Kree Combat Armor",
@@ -1484,11 +1574,14 @@
 		"quantity": 1,
 		"set_code": "kree_militant",
 		"set_position": 1,
+		"text": "Attach to the enemy with the highest ATK.\nReduce the amount of damage attached character takes from each attack by 1.\n<b>Hero Action:</b> Spend 3 resources of the same type → discard this card.",
 		"traits": "Armor.",
 		"type_code": "attachment"
 	},	
 	{	
 		"attack": 2,
+		"boost": 2,
+		"boost_text": "If this is an attack, this attack gains piercing.",
 		"code": "16132",
 		"faction_code": "encounter",
 		"health": 6,
@@ -1500,11 +1593,13 @@
 		"scheme": 1,
 		"set_code": "kree_militant",
 		"set_position": 2,
+		"text": "Patrol. <i>(While this minion is engaged with you, you cannot thwart the main scheme.)</i>",
 		"traits": "Kree. Soldier.",
 		"type_code": "minion"
 	},	
 	{	
 		"attack": 1,
+		"boost_text": "If this activation is an attack, this card gets +3 boost icons ([boost][boost][boost]) for this activation.",
 		"code": "16133",
 		"faction_code": "encounter",
 		"health": 7,
@@ -1516,11 +1611,14 @@
 		"scheme": 2,
 		"set_code": "kree_militant",
 		"set_position": 5,
+		"text": "Guard. Stalwart. <i>(This character cannot be stunned or confused.)</i>",
 		"traits": "Kree. Soldier.",
 		"type_code": "minion"
 	},	
 	{	
 		"attack": 1,
+		"boost": 1,
+		"boost_text": "If this activation is an attack, this attack gains overkill.",
 		"code": "16134",
 		"faction_code": "encounter",
 		"health": 5,
@@ -1532,11 +1630,13 @@
 		"scheme": 1,
 		"set_code": "kree_militant",
 		"set_position": 7,
+		"text": "Quickstrike. <i>(After this minion engages your hero, it attacks you.)</i>",
 		"traits": "Kree. Soldier.",
 		"type_code": "minion"
 	},	
 	{	
 		"attack": 2,
+		"boost_text": "Put Psionic Ghost into play engaged with you.",
 		"code": "16135",
 		"faction_code": "encounter",
 		"health": 4,
@@ -1548,6 +1648,7 @@
 		"scheme": 2,
 		"set_code": "menagerie_medley",
 		"set_position": 1,
+		"text": "<b>When Revealed:</b> You are confused. If you are already confused, take 1 damage.",
 		"traits": "Ghost.",
 		"type_code": "minion"
 	},	
@@ -1555,6 +1656,7 @@
 		"attack": 1,
 		"code": "16136",
 		"faction_code": "encounter",
+		"flavor": "<b><i>\"FIND. THE. INTRUDERS.\"</i></b>",
 		"health": 3,
 		"name": "Servant Bot",
 		"octgn_id": "1bf95d8d-768a-4d70-99d7-03583a108199",
@@ -1564,11 +1666,13 @@
 		"scheme": 1,
 		"set_code": "menagerie_medley",
 		"set_position": 5,
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>\nPatrol. <i>(While this minion is engaged with you, you cannot thwart the main scheme.)</i>",
 		"traits": "Robot.",
 		"type_code": "minion"
 	},	
 	{	
 		"attack": 3,
+		"boost_text": "Deal 1 damage to each character you control.",
 		"code": "16137",
 		"faction_code": "encounter",
 		"health": 7,
@@ -1580,11 +1684,14 @@
 		"scheme": 1,
 		"set_code": "menagerie_medley",
 		"set_position": 8,
+		"text": "Quickstrike.\n[star] Starshark's attacks deal indirect damage.",
 		"traits": "Creature. Elite.",
 		"type_code": "minion"
 	},	
 	{	
 		"attack": 2,
+		"boost": 1,
+		"boost_text": "Give the villain 1 additional boost card for this activation.",
 		"code": "16138",
 		"faction_code": "encounter",
 		"health": 6,
@@ -1596,11 +1703,14 @@
 		"scheme": 2,
 		"set_code": "space_pirates",
 		"set_position": 1,
+		"text": "Quickstrike.\n[star] <b>Forced Response:</b> After this minion attacks and damages you, remove 1 card at random in your hand from the game.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},	
 	{	
 		"attack": 2,
+		"boost": 1,
+		"boost_text": "Give the villain 1 additional boost card for this activation.",
 		"code": "16139",
 		"faction_code": "encounter",
 		"health": 3,
@@ -1612,10 +1722,12 @@
 		"scheme": 1,
 		"set_code": "space_pirates",
 		"set_position": 2,
+		"text": "Quickstrike.\n[star] <b>Forced Response:</b> After this minion attacks and damages you, remove the top card of your deck from the game.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},	
 	{	
+		"boost_text": "Reveal this card.",
 		"code": "16140",
 		"faction_code": "encounter",
 		"name": "Sound the Alarms",
@@ -1625,11 +1737,14 @@
 		"quantity": 1,
 		"set_code": "space_pirates",
 		"set_position": 6,
+		"text": "Each enemy gets +1 ATK",
 		"type_code": "side_scheme"
 	},	
 	{	
+		"boost": 2,
 		"code": "16141",
 		"faction_code": "encounter",
+		"flavor": "<b><i>A family that steals together stays together.</i></b>",
 		"name": "Honor Among Thieves",
 		"octgn_id": "f636492f-8a84-4b55-88d9-c82b7c03b25d",
 		"pack_code": "gmw",
@@ -1637,6 +1752,7 @@
 		"quantity": 2,
 		"set_code": "space_pirates",
 		"set_position": 7,
+		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a [[Criminal]] minion is discarded. Reveal that minion, then give that minion a tough status card and the villain 1 facedown boost card.",
 		"type_code": "treachery"
 	},	
 	{	
@@ -1650,10 +1766,12 @@
 		"quantity": 1,
 		"set_code": "ship_command",
 		"set_position": 1,
+		"text": "Permanent. Setup.\nThe first player controls the Milano.\n<i>Piloting</i> - <b>Resource:</b> Exhaust the Milano → generate a [wild] resource for any player.",
 		"traits": "Aerial. Vehicule.",
 		"type_code": "support"
 	},	
 	{	
+		"boost": 2,
 		"code": "16143",
 		"faction_code": "encounter",
 		"name": "Rogue Vessel",
@@ -1663,10 +1781,12 @@
 		"quantity": 1,
 		"set_code": "ship_command",
 		"set_position": 2,
+		"text": "Surge.\n<b>Forced Interrupt:</b> When the villain phase ends, deal 1 damage to each player.\n<b>First Player Action:</b> Exhaust the Milano and spend 2 resources of any type → discard this card.",
 		"traits": "Aerial. Vehicule.",
 		"type_code": "environment"
 	},	
 	{	
+		"boost": 2,
 		"code": "16144",
 		"faction_code": "encounter",
 		"name": "Cannonade",
@@ -1674,11 +1794,14 @@
 		"pack_code": "gmw",
 		"position": 144,
 		"quantity": 1,
+		"scheme_boost": 1,
 		"set_code": "ship_command",
 		"set_position": 3,
+		"text": "Hinder 3[per_player] <i>(When revealed, place 3[per_player] threat here.)</i>.\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
 	},	
 	{	
+		"boost": 1,
 		"code": "16145",
 		"faction_code": "encounter",
 		"name": "Blind Side",
@@ -1688,9 +1811,11 @@
 		"quantity": 1,
 		"set_code": "ship_command",
 		"set_position": 4,
+		"text": "Peril. <i>(While you are resolving this card, other players cannot help you.)</i>\n<b>When Revealed:</b> Choose one:\n-Exhaust the Milano.\n-Spend [physical][physical] resources.\n- Stun the first player.",
 		"type_code": "treachery"
 	},	
 	{	
+		"boost": 2,
 		"code": "16146",
 		"faction_code": "encounter",
 		"name": "Hull Breach",
@@ -1700,9 +1825,11 @@
 		"quantity": 1,
 		"set_code": "ship_command",
 		"set_position": 5,
+		"text": "Peril. <i>(While you are resolving this card, other players cannot help you.)</i>\n<b>When Revealed:</b> Choose one:\n-Exhaust the Milano.\n-Spend [mental][mental] resources.\n- Deal 3 damage to the first player.",
 		"type_code": "treachery"
 	},	
 	{	
+		"boost": 1,
 		"code": "16147",
 		"faction_code": "encounter",
 		"name": "Power Siphon",
@@ -1712,6 +1839,7 @@
 		"quantity": 1,
 		"set_code": "ship_command",
 		"set_position": 6,
+		"text": "Peril. <i>(While you are resolving this card, other players cannot help you.)</i>\n<b>When Revealed:</b> Choose one:\n-Exhaust the Milano.\n-Spend [energy][energy] resources.\n- Discard 1 card at random from the first player's hand.",
 		"type_code": "treachery"
 	},	
 	{	
@@ -1724,6 +1852,7 @@
 		"quantity": 1,
 		"set_code": "ship_command",
 		"set_position": 7,
+		"text": "<b>When Revealed (Alter-Ego):</b> You may exhaust the Milano. If you do not, the villain schemes with +1 SCH.\n<b>When Revealed (Hero):</b> You may exhaust the Milano. If you do not, the villain attacks you with +1 ATK.",
 		"type_code": "treachery"
 	},	
 	{	
