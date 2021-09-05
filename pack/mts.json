@@ -1,5 +1,5 @@
 [
-	{	
+	{
 		"attack": 1,
 		"back_link": "21001b",
 		"code": "21001a",
@@ -19,8 +19,8 @@
 		"thwart": 1,
 		"traits": "Aerial. Avenger.",
 		"type_code": "hero"
-	},	
-	{	
+	},
+	{
 		"code": "21001b",
 		"double_sided": true,
 		"faction_code": "hero",
@@ -37,8 +37,8 @@
 		"text": "<b>Setup:</b> Put all 3 energy form upgrades into play, facedown.\n<i>Power Down</i> - <b>Forced Response:</b> After you change to this form, turn all your energy upgrades facedown.",
 		"traits": "Civilian.",
 		"type_code": "alter_ego"
-	},	
-	{	
+	},
+	{
 		"code": "21002",
 		"faction_code": "hero",
 		"name": "Gamma",
@@ -51,8 +51,8 @@
 		"set_position": 1,
 		"text": "Energy form. Permanent.\nSpectrum gets +2 ATK.\n<b>Hero Response:</b> After you change to this form, deal 1 damage to an enemy.",
 		"type_code": "upgrade"
-	},	
-	{	
+	},
+	{
 		"code": "21003",
 		"faction_code": "hero",
 		"name": "Photon",
@@ -65,8 +65,8 @@
 		"set_position": 2,
 		"text": "Energy form. Permanent.\nSpectrum gets +2 THW.\n<b>Hero Response:</b> After you change to this form, remove 1 threat from a scheme.",
 		"type_code": "upgrade"
-	},	
-	{	
+	},
+	{
 		"code": "21004",
 		"faction_code": "hero",
 		"name": "Pulsar",
@@ -79,8 +79,8 @@
 		"set_position": 3,
 		"text": "Energy form. Permanent.\nSpectrum gets +2 DEF.\n<b>Hero Response:</b> After you change to this form, heal 1 damage from Spectrum.",
 		"type_code": "upgrade"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"attack_cost": 1,
 		"code": "21005",
@@ -103,8 +103,8 @@
 		"thwart_cost": 1,
 		"traits": "Aerial. Avenger.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"code": "21006",
 		"cost": 2,
 		"faction_code": "hero",
@@ -120,8 +120,8 @@
 		"text": "<b>Hero Resource:</b> Exhaust Energy Duplication -> generate the printed resource on your faceup energy form upgrade.",
 		"traits": "Superpower.",
 		"type_code": "upgrade"
-	},	
-	{	
+	},
+	{
 		"code": "21007",
 		"cost": 3,
 		"faction_code": "hero",
@@ -137,8 +137,8 @@
 		"text": "<b>Hero Action</b> (attack): Change to Gamma energy form and deal 7 damage to an enemy. If you were already in Gamma energy form, this attack gains overkill.",
 		"traits": "Attack. Superpower.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21008",
 		"cost": 2,
 		"faction_code": "hero",
@@ -154,8 +154,8 @@
 		"text": "<b>Hero Action</b> (thwart): Change to Photon energy form and remove 4 threat from a scheme. If you were already in Photon energy form, ignore crisis icon for this thwart.",
 		"traits": "Thwart. Superpower.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21009",
 		"cost": 1,
 		"faction_code": "hero",
@@ -170,8 +170,8 @@
 		"text": "<b>Hero Interrupt</b> (defense): When Spectrum defends, change to Pulsar energy form and ready Spectrum. If you were already in Pulsar energy form, she gains retaliate 1 until the end of the phase.",
 		"traits": "Defense. Superpower.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21010",
 		"cost": 0,
 		"faction_code": "hero",
@@ -187,8 +187,8 @@
 		"text": "<b>Hero Action:</b> Change energy forms and draw 1 card.",
 		"traits": "Superpower.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"attack_cost": 1,
 		"code": "21011",
@@ -208,8 +208,8 @@
 		"thwart_cost": 1,
 		"traits": "Avenger.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"attack": 0,
 		"attack_cost": 2,
 		"code": "21012",
@@ -229,8 +229,8 @@
 		"thwart_cost": 1,
 		"traits": "Avenger.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"attack_cost": 1,
 		"code": "21013",
@@ -250,13 +250,14 @@
 		"thwart_cost": 1,
 		"traits": "Avenger.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"attack_cost": 1,
 		"code": "21014",
 		"cost": 2,
 		"faction_code": "leadership",
+		"health": 0,
 		"is_unique": true,
 		"name": "Kaluu",
 		"octgn_id": "d00a562d-02c9-4559-a92a-65dfd74f4203",
@@ -269,8 +270,8 @@
 		"thwart_cost": 1,
 		"traits": "Avenger. Mystic.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"code": "21015",
 		"cost": 3,
 		"faction_code": "leadership",
@@ -283,8 +284,8 @@
 		"text": "Play under any player's control. Max 1 Team per player.\nIf each of your characters has the Avengers trait, each ally you control gets +1 THW and +1 ATK.",
 		"traits": "Team.",
 		"type_code": "support"
-	},	
-	{	
+	},
+	{
 		"code": "21016",
 		"cost": 3,
 		"faction_code": "leadership",
@@ -297,18 +298,15 @@
 		"text": "<b>Hero Action</b>: Exhaust 3 allies you control that shares a Trait with your hero -> deal X damage to an enemy, where X is the total ATK of those allies and your hero.",
 		"traits": "Attack.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21017",
 		"duplicate_of": "12016",
-		"faction_code": "leadership",
-		"name": "Moxie",
 		"pack_code": "mts",
 		"position": 17,
-		"quantity": 3,
-		"type_code": "event"
-	},	
-	{	
+		"quantity": 3
+	},
+	{
 		"code": "21018",
 		"faction_code": "leadership",
 		"name": "Band Together",
@@ -318,8 +316,8 @@
 		"quantity": 3,
 		"text": "This card generates [wild] for each ally you control (to a maximum of 3)",
 		"type_code": "resource"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"attack_text": "<b>Forced Response</b>: After Blade thwarts or attacks, choose to either spend a [physics] resource from your hand or discard Blade.",
 		"code": "21019",
@@ -338,30 +336,22 @@
 		"thwart": 1,
 		"traits": "Avenger. Vampire.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"code": "21020",
-		"cost": 2,
 		"duplicate_of": "03024",
-		"faction_code": "basic",
-		"is_unique": true,
-		"name": "Avengers Tower",
 		"pack_code": "mts",
 		"position": 20,
-		"quantity": 1,
-		"type_code": "support"
-	},	
-	{	
+		"quantity": 1
+	},
+	{
 		"code": "21021",
 		"duplicate_of": "01091",
-		"faction_code": "basic",
-		"name": "Avengers Mansion",
 		"pack_code": "mts",
 		"position": 21,
-		"quantity": 1,
-		"type_code": "support"
-	},	
-	{	
+		"quantity": 1
+	},
+	{
 		"code": "21022",
 		"faction_code": "basic",
 		"name": "Ready to Rumble",
@@ -372,38 +362,29 @@
 		"text": "Play under any player's control. Max 1 per player.\n<b>Hero Response</b>: After you change form, discard this card -> ready your hero.",
 		"traits": "Condition.",
 		"type_code": "upgrade"
-	},	
-	{	
+	},
+	{
 		"code": "21023",
 		"duplicate_of": "01088",
-		"faction_code": "basic",
-		"name": "Energy",
 		"pack_code": "mts",
 		"position": 23,
-		"quantity": 1,
-		"type_code": "resource"
-	},	
-	{	
+		"quantity": 1
+	},
+	{
 		"code": "21024",
 		"duplicate_of": "01089",
-		"faction_code": "basic",
-		"name": "Genius",
 		"pack_code": "mts",
 		"position": 24,
-		"quantity": 1,
-		"type_code": "resource"
-	},	
-	{	
+		"quantity": 1
+	},
+	{
 		"code": "21025",
 		"duplicate_of": "01090",
-		"faction_code": "basic",
-		"name": "Strength",
 		"pack_code": "mts",
 		"position": 25,
-		"quantity": 1,
-		"type_code": "resource"
-	},	
-	{	
+		"quantity": 1
+	},
+	{
 		"attack": 1,
 		"back_link": "21031b",
 		"code": "21031a",
@@ -423,8 +404,8 @@
 		"thwart": 1,
 		"traits": "Guardian. Mystic.",
 		"type_code": "hero"
-	},	
-	{	
+	},
+	{
 		"code": "21031b",
 		"double_sided": true,
 		"faction_code": "hero",
@@ -441,8 +422,8 @@
 		"text": "<i>Avatar of Life</i> - During deck-building, your deck must include an equal number of cards from all 4 aspects. You cannot include more than 1 copy of any non-Adam Warlock card.\n<b>Action</b>: Discard a card from your hand -> remove a status card from Adam Warlock.",
 		"traits": "Mystic.",
 		"type_code": "alter_ego"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"attack_cost": 1,
 		"code": "21032",
@@ -463,8 +444,8 @@
 		"thwart_cost": 1,
 		"traits": "Mystic.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"code": "21033",
 		"cost": 1,
 		"faction_code": "hero",
@@ -480,8 +461,8 @@
 		"text": "<b>Response</b>: After your deck runs out of cards, place 1 soul counter here.\n<b>Alter-Ego Action</b>: Exhaust Soul World and remove 1 soul counter from it -> heal all damage from your identity.",
 		"traits": "Location.",
 		"type_code": "support"
-	},	
-	{	
+	},
+	{
 		"code": "21034",
 		"cost": 2,
 		"faction_code": "hero",
@@ -497,8 +478,8 @@
 		"text": "<b>Resource</b>: Exhaust Karmic Staff -> generate a [wild] resource",
 		"traits": "Artifact. Item.",
 		"type_code": "upgrade"
-	},	
-	{	
+	},
+	{
 		"code": "21035",
 		"cost": 2,
 		"faction_code": "hero",
@@ -514,8 +495,8 @@
 		"text": "<b>Hero Response</b>: After you resolve Adam Warlock's \"Battle Mage\" ability, exhaust Warlock's Cape -> ready Adam Warlock's",
 		"traits": "Item.",
 		"type_code": "upgrade"
-	},	
-	{	
+	},
+	{
 		"code": "21036",
 		"cost": 1,
 		"faction_code": "hero",
@@ -530,8 +511,8 @@
 		"text": "<b>Forced Interrupt</b>: When you reveal a treachery card, cancel its \"<b>When Revealed</b>\" effects and discard it. Then, discard Cosmic Ward",
 		"traits": "Spell.",
 		"type_code": "upgrade"
-	},	
-	{	
+	},
+	{
 		"code": "21037",
 		"cost": 2,
 		"faction_code": "hero",
@@ -546,8 +527,8 @@
 		"text": "<b>Hero Response</b>: After you resolve Adam Warlock's \"Battle Mage\" ability, draw 1 card.",
 		"traits": "Condition. Superpower.",
 		"type_code": "upgrade"
-	},	
-	{	
+	},
+	{
 		"code": "21038",
 		"cost": 2,
 		"faction_code": "hero",
@@ -562,8 +543,8 @@
 		"text": "<b>Hero Action</b> (attack): Deal 4 damage to an enemy and discard up to 4 cards from the top of your deck -> deal 1 additional damage to that enemy for each different aspect discarded this way (Aggression, Justice, Leadership and Protection)",
 		"traits": "Attack. Superpower.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21039",
 		"cost": 2,
 		"faction_code": "hero",
@@ -578,8 +559,8 @@
 		"text": "<b>Hero Action</b> (thwart): Remove 3 threat from a scheme and discard up to 4 cards from the top of your deck -> remove 1 additional threat from that scheme for each different aspect discarded this way (Aggression, Justice, Leadership and Protection)",
 		"traits": "Thwart. Superpower.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21040",
 		"cost": 1,
 		"faction_code": "hero",
@@ -594,8 +575,8 @@
 		"text": "<b>Action</b>: Choose a card in your discard pile -> add that card to your hand",
 		"traits": "Spell.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"attack_cost": 1,
 		"code": "21041",
@@ -615,8 +596,8 @@
 		"thwart_cost": 1,
 		"traits": "Guardian. Kree.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"code": "21042",
 		"cost": 2,
 		"faction_code": "aggression",
@@ -630,8 +611,8 @@
 		"text": "<b>Action</b>: Shuffle this card into the encounter deck (without looking)\n<b>When Revealed</b>: Deal 2 damage to the villain and remove this card from the game. This effect cannot be canceled.",
 		"traits": "Cosmic Entity.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21043",
 		"cost": 1,
 		"faction_code": "aggression",
@@ -644,18 +625,15 @@
 		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Action</b> (attack): Choose an enemy and discard up yo 5 cards from the top of your deck -> deal 1 damage to that enemy for each card discarded this way.",
 		"traits": "Attack. Spell.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21044",
 		"duplicate_of": "01054",
-		"faction_code": "aggression",
-		"name": "Uppercut",
 		"pack_code": "mts",
 		"position": 44,
-		"quantity": 1,
-		"type_code": "event"
-	},	
-	{	
+		"quantity": 1
+	},
+	{
 		"code": "21045",
 		"duplicate_of": "01057",
 		"faction_code": "aggression",
@@ -664,8 +642,8 @@
 		"position": 45,
 		"quantity": 1,
 		"type_code": "upgrade"
-	},	
-	{	
+	},
+	{
 		"code": "21046",
 		"faction_code": "aggression",
 		"name": "Audacity",
@@ -676,8 +654,8 @@
 		"resource_wild": 1,
 		"text": "Max 1 per deck.\n<b>Hero Response</b>: After you spend this card, deal 1 damage to the villain.",
 		"type_code": "resource"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"attack_cost": 1,
 		"code": "21047",
@@ -697,8 +675,8 @@
 		"thwart_cost": 1,
 		"traits": "Aerial. Guardian.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"code": "21048",
 		"cost": 2,
 		"faction_code": "justice",
@@ -712,18 +690,15 @@
 		"text": "<b>Action</b>: Shuffle this card into the encounter deck (without looking)\n<b>When Revealed</b>: Remove 2 threat from the main scheme and remove this card from the game. This effect cannot be canceled.",
 		"traits": "Cosmic Entity.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21049",
 		"duplicate_of": "01060",
-		"faction_code": "justice",
-		"name": "For Justice!",
 		"pack_code": "mts",
 		"position": 49,
-		"quantity": 1,
-		"type_code": "event"
-	},	
-	{	
+		"quantity": 1
+	},
+	{
 		"code": "21050",
 		"cost": 1,
 		"faction_code": "justice",
@@ -736,18 +711,15 @@
 		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Action</b> (thwart): Choose a scheme and discard up to 4 cards from the top of your deck -> remove 1 threat from that scheme for each card discarded this way.",
 		"traits": "Spell. Thwart.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21051",
 		"duplicate_of": "01065",
-		"faction_code": "justice",
-		"name": "Heroic Intuition",
 		"pack_code": "mts",
 		"position": 51,
-		"quantity": 1,
-		"type_code": "upgrade"
-	},	
-	{	
+		"quantity": 1
+	},
+	{
 		"code": "21052",
 		"faction_code": "justice",
 		"name": "Determination",
@@ -758,8 +730,8 @@
 		"resource_wild": 1,
 		"text": "Max 1 per deck.\n<b>Hero Response</b>: After you spend this card, remove 1 threat from the main scheme.",
 		"type_code": "resource"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"attack_cost": 1,
 		"code": "21053",
@@ -779,8 +751,8 @@
 		"thwart_cost": 1,
 		"traits": "Guardian.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"code": "21054",
 		"cost": 2,
 		"faction_code": "leadership",
@@ -794,8 +766,8 @@
 		"text": "<b>Action</b>: Shuffle this card into the encounter deck (without looking)\n<b>When Revealed</b>: Draw 1 card and remove this card from the game. This effect cannot be canceled.",
 		"traits": "Cosmic Entity.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21055",
 		"cost": 2,
 		"faction_code": "leadership",
@@ -808,28 +780,22 @@
 		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Action</b>: Discard cards from the top of your deck until you discard an ally -> put that ally into play under your control.",
 		"traits": "Spell.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21056",
 		"duplicate_of": "01071",
-		"faction_code": "leadership",
-		"name": "Make the Call",
 		"pack_code": "mts",
 		"position": 56,
-		"quantity": 1,
-		"type_code": "event"
-	},	
-	{	
+		"quantity": 1
+	},
+	{
 		"code": "21057",
 		"duplicate_of": "01074",
-		"faction_code": "leadership",
-		"name": "Inspired",
 		"pack_code": "mts",
 		"position": 57,
-		"quantity": 1,
-		"type_code": "upgrade"
-	},	
-	{	
+		"quantity": 1
+	},
+	{
 		"code": "21058",
 		"faction_code": "leadership",
 		"name": "Innovation",
@@ -840,8 +806,8 @@
 		"resource_wild": 1,
 		"text": "Max 1 per deck.\n<b>Hero Response</b>: After you spend this card, heal 1 damage from an ally you control.",
 		"type_code": "resource"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"attack_cost": 1,
 		"code": "21059",
@@ -860,8 +826,8 @@
 		"thwart_cost": 1,
 		"traits": "Guardian.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"code": "21060",
 		"cost": 2,
 		"faction_code": "protection",
@@ -875,8 +841,8 @@
 		"text": "<b>Action</b>: Shuffle this card into the encounter deck (without looking)\n<b>When Revealed</b>: Heal 2 damage from your identity and remove this card from the game. This effect cannot be canceled.",
 		"traits": "Cosmic Entity.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21061",
 		"cost": 0,
 		"faction_code": "protection",
@@ -889,28 +855,22 @@
 		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Interrupt</b> (defense): When you would take any amount of damage from an attack, discard that many cards from the top of your deck -> prevent all damae from this attack.",
 		"traits": "Defense. Spell.",
 		"type_code": "event"
-	},	
-	{	
+	},
+	{
 		"code": "21062",
 		"duplicate_of": "01077",
-		"faction_code": "protection",
-		"name": "Counter-Punch",
 		"pack_code": "mts",
 		"position": 62,
-		"quantity": 1,
-		"type_code": "event"
-	},	
-	{	
+		"quantity": 1
+	},
+	{
 		"code": "21063",
 		"duplicate_of": "01081",
-		"faction_code": "protection",
-		"name": "Armored Vest",
 		"pack_code": "mts",
 		"position": 63,
-		"quantity": 1,
-		"type_code": "upgrade"
-	},	
-	{	
+		"quantity": 1
+	},
+	{
 		"code": "21064",
 		"faction_code": "protection",
 		"name": "Preservation",
@@ -921,8 +881,8 @@
 		"resource_wild": 1,
 		"text": "Max 1 per deck.\n<b>Hero Response</b>: After you spend this card, heal 1 damage from your hero.",
 		"type_code": "resource"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"attack_cost": 1,
 		"code": "21065",
@@ -942,8 +902,8 @@
 		"thwart_cost": 1,
 		"traits": "Guardian.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"back_link": "21180b",
 		"code": "21180a",
 		"double_sided": true,
@@ -956,8 +916,8 @@
 		"set_code": "mts_campaign",
 		"set_position": 1,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "21180b",
 		"double_sided": true,
@@ -974,8 +934,8 @@
 		"thwart": 2,
 		"traits": "Guardian.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21181",
 		"faction_code": "campaign",
@@ -988,8 +948,8 @@
 		"set_code": "mts_campaign",
 		"set_position": 2,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"back_link": "21182b",
 		"code": "21182a",
 		"double_sided": true,
@@ -1002,8 +962,8 @@
 		"set_code": "mts_campaign",
 		"set_position": 3,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "21182b",
 		"double_sided": true,
@@ -1021,8 +981,8 @@
 		"set_position": 3,
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"code": "21183",
 		"faction_code": "campaign",
 		"name": "Shawarma",
@@ -1036,8 +996,8 @@
 		"set_code": "mts_campaign",
 		"set_position": 4,
 		"type_code": "resource"
-	},	
-	{	
+	},
+	{
 		"back_link": "21184b",
 		"code": "21184a",
 		"double_sided": true,
@@ -1051,8 +1011,8 @@
 		"set_code": "mts_campaign",
 		"set_position": 8,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"code": "21184b",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -1064,8 +1024,8 @@
 		"set_code": "mts_campaign",
 		"set_position": 8,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"code": "21185",
 		"faction_code": "campaign",
 		"name": "System Shock",
@@ -1076,8 +1036,8 @@
 		"set_code": "mts_campaign",
 		"set_position": 9,
 		"type_code": "obligation"
-	},	
-	{	
+	},
+	{
 		"back_link": "21186b",
 		"code": "21186a",
 		"double_sided": true,
@@ -1091,8 +1051,8 @@
 		"set_code": "mts_campaign",
 		"set_position": 13,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"code": "21186b",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -1104,8 +1064,8 @@
 		"set_code": "mts_campaign",
 		"set_position": 13,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"back_link": "21187b",
 		"code": "21187a",
 		"double_sided": true,
@@ -1119,8 +1079,8 @@
 		"set_position": 14,
 		"traits": "Asgard. Artifact.",
 		"type_code": "upgrade"
-	},	
-	{	
+	},
+	{
 		"code": "21187b",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -1133,8 +1093,8 @@
 		"set_position": 14,
 		"traits": "Asgard. Artifact.",
 		"type_code": "upgrade"
-	},	
-	{	
+	},
+	{
 		"boost": 3,
 		"code": "21188",
 		"faction_code": "campaign",
@@ -1146,8 +1106,8 @@
 		"set_code": "mts_campaign",
 		"set_position": 18,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"back_link": "21189b",
 		"code": "21189a",
 		"double_sided": true,
@@ -1161,8 +1121,8 @@
 		"set_code": "mts_campaign",
 		"set_position": 19,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"code": "21189b",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -1177,8 +1137,8 @@
 		"set_position": 19,
 		"traits": "Dragon.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "21190",
 		"faction_code": "campaign",
@@ -1195,8 +1155,8 @@
 		"thwart": 2,
 		"traits": "Asgard. Captive.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"code": "21191",
 		"faction_code": "campaign",
@@ -1213,8 +1173,8 @@
 		"thwart": 3,
 		"traits": "Asgard. Captive.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"code": "21192",
 		"faction_code": "campaign",
@@ -1231,8 +1191,8 @@
 		"thwart": 1,
 		"traits": "Asgard. Captive.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"code": "21193",
 		"faction_code": "campaign",
