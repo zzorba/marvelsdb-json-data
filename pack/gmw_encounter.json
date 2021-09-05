@@ -229,10 +229,12 @@
 		"stage": 1,
 		"text": "<b>Contents:</b> Drang (I) and Drang (II). (Drang (II) and Drang(III) instead for expert mode.) Brotherhood of Badoon, Ship Command, and Standard encounter sets. One modular encounter set (Band of Badoon).\n<b>Setup:</b> Put the Badoon Ship environment and the Milano support into play.",
 		"type_code": "main_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 2,
 		"code": "16061b",
+		"double_sided": true,
+		"escalation_threat": 2,
 		"faction_code": "encounter",
 		"name": "Terrestrial Invasion",
 		"octgn_id": "5dbf6ac5-893e-4a05-9e21-f0c61eb02fff",
@@ -243,7 +245,7 @@
 		"set_position": 4,
 		"stage": 1,
 		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, resolve the Badoon Ship's \"Charge Up\" ability. \n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
-		"threat": 0,
+		"threat": 8,
 		"type_code": "main_scheme"
 	},
 	{
@@ -264,10 +266,12 @@
 		"text": "<b>When Revealed:</b> Resolve the Badoon Ship's \"Charge Up\" ability.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 4,
 		"code": "16062b",
+		"double_sided": true,
+		"escalation_threat": 2,
 		"faction_code": "encounter",
 		"name": "Protect the Planet",
 		"octgn_id": "7cf8b2b1-cd92-428b-ab4a-9a53f35964d5",
@@ -278,7 +282,7 @@
 		"set_position": 5,
 		"stage": 2,
 		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, resolve the Badoon Ship's \"Charge Up\" ability. \n<b>First Player Action:</b> Exhaust the Milano → choose to either remove 3 threat from this scheme or deal 3 damage to a minion. \n<b>If this stage is completed, the players lose the game.</b>",
-		"threat": 0,
+		"threat": 8,
 		"type_code": "main_scheme"
 	},
 	{
@@ -330,9 +334,10 @@
 		"text": "<b>[star] Forced Response:</b> After Badoon Engineer engages you or activates against you, resolve the Badoon Ship's \"Charge Up\" ability.",
 		"traits": "Badoon.",
 		"type_code": "minion"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"boost": 1,
 		"code": "16066",
 		"faction_code": "encounter",
@@ -346,9 +351,9 @@
 		"set_position": 10,
 		"text": "Hinder 2[per_player]. <i>(When revealed, place 2[per_player] theat here.)</i> \n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 3,
 		"boost": 2,
 		"code": "16067",
 		"faction_code": "encounter",
@@ -361,9 +366,10 @@
 		"set_position": 11,
 		"text": "<b>Forced Response:</b> After resolving step one of the villain phase, resolve the Badoon Ship's \"Charge Up\" ability.\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 1,
+		"base_threat_fixed": true,
 		"boost": 1,
 		"code": "16068",
 		"faction_code": "encounter",
@@ -376,9 +382,9 @@
 		"set_position": 12,
 		"text": "Hinder 3[per_player]. <i>When revealed, place 3[per_player] theat here.)</i> \n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 3,
 		"boost": 3,
 		"code": "16069",
 		"faction_code": "encounter",
@@ -470,10 +476,12 @@
 		"text": "<b>Contents:</b> Collector (I) and Collector (II). <i>(Collector (II) and Collector (III) instead for expert mode.)</i> Infiltrate the Museum, Galactic Artifacts, and Standard encounter sets. One modular encounter set <i>(Menagerie Medley).</i>\n<b>Setup:</b> Create \"The Collection\" game area <i>(see insert for details).</i> Put the top card of each player's deck faceup into The Collection.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 4,
 		"code": "16073b",
+		"double_sided": true,
+		"escalation_threat": 1,
 		"faction_code": "encounter",
 		"name": "The Grand Collection",
 		"octgn_id": "fbd98e39-52f9-4a87-83f5-4e47d4b998d9",
@@ -484,7 +492,7 @@
 		"set_position": 4,
 		"stage": 1,
 		"text": "<b>Hero Action:</b> Choose to either exhaust your hero or spend 2 ressources of any type → discard 1 card from The Collection <i>(to its owner's discard pile).</i> (Limit once per round per player.)\n<b>If there are at least 5[per_player] cards in The Collection or if this stage is completed, the players lose the game.</b>",
-		"threat": 0,
+		"threat": 10,
 		"type_code": "main_scheme"
 	},
 	{
@@ -604,6 +612,7 @@
 	{
 		"attack": 0,
 		"code": "16080b",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"flavor": "<b>\"You're more wily than I gave you credit for. No matter. Let's try again.\"</b>",
 		"health": 0,
@@ -647,6 +656,7 @@
 	{
 		"attack": 2,
 		"code": "16081b",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"flavor": "<b>\"You're more wily than I gave you credit for. No matter. Let's try again.\"</b>",
 		"health": 0,
@@ -678,13 +688,16 @@
 		"quantity": 1,
 		"set_code": "collector2",
 		"set_position": 3,
+		"stage": 1,
 		"text": "<b>Contents:</b> Collector (A1)  <i>(Collector (B1) instead for expert mode.)</i> Escape the Museum, Galactic Artifacts, Ship Command, and Standard encounter sets. One modular encounter set <i>(Menagerie Medley).</i>\n<b>Setup:</b> Put the Library Labyrinth environment into play. Set aside the Ship Command modular encounter set.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 7,
 		"code": "16082b",
+		"double_sided": true,
+		"escalation_threat": 1,
 		"faction_code": "encounter",
 		"flavor": "<b><i>You've been trapped inside the Collector's museum. Before you can escape, you must first find the Milano.</i></b>",
 		"name": "The Missing Milano",
@@ -694,8 +707,9 @@
 		"quantity": 1,
 		"set_code": "collector2",
 		"set_position": 3,
+		"stage": 1,
 		"text": "<b>Forced Interrupt:</b> When the last threat is removed from this scheme, advance to stage 2A <i>(the players win by advancing).</i>\n<b>If this stage is completed, the players lose the game.</b>",
-		"threat": 0,
+		"threat": 11,
 		"type_code": "main_scheme"
 	},
 	{
@@ -712,13 +726,16 @@
 		"quantity": 1,
 		"set_code": "collector2",
 		"set_position": 4,
+		"stage": 2,
 		"text": "<b>When Revealed:</b> Put the set-aside Milano support from the Ship Command encounter set into play unde the first player's control..",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 11,
 		"code": "16083b",
+		"double_sided": true,
+		"escalation_threat": 1,
 		"faction_code": "encounter",
 		"flavor": "<b><i>Now that you've broken the Milano out of its cage, use it to find the front door!</i></b>",
 		"name": "Lost in the Museum",
@@ -728,8 +745,9 @@
 		"quantity": 1,
 		"set_code": "collector2",
 		"set_position": 4,
+		"stage": 2,
 		"text": "<b>Forced Interrupt:</b> When the last threat is removed from this scheme, advance to stage 3A <i>(the players win by advancing).</i>\n<b>If this stage is completed, the players lose the game.</b>",
-		"threat": 0,
+		"threat": 15,
 		"type_code": "main_scheme"
 	},
 	{
@@ -746,13 +764,16 @@
 		"quantity": 1,
 		"set_code": "collector2",
 		"set_position": 5,
+		"stage": 3,
 		"text": "<b>When Revealed:</b> Flip Library Labyrinth. Place 1 acceleration token on the main scheme. Shuffle the remaining cards from the set-aside Ship Command encounter set into the encounter deck.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 8,
 		"code": "16084b",
+		"double_sided": true,
+		"escalation_threat": 1,
 		"faction_code": "encounter",
 		"flavor": "<b><i>Almost clear! Outrun the Museum Ship's cannons to make your final escape!</i></b>",
 		"name": "The Great Escape",
@@ -762,8 +783,9 @@
 		"quantity": 1,
 		"set_code": "collector2",
 		"set_position": 5,
+		"stage": 3,
 		"text": "<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from here.\n<b>If there is no threat here, the players win the game.</b>\n<b>If this stage is completed, the players lose the game.</b>",
-		"threat": 0,
+		"threat": 12,
 		"type_code": "main_scheme"
 	},
 	{
@@ -785,6 +807,7 @@
 	},
 	{
 		"code": "16085b",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"name": "Museum Ship",
 		"octgn_id": "89bde368-ab43-4b9b-bd51-48246ee85c5d",
@@ -904,10 +927,11 @@
 		"text": "<b>Contents:</b> Nebula (I) and Nebula (II). <i>(Nebula (II) and Nebula (III) instead for expert mode.)</i> Nebula, Power Stone, Ship Command, and Standard encounter sets. One modular encounter set <i>(Space Pirates).</i>\n<b>Setup:</b> Put the Nebula's Ship environment and the Milano support into play. Attach the Power Stone to Nebula. Discard the top 2[per_player] cards of the encounter deck, then attach each [[Technique]] attachment discarded this way to Nebula.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 2,
 		"code": "16091b",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"flavor": "<b><i>You've tracked Nebula's location but she's trying desperately to get away. This may be your only chance to take the Power Stone from her.</i></b>",
 		"name": "The Art of Evasion",
@@ -919,7 +943,7 @@
 		"set_position": 4,
 		"stage": 1,
 		"text": "X is equal to the number of evasion counters on Nebula's Ship.",
-		"threat": 0,
+		"threat": 6,
 		"type_code": "main_scheme"
 	},
 	{
@@ -940,10 +964,11 @@
 		"text": "<b>When Revealed:</b> Place 2 evasion counters on Nebula's Ship. For each evasion counter on Nebula's Ship, discard the top 2 cards of each player deck and the encounter deck.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 3,
 		"code": "16092b",
+		"double_sided": true,
 		"faction_code": "encounter",
 		"flavor": "<b><i>Nebula's engines are primed and ready. Take them out before she warp jumps!</i></b>",
 		"name": "Warp Drive Initiated",
@@ -955,7 +980,7 @@
 		"set_position": 5,
 		"stage": 2,
 		"text": "X is equal to the number of evasion counters on Nebula's Ship.\n<b>If this satge is completed, the players lose the game.</b>",
-		"threat": 0,
+		"threat": 9,
 		"type_code": "main_scheme"
 	},
 	{
@@ -1047,9 +1072,9 @@
 		"text": "Attach to Nebula.\nReduce the amount of damage Nebula takes from each attack by 1.\n<b>Special:</b> Discard 1 card at random from your hand.",
 		"traits": "Technique.",
 		"type_code": "attachment"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 2,
 		"code": "16099",
 		"faction_code": "encounter",
 		"name": "Lethal Intent",
@@ -1185,10 +1210,12 @@
 		"text": "<b>Contents:</b> Ronan the Accuser (I) and Ronan the Accuser (II). <i>(Ronan the Accuser (II) and Ronan the Accuser (III) instead for expert mode.)</i> Ronan the Accuser, Power Stone, Ship Command, and Standard encounter sets. One modular encounter set <i>(Kree Militants).</i>\n<b>Setup:</b> Put the Kree Command Ship environment and the Milano support into play. Attach the Universal Weapon to Ronan the Accuser. Attach the Power Stone to the first player.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 2,
 		"code": "16106b",
+		"double_sided": true,
+		"escalation_threat": 2,
 		"faction_code": "encounter",
 		"flavor": "<b><i>Ronan the Accuser's forces have ambushed the Milano, aiming to steal the Power Stone. With some quick wit and expert piloting, you may be able to halt their advance.</i></b>",
 		"name": "Interception Imminent",
@@ -1200,7 +1227,7 @@
 		"set_position": 4,
 		"stage": 1,
 		"text": "<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
-		"threat": 0,
+		"threat": 7,
 		"type_code": "main_scheme"
 	},
 	{
@@ -1221,10 +1248,12 @@
 		"text": "<b>When Revealed:</b> Attach the Power Stone to Ronan the Accuser. If it is already attached to him, give him 1 facedown boost card.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 1,
 		"code": "16107b",
+		"double_sided": true,
+		"escalation_threat": 2,
 		"faction_code": "encounter",
 		"flavor": "<b><i>Ronan the Accuser holds the Power Stone! Wrest it from his control before it's too late.</i></b>",
 		"name": "\"Take What Is Mine\"",
@@ -1236,7 +1265,7 @@
 		"set_position": 5,
 		"stage": 2,
 		"text": "While the Power Stone is attached to Ronan the Accuser, threat cannot be removed from this scheme.\n<b>If this satge is completed, the players lose the game.</b>",
-		"threat": 0,
+		"threat": 10,
 		"type_code": "main_scheme"
 	},
 	{
@@ -1285,9 +1314,9 @@
 		"text": "Surge.\nAttach to Ronan the Accuser. Uses (1 fury counter, plus 1[per_player] additional fury counters).\n[star]<b>Forced Interrupt:</b> When Ronan the Accuser attacks you, that attack gains overkill and piercing. At the end of that attack, remove 1 fury counter from here.",
 		"traits": "Condition.",
 		"type_code": "attachment"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 3,
 		"boost_text": "Choose to either exhaust the Milano or place 2 threat on the main scheme.",
 		"code": "16111",
 		"faction_code": "encounter",
@@ -1300,9 +1329,10 @@
 		"set_code": "ronan",
 		"set_position": 10,
 		"type_code": "side_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 3,
+		"base_threat_fixed": true,
 		"boost": 3,
 		"code": "16112",
 		"faction_code": "encounter",
@@ -1316,9 +1346,9 @@
 		"set_position": 11,
 		"text": "Hinder 2[per_player] <i>(When revealed, place 2[per_player] threat here.)</i>.\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 2,
 		"boost": 2,
 		"code": "16113",
 		"faction_code": "encounter",
@@ -1552,9 +1582,10 @@
 		"text": "Attach to the enemy with the lowest SCH.\n<b>Hero Action:</b> Spend [energy][energy][energy] resources → discard this card.",
 		"traits": "Artifact.",
 		"type_code": "attachment"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 3,
+		"base_threat_fixed": true,
 		"boost": 1,
 		"code": "16127",
 		"faction_code": "encounter",
@@ -1569,9 +1600,10 @@
 		"set_position": 6,
 		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may ready their identity.",
 		"type_code": "side_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 3,
+		"base_threat_fixed": true,
 		"boost": 1,
 		"code": "16128",
 		"faction_code": "encounter",
@@ -1586,9 +1618,10 @@
 		"set_position": 7,
 		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may heal 4 damage from their identity.",
 		"type_code": "side_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 3,
+		"base_threat_fixed": true,
 		"boost": 1,
 		"code": "16129",
 		"faction_code": "encounter",
@@ -1603,9 +1636,10 @@
 		"set_position": 8,
 		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may draw 2 cards.",
 		"type_code": "side_scheme"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 3,
+		"base_threat_fixed": true,
 		"boost": 1,
 		"code": "16130",
 		"faction_code": "encounter",
@@ -1783,9 +1817,9 @@
 		"text": "Quickstrike.\n[star] <b>Forced Response:</b> After this minion attacks and damages you, remove the top card of your deck from the game.",
 		"traits": "Criminal.",
 		"type_code": "minion"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 2,
 		"boost_text": "Reveal this card.",
 		"code": "16140",
 		"faction_code": "encounter",
@@ -1843,9 +1877,10 @@
 		"text": "Surge.\n<b>Forced Interrupt:</b> When the villain phase ends, deal 1 damage to each player.\n<b>First Player Action:</b> Exhaust the Milano and spend 2 resources of any type → discard this card.",
 		"traits": "Aerial. Vehicule.",
 		"type_code": "environment"
-	},
-	{
-		"base_threat": 0,
+	},	
+	{	
+		"base_threat": 1,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "16144",
 		"faction_code": "encounter",
