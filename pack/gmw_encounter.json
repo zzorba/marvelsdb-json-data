@@ -150,7 +150,7 @@
 		"text": "<b>When revealed:</b> Discard cards from the top of the encounter deck until you discard a minion. Reveal that minion, then give it a tough status card.",
 		"type_code": "treachery"
 	},
-	{	
+	{
 		"attack": 2,
 		"code": "16058",
 		"faction_code": "encounter",
@@ -170,8 +170,8 @@
 		"text": "<b>[star] Forced Response:</b> After Drang schemes, resolve the Badoon Ship's \"Charge Up\" ability.",
 		"traits": "Badoon.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"code": "16059",
 		"faction_code": "encounter",
@@ -190,8 +190,8 @@
 		"text": "<b>When Revealed:</b> If Drang's Spear is in play, give Drang 1 facedown boost card; otherwise, search the encounter deck and discard pile for Drang's Spear, reveal it, and shuffle the encounter deck. \n<b>[star] Forced Response:</b> After Drang schemes, resolve the Badoon Ship's \"Charge Up\" ability.",
 		"traits": "Badoon.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"code": "16060",
 		"faction_code": "encounter",
@@ -210,8 +210,9 @@
 		"text": "<b>When Revealed:</b> Discard the top 4[per_hero] cards of the encounter deck. Each time a minion is discarded this way, put it into play engaged with the player who is engaged with the fexest minions. \n<b>[star] Forced Response:</b> After Drang activates, resolve the Badoon Ship's \"Charge Up\" ability.",
 		"traits": "Badoon.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
+		"base_threat": 0,
 		"back_link": "16061b",
 		"code": "16061a",
 		"double_sided": true,
@@ -224,6 +225,7 @@
 		"quantity": 1,
 		"set_code": "brotherhood_of_badoon",
 		"set_position": 4,
+		"threat": 0,
 		"stage": 1,
 		"text": "<b>Contents:</b> Drang (I) and Drang (II). (Drang (II) and Drang(III) instead for expert mode.) Brotherhood of Badoon, Ship Command, and Standard encounter sets. One modular encounter set (Band of Badoon).\n<b>Setup:</b> Put the Badoon Ship environment and the Milano support into play.",
 		"type_code": "main_scheme"
@@ -245,8 +247,9 @@
 		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, resolve the Badoon Ship's \"Charge Up\" ability. \n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"threat": 8,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
+		"base_threat": 0,
 		"back_link": "16062b",
 		"code": "16062a",
 		"double_sided": true,
@@ -261,6 +264,7 @@
 		"set_position": 5,
 		"stage": 2,
 		"text": "<b>When Revealed:</b> Resolve the Badoon Ship's \"Charge Up\" ability.",
+		"threat": 0,
 		"type_code": "main_scheme"
 	},	
 	{	
@@ -280,8 +284,8 @@
 		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, resolve the Badoon Ship's \"Charge Up\" ability. \n<b>First Player Action:</b> Exhaust the Milano → choose to either remove 3 threat from this scheme or deal 3 damage to a minion. \n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 8,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"code": "16063",
 		"faction_code": "encounter",
 		"flavor": "<b><i>The Brotherhood of Badoon's ship is charging its cannons for a devastating attack against the heroes on the ground below.</i></b>",
@@ -296,8 +300,8 @@
 		"text": "<i>Charge Up</i> — <b>Special:</b> Place 1 barrage counter here. Then, if there are 4 or more barrage counters here, deal 2 indirect damage to each player and remove all barrage counters from here.",
 		"traits": "Aerial. Vehicule.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"boost": 3,
 		"code": "16064",
 		"faction_code": "encounter",
@@ -312,8 +316,8 @@
 		"text": "Attach to Drang.\nDrangs gains stalwart. (He cannot be stunned or confused.)\n<b>Hero Action:</b> Spend [mental][physical][physical] resources → discard this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"boost_text": "Resolve the Badoon Ship's \"Charge Up\" ability.",
 		"code": "16065",
@@ -393,8 +397,8 @@
 		"set_position": 13,
 		"text": "<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"code": "16070",
 		"faction_code": "encounter",
@@ -414,8 +418,8 @@
 		"text": "<b>Forced Interrupt:</b> When a card <i>(player or encounter)</i> would be placed into a discard pile from play, put it faceup into The Collection instead.",
 		"traits": "Elder.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "16071",
 		"faction_code": "encounter",
@@ -434,8 +438,8 @@
 		"text": "<b>When Revealed:</b> In player order, each player must choose to either put the top card of their deck faceup into The Collection or take 3 damage.\n<b>Forced Interrupt:</b> When a card <i>(player or encounter)</i> would be placed into a discard pile from play, put it faceup into The Collection instead.",
 		"traits": "Elder.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"code": "16072",
 		"faction_code": "encounter",
@@ -454,8 +458,9 @@
 		"text": "<b>When Revealed:</b> Put the top card of each player's deck faceup into The Collection. Place 1 threat on the main scheme for each card in The Collection.\n<b>Forced Interrupt:</b> When a card would be placed into a discard pile from play, put it faceup into The Collection instead, then place 1 threat on the main scheme.",
 		"traits": "Elder.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
+		"base_threat": 0,
 		"back_link": "16073b",
 		"code": "16073a",
 		"double_sided": true,
@@ -469,6 +474,7 @@
 		"set_position": 4,
 		"stage": 1,
 		"text": "<b>Contents:</b> Collector (I) and Collector (II). <i>(Collector (II) and Collector (III) instead for expert mode.)</i> Infiltrate the Museum, Galactic Artifacts, and Standard encounter sets. One modular encounter set <i>(Menagerie Medley).</i>\n<b>Setup:</b> Create \"The Collection\" game area <i>(see insert for details).</i> Put the top card of each player's deck faceup into The Collection.",
+		"threat": 0,
 		"type_code": "main_scheme"
 	},	
 	{	
@@ -488,8 +494,8 @@
 		"text": "<b>Hero Action:</b> Choose to either exhaust your hero or spend 2 ressources of any type → discard 1 card from The Collection <i>(to its owner's discard pile).</i> (Limit once per round per player.)\n<b>If there are at least 5[per_player] cards in The Collection or if this stage is completed, the players lose the game.</b>",
 		"threat": 10,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"boost_text": "After this activation ends, reveal this card.",
 		"code": "16074",
@@ -504,8 +510,8 @@
 		"text": "Attach to Collector.\n<b>Forced Interrupt:</b> When Collector would take any amount of damage, put this card faceup into The Collection → prevent all of that damage, then place threat on the main scheme equal to the amount prevented this way.",
 		"traits": "Illusion.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"boost": 3,
 		"code": "16075",
@@ -524,8 +530,8 @@
 		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>",
 		"traits": "Bounty Hunter.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"boost_text": "If there are 3[per_player] or fewer cards in The Collection, put the top card of your deck faceup into The Collection.",
 		"code": "16076",
 		"faction_code": "encounter",
@@ -538,8 +544,8 @@
 		"set_position": 7,
 		"text": "<b>When Revealed:</b> Put the lowest cost card you control faceup into The Collection. If you cannot, this card gains surge.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "16077",
 		"faction_code": "encounter",
@@ -552,8 +558,8 @@
 		"set_position": 9,
 		"text": "<b>When Revealed:</b> Choose one :\n- Put the highest cost card from your hand faceup into The Collection.\n- Discard the highest cost card from your hand, then place threat on the main scheme equal to its printed cost.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "16078",
 		"faction_code": "encounter",
@@ -566,8 +572,8 @@
 		"set_position": 11,
 		"text": "<b>When Revealed (Alter-Ego):</b> Choose to either spend [physical][physical] ressources or put the top card of your deck faceup into The Collection.\n<b>When Revealed (Hero):</b> Collector attacks you with +1 ATK. If you take any amount of damage from that attack, put the top card of your deck faceup into The Collection.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "16079",
 		"faction_code": "encounter",
@@ -580,8 +586,8 @@
 		"set_position": 13,
 		"text": "<b>When Revealed:</b> Discard an upgrade or support you control. If no cards were discarded this way, this card gains surge.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"back_link": "16080b",
 		"code": "16080a",
@@ -598,16 +604,18 @@
 		"scheme": 1,
 		"set_code": "collector2",
 		"set_position": 1,
+		"stage": 0,
 		"text": "[star] Collector gets +X SCH and +X ATK, where X is equal to the main scheme's current stage number.\n<b>Forced Interrupt:</b> When Collector would be defeated, remove 3[per_player] threat from the main scheme and flip this card instead.",
 		"traits": "Elder.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 0,
 		"code": "16080b",
 		"double_sided": true,
 		"faction_code": "encounter",
 		"flavor": "<b>\"You're more wily than I gave you credit for. No matter. Let's try again.\"</b>",
+		"health": 0,
 		"health_per_hero": true,
 		"is_unique": true,
 		"name": "Collector",
@@ -618,11 +626,12 @@
 		"scheme": 0,
 		"set_code": "collector2",
 		"set_position": 1,
+		"stage": 0,
 		"text": "Collector cannot be defeated.\n<b>Forced Interrupt:</b> When the round ends, flip this card, then set Collector's hit point dial to his printed hit points.",
 		"traits": "Elder. Wounded.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"back_link": "16081b",
 		"code": "16081a",
@@ -639,16 +648,18 @@
 		"scheme": 2,
 		"set_code": "collector2",
 		"set_position": 2,
+		"stage": 0,
 		"text": "[star] Collector gets +X SCH and +X ATK, where X is equal to the main scheme's current stage number.\n<b>Forced Interrupt:</b> When Collector would be defeated, remove 3[per_player] threat from the main scheme and flip this card instead.",
 		"traits": "Elder.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "16081b",
 		"double_sided": true,
 		"faction_code": "encounter",
 		"flavor": "<b>\"You're more wily than I gave you credit for. No matter. Let's try again.\"</b>",
+		"health": 0,
 		"health_per_hero": true,
 		"is_unique": true,
 		"name": "Collector",
@@ -659,11 +670,13 @@
 		"scheme": 2,
 		"set_code": "collector2",
 		"set_position": 2,
+		"stage": 0,
 		"text": "Collector cannot be defeated.\n<b>Forced Interrupt:</b> When the round ends, flip this card, then set Collector's hit point dial to his printed hit points.",
 		"traits": "Elder. Wounded.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
+		"base_threat": 0,
 		"back_link": "16082b",
 		"code": "16082a",
 		"double_sided": true,
@@ -677,6 +690,7 @@
 		"set_position": 3,
 		"stage": 1,
 		"text": "<b>Contents:</b> Collector (A1)  <i>(Collector (B1) instead for expert mode.)</i> Escape the Museum, Galactic Artifacts, Ship Command, and Standard encounter sets. One modular encounter set <i>(Menagerie Medley).</i>\n<b>Setup:</b> Put the Library Labyrinth environment into play. Set aside the Ship Command modular encounter set.",
+		"threat": 0,
 		"type_code": "main_scheme"
 	},	
 	{	
@@ -697,8 +711,9 @@
 		"text": "<b>Forced Interrupt:</b> When the last threat is removed from this scheme, advance to stage 2A <i>(the players win by advancing).</i>\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 11,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
+		"base_threat": 0,
 		"back_link": "16083b",
 		"code": "16083a",
 		"double_sided": true,
@@ -713,6 +728,7 @@
 		"set_position": 4,
 		"stage": 2,
 		"text": "<b>When Revealed:</b> Put the set-aside Milano support from the Ship Command encounter set into play unde the first player's control..",
+		"threat": 0,
 		"type_code": "main_scheme"
 	},	
 	{	
@@ -733,8 +749,9 @@
 		"text": "<b>Forced Interrupt:</b> When the last threat is removed from this scheme, advance to stage 3A <i>(the players win by advancing).</i>\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 15,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
+		"base_threat": 0,
 		"back_link": "16084b",
 		"code": "16084a",
 		"double_sided": true,
@@ -749,6 +766,7 @@
 		"set_position": 5,
 		"stage": 3,
 		"text": "<b>When Revealed:</b> Flip Library Labyrinth. Place 1 acceleration token on the main scheme. Shuffle the remaining cards from the set-aside Ship Command encounter set into the encounter deck.",
+		"threat": 0,
 		"type_code": "main_scheme"
 	},	
 	{	
@@ -769,8 +787,8 @@
 		"text": "<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from here.\n<b>If there is no threat here, the players win the game.</b>\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 12,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"back_link": "16085b",
 		"code": "16085a",
 		"double_sided": true,
@@ -786,8 +804,8 @@
 		"text": "\"<i>This way?</i>\" - <b>Hero Action:</b> Deal yourself 1 facedown encounter card → remove 5 threat from the main scheme. (Limit once per round per player.)",
 		"traits": "Location.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"code": "16085b",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -801,8 +819,8 @@
 		"text": "\"<i>Hold on to your butts!</i>\" - <b>Forced Interrupt:</b> Chen the villain phase begins, choose one:\n- Exhaust the Milano → assign 2[per_player] indirect damage among players.\n- Assign 3[per_player] indirect damage among players.",
 		"traits": "Aerial. Vehicule.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"boost_text": "Give Collector a tough status card.",
 		"code": "16086",
@@ -816,8 +834,8 @@
 		"set_position": 7,
 		"text": "<b>When Revealed (Alter-Ego):</b> Exhaust your identity. Collector schemes.\n<b>When Revealed (Hero):</b> You are stunned. Collector attacks you.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "16087",
 		"faction_code": "encounter",
@@ -831,8 +849,8 @@
 		"set_position": 10,
 		"text": "Incite 1. <i>(When revealed, place 1 threat on the main scheme.)</i>\n<b>When Revealed:</b> You are confused. If you are already confused, choose and discard 1 card you control.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "16088",
 		"faction_code": "encounter",
@@ -851,8 +869,8 @@
 		"text": "The first [[Technique]] attachment revealed each round gains surge.\n[star]<b>Forced Interrupt:</b> When Nebula initiates an activation against you, resolve the \"<b>Special</b>\" ability on each [[Technique]] attachment in play, then discard each of those attachments.",
 		"traits": "Criminal.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "16089",
 		"faction_code": "encounter",
@@ -871,8 +889,8 @@
 		"text": "The first [[Technique]] attachment revealed each round gains surge.\n[star]<b>Forced Interrupt:</b> When Nebula initiates an activation against you, resolve the \"<b>Special</b>\" ability on each [[Technique]] attachment in play, then choose and discard 1 of those attachments.",
 		"traits": "Criminal.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"code": "16090",
 		"faction_code": "encounter",
@@ -891,8 +909,9 @@
 		"text": "The first [[Technique]] attachment revealed each round gains surge.\n[star]<b>Forced Interrupt:</b> When Nebula initiates an activation against you, resolve the \"<b>Special</b>\" ability on each [[Technique]] attachment in play. You may then remove the top card of your deck from the game to choose and discard 1 of those attachments.",
 		"traits": "Criminal.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
+		"base_threat": 0,
 		"back_link": "16091b",
 		"code": "16091a",
 		"double_sided": true,
@@ -906,6 +925,7 @@
 		"set_position": 4,
 		"stage": 1,
 		"text": "<b>Contents:</b> Nebula (I) and Nebula (II). <i>(Nebula (II) and Nebula (III) instead for expert mode.)</i> Nebula, Power Stone, Ship Command, and Standard encounter sets. One modular encounter set <i>(Space Pirates).</i>\n<b>Setup:</b> Put the Nebula's Ship environment and the Milano support into play. Attach the Power Stone to Nebula. Discard the top 2[per_player] cards of the encounter deck, then attach each [[Technique]] attachment discarded this way to Nebula.",
+		"threat": 0,
 		"type_code": "main_scheme"
 	},	
 	{	
@@ -925,8 +945,9 @@
 		"text": "X is equal to the number of evasion counters on Nebula's Ship.",
 		"threat": 6,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
+		"base_threat": 0,
 		"back_link": "16092b",
 		"code": "16092a",
 		"double_sided": true,
@@ -941,6 +962,7 @@
 		"set_position": 5,
 		"stage": 2,
 		"text": "<b>When Revealed:</b> Place 2 evasion counters on Nebula's Ship. For each evasion counter on Nebula's Ship, discard the top 2 cards of each player deck and the encounter deck.",
+		"threat": 0,
 		"type_code": "main_scheme"
 	},	
 	{	
@@ -960,8 +982,8 @@
 		"text": "X is equal to the number of evasion counters on Nebula's Ship.\n<b>If this satge is completed, the players lose the game.</b>",
 		"threat": 9,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"code": "16093",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -975,8 +997,8 @@
 		"text": "<b>Forced Interrupt:</b> When the villain phase begins, place 1 evasion counter here.\n<i>Shoot the Thrusters!</i> - <b>First Player Action:</b> Exhaust the Milano and spend up to 2 resources of any type → remove 1 evasion counter from here for each resource spent this way.",
 		"traits": "Aerial. Vehicule.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"boost_text": "After this activation ends, attach this card to Nebula and resolve its <b>\"Special\"</b> ability.",
 		"code": "16094",
 		"faction_code": "encounter",
@@ -990,8 +1012,8 @@
 		"text": "Attach to Nebula.\nNebula cannot take more than 5 damage from a single attack.\n<b>Special:</b> Place 1 threat on the main scheme.",
 		"traits": "Technique.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost_text": "After this activation ends, attach this card to Nebula and resolve its <b>\"Special\"</b> ability.",
 		"code": "16095",
 		"faction_code": "encounter",
@@ -1005,8 +1027,8 @@
 		"text": "Attach to Nebula.\nNebula gains stalwart.\n<b>Special:</b> You are stunned. If you are already stunned, give Nebula 1 facedown boost card.",
 		"traits": "Technique.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost_text": "After this activation ends, attach this card to Nebula and resolve its <b>\"Special\"</b> ability.",
 		"code": "16096",
 		"faction_code": "encounter",
@@ -1020,8 +1042,8 @@
 		"text": "Attach to Nebula.\nNebula gains stalwart.\n<b>Special:</b> Give Nebula a tough status card. If Nebula already has a tough status card, give Nebula 1 facedown boost card.",
 		"traits": "Technique.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost_text": "After this activation ends, attach this card to Nebula and resolve its <b>\"Special\"</b> ability.",
 		"code": "16097",
 		"faction_code": "encounter",
@@ -1035,8 +1057,8 @@
 		"text": "Attach to Nebula.\nNebula gains retaliate 1.\n<b>Special:</b> Take 1 damage.",
 		"traits": "Technique.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost_text": "After this activation ends, attach this card to Nebula and resolve its <b>\"Special\"</b> ability.",
 		"code": "16098",
 		"faction_code": "encounter",
@@ -1065,8 +1087,8 @@
 		"set_position": 15,
 		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a [[Technique]] attachment is discarded. Reveal that card.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"boost_text": "Place 1 evasion counter on Nebula's Ship.",
 		"code": "16100",
@@ -1080,8 +1102,8 @@
 		"set_position": 17,
 		"text": "Incite 1. Surge.\n<b>When Revealed:</b> Place 1 evasion counter on Nebula's Ship.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "16101",
 		"faction_code": "encounter",
@@ -1095,8 +1117,8 @@
 		"set_position": 19,
 		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a [[Technique]] attachment is discarded. Reveal that card, then resolve its <b>\"Special\"</b> ability.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "16102",
 		"faction_code": "encounter",
@@ -1109,8 +1131,8 @@
 		"set_position": 21,
 		"text": "<b>When Revealed (Alter-Ego):</b> Nebula schemes. If threat is placed by this activation, place 1 evasion counter on Nebula's Ship.\n<b>When Revealed (Hero):</b> Nebula attacks you. If damage is dealt by this activation, place 1 evasion counter on Nebula's Ship.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "16103",
 		"faction_code": "encounter",
@@ -1130,8 +1152,8 @@
 		"text": "Toughness.\n[star]<b>Forced Interrupt:</b> When Ronan the Accuser activates against you, give him 1 additional boost card if you control the Power Stone.",
 		"traits": "Accuser Corps. Kree.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"code": "16104",
 		"faction_code": "encounter",
@@ -1150,8 +1172,8 @@
 		"text": "Toughness.\n<b>When Revealed:</b> Search the encounter deck and discard pile for the Cut the Power side scheme and reveal it. <i>(Shuffle.)</i>\n[star]<b>Forced Interrupt:</b> When Ronan the Accuser activates against you, give him 1 additional boost card if you control the Power Stone.",
 		"traits": "Accuser Corps. Kree.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 4,
 		"code": "16105",
 		"faction_code": "encounter",
@@ -1170,8 +1192,9 @@
 		"text": "Retaliate 1. Toughness.\n<b>When Revealed:</b> Search the encounter deck and discard pile for the Superio Tactics side scheme and reveal it. <i>(Shuffle.)</i>\n[star]<b>Forced Interrupt:</b> When Ronan the Accuser activates against you, give him 1 additional boost card if you control the Power Stone.",
 		"traits": "Accuser Corps. Kree.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
+		"base_threat": 0,
 		"back_link": "16106b",
 		"code": "16106a",
 		"double_sided": true,
@@ -1185,6 +1208,7 @@
 		"set_position": 4,
 		"stage": 1,
 		"text": "<b>Contents:</b> Ronan the Accuser (I) and Ronan the Accuser (II). <i>(Ronan the Accuser (II) and Ronan the Accuser (III) instead for expert mode.)</i> Ronan the Accuser, Power Stone, Ship Command, and Standard encounter sets. One modular encounter set <i>(Kree Militants).</i>\n<b>Setup:</b> Put the Kree Command Ship environment and the Milano support into play. Attach the Universal Weapon to Ronan the Accuser. Attach the Power Stone to the first player.",
+		"threat": 0,
 		"type_code": "main_scheme"
 	},	
 	{	
@@ -1205,8 +1229,9 @@
 		"text": "<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"threat": 7,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
+		"base_threat": 0,
 		"back_link": "16107b",
 		"code": "16107a",
 		"double_sided": true,
@@ -1221,6 +1246,7 @@
 		"set_position": 5,
 		"stage": 2,
 		"text": "<b>When Revealed:</b> Attach the Power Stone to Ronan the Accuser. If it is already attached to him, give him 1 facedown boost card.",
+		"threat": 0,
 		"type_code": "main_scheme"
 	},	
 	{	
@@ -1241,8 +1267,8 @@
 		"text": "While the Power Stone is attached to Ronan the Accuser, threat cannot be removed from this scheme.\n<b>If this satge is completed, the players lose the game.</b>",
 		"threat": 10,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"code": "16108",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1257,8 +1283,8 @@
 		"text": "<b>First Player Interrupt:</b> When a treachery card is revealed from the encounter deck, exhaust the Milano and spend 1 resource of any type → cancel that card's <b>\"When Revealed\" effects.",
 		"traits": "Aerial. Vehicule.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"boost_text": "Attach Universal Weapon to Ronan the Accuser.",
 		"code": "16109",
 		"faction_code": "encounter",
@@ -1273,8 +1299,8 @@
 		"text": "Attach to Ronan the Accuser.\nRonan the Accuser gains stalwart.\n<b>Hero Action:</b> Take 2 dammage and deal yourself 1 facedown encounter card → shuffle Universal Weapon into the encounter deck.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "16110",
 		"faction_code": "encounter",
@@ -1336,8 +1362,8 @@
 		"set_position": 13,
 		"text": "The Power Stone cannot be unattached from Ronan the Accuser.\n<b>When Revealed:</b> Attach the Power Stone to Ronan the Accuser. If it is already attached to him, place 1[per_player] threat here.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"boost_text": "Attache the Power Stone to Ronan the Accuser.",
 		"code": "16114",
 		"faction_code": "encounter",
@@ -1350,8 +1376,8 @@
 		"set_position": 14,
 		"text": "<b>When Revealed:</b> Ronan the Accuser attacks the player who controls the Power Stone <i>(even if that player is in alter-ego form).</i> If no attack was made this way, this card gains surge.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "16115",
 		"faction_code": "encounter",
@@ -1365,8 +1391,8 @@
 		"set_position": 16,
 		"text": "Surge.\n<b>When Revealed:</b> Give Ronan the Accuser a tough status card. If he already has a tough status card, take 1 damage.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"boost_text": "Give the villain 1 additional boost card for this activation.",
 		"code": "16116",
@@ -1380,8 +1406,8 @@
 		"set_position": 18,
 		"text": "<b>When Revealed (Alter-Ego):</b> Ronan the Accuser schemes with +1 SCH.\n<b>When Revealed (Hero):</b> Ronan the Accuser attacks you with +1 ATK.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"boost_text": "If this activation is an attack, this attack gains overkill, piercing, and ranged.",
 		"code": "16117",
@@ -1398,8 +1424,8 @@
 		"text": "<b>Forced Response:</b> After Badoon Assassin engages your hero, it attacks you with +2 ATK.",
 		"traits": "Badoon.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"boost_text": "Put Badoon Grunt into play engaged with you.",
 		"code": "16118",
@@ -1416,8 +1442,8 @@
 		"text": "<b>Forced Response:</b> After Badoon Grunt engages you, if there are no other minions engaged with you, deal yourself 1 facedown encounter card.",
 		"traits": "Badoon.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"boost": 1,
 		"boost_text": "If this activation is a scheme, this card gets +2 boost icons ([boost][boost]) for this activation.",
@@ -1435,8 +1461,8 @@
 		"text": "Patrol. <i>(While this minion is engaged with you, you cannot thwart the main scheme.)</i>",
 		"traits": "Badoon.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"boost": 1,
 		"boost_text": "Give the villain a tough status card. If the villain already has a tough status card, this card gets +2 boost icons ([boost][boost]) for this activation.",
@@ -1454,8 +1480,8 @@
 		"text": "Retaliate 1.",
 		"traits": "Badoon.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"boost_text": "If this activation is an attack, this card gets +2 boost icons ([boost][boost]) for this activation.",
 		"code": "16121",
@@ -1472,8 +1498,8 @@
 		"text": "[star] Badoon Warlord's attacks gain overkill.",
 		"traits": "Badoon.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "16122",
 		"faction_code": "encounter",
@@ -1489,8 +1515,8 @@
 		"text": "Attach to the enemy with the lowest ATK.\n<b>Hero Action:</b> Spend [physical][physical][physical] resources → discard this card.",
 		"traits": "Artifact.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "16123",
 		"faction_code": "encounter",
@@ -1505,8 +1531,8 @@
 		"text": "Attach to your identity.\nAttached character gets -1 THW, -1 ATK, and -1 DEF.\n<b>Hero Action:</b> Take 1 damage and spend [mental][mental] resources → discard this card. <i>(Any player can do this.)</i>",
 		"traits": "Artifact.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 3,
 		"code": "16124",
 		"faction_code": "encounter",
@@ -1522,8 +1548,8 @@
 		"text": "Attach to the enemy with the highest SCH.\n<b>Hero Action:</b> Place 2 threat on the main scheme and spend 2 resources → discard this card.",
 		"traits": "Artifact.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "16125",
 		"faction_code": "encounter",
@@ -1539,8 +1565,8 @@
 		"text": "Attach to your identity.\n<b>Forced Interrupt:</b> When your turn begins, place 1 poison counter here, the take 1 damage for each poison counter here.\n<b>Hero Action:</b> Spend 3 resources of different types → discard this card. <i>(Any player can do this.)</i>",
 		"traits": "Artifact.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "16126",
 		"faction_code": "encounter",
@@ -1628,8 +1654,8 @@
 		"set_position": 9,
 		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may play a card from their hand, reducing its resources cost by 3.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "16131",
 		"faction_code": "encounter",
@@ -1643,8 +1669,8 @@
 		"text": "Attach to the enemy with the highest ATK.\nReduce the amount of damage attached character takes from each attack by 1.\n<b>Hero Action:</b> Spend 3 resources of the same type → discard this card.",
 		"traits": "Armor.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"boost": 2,
 		"boost_text": "If this is an attack, this attack gains piercing.",
@@ -1662,8 +1688,8 @@
 		"text": "Patrol. <i>(While this minion is engaged with you, you cannot thwart the main scheme.)</i>",
 		"traits": "Kree. Soldier.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"boost_text": "If this activation is an attack, this card gets +3 boost icons ([boost][boost][boost]) for this activation.",
 		"code": "16133",
@@ -1680,8 +1706,8 @@
 		"text": "Guard. Stalwart. <i>(This character cannot be stunned or confused.)</i>",
 		"traits": "Kree. Soldier.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"boost": 1,
 		"boost_text": "If this activation is an attack, this attack gains overkill.",
@@ -1699,8 +1725,8 @@
 		"text": "Quickstrike. <i>(After this minion engages your hero, it attacks you.)</i>",
 		"traits": "Kree. Soldier.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"boost_text": "Put Psionic Ghost into play engaged with you.",
 		"code": "16135",
@@ -1717,8 +1743,8 @@
 		"text": "<b>When Revealed:</b> You are confused. If you are already confused, take 1 damage.",
 		"traits": "Ghost.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"code": "16136",
 		"faction_code": "encounter",
@@ -1735,8 +1761,8 @@
 		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>\nPatrol. <i>(While this minion is engaged with you, you cannot thwart the main scheme.)</i>",
 		"traits": "Robot.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"boost_text": "Deal 1 damage to each character you control.",
 		"code": "16137",
@@ -1753,8 +1779,8 @@
 		"text": "Quickstrike.\n[star] Starshark's attacks deal indirect damage.",
 		"traits": "Creature. Elite.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"boost": 1,
 		"boost_text": "Give the villain 1 additional boost card for this activation.",
@@ -1772,8 +1798,8 @@
 		"text": "Quickstrike.\n[star] <b>Forced Response:</b> After this minion attacks and damages you, remove 1 card at random in your hand from the game.",
 		"traits": "Criminal.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"boost": 1,
 		"boost_text": "Give the villain 1 additional boost card for this activation.",
@@ -1806,8 +1832,8 @@
 		"set_position": 6,
 		"text": "Each enemy gets +1 ATK",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "16141",
 		"faction_code": "encounter",
@@ -1821,8 +1847,8 @@
 		"set_position": 7,
 		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a [[Criminal]] minion is discarded. Reveal that minion, then give that minion a tough status card and the villain 1 facedown boost card.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"code": "16142",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1836,8 +1862,8 @@
 		"text": "Permanent. Setup.\nThe first player controls the Milano.\n<i>Piloting</i> - <b>Resource:</b> Exhaust the Milano → generate a [wild] resource for any player.",
 		"traits": "Aerial. Vehicule.",
 		"type_code": "support"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "16143",
 		"faction_code": "encounter",
@@ -1868,8 +1894,8 @@
 		"set_position": 3,
 		"text": "Hinder 3[per_player] <i>(When revealed, place 3[per_player] threat here.)</i>.\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "16145",
 		"faction_code": "encounter",
@@ -1882,8 +1908,8 @@
 		"set_position": 4,
 		"text": "Peril. <i>(While you are resolving this card, other players cannot help you.)</i>\n<b>When Revealed:</b> Choose one:\n-Exhaust the Milano.\n-Spend [physical][physical] resources.\n- Stun the first player.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "16146",
 		"faction_code": "encounter",
@@ -1896,8 +1922,8 @@
 		"set_position": 5,
 		"text": "Peril. <i>(While you are resolving this card, other players cannot help you.)</i>\n<b>When Revealed:</b> Choose one:\n-Exhaust the Milano.\n-Spend [mental][mental] resources.\n- Deal 3 damage to the first player.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "16147",
 		"faction_code": "encounter",
@@ -1910,8 +1936,8 @@
 		"set_position": 6,
 		"text": "Peril. <i>(While you are resolving this card, other players cannot help you.)</i>\n<b>When Revealed:</b> Choose one:\n-Exhaust the Milano.\n-Spend [energy][energy] resources.\n- Discard 1 card at random from the first player's hand.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"code": "16148",
 		"faction_code": "encounter",
 		"name": "Special Delivery",
@@ -1923,8 +1949,8 @@
 		"set_position": 7,
 		"text": "<b>When Revealed (Alter-Ego):</b> You may exhaust the Milano. If you do not, the villain schemes with +1 SCH.\n<b>When Revealed (Hero):</b> You may exhaust the Milano. If you do not, the villain attacks you with +1 ATK.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"code": "16149",
 		"faction_code": "encounter",
 		"is_unique": true,
