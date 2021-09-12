@@ -257,6 +257,7 @@
 		"code": "21014",
 		"cost": 2,
 		"faction_code": "leadership",
+		"health": 2,
 		"is_unique": true,
 		"name": "Kaluu",
 		"octgn_id": "d00a562d-02c9-4559-a92a-65dfd74f4203",
@@ -301,12 +302,9 @@
 	{	
 		"code": "21017",
 		"duplicate_of": "12016",
-		"faction_code": "leadership",
-		"name": "Moxie",
 		"pack_code": "mts",
 		"position": 17,
-		"quantity": 3,
-		"type_code": "event"
+		"quantity": 3
 	},	
 	{	
 		"code": "21018",
@@ -341,25 +339,17 @@
 	},	
 	{	
 		"code": "21020",
-		"cost": 2,
 		"duplicate_of": "03024",
-		"faction_code": "basic",
-		"is_unique": true,
-		"name": "Avengers Tower",
 		"pack_code": "mts",
 		"position": 20,
-		"quantity": 1,
-		"type_code": "support"
+		"quantity": 1
 	},	
 	{	
 		"code": "21021",
 		"duplicate_of": "01091",
-		"faction_code": "basic",
-		"name": "Avengers Mansion",
 		"pack_code": "mts",
 		"position": 21,
-		"quantity": 1,
-		"type_code": "support"
+		"quantity": 1
 	},	
 	{	
 		"code": "21022",
@@ -376,32 +366,23 @@
 	{	
 		"code": "21023",
 		"duplicate_of": "01088",
-		"faction_code": "basic",
-		"name": "Energy",
 		"pack_code": "mts",
 		"position": 23,
-		"quantity": 1,
-		"type_code": "resource"
+		"quantity": 1
 	},	
 	{	
 		"code": "21024",
 		"duplicate_of": "01089",
-		"faction_code": "basic",
-		"name": "Genius",
 		"pack_code": "mts",
 		"position": 24,
-		"quantity": 1,
-		"type_code": "resource"
+		"quantity": 1
 	},	
 	{	
 		"code": "21025",
 		"duplicate_of": "01090",
-		"faction_code": "basic",
-		"name": "Strength",
 		"pack_code": "mts",
 		"position": 25,
-		"quantity": 1,
-		"type_code": "resource"
+		"quantity": 1
 	},	
 	{	
 		"attack": 1,
@@ -648,22 +629,16 @@
 	{	
 		"code": "21044",
 		"duplicate_of": "01054",
-		"faction_code": "aggression",
-		"name": "Uppercut",
 		"pack_code": "mts",
 		"position": 44,
-		"quantity": 1,
-		"type_code": "event"
+		"quantity": 1
 	},	
 	{	
 		"code": "21045",
 		"duplicate_of": "01057",
-		"faction_code": "aggression",
-		"name": "Combat Training",
 		"pack_code": "mts",
 		"position": 45,
-		"quantity": 1,
-		"type_code": "upgrade"
+		"quantity": 1
 	},	
 	{	
 		"code": "21046",
@@ -716,12 +691,9 @@
 	{	
 		"code": "21049",
 		"duplicate_of": "01060",
-		"faction_code": "justice",
-		"name": "For Justice!",
 		"pack_code": "mts",
 		"position": 49,
-		"quantity": 1,
-		"type_code": "event"
+		"quantity": 1
 	},	
 	{	
 		"code": "21050",
@@ -740,12 +712,9 @@
 	{	
 		"code": "21051",
 		"duplicate_of": "01065",
-		"faction_code": "justice",
-		"name": "Heroic Intuition",
 		"pack_code": "mts",
 		"position": 51,
-		"quantity": 1,
-		"type_code": "upgrade"
+		"quantity": 1
 	},	
 	{	
 		"code": "21052",
@@ -812,22 +781,16 @@
 	{	
 		"code": "21056",
 		"duplicate_of": "01071",
-		"faction_code": "leadership",
-		"name": "Make the Call",
 		"pack_code": "mts",
 		"position": 56,
-		"quantity": 1,
-		"type_code": "event"
+		"quantity": 1
 	},	
 	{	
 		"code": "21057",
 		"duplicate_of": "01074",
-		"faction_code": "leadership",
-		"name": "Inspired",
 		"pack_code": "mts",
 		"position": 57,
-		"quantity": 1,
-		"type_code": "upgrade"
+		"quantity": 1
 	},	
 	{	
 		"code": "21058",
@@ -893,22 +856,16 @@
 	{	
 		"code": "21062",
 		"duplicate_of": "01077",
-		"faction_code": "protection",
-		"name": "Counter-Punch",
 		"pack_code": "mts",
 		"position": 62,
-		"quantity": 1,
-		"type_code": "event"
+		"quantity": 1
 	},	
 	{	
 		"code": "21063",
 		"duplicate_of": "01081",
-		"faction_code": "protection",
-		"name": "Armored Vest",
 		"pack_code": "mts",
 		"position": 63,
-		"quantity": 1,
-		"type_code": "upgrade"
+		"quantity": 1
 	},	
 	{	
 		"code": "21064",
@@ -945,6 +902,8 @@
 	},	
 	{	
 		"back_link": "21180b",
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"code": "21180a",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -976,6 +935,8 @@
 		"type_code": "ally"
 	},	
 	{	
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "21181",
 		"faction_code": "campaign",
@@ -991,6 +952,8 @@
 	},	
 	{	
 		"back_link": "21182b",
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"code": "21182a",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -1039,6 +1002,8 @@
 	},	
 	{	
 		"back_link": "21184b",
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"code": "21184a",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -1053,6 +1018,8 @@
 		"type_code": "side_scheme"
 	},	
 	{	
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"code": "21184b",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -1079,6 +1046,7 @@
 	},	
 	{	
 		"back_link": "21186b",
+		"base_threat": 3,
 		"code": "21186a",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -1093,6 +1061,8 @@
 		"type_code": "side_scheme"
 	},	
 	{	
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"code": "21186b",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -1149,6 +1119,7 @@
 	},	
 	{	
 		"back_link": "21189b",
+		"base_threat": 3,
 		"code": "21189a",
 		"double_sided": true,
 		"faction_code": "campaign",
