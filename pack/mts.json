@@ -257,7 +257,7 @@
 		"code": "21014",
 		"cost": 2,
 		"faction_code": "leadership",
-		"health": 0,
+		"health": 2,
 		"is_unique": true,
 		"name": "Kaluu",
 		"octgn_id": "d00a562d-02c9-4559-a92a-65dfd74f4203",
@@ -305,8 +305,8 @@
 		"pack_code": "mts",
 		"position": 17,
 		"quantity": 3
-	},
-	{
+	},	
+	{	
 		"code": "21018",
 		"faction_code": "leadership",
 		"name": "Band Together",
@@ -343,14 +343,14 @@
 		"pack_code": "mts",
 		"position": 20,
 		"quantity": 1
-	},
-	{
+	},	
+	{	
 		"code": "21021",
 		"duplicate_of": "01091",
 		"pack_code": "mts",
 		"position": 21,
 		"quantity": 1
-	},
+	},	
 	{
 		"code": "21022",
 		"faction_code": "basic",
@@ -369,22 +369,22 @@
 		"pack_code": "mts",
 		"position": 23,
 		"quantity": 1
-	},
-	{
+	},	
+	{	
 		"code": "21024",
 		"duplicate_of": "01089",
 		"pack_code": "mts",
 		"position": 24,
 		"quantity": 1
-	},
-	{
+	},	
+	{	
 		"code": "21025",
 		"duplicate_of": "01090",
 		"pack_code": "mts",
 		"position": 25,
 		"quantity": 1
-	},
-	{
+	},	
+	{	
 		"attack": 1,
 		"back_link": "21031b",
 		"code": "21031a",
@@ -632,18 +632,15 @@
 		"pack_code": "mts",
 		"position": 44,
 		"quantity": 1
-	},
-	{
+	},	
+	{	
 		"code": "21045",
 		"duplicate_of": "01057",
-		"faction_code": "aggression",
-		"name": "Combat Training",
 		"pack_code": "mts",
 		"position": 45,
-		"quantity": 1,
-		"type_code": "upgrade"
-	},
-	{
+		"quantity": 1
+	},	
+	{	
 		"code": "21046",
 		"faction_code": "aggression",
 		"name": "Audacity",
@@ -697,8 +694,8 @@
 		"pack_code": "mts",
 		"position": 49,
 		"quantity": 1
-	},
-	{
+	},	
+	{	
 		"code": "21050",
 		"cost": 1,
 		"faction_code": "justice",
@@ -718,8 +715,8 @@
 		"pack_code": "mts",
 		"position": 51,
 		"quantity": 1
-	},
-	{
+	},	
+	{	
 		"code": "21052",
 		"faction_code": "justice",
 		"name": "Determination",
@@ -787,15 +784,15 @@
 		"pack_code": "mts",
 		"position": 56,
 		"quantity": 1
-	},
-	{
+	},	
+	{	
 		"code": "21057",
 		"duplicate_of": "01074",
 		"pack_code": "mts",
 		"position": 57,
 		"quantity": 1
-	},
-	{
+	},	
+	{	
 		"code": "21058",
 		"faction_code": "leadership",
 		"name": "Innovation",
@@ -862,15 +859,15 @@
 		"pack_code": "mts",
 		"position": 62,
 		"quantity": 1
-	},
-	{
+	},	
+	{	
 		"code": "21063",
 		"duplicate_of": "01081",
 		"pack_code": "mts",
 		"position": 63,
 		"quantity": 1
-	},
-	{
+	},	
+	{	
 		"code": "21064",
 		"faction_code": "protection",
 		"name": "Preservation",
@@ -905,6 +902,8 @@
 	},
 	{
 		"back_link": "21180b",
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"code": "21180a",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -934,8 +933,10 @@
 		"thwart": 2,
 		"traits": "Guardian.",
 		"type_code": "ally"
-	},
-	{
+	},	
+	{	
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "21181",
 		"faction_code": "campaign",
@@ -951,6 +952,8 @@
 	},
 	{
 		"back_link": "21182b",
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"code": "21182a",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -999,6 +1002,8 @@
 	},
 	{
 		"back_link": "21184b",
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"code": "21184a",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -1011,8 +1016,10 @@
 		"set_code": "mts_campaign",
 		"set_position": 8,
 		"type_code": "side_scheme"
-	},
-	{
+	},	
+	{	
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"code": "21184b",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -1039,6 +1046,7 @@
 	},
 	{
 		"back_link": "21186b",
+		"base_threat": 3,
 		"code": "21186a",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -1051,8 +1059,10 @@
 		"set_code": "mts_campaign",
 		"set_position": 13,
 		"type_code": "side_scheme"
-	},
-	{
+	},	
+	{	
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"code": "21186b",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -1109,6 +1119,7 @@
 	},
 	{
 		"back_link": "21189b",
+		"base_threat": 3,
 		"code": "21189a",
 		"double_sided": true,
 		"faction_code": "campaign",
