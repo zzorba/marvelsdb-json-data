@@ -4,6 +4,7 @@
 		"back_link": "21001b",
 		"code": "21001a",
 		"defense": 1,
+		"deck_limit": 1,
 		"double_sided": true,
 		"faction_code": "hero",
 		"flavor": "\"The name is Monica, or Spectrum if you're nasty.\"",
@@ -22,10 +23,12 @@
 	},
 	{
 		"code": "21001b",
+		"deck_limit": 1,
 		"double_sided": true,
 		"faction_code": "hero",
 		"hand_size": 6,
 		"health": 11,
+		"hidden": true,
 		"is_unique": true,
 		"name": "Monica Rambeau",
 		"octgn_id": "a43deb5e-355b-4308-9c07-d7ff6366cd8a",
@@ -40,10 +43,12 @@
 	},
 	{
 		"code": "21002",
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"name": "Gamma",
 		"octgn_id": "57d7233d-48c0-4b82-b171-a41c76740c58",
 		"pack_code": "mts",
+		"permanent": true,
 		"position": 2,
 		"quantity": 1,
 		"resource_physical": 1,
@@ -54,10 +59,12 @@
 	},
 	{
 		"code": "21003",
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"name": "Photon",
 		"octgn_id": "5e15bae5-f88a-4fcb-b003-85ada6a3974d",
 		"pack_code": "mts",
+		"permanent": true,
 		"position": 3,
 		"quantity": 1,
 		"resource_mental": 1,
@@ -68,10 +75,12 @@
 	},
 	{
 		"code": "21004",
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"name": "Pulsar",
 		"octgn_id": "3689c80d-0bd7-4848-8e6a-9860fca79da7",
 		"pack_code": "mts",
+		"permanent": true,
 		"position": 4,
 		"quantity": 1,
 		"resource_energy": 1,
@@ -85,6 +94,7 @@
 		"attack_cost": 1,
 		"code": "21005",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"flavor": "\"I do whatever is right, whenever it needs to be done, and I don't care what anyone thinks.\"",
 		"health": 3,
@@ -107,6 +117,7 @@
 	{
 		"code": "21006",
 		"cost": 2,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"flavor": "\"I can take the form of any type of energy I want.\"-Spectrum",
 		"name": "Energy Duplication",
@@ -124,6 +135,7 @@
 	{
 		"code": "21007",
 		"cost": 3,
+		"deck_limit": 3,
 		"faction_code": "hero",
 		"flavor": "\"I wouldn't make me angry either.\" - Spectrum",
 		"name": "Gamma Blast",
@@ -141,6 +153,7 @@
 	{
 		"code": "21008",
 		"cost": 2,
+		"deck_limit": 3,
 		"faction_code": "hero",
 		"flavor": "\"Looking for these?\" - Spectrum",
 		"name": "Photon Speed",
@@ -158,6 +171,7 @@
 	{
 		"code": "21009",
 		"cost": 1,
+		"deck_limit": 3,
 		"faction_code": "hero",
 		"name": "Pulsar Shield",
 		"octgn_id": "dc0d3450-4c41-45da-b5ec-4f4f4b4c1ff9",
@@ -174,6 +188,7 @@
 	{
 		"code": "21010",
 		"cost": 0,
+		"deck_limit": 3,
 		"faction_code": "hero",
 		"flavor": "\"Be there in a flash.\" - Spectrum",
 		"name": "Speed of Light",
@@ -193,6 +208,7 @@
 		"attack_cost": 1,
 		"code": "21011",
 		"cost": 6,
+		"deck_limit": 1,
 		"faction_code": "leadership",
 		"health": 4,
 		"is_unique": true,
@@ -203,7 +219,7 @@
 		"quantity": 1,
 		"resource_physical": 1,
 		"subname": "Steve Rogers",
-		"text": "Toughness.\nReduce the cost to play Captain America by 1 for each <b>AVENGER</b> character you control.",
+		"text": "Toughness.\nReduce the cost to play Captain America by 1 for each [[avenger]] character you control.",
 		"thwart": 2,
 		"thwart_cost": 1,
 		"traits": "Avenger.",
@@ -214,6 +230,7 @@
 		"attack_cost": 2,
 		"code": "21012",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "leadership",
 		"health": 3,
 		"is_unique": true,
@@ -224,7 +241,7 @@
 		"quantity": 1,
 		"resource_mental": 1,
 		"subname": "Victor Alvarez",
-		"text": "Power Man enters play with 2 chi counters on him.\n<b>Action</b>: Discard any number of chi counters from Power Man -> he gets 62 ATK for each chi counter discarded this way until the end of the phase.",
+		"text": "Power Man enters play with 2 chi counters on him.\n<b>Action</b>: Discard any number of chi counters from Power Man -> he gets +2 ATK for each chi counter discarded this way until the end of the phase.",
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Avenger.",
@@ -235,6 +252,7 @@
 		"attack_cost": 1,
 		"code": "21013",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "leadership",
 		"health": 2,
 		"is_unique": true,
@@ -256,6 +274,7 @@
 		"attack_cost": 1,
 		"code": "21014",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "leadership",
 		"health": 2,
 		"is_unique": true,
@@ -274,6 +293,7 @@
 	{
 		"code": "21015",
 		"cost": 3,
+		"deck_limit": 3,
 		"faction_code": "leadership",
 		"name": "Mighty Avengers",
 		"octgn_id": "44ee89d6-917b-4989-a665-61150442d7a9",
@@ -288,6 +308,7 @@
 	{
 		"code": "21016",
 		"cost": 3,
+		"deck_limit": 3,
 		"faction_code": "leadership",
 		"name": "Mass Attack",
 		"octgn_id": "fbdaf129-619a-444a-9dba-9911bbe93b9f",
@@ -305,9 +326,10 @@
 		"pack_code": "mts",
 		"position": 17,
 		"quantity": 3
-	},	
-	{	
+	},
+	{
 		"code": "21018",
+		"deck_limit": 3,
 		"faction_code": "leadership",
 		"name": "Band Together",
 		"octgn_id": "ed746929-b0d4-4d1a-86ef-049e16cf5033",
@@ -319,9 +341,9 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Response</b>: After Blade thwarts or attacks, choose to either spend a [physics] resource from your hand or discard Blade.",
 		"code": "21019",
 		"cost": 1,
+		"deck_limit": 1,
 		"faction_code": "basic",
 		"health": 3,
 		"is_unique": true,
@@ -331,7 +353,7 @@
 		"position": 19,
 		"quantity": 1,
 		"resource_physical": 1,
-		"scheme_text": "<b>Forced Response</b>: After Blade thwarts or attacks, choose to either spend a [physics] resource from your hand or discard Blade.",
+		"text": "<b>Forced Response</b>: After Blade thwarts or attacks, choose to either spend a [physical] resource from your hand or discard Blade.",
 		"subname": "Eric Brooks",
 		"thwart": 1,
 		"traits": "Avenger. Vampire.",
@@ -343,16 +365,18 @@
 		"pack_code": "mts",
 		"position": 20,
 		"quantity": 1
-	},	
-	{	
+	},
+	{
 		"code": "21021",
 		"duplicate_of": "01091",
 		"pack_code": "mts",
 		"position": 21,
 		"quantity": 1
-	},	
+	},
 	{
 		"code": "21022",
+		"cost": 1,
+		"deck_limit": 3,
 		"faction_code": "basic",
 		"name": "Ready to Rumble",
 		"octgn_id": "197d14ac-f3ab-44a5-b0c9-7ba45b3dbeb5",
@@ -369,25 +393,32 @@
 		"pack_code": "mts",
 		"position": 23,
 		"quantity": 1
-	},	
-	{	
+	},
+	{
 		"code": "21024",
 		"duplicate_of": "01089",
 		"pack_code": "mts",
 		"position": 24,
 		"quantity": 1
-	},	
-	{	
+	},
+	{
 		"code": "21025",
 		"duplicate_of": "01090",
 		"pack_code": "mts",
 		"position": 25,
 		"quantity": 1
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"back_link": "21031b",
 		"code": "21031a",
+		"deck_limit": 1,
+		"deck_requirements": [
+			{
+				"aspects": 4,
+				"limit": 1
+			}
+		],
 		"defense": 2,
 		"double_sided": true,
 		"faction_code": "hero",
@@ -407,10 +438,12 @@
 	},
 	{
 		"code": "21031b",
+		"deck_limit": 1,
 		"double_sided": true,
 		"faction_code": "hero",
 		"hand_size": 6,
 		"health": 11,
+		"hidden": true,
 		"is_unique": true,
 		"name": "Adam Warlock",
 		"octgn_id": "5fbbd328-5283-4a1f-9215-77f28ac8c493",
@@ -428,6 +461,7 @@
 		"attack_cost": 1,
 		"code": "21032",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"health": 2,
 		"is_unique": true,
@@ -448,6 +482,7 @@
 	{
 		"code": "21033",
 		"cost": 1,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"is_unique": true,
 		"name": "Soul World",
@@ -465,6 +500,7 @@
 	{
 		"code": "21034",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"is_unique": true,
 		"name": "Karmic Staff",
@@ -482,6 +518,7 @@
 	{
 		"code": "21035",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"is_unique": true,
 		"name": "Warlock's Cape",
@@ -499,6 +536,7 @@
 	{
 		"code": "21036",
 		"cost": 1,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Cosmic Ward",
 		"octgn_id": "9112a7d4-1121-4eae-9ab2-1180841a9399",
@@ -515,6 +553,7 @@
 	{
 		"code": "21037",
 		"cost": 2,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Mystic Senses",
 		"octgn_id": "89f168e1-36b9-4380-919f-498b20bd935f",
@@ -531,6 +570,7 @@
 	{
 		"code": "21038",
 		"cost": 2,
+		"deck_limit": 3,
 		"faction_code": "hero",
 		"name": "Karmic Blast",
 		"octgn_id": "6c05b39c-7c72-4767-b0b6-b0c6c0e6998e",
@@ -547,6 +587,7 @@
 	{
 		"code": "21039",
 		"cost": 2,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Cosmic Awareness",
 		"octgn_id": "0b7936e6-6ea0-40af-aad4-ef568b725843",
@@ -563,6 +604,7 @@
 	{
 		"code": "21040",
 		"cost": 1,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Quantum Magic",
 		"octgn_id": "c401910d-f176-46e3-bd16-bbcff2921b41",
@@ -581,6 +623,7 @@
 		"attack_cost": 1,
 		"code": "21041",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "aggression",
 		"health": 2,
 		"is_unique": true,
@@ -600,6 +643,7 @@
 	{
 		"code": "21042",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "aggression",
 		"is_unique": true,
 		"name": "In-Betweener",
@@ -615,6 +659,7 @@
 	{
 		"code": "21043",
 		"cost": 1,
+		"deck_limit": 1,
 		"faction_code": "aggression",
 		"name": "Magic Attack",
 		"octgn_id": "a585b4fe-1e79-46f8-a59d-d645a49101d4",
@@ -632,16 +677,17 @@
 		"pack_code": "mts",
 		"position": 44,
 		"quantity": 1
-	},	
-	{	
+	},
+	{
 		"code": "21045",
 		"duplicate_of": "01057",
 		"pack_code": "mts",
 		"position": 45,
 		"quantity": 1
-	},	
-	{	
+	},
+	{
 		"code": "21046",
+		"deck_limit": 1,
 		"faction_code": "aggression",
 		"name": "Audacity",
 		"octgn_id": "5eff1a95-a88f-4608-ab0a-70efe2ee1a0e",
@@ -657,6 +703,7 @@
 		"attack_cost": 1,
 		"code": "21047",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "justice",
 		"health": 3,
 		"is_unique": true,
@@ -667,7 +714,7 @@
 		"quantity": 1,
 		"resource_energy": 1,
 		"subname": "Wendell Vaughn",
-		"text": "<b>Response</b>After Quasar enters play, remove 1 threat from each scheme in play.",
+		"text": "<b>Response</b>: After Quasar enters play, remove 1 threat from each scheme in play.",
 		"thwart": 1,
 		"thwart_cost": 1,
 		"traits": "Aerial. Guardian.",
@@ -676,6 +723,7 @@
 	{
 		"code": "21048",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "justice",
 		"is_unique": true,
 		"name": "Living Tribunal",
@@ -694,10 +742,11 @@
 		"pack_code": "mts",
 		"position": 49,
 		"quantity": 1
-	},	
-	{	
+	},
+	{
 		"code": "21050",
 		"cost": 1,
+		"deck_limit": 1,
 		"faction_code": "justice",
 		"name": "Zone of Silence",
 		"octgn_id": "d6d14a8b-4dd9-49e6-b237-61a93ba2146b",
@@ -715,9 +764,10 @@
 		"pack_code": "mts",
 		"position": 51,
 		"quantity": 1
-	},	
-	{	
+	},
+	{
 		"code": "21052",
+		"deck_limit": 1,
 		"faction_code": "justice",
 		"name": "Determination",
 		"octgn_id": "3b36448f-e676-4d84-9967-fda482eff070",
@@ -733,6 +783,7 @@
 		"attack_cost": 1,
 		"code": "21053",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "leadership",
 		"health": 2,
 		"is_unique": true,
@@ -752,6 +803,7 @@
 	{
 		"code": "21054",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "leadership",
 		"is_unique": true,
 		"name": "Eternity",
@@ -767,6 +819,7 @@
 	{
 		"code": "21055",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "leadership",
 		"name": "Summoning Spell",
 		"octgn_id": "723523a2-08d0-4e97-bd64-d3358e9f3cb2",
@@ -784,16 +837,17 @@
 		"pack_code": "mts",
 		"position": 56,
 		"quantity": 1
-	},	
-	{	
+	},
+	{
 		"code": "21057",
 		"duplicate_of": "01074",
 		"pack_code": "mts",
 		"position": 57,
 		"quantity": 1
-	},	
-	{	
+	},
+	{
 		"code": "21058",
+		"deck_limit": 1,
 		"faction_code": "leadership",
 		"name": "Innovation",
 		"octgn_id": "4a08dfa2-ed3c-4451-a5fd-0f91c44d4107",
@@ -809,6 +863,7 @@
 		"attack_cost": 1,
 		"code": "21059",
 		"cost": 4,
+		"deck_limit": 1,
 		"faction_code": "protection",
 		"health": 4,
 		"is_unique": true,
@@ -827,6 +882,7 @@
 	{
 		"code": "21060",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "protection",
 		"is_unique": true,
 		"name": "The Gardener",
@@ -842,6 +898,7 @@
 	{
 		"code": "21061",
 		"cost": 0,
+		"deck_limit": 1,
 		"faction_code": "protection",
 		"name": "Shield Spell",
 		"octgn_id": "7f474c15-26fd-4963-b73d-07f58ffa2d4e",
@@ -859,16 +916,17 @@
 		"pack_code": "mts",
 		"position": 62,
 		"quantity": 1
-	},	
-	{	
+	},
+	{
 		"code": "21063",
 		"duplicate_of": "01081",
 		"pack_code": "mts",
 		"position": 63,
 		"quantity": 1
-	},	
-	{	
+	},
+	{
 		"code": "21064",
+		"deck_limit": 3,
 		"faction_code": "protection",
 		"name": "Preservation",
 		"octgn_id": "86aa5c22-5f26-4e7c-b5c4-ddfbcaf4d476",
@@ -883,6 +941,7 @@
 		"attack": 1,
 		"attack_cost": 1,
 		"code": "21065",
+		"deck_limit": 1,
 		"cost": 3,
 		"faction_code": "basic",
 		"health": 4,
@@ -919,6 +978,7 @@
 	{
 		"attack": 2,
 		"code": "21180b",
+		"deck_limit": 1,
 		"double_sided": true,
 		"faction_code": "campaign",
 		"health": 3,
@@ -933,8 +993,8 @@
 		"thwart": 2,
 		"traits": "Guardian.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"base_threat_fixed": true,
 		"boost": 2,
@@ -987,6 +1047,7 @@
 	},
 	{
 		"code": "21183",
+		"deck_limit": 3,
 		"faction_code": "campaign",
 		"name": "Shawarma",
 		"octgn_id": "c9fe2c83-ea8b-479d-a5b2-da837f497576",
@@ -1016,8 +1077,8 @@
 		"set_code": "mts_campaign",
 		"set_position": 8,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"base_threat_fixed": true,
 		"code": "21184b",
@@ -1059,8 +1120,8 @@
 		"set_code": "mts_campaign",
 		"set_position": 13,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"base_threat_fixed": true,
 		"code": "21186b",
