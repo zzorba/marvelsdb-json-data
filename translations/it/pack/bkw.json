@@ -1,148 +1,178 @@
 [
     {
         "code": "08001a",
-        "flavor": "\"My name is Madame Natasha. But you can call me Black Widow!\"",
-        "name": "Black Widow",
-        "text": "\"Widowmaker\" — <b>Response</b>: After you trigger the ability of a [[Preparation]] card you control, deal 1 damage to an enemy.",
-        "traits": "Avenger. Spy."
+        "flavor": "\"Mi chiamo Madame Natasha. ma tu puoi chiamarmi Vedova Nera!\"",
+        "name": "Vedova Nera",
+        "text": "<i>\"Fabbricavedove\"</i> — <b>Risposta</b>: Dopo che hai innescato la capacità di una carta [[Preparativi]] che controlli, infliggi 1 danno a un nemico.",
+        "traits": "Avenger. Spia.",
+        "subname": ""
     },
     {
         "code": "08001b",
-        "flavor": "\"This is my mission and I will succeed.\"",
+        "flavor": "\"Questa è la mia missione e la porterò a termine.\"",
         "name": "Natasha Romanoff",
-        "text": "Mission Prep — <b>Response</b>: After you play a [[Preparation]] card, draw 1 card. (Limit once per phase.)",
-        "traits": "S.H.I.E.L.D. Spy."
+        "text": "<i>Preparativi alla Missione</i> — <b>Risposta</b>: Dopo che hai giocato una carta[[Preparativi]], pesca una carta. (Limite di una volta per fase.)",
+        "traits": "S.H.I.E.L.D. Spia.",
+        "subname": ""
     },
     {
-        "code": "08002",
-        "flavor": "\"You shot at Natasha. That was your last act on Earth, pal.\"",
-        "name": "Winter Soldier",
-        "text": "Reduce the cost to play Winter Soldier by 1 for each [[Preparation]] card you control.",
-        "traits": "Avenger. Spy.",
+        "code": 8002,
+        "flavor": "\"Hai sparato a Natasha. E' stato il tuo ultimo atto su questa terra, amico.\"",
+        "name": "Soldato d'Inverno",
+        "text": "Riduci il costo per giocare Soldato d'Inverno di 1 per ogni carta [[Preparativi]] che controlli.",
+        "traits": "Avenger. Spia.",
         "subname": "Bucky Barnes"
     },
     {
-        "code": "08003",
-        "flavor": "\"It's all about calculating how willfully blind a person is going to be. And then exploiting that.\" -- Natasha Romanoff",
-        "name": "Covert Ops",
-        "text": "<b>Action</b> <i>(thwart)</i>: Remove 4 threat from a scheme. Confuse the villain.",
-        "traits": "Thwart."
+        "code": 8003,
+        "flavor": "\"Si tratta solo di calcolare quanto una persona è disposta a essere cieca. E poi sfruttare quella cecità.\" -- Natasha Romanoff",
+        "name": "Operazioni Segrete",
+        "text": "<b>Azione</b> <i>(intervento)</i>: Rimuovi 4 minacce da una trama. Confondi il criminale.",
+        "traits": "Intervento.",
+        "subname": ""
     },
     {
-        "code": "08004",
-        "name": "Dance of Death",
-        "text": "<b>Hero Action</b>: Make the following 3 attacks in order:\n- Deal 1 damage to an enemy.\n- Deal 2 damage to an enemy.\n- Deal 3 damage to an enemy.",
-        "traits": "Attack."
+        "code": 8004,
+        "flavor": "",
+        "name": "Danza della Morte",
+        "text": "<b>Azione Eroe</b>: Effettua i 3 attacchi seguenti in quest'ordine:\n- Infliggi 1 danno a un nemico.\n- Infliggi 2 danno a un nemico.\n- Infliggi 3 danno a un nemico.",
+        "traits": "Attacco.",
+        "subname": ""
     },
     {
-        "code": "08005",
-        "flavor": "\"We should be safe here.\" -- Black Widow",
-        "name": "Safe House #29",
-        "text": "<b>Alter-Ego Action</b>: Exhaust Safe House #29 and choose a [[Preparation]] card in your discard pile → add that card to your hand.",
-        "traits": "Location. S.H.I.E.L.D."
+        "code": 8005,
+        "flavor": "\"Qui dovremmo essere al sicuro.\" -- Vedova Nera",
+        "name": "Rifugio #29",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Rifugio #29 e scegli 1 carta [[Preparativi]] nella tua pila degli scarti → aggiungi quella carta alla tua mano.",
+        "traits": "Luogo. S.H.I.E.L.D.",
+        "subname": ""
     },
     {
-        "code": "08006",
-        "name": "Attacrobatics",
-        "text": "<b>Hero Interrupt</b> <i>(attack)</i>: When a boost card is turned faceup, discard Attacrobatics → cancel the boost icons on that card. Deal 1 damage to the villain for each boost icon canceled this way.",
-        "traits": "Attack. Preparation. Skill."
+        "code": 8006,
+        "flavor": "",
+        "name": "Attaccrobazie",
+        "text": "<b>Interruzione Eroe</b> <i>(attacco)</i>: Quando una carta potenziamento viene girata a faccia in su, scarta Attaccrobazie → annulla le icone potenziamento su quella carta. Infliggi 1 danno al criminale per ogni icona potenziamento annullata in questo modo.",
+        "traits": "Abilità. Attacco. Preparativi.",
+        "subname": ""
     },
     {
-        "code": "08007",
-        "flavor": "\"Not only are they lethal, but they look good, too.\" -- Black Widow",
-        "name": "Black Widow's Gauntlet",
-        "text": "<b>Resource</b>: Exhaust Black Widow's Gauntlet → generate a [wild] resource for a [[Preparation]] card.",
-        "traits": "Tech."
+        "code": 8007,
+        "flavor": "\"Non sono solo letali, ma hanno anche un bell'aspetto.\" -- Vedova Nera",
+        "name": "Guanto di Vedova Nera",
+        "text": "<b>Risorsa</b>: Esaurisci Guanto di Vedova Nera → genera 1 [wild] per una carta [[Preparativi]].",
+        "traits": "Tecnologia.",
+        "subname": ""
     },
     {
-        "code": "08008",
-        "flavor": "\"Bozhe moi!\" -- Black Widow",
-        "name": "Grappling Hook",
-        "text": "<b>Hero Interrupt</b>: When you reveal a treachery, discard Grappling Hook → cancel the effects of that treachery and discard it.",
-        "traits": "Preparation. Tech."
+        "code": 8008,
+        "flavor": "\"Bozhe moi!\" -- Vedova Nera",
+        "name": "Rampino",
+        "text": "<b>Interruzione Eroe</b>: Quando riveli un'insidia, scarta Rampino → annulla gli effetti di quell'insidia e scartala.",
+        "traits": "Preparativi. Tecnologia.",
+        "subname": ""
     },
     {
-        "code": "08009",
-        "name": "Synth-Suit",
-        "text": "Black Widow gets +1 DEF.\n<b>Hero Response</b>: After you trigger the ability of a [[Preparation]] card you control, exhaust Synth-Suit → ready Black Widow.",
-        "traits": "Armor. Tech."
+        "code": 8009,
+        "flavor": "",
+        "name": "Tuta Sintetica",
+        "text": "Vedova nera riceve +1 DIF.\n<b>Risposta Eroe</b>: Dopo che hai innescato la capacità di una carta [[Preparativi]] che controlli, esaurisci Tuta Sintetica → ripristina Vedova Nera.",
+        "traits": "Armatura. Tecnologia.",
+        "subname": ""
     },
     {
-        "code": "08010",
-        "flavor": "\"Nighty night.\" -- Black Widow",
-        "name": "Widow's Bite",
-        "text": "<b>Hero Response</b> <i>(attack)</i>: After a minion enters play, discard Widow's Bite → deal 2 damage to that minion and stun it.",
-        "traits": "Preparation. Tech."
+        "code": 8010,
+        "flavor": "\"Sogni d'oro.\" -- Vedova Nera",
+        "name": "Morso della Vedova",
+        "text": "<b>Risposta Eroe</b> <i>(attacco)</i>: Dopo che un gregario è entrato in gioco, scarta Morso della Vedova → infliggi 2 danni a quel gregario e stordiscilo.",
+        "traits": "Preparativi. Tecnologia.",
+        "subname": ""
     },
     {
-        "code": "08011",
-        "flavor": "\"I'm a guy with a plan.\"",
-        "name": "Agent Coulson",
-        "text": "<b>Response</b>: After Agent Coulson enters play, search your deck and discard pile for a [[Preparation]] card and add it to your hand. Shuffle your deck.",
-        "traits": "S.H.I.E.L.D. Spy."
+        "code": 8011,
+        "flavor": "\"Io sono quello con un piano.\"",
+        "name": "Agente Coulson",
+        "text": "<b>Risposta</b>: Dopo che agente Coulson è entrato in gioco, cerca nel tuo mazzo e nella pila degli scarti1 carta [[Preparativi]] e aggiungila alla tua mano. Mescola il tuo mazzo.",
+        "traits": "S.H.I.E.L.D. Spia.",
+        "subname": ""
     },
     {
-        "code": "08012",
-        "flavor": "\"I will bring this building down around you!\"",
+        "code": 8012,
+        "flavor": "\"Ti farò crollare questo edificio addosso!\"",
         "name": "Quake",
-        "text": "<b>Response</b>: After a minion schemes, exhaust Quake → deal 2 damage to that minion.",
+        "text": "<b>Risposta</b>: Dopo che un gregario ha tramato, esaurisci Quake → infliggi 2 danni a quel gregario.",
         "traits": "Avenger. S.H.I.E.L.D.",
         "subname": "Daisy Johnson"
     },
     {
-        "code": "08013",
-        "flavor": "\"They'll never know what hit them.\" -- Black Widow",
-        "name": "Stealth Strike",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. If that enemy is defeated by this attack, remove 2 threat from a scheme.",
-        "traits": "Attack."
+        "code": 8013,
+        "flavor": "\"Non capiranno mai cosa gli ha colpiti.\" -- Vedova Nera",
+        "name": "Colpo Furtivo",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 4 danni a un nemico. Se quel nemico è sconfitto da questo attacco, rimuovi 2 minacce da una trama.",
+        "traits": "Attacco.",
+        "subname": ""
     },
     {
-        "code": "08017",
-        "name": "Counterintelligence",
-        "text": "Max 1 per player.\n<b>Interrupt</b>: When any amount of threat would be placed on the main scheme, discard Counterintelligence → prevent 3 of that threat.",
-        "traits": "Preparation. Skill."
+        "code": 8017,
+        "flavor": "",
+        "name": "Controspionaggio",
+        "text": "Massimo 1 per giocatore.\n<b>Interruzione</b>: Quando un qualsiasi ammontare di minacce sta per essere collocato sulla trama principale, scarta Controspionaggio → previeni 3 di quelle minacce.",
+        "traits": "Abilità. Preparativi.",
+        "subname": ""
     },
     {
-        "code": "08018",
-        "name": "Spycraft",
-        "text": "Play only if you control a [[Spy]] character.\n<b>Interrupt</b>: When you reveal an encounter card, discard Spycraft → cancel the effects of that card and discard it. Then, reveal another card from the encounter deck.",
-        "traits": "Preparation. Skill."
+        "code": 8018,
+        "flavor": "",
+        "name": "Arte dello Spionaggio",
+        "text": "Gioca solo se controlli un personaggio [[Spia]].\n<b>Interruzione</b>: Quando riveli una carta incontro, scarta Arte dello Spionaggio → annulla gli effetti di quella carta e scartala. Poi rivela 1 altra carta dal mazzo degli incontri.",
+        "traits": "Abilità. Preparativi.",
+        "subname": ""
     },
     {
-        "code": "08023",
-        "flavor": "\"Too bad we could only get one of these.\" -- Hawkeye",
+        "code": 8023,
+        "flavor": "\"Purtroppo siamo riusciti ad averne soltanto uno.\" -- Occhio di Falco",
         "name": "Quincarrier",
-        "text": "Play only if your identity has the [[Avenger]] trait.\n<b>Resource</b>: Exhaust Quincarrier → generate a [wild] resource.",
-        "traits": "Avenger. Vehicle."
+        "text": "Gioca solo se la tua identità possiede il tratto [[Avenger]].\n<b>Risorsa</b>: Esaurisci Quincarrier → genera 1 [wild].",
+        "traits": "Avenger. Veicolo.",
+        "subname": ""
     },
     {
-        "code": "08024",
-        "name": "Target Acquired",
-        "text": "Max 1 per player.\n<b>Hero Response</b>: After a boost card is turned faceup, discard Target Acquired → cancel that card's boost ability.",
-        "traits": "Preparation. Skill."
+        "code": 8024,
+        "flavor": "",
+        "name": "Bersaglio acquisito",
+        "text": "Massimo 1 per giocatore.\n<b>Risposta Eroe</b>: Dopo che una carta potenziamento è stata girata a faccia in su, scarta Bersaglio acquisito → annulla la capacità di potenziamento di quella carta.",
+        "traits": "Abilità. Preparativi.",
+        "subname": ""
     },
     {
-        "code": "08030",
-        "name": "Counterattack",
-        "text": "Max 1 per player.\n<b>Hero Response</b> <i>(attack)</i>: After you take damage from an enemy attack, discard Counterattack → deal an equal amount of damage to that enemy.",
-        "traits": "Preparation. Tactic."
+        "code": 8030,
+        "flavor": "",
+        "name": "Contrattacco",
+        "text": "Massimo 1 per giocatore.\n<b>Risposta Eroe</b> <i>(attacco)</i>: Dopo che hai subito danni da un attacco nemico, scarta Contrattacco → infliggi un pari ammontare di danni a quel nemico.",
+        "traits": "Preparativi. Tattica.",
+        "subname": ""
     },
     {
-        "code": "08031",
-        "name": "Rapid Response",
-        "text": "Max 1 per player.\n<b>Hero Response</b>: After an ally you control is defeated, discard Rapid Response → put that ally into play from your discard pile and deal 1 damage to it.",
-        "traits": "Preparation. Tactic."
+        "code": 8031,
+        "flavor": "",
+        "name": "Risposta Rapida",
+        "text": "Massimo 1 per giocatore.\n<b>Risposta Eroe</b>: Dopo che un alleato che controlli è stato sconfitto, scarta Risposta rapida → metti in gioco quell'alleato dalla tua pila degli scarti e infliggigli 1 danno.",
+        "traits": "Preparativi. Tattica.",
+        "subname": ""
     },
     {
-        "code": "08032",
-        "name": "Defensive Stance",
-        "text": "Max 1 per player.\n<b>Hero Interrupt</b>: When you would take any amount of damage, discard Defensive Stance → prevent 3 of that damage.",
-        "traits": "Preparation. Tactic."
+        "code": 8032,
+        "flavor": "",
+        "name": "Postazione Difensiva",
+        "text": "Massimo 1 per giocatore.\n<b>Interruzione Eroe</b>: Quando stai per subire un qualsiasi ammontare di danni, scarta Postazione Difensiva → previeni 3 di quei danni.",
+        "traits": "Preparativi. Tattica.",
+        "subname": ""
     },
     {
-        "code": "08033",
-        "name": "Espionage",
-        "text": "Play only if you control a [[Spy]] character.\n<b>Interrupt</b>: When the surge keyword on an encounter card would be resolved, discard Espionage → draw 2 cards.",
-        "traits": "Preparation. Skill."
+        "code": 8033,
+        "flavor": "",
+        "name": "spionaggio",
+        "text": "Gioca solo se controlli personaggi [[Spia]].\n<b>Interruzione</b>: Quando la parola chiave Impulso su una carta incontro sta per essere risolta, scarta Spionaggio → pesca 2 carte.",
+        "traits": "Abilità. Preparativi.",
+        "subname": ""
     }
 ]
