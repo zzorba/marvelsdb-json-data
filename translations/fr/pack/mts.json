@@ -1,0 +1,634 @@
+[
+	{
+		"code": "21001a",
+		"flavor": "\"Je m'appelle Monica, ou Spectrum si tu es méchant.\"",
+		"name": "Spectrum",
+		"text": "<i>Transformation Énergétique</i> - <b>Réponse forcée :</b> après être passée sous cette forme, choisissez une amélioration Forme d'Énergie face cachée -> retournez-la face visible pour passer sous cette forme d'énergie.",
+		"traits": "Aérien. Avenger."
+	},
+	{
+		"code": "21001b",
+		"name": "Monica Rambeau",
+		"text": "<b>Mise en place :</b> mettez en jeu les 3 améliorations Forme d'Énergie, face cachée.\n<i>Hors Tension</i> - <b>Réponse forcée :</b> après être passé sous cette forme, retournez toutes vos améliorations Forme d'Énergie pour qu'elles soient face cachée.",
+		"traits": "Civil."
+	},
+	{
+		"code": "21002",
+		"name": "Gamma",
+		"text": "Forme d'Énergie. Permanent.\nSpectrum gagne +2 ATQ.\n<b>Réponse de héros:</b> après être passé sous cette forme d'énergie, infligez 1 dégât à un ennemi"
+	},
+	{
+		"code": "21003",
+		"name": "Photon",
+		"text": "Forme d'Énergie. Permanent.\nSpectrum gagne +2 CTR.\n<b>Réponse de héros:</b> après être passé sous cette forme d'énergie, retirez 1 menace d'une manigance."
+	},
+	{
+		"code": "21004",
+		"name": "Pulsar",
+		"text": "Forme d'Énergie. Permanent.\nSpectrum gagne +2 DEF.\n<b>Réponse de héros:</b> après être passé sous cette forme d'énergie, soignez 1 dégât de Spectrum."
+	},
+	{
+		"code": "21005",
+		"flavor": "\"Je fais ce qui est juste quand cela doitêtre fait et je me moque de ce que les gens pensent.\"",
+		"name": "Blue Marvel",
+		"subname": "Adam Brashear",
+		"text": "<b>Réponse de héros:</b> après que Blue Marvel est entré en jeu, changez de forme d'énergie.",
+		"traits": "Aérien. Avenger."
+	},
+	{
+		"code": "21006",
+		"flavor": "\"Je peux prendre la forme du type d'énergie que je souhaite.\"-Spectrum",
+		"name": "Duplication d'Énergie",
+		"text": "<b>Ressource de héros :</b> inclinez Duplication d'Énergie -> générez la ressource imprimée sur votre amélioration Force d'Énergie qui est face visible.",
+		"traits": "Super-pouvoir."
+	},
+	{
+		"code": "21007",
+		"flavor": "\"À ta place, j'éviterais de me mettre en colère.\" - Spectrum",
+		"name": "Rayon Gamma",
+		"text": "<b>Action de héros</b> (attaque) : passez sous forme d'énergie Gamma et infligez 7 dégâts à un ennemi. Si vous êtiez déjà sous forme d'énergie Gamma, cette attaque gagne Déferlement.",
+		"traits": "Attaque. Super-pouvoir."
+	},
+	{
+		"code": "21008",
+		"flavor": "\"C'est ça que vous cherchez ?\" - Spectrum",
+		"name": "Vitesse du Photon",
+		"text": "<b>Action de héros</b> (contre) : Passez sous forme d'énergie Photon et retirez 4 menace d'une manigance. Si vous êtiez déjà sous forme d'énergie Photon, ignorez toute icône de crise pour ce contre.",
+		"traits": "Contre. Super-pouvoir."
+	},
+	{
+		"code": "21009",
+		"name": "Bouclier Pulsar",
+		"text": "<b>Interruption de héros</b> (défense) : quand Spectrum défend, passez sous forme d'énergie Pulsar et redressez Spectrum.  Si vous êtiez déjà sous forme d'énergie Pulsar, elle gagne Riposte 1 jusqu'à la fin de la phase.",
+		"traits": "Défense. Super-pouvoir."
+	},
+	{
+		"code": "21010",
+		"flavor": "\"Je serai là en un éclair.\" - Spectrum",
+		"name": "Vitesse de la Lumière",
+		"text": "<b>Action de héros :</b> changez de forme d'énergie et piochez 1 carte.",
+		"traits": "Super-pouvoir."
+	},
+	{
+		"code": "21011",
+		"name": "Captain America",
+		"flavor": "\"Avengers, rassemblement\"",
+		"subname": "Steve Rogers",
+		"text": "Ténacité.\nRéduisez de 1 le coût pour jouer Captain America pour chaque personnage [[AVENGER]] que vous contrôlez.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "21012",
+		"name": "Power Man",
+		"subname": "Victor Alvarez",
+		"text": "Power Man entre en jeu avec 2 jetons Chi sur lui.\n<b>Action</b> : retirez n'importe quel nombre de jetons Chi de Power Man -> il gagne +2 ATQ jusqu'à la fin de la phase pour chaque jeton Chi ainsi retiré.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "21013",
+		"name": "Tigre Blanc",
+		"subname": "Ava Ayala",
+		"text": "<b>Réponse </b>: après avoir joué Tigre Blanc de votre main, piochez X cartes (jusqu'à un maximum de 3), X étant égal au numéro du stade du méchant. Si le méchant n'a pas de numéro de stade, piochez 1 carte.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "21014",
+		"flavor": "\"Vous aurez besoin de mon aide pour cette quête\"",
+		"name": "Kaluu",
+		"text": "<b>Réponse </b>: après que Kaluu est entré en jeu, cherchez un événement parmi les 5 cartes du dessus de votre deck -> ajoutez cet événement à votre main. Mélangez votre deck.",
+		"traits": "Avenger. Mystique."
+	},
+	{
+		"code": "21015",
+		"name": "Puissants Avengers",
+		"text": "Jouez cette carte sous le contrôle de n'importe quel joueur. 1 carte [[ÉQUIPE]] max par joueur.\nSi chacun de vos personnages a le trait [[AVENGER]], chaque allié que vous contrôlez gagne +1 CTR et +1 ATQ.",
+		"traits": "Équipe."
+	},
+	{
+		"code": "21016",
+		"flavor": "\"Tous ensemble, maintenant !\" - Captain Marvel",
+		"name": "Attaque Massive",
+		"text": "<b>Action de héros </b>: inclinez 3 alliés que vous contrôlez qui partagent un [[TRAIT]] -> ingligez X dégâts à un ennemi, X étant la somme des ATQ de ces alliés et de votre héros.",
+		"traits": "Attaque."
+	},
+	{
+		"code": "21018",
+		"name": "Faire Front Commun",
+		"text": "Cette carte génère une ressource [wild] pour chaque allié que vous contrôlez (jusqu'à un maximum de 3)."
+	},
+	{
+		"code": "21019",
+		"flavor": "\"Combien de fois vais-je devoir t'enterrer ?\"",
+		"name": "Blade",
+		"subname": "Eric Brooks",
+		"text": "<b>Réponse forcée </b>: après que Blade a contré ou attaqué, choisissez : soit vous dépensez une ressource [physical] de votre main, soit vous défaussez Blade.",
+		"traits": "Avenger. Vampire."
+	},
+	{
+		"code": "21022",
+		"flavor": "\"Ok, qui est le prochain ?\" - Miss Marvel",
+		"name": "Prêt pour la Bagarre",
+		"text": "Jouez sous le contrôle de n'importe quel joueur.\n1 max par joueur\n<b>Réponse de héros</b>: après que vous avez changé de forme, défaussez cette carte -> redressez votre héros.",
+		"traits": "Condition."
+	},
+	{
+		"code": "21031a",
+		"name": "Adam Warlock",
+		"text": "<i>Mage de Bataille</i> - <b>Action </b>: défaussez 1 carte de votre main. Limite d'une fois par phase. Si c'est une carte :\n-Agressivité - Infligez 2 dégâts à un ennemi.\n-Justice - Retirez 2 menaces d'une manigance.\n-Protection - Soingez 1 dégât d'un allié.\n-Commandement - Donnez +1 CTR, +1 ATQ et +1 DEF à un héros pour ce round.",
+		"traits": "Gardien. Mystique."
+	},
+	{
+		"code": "21031b",
+		"name": "Adam Warlock",
+		"text": "<i>Avatar de la Vie</i> - Lors de la construction de votre deck, vous devez inclure dans votre deck un nombre égal de cartes de chacunes des 4 affinités Chaque carte ne faisant pas partie du set Adam Warlock ne peut pas être incluse en plus de 1 exemplaire.\n<b>Action </b>: défaussez une carte de votre main -> retirez une carte d'état d'Adam Warlock.",
+		"traits": "Mystique."
+	},
+	{
+		"code": "21032",
+		"name": "Pip le Troll",
+		"text": "Ténacité.\nTant que Pip le Troll est dans votre main, il gagne : \"<b>Interruption </b>: quand un joueur est attaqué, dépensez les ressources suivantes : [energy][mental] -> mettez en jeu Pip le Troll sous le contrôle de ce joueur.\"",
+		"traits": "Mystique."
+	},
+	{
+		"code": "21033",
+		"name": "Monde de l'Âme",
+		"text": "<b>Réponse</b> : Après que votre deck est tombé à court de cartes, placez 1 jeton Âme sur cette carte.\n<b>Action d'alter ego</b> : retirez 1 jeton Âme du Monde de l'Âme et inclinez-le -> soignez tous les dégâts de votre identité.",
+		"traits": "Lieu."
+	},
+	{
+		"code": "21034",
+		"flavor": "\"Personnellement, je préfère un canon laser, mais Warlock se débrouille très bien avec son bâton.\" - Rocket Raccoon",
+		"name": "Bâton Karmique",
+		"text": "<b>Ressource </b>: inclinez le Bâton Karmique -> générez une ressource [wild].",
+		"traits": "Artefact. Objet."
+	},
+	{
+		"code": "21035",
+		"flavor": "\"S'il y a bien une chose qu'on ne peut nier sur Adam, c'est qu'il porte bien la cape.\" - Star-Lord",
+		"name": "Cape de Warlock",
+		"text": "<b>Réponse de héros</b> : après que vous avez résolu la capacité \"Mage de Bataille\" d'Adam Warlock, inclinez la cape de Warlock -> redressez Adam Warlock.",
+		"traits": "Objet."
+	},
+	{
+		"code": "21036",
+		"flavor": "\"Je mets vos pouvoirs au défi d'égaler les miens !\" - Adam Warlock",
+		"name": "Protection Cosmique",
+		"text": "<b>Interruption forcée</b> : quand vous révélez une carte Traîtrise, annulez ses effets \"<b>Une fois révélée</b>\" et défaussez-la. Ensuite, défaussez Protection Cosmique.",
+		"traits": "Sort."
+	},
+	{
+		"code": "21037",
+		"flavor": "\"Les souvenirs de l'omnipotence s'estompent avec l'expérience.\" - Adam Warlock",
+		"name": "Sens Mystiques",
+		"text": "<b>Réponse de héros</b> : après que vous avez résolu la capacité \"Mage de Bataille\" d'Adam Warlock, piochez une carte.",
+		"traits": "Condition. Super-pouvoir."
+	},
+	{
+		"code": "21038",
+		"name": "Rayon Karmique",
+		"text": "<b>Action de héros</b> (attaque) : infligez 4 dégâts à un ennemi et défaussez jusqu'à 4 cartes du dessus de votre deck -> infligez 1 dégât supplémentaire à cet ennemi pour chaque affinité différente ainsi défaussée (Agressivité, Justice, Commandement, Protection).",
+		"traits": "Attaque. Super-pouvoir."
+	},
+	{
+		"code": "21039",
+		"name": "Perception Cosmique",
+		"text": "<b>Action de héros</b> (contre): retirez 3 menaces d'une manigance et défaussez jusqu'à 4 cartes du dessus du deck -> retirez 1 menace supplémentaire de cette manigance pour chaque affinité différente ainsi défaussée (Agressivité, Justice, Commandement, Protection).",
+		"traits": "Contre. Super-pouvoir."
+	},
+	{
+		"code": "21040",
+		"flavor": "\"Ils me croient mort. Et tant que cela dure, ils ne peuvent pas se préparer pour ce que je leur réserve.\" - Adam Warlock",
+		"name": "Magie Quantique",
+		"text": "<b>Action</b> : choisissez une carte dans votre pile de défausse -> ajoutez-la à votre main.",
+		"traits": "Sort."
+	},
+	{
+		"code": "21041",
+		"flavor": "\"Viens avec moi si tu veux briller.\"",
+		"name": "Marvel Boy",
+		"subname": "Noh-Var",
+		"text": "<b>Interruption</b> : quand Marvel Boy attaque, dépensez une ressource [physics] -> cette attaque gagné Perçant et À Distance.",
+		"traits": "Gardien. Kree."
+	},
+	{
+		"code": "21042",
+		"name": "L'Intermédiaire",
+		"text": "<b>Action</b> : Mélangez cette carte dans le deck rencontre (sans regarder).\n<b>Une fois révélée</b> : infligez 2 dégâts au méchant et retirez L'Intermédiaire de la partie. Cet effet ne peut pas être annulé.",
+		"traits": "Entité Cosmique."
+	},
+	{
+		"code": "21043",
+		"name": "Attaque Magique",
+		"text": "Jouez cette carte uniquement si votre identité a le trait [[MYSTIQUE]]. 1 max par deck.\n<b>Action de héros</b> (attaque) : choisissez un ennemi et défaussez jusqu'à 5 cartes du dessus de votre deck -> infligez 1 dégât à cet ennemi pour chaque carte ainsi défaussée.",
+		"traits": "Attaque. Sort."
+	},
+	{
+		"code": "21046",
+		"name": "Audace",
+		"text": "1 max par deck.\n<b>Réponse de héros</b> : après avoir dépensé cette carte, infligez 1 dégât au méchant."
+	},
+	{
+		"code": "21047",
+		"flavor": "\"Je suis le protecteur de l'univers. Ça fait partie du job.\"",
+		"name": "Quasar",
+		"subname": "Wendell Vaughn",
+		"text": "<b>Réponse</b> : après que Quasar est entré en jeu, retirez 1 menace de chaque manigance en jeu.",
+		"traits": "Aérien. Gardien."
+	},
+	{
+		"code": "21048",
+		"name": "Le Tribunal Vivant",
+		"text": "<b>Action</b> : mélangez cette carte dans le deck Rencontre (sans regarder).\n<b>Une vois révélée</b> : Retirez 2 menaces de la manigance principale et retirez Le Tribunal Vivant de la partie. Cet effet ne peut pas être annulé.",
+		"traits": "Entité Cosmique."
+	},
+	
+	{
+		"code": "21050",
+		"name": "Zone de Silence",
+		"text": "Jouez cette carte uniquement si votre identité a le trait [[MYSTIQUE]]. 1 max par deck.\n<b>Action de héros</b> (contre) : choisissez une manigance et défaussez jusqu'à 4 cartes du dessus de votre deck -> retirez 1 menace de cette manigance pour chaque carte ainsi défaussée.",
+		"traits": "Sort. Contre."
+	},
+	{
+		"code": "21052",
+		"name": "Détermination",
+		"text": "1 amx par deck.\n<b>Réponse de héros</b> : après avoir dépensé cette carte, retirez 1 menace de la manigance principale."
+	},
+	{
+		"code": "21053",
+		"flavor": "\"Ce bouclier appartenait à un grand homme qui est mort pour protéger autrui. Je suis prêt à suivre la même voie si besoin.\"",
+		"name": "Major Victory",
+		"subname": "Vance Astro",
+		"text": "<b>Interruption</b> : quand Major Victory est vaincu, choisissez un personnage [[GARDIEN]] ami -> redressez le personnage choisi.",
+		"traits": "Gardien."
+	},
+	{
+		"code": "21054",
+		"name": "Éternité",
+		"text": "<b>Action</b> : mélangez cette carte dans le deck Rencontre (sans regarder).\n<b>Une fois révélée</b> : piochez 1 carte et retirez Éternité de la partie. Cet effet ne peut pas être annulé.",
+		"traits": "Entité Cosmique."
+	},
+	{
+		"code": "21055",
+		"name": "Sort d'Invocation",
+		"text": "Jouez cette carte uniquement si votre identité a le trait [[MYSTIQUE]]. 1 max par deck.\n<b>Action de héros</b> : défaussez des cartes du dessus de votre deck jusqu'à ce que vous défaussiez un allié -> mettez en jeu cet allié sous votre contrôle.",
+		"traits": "Sort."
+	},
+	{
+		"code": "21058",
+		"name": "Innovation",
+		"text": "1 max par deck.\n<b>Réponse de héros</b> : après avoir dépensé cette carte, soignez 1 dégât d'un allié que vous contrôlez.",
+		"type_code": "resource"
+	},
+	{
+		"code": "21059",
+		"name": "Charlie-27",
+		"text": "Riposte 1. Ténacité.",
+		"traits": "Gardien."
+	},
+	{
+		"code": "21060",
+		"name": "Le Jardinier",
+		"text": "<b>Action</b> : mélangez cette carte dans le deck Rencontre (sans regarder).\n<b>Une vois révélée</b> : soignez 2 dégâts de votre identité et retirez Le Jardinier de la partie. Cet effet ne peut pas être annulé.",
+		"traits": "Entité Cosmique."
+	},
+	{
+		"code": "21061",
+		"name": "Sort de Bouclier",
+		"text": "Jouez cette carte uniquement si votre identité a le trait [[MYSTIQUE]]. 1 max par deck.\n<b>Interruption de héros</b> (défense) : quand vous ête censé subir n'importe quelle quantité de dégâts d'un attaque, défaussez autant de cartes du dessus de votre deck -> prévenez tous les dégâts de cette attaque.",
+		"traits": "Défense. Sort."
+	},
+	{
+		"code": "21064",
+		"name": "Préservation",
+		"text": "1 max par deck.\n<b>Réponse de héros</b> : après avoir dépensé cette carte, soignez 1 dégât de votre héros."
+	},
+	{
+		"code": "21065",
+		"flavor": "\"J'ai quelques appréhensions concernant cette réalité.\"",
+		"name": "Martinex",
+		"subname": "T'Naga",
+		"text": "Réduisez de 1 le coût pour jouer Martinex si votre identité a le trait [[GARDIEN]].",
+		"traits": "Gardien."
+	},
+	{
+		"back_link": "21180b",
+		"base_threat": 2,
+		"base_threat_fixed": true,
+		"code": "21180a",
+		"double_sided": true,
+		"faction_code": "campaign",
+		"name": "Secure the Landing Pad",
+		"octgn_id": "075dd8d0-7264-4c11-8540-f5c5f22ebeb3",
+		"pack_code": "mts",
+		"position": 180,
+		"quantity": 1,
+		"set_code": "mts_campaign",
+		"set_position": 1,
+		"type_code": "side_scheme"
+	},
+	{
+		"attack": 2,
+		"code": "21180b",
+		"double_sided": true,
+		"faction_code": "campaign",
+		"health": 3,
+		"is_unique": true,
+		"name": "Cosmo",
+		"octgn_id": "075dd8d0-7264-4c11-8540-f5c5f22ebeb3",
+		"pack_code": "mts",
+		"position": 180,
+		"quantity": 1,
+		"set_code": "mts_campaign",
+		"set_position": 1,
+		"thwart": 2,
+		"traits": "Guardian.",
+		"type_code": "ally"
+	},
+	{
+		"base_threat": 2,
+		"base_threat_fixed": true,
+		"boost": 2,
+		"code": "21181",
+		"faction_code": "campaign",
+		"name": "Security Breach",
+		"octgn_id": "a8836673-9e0b-405f-b15f-49511e879809",
+		"pack_code": "mts",
+		"position": 181,
+		"quantity": 1,
+		"scheme_boost": 1,
+		"set_code": "mts_campaign",
+		"set_position": 2,
+		"type_code": "side_scheme"
+	},
+	{
+		"back_link": "21182b",
+		"base_threat": 2,
+		"base_threat_fixed": true,
+		"code": "21182a",
+		"double_sided": true,
+		"faction_code": "campaign",
+		"name": "Save the Shawarma Place",
+		"octgn_id": "784b24f8-ab69-446f-a709-33ea06645ebf",
+		"pack_code": "mts",
+		"position": 182,
+		"quantity": 1,
+		"set_code": "mts_campaign",
+		"set_position": 3,
+		"type_code": "side_scheme"
+	},
+	{
+		"attack": 2,
+		"code": "21182b",
+		"double_sided": true,
+		"faction_code": "campaign",
+		"health": 4,
+		"health_per_hero": true,
+		"is_unique": true,
+		"name": "Black Swan",
+		"octgn_id": "784b24f8-ab69-446f-a709-33ea06645ebf",
+		"pack_code": "mts",
+		"position": 182,
+		"quantity": 1,
+		"scheme": 2,
+		"set_code": "mts_campaign",
+		"set_position": 3,
+		"traits": "Black Order. Elite.",
+		"type_code": "minion"
+	},
+	{
+		"code": "21183",
+		"faction_code": "campaign",
+		"name": "Shawarma",
+		"octgn_id": "c9fe2c83-ea8b-479d-a5b2-da837f497576",
+		"pack_code": "mts",
+		"position": 183,
+		"quantity": 4,
+		"resource_energy": 1,
+		"resource_mental": 1,
+		"resource_physical": 1,
+		"set_code": "mts_campaign",
+		"set_position": 4,
+		"type_code": "resource"
+	},
+	{
+		"back_link": "21184b",
+		"base_threat": 2,
+		"base_threat_fixed": true,
+		"code": "21184a",
+		"double_sided": true,
+		"faction_code": "campaign",
+		"name": "Hack Sanctuary's Computer",
+		"octgn_id": "714fb29e-5753-47e5-bf53-c0df1ef10957",
+		"pack_code": "mts",
+		"position": 184,
+		"quantity": 1,
+		"scheme_crisis": 1,
+		"set_code": "mts_campaign",
+		"set_position": 8,
+		"type_code": "side_scheme"
+	},
+	{
+		"base_threat": 2,
+		"base_threat_fixed": true,
+		"code": "21184b",
+		"double_sided": true,
+		"faction_code": "campaign",
+		"name": "Defensive Protocols",
+		"octgn_id": "714fb29e-5753-47e5-bf53-c0df1ef10957",
+		"pack_code": "mts",
+		"position": 184,
+		"quantity": 1,
+		"set_code": "mts_campaign",
+		"set_position": 8,
+		"type_code": "side_scheme"
+	},
+	{
+		"code": "21185",
+		"faction_code": "campaign",
+		"name": "System Shock",
+		"octgn_id": "29211890-776b-4af4-adbd-bc10acd45762",
+		"pack_code": "mts",
+		"position": 185,
+		"quantity": 4,
+		"set_code": "mts_campaign",
+		"set_position": 9,
+		"type_code": "obligation"
+	},
+	{
+		"back_link": "21186b",
+		"base_threat": 3,
+		"code": "21186a",
+		"double_sided": true,
+		"faction_code": "campaign",
+		"name": "Find the Norn Stones",
+		"octgn_id": "3fc97389-95a5-4dcc-ab8f-3aa95497ed21",
+		"pack_code": "mts",
+		"position": 186,
+		"quantity": 1,
+		"scheme_acceleration": 1,
+		"set_code": "mts_campaign",
+		"set_position": 13,
+		"type_code": "side_scheme"
+	},
+	{
+		"base_threat": 2,
+		"base_threat_fixed": true,
+		"code": "21186b",
+		"double_sided": true,
+		"faction_code": "campaign",
+		"name": "Retrieve Odin's Armor",
+		"octgn_id": "3fc97389-95a5-4dcc-ab8f-3aa95497ed21",
+		"pack_code": "mts",
+		"position": 186,
+		"quantity": 1,
+		"set_code": "mts_campaign",
+		"set_position": 13,
+		"type_code": "side_scheme"
+	},
+	{
+		"back_link": "21187b",
+		"code": "21187a",
+		"double_sided": true,
+		"faction_code": "campaign",
+		"name": "Norn Stone",
+		"octgn_id": "0084b4da-a938-4abd-9d2f-b91ed84f95e6",
+		"pack_code": "mts",
+		"position": 187,
+		"quantity": 4,
+		"set_code": "mts_campaign",
+		"set_position": 14,
+		"traits": "Asgard. Artifact.",
+		"type_code": "upgrade"
+	},
+	{
+		"code": "21187b",
+		"double_sided": true,
+		"faction_code": "campaign",
+		"name": "Norn Stone",
+		"octgn_id": "0084b4da-a938-4abd-9d2f-b91ed84f95e6",
+		"pack_code": "mts",
+		"position": 187,
+		"quantity": 4,
+		"set_code": "mts_campaign",
+		"set_position": 14,
+		"traits": "Asgard. Artifact.",
+		"type_code": "upgrade"
+	},
+	{
+		"boost": 3,
+		"code": "21188",
+		"faction_code": "campaign",
+		"name": "Summoned Back",
+		"octgn_id": "987e00ab-a948-47e5-99d6-1530de2b1f77",
+		"pack_code": "mts",
+		"position": 188,
+		"quantity": 1,
+		"set_code": "mts_campaign",
+		"set_position": 18,
+		"type_code": "treachery"
+	},
+	{
+		"back_link": "21189b",
+		"base_threat": 3,
+		"code": "21189a",
+		"double_sided": true,
+		"faction_code": "campaign",
+		"name": "Open the Dungeons",
+		"octgn_id": "a146df6c-ad1e-47e4-be61-d3afe281e6a5",
+		"pack_code": "mts",
+		"position": 189,
+		"quantity": 1,
+		"scheme_boost": 1,
+		"set_code": "mts_campaign",
+		"set_position": 19,
+		"type_code": "side_scheme"
+	},
+	{
+		"code": "21189b",
+		"double_sided": true,
+		"faction_code": "campaign",
+		"is_unique": true,
+		"name": "Jormungand",
+		"octgn_id": "a146df6c-ad1e-47e4-be61-d3afe281e6a5",
+		"pack_code": "mts",
+		"position": 189,
+		"quantity": 1,
+		"scheme_acceleration": 1,
+		"set_code": "mts_campaign",
+		"set_position": 19,
+		"traits": "Dragon.",
+		"type_code": "attachment"
+	},
+	{
+		"attack": 2,
+		"code": "21190",
+		"faction_code": "campaign",
+		"health": 3,
+		"is_unique": true,
+		"name": "Lady Sif",
+		"octgn_id": "fe77df83-8a7b-4276-a731-a0a86432cdd9",
+		"pack_code": "mts",
+		"position": 190,
+		"quantity": 1,
+		"resource_wild": 1,
+		"set_code": "mts_campaign",
+		"set_position": 20,
+		"thwart": 2,
+		"traits": "Asgard. Captive.",
+		"type_code": "ally"
+	},
+	{
+		"attack": 1,
+		"code": "21191",
+		"faction_code": "campaign",
+		"health": 3,
+		"is_unique": true,
+		"name": "Fandral",
+		"octgn_id": "5dc03f9b-b1d3-49a6-9f00-7ea867084676",
+		"pack_code": "mts",
+		"position": 191,
+		"quantity": 1,
+		"resource_wild": 1,
+		"set_code": "mts_campaign",
+		"set_position": 21,
+		"thwart": 3,
+		"traits": "Asgard. Captive.",
+		"type_code": "ally"
+	},
+	{
+		"attack": 3,
+		"code": "21192",
+		"faction_code": "campaign",
+		"health": 3,
+		"is_unique": true,
+		"name": "Hogun",
+		"octgn_id": "8b9a9fd3-e243-4443-969f-eb5769874bb5",
+		"pack_code": "mts",
+		"position": 192,
+		"quantity": 1,
+		"resource_wild": 1,
+		"set_code": "mts_campaign",
+		"set_position": 22,
+		"thwart": 1,
+		"traits": "Asgard. Captive.",
+		"type_code": "ally"
+	},
+	{
+		"attack": 1,
+		"code": "21193",
+		"faction_code": "campaign",
+		"health": 5,
+		"is_unique": true,
+		"name": "Volstagg",
+		"octgn_id": "c66be24b-5558-45b2-9c9a-f0cfc883dcd4",
+		"pack_code": "mts",
+		"position": 193,
+		"quantity": 1,
+		"resource_wild": 1,
+		"set_code": "mts_campaign",
+		"set_position": 23,
+		"thwart": 1,
+		"traits": "Asgard. Captive.",
+		"type_code": "ally"
+	}
+]
