@@ -241,5 +241,238 @@
         "name": "Botas impulsoras",
         "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[Guardián]]. Máximo de 1 por jugador.\n<b>Interrupción de Héroe:</b> cuando vayas a sufrir cualquier cantidad de Daño a consecuencia de un ataque, agota las Botas impulsoras y descarta la primera carta de la parte superior de tu mazo → evita 1 de ese Daño.",
         "traits": "Armadura. Tecnología."
+    },
+    {
+        "code": "16150",
+        "name": "Compartir ideas",
+        "text": "Coste en créditos: 1.\n<b>Acción de Héroe</b> <i>(intervención)</i>: nombre un tipo de carta y luego mira la primera carta de tu mazo. Si esa carta es del tipo que has nombrado, quita 3 de Amenaza del Plan principal. Coloca esa carta en la parte superior o inferior de tu mazo y luego roba 1 carta.",
+        "traits": "Intervención."
+    },
+    {
+        "code": "16151",
+        "name": "Por cualquier medio",
+        "text": "Coste en créditos: 1.\n<b>Acción de Héroes</b> <i>(ataque)</i>: coloca 2 de Amenaza sobre el Plan principal. Inflige 3 de Daño al Villano. Roba 1 carta.",
+        "traits": "Ataque."
+    },
+    {
+        "code": "16152",
+        "name": "Plan de contingencia",
+        "text": "Coste en créditos: 1.\n<b>Acción de Héroe</b> <i>(ataque)</i>: descarta las 4 primeras cartas de tu mazo. Por cada tipo de recurso distinto que hayas descartado de este modo, inflige 1 de Daño a un enemigo. Roba 1 carta.",
+        "traits": "Ataque."
+    },
+    {
+        "code": "16153",
+        "name": "Actitud desafiante",
+        "text": "Coste en créditos: 1.\n<b>Interrupción de Héroes:</b> cuando un Superhéroe vaya a sufrir cualquier cantidad de Daño a consecuencia de un ataque, evita 2 de ese Daño. Roba 1 carta."
+    },
+    {
+        "code": "16154",
+        "name": "Cálculo de probabilidades",
+        "text": "Coste en créditos: 2.\n<b>Acción de Héroe:</b> roba 1 carta y elige un jugador. Ese jugador puede robar 1 carta, luego elige y descarta 1 carta de su mano."
+    },
+    {
+        "code": "16155",
+        "name": "Solución creativa",
+        "text": "Coste en créditos: 2.\n<b>Acción de Héroe:</b> roba 1 carta y quítale una carta de Estado a cualquier personaje. Si la carta de Estado que se ha quitado de este modo es:\n- Duro - Inflige 3 de Daño a un enemigo.\n- Aturdido - Quita 3 de Amenaza de un Plan.\n- Confundido - Cura 3 de Daño a un Superhéroe."
+    },
+    {
+        "code": "16156",
+        "name": "Forcejeo",
+        "text": "Coste en créditos: 2.\n<b>Acción de Héroe:</b> inflige 1 de Daño a un enemigo y atúrdelo. Aturde a tu Héroe. Roba 1 carta."
+    },
+    {
+        "code": "16157",
+        "name": "Improvisar sobre la marcha",
+        "text": "Coste en créditos: 2.\n<b>Acción de Héroe:</b> inflige 1 de Daño a un enemigo y confúndelo. Confunde a tu Héroe. Roba 1 carta."
+    },
+    {
+        "code": "16158",
+        "name": "Por poco",
+        "text": "Coste en créditos: 3.\n<b>Interrupción de Héroe:</b> cuando se ponga boca arriba una carta de aumento, anula su capacidad de <b>\"Aumento\"</b> y todos sus iconos de Aumento ([boost]), luego descártala. Roba 1 carta."
+    },
+    {
+        "code": "16159",
+        "name": "Afrontar el peligro",
+        "text": "Coste en créditos: 3.\n<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 5 de Daño a un enemigo y descarta la primera carta del mazo de Encuentros. Sufres 1 de Daño por cada icono de Aumento ([boost]) que se haya descartado de este modo.",
+        "traits": "Ataque."
+    },
+    {
+        "code": "16160",
+        "name": "Vidas en peligro",
+        "text": "Coste en créditos: 3.\n<b>Acción de Héroe</b> <i>(intervención)</i>: sufres 2 de Daño. Quita 5 de Amenaza de un Plan.",
+        "traits": "Thwart."
+    },
+    {
+        "code": "16161",
+        "name": "Pasar la ofensiva",
+        "text": "Coste en créditos: 3.\n<b>Acción de Héroe:</b> mira las 2[per_player] primeras cartas del mazo de Encuentros. Descarta cualquier cantidad de esas cartas, luego coloca el resto en la parte superior o inferior del mazo de Encuentros, en cualquier combinación y orden que prefieras. Roba 1 carta."
+    },
+    {
+        "code": "16162",
+        "name": "Blindaje",
+        "text": "Coste en créditos: 4.\n<b>Interrupción de Héroe:</b> cuando un Superhéroe vaya a sufrir cualquier cantidad de Daño, agota el Blindaje → evita 1 de ese Daño (2 de ese Daño si controlas la Milano).",
+        "traits": "Armadura. Modificación de la Milano."
+    },
+    {
+        "code": "16163",
+        "name": "Cañón pesado",
+        "text": "Coste en créditos: 4.\n<b>Acción de Héroe:</b> agota el Cañón pesado → inflige 1 de Daño a todos los enemigos. Si controlas la Milano, inflige 1 de Daño adicional al Villano.",
+        "traits": "Modificación de la Milano. Arma."
+    },
+    {
+        "code": "16164",
+        "name": "Hiperpropulsores",
+        "text": "Coste en créditos: 4.\n<b>Acción de Héroe:</b> agota los Hiperpropulsores → quita 1 de Amenaza de cada Plan. Si controlas la Milano, quita 1 de Amenaza adicional del Plan principal.",
+        "traits": "Modificación de la Milano. Tecnología."
+    },
+    {
+        "code": "16165",
+        "name": "Núcleo del reactor",
+        "text": "Coste en créditos: 4\n<b>Acción de Héroe:</b> agota el Núcleo del reacto y descarta las 2 primeras cartas de tu mazo (sólo la primera carta si controlas la Milano) → reduce en 1 el coste en recursos del próximo Evento que juegues en este turno.",
+        "traits": "Modificación de la Milano. Tecnología."
+    },
+    {
+        "code": "16166",
+        "name": "Feroz determinación",
+        "text": "Coste en créditos: 5.\n<b>Acción de Héroe:</b> prepara un personaje amigo. Roba 1 carta."
+    },
+    {
+        "code": "16167",
+        "name": "Carga impetuosa",
+        "text": "Coste en créditos: 5.\n<b>Interrupción de Héroe:</b> cuando se muestre una carta del mazo de Encuentros, anula sus efectos y descártala."
+    },
+    {
+        "code": "16168",
+        "name": "Resguardo",
+        "text": "Coste en créditos: 5.\n<b>Acción de Héroe:</b> dale una carta de Estado \"Duro\" a un máximo de 2 personajes amigos. Roba 1 carta."
+    },
+    {
+        "code": "16169",
+        "name": "Apuesta segura",
+        "text": "Coste en créditos: 5.\n<b>Acción de Héroe:</b> reduce en 3 el coste en recursos de la próxima carta que se juegue en esta fase."
+    },
+    {
+        "code": "16170",
+        "name": "Bodega de carga",
+        "text": "Coste en créditos: 6.\n<b>Acción de Héroe:</b> agota la Bodega de carga → cura 1 de Daño a un personaje amigo. Si controlas la Milano, cura 1 de Daño a tu Superhéroe.",
+        "traits": "Lugar. Modificación de la Milano."
+    },
+    {
+        "code": "16171",
+        "name": "Láser fijo",
+        "text": "Coste en créditos: 6.\n<b>Acción de Héroe:</b> agota el Láser fijo → inflige 2 de Daño a un enemigo (3 de Daño si controlas la Milano).",
+        "traits": "Modificación de la Milano. Arma."
+    },
+    {
+        "code": "16172",
+        "name": "Consola de navegación",
+        "text": "Coste en créditos: 6.\n<b>Acción de Héroe:</b> agota la Consola de navegación, elige 1 carta de tu mano y descártala (descarta en su lugar la primera carta de tu mazo si controlas la Milano) → roba 1 carta.",
+        "traits": "Modificación de la Milano. Tecnología."
+    },
+    {
+        "code": "16173",
+        "name": "Pantalla de selección de blancos",
+        "text": "Coste en créditos: 6.\n<b>Acción de Héroe:</b> agota la Pantalla de selección de blancos → quita 2 de Amenaza de un Plan (3 de Amenaza si controlas la Milano).",
+        "traits": "Modificación de la Milano. Tecnología."
+    },
+    {
+        "code": "16174",
+        "name": "Gran estrategia",
+        "text": "Coste en créditos: 7.\n<b>Acción de Héroe:</b> roba cartas hasta alcanzar el tamaño máximo de tu mano. Retira esta carta del juego."
+    },
+    {
+        "code": "16175",
+        "name": "Poder desatado",
+        "text": "Coste en créditos: 7.\n<b>Acción de Héroe:</b> inflige 5 de Daño al Villano y quita 5 de Amenaza del Plan principal. Retira esta carta del juego."
+    },
+    {
+        "code": "16176",
+        "name": "Eficacia probada",
+        "text": "Coste en créditos: 7.\n<b>Acción de Héroe:</b> elige un jugador. Ese jugador puede añadir a su mano hasta 3 cartas de su pila de descartes. Retira esta carta del juego."
+    },
+    {
+        "code": "16177",
+        "name": "Triple ventaja",
+        "text": "Coste en créditos: 7.\n<b>Acción de Héroe:</b> prepara un máximo de 3 personajes. Retira esta carta del juego."
+    },
+    {
+        "code": "16178a",
+        "name": "Incursión badoon",
+        "text": "<b>Sólo en modo Normal.</b>\nComplicación 3[per_player]. Victoria 1.\n<b>Cuando se derrote esta carta:<b> cada jugador puede robar 1 carta."
+    },
+    {
+        "code": "16178b",
+        "name": "Incursión badoon",
+        "text": "<b>Sólo en modo Experto.</b>\nComplicación 4[per_player]. Victoria 1.\n<b>Cuando se derrote esta carta:</b> cada jugador debe elegir 1 carta de su mana y descartarla."
+    },
+    {
+        "code": "16179a",
+        "name": "Galería del Esplendor",
+        "text": "<b>Sólo en modo Normal.</b>\nComplicación 3[per_player]. Victoria 1.\n<b>Cuando se derrote esta carta:</b> coge la primera carta del mazo de cada jugador y colócala boca arriba en la Colección."
+    },
+    {
+        "code": "16179b",
+        "name": "Galería del Esplendor",
+        "text": "<b>Sólo en modo Experto.</b>\nComplicación 4[per_player]. Victoria 1.\n<b>Cuando se derrote esta carta:</b> cada jugador debe coger 1 carta de su mano al azar y colocarla boca arriba en la Colección."
+    },
+    {
+        "code": "16180a",
+        "name": "\"No hay escapatoria\"",
+        "text": "<b>Sólo en modo Normal.</b>\nComplicación 3[per_player]. Victoria 1.\n<b>Cuando se derrote esta carta:</b> inflige 1 de Daño a cada jugador."
+    },
+    {
+        "code": "16180b",
+        "name": "\"No hay escapatoria\"",
+        "text": "<b>Sólo en modo Experto.</b>\nComplicación 4[per_player]. Victoria 1.\n<b>Cuando se derrote esta carta:</b> inflige 2 de Daño a cada jugador."
+    },
+    {
+        "code": "16181a",
+        "name": "Tácticas de guerrilla",
+        "text": "<b>Sólo en modo Normal.</b>\nComplicación 3[per_player]. Victoria 1.\n<b>Cuando se derrote esta carta:</b> coloca 2 contadores de Evasión sobre la Nave de Nébula."
+    },
+    {
+        "code": "16181b",
+        "name": "Tácticas de guerrilla",
+        "text": "<b>Sólo en modo Experto.</b>\nComplicación 4[per_player]. Victoria 1.\n<b>Cuando se derrote esta carta:</b> coloca 3 contadores de Evasión sobre la Nave de Nébula."
+    },
+    {
+        "code": "16182a",
+        "name": "Supremacía kree",
+        "text": "<b>Sólo en modo Normal.</b>\nComplicación 3[per_player]. Victoria 1."
+    },
+    {
+        "code": "16182b",
+        "name": "Supremacía kree",
+        "text": "<b>Sólo en modo Experto.</b>\nComplicación 4[per_player]. Victoria 1."
+    },
+    {
+        "code": "16183",
+        "name": "Cazador de cabezas badoon",
+        "text": "Victoria 2. Infame.",
+        "traits": "Badoon.",
+        "boost_text": "Pon en juego al Cazador de cabezas badoon enfrentado a ti."
+    },
+    {
+        "code": "16184",
+        "name": "De cacería",
+        "text": "Oleada.\n<b>Cuando se muestre esta carta:</b> elige entre sufrir 2 de Daño o bien descartar 1 carta de tu mano al azar.",
+        "boost_text": "Dale al Villano 1 carta de aumento adicional para esta activación."
+    },
+    {
+        "code": "16185",
+        "name": "Culpable de un delito",
+        "text": "Oleada.\n<b>Cuando se muestre esta carta:</b> agota tu carta de Superhéroe. Si no puedes hacerlo, coloca 2 de Amenaza sobre el Plan principal.",
+        "boost_text": "Dale al Villano 1 carta de aumento adicional para esta activación."
+    },
+    {
+        "code": "16186",
+        "name": "Secuaz de cazador de cabezas",
+        "text": "Oleada. Patrullas.",
+        "traits": "Badoon."
+    },
+    {
+        "code": "16187",
+        "name": "Captura de fugitivos",
+        "text": "Oleada. Complicación 3[per_player]."
     }
 ]
