@@ -2,159 +2,161 @@
     {
         "code": "17001a",
         "name": "Star-Lord",
-        "text": "Each ally you control gains the [[guardian]] trait.\n\"What could go wrong?\" — <b>Interrupt:</b> When you play a card from your hand, deal yourself 1 facedown encounter card → reduce the cost to play that card by 3. (Limit once per round.)",
-        "traits": "Guardian."
+        "text": "Ogni alleato che controlli ottiene il tratto [[guardiano]].\n<i>\"Cosa può andare storto?\"</i> — <b>Interruzione:</b>Quando giochi una carta dalla tua mano, distribuisci una carta incontro a faccia in giù a te stesso → riduci di 3 il costo in risorse per giocare quella carta. (Limite di una volta per round.)",
+        "traits": "Guardiano."
     },
     {
         "code": "17001b",
         "name": "Peter Quill",
-        "text": "<b>Setup:</b> Search your deck and discard pile for a copy of the Element Gun upgrade and add it to your hand.\nSmooth Talker — <b>Action:</b> Choose a card in your hand. Swap that card with the top card of your deck. (Limit once per round.)",
-        "traits": "Outlaw."
+        "text": "<b>Preparazione:</b> Cerca nel tuo mazzo e nella tua pila degli scarti 1 miglioria Pistola Elementale e aggiungila alla tua mano. mescola il tuo mazzo.\n<i>Lingua Sciolta</i> — <b>Azione:</b> Scegli 1 carta nella tua mano. Scambia quella carta con la carta in cima al tuo mazzo. (Limite di una volta per round.)",
+        "traits": "Fuorilegge."
     },
     {
         "code": "17002",
-        "flavor": "\"This is for Nova Corps!\" - Nova Prime",
         "name": "Nova Prime",
-        "text": "<b>Response:</b> After you play Nova Prime from your hand, defeat a non-[[elite]] minion.",
-        "traits": "Aerial. Nova Corps.",
+        "text": "<b>Risposta:</b> Dopo che hai giocato Nova Prime dalla tua mano, sconfiggi un gregario non-[[elite]].",
+        "traits": "Aereo. Nova Corps.",
+        "flavor": "\"Questo è per la Nova Corps!\" - Nova Prime",
         "subname": "Richard Rider"
     },
     {
         "code": "17003",
-        "flavor": "\"Okay, not to brag, but that was probably the bravest thing that anyone one of us has ever done.\" - Star-lord",
-        "name": "Daring Escape",
-        "text": "<b>Hero Action</b> Deal yourself 1 facedown encounter card → ready your hero and draw 1 card."
+        "name": "Fuga Mirabolante",
+        "text": "<b>Azione Eroe:</b> Distribuisci 1 carta incontro a faccia in giù a te stesso → ripristina il tuo eroe e pesca 1 carta.",
+        "flavor": "\"Bene, non per vantarmi, ma questa forse è stata la cosa più coraggiosa che chiunque di noi abbia mai fatto\" - Star-lord"
     },
     {
         "code": "17004",
-        "name": "Gutsy Move",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from a scheme. Remove 2 additional threat from that scheme for each facedown encounter card in front of you.",
-        "traits": "Thwart."
+        "name": "Mossa Temeraria",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 2 minacce da una trama. Rimuovi 2 minacce aggiuntive da quella trama per ogni carta incontro a faccia in giù davanti a te.",
+        "traits": "Intervento."
     },
     {
         "code": "17005",
-        "name": "Sliding Shot",
-        "text": "Play only if you control an Element Gun.\n<b>Hero Action</b> <i>(attack)</i>: Deal 5 damage to an enemy. Deal 2 additional damage to that enemy for each facedown encounter card in front of you.",
-        "traits": "Attack."
+        "name": "Sparo in Scivolata",
+        "text": "Gioca solo se controlli migliorie Pistola Elementale.\n<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 5 danni a un nemico. Infliggi 2 danni aggiuntivi a quel nemico per ogni carta incontro a faccia in giù davanti a te.",
+        "traits": "Attacco."
     },
     {
         "code": "17006",
-        "flavor": "\"Ridin' in style!\" - Peter Quill",
         "name": "Bad Boy",
-        "text": "<b>Hero Interrupt</b> When you would take any amount of damage from the villain's attack, discard this card → prevent all of that damage. Change to alter-ego form and draw 2 cards.",
-        "traits": "Vehicle."
+        "text": "<b>Interruzione Eroe: </b> Quando stai per subire un qualsiasi ammontare di danni dall'attacco del criminale, scarta questa carta → previeni tutti quei danni. Assumi la sembianza di alter ego e pesca 2 carte.",
+        "traits": "Veicolo.",
+        "flavor": "\"Questo è guidare con stile!\" - Peter Quill"
     },
     {
         "code": "17007",
-        "name": "Element Gun",
-        "text": "Restricted.\n<b>Hero Action</b> <i>(attack)</i>: Exhaust Element Gun and spend 1 resource of any type → deal 3 damage to an enemy. This attack gains piercing.",
-        "traits": "Tech. Weapon."
+        "name": "Pistola Elementale",
+        "text": "Restrizione. <i>(Massimo 2 carte con Restrizione per ogni giocatore.)</i>\n<b>Azione Eroe</b> <i>(attacco)</i>: Esaurisci Pistola Elementale e spendi 1 risorsa di qualsiasi tipo → infliggi 3 danni a un nemico. Questo attacco ottiene Perforante.",
+        "traits": "Arma. Tecnologia."
     },
     {
         "code": "17008",
-        "name": "Jet Boots",
-        "text": "Star-Lord gains the [[aerial]] trait.\n<b>Hero Interrupt</b>: When Star-Lord would take any amount of damage, exhaust Jet Boots → prevent 1 of that damage for each facedown encounter card in front of you.",
-        "traits": "Item. Tech."
+        "name": "Stivali a Reazione",
+        "text": "Star-Lord ottiene il tratto [[aereo]].\n<b>Interruzione Eroe</b>: quando Star-Lord sta per subire un qualsiasi ammontare di danni, esaurisci Stivali a reazione → previeni 1 di quei danni per ogni carta incontro a faccia in giù davanti a te.",
+        "traits": "Oggetto. Tecnologia."
     },
     {
         "code": "17009",
-        "flavor": "\"I know we all hate each other and we all tried to kill one another. But from now on, and until the job is done, we're Guardians.\" - Peter Quill",
-        "name": "Leader of the Guardians",
-        "text": "Each [[guardian]] character you control gets +1 THW.",
-        "traits": "Title."
+        "name": "Capo dei Guardiani",
+        "text": "Ogni personaggio [[guardiano]] che controlli riceve +1 INT.",
+        "traits": "Titolo.",
+        "flavor": "\"Lo so che ci odiamo a vicenda e che abbiamo tutti cercato di ucciderci a vicenda. Ma da adesso in poi, fino a missione compiuta, noi siamo guardiani.\" - Peter Quill"
     },
     {
         "code": "17010",
-        "flavor": "\"You can't see that I'm judging you, but I'm judging you.\" - Star-Lord",
-        "name": "Star-Lord's Helmet",
-        "text": "While you are in hero form, you get +1 hand size for each facedown encounter card in front of you (to a maximum of +3 hand size)",
-        "traits": "Armor. Tech."
+        "name": "Elmo di Star-Lord",
+        "text": "Mentre sei nella sembianza di eroe, ricevi +1 limite di mano per ogni carta incontro a faccia in giù davanti a te (fino a un massimo di +3 limite di mano).",
+        "traits": "Armatura. Tecnologia.",
+        "flavor": "\"Tu non vedi che ti sto giudicando, ma ti sto giudicando.\" - Star-Lord"
     },
     {
         "code": "17011",
         "name": "Adam Warlock",
-        "text": "<b>Response:</b> After Adam Warlock attacks or thwarts, discard 1 card at random from your hand. If that card's printed resource has:\n[physical] - Remove 3 threat from a scheme.\n[energy] - Heal 3 damage from an identity\n[mental] - Deal 3 damage to an enemy\n[wild] - Choose one of the above.",
-        "traits": "Aerial. Mystic."
+        "text": "<b>Risposta:</b> Dopo che Adam Warlock ha attaccato o è intervenuto, scarta una carta casuale dalla tua mano. Se quella carta possiede come risorse stampate:\n[physical] - Rimuovi 3 minacce da una trama.\n[energy] - Cura 3 danni a un'identità.\n[mental] - Infliggi 3 danni a un nemico.\n[wild] - Scegli 1 degli effetti soprastanti.",
+        "traits": "Aereo. Mistico."
     },
     {
         "code": "17012",
         "name": "Beta Ray Bill",
-        "text": "<b>Response:</b> After Beta Ray Bill attacks and defeats a minion, remove 2 threat from the main scheme.",
-        "traits": "Asgard."
+        "text": "<b>Risposta:</b> Dopo che Beta Ray Bill ha attaccato e sconfitto un gregario, rimuovi 2 minacce dalla trama principale..",
+        "traits": "Asgard.",
+        "flavor": "\"Forse non sono originario del reame eterno, ma il potere del mio martello proviene da Odino in persona. Quindi combatto per Asgard, oggi e per tutti i giorni a venire\""
     },
     {
         "code": "17013",
         "name": "Yondu",
-        "text": "Yondu's attacks gain ranged.",
-        "traits": "Guardian."
+        "text": "Gli attacchi di Yondu ottengono Distanza. <i>(Gli attacchi con Distanza ignorano Ritorsione.)</i>",
+        "traits": "Guardiano.",
+        "flavor": "\"Non ho bisogno di nessuno. Faccio quello che voglio, quando e come voglio.\" - Yondu"
     },
     {
         "code": "17014",
-        "name": "Air Supremacy",
-        "text": "<b>Hero Action</b>: Choose up to X enemies, where X is equal to the number of [[aerial]] characters you control → deal 3 damage to each chosen enemy.",
-        "traits": "Aerial. Tactic."
+        "name": "Supremazia Aerea",
+        "text": "<b>Azione Eroe</b>: Scegli fino a X nemici, dove X è pari al numero di personaggi [[aereo]] che controlli → infliggi 3 danni a ogni nemico scelto.",
+        "traits": "Aereo. Tattica."
     },
     {
         "code": "17015",
-        "name": "Blaze of Glory",
-        "text": "Max 1 per round.\n<b>Hero Action</b>: Each [[guardian]] character gets +2 THW and +2 ATK this phase. At the end of the phase, deal 1 damage to each [[guardian]] character."
+        "name": "Fiammata di Gloria",
+        "text": "Massimo 1 per round.\n<b>Azione Eroe</b>: Ogni personaggio [[guardiano]] riceve +2 INT e +2 ATT in questa fase. Alla fine della fase, infliggi 1 danno a ogni personaggio [[guardiano]]."
     },
     {
         "code": "17017",
-        "flavor": "\"Man, too easy.\" - Star-Lord",
-        "name": "Target Practice",
-        "text": "<b>Interrupt</b>: When an ally with a [[weapon]] attachment upgrade makes an attack, discard Target Practice → that ally gets +2 ATK for that attack.",
-        "traits": "Skill."
+        "name": "Tiro al Bersaglio",
+        "text": "<b>Interruzione</b>: Quando un alleato con una miglioria [[arma]] effettua un attacco, scarta Tiro al Bersaglio → quell'alleato riceve +2 ATT per quell'attacco.",
+        "traits": "Abilità.",
+        "flavor": "\"Cavolo, troppo facile.\" - Star-Lord"
     },
     {
         "code": "17019",
-        "flavor": "\"I'll make short work of you.\" - Nebula",
-        "name": "Laser Blaster",
-        "text": "Attach to a [[guardian]] ally. Max 1 per ally.\nAttached ally gets +1 ATK and its attacks gain overkill.",
-        "traits": "Tech. Weapon."
+        "name": "Blaster Laser",
+        "text": "Assegna a un alleato [[guardiano]]. Massimo 1 per alleato.\nL'alleato con questa miglioria riceve +1 ATT e i suoi attacchi ottengono Sopraffazione.",
+        "traits": "Arma. Tecnologia.",
+        "flavor": "\"Ti toglierò di mezzo in un attimo\" - Nebula"
     },
     {
         "code": "17020",
         "name": "Cosmo",
-        "text": "<b>Interrupt</b>: When Cosmo attacks or thwarts, name a card type, then discard the top card of the deck. If that card is of the named type, Cosmo does not take consequential damage (the damage under THW or ATK) for this use.",
-        "traits": "Guardian."
+        "text": "<b>Interruzione</b>: Quando Cosmo attacca o interviene, dichiara un tipo di carta, poi scarta 1 carta dalla cima di un mazzo. Se quella carta è del tipo dichiarato, Cosmo non subisce danni conseguenti <i>(i danni sotto INT o ATT)</i> per questo uso.",
+        "traits": "Guardiano."
     },
     {
         "code": "17021",
-        "flavor": "\"I don't know, I kind of like calling it the Cool Interstellar Travel Travelship.\" - Peter Quill",
         "name": "C.I.T.T.",
-        "text": "<b>Hero Action</b>: Exhaust C.I.T.T. and spend 2 resources of any type → ready a [[guardian]] character.",
-        "traits": "Vehicle."
+        "text": "<b>Azione Eroe</b>: Esaurisci C.I.T.T. e spendi 2 risorse di qualsiasi tipo → ripristina un personaggio [[guardiano]].",
+        "traits": "Veicolo.",
+        "flavor": "\"Non saprei, a me piace chiamarlo Cargo Interstellare di Trasporto Tosto.\" - Peter Quill"
     },
     {
         "code": "17022",
-        "name": "Knowhere",
-        "text": "Play only if your identity has the [[guardian]] trait.\nIncrease your ally limit by 1.\n<b>Response</b>: After a player plays a [[guardian]] ally, exhaust Knowhere → that player draws 1 card.",
-        "traits": "Location."
+        "name": "Ovunque",
+        "text": "Gioca solo se la tua identità possiede il tratto [[guardiano]].\nAumenta di 1 il tuo limite di alleati.\n<b>Risposta</b>: Dopo che un giocatore ha giocato un alleato [[guardiano]], esaurisci Ovunque → quel giocatore pesca 1 carta.",
+        "traits": "Luogo."
     },
     {
         "code": "17023",
-        "name": "Pulse Grenade",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Discard Pulse Grenade and choose an enemy → discard the top 2 cards of the encounter deck. Deal 1 damage to the chosen enemy for each boost icon discarded this way.",
-        "traits": "Weapon."
+        "name": "Granata a Impulsi",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Scarta Granata a Impulsi e scegli 1 nemico  → scarta 2 carte dalla cima del mazzo degli incontri. Infliggi 1 danno al nemico scelto per ogni icona potenziamento scartata in questo modo",
+        "traits": "Arma."
     },
     {
         "code": "17028",
-        "name": "Dive Bomb",
-        "text": "Play only if your identity has the [[aerial]] trait.\n<b>Hero Action</b> <i>(attack)</i>: Deal 7 damage to an enemy. Deal 1 damage to each other enemy.",
-        "traits": "Aerial. Attack."
+        "name": "Tuffo in Picchiata",
+        "text": "Gioca solo se la tua identità possiede il tratto [[aereo]].\n<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 7 danni a un nemico. Infliggi 1 danno a ogni altro nemico.",
+        "traits": "Aereo. Attacco."
     },
     {
         "code": "17029",
-        "name": "Agile Flight",
-        "text": "Play only if your identity has the [[aerial]] trait.\n<b>Hero Action</b> <i>(thwart)</i>: Remove a total of up to 5 threat from among schemes (as you choose).",
-        "traits": "Aerial. Thwart."
+        "name": "Volo Agile",
+        "text": "Gioca solo se la tua identità possiede il tratto [[aereo]].\n<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi fino a un totale di 5 minacce dalle trame in gioco <i>(suddividendole come preferisci).</i>",
+        "traits": "Aereo. Intervento."
     },
     {
         "code": "17030",
-        "flavor": "\"I feel like I've got the while weight of the world on my shoulders.\" - Captain Marvel",
-        "name": "Ever Vigilant",
-        "text": "Play only if your identity has the [[aerial]] trait.\n<b>Hero Action</b>: Ready your hero and remove 2 threat from the main scheme.",
-        "traits": "Aerial. Skill."
+        "name": "Sempre Vigile",
+        "text": "Gioca solo se la tua identità possiede il tratto [[aereo]].\n<b>Azione Eroe</b>: ripristina il tuo eroe e rimuovi 2 minacce dalla trama principale.",
+        "traits": "Abilità. Aereo.",
+        "flavor": "\"Mi sento come se avessi il peso di tutto il mondo sulle spalle.\" - Capitan Marvel"
     }
 ]
