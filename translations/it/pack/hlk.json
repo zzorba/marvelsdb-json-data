@@ -1,154 +1,157 @@
 [
     {
         "code": "10001a",
-        "flavor": "\"Hulk is not sorry. Hulk is Hulk.\"",
+        "flavor": "\"Hulk non è dispiaciuto. Hulk è Hulk.\"",
         "name": "Hulk",
-        "text": "\"Enraged\" — <b>Forced Interrupt</b>: When your turn ends, discard your hand.",
+        "text": "<i>Infuriato</i> — <b>Interruzione Obbligata</b>: Quando il tuo turno termina, scarta la tua mano.",
         "traits": "Avenger. Gamma."
     },
     {
         "code": "10001b",
-        "flavor": "\"Don't make me angry. You wouldn't like me when I'm angry.\"",
+        "flavor": "\"MI stai facendo arrabbiare. Non ti piacerà quando mi arrabbio.\"",
         "name": "Bruce Banner",
-        "text": "Experimental Research — <b>Action</b>: Draw 1 card. Choose and discard 1 card from your hand. (Limit once per round.)",
-        "traits": "Genius. Scientist."
+        "text": "<i>Ricerca sperimentale</i> — <b>Azione</b>: Pesca 1 carta. Scegli e scarta una carta dalla tua mano. (Limite di una volta per round.)",
+        "traits": "Genio. Scienziato."
     },
     {
         "code": "10002",
-        "flavor": "\"Puny monster.\" -- Hulk",
-        "name": "Crushing Blow",
-        "text": "You can only spend [physical] resources to pay for this card.\n<b>Hero Action</b> <i>(attack)</i>: Deal damage to an enemy equal to your ATK.",
-        "traits": "Attack."
+        "flavor": "\"Mostro Gracile.\" -- Hulk",
+        "name": "Colpo Schiacciante",
+        "text": "Puoi spendere solo  [physical] per pagare questa carta.\n<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi ad un nemico un ammontare di danni pari al tuo ATT.",
+        "traits": "Attacco."
     },
     {
         "code": "10003",
-        "flavor": "\"When Hulk smash something, it stay smashed!\" -- Hulk",
-        "name": "Hulk Smash",
-        "text": "<b>Hero Interrupt</b>: When you make a basic attack, you get +10 ATK for that attack. If you paid for this card using only [physical] resources, that attack gains overkill.",
-        "traits": "Superpower."
+        "flavor": "\"Quando Hulk spacca qualcosa, spacca sul serio!\" -- Hulk",
+        "name": "Hulk Spacca",
+        "text": "<b>Interruzzione Eroe</b>: Quando effettui un attacco base, ricevi +10 ATT per quell'attacco. Se hai pagato questa carta usando solo [physical], quesll'attacco ottiene Sopraffazione.",
+        "traits": "Superpotere."
     },
     {
         "code": "10004",
-        "flavor": "\"Leave Hulk alone!\" -- Hulk",
-        "name": "Sub-Orbital Leap",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme (5 threat instead if you paid for this card using only [physical] resources).",
-        "traits": "Superpower. Thwart."
+        "flavor": "\"Lasciate Hulk in pace!\" -- Hulk",
+        "name": "Balzo Suborbitale",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 3 minacce da una trama (5 minacce se hai pagato questa carta usando solo [physical]).",
+        "traits": "Superpotere. Intervento."
     },
     {
         "code": "10005",
-        "flavor": "\"Are you afraid of Hulk's little wind?\" -- Hulk",
-        "name": "Thunderclap",
-        "text": "<b>Hero Action</b>: Choose up to 3 different enemies. Deal 3 damage to each of them.",
-        "traits": "Superpower."
+        "flavor": "\"Hai paura del piccolo vento di Hulk?\" -- Hulk",
+        "name": "Battimani Tonante",
+        "text": "<b>Azione Eroe</b>: Scegli fino a 3 nemici diversi. Infliggi 3 danni ad ogniuno di essi.",
+        "traits": "Superpotere."
     },
     {
         "code": "10006",
-        "flavor": "\"Nobody stop Hulk!\" -- Hulk",
-        "name": "Unstoppable Force",
-        "text": "<b>Hero Action</b>: Ready Hulk. If you paid for this card using only [physical] resources, draw 1 card."
+        "flavor": "\"Nessuno ferma Hulk!\" -- Hulk",
+        "name": "Forza Inarrestabile",
+        "text": "<b>Azione Eroe</b>: Ripristina Hulk. Se hai pagato questa carta usndo solo [physical], pesca 1 carta."
     },
     {
         "code": "10007",
-        "name": "Limitless Strength",
-        "text": "Spend this card only in hero form."
+        "name": "Forza Senza Limiti",
+        "text": "Spendi le risorse di questa carta solo se sei nella tua sembianza eroe"
     },
     {
         "code": "10008",
-        "flavor": "\"The best thing about my lab is that nobody ever bothers me here.\" -- Bruce Banner",
-        "name": "Banner's Laboratory",
-        "text": "Bruce Banner gets +2 REC.\n<b>Alter-Ego Resource</b>: Exhaust Banner's Laboratory → generate a [mental] resource.",
-        "traits": "Location."
+        "flavor": "\"La cosa migliore del mio laboratorio è che nessuno mi disturba mai qua dentro.\" -- Bruce Banner",
+        "name": "Laboratorio di Banner",
+        "text": "Bruce Banner riceve +2 REC.\n<b>Risorsa Alter Ego</b>: Esaurisci il Laboratorio di Banner  → Genera una [mental].",
+        "traits": "Luogo."
     },
     {
         "code": "10009",
-        "flavor": "\"The angrier I get, the stronger I get.\" -- Bruce Banner",
-        "name": "Boundless Rage",
-        "text": "Hero form only. Hulk gets +1 ATK.\n<b>Forced Response</b>: After you change form, discard this card.",
-        "traits": "Condition. Gamma."
+        "flavor": "\"Più mi arrabbio, più divento forte.\" -- Bruce Banner",
+        "name": "Ira Scatenata",
+        "text": "Solo in forma Eroe. Hulk ottiene +1 ATT.\n<b>Risposta Obbligata</b>: Dopo che hai cambiato sembianza, scarta questa carta.",
+        "traits": "Condizione. Gamma."
     },
     {
         "code": "10010",
-        "name": "Immovable Object",
-        "text": "You get +4 hit points.\nHulk gains retaliate 1.",
-        "traits": "Condition."
+        "flavor": "\"Hulk non rinuncia mai. NOn si arrende mai!\" -- Hulk",
+        "name": "Oggetto Inamovibile",
+        "text": "Ricevi +4 punti ferita.\nHulk ottiene Ritorsione 1.",
+        "traits": "Condizione. "
     },
     {
         "code": "10011",
-        "flavor": "\"I'm the strongest one there is. And the smartest. That's all the authority I need.\"",
+        "flavor": "\"Io sono il più forte che c'è. E il più intelligente. Questo mi da tutta l'autorità di cui ho bisogno.\"",
         "name": "Brawn",
-        "text": "<b>Response</b>: After Brawn attacks, remove 1 threat from a scheme.",
+        "text": "<b>Risposta</b>: Dopo che Brawn attacca, rimuovete 1 minaccai da una trama.",
         "traits": "Champion. Gamma."
     },
     {
         "code": "10012",
-        "flavor": "\"When I use my powers of a million exploding suns, I unleash the Void. He attacks the world every time I try to save it.\"",
+        "flavor": "\"Quando uso il mio potere di milioni di soli che esplodono, Void si scatena. Attacca il mondo ogni volta che tento di salvarlo.\"",
         "name": "Sentry",
-        "text": "<b>Forced Response</b>: After Sentry enters play under your control, deal yourself 1 encounter card.",
+        "text": "<b>Risposta Obbligata</b>: Dopo che Sentry è entrato in gioco sotto il tuo controllo, distribuisci 1 carta incontro a te stesso.",
         "traits": "Avenger.",
         "subname": "Robert Reynolds"
     },
     {
         "code": "10013",
-        "flavor": "\"I'd ask your to surrender... but I'm really hoping you'll put up a fight.\"",
+        "flavor": "\"Ti chiederei di arrenderti... ma in realtà spero che tu voglia opporre resistenza.\"",
         "name": "She-Hulk",
-        "text": "She-Hulk gets +1 ATK for each damage token here.",
+        "text": "She-Hulk ottiene +1 ATK per ogni segnalino danno su di essa.",
         "traits": "Avenger. Gamma.",
         "subname": "Jennifer Walters"
     },
     {
         "code": "10014",
-        "flavor": "\"Smashing is what Hulk does best!\" -- Hulk",
-        "name": "Drop Kick",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. If you paid for this card using only [physical] resources, stun that enemy and draw 1 card.",
-        "traits": "Attack."
+        "flavor": "\"Spaccare è la cosa che Hulk sa fare meglio\" -- Hulk",
+        "name": "Calcio in volo",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 4 danni a un nemico. Se hai pagato questa carta usando solo [physical] stordisci quel nemico e pesca una carta.",
+        "traits": "Attacco."
     },
     {
         "code": "10015",
-        "flavor": "\"How about a taste of your own medicine!\" -- Captain Marvel",
-        "name": "Toe to Toe",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Choose an enemy. That enemy attacks you. Deal 5 damage to that enemy.",
-        "traits": "Attack."
+        "flavor": "\"Che ne dici di assaggiare la tua stessa medicina!\" -- Captain Marvel",
+        "name": "Corpo a corpo",
+        "text": "<b>Azione Eroe</b> <i>(Attacco)</i>: Scegli un nemico. Quel nemico ti attaca. Infliggi 5 danni a quel nemico.",
+        "traits": "Attacco."
     },
     {
         "code": "10016",
-        "name": "\"You'll Pay for That!\"",
-        "text": "<b>Hero Response</b> <i>(thwart)</i>: After the villain attacks you, remove 1 threat from a scheme for each damage you took from the attack (to a maximum of 5).",
-        "traits": "Thwart."
+        "name": "\"Me la pagherai!\"",
+        "text": "<b>Risposta Eroe</b> <i>(intervento)</i>: Dopo che il criminale ti ha attaccato, rinmuovi 1 minaccia da una trama per ogni danno che hai subito da quell'attacco (fino ad un amssimo di 5).",
+        "traits": "Intervento."
     },
     {
         "code": "10018",
-        "name": "Martial Prowess",
-        "text": "Play under any player's control.\nMax 1 per player.\n<b>Resource</b>: Exhaust Martial Prowess → generate a [physical] resource for an [[Attack]] event.",
-        "traits": "Skill."
+        "name": "Potenza marziale",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore.\nMassimo 1 per giocatore.\n<b>Risorsa</b>: Esaurisci Potenza Marziale → genera 1 [physical] per un evento [[Attacco]].",
+        "traits": "Abilità."
     },
     {
         "code": "10019",
-        "name": "To the Rescue!",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from a scheme.",
-        "traits": "Thwart."
+        "flavor": "\"Non preoccuparti, sono qui per aiutarti!\"  -- America Chavez",
+        "name": "Al Salvataggio!",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 2 minacce da 1 trama.",
+        "traits": "Intervento."
     },
     {
         "code": "10029",
-        "name": "Beat Cop",
-        "text": "<b>Action</b>: Exhaust Beat Cop → move 1 threat from a scheme to here.\n<b>Action</b>: Exhaust and discard Beat Cop → deal 1 damage to a minion for each threat here.",
+        "name": "Poliziotto di Ronda",
+        "text": "<b>Azione</b>: Esaurisci Poliziotto di ronda → sposta 1 minaccia da una trama a questa carta.\n<b>Azione</b>: Esaurisci e scarta Poliziotto di Ronda → infliggi 1 danno a un gregario per ogni minaccia su questa carta.",
         "traits": "Persona."
     },
     {
         "code": "10030",
-        "name": "Inspiring Presence",
-        "text": "Play only if your identity has the [[Avenger]] trait.\n <b>Hero Action</b>: Heal 1 damage from an ally and ready it."
+        "flavor": "Armatevi per la lotta, perchè al vostro fianco is erge il Possente Thor!\"  -- Thor",
+        "name": "Presenza Ispiratrice",
+        "text": "Gioca solo se la tua identità possiede il tratto [[Avenger]].\n <b>Azione Eroe</b>: Cura un danno ad 1 alleato e ripristinalo."
     },
     {
         "code": "10031",
-        "name": "Electrostatic Armor",
-        "text": "Player under any player's control.\nMax 1 per player.\n<b>Response</b>: After you defend against an attack, deal 1 damage to the attacking character.",
-        "traits": "Armor. Tech."
+        "name": "Armatura Elettrostatica",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore.\nMassimo 1 per giocatore.\n<b>Risposta</b>: Dopo che hai difeso da un attacco, infliggi un danno al personaggio attaccante.",
+        "traits": "Armatura. Tecnologia."
     },
     {
         "code": "10032",
-        "flavor": "\"Innovation is the ultimate weapon.\" -- Vision",
-        "name": "Resourceful",
-        "text": "<b>Resource</b>: Discard Resourceful → generate a [wild] resource.",
-        "traits": "Skill."
+        "flavor": "\"L'innovazione è l'arma suprema.\" -- Visione",
+        "name": "Intrapprendente",
+        "text": "<b>Risorsa</b>: Scarta Intrapprendente → Genera 1 [wild] .",
+        "traits": "Abilità'."
     }
 ]

@@ -2,147 +2,150 @@
     {
         "code": "18001a",
         "name": "Gamora",
-        "text": "Finesse — <b>Response:</b> After you play an [[attack]] event, remove 1 threat from a scheme. (Limit once per phase.)\nPrecision — <b>Response:</b> After you play an [[thwart]] event, deal 1 damage to an enemy. (Limit once per phase.)",
-        "traits": "Guardian."
+        "text": "<i>Grazia</i> — <b>Risposta:</b> Dopo che hai giocato un evento [[attacco]], rimuovi 1 minaccia da una trama. (Limite di 1 volta per fase.)\n<i>Precisione</i> — <b>Risposta:</b> Dopo che hai giocato un evento [[intervento]], infliggi 1 danno a un nemico. (Limite di 1 volta per fase.)",
+        "traits": "guardiano."
     },
     {
         "code": "18001b",
         "name": "Gamora",
-        "text": "Skilled Tactician — You may include up to 6 [[attack]] and [[thwart]] events in your deck from aspects other than your own.\n<b>Action:</b> Look at the top card of your deck. If that card is an [[attack]] or [[thwart]] event, draw it. (Limit once per phase.)",
-        "traits": "Outlaw."
+        "text": "<i>Tattica Abile</i> — puoi includere nel tuo mazzo fino a 6 eventi [[attacco]] e/o [[intervento]] di aspetti diversi dal tuo aspetto scelto.\n<b>Azione:</b> Guarda 1 carta dalla cima del tuo mazzo. Se quella carta è un evento [[attacco]] o [[intervento]], pescala. (Limite di una volta per round.)",
+        "traits": "Fuorilegge."
     },
     {
         "code": "18002",
-        "flavor": "\"This will be a fast fight.\"",
         "name": "Nebula",
-        "text": "<b>Response:</b> After Nebula enters play, search your deck for an [[attack] or [[thwart]] event and add it to your hand. Shuffle your deck.",
-        "traits": "Guardian."
+        "text": "<b>Risposta:</b> Dopo che Nebula è entrata in gioco, cerca nel tuo mazzo 1 evento [[attacco] o [[intervento]] e aggiungilo alla tua mano. Mescola il tuo mazzo.",
+        "traits": "Guardiano.",
+        "flavor": "\"Sarà uno scontro rapido.\""
     },
     {
         "code": "18003",
-        "flavor": "\"If you really knew me as well as you thought you did, you would not have attacked me.\" - Gamora",
-        "name": "Acrobatic Move",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 2 damage to an enemy.",
-        "traits": "Attack."
+        "name": "Mossa Acrobatica",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 2 danni a un nemico.",
+        "traits": "Attacco.",
+        "flavor": "\"Se mi avessi conosciuto bene come pensavi di conoscermi, non mi avresti mai attaccata.\" - Gamora"
     },
     {
         "code": "18004",
-        "flavor": "\"That decision will be your last!\" - Gamora",
-        "name": "Crosscounter",
-        "text": "<b>Hero Interrupt</b> <i>(attack/defense/thwart)</i>: When you would take any amount of damage, prevent 3 of that damage. Deal 1 damage to an enemy. Remove 1 threat from a scheme.",
-        "traits": "Attack. Defense. Thwart."
+        "name": "Contrattacco Incrociato",
+        "text": "<b>Interruzione Eroe</b> <i>(attacco/difesa/intervento)</i>: Quando stai per subire un qualsiasi ammontare di danni, previeni 3 di quei danni. Infliggi 1 danno a un nemico. Rimuovi 1 minaccia da una trama.",
+        "traits": "Attacco. Difesa. Intervento.",
+        "flavor": "\"Questa tua decisione sarà l'ultima!\" - Gamora"
     },
     {
         "code": "18005",
-        "name": "Set the Pace",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 1 threat from a scheme.",
-        "traits": "Thwart."
+        "name": "Dettare i Tempi",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 1 minaccia da una trama.",
+        "traits": "Intervento.",
+        "flavor": "\"Non hanno ancora capito che è finita.\" - Gamora"
     },
     {
         "code": "18006",
-        "flavor": "\"Thanos built me for one purpose: to kill. He'll soon realize that was a poor decision.\" - Gamora",
-        "name": "Decisive Blow",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy (7 damage instead if you have played a [[thwart]] event this turn).",
-        "traits": "Attack."
+        "name": "Colpo Decisivo",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 4 danni a un nemico (7 danni se invece hai giocato un evento [[intervento]] in questo turno).",
+        "traits": "Attacco.",
+        "flavor": "\"Thanos mi ha creata per un solo scopo: uccidere. Presto scoprirà che è stata una pessima decisione.\" - Gamora"
     },
     {
         "code": "18007",
-        "flavor": "\"This isn't going to go well for you.\" - Gamora",
-        "name": "Forward Momentum",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme (5 threat instead if you have played an [[attack]] event this turn).",
-        "traits": "Thwart."
+        "name": "Slancio Irruento",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 3 minacce da una trama (5 minacce se invece hai giocato un evento [[attacco]] in questo turno).",
+        "traits": "Intervento.",
+        "flavor": "\"Non finirà bene per te.\" - Gamora"
     },
     {
         "code": "18008",
-        "flavor": "\"I'm always prepared.\" - Gamora",
-        "name": "Conditioning Room",
-        "text": "<b>Alter-Ego Action</b>: Exhaust Conditioning Room → return the bottommost [[attack]] or [[thwart]] event from your discard pile to your hand. Heal 1 damage from Gamora.",
-        "traits": "Location."
+        "name": "Camera di Condizionamento",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Camera di Condizionamento → rimetti nella tua mano il primo evento [[attacco]] or [[intervento]] dal fondo della pila degli scarti. Cura 1 danno a Gamora.",
+        "traits": "Luogo.",
+        "flavor": "\"Io sono sempre pronta.\" - Gamora"
     },
     {
         "code": "18009",
-        "flavor": "\"Take your chances with me. You won't regret it.\" - Gamora",
-        "name": "Keen Instincts",
-        "text": "<b>Resource</b>: Exhaust Keen Instincts → generate a [wild] resource for an [[attack]] or [[thwart]] event.",
-        "traits": "Skill."
+        "name": "Istinti Affinati",
+        "text": "<b>Risorsa</b>: Esaurisci Istinti Affinati → genera [wild] per un evento [[attacco]] o [[intervento]].",
+        "traits": "Abilità.",
+        "flavor": "\"Tenta la fortuna con me. Non te ne pentirai.\" - Gamora"
     },
     {
         "code": "18010",
-        "name": "Gamora's Sword",
-        "text": "Restricted.\n<b>Response</b>: After you play an [[attack]] event, deal 1 damage to an enemy.",
-        "traits": "Weapon."
+        "name": "Spada di Gamora",
+        "text": "Restrizione. <i>(Massimo 2 carte con Restrizione per ogni giocatore)</i>\n<b>Risposta</b>: Dopo che hai giocato un evento [[attacco]], infliggi 1 danno a un nemico.",
+        "traits": "Arma."
     },
     {
         "code": "18011",
         "name": "Angela",
-        "text": "<b>Forced Response:</b> After Angela enters play under your control, search the top 10 cards of the encounter deck for a minion and put it into play engaged with you. Shuffle the encounter deck. If a minion was not put into play this way, discard Angela.",
-        "traits": "Asgard. Guardian."
+        "text": "<b>Risposta Obbligata:</b> Dopo che Angela è entrata in gioco sotto il tuo controllo, cerca nelle 10 carte in cima al mazzo degli incontri 1 gregario e mettilo in gioco impegnato con te. Mescola il mazzo degli incontri. Se un gregario non è stato messo in gioco in questo modo, scarta Angela.",
+        "traits": "Asgard. Guardiano.",
+        "subname": "Aldrif Odinsdottir"
     },
     {
         "code": "18012",
-        "flavor": "\"If I have to hit you again, you'll stay down. For good.\" - Gamora",
-        "name": "Clobber",
-        "text": "<b>Hero Action</b> <i>(Attack)</i>: Deal 3 damage to an enemy. If this is the first card you have played this round, return this card to your hand.",
-        "traits": "Attack."
+        "name": "Batosta",
+        "text": "<b>Azione Eroe</b> <i>(Attacco)</i>: Infliggi 3 danni a un nemico. Se questa è la prima carta che hai giocato in questo round, rimettila nella tua mano.",
+        "traits": "Attacco.",
+        "flavor": "\"Se devo colpirti un'altra volta, poi starai giù. Definitivamente\" - Gamora"
     },
     {
         "code": "18013",
-        "flavor": "\"No, I have a plan. Attack.\" - Star-Lord",
-        "name": "Plan of Attack",
-        "text": "<b>Action</b>: Search the top 4 cards of your deck (top 7 cards instead if you are in alter-ego form) for an [[attack]] event and add that card to your hand. Shuffle your deck.",
-        "traits": "Tactic."
+        "name": "Piano di Attacco",
+        "text": "<b>Azione</b>: Cerca nelle 4 carte in cima al tuo mazzo (nelle 7 carte in cima al tuo mazzo se invece hai sembianza di alter ego) 1evento [[attacco]] e aggiungilo alla tua mano. Mescola il tuo mazzo..",
+        "traits": "Tattica.",
+        "flavor": "\"No, ho un piano: attacchiamo.\" - Star-Lord"
     },
     {
         "code": "18015",
-        "name": "First Hit",
-        "text": "<b>Hero Action</b> <i>(Attack)</i>: Deal 2 damage to the villain.\n<b>Hero Interrupt</b> <i>(Attack)</i>: When a minion initiates an attack, deal 2 damage to that minion.",
-        "traits": "Attack."
+        "name": "Primo Colpo",
+        "text": "<b>Azione Eroe</b> <i>(Attacco)</i>: Infliggi 2 danni al criminale.\n<b>Interruzione Eroe</b> <i>(Attacco)</i>: Quando un gregario lancia un attacco, infliggi 2 danni a quel gregario.",
+        "traits": "Attacco."
     },
     {
         "code": "18016",
-        "flavor": "\"First, you'll have to go through me.\" - Star-Lord",
-        "name": "Impede",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from the main scheme. If this is the first card you have played this round, return this card to your hand.",
-        "traits": "Thwart."
+        "name": "Impedimento",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 3 minacce dalla trama principale. Se questa è la prima carta che hai giocato in questo round, rimettila nella tua mano..",
+        "traits": "Intervento.",
+        "flavor": "\"Dovrai prima passare sul mio cadavere.\" - Star-Lord"
     },
     {
         "code": "18018",
         "name": "Godslayer",
-        "text": "Restricted.\n<b>Hero Interrupt</b>: When your hero makes a basic attack against a unique enemy, exhaust Godslayer → your hero gets +2 ATK for that attack.",
-        "traits": "Weapon."
+        "text": "Restrizione.\n<b>Interruzione Eroe</b>: Quando il tuo eroe effettua un attacco base contro un nemico unico, esaurisci Godslayer → il tuo eroe riceve +2 ATT per quell'attacco .",
+        "traits": "Arma."
     },
     {
         "code": "18019",
-        "flavor": "\"Behold, this battle has raised my spirits greatly!.\"",
         "name": "Drax",
-        "text": "Play only if your identity has the [[guardian]] trait.\nDrax cannot attack minions.",
-        "traits": "Guardian."
+        "text": "Gioca solo se la tua identità possiede il tratto [[guardiano]].\nDrax non può attaccare i gregari.",
+        "traits": "Guardiano.",
+        "flavor": "\"Ammirate, questa battaglia ha rinvigorito il mio spirito!.\""
     },
     {
         "code": "18020",
-        "flavor": "\"You know, Lady Gamora, even when we first met-white I was beating you to death-I thought to myself, 'I bet she and I could be friends'\" - Angela",
-        "name": "Hit and Run",
-        "text": "<b>Hero Action</b> <i>(attack/thwart)</i>: Deal 2 damage to an enemy. Remove 2 threat from a scheme.",
-        "traits": "Attack. Thwart."
+        "name": "Mordi e Fuggi",
+        "text": "<b>Azione Eroe</b> <i>(attacco/intervento)</i>: Infliggi 2 danni a un nemico. Rimuovi 2 minacce da una trama.",
+        "traits": "Attacco. Intervento.",
+        "flavor": "\"Sai, Lady Gamora, già quando ci incontrammo per la prima volta, mentre ti pestavo a sangue, pensavo tra me e me: 'Eppure io e lei potremmo essere amiche\" - Angela"
     },
     {
         "code": "18029",
-        "flavor": "\"This isn't quite what I had in mind... but I'll take it!.\" - Rocket Raccoon",
-        "name": "Pivotal Moment",
-        "text": "<b>Hero Action</b>: Deal 2 damage to the villain (5 damage instead if there is no threat on the main scheme).",
-        "traits": "Attack."
+        "name": "Punto di Svolta",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 2 danni al criminale (5 danni se invece non ci sono minacce sulla trama principale).",
+        "traits": "Attacco.",
+        "flavor": "\"Non è esattamente quello che avevo in mente... ma mi sta bene!.\" - Rocket Raccoon"
     },
     {
         "code": "18030",
-        "name": "Comms Implant",
-        "text": "Attach to a [[guardian]] ally. Max 1 per ally.\nAttached ally gets +1 THW and +1 hit point.",
-        "traits": "Item. Tech."
+        "name": "Innesti di Comunicazione",
+        "text": "Assegna a un alleato [[guardiano]]. Massimo 1 per alleato.\nL'alleato con questa miglioria riceve +1 INT and +1 punto ferita.",
+        "traits": "Oggetto. Tecnologia.",
+        "flavor": "\"Allora... Vieni qui spesso?\" -Peter Quill"
     },
     {
         "code": "18031",
-        "flavor": "\"Just remember, I didn't start this!\" - Luke Cage",
-        "name": "True Grit",
-        "text": "<b>Response</b> <i>(thwart)</i>: After your hero defends against an enemy attack, remove threat from a scheme equal to your hero's THW.",
-        "traits": "Thwart."
+        "name": "Vera Grinta",
+        "text": "<b>Risposta</b> <i>(intervento)</i>: Dopo che il tuo eroe ha difeso contro un attacco nemico, rimuovi da una trama un ammontare di minacce pari all'INT del tuo eroe.",
+        "traits": "Intervento.",
+        "flavor": "\"Ricordalo bene, non sono stato io a iniziare!\" - Luke Cage"
     }
 ]
