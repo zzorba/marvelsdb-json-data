@@ -1,344 +1,345 @@
 [
     {
         "code": "04001a",
-        "flavor": "\"I may not be the mightiest Avenger, but I'm definitely the coolest.\"",
-        "name": "Hawkeye",
-        "text": "\"Quick Draw\" — <b>Action</b>: Exhaust Hawkeye → ready Hawkeye's bow.",
+        "flavor": "\"Forse non sarò l'Avenger più potente, ma sono sicuramente il più figo.\"",
+        "name": "Occhio di Falco",
+        "text": "<i>\"Estrazione Rapida\"</i> — <b>Azione</b>: Esaurisci Occhio di Falco → ripristina Arco di Occhio di Falco.",
         "traits": "Avenger."
     },
     {
         "code": "04001b",
         "name": "Clint Barton",
-        "text": "Weapon of Choice — <b>Action</b>: Spend 1 resource of any type → search your deck and discard pile for Hawkeye's Bow and add it to your hand. Shuffle your deck. (Limit once per phase).",
+        "text": "<i>Arma Preferita</i> — <b>Azione</b>: Spendi 1 risorsa di qualsiasi tipo → cerca nel tuo mazzo e nella tua pila degli scarti Arco di Occhio di Falco e aggiungilo alla tua mano. Mescola il tuo mazzo. (limite di una volta per fase.)",
         "traits": "S.H.I.E.L.D."
     },
     {
         "code": "04002",
-        "name": "Hawkeye's Bow",
-        "text": "Restricted.\nYour hero gets +1 ATK and each of your [[Arrow]] attacks gain ranged.",
-        "traits": "Weapon."
+        "name": "Arco di Occhio di Falco",
+        "text": "Restrizione <i>(Massimo 2 carte con Restrizione per ogni giocatore.)</i>.\nIl tuo eroe riceve +1 ATT e ogni tuo attacco [[Freccia]] ottiene Distanza. <i>(gli attacchi con Distanza ignorano Ritorsione.)</i>",
+        "traits": "Arma."
     },
     {
         "code": "04003",
-        "name": "Hawkeye's Quiver",
-        "text": "You may play [[Arrow]] events attached to this card as if they were in your hand.\n<b>Hero Action</b>: Exhaust Hawkeye's Quiver → search the top 5 cards of your deck for an [[Arrow]] event and attach it faceup to this card.",
-        "traits": "Item."
+        "name": "Faretra di Occhio di Falco",
+        "text": "Puoi giocare gli eventi [[Freccia]] assegnati a questa carta come se fossero nella tua mano.\n<b>Azione Eroe</b>: Esaurisci Faretra di Occhio di Falco → cerca nelle 5 carte in cima al tuo mazzo 1 evento [[Freccia]] e assegnalo a faccia in su a questa carta.",
+        "traits": "Oggetto."
     },
     {
         "code": "04004",
-        "flavor": "\"Is that all you got?\"",
-        "name": "Mockingbird",
-        "text": "<b>Interrupt</b>: When the villain initiates an attack against you, spend 1 resource of any type and return Mockingbird to your hand → prevent all damage from this attack.",
+        "flavor": "\"Tutto qui quello che sai fare?\"",
+        "name": "Mimo",
+        "text": "<b>Interruzione</b>: quando il criminale lancia un attacco contro di te, spendi 1 risorsa di qualsiasi tipo e rimetti Mimo nella tua mano → previeni tutti i danni di questo attacco.",
         "traits": "Avenger. S.H.I.E.L.D.",
         "subname": "Bobbi Morse"
     },
     {
         "code": "04005",
-        "flavor": "EEEEEEEEEEEEEEEEEE!!!",
-        "name": "Sonic Arrow",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust Hawkeye's Bow → confuse an enemy and deal 3 damage to it (5 damage instead if it is already confused)",
-        "traits": "Arrow. Attack."
+        "flavor": "EEEEEEEEEEEEEEEEEEH!!!",
+        "name": "Freccia Sonica",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Esaurisci Arco di Occhio di Falco → confondi 1 nemico e infliggigli 3 danni (5 danni se invece è già confuso).",
+        "traits": "Attacco. Freccia."
     },
     {
         "code": "04006",
-        "flavor": "\"Anyone ever tell you how your eyes sparkle when you're angry?\" -- Clint Barton",
-        "name": "Explosive Arrow",
-        "text": "<b>Hero Action</b>: Exhaust Hawkeye's Bow and choose a player → deal 3 damage to the villain and each minion engaged with that player.",
-        "traits": "Arrow."
+        "flavor": "\"te l'ha mai detto nessuno che ti brillano gli occhi quando ti arrabbi?\" -- Clint Barton",
+        "name": "Freccia Esplosiva",
+        "text": "<b>Azione Eroe</b>: Esaurisci Arco di Occhio di Falco e scegli 1 giocatore → infliggi 3 danni al criminale e a ogni gregario impegnato con quel giocatore.",
+        "traits": "Freccia."
     },
     {
         "code": "04007",
-        "flavor": "\"Hail Hawkeye!\" -- Clint Barton",
-        "name": "Electric Arrow",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust Hawkeye's Bow → stun an enemy and deal 3 damage to it (5 damage instead if it is already stunned).",
-        "traits": "Arrow. Attack."
+        "flavor": "\"Gloria a Occhio di Falco!\" -- Clint Barton",
+        "name": "Freccia Elettrica",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Esaurisci Arco di Occhio di Falco → stordisci 1 nemico e infliggigli 3 danni (5 danni se invece è già stordito).",
+        "traits": "Attacco. Freccia."
     },
     {
         "code": "04008",
-        "flavor": "\"It's a great way to get around.\" -- Clint Barton",
-        "name": "Cable Arrow",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Exhaust Hawkeye's Bow → remove 3 threat from a scheme, ignoring any crisis icons in play.",
-        "traits": "Arrow. Thwart."
+        "flavor": "\"E' un ottimo modo per spostarsi.\" -- Clint Barton",
+        "name": "Freccia Cablata",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Esaurisci Arco di Occhio di Falco → rimuovi 3 minacce da una trama, ignorando le icone crisi in gioco.",
+        "traits": "Freccia. Intervento."
     },
     {
         "code": "04009",
-        "name": "Vibranium Arrow",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust Hawkeye's Bow → deal 6 damage to an enemy. This attack gains piercing.",
-        "traits": "Arrow. Attack."
+        "name": "Freccia in Vibranio",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Esaurisci Arco di Occhio di Falco → infliggi 6 danni a un nemico. Questo attacco ottiene Perforante. <i>(Scarta ogni carta status Robusto dal bersaglio prima di infliggere danni.)</i>",
+        "traits": "Attacco. Freccia."
     },
     {
         "code": "04010",
-        "flavor": "\"When you fight alongside gods and monsters, it's not enough to be great; you have to the best.\" -- Clint Barton",
-        "name": "Expert Marksman",
-        "text": "<b>Resource</b>: Exhaust Expert Marksman → generate a [wild] resource for an [[Arrow]] event.",
-        "traits": "Skill."
+        "flavor": "\"Quando combatti a fianco di mostri e divinità, non basta essere bravo; devi essere il migliore.\" -- Clint Barton",
+        "name": "Tiratore Esperto",
+        "text": "<b>Risorsa</b>: Esaurisci Tiratore Esperto → genera [wild] per un evento [[Freccia]].",
+        "traits": "Abilità."
     },
     {
         "code": "04011",
-        "flavor": "\"You see I', literally pointing arrows at your, right?.\"",
-        "name": "Hawkeye",
-        "text": "<b>Action</b>: Exhaust this ally and discard 1 card from your hand → deal X damage to an enemy, where X is the number of printed resources on that card.",
+        "flavor": "\"Lo vedete che vi punto contro delle frecce, vero?.\"",
+        "name": "Occhio di Falco",
+        "text": "<b>Azione</b>: Esaurisci questo alleato e scarta 1 carta dalla tua mano → infliggi X danni a un nemico, dove X è il numero di risorse stampate su quella carta.",
         "traits": "Avenger.",
         "subname": "Kate Bishop"
     },
     {
         "code": "04012",
-        "flavor": "\"As long as the Black Blade blazes darkly in my hand, I must fight on.\"",
-        "name": "Black Knight",
-        "text": "Black Knight's basic attack gains piercing.",
+        "flavor": "\"Fintanto che la Lama d'Ebano rifulge di oscurità nella mia mano, devo continuare a combattere.\"",
+        "name": "Cavaliere Nero",
+        "text": "L'attacco base di Cavaliere Nero ottiene Perforante. <i>(Scarta ogni carta status Robusto dal bersaglio prima di infliggere danni.)</i>",
         "traits": "Avenger.",
         "subname": "Dane Whitman"
     },
     {
         "code": "04013",
-        "flavor": "\"Sometimes being a gentleman means holding the door, and the rest of the building.\"",
-        "name": "Goliath",
-        "text": "<b>Action</b>: Goliath gets +4 ATK until the end of the phase. At the end of the phase, discard Goliath. (Max once per phase.)",
+        "flavor": "\"a volte essere un gentiluomo significa tenere la porta... e tutto il resto del palazzo.\"",
+        "name": "Golia",
+        "text": "<b>Azione</b>: Golia riceve +4 ATT fino alla fine della fase. Alla fine della fase, scarta golia. (Massimo 1 volta per fase.)",
         "traits": "Avenger.",
         "subname": "Bill Foster"
     },
     {
         "code": "04014",
-        "flavor": "\"Cap isn't the only soldier who loves his country.\"",
+        "flavor": "\"Cap non è l'unico soldato che ama la sua nazione.\"",
         "name": "U.S. Agent",
-        "text": "Retaliate 1.",
+        "text": "Ritorsione 1. <i>(Dopo che questo personaggio è stato attaccato, infliggi 1 danno al personaggio attaccante.)</i>",
         "traits": "Avenger.",
         "subname": "John Walker"
     },
     {
         "code": "04015",
-        "name": "Sky Cycle",
-        "text": "Attach to an [[Avenger]] ally. Max 1 per ally.\nAttached ally gains [[Aerial]].\n<b>Action</b>: Exhaust Sky Cycle → ready attached ally.",
-        "traits": "Vehicle."
+        "name": "Moto Volante",
+        "text": "assegna a un alleato [[Avenger]]. Massimo 1 per alleato.\nL'alleato con questa miglioria ottiene il tratto [[Aereo]].\n<b>Azione</b>: Esaurisci Moto Volante → ripristina l'alleato con questa miglioria.",
+        "traits": "Veicolo."
     },
     {
         "code": "04016",
-        "flavor": "\"We mostly just wait for Cap to yell 'Avengers Assemble' and attack in the same direction as him\" -- Clint Barton",
-        "name": "Team Training",
-        "text": "Play under any player's control. Max 1 per player.\nEach ally you control gets +1 hit point.",
-        "traits": "Condition."
+        "flavor": "\"in genere aspettiamo semplicemente che Cap gridi 'Avengers Uniti' e poi attacchiamo nella stessa direzione in cui va lui\" -- Clint Barton",
+        "name": "Addestramento di Squadra",
+        "text": "Gioca sotto il controllo di qualsiasi giocatore. Massimo 1 per giocatore.\nOgni alleato che controlli riceve +1 punti ferita.",
+        "traits": "Condizione."
     },
     {
         "code": "04017",
-        "flavor": "\"Try that again. I dare you.\" -- Jessica Drew",
-        "name": "Ready for Action",
-        "text": "<b>Hero Action</b>: Give an ally you control a tough status card.",
-        "traits": "Tactic."
+        "flavor": "\"Provaci ancora, se hai il coraggio.\" -- Jessica Drew",
+        "name": "Pronto all'Azione",
+        "text": "<b>Azione Eroe</b>: Irrobustisci 1 alleato che controlli.",
+        "traits": "Tattica."
     },
     {
         "code": "04020",
         "name": "War Machine",
-        "text": "Toughness.\nWar Machine's basic attack gains ranged.",
+        "text": "Robustezza. <i>(questo personaggio entra in gioco con 1 carta status robusto.)</i>\nl'attacco base di War Machine ottiene Distanza. <i>(Gli attacchi con Distanza ignorano Ritorsione.)</i>",
         "traits": "Avenger. S.H.I.E.L.D.",
         "subname": "James Rhodes"
     },
     {
         "code": "04022",
-        "flavor": "\"We come together to fight what can't be fought alone.\" -- Luke Cage",
-        "name": "Earth's Mightiest Heroes",
-        "text": "<b>Hero Action</b>: Exhaust an [[avenger]] character you control → ready another [[avenger]] character you control.",
-        "traits": ""
+        "flavor": "\"Uniamo le forze per combattere quello che non possiamo combattere da soli.\" -- Luke Cage",
+        "name": "Gli Eroi Più Potenti della Terra",
+        "text": "<b>azione Eroe</b>:Esaurisci 1 personaggio [[avenger]] che controlli → ripristina 1 altro personaggio [[avenger]] che controlli."
     },
     {
         "code": "04031a",
         "name": "Spider-Woman",
-        "text": "\"Superhuman Agility\" — <b>Interrupt</b>: When you play an aspect card, Spider-Woman gets +1 THW, +1 ATK, and +1 DEF until the end of the round. (limit once per round for each aspect.)",
-        "traits": "Avenger. Spy."
+        "text": "\"Agilità Sovrumana\" — <b>Interruzione</b>: Quando giochi una carta aspetto, Spider-Woman riceve +1 INT, +1 ATT e +1 DIF fino alla fine del round. (limite di una volta per round per ogni aspetto.)",
+        "traits": "Avenger. Spia."
     },
     {
         "code": "04031b",
         "name": "Jessica Drew",
-        "text": "Double Agent — Choose two aspects instead of one during deck-building. You must include an equal number of cards from those aspects in your deck.\n<b>Action:</b>: Look at the top card of any deck. (Limit once per round.)",
-        "traits": "S.H.I.E.L.D. Spy."
+        "text": "\"Agente Doppiogiochista\" — Scegli 2 aspetti invece di 1 durante la composizione del mazzo.\n<b>Azione:</b>: Guarda una carta dalla cima di un mazzo qualsiasi. (Limite di una volta per round.)",
+        "traits": "S.H.I.E.L.D. Spia."
     },
     {
         "code": "04032",
-        "flavor": "\"I gotta hand it to you, kid. This is one of the more impressive messes I've ever seen.\"",
+        "flavor": "\"Devo ammetterlo, ragazzina. Questo è uno dei disastri più notevoli che abbia mai visto.\"",
         "name": "Captain Marvel",
-        "text": "<b>Response</b>: After Captain Marvel uses a basic power, draw 1 card.",
+        "text": "<b>Risposta</b>: Dopo che Captain Marvel ha usato un potere base, pesca una carta.",
         "traits": "Avenger.",
         "subname": "Carol Danvers"
     },
     {
         "code": "04033",
-        "name": "Finesse",
-        "text": "<b>Hero Resource</b>: Exhaust Finesse → generate a [wild] resource for an aspect card.",
-        "traits": "Condition."
+        "name": "Grazia",
+        "text": "<b>Risorsa Eroe</b>: Esaurisci Grazia → genera [wild] per una carta aspetto.",
+        "traits": "Condizione."
     },
     {
         "code": "04034",
-        "name": "Jessica Drew's Apartment",
-        "text": "<b>Alter-Ego Action</b>: Exhaust Jessica Drew's Apartment → search the top 5 cards of your deck for an aspect card and add it to your hand. Shuffle your deck.",
-        "traits": "Location."
+        "name": "Appartamento di Jessica Drew",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Appartamento di Jessica Drew → Cerca nelle 5 carte in cima al tuo mazzo 1 carta aspetto e aggiungila alla tua mano. Mescola il tuo mazzo.",
+        "traits": "Luogo."
     },
     {
         "code": "04035",
-        "name": "Venom Blast",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 5 damage to an enemy.",
-        "traits": "Attack. Superpower."
+        "flavor": "\"Mi ha colpito con la sua scarica di veleno. Il dolore se n'è andato dopo una settimana.\" - Wolverine",
+        "name": "Scarica di Veleno",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 5 danni a un nemico. \n(Questa carta è sia una carta Spider-Woman che una carta offensiva)",
+        "traits": "Attacco. Superpotere."
     },
     {
         "code": "04036",
-        "flavor": "\"Warn me before you use that power again, okay?\" -- Peter Parker",
-        "name": "Pheromones",
-        "text": "<b>Hero Action</b>: Stun and confuse an enemy.",
-        "traits": "Superpower."
+        "flavor": "\"Avvertimi prima di usare quel potere, va bene?\" -- Peter Parker",
+        "name": "Ferormoni",
+        "text": "<b>Azione Eroe</b>: Stordisci e confondi 1 nemico.\n(Questa carta è sia una carta Spider-Woman che una carta Autorità)",
+        "traits": "Superpotere."
     },
     {
         "code": "04037",
-        "name": "Contaminant Immunity",
-        "text": "<b>Hero Action</b>: Heal 3 damage from Spider-Woman and give her a tough status card.",
-        "traits": "Superpower."
+        "name": "Immunità ai Contaminati",
+        "text": "<b>Azione Eroe</b>: Cura 3 danni a Spider-Woman e irrobustiscila.\n(Questa carta è sia una carta Spider-Woman che una carta Protezione)",
+        "traits": "Superpotere."
     },
     {
         "code": "04038",
-        "flavor": "\"Now all I gotta do is Spy-der Woman my way inside.\" -- Jessica Drew",
-        "name": "Inconspicuous",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove a total of 3 threat from among schemes in play.",
-        "traits": "Skill. Thwart."
+        "flavor": "\"Ora devo solo farmi strada all'interno in pure stile SPYder-Woman.\" -- Jessica Drew",
+        "name": "Circospezione",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi un totale di 3 minacce dalle trame del gioco.\n(Questa carta è sia una carta Spider-Woman che una carta Giustizia.)",
+        "traits": "Abilità. Intervento."
     },
     {
         "code": "04039",
-        "flavor": "\"People always think I can fly. I can't But I do glide really well.\" -- Jessica Drew",
-        "name": "Self-Propelled Glide",
-        "text": "<b>Hero Action</b>: Ready Spider-Woman. She gains [[aerial]] until the end of the round.",
-        "traits": "Superpower."
+        "flavor": "\"La gente pensa sempre che io possa volare. Non è così, ma so planare molto bene.\" -- Jessica Drew",
+        "name": "Planata",
+        "text": "<b>Azione Eroe</b>: Ripristina Spider-Woman e falle ottenere il tratto [[aereo]] fino alla fine del round.",
+        "traits": "Superpotere."
     },
     {
         "code": "04040",
-        "flavor": "\"Alright you bunch of losers. Who wants a piece of me?.\"",
+        "flavor": "\"E va bene, branco di perdenti. Chi di voi vuole un assaggio?\"",
         "name": "Spider-Girl",
-        "text": "<b>Response</b>: After you play Spider-Girl from your hand, stun and confuse a minion.",
+        "text": "<b>Risposta</b>: Dopo che hai giocato Spider-Girl dalla tua mano, stordisci e confondi 1 gregario.",
         "traits": "Avenger.",
         "subname": "Anya Corazon"
     },
     {
         "code": "04043",
-        "flavor": "\"You are in Wakanda now!\" -- T'Challa",
-        "name": "Press the Advantage",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 2 damage to an enemy. If that enemy is stunned or confused, draw 1 card.",
-        "traits": "Attack."
+        "flavor": "\"Sei nel Wakanda ora!\" -- T'Challa",
+        "name": "Sfruttare il Vantaggio",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 2 danni a un nemico. Se quel nemico è stordito o confuso, pesca una carta.",
+        "traits": "Attacco."
     },
     {
         "code": "04044",
-        "name": "Piercing Strike",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 3 damage to an enemy. This attack gains piercing.",
-        "traits": "Attack."
+        "name": "Colpo Perforante",
+        "text": "<b>Atacco Eroe</b> <i>(attacco)</i>: Infliggi 3 danni a un nemico. Questo attacco ottiene Perforante. (Scarta ogni carta status Robusto dal bersaglio prima di infliggere danni.)",
+        "traits": "Attacco."
     },
     {
         "code": "04045",
-        "flavor": "\"Seriously, what is it with New York? Would it kill you to invade Denver once?.\"",
+        "flavor": "\"Sul serio, cos'è questa fissa per New York? Che ci sarebbe di male a invadere Denver per una volta?.\"",
         "name": "Spider-Man",
-        "text": "<b>Response</b>: After you play Spider-Man from your hand, remove 3 [per_hero] threat from a side scheme.",
+        "text": "<b>Risposta</b>: Dopo che hai giocato Spider-Man dalla tua mano, rimuovi 3 [per_hero] minacce da una trama secondaria.",
         "traits": "Avenger.",
         "subname": "Peter Parker"
     },
     {
         "code": "04047",
-        "name": "Skilled Investigator",
-        "text": "Play under any player's control. Max 1 per player.\n<b>Hero Response</b>: After a side scheme is defeated, exhaust Skilled Investigator → draw 1 card.",
-        "traits": "Skill."
+        "name": "Abile Investigatore",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\n<b>Risposta Eroe</b>: Dopo che una trama secondaria è stata sconfitta, esaurisci Abile Investigatore → pesca 1 carta.",
+        "traits": "Abilità."
     },
     {
         "code": "04049",
-        "flavor": "\"Don't be scared, honey. Just think about how jealous the other kids will be when you tell them how Iron Man rescued you.\" -- Tony Stark",
-        "name": "Clear the Area",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from a scheme. If this removes the last threat on that scheme, draw 1 card.",
-        "traits": "Thwart."
+        "flavor": "\"Non aver paura, tesoro. Pensa a quanto saranno invidiosi gli altri bambini quando racconterai che sei stata salvata da Iron Man\" -- Tony Stark",
+        "name": "Sgombrare l'Area",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 2 minacce da una trama. Se farlo rimuove l'ultima minaccia da quella trama, pesca 1 carta.",
+        "traits": "Intervento."
     },
     {
         "code": "04155",
-        "name": "Adrenal Stims",
-        "text": "Setup.\n<b>Hero Action:</b> Discard this card and remove it from the campaign log → ready your hero and heal 5 damage from them.",
-        "traits": "Tech."
+        "name": "Stimolatori di Adrenalina",
+        "text": "Preparazione.\n<b>Azione Eroe:</b> Scarta questa carta e rimuovila dal Diario delle Campagne → ripristina il tuo eroe e curagli 5 danni",
+        "traits": "Tecnologia."
     },
     {
         "code": "04156",
-        "name": "Tactical Scanner",
-        "text": "Setup.\n<b>Hero Action:</b> Discard this card and remove it from the campaign log → draw 5 cards.",
-        "traits": "Tech."
+        "name": "Scanner Tattico",
+        "text": "Preparazione.\n<b>Azione Eroe:</b> Scarta questa carta e rimuovila dal Diario delle Campagne → pesca 5 carte",
+        "traits": "Tecnologia."
     },
     {
         "code": "04157",
-        "name": "Emergency Teleporter",
-        "text": "Setup.\n<b>Hero Action:</b> Discard this card and remove it from the campaign log → search your deck and discard pile for an ally, put it into play, and give it a tough status card.",
-        "traits": "Tech."
+        "name": "Teletrasporto d'Emergenza",
+        "text": "Preparazione.\n<b>Azione Eroe:</b> Scarta questa carta e rimuovila dal Diario delle Campagne → cerca nel tuo mazzo e nella pila degli scarti 1 alleato, mettilo in gioco e irrobustiscilo. Mescola il tuo mazzo.",
+        "traits": "Tecnologia."
     },
     {
         "code": "04158",
-        "name": "Laser Cannon",
-        "text": "Setup.\n<b>Hero Action:</b> Discard this card and remove it from the campaign log → deal 5 damage to the villain and each enemy engaged with you.",
-        "traits": "Tech."
+        "name": "Cannone Laser",
+        "text": "Preparazione.\n<b>Azione Eroe:</b> Scarta questa carta e rimuovila dal Diario delle Campagne → infliggi 5 danni al criminale e a ogni gregario impegnato con te.",
+        "traits": "Tecnologia."
     },
     {
         "code": "04159a",
-        "name": "Basic Thwart Upgrade",
-        "text": "Permanent. Setup.\nYou get +2 hit points.\nYour hero gets +1 THW.",
-        "traits": "Condition."
+        "name": "Miglioria Intervento Base",
+        "text": "Permanente. Preparazione.\nRicevi +2 punti ferita.\nIl tuo eroe riceve +1 INT.",
+        "traits": "Condizione."
     },
     {
         "code": "04159b",
-        "name": "Improved Thwart Upgrade",
-        "text": "Permanent. Setup.\nYou get +2 hit points.\nYour hero gets +1 THW.\n<b>Response:</b> After you defeat a side scheme, exhaust this card → draw 1 card.",
-        "traits": "Condition."
+        "name": "Miglioria Intervento Avanzato",
+        "text": "Permanente. Preparazione.\nRicevi +2 punti ferita.\nIl tuo eroe riceve +1 INT.\n<b>Risposta:</b> Dopo che hai sconfitto una trama secondaria, esaurisci questa carta → pesca 1 carta.",
+        "traits": "Condizione."
     },
     {
         "code": "04160a",
-        "name": "Basic Attack Upgrade",
-        "text": "Permanent. Setup.\nYou get +1 hit points.\nYour hero gets +1 ATK.",
-        "traits": "Condition."
+        "name": "Miglioria Attacco Base",
+        "text": "Permanente. Preparazione.\nRicevi +1 punti ferita.\nIl tuo eroe riceve +1 ATT.\n",
+        "traits": "Condizione."
     },
     {
         "code": "04160b",
-        "name": "Improved Attack Upgrade",
-        "text": "Permanent. Setup.\nYou get +1 hit points.\nYour hero gets +1 ATK.\n<b>Hero Response:</b> After you defeat a minion, exhaust this card → draw 1 card.",
-        "traits": "Condition."
+        "name": "Miglioria Attacco Avanzato",
+        "text": "Permanente. Preparazione.\nRicevi +1 punti ferita.\nIl tuo eroe riceve +1 ATT.\n<b>Risposta:</b> Dopo che hai sconfitto un gregario, esaurisci questa carta → pesca 1 carta.",
+        "traits": "Condizione."
     },
     {
         "code": "04161a",
-        "name": "Basic Defense Upgrade",
-        "text": "Permanent. Setup.\nYou get +3 hit points.\nYour hero gets +1 DEF.",
-        "traits": "Condition."
+        "name": "Miglioria Difesa Base",
+        "text": "Permanente. Preparazione.\nRicevi +3 punti ferita.\nIl tuo eroe riceve +1 DIF.",
+        "traits": "Condizione."
     },
     {
         "code": "04161b",
-        "name": "Improved Defense Upgrade",
-        "text": "Permanent. Setup.\nYou get +3 hit points.\nYour hero gets +1 DEF.\n<b>Hero Response:</b> After you defend against an attack, exhaust this card → draw 1 card.",
-        "traits": "Condition."
+        "name": "Miglioria Difesa Avanzato",
+        "text": "Permanente. Preparazione.\nRicevi +3 punti ferita.\nIl tuo eroe riceve +1 DIF.\n<b>Risposta:</b> Dopo che hai difeso da un attacco, esaurisci questa carta → pesca 1 carta.",
+        "traits": "Condizione."
     },
     {
         "code": "04162a",
-        "name": "Basic Recovery Upgrade",
-        "text": "Permanent. Setup.\nYou get +4 hit points.\nYour alter-ego gets +1 REC.",
-        "traits": "Condition."
+        "name": "Miglioria Recupero Base",
+        "text": "Permanente. Preparazione.\nRicevi +4 punti ferita.\nIl tuo alter ego riceve +1 REC.",
+        "traits": "Condizione."
     },
     {
         "code": "04162b",
-        "name": "Improved Recovery Upgrade",
-        "text": "Permanent. Setup.\nYou get +4 hit points.\nYour alter-ego gets +1 REC.\n<b>Response:</b> After you use your REC, exhaust this card → draw 1 card.",
-        "traits": "Condition."
+        "name": "Miglioria Recupero Avanzato",
+        "text": "Permanente. Preparazione.\nRicevi +4 punti ferita.\nIl tuo alter ego riceve +1 REC.\n<b>Risposta:</b> Dopo che hai usato il tuo REC, esaurisci questa carta → pesca 1 carta.",
+        "traits": "Condizione."
     },
     {
         "code": "04163",
-        "flavor": "\"A beautiful parasite growing inside the world's most secure computer systems.\" -- Arnim Zola",
-        "name": "Zola's Algorithm",
-        "text": "<b>Alter-Ego Action</b> Exhaust your alter-ego and spend a [mental] resource → discard this card."
+        "flavor": "\"Uno splendido parassita che cresce all'interno dei sistemi informatici più potenti del mondo.\" -- Arnim Zola",
+        "name": "Algoritmo di Zola",
+        "text": "<b>Azione Alter Ego</b> Esaurisci il tuo alter ego e spendi [mental] → scarta questa carta."
     },
     {
         "code": "04164",
-        "flavor": "\"This is going to need sutures.\" -- Stephen Strange",
-        "name": "Medical Emergency",
-        "text": "<b>Forced Response:</b> At the end of your turn, take 1 damage if you are in hero form.\n<b>Alter-Ego Action:</b> Discard the top 5 cards of your deck and spend a [physical] resource → discard this card."
+        "flavor": "\"Qui serviranno dei punti di sutura.\" -- Stephen Strange",
+        "name": "Emergenza Medica",
+        "text": "<b>Risposta Obbligata:</b> Alla fine del tuo turno, se sei nella sembianza di eroe, subisci 1 danno.\n<b>Azione Alter Ego:</b> Scarta 5 carte dalla cima del tuo mazzo e spendi [physical] → scarta questa carta."
     },
     {
         "code": "04165",
-        "name": "Martial Law",
-        "text": "Your hand size is reduced by 1.\n<b>Alter-Ego Action:</b> Deal yourself an encounter card and spend a [energy] resource → discard this card."
+        "flavor": "\"Portatelo via per interrogarlo\" -- Soldato dell'Hydra",
+        "name": "Legge Marziale",
+        "text": "Riduci di 1 il tuo limite di mano.\n<b>Azione Alter Ego:</b> Distribuisci 1 carta incontro a te stesso e spendi [energy] → scarta questa carta."
     },
     {
         "code": "04166",
-        "flavor": "\"These dissenters breed conflict. They are your true enemies.\" -- Hydra News Media",
-        "name": "Anti-Hero Propaganda",
-        "text": "Your hero gets -1 THW, -1 ATK, and -1 DEF.\n<b>Alter-Ego Action:</b> Take 2 damage and spend a [wild] resource → discard this card."
+        "flavor": "\"Questi dissidenti fomentano i conflitti. Sono loro i vostri veri nemici.\" -- Hydra News Media",
+        "name": "Propaganda Anti-Eroi",
+        "text": "Il tuo ereo riceve -1 INT, -1 ATT e -1 DIF.\n<b>Azione Alter Ego:</b>Subisci 2 danni e spendi [wild] → scarta questa carta."
     }
 ]
