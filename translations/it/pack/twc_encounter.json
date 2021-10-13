@@ -1,348 +1,351 @@
 [
     {
         "code": "07001",
-        "name": "Breakout",
-        "text": "[star] <b>Forced Response</b>: After step one of the villain phase, place 1 threat on each side scheme. Move the active counter to the villain whose scheme has the most threat. <i>(If there is a tie, the first player chooses.)</i>\n<b>If this stage is completed, the players lose the game</b>",
-        "back_text": "<b>Scenario Contents</b>: Wrecher A, Thunderball A, Piledriver A, and Bulldozer A as villains. <i>(Version B for increased difficulty.)</i> Wrecker, Thunderball, Piledriver, and Bulldozer encounter decks.\n<b>Setup</b>: Put the Day of Reckoning, Thunderstruck, Pile It On!, and Clear the Road side schemes into play. Place the active counter on Wrecker. Advance to stage 1B."
+        "name": "Evasione",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo il passo 1 della Fase del Criminale, Colloca 1 minaccia su ogni trama secondaria. Sposta il gettone attivo sul criminale la cui trama secondaria possiede più minacce. <i>(in caso di partià, è il primo giocatore a scegliere.)</i>\n<b>Se questo stadio è completo, i giocatori perdono la partita</b>",
+        "back_text": "<b>Contenuto</b>: Demolitore A, Thunderball A, Piledriver A, e Bulldozer A come criminali. <i>(Versione B per incrementare la difficoltà.)</i> Mazzi degli incontri di demolitore, Thunderball, Piledriver, e Bulldozer.\n<b>Preparazione</b>: Metti in gioco le trame secondarie Giorno della Resadei Conti, thunderball colpisce, Pilediver all'Assalto! e Sgombrare la Strada. Colloca il gettone attivo su Demolitore. Proseguire con lo stadio 1B."
     },
     {
         "code": "07002",
-        "name": "Wrecker",
-        "traits": "Wrecking Crew.",
-        "attack_text": "While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
-        "scheme_text": "When Wrecker schemes, place the threat on his side scheme instead of the main scheme."
+        "name": "Demolitore",
+        "traits": "Squadra di Demolizione",
+        "attack_text": "Mentre Demolitore attacca, se l'attacco non è difeso, riceve +2 ATT.",
+        "scheme_text": "Quando Demolitore trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale"
     },
     {
         "code": "07003",
-        "name": "Wrecker",
-        "traits": "Wrecking Crew.",
-        "attack_text": "While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
-        "scheme_text": "When Wrecker schemes, place the threat on his side scheme instead of the main scheme."
+        "name": "Demolitore",
+        "traits": "Squadra di Demolizione",
+        "attack_text": "Mentre Demolitore attacca, se l'attacco non è difeso, riceve +2 ATT.",
+        "scheme_text": "Quando Demolitore trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale"
     },
     {
         "code": "07004",
-        "name": "Day of Reckoning",
-        "text": "<b>Wrecker's Side Scheme.</b>\nThis card cannot leave play while Wrecker is in play.\nHard Hitter -- <b>Forced Response</b>: After threat is placed here, if there is 10 or more threat here, deal 2 damage to each friendly character. Remove all but 3 threat from this scheme."
+        "name": "Resa dei Conti",
+        "text": "<b><i>Trama secondaria di Demolitore.</i></b>\n<i>Mentre Demolitore è in gioco, questa carta non può uscire dal gioco.</i>\n<i>Picchia Duro</i> -- <b>Risposta Obbligata:/b>: Dopo che 1 o più minacce sono state collocate su questa trama, se ci sono 10 o più minacce su questa trama, infliggi 2 danni a ogni personaggio amico. Rimuovi da questa trama tutte le minacce tranne 3,"
     },
     {
         "code": "07005",
-        "name": "Held Hostage",
-        "text": "Attach to the active villain's side scheme.\nThreat cannot be removed from attacked scheme by thwarting.\n<b>Hero Action</b>: The villain corresponding to the attached side scheme attacks you. Then discard this card."
+        "name": "Preso in Ostaggio",
+        "text": "Assegna alla trama secondaria del criminale attivo.\nNon è possibile rimuovere minacce dalla trama con questa aggiunta tramite un intervento.\n<b>Azione Eroe</b>: Il criminale corrispondente alla trama secondaria con questa aggiunta ti attacca. Poi scarta questa carta"
     },
     {
         "code": "07006",
-        "name": "Magic Crowbar",
-        "text": "Attach to Wrecker.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
-        "attack_text": "<b>Forced Response</b>: After Wrecker attacks, place 1 threat on the side scheme with the least threat."
+        "name": "piede di Porco Magico",
+        "text": "assegna a demolitore.\n<b>Azione Eroe</b>: Esaurisci il tuo eroe e scarta 1 carta casuale dalla tua mano → scarta questa carta.",
+        "attack_text": "<b>Risposta obbligata</b>: Dopo che demolitore ha attaccato, colloca 1 minaccia sulla trama secondaria con meno minacce."
     },
     {
         "code": "07007",
-        "name": "Wrecker's Command",
-        "text": "Attach to Wrecker.\n<b>Hero Action</b>: Spend [physical] [physical] resources → discard this card.",
-        "scheme_text": "<b>Forced Response</b>: After Wrecker schemes, place 1 threat on each other villain's side scheme."
+        "name": "Commando di Demolitore",
+        "text": "Assegna a Demolitore.\n<b>Azione Eroe</b>: Spendi [physical] [physical] → scarta questa carta.",
+        "scheme_text": "<b>Risposta Obbligata</b>: Dopo che Demolitore ha tramato, colloca 1 minnaccia sulla trama secondaria di ogni altro criminale."
     },
     {
         "code": "07008",
-        "name": "Corrupt Prison Guard",
-        "text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>",
-        "traits": "Traitor."
+        "name": "Guardia Carceraria Corrotta",
+        "text": "Guardia. <i>(Mentre questo gregario è impegnato con te, non puoi attaccare il criminale.)</i>",
+        "traits": "Traditore."
     },
     {
         "code": "07009",
-        "name": "Escaped Convict",
-        "text": "Surge",
-        "traits": "Criminal.",
-        "boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card."
+        "name": "Carcerato in Fuga",
+        "text": "Impulso",
+        "traits": "Criminale.",
+        "boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Se sei nella sembianza di ere, quel criminale ti attacca dopo questo attacco. quell'attacco non riceve la carta potenziamento."
     },
     {
         "code": "07010",
-        "name": "Buddy System",
-        "text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).",
-        "boost_text": "Move the active counter to the villain whose side scheme has the least threat."
+        "name": "Lavoro di Coppia",
+        "text": "<b>Quando Rivelata</b>: Rivela 1 carta dalla cima del mazzo del criminale la cui trama secondaria possiede meno minacce (2 carte dalla cima del suo mazzo se invece è l'unico criminale in gioco).",
+        "boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce."
     },
     {
         "code": "07011",
-        "name": "Chaos In the Prison",
-        "text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge.",
-        "boost_text": "If this attack is undefended, discard an upgrade you control."
+        "name": "Caos nella Prigione",
+        "text": "<b>Quando rivelata</b>: Scegli se scartare 1 miglioria che controlli oppure collocare 1 minaccia sulla trama secondaria del criminale attivo per ogni miglioria che controlli. Se non controlli alcuna miglioria, questa carta ottiene Impulso.",
+        "boost_text": "Se questo attacco è non difeso, scarta 1 miglioria che controlli."
     },
     {
         "code": "07012",
-        "name": "Crowbar Toss",
-        "text": "<b>When Revealed (Alter-Ego)</b>: Wrecker schemes. Then, move the active villain counter to the villain whose side scheme has the least threat.\n<b>When Revealed (Hero)</b>: Wrecker attacks you. Then, move the active villain counter to the villain whose side scheme has the least threat."
+        "name": "Lancio del Piede di Porco",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Demolitore trama. Poi sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce.\n<b>Quando Rivelata (Eroe)</b>: Demolitore ti attacca. Poi sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce."
     },
     {
         "code": "07013",
-        "name": "Get Wrecked!",
-        "text": "<b>When Revealed (Alter-Ego)</b>: The villain whose side scheme has the most threat schemes.\n<b>When Revealed (Hero)</b>: The villain whose side scheme has the least threat attacks you."
+        "name": "Ti Demolisco!",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Il criminale la cui trama secondaria possiede meno minacce trama.\n<b>Quando Rivelata (Eroe)</b>: Il criminale la cui trama secondaria possiede meno minacce ti attacca."
     },
     {
         "code": "07014",
-        "name": "I've Been Waiting For This!",
-        "text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card.",
-        "boost_text": "Move the active counter to the villain with the least threat on his side scheme. That villain schemes."
+        "name": "Non Vedevo l'Ora",
+        "text": "<b>Quando Rivelata</b>: Il criminale attivo si cura 3 danni. Irrobustisci quel criminale.",
+        "boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Quel criminale trama."
     },
     {
         "code": "07015",
-        "name": "Mystical Link",
-        "text": "<b>When Revealed</b>: Place 2 threat on each side scheme.",
-        "boost_text": "Wrecker gets +3 ATK for this activation unless you place 2 threat on his side scheme."
+        "name": "Legame Mistico",
+        "text": "<b>Quando Rivelata</b>: Colloca 2 minacce su ogni trama secondaria.",
+        "boost_text": "Demolitore riceve +3 ATT per questa attivazione a meno che non collochi 2 minacce sulla sua trama secondaria."
     },
     {
         "code": "07016",
-        "name": "You're Dead Meat!",
-        "text": "<b>When Revealed</b>: Deal 1 damage to the hero or ally with the fewest remaining hit points. If that character is defeated this way, place 3 threat on Wrecker's side scheme."
+        "name": "\"Sei Carne Morta!\"",
+        "text": "<b>Quando Rivelata</b>: Infliggi 1 danno all'eroe o alleato con meno punti ferita rimanenti. Se quel personaggio è sconfitto in questo modo, colloca 3 minacce sulla trama secondaria di Demolitore"
     },
     {
         "code": "07017",
         "name": "Thunderball",
-        "traits": "Wrecking Crew.",
-        "attack_text": "<b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
-        "scheme_text": "When Thunderball schemes, place the threat on his side scheme instead of the main scheme."
+        "traits": "Squadra di Demolizione",
+        "attack_text": "<b>Risposta Obbligata</b>: Dopo che Thunderball ti ha attaccato, infliggi 1 danno a ogni personaggio che controlli.",
+        "scheme_text": "Quando Thunderball trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale"
     },
     {
         "code": "07018",
         "name": "Thunderball",
-        "traits": "Wrecking Crew.",
-        "attack_text": "<b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
-        "scheme_text": "When Thunderball schemes, place the threat on his side scheme instead of the main scheme."
+        "traits": "Squadra di Demolizione",
+        "attack_text": "<b>Risposta Obbligata</b>: Dopo che Thunderball ti ha attaccato, infliggi 1 danno a ogni personaggio che controlli.",
+        "scheme_text": "Quando Thunderball trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale"
     },
     {
         "code": "07019",
-        "name": "Thunderstruck",
-        "text": "<b>Thunderball's Side Scheme.</b>\nThis card cannot leave play while Thunderball is in play.\nGamma Blast -- <b>Forced Response</b>: After threat is placed here, if there is 10 or more threat here, stun each friendly character. Remove all but 3 threat from this scheme."
+        "name": "Thunderball colpisce",
+        "text": "<b><i>Trama Secondaria di Thunderball.</i></b>\n<i>Mentre Thunderball è in gioco, questa carta non può uscire dal gioco.</i>\n<i>Scarica Gamma</i> -- <b>Risposta Obbligata</b>: Dopo che 1 o più minacce sono state collocate su questa trama, se su questa trama ci sono 10 o più minacce, stordisci ogni personaggio amico. Rimuovi da questa trama tutte le minacce tranne 3.."
     },
     {
         "code": "07020",
-        "name": "Ball and Chain",
-        "text": "Attach to Thunderball.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
-        "traits": "Weapon.",
-        "attack_text": "<b>Forced Response</b>: After Thunderball attacks, place 1 threat on the main scheme."
+        "name": "Palla e Catena",
+        "text": "Assegna a Thunderball.\n<b>Azione Eroe</b>: Esaurisci il tuo eroe e scarta 1 carta casuale dalla tua mano → scarta questa carta.",
+        "traits": "Arma.",
+        "attack_text": "<b>Risposta Obbligata</b>: Dopo che Thunderball ha attaccato, colloca 1 minaccia sulla trama principale."
     },
     {
         "code": "07021",
-        "name": "Held Hostage",
-        "text": "Attach to the active villain's side scheme.\nThreat cannot be removed from attached scheme by thwarting.\n<b>Hero Action</b>: The villain corresponding to the attached side scheme attacks you. Then, discard this card."
+        "name": "Preso in Ostaggio",
+        "text": "Assegna alla trama secondaria del criminale attivo.\nNon è possibile rimuovere minacce dalla trama con questa aggiunta tramite un intervento.\n<b>Azione Eroe</b>: Il criminale corrispondente alla trama secondaria con questa aggiunta ti attacca. Poi scarta questa carta"
     },
     {
         "code": "07022",
-        "name": "Radioactive Buildup",
-        "text": "Attach to Thunderball.\nExcess damage dealt by Thunderball is placed as threat on his corresponding side scheme.",
-        "attack_text": "<b>Forced Response</b>: After Thunderball attacks, discard this card."
+        "name": "Picco di radioattività",
+        "text": "Assegna a Thunderball.\nI danni in eccesso inflitti da Thunderball vengono collocati come minacce sulla sua trama secondaria.",
+        "traits": "Condizione.",
+        "attack_text": "<b>Risposta Obbligata</b>: Dopo che Thunderball ha attaccato, scarta questa carta."
     },
     {
         "code": "07023",
-        "name": "Corrupt Prison Guard",
-        "text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>",
-        "traits": "Traitor."
+        "name": "Guardia Carceraria Corrotta",
+        "text": "Guardia. <i>(Mentre questo gregario è impegnato con te, non puoi attaccare il criminale.)</i>",
+        "traits": "Traditore."
     },
     {
         "code": "07024",
-        "name": "Escaped Convict",
-        "text": "Surge",
-        "traits": "Criminal.",
-        "boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card."
+        "name": "Carcerato in Fuga",
+        "text": "Impulso",
+        "traits": "Criminale.",
+        "boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Se sei nella sembianza di ere, quel criminale ti attacca dopo questo attacco. quell'attacco non riceve la carta potenziamento."
     },
     {
         "code": "07025",
-        "name": "Buddy System",
-        "text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).",
-        "boost_text": "Move the active counter to the villain whose side scheme has the least threat."
+        "name": "Lavoro di Coppia",
+        "text": "<b>Quando Rivelata</b>: Rivela 1 carta dalla cima del mazzo del criminale la cui trama secondaria possiede meno minacce (2 carte dalla cima del suo mazzo se invece è l'unico criminale in gioco).",
+        "boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce."
     },
     {
         "code": "07026",
-        "name": "Chaos In the Prison",
-        "text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge.",
-        "boost_text": "If this attack is undefended, discard an upgrade you control."
+        "name": "Caos nella Prigione",
+        "text": "<b>Quando rivelata</b>: Scegli se scartare 1 miglioria che controlli oppure collocare 1 minaccia sulla trama secondaria del criminale attivo per ogni miglioria che controlli. Se non controlli alcuna miglioria, questa carta ottiene Impulso.",
+        "boost_text": "Se questo attacco è non difeso, scarta 1 miglioria che controlli."
     },
     {
         "code": "07027",
-        "name": "Energy Projectiles",
-        "text": "<b>When Revealed</b>: Deal 1 damage to each friendly character you control.",
-        "boost_text": "Deal 1 damage to the defending character."
+        "name": "Proiettili a Energia",
+        "text": "<b>Quando Rivelata</b>: Infliggi 1 danno a ogni personaggio amico che controlli.",
+        "boost_text": "Infliggi 1 danno al personaggio difensore."
     },
     {
         "code": "07028",
-        "name": "Get Wrecked!",
-        "text": "<b>When Revealed (Alter-Ego)</b>: The villain whose side scheme has the most threat schemes.\n<b>When Revealed (Hero)</b>: The villain whose side scheme has the least threat attacks you."
+        "name": "Ti Demolisco!",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Il criminale la cui trama secondaria possiede meno minacce trama.\n<b>Quando Rivelata (Eroe)</b>: Il criminale la cui trama secondaria possiede meno minacce ti attacca."
     },
     {
         "code": "07029",
-        "name": "I've Been Waiting For This!",
-        "text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card.",
-        "boost_text": "Move the active counter to the villain with the least threat on his side scheme. That villain schemes."
+        "name": "Non Vedevo l'Ora",
+        "text": "<b>Quando Rivelata</b>: Il criminale attivo si cura 3 danni. Irrobustisci quel criminale.",
+        "boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Quel criminale trama."
     },
     {
         "code": "07030",
-        "name": "Lightning Blast",
-        "text": "<b>When Revealed (Alter-Ego)</b>: Place 3 threat on the side scheme with the most threat.\n<b>When Revealed (Hero)</b>: Thunderball attacks you. If this attack is undefended, place 3 threat on Thunderball's side scheme."
+        "name": "Scarica di Fulmini",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Colloca 3 minacce sulla trama secondaria con più minacce.\n<b>Quando Rivelata (Eroe)</b>: Thunderball ti attacca. Se questo attacco non è difeso, colloca 3 minacce sulla trama secondaria di Thunderball."
     },
     {
         "code": "07031",
-        "name": "Tactical Prowess",
-        "text": "<b>When Revealed</b>: Move all threat from the side scheme with the least threat to the side scheme with the most threat. If that scheme's \"<b>Forced Response</b>\" ability is not triggered this way, this card gains surge."
+        "name": "Potenza Tattica",
+        "text": "<b>Quando Rivelata</b>: Sposta tutte le minacce dalla trama secondaria con meno minacce alla trama secondaria con più minacce. Se la capacità \"<b>Risposta Obbligata</b>\" di quella trama non è innescata in questo modo, questa carta ottiene Impulso."
     },
     {
         "code": "07032",
         "name": "Piledriver",
-        "text": "Retaliate 1.",
-        "traits": "Wrecking Crew.",
-        "scheme_text": "When Piledriver schemes, place the threat on his side scheme instead of the main scheme."
+        "text": "Ritorsione 1.",
+        "traits": "Squadra di Demolizione",
+        "scheme_text": "Quando Piledriver trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale."
     },
     {
         "code": "07033",
         "name": "Piledriver",
-        "text": "Retaliate 1.",
-        "traits": "Wrecking Crew.",
-        "scheme_text": "When Wrecker schemes, place the threat on his side scheme instead of the main scheme."
+        "text": "Ritorsione 1.",
+        "traits": "Squadra di Demolizione",
+        "scheme_text": "Quando Piledriver trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale."
     },
     {
         "code": "07034",
-        "name": "Pile It On!",
-        "text": "<b>Piledriver's Side Scheme.</b>\nThis card cannot leave play while Wrecker is in play.\nPile Drive -- <b>Forced Response</b>: After threat is placed here, if there is 10 or more threat here, each player discards the upgrade or support they control with the highest cost. Remove all but 3 threat from this scheme."
+        "name": "Piledriver all'Assalto!",
+        "text": "<i><b>Trama secondaria di Pilediver.</b></i>\n<i>Mentre Piledriver è in gioco, questa carta non può uscire dal gioco.</i>.\n<i>Perforazione</i> -- <b>Risposta Obbligata</b>: Dopo che 1 o più minacce sono state collocate su questa trama, se ci sono 10 o più minacce su questa trama, ogni giocatore scarta la carta miglioria o supporto dal costo più alto che controlla. Rimuovi da questa trama tutte le minacce tranne 3."
     },
     {
         "code": "07035",
-        "name": "Distracting Taunts",
-        "text": "Attach to Piledriver.\nPiledriver gets +3 hit points. Players cannot attack other villains.\n<b>Response</b>: After your hero attacks Piledriver, spend [physical] [physical] resources → discard this card."
+        "name": "Provocazioni e Diversivi",
+        "text": "Assegna a Piledriver.\nPiledriver riceve +3 punti ferita. I giocatori non possono attaccare gli altri criminali\n<b>Risposta</b>: Dopo che il tuo eroe ha attaccato Piledriver, spendi [physical] [physical] → scarta questa carta."
     },
     {
         "code": "07036",
-        "name": "Held Hostage",
-        "text": "Attach to the active villain side scheme.\nThreat cannot be removed from attached scheme by thwarting.\n<b>Hero Action</b>: The villain corresponding to the attached side scheme attacks you. Then, discard this card."
+        "name": "Preso in Ostaggio",
+        "text": "Assegna alla trama secondaria del criminale attivo.\nNon è possibile rimuovere minacce dalla trama con questa aggiunta tramite un intervento.\n<b>Azione Eroe</b>: Il criminale corrispondente alla trama secondaria con questa aggiunta ti attacca. Poi scarta questa carta"
     },
     {
         "code": "07037",
-        "name": "Corrupt Prison Guard",
-        "text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>",
-        "traits": "Traitor."
+        "name": "Guardia Carceraria Corrotta",
+        "text": "Guardia. <i>(Mentre questo gregario è impegnato con te, non puoi attaccare il criminale.)</i>",
+        "traits": "Traditore."
     },
     {
         "code": "07038",
-        "name": "Escaped Convict",
-        "text": "Surge",
-        "traits": "Criminal.",
-        "boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card."
+        "name": "Carcerato in Fuga",
+        "text": "Impulso",
+        "traits": "Criminale.",
+        "boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Se sei nella sembianza di ere, quel criminale ti attacca dopo questo attacco. quell'attacco non riceve la carta potenziamento."
     },
     {
         "code": "07039",
-        "name": "Buddy System",
-        "text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).",
-        "boost_text": "Move the active counter to the villain whose side scheme has the least threat."
+        "name": "Lavoro di Coppia",
+        "text": "<b>Quando Rivelata</b>: Rivela 1 carta dalla cima del mazzo del criminale la cui trama secondaria possiede meno minacce (2 carte dalla cima del suo mazzo se invece è l'unico criminale in gioco).",
+        "boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce."
     },
     {
         "code": "07040",
-        "name": "Get Wrecked!",
-        "text": "<b>When Revealed (Alter-Ego)</b>: The villain whose side scheme has the most threat schemes.\n<b>When Revealed (Hero)</b>: The villain whose side scheme has the least threat attacks you."
+        "name": "Ti Demolisco!",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Il criminale la cui trama secondaria possiede meno minacce trama.\n<b>Quando Rivelata (Eroe)</b>: Il criminale la cui trama secondaria possiede meno minacce ti attacca."
     },
     {
         "code": "07041",
-        "name": "I've Been Waiting For This!",
-        "text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card.",
-        "boost_text": "Move the active counter to the villain with the least threat on his side scheme. That villain schemes."
+        "name": "Non Vedevo l'Ora",
+        "text": "<b>Quando Rivelata</b>: Il criminale attivo si cura 3 danni. Irrobustisci quel criminale.",
+        "boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Quel criminale trama."
     },
     {
         "code": "07042",
-        "name": "Oversized Hands",
-        "text": "<b>When Revealed</b>: Discard the support you control with the highest cost. If no support was discarded this way, place 2 threat on the active villain's scheme.",
-        "boost_text": "Discard a support you control."
+        "name": "Mani Fuori scala",
+        "text": "<b>Quando Rivelata</b>: Scarta il supporto dal costo più alto che controlli. Se nessun supporto è stato scartato in questo modo, colloca 2 minacce sulla trama secondaria del criminale attivo.",
+        "boost_text": "Scarta 1 supporto che controlli."
     },
     {
         "code": "07043",
-        "name": "Escape Plan",
-        "text": "<b>When Revealed</b>: You are confused. If you are already confused, Piledriver schemes.",
-        "boost_text": "Give the active villain a tough status card. If they already have a tough status card, place 2 threat on their scheme."
+        "name": "Piano di Fuga",
+        "text": "<b>Quando Rivelata</b>: Sei confuso. Se sei già confuso, Piledriver trama.",
+        "boost_text": "Irrobustisci il criminale attivo. Se è già robusto, colloca 2 minacce sulla sua trama secondaria."
     },
     {
         "code": "07044",
-        "name": "Pummel",
-        "text": "<b>When Revealed (Alter-Ego)</b>: Piledriver schemes. If Piledriver is tough, he gets +2 SCH for this activation.\n<b>When Revealed (Hero)</b>: Piledriver attacks you. If Piledriver is tough, he gets +2 ATK for this activation."
+        "name": "Percussione",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Piledriver trama. Se Piledriver è robusto, riceve +2 TRA per questa attivazione.\n<b>Quando Rivelata (Eroe)</b>: Piledriver ti attacca. Se Piledriver è robusto, riceve +2 ATT per questa attivazione."
     },
     {
         "code": "07045",
-        "name": "Uncanny Resilience",
-        "text": "<b>When Revealed</b>: Remove each stunned and confused status card from each villain. If no status cards were removed, this card gains surge.",
-        "boost_text": "You are confused."
+        "name": "Resilienza Incredibile",
+        "text": "<b>Quando Rivelata</b>: rimuovi da ogni criminale ogni carta status Stordito e Confuso. Se nessuna carta status è stata rimossa in questo modo, questa carta ottiene Impulso.",
+        "boost_text": "Sei confuso."
     },
     {
         "code": "07046",
         "name": "Bulldozer",
-        "traits": "Wrecking Crew.",
-        "attack_text": "<b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
-        "scheme_text": "When Piledriver schemes, place the threat on his side scheme instead of the main scheme."
+        "traits": "Squadra di Demolizione",
+        "attack_text": "<b>Interruzione Obbligata</b>: Quando Bulldozer attacca, l'attacco ottiene Sopraffazione..",
+        "scheme_text": "Quando Bulldozer trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale."
     },
     {
         "code": "07047",
         "name": "Bulldozer",
-        "traits": "Wrecking Crew.",
-        "attack_text": "<b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
-        "scheme_text": "When Bulldozer schemes, place the threat on his side scheme instead of the main scheme."
+        "traits": "Squadra di Demolizione",
+        "attack_text": "<b>Interruzione Obbligata</b>: Quando Bulldozer attacca, l'attacco ottiene Sopraffazione..",
+        "scheme_text": "Quando Bulldozer trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale."
     },
     {
         "code": "07048",
-        "name": "Clear the Road",
-        "text": "<b>Bulldozer's Side Scheme.</b>\nThis card cannot leave play while Bulldozer is in play.\nCharge! -- <b>Forced Response</b>: After threat is placed here, if there is 10 or more threat here, each player must discard the top 10 cards of their deck. Remove all but 3 threat from this scheme."
+        "name": "Sgombrare la Strada",
+        "text": "<i><b>Trama Secondaria di Bulldozer.</i></b>\n<i>Mentre Bulldozer è in gioco, questa carta non può uscire dal gioco.</i>.\n<i>Carica!</i> -- <b>Risposta Obbligata</b>: Dopo che 1 o più minacce sono state collocate su questa trama, se ci sono 10 o più minacce su questa trama, ogni giocatore deve scartare 10 carte dalla cima del suo mazzo. Rimuovi da questa trama tutte le minacce tranne 3."
     },
     {
         "code": "07049",
-        "name": "Bulldozer's Helmet",
-        "text": "Attach to Bulldozer.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
-        "attack_text": "<b>Forced Response</b>: After Bulldozer attacks you, discard 1 card from the top of your deck for each point of damage dealt by this attack."
+        "name": "Elmo di Bulldozer",
+        "text": "Assegna a Bulldozer.\n<b>Azione Eroe</b>: Esaurisci il tuo eroe e scarta 1 carta casuale dalla tua mano → scarta questa carta.",
+        "traits": "Armatura.",
+        "attack_text": "<b>Risposta Obbligata</b>: Dopo che Bulldozer ti ha attaccato, scarta 1 carta dalla cima del tuo mazzo per ogni danno inflitto da quest'attacco."
     },
     {
         "code": "07050",
-        "name": "Held Hostage",
-        "text": "Attach to the active villain side scheme.\nThreat cannot be removed from attached scheme by thwarting.\n<b>Hero Action</b>: The villain corresponding to the attached side scheme attacks you. Then, discard this card."
+        "name": "Preso in Ostaggio",
+        "text": "Assegna alla trama secondaria del criminale attivo.\nNon è possibile rimuovere minacce dalla trama con questa aggiunta tramite un intervento.\n<b>Azione Eroe</b>: Il criminale corrispondente alla trama secondaria con questa aggiunta ti attacca. Poi scarta questa carta"
     },
     {
         "code": "07051",
-        "name": "Ramming Speed",
-        "text": "Attach to Bulldozer.",
-        "attack_text": "<b>Forced Interrupt</b>: When Bulldozer attacks you, you must defend against Bulldozer's attacks with an ally you control, if able.\n<b>Forced Response</b>: After Bulldozer attacks you, discard this card."
+        "name": "Velocità di Speronamento",
+        "text": "Assegna a Bulldozer. ",
+        "traits": "Condizione.",
+        "attack_text": "<b>Interruzione Obbligata</b>: quando bulldozer ti attacca, devi difendere dagli attacchi di Bulldozer con un alleato che controlli, se possibile.\n<b>Risposta Obbligata</b>: Dopo che Bulldozer ti ha attaccato, scarta questa carta."
     },
     {
         "code": "07052",
-        "name": "Corrupt Prison Guard",
-        "text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>",
-        "traits": "Traitor."
+        "name": "Guardia Carceraria Corrotta",
+        "text": "Guardia. <i>(Mentre questo gregario è impegnato con te, non puoi attaccare il criminale.)</i>",
+        "traits": "Traditore."
     },
     {
         "code": "07053",
-        "name": "Escaped Convict",
-        "text": "Surge",
-        "traits": "Criminal.",
-        "boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card."
+        "name": "Carcerato in Fuga",
+        "text": "Impulso",
+        "traits": "Criminale.",
+        "boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Se sei nella sembianza di ere, quel criminale ti attacca dopo questo attacco. quell'attacco non riceve la carta potenziamento."
     },
     {
         "code": "07054",
-        "name": "Buddy System",
-        "text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).",
-        "boost_text": "Move the active counter to the villain whose side scheme has the least threat."
+        "name": "Lavoro di Coppia",
+        "text": "<b>Quando Rivelata</b>: Rivela 1 carta dalla cima del mazzo del criminale la cui trama secondaria possiede meno minacce (2 carte dalla cima del suo mazzo se invece è l'unico criminale in gioco).",
+        "boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce."
     },
     {
         "code": "07055",
-        "name": "Bull Rush",
-        "text": "<b>When Revealed (Alter-Ego)</b>: Bulldozer schemes. Discard the top card of your deck for each threat placed by this activation.\n<b>When Revealed (Hero)</b>: Bulldozer attacks you. Discard the top card of your deck for each damage dealt by this attack."
+        "name": "Carica del Toro",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Bulldozer trama. Scarta 1 carta dalla cima del tuo mazzo per ogni minaccia collocata da questa attivazione.\n<b>Quando Rivelata (Eroe)</b>: Bulldozer ti attacca. Scarta 1 carta dalla cima del tuo mazzo per ogni danno inflitto da questo attacco."
     },
     {
         "code": "07056",
-        "name": "Chaos In the Prison",
-        "text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge.",
-        "boost_text": "If this attack is undefended, discard an upgrade you control."
+        "name": "Caos nella Prigione",
+        "text": "<b>Quando rivelata</b>: Scegli se scartare 1 miglioria che controlli oppure collocare 1 minaccia sulla trama secondaria del criminale attivo per ogni miglioria che controlli. Se non controlli alcuna miglioria, questa carta ottiene Impulso.",
+        "boost_text": "Se questo attacco è non difeso, scarta 1 miglioria che controlli."
     },
     {
         "code": "07057",
-        "name": "Get Wrecked!",
-        "text": "<b>When Revealed (Alter-Ego)</b>: The villain whose side scheme has the most threat schemes.\n<b>When Revealed (Hero)</b>: The villain whose side scheme has the least threat attacks you."
+        "name": "Ti Demolisco!",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Il criminale la cui trama secondaria possiede meno minacce trama.\n<b>Quando Rivelata (Eroe)</b>: Il criminale la cui trama secondaria possiede meno minacce ti attacca."
     },
     {
         "code": "07058",
-        "name": "Headbutt",
-        "text": "<b>When Revealed</b>: Discard 1 card at random from your hand. If you are in hero form, take damage equal to that card's printed cost. If you are in alter-ego form, place threat on Bulldozer's side scheme equal to that card's printed cost."
+        "name": "Capocciata",
+        "text": "<b>Quando Rivelata</b>: Scarta 1 carta casuale dalla tua mano. se sei nella sembianza di eroe, subisci un ammontare di danni pari al costo stampato di quella carta. Se sei nella sembianza di alter ego, colloca sulla trama secondaria di Bulldozer un ammontare di minacce pari al costo stampato di quella carta."
     },
     {
         "code": "07059",
-        "name": "Leading the Charge",
-        "text": "<b>When Revealed</b>: Discard the top X cards of your deck, where X is Bulldozer's ATK. Place 1 threat on Bulldozer's side scheme for each different card type discarded this way"
+        "name": "Guidare la Carica",
+        "text": "<b>Quando Rivelata</b>: Scarta X carte dalla cima del tuo mazzo, dove X è pari al valore di ATT di Bulldozer. Colloca 1 minaccia sulla trama secondaria di Bulldozer per ogni tipo di carta scartato in questo modo."
     }
 ]
