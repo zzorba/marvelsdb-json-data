@@ -1,0 +1,159 @@
+[
+    {
+        "code": "06001a",
+        "flavor": "\"Now you face the mightiest Avenger of all\"",
+        "name": "Thor",
+        "text": "\"Have at thee!\" — <b>Response</b>: After you engage a minion, draw 2 cards. (Limit once per phase.)",
+        "traits": "Asgard. Avenger."
+    },
+    {
+        "code": "06001b",
+        "name": "Odinson",
+        "text": "Worthy — <b>Action</b>: Search your deck and discard pile for the Mjolnir upgrade and add it to your hand. Shuffle your deck. (Limit once per round).",
+        "traits": "Asgard."
+    },
+    {
+        "code": "06002",
+        "flavor": "\"Where my Beloved sallies forth—let his Lady Sif be at his side!\"",
+        "name": "Lady Sif",
+        "text": "<b>Response</b>: After Lady Sif enters play, ready Thor or Odinson.",
+        "traits": "Asgard."
+    },
+    {
+        "code": "06003",
+        "name": "Defender of the Nine Realms",
+        "text": "<b>Hero Action</b> <i>(thwart)</i>: Discard cards from the top of the encounter deck until you discard a minion. Put that minion into play engaged with you → remove 3 threat from a scheme.",
+        "traits": "Thwart."
+    },
+    {
+        "code": "06004",
+        "flavor": "\"For honor! For glory! For Asgard!\" -- Thor",
+        "name": "For Asgard!",
+        "text": "<b>Alter-Ego Action</b>: Search your deck and discard pile for a card with the [[Asgard]] trait and add it to your hand. Shuffle your deck."
+    },
+    {
+        "code": "06005",
+        "flavor": "\"Now, Mjolnir! Strike true\" -- Thor",
+        "name": "Hammer Throw",
+        "text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust Mjolnir → deal 8 damage to an enemy and return Mjolnir to your hand. This attack gains overkill.",
+        "traits": "Attack. Superpower."
+    },
+    {
+        "code": "06006",
+        "flavor": "\"I say thee, nay!\" -- Thor",
+        "name": "Lightning Strike",
+        "text": "<b>Hero Action</b>: Spend X [energy] resources → deal X damages to the villain and each minion engaged with you. This attack ignores tough statuses card if you have the [[Aerial]] trait.",
+        "traits": "Superpower."
+    },
+    {
+        "code": "06007",
+        "flavor": "It is from the shining city of Asgard that Odin watches over the Nine Realms, and it was here that Thor was raised a prince.",
+        "name": "Asgard",
+        "text": "You get +1 hand size.",
+        "traits": "Asgard. Location."
+    },
+    {
+        "code": "06008",
+        "flavor": "\"I am the God of Thunder, lord of the savage Lightning. The vary skies must tremble when speaks the Mighty Thor!\" -- Thor",
+        "name": "God of Thunder",
+        "text": "<b>Hero Resource</b>: Exhaust God of Thunder → generate a [energy] resource.",
+        "traits": "Asgard. Title."
+    },
+    {
+        "code": "06009",
+        "flavor": "Whosoever holds this hammer, if he be worthy, shall possess the power of Thor.",
+        "name": "Mjolnir",
+        "text": "Restricted. <i>(Max 2 restricted cards per player.)</i>\nThor gets +1 ATK and gains the [[Aerial]] trait.",
+        "traits": "Asgard. Weapon."
+    },
+    {
+        "code": "06010",
+        "flavor": "\"Brothers and sisters -- prepare yourselves. Today we go to WAR!\" -- Thor",
+        "name": "Thor's Helmet",
+        "text": "You get +5 hit points.",
+        "traits": "Asgard. Armor."
+    },
+    {
+        "code": "06011",
+        "flavor": "Whatever Thor can do, Hercules can accomplish more mightily!",
+        "name": "Hercules",
+        "text": "Reduce the cost to play Hercules by 1 for each minion engaged with you.",
+        "traits": "Avenger. Olympus."
+    },
+    {
+        "code": "06012",
+        "flavor": "I am Valkyrie, shieldmaiden of Asgard.",
+        "name": "Valkyrie",
+        "text": "<b>Response:</b> After Valkyrie enters play, deal 2 damage to a minion (3 damage instead if you paid for this card using a [energy] resource).",
+        "traits": "Asgard. Avenger."
+    },
+    {
+        "code": "06014",
+        "flavor": "\"I would have words with thee!\" -- Thor",
+        "name": "Get Over Here!",
+        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 1 damage to a minion. If you have the [[Aerial]] trait, engage that enemy.",
+        "traits": "Attack."
+    },
+    {
+        "code": "06015",
+        "flavor": "POW!",
+        "name": "Mean Swing",
+        "text": "<b>Hero Interrupt</b>: When your hero makes a basic attack, exhaust a [[Weapon]] upgrade on your hero → your hero gets +3 ATK for this attack.",
+        "traits": "Skill."
+    },
+    {
+        "code": "06017",
+        "name": "Hall of Heroes",
+        "text": "<b>Response:</b> After you defeat a minion, place 1 glory counter here.\n<b>Alter-Ego Action:</b> Exhaust Hall of Heroes and remove 3 glory counters from it → draw 3 cards.",
+        "traits": "Asgard. Location."
+    },
+    {
+        "code": "06018",
+        "name": "Battle Fury",
+        "text": "Play under any player's control.\nMax 1 per player.\n<b>Response:</b> After your hero attacks and defeats a minion, deal 1 damage to your hero and discard Battle Fury → ready your hero.",
+        "traits": "Condition."
+    },
+    {
+        "code": "06019",
+        "name": "Jarnbjorn",
+        "text": "Restricted.\n<b>Response:</b> After your hero attacks an enemy, spend a [physical] resource → deal 2 damage to an enemy.",
+        "traits": "Asgard. Weapon."
+    },
+    {
+        "code": "06020",
+        "flavor": "\"You wish to know what I see?\"",
+        "name": "Heimdall",
+        "text": "<b>Response:</b> After Heimdall enters play, look at the top 3 cards of the encounter deck. Discard 1 of them and put the others back in any order.",
+        "traits": "Asgard."
+    },
+    {
+        "code": "06021",
+        "flavor": "\"It's unbreakable skin, man. Don't you know who I am?\" -- Luke Cage",
+        "name": "Invulnerability",
+        "text": "<b>Hero Action</b>: Give your hero a tough status card.",
+        "traits": "Superpower."
+    },
+    {
+        "code": "06031",
+        "name": "Under Surveillance",
+        "text": "Attach to the main scheme. Max 1 per scheme.\nIncrease the target threat value of attached scheme by 4.",
+        "traits": "Condition."
+    },
+    {
+        "code": "06032",
+        "name": "Teamwork",
+        "text": "<b>Hero Interrupt</b> When you use your basic thwart power <i>(THW)</i> or basic attack power <i>(ATK)</i>, exhaust an ally you control → add that ally's matching power to your hero's power for this use.",
+        "traits": "Tactic."
+    },
+    {
+        "code": "06033",
+        "name": "Second Wind",
+        "text": "<b>Action</b>: Heal 4 damage from an identity (5 damage instead if you paid for this card using a [mental] resource)."
+    },
+    {
+        "code": "06034",
+        "name": "Enhanced Physique",
+        "text": "Uses (3 physical counters).\n<b>Hero Resource</b>: Exhaust Enhanced Physique and remove 1 physical counter from it → generate a [physical] resource.",
+        "traits": "Condition."
+    }
+]
