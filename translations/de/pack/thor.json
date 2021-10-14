@@ -1,77 +1,77 @@
 [
     {
         "code": "06001a",
-        "flavor": "\"Now you face the mightiest Avenger of all\"",
+        "flavor": "\"Du stehst jetzt dem mächtigsten Avenger gegenüber!\"",
         "name": "Thor",
-        "text": "\"Have at thee!\" — <b>Response</b>: After you engage a minion, draw 2 cards. (Limit once per phase.)",
+        "text": "\"Wehre dich!\" — <b>Reaktion</b>: Nachdem du einen Schergen in einen Kampf verwickelt hast, ziehe 2 Karten. (Nur ein Mal pro Phase.)",
         "traits": "Asgard. Avenger."
     },
     {
         "code": "06001b",
         "name": "Odinson",
-        "text": "Worthy — <b>Action</b>: Search your deck and discard pile for the Mjolnir upgrade and add it to your hand. Shuffle your deck. (Limit once per round).",
+        "text": "Würdig — <b>Action</b>: durchsuche dein Deck und deinen Ablagestapel nach dem Upgrade Mjolnir und nimm es auf deine Hand. Mische dein Deck. (Nur einmal pro Runde).",
         "traits": "Asgard."
     },
     {
         "code": "06002",
-        "flavor": "\"Where my Beloved sallies forth—let his Lady Sif be at his side!\"",
+        "flavor": "\"Wohin auch immer mein Geliebter aufbricht -- seine Lady Sif wird an seiner Seite weilen!\"",
         "name": "Lady Sif",
-        "text": "<b>Response</b>: After Lady Sif enters play, ready Thor or Odinson.",
+        "text": "<b>Reaktion</b>: Nachdem Lady Sif ins Spiel gekommen ist, mache Thor oder Odinson spielbereit.",
         "traits": "Asgard."
     },
     {
         "code": "06003",
-        "name": "Defender of the Nine Realms",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Discard cards from the top of the encounter deck until you discard a minion. Put that minion into play engaged with you → remove 3 threat from a scheme.",
-        "traits": "Thwart."
+        "name": "Beschützer der neun Welten",
+        "text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Lege Karten vom Begegnungsdeck ab, bis du einen Schergen ablegst. bringe den Schergen mit dir im Kampf ins Spiel → entferne 3 Bedrohung von einem Plan.",
+        "traits": "Widerstand."
     },
     {
         "code": "06004",
-        "flavor": "\"For honor! For glory! For Asgard!\" -- Thor",
-        "name": "For Asgard!",
-        "text": "<b>Alter-Ego Action</b>: Search your deck and discard pile for a card with the [[Asgard]] trait and add it to your hand. Shuffle your deck."
+        "flavor": "\"Für Ehre! Für Ruhm! Für Asgard!\" -- Thor",
+        "name": "Für Asgard!",
+        "text": "<b>Alter-Ego Aktion</b>: Durchsuche dein Deck und deinen Ablagestapel nach einer Karte mit dem Merkmal [[Asgard]] und nimm sie auf deine Hand. Mische dein Deck."
     },
     {
         "code": "06005",
-        "flavor": "\"Now, Mjolnir! Strike true\" -- Thor",
-        "name": "Hammer Throw",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust Mjolnir → deal 8 damage to an enemy and return Mjolnir to your hand. This attack gains overkill.",
-        "traits": "Attack. Superpower."
+        "flavor": "\"Jetzt, Mjolnir! Triff mit voller Wucht!"\" -- Thor",
+        "name": "Hammerwurf",
+        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Erschöpfe Mjolnir → füge einem Gegner 8 Schaden zu und schicke Mjolnir zurück auf deine Hand. Dieser Angriff erhält Overkill.",
+        "traits": "Angriff. Superkraft."
     },
     {
         "code": "06006",
-        "flavor": "\"I say thee, nay!\" -- Thor",
-        "name": "Lightning Strike",
-        "text": "<b>Hero Action</b>: Spend X [energy] resources → deal X damages to the villain and each minion engaged with you. This attack ignores tough statuses card if you have the [[Aerial]] trait.",
-        "traits": "Superpower."
+        "flavor": "\"Ich sage: Nein!"\" -- Thor",
+        "name": "Blitzschlag",
+        "text": "<b>Held Aktion</b>: Gib X [energy] Ressourcen aus → füge dem Schurken und jedem Schergen im Kampft mit dir X Schaden zu. Dieser Angriff ignoriert Zäh-Statuskarten, falls du das Merkmal [[Fliegend]] hast",
+        "traits": "Superkraft."
     },
     {
         "code": "06007",
-        "flavor": "It is from the shining city of Asgard that Odin watches over the Nine Realms, and it was here that Thor was raised a prince.",
+        "flavor": "Von der strahlenden Stadt Asgard aus wacht Odin über die Neun Welten, und hier war es auch, wo thor als Prinz aufwuchs.",
         "name": "Asgard",
-        "text": "You get +1 hand size.",
-        "traits": "Asgard. Location."
+        "text": "Du bekommst +1 Handlimit.",
+        "traits": "Asgard. Ort."
     },
     {
         "code": "06008",
-        "flavor": "\"I am the God of Thunder, lord of the savage Lightning. The vary skies must tremble when speaks the Mighty Thor!\" -- Thor",
-        "name": "God of Thunder",
-        "text": "<b>Hero Resource</b>: Exhaust God of Thunder → generate a [energy] resource.",
-        "traits": "Asgard. Title."
+        "flavor": "\"Ich bin der Gott des Donners, Herr des wilden Blitzes. Der Himmel selbst erzittert, wenn der Mächtige Thor seine Stimme erhebt!\" -- Thor",
+        "name": "God des Donners",
+        "text": "<b>Held Ressource</b>: Erschöpfe Gott des Donners → erzeuge eine [energy] Ressource.",
+        "traits": "Asgard. Titel."
     },
     {
         "code": "06009",
-        "flavor": "Whosoever holds this hammer, if he be worthy, shall possess the power of Thor.",
+        "flavor": "Wer auch immer diesen Hammer hält, wenn er seiner würdig ist, möge er die Kraft Thors besitzen.",
         "name": "Mjolnir",
-        "text": "Restricted. <i>(Max 2 restricted cards per player.)</i>\nThor gets +1 ATK and gains the [[Aerial]] trait.",
-        "traits": "Asgard. Weapon."
+        "text": "Eingeschränkt. <i>(Max. 2 eingeschränkte Karten pro Spieler.)</i>\nThor bekommt +1 ANG und erhält das Merkmal [[Fliegend]].",
+        "traits": "Asgard. Waffe."
     },
     {
         "code": "06010",
-        "flavor": "\"Brothers and sisters -- prepare yourselves. Today we go to WAR!\" -- Thor",
-        "name": "Thor's Helmet",
-        "text": "You get +5 hit points.",
-        "traits": "Asgard. Armor."
+        "flavor": "\"Brüder und Schwestern, macht euch bereit. Heute ziehen wir in den KRIEG!\" -- Thor",
+        "name": "Thors Helm",
+        "text": "Du bekommst +5 Lebenspunkte.",
+        "traits": "Asgard. Rüstung."
     },
     {
         "code": "06011",
