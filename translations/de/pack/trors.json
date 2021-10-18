@@ -1,77 +1,77 @@
 [
     {
         "code": "04001a",
-        "flavor": "\"I may not be the mightiest Avenger, but I'm definitely the coolest.\"",
+        "flavor": "\"Ich bin vielleicht nicht der mächtigste Avenger, aber ich bin definitv der coolste.\"",
         "name": "Hawkeye",
-        "text": "\"Quick Draw\" — <b>Action</b>: Exhaust Hawkeye → ready Hawkeye's bow.",
+        "text": "\"Schnelles Ziehen\" — <b>Aktion</b>: Erschöpfe Hawkeye → mache Hawkeyes Bogen spielbereit.",
         "traits": "Avenger."
     },
     {
         "code": "04001b",
         "name": "Clint Barton",
-        "text": "Weapon of Choice — <b>Action</b>: Spend 1 resource of any type → search your deck and discard pile for Hawkeye's Bow and add it to your hand. Shuffle your deck. (Limit once per phase).",
+        "text": "Waffe der Wahl — <b>Aktion</b>: Gib 1 beliebige Ressource aus → durchsuche dein Deck und deinen Ablagestapel nach Hawkeyes Bogen und nimm ihn auf deine Hand. Misch dein Deck. (Nur ein Mal pro Phase).",
         "traits": "S.H.I.E.L.D."
     },
     {
         "code": "04002",
-        "name": "Hawkeye's Bow",
-        "text": "Restricted.\nYour hero gets +1 ATK and each of your [[Arrow]] attacks gain ranged.",
-        "traits": "Weapon."
+        "name": "Hawkeyes Bogen",
+        "text": "Eingeschränkt.\nDein Held bekommt +1 ANG und jeder deiner [[Pfeil]]-Angriffe erhält Fernkampf (Fernkampfangriffe ignorieren Vergeltung.).",
+        "traits": "Waffe."
     },
     {
         "code": "04003",
-        "name": "Hawkeye's Quiver",
-        "text": "You may play [[Arrow]] events attached to this card as if they were in your hand.\n<b>Hero Action</b>: Exhaust Hawkeye's Quiver → search the top 5 cards of your deck for an [[Arrow]] event and attach it faceup to this card.",
-        "traits": "Item."
+        "name": "Hawkeyes Köcher",
+        "text": "[[Pfeil]]-Ereignisse, die an dieser Karte angehängt sind, darfst du spielen, als ob sie auf deiner Hand wären.\n<b>Held Aktion</b>: Erschöpfe Hawkeyes Köcher → durchsuche die obersten 5 Karten deines Decks nach einem [[Pfeil]]-Ereignis und hänge es offen an diese Karte an.",
+        "traits": "Gegenstand."
     },
     {
         "code": "04004",
-        "flavor": "\"Is that all you got?\"",
+        "flavor": "\"Mehr hast du nicht drauf?\"",
         "name": "Mockingbird",
-        "text": "<b>Interrupt</b>: When the villain initiates an attack against you, spend 1 resource of any type and return Mockingbird to your hand → prevent all damage from this attack.",
+        "text": "<b>Unterbrechung</b>:Sobald der Schurke einen Angriff gegen dich einleitet, gib 1 Ressource aus und schicke Mockingbird zurück auf deine Hand → verhindere allen Schaden dieses Angriffs.",
         "traits": "Avenger. S.H.I.E.L.D.",
         "subname": "Bobbi Morse"
     },
     {
         "code": "04005",
-        "flavor": "EEEEEEEEEEEEEEEEEE!!!",
-        "name": "Sonic Arrow",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust Hawkeye's Bow → confuse an enemy and deal 3 damage to it (5 damage instead if it is already confused)",
-        "traits": "Arrow. Attack."
+        "flavor": "IIIIIIEEEEEEEEEEEE!!!",
+        "name": "Schallpfeil",
+        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Erschöpfe Hawkeyes Bogen → verwirre einen Gegner und füge ihm 3 Schaden zu (5 Schaden stattdessen, falls er bereits verwirrt ist)",
+        "traits": "Pfeil. Angriff."
     },
     {
         "code": "04006",
-        "flavor": "\"Anyone ever tell you how your eyes sparkle when you're angry?\" -- Clint Barton",
-        "name": "Explosive Arrow",
-        "text": "<b>Hero Action</b>: Exhaust Hawkeye's Bow and choose a player → deal 3 damage to the villain and each minion engaged with that player.",
-        "traits": "Arrow."
+        "flavor": "\"Hat dir schon mal jemand gesagt, wie sehr deine Augen funkeln, wenn du wütend bist?\" -- Clint Barton",
+        "name": "Explosionspfeil",
+        "text": "<b>Held Aktion</b>: Erschöpfe Hawkeyes Bogen und wähle einen Spieler → füge dem Schurken und jedem Schergen im Kampf mit dem Spieler 3 Schaden zu.",
+        "traits": "Pfeil."
     },
     {
         "code": "04007",
-        "flavor": "\"Hail Hawkeye!\" -- Clint Barton",
-        "name": "Electric Arrow",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust Hawkeye's Bow → stun an enemy and deal 3 damage to it (5 damage instead if it is already stunned).",
-        "traits": "Arrow. Attack."
+        "flavor": "\"Heil Hawkeye!\" -- Clint Barton",
+        "name": "Elektropfeil",
+        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Erschöpfe Hawkeyes Bogen → betäube einen Gegner und füge ihm 3 Schaden zu (5 Schaden stattdessen, falls er bereits betäubt ist).",
+        "traits": "Pfeil. Angriff."
     },
     {
         "code": "04008",
-        "flavor": "\"It's a great way to get around.\" -- Clint Barton",
-        "name": "Cable Arrow",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Exhaust Hawkeye's Bow → remove 3 threat from a scheme, ignoring any crisis icons in play.",
-        "traits": "Arrow. Thwart."
+        "flavor": "\"Ein großartiges Fortbewegungsmittel.\" -- Clint Barton",
+        "name": "Seilpfeil",
+        "text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Erschöpfe Hawkeyes Bogen → entferne 3 Bedrohung von einem plan. Ignoriere dabei alle Krisensymbole im Spiel.",
+        "traits": "Pfeil. Widerstand."
     },
     {
         "code": "04009",
-        "name": "Vibranium Arrow",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust Hawkeye's Bow → deal 6 damage to an enemy. This attack gains piercing.",
-        "traits": "Arrow. Attack."
+        "name": "Vibraniumpfeil",
+        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Erschöpfe Hawkeyes Bogen → füge einem Gegner 6 Schaden zu. Dieser Angriff erhält Durchdringend. (Lege alle Zäh-Statuskarten vom Ziel ab, bevor Schaden zugefügt wird.)",
+        "traits": "Pfeil. Angriff."
     },
     {
         "code": "04010",
-        "flavor": "\"When you fight alongside gods and monsters, it's not enough to be great; you have to the best.\" -- Clint Barton",
-        "name": "Expert Marksman",
-        "text": "<b>Resource</b>: Exhaust Expert Marksman → generate a [wild] resource for an [[Arrow]] event.",
-        "traits": "Skill."
+        "flavor": "\"Wenn du an der Seite von Göttern und Monstern kämpfst, reicht es nicht aus, großartig zu sein. Du musst der Beste sein.\" -- Clint Barton",
+        "name": "Meisterschütze",
+        "text": "<b>Ressource</b>: Erschöpfe Meisterschütze → erzeuge für ein [[Pfeil]]-Ereignis eine [[wild]]-Ressource.",
+        "traits": "Fähigkeit."
     },
     {
         "code": "04011",
