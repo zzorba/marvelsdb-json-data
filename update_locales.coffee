@@ -9,7 +9,7 @@ mkdirp = require 'mkdirp'
 
 i18nDir = path.join __dirname, 'translations'
 things = ['factions', 'packs', 'packtypes', 'sets', 'subtypes', 'types']
-textProperties = ['code', 'flavor', 'name', 'text', 'traits', 'subname', 'back_text', 'back_flavor', 'attack_text', 'scheme_text', 'boost_text']
+textProperties = ['attack_text', 'back_flavor', 'back_text', 'boost_text', 'code', 'flavor', 'name', 'scheme_text', 'subname', 'text', 'traits']
 
 stripProps = (json, props) ->
     _.map json, (item) ->
@@ -76,12 +76,12 @@ for code in codes when not locale? or code is locale
         target = path.join localeRoot, file
         mkdirp path.dirname target
         if !_.isEqual(l_things[file], m_things[file])
-            fs.writeFileSync target, JSON.stringify(m_things[file], null, 4)+"\n"
+            fs.writeFileSync target, JSON.stringify(m_things[file], null, '\t')+"\n"
             console.log "Written #{target}"
     
     for file in _.keys m_cards
         target = path.join localeRoot, 'pack', file
         mkdirp path.dirname target
         if !_.isEqual(l_cards[file], m_cards[file])
-            fs.writeFileSync target, JSON.stringify(m_cards[file], null, 4)+"\n"
+            fs.writeFileSync target, JSON.stringify(m_cards[file], null, '\t')+"\n"
             console.log "Written #{target}"
