@@ -1,82 +1,82 @@
 [
     {
         "code": "13001a",
-        "flavor": "\"You should learn to play nice!\"",
+        "flavor": "\"Du solltest lernen, nach den Regeln zu spielen!\"",
         "name": "Wasp",
-        "text": "Small but Mighty — <b>Response:</b> After Wasp <em>(or an event you play)</em> defeats a minion or side scheme, deal 1 damage to the villain.",
-        "traits": "Avenger. Tiny."
+        "text": "klein, aber fein — <b>Reaktion:</b> Nachdem Wasp <em>(oder ein Ereignis, das du spielst)</em> einen Schergen oder einen Nebenplan besiegt hat, füge dem Schurken 1 Schaden zu.",
+        "traits": "Avenger. Winzig."
     },
     {
         "code": "13001b",
-        "flavor": "\"G.I.R.L. is dedicated to finding brilliant women who will not only save the world, but change it.\"",
+        "flavor": "\"G.I.R.L. hat sich auf die Fahne geschrieben, brilliante Frauen zu finden, welche die Welt nicht nur retten, sondern sich auch verändern werden.\"",
         "name": "Nadia Van Dyne",
-        "text": "G.I.R.L. — <b>Action:</b> Shuffle up to 2 cards with a printed [mental] resource from your discard pile into your deck. (Limit once per round.)",
-        "traits": "Genius."
+        "text": "G.I.R.L. — <b>Aktion:</b> Mische bis zu 2 Karten mit einer aufgedruckten [mental]-Ressource aus deinem Ablagestapel in dein Deck. (Nur ein Mal pro Runde.)",
+        "traits": "Genie."
     },
     {
         "code": "13001c",
-        "flavor": "\"Aww, you're all so tiny and cute.\"",
+        "flavor": "\"Ooh, ihr seid ja so klein und niedlich.\"",
         "name": "Wasp",
-        "traits": "Avenger. Giant.",
-        "attack_text": "Damage you deal using your basic attack power (ATK) can be divided among enemies as you choose.",
-        "scheme_text": "Threat you remove using your basic thwart power (THW) can be divided among schemes as you choose."
+        "traits": "Avenger. Riesig.",
+        "attack_text": "Schaden, den du mit deiner Basiskraft Angriff (ANG) zufügst, kannst du zwischen Gegnern deiner Wahl aufteilen.",
+        "scheme_text": "Bedrohung, die du mit deiner Basiskraft Widerstand (WID) entfernst, kannst du von Plänen deiner Wahl entfernen."
     },
     {
         "code": "13002",
         "name": "Ant-Man",
-        "text": "While you are in [[Giant]] hero form, Ant-Man gains the [[Giant]] trait and gets +1 ATK.\nWhile you are in [[Tiny]] hero form, Ant-Man gains the [[Tiny]] trait and gets +1 THW.",
+        "text": "Solange du in der [[Riesig]]-Heldengestalt bist, erhält Ant-Man das Merkmal [[Riesig]] und bekommt +1 ANG.\nSolange du in der [[Winzig]]-Heldengestalt bist, erhält Ant-Man das Merkmal [[Winzig]] und bekommt +1 WID.",
         "traits": "Avenger.",
         "subname": "Scott Lang"
     },
     {
         "code": "13003",
-        "flavor": "\"Glad to be of service!\" - Wasp",
-        "name": "Giant Help",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme (remove a total of 4 threat divided among schemes as you choose instead if you are in [[Giant]] hero form).",
-        "traits": "Thwart."
+        "flavor": "\"Schön, dass ich helfen konnte!\" - Wasp",
+        "name": "Riesenhilfe",
+        "text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Entferne 3 Bedrohung von einem Plan (entferne stattdessen insgesamt 4 Bedrohung von Plänen deiner Wahl, falls du in der [[Riesig]]-Heldengestalt bist).",
+        "traits": "Widerstand."
     },
     {
         "code": "13004",
-        "flavor": "\"You're going to want to ice that in the morning.\" - Wasp",
-        "name": "Pinpoint Strike",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 7 damage to an enemy. If you are in [[Tiny]] hero form, this attack deals 1 additional damage to that enemy and gains overkill.",
-        "traits": "Attack."
+        "flavor": "\"Da solltest du morgen früh Eis drauf tun.\" - Wasp",
+        "name": "Nadelstich",
+        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Füge einem Gegner 7 Schaden zu. Falls du in der [[Winzig]]-Heldengestalt bist, fügt dieser Angriff dem Gegner 1 zusätzlichen Schaden zu und erhält Overkill.",
+        "traits": "Angriff."
     },
     {
         "code": "13005",
-        "flavor": "\"Bet you didn't expect to see that.\" - Wasp",
-        "name": "Rapid Growth",
-        "text": "<b>Hero Interrupt</b>: When you use one of your hero's basic powers (THW, ATK, or DEF), change to your [[Giant]] hero form and get +2 to that power for this use.",
-        "traits": "Giant. Superpower."
+        "flavor": "\"Das hast du wohl nicht erwartet.\" - Wasp",
+        "name": "Schnelles Wachstum",
+        "text": "<b>Held Unterbrechung</b>: Sobald du eine Basiskraft deines Helden (WID, ANG oder VER) verwendest, wechsle in deine [[Riesig]]-Heldengestalt. Du bekommst für die Verwendung +2 auf die Kraft.",
+        "traits": "Riesig. Superkraft."
     },
     {
         "code": "13006",
-        "name": "Wasp Sting",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: If you are in [[Giant]] hero form, deal a total of 4 damage divided among enemies you choose.\n<b>Hero Action</b> <i>(attack)</i>: If you are in [[Tiny]] hero form, deal 5 damage to an enemy.",
-        "traits": "Attack."
+        "name": "Wespenstich",
+        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Falls du in der [[Riesig]]-Heldengestalt bist, füge insgesamt 4 Schaden zu, die du zwischen Gegnern deiner Wahl aufteilen kannst.\n<b>Held Aktion</b> <i>(Angriff)</i>: Falls du in der [[Winzig]]-Heldengestalt bist, füge einem Gegner 5 Schaden zu.",
+        "traits": "Angriff."
     },
     {
         "code": "13007",
-        "name": "Pym Particles",
-        "text": "<b>Hero Response</b>: After you spend this card, heal 2 damage from your hero if you are in [[Giant]] hero form or draw 1 card if you are in [[Tiny]] hero form."
+        "name": "Pym-Partikel",
+        "text": "<b>Held Reaktion</b>: Nachdem du diese Karte ausgegeben hast, heile 2 Schaden von deinem helden, falls du in der [[Riesig]]-heldengestalt bist, oder ziehe 1 Karte, falls du in der [[Winzig]]-Heldengestalt bist."
     },
     {
         "code": "13008",
-        "name": "Red Room Training",
-        "text": "While you are in [[Giant]] hero form, you gain retaliate 1.\nWhile you are in [[Tiny]] hero form, your basic attacks gain piercing. <i>(Discard any tough status cards from the target before dealing damage.)</i>",
-        "traits": "Skill."
+        "name": "Red Room-Training",
+        "text": "Sobald du in der [[Riesig]]-Heldengestalt bist, erhälst du Vergeltung 1.\nSobald du in der [[Winzig]]-Heldengestalt bist, erhalten deine Basisangriffe Durchdringend. <i>(Lege alle Zäh-Statuskarten vom Ziel ab, bevor Schaden zugefügt wird.)</i>",
+        "traits": "Fertigkeit."
     },
     {
         "code": "13009",
-        "name": "Bio-Synthetic Wings",
-        "text": "Wasp gains the [[Aerial]] trait.\n<b>Interrupt:</b> When you would take any amount of damage, if you are in [[Tiny]] hero form, exhaust Bio-Synthetic Wings → prevent 1 of that damage.",
-        "traits": "Item. Tech."
+        "name": "Biosynthetische Flügel",
+        "text": "Wasp erhält das Merkmal [[Fliegend]].\n<b>Unterbrechung:</b> Sobald du eine beliebige Menge an Schaden nehmen würdest, falls du in der [[Winzig]]-Heldengestalt bist, erschöpfe Biosynthetische Flügel → verhindere 1 Schaden davon.",
+        "traits": "Gegenstand. Tech."
     },
     {
         "code": "13010",
-        "name": "Wasp's Helmet",
-        "text": "While you are in [[Giant]] hero form, you get +1 THW.\nWhile you are in [[Tiny]] hero form, you get +1 ATK.",
-        "traits": "Armor. Tech."
+        "name": "Wasps Helm",
+        "text": "Solange du in der [[Riesig]]-Heldengestalt bist, bekommst du +1 WID.\nSolange du in der [[Winzig]]-Heldengestalt bist, bekommst du +1 ANG.",
+        "traits": "Rüstung. Tech."
     },
     {
         "code": "13011",
