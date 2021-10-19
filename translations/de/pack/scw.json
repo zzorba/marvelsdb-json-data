@@ -66,78 +66,78 @@
     },
     {
         "code": "15010",
-        "flavor": "\"Hey! Geriatrics! Let's get a move on. The Avengers need us!\"",
+        "flavor": "\"Hey, ihr alten Greise! Legt mal einen zahn zu. Die Avengers brauchen uns!\"",
         "name": "Speed",
-        "text": "<b>Response</b>: After Speed thwarts, ready him. (Limit once per round.)",
+        "text": "<b>Reaktion</b>: Nachdem Speed Widerstand geleistet hat, mache ihn spielbereit. (Nur ein Mal pro Runde.)",
         "traits": "Avenger.",
         "subname": "Thomas Shepherd"
     },
     {
         "code": "15011",
-        "flavor": "\"I'm the child of a witch and an android. I'm their wish come true.\"",
+        "flavor": "\"Ich bin das Kind einer Hexe und eines Androiden. Ich bin ihr wahr gewordener Traum.\"",
         "name": "Wiccan",
-        "text": "<b>Response:</b> After Wiccan thwarts, discard the top card of the encounter deck. For each boost icon discarded this way, deal 1 damage to an enemy.",
+        "text": "<b>Reaktion:</b> Nachdem Wiccan Widerstand geleistet hat, lege die oberste Karte des Begegnungsdecks ab. Füge für jedes auf diese Weise abgelegte Boost-Symbol einem Gegner 1 Schaden zu.",
         "traits": "Avenger.",
         "subname": "William Kaplan"
     },
     {
         "code": "15012",
         "name": "Gefahr gebannt",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 6 threat from the main scheme. If you paid for this card using a [mental] resource, this thwart ignores the crisis icon ([crisis]).",
-        "traits": "Thwart."
+        "text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Entferne 6 Bedrohung vom Hauptplan. Falls du für diese Karte mit einer [mental]-Ressource bezahlt hast, ignoriere hierbei Krisensymbole ([crisis]).",
+        "traits": "Widerstand."
     },
     {
         "code": "15013",
-        "flavor": "\"A hero isn't the one who always wins. They're the one who always tries.\" - Spider-Man",
+        "flavor": "\"Nicht der ist ein held, der immer gewinnt. Sondern der, der es immer wieder versucht.\" - Spider-Man",
         "name": "Multitasking",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from a scheme. If you paid for this card using a [mental] resource, remove 2 threat from a different scheme.",
-        "traits": "Thwart."
+        "text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Entferne 2 Bedrohung von einem Plan. Falls du für diese Karte mit einer [mental]-Ressource bezahlt hast, entferne 2 Bedrohung von einem weiteren Plan.",
+        "traits": "Widerstand."
     },
     {
         "code": "15014",
-        "flavor": "\"Return what you've taken and I'll let you go. This time. But next time, you won't be so lucky. And I won't be so kind.\" - Moon Knight",
+        "flavor": "\"Gebt zurück, was ihr gestohlen habt, und ich lasse euch gehen. Dieses Mal. Aber nächstes Mal werdet ihr nicht so viel Glück haben. Und ich werde nicht so freundlich sein.\" - Moon Knight",
         "name": "Schnelle Vergeltung",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: The villain schemes. Deal 4 damage to the villain.",
-        "traits": "Attack."
+        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Der Schurke treibt den plan voran. Füge dem Schurken 4 Schaden zu.",
+        "traits": "Angriff."
     },
     {
         "code": "15015",
-        "flavor": "\"Back, you rabble!\" - Scarlet Witch",
+        "flavor": "\"Zurück, Gesindel!\" - Scarlet Witch",
         "name": "Das Blatt wenden",
-        "text": "<b>Response</b> <i>(attack)</i>: After your hero thwarts and removes all threat from a scheme, deal 3 damage to an enemy.",
-        "traits": "Attack."
+        "text": "<b>Reaktion</b> <i>(Angriff)</i>: nachdem dein held Widerstand geleistet und alle Bedrohung von einem Plan entfernt hat, füge einem Gegner 3 Schaden zu.",
+        "traits": "Angriff."
     },
     {
         "code": "15019",
-        "flavor": "\"Every spell, every sigil, every manipulation... you must keep a close eye on everything so it doesn't backfire.\"",
+        "flavor": "\"Jeder Zauber, jedes Siegel, jede Manipulation...du musst alles genau im Auge behalten, damit es nicht nach hinten losgeht.\"",
         "name": "Spirituelle Meditation",
-        "text": "Play only if your identity has the [[Mystic]] trait.\n<b>Action</b>: Draw 2 cards. Choose and discard 1 card from your hand.",
-        "traits": "Spell."
+        "text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[Mystiker]] hat.\n<b>Aktion</b>: Ziehe 2 Karten. Wähle 1 Karte von deiner Hand und lege sie ab.",
+        "traits": "Zauber."
     },
     {
         "code": "15028",
         "name": "Unter Druck setzen",
-        "text": "Play only if your identity has the [[Avenger]] trait.\n<b>Hero Action</b> <i>(attack)</i>: Deal 2 damage to the villain. Deal X additional damage to the villain (to a maximum of 3), where X is equal to the villain's stage number.",
-        "traits": "Attack."
+        "text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[Avenger]] hat.\n<b>Held Aktion</b> <i>(Angriff)</i>: Füge dem Schurken 2 Schaden zu. Füge dem Schurken X zusätzlichen Schaden zu (bis zu einem Maximum von 3), wobei X die Abschnittsnummer des Schurken ist.",
+        "traits": "Angriff."
     },
     {
         "code": "15029",
-        "flavor": "\"Heed, great fiend! Thou shalt not defeat me easily!\" - Lady Sif",
+        "flavor": "\"Hüte dich, großer Unhold! So leicht wirst du mich nicht besiegen!\" - Lady Sif",
         "name": "Letztes Gefecht",
-        "text": "<b>Hero Interrupt</b>: When an ally you control attacks, it gets +3 ATK for that attack. After that attack resolves, discard that ally.",
-        "traits": "Tactic."
+        "text": "<b>Held Unterbrechung</b>: Sobald ein Verbündeter unter deiner Kontrolle angreift, bekommt er für den Angriff +3 ANG. Nachdem der Angriff abgehandelt worden ist, lege den Verbündeten ab.",
+        "traits": "Taktik."
     },
     {
         "code": "15030",
-        "flavor": "\"You didn't really think I'd let you get away with that, did you?\" - Spider-Man",
+        "flavor": "\"Du hast doch nicht wirklich geglaubt, dass ich dich damit davonkommen lasse, oder?\" - Spider-Man",
         "name": "Lockvogeltaktik",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: The villain attacks you. Remove 4 threat from the main scheme.",
-        "traits": "Thwart."
+        "text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Der Schurke greift dich an. Entferne 4 Bedrohung vom Hauptplan.",
+        "traits": "Widerstand."
     },
     {
         "code": "15031",
-        "flavor": "\"You look to be feeling better.\" - Stephen Strange",
+        "flavor": "\"Es scheint dir bereits besser zu gehen.\" - Stephen Strange",
         "name": "Genesung",
-        "text": "<b>Alter-Ego Action</b>: Heal damage from your alter-ego equal to your REC."
+        "text": "<b>Alter-Ego Aktion</b>: Heile Schaden von deinem Alter Ego in Höhe deines ERH-Wertes."
     }
 ]
