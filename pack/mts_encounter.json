@@ -1,5 +1,5 @@
 [
-	{	
+	{
 		"boost": 2,
 		"code": "21026",
 		"faction_code": "encounter",
@@ -12,8 +12,8 @@
 		"set_position": 19,
 		"text": "<b>Give to the Monica Rambeau player.</b>\nYou cannot change energy forms.\n<b>Alter-Ego Action</b>: Exhaust Monica Rambeau -> remove Loss of Control from the game.",
 		"type_code": "obligation"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"attack_text": "<b>Forced Response</b>: After Radioactive Man activates against you, deal 1 damage to each character you control.",
 		"boost_text": "<b>Boost</b>: Deal 1 damage to each character you control.",
@@ -32,8 +32,8 @@
 		"set_position": 1,
 		"traits": "Elite. Genius.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"boost": 3,
 		"code": "21028",
@@ -48,8 +48,8 @@
 		"set_position": 2,
 		"text": "<b>When Defeated</b>: Deal 1 damage to each friendly character in play.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21029",
 		"faction_code": "encounter",
@@ -62,8 +62,8 @@
 		"set_position": 3,
 		"text": "Attach to your identity.\n<b>Forced Response</b>After your turn ends, take 1 damage.\n<b>Alter-Ego Action</b>: Spend [energy][energy] resources -> discard this card.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "21030",
 		"faction_code": "encounter",
@@ -75,9 +75,9 @@
 		"set_code": "spectrum_nemesis",
 		"set_position": 5,
 		"text": "<b>When Revealed (Alter-Ego)</b>: Place 2 threat on the main scheme.\n<b>When Revealed (Hero)</b>: Take 2 damage.",
-		"type_code": "Treachery"
-	},	
-	{	
+		"type_code": "treachery"
+	},
+	{
 		"boost": 2,
 		"code": "21066",
 		"faction_code": "encounter",
@@ -89,8 +89,8 @@
 		"set_code": "warlock",
 		"text": "<b>Give to Adam Warlock player.</b>\nYou may flip to alter-ego. Choose:\n-Exhaust your alter-ego -> remove this card from the game.\n-Discard the top 5 cards of your deck. Place 1 threat on the main scheme for each different aspect cards discarded this way. Discard this obligation.",
 		"type_code": "obligation"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"attack_text": "<b>Forced Response</b>: After The magus activates against you, discard the top 5 cards of your deck.",
 		"boost": 2,
@@ -110,8 +110,8 @@
 		"text": "Quickstrike. Tougness.",
 		"traits": "Elite. Mystic.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"boost_text": "<b>Boost</b>: Reveal this card.",
 		"code": "21068",
@@ -126,8 +126,8 @@
 		"set_position": 2,
 		"text": "<b>Forced Response</b>: After a player resets their deck, exhaust that player identity and stun it.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"boost_text": "<b>Boost</b>: Put Zealot of Truth into play engaged with you.",
 		"code": "21069",
@@ -144,8 +144,8 @@
 		"text": "Threat cannot be removed from the Church of thuth side scheme.",
 		"traits": "Mystic",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21070",
 		"faction_code": "encounter",
@@ -158,8 +158,8 @@
 		"set_position": 5,
 		"text": "Incite 2.\n<b>When Revealed</b>: If the Universal Church of Truth side scheme is in play, discard the top 10 cards of your deck. Otherwise, search the encouter deck, discard pile, and set-aside area for Universal Church of Truth and reveal it. Shuffle the encouter deck.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"code": "21071",
 		"faction_code": "encounter",
@@ -179,8 +179,8 @@
 		"text": "[star]<b>Forced Interrupt:</b> When Ebony Maw activates against you, remove an invocation counter from each [[Spell]] card in your play area.",
 		"traits": "Black Order. Mystic.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "21072",
 		"faction_code": "encounter",
@@ -199,8 +199,8 @@
 		"text": "[star]<b>Forced Interrupt:</b> When Ebony Maw activates against you, remove an invocation counter from each [[Spell]] card in your play area.\n<b>When Revealed:</b> Each player discards cards from the top of the encounter deck until they discard a [[Spell]] card and puts that card into play in their play area.",
 		"traits": "Black Order. Mystic.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "21073",
 		"faction_code": "encounter",
@@ -219,27 +219,12 @@
 		"text": "[star]<b>Forced Interrupt:</b> When Ebony Maw activates against you, remove an invocation counter from each [[Spell]] card in your play area.\n<b>When Revealed:</b> Each player discards cards from the top of the encounter deck until they discard a [[Spell]] card and puts that card into play in their play area.",
 		"traits": "Black Order. Mystic.",
 		"type_code": "villain"
-	},	
-	{	
-		"back_link": "21074b",
-		"code": "21074a",
-		"double_sided": true,
-		"faction_code": "encounter",
-		"flavor": "<b>Ebony Maw leads an assault on knowhere in order to capture the Power Stone stored within.</b>",
-		"name": "Attack on Knowhere",
-		"octgn_id": "7fb53a59-eff6-4e45-95af-460d7f13a3ee",
-		"pack_code": "mts",
-		"position": 74,
-		"quantity": 1,
-		"set_code": "ebony_maw",
-		"set_position": 4,
-		"stage": 1,
-		"text": "<b>Contents:</b> Ebony Maw (I) and Ebony Maw (II). <i>(Ebony Maw (II) and Ebony Maw (III) instead for expert mode.)</i> Ebony Maw and Standard encounter sets. Two modular encounter set <i>(Armies of Titan and Black Order).</i>",
-		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
+    "back_name": "Attack on Knowhere",
+    "back_text": "<b>Contents:</b> Ebony Maw (I) and Ebony Maw (II). <i>(Ebony Maw (II) and Ebony Maw (III) instead for expert mode.)</i> Ebony Maw and Standard encounter sets. Two modular encounter set <i>(Armies of Titan and Black Order).</i>",
 		"base_threat": 1,
-		"code": "21074b",
+		"code": "21074",
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
@@ -254,26 +239,12 @@
 		"text": "<b>When Revealed:</b> Each player discards cards from the top of the encounter deck until they discard a [[Spell]] card and puts that card into play in their play area. Shuffle the encounter discard pile into the encounter deck.",
 		"threat": 6,
 		"type_code": "main_scheme"
-	},	
-	{	
-		"back_link": "21075b",
-		"code": "21075a",
-		"double_sided": true,
-		"faction_code": "encounter",
-		"name": "The Power Stone",
-		"octgn_id": "da735271-448d-4e85-b5a4-5790c04eda4b",
-		"pack_code": "mts",
-		"position": 75,
-		"quantity": 1,
-		"set_code": "ebony_maw",
-		"set_position": 5,
-		"stage": 2,
-		"text": "<b>When Revealed:</b> Shuffle the encounter discard pile into the encounter deck. Each player discards cards from the top of the encounter deck until they discard a [[Spell]] card and puts that card into play in their play area.",
-		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
+    "back_name": "The Power Stone",
+    "back_text": "<b>When Revealed:</b> Shuffle the encounter discard pile into the encounter deck. Each player discards cards from the top of the encounter deck until they discard a [[Spell]] card and puts that card into play in their play area.",
 		"base_threat": 1,
-		"code": "21075b",
+		"code": "21075",
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
@@ -289,8 +260,8 @@
 		"text": "<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 9,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21076",
 		"faction_code": "encounter",
@@ -304,8 +275,8 @@
 		"text": "Surge.\nEnters play with 4 invocation counters on it.\n<b>Forced Response:</b> After the last invocation counter is removed from Fireball, discard it → deal 4 damage to your identity.",
 		"traits": "Spell.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21077",
 		"faction_code": "encounter",
@@ -319,8 +290,8 @@
 		"text": "Surge.\nEnters play with 2 invocation counters on it.\n<b>Forced Response:</b> After the last invocation counter is removed from Manipulation, discard it → discard 1 card at random from your hand. You are confused.",
 		"traits": "Spell.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21078",
 		"faction_code": "encounter",
@@ -334,8 +305,8 @@
 		"text": "Surge.\nEnters play with 3 invocation counters on it.\n<b>Forced Response:</b> After the last invocation counter is removed from Pacification, discard it → exhaust each upgrade you control. You are stunned.",
 		"traits": "Spell.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21079",
 		"faction_code": "encounter",
@@ -349,8 +320,8 @@
 		"text": "Surge.\nEnters play with 3 invocation counters on it.\n<b>Forced Response:</b> After the last invocation counter is removed from Rubblestorm, discard it → deal 2 damage to each character you control.",
 		"traits": "Spell.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "21080",
 		"faction_code": "encounter",
@@ -363,8 +334,8 @@
 		"set_position": 14,
 		"text": "<b>When Revealed (Alter-Ego):</b> Place 1 threat on the main scheme for each [[Spell]] environment in your play area. If you place no threat this way, this card gains surge.\n<b>When Revealed (Hero):</b> Deal 1 damage to your hero for each [[Spell]] environment in your play area. If you take no damage this way, this card gains surge.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "21081",
 		"faction_code": "encounter",
@@ -377,8 +348,8 @@
 		"set_position": 16,
 		"text": "<b>When Revealed:</b> Remove 1 invocation counter from each [[Spell]] environment in your play area. If you have no [[Spell]] environments in your play area, discard cards from the top of the encounter deck until a [[Spell]] environment is discarded. Put that card into play in your play area.",
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 3,
 		"code": "21082",
 		"faction_code": "encounter",
@@ -391,8 +362,8 @@
 		"set_position": 19,
 		"text": "Attach to Ebony Maw.\nPrevent all damage to Ebony Maw.\n<b>Forced Response:</b> After Abjuration prevents 2 or more damage from a single attack, discard it.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21083",
 		"faction_code": "encounter",
@@ -406,8 +377,8 @@
 		"set_position": 20,
 		"text": "Attach to a friendly character with the highest ATK and exhaust it.\nAttached character cannot ready.\n<b>Hero Action:</b> Spend [energy][physical] resources → discard this card.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"base_threat": 3,
 		"base_threat_fixed": true,
 		"boost": 3,
@@ -424,8 +395,8 @@
 		"set_position": 21,
 		"text": "<b>When Revealed:</b> Each player must choose to either take 2 damage or place 2 threat here.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"boost": 3,
 		"code": "21085",
@@ -442,8 +413,8 @@
 		"set_position": 1,
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"boost": 2,
 		"code": "21086",
@@ -460,8 +431,8 @@
 		"set_position": 2,
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"boost": 2,
 		"code": "21087",
@@ -475,8 +446,8 @@
 		"set_code": "black_order",
 		"set_position": 3,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "21088",
 		"faction_code": "encounter",
@@ -488,8 +459,8 @@
 		"set_code": "black_order",
 		"set_position": 4,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "21089",
 		"faction_code": "encounter",
@@ -504,8 +475,8 @@
 		"set_position": 1,
 		"traits": "Black Order.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"code": "21090",
 		"faction_code": "encounter",
@@ -520,8 +491,8 @@
 		"set_position": 3,
 		"traits": "Black Order.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"boost": 2,
 		"code": "21091",
@@ -535,8 +506,8 @@
 		"set_code": "armies_of_titan",
 		"set_position": 5,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "21092",
 		"faction_code": "encounter",
@@ -554,8 +525,8 @@
 		"stage": 1,
 		"traits": "Black Order.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"code": "21093",
 		"faction_code": "encounter",
@@ -573,8 +544,8 @@
 		"stage": 2,
 		"traits": "Black Order.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"code": "21094",
 		"faction_code": "encounter",
@@ -592,8 +563,8 @@
 		"stage": 3,
 		"traits": "Black Order.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"code": "21095",
 		"faction_code": "encounter",
@@ -611,8 +582,8 @@
 		"stage": 1,
 		"traits": "Black Order.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "21096",
 		"faction_code": "encounter",
@@ -630,8 +601,8 @@
 		"stage": 2,
 		"traits": "Black Order.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "21097",
 		"faction_code": "encounter",
@@ -649,25 +620,12 @@
 		"stage": 3,
 		"traits": "Black Order.",
 		"type_code": "villain"
-	},	
-	{	
-		"back_link": "21098b",
-		"code": "21098a",
-		"double_sided": true,
-		"faction_code": "encounter",
-		"name": "Under Siege",
-		"octgn_id": "c0771a09-7c76-4e7a-97e2-9e4e73a57fc6",
-		"pack_code": "mts",
-		"position": 98,
-		"quantity": 1,
-		"set_code": "tower_defense",
-		"set_position": 7,
-		"stage": 1,
-		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
+    "back_name": "Under Siege",
+    "back_text": "",
 		"base_threat": 1,
-		"code": "21098b",
+		"code": "21098",
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
@@ -681,25 +639,12 @@
 		"stage": 1,
 		"threat": 6,
 		"type_code": "main_scheme"
-	},	
-	{	
-		"back_link": "21099b",
-		"code": "21099a",
-		"double_sided": true,
-		"faction_code": "encounter",
-		"name": "The Armies of Thanos",
-		"octgn_id": "7d421149-6cb6-496f-b818-1ad8e8e05e28",
-		"pack_code": "mts",
-		"position": 99,
-		"quantity": 1,
-		"set_code": "tower_defense",
-		"set_position": 8,
-		"stage": 1,
-		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
+    "back_name": "The Armies of Thanos",
+    "back_text": "",
 		"base_threat": 1,
-		"code": "21099b",
+		"code": "21099",
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
@@ -713,24 +658,12 @@
 		"stage": 1,
 		"threat": 6,
 		"type_code": "main_scheme"
-	},	
-	{	
-		"back_link": "21100b",
-		"code": "21100a",
-		"double_sided": true,
-		"faction_code": "encounter",
-		"name": "Avengers Tower",
-		"octgn_id": "5feae2d4-9f22-4145-a07d-4bd0f873a569",
-		"pack_code": "mts",
-		"position": 100,
-		"quantity": 1,
-		"set_code": "tower_defense",
-		"set_position": 9,
-		"traits": "Stronghold.",
-		"type_code": "environment"
-	},	
-	{	
-		"code": "21100b",
+	},
+	{
+    "back_name": "Avengers Tower",
+    "back_text": "",
+    "back_traits": "Stronghold.",
+		"code": "21100",
 		"double_sided": true,
 		"faction_code": "encounter",
 		"name": "Avengers Tower",
@@ -742,8 +675,8 @@
 		"set_position": 9,
 		"traits": "Damaged.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"code": "21101",
 		"faction_code": "encounter",
 		"name": "Focused Defense",
@@ -754,8 +687,8 @@
 		"set_code": "tower_defense",
 		"set_position": 10,
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"boost": 1,
 		"code": "21102",
@@ -771,8 +704,8 @@
 		"set_position": 11,
 		"traits": "Black Order.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"boost": 3,
 		"code": "21103",
 		"faction_code": "encounter",
@@ -786,8 +719,8 @@
 		"set_position": 15,
 		"traits": "Weapon.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 3,
 		"code": "21104",
 		"faction_code": "encounter",
@@ -801,8 +734,8 @@
 		"set_position": 16,
 		"traits": "Weapon.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21105",
 		"faction_code": "encounter",
@@ -815,8 +748,8 @@
 		"set_position": 17,
 		"traits": "Tactic.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"code": "21106",
 		"faction_code": "encounter",
 		"name": "Proxima's Power",
@@ -827,8 +760,8 @@
 		"set_code": "tower_defense",
 		"set_position": 19,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"code": "21107",
 		"faction_code": "encounter",
 		"name": "Corvus's Cunning",
@@ -839,8 +772,8 @@
 		"set_code": "tower_defense",
 		"set_position": 21,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"code": "21108",
 		"faction_code": "encounter",
 		"name": "Bound by Blood",
@@ -851,8 +784,8 @@
 		"set_code": "tower_defense",
 		"set_position": 23,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "21109",
 		"faction_code": "encounter",
@@ -864,8 +797,8 @@
 		"set_code": "tower_defense",
 		"set_position": 24,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"base_threat_fixed": true,
 		"boost": 2,
@@ -880,8 +813,8 @@
 		"set_code": "tower_defense",
 		"set_position": 26,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "21111",
 		"faction_code": "encounter",
@@ -899,8 +832,8 @@
 		"stage": 1,
 		"traits": "Black Order. Titan.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"code": "21112",
 		"faction_code": "encounter",
@@ -918,8 +851,8 @@
 		"stage": 2,
 		"traits": "Black Order. Titan.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 4,
 		"code": "21113",
 		"faction_code": "encounter",
@@ -937,25 +870,12 @@
 		"stage": 3,
 		"traits": "Black Order. Titan.",
 		"type_code": "villain"
-	},	
-	{	
-		"back_link": "21114b",
-		"code": "21114a",
-		"double_sided": true,
-		"faction_code": "encounter",
-		"name": "The Infinity Stones",
-		"octgn_id": "2986f3a3-e1cd-437b-9ee7-f90a71ec0fa9",
-		"pack_code": "mts",
-		"position": 114,
-		"quantity": 1,
-		"set_code": "thanos",
-		"set_position": 4,
-		"stage": 1,
-		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
+    "back_name": "The Infinity Stones",
+    "back_text": "",
 		"base_threat": 0,
-		"code": "21114b",
+		"code": "21114",
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
@@ -969,25 +889,12 @@
 		"stage": 1,
 		"threat": 12,
 		"type_code": "main_scheme"
-	},	
-	{	
-		"back_link": "21115b",
-		"code": "21115a",
-		"double_sided": true,
-		"faction_code": "encounter",
-		"name": "Balance the Scales",
-		"octgn_id": "2e8b479f-70a5-4040-bc83-40929baf5a01",
-		"pack_code": "mts",
-		"position": 115,
-		"quantity": 1,
-		"set_code": "thanos",
-		"set_position": 5,
-		"stage": 2,
-		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
+    "back_name": "Balance the Scales",
+    "back_text": "",
 		"base_threat": 0,
-		"code": "21115b",
+		"code": "21115",
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
@@ -1001,8 +908,8 @@
 		"stage": 2,
 		"threat": 12,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 3,
 		"base_threat_fixed": true,
 		"boost": 3,
@@ -1016,8 +923,8 @@
 		"set_code": "thanos",
 		"set_position": 6,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"boost": 3,
 		"code": "21117",
 		"faction_code": "encounter",
@@ -1031,8 +938,8 @@
 		"set_position": 7,
 		"traits": "Armor.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 3,
 		"code": "21118",
 		"faction_code": "encounter",
@@ -1046,8 +953,8 @@
 		"set_position": 8,
 		"traits": "Armor.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "21119",
 		"faction_code": "encounter",
@@ -1059,8 +966,8 @@
 		"set_code": "thanos",
 		"set_position": 9,
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "21120",
 		"faction_code": "encounter",
@@ -1072,8 +979,8 @@
 		"set_code": "thanos",
 		"set_position": 11,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"code": "21121",
 		"faction_code": "encounter",
 		"name": "Deviant Syndrome",
@@ -1084,8 +991,8 @@
 		"set_code": "thanos",
 		"set_position": 13,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"code": "21122",
 		"faction_code": "encounter",
 		"name": "\"I Am Inevitable\"",
@@ -1096,8 +1003,8 @@
 		"set_code": "thanos",
 		"set_position": 15,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"code": "21123",
 		"faction_code": "encounter",
 		"name": "The Mad Titan",
@@ -1108,8 +1015,8 @@
 		"set_code": "thanos",
 		"set_position": 17,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"boost": 2,
 		"code": "21124",
@@ -1123,8 +1030,8 @@
 		"set_code": "thanos",
 		"set_position": 19,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "21125",
 		"faction_code": "encounter",
@@ -1140,8 +1047,8 @@
 		"set_position": 1,
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"code": "21126",
 		"faction_code": "encounter",
@@ -1157,8 +1064,8 @@
 		"set_position": 2,
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"boost": 1,
 		"code": "21127",
@@ -1175,8 +1082,8 @@
 		"set_position": 3,
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"boost": 2,
 		"code": "21128",
@@ -1190,8 +1097,8 @@
 		"set_code": "children_of_thanos",
 		"set_position": 4,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"code": "21129",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1204,8 +1111,8 @@
 		"set_position": 1,
 		"traits": "Artifact. Weapon.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21130",
 		"faction_code": "encounter",
@@ -1218,8 +1125,8 @@
 		"set_position": 2,
 		"traits": "Infinity Stone.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"boost": 3,
 		"code": "21131",
 		"faction_code": "encounter",
@@ -1232,8 +1139,8 @@
 		"set_position": 3,
 		"traits": "Infinity Stone.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"boost": 3,
 		"code": "21132",
 		"faction_code": "encounter",
@@ -1246,8 +1153,8 @@
 		"set_position": 4,
 		"traits": "Infinity Stone.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "21133",
 		"faction_code": "encounter",
@@ -1260,8 +1167,8 @@
 		"set_position": 5,
 		"traits": "Infinity Stone.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21134",
 		"faction_code": "encounter",
@@ -1274,8 +1181,8 @@
 		"set_position": 6,
 		"traits": "Infinity Stone.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"boost": 4,
 		"code": "21135",
 		"faction_code": "encounter",
@@ -1288,12 +1195,11 @@
 		"set_position": 7,
 		"traits": "Infinity Stone.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"back_link": "21136b",
 		"code": "21136a",
-		"double_sided": true,
 		"faction_code": "encounter",
 		"health": 8,
 		"health_per_hero": true,
@@ -1309,12 +1215,13 @@
 		"stage": 1,
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 0,
 		"code": "21136b",
-		"double_sided": true,
 		"faction_code": "encounter",
+    "hidden": true,
+    "health": 0,
 		"is_unique": true,
 		"name": "Hela",
 		"octgn_id": "4fcc84da-28e1-4d4f-9aa1-33c7ce2a430f",
@@ -1327,12 +1234,11 @@
 		"stage": 1,
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"back_link": "21137b",
 		"code": "21137a",
-		"double_sided": true,
 		"faction_code": "encounter",
 		"health": 9,
 		"health_per_hero": true,
@@ -1348,12 +1254,13 @@
 		"stage": 2,
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"code": "21137b",
-		"double_sided": true,
 		"faction_code": "encounter",
+    "health": 8,
+    "hidden": true,
 		"is_unique": true,
 		"name": "Hela",
 		"octgn_id": "01359a66-4d39-4386-89ab-d4772db295cb",
@@ -1366,25 +1273,12 @@
 		"stage": 2,
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
-	},	
-	{	
-		"back_link": "21138b",
-		"code": "21138a",
-		"double_sided": true,
-		"faction_code": "encounter",
-		"name": "Odin's Torment",
-		"octgn_id": "6b11b387-d7e5-4060-99a5-af2b29c9c46d",
-		"pack_code": "mts",
-		"position": 138,
-		"quantity": 1,
-		"set_code": "hela",
-		"set_position": 3,
-		"stage": 1,
-		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
+    "back_name": "Odin's Torment",
+    "back_text": "",
 		"base_threat": 1,
-		"code": "21138b",
+		"code": "21138",
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
@@ -1398,13 +1292,12 @@
 		"stage": 1,
 		"threat": 18,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"back_link": "21139b",
 		"code": "21139a",
 		"cost": 0,
-		"double_sided": true,
 		"faction_code": "encounter",
 		"health": 6,
 		"is_unique": true,
@@ -1418,13 +1311,13 @@
 		"thwart": 2,
 		"traits": "Asgard. Captive.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"attack": 4,
 		"code": "21139b",
 		"cost": 0,
-		"double_sided": true,
 		"faction_code": "encounter",
+    "hidden": true,
 		"health": 6,
 		"is_unique": true,
 		"name": "Odin",
@@ -1437,8 +1330,8 @@
 		"thwart": 3,
 		"traits": "Asgard. King.",
 		"type_code": "ally"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"base_threat_fixed": true,
 		"boost": 2,
@@ -1453,8 +1346,8 @@
 		"set_code": "hela",
 		"set_position": 5,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 4,
 		"base_threat_fixed": true,
 		"boost": 4,
@@ -1469,8 +1362,8 @@
 		"set_code": "hela",
 		"set_position": 6,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 3,
 		"base_threat_fixed": true,
 		"boost": 3,
@@ -1485,8 +1378,8 @@
 		"set_code": "hela",
 		"set_position": 7,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"boost": 2,
 		"code": "21143",
@@ -1504,8 +1397,8 @@
 		"set_position": 8,
 		"traits": "Creature. Elite.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"boost": 3,
 		"code": "21144",
@@ -1523,8 +1416,8 @@
 		"set_position": 9,
 		"traits": "Asgard. Elite.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 4,
 		"boost": 4,
 		"code": "21145",
@@ -1542,8 +1435,8 @@
 		"set_position": 10,
 		"traits": "Creature. Elite.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"code": "21146",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1556,8 +1449,8 @@
 		"set_position": 11,
 		"traits": "Weapon.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"code": "21147",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1570,8 +1463,8 @@
 		"set_position": 12,
 		"traits": "Item.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"code": "21148",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1584,8 +1477,8 @@
 		"set_position": 13,
 		"traits": "Armor.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "21149",
 		"faction_code": "encounter",
@@ -1597,8 +1490,8 @@
 		"set_code": "hela",
 		"set_position": 14,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "21150",
 		"faction_code": "encounter",
@@ -1610,8 +1503,8 @@
 		"set_code": "hela",
 		"set_position": 16,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"code": "21151",
 		"faction_code": "encounter",
 		"name": "The Wastes of Niffleheim",
@@ -1622,8 +1515,8 @@
 		"set_code": "hela",
 		"set_position": 18,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"boost": 1,
 		"code": "21152",
@@ -1639,8 +1532,8 @@
 		"set_position": 1,
 		"traits": "Undead.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21153",
 		"faction_code": "encounter",
@@ -1653,8 +1546,8 @@
 		"set_position": 3,
 		"traits": "Condition.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "21154",
 		"faction_code": "encounter",
@@ -1666,8 +1559,8 @@
 		"set_code": "legions_of_hel",
 		"set_position": 5,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"base_threat_fixed": true,
 		"boost": 2,
@@ -1682,8 +1575,8 @@
 		"set_code": "legions_of_hel",
 		"set_position": 6,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"attack": 4,
 		"boost": 4,
 		"code": "21156",
@@ -1700,8 +1593,8 @@
 		"set_position": 1,
 		"traits": "Elite. Giant.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"boost": 1,
 		"code": "21157",
@@ -1717,8 +1610,8 @@
 		"set_position": 2,
 		"traits": "Giant.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21158",
 		"faction_code": "encounter",
@@ -1731,8 +1624,8 @@
 		"set_position": 4,
 		"traits": "Condition.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"boost": 2,
 		"code": "21159",
@@ -1745,8 +1638,8 @@
 		"set_code": "frost_giants",
 		"set_position": 6,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "21160",
 		"faction_code": "encounter",
@@ -1764,8 +1657,8 @@
 		"stage": 1,
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"code": "21161",
 		"faction_code": "encounter",
@@ -1783,8 +1676,8 @@
 		"stage": 1,
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 3,
 		"code": "21162",
 		"faction_code": "encounter",
@@ -1802,8 +1695,8 @@
 		"stage": 1,
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"code": "21163",
 		"faction_code": "encounter",
@@ -1821,8 +1714,8 @@
 		"stage": 1,
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
-	},	
-	{	
+	},
+	{
 		"attack": 2,
 		"code": "21164",
 		"faction_code": "encounter",
@@ -1840,25 +1733,12 @@
 		"stage": 1,
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
-	},	
-	{	
-		"back_link": "21165b",
-		"code": "21165a",
-		"double_sided": true,
-		"faction_code": "encounter",
-		"name": "All Hail King Loki",
-		"octgn_id": "7ea906b4-2bab-47df-9416-f3e6db6345cf",
-		"pack_code": "mts",
-		"position": 165,
-		"quantity": 1,
-		"set_code": "loki",
-		"set_position": 6,
-		"stage": 1,
-		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
+    "back_name": "All Hail King Loki",
+    "back_text": "",
 		"base_threat": 1,
-		"code": "21165b",
+		"code": "21165",
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
@@ -1872,8 +1752,8 @@
 		"stage": 1,
 		"threat": 12,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 4,
 		"base_threat_fixed": true,
 		"boost": 3,
@@ -1887,8 +1767,8 @@
 		"set_code": "loki",
 		"set_position": 7,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 6,
 		"base_threat_fixed": true,
 		"boost": 1,
@@ -1903,8 +1783,8 @@
 		"set_code": "loki",
 		"set_position": 8,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 5,
 		"base_threat_fixed": true,
 		"boost": 2,
@@ -1919,8 +1799,8 @@
 		"set_code": "loki",
 		"set_position": 9,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 3,
 		"base_threat_fixed": true,
 		"boost": 4,
@@ -1935,8 +1815,8 @@
 		"set_code": "loki",
 		"set_position": 10,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"code": "21170",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1950,8 +1830,8 @@
 		"set_position": 11,
 		"traits": "Weapon.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"code": "21171",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1964,8 +1844,8 @@
 		"set_position": 12,
 		"traits": "Item.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21172",
 		"faction_code": "encounter",
@@ -1979,8 +1859,8 @@
 		"set_position": 13,
 		"traits": "Armor.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "21173",
 		"faction_code": "encounter",
@@ -1993,8 +1873,8 @@
 		"set_position": 14,
 		"traits": "Condition.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21174",
 		"faction_code": "encounter",
@@ -2006,8 +1886,8 @@
 		"set_code": "loki",
 		"set_position": 15,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"code": "21175",
 		"faction_code": "encounter",
 		"name": "Inifinite Mischief",
@@ -2018,8 +1898,8 @@
 		"set_code": "loki",
 		"set_position": 17,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"code": "21176",
 		"faction_code": "encounter",
 		"name": "The Trickster",
@@ -2030,8 +1910,8 @@
 		"set_code": "loki",
 		"set_position": 19,
 		"type_code": "treachery"
-	},	
-	{	
+	},
+	{
 		"attack": 1,
 		"boost": 2,
 		"code": "21177",
@@ -2048,8 +1928,8 @@
 		"set_position": 1,
 		"traits": "Asgard. Elite.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"boost": 1,
 		"code": "21178",
 		"faction_code": "encounter",
@@ -2062,8 +1942,8 @@
 		"set_position": 2,
 		"traits": "Condition.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"boost": 2,
 		"code": "21179",
 		"faction_code": "encounter",
