@@ -1,137 +1,146 @@
 [
-    {
-        "code": "22001a",
-        "name": "Nebula",
-        "text": "<i>Combat Protocols</i> - <b>Forced Response</b>: After your turn begins, resolve the \"Special\" ability on each [[technique]] upgrade you control, then discard each [[technique]] upgrade resolved this way.",
-        "traits": "Guardian."
-    },
-    {
-        "code": "22001b",
-        "name": "Nebula",
-        "text": "<i>Cybernetic Upgrades</i> - <b>Response</b>: After you play a [[technique]] upgrade, draw 2 cards. (Limit once per round.)",
-        "traits": "Outlaw."
-    },
-    {
-        "code": "22002",
-        "name": "Gamora",
-        "text": "<b>Response:</b> After you play Gamora, choose a [[technique]] upgrade you control, then resolve its \"Special\" ability.",
-        "traits": "Guardian."
-    },
-    {
-        "code": "22003",
-        "name": "Nebula's Ship",
-        "text": "<b>Resource</b>: Exhaust Nebula's Ship -> generate a [wild] resource.",
-        "traits": "Vehicle."
-    },
-    {
-        "code": "22004",
-        "name": "Cutthroat Amibition",
-        "text": "While Nebula is in hero form, her attacks gain piercing and overkill.\n <b>Special</b> <i>(thwart)</i>: Remove 3 threat from a scheme.",
-        "traits": "Technique."
-    },
-    {
-        "code": "22005",
-        "name": "Evasive Maneuvering",
-        "text": "While in hero form, Nebula ignores the guard keyword, the patrol keyword, and the crisis icon.\n <b>Special</b> : Choose to either sun or confuse an enemy.",
-        "traits": "Technique."
-    },
-    {
-        "code": "22006",
-        "name": "Unyielding Persistence",
-        "text": "While in hero form, Nebula gets +1 THW, +1 ATK, and gains salwart.\n <b>Special</b> : Give Nebula a tough status card.",
-        "traits": "Technique."
-    },
-    {
-        "code": "22007",
-        "name": "Weapons Master",
-        "text": "While in hero form, Nebula gains retaliate 1.\n <b>Special</b> <i>(attack)</i>: Deal 4 damage to an enemy.",
-        "traits": "Technique."
-    },
-    {
-        "code": "22008",
-        "name": "Wide Stance",
-        "text": "While Nebula is in hero form, reduce the amount of damage she takes from each attack by 1.\n <b>Special</b> : Look at the top 3 cards of the encounter deck. Discard 1 and put the others back in any order.",
-        "traits": "Technique."
-    },
-    {
-        "code": "22009",
-        "name": "Combat Ready",
-        "text": "<b>Alter-Ego Action</b>: Choose one:\n Shuffle up to 2 [[technique]] upgrades from your discard pile into your deck.\n Discard cards from the top of your deck until you discard a [[technique]] upgrade. Put that upgrade into play, then resolve its \"Special\" ability.",
-        "traits": "Skill."
-    },
-    {
-        "code": "22010",
-        "name": "Lethal Intent",
-        "text": "<b>Hero Action</b>: Choose up to X [[technique]] upgrades you control. Resolve each of their \"Special\" abilities (in the order of your choice).",
-        "traits": ""
-    },
-    {
-        "code": "22011",
-        "flavor": "",
-        "name": "Eros",
-        "text": "<b>Response:</b> After you play Eros from your hand, confuse a minion for each [mental] resource you used to pay for him.",
-        "traits": "Guardian."
-    },
-    {
-        "code": "22012",
-        "flavor": "",
-        "name": "Wraith",
-        "text": "<b>Hero Interrupt:</b> When a boost card is turned faceup, exhaust Wraith and deal 1 damage to him -> cancel that card's \"Boost\" effect.",
-        "traits": "Guardian."
-    },
-    {
-        "code": "22013",
-        "flavor": "",
-        "name": "Venom",
-        "text": "While there is no threat on the main scheme, reduce all consequential damage Venom takes by 1.",
-        "traits": "Guardian."
-    },
-    {
-        "code": "22014",
-        "name": "Justice Served",
-        "text": "Play under any player's control. Max 1 per player.\n <b>Hero Response</b>: After you thwart and remove the last threat from a scheme, discard Justice Served -> ready your hero.",
-        "traits": ""
-    },
-    {
-        "code": "22015",
-        "name": "One Way or Another",
-        "text": "Max 1 per round.\n <b>Hero Action</b>: Search the encounter deck for a side scheme. Reveal that side scheme -> draw 3 cards (shuffle the encounter deck).",
-        "traits": ""
-    },
-    {
-        "code": "22018",
-        "name": "Brains over Brawn",
-        "text": "<b>Hero Response</b> <i>(attack)</i>: After your hero makes a basic thwart, deal damage to an enemy equal to your hero's THW.",
-        "traits": "Attack."
-    },
-    {
-        "code": "22022",
-        "name": "Daughters of Thanos",
-        "text": "Team-Up (Gamora and Nebula). Max 1 per deck.\n <b>Hero Action</b>: Draw 3 cards.",
-        "traits": ""
-    },
-    {
-        "code": "22032",
-        "name": "Energy Spear",
-        "text": "Attach to a [[guardian]] ally. Max 1 per ally.\n Attached ally gets +2 ATK and gains piercing.",
-        "traits": "Weapon."
-    },
-    {
-        "code": "22033",
-        "name": "Guardians of the Galaxy",
-        "text": "Play under any player's control. Max 1 [[team]] card per player.\n If each of your characters has the [[guardian]] trait, this card gains: \"<b>Response</b>: After you play an upgrade on an ally, draw 1 card.\"",
-        "traits": "Team."
-    },
-    {
-        "code": "22034",
-        "name": "Defensive Training",
-        "text": "Max 2 per deck. Uses (2 training counters).\n <b>Alter-Ego Action</b>: Exhaust this card and remove 1 training counter from this -> choose a Protection (green) event in your discard pile and shuffle it into your deck.",
-        "traits": "Condition."
-    },
-    {
-        "code": "22035",
-        "name": "Honorary Guardian",
-        "text": "Play only if your identity has the [[guardian]] trait.\n Attach to a friendly character. Max 1 per character.\n Attached character gets +1 hit point and gains the [[guardian]] trait.",
-        "traits": "Title."
-    }
+	{
+		"code": "22001a",
+		"name": "Nébula",
+		"text": "<i>Protocolos de combate</i> — <b>Respuesta obligada:</b> después de que empiece tu turno, resuelve la capacidad <b>\"Especial\"</b> de todas las Mejoras [[Técnica]] que controles, luego descarta todas las Mejoras [[Técnica]] que se hayan resuelto de este modo.",
+		"traits": "Guardián."
+	},
+	{
+		"code": "22001b",
+		"flavor": "\"Thanos me creó para un único propósito: matar. Al final lamentará haberlo hecho.",
+		"name": "Nébula",
+		"text": "<i>Mejoras cibernéticas</i> — <b>Respuesta:</b> después de que juegues una Mejora [[Técnica]], roba 2 cartas. (Límite de una vez por ronda.)",
+		"traits": "Proscrito."
+	},
+	{
+		"code": "22002",
+		"flavor": "\"Thanos nos ha adiestrado para el mismo cometido.\"",
+		"name": "Gamora",
+		"text": "<b>Respuesta:</b> después de que juegues a Gamora, elige una Mejora [[Técnica]] que controles y luego resuelve su capacidad <b>\"Especial\"</b>.",
+		"traits": "Guardián."
+	},
+	{
+		"code": "22003",
+		"flavor": "\"Me gustaba más cuando era yo quien disparaba.\"",
+		"name": "Nave de Nébula",
+		"text": "<b>Recurso:</b> agota la Nave de Nébula → genera un recurso [wild]",
+		"traits": "Vehículo."
+	},
+	{
+		"code": "22004",
+		"flavor": "\"¡Soy tan buena guerrera como tú!\" —Nébula",
+		"name": "Ambición sin escrúpulos",
+		"text": "Mientras Nébula tenga adoptada su identidad de Héroe, sus ataques ganan Brutalidad y Penetrante.\n<b>Especial</b> <i>(intervención)</i>: quita 3 de Amenaza de un Plan.",
+		"traits": "Técnica."
+	},
+	{
+		"code": "22005",
+		"name": "Maniobras evasivas",
+		"text": "Mientras tenga adoptada su identidad de Héroe, Nébula ignora la palabra clave Guardia, la palabra clave Patrulla y el icono de Crisis ([crisis]).\n<b>Especial:</b> elige entre aturdir o confundir a un enemigo.",
+		"traits": "Técnica."
+	},
+	{
+		"code": "22006",
+		"name": "Constancia férrea",
+		"text": "Mientras tenga adoptada su identidad de Héroe, Nébula recibe +1 INT, +1 ATQ y gana Firmeza.\n<b>Especial:</b> dale a Nébula una carta de Estado \"Duro\".",
+		"traits": "Técnica."
+	},
+	{
+		"code": "22007",
+		"name": "Maestra en armas",
+		"text": "Mientras tenga adoptada su identidad de Héroe, Nébula gana Represalia 1.\n<b>Especial</b> <i>(ataque)</i>: inflige 4 de Daño a un enemigo.",
+		"traits": "Técnica."
+	},
+	{
+		"code": "22008",
+		"name": "Guardia abierta",
+		"text": "Mientras Nébula tenga adoptada su identidad de Héroe, la cantidad de Daño que reciba de cada ataque se reduce en 1.\n<b>Especial:</b> mira las 3 primeras cartas del mazo de Encuentros. Descartaa 1 de ellas y vuelve a colocar las demás en el orden que prefieras.",
+		"traits": "Técnica."
+	},
+	{
+		"code": "22009",
+		"name": "Lista para el combate",
+		"text": "<b>Acción de Alter ego:</b> elige una opción:\n- Coge hasta 2 Mejoras [[Técnica]] de tu pila de descartes, devuélvelas a tu mazo y barájalo.\n- Descarta cartas de la parte superior de tu mazo hasta que descartes una Mejora [[Técnica]]. Pon enjuego ese Mejora, luego resuelve su capacidad <b>\"Especial\"</b>.",
+		"traits": "Habilidad."
+	},
+	{
+		"code": "22010",
+		"flavor": "\"Los Guardianes fueron sensatos al temerme, y aún más al contratarme.\" —Nébula",
+		"name": "Intenciones asesinas",
+		"text": "<b>Acción de Héroe:</b> elige hasta X Mejoras [[Técnica]] que controles. Resuelve todas sus capacidades <b>\"Especial\"</b> <i>(en el orden que prefieras)</i>",
+		"traits": ""
+	},
+	{
+		"code": "22011",
+		"flavor": "\"No será fácil, pero salvaremos este universo… guardaremos esta galaxia.",
+		"name": "Eros",
+		"text": "<b>Respuesta:</b> después de que juegues a Eros desde tu mano, confunde a un Esbirro por cada recurso [mental] que hayas utilizado para cubrir su coste.",
+		"traits": "Guardián."
+	},
+	{
+		"code": "22012",
+		"flavor": "\"No desesperes: todos somos esclavos del destino.\"",
+		"name": "Fantasma",
+		"subname": "Zak-Del",
+		"text": "<b>Interrupción de Héroe:</b> cuando se ponga boca arriba una carta de aumento, agota a Fantasma e inflígele 1 de Daño → anula el efecto <b>\"Aumento\"</b> de esa carta.",
+		"traits": "Guardián."
+	},
+	{
+		"code": "22013",
+		"flavor": "\"Pues tendrá que ser por las malas.\"",
+		"name": "Veneno",
+		"subname": "Flash Thompson",
+		"text": "Mientras no haya Amenaza sobre el Plan principal, todo el Daño derivado que reciba Veneno se reduce en 1.",
+		"traits": "Guardián."
+	},
+	{
+		"code": "22014",
+		"name": "Se ha hecho justicia",
+		"text": "Juega esta carta poniéndola bajo el control de cualquier jugador. Máximo de 1 por jugador.\n<b>Respuesta de Héroe:</b> después de que intervengas y quites la última ficha de Amenaza de un Plan, descarta Se ha hecho justicia → prepara tu Héroe.",
+		"traits": ""
+	},
+	{
+		"code": "22015",
+		"name": "De un modo u otro",
+		"text": "Máximo de 1 por ronda.\n<b>Acción de Héroe:</b> busca un Plan secundario en el mazo de Encuentros. Muestra ese Plan secundario → roba 3 cartas. <i>(Baraja el mazo de Encuentros.)</i>",
+		"traits": ""
+	},
+	{
+		"code": "22018",
+		"flavor": "Pese a su increíble fuerza, Spiderman suele vencer a sus enemigos siendo más listo que ellos.",
+		"name": "Más maña que fuerza",
+		"text": "<b>Respuesta de Héroe</b> <i>(ataque)</i>: después de que tu Héroe realice una intervención básica, inflige tanto Daño a un enemigo como la puntuación de INT de tu Héroe.",
+		"traits": "Ataque."
+	},
+	{
+		"code": "22022",
+		"flavor": "\"De niñas, Thanos nos enfrentó la una con la otra, pero ahora somos hermanas. Ahora por fin estamos unidads.\" —Gamora",
+		"name": "Hijas de Thanos",
+		"text": "Equipo (Gamora y Nébula). Máximo de 1 por mazo.\n<b>Acción de Héroe:</b> roba 3 cartas.",
+		"traits": ""
+	},
+	{
+		"code": "22032",
+		"name": "Lanza de energía",
+		"text": "Vincula esta carta a un Aliado [[Guardián]]. Máximo de 1 por Aliado.\nEl Aliado vinculado recibe +2 ATQ y sus ataques ganan Penetrante.",
+		"traits": "Arma."
+	},
+	{
+		"code": "22033",
+		"name": "Guardianes de la Galaxia",
+		"text": "Juega esta carta poniéndola bajo el control de cualquier jugador. Máximo de 1 carta de [[Grupo]] por jugador.\nSi todos tus personajes tienen el rasgo [[Guardián]], esta carta gana: \"<b>Respuesta:</b> después de que juegues una Mejora en un Aliado, roba 1 carta.\"",
+		"traits": "Grupo."
+	},
+	{
+		"code": "22034",
+		"name": "Entrenamiento defensivo",
+		"text": "Máximo de 2 por mazo. Usos (2 contadores de Entrenamiento).\n<b>Acción de Alter ego:</b> agota esta carta y quítale 1 contador de Entrenamiento → elige un Evento de Protección <i>(verde)</i> que esté en tu pila de descartes, añadelo a tu mazo y barájalo.",
+		"traits": "Alteración."
+	},
+	{
+		"code": "22035",
+		"name": "Guardián honorario",
+		"text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[Guardián]].\nVincula esta carta a un personaje amigo. Máximo de 1 por personaje.\nEl personaje vinculado recibe +1 de Vida y gana el rasgo [[Guardián]].",
+		"traits": "Título."
+	}
 ]

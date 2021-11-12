@@ -1,172 +1,173 @@
 [
     {
         "code": "13001a",
-        "flavor": "\"You should learn to play nice!\"",
+        "flavor": "\"Dovresti imparare a giocare pulito!\"",
         "name": "Wasp",
-        "text": "Small but Mighty — <b>Response:</b> After Wasp <em>(or an event you play)</em> defeats a minion or side scheme, deal 1 damage to the villain.",
-        "traits": "Avenger. Tiny."
+        "text": "Piccola ma Possente — <b>Risposta:</b> Dopo che Wasp o un evento da te giocato ha sconfitto un gregario o una trama secondaria, infliggi 1 danno al criminale",
+        "traits": "Avenger. Minuscolo."
     },
     {
         "code": "13001b",
-        "flavor": "\"G.I.R.L. is dedicated to finding brilliant women who will not only save the world, but change it.\"",
+        "flavor": "\"G.I.R.L. si impegna a trovare donne geniali in grado non solo di salvare il mondo, ma di cambiarlo.\"",
         "name": "Nadia Van Dyne",
-        "text": "G.I.R.L. — <b>Action:</b> Shuffle up to 2 cards with a printed [mental] resource from your discard pile into your deck. (Limit once per round.)",
-        "traits": "Genius."
+        "text": "G.I.R.L. — <b>Azione:</b> Mescola nel tuo mazzo fino a due carte con [mental] stampate dalla tua pila degli scarti. (Limite di una volta per round)",
+        "traits": "Genio."
     },
     {
         "code": "13001c",
-        "flavor": "\"Aww, you're all so tiny and cute.\"",
+        "flavor": "\"Aww, siete tutti così piccolo e carini.\"",
         "name": "Wasp",
-        "traits": "Avenger. Giant.",
-        "attack_text": "Damage you deal using your basic attack power (ATK) can be divided among enemies as you choose.",
-        "scheme_text": "Threat you remove using your basic thwart power (THW) can be divided among schemes as you choose."
+        "traits": "Avenger. Gigante.",
+        "attack_text": "I danni che infliggi usando il tuo potere di attacco base (ATT) possono essere suddivisi tra i nemici come preferisci.",
+        "scheme_text": "Le minacce che rimuovi usando il tuo potere di intervento base (INT) possono essere suddivise tra le trame come preferisci."
     },
     {
         "code": "13002",
         "name": "Ant-Man",
-        "text": "While you are in [[Giant]] hero form, Ant-Man gains the [[Giant]] trait and gets +1 ATK.\nWhile you are in [[Tiny]] hero form, Ant-Man gains the [[Tiny]] trait and gets +1 THW.",
+        "text": "Mentre sei nella sembianza di eroe [[Gigante]], Ant-Man ottiene il tratto [[Gigante]] e riceve +1 ATT.\nMentre sei nella sembianza di eroe [[Minuscolo]], Ant-Man ottiene il tratto [[Minuscolo]] e riceve +1 INT.",
         "traits": "Avenger.",
         "subname": "Scott Lang"
     },
     {
         "code": "13003",
-        "flavor": "\"Glad to be of service!\" - Wasp",
-        "name": "Giant Help",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme (remove a total of 4 threat divided among schemes as you choose instead if you are in [[Giant]] hero form).",
-        "traits": "Thwart."
+        "flavor": "\"Felice di essere d'aiuto!\" - Wasp",
+        "name": "Aiuto Gigantesco",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 3 minacce da una trama(rimuovi invece un totale di 4 minacce suddividendole tra le trame in gioco se sei nella sembianza di eroe [[Gigante]]).",
+        "traits": "Intervento."
     },
     {
         "code": "13004",
-        "flavor": "\"You're going to want to ice that in the morning.\" - Wasp",
-        "name": "Pinpoint Strike",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 7 damage to an enemy. If you are in [[Tiny]] hero form, this attack deals 1 additional damage to that enemy and gains overkill.",
-        "traits": "Attack."
+        "flavor": "\"Domattina ti conviene metterci sopra un po' di ghiaccio.\" - Wasp",
+        "name": "Colpo di Precisione",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 7 danni a un nemico. Se sei nella sembienza [[Minuscolo]], questo attacco infligge 1 danno aggiuntivo a quel nemico e ottiene Sopraffazione.",
+        "traits": "Attacco."
     },
     {
         "code": "13005",
-        "flavor": "\"Bet you didn't expect to see that.\" - Wasp",
-        "name": "Rapid Growth",
-        "text": "<b>Hero Interrupt</b>: When you use one of your hero's basic powers (THW, ATK, or DEF), change to your [[Giant]] hero form and get +2 to that power for this use.",
-        "traits": "Giant. Superpower."
+        "flavor": "\"Scommetto che questo non te l'aspettavi.\" - Wasp",
+        "name": "Crescita Rapida",
+        "text": "<b>Interruzione eroe</b>: Quando usi un potere base del tuo eroe (INT, ATT o DIF), assumi la sembienza di eroe [[Gigante]] e ricevi +2 a quel potere per questo uso.",
+        "traits": "Gigante. Superpotere."
     },
     {
         "code": "13006",
-        "name": "Wasp Sting",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: If you are in [[Giant]] hero form, deal a total of 4 damage divided among enemies you choose.\n<b>Hero Action</b> <i>(attack)</i>: If you are in [[Tiny]] hero form, deal 5 damage to an enemy.",
-        "traits": "Attack."
+        "name": "Pungiglione di Wasp",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Se sei nella sembienza di eroe [[Gigante]], infliggi un totale di 4 danni ai nemici suddividendoli come preferisci.\n<b>Azione Eroe</b> <i>(attacco)</i>: Se sei nella sembienza di eroe [[Minuscolo]], infliggi 5 danni a un nemico.",
+        "traits": "Attacco."
     },
     {
         "code": "13007",
-        "name": "Pym Particles",
-        "text": "<b>Hero Response</b>: After you spend this card, heal 2 damage from your hero if you are in [[Giant]] hero form or draw 1 card if you are in [[Tiny]] hero form."
+        "name": "Particelle Pym",
+        "text": "<b>Risposta Eroe</b>: Dopo che hai speso le risorse di questa carta, cura 2 danni al tuo eroe se sei nella sembianza di eroe [[Gigante]] oppure pesca 1 carta se sei nella sembianza di eroe [[Minuscolo]]."
     },
     {
         "code": "13008",
-        "name": "Red Room Training",
-        "text": "While you are in [[Giant]] hero form, you gain retaliate 1.\nWhile you are in [[Tiny]] hero form, your basic attacks gain piercing. <i>(Discard any tough status cards from the target before dealing damage.)</i>",
-        "traits": "Skill."
+        "name": "Lezione nella Camera Rossa",
+        "text": "Mentre sei nella sembianza di eroe [[Gigante], ottieni Ritorsione 1.\nMentre sei nella sembianza di eroe [[Minuscolo']],  i tuoi attacchi base ottengono Perforante. <i>(Scarta ogni carta status Robusto dal bersaglio prima di infliggere danni.)</i>",
+        "traits": "Abilità."
     },
     {
         "code": "13009",
-        "name": "Bio-Synthetic Wings",
-        "text": "Wasp gains the [[Aerial]] trait.\n<b>Interrupt:</b> When you would take any amount of damage, if you are in [[Tiny]] hero form, exhaust Bio-Synthetic Wings → prevent 1 of that damage.",
-        "traits": "Item. Tech."
+        "name": "Ali Bio-Sintetiche",
+        "text": "Wasp guadagna il tratto [[Aereo]].\n<b>Interruzione:</b> Quando stai per subire un qualsiasi ammontare di danni, se sei nella sembianza [[Minuscolo]], esaurisci Ali Bio-Sintetiche → previeni 1 di quei danni.",
+        "traits": "Oggetto. Tecnologia."
     },
     {
         "code": "13010",
-        "name": "Wasp's Helmet",
-        "text": "While you are in [[Giant]] hero form, you get +1 THW.\nWhile you are in [[Tiny]] hero form, you get +1 ATK.",
-        "traits": "Armor. Tech."
+        "name": "Elmo di Wasp",
+        "text": "Mentre sei nella sembianza di eroe [[Gigante]], ricevi +1 INT.\nMentre sei nella sembianza di eroe [[Minuscolo]], ricevi + ATT.",
+        "traits": "Armatura. Tecnologia."
     },
     {
         "code": "13011",
-        "flavor": "\"You wanna eat my hammer? Then by all means, take a big bite!\"",
+        "flavor": "\"Vuoi assaggiare il mio martello? Fà pure, prendine un grosso morso allora!\"",
         "name": "Thor",
-        "text": "<b>Response:</b> After you play Thor from your hand, deal 2 damage to the villain (3 damage instead if you paid for this card using a [physical] resource).",
+        "text": "<b>Risposta:</b> Dopo che hai giocato Thor dalla tua mano (3 danni se invece hai pagato questa carta usando una [physical]).",
         "traits": "Asgard. Avenger.",
         "subname": "Jane Foster"
     },
     {
         "code": "13012",
         "name": "Wasp",
-        "text": "Wasp gets +1 hit point for each pym counter on her.\n<b>Interrupt:</b> When Wasp enters play, place 1 pym counter on her (to a maximum of 3) for each [energy] resource you overpaid for Wasp's cost.",
-        "traits": "Aerial. Avenger.",
+        "text": "Wasp riceve +1 punti ferita per ogni gettone pym su di essa.\n<b>Interruzione:</b> Quando Wasp entra in gioco, colloca 1 gettone pym su di essa (fino a un massimo di 3) per ogni [energy] che hai pagato in eccesso per il costo di Wasp.",
+        "traits": "Aereo. Avenger.",
         "subname": "Janet Van Dyne"
     },
     {
         "code": "13013",
-        "name": "Into the Fray",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to a minion. For each point of excess damage dealt by this attack, remove 1 threat from the main scheme.",
-        "traits": "Attack."
+        "name": "Nella Mischia",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 6 danni a un gregario. Rimuovi 1 minaccia dalla trama principale per ogni danno in eccesso inflitto da questo attacco.",
+        "traits": "Attacco."
     },
     {
         "code": "13014",
-        "name": "Surprise Attack",
-        "text": "<b>Hero Response</b> <i>(attack)</i>: After you change form, deal 3 damage to an enemy (4 damage instead if you paid for this card using [physical] resource).",
-        "traits": "Attack."
+        "name": "Attacco a Sorpresa",
+        "text": "<b>Risposta Eroe</b> <i>(attacco)</i>: Dopo che hai cambiato sembianza, infliggi 3 danni a un nemico (4 danni se invece hai pagato per questa carta usando una [physical]).",
+        "traits": "Attacco."
     },
     {
         "code": "13016",
-        "flavor": "\"YOU CALL THAT A PUSHUP! MY GRANDMOTHER DOES BETTER PUSHUPS!\"",
-        "name": "Boot Camp",
-        "text": "Play under any player's control. Max 1 per player.\nEach ally you control gets +1 ATK.",
-        "traits": "Location."
+        "flavor": "\"E QUELLO LO CHIAMI PIEGAMENTO?! MIA NONNA LI FA MEGLIO DI TE!\"",
+        "name": "Campo per Reclute.",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\nOgni alleato che controlli riceve +1 ATT.",
+        "traits": "Luogo."
     },
     {
         "code": "13017",
-        "name": "Lie in Wait",
-        "text": "Max 1 per player.\n<b>Hero Response</b> <i>(attack)</i>: After a minion engages you, discard Lie in Wait → deal 3 damage to that minion.",
-        "traits": "Preparation."
+        "name": "Attesa Paziente",
+        "text": "Massimo 1 per giocatore.\n<b>Risposta Erore</b> <i>(attacco)</i>: Dopo che un gregario ti ha impegnato → infliggi 3 danni a quel gregario.",
+        "traits": "Preparativi."
     },
     {
         "code": "13018",
-        "flavor": "\"I'm totally going to be like Tony Stark! Except for that weird facial hair.\"",
+        "flavor": "\"Sarò come Tony Stark in tutto e per tutto! Ad eccezione di quello strano pizzetto.\"",
         "name": "Ironheart",
-        "text": "<b>Response</b>: After you play Ironheart from your hand, draw 1 card.",
-        "traits": "Champion."
+        "text": "<b>Risposta</b>: Dopo che hai giocato Ironheart dalla tua mano, pesca 1 carta.",
+        "traits": "Champion.",
+        "subname": "Riri Williams"
     },
     {
         "code": "13019",
-        "flavor": "\"I'm needed. And just like that, none of the rest of it matters.\"",
+        "flavor": "\"C'è bisogno di me. E nel giro di un istante, tutto il resto non conta più niente.\"",
         "name": "Spider-Man",
-        "text": "<b>Response:</b> After you play Spider-Man from your hand, choose THW or ATK. Spider-Man gets +2 to the chosen power until the end of the phase.",
+        "text": "<b>Risposta:</b> Dopo che hai giocato Spider-Man dalla tua mano, scegli se fargli ricevere +2 INT o +2 ATT fino alla fine della fase.",
         "traits": "Champion.",
         "subname": "Miles Morales"
     },
     {
         "code": "13020",
-        "name": "Swarm Tactics",
-        "text": "Team-Up (Ant-Man and Wasp). Max 1 per deck.\n<b>Hero Action:</b> Change to your other hero form. Ready your hero.",
-        "traits": "Tactic."
+        "name": "Tattica dello Sciame",
+        "text": "Team-Up (Ant-Man e Wasp). Massimo 1 per mazzo.\n<b>Azione Eroe:</b> Assumi la tua altra sembianza di eroe. Ripristina il tuo eroe.",
+        "traits": "Tattica."
     },
     {
         "code": "13024",
-        "name": "The Power in All of Us",
-        "text": "Max 2 per deck.\nDouble the number of resources this card generates when paying for a Basic (gray) card."
+        "name": "Il Potere in Tutti Noi",
+        "text": "Massimo 2 per mazzo.\nMentre paghi per una carta Base (grigia), raddoppia il numero di risorse generate da questa carta."
     },
     {
         "code": "13031",
-        "name": "Running Interference",
-        "text": "Play only if your identity has the [[Avenger]] trait.\n<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from the main scheme. Remove X additional threat from the main scheme (to a maximum of 3), where X is equal to the villain's stage number.",
-        "traits": "Thwart."
+        "name": "Interferenze ricorrenti",
+        "text": "Gioca solo se la tua identità possiede il tratto [[Avenger]].\n<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 2 minacce dalla trama principale. Rimuovi X minacce aggiuntive dalla trama principale (fino ad un massimo di 3), dove X è pari al numero di stadio del criminale.",
+        "traits": "Intervento."
     },
     {
         "code": "13032",
-        "name": "All for One",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 3 damage to an enemy and exhaust any number of [[Avenger]] characters you control. Deal 1 additional damage to that enemy for each character exhausted this way.",
-        "traits": "Attack."
+        "name": "Tutti per Uno",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 3 danni a un nemico ed esaurisci un qualsiasi numero di personaggi [[Avenger]] che controlli. Infliggi 1 danno aggiuntivo a quel nemico per ogni personaggio esaurito in questo modo.",
+        "traits": "Attacco."
     },
     {
         "code": "13033",
-        "flavor": "\"You do know the front door is unlocked, right?\" - Spider-Man",
-        "name": "Perseverance",
-        "text": "<b>Hero Response</b>: After you change form, give your hero a tough status card.",
-        "traits": "Tactic."
+        "flavor": "\"Lo sapevi che la porta d'ingresso non era chiusa a chiave, vero?\" - Spider-Man",
+        "name": "Perseveranza",
+        "text": "<b>Risposta Eroe</b>: Dopo che hai cambiato sembianza, irrobustisci il tuo eroe.",
+        "traits": "Tattica."
     },
     {
         "code": "13034",
-        "flavor": "\"Don't worry, the ringing in your ears will go away... eventually.\" - Nadia Van Dyne",
-        "name": "Athletic Conditioning",
-        "text": "<b>Hero Action</b>: Discard 1 stun or confuse status card from your hero."
+        "flavor": "\"Non preoccuparti, il fischio nelle orecchie se ne andrà... prima o poi.\" - Nadia Van Dyne",
+        "name": "Condizionamento Atletico",
+        "text": "<b>Azione Eroe</b>: Scarta 1 carta status confuso o stordito dal tuo eroe."
     }
 ]
