@@ -1,159 +1,159 @@
 [
     {
         "code": "06001a",
-        "flavor": "\"Now you face the mightiest Avenger of all\"",
+        "flavor": "\"Ora hai di fronte a te il più potente di tutti gli Avengers!\"",
         "name": "Thor",
-        "text": "\"Have at thee!\" — <b>Response</b>: After you engage a minion, draw 2 cards. (Limit once per phase.)",
+        "text": "\"In Guardia!\" — <b>Risposta</b>: Dopo che hai impegnato un gregario, pesca 2 carte (Limite di una volta per fase.)",
         "traits": "Asgard. Avenger."
     },
     {
         "code": "06001b",
-        "name": "Odinson",
-        "text": "Worthy — <b>Action</b>: Search your deck and discard pile for the Mjolnir upgrade and add it to your hand. Shuffle your deck. (Limit once per round).",
+        "name": "Figlio di Odino",
+        "text": "Degno — <b>Azione</b>: Cerca nel tuo mazzo e nella tua pila degli scarti la miglioria Mjolnir e aggiungila alla tua mano. Mescola il tuo mazzo. (Limite di una volta per round).",
         "traits": "Asgard."
     },
     {
         "code": "06002",
-        "flavor": "\"Where my Beloved sallies forth—let his Lady Sif be at his side!\"",
+        "flavor": "\"Ovunque il mio Amato si rechi fieramente, la sua Lady Sif gli sarà al fianco!\"",
         "name": "Lady Sif",
-        "text": "<b>Response</b>: After Lady Sif enters play, ready Thor or Odinson.",
+        "text": "<b>Risposta</b>: Dopo che Lady Sif è entrata in gioco, ripristina Thor o Figlio di Odino.",
         "traits": "Asgard."
     },
     {
         "code": "06003",
-        "name": "Defender of the Nine Realms",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Discard cards from the top of the encounter deck until you discard a minion. Put that minion into play engaged with you → remove 3 threat from a scheme.",
-        "traits": "Thwart."
+        "name": "Difensore dei Nove Regni",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 gregario. Metti in gioco quel gregario impegnato con te → rimuovi 3 minacce da una trama.",
+        "traits": "Intervento."
     },
     {
         "code": "06004",
-        "flavor": "\"For honor! For glory! For Asgard!\" -- Thor",
-        "name": "For Asgard!",
-        "text": "<b>Alter-Ego Action</b>: Search your deck and discard pile for a card with the [[Asgard]] trait and add it to your hand. Shuffle your deck."
+        "flavor": "\"Per l'onore! Per la gloria! Per Asgard!\" - Thor",
+        "name": "Per Asgard!",
+        "text": "<b>Azione Alter Ego</b>: Cerca nel tuo mazzo e nella pila degli scarti 1 carta [[Asgard]] e aggiungila alla tua mano. Mescola il tuo mazzo."
     },
     {
         "code": "06005",
-        "flavor": "\"Now, Mjolnir! Strike true\" -- Thor",
-        "name": "Hammer Throw",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust Mjolnir → deal 8 damage to an enemy and return Mjolnir to your hand. This attack gains overkill.",
-        "traits": "Attack. Superpower."
+        "flavor": "\"Ora, Mjolnir! Che il tuo colpo sia infallibile!\" - Thor",
+        "name": "Lancio del Martello",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Esaurisci Mjolnir → infliggi 8 danni a un nemico e rimetti Mjolnir nella tua mano. Questo attacco ottiene Sopraffazione.",
+        "traits": "Attacco. Superpotere."
     },
     {
         "code": "06006",
-        "flavor": "\"I say thee, nay!\" -- Thor",
-        "name": "Lightning Strike",
-        "text": "<b>Hero Action</b>: Spend X [energy] resources → deal X damages to the villain and each minion engaged with you. This attack ignores tough statuses card if you have the [[Aerial]] trait.",
-        "traits": "Superpower."
+        "flavor": "\"Io ti dico no!\" - Thor",
+        "name": "Colpo Folgorante",
+        "text": "<b>Azione Eroe</b>: Spendi X [energy] → infliggi X danni al criminale e a ogni gregario impegnato con te. Se possiedi il tratto [[Aereo]], questo attacco ignora le carte status Robusto. ",
+        "traits": "Superpotere."
     },
     {
         "code": "06007",
-        "flavor": "It is from the shining city of Asgard that Odin watches over the Nine Realms, and it was here that Thor was raised a prince.",
+        "flavor": "Dalla splendente città di Asgard, Odino veglia sui Nove Regni, ed è qui che Thor è stato cresciuto come principe.",
         "name": "Asgard",
-        "text": "You get +1 hand size.",
-        "traits": "Asgard. Location."
+        "text": "Ricevi +1 limite di mano.",
+        "traits": "Asgard. Luogo."
     },
     {
         "code": "06008",
-        "flavor": "\"I am the God of Thunder, lord of the savage Lightning. The vary skies must tremble when speaks the Mighty Thor!\" -- Thor",
-        "name": "God of Thunder",
-        "text": "<b>Hero Resource</b>: Exhaust God of Thunder → generate a [energy] resource.",
-        "traits": "Asgard. Title."
+        "flavor": "\"Io sono il dio del Tuono, signore della furia del Fulmine. I cieli stessi tremano quando parla il possente Thor!\" - Thor",
+        "name": "Dio del Tuono",
+        "text": "<b>Risorsa Eroe</b>: Esaurisci Dio del Tuono → genera [energy].",
+        "traits": "Asgard. Titolo."
     },
     {
         "code": "06009",
-        "flavor": "Whosoever holds this hammer, if he be worthy, shall possess the power of Thor.",
+        "flavor": "Chiunque impugni questo martello, se ne sarà degno, riceverà il potere di Thor.",
         "name": "Mjolnir",
-        "text": "Restricted. <i>(Max 2 restricted cards per player.)</i>\nThor gets +1 ATK and gains the [[Aerial]] trait.",
-        "traits": "Asgard. Weapon."
+        "text": "Restrizione. <i>(Massimo 2 carte con Restrizione per ogni giocatore.)</i>\nThor riceve + 1 ATT e ottiene il tratto [[Aereo]].",
+        "traits": "Asgard. Arma."
     },
     {
         "code": "06010",
-        "flavor": "\"Brothers and sisters -- prepare yourselves. Today we go to WAR!\" -- Thor",
-        "name": "Thor's Helmet",
-        "text": "You get +5 hit points.",
-        "traits": "Asgard. Armor."
+        "flavor": "\"Fratelli e sorelle, preparatevi. Oggi andremo in GUERRA!\" - Thor",
+        "name": "Elmo di Thor",
+        "text": "Ricevi +5 punti ferita.",
+        "traits": "Asgard. Armatura."
     },
     {
         "code": "06011",
-        "flavor": "Whatever Thor can do, Hercules can accomplish more mightily!",
-        "name": "Hercules",
-        "text": "Reduce the cost to play Hercules by 1 for each minion engaged with you.",
-        "traits": "Avenger. Olympus."
+        "flavor": "\"Qualsiasi cosa possa fare, Ercole la compirà con maggiore potenza!\"",
+        "name": "Ercole",
+        "text": "Riduci il costo per giocare Ercole di 1 per ogni gregario impegnato con te.",
+        "traits": "Avenger. Olimpo."
     },
     {
         "code": "06012",
-        "flavor": "I am Valkyrie, shieldmaiden of Asgard.",
-        "name": "Valkyrie",
-        "text": "<b>Response:</b> After Valkyrie enters play, deal 2 damage to a minion (3 damage instead if you paid for this card using a [energy] resource).",
+        "flavor": "\"Io sono Valchiria, guardiana di Asgard.\"",
+        "name": "Valchiria",
+        "text": "<b>Risposta:</b> Dopo che Valchiria è entrata in gioco, infliggi 2 danni a un gregario (3 danni se invece hai pagato questa carta usando una [energy]).",
         "traits": "Asgard. Avenger."
     },
     {
         "code": "06014",
-        "flavor": "\"I would have words with thee!\" -- Thor",
-        "name": "Get Over Here!",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 1 damage to a minion. If you have the [[Aerial]] trait, engage that enemy.",
-        "traits": "Attack."
+        "flavor": "\"Voglio scambiare due parole con te!\" -- Thor",
+        "name": "Vieni Qui!",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 1 danno a un gregario. Se possiedi il tratto [[Aereo]], impegna quel nemico.",
+        "traits": "Attacco."
     },
     {
         "code": "06015",
         "flavor": "POW!",
-        "name": "Mean Swing",
-        "text": "<b>Hero Interrupt</b>: When your hero makes a basic attack, exhaust a [[Weapon]] upgrade on your hero → your hero gets +3 ATK for this attack.",
-        "traits": "Skill."
+        "name": "Impatto Micidiale",
+        "text": "<b>Interruzione Eroe</b>: Quando il tuo eroe effettua un attacco base, esaurisci 1 miglioria [[Arma]] sul tuo eroe → il tuo eroe riceve +3 ATT per questo attacco.",
+        "traits": "Abilità."
     },
     {
         "code": "06017",
-        "name": "Hall of Heroes",
-        "text": "<b>Response:</b> After you defeat a minion, place 1 glory counter here.\n<b>Alter-Ego Action:</b> Exhaust Hall of Heroes and remove 3 glory counters from it → draw 3 cards.",
-        "traits": "Asgard. Location."
+        "name": "Sala degli Eroi",
+        "text": "<b>Risposta:</b> Dopo che hai sconfitto un gregario, colloca 1 gettone gloria su questa carta.\n<b>Azione Alter Ego:</b> Esaurisci Sala degli Eroi e rimuovi 3 gettoni gloria da essa → pesca 3 carte.",
+        "traits": "Asgard. Luogo."
     },
     {
         "code": "06018",
-        "name": "Battle Fury",
-        "text": "Play under any player's control.\nMax 1 per player.\n<b>Response:</b> After your hero attacks and defeats a minion, deal 1 damage to your hero and discard Battle Fury → ready your hero.",
-        "traits": "Condition."
+        "name": "Furia della Battaglia",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore.\nMassimo 1 per giocatore.\n<b>Risposta:</b> Dopo che il tuo eroe ha attaccato e sconfitto un gregario, infliggi 1 danno al tuo eroe e scarta Furia della Battaglia → ripristina il tuo eroe.",
+        "traits": "Condizione."
     },
     {
         "code": "06019",
         "name": "Jarnbjorn",
-        "text": "Restricted.\n<b>Response:</b> After your hero attacks an enemy, spend a [physical] resource → deal 2 damage to an enemy.",
-        "traits": "Asgard. Weapon."
+        "text": "Restrizione. (Massimo 2 carte con Restrizione per giocatore.)\n<b>Risposta:</b> Dopo che il tuo eroe ha attaccato un nemico, spendi [physical] → infliggi 2 danni a un nemico.",
+        "traits": "Arma. Asgard."
     },
     {
         "code": "06020",
-        "flavor": "\"You wish to know what I see?\"",
+        "flavor": "\"Desideri davvero sapere cosa vedo?\"",
         "name": "Heimdall",
-        "text": "<b>Response:</b> After Heimdall enters play, look at the top 3 cards of the encounter deck. Discard 1 of them and put the others back in any order.",
+        "text": "<b>Risposta:</b> Dopo che Heimdall è entrato in gioco, guarda 3 carte dalla cima del mazzo degli incontri. Scartane 1 e rimetti le altre in cima al mazzo nell'ordine che preferisci.",
         "traits": "Asgard."
     },
     {
         "code": "06021",
-        "flavor": "\"It's unbreakable skin, man. Don't you know who I am?\" -- Luke Cage",
-        "name": "Invulnerability",
-        "text": "<b>Hero Action</b>: Give your hero a tough status card.",
-        "traits": "Superpower."
+        "flavor": "\"E' pelle indistruttibile, amico. Non lo sai chi sono io?\" -- Luke Cage",
+        "name": "Invulnerabilità",
+        "text": "<b>Azione Eroe</b>: Irrobustisci il tuo eroe.",
+        "traits": "Superpotere."
     },
     {
         "code": "06031",
-        "name": "Under Surveillance",
-        "text": "Attach to the main scheme. Max 1 per scheme.\nIncrease the target threat value of attached scheme by 4.",
-        "traits": "Condition."
+        "name": "Sotto Sorveglianza",
+        "text": "Assegna alla trama principale. Massimo 1 per trama.\nAumenta di 4 il valore di minaccia bersaglio della trama con questa miglioria.",
+        "traits": "Condizione."
     },
     {
         "code": "06032",
-        "name": "Teamwork",
-        "text": "<b>Hero Interrupt</b> When you use your basic thwart power <i>(THW)</i> or basic attack power <i>(ATK)</i>, exhaust an ally you control → add that ally's matching power to your hero's power for this use.",
-        "traits": "Tactic."
+        "name": "Lavoro di Squadra",
+        "text": "<b>Interruzione Eroe</b> Quando usi il tuo potere di intervento base <i>(INT)</i> o il tuo potere di attacco base <i>(ATT)</i>, esaurisci 1 alleato che controlli → aggiungi il suo potere corrispondente al potere del tuo eroe per questo uso.",
+        "traits": "Tattica."
     },
     {
         "code": "06033",
-        "name": "Second Wind",
-        "text": "<b>Action</b>: Heal 4 damage from an identity (5 damage instead if you paid for this card using a [mental] resource)."
+        "name": "Recuperare le Forze",
+        "text": "<b>Azione</b>: Cura 4 danni a un'identità (5 danni se invece hai pagato questa carta usando una [mental])."
     },
     {
         "code": "06034",
-        "name": "Enhanced Physique",
-        "text": "Uses (3 physical counters).\n<b>Hero Resource</b>: Exhaust Enhanced Physique and remove 1 physical counter from it → generate a [physical] resource.",
-        "traits": "Condition."
+        "name": "Fisico Potenziato",
+        "text": "Utilizzo (3 gettoni fisico).\n<b>Risorsa Eroe</b>: Esaurisci Fisico Potenziato e rimuovi 1 gettone fisico da esso → genera [physical].",
+        "traits": "Condizione."
     }
 ]
