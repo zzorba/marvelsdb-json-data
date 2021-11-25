@@ -1,0 +1,386 @@
+[
+	{
+		"code": "21001a",
+		"flavor": "\"The name is Monica, or Spectrum if you're nasty.\"",
+		"name": "Spectrum",
+		"text": "<i>Energy Transformation</i> - <b>Forced Response:</b> After you change to this form, choose a facedown energy form upgrade -> flip that card faceup to change to that energy form.",
+		"traits": "Aerial. Avenger."
+	},
+	{
+		"code": "21001b",
+		"name": "Monica Rambeau",
+		"text": "<b>Setup:</b> Put all 3 energy form upgrades into play, facedown.\n<i>Power Down</i> - <b>Forced Response:</b> After you change to this form, turn all your energy upgrades facedown.",
+		"traits": "Civilian."
+	},
+	{
+		"code": "21002",
+		"name": "Gamma",
+		"text": "Energy form. Permanent.\nSpectrum gets +2 ATK.\n<b>Hero Response:</b> After you change to this form, deal 1 damage to an enemy."
+	},
+	{
+		"code": "21003",
+		"name": "Photon",
+		"text": "Energy form. Permanent.\nSpectrum gets +2 THW.\n<b>Hero Response:</b> After you change to this form, remove 1 threat from a scheme."
+	},
+	{
+		"code": "21004",
+		"name": "Pulsar",
+		"text": "Energy form. Permanent.\nSpectrum gets +2 DEF.\n<b>Hero Response:</b> After you change to this form, heal 1 damage from Spectrum."
+	},
+	{
+		"code": "21005",
+		"flavor": "\"I do whatever is right, whenever it needs to be done, and I don't care what anyone thinks.\"",
+		"name": "Blue Marvel",
+		"subname": "Adam Brashear",
+		"text": "<b>Hero Response:</b> After Blue Marvel enters play, change energy forms",
+		"traits": "Aerial. Avenger."
+	},
+	{
+		"code": "21006",
+		"flavor": "\"I can take the form of any type of energy I want.\"-Spectrum",
+		"name": "Energy Duplication",
+		"text": "<b>Hero Resource:</b> Exhaust Energy Duplication -> generate the printed resource on your faceup energy form upgrade.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "21007",
+		"flavor": "\"I wouldn't make me angry either.\" - Spectrum",
+		"name": "Gamma Blast",
+		"text": "<b>Hero Action</b> (attack): Change to Gamma energy form and deal 7 damage to an enemy. If you were already in Gamma energy form, this attack gains overkill.",
+		"traits": "Attack. Superpower."
+	},
+	{
+		"code": "21008",
+		"flavor": "\"Looking for these?\" - Spectrum",
+		"name": "Photon Speed",
+		"text": "<b>Hero Action</b> (thwart): Change to Photon energy form and remove 4 threat from a scheme. If you were already in Photon energy form, ignore crisis icon for this thwart.",
+		"traits": "Thwart. Superpower."
+	},
+	{
+		"code": "21009",
+		"name": "Pulsar Shield",
+		"text": "<b>Hero Interrupt</b> (defense): When Spectrum defends, change to Pulsar energy form and ready Spectrum. If you were already in Pulsar energy form, she gains retaliate 1 until the end of the phase.",
+		"traits": "Defense. Superpower."
+	},
+	{
+		"code": "21010",
+		"flavor": "\"Be there in a flash.\" - Spectrum",
+		"name": "Speed of Light",
+		"text": "<b>Hero Action:</b> Change energy forms and draw 1 card.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "21011",
+		"name": "Captain America",
+		"subname": "Steve Rogers",
+		"text": "Toughness.\nReduce the cost to play Captain America by 1 for each [[avenger]] character you control.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "21012",
+		"name": "Power Man",
+		"subname": "Victor Alvarez",
+		"text": "Power Man enters play with 2 chi counters on him.\n<b>Action</b>: Discard any number of chi counters from Power Man -> he gets +2 ATK for each chi counter discarded this way until the end of the phase.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "21013",
+		"name": "White Tiger",
+		"subname": "Ava Ayala",
+		"text": "<b>Response</b>: After you play White Tiger from your hand, draw X cards (to a maximum of three), where X is equal to the villain's stage number. If the villain has no stage number, draw 1 card.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "21014",
+		"name": "Kaluu",
+		"text": "<b>Response</b>: After Kaluu enters play, search the top 5 cards of your deck for an event -> add that event to your hand. Shuffle your deck.",
+		"traits": "Avenger. Mystic."
+	},
+	{
+		"code": "21015",
+		"name": "Mighty Avengers",
+		"text": "Play under any player's control. Max 1 Team per player.\nIf each of your characters has the Avengers trait, each ally you control gets +1 THW and +1 ATK.",
+		"traits": "Team."
+	},
+	{
+		"code": "21016",
+		"name": "Mass Attack",
+		"text": "<b>Hero Action</b>: Exhaust 3 allies you control that shares a Trait with your hero -> deal X damage to an enemy, where X is the total ATK of those allies and your hero.",
+		"traits": "Attack."
+	},
+	{
+		"code": "21018",
+		"name": "Band Together",
+		"text": "This card generates [wild] for each ally you control (to a maximum of 3)"
+	},
+	{
+		"code": "21019",
+		"name": "Blade",
+		"subname": "Eric Brooks",
+		"text": "<b>Forced Response</b>: After Blade thwarts or attacks, choose to either spend a [physical] resource from your hand or discard Blade.",
+		"traits": "Avenger. Vampire."
+	},
+	{
+		"code": "21022",
+		"name": "Ready to Rumble",
+		"text": "Play under any player's control. Max 1 per player.\n<b>Hero Response</b>: After you change form, discard this card -> ready your hero.",
+		"traits": "Condition."
+	},
+	{
+		"code": "21031a",
+		"name": "Adam Warlock",
+		"text": "<i>Battle Mage</i> - <b>Action</b>: Discard 1 card from your hand. Limit once per phase. If that card is:\n-Aggression: Deal 2 damage to an enemy.\n-Justice: Remove 2 threat from a scheme.\n-Protection: Heal 1 damage from an ally.\n-Leadership: Give a hero +1 THW, +1 ATK and +1 DEF this round.",
+		"traits": "Guardian. Mystic."
+	},
+	{
+		"code": "21031b",
+		"name": "Adam Warlock",
+		"text": "<i>Avatar of Life</i> - During deck-building, your deck must include an equal number of cards from all 4 aspects. You cannot include more than 1 copy of any non-Adam Warlock card.\n<b>Action</b>: Discard a card from your hand -> remove a status card from Adam Warlock.",
+		"traits": "Mystic."
+	},
+	{
+		"code": "21032",
+		"name": "Pip the Troll",
+		"text": "Toughness.\nWhile Pip the Troll is in your hand, he gains \"<b>Interrupt</b>: When a player is attacked, spend[energy][mental] resources -> put Pip the Troll into play under that player's controller.\"",
+		"traits": "Mystic."
+	},
+	{
+		"code": "21033",
+		"name": "Soul World",
+		"text": "<b>Response</b>: After your deck runs out of cards, place 1 soul counter here.\n<b>Alter-Ego Action</b>: Exhaust Soul World and remove 1 soul counter from it -> heal all damage from your identity.",
+		"traits": "Location."
+	},
+	{
+		"code": "21034",
+		"name": "Karmic Staff",
+		"text": "<b>Resource</b>: Exhaust Karmic Staff -> generate a [wild] resource",
+		"traits": "Artifact. Item."
+	},
+	{
+		"code": "21035",
+		"name": "Warlock's Cape",
+		"text": "<b>Hero Response</b>: After you resolve Adam Warlock's \"Battle Mage\" ability, exhaust Warlock's Cape -> ready Adam Warlock's",
+		"traits": "Item."
+	},
+	{
+		"code": "21036",
+		"name": "Cosmic Ward",
+		"text": "<b>Forced Interrupt</b>: When you reveal a treachery card, cancel its \"<b>When Revealed</b>\" effects and discard it. Then, discard Cosmic Ward",
+		"traits": "Spell."
+	},
+	{
+		"code": "21037",
+		"name": "Mystic Senses",
+		"text": "<b>Hero Response</b>: After you resolve Adam Warlock's \"Battle Mage\" ability, draw 1 card.",
+		"traits": "Condition. Superpower."
+	},
+	{
+		"code": "21038",
+		"name": "Karmic Blast",
+		"text": "<b>Hero Action</b> (attack): Deal 4 damage to an enemy and discard up to 4 cards from the top of your deck -> deal 1 additional damage to that enemy for each different aspect discarded this way (Aggression, Justice, Leadership and Protection)",
+		"traits": "Attack. Superpower."
+	},
+	{
+		"code": "21039",
+		"name": "Cosmic Awareness",
+		"text": "<b>Hero Action</b> (thwart): Remove 3 threat from a scheme and discard up to 4 cards from the top of your deck -> remove 1 additional threat from that scheme for each different aspect discarded this way (Aggression, Justice, Leadership and Protection)",
+		"traits": "Thwart. Superpower."
+	},
+	{
+		"code": "21040",
+		"name": "Quantum Magic",
+		"text": "<b>Action</b>: Choose a card in your discard pile -> add that card to your hand",
+		"traits": "Spell."
+	},
+	{
+		"code": "21041",
+		"name": "Marvel Boy",
+		"subname": "Noh-Var",
+		"text": "<b>Interrupt</b>: When Marvel Boy attacks, spend a [physics] resource -> this attack gains piercing and ranged",
+		"traits": "Guardian. Kree."
+	},
+	{
+		"code": "21042",
+		"name": "In-Betweener",
+		"text": "<b>Action</b>: Shuffle this card into the encounter deck (without looking)\n<b>When Revealed</b>: Deal 2 damage to the villain and remove this card from the game. This effect cannot be canceled.",
+		"traits": "Cosmic Entity."
+	},
+	{
+		"code": "21043",
+		"name": "Magic Attack",
+		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Action</b> (attack): Choose an enemy and discard up to 5 cards from the top of your deck -> deal 1 damage to that enemy for each card discarded this way.",
+		"traits": "Attack. Spell."
+	},
+	{
+		"code": "21046",
+		"name": "Audacity",
+		"text": "Max 1 per deck.\n<b>Hero Response</b>: After you spend this card, deal 1 damage to the villain."
+	},
+	{
+		"code": "21047",
+		"name": "Quasar",
+		"subname": "Wendell Vaughn",
+		"text": "<b>Response</b>: After Quasar enters play, remove 1 threat from each scheme in play.",
+		"traits": "Aerial. Guardian."
+	},
+	{
+		"code": "21048",
+		"name": "Living Tribunal",
+		"text": "<b>Action</b>: Shuffle this card into the encounter deck (without looking)\n<b>When Revealed</b>: Remove 2 threat from the main scheme and remove this card from the game. This effect cannot be canceled.",
+		"traits": "Cosmic Entity."
+	},
+	{
+		"code": "21050",
+		"name": "Zone of Silence",
+		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Action</b> (thwart): Choose a scheme and discard up to 4 cards from the top of your deck -> remove 1 threat from that scheme for each card discarded this way.",
+		"traits": "Spell. Thwart."
+	},
+	{
+		"code": "21052",
+		"name": "Determination",
+		"text": "Max 1 per deck.\n<b>Hero Response</b>: After you spend this card, remove 1 threat from the main scheme."
+	},
+	{
+		"code": "21053",
+		"name": "Major Victory",
+		"subname": "Vance Astro",
+		"text": "<b>Interrupt</b>: When Major Victory is defeated, choose a friendly Guardian character -> ready that character.",
+		"traits": "Guardian."
+	},
+	{
+		"code": "21054",
+		"name": "Eternity",
+		"text": "<b>Action</b>: Shuffle this card into the encounter deck (without looking)\n<b>When Revealed</b>: Draw 1 card and remove this card from the game. This effect cannot be canceled.",
+		"traits": "Cosmic Entity."
+	},
+	{
+		"code": "21055",
+		"name": "Summoning Spell",
+		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Action</b>: Discard cards from the top of your deck until you discard an ally -> put that ally into play under your control.",
+		"traits": "Spell."
+	},
+	{
+		"code": "21058",
+		"name": "Innovation",
+		"text": "Max 1 per deck.\n<b>Hero Response</b>: After you spend this card, heal 1 damage from an ally you control."
+	},
+	{
+		"code": "21059",
+		"name": "Charlie-27",
+		"text": "Retaliate 1. Toughness.",
+		"traits": "Guardian."
+	},
+	{
+		"code": "21060",
+		"name": "The Gardener",
+		"text": "<b>Action</b>: Shuffle this card into the encounter deck (without looking)\n<b>When Revealed</b>: Heal 2 damage from your identity and remove this card from the game. This effect cannot be canceled.",
+		"traits": "Cosmic Entity."
+	},
+	{
+		"code": "21061",
+		"name": "Shield Spell",
+		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Interrupt</b> (defense): When you would take any amount of damage from an attack, discard that many cards from the top of your deck -> prevent all damage from this attack.",
+		"traits": "Defense. Spell."
+	},
+	{
+		"code": "21064",
+		"name": "Preservation",
+		"text": "Max 1 per deck.\n<b>Hero Response</b>: After you spend this card, heal 1 damage from your hero."
+	},
+	{
+		"code": "21065",
+		"name": "Martinex",
+		"subname": "T'Naga",
+		"text": "Reduce the cost to play Martinex by 1 if your identity has the Guardian trait.",
+		"traits": "Guardian."
+	},
+	{
+		"code": "21180a",
+		"name": "Secure the Landing Pad"
+	},
+	{
+		"code": "21180b",
+		"name": "Cosmo",
+		"traits": "Guardian."
+	},
+	{
+		"code": "21181",
+		"name": "Security Breach"
+	},
+	{
+		"code": "21182a",
+		"name": "Save the Shawarma Place"
+	},
+	{
+		"code": "21182b",
+		"name": "Black Swan",
+		"traits": "Black Order. Elite."
+	},
+	{
+		"code": "21183",
+		"name": "Shawarma"
+	},
+	{
+		"code": "21184a",
+		"name": "Hack Sanctuary's Computer"
+	},
+	{
+		"code": "21184b",
+		"name": "Defensive Protocols"
+	},
+	{
+		"code": "21185",
+		"name": "System Shock"
+	},
+	{
+		"code": "21186a",
+		"name": "Find the Norn Stones"
+	},
+	{
+		"code": "21186b",
+		"name": "Retrieve Odin's Armor"
+	},
+	{
+		"code": "21187a",
+		"name": "Norn Stone",
+		"traits": "Asgard. Artifact."
+	},
+	{
+		"code": "21187b",
+		"name": "Norn Stone",
+		"traits": "Asgard. Artifact."
+	},
+	{
+		"code": "21188",
+		"name": "Summoned Back"
+	},
+	{
+		"code": "21189a",
+		"name": "Open the Dungeons"
+	},
+	{
+		"code": "21189b",
+		"name": "Jormungand",
+		"traits": "Dragon."
+	},
+	{
+		"code": "21190",
+		"name": "Lady Sif",
+		"traits": "Asgard. Captive."
+	},
+	{
+		"code": "21191",
+		"name": "Fandral",
+		"traits": "Asgard. Captive."
+	},
+	{
+		"code": "21192",
+		"name": "Hogun",
+		"traits": "Asgard. Captive."
+	},
+	{
+		"code": "21193",
+		"name": "Volstagg",
+		"traits": "Asgard. Captive."
+	}
+]
