@@ -1,691 +1,692 @@
 [
-    {
-        "code": "04026",
-        "name": "Trascorsi Criminali",
-        "text": "<b><i>Fai ricevere al giocatore Clint Barton.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n- Esaurisci Clint Barton → rimuovi dal gioco Trascorsi Criminali.\n- Scarta Arco di Occhio di Falco dal gioco. Scarta questa incombenza.\n"
-    },
-    {
-        "code": "04027",
-        "name": "Crossfire",
-        "text": "Colpo Rapido.",
-        "traits": "Mercenario.",
-        "attack_text": "Gli attacchi di Crossfire ottengono Perforante.",
-        "boost_text": "<b>Potenziamento:</b> Se questo potenziamento è risolto durante un attacco, l'attacco ottiene Perforante."
-    },
-    {
-        "code": "04028",
-        "name": "Nel Centro del Mirino",
-        "text": "<b>Quando Rivelata:</b> Il giocatore Clint Barton cerca nella sua mano, nel suo mazzo, nella sua pila degli scarti e nella sua area di gioco Mimo e la colloca a faccia in su sotto questa carta, poi mescola il suo mazzo.\n<b>quando Sconfitta:</b> Rimetti Mimo nella mano del suo proprietario."
-    },
-    {
-        "code": "04029",
-        "name": "Fucile di Crossfire",
-        "text": "Assegna a Crossfire. Se non puoi farlo, assegna al criminale.\n<b>Azione Eroe:</b> Esaurisci il tuo eroe e spendi [wild] → scarta Fucile di Crossfire.",
-        "traits": "Arma.",
-        "attack_text": "quando il nemico con questa aggiunta attacca, l'attacco ottiene Distanza."
-    },
-    {
-        "code": "04030",
-        "name": "Tiro da Cecchino",
-        "text": "<b>Quando Rivelata (Alter Ego):</b> Colloca 3 minacce sulla trama principale.\n<b>Quando Rivelata (Eroe):</b> Infliggi 3 danni al tuo eroe.",
-        "flavor": "\"Mi piace farti correre un po' prima di far partire il colpo.\" -- Crossfire"
-    },
-    {
-        "code": "04053",
-        "name": "Fedeltà Vacillante",
-        "text": "<b><i>Fai ricevere al giocatore Jessica Drew.</i></b>\nPuoi assumere la sembianza di alter ego.\nScegli 1 effetto tra:\n- Esaurisci Jessica Drew → rimuovi dal gioco Fedeltà Vacillante.\n- Colloca 3 minacce sulla trama principale. Scarta questa incombenza."
-    },
-    {
-        "code": "04054",
-        "name": "Viper",
-        "text": "Mentre Viper è impegnata con te, riduci di 1 il tuo limite di mano.\n(Gregario nemesi di Spider-Woman.)",
-        "traits": "Elite. Hydra.",
-        "flavor": "\"E' ora che tu torni a casa, Jessica.\""
-    },
-    {
-        "code": "04055",
-        "name": "L''Ambizione di Viper",
-        "text": "<b>Quando rivelata:</b> Colloca 1[per_hero] minacce aggiuntive su questa carta. ",
-        "flavor": "Viper ha ceduto tutto all'Hydra in cambio di una promessa di potere."
-    },
-    {
-        "code": "04056",
-        "name": "Regolare dell'Hydra",
-        "text": "Incitazione 1. (Quando questa carta viene rivelata, colloca 1 minaccia sulla trama principale.)",
-        "traits": "Hydra.",
-        "flavor": "\"Se rifletti sul genere di persone che possono unirsi a un'organizzazione terrorista votata alla conquista del mondo, è facile capire perchè le truppe dell'Hydra si dimostrano scadenti\" -- Jessica Drew"
-    },
-    {
-        "code": "04057",
-        "name": "Hail Hydra!",
-        "text": "<b>Quando rivelata:</b> Ogni gregario [[Hydra]] impegnato con un eroe attacca quell'eroe. Ogni giocatore che non è stato attaccato in questo modo cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario [[Hydra]] e lo mette in gioco impegnato con lui. Se un giocatore ha cercato nel mazzo degli incontri, mescolalo."
-    },
-    {
-        "code": "04058",
-        "name": "Crossbones",
-        "traits": "Hydra. Mercenario.",
-        "attack_text": "Mentre Crossbones possiede un'aggiunta [[Arma]], i suoi attacchi ottengono Perforante. <i>(Scarta ogni carta status Robusto dal bersaglio prima di infliggere danni.)</i>",
-        "flavor": "\"Mi considero un artigiano, specializzato nella distruzione e nel terrore.\""
-    },
-    {
-        "code": "04059",
-        "name": "Crossbones",
-        "text": "<b>Quando Rivelata:</b> Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Mitragliatrice di Crossbones e assegnala a Crossbones. Mescola il mazzo degli incontri.",
-        "traits": "Hydra. Mercenario.",
-        "attack_text": "Mentre Crossbones possiede un'aggiunta [[Arma]], i suoi attacchi ottengono Perforante."
-    },
-    {
-        "code": "04060",
-        "name": "Crossbones",
-        "text": "<b>Quando Rivelata:</b> Rivela 1 carta dalla cima del mazzo delle armi sperimentali.",
-        "traits": "Hydra. Mercenario.",
-        "attack_text": "Mentre Crossbones possiede un'aggiunta [[Arma]], i suoi attacchi ottengono Perforante.",
-        "flavor": "\"Quei tizi coi super poteri saranno anche più forti, ma nessuno di loro ha il mio stile.\""
-    },
-    {
-        "code": "04061",
-        "name": "Attacco sul Monte Athena",
-        "text": "<b>Quando Rivelata:</b> Rivela 1 carta dalla cima del mazzo delle armi sperimentali.",
-        "flavor": "Crossbones guida un esercito di soldati dell'Hydra in assalto diretto alla struttura del Progetto P.E.G.A.S.U.S. sui Monti Adirondack.",
-        "back_text": "<b>Contenuto:</b> Crossbones (I) e Crossbones (II). Set di incontri Crossbones, Armi Sperimentali e Standard. 3 set di incontri modulari <i>(Assalto dell'Hydra, Armi Sperimentali e Legioni dell'Hydra).</i>\n<b>Preparazione:</b> Crea il mazzo delle armi sperimentali e collocalo accanto al mazzo della trama principale.<i>(vedi il regolamento)</i>."
-    },
-    {
-        "code": "04062",
-        "name": "La Gemma dell'Infinito",
-        "text": "<b>Quando Rivelata:</b> Rivela 1 carta dalla cima del mazzo delle armi sperimentali.",
-        "back_flavor": "Nel cuore della struttura del progetto P.E.G.A.S.U.S., gli agenti dello S.H.I.E.L.D. combattono disperatamente per impedire all'Hydra di impossessarsi della Gemma della Realtà custodita all'interno."
-    },
-    {
-        "code": "04063",
-        "name": "La Fuga",
-        "text": "<b>Quando Rivelata:</b> Rivela 1 carta dalla cima del mazzo delle armi sperimentali.\n<b>Se questo stadio è completo, i giocatori perdono la partita.</b>",
-        "back_flavor": "L'Hydra si è impossessata della Gemma dell'Infinito e Crossbones ordina la ritirata. Dovete fermarli prima che riescano a fuggire!"
-    },
-    {
-        "code": "04064",
-        "name": "Mitragliatrice di Crossbones",
-        "text": "Assegna a Crossbones. Utilizzo (2[per_hero] gettoni munizione).",
-        "traits": "Arma.",
-        "attack_text": "<b>Interruzione Obbligata:</b> Quando Crossbones ti attacca, rimuovi 1 gettone munizione da questa carta e scarta 1 carta dalla cima del mazzo degli incontri → subisci un ammontare di danni indiretti pari al numero di icone potenziamento sulla carta scartata."
-    },
-    {
-        "code": "04065",
-        "name": "Armatura di Crossbones",
-        "text": "Assegna a Crossbones.\n<b>Interruzione Obbligata:</b> Quando Crossbones sta per subire un qualsiasi ammontare di danni,colloca invece quei danni su questa carta. Se ci sono 5 o più danni su questa carta, scarta Armatura di Crossbones.",
-        "traits": "Armatura.",
-        "flavor": "\"Godi della luce, piccola.\" - Crossbones"
-    },
-    {
-        "code": "04066",
-        "name": "Bombarolo dell'Hydra",
-        "text": "<b>Quando Rivelata:</b> Scegli se subire 2 danni oppure collocare 1 minaccia sulla trama principale.",
-        "traits": "Hydra.",
-        "flavor": "\"Lo so che se tagli una testa, altre due ne prendono il posto. Ma se dovesse esplodere, invece?\" -- She-Hulk"
-    },
-    {
-        "code": "04067",
-        "name": "Fuoco Automatico",
-        "text": "<b>Quando Rivelata (Alter Ego):</b> Questa carta ottiene impulso.\n<b>Quando Rivelata (Eroe):</b> Scarta X carte dalla cima del mazzo degli incontri, dove X è l'ATT di Crossbones. Subisci 1 danno indiretto per ogni icona potenziamento scartata in questo modo."
-    },
-    {
-        "code": "04068",
-        "name": "Duro Come il Ferro",
-        "text": "<b>Quando Rivelata:</b> Irrobustisci il criminale. Se non puoi farlo, curagli invece 3 danni",
-        "boost_text": "<b> Potenziamento </b>: irrobustisci il criminale. Se non puoi farlo, curagli invece 3 danni."
-    },
-    {
-        "code": "04069",
-        "name": "Razziare l'Armeria",
-        "text": "Incitazione 1. <i>(Quando questa carta viene rivelata, colloca 1 minaccia sulla trama principale)</i>\n<b>Quando Rivelata:</b> Scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 aggiunta [[Arma]]. Rivela quella carta."
-    },
-    {
-        "code": "04070",
-        "name": "Assalto di Crossbones",
-        "text": "<b>Quando Sconfitta:</b> Crossbones si attiva contro il giocatore che ha sconfitto questa trama.",
-        "flavor": "Crossbones è un killer senza cuore, ma non è uno psicopatico. Il suo assalto al P.E.G.A.S.U.S. è spietato ed efficiente."
-    },
-    {
-        "code": "04071",
-        "name": "Personale all'Angolo",
-        "text": "<b>Quando Rivelata:</b> Scarta 1[per_hero] carte dalla cime del mazzo degli incontri. Colloca 1 minaccia aggiuntiva su questa carta per ogni icona potenziamento scartata in questo modo.",
-        "flavor": "L'Hydra ha radunato i membri del personale P.E.G.A.S.U.S. per usarli come ostaggi."
-    },
-    {
-        "code": "04072",
-        "name": "Fucile Laser",
-        "text": "Assegna al criminale.\n<b>Azione Eroe:</b> Spendi [energy][physical] → Scarta questa carta.",
-        "traits": "Arma. Sperimentale.",
-        "attack_text": "<b>Interruzione Obbligata:</b> Quando il criminale con questa aggiunta attacca, l'attacco ottiene Distanza."
-    },
-    {
-        "code": "04073",
-        "name": "Scudo di Energia",
-        "text": "Assegna al criminale.\nIl criminale con questa aggiunta ottiene Ritorsione 1.\n<b>Azione Eroe:</b> Spendi [energy][mental] → Scarta questa carta.",
-        "traits": "Arma. Sperimentale.",
-        "flavor": "\"Non convincerai mai Cap che uno scudo di energia valga quanto il suo vecchio frisbee.\" -- Carol Danvers"
-    },
-    {
-        "code": "04074",
-        "name": "Guanti Potenziati",
-        "text": "Assegna al criminale.\r\n<b>Azione Eroe:</b> Spendi [mental][physical] → Scarta questa carta.",
-        "traits": "Arma. Sperimentale.",
-        "attack_text": "<b>Interruzione Obbligata:</b> Dopo che il criminale con questa aggiunta ti ha attaccato e danneggiato, scarta 1 carta dalla tua mano."
-    },
-    {
-        "code": "04075",
-        "name": "Exo-Tuta",
-        "text": "Assegan al criminale.\n<b>Azione Eroe:</b> Spendi [energy][mental][physical] → Scarta questa carta.",
-        "traits": "Arma. Sperimentale.",
-        "flavor": "\"Non avrei mai dovuto condividere la mia tecnologia con lo S.H.I.E.L.D.\" -- Tony Stark"
-    },
-    {
-        "code": "04076",
-        "name": "Uomo Assorbente",
-        "text": "Uomo Assorbente ottiene i tratti di ogni ambiente in gioco.",
-        "traits": "Bruto.",
-        "flavor": "\"Lo sai che ho sconfitto Thor una volta? Immaginati la scena: Crusher Creel che si erge sul dio del tuono... e tu pensi di spaventarmi?\""
-    },
-    {
-        "code": "04077",
-        "name": "Uomo Assorbente",
-        "text": "Uomo Assorbente ottiene i tratti di ogni ambiente in gioco.\n<b>Quando Rivelata:</b> Se Superpotere Assorbente è in gioco, distribuisci 1 carta incontro a ogni giocatore. Altrimenti, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Superpotere Assorbente e rivelalo. Mescola il mazzo degli incontri.",
-        "traits": "Bruto."
-    },
-    {
-        "code": "04078",
-        "name": "Uomo Assorbente",
-        "text": "Uomo Assorbente ottiene i tratti di ogni ambiente in gioco.\n",
-        "traits": "Bruto.",
-        "attack_text": "<b>Risposta Obbligata:</b> dopo che Uomo Assorbente si è attivato contro di te, se possiede il tratto:\n- [[Ghiaccio]] o [[Pietra]], colloca 1 minaccia sulla trama principale.\n- [[Metallo]] o [[Legno]], subisci 1 danno indiretto.",
-        "scheme_text": "<b>Risposta Obbligata:</b> dopo che Uomo Assorbente si è attivato contro di te, se possiede il tratto:\n- [[Ghiaccio]] o [[Pietra]], colloca 1 minaccia sulla trama principale.\n- [[Metallo]] o [[Legno]], subisci 1 danno indiretto."
-    },
-    {
-        "code": "04079",
-        "name": "Nessuno Passerà",
-        "text": "<b>[star] Risposta Obbligata:</b> Dopo naver risolto il passo 1 della Fase del Criminale, colloca 1 gettone ritardo su questa carta.\n<b>Interruzione Obbligata:</b> Quando un ambiente entra in gioco, scarta ogni altra carta ambiente in gioco.\n<b>Se questo stadio è completo, i giocatori perdono la partita.</b>\n",
-        "back_text": "<b>Contenuto:</b> Uomo Assorbente (I) e Uomo Assorbente (II). Set di incontri Uomo Assorbente e Standard. 1 set di incontri modulare <i>(Pattuglia dell'Hydra).</i>\n<b>Preparazione:</b>Scarta carte dalla cima del mazzo degli incontri finchè non scarti un ambiente. Metti in gioco quella carta e rimescola la pila degli scarti degli incontri nel mazzo degli incontri."
-    },
-    {
-        "code": "04080",
-        "name": "Foresta Fitta",
-        "text": "Impulso.\n<b>Risposta Obbligata:</b> Dopo che Uomo Assorbente ha effettuato un attacco non difeso contro di te, subisci 1 danno indiretto (2 danni indiretti se invece ci sono 5 o più gettoni ritardo sulla trama principale).",
-        "traits": "Legno.",
-        "boost_text": "<b> Potenziamento </b>: Metti in gioco questa carta."
-    },
-    {
-        "code": "04081",
-        "name": "Collina Innevata",
-        "text": "Impulso.\r\n<b>Risposta Obbligata:</b> Dopo che Uomo Assorbente ha effettuato un attacco non difeso contro di te, colloca 1 minaccia sulla trama principale (2 minacce se invece ci sono 5 o più gettoni ritardo sulla trama principale).",
-        "traits": "Ghiaccio.",
-        "boost_text": "<b> Potenziamento </b>: Metti in gioco questa carta."
-    },
-    {
-        "code": "04082",
-        "name": "Sporgenza Rocciosa",
-        "text": "Impulso.\n<b>Risposta Obbligata:</b> Dopo che Uomo Assorbente ha effettuato un attacco non difeso contro di te, curagli 1 danno (2 danni se invece ci sono 5 o più gettoni ritardo sulla trama principale).",
-        "traits": "Pietra.",
-        "boost_text": "<b> Potenziamento </b>: Metti in gioco questa carta."
-    },
-    {
-        "code": "04083",
-        "name": "Fabbrica Abbandonata",
-        "text": "Impulso.\r\n<b>Risposta Obbligata:</b> Dopo che Uomo Assorbente ha effettuato un attacco non difeso contro di te, scarta 1 icona risorsa dalla tua mano (2 icone risorsa se invece ci sono 5 o più gettoni ritardo sulla trama principale).",
-        "traits": "Metallo.",
-        "boost_text": "<b> Potenziamento </b>: Metti in gioco questa carta."
-    },
-    {
-        "code": "04084",
-        "name": "Palla e Catena",
-        "text": "Assegna a Uomo Assorbente.\n<b>Azione Eroe:</b> Spendi [physical] → mescola questa carta nel mazzo degli incontri.",
-        "traits": "Arma.",
-        "boost_text": "<b> Potenziamento </b>: Rivela questa carta"
-    },
-    {
-        "code": "04085",
-        "name": "Tattiche di Stallo",
-        "text": "<b>Quando Rivelata:</b> Colloca 1 minaccia sulla trama principale per ogni 2 gettoni ritardo sulla trama principale. Se nessuna minaccia è stata collocata in questo modo, questa carta ottiene impulso.",
-        "boost_text": "<b> Potenziamento </b>: Se ci sono 5 o più gettoni ritardo sulla trama principale, subisci 1 danno indiretto."
-    },
-    {
-        "code": "04086",
-        "name": "Pietra Oscillante",
-        "text": "<b>Quando Rilevata (Alter Ego):</b> Uomo Assorbente trama. Se Uomo Assorbente possiede il tratto [[Pietra]], riceve +1 TRA per questa attivazione.\n<b>Quando Rilevata (Eroe):</b> Uomo Assorbente ti attacca. Se Uomo Assorbente possiede il tratto [[Pietra]], riceve +1 ATT per questa attivazione."
-    },
-    {
-        "code": "04087",
-        "name": "Calcio d'Acciaio",
-        "text": "<b>Quando Rilevata (Alter Ego):</b> Colloca 2 minacce sulla trama principale (3 minacce se invece Uomo Assorbente possiede il tratto [[Metallo]].)\n<b>Quando Rilevata (Eroe):</b> Subisci 3 danni indiretti (4 danni indiretti se invece Uomo Assorbente possiede il tratto [[Metallo]].)"
-    },
-    {
-        "code": "04088",
-        "name": "Spine Perforanti",
-        "text": "<b>Quando Rilevata:</b> Scarta 1 carta casuale dalla tua mano. Se Uomo Assorbente possiede il tratto [[Legno]], scarta 1 carta che controlli.",
-        "boost_text": "<b> Potenziamento </b>: Se Uomo Assorbente possiede il tratto [[Pietra]] o [[Legno]], sei stordito."
-    },
-    {
-        "code": "04089",
-        "name": "Duplicazione Omni-Morfa",
-        "text": "<b>Quando Rilevata:</b> Se Uomo Assorbente possiede il tratto:\n- [[Ghiaccio]], esaurisci la tua carta identità..\n- [[Metallo]], irrobustisci Uomo Assorbente e curagli 1 danno.\n- [[Pietra]], fai ricevere a Uomo Assorbente 1 carta potenziamento a faccia in giù.\n- [[Legno]], scarta 1 carta casuale dalla tua mano."
-    },
-    {
-        "code": "04090",
-        "name": "Morsa Gelida",
-        "text": "<b>Quando Rilevata:</b> Sei stordito. Se Uomo Assorbente possiede il tratto [[Ghiaccio]], subisci 2 danni indiretti.",
-        "boost_text": "<b> Potenziamento </b>: Se Uomo Assorbente possiede il tratto [[Ghiaccio]] or [[Metallo]], irrobustiscilo."
-    },
-    {
-        "code": "04091",
-        "name": "Valanga!",
-        "text": "<b>Quando Rilevata:</b>Ogni giocatore sceglie se spendere [energy] oppure subire 2 danni indiretti (3 danni indiretti se invece ci sono 5 o più gettoni ritardo sulla trama principale)"
-    },
-    {
-        "code": "04092",
-        "name": "Superpotere Assorbente",
-        "text": "Uomo Assorbente ottiene i tratti [[Ghiaccio]], [[Metallo]], [[Pietra]], e [[Legno]].",
-        "boost_text": "<b> Potenziamento </b>: Rivela questa carta",
-        "flavor": "Creel possiede la capacità di assorbire le proprietà di più elementi contemporaneamente, ma ha bisogno della massima concentrazione."
-    },
-    {
-        "code": "04093",
-        "name": "Taskmaster",
-        "text": "<b>Risposta Obbligata:</b> Dopo che un giocatore ha assunto la sembianza di eroe, quel giocatore scarta 1 carta dalla cima del mazzo degli incontri e subisce un ammontare di danni pari al numero di icone potenziamento su quella carta.",
-        "traits": "Hydra. Mercenario.",
-        "flavor": "\"Tutto quello che sai fai, io so farlo meglio.\""
-    },
-    {
-        "code": "04094",
-        "name": "Taskmaster",
-        "text": "<b>Quando Rilevata:</b> Distribuisci 1 carta incontro a ogni giocatore.\n<b>Risposta Obbligata:</b> Dopo che un giocatore ha assunto la sembianza di eroe, quel giocatore scarta 1 carta dalla cima del mazzo degli incontri e subisce un ammontare di danni pari al numero di icone potenziamento su quella carta.",
-        "traits": "Hydra. Mercenario."
-    },
-    {
-        "code": "04095",
-        "name": "Taskmaster",
-        "text": "<b>Quando Rilevata:</b> Distribuisci 1 carta incontro a ogni giocatore.\r\n<b>Risposta Obbligata:</b> Dopo che un giocatore ha assunto la sembianza di eroe, quel giocatore scarta 1 carta dalla cima del mazzo degli incontri e subisce un ammontare di danni pari al numero di icone potenziamento su quella carta.",
-        "traits": "Hydra. Mercenario."
-    },
-    {
-        "code": "04096",
-        "name": "A Caccia di Eroi",
-        "text": "<b>[star] Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, ogni giocatore nella sembianza di eroe sceglie se collocare 1 minaccia su questa carta oppure subire 1 danno.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>",
-        "flavor": "Il famigerato Taskmaster è stato nominato capo della polizia dell'Hydra. La sua massima priorità è dare la caccia agli eroi fuorilegge.",
-        "back_text": "<b>Contenuto:</b> Taskmaster (I) e Taskmaster (II). Set di incontri Taskmaster, Pattuglia dell'Hydra e Standard. 1 set di incontri modulare <i>(Maestro d'Armi).</i>\n<b>Preparazione:</b> Metti da parte ogni alleato [[Prigioniero]], fuori dal gioco. Cerca nel mazzo degli incontri Pattuglia dell'Hydra e mettila in gioco. Mescola il mazzo degli incontri."
-    },
-    {
-        "code": "04097",
-        "name": "Moon Knight",
-        "text": "<b>Risposta:</b> Dopo che hai giocato Moon Knight dalla tua mano, spendi [wild] → pesca 2 carte.",
-        "traits": "Prigioniero. Eroe in vendita.",
-        "flavor": "\"L'Hydra ha conquistato tutto così velocemente, dubitavo che fosse reale.\"",
-        "subname": "Marc Spector"
-    },
-    {
-        "code": "04098",
-        "name": "Shang-Chi",
-        "text": "<b>Risposta:</b> Dopo che hai giocato Shang-Chi dalla tua mano, spendi [energy] → stordisci 1 nemico.",
-        "traits": "Prigioniero. Eroe in vendita.",
-        "flavor": "\"Una squadra d'assalto dell'Hydra ha fatto irruzione in casa mia. Li ho 'accompagnati' alla porta, ma c'erano altre due squadre ad aspettarmi all'esterno\""
-    },
-    {
-        "code": "04099",
-        "name": "Tigre Bianca",
-        "text": "<b>Risposta:</b> Dopo che hai giocato Tigre Bianca dalla tua mano, spendi [mental] → rimuovi 3 minacce da una trama.",
-        "traits": "Prigioniero. Eroe in vendita.",
-        "flavor": "\"Dopo che l'Hydra ha preso il potere e ha dichiarato gli eroi fuorilegge, un vicino mi ha segnalato al nuovo capo della polizia\"",
-        "subname": "Angela Del Toro"
-    },
-    {
-        "code": "04100",
-        "name": "Elektra",
-        "text": "<b>Risposta:</b>Dopo che hai giocato Elektra dalla tua mano, spendi [physical] → infliggi 3 danni a un nemico.",
-        "traits": "Prigioniero. Eroe in vendita.",
-        "flavor": "\"Mi hanno preso mentre tentavo di aiutare alcuni civili a sfuggire a una pattuglia dell'Hydra. Poi ho scoperto che i civili erano agenti dell'Hydra travestiti.\""
-    },
-    {
-        "code": "04101",
-        "name": "Cacciatore dell'Hydra",
-        "traits": "Hydra.",
-        "attack_text": "[star] gli attacchi di Cacciatore dell'Hydra ottengono Distanza e Perforante.",
-        "boost_text": "<b> Potenziamento </b>: Se sei nella sembianza di eroe, subisci 1 danno. Altrimenti colloca 1 minaccia sulla trama principale"
-    },
-    {
-        "code": "04102",
-        "name": "Spada di Taskmaster",
-        "text": "Assegna a Taskmaster.\n[star] Gli attacchi di Taskmaster ottengono Perforante\n<b>Azione Eroe:</b> Esaurisci il tuo ereo e spendi [mental][physical] → scarta questa carta.",
-        "traits": "Arma."
-    },
-    {
-        "code": "04103",
-        "name": "Scudo di Taskmaster",
-        "text": "Assegna a Taskmaster.\r\nTaskmaster ottiene Ritorsione 1\r\n<b>Azione Eroe:</b> Esaurisci il tuo ereo e spendi [mental][physical] → scarta questa carta.",
-        "traits": "Arma. Armatura.",
-        "flavor": "\"Questa mossa l'ho imparata da Capitan America.\" -- Taskmaster"
-    },
-    {
-        "code": "04104",
-        "name": "Riflessi Fotografici",
-        "text": "Assegna aTaskmaster.\n<b>Interruzione Obbligata:</b> Quando un giocatore attacca Taskmaster, previeni invece tutti i danni che stanno per essere inflitti a Taskmaster e infliggi un pari ammontare di danni all'identità di quel giocatore. Poi scarta Riflessi Fotografici (Massimo 1 volta per attacco.)"
-    },
-    {
-        "code": "04105",
-        "name": "Imitazione",
-        "text": "<b>Quando Rivelata (Alter Ego):</b> Scarta 5 carte dalla cima del tuo mazzo. Se una carta [[Intervento]] è stata scartata in questo modo, Taskmaster trama.\n<b>Quando Rivelata (Eroe):</b> Scarta 5 carte dalla cima del tuo mazzo. Se una carta [[Attacco]] è stata scartata in questo modo, Taskmaster ti attacca."
-    },
-    {
-        "code": "04106",
-        "name": "Braccati dall'Hydra",
-        "text": "Incitazione 1. <i>(Quando questa carta viene rivelata, colloca 1 minaccia sulla trama principale.)</i>\n<b>Quando Rivelata:</b> Ogni giocatore nella sembianza di eroe subisce 1 danno e scarta 1 carta casuale dalla sua mano.",
-        "flavor": "\"E' un brutto momento per essere un eroe.\" -- Bucky Barnes"
-    },
-    {
-        "code": "04107",
-        "name": "Catturato dall'Hydra",
-        "text": "<b>Quando Rivelata:</b> Colloca 1 alleato [[Prigioniero]] casuale messo da parte a faccia in giù sotto questa trama.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama prende quell'alleato nella sua mano e rimuove questa trama dal gioco."
-    },
-    {
-        "code": "04108",
-        "name": "Campo di Addestramento di Taskmaster",
-        "text": "<b>Risposta Obbligata:</b> Dopo che un gregario è entrato in gioco, irrobustiscilo.",
-        "flavor": "Taskmaster accetta solo le truppe migliori nelle sue forze di polizia. Prima che un soldato dell'Hydra possa arruolarsi, deve sopravvivere al suo campo di addestramento."
-    },
-    {
-        "code": "04109",
-        "name": "Zola",
-        "text": "Ritorsione 1.",
-        "traits": "Androide. Hydra.",
-        "flavor": "\"Il mio programma di mutazione trasformerà queste patetiche creature nelle truppe d'assalto scelte dell'Hydra\""
-    },
-    {
-        "code": "04110",
-        "name": "Zola",
-        "text": "Ritorsione 1.\n<b>Quando Rivelata:</b> Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri la trama secondaria Cavie da Laboratorio e rivelala. Mescola il mazzo degli incontri",
-        "traits": "Androide. Hydra."
-    },
-    {
-        "code": "04111",
-        "name": "Zola",
-        "text": "Ritorsione 1.\n<b>Quando Rivelata:</b> Ogni giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario e lo rivela. Mescola il mazzo degli incontri.",
-        "traits": "Androide. Hydra."
-    },
-    {
-        "code": "04112",
-        "name": "L'Isola del Dottor Zola",
-        "text": "<b>[star] Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, colloca 1 gettone esperimento su questa carta. Poi, se ci sono 3 o più gettoni esperimento su questa carta, scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 gregario. Metti in gioco quel gregario impegnato con il primo giocatore e rimuovi 3 gettoni esperimento da questa trama.",
-        "back_text": "<b>Contenuto:</b> Zola (I) e Zola (II). Set di incontri Zola e Standard. 1 set di incontri modulare <i>(Sotto Attacco)</i>\n<b>Preparazione:</b> Cerca nel mazzo degli incontri Prigione dell'Hydra e rivelala. Ogni giocatore cerca nel mazzo degli incontri 1 Bio-Servitore Supremo e lo mette in gioco impegnato con lui. Mescola il mazzo degli incontri"
-    },
-    {
-        "code": "04113",
-        "name": "Lo scienziato pazzo",
-        "text": "<b>[star] Risposta Obbligata:</b>  Dopo aver risolto il passo 1 della Fase del Criminale, colloca 1 gettone esperimento su questa carta. Poi, se ci sono 3 o più gettoni esperimento su questa carta, scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 gregario. Metti in gioco quel gregario impegnato con il primo giocatore e rimuovi 3 gettoni esperimento da questa trama.\n<b>Se questo stadio è completato, i giocatori persono la partita.</b>",
-        "back_text": "<b>Quando Rivelato:</b> Ogni giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario e lo rivela. Mescola il mazzo degli incontri.",
-        "back_flavor": "I mutati di Zola vi attaccano con cieca obbedienza e furia selvaggia. Tocca a voi porre fine a questo incubo prima che lo scienziato pazzo li scateni in tutto il mondo!"
-    },
-    {
-        "code": "04114",
-        "name": "Bio-Servitore Supremo",
-        "text": "Robustezza.",
-        "traits": "Hydra. Mutato.",
-        "attack_text": "[star] Bio-Servitore Supremo riceve +1 ATT per ogni aggiunta su di esso",
-        "boost_text": "<b> Potenziamento </b>: Irrobustisci il criminale"
-    },
-    {
-        "code": "04115",
-        "name": "Mutato di Zola",
-        "text": "<b>Quando Rivelato:</b> Scarta carte dall cima del mazzo degli incontri finchè non scarti 1 aggiunta [[Tecnologia]]. Assegna quella carta a Mutato di Zola. ",
-        "traits": "Hydra. Mutato.",
-        "boost_text": "<b> Potenziamento </b>: Mescola Mutato di Zola nel mazzo degli incontri"
-    },
-    {
-        "code": "04116",
-        "name": "Mutato Berserk",
-        "text": "Colpo Rapido.",
-        "traits": "Hydra. Mutato.",
-        "boost_text": "<b> Potenziamento </b>: Colloca 1 gettone esperimento sulla trama principale. Per ogni gettone esperimento sulla trama principale, Zola riceve +1 TRA e +1 ATT per questa attivazione."
-    },
-    {
-        "code": "04117",
-        "name": "Programma Difensivo",
-        "text": "Assegna al gregario con più punti ferita rimanenti e senza altre Programmazione Difensiva assegnate ad esso. Se non puoi farlo questa carta ottiene Impulso.\nIl gregario con questa aggiunta riceve +2 punti ferita e ottiene Guardia.",
-        "traits": "Tecnologia."
-    },
-    {
-        "code": "04118",
-        "name": "Inibiori del Dolore",
-        "text": "Assegna al gregario con più punti ferita rimanenti e senza altri Inibiori del Dolore assegnate ad esso. Se non puoi farlo questa carta ottiene Impulso.\nIl gregario con questa aggiunta riceve +2 punti ferita e ottiene Ritorsione 1.",
-        "traits": "Tecnologia."
-    },
-    {
-        "code": "04119",
-        "name": "Innesti Neurologici",
-        "text": "Assegna al gregario con più punti ferita rimanenti e senza altri Innesti Neurologici assegnate ad esso. Se non puoi farlo questa carta ottiene Impulso.\nIl gregario con questa aggiunta riceve +2 punti ferita.",
-        "traits": "Tecnologia."
-    },
-    {
-        "code": "04120",
-        "name": "Raggio Mentale",
-        "text": "<b>Quando Rivelata (Alter Ego):</b> Zola trama. Sei confuso.\n<b>Quando Rivelata (Eroe):</b> Zola ti attacca. Sei stordito.",
-        "flavor": "\"Pensavi che Zola fosse privo di difese? Stolto arrogante!\" -- Arnim Zola"
-    },
-    {
-        "code": "04121",
-        "name": "Potenziatori Tecnologici",
-        "text": "Incitazione 1.\n<b>Quando Rivelata:</b> Colloca 1 gettone esperimento sulla trama principale.",
-        "boost_text": "<b> Potenziamento </b>: Colloca 1 gettone esperimento sulla trama principale."
-    },
-    {
-        "code": "04122",
-        "name": "Prigione dell'Hydra",
-        "text": "<b>Quando Rilavata:</b> Ogni giocatore cerca nel suo mazzo, nella sua mano e nella sua pila degli scarti 1 alleato del proprio set eroe e lo colloca a faccia in giù sotto questa trama. Colloca X minacce su questa trama, dove X è il costo totale di tutti gli alleati sotto di essa. Ogni giocatore mescola il proprio mazzo.\n<b>Quando Sconfitta:</b> Rimuovi questa trama dal gioco e rimetti ogni alleato sotto di essa nella mano del suo proprietario."
-    },
-    {
-        "code": "04123",
-        "name": "Cavie da Laboratorio",
-        "text": "<b>Quando Sconfitta:</b> il primo giocatore scarta carte dalla cima del mazzo degli incontri finchè non scarta 1 gregario. Quel giocatore rivela quel gregario.",
-        "flavor": "Un destino peggiore della morte."
-    },
-    {
-        "code": "04124",
-        "name": "Esperimenti di Zola",
-        "text": "<b>Risposta Obbligata:</b> Dopo che un gregario è entrato in gioco, assegna la prima aggiunta [[Tecnologia]] dalla cima della pila degli scarti degli incontri a quel gregario.",
-        "flavor": "Lo scienziato pazzo non si stanca mai di condurre esperimenti sulle sue vittime."
-    },
-    {
-        "code": "04125",
-        "name": "Teschio Rosso",
-        "traits": "Hydra.",
-        "attack_text": "[star] Teschio Rosso riceve +1 ATT per ogni trama secondaria in gioco.",
-        "flavor": "\"La libertà spetta solo a chi comanda! Tutti gli altri devono essere schiavi!\""
-    },
-    {
-        "code": "04126",
-        "name": "Teschio Rosso",
-        "text": "<b>Quando rivelata:</b> Distribuisci una carta incontro ad ogni giocatore.",
-        "traits": "Hydra.",
-        "attack_text": "[star] Teschio Rosso riceve +1 ATT per ogni trama secondaria in gioco.",
-        "flavor": "\"Non permetterò a nessuno di intervenire nei miei piani!\""
-    },
-    {
-        "code": "04127",
-        "name": "Teschio Rosso",
-        "text": "<b>Quando rivelata:</b> Distribuisci una carta incontro ad ogni giocatore.",
-        "traits": "Hydra.",
-        "attack_text": "[star] Teschio Rosso riceve +1 ATT per ogni trama secondaria in gioco.",
-        "flavor": "\"Il mondo si inchinerà di fronte a Teschio Rosso!\""
-    },
-    {
-        "code": "04128",
-        "name": "L'Ascesa di Teschio Rosso",
-        "text": "<b>[star] Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, rivela 1 carta dalla cima del mazzo delle trame secondarie e mettila in gioco.",
-        "flavor": "il Teschio Rosso intende conquistare il mondo con il potere della Gemma della Realtà. Userà il suo genio strategico per tenervi occupati mentre prosegue il suo obbiettivo finale.",
-        "back_text": "<b>Contenuto:</b> Teschio Rosso (I) e Teschio Rosso (II). Set di incontri Teschio Rosso e Standard. 2 set di incontri modulari <i>(Assalto dell'Hydra e Pattuglia dell'Hydra).</i>\n<b>Preparazione:</b> Metti in gioco La Casa Rossa. Mescola ogni altra trama secondaria nel mazzo delle trame secondarie e collocalo accanto al mazzo degli incontri (Vedi il regolamento). Metti da parte Dormiente, fuori dal gioco."
-    },
-    {
-        "code": "04129",
-        "name": "Il Nuovo Ordine dell'Hydra",
-        "text": "<b>[star] Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, rivela 1 carta dalla cima del mazzo delle trame secondarie e mettila in gioco.\n<b>Se questo stadio è completo, i giocatori perdono la partita.</b>",
-        "back_text": "<b>Quando Rivelata:</b> Rivela 1 carta dalla cima del mazzo delle trame secondari e e mettila in gioco.",
-        "back_flavor": "il Teschio Rosso ha fatto un altro passo avanti nel tentativo di sbloccare il pieno potere della Gemma dell'Infinito. Dovete fermarlo prima che ci riesca, altrimenti tutta la realtà si piegherà al suo malvagio volere."
-    },
-    {
-        "code": "04130",
-        "name": "Dormiente",
-        "text": "Guardia. Ritorsione 1. Robustezza.\n<b>Quando Rivelata:</b> Dormiente impegna il primo giocatore.\n<b>Quando Sconfitta:</b> Rimuovi Dormiente dal gioco.",
-        "traits": "Elite. Hydra. Robot."
-    },
-    {
-        "code": "04131",
-        "name": "Exo-Soldato dell'Hydra",
-        "text": "Robustezza",
-        "traits": "Hydra.",
-        "boost_text": "<b> Potenziamento </b>: Irrobustisci il criminale e fagli ricevere 1 carta potenziamento aggiuntiva.",
-        "flavor": "\"Attenzione, squadra. Quelli picchiano duro!\" -- Captain America"
-    },
-    {
-        "code": "04132",
-        "name": "Luger del Teschio Rosso",
-        "text": "Assegana a Teschio Rosso.\n<b>Azione Eroe:</b> Spendi [energy][mental][physical] → scarta questa carta.",
-        "traits": "Arma.",
-        "attack_text": "[star] gli attacchi di Teschio Rosso ottengono Distanza e Perforante.",
-        "boost_text": "<b> Potenziamento </b>: Assegna a Teschio Rosso."
-    },
-    {
-        "code": "04133",
-        "name": "Gancio Destro del Teschio Rosso",
-        "text": "Assegna a Teschio Rosso.\nTeschio Rosso ottiene Ritorsione 1.\n<b>Azione Eroe:</b> Spendi [energy][mental][physical] → scarta questa carta.",
-        "traits": "Abilità.",
-        "flavor": "\"Sono il tuo superiore sotto ogni aspetto!\" -- Teschio Rosso"
-    },
-    {
-        "code": "04134",
-        "name": "Stratega Supremo",
-        "text": "Assegna a Teschio Rosso.",
-        "traits": "Abilità.",
-        "attack_text": "[star] <b> Interruzione Obbligata:</b> Quando Teschio Rosso si attiva, fagli ricevere 1 carta potenziamento aggiuntiva per ogni trama secondaria in gioco. Poi scarta questa carta. (Massimo una volta per attivazione)",
-        "flavor": "\"Negli scacchi, l'unico pezzo che conta veramente è il re, e quello sono io.\" -- Teschio Rosso",
-        "scheme_text": "<b>Forced Interrupt:</b> When Red Skull activates, give him an additional boost card for each side scheme in play. Then, discard this card. (Max once per activation.)"
-    },
-    {
-        "code": "04135",
-        "name": "Realtà Distorta",
-        "text": "Incitazione 1.\nAssegna ad una trama secondaria.\n<b>Responsa Obbligata:</b> Quando la trama con questa aggiunta è sconfitta, distribuisci 1 carta incontro al primo giocatore.",
-        "traits": "Condizione.",
-        "flavor": "La Gemma dell'Infinito conferisce al Teschio Rosso il potere di piegare la realtà al suo volere."
-    },
-    {
-        "code": "04136",
-        "name": "Acerrimo Nemico",
-        "text": "<b>Quando Rivelata:</b> Esaurisci 1 personaggio che controlli per ogni trama secondaria in gioco.",
-        "boost_text": "<b> Potenziamento </b>: Esaurisci 1 personaggio che controlli.",
-        "flavor": "\"Questa è la fine per te, Herr Capitano!\" -- Teschio Rosso"
-    },
-    {
-        "code": "04137",
-        "name": "Diffondere Bugie",
-        "text": "<b>Quando Rivelata:</b> Colloca 2 minacce su ogni trama in gioco.",
-        "boost_text": "<b> Potenziamento </b>: Irrobustisci Teschio Rosso",
-        "flavor": "\"Grazie al mio smisurato e ineguagliato ingegno, l'Hydra regnerà suprema!\" -- Teschio Rosso"
-    },
-    {
-        "code": "04138",
-        "name": "Potere Infinito",
-        "text": "<b>Quando Rivelata (Alter Ego):</b> Irrobustisci Teschio Rosso. Teschio Rosso trama.\n<b>Quando Rivelata (Eroe):</b> Irrobustisci Teschio Rosso. Teschio Rosso ti attacca."
-    },
-    {
-        "code": "04139",
-        "name": "La Casa Rossa",
-        "text": "Teschio Rosso non può subire danni.\n<b>Interruzione:</b> Quando un personaggio interviene su questa trama secondaria, può usare il suo valero di ATT invece di quello di INT.",
-        "flavor": "La fortezza del Teschio Rosso troneggia sulla Casa Bianca per simboleggiare la conquista dell'America da parte dell'Hydra."
-    },
-    {
-        "code": "04140",
-        "name": "Il Dormiente Risvegliato",
-        "text": "Mentre Dormiente è in gioco, questa trama non può uscire dal gioco.\n<b>Quando Rivelata:</b> Metti in gioco Dormiente impegnato con il primo giocatore. Quando Dormiente è sconfitto, rimuovi questa carta dal gioco.",
-        "flavor": "Il Dormiente è emerso dal Fiume Potomac per rispondere alla chiamata di Teschio Rosso."
-    },
-    {
-        "code": "04141",
-        "name": "Campi di Prigionia",
-        "text": "<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama cerca nel suo mazzo e nella sua pila degli scarti 1 alleato, lo mette in gioco e mescola il suo mazzo.",
-        "flavor": "Sotto il dominio dell'Hydra, le famiglie vengono separate e incarcerate senza essere processate."
-    },
-    {
-        "code": "04142",
-        "name": "Revisionismo Storico",
-        "text": "<b>Quando Sconfitta:</b> Ogni giocatore sceglie fino a 3 carte nella sua pila degli scarti e le rimescola nel suo mazzo.",
-        "flavor": "L'Hydra controlla tutti i media e usa la propaganda per aizzare le masse contro gli eroi del passato."
-    },
-    {
-        "code": "04143",
-        "name": "Rinforzi dell'Hydra",
-        "text": "<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama scarta 1 gregario non <b>Elite</b>.",
-        "flavor": "Ciò che all'Hydra manca in abilità viene compensato dalla sua vasta superiorità numerica."
-    },
-    {
-        "code": "04144",
-        "name": "Caos di Massa",
-        "text": "<b>Quando Rivelata:</b> Ogni giocatore scarta 5 carte dalla cima del suo mazzo e colloca 1 minaccia su questa carta per ogni risorsa di tipo diverso ([energy],[mental],[physical], o [wild]) scartata in questo modo.",
-        "flavor": "Il Teschio Rosso provoca catastrofi in tutto il paese per tenere occupati i suoi nemici."
-    },
-    {
-        "code": "04145",
-        "name": "Soldato Incendiario dell'Hydra",
-        "traits": "Hydra.",
-        "attack_text": "[star]<b>Risposta obbligata:</b>Dopo che un soldato Incendiario dell'Hydra ha effettuato un attacco non difeso contro di te,scarta 1 supporto che controlli.",
-        "boost_text": "<b> Potenziamento </b>: Se questa carta è risolta durante un attacco non difeso, scarta 1 supporto che controlli."
-    },
-    {
-        "code": "04146",
-        "name": "Soldato a Reazione dell'Hydra",
-        "text": "Colpo Rapido.",
-        "traits": "Hydra.",
-        "boost_text": "<b> Potenziamento </b>: Se sei nella sembianza di eroe, il criminale ti attacca dopo questa attivazione. Non far ricevere carte potenziamento al criminale per questo attacco."
-    },
-    {
-        "code": "04147",
-        "name": "Hail Hydra!",
-        "text": "<b>Quando Rivelata:</b> Ogni gregario [[Hydra]] impegnato con un eroe attacca quell'eroe. Ogni giocatore che non è stato attaccato in questo modo cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario [[Hydra]] e lo mette in gioco impegnato con lui. Se un giocatore ha cercato nel mazzo degli incontri, mescolalo."
-    },
-    {
-        "code": "04148",
-        "name": "Coltello da Combattimento",
-        "text": "Assegnalo al criminale.\n<b>Azione Eroe:</b> Spendi [mental][physical] → scarta questa carta.",
-        "traits": "Arma.",
-        "attack_text": "[star] Gli attacchi del criminale con questa aggiunta ottengono Perforante."
-    },
-    {
-        "code": "04149",
-        "name": "Arma Secondaria dell'Hydra",
-        "text": "Asseganlo al criminale.\n<b>Azione Eroe:</b> Spendi [mental][physical] → scarta questa carta.",
-        "traits": "Arma.",
-        "attack_text": "[star]  <b>Interruzione Obbligata:</b> Quando il criminale con questa aggiunta attacca, l'attacco ottiene Distanza"
-    },
-    {
-        "code": "04150",
-        "name": "Maestro d'Armi",
-        "text": "<b>Quando rivelata (Alter Ego):</b> Il criminale trama. Se possiede un'aggiunta [[Arma]], questa carta ottiene impulso.\n<b>Quando rivelata (Eroe):</b> Il criminale ti attacca. Se possiede un'aggiunta [[Arma]], questa carta ottiene impulso."
-    },
-    {
-        "code": "04151",
-        "name": "Granata a Concussione",
-        "text": "<b>Quando rivelata (Alter Ego):</b> Sei confuso. Colloca 1 minaccia sulla trama principale (2 minacce se invece eri già confuso).\n<b>Quando rivelata (Eroe):</b> Sei stordito. Infliggi 1 danno al tuo eroe (2 danni, se invece eri già stordito)."
-    },
-    {
-        "code": "04152",
-        "name": "Regolare dell'Hydra",
-        "text": "Incitazione 1. <i>(Quando questa carta viene rivelata, colloca 1 minaccia sulla trama principale)</i>",
-        "traits": "Hydra.",
-        "flavor": "\"Se rifletti sul genere di persone che possono unirsi a un'organizzazione terrorista votata alla conquista del mondo, è facile capire perchè le truppe dell'Hydra si dimostrano scadenti\" -- Jessica Drew"
-    },
-    {
-        "code": "04153",
-        "name": "Soldato dell'Hydra",
-        "text": "Guardia. <i>(Mentre questo gregario è impegnato con te, non puoi attaccare il criminale.)</i>\n<b>Quando Sconfitto:</b> Distribuisci 1 carta incontro al giocatore impegnato.",
-        "traits": "Hydra."
-    },
-    {
-        "code": "04154",
-        "name": "Pattuglia dell'Hydra",
-        "text": "<b>Quando Sconfitta:</b> Ogni giocatore cerca nel mazzo degli incontri e nella pila degli incontri 1 gregario [[Hydra]] e lo mette in gioco impegnato con lui. Mescola il mazzo degli incontri.",
-        "flavor": "Hydra Soldiers perform routine patrols to maintain control of their territory."
-    }
+	{
+		"code": "04026",
+		"name": "Trascorsi Criminali",
+		"text": "<b><i>Fai ricevere al giocatore Clint Barton.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n- Esaurisci Clint Barton → rimuovi dal gioco Trascorsi Criminali.\n- Scarta Arco di Occhio di Falco dal gioco. Scarta questa incombenza.\n"
+	},
+	{
+		"attack_text": "Gli attacchi di Crossfire ottengono Perforante.",
+		"boost_text": "<b>Potenziamento:</b> Se questo potenziamento è risolto durante un attacco, l'attacco ottiene Perforante.",
+		"code": "04027",
+		"name": "Crossfire",
+		"text": "Colpo Rapido.",
+		"traits": "Mercenario."
+	},
+	{
+		"code": "04028",
+		"name": "Nel Centro del Mirino",
+		"text": "<b>Quando Rivelata:</b> Il giocatore Clint Barton cerca nella sua mano, nel suo mazzo, nella sua pila degli scarti e nella sua area di gioco Mimo e la colloca a faccia in su sotto questa carta, poi mescola il suo mazzo.\n<b>quando Sconfitta:</b> Rimetti Mimo nella mano del suo proprietario."
+	},
+	{
+		"attack_text": "quando il nemico con questa aggiunta attacca, l'attacco ottiene Distanza.",
+		"code": "04029",
+		"name": "Fucile di Crossfire",
+		"text": "Assegna a Crossfire. Se non puoi farlo, assegna al criminale.\n<b>Azione Eroe:</b> Esaurisci il tuo eroe e spendi [wild] → scarta Fucile di Crossfire.",
+		"traits": "Arma."
+	},
+	{
+		"code": "04030",
+		"flavor": "\"Mi piace farti correre un po' prima di far partire il colpo.\" -- Crossfire",
+		"name": "Tiro da Cecchino",
+		"text": "<b>Quando Rivelata (Alter Ego):</b> Colloca 3 minacce sulla trama principale.\n<b>Quando Rivelata (Eroe):</b> Infliggi 3 danni al tuo eroe."
+	},
+	{
+		"code": "04053",
+		"name": "Fedeltà Vacillante",
+		"text": "<b><i>Fai ricevere al giocatore Jessica Drew.</i></b>\nPuoi assumere la sembianza di alter ego.\nScegli 1 effetto tra:\n- Esaurisci Jessica Drew → rimuovi dal gioco Fedeltà Vacillante.\n- Colloca 3 minacce sulla trama principale. Scarta questa incombenza."
+	},
+	{
+		"code": "04054",
+		"flavor": "\"E' ora che tu torni a casa, Jessica.\"",
+		"name": "Viper",
+		"text": "Mentre Viper è impegnata con te, riduci di 1 il tuo limite di mano.\n(Gregario nemesi di Spider-Woman.)",
+		"traits": "Elite. Hydra."
+	},
+	{
+		"code": "04055",
+		"flavor": "Viper ha ceduto tutto all'Hydra in cambio di una promessa di potere.",
+		"name": "L''Ambizione di Viper",
+		"text": "<b>Quando rivelata:</b> Colloca 1[per_hero] minacce aggiuntive su questa carta. "
+	},
+	{
+		"code": "04056",
+		"flavor": "\"Se rifletti sul genere di persone che possono unirsi a un'organizzazione terrorista votata alla conquista del mondo, è facile capire perchè le truppe dell'Hydra si dimostrano scadenti\" -- Jessica Drew",
+		"name": "Regolare dell'Hydra",
+		"text": "Incitazione 1. (Quando questa carta viene rivelata, colloca 1 minaccia sulla trama principale.)",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04057",
+		"name": "Hail Hydra!",
+		"text": "<b>Quando rivelata:</b> Ogni gregario [[Hydra]] impegnato con un eroe attacca quell'eroe. Ogni giocatore che non è stato attaccato in questo modo cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario [[Hydra]] e lo mette in gioco impegnato con lui. Se un giocatore ha cercato nel mazzo degli incontri, mescolalo."
+	},
+	{
+		"attack_text": "Mentre Crossbones possiede un'aggiunta [[Arma]], i suoi attacchi ottengono Perforante. <i>(Scarta ogni carta status Robusto dal bersaglio prima di infliggere danni.)</i>",
+		"code": "04058",
+		"flavor": "\"Mi considero un artigiano, specializzato nella distruzione e nel terrore.\"",
+		"name": "Crossbones",
+		"traits": "Hydra. Mercenario."
+	},
+	{
+		"attack_text": "Mentre Crossbones possiede un'aggiunta [[Arma]], i suoi attacchi ottengono Perforante.",
+		"code": "04059",
+		"name": "Crossbones",
+		"text": "<b>Quando Rivelata:</b> Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Mitragliatrice di Crossbones e assegnala a Crossbones. Mescola il mazzo degli incontri.",
+		"traits": "Hydra. Mercenario."
+	},
+	{
+		"attack_text": "Mentre Crossbones possiede un'aggiunta [[Arma]], i suoi attacchi ottengono Perforante.",
+		"code": "04060",
+		"flavor": "\"Quei tizi coi super poteri saranno anche più forti, ma nessuno di loro ha il mio stile.\"",
+		"name": "Crossbones",
+		"text": "<b>Quando Rivelata:</b> Rivela 1 carta dalla cima del mazzo delle armi sperimentali.",
+		"traits": "Hydra. Mercenario."
+	},
+	{
+		"back_text": "<b>Contenuto:</b> Crossbones (I) e Crossbones (II). Set di incontri Crossbones, Armi Sperimentali e Standard. 3 set di incontri modulari <i>(Assalto dell'Hydra, Armi Sperimentali e Legioni dell'Hydra).</i>\n<b>Preparazione:</b> Crea il mazzo delle armi sperimentali e collocalo accanto al mazzo della trama principale.<i>(vedi il regolamento)</i>.",
+		"code": "04061",
+		"flavor": "Crossbones guida un esercito di soldati dell'Hydra in assalto diretto alla struttura del Progetto P.E.G.A.S.U.S. sui Monti Adirondack.",
+		"name": "Attacco sul Monte Athena",
+		"text": "<b>Quando Rivelata:</b> Rivela 1 carta dalla cima del mazzo delle armi sperimentali."
+	},
+	{
+		"back_flavor": "Nel cuore della struttura del progetto P.E.G.A.S.U.S., gli agenti dello S.H.I.E.L.D. combattono disperatamente per impedire all'Hydra di impossessarsi della Gemma della Realtà custodita all'interno.",
+		"code": "04062",
+		"name": "La Gemma dell'Infinito",
+		"text": "<b>Quando Rivelata:</b> Rivela 1 carta dalla cima del mazzo delle armi sperimentali."
+	},
+	{
+		"back_flavor": "L'Hydra si è impossessata della Gemma dell'Infinito e Crossbones ordina la ritirata. Dovete fermarli prima che riescano a fuggire!",
+		"code": "04063",
+		"name": "La Fuga",
+		"text": "<b>Quando Rivelata:</b> Rivela 1 carta dalla cima del mazzo delle armi sperimentali.\n<b>Se questo stadio è completo, i giocatori perdono la partita.</b>"
+	},
+	{
+		"attack_text": "<b>Interruzione Obbligata:</b> Quando Crossbones ti attacca, rimuovi 1 gettone munizione da questa carta e scarta 1 carta dalla cima del mazzo degli incontri → subisci un ammontare di danni indiretti pari al numero di icone potenziamento sulla carta scartata.",
+		"code": "04064",
+		"name": "Mitragliatrice di Crossbones",
+		"text": "Assegna a Crossbones. Utilizzo (2[per_hero] gettoni munizione).",
+		"traits": "Arma."
+	},
+	{
+		"code": "04065",
+		"name": "Armatura di Crossbones",
+		"text": "Assegna a Crossbones.\n<b>Interruzione Obbligata:</b> Quando Crossbones sta per subire un qualsiasi ammontare di danni,colloca invece quei danni su questa carta. Se ci sono 5 o più danni su questa carta, scarta Armatura di Crossbones.",
+		"traits": "Armatura.",
+		"flavor": "\"Godi della luce, piccola.\" - Crossbones"
+	},
+	{
+		"code": "04066",
+		"flavor": "\"Lo so che se tagli una testa, altre due ne prendono il posto. Ma se dovesse esplodere, invece?\" -- She-Hulk",
+		"name": "Bombarolo dell'Hydra",
+		"text": "<b>Quando Rivelata:</b> Scegli se subire 2 danni oppure collocare 1 minaccia sulla trama principale.",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04067",
+		"name": "Fuoco Automatico",
+		"text": "<b>Quando Rivelata (Alter Ego):</b> Questa carta ottiene impulso.\n<b>Quando Rivelata (Eroe):</b> Scarta X carte dalla cima del mazzo degli incontri, dove X è l'ATT di Crossbones. Subisci 1 danno indiretto per ogni icona potenziamento scartata in questo modo."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: irrobustisci il criminale. Se non puoi farlo, curagli invece 3 danni.",
+		"code": "04068",
+		"name": "Duro Come il Ferro",
+		"text": "<b>Quando Rivelata:</b> Irrobustisci il criminale. Se non puoi farlo, curagli invece 3 danni"
+	},
+	{
+		"code": "04069",
+		"name": "Razziare l'Armeria",
+		"text": "Incitazione 1. <i>(Quando questa carta viene rivelata, colloca 1 minaccia sulla trama principale)</i>\n<b>Quando Rivelata:</b> Scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 aggiunta [[Arma]]. Rivela quella carta."
+	},
+	{
+		"code": "04070",
+		"flavor": "Crossbones è un killer senza cuore, ma non è uno psicopatico. Il suo assalto al P.E.G.A.S.U.S. è spietato ed efficiente.",
+		"name": "Assalto di Crossbones",
+		"text": "<b>Quando Sconfitta:</b> Crossbones si attiva contro il giocatore che ha sconfitto questa trama."
+	},
+	{
+		"code": "04071",
+		"flavor": "L'Hydra ha radunato i membri del personale P.E.G.A.S.U.S. per usarli come ostaggi.",
+		"name": "Personale all'Angolo",
+		"text": "<b>Quando Rivelata:</b> Scarta 1[per_hero] carte dalla cime del mazzo degli incontri. Colloca 1 minaccia aggiuntiva su questa carta per ogni icona potenziamento scartata in questo modo."
+	},
+	{
+		"attack_text": "<b>Interruzione Obbligata:</b> Quando il criminale con questa aggiunta attacca, l'attacco ottiene Distanza.",
+		"code": "04072",
+		"name": "Fucile Laser",
+		"text": "Assegna al criminale.\n<b>Azione Eroe:</b> Spendi [energy][physical] → Scarta questa carta.",
+		"traits": "Arma. Sperimentale."
+	},
+	{
+		"code": "04073",
+		"flavor": "\"Non convincerai mai Cap che uno scudo di energia valga quanto il suo vecchio frisbee.\" -- Carol Danvers",
+		"name": "Scudo di Energia",
+		"text": "Assegna al criminale.\nIl criminale con questa aggiunta ottiene Ritorsione 1.\n<b>Azione Eroe:</b> Spendi [energy][mental] → Scarta questa carta.",
+		"traits": "Arma. Sperimentale."
+	},
+	{
+		"attack_text": "<b>Interruzione Obbligata:</b> Dopo che il criminale con questa aggiunta ti ha attaccato e danneggiato, scarta 1 carta dalla tua mano.",
+		"code": "04074",
+		"name": "Guanti Potenziati",
+		"text": "Assegna al criminale.\r\n<b>Azione Eroe:</b> Spendi [mental][physical] → Scarta questa carta.",
+		"traits": "Arma. Sperimentale."
+	},
+	{
+		"code": "04075",
+		"flavor": "\"Non avrei mai dovuto condividere la mia tecnologia con lo S.H.I.E.L.D.\" -- Tony Stark",
+		"name": "Exo-Tuta",
+		"text": "Assegan al criminale.\n<b>Azione Eroe:</b> Spendi [energy][mental][physical] → Scarta questa carta.",
+		"traits": "Arma. Sperimentale."
+	},
+	{
+		"code": "04076",
+		"flavor": "\"Lo sai che ho sconfitto Thor una volta? Immaginati la scena: Crusher Creel che si erge sul dio del tuono... e tu pensi di spaventarmi?\"",
+		"name": "Uomo Assorbente",
+		"text": "Uomo Assorbente ottiene i tratti di ogni ambiente in gioco.",
+		"traits": "Bruto."
+	},
+	{
+		"code": "04077",
+		"name": "Uomo Assorbente",
+		"text": "Uomo Assorbente ottiene i tratti di ogni ambiente in gioco.\n<b>Quando Rivelata:</b> Se Superpotere Assorbente è in gioco, distribuisci 1 carta incontro a ogni giocatore. Altrimenti, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Superpotere Assorbente e rivelalo. Mescola il mazzo degli incontri.",
+		"traits": "Bruto."
+	},
+	{
+		"attack_text": "<b>Risposta Obbligata:</b> dopo che Uomo Assorbente si è attivato contro di te, se possiede il tratto:\n- [[Ghiaccio]] o [[Pietra]], colloca 1 minaccia sulla trama principale.\n- [[Metallo]] o [[Legno]], subisci 1 danno indiretto.",
+		"code": "04078",
+		"name": "Uomo Assorbente",
+		"scheme_text": "<b>Risposta Obbligata:</b> dopo che Uomo Assorbente si è attivato contro di te, se possiede il tratto:\n- [[Ghiaccio]] o [[Pietra]], colloca 1 minaccia sulla trama principale.\n- [[Metallo]] o [[Legno]], subisci 1 danno indiretto.",
+		"text": "Uomo Assorbente ottiene i tratti di ogni ambiente in gioco.\n",
+		"traits": "Bruto."
+	},
+	{
+		"back_text": "<b>Contenuto:</b> Uomo Assorbente (I) e Uomo Assorbente (II). Set di incontri Uomo Assorbente e Standard. 1 set di incontri modulare <i>(Pattuglia dell'Hydra).</i>\n<b>Preparazione:</b>Scarta carte dalla cima del mazzo degli incontri finchè non scarti un ambiente. Metti in gioco quella carta e rimescola la pila degli scarti degli incontri nel mazzo degli incontri.",
+		"code": "04079",
+		"name": "Nessuno Passerà",
+		"text": "<b>[star] Risposta Obbligata:</b> Dopo naver risolto il passo 1 della Fase del Criminale, colloca 1 gettone ritardo su questa carta.\n<b>Interruzione Obbligata:</b> Quando un ambiente entra in gioco, scarta ogni altra carta ambiente in gioco.\n<b>Se questo stadio è completo, i giocatori perdono la partita.</b>\n"
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Metti in gioco questa carta.",
+		"code": "04080",
+		"name": "Foresta Fitta",
+		"text": "Impulso.\n<b>Risposta Obbligata:</b> Dopo che Uomo Assorbente ha effettuato un attacco non difeso contro di te, subisci 1 danno indiretto (2 danni indiretti se invece ci sono 5 o più gettoni ritardo sulla trama principale).",
+		"traits": "Legno."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Metti in gioco questa carta.",
+		"code": "04081",
+		"name": "Collina Innevata",
+		"text": "Impulso.\r\n<b>Risposta Obbligata:</b> Dopo che Uomo Assorbente ha effettuato un attacco non difeso contro di te, colloca 1 minaccia sulla trama principale (2 minacce se invece ci sono 5 o più gettoni ritardo sulla trama principale).",
+		"traits": "Ghiaccio."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Metti in gioco questa carta.",
+		"code": "04082",
+		"name": "Sporgenza Rocciosa",
+		"text": "Impulso.\n<b>Risposta Obbligata:</b> Dopo che Uomo Assorbente ha effettuato un attacco non difeso contro di te, curagli 1 danno (2 danni se invece ci sono 5 o più gettoni ritardo sulla trama principale).",
+		"traits": "Pietra."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Metti in gioco questa carta.",
+		"code": "04083",
+		"name": "Fabbrica Abbandonata",
+		"text": "Impulso.\r\n<b>Risposta Obbligata:</b> Dopo che Uomo Assorbente ha effettuato un attacco non difeso contro di te, scarta 1 icona risorsa dalla tua mano (2 icone risorsa se invece ci sono 5 o più gettoni ritardo sulla trama principale).",
+		"traits": "Metallo."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Rivela questa carta",
+		"code": "04084",
+		"name": "Palla e Catena",
+		"text": "Assegna a Uomo Assorbente.\n<b>Azione Eroe:</b> Spendi [physical] → mescola questa carta nel mazzo degli incontri.",
+		"traits": "Arma."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Se ci sono 5 o più gettoni ritardo sulla trama principale, subisci 1 danno indiretto.",
+		"code": "04085",
+		"name": "Tattiche di Stallo",
+		"text": "<b>Quando Rivelata:</b> Colloca 1 minaccia sulla trama principale per ogni 2 gettoni ritardo sulla trama principale. Se nessuna minaccia è stata collocata in questo modo, questa carta ottiene impulso."
+	},
+	{
+		"code": "04086",
+		"name": "Pietra Oscillante",
+		"text": "<b>Quando Rilevata (Alter Ego):</b> Uomo Assorbente trama. Se Uomo Assorbente possiede il tratto [[Pietra]], riceve +1 TRA per questa attivazione.\n<b>Quando Rilevata (Eroe):</b> Uomo Assorbente ti attacca. Se Uomo Assorbente possiede il tratto [[Pietra]], riceve +1 ATT per questa attivazione."
+	},
+	{
+		"code": "04087",
+		"name": "Calcio d'Acciaio",
+		"text": "<b>Quando Rilevata (Alter Ego):</b> Colloca 2 minacce sulla trama principale (3 minacce se invece Uomo Assorbente possiede il tratto [[Metallo]].)\n<b>Quando Rilevata (Eroe):</b> Subisci 3 danni indiretti (4 danni indiretti se invece Uomo Assorbente possiede il tratto [[Metallo]].)"
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Se Uomo Assorbente possiede il tratto [[Pietra]] o [[Legno]], sei stordito.",
+		"code": "04088",
+		"name": "Spine Perforanti",
+		"text": "<b>Quando Rilevata:</b> Scarta 1 carta casuale dalla tua mano. Se Uomo Assorbente possiede il tratto [[Legno]], scarta 1 carta che controlli."
+	},
+	{
+		"code": "04089",
+		"name": "Duplicazione Omni-Morfa",
+		"text": "<b>Quando Rilevata:</b> Se Uomo Assorbente possiede il tratto:\n- [[Ghiaccio]], esaurisci la tua carta identità..\n- [[Metallo]], irrobustisci Uomo Assorbente e curagli 1 danno.\n- [[Pietra]], fai ricevere a Uomo Assorbente 1 carta potenziamento a faccia in giù.\n- [[Legno]], scarta 1 carta casuale dalla tua mano."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Se Uomo Assorbente possiede il tratto [[Ghiaccio]] or [[Metallo]], irrobustiscilo.",
+		"code": "04090",
+		"name": "Morsa Gelida",
+		"text": "<b>Quando Rilevata:</b> Sei stordito. Se Uomo Assorbente possiede il tratto [[Ghiaccio]], subisci 2 danni indiretti."
+	},
+	{
+		"code": "04091",
+		"name": "Valanga!",
+		"text": "<b>Quando Rilevata:</b>Ogni giocatore sceglie se spendere [energy] oppure subire 2 danni indiretti (3 danni indiretti se invece ci sono 5 o più gettoni ritardo sulla trama principale)"
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Rivela questa carta",
+		"code": "04092",
+		"flavor": "Creel possiede la capacità di assorbire le proprietà di più elementi contemporaneamente, ma ha bisogno della massima concentrazione.",
+		"name": "Superpotere Assorbente",
+		"text": "Uomo Assorbente ottiene i tratti [[Ghiaccio]], [[Metallo]], [[Pietra]], e [[Legno]]."
+	},
+	{
+		"code": "04093",
+		"flavor": "\"Tutto quello che sai fai, io so farlo meglio.\"",
+		"name": "Taskmaster",
+		"text": "<b>Risposta Obbligata:</b> Dopo che un giocatore ha assunto la sembianza di eroe, quel giocatore scarta 1 carta dalla cima del mazzo degli incontri e subisce un ammontare di danni pari al numero di icone potenziamento su quella carta.",
+		"traits": "Hydra. Mercenario."
+	},
+	{
+		"code": "04094",
+		"name": "Taskmaster",
+		"text": "<b>Quando Rilevata:</b> Distribuisci 1 carta incontro a ogni giocatore.\n<b>Risposta Obbligata:</b> Dopo che un giocatore ha assunto la sembianza di eroe, quel giocatore scarta 1 carta dalla cima del mazzo degli incontri e subisce un ammontare di danni pari al numero di icone potenziamento su quella carta.",
+		"traits": "Hydra. Mercenario."
+	},
+	{
+		"code": "04095",
+		"name": "Taskmaster",
+		"text": "<b>Quando Rilevata:</b> Distribuisci 1 carta incontro a ogni giocatore.\r\n<b>Risposta Obbligata:</b> Dopo che un giocatore ha assunto la sembianza di eroe, quel giocatore scarta 1 carta dalla cima del mazzo degli incontri e subisce un ammontare di danni pari al numero di icone potenziamento su quella carta.",
+		"traits": "Hydra. Mercenario."
+	},
+	{
+		"back_text": "<b>Contenuto:</b> Taskmaster (I) e Taskmaster (II). Set di incontri Taskmaster, Pattuglia dell'Hydra e Standard. 1 set di incontri modulare <i>(Maestro d'Armi).</i>\n<b>Preparazione:</b> Metti da parte ogni alleato [[Prigioniero]], fuori dal gioco. Cerca nel mazzo degli incontri Pattuglia dell'Hydra e mettila in gioco. Mescola il mazzo degli incontri.",
+		"code": "04096",
+		"flavor": "Il famigerato Taskmaster è stato nominato capo della polizia dell'Hydra. La sua massima priorità è dare la caccia agli eroi fuorilegge.",
+		"name": "A Caccia di Eroi",
+		"text": "<b>[star] Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, ogni giocatore nella sembianza di eroe sceglie se collocare 1 minaccia su questa carta oppure subire 1 danno.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+	},
+	{
+		"code": "04097",
+		"flavor": "\"L'Hydra ha conquistato tutto così velocemente, dubitavo che fosse reale.\"",
+		"name": "Moon Knight",
+		"subname": "Marc Spector",
+		"text": "<b>Risposta:</b> Dopo che hai giocato Moon Knight dalla tua mano, spendi [wild] → pesca 2 carte.",
+		"traits": "Prigioniero. Eroe in vendita."
+	},
+	{
+		"code": "04098",
+		"name": "Shang-Chi",
+		"text": "<b>Risposta:</b> Dopo che hai giocato Shang-Chi dalla tua mano, spendi [energy] → stordisci 1 nemico.",
+		"traits": "Prigioniero. Eroe in vendita.",
+		"flavor": "\"Una squadra d'assalto dell'Hydra ha fatto irruzione in casa mia. Li ho 'accompagnati' alla porta, ma c'erano altre due squadre ad aspettarmi all'esterno\""
+	},
+	{
+		"code": "04099",
+		"name": "Tigre Bianca",
+		"subname": "Angela Del Toro",
+		"text": "<b>Risposta:</b> Dopo che hai giocato Tigre Bianca dalla tua mano, spendi [mental] → rimuovi 3 minacce da una trama.",
+		"traits": "Prigioniero. Eroe in vendita.",
+		"flavor": "\"Dopo che l'Hydra ha preso il potere e ha dichiarato gli eroi fuorilegge, un vicino mi ha segnalato al nuovo capo della polizia\""
+	},
+	{
+		"code": "04100",
+		"flavor": "\"Mi hanno preso mentre tentavo di aiutare alcuni civili a sfuggire a una pattuglia dell'Hydra. Poi ho scoperto che i civili erano agenti dell'Hydra travestiti.\"",
+		"name": "Elektra",
+		"text": "<b>Risposta:</b>Dopo che hai giocato Elektra dalla tua mano, spendi [physical] → infliggi 3 danni a un nemico.",
+		"traits": "Prigioniero. Eroe in vendita."
+	},
+	{
+		"attack_text": "[star] gli attacchi di Cacciatore dell'Hydra ottengono Distanza e Perforante.",
+		"boost_text": "<b> Potenziamento </b>: Se sei nella sembianza di eroe, subisci 1 danno. Altrimenti colloca 1 minaccia sulla trama principale",
+		"code": "04101",
+		"name": "Cacciatore dell'Hydra",
+		"traits": "Hydra."
+	},
+	{
+		"attack_text": "Taskmaster's attacks gain piercing.",
+		"code": "04102",
+		"name": "Spada di Taskmaster",
+		"text": "Assegna a Taskmaster.\n[star] Gli attacchi di Taskmaster ottengono Perforante\n<b>Azione Eroe:</b> Esaurisci il tuo ereo e spendi [mental][physical] → scarta questa carta.",
+		"traits": "Arma."
+	},
+	{
+		"code": "04103",
+		"flavor": "\"Questa mossa l'ho imparata da Capitan America.\" -- Taskmaster",
+		"name": "Scudo di Taskmaster",
+		"text": "Assegna a Taskmaster.\r\nTaskmaster ottiene Ritorsione 1\r\n<b>Azione Eroe:</b> Esaurisci il tuo ereo e spendi [mental][physical] → scarta questa carta.",
+		"traits": "Arma. Armatura."
+	},
+	{
+		"code": "04104",
+		"name": "Riflessi Fotografici",
+		"text": "Assegna aTaskmaster.\n<b>Interruzione Obbligata:</b> Quando un giocatore attacca Taskmaster, previeni invece tutti i danni che stanno per essere inflitti a Taskmaster e infliggi un pari ammontare di danni all'identità di quel giocatore. Poi scarta Riflessi Fotografici (Massimo 1 volta per attacco.)"
+	},
+	{
+		"code": "04105",
+		"name": "Imitazione",
+		"text": "<b>Quando Rivelata (Alter Ego):</b> Scarta 5 carte dalla cima del tuo mazzo. Se una carta [[Intervento]] è stata scartata in questo modo, Taskmaster trama.\n<b>Quando Rivelata (Eroe):</b> Scarta 5 carte dalla cima del tuo mazzo. Se una carta [[Attacco]] è stata scartata in questo modo, Taskmaster ti attacca."
+	},
+	{
+		"code": "04106",
+		"flavor": "\"E' un brutto momento per essere un eroe.\" -- Bucky Barnes",
+		"name": "Braccati dall'Hydra",
+		"text": "Incitazione 1. <i>(Quando questa carta viene rivelata, colloca 1 minaccia sulla trama principale.)</i>\n<b>Quando Rivelata:</b> Ogni giocatore nella sembianza di eroe subisce 1 danno e scarta 1 carta casuale dalla sua mano."
+	},
+	{
+		"code": "04107",
+		"name": "Catturato dall'Hydra",
+		"text": "<b>Quando Rivelata:</b> Colloca 1 alleato [[Prigioniero]] casuale messo da parte a faccia in giù sotto questa trama.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama prende quell'alleato nella sua mano e rimuove questa trama dal gioco."
+	},
+	{
+		"code": "04108",
+		"flavor": "Taskmaster accetta solo le truppe migliori nelle sue forze di polizia. Prima che un soldato dell'Hydra possa arruolarsi, deve sopravvivere al suo campo di addestramento.",
+		"name": "Campo di Addestramento di Taskmaster",
+		"text": "<b>Risposta Obbligata:</b> Dopo che un gregario è entrato in gioco, irrobustiscilo."
+	},
+	{
+		"code": "04109",
+		"flavor": "\"Il mio programma di mutazione trasformerà queste patetiche creature nelle truppe d'assalto scelte dell'Hydra\"",
+		"name": "Zola",
+		"text": "Ritorsione 1.",
+		"traits": "Androide. Hydra."
+	},
+	{
+		"code": "04110",
+		"name": "Zola",
+		"text": "Ritorsione 1.\n<b>Quando Rivelata:</b> Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri la trama secondaria Cavie da Laboratorio e rivelala. Mescola il mazzo degli incontri",
+		"traits": "Androide. Hydra."
+	},
+	{
+		"code": "04111",
+		"name": "Zola",
+		"text": "Ritorsione 1.\n<b>Quando Rivelata:</b> Ogni giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario e lo rivela. Mescola il mazzo degli incontri.",
+		"traits": "Androide. Hydra."
+	},
+	{
+		"back_text": "<b>Contenuto:</b> Zola (I) e Zola (II). Set di incontri Zola e Standard. 1 set di incontri modulare <i>(Sotto Attacco)</i>\n<b>Preparazione:</b> Cerca nel mazzo degli incontri Prigione dell'Hydra e rivelala. Ogni giocatore cerca nel mazzo degli incontri 1 Bio-Servitore Supremo e lo mette in gioco impegnato con lui. Mescola il mazzo degli incontri",
+		"code": "04112",
+		"name": "L'Isola del Dottor Zola",
+		"text": "<b>[star] Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, colloca 1 gettone esperimento su questa carta. Poi, se ci sono 3 o più gettoni esperimento su questa carta, scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 gregario. Metti in gioco quel gregario impegnato con il primo giocatore e rimuovi 3 gettoni esperimento da questa trama."
+	},
+	{
+		"back_flavor": "I mutati di Zola vi attaccano con cieca obbedienza e furia selvaggia. Tocca a voi porre fine a questo incubo prima che lo scienziato pazzo li scateni in tutto il mondo!",
+		"back_text": "<b>Quando Rivelato:</b> Ogni giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario e lo rivela. Mescola il mazzo degli incontri.",
+		"code": "04113",
+		"name": "Lo scienziato pazzo",
+		"text": "<b>[star] Risposta Obbligata:</b>  Dopo aver risolto il passo 1 della Fase del Criminale, colloca 1 gettone esperimento su questa carta. Poi, se ci sono 3 o più gettoni esperimento su questa carta, scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 gregario. Metti in gioco quel gregario impegnato con il primo giocatore e rimuovi 3 gettoni esperimento da questa trama.\n<b>Se questo stadio è completato, i giocatori persono la partita.</b>"
+	},
+	{
+		"attack_text": "[star] Bio-Servitore Supremo riceve +1 ATT per ogni aggiunta su di esso",
+		"boost_text": "<b> Potenziamento </b>: Irrobustisci il criminale",
+		"code": "04114",
+		"name": "Bio-Servitore Supremo",
+		"text": "Robustezza.",
+		"traits": "Hydra. Mutato."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Mescola Mutato di Zola nel mazzo degli incontri",
+		"code": "04115",
+		"name": "Mutato di Zola",
+		"text": "<b>Quando Rivelato:</b> Scarta carte dall cima del mazzo degli incontri finchè non scarti 1 aggiunta [[Tecnologia]]. Assegna quella carta a Mutato di Zola. ",
+		"traits": "Hydra. Mutato."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Colloca 1 gettone esperimento sulla trama principale. Per ogni gettone esperimento sulla trama principale, Zola riceve +1 TRA e +1 ATT per questa attivazione.",
+		"code": "04116",
+		"name": "Mutato Berserk",
+		"text": "Colpo Rapido.",
+		"traits": "Hydra. Mutato."
+	},
+	{
+		"code": "04117",
+		"name": "Programma Difensivo",
+		"text": "Assegna al gregario con più punti ferita rimanenti e senza altre Programmazione Difensiva assegnate ad esso. Se non puoi farlo questa carta ottiene Impulso.\nIl gregario con questa aggiunta riceve +2 punti ferita e ottiene Guardia.",
+		"traits": "Tecnologia."
+	},
+	{
+		"code": "04118",
+		"name": "Inibiori del Dolore",
+		"text": "Assegna al gregario con più punti ferita rimanenti e senza altri Inibiori del Dolore assegnate ad esso. Se non puoi farlo questa carta ottiene Impulso.\nIl gregario con questa aggiunta riceve +2 punti ferita e ottiene Ritorsione 1.",
+		"traits": "Tecnologia."
+	},
+	{
+		"code": "04119",
+		"name": "Innesti Neurologici",
+		"text": "Assegna al gregario con più punti ferita rimanenti e senza altri Innesti Neurologici assegnate ad esso. Se non puoi farlo questa carta ottiene Impulso.\nIl gregario con questa aggiunta riceve +2 punti ferita.",
+		"traits": "Tecnologia."
+	},
+	{
+		"code": "04120",
+		"flavor": "\"Pensavi che Zola fosse privo di difese? Stolto arrogante!\" -- Arnim Zola",
+		"name": "Raggio Mentale",
+		"text": "<b>Quando Rivelata (Alter Ego):</b> Zola trama. Sei confuso.\n<b>Quando Rivelata (Eroe):</b> Zola ti attacca. Sei stordito."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Colloca 1 gettone esperimento sulla trama principale.",
+		"code": "04121",
+		"name": "Potenziatori Tecnologici",
+		"text": "Incitazione 1.\n<b>Quando Rivelata:</b> Colloca 1 gettone esperimento sulla trama principale."
+	},
+	{
+		"code": "04122",
+		"name": "Prigione dell'Hydra",
+		"text": "<b>Quando Rilavata:</b> Ogni giocatore cerca nel suo mazzo, nella sua mano e nella sua pila degli scarti 1 alleato del proprio set eroe e lo colloca a faccia in giù sotto questa trama. Colloca X minacce su questa trama, dove X è il costo totale di tutti gli alleati sotto di essa. Ogni giocatore mescola il proprio mazzo.\n<b>Quando Sconfitta:</b> Rimuovi questa trama dal gioco e rimetti ogni alleato sotto di essa nella mano del suo proprietario."
+	},
+	{
+		"code": "04123",
+		"flavor": "Un destino peggiore della morte.",
+		"name": "Cavie da Laboratorio",
+		"text": "<b>Quando Sconfitta:</b> il primo giocatore scarta carte dalla cima del mazzo degli incontri finchè non scarta 1 gregario. Quel giocatore rivela quel gregario."
+	},
+	{
+		"code": "04124",
+		"flavor": "Lo scienziato pazzo non si stanca mai di condurre esperimenti sulle sue vittime.",
+		"name": "Esperimenti di Zola",
+		"text": "<b>Risposta Obbligata:</b> Dopo che un gregario è entrato in gioco, assegna la prima aggiunta [[Tecnologia]] dalla cima della pila degli scarti degli incontri a quel gregario."
+	},
+	{
+		"attack_text": "[star] Teschio Rosso riceve +1 ATT per ogni trama secondaria in gioco.",
+		"code": "04125",
+		"flavor": "\"La libertà spetta solo a chi comanda! Tutti gli altri devono essere schiavi!\"",
+		"name": "Teschio Rosso",
+		"traits": "Hydra."
+	},
+	{
+		"attack_text": "[star] Teschio Rosso riceve +1 ATT per ogni trama secondaria in gioco.",
+		"code": "04126",
+		"flavor": "\"Non permetterò a nessuno di intervenire nei miei piani!\"",
+		"name": "Teschio Rosso",
+		"text": "<b>Quando rivelata:</b> Distribuisci una carta incontro ad ogni giocatore.",
+		"traits": "Hydra."
+	},
+	{
+		"attack_text": "[star] Teschio Rosso riceve +1 ATT per ogni trama secondaria in gioco.",
+		"code": "04127",
+		"flavor": "\"Il mondo si inchinerà di fronte a Teschio Rosso!\"",
+		"name": "Teschio Rosso",
+		"text": "<b>Quando rivelata:</b> Distribuisci una carta incontro ad ogni giocatore.",
+		"traits": "Hydra."
+	},
+	{
+		"back_text": "<b>Contenuto:</b> Teschio Rosso (I) e Teschio Rosso (II). Set di incontri Teschio Rosso e Standard. 2 set di incontri modulari <i>(Assalto dell'Hydra e Pattuglia dell'Hydra).</i>\n<b>Preparazione:</b> Metti in gioco La Casa Rossa. Mescola ogni altra trama secondaria nel mazzo delle trame secondarie e collocalo accanto al mazzo degli incontri (Vedi il regolamento). Metti da parte Dormiente, fuori dal gioco.",
+		"code": "04128",
+		"flavor": "il Teschio Rosso intende conquistare il mondo con il potere della Gemma della Realtà. Userà il suo genio strategico per tenervi occupati mentre prosegue il suo obbiettivo finale.",
+		"name": "L'Ascesa di Teschio Rosso",
+		"text": "<b>[star] Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, rivela 1 carta dalla cima del mazzo delle trame secondarie e mettila in gioco."
+	},
+	{
+		"back_flavor": "il Teschio Rosso ha fatto un altro passo avanti nel tentativo di sbloccare il pieno potere della Gemma dell'Infinito. Dovete fermarlo prima che ci riesca, altrimenti tutta la realtà si piegherà al suo malvagio volere.",
+		"back_text": "<b>Quando Rivelata:</b> Rivela 1 carta dalla cima del mazzo delle trame secondari e e mettila in gioco.",
+		"code": "04129",
+		"name": "Il Nuovo Ordine dell'Hydra",
+		"text": "<b>[star] Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, rivela 1 carta dalla cima del mazzo delle trame secondarie e mettila in gioco.\n<b>Se questo stadio è completo, i giocatori perdono la partita.</b>"
+	},
+	{
+		"code": "04130",
+		"name": "Dormiente",
+		"text": "Guardia. Ritorsione 1. Robustezza.\n<b>Quando Rivelata:</b> Dormiente impegna il primo giocatore.\n<b>Quando Sconfitta:</b> Rimuovi Dormiente dal gioco.",
+		"traits": "Elite. Hydra. Robot."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Irrobustisci il criminale e fagli ricevere 1 carta potenziamento aggiuntiva.",
+		"code": "04131",
+		"flavor": "\"Attenzione, squadra. Quelli picchiano duro!\" -- Captain America",
+		"name": "Exo-Soldato dell'Hydra",
+		"text": "Robustezza",
+		"traits": "Hydra."
+	},
+	{
+		"attack_text": "[star] gli attacchi di Teschio Rosso ottengono Distanza e Perforante.",
+		"boost_text": "<b> Potenziamento </b>: Assegna a Teschio Rosso.",
+		"code": "04132",
+		"name": "Luger del Teschio Rosso",
+		"text": "Assegana a Teschio Rosso.\n<b>Azione Eroe:</b> Spendi [energy][mental][physical] → scarta questa carta.",
+		"traits": "Arma."
+	},
+	{
+		"code": "04133",
+		"flavor": "\"Sono il tuo superiore sotto ogni aspetto!\" -- Teschio Rosso",
+		"name": "Gancio Destro del Teschio Rosso",
+		"text": "Assegna a Teschio Rosso.\nTeschio Rosso ottiene Ritorsione 1.\n<b>Azione Eroe:</b> Spendi [energy][mental][physical] → scarta questa carta.",
+		"traits": "Abilità."
+	},
+	{
+		"attack_text": "[star] <b> Interruzione Obbligata:</b> Quando Teschio Rosso si attiva, fagli ricevere 1 carta potenziamento aggiuntiva per ogni trama secondaria in gioco. Poi scarta questa carta. (Massimo una volta per attivazione)",
+		"code": "04134",
+		"flavor": "\"Negli scacchi, l'unico pezzo che conta veramente è il re, e quello sono io.\" -- Teschio Rosso",
+		"name": "Stratega Supremo",
+		"scheme_text": "<b>Forced Interrupt:</b> When Red Skull activates, give him an additional boost card for each side scheme in play. Then, discard this card. (Max once per activation.)",
+		"text": "Assegna a Teschio Rosso.",
+		"traits": "Abilità."
+	},
+	{
+		"code": "04135",
+		"flavor": "La Gemma dell'Infinito conferisce al Teschio Rosso il potere di piegare la realtà al suo volere.",
+		"name": "Realtà Distorta",
+		"text": "Incitazione 1.\nAssegna ad una trama secondaria.\n<b>Responsa Obbligata:</b> Quando la trama con questa aggiunta è sconfitta, distribuisci 1 carta incontro al primo giocatore.",
+		"traits": "Condizione."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Esaurisci 1 personaggio che controlli.",
+		"code": "04136",
+		"flavor": "\"Questa è la fine per te, Herr Capitano!\" -- Teschio Rosso",
+		"name": "Acerrimo Nemico",
+		"text": "<b>Quando Rivelata:</b> Esaurisci 1 personaggio che controlli per ogni trama secondaria in gioco."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Irrobustisci Teschio Rosso",
+		"code": "04137",
+		"flavor": "\"Grazie al mio smisurato e ineguagliato ingegno, l'Hydra regnerà suprema!\" -- Teschio Rosso",
+		"name": "Diffondere Bugie",
+		"text": "<b>Quando Rivelata:</b> Colloca 2 minacce su ogni trama in gioco."
+	},
+	{
+		"code": "04138",
+		"name": "Potere Infinito",
+		"text": "<b>Quando Rivelata (Alter Ego):</b> Irrobustisci Teschio Rosso. Teschio Rosso trama.\n<b>Quando Rivelata (Eroe):</b> Irrobustisci Teschio Rosso. Teschio Rosso ti attacca."
+	},
+	{
+		"code": "04139",
+		"flavor": "La fortezza del Teschio Rosso troneggia sulla Casa Bianca per simboleggiare la conquista dell'America da parte dell'Hydra.",
+		"name": "La Casa Rossa",
+		"text": "Teschio Rosso non può subire danni.\n<b>Interruzione:</b> Quando un personaggio interviene su questa trama secondaria, può usare il suo valero di ATT invece di quello di INT."
+	},
+	{
+		"code": "04140",
+		"flavor": "Il Dormiente è emerso dal Fiume Potomac per rispondere alla chiamata di Teschio Rosso.",
+		"name": "Il Dormiente Risvegliato",
+		"text": "Mentre Dormiente è in gioco, questa trama non può uscire dal gioco.\n<b>Quando Rivelata:</b> Metti in gioco Dormiente impegnato con il primo giocatore. Quando Dormiente è sconfitto, rimuovi questa carta dal gioco."
+	},
+	{
+		"code": "04141",
+		"flavor": "Sotto il dominio dell'Hydra, le famiglie vengono separate e incarcerate senza essere processate.",
+		"name": "Campi di Prigionia",
+		"text": "<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama cerca nel suo mazzo e nella sua pila degli scarti 1 alleato, lo mette in gioco e mescola il suo mazzo."
+	},
+	{
+		"code": "04142",
+		"flavor": "L'Hydra controlla tutti i media e usa la propaganda per aizzare le masse contro gli eroi del passato.",
+		"name": "Revisionismo Storico",
+		"text": "<b>Quando Sconfitta:</b> Ogni giocatore sceglie fino a 3 carte nella sua pila degli scarti e le rimescola nel suo mazzo."
+	},
+	{
+		"code": "04143",
+		"flavor": "Ciò che all'Hydra manca in abilità viene compensato dalla sua vasta superiorità numerica.",
+		"name": "Rinforzi dell'Hydra",
+		"text": "<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama scarta 1 gregario non <b>Elite</b>."
+	},
+	{
+		"code": "04144",
+		"flavor": "Il Teschio Rosso provoca catastrofi in tutto il paese per tenere occupati i suoi nemici.",
+		"name": "Caos di Massa",
+		"text": "<b>Quando Rivelata:</b> Ogni giocatore scarta 5 carte dalla cima del suo mazzo e colloca 1 minaccia su questa carta per ogni risorsa di tipo diverso ([energy],[mental],[physical], o [wild]) scartata in questo modo."
+	},
+	{
+		"attack_text": "[star]<b>Risposta obbligata:</b>Dopo che un soldato Incendiario dell'Hydra ha effettuato un attacco non difeso contro di te,scarta 1 supporto che controlli.",
+		"boost_text": "<b> Potenziamento </b>: Se questa carta è risolta durante un attacco non difeso, scarta 1 supporto che controlli.",
+		"code": "04145",
+		"name": "Soldato Incendiario dell'Hydra",
+		"traits": "Hydra."
+	},
+	{
+		"boost_text": "<b> Potenziamento </b>: Se sei nella sembianza di eroe, il criminale ti attacca dopo questa attivazione. Non far ricevere carte potenziamento al criminale per questo attacco.",
+		"code": "04146",
+		"name": "Soldato a Reazione dell'Hydra",
+		"text": "Colpo Rapido.",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04147",
+		"name": "Hail Hydra!",
+		"text": "<b>Quando Rivelata:</b> Ogni gregario [[Hydra]] impegnato con un eroe attacca quell'eroe. Ogni giocatore che non è stato attaccato in questo modo cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario [[Hydra]] e lo mette in gioco impegnato con lui. Se un giocatore ha cercato nel mazzo degli incontri, mescolalo."
+	},
+	{
+		"attack_text": "[star] Gli attacchi del criminale con questa aggiunta ottengono Perforante.",
+		"code": "04148",
+		"name": "Coltello da Combattimento",
+		"text": "Assegnalo al criminale.\n<b>Azione Eroe:</b> Spendi [mental][physical] → scarta questa carta.",
+		"traits": "Arma."
+	},
+	{
+		"attack_text": "[star]  <b>Interruzione Obbligata:</b> Quando il criminale con questa aggiunta attacca, l'attacco ottiene Distanza",
+		"code": "04149",
+		"name": "Arma Secondaria dell'Hydra",
+		"text": "Asseganlo al criminale.\n<b>Azione Eroe:</b> Spendi [mental][physical] → scarta questa carta.",
+		"traits": "Arma."
+	},
+	{
+		"code": "04150",
+		"name": "Maestro d'Armi",
+		"text": "<b>Quando rivelata (Alter Ego):</b> Il criminale trama. Se possiede un'aggiunta [[Arma]], questa carta ottiene impulso.\n<b>Quando rivelata (Eroe):</b> Il criminale ti attacca. Se possiede un'aggiunta [[Arma]], questa carta ottiene impulso."
+	},
+	{
+		"code": "04151",
+		"name": "Granata a Concussione",
+		"text": "<b>Quando rivelata (Alter Ego):</b> Sei confuso. Colloca 1 minaccia sulla trama principale (2 minacce se invece eri già confuso).\n<b>Quando rivelata (Eroe):</b> Sei stordito. Infliggi 1 danno al tuo eroe (2 danni, se invece eri già stordito)."
+	},
+	{
+		"code": "04152",
+		"flavor": "\"Se rifletti sul genere di persone che possono unirsi a un'organizzazione terrorista votata alla conquista del mondo, è facile capire perchè le truppe dell'Hydra si dimostrano scadenti\" -- Jessica Drew",
+		"name": "Regolare dell'Hydra",
+		"text": "Incitazione 1. <i>(Quando questa carta viene rivelata, colloca 1 minaccia sulla trama principale)</i>",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04153",
+		"name": "Soldato dell'Hydra",
+		"text": "Guardia. <i>(Mentre questo gregario è impegnato con te, non puoi attaccare il criminale.)</i>\n<b>Quando Sconfitto:</b> Distribuisci 1 carta incontro al giocatore impegnato.",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04154",
+		"flavor": "Hydra Soldiers perform routine patrols to maintain control of their territory.",
+		"name": "Pattuglia dell'Hydra",
+		"text": "<b>Quando Sconfitta:</b> Ogni giocatore cerca nel mazzo degli incontri e nella pila degli incontri 1 gregario [[Hydra]] e lo mette in gioco impegnato con lui. Mescola il mazzo degli incontri."
+	}
 ]
