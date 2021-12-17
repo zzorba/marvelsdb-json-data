@@ -56,6 +56,7 @@
 		"resource_physical": 1,
 		"set_code": "warm",
 		"set_position": 1,
+		"subname": "Tony Stark",
 		"text": "<b>Response:</b> After Iron Man enters play, search your deck and discard pile for a [[tech]] upgrade and add it to your hand. Shuffle your deck.",
 		"thwart": 2,
 		"thwart_cost": 1,
@@ -98,7 +99,7 @@
 	},
 	{
 		"code": "23005",
-		"cost": 1,
+		"cost": 2,
 		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Gauntlet Gun",
@@ -231,6 +232,7 @@
 		"position": 12,
 		"quantity": 1,
 		"resource_mental": 1,
+		"subname": "T'Challa",
 		"text": "You may play the event attached to Black Panther as if it were in your hand.\n <b>Response:</b> After Black Panther enters play, choose a leadership (blue) event in your discard pile and attach it to him facedown.",
 		"thwart": 2,
 		"thwart_cost": 2,
@@ -238,10 +240,10 @@
 		"type_code": "ally"
 	},
 	{
-		"attack": 2,
+		"attack": 3,
 		"attack_cost": 2,
 		"code": "23013",
-		"cost": 3,
+		"cost": 5,
 		"deck_limit": 1,
 		"faction_code": "leadership",
 		"flavor": "",
@@ -253,6 +255,7 @@
 		"position": 13,
 		"quantity": 1,
 		"resource_energy": 1,
+		"subname": "Carol Danvers",
 		"text": "<b>Response:</b> After Captain Marvel enters play, discard the top 4 cards of your deck. If you discard a printed [energy] resource, deal 3 damage to an enemy. If you discard more than one printed [energy] resource, also stun that enemy.",
 		"thwart": 2,
 		"thwart_cost": 1,
@@ -342,7 +345,7 @@
 		"octgn_id": "fa1899f5-28bc-4396-9173-b053908d2956",
 		"pack_code": "warm",
 		"position": 20,
-		"quantity": 1
+		"quantity": 2
 	},
 	{
 		"code": "23021",
@@ -425,13 +428,13 @@
 	{
 		"code": "23033",
 		"cost": 1,
-		"deck_limit": 3,
+		"deck_limit": 2,
 		"faction_code": "justice",
 		"name": "Vigilante Training",
 		"octgn_id": "125009b3-82c1-4abe-a379-eca475f3e2ff",
 		"pack_code": "warm",
 		"position": 33,
-		"quantity": 3,
+		"quantity": 2,
 		"resource_mental": 1,
 		"text": "Max 2 per deck. Uses (2 training counters).\n <b>Alter-Ego Action</b>: Exhaust this card and remove 1 training counter from it -> choose a justice (yellow) event in your discard pile and shuffle it into your deck.",
 		"traits": "Condition.",
