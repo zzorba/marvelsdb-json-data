@@ -1,663 +1,663 @@
 [
-    {
-        "code": "01001a",
-        "flavor": "\"Solo il vostro amichevole spider-Man di quartiere!\"",
-        "name": "Spider-Man",
-        "text": "<i>Senso di Ragno</i> — <b>Interruzione</b>: Quando il criminale lancia un attacco contro di te, pesca 1 carta.",
-        "traits": "Avenger."
-    },
-    {
-        "code": "01001b",
-        "flavor": "\"Al momento, scambierei tutto quello che riguarda Spider-Man con una sedia a dondolo e un buon libro.\"",
-        "name": "Peter Parker",
-        "text": "<i>Scienziato</i> — <b>Risorsa</b>: Genera [mental]. (Limite di una volta per round.)",
-        "traits": "Genio."
-    },
-    {
-        "code": "01002",
-        "flavor": "\"Non sono un'eroina. Sono una ladra.\"",
-        "name": "Gatta Nera",
-        "text": "<b>Risposta Obbligata</b>: Dopo che hai giocato Gatta Nera, scarta 2 carte dalla cima del tuo mazzo. Aggiungi alla tua mano ogni carta con [mental] stampate scartata in questo modo.",
-        "traits": "Eroe in Vendita.",
-        "subname": "Felicia Hardy"
-    },
-    {
-        "code": "01003",
-        "flavor": "\"Ti sei allenato? Perchè mi hai quasi colpito.\" -- Spider-Man",
-        "name": "Balzo all'Indietro",
-        "text": "<b>Interruzione</b> <i>(difesa)</i>: Quando stai per subire un qualsiasi ammontare di danni da un attacco, previeni tutti quei danni.",
-        "traits": "Abilità. Difesa."
-    },
-    {
-        "code": "01004",
-        "flavor": "\"Il mio senso di ragno pizzica!\" -- Spider-Man",
-        "name": "Senso di Ragno Potenziato",
-        "text": "<b>Interruzione Eroe</b>: Quando viene rivelata una carta insidia dal mazzo degli incontri, annulla i suoi effetti \"<b>Quando Rivelata</b>\".",
-        "traits": "Superpotere."
-    },
-    {
-        "code": "01005",
-        "flavor": "\"Alla carica!\" -- Spider-Man",
-        "name": "Calcio Oscillante",
-        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 8 danni a un nemico.",
-        "traits": "Aereo. Attacco. Superpotere."
-    },
-    {
-        "code": "01006",
-        "flavor": "\"Buon dio, Peter! Sei così maldestro ultimamente.\"",
-        "name": "Zia May",
-        "text": "<b>Azione Alter Ego</b>: Esaurisci Zia May → cura 4 danni a Peter Parker.",
-        "traits": "Persona."
-    },
-    {
-        "code": "01007",
-        "name": "Ragno-Spia",
-        "text": "Assegna a un gregario.\n<b>Interruzione Obbligata</b>: Quando il gregario con questa miglioria è sconfitto, rimuovi 3 minacce da una trama.",
-        "traits": "Oggetto. Tecnologia."
-    },
-    {
-        "code": "01008",
-        "name": "Lancia-Ragnatele",
-        "text": "Utilizzo (3 gettoni ragnatela). <i>(Entra in gioco con 3 gettoni. Quando finiscono, scarta questa carta.)</i>\n<b>Risorsa Eroe</b>: Esaurisci Lancia-Ragnatele e rimuovi 1 gettone ragnatela da esso → genera [wild].",
-        "traits": "Oggetto. Tecnologia."
-    },
-    {
-        "code": "01009",
-        "name": "Intrappolato nella Tela",
-        "text": "solo sembianza eroe. Assegna a un nemico. Massimo 1 per nemico.\n<b>Interruzione Obbligata</b>: Quando il nemico con questa miglioria sta per attaccare, scarta invece Intrappolato nella Tela. Poi stordisci quel nemico.",
-        "traits": "Condizione."
-    },
-    {
-        "code": "01010a",
-        "flavor": "\"Io non mollo mai.\"",
-        "name": "Capitan Marvel",
-        "text": "Reincanalare — <b>Azione</b>: Spendi [energy] e cura 1 danno a Capitan Marvel → pesca 1 carta. (Limite di una volta per round.)",
-        "traits": "Avenger. Soldato."
-    },
-    {
-        "code": "01010b",
-        "flavor": "\"Il mio compito è proteggere la Terra e tutti quelli che ci vivono.\"",
-        "name": "Carol Danvers",
-        "text": "Comandante — <b>Azione</b>: Scegli 1 giocatore a cui far pescare 1 carta. (Limite di una volta per round.)",
-        "traits": "S.H.I.E.L.D. Soldato."
-    },
-    {
-        "code": "01011",
-        "flavor": "\"Questo è quello che volevo: aiutare gli innocenti mandando in ospedale i criminali.\"",
-        "name": "Spider-Woman",
-        "text": "<b>Risposta</b>: Dopo che Spider-Woman è entrata in gioco, confondi il criminale.",
-        "traits": "Avenger. Spia.",
-        "subname": "Jessica Drew"
-    },
-    {
-        "code": "01012",
-        "flavor": "\"Questo è uno dei disastri più notevoli che mi sia mai capitato di vedere.\" -- Carol Danvers",
-        "name": "Crisi Scongiurata",
-        "text": "<b>Azione Eroe</b> (<i>intervento</i>): Rimuovi 2 minacce da una trama. Poi, se possiedi il tratto [[Aereo]], rimuovi 2 minacce da una trama diversa.",
-        "traits": "Intervento."
-    },
-    {
-        "code": "01013",
-        "name": "Scarica Fotonica",
-        "text": "<b>Azione Eroe</b> (<i>attacco</i>): Infliggi 5 danni a un nemico. Se hai pagato questa carta usando una [energy], pesca 1 carta.",
-        "traits": "Attacco. Superpotere."
-    },
-    {
-        "code": "01014",
-        "flavor": "\"Ora basta!\" -- Capitan Marvel",
-        "name": "Assorbimento di Energia"
-    },
-    {
-        "code": "01015",
-        "flavor": "Questa stazione di bassa orbita può teletrasportare carichi e personale in arrivo e in partenza dal Triskelion.",
-        "name": "Stazione Alpha Flight",
-        "text": "<b>Azione</b>: Esaurisci Stazione Alpha Flight, scegli e scarta 1 carta dalla tua mano → pesca 1 carta (pesca invece 2 carte se sei Carol Danvers).",
-        "traits": "Luogo. S.H.I.E.L.D."
-    },
-    {
-        "code": "01016",
-        "flavor": "\"E' fighissimo!\" -- Jessica Drew",
-        "name": "Elmo di Capitan Marvel",
-        "text": "Capitan Marvel riceve +1 DIF (+2 DIF se invece possiedi il tratto [[Aereo]]).",
-        "traits": "Armatura. Tecnologia."
-    },
-    {
-        "code": "01017",
-        "name": "Volo Cosmico",
-        "text": "Capitan Marvel ottiene il tratto [[Aereo]].\n<b>Interruzione Eroe</b> (<i>difesa</i>): Quando Capitan Marvel sta per subire danni, scarta Volo Cosmico → previeni 3 di quei danni.",
-        "traits": "Superpotere."
-    },
-    {
-        "code": "01018",
-        "name": "Incalanare Energia",
-        "text": "Massimo 1 per giocatore.\n<b>Azione</b>: Spendi X [energy] → metti X gettoni energia su questa carta.\n<b>Azione Eroe</b> (<i>attacco/i>): Scarta Incalanare Energia → infliggi 2 danni a un nemico per ogni gettone energia su questa carta (fino a un massimo di 10 danni).",
-        "traits": "Superpotere."
-    },
-    {
-        "code": "01019a",
-        "flavor": "\"Sono alta due metri e color verde chiaro: la gente mi guarderà comunque, a prescindere da come mi vesto.\"",
-        "name": "She-Hulk",
-        "text": "<i>\"Ma tu qualche volta ti alleni?\"</i> — <b>Risposta</b>: Dopo che hai assunto questa sembianza, infliggi 2 danni a un nemico.",
-        "traits": "Avenger. Gamma."
-    },
-    {
-        "code": "01019b",
-        "flavor": "\"Posso diventare una Hulk ogni volta che voglio. Ma poter far qualcosa non sempre significa che vada fatto.\"",
-        "name": "Jennifer Walters",
-        "text": "<i>\"Obiezione!\"</i> — <b>Interruzione</b>: Quando 1 o più minacce stanno per essere collocate su una trama, previeni 1 di quelle minacce. (Limite di una volta per round.)",
-        "traits": "Avvocato. Gamma."
-    },
-    {
-        "code": "01020",
-        "flavor": "\"da questa parte, signori. Vi presento... Hellcat!\"",
-        "name": "Hellcat",
-        "text": "<b>Azione</b>: Rimetti Hellcat nella tua mano.",
-        "traits": "Avenger.",
-        "subname": "Patsy Walker"
-    },
-    {
-        "code": "01021",
-        "flavor": "\"Ti sei messo contro la donna sbagliata!\" -- She-Hulk",
-        "name": "Schianto Gamma",
-        "text": "<b>Azione Eroe</b> (<i>attacco</i>): Infliggi X danni a un nemico (fino a un massimo di 15 danni), dove X è l'ammontare di danni che sostieni.",
-        "traits": "Attacco. Superpotere."
-    },
-    {
-        "code": "01022",
-        "flavor": "\"Questi stivali sono fatti per calpestare.\" -- She-Hulk",
-        "name": "Pestone a Terra",
-        "text": "<b>Azione Eroe</b>: Infliggi 1 danno a ogni nemico.",
-        "traits": "Superpotere."
-    },
-    {
-        "code": "01023",
-        "flavor": "\"E' la prima volta che vedo qualcuno che tenta di sfuggire a un combattimento argomentando.\" -- Spider-Man",
-        "name": "Pratica Legale",
-        "text": "<b>Azione Alter Ego</b> (<i>intervento</i>): Scegli e scarta fino a 5 carte dalla tua mano → rimuovi 1 minaccia da una trama per ogni carta scartata in questo modo.",
-        "traits": "Abilità. Intervento."
-    },
-    {
-        "code": "01024",
-        "flavor": "\"Mai piaciuti gli uomini che chiacchierano troppo.\" -- Jennifer Walters",
-        "name": "Pugno Uno-Due",
-        "text": "<b>Risposta</b>: Dopo che hai effettuato un attacco base <i>(usando il tuo ATT)</i>, ripristina She-Hulk.",
-        "traits": "Abilità."
-    },
-    {
-        "code": "01025",
-        "flavor": "\"So qualcosina sulla rabbia. E quel tipo di furia... non se ne va senza portarsi via qualcuno.\" -- Jennifer Walters",
-        "name": "Doppia Personalità",
-        "text": "<b>Azione</b>: Cambia la tua sembianza <i>(gira la tua carta identità)</i>. Poi, pesca fino al tuo limite di mano."
-    },
-    {
-        "code": "01026",
-        "flavor": "\"Ti manderò il conto. Il mio tempo è prezioso, ultimamente.\" -- Jennifer Walters",
-        "name": "Divisione Legale Superumana",
-        "text": "<b>Azione Alter Ego</b> (<i>intervento</i>): Esaurisci Divisione Legale Superumana e spendi [mental] → rimuovi 2 minacce da una trama.",
-        "traits": "Luogo."
-    },
-    {
-        "code": "01027",
-        "name": "Ira Concentrata",
-        "text": "<b>Azione Eroe</b>: Esaurisci Ira Concentrata e subisci 1 danno → pesca 1 carta.",
-        "traits": "Abilità."
-    },
-    {
-        "code": "01028",
-        "name": "Forza Sovraumana",
-        "text": "She-Hulk riceve +2 ATT.\n<b>Risposta Obbligata</b>: Dopo che She-Hulk ha attaccato, scarta Forza Sovraumana → stordisci il nemico attaccato.",
-        "traits": "Superpotere."
-    },
-    {
-        "code": "01029a",
-        "flavor": "\"Io sono Iron Man\"",
-        "name": "Iron Man",
-        "text": "Ricevi +1 limite di mano per ogni miglioria [[Tecnologia]] che controlli (fino ad un limite di mano massimo pari a 7).",
-        "traits": "Avenger."
-    },
-    {
-        "code": "01029b",
-        "flavor": "\"E' ovvio che non lo faccio per soldi...\"",
-        "name": "Tony Stark",
-        "text": "Futurista — <b>Azione</b>: Guarda 3 carte dalla cima del tuo mazzo. Aggiungine 1 alla tua mano e scarta le altre. (Limite di una volta per round.)",
-        "traits": "Genio."
-    },
-    {
-        "code": "01030",
-        "flavor": "\"E' una guerra privata...o tutti possono partecipare?\"",
-        "name": "War Machine",
-        "text": "<b>Azione</b>: Esaurisci War Machine e infliggigli 2 danni → infliggi 1 danno ad ogni nemico.",
-        "traits": "S.H.I.E.L.D. Soldato.",
-        "subname": "James Rhodes"
-    },
-    {
-        "code": "01031",
-        "name": "Scarica Repulsiva",
-        "text": "<b>Azione Eroe</b> (<i>attacco</i>): Ingliggi 1 danno a un nemico e scarta 5 carte dalla cime dal tuo mazzo. Per ogni [energy] stampata scartata in questo modo, infliggi 2 danni aggiuntivi a quel nemico.",
-        "traits": "Attacco. Superpotere."
-    },
-    {
-        "code": "01032",
-        "flavor": "\"Bella tecnica. Ma prova a fare così...Fa molto più male\" -- Tony Stark",
-        "name": "Pugno Supersonico",
-        "text": "<b>Azione Eroe</b> (<i>attacco</i>): Infliggi 4 danni a un nemico (8 danni se possiedi il tratto [[Aereo]]).",
-        "traits": "Attacco."
-    },
-    {
-        "code": "01033",
-        "flavor": "\"Fai il tuo numero. Qui ci penso io.\"",
-        "name": "Pepper Potts",
-        "text": "<b>Risorsa</b>: Esaurisci Pepper Potts → genera le risorse della carta in cima alla tua pila degli scarti.",
-        "traits": "Persona."
-    },
-    {
-        "code": "01034",
-        "flavor": "\"Speravo in qualcosa di leggermente più grande, ma andrà bene.\" -- Tony Stark",
-        "name": "Stark Tower",
-        "text": "<b>Azione Alter Ego</b>: Esaurisci Stark Tower → scegli 1 giocatore. Quel giocatore rimette nella sua mano la prima miglioria [[Tecnologia]] dalla cima della pila degli scarti.",
-        "traits": "Luogo."
-    },
-    {
-        "code": "01035",
-        "flavor": "\"Quando indosso questa armatura, acquisisco più potere di quanto qualsiasi essere umano dovrebbe avere... e forse anche più responsabilità di quanto il mio cuore possa sopportare.\" -- Tony Stark",
-        "name": "Reattore Arc",
-        "text": "<b>Azione Eroe</b>: Esaurisci Reattore Arc → ripristina Iron Man.",
-        "traits": "Oggetto. Tecnologia."
-    },
-    {
-        "code": "01036",
-        "flavor": "\"Tutto qui!\" -- Tony Stark",
-        "name": "Armatura Mark V",
-        "text": "Ricevi +6 punti ferita.",
-        "traits": "Armatura. Tecnologia."
-    },
-    {
-        "code": "01037",
-        "flavor": "\"Tony, sei sicuro di volerlo fare?\" -- P.E.P.P.E.R.",
-        "name": "Elmo Mark V",
-        "text": "<b>Azione Eroe</b> (<i>intervento</i>): Esaurisci Elmo Mark V → rimuovi una minaccia da una trama (da ogni trama se possiedi il tratto [[Aereo]]).",
-        "traits": "Armatura. Tecnologia."
-    },
-    {
-        "code": "01038",
-        "flavor": "\"Ecco, veini, ti do...una mano.\" -- Tony Stark",
-        "name": "Guanti a Energia",
-        "text": "<b>Azione Eroe</b> (<i>attacco</i>): Esaurisci Guanti a Energia → infliggi 1 danno ad un nemico (2 danni se invece possiedi il tratto [[Aereo]]).",
-        "traits": "Armatura. Tecnologia."
-    },
-    {
-        "code": "01039",
-        "name": "Stivali a Razzo",
-        "text": "Ricevi +1 punti ferita.\n<b>Azione Eroe</b>: Esaurisci Stivali a Razzo e spendi [mental] → ottieni il tratto [[Aereo]] fino alla fine della fase.",
-        "traits": "Armatura. Tecnologia."
-    },
-    {
-        "code": "01040a",
-        "flavor": "\"Se attacchi me, attacchi il Wakanda.\"",
-        "name": "Pantera Nera",
-        "text": "Ritorsione 1. <i>(Dopo che questo personaggio è stato attaccato, infliggi 1 danno al personaggio attaccante.)</i>",
-        "traits": "Avenger. Wakanda."
-    },
-    {
-        "code": "01040b",
-        "name": "T'Challa",
-        "text": "<i>Preveggenza</i> — <b>Preparazione</b>: Cerca nel tuo mazzo 1 miglioria [[Pantera Nera]] e aggiungila alla tua mano.",
-        "traits": "Re. Wakanda."
-    },
-    {
-        "code": "01041",
-        "flavor": "\"Che fareste mai senza di me, fratello?\"",
-        "name": "Shuri",
-        "text": "<b>Risposta</b>: Dopo che Shuri è entrata in gioco, cerca nel tuo mazzo 1 miglioria e aggiungila alla tua mano. Mescola il tuo mazzo.",
-        "traits": "Genio. Wakanda."
-    },
-    {
-        "code": "01042",
-        "flavor": "\"Nel Wakanda, traiamo la nostra forza dalle conoscenze dei nostri antenati.\" -- T'Challa",
-        "name": "Conoscenze Ancestrali",
-        "text": "<b>Azione Alter Ego</b>: Scegli fino a 3 carte diverse dalla tua pila degli scarti e mescolale nel tuo mazzo."
-    },
-    {
-        "code": "01043a",
-        "name": "Wakanda per Sempre!",
-        "text": "<b>Azione Eroe</b>: Risolvi la capacità \"<b>Speciale</b>\" di ogni miglioria [[Pantera Nera]] che controlli nell'ordine che preferisci. <i>(La risoluzione di ogni capacità è un passo di questa sequenza.)</i>",
-        "traits": "Tattica."
-    },
-    {
-        "code": "01043b",
-        "name": "Wakanda per Sempre!",
-        "text": "<b>Azione Eroe</b>: Risolvi la capacità \"<b>Speciale</b>\" di ogni miglioria [[Pantera Nera]] che controlli nell'ordine che preferisci. <i>(La risoluzione di ogni capacità è un passo di questa sequenza.)</i>",
-        "traits": "Tattica."
-    },
-    {
-        "code": "01043c",
-        "name": "Wakanda per Sempre!",
-        "text": "<b>Azione Eroe</b>: Risolvi la capacità \"<b>Speciale</b>\" di ogni miglioria [[Pantera Nera]] che controlli nell'ordine che preferisci. <i>(La risoluzione di ogni capacità è un passo di questa sequenza.)</i>",
-        "traits": "Tattica."
-    },
-    {
-        "code": "01043d",
-        "name": "Wakanda per Sempre!",
-        "text": "<b>Azione Eroe</b>: Risolvi la capacità \"<b>Speciale</b>\" di ogni miglioria [[Pantera Nera]] che controlli nell'ordine che preferisci. <i>(La risoluzione di ogni capacità è un passo di questa sequenza.)</i>",
-        "traits": "Tattica."
-    },
-    {
-        "code": "01044",
-        "flavor": "\"Fin dai tempi di Bashenga, abbiamo controllato il nostro destino come ben poche altre nazioni sono riuscite a fare.\"",
-        "name": "Vibranio"
-    },
-    {
-        "code": "01045",
-        "flavor": "La capitale del Wakanda è una meraviglia architettonica e tecnologica ineguagliata.",
-        "name": "Città Dorata",
-        "text": "<b>Azione Alter Ego</b>: Esaurisci Città Dorata → pesca 2 carte.",
-        "traits": "Luogo. Wakanda."
-    },
-    {
-        "code": "01046",
-        "name": "Pugnali di Energia",
-        "text": "<b>Speciale</b>: Scegli 1 giocatore. Infliggi 1 danno al criminale e a ogni nemico impegnato con quel giocatore (2 danni se invece questo è il passo finale di questa sequenza).\n<i>(Gioca l'evento \"Wakanda per Sempre!\" per usare questa capacità.)</i>",
-        "traits": "Arma. Pantera Nera."
-    },
-    {
-        "code": "01047",
-        "name": "Artigli della Pantera",
-        "text": "<b>Speciale</b> (<i>attacco</i>): Infliggi 2 danni a un nemico (4 danni se invece questo è il passo finale di questa sequenza).\n<i>(Gioca l'evento \"Wakanda per Sempre!\" per usare questa capacità.)</i>",
-        "traits": "Arma. Pantera Nera."
-    },
-    {
-        "code": "01048",
-        "name": "Genio Tattico",
-        "text": "<b>Speciale</b> (<i>intervento</i>): Rimuovi 1 minaccia da una trama (2 minacce se invece questo è il passo finale di questa sequenza).\n<i>(Gioca l'evento \"Wakanda per Sempre!\" per usare questa capacità.)</i>",
-        "traits": "Abilità. Pantera Nera."
-    },
-    {
-        "code": "01049",
-        "name": "Tuta in Vibranio",
-        "text": "<b>Speciale</b> (<i>attacco</i>): Sposta 1 danno dal tuo eroe a un nemico (2 danni se invece questo passo è il passo finale di questa sequenza).\n<i>(Gioca l'evento \"Wakanda per Sempre!\" per usare questa capacità.)</i>",
-        "traits": "Armatura. Pantera Nera."
-    },
-    {
-        "code": "01050",
-        "name": "Hulk",
-        "text": "<b>Risposta Obbligata</b>: Dopo che Hulk ha attaccato, scarta 1 carta dalla cima del tuo mazzo. Se quella carta possiede come risorse stampate:\n[physical] - Infliggi 2 danni al nemico.\n[energy] - Ingliggi 1 danno a ogni personaggio.\n[mental] - Scarta Hulk.\n[wild] - Tutti gli effetti soprastanti.",
-        "traits": "Avenger. Gamma.",
-        "subname": "Bruce Banner"
-    },
-    {
-        "code": "01051",
-        "flavor": "\"Spiacente, niente autografi.\"",
-        "name": "Tigra",
-        "text": "<b>Risposta</b>: Dopo che Tigra ha attaccato e sconfitto un gregario, cura 1 danno a Tigra.",
-        "traits": "Avenger.",
-        "subname": "Greer Grant Nelson"
-    },
-    {
-        "code": "01052",
-        "flavor": "\"Kamala, non abbiamo un nostro tema musicale: smettila di canticchiarne uno...\" -- Captain Marvel",
-        "name": "Inseguiteli",
-        "text": "<b>Risposta</b> (<i>intervento</i>): Dopo che il tuo eroe ha attaccato e sconfitto un nemico, rimuovi 2 minacce da una trama.",
-        "traits": "Intervento."
-    },
-    {
-        "code": "01053",
-        "name": "Assalto Implacabile",
-        "text": "<b>Azione Eroe</b> (<i>attacco</i>): Infliggi 5 danni a un gregario. Se hai pagato questa carta usando  [physical], questo attacco ottiene Sopraffazione. (I danni in eccesso di questo attacco sono inflitti al <i>criminale</i>.)",
-        "traits": "Attacco."
-    },
-    {
-        "code": "01054",
-        "flavor": "SMACK!",
-        "name": "Montante",
-        "text": "<b>Azione Eroe</b> (<i>attacco</i>): Infliggi 5 danni a un nemico.",
-        "traits": "Attacco."
-    },
-    {
-        "code": "01055",
-        "name": "Potere dell'Offensiva",
-        "text": "Massimo 2 per mazzo.\nMentre paghi per una carta Offensiva <i>(rossa)</i>, raddoppia il numero di risorse generate da questa carta."
-    },
-    {
-        "code": "01056",
-        "name": "Squadra Tattica",
-        "text": "Utilizzo (3 gettoni attacco). <i>(Entra in gioco con 3 gettoni. Quando finiscono, scarta questa carta.)</i>\n<b>Azione</b>: Esaurisci Squadra Tattica e rimuovi 1 gettone da essa → infliggi 2 danni a un nemico.",
-        "traits": "S.H.I.E.L.D."
-    },
-    {
-        "code": "01057",
-        "flavor": "\"Tony! She did it again!\" -- Janet Van Dyne",
-        "name": "Arte del Combattimento",
-        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\nIl tuo eroe riceve +1 ATT.",
-        "traits": "Abilità."
-    },
-    {
-        "code": "01058",
-        "flavor": "\"A volte penso di ottenere più risultati con i miei pugni che col mio studio legale.\"",
-        "name": "Daredevil",
-        "text": "<b>Risposta</b>: Dopo che Daredevil è intervenuto, infliggi 1 danno a un nemico.",
-        "traits": "Defender.",
-        "subname": "Matt Murdock"
-    },
-    {
-        "code": "01059",
-        "flavor": "\"Sono molto brava a trovare la gente.\"",
-        "name": "Jessica Jones",
-        "text": "Jessica Jones riceve +1 INT per ogni trama secondaria in gioco.",
-        "traits": "Defender."
-    },
-    {
-        "code": "01060",
-        "flavor": "\"Hai perso. E dovrai rispondere di quello che hai fatto.\" -- Capitan America",
-        "name": "Per la Giustizia!",
-        "text": "<b>Azione Eroe</b> (<i>interveento</i>): rimuovi 3 minacce da una trama (rimuovi invece 4 minacce se hai pagato questa carta usando una [mental]).",
-        "traits": "Intervento."
-    },
-    {
-        "code": "01061",
-        "name": "Grandi Responsabilità",
-        "text": "<b>Interruzione Eroe</b>: Quando un qualsiasi ammontare di minacce sta per essere collocato su una trama, subisci invece un pari ammontare di danni."
-    },
-    {
-        "code": "01062",
-        "name": "Potere della Giustizia",
-        "text": "Massimo 2 per mazzo.\nMentre paghi per una carta Giustizia <i>(gialla)</i>, raddoppia il numero di risorse generate da questa carta."
-    },
-    {
-        "code": "01063",
-        "flavor": "\"Oh, le dispiace tanto! Aspetta, vado a prendere le chiavi e ti chiamo un taxi!\" -- Misty Knight",
-        "name": "Sala Interrogatori",
-        "text": "Massimo 1 per giocatore.\n<b>Risposta</b>: Dopo che hai sconfitto un gregario, esaurisci Sala Interrogatori → rimuovi 1 minaccia da una trama.",
-        "traits": "Luogo."
-    },
-    {
-        "code": "01064",
-        "name": "Squadra di Sorveglianza",
-        "text": "Utilizzo (3 gettoni pedinamento). <i>(Entra in gioco con 3 gettoni. Quando finiscono, scarta questa carta)</i>\n<b>Azione</b>: Esaurisci Squadra di Sorveglianza e rimuovi 1 gettone pedinamento da essa → rimuovi 1 minaccia da una trama.",
-        "traits": "S.H.I.E.L.D."
-    },
-    {
-        "code": "01065",
-        "name": "Intuizione Eroica",
-        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\nIl tuo eroe riceve +1 INT.",
-        "traits": "Abilità."
-    },
-    {
-        "code": "01066",
-        "name": "Occhio di Falco",
-        "text": "Occhio di Falco entra in gioco con 4 gettoni freccia.\n<b>Risposta</b>: Dopo che un gregario è entrato in gioco, rimuovi 1 gettone freccia da Occhio di Falco → infliggi 2 danni a quel gregario.",
-        "traits": "Avenger.",
-        "subname": "Clint Barton"
-    },
-    {
-        "code": "01067",
-        "flavor": "\"Che tu ci creda o no, qui vogliamo tutti la stessa cosa.\"",
-        "name": "Maria Hill",
-        "text": "<b>Risposta</b>: Dopo che Maria Hill è entrata in gioco, ogni giocatore pesca 1 carta.",
-        "traits": "S.H.I.E.L.D."
-    },
-    {
-        "code": "01068",
-        "flavor": "\"Me ne occupo io.\"",
-        "name": "Visione",
-        "text": "<b>Azione</b>: Spendi [energy] → scegli INT o ATT. Fino alla fine della fase, Visione riceve +2 al potere scelto. (Limite di una volta per round.)",
-        "traits": "Androide. Avenger."
-    },
-    {
-        "code": "01069",
-        "flavor": "\"Ci addestriamo duramente ogni giorno per essere pronti quando verrà il momento di agire\" -- Steve Rogers",
-        "name": "Preparatevi",
-        "text": "<b>Azione</b>: Ripristina un alleato."
-    },
-    {
-        "code": "01070",
-        "flavor": "\"Avanziamo, tutti insieme!\" -- Carol Danvers",
-        "name": "Comando in Prima Linea",
-        "text": "<b>Azione Eroe</b>: Scegli 1 giocatore. Ogni personaggio controllato da quel giocatore riceve +1 INT e + 1 ATT fino alla fine della fase.",
-        "traits": "Tattica."
-    },
-    {
-        "code": "01071",
-        "flavor": "\"Questo è un codice rosso! Tutti gli uomini sul ponte!\" -- Maria Hill",
-        "name": "Segnale di Adunata",
-        "text": "<b>Azione</b>: Paga il costo stampato di 1 alleato nella pila degli scarti di un qualsiasi giocatore → metti in gioco quell'alleato sotto il tuo controllo."
-    },
-    {
-        "code": "01072",
-        "name": "Potere dell'Autorità",
-        "text": "Massimo 2 per mazzo.\nMentre paghi per una carta Autorità <i>(blue)</i>, raddoppia il numero di risorse generate da questa carta."
-    },
-    {
-        "code": "01073",
-        "flavor": "\"Pensi che l'abbiano fatto abbastanza alto?\" -- She-Hulk",
-        "name": "Triskelion",
-        "text": "Aumenta di 1 il tuo limite di alleati. <i>(Questo ti consente di controllare più di 3 alleati.)</i>",
-        "traits": "Luogo. S.H.I.E.L.D."
-    },
-    {
-        "code": "01074",
-        "flavor": "\"Meno male che sta dalla nostra parte.\" -- Star-Lord",
-        "name": "Ispirato",
-        "text": "Assegna Ispirato a un alleato. Massimo 1 per alleato.\nL'alleato con questa miglioria riceve +1 INT e +1 ATT.",
-        "traits": "Condizione."
-    },
-    {
-        "code": "01075",
-        "name": "Vedova Nera",
-        "text": "<b>Interruzione</b>: Quando viene rivelata una carta dal mazzo degli incontri, esaurisci Vedova Nera e spendi [mental] → annulla gli effetti di quella carta e scartala, poi rivela 1 altra carta dal mazzo degli incontri.",
-        "traits": "S.H.I.E.L.D. Spia.",
-        "subname": "Natasha Romanoff"
-    },
-    {
-        "code": "01076",
-        "flavor": "\"Qui Cage, Power Man a pagamento.\"",
-        "name": "Luke Cage",
-        "text": "Robustezza. <i>(Questo personaggio entra in gioco con 1 carta status Robusto.)</i>",
-        "traits": "Defender."
-    },
-    {
-        "code": "01077",
-        "flavor": "\"Questo è quello che ti meriti!\" -- Iron Fist",
-        "name": "Pugno di Reazione",
-        "text": "<b>Risposta</b> (<i>attacco</i>): Dopo che il tuo eroe ha difeso da un attacco nemico, infliggi a quel nemico un ammontare di danni pari all'ATT del tuo eroe.",
-        "traits": "Attacco."
-    },
-    {
-        "code": "01078",
-        "flavor": "\"Ahem! Fatevi da parte, cittadini!\" -- Ms. Marvel",
-        "name": "Dietro di Me!",
-        "text": "<b>Interruzione Eroe</b>: Quando viene rivelata una carta insidia dal mazzo degli incontri, annulla i suoi effetti \"<b>Quando Rivelata</b>\". Invece, il criminale ti attacca."
-    },
-    {
-        "code": "01079",
-        "name": "Potere della Protezione",
-        "text": "Massimo 2 per mazzo.\nMentre paghi per una carta Protezione <i>(verde)</i>, raddoppia il numero di risorse generate da questa carta."
-    },
-    {
-        "code": "01080",
-        "name": "Squadra Medica",
-        "text": "Utilizzo (3 gettoni medico). <i>(Entra in gioco con 3 gettoni. Quando finiscono, scarta questa carta.)</i>\n<b>Azione</b>: Esaurisci Squadra Medica e rimuovi 1 gettone medico da essa → cura 2 danni a un personaggio amico.",
-        "traits": "S.H.I.E.L.D."
-    },
-    {
-        "code": "01081",
-        "flavor": "Ti salva la vita con stile.",
-        "name": "Giubbotto Corazzato",
-        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\nIl tuo eroe riceve + 1 DIF. ",
-        "traits": "Armatura."
-    },
-    {
-        "code": "01082",
-        "flavor": "\"Non abbiamo scelta. Quindi combattiamo... e vinciamo. Non ci sono altre opzioni.\" -- Capitan America",
-        "name": "Indomito",
-        "text": "<b>Risposta</b>: Dopo che il tuo eroe ha difeso, scarta Indomito → ripristina il tuo eroe.",
-        "traits": "Condizione."
-    },
-    {
-        "code": "01083",
-        "name": "Mimo",
-        "text": "<b>Risposta</b>: Dopo che Mimo è entrata in gioco, stordisci 1 nemico.",
-        "traits": "S.H.I.E.L.D. Spia.",
-        "subname": "Bobbi Morse"
-    },
-    {
-        "code": "01084",
-        "name": "Nick Fury",
-        "text": "<b>Risposta Obbligata</b>: Dopo che Nick Fury è entrato in gioco, scegli 1 effetto tra: rimuovi 2 minacce da una trama; pesca 3 carte; infliggi 4 danni a un nemico. Alla fine del round, se Nick Fury è ancora in gioco, scartalo.",
-        "traits": "S.H.I.E.L.D. Spia."
-    },
-    {
-        "code": "01085",
-        "flavor": "\"A TUTTE LE UNITA'! RIPETO, A TUTTE LE UNITA'!\"",
-        "name": "Emergenza",
-        "text": "<b>Interruzione</b> (<i>intervento</i>): Quando il criminale trama, riduci di 1 l'ammontare di minacce collocate sulla trama.",
-        "traits": "Intervento."
-    },
-    {
-        "code": "01086",
-        "flavor": "\"E' comunque considerato pronto soccorso se è già il tuo secondo giorno in ospedale?\" -- Clint Barton",
-        "name": "Pronto Soccorso",
-        "text": "<b>Azione</b>: Cura 2 danni a un personaggio."
-    },
-    {
-        "code": "01087",
-        "flavor": "WHAM!",
-        "name": "Pugno Feroce",
-        "text": "<b>Azione Eroe</b> (<i>attacco</i>): Infliggi 3 danni a un nemico.",
-        "traits": "Attacco."
-    },
-    {
-        "code": "01088",
-        "name": "Energia",
-        "text": "Massimo 1 per mazzo"
-    },
-    {
-        "code": "01089",
-        "name": "Genialità",
-        "text": "Massimo 1 per mazzo"
-    },
-    {
-        "code": "01090",
-        "name": "Forza",
-        "text": "Massimo 1 per mazzo"
-    },
-    {
-        "code": "01091",
-        "flavor": "\"Ti sei ricordato di spegnere la stufa?\" -- Janet Van Dyne",
-        "name": "Palazzo degli Avengers",
-        "text": "Massimo 1 per giocatore.\n<b>Azione</b>: Esaurisci Palazzo degli Avengers → scegli 1 giocatore. quel giocatore pesca 1 carta.",
-        "traits": "Avenger. Luogo."
-    },
-    {
-        "code": "01092",
-        "flavor": "\"Una portaerei volante? State scherzando, vero?\" -- Jennifer Walters",
-        "name": "Eliveivolo",
-        "text": "Massimo 1 per giocatore.\n<b>Azione</b>: Esaurisci Eliveivolo → scegli 1 giocatore. Riduci il costo in risorse della prossima carta che quel giocatore gioca in questa fase.",
-        "traits": "Luogo. S.H.I.E.L.D."
-    },
-    {
-        "code": "01093",
-        "name": "Tenacia",
-        "text": "<b>Azione Eroe</b>:Spendi [physical] e scarta questa carta → ripristina il tuo eroe.",
-        "traits": "Condizione."
-    }
+	{
+		"code": "01001a",
+		"flavor": "\"Solo il vostro amichevole spider-Man di quartiere!\"",
+		"name": "Spider-Man",
+		"text": "<i>Senso di Ragno</i> — <b>Interruzione</b>: Quando il criminale lancia un attacco contro di te, pesca 1 carta.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "01001b",
+		"flavor": "\"Al momento, scambierei tutto quello che riguarda Spider-Man con una sedia a dondolo e un buon libro.\"",
+		"name": "Peter Parker",
+		"text": "<i>Scienziato</i> — <b>Risorsa</b>: Genera [mental]. (Limite di una volta per round.)",
+		"traits": "Genio."
+	},
+	{
+		"code": "01002",
+		"flavor": "\"Non sono un'eroina. Sono una ladra.\"",
+		"name": "Gatta Nera",
+		"subname": "Felicia Hardy",
+		"text": "<b>Risposta Obbligata</b>: Dopo che hai giocato Gatta Nera, scarta 2 carte dalla cima del tuo mazzo. Aggiungi alla tua mano ogni carta con [mental] stampate scartata in questo modo.",
+		"traits": "Eroe in Vendita."
+	},
+	{
+		"code": "01003",
+		"flavor": "\"Ti sei allenato? Perchè mi hai quasi colpito.\" -- Spider-Man",
+		"name": "Balzo all'Indietro",
+		"text": "<b>Interruzione</b> <i>(difesa)</i>: Quando stai per subire un qualsiasi ammontare di danni da un attacco, previeni tutti quei danni.",
+		"traits": "Abilità. Difesa."
+	},
+	{
+		"code": "01004",
+		"flavor": "\"Il mio senso di ragno pizzica!\" -- Spider-Man",
+		"name": "Senso di Ragno Potenziato",
+		"text": "<b>Interruzione Eroe</b>: Quando viene rivelata una carta insidia dal mazzo degli incontri, annulla i suoi effetti \"<b>Quando Rivelata</b>\".",
+		"traits": "Superpotere."
+	},
+	{
+		"code": "01005",
+		"flavor": "\"Alla carica!\" -- Spider-Man",
+		"name": "Calcio Oscillante",
+		"text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 8 danni a un nemico.",
+		"traits": "Aereo. Attacco. Superpotere."
+	},
+	{
+		"code": "01006",
+		"flavor": "\"Buon dio, Peter! Sei così maldestro ultimamente.\"",
+		"name": "Zia May",
+		"text": "<b>Azione Alter Ego</b>: Esaurisci Zia May → cura 4 danni a Peter Parker.",
+		"traits": "Persona."
+	},
+	{
+		"code": "01007",
+		"name": "Ragno-Spia",
+		"text": "Assegna a un gregario.\n<b>Interruzione Obbligata</b>: Quando il gregario con questa miglioria è sconfitto, rimuovi 3 minacce da una trama.",
+		"traits": "Oggetto. Tecnologia."
+	},
+	{
+		"code": "01008",
+		"name": "Lancia-Ragnatele",
+		"text": "Utilizzo (3 gettoni ragnatela). <i>(Entra in gioco con 3 gettoni. Quando finiscono, scarta questa carta.)</i>\n<b>Risorsa Eroe</b>: Esaurisci Lancia-Ragnatele e rimuovi 1 gettone ragnatela da esso → genera [wild].",
+		"traits": "Oggetto. Tecnologia."
+	},
+	{
+		"code": "01009",
+		"name": "Intrappolato nella Tela",
+		"text": "solo sembianza eroe. Assegna a un nemico. Massimo 1 per nemico.\n<b>Interruzione Obbligata</b>: Quando il nemico con questa miglioria sta per attaccare, scarta invece Intrappolato nella Tela. Poi stordisci quel nemico.",
+		"traits": "Condizione."
+	},
+	{
+		"code": "01010a",
+		"flavor": "\"Io non mollo mai.\"",
+		"name": "Capitan Marvel",
+		"text": "Reincanalare — <b>Azione</b>: Spendi [energy] e cura 1 danno a Capitan Marvel → pesca 1 carta. (Limite di una volta per round.)",
+		"traits": "Avenger. Soldato."
+	},
+	{
+		"code": "01010b",
+		"flavor": "\"Il mio compito è proteggere la Terra e tutti quelli che ci vivono.\"",
+		"name": "Carol Danvers",
+		"text": "Comandante — <b>Azione</b>: Scegli 1 giocatore a cui far pescare 1 carta. (Limite di una volta per round.)",
+		"traits": "S.H.I.E.L.D. Soldato."
+	},
+	{
+		"code": "01011",
+		"flavor": "\"Questo è quello che volevo: aiutare gli innocenti mandando in ospedale i criminali.\"",
+		"name": "Spider-Woman",
+		"subname": "Jessica Drew",
+		"text": "<b>Risposta</b>: Dopo che Spider-Woman è entrata in gioco, confondi il criminale.",
+		"traits": "Avenger. Spia."
+	},
+	{
+		"code": "01012",
+		"flavor": "\"Questo è uno dei disastri più notevoli che mi sia mai capitato di vedere.\" -- Carol Danvers",
+		"name": "Crisi Scongiurata",
+		"text": "<b>Azione Eroe</b> (<i>intervento</i>): Rimuovi 2 minacce da una trama. Poi, se possiedi il tratto [[Aereo]], rimuovi 2 minacce da una trama diversa.",
+		"traits": "Intervento."
+	},
+	{
+		"code": "01013",
+		"name": "Scarica Fotonica",
+		"text": "<b>Azione Eroe</b> (<i>attacco</i>): Infliggi 5 danni a un nemico. Se hai pagato questa carta usando una [energy], pesca 1 carta.",
+		"traits": "Attacco. Superpotere."
+	},
+	{
+		"code": "01014",
+		"flavor": "\"Ora basta!\" -- Capitan Marvel",
+		"name": "Assorbimento di Energia"
+	},
+	{
+		"code": "01015",
+		"flavor": "Questa stazione di bassa orbita può teletrasportare carichi e personale in arrivo e in partenza dal Triskelion.",
+		"name": "Stazione Alpha Flight",
+		"text": "<b>Azione</b>: Esaurisci Stazione Alpha Flight, scegli e scarta 1 carta dalla tua mano → pesca 1 carta (pesca invece 2 carte se sei Carol Danvers).",
+		"traits": "Luogo. S.H.I.E.L.D."
+	},
+	{
+		"code": "01016",
+		"flavor": "\"E' fighissimo!\" -- Jessica Drew",
+		"name": "Elmo di Capitan Marvel",
+		"text": "Capitan Marvel riceve +1 DIF (+2 DIF se invece possiedi il tratto [[Aereo]]).",
+		"traits": "Armatura. Tecnologia."
+	},
+	{
+		"code": "01017",
+		"name": "Volo Cosmico",
+		"text": "Capitan Marvel ottiene il tratto [[Aereo]].\n<b>Interruzione Eroe</b> (<i>difesa</i>): Quando Capitan Marvel sta per subire danni, scarta Volo Cosmico → previeni 3 di quei danni.",
+		"traits": "Superpotere."
+	},
+	{
+		"code": "01018",
+		"name": "Incalanare Energia",
+		"text": "Massimo 1 per giocatore.\n<b>Azione</b>: Spendi X [energy] → metti X gettoni energia su questa carta.\n<b>Azione Eroe</b> (<i>attacco/i>): Scarta Incalanare Energia → infliggi 2 danni a un nemico per ogni gettone energia su questa carta (fino a un massimo di 10 danni).",
+		"traits": "Superpotere."
+	},
+	{
+		"code": "01019a",
+		"flavor": "\"Sono alta due metri e color verde chiaro: la gente mi guarderà comunque, a prescindere da come mi vesto.\"",
+		"name": "She-Hulk",
+		"text": "<i>\"Ma tu qualche volta ti alleni?\"</i> — <b>Risposta</b>: Dopo che hai assunto questa sembianza, infliggi 2 danni a un nemico.",
+		"traits": "Avenger. Gamma."
+	},
+	{
+		"code": "01019b",
+		"flavor": "\"Posso diventare una Hulk ogni volta che voglio. Ma poter far qualcosa non sempre significa che vada fatto.\"",
+		"name": "Jennifer Walters",
+		"text": "<i>\"Obiezione!\"</i> — <b>Interruzione</b>: Quando 1 o più minacce stanno per essere collocate su una trama, previeni 1 di quelle minacce. (Limite di una volta per round.)",
+		"traits": "Avvocato. Gamma."
+	},
+	{
+		"code": "01020",
+		"flavor": "\"da questa parte, signori. Vi presento... Hellcat!\"",
+		"name": "Hellcat",
+		"subname": "Patsy Walker",
+		"text": "<b>Azione</b>: Rimetti Hellcat nella tua mano.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "01021",
+		"flavor": "\"Ti sei messo contro la donna sbagliata!\" -- She-Hulk",
+		"name": "Schianto Gamma",
+		"text": "<b>Azione Eroe</b> (<i>attacco</i>): Infliggi X danni a un nemico (fino a un massimo di 15 danni), dove X è l'ammontare di danni che sostieni.",
+		"traits": "Attacco. Superpotere."
+	},
+	{
+		"code": "01022",
+		"flavor": "\"Questi stivali sono fatti per calpestare.\" -- She-Hulk",
+		"name": "Pestone a Terra",
+		"text": "<b>Azione Eroe</b>: Infliggi 1 danno a ogni nemico.",
+		"traits": "Superpotere."
+	},
+	{
+		"code": "01023",
+		"flavor": "\"E' la prima volta che vedo qualcuno che tenta di sfuggire a un combattimento argomentando.\" -- Spider-Man",
+		"name": "Pratica Legale",
+		"text": "<b>Azione Alter Ego</b> (<i>intervento</i>): Scegli e scarta fino a 5 carte dalla tua mano → rimuovi 1 minaccia da una trama per ogni carta scartata in questo modo.",
+		"traits": "Abilità. Intervento."
+	},
+	{
+		"code": "01024",
+		"flavor": "\"Mai piaciuti gli uomini che chiacchierano troppo.\" -- Jennifer Walters",
+		"name": "Pugno Uno-Due",
+		"text": "<b>Risposta</b>: Dopo che hai effettuato un attacco base <i>(usando il tuo ATT)</i>, ripristina She-Hulk.",
+		"traits": "Abilità."
+	},
+	{
+		"code": "01025",
+		"flavor": "\"So qualcosina sulla rabbia. E quel tipo di furia... non se ne va senza portarsi via qualcuno.\" -- Jennifer Walters",
+		"name": "Doppia Personalità",
+		"text": "<b>Azione</b>: Cambia la tua sembianza <i>(gira la tua carta identità)</i>. Poi, pesca fino al tuo limite di mano."
+	},
+	{
+		"code": "01026",
+		"flavor": "\"Ti manderò il conto. Il mio tempo è prezioso, ultimamente.\" -- Jennifer Walters",
+		"name": "Divisione Legale Superumana",
+		"text": "<b>Azione Alter Ego</b> (<i>intervento</i>): Esaurisci Divisione Legale Superumana e spendi [mental] → rimuovi 2 minacce da una trama.",
+		"traits": "Luogo."
+	},
+	{
+		"code": "01027",
+		"name": "Ira Concentrata",
+		"text": "<b>Azione Eroe</b>: Esaurisci Ira Concentrata e subisci 1 danno → pesca 1 carta.",
+		"traits": "Abilità."
+	},
+	{
+		"code": "01028",
+		"name": "Forza Sovraumana",
+		"text": "She-Hulk riceve +2 ATT.\n<b>Risposta Obbligata</b>: Dopo che She-Hulk ha attaccato, scarta Forza Sovraumana → stordisci il nemico attaccato.",
+		"traits": "Superpotere."
+	},
+	{
+		"code": "01029a",
+		"flavor": "\"Io sono Iron Man\"",
+		"name": "Iron Man",
+		"text": "Ricevi +1 limite di mano per ogni miglioria [[Tecnologia]] che controlli (fino ad un limite di mano massimo pari a 7).",
+		"traits": "Avenger."
+	},
+	{
+		"code": "01029b",
+		"flavor": "\"E' ovvio che non lo faccio per soldi...\"",
+		"name": "Tony Stark",
+		"text": "Futurista — <b>Azione</b>: Guarda 3 carte dalla cima del tuo mazzo. Aggiungine 1 alla tua mano e scarta le altre. (Limite di una volta per round.)",
+		"traits": "Genio."
+	},
+	{
+		"code": "01030",
+		"flavor": "\"E' una guerra privata...o tutti possono partecipare?\"",
+		"name": "War Machine",
+		"subname": "James Rhodes",
+		"text": "<b>Azione</b>: Esaurisci War Machine e infliggigli 2 danni → infliggi 1 danno ad ogni nemico.",
+		"traits": "S.H.I.E.L.D. Soldato."
+	},
+	{
+		"code": "01031",
+		"name": "Scarica Repulsiva",
+		"text": "<b>Azione Eroe</b> (<i>attacco</i>): Ingliggi 1 danno a un nemico e scarta 5 carte dalla cime dal tuo mazzo. Per ogni [energy] stampata scartata in questo modo, infliggi 2 danni aggiuntivi a quel nemico.",
+		"traits": "Attacco. Superpotere."
+	},
+	{
+		"code": "01032",
+		"flavor": "\"Bella tecnica. Ma prova a fare così...Fa molto più male\" -- Tony Stark",
+		"name": "Pugno Supersonico",
+		"text": "<b>Azione Eroe</b> (<i>attacco</i>): Infliggi 4 danni a un nemico (8 danni se possiedi il tratto [[Aereo]]).",
+		"traits": "Attacco."
+	},
+	{
+		"code": "01033",
+		"flavor": "\"Fai il tuo numero. Qui ci penso io.\"",
+		"name": "Pepper Potts",
+		"text": "<b>Risorsa</b>: Esaurisci Pepper Potts → genera le risorse della carta in cima alla tua pila degli scarti.",
+		"traits": "Persona."
+	},
+	{
+		"code": "01034",
+		"flavor": "\"Speravo in qualcosa di leggermente più grande, ma andrà bene.\" -- Tony Stark",
+		"name": "Stark Tower",
+		"text": "<b>Azione Alter Ego</b>: Esaurisci Stark Tower → scegli 1 giocatore. Quel giocatore rimette nella sua mano la prima miglioria [[Tecnologia]] dalla cima della pila degli scarti.",
+		"traits": "Luogo."
+	},
+	{
+		"code": "01035",
+		"flavor": "\"Quando indosso questa armatura, acquisisco più potere di quanto qualsiasi essere umano dovrebbe avere... e forse anche più responsabilità di quanto il mio cuore possa sopportare.\" -- Tony Stark",
+		"name": "Reattore Arc",
+		"text": "<b>Azione Eroe</b>: Esaurisci Reattore Arc → ripristina Iron Man.",
+		"traits": "Oggetto. Tecnologia."
+	},
+	{
+		"code": "01036",
+		"flavor": "\"Tutto qui!\" -- Tony Stark",
+		"name": "Armatura Mark V",
+		"text": "Ricevi +6 punti ferita.",
+		"traits": "Armatura. Tecnologia."
+	},
+	{
+		"code": "01037",
+		"flavor": "\"Tony, sei sicuro di volerlo fare?\" -- P.E.P.P.E.R.",
+		"name": "Elmo Mark V",
+		"text": "<b>Azione Eroe</b> (<i>intervento</i>): Esaurisci Elmo Mark V → rimuovi una minaccia da una trama (da ogni trama se possiedi il tratto [[Aereo]]).",
+		"traits": "Armatura. Tecnologia."
+	},
+	{
+		"code": "01038",
+		"flavor": "\"Ecco, veini, ti do...una mano.\" -- Tony Stark",
+		"name": "Guanti a Energia",
+		"text": "<b>Azione Eroe</b> (<i>attacco</i>): Esaurisci Guanti a Energia → infliggi 1 danno ad un nemico (2 danni se invece possiedi il tratto [[Aereo]]).",
+		"traits": "Armatura. Tecnologia."
+	},
+	{
+		"code": "01039",
+		"name": "Stivali a Razzo",
+		"text": "Ricevi +1 punti ferita.\n<b>Azione Eroe</b>: Esaurisci Stivali a Razzo e spendi [mental] → ottieni il tratto [[Aereo]] fino alla fine della fase.",
+		"traits": "Armatura. Tecnologia."
+	},
+	{
+		"code": "01040a",
+		"flavor": "\"Se attacchi me, attacchi il Wakanda.\"",
+		"name": "Pantera Nera",
+		"text": "Ritorsione 1. <i>(Dopo che questo personaggio è stato attaccato, infliggi 1 danno al personaggio attaccante.)</i>",
+		"traits": "Avenger. Wakanda."
+	},
+	{
+		"code": "01040b",
+		"name": "T'Challa",
+		"text": "<i>Preveggenza</i> — <b>Preparazione</b>: Cerca nel tuo mazzo 1 miglioria [[Pantera Nera]] e aggiungila alla tua mano.",
+		"traits": "Re. Wakanda."
+	},
+	{
+		"code": "01041",
+		"flavor": "\"Che fareste mai senza di me, fratello?\"",
+		"name": "Shuri",
+		"text": "<b>Risposta</b>: Dopo che Shuri è entrata in gioco, cerca nel tuo mazzo 1 miglioria e aggiungila alla tua mano. Mescola il tuo mazzo.",
+		"traits": "Genio. Wakanda."
+	},
+	{
+		"code": "01042",
+		"flavor": "\"Nel Wakanda, traiamo la nostra forza dalle conoscenze dei nostri antenati.\" -- T'Challa",
+		"name": "Conoscenze Ancestrali",
+		"text": "<b>Azione Alter Ego</b>: Scegli fino a 3 carte diverse dalla tua pila degli scarti e mescolale nel tuo mazzo."
+	},
+	{
+		"code": "01043a",
+		"name": "Wakanda per Sempre!",
+		"text": "<b>Azione Eroe</b>: Risolvi la capacità \"<b>Speciale</b>\" di ogni miglioria [[Pantera Nera]] che controlli nell'ordine che preferisci. <i>(La risoluzione di ogni capacità è un passo di questa sequenza.)</i>",
+		"traits": "Tattica."
+	},
+	{
+		"code": "01043b",
+		"name": "Wakanda per Sempre!",
+		"text": "<b>Azione Eroe</b>: Risolvi la capacità \"<b>Speciale</b>\" di ogni miglioria [[Pantera Nera]] che controlli nell'ordine che preferisci. <i>(La risoluzione di ogni capacità è un passo di questa sequenza.)</i>",
+		"traits": "Tattica."
+	},
+	{
+		"code": "01043c",
+		"name": "Wakanda per Sempre!",
+		"text": "<b>Azione Eroe</b>: Risolvi la capacità \"<b>Speciale</b>\" di ogni miglioria [[Pantera Nera]] che controlli nell'ordine che preferisci. <i>(La risoluzione di ogni capacità è un passo di questa sequenza.)</i>",
+		"traits": "Tattica."
+	},
+	{
+		"code": "01043d",
+		"name": "Wakanda per Sempre!",
+		"text": "<b>Azione Eroe</b>: Risolvi la capacità \"<b>Speciale</b>\" di ogni miglioria [[Pantera Nera]] che controlli nell'ordine che preferisci. <i>(La risoluzione di ogni capacità è un passo di questa sequenza.)</i>",
+		"traits": "Tattica."
+	},
+	{
+		"code": "01044",
+		"flavor": "\"Fin dai tempi di Bashenga, abbiamo controllato il nostro destino come ben poche altre nazioni sono riuscite a fare.\"",
+		"name": "Vibranio"
+	},
+	{
+		"code": "01045",
+		"flavor": "La capitale del Wakanda è una meraviglia architettonica e tecnologica ineguagliata.",
+		"name": "Città Dorata",
+		"text": "<b>Azione Alter Ego</b>: Esaurisci Città Dorata → pesca 2 carte.",
+		"traits": "Luogo. Wakanda."
+	},
+	{
+		"code": "01046",
+		"name": "Pugnali di Energia",
+		"text": "<b>Speciale</b>: Scegli 1 giocatore. Infliggi 1 danno al criminale e a ogni nemico impegnato con quel giocatore (2 danni se invece questo è il passo finale di questa sequenza).\n<i>(Gioca l'evento \"Wakanda per Sempre!\" per usare questa capacità.)</i>",
+		"traits": "Arma. Pantera Nera."
+	},
+	{
+		"code": "01047",
+		"name": "Artigli della Pantera",
+		"text": "<b>Speciale</b> (<i>attacco</i>): Infliggi 2 danni a un nemico (4 danni se invece questo è il passo finale di questa sequenza).\n<i>(Gioca l'evento \"Wakanda per Sempre!\" per usare questa capacità.)</i>",
+		"traits": "Arma. Pantera Nera."
+	},
+	{
+		"code": "01048",
+		"name": "Genio Tattico",
+		"text": "<b>Speciale</b> (<i>intervento</i>): Rimuovi 1 minaccia da una trama (2 minacce se invece questo è il passo finale di questa sequenza).\n<i>(Gioca l'evento \"Wakanda per Sempre!\" per usare questa capacità.)</i>",
+		"traits": "Abilità. Pantera Nera."
+	},
+	{
+		"code": "01049",
+		"name": "Tuta in Vibranio",
+		"text": "<b>Speciale</b> (<i>attacco</i>): Sposta 1 danno dal tuo eroe a un nemico (2 danni se invece questo passo è il passo finale di questa sequenza).\n<i>(Gioca l'evento \"Wakanda per Sempre!\" per usare questa capacità.)</i>",
+		"traits": "Armatura. Pantera Nera."
+	},
+	{
+		"code": "01050",
+		"name": "Hulk",
+		"subname": "Bruce Banner",
+		"text": "<b>Risposta Obbligata</b>: Dopo che Hulk ha attaccato, scarta 1 carta dalla cima del tuo mazzo. Se quella carta possiede come risorse stampate:\n[physical] - Infliggi 2 danni al nemico.\n[energy] - Ingliggi 1 danno a ogni personaggio.\n[mental] - Scarta Hulk.\n[wild] - Tutti gli effetti soprastanti.",
+		"traits": "Avenger. Gamma."
+	},
+	{
+		"code": "01051",
+		"flavor": "\"Spiacente, niente autografi.\"",
+		"name": "Tigra",
+		"subname": "Greer Grant Nelson",
+		"text": "<b>Risposta</b>: Dopo che Tigra ha attaccato e sconfitto un gregario, cura 1 danno a Tigra.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "01052",
+		"flavor": "\"Kamala, non abbiamo un nostro tema musicale: smettila di canticchiarne uno...\" -- Captain Marvel",
+		"name": "Inseguiteli",
+		"text": "<b>Risposta</b> (<i>intervento</i>): Dopo che il tuo eroe ha attaccato e sconfitto un nemico, rimuovi 2 minacce da una trama.",
+		"traits": "Intervento."
+	},
+	{
+		"code": "01053",
+		"name": "Assalto Implacabile",
+		"text": "<b>Azione Eroe</b> (<i>attacco</i>): Infliggi 5 danni a un gregario. Se hai pagato questa carta usando  [physical], questo attacco ottiene Sopraffazione. (I danni in eccesso di questo attacco sono inflitti al <i>criminale</i>.)",
+		"traits": "Attacco."
+	},
+	{
+		"code": "01054",
+		"flavor": "SMACK!",
+		"name": "Montante",
+		"text": "<b>Azione Eroe</b> (<i>attacco</i>): Infliggi 5 danni a un nemico.",
+		"traits": "Attacco."
+	},
+	{
+		"code": "01055",
+		"name": "Potere dell'Offensiva",
+		"text": "Massimo 2 per mazzo.\nMentre paghi per una carta Offensiva <i>(rossa)</i>, raddoppia il numero di risorse generate da questa carta."
+	},
+	{
+		"code": "01056",
+		"name": "Squadra Tattica",
+		"text": "Utilizzo (3 gettoni attacco). <i>(Entra in gioco con 3 gettoni. Quando finiscono, scarta questa carta.)</i>\n<b>Azione</b>: Esaurisci Squadra Tattica e rimuovi 1 gettone da essa → infliggi 2 danni a un nemico.",
+		"traits": "S.H.I.E.L.D."
+	},
+	{
+		"code": "01057",
+		"flavor": "\"Tony! She did it again!\" -- Janet Van Dyne",
+		"name": "Arte del Combattimento",
+		"text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\nIl tuo eroe riceve +1 ATT.",
+		"traits": "Abilità."
+	},
+	{
+		"code": "01058",
+		"flavor": "\"A volte penso di ottenere più risultati con i miei pugni che col mio studio legale.\"",
+		"name": "Daredevil",
+		"subname": "Matt Murdock",
+		"text": "<b>Risposta</b>: Dopo che Daredevil è intervenuto, infliggi 1 danno a un nemico.",
+		"traits": "Defender."
+	},
+	{
+		"code": "01059",
+		"flavor": "\"Sono molto brava a trovare la gente.\"",
+		"name": "Jessica Jones",
+		"text": "Jessica Jones riceve +1 INT per ogni trama secondaria in gioco.",
+		"traits": "Defender."
+	},
+	{
+		"code": "01060",
+		"flavor": "\"Hai perso. E dovrai rispondere di quello che hai fatto.\" -- Capitan America",
+		"name": "Per la Giustizia!",
+		"text": "<b>Azione Eroe</b> (<i>interveento</i>): rimuovi 3 minacce da una trama (rimuovi invece 4 minacce se hai pagato questa carta usando una [mental]).",
+		"traits": "Intervento."
+	},
+	{
+		"code": "01061",
+		"name": "Grandi Responsabilità",
+		"text": "<b>Interruzione Eroe</b>: Quando un qualsiasi ammontare di minacce sta per essere collocato su una trama, subisci invece un pari ammontare di danni."
+	},
+	{
+		"code": "01062",
+		"name": "Potere della Giustizia",
+		"text": "Massimo 2 per mazzo.\nMentre paghi per una carta Giustizia <i>(gialla)</i>, raddoppia il numero di risorse generate da questa carta."
+	},
+	{
+		"code": "01063",
+		"flavor": "\"Oh, le dispiace tanto! Aspetta, vado a prendere le chiavi e ti chiamo un taxi!\" -- Misty Knight",
+		"name": "Sala Interrogatori",
+		"text": "Massimo 1 per giocatore.\n<b>Risposta</b>: Dopo che hai sconfitto un gregario, esaurisci Sala Interrogatori → rimuovi 1 minaccia da una trama.",
+		"traits": "Luogo."
+	},
+	{
+		"code": "01064",
+		"name": "Squadra di Sorveglianza",
+		"text": "Utilizzo (3 gettoni pedinamento). <i>(Entra in gioco con 3 gettoni. Quando finiscono, scarta questa carta)</i>\n<b>Azione</b>: Esaurisci Squadra di Sorveglianza e rimuovi 1 gettone pedinamento da essa → rimuovi 1 minaccia da una trama.",
+		"traits": "S.H.I.E.L.D."
+	},
+	{
+		"code": "01065",
+		"name": "Intuizione Eroica",
+		"text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\nIl tuo eroe riceve +1 INT.",
+		"traits": "Abilità."
+	},
+	{
+		"code": "01066",
+		"name": "Occhio di Falco",
+		"subname": "Clint Barton",
+		"text": "Occhio di Falco entra in gioco con 4 gettoni freccia.\n<b>Risposta</b>: Dopo che un gregario è entrato in gioco, rimuovi 1 gettone freccia da Occhio di Falco → infliggi 2 danni a quel gregario.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "01067",
+		"flavor": "\"Che tu ci creda o no, qui vogliamo tutti la stessa cosa.\"",
+		"name": "Maria Hill",
+		"text": "<b>Risposta</b>: Dopo che Maria Hill è entrata in gioco, ogni giocatore pesca 1 carta.",
+		"traits": "S.H.I.E.L.D."
+	},
+	{
+		"code": "01068",
+		"flavor": "\"Me ne occupo io.\"",
+		"name": "Visione",
+		"text": "<b>Azione</b>: Spendi [energy] → scegli INT o ATT. Fino alla fine della fase, Visione riceve +2 al potere scelto. (Limite di una volta per round.)",
+		"traits": "Androide. Avenger."
+	},
+	{
+		"code": "01069",
+		"flavor": "\"Ci addestriamo duramente ogni giorno per essere pronti quando verrà il momento di agire\" -- Steve Rogers",
+		"name": "Preparatevi",
+		"text": "<b>Azione</b>: Ripristina un alleato."
+	},
+	{
+		"code": "01070",
+		"flavor": "\"Avanziamo, tutti insieme!\" -- Carol Danvers",
+		"name": "Comando in Prima Linea",
+		"text": "<b>Azione Eroe</b>: Scegli 1 giocatore. Ogni personaggio controllato da quel giocatore riceve +1 INT e + 1 ATT fino alla fine della fase.",
+		"traits": "Tattica."
+	},
+	{
+		"code": "01071",
+		"flavor": "\"Questo è un codice rosso! Tutti gli uomini sul ponte!\" -- Maria Hill",
+		"name": "Segnale di Adunata",
+		"text": "<b>Azione</b>: Paga il costo stampato di 1 alleato nella pila degli scarti di un qualsiasi giocatore → metti in gioco quell'alleato sotto il tuo controllo."
+	},
+	{
+		"code": "01072",
+		"name": "Potere dell'Autorità",
+		"text": "Massimo 2 per mazzo.\nMentre paghi per una carta Autorità <i>(blue)</i>, raddoppia il numero di risorse generate da questa carta."
+	},
+	{
+		"code": "01073",
+		"flavor": "\"Pensi che l'abbiano fatto abbastanza alto?\" -- She-Hulk",
+		"name": "Triskelion",
+		"text": "Aumenta di 1 il tuo limite di alleati. <i>(Questo ti consente di controllare più di 3 alleati.)</i>",
+		"traits": "Luogo. S.H.I.E.L.D."
+	},
+	{
+		"code": "01074",
+		"flavor": "\"Meno male che sta dalla nostra parte.\" -- Star-Lord",
+		"name": "Ispirato",
+		"text": "Assegna Ispirato a un alleato. Massimo 1 per alleato.\nL'alleato con questa miglioria riceve +1 INT e +1 ATT.",
+		"traits": "Condizione."
+	},
+	{
+		"code": "01075",
+		"name": "Vedova Nera",
+		"subname": "Natasha Romanoff",
+		"text": "<b>Interruzione</b>: Quando viene rivelata una carta dal mazzo degli incontri, esaurisci Vedova Nera e spendi [mental] → annulla gli effetti di quella carta e scartala, poi rivela 1 altra carta dal mazzo degli incontri.",
+		"traits": "S.H.I.E.L.D. Spia."
+	},
+	{
+		"code": "01076",
+		"flavor": "\"Qui Cage, Power Man a pagamento.\"",
+		"name": "Luke Cage",
+		"text": "Robustezza. <i>(Questo personaggio entra in gioco con 1 carta status Robusto.)</i>",
+		"traits": "Defender."
+	},
+	{
+		"code": "01077",
+		"flavor": "\"Questo è quello che ti meriti!\" -- Iron Fist",
+		"name": "Pugno di Reazione",
+		"text": "<b>Risposta</b> (<i>attacco</i>): Dopo che il tuo eroe ha difeso da un attacco nemico, infliggi a quel nemico un ammontare di danni pari all'ATT del tuo eroe.",
+		"traits": "Attacco."
+	},
+	{
+		"code": "01078",
+		"flavor": "\"Ahem! Fatevi da parte, cittadini!\" -- Ms. Marvel",
+		"name": "Dietro di Me!",
+		"text": "<b>Interruzione Eroe</b>: Quando viene rivelata una carta insidia dal mazzo degli incontri, annulla i suoi effetti \"<b>Quando Rivelata</b>\". Invece, il criminale ti attacca."
+	},
+	{
+		"code": "01079",
+		"name": "Potere della Protezione",
+		"text": "Massimo 2 per mazzo.\nMentre paghi per una carta Protezione <i>(verde)</i>, raddoppia il numero di risorse generate da questa carta."
+	},
+	{
+		"code": "01080",
+		"name": "Squadra Medica",
+		"text": "Utilizzo (3 gettoni medico). <i>(Entra in gioco con 3 gettoni. Quando finiscono, scarta questa carta.)</i>\n<b>Azione</b>: Esaurisci Squadra Medica e rimuovi 1 gettone medico da essa → cura 2 danni a un personaggio amico.",
+		"traits": "S.H.I.E.L.D."
+	},
+	{
+		"code": "01081",
+		"flavor": "Ti salva la vita con stile.",
+		"name": "Giubbotto Corazzato",
+		"text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\nIl tuo eroe riceve + 1 DIF. ",
+		"traits": "Armatura."
+	},
+	{
+		"code": "01082",
+		"flavor": "\"Non abbiamo scelta. Quindi combattiamo... e vinciamo. Non ci sono altre opzioni.\" -- Capitan America",
+		"name": "Indomito",
+		"text": "<b>Risposta</b>: Dopo che il tuo eroe ha difeso, scarta Indomito → ripristina il tuo eroe.",
+		"traits": "Condizione."
+	},
+	{
+		"code": "01083",
+		"name": "Mimo",
+		"subname": "Bobbi Morse",
+		"text": "<b>Risposta</b>: Dopo che Mimo è entrata in gioco, stordisci 1 nemico.",
+		"traits": "S.H.I.E.L.D. Spia."
+	},
+	{
+		"code": "01084",
+		"name": "Nick Fury",
+		"text": "<b>Risposta Obbligata</b>: Dopo che Nick Fury è entrato in gioco, scegli 1 effetto tra: rimuovi 2 minacce da una trama; pesca 3 carte; infliggi 4 danni a un nemico. Alla fine del round, se Nick Fury è ancora in gioco, scartalo.",
+		"traits": "S.H.I.E.L.D. Spia."
+	},
+	{
+		"code": "01085",
+		"flavor": "\"A TUTTE LE UNITA'! RIPETO, A TUTTE LE UNITA'!\"",
+		"name": "Emergenza",
+		"text": "<b>Interruzione</b> (<i>intervento</i>): Quando il criminale trama, riduci di 1 l'ammontare di minacce collocate sulla trama.",
+		"traits": "Intervento."
+	},
+	{
+		"code": "01086",
+		"flavor": "\"E' comunque considerato pronto soccorso se è già il tuo secondo giorno in ospedale?\" -- Clint Barton",
+		"name": "Pronto Soccorso",
+		"text": "<b>Azione</b>: Cura 2 danni a un personaggio."
+	},
+	{
+		"code": "01087",
+		"flavor": "WHAM!",
+		"name": "Pugno Feroce",
+		"text": "<b>Azione Eroe</b> (<i>attacco</i>): Infliggi 3 danni a un nemico.",
+		"traits": "Attacco."
+	},
+	{
+		"code": "01088",
+		"name": "Energia",
+		"text": "Massimo 1 per mazzo"
+	},
+	{
+		"code": "01089",
+		"name": "Genialità",
+		"text": "Massimo 1 per mazzo"
+	},
+	{
+		"code": "01090",
+		"name": "Forza",
+		"text": "Massimo 1 per mazzo"
+	},
+	{
+		"code": "01091",
+		"flavor": "\"Ti sei ricordato di spegnere la stufa?\" -- Janet Van Dyne",
+		"name": "Palazzo degli Avengers",
+		"text": "Massimo 1 per giocatore.\n<b>Azione</b>: Esaurisci Palazzo degli Avengers → scegli 1 giocatore. quel giocatore pesca 1 carta.",
+		"traits": "Avenger. Luogo."
+	},
+	{
+		"code": "01092",
+		"flavor": "\"Una portaerei volante? State scherzando, vero?\" -- Jennifer Walters",
+		"name": "Eliveivolo",
+		"text": "Massimo 1 per giocatore.\n<b>Azione</b>: Esaurisci Eliveivolo → scegli 1 giocatore. Riduci il costo in risorse della prossima carta che quel giocatore gioca in questa fase.",
+		"traits": "Luogo. S.H.I.E.L.D."
+	},
+	{
+		"code": "01093",
+		"name": "Tenacia",
+		"text": "<b>Azione Eroe</b>:Spendi [physical] e scarta questa carta → ripristina il tuo eroe.",
+		"traits": "Condizione."
+	}
 ]

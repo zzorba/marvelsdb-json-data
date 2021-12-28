@@ -187,7 +187,7 @@
 		"set_code": "brotherhood_of_badoon",
 		"set_position": 2,
 		"stage": 2,
-		"text": "<b>When Revealed:</b> If Drang's Spear is in play, give Drang 1 facedown boost card; otherwise, search the encounter deck and discard pile for Drang's Spear, reveal it, and shuffle the encounter deck. \n<b>[star] Forced Response:</b> After Drang schemes, resolve the Badoon Ship's \"Charge Up\" ability.",
+		"text": "<b>When Revealed:</b> If Drang's Spear is in play, give Drang 1 facedown boost card; otherwise, search the encounter deck and discard pile for Drang's Spear, reveal it, and shuffle the encounter deck.\n<b>[star] Forced Response:</b> After Drang schemes, resolve the Badoon Ship's \"Charge Up\" ability.",
 		"traits": "Badoon.",
 		"type_code": "villain"
 	},
@@ -207,13 +207,13 @@
 		"set_code": "brotherhood_of_badoon",
 		"set_position": 3,
 		"stage": 3,
-		"text": "<b>When Revealed:</b> Discard the top 4[per_hero] cards of the encounter deck. Each time a minion is discarded this way, put it into play engaged with the player who is engaged with the fexest minions. \n<b>[star] Forced Response:</b> After Drang activates, resolve the Badoon Ship's \"Charge Up\" ability.",
+		"text": "<b>When Revealed:</b> Discard the top 4[per_hero] cards of the encounter deck. Each time a minion is discarded this way, put it into play engaged with the player who is engaged with the fexest minions.\n<b>[star] Forced Response:</b> After Drang activates, resolve the Badoon Ship's \"Charge Up\" ability.",
 		"traits": "Badoon.",
 		"type_code": "villain"
 	},
 	{
-		"base_threat": 0,
 		"back_link": "16061b",
+		"base_threat": 0,
 		"code": "16061a",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -225,12 +225,12 @@
 		"quantity": 1,
 		"set_code": "brotherhood_of_badoon",
 		"set_position": 4,
-		"threat": 0,
 		"stage": 1,
 		"text": "<b>Contents:</b> Drang (I) and Drang (II). (Drang (II) and Drang(III) instead for expert mode.) Brotherhood of Badoon, Ship Command, and Standard encounter sets. One modular encounter set (Band of Badoon).\n<b>Setup:</b> Put the Badoon Ship environment and the Milano support into play.",
+		"threat": 0,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"code": "16061b",
 		"double_sided": true,
@@ -244,13 +244,13 @@
 		"set_code": "brotherhood_of_badoon",
 		"set_position": 4,
 		"stage": 1,
-		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, resolve the Badoon Ship's \"Charge Up\" ability. \n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
+		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, resolve the Badoon Ship's \"Charge Up\" ability.\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"threat": 8,
 		"type_code": "main_scheme"
 	},
 	{
-		"base_threat": 0,
 		"back_link": "16062b",
+		"base_threat": 0,
 		"code": "16062a",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -266,8 +266,8 @@
 		"text": "<b>When Revealed:</b> Resolve the Badoon Ship's \"Charge Up\" ability.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 4,
 		"code": "16062b",
 		"double_sided": true,
@@ -281,7 +281,7 @@
 		"set_code": "brotherhood_of_badoon",
 		"set_position": 5,
 		"stage": 2,
-		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, resolve the Badoon Ship's \"Charge Up\" ability. \n<b>First Player Action:</b> Exhaust the Milano → choose to either remove 3 threat from this scheme or deal 3 damage to a minion. \n<b>If this stage is completed, the players lose the game.</b>",
+		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, resolve the Badoon Ship's \"Charge Up\" ability.\n<b>First Player Action:</b> Exhaust the Milano → choose to either remove 3 threat from this scheme or deal 3 damage to a minion.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 8,
 		"type_code": "main_scheme"
 	},
@@ -334,8 +334,8 @@
 		"text": "<b>[star] Forced Response:</b> After Badoon Engineer engages you or activates against you, resolve the Badoon Ship's \"Charge Up\" ability.",
 		"traits": "Badoon.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"base_threat_fixed": true,
 		"boost": 1,
@@ -349,10 +349,10 @@
 		"scheme_crisis": 1,
 		"set_code": "brotherhood_of_badoon",
 		"set_position": 10,
-		"text": "Hinder 2[per_player]. <i>(When revealed, place 2[per_player] theat here.)</i> \n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
+		"text": "Hinder 2[per_player]. <i>(When revealed, place 2[per_player] theat here.)</i>\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 3,
 		"boost": 2,
 		"code": "16067",
@@ -366,8 +366,8 @@
 		"set_position": 11,
 		"text": "<b>Forced Response:</b> After resolving step one of the villain phase, resolve the Badoon Ship's \"Charge Up\" ability.\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 1,
 		"base_threat_fixed": true,
 		"boost": 1,
@@ -381,10 +381,10 @@
 		"scheme_hazard": 1,
 		"set_code": "brotherhood_of_badoon",
 		"set_position": 12,
-		"text": "Hinder 3[per_player]. <i>When revealed, place 3[per_player] theat here.)</i> \n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
+		"text": "Hinder 3[per_player]. <i>When revealed, place 3[per_player] theat here.)</i>\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 3,
 		"boost": 3,
 		"code": "16069",
@@ -462,8 +462,8 @@
 		"type_code": "villain"
 	},
 	{
-		"base_threat": 0,
 		"back_link": "16073b",
+		"base_threat": 0,
 		"code": "16073a",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -478,8 +478,8 @@
 		"text": "<b>Contents:</b> Collector (I) and Collector (II). <i>(Collector (II) and Collector (III) instead for expert mode.)</i> Infiltrate the Museum, Galactic Artifacts, and Standard encounter sets. One modular encounter set <i>(Menagerie Medley).</i>\n<b>Setup:</b> Create \"The Collection\" game area <i>(see insert for details).</i> Put the top card of each player's deck faceup into The Collection.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 4,
 		"code": "16073b",
 		"double_sided": true,
@@ -678,8 +678,8 @@
 		"type_code": "villain"
 	},
 	{
-		"base_threat": 0,
 		"back_link": "16082b",
+		"base_threat": 0,
 		"code": "16082a",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -694,8 +694,8 @@
 		"text": "<b>Contents:</b> Collector (A1)  <i>(Collector (B1) instead for expert mode.)</i> Escape the Museum, Galactic Artifacts, Ship Command, and Standard encounter sets. One modular encounter set <i>(Menagerie Medley).</i>\n<b>Setup:</b> Put the Library Labyrinth environment into play. Set aside the Ship Command modular encounter set.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 7,
 		"code": "16082b",
 		"double_sided": true,
@@ -715,8 +715,8 @@
 		"type_code": "main_scheme"
 	},
 	{
-		"base_threat": 0,
 		"back_link": "16083b",
+		"base_threat": 0,
 		"code": "16083a",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -732,8 +732,8 @@
 		"text": "<b>When Revealed:</b> Put the set-aside Milano support from the Ship Command encounter set into play unde the first player's control..",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 11,
 		"code": "16083b",
 		"double_sided": true,
@@ -753,8 +753,8 @@
 		"type_code": "main_scheme"
 	},
 	{
-		"base_threat": 0,
 		"back_link": "16084b",
+		"base_threat": 0,
 		"code": "16084a",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -770,8 +770,8 @@
 		"text": "<b>When Revealed:</b> Flip Library Labyrinth. Place 1 acceleration token on the main scheme. Shuffle the remaining cards from the set-aside Ship Command encounter set into the encounter deck.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 8,
 		"code": "16084b",
 		"double_sided": true,
@@ -913,8 +913,8 @@
 		"type_code": "villain"
 	},
 	{
-		"base_threat": 0,
 		"back_link": "16091b",
+		"base_threat": 0,
 		"code": "16091a",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -929,8 +929,8 @@
 		"text": "<b>Contents:</b> Nebula (I) and Nebula (II). <i>(Nebula (II) and Nebula (III) instead for expert mode.)</i> Nebula, Power Stone, Ship Command, and Standard encounter sets. One modular encounter set <i>(Space Pirates).</i>\n<b>Setup:</b> Put the Nebula's Ship environment and the Milano support into play. Attach the Power Stone to Nebula. Discard the top 2[per_player] cards of the encounter deck, then attach each [[Technique]] attachment discarded this way to Nebula.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"code": "16091b",
 		"double_sided": true,
@@ -949,8 +949,8 @@
 		"type_code": "main_scheme"
 	},
 	{
-		"base_threat": 0,
 		"back_link": "16092b",
+		"base_threat": 0,
 		"code": "16092a",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -966,8 +966,8 @@
 		"text": "<b>When Revealed:</b> Place 2 evasion counters on Nebula's Ship. For each evasion counter on Nebula's Ship, discard the top 2 cards of each player deck and the encounter deck.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 3,
 		"code": "16092b",
 		"double_sided": true,
@@ -1074,8 +1074,8 @@
 		"text": "Attach to Nebula.\nReduce the amount of damage Nebula takes from each attack by 1.\n<b>Special:</b> Discard 1 card at random from your hand.",
 		"traits": "Technique.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"code": "16099",
 		"faction_code": "encounter",
@@ -1196,8 +1196,8 @@
 		"type_code": "villain"
 	},
 	{
-		"base_threat": 0,
 		"back_link": "16106b",
+		"base_threat": 0,
 		"code": "16106a",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -1212,8 +1212,8 @@
 		"text": "<b>Contents:</b> Ronan the Accuser (I) and Ronan the Accuser (II). <i>(Ronan the Accuser (II) and Ronan the Accuser (III) instead for expert mode.)</i> Ronan the Accuser, Power Stone, Ship Command, and Standard encounter sets. One modular encounter set <i>(Kree Militants).</i>\n<b>Setup:</b> Put the Kree Command Ship environment and the Milano support into play. Attach the Universal Weapon to Ronan the Accuser. Attach the Power Stone to the first player.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"code": "16106b",
 		"double_sided": true,
@@ -1233,8 +1233,8 @@
 		"type_code": "main_scheme"
 	},
 	{
-		"base_threat": 0,
 		"back_link": "16107b",
+		"base_threat": 0,
 		"code": "16107a",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -1250,8 +1250,8 @@
 		"text": "<b>When Revealed:</b> Attach the Power Stone to Ronan the Accuser. If it is already attached to him, give him 1 facedown boost card.",
 		"threat": 0,
 		"type_code": "main_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 1,
 		"code": "16107b",
 		"double_sided": true,
@@ -1316,8 +1316,8 @@
 		"text": "Surge.\nAttach to Ronan the Accuser. Uses (1 fury counter, plus 1[per_player] additional fury counters).\n[star]<b>Forced Interrupt:</b> When Ronan the Accuser attacks you, that attack gains overkill and piercing. At the end of that attack, remove 1 fury counter from here.",
 		"traits": "Condition.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"base_threat": 3,
 		"boost_text": "Choose to either exhaust the Milano or place 2 threat on the main scheme.",
 		"code": "16111",
@@ -1331,8 +1331,8 @@
 		"set_code": "ronan",
 		"set_position": 10,
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 3,
 		"base_threat_fixed": true,
 		"boost": 3,
@@ -1348,8 +1348,8 @@
 		"set_position": 11,
 		"text": "Hinder 2[per_player] <i>(When revealed, place 2[per_player] threat here.)</i>.\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"boost": 2,
 		"code": "16113",
@@ -1584,8 +1584,8 @@
 		"text": "Attach to the enemy with the lowest SCH.\n<b>Hero Action:</b> Spend [energy][energy][energy] resources → discard this card.",
 		"traits": "Artifact.",
 		"type_code": "attachment"
-	},	
-	{	
+	},
+	{
 		"base_threat": 3,
 		"base_threat_fixed": true,
 		"boost": 1,
@@ -1602,8 +1602,8 @@
 		"set_position": 6,
 		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may ready their identity.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 3,
 		"base_threat_fixed": true,
 		"boost": 1,
@@ -1620,8 +1620,8 @@
 		"set_position": 7,
 		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may heal 4 damage from their identity.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 3,
 		"base_threat_fixed": true,
 		"boost": 1,
@@ -1639,8 +1639,8 @@
 		"set_position": 8,
 		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may draw 2 cards.",
 		"type_code": "side_scheme"
-	},	
-	{	
+	},
+	{
 		"base_threat": 3,
 		"base_threat_fixed": true,
 		"boost": 1,
@@ -1820,8 +1820,8 @@
 		"text": "Quickstrike.\n[star] <b>Forced Response:</b> After this minion attacks and damages you, remove the top card of your deck from the game.",
 		"traits": "Criminal.",
 		"type_code": "minion"
-	},	
-	{	
+	},
+	{
 		"base_threat": 2,
 		"boost_text": "Reveal this card.",
 		"code": "16140",
@@ -1880,8 +1880,8 @@
 		"text": "Surge.\n<b>Forced Interrupt:</b> When the villain phase ends, deal 1 damage to each player.\n<b>First Player Action:</b> Exhaust the Milano and spend 2 resources of any type → discard this card.",
 		"traits": "Aerial. Vehicule.",
 		"type_code": "environment"
-	},	
-	{	
+	},
+	{
 		"base_threat": 1,
 		"base_threat_fixed": true,
 		"boost": 2,

@@ -1,172 +1,172 @@
 [
-    {
-        "code": "13001a",
-        "flavor": "\"Tu devrais apprendre à être fair-play !\"",
-        "name": "La Guêpe",
-        "text": "<i>Petit mais Costaud</i> — <b>Réponse</b> : après que La Guêpe <i>(ou un événement que vous avez joué)</i> a vaincu un sbire ou déjoué une manigance annexe, infligez 1 dégât au méchant.",
-        "traits": "Avenger. Minuscule."
-    },
-    {
-        "code": "13001b",
-        "flavor": "\"G.I.R.L. a pour but de rassembler des femmes brillantes, pas seulement pour sauver le monde, mais pour le changer.\"",
-        "name": "Nadia Van Dyne",
-        "text": "<i>G.I.R.L.</i> — <b>Action</b> : mélangez dans votre deck jusqu'à 2 cartes ayant une ressource [mental] imprimée de votre pile de défausse. (Limite d'une fois par round.)",
-        "traits": "Génie."
-    },
-    {
-        "code": "13001c",
-        "flavor": "\"Wahoo, vous êtes tous si petits et mignons\"",
-        "name": "La Guêpe",
-        "traits": "Avenger. Géant.",
-        "attack_text": "Les dégâts que vous infligez en utilisant votre pouvoir de base d'attaque <i>(ATQ)</i> peuvent être répartis parmi les ennemis de votre choix.",
-        "scheme_text": "Les menaces que vous retirez en utilisant votre pouvoir de base de contre <i>(CTR)</i> peuvent être réparties parmi les manigances de votre choix."
-    },
-    {
-        "code": "13002",
-        "name": "Ant-Man",
-        "text": "Tant que vous êtes sous forme de [[Géant]], Ant-Man gagne le trait [[Géant]] et +1 ATQ.\nTant que vous êtes sous forme de héros [[Minuscule]], Ant-Man gagne le trait [[Minuscule]] et +1 CTR.",
-        "traits": "Avenger.",
-        "subname": "Scott Lang"
-    },
-    {
-        "code": "13003",
-        "flavor": "\"Ravie d'avoir pu rendre service !\" — La Guêpe",
-        "name": "Aide Géante",
-        "text": "<b>Action de héros</b> <i>(contre)</i> : retirez 3 menaces d'une manigance (si vous êtes sous forme de héros [[Géant]], retirez un total de 4 menaces parmi les manigances de votre choix à la place).",
-        "traits": "Contre."
-    },
-    {
-        "code": "13004",
-        "flavor": "\"Tu devrais mettre de la glace là-dessus à ton réveil\" — La Guêpe",
-        "name": "Frappe Localisée",
-        "text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 7 dégâts à un ennemi. Si vous êtes sous forme de héros [[Minuscule], cette attaque inflige 1 dégât supplémentaire à cet ennemi et gagne Déferlement.",
-        "traits": "Attaque."
-    },
-    {
-        "code": "13005",
-        "flavor": "\"Je parie que tu ne t'attendais pas à ça.\" — La Guêpe",
-        "name": "Croissance Rapide",
-        "text": "<b>Interruption de héros</b> : quand vous utilisez l'un de vos pouvoirs de base de héros <i>(CTR, ATQ, ou DEF)</i>, passez sous forme de héros [[Géant]] et gagnez +2 à ce pouvoir pour cette utilisation.",
-        "traits": "Géant. Super-Pouvoir."
-    },
-    {
-        "code": "13006",
-        "name": "La Piqûre de la Guêpe",
-        "text": "<b>Action de héros</b> <i>(attaque)</i> : si vous êtes sous forme de héros [[Géant]], infligez un total de 4 dégâts répartis parmi les ennemis de votre choix.\n<b>Action de héros</b> <i>(attaque)</i> : si vous êtes sous forme de héros [[Minuscule]], infligez 5 dégâts à un ennemi.",
-        "traits": "Attaque."
-    },
-    {
-        "code": "13007",
-        "name": "Particules Pym",
-        "text": "<b>Réponse de héros</b> : après voir dépensé cette carte, soignez 2 dégâts de votre héros si vous êtes sous forme de héros [[Géant]] ou piochez 1 carte si vous êtes sous forme de [[Minuscule]]."
-    },
-    {
-        "code": "13008",
-        "name": "Entraînement de la Chambre Rouge",
-        "text": "Tant que vous êtes sous forme de héros [[Géant]], vous gagnez Riposte 1.\nTant que vous êtes sous forme de héros [[Minuscule]], vos attaques de base gagnent Perçant. <i>(Défaussez toute carte d'état Tenance de la cible avant d'infliger les dégâts.)</i>",
-        "traits": "Compétence."
-    },
-    {
-        "code": "13009",
-        "name": "Ailes Biosynthétiques",
-        "text": "La Guêpe gagne [[Aérien]].\n<b>Interruption</b> : quand vous êtes censé subir n'importe quelle quantité de dégâts, si vous êtes sous forme de héros [[Minuscule]], inclinez les Ailes Biosynthétiques → prévenez 1 de ces dégâts.",
-        "traits": "Objet. Tech."
-    },
-    {
-        "code": "13010",
-        "name": "Casque de la Guêpe",
-        "text": "Tant que vous êtes sous forme de héros [[Géant]], vous gagnez +1 CTR.\nTant que vous êtes sous forme de héros [[Minuscule]], vous gagnez +1 ATQ.",
-        "traits": "Armure. Tech."
-    },
-    {
-        "code": "13011",
-        "flavor": "\"Tu veux manger mon marteau ? Dans ce cas, ouvre grand la bouche !\"",
-        "name": "Thor",
-        "text": "<b>Réponse</b> : après avoir joué Thor de votre main, infligez 2 dégâts au méchant (3 dégâts à la place si vous avez utilisé une ressource [physical] pour payer cette carte).",
-        "traits": "Asgard. Avenger.",
-        "subname": "Jane Foster"
-    },
-    {
-        "code": "13012",
-        "name": "La Guêpe",
-        "text": "La Guêpe gagne +1 point de vie pour chaque jeton Pym sur elle.\n<b>Interruption</b> : quand La Guêpe entre en jeu, placez 1 jeton Pym sur elle pour chaque ressource [energy] généée en surplus pour payer son coût (jusqu'à un maximum de 3 jetons).",
-        "traits": "Aérien. Avenger.",
-        "subname": "Janet Van Dyne"
-    },
-    {
-        "code": "13013",
-        "name": "Au Cœur de la Mêlée",
-        "text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 6 dégâts à un sbire. Retirez 1 menace de la manigance principale pour chaque point de dégât en excès infligé par cette attaque.",
-        "traits": "Attaque."
-    },
-    {
-        "code": "13014",
-        "name": "Attaque Surprise",
-        "text": "<b>Réponse de héros</b> : <i>(attaque)</i>: après que vous avez changé de forme, infligez 3 dégâts à un ennemi (4 dégâts à la place si vous avez utilisé une ressource [physical] pour payer cette carte).",
-        "traits": "Attaque."
-    },
-    {
-        "code": "13016",
-        "flavor": "\"TU APPELLES ÇA FAIRE DES POMPES !? MA GRAND-MÈRE FAIT DE MEILLEURES POMPES !\"",
-        "name": "Camp d'Entraînement",
-        "text": "Jouez cette carte sous le contrôle de n'importe quel joueur.\n1 Max par joueur.\nChaque allié que vous contrôlez gagne +1 ATQ.",
-        "traits": "Lieu."
-    },
-    {
-        "code": "13017",
-        "name": "Tendre une Embuscade",
-        "text": "1 max par joueur.\n<b>Réponse de héros</b> <i>(attaque)</i>: après qu'un sbire vous a engagé, défaussez Tendre une Embuscade → infligez 3 dégâts à ce sbire.",
-        "traits": "Préparation."
-    },
-    {
-        "code": "13018",
-        "flavor": "\"J'ai l'intention de ressembler en tous points à Tony Stark ! Sauf pour sa drôle de barbiche.\"",
-        "name": "Ironheart",
-        "text": "<b>Réponse</b> : après avoir joué Ironheart de votre main, piochez 1 carte.",
-        "traits": "Champion."
-    },
-    {
-        "code": "13019",
-        "flavor": "\"On a besoin de moi. Et tout à coup, plus rien d'autre n'a d'importance.\"",
-        "name": "Spider-Man",
-        "text": "<b>Réponse</b> : après avoir joué Spider-Man de votre main, choisissez CTR ou ATQ. Spider-Man gagne +2 au pouvoir choisi jusqu'à la fin de la phase.",
-        "traits": "Champion.",
-        "subname": "Miles Morales"
-    },
-    {
-        "code": "13020",
-        "name": "Tactique d'Essaim",
-        "text": "En Équipe (Ant-Man et La Guêpe).\n 1 max par deck.\n<b>Action de héros</b> : passez sous votre autre forme de héros. Redressez votre héros",
-        "traits": "Tactique."
-    },
-    {
-        "code": "13024",
-        "name": "Le Pouvoir en Chacun de Nous",
-        "text": "2 max par deck.\nDoublez le nombre de ressources générées par cette carte lorsque vous payez une carte Basique <i>(grise)</i>."
-    },
-    {
-        "code": "13031",
-        "name": "Intervention en Cours",
-        "text": "Jouez cette carte uniquement si votre identité a le trait [[Avenger]].\n<b>Action de héros</b> <i>(contre)</i> : retirez 2 menances de la manigance principale. Retirez X menances supplémentaires de la manigance principale (jusqu'à un maximum de 3), X étant égal au numéro de stade du méchant.",
-        "traits": "Contre."
-    },
-    {
-        "code": "13032",
-        "name": "Tous pour Un",
-        "text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 3 dégâts à un ennemi et inclinez n'importe quel nombre de personnages [[Avenger]] que vous contrôlez. Infligez 1 dégât supplémentaire à cet ennemi pour chaque personnage ainsi incliné.",
-        "traits": "Attaque."
-    },
-    {
-        "code": "13033",
-        "flavor": "\"Tu sais que la porte d'entrée n'est pas verrouillée ?\" — Spider-Man",
-        "name": "Obstination",
-        "text": "<b>Réponse de héros</b> : après que vous avez changé de forme, donnez une carte d'état Tenance à votre héros.",
-        "traits": "Tactique."
-    },
-    {
-        "code": "13034",
-        "flavor": "\"Ne t'inquiète pas, le bourdonnement dans tes oreilles finira bien par partir.\" — Nadia Van Dyne",
-        "name": "Remise en Forme",
-        "text": "<b>Action de héros</b> : défaussez 1 carte d'état Sonné ou Désorienté de votre héros."
-    }
+	{
+		"code": "13001a",
+		"flavor": "\"Tu devrais apprendre à être fair-play !\"",
+		"name": "La Guêpe",
+		"text": "<i>Petit mais Costaud</i> — <b>Réponse</b> : après que La Guêpe <i>(ou un événement que vous avez joué)</i> a vaincu un sbire ou déjoué une manigance annexe, infligez 1 dégât au méchant.",
+		"traits": "Avenger. Minuscule."
+	},
+	{
+		"code": "13001b",
+		"flavor": "\"G.I.R.L. a pour but de rassembler des femmes brillantes, pas seulement pour sauver le monde, mais pour le changer.\"",
+		"name": "Nadia Van Dyne",
+		"text": "<i>G.I.R.L.</i> — <b>Action</b> : mélangez dans votre deck jusqu'à 2 cartes ayant une ressource [mental] imprimée de votre pile de défausse. (Limite d'une fois par round.)",
+		"traits": "Génie."
+	},
+	{
+		"attack_text": "Les dégâts que vous infligez en utilisant votre pouvoir de base d'attaque <i>(ATQ)</i> peuvent être répartis parmi les ennemis de votre choix.",
+		"code": "13001c",
+		"flavor": "\"Wahoo, vous êtes tous si petits et mignons\"",
+		"name": "La Guêpe",
+		"scheme_text": "Les menaces que vous retirez en utilisant votre pouvoir de base de contre <i>(CTR)</i> peuvent être réparties parmi les manigances de votre choix.",
+		"traits": "Avenger. Géant."
+	},
+	{
+		"code": "13002",
+		"name": "Ant-Man",
+		"subname": "Scott Lang",
+		"text": "Tant que vous êtes sous forme de [[Géant]], Ant-Man gagne le trait [[Géant]] et +1 ATQ.\nTant que vous êtes sous forme de héros [[Minuscule]], Ant-Man gagne le trait [[Minuscule]] et +1 CTR.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "13003",
+		"flavor": "\"Ravie d'avoir pu rendre service !\" — La Guêpe",
+		"name": "Aide Géante",
+		"text": "<b>Action de héros</b> <i>(contre)</i> : retirez 3 menaces d'une manigance (si vous êtes sous forme de héros [[Géant]], retirez un total de 4 menaces parmi les manigances de votre choix à la place).",
+		"traits": "Contre."
+	},
+	{
+		"code": "13004",
+		"flavor": "\"Tu devrais mettre de la glace là-dessus à ton réveil\" — La Guêpe",
+		"name": "Frappe Localisée",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 7 dégâts à un ennemi. Si vous êtes sous forme de héros [[Minuscule], cette attaque inflige 1 dégât supplémentaire à cet ennemi et gagne Déferlement.",
+		"traits": "Attaque."
+	},
+	{
+		"code": "13005",
+		"flavor": "\"Je parie que tu ne t'attendais pas à ça.\" — La Guêpe",
+		"name": "Croissance Rapide",
+		"text": "<b>Interruption de héros</b> : quand vous utilisez l'un de vos pouvoirs de base de héros <i>(CTR, ATQ, ou DEF)</i>, passez sous forme de héros [[Géant]] et gagnez +2 à ce pouvoir pour cette utilisation.",
+		"traits": "Géant. Super-Pouvoir."
+	},
+	{
+		"code": "13006",
+		"name": "La Piqûre de la Guêpe",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : si vous êtes sous forme de héros [[Géant]], infligez un total de 4 dégâts répartis parmi les ennemis de votre choix.\n<b>Action de héros</b> <i>(attaque)</i> : si vous êtes sous forme de héros [[Minuscule]], infligez 5 dégâts à un ennemi.",
+		"traits": "Attaque."
+	},
+	{
+		"code": "13007",
+		"name": "Particules Pym",
+		"text": "<b>Réponse de héros</b> : après voir dépensé cette carte, soignez 2 dégâts de votre héros si vous êtes sous forme de héros [[Géant]] ou piochez 1 carte si vous êtes sous forme de [[Minuscule]]."
+	},
+	{
+		"code": "13008",
+		"name": "Entraînement de la Chambre Rouge",
+		"text": "Tant que vous êtes sous forme de héros [[Géant]], vous gagnez Riposte 1.\nTant que vous êtes sous forme de héros [[Minuscule]], vos attaques de base gagnent Perçant. <i>(Défaussez toute carte d'état Tenance de la cible avant d'infliger les dégâts.)</i>",
+		"traits": "Compétence."
+	},
+	{
+		"code": "13009",
+		"name": "Ailes Biosynthétiques",
+		"text": "La Guêpe gagne [[Aérien]].\n<b>Interruption</b> : quand vous êtes censé subir n'importe quelle quantité de dégâts, si vous êtes sous forme de héros [[Minuscule]], inclinez les Ailes Biosynthétiques → prévenez 1 de ces dégâts.",
+		"traits": "Objet. Tech."
+	},
+	{
+		"code": "13010",
+		"name": "Casque de la Guêpe",
+		"text": "Tant que vous êtes sous forme de héros [[Géant]], vous gagnez +1 CTR.\nTant que vous êtes sous forme de héros [[Minuscule]], vous gagnez +1 ATQ.",
+		"traits": "Armure. Tech."
+	},
+	{
+		"code": "13011",
+		"flavor": "\"Tu veux manger mon marteau ? Dans ce cas, ouvre grand la bouche !\"",
+		"name": "Thor",
+		"subname": "Jane Foster",
+		"text": "<b>Réponse</b> : après avoir joué Thor de votre main, infligez 2 dégâts au méchant (3 dégâts à la place si vous avez utilisé une ressource [physical] pour payer cette carte).",
+		"traits": "Asgard. Avenger."
+	},
+	{
+		"code": "13012",
+		"name": "La Guêpe",
+		"subname": "Janet Van Dyne",
+		"text": "La Guêpe gagne +1 point de vie pour chaque jeton Pym sur elle.\n<b>Interruption</b> : quand La Guêpe entre en jeu, placez 1 jeton Pym sur elle pour chaque ressource [energy] généée en surplus pour payer son coût (jusqu'à un maximum de 3 jetons).",
+		"traits": "Aérien. Avenger."
+	},
+	{
+		"code": "13013",
+		"name": "Au Cœur de la Mêlée",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 6 dégâts à un sbire. Retirez 1 menace de la manigance principale pour chaque point de dégât en excès infligé par cette attaque.",
+		"traits": "Attaque."
+	},
+	{
+		"code": "13014",
+		"name": "Attaque Surprise",
+		"text": "<b>Réponse de héros</b> : <i>(attaque)</i>: après que vous avez changé de forme, infligez 3 dégâts à un ennemi (4 dégâts à la place si vous avez utilisé une ressource [physical] pour payer cette carte).",
+		"traits": "Attaque."
+	},
+	{
+		"code": "13016",
+		"flavor": "\"TU APPELLES ÇA FAIRE DES POMPES !? MA GRAND-MÈRE FAIT DE MEILLEURES POMPES !\"",
+		"name": "Camp d'Entraînement",
+		"text": "Jouez cette carte sous le contrôle de n'importe quel joueur.\n1 Max par joueur.\nChaque allié que vous contrôlez gagne +1 ATQ.",
+		"traits": "Lieu."
+	},
+	{
+		"code": "13017",
+		"name": "Tendre une Embuscade",
+		"text": "1 max par joueur.\n<b>Réponse de héros</b> <i>(attaque)</i>: après qu'un sbire vous a engagé, défaussez Tendre une Embuscade → infligez 3 dégâts à ce sbire.",
+		"traits": "Préparation."
+	},
+	{
+		"code": "13018",
+		"flavor": "\"J'ai l'intention de ressembler en tous points à Tony Stark ! Sauf pour sa drôle de barbiche.\"",
+		"name": "Ironheart",
+		"text": "<b>Réponse</b> : après avoir joué Ironheart de votre main, piochez 1 carte.",
+		"traits": "Champion."
+	},
+	{
+		"code": "13019",
+		"flavor": "\"On a besoin de moi. Et tout à coup, plus rien d'autre n'a d'importance.\"",
+		"name": "Spider-Man",
+		"subname": "Miles Morales",
+		"text": "<b>Réponse</b> : après avoir joué Spider-Man de votre main, choisissez CTR ou ATQ. Spider-Man gagne +2 au pouvoir choisi jusqu'à la fin de la phase.",
+		"traits": "Champion."
+	},
+	{
+		"code": "13020",
+		"name": "Tactique d'Essaim",
+		"text": "En Équipe (Ant-Man et La Guêpe).\n 1 max par deck.\n<b>Action de héros</b> : passez sous votre autre forme de héros. Redressez votre héros",
+		"traits": "Tactique."
+	},
+	{
+		"code": "13024",
+		"name": "Le Pouvoir en Chacun de Nous",
+		"text": "2 max par deck.\nDoublez le nombre de ressources générées par cette carte lorsque vous payez une carte Basique <i>(grise)</i>."
+	},
+	{
+		"code": "13031",
+		"name": "Intervention en Cours",
+		"text": "Jouez cette carte uniquement si votre identité a le trait [[Avenger]].\n<b>Action de héros</b> <i>(contre)</i> : retirez 2 menances de la manigance principale. Retirez X menances supplémentaires de la manigance principale (jusqu'à un maximum de 3), X étant égal au numéro de stade du méchant.",
+		"traits": "Contre."
+	},
+	{
+		"code": "13032",
+		"name": "Tous pour Un",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 3 dégâts à un ennemi et inclinez n'importe quel nombre de personnages [[Avenger]] que vous contrôlez. Infligez 1 dégât supplémentaire à cet ennemi pour chaque personnage ainsi incliné.",
+		"traits": "Attaque."
+	},
+	{
+		"code": "13033",
+		"flavor": "\"Tu sais que la porte d'entrée n'est pas verrouillée ?\" — Spider-Man",
+		"name": "Obstination",
+		"text": "<b>Réponse de héros</b> : après que vous avez changé de forme, donnez une carte d'état Tenance à votre héros.",
+		"traits": "Tactique."
+	},
+	{
+		"code": "13034",
+		"flavor": "\"Ne t'inquiète pas, le bourdonnement dans tes oreilles finira bien par partir.\" — Nadia Van Dyne",
+		"name": "Remise en Forme",
+		"text": "<b>Action de héros</b> : défaussez 1 carte d'état Sonné ou Désorienté de votre héros."
+	}
 ]

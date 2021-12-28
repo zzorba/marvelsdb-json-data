@@ -5,9 +5,9 @@
 		"text": "<b>Donnez cette carte au joueur de Monica Rambeau.</b>\nVous ne pouvez pas changer de forme d'énergie.\n<b>Action d'alter ego</b>: inclinez Monica Rambeau -> retirez Perte de Contrôle de la partie."
 	},
 	{
-		"code": "21027",
 		"attack_text": "<b>Réponse forcée</b> : après que l'Homme-Radioactif s'est activé contre vous, infligez 1 dégât à chaque personnage que vous contrôlez.",
 		"boost_text": "<b>Boost</b> : infligez 1 dégât à chaque personnage que vous contrôlez.",
+		"code": "21027",
 		"name": "L'Homme-Radioactif",
 		"scheme_text": "<b>Réponse forcée</b> : après que l'Homme-Radioactif s'est activé contre vous, infligez 1 dégât à chaque personnage que vous contrôlez.",
 		"traits": "Élite. Génie."
@@ -60,32 +60,32 @@
 		"text": "Incitation 2.\n<b>Une fois révélée</b> : si la manigance annexe Église Universelle de la Vérité est en jeu, défaussez 10 cartes du dessus de votre deck. Sinon, cherchez l'Église Universelle de la Vérité dans le deck Rencontre, la pile de défausse Rencontre ou parmi les cartes mises de côté et révélez-la. Mélangez le deck Rencontre."
 	},
 	{
+		"attack_text": "<b>Interruption forcée</b> : quand Mâchoire d'Ébène s'active contre vous, retirez un jeton Invocation de chaque carte [[SORT]] dans votre zone de jeu.",
 		"code": "21071",
 		"flavor": "<b><i>\"Vos pouvoirs sont... amusants. Laissez-moi vous montrer de la vraie magie.\"</i></b>",
 		"name": "Mâchoire d'Ébène",
-		"attack_text": "<b>Interruption forcée</b> : quand Mâchoire d'Ébène s'active contre vous, retirez un jeton Invocation de chaque carte [[SORT]] dans votre zone de jeu.",
 		"scheme_text": "<b>Interruption forcée</b> : quand Mâchoire d'Ébène s'active contre vous, retirez un jeton Invocation de chaque carte [[SORT]] dans votre zone de jeu.",
 		"traits": "Ordre Noir. Mystique."
 	},
 	{
+		"attack_text": "<b>Interruption forcée</b> : quand Mâchoire d'Ébène s'active contre vous, retirez un jeton Invocation de chaque carte [[SORT]] dans votre zone de jeu.",
 		"code": "21072",
 		"name": "Mâchoire d'Ébène",
-		"attack_text": "<b>Interruption forcée</b> : quand Mâchoire d'Ébène s'active contre vous, retirez un jeton Invocation de chaque carte [[SORT]] dans votre zone de jeu.",
 		"scheme_text": "<b>Interruption forcée</b> : quand Mâchoire d'Ébène s'active contre vous, retirez un jeton Invocation de chaque carte [[SORT]] dans votre zone de jeu.",
 		"text": "<b>Une fois révélée</b> : Chaque joueur défausse des cartes du dessus du deck Rencontre jusqu'à ce qu'il défausse une carte [[SORT]] et la met en jeu dans sa zone de jeu.",
 		"traits": "Ordre Noir. Mystique."
 	},
 	{
+		"attack_text": "<b>Interruption forcée</b> : quand Mâchoire d'Ébène s'active contre vous, retirez un jeton Invocation de chaque carte [[SORT]] dans votre zone de jeu.",
 		"code": "21073",
 		"name": "Mâchoire d'Ébène",
-		"attack_text": "<b>Interruption forcée</b> : quand Mâchoire d'Ébène s'active contre vous, retirez un jeton Invocation de chaque carte [[SORT]] dans votre zone de jeu.",
 		"scheme_text": "<b>Interruption forcée</b> : quand Mâchoire d'Ébène s'active contre vous, retirez un jeton Invocation de chaque carte [[SORT]] dans votre zone de jeu.",
 		"text": "<b>Une fois révélée</b> : Chaque joueur défausse des cartes du dessus du deck Rencontre jusqu'à ce qu'il défausse une carte [[SORT]] et la met en jeu dans sa zone de jeu.",
 		"traits": "Ordre Noir. Mystique."
 	},
 	{
-		"back_name": "Attaque sur Nulle-Part",
 		"back_flavor": "<b><i>Mâchoire d'Ébène mène un assaut sur Nulle -Part afin de récupérer la Pierre du Pouvoir qui y est gardée.</i></b>",
+		"back_name": "Attaque sur Nulle-Part",
 		"back_text": "<b>Contenu</b> : Mâchoire d'Ébène (I) et Mâchoire d'Ébène (II). <i>(Mâchoire d'Ébène (II) et Mâchoire d'Ébène (III) à la place en mode expert.)</i> Les sets de rencontre Mâchoire d'Ébène et Standard. Deux sets de rencontre modulaires (<i>Armées du Titan</i>) et <i>L'Ordre Noir</i>).",
 		"code": "21074",
 		"name": "Attaque sur Nulle-Part",
@@ -151,18 +151,18 @@
 		"text": "<b>Une fois révélée</b> : chaque joueur doit choisir : soit subir 2 dégâts, soit placer 2 menaces sur cette carte."
 	},
 	{
+		"attack_text": "Les attaques du Nain Noir gagnent Déferlement.",
 		"code": "21085",
 		"flavor": "\"Le Nain Noir est quelque peu obtus, mais il a son utilité.\" - Thanos",
 		"name": "Nain Noir",
-		"attack_text": "Les attaques du Nain Noir gagnent Déferlement.",
 		"traits": "Ordre Noir. Élite."
 	},
 	{
 		"attack_text": "<b>Réponse forcée</b> : après que Supergéante a attaqué et blessé un personnage, sonnez ce personnage.",
 		"code": "21086",
 		"flavor": "\"Ils disent que j'ai perdu l'esprit, mais peu importe : je peux dévorer le vôtre.\"",
-		"text": "Coup Rapide",
 		"name": "Supergéante",
+		"text": "Coup Rapide",
 		"traits": "Ordre Noir. Élite."
 	},
 	{
@@ -603,7 +603,8 @@
 		"text": "Attachez cette carte à Hela",
 		"traits": "Objet."
 	},
-	{	"boost_text": "<b>Boost</b> : attachez la Cape d'Hela à Hela.",
+	{
+		"boost_text": "<b>Boost</b> : attachez la Cape d'Hela à Hela.",
 		"code": "21148",
 		"flavor": "\"Hela n'est pas une guerrière ordinaire, et mes armes ne sont pas des armes ordinaires !\" - Hela",
 		"name": "Cape d'Hela",
@@ -669,8 +670,8 @@
 	{
 		"code": "21158",
 		"flavor": "\"Le froid ne m'a jamais dérangé.\" - Loki",
-		"text": "Attachez cette carte à votre identité.\nL'identité attachée ne peut pas se redresser.\n<b>Action d'alter ego</b> : dépensez les ressources suivantes : [energy][physical] -> défaussez cette carte.",
 		"name": "Gelé",
+		"text": "Attachez cette carte à votre identité.\nL'identité attachée ne peut pas se redresser.\n<b>Action d'alter ego</b> : dépensez les ressources suivantes : [energy][physical] -> défaussez cette carte.",
 		"traits": "Condition."
 	},
 	{
