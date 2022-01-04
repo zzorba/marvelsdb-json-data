@@ -20,55 +20,55 @@
 	{
 		"code": "23003",
 		"name": "Munitions Bunker",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Munitions Bunker -> Place 2 ammo counters here.\n <b>Hero Action</b>: Exhaust Munitions Bunker -> move each ammo counter here to War Machine.",
+		"text": "<b>Alter-Ego Action</b>: Exhaust Munitions Bunker → Place 2 ammo counters here.\n <b>Hero Action</b>: Exhaust Munitions Bunker -> move each ammo counter here to War Machine.",
 		"traits": "Location. S.H.I.E.L.D."
 	},
 	{
 		"code": "23004",
 		"name": "Upgraded Chassis",
-		"text": "War Machine gains the [[aerial]] trait.\n <b>Hero Response</b>: After you change to hero form, exhaust Upgraded Chassis -> give War Machine a tough status card.",
+		"text": "War Machine gains the [[aerial]] trait.\n <b>Hero Response</b>: After you change to hero form, exhaust Upgraded Chassis → give War Machine a tough status card.",
 		"traits": "Armor. Tech."
 	},
 	{
 		"code": "23005",
 		"name": "Gauntlet Gun",
-		"text": "<b>Resource</b>: Exhaust Gauntlet Gun -> generate a [wild] resource for a War Machine event and place 1 ammo counter on War Machine.",
+		"text": "<b>Resource</b>: Exhaust Gauntlet Gun → generate a [wild] resource for a War Machine event and place 1 ammo counter on War Machine.",
 		"traits": "Tech. Weapon."
 	},
 	{
 		"code": "23006",
 		"name": "Missile Launcher",
-		"text": "<b>Hero Action</b> (attack): Exhaust Missile Launcher and remove 1 ammo counter from War Machine -> deal 2 damage to an enemy. This attack gains ranged.",
+		"text": "<b>Hero Action</b> (attack): Exhaust Missile Launcher and remove 1 ammo counter from War Machine → deal 2 damage to an enemy. This attack gains ranged.",
 		"traits": "Tech. Weapon."
 	},
 	{
 		"code": "23007",
 		"name": "Shoulder Cannon",
-		"text": "<b>Hero Action</b> (attack): Exhaust Shoulder Cannon -> deal 1 damage to an enemy. You may remove 1 ammo from War Machine to ready shoulder cannon.",
+		"text": "<b>Hero Action</b> (attack): Exhaust Shoulder Cannon → deal 1 damage to an enemy. You may remove 1 ammo from War Machine to ready shoulder cannon.",
 		"traits": "Tech. Weapon."
 	},
 	{
 		"code": "23008",
 		"name": "Repulsor Beam",
-		"text": "<b>Hero Action</b> (attack): Remove 1 ammo counter from War Machine -> deal 4 damage to an enemy.",
+		"text": "<b>Hero Action</b> (attack): Remove 1 ammo counter from War Machine → deal 4 damage to an enemy.",
 		"traits": "Attack."
 	},
 	{
 		"code": "23009",
 		"name": "Targeted Strike",
-		"text": "<b>Hero Action</b> (thwart): Remove 1 ammo counter from War Machine -> remove 3 threat from a scheme.",
+		"text": "<b>Hero Action</b> (thwart): Remove 1 ammo counter from War Machine → remove 3 threat from a scheme.",
 		"traits": "Thwart."
 	},
 	{
 		"code": "23010",
 		"name": "Scorched Earth",
-		"text": "<b>Hero Action</b>: Remove 3 ammo counters from War Machine -> deal 3 damage to each enemy in play.",
+		"text": "<b>Hero Action</b>: Remove 3 ammo counters from War Machine → deal 3 damage to each enemy in play.",
 		"traits": "Tactic."
 	},
 	{
 		"code": "23011",
 		"name": "Full Auto",
-		"text": "<b>Hero Action</b> (attack): Remove 4 ammo counters from War Machine and choose an enemy -> deal 8 damage to that enemy. This attack gains overkill.",
+		"text": "<b>Hero Action</b> (attack): Remove 4 ammo counters from War Machine and choose an enemy → deal 8 damage to that enemy. This attack gains overkill.",
 		"traits": "Attack."
 	},
 	{
@@ -87,57 +87,59 @@
 	},
 	{
 		"code": "23016",
-		"flavor": "",
-		"name": "Command Team",
-		"text": "Uses (3 command counters).\n <b>Action</b>: Exhaust Command Team and remove 1 command counter from it -> ready an ally.",
+		"name": "Kommandoteam",
+		"text": "Anwendungen (3 Befehlsmarker).\n <b>Aktion</b>: Erschöpfe Kommandoteam und entferne 1 Befehlsmarker von dieser Karte → mache einen Verbündeten spielbereit.",
 		"traits": "S.H.I.E.L.D."
 	},
 	{
 		"code": "23017",
-		"name": "Sneak Attack",
-		"text": "<b>Action</b>: Choose an ally in your hand that shares a [[trait]] with your identity -> put that ally into play. If that ally is still in play at the end of the phase, discard it.",
-		"traits": "Tactic."
+		"flavor": "Überraschung!\" - Star-Lord",
+		"name": "Angriff aus dem Nichts",
+		"text": "<b>Aktion</b>: Wähle einen Verbündeten auf deiner Hand, der ein [[Merkmal]] mit deiner Identität gemeinsam hat → bringe den verbündeten ins Spiel. Falls der Verbündete am Ende der Phase noch im Spiel ist, lege ihn ab.",
+		"traits": "Taktik."
 	},
 	{
 		"code": "23018",
-		"name": "Save the Day",
-		"text": "<b>Hero Action</b>: Discard an ally your control -> remove threat from a scheme equal to that ally's printed cost.",
-		"traits": "Tactic."
+		"flavor": "\"Es gibt so Tage...Junge, Junge...und heute ist einer von diesen Tagen!\" - Spider-Man",
+		"name": "Den Tag retten",
+		"text": "<b>Held Aktion</b>: Lege einen Verbündeten unter deiner Kontrolle ab → entferne Bedrohung von einem Plan in Höhe der aufgedruckten Kosten des Verbündeten.",
+		"traits": "Taktik."
 	},
 	{
 		"code": "23019",
-		"name": "Go Down Swinging",
-		"text": "<b>Hero Action</b>: Discard an ally your control -> deal damage to an enemy equal to that ally's printed cost.",
-		"traits": "Tactic."
+		"flavor": "\"Spider-Mans Sprüche können einem ganz schön auf die Nerven gehen, aber ich sag dir eins - der Junge gibt niemals auf.\" - Captain America",
+		"name": "Mit Schwung untergehen",
+		"text": "<b>Held Aktion</b>: Lege einen Verbündeten unter deiner Kontrolle ab → Füge einem Gegner Schaden in Höhe der aufgedruckten Kosten des Verbündeten zu..",
+		"traits": "Taktik."
 	},
 	{
 		"code": "23024",
-		"name": "Two Against the World",
-		"text": "Team-Up (Iron Man and War Machine). Max 1 per deck.\n <b>Hero Action</b>: Search your deck for a [[tech]] upgrade and put it into play. Shuffle your deck. Ready Iron Man and War Machine.",
-		"traits": ""
+		"name": "Zwei gegen die Welt",
+		"text": "Teamwork (Iron Man und War Machine). Max. 1 pro Deck.\n <b>Held Aktion</b>: Durchsuche dein Deck nach einem [[Tech]]-Upgrade und bringe es ins Spiel. Mische dein Deck. Mache Iron Man und War Machine spielbereit.",
 	},
 	{
 		"code": "23032",
-		"name": "As One!",
-		"text": "Alliance.\n <b>Hero Action</b> (attack): Exhaust an [[avenger]] character and a [[guardian]] character -> deal X damage to enemy, where X is the combined ATK of those characters. This ATK gains overkill.",
-		"traits": "Attack."
+		"name": "Alle zusammen!",
+		"text": "Allianz.\n <b>Held Aktion</b> (Angriff): Erschöpfe einen [[Avenger]]-Charakter und einen [[Guardian]]-Charakter → füge einem Gegner X Schaden zu. X ist der kombinierte ANG-Wert beider Charaktere. Dieser Angriff erhält Overkill",
+		"traits": "Angriff."
 	},
 	{
 		"code": "23033",
-		"name": "Vigilante Training",
-		"text": "Max 2 per deck. Uses (2 training counters).\n <b>Alter-Ego Action</b>: Exhaust this card and remove 1 training counter from it -> choose a justice (yellow) event in your discard pile and shuffle it into your deck.",
-		"traits": "Condition."
+		"name": "Bürgerwehrtraining",
+		"text": "Max. 2 pro Deck. Anwendungen (2 Trainingsmarker).\n <b>Alter-Ego Aktion</b>: Erschöpfe diese Karte und entferne 1 Trainingsmarker von ihr → wähle ein Gerechtigkeits-Ereignis (gelb) aus deinem Ablagestapel und mische es in dein Deck.",
+		"traits": "Zustand."
 	},
 	{
 		"code": "23034",
-		"name": "Stand Together",
-		"text": "Alliance.\n <b>Hero Interrupt</b>: When a friendly character would take any amount of damage from an attack, exhaust an [[avenger]] character and a [[guardian]] character -> prevent all of that damage. Deal that much damage to the attacking enemy.",
-		"traits": "Tactic."
+		"name": "Zusammenhalten",
+		"text": "Allianz.\n <b>Held Unterbrechung</b>: Sobald ein befreundeter Charakter eine beliebige Menge an Schaden durch einem Angriff nehmen würde, erschöpfe einen [[Avenger]]-Charakter und einen [[Guardian]]-Charakter → verhindere allen Schaden davon. Füge diese Menge an Schaden dem angreifenden Gegner zu.",
+		"traits": "Taktik."
 	},
 	{
 		"code": "23035",
-		"name": "Sidearm",
-		"text": "Attach to an ally. Max 1 per ally.\n Attached ally gets +1 ATK and its attacks gain ranged.",
-		"traits": "Weapon."
+		"flavor": "\"Wow! Cooles Kostüm, Mister!\" - Kind",
+		"name": "Handfeuerwaffe",
+		"text": "Hänge diese Karte an einen Verbündeten an. Max. 1 pro Verbündeten.\n Der Verbündete mit diesem Upgrade bekommt +1 ANG und seine Angriffe erhalten Fernkampf.",
+		"traits": "Waffe."
 	}
 ]
