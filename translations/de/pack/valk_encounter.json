@@ -1,32 +1,33 @@
 [
 	{
 		"code": "25028",
-		"flavor": ""
-		"name": "Trouble in Otherworld",
-		"text": ""
+		"name": "Äger in Otherworld",
+		"text": "<b><i>Gib dies dem Spieler von Brunnhilde.</i></b>\nValkyrie kann den Gegner mit Todesglühen nicht angreifen.\n<b>Alter-Ego Aktion</b>: gib [energy][mental]-Ressourcen aus → entferne Ärger in Otherworld aus dem Spiel."
 	},
 	{
 		"code": "25029",
-		"flavor": ""
+		"flavor": "\"Du kannst nicht bekämpfen, was du begehrst.\""
 		"name": "Enchantress",
-		"text": ""
+		"text": "<b>Sobald aufgedeckt</b>: Durchsuche das Begegnungsdeck, den Ablagestapel und die beiseitegelegten Karten nach einem Exemplar von Verführt und hänge es an deine Identität an. (Mische.)\n(Valkyries Erzfeind-Scherge.)"
+		"traits": "Asgard.Elite."
 	},
 	{
 		"code": "25030",
-		"flavor": ""
-		"name": "Powerful Enchantments",
-		"text": ""
+		"flavor": "\"Hinter Amoras Charme verbergen sich herzloser Ehrgeiz und die Macht, alle zu unterwerfen, die ihr im Weg stehen.\""
+		"name": "Mächtige Verzauberungen",
+		"text": "Hindernis 1 [per_hero].\nSpieler können keine Anhänge ablegen, die an befreundete Chraktere angehängt sind."
 	},
 	{
 		"code": "25031",
-		"flavor": ""
-		"name": "Beguiled",
-		"text": ""
+		"name": "Betört",
+		"text": "Behandle den Verbündeten mit diesem Anhang als einen [[Bezaubert]]-Schergen mit leerem Textfeld. Sein PLA-Wert entspricht dem aufgedruckten WID-Wert und er nimmt keinerlei Folgeschaden.\n<b>Sobald aufgedeckt</b>: Hänge diese Karte an den Verbündeten mit den höchsten Kosten an, an den keine Karte Betört angehängt ist. Er verwickelt seinen kontrollierenden Spieler in einen Kampf. Ansonsten erhält diese Karte Nachrüsten."
+		"traits": "Zustand."
 	},
 	{
 		"code": "25032",
-		"flavor": ""
-		"name": "Seduced",
-		"text": ""
+		"flavor": "\"Du liebst mich doch, oder?\" - Enchantress"
+		"name": "Verführt",
+		"text": "Hänge diese Karte an deine Identität an.\nDu kannst keine Basisangriffe durchführen oder [[Angriff]]-Ereignisse spielen.\n<b>Alter-Ego Aktion</b>: Gib [energy][mental]-Ressourcen aus → lege diese Karte ab."
+		"traits": "Zustand."
 	}
 ]
