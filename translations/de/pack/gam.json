@@ -2,80 +2,81 @@
     {
         "code": "18001a",
         "name": "Gamora",
-        "text": "Finesse — <b>Response:</b> After you play an [[attack]] event, remove 1 threat from a scheme. (Limit once per phase.)\nPrecision — <b>Response:</b> After you play an [[thwart]] event, deal 1 damage to an enemy. (Limit once per phase.)",
+        "text": "Finesse — <b>Reaktion:</b> Nachdem du ein [[Angriff]]-Ereignis gespielt hast, entferne 1 Bedrohung von einem Plan. (Nur ein Mal pro Phase.)\nPräzision — <b>Reaktion:</b> Nachdem du ein [[Widerstand]]-Ereignis gespielt hast, füge einem Gegner 1 Schaden zu. (Nur ein Mal pro Phase.)",
         "traits": "Guardian."
     },
     {
         "code": "18001b",
         "name": "Gamora",
-        "text": "Skilled Tactician — You may include up to 6 [[attack]] and [[thwart]] events in your deck from aspects other than your own.\n<b>Action:</b> Look at the top card of your deck. If that card is an [[attack]] or [[thwart]] event, draw it. (Limit once per phase.)",
-        "traits": "Outlaw."
+        "text": "Geschickte Taktikerin — Du darfst bis zu 6 [[Angriff]]- und/oder [[Widerstand]]-Ereignisse aus anderen Aspekten als deinem gewählten Aspekt in dein Deck aufnehmen.\n<b>Aktion:</b> Sieh dir die oberste Karte deines Decks an. Falls es ein [[Angriff]]- oder [[Widerstand]]-Ereignis ist, ziehe es. (Nur ein Mal pro Runde.)",
+        "traits": "Gesetzloser."
     },
     {
         "code": "18002",
-        "flavor": "\"This will be a fast fight.\"",
+        "flavor": "\"Das wird ein kurzer Kampf.\"",
         "name": "Nebula",
-        "text": "<b>Response:</b> After Nebula enters play, search your deck for an [[attack] or [[thwart]] event and add it to your hand. Shuffle your deck.",
+        "text": "<b>Reaktion:</b> Nachdem Nebula ins Spiel gekommen ist, durchsuche dein Deck nach einem [[Angriff]]- oder [[Widerstand]]-Ereignis und nimm es auf deine Hand. Mische dein Deck.",
         "traits": "Guardian."
     },
     {
         "code": "18003",
-        "flavor": "\"If you really knew me as well as you thought you did, you would not have attacked me.\" - Gamora",
-        "name": "Acrobatic Move",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 2 damage to an enemy.",
-        "traits": "Attack."
+        "flavor": "\"Wenn du mich wirklich so gut kennen würdest, wie du glaubst, dann hättest du mich nicht angegriffen.\" - Gamora",
+        "name": "Kampfakrobatik",
+        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Füge einem Gegner 2 Schaden zu.",
+        "traits": "Angriff."
     },
     {
         "code": "18004",
-        "flavor": "\"That decision will be your last!\" - Gamora",
-        "name": "Crosscounter",
-        "text": "<b>Hero Interrupt</b> <i>(attack/defense/thwart)</i>: When you would take any amount of damage, prevent 3 of that damage. Deal 1 damage to an enemy. Remove 1 threat from a scheme.",
-        "traits": "Attack. Defense. Thwart."
+        "flavor": "\"Diese Entscheidung wird deine letzte sein!\" - Gamora",
+        "name": "Kreuzkonter",
+        "text": "<b>Held Unterbrechung</b> <i>(Angriff/Verteidigung/Widerstand)</i>: Sobald du eine beliebige Menge an Schaden nehmen würdest, verhindere 3 Schaden davon. Füge einem Gegner 1 Schaden zu. Entferne 1 Bedrohung von einem Plan.",
+        "traits": "Angriff. Verteidigung. Widerstand."
     },
     {
         "code": "18005",
-        "name": "Set the Pace",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 1 threat from a scheme.",
-        "traits": "Thwart."
+        "flavor": "\"Sie haben noch nicht kapiert, dass es vorbei ist.\" - Gamora",
+        "name": "Tempo machen",
+        "text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Entferne 1 Bedrohung von einem Plan.",
+        "traits": "Widerstand."
     },
     {
         "code": "18006",
-        "flavor": "\"Thanos built me for one purpose: to kill. He'll soon realize that was a poor decision.\" - Gamora",
-        "name": "Decisive Blow",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy (7 damage instead if you have played a [[thwart]] event this turn).",
-        "traits": "Attack."
+        "flavor": "\"Thanos hat mich nur zu einem Zweck erschaffen: zum Töten. Er wird bald merken, dass das ein Fehler war.\" - Gamora",
+        "name": "Entscheidender Schlag",
+        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Füge einem Gegner 4 Schaden zu (7 Schaden stattdessen, falls du in diesem Zug ein [[Widerstand]]-Ereignis gespielt hast).",
+        "traits": "Angriff."
     },
     {
         "code": "18007",
-        "flavor": "\"This isn't going to go well for you.\" - Gamora",
-        "name": "Forward Momentum",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme (5 threat instead if you have played an [[attack]] event this turn).",
-        "traits": "Thwart."
+        "flavor": "\"Das wird nicht gut für dich ausgehen.\" - Gamora",
+        "name": "Vorwärtsdrang",
+        "text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Entferne 3 Bedrohung von einem Plan (5 Bedrohung stattdessen, falls du in diesem Zug ein [[Angriff]]-Ereignis gespielt hast).",
+        "traits": "Widerstand."
     },
     {
         "code": "18008",
-        "flavor": "\"I'm always prepared.\" - Gamora",
-        "name": "Conditioning Room",
-        "text": "<b>Alter-Ego Action</b>: Exhaust Conditioning Room → return the bottommost [[attack]] or [[thwart]] event from your discard pile to your hand. Heal 1 damage from Gamora.",
-        "traits": "Location."
+        "flavor": "\"Ich bin immer vorbereitet.\" - Gamora",
+        "name": "Trainingsraum",
+        "text": "<b>Alter-Ego Aktion</b>: Erschöpfe Trainingsraum → schicke das unterste -Ereignis in deinem Ablagestapel auf deine Hand zurück. Heile 1 Schaden von Gamora.",
+        "traits": "Ort."
     },
     {
         "code": "18009",
-        "flavor": "\"Take your chances with me. You won't regret it.\" - Gamora",
-        "name": "Keen Instincts",
-        "text": "<b>Resource</b>: Exhaust Keen Instincts → generate a [wild] resource for an [[attack]] or [[thwart]] event.",
-        "traits": "Skill."
+        "flavor": "\"Komm mit mir. Du wirst es nicht bereuen.\" - Gamora",
+        "name": "Sichere Instinkte",
+        "text": "<b>Ressource</b>: Erschöpfe Sichere Instinkte → erzeuge eine [wild]-Ressource für ein [[Angriff]]- oder [[Widerstand]]-Ereignis.",
+        "traits": "Fertigkeit."
     },
     {
         "code": "18010",
-        "name": "Gamora's Sword",
-        "text": "Restricted.\n<b>Response</b>: After you play an [[attack]] event, deal 1 damage to an enemy.",
-        "traits": "Weapon."
+        "name": "Gamoras Schwert",
+        "text": "Eingeschränkt. (Max. 2 eingeschränkte Karten pro Spieler.)\n<b>Reaktion</b>: Nachdem du ein [[Angriff]]-Ereignis gespielt hast, füge einem Gegner 1 Schaden zu.",
+        "traits": "Waffe."
     },
     {
         "code": "18011",
         "name": "Angela",
-        "text": "<b>Forced Response:</b> After Angela enters play under your control, search the top 10 cards of the encounter deck for a minion and put it into play engaged with you. Shuffle the encounter deck. If a minion was not put into play this way, discard Angela.",
+        "text": "<b>Erzwungene Reaktion:</b> Nachdem Angela unter deiner Kontrolle ins Spiel gekommen ist, durchsuche die obersten 10 Karten des Begegnungsdecks nach einem Schergen und bringe ihn mit dir im Kampf ins Spiel. Mische das Begegnungsdeck. Falls auf diese Weise kein Scherge ins Spiel gebracht wurde, lege Angela ab",
         "traits": "Asgard. Guardian."
     },
     {
