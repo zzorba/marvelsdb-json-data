@@ -2,88 +2,93 @@
     {
         "code": "22001a",
         "name": "Nebula",
-        "text": "<i>Combat Protocols</i> - <b>Forced Response</b>: After your turn begins, resolve the \"Special\" ability on each [[technique]] upgrade you control, then discard each [[technique]] upgrade resolved this way.",
+        "text": "<i>Kampfprotokolle</i> - <b>Erzwungene Reaktion</b>: Nachdem dein Zug begonnen hat, handle die [[Spezial]]-Fähigkeit auf jedem [[Technik]]-Upgrade unter deiner Kontrolle ab. Lege dann jedes auf diese Weise abgehandelte [[Technik]]-Upgrade ab. ",
         "traits": "Guardian."
     },
     {
         "code": "22001b",
+        "flavor": "\"Thanos hat mich nur zu einem Zweck gebaut: zum Töten. Irgendwann wird er das bereuen.\"",
         "name": "Nebula",
-        "text": "<i>Cybernetic Upgrades</i> - <b>Response</b>: After you play a [[technique]] upgrade, draw 2 cards. (Limit once per round.)",
-        "traits": "Outlaw."
+        "text": "<i>Kybernetische Upgrades</i> - <b>Reaktion</b>: Nachdem du ein [[Technik]]-Upgrade gespielt hast, ziehe 2 Karten. (Nur ein Mal pro Runde.)",
+        "traits": "Gesetzloser."
     },
     {
         "code": "22002",
+        "flavor": "\"Thanos hat uns beide für denselben Zweck ausgebildet.\"",
         "name": "Gamora",
-        "text": "<b>Response:</b> After you play Gamora, choose a [[technique]] upgrade you control, then resolve its \"Special\" ability.",
+        "text": "<b>Response:</b>Nachdem du Gamora gespielt hast, wähle ein [[Technik]]-Upgrade unter deiner Kontrolle und handle dann dessen [[Spezial]]-Fähigkeit ab.",
         "traits": "Guardian."
     },
     {
         "code": "22003",
-        "name": "Nebula's Ship",
-        "text": "<b>Resource</b>: Exhaust Nebula's Ship -> generate a [wild] resource.",
-        "traits": "Vehicle."
+        "flavor": "\"Mir hat es besser gefallen, als ich diejenige war, die auf dein Schiff gezielt hat\" -- Gamora",
+        "name": "Nebulas Schiff",
+        "text": "<b>Ressource</b>: Erschöpfe Nebulas Schiff → erzeuge eine [wild]-Ressource.",
+        "traits": "Fahrzeug."
     },
     {
         "code": "22004",
-        "name": "Cutthroat Amibition",
-        "text": "While Nebula is in hero form, her attacks gain piercing and overkill.\n <b>Special</b> <i>(thwart)</i>: Remove 3 threat from a scheme.",
-        "traits": "Technique."
+        "flavor": "\"Ich bin genauso eine echte Kriegerin wie du!\" -- Nebula",
+        "name": "Mörderische Ambitionen",
+        "text": "Solange Nebula in Heldengestalt ist, erhalten ihre Angriffe Durchdringend und Overkill.\n <b>Spezial</b> <i>(Widerstand)</i>: Entferne 3 Bedrohung von einem Plan.",
+        "traits": "Technik."
     },
     {
         "code": "22005",
-        "name": "Evasive Maneuvering",
-        "text": "While in hero form, Nebula ignores the guard keyword, the patrol keyword, and the crisis icon.\n <b>Special</b> : Choose to either sun or confuse an enemy.",
-        "traits": "Technique."
+        "name": "Ausweichmanöver",
+        "text": "Solange Nebula in Heldengestalt ist, ignoriert sie die Schlüsselwörter Wache und Patrouille sowie das Krisensymbol.\n <b>Spezial</b>: Wähle: Betäube oder verwirre einen Gegner.",
+        "traits": "Technik."
     },
     {
         "code": "22006",
-        "name": "Unyielding Persistence",
-        "text": "While in hero form, Nebula gets +1 THW, +1 ATK, and gains salwart.\n <b>Special</b> : Give Nebula a tough status card.",
-        "traits": "Technique."
+        "name": "Eiserne Beharrlichkeit",
+        "text": "Solange Nebula in Heldengestalt ist, bekommt sie +1 WID und +1 ANG und erhält Gestählt.\n <b>Spezial</b>: Gib Nebula eine Zäh- Statuskarte.",
+        "traits": "Technik."
     },
     {
         "code": "22007",
-        "name": "Weapons Master",
-        "text": "While in hero form, Nebula gains retaliate 1.\n <b>Special</b> <i>(attack)</i>: Deal 4 damage to an enemy.",
-        "traits": "Technique."
+        "name": "Waffenmeisterin",
+        "text": "Solange Nebula in Heldengestalt ist, erhält sie Vergeltung 1.\n <b>Spezial</b> <i>(Angriff)</i>: Füge einem Gegner 4 Schaden zu.",
+        "traits": "Technik."
     },
     {
         "code": "22008",
-        "name": "Wide Stance",
-        "text": "While Nebula is in hero form, reduce the amount of damage she takes from each attack by 1.\n <b>Special</b> : Look at the top 3 cards of the encounter deck. Discard 1 and put the others back in any order.",
-        "traits": "Technique."
+        "name": "Breitbeiniger Stand",
+        "text": "Solange Nebula in Heldengestalt ist, senke die Menge an Schaden, die sie durch jeden Angriff nimmt, um 1.\n <b>Spezial</b>: Sieh dir die obersten 3 Karten des Begegnungsdecks an. Lege 1 ab und lege die anderen in beliebiger Reihenfolge zurück.",
+        "traits": "Technik."
     },
     {
         "code": "22009",
-        "name": "Combat Ready",
-        "text": "<b>Alter-Ego Action</b>: Choose one:\n Shuffle up to 2 [[technique]] upgrades from your discard pile into your deck.\n Discard cards from the top of your deck until you discard a [[technique]] upgrade. Put that upgrade into play, then resolve its \"Special\" ability.",
-        "traits": "Skill."
+        "name": "Kampfbereit",
+        "text": "<b>Alter-Ego Aktion</b>: Wähle eines:\n Mische bis zu 2 [[Technik]]-Upgrades aus deinem Ablagestapel in dein Deck.\n Lege Karten von deinem Deck ab, bis du ein [[Technik]]-Upgrade ablegst. Bringe das Upgrade ins Spiel und handle dann dessen [[Spezial]]-Fähigkeit ab .",
+        "traits": "Fertigkeit."
     },
     {
         "code": "22010",
-        "name": "Lethal Intent",
-        "text": "<b>Hero Action</b>: Choose up to X [[technique]] upgrades you control. Resolve each of their \"Special\" abilities (in the order of your choice).",
+        "flavor": "\"Es war klug von den Guardians, mich zu fürchten, und noch klüger, mich anzuheuern.\" -- Nebula",
+        "name": "Tötliche Absicht",
+        "text": "<b>Held Aktion</b>: Wähle bis zu X [[Technik]]-Upgrades unter deiner Kontrolle. Handle jede ihrer [[Spezial]]-Fähigkeiten ab (in beliebiger Reihenfolge).",
         "traits": ""
     },
     {
         "code": "22011",
-        "flavor": "",
+        "flavor": "\"Es wird schwierig, aber wir retten dieses Universum... als Wächter der Galaxie."",
         "name": "Eros",
-        "text": "<b>Response:</b> After you play Eros from your hand, confuse a minion for each [mental] resource you used to pay for him.",
+        "text": "<b>Reaktion:</b> Nachdem du Eros von deiner Hand gespielt hast, verwirre einen Schergen für jede [mental]-Ressource, die du verwendet hast, um für ihn zu bezahlen.",
         "traits": "Guardian."
     },
     {
         "code": "22012",
-        "flavor": "",
+        "flavor": "\"Verzweifle nicht: Das Schicksal macht uns alle zu Sklaven."",
         "name": "Wraith",
-        "text": "<b>Hero Interrupt:</b> When a boost card is turned faceup, exhaust Wraith and deal 1 damage to him -> cancel that card's \"Boost\" effect.",
+        "text": "<b>Held Unterbrechung:</b> Sobald eine Boost-Karte auf ihre offene Seite gedreht wird, erschöpfe Wraith und füge ihm 1 Schaden zu → hebe den [[Boost]]-Effekt der Karte auf.",
         "traits": "Guardian."
     },
     {
         "code": "22013",
-        "flavor": "",
+        "flavor": "\"So viel zum Plan, es auf die einfache Art zu versuchen."",
         "name": "Venom",
-        "text": "While there is no threat on the main scheme, reduce all consequential damage Venom takes by 1.",
+        "text": "Solange keine Bedrohung auf dem Hauptplan liegt, senke allen Folgeschaden, den Venom nimmt, um 1.",
         "traits": "Guardian."
     },
     {
