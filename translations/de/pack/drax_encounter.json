@@ -1,142 +1,31 @@
 [
     {
-        "code": "19001a",
-        "name": "Drax",
-        "text": "Drax gets +1 ATK for each vengeance counter on him.\n <b>Response:</b> After the villain attacks Drax, place 1 vengeance counter here (to a maximum of 3). If you cannot, draw 1 card.",
-        "traits": "Guardian."
+        "code": "19025",
+        "name": "Erinnerung an ein anderes Leben",
+        "text": "<b><i>Gib dies dem Spieler von Drax.</i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n- Erschöpfe dein Alter Ego → entferne Erinnerung an ein anderes Leben aus dem Spiel.\n- Du wirst betäubt. Falls du bereits betäubt bist, erhält diese Karte Nachrüsten. Lege diese Verpflichtung ab."
     },
     {
-        "code": "19001b",
-        "name": "Drax",
-        "text": "<b>Forced Response:</b> After you change to this form, remove all vengeance counters from Drax. Heal 2 damage from him for each vengeance counter removed this way.",
-        "traits": "Outlaw."
+        "code": "19026",
+        "flavor": "Yotat der Zerstörer hat es sich zur Aufgabe gemacht, die Galaxie von allen zu befreien, die er für unterlegen hält.",
+        "name": "Die Schwachen zerstören",
+        "text": "Jeder Gegner bekommt +2 ANG."
     },
     {
-        "code": "19002",
-        "flavor": "\"Bring harm to this one at your own peril!\"",
-        "name": "Mantis",
-        "text": "<b>Action:</b> Exhaust Mantis and deal 1 damage to her → heal 3 damage from an identity.",
-        "traits": "Guardian."
+        "code": "19027",
+        "flavor": "\"Knie nieder vor dem wahren Zerstörer!\"",
+        "name": "Yotat der Zerstörer",
+        "text": "Vergeltung 1. Wache.\n<i>(Drax' Erzfeind-Scherge.)</i>",
+        "traits": "Schläger."
     },
     {
-        "code": "19003",
-        "flavor": "\"Hear me, Thanos! Titan or god, I shall yet obliterate you!\" - Drax",
-        "name": "\"Fight Me, Coward!\"",
-        "text": "<b>Hero Action</b>: Ready your hero and draw 1 card. The villain attacks you."
+        "code": "19028",
+        "name": "Herausforderung angenommen",
+        "text": "Nachrüsten.\nHänge diese Karte an den Gegner mit dem höchsten ANG-Wert an.\n<b>Erzwungene Reaktion</b>: Nachdem Drax dem Gegner mit diesem Anhang mit einem einzigen Angriff 4 oder mehr Schaden zugefügt hat, lege diese Karte ab."
     },
     {
-        "code": "19004",
-        "flavor": "\"Pay close attention because I'm only going to say this once: walk away and you live.\" - Drax",
-        "name": "Intimidation",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove X threat from a scheme, where X is equal to your ATK.",
-        "traits": "Thwart."
-    },
-    {
-        "code": "19005",
-        "name": "Knife Leap",
-        "text": "Reduce the cost to play this card by 1 for each vengeance counter on Draw.\n <b>Hero Interrupt</b>: When you make a basic attack, you get +5 ATK for that attack. That attack gains overkill and piercing.",
-        "traits": "Skill."
-    },
-    {
-        "code": "19006",
-        "flavor": "\"You are a fool to believe I'd fall to the likes of you!\" - Gamora",
-        "name": "Parry",
-        "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When you would take any amount of damage, prevent X of that damage, where X is equal to double your ATK.",
-        "traits": "Defense."
-    },
-    {
-        "code": "19007",
-        "flavor": "\"Would stabbing it help?\" - Drax",
-        "name": "Payback",
-        "text": "<b>Hero Response</b> <i>(attack)</i>: After the villain attacks you, deal X damage to the villain, where X is equal to your ATK.",
-        "traits": "Attack."
-    },
-    {
-        "code": "19008",
-        "name": "Drax's Knife",
-        "text": "Restricted (Max 2 restricted cards per player.)\n While in hero form, Drax gets +1 ATK.",
-        "traits": "Weapon."
-    },
-    {
-        "code": "19009",
-        "name": "Drax's Other Knife",
-        "text": "Restricted (Max 2 restricted cards per player.)\n While in hero form, Drax gains retaliate 1.",
-        "traits": "Weapon."
-    },
-    {
-        "code": "19010",
-        "flavor": "\"I will have my revenge against Thanos!\" - Drax",
-        "name": "DWI Theet Mastery",
-        "text": "<b>Hero Response</b>: After Drax makes a basic attack, draw 1 card.",
-        "traits": "Skill."
-    },
-    {
-        "code": "19011",
-        "name": "Too Stubborn to Die",
-        "text": "<b>Hero Interrupt</b>: When Drax would be defeated, instead set his hit point dial to 4, change him to alter-ego form, and remove this card from the game.",
-        "traits": "Condition."
-    },
-    {
-        "code": "19012",
-        "flavor": "\"You want to learn about pain? I'll teach you!\"",
-        "name": "Martyr",
-        "text": "<b>Response:</b> After Martyr takes consequential damage from performing an attack, if that attack defeated an enemy, give her a tough status card.",
-        "traits": "Guardian."
-    },
-    {
-        "code": "19013",
-        "flavor": "\"How dare you disturb my meditation?!\"",
-        "name": "Moondragon",
-        "text": "<b>Action:</b> Exhaust and discard Moondragon → choose a minion. That minion attacks another enemy of your choice.",
-        "traits": "Guardian."
-    },
-    {
-        "code": "19015",
-        "name": "Deflection",
-        "text": "<b>Hero Interrupt</b>: When an identity would take any amount of damage from an attack, prevent up to 5 of that damage. Discard cards from the top of your deck equal to the amount prevented this way.",
-        "traits": "Skill."
-    },
-    {
-        "code": "19016",
-        "flavor": "\"That'll teach you to underestimate me.\" - Star-Lord",
-        "name": "Hard Knocks",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. If that enemy is defeated by this attack, give your hero a tough status card.",
-        "traits": "Attack."
-    },
-    {
-        "code": "19017",
-        "name": "Leading Blow",
-        "text": "<b>Hero Interrupt</b>: When your hero makes a basic attack, discard the top card of the encounter deck → reduce your hero's ATK for that attack by the number of printed boost icons on that card. If that attack still deals damage, ready your hero.",
-        "traits": "Tactic."
-    },
-    {
-        "code": "19018",
-        "flavor": "\"Back, beast!\" - Captain America",
-        "name": "Subdue",
-        "text": "<b>Hero Interrupt</b>: When an enemy initates an attack, that enemy gets -3 ATK for that attack."
-    },
-    {
-        "code": "19020",
-        "name": "Gamora",
-        "text": "Play only if your identity has the [[guardian]] trait.\n <b>Hero Response</b>: After Gamora attacks or thwarts, discard cards from the top of your deck until you discard an event, than add that card to your hand.",
-        "traits": "Guardian."
-    },
-    {
-        "code": "19030",
-        "flavor": "\"You picked the wrong day, pal!.\" - Rocket Raccoon",
-        "name": "\"Bring It!\"",
-        "text": "Max 1 per phase.\n <b>Hero Action</b>: Draw 1 card for each minion engaged with you."
-    },
-    {
-        "code": "19031",
-        "flavor": "\"Hey, don't be angry at me! I definitely warned you.\" - Rocket Raccoon",
-        "name": "\"Think Fast!\"",
-        "text": "Play only if your identity has the [[guardian]] trait.\n <b>Hero Action</b>: Take 1 damage. Confuse the villain."
-    },
-    {
-        "code": "19032",
-        "name": "Regroup",
-        "text": "<b>Interrupt</b>: When an ally is defeated by an enemy attack, return it to its owner's hand instead of discarding it.\n <b>Forced Interrupt</b>: When the round ends, discard this card.",
-        "traits": "Tactic."
+        "code": "19029",
+        "flavor": "\"Nicht, wenn ich dich zuerst zerstöre!\" - Drax",
+        "name": "\"Ich werde dich zerstören!\"",
+        "text": "<b>Sobald aufgedeckt (Alter-Ego)</b>: Diese Karte erhält Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Yotat der Zerstörer greift dich mit +1 ANG an. Falls auf diese Weise kein Angriff durchgeführt wurde, greift dich der Schurke an."
     }
 ]
