@@ -6,6 +6,7 @@
 		"deck_limit": 1,
 		"defense": 1,
 		"faction_code": "hero",
+		"flavor": "\"I am the chooser of the slain.\"",
 		"hand_size": 5,
 		"health": 12,
 		"is_unique": true,
@@ -15,6 +16,7 @@
 		"position": 1,
 		"quantity": 1,
 		"set_code": "valk",
+		"text": "Death Perception — <b>Hero Action</b>: Play the set-aside Death-Glow upgrade as if it were in your hand.",
 		"thwart": 1,
 		"traits": "Asgard. Avenger.",
 		"type_code": "hero"
@@ -34,6 +36,7 @@
 		"quantity": 1,
 		"recover": 4,
 		"set_code": "valk",
+		"text": "<b>Setup:</b> Set the Death Glow upgrade aside, out of play.\n\"Not this Day.\" — <b>Action</b>: Detach Death-Glow and set it aside, out of play.",
 		"traits": "Asgard.",
 		"type_code": "alter_ego"
 	},
@@ -49,6 +52,7 @@
 		"quantity": 1,
 		"set_code": "valk",
 		"set_position": 1,
+		"text": "Attach to an enemy.\n<b>Forced Interrupt</b>: When attached enemy is defeated, set this card aside, out of play. If Valkyrie defeated that enemy, ready her.",
 		"traits": "Condition.",
 		"type_code": "upgrade"
 	},
@@ -58,6 +62,7 @@
 		"cost": 2,
 		"deck_limit": 1,
 		"faction_code": "hero",
+		"flavor": "\"I've got friends on Earth who could use some help\"",
 		"health": 2,
 		"is_unique": true,
 		"name": "Annabelle Riggs",
@@ -68,6 +73,7 @@
 		"resource_wild": 1,
 		"set_code": "valk",
 		"set_position": 2,
+		"text": "<b>Alter-Ego Action</b>: Exhaust Annabelle Riggs -> search the top 5 cards of your deck for a Valkyrie card and add it to your hand. Shuffle the rest back into your deck.",
 		"thwart": 1,
 		"traits": "Civilian.",
 		"type_code": "ally"
@@ -86,6 +92,7 @@
 		"resource_mental": 1,
 		"set_code": "valk",
 		"set_position": 3,
+		"text": "<b>Response</b>: After Valkyrie attacks and defeats the enemy that has Death-Glow attached, exhaust Valhalla -> draw 1 card and heal 1 damage from Valkyrie.",
 		"traits": "Asgard. Location.",
 		"type_code": "support"
 	},
@@ -103,6 +110,7 @@
 		"resource_physical": 1,
 		"set_code": "valk",
 		"set_position": 4,
+		"text": "Restricted.\nValkyrie gets +1 DEF (+2 DEF instead while defending against the enemy with Death Glow attached).",
 		"traits": "Asgard. Weapon.",
 		"type_code": "upgrade"
 	},
@@ -111,6 +119,7 @@
 		"cost": 1,
 		"deck_limit": 1,
 		"faction_code": "hero",
+		"flavor": "\"Dragonfang strikes swiftly and deep. You might be wise to surrender.\" —Valkyrie",
 		"is_unique": true,
 		"name": "Dragonfang",
 		"octgn_id": "8da37356-400a-4bef-85b9-91e218accfc6",
@@ -120,6 +129,7 @@
 		"resource_physical": 1,
 		"set_code": "valk",
 		"set_position": 5,
+		"text": "Restricted.\nValkyrie gets +1 ATK (+2 ATK instead while attacking the enemy with Death-Glow attached).",
 		"traits": "Asgard. Weapon.",
 		"type_code": "upgrade"
 	},
@@ -128,6 +138,7 @@
 		"cost": 2,
 		"deck_limit": 1,
 		"faction_code": "hero",
+		"flavor": "\"A fearless beast. If by his life or death he can save us all, he will.\" —Valkyrie",
 		"is_unique": true,
 		"name": "Aragorn",
 		"octgn_id": "edbf8564-b01a-4bd2-b57f-e183b8ecb733",
@@ -137,6 +148,7 @@
 		"resource_mental": 1,
 		"set_code": "valk",
 		"set_position": 6,
+		"text": "Valkyrie gets +4 hit points and gains the [[aerial]] trait.",
 		"traits": "Asgard. Creature.",
 		"type_code": "upgrade"
 	},
@@ -145,6 +157,7 @@
 		"cost": 2,
 		"deck_limit": 2,
 		"faction_code": "hero",
+		"flavor": "The Valkyrior carry the spirits of fallen warriors to Valhalla, if they be worthy.",
 		"name": "Flight of the Valkyrie",
 		"octgn_id": "3f55fbba-0183-4714-b4e2-530b61389eb5",
 		"pack_code": "valk",
@@ -153,6 +166,7 @@
 		"resource_energy": 1,
 		"set_code": "valk",
 		"set_position": 7,
+		"text": "<b>Response</b>: After the enemy with Death-Glow is defeated, discard Flight of the Valkyrior -> remove 5 threat from a scheme.",
 		"type_code": "upgrade"
 	},
 	{
@@ -160,6 +174,7 @@
 		"cost": 0,
 		"deck_limit": 1,
 		"faction_code": "hero",
+		"flavor": "As One of the Valkyrior, Valkyrie can open a portal to Valhalla whenever she wishes.",
 		"name": "Visit Valhalla",
 		"octgn_id": "d850c4fe-f757-4e33-a49b-718e526687e1",
 		"pack_code": "valk",
@@ -168,6 +183,7 @@
 		"resource_physical": 1,
 		"set_code": "valk",
 		"set_position": 9,
+		"text": "<b>Alter-Ego Action</b>: Return a Valkyrie card from your discard pile to your hand.",
 		"type_code": "event"
 	},
 	{
@@ -175,6 +191,7 @@
 		"cost": 0,
 		"deck_limit": 2,
 		"faction_code": "hero",
+		"flavor": "\"Your time has come. Die with honor.\" —Valkyrie",
 		"name": "Chooser of the Slain",
 		"octgn_id": "645f17e8-e5b3-4055-814d-9eb7995233a4",
 		"pack_code": "valk",
@@ -183,6 +200,7 @@
 		"resource_mental": 1,
 		"set_code": "valk",
 		"set_position": 10,
+		"text": "<b>Hero Action</b>: Search the encounter deck and discard pile for a minion and put it into play engaged with you -> draw 2 cards.",
 		"type_code": "event"
 	},
 	{
@@ -198,6 +216,7 @@
 		"resource_physical": 1,
 		"set_code": "valk",
 		"set_position": 12,
+		"text": "<b>Hero Interrupt</b>: When the enemy with Death-Glow attached attacks, declare Valkyrie the defender without exhausting her. She gets +2 DEF for this attack.",
 		"type_code": "event"
 	},
 	{
@@ -213,6 +232,7 @@
 		"resource_energy": 1,
 		"set_code": "valk",
 		"set_position": 14,
+		"text": "<b>Hero Action</b>(attack): Deal 7 damage to an enemy. If that enemy has Death-Glow attached, this attack gains overkill.",
 		"traits": "Attack.",
 		"type_code": "event"
 	},
@@ -232,6 +252,7 @@
 		"resource_energy": 1,
 		"subname": "Odinsson",
 		"thwart": 1,
+		"text": "Toughness.\n<b>Interrupt</b>: When Thor attacks a minion engaged with a player, spend a [energy] resource -> resolve this attack against each minion engaged with that player (in the order of your choice).",
 		"traits": "Asgard. Avenger.",
 		"type_code": "ally"
 	},
@@ -241,6 +262,7 @@
 		"cost": 2,
 		"deck_limit": 1,
 		"faction_code": "aggression",
+		"flavor": "\"Ribbit!\"",
 		"health": 2,
 		"is_unique": true,
 		"name": "Throg",
@@ -250,6 +272,7 @@
 		"quantity": 1,
 		"resource_energy": 1,
 		"thwart": 1,
+		"text": "<b>Response</b>: After Throg enters play, give him a tough status card if you are engaged with a minion.",
 		"traits": "Asgard. Guardian.",
 		"type_code": "ally"
 	},
@@ -279,12 +302,14 @@
 		"cost": 2,
 		"deck_limit": 3,
 		"faction_code": "aggression",
+		"flavor": "\"And stay down:\" —Power Man",
 		"name": "Quick Strike",
 		"octgn_id": "b051d27f-a51d-4ee5-ab1e-5270abe3bc52",
 		"pack_code": "valk",
 		"position": 18,
 		"quantity": 3,
 		"resource_physical": 1,
+		"text": "<b>Hero Action</b> (attack): Deal damage to an enemy equal to your ATK.",
 		"type_code": "event"
 	},
 	{
@@ -292,12 +317,14 @@
 		"cost": 1,
 		"deck_limit": 3,
 		"faction_code": "aggression",
+		"flavor": "\"Let Mjolnir speak!\" —Thor",
 		"name": "Smash the Problem",
 		"octgn_id": "e5eef58c-45b2-44d7-a3c0-46da414c711a",
 		"pack_code": "valk",
 		"position": 19,
 		"quantity": 3,
 		"resource_mental": 1,
+		"text": "<b>Hero Action</b> (thwart): Exhaust your hero -> remove threat from a scheme equal to your hero's ATK.",
 		"traits": "Thwart.",
 		"type_code": "event"
 	},
@@ -306,12 +333,14 @@
 		"cost": 0,
 		"deck_limit": 3,
 		"faction_code": "aggression",
+		"flavor": "\"I know we're Guardians of the Galaxy, but we prefer shooting to being shot at.\" —Rocket Raccoon",
 		"name": "The Best Defense…",
 		"octgn_id": "f1f60d8f-87fe-4b33-b249-4535017b8047",
 		"pack_code": "valk",
 		"position": 20,
 		"quantity": 3,
 		"resource_physical": 1,
+		"text": "<b>Hero Interrupt</b> (defense): When you hero defends against an attack, use its ATK instead of its DEF for this attack.",
 		"type_code": "event"
 	},
 	{
@@ -340,6 +369,7 @@
 		"position": 23,
 		"quantity": 1,
 		"resource_energy": 1,
+		"text": "Play only if you identity has the [[asgard]] trait.\n<b>Action<b>: Exhaust The Bifrost -> search your deck for an [[asgard]] ally and play it (paying its cost). Shuffle your deck.",
 		"traits": "Asgard. Location.",
 		"type_code": "support"
 	},
@@ -348,12 +378,14 @@
 		"cost": 0,
 		"deck_limit": 3,
 		"faction_code": "basic",
+		"flavor": "\"Showoff.\" —Jane Foster",
 		"name": "Godllike Stamina",
 		"octgn_id": "dd904456-03ca-4ae7-9755-e3d9f148357c",
 		"pack_code": "valk",
 		"position": 24,
 		"quantity": 3,
 		"resource_physical": 1,
+		"text": "Play only if your identity has the [[asgard]] trait.\n<b>Action</b>: Heal 2 damage from your identity. You may discard a status card from your identity.",
 		"type_code": "event"
 	},
 	{
@@ -388,6 +420,7 @@
 		"position": 33,
 		"quantity": 3,
 		"resource_physical": 1,
+		"text": "Alliance.\n<b>Hero Action</b> (thwart): Exhaust an [[avenger]] character and a [[guardian]] character -> remove X threat from each scheme, where X is equal to the combined THW of those characters.",
 		"traits": "Thwart.",
 		"type_code": "event"
 	},
@@ -402,6 +435,7 @@
 		"position": 34,
 		"quantity": 2,
 		"resource_mental": 1,
+		"text": "Max 2 per deck. Uses (2 training counters).\n<b>Alter-ego Action</b>: Exhaust this card and remove 1 training counter from it -> choose a leadership (blue) event in you discard pile and shuffle it into your deck.",
 		"traits": "Condition.",
 		"type_code": "support"
 	},
@@ -410,12 +444,14 @@
 		"cost": 1,
 		"deck_limit": 3,
 		"faction_code": "protection",
+		"flavor": "\"Bout time you showed up!\" —Hawkeye",
 		"name": "Anticipation",
 		"octgn_id": "5e38b56a-b343-42bb-8ac9-112e8cb56875",
 		"pack_code": "valk",
 		"position": 35,
 		"quantity": 3,
 		"resource_physical": 1,
+		"text": "Max 1 per player.\n<b>Hero Interrupt</b>: When you engage a minion, discard this card -> ready your hero.",
 		"traits": "Preparation.",
 		"type_code": "upgrade"
 	},
@@ -430,6 +466,7 @@
 		"position": 36,
 		"quantity": 3,
 		"resource_energy": 1,
+		"text": "Alliance. (The players can pay this card's costs as a group.)\n<b>Hero Action</b>: Choose an [[avenger]] character and a [[guardian]] character -> ready each of those characters.",
 		"type_code": "event"
 	}
 ]
