@@ -1,345 +1,345 @@
 [
-    {
-        "code": "04001a",
-        "flavor": "\"Ich bin vielleicht nicht der mächtigste Avenger, aber ich bin definitv der coolste.\"",
-        "name": "Hawkeye",
-        "text": "\"Schnelles Ziehen\" — <b>Aktion</b>: Erschöpfe Hawkeye → mache Hawkeyes Bogen spielbereit.",
-        "traits": "Avenger."
-    },
-    {
-        "code": "04001b",
-        "name": "Clint Barton",
-        "text": "Waffe der Wahl — <b>Aktion</b>: Gib 1 beliebige Ressource aus → durchsuche dein Deck und deinen Ablagestapel nach Hawkeyes Bogen und nimm ihn auf deine Hand. Misch dein Deck. (Nur ein Mal pro Phase).",
-        "traits": "S.H.I.E.L.D."
-    },
-    {
-        "code": "04002",
-        "name": "Hawkeyes Bogen",
-        "text": "Eingeschränkt.\nDein Held bekommt +1 ANG und jeder deiner [[Pfeil]]-Angriffe erhält Fernkampf (Fernkampfangriffe ignorieren Vergeltung.).",
-        "traits": "Waffe."
-    },
-    {
-        "code": "04003",
-        "name": "Hawkeyes Köcher",
-        "text": "[[Pfeil]]-Ereignisse, die an dieser Karte angehängt sind, darfst du spielen, als ob sie auf deiner Hand wären.\n<b>Held Aktion</b>: Erschöpfe Hawkeyes Köcher → durchsuche die obersten 5 Karten deines Decks nach einem [[Pfeil]]-Ereignis und hänge es offen an diese Karte an.",
-        "traits": "Gegenstand."
-    },
-    {
-        "code": "04004",
-        "flavor": "\"Mehr hast du nicht drauf?\"",
-        "name": "Mockingbird",
-        "text": "<b>Unterbrechung</b>:Sobald der Schurke einen Angriff gegen dich einleitet, gib 1 Ressource aus und schicke Mockingbird zurück auf deine Hand → verhindere allen Schaden dieses Angriffs.",
-        "traits": "Avenger. S.H.I.E.L.D.",
-        "subname": "Bobbi Morse"
-    },
-    {
-        "code": "04005",
-        "flavor": "IIIIIIEEEEEEEEEEEE!!!",
-        "name": "Schallpfeil",
-        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Erschöpfe Hawkeyes Bogen → verwirre einen Gegner und füge ihm 3 Schaden zu (5 Schaden stattdessen, falls er bereits verwirrt ist)",
-        "traits": "Pfeil. Angriff."
-    },
-    {
-        "code": "04006",
-        "flavor": "\"Hat dir schon mal jemand gesagt, wie sehr deine Augen funkeln, wenn du wütend bist?\" -- Clint Barton",
-        "name": "Explosionspfeil",
-        "text": "<b>Held Aktion</b>: Erschöpfe Hawkeyes Bogen und wähle einen Spieler → füge dem Schurken und jedem Schergen im Kampf mit dem Spieler 3 Schaden zu.",
-        "traits": "Pfeil."
-    },
-    {
-        "code": "04007",
-        "flavor": "\"Heil Hawkeye!\" -- Clint Barton",
-        "name": "Elektropfeil",
-        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Erschöpfe Hawkeyes Bogen → betäube einen Gegner und füge ihm 3 Schaden zu (5 Schaden stattdessen, falls er bereits betäubt ist).",
-        "traits": "Pfeil. Angriff."
-    },
-    {
-        "code": "04008",
-        "flavor": "\"Ein großartiges Fortbewegungsmittel.\" -- Clint Barton",
-        "name": "Seilpfeil",
-        "text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Erschöpfe Hawkeyes Bogen → entferne 3 Bedrohung von einem plan. Ignoriere dabei alle Krisensymbole im Spiel.",
-        "traits": "Pfeil. Widerstand."
-    },
-    {
-        "code": "04009",
-        "name": "Vibraniumpfeil",
-        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Erschöpfe Hawkeyes Bogen → füge einem Gegner 6 Schaden zu. Dieser Angriff erhält Durchdringend. (Lege alle Zäh-Statuskarten vom Ziel ab, bevor Schaden zugefügt wird.)",
-        "traits": "Pfeil. Angriff."
-    },
-    {
-        "code": "04010",
-        "flavor": "\"Wenn du an der Seite von Göttern und Monstern kämpfst, reicht es nicht aus, großartig zu sein. Du musst der Beste sein.\" -- Clint Barton",
-        "name": "Meisterschütze",
-        "text": "<b>Ressource</b>: Erschöpfe Meisterschütze → erzeuge für ein [[Pfeil]]-Ereignis eine [[wild]]-Ressource.",
-        "traits": "Fähigkeit."
-    },
-    {
-        "code": "04011",
-        "flavor": "\"Du siehst schon, dass ich gerade mit einem Pfeil auf dich ziele, oder?.\"",
-        "name": "Hawkeye",
-        "text": "<b>Aktion</b>: Erschöpfe diesen Verbündeten und lege 1 Karte von deiner Hand ab → füge einem Gegner X Schaden zu, wobei X die Anzahl der aufgedruckten Ressourcen auf der abgelegten Karte ist.",
-        "traits": "Avenger.",
-        "subname": "Kate Bishop"
-    },
-    {
-        "code": "04012",
-        "flavor": "\"Solange die Schwarze Klinge unheilvoll in meiner Hand leuchtet, muss ich weiterkämpfen.\"",
-        "name": "Black Knight",
-        "text": "Black Knights Basisangriff erhält Durchdringend. (Lege alle Zäh-Statuskarten vom Ziel ab, bevor Schaden zugefügt wird.)",
-        "traits": "Avenger.",
-        "subname": "Dane Whitman"
-    },
-    {
-        "code": "04013",
-        "flavor": "\"Ein Gentleman zu sein, bedeutet manchmal, die Tür aufzuhalten -- und den ganzen Rest des Gebäudes.\"",
-        "name": "Goliath",
-        "text": "<b>Aktion</b>: Goliath bekommt bis zum Ende der Phase +4 ANG. Lege Goliath am Ende der Phase ab. (Max. ein Mal pro Phase.)",
-        "traits": "Avenger.",
-        "subname": "Bill Foster"
-    },
-    {
-        "code": "04014",
-        "flavor": "\"Cap ist nicht der einzige Soldat, der sein Land liebt.\"",
-        "name": "U.S. Agent",
-        "text": "Vergeltung 1. (Nachdem dieser Charakter angegriffen worden ist, füge dem angreifenden Chrakter 1 Schaden zu.)",
-        "traits": "Avenger.",
-        "subname": "John Walker"
-    },
-    {
-        "code": "04015",
-        "name": "Sky-Cycle",
-        "text": "Hänge diese Karte an einen [[Avenger]]-Verbündeten an. Max. 1 pro Verbündeten.\nDer Verbündete mit diesem Upgrade erhält [[Fliegend]].\n<b>Aktion</b>: Erschöpfe Sky Cycle → mache den Verbündeten mit diesem Upgrade spielbereit.",
-        "traits": "Fahrzeug."
-    },
-    {
-        "code": "04016",
-        "flavor": "\"Wir warten meist nur darauf, dass Cap 'Avengers sammeln!' ruft, und greifen dann das an, was er angreift\" -- Clint Barton",
-        "name": "Teamtraining",
-        "text": "Spiele diese Karte unter die Kontrolle eines beliebigen Spielers. Max. 1 pro Spieler.\nJeder Verbündete unter deiner Kontrolle bekommt +1 Lebenspunkt.",
-        "traits": "Zustand."
-    },
-    {
-        "code": "04017",
-        "flavor": "\"Versuch das noch mal. Trau dich!\" -- Jessica Drew",
-        "name": "Bereit für Action",
-        "text": "<b>Held Aktion</b>: Gib einem Verbündeten unter deiner Kontrolle eine Zäh-Statuskarte.",
-        "traits": "Taktik."
-    },
-    {
-        "code": "04020",
-        "name": "War Machine",
-        "text": "Zähigkeit. (Dieser Chrakter kommt mit einer Zäh-Statuskarte ins Spiel.\nWar Machines Basisangriff erhält Fernkampf. (Fernkampfangriffe ignorieren Vergeltung.)",
-        "traits": "Avenger. S.H.I.E.L.D.",
-        "subname": "James Rhodes"
-    },
-    {
-        "code": "04022",
-        "flavor": "\"Wir kommen zusammen, um zu bekämpfen, was alleine nicht bekämpft werden kann.\" -- Luke Cage",
-        "name": "Die mächtigsten Helden der Welt",
-        "text": "<b>Held Aktion</b>: Erschöpfe einen [[avenger]]-Charakter unter deiner Kontrolle → mache einen anderen [[Avenger]]-Charakter unter deiner Kontrolle spielbereit.",
-        "traits": ""
-    },
-    {
-        "code": "04031a",
-        "name": "Spider-Woman",
-        "text": "\"Übermenschliche Agilität\" — <b>Unterbrechung</b>: Sobald du eine Aspektkarte spielst, bekommt Spider-Woman bis zum Ende der Runde +1 WID, +1 ANG, und +1 VER. (Nur ein Mal pro Runde für jeden Aspekt.)",
-        "traits": "Avenger. Spion."
-    },
-    {
-        "code": "04031b",
-        "name": "Jessica Drew",
-        "text": "Doppelagent — Wähle beim Deckbau zwei Aspekte statt einem. Du musst von jedem dieser Aspekte gleich viele Karten in deinem Deck aufnehmen.\n<b>Aktion:</b>: Sieh dir die oberste Karte eines beliebigen Dekcs an. (Nur ein Mal pro Runde.)",
-        "traits": "S.H.I.E.L.D. Spion."
-    },
-    {
-        "code": "04032",
-        "flavor": "\"Das muss ich dir lassen, Junge. Ich hab ja schon viel Mist gesehen, aber das hier ist beeindruckender als das meiste.\"",
-        "name": "Captain Marvel",
-        "text": "<b>Reaktion</b>: nachdem Captain Marvel eine Basiskraft verwendet hat, ziehe 1 Karte.",
-        "traits": "Avenger.",
-        "subname": "Carol Danvers"
-    },
-    {
-        "code": "04033",
-        "name": "Gewandtheit",
-        "text": "<b>Held Ressource</b>: Erschöpfe Gewandtheit → erzeuge für eine Aspektkarte eine [wild]-Ressource.",
-        "traits": "Condition."
-    },
-    {
-        "code": "04034",
-        "name": "Jessica Drews Apartment",
-        "text": "<b>Alter-Ego Aktion</b>: Erschöpfe Jessica Drews Apartment → durchsuche die obersten 5 Karten deines Decks nach einer Aspektkarte und nimm sie auf deine Hand. Mische dein Deck.",
-        "traits": "Ort."
-    },
-    {
-        "code": "04035",
-        "name": "Giftstoss",
-        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Füge einem Gegner 5 Schaden zu.",
-        "traits": "Angriff. Superkraft."
-    },
-    {
-        "code": "04036",
-        "flavor": "\"Kannst du mich das nächste mal bitte warnen, bevor du diese Kraft einsetzt, okay?\" -- Peter Parker",
-        "name": "Pheromone",
-        "text": "<b>Held Aktion</b>: betäube und verwirre einen Gegner.",
-        "traits": "Superkraft."
-    },
-    {
-        "code": "04037",
-        "name": "Giftimmunität",
-        "text": "<b>Held Aktion</b>: Heile 3 Schaden von Spider-Woman und gib ihre eine Zäh-Statuskarte.",
-        "traits": "Superkraft."
-    },
-    {
-        "code": "04038",
-        "flavor": "\"Jetzt muss ich nur noch leise wie eine Spinne einen Weg hineinfinden.\" -- Jessica Drew",
-        "name": "Unauffällig",
-        "text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Entferne insgesamt 3 Bedrohung von beliebigen Plänen im Spiel.",
-        "traits": "Fertigkeit. Widerstand."
-    },
-    {
-        "code": "04039",
-        "flavor": "\"Die Leute glauben immer, dass ich fliegen kann. Kann ich nicht. Aber den Gleitflug hab ich wirklich gut drauf.\" -- Jessica Drew",
-        "name": "Gleitflug",
-        "text": "<b>Held Aktion</b>: Mache Spider-Woman spielbereit. Bis zum Ende der Runde erhält sie das Merkmal [[Fliegend]].",
-        "traits": "Superkraft."
-    },
-    {
-        "code": "04040",
-        "flavor": "\"Also gut, ihr Loser. Wer will sich mit mir anlegen?.\"",
-        "name": "Spider-Girl",
-        "text": "<b>Reaktion</b>: Nachdem du Spider-Girl von deiner Hand gespielt hast, betäube und verwirre einen Schergen.",
-        "traits": "Avenger.",
-        "subname": "Anya Corazon"
-    },
-    {
-        "code": "04043",
-        "flavor": "\"Willkommen in Wakanda!\" -- T'Challa",
-        "name": "Den Vorteil ausnutzen",
-        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Füge einem Gegner 2 Schaden zu. Falls der Gegner betäubt oder verwirrt ist, ziehe 1 Karte.",
-        "traits": "Angriff."
-    },
-    {
-        "code": "04044",
-        "name": "Durchdringender Hieb",
-        "text": "<b>Held Aktion</b> <i>(Angriff)</i>: Füge einem Gegner 3 Schaden zu. Dieser Angriff erhält Durchdringend. (Lege alle Zäh-Statuskarten vom Ziel ab, bevor Schaden zugefügt wird.)",
-        "traits": "Angriff."
-    },
-    {
-        "code": "04045",
-        "flavor": "\"Im Ernst, warum immer New York? Würde es euch umbringen, zur Abwechslung mal Denver anzugreifen.\"",
-        "name": "Spider-Man",
-        "text": "<b>Reaktion</b>: Nachdem du Spider-Man von deiner Hand gespielt hast, entferne 3 [per_hero] Bedrohung von einem Nebenplan.",
-        "traits": "Avenger.",
-        "subname": "Peter Parker"
-    },
-    {
-        "code": "04047",
-        "name": "Erfahrener Ermittler",
-        "text": "Spiele diese Karte unter die Kontrolle eines beliebigen Spielers. Max. 1 pro Spieler.\n<b>Held Reaktion</b>: Nachdem ein Nebenplan besiegt worden ist, erschöpfe Erfahrener Ermittler → ziehe 1 Karte.",
-        "traits": "Fertigkeit."
-    },
-    {
-        "code": "04049",
-        "flavor": "\"Hab keine Angst, Kleines. Denk einfach daran, wie neidisch die anderen Kinder sein werden, wenn du ihnen erzählst, wie du von Iron Man gerettet wurdest.\" -- Tony Stark",
-        "name": "Räumt das Gebiet",
-        "text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Entferne 2 Bedrohung von einem Plan. Falls damit die letzte Bedrohung von dem Plan entfernt wird, ziehe 1 Karte.",
-        "traits": "Widerstand."
-    },
-    {
-        "code": "04155",
-        "name": "Adrenalin-Stimulierung",
-        "text": "Spielaufbau.\n<b>Held Aktion:</b> Lege diese Karte ab und entferne sie aus dem Kampagnenlogbuch → mache deinen Helden spielbereit und heile 5 Schaden von ihm.",
-        "traits": "Tech."
-    },
-    {
-        "code": "04156",
-        "name": "Taktischer Scanner",
-        "text": "Spielaufbau.\n<b>Held Aktion:</b> Lege diese Karte ab und entferne sie aus dem Kampagnenlogbuch → ziehe 5 Karten.",
-        "traits": "Tech."
-    },
-    {
-        "code": "04157",
-        "name": "Notfall-Teleporter",
-        "text": "Spielaufbau.\n<b>Held Aktion:</b> Lege diese Karte ab und entferne sie aus dem Kampagnenlogbuch → durchsuche dein Deck und deinen Ablagestapel nach einem Verbündeten, bringe ihn ins Spiel und gib ihm eine Zäh-Statuskarte.",
-        "traits": "Tech."
-    },
-    {
-        "code": "04158",
-        "name": "Laserkanone",
-        "text": "Spielaufbau.\n<b>Held Aktion:</b> Lege diese Karte ab und entferne sie aus dem Kampagnenlogbuch → füge dem Schurken und jedem Gegner im Kampf mit dir 5 Schaden zu.",
-        "traits": "Tech."
-    },
-    {
-        "code": "04159a",
-        "name": "Basis-Upgrade: Widerstand",
-        "text": "Dauerhaft. Spielaufbau.\nDu bekommst +2 Lebenspunkte.\nDein Held bekommt +1 WID.",
-        "traits": "Zustand."
-    },
-    {
-        "code": "04159b",
-        "name": "Power-Upgrade: Widerstand",
-        "text": "Dauerhaft. Spielaufbau.\nDu bekommst +2 Lebenspunkte.\nDein Held bekommt +1 WID.\n<b>Reaktion:</b> Nachdem du einen Nebenplan besiegt hast, erschöpfe diese Karte → ziehe 1 Karte.",
-        "traits": "Zustand."
-    },
-    {
-        "code": "04160a",
-        "name": "Basis-Upgrade: Angriff",
-        "text": "Dauerhaft. Spielaufbau.\nDu bekommst +1 Lebenspunkt.\nDein Held bekommt +1 ANG.",
-        "traits": "Zustand."
-    },
-    {
-        "code": "04160b",
-        "name": "Power-Upgrade: Angriff",
-        "text": "Dauerhaft. Spielaufbau.\nDu bekommst +1 Lebenspunkt.\nDein Held bekommt +1 ANG.\n<b>Held Reaktion:</b> Nachdem du einen Schergen besiegt hast, erschöpfe diese Karte → ziehe 1 Karte.",
-        "traits": "Zustand."
-    },
-    {
-        "code": "04161a",
-        "name": "Basis-Upgrade: Verteidigung",
-        "text": "Dauerhaft. Spielaufbau.\nDu bekommst +3 Lebenspunkte.\nDein Held bekommt +1 VER.",
-        "traits": "Zustand."
-    },
-    {
-        "code": "04161b",
-        "name": "Power-Upgrade: Verteidigung",
-        "text": "Dauerhaft. Spielaufbau.\nDu bekommst +3 Lebenspunkte.\nDein Held bekommt +1 VER.\n<b>Held Reaktion:</b> Nachdem du gegen ein Angriff verteidigt hast, erschöpfe diese Karte → ziehe 1 Karte.",
-        "traits": "Zustand."
-    },
-    {
-        "code": "04162a",
-        "name": "Basis-Upgrade: Erholung",
-        "text": "Dauerhaft. Spielaufbau.\nDu bekommst +4 Lebenspunkte.\nDein Alter Ego bekommt +1 ERH.",
-        "traits": "Zustand."
-    },
-    {
-        "code": "04162b",
-        "name": "Power-Upgrade: Erholung",
-        "text": "Dauerhaft. Spielaufbau.\nDu bekommst +4 Lebenspunkte.\nDein Alter Ego bekommt +1 ERH.\n<b>Reaktion:</b> Nachdem du deine ERH verwendet hast, erschöpfe diese Karte → ziehe 1 Karte.",
-        "traits": "Zustand."
-    },
-    {
-        "code": "04163",
-        "flavor": "\"Ein wunderschöner Parasit, der in den sichersten Computersystemen der Welt heranwächst.\" -- Arnim Zola",
-        "name": "Zolas Algorithmus",
-        "text": "<b>Alter-Ego Aktion</b> Erschöpfe deine Alter Ego und gib eine [mental]-Ressource aus → lege diese Karte ab."
-    },
-    {
-        "code": "04164",
-        "flavor": "\"Das muss genäht werden.\" -- Stephen Strange",
-        "name": "Medizinischer Notfall",
-        "text": "<b>Erzwungende Reaktion:</b> Nimm am Ende deines Zuges 1 Schaden, falls du in Heldengestalt bist.\n<b>Alter-Ego Aktion:</b> Lege die obersten 5 Karten deines Decks ab und gib eine [physical]-Ressource aus → lege diese Karte ab."
-    },
-    {
-        "code": "04165",
-        "flavor": "\"Nehmt ihn mit zum Verhör.\" -- Hydra-Soldat",
-        "name": "Kriegsrecht",
-        "text": "Dein Handlimit sinkt um 1.\n<b>Alter-Ego Aktion:</b> Teile dir selbst eine Begegnungskarte zu und gib eine [energy]-Ressource aus → lege diese Karte ab."
-    },
-    {
-        "code": "04166",
-        "flavor": "\"Diese Andersdenkenden schüren Konflikte. Sie sind eure wahren Feinde.\" -- Hydra News Media",
-        "name": "Anti-Helden-Propaganda",
-        "text": "Dein held bekommt -1 WID, -1 ANG und -1 VER.\n<b>Alter-Ego Aktion:</b> Nimm 2 Schaden und gib eine [wild]-Ressource aus → lege diese Karte ab."
-    }
+	{
+		"code": "04001a",
+		"flavor": "\"Ich bin vielleicht nicht der mächtigste Avenger, aber ich bin definitv der coolste.\"",
+		"name": "Hawkeye",
+		"text": "\"Schnelles Ziehen\" — <b>Aktion</b>: Erschöpfe Hawkeye → mache Hawkeyes Bogen spielbereit.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "04001b",
+		"name": "Clint Barton",
+		"text": "Waffe der Wahl — <b>Aktion</b>: Gib 1 beliebige Ressource aus → durchsuche dein Deck und deinen Ablagestapel nach Hawkeyes Bogen und nimm ihn auf deine Hand. Misch dein Deck. (Nur ein Mal pro Phase).",
+		"traits": "S.H.I.E.L.D."
+	},
+	{
+		"code": "04002",
+		"name": "Hawkeyes Bogen",
+		"text": "Eingeschränkt.\nDein Held bekommt +1 ANG und jeder deiner [[Pfeil]]-Angriffe erhält Fernkampf (Fernkampfangriffe ignorieren Vergeltung.).",
+		"traits": "Waffe."
+	},
+	{
+		"code": "04003",
+		"name": "Hawkeyes Köcher",
+		"text": "[[Pfeil]]-Ereignisse, die an dieser Karte angehängt sind, darfst du spielen, als ob sie auf deiner Hand wären.\n<b>Held Aktion</b>: Erschöpfe Hawkeyes Köcher → durchsuche die obersten 5 Karten deines Decks nach einem [[Pfeil]]-Ereignis und hänge es offen an diese Karte an.",
+		"traits": "Gegenstand."
+	},
+	{
+		"code": "04004",
+		"flavor": "\"Mehr hast du nicht drauf?\"",
+		"name": "Mockingbird",
+		"subname": "Bobbi Morse",
+		"text": "<b>Unterbrechung</b>:Sobald der Schurke einen Angriff gegen dich einleitet, gib 1 Ressource aus und schicke Mockingbird zurück auf deine Hand → verhindere allen Schaden dieses Angriffs.",
+		"traits": "Avenger. S.H.I.E.L.D."
+	},
+	{
+		"code": "04005",
+		"flavor": "IIIIIIEEEEEEEEEEEE!!!",
+		"name": "Schallpfeil",
+		"text": "<b>Held Aktion</b> <i>(Angriff)</i>: Erschöpfe Hawkeyes Bogen → verwirre einen Gegner und füge ihm 3 Schaden zu (5 Schaden stattdessen, falls er bereits verwirrt ist)",
+		"traits": "Pfeil. Angriff."
+	},
+	{
+		"code": "04006",
+		"flavor": "\"Hat dir schon mal jemand gesagt, wie sehr deine Augen funkeln, wenn du wütend bist?\" -- Clint Barton",
+		"name": "Explosionspfeil",
+		"text": "<b>Held Aktion</b>: Erschöpfe Hawkeyes Bogen und wähle einen Spieler → füge dem Schurken und jedem Schergen im Kampf mit dem Spieler 3 Schaden zu.",
+		"traits": "Pfeil."
+	},
+	{
+		"code": "04007",
+		"flavor": "\"Heil Hawkeye!\" -- Clint Barton",
+		"name": "Elektropfeil",
+		"text": "<b>Held Aktion</b> <i>(Angriff)</i>: Erschöpfe Hawkeyes Bogen → betäube einen Gegner und füge ihm 3 Schaden zu (5 Schaden stattdessen, falls er bereits betäubt ist).",
+		"traits": "Pfeil. Angriff."
+	},
+	{
+		"code": "04008",
+		"flavor": "\"Ein großartiges Fortbewegungsmittel.\" -- Clint Barton",
+		"name": "Seilpfeil",
+		"text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Erschöpfe Hawkeyes Bogen → entferne 3 Bedrohung von einem plan. Ignoriere dabei alle Krisensymbole im Spiel.",
+		"traits": "Pfeil. Widerstand."
+	},
+	{
+		"code": "04009",
+		"name": "Vibraniumpfeil",
+		"text": "<b>Held Aktion</b> <i>(Angriff)</i>: Erschöpfe Hawkeyes Bogen → füge einem Gegner 6 Schaden zu. Dieser Angriff erhält Durchdringend. (Lege alle Zäh-Statuskarten vom Ziel ab, bevor Schaden zugefügt wird.)",
+		"traits": "Pfeil. Angriff."
+	},
+	{
+		"code": "04010",
+		"flavor": "\"Wenn du an der Seite von Göttern und Monstern kämpfst, reicht es nicht aus, großartig zu sein. Du musst der Beste sein.\" -- Clint Barton",
+		"name": "Meisterschütze",
+		"text": "<b>Ressource</b>: Erschöpfe Meisterschütze → erzeuge für ein [[Pfeil]]-Ereignis eine [[wild]]-Ressource.",
+		"traits": "Fähigkeit."
+	},
+	{
+		"code": "04011",
+		"flavor": "\"Du siehst schon, dass ich gerade mit einem Pfeil auf dich ziele, oder?.\"",
+		"name": "Hawkeye",
+		"subname": "Kate Bishop",
+		"text": "<b>Aktion</b>: Erschöpfe diesen Verbündeten und lege 1 Karte von deiner Hand ab → füge einem Gegner X Schaden zu, wobei X die Anzahl der aufgedruckten Ressourcen auf der abgelegten Karte ist.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "04012",
+		"flavor": "\"Solange die Schwarze Klinge unheilvoll in meiner Hand leuchtet, muss ich weiterkämpfen.\"",
+		"name": "Black Knight",
+		"subname": "Dane Whitman",
+		"text": "Black Knights Basisangriff erhält Durchdringend. (Lege alle Zäh-Statuskarten vom Ziel ab, bevor Schaden zugefügt wird.)",
+		"traits": "Avenger."
+	},
+	{
+		"code": "04013",
+		"flavor": "\"Ein Gentleman zu sein, bedeutet manchmal, die Tür aufzuhalten -- und den ganzen Rest des Gebäudes.\"",
+		"name": "Goliath",
+		"subname": "Bill Foster",
+		"text": "<b>Aktion</b>: Goliath bekommt bis zum Ende der Phase +4 ANG. Lege Goliath am Ende der Phase ab. (Max. ein Mal pro Phase.)",
+		"traits": "Avenger."
+	},
+	{
+		"code": "04014",
+		"flavor": "\"Cap ist nicht der einzige Soldat, der sein Land liebt.\"",
+		"name": "U.S. Agent",
+		"subname": "John Walker",
+		"text": "Vergeltung 1. (Nachdem dieser Charakter angegriffen worden ist, füge dem angreifenden Chrakter 1 Schaden zu.)",
+		"traits": "Avenger."
+	},
+	{
+		"code": "04015",
+		"name": "Sky-Cycle",
+		"text": "Hänge diese Karte an einen [[Avenger]]-Verbündeten an. Max. 1 pro Verbündeten.\nDer Verbündete mit diesem Upgrade erhält [[Fliegend]].\n<b>Aktion</b>: Erschöpfe Sky Cycle → mache den Verbündeten mit diesem Upgrade spielbereit.",
+		"traits": "Fahrzeug."
+	},
+	{
+		"code": "04016",
+		"flavor": "\"Wir warten meist nur darauf, dass Cap 'Avengers sammeln!' ruft, und greifen dann das an, was er angreift\" -- Clint Barton",
+		"name": "Teamtraining",
+		"text": "Spiele diese Karte unter die Kontrolle eines beliebigen Spielers. Max. 1 pro Spieler.\nJeder Verbündete unter deiner Kontrolle bekommt +1 Lebenspunkt.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "04017",
+		"flavor": "\"Versuch das noch mal. Trau dich!\" -- Jessica Drew",
+		"name": "Bereit für Action",
+		"text": "<b>Held Aktion</b>: Gib einem Verbündeten unter deiner Kontrolle eine Zäh-Statuskarte.",
+		"traits": "Taktik."
+	},
+	{
+		"code": "04020",
+		"name": "War Machine",
+		"subname": "James Rhodes",
+		"text": "Zähigkeit. (Dieser Chrakter kommt mit einer Zäh-Statuskarte ins Spiel.\nWar Machines Basisangriff erhält Fernkampf. (Fernkampfangriffe ignorieren Vergeltung.)",
+		"traits": "Avenger. S.H.I.E.L.D."
+	},
+	{
+		"code": "04022",
+		"flavor": "\"Wir kommen zusammen, um zu bekämpfen, was alleine nicht bekämpft werden kann.\" -- Luke Cage",
+		"name": "Die mächtigsten Helden der Welt",
+		"text": "<b>Held Aktion</b>: Erschöpfe einen [[avenger]]-Charakter unter deiner Kontrolle → mache einen anderen [[Avenger]]-Charakter unter deiner Kontrolle spielbereit.",
+		"traits": ""
+	},
+	{
+		"code": "04031a",
+		"name": "Spider-Woman",
+		"text": "\"Übermenschliche Agilität\" — <b>Unterbrechung</b>: Sobald du eine Aspektkarte spielst, bekommt Spider-Woman bis zum Ende der Runde +1 WID, +1 ANG, und +1 VER. (Nur ein Mal pro Runde für jeden Aspekt.)",
+		"traits": "Avenger. Spion."
+	},
+	{
+		"code": "04031b",
+		"name": "Jessica Drew",
+		"text": "Doppelagent — Wähle beim Deckbau zwei Aspekte statt einem. Du musst von jedem dieser Aspekte gleich viele Karten in deinem Deck aufnehmen.\n<b>Aktion:</b>: Sieh dir die oberste Karte eines beliebigen Dekcs an. (Nur ein Mal pro Runde.)",
+		"traits": "S.H.I.E.L.D. Spion."
+	},
+	{
+		"code": "04032",
+		"flavor": "\"Das muss ich dir lassen, Junge. Ich hab ja schon viel Mist gesehen, aber das hier ist beeindruckender als das meiste.\"",
+		"name": "Captain Marvel",
+		"subname": "Carol Danvers",
+		"text": "<b>Reaktion</b>: nachdem Captain Marvel eine Basiskraft verwendet hat, ziehe 1 Karte.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "04033",
+		"name": "Gewandtheit",
+		"text": "<b>Held Ressource</b>: Erschöpfe Gewandtheit → erzeuge für eine Aspektkarte eine [wild]-Ressource.",
+		"traits": "Condition."
+	},
+	{
+		"code": "04034",
+		"name": "Jessica Drews Apartment",
+		"text": "<b>Alter-Ego Aktion</b>: Erschöpfe Jessica Drews Apartment → durchsuche die obersten 5 Karten deines Decks nach einer Aspektkarte und nimm sie auf deine Hand. Mische dein Deck.",
+		"traits": "Ort."
+	},
+	{
+		"code": "04035",
+		"name": "Giftstoss",
+		"text": "<b>Held Aktion</b> <i>(Angriff)</i>: Füge einem Gegner 5 Schaden zu.",
+		"traits": "Angriff. Superkraft."
+	},
+	{
+		"code": "04036",
+		"flavor": "\"Kannst du mich das nächste mal bitte warnen, bevor du diese Kraft einsetzt, okay?\" -- Peter Parker",
+		"name": "Pheromone",
+		"text": "<b>Held Aktion</b>: betäube und verwirre einen Gegner.",
+		"traits": "Superkraft."
+	},
+	{
+		"code": "04037",
+		"name": "Giftimmunität",
+		"text": "<b>Held Aktion</b>: Heile 3 Schaden von Spider-Woman und gib ihre eine Zäh-Statuskarte.",
+		"traits": "Superkraft."
+	},
+	{
+		"code": "04038",
+		"flavor": "\"Jetzt muss ich nur noch leise wie eine Spinne einen Weg hineinfinden.\" -- Jessica Drew",
+		"name": "Unauffällig",
+		"text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Entferne insgesamt 3 Bedrohung von beliebigen Plänen im Spiel.",
+		"traits": "Fertigkeit. Widerstand."
+	},
+	{
+		"code": "04039",
+		"flavor": "\"Die Leute glauben immer, dass ich fliegen kann. Kann ich nicht. Aber den Gleitflug hab ich wirklich gut drauf.\" -- Jessica Drew",
+		"name": "Gleitflug",
+		"text": "<b>Held Aktion</b>: Mache Spider-Woman spielbereit. Bis zum Ende der Runde erhält sie das Merkmal [[Fliegend]].",
+		"traits": "Superkraft."
+	},
+	{
+		"code": "04040",
+		"flavor": "\"Also gut, ihr Loser. Wer will sich mit mir anlegen?.\"",
+		"name": "Spider-Girl",
+		"subname": "Anya Corazon",
+		"text": "<b>Reaktion</b>: Nachdem du Spider-Girl von deiner Hand gespielt hast, betäube und verwirre einen Schergen.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "04043",
+		"flavor": "\"Willkommen in Wakanda!\" -- T'Challa",
+		"name": "Den Vorteil ausnutzen",
+		"text": "<b>Held Aktion</b> <i>(Angriff)</i>: Füge einem Gegner 2 Schaden zu. Falls der Gegner betäubt oder verwirrt ist, ziehe 1 Karte.",
+		"traits": "Angriff."
+	},
+	{
+		"code": "04044",
+		"name": "Durchdringender Hieb",
+		"text": "<b>Held Aktion</b> <i>(Angriff)</i>: Füge einem Gegner 3 Schaden zu. Dieser Angriff erhält Durchdringend. (Lege alle Zäh-Statuskarten vom Ziel ab, bevor Schaden zugefügt wird.)",
+		"traits": "Angriff."
+	},
+	{
+		"code": "04045",
+		"flavor": "\"Im Ernst, warum immer New York? Würde es euch umbringen, zur Abwechslung mal Denver anzugreifen.\"",
+		"name": "Spider-Man",
+		"subname": "Peter Parker",
+		"text": "<b>Reaktion</b>: Nachdem du Spider-Man von deiner Hand gespielt hast, entferne 3 [per_hero] Bedrohung von einem Nebenplan.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "04047",
+		"name": "Erfahrener Ermittler",
+		"text": "Spiele diese Karte unter die Kontrolle eines beliebigen Spielers. Max. 1 pro Spieler.\n<b>Held Reaktion</b>: Nachdem ein Nebenplan besiegt worden ist, erschöpfe Erfahrener Ermittler → ziehe 1 Karte.",
+		"traits": "Fertigkeit."
+	},
+	{
+		"code": "04049",
+		"flavor": "\"Hab keine Angst, Kleines. Denk einfach daran, wie neidisch die anderen Kinder sein werden, wenn du ihnen erzählst, wie du von Iron Man gerettet wurdest.\" -- Tony Stark",
+		"name": "Räumt das Gebiet",
+		"text": "<b>Held Aktion</b> <i>(Widerstand)</i>: Entferne 2 Bedrohung von einem Plan. Falls damit die letzte Bedrohung von dem Plan entfernt wird, ziehe 1 Karte.",
+		"traits": "Widerstand."
+	},
+	{
+		"code": "04155",
+		"name": "Adrenalin-Stimulierung",
+		"text": "Spielaufbau.\n<b>Held Aktion:</b> Lege diese Karte ab und entferne sie aus dem Kampagnenlogbuch → mache deinen Helden spielbereit und heile 5 Schaden von ihm.",
+		"traits": "Tech."
+	},
+	{
+		"code": "04156",
+		"name": "Taktischer Scanner",
+		"text": "Spielaufbau.\n<b>Held Aktion:</b> Lege diese Karte ab und entferne sie aus dem Kampagnenlogbuch → ziehe 5 Karten.",
+		"traits": "Tech."
+	},
+	{
+		"code": "04157",
+		"name": "Notfall-Teleporter",
+		"text": "Spielaufbau.\n<b>Held Aktion:</b> Lege diese Karte ab und entferne sie aus dem Kampagnenlogbuch → durchsuche dein Deck und deinen Ablagestapel nach einem Verbündeten, bringe ihn ins Spiel und gib ihm eine Zäh-Statuskarte.",
+		"traits": "Tech."
+	},
+	{
+		"code": "04158",
+		"name": "Laserkanone",
+		"text": "Spielaufbau.\n<b>Held Aktion:</b> Lege diese Karte ab und entferne sie aus dem Kampagnenlogbuch → füge dem Schurken und jedem Gegner im Kampf mit dir 5 Schaden zu.",
+		"traits": "Tech."
+	},
+	{
+		"code": "04159a",
+		"name": "Basis-Upgrade: Widerstand",
+		"text": "Dauerhaft. Spielaufbau.\nDu bekommst +2 Lebenspunkte.\nDein Held bekommt +1 WID.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "04159b",
+		"name": "Power-Upgrade: Widerstand",
+		"text": "Dauerhaft. Spielaufbau.\nDu bekommst +2 Lebenspunkte.\nDein Held bekommt +1 WID.\n<b>Reaktion:</b> Nachdem du einen Nebenplan besiegt hast, erschöpfe diese Karte → ziehe 1 Karte.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "04160a",
+		"name": "Basis-Upgrade: Angriff",
+		"text": "Dauerhaft. Spielaufbau.\nDu bekommst +1 Lebenspunkt.\nDein Held bekommt +1 ANG.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "04160b",
+		"name": "Power-Upgrade: Angriff",
+		"text": "Dauerhaft. Spielaufbau.\nDu bekommst +1 Lebenspunkt.\nDein Held bekommt +1 ANG.\n<b>Held Reaktion:</b> Nachdem du einen Schergen besiegt hast, erschöpfe diese Karte → ziehe 1 Karte.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "04161a",
+		"name": "Basis-Upgrade: Verteidigung",
+		"text": "Dauerhaft. Spielaufbau.\nDu bekommst +3 Lebenspunkte.\nDein Held bekommt +1 VER.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "04161b",
+		"name": "Power-Upgrade: Verteidigung",
+		"text": "Dauerhaft. Spielaufbau.\nDu bekommst +3 Lebenspunkte.\nDein Held bekommt +1 VER.\n<b>Held Reaktion:</b> Nachdem du gegen ein Angriff verteidigt hast, erschöpfe diese Karte → ziehe 1 Karte.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "04162a",
+		"name": "Basis-Upgrade: Erholung",
+		"text": "Dauerhaft. Spielaufbau.\nDu bekommst +4 Lebenspunkte.\nDein Alter Ego bekommt +1 ERH.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "04162b",
+		"name": "Power-Upgrade: Erholung",
+		"text": "Dauerhaft. Spielaufbau.\nDu bekommst +4 Lebenspunkte.\nDein Alter Ego bekommt +1 ERH.\n<b>Reaktion:</b> Nachdem du deine ERH verwendet hast, erschöpfe diese Karte → ziehe 1 Karte.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "04163",
+		"flavor": "\"Ein wunderschöner Parasit, der in den sichersten Computersystemen der Welt heranwächst.\" -- Arnim Zola",
+		"name": "Zolas Algorithmus",
+		"text": "<b>Alter-Ego Aktion</b> Erschöpfe deine Alter Ego und gib eine [mental]-Ressource aus → lege diese Karte ab."
+	},
+	{
+		"code": "04164",
+		"flavor": "\"Das muss genäht werden.\" -- Stephen Strange",
+		"name": "Medizinischer Notfall",
+		"text": "<b>Erzwungende Reaktion:</b> Nimm am Ende deines Zuges 1 Schaden, falls du in Heldengestalt bist.\n<b>Alter-Ego Aktion:</b> Lege die obersten 5 Karten deines Decks ab und gib eine [physical]-Ressource aus → lege diese Karte ab."
+	},
+	{
+		"code": "04165",
+		"flavor": "\"Nehmt ihn mit zum Verhör.\" -- Hydra-Soldat",
+		"name": "Kriegsrecht",
+		"text": "Dein Handlimit sinkt um 1.\n<b>Alter-Ego Aktion:</b> Teile dir selbst eine Begegnungskarte zu und gib eine [energy]-Ressource aus → lege diese Karte ab."
+	},
+	{
+		"code": "04166",
+		"flavor": "\"Diese Andersdenkenden schüren Konflikte. Sie sind eure wahren Feinde.\" -- Hydra News Media",
+		"name": "Anti-Helden-Propaganda",
+		"text": "Dein held bekommt -1 WID, -1 ANG und -1 VER.\n<b>Alter-Ego Aktion:</b> Nimm 2 Schaden und gib eine [wild]-Ressource aus → lege diese Karte ab."
+	}
 ]
