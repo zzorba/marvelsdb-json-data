@@ -3,8 +3,10 @@
 		"attack": 1,
 		"code": "24001",
 		"faction_code": "encounter",
+		"flavor": "\"If you're not with me, you're on your own\"",
 		"health": 14,
 		"health_per_hero": true,
+		"illustrator": "Andrea Di Vitto & Laura Villari",
 		"is_unique": true,
 		"name": "The Hood",
 		"octgn_id": "9ddf6141-1223-4b30-b8cf-d73256190eae",
@@ -15,6 +17,7 @@
 		"set_code": "the_hood",
 		"set_position": 1,
 		"stage": 1,
+		"text": "<i>Foul Play</b> - <b>Special:</b> Discard the top card of the encounter deck. If that card does not belong to The Hood encounter set, deal it to yourself as a facedown encounter card.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -24,6 +27,7 @@
 		"faction_code": "encounter",
 		"health": 16,
 		"health_per_hero": true,
+		"illustrator": "Andrea Di Vitto & Laura Villari",
 		"is_unique": true,
 		"name": "The Hood",
 		"octgn_id": "ccae86ac-a7a6-47f6-a995-81340dce0e4f",
@@ -34,6 +38,7 @@
 		"set_code": "the_hood",
 		"set_position": 2,
 		"stage": 2,
+		"text": "<b>When Defeated:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck.\n\n<i>Foul Play</b> - <b>Special:</b> Discard the top 2 cards of the encounter deck. Deal the first card discarded this way that does not belong to The Hood encounter set to yourself as a facedown encounter card.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -43,6 +48,7 @@
 		"faction_code": "encounter",
 		"health": 18,
 		"health_per_hero": true,
+		"illustrator": "Andrea Di Vitto & Laura Villari",
 		"is_unique": true,
 		"name": "The Hood",
 		"octgn_id": "89b6ae86-aa38-482b-b404-9ce6e8d44365",
@@ -53,15 +59,19 @@
 		"set_code": "the_hood",
 		"set_position": 3,
 		"stage": 3,
+		"text": "<b>When Defeated:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck.\n\n<i>Foul Play</b> - <b>Special:</b> Discard the top 2 cards of the encounter deck. Deal each card discarded this way that does not belong to The Hood encounter set to yourself as a facedown encounter card.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
 	{
+		"back_name": "Making Connections",
+		"back_text": "<b>Contents:</b> The Hood (I) and The Hood (II). <i>(The Hood (II) and The Hood(III) instead for expert mode.)</i> The Hood and Standard encounter sets.\n<b>Setup:</b> Choose 7 modular encounter sets and set them aside (you may choose randomly). Choose 1 of those sets at random, then shuffle it intro the encounter deck.",
 		"base_threat": 1,
 		"code": "24004",
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
+		"flavor": "The Hood is recruiting an army, convincing various villains that they are stronger together than they are apart.",
 		"name": "Making Connections",
 		"octgn_id": "24a8b07f-1245-4ce3-9e98-d5c8477c114f",
 		"pack_code": "hood",
@@ -70,10 +80,14 @@
 		"set_code": "the_hood",
 		"set_position": 4,
 		"stage": 1,
+		"text": "<b>When Revealed:</b> Each player must resolve The Hood's \"Foul Play\" ability in player order.",
 		"threat": 5,
 		"type_code": "main_scheme"
 	},
 	{
+		"back_flavor": "Through hard work, determination, and a lot of illegal activity, the Hood has expanded his empire, gathering a formidable force that threatens the safety of every citizen in New York City.",
+		"back_name": "Promised Prosperity",
+		"back_text": "<b>When Revealed:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck. Place 1 acceleration token on the main scheme.",
 		"base_threat": 2,
 		"code": "24005",
 		"double_sided": true,
@@ -87,10 +101,14 @@
 		"set_code": "the_hood",
 		"set_position": 5,
 		"stage": 2,
+		"text": "<b>When Revealed:</b> Each player must resolve The Hood's \"Foul Play\" ability in player order. For each player who was not dealt at least 1 facedown encounter card this way, place 2 threat here.",
 		"threat": 8,
 		"type_code": "main_scheme"
 	},
 	{
+		"back_flavor": "With a legion of villains at his side, the Hood has established a domain of depravity that even the strongest heroes would be wise to fear.",
+		"back_name": "Crime State",
+		"back_text": "<b>When Revealed:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck. Place 1 acceleration token on the main scheme. Each player must resolve The Hood's \"Foul Play\" ability in player order.",
 		"base_threat": 3,
 		"code": "24006",
 		"double_sided": true,
@@ -104,6 +122,7 @@
 		"set_code": "the_hood",
 		"set_position": 6,
 		"stage": 3,
+		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, each player must resolve The Hood's \"Foul Play\" ability in player order.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 10,
 		"type_code": "main_scheme"
 	},
@@ -118,6 +137,7 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 7,
+		"text": "Attach to your identity.\n<b>Forced Response:</b> After The Hood activates against you, resolve his \"Foul Play\" ability\n<b>Alter-Ego Action:</b> Exhaust your identity and place 2 threat on the main scheme → discard this card.",
 		"type_code": "attachment"
 	},
 	{
@@ -131,11 +151,13 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 8,
+		"text": "Attach to The Hood.\nThe Hood gains retaliate 1 and steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>\n<b>Hero Action:</b> Spend [energy][mental][physical] resources → discard this card.",
 		"traits": "Armor.",
 		"type_code": "attachment"
 	},
 	{
-		"boost": 0,
+		"attack": 1,
+		"boost_text": "Reveal this card.",
 		"code": "24009",
 		"faction_code": "encounter",
 		"name": "The Hood's Pistol",
@@ -143,8 +165,10 @@
 		"pack_code": "hood",
 		"position": 9,
 		"quantity": 2,
+		"scheme": 1,
 		"set_code": "the_hood",
 		"set_position": 9,
+		"text": "Attach to The Hood.\n<b>Hero Action:</b> Spend [mental][physical] resources → discard this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -163,6 +187,7 @@
 		"scheme": 1,
 		"set_code": "the_hood",
 		"set_position": 11,
+		"text": "Guard.\n<b>When Revealed:</b> Resolve The Hood's \"Foul Play\" ability.\n<b>When Defeated:</b> The defeating player must resolve The Hood's \"Foul Play\" ability.",
 		"traits": "Criminal. Masters of Evil.",
 		"type_code": "minion"
 	},
@@ -179,10 +204,12 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 12,
+		"text": "Hinder 2 [per_hero]. <i>(When revealed, place 2 [per_hero] threat here.)</i>\n<b>Forced Interrupt:</b> When the villain phase begins, each player must resolve The Hood's \"Foul Play\" ability in player order.",
 		"type_code": "side_scheme"
 	},
 	{
 		"boost": 1,
+		"boost_text": "After this activation ends, resolve The Hood's \"Foul Play\" ability.",
 		"code": "24012",
 		"faction_code": "encounter",
 		"name": "Field Recruitment",
@@ -192,6 +219,7 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 13,
+		"text": "<b>When Revealed:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck. Resolve The Hood's \"Foul Play\" ability. Remove this card from the game.",
 		"type_code": "treachery"
 	},
 	{
@@ -205,6 +233,7 @@
 		"quantity": 3,
 		"set_code": "the_hood",
 		"set_position": 14,
+		"text": "<b>When Revealed (Alter-Ego):</b> The Hood schemes. Resolve The Hood's \"Foul Play\" ability.\n<b>When Revealed (Hero):</b> The Hood attacks you. Resolve The Hood's \"Foul Play\" ability.",
 		"type_code": "treachery"
 	},
 	{
