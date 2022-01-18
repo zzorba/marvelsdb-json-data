@@ -1,663 +1,663 @@
 [
-    {
-        "code": "01001a",
-        "flavor": "\"Je suis juste l'araignée sympa du quartier !\"",
-        "name": "Spider-Man",
-        "text": "Sens d'Araignée — <b>Interruption</b> : quand le méchant initie une attaque contre vous, piochez 1 carte.",
-        "traits": "Avenger."
-    },
-    {
-        "code": "01001b",
-        "flavor": "\"Là, tout de suite, j'échangerais bien tous mes pouvoirs de Spider-Man contre un bon livre et un fauteuil à bascule.\"",
-        "name": "Peter Parker",
-        "text": "Scientifique — <b>Ressource</b> : générez une ressource [mental]. (Limite d'une fois par round.)",
-        "traits": "Génie."
-    },
-    {
-        "code": "01002",
-        "flavor": "\"Je ne suis pas une héroïne. Je suis une voleuse.\"",
-        "name": "Black Cat",
-        "text": "<b>Réponse forcée</b> : après que vous avez joué Black Cat, défaussez les 2 cartes du dessus de votre deck. Ajoutez à votre main chaque carte avec une ressource [mental] imprimée défaussée par cet effet.",
-        "traits": "Héros à louer.",
-        "subname": "Felicia Hardy"
-    },
-    {
-        "code": "01003",
-        "flavor": "\"Tu t'es entraîné ? Parce que tu as failli me toucher.\" — Spider-Man",
-        "name": "Salto Arrière",
-        "text": "<b>Interruption</b> <i>(défense)</i> : quand vous êtes censé subir n'importe quelle quantité de dégâts d'une attaque, prévenez tous ces dégâts.",
-        "traits": "Défense. Compétence."
-    },
-    {
-        "code": "01004",
-        "flavor": "\"Mes sens d'araignée sont en alerte !\" — Spider-Man",
-        "name": "Sens d'Araignée Améliorés",
-        "text": "<b>Interruption de héros</b> : quand une carte Trarise est révélée du deck Rencontre, annulez ses effets \"<b>Une fois révélée</b>\".",
-        "traits": "Super-pouvoir."
-    },
-    {
-        "code": "01005",
-        "flavor": "\"Taïaut !\" — Spider-Man",
-        "name": "Coup de pied en balancier",
-        "text": "<b>Action de héros</b> <i>(attaque)</i> : inflgez 8 dégâts à un ennemi.",
-        "traits": "Aérien. Attaque. Super-pouvoir."
-    },
-    {
-        "code": "01006",
-        "flavor": "\"Bonté divine, Peter ! Tu es si maladroit depuis quelques temps.\"",
-        "name": "Tante May",
-        "text": "<b>Action d'alter ego</b> : inclinez Tante May → heal 4 damage from Peter Parker.",
-        "traits": "Individu."
-    },
-    {
-        "code": "01007",
-        "name": "Spider-Traceur",
-        "text": "Attachez cette carte à un sbire.\n<b>Interruption forcée</b> : quand le sbier atatché est vaincu, retirez 3 menaces d'une manigance.",
-        "traits": "Objet. Tech."
-    },
-    {
-        "code": "01008",
-        "name": "Lance-toile",
-        "text": "Utilisations (3 jetons Toile). <i>(Entre en jeu avec 3 jetons. Quand il n'y en a plus, défaussez cette carte)</i>\n<b>Ressource de héros</b> : retirez 1 jeton Toile du Lance-Toile et inclinez → générez une ressource [wild].",
-        "traits": "Objet. Tech."
-    },
-    {
-        "code": "01009",
-        "name": "Pris dans la Toile",
-        "text": "Sous forme de héros uniquement. Attachez cette carte à une ennemi. 1 max par ennemi..\n<b>Interruption forcée</b> : quand l'ennemi attaché est censé attaquer, défaussez Pris dans la Toile à la place. Ensuite, sonnez cet ennemi.",
-        "traits": "Condition."
-    },
-    {
-        "code": "01010a",
-        "flavor": "\"Je n'abandonne jamais.\"",
-        "name": "Captain Marvel",
-        "text": "<i>Recanaliser</i> — <b>Action</b> : dépensez une ressource [energy] et soignez 1 dégât de Captain Marvel → draw 1 card. (Limite d'une fois par round.)",
-        "traits": "Avenger. Soldat."
-    },
-    {
-        "code": "01010b",
-        "flavor": "\"C'est mon boulot de protéger la Terre et tous ses habitants.\"",
-        "name": "Carol Danvers",
-        "text": "<i>Commandante</i> — <b>Action</b> : choisissez un joueur qui piohe 1 carte. (Limite d'une fois par round.)",
-        "traits": "S.H.I.E.L.D. Soldat."
-    },
-    {
-        "code": "01011",
-        "flavor": "\"C'est ce que je voulais : aider les innocents en envoyant les coupables à l'hôpital.\"",
-        "name": "Spider-Woman",
-        "text": "<b>Réponse</b> : après que Spider-Woman est entrée en jeu, désorientez le méchant.",
-        "traits": "Avenger. Espion.",
-        "subname": "Jessica Drew"
-    },
-    {
-        "code": "01012",
-        "flavor": "\"J'ai rarement vu une telle pagaille.\" — Carol Danvers",
-        "name": "Empêcher les Conflits",
-        "text": "<b>Action de héros</b> <i>(contre)</i> : retirez 2 menaces d'une manigance. Ensuite, si vous avez le trait [[Aérien]], retirez 2 menaces d'une autre manigance.",
-        "traits": "Contre."
-    },
-    {
-        "code": "01013",
-        "name": "Rayon Photonique",
-        "text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 5 dégâts à un ennemi. SI vous avez utilisé une ressource [energy] pour payer cette carte, piochez 1 carte.",
-        "traits": "Attaque. Super-pouvoir."
-    },
-    {
-        "code": "01014",
-        "flavor": "\"Cela suffit !\" — Carol Danvers",
-        "name": "Absorption d'Énergie"
-    },
-    {
-        "code": "01015",
-        "flavor": "Cette station en orbite basse peut acheminer équipage et cargaison depuis et vers le Triskelion",
-        "name": "Station Alpha Flight",
-        "text": "<b>Action</b> : inclinez la Station Alpha Flight, choisissez et défaussez 1 carte de votre main → piochez 1 carte (piochez 2 cartes si vous êtes Carol Danvers).",
-        "traits": "Lieu. S.H.I.E.L.D."
-    },
-    {
-        "code": "01016",
-        "flavor": "\"Il est tellement cool !\" — Jessica Drew",
-        "name": "Casque de Captain Marvel",
-        "text": "Captain Marvel gagne +1 DEF (+2 DEF à la place si vous avez le trait [[Aérien]]).",
-        "traits": "Armure. Tech."
-    },
-    {
-        "code": "01017",
-        "name": "Vol Cosmique",
-        "text": "Captain Marvel gagne le trait [[Aérien]].\n<b>Interruption de héros</b> (<i>défense</i>) : quand Captain Marvel est censée subir des dégâts, défaussez Vol Cosmique → prévenez 3 de ces dégâts.",
-        "traits": "Super-pouvoir."
-    },
-    {
-        "code": "01018",
-        "name": "Énergie Canalisée",
-        "text": "1 max par joueur.\n<b>Action</b> : dépensez X ressources [energy] → mettez X jetons Énergie sur cette carte.\n<b>Action de héros</b> <i>(attaque)</i> : défaussez Énergie Canalisée → infligez 2 dégâts par jeton Énergie sur cette carte à une ennemi (jusqu'à un maximum de 10 dégâts).",
-        "traits": "Super-pouvoir."
-    },
-    {
-        "code": "01019a",
-        "flavor": "\"Je mesure deux mètres et je suis vert fluo ! Les gens vont me regarder bizarrement quelle que soit la manière dont je m'habille.\"",
-        "name": "Miss Hulk",
-        "text": "\"<i>Tu fais de la muscu ?</i>\" — <b>Réponse</b> : après être passé sous cette forme, infligez 2 dégâts à un ennemi.",
-        "traits": "Avenger. Gamma."
-    },
-    {
-        "code": "01019b",
-        "flavor": "\"Je peux me changer en Miss Hulk quand je le veux. Mais ce n'est pas parce qu'on peut faire quelque chose qu'on doit toujours le faire.\"",
-        "name": "Jennifer Walters",
-        "text": "\"<i>Objection !</i>\" — <b>Interruption</b> : quand de la menace est censée être placée sur une manigance, prévenez 1 de ces menaces. (Limite d'une fois par round.)",
-        "traits": "Avocat. Gamma."
-    },
-    {
-        "code": "01020",
-        "flavor": "\"Tournez-vous, messieurs, et faites la connaissance de... Hellcat !\"",
-        "name": "Hellcat",
-        "text": "<b>Action</b> : renvoyez Hellcat dans votre main.",
-        "traits": "Avenger.",
-        "subname": "Patsy Walker"
-    },
-    {
-        "code": "01021",
-        "flavor": "\"Vous vous êtes attaqué à la mauvaise femme !\" — Miss Hulk",
-        "name": "Frappe Gamma",
-        "text": "<b>Action de héros</b> <i>(attaque)</i> : infligez X dégâts à un ennemi (jusqu'à un maximum de 15). X est la quantité de dégâts que vous avez subis.",
-        "traits": "Attaque. Super-pouvoir."
-    },
-    {
-        "code": "01022",
-        "flavor": "\"Ces bottes ont été conçues pour piétiner'.\" — Miss Hulk",
-        "name": "Piétinement",
-        "text": "<b>Action de héros</b> : infligez 1 dégât à chaque ennemi.",
-        "traits": "Super-pouvoir."
-    },
-    {
-        "code": "01023",
-        "flavor": "\"C'est la première fois que je vois quelqu'un faire une plaidoirie au beau milieu d'un combat.\" — Spider-Man",
-        "name": "Pratique de la Loi",
-        "text": "<b>Action d'alter ego</b> <i>(contre)</i> : choisissez et défaussez jusqu'à 5 cartes de votre main → retirez 1 menace d'une manigance pour chaque carte ainsi défaussée.",
-        "traits": "Compétence. Contre."
-    },
-    {
-        "code": "01024",
-        "flavor": "\"Je ne m'intéresse pas aux hommes dont l'haleine sent la menthe.\" — Jennifer Walters",
-        "name": "Droite-Gauche",
-        "text": "<b>Réponse</b> : après que vous avez effectué une attaque de base <i>(en utilisant votre ATQ)</i>, redressez Miss Hulk.",
-        "traits": "Compétence."
-    },
-    {
-        "code": "01025",
-        "flavor": "\"J'en connais un rayon sur la rage. Et ce genre de fureur... ne va pas s'estomper sans la passer sur quelqu'un.\" — Jennifer Walters",
-        "name": "Personnalité divisée",
-        "text": "<b>Action</b> : changez de forme <i>(retournez votre carte Identité)</i>. Ensuite, piochez jusqu'à atteindre votre taille de main imprimée."
-    },
-    {
-        "code": "01026",
-        "flavor": "\"Je vous enverrai la facture. Mon temps est précieux ces temps-ci.\" — Jennifer Walters",
-        "name": "Département Judiciaire des Surhumains",
-        "text": "<b>Action d'alter ego</b> <i>(contre)</i> : inclinez le département Judiciaire des Surhumains et dépensez une ressource [mental] → retirez 2 menaces d'une manigance.",
-        "traits": "Lieu."
-    },
-    {
-        "code": "01027",
-        "name": "Rage contrôlée",
-        "text": "<b>Action de héros</b> : inclinez Rage Contrôlée et subissez 1 dégât → piochez 1 carte.",
-        "traits": "Compétence."
-    },
-    {
-        "code": "01028",
-        "name": "Force Surhumaine",
-        "text": "Miss Hulk gagne +2 ATQ.\n<b>Réponse forcée</b> : après que Miss Hulk a attaqué, défaussez Force Surhumaine → sonnez l'ennemi attaqué.",
-        "traits": "Super-pouvoir."
-    },
-    {
-        "code": "01029a",
-        "flavor": "\"Je suis Iron Man.\"",
-        "name": "Iron Man",
-        "text": "Votre taille de main augmente de +1 pour chaque amélioration [[Tech]] que vous contrôlez (jusqu'à une taille de main maximale de 7).",
-        "traits": "Avenger."
-    },
-    {
-        "code": "01029b",
-        "flavor": "\"Je ne fais clairement pas ça pour l'argent...\"",
-        "name": "Tony Stark",
-        "text": "<i>Futuriste</i> — <b>Action</b> : regardez les 3 cartes du dessus de votre deck. Ajoutez-en 1 à votre main et défaussez les autres. (Limite d'une fois par round.)",
-        "traits": "Génie."
-    },
-    {
-        "code": "01030",
-        "flavor": "\"C'est une guerre privée ou n'importe qui peut s'inviter ?\"",
-        "name": "War Machine",
-        "text": "<b>Action</b> : inclinez War Machine et infligez-lui 2 dégâts → infligez 1 dégât à chaque ennemi.",
-        "traits": "S.H.I.E.L.D. Soldat.",
-        "subname": "James Rhodes"
-    },
-    {
-        "code": "01031",
-        "name": "Rayon répulsif",
-        "text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 1 dégât à un ennemi et défaussez les 5 cartes du dessus de votre deck. Pour chaque ressource [energy] imprimée défaussée par cet effet, infligez 2 dégâts supplémentaires à cet ennemi.",
-        "traits": "Attaque. Super-pouvoir."
-    },
-    {
-        "code": "01032",
-        "flavor": "\"Jolie technique. Mais si vous l'utilisez comme ceci ... ça fait encore plus mal.\" — Tony Stark",
-        "name": "Coup de poing Supersonique",
-        "text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 4 dégâts à un ennemi (8 dégâts à la place si vous avez le trait [[Aérien]]).",
-        "traits": "Attaque."
-    },
-    {
-        "code": "01033",
-        "flavor": "\"Vaque à tes occupations. Je m'occupe du reste.\"",
-        "name": "Pepper Potts",
-        "text": "<b>Ressource</b> : inclinez Pepper Potts → générez les ressources de la carte du dessus de votre pile de défausse.",
-        "traits": "Individu."
-    },
-    {
-        "code": "01034",
-        "flavor": "\"J'espérais quelque chose d'un peu plus grand. mais ça fera l'affaire.\" — Tony Stark",
-        "name": "Tour Stark",
-        "text": "<b>Action d'alter ego</b> : inclinez la Tour Stark → choisissez un joueur. Ce joueur renvoie dans sa main l'amélioration [[Tech]] la plus proche du dessus de sa pile de défausse.",
-        "traits": "Lieu."
-    },
-    {
-        "code": "01035",
-        "flavor": "\"Quand je revêts cette armure, je dispose de plus de pouvoir qu'aucun humain n'en a jamais rêvé ... et peut-être plus de responsabilités que ce que mon coeur peut endurer.\" — Tony Stark",
-        "name": "Réacteur Arc",
-        "text": "<b>Action de héros</b> : inclinez le réacteur Arc → redressez Iron Man.",
-        "traits": "Objet. Tech."
-    },
-    {
-        "code": "01036",
-        "flavor": "\"C'est tout ce que tu sais faire ?\" — Tony Stark",
-        "name": "Armure Mark V",
-        "text": "Vous gagnez +6 points de vie.",
-        "traits": "Armure. Tech."
-    },
-    {
-        "code": "01037",
-        "flavor": "\"Tony, êtes-vous sûr de vouloir faire ça ?\" — P.E.P.P.E.R.",
-        "name": "Casque Mark V",
-        "text": "<b>Action de héros</b> <i>(contre)</i> : inclinez le Casque mark V → retirez 1 menace d'une manigance (de chaque manigance à la place si vous avez le trait [[Aérien]]).",
-        "traits": "Armure. Tech."
-    },
-    {
-        "code": "01038",
-        "flavor": "\"Laissez-moi vous donner... un coup de main.\" — Tony Stark",
-        "name": "Gantelets énergétiques",
-        "text": "<b>Action de héros</b> <i>(attaque)</i> : inclinez les Gantelets énergétiques → infligez 1 dégât à un ennemi (2 dégâts à la place si vous avez le trait [[Aérien]]).",
-        "traits": "Armure. Tech."
-    },
-    {
-        "code": "01039",
-        "name": "Bottes-Fusée",
-        "text": "Vous gagnez +1 point de vie.\n<b>Action de héros</b> : inclinez les Bottes-fusée et dépensez une ressource [mental] → vous gagnez le trait [[Aérien]] jusqu'à la fin de la phase.",
-        "traits": "Armure. Tech."
-    },
-    {
-        "code": "01040a",
-        "flavor": "\"M'attaquer moi, c'est attaquer le Wakanda.\"",
-        "name": "Black Panther",
-        "text": "Riposte 1. <i>(Après que ce personnage a été attaqué, infligez 1 dégât au personnage attaquant.)</i>",
-        "traits": "Avenger. Wakanda."
-    },
-    {
-        "code": "01040b",
-        "name": "T'Challa",
-        "text": "<i>Prévoyance</i> — <b>Mise en place</b> : cherchez une amélioration [[Black Panther]] dans votre deck et ajoutez-la à votre main.",
-        "traits": "Roi. Wakanda."
-    },
-    {
-        "code": "01041",
-        "flavor": "\"Tu serais perdu sans moi, grand frère !\"",
-        "name": "Shuri",
-        "text": "<b>Réponse</b> : après que Shuri est entrée en jeu, cherchez une amélioration dans votre deck et ajoutez-la à votre main. Mélangez votre deck.",
-        "traits": "Génie. Wakanda."
-    },
-    {
-        "code": "01042",
-        "flavor": "\"Au Wakanda, nous tirons notre force du savoir de nos ancêtres.\" — T'Challa",
-        "name": "Connaissance Ancestrale",
-        "text": "<b>Action d'alter ego</b> : choisissez jusqu'à 3 cartes différentes dans votre pile de défausse et mélangez-les dans votre deck."
-    },
-    {
-        "code": "01043a",
-        "name": "Wakanda Éternel !",
-        "text": "<b>Action de héros</b> : résolvez la capacité \"<b>Spéciale</b>\" de chaque amélioration [[Black Panther]] que vous contrôlez, dans n'importe quel ordre. <i>(La résolution de chaque capacité est une étape de cette séquence.)</i>",
-        "traits": "Tactique."
-    },
-    {
-        "code": "01043b",
-        "name": "Wakanda Éternel !",
-        "text": "<b>Action de héros</b> : résolvez la capacité \"<b>Spéciale</b>\" de chaque amélioration [[Black Panther]] que vous contrôlez, dans n'importe quel ordre. <i>(La résolution de chaque capacité est une étape de cette séquence.)</i>",
-        "traits": "Tactique."
-    },
-    {
-        "code": "01043c",
-        "name": "Wakanda Éternel !",
-        "text": "<b>Action de héros</b> : résolvez la capacité \"<b>Spéciale</b>\" de chaque amélioration [[Black Panther]] que vous contrôlez, dans n'importe quel ordre. <i>(La résolution de chaque capacité est une étape de cette séquence.)</i>",
-        "traits": "Tactique."
-    },
-    {
-        "code": "01043d",
-        "name": "Wakanda Éternel !",
-        "text": "<b>Action de héros</b> : résolvez la capacité \"<b>Spéciale</b>\" de chaque amélioration [[Black Panther]] que vous contrôlez, dans n'importe quel ordre. <i>(La résolution de chaque capacité est une étape de cette séquence.)</i>",
-        "traits": "Tactique."
-    },
-    {
-        "code": "01044",
-        "flavor": "\"Depuis l'époque de Bashenga, nous maîtrisons notre destinée comme peu de nations avant nous.\"",
-        "name": "Vibranium"
-    },
-    {
-        "code": "01045",
-        "flavor": "La capitale du Wakanda est une merveille inégalée d'architecture et de technologie.",
-        "name": "La Cité Dorée",
-        "text": "<b>Action d'alter ego</b> : inclinez la Cité Dorée → piochez 2 cartes.",
-        "traits": "Lieu. Wakanda."
-    },
-    {
-        "code": "01046",
-        "name": "Dagues Énergétiques",
-        "text": "<b>Spécial</b> : choisissez un joueur. Infligez 1 dégât au méchant et à chaque ennemi engagée avec ce joueur (2 dégâts à la place s'il s'agit de la dernière étape de la séquence).\n<i>(Jouez l'événement \"Wakanda Éternel !\" pour utiliser cette capacité.)</i>",
-        "traits": "Black Panther. Arme."
-    },
-    {
-        "code": "01047",
-        "name": "Griffes de Panthère",
-        "text": "<b>Spécial</b> <i>(attaque)</i> : infligez 2 dégâts à un ennemi (4 dégâts à la place s'il s'agit de la dernière étape de la séquence).\n<i>(Jouez l'événement \"Wakanda Éternel !\" pour utiliser cette capacité.)</i>",
-        "traits": "Black Panther. Arme."
-    },
-    {
-        "code": "01048",
-        "name": "Génie tactique",
-        "text": "<b>Spécial</b> <i>(contre)</i> : retirez 1 menace d'une manigance (2 menaces à la place s'il s'agit de la dernière étape de la séquence.\n<i>(Jouez l'événement \"Wakanda Éternel !\" pour utiliser cette capacité.)</i>",
-        "traits": "Black Panther. Compétence."
-    },
-    {
-        "code": "01049",
-        "name": "Costume en Vibranium",
-        "text": "<b>Spécial</b> <i>(attaque)</i> : déplacez 1 dégât de votre héros vers un ennemi (2 dégâts à la place s'il s'agit de la dernière étape de la séquence).\n<i>(Jouez l'événement \"Wakanda Éternel !\" pour utiliser cette capacité.)</i>",
-        "traits": "Armure. Black Panther."
-    },
-    {
-        "code": "01050",
-        "name": "Hulk",
-        "text": "<b>Réponse forcée</b> : après que Hulk a attaqué, défaussez la carte du dessus de votre deck. Si cette carte a comme ressource imprimée :\n[physical] - Infligez 2 dégâts à un ennemi.\n[energy] - Infligez 1 dégât à chaque personnage.\n[mental] - Défaussez Hulk.\n[wild] - Effectuez toutes les options ci-dessus.",
-        "traits": "Avenger. Gamma.",
-        "subname": "Bruce Banner"
-    },
-    {
-        "code": "01051",
-        "flavor": "\"Désolée, pas d'autographe.\"",
-        "name": "Tigra",
-        "text": "<b>Réponse</b> : après que Tigra a attaqué et vaincu un sbire, soignez-la de 1.",
-        "traits": "Avenger.",
-        "subname": "Greer Grant Nelson"
-    },
-    {
-        "code": "01052",
-        "flavor": "\"Kamala, on n'a pas d'hymne officiel. Arrête d'en fredonner un...\" — Captain Marvel",
-        "name": "Poursuivons-Les",
-        "text": "<b>Réponse</b> <i>(contre)</i> : après que votre héros a attaqué et vaincu un ennemi, retirez 2 menaces d'une manigance.",
-        "traits": "Contre."
-    },
-    {
-        "code": "01053",
-        "name": "Assaut implacable",
-        "text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 5 dégâts à un sbire. Si vous avez utilisé une ressource [physical] pour payer cette carte, cette attaque gagne Déferlement. <i>(Les dégâts excédentaires de cette attaque sont infligés au méchant.)</i>",
-        "traits": "Attaque."
-    },
-    {
-        "code": "01054",
-        "flavor": "BAM !",
-        "name": "Uppercut",
-        "text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 5 dégâts à un ennemi.",
-        "traits": "Attaque."
-    },
-    {
-        "code": "01055",
-        "name": "Le Pouvoir de l'Agressivité",
-        "text": "2 max par deck.\nDoublez le nombre de ressources générées par cette carte lorsque vous jouez une carte Aggressivité <i>(rouge)</i>."
-    },
-    {
-        "code": "01056",
-        "name": "Équipe Tactique",
-        "text": "Utilisations (3 jetons Attaque). <i>(Entre en jeu avec 3 jetons. Quand il n'y en a plus, défaussez cette carte)</i>\n<b>Action</b> : retirez 1 jeton Attaque de l'Équipe Tactique et inclinez-la → infligez 2 dégâts à un ennemi.",
-        "traits": "S.H.I.E.L.D."
-    },
-    {
-        "code": "01057",
-        "flavor": "\"Tony ! Elle a recommancé !\" — Janet Van Dyne",
-        "name": "Entraînement au Combat",
-        "text": "Jouez cette carte sous le contrôle de n'importe quel joueur. 1 max par joueur.\nVotre héros gagne +1 ATQ.",
-        "traits": "Compétence."
-    },
-    {
-        "code": "01058",
-        "flavor": "\"J'ai parfois l'impression d'accomplir plus de choses avec mes poings qu'avec mon cabinet d'avocats.\"",
-        "name": "Daredevil",
-        "text": "<b>Réponse</b> : après que Daredevil a contré, infligez 1 dégât à un ennemi.",
-        "traits": "Defender.",
-        "subname": "Matt Murdock"
-    },
-    {
-        "code": "01059",
-        "flavor": "\"Je suis vraiment douée pour retrouver les gens.\"",
-        "name": "Jessica Jones",
-        "text": "Jessica Jones gagne +1 CTR pour chaque manigance annexe en jeu.",
-        "traits": "Defender."
-    },
-    {
-        "code": "01060",
-        "flavor": "\"Vous avez perdu. Et vous allez devoir répondre de vos actes.\" — Captain America",
-        "name": "Pour la Justice !",
-        "text": "<b>Action de héros</b> <i>(contre)</i> : retirez 3 menaces d'une manigance (4 menaces à la place si vous avez utilisé une ressoure [mental] pour payer cette carte).",
-        "traits": "Contre."
-    },
-    {
-        "code": "01061",
-        "name": "De Grandes Responsabilités",
-        "text": "<b>Interruption de héros</b> : quand n'importe quelle quantité de menaces est censée être placée sur une manigance, vous subissez une quantité égale de dégâts à la place."
-    },
-    {
-        "code": "01062",
-        "name": "Le Pouvoir de la Justice",
-        "text": "2 max par deck.\nDoublez le nombre de ressources générées par cette carte lorsque vous jouez une carte Justice <i>(jaune)</i>."
-    },
-    {
-        "code": "01063",
-        "flavor": "\"Oh, elle est désolée ! Attendez, je vais chercher les clés et je vous appelle un taxi.\" — Misty Knight",
-        "name": "Salle d'Interrogatoire",
-        "text": "1 max par joueur.\n<b>Réponse</b> : après que vous avez vaincu un sbire, inclinez la Salle d'Interrogatoire → retirez 1 menace d'une manigance.",
-        "traits": "Lieu."
-    },
-    {
-        "code": "01064",
-        "name": "Équipe de Surveillance",
-        "text": "Utilisations (3 jetons Mouchard). <i>(Entre en jeu avec 3 jetons. Quand il n'y en a plus, défaussez cette carte)</i>\n<b>Action</b> : retirez 1 jeton Mouchard de l'Équipe de Surveillance et inclinez-la → retirez 1 menace d'une manigance.",
-        "traits": "S.H.I.E.L.D."
-    },
-    {
-        "code": "01065",
-        "name": "Instinct Héroïque",
-        "text": "Jouez cette carte sous le contrôle de n'importe quel joueur. 1 max par joueur.\nVotre héros gagne +1 CTR.",
-        "traits": "Compétence."
-    },
-    {
-        "code": "01066",
-        "name": "Hawkeye",
-        "text": "Hawkeye entre en jeu avec 4 jetons Flèche sur lui.\n<b>Réponse</b> : après qu'un sbire est entré en jeu, retirez 1 jeton Flèche de Hawkeye → infligez 2 dégâts à ce sbire.",
-        "traits": "Avenger."
-    },
-    {
-        "code": "01067",
-        "flavor": "\"Croyez-le ou non, vous et moi voulons la même chose.\"",
-        "name": "Maria Hill",
-        "text": "<b>Réponse</b> : après que Maria Hill est entrée en jeu, chaque joueur pioche 1 carte.",
-        "traits": "S.H.I.E.L.D."
-    },
-    {
-        "code": "01068",
-        "flavor": "\"Je vais m'en occuper\"",
-        "name": "Vision",
-        "text": "<b>Action</b> : dépensez une ressource [energy] → choisissez CTR ou ATQ. Jusqu'à la fin de la phase, Vision gagne +2 au pouvoir choisi. (Limite d'une fois par round.)",
-        "traits": "Androïde. Avenger."
-    },
-    {
-        "code": "01069",
-        "flavor": "\"Nous nous entraînons durement chaque jour pour être prêts quand le moment viendra\" — Steve Rogers",
-        "name": "Se Préparer",
-        "text": "<b>Action</b> : redressez un allié."
-    },
-    {
-        "code": "01070",
-        "flavor": "\"Allons-y, tout le monde !\" — Carol Danvers",
-        "name": "Commander en Première Ligne",
-        "text": "<b>Action de héros</b> : choisissez un joueur. Chaque personnage contrôlé par ce joueur gagne +1 CTR et +1 ATQ jusqu'à la fin de la phase.",
-        "traits": "Tactique."
-    },
-    {
-        "code": "01071",
-        "flavor": "\"Code rouge ! Tout le monde sur le pont !\" — Maria Hill",
-        "name": "Appel de détresse",
-        "text": "<b>Action</b> : payez le coût imprimé d'un allié qui se trouve dans la pile de défausse de n'importe quel joueur → mettez en jeu cet allié sous votre contrôle."
-    },
-    {
-        "code": "01072",
-        "name": "Le Pouvoir du Commandement",
-        "text": "2 max par deck.\nDoublez le nombre de ressources générées par cette carte lorsque vous jouez une carte Commandement <i>(bleu)</i>."
-    },
-    {
-        "code": "01073",
-        "flavor": "\"Vous pensez qu'ils l'ont fait assez grand ?\" — Miss Hulk",
-        "name": "Le Triskelion",
-        "text": "Augmentez de 1 votre limite d'alliés. <i>(Cela vous permet de contrôler plus de 3 alliés.)</i>",
-        "traits": "Lieu. S.H.I.E.L.D."
-    },
-    {
-        "code": "01074",
-        "flavor": "\"Je suis content qu'elle soit de notre côté.\" — Star-Lord",
-        "name": "Motivé",
-        "text": "Attachez cette carte à un allié. 1 max par allié.\nL'allié attaché gagne +1 CTR et +1 ATQ.",
-        "traits": "Condition."
-    },
-    {
-        "code": "01075",
-        "name": "Black Widow",
-        "text": "<b>Interruption</b> : quand une carte est révélée du deck Rencontre, inclinez Black Widow et dépensez une ressource [mental] → annulez les effets de cette carte et défaussez-la. Ensuite, révélez une autre carte du deck Rencontre.",
-        "traits": "S.H.I.E.L.D. Espion.",
-        "subname": "Natasha Romanoff"
-    },
-    {
-        "code": "01076",
-        "flavor": "\"Power Man à louer — Cage à l'appareil.\"",
-        "name": "Luke Cage",
-        "text": "Tenacité. <i>(Ce personnage entre en jeu avec une carte d'état Tenace.)</i>",
-        "traits": "Defender."
-    },
-    {
-        "code": "01077",
-        "flavor": "\"C'est tout ce que tu mérites !\" — Iron Fist",
-        "name": "Contre-Attaque au Poing",
-        "text": "<b>Réponse</b> <i>(attaque)</i> : après que votre héros a défendu contre une attaque ennemie, infligez à cet ennemi des dégâts égaux à l'ATQ de votre héros.",
-        "traits": "Attaque."
-    },
-    {
-        "code": "01078",
-        "flavor": "\"Euh ! Restez derrière moi, citoyens !\" — Miss Marvel",
-        "name": "Restez derrière moi !",
-        "text": "<b>Interruption de héros</b> : quand une carte Traîtrise est révélée du deck Rencontre, annulez ses effets \"<b>Une fois révélée</b>\". Le méchant vous attaque à la place."
-    },
-    {
-        "code": "01079",
-        "name": "Le Pouvoir de la Protection",
-        "text": "2 max par deck.\nDoublez le nombre de ressources générées par cette carte lorsque vous jouez une carte Protection <i>(verte)</i>."
-    },
-    {
-        "code": "01080",
-        "name": "Équipe Médicale",
-        "text": "Utilisations (3 jetons Soin). <i>(Entre en jeu avec 3 jetons. Quand il n'y en a plus, défaussez cette carte)</i>\n<b>Action</b> : retirez 1 jeton Soin de l'Équipe Médicale et inclinez-la → soignez 2 dégats d'un personnage ami.",
-        "traits": "S.H.I.E.L.D."
-    },
-    {
-        "code": "01081",
-        "flavor": "Vous sauve la vie tout en étant élégante.",
-        "name": "Veste blindée",
-        "text": "Jouez cette carte sous le contrôle de n'importe quel joueur. 1 max par joueur.\nVotre héros gagne +1 DEF.",
-        "traits": "Armure."
-    },
-    {
-        "code": "01082",
-        "flavor": "\"Nous n'avons pas le choix. Nous devons nous battre ; et gagner. Il n'y a pas d'autre alternative.\" — Captain America",
-        "name": "Inébranlable",
-        "text": "<b>Réponse</b> : après que votre héros a défendu, défaussez Inébranlable → redressez votre héros.",
-        "traits": "Condition."
-    },
-    {
-        "code": "01083",
-        "name": "Mockingbird",
-        "text": "<b>Réponse</b> : après que Mockingbird est entrée en jeu, sonnez un ennemi.",
-        "traits": "S.H.I.E.L.D. Espion.",
-        "subname": "Bobbi Morse",
-        "flavor": "\"Vous appelez ça de la science !?\""
-    },
-    {
-        "code": "01084",
-        "name": "Nick Fury",
-        "text": "<b>Réponse forcée</b> : après que Nick Fury est entré en jeu, choisissez une option : retirez 2 menaces d'une manigance, piochez 3 cartes ou infligez 4 dégâts à un ennemi. À la fin du round, si Nick Fury est toujours en jeu, défaussez-le.",
-        "traits": "S.H.I.E.L.D. Espion."
-    },
-    {
-        "code": "01085",
-        "flavor": "\"APPEL À TOUTES LES UNITÉS ! APPEL À TOUTES LES UNITÉS !\"",
-        "name": "Urgence",
-        "text": "<b>Interruption</b> <i>(contre)</i> : quand le méchant manigance, diminuez de 1 la quantité de menaces placées sur la manigance.",
-        "traits": "Contre."
-    },
-    {
-        "code": "01086",
-        "flavor": "\"Est-ce qu'on peut toujours appeler ça des premiers soins quand c'est votre deuxième jour à l'hôpital ?\" — Clint Barton",
-        "name": "Premiers Soins",
-        "text": "<b>Action</b> : soignez 2 dégâts de n'importe quel personnage."
-    },
-    {
-        "code": "01087",
-        "flavor": "BAM !",
-        "name": "Haymaker",
-        "text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 3 dégâts à un ennemi.",
-        "traits": "Attaque."
-    },
-    {
-        "code": "01088",
-        "name": "Énergie",
-        "text": "1 max par deck."
-    },
-    {
-        "code": "01089",
-        "name": "Génie",
-        "text": "1 max par deck."
-    },
-    {
-        "code": "01090",
-        "name": "Force",
-        "text": "1 max par deck."
-    },
-    {
-        "code": "01091",
-        "flavor": "\"Tu n'as pas oublié d'éteindre le four ?\" — Janet Van Dyne",
-        "name": "Manoir des Avengers",
-        "text": "1 max par joueur.\n<b>Action</b> : inclinez le Manoir des Avengers → choisissez un joueur. Ce joueur pioche 1 carte.",
-        "traits": "Avenger. Lieu."
-    },
-    {
-        "code": "01092",
-        "flavor": "\"Un porte-avions volant ? Vous plaisantez n'est-ce pas ?\" — Jennifer Walters",
-        "name": "Héliporteur",
-        "text": "1 max par joueur.\n<b>Action</b> : inclinez l'Héliporteur → choisissez un joueur. Réduisez de 1 le coût de la prochaine carte jouée par ce joueur à cette phase.",
-        "traits": "Lieu. S.H.I.E.L.D."
-    },
-    {
-        "code": "01093",
-        "name": "Persévérance",
-        "text": "<b>Action de héros</b> : dépensez une ressource [physical] et défaussez cette carte → redressez votre héros.",
-        "traits": "Condition."
-    }
+	{
+		"code": "01001a",
+		"flavor": "\"Je suis juste l'araignée sympa du quartier !\"",
+		"name": "Spider-Man",
+		"text": "Sens d'Araignée — <b>Interruption</b> : quand le méchant initie une attaque contre vous, piochez 1 carte.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "01001b",
+		"flavor": "\"Là, tout de suite, j'échangerais bien tous mes pouvoirs de Spider-Man contre un bon livre et un fauteuil à bascule.\"",
+		"name": "Peter Parker",
+		"text": "Scientifique — <b>Ressource</b> : générez une ressource [mental]. (Limite d'une fois par round.)",
+		"traits": "Génie."
+	},
+	{
+		"code": "01002",
+		"flavor": "\"Je ne suis pas une héroïne. Je suis une voleuse.\"",
+		"name": "Black Cat",
+		"subname": "Felicia Hardy",
+		"text": "<b>Réponse forcée</b> : après que vous avez joué Black Cat, défaussez les 2 cartes du dessus de votre deck. Ajoutez à votre main chaque carte avec une ressource [mental] imprimée défaussée par cet effet.",
+		"traits": "Héros à louer."
+	},
+	{
+		"code": "01003",
+		"flavor": "\"Tu t'es entraîné ? Parce que tu as failli me toucher.\" — Spider-Man",
+		"name": "Salto Arrière",
+		"text": "<b>Interruption</b> <i>(défense)</i> : quand vous êtes censé subir n'importe quelle quantité de dégâts d'une attaque, prévenez tous ces dégâts.",
+		"traits": "Défense. Compétence."
+	},
+	{
+		"code": "01004",
+		"flavor": "\"Mes sens d'araignée sont en alerte !\" — Spider-Man",
+		"name": "Sens d'Araignée Améliorés",
+		"text": "<b>Interruption de héros</b> : quand une carte Trarise est révélée du deck Rencontre, annulez ses effets \"<b>Une fois révélée</b>\".",
+		"traits": "Super-pouvoir."
+	},
+	{
+		"code": "01005",
+		"flavor": "\"Taïaut !\" — Spider-Man",
+		"name": "Coup de pied en balancier",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : inflgez 8 dégâts à un ennemi.",
+		"traits": "Aérien. Attaque. Super-pouvoir."
+	},
+	{
+		"code": "01006",
+		"flavor": "\"Bonté divine, Peter ! Tu es si maladroit depuis quelques temps.\"",
+		"name": "Tante May",
+		"text": "<b>Action d'alter ego</b> : inclinez Tante May → heal 4 damage from Peter Parker.",
+		"traits": "Individu."
+	},
+	{
+		"code": "01007",
+		"name": "Spider-Traceur",
+		"text": "Attachez cette carte à un sbire.\n<b>Interruption forcée</b> : quand le sbier atatché est vaincu, retirez 3 menaces d'une manigance.",
+		"traits": "Objet. Tech."
+	},
+	{
+		"code": "01008",
+		"name": "Lance-toile",
+		"text": "Utilisations (3 jetons Toile). <i>(Entre en jeu avec 3 jetons. Quand il n'y en a plus, défaussez cette carte)</i>\n<b>Ressource de héros</b> : retirez 1 jeton Toile du Lance-Toile et inclinez → générez une ressource [wild].",
+		"traits": "Objet. Tech."
+	},
+	{
+		"code": "01009",
+		"name": "Pris dans la Toile",
+		"text": "Sous forme de héros uniquement. Attachez cette carte à une ennemi. 1 max par ennemi..\n<b>Interruption forcée</b> : quand l'ennemi attaché est censé attaquer, défaussez Pris dans la Toile à la place. Ensuite, sonnez cet ennemi.",
+		"traits": "Condition."
+	},
+	{
+		"code": "01010a",
+		"flavor": "\"Je n'abandonne jamais.\"",
+		"name": "Captain Marvel",
+		"text": "<i>Recanaliser</i> — <b>Action</b> : dépensez une ressource [energy] et soignez 1 dégât de Captain Marvel → draw 1 card. (Limite d'une fois par round.)",
+		"traits": "Avenger. Soldat."
+	},
+	{
+		"code": "01010b",
+		"flavor": "\"C'est mon boulot de protéger la Terre et tous ses habitants.\"",
+		"name": "Carol Danvers",
+		"text": "<i>Commandante</i> — <b>Action</b> : choisissez un joueur qui piohe 1 carte. (Limite d'une fois par round.)",
+		"traits": "S.H.I.E.L.D. Soldat."
+	},
+	{
+		"code": "01011",
+		"flavor": "\"C'est ce que je voulais : aider les innocents en envoyant les coupables à l'hôpital.\"",
+		"name": "Spider-Woman",
+		"subname": "Jessica Drew",
+		"text": "<b>Réponse</b> : après que Spider-Woman est entrée en jeu, désorientez le méchant.",
+		"traits": "Avenger. Espion."
+	},
+	{
+		"code": "01012",
+		"flavor": "\"J'ai rarement vu une telle pagaille.\" — Carol Danvers",
+		"name": "Empêcher les Conflits",
+		"text": "<b>Action de héros</b> <i>(contre)</i> : retirez 2 menaces d'une manigance. Ensuite, si vous avez le trait [[Aérien]], retirez 2 menaces d'une autre manigance.",
+		"traits": "Contre."
+	},
+	{
+		"code": "01013",
+		"name": "Rayon Photonique",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 5 dégâts à un ennemi. SI vous avez utilisé une ressource [energy] pour payer cette carte, piochez 1 carte.",
+		"traits": "Attaque. Super-pouvoir."
+	},
+	{
+		"code": "01014",
+		"flavor": "\"Cela suffit !\" — Carol Danvers",
+		"name": "Absorption d'Énergie"
+	},
+	{
+		"code": "01015",
+		"flavor": "Cette station en orbite basse peut acheminer équipage et cargaison depuis et vers le Triskelion",
+		"name": "Station Alpha Flight",
+		"text": "<b>Action</b> : inclinez la Station Alpha Flight, choisissez et défaussez 1 carte de votre main → piochez 1 carte (piochez 2 cartes si vous êtes Carol Danvers).",
+		"traits": "Lieu. S.H.I.E.L.D."
+	},
+	{
+		"code": "01016",
+		"flavor": "\"Il est tellement cool !\" — Jessica Drew",
+		"name": "Casque de Captain Marvel",
+		"text": "Captain Marvel gagne +1 DEF (+2 DEF à la place si vous avez le trait [[Aérien]]).",
+		"traits": "Armure. Tech."
+	},
+	{
+		"code": "01017",
+		"name": "Vol Cosmique",
+		"text": "Captain Marvel gagne le trait [[Aérien]].\n<b>Interruption de héros</b> (<i>défense</i>) : quand Captain Marvel est censée subir des dégâts, défaussez Vol Cosmique → prévenez 3 de ces dégâts.",
+		"traits": "Super-pouvoir."
+	},
+	{
+		"code": "01018",
+		"name": "Énergie Canalisée",
+		"text": "1 max par joueur.\n<b>Action</b> : dépensez X ressources [energy] → mettez X jetons Énergie sur cette carte.\n<b>Action de héros</b> <i>(attaque)</i> : défaussez Énergie Canalisée → infligez 2 dégâts par jeton Énergie sur cette carte à une ennemi (jusqu'à un maximum de 10 dégâts).",
+		"traits": "Super-pouvoir."
+	},
+	{
+		"code": "01019a",
+		"flavor": "\"Je mesure deux mètres et je suis vert fluo ! Les gens vont me regarder bizarrement quelle que soit la manière dont je m'habille.\"",
+		"name": "Miss Hulk",
+		"text": "\"<i>Tu fais de la muscu ?</i>\" — <b>Réponse</b> : après être passé sous cette forme, infligez 2 dégâts à un ennemi.",
+		"traits": "Avenger. Gamma."
+	},
+	{
+		"code": "01019b",
+		"flavor": "\"Je peux me changer en Miss Hulk quand je le veux. Mais ce n'est pas parce qu'on peut faire quelque chose qu'on doit toujours le faire.\"",
+		"name": "Jennifer Walters",
+		"text": "\"<i>Objection !</i>\" — <b>Interruption</b> : quand de la menace est censée être placée sur une manigance, prévenez 1 de ces menaces. (Limite d'une fois par round.)",
+		"traits": "Avocat. Gamma."
+	},
+	{
+		"code": "01020",
+		"flavor": "\"Tournez-vous, messieurs, et faites la connaissance de... Hellcat !\"",
+		"name": "Hellcat",
+		"subname": "Patsy Walker",
+		"text": "<b>Action</b> : renvoyez Hellcat dans votre main.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "01021",
+		"flavor": "\"Vous vous êtes attaqué à la mauvaise femme !\" — Miss Hulk",
+		"name": "Frappe Gamma",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : infligez X dégâts à un ennemi (jusqu'à un maximum de 15). X est la quantité de dégâts que vous avez subis.",
+		"traits": "Attaque. Super-pouvoir."
+	},
+	{
+		"code": "01022",
+		"flavor": "\"Ces bottes ont été conçues pour piétiner'.\" — Miss Hulk",
+		"name": "Piétinement",
+		"text": "<b>Action de héros</b> : infligez 1 dégât à chaque ennemi.",
+		"traits": "Super-pouvoir."
+	},
+	{
+		"code": "01023",
+		"flavor": "\"C'est la première fois que je vois quelqu'un faire une plaidoirie au beau milieu d'un combat.\" — Spider-Man",
+		"name": "Pratique de la Loi",
+		"text": "<b>Action d'alter ego</b> <i>(contre)</i> : choisissez et défaussez jusqu'à 5 cartes de votre main → retirez 1 menace d'une manigance pour chaque carte ainsi défaussée.",
+		"traits": "Compétence. Contre."
+	},
+	{
+		"code": "01024",
+		"flavor": "\"Je ne m'intéresse pas aux hommes dont l'haleine sent la menthe.\" — Jennifer Walters",
+		"name": "Droite-Gauche",
+		"text": "<b>Réponse</b> : après que vous avez effectué une attaque de base <i>(en utilisant votre ATQ)</i>, redressez Miss Hulk.",
+		"traits": "Compétence."
+	},
+	{
+		"code": "01025",
+		"flavor": "\"J'en connais un rayon sur la rage. Et ce genre de fureur... ne va pas s'estomper sans la passer sur quelqu'un.\" — Jennifer Walters",
+		"name": "Personnalité divisée",
+		"text": "<b>Action</b> : changez de forme <i>(retournez votre carte Identité)</i>. Ensuite, piochez jusqu'à atteindre votre taille de main imprimée."
+	},
+	{
+		"code": "01026",
+		"flavor": "\"Je vous enverrai la facture. Mon temps est précieux ces temps-ci.\" — Jennifer Walters",
+		"name": "Département Judiciaire des Surhumains",
+		"text": "<b>Action d'alter ego</b> <i>(contre)</i> : inclinez le département Judiciaire des Surhumains et dépensez une ressource [mental] → retirez 2 menaces d'une manigance.",
+		"traits": "Lieu."
+	},
+	{
+		"code": "01027",
+		"name": "Rage contrôlée",
+		"text": "<b>Action de héros</b> : inclinez Rage Contrôlée et subissez 1 dégât → piochez 1 carte.",
+		"traits": "Compétence."
+	},
+	{
+		"code": "01028",
+		"name": "Force Surhumaine",
+		"text": "Miss Hulk gagne +2 ATQ.\n<b>Réponse forcée</b> : après que Miss Hulk a attaqué, défaussez Force Surhumaine → sonnez l'ennemi attaqué.",
+		"traits": "Super-pouvoir."
+	},
+	{
+		"code": "01029a",
+		"flavor": "\"Je suis Iron Man.\"",
+		"name": "Iron Man",
+		"text": "Votre taille de main augmente de +1 pour chaque amélioration [[Tech]] que vous contrôlez (jusqu'à une taille de main maximale de 7).",
+		"traits": "Avenger."
+	},
+	{
+		"code": "01029b",
+		"flavor": "\"Je ne fais clairement pas ça pour l'argent...\"",
+		"name": "Tony Stark",
+		"text": "<i>Futuriste</i> — <b>Action</b> : regardez les 3 cartes du dessus de votre deck. Ajoutez-en 1 à votre main et défaussez les autres. (Limite d'une fois par round.)",
+		"traits": "Génie."
+	},
+	{
+		"code": "01030",
+		"flavor": "\"C'est une guerre privée ou n'importe qui peut s'inviter ?\"",
+		"name": "War Machine",
+		"subname": "James Rhodes",
+		"text": "<b>Action</b> : inclinez War Machine et infligez-lui 2 dégâts → infligez 1 dégât à chaque ennemi.",
+		"traits": "S.H.I.E.L.D. Soldat."
+	},
+	{
+		"code": "01031",
+		"name": "Rayon répulsif",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 1 dégât à un ennemi et défaussez les 5 cartes du dessus de votre deck. Pour chaque ressource [energy] imprimée défaussée par cet effet, infligez 2 dégâts supplémentaires à cet ennemi.",
+		"traits": "Attaque. Super-pouvoir."
+	},
+	{
+		"code": "01032",
+		"flavor": "\"Jolie technique. Mais si vous l'utilisez comme ceci ... ça fait encore plus mal.\" — Tony Stark",
+		"name": "Coup de poing Supersonique",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 4 dégâts à un ennemi (8 dégâts à la place si vous avez le trait [[Aérien]]).",
+		"traits": "Attaque."
+	},
+	{
+		"code": "01033",
+		"flavor": "\"Vaque à tes occupations. Je m'occupe du reste.\"",
+		"name": "Pepper Potts",
+		"text": "<b>Ressource</b> : inclinez Pepper Potts → générez les ressources de la carte du dessus de votre pile de défausse.",
+		"traits": "Individu."
+	},
+	{
+		"code": "01034",
+		"flavor": "\"J'espérais quelque chose d'un peu plus grand. mais ça fera l'affaire.\" — Tony Stark",
+		"name": "Tour Stark",
+		"text": "<b>Action d'alter ego</b> : inclinez la Tour Stark → choisissez un joueur. Ce joueur renvoie dans sa main l'amélioration [[Tech]] la plus proche du dessus de sa pile de défausse.",
+		"traits": "Lieu."
+	},
+	{
+		"code": "01035",
+		"flavor": "\"Quand je revêts cette armure, je dispose de plus de pouvoir qu'aucun humain n'en a jamais rêvé ... et peut-être plus de responsabilités que ce que mon coeur peut endurer.\" — Tony Stark",
+		"name": "Réacteur Arc",
+		"text": "<b>Action de héros</b> : inclinez le réacteur Arc → redressez Iron Man.",
+		"traits": "Objet. Tech."
+	},
+	{
+		"code": "01036",
+		"flavor": "\"C'est tout ce que tu sais faire ?\" — Tony Stark",
+		"name": "Armure Mark V",
+		"text": "Vous gagnez +6 points de vie.",
+		"traits": "Armure. Tech."
+	},
+	{
+		"code": "01037",
+		"flavor": "\"Tony, êtes-vous sûr de vouloir faire ça ?\" — P.E.P.P.E.R.",
+		"name": "Casque Mark V",
+		"text": "<b>Action de héros</b> <i>(contre)</i> : inclinez le Casque mark V → retirez 1 menace d'une manigance (de chaque manigance à la place si vous avez le trait [[Aérien]]).",
+		"traits": "Armure. Tech."
+	},
+	{
+		"code": "01038",
+		"flavor": "\"Laissez-moi vous donner... un coup de main.\" — Tony Stark",
+		"name": "Gantelets énergétiques",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : inclinez les Gantelets énergétiques → infligez 1 dégât à un ennemi (2 dégâts à la place si vous avez le trait [[Aérien]]).",
+		"traits": "Armure. Tech."
+	},
+	{
+		"code": "01039",
+		"name": "Bottes-Fusée",
+		"text": "Vous gagnez +1 point de vie.\n<b>Action de héros</b> : inclinez les Bottes-fusée et dépensez une ressource [mental] → vous gagnez le trait [[Aérien]] jusqu'à la fin de la phase.",
+		"traits": "Armure. Tech."
+	},
+	{
+		"code": "01040a",
+		"flavor": "\"M'attaquer moi, c'est attaquer le Wakanda.\"",
+		"name": "Black Panther",
+		"text": "Riposte 1. <i>(Après que ce personnage a été attaqué, infligez 1 dégât au personnage attaquant.)</i>",
+		"traits": "Avenger. Wakanda."
+	},
+	{
+		"code": "01040b",
+		"name": "T'Challa",
+		"text": "<i>Prévoyance</i> — <b>Mise en place</b> : cherchez une amélioration [[Black Panther]] dans votre deck et ajoutez-la à votre main.",
+		"traits": "Roi. Wakanda."
+	},
+	{
+		"code": "01041",
+		"flavor": "\"Tu serais perdu sans moi, grand frère !\"",
+		"name": "Shuri",
+		"text": "<b>Réponse</b> : après que Shuri est entrée en jeu, cherchez une amélioration dans votre deck et ajoutez-la à votre main. Mélangez votre deck.",
+		"traits": "Génie. Wakanda."
+	},
+	{
+		"code": "01042",
+		"flavor": "\"Au Wakanda, nous tirons notre force du savoir de nos ancêtres.\" — T'Challa",
+		"name": "Connaissance Ancestrale",
+		"text": "<b>Action d'alter ego</b> : choisissez jusqu'à 3 cartes différentes dans votre pile de défausse et mélangez-les dans votre deck."
+	},
+	{
+		"code": "01043a",
+		"name": "Wakanda Éternel !",
+		"text": "<b>Action de héros</b> : résolvez la capacité \"<b>Spéciale</b>\" de chaque amélioration [[Black Panther]] que vous contrôlez, dans n'importe quel ordre. <i>(La résolution de chaque capacité est une étape de cette séquence.)</i>",
+		"traits": "Tactique."
+	},
+	{
+		"code": "01043b",
+		"name": "Wakanda Éternel !",
+		"text": "<b>Action de héros</b> : résolvez la capacité \"<b>Spéciale</b>\" de chaque amélioration [[Black Panther]] que vous contrôlez, dans n'importe quel ordre. <i>(La résolution de chaque capacité est une étape de cette séquence.)</i>",
+		"traits": "Tactique."
+	},
+	{
+		"code": "01043c",
+		"name": "Wakanda Éternel !",
+		"text": "<b>Action de héros</b> : résolvez la capacité \"<b>Spéciale</b>\" de chaque amélioration [[Black Panther]] que vous contrôlez, dans n'importe quel ordre. <i>(La résolution de chaque capacité est une étape de cette séquence.)</i>",
+		"traits": "Tactique."
+	},
+	{
+		"code": "01043d",
+		"name": "Wakanda Éternel !",
+		"text": "<b>Action de héros</b> : résolvez la capacité \"<b>Spéciale</b>\" de chaque amélioration [[Black Panther]] que vous contrôlez, dans n'importe quel ordre. <i>(La résolution de chaque capacité est une étape de cette séquence.)</i>",
+		"traits": "Tactique."
+	},
+	{
+		"code": "01044",
+		"flavor": "\"Depuis l'époque de Bashenga, nous maîtrisons notre destinée comme peu de nations avant nous.\"",
+		"name": "Vibranium"
+	},
+	{
+		"code": "01045",
+		"flavor": "La capitale du Wakanda est une merveille inégalée d'architecture et de technologie.",
+		"name": "La Cité Dorée",
+		"text": "<b>Action d'alter ego</b> : inclinez la Cité Dorée → piochez 2 cartes.",
+		"traits": "Lieu. Wakanda."
+	},
+	{
+		"code": "01046",
+		"name": "Dagues Énergétiques",
+		"text": "<b>Spécial</b> : choisissez un joueur. Infligez 1 dégât au méchant et à chaque ennemi engagée avec ce joueur (2 dégâts à la place s'il s'agit de la dernière étape de la séquence).\n<i>(Jouez l'événement \"Wakanda Éternel !\" pour utiliser cette capacité.)</i>",
+		"traits": "Black Panther. Arme."
+	},
+	{
+		"code": "01047",
+		"name": "Griffes de Panthère",
+		"text": "<b>Spécial</b> <i>(attaque)</i> : infligez 2 dégâts à un ennemi (4 dégâts à la place s'il s'agit de la dernière étape de la séquence).\n<i>(Jouez l'événement \"Wakanda Éternel !\" pour utiliser cette capacité.)</i>",
+		"traits": "Black Panther. Arme."
+	},
+	{
+		"code": "01048",
+		"name": "Génie tactique",
+		"text": "<b>Spécial</b> <i>(contre)</i> : retirez 1 menace d'une manigance (2 menaces à la place s'il s'agit de la dernière étape de la séquence.\n<i>(Jouez l'événement \"Wakanda Éternel !\" pour utiliser cette capacité.)</i>",
+		"traits": "Black Panther. Compétence."
+	},
+	{
+		"code": "01049",
+		"name": "Costume en Vibranium",
+		"text": "<b>Spécial</b> <i>(attaque)</i> : déplacez 1 dégât de votre héros vers un ennemi (2 dégâts à la place s'il s'agit de la dernière étape de la séquence).\n<i>(Jouez l'événement \"Wakanda Éternel !\" pour utiliser cette capacité.)</i>",
+		"traits": "Armure. Black Panther."
+	},
+	{
+		"code": "01050",
+		"name": "Hulk",
+		"subname": "Bruce Banner",
+		"text": "<b>Réponse forcée</b> : après que Hulk a attaqué, défaussez la carte du dessus de votre deck. Si cette carte a comme ressource imprimée :\n[physical] - Infligez 2 dégâts à un ennemi.\n[energy] - Infligez 1 dégât à chaque personnage.\n[mental] - Défaussez Hulk.\n[wild] - Effectuez toutes les options ci-dessus.",
+		"traits": "Avenger. Gamma."
+	},
+	{
+		"code": "01051",
+		"flavor": "\"Désolée, pas d'autographe.\"",
+		"name": "Tigra",
+		"subname": "Greer Grant Nelson",
+		"text": "<b>Réponse</b> : après que Tigra a attaqué et vaincu un sbire, soignez-la de 1.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "01052",
+		"flavor": "\"Kamala, on n'a pas d'hymne officiel. Arrête d'en fredonner un...\" — Captain Marvel",
+		"name": "Poursuivons-Les",
+		"text": "<b>Réponse</b> <i>(contre)</i> : après que votre héros a attaqué et vaincu un ennemi, retirez 2 menaces d'une manigance.",
+		"traits": "Contre."
+	},
+	{
+		"code": "01053",
+		"name": "Assaut implacable",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 5 dégâts à un sbire. Si vous avez utilisé une ressource [physical] pour payer cette carte, cette attaque gagne Déferlement. <i>(Les dégâts excédentaires de cette attaque sont infligés au méchant.)</i>",
+		"traits": "Attaque."
+	},
+	{
+		"code": "01054",
+		"flavor": "BAM !",
+		"name": "Uppercut",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 5 dégâts à un ennemi.",
+		"traits": "Attaque."
+	},
+	{
+		"code": "01055",
+		"name": "Le Pouvoir de l'Agressivité",
+		"text": "2 max par deck.\nDoublez le nombre de ressources générées par cette carte lorsque vous jouez une carte Aggressivité <i>(rouge)</i>."
+	},
+	{
+		"code": "01056",
+		"name": "Équipe Tactique",
+		"text": "Utilisations (3 jetons Attaque). <i>(Entre en jeu avec 3 jetons. Quand il n'y en a plus, défaussez cette carte)</i>\n<b>Action</b> : retirez 1 jeton Attaque de l'Équipe Tactique et inclinez-la → infligez 2 dégâts à un ennemi.",
+		"traits": "S.H.I.E.L.D."
+	},
+	{
+		"code": "01057",
+		"flavor": "\"Tony ! Elle a recommancé !\" — Janet Van Dyne",
+		"name": "Entraînement au Combat",
+		"text": "Jouez cette carte sous le contrôle de n'importe quel joueur. 1 max par joueur.\nVotre héros gagne +1 ATQ.",
+		"traits": "Compétence."
+	},
+	{
+		"code": "01058",
+		"flavor": "\"J'ai parfois l'impression d'accomplir plus de choses avec mes poings qu'avec mon cabinet d'avocats.\"",
+		"name": "Daredevil",
+		"subname": "Matt Murdock",
+		"text": "<b>Réponse</b> : après que Daredevil a contré, infligez 1 dégât à un ennemi.",
+		"traits": "Defender."
+	},
+	{
+		"code": "01059",
+		"flavor": "\"Je suis vraiment douée pour retrouver les gens.\"",
+		"name": "Jessica Jones",
+		"text": "Jessica Jones gagne +1 CTR pour chaque manigance annexe en jeu.",
+		"traits": "Defender."
+	},
+	{
+		"code": "01060",
+		"flavor": "\"Vous avez perdu. Et vous allez devoir répondre de vos actes.\" — Captain America",
+		"name": "Pour la Justice !",
+		"text": "<b>Action de héros</b> <i>(contre)</i> : retirez 3 menaces d'une manigance (4 menaces à la place si vous avez utilisé une ressoure [mental] pour payer cette carte).",
+		"traits": "Contre."
+	},
+	{
+		"code": "01061",
+		"name": "De Grandes Responsabilités",
+		"text": "<b>Interruption de héros</b> : quand n'importe quelle quantité de menaces est censée être placée sur une manigance, vous subissez une quantité égale de dégâts à la place."
+	},
+	{
+		"code": "01062",
+		"name": "Le Pouvoir de la Justice",
+		"text": "2 max par deck.\nDoublez le nombre de ressources générées par cette carte lorsque vous jouez une carte Justice <i>(jaune)</i>."
+	},
+	{
+		"code": "01063",
+		"flavor": "\"Oh, elle est désolée ! Attendez, je vais chercher les clés et je vous appelle un taxi.\" — Misty Knight",
+		"name": "Salle d'Interrogatoire",
+		"text": "1 max par joueur.\n<b>Réponse</b> : après que vous avez vaincu un sbire, inclinez la Salle d'Interrogatoire → retirez 1 menace d'une manigance.",
+		"traits": "Lieu."
+	},
+	{
+		"code": "01064",
+		"name": "Équipe de Surveillance",
+		"text": "Utilisations (3 jetons Mouchard). <i>(Entre en jeu avec 3 jetons. Quand il n'y en a plus, défaussez cette carte)</i>\n<b>Action</b> : retirez 1 jeton Mouchard de l'Équipe de Surveillance et inclinez-la → retirez 1 menace d'une manigance.",
+		"traits": "S.H.I.E.L.D."
+	},
+	{
+		"code": "01065",
+		"name": "Instinct Héroïque",
+		"text": "Jouez cette carte sous le contrôle de n'importe quel joueur. 1 max par joueur.\nVotre héros gagne +1 CTR.",
+		"traits": "Compétence."
+	},
+	{
+		"code": "01066",
+		"name": "Hawkeye",
+		"text": "Hawkeye entre en jeu avec 4 jetons Flèche sur lui.\n<b>Réponse</b> : après qu'un sbire est entré en jeu, retirez 1 jeton Flèche de Hawkeye → infligez 2 dégâts à ce sbire.",
+		"traits": "Avenger."
+	},
+	{
+		"code": "01067",
+		"flavor": "\"Croyez-le ou non, vous et moi voulons la même chose.\"",
+		"name": "Maria Hill",
+		"text": "<b>Réponse</b> : après que Maria Hill est entrée en jeu, chaque joueur pioche 1 carte.",
+		"traits": "S.H.I.E.L.D."
+	},
+	{
+		"code": "01068",
+		"flavor": "\"Je vais m'en occuper\"",
+		"name": "Vision",
+		"text": "<b>Action</b> : dépensez une ressource [energy] → choisissez CTR ou ATQ. Jusqu'à la fin de la phase, Vision gagne +2 au pouvoir choisi. (Limite d'une fois par round.)",
+		"traits": "Androïde. Avenger."
+	},
+	{
+		"code": "01069",
+		"flavor": "\"Nous nous entraînons durement chaque jour pour être prêts quand le moment viendra\" — Steve Rogers",
+		"name": "Se Préparer",
+		"text": "<b>Action</b> : redressez un allié."
+	},
+	{
+		"code": "01070",
+		"flavor": "\"Allons-y, tout le monde !\" — Carol Danvers",
+		"name": "Commander en Première Ligne",
+		"text": "<b>Action de héros</b> : choisissez un joueur. Chaque personnage contrôlé par ce joueur gagne +1 CTR et +1 ATQ jusqu'à la fin de la phase.",
+		"traits": "Tactique."
+	},
+	{
+		"code": "01071",
+		"flavor": "\"Code rouge ! Tout le monde sur le pont !\" — Maria Hill",
+		"name": "Appel de détresse",
+		"text": "<b>Action</b> : payez le coût imprimé d'un allié qui se trouve dans la pile de défausse de n'importe quel joueur → mettez en jeu cet allié sous votre contrôle."
+	},
+	{
+		"code": "01072",
+		"name": "Le Pouvoir du Commandement",
+		"text": "2 max par deck.\nDoublez le nombre de ressources générées par cette carte lorsque vous jouez une carte Commandement <i>(bleu)</i>."
+	},
+	{
+		"code": "01073",
+		"flavor": "\"Vous pensez qu'ils l'ont fait assez grand ?\" — Miss Hulk",
+		"name": "Le Triskelion",
+		"text": "Augmentez de 1 votre limite d'alliés. <i>(Cela vous permet de contrôler plus de 3 alliés.)</i>",
+		"traits": "Lieu. S.H.I.E.L.D."
+	},
+	{
+		"code": "01074",
+		"flavor": "\"Je suis content qu'elle soit de notre côté.\" — Star-Lord",
+		"name": "Motivé",
+		"text": "Attachez cette carte à un allié. 1 max par allié.\nL'allié attaché gagne +1 CTR et +1 ATQ.",
+		"traits": "Condition."
+	},
+	{
+		"code": "01075",
+		"name": "Black Widow",
+		"subname": "Natasha Romanoff",
+		"text": "<b>Interruption</b> : quand une carte est révélée du deck Rencontre, inclinez Black Widow et dépensez une ressource [mental] → annulez les effets de cette carte et défaussez-la. Ensuite, révélez une autre carte du deck Rencontre.",
+		"traits": "S.H.I.E.L.D. Espion."
+	},
+	{
+		"code": "01076",
+		"flavor": "\"Power Man à louer — Cage à l'appareil.\"",
+		"name": "Luke Cage",
+		"text": "Tenacité. <i>(Ce personnage entre en jeu avec une carte d'état Tenace.)</i>",
+		"traits": "Defender."
+	},
+	{
+		"code": "01077",
+		"flavor": "\"C'est tout ce que tu mérites !\" — Iron Fist",
+		"name": "Contre-Attaque au Poing",
+		"text": "<b>Réponse</b> <i>(attaque)</i> : après que votre héros a défendu contre une attaque ennemie, infligez à cet ennemi des dégâts égaux à l'ATQ de votre héros.",
+		"traits": "Attaque."
+	},
+	{
+		"code": "01078",
+		"flavor": "\"Euh ! Restez derrière moi, citoyens !\" — Miss Marvel",
+		"name": "Restez derrière moi !",
+		"text": "<b>Interruption de héros</b> : quand une carte Traîtrise est révélée du deck Rencontre, annulez ses effets \"<b>Une fois révélée</b>\". Le méchant vous attaque à la place."
+	},
+	{
+		"code": "01079",
+		"name": "Le Pouvoir de la Protection",
+		"text": "2 max par deck.\nDoublez le nombre de ressources générées par cette carte lorsque vous jouez une carte Protection <i>(verte)</i>."
+	},
+	{
+		"code": "01080",
+		"name": "Équipe Médicale",
+		"text": "Utilisations (3 jetons Soin). <i>(Entre en jeu avec 3 jetons. Quand il n'y en a plus, défaussez cette carte)</i>\n<b>Action</b> : retirez 1 jeton Soin de l'Équipe Médicale et inclinez-la → soignez 2 dégats d'un personnage ami.",
+		"traits": "S.H.I.E.L.D."
+	},
+	{
+		"code": "01081",
+		"flavor": "Vous sauve la vie tout en étant élégante.",
+		"name": "Veste blindée",
+		"text": "Jouez cette carte sous le contrôle de n'importe quel joueur. 1 max par joueur.\nVotre héros gagne +1 DEF.",
+		"traits": "Armure."
+	},
+	{
+		"code": "01082",
+		"flavor": "\"Nous n'avons pas le choix. Nous devons nous battre ; et gagner. Il n'y a pas d'autre alternative.\" — Captain America",
+		"name": "Inébranlable",
+		"text": "<b>Réponse</b> : après que votre héros a défendu, défaussez Inébranlable → redressez votre héros.",
+		"traits": "Condition."
+	},
+	{
+		"code": "01083",
+		"flavor": "\"Vous appelez ça de la science !?\"",
+		"name": "Mockingbird",
+		"subname": "Bobbi Morse",
+		"text": "<b>Réponse</b> : après que Mockingbird est entrée en jeu, sonnez un ennemi.",
+		"traits": "S.H.I.E.L.D. Espion."
+	},
+	{
+		"code": "01084",
+		"name": "Nick Fury",
+		"text": "<b>Réponse forcée</b> : après que Nick Fury est entré en jeu, choisissez une option : retirez 2 menaces d'une manigance, piochez 3 cartes ou infligez 4 dégâts à un ennemi. À la fin du round, si Nick Fury est toujours en jeu, défaussez-le.",
+		"traits": "S.H.I.E.L.D. Espion."
+	},
+	{
+		"code": "01085",
+		"flavor": "\"APPEL À TOUTES LES UNITÉS ! APPEL À TOUTES LES UNITÉS !\"",
+		"name": "Urgence",
+		"text": "<b>Interruption</b> <i>(contre)</i> : quand le méchant manigance, diminuez de 1 la quantité de menaces placées sur la manigance.",
+		"traits": "Contre."
+	},
+	{
+		"code": "01086",
+		"flavor": "\"Est-ce qu'on peut toujours appeler ça des premiers soins quand c'est votre deuxième jour à l'hôpital ?\" — Clint Barton",
+		"name": "Premiers Soins",
+		"text": "<b>Action</b> : soignez 2 dégâts de n'importe quel personnage."
+	},
+	{
+		"code": "01087",
+		"flavor": "BAM !",
+		"name": "Haymaker",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 3 dégâts à un ennemi.",
+		"traits": "Attaque."
+	},
+	{
+		"code": "01088",
+		"name": "Énergie",
+		"text": "1 max par deck."
+	},
+	{
+		"code": "01089",
+		"name": "Génie",
+		"text": "1 max par deck."
+	},
+	{
+		"code": "01090",
+		"name": "Force",
+		"text": "1 max par deck."
+	},
+	{
+		"code": "01091",
+		"flavor": "\"Tu n'as pas oublié d'éteindre le four ?\" — Janet Van Dyne",
+		"name": "Manoir des Avengers",
+		"text": "1 max par joueur.\n<b>Action</b> : inclinez le Manoir des Avengers → choisissez un joueur. Ce joueur pioche 1 carte.",
+		"traits": "Avenger. Lieu."
+	},
+	{
+		"code": "01092",
+		"flavor": "\"Un porte-avions volant ? Vous plaisantez n'est-ce pas ?\" — Jennifer Walters",
+		"name": "Héliporteur",
+		"text": "1 max par joueur.\n<b>Action</b> : inclinez l'Héliporteur → choisissez un joueur. Réduisez de 1 le coût de la prochaine carte jouée par ce joueur à cette phase.",
+		"traits": "Lieu. S.H.I.E.L.D."
+	},
+	{
+		"code": "01093",
+		"name": "Persévérance",
+		"text": "<b>Action de héros</b> : dépensez une ressource [physical] et défaussez cette carte → redressez votre héros.",
+		"traits": "Condition."
+	}
 ]

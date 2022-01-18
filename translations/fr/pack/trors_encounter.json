@@ -1,690 +1,690 @@
 [
-    {
-        "code": "04026",
-        "name": "Passé Criminel",
-        "text": "<b><i>Donnez cette carte au joueur de Clint Barton.</i></b>\nVous pouvez passer sous forme l'alter ego. Choisissez :\n- inclinez Clint Barton → retirez Passé Criminel de la partie.\n- Défaussez du jeu l'Arc de Hawkeye. Défaussez du jeu l'Arc de Hawkeye. Défaussez cette obligation.\n"
-    },
-    {
-        "code": "04027",
-        "name": "Crossfire",
-        "text": "Coup Rapide.\n",
-        "traits": "Mercenaire.",
-        "attack_text": "Les attaques de Crossfire gagnent Perçant.",
-        "boost_text": "si ce boost est résolu lors d'une attaque, cette attaque gagne Perçant."
-    },
-    {
-        "code": "04028",
-        "name": "Désignée pour Mourir",
-        "text": "<b>Une fois révélée</b> : le joueur de Client Barton cherche Mockingbird dans sa main, son deck, sa pile de défausse ou zone de jeu et la place, face visible, sous cette carte. Quand cette manigance est déjouée, renvoyez Mockingbird dans la main de son propriétaire."
-    },
-    {
-        "code": "04029",
-        "name": "Fusil de Crossfire",
-        "text": "Attachez cette Carte à Crossfire, si possible. Sinon, attachez-la au méchant.\n<b>Action de héros</b> : inclinez votre héros et dépensez une ressource [wild] → défaussez le Fusil de Crossfire.",
-        "traits": "Arme.",
-        "attack_text": "Quand l'ennemi attaché attaque, l'attaque gagne À Distance."
-    },
-    {
-        "code": "04030",
-        "flavor": "\"J'aime les laisser courir un peu avant de presser la détente.\" — Crossfire",
-        "name": "Tir de Précision",
-        "text": "<b>Une fois révélée (alter ego)</b> : placez 3 menaces sur la manigance principale.\n<b>Une fois révélée (héros)</b> : infligez 3 dégâts à votre héros."
-    },
-    {
-        "code": "04053",
-        "name": "Loyauté Douteuse",
-        "text": "<b><i>Donnez cette carte au joueur de Jessica Drew.</i></b>\n- Inclinez Jessica Drew → retirez Loyauté Douteuse de la partie.\n- Placez 3 menaces sur la manigance principale. Défaussez cette obligation.\n"
-    },
-    {
-        "code": "04054",
-        "flavor": "\"C'est l'heure de rentrer chez toi, Jessica.\"",
-        "name": "La Vipère",
-        "text": "Tant que la Vipère est engagé avec vous, votre taille de main est diminuée de 1.\n(Sbire Némésis de Spider-Woman.)",
-        "traits": "Élite. Hydra."
-    },
-    {
-        "code": "04055",
-        "flavor": "La Vipère a tout donné à Hydra en échange d'une promesse de pouvoir.",
-        "name": "Les Ambitions de la Vipère",
-        "text": "<b>Une fois révélée</b> : placez 1[per_hero] menace supplémentaire sur cette carte."
-    },
-    {
-        "code": "04056",
-        "flavor": "\"Quand vous essayez d'imaginer le genre de personnage susceptible de rejoindre une organisation terroriste ayant pour but la domination du monde, vous compreznez pourquoi les recrues d'Hydra ne sont pas très impressionnantes.\" — Jessica Drew",
-        "name": "Recrue d'Hydra",
-        "text": "Incitation 1. (Quand cette carte est révélée, placez 1 menace sur la manigance principale.)",
-        "traits": "Hydra."
-    },
-    {
-        "code": "04057",
-        "name": "Hail Hydra!",
-        "text": "<b>Une fois révélée</b> : chaque sbire [[Hydra]] engagé avec un héros attaque ce héros. Chaque joueur qui n'a pas été attaqué par cet effet cherche un sbire [[Hydra]] dans le deck Rencontre ou la pile de défausse Rencontre et le met en jeu engagé avec lui. Mélangez le deck Rencontre s'il a été consulté"
-    },
-    {
-        "code": "04058",
-        "flavor": "\"Je me considère comme un artiste. Un artiste spécialisé dans la destruction et la terreur.\"",
-        "name": "Crossbones",
-        "traits": "Hydra. Mercenaire.",
-        "attack_text": "Tant que Crossbones a un attachement [[Arme]], ses attaques gagnent Perçant. <i>(Défaussez toute carte d'état Tenace de la cible avant d'infliger les dégâts.)</i>"
-    },
-    {
-        "code": "04059",
-        "name": "Crossbones",
-        "text": "<b>Une fois révélée</b> : cherchez la Mitrailleuse de Crossbones dans le deck Rencontre ou la pile de défausse Rencontre et attachez-la à Crossbones. Mélangez le deck Rencontre.",
-        "traits": "Hydra. Mercenaire.",
-        "attack_text": "Tant que Crossbones a un attachement [[Arme]], ses attaques gagnent Perçant."
-    },
-    {
-        "code": "04060",
-        "flavor": "\"Ces types avec des super-pouvoirs sont peut-être plus forts, mais aucun ne peut rivaliser avec mon style.\"",
-        "name": "Crossbones",
-        "text": "<b>Une fois révélée</b> : révélez la carte du dessus du deck Armes Expérimentales.",
-        "traits": "Hydra. Mercenaire.",
-        "attack_text": "Tant que Crossbones a un attachement [[Arme]], ses attaques gagnent Perçant."
-    },
-    {
-        "code": "04061",
-        "flavor": "Crossbones mène une armée de soldats d'Hydra dans un assaut frontal contre le complexe du Project P.E.G.A.S.U.S. dans les Montagnes Adirondack.",
-        "name": "Attaque sur le Mont Athéna",
-        "text": "révélez la carte du dessus du deck Armes Expérimentales.",
-        "back_text": "<b>Contenu</b> : Crossbones (I) et Crossbones (II). Les sets de rencontre Crossbones, Armes Expérimentales et Standard. Trois sets de rencontre modulaires <i>(Offensive d'Hydra, Maîtrise des Armes et Légions d'Hydra)</i>.\n<b>Mise en place</b> : Constituez le deck Armes Expérimentales et placez-le à côté du deck Manigance Principale. (Voir livret de règles, page 5.)"
-    },
-    {
-        "code": "04062",
-        "name": "La Pierre d'Infinité",
-        "text": "<b>Une fois révélée</b> : révélez la carte du dessus du deck Armes Expérimentales.",
-        "back_flavor": "Dans le complexe du Projet P.E.G.A.S.U.S., les agents du S.H.I.E.L.D. mènent un combat désespéré pour empêcher Hydra de s'emparer de la Pierre de Réalité qui y est entreprosée."
-    },
-    {
-        "code": "04063",
-        "name": "La Fuite",
-        "text": "<b>Une fois révélée</b> : révélez la carte du dessus du deck Armes Expérimentales.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>",
-        "back_flavor": "Hydra s'est emparé de la Pierre d'Infinité et Crossbones donne l'ordre à ses hommes de se retirer. Vous devez les arrêter avant qu'ils ne s'enfuient !"
-    },
-    {
-        "code": "04064",
-        "name": "Mitrailleuse de Crossbones",
-        "text": "Attachez cette carte à Crossbones. Utilisations (2[per_hero] jetons Munition).",
-        "traits": "Arme.",
-        "attack_text": "<b>Interruption forcée</b> : quand Crossbones vous attaque, retirez 1 jeton Munition de cette carte et défaussez la carte du dessus du deck Rencontre → subissez un nombre de dégâts indirects égal au nombre d'icônes de boost sur la carte défaussée."
-    },
-    {
-        "code": "04065",
-        "flavor": "\"Je m'amuse comme un fou, chérie\" — Crossbones",
-        "name": "Armure de Crossbones",
-        "text": "Attachez cette carte à Crossbones.\n<b>Interruption forcée</b> : quand Crossbones est censé subir n'importe quelle quantité de dégâts, placez-les sur cette carte à la place. S'il y a au moins 5 dégâts sur l'Armure de Crossbones, défaussez-la.",
-        "traits": "Armure."
-    },
-    {
-        "code": "04066",
-        "flavor": "\"Je sais que si on coupe une tête, deux autres prennent sa place. Mais il se passe quoi si on la fait exploser à la place ?\" — Miss Hulk",
-        "name": "Poseur de Bombe d'Hydra",
-        "text": "<b>Une fois révélée</b> : choisissez : soit vous subissez 2 dégâts, soit vous placez 1 menace sur la manigance principale.",
-        "traits": "Hydra."
-    },
-    {
-        "code": "04067",
-        "name": "Rafales Automatiques",
-        "text": "<b>Une fois révélée (alter ego)</b> : Renfort.\n<b>Une fois révélée (héros)</b> : défaussez X cartes du dessus du deck Rencontre, X étant l'ATQ de Crossbones. Subissez 1 dégât indirect pour chaque icône de boost ainsi défaussée."
-    },
-    {
-        "code": "04068",
-        "name": "Dur à Cuire",
-        "text": "<b>Une fois révélée</b> : donnez une carte d'état Tenace au méchant. Si vous ne pouvez pas, soignez-le de 3 dégâts à la place.",
-        "boost_text": "donnez une carte d'état Tenace au méchant. Si vous ne pouvez pas, soignez-le de 3 dégâts à la place."
-    },
-    {
-        "code": "04069",
-        "name": "Piller l'Armurerie",
-        "text": "Incitation 1. <i>(Quand cette carte est révélée, placez 1 menace sur la manigance principale)</i>\n<b>Une fois révélée</b> : défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'un attachement [[Arme]] soit défaussé. Révélez-le."
-    },
-    {
-        "code": "04070",
-        "flavor": "Crossbones est un tueur sans pitié, mais ce n'est pas un psychopathe pour autant. Son offensive sur P.E.G.A.S.U.S. est d'une implacable efficacité",
-        "name": "Offensive de Crossbones",
-        "text": "<b>Une fois déjouée</b> : Crossbones s'active contre le joueur qui a déjoué cette manigance."
-    },
-    {
-        "code": "04071",
-        "flavor": "Hydra a capturé des employés de P.E.G.A.S.U.S. et les retient en otages.",
-        "name": "Employés Pris au Piège",
-        "text": "<b>Une fois révélée</b> :  défaussez 1[per_hero] carte du dessus du deck Rencontre. Placez 1 menace supplémentaire sur cette carte pour chaque icône de boost sur les cartes ainsi défaussées."
-    },
-    {
-        "code": "04072",
-        "name": "Fusil Laser",
-        "text": "Attachez cette carte au méchant.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy] [physical] → défaussez cette carte.",
-        "traits": "Expérimental. Arme.",
-        "attack_text": "<b>Interruption forcée</b> : quand le méchant attaché attaque, l'attaque gagne À Distance."
-    },
-    {
-        "code": "04073",
-        "flavor": "\"Jamais vous ne parviendrez à convraincre Cap qu'un bouclier énergétique est aussi efficace que son bon vieux frisbee.\" — Carol Danvers",
-        "name": "Bouclier Énergétique",
-        "text": "Attachez cette carte au méchant.\nLe méchant attaché gagne Riposte 1.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy] [mental] → défaussez cette carte.",
-        "traits": "Expérimental. Arme."
-    },
-    {
-        "code": "04074",
-        "name": "Gantelets de Pouvoir",
-        "text": "Attachez cette carte au méchant.\n<b>Action de héros</b> : dépensez les ressources suivantes : [mental] [physical] → défaussez cette carte.",
-        "traits": "Expérimental. Arme.",
-        "attack_text": "<b>Réponse forcée</b> : après que le méchant attaché vous a attaqué et blessé, défaussez 1 carte de votre main."
-    },
-    {
-        "code": "04075",
-        "flavor": "\"Je n'aurais jamais dû partager ma technologie avec le S.H.I.E.L.D\" — Tony Stark",
-        "name": "Exo-Costume",
-        "text": "Attachez cette carte au méchant.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy] [mental] [physical] → défaussez cette carte.",
-        "traits": "Expérimental. Arme."
-    },
-    {
-        "code": "04076",
-        "flavor": "\"Vous savez que j'ai battu Thor une fois ? Imaginez ça : Crusher Creel surclassant le Dieu du Tonnerie, et vous pensez me faire peur ?\"",
-        "name": "L'Homme Absorbant",
-        "text": "L'Homme Absorbant gagne le trait de chaque environnement en jeu.",
-        "traits": "Brute."
-    },
-    {
-        "code": "04077",
-        "name": "L'Homme Absorbant",
-        "text": "L'Homme Absorbant gagne le trait de chaque environnement en jeu.\n<b>Une fois révélée</b> : Si Pouvoir Super Absorbant est en jeu, attribuez 1 carte Rencontre à chaque joueur. Sinon, cherchez Pouvoir Super Absorbant dans le deck Rencontre ou la pile de défausse Rencontre et révélez-le. Mélangez le deck Rencontre s'il a été consulté.",
-        "traits": "Brute."
-    },
-    {
-        "code": "04078",
-        "name": "L'Homme Absorbant",
-        "text": "L'Homme Absorbant gagne le trait de chaque environnement en jeu.\n",
-        "traits": "Brute.",
-        "attack_text": "<b>Réponse forcée</b> : après que l'Homme Absorbant s'est activé contre vous, s'il a :\n- Le trait [[Glace]] ou [[Pierre]], placez 1 menance sur la manigance principale.\n- [[Métal]] ou [[Bois]], subissez 1 dégât indirect.",
-        "scheme_text": "<b>Réponse forcée</b> : après que l'Homme Absorbant s'est activé contre vous, s'il a :\n- Le trait [[Glace]] ou [[Pierre]], placez 1 menance sur la manigance principale.\n- [[Métal]] ou [[Bois]], subissez 1 dégât indirect."
-    },
-    {
-        "code": "04079",
-        "name": "Personne ne Passe",
-        "text": "<b>[star] Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, placez 1 jeton Retard sur cette carte.\n<b>Interruption forcée</b> : quand un environnement entre en jeu, défaussez chaque autre carte Environnement en jeu.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>",
-        "back_text": "<b>Contenu</b> : L'Homme Absorbant (I) et L'Homme Absorbant (II). Les sets de rencontre L'Homme Absorbant et Standard. Une set de rencontre modulaire <i>(Patrouille d'Hydra)</i>\n<b>Mise en place</b> : défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'un environnement soit défaussé. Mettez-le en jeu et mélangez la pile de défausse Rencontre dans le deck Rencontre."
-    },
-    {
-        "code": "04080",
-        "name": "Forêt Dense",
-        "text": "Surge.\n<b>Réponse forcée</b> : qprès que L'Homme Absorbant a effectué une attaque non défendue contre vous, subissez 1 dégât indirect (2 dégâts indirects à la place s'il y a au moins 5 jetons Retard sur la manigance principale).",
-        "traits": "Bois.",
-        "boost_text": "mettez en jeu cette carte."
-    },
-    {
-        "code": "04081",
-        "name": "Coteau Enneigé",
-        "text": "Surge.\n<b>Réponse forcée</b> : après que L'Homme Absorbant a effectué une attaque non défendue contre vous, placez 1 menace sur la manigance principale (2 menaces à la place s'il y a au moins 5 jetons Retard sur la manigance principale).",
-        "traits": "Grace.",
-        "boost_text": "mettez en jeu cette carte."
-    },
-    {
-        "code": "04082",
-        "name": "Affleurement Rocheux",
-        "text": "Renfort.\n<b>Réponse forcée</b> : après que L'Homme Absorbant a effectué une attaque non défendue contre vous, soignez-le de 1 dégât (2 dégâts à la place s'il y a au moins 5 jetons Retard sur la manigance principale).",
-        "traits": "Pierre.",
-        "boost_text": "mettez en jeu cette carte."
-    },
-    {
-        "code": "04083",
-        "name": "Usine Abandonnée",
-        "text": "Renfort.\n<b>Réponse forcée</b> : après que L'Homme Absorbant a effectué une attaque non défendue contre vous, défaussez 1 icône de ressource de votre main (2 icônes de ressource à la place s'il y a au moins 5 jetons Retard sur la manigance principale).",
-        "traits": "Métal.",
-        "boost_text": "mettez en jeu cette carte."
-    },
-    {
-        "code": "04084",
-        "name": "Chaîne et Boulet",
-        "text": "Attachez cette carte à L'Homme Absorbant.\n<b>Action de héros</b> : dépensez une ressource [physical] → mélangez cette carte dans le deck Rencontre.",
-        "traits": "Arme.",
-        "boost_text": "révélez cette carte."
-    },
-    {
-        "code": "04085",
-        "name": "Retarder les Héros",
-        "text": "<b>Une fois révélée</b> : ^macez 1 menace sur la manigance principale pour chaque groupe de 2 jetons Retard sur la manigance principale. Si aucune menace n'est placée ainsi, cette carte gagne Renfort",
-        "boost_text": "s'il y a au moins 5 jetons Retard sur la manigance principale, subissez 1 dégât indirect."
-    },
-    {
-        "code": "04086",
-        "name": "Pierre Tourbillonnante",
-        "text": "<b>Une fois révélée (alter ego)</b> : L'Homme Absorbant manigance. Si l'Homme Absorbant a le trait [[Pierre]], il gagne +1 MNG pour cette activation.\n<b>Une fois révélée (héros)</b> : L'Homme Absorbant vous attaque. Si l'Homme Absorbant a le trait [[Pierre]], il gagne +1 ATQ pour cette activation."
-    },
-    {
-        "code": "04087",
-        "name": "Coup de Pied d'Acier",
-        "text": "<b>Une fois révélée (alter ego)</b> : placez 2 menaces sur la manigance principale (3 menaces à la place si l'Homme Absorbant a le trait [[Métal]]).\n<b>Une fois révélée (héros)</b> : subissez 3 dégâts indirects (4 dégâts indirects à la place si l'Homme Absorbant a le trait [[Métal]]"
-    },
-    {
-        "code": "04088",
-        "name": "Épines Perçantes",
-        "text": "<b>Une fois révélée</b> : défaussez 1 carte prise au hasard dans votre main. Si l'Homme Absorbant a le trait [[Bois]], défaussez 1 carte que vous contrôlez.",
-        "boost_text": "si l'Homme Absorbant a le trait [[Pierre]] ou [[Bois]], vous êtes sonné."
-    },
-    {
-        "code": "04089",
-        "name": "Duplication Omni-Morph",
-        "text": "<b>Une fois révélée</b> : si l'Homme Absorbant a :\n- le trait [[Glace]], inclinez votre identité.\n- le trait [[Métal]], donnez une carte d'état Tenace à l'Homme Absorbant et soignez-le de 1 dégât.\n- le trait [[Pierre]], donnez 1 carte de boost face cachée à l'Homme Absorbant.\n- le trait [[Bois]], défaussez 1 carte prise au hasard dans votre main."
-    },
-    {
-        "code": "04090",
-        "name": "Étreinte Glacée",
-        "text": "<b>Une fois révélée</b> : vous êtes sonné. Si l'Homme Absorbant a le trait [[Glace]], subissez 2 dégâts indirects.",
-        "boost_text": "si L'Homme Absorbant a le trait [[Glace]] ou [[Métal]], donnez-lui une carte d'état Tenace."
-    },
-    {
-        "code": "04091",
-        "name": "Avalanche !",
-        "text": "<b>Une fois révélée</b> : chaque joueur doit choisir : soit dépenser une ressource [energy], soit subir 2 dégâts indirects (3 dégâts indirects à la place s'il y a au moins 5 jetons Retard sur la manigance principale)."
-    },
-    {
-        "code": "04092",
-        "flavor": "Creel a la capacité d'absorber les propriétés de plusieur séléments à la fois, mais cela nécessite une intense concentration.",
-        "name": "Pouvoir Super Absorbant",
-        "text": "L'Homme Absorbant gagne les traits [[Glace]], [[Métal]], [[Pierre]], et [[Bois]].",
-        "boost_text": "révélez cette carte."
-    },
-    {
-        "code": "04093",
-        "flavor": "\"Il n'y a rien que tu saches faire que je ne puisse faire en mieux.\"",
-        "name": "Taskmaster",
-        "text": "<b>Réponse forcée</b> : après qu'un joueur est passé sous forme de héros, il défausse la carte du dessus du deck Rencontre et subit des dégâts égaux au nombre d'icônes de boost sur la carte défaussée.",
-        "traits": "Hydra. Mercenaire."
-    },
-    {
-        "code": "04094",
-        "name": "Taskmaster",
-        "text": "<b>Une fois révélée</b> : attribuez une carte Rencontre à chaque joueur.\n<b>Réponse forcée</b> : après qu'un joueur est passé sous forme de héros, il défausse la carte du dessus du deck Rencontre et subit des dégâts égaux au nombre d'icônes de boost sur la carte défaussée.",
-        "traits": "Hydra. Mercenaire."
-    },
-    {
-        "code": "04095",
-        "name": "Taskmaster",
-        "text": "<b>Une fois révélée</b> : attribuez une carte Rencontre à chaque joueur.\n<b>Réponse forcée</b> : après qu'un joueur est passé sous forme de héros, il défausse la carte du dessus du deck Rencontre et subit des dégâts égaux au nombre d'icônes de boost sur la carte défaussée.",
-        "traits": "Hydra. Mercenaire."
-    },
-    {
-        "code": "04096",
-        "flavor": "Le célèbre Taskmaster a été nommé chef de la police d'Hydra. Sa priorité est de traquer les héros hors-la-loi.",
-        "name": "Traquer les Héros",
-        "text": "<b>[star] Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, chaque joueur sous forme de héros doit choisir : soit placer 1 menace sur cette carte, soit subir 1 dégât.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>",
-        "back_text": "<b>Contenu</b> : Taskmaster (I) et Taskmaster (II). Les sets de rencontre Taskmaster, Patrouille d'Hydra et Standard. Un set de rencontre modulaire <i>(Maîtrise des Armes).</i>\n<b>Mise en place</b> : mettez de côté chaque allié [[Captif]], hors jeu.Cherchez la Patrouille d'Hydra dans le deck Rencontre et mettez-la en jeu. Mélangez le deck Rencontre."
-    },
-    {
-        "code": "04097",
-        "flavor": "\"Hydra took over so fast, I wasn't sure they were real.\"",
-        "name": "Moon Knight",
-        "text": "<b>Réponse</b> : après avoir joué Moon Knight de votre main, dépensez une ressource [wild] → piochez 2 cartes.",
-        "traits": "Captif. Héros à Louer.",
-        "subname": "Marc Spector"
-    },
-    {
-        "code": "04098",
-        "name": "Shang-Chi",
-        "text": "<b>Réponse</b> : après avoir joué Shang-Chi de votre main, dépensez une ressource [energy] → sonnez un ennemi.",
-        "traits": "Captif. Héros à Louer."
-    },
-    {
-        "code": "04099",
-        "name": "Tigre Blanc",
-        "text": "<b>Réponse</b> : après avoir joué Tigre Blanc de votre main, dépensez une ressource [mental] → retirez 3 menaces d'une manigance.",
-        "traits": "Captif. Héros à Louer.",
-        "subname": "Angela Del Toro"
-    },
-    {
-        "code": "04100",
-        "flavor": "\"J'ai été capturée pendant que j'essayais d'aider des civils à échapper à une patrouille d'Hydra. Les civils en question étaient en fait des agents d'Hydra infiltrés.\"",
-        "name": "Elektra",
-        "text": "<b>Réponse</b> : après avoir joué Elektra de votre main, dépensez une ressource [physical] → infligez 3 dégâts à un ennemi.",
-        "traits": "Captif. Héros à Louer."
-    },
-    {
-        "code": "04101",
-        "name": "Chasseur d'Hydra",
-        "traits": "Hydra.",
-        "attack_text": "Les attaques du Chasseur d'Hydra gagnent Perçant et À Distance.",
-        "boost_text": "si vous êtes sous forme de héros, subissez 1 dégât. Sinon, placez 1 menace sur la manigance principale."
-    },
-    {
-        "code": "04102",
-        "name": "Épée de Taskmaster",
-        "text": "Attachez cette carte à Taskmaster.\n<b>Action de héros</b> : inclinez votre héros et dépensez les ressources suivantes : [mental] [physical] → défaussez cette carte.",
-        "traits": "Arme.",
-        "attack_text": "Les attaques de Taskmaster gagnent Perçant."
-    },
-    {
-        "code": "04103",
-        "flavor": "\"J'ai appris cette parade grâce à Captain America.\" — Taskmaster",
-        "name": "Bouclier de Taskmaster",
-        "text": "Attachez cette carte à Taskmaster.\nTaskmaster gagne Riposte 1.\n<b>Action de héros</b> : inclinez votre héros et dépensez les ressources suivantes : [mental] [physical] → défaussez cette carte.",
-        "traits": "Armure. Arme."
-    },
-    {
-        "code": "04104",
-        "name": "Réfléxes Photographiques",
-        "text": "Attachez cette carte à Taskmaster.\n<b>Interruption forcée</b> : quand un joueur attaque Taskmaster, prévenez tous les dégâts qui sont censés être infligés à Taskmaster et infligez une quantité égale de dégâts à l'identité de ce joueur à la place. Ensuite, défaussez Réflexes Photographiques. (Une fois max par attaque.)"
-    },
-    {
-        "code": "04105",
-        "name": "Mimétisme",
-        "text": "<b>Une fois révélée (alter ego)</b> : défaussez les 5 cartes du dessus de votre deck. Si une carte [[Contre]] est ainsi défaussée, Taskmaster manigance.\n<b>Une fois révélée (héros)</b> : défaussez les 5 cartes du dessus de votre deck. Si une carte [[Attaque]] est ainsi défaussée, Taskmaster vous attaque."
-    },
-    {
-        "code": "04106",
-        "flavor": "\"C'est une sale époque pour les héros.\" — Bucky Barnes",
-        "name": "Traqué par Hydra",
-        "text": "Incitation 1. <i>(Quand cette carte est révélée, placez 1 menace sur la manigance principale)</i>\n<b>Une fois révélée</b> : chaque joueur sous forme de héros subit 1 dégât et défausse 1 carte prise au hasard dans sa main."
-    },
-    {
-        "code": "04107",
-        "name": "Capturé par Hydra",
-        "text": "<b>Une fois révélée</b> : placez face cachée sous cette manigance 1 allié [[Captif]] pris au hasard parmi ceux mis de côté. Quand cette manigance est déjouée, le joueur qui l'a déjouée prend cet allié dans sa main et retire cette manigance de la partie."
-    },
-    {
-        "code": "04108",
-        "flavor": "Taskmaster n'accepte que les troupes d'élite dans ses forces de la police. Avant qu'un soldat d'Hydra puisse y entrer, il doit survivre à son camp d'entraînement.",
-        "name": "Camp d'Entraînement de Taskmaster",
-        "text": "<b>Réponse forcée</b> : après qu'un sbire est entré en jeu, donnez-lui une carte d'état Tenace."
-    },
-    {
-        "code": "04109",
-        "flavor": "\"Mon programme d'altération transformera ces pathétiques créatures en troupes d'élite d'Hydra !\"",
-        "name": "Zola",
-        "text": "Riposte 1.",
-        "traits": "Androïde. Hydra."
-    },
-    {
-        "code": "04110",
-        "name": "Zola",
-        "text": "Riposte 1.\n<b>Une fois révélée</b> : cherchez la manigance annexe Cobayes dans le deck Rencontre ou la pile de défausse Rencontre et révélez-la. Mélangez le deck Rencontre.",
-        "traits": "Androïde. Hydra."
-    },
-    {
-        "code": "04111",
-        "name": "Zola",
-        "text": "Riposte 1.\n<b>Une fois révélée</b> : chaque joueur cherche un sbire dans le deck Rencontre ou la pile de défausse Rencontre et le révèle. Mélangez le deck Rencontre",
-        "traits": "Androïde. Hydra."
-    },
-    {
-        "code": "04112",
-        "name": "L'Île du Dr. Zola",
-        "text": "<b>[star] Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, placez 1 jeton Test sur cette carte. Ensuite, s'il y a au moins 3 jetons Test sur cette carte, défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'un sbire soit défaussé. Mettez en jeu ce sbire engagé avec le premier joueur et retirez 3 jetons Test de cette manigance.",
-        "back_text": "<b>Contenu</b> : Zola (I) et Zola (II). Les sets de rencontre Zola et Standard. Un set de rencontre modulaire <i>(Civils Attaqués)</i>\n<b>Mise en place</b> : cherchez la Prison d'Hydra dans le deck Rencontre et révélez-la. Chaque joueur cherche un exemplaire du Bio-Serviteur Ultime et le met en jeu engagé avec lui. Mélangez le deck Rencontre."
-    },
-    {
-        "code": "04113",
-        "name": "Le Savant fou",
-        "text": "<b>[star] Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, placez 1 jeton Test sur cette carte. Ensuite, s'il y a au moins 3 jetons Test sur cette carte, défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'un sbire soit défaussée. Mettez en jeu ce sbire engagé avec le premier joueur et retirez 3 jetons Test de cette manigance.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>",
-        "back_text": "<b>Une fois révélée</b> : chaque joueur cherche un sbire dans le deck Rencontre ou la pile de défausse Rencontre et le révèle. Mélangez le deck Rencontre.",
-        "back_flavor": "Les altérés de Zola vous attaquent furieusement avec une obéissace aveugle. Vous devez mettre un terme à ce cauchemar avant que le savant fou ne les lâche sur le monde !"
-    },
-    {
-        "code": "04114",
-        "name": "Bio-Serviteur Ultime",
-        "text": "Ténacité.",
-        "traits": "Hydra. Altéré.",
-        "attack_text": "Le Bio-Serviteur Ultime gagne +1 ATQ pour chaque attachement sur lui.",
-        "boost_text": "donnez une carte d'état Tenace au méchant."
-    },
-    {
-        "code": "04115",
-        "name": "Altéré de Zola",
-        "text": "<b>Une fois révélée</b> : défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'un attachement [[Tech]] soit défaussé. Attachez-le à l'Altéré de Zola.",
-        "traits": "Hydra. Altéré.",
-        "boost_text": "mélangez l'Altéré de Zola dans le deck Rencontre."
-    },
-    {
-        "code": "04116",
-        "name": "Altéré Berserk",
-        "text": "Coup Rapide.",
-        "traits": "Hydra. Altéré.",
-        "boost_text": "placez 1 jeton Test sur la manigance principale. Pour chaque jeton Test sur la manigance principale, Zola gagne +1 MNG et +1 ATQ pour cette activation."
-    },
-    {
-        "code": "04117",
-        "name": "Programmation Défensive",
-        "text": "Attachez cette carte au sbire avec le plus de points de vie restants qui n'a pas déjà un autre exemplaire de Rpogrammation Défensive attaché. Si vous ne pouvez pas, cette carte gagne Renfort.\nLe sbire attaché gagne +2 points de vie et Garde.",
-        "traits": "Tech."
-    },
-    {
-        "code": "04118",
-        "name": "Inhibiteurs de Douleur",
-        "text": "Attachez cette carte au sbire avec le plus de points de vie restants qui n'a pas déjà un autre exemplaire d'Inhibiteurs de Douleur attaché. Si vous ne pouvez pas, cette carte gagne Renfort.\n.Le sbire attaché gagne +2 points de vie et Riposte 1.",
-        "traits": "Tech."
-    },
-    {
-        "code": "04119",
-        "name": "Implants Neurologiques",
-        "text": "Attachez cette carte au sbire avec le plus de points de vie restants qui n'a pas déjà un autre exemplaire d'Implants Neurologiques attaché. Si vous ne pouvez pas, cette carte gagne Renfort.\nLe sbire attaché gagne +2 points de vie.",
-        "traits": "Tech."
-    },
-    {
-        "code": "04120",
-        "flavor": "\"Vous pensiez Zola sans défense ? Imbécile arrogant !\" — Arnim Zola",
-        "name": "Rayon Mental",
-        "text": "<b>Une fois révélée (alter ego):</b> Zola manigance. Vous êtes désorienté.\n<b>Une fois révélée (héros)</b> : Zola vous attaque. Vous êtes sonné."
-    },
-    {
-        "code": "04121",
-        "name": "Améliorations Technologiques",
-        "text": "Incitation 1.\n<b>Une fois révélée</b> : placez 1 jeton Test sur la manigance principale.",
-        "boost_text": "placez 1 jeton Test sur la manigance principale."
-    },
-    {
-        "code": "04122",
-        "name": "Prison d'Hydra",
-        "text": "<b>Une fois révélée</b> : chaque joueur cherche un allié spécifique à son héros dans son deck, sa pile de défausse ou sa main et le place face cachée sous cette manigance. Placez X menaces sur cette manigance, X étant la somme des coûts des alliés situés en dessous. Chaque joueur mélange son deck.\n<b>Une fois déjouée</b> : retirez cette manigance de la partie et renvoyez chaque allié situé en dessous dans la main de son propriétaire."
-    },
-    {
-        "code": "04123",
-        "flavor": "C'est un sort pire que la mort.",
-        "name": "Cobayes",
-        "text": "<b>Une fois déjouée</b> : le premier joueur défausse des cartes du dessus du deck Rencontre jusqu'à ce qu'il défausse un sbire. Il révèle ce sbire."
-    },
-    {
-        "code": "04124",
-        "flavor": "Le savant fou ne se lasse jamais d'expérimenter sur ses victimes.",
-        "name": "Expériences de Zola",
-        "text": "<b>Réponse forcée</b> : après qu'un sbire est entré en jeu, attachez-lui l'attachement [[Tech]] qui est le plus proche du dessus de la pile de défausse Rencontre."
-    },
-    {
-        "code": "04125",
-        "flavor": "\"La liberté est seulement pour celui qui dirige ! Tous les autres ne sont que des esclaves !\"",
-        "name": "Crâne Rouge",
-        "traits": "Hydra.",
-        "attack_text": "Crâne Rouge gagne +1 ATQ pour chaque manigance annexe en jeu."
-    },
-    {
-        "code": "04126",
-        "flavor": "\"Personne ne viendra contrecarrer mes plans !\"",
-        "name": "Crâne Rouge",
-        "text": "<b>Une fois révélée</b> : attribuez une carte Rencontre à chaque joueur.",
-        "traits": "Hydra.",
-        "attack_text": "Crâne Rouge gagne +1 ATQ pour chaque manigance annexe en jeu."
-    },
-    {
-        "code": "04127",
-        "flavor": "\"Le monde se prosternera devant Crâne Rouge!\"",
-        "name": "Crâne Rouge",
-        "text": "<b>Une fois révélée</b> : attribuez une carte Rencontre à chaque joueur.",
-        "traits": "Hydra.",
-        "attack_text": "Crâne Rouge gagne +1 ATQ pour chaque manigance annexe en jeu."
-    },
-    {
-        "code": "04128",
-        "flavor": "Crâne Rouge cherche à conquérir le monde en utilisant le pouvoir de la Pierre de la Réalité. Il utilise son génie stratégique pour vous tenir occupé pendant qu'il travaille dans ce but.",
-        "name": "L'Avènement de Crâne Rouge",
-        "text": "<b>[star] Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, révélez la carte du dessus du deck Manigance Annexe et mettez-la en jeu.",
-        "back_text": "<b>Contenu</b> : Crâne Rouge (I) et Crâne Rouge (II). Les sets de Rencontre Crâne Rouge et Standard. Deux sets de rencontre modulaires <i>(Offensive d'Hydra et Patrouille d'Hydra).</i>\n<b>Mise en place</b> : mettez en jeu la Maison Rouge. Mélangez chaque autre manigance annexe dans le deck Manigance Annexe et placez-le à côté du deck Rencontre <i>(voir livret de règles)</i>. Mettez de côté Le Dormeur, hors jeu."
-    },
-    {
-        "code": "04129",
-        "name": "Nouvel Ordre Mondial d'Hydra",
-        "text": "<b>[star] Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du méchant, révélez la carte du dessus du deck Manigance Annexe et mettez-la en jeu.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>",
-        "back_text": "<b>Une fois révélée</b> : révélez la carte du dessus du deck Manigance Annexe et mettez-la en jeu.",
-        "back_flavor": "Crâne Rouge est tout proche de déchaîner le plein pouvoir de la Pierre d'Infinité. Vous devez l'arrêter avant qu'il ne le fasse et que la réalité soit soumise à sa volonté maléfique."
-    },
-    {
-        "code": "04130",
-        "name": "Le Dormeur",
-        "text": "Garde. Riposte 1. Ténacité.\n<b>Une fois révélée</b> : Le dormeur engage le premier joueur.\n<b>Une fois déjouée</b> : retirez le Dormeur de la partie.",
-        "traits": "Élite. Hydra. Robot."
-    },
-    {
-        "code": "04131",
-        "flavor": "\"Attention, les gars. Ces types cognent dur !\" — Captain America",
-        "name": "Exo-Soldat d'Hydra",
-        "text": "Ténacité.",
-        "traits": "Hydra.",
-        "boost_text": "donnez au méchant une carte d'état Tenace et une autre carte de boost."
-    },
-    {
-        "code": "04132",
-        "name": "Luger de Crâne Rouge",
-        "text": "Attachez cette carte à Crâne Rouge.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy] [mental] [physical] → défaussez cette carte.",
-        "traits": "Arme.",
-        "attack_text": "Les attaques de Crâne Rouge gagnent Perçant et À Distance.",
-        "boost_text": "Attachez cette carte à Crâne Rouge."
-    },
-    {
-        "code": "04133",
-        "flavor": "\"Je vous suis supérieur en toutes choses !\" — Crâne Rouge",
-        "name": "Crochet du Droit de Crâne Rouge",
-        "text": "Attachez cette carte à Crâne Rouge.\nCrâne Rouge gagne Riposte 1.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy] [mental] [physical] → défaussez cette carte.",
-        "traits": "Compétence."
-    },
-    {
-        "code": "04134",
-        "flavor": "\"Aux Échecs, la seule pièce qui compte est le roi, et je suis le roi.\" — Crâne Rouge",
-        "name": "Maître Stratège",
-        "text": "Attachez cette carte à Crâne Rouge.",
-        "traits": "Compétence.",
-        "attack_text": "<b>Interruption forcée</b> : quand Crâne Rouge s'active, donnez-lui une carte de boost supplémentaire pour chaque manigance annexe en jeu. Ensuite, défaussez Maître Stratège. (Une fois max par activation.)",
-        "scheme_text": "<b>Interruption forcée</b> : quand Crâne Rouge s'active, donnez-lui une carte de boost supplémentaire pour chaque manigance annexe en jeu. Ensuite, défaussez Maître Stratège. (Une fois max par activation.)"
-    },
-    {
-        "code": "04135",
-        "flavor": "La Pierre d'Infinité donne à Crâne Rouge le pouvoir de modeler la réalité selon sa volonté.",
-        "name": "Réalité Altérée",
-        "text": "Incitation 1.\nAttachez cette carte à une manigance annexe.\n<b>Réponse forcée</b> : quand la manigance attachée est déjouée, attribuez une carte Rencontre au premier joueur.",
-        "traits": "Condition."
-    },
-    {
-        "code": "04136",
-        "flavor": "\"C'est la fin pour vous, Herr Captain !\" — Crâne Rouge",
-        "name": "Éternel Rival",
-        "text": "<b>Une fois révélée</b> : inclinez un personnage que vous contrôlez pour chaque manigance annexe en jeu.",
-        "boost_text": "inclinez un personnage que vous contrôlez."
-    },
-    {
-        "code": "04137",
-        "flavor": "\"Grâce à mon intelligence sans pareil, le règne d'Hydra sera incontesté !\" — Crâne Rouge",
-        "name": "Propagation de Mensonges",
-        "text": "<b>Une fois révélée</b> : placez 2 menaces sur chaque manigance en jeu.",
-        "boost_text": "donnez une carte d'état Tenace à Crâne Rouge."
-    },
-    {
-        "code": "04138",
-        "name": "Pouvoir Infini",
-        "text": "<b>Une fois révélée (alter ego)</b> : donnez une carte d'état Tenance à Crâne Rouge. Crâne Rouge manigance.\n<b>Une fois révélée (héros)</b> : donnez une carte d'état Tenace à Crâne Rouge. Crâne Rouge vous attaque."
-    },
-    {
-        "code": "04139",
-        "flavor": "Crâne Rouge a bâti sa forteresse par-dessus la Maison Blanche comme symbole de la conquête de l'Amérique par Hydra.",
-        "name": "La Maison Rouge",
-        "text": "Crâne Rouge ne peut pas subir de dégâts.\n<b>Interruption</b> : quand un personnage contre cette manigance annexe, il peut utiliser son ATQ au lieu de son CTR."
-    },
-    {
-        "code": "04140",
-        "flavor": "Surgissant du fleuve Potomax, Le Dormeur s'est réveillé pour répondre à l'appel de Crâne Rouge.",
-        "name": "Le Réveil du Dormeur",
-        "text": "Cette manigance annexe ne peut pas quitter le jeu tant que Le Dormeur est en jeu.\n<b>Une fois révélée</b> : mettez en jeu Le Dormeur, engagé avec le premier joueur. Quand Le Dormeur est vaincu, retirez le Réveil du Dormeur de la partie."
-    },
-    {
-        "code": "04141",
-        "flavor": "Sous le joug d'Hydra, des familles sont déparées et emprisonnées sans la moindre forme de procès.",
-        "name": "Camps de Prisonniers",
-        "text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance cherche un allié dans son deck ou sa pile de défausse, le met en jeu, et mélange son deck."
-    },
-    {
-        "code": "04142",
-        "flavor": "Hydra contrôle tous les médias et utilise sa propagande pour monter la population contre les héros du passé.",
-        "name": "Réécrire le Passé",
-        "text": "<b>Une fois déjouée</b> : chaque joueur choisit jusqu'à 3 carte de sa pile de défausse et les mélange dans son deck."
-    },
-    {
-        "code": "04143",
-        "flavor": "Hydra compense la piètre qualité de ses troupes par la quantité.",
-        "name": "Renforts d'Hydra",
-        "text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance défausse un sbire non-[[Élite]]."
-    },
-    {
-        "code": "04144",
-        "flavor": "Crâne rouge cause des catastrophes partout dans le pays pour occuper ses ennemis.",
-        "name": "Chaos de Masse",
-        "text": "<b>Une fois révélée</b> : chaque joueur défausse les 5 cartes du dessus de son deck et place 1 menace sur cette carte pour chaque type de ressource différent ([energy],[mental],[physical], ou [wild]) ainsi défaussé."
-    },
-    {
-        "code": "04145",
-        "name": "Soldat Lance-Flamme d'Hydra",
-        "traits": "Hydra.",
-        "attack_text": "<b>Réponse forcée</b> : après que le Soldat Lance-Flammes d'Hydra a effectué une attaque non défendue contre vous, défaussez un soutien que vous contrôlez.",
-        "boost_text": "si cette carte est résolue lors qu'une attaque non défendue, défaussez un soutien que vous contrôlez."
-    },
-    {
-        "code": "04146",
-        "name": "Soldat Propulsé d'Hydra",
-        "text": "Coup Rapide.",
-        "traits": "Hydra.",
-        "boost_text": "si vous êtes sous forme de héros, le méchant vous attaque après cette activation. Ne donnez pas de carte boost pour cette attaque."
-    },
-    {
-        "code": "04147",
-        "name": "Hail Hydra!",
-        "text": "<b>Une fois révélée</b> : chaque sbire [[Hydra]] engagé avec un héros attaque ce héros. Chaque joueur qui n'a pas été attaqué par cet effet cherche un sbire [[Hydra]] dans le deck Rencontre ou la pile de défausse Rencontre et le met en jeu engagé avec lui. Mélangez le deck Rencontre s'il a été consulté"
-    },
-    {
-        "code": "04148",
-        "name": "Couteau de Combat",
-        "text": "Attachez cette carte au méchant.\n<b>Action de héros</b> : dépensez les ressources suivantes : [mental] [physical]  → défaussez cette carte.",
-        "traits": "Arme.",
-        "attack_text": "Les attaques du méchant gagnent Perçant."
-    },
-    {
-        "code": "04149",
-        "name": "Pistolet d'Hydra",
-        "text": "Attachez cette carte au méchant.\n<b>Action de héros</b> : dépensez les ressources suivantes : [mental] [physical] → défaussez cette carte.",
-        "traits": "Arme.",
-        "attack_text": "<b>Interruption forcée</b> : quand le méchant attaque, l'attaque gagne À Distance."
-    },
-    {
-        "code": "04150",
-        "name": "Maîtrise des Armes",
-        "text": "<b>Une fois révélée (alter ego)</b> : le méchant manigance. S'il a un attachement [[Arme]], cette carte gagne Renfort.\n<b>Une fois révélée (héros)</b> : le méchant vous attaque. S'il a un attachement [[Arme]], cette carte gagne Renfort."
-    },
-    {
-        "code": "04151",
-        "name": "Grenade Étourdissante",
-        "text": "<b>Une fois révélée (alter ego)</b> : vous êtes désorienté. Placez 1 menace sur la menace principale (2 menaces à la place si vous étiez déjà désorienté).\n<b>Une fois révélée (héros)</b> : vous êtes sonné. Infligez 1 dégât à votre héros (2 dégâts à la place si vous étiez déjà sonné)."
-    },
-    {
-        "code": "04152",
-        "flavor": "\"Quand vous essayez d'imaginer le genre de personnage susceptible de rejoindre une organisation terroriste ayant pour but la domination du monde, vous compreznez pourquoi les recrues d'Hydra ne sont pas très impressionnantes.\" — Jessica Drew",
-        "name": "Recrue d'Hydra",
-        "text": "Incitation 1. <i>(Quand cette carte est révélée, placez 1 menace sur la manigance principale.)</i>",
-        "traits": "Hydra."
-    },
-    {
-        "code": "04153",
-        "name": "Soldat d'Hydra",
-        "text": "Garde. <i>(Tant que ce sbire est engagé avec vous, vous ne pouvez pas attaquer le méchant.)</i>\n<b>Une fois vaincu</b> : attribuez une carte Rencontre au joueur engagé.",
-        "traits": "Hydra."
-    },
-    {
-        "code": "04154",
-        "flavor": "Les soldats d'Hydra effectuent des patrouilles régulières pour garder la mainmise sur leur territoire.",
-        "name": "Patrouille d'Hydra",
-        "text": "<b>Une fois déjouée</b> : chaque joueur cherche un sbire [[Hydra]] dans le deck Rencontre ou la pile de défausse Rencontre et le met en jeu engagé avec lui. Mélangez le deck Rencontre."
-    }
+	{
+		"code": "04026",
+		"name": "Passé Criminel",
+		"text": "<b><i>Donnez cette carte au joueur de Clint Barton.</i></b>\nVous pouvez passer sous forme l'alter ego. Choisissez :\n- inclinez Clint Barton → retirez Passé Criminel de la partie.\n- Défaussez du jeu l'Arc de Hawkeye. Défaussez du jeu l'Arc de Hawkeye. Défaussez cette obligation.\n"
+	},
+	{
+		"attack_text": "Les attaques de Crossfire gagnent Perçant.",
+		"boost_text": "si ce boost est résolu lors d'une attaque, cette attaque gagne Perçant.",
+		"code": "04027",
+		"name": "Crossfire",
+		"text": "Coup Rapide.\n",
+		"traits": "Mercenaire."
+	},
+	{
+		"code": "04028",
+		"name": "Désignée pour Mourir",
+		"text": "<b>Une fois révélée</b> : le joueur de Client Barton cherche Mockingbird dans sa main, son deck, sa pile de défausse ou zone de jeu et la place, face visible, sous cette carte. Quand cette manigance est déjouée, renvoyez Mockingbird dans la main de son propriétaire."
+	},
+	{
+		"attack_text": "Quand l'ennemi attaché attaque, l'attaque gagne À Distance.",
+		"code": "04029",
+		"name": "Fusil de Crossfire",
+		"text": "Attachez cette Carte à Crossfire, si possible. Sinon, attachez-la au méchant.\n<b>Action de héros</b> : inclinez votre héros et dépensez une ressource [wild] → défaussez le Fusil de Crossfire.",
+		"traits": "Arme."
+	},
+	{
+		"code": "04030",
+		"flavor": "\"J'aime les laisser courir un peu avant de presser la détente.\" — Crossfire",
+		"name": "Tir de Précision",
+		"text": "<b>Une fois révélée (alter ego)</b> : placez 3 menaces sur la manigance principale.\n<b>Une fois révélée (héros)</b> : infligez 3 dégâts à votre héros."
+	},
+	{
+		"code": "04053",
+		"name": "Loyauté Douteuse",
+		"text": "<b><i>Donnez cette carte au joueur de Jessica Drew.</i></b>\n- Inclinez Jessica Drew → retirez Loyauté Douteuse de la partie.\n- Placez 3 menaces sur la manigance principale. Défaussez cette obligation.\n"
+	},
+	{
+		"code": "04054",
+		"flavor": "\"C'est l'heure de rentrer chez toi, Jessica.\"",
+		"name": "La Vipère",
+		"text": "Tant que la Vipère est engagé avec vous, votre taille de main est diminuée de 1.\n(Sbire Némésis de Spider-Woman.)",
+		"traits": "Élite. Hydra."
+	},
+	{
+		"code": "04055",
+		"flavor": "La Vipère a tout donné à Hydra en échange d'une promesse de pouvoir.",
+		"name": "Les Ambitions de la Vipère",
+		"text": "<b>Une fois révélée</b> : placez 1[per_hero] menace supplémentaire sur cette carte."
+	},
+	{
+		"code": "04056",
+		"flavor": "\"Quand vous essayez d'imaginer le genre de personnage susceptible de rejoindre une organisation terroriste ayant pour but la domination du monde, vous compreznez pourquoi les recrues d'Hydra ne sont pas très impressionnantes.\" — Jessica Drew",
+		"name": "Recrue d'Hydra",
+		"text": "Incitation 1. (Quand cette carte est révélée, placez 1 menace sur la manigance principale.)",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04057",
+		"name": "Hail Hydra!",
+		"text": "<b>Une fois révélée</b> : chaque sbire [[Hydra]] engagé avec un héros attaque ce héros. Chaque joueur qui n'a pas été attaqué par cet effet cherche un sbire [[Hydra]] dans le deck Rencontre ou la pile de défausse Rencontre et le met en jeu engagé avec lui. Mélangez le deck Rencontre s'il a été consulté"
+	},
+	{
+		"attack_text": "Tant que Crossbones a un attachement [[Arme]], ses attaques gagnent Perçant. <i>(Défaussez toute carte d'état Tenace de la cible avant d'infliger les dégâts.)</i>",
+		"code": "04058",
+		"flavor": "\"Je me considère comme un artiste. Un artiste spécialisé dans la destruction et la terreur.\"",
+		"name": "Crossbones",
+		"traits": "Hydra. Mercenaire."
+	},
+	{
+		"attack_text": "Tant que Crossbones a un attachement [[Arme]], ses attaques gagnent Perçant.",
+		"code": "04059",
+		"name": "Crossbones",
+		"text": "<b>Une fois révélée</b> : cherchez la Mitrailleuse de Crossbones dans le deck Rencontre ou la pile de défausse Rencontre et attachez-la à Crossbones. Mélangez le deck Rencontre.",
+		"traits": "Hydra. Mercenaire."
+	},
+	{
+		"attack_text": "Tant que Crossbones a un attachement [[Arme]], ses attaques gagnent Perçant.",
+		"code": "04060",
+		"flavor": "\"Ces types avec des super-pouvoirs sont peut-être plus forts, mais aucun ne peut rivaliser avec mon style.\"",
+		"name": "Crossbones",
+		"text": "<b>Une fois révélée</b> : révélez la carte du dessus du deck Armes Expérimentales.",
+		"traits": "Hydra. Mercenaire."
+	},
+	{
+		"back_text": "<b>Contenu</b> : Crossbones (I) et Crossbones (II). Les sets de rencontre Crossbones, Armes Expérimentales et Standard. Trois sets de rencontre modulaires <i>(Offensive d'Hydra, Maîtrise des Armes et Légions d'Hydra)</i>.\n<b>Mise en place</b> : Constituez le deck Armes Expérimentales et placez-le à côté du deck Manigance Principale. (Voir livret de règles, page 5.)",
+		"code": "04061",
+		"flavor": "Crossbones mène une armée de soldats d'Hydra dans un assaut frontal contre le complexe du Project P.E.G.A.S.U.S. dans les Montagnes Adirondack.",
+		"name": "Attaque sur le Mont Athéna",
+		"text": "révélez la carte du dessus du deck Armes Expérimentales."
+	},
+	{
+		"back_flavor": "Dans le complexe du Projet P.E.G.A.S.U.S., les agents du S.H.I.E.L.D. mènent un combat désespéré pour empêcher Hydra de s'emparer de la Pierre de Réalité qui y est entreprosée.",
+		"code": "04062",
+		"name": "La Pierre d'Infinité",
+		"text": "<b>Une fois révélée</b> : révélez la carte du dessus du deck Armes Expérimentales."
+	},
+	{
+		"back_flavor": "Hydra s'est emparé de la Pierre d'Infinité et Crossbones donne l'ordre à ses hommes de se retirer. Vous devez les arrêter avant qu'ils ne s'enfuient !",
+		"code": "04063",
+		"name": "La Fuite",
+		"text": "<b>Une fois révélée</b> : révélez la carte du dessus du deck Armes Expérimentales.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+	},
+	{
+		"attack_text": "<b>Interruption forcée</b> : quand Crossbones vous attaque, retirez 1 jeton Munition de cette carte et défaussez la carte du dessus du deck Rencontre → subissez un nombre de dégâts indirects égal au nombre d'icônes de boost sur la carte défaussée.",
+		"code": "04064",
+		"name": "Mitrailleuse de Crossbones",
+		"text": "Attachez cette carte à Crossbones. Utilisations (2[per_hero] jetons Munition).",
+		"traits": "Arme."
+	},
+	{
+		"code": "04065",
+		"flavor": "\"Je m'amuse comme un fou, chérie\" — Crossbones",
+		"name": "Armure de Crossbones",
+		"text": "Attachez cette carte à Crossbones.\n<b>Interruption forcée</b> : quand Crossbones est censé subir n'importe quelle quantité de dégâts, placez-les sur cette carte à la place. S'il y a au moins 5 dégâts sur l'Armure de Crossbones, défaussez-la.",
+		"traits": "Armure."
+	},
+	{
+		"code": "04066",
+		"flavor": "\"Je sais que si on coupe une tête, deux autres prennent sa place. Mais il se passe quoi si on la fait exploser à la place ?\" — Miss Hulk",
+		"name": "Poseur de Bombe d'Hydra",
+		"text": "<b>Une fois révélée</b> : choisissez : soit vous subissez 2 dégâts, soit vous placez 1 menace sur la manigance principale.",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04067",
+		"name": "Rafales Automatiques",
+		"text": "<b>Une fois révélée (alter ego)</b> : Renfort.\n<b>Une fois révélée (héros)</b> : défaussez X cartes du dessus du deck Rencontre, X étant l'ATQ de Crossbones. Subissez 1 dégât indirect pour chaque icône de boost ainsi défaussée."
+	},
+	{
+		"boost_text": "donnez une carte d'état Tenace au méchant. Si vous ne pouvez pas, soignez-le de 3 dégâts à la place.",
+		"code": "04068",
+		"name": "Dur à Cuire",
+		"text": "<b>Une fois révélée</b> : donnez une carte d'état Tenace au méchant. Si vous ne pouvez pas, soignez-le de 3 dégâts à la place."
+	},
+	{
+		"code": "04069",
+		"name": "Piller l'Armurerie",
+		"text": "Incitation 1. <i>(Quand cette carte est révélée, placez 1 menace sur la manigance principale)</i>\n<b>Une fois révélée</b> : défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'un attachement [[Arme]] soit défaussé. Révélez-le."
+	},
+	{
+		"code": "04070",
+		"flavor": "Crossbones est un tueur sans pitié, mais ce n'est pas un psychopathe pour autant. Son offensive sur P.E.G.A.S.U.S. est d'une implacable efficacité",
+		"name": "Offensive de Crossbones",
+		"text": "<b>Une fois déjouée</b> : Crossbones s'active contre le joueur qui a déjoué cette manigance."
+	},
+	{
+		"code": "04071",
+		"flavor": "Hydra a capturé des employés de P.E.G.A.S.U.S. et les retient en otages.",
+		"name": "Employés Pris au Piège",
+		"text": "<b>Une fois révélée</b> :  défaussez 1[per_hero] carte du dessus du deck Rencontre. Placez 1 menace supplémentaire sur cette carte pour chaque icône de boost sur les cartes ainsi défaussées."
+	},
+	{
+		"attack_text": "<b>Interruption forcée</b> : quand le méchant attaché attaque, l'attaque gagne À Distance.",
+		"code": "04072",
+		"name": "Fusil Laser",
+		"text": "Attachez cette carte au méchant.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy] [physical] → défaussez cette carte.",
+		"traits": "Expérimental. Arme."
+	},
+	{
+		"code": "04073",
+		"flavor": "\"Jamais vous ne parviendrez à convraincre Cap qu'un bouclier énergétique est aussi efficace que son bon vieux frisbee.\" — Carol Danvers",
+		"name": "Bouclier Énergétique",
+		"text": "Attachez cette carte au méchant.\nLe méchant attaché gagne Riposte 1.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy] [mental] → défaussez cette carte.",
+		"traits": "Expérimental. Arme."
+	},
+	{
+		"attack_text": "<b>Réponse forcée</b> : après que le méchant attaché vous a attaqué et blessé, défaussez 1 carte de votre main.",
+		"code": "04074",
+		"name": "Gantelets de Pouvoir",
+		"text": "Attachez cette carte au méchant.\n<b>Action de héros</b> : dépensez les ressources suivantes : [mental] [physical] → défaussez cette carte.",
+		"traits": "Expérimental. Arme."
+	},
+	{
+		"code": "04075",
+		"flavor": "\"Je n'aurais jamais dû partager ma technologie avec le S.H.I.E.L.D\" — Tony Stark",
+		"name": "Exo-Costume",
+		"text": "Attachez cette carte au méchant.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy] [mental] [physical] → défaussez cette carte.",
+		"traits": "Expérimental. Arme."
+	},
+	{
+		"code": "04076",
+		"flavor": "\"Vous savez que j'ai battu Thor une fois ? Imaginez ça : Crusher Creel surclassant le Dieu du Tonnerie, et vous pensez me faire peur ?\"",
+		"name": "L'Homme Absorbant",
+		"text": "L'Homme Absorbant gagne le trait de chaque environnement en jeu.",
+		"traits": "Brute."
+	},
+	{
+		"code": "04077",
+		"name": "L'Homme Absorbant",
+		"text": "L'Homme Absorbant gagne le trait de chaque environnement en jeu.\n<b>Une fois révélée</b> : Si Pouvoir Super Absorbant est en jeu, attribuez 1 carte Rencontre à chaque joueur. Sinon, cherchez Pouvoir Super Absorbant dans le deck Rencontre ou la pile de défausse Rencontre et révélez-le. Mélangez le deck Rencontre s'il a été consulté.",
+		"traits": "Brute."
+	},
+	{
+		"attack_text": "<b>Réponse forcée</b> : après que l'Homme Absorbant s'est activé contre vous, s'il a :\n- Le trait [[Glace]] ou [[Pierre]], placez 1 menance sur la manigance principale.\n- [[Métal]] ou [[Bois]], subissez 1 dégât indirect.",
+		"code": "04078",
+		"name": "L'Homme Absorbant",
+		"scheme_text": "<b>Réponse forcée</b> : après que l'Homme Absorbant s'est activé contre vous, s'il a :\n- Le trait [[Glace]] ou [[Pierre]], placez 1 menance sur la manigance principale.\n- [[Métal]] ou [[Bois]], subissez 1 dégât indirect.",
+		"text": "L'Homme Absorbant gagne le trait de chaque environnement en jeu.\n",
+		"traits": "Brute."
+	},
+	{
+		"back_text": "<b>Contenu</b> : L'Homme Absorbant (I) et L'Homme Absorbant (II). Les sets de rencontre L'Homme Absorbant et Standard. Une set de rencontre modulaire <i>(Patrouille d'Hydra)</i>\n<b>Mise en place</b> : défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'un environnement soit défaussé. Mettez-le en jeu et mélangez la pile de défausse Rencontre dans le deck Rencontre.",
+		"code": "04079",
+		"name": "Personne ne Passe",
+		"text": "<b>[star] Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, placez 1 jeton Retard sur cette carte.\n<b>Interruption forcée</b> : quand un environnement entre en jeu, défaussez chaque autre carte Environnement en jeu.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+	},
+	{
+		"boost_text": "mettez en jeu cette carte.",
+		"code": "04080",
+		"name": "Forêt Dense",
+		"text": "Surge.\n<b>Réponse forcée</b> : qprès que L'Homme Absorbant a effectué une attaque non défendue contre vous, subissez 1 dégât indirect (2 dégâts indirects à la place s'il y a au moins 5 jetons Retard sur la manigance principale).",
+		"traits": "Bois."
+	},
+	{
+		"boost_text": "mettez en jeu cette carte.",
+		"code": "04081",
+		"name": "Coteau Enneigé",
+		"text": "Surge.\n<b>Réponse forcée</b> : après que L'Homme Absorbant a effectué une attaque non défendue contre vous, placez 1 menace sur la manigance principale (2 menaces à la place s'il y a au moins 5 jetons Retard sur la manigance principale).",
+		"traits": "Grace."
+	},
+	{
+		"boost_text": "mettez en jeu cette carte.",
+		"code": "04082",
+		"name": "Affleurement Rocheux",
+		"text": "Renfort.\n<b>Réponse forcée</b> : après que L'Homme Absorbant a effectué une attaque non défendue contre vous, soignez-le de 1 dégât (2 dégâts à la place s'il y a au moins 5 jetons Retard sur la manigance principale).",
+		"traits": "Pierre."
+	},
+	{
+		"boost_text": "mettez en jeu cette carte.",
+		"code": "04083",
+		"name": "Usine Abandonnée",
+		"text": "Renfort.\n<b>Réponse forcée</b> : après que L'Homme Absorbant a effectué une attaque non défendue contre vous, défaussez 1 icône de ressource de votre main (2 icônes de ressource à la place s'il y a au moins 5 jetons Retard sur la manigance principale).",
+		"traits": "Métal."
+	},
+	{
+		"boost_text": "révélez cette carte.",
+		"code": "04084",
+		"name": "Chaîne et Boulet",
+		"text": "Attachez cette carte à L'Homme Absorbant.\n<b>Action de héros</b> : dépensez une ressource [physical] → mélangez cette carte dans le deck Rencontre.",
+		"traits": "Arme."
+	},
+	{
+		"boost_text": "s'il y a au moins 5 jetons Retard sur la manigance principale, subissez 1 dégât indirect.",
+		"code": "04085",
+		"name": "Retarder les Héros",
+		"text": "<b>Une fois révélée</b> : ^macez 1 menace sur la manigance principale pour chaque groupe de 2 jetons Retard sur la manigance principale. Si aucune menace n'est placée ainsi, cette carte gagne Renfort"
+	},
+	{
+		"code": "04086",
+		"name": "Pierre Tourbillonnante",
+		"text": "<b>Une fois révélée (alter ego)</b> : L'Homme Absorbant manigance. Si l'Homme Absorbant a le trait [[Pierre]], il gagne +1 MNG pour cette activation.\n<b>Une fois révélée (héros)</b> : L'Homme Absorbant vous attaque. Si l'Homme Absorbant a le trait [[Pierre]], il gagne +1 ATQ pour cette activation."
+	},
+	{
+		"code": "04087",
+		"name": "Coup de Pied d'Acier",
+		"text": "<b>Une fois révélée (alter ego)</b> : placez 2 menaces sur la manigance principale (3 menaces à la place si l'Homme Absorbant a le trait [[Métal]]).\n<b>Une fois révélée (héros)</b> : subissez 3 dégâts indirects (4 dégâts indirects à la place si l'Homme Absorbant a le trait [[Métal]]"
+	},
+	{
+		"boost_text": "si l'Homme Absorbant a le trait [[Pierre]] ou [[Bois]], vous êtes sonné.",
+		"code": "04088",
+		"name": "Épines Perçantes",
+		"text": "<b>Une fois révélée</b> : défaussez 1 carte prise au hasard dans votre main. Si l'Homme Absorbant a le trait [[Bois]], défaussez 1 carte que vous contrôlez."
+	},
+	{
+		"code": "04089",
+		"name": "Duplication Omni-Morph",
+		"text": "<b>Une fois révélée</b> : si l'Homme Absorbant a :\n- le trait [[Glace]], inclinez votre identité.\n- le trait [[Métal]], donnez une carte d'état Tenace à l'Homme Absorbant et soignez-le de 1 dégât.\n- le trait [[Pierre]], donnez 1 carte de boost face cachée à l'Homme Absorbant.\n- le trait [[Bois]], défaussez 1 carte prise au hasard dans votre main."
+	},
+	{
+		"boost_text": "si L'Homme Absorbant a le trait [[Glace]] ou [[Métal]], donnez-lui une carte d'état Tenace.",
+		"code": "04090",
+		"name": "Étreinte Glacée",
+		"text": "<b>Une fois révélée</b> : vous êtes sonné. Si l'Homme Absorbant a le trait [[Glace]], subissez 2 dégâts indirects."
+	},
+	{
+		"code": "04091",
+		"name": "Avalanche !",
+		"text": "<b>Une fois révélée</b> : chaque joueur doit choisir : soit dépenser une ressource [energy], soit subir 2 dégâts indirects (3 dégâts indirects à la place s'il y a au moins 5 jetons Retard sur la manigance principale)."
+	},
+	{
+		"boost_text": "révélez cette carte.",
+		"code": "04092",
+		"flavor": "Creel a la capacité d'absorber les propriétés de plusieur séléments à la fois, mais cela nécessite une intense concentration.",
+		"name": "Pouvoir Super Absorbant",
+		"text": "L'Homme Absorbant gagne les traits [[Glace]], [[Métal]], [[Pierre]], et [[Bois]]."
+	},
+	{
+		"code": "04093",
+		"flavor": "\"Il n'y a rien que tu saches faire que je ne puisse faire en mieux.\"",
+		"name": "Taskmaster",
+		"text": "<b>Réponse forcée</b> : après qu'un joueur est passé sous forme de héros, il défausse la carte du dessus du deck Rencontre et subit des dégâts égaux au nombre d'icônes de boost sur la carte défaussée.",
+		"traits": "Hydra. Mercenaire."
+	},
+	{
+		"code": "04094",
+		"name": "Taskmaster",
+		"text": "<b>Une fois révélée</b> : attribuez une carte Rencontre à chaque joueur.\n<b>Réponse forcée</b> : après qu'un joueur est passé sous forme de héros, il défausse la carte du dessus du deck Rencontre et subit des dégâts égaux au nombre d'icônes de boost sur la carte défaussée.",
+		"traits": "Hydra. Mercenaire."
+	},
+	{
+		"code": "04095",
+		"name": "Taskmaster",
+		"text": "<b>Une fois révélée</b> : attribuez une carte Rencontre à chaque joueur.\n<b>Réponse forcée</b> : après qu'un joueur est passé sous forme de héros, il défausse la carte du dessus du deck Rencontre et subit des dégâts égaux au nombre d'icônes de boost sur la carte défaussée.",
+		"traits": "Hydra. Mercenaire."
+	},
+	{
+		"back_text": "<b>Contenu</b> : Taskmaster (I) et Taskmaster (II). Les sets de rencontre Taskmaster, Patrouille d'Hydra et Standard. Un set de rencontre modulaire <i>(Maîtrise des Armes).</i>\n<b>Mise en place</b> : mettez de côté chaque allié [[Captif]], hors jeu.Cherchez la Patrouille d'Hydra dans le deck Rencontre et mettez-la en jeu. Mélangez le deck Rencontre.",
+		"code": "04096",
+		"flavor": "Le célèbre Taskmaster a été nommé chef de la police d'Hydra. Sa priorité est de traquer les héros hors-la-loi.",
+		"name": "Traquer les Héros",
+		"text": "<b>[star] Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, chaque joueur sous forme de héros doit choisir : soit placer 1 menace sur cette carte, soit subir 1 dégât.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+	},
+	{
+		"code": "04097",
+		"flavor": "\"Hydra took over so fast, I wasn't sure they were real.\"",
+		"name": "Moon Knight",
+		"subname": "Marc Spector",
+		"text": "<b>Réponse</b> : après avoir joué Moon Knight de votre main, dépensez une ressource [wild] → piochez 2 cartes.",
+		"traits": "Captif. Héros à Louer."
+	},
+	{
+		"code": "04098",
+		"name": "Shang-Chi",
+		"text": "<b>Réponse</b> : après avoir joué Shang-Chi de votre main, dépensez une ressource [energy] → sonnez un ennemi.",
+		"traits": "Captif. Héros à Louer."
+	},
+	{
+		"code": "04099",
+		"name": "Tigre Blanc",
+		"subname": "Angela Del Toro",
+		"text": "<b>Réponse</b> : après avoir joué Tigre Blanc de votre main, dépensez une ressource [mental] → retirez 3 menaces d'une manigance.",
+		"traits": "Captif. Héros à Louer."
+	},
+	{
+		"code": "04100",
+		"flavor": "\"J'ai été capturée pendant que j'essayais d'aider des civils à échapper à une patrouille d'Hydra. Les civils en question étaient en fait des agents d'Hydra infiltrés.\"",
+		"name": "Elektra",
+		"text": "<b>Réponse</b> : après avoir joué Elektra de votre main, dépensez une ressource [physical] → infligez 3 dégâts à un ennemi.",
+		"traits": "Captif. Héros à Louer."
+	},
+	{
+		"attack_text": "Les attaques du Chasseur d'Hydra gagnent Perçant et À Distance.",
+		"boost_text": "si vous êtes sous forme de héros, subissez 1 dégât. Sinon, placez 1 menace sur la manigance principale.",
+		"code": "04101",
+		"name": "Chasseur d'Hydra",
+		"traits": "Hydra."
+	},
+	{
+		"attack_text": "Les attaques de Taskmaster gagnent Perçant.",
+		"code": "04102",
+		"name": "Épée de Taskmaster",
+		"text": "Attachez cette carte à Taskmaster.\n<b>Action de héros</b> : inclinez votre héros et dépensez les ressources suivantes : [mental] [physical] → défaussez cette carte.",
+		"traits": "Arme."
+	},
+	{
+		"code": "04103",
+		"flavor": "\"J'ai appris cette parade grâce à Captain America.\" — Taskmaster",
+		"name": "Bouclier de Taskmaster",
+		"text": "Attachez cette carte à Taskmaster.\nTaskmaster gagne Riposte 1.\n<b>Action de héros</b> : inclinez votre héros et dépensez les ressources suivantes : [mental] [physical] → défaussez cette carte.",
+		"traits": "Armure. Arme."
+	},
+	{
+		"code": "04104",
+		"name": "Réfléxes Photographiques",
+		"text": "Attachez cette carte à Taskmaster.\n<b>Interruption forcée</b> : quand un joueur attaque Taskmaster, prévenez tous les dégâts qui sont censés être infligés à Taskmaster et infligez une quantité égale de dégâts à l'identité de ce joueur à la place. Ensuite, défaussez Réflexes Photographiques. (Une fois max par attaque.)"
+	},
+	{
+		"code": "04105",
+		"name": "Mimétisme",
+		"text": "<b>Une fois révélée (alter ego)</b> : défaussez les 5 cartes du dessus de votre deck. Si une carte [[Contre]] est ainsi défaussée, Taskmaster manigance.\n<b>Une fois révélée (héros)</b> : défaussez les 5 cartes du dessus de votre deck. Si une carte [[Attaque]] est ainsi défaussée, Taskmaster vous attaque."
+	},
+	{
+		"code": "04106",
+		"flavor": "\"C'est une sale époque pour les héros.\" — Bucky Barnes",
+		"name": "Traqué par Hydra",
+		"text": "Incitation 1. <i>(Quand cette carte est révélée, placez 1 menace sur la manigance principale)</i>\n<b>Une fois révélée</b> : chaque joueur sous forme de héros subit 1 dégât et défausse 1 carte prise au hasard dans sa main."
+	},
+	{
+		"code": "04107",
+		"name": "Capturé par Hydra",
+		"text": "<b>Une fois révélée</b> : placez face cachée sous cette manigance 1 allié [[Captif]] pris au hasard parmi ceux mis de côté. Quand cette manigance est déjouée, le joueur qui l'a déjouée prend cet allié dans sa main et retire cette manigance de la partie."
+	},
+	{
+		"code": "04108",
+		"flavor": "Taskmaster n'accepte que les troupes d'élite dans ses forces de la police. Avant qu'un soldat d'Hydra puisse y entrer, il doit survivre à son camp d'entraînement.",
+		"name": "Camp d'Entraînement de Taskmaster",
+		"text": "<b>Réponse forcée</b> : après qu'un sbire est entré en jeu, donnez-lui une carte d'état Tenace."
+	},
+	{
+		"code": "04109",
+		"flavor": "\"Mon programme d'altération transformera ces pathétiques créatures en troupes d'élite d'Hydra !\"",
+		"name": "Zola",
+		"text": "Riposte 1.",
+		"traits": "Androïde. Hydra."
+	},
+	{
+		"code": "04110",
+		"name": "Zola",
+		"text": "Riposte 1.\n<b>Une fois révélée</b> : cherchez la manigance annexe Cobayes dans le deck Rencontre ou la pile de défausse Rencontre et révélez-la. Mélangez le deck Rencontre.",
+		"traits": "Androïde. Hydra."
+	},
+	{
+		"code": "04111",
+		"name": "Zola",
+		"text": "Riposte 1.\n<b>Une fois révélée</b> : chaque joueur cherche un sbire dans le deck Rencontre ou la pile de défausse Rencontre et le révèle. Mélangez le deck Rencontre",
+		"traits": "Androïde. Hydra."
+	},
+	{
+		"back_text": "<b>Contenu</b> : Zola (I) et Zola (II). Les sets de rencontre Zola et Standard. Un set de rencontre modulaire <i>(Civils Attaqués)</i>\n<b>Mise en place</b> : cherchez la Prison d'Hydra dans le deck Rencontre et révélez-la. Chaque joueur cherche un exemplaire du Bio-Serviteur Ultime et le met en jeu engagé avec lui. Mélangez le deck Rencontre.",
+		"code": "04112",
+		"name": "L'Île du Dr. Zola",
+		"text": "<b>[star] Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, placez 1 jeton Test sur cette carte. Ensuite, s'il y a au moins 3 jetons Test sur cette carte, défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'un sbire soit défaussé. Mettez en jeu ce sbire engagé avec le premier joueur et retirez 3 jetons Test de cette manigance."
+	},
+	{
+		"back_flavor": "Les altérés de Zola vous attaquent furieusement avec une obéissace aveugle. Vous devez mettre un terme à ce cauchemar avant que le savant fou ne les lâche sur le monde !",
+		"back_text": "<b>Une fois révélée</b> : chaque joueur cherche un sbire dans le deck Rencontre ou la pile de défausse Rencontre et le révèle. Mélangez le deck Rencontre.",
+		"code": "04113",
+		"name": "Le Savant fou",
+		"text": "<b>[star] Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, placez 1 jeton Test sur cette carte. Ensuite, s'il y a au moins 3 jetons Test sur cette carte, défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'un sbire soit défaussée. Mettez en jeu ce sbire engagé avec le premier joueur et retirez 3 jetons Test de cette manigance.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+	},
+	{
+		"attack_text": "Le Bio-Serviteur Ultime gagne +1 ATQ pour chaque attachement sur lui.",
+		"boost_text": "donnez une carte d'état Tenace au méchant.",
+		"code": "04114",
+		"name": "Bio-Serviteur Ultime",
+		"text": "Ténacité.",
+		"traits": "Hydra. Altéré."
+	},
+	{
+		"boost_text": "mélangez l'Altéré de Zola dans le deck Rencontre.",
+		"code": "04115",
+		"name": "Altéré de Zola",
+		"text": "<b>Une fois révélée</b> : défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'un attachement [[Tech]] soit défaussé. Attachez-le à l'Altéré de Zola.",
+		"traits": "Hydra. Altéré."
+	},
+	{
+		"boost_text": "placez 1 jeton Test sur la manigance principale. Pour chaque jeton Test sur la manigance principale, Zola gagne +1 MNG et +1 ATQ pour cette activation.",
+		"code": "04116",
+		"name": "Altéré Berserk",
+		"text": "Coup Rapide.",
+		"traits": "Hydra. Altéré."
+	},
+	{
+		"code": "04117",
+		"name": "Programmation Défensive",
+		"text": "Attachez cette carte au sbire avec le plus de points de vie restants qui n'a pas déjà un autre exemplaire de Rpogrammation Défensive attaché. Si vous ne pouvez pas, cette carte gagne Renfort.\nLe sbire attaché gagne +2 points de vie et Garde.",
+		"traits": "Tech."
+	},
+	{
+		"code": "04118",
+		"name": "Inhibiteurs de Douleur",
+		"text": "Attachez cette carte au sbire avec le plus de points de vie restants qui n'a pas déjà un autre exemplaire d'Inhibiteurs de Douleur attaché. Si vous ne pouvez pas, cette carte gagne Renfort.\n.Le sbire attaché gagne +2 points de vie et Riposte 1.",
+		"traits": "Tech."
+	},
+	{
+		"code": "04119",
+		"name": "Implants Neurologiques",
+		"text": "Attachez cette carte au sbire avec le plus de points de vie restants qui n'a pas déjà un autre exemplaire d'Implants Neurologiques attaché. Si vous ne pouvez pas, cette carte gagne Renfort.\nLe sbire attaché gagne +2 points de vie.",
+		"traits": "Tech."
+	},
+	{
+		"code": "04120",
+		"flavor": "\"Vous pensiez Zola sans défense ? Imbécile arrogant !\" — Arnim Zola",
+		"name": "Rayon Mental",
+		"text": "<b>Une fois révélée (alter ego):</b> Zola manigance. Vous êtes désorienté.\n<b>Une fois révélée (héros)</b> : Zola vous attaque. Vous êtes sonné."
+	},
+	{
+		"boost_text": "placez 1 jeton Test sur la manigance principale.",
+		"code": "04121",
+		"name": "Améliorations Technologiques",
+		"text": "Incitation 1.\n<b>Une fois révélée</b> : placez 1 jeton Test sur la manigance principale."
+	},
+	{
+		"code": "04122",
+		"name": "Prison d'Hydra",
+		"text": "<b>Une fois révélée</b> : chaque joueur cherche un allié spécifique à son héros dans son deck, sa pile de défausse ou sa main et le place face cachée sous cette manigance. Placez X menaces sur cette manigance, X étant la somme des coûts des alliés situés en dessous. Chaque joueur mélange son deck.\n<b>Une fois déjouée</b> : retirez cette manigance de la partie et renvoyez chaque allié situé en dessous dans la main de son propriétaire."
+	},
+	{
+		"code": "04123",
+		"flavor": "C'est un sort pire que la mort.",
+		"name": "Cobayes",
+		"text": "<b>Une fois déjouée</b> : le premier joueur défausse des cartes du dessus du deck Rencontre jusqu'à ce qu'il défausse un sbire. Il révèle ce sbire."
+	},
+	{
+		"code": "04124",
+		"flavor": "Le savant fou ne se lasse jamais d'expérimenter sur ses victimes.",
+		"name": "Expériences de Zola",
+		"text": "<b>Réponse forcée</b> : après qu'un sbire est entré en jeu, attachez-lui l'attachement [[Tech]] qui est le plus proche du dessus de la pile de défausse Rencontre."
+	},
+	{
+		"attack_text": "Crâne Rouge gagne +1 ATQ pour chaque manigance annexe en jeu.",
+		"code": "04125",
+		"flavor": "\"La liberté est seulement pour celui qui dirige ! Tous les autres ne sont que des esclaves !\"",
+		"name": "Crâne Rouge",
+		"traits": "Hydra."
+	},
+	{
+		"attack_text": "Crâne Rouge gagne +1 ATQ pour chaque manigance annexe en jeu.",
+		"code": "04126",
+		"flavor": "\"Personne ne viendra contrecarrer mes plans !\"",
+		"name": "Crâne Rouge",
+		"text": "<b>Une fois révélée</b> : attribuez une carte Rencontre à chaque joueur.",
+		"traits": "Hydra."
+	},
+	{
+		"attack_text": "Crâne Rouge gagne +1 ATQ pour chaque manigance annexe en jeu.",
+		"code": "04127",
+		"flavor": "\"Le monde se prosternera devant Crâne Rouge!\"",
+		"name": "Crâne Rouge",
+		"text": "<b>Une fois révélée</b> : attribuez une carte Rencontre à chaque joueur.",
+		"traits": "Hydra."
+	},
+	{
+		"back_text": "<b>Contenu</b> : Crâne Rouge (I) et Crâne Rouge (II). Les sets de Rencontre Crâne Rouge et Standard. Deux sets de rencontre modulaires <i>(Offensive d'Hydra et Patrouille d'Hydra).</i>\n<b>Mise en place</b> : mettez en jeu la Maison Rouge. Mélangez chaque autre manigance annexe dans le deck Manigance Annexe et placez-le à côté du deck Rencontre <i>(voir livret de règles)</i>. Mettez de côté Le Dormeur, hors jeu.",
+		"code": "04128",
+		"flavor": "Crâne Rouge cherche à conquérir le monde en utilisant le pouvoir de la Pierre de la Réalité. Il utilise son génie stratégique pour vous tenir occupé pendant qu'il travaille dans ce but.",
+		"name": "L'Avènement de Crâne Rouge",
+		"text": "<b>[star] Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, révélez la carte du dessus du deck Manigance Annexe et mettez-la en jeu."
+	},
+	{
+		"back_flavor": "Crâne Rouge est tout proche de déchaîner le plein pouvoir de la Pierre d'Infinité. Vous devez l'arrêter avant qu'il ne le fasse et que la réalité soit soumise à sa volonté maléfique.",
+		"back_text": "<b>Une fois révélée</b> : révélez la carte du dessus du deck Manigance Annexe et mettez-la en jeu.",
+		"code": "04129",
+		"name": "Nouvel Ordre Mondial d'Hydra",
+		"text": "<b>[star] Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du méchant, révélez la carte du dessus du deck Manigance Annexe et mettez-la en jeu.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+	},
+	{
+		"code": "04130",
+		"name": "Le Dormeur",
+		"text": "Garde. Riposte 1. Ténacité.\n<b>Une fois révélée</b> : Le dormeur engage le premier joueur.\n<b>Une fois déjouée</b> : retirez le Dormeur de la partie.",
+		"traits": "Élite. Hydra. Robot."
+	},
+	{
+		"boost_text": "donnez au méchant une carte d'état Tenace et une autre carte de boost.",
+		"code": "04131",
+		"flavor": "\"Attention, les gars. Ces types cognent dur !\" — Captain America",
+		"name": "Exo-Soldat d'Hydra",
+		"text": "Ténacité.",
+		"traits": "Hydra."
+	},
+	{
+		"attack_text": "Les attaques de Crâne Rouge gagnent Perçant et À Distance.",
+		"boost_text": "Attachez cette carte à Crâne Rouge.",
+		"code": "04132",
+		"name": "Luger de Crâne Rouge",
+		"text": "Attachez cette carte à Crâne Rouge.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy] [mental] [physical] → défaussez cette carte.",
+		"traits": "Arme."
+	},
+	{
+		"code": "04133",
+		"flavor": "\"Je vous suis supérieur en toutes choses !\" — Crâne Rouge",
+		"name": "Crochet du Droit de Crâne Rouge",
+		"text": "Attachez cette carte à Crâne Rouge.\nCrâne Rouge gagne Riposte 1.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy] [mental] [physical] → défaussez cette carte.",
+		"traits": "Compétence."
+	},
+	{
+		"attack_text": "<b>Interruption forcée</b> : quand Crâne Rouge s'active, donnez-lui une carte de boost supplémentaire pour chaque manigance annexe en jeu. Ensuite, défaussez Maître Stratège. (Une fois max par activation.)",
+		"code": "04134",
+		"flavor": "\"Aux Échecs, la seule pièce qui compte est le roi, et je suis le roi.\" — Crâne Rouge",
+		"name": "Maître Stratège",
+		"scheme_text": "<b>Interruption forcée</b> : quand Crâne Rouge s'active, donnez-lui une carte de boost supplémentaire pour chaque manigance annexe en jeu. Ensuite, défaussez Maître Stratège. (Une fois max par activation.)",
+		"text": "Attachez cette carte à Crâne Rouge.",
+		"traits": "Compétence."
+	},
+	{
+		"code": "04135",
+		"flavor": "La Pierre d'Infinité donne à Crâne Rouge le pouvoir de modeler la réalité selon sa volonté.",
+		"name": "Réalité Altérée",
+		"text": "Incitation 1.\nAttachez cette carte à une manigance annexe.\n<b>Réponse forcée</b> : quand la manigance attachée est déjouée, attribuez une carte Rencontre au premier joueur.",
+		"traits": "Condition."
+	},
+	{
+		"boost_text": "inclinez un personnage que vous contrôlez.",
+		"code": "04136",
+		"flavor": "\"C'est la fin pour vous, Herr Captain !\" — Crâne Rouge",
+		"name": "Éternel Rival",
+		"text": "<b>Une fois révélée</b> : inclinez un personnage que vous contrôlez pour chaque manigance annexe en jeu."
+	},
+	{
+		"boost_text": "donnez une carte d'état Tenace à Crâne Rouge.",
+		"code": "04137",
+		"flavor": "\"Grâce à mon intelligence sans pareil, le règne d'Hydra sera incontesté !\" — Crâne Rouge",
+		"name": "Propagation de Mensonges",
+		"text": "<b>Une fois révélée</b> : placez 2 menaces sur chaque manigance en jeu."
+	},
+	{
+		"code": "04138",
+		"name": "Pouvoir Infini",
+		"text": "<b>Une fois révélée (alter ego)</b> : donnez une carte d'état Tenance à Crâne Rouge. Crâne Rouge manigance.\n<b>Une fois révélée (héros)</b> : donnez une carte d'état Tenace à Crâne Rouge. Crâne Rouge vous attaque."
+	},
+	{
+		"code": "04139",
+		"flavor": "Crâne Rouge a bâti sa forteresse par-dessus la Maison Blanche comme symbole de la conquête de l'Amérique par Hydra.",
+		"name": "La Maison Rouge",
+		"text": "Crâne Rouge ne peut pas subir de dégâts.\n<b>Interruption</b> : quand un personnage contre cette manigance annexe, il peut utiliser son ATQ au lieu de son CTR."
+	},
+	{
+		"code": "04140",
+		"flavor": "Surgissant du fleuve Potomax, Le Dormeur s'est réveillé pour répondre à l'appel de Crâne Rouge.",
+		"name": "Le Réveil du Dormeur",
+		"text": "Cette manigance annexe ne peut pas quitter le jeu tant que Le Dormeur est en jeu.\n<b>Une fois révélée</b> : mettez en jeu Le Dormeur, engagé avec le premier joueur. Quand Le Dormeur est vaincu, retirez le Réveil du Dormeur de la partie."
+	},
+	{
+		"code": "04141",
+		"flavor": "Sous le joug d'Hydra, des familles sont déparées et emprisonnées sans la moindre forme de procès.",
+		"name": "Camps de Prisonniers",
+		"text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance cherche un allié dans son deck ou sa pile de défausse, le met en jeu, et mélange son deck."
+	},
+	{
+		"code": "04142",
+		"flavor": "Hydra contrôle tous les médias et utilise sa propagande pour monter la population contre les héros du passé.",
+		"name": "Réécrire le Passé",
+		"text": "<b>Une fois déjouée</b> : chaque joueur choisit jusqu'à 3 carte de sa pile de défausse et les mélange dans son deck."
+	},
+	{
+		"code": "04143",
+		"flavor": "Hydra compense la piètre qualité de ses troupes par la quantité.",
+		"name": "Renforts d'Hydra",
+		"text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance défausse un sbire non-[[Élite]]."
+	},
+	{
+		"code": "04144",
+		"flavor": "Crâne rouge cause des catastrophes partout dans le pays pour occuper ses ennemis.",
+		"name": "Chaos de Masse",
+		"text": "<b>Une fois révélée</b> : chaque joueur défausse les 5 cartes du dessus de son deck et place 1 menace sur cette carte pour chaque type de ressource différent ([energy],[mental],[physical], ou [wild]) ainsi défaussé."
+	},
+	{
+		"attack_text": "<b>Réponse forcée</b> : après que le Soldat Lance-Flammes d'Hydra a effectué une attaque non défendue contre vous, défaussez un soutien que vous contrôlez.",
+		"boost_text": "si cette carte est résolue lors qu'une attaque non défendue, défaussez un soutien que vous contrôlez.",
+		"code": "04145",
+		"name": "Soldat Lance-Flamme d'Hydra",
+		"traits": "Hydra."
+	},
+	{
+		"boost_text": "si vous êtes sous forme de héros, le méchant vous attaque après cette activation. Ne donnez pas de carte boost pour cette attaque.",
+		"code": "04146",
+		"name": "Soldat Propulsé d'Hydra",
+		"text": "Coup Rapide.",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04147",
+		"name": "Hail Hydra!",
+		"text": "<b>Une fois révélée</b> : chaque sbire [[Hydra]] engagé avec un héros attaque ce héros. Chaque joueur qui n'a pas été attaqué par cet effet cherche un sbire [[Hydra]] dans le deck Rencontre ou la pile de défausse Rencontre et le met en jeu engagé avec lui. Mélangez le deck Rencontre s'il a été consulté"
+	},
+	{
+		"attack_text": "Les attaques du méchant gagnent Perçant.",
+		"code": "04148",
+		"name": "Couteau de Combat",
+		"text": "Attachez cette carte au méchant.\n<b>Action de héros</b> : dépensez les ressources suivantes : [mental] [physical]  → défaussez cette carte.",
+		"traits": "Arme."
+	},
+	{
+		"attack_text": "<b>Interruption forcée</b> : quand le méchant attaque, l'attaque gagne À Distance.",
+		"code": "04149",
+		"name": "Pistolet d'Hydra",
+		"text": "Attachez cette carte au méchant.\n<b>Action de héros</b> : dépensez les ressources suivantes : [mental] [physical] → défaussez cette carte.",
+		"traits": "Arme."
+	},
+	{
+		"code": "04150",
+		"name": "Maîtrise des Armes",
+		"text": "<b>Une fois révélée (alter ego)</b> : le méchant manigance. S'il a un attachement [[Arme]], cette carte gagne Renfort.\n<b>Une fois révélée (héros)</b> : le méchant vous attaque. S'il a un attachement [[Arme]], cette carte gagne Renfort."
+	},
+	{
+		"code": "04151",
+		"name": "Grenade Étourdissante",
+		"text": "<b>Une fois révélée (alter ego)</b> : vous êtes désorienté. Placez 1 menace sur la menace principale (2 menaces à la place si vous étiez déjà désorienté).\n<b>Une fois révélée (héros)</b> : vous êtes sonné. Infligez 1 dégât à votre héros (2 dégâts à la place si vous étiez déjà sonné)."
+	},
+	{
+		"code": "04152",
+		"flavor": "\"Quand vous essayez d'imaginer le genre de personnage susceptible de rejoindre une organisation terroriste ayant pour but la domination du monde, vous compreznez pourquoi les recrues d'Hydra ne sont pas très impressionnantes.\" — Jessica Drew",
+		"name": "Recrue d'Hydra",
+		"text": "Incitation 1. <i>(Quand cette carte est révélée, placez 1 menace sur la manigance principale.)</i>",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04153",
+		"name": "Soldat d'Hydra",
+		"text": "Garde. <i>(Tant que ce sbire est engagé avec vous, vous ne pouvez pas attaquer le méchant.)</i>\n<b>Une fois vaincu</b> : attribuez une carte Rencontre au joueur engagé.",
+		"traits": "Hydra."
+	},
+	{
+		"code": "04154",
+		"flavor": "Les soldats d'Hydra effectuent des patrouilles régulières pour garder la mainmise sur leur territoire.",
+		"name": "Patrouille d'Hydra",
+		"text": "<b>Une fois déjouée</b> : chaque joueur cherche un sbire [[Hydra]] dans le deck Rencontre ou la pile de défausse Rencontre et le met en jeu engagé avec lui. Mélangez le deck Rencontre."
+	}
 ]
