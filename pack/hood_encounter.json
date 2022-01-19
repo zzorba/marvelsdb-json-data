@@ -556,7 +556,6 @@
 	},
 	{
 		"base_threat": 5,
-		"base_threat_fixed": 0,
 		"boost": 2,
 		"code": "24033",
 		"faction_code": "encounter",
@@ -567,6 +566,7 @@
 		"quantity": 1,
 		"set_code": "mister_hyde",
 		"set_position": 1,
+		"text": "<b>When Revealed:</b> Search the encounter deck and discard pile for Mister Hyde and reveal him. <i>(Shuffle.)</i>\n<b>Forced Interrupt:</b> When a [[Brute]] enemy would take any amount of damage, remove that much threat from this scheme instead.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -584,6 +584,7 @@
 		"scheme": 3,
 		"set_code": "mister_hyde",
 		"set_position": 2,
+		"text": "<b>When Revealed:</b> If Mister Hyde is in play, discard this card → Mister Hyde attacks you with +2 ATK. That attack gains overkill.\n<b>When Defeated:</b> Search the encounter deck and discard pile for Mister Hyde and put him into play engaged with the player who was engaged with Calvin Zabo.",
 		"traits": "Elite. Masters of Evil.",
 		"type_code": "minion"
 	},
@@ -592,6 +593,7 @@
 		"boost": 3,
 		"code": "24035",
 		"faction_code": "encounter",
+		"flavor": "\"I became what I always wanted.\"",
 		"health": 10,
 		"is_unique": true,
 		"name": "Mister Hyde",
@@ -602,6 +604,7 @@
 		"scheme": 1,
 		"set_code": "mister_hyde",
 		"set_position": 3,
+		"text": "<b>When Revealed:</b> If Calvin Zabo is engaged with a player, discard Calvin Zabo → Mister Hyde engages that player. Give Mister Hyde a tough status card and deal 1 damage to each hero and ally in play.",
 		"traits": "Brute. Elite. Masters of Evil.",
 		"type_code": "minion"
 	},
@@ -616,6 +619,7 @@
 		"quantity": 1,
 		"set_code": "mister_hyde",
 		"set_position": 4,
+		"text": "<b>When Revealed:</b> If Calvin Zabo is in play, he schemes with +3 SCH, then he takes 4 damage. If Mister Hyde is in play, give him a tough status card and he attacks you <i>(even if you are in alter-ego form)</i>. If neither is in play, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
