@@ -1057,11 +1057,12 @@
 		"type_code": "environment"
 	},
 	{
-		"base_threat": 2,
-		"base_threat_fixed": 3,
+		"base_threat": 3,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "24064",
 		"faction_code": "encounter",
+		"flavor": "The Wrecking Crew is on a rampage, using their magically-powered muscles to cause chaos and destruction.",
 		"name": "Top Talent",
 		"octgn_id": "8ebcb82c-6821-422b-9593-cf7b845a4d5b",
 		"pack_code": "hood",
@@ -1069,13 +1070,16 @@
 		"quantity": 1,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 1,
+		"text": "Hinder 2[per_player]. <i>(When revealed, place 2[per_player] threat here.)</i>\nThe villain and each [[Elite]] minion gain retaliate 1.",
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 2,
+		"attack_text": "While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
 		"boost": 3,
 		"code": "24065",
 		"faction_code": "encounter",
+		"flavor": "\"You're just dead meat waitin' tp be tenderized!\"",
 		"health": 8,
 		"is_unique": true,
 		"name": "Wrecker",
@@ -1086,14 +1090,17 @@
 		"scheme": 2,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 2,
+		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 3,
+		"attack_text": "Bulldozer's attacks gain overkill.",
 		"boost": 2,
 		"code": "24066",
 		"faction_code": "encounter",
+		"flavor": "\"Nothing stands in the path of the Bulldozer!\"",
 		"health": 7,
 		"is_unique": true,
 		"name": "Bulldozer",
@@ -1104,6 +1111,7 @@
 		"scheme": 1,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 3,
+		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
@@ -1112,6 +1120,7 @@
 		"boost": 2,
 		"code": "24067",
 		"faction_code": "encounter",
+		"flavor": "\"These fists were made for crushin'... and that's just what they'll do.\"",
 		"health": 6,
 		"is_unique": true,
 		"name": "Piledriver",
@@ -1122,14 +1131,17 @@
 		"scheme": 2,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 4,
+		"text": "Retaliate 1.\nVillainous. <i>(When this minion activates, give it a boost card.)</i>",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
+		"attack_text": "<b>Forced Response:</b> After Thunderball attacks you, deal 1 damage to each character you control.",
 		"boost": 3,
 		"code": "24068",
 		"faction_code": "encounter",
+		"flavor": "\"Bring it on! It's wrecking time!\"",
 		"health": 7,
 		"is_unique": true,
 		"name": "Thunderball",
@@ -1140,11 +1152,13 @@
 		"scheme": 3,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 5,
+		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"boost": 1,
+		"boost_text": "For each [[Elite]] minion in play, this card gets +1 boost icon ([boost]) for this activation.",
 		"code": "24069",
 		"faction_code": "encounter",
 		"name": "Combined Effort",
@@ -1154,12 +1168,14 @@
 		"quantity": 1,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 6,
+		"text": "<b>When Revealed:</b> Each [[Elite]] minion in play activates against the player it is engaged with. If no minion activated this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 2,
 		"code": "24070",
 		"faction_code": "encounter",
+		"flavor": "\"Hey, stop, that tickles.\"",
 		"name": "Magic Muscle",
 		"octgn_id": "4c82e60e-b9af-497d-8983-0dc7e6e5aa2e",
 		"pack_code": "hood",
@@ -1167,6 +1183,7 @@
 		"quantity": 1,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 7,
+		"text": "<b>When Revealed:</b> Give each [[Brute]] enemy in play a tough status card. If no tough status card was given this way, discard cards from the top of the encounter deck until a [[Brute]] minion is discarded and reveal that minion.",
 		"type_code": "treachery"
 	}
 ]
