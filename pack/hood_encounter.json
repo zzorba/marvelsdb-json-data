@@ -393,8 +393,7 @@
 	},
 	{
 		"base_threat": 2,
-		"base_threat_fixed": 0,
-		"boost": 0,
+		"boost_text": "Resolve this card's \"<b>When Revealed</b>\" ability.",
 		"code": "24023",
 		"faction_code": "encounter",
 		"name": "Out for Blood",
@@ -402,15 +401,19 @@
 		"pack_code": "hood",
 		"position": 23,
 		"quantity": 1,
+		"scheme_hazard": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 1,
+		"text": "<b>When Revealed:</b> Deal 1 damage to the friendly character with the fewest remaining hit points. If that character is defeated this way, repeat this effect.",
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 1,
+		"attack_text": "<b>Forced Interrupt:</b> When Controller's attack would deal any amount of damage to a character, increase that amount by that character's ATK.",
 		"boost": 2,
 		"code": "24024",
 		"faction_code": "encounter",
+		"flavor": "\"No one avoids wearing my diabolical discs!\"",
 		"health": 5,
 		"is_unique": true,
 		"name": "Controller",
@@ -427,6 +430,7 @@
 	{
 		"attack": 2,
 		"boost": 1,
+		"boost_text": "Choose and exhaust a character you control.",
 		"code": "24025",
 		"faction_code": "encounter",
 		"health": 4,
@@ -439,15 +443,18 @@
 		"scheme": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 3,
+		"text": "<b>When Revealed:</b> Exhaust each ally you control. Place 1 threat on the main scheme for each ally exhausted this way.",
 		"traits": "Criminal. Crossfire's Crew.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Interrupt:</b> When Crossfire attacks, he attacks the friendly character with the fewest remaining hit points. That attack gains overkill and ranged.",
 		"boost": 3,
 		"code": "24026",
 		"faction_code": "encounter",
 		"health": 4,
+		"illustrator": "Andrea Di Vitto & Laura Villari",
 		"is_unique": true,
 		"name": "Crossfire",
 		"octgn_id": "01f7dcf9-55dc-4509-a5ec-268e168d3c7d",
@@ -457,12 +464,14 @@
 		"scheme": 2,
 		"set_code": "crossfire_crew",
 		"set_position": 4,
+		"text": "Quickstrike.",
 		"traits": "Crossfire's Crew. Masters of Evil.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
 		"boost": 1,
+		"boost_text": "Discard cards from the top of your deck until you discard an ally.",
 		"code": "24027",
 		"faction_code": "encounter",
 		"health": 5,
@@ -475,6 +484,7 @@
 		"scheme": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 5,
+		"text": "As an additional cost for the engaged player to ready a hero or ally they control, the player must spend a [mental] resource.",
 		"traits": "Criminal. Crossfire's Crew.",
 		"type_code": "minion"
 	},
@@ -489,6 +499,7 @@
 		"quantity": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 6,
+		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a [[Crossfire's Crew]] minion is discarded. Reveal that minion. Take indirect damage equal to the number of [[Crossfire's Crew]] minions in play.",
 		"type_code": "treachery"
 	},
 	{
