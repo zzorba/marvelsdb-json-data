@@ -623,9 +623,12 @@
 		"type_code": "treachery"
 	},
 	{
+		"attack": 3,
+		"attack_text": "Attached minion's attacks deal indirect damage.",
 		"boost": 2,
 		"code": "24037",
 		"faction_code": "encounter",
+		"illustrator": "Andrea Di Vitto & Laura Villari",
 		"name": "Flamethrower",
 		"octgn_id": "4fc3d9ad-15f4-4992-b0e2-d8cbeb5664b3",
 		"pack_code": "hood",
@@ -633,6 +636,7 @@
 		"quantity": 1,
 		"set_code": "ransacked_armory",
 		"set_position": 1,
+		"text": "Attach to the minion with the most remaining hit points. If you cannot, search the encounter deck and discard pile for a minion, put it into play engaged with you, and attach this card to it. <i>(Shuffle.)</i>",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -640,6 +644,7 @@
 		"boost": 1,
 		"code": "24038",
 		"faction_code": "encounter",
+		"illustrator": "Patrick McEvoy",
 		"name": "Holoshield Generator",
 		"octgn_id": "2aa0584f-d04b-4b6c-8d1d-a6cf29bdac4a",
 		"pack_code": "hood",
@@ -647,6 +652,7 @@
 		"quantity": 1,
 		"set_code": "ransacked_armory",
 		"set_position": 2,
+		"text": "Attach to the minion with the most remaining hit points. If you cannot, search the encounter deck and discard pile for a minion, put it into play engaged with you, and attach this card to it. <i>(Shuffle.)</i>\nAttached minion gets +4 hit points and gains retaliate 2.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
@@ -654,6 +660,7 @@
 		"boost": 1,
 		"code": "24039",
 		"faction_code": "encounter",
+		"illustrator": "Steve Ellis",
 		"name": "Jetpack",
 		"octgn_id": "83344536-ce80-4f24-84e6-bbb1cd090879",
 		"pack_code": "hood",
@@ -661,13 +668,17 @@
 		"quantity": 2,
 		"set_code": "ransacked_armory",
 		"set_position": 3,
+		"text": "Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.\n<b>Forced Interrupt:</b> When attached minion would take any amount of damage from an attack, discard the top card of the encounter deck. Reduce damage from that attack by the number of boost icons ([boost]) discarded this way.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
 	{
+		"attack": 1,
+		"attack_text": "Attached minion's attacks gain overkill.",
 		"boost": 2,
 		"code": "24040",
 		"faction_code": "encounter",
+		"illustrator": "Andrea Di Vitto & Laura Villari",
 		"name": "Tech Gauntlets",
 		"octgn_id": "34fdd8ae-436f-4e4c-9b7b-f321eac43b6d",
 		"pack_code": "hood",
@@ -675,6 +686,7 @@
 		"quantity": 1,
 		"set_code": "ransacked_armory",
 		"set_position": 5,
+		"text": "Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.\nAttach minion gets +3 hit points.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -684,6 +696,7 @@
 		"code": "24041",
 		"faction_code": "encounter",
 		"health": 3,
+		"illustrator": "Steve Ellis",
 		"name": "Armored Guard",
 		"octgn_id": "7deb3b63-831d-42ef-b765-d6c11ae7a479",
 		"pack_code": "hood",
@@ -692,6 +705,7 @@
 		"scheme": 0,
 		"set_code": "ransacked_armory",
 		"set_position": 6,
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>\nToughness. <i>(This character enters play with a tough status card.)</i>",
 		"traits": "Mercenary.",
 		"type_code": "minion"
 	},
