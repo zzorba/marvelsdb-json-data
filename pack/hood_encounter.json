@@ -916,10 +916,10 @@
 	},
 	{
 		"base_threat": 3,
-		"base_threat_fixed": 0,
 		"boost": 3,
 		"code": "24055",
 		"faction_code": "encounter",
+		"flavor": "The villains have somehow identified an unmarked van transporting priceless artifacts.",
 		"name": "Feisty Heist",
 		"octgn_id": "6f479ba0-24f6-423e-8d97-79a614150649",
 		"pack_code": "hood",
@@ -928,14 +928,15 @@
 		"scheme_acceleration": 1,
 		"set_code": "state_of_emergency",
 		"set_position": 1,
+		"text": "<b>When Revealed:</b> Discard the highest-cost card from your hand.",
 		"type_code": "side_scheme"
 	},
 	{
 		"base_threat": 3,
-		"base_threat_fixed": 0,
 		"boost": 2,
 		"code": "24056",
 		"faction_code": "encounter",
+		"flavor": "A container ship has run ashore and is now sitting on the dock of the bay.",
 		"name": "Disaster at the Docks",
 		"octgn_id": "5dac1386-3be2-42e6-bf91-fa8d64b878eb",
 		"pack_code": "hood",
@@ -944,14 +945,15 @@
 		"scheme_acceleration": 1,
 		"set_code": "state_of_emergency",
 		"set_position": 2,
+		"text": "<b>When Revealed:</b> Take 3 indirect damage.",
 		"type_code": "side_scheme"
 	},
 	{
 		"base_threat": 3,
-		"base_threat_fixed": 0,
 		"boost": 2,
 		"code": "24057",
 		"faction_code": "encounter",
+		"flavor": "A raging fire has engulfed a coastal oil rig, trapping much of the crew.",
 		"name": "Offshore Inferno",
 		"octgn_id": "5899dba3-043d-4f6a-b3e6-5404fc151cf3",
 		"pack_code": "hood",
@@ -960,11 +962,11 @@
 		"scheme_acceleration": 1,
 		"set_code": "state_of_emergency",
 		"set_position": 3,
+		"text": "<b>When Revealed:</b> Discard the lowest-cost card you control.",
 		"type_code": "side_scheme"
 	},
 	{
 		"base_threat": 3,
-		"base_threat_fixed": 0,
 		"boost": 3,
 		"code": "24058",
 		"faction_code": "encounter",
@@ -976,10 +978,11 @@
 		"scheme_acceleration": 1,
 		"set_code": "state_of_emergency",
 		"set_position": 4,
+		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a minion is discard. Put that minion into play engaged with you.",
 		"type_code": "side_scheme"
 	},
 	{
-		"boost": 0,
+		"boost_text": "Resolve this card's \"<b>When Revealed</b>\" ability.",
 		"code": "24059",
 		"faction_code": "encounter",
 		"name": "Citywide Crisis",
@@ -989,6 +992,7 @@
 		"quantity": 2,
 		"set_code": "state_of_emergency",
 		"set_position": 5,
+		"text": "<b>When Revealed:</b> Resolve each \"<b>When Revealed</b>\" ability on each side scheme in play. If no \"<b>When Revealed</b>\" ability was resolved this way, place 2 threat on each scheme.",
 		"type_code": "treachery"
 	},
 	{
