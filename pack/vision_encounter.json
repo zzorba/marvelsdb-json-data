@@ -3,16 +3,19 @@
 		"boost": 2,
 		"code": "26028",
 		"faction_code": "encounter",
+		"illustrator": "Rodrigo Catraca",
 		"name": "Corrupted Programming",
 		"octgn_id": "4e80c73e-4f2b-4c24-8cc4-328816ebd076",
 		"pack_code": "vision",
 		"position": 28,
 		"quantity": 1,
 		"set_code": "vision",
+		"text": "<b><i>Give to the Vision player.</i></b>\nTreat your mass form upgrade's text box as if it were blank, except for keywords.\n<b>Alter-Ego Action:</b> Exhaust your identity → remove Corrupted Programming from the game.",
 		"type_code": "obligation"
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Interrupt:</b> When Ultron attacks you, if Ultron Drones is in play, put the top card of your deck into play facedown engaged with you as a [[Drone]] minion.",
 		"boost": 2,
 		"code": "26029",
 		"faction_code": "encounter",
@@ -26,6 +29,7 @@
 		"scheme": 2,
 		"set_code": "vision_nemesis",
 		"set_position": 1,
+		"text": "Toughness.",
 		"traits": "Android. Elite.",
 		"type_code": "minion"
 	},
@@ -34,6 +38,7 @@
 		"boost": 3,
 		"code": "26030",
 		"faction_code": "encounter",
+		"illustrator": "Andrea Di Vitto & Laura Villari",
 		"name": "Ultron Unleashed",
 		"octgn_id": "9124c689-6c22-45ef-8f0d-d32c103b20fc",
 		"pack_code": "vision",
@@ -42,6 +47,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "vision_nemesis",
 		"set_position": 2,
+		"text": "<b>When Revealed:</b> Search the encounter deck, discard pile, and set-aside area for Ultron Drones and put it into play. Shuffle the encounter deck. Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -54,12 +60,14 @@
 		"quantity": 1,
 		"set_code": "vision_nemesis",
 		"set_position": 3,
+		"text": "Each facedown [[Drone]] minion engaged with a player has a base SCH of 1, base ATK of 1, and a base hit points of 1.\n<b>Forced Response</b>: After a facedown [[Drone]] minion is defeated, place that card in its owner's discard pile.",
 		"type_code": "environment"
 	},
 	{
 		"boost": 2,
 		"code": "26032",
 		"faction_code": "encounter",
+		"flavor": "\"Innovation is the ultimate weapon.\" - Ultron",
 		"name": "Relentless Android",
 		"octgn_id": "4c589296-7bd4-42de-91f9-be1db820fd72",
 		"pack_code": "vision",
@@ -67,6 +75,7 @@
 		"quantity": 2,
 		"set_code": "vision_nemesis",
 		"set_position": 4,
+		"text": "<b>When Revealed:</b> If Ultron Drones is in play, put the top 2 cards of your deck into play facedown, engaged with you as [[Drone]] minions. Otherwise, discard 2 random cards from your hand.",
 		"type_code": "treachery"
 	}
 ]
