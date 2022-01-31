@@ -9,6 +9,7 @@
 		"position": 28,
 		"quantity": 1,
 		"set_code": "valk",
+		"text": "<b><i>Give to the Brunnhilde player.</i></b>\nValkyrie cannot attack the enemy with Death-Glow attached.\n<b>Alter-Ego Action</b>: Spend [energy][mental] resources → remove Trouble in Otherworld from the game.",
 		"type_code": "obligation"
 	},
 	{
@@ -16,6 +17,7 @@
 		"boost": 2,
 		"code": "25029",
 		"faction_code": "encounter",
+		"flavor": "\"You can't fight what you want.\"",
 		"health": 5,
 		"is_unique": true,
 		"name": "Enchantress",
@@ -26,6 +28,7 @@
 		"scheme": 2,
 		"set_code": "valk_nemesis",
 		"set_position": 1,
+		"text": "<b>When Revealed</b>: Search the encounter deck, discard pile, and set-aside area for a copy of Seduced and attach it to your identity. <i>(Shuffle.)</i>",
 		"traits": "Asgard. Elite.",
 		"type_code": "minion"
 	},
@@ -34,13 +37,16 @@
 		"boost": 2,
 		"code": "25030",
 		"faction_code": "encounter",
+		"flavor": "Behind Amora's charm lies a cruel ambition and the power to subdue those in her way.",
 		"name": "Powerful Enchantments",
 		"octgn_id": "c5cf7bc4-2886-4ed5-a883-437a3d2b8356",
 		"pack_code": "valk",
 		"position": 30,
 		"quantity": 1,
+		"scheme_acceleration": 1,
 		"set_code": "valk_nemesis",
 		"set_position": 2,
+		"text": "Hinder 1[per_hero].\nPlayers cannot discard attachments that are attached to friendly characters.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -54,12 +60,14 @@
 		"quantity": 1,
 		"set_code": "valk_nemesis",
 		"set_position": 3,
+		"text": "Treat attached ally as an [enthralled] minion with a blank text box.\nAttached minion's SCH is equal to its printed THW and it does not take consequential damage.\n<b>When Revealed</b>: Attach to the ally with the highest cost without Beguiled attached. Attached ally engages its controller. Otherwise, this card gains surge.",
 		"type_code": "attachment"
 	},
 	{
 		"boost": 2,
 		"code": "25032",
 		"faction_code": "encounter",
+		"flavor": "\"You love me, don't you?\" —Enchantress",
 		"name": "Seduced",
 		"octgn_id": "8da4ccf1-c623-4430-a6a9-54106e82bfbc",
 		"pack_code": "valk",
@@ -67,6 +75,7 @@
 		"quantity": 2,
 		"set_code": "valk_nemesis",
 		"set_position": 4,
+		"text": "Attach to your identity.\nYou cannot make basic attacks or play [[attack]] events.\n<b>Alter-Ego Action</b>: Spend [energy][mental] resources → discard this card.",
 		"type_code": "attachment"
 	}
 ]
