@@ -493,6 +493,7 @@
 	},
 	{
 		"boost": 1,
+		"boost_text": "Deal yourself 1 facedown encounter card.",
 		"code": "24029",
 		"faction_code": "encounter",
 		"name": "Cruel Intentions",
@@ -502,6 +503,7 @@
 		"quantity": 1,
 		"set_code": "expert_ii",
 		"set_position": 1,
+		"text": "Peril. Surge.\n<b>When Revealed</b>: Deal each player 1 facedown encounter card. Give the villain 1 facedown boost card.",
 		"type_code": "treachery"
 	},
 	{
@@ -515,32 +517,36 @@
 		"quantity": 1,
 		"set_code": "expert_ii",
 		"set_position": 2,
+		"text": "Incite 1. Peril.\n<b>When Revealed</b>: Discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that card. Place 2 threat on each scheme in play.",
 		"type_code": "treachery"
 	},
 	{
-		"boost": 0,
+		"boost": 3,
 		"code": "24031",
 		"faction_code": "encounter",
-		"name": "Slug It Out",
-		"octgn_id": "8563780b-b865-43d1-9e58-9e8b8e1bd188",
+		"name": "Seek and Destroy",
+		"octgn_id": "899568a6-ee33-4092-80a1-eddf09965bbe",
 		"pack_code": "hood",
 		"position": 31,
 		"quantity": 1,
 		"set_code": "expert_ii",
 		"set_position": 3,
+		"text": "Incite 1. Peril.\n<b>When Revealed</b>: Search the encounter deck, discard pile, and set-aside area for your nemesis minion and put it into play engaged with you. <i>(Shuffle.)</i>",
 		"type_code": "treachery"
 	},
 	{
-		"boost": 3,
+		"boost": 0,
+		"boost_text": "Deal 1 damage to each character you control. Give the villain 1 additional boost card for this activation.",
 		"code": "24032",
 		"faction_code": "encounter",
-		"name": "Seek and Destroy",
-		"octgn_id": "899568a6-ee33-4092-80a1-eddf09965bbe",
+		"name": "Slug It Out",
+		"octgn_id": "8563780b-b865-43d1-9e58-9e8b8e1bd188",
 		"pack_code": "hood",
 		"position": 32,
 		"quantity": 1,
 		"set_code": "expert_ii",
 		"set_position": 4,
+		"text": "Peril. Surge.\n<b>When Revealed</b>: Exhaust your identity. Take 2 damage.",
 		"type_code": "treachery"
 	},
 	{
