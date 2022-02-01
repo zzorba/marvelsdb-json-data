@@ -62,6 +62,7 @@
 	},
 	{
 		"attack": 1,
+		"attack_cost": 1,
 		"code": "26003",
 		"cost": 2,
 		"deck_limit": 1,
@@ -79,6 +80,7 @@
 		"set_position": 2,
 		"text": "While you are in Intangible mass form, Vivian gets +2 THW.\nWhile you are in Dense mass form, Vivian gets +2 ATK.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "Android. Champion.",
 		"type_code": "ally"
 	},
@@ -255,6 +257,7 @@
 	},
 	{
 		"attack": 1,
+		"attack_cost": 1,
 		"code": "26013",
 		"cost": 3,
 		"deck_limit": 1,
@@ -290,11 +293,13 @@
 		"resource_physical": 1,
 		"text": "<b>Interrupt:</b> When Protector would take any amount of damage, spend a [mental] resource → reduce that amount by 1. (Limit once per round.)",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "Android. Avenger.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 0,
+		"attack_cost": 1,
 		"code": "26015",
 		"cost": 2,
 		"deck_limit": 1,
@@ -310,6 +315,7 @@
 		"resource_energy": 1,
 		"text": "Reduce the amount of damage Victor Mancha takes from each attack by 1.",
 		"thwart": 0,
+		"thwart_cost": 1,
 		"traits": "Android. Avenger.",
 		"type_code": "ally"
 	},
