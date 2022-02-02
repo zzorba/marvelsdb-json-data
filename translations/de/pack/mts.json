@@ -1,297 +1,311 @@
 [
 	{
 		"code": "21001a",
-		"flavor": "\"The name is Monica, or Spectrum if you're nasty.\"",
+		"flavor": "\"Ich heiße Monica, oder Spectrum, wenn du böse bist.\"",
 		"name": "Spectrum",
-		"text": "<i>Energy Transformation</i> - <b>Forced Response:</b> After you change to this form, choose a facedown energy form upgrade -> flip that card faceup to change to that energy form.",
-		"traits": "Aerial. Avenger."
+		"text": "<i>Energietransformation</i> - <b>Erzwungene Reaktion:</b> Nachdem du in diese Gestalt gewechselt bist, wähle ein verdecktes Energiegestalt-Upgrade → drehe es um, um in die Energiegestalt zu wechseln.",
+		"traits": "Avenger. Fliegend."
 	},
 	{
 		"code": "21001b",
 		"name": "Monica Rambeau",
-		"text": "<b>Setup:</b> Put all 3 energy form upgrades into play, facedown.\n<i>Power Down</i> - <b>Forced Response:</b> After you change to this form, turn all your energy upgrades facedown.",
-		"traits": "Civilian."
+		"text": "<b>Spielaufbau:</b> Bringe alle 3 Energiegestalt-Upgrades verdeckt ins Spiel.\n<i>Herunterfahren</i> - <b>Erzwungene Reaktion:</b> Nachdem du in diese Gestalt gewechselt bist, drehe alle deine Energiegestalt-Upgrades auf die verdeckte Seite um.",
+		"traits": "Zivilist."
 	},
 	{
 		"code": "21002",
 		"name": "Gamma",
-		"text": "Energy form. Permanent.\nSpectrum gets +2 ATK.\n<b>Hero Response:</b> After you change to this form, deal 1 damage to an enemy."
+		"text": "Energiegestalt. Dauerhaft.\nSpectrum bekommt +2 ANG.\n<b>Held Reaktion:</b> Nachdem du in diese Energiegestalt gewechselt bist, füge einem Gegner 1 Schaden zu."
 	},
 	{
 		"code": "21003",
 		"name": "Photon",
-		"text": "Energy form. Permanent.\nSpectrum gets +2 THW.\n<b>Hero Response:</b> After you change to this form, remove 1 threat from a scheme."
+		"text": "Energiegestalt. Dauerhaft.\nSpectrum bekommt +2 WID.\n<b>Held Reaktion:</b> Nachdem du in diese Energiegestalt gewechselt bist, entferne 1 Bedrohung von einem Plan."
 	},
 	{
 		"code": "21004",
 		"name": "Pulsar",
-		"text": "Energy form. Permanent.\nSpectrum gets +2 DEF.\n<b>Hero Response:</b> After you change to this form, heal 1 damage from Spectrum."
+		"text": "Energiegestalt. Dauerhaft.\nSpectrum bekommt +2 VER.\n<b>Held Reaktion:</b> Nachdem du in diese Energiegestalt gewechselt bist, heile 1 Schaden von Spectrum."
 	},
 	{
 		"code": "21005",
-		"flavor": "\"I do whatever is right, whenever it needs to be done, and I don't care what anyone thinks.\"",
+		"flavor": "\"Ich tue, was richtig ist, wann immer es getan werden muss. Und es ist mir egal, was andere denken.\"",
 		"name": "Blue Marvel",
 		"subname": "Adam Brashear",
-		"text": "<b>Hero Response:</b> After Blue Marvel enters play, change energy forms",
-		"traits": "Aerial. Avenger."
+		"text": "<b>Held Reaktion:</b> Nachdem Blue Marvel ins Spiel gekommen ist, wechsle die Energiegestalt.",
+		"traits": "Avenger. Fliegend."
 	},
 	{
 		"code": "21006",
-		"flavor": "\"I can take the form of any type of energy I want.\"-Spectrum",
+		"flavor": "\"Ich kann die Form jeder Art von Energie annehmen, die ich will.\" -- Spectrum",
 		"name": "Energieduplikation",
-		"text": "<b>Hero Resource:</b> Exhaust Energy Duplication -> generate the printed resource on your faceup energy form upgrade.",
-		"traits": "Superpower."
+		"text": "<b>Hero Ressource:</b> Erschöpfe Energieduplikation → erzeuge die aufgedruckte Ressource auf deinem offenen Energiegestalt-Upgrade.",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "21007",
-		"flavor": "\"I wouldn't make me angry either.\" - Spectrum",
+		"flavor": "\"Ich würde mich auch nicht wütend machen wollen.\" -- Spectrum",
 		"name": "Gammastrahl",
-		"text": "<b>Hero Action</b> (attack): Change to Gamma energy form and deal 7 damage to an enemy. If you were already in Gamma energy form, this attack gains overkill.",
-		"traits": "Attack. Superpower."
+		"text": "<b>Held Aktion</b> (Angriff): Wechsle in die Gamma-Energiegestalt und füge einem Gegner 7 Schaden zu. Falls du bereits in der Gamma-Energiegestalt bist, erhält dieser Angriff Overkill.",
+		"traits": "Angriff. Superkraft."
 	},
 	{
 		"code": "21008",
-		"flavor": "\"Looking for these?\" - Spectrum",
+		"flavor": "\"Sucht ihr etwa die hier?\" -- Spectrum",
 		"name": "Schnell wie Photon",
-		"text": "<b>Hero Action</b> (thwart): Change to Photon energy form and remove 4 threat from a scheme. If you were already in Photon energy form, ignore crisis icon for this thwart.",
-		"traits": "Thwart. Superpower."
+		"text": "<b>Held Aktion</b> (Widerstand): Wechsle in die Photon-Energiegestalt und entferne 4 Bedrohung von einem Plan. Falls du bereits in der Photon-Energiegestalt bist, ignoriere für diese Aktion alle Krisensymbole [crisis]",
+		"traits": "Widerstand. Superkraft."
 	},
 	{
 		"code": "21009",
 		"name": "Pulsarschild",
-		"text": "<b>Hero Interrupt</b> (defense): When Spectrum defends, change to Pulsar energy form and ready Spectrum. If you were already in Pulsar energy form, she gains retaliate 1 until the end of the phase.",
-		"traits": "Defense. Superpower."
+		"text": "<b>Held Unterbrechung</b> (Verteidigung): Sobald Spectrum verteidigt, wechsle in die Pulsar-Energiegestalt und mache Spectrum spielbereit. Falls du bereits in der Pulsar-Energiegestalt bist, erhält Spectrum bis zum Ende der Phase Vergeltung 1.",
+		"traits": "Verteidigung. Superkraft."
 	},
 	{
 		"code": "21010",
-		"flavor": "\"Be there in a flash.\" - Spectrum",
+		"flavor": "\"Bin sofort da - schnell wie der Blitz.\" -- Spectrum",
 		"name": "Lichtgeschwindigkeit",
-		"text": "<b>Hero Action:</b> Change energy forms and draw 1 card.",
-		"traits": "Superpower."
+		"text": "<b>Held Aktion:</b> Wechsle die Energiegestalt und ziehe 1 Karte",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "21011",
+		"flavor": "\"Avengers, sammeln!\"",
 		"name": "Captain America",
 		"subname": "Steve Rogers",
-		"text": "Toughness.\nReduce the cost to play Captain America by 1 for each [[avenger]] character you control.",
+		"text": "Zähigkeit.\nSenke die Kosten, um Captain America zu spielen, für jeden [[Avenger]]-Charakter unter deiner Kontrolle um 1",
 		"traits": "Avenger."
 	},
 	{
 		"code": "21012",
 		"name": "Power Man",
 		"subname": "Victor Alvarez",
-		"text": "Power Man enters play with 2 chi counters on him.\n<b>Action</b>: Discard any number of chi counters from Power Man -> he gets +2 ATK for each chi counter discarded this way until the end of the phase.",
+		"text": "Power Man kommt mit 2 Chi-Markern ins Spiel.\n<b>Aktion</b>: Lege eine beliebige Anzahl an Chi-Markern von Power Man ab → er bekommt bis zum Ende der Phase für jeden auf diese Weise abgelegten Chi-Marker +2 ANG.",
 		"traits": "Avenger."
 	},
 	{
 		"code": "21013",
 		"name": "White Tiger",
 		"subname": "Ava Ayala",
-		"text": "<b>Response</b>: After you play White Tiger from your hand, draw X cards (to a maximum of three), where X is equal to the villain's stage number. If the villain has no stage number, draw 1 card.",
+		"text": "<b>Reaktion</b>: Nachdem du White Tiger von deiner Hand gespielt hast, ziehe X Karten (bis zu einem Maximum von 3). X ist die Abschnittsnummer des Schurken. Falls der Schurke keine Abschnittsnummer hat, ziehe 1 Karte.",
 		"traits": "Avenger."
 	},
 	{
 		"code": "21014",
+		"flavor": "\"Für diese Quest wirst du meine Hilfe brauchen.\"",
 		"name": "Kaluu",
-		"text": "<b>Response</b>: After Kaluu enters play, search the top 5 cards of your deck for an event -> add that event to your hand. Shuffle your deck.",
-		"traits": "Avenger. Mystic."
+		"text": "<b>Reaktion</b>: Nachdem Kaluu ins Spiel gekommen ist, durchsuche die obersten 5 Karten deines Decks nach einem Ereignis → nimm das Ereignis auf deine Hand. Mische dein Deck.",
+		"traits": "Avenger. Mystiker."
 	},
 	{
 		"code": "21015",
+		"flavor": "\"Jetzt alle zusammen!\" -- Captain Marvel",
 		"name": "Mighty Avengers",
-		"text": "Play under any player's control. Max 1 Team per player.\nIf each of your characters has the Avengers trait, each ally you control gets +1 THW and +1 ATK.",
+		"text": "Spiele diese Karte unter die Kontrolle eines beliebigen Spielers. Max. 1 [[Team]]-Karte pro Spieler.\nFalls jeder deiner Charaktere das Merkmal [[Avenger]] hat, bekommt jeder Verbündete unter deiner Kontrolle +1 WID und +1 ANG.",
 		"traits": "Team."
 	},
 	{
 		"code": "21016",
 		"name": "koordinierter Angriff",
-		"text": "<b>Hero Action</b>: Exhaust 3 allies you control that shares a Trait with your hero -> deal X damage to an enemy, where X is the total ATK of those allies and your hero.",
-		"traits": "Attack."
+		"text": "<b>Hero Action</b> (Angriff): Erschöpfe 3 Verbündete unter deiner Kontrolle, die ein [[Merkmal]] mit deinem Helden gemeinsam haben → füge einem Gegner X Schaden zu. X ist die Summe der ANG-Werte dieser Verbündeten und deines Helden.",
+		"traits": "Angriff."
 	},
 	{
 		"code": "21018",
 		"name": "Zusammenschluss",
-		"text": "This card generates [wild] for each ally you control (to a maximum of 3)"
+		"text": "Diese Karte erzeugt für jeden Verbündeten unter deiner Kontrolle eine [wild]-Ressource (bis zu einem Maximum von 3)."
 	},
 	{
 		"code": "21019",
+		"flavor": "\"Wie oft muss ich dich noch unter die Erde bringen?\"",
 		"name": "Blade",
 		"subname": "Eric Brooks",
-		"text": "<b>Forced Response</b>: After Blade thwarts or attacks, choose to either spend a [physical] resource from your hand or discard Blade.",
-		"traits": "Avenger. Vampire."
+		"text": "<b>Erzwungene Reaktion</b>: Nachdem Blade Widerstand geleistet oder angegriffen hat, wähle: Gib entweder eine [physical]-Ressource von deiner Hand aus oder lege Blade ab.",
+		"traits": "Avenger. Vampir."
 	},
 	{
 		"code": "21022",
+		"flavor": "\"Okay, wer ist der Nächste?\" -- Ms. Marvel",
 		"name": "Bereit zum Austeilen",
-		"text": "Play under any player's control. Max 1 per player.\n<b>Hero Response</b>: After you change form, discard this card -> ready your hero.",
-		"traits": "Condition."
+		"text": "Spiele diese Karte unter die Kontrolle eines beliebigen Spielers. Max. 1 pro Spieler.\n<b>Held Reaktion</b>: Nachdem du die Gestalt gewechselt hast, lege diese Karte ab → mache deinen Helden spielbereit.",
+		"traits": "Zustand."
 	},
 	{
 		"code": "21031a",
 		"name": "Adam Warlock",
-		"text": "<i>Battle Mage</i> - <b>Action</b>: Discard 1 card from your hand. Limit once per phase. If that card is:\n-Aggression: Deal 2 damage to an enemy.\n-Justice: Remove 2 threat from a scheme.\n-Protection: Heal 1 damage from an ally.\n-Leadership: Give a hero +1 THW, +1 ATK and +1 DEF this round.",
-		"traits": "Guardian. Mystic."
+		"text": "<i>Kampfmagier</i> - <b>Aktion</b>: Lege 1 Karte von deiner Hand ab. (Nur ein Mal pro Phase.) Falls die Karte zum folgenden Aspekt gehört:\n-Aggression - Füge einem Gegner 2 Schaden zu.\n-Gerechtigkeit - Entferne 2 Bedrohung von einem Plan.\n-Schutz - Heile 1 Schaden von einem Verbündeten.\n-Führung - Gib einem Helden für diese Runde +1 WID, +1 ANG und +1 VER.",
+		"traits": "Guardian. Mystiker."
 	},
 	{
 		"code": "21031b",
 		"name": "Adam Warlock",
-		"text": "<i>Avatar of Life</i> - During deck-building, your deck must include an equal number of cards from all 4 aspects. You cannot include more than 1 copy of any non-Adam Warlock card.\n<b>Action</b>: Discard a card from your hand -> remove a status card from Adam Warlock.",
-		"traits": "Mystic."
+		"text": "<i>Avatar des Lebens</i> - Beim Deckbau muss dein Deck gleich viele Karten von allen 4 Aspekten enthalten. Du kannst nicht mehr als 1 Exemplar jeder Nicht-Adam-Warlock-Karte aufnehmen.\n<b>Aktion</b>: Lege eine Karte von deiner Hand ab → lege eine Statuskarte von Adam Warlock ab.",
+		"traits": "Mystiker."
 	},
 	{
 		"code": "21032",
 		"name": "Pip der Troll",
-		"text": "Toughness.\nWhile Pip the Troll is in your hand, he gains \"<b>Interrupt</b>: When a player is attacked, spend[energy][mental] resources -> put Pip the Troll into play under that player's controller.\"",
-		"traits": "Mystic."
+		"text": "Zähigkeit.\nSolange Pip der Troll auf deiner Hand ist, erhält er: \"<b>Unterbrechung</b>: Sobald ein Spieler angegriffen wird, gib [energy][mental]-Ressourcen aus → bringe Pip der Troll unter der Kontrolle jenes Spielers ins Spiel.\"",
+		"traits": "Mystiker."
 	},
 	{
 		"code": "21033",
 		"name": "Seelenwelt",
-		"text": "<b>Response</b>: After your deck runs out of cards, place 1 soul counter here.\n<b>Alter-Ego Action</b>: Exhaust Soul World and remove 1 soul counter from it -> heal all damage from your identity.",
-		"traits": "Location."
+		"text": "<b>Reaktion</b>: Nachdem dein Deck leer geworden ist, platziere hier 1 Seelenmarker.\n<b>Alter-Ego Aktion</b>: Erschöpfe Seelenwelt und entferne 1 Seelenmarker von hier → heile allen Schaden von deiner Identität.",
+		"traits": "Ort."
 	},
 	{
 		"code": "21034",
+		"flavor": "\"Ich mag ja lieber eine Laserkanone, aber Warlock schlägt sich mit seinem Stock auch ganz gut.\" - Rocket Raccoon",
 		"name": "Karma-Stab",
-		"text": "<b>Resource</b>: Exhaust Karmic Staff -> generate a [wild] resource",
-		"traits": "Artifact. Item."
+		"text": "<b>Ressource</b>: Erschöpfe Karma-Stab → erzeuge eine [wild]-Ressource",
+		"traits": "Artefakt. Gegenstand."
 	},
 	{
 		"code": "21035",
+		"flavor": "\"Eines muss man Adam lassen: Der Mann weiß, wie man einen Umhang trägt.\" - Star-Lord",
 		"name": "Warlocks Umhang",
-		"text": "<b>Hero Response</b>: After you resolve Adam Warlock's \"Battle Mage\" ability, exhaust Warlock's Cape -> ready Adam Warlock's",
-		"traits": "Item."
+		"text": "<b>Held Reaktion</b>: Nachdem du deine \"Kampfmagier\"-Fähigkeit abgehandelt hast, erschöpfe Warlocks Umhang → mache Adam Warlock spielbereit.",
+		"traits": "Gegenstand."
 	},
 	{
 		"code": "21036",
+		"flavor": "\"Ich trotze deiner Macht und stelle mich ihr mit all meiner Kraft entgegen!\" - Adam Warlock",
 		"name": "Kosmischer Schutzzauber",
-		"text": "<b>Forced Interrupt</b>: When you reveal a treachery card, cancel its \"<b>When Revealed</b>\" effects and discard it. Then, discard Cosmic Ward",
-		"traits": "Spell."
+		"text": "<b>Erzwungene Unterbrechung</b>: Sobald du eine Verratskarte aufdeckst, hebe ihre \"<b>Sobald aufgedeckt</b>\"-Effekte auf und lege sie ab. Lege dann Kosmischer Schutzzauber ab.",
+		"traits": "Zauber."
 	},
 	{
 		"code": "21037",
+		"flavor": "\"Die Erinnerungen an die Allmacht verblassen mit der Erfahrung.\" - Adam Warlock",
 		"name": "Mystische Sinne",
-		"text": "<b>Hero Response</b>: After you resolve Adam Warlock's \"Battle Mage\" ability, draw 1 card.",
-		"traits": "Condition. Superpower."
+		"text": "<b>Held Reaktion</b>: Nachdem du deine \"Kampfmagier\"-Fähigkeit abgehandelt hast, ziehe 1 Karte.",
+		"traits": "Zustand. Superkraft."
 	},
 	{
 		"code": "21038",
 		"name": "Karma-Strahl",
-		"text": "<b>Hero Action</b> (attack): Deal 4 damage to an enemy and discard up to 4 cards from the top of your deck -> deal 1 additional damage to that enemy for each different aspect discarded this way (Aggression, Justice, Leadership and Protection)",
-		"traits": "Attack. Superpower."
+		"text": "<b>Held Aktion</b> (Angriff): Füge einem Gegner 4 Schaden zu und lege bis zu 4 Karten von deinem Deck ab → füge dem Gegner für jeden auf diese Weise abgelegten unterschiedlichen Aspekt (Aggression, Gerechtigkeit, Führung und Schutz) 1 zusätzlichen Schaden zu.",
+		"traits": "Angriff. Superkraft."
 	},
 	{
 		"code": "21039",
 		"name": "Kosmisches Bewusstsein",
-		"text": "<b>Hero Action</b> (thwart): Remove 3 threat from a scheme and discard up to 4 cards from the top of your deck -> remove 1 additional threat from that scheme for each different aspect discarded this way (Aggression, Justice, Leadership and Protection)",
-		"traits": "Thwart. Superpower."
+		"text": "<b>Held Aktion</b> (Widerstand): Entferne 3 Bedrohung von einem Plan und lege bis zu 4 Karten von deinem Deck ab → entferne für jeden auf diese Weise abgelegten unterschiedlichen Aspekt (Aggression, Gerechtigkeit, Führung und Schutz) 1 zusätzliche Bedrohung von dem Plan.",
+		"traits": "Widerstand. Superkraft."
 	},
 	{
 		"code": "21040",
+		"flavor": "\"Sie glauben, ich wäre tot. Und solange sie das glauben, werden sie absolut nicht auf das vorbereitet sein, was ich entfesseln werde.\" - Adam Warlock",
 		"name": "Quantenmagie",
-		"text": "<b>Action</b>: Choose a card in your discard pile -> add that card to your hand",
-		"traits": "Spell."
+		"text": "<b>Action</b>: Wähle eine Karte in deinem Ablagestapel → nimm die Karte auf deine Hand.",
+		"traits": "Zauber."
 	},
 	{
 		"code": "21041",
+		"flavor": "\"Komm mit mir, wenn du großartig sein willst.\"",
 		"name": "Marvel Boy",
 		"subname": "Noh-Var",
-		"text": "<b>Interrupt</b>: When Marvel Boy attacks, spend a [physics] resource -> this attack gains piercing and ranged",
+		"text": "<b>Unterbrechung</b>: Sobald Marvel Boy angreift, gib eine [physics]-Ressource aus → der Angriff erhält Durchdringend und Fernkampf.",
 		"traits": "Guardian. Kree."
 	},
 	{
 		"code": "21042",
 		"name": "In-Betweener",
-		"text": "<b>Action</b>: Shuffle this card into the encounter deck (without looking)\n<b>When Revealed</b>: Deal 2 damage to the villain and remove this card from the game. This effect cannot be canceled.",
-		"traits": "Cosmic Entity."
+		"text": "<b>Aktion</b>: Mische diese Karte in das Begegnungsdeck (ohne hinzusehen).\n<b>Sobald aufgedeckt</b>: Füge dem Schurken 2 Schaden zu und entferne diese Karte aus dem Spiel. Dieser Effekt kann nicht aufgehoben werden.",
+		"traits": "Kosmisches Wesen."
 	},
 	{
 		"code": "21043",
 		"name": "Magischer Angriff",
-		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Action</b> (attack): Choose an enemy and discard up to 5 cards from the top of your deck -> deal 1 damage to that enemy for each card discarded this way.",
-		"traits": "Attack. Spell."
+		"text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[Mystiker]] hat. Max. 1 pro Deck.\n<b>Held Aktion</b> (Angriff): Wähle einen Gegner und lege bis zu 5 Karten von deinem Deck ab → füge dem Gegner für jede auf diese Weise abgelegte Karte 1 Schaden zu.",
+		"traits": "Angriff. Zauber."
 	},
 	{
 		"code": "21046",
 		"name": "Verwegenheit",
-		"text": "Max 1 per deck.\n<b>Hero Response</b>: After you spend this card, deal 1 damage to the villain."
+		"text": "Max. 1 pro Deck.\n<b>Held Reaktion</b>: Nachdem du diese Karte ausgegeben hast, füge dem Schurken 1 Schaden zu."
 	},
 	{
 		"code": "21047",
+		"flavor": "\"Ich bin der Beschützer des Universums. Das gehört alles zu meinem Job.\"",
 		"name": "Quasar",
 		"subname": "Wendell Vaughn",
-		"text": "<b>Response</b>: After Quasar enters play, remove 1 threat from each scheme in play.",
-		"traits": "Aerial. Guardian."
+		"text": "<b>Reaktion</b>: Nachdem Quasar ins Spiel gekommen ist, entferne 1 Bedrohung von jedem Plan im Spiel.",
+		"traits": "Fliegend. Guardian."
 	},
 	{
 		"code": "21048",
 		"name": "Living Tribunal",
-		"text": "<b>Action</b>: Shuffle this card into the encounter deck (without looking)\n<b>When Revealed</b>: Remove 2 threat from the main scheme and remove this card from the game. This effect cannot be canceled.",
-		"traits": "Cosmic Entity."
+		"text": "<b>Aktion</b>: Mische diese Karte in das Begegnungsdeck (ohne hinzusehen).\n<b>Sobald aufgedeckt</b>: Entferne 2 Bedrohung vom Hauptplan und entferne diese Karte aus dem Spiel. Dieser Effekt kann nicht aufgehoben werden.",
+		"traits": "Kosmisches Wesen."
 	},
 	{
 		"code": "21050",
 		"name": "Zone der Stille",
-		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Action</b> (thwart): Choose a scheme and discard up to 4 cards from the top of your deck -> remove 1 threat from that scheme for each card discarded this way.",
-		"traits": "Spell. Thwart."
+		"text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[Mystiker]] hat. Max. 1 pro Deck.\n<b>Held Aktion</b> (Widerstand): Wähle einen Plan und lege bis zu 4 Karten von deinem Deck ab → entferne für jede auf diese Weise abgelegte Karte 1 Bedrohung von dem Plan.",
+		"traits": "Zauber. Widerstand."
 	},
 	{
 		"code": "21052",
 		"name": "Entschlossenheit",
-		"text": "Max 1 per deck.\n<b>Hero Response</b>: After you spend this card, remove 1 threat from the main scheme."
+		"text": "Max. 1 pro Deck.\n<b>Held Reaktion</b>: Nachdem du diese Karte ausgegeben hast, entferne 1 Bedrohung vom Hauptplan."
 	},
 	{
 		"code": "21053",
+		"flavor": "\"Ein großer Mann trug einst diesen Schild und starb, während er andere verteidigte. Falls nötig, bin ich bereit, das Gleiche zu tun.\"",
 		"name": "Major Victory",
 		"subname": "Vance Astro",
-		"text": "<b>Interrupt</b>: When Major Victory is defeated, choose a friendly Guardian character -> ready that character.",
+		"text": "<b>Unterbrechung</b>: Sobald Major Victory besiegt wird, wähle einen befreundeten [[Guardian]]-Character → mache jenen Charakter spielbereit.",
 		"traits": "Guardian."
 	},
 	{
 		"code": "21054",
 		"name": "Eternity",
-		"text": "<b>Action</b>: Shuffle this card into the encounter deck (without looking)\n<b>When Revealed</b>: Draw 1 card and remove this card from the game. This effect cannot be canceled.",
-		"traits": "Cosmic Entity."
+		"text": "<b>Aktion</b>: Mische diese Karte in das Begegnungsdeck (ohne hinzusehen).\n<b>Sobald aufgedeckt</b>: Ziehe 1 Karte und entferne diese Karte aus dem Spiel. Dieser Effekt kann nicht aufgehoben werden.",
+		"traits": "Kosmisches Wesen."
 	},
 	{
 		"code": "21055",
 		"name": "Beschwörungszauber",
-		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Action</b>: Discard cards from the top of your deck until you discard an ally -> put that ally into play under your control.",
-		"traits": "Spell."
+		"text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[Mystiker]] hat. Max. 1 pro Deck.\n<b>Held Aktion</b>: Lege Karten von deinem Deck ab, bis du einen Verbündeten ablegst → bringe den Verbündeten unter deiner Kontrolle ins Spiel.",
+		"traits": "Zauber."
 	},
 	{
 		"code": "21058",
 		"name": "Innovation",
-		"text": "Max 1 per deck.\n<b>Hero Response</b>: After you spend this card, heal 1 damage from an ally you control."
+		"text": "Max. 1 pro Deck.\n<b>Held Reaktion</b>: Nachdem du diese Karte ausgegeben hast, heile 1 Schaden von einem Verbündeten unter deiner Kontrolle."
 	},
 	{
 		"code": "21059",
 		"name": "Charlie-27",
-		"text": "Retaliate 1. Toughness.",
+		"text": "Vergeltung 1. Zähigkeit.",
 		"traits": "Guardian."
 	},
 	{
 		"code": "21060",
 		"name": "Gardener",
-		"text": "<b>Action</b>: Shuffle this card into the encounter deck (without looking)\n<b>When Revealed</b>: Heal 2 damage from your identity and remove this card from the game. This effect cannot be canceled.",
-		"traits": "Cosmic Entity."
+		"text": "<b>Aktion</b>: Mische diese Karte in das Begegnungsdeck (ohne hinzusehen).\n<b>Sobald aufgedeckt</b>: Heile 2 Schaden von deiner Identität und entferne diese Karte aus dem Spiel. Dieser Effekt kann nicht aufgehoben werden.",
+		"traits": "Kosmisches Wesen."
 	},
 	{
 		"code": "21061",
 		"name": "Schildzauber",
-		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Interrupt</b> (defense): When you would take any amount of damage from an attack, discard that many cards from the top of your deck -> prevent all damage from this attack.",
-		"traits": "Defense. Spell."
+		"text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[Mystiker]] hat. Max. 1 pro Deck.\n<b>Hero Unterbrechung</b> (Verteidigung): Sobald du durch einen Angriff eine beliebige Menge an Schaden nehmen würdest, lege so viele Karten von deinem Deck ab → verhindere allen Schaden durch den Angriff.",
+		"traits": "Verteidigung. Zauber."
 	},
 	{
 		"code": "21064",
 		"name": "Erhaltung",
-		"text": "Max 1 per deck.\n<b>Hero Response</b>: After you spend this card, heal 1 damage from your hero."
+		"text": "Max. 1 pro Deck.\n<b>Held Reaktion</b>: Sobald du diese Karte ausgegeben hast, heile 1 Schaden von deinem Helden."
 	},
 	{
 		"code": "21065",
+		"flavor": "\"lch habe Bedenken, was diese Realität angeht.\"",
 		"name": "Martinex",
 		"subname": "T'Naga",
-		"text": "Reduce the cost to play Martinex by 1 if your identity has the Guardian trait.",
+		"text": "Senke die Kosten, um Martinex zu spielen, um 1, falls deine Identität das Merkmal [[Guardian]] hat.",
 		"traits": "Guardian."
 	},
 	{
