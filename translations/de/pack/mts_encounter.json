@@ -2,61 +2,63 @@
 	{
 		"code": "21026",
 		"name": "Kontrollverlust",
-		"text": "<b>Give to the Monica Rambeau player.</b>\nYou cannot change energy forms.\n<b>Alter-Ego Action</b>: Exhaust Monica Rambeau -> remove Loss of Control from the game."
+		"text": "<b>Gib dies dem Spieler von Monica Rambeau.</b>\nDu kannst die Energiegestalt nicht wechseln.\n<b>Alter-Ego Aktion</b>: Erschöpfe Monica Rambeau → entferne Kontrollverlust aus dem Spiel."
 	},
 	{
-		"attack_text": "<b>Forced Response</b>: After Radioactive Man activates against you, deal 1 damage to each character you control.",
-		"boost_text": "<b>Boost</b>: Deal 1 damage to each character you control.",
+		"attack_text": "<b>Erzwungene Reaktion</b>: Nachdem Radioactive Man gegen dich aktiviert worden ist, füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.",
+		"boost_text": "<b>Boost</b>: Füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.",
 		"code": "21027",
 		"name": "Radioactive Man",
-		"scheme_text": "<b>Forced Response</b>: After Radioactive Man activates against you, deal 1 damage to each character you control.",
+		"scheme_text": "<b>Erzwungene Reaktion</b>: Nachdem Radioactive Man gegen dich aktiviert worden ist, füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.",
 		"traits": "Elite. Genie."
 	},
 	{
 		"code": "21028",
+		"flavor": "<b>Radioactive Man nutzt seine Kraft, um einen Atomreaktor zu überlasten!</b>",
 		"name": "Kernschmelze",
-		"text": "<b>When Defeated</b>: Deal 1 damage to each friendly character in play."
+		"text": "<b>Sobald besiegt</b>: Füge jedem befreundeten Charakter im Spiel 1 Schaden zu."
 	},
 	{
 		"code": "21029",
 		"name": "Kräfte aufzehren",
-		"text": "Attach to your identity.\n<b>Forced Response</b>After your turn ends, take 1 damage.\n<b>Alter-Ego Action</b>: Spend [energy][energy] resources -> discard this card."
+		"text": "Hänge diese Karte an deine Identität an.\n<b>Erzwungene Reaktion:</b>Nachdem dein Zug beendet ist, nimm 1 Schaden.\n<b>Alter-Ego Aktion</b>: Gib [energy][energy] Ressourcen aus → lege diese Karte ab."
 	},
 	{
 		"code": "21030",
+		"flavor": "\"Du kannst diesen Kampf nicht gewinnen.\" -- Radioactive Man",
 		"name": "Radioactive Explosion",
-		"text": "<b>When Revealed (Alter-Ego)</b>: Place 2 threat on the main scheme.\n<b>When Revealed (Hero)</b>: Take 2 damage."
+		"text": "<b>Sobald aufgedeckt (Alter-Ego)</b>: Platziere 2 Bedrohung auf dem Hauptplan.\n<b>Sobald aufgedeckt (Held)</b>: Nimm 2 Schaden."
 	},
 	{
 		"code": "21066",
 		"name": "Regenerationszyklus",
-		"text": "<b>Give to Adam Warlock player.</b>\nYou may flip to alter-ego. Choose:\n-Exhaust your alter-ego -> remove this card from the game.\n-Discard the top 5 cards of your deck. Place 1 threat on the main scheme for each different aspect cards discarded this way. Discard this obligation."
+		"text": "<b>Gib diese Karte dem Spieler von Adam Warlock.</b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n-Erschöpfe dein Alter Ego → entferne diese Verpflichtung aus dem Spiel.\n-Lege die obersten 5 Karten deines Decks ab. Platziere für jeden auf diese Weise abgelegten unterschiedlichen Aspekt 1 Bedrohung auf dem Hauptplan. Lege diese Verpflichtung ab."
 	},
 	{
-		"attack_text": "<b>Forced Response</b>: After The magus activates against you, discard the top 5 cards of your deck.",
+		"attack_text": "<b>Erzwungene Reaktion</b>: Nachdem Magus gegen dich aktiviert worden ist, lege die obersten 5 Karten deines Decks ab.",
 		"code": "21067",
 		"name": "Magus",
-		"scheme_text": "<b>Forced Response</b>: After The magus activates against you, discard the top 5 cards of your deck.",
-		"text": "Quickstrike. Tougness.",
+		"scheme_text": "<b>Erzwungene Reaktion</b>: Nachdem Magus gegen dich aktiviert worden ist, lege die obersten 5 Karten deines Decks ab.",
+		"text": "Erstschlag. Zähigkeit.",
 		"traits": "Elite. Mystiker."
 	},
 	{
-		"boost_text": "<b>Boost</b>: Reveal this card.",
+		"boost_text": "<b>Boost</b>: Decke diese Karte auf.",
 		"code": "21068",
 		"name": "Kirche der universellen Wahrheit",
-		"text": "<b>Forced Response</b>: After a player resets their deck, exhaust that player identity and stun it."
+		"text": "<b>Erzwungene Reaktion</b>: Nachdem ein Spieler sein Deck zurückgesetzt hat, erschöpfe die Identität des Spielers und betäube sie."
 	},
 	{
-		"boost_text": "<b>Boost</b>: Put Zealot of Truth into play engaged with you.",
+		"boost_text": "<b>Boost</b>: Bringe Zelot der Wahrheit mit dir im Kampf ins Spiel.",
 		"code": "21069",
 		"name": "Zealot der Wahrheit",
-		"text": "Threat cannot be removed from the Church of thuth side scheme.",
+		"text": "Vom Nebenplan Kirche der universellen Wahrheit kann keine Bedrohung entfernt werden.",
 		"traits": "Mystiker"
 	},
 	{
 		"code": "21070",
 		"name": "Kosmische Inquisition",
-		"text": "Incite 2.\n<b>When Revealed</b>: If the Universal Church of Truth side scheme is in play, discard the top 10 cards of your deck. Otherwise, search the encouter deck, discard pile, and set-aside area for Universal Church of Truth and reveal it. Shuffle the encouter deck."
+		"text": "Anstacheln 2.\n<b>Sobald aufgedeckt</b>: Falls der Nebenplan Kirche der universellen Wahrheit im Spiel ist, lege die obersten 10 Karten deines Decks ab. Durchsuche ansonsten das Begegnungsdeck, den Ablagestapel und die beiseitegelegten Karten nach der Kirche der universellen Wahrheit und decke sie auf. Mische das Begegnungsdeck."
 	},
 	{
 		"code": "21071",
