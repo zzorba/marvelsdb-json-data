@@ -71,7 +71,7 @@
 		"resource_mental": 1,
 		"set_code": "groot",
 		"set_position": 3,
-		"text": "<b>Hero Action</b> (thwart): Remove threat from a scheme equal to the number of growth counters on Groot.",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove threat from a scheme equal to the number of growth counters on Groot.",
 		"traits": "Superpower. Thwart.",
 		"type_code": "event"
 	},
@@ -89,7 +89,7 @@
 		"resource_physical": 1,
 		"set_code": "groot",
 		"set_position": 5,
-		"text": "<b>Hero Action</b> (attack): Deal damage to an enemy equal to the number of growth counters on Groot.",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal damage to an enemy equal to the number of growth counters on Groot.",
 		"traits": "Attack. Superpower.",
 		"type_code": "event"
 	},
@@ -107,7 +107,7 @@
 		"resource_physical": 1,
 		"set_code": "groot",
 		"set_position": 7,
-		"text": "<b>Hero Action</b> (attack): Deal 5 damage to an enemy. If this attack defeats that enemy, place 1 growth counter on Groot (to a maximum of 10).",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 5 damage to an enemy. If this attack defeats that enemy, place 1 growth counter on Groot (to a maximum of 10).",
 		"traits": "Attack. Superpower.",
 		"type_code": "event"
 	},
@@ -260,7 +260,7 @@
 		"position": 14,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "<b>Hero Action</b> (attack): Deal 2 damage to the villain (5 damage instead if your hero's remaining hit points are equal to or greater than your hero's starting hit points).",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 2 damage to the villain (5 damage instead if your hero's remaining hit points are equal to or greater than your hero's starting hit points).",
 		"traits": "Attack.",
 		"type_code": "event"
 	},
@@ -539,7 +539,7 @@
 		"resource_mental": 1,
 		"set_code": "rocket",
 		"set_position": 11,
-		"text": "Restricted. Enters play with 2 charge counters on it.\n<b>Hero Action</b> (attack): Exhaust Particle Cannon and remove 1 charge counter from it → deal 4 damage to an enemy. This attack gains overkill and ranged.",
+		"text": "Restricted. Enters play with 2 charge counters on it.\n<b>Hero Action</b> <i>(attack)</i>: Exhaust Particle Cannon and remove 1 charge counter from it → deal 4 damage to an enemy. This attack gains overkill and ranged.",
 		"traits": "Tech. Weapon.",
 		"type_code": "upgrade"
 	},
@@ -573,7 +573,7 @@
 		"resource_energy": 1,
 		"set_code": "rocket",
 		"set_position": 13,
-		"text": "Restricted. Enters play with 3 charge counters on it.\n<b>Hero Action</b> (attack): Exhaust Rocket's Pistol and remove 1 charge counter from it → deal 2 damage to an enemy.",
+		"text": "Restricted. Enters play with 3 charge counters on it.\n<b>Hero Action</b> <i>(attack)</i>: Exhaust Rocket's Pistol and remove 1 charge counter from it → deal 2 damage to an enemy.",
 		"traits": "Tech. Weapon.",
 		"type_code": "upgrade"
 	},
@@ -642,7 +642,7 @@
 		"position": 43,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "<b>Hero Action</b> (thwart): Discard cards from the top of the encounter deck until you discard a minion. Put that minion into play engaged with you → remove 3 threat from the main scheme.",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Discard cards from the top of the encounter deck until you discard a minion. Put that minion into play engaged with you → remove 3 threat from the main scheme.",
 		"traits": "Thwart.",
 		"type_code": "event"
 	},
@@ -978,7 +978,7 @@
 		"resource_wild": 1,
 		"set_code": "the_market",
 		"set_position": 15,
-		"text": "Unit Cost 4.\n<b>Hero Action</b>: Exhaust Hyper Thrusters → remove 1 theat from each scheme. If you control the Milano, remove 1 additional threat from the main scheme.",
+		"text": "Unit Cost 4.\n<b>Hero Action</b>: Exhaust Hyper Thrusters → remove 1 threat from each scheme. If you control the Milano, remove 1 additional threat from the main scheme.",
 		"traits": "Milano Mod. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1070,7 +1070,7 @@
 		"resource_wild": 1,
 		"set_code": "the_market",
 		"set_position": 21,
-		"text": "Unit Cost 6.\n<b>Hero Action</b>: Exhaust Cargo Hold → heal 1 damage from a friendly character. If you control the Milano, heal 1 damage from you identity.",
+		"text": "Unit Cost 6.\n<b>Hero Action</b>: Exhaust Cargo Hold → heal 1 damage from a friendly character. If you control the Milano, heal 1 damage from your identity.",
 		"traits": "Location. Milano Mod.",
 		"type_code": "upgrade"
 	},
@@ -1195,7 +1195,7 @@
 		"quantity": 1,
 		"set_code": "challenge",
 		"set_position": 1,
-		"text": "<b>Standard Mode Only.</b>\nHinder 3[per_player]. <i>(When revealed, place 3[per_player] theat here.)</i>\nVictory 1. <i>(When defeated, add this card to the victory display.)</i>\n<b>When Defeated</b>: Each player may draw 1 card.",
+		"text": "<b>Standard Mode Only.</b>\nHinder 3[per_player]. <i>(When revealed, place 3[per_player] threat here.)</i>\nVictory 1. <i>(When defeated, add this card to the victory display.)</i>\n<b>When Defeated</b>: Each player may draw 1 card.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1355,7 +1355,7 @@
 		"scheme": 1,
 		"set_code": "badoon_headhunter",
 		"set_position": 1,
-		"text": "Victory 2. <i>(When defeated, add this card to the victory display.)</i>\nVillainous. <i>(When this minion activates, give it a bosst card.)</i>",
+		"text": "Victory 2. <i>(When defeated, add this card to the victory display.)</i>\nVillainous. <i>(When this minion activates, give it a boost card.)</i>",
 		"traits": "Badoon.",
 		"type_code": "minion"
 	},

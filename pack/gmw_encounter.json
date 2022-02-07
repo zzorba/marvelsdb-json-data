@@ -63,7 +63,7 @@
 		"quantity": 3,
 		"set_code": "groot_nemesis",
 		"set_position": 3,
-		"text": "<b>When revealed:</b> Take 2 indirect damage. If Blazing Inferno is in play, take 1 additional indirect damage. If Furnax is in play, take 1 additional indirect damage.",
+		"text": "<b>When Revealed:</b> Take 2 indirect damage. If Blazing Inferno is in play, take 1 additional indirect damage. If Furnax is in play, take 1 additional indirect damage.",
 		"type_code": "treachery"
 	},
 	{
@@ -147,7 +147,7 @@
 		"quantity": 2,
 		"set_code": "rocket_nemesis",
 		"set_position": 4,
-		"text": "<b>When revealed:</b> Discard cards from the top of the encounter deck until you discard a minion. Reveal that minion, then give it a tough status card.",
+		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until you discard a minion. Reveal that minion, then give it a tough status card.",
 		"type_code": "treachery"
 	},
 	{
@@ -207,7 +207,7 @@
 		"set_code": "brotherhood_of_badoon",
 		"set_position": 3,
 		"stage": 3,
-		"text": "<b>When Revealed:</b> Discard the top 4[per_hero] cards of the encounter deck. Each time a minion is discarded this way, put it into play engaged with the player who is engaged with the fexest minions.\n<b>[star] Forced Response:</b> After Drang activates, resolve the Badoon Ship's \"Charge Up\" ability.",
+		"text": "<b>When Revealed:</b> Discard the top 4[per_hero] cards of the encounter deck. Each time a minion is discarded this way, put it into play engaged with the player who is engaged with the fewest minions.\n<b>[star] Forced Response:</b> After Drang activates, resolve the Badoon Ship's \"Charge Up\" ability.",
 		"traits": "Badoon.",
 		"type_code": "villain"
 	},
@@ -298,7 +298,7 @@
 		"set_code": "brotherhood_of_badoon",
 		"set_position": 6,
 		"text": "<i>Charge Up</i> — <b>Special:</b> Place 1 barrage counter here. Then, if there are 4 or more barrage counters here, deal 2 indirect damage to each player and remove all barrage counters from here.",
-		"traits": "Aerial. Vehicule.",
+		"traits": "Aerial. Vehicle.",
 		"type_code": "environment"
 	},
 	{
@@ -349,7 +349,7 @@
 		"scheme_crisis": 1,
 		"set_code": "brotherhood_of_badoon",
 		"set_position": 10,
-		"text": "Hinder 2[per_player]. <i>(When revealed, place 2[per_player] theat here.)</i>\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
+		"text": "Hinder 2[per_player]. <i>(When revealed, place 2[per_player] threat here.)</i>\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -381,7 +381,7 @@
 		"scheme_hazard": 1,
 		"set_code": "brotherhood_of_badoon",
 		"set_position": 12,
-		"text": "Hinder 3[per_player]. <i>When revealed, place 3[per_player] theat here.)</i>\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
+		"text": "Hinder 3[per_player]. <i>When revealed, place 3[per_player] threat here.)</i>\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -389,7 +389,7 @@
 		"boost": 3,
 		"code": "16069",
 		"faction_code": "encounter",
-		"name": "Spatial Positionning",
+		"name": "Spatial Positioning",
 		"octgn_id": "a022d28c-da39-40ff-86ac-545ac716782a",
 		"pack_code": "gmw",
 		"position": 69,
@@ -493,7 +493,7 @@
 		"set_code": "collector1",
 		"set_position": 4,
 		"stage": 1,
-		"text": "<b>Hero Action:</b> Choose to either exhaust your hero or spend 2 ressources of any type → discard 1 card from The Collection <i>(to its owner's discard pile).</i> (Limit once per round per player.)\n<b>If there are at least 5[per_player] cards in The Collection or if this stage is completed, the players lose the game.</b>",
+		"text": "<b>Hero Action:</b> Choose to either exhaust your hero or spend 2 resources of any type → discard 1 card from The Collection <i>(to its owner's discard pile).</i> (Limit once per round per player.)\n<b>If there are at least 5[per_player] cards in The Collection or if this stage is completed, the players lose the game.</b>",
 		"threat": 10,
 		"type_code": "main_scheme"
 	},
@@ -537,7 +537,7 @@
 		"boost_text": "If there are 3[per_player] or fewer cards in The Collection, put the top card of your deck faceup into The Collection.",
 		"code": "16076",
 		"faction_code": "encounter",
-		"name": "Inconspicious Box",
+		"name": "Inconspicuous Box",
 		"octgn_id": "8f1b3704-4c71-4223-9e46-239622dfed9d",
 		"pack_code": "gmw",
 		"position": 76,
@@ -572,7 +572,7 @@
 		"quantity": 2,
 		"set_code": "collector1",
 		"set_position": 11,
-		"text": "<b>When Revealed (Alter-Ego):</b> Choose to either spend [physical][physical] ressources or put the top card of your deck faceup into The Collection.\n<b>When Revealed (Hero):</b> Collector attacks you with +1 ATK. If you take any amount of damage from that attack, put the top card of your deck faceup into The Collection.",
+		"text": "<b>When Revealed (Alter-Ego):</b> Choose to either spend [physical][physical] resources or put the top card of your deck faceup into The Collection.\n<b>When Revealed (Hero):</b> Collector attacks you with +1 ATK. If you take any amount of damage from that attack, put the top card of your deck faceup into The Collection.",
 		"type_code": "treachery"
 	},
 	{
@@ -729,7 +729,7 @@
 		"set_code": "collector2",
 		"set_position": 4,
 		"stage": 2,
-		"text": "<b>When Revealed:</b> Put the set-aside Milano support from the Ship Command encounter set into play unde the first player's control..",
+		"text": "<b>When Revealed:</b> Put the set-aside Milano support from the Ship Command encounter set into play under the first player's control..",
 		"threat": 0,
 		"type_code": "main_scheme"
 	},
@@ -819,7 +819,7 @@
 		"set_code": "collector2",
 		"set_position": 6,
 		"text": "\"<i>Hold on to your butts!</i>\" — <b>Forced Interrupt:</b> Chen the villain phase begins, choose one:\n- Exhaust the Milano → assign 2[per_player] indirect damage among players.\n- Assign 3[per_player] indirect damage among players.",
-		"traits": "Aerial. Vehicule.",
+		"traits": "Aerial. Vehicle.",
 		"type_code": "environment"
 	},
 	{
@@ -981,7 +981,7 @@
 		"set_code": "nebula",
 		"set_position": 5,
 		"stage": 2,
-		"text": "X is equal to the number of evasion counters on Nebula's Ship.\n<b>If this satge is completed, the players lose the game.</b>",
+		"text": "X is equal to the number of evasion counters on Nebula's Ship.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 9,
 		"type_code": "main_scheme"
 	},
@@ -997,7 +997,7 @@
 		"set_code": "nebula",
 		"set_position": 6,
 		"text": "<b>Forced Interrupt:</b> When the villain phase begins, place 1 evasion counter here.\n<i>Shoot the Thrusters!</i> - <b>First Player Action:</b> Exhaust the Milano and spend up to 2 resources of any type → remove 1 evasion counter from here for each resource spent this way.",
-		"traits": "Aerial. Vehicule.",
+		"traits": "Aerial. Vehicle.",
 		"type_code": "environment"
 	},
 	{
@@ -1034,7 +1034,7 @@
 		"boost_text": "After this activation ends, attach this card to Nebula and resolve its <b>\"Special\"</b> ability.",
 		"code": "16096",
 		"faction_code": "encounter",
-		"name": "Unyelding Persistence",
+		"name": "Unyielding Persistence",
 		"octgn_id": "8caacfe1-474c-499d-b277-3dd03bc747d6",
 		"pack_code": "gmw",
 		"position": 96,
@@ -1191,7 +1191,7 @@
 		"set_code": "ronan",
 		"set_position": 3,
 		"stage": 3,
-		"text": "Retaliate 1. Toughness.\n<b>When Revealed:</b> Search the encounter deck and discard pile for the Superio Tactics side scheme and reveal it. <i>(Shuffle.)</i>\n[star]<b>Forced Interrupt:</b> When Ronan the Accuser activates against you, give him 1 additional boost card if you control the Power Stone.",
+		"text": "Retaliate 1. Toughness.\n<b>When Revealed:</b> Search the encounter deck and discard pile for the Superior Tactics side scheme and reveal it. <i>(Shuffle.)</i>\n[star]<b>Forced Interrupt:</b> When Ronan the Accuser activates against you, give him 1 additional boost card if you control the Power Stone.",
 		"traits": "Accuser Corps. Kree.",
 		"type_code": "villain"
 	},
@@ -1266,7 +1266,7 @@
 		"set_code": "ronan",
 		"set_position": 5,
 		"stage": 2,
-		"text": "While the Power Stone is attached to Ronan the Accuser, threat cannot be removed from this scheme.\n<b>If this satge is completed, the players lose the game.</b>",
+		"text": "While the Power Stone is attached to Ronan the Accuser, threat cannot be removed from this scheme.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 10,
 		"type_code": "main_scheme"
 	},
@@ -1283,7 +1283,7 @@
 		"set_code": "ronan",
 		"set_position": 6,
 		"text": "<b>First Player Interrupt:</b> When a treachery card is revealed from the encounter deck, exhaust the Milano and spend 1 resource of any type → cancel that card's <b>\"When Revealed\" effects.",
-		"traits": "Aerial. Vehicule.",
+		"traits": "Aerial. Vehicle.",
 		"type_code": "environment"
 	},
 	{
@@ -1298,7 +1298,7 @@
 		"quantity": 1,
 		"set_code": "ronan",
 		"set_position": 7,
-		"text": "Attach to Ronan the Accuser.\nRonan the Accuser gains stalwart.\n<b>Hero Action:</b> Take 2 dammage and deal yourself 1 facedown encounter card → shuffle Universal Weapon into the encounter deck.",
+		"text": "Attach to Ronan the Accuser.\nRonan the Accuser gains stalwart.\n<b>Hero Action:</b> Take 2 damage and deal yourself 1 facedown encounter card → shuffle Universal Weapon into the encounter deck.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -1354,7 +1354,7 @@
 		"boost": 2,
 		"code": "16113",
 		"faction_code": "encounter",
-		"flavor": "<b><i>Ronan the Accuser's advanced Kree training and fanatical determination make him an opponen like no other.</i></b>",
+		"flavor": "<b><i>Ronan the Accuser's advanced Kree training and fanatical determination make him an opponent like no other.</i></b>",
 		"name": "Superior Tactics",
 		"octgn_id": "fbc9e9bd-fa15-4699-86b4-eeb46d7c9fde",
 		"pack_code": "gmw",
@@ -1505,7 +1505,7 @@
 		"boost": 2,
 		"code": "16122",
 		"faction_code": "encounter",
-		"flavor": "<b><i>The cloak of the fabled hero Hercules. Those fortunate enough to don this mantle are granted unimaginable strenght.</i></b>",
+		"flavor": "<b><i>The cloak of the fabled hero Hercules. Those fortunate enough to don this mantle are granted unimaginable strength.</i></b>",
 		"is_unique": true,
 		"name": "Cloak of Hercules",
 		"octgn_id": "23273bad-6eaa-46c3-9bbc-9a50c0d3f1b5",
@@ -1863,7 +1863,7 @@
 		"set_code": "ship_command",
 		"set_position": 1,
 		"text": "Permanent. Setup.\nThe first player controls the Milano.\n<i>Piloting</i> - <b>Resource:</b> Exhaust the Milano → generate a [wild] resource for any player.",
-		"traits": "Aerial. Vehicule.",
+		"traits": "Aerial. Vehicle.",
 		"type_code": "support"
 	},
 	{
@@ -1878,7 +1878,7 @@
 		"set_code": "ship_command",
 		"set_position": 2,
 		"text": "Surge.\n<b>Forced Interrupt:</b> When the villain phase ends, deal 1 damage to each player.\n<b>First Player Action:</b> Exhaust the Milano and spend 2 resources of any type → discard this card.",
-		"traits": "Aerial. Vehicule.",
+		"traits": "Aerial. Vehicle.",
 		"type_code": "environment"
 	},
 	{

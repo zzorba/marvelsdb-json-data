@@ -146,7 +146,7 @@
 		"resource_physical": 1,
 		"set_code": "spectrum",
 		"set_position": 7,
-		"text": "<b>Hero Action</b> (attack): Change to Gamma energy form and deal 7 damage to an enemy. If you were already in Gamma energy form, this attack gains overkill.",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Change to Gamma energy form and deal 7 damage to an enemy. If you were already in Gamma energy form, this attack gains overkill.",
 		"traits": "Attack. Superpower.",
 		"type_code": "event"
 	},
@@ -164,7 +164,7 @@
 		"resource_mental": 1,
 		"set_code": "spectrum",
 		"set_position": 10,
-		"text": "<b>Hero Action</b> (thwart): Change to Photon energy form and remove 4 threat from a scheme. If you were already in Photon energy form, ignore crisis icon for this thwart.",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Change to Photon energy form and remove 4 threat from a scheme. If you were already in Photon energy form, ignore crisis icon for this thwart.",
 		"traits": "Thwart. Superpower.",
 		"type_code": "event"
 	},
@@ -181,7 +181,7 @@
 		"resource_energy": 1,
 		"set_code": "spectrum",
 		"set_position": 13,
-		"text": "<b>Hero Interrupt</b> (defense): When Spectrum defends, change to Pulsar energy form and ready Spectrum. If you were already in Pulsar energy form, she gains retaliate 1 until the end of the phase.",
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When Spectrum defends, change to Pulsar energy form and ready Spectrum. If you were already in Pulsar energy form, she gains retaliate 1 until the end of the phase.",
 		"traits": "Defense. Superpower.",
 		"type_code": "event"
 	},
@@ -581,7 +581,7 @@
 		"resource_physical": 1,
 		"set_code": "warlock",
 		"set_position": 9,
-		"text": "<b>Hero Action</b> (attack): Deal 4 damage to an enemy and discard up to 4 cards from the top of your deck → deal 1 additional damage to that enemy for each different aspect discarded this way (Aggression, Justice, Leadership and Protection)",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy and discard up to 4 cards from the top of your deck → deal 1 additional damage to that enemy for each different aspect discarded this way (Aggression, Justice, Leadership and Protection)",
 		"traits": "Attack. Superpower.",
 		"type_code": "event"
 	},
@@ -598,7 +598,7 @@
 		"resource_mental": 1,
 		"set_code": "warlock",
 		"set_position": 12,
-		"text": "<b>Hero Action</b> (thwart): Remove 3 threat from a scheme and discard up to 4 cards from the top of your deck → remove 1 additional threat from that scheme for each different aspect discarded this way (Aggression, Justice, Leadership and Protection)",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme and discard up to 4 cards from the top of your deck → remove 1 additional threat from that scheme for each different aspect discarded this way (Aggression, Justice, Leadership and Protection)",
 		"traits": "Thwart. Superpower.",
 		"type_code": "event"
 	},
@@ -668,7 +668,7 @@
 		"position": 43,
 		"quantity": 1,
 		"resource_physical": 1,
-		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Action</b> (attack): Choose an enemy and discard up to 5 cards from the top of your deck → deal 1 damage to that enemy for each card discarded this way.",
+		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Action</b> <i>(attack)</i>: Choose an enemy and discard up to 5 cards from the top of your deck → deal 1 damage to that enemy for each card discarded this way.",
 		"traits": "Attack. Spell.",
 		"type_code": "event"
 	},
@@ -755,7 +755,7 @@
 		"position": 50,
 		"quantity": 1,
 		"resource_mental": 1,
-		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Action</b> (thwart): Choose a scheme and discard up to 4 cards from the top of your deck → remove 1 threat from that scheme for each card discarded this way.",
+		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Action</b> <i>(thwart)</i>: Choose a scheme and discard up to 4 cards from the top of your deck → remove 1 threat from that scheme for each card discarded this way.",
 		"traits": "Spell. Thwart.",
 		"type_code": "event"
 	},
@@ -907,7 +907,7 @@
 		"position": 61,
 		"quantity": 1,
 		"resource_energy": 1,
-		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Interrupt</b> (defense): When you would take any amount of damage from an attack, discard that many cards from the top of your deck → prevent all damage from this attack.",
+		"text": "Play only if your identity has the Mystic trait. Max 1 per deck.\n<b>Hero Interrupt</b> <i>(defense)</i>: When you would take any amount of damage from an attack, discard that many cards from the top of your deck → prevent all damage from this attack.",
 		"traits": "Defense. Spell.",
 		"type_code": "event"
 	},
