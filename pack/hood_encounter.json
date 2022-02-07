@@ -393,8 +393,7 @@
 	},
 	{
 		"base_threat": 2,
-		"base_threat_fixed": 0,
-		"boost": 0,
+		"boost_text": "Resolve this card's \"<b>When Revealed</b>\" ability.",
 		"code": "24023",
 		"faction_code": "encounter",
 		"name": "Out for Blood",
@@ -402,15 +401,19 @@
 		"pack_code": "hood",
 		"position": 23,
 		"quantity": 1,
+		"scheme_hazard": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 1,
+		"text": "<b>When Revealed:</b> Deal 1 damage to the friendly character with the fewest remaining hit points. If that character is defeated this way, repeat this effect.",
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 1,
+		"attack_text": "<b>Forced Interrupt:</b> When Controller's attack would deal any amount of damage to a character, increase that amount by that character's ATK.",
 		"boost": 2,
 		"code": "24024",
 		"faction_code": "encounter",
+		"flavor": "\"No one avoids wearing my diabolical discs!\"",
 		"health": 5,
 		"is_unique": true,
 		"name": "Controller",
@@ -427,6 +430,7 @@
 	{
 		"attack": 2,
 		"boost": 1,
+		"boost_text": "Choose and exhaust a character you control.",
 		"code": "24025",
 		"faction_code": "encounter",
 		"health": 4,
@@ -439,15 +443,18 @@
 		"scheme": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 3,
+		"text": "<b>When Revealed:</b> Exhaust each ally you control. Place 1 threat on the main scheme for each ally exhausted this way.",
 		"traits": "Criminal. Crossfire's Crew.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Interrupt:</b> When Crossfire attacks, he attacks the friendly character with the fewest remaining hit points. That attack gains overkill and ranged.",
 		"boost": 3,
 		"code": "24026",
 		"faction_code": "encounter",
 		"health": 4,
+		"illustrator": "Andrea Di Vitto & Laura Villari",
 		"is_unique": true,
 		"name": "Crossfire",
 		"octgn_id": "01f7dcf9-55dc-4509-a5ec-268e168d3c7d",
@@ -457,12 +464,14 @@
 		"scheme": 2,
 		"set_code": "crossfire_crew",
 		"set_position": 4,
+		"text": "Quickstrike.",
 		"traits": "Crossfire's Crew. Masters of Evil.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
 		"boost": 1,
+		"boost_text": "Discard cards from the top of your deck until you discard an ally.",
 		"code": "24027",
 		"faction_code": "encounter",
 		"health": 5,
@@ -475,6 +484,7 @@
 		"scheme": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 5,
+		"text": "As an additional cost for the engaged player to ready a hero or ally they control, the player must spend a [mental] resource.",
 		"traits": "Criminal. Crossfire's Crew.",
 		"type_code": "minion"
 	},
@@ -489,6 +499,7 @@
 		"quantity": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 6,
+		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a [[Crossfire's Crew]] minion is discarded. Reveal that minion. Take indirect damage equal to the number of [[Crossfire's Crew]] minions in play.",
 		"type_code": "treachery"
 	},
 	{
@@ -545,7 +556,6 @@
 	},
 	{
 		"base_threat": 5,
-		"base_threat_fixed": 0,
 		"boost": 2,
 		"code": "24033",
 		"faction_code": "encounter",
@@ -556,6 +566,7 @@
 		"quantity": 1,
 		"set_code": "mister_hyde",
 		"set_position": 1,
+		"text": "<b>When Revealed:</b> Search the encounter deck and discard pile for Mister Hyde and reveal him. <i>(Shuffle.)</i>\n<b>Forced Interrupt:</b> When a [[Brute]] enemy would take any amount of damage, remove that much threat from this scheme instead.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -573,6 +584,7 @@
 		"scheme": 3,
 		"set_code": "mister_hyde",
 		"set_position": 2,
+		"text": "<b>When Revealed:</b> If Mister Hyde is in play, discard this card → Mister Hyde attacks you with +2 ATK. That attack gains overkill.\n<b>When Defeated:</b> Search the encounter deck and discard pile for Mister Hyde and put him into play engaged with the player who was engaged with Calvin Zabo.",
 		"traits": "Elite. Masters of Evil.",
 		"type_code": "minion"
 	},
@@ -581,6 +593,7 @@
 		"boost": 3,
 		"code": "24035",
 		"faction_code": "encounter",
+		"flavor": "\"I became what I always wanted.\"",
 		"health": 10,
 		"is_unique": true,
 		"name": "Mister Hyde",
@@ -591,6 +604,7 @@
 		"scheme": 1,
 		"set_code": "mister_hyde",
 		"set_position": 3,
+		"text": "<b>When Revealed:</b> If Calvin Zabo is engaged with a player, discard Calvin Zabo → Mister Hyde engages that player. Give Mister Hyde a tough status card and deal 1 damage to each hero and ally in play.",
 		"traits": "Brute. Elite. Masters of Evil.",
 		"type_code": "minion"
 	},
@@ -605,12 +619,16 @@
 		"quantity": 1,
 		"set_code": "mister_hyde",
 		"set_position": 4,
+		"text": "<b>When Revealed:</b> If Calvin Zabo is in play, he schemes with +3 SCH, then he takes 4 damage. If Mister Hyde is in play, give him a tough status card and he attacks you <i>(even if you are in alter-ego form)</i>. If neither is in play, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
+		"attack": 3,
+		"attack_text": "Attached minion's attacks deal indirect damage.",
 		"boost": 2,
 		"code": "24037",
 		"faction_code": "encounter",
+		"illustrator": "Andrea Di Vitto & Laura Villari",
 		"name": "Flamethrower",
 		"octgn_id": "4fc3d9ad-15f4-4992-b0e2-d8cbeb5664b3",
 		"pack_code": "hood",
@@ -618,6 +636,7 @@
 		"quantity": 1,
 		"set_code": "ransacked_armory",
 		"set_position": 1,
+		"text": "Attach to the minion with the most remaining hit points. If you cannot, search the encounter deck and discard pile for a minion, put it into play engaged with you, and attach this card to it. <i>(Shuffle.)</i>",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -625,6 +644,7 @@
 		"boost": 1,
 		"code": "24038",
 		"faction_code": "encounter",
+		"illustrator": "Patrick McEvoy",
 		"name": "Holoshield Generator",
 		"octgn_id": "2aa0584f-d04b-4b6c-8d1d-a6cf29bdac4a",
 		"pack_code": "hood",
@@ -632,6 +652,7 @@
 		"quantity": 1,
 		"set_code": "ransacked_armory",
 		"set_position": 2,
+		"text": "Attach to the minion with the most remaining hit points. If you cannot, search the encounter deck and discard pile for a minion, put it into play engaged with you, and attach this card to it. <i>(Shuffle.)</i>\nAttached minion gets +4 hit points and gains retaliate 2.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
@@ -639,6 +660,7 @@
 		"boost": 1,
 		"code": "24039",
 		"faction_code": "encounter",
+		"illustrator": "Steve Ellis",
 		"name": "Jetpack",
 		"octgn_id": "83344536-ce80-4f24-84e6-bbb1cd090879",
 		"pack_code": "hood",
@@ -646,13 +668,17 @@
 		"quantity": 2,
 		"set_code": "ransacked_armory",
 		"set_position": 3,
+		"text": "Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.\n<b>Forced Interrupt:</b> When attached minion would take any amount of damage from an attack, discard the top card of the encounter deck. Reduce damage from that attack by the number of boost icons ([boost]) discarded this way.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
 	{
+		"attack": 1,
+		"attack_text": "Attached minion's attacks gain overkill.",
 		"boost": 2,
 		"code": "24040",
 		"faction_code": "encounter",
+		"illustrator": "Andrea Di Vitto & Laura Villari",
 		"name": "Tech Gauntlets",
 		"octgn_id": "34fdd8ae-436f-4e4c-9b7b-f321eac43b6d",
 		"pack_code": "hood",
@@ -660,6 +686,7 @@
 		"quantity": 1,
 		"set_code": "ransacked_armory",
 		"set_position": 5,
+		"text": "Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.\nAttach minion gets +3 hit points.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -669,6 +696,7 @@
 		"code": "24041",
 		"faction_code": "encounter",
 		"health": 3,
+		"illustrator": "Steve Ellis",
 		"name": "Armored Guard",
 		"octgn_id": "7deb3b63-831d-42ef-b765-d6c11ae7a479",
 		"pack_code": "hood",
@@ -677,12 +705,12 @@
 		"scheme": 0,
 		"set_code": "ransacked_armory",
 		"set_position": 6,
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>\nToughness. <i>(This character enters play with a tough status card.)</i>",
 		"traits": "Mercenary.",
 		"type_code": "minion"
 	},
 	{
 		"base_threat": 3,
-		"base_threat_fixed": 0,
 		"boost": 3,
 		"code": "24042",
 		"faction_code": "encounter",
@@ -694,11 +722,13 @@
 		"scheme_acceleration": 1,
 		"set_code": "sinister_syndicate",
 		"set_position": 1,
+		"text": "<b>When Revealed:</b> Search the encounter deck for a [[Criminal]] minion and put it into play engaged with you. <i>(Shuffle.)</i> If no minion was put into play this way, this cards gains surge.",
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 2,
-		"boost": 0,
+		"attack_text": "<b>Forced Response:</b> After Beetle attacks and damages you, discard the lowest-cost upgrade you control.",
+		"boost_text": "Choose and discard an upgrade you control.",
 		"code": "24043",
 		"faction_code": "encounter",
 		"health": 4,
@@ -716,7 +746,9 @@
 	},
 	{
 		"attack": 1,
+		"attack_text": "<b>Forced Response:</b> After Boomerang attacks you, deal 1 damage to each ally you control.",
 		"boost": 1,
+		"boost_text": "Deal 2 damage to an ally you control.",
 		"code": "24044",
 		"faction_code": "encounter",
 		"health": 5,
@@ -734,7 +766,7 @@
 	},
 	{
 		"attack": 2,
-		"boost": 0,
+		"boost_text": "Stun the character you control with the highest ATK value.",
 		"code": "24045",
 		"faction_code": "encounter",
 		"health": 5,
@@ -747,12 +779,13 @@
 		"scheme": 1,
 		"set_code": "sinister_syndicate",
 		"set_position": 4,
+		"text": "<b>Forced Response:</b> After Shocker is attacked, stun the attacking character.",
 		"traits": "Criminal. Masters of Evil.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"boost": 0,
+		"boost_text": "Discard the lowest-cost support you control.",
 		"code": "24046",
 		"faction_code": "encounter",
 		"health": 3,
@@ -765,12 +798,15 @@
 		"scheme": 1,
 		"set_code": "sinister_syndicate",
 		"set_position": 5,
+		"text": "<b>Forced Interrupt:</b> When a character attacks Speed Demon, Speed Demon attacks that character. <i>(Resolve Speed Demon's attack first.)</i>",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Interrupt:</b> When White Rabbit attacks you, discard 1 card at random from your hand.",
 		"boost": 1,
+		"boost_text": "Choose and discard 1 identity-specific card from your hand.",
 		"code": "24047",
 		"faction_code": "encounter",
 		"health": 3,
@@ -797,6 +833,7 @@
 		"quantity": 1,
 		"set_code": "sinister_syndicate",
 		"set_position": 7,
+		"text": "<b>When Revealed (Alter-Ego):</b> Each [[Criminal]] enemy in play schemes. If no enemy schemed this way, this card gains surge.\n<b>When Revealed (Hero):</b> Each [[Criminal]] enemy in play attacks you. If no enemy attacked this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
@@ -879,10 +916,10 @@
 	},
 	{
 		"base_threat": 3,
-		"base_threat_fixed": 0,
 		"boost": 3,
 		"code": "24055",
 		"faction_code": "encounter",
+		"flavor": "The villains have somehow identified an unmarked van transporting priceless artifacts.",
 		"name": "Feisty Heist",
 		"octgn_id": "6f479ba0-24f6-423e-8d97-79a614150649",
 		"pack_code": "hood",
@@ -891,14 +928,15 @@
 		"scheme_acceleration": 1,
 		"set_code": "state_of_emergency",
 		"set_position": 1,
+		"text": "<b>When Revealed:</b> Discard the highest-cost card from your hand.",
 		"type_code": "side_scheme"
 	},
 	{
 		"base_threat": 3,
-		"base_threat_fixed": 0,
 		"boost": 2,
 		"code": "24056",
 		"faction_code": "encounter",
+		"flavor": "A container ship has run ashore and is now sitting on the dock of the bay.",
 		"name": "Disaster at the Docks",
 		"octgn_id": "5dac1386-3be2-42e6-bf91-fa8d64b878eb",
 		"pack_code": "hood",
@@ -907,14 +945,15 @@
 		"scheme_acceleration": 1,
 		"set_code": "state_of_emergency",
 		"set_position": 2,
+		"text": "<b>When Revealed:</b> Take 3 indirect damage.",
 		"type_code": "side_scheme"
 	},
 	{
 		"base_threat": 3,
-		"base_threat_fixed": 0,
 		"boost": 2,
 		"code": "24057",
 		"faction_code": "encounter",
+		"flavor": "A raging fire has engulfed a coastal oil rig, trapping much of the crew.",
 		"name": "Offshore Inferno",
 		"octgn_id": "5899dba3-043d-4f6a-b3e6-5404fc151cf3",
 		"pack_code": "hood",
@@ -923,11 +962,11 @@
 		"scheme_acceleration": 1,
 		"set_code": "state_of_emergency",
 		"set_position": 3,
+		"text": "<b>When Revealed:</b> Discard the lowest-cost card you control.",
 		"type_code": "side_scheme"
 	},
 	{
 		"base_threat": 3,
-		"base_threat_fixed": 0,
 		"boost": 3,
 		"code": "24058",
 		"faction_code": "encounter",
@@ -939,10 +978,11 @@
 		"scheme_acceleration": 1,
 		"set_code": "state_of_emergency",
 		"set_position": 4,
+		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a minion is discard. Put that minion into play engaged with you.",
 		"type_code": "side_scheme"
 	},
 	{
-		"boost": 0,
+		"boost_text": "Resolve this card's \"<b>When Revealed</b>\" ability.",
 		"code": "24059",
 		"faction_code": "encounter",
 		"name": "Citywide Crisis",
@@ -952,6 +992,7 @@
 		"quantity": 2,
 		"set_code": "state_of_emergency",
 		"set_position": 5,
+		"text": "<b>When Revealed:</b> Resolve each \"<b>When Revealed</b>\" ability on each side scheme in play. If no \"<b>When Revealed</b>\" ability was resolved this way, place 2 threat on each scheme.",
 		"type_code": "treachery"
 	},
 	{
@@ -965,6 +1006,7 @@
 		"quantity": 1,
 		"set_code": "streets_of_mayhem",
 		"set_position": 1,
+		"text": "Surge.<b>When Revealed:</b> Discard each other [[Setting]] environment in play.\nEach character in play gets +1 ATK.",
 		"traits": "Location. Setting.",
 		"type_code": "environment"
 	},
@@ -979,6 +1021,7 @@
 		"quantity": 1,
 		"set_code": "streets_of_mayhem",
 		"set_position": 2,
+		"text": "Surge.<b>When Revealed:</b> Discard each other [[Setting]] environment in play.\nEach enemy in play gains 1 acceleration icon ([acceleration]).\nEach hero and ally in play gets +1 THW.",
 		"traits": "Location. Setting.",
 		"type_code": "environment"
 	},
@@ -986,6 +1029,7 @@
 		"boost": 2,
 		"code": "24062",
 		"faction_code": "encounter",
+		"illustrator": "Patrick McEvoy",
 		"name": "Sewer Tunnels",
 		"octgn_id": "ffc5f096-63ac-4c6f-bbdc-29ce42f3a4a2",
 		"pack_code": "hood",
@@ -993,6 +1037,7 @@
 		"quantity": 1,
 		"set_code": "streets_of_mayhem",
 		"set_position": 3,
+		"text": "Surge.<b>When Revealed:</b> Discard each other [[Setting]] environment in play.\nEach character in play gains retaliate 1.",
 		"traits": "Location. Setting.",
 		"type_code": "environment"
 	},
@@ -1007,15 +1052,17 @@
 		"quantity": 1,
 		"set_code": "streets_of_mayhem",
 		"set_position": 4,
+		"text": "Surge.<b>When Revealed:</b> Discard each other [[Setting]] environment in play.\nEach character in play gains steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>",
 		"traits": "Location. Setting.",
 		"type_code": "environment"
 	},
 	{
-		"base_threat": 2,
-		"base_threat_fixed": 3,
+		"base_threat": 3,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "24064",
 		"faction_code": "encounter",
+		"flavor": "The Wrecking Crew is on a rampage, using their magically-powered muscles to cause chaos and destruction.",
 		"name": "Top Talent",
 		"octgn_id": "8ebcb82c-6821-422b-9593-cf7b845a4d5b",
 		"pack_code": "hood",
@@ -1023,13 +1070,16 @@
 		"quantity": 1,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 1,
+		"text": "Hinder 2[per_player]. <i>(When revealed, place 2[per_player] threat here.)</i>\nThe villain and each [[Elite]] minion gain retaliate 1.",
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 2,
+		"attack_text": "While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
 		"boost": 3,
 		"code": "24065",
 		"faction_code": "encounter",
+		"flavor": "\"You're just dead meat waitin' tp be tenderized!\"",
 		"health": 8,
 		"is_unique": true,
 		"name": "Wrecker",
@@ -1040,14 +1090,17 @@
 		"scheme": 2,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 2,
+		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 3,
+		"attack_text": "Bulldozer's attacks gain overkill.",
 		"boost": 2,
 		"code": "24066",
 		"faction_code": "encounter",
+		"flavor": "\"Nothing stands in the path of the Bulldozer!\"",
 		"health": 7,
 		"is_unique": true,
 		"name": "Bulldozer",
@@ -1058,6 +1111,7 @@
 		"scheme": 1,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 3,
+		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
@@ -1066,6 +1120,7 @@
 		"boost": 2,
 		"code": "24067",
 		"faction_code": "encounter",
+		"flavor": "\"These fists were made for crushin'... and that's just what they'll do.\"",
 		"health": 6,
 		"is_unique": true,
 		"name": "Piledriver",
@@ -1076,14 +1131,17 @@
 		"scheme": 2,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 4,
+		"text": "Retaliate 1.\nVillainous. <i>(When this minion activates, give it a boost card.)</i>",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
+		"attack_text": "<b>Forced Response:</b> After Thunderball attacks you, deal 1 damage to each character you control.",
 		"boost": 3,
 		"code": "24068",
 		"faction_code": "encounter",
+		"flavor": "\"Bring it on! It's wrecking time!\"",
 		"health": 7,
 		"is_unique": true,
 		"name": "Thunderball",
@@ -1094,11 +1152,13 @@
 		"scheme": 3,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 5,
+		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"boost": 1,
+		"boost_text": "For each [[Elite]] minion in play, this card gets +1 boost icon ([boost]) for this activation.",
 		"code": "24069",
 		"faction_code": "encounter",
 		"name": "Combined Effort",
@@ -1108,12 +1168,14 @@
 		"quantity": 1,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 6,
+		"text": "<b>When Revealed:</b> Each [[Elite]] minion in play activates against the player it is engaged with. If no minion activated this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 2,
 		"code": "24070",
 		"faction_code": "encounter",
+		"flavor": "\"Hey, stop, that tickles.\"",
 		"name": "Magic Muscle",
 		"octgn_id": "4c82e60e-b9af-497d-8983-0dc7e6e5aa2e",
 		"pack_code": "hood",
@@ -1121,6 +1183,7 @@
 		"quantity": 1,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 7,
+		"text": "<b>When Revealed:</b> Give each [[Brute]] enemy in play a tough status card. If no tough status card was given this way, discard cards from the top of the encounter deck until a [[Brute]] minion is discarded and reveal that minion.",
 		"type_code": "treachery"
 	}
 ]
