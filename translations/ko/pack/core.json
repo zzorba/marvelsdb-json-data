@@ -381,282 +381,283 @@
 		"code": "01050",
 		"name": "Hulk",
 		"subname": "Bruce Banner",
-		"text": "<b>Forced Response</b>: After Hulk attacks, discard the top card of your deck. If that card's printed resource has:\n[physical] - Deal 2 damage to an enemy.\n[energy] - Deal 1 damage to each character.\n[mental] - Discard Hulk.\n[wild] - All of the above.",
-		"traits": "Avenger. Gamma."
+		"text": "<b>강제 반응</b>: Hulk가 공격한 후, 당신의 덱 맨 위에서 카드 1장을 버립니다. 버려진 카드에 인쇄된 자원 유형에 따라 다음을 수행합니다.\n[physical] - 적 하나에게 피해 2점을 입힘.\n[energy] – 모든 캐릭터에게 피해 1점을 입힘.\n[mental] – Hulk를 버림.\n[wild] – 앞의 셋 전부.",
+		"traits": "Avenger. 감마선."
 	},
 	{
 		"code": "01051",
-		"flavor": "\"Sorry -- no autographs.\"",
+		"flavor": "\"미안하지만 싸인은 해드리지 않아요.\"",
 		"name": "Tigra",
 		"subname": "Greer Grant Nelson",
-		"text": "<b>Response</b>: After Tigra attacks and defeats a minion, heal 1 damage from her.",
+		"text": "<b>반응</b>: Tigra가 공격하여 하수인 하나를 격파한 후, Tigra가 입은 피해 1점을 치료합니다.",
 		"traits": "Avenger."
 	},
 	{
 		"code": "01052",
-		"flavor": "\"Kamala, we don't have a theme song. Please stop humming one...\" -- Captain Marvel",
-		"name": "Chase Them Down",
-		"text": "<b>Response</b> (<i>thwart</i>): After your hero attacks and defeats an enemy, remove 2 threat from a scheme.",
-		"traits": "Thwart."
+		"flavor": "\"Kamala, 우린 테마곡 같은 거 없어. 제발 뭐 흥얼대지 좀 마...\" -- Captain Marvel",
+		"name": "적을 추적하다",
+		"text": "<b>반응</b>(저지): 당신의 히어로가 공격하여 적 하나를 격파한 후, 음모 하나에서 위협을 2만큼 제거합니다.",
+		"traits": "저지."
 	},
 	{
 		"code": "01053",
-		"name": "Relentless Assault",
-		"text": "<b>Hero Action</b> (<i>attack</i>): Deal 5 damage to a minion. If you paid for this card using a [physical] resource, this attack gains overkill. <i>(Excess damage from this attack is dealt to the villain.)</i>",
-		"traits": "Attack."
+		"name": "거침없는 돌진",
+		"text": "<b>히어로 행동</b>(공격): 하수인 하나에게 피해 5점을 입힙니다. 이 카드에 [Physical] 자원을 지불했다면, 이 공격은 압살을 얻습니다.<i>(이 공격의 초과 피해를 빌런이 입습니다.)</i>",
+		"traits": "공격."
 	},
 	{
 		"code": "01054",
-		"flavor": "SMACK!",
-		"name": "Uppercut",
-		"text": "<b>Hero Action</b> (<i>attack</i>): Deal 5 damage to an enemy.",
-		"traits": "Attack."
+		"flavor": "퍽!",
+		"name": "어퍼컷",
+		"text": "<b>히어로 행동</b>(공격): 적 하나에게 피해 5점을 입힙니다.",
+		"traits": "공격."
 	},
 	{
 		"code": "01055",
-		"name": "The Power of Aggression",
-		"text": "Max 2 per deck.\nDouble the number of resources this card generates while paying for a Aggression <i>(red)</i> card."
+		"name": "용맹의 힘",
+		"text": "덱마다 최대 2장.\n용맹<i>(빨간색)</i> 카드에 이 카드를 비용으로 지불하는 한, 이 카드가 생성하는 자원은 2배가 됩니다."
 	},
 	{
 		"code": "01056",
-		"name": "Tac Team",
-		"text": "Uses (3 attack counters). <i>(Enters play with 3 counters. When those are gone, discard this card)</i>\n<b>Action</b>: Exhaust Tac Team and remove 1 attack counter from it → deal 2 damage to an enemy.",
+		"name": "전술공격팀",
+		"text": "사용(공격 카운터 3). <i>(카운터를 3만큼 놓은 채로 플레이 영역에 들어옵니다. 카운터가 모두 사라지면 이 카드를 버립니다)</i>\n<b>행동</b>: 전술공격팀을 소진하고 이 카드에서 공격 카운터를 1만큼 제거 → 적 하나에게 피해 2점을 입힘.",
 		"traits": "S.H.I.E.L.D."
 	},
 	{
 		"code": "01057",
-		"flavor": "\"Tony! She did it again!\" -- Janet Van Dyne",
-		"name": "Combat Training",
-		"text": "Play under any player's control. Max 1 per player.\nYour hero gets +1 ATK.",
-		"traits": "Skill."
+		"flavor": "\"Tony! 이 아가씨가 또 사고 쳤어요!\" -- Janet Van Dyne",
+		"name": "격투 훈련",
+		"text": "이 카드를 플레이하면, 조종할 플레이어를 정합니다. 플레이어마다 최대 1장.\n당신의 히어로가 공격 +1을 받습니다.",
+		"traits": "기술."
 	},
 	{
 		"code": "01058",
-		"flavor": "\"Sometimes, I think I accomplish more with my fists than with my law firm.\"",
+		"flavor": "\"가끔 우리 로펌에서 해결한 일보다 주먹으로 해결한 일이 더 많은 것 같다는 생각이 들어.\"",
 		"name": "Daredevil",
 		"subname": "Matt Murdock",
-		"text": "<b>Response</b>: After Daredevil thwarts, deal 1 damage to an enemy.",
+		"text": "<b>반응</b>: Daredevil은 저지한 후, 적 하나에게 피해 1점을 입힙니다.",
 		"traits": "Defender."
 	},
 	{
 		"code": "01059",
-		"flavor": "\"I am very good at finding people.\"",
+		"flavor": "\"사람을 찾는 게 내 특기죠.\"",
 		"name": "Jessica Jones",
-		"text": "Jessica Jones gets +1 THW for each side scheme in play.",
+		"text": "Jessica Jones는 플레이 영역에 있는 부가 음모마다 저지 +1을 받습니다.",
 		"traits": "Defender."
 	},
 	{
 		"code": "01060",
-		"flavor": "\"You lose. And you're going to answer for what you've done.\" -- Captain America",
-		"name": "For Justice!",
-		"text": "<b>Hero Action</b> (<i>thwart</i>): Remove 3 threat from a scheme (4 threat instead if you paid for this card using a [mental] resource).",
-		"traits": "Thwart."
+		"flavor": "\"네가 질 거야. 그리고 네가 한 짓에 대해 책임을 져야 할 거야.\" -- Captain America",
+		"name": "정의를 위해!",
+		"text": "<b>히어로 행동</b>(저지): 음모 하나에서 위협을 3만큼 제거합니다(4 이 카드에 [mental] 자원을 지불했다면 대신 4만큼 제거합니다).",
+		"traits": "저지."
 	},
 	{
 		"code": "01061",
-		"name": "Great Responsibility",
-		"text": "<b>Hero Interrupt</b>: When any amount of threat would be placed on a scheme, you take it as damage instead."
+		"name": "큰 힘에는 큰 책임이 따른다",
+		"text": "<b>히어로 난입</b>: 음모 하나에 위협이 놓이려 할 때, 그 위협만큼 당신이 대신 피해를 입습니다."
 	},
 	{
 		"code": "01062",
-		"name": "The Power of Justice",
-		"text": "Max 2 per deck.\nDouble the number of resources this card generates while paying for a Justice <i>(yellow)</i> card."
+		"name": "정의의 힘",
+		"text": "덱마다 최대 2장.\n정의<i>(노란색)</i> 카드에 이 카드를 비용으로 지불하는 한, 이 카드가 생성하는 자원은 2배가 됩니다."
 	},
 	{
 		"code": "01063",
-		"flavor": "\"Oh, she's sorry! Let me get the keys and call you a car service!\" -- Misty Knight",
-		"name": "Interrogation Room",
-		"text": "Max 1 per player.\n<b>Response</b>: After you defeat a minion, exhaust Interrogation Room → remove 1 threat from a scheme.",
-		"traits": "Location."
+		"flavor": "\"오, 그녀가 미안하다네요! 열쇠 가져다 드리고 차도 불러 드릴게요!\" -- Misty Knight",
+		"name": "심문실",
+		"text": "플레이어마다 최대 1장.\n<b>반응</b>: 당신이 하수인 하나를 격파한 후, 심문실을 소진 → 음모 하나에서 위협을 1만큼 제거합니다.",
+		"traits": "장소."
 	},
 	{
 		"code": "01064",
-		"name": "Surveillance Team",
-		"text": "Uses (3 snoop counters). <i>(Enters play with 3 counters. When those are gone, discard this card)</i>\n<b>Action</b>: Exhaust Surveillance Team and remove 1 snoop counter from it → remove 1 threat from a scheme.",
+		"name": "감시팀",
+		"text": "사용(3 snoop counters). <i>(카운터를 3만큼 놓은 채로 플레이 영역에 들어옵니다. 카운터가 모두 사라지면 이 카드를 버립니다)</i>\n<b>행동</b>: 감시팀을 소진하고 이 카드에서 감시 카운터를 1만큼 제거 → 음모 하나에서 위협을 1만큼 제거.",
 		"traits": "S.H.I.E.L.D."
 	},
 	{
 		"code": "01065",
-		"name": "Heroic Intuition",
-		"text": "Play under any player's control. Max 1 per player.\nYour hero gets +1 THW.",
-		"traits": "Skill."
+		"name": "히어로의 직감",
+		"text": "이 카드를 플레이하면, 조종할 플레이어를 정합니다. 플레이어마다 최대 1장.\n당신의 히어로가 저지 +1을 받습니다.",
+		"traits": "기술."
 	},
 	{
 		"code": "01066",
 		"name": "Hawkeye",
-		"text": "Hawkeye enters play with 4 arrow counters on him.\n<b>Response</b>: After a minion enters play, remove 1 arrow counter from Hawkeye → deal 2 damage to that minion.",
+		"text": "Hawkeye는 화살 카운터를 4만큼 놓은 채로 플레이 영역에 들어옵니다.\n<b>반응</b>: 하수인 하나가 플레이 영역에 들어온 후, 이 카드에서 화살 카운터를 1만큼 제거 → 그 하수인에게 피해 2점을 입힘.",
 		"traits": "Avenger."
 	},
 	{
 		"code": "01067",
-		"flavor": "\"Believe it or not, we all want the same thing.\"",
+		"flavor": "\"믿거나 말거나 당신 자유지만 우리는 모두 같은 걸 원하고 있어요.\"",
 		"name": "Maria Hill",
-		"text": "<b>Response</b>: After Maria Hill enters play, each player draws 1 card.",
+		"text": "<b>반응</b>: Maria Hill이 플레이 영역에 들어온 후, 각 플레이어는 카드 1장을 뽑습니다.",
 		"traits": "S.H.I.E.L.D."
 	},
 	{
 		"code": "01068",
-		"flavor": "\"I will handle this\"",
+		"flavor": "\"제가 처리할게요.\"",
 		"name": "Vision",
-		"text": "<b>Action</b>: Spend a [energy] resource → choose THW or ATK. Until the end of the phase, Vision gets +2 to the chosen power. (Limit once per round.)",
-		"traits": "Android. Avenger."
+		"text": "<b>행동</b>: [energy] 자원을 소모 → 저지나 공격을 선택. 페이즈의 끝까지, Vision은 선택한 기능에 +2를 받음(라운드마다 1회 제한).",
+		"traits": "안드로이드. Avenger."
 	},
 	{
 		"code": "01069",
-		"flavor": "\"We train hard every day so that when the time comes, we'll be ready\" -- Steve Rogers",
-		"name": "Get Ready",
-		"text": "<b>Action</b>: Ready an ally."
+		"flavor": "\"우리는 만일의 사태에 대비해 언제라도 준비될 수 있게 매일 훈련한다\" -- Steve Rogers",
+		"name": "준비 태세",
+		"text": "<b>행동</b>: 동료 하나를 준비합니다."
 	},
 	{
 		"code": "01070",
-		"flavor": "\"Let's go everyone!\" -- Carol Danvers",
-		"name": "Lead from the Front",
-		"text": "<b>Hero Action</b>: Choose a player. Each character that player controls gets +1 THW and +1 ATK until the end of the phase.",
-		"traits": "Tactic."
+		"flavor": "\"전원 돌격!\" -- Carol Danvers",
+		"name": "진두지휘",
+		"text": "<b>히어로 행동</b>: 플레이어 하나를 선택합니다. 그 플레이어가 조종하는 모든 캐릭터는 페이즈의 끝까지 저지 +1과 공격 +1을 받습니다.",
+		"traits": "전술."
 	},
 	{
 		"code": "01071",
-		"flavor": "\"This is a code red! All hands on deck!\" -- Maria Hill",
-		"name": "Make the Call",
-		"text": "<b>Action</b>: Pay the printed cost of an ally in any player's discard pile → put that ally into play under your control."
+		"flavor": "\"코드 레드 상황이다! 전원 위치로!\" -- Maria Hill",
+		"name": "소집명령",
+		"text": "<b>행동</b>: 아무 플레이어의 버린 더미에 있는 동료 하나의 인쇄된 비용을 지불 → 그 동료를 당신의 조종하에 플레이 영역에 내려놓음."
 	},
 	{
 		"code": "01072",
-		"name": "The Power of Leadership",
-		"text": "Max 2 per deck.\nDouble the number of resources this card generates while paying for a Leadership <i>(blue)</i> card."
+		"name": "통솔의 힘",
+		"text": "덱마다 최대 2장.\n 통솔<i>(파란색)</i> 카드에 이 카드를 비용으로 지불하는 한, 이 카드가 생성하는 자원은 2배가 됩니다."
 	},
 	{
 		"code": "01073",
-		"flavor": "\"This they made it tall enough?\" -- She-Hulk",
-		"name": "The Triskelion",
-		"text": "Increase your ally limit by 1. <i>(This allows you to control more than 3 allies.)</i>",
-		"traits": "Location. S.H.I.E.L.D."
+		"flavor": "\"건물 천장을 충분히 높게 지은 것 같아?\" -- She-Hulk",
+		"name": "트리스켈리온",
+		"text": "당신의 동료 제한을 1만큼 증가시킵니다<i>(이 카드는 당신이 셋보다 많은 동료를 조종할 수 있게 합니다)</i>.",
+		"traits": "장소. S.H.I.E.L.D."
 	},
 	{
 		"code": "01074",
-		"flavor": "\"I'm glad she's on our side.\" -- Star-Lord",
-		"name": "Inspired",
-		"text": "Attach to an ally. Max 1 per ally.\nAttached ally gets +1 THW and +1 ATK.",
-		"traits": "Condition."
+		"flavor": "\"그녀가 우리 편이라 다행이야.\" -- Star-Lord",
+		"name": "감화",
+		"text": "동료에게 장착합니다. 동료마다 1장 제한.\n장착된 동료는 저지 +1과 공격 +1을 받습니다.",
+		"traits": "상태."
 	},
 	{
 		"code": "01075",
 		"name": "Black Widow",
 		"subname": "Natasha Romanoff",
-		"text": "<b>Interrupt</b>: When a card is revealed from the encounter deck, exhaust Black Widow and spend a [mental] resource → cancel the effects of that card and discard it. Then, reveal another card from the encounter deck.",
-		"traits": "S.H.I.E.L.D. Spy."
+		"text": "<b>난입</b>: 조우 덱에서 카드가 공개될 때, Black Widow를 소진하고 [Mental] 자원을 소모 → 공개된 조우 카드의 효과를 모두 무효화하고 버림. 그러고 나서 조우 덱에서 다른 조우 카드 1장을 공개.",
+		"traits": "S.H.I.E.L.D. 첩보원."
 	},
 	{
 		"code": "01076",
-		"flavor": "\"Power Man for hire -- Cage speakin'.",
+		"flavor": "\"떡대를 찾으시나? Cage가 여기 있다네.",
 		"name": "Luke Cage",
-		"text": "Toughness. <i>(This character enters play with a tough status card.)</i>",
+		"text": "강인<i>(이 캐릭터는 강인함 상태 카드를 놓은 채로 플레이 영역에 들어옵니다).</i>",
 		"traits": "Defender."
 	},
 	{
 		"code": "01077",
-		"flavor": "\"That's what you get!\" -- Iron Fist",
-		"name": "Counter-Punch",
-		"text": "<b>Response</b> (<i>attack</i>): After your hero defends against an enemy attack, deal damage to that enemy equal to your hero's ATK.",
-		"traits": "Attack."
+		"flavor": "\"이거나 먹어라!\" -- Iron Fist",
+		"name": "카운터 펀치",
+		"text": "<b>반응</b>(공격): 당신의 히어로가 적의 공격을 방어한 후, 공격한 적에게 당신 히어로의 공격 수치만큼 피해를 입힙니다.",
+		"traits": "공격."
 	},
 	{
 		"code": "01078",
-		"flavor": "\"Ahem! Stand aside, citizens!\" -- Ms. Marvel",
-		"name": "Get Behind Me!",
-		"text": "<b>Hero Interrupt</b>: When a treachery card is revealed from the encounter deck, cancel its \"<b>When Revealed</b>\" effects. The villain attacks you instead."
+		"flavor": "\"에헴! 시민 여러분 대피하세요!\" -- Ms. Marvel",
+		"name": "뒤로 물러서세요!",
+		"text": "<b>히어로 난입</b>: 조우 덱에서 배반 카드가 공개될 때, 그 카드의 \"<b>공개될 때</b>\" 효과를 모두 무효화합니다. 대신 빌런이 당신을 공격합니다."
 	},
 	{
 		"code": "01079",
-		"name": "The Power of Protection",
-		"text": "Max 2 per deck.\nDouble the number of resources this card generates while paying for a Protection <i>(green)</i> card."
+		"name": "수호의 힘",
+		"text": "덱마다 최대 2장.\n수호<i>(녹색)</i> 카드에 이 카드를 비용으로 지불하는 한, 이 카드가 생성하는 자원은 2배가 됩니다."
 	},
 	{
 		"code": "01080",
-		"name": "Med Team",
-		"text": "Uses (3 medical counters). <i>(Enters play with 3 counters. When those are gone, discard this card.)</i>\n<b>Action</b>: Exhaust Med Team and remove 1 medical counter from it → heal 2 damage from a friendly character.",
+		"name": "의료팀",
+		"text": "사용(3 medical counters). <i>(카운터를 3만큼 놓은 채로 플레이 영역에 들어옵니다. 카운터가 모두 사라지면 이 카드를 버립니다.)</i>\n<b>행동</b>: 의료팀을 소진하고 이 카드에서 의료 카운터를 1만큼 제거 → 아군 캐릭터 하나가 입은 피해 2점을 치료.",
 		"traits": "S.H.I.E.L.D."
 	},
 	{
 		"code": "01081",
-		"flavor": "Life-saving and stylish.",
-		"name": "Armored Vest",
-		"text": "Play under any player's control. Max 1 per player.\nYour hero gets +1 DEF.",
-		"traits": "Armor."
+		"flavor": "방호력과 스타일을 모두 잡았습니다.",
+		"name": "방탄조끼",
+		"text": "이 카드를 플레이하면, 조종할 플레이어를 정합니다. 플레이어마다 최대 1장.\n당신의 히어로가 방어 +1을 받습니다.",
+		"traits": "갑옷."
 	},
 	{
 		"code": "01082",
-		"flavor": "\"We have no choice. So we fight -- and we win. There are no other options.\" -- Captain America",
-		"name": "Indomitable",
-		"text": "<b>Response</b>: After your hero defends, discard indomitable → ready your hero.",
-		"traits": "Condition."
+		"flavor": "\"우리에겐 선택의 여지가 없어. 그래서 우리는 싸울 것이고 끝내 승리할 것이다. 그 밖에 다른 선택지는 없어.\" -- Captain America",
+		"name": "불굴의 정신",
+		"text": "<b>반응</b>: 당신의 히어로가 방어한 후, 불굴의 정신을 버림 → 당신의 히어로를 준비.",
+		"traits": "상태."
 	},
 	{
 		"code": "01083",
 		"name": "Mockingbird",
 		"subname": "Bobbi Morse",
-		"text": "<b>Response</b>: After Mockingbird enters play, stun an enemy.",
-		"traits": "S.H.I.E.L.D. Spy."
+		"text": "<b>반응</b>: Mockingbird가 플레이 영역에 들어온 후, 적 하나를 기절시킵니다.",
+		"traits": "S.H.I.E.L.D. 첩보원."
 	},
 	{
 		"code": "01084",
 		"name": "Nick Fury",
-		"text": "<b>Forced Response</b>: After Nick Fury enters play, choose one: remove 2 threat from a scheme, draw 3 cards, or deal 4 damage to an enemy. At the end of the round, if Nick Fury is still in play, discard him.",
-		"traits": "S.H.I.E.L.D. Spy."
+		"text": "<b>강제 반응</b>: Nick Fury가 플레이 영역에 들어온 후, 다음 중 하나를 선택합니다. 음모 하나에서 위협을 2만큼 제거 / 카드 3장을 뽑기 / 적 하나에게 피해 4점을 입히기. 라운드 끝에, Nick Fury가 플레이 영역에 남아있다면 버립니다.",
+		"traits": "S.H.I.E.L.D. 첩보원."
 	},
 	{
 		"code": "01085",
-		"flavor": "\"CALLING ALL UNITS! CALLING ALL UNITS!\"",
-		"name": "Emergency",
-		"text": "<b>Interrupt</b> (<i>thwart</i>): When the villain schemes, reduce the amount of threat placed on the scheme by 1.",
-		"traits": "Thwart."
+		"flavor": "\"전 대원 응답하라! 전 대원 응답하라!\"",
+		"name": "비상사태",
+		"text": "<b>난입</b>(저지): 빌런이 암약할 때, 그 음모에 놓이려는 위협을 1만큼 감소시킵니다.",
+		"traits": "저지."
 	},
 	{
 		"code": "01086",
-		"flavor": "\"Does it still qualify as first aid if it's your second day in the hospital?\" -- Clint Barton",
-		"name": "First Aid",
-		"text": "<b>Action</b>: Heal 2 damage from any character."
+		"flavor": "\"응급처치라면서 왜 이틀째 병원에 누워있어야 하는 거야!!\" -- Clint Barton",
+		"name": "응급처치",
+		"text": "<b>행동</b>: 아무 캐릭터 하나가 입은 피해 2점을 치료합니다."
 	},
 	{
 		"code": "01087",
-		"flavor": "WHAM!",
-		"name": "Haymaker",
-		"text": "<b>Hero Action</b> (<i>attack</i>): Deal 3 damage to an enemy.",
-		"traits": "Attack."
+		"flavor": "퍽!",
+		"name": "강타",
+		"text": "<b>히어로 행동</b>(공격): 적 하나에게 피해 3점을 입힙니다.",
+		"traits": "공격."
 	},
 	{
 		"code": "01088",
-		"name": "Energy",
-		"text": "Max 1 per deck."
+		"name": "에너지",
+		"text": "덱마다 최대 1장."
 	},
 	{
 		"code": "01089",
-		"name": "Genius",
-		"text": "Max 1 per deck.."
+		"name": "천재",
+		"text": "덱마다 최대 1장.."
 	},
 	{
 		"code": "01090",
-		"name": "Strength",
-		"text": "Max 1 per deck.."
+		"name": "힘",
+		"text": "덱마다 최대 1장.."
 	},
 	{
 		"code": "01091",
-		"flavor": "\"Did you remember to turn off the stove?\" -- Janet Van Dyne",
-		"name": "Avengers Mansion",
-		"text": "Max 1 per player.\n<b>Action</b>: Exhaust Avengers Mansion → choose a player. That player draws 1 card.",
-		"traits": "Avenger. Location."
+		"flavor": "\"나오기 전에 보일러 끄고 나왔어?\" -- Janet Van Dyne",
+		"name": "어벤져스 맨션",
+		"text": "플레이어마다 최대 1장.\n<b>행동</b>: 어벤져스 맨션을 소진 → 플레이어 하나를 선택해 카드 1장을 뽑게 함.",
+		"traits": "Avenger. 장소."
 	},
 	{
 		"code": "01092",
-		"flavor": "\"A flying aircraft carrier? You're kidding, right?\" -- Jennifer Walters",
-		"name": "Helicarrier",
-		"text": "Max 1 per player.\n<b>Action</b>: Exhaust Helicarrier → choose a player. Reduce the resource cost of the next card that player plays this phase by 1.",
-		"traits": "Location. S.H.I.E.L.D."
+		"flavor": "\"날아다니는 항공모함이라고? 지금 농담하는 거야?\" -- Jennifer Walters",
+		"name": "헬리캐리어",
+		"text": "플레이어마다 최대 1장.\n<b>행동</b>: 헬리캐리어를 소진 → 플레이어 하나를선택해 그 플레이어가 이번 페이즈에 플레이하는 다음 카드의 자원 비용을 1만큼 감소시킴.",
+		"traits": "장소. S.H.I.E.L.D."
 	},
 	{
 		"code": "01093",
-		"name": "Tenacity",
-		"text": "<b>Hero Action</b>: Spend a [physical] resource and discard this card → ready your hero.",
-		"traits": "Condition."
+		"name": "불굴의 의지",
+		"text": "<b>히어로 행동</b>: [physical] 자원을 소모하고 이 카드를 버림 → 당신의 히어로를 준비.",
+		"traits": "상태."
 	}
+
 ]
