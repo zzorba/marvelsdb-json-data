@@ -9,19 +9,20 @@
 	{
 		"code": "26001b",
 		"name": "La Visión",
-		"text": "Mientras tu identidad de masa sea Denso, recibes +2 REC.\nMientras tu identidad de masa sea Intangible, recibes +1 al tamaño de tu mano.\n<b>Preparación</b>: pon en juego tu Mejora de Identidad de masa con la cara de Intangible boca arriba."
+		"text": "Mientras tu identidad de masa sea Denso, recibes +2 REC.\nMientras tu identidad de masa sea Intangible, recibes +1 al tamaño de tu mano.\n<b>Preparación</b>: pon en juego tu Mejora de Identidad de masa con la cara de Intangible boca arriba.",
+		"traits": "Android."
 	},
 	{
-		"back_name": "Denso",
+		"back_text": "Identidad de masa. Permanente.\nMientras tenga adoptada su identidad de Héroe, La Visión recibe +2 ATQ y +2 DEF.\n<b>Respuesta</b>: después de que cambies a esta identidad de masa, roba 1 carta.",
 		"code": "26002",
 		"name": "Intangible",
-		"text": "Identidad de masa. Permanente.\nLa Visión no puede atacar ni defenderse.\nLa cantidad de Daño que sufre La Visión de cada ataque se reduce en 2.",
-		"back_text": "Identidad de masa. Permanente.\nMientras tenga adoptada su identidad de Héroe, La Visión recibe +2 ATQ y +2 DEF.\n<b>Respuesta</b>: después de que cambies a esta identidad de masa, roba 1 carta."
+		"text": "Identidad de masa. Permanente.\nLa Visión no puede atacar ni defenderse.\nLa cantidad de Daño que sufre La Visión de cada ataque se reduce en 2."
 	},
 	{
 		"code": "26003",
 		"flavor": "\"Te quiero, papá.\"",
 		"name": "Vivian",
+		"text": "While you are in Intangible mass form, Vivian gets +2 THW.\nWhile you are in Dense mass form, Vivian gets +2 ATK.",
 		"traits": "Androide. Campeón."
 	},
 	{
@@ -75,7 +76,7 @@
 		"code": "26011",
 		"name": "Disrupción de fase",
 		"text": "Juega esta carta sólo si la identidad de masa de La Visión es Intangible.\n<b>Acción de Héroe</b>: confunde a un enemigo. Elige un Accesorio vinculado a ese enemigo que contenga las palabras \"<b>Acción de Héroe</b>\" o \"<b>Respuesta de Héroe</b>\" y descarta dicho Accesorio.",
-		"traits": "Superpoder."	
+		"traits": "Superpoder."
 	},
 	{
 		"code": "26012",
@@ -92,9 +93,9 @@
 	{
 		"code": "26014",
 		"name": "Protectora",
-		"subname": "Alexis",
 		"text": "<b>Interrupción</b>: cuando la Protectora vaya a sufrir cualquier cantidad de Daño, gasta un recurso [mental] → reduce en 1 esa cantidad. (Límite de una vez por ronda.)",
-		"traits": "Androide. Vengador."
+		"traits": "Androide. Vengador.",
+		"subname": "Alexis"
 	},
 	{
 		"code": "26015",
@@ -120,15 +121,15 @@
 		"code": "26022",
 		"flavor": "\"¡Aquí llega el metal pesado!\"",
 		"name": "Hombre Máquina",
-		"subname": "Aaron Stack",
 		"text": "<b>Interrupción</b>: cuando el Hombre Máquina ataque o intervenga, gasta un máximo de 3 recursos de cualquier tipo → el Hombre Máquina recibe +1 INT y +1 ATQ por cada recurso gastado de este modo para este uso.",
-		"traits": "Androide."
+		"traits": "Androide.",
+		"subname": "Aaron Stack"
 	},
 	{
 		"code": "26024",
 		"flavor": "\"¿Has probado a apagarlo y volverlo a encender?\" —Ironheart",
 		"name": "Reinicio",
-		"text":"<b>Acción</b>: prepara un personaje [[Androide]] amigo y cúrale 1 de Daño."
+		"text": "<b>Acción</b>: prepara un personaje [[Androide]] amigo y cúrale 1 de Daño."
 	},
 	{
 		"code": "26033",
@@ -145,7 +146,7 @@
 	{
 		"code": "26035",
 		"name": "Unir fuerzas",
-		"text": "Alianza.\n<b>Acción de Héroe</b>: los jugadores ponen en juego entre todos un total de 1 Aliado [[Vengador]] y 1 Aliado [[Guardián]] desde sus manos." 
+		"text": "Alianza.\n<b>Acción de Héroe</b>: los jugadores ponen en juego entre todos un total de 1 Aliado [[Vengador]] y 1 Aliado [[Guardián]] desde sus manos."
 	},
 	{
 		"code": "26036",
@@ -153,4 +154,4 @@
 		"name": "Meditación",
 		"text": "<b>Acción de Alter ego</b>: agota tu Alter ego → juega una carta de tu mano, reduciendo en 3 su coste en recursos."
 	}
-] 
+]
