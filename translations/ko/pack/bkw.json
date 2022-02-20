@@ -1,148 +1,149 @@
 [
 	{
 		"code": "08001a",
-		"flavor": "\"My name is Madame Natasha. But you can call me Black Widow!\"",
+		"flavor": "\"제 이름은 Madame Natasha지만, Black Widow라고 부르셔도 괜찮아요!\"",
 		"name": "Black Widow",
-		"text": "\"Widowmaker\" — <b>Response</b>: After you trigger the ability of a [[Preparation]] card you control, deal 1 damage to an enemy.",
-		"traits": "Avenger. Spy."
+		"text": "\"위도우메이커\" — <b>반응</b>: 당신이 조종하는 [[대비]] 카드의 능력을 격발한 후, 적 하나에게 피해 1점을 입힙니다.",
+		"traits": "Avenger. 첩보원."
 	},
 	{
 		"code": "08001b",
-		"flavor": "\"This is my mission and I will succeed.\"",
+		"flavor": "\"이건 제 임무고, 전 성공할 거에요.\"",
 		"name": "Natasha Romanoff",
-		"text": "Mission Prep — <b>Response</b>: After you play a [[Preparation]] card, draw 1 card. (Limit once per phase.)",
-		"traits": "S.H.I.E.L.D. Spy."
+		"text": "임무 대비 — <b>반응</b>: 당신이 [[대비]] 카드를 플레이한 후, 카드 1장을 뽑습니다(페이즈마다 1회 제한).",
+		"traits": "S.H.I.E.L.D. 첩보원."
 	},
 	{
 		"code": "08002",
-		"flavor": "\"You shot at Natasha. That was your last act on Earth, pal.\"",
+		"flavor": "\"Natasha를 향해 총을 쏘다니. 그게 네가 지구에서 한 마지막 행동이 될 거야, 친구.\"",
 		"name": "Winter Soldier",
 		"subname": "Bucky Barnes",
-		"text": "Reduce the cost to play Winter Soldier by 1 for each [[Preparation]] card you control.",
-		"traits": "Avenger. Spy."
+		"text": "당신이 조종하는 [[대비]] 카드마다 Winter Soldier를 플레이하기 위한 자원 비용을 1만큼 감소시킵니다.",
+		"traits": "Avenger. 첩보원."
 	},
 	{
 		"code": "08003",
-		"flavor": "\"It's all about calculating how willfully blind a person is going to be. And then exploiting that.\" -- Natasha Romanoff",
-		"name": "Covert Ops",
-		"text": "<b>Action</b> <i>(thwart)</i>: Remove 4 threat from a scheme. Confuse the villain.",
-		"traits": "Thwart."
+		"flavor": "\"사람이 자신이 원하는 것만 본다는 사실과, 그 정도를 계산하는 게 다야. 그리고 그걸 어떻게 활용하냐에 달렸지.\" -- Natasha Romanoff",
+		"name": "비밀 작전",
+		"text": "<b>행동</b><i>(저지)</i>: 음모 하나에서 위협을 4만큼 제거합니다. 빌런을 혼란에 빠뜨립니다.",
+		"traits": "저지."
 	},
 	{
 		"code": "08004",
-		"name": "Dance of Death",
-		"text": "<b>Hero Action</b>: Make the following 3 attacks in order:\n- Deal 1 damage to an enemy.\n- Deal 2 damage to an enemy.\n- Deal 3 damage to an enemy.",
-		"traits": "Attack."
+		"name": "죽음의 무도",
+		"text": "<b>히어로 행동</b>: 다음 세 번의 공격을 순서대로 해결합니다.\n- 적 하나에게 피해 1점을 입힙니다.\n- 적 하나에게 피해 2점을 입힙니다.\n- 적 하나에게 피해 3점을 입힙니다.",
+		"traits": "공격."
 	},
 	{
 		"code": "08005",
-		"flavor": "\"We should be safe here.\" -- Black Widow",
-		"name": "Safe House #29",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Safe House #29 and choose a [[Preparation]] card in your discard pile → add that card to your hand.",
-		"traits": "Location. S.H.I.E.L.D."
+		"flavor": "\"여기 있으면 안전할 거에요.\" -- Black Widow",
+		"name": "은신처 #29",
+		"text": "<b>일상 행동</b>: 은신처 #29를 소진하고 당신의 버린 더미에 있는 [[대비]] 카드 1장을 선택 → 선택한 카드를 당신의 손에 더함.",
+		"traits": "장소. S.H.I.E.L.D."
 	},
 	{
 		"code": "08006",
-		"name": "Attacrobatics",
-		"text": "<b>Hero Interrupt</b> <i>(attack)</i>: When a boost card is turned faceup, discard Attacrobatics → cancel the boost icons on that card. Deal 1 damage to the villain for each boost icon canceled this way.",
-		"traits": "Attack. Preparation. Skill."
+		"name": "곡예",
+		"text": "<b>히어로 난입</b><i>(공격)</i>: 강화 카드가 뒤집힐 때, 곡예를 버림 → 뒤집힌 강화 카드에 있는 강화 아이콘을 모두 무효화. 이렇게 무효화한 강화 아이콘마다 빌런에게 피해 1점을 입힘.",
+		"traits": "공격. 대비. 기술."
 	},
 	{
 		"code": "08007",
-		"flavor": "\"Not only are they lethal, but they look good, too.\" -- Black Widow",
-		"name": "Black Widow's Gauntlet",
-		"text": "<b>Resource</b>: Exhaust Black Widow's Gauntlet → generate a [wild] resource for a [[Preparation]] card.",
-		"traits": "Tech."
+		"flavor": "\"치명적일 뿐만 아니라, 멋져 보이기까지 하네.\" -- Black Widow",
+		"name": "Black Widow 건틀렛",
+		"text": "<b>자원</b>: Black Widow 건틀렛 소진 → [[대비]] 카드를 플레이할 때만 소모할 수 있는 [wild] 자원 생성.",
+		"traits": "과학."
 	},
 	{
 		"code": "08008",
 		"flavor": "\"Bozhe moi!\" -- Black Widow",
-		"name": "Grappling Hook",
-		"text": "<b>Hero Interrupt</b>: When you reveal a treachery, discard Grappling Hook → cancel the effects of that treachery and discard it.",
-		"traits": "Preparation. Tech."
+		"name": "잠입용 갈고리",
+		"text": "<b>히어로 난입</b>: 당신이 배반을 공개할 때, Grappling Hook를 버림 → 그 배반의 효과를 모두 취소하고 버림.",
+		"traits": "대비. 과학."
 	},
 	{
 		"code": "08009",
-		"name": "Synth-Suit",
-		"text": "Black Widow gets +1 DEF.\n<b>Hero Response</b>: After you trigger the ability of a [[Preparation]] card you control, exhaust Synth-Suit → ready Black Widow.",
-		"traits": "Armor. Tech."
+		"name": "합성섬유 슈트",
+		"text": "Black Widow는 방어 +1을 받습니다.\n<b>히어로 반응</b>: 당신이 조종하는 [[대비]] 카드의 능력을 격발한 후, 합성섬유 슈트를 소진 → Black Widow를 준비.",
+		"traits": "갑옷. 과학."
 	},
 	{
 		"code": "08010",
-		"flavor": "\"Nighty night.\" -- Black Widow",
-		"name": "Widow's Bite",
-		"text": "<b>Hero Response</b> <i>(attack)</i>: After a minion enters play, discard Widow's Bite → deal 2 damage to that minion and stun it.",
-		"traits": "Preparation. Tech."
+		"flavor": "\"좋은 밤 되라고.\" -- Black Widow",
+		"name": "과부거미의 송곳니",
+		"text": "<b>히어로 반응</b><i>(공격)</i>: 하수인이 플레이 영역에 들어온 후, 과부거미의 송곳니를 버림 → 그 하수인에게 피해 2점을 입히고 기절시킴.",
+		"traits": "대비. 과학."
 	},
 	{
 		"code": "08011",
-		"flavor": "\"I'm a guy with a plan.\"",
+		"flavor": "\"저는 계획이 있는 사내입니다.\"",
 		"name": "Agent Coulson",
-		"text": "<b>Response</b>: After Agent Coulson enters play, search your deck and discard pile for a [[Preparation]] card and add it to your hand. Shuffle your deck.",
-		"traits": "S.H.I.E.L.D. Spy."
+		"text": "<b>반응</b>: Agent Coulson이 플레이 영역에 들어온 후, 당신의 덱과 버린 더미에서 [[대비]] 카드 1장을 찾아 당신의 손에 더합니다. 당신의 덱을 섞습니다.",
+		"traits": "S.H.I.E.L.D. 첩보원."
 	},
 	{
 		"code": "08012",
-		"flavor": "\"I will bring this building down around you!\"",
+		"flavor": "\"이 건물을 네 주변으로 무너뜨릴 거야!\"",
 		"name": "Quake",
 		"subname": "Daisy Johnson",
-		"text": "<b>Response</b>: After a minion schemes, exhaust Quake → deal 2 damage to that minion.",
+		"text": "<b>반응</b>: 하수인이 암약한 후, Quake를 소진 → 그 하수인에게 피해 2점을 입힙니다.",
 		"traits": "Avenger. S.H.I.E.L.D."
 	},
 	{
 		"code": "08013",
-		"flavor": "\"They'll never know what hit them.\" -- Black Widow",
-		"name": "Stealth Strike",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. If that enemy is defeated by this attack, remove 2 threat from a scheme.",
-		"traits": "Attack."
+		"flavor": "\"뭐가 자신들을 때린 건지 짐작조차 못할 걸.\" -- Black Widow",
+		"name": "은신 타격",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: 적 하나에게 피해 4점을 입힙니다. 이 공격으로 그 적을 격파했다면, 음모 하나에서 위협을 2만큼 제거합니다.",
+		"traits": "공격."
 	},
 	{
 		"code": "08017",
-		"name": "Counterintelligence",
-		"text": "Max 1 per player.\n<b>Interrupt</b>: When any amount of threat would be placed on the main scheme, discard Counterintelligence → prevent 3 of that threat.",
-		"traits": "Preparation. Skill."
+		"name": "첩보 활동",
+		"text": "플레이어마다 최대 1장.\n<b>난입</b>: 주요 음모에 위협이 놓이려 할 때, 첩보 활동을 버림 → 그 위협을 3만큼 방지함.",
+		"traits": "대비. 기술."
 	},
 	{
 		"code": "08018",
-		"name": "Spycraft",
-		"text": "Play only if you control a [[Spy]] character.\n<b>Interrupt</b>: When you reveal an encounter card, discard Spycraft → cancel the effects of that card and discard it. Then, reveal another card from the encounter deck.",
-		"traits": "Preparation. Skill."
+		"name": "스파이 활동",
+		"text": "당신이 [[첩보원]] 캐릭터를 조종하고 있을 때만 플레이합니다.\n<b>난입</b>: 당신이 조우 카드를 공개할 때, 스파이 활동을 버림 → 공개된 조우 카드의 효과를 모두 무효화하고 버림. 그러고 나서 조우 덱에서 다른 조우 카드 1장을 공개.",
+		"traits": "대비. 기술."
 	},
 	{
 		"code": "08023",
-		"flavor": "\"Too bad we could only get one of these.\" -- Hawkeye",
-		"name": "Quincarrier",
-		"text": "Play only if your identity has the [[Avenger]] trait.\n<b>Resource</b>: Exhaust Quincarrier → generate a [wild] resource.",
-		"traits": "Avenger. Vehicle."
+		"flavor": "\"이 비행기가 하나뿐이라는 점이 매우 아쉬운데.\" -- Hawkeye",
+		"name": "퀸캐리어",
+		"text": "당신의 아이덴티티에게 [[Avenger]] 특성이 있을 때만 플레이합니다.\n<b>자원</b>: 퀸캐리어를 소진 → [wild] 자원을 생성.",
+		"traits": "Avenger. 탈것."
 	},
 	{
 		"code": "08024",
-		"name": "Target Acquired",
-		"text": "Max 1 per player.\n<b>Hero Response</b>: After a boost card is turned faceup, discard Target Acquired → cancel that card's boost ability.",
-		"traits": "Preparation. Skill."
+		"name": "목표 확보",
+		"text": "플레이어마다 최대 1장.\n<b>히어로 반응</b>: 강화 카드가 뒤집힌 후, 목표 확보를 버림 → 뒤집힌 강화 카드의 <b>강화</b> 능력을 모두 무효화.",
+		"traits": "대비. 기술."
 	},
 	{
 		"code": "08030",
-		"name": "Counterattack",
-		"text": "Max 1 per player.\n<b>Hero Response</b> <i>(attack)</i>: After you take damage from an enemy attack, discard Counterattack → deal an equal amount of damage to that enemy.",
-		"traits": "Preparation. Tactic."
+		"name": "반격",
+		"text": "플레이어마다 최대 1장.\n<b>히어로 반응</b><i>(공격)</i>: 당신이 적의 공격으로 피해를 입은 후, 반격을 버림 → 같은 만큼의 피해를 그 적에게 입힘.",
+		"traits": "대비. 전술."
 	},
 	{
 		"code": "08031",
-		"name": "Rapid Response",
-		"text": "Max 1 per player.\n<b>Hero Response</b>: After an ally you control is defeated, discard Rapid Response → put that ally into play from your discard pile and deal 1 damage to it.",
-		"traits": "Preparation. Tactic."
+		"name": "재빠른 대응",
+		"text": "플레이어마다 최대 1장.\n<b>히어로 반응</b>: 당신이 조종하는 동료가 격파된 후, 재빠른 대응을 버림 → 당신의 버린 더미에 있는 그 동료를 플레이 영역에 내려놓고 피해 1점을 입힘.",
+		"traits": "대비. 전술."
 	},
 	{
 		"code": "08032",
-		"name": "Defensive Stance",
-		"text": "Max 1 per player.\n<b>Hero Interrupt</b>: When you would take any amount of damage, discard Defensive Stance → prevent 3 of that damage.",
-		"traits": "Preparation. Tactic."
+		"name": "방어 태세",
+		"text": "플레이어마다 최대 1장.\n<b>히어로 난입</b>: 당신이 피해를 받으려 할 때, 방어 태세를 버림 → 그 피해에서 3점을 방지.",
+		"traits": "대비. 전술."
 	},
 	{
 		"code": "08033",
-		"name": "Espionage",
-		"text": "Play only if you control a [[Spy]] character.\n<b>Interrupt</b>: When the surge keyword on an encounter card would be resolved, discard Espionage → draw 2 cards.",
-		"traits": "Preparation. Skill."
+		"name": "방첩 활동",
+		"text": "당신이 [[첩보원]] 캐릭터를 조종하고 있을 때만 플레이합니다.\n<b>난입</b>: 조우 카드에 있는 쇄도 키워드가 해결되려 할 때, 방첩 활동을 버림 → 카드 2장을 뽑음.",
+		"traits": "대비. 기술."
 	}
+
 ]
