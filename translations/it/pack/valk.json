@@ -1,0 +1,152 @@
+[
+	{
+		"code": "25001a",
+		"flavor": "\"I am the chooser of the slain.\"",
+		"name": "Valkyrie",
+		"text": "Death Perception — <b>Hero Action</b>: Play the set-aside Death-Glow upgrade as if it were in your hand.",
+		"traits": "Asgard. Avenger."
+	},
+	{
+		"code": "25001b",
+		"name": "Brunnhilde",
+		"text": "<b>Setup:</b> Set the Death Glow upgrade aside, out of play.\n\"Not this Day.\" — <b>Action</b>: Detach Death-Glow and set it aside, out of play.",
+		"traits": "Asgard."
+	},
+	{
+		"code": "25002",
+		"name": "Death-Glow",
+		"text": "Attach to an enemy.\n<b>Forced Interrupt</b>: When attached enemy is defeated, set this card aside, out of play. If Valkyrie defeated that enemy, ready her.",
+		"traits": "Condition."
+	},
+	{
+		"code": "25003",
+		"flavor": "\"I've got friends on Earth who could use some help.\"",
+		"name": "Annabelle Riggs",
+		"text": "<b>Alter-Ego Action</b>: Exhaust Annabelle Riggs → search the top 5 cards of your deck for a Valkyrie card and add it to your hand. Shuffle the rest back into your deck.",
+		"traits": "Civilian."
+	},
+	{
+		"code": "25004",
+		"name": "Valhalla",
+		"text": "<b>Response</b>: After Valkyrie attacks and defeats the enemy that has Death-Glow attached, exhaust Valhalla → draw 1 card and heal 1 damage from Valkyrie.",
+		"traits": "Asgard. Location."
+	},
+	{
+		"code": "25005",
+		"name": "Valkyrie's Spear",
+		"text": "Restricted.\nValkyrie gets +1 DEF (+2 DEF instead while defending against the enemy with Death Glow attached).",
+		"traits": "Asgard. Weapon."
+	},
+	{
+		"code": "25006",
+		"flavor": "\"Dragonfang strikes swiftly and deep. You might be wise to surrender.\" —Valkyrie",
+		"name": "Dragonfang",
+		"text": "Restricted.\nValkyrie gets +1 ATK (+2 ATK instead while attacking the enemy with Death-Glow attached).",
+		"traits": "Asgard. Weapon."
+	},
+	{
+		"code": "25007",
+		"flavor": "\"A fearless beast. If by his life or death he can save us all, he will.\" —Valkyrie",
+		"name": "Aragorn",
+		"text": "Valkyrie gets +4 hit points and gains the [[aerial]] trait.",
+		"traits": "Asgard. Creature."
+	},
+	{
+		"code": "25008",
+		"flavor": "The Valkyrior carry the spirits of fallen warriors to Valhalla, if they be worthy.",
+		"name": "Flight of the Valkyrior",
+		"text": "<b>Response</b>: After the enemy with Death-Glow is defeated, discard Flight of the Valkyrior → remove 5 threat from a scheme."
+	},
+	{
+		"code": "25009",
+		"flavor": "As One of the Valkyrior, Valkyrie can open a portal to Valhalla whenever she wishes.",
+		"name": "Visit Valhalla",
+		"text": "<b>Alter-Ego Action</b>: Return a Valkyrie card from your discard pile to your hand."
+	},
+	{
+		"code": "25010",
+		"flavor": "\"Your time has come. Die with honor.\" —Valkyrie",
+		"name": "Chooser of the Slain",
+		"text": "<b>Hero Action</b>: Search the encounter deck and discard pile for a minion and put it into play engaged with you → draw 2 cards."
+	},
+	{
+		"code": "25011",
+		"name": "Shieldmaiden",
+		"text": "<b>Hero Interrupt</b>: When the enemy with Death-Glow attached attacks, declare Valkyrie the defender without exhausting her. She gets +2 DEF for this attack."
+	},
+	{
+		"code": "25012",
+		"name": "Have at Thee!",
+		"text": "<b>Hero Action</b>(attack): Deal 7 damage to an enemy. If that enemy has Death-Glow attached, this attack gains overkill.",
+		"traits": "Attack."
+	},
+	{
+		"code": "25013",
+		"name": "Thor",
+		"subname": "Odinsson",
+		"text": "Toughness.\n<b>Interrupt</b>: When Thor attacks a minion engaged with a player, spend a [energy] resource → resolve this attack against each minion engaged with that player (in the order of your choice).",
+		"traits": "Asgard. Avenger."
+	},
+	{
+		"code": "25014",
+		"flavor": "\"Ribbit!\"",
+		"name": "Throg",
+		"text": "<b>Response</b>: After Throg enters play, give him a tough status card if you are engaged with a minion.",
+		"traits": "Asgard. Guardian."
+	},
+	{
+		"code": "25018",
+		"flavor": "\"And stay down!\" —Power Man",
+		"name": "Quick Strike",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal damage to an enemy equal to your ATK."
+	},
+	{
+		"code": "25019",
+		"flavor": "\"Let Mjolnir speak!\" —Thor",
+		"name": "Smash the Problem",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Exhaust your hero → remove threat from a scheme equal to your hero's ATK.",
+		"traits": "Thwart."
+	},
+	{
+		"code": "25020",
+		"flavor": "\"I know we're Guardians of the Galaxy, but we prefer shooting to being shot at.\" —Rocket Raccoon",
+		"name": "The Best Defense…",
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When your hero defends against an attack, use its ATK instead of its DEF for this attack."
+	},
+	{
+		"code": "25023",
+		"name": "The Bifrost",
+		"text": "Play only if your identity has the [[asgard]] trait.\n<b>Action</b>: Exhaust The Bifrost → search your deck for an [[asgard]] ally and play it <i>(paying its cost)</i>. Shuffle your deck.",
+		"traits": "Asgard. Location."
+	},
+	{
+		"code": "25024",
+		"flavor": "\"Showoff.\" —Jane Foster",
+		"name": "Godlike Stamina",
+		"text": "Play only if your identity has the [[asgard]] trait.\n<b>Action</b>: Heal 2 damage from your identity. You may discard a status card from your identity."
+	},
+	{
+		"code": "25033",
+		"name": "Problem Solvers",
+		"text": "Alliance.\n<b>Hero Action</b> <i>(thwart)</i>: Exhaust an [[avenger]] character and a [[guardian]] character → remove X threat from each scheme, where X is equal to the combined THW of those characters.",
+		"traits": "Thwart."
+	},
+	{
+		"code": "25034",
+		"name": "Leadership Training",
+		"text": "Max 2 per deck. Uses (2 training counters).\n<b>Alter-ego Action</b>: Exhaust this card and remove 1 training counter from it → choose a leadership (blue) event in you discard pile and shuffle it into your deck.",
+		"traits": "Condition."
+	},
+	{
+		"code": "25035",
+		"flavor": "\"Bout time you showed up!\" —Hawkeye",
+		"name": "Anticipation",
+		"text": "Max 1 per player.\n<b>Hero Interrupt</b>: When you engage a minion, discard this card → ready your hero.",
+		"traits": "Preparation."
+	},
+	{
+		"code": "25036",
+		"name": "Cosmic Alliance",
+		"text": "Alliance. <i>(The players can pay this card's costs as a group.)</i>\n<b>Hero Action</b>: Choose an [[avenger]] character and a [[guardian]] character → ready each of those characters."
+	}
+]
