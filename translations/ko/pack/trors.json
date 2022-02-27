@@ -1,344 +1,344 @@
 [
 	{
 		"code": "04001a",
-		"flavor": "\"I may not be the mightiest Avenger, but I'm definitely the coolest.\"",
+		"flavor": "\"내가 가장 강한 Avenger가 아닐지도 모르지만, 가장 멋진 Avenger인 건 확실하지.\"",
 		"name": "Hawkeye",
-		"text": "\"Quick Draw\" — <b>Action</b>: Exhaust Hawkeye → ready Hawkeye's bow.",
+		"text": "\"신속한 활시위 당기기\" — <b>행동</b>: Hawkeye를 소진 → Hawkeye 활을 준비.",
 		"traits": "Avenger."
 	},
 	{
 		"code": "04001b",
 		"name": "Clint Barton",
-		"text": "Weapon of Choice — <b>Action</b>: Spend 1 resource of any type → search your deck and discard pile for Hawkeye's Bow and add it to your hand. Shuffle your deck. (Limit once per phase).",
+		"text": "전용 무기 — <b>행동</b>: 아무 유형의 자원을 1개 소모 → 당신의 덱과 버린 더미에서 Hawkeye 활을 찾아 당신의 손에 더합니다. 당신의 덱을 섞습니다(페이즈마다 1회 제한).",
 		"traits": "S.H.I.E.L.D."
 	},
 	{
 		"code": "04002",
-		"name": "Hawkeye's Bow",
-		"text": "Restricted.\nYour hero gets +1 ATK and each of your [[Arrow]] attacks gain ranged.",
-		"traits": "Weapon."
+		"name": "Hawkeye 활",
+		"text": "한정.\n당신의 히어로가 공격 +1을 받고 당신의 각 [[화살]] 공격은 원거리를 얻습니다.",
+		"traits": "무기."
 	},
 	{
 		"code": "04003",
-		"name": "Hawkeye's Quiver",
-		"text": "You may play [[Arrow]] events attached to this card as if they were in your hand.\n<b>Hero Action</b>: Exhaust Hawkeye's Quiver → search the top 5 cards of your deck for an [[Arrow]] event and attach it faceup to this card.",
-		"traits": "Item."
+		"name": "Hawkeye 화살통",
+		"text": "당신은 이 카드에 장착된 [[화살]] 이벤트를 당신의 손에 있는 것처럼 플레이해도 됩니다.\n<b>히어로 행동</b>: Hawkeye 화살통을 소진 → 당신의 덱 맨 위 5장에서 [[화살]] 이벤트 1장을 찾아 이 카드에 앞면으로 장착합니다.",
+		"traits": "도구."
 	},
 	{
 		"code": "04004",
-		"flavor": "\"Is that all you got?\"",
+		"flavor": "\"이게 다야?\"",
 		"name": "Mockingbird",
 		"subname": "Bobbi Morse",
-		"text": "<b>Interrupt</b>: When the villain initiates an attack against you, spend 1 resource of any type and return Mockingbird to your hand → prevent all damage from this attack.",
+		"text": "<b>난입</b>: 빌런이 당신에게 공격을 개시할 때, 아무 유형의 자원을 1개 소모하고 Mockingbird를 당신의 손으로 되돌림 → 이 공격에서 모든 피해를 방지.",
 		"traits": "Avenger. S.H.I.E.L.D."
 	},
 	{
 		"code": "04005",
-		"flavor": "EEEEEEEEEEEEEEEEEE!!!",
-		"name": "Sonic Arrow",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust Hawkeye's Bow → confuse an enemy and deal 3 damage to it (5 damage instead if it is already confused)",
-		"traits": "Arrow. Attack."
+		"flavor": "휘이이이이이이이이이이익!!!",
+		"name": "음파 화살",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: Hawkeye 활을 소진 → 적 하나를 혼란에 빠뜨리고 피해 3점을 입힘(이미 혼란에 빠졌다면 대신 피해 5점을 입힘).",
+		"traits": "화살. 공격."
 	},
 	{
 		"code": "04006",
-		"flavor": "\"Anyone ever tell you how your eyes sparkle when you're angry?\" -- Clint Barton",
-		"name": "Explosive Arrow",
-		"text": "<b>Hero Action</b>: Exhaust Hawkeye's Bow and choose a player → deal 3 damage to the villain and each minion engaged with that player.",
-		"traits": "Arrow."
+		"flavor": "\"네가 화났을 때 어떻게 눈이 반짝이는지 얘기해준 사람이 아무도 없었나?\" -- Clint Barton",
+		"name": "폭파 화살",
+		"text": "<b>히어로 행동</b>: Hawkeye 활을 소진하고 플레이어 하나를 선택 → 선택한 플레이어와 교전 중인 각 하수인과 빌런에게 피해 3점을 입힘.",
+		"traits": "화살."
 	},
 	{
 		"code": "04007",
-		"flavor": "\"Hail Hawkeye!\" -- Clint Barton",
-		"name": "Electric Arrow",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust Hawkeye's Bow → stun an enemy and deal 3 damage to it (5 damage instead if it is already stunned).",
-		"traits": "Arrow. Attack."
+		"flavor": "\"헤일 Hawkeye!\" -- Clint Barton",
+		"name": "전류 화살",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: Hawkeye 활 소진 → 적 하나를 기절시키고 피해 3점을 입힘(이미 기절했다면 대신 피해 5점을 입힘).",
+		"traits": "화살. 공격."
 	},
 	{
 		"code": "04008",
-		"flavor": "\"It's a great way to get around.\" -- Clint Barton",
-		"name": "Cable Arrow",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Exhaust Hawkeye's Bow → remove 3 threat from a scheme, ignoring any crisis icons in play.",
-		"traits": "Arrow. Thwart."
+		"flavor": "\"좋은 이동수단이지.\" -- Clint Barton",
+		"name": "케이블 화살",
+		"text": "<b>히어로 행동</b><i>(저지)</i>: Hawkeye 활 소진 → 플레이 영역에 있는 모든 위기 아이콘을 무시한 채로 음모 하나에서 위협을 3만큼 제거.",
+		"traits": "화살. 저지."
 	},
 	{
 		"code": "04009",
-		"name": "Vibranium Arrow",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust Hawkeye's Bow → deal 6 damage to an enemy. This attack gains piercing.",
-		"traits": "Arrow. Attack."
+		"name": "비브라늄 화살",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: Hawkeye 활 소진 → 적 하나에게 피해 6점을 입힘. 이 공격은 관통을 얻음.",
+		"traits": "화살. 공격."
 	},
 	{
 		"code": "04010",
-		"flavor": "\"When you fight alongside gods and monsters, it's not enough to be great; you have to the best.\" -- Clint Barton",
-		"name": "Expert Marksman",
-		"text": "<b>Resource</b>: Exhaust Expert Marksman → generate a [wild] resource for an [[Arrow]] event.",
-		"traits": "Skill."
+		"flavor": "\"신이나 괴물 옆에서 싸우려면, 위대한 것만으론 충분치 않지. 최고가 되어야만 해.\" -- Clint Barton",
+		"name": "숙련된 명사수",
+		"text": "<b>자원</b>: 숙련된 명사수를 소진 → [[화살]] 이벤트를 플레이할 때만 소모할 수 있는 [wild] 자원 생성.",
+		"traits": "기술."
 	},
 	{
 		"code": "04011",
-		"flavor": "\"You see I', literally pointing arrows at your, right?.\"",
+		"flavor": "\"내가 말 그대로 너를 향해 화살을 조준하고 있는 게 보이지, 그치?\"",
 		"name": "Hawkeye",
 		"subname": "Kate Bishop",
-		"text": "<b>Action</b>: Exhaust this ally and discard 1 card from your hand → deal X damage to an enemy, where X is the number of printed resources on that card.",
+		"text": "<b>행동</b>: 이 동료를 소진하고 당신의 손에서 카드 1장을 버림 → 적 하나에게 피해 X점을 입힘. X는 버려진 카드에 인쇄된 자원 비용.",
 		"traits": "Avenger."
 	},
 	{
 		"code": "04012",
-		"flavor": "\"As long as the Black Blade blazes darkly in my hand, I must fight on.\"",
+		"flavor": "\"검은 칼날이 내 손에서 어둡게 빛나는 한, 나는 싸움을 이어나가야만 한다.\"",
 		"name": "Black Knight",
 		"subname": "Dane Whitman",
-		"text": "Black Knight's basic attack gains piercing.",
+		"text": "Black Knight의 기본 공격은 관통을 얻습니다.",
 		"traits": "Avenger."
 	},
 	{
 		"code": "04013",
-		"flavor": "\"Sometimes being a gentleman means holding the door, and the rest of the building.\"",
+		"flavor": "\"때로는 문을 잡아주는 것이 신사라고 할 수 있지. 이렇게 건물의 나머지 부분도 잡아 주면 좋고.\"",
 		"name": "Goliath",
 		"subname": "Bill Foster",
-		"text": "<b>Action</b>: Goliath gets +4 ATK until the end of the phase. At the end of the phase, discard Goliath. (Max once per phase.)",
+		"text": "<b>행동</b>: Goliath은 페이즈의 끝까지 공격 +4를 받습니다. 페이즈의 끝에, Goliath을 버립니다(페이즈마다 최대 1번).",
 		"traits": "Avenger."
 	},
 	{
 		"code": "04014",
-		"flavor": "\"Cap isn't the only soldier who loves his country.\"",
+		"flavor": "\"국가를 사랑하는 군인은 캡틴만이 아냐.\"",
 		"name": "U.S. Agent",
 		"subname": "John Walker",
-		"text": "Retaliate 1.",
+		"text": "반격 1.",
 		"traits": "Avenger."
 	},
 	{
 		"code": "04015",
-		"name": "Sky Cycle",
-		"text": "Attach to an [[Avenger]] ally. Max 1 per ally.\nAttached ally gains [[Aerial]].\n<b>Action</b>: Exhaust Sky Cycle → ready attached ally.",
-		"traits": "Vehicle."
+		"name": "스카이 사이클",
+		"text": "[[Avenger]] 동료에게 장착합니다. 동료마다 1장 제한.\n장착된 동료는 [[공중]] 특성을 얻습니다.\n<b>행동</b>: 스카이 사이클을 소진 → 장착된 동료를 준비.",
+		"traits": "탈것."
 	},
 	{
 		"code": "04016",
-		"flavor": "\"We mostly just wait for Cap to yell 'Avengers Assemble' and attack in the same direction as him\" -- Clint Barton",
-		"name": "Team Training",
-		"text": "Play under any player's control. Max 1 per player.\nEach ally you control gets +1 hit point.",
-		"traits": "Condition."
+		"flavor": "\"대부분의 작전은 그냥 캡틴이 ‘Avengers 어셈블’을 외치는 걸 기다렸다가 캡틴과 같은 방향으로 공격을 시작하는 거야.\" -- Clint Barton",
+		"name": "팀 훈련",
+		"text": "이 카드를 플레이하면, 조종할 플레이어를 정합니다. 플레이어마다 최대 1장.\n당신이 조종하는 각 동료는 생명력 +1을 받습니다.",
+		"traits": "상태."
 	},
 	{
 		"code": "04017",
-		"flavor": "\"Try that again. I dare you.\" -- Jessica Drew",
-		"name": "Ready for Action",
-		"text": "<b>Hero Action</b>: Give an ally you control a tough status card.",
-		"traits": "Tactic."
+		"flavor": "\"다시 해 봐. 강력히 권고할게.\" -- Jessica Drew",
+		"name": "활동 준비 완료",
+		"text": "<b>히어로 행동</b>: 당신이 조종하는 동료 하나에게 강인함 상태 카드를 줍니다.",
+		"traits": "전술."
 	},
 	{
 		"code": "04020",
 		"name": "War Machine",
 		"subname": "James Rhodes",
-		"text": "Toughness.\nWar Machine's basic attack gains ranged.",
+		"text": "강인.\nWar Machine의 기본 공격은 원거리를 얻습니다.",
 		"traits": "Avenger. S.H.I.E.L.D."
 	},
 	{
 		"code": "04022",
-		"flavor": "\"We come together to fight what can't be fought alone.\" -- Luke Cage",
-		"name": "Earth's Mightiest Heroes",
-		"text": "<b>Hero Action</b>: Exhaust an [[avenger]] character you control → ready another [[avenger]] character you control.",
+		"flavor": "\"우리는 홀로 싸울 수 없는 적과 맞서기 위해 뭉쳤다.\" -- Luke Cage",
+		"name": "지구의 위대한 영웅들",
+		"text": "<b>히어로 행동</b>: 당신이 조종하는 [[avenger]] 캐릭터 하나를 소진 → 당신이 조종하는 다른 [[avenger]] 캐릭터 하나를 준비.",
 		"traits": ""
 	},
 	{
 		"code": "04031a",
 		"name": "Spider-Woman",
-		"text": "\"Superhuman Agility\" — <b>Interrupt</b>: When you play an aspect card, Spider-Woman gets +1 THW, +1 ATK, and +1 DEF until the end of the round. (limit once per round for each aspect.)",
-		"traits": "Avenger. Spy."
+		"text": "\"슈퍼휴먼의 민첩성\" — <b>난입</b>: 당신이 성향 카드를 플레이할 때, Spider-Woman은 라운드 끝까지 저지 +1, 공격 +1, 방어 +1을 받습니다(각 성향에 대해 라운드마다 1회 제한).",
+		"traits": "Avenger. 첩보원."
 	},
 	{
 		"code": "04031b",
 		"name": "Jessica Drew",
-		"text": "Double Agent — Choose two aspects instead of one during deck-building. You must include an equal number of cards from those aspects in your deck.\n<b>Action:</b>: Look at the top card of any deck. (Limit once per round.)",
-		"traits": "S.H.I.E.L.D. Spy."
+		"text": "이중 첩자 — 나만의 덱 구성 과정 중 ‘정확히 하나의 성향’을 선택하는 대신 ‘두 개의 성향’을 선택합니다. 당신의 덱에 해당 성향들의 카드는 정확히 같은 수만큼 존재해야 합니다.\n<b>행동:</b>: 아무 덱 맨 위에서 카드 1장을 봅니다(라운드마다 1회 제한.)",
+		"traits": "S.H.I.E.L.D. 첩보원."
 	},
 	{
 		"code": "04032",
-		"flavor": "\"I gotta hand it to you, kid. This is one of the more impressive messes I've ever seen.\"",
+		"flavor": "\"다 네 덕분이야, 꼬마야. 이건 내가 본 것 중 가장 인상 깊은 난장판 중 하나구나.\"",
 		"name": "Captain Marvel",
 		"subname": "Carol Danvers",
-		"text": "<b>Response</b>: After Captain Marvel uses a basic power, draw 1 card.",
+		"text": "<b>반응</b>: Captain Marvel이 기본 기능을 사용한 후, 카드 1장을 뽑습니다.",
 		"traits": "Avenger."
 	},
 	{
 		"code": "04033",
-		"name": "Finesse",
-		"text": "<b>Hero Resource</b>: Exhaust Finesse → generate a [wild] resource for an aspect card.",
-		"traits": "Condition."
+		"name": "능숙한 움직임",
+		"text": "<b>히어로 자원</b>: 능숙한 움직임을 소진 → 성향 카드를 플레이할 때만 소모할 수 있는 [wild] 자원을 생성.",
+		"traits": "상태."
 	},
 	{
 		"code": "04034",
 		"name": "Jessica Drew's Apartment",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Jessica Drew's Apartment → search the top 5 cards of your deck for an aspect card and add it to your hand. Shuffle your deck.",
-		"traits": "Location."
+		"text": "<b>일상 행동</b>: Jessica Drew의 집을 소진 → 당신의 덱 맨 위 5장에서 성향 카드 1장을 찾아 당신의 손에 더합니다. 당신의 덱을 섞습니다.",
+		"traits": "장소."
 	},
 	{
 		"code": "04035",
-		"name": "Venom Blast",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 5 damage to an enemy.",
-		"traits": "Attack. Superpower."
+		"name": "베놈 블라스트",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: 적 하나에게 피해 5점을 입힙니다.",
+		"traits": "공격. 슈퍼파워."
 	},
 	{
 		"code": "04036",
-		"flavor": "\"Warn me before you use that power again, okay?\" -- Peter Parker",
-		"name": "Pheromones",
-		"text": "<b>Hero Action</b>: Stun and confuse an enemy.",
-		"traits": "Superpower."
+		"flavor": "\"다음부터는 그 힘을 쓰기 전에 저한테 경고부터 해주시겠어요?\" -- Peter Parker",
+		"name": "페로몬",
+		"text": "<b>히어로 행동</b>: 적 하나를 기절시키고 혼란에 빠뜨립니다.",
+		"traits": "슈퍼파워."
 	},
 	{
 		"code": "04037",
-		"name": "Contaminant Immunity",
-		"text": "<b>Hero Action</b>: Heal 3 damage from Spider-Woman and give her a tough status card.",
-		"traits": "Superpower."
+		"name": "오염물질 면역",
+		"text": "<b>히어로 행동</b>: Spider-Woman이 입은 피해 3점을 치료하고 강인함 상태 카드를 줍니다.",
+		"traits": "슈퍼파워."
 	},
 	{
 		"code": "04038",
-		"flavor": "\"Now all I gotta do is Spy-der Woman my way inside.\" -- Jessica Drew",
-		"name": "Inconspicuous",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove a total of 3 threat from among schemes in play.",
-		"traits": "Skill. Thwart."
+		"flavor": "\"이제 Spyder Woman의 방식대로 잠입하기만 하면 돼.\" -- Jessica Drew",
+		"name": "눈에 띄지 않게",
+		"text": "<b>히어로 행동</b><i>(저지)</i>: 플레이 영역에 있는 음모에서 원하는 조합으로 위협을 총 3만큼 제거합니다.",
+		"traits": "기술. 저지."
 	},
 	{
 		"code": "04039",
-		"flavor": "\"People always think I can fly. I can't But I do glide really well.\" -- Jessica Drew",
-		"name": "Self-Propelled Glide",
-		"text": "<b>Hero Action</b>: Ready Spider-Woman. She gains [[aerial]] until the end of the round.",
-		"traits": "Superpower."
+		"flavor": "\"다들 내가 날 수 있다고 생각하던데, 사실은 그냥 글라이딩을 매우 잘할 뿐이야.\" -- Jessica Drew",
+		"name": "자가추진 글라이더",
+		"text": "<b>히어로 행동</b>: Spider-Woman을 준비합니다. Spider-Woman은 라운드 끝까지 [[공중]] 특성을 얻습니다.",
+		"traits": "슈퍼파워."
 	},
 	{
 		"code": "04040",
-		"flavor": "\"Alright you bunch of losers. Who wants a piece of me?.\"",
+		"flavor": "\"좋아, 이 패배자 무리들아. 누가 나랑 한 판 붙을래?\"",
 		"name": "Spider-Girl",
 		"subname": "Anya Corazon",
-		"text": "<b>Response</b>: After you play Spider-Girl from your hand, stun and confuse a minion.",
+		"text": "<b>반응</b>: 당신의 손에서 Spider-Girl 을 플레이한 후, 하수인 하나를 기절시키고 혼란에 빠뜨립니다.",
 		"traits": "Avenger."
 	},
 	{
 		"code": "04043",
-		"flavor": "\"You are in Wakanda now!\" -- T'Challa",
-		"name": "Press the Advantage",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 2 damage to an enemy. If that enemy is stunned or confused, draw 1 card.",
-		"traits": "Attack."
+		"flavor": "\"넌 이제 와칸다 영토에 있다!\" -- T'Challa",
+		"name": "이점을 활용하다",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: 적 하나에게 피해 2점을 입힙니다. 그 적이 기절했거나 혼란에 빠졌다면, 카드 1장을 뽑습니다.",
+		"traits": "공격."
 	},
 	{
 		"code": "04044",
-		"name": "Piercing Strike",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 3 damage to an enemy. This attack gains piercing.",
-		"traits": "Attack."
+		"name": "관통 타격",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: 적 하나에게 피해 3점을 입힙니다. 이 공격은 관통을 얻습니다.",
+		"traits": "공격."
 	},
 	{
 		"code": "04045",
-		"flavor": "\"Seriously, what is it with New York? Would it kill you to invade Denver once?.\"",
+		"flavor": "\"진지하게, 왜 뉴욕에서만 이렇게 난리야? 저쪽 덴버에라도 한 번 습격하면 몸에 쥐가 날 지경이야?\"",
 		"name": "Spider-Man",
 		"subname": "Peter Parker",
-		"text": "<b>Response</b>: After you play Spider-Man from your hand, remove 3 [per_hero] threat from a side scheme.",
+		"text": "<b>반응</b>: 당신의 손에서 Spider-Man을 플레이한 후, 부가 음모 하나에서 위협을 3 [per_hero]만큼 제거합니다.",
 		"traits": "Avenger."
 	},
 	{
 		"code": "04047",
-		"name": "Skilled Investigator",
-		"text": "Play under any player's control. Max 1 per player.\n<b>Hero Response</b>: After a side scheme is defeated, exhaust Skilled Investigator → draw 1 card.",
-		"traits": "Skill."
+		"name": "능숙한 조사자",
+		"text": "이 카드를 플레이하면, 조종할 플레이어를 정합니다. 플레이어마다 최대 1장.\n<b>히어로 반응</b>: 부가 음모가 격파된 후, 능숙한 조사자를 소진 → 카드 1장을 뽑음.",
+		"traits": "기술."
 	},
 	{
 		"code": "04049",
-		"flavor": "\"Don't be scared, honey. Just think about how jealous the other kids will be when you tell them how Iron Man rescued you.\" -- Tony Stark",
-		"name": "Clear the Area",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from a scheme. If this removes the last threat on that scheme, draw 1 card.",
-		"traits": "Thwart."
+		"flavor": "\"무서워하지 마, 꼬마야. Iron Man이 널 구해 줬다는 이야기를 해줬을 때 다른 애들이 얼마나 부러워할지만 생각하렴.\" -- Tony Stark",
+		"name": "지역 시민 구출",
+		"text": "<b>히어로 행동</b><i>(저지)</i>: 음모 하나에서 위협을 2만큼 제거합니다. 이렇게 그 음모의 마지막 위협을 제거하면, 카드 1장을 뽑습니다.",
+		"traits": "저지."
 	},
 	{
 		"code": "04155",
-		"name": "Adrenal Stims",
-		"text": "Setup.\n<b>Hero Action:</b> Discard this card and remove it from the campaign log → ready your hero and heal 5 damage from them.",
-		"traits": "Tech."
+		"name": "아드레날린 자극제",
+		"text": "사전 준비.\n<b>히어로 행동:</b> 이 카드를 버리고 캠페인 기록지에서 제거 → 당신의 히어로를 준비하고 당신의 히어로가 입은 피해 5점을 치료.",
+		"traits": "과학."
 	},
 	{
 		"code": "04156",
-		"name": "Tactical Scanner",
-		"text": "Setup.\n<b>Hero Action:</b> Discard this card and remove it from the campaign log → draw 5 cards.",
-		"traits": "Tech."
+		"name": "전술 스캐너",
+		"text": "사전 준비.\n<b>히어로 행동:</b> 이 카드를 버리고 캠페인 기록지에서 제거 → 카드 5장을 뽑음.",
+		"traits": "과학."
 	},
 	{
 		"code": "04157",
-		"name": "Emergency Teleporter",
-		"text": "Setup.\n<b>Hero Action:</b> Discard this card and remove it from the campaign log → search your deck and discard pile for an ally, put it into play, and give it a tough status card.",
-		"traits": "Tech."
+		"name": "비상 순간이동 장치",
+		"text": "사전 준비.\n<b>히어로 행동:</b> 이 카드를 버리고 캠페인 기록지에서 제거 → 당신의 덱과 버린 더미에서 동료 하나를 찾아 플레이 영역에 내려놓고 강인함 상태 카드를 줍니다.",
+		"traits": "과학."
 	},
 	{
 		"code": "04158",
-		"name": "Laser Cannon",
-		"text": "Setup.\n<b>Hero Action:</b> Discard this card and remove it from the campaign log → deal 5 damage to the villain and each enemy engaged with you.",
-		"traits": "Tech."
+		"name": "레이저 캐논",
+		"text": "사전 준비.\n<b>히어로 행동:</b> 이 카드를 버리고 캠페인 기록지에서 제거 → 당신과 교전 중인 각 하수인과 빌런에게 피해 5점을 입힘.",
+		"traits": "과학."
 	},
 	{
 		"code": "04159a",
-		"name": "Basic Thwart Upgrade",
-		"text": "Permanent. Setup.\nYou get +2 hit points.\nYour hero gets +1 THW.",
-		"traits": "Condition."
+		"name": "기본 저지 업그레이드",
+		"text": "영속. 사전 준비.\n당신은 생명력 +2를 받습니다.\n당신의 히어로가 저지 +1을 받습니다.",
+		"traits": "상태."
 	},
 	{
 		"code": "04159b",
-		"name": "Improved Thwart Upgrade",
-		"text": "Permanent. Setup.\nYou get +2 hit points.\nYour hero gets +1 THW.\n<b>Response:</b> After you defeat a side scheme, exhaust this card → draw 1 card.",
-		"traits": "Condition."
+		"name": "향상된 저지 업그레이드",
+		"text": "영속. 사전 준비.\n 당신은 생명력 +2를 받습니다.\n당신의 히어로가 저지 +1을 받습니다.\n<b>반응:</b> 당신이 부가 음모를 격파한 후, 이 카드를 소진 → 카드 1장을 뽑음.",
+		"traits": "상태."
 	},
 	{
 		"code": "04160a",
-		"name": "Basic Attack Upgrade",
-		"text": "Permanent. Setup.\nYou get +1 hit points.\nYour hero gets +1 ATK.",
-		"traits": "Condition."
+		"name": "기본 공격 업그레이드",
+		"text": "영속. 사전 준비.\n당신은 생명력 +1을 받습니다.\n당신의 히어로가 공격 +1을 받습니다.",
+		"traits": "상태."
 	},
 	{
 		"code": "04160b",
-		"name": "Improved Attack Upgrade",
-		"text": "Permanent. Setup.\nYou get +1 hit points.\nYour hero gets +1 ATK.\n<b>Hero Response:</b> After you defeat a minion, exhaust this card → draw 1 card.",
-		"traits": "Condition."
+		"name": "향상된 공격 업그레이드",
+		"text": "영속. 사전 준비.\n당신은 생명력 +1을 받습니다.\n당신의 히어로가 공격 +1을 받습니다.\n<b>히어로 반응:</b> 당신이 하수인을 격파한 후, 이 카드를 소진 → 카드 1장을 뽑음.",
+		"traits": "상태."
 	},
 	{
 		"code": "04161a",
-		"name": "Basic Defense Upgrade",
-		"text": "Permanent. Setup.\nYou get +3 hit points.\nYour hero gets +1 DEF.",
-		"traits": "Condition."
+		"name": "기본 방어 업그레이드",
+		"text": "영속. 사전 준비.\n당신은 생명력 +3을 받습니다.\n당신의 히어로가 방어 +1을 받습니다.",
+		"traits": "상태."
 	},
 	{
 		"code": "04161b",
-		"name": "Improved Defense Upgrade",
-		"text": "Permanent. Setup.\nYou get +3 hit points.\nYour hero gets +1 DEF.\n<b>Hero Response:</b> After you defend against an attack, exhaust this card → draw 1 card.",
-		"traits": "Condition."
+		"name": "향상된 방어 업그레이드",
+		"text": "영속. 사전 준비.\n당신은 생명력 +3을 받습니다.\n당신의 히어로가 방어 +1을 받습니다.\n<b>히어로 반응:</b> 당신이 적의 공격을 방어한 후, 이 카드를 소진 → 카드 1장을 뽑음.",
+		"traits": "상태."
 	},
 	{
 		"code": "04162a",
-		"name": "Basic Recovery Upgrade",
-		"text": "Permanent. Setup.\nYou get +4 hit points.\nYour alter-ego gets +1 REC.",
-		"traits": "Condition."
+		"name": "기본 회복 업그레이드",
+		"text": "영속. 사전 준비.\n당신은 생명력 +4를 받습니다.\n당신의 일상은 회복 +1을 받습니다.",
+		"traits": "상태."
 	},
 	{
 		"code": "04162b",
-		"name": "Improved Recovery Upgrade",
-		"text": "Permanent. Setup.\nYou get +4 hit points.\nYour alter-ego gets +1 REC.\n<b>Response:</b> After you use your REC, exhaust this card → draw 1 card.",
-		"traits": "Condition."
+		"name": "향상된 회복 업그레이드",
+		"text": "영속. 사전 준비.\n당신은 생명력 +4를 받습니다.\n당신의 일상은 회복 +1을 받습니다.\n<b>반응:</b> 당신이 회복 기능을 사용한 후, 이 카드를 소진 → 카드 1장을 뽑음.",
+		"traits": "상태."
 	},
 	{
 		"code": "04163",
-		"flavor": "\"A beautiful parasite growing inside the world's most secure computer systems.\" -- Arnim Zola",
-		"name": "Zola's Algorithm",
-		"text": "<b>Alter-Ego Action</b> Exhaust your alter-ego and spend a [mental] resource → discard this card."
+		"flavor": "\"세상에서 보안이 가장 강한 컴퓨터 시스템 안에서 자라고 있는 아름다운 기생충이지.\" -- Arnim Zola",
+		"name": "Zola 알고리즘",
+		"text": "<b>일상 행동</b> 당신의 일상을 소진하고 [mental] 자원을 소모 → 이 카드를 버림."
 	},
 	{
 		"code": "04164",
-		"flavor": "\"This is going to need sutures.\" -- Stephen Strange",
-		"name": "Medical Emergency",
-		"text": "<b>Forced Response:</b> At the end of your turn, take 1 damage if you are in hero form.\n<b>Alter-Ego Action:</b> Discard the top 5 cards of your deck and spend a [physical] resource → discard this card."
+		"flavor": "\"봉합이 필요하겠는데.\" -- Stephen Strange",
+		"name": "의료 응급상황",
+		"text": "<b>강제 반응:</b> 당신의 차례 끝에, 당신이 히어로 형태라면 피해 1점을 입습니다.\n<b>일상 행동:</b>당신의 덱 맨 위에서 카드 5장을 버리고 [physical] 자원을 소모 → 이 카드를 버림."
 	},
 	{
 		"code": "04165",
-		"name": "Martial Law",
-		"text": "Your hand size is reduced by 1.\n<b>Alter-Ego Action:</b> Deal yourself an encounter card and spend a [energy] resource → discard this card."
+		"name": "전쟁의 규율",
+		"text": "당신의 손 크기가 1만큼 감소합니다.\n<b>일상 행동:</b> 당신에게 조우 카드 1장을 나누어 주고 [energy] 자원을 소모 → 이 카드를 버림."
 	},
 	{
 		"code": "04166",
-		"flavor": "\"These dissenters breed conflict. They are your true enemies.\" -- Hydra News Media",
-		"name": "Anti-Hero Propaganda",
-		"text": "Your hero gets -1 THW, -1 ATK, and -1 DEF.\n<b>Alter-Ego Action:</b> Take 2 damage and spend a [wild] resource → discard this card."
+		"flavor": "\"이 반대론자들은 갈등만을 낳는다. 그들이 여러분의 진정한 적이다. \" -- Hydra News Media",
+		"name": "안티 히어로 선전",
+		"text": "당신의 히어로는 저지 -1, 공격 -1, 방어 -1을 받습니다.\n<b>일상 행동:</b> 피해 2점을 입고 [wild] 자원을 소모 → 이 카드를 버림."
 	}
 ]
