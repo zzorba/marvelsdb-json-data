@@ -1,143 +1,154 @@
 [
-	{
-		"code": "23001a",
-		"name": "War Machine",
-		"text": "<i>Locked and Loaded</i> - <b>Response</b>: After you change to this form, place 5 ammo counters on War Machine.",
-		"traits": "S.H.I.E.L.D. Soldier."
-	},
-	{
-		"code": "23001b",
-		"name": "James Rhodes",
-		"text": "<i>Cybernetic Upgrades</i> - <b>Response</b>: After you play a [[technique]] upgrade, draw 2 cards. (Limit once per round.)",
-		"traits": "Outlaw."
-	},
-	{
-		"code": "23002",
-		"name": "Iron Man",
-		"text": "<b>Response:</b> After Iron Man enters play, search your deck and discard pile for a [[tech]] upgrade and add it to your hand. Shuffle your deck.",
-		"traits": "Avenger."
-	},
-	{
-		"code": "23003",
-		"name": "Munitions Bunker",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Munitions Bunker -> Place 2 ammo counters here.\n <b>Hero Action</b>: Exhaust Munitions Bunker -> move each ammo counter here to War Machine.",
-		"traits": "Location. S.H.I.E.L.D."
-	},
-	{
-		"code": "23004",
-		"name": "Upgraded Chassis",
-		"text": "War Machine gains the [[aerial]] trait.\n <b>Hero Response</b>: After you change to hero form, exhaust Upgraded Chassis -> give War Machine a tough status card.",
-		"traits": "Armor. Tech."
-	},
-	{
-		"code": "23005",
-		"name": "Gauntlet Gun",
-		"text": "<b>Resource</b>: Exhaust Gauntlet Gun -> generate a [wild] resource for a War Machine event and place 1 ammo counter on War Machine.",
-		"traits": "Tech. Weapon."
-	},
-	{
-		"code": "23006",
-		"name": "Missile Launcher",
-		"text": "<b>Hero Action</b> (attack): Exhaust Missile Launcher and remove 1 ammo counter from War Machine -> deal 2 damage to an enemy. This attack gains ranged.",
-		"traits": "Tech. Weapon."
-	},
-	{
-		"code": "23007",
-		"name": "Shoulder Cannon",
-		"text": "<b>Hero Action</b> (attack): Exhaust Shoulder Cannon -> deal 1 damage to an enemy. You may remove 1 ammo from War Machine to ready shoulder cannon.",
-		"traits": "Tech. Weapon."
-	},
-	{
-		"code": "23008",
-		"name": "Repulsor Beam",
-		"text": "<b>Hero Action</b> (attack): Remove 1 ammo counter from War Machine -> deal 4 damage to an enemy.",
-		"traits": "Attack."
-	},
-	{
-		"code": "23009",
-		"name": "Targeted Strike",
-		"text": "<b>Hero Action</b> (thwart): Remove 1 ammo counter from War Machine -> remove 3 threat from a scheme.",
-		"traits": "Thwart."
-	},
-	{
-		"code": "23010",
-		"name": "Scorched Earth",
-		"text": "<b>Hero Action</b>: Remove 3 ammo counters from War Machine -> deal 3 damage to each enemy in play.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "23011",
-		"name": "Full Auto",
-		"text": "<b>Hero Action</b> (attack): Remove 4 ammo counters from War Machine and choose an enemy -> deal 8 damage to that enemy. This attack gains overkill.",
-		"traits": "Attack."
-	},
-	{
-		"code": "23012",
-		"flavor": "",
-		"name": "Black Panther",
-		"text": "You may play the event attached to Black Panther as if it were in your hand.\n <b>Response:</b> After Black Panther enters play, choose a leadership (blue) event in your discard pile and attach it to him facedown.",
-		"traits": "Avenger. Wakanda."
-	},
-	{
-		"code": "23013",
-		"flavor": "",
-		"name": "Captain Marvel",
-		"text": "<b>Response:</b> After Captain Marvel enters play, discard the top 4 cards of your deck. If you discard a printed [energy] resource, deal 3 damage to an enemy. If you discard more than one printed [energy] resource, also stun that enemy.",
-		"traits": "Aerial. Avenger."
-	},
-	{
-		"code": "23016",
-		"flavor": "",
-		"name": "Command Team",
-		"text": "Uses (3 command counters).\n <b>Action</b>: Exhaust Command Team and remove 1 command counter from it -> ready an ally.",
-		"traits": "S.H.I.E.L.D."
-	},
-	{
-		"code": "23017",
-		"name": "Sneak Attack",
-		"text": "<b>Action</b>: Choose an ally in your hand that shares a [[trait]] with your identity -> put that ally into play. If that ally is still in play at the end of the phase, discard it.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "23018",
-		"name": "Save the Day",
-		"text": "<b>Hero Action</b>: Discard an ally your control -> remove threat from a scheme equal to that ally's printed cost.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "23019",
-		"name": "Go Down Swinging",
-		"text": "<b>Hero Action</b>: Discard an ally your control -> deal damage to an enemy equal to that ally's printed cost.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "23024",
-		"name": "Two Against the World",
-		"text": "Team-Up (Iron Man and War Machine). Max 1 per deck.\n <b>Hero Action</b>: Search your deck for a [[tech]] upgrade and put it into play. Shuffle your deck. Ready Iron Man and War Machine.",
-		"traits": ""
-	},
-	{
-		"code": "23032",
-		"name": "As One!",
-		"text": "Alliance.\n <b>Hero Action</b> (attack): Exhaust an [[avenger]] character and a [[guardian]] character -> deal X damage to enemy, where X is the combined ATK of those characters. This ATK gains overkill.",
-		"traits": "Attack."
-	},
-	{
-		"code": "23033",
-		"name": "Vigilante Training",
-		"text": "Max 2 per deck. Uses (2 training counters).\n <b>Alter-Ego Action</b>: Exhaust this card and remove 1 training counter from it -> choose a justice (yellow) event in your discard pile and shuffle it into your deck.",
-		"traits": "Condition."
-	},
-	{
-		"code": "23034",
-		"name": "Stand Together",
-		"text": "Alliance.\n <b>Hero Interrupt</b>: When a friendly character would take any amount of damage from an attack, exhaust an [[avenger]] character and a [[guardian]] character -> prevent all of that damage. Deal that much damage to the attacking enemy.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "23035",
-		"name": "Sidearm",
-		"text": "Attach to an ally. Max 1 per ally.\n Attached ally gets +1 ATK and its attacks gain ranged.",
-		"traits": "Weapon."
-	}
+    {
+        "code": "23001a",
+        "name": "War Machine",
+        "text": "<i>Carico e Pronto a Sparare</i> - <b>Risposta</b>: Dopo che hai assunto questa sembianza, colloca 5 gettoni munizione su War Machine.",
+        "traits": "S.H.I.E.L.D. Soldato.",
+        "flavor": "\"Boom! Cercavi questo?\" - James Rhodes"
+    },
+    {
+        "code": "23001b",
+        "name": "James Rhodes",
+        "text": "<i>Azione</i>: Scegli 1 carta del set War Machine nella tua pila degli scarti e mescolala al tuo mazzo. <i>Risposta Obbligata</i>: Dopo che hai assunto questa sembianza, scarta ogni gettone munizione dalla tua identità.",
+        "traits": "S.H.I.E.L.D. Soldato.",
+        "subname": "Tony Stark"
+    },
+    {
+        "code": 23002,
+        "name": "Iron Man",
+        "text": "<b>Risposta:</b> Dopo che Iron Man è entrato in gioco, cerca nel tuo mazzo e nella tua pila degli scarti 1 miglioria [[tecnologia]] e aggiungila alla tua mano. Mescola il tuo mazzo.",
+        "traits": "Avenger.",
+        "flavor": "\"Che cosa hai fatto alla mia armatura, Rhodey?\""
+    },
+    {
+        "code": 23003,
+        "name": "Bunker delle Munizioni",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Bunker delle Munizioni -> colloca 2 gettoni munizione da questa carta a War Machine.\n <b>Azione Eroe</b>: Esaurisci Bunker delle Munizioni -> sposta ogni gettone munizione da questa carta a War Machine.",
+        "traits": "Luogo. S.H.I.E.L.D."
+    },
+    {
+        "code": 23004,
+        "name": "Telaio Migliorato",
+        "text": "War Machine ottiene il tratto [[aereo]] .\n <b>Risposta Eroe</b>: Dopo che hai assunto la sembianza di eroe, esaurisci Telaio Migliorato -> irrobustisci War Machine.",
+        "traits": "Armatura. Tecnologia."
+    },
+    {
+        "code": 23005,
+        "name": "Microcannone da Guanto",
+        "text": "<b>Risorsa</b>: Esaurisci Microcannone da Guanto -> genera [wild] per un evento del set War Machine e colloca 1 gettone munizione su War Machine.",
+        "traits": "Arma. Tecnologia.",
+        "flavor": "\"E ora scopriamo cosa sanno fare questi gioiellini.\" - James Rhodes"
+    },
+    {
+        "code": 23006,
+        "name": "Lanciamissili",
+        "text": "<b>Azione Eroe</b> (attacco): Esaurisci Lanciamissili e rimuovi 1 gettone munizione da War Machine -> infliggi 2 danni a un nemico. Questo attacco ottiene Distanza.",
+        "traits": "Arma. Tecnologia."
+    },
+    {
+        "code": 23007,
+        "name": "Cannone da Spalla",
+        "text": "<b>Azione Eroe</b> (attacco): Esaurisci Cannone da Spalla -> infliggi 1 danno a un nemico. Puoi rimuovere 1 gettone munizione da War Machine per ripristinare Cannone da Spalla.",
+        "traits": "Arma. Tecnologia.",
+        "flavor": "RATATATATA!"
+    },
+    {
+        "code": 23008,
+        "name": "Reggio Repulsivo",
+        "text": "<b>Azione Eroe</b> (attacco): Rimuovi 1 gettone munizione da War Machine -> infliggi 4 danni a un nemico.",
+        "traits": "Attacco.",
+        "flavor": "\"Oh, ne vuoi un po' anche tu?\" - James Rhodes"
+    },
+    {
+        "code": 23009,
+        "name": "Colpo Mirato",
+        "text": "<b>Azione Eroe</b> (intervento): Rimuovi 1 gettone munizione da War Machine -> rimuovi 3 minacce da una trama.",
+        "traits": "Intervento.",
+        "flavor": "\"Questo è il momento giusto per arrendersi!\" - James Rhodes"
+    },
+    {
+        "code": 23010,
+        "name": "Terra Bruciata",
+        "text": "<b>Azione Eroe</b>: Rimuovi 3 gettoni munizione da War Machine -> infliggi 3 danni a ogni nemico in gioco.",
+        "traits": "Tattica.",
+        "flavor": "\"Io dico di decollare e bombardare la zona dall'alto. E' l'unico metodo sicuro.\" - James Rhodes"
+    },
+    {
+        "code": 23011,
+        "name": "Fuoco Automatico",
+        "text": "<b>Azione Eroe</b> (attacco): Rimuovi 4 gettoni munizione da War Machine e scegli 1 nemico -> infliggi 8 danni a quel nemico. Questo attacco ottiene Sopraffazione.",
+        "traits": "Attacco.",
+        "flavor": "\"Hey, Tony! Vediamo se la tua Mark V sa fare questo!\" - James Rhodes"
+    },
+    {
+        "code": 23012,
+        "name": "Pantera Nera",
+        "text": "Puoi giocare l'evento assegnato a Pantera Nera come se fosse nella tua mano.\n<b>Risposta:</b> Dopo che Pantera Nera è entrato in gioco, scegli 1 evento Autorità (blu) nella tua pila degli scarti e assegnalo a faccia in giù a Pantera Nera.",
+        "traits": "Avenger. Wakanda.",
+        "subname": "T'Challa"
+    },
+    {
+        "code": 23013,
+        "name": "Capitan Marvel",
+        "text": "<b>Risposta:</b> Dopo che Capitan Marvel è entrata in gioco, scarta 4 carte dalla cima del tuo mazzo. Se una [energy] stampata è stata scartata in questo modo, infliggi 3 danni a un nemico. Se 2 o più [energy] stampate sono state scartate in questo modo, stordisci inoltre quel nemico.",
+        "traits": "Aereo. Avenger.",
+        "subname": "Carol Danvers"
+    },
+    {
+        "code": 23016,
+        "name": "Squadra di Comando",
+        "text": "Utilizzo (3 gettoni comando).\n <b>Azione</b>: Esaurisci Squadra di Comando e rimuovi 1 gettone comando da essa -> ripristina 1 alleato.",
+        "traits": "S.H.I.E.L.D."
+    },
+    {
+        "code": 23017,
+        "name": "Attacco Furtivo",
+        "text": "<b>Azione</b>: Scegli 1 alleato nella tua mano che condivide un [[tratto]] con la tua identità -> metti in gioco quell'alleato. Se quell'alleato è ancora in gioco alla fine della fase, scartalo.",
+        "traits": "Tattica.",
+        "flavor": "\"Sorpresa!\" - Star-Lord"
+    },
+    {
+        "code": 23018,
+        "name": "Intervento Provvidenziale",
+        "text": "<b>Azione Eroe</b>: Scarta 1 alleato che controlli -> rimuovi da una trama un ammontare di minacce pari al costo stampato di quell'alleato.",
+        "traits": "Tattica.",
+        "flavor": "\"Certe giornate sono dure e, cavolo, questa è decisamente una di quelle giornate!\" - Spider-Man"
+    },
+    {
+        "code": 23019,
+        "name": "Oscillazione di Ritorno",
+        "text": "<b>Azione Eroe</b>: Scarta 1 alleato che controlli -> infliggi a un nemico un ammontare di danni pari al costo stampato di quell'alleato.",
+        "traits": "Tattica.",
+        "flavor": "\"Le chiacchiere di Spider-Man possono darvi sui nervi, ma vi assicuro una cosa: quel ragazzo non si arrende mai.\" - Capitan Marvel"
+    },
+    {
+        "code": 23024,
+        "name": "Due Contro il Mondo",
+        "text": "Team-Up (Iron Man e War Machine). Massimo 1 per mazzo.\n <b>Azione Eroe</b>: Cerca nel tuo mazzo 1 miglioria [[tecnologia]] e mettila in gioco. Mescola il tuo mazzo. Ripristina Iron Man e War Machine."
+    },
+    {
+        "code": 23032,
+        "name": "\"Tutti Insieme!\"",
+        "text": "Alleanza.\n <b>Azione Eroe</b> (attacco): Esaurisci 1 personaggio [[avenger]] e 1 personaggio [[guardiano]] -> infliggi X danni a un nemico, dove X è l'ATT combinato di quei personaggi. Questo attacco ottiene Sopraffazione.",
+        "traits": "Attacco."
+    },
+    {
+        "code": 23033,
+        "name": "Addestramento da Vigilante",
+        "text": "Massimo 2 per mazzo. Utilizzo (2 gettoni addestramento).\n <b>Azione Alter Ego</b>: Esaurisci questa carta e rimuovi 1 gettone addestramento da essa -> scegli 1 evento Giustizia (giallo) nella tua pila degli scarti e mescolalo nel tuo mazzo.",
+        "traits": "Condizione."
+    },
+    {
+        "code": 23034,
+        "name": "Uniti si Vince",
+        "text": "Allenza.\n <b>Interruzione Eroe</b>: Quando un personaggio amico sta per subire un qualsiasi ammontare di danni da un attacco, esaurisci 1 personaggio [[avenger]] e 1 personaggio [[guardiano]] -> previeni tutti quei danni. Infliggi un pari ammontare di danni al nemico attaccante.",
+        "traits": "Tattica."
+    },
+    {
+        "code": 23035,
+        "name": "Arma Secondaria",
+        "text": "Assegna a un alleato. Massimo 1 per alleato. \nL'alleato con questa miglioria riceve +1 ATT e i suoi attacchi ottengono Distanza. ",
+        "traits": "Arma. ",
+        "flavor": "\"Wow! Che bel costume, mister!\" - Ragazzino"
+    }
 ]
