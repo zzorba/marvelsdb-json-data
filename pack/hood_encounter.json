@@ -504,6 +504,7 @@
 	},
 	{
 		"boost": 1,
+		"boost_text": "Deal yourself 1 facedown encounter card.",
 		"code": "24029",
 		"faction_code": "encounter",
 		"name": "Cruel Intentions",
@@ -513,6 +514,7 @@
 		"quantity": 1,
 		"set_code": "expert_ii",
 		"set_position": 1,
+		"text": "Peril. Surge.\n<b>When Revealed</b>: Deal each player 1 facedown encounter card. Give the villain 1 facedown boost card.",
 		"type_code": "treachery"
 	},
 	{
@@ -526,32 +528,36 @@
 		"quantity": 1,
 		"set_code": "expert_ii",
 		"set_position": 2,
+		"text": "Incite 1. Peril.\n<b>When Revealed</b>: Discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that card. Place 2 threat on each scheme in play.",
 		"type_code": "treachery"
 	},
 	{
-		"boost": 0,
+		"boost": 3,
 		"code": "24031",
 		"faction_code": "encounter",
-		"name": "Slug It Out",
-		"octgn_id": "8563780b-b865-43d1-9e58-9e8b8e1bd188",
+		"name": "Seek and Destroy",
+		"octgn_id": "899568a6-ee33-4092-80a1-eddf09965bbe",
 		"pack_code": "hood",
 		"position": 31,
 		"quantity": 1,
 		"set_code": "expert_ii",
 		"set_position": 3,
+		"text": "Incite 1. Peril.\n<b>When Revealed</b>: Search the encounter deck, discard pile, and set-aside area for your nemesis minion and put it into play engaged with you. <i>(Shuffle.)</i>",
 		"type_code": "treachery"
 	},
 	{
-		"boost": 3,
+		"boost": 0,
+		"boost_text": "Deal 1 damage to each character you control. Give the villain 1 additional boost card for this activation.",
 		"code": "24032",
 		"faction_code": "encounter",
-		"name": "Seek and Destroy",
-		"octgn_id": "899568a6-ee33-4092-80a1-eddf09965bbe",
+		"name": "Slug It Out",
+		"octgn_id": "8563780b-b865-43d1-9e58-9e8b8e1bd188",
 		"pack_code": "hood",
 		"position": 32,
 		"quantity": 1,
 		"set_code": "expert_ii",
 		"set_position": 4,
+		"text": "Peril. Surge.\n<b>When Revealed</b>: Exhaust your identity. Take 2 damage.",
 		"type_code": "treachery"
 	},
 	{
@@ -837,20 +843,25 @@
 		"type_code": "treachery"
 	},
 	{
+		"back_name": "Formidable Foe",
+		"back_text": "<b><i>Expert Mode Only.</i></b>\nPermanent. Setup.\nEach enemy gains steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>",
 		"code": "24049",
 		"double_sided": true,
 		"faction_code": "encounter",
 		"name": "Formidable Foe",
 		"octgn_id": "9d1cc110-1771-49b6-807f-c414f8483e6e",
 		"pack_code": "hood",
+		"permanent": true,
 		"position": 49,
 		"quantity": 1,
 		"set_code": "standard_ii",
 		"set_position": 1,
+		"text": "<b><i>Standard Mode Only.</i></b>\nPermanent. Setup.\nThe villain gains steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>",
 		"type_code": "environment"
 	},
 	{
 		"boost": 1,
+		"boost_text": "Give the villain 1 additional boost card for this activation.",
 		"code": "24050",
 		"faction_code": "encounter",
 		"name": "Dark Dealings",
@@ -860,6 +871,7 @@
 		"quantity": 2,
 		"set_code": "standard_ii",
 		"set_position": 2,
+		"text": "<b>When Revealed:</b> The villain schemes with +1 SCH.",
 		"type_code": "treachery"
 	},
 	{
@@ -873,10 +885,12 @@
 		"quantity": 1,
 		"set_code": "standard_ii",
 		"set_position": 4,
+		"text": "<b>When Revealed (Alter-Ego):</b> Discard the top 7 cards from the encounter deck. Put the first minion discarded this way into play engaged with you.\n<b>When Revealed (Hero):</b> The villain and each minion engaged with you attacks you. This card gains surge.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 2,
+		"boost_text": "Give the villain 1 additional boost card for this activation.",
 		"code": "24052",
 		"faction_code": "encounter",
 		"name": "Overwhelming Force",
@@ -886,12 +900,14 @@
 		"quantity": 1,
 		"set_code": "standard_ii",
 		"set_position": 5,
+		"text": "<b>When Revealed:</b> Discard the highest-cost upgrade or support you control. If no card was discarded this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 2,
 		"code": "24053",
 		"faction_code": "encounter",
+		"illustrator": "Andrea Di Vitto & Laura Villari",
 		"name": "Shadow of the Past",
 		"octgn_id": "98435f84-db7d-429f-93c9-e2824bbc722f",
 		"pack_code": "hood",
@@ -899,10 +915,12 @@
 		"quantity": 1,
 		"set_code": "standard_ii",
 		"set_position": 6,
+		"text": "<b>When Revealed</b>: Reveal your set-aside nemesis minion and put it into play engaged with you. Reveal your set-aside nemesis side scheme and put it into play. Shuffle the rest of your set-aside nemesis encounter set into the encounter deck. If your nemesis minion does not enter the game this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 1,
+		"boost_text": "If the villain is attacking, this attack gains overkill.",
 		"code": "24054",
 		"faction_code": "encounter",
 		"name": "Total Annihilation",
@@ -912,6 +930,7 @@
 		"quantity": 2,
 		"set_code": "standard_ii",
 		"set_position": 7,
+		"text": "Surge.\n<b>When Revealed (Hero)</b>: The villain attacks you. That attack gains overkill.",
 		"type_code": "treachery"
 	},
 	{
