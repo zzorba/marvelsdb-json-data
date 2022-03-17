@@ -1,337 +1,336 @@
 [
 	{
-		"attack_text": "<b>강제 난입</b>: Norman Osborn이 공격하려 할 때, 대신 범죄 사업에 악명 카운터를 1만큼 놓습니다.",
+		"attack_text": "<b>Forced Interrupt</b>: When Norman Osborn would attack, place 1 infamy counter on Criminal Enterprise instead.",
 		"code": "02001a",
 		"name": "Norman Osborn",
-		"text": "<b>강제 난입</b>: Norman Osborn이 피해를 받으려 할 때, 대신 범죄 사업에서 악명 카운터를 그만큼 제거합니다.",
-		"traits": "경영인. 천재."
+		"text": "<b>Forced Interrupt</b>: When Norman Osborn would take any amount of damage, remove that many infamy counters from Criminal Enterprise instead.",
+		"traits": "Businessman. Genius."
 	},
 	{
 		"code": "02001b",
 		"name": "Green Goblin",
-		"scheme_text": "<b>강제 난입</b>: Green Goblin이 암약하려 할 때, 대신 광기에 찬 상태에서 광기 카운터를 1만큼 제거합니다.",
-		"text": "<b>공개될 때</b>: 히어로 형태인 모든 플레이어에게 간접 피해 3점을 입힙니다.",
-		"traits": "고블린."
+		"scheme_text": "<b>Forced Interrupt</b>: When Green Goblin would scheme, remove 1 madness counter from State of Madness instead.",
+		"text": "<b>When Revealed</b>: Deal 3 indirect damage to each player in hero form.",
+		"traits": "Goblin."
 	},
 	{
-		"attack_text": "<b>강제 난입</b>: Norman Osborn이 공격하려 할 때, 대신 범죄 사업에 악명 카운터를 2만큼 놓습니다.",
+		"attack_text": "<b>Forced Interrupt</b>: When Norman Osborn would attack, place 2 infamy counter on Criminal Enterprise instead.",
 		"code": "02002a",
 		"name": "Norman Osborn",
-		"text": "<b>강제 난입</b>: Norman Osborn이 피해를 받으려 할 때, 대신 범죄 사업에서 악명 카운터를 그만큼 제거합니다.",
-		"traits": "경영인. 천재."
+		"text": "<b>Forced Interrupt</b>: When Norman Osborn would take any amount of damage, remove that many infamy counters from Criminal Enterprise instead.",
+		"traits": "Businessman. Genius."
 	},
 	{
 		"code": "02002b",
 		"name": "Green Goblin",
-		"scheme_text": "<b>강제 난입</b>: Green Goblin이 암약하려 할 때, 대신 광기에 찬 상태에서 광기 카운터를 1만큼 제거합니다.",
-		"text": "<b>공개될 때</b>: 모든 플레이어에게 간접 피해 3점을 입힙니다.",
-		"traits": "고블린."
+		"scheme_text": "<b>Forced Interrupt</b>: When Green Goblin would scheme, remove 1 madness counter from State of Madness instead.",
+		"text": "<b>When Revealed</b>: Deal 3 indirect damage to each player.",
+		"traits": "Goblin."
 	},
 	{
-		"attack_text": "<b>강제 난입</b>: Norman Osborn이 공격하려 할 때, 대신 범죄 사업에 악명 카운터를 3만큼 놓습니다.",
+		"attack_text": "<b>Forced Interrupt</b>: When Norman Osborn would attack, place 3 infamy counter on Criminal Enterprise instead.",
 		"code": "02003a",
 		"name": "Norman Osborn",
-		"text": "<b>강제 난입</b>: Norman Osborn이 피해를 받으려 할 때, 대신 범죄 사업에서 악명 카운터를 그만큼 제거합니다.",
-		"traits": "경영인. 천재."
+		"text": "<b>Forced Interrupt</b>: When Norman Osborn would take any amount of damage, remove that many infamy counters from Criminal Enterprise instead.",
+		"traits": "Businessman. Genius."
 	},
 	{
 		"code": "02003b",
 		"name": "Green Goblin",
-		"scheme_text": "<b>강제 난입</b>: Green Goblin이 암약하려 할 때, 대신 광기에 찬 상태에서 광기 카운터를 2만큼 제거합니다.",
-		"text": "<b>공개될 때</b>: 모든 플레이어에게 간접 피해 4점을 입힙니다.",
-		"traits": "고블린."
+		"scheme_text": "<b>Forced Interrupt</b>: When Green Goblin would scheme, remove 2 madness counters from State of Madness instead.",
+		"text": "<b>When Revealed</b>: Deal 4 damage to each player.",
+		"traits": "Goblin."
 	},
 	{
-		"back_text": "<b>구성</b>: Norman Osborn (I)과 Norman Osborn (II).<i>(전문가 모드에선 전문가 모드에선 Norman Osborn (II)와 Norman Osborn (III)을 대신 사용).</i> 위험한 사업 조우 세트 및 일반 조우 세트. 모듈식 조우 세트 1개<i>(추천: 고블린의 술책)</i>.\n<b>사전 준비</b>: 범죄 사업 환경을 플레이 영역에 내려놓습니다. 조우 덱을 섞습니다. 스테이지 1B로 넘어갑니다.",
+		"back_text": "<b>Contents</b>: Norman Osborn (I) and Norman Osborn (II). <i>(Norman Osborn (II) and Norman Osborn (III) instead for expert mode.)</i> Risky Business and Standard encounter sets. One modular encounter set <i>(recommended: Goblin Gimmicks)</i>.\n<b>Setup</b>: Put the Criminal Enterprise environment into play. Shuffle the encounter deck. Advance to stage 1B.",
 		"code": "02004",
-		"flavor": "Norman Osborn은 스타크 인더스트리 지사 몇몇을 장악하기 위해 이사회를 열었습니다.",
-		"name": "적대적 기업 인수",
-		"text": "<b>달성될 때</b>: 범죄 사업에 악명 카운터를 1[per_hero] 만큼 놓습니다. 그러고 나서 범죄 사업에 있는 악명 카운터마다 각 플레이어의 덱 맨 위 카드를 버립니다."
+		"flavor": "Norman Osborn holds a board meeting planning to take over a branch of Stark Industries.",
+		"name": "Hostile Takeover",
+		"text": "<b>When Completed</b>: Place 1[per_hero] infamy counters on Criminal Enterprise. Then discard 1 card from each player's deck for each infamy counter on Criminal Enterprise."
 	},
 	{
-		"back_flavor": "스타크 인더스트리 지사 몇몇을 장악한 Norman Osborn은 치명적인 기술에 접근할 권한을 얻어 Oscorp의 제조역량을 네 배로 늘릴 것입니다.",
-		"back_text": "<b>공개될 때</b>: 스테이지 2B로 넘어갑니다.",
+		"back_flavor": "With a branch of Stark Industries under his control, Norman Osborn will gain access to deadly technologies and quadruple the manufacturing capabilities of Oscorp.",
+		"back_text": "<b>When Revealed</b>: Advance to stage 2B.",
 		"code": "02005",
-		"flavor": "Norman Osborn의 계획이 성공한다면, 압도적인 기술의 진보로 일구어 낸 지배를 아무도 막을 수 없을 겁니다.",
-		"name": "주식회사 인수",
-		"text": "<b>이 스테이지가 달성되면, 플레이어들은 게임에서 패배합니다.</b>"
+		"flavor": "If Norman Osborn succeeds, nothing will stand in the way of his technological domination.",
+		"name": "Corporate Acquisition",
+		"text": "<b>If this stage is completed, the players lose the game.</b>"
 	},
 	{
 		"code": "02006a",
-		"flavor": "\"사업에는. 좋은 점만. 가득하지.\"",
-		"name": "범죄 사업",
-		"text": "범죄 사업은 악명 카운터를 2[per_hero]만큼 놓은 채로 플레이 영역에 들어옵니다. 이 카드에 악명 카운터가 없다면, Norman Osborn과 범죄 사업을 뒤집습니다."
+		"flavor": "\"Business. Is. Good.\"",
+		"name": "Criminal Enterprise",
+		"text": "Criminal Enterprise enter play with 2[per_hero] infamy counters on it. If there are no infamy counters here, flip Norman Osborn and Criminal Enterprise."
 	},
 	{
 		"code": "02006b",
-		"flavor": "\"어리석긴! 네 힘은 나에 비해 아무것도 아냐! 네 물리력은 보잘것없고, 네 지력도 <b>보잘것없어!</b>\" -- Green Goblin",
-		"name": "광기에 찬 상태",
-		"text": "광기에 찬 상태는 광기 카운터를 2[per_hero]만큼 놓은 채로 플레이 영역에 들어옵니다. 이 카드에 광기 카운터가 없다면, Green Goblin과 광기에 찬 상태를 뒤집습니다."
+		"flavor": "\"Fool! Your power is nothing compared to mine! Your strength is nothing, your intellect is NOTHING!\" -- Green Goblin",
+		"name": "State of Madness",
+		"text": "State of Madness enter play with 2[per_hero] madness counters on it. If there are no madness counters here, flip Green Goblin and State of Madness."
 	},
 	{
-		"boost_text": "범죄 사업에 악명 카운터를 1만큼 놓습니다. 그럴 수 없다면, 광기에 찬 상태에서 광기 카운터를 1만큼 제거합니다.",
+		"boost_text": "Place 1 infamy counter on Criminal Enterprise. If you cannot, remove 1 madness counter from State of Madness.",
 		"code": "02007",
-		"name": "살인 청부업자",
-		"text": "<b>공개될 때</b>: 하나를 선택합니다. 조우 덱에서 강화 카드 한 장을 뒷면으로 가져와 빌런에게 주기 / 범죄 사업에 악명 카운터를 2만큼 놓습니다.",
-		"traits": "범죄자."
+		"name": "Hired Gun",
+		"text": "<b>When Revealed</b>: Choose to either give the villain 1 facedown boost card or place 2 infamy counters on Criminal Enterprise.",
+		"traits": "Criminal."
 	},
 	{
-		"boost_text": "범죄 사업에 악명 카운터를 1만큼 놓습니다. 그럴 수 없다면, 광기에 찬 상태에서 광기 카운터를 1만큼 제거합니다.",
+		"boost_text": "Place 1 infamy counter on Criminal Enterprise. If you cannot, remove 1 madness counter from State of Madness.",
 		"code": "02008",
-		"name": "민간 경비 전문가",
-		"text": "경호<i>(이 하수인이 당신과 교전 중인 한, 당신은 빌런을 공격할 수 없습니다).</i>",
-		"traits": "범죄자."
+		"name": "Private Security Specialist",
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>",
+		"traits": "Criminal."
 	},
 	{
-		"boost_text": "범죄 사업에 악명 카운터를 1만큼 놓습니다. 그럴 수 없다면, 광기에 찬 상태에서 광기 카운터를 1만큼 제거합니다.",
+		"boost_text": "Place 1 infamy counter on Criminal Enterprise. If you cannot, remove 1 madness counter from State of Madness.",
 		"code": "02009",
-		"name": "무너지는 다리"
+		"name": "Collapsing Bridge"
 	},
 	{
 		"code": "02010",
-		"flavor": "주주들의 반대에도 불구하고, Oscorp는 이제부터 오로지 군용 무기만 생산합니다.",
-		"name": "Oscorp 제조업",
-		"text": "<b>공개될 때(Norman Osborn)</b>: 이 카드에 위협을 1 [per_hero] 만큼 추가로 놓습니다."
+		"flavor": "Despite objections from shareholders, Oscorp now exclusively produces military-grade weaponry.",
+		"name": "Oscorp Manufacturing",
+		"text": "<b>When Revealed (Norman Osborn)</b>: Place an additional 1[per_hero] threat here."
 	},
 	{
-		"boost_text": "범죄 사업에 악명 카운터를 1만큼 놓습니다. 그럴 수 없다면, 광기에 찬 상태에서 광기 카운터를 1만큼 제거합니다.",
+		"boost_text": "Place 1 infamy counter on Criminal Enterprise. If you cannot, remove 1 madness counter from State of Madness.",
 		"code": "02011",
-		"name": "뇌물"
+		"name": "Payoff"
 	},
 	{
-		"boost_text": "범죄 사업에 악명 카운터를 1만큼 놓습니다. 그럴 수 없다면, 광기에 찬 상태에서 광기 카운터를 1만큼 제거합니다.",
+		"boost_text": "Place 1 infamy counter on Criminal Enterprise. If you cannot, remove 1 madness counter from State of Madness.",
 		"code": "02012",
-		"name": "일상적인 업무",
-		"text": "<b>공개될 때</b>: 범죄 사업에 악명 카운터를 2만큼 놓습니다. 그럴 수 없다면, 광기에 찬 상태에서 광기 카운터를 2만큼 제거합니다."
+		"name": "All in a Day's Work",
+		"text": "<b>When Revealed</b>: Place 2 infamy counters on Criminal Enterprise. If you cannot, remove 2 madness counters from State of Madness."
 	},
 	{
 		"code": "02013",
-		"name": "미치광이 천재",
-		"text": "<b>공개될 때(Green Goblin)</b>: Green Goblin이 남은 생명력이 가장 적은 히어로를 공격합니다. 이렇게 일어난 공격이 하나도 없다면, 이 카드는 쇄도를 얻습니다.\n<b>공개될 때(Norman Osborn)</b>: 범죄 사업에 있는 악명 카운터마다 당신의 덱 맨 위에서 카드 1 버립니다."
+		"name": "Mad Genius",
+		"text": "<b>When Revealed (Green Goblin)</b>: Green Goblin attacks the hero with the fewest hit points remaining. If no attack was made this way, this card gains surge.\n<b>When Revealed (Norman Osborn)</b>: Discard the top card of your deck for each infamy counter on Criminal Enterprise."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Green Goblin이 당신을 공격하여 피해를 입힌 후, 주요 음모에 위협을 1만큼 놓습니다.",
+		"attack_text": "<b>Forced Response</b>: After Green Goblin attacks and damages you, place 1 threat on the main scheme.",
 		"code": "02014",
-		"flavor": "\"Green Goblin이 널 살아 돌아가게 둘 줄 알았어?!\"",
+		"flavor": "\"Did you expect the Green Goblin to let you live?!\"",
 		"name": "Green Goblin",
-		"traits": "고블린."
+		"traits": "Goblin."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Green Goblin이 당신을 공격하여 피해를 입힌 후, 주요 음모에 위협을 1만큼 놓습니다.",
+		"attack_text": "<b>Forced Response</b>: After Green Goblin attacks and damages you, place 1 threat on the main scheme.",
 		"code": "02015",
 		"name": "Green Goblin",
-		"text": "<b>공개될 때</b>: 각 플레이어에게 조우 카드를 두 장씩 나누어 줍니다.",
-		"traits": "고블린."
+		"text": "<b>When Revealed</b>: Deal 2 encounter cards to each player.",
+		"traits": "Goblin."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Green Goblin이 당신을 공격하여 피해를 입힌 후, 주요 음모에 위협을 2만큼 놓습니다.",
+		"attack_text": "<b>Forced Response</b>: After Green Goblin attacks and damages you, place 2 threat on the main scheme.",
 		"code": "02016",
 		"name": "Green Goblin",
-		"text": "<b>공개될 때</b>: 각 플레이어에게 조우 카드를 세 장씩 나누어 줍니다.",
-		"traits": "고블린."
+		"text": "<b>When Revealed</b>: Deal 3 encounter cards to each player.",
+		"traits": "Goblin."
 	},
 	{
-		"back_text": "<b>구성</b>: Green Goblin (I)과 Green Goblin (II).<i>(전문가 모드에선 Green Goblin (II) and Green Goblin (III)을 대신 사용).</i> 변이 유발 공식 조우 세트 및 일반 조우 세트. 모듈식 조우 세트 1개<i>(추천: 고블린의 술책)</i>.\n<b>사전 준비</b>: 고블린 종복 하수인을 각 플레이어와 하나씩 교전 중인 채로 플레이 영역에 내려놓습니다. 조우 덱을 섞습니다. 스테이지 1B로 넘어갑니다.",
+		"back_text": "<b>Contents</b>: Green Goblin (I) and Green Goblin (II). <i>(Green Goblin (II) and Green Goblin (III) instead for expert mode.)</i> Mutagen Formula and Standard encounter sets. One modular encounter set <i>(recommended: Goblin Gimmicks)</i>.\n<b>Setup</b>: Put a Goblin Thrall minion into play engaged with each player. Shuffle the encounter deck. Advance to stage 1B.",
 		"code": "02017",
-		"flavor": "Green Goblin이 뉴욕에 유독성 변이 유발 가스를 살포했습니다.",
-		"name": "변이 촉발",
-		"text": "<b>달성될 때</b>: 플레이어 순서대로, [[고블린]] 하수인과 교전 중이지 않은 각 플레이어는 조우 덱 맨 위에서 카드 3장을 반드시 버려야 합니다. 각 플레이어마다 처음으로 이렇게 버린 [[고블린]] 하수인은 해당 플레이어와 교전 중인 채로 플레이 영역에 내려놓습니다. "
+		"flavor": "Green Goblin has released a toxic mutagen gas on New York City.",
+		"name": "Unleashing the Mutagen",
+		"text": "<b>When Completed</b>: In player order, each player not engaged with a [[Goblin]] minion must discard 3 cards from the encounter deck and put the first [[Goblin]] minion they discarded this way into play engaged with them."
 	},
 	{
-		"back_flavor": "가스 구름이 도시를 완전히 에워쌌고, 불행하게도 증기에 닿아버린 이들은 몸이 떨린 후 변하더니, 흉물스러운 고블린 생명체로 변이합니다.",
-		"back_text": "<b>공개될 때</b>: 스테이지 2B로 넘어갑니다.",
+		"back_flavor": "As the cloud engulfs the city, those unfortunate enough to be caught in the vapors begin to shiver and shift, mutating into hideous goblin creatures.",
+		"back_text": "<b>When Revealed</b>: Advance to stage 2B.",
 		"code": "02018",
-		"flavor": "고블린 생명체는 Green Goblin의 명령에 모두 따릅니다. Green Goblin의 어마어마한 군대가 도시를 장악하기 전에 그를 멈춰야 합니다!",
-		"name": "변이 유발 구름",
-		"text": "X는 (Green Goblin을 포함하여)플레이 영역에 있는 [[고블린]] 적의 수와 같습니다. \n<b>이 스테이지가 달성되면, 플레이어들은 게임에서 패배합니다.</b>"
+		"flavor": "The goblin creatures serve Green Goblin's every command. Stop Green Goblin before his monstrous militia overruns the city!",
+		"name": "Mutagen Cloud",
+		"text": "X is equal to the number of [[Goblin]] enemies (including Green Goblin) in play.\n<b>If this stage is completed, the players lose the game.</b>"
 	},
 	{
 		"code": "02019",
-		"name": "고블린 글라이더",
-		"text": "다른 고블린 글라이더를 장착하지 않은 하수인 중 인쇄된 생명력이 가장 높은 하수인에게 이 카드를 장착합니다. 그럴 수 없다면, 이 카드는 쇄도를 얻습니다.\n<b>히어로 행동</b>: [energy] [energy] 자원을 소모 → 이 카드를 버림.",
-		"traits": "탈것."
+		"name": "Goblin Glider",
+		"text": "Attach to the enemy with the highest printed hit points and without another Goblin Glider attached. If you cannot, this card gains surge.\n<b>Hero Action</b>: Spend [energy] [energy] resources → discard this card.",
+		"traits": "Vehicle."
 	},
 	{
-		"attack_text": "<b>강제 난입</b>: Green Goblin이 암약하거나 공격할 때, 이번 활성화에서 Green Goblin에게 강화 카드 1장을 추가로 줍니다.",
+		"attack_text": "<b>Forced Interrupt</b>: When Green Goblin schemes or attacks, give him 1 additional boost card for that activation.",
 		"code": "02020",
-		"name": "히스테리",
-		"scheme_text": "<b>강제 난입</b>: Green Goblin이 암약하거나 공격할 때, 이번 활성화에서 Green Goblin에게 강화 카드 1장을 추가로 줍니다.",
-		"text": "Green goblin에게 장착합니다.\n<b>히어로 행동</b>: [mental] [mental] 자원을 소모 → 이 카드를 버림.",
-		"traits": "상태."
+		"name": "Hysteria",
+		"scheme_text": "<b>Forced Interrupt</b>: When Green Goblin schemes or attacks, give him 1 additional boost card for that activation.",
+		"text": "Attach to Green Goblin.\n<b>Hero Action</b>: Spend [mental] [mental] resources → discard this card.",
+		"traits": "Condition."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: 빌런이 당신을 공격한 후, 호박 폭탄을 버리고 간접 피해 2점을 입습니다.",
+		"attack_text": "<b>Forced Response</b>: After the villain attacks you, discard Pumpkin Bombs and take 2 indirect damage.",
 		"code": "02021",
-		"name": "호박 폭탄",
-		"text": "빌런에게 장착합니다.\n<b>히어로 행동</b>: [physical] [physical] 자원을 소모 → 이 카드를 버림.",
-		"traits": "무기."
+		"name": "Pumpkin Bombs",
+		"text": "Attach to the villain.\n<b>Hero Action</b>: Spend [physical] [physical] resources → discard this card.",
+		"traits": "Weapon."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Goblin Knight가 당신을 공격한 후, 조우 덱 맨 위에서 카드 1장을 버립니다. 이렇게 버려진 카드가 [[고블린]] 하수인이라면, 당신과 교전 중인 채로 플레이 영역에 내려놓습니다.",
-		"boost_text": "이번 활성화가 끝난 후, 이 카드를 조우 덱에 섞어넣습니다.",
+		"attack_text": "<b>Forced Response</b>: After Goblin Knight attacks you, discard 1 card from the encounter deck. If that card is a [[Goblin]] minion, put it into play engaged with you.",
+		"boost_text": "After this activation ends, shuffle this card into the encounter deck.",
 		"code": "02022",
-		"name": "고블린 기사",
-		"traits": "간부. 고블린."
+		"name": "Goblin Knight",
+		"traits": "Elite. Goblin."
 	},
 	{
-		"boost_text": "고블린 병사를 당신과 교전 중인 채로 플레이 영역에 내려놓습니다.",
+		"boost_text": "Put Goblin Soldier into play engaged with you.",
 		"code": "02023",
-		"name": "고블린 병사",
-		"text": "<b>격파될 때</b>: 교전 중인 플레이어에게 피해 1점을 입힙니다.",
-		"traits": "고블린."
+		"name": "Goblin Soldier",
+		"text": "<b>When Defeated</b>: Deal 1 damage to the engaged player.",
+		"traits": "Goblin."
 	},
 	{
-		"boost_text": "고블린 종속을 당신과 교전 중인 채로 플레이 영역에 내려놓습니다.",
+		"boost_text": "Put Goblin Thrall into play engaged with you.",
 		"code": "02024",
-		"name": "고블린 종속",
-		"text": "경호<i>(이 하수인이 당신과 교전 중인 한, 당신은 빌런을 공격할 수 없습니다).</i>",
-		"traits": "고블린."
+		"name": "Goblin Thrall",
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>",
+		"traits": "Goblin."
 	},
 	{
-		"boost_text": "이번 활성화가 끝난 후, 이 카드를 조우 덱에 섞어넣습니다.",
+		"boost_text": "After this activation ends, shuffle this card into the encounter deck.",
 		"code": "02025",
 		"name": "Monster",
-		"text": "<b>공개될 때</b>: 당신은 기절합니다. 이미 기절했다면, 당신은 피해 2점을 입습니다.",
-		"traits": "간부. 고블린."
+		"text": "<b>When Revealed</b>: You are stunned. If you are already stunned, take 2 damage.",
+		"traits": "Elite. Goblin."
 	},
 	{
 		"code": "02026",
-		"flavor": "변이 유발 인자와 고급 전투 훈련의 연계로, Green Goblin은 고블린 정예 군대를만들었습니다.",
-		"name": "고블린 증원",
-		"text": "<b>공개될 때</b>: 플레이 영역에 있는 [[고블린]] 하수인마다 이 카드에 위협을 1만큼 추가로 놓습니다."
+		"flavor": "Using the mutagen formula and advanced combat training, Green Goblin has created an elite force of goblin commandos.",
+		"name": "Goblin Reinforcements",
+		"text": "<b>When Revealed</b>: Place 1 additional threat here for each [[Goblin]] minion in play."
 	},
 	{
-		"boost_text": "고블린 국가를 플레이 영역에 내려놓습니다.",
+		"boost_text": "Put Goblin Nation into play.",
 		"code": "02027",
-		"flavor": "\"우린 갱단 따위가 아냐. 그보단 더 가치 있는 무언가지. 우린 가족이자, 제국이야! 우린 위인들이야! 그럼 나? 난 고블린의 왕이다!\" -- Green Goblin",
-		"name": "고블린 국가",
-		"text": "<i>(Green Goblin을 포함하여)</i>모든 [[고블린]] 적이 공격 +1을 받습니다."
+		"flavor": "\"We are not a gang. We are so much more. We're family. An empire! A pantheon! And I? I am the Goblin King!\" -- Green Goblin",
+		"name": "Goblin Nation",
+		"text": "Each [[Goblin]] enemy <i>(including Green Goblin)</i> gets +1 ATK."
 	},
 	{
 		"code": "02028",
-		"name": "들끓는 군대",
-		"text": "<b>격파될 때</b>: 플레이어 순서대로, 각 플레이어는 조우 덱 맨 위에서 카드 2장을 반드시 버려야 합니다. 각 플레이어마다 이렇게 버린 모든 [[고블린]] 하수인을 해당 플레이어와 교전 중인 채로 플레이 영역에 내려놓습니다."
+		"name": "Overrun",
+		"text": "<b>When Defeated</b>: In player order, each player must discard 2 cards from the encounter deck and put each [[Goblin]] minion they discarded this way into play engaged with them."
 	},
 	{
 		"code": "02029",
-		"name": "상공에서 비롯된 죽음",
-		"text": "<b>공개될 때 (일상)</b>: Green Goblin이 음모 +X로 암약합니다. X는 빌런의 스테이지 번호와 같습니다.\n<b>공개될 때 (히어로)</b>: Green Goblin이 공격 +X로 공격합니다. X는 빌런의 스테이지 번호와 같습니다."
+		"name": "Death from Above",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Green Goblin schemes with +X SCH, where X is equal to the villain's stage number.\n<b>When Revealed (Hero)</b>: Green Goblin attacks with +X ATK, where X is equal to the villain's stage number."
 	},
 	{
-		"boost_text": "[[고블린]] 하수인이 하나라도 당신과 교전 중이라면, 이 카드는 강화 아이콘([boost]) +1을 받습니다.",
+		"boost_text": "This card gets +1 boost icon ([boost]) if at least one [[Goblin]] minion is engaged with you.",
 		"code": "02030",
-		"name": "네가 보여!",
-		"text": "<b>공개될 때</b>: Green Goblin이 당신을 공격합니다. 당신이 일상 형태라면, 이번 활성화에서 빌런에게 강화 카드를 주지 않습니다."
+		"name": "I See You",
+		"text": "<b>When Revealed</b>: Green Goblin attack you. If you are in alter-ego form, do not give the villain a boost card for this activation."
 	},
 	{
 		"code": "02031",
-		"name": "자기과신",
-		"text": "<b>공개될 때 (일상)</b>: Green Goblin이 암약합니다. 이번 활성화로 놓인 위협이 3개 이상이라면, 이 카드는 쇄도를 얻습니다.\n<b>공개될 때 (히어로)</b>: Green Goblin이 당신을 공격합니다. 이번 활성화로 Green Goblin이 입힌 피해가 3점 이상이라면, 이 카드는 쇄도를 얻습니다."
+		"name": "Overconfidence",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Green Goblin schemes. If at least 3 threat was placed by this activation, this card gains surge.\n<b>When Revealed (Hero)</b>: Green Goblin attacks you. If at least 3 damage was placed by this activation, this card gains surge."
 	},
 	{
 		"code": "02032",
-		"name": "사악한 야망",
-		"text": "<b>공개될 때</b>: 조우 덱 맨 위에서 카드 X장을 버립니다. X는 빌런의 스테이지 번호의 두 배와 같습니다. 이렇게 [[고블린]] 하수인이 버려질 때마다, 다음 중 하나를 선택합니다. 피해 3점 입기 / 그 하수인을 당신과 교전 중인 채로 플레이 영역에 내려놓기."
+		"name": "Wicked Ambitions",
+		"text": "<b>When Revealed</b>: Discard X cards from the encounter deck, where X is equal to double the villain's stage number. Each time a [[Goblin]] minion is discarded this way, choose to either take 3 damage or put that minion into play engaged with you."
 	},
 	{
 		"code": "02033",
-		"name": "고블린 글라이더",
-		"text": " 다른 고블린 글라이더를 장착하지 않은 하수인 중 인쇄된 생명력이 가장 높은 하수인에게 이 카드를 장착합니다. 그럴 수 없다면, 이 카드는 쇄도를 얻습니다.\n<b>히어로 행동</b>: [energy] [energy] 자원을 소모 → 이 카드를 버림.",
-		"traits": "탈것."
+		"name": "Goblin Glider",
+		"text": "Attach to the enemy with the highest printed hit points and without another Goblin Glider attached. If you cannot, this card gains surge.\n<b>Hero Action</b>: Spend [energy] [energy] resources → discard this card.",
+		"traits": "Vehicle."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: 빌런이 당신을 공격한 후, 호박 폭탄을 버리고 간접 피해 2점을 입습니다.",
+		"attack_text": "<b>Forced Response</b>: After the villain attacks you, discard Pumpkin Bombs and take 2 indirect damage.",
 		"code": "02034",
-		"name": "호박 폭탄",
-		"text": "빌런에게 장착합니다.\n<b>히어로 행동</b>: [physical] [physical] 자원을 소모 → 이 카드를 버림.",
-		"traits": "무기."
+		"name": "Pumpkin Bombs",
+		"text": "Attach to the villain.\n<b>Hero Action</b>: Spend [physical] [physical] resources → discard this card.",
+		"traits": "Weapon."
 	},
 	{
-		"boost_text": "이번 활성화에서 빌런에게 강화 카드 1장을 추가로 줍니다.",
+		"boost_text": "Give the villain 1 additional boost card for this activation.",
 		"code": "02035",
-		"name": "엄포",
-		"text": "<b>공개될 때</b>: 다음 중 하나를 선택합니다. 아무 유형의 자원을 2개 소모 / 조우 덱에서 강화 카드 한 장을 뒷면으로 가져와 빌런에게 주기."
+		"name": "Intimidation",
+		"text": "<b>When Revealed</b>: Choose to either spend 2 resources of any type or give the villain 1 facedown boost card."
 	},
 	{
-		"boost_text": "빌런이 입은 피해 2점을 치료합니다.",
+		"boost_text": "The villain heals 2 damage.",
 		"code": "02036",
-		"name": "재생 치료",
-		"text": "<b>공개될 때</b>: 빌런이 입은 피해 X점을 치료합니다. X는 빌런의 스테이지 번호의 두 배와 같습니다. 이렇게 치료한 피해가 없다면, 이 카드는 쇄도를 얻습니다."
+		"name": "Regenerative Healing",
+		"text": "<b>When Revealed</b>: The villain heals X damage, where X is equal to double the villain's stage number. If no damage was healed this way, this card gains surge."
 	},
 	{
 		"code": "02037",
-		"flavor": "Scorpion은 사업 지구를 찢어발기며, 가능한 한 많은 혼란을 빚습니다.",
-		"name": "일을 망치다",
-		"text": "<b>공개될 때</b>: 기절한 아군 캐릭터마다 이 카드에 위협을 2만큼 추가로 놓습니다."
+		"flavor": "Scorpion tears through the business district, causing as much mayhem as possible.",
+		"name": "A Mess of Things",
+		"text": "<b>When Revealed</b>: Place 2 additional threat here for each stunned friendly character."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Scorpion이 공격하여 캐릭터에게 피해를 입힌 후, 그 캐릭터를 기절시킵니다.",
+		"attack_text": "<b>Forced Response</b>: After Scorpion attacks and damages a character, stun that character.",
 		"code": "02038",
-		"flavor": "\"널 짓부숴 주마, Spider-Man!\"",
+		"flavor": "\"I'll crush you, Spider-Man!\"",
 		"name": "Scorpion",
-		"text": "속공.<i>(이 하수인은 히어로와 교전에 돌입한 후, 즉시 공격합니다).</i>"
+		"text": "Quickstrike. <i>(After this minion engages your hero, it attacks you.)</i>"
 	},
 	{
 		"code": "02039",
-		"name": "물량공세",
-		"text": "<b>공개될 때 (일상)</b>: 이 카드는 쇄도를 얻습니다.\n<b>공개될 때 (히어로)</b>: 당신과 교전 중인 모든 하수인과 빌런이 당신을 공격합니다."
+		"name": "Gang-Up",
+		"text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: The villain and each minion engaged with you attacks you."
 	},
 	{
-		"boost_text": "당신은 기절합니다.",
+		"boost_text": "You are stunned.",
 		"code": "02040",
-		"name": "꼬리 휩쓸기",
-		"text": "<b>공개될 때</b>: Scorpion이 당신의 히어로를 공격합니다. 이렇게 일어난 공격이 하나도 없다면, 당신은 기절합니다."
+		"name": "Tail Sweep",
+		"text": "<b>When Revealed</b>: Scorpion attacks your hero. If no attack was made this way, you are stunned."
 	},
 	{
 		"code": "02041",
-		"name": "전력 흡수",
-		"text": "<b>격파될 때</b>: 조우 덱에서 카드 2장을 버립니다. 이렇게 버려진 카드에 인쇄된 강화 아이콘마다 각 플레이어는 자신의 손에서 아무 유형의 자원 1개를 반드시 버려야 합니다."
+		"name": "Power Drain",
+		"text": "<b>When Defeated</b>: Discard 2 cards from the encounter deck. Each player must choose and discard 1 resource of any type from their hand for each boost icon discarded this way."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Electro가 당신을 공격한 후, 조우 덱에서 카드 1장을 버립니다. 이렇게 버려진 카드에 인쇄된 강화 아이콘마다 간접 피해 1점을 입습니다.",
-		"boost_text": "조우 덱에서 카드 3장을 버립니다.",
+		"attack_text": "<b>Forced Response</b>: After Electro attacks you, discard 1 card from the encounter deck. Take 1 indirect damage for each boost icon discarded this way.",
+		"boost_text": "Discard 3 cards from the encounter deck.",
 		"code": "02042",
 		"name": "Electro",
-		"traits": "범죄자."
+		"traits": "Criminal."
 	},
 	{
-		"boost_text": "조우 덱에서 카드 3장을 버립니다.",
+		"boost_text": "Discard 3 cards from the encounter deck.",
 		"code": "02043",
-		"name": "전자기장 파동",
-		"text": "<b>공개될 때</b>: 조우 덱에서 카드 7장을 버립니다. 이렇게 Electro가 버려지면, Electro를 당신과 교전 중인 채로 플레이 영역에 내려놓습니다. 이렇게 Electro가 버려지지 않으면, 이 카드는 쇄도를 얻습니다."
+		"name": "Electromagnetic Pulse",
+		"text": "<b>When Revealed</b>: Discard 7 cards from the encounter deck. If Electro was discarded this way, put him into play engaged with you. If Electro was not discarded this way, this card gains surge."
 	},
 	{
-		"boost_text": "조우 덱에서 카드 3장을 버립니다.",
+		"boost_text": "Discard 3 cards from the encounter deck.",
 		"code": "02044",
-		"name": "번개 작렬",
-		"text": "<b>공개될 때</b>: 조우 덱에서 카드 2장을 버립니다. 이렇게 버려진 카드에 인쇄된 강화 아이콘마다 간접 피해 1점을 입습니다."
+		"name": "Lightning Bolt",
+		"text": "<b>When Revealed</b>: Discard 2 cards from the encounter deck. Take 1 indirect damage for each boost icon discarded this way."
 	},
 	{
-		"boost_text": "조우 덱에서 카드 3장을 버립니다.",
+		"boost_text": "Discard 3 cards from the encounter deck.",
 		"code": "02045",
-		"name": "충격요법",
-		"text": "<b>공개될 때</b>: 조우 덱에서 카드 1[per_hero]장을 버립니다. 이렇게 버려진 카드에 인쇄된 강화 아이콘마다 빌런이 입은 피해 1점을 치료합니다."
+		"name": "Shock Therapy",
+		"text": "<b>When Revealed</b>: Discard 1[per_hero] cards from the encounter deck. The villain heals 1 damage for each boost icon discarded this way."
 	},
 	{
 		"code": "02046",
-		"name": "경영 방해",
-		"text": "<b>공개될 때</b>: 각 플레이어는 다음 중 하나를 반드시 선택합니다. [mental] [physical] 자원 소모 / 이 카드에 위협을 2만큼 놓기."
+		"name": "Running Interference",
+		"text": "<b>When Revealed</b>: Each player must choose to either spend [mental] [physical] resources or place 2 threat here."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Tombstone이 공격하여 당신에게 피해를 입힌 후, 가능하다면 당신의 손에서 [mental] 자원 1개나 [physical] 자원 1개를 버립니다.",
+		"attack_text": "<b>Forced Response</b>: After Tombstone attacks and damages you, discard a [mental] or [physical] resource from your hand, if able.",
 		"code": "02047",
 		"name": "Tombstone",
-		"traits": "범죄자."
+		"traits": "Criminal."
 	},
 	{
 		"code": "02048",
-		"name": "완전히 묶이다",
-		"text": "당신의 아이덴티티에 장착합니다.\n장착된 캐릭터는 준비 상태가 되거나 형태를 변신할 수 없습니다.\n<b>Action</b>: [mental] [physical] 자원을 소모 → 이 카드를 버림."
+		"name": "All Tied Up",
+		"text": "Attach to your identity card.\nAttached character cannot ready or change form.\n<b>Action</b>: Spend [mental] [physical] resources → discard this card."
 	},
 	{
 		"code": "02049",
-		"name": "언론 보도",
-		"text": "당신의 아이덴티티에 장착합니다.\n당신이 공개하는 모든 \"<b>공개될 때</b>\" 효과를 추가로 한 번 더 해결합니다.\n<b>일상 행동</b>: [mental] 자원을 소모 → 이 카드를 버림."
+		"name": "Media Coverage",
+		"text": "Attach to your identity card.\nResolve each \"<b>When Revealed</b>\" ability that you reveal 1 additional time.\n<b>Alter-Ego Action</b>: Spend a [mental] resource → discard this card."
 	}
-
 ]
