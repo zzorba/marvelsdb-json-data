@@ -1,351 +1,351 @@
 [
-		{
-		"back_text": "<b>구성</b>: Wrecker A, Thunderball A, Piledriver A, 그리고 Bulldozer A 모두가 빌런<i>(어려운 난이도의 게임을 하려면 B버전을 사용합니다).</i> Wrecker, Thunderball, Piledriver, 그리고 Bulldozer 조우 덱.\n<b>사전 준비</b>: 심판의 날, 천둥 같은 타격, 더 많은 압박!, 그리고 탈출 경로 정리 부가 음모를 플레이 영역에 내려놓습니다. 활성화 카운터는 Wrecker에게 놓습니다. 스테이지 1B로 넘어갑니다.",
+	{
+		"back_text": "<b>Scenario Contents</b>: Wrecher A, Thunderball A, Piledriver A, and Bulldozer A as villains. <i>(Version B for increased difficulty.)</i> Wrecker, Thunderball, Piledriver, and Bulldozer encounter decks.\n<b>Setup</b>: Put the Day of Reckoning, Thunderstruck, Pile It On!, and Clear the Road side schemes into play. Place the active counter on Wrecker. Advance to stage 1B.",
 		"code": "07001",
-		"name": "탈옥",
-		"text": "[star] <b>강제 반응</b>: 빌런 페이즈 1단계를 해결한 후, 모든 부가 음모에 위협을 1만큼 놓습니다. 가장 많은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다<i>(동률이라면 시작 플레이어가 결정합니다).</i>\n<b>이 스테이지가 달성되면, 플레이어들은 게임에서 패배합니다</b>"
+		"name": "Breakout",
+		"text": "[star] <b>Forced Response</b>: After step one of the villain phase, place 1 threat on each side scheme. Move the active counter to the villain whose scheme has the most threat. <i>(If there is a tie, the first player chooses.)</i>\n<b>If this stage is completed, the players lose the game</b>"
 	},
 	{
-		"attack_text": "Wrecker가 공격하는 동안, 이 공격이 방어되지 않았다면 Wrecker는 공격 +2를 받습니다.",
+		"attack_text": "While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
 		"code": "07002",
 		"name": "Wrecker",
-		"scheme_text": "Wrecker가 암약할 때, 위협을 주요 음모 대신 부가 음모에 놓습니다.",
+		"scheme_text": "When Wrecker schemes, place the threat on his side scheme instead of the main scheme.",
 		"traits": "Wrecking Crew."
 	},
 	{
-		"attack_text": " Wrecker가 공격하는 동안, 이 공격이 방어되지 않았다면 Wrecker는 공격 +2를 받습니다.",
+		"attack_text": "While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
 		"code": "07003",
 		"name": "Wrecker",
-		"scheme_text": " Wrecker가 암약할 때, 위협을 주요 음모 대신 부가 음모에 놓습니다.",
+		"scheme_text": "When Wrecker schemes, place the threat on his side scheme instead of the main scheme.",
 		"traits": "Wrecking Crew."
 	},
 	{
 		"code": "07004",
-		"name": "심판의 날",
-		"text": "<b>Wrecker의 부가 음모입니다.</b>\nWrecker가 플레이 영역에 있는 한, 이 카드는 플레이 영역을 떠날 수 없습니다.\n강한 타격 -- <b>강제 반응</b>: 이 카드에 위협이 놓인 후, 이 카드에 놓인 위협이 10개 이상이라면, 모든 아군 캐릭터에게 피해 2점을 입힙니다. 이 카드에서 위협을 3만큼 남기고 나머지는 모두 제거합니다."
+		"name": "Day of Reckoning",
+		"text": "<b>Wrecker's Side Scheme.</b>\nThis card cannot leave play while Wrecker is in play.\nHard Hitter -- <b>Forced Response</b>: After threat is placed here, if there is 10 or more threat here, deal 2 damage to each friendly character. Remove all but 3 threat from this scheme."
 	},
 	{
 		"code": "07005",
-		"name": "인질을 잡다",
-		"text": "활성화 빌런의 부가 음모에게 장착합니다.\n장착된 음모에서는 저지로 위협을 제거할 수 없습니다.\n<b>히어로 행동</b>: 장착된 부가 음모와 상응하는 빌런이 당신을 공격합니다. 그러고 나서 이 카드를 버립니다."
+		"name": "Held Hostage",
+		"text": "Attach to the active villain's side scheme.\nThreat cannot be removed from attacked scheme by thwarting.\n<b>Hero Action</b>: The villain corresponding to the attached side scheme attacks you. Then discard this card."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Wrecker가 공격한 후, 가장 적은 위협이 놓인 부가 음모에 위협을 1만큼 놓습니다.",
+		"attack_text": "<b>Forced Response</b>: After Wrecker attacks, place 1 threat on the side scheme with the least threat.",
 		"code": "07006",
-		"name": "마법 쇠지렛대",
-		"text": "Wrecker에게 장착합니다.\n<b>히어로 행동</b>: 당신의 히어로를 소진하고 당신의 손에서 카드 1장을 무작위로 버림 → 이 카드를 버림."
+		"name": "Magic Crowbar",
+		"text": "Attach to Wrecker.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card."
 	},
 	{
 		"code": "07007",
-		"name": "Wrecker의 명령",
-		"scheme_text": "<b>강제 반응</b>: Wrecker가 암약한 후, 다른 모든 빌런의 부가 음모마다 위협을 1만큼 놓습니다.",
-		"text": "Wrecker에게 장착합니다.\n<b>히어로 행동</b>: [physical] [physical] 자원을 소모 → 이 카드를 버림."
+		"name": "Wrecker's Command",
+		"scheme_text": "<b>Forced Response</b>: After Wrecker schemes, place 1 threat on each other villain's side scheme.",
+		"text": "Attach to Wrecker.\n<b>Hero Action</b>: Spend [physical] [physical] resources → discard this card."
 	},
 	{
 		"code": "07008",
-		"name": "부패한 간수",
-		"text": "경호<i>(이 하수인이 당신과 교전 중인 한, 당신은 빌런을 공격할 수 없습니다).</i>",
-		"traits": "변절자."
+		"name": "Corrupt Prison Guard",
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>",
+		"traits": "Traitor."
 	},
 	{
-		"boost_text": "가장 적은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다. 당신이 히어로 형태라면, 이 공격을 해결한 후 그 빌런이 당신을 공격합니다. 해당 공격에서는 빌런에게 강화 카드를 주지 않습니다.",
+		"boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"code": "07009",
-		"name": "탈옥한 재소자",
-		"text": "쇄도",
-		"traits": "범죄자."
+		"name": "Escaped Convict",
+		"text": "Surge",
+		"traits": "Criminal."
 	},
 	{
-		"boost_text": "가장 적은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다.",
+		"boost_text": "Move the active counter to the villain whose side scheme has the least threat.",
 		"code": "07010",
-		"name": "전우조",
-		"text": "<b>공개될 때</b>: 가장 적은 위협이 놓인 부가 음모와 상응하는 빌런을 선택합니다. 그 빌런의 조우 덱 맨 위 카드를 1장 공개합니다(그 빌런이 플레이 영역에 있는 유일한 빌런이라면 대신 카드를 2장 공개합니다)."
+		"name": "Buddy System",
+		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play)."
 	},
 	{
-		"boost_text": "이번 공격이 방어되지 않았다면, 당신이 조종하는 업그레이드 하나를 선택해 버립니다.",
+		"boost_text": "If this attack is undefended, discard an upgrade you control.",
 		"code": "07011",
-		"name": "감옥 속의 혼돈",
-		"text": "<b>공개될 때</b>: 다음 중 하나를 선택합니다. 당신이 조종하는 업그레이드 하나를 선택해 버리기 / 당신이 조종하는 업그레이드마다 활성화 빌런의 부가 음모에 위협을 1만큼 놓기. 당신이 조종하는 업그레이드가 없다면, 이 카드는 쇄도를 얻습니다."
+		"name": "Chaos In the Prison",
+		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge."
 	},
 	{
 		"code": "07012",
-		"name": "쇠지렛대 던지기",
-		"text": "<b>공개될 때 (일상)</b>: Wrecker가 암약합니다. 그러고 나서, 가장 적은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다.\n<b>공개될 때 (히어로)</b>: Wrecker가 당신을 공격합니다. 그러고 나서, 가장 적은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다."
+		"name": "Crowbar Toss",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Wrecker schemes. Then, move the active villain counter to the villain whose side scheme has the least threat.\n<b>When Revealed (Hero)</b>: Wrecker attacks you. Then, move the active villain counter to the villain whose side scheme has the least threat."
 	},
 	{
 		"code": "07013",
-		"name": "만신창이가 되어라!",
-		"text": "<b>공개될 때 (일상)</b>: 가장 많은 위협이 놓인 부가 음모와 상응하는 빌런이 암약합니다.\n<b>공개될 때 (히어로)</b>: 가장 많은 위협이 놓인 부가 음모와 상응하는 빌런이 당신을 공격합니다."
+		"name": "Get Wrecked!",
+		"text": "<b>When Revealed (Alter-Ego)</b>: The villain whose side scheme has the most threat schemes.\n<b>When Revealed (Hero)</b>: The villain whose side scheme has the least threat attacks you."
 	},
 	{
-		"boost_text": "가장 적은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다. 그 빌런이 암약합니다.",
+		"boost_text": "Move the active counter to the villain with the least threat on his side scheme. That villain schemes.",
 		"code": "07014",
-		"name": "바로 이런 걸 기다리고 있었어!",
-		"text": "<b>공개될 때</b>: 활성화 빌런이 받은 피해 3점을 치료합니다. 그 빌런에게 강인함 상태 카드를 줍니다."
+		"name": "I've Been Waiting For This!",
+		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card."
 	},
 	{
-		"boost_text": "다음 중 하나를 선택합니다. Wrecker의 부가 음모에 위협을 2만큼 놓기 / Wrecker가 이번 활성화에서 공격 +3을 받기.",
+		"boost_text": "Wrecker gets +3 ATK for this activation unless you place 2 threat on his side scheme.",
 		"code": "07015",
-		"name": "신비한 연결",
-		"text": "<b>공개될 때</b>: 모든 부가 음모마다 위협을 2만큼 놓습니다."
+		"name": "Mystical Link",
+		"text": "<b>When Revealed</b>: Place 2 threat on each side scheme."
 	},
 	{
 		"code": "07016",
-		"name": "넌 죽은 시체덩이야!",
-		"text": "<b>공개될 때</b>: 남은 생명력이 가장 적은 히어로나 동료에게 피해 1점을 입힙니다. 그 캐릭터가 이렇게 격파되었다면, Wrecker의 부가 음모에 위협을 3만큼 놓습니다."
+		"name": "You're Dead Meat!",
+		"text": "<b>When Revealed</b>: Deal 1 damage to the hero or ally with the fewest remaining hit points. If that character is defeated this way, place 3 threat on Wrecker's side scheme."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Thunderball이 당신을 공격한 후, 당신이 조종하는 모든 캐릭터에게 피해 1점을 입힙니다.",
+		"attack_text": "<b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
 		"code": "07017",
 		"name": "Thunderball",
-		"scheme_text": "Thunderball이 암약할 때, 위협을 주요 음모 대신 부가 음모에 놓습니다.",
+		"scheme_text": "When Thunderball schemes, place the threat on his side scheme instead of the main scheme.",
 		"traits": "Wrecking Crew."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Thunderball이 당신을 공격한 후, 당신이 조종하는 모든 캐릭터에게 피해 1점을 입힙니다.",
+		"attack_text": "<b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
 		"code": "07018",
 		"name": "Thunderball",
-		"scheme_text": "Thunderball이 암약할 때, 위협을 주요 음모 대신 부가 음모에 놓습니다.",
+		"scheme_text": "When Thunderball schemes, place the threat on his side scheme instead of the main scheme.",
 		"traits": "Wrecking Crew."
 	},
 	{
 		"code": "07019",
-		"name": "천둥 같은 타격",
-		"text": "<b>Thunderball의 부가 음모입니다.</b>\nThunderball이 플레이 영역에 있는 한, 이 카드는 플레이 영역을 떠날 수 없습니다.\n감마선 작렬 -- <b>강제 반응</b>: 이 카드에 위협이 놓인 후, 이 카드에 놓인 위협이 10개 이상이라면, 모든 아군 캐릭터를 기절시킵니다. 이 카드에서 위협을 3만큼 남기고 나머지는 모두 제거합니다."
+		"name": "Thunderstruck",
+		"text": "<b>Thunderball's Side Scheme.</b>\nThis card cannot leave play while Thunderball is in play.\nGamma Blast -- <b>Forced Response</b>: After threat is placed here, if there is 10 or more threat here, stun each friendly character. Remove all but 3 threat from this scheme."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Thunderball이 공격한 후, 주요 음모에 위협을 1만큼 놓습니다.",
+		"attack_text": "<b>Forced Response</b>: After Thunderball attacks, place 1 threat on the main scheme.",
 		"code": "07020",
-		"name": "금속구가 달린 사슬",
-		"text": "Thunderball에게 장착합니다.\n<b>히어로 행동</b>: 당신의 히어로를 소진하고 당신의 손에서 카드 1장을 무작위로 버림 → 이 카드를 버림.",
-		"traits": "무기."
+		"name": "Ball and Chain",
+		"text": "Attach to Thunderball.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
+		"traits": "Weapon."
 	},
 	{
 		"code": "07021",
-		"name": "인질을 잡다",
-		"text": "활성화 빌런의 부가 음모에게 장착합니다.\n장착된 음모에서는 저지로 위협을 제거할 수 없습니다.\n<b>히어로 행동</b>: 장착된 부가 음모와 상응하는 빌런이 당신을 공격합니다. 그러고 나서 이 카드를 버립니다."
+		"name": "Held Hostage",
+		"text": "Attach to the active villain's side scheme.\nThreat cannot be removed from attached scheme by thwarting.\n<b>Hero Action</b>: The villain corresponding to the attached side scheme attacks you. Then, discard this card."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Thunderball이 공격한 후, 이 카드를 버립니다.",
+		"attack_text": "<b>Forced Response</b>: After Thunderball attacks, discard this card.",
 		"code": "07022",
-		"name": "방사성 증강",
-		"text": "Thunderball에게 장착합니다.\nThunderball이 입히는 초과 피해는 Thunderball의 부가 음모에 위협으로써 놓입니다.",
-		"traits": "상태."
+		"name": "Radioactive Buildup",
+		"text": "Attach to Thunderball.\nExcess damage dealt by Thunderball is placed as threat on his corresponding side scheme.",
+		"traits": "Condition."
 	},
 	{
 		"code": "07023",
-		"name": "부패한 간수",
-		"text": "경호<i>(이 하수인이 당신과 교전 중인 한, 당신은 빌런을 공격할 수 없습니다).</i>",
-		"traits": "변절자."
+		"name": "Corrupt Prison Guard",
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>",
+		"traits": "Traitor."
 	},
 	{
-		"boost_text": "가장 적은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다. 당신이 히어로 형태라면, 이 공격을 해결한 후 그 빌런이 당신을 공격합니다. 해당 공격에서는 빌런에게 강화 카드를 주지 않습니다.",
+		"boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"code": "07024",
-		"name": "탈옥한 재소자",
-		"text": "쇄도",
-		"traits": "범죄자."
+		"name": "Escaped Convict",
+		"text": "Surge",
+		"traits": "Criminal."
 	},
 	{
-		"boost_text": "가장 적은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다.",
+		"boost_text": "Move the active counter to the villain whose side scheme has the least threat.",
 		"code": "07025",
-		"name": "전우조",
-		"text": "<b>공개될 때</b>: 가장 적은 위협이 놓인 부가 음모와 상응하는 빌런을 선택합니다. 그 빌런의 조우 덱 맨 위 카드를 1장 공개합니다(그 빌런이 플레이 영역에 있는 유일한 빌런이라면 대신 카드를 2장 공개합니다)."
+		"name": "Buddy System",
+		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play)."
 	},
 	{
-		"boost_text": "이번 공격이 방어되지 않았다면, 당신이 조종하는 업그레이드 하나를 선택해 버립니다.",
+		"boost_text": "If this attack is undefended, discard an upgrade you control.",
 		"code": "07026",
-		"name": "감옥 속의 혼돈",
-		"text": "<b>공개될 때</b>: 다음 중 하나를 선택합니다. 당신이 조종하는 업그레이드 하나를 선택해 버리기 / 당신이 조종하는 업그레이드마다 활성화 빌런의 부가 음모에 위협을 1만큼 놓기. 당신이 조종하는 업그레이드가 없다면, 이 카드는 쇄도를 얻습니다."
+		"name": "Chaos In the Prison",
+		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge."
 	},
 	{
-		"boost_text": "방어하는 캐릭터에게 피해 1점을 입힙니다.",
+		"boost_text": "Deal 1 damage to the defending character.",
 		"code": "07027",
-		"name": "에너지 투사체",
-		"text": "<b>공개될 때</b>: 당신이 조종하는 모든 아군 캐릭터에게 피해 1점을 입힙니다."
+		"name": "Energy Projectiles",
+		"text": "<b>When Revealed</b>: Deal 1 damage to each friendly character you control."
 	},
 	{
 		"code": "07028",
-		"name": "만신창이가 되어라!",
-		"text": "<b>공개될 때 (일상)</b>: 가장 많은 위협이 놓인 부가 음모와 상응하는 빌런이 암약합니다.\n<b>공개될 때 (히어로)</b>: 가장 많은 위협이 놓인 부가 음모와 상응하는 빌런이 당신을 공격합니다."
+		"name": "Get Wrecked!",
+		"text": "<b>When Revealed (Alter-Ego)</b>: The villain whose side scheme has the most threat schemes.\n<b>When Revealed (Hero)</b>: The villain whose side scheme has the least threat attacks you."
 	},
 	{
-		"boost_text": "가장 적은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다. 그 빌런이 암약합니다.",
+		"boost_text": "Move the active counter to the villain with the least threat on his side scheme. That villain schemes.",
 		"code": "07029",
-		"name": "바로 이런 걸 기다리고 있었어!",
-		"text": "<b>공개될 때</b>: 활성화 빌런이 받은 피해 3점을 치료합니다. 그 빌런에게 강인함 상태 카드를 줍니다."
+		"name": "I've Been Waiting For This!",
+		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card."
 	},
 	{
 		"code": "07030",
-		"name": "번개 작렬",
-		"text": "<b>공개될 때 (일상)</b>: 가장 많은 위협이 놓인 부가 음모에 위협을 3만큼 놓습니다.\n<b>공개될 때 (히어로)</b>: Thunderball이 당신을 공격합니다. 이번 공격이 방어되지 않았다면, Thunderball의 부가 음모에 위협을 3만큼 놓습니다."
+		"name": "Lightning Blast",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Place 3 threat on the side scheme with the most threat.\n<b>When Revealed (Hero)</b>: Thunderball attacks you. If this attack is undefended, place 3 threat on Thunderball's side scheme."
 	},
 	{
 		"code": "07031",
-		"name": "전략적 기량",
-		"text": "<b>공개될 때</b>: 가장 적은 위협이 놓인 부가 음모에 놓인 모든 위협을 가장 많은 위협이 놓인 부가 음모로 옮깁니다. 이렇게 위협이 옮겨진 음모의 \"<b>강제 반응</b>\" 능력이 격발되지 않았다면, 이 카드는 쇄도를 얻습니다."
+		"name": "Tactical Prowess",
+		"text": "<b>When Revealed</b>: Move all threat from the side scheme with the least threat to the side scheme with the most threat. If that scheme's \"<b>Forced Response</b>\" ability is not triggered this way, this card gains surge."
 	},
 	{
 		"code": "07032",
 		"name": "Piledriver",
-		"scheme_text": "Piledriver가 암약할 때, 위협을 주요 음모 대신 부가 음모에 놓습니다.",
-		"text": "반격 1.",
+		"scheme_text": "When Piledriver schemes, place the threat on his side scheme instead of the main scheme.",
+		"text": "Retaliate 1.",
 		"traits": "Wrecking Crew."
 	},
 	{
 		"code": "07033",
 		"name": "Piledriver",
-		"scheme_text": "Piledriver가 암약할 때, 위협을 주요 음모 대신 부가 음모에 놓습니다.",
-		"text": "반격 1.",
+		"scheme_text": "When Wrecker schemes, place the threat on his side scheme instead of the main scheme.",
+		"text": "Retaliate 1.",
 		"traits": "Wrecking Crew."
 	},
 	{
 		"code": "07034",
-		"name": "더 많은 압박!",
-		"text": "<b>Piledriver의 부가 음모입니다.</b>\nPiledriver가 플레이 영역에 있는 한, 이 카드는 플레이 영역을 떠날 수 없습니다.\n파일드라이브 -- <b>강제 반응</b>: 이 카드에 위협이 놓인 후, 이 카드에 놓인 위협이 10개 이상이라면, 각 플레이어는 자신이 조종하는 자원 비용이 가장 높은 업그레이드나 지원 하나를 버립니다. 이 카드에서 위협을 3만큼 남기고 나머지는 모두 제거합니다."
+		"name": "Pile It On!",
+		"text": "<b>Piledriver's Side Scheme.</b>\nThis card cannot leave play while Wrecker is in play.\nPile Drive -- <b>Forced Response</b>: After threat is placed here, if there is 10 or more threat here, each player discards the upgrade or support they control with the highest cost. Remove all but 3 threat from this scheme."
 	},
 	{
 		"code": "07035",
-		"name": "성가신 도발",
-		"text": "Piledriver에게 장착합니다.\nPiledriver는 생명력 +3을 받습니다. 플레이어는 다른 빌런을 공격할 수 없습니다.\n<b>반응</b>: 당신의 히어로가 Piledriver를 공격한 후, [physical] [physical] 자원을 소모 → 이 카드를 버림."
+		"name": "Distracting Taunts",
+		"text": "Attach to Piledriver.\nPiledriver gets +3 hit points. Players cannot attack other villains.\n<b>Response</b>: After your hero attacks Piledriver, spend [physical] [physical] resources → discard this card."
 	},
 	{
 		"code": "07036",
-		"name": "인질을 잡다",
-		"text": "활성화 빌런의 부가 음모에게 장착합니다.\n장착된 음모에서는 저지로 위협을 제거할 수 없습니다.\n<b>히어로 행동</b>: 장착된 부가 음모와 상응하는 빌런이 당신을 공격합니다. 그러고 나서 이 카드를 버립니다."
+		"name": "Held Hostage",
+		"text": "Attach to the active villain side scheme.\nThreat cannot be removed from attached scheme by thwarting.\n<b>Hero Action</b>: The villain corresponding to the attached side scheme attacks you. Then, discard this card."
 	},
 	{
 		"code": "07037",
-		"name": "부패한 간수",
-		"text": "경호<i>(이 하수인이 당신과 교전 중인 한, 당신은 빌런을 공격할 수 없습니다).</i>",
-		"traits": "변절자."
+		"name": "Corrupt Prison Guard",
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>",
+		"traits": "Traitor."
 	},
 	{
-		"boost_text": "가장 적은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다. 당신이 히어로 형태라면, 이 공격을 해결한 후 그 빌런이 당신을 공격합니다. 해당 공격에서는 빌런에게 강화 카드를 주지 않습니다.",
+		"boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"code": "07038",
-		"name": "탈옥한 재소자",
-		"text": "쇄도",
-		"traits": "범죄자."
+		"name": "Escaped Convict",
+		"text": "Surge",
+		"traits": "Criminal."
 	},
 	{
-		"boost_text": "가장 적은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다.",
+		"boost_text": "Move the active counter to the villain whose side scheme has the least threat.",
 		"code": "07039",
-		"name": "전우조",
-		"text": "<b>공개될 때</b>: 가장 적은 위협이 놓인 부가 음모와 상응하는 빌런을 선택합니다. 그 빌런의 조우 덱 맨 위 카드를 1장 공개합니다(그 빌런이 플레이 영역에 있는 유일한 빌런이라면 대신 카드를 2장 공개합니다)."
+		"name": "Buddy System",
+		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play)."
 	},
 	{
 		"code": "07040",
-		"name": "만신창이가 되어라!",
-		"text": "<b>공개될 때 (일상)</b>: 가장 많은 위협이 놓인 부가 음모와 상응하는 빌런이 암약합니다.\n<b>공개될 때 (히어로)</b>: 가장 많은 위협이 놓인 부가 음모와 상응하는 빌런이 당신을 공격합니다."
+		"name": "Get Wrecked!",
+		"text": "<b>When Revealed (Alter-Ego)</b>: The villain whose side scheme has the most threat schemes.\n<b>When Revealed (Hero)</b>: The villain whose side scheme has the least threat attacks you."
 	},
 	{
-		"boost_text": "가장 적은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다. 그 빌런이 암약합니다.",
+		"boost_text": "Move the active counter to the villain with the least threat on his side scheme. That villain schemes.",
 		"code": "07041",
-		"name": "바로 이런 걸 기다리고 있었어!",
-		"text": "<b>공개될 때</b>: 활성화 빌런이 받은 피해 3점을 치료합니다. 그 빌런에게 강인함 상태 카드를 줍니다."
+		"name": "I've Been Waiting For This!",
+		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card."
 	},
 	{
-		"boost_text": "당신이 조종하는 지원 하나를 버립니다.",
+		"boost_text": "Discard a support you control.",
 		"code": "07042",
-		"name": "너무 큰 손",
-		"text": "<b>공개될 때</b>: 당신이 조종하는 자원 비용이 가장 높은 지원 하나를 버립니다. 이렇게 버려진 지원이 없다면, 활성화 빌런의 부가 음모에 위협을 2만큼 놓습니다."
+		"name": "Oversized Hands",
+		"text": "<b>When Revealed</b>: Discard the support you control with the highest cost. If no support was discarded this way, place 2 threat on the active villain's scheme."
 	},
 	{
-		"boost_text": "활성화 빌런에게 강인함 상태 카드를 줍니다. 이미 활성화 상태 카드가 있다면, 그 빌런의 부가 음모에 위협을 2만큼 놓습니다.",
+		"boost_text": "Give the active villain a tough status card. If they already have a tough status card, place 2 threat on their scheme.",
 		"code": "07043",
-		"name": "탈출 계획",
-		"text": "<b>공개될 때</b>: 당신은 혼란에 빠집니다. 이미 혼란에 빠졌다면, Piledriver가 암약합니다."
+		"name": "Escape Plan",
+		"text": "<b>When Revealed</b>: You are confused. If you are already confused, Piledriver schemes."
 	},
 	{
 		"code": "07044",
-		"name": "이어지는 타격",
-		"text": "<b>공개될 때 (일상)</b>: Piledriver가 암약합니다. Piledriver에게 강인함 상태 카드가 있다면, Piledriver는 이번 활성화에서 음모 +2를 받습니다.\n<b>공개될 때 (히어로)</b>: Piledriver가 당신을 공격합니다. Piledriver에게 강인함 상태 카드가 있다면, Piledriver는 이번 활성화에서 공격 +2를 받습니다."
+		"name": "Pummel",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Piledriver schemes. If Piledriver is tough, he gets +2 SCH for this activation.\n<b>When Revealed (Hero)</b>: Piledriver attacks you. If Piledriver is tough, he gets +2 ATK for this activation."
 	},
 	{
-		"boost_text": "당신은 혼란에 빠집니다.",
+		"boost_text": "You are confused.",
 		"code": "07045",
-		"name": "초자연적인 회복력",
-		"text": "<b>공개될 때</b>: 모든 빌런에게서 모든 기절 상태 카드와 혼란 상태 카드를 제거합니다. 이렇게 제거한 상태 카드가 없다면, 이 카드는 쇄도를 얻습니다."
+		"name": "Uncanny Resilience",
+		"text": "<b>When Revealed</b>: Remove each stunned and confused status card from each villain. If no status cards were removed, this card gains surge."
 	},
 	{
-		"attack_text": "<b>강제 난입</b>: Bulldozer가 공격할 때, 이 공격은 압살을 얻습니다.",
+		"attack_text": "<b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
 		"code": "07046",
 		"name": "Bulldozer",
-		"scheme_text": "Bulldozer가 암약할 때, 위협을 주요 음모 대신 부가 음모에 놓습니다.",
+		"scheme_text": "When Piledriver schemes, place the threat on his side scheme instead of the main scheme.",
 		"traits": "Wrecking Crew."
 	},
 	{
-		"attack_text": "<b>강제 난입</b>: Bulldozer가 공격할 때, 이 공격은 압살을 얻습니다.",
+		"attack_text": "<b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
 		"code": "07047",
 		"name": "Bulldozer",
-		"scheme_text": "Bulldozer가 암약할 때, 위협을 주요 음모 대신 부가 음모에 놓습니다.",
+		"scheme_text": "When Bulldozer schemes, place the threat on his side scheme instead of the main scheme.",
 		"traits": "Wrecking Crew."
 	},
 	{
 		"code": "07048",
-		"name": "탈출 경로 정리",
-		"text": "<b>Bulldozer의 부가 음모입니다.</b>\nBulldozer가 플레이 영역에 있는 한, 이 카드는 플레이 영역을 떠날 수 없습니다.\nCharge! -- <b>강제 반응</b>: 이 카드에 위협이 놓인 후, 이 카드에 놓인 위협이 10개 이상이라면, 각 플레이어는 자신의 덱 맨 위에서 카드 10장을 버려야 합니다. 이 카드에서 위협을 3만큼 남기고 나머지는 모두 제거합니다."
+		"name": "Clear the Road",
+		"text": "<b>Bulldozer's Side Scheme.</b>\nThis card cannot leave play while Bulldozer is in play.\nCharge! -- <b>Forced Response</b>: After threat is placed here, if there is 10 or more threat here, each player must discard the top 10 cards of their deck. Remove all but 3 threat from this scheme."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Bulldozer가 당신을 공격한 후, 이 공격에서 입은 피해마다 당신의 덱 맨 위에서 카드 1장을 버립니다.",
+		"attack_text": "<b>Forced Response</b>: After Bulldozer attacks you, discard 1 card from the top of your deck for each point of damage dealt by this attack.",
 		"code": "07049",
-		"name": "Bulldozer 헬멧",
-		"text": "Bulldozer에게 장착합니다.\n<b>히어로 행동</b>: 당신의 히어로를 소진합니다 and 당신의 손에서 카드 1장을 무작위로 버립니다 → 이 카드를 버림.",
-		"traits": "갑옷."
+		"name": "Bulldozer's Helmet",
+		"text": "Attach to Bulldozer.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
+		"traits": "Armor."
 	},
 	{
 		"code": "07050",
-		"name": "인질을 잡다",
-		"text": "활성화 빌런의 부가 음모에게 장착합니다.\n장착된 음모에서는 저지로 위협을 제거할 수 없습니다.\n<b>히어로 행동</b>: 장착된 부가 음모와 상응하는 빌런이 당신을 공격합니다. 그러고 나서 이 카드를 버립니다."
+		"name": "Held Hostage",
+		"text": "Attach to the active villain side scheme.\nThreat cannot be removed from attached scheme by thwarting.\n<b>Hero Action</b>: The villain corresponding to the attached side scheme attacks you. Then, discard this card."
 	},
 	{
-		"attack_text": "<b>강제 난입</b>: Bulldozer가 당신을 공격할 때, 가능하다면 당신이 조종하는 동료로 이 공격을 방어해야 합니다.\n<b>강제 반응</b>: Bulldozer가 당신을 공격한 후, 이 카드를 버립니다.",
+		"attack_text": "<b>Forced Interrupt</b>: When Bulldozer attacks you, you must defend against Bulldozer's attacks with an ally you control, if able.\n<b>Forced Response</b>: After Bulldozer attacks you, discard this card.",
 		"code": "07051",
-		"name": "들이받는 속도",
-		"text": "Bulldozer에게 장착합니다.",
-		"traits": "상태."
+		"name": "Ramming Speed",
+		"text": "Attach to Bulldozer.",
+		"traits": "Condition."
 	},
 	{
 		"code": "07052",
-		"name": "부패한 간수",
-		"text": "경호<i>(이 하수인이 당신과 교전 중인 한, 당신은 빌런을 공격할 수 없습니다).</i>",
-		"traits": "변절자."
+		"name": "Corrupt Prison Guard",
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>",
+		"traits": "Traitor."
 	},
 	{
-		"boost_text": "가장 적은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다. 당신이 히어로 형태라면, 이 공격을 해결한 후 그 빌런이 당신을 공격합니다. 해당 공격에서는 빌런에게 강화 카드를 주지 않습니다.",
+		"boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"code": "07053",
-		"name": "탈옥한 재소자",
-		"text": "쇄도",
-		"traits": "범죄자."
+		"name": "Escaped Convict",
+		"text": "Surge",
+		"traits": "Criminal."
 	},
 	{
-		"boost_text": "가장 적은 위협이 놓인 부가 음모와 상응하는 빌런에게 활성화 카운터를 옮깁니다.",
+		"boost_text": "Move the active counter to the villain whose side scheme has the least threat.",
 		"code": "07054",
-		"name": "전우조",
-		"text": "<b>공개될 때</b>: 가장 적은 위협이 놓인 부가 음모와 상응하는 빌런을 선택합니다. 그 빌런의 조우 덱 맨 위 카드를 1장 공개합니다(그 빌런이 플레이 영역에 있는 유일한 빌런이라면 대신 카드를 2장 공개합니다)."
+		"name": "Buddy System",
+		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play)."
 	},
 	{
 		"code": "07055",
-		"name": "황소의 돌진",
-		"text": "<b>공개될 때 (일상)</b>: Bulldozer가 암약합니다. 이 암약에서 놓인 위협마다 당신의 덱 맨 위에서 카드 1장을 버립니다.\n<b>공개될 때 (히어로)</b>: Bulldozer가 당신을 공격합니다. 이 공격에서 입은 피해마다 당신의 덱 맨 위에서 카드 1장을 버립니다."
+		"name": "Bull Rush",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Bulldozer schemes. Discard the top card of your deck for each threat placed by this activation.\n<b>When Revealed (Hero)</b>: Bulldozer attacks you. Discard the top card of your deck for each damage dealt by this attack."
 	},
 	{
-		"boost_text": "이번 공격이 방어되지 않았다면, 당신이 조종하는 업그레이드 하나를 선택해 버립니다.",
+		"boost_text": "If this attack is undefended, discard an upgrade you control.",
 		"code": "07056",
-		"name": "감옥 속의 혼돈",
-		"text": "<b>공개될 때</b>: 다음 중 하나를 선택합니다. 당신이 조종하는 업그레이드 하나를 선택해 버리기 / 당신이 조종하는 업그레이드마다 활성화 빌런의 부가 음모에 위협을 1만큼 놓기. 당신이 조종하는 업그레이드가 없다면, 이 카드는 쇄도를 얻습니다."
+		"name": "Chaos In the Prison",
+		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge."
 	},
 	{
 		"code": "07057",
-		"name": "만신창이가 되어라!",
-		"text": "<b>공개될 때 (일상)</b>: 가장 많은 위협이 놓인 부가 음모와 상응하는 빌런이 암약합니다.\n<b>공개될 때 (히어로)</b>: 가장 많은 위협이 놓인 부가 음모와 상응하는 빌런이 당신을 공격합니다."
+		"name": "Get Wrecked!",
+		"text": "<b>When Revealed (Alter-Ego)</b>: The villain whose side scheme has the most threat schemes.\n<b>When Revealed (Hero)</b>: The villain whose side scheme has the least threat attacks you."
 	},
 	{
 		"code": "07058",
-		"name": "박치기",
-		"text": "<b>공개될 때</b>: 당신의 손에서 카드 1장을 무작위로 버립니다. 당신이 히어로 형태라면, 버려진 카드의 인쇄된 자원 비용만큼 피해를 입습니다. 당신이 일상 형태라면, 버려진 카드의 인쇄된 자원 비용만큼 Bulldozer의 부가 음모에 위협을 놓습니다."
+		"name": "Headbutt",
+		"text": "<b>When Revealed</b>: Discard 1 card at random from your hand. If you are in hero form, take damage equal to that card's printed cost. If you are in alter-ego form, place threat on Bulldozer's side scheme equal to that card's printed cost."
 	},
 	{
 		"code": "07059",
-		"name": "돌격을 이끌다",
-		"text": "<b>공개될 때</b>: 당신의 덱 맨 위에서 카드 X장을 버립니다. X는 Bulldozer의 공격 수치입니다. 이렇게 버려진 카드들의 서로 다른 자원 유형마다 Bulldozer의 부가 음모에 위협을 1만큼 놓습니다."
+		"name": "Leading the Charge",
+		"text": "<b>When Revealed</b>: Discard the top X cards of your deck, where X is Bulldozer's ATK. Place 1 threat on Bulldozer's side scheme for each different card type discarded this way"
 	}
 ]
