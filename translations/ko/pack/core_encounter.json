@@ -1,401 +1,401 @@
 [
 	{
 		"code": "01094",
-		"flavor": "\"나는 Rhino다. 내 앞에 걸리는 건 모두 쓰러뜨리지. 그게 내가 하는 일이고, 나다운 일이다.\"",
+		"flavor": "\"I'm Rhino, I knock things down. That's what I do. That's who I am.\"",
 		"name": "Rhino",
-		"traits": "야만. 범죄자."
+		"traits": "Brute. Criminal."
 	},
 	{
 		"code": "01095",
-		"flavor": "\"저리 꺼져!\"",
+		"flavor": "\"Out of my way!\"",
 		"name": "Rhino",
-		"text": "<b>공개될 때</b>: 조우 덱과 버린 조우 더미에서 부수고 챙긴다 부가 음모를 찾아 공개합니다. 조우 덱을 섞습니다.",
-		"traits": "야만. 범죄자."
+		"text": "<b>When Revealed</b>: Search the encounter deck and discard pile for the Breakin' & Takin' side scheme and reveal it. Shuffle the encounter deck.",
+		"traits": "Brute. Criminal."
 	},
 	{
 		"code": "01096",
-		"flavor": "\"너희가 자초한 일이다!\"",
+		"flavor": "\"You brought this on yourself!\"",
 		"name": "Rhino",
-		"text": "강인<i>(이 캐릭터는 강인함 상태 카드를 놓은 채로 플레이 영역에 들어옵니다).</i>\n<b>공개될 때</b>: 모든 히어로를 기절시킵니다.",
-		"traits": "야만. 범죄자."
+		"text": "Toughness. <i>(This character enter play with a tough status card.)</i>\n<b>When Revealed</b>: Stun each hero.",
+		"traits": "Brute. Criminal."
 	},
 	{
-		"back_flavor": "Rhino가 S.H.I.E.L.D. 시설을 공격하고 있습니다!",
-		"back_text": "<b>구성</b>: Rhino (I)과 Rhino (II). (전문가 모드에선 Rhino (II)와 Rhino (III)을 대신 사용.) Rhino 조우 세트 및 일반 조우 세트. 모듈식 조우 세트 1개<i>(추천: 폭탄 테러).</i>.\n<b>사전 준비</b>: 스테이지 1B로 넘어갑니다.",
+		"back_flavor": "Rhino is attacking a S.H.I.E.L.D. facility!",
+		"back_text": "<b>Contents</b>: Rhino (I) and Rhino (II). (Rhino (II) and Rhino (III) instead for expert mode.) Rhino and Standard encounter sets. One modular encounter set <i>(recommended: Bomb Scare)</i>.\n<b>Setup</b>: Advance to stage 1B.",
 		"code": "01097",
-		"flavor": " Rhino가 시설 벽을 부수고 들어와 비브라늄 화물을 훔쳐 가려고 합니다. 반드시 그를 막아야 합니다!",
-		"name": "쳐들어간다!",
-		"text": "<b>이 스테이지가 달성되면, 플레이어들은 게임에서 패배합니다.</b>"
+		"flavor": "Rhino is trying to smash through the facility wall and steal a shipment of vibranium. You must stop him!",
+		"name": "The Break-In!",
+		"text": "<b>If this stage is completed, the players lose the game.</b>"
 	},
 	{
 		"code": "01098",
-		"name": "무장 Rhino 슈트",
-		"text": "Rhino에게 장착합니다.\n<b>강제 난입</b>: Rhino가 피해를 입으려 할 때, 대신 그 피해를 모두 이 카드에 놓습니다. 그러고 나서 이 카드에 놓인 피해가 5점 이상이라면, 무장 Rhino 슈트를 버립니다.",
-		"traits": "갑옷."
+		"name": "Armored Rhino Suit",
+		"text": "Attach to Rhino.\n<b>Forced Interrupt</b>: When any amount of damage would be dealt to Rhino, place it here instead. Then, if there is at least 5 damage here, discard Armored Rhino Suit.",
+		"traits": "Armor."
 	},
 	{
-		"attack_text": "<b>강제 난입</b>: Rhino가 공격할 때, 그 공격은 압살을 얻습니다(이 공격이 동료에게 피해를 입히고 남은 초과 피해는 그 동료의 조종자가 입습니다). 그 공격의 끝에 돌격을 버립니다.",
+		"attack_text": "<b>Forced Interrupt</b>: When Rhino attacks, the attack gains overkill. <i>(Excess damage to any ally from this attack is dealt to that ally's controller.)</i> At the end of this attack, discard Charge.",
 		"code": "01099",
-		"name": "돌격",
-		"text": "Rhino에게 장착합니다."
+		"name": "Charge",
+		"text": "Attach to Rhino."
 	},
 	{
 		"code": "01100",
-		"name": "강화 코뿔",
-		"text": "Rhino에게 장착합니다.\n<b>히어로 행동</b>: [physical] [physical] [physical] 자원을 소모 → 이 카드를 버림.",
-		"traits": "무기."
+		"name": "Enhanced Ivory Horn",
+		"text": "Attach to Rhino.\n<b>Hero Action</b>: Spend [physical] [physical] [physical] resources → discard this card",
+		"traits": "Weapon."
 	},
 	{
 		"code": "01101",
-		"flavor": "\"대체 하이드라가 여기서 무슨 일을 벌이고 있는 거야?\" -- Carol Danvers",
-		"name": "하이드라 용병",
-		"text": "경호<i>(이 하수인이 당신과 교전 중인 한, 당신은 빌런을 공격할 수 없습니다).</i>",
-		"traits": "하이드라."
+		"flavor": "\"What is Hydra doing here?\" -- Carol Danvers",
+		"name": "Hydra Mercenary",
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>",
+		"traits": "Hydra."
 	},
 	{
 		"code": "01102",
-		"flavor": "\"난 그저 돈이 필요할 뿐이야!\"",
+		"flavor": "\"I just wanna get paid!\"",
 		"name": "Sandman",
-		"text": "강인<i>(이 캐릭터는 강인함 상태 카드를 놓은 채로 플레이 영역에 들어옵니다).</i>",
-		"traits": "범죄자. 간부."
+		"text": "Toughness. <i>(This character enters play with a tough status card.)</i>",
+		"traits": "Criminal. Elite."
 	},
 	{
 		"code": "01103",
-		"flavor": "\"날 보니 쇼킹하지?\"",
+		"flavor": "\"I bet you're shocked to see me!\"",
 		"name": "Shocker",
-		"text": "<b>공개될 때</b>: 모든 히어로에게 피해 1점을 입힙니다.",
-		"traits": "범죄자."
+		"text": "<b>When Revealed</b>: Deal 1 damage to each hero.",
+		"traits": "Criminal."
 	},
 	{
 		"code": "01104",
-		"flavor": "\"날 막을 수 있을 것 같나? 웃기는군!\" -- Rhino",
-		"name": "버거운 상대",
-		"text": "<b>공개될 때</b>: Rhino가 입은 피해 4점을 치료합니다. 이렇게 치료된 피해가 없다면, 이 카드는 쇄도를 얻습니다."
+		"flavor": "\"You think you can stop me? What a joke!\" -- Rhino",
+		"name": "Hard to Keep Down",
+		"text": "<b>When Revealed</b>: Rhino heals 4 damage. If no damage was healed this way, this card gains surge."
 	},
 	{
 		"code": "01105",
-		"flavor": "\"덤벼라!\" -- Rhino",
-		"name": "\"난 튼튼하다!\"",
-		"text": "<b>공개될 때</b>: Rhino에게 강인함 상태 카드를 줍니다. Rhino에게 이미 강인함 상태 카드가 있다면, 이 카드는 쇄도를 얻습니다."
+		"flavor": "\"Bring it!\" -- Rhino",
+		"name": "\"I'm Tough\"",
+		"text": "<b>When Revealed</b>: Give Rhino a tough status card. If Rhino already has a tough status card, this card gains surge."
 	},
 	{
 		"code": "01106",
-		"name": "맹진",
-		"text": "<b>공개될 때 (일상)</b>: 이 카드는 쇄도를 얻습니다.\n<b>공개될 때 (히어로)</b>: Rhino가 당신을 공격합니다. 만약 이 공격에 캐릭터가 피해를 입으면, 그 캐릭터는 기절합니다."
+		"name": "Stampede",
+		"text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: Rhino attacks you. If a character is damaged by this attack, that character is stunned."
 	},
 	{
 		"code": "01107",
-		"flavor": "Rhino가 물건을 부수고 훔치고 있습니다.",
-		"name": "부수고 챙긴다",
-		"text": "<b>공개될 때</b>: 이 카드에 위협을 1 [per_hero] 만큼 추가로 놓습니다.\n<i>(수렁 아이콘: 빌런 페이즈에 나눠주는 조우 카드 +1).</i>"
+		"flavor": "Rhino is breaking things and taking them!",
+		"name": "Breakin' & Takin'",
+		"text": "<b>When Revealed</b>: Place an additional 1 [per_hero] threat here.\n<i>(Hazard Icon: Deal +1 encounter card during the villain phase.)</i>"
 	},
 	{
 		"code": "01108",
-		"flavor": "공포에 빠진 시민들이 이 구역에 몰려있습니다. 시민들을 위험에 빠뜨리면서까지 Rhino와 싸울 수는 없습니다. 사람들의 안전을 먼저 챙기세요!",
-		"name": "군중 통제",
-		"text": "<i>(위기 아이콘: 이 음모가 플레이 영역에 있는 한, 주요 음모에서 위협을 제거할 수 없습니다.).</i>"
+		"flavor": "Panicked civilians crowd the area. It is difficult to confront Rhino without putting them at risk. Get the people to safety!",
+		"name": "Crowd Control",
+		"text": "<i>(Crisis Icon: While this scheme is in play, you cannot remove threat from the main scheme.)</i>"
 	},
 	{
 		"code": "01109",
-		"flavor": "하이드라 요원들이 근처 호텔에 폭탄을 설치했다는 첩보가 들어왔습니다.",
-		"name": "폭탄 테러",
-		"text": "<b>공개될 때</b>: 이 카드에 위협을 1 [per_hero] 만큼 추가로 놓습니다.\n<i>(가속 아이콘: 빌런 페이즈 1단계에 주요 음모에 놓는 위협 +1).</i>"
+		"flavor": "Reports are out that Hydra agents have planted a bomb in a nearby hotel.",
+		"name": "Bomb Scare",
+		"text": "<b>When Revealed</b>: Place an additional 1 [per_hero] threat here.\n<i>(Acceleration Icon: Place +1 threat on the main scheme at the start of the villain phase.)</i>"
 	},
 	{
 		"code": "01110",
-		"flavor": "\"머리 하나를 자르면 두 개가 자란다는 건 알고 있어. 그럼 대신 터뜨려버린다면 어떻게 될까?\" -- She-Hulk",
-		"name": "하이드라 폭탄마",
-		"text": "<b>공개될 때</b>: 하나를 선택합니다. 피해 2점 입기 / 주요 음모에 위협을 1만큼 놓기.",
-		"traits": "하이드라."
+		"flavor": "\"I know that if you cut off one head, two more will take its place. But what if it blows up instead!\" -- She-Hulk",
+		"name": "Hydra Bomber",
+		"text": "<b>When Revealed</b>: Choose to either take 2 damage or place 1 threat on the main scheme.",
+		"traits": "Hydra."
 	},
 	{
 		"code": "01111",
-		"name": "폭발",
-		"text": "<b>공개될 때</b>: 폭탄 테러가 플레이 영역에 있다면, 총 X점의 피해를 히어로들과 동료들에게 나누어 입힙니다. X는 폭탄 테러에 놓인 위협 숫자입니다. 폭탄 테러가 플레이 영역에 없다면, 이 카드는 쇄도를 얻습니다."
+		"name": "Explosion",
+		"text": "<b>When Revealed</b>: If Bomb Scare is in play, assign X damage among heroes and allies, where X is the amount of threat on Bomb Scare. If Bomb Scare is not in play, this card gains surge."
 	},
 	{
 		"code": "01112",
-		"flavor": "\"여긴 아무것도 없어, 친구들!\" -- Iron Man",
-		"name": "가짜 폭탄",
-		"text": "<b>공개될 때</b>: 당신은 혼란에 빠집니다. 이미 혼란에 빠졌다면, 이 카드는 쇄도를 얻습니다."
+		"flavor": "\"Nothing to see here people!\" -- Iron Man",
+		"name": "False Alarm",
+		"text": "<b>When Revealed</b>: You are confused. If you are already confused, this card gains surge."
 	},
 	{
-		"attack_text": "<b>강제 난입</b>: Klaw가 공격할 때, 이번 활성화에서 Klaw에게 강화 카드 1장을 추가로 줍니다.",
+		"attack_text": "<b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"code": "01113",
-		"flavor": "\"이리 와서 너희의 종말을 맞이하라!\"",
+		"flavor": "\"Come meet your doom!\"",
 		"name": "Klaw",
 		"traits": "Masters of Evil."
 	},
 	{
-		"attack_text": "<b>강제 난입</b>: Klaw가 공격할 때, 이번 활성화에서 Klaw에게 강화 카드 1장을 추가로 줍니다.",
+		"attack_text": "<b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"code": "01114",
 		"name": "Klaw",
-		"text": "<b>공개될 때</b>: 조우 덱과 버린 조우 더미에서 불멸의 Klaw를 찾아 공개합니다. 조우 덱을 섞습니다.",
+		"text": "<b>When Revealed</b>: Search the encounter deck and discard pile for The \"Immortal\" Klaw and reveal it. Shuffle the encounter deck.",
 		"traits": "Masters of Evil."
 	},
 	{
-		"attack_text": "<b>강제 난입</b>: Klaw가 공격할 때, 이번 활성화에서 Klaw에게 강화 카드 1장을 추가로 줍니다.",
+		"attack_text": "<b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"code": "01115",
 		"name": "Klaw",
-		"text": "강인<i>(이 캐릭터는 강인함 상태 카드를 놓은 채로 플레이 영역에 들어옵니다).</i>",
+		"text": "Toughness. <i>(This character enters play with a tough status card.)</i>",
 		"traits": "Masters of Evil."
 	},
 	{
-		"back_flavor": "S.H.I.E.L.D. 시설에 대한 공격은 지하 무기 밀매 조직과 연관되어 있습니다.",
-		"back_text": "<b>구성</b>: Klaw (I)과 Klaw (II).<i>(전문가 모드에선 Klaw (II)와 Klaw (III)을 대신 사용).</i> Klaw 조우 세트 및 일반 조우 세트. 모듈식 조우 세트 1개 <i>(추천: Masters of Evil).</i>\n<b>사전 준비</b>: 조우 덱에서 방어 조직 부가 음모를 찾아 공개합니다. 스테이지 1B로 넘어갑니다.",
+		"back_flavor": "The attack on the S.H.I.E.L.D. facility has been linked to an underground weapons network.",
+		"back_text": "<b>Contents</b>: Klaw (I) and Klaw (II). <i>(Klaw (II) and Klaw (III) instead for expert mode.)</i> Klaw and Standard encounter sets. One modular encounter set <i>(recommended: Masters of Evil)</i>\n<b>Setup</b>: Search the encounter deck for the Defense Network side scheme and reveal it. Shuffle the encounter deck. Advance to stage 1B.",
 		"code": "01116",
-		"flavor": "당신은 조사 끝에 그 범죄 사업이 Avengers의 오랜 적인 Klaw에 의해 운영되고 있다는 사실을 밝혀냈습니다!",
-		"name": "지하 경제",
-		"text": "<b>공개될 때</b>: 조우 덱에서 하수인이 버려질 때까지 카드를 버립니다. 이렇게 버려진 하수인을 시작 플레이어와 교전 중인 채로 플레이 영역에 내려놓습니다."
+		"flavor": "Your investigation reveals that the criminal enterprise is operated by Klaw, an old rival of the Avengers!",
+		"name": "Underground Distribution",
+		"text": "<b>When Revealed</b>: Discard cards from the encounter deck until a minion is discarded. Put that minion into play engaged with the first player."
 	},
 	{
-		"back_flavor": "Klaw는 그의 불법 무기들을 구매할 고객을 찾았습니다. 거래를 막아야 하지만 회동 장소는 Klaw의 공범들이 철통같이 경계하고 있습니다.",
-		"back_text": "<b>공개될 때</b>: 조우 덱에서 하수인이 버려질 때까지 카드를 버립니다. 이렇게 버려진 하수인을 시작 플레이어와 교전 중인 채로 플레이 영역에 내려놓습니다. 스테이지 2B로 넘어갑니다",
+		"back_flavor": "Klaw has found a buyer for his illegal weapons. It's up to you to stop the sale but the meeting is surrounded by Klaw's cronies.",
+		"back_text": "<b>When Revealed</b>: Discard cards from the encounter deck until a minion is discarded. Put that minion into play engaged with the first player. Advance to stage 2B",
 		"code": "01117",
-		"flavor": "Klaw는 Crimson Cowl과 만났습니다. 당신이 그들을 쫓자 Klaw와 신원 미상의 고객은 어둠 속으로 사라졌습니다. 그리고 Klaw의 하수인들이 그들의 탈출을 돕기 위해 움직입니다.",
-		"name": "비밀스러운 회동",
-		"text": "<b>이 스테이지가 달성되면, 플레이어들은 게임에서 패배합니다.</b>"
+		"flavor": "Klaw is meeting with the Crimson Cowl. Klaw and the mysterious figure dart into the shadows when you confront them, and Klaw's minions move to cover their escape.",
+		"name": "Secret Rendezvous",
+		"text": "<b>If this stage is completed, the players lose the game.</b>"
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Klaw가 공격하여 캐릭터에게 피해를 입힌 후, 그 캐릭터를 기절시킵니다.",
+		"attack_text": "<b>Forced Response</b>: After Klaw attacks and damages a character, stun that character.",
 		"code": "01118",
-		"name": "음파 변환기",
-		"text": "Klaw에게 장착합니다.\n<b>히어로 행동</b>: [energy] [mental] [physical] 자원을 소모 → 이 카드를 버림.",
-		"traits": "무기."
+		"name": "Sonic Converter",
+		"text": "Attach to Klaw.\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
+		"traits": "Weapon."
 	},
 	{
 		"code": "01119",
-		"name": "고형 음파 신체",
-		"text": "Klaw에게 장착합니다.\nKlaw가 반격 1을 얻습니다.<i>(이 캐릭터가 공격받은 후, 공격 중인 캐릭터에게 피해 1점을 입힙니다).</i>\n<b>히어로 행동</b>: [energy] [mental] [physical] 자원을 소모 → 이 카드를 버림.",
-		"traits": "상태."
+		"name": "Solid-Sound Body",
+		"text": "Attach to Klaw.\nKlaw gains retaliate 1. <i>(After this character is attacked, deal 1 damage to the attacking character.)</i>\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
+		"traits": "Condition."
 	},
 	{
 		"code": "01120",
-		"name": "무장 경호원",
-		"text": "경호<i>(이 하수인이 당신과 교전 중인 한, 당신은 빌런을 공격할 수 없습니다).</i>\n강인<i>(이 캐릭터는 강인함 상태 카드를 놓은 채로 플레이 영역에 들어옵니다).</i>",
-		"traits": "용병."
+		"name": "Armored Guard",
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>\nToughness. <i>(This character enters play with a tough status card.)</i>",
+		"traits": "Mercenary."
 	},
 	{
-		"boost_text": "무기 밀수업자를 당신과 교전 중인 채로 플레이 영역에 내려놓습니다.",
+		"boost_text": "Put Weapons Runner into play engaged with you.",
 		"code": "01121",
-		"name": "무기 밀수업자",
-		"text": "쇄도.<i>(이 카드가 해결된 후, 조우 카드 1장을 더 공개합니다).</i>",
-		"traits": "용병."
+		"name": "Weapons Runner",
+		"text": "Surge. <i>(After this card is revealed, reveal 1 additional encounter card.)</i>",
+		"traits": "Mercenary."
 	},
 	{
 		"code": "01122",
-		"name": "Klaw의 복수",
-		"text": "<b>공개될 때 (일상)</b>: 당신의 손에서 카드 1장을 무작위로 버립니다.\n<b>공개될 때 (히어로)</b>: Klaw가 당신을 공격합니다. 그 공격이 피해를 입힌다면, 주요 음모에 위협을 1만큼 놓습니다."
+		"name": "Klaw's Vengeance",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Discard 1 card at random from your hand.\n<b>When Revealed (Hero)</b>: Klaw attacks you. If this attack does damage, place 1 threat on the main scheme."
 	},
 	{
-		"boost_text": "이번 활성화로 당신이 피해를 입는다면, 당신의 히어로를 소진합니다.",
+		"boost_text": "If this activation deals damage to you, exhaust your hero.",
 		"code": "01123",
-		"name": "소닉 붐",
-		"text": "<b>공개될 때</b>: [energy] [mental] [physical] 자원을 소모하거나 당신이 조종하는 모든 캐릭터를 소진합니다."
+		"name": "Sonic Boom",
+		"text": "<b>When Revealed</b>: Either spend [energy] [mental] [physical] or exhaust each character you control."
 	},
 	{
 		"code": "01124",
-		"name": "음파 조작",
-		"text": "<b>공개될 때 (일상)</b>: Klaw가 입은 피해 4점을 치료합니다. 이렇게 치료한 피해가 없다면, 이 카드는 쇄도를 얻습니다.\n<b>공개될 때 (히어로)</b>: 당신은 피해 2점을 입습니다. Klaw가 입은 피해 2점을 치료합니다."
+		"name": "Sound Manipulation",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Klaw heals 4 damage. If no damage was healed this way, this card gains surge.\n<b>When Revealed (Hero)</b>: Take 2 damage. Klaw heals 2 damage."
 	},
 	{
 		"code": "01125",
-		"flavor": "Klaw는 폭력 조직을 고용하여 자신의 범죄 사업을 지키고 있습니다.",
-		"name": "방어 조직",
-		"text": "<b>공개될 때</b>: 이 카드에 위협을 추가로 1 [per_hero] 만큼 놓습니다."
+		"flavor": "Klaw's criminal enterprise is protected by a gang of hired thugs.",
+		"name": "Defense Network",
+		"text": "<b>When Revealed</b>: Place an additional 1 [per_hero] threat here."
 	},
 	{
 		"code": "01126",
-		"flavor": "Klaw는 비밀 무기 제조 시설에서 빌런들을 위한 발전된 무기를 공급하고 있습니다.",
-		"name": "불법 무기 공장",
-		"text": "<b>공개될 때</b>: 이 카드에 위협을 추가로 1 [per_hero] 만큼 놓습니다."
+		"flavor": "Klaw is supplying villains with advanced weaponry from a clandestine arms facility.",
+		"name": "Illegal Arms Factory",
+		"text": "<b>When Revealed</b>: Place an additional 1 [per_hero] threat here."
 	},
 	{
 		"code": "01127",
-		"flavor": "음파 기술에 통달한 Klaw는 순수한 의지만으로도 자신의 육신을 구현할 수 있습니다.",
-		"name": "불멸의 Klaw",
-		"text": "Klaw가 생명력 +10을 받습니다<i>(이 음모가 격파될 때, Klaw는 이 생명력을 잃습니다).</i>"
+		"flavor": "Klaw's mastery of sound allows him to restore his solid form through sheer power of will.",
+		"name": "The \"Immortal\" Klaw",
+		"text": "Klaw gets +10 hit points. <i>(When this scheme is defeated, Klaw loses those hit points.)</i>"
 	},
 	{
 		"code": "01128",
-		"flavor": "The Masters of Evil이 도착하여 히어로들을 공격하려 합니다!",
+		"flavor": "The Masters of Evil have arrived to attack the heroes!",
 		"name": "The Masters of Evil",
-		"text": "<b>공개될 때</b>: 조우 덱에서 [[Masters of Evil]] 하수인이 버려질 때까지 카드를 버립니다. 이렇게 버려진 [[Masters of Evil]] 하수인을 시작 플레이어와 교전 중인 채로 플레이 영역에 내려놓습니다."
+		"text": "<b>When Revealed</b>: Discard cards from the encounter deck until a [[Masters of Evil]] minion is discarded. Put that minion into play engaged with the first player."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Radioactive Man이 당신을 공격한 후, 당신의 손에서 카드 1장을 무작위로 버립니다.",
-		"boost_text": "당신의 손에서 카드 1장을 무작위로 버립니다.",
+		"attack_text": "<b>Forced Response</b>: After Radioactive Man attacks you, discard 1 card at random from your hand.",
+		"boost_text": "Discard 1 card at random from your hand.",
 		"code": "01129",
 		"name": "Radioactive Man",
-		"traits": "간부. Masters of Evil."
+		"traits": "Elite. Masters of Evil."
 	},
 	{
-		"attack_text": "<b>강제 난입</b>: Whirlwind가 당신을 공격할 때, 다른 모든 히어로에 대해서도 그 공격을 해결합니다.",
-		"boost_text": "모든 히어로에게 피해 1점을 입힙니다.",
+		"attack_text": "<b>Forced Interrupt</b>: When Whirlwind attacks you, also resolve his attack against each other hero.",
+		"boost_text": "Deal 1 damage to each hero.",
 		"code": "01130",
 		"name": "Whirlwind",
 		"traits": "Masters of Evil."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Tiger Shark가 공격한 후, Tiger Shark에게 강인함 상태 카드를 줍니다.",
-		"boost_text": "빌런에게 강인함 상태 카드를 줍니다.",
+		"attack_text": "<b>Forced Response</b>: After Tiger Shark attacks, give him a tough status card.",
+		"boost_text": "Give the villain a tough status card.",
 		"code": "01131",
 		"name": "Tiger Shark",
 		"traits": "Masters of Evil."
 	},
 	{
-		"attack_text": "이 하수인과 교전 중인 플레이어는 가능하다면 Melter의 공격을 반드시 자신이 조종하는 동료로 방어해야 합니다.",
-		"boost_text": "당신이 조종하는 모든 동료를 소진합니다.",
+		"attack_text": "The engaged player must defend against Melter's attacks with an ally they control, if able.",
+		"boost_text": "Exhaust each ally you control.",
 		"code": "01132",
 		"name": "Melter",
 		"traits": "Masters of Evil."
 	},
 	{
 		"code": "01133",
-		"name": "대혼란의 대가들",
-		"text": "<b>공개될 때</b>: 모든 [[Masters of Evil]] 하수인이 자신과 교전 중인 히어로를 공격합니다. 이렇게 일어난 공격이 하나도 없다면, 조우 덱과 버린 조우 더미에서 [[Masters of Evil]] 하수인 하나를 찾아 당신과 교전 중인 채로 플레이 영역에 내려놓습니다. 그러고 나서, 조우 덱을 섞습니다."
+		"name": "Masters of Mayhem",
+		"text": "<b>When Revealed</b>: Each [[Masters of Evil]] minion attacks the hero it is engaged with. If no attacks were made this way, search the encounter deck and discard pile for a [[Masters of Evil]] minion and put it into play engaged with you, the shuffle the encounter deck."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Ultron이 당신을 공격한 후, 하나를 선택합니다. 주요 음모에 위협을 1만큼 놓기 / 당신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓기. 내려놓은 카드는 [[드론]] 하수인이 되어 당신과 교전 중인 상태가 됨.",
+		"attack_text": "<b>Forced Response</b>: After Ultron attacks you, choose to either place 1 threat on the main scheme or put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"code": "01134",
 		"name": "Ultron",
-		"traits": "안드로이드."
+		"traits": "Android."
 	},
 	{
-		"attack_text": "<b>강제 난입</b>: Ultron이 당신을 공격한 후, 당신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓습니다. 내려놓은 카드는 [[드론]] 하수인이 되어 당신과 교전 중인 상태가 됩니다. 이 공격 끝까지 Ultron은 당신과 교전 중인 [[드론]] 하수인 하나마다 공격 +1을 받습니다.",
+		"attack_text": "<b>Forced Interrupt</b>: When Ultron attacks you, put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion. Until the end of his attack, Ultron gets +1 ATK for each [[Drone]] minion engaged with you.",
 		"code": "01135",
 		"name": "Ultron",
-		"traits": "안드로이드."
+		"traits": "Android."
 	},
 	{
 		"code": "01136",
 		"name": "Ultron",
-		"text": "모든 [[드론]] 하수인은 공격 +1과 생명력 +1을 받습니다. [[드론]] 하수인이 하나라도 플레이 영역에 있는 한, Ultron은 피해를 입을 수 없습니다.\n<b>공개될 때</b>: 조우 덱과 버린 조우 더미에서 Ultron의 명령 부가 음모를 찾아 공개합니다. 조우 덱을 섞습니다.",
-		"traits": "안드로이드."
+		"text": "Each [[Drone]] minion gets +1 ATK and +1 hit point. Ultron cannot take damage while a [[Drone]] minion is in play.\n<b>When Revealed</b>: Search the encounter deck and discard pile for the Ultron's Imperative side scheme and reveal it. Then shuffle the encounter deck.",
+		"traits": "Android."
 	},
 	{
-		"back_flavor": "붉은 망토 속에 정체를 숨긴 Klaw의 고객은 잔혹한 안드로이드 Ultron이었습니다.",
-		"back_text": "<b>구성</b>: Ultron (I)과 Ultron (II). <i>(전문가 모드에선 Ultron (II)와 Ultron (III)을 대신 사용.)</i> Ultron 조우 세트 및 일반 조우 세트. 모듈식 조우 세트 1개 <i>(추천: 무차별 공격).</i>\n<b>사전 준비</b>: Ultron 드론 환경 카드를 플레이 영역에 내려놓습니다. 조우 덱을 섞습니다. 스테이지 1B로 넘어갑니다.",
+		"back_flavor": "Klaw's mysterious, red-hooded employer is really the genocidal android Ultron.",
+		"back_text": "<b>Contents</b>: Ultron (I) and Ultron (II). <i>(Ultron (II) and Ultron (III) instead for expert mode.)</i> Ultron and Standard encounter sets. One modular encounter set <i>(recommended: Under Attack).</i>\n<b>Setup</b>: Put the Ultron Drones environment into play. Shuffle the encounter deck. Advanced to stage 1B.",
 		"code": "01137",
-		"flavor": "Ultron은 Klaw에게 넘겨받은 부품들로 Ultron 군단을 만들려고 합니다.",
-		"name": "Crimson Cowl",
-		"text": "<b>공개될 때</b>: 각 플레이어는 자신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓습니다 그 카드는 [[드론]] 하수인이 되어 해당 플레이어와 교전 중인 상태가 됩니다."
+		"flavor": "Ultron is using the components Klaw delivered in order to build an army of Ultron drones.",
+		"name": "The Crimson Cowl",
+		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion."
 	},
 	{
-		"back_flavor": "당신은 Ultron을 쫓던 와중에 콜로라드에 있는 NORAD(북미항공우주방위사령부)로부터 구조 요청을 받습니다. NORAD가 Ultron 드론 군단의 공격을 받고 있다고 합니다!",
-		"back_text": "<b>공개될 때</b>: 모든 플레이어는 자신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓습니다. 그 카드는 [[드론]] 하수인이 되어 해당 플레이어와 교전 중인 상태가 됩니다. 스테이지 2B로 넘어갑니다.",
+		"back_flavor": "As you pursue Ultron, you receive a distress call from the North American Aerospace Defense Command in Colorado. They are besieged by an army of Ultron drones!",
+		"back_text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion. Advance to stage 2B.",
 		"boost_text": null,
 		"code": "01138",
-		"flavor": "만약 Ultron이 NORAD를 장악한다면, 미국의 탄도 미사일 명령권에 접근할 수 있게 될 것입니다!",
-		"name": "NORAD 습격",
-		"text": "<b>강제 반응</b>: 빌런 페이즈 1단계에 이 카드에 위협을 놓은 후, 모든 플레이어는 다음 중 하나를 반드시 선택합니다. 이 카드에 위협을 2만큼 놓기 / 자신의 덱 맨 위 카드를 뒷면으로 플레이 영역에 내려놓기. 내려놓은 카드는 [[드론]] 하수인이 되어 해당 플레이어와 교전 중인 상태가 됨. "
+		"flavor": "If Ultron gains control of NORAD, he will have access to the United States' ballistic missile command!",
+		"name": "Assault on NORAD",
+		"text": "<b>Forced Response</b>: After placing threat here during step one of the villain phase, each player must choose to either place 2 threat here or put the top card of their deck into play facedown, engaged with them as a [[Drone]] minion."
 	},
 	{
-		"back_flavor": "Ultron이 NORAD를 차지했습니다. 이제 Ultron이 안전망을 뚫고 핵무기를 가동시키는 일은 시간문제입니다.",
-		"back_text": "<b>공개될 때</b>: 모든 플레이어는 자신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓습니다. 그 카드는 [[드론]] 하수인이 되어 해당 플레이어와 교전 중인 상태가 됩니다. 스테이지 3B로 넘어갑니다.",
+		"back_flavor": "Ultron has seized control of NORAD. It's only a matter of time before he overcomes the command safeguards and launches the nuclear arsenal.",
+		"back_text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion. Advance to stage 3B.",
 		"code": "01139",
-		"flavor": "세계를 핵무기로 인한 멸망에서 구하는 일은 당신에게 달렸습니다!",
-		"name": "멸망의 카운트 다운",
-		"text": "이 음모에서는 위협을 제거할 수 없습니다.\n<b>이 스테이지가 달성되면, 플레이어들은 게임에서 패배합니다</b>"
+		"flavor": "It's up to you to save the world from nuclear armageddon!",
+		"name": "Countdown to Oblivion",
+		"text": "Threat cannot be removed from this scheme.\n<b>If this stage is completed, the players lose the game</b>"
 	},
 	{
 		"code": "01140",
-		"name": "Ultron 드론",
-		"text": "뒷면 상태로 플레이어와 교전 중인 각 [[드론]] 하수인의 기본 수치는 음모 1, 공격 1, 생명력 1입니다.\n<b>강제 반응</b>: 뒷면 상태인 [[드론]] 하수인이 격파된 후, 그 카드를 소유자의 버린 더미에 놓습니다."
+		"name": "Ultron Drones",
+		"text": "Each facedown [[Drone]] minion engaged with a player has a base SCH of 1, a base ATK of 1, and a base hit points of 1.\n<b>Forced Response</b>: After a facedown [[Drone]] minion is defeated, place that card in it's owners discard pile."
 	},
 	{
 		"code": "01141",
-		"name": "프로그램 송신기",
-		"scheme_text": "<b>강제 반응</b>: Ultron이 암약한 후, 모든 부가 음모에 위협을 1만큼 놓습니다.",
-		"text": "Ultron에게 장착합니다.\n<b>히어로 행동</b>: 당신의 히어로를 소진하고 [mental] [mental] 자원을 소모 → 이 카드를 버림.",
-		"traits": "Item. 과학."
+		"name": "Program Transmitter",
+		"scheme_text": "<b>Forced Response</b>: After Ultron schemes, place 1 threat on each side scheme.",
+		"text": "Attach to Ultron.\n<b>Hero Action</b>: Exhaust your hero and spend [mental] [mental] resources → discard this card.",
+		"traits": "Item. Tech."
 	},
 	{
 		"code": "01142",
-		"name": "드론 개량",
-		"text": "Ultron 드론 환경 카드에 부착합니다.\n뒷면 상태인 모든 [[드론]] 하수인은 모두 공격 +1과 생명력 +1을 받습니다.\n<b>히어로 행동</b>: [energy] [mental] [physical] 자원을 소모 → 이 카드를 버림.",
-		"traits": "상태."
+		"name": "Upgraded Drones",
+		"text": "Attach to the Ultron Drones environment.\nEach facedown [[Drone]] minion gets +1 ATK and +1 hit point.\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
+		"traits": "Condition."
 	},
 	{
 		"code": "01143",
-		"name": "향상된 Ultron 드론",
-		"text": "경호.\n<b>강제 난입</b>: 향상된 Ultron 드론이 격파될 때, 이 하수인과 교전 중인 플레이어는 자신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓습니다. 그 카드는 [[드론]] 하수인이 되어 해당 플레이어와 교전 중인 상태가 됩니다.",
-		"traits": "드론."
+		"name": "Advanced Ultron Drone",
+		"text": "Guard.\n<b>Forced Interrupt</b>: When Advanced Ultron Drone is defeated, the engaged player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
+		"traits": "Drone."
 	},
 	{
-		"boost_text": "하나를 선택합니다. [energy] 자원을 소모 . 당신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓기. 내려놓은 카드는 [[드론]] 하수인이 되어 당신과 교전 중인 상태가 됨.",
+		"boost_text": "Choose to either spend a [energy] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"code": "01144a",
-		"name": "안드로이드의 효율성",
-		"text": "<b>공개될 때</b>: 모든 플레이어는 자신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓습니다. 그 카드는 [[드론]] 하수인이 되어 해당 플레이어와 교전 중인 상태가 됩니다."
+		"name": "Android Efficiency",
+		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion."
 	},
 	{
-		"boost_text": " 하나를 선택합니다. [energy] 자원을 소모 . 당신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓기. 내려놓은 카드는 [[드론]] 하수인이 되어 당신과 교전 중인 상태가 됨.",
+		"boost_text": "Choose to either spend a [mental] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"code": "01144b",
-		"name": " 안드로이드의 효율성 ",
-		"text": "<b>공개될 때</b>: 모든 플레이어는 자신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓습니다. 그 카드는 [[드론]] 하수인이 되어 해당 플레이어와 교전 중인 상태가 됩니다."
+		"name": "Android Efficiency",
+		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion."
 	},
 	{
-		"boost_text": " 하나를 선택합니다. [energy] 자원을 소모 . 당신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓기. 내려놓은 카드는 [[드론]] 하수인이 되어 당신과 교전 중인 상태가 됨.",
+		"boost_text": "Choose to either spend a [physical] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"code": "01144c",
-		"name": " 안드로이드의 효율성 ",
-		"text": "<b>공개될 때</b>: 모든 플레이어는 자신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓습니다. 그 카드는 [[드론]] 하수인이 되어 해당 플레이어와 교전 중인 상태가 됩니다."
+		"name": "Android Efficiency",
+		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion."
 	},
 	{
 		"code": "01145",
-		"name": "Ultron의 분노",
-		"text": "<b>공개될 때 (일상)</b>: Ultron이 암약합니다. 이렇게 놓인 위협만큼 당신의 덱 맨 위 카드를 버립니다.\n<b>공개될 때 (히어로)</b>: Ultron이 당신을 공격합니다. 그 공격이 입힌 피해만큼 당신의 덱 맨 위 카드를 버립니다."
+		"name": "Rage of Ultron",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Ultron schemes. Discard the top card of your deck for each threat placed this way.\n<b>When Revealed (Hero)</b>: Ultron attacks you. Discard the top card of your deck for each damage dealt by this attack."
 	},
 	{
-		"boost_text": "당신과 교전 중인 [[드론]] 하수인마다 Ultron이 입은 피해 1점을 치료합니다.",
+		"boost_text": "Ultron heals 1 damage for each [[Drone]] minion engaged with you.",
 		"code": "01146",
-		"name": "수리 절차",
-		"text": "<b>공개될 때</b>: 당신과 교전 중인 [[드론]] 하수인마다 Ultron이 입은 피해 2점을 치료합니다. 이렇게 치료한 피해가 없다면, 이 카드는 쇄도를 얻습니다."
+		"name": "Repair Sequence",
+		"text": "<b>When Revealed</b>: Ultron heals 2 damage for each [[Drone]] minion engaged with you. If no damage was healed this way, this card gains surge."
 	},
 	{
 		"code": "01147",
-		"name": "벌떼 공격",
-		"text": "<b>공개될 때</b>: 당신의 히어로와 교전 중인 모든 [[드론]] 하수인이 당신을 공격합니다. 이렇게 일어난 공격이 없다면, 당신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓습니다. 내려놓은 카드는 [[드론]] 하수인이 되어 당신과 교전 중인 상태가 됩니다."
+		"name": "Swarm Attack",
+		"text": "<b>When Revealed</b>: Each [[Drone]] minion engaged with your hero attacks. If no attack was made this way, put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion."
 	},
 	{
 		"code": "01148",
-		"name": "드론 공장",
-		"text": "<b>공개될 때</b>: 모든 플레이어는 자신의 덱 맨 위 1장을 뒷면으로 플레이 영역에 내려놓습니다. 그 카드는 [[드론]] 하수인이 되어 해당 플레이어와 교전 중인 상태가 됩니다. 플레이 영역에 있는 각 [[드론]] 하수인마다 이 카드에 위협을 1만큼 놓습니다."
+		"name": "Drone Factory",
+		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion. Place 1 threat here for each [[Drone]] minion in play."
 	},
 	{
 		"code": "01149",
-		"flavor": "Ultron은 전 세계에 위협을 불러오기 위해 각국의 무선망을 해킹하고 있습니다.",
-		"name": "침습하는 AI",
-		"text": "<b>공개될 때</b>: 각 플레이어는 자신의 덱 맨 위에서 카드 3장을 버립니다."
+		"flavor": "Ultron is hacking wireless networks around the world to create a global crisis.",
+		"name": "Invasive AI",
+		"text": "<b>When Revealed</b>: Each player discards the top 3 cards of their deck."
 	},
 	{
 		"code": "01150",
-		"flavor": "Ultron이 군체 연결망을 통해 드론 군단을 지휘하고 있습니다",
-		"name": "Ultron의 명령",
-		"text": "<b>공개될 때</b>: 시작 플레이어는 자신의 덱 맨 위 카드 2장을 뒷면으로 플레이 영역에 내려놓습니다. 내려놓은 카드들은 [[드론]] 하수인이 되어 시작 플레이어와 교전 중인 상태가 됩니다."
+		"flavor": "Ultron directs his drone army through hive circuitry.",
+		"name": "Ultron's Imperative",
+		"text": "<b>When Revealed</b>: The first player puts the top 2 cards of their deck into play facedown, engaged with them as [[Drone]] minions."
 	},
 	{
 		"code": "01151",
-		"flavor": "시민들이 공격받고 있습니다. 한시라도 빨리 그들을 도우십시오!",
-		"name": "무차별 공격",
-		"text": "<b>공개될 때</b>: 각 플레이어는 다음 중 하나를 선택합니다. 이 카드에 위협을 2만큼 놓음. / 자신의 히어로에게 피해 3점을 입힘."
+		"flavor": "Civilians are under attack. They need your help fast!",
+		"name": "Under Attack",
+		"text": "<b>When Revealed</b>: Each player chooses to either place 2 threat here or deal 3 damage to their hero."
 	},
 	{
 		"code": "01152",
-		"name": "비브라늄 아머",
-		"text": "빌런에게 장착합니다.\n<b>강제 반응</b>: 빌런이 피해를 입은 후, 빌런에게 강인함 상태 카드를 줍니다.\n<b>히어로 행동</b>: 당신의 히어로를 소진하고 [physical] [physical] 자원을 소모 → 이 카드를 버림.",
-		"traits": "갑옷."
+		"name": "Vibranium Armor",
+		"text": "Attach to the villain.\n<b>Forced Response</b>: After the villain take damage, give it a tough status card.\n<b>Hero Action</b>: Exhaust your hero and spend [physical] [physical] resources → discard this card.",
+		"traits": "Armor."
 	},
 	{
 		"code": "01153",
-		"name": "충격 블래스터",
-		"text": "빌런에게 장착합니다.\n빌런이 반격 1을 얻습니다.\n<b>히어로 행동</b>: 당신의 히어로를 소진하고 [energy] [energy] 자원을 소모 → 이 카드를 버림.",
-		"traits": "무기."
+		"name": "Concussion Blasters",
+		"text": "Attach to the villain.\nThe villain gains retaliate 1.\n<b>Hero Action</b>: Exhaust your hero and spend [energy] [energy] resources → discard this card.",
+		"traits": "Weapon."
 	},
 	{
-		"boost_text": "당신이 조종하는 모든 캐릭터에게 피해 1점을 입힙니다.",
+		"boost_text": "Deal 1 damage to each character you control.",
 		"code": "01154",
-		"name": "강력한 폭발",
-		"text": "<b>공개될 때</b>: 모든 아군 캐릭터에게 피해 1점을 입힙니다."
+		"name": "Concussive Blast",
+		"text": "<b>When Revealed</b>: Deal 1 damage to each friendly character."
 	},
 	{
 		"code": "01155",
@@ -545,83 +545,82 @@
 	},
 	{
 		"code": "01180",
-		"name": "하이드라 군단",
-		"text": "<b>공개될 때</b>: Madame Hydra가 플레이 영역에 없다면, 조우 덱과 버린 조우 더미에서 Madame Hydra를 찾아 당신과 교전 중인 채로 플레이 영역에 내려놓습니다. 그러고 나서 조우 덱을 섞습니다. 플레이 영역에 있는 [[하이드라]] 적마다 이 음모에 위협을 추가로 놓습니다."
+		"name": "Legions of Hydra",
+		"text": "<b>When Revealed</b>: If Madame Hydra is not in play, search the encounter deck and discard pile for Madame Hydra and put her into play engaged with you, then shuffle the encounter deck. Place 2 additional threat here for each [[Hydra]] enemy in play."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Madame Hydra가 암약하거나 공격한 후, 하이드라 군단 부가 음모에 위협을 2만큼 놓습니다.",
+		"attack_text": "<b>Forced Response</b>: After Madame Hydra schemes or attacks, place 2 threat on the Legions of Hydra side scheme.",
 		"code": "01181",
 		"name": "Madame Hydra",
-		"scheme_text": "<b>강제 반응</b>: Madame Hydra가 암약하거나 공격한 후, 하이드라 군단 부가 음모에 위협을 2만큼 놓습니다.",
-		"text": "Madame Hydra는 하이드라 군단 부가 음모가 플레이 영역에 있는 한 피해를 입을 수 없습니다.",
-		"traits": "간부. 하이드라."
+		"scheme_text": "<b>Forced Response</b>: After Madame Hydra schemes or attacks, place 2 threat on the Legions of Hydra side scheme.",
+		"text": "Madame Hydra cannot take damage while the Legions of Hydra side scheme is in play.",
+		"traits": "Elite. Hydra."
 	},
 	{
 		"code": "01182",
-		"name": "하이드라 군인",
-		"text": "경호<i>(이 하수인이 당신과 교전 중인 한, 당신은 빌런을 공격할 수 없습니다).</i>\n<b>격파될 때</b>: 교전 중인 플레이어에게 조우 카드 1장을 나눠줍니다.",
-		"traits": "하이드라."
+		"name": "Hydra Soldier",
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>\n<b>When Defeated</b>: Deal the engaged player an encounter card.",
+		"traits": "Hydra."
 	},
 	{
 		"code": "01183",
-		"name": "종말의 의자",
-		"text": "<b>공개될 때</b>: M.O.D.O.K이 플레이 영역에 없다면, 조우 덱과 버린 조우 더미에서 M.O.D.O.K을 찾아 당신과 교전 중인 채로 플레이 영역에 내려놓습니다. 그러고 나서 조우 덱을 섞습니다."
+		"name": "The Doomsday Chair",
+		"text": "<b>When Revealed</b>: If MODOK is not in play, search the encounter deck and discard pile for MODOK and put him into play engaged with you, then shuffle the encounter deck."
 	},
 	{
 		"code": "01184",
-		"flavor": "\"기어 나오지 말고 원래 있던 바위 뒤에 계속 숨어 있었어야지!\"",
-		"name": "M.O.D.O.K",
-		"text": "반격 2.<i>(이 캐릭터가 공격받은 후, 공격 중인 캐릭터에게 피해 2점을 입힙니다).</i>",
-		"traits": "사이보그. 간부."
+		"flavor": "\"You should have stayed hidden under the rock you crawled out from!\"",
+		"name": "MODOK",
+		"text": "Retaliate 2. <i>(After this character is attacked, deal 2 damage to the attacking character.)</i>",
+		"traits": "Cyborg. Elite."
 	},
 	{
 		"code": "01185",
-		"name": "생체역학적 개량",
-		"text": "쇄도.\n다른 생체역학적 개량을 장착하지 않은 하수인 중 인쇄된 생명력이 가장 높은 하수인에게 이 카드를 장착합니다.\n<b>강제 난입</b>: 장착된 하수인이 격파되려 할 때, 대신 그 하수인이 입은 모든 피해를 치료합니다. 그러고 나서 이 카드를 버립니다.",
-		"traits": "과학."
+		"name": "Biomechanical Upgrades",
+		"text": "Surge.\nAttach to the minion with the highest printed hit points and without another Biomechanical Upgrades attachment.\n<b>Forced Interrupt</b>: When attached minion would be defeated, heal all damage from it instead, this discard this card.",
+		"traits": "Tech."
 	},
 	{
 		"code": "01186",
-		"flavor": "\"이 세계는 나의 것이다!\" -- Red Skull",
-		"name": "전진",
-		"text": "<b>공개될 때</b>: 빌런이 암약합니다."
+		"flavor": "\"The world will be mine!\" -- Red Skull",
+		"name": "Advance",
+		"text": "<b>When Revealed</b>: The villain schemes."
 	},
 	{
 		"code": "01187",
-		"flavor": "\"죽어라!\" -- Venom",
-		"name": "습격",
-		"text": "<b>공개될 때 (일상)</b>: 이 카드는 쇄도를 얻습니다.\n<b>공개될 때 (히어로)</b>: 빌런이 당신을 공격합니다."
+		"flavor": "\"Die!\" -- Venom",
+		"name": "Assault",
+		"text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: The villain attacks you."
 	},
 	{
 		"code": "01188",
-		"name": "허를 찔리다",
-		"text": "<b>공개될 때</b>: 당신이 조종하는 업그레이드나 지원 하나를 버립니다. 이렇게 버려진 카드가 없다면, 이 카드는 쇄도를 얻습니다."
+		"name": "Caught Off Guard",
+		"text": "<b>When Revealed</b>: Discard an upgrade or support you control. If no cards were discarded this way, this card gains surge."
 	},
 	{
 		"code": "01189",
-		"name": "물량공세",
-		"text": "<b>공개될 때 (일상)</b>: 이 카드는 쇄도를 얻습니다.\n<b>공개될 때 (히어로)</b>: 당신과 교전 중인 모든 하수인과 빌런이 당신을 공격합니다."
+		"name": "Gang-Up",
+		"text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: The villain and each minion engaged with you attacks you."
 	},
 	{
 		"code": "01190",
-		"name": "과거의 그림자",
-		"text": "<b>공개될 때</b>: 따로 놓아둔 당신의 숙적 하수인을 공개하고 당신과 교전 중인 채로 플레이 영역에 내려놓습니다. 따로 놓아둔 당신의 나머지 숙적 조우 세트를 조우 덱에 섞어넣습니다. 당신의 숙적 하수인이 이렇게 게임에 들어오지 않는다면, 이 카드는 쇄도를 얻습니다."
+		"name": "Shadow of the Past",
+		"text": "<b>When Revealed</b>: Reveal your set-aside nemesis minion and put it into play engaged with you. Reveal your set-aside nemesis side scheme and put it into play. Shuffle the rest of your set-aside nemesis encounter set into the encounter deck. If your nemesis minion does not enter the game this way, this card gains surge."
 	},
 	{
 		"code": "01191",
-		"name": "탈진",
-		"text": "쇄도.\n<b>공개될 때</b>: 당신의 아이덴티티 카드를 소진합니다."
+		"name": "Exhaustion",
+		"text": "Surge.\n<b>When Revealed</b>: Exhaust your identity card."
 	},
 	{
 		"code": "01192",
-		"name": "완벽한 계획",
-		"text": "<b>공개될 때</b>: 모든 부가 음모에 위협을 4만큼 놓습니다. 플레이 영역에 부가 음모가 없다면, 부가 음모가 버려질 때까지 조우 덱의 맨 위 카드를 버립니다. 이렇게 버려진 부가 음모를 공개합니다."
+		"name": "Masterplan",
+		"text": "<b>When Revealed</b>: Place 4 threat on each side scheme. If there are no side schemes in play, discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that side scheme."
 	},
 	{
 		"code": "01193",
-		"flavor": "\"잠깐, 저기 더 있어!\" --Klaw",
-		"name": "포격",
-		"text": "쇄도.\n<b>공개될 때</b>: 조우 덱에서 맨 위 카드를 공개합니다."
+		"flavor": "\"But wait, there's more\" --Klaw",
+		"name": "Under Fire",
+		"text": "Surge.\n<b>When Revealed</b>: Reveal the top card of the encounter deck."
 	}
-
 ]
