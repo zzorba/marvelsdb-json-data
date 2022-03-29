@@ -1,419 +1,419 @@
 [
-	{
-		"code": "24001",
-		"flavor": "\"If you're not with me, you're on your own\"",
-		"name": "The Hood",
-		"text": "<i>Foul Play</i> - <b>Special:</b> Discard the top card of the encounter deck. If that card does not belong to The Hood encounter set, deal it to yourself as a facedown encounter card.",
-		"traits": "Criminal."
-	},
-	{
-		"code": "24002",
-		"name": "The Hood",
-		"text": "<b>When Defeated:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck.\n\n<i>Foul Play</i> - <b>Special:</b> Discard the top 2 cards of the encounter deck. Deal the first card discarded this way that does not belong to The Hood encounter set to yourself as a facedown encounter card.",
-		"traits": "Criminal."
-	},
-	{
-		"code": "24003",
-		"name": "The Hood",
-		"text": "<b>When Defeated:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck.\n\n<i>Foul Play</i> - <b>Special:</b> Discard the top 2 cards of the encounter deck. Deal each card discarded this way that does not belong to The Hood encounter set to yourself as a facedown encounter card.",
-		"traits": "Criminal."
-	},
-	{
-		"back_text": "<b>Contents:</b> The Hood (I) and The Hood (II). <i>(The Hood (II) and The Hood(III) instead for expert mode.)</i> The Hood and Standard encounter sets.\n<b>Setup:</b> Choose 7 modular encounter sets and set them aside (you may choose randomly). Choose 1 of those sets at random, then shuffle it intro the encounter deck.",
-		"code": "24004",
-		"flavor": "The Hood is recruiting an army, convincing various villains that they are stronger together than they are apart.",
-		"name": "Making Connections",
-		"text": "<b>When Revealed:</b> Each player must resolve The Hood's \"Foul Play\" ability in player order."
-	},
-	{
-		"back_flavor": "Through hard work, determination, and a lot of illegal activity, the Hood has expanded his empire, gathering a formidable force that threatens the safety of every citizen in New York City.",
-		"back_text": "<b>When Revealed:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck. Place 1 acceleration token on the main scheme.",
-		"code": "24005",
-		"name": "Promised Prosperity",
-		"text": "<b>When Revealed:</b> Each player must resolve The Hood's \"Foul Play\" ability in player order. For each player who was not dealt at least 1 facedown encounter card this way, place 2 threat here."
-	},
-	{
-		"back_flavor": "With a legion of villains at his side, the Hood has established a domain of depravity that even the strongest heroes would be wise to fear.",
-		"back_text": "<b>When Revealed:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck. Place 1 acceleration token on the main scheme. Each player must resolve The Hood's \"Foul Play\" ability in player order.",
-		"code": "24006",
-		"name": "Crime State",
-		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, each player must resolve The Hood's \"Foul Play\" ability in player order.\n<b>If this stage is completed, the players lose the game.</b>"
-	},
-	{
-		"code": "24007",
-		"name": "Established Dominance",
-		"text": "Attach to your identity.\n<b>Forced Response:</b> After The Hood activates against you, resolve his \"Foul Play\" ability\n<b>Alter-Ego Action:</b> Exhaust your identity and place 2 threat on the main scheme → discard this card."
-	},
-	{
-		"code": "24008",
-		"name": "The Hood's Mantle",
-		"text": "Attach to The Hood.\nThe Hood gains retaliate 1 and steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>\n<b>Hero Action:</b> Spend [energy][mental][physical] resources → discard this card.",
-		"traits": "Armor."
-	},
-	{
-		"boost_text": "Reveal this card.",
-		"code": "24009",
-		"name": "The Hood's Pistol",
-		"text": "Attach to The Hood.\n<b>Hero Action:</b> Spend [mental][physical] resources → discard this card.",
-		"traits": "Weapon."
-	},
-	{
-		"code": "24010",
-		"name": "Madame Masque",
-		"text": "Guard.\n<b>When Revealed:</b> Resolve The Hood's \"Foul Play\" ability.\n<b>When Defeated:</b> The defeating player must resolve The Hood's \"Foul Play\" ability.",
-		"traits": "Criminal. Masters of Evil."
-	},
-	{
-		"code": "24011",
-		"name": "Unbridled Ambition",
-		"text": "Hinder 2[per_hero]. <i>(When revealed, place 2[per_hero] threat here.)</i>\n<b>Forced Interrupt:</b> When the villain phase begins, each player must resolve The Hood's \"Foul Play\" ability in player order."
-	},
-	{
-		"boost_text": "After this activation ends, resolve The Hood's \"Foul Play\" ability.",
-		"code": "24012",
-		"name": "Field Recruitment",
-		"text": "<b>When Revealed:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck. Resolve The Hood's \"Foul Play\" ability. Remove this card from the game."
-	},
-	{
-		"code": "24013",
-		"name": "Upper Hand",
-		"text": "<b>When Revealed (Alter-Ego):</b> The Hood schemes. Resolve The Hood's \"Foul Play\" ability.\n<b>When Revealed (Hero):</b> The Hood attacks you. Resolve The Hood's \"Foul Play\" ability."
-	},
-	{
-		"code": "24014",
-		"flavor": "\"The only good superhero is a dead one.\" - Griffin",
-		"name": "Beast Mode",
-		"text": "<b>Forced Interrupt:</b> When a stunned or confused friendly character would take any amount of damage, increase that amount by 1."
-	},
-	{
-		"attack_text": "<b>Forced Response</b>: After Griffin attacks and damages a character, stun that character.",
-		"code": "24015",
-		"name": "Griffin",
-		"text": "Quickstrike.\n<b>When Defeated:</b> If there is a stunned friendly character in play, shuffle Griffin into the encounter deck.",
-		"traits": "Brute. Masters of Evil."
-	},
-	{
-		"code": "24016",
-		"name": "Mandrill",
-		"text": "Mandrill gains retaliate X, where X is equal to the number of confused characters <i>(friendly or enemy)</i> in play.\n<b>When Revealed:</b> Confuse each character you control.",
-		"traits": "Brute. Crossfire's Crew."
-	},
-	{
-		"boost_text": "Resolve this card's \"<b>When Revealed</b>\" ability.",
-		"code": "24017",
-		"name": "Double Trouble",
-		"text": "<b>When Revealed:</b> Stun a character you control. Confuse a character you control."
-	},
-	{
-		"boost_text": "After this activation ends, put Brothers Grimm into play engaged with the first player.",
-		"code": "24018",
-		"name": "Brothers Grimm",
-		"text": "[star]<b>Forced Interrupt:</b> When Brothers Grimm activates against you, discard cards from the top of the encounter deck until an attachment is discarded. Reveal that card.",
-		"traits": "Masters of Evil. Mystic."
-	},
-	{
-		"code": "24019",
-		"name": "Blackbird Pellets",
-		"text": "Attach to a [[Mystic]] minion. If you cannot, attach to the villain.\n[star]<b>Forced Response:</b> After attached enemy activates against you, discard this card → discard 1 card at random from your hand and deal yourself 1 facedown encounter card.",
-		"traits": "Item."
-	},
-	{
-		"code": "24020",
-		"name": "Corrosive Egg Bomb",
-		"text": "Attach to a [[Mystic]] minion. If you cannot, attach to the villain.\n[star]<b>Forced Response:</b> After attached enemy activates against you, discard this card → take 3 indirect damage and deal yourself 1 facedown encounter card.",
-		"traits": "Item."
-	},
-	{
-		"code": "24021",
-		"name": "Paralytic Stardust",
-		"text": "Attach to a [[Mystic]] minion. If you cannot, attach to the villain.\n[star]<b>Forced Response:</b> After attached enemy activates against you, discard this card → stun your identity and deal yourself 1 facedown encounter card.",
-		"traits": "Item."
-	},
-	{
-		"code": "24022",
-		"name": "Unbreakable Thread",
-		"text": "Attach to a [[Mystic]] minion. If you cannot, attach to the villain.\n[star]<b>Forced Response:</b> After attached enemy activates against you, discard this card → choose and discard 1 ally, support, or upgrade you control and deal yourself 1 facedown encounter card.",
-		"traits": "Item."
-	},
-	{
-		"boost_text": "Resolve this card's \"<b>When Revealed</b>\" ability.",
-		"code": "24023",
-		"name": "Out for Blood",
-		"text": "<b>When Revealed:</b> Deal 1 damage to the friendly character with the fewest remaining hit points. If that character is defeated this way, repeat this effect."
-	},
-	{
-		"attack_text": "<b>Forced Interrupt:</b> When Controller's attack would deal any amount of damage to a character, increase that amount by that character's ATK.",
-		"code": "24024",
-		"flavor": "\"No one avoids wearing my diabolical discs!\"",
-		"name": "Controller",
-		"traits": "Brute. Crossfire's Crew."
-	},
-	{
-		"boost_text": "Choose and exhaust a character you control.",
-		"code": "24025",
-		"name": "Corruptor",
-		"text": "<b>When Revealed:</b> Exhaust each ally you control. Place 1 threat on the main scheme for each ally exhausted this way.",
-		"traits": "Criminal. Crossfire's Crew."
-	},
-	{
-		"attack_text": "<b>Forced Interrupt:</b> When Crossfire attacks, he attacks the friendly character with the fewest remaining hit points. That attack gains overkill and ranged.",
-		"code": "24026",
-		"name": "Crossfire",
-		"text": "Quickstrike.",
-		"traits": "Crossfire's Crew. Masters of Evil."
-	},
-	{
-		"boost_text": "Discard cards from the top of your deck until you discard an ally.",
-		"code": "24027",
-		"name": "Mister Fear",
-		"text": "As an additional cost for the engaged player to ready a hero or ally they control, the player must spend a [mental] resource.",
-		"traits": "Criminal. Crossfire's Crew."
-	},
-	{
-		"code": "24028",
-		"name": "Caught in the Crossfire",
-		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a [[Crossfire's Crew]] minion is discarded. Reveal that minion. Take indirect damage equal to the number of [[Crossfire's Crew]] minions in play."
-	},
-	{
-		"code": "24029",
-		"name": "Cruel Intentions"
-	},
-	{
-		"code": "24030",
-		"name": "Ruination"
-	},
-	{
-		"code": "24031",
-		"name": "Slug It Out"
-	},
-	{
-		"code": "24032",
-		"name": "Seek and Destroy"
-	},
-	{
-		"code": "24033",
-		"name": "Self-Experimentation",
-		"text": "<b>When Revealed:</b> Search the encounter deck and discard pile for Mister Hyde and reveal him. <i>(Shuffle.)</i>\n<b>Forced Interrupt:</b> When a [[Brute]] enemy would take any amount of damage, remove that much threat from this scheme instead."
-	},
-	{
-		"code": "24034",
-		"name": "Calvin Zabo",
-		"text": "<b>When Revealed:</b> If Mister Hyde is in play, discard this card → Mister Hyde attacks you with +2 ATK. That attack gains overkill.\n<b>When Defeated:</b> Search the encounter deck and discard pile for Mister Hyde and put him into play engaged with the player who was engaged with Calvin Zabo.",
-		"traits": "Elite. Masters of Evil."
-	},
-	{
-		"code": "24035",
-		"flavor": "\"I became what I always wanted.\"",
-		"name": "Mister Hyde",
-		"text": "<b>When Revealed:</b> If Calvin Zabo is engaged with a player, discard Calvin Zabo → Mister Hyde engages that player. Give Mister Hyde a tough status card and deal 1 damage to each hero and ally in play.",
-		"traits": "Brute. Elite. Masters of Evil."
-	},
-	{
-		"code": "24036",
-		"name": "Hyde Formula",
-		"text": "<b>When Revealed:</b> If Calvin Zabo is in play, he schemes with +3 SCH, then he takes 4 damage. If Mister Hyde is in play, give him a tough status card and he attacks you <i>(even if you are in alter-ego form)</i>. If neither is in play, this card gains surge."
-	},
-	{
-		"attack_text": "Attached minion's attacks deal indirect damage.",
-		"code": "24037",
-		"name": "Flamethrower",
-		"text": "Attach to the minion with the most remaining hit points. If you cannot, search the encounter deck and discard pile for a minion, put it into play engaged with you, and attach this card to it. <i>(Shuffle.)</i>",
-		"traits": "Tech. Weapon."
-	},
-	{
-		"code": "24038",
-		"name": "Holoshield Generator",
-		"text": "Attach to the minion with the most remaining hit points. If you cannot, search the encounter deck and discard pile for a minion, put it into play engaged with you, and attach this card to it. <i>(Shuffle.)</i>\nAttached minion gets +4 hit points and gains retaliate 2.",
-		"traits": "Item. Tech."
-	},
-	{
-		"code": "24039",
-		"name": "Jetpack",
-		"text": "Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.\n<b>Forced Interrupt:</b> When attached minion would take any amount of damage from an attack, discard the top card of the encounter deck. Reduce damage from that attack by the number of boost icons ([boost]) discarded this way.",
-		"traits": "Item. Tech."
-	},
-	{
-		"attack_text": "Attached minion's attacks gain overkill.",
-		"code": "24040",
-		"name": "Tech Gauntlets",
-		"text": "Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.\nAttach minion gets +3 hit points.",
-		"traits": "Tech. Weapon."
-	},
-	{
-		"code": "24041",
-		"name": "Armored Guard",
-		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>\nToughness. <i>(This character enters play with a tough status card.)</i>",
-		"traits": "Mercenary."
-	},
-	{
-		"code": "24042",
-		"name": "Crime Pays",
-		"text": "<b>When Revealed:</b> Search the encounter deck for a [[Criminal]] minion and put it into play engaged with you. <i>(Shuffle.)</i> If no minion was put into play this way, this cards gains surge."
-	},
-	{
-		"attack_text": "<b>Forced Response:</b> After Beetle attacks and damages you, discard the lowest-cost upgrade you control.",
-		"boost_text": "Choose and discard an upgrade you control.",
-		"code": "24043",
-		"name": "Beetle",
-		"traits": "Criminal."
-	},
-	{
-		"attack_text": "<b>Forced Response:</b> After Boomerang attacks you, deal 1 damage to each ally you control.",
-		"boost_text": "Deal 2 damage to an ally you control.",
-		"code": "24044",
-		"name": "Boomerang",
-		"traits": "Criminal. Masters of Evil."
-	},
-	{
-		"boost_text": "Stun the character you control with the highest ATK value.",
-		"code": "24045",
-		"name": "Shocker",
-		"text": "<b>Forced Response:</b> After Shocker is attacked, stun the attacking character.",
-		"traits": "Criminal. Masters of Evil."
-	},
-	{
-		"boost_text": "Discard the lowest-cost support you control.",
-		"code": "24046",
-		"name": "Speed Demon",
-		"text": "<b>Forced Interrupt:</b> When a character attacks Speed Demon, Speed Demon attacks that character. <i>(Resolve Speed Demon's attack first.)</i>",
-		"traits": "Criminal."
-	},
-	{
-		"attack_text": "<b>Forced Interrupt:</b> When White Rabbit attacks you, discard 1 card at random from your hand.",
-		"boost_text": "Choose and discard 1 identity-specific card from your hand.",
-		"code": "24047",
-		"name": "White Rabbit",
-		"traits": "Criminal."
-	},
-	{
-		"code": "24048",
-		"name": "Sinister Onslaught",
-		"text": "<b>When Revealed (Alter-Ego):</b> Each [[Criminal]] enemy in play schemes. If no enemy schemed this way, this card gains surge.\n<b>When Revealed (Hero):</b> Each [[Criminal]] enemy in play attacks you. If no enemy attacked this way, this card gains surge."
-	},
-	{
-		"code": "24049",
-		"name": "Formidable Foe"
-	},
-	{
-		"code": "24050",
-		"name": "Dark Dealings"
-	},
-	{
-		"code": "24051",
-		"name": "Mob Mentality"
-	},
-	{
-		"code": "24052",
-		"name": "Overwhelming Force"
-	},
-	{
-		"code": "24053",
-		"name": "Shadow of the Past"
-	},
-	{
-		"code": "24054",
-		"name": "Total Annihilation"
-	},
-	{
-		"code": "24055",
-		"flavor": "The villains have somehow identified an unmarked van transporting priceless artifacts.",
-		"name": "Feisty Heist",
-		"text": "<b>When Revealed:</b> Discard the highest-cost card from your hand."
-	},
-	{
-		"code": "24056",
-		"flavor": "A container ship has run ashore and is now sitting on the dock of the bay.",
-		"name": "Disaster at the Docks",
-		"text": "<b>When Revealed:</b> Take 3 indirect damage."
-	},
-	{
-		"code": "24057",
-		"flavor": "A raging fire has engulfed a coastal oil rig, trapping much of the crew.",
-		"name": "Offshore Inferno",
-		"text": "<b>When Revealed:</b> Discard the lowest-cost card you control."
-	},
-	{
-		"code": "24058",
-		"name": "Hot Pursuit",
-		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a minion is discard. Put that minion into play engaged with you."
-	},
-	{
-		"boost_text": "Resolve this card's \"<b>When Revealed</b>\" ability.",
-		"code": "24059",
-		"name": "Citywide Crisis",
-		"text": "<b>When Revealed:</b> Resolve each \"<b>When Revealed</b>\" ability on each side scheme in play. If no \"<b>When Revealed</b>\" ability was resolved this way, place 2 threat on each scheme."
-	},
-	{
-		"code": "24060",
-		"name": "Back-Alley Enclave",
-		"text": "Surge.<b>When Revealed:</b> Discard each other [[Setting]] environment in play.\nEach character in play gets +1 ATK.",
-		"traits": "Location. Setting."
-	},
-	{
-		"code": "24061",
-		"name": "Secret Lair",
-		"text": "Surge.<b>When Revealed:</b> Discard each other [[Setting]] environment in play.\nEach enemy in play gains 1 acceleration icon ([acceleration]).\nEach hero and ally in play gets +1 THW.",
-		"traits": "Location. Setting."
-	},
-	{
-		"code": "24062",
-		"name": "Sewer Tunnels",
-		"text": "Surge.<b>When Revealed:</b> Discard each other [[Setting]] environment in play.\nEach character in play gains retaliate 1.",
-		"traits": "Location. Setting."
-	},
-	{
-		"code": "24063",
-		"name": "Warehouse District",
-		"text": "Surge.<b>When Revealed:</b> Discard each other [[Setting]] environment in play.\nEach character in play gains steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>",
-		"traits": "Location. Setting."
-	},
-	{
-		"code": "24064",
-		"flavor": "The Wrecking Crew is on a rampage, using their magically-powered muscles to cause chaos and destruction.",
-		"name": "Top Talent",
-		"text": "Hinder 2[per_player]. <i>(When revealed, place 2[per_player] threat here.)</i>\nThe villain and each [[Elite]] minion gain retaliate 1."
-	},
-	{
-		"attack_text": "While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
-		"code": "24065",
-		"flavor": "\"You're just dead meat waitin' tp be tenderized!\"",
-		"name": "Wrecker",
-		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>",
-		"traits": "Brute. Elite."
-	},
-	{
-		"attack_text": "Bulldozer's attacks gain overkill.",
-		"code": "24066",
-		"flavor": "\"Nothing stands in the path of the Bulldozer!\"",
-		"name": "Bulldozer",
-		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>",
-		"traits": "Brute. Elite."
-	},
-	{
-		"code": "24067",
-		"flavor": "\"These fists were made for crushin'... and that's just what they'll do.\"",
-		"name": "Piledriver",
-		"text": "Retaliate 1.\nVillainous. <i>(When this minion activates, give it a boost card.)</i>",
-		"traits": "Brute. Elite."
-	},
-	{
-		"attack_text": "<b>Forced Response:</b> After Thunderball attacks you, deal 1 damage to each character you control.",
-		"code": "24068",
-		"flavor": "\"Bring it on! It's wrecking time!\"",
-		"name": "Thunderball",
-		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>",
-		"traits": "Brute. Elite."
-	},
-	{
-		"boost_text": "For each [[Elite]] minion in play, this card gets +1 boost icon ([boost]) for this activation.",
-		"code": "24069",
-		"name": "Combined Effort",
-		"text": "<b>When Revealed:</b> Each [[Elite]] minion in play activates against the player it is engaged with. If no minion activated this way, this card gains surge."
-	},
-	{
-		"code": "24070",
-		"flavor": "\"Hey, stop, that tickles.\"",
-		"name": "Magic Muscle",
-		"text": "<b>When Revealed:</b> Give each [[Brute]] enemy in play a tough status card. If no tough status card was given this way, discard cards from the top of the encounter deck until a [[Brute]] minion is discarded and reveal that minion."
-	}
+        {
+                "code": "24001",
+                "flavor": "\"Se non sei con me, dovrai cavartela da solo.\"",
+                "name": "Hood",
+                "text": "<i>Giocare Sporco</i> - <b>Speciale:</b> Scarta 1 carta del mazzo degli incontri. Se quella carta non appartiene al mazzo degli incontri Hood, distribuiscila come carta incontro a faccia in giù a te stesso.",
+                "traits": "Criminale."
+        },
+        {
+                "code": "24002",
+                "name": "Hood",
+                "text": "<b>Quando Rivelata:</b> Mescola dal mazzo degli incontri 1 set di incontri modulare messo da parte casuale.\n\n<i>Giocare Sporco</i> - <b>Speciale:</b> Scarta 2 carte dalla cima del mazzo degli incontri. Distribuisci come carta incontro a faccia in giù a te stesso la prima carta scartata in questo modo che non appartiene al set di incontri Hood.",
+                "traits": "Criminale."
+        },
+        {
+                "code": "24003",
+                "name": "Hood",
+                "text": "<b>Quando Rivelata:</b> Mescola dal mazzo degli incontri 1 set di incontri modulare messo da parte casuale.\r\n\r\n<i>Giocare Sporco</i> - <b>Speciale:</b> Scarta 2 carte dalla cima del mazzo degli incontri. Distribuisci come carta incontro a faccia in giù a te stesso la prima carta scartata in questo modo che non appartiene al set di incontri Hood.",
+                "traits": "Criminale."
+        },
+        {
+                "code": "24004",
+                "flavor": "Hood sta mettendo insieme un esercito. Pare che sia riuscito a convincere diversi criminali che l'unione faccia la forza.",
+                "name": "Stringere Legami",
+                "text": "<b>Quando Rivelata:</b> In ordine di gioco, ogni giocatore deve risolvere la capacità \"Giocare Sporco\" di Hood.",
+                "back_text": "<b>Contenuto:</b> Hood (I) e Hood (II). <i>(Hood (II) e Hood (III) invece per la modalità esperto.)</i> Set di incontri Hood e Standard.\n<b>Preparazione:</b> Scegli 7 set di incontri modulari e mettili da parte (puoi prenderne 7 casuali). Mescola nel mazzo degli incontri 1 di essi casuale."
+        },
+        {
+                "code": "24005",
+                "name": "Una promessa di Prosperità",
+                "text": "<b>Quando Rivelata:</b> In ordine di gioco, ogni giocatore deve risolvere la capacità \"Giocare Sporco\" di Hood. Per ogni giocatore che non ha distribuito carte incontro a faccia in giù  a se stesso in questo modo, colloca 2 minacce su questa carta.",
+                "back_text": "<b>Quando Rivelata:</b> Mescola nel mazzo degli incontri 1 set di incontri modulare messo da parte casuale. Colloca 1 gettone accelerazione sulla trama principale.",
+                "back_flavor": "Duro lavoro, determinazione e una sana dose di attività illecite hanno permesso a Hood di estendere il suo impero e di mettere insieme una forza formidabile. I cittadini di New York non sono più al sicuro."
+        },
+        {
+                "code": "24006",
+                "name": "Impero Criminale",
+                "text": "<b>[star] Risposta Obbligata:</b> In ordine di gioco, dopo aver risolto il passo 1 della Fase del Criminale, ogni giocatore deve risolvere la capacità \"Giocare Sporco\" di Hood. \n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>",
+                "back_text": "<b>Quando Rivelata:</b> Mescola nel mazzo degli incontri 1 set di incontri modulare messo da parte casuale. Colloca 1 gettone accelerazione sulla trama principale. In ordine di gioco, ogni giocatore deve risolvere la capacità \"Giocare Sporco\" di Hood.",
+                "back_flavor": "Con una legione di criminali al suo fianco, Hood ha insediato un dominio così corrotto che persino i più forti tra gli eroi farebbero bene a temere."
+        },
+        {
+                "code": "24007",
+                "name": "Stabilire il Dominio",
+                "text": "Assegna alla tua identità.\n<b>Risposta Obbligata:</b> Dopo che Hood si è attivato contro di te, risolvi la sua capacità \"Giocare Sporco\".\n<b>Azione Alter Ego:</b> Esaurisci la tua identità e colloca 2 minacce sulla trama principale → scarta questa carta."
+        },
+        {
+                "code": "24008",
+                "name": "Mantello di Hood",
+                "text": "Assegna a Hood.\nHood ottiene Ritorsione 1 e Tempra. <i>(Per stordire o confondere questo personaggio occorrono 2 carte status corrispondenti.)</i>\n<b>Azione Eroe:</b> Spendi [energy][mental][physical] → scarta questa carta.",
+                "traits": "Armatura"
+        },
+        {
+                "code": "24009",
+                "name": "Pistola di Hood",
+                "text": "Assegna a Hood.\n<b>Azione Eroe:</b> Spendi [mental][physical] → scarta questa carta.",
+                "traits": "Arma",
+                "boost_text": "Rivela questa carta."
+        },
+        {
+                "code": "24010",
+                "name": "Madame Masque",
+                "text": "Guardia.\n<b>Quando Rivelata:</b> Risolvi la capacità \"Giocare Sporco\" di Hood.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questo gregario deve risolvere la capacità \"Giocare Sporco\" di Hood.",
+                "traits": "Malvivente. Signore del Male."
+        },
+        {
+                "code": "24011",
+                "name": "Ambizione Sfrenata",
+                "text": "Ostacolo 2[per_hero]. <i>(Quando Rivelata, colloca 2[per_hero] minacce su questa carta.)</i>\n<b>Interruzione Obbligata:</b> In ordine di gioco, quando la Fase del Criminale inizia, ogni giocatore deve risolvere la capacità \"Giocare Sporco\" di Hood."
+        },
+        {
+                "code": "24012",
+                "name": "Reclutamento sul campo",
+                "text": "<b>Quando Rivelata:</b> Mescola nel mazzo degli incontri 1 set di incontri modulare messo da parte casuale. Risolvi la capacità \"Giocare Sporco\" di Hood. Rimuovi questa carta dal gioco.",
+                "boost_text": "Dopo che questa attivazione è terminata, risolvi la capacità \"Giocare Sporco\" di Hood."
+        },
+        {
+                "code": "24013",
+                "name": "Sopravvento",
+                "text": "<b>Quando Rivelata (Alter Ego):</b> Hood trama. Risolvi la capacità \"Giocare Sporco\" di Hood.\n<b>Quando Rivelata (Eroe):</b> Hood ti attacca. Risolvi la capacità \"Giocare Sporco\" di Hood."
+        },
+        {
+                "code": "24014",
+                "flavor": "\"L'unico supereroe buono è un supereroe morto.\" - Griffin",
+                "name": "A Tutta Bestia",
+                "text": "<b>Interruzione Obbligata:</b> Quando un personaggio amico stordito o confuso sta per subire un qualsiasi ammontare di danni, aumenta di 1 quell'ammontare."
+        },
+        {
+                "code": "24015",
+                "name": "Griffin",
+                "text": "Colpo Rapido.\n<b>Quando Sconfitta:</b> Se ci sono personaggi amici storditi in gioco, rimescola Griffin nel mazzo degli incontri.",
+                "traits": "Bruto. Signore del Male.",
+                "attack_text": "<b>Risposta Obbligata</b>: Dopo che Griffin ha attaccato e danneggiato un personaggio, stordisci quel personaggio."
+        },
+        {
+                "code": "24016",
+                "name": "Mandrillo",
+                "text": "Mandrillo ottiene Ritorsione X, dove X è pari al numero di perosnaggi <i>(amici e nemici)</i> confusi in gioco.\n<b>Quando Rivelata:</b> Confondi ogni personaggio che controlli.",
+                "traits": "Banda di Crossfire. Bruto."
+        },
+        {
+                "code": "24017",
+                "name": "Non c'è Uno Senza Due",
+                "text": "<b>Quando Rivelata:</b> Stordisci 1 personaggio che controlli. Confondi 1 personaggio che controlli.",
+                "boost_text": "Risolvi la capacità \"<b>Quando Rivelata</b>\" di questa carta."
+        },
+        {
+                "code": "24018",
+                "name": "Fratelli Grimm",
+                "text": "[star]<b>Interruzione Obbligata:</b> Quando Fratelli Grimm si attiva contro di te, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 aggiunta. Rivela quella carta.",
+                "traits": "Mistico. Signore del Male.",
+                "boost_text": "Dopo che questa attivazione è terminata, metti in gioco Fratelli Grimm impegnato con il primo giocatore. "
+        },
+        {
+                "code": "24019",
+                "name": "Corvosfere",
+                "text": "Assegna a un gregario [[Mistico]]. Se non puoi farlo, assegna al criminale.\n[star]<b>Risposta Obbligata:</b> Dopo che il nemico con questa aggiunta si è attivato contro di te, scarta questa carta → scarta 1 carta casuale dalla tua mano e distribuisci 1 carta incontro a faccia in giù a te stesso.",
+                "traits": "Oggetto."
+        },
+        {
+                "code": "24020",
+                "name": "Uovobomba Corrosivo",
+                "text": "Assegna a un gregario [[Mistico]]. Se non puoi farlo, assegna al criminale.\n[star]<b>Risposta Obbligata:</b> Dopo che il nemico con questa aggiunta si è attivato contro di te, scarta questa carta → subisci 3 danni indiretti e distribuisci 1 carta incontro a faccia in giù a te stesso.",
+                "traits": "Oggetto."
+        },
+        {
+                "code": "24021",
+                "name": "Stelle Paralizzanti",
+                "text": "Assegna a un gregario [[Mistico]]. Se non puoi farlo, assegna al criminale.\n[star]<b>Risposta Obbligata:</b> Dopo che il nemico con questa aggiunta si è attivato contro di te, scarta questa carta → stordisci la tua identità e distribuisci 1 carta incontro a faccia in giù a te stesso.",
+                "traits": "Oggetto."
+        },
+        {
+                "code": "24022",
+                "name": "Nastro Indistruttibile",
+                "text": "Assegna a un gregario [[Mistico]]. Se non puoi farlo, assegna al criminale.\n[star]<b>Risposta Obbligata:</b> Dopo che il nemico con questa aggiunta si è attivato contro di te, scarta questa carta → scegli 1 carta alleato, supporto o miglioria che controlli e distribuisci 1 carta incontro a faccia in giù a te stesso.",
+                "traits": "Oggetto."
+        },
+        {
+                "code": "24023",
+                "name": "A Caccia di Vendetta",
+                "text": "<b>Quando Rivelata:</b> Infliggi 1 danno al personaggio amico con meno punti ferita rimanenti. Se quel personaggio è sconfitto in questo modo, ripeti questo effetto.",
+                "boost_text": "Risolvi la capacità \"<b>Quando Rivelata</b>\" di questa carta."
+        },
+        {
+                "code": "24024",
+                "flavor": "\"Nessuno può riuscire a evitare i miei diabolici dischi!\"",
+                "name": "Controllore",
+                "traits": "Banda di Crossfire. Bruto.",
+                "attack_text": "<b>Interruzione Obbligata:</b> Quando l'attacco del Controllore sta per infliggere un qualsiasi ammontare di danni a un personaggio, aumenta quell'ammontare di un numero pari all'ATT di quel personaggio."
+        },
+        {
+                "code": "24025",
+                "name": "Corruttore",
+                "text": "<b>Quando Rivelata:</b> Esaurisci ogni alleato che controlli. Colloca 1 minaccia sulla trama principale per ogni alleato esaurito in questo modo.",
+                "traits": "Banda di Crossfire. Malvivente.",
+                "boost_text": "Scegli ed esaurisci un personaggio che controlli."
+        },
+        {
+                "code": "24026",
+                "name": "Crossfire",
+                "text": "Colpo rapido.",
+                "traits": "Banda di Crossfire. Signore del Male.",
+                "attack_text": "<b>Interruzione Obbligata:</b> Quando Crossfire attacca, attacca il personaggio amico con meno punti ferita rimanenti. Quell'attacco ottiene Distanza e Sopraffazione."
+        },
+        {
+                "code": "24027",
+                "name": "Seminatore di Morte",
+                "text": "Come costo aggiuntivo per ripristinare un eroe o un alleato che controlla, il giocatore impegnato deve spendere [mental].",
+                "traits": "Banda di Crossfire. Malvivente.",
+                "boost_text": "Scarta carte dalla cima del tuo mazzo finché non scarti 1 alleato."
+        },
+        {
+                "code": "24028",
+                "name": "Fuoco Incrociato",
+                "text": "<b>Quando Rivelata:</b> Scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gragario [[Banda di Crossfire]]. Rivela quel gregario. Subisci un ammontare di danni indiretti pari al numero di gregari [[Banda di Crossfire]] in gioco."
+        },
+        {
+                "code": "24029",
+                "name": "Intenzioni Maligne"
+        },
+        {
+                "code": "24030",
+                "name": "Rovina"
+        },
+        {
+                "code": "24031",
+                "name": "Cerca e Distruggi"
+        },
+        {
+                "code": "24032",
+                "name": "Testa a Testa"
+        },
+        {
+                "code": "24033",
+                "name": "Auto-Sperimentazione",
+                "text": "<b>Quando Rivelata:</b> Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Mister Hyde e rivelalo. <i>(Mescola.)</i>\n<b>Interruzione Obbligata:</b> Quando un nemico [[Bruto]] sta per subire un qualsiasi ammontare di danni, rimuovi invece un pari ammontare di minacce da questa trama."
+        },
+        {
+                "code": "24034",
+                "name": "Calvin Zabo",
+                "text": "<b>Quando Rivelata:</b> Se Mister Hyde è in gioco, scarta questa carta → Mister Hyde ti attacca con +2 ATT. Quell'attacco ottiene Sopraffazione.\n<b>Quando Sconfitta:</b> Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Mister Hyde e mettilo in gioco impegnato con il giocatore che era impegnato con Calvin Zabo.",
+                "traits": "Elite. Signore del Male."
+        },
+        {
+                "code": "24035",
+                "flavor": "\"Sono diventato ciò che ho sempre desiderato.\"",
+                "name": "Mister Hyde",
+                "text": "<b>Quando Rivelata:</b> Se Calvin Zabo è impegnato con un giocatore, scarta Calvin Zabo → Mister Hyde impegna quel giocatore. Irrobustisci Mister Hyde e infliggi 1 danno a ogni eroe e alleato in gioco.",
+                "traits": "Bruto. Elite. Signore del Male."
+        },
+        {
+                "code": "24036",
+                "name": "Formula Hyde",
+                "text": "<b>Quando Rivelata:</b> Se Calvin Zabo è in gioco, esso trama con +3 TRA, poi subisce 4 danni. Se Mister Hyde è in gioco, irrobustiscilo ed esso ti attacca <i>(anche se sei nella sembianza di Alter Ego)</i>. Se nessuno dei due è in gioco, questa carta ottiene impulso."
+        },
+        {
+                "code": "24037",
+                "name": "Lanciafiamme",
+                "text": "Assegna al gregario con più punti ferita rmanenti. Se non puoi farlo, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario, mettilo in gioco impegnato con te e assegnagli questa carta. <i>(Mescola.)</i>",
+                "traits": "Arma. Tecnologia.",
+                "attack_text": "Gli attacchi del gregario con questa aggiunta infliggono danni indiretti."
+        },
+        {
+                "code": "24038",
+                "name": "Generatore di Oloscudi",
+                "text": "Assegna al gregario con più punti ferita rmanenti. Se non puoi farlo, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario, mettilo in gioco impegnato con te e assegnagli questa carta. <i>(Mescola.)</i>                Il gregario con questa aggiunta riceve +4 punti ferita e ottiene Ritorsione 2.",
+                "traits": "Oggetto. Tecnologia."
+        },
+        {
+                "code": "24039",
+                "name": "Jetpack",
+                "text": "Assegna al gregario con più punti ferita rmanenti. Se non puoi farlo,  questa carta ottiene impulso.                                                                                                                                                                                                                        <b>Interruzione Obbligata:</b> Quando il gregario con questa aggiunta sta per subire un qualsiasi ammontare di danni da un attacco, scarta 1 carta dalla cima del mazzo degli incontri. Riduci i danni di quell'attacco di un ammontare pari al numero di icone potenziamento ([boost]) scartate in questo modo.",
+                "traits": "Oggetto. Tecnologia."
+        },
+        {
+                "code": "24040",
+                "name": "Guanti Tecnologici",
+                "text": "Assegna al gregario con più punti ferita rimanenti. Se non puoi farlo, questa carta ottiene impulso.\nIl gregario con questa aggiunta riceve +3 punti ferita.",
+                "traits": "Arma. Tecnologia.",
+                "attack_text": "Gli attacchi del gregario con questa aggiunta ottengono Sopraffazione."
+        },
+        {
+                "code": "24041",
+                "name": "Guardia Corazzata",
+                "text": "Guardia. <i>(Mentre questo gregario è impegnato con te, non puoi attaccare il criminale.)</i>.                                                                                                                                                                                                                                                          \nRobustezza. <i>(Questo personaggio entra in gioco con 1 carta status Robusto.)</i>",
+                "traits": "Mercenario."
+        },
+        {
+                "code": "24042",
+                "name": "Il Crimine Paga",
+                "text": "<b>Quando Rivelata:</b> Cerca nel mazzo degli incontri 1 gregario [[Malvivente]] e mettilo in gioco impegnato con te. <i>(Mescola.)</i> Se nessun gregario è stato messo in gioco in questo modo, questa carta ottiene impulso."
+        },
+        {
+                "code": "24043",
+                "name": "Scarabeo",
+                "traits": "Malvivente.",
+                "boost_text": "Scegli e scarta 1 miglioria che controlli.",
+                "attack_text": "<b>Risposta Obbligata:</b> Dopo che Scarabeo ti ha attaccato e danneggiato, scarta la miglioria dal costo più basso che controlli."
+        },
+        {
+                "code": "24044",
+                "name": "Boomerang",
+                "traits": "Malvivente. Signore del Male.",
+                "boost_text": "Infliggi 2 danni a un alleato che controlli.",
+                "attack_text": "<b>Risposta Obbligata:</b> Dopo che Boomerang ti ha attaccato, infliggi 1 danno a ogni alleato che controlli."
+        },
+        {
+                "code": "24045",
+                "name": "Shocker",
+                "text": "<b>Risposta Obbligata:</b> Dopo che Shocker è stato attaccato, stordisci il personaggio attaccante.",
+                "traits": "Malvivente. Signore del Male.",
+                "boost_text": "Stordisci il personaggio con l'ATT più alto che controlli."
+        },
+        {
+                "code": "24046",
+                "name": "Speed Demon",
+                "text": "<b>Interruzione Obbligata:</b> Quando un personaggio attacca Speed Demon, Speed Demon attacca quel personaggio. <i>(Risolvi per primo l'attacco di Speed Demon.)</i>",
+                "traits": "Malvivente.",
+                "boost_text": "Scarta il supporto dal costo più basso che controlli."
+        },
+        {
+                "code": "24047",
+                "name": "Coniglia Bianca",
+                "traits": "Malvivente.",
+                "boost_text": "Scegli e scarta 1 carta del set eroe dalla tua mano.",
+                "attack_text": "<b>Interruzione Obbligata:</b> Quando Coniglia Bianca ti attacca, scarta 1 carta casuale dalla tua mano."
+        },
+        {
+                "code": "24048",
+                "name": "Offensiva Sinistra",
+                "text": "<b>Quando Rivelata (Alter Ego):</b> Ogni nemico [[Malvivente]] in gioco trama. Se nessun nemico ha tramato in questo modo, questa carta ottiene Impulso.\n<b>Quando Rivelata (Eroe):</b> Ogni nemico [[Malvivente]] in gioco ti attacca. Se nessun nemico ha attaccato in questo modo, questa carta ottiene Impulso."
+        },
+        {
+                "code": "24049",
+                "name": "Avversario Formidabile"
+        },
+        {
+                "code": "24050",
+                "name": "Affari Oscuri"
+        },
+        {
+                "code": "24051",
+                "name": "Mentalità del Branco"
+        },
+        {
+                "code": "24052",
+                "name": "Forza Soverchiante"
+        },
+        {
+                "code": "24053",
+                "name": "Ombre del Passato"
+        },
+        {
+                "code": "24054",
+                "name": "Annientamento Totale"
+        },
+        {
+                "code": "24055",
+                "flavor": "In qualche modo, i malviventi sono riusciti a identificare un furgoncino anonimo che trasportava artefatti di inestimabile valore.",
+                "name": "Rapina Turbolenta",
+                "text": "<b>Quando Rivelata:</b> Scarta la carta dal costo più alto dalla tua mano."
+        },
+        {
+                "code": "24056",
+                "flavor": "Una nave cargo si è schiantata contro i moli della baia.",
+                "name": "Disastro ai Moli",
+                "text": "<b>Quando Rivelata:</b> Subisci 3 danni indiretti."
+        },
+        {
+                "code": "24057",
+                "flavor": "Un incendio è divampato su una piattaforma petrolifera, intrappolando buona parte degli operai a bordo.",
+                "name": "Inferno in Alto Mare",
+                "text": "<b>Quando Rivelata:</b> Scarta la carta dal costo più basso che controlli."
+        },
+        {
+                "code": "24058",
+                "name": "Inseguimento",
+                "text": "<b>Quando Rivelata:</b> Scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario. Metti in gioco quel gregario impegnato con te. "
+        },
+        {
+                "code": "24059",
+                "name": "Crisi Cittadina",
+                "text": "<b>Quando Rivelata:</b> Risolvi ogni capacità \"<b>Quando Rivelata</b>\" su ogni trama secondaria in gioco. Se nessuna capacità \"<b>Quando Rivelata</b>\" è stata risolta in questo modo, colloca 2 minacce su ogni trama.",
+                "boost_text": "Risolvi la capacità \"<b>Quando Rivelata</b>\" di questa carta."
+        },
+        {
+                "code": "24060",
+                "name": "Enclave Clandestina",
+                "text": "Impulso.                                                                                                                                                                                                                                                                                                                                                                                               <b>Quando Rivelata:</b> Scarta ogni altro ambiente [[Scena]] in gioco.\nOgni personaggio in gioco riceve +1 ATT.",
+                "traits": "Luogo. Scena."
+        },
+        {
+                "code": "24061",
+                "name": "Covo Segreto",
+                "text": "Impulso.                                                                                                                                                                                                                                                                                                                                                                                               <b>Quando Rivelata:</b> Scarta ogni altro ambiente [[Scena]] in gioco.\nOgni nemico in gioco ottiene 1 icona accelerazione ([accelerazione]).\nOgni eroe e alleato in gioco riceve +1 INT.",
+                "traits": "Luogo. Scena."
+        },
+        {
+                "code": "24062",
+                "name": "Fogne Cittadine",
+                "text": "Impulso.                                                                                                                                                                                                                                                                                                                                                                                               <b>Quando Rivelata:</b> Scarta ogni altro ambiente [[Scena]] in gioco.\nOgni personaggio in gioco ottiene Ritorsione 1.",
+                "traits": "Luogo. Scena."
+        },
+        {
+                "code": "24063",
+                "name": "Zona Industriale",
+                "text": "Impulso.                                                                                                                                                                                                                                                                                                                                                                                               <b>Quando Rivelata:</b> Scarta ogni altro ambiente [[Scena]] in gioco.\nOgni personaggio in gioco ottiene Tempra. <i>(Per stordire o confondere questo personaggio occorrono 2 carte status corrispondenti.)</i>",
+                "traits": "Luogo. Scena."
+        },
+        {
+                "code": "24064",
+                "flavor": "I membri della Squadra di Demolizione sono a piede libero e stanno seminando caos e distruzione con i loro muscoli potenziati magicamente. ",
+                "name": "I Migliori nel Settore",
+                "text": "Ostacolo 2[per_player]. <i>(Quando Rivelata, colloca 2[per_player] minacce su questa carta.)</i>\nIl criminale e ogni gregario [[Elite]] ottengono Ritorsione 1."
+        },
+        {
+                "code": "24065",
+                "flavor": "\"Sei solo carne da macello pronta per essere battuta!\"",
+                "name": "Demolitore",
+                "text": "Criminoso. <i>(Quando questo gregario si attiva, fagli ricevere 1 carta potenziamento.)</i>",
+                "traits": "Bruto. Elite.",
+                "attack_text": "Mentre Demolitore attacca, se l'attacco è non difeso, riceve +2 ATT."
+        },
+        {
+                "code": "24066",
+                "flavor": "\"Non c'è nulla che possa fermare il Bulldozer!\"",
+                "name": "Bulldozer",
+                "text": "Criminoso. <i>(Quando questo gregario si attiva, fagli ricevere 1 carta potenziamento.)</i>",
+                "traits": "Bruto. Elite.",
+                "attack_text": "Gli attacchi di Bulldozer ottengono Sopraffazione."
+        },
+        {
+                "code": "24067",
+                "flavor": "\"Non posso farci niente, queste mani sono fatte per distruggere!\"",
+                "name": "Piledriver",
+                "text": "Ritorsione 1.\nCriminoso. <i>(Quando questo gregario si attiva, fagli ricevere 1 carta potenziamento.)</i>",
+                "traits": "Bruto. Elite."
+        },
+        {
+                "code": "24068",
+                "flavor": "\"Fatti sotto! E' tempo di demolizione!\"",
+                "name": "Thunderball",
+                "text": "Criminoso. <i>(Quando questo gregario si attiva, fagli ricevere 1 carta potenziamento.)</i>",
+                "traits": "Bruto. Elite.",
+                "attack_text": "<b>Risposta Obbligata:</b> Dopo che Thunderball ti ha attaccato, infliggi 1 danno a ogni personaggio che controlli."
+        },
+        {
+                "code": "24069",
+                "name": "Sforzo Combinato",
+                "text": "<b>Quando Rivelata:</b> Ogni gregario [[Elite]] in gioco si attiva. Se nessun gregario si è attivato in questo modo, questa carta ottiene Impulso.",
+                "boost_text": "Per ogni gregario [[Elite]] in gioco, questa carta riceve +1 icona potenziamento ([boost]) per questa attivazione."
+        },
+        {
+                "code": "24070",
+                "flavor": "\"Ehi, basta! Mi fai il solletico!\"",
+                "name": "Muscoli Magici",
+                "text": "<b>Quando Rivelata:</b> Irrobustisci ogni nemico [[Bruto]] in gioco. Se nessun nemico si è irrobustito in questo modo, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario [[Bruto]] e rivelalo."
+        }
 ]
