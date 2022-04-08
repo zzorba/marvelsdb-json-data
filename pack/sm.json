@@ -4,7 +4,6 @@
 		"back_link": "27001b",
 		"code": "27001a",
 		"defense": 3,
-		"double_sided": true,
 		"faction_code": "hero",
 		"hand_size": 5,
 		"health": 10,
@@ -21,10 +20,10 @@
 	},
 	{
 		"code": "27001b",
-		"double_sided": true,
 		"faction_code": "hero",
 		"hand_size": 6,
 		"health": 10,
+		"hidden": true,
 		"is_unique": true,
 		"name": "Gwen Stacy",
 		"octgn_id": "38d5ddfb-5061-45eb-bd80-086f13997a58",
@@ -39,6 +38,7 @@
 	{
 		"code": "27002",
 		"cost": 2,
+		"deck_limit": 3,
 		"faction_code": "hero",
 		"name": "Ghost Kick",
 		"octgn_id": "697f3da5-2fbb-43d1-a6b5-34fb5e5eee48",
@@ -54,6 +54,7 @@
 	{
 		"code": "27003",
 		"cost": 0,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"name": "Parental Guidance",
 		"octgn_id": "d7a07831-7502-4661-8b07-247fdb1203a7",
@@ -68,6 +69,7 @@
 	{
 		"code": "27004",
 		"cost": 2,
+		"deck_limit": 3,
 		"faction_code": "hero",
 		"name": "Phantom Flip",
 		"octgn_id": "601ffd46-8f4c-48ed-b4f8-c8a074a60161",
@@ -83,6 +85,7 @@
 	{
 		"code": "27005",
 		"cost": 2,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Pirouette and Punch",
 		"octgn_id": "9d832906-4f6b-4d86-b857-75fd5e45b5ed",
@@ -98,6 +101,7 @@
 	{
 		"code": "27006",
 		"cost": 2,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Web Binding",
 		"octgn_id": "559210a0-ac54-4dbd-8f96-084efd3d2dea",
@@ -113,6 +117,7 @@
 	{
 		"code": "27007",
 		"cost": 1,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"is_unique": true,
 		"name": "George Stacy",
@@ -129,6 +134,7 @@
 	{
 		"code": "27008",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"name": "Ticket to the Multiverse",
 		"octgn_id": "12843d60-3eb1-4909-8821-983c83c6b314",
@@ -144,6 +150,7 @@
 	{
 		"code": "27009",
 		"cost": 2,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Web-Bracelet",
 		"octgn_id": "bc24ec84-9a2e-4c46-800d-f866f5032a45",
@@ -160,6 +167,7 @@
 		"attack": 1,
 		"code": "27010",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "protection",
 		"health": 2,
 		"is_unique": true,
@@ -177,6 +185,7 @@
 		"attack": 2,
 		"code": "27011",
 		"cost": 4,
+		"deck_limit": 1,
 		"faction_code": "protection",
 		"health": 3,
 		"is_unique": true,
@@ -195,6 +204,7 @@
 		"attack": 2,
 		"code": "27012",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "protection",
 		"health": 5,
 		"is_unique": true,
@@ -219,6 +229,7 @@
 	{
 		"code": "27014",
 		"cost": 1,
+		"deck_limit": 3,
 		"faction_code": "protection",
 		"name": "Jump Flip",
 		"octgn_id": "7c88e6b8-68fb-4d8e-a851-12308c475789",
@@ -232,6 +243,7 @@
 	{
 		"code": "27015",
 		"cost": 0,
+		"deck_limit": 3,
 		"faction_code": "protection",
 		"name": "Return the Favor",
 		"octgn_id": "348ce452-3e85-413d-a4af-ab52e6e3799e",
@@ -245,6 +257,7 @@
 	{
 		"code": "27016",
 		"cost": 2,
+		"deck_limit": 3,
 		"faction_code": "protection",
 		"name": "What Doesn't Kill Me",
 		"octgn_id": "54dcfbee-4c91-44bc-a73b-1bc271a89d40",
@@ -258,6 +271,7 @@
 		"attack": 1,
 		"code": "27017",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "basic",
 		"health": 3,
 		"is_unique": true,
@@ -275,6 +289,7 @@
 	{
 		"code": "27018",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "basic",
 		"name": "Across the Spider-Verse",
 		"octgn_id": "dd8b54b7-fdd3-4a5e-a9af-dacfe6e38d8a",
@@ -287,6 +302,7 @@
 	{
 		"code": "27019",
 		"cost": 1,
+		"deck_limit": 1,
 		"faction_code": "basic",
 		"name": "Young Love",
 		"octgn_id": "2c76d38c-9750-4e13-8bce-f1361fd17251",
@@ -320,6 +336,7 @@
 	{
 		"code": "27023",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "basic",
 		"is_unique": true,
 		"name": "Web of Life and Destiny",
@@ -334,6 +351,7 @@
 	{
 		"code": "27024",
 		"cost": 1,
+		"deck_limit": 3,
 		"faction_code": "basic",
 		"name": "Plan B",
 		"octgn_id": "072059be-0868-48b1-8f79-a7a2ce740e1a",
@@ -348,8 +366,8 @@
 		"attack": 2,
 		"back_link": "27030b",
 		"code": "27030a",
+		"deck_limit": 1,
 		"defense": 2,
-		"double_sided": true,
 		"faction_code": "hero",
 		"hand_size": 5,
 		"health": 9,
@@ -366,10 +384,10 @@
 	},
 	{
 		"code": "27030b",
-		"double_sided": true,
 		"faction_code": "hero",
 		"hand_size": 6,
 		"health": 9,
+		"hidden": true,
 		"is_unique": true,
 		"name": "Miles Morales",
 		"octgn_id": "b675bf6a-8cf5-422c-90dd-f3f64765a7f0",
@@ -384,6 +402,7 @@
 	{
 		"code": "27031",
 		"cost": 1,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Arachnobatics",
 		"octgn_id": "c0445699-289e-42de-a89a-e4ecb4730c7b",
@@ -399,6 +418,7 @@
 	{
 		"code": "27032",
 		"cost": 1,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Double Life",
 		"octgn_id": "4d718457-415c-4c37-a1ea-cea77c5a24c0",
@@ -413,6 +433,7 @@
 	{
 		"code": "27033",
 		"cost": 2,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Swing In",
 		"octgn_id": "3b81de9b-b326-4863-b8b5-021045017867",
@@ -428,6 +449,7 @@
 	{
 		"code": "27034",
 		"cost": 2,
+		"deck_limit": 3,
 		"faction_code": "hero",
 		"name": "Web-Shot",
 		"octgn_id": "53edf101-36c8-4bc9-aabf-cdb224af30b1",
@@ -443,6 +465,7 @@
 	{
 		"code": "27035",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"is_unique": true,
 		"name": "Ganke Lee",
@@ -459,6 +482,7 @@
 	{
 		"code": "27036",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"is_unique": true,
 		"name": "Jefferson Davis",
@@ -469,12 +493,13 @@
 		"resource_physical": 1,
 		"set_code": "spider_man_morales",
 		"set_position": 11,
-		"traits": "Persona. SHIELD.",
+		"traits": "Persona. S.H.I.E.L.D.",
 		"type_code": "support"
 	},
 	{
 		"code": "27037",
 		"cost": 1,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"name": "Power Within",
 		"octgn_id": "da3eb3b9-b550-43b5-9928-039b109e5389",
@@ -490,6 +515,7 @@
 	{
 		"code": "27038",
 		"cost": 1,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"name": "Defense Mechanism",
 		"octgn_id": "167cf405-e918-4e1f-bfe7-ca16c412f649",
@@ -505,6 +531,7 @@
 	{
 		"code": "27039",
 		"cost": 1,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Web-Shooter",
 		"octgn_id": "7d13f04b-3271-4896-985b-93c4b7ececda",
@@ -521,6 +548,7 @@
 		"attack": 1,
 		"code": "27040",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "justice",
 		"health": 2,
 		"is_unique": true,
@@ -531,13 +559,14 @@
 		"quantity": 1,
 		"resource_mental": 1,
 		"thwart": 1,
-		"traits": "SHIELD.",
+		"traits": "S.H.I.E.L.D.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 2,
 		"code": "27041",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "justice",
 		"health": 3,
 		"is_unique": true,
@@ -549,12 +578,13 @@
 		"resource_mental": 1,
 		"subname": "Jessica Drew",
 		"thwart": 1,
-		"traits": "SHIELD. Web-Warrior.",
+		"traits": "S.H.I.E.L.D. Web-Warrior.",
 		"type_code": "ally"
 	},
 	{
 		"code": "27042",
 		"cost": 0,
+		"deck_limit": 3,
 		"faction_code": "justice",
 		"name": "Homeland Intervention",
 		"octgn_id": "9a6f48de-9a65-4904-bf0e-b3e9062ecb7e",
@@ -562,12 +592,13 @@
 		"position": 42,
 		"quantity": 3,
 		"resource_energy": 1,
-		"traits": "SHIELD. Tactic.",
+		"traits": "S.H.I.E.L.D. Tactic.",
 		"type_code": "event"
 	},
 	{
 		"code": "27043",
 		"cost": 0,
+		"deck_limit": 3,
 		"faction_code": "justice",
 		"name": "Global Logistics",
 		"octgn_id": "33e50406-96bb-4b00-8765-2a59aa516990",
@@ -575,12 +606,13 @@
 		"position": 43,
 		"quantity": 3,
 		"resource_physical": 1,
-		"traits": "SHIELD. Tactic.",
+		"traits": "S.H.I.E.L.D. Tactic.",
 		"type_code": "event"
 	},
 	{
 		"code": "27044",
 		"cost": 1,
+		"deck_limit": 3,
 		"faction_code": "justice",
 		"name": "Field Agent",
 		"octgn_id": "898831f2-83d0-470c-a6cb-cb77cea26c70",
@@ -588,7 +620,7 @@
 		"position": 44,
 		"quantity": 3,
 		"resource_energy": 1,
-		"traits": "Persona. SHIELD.",
+		"traits": "Persona. S.H.I.E.L.D.",
 		"type_code": "support"
 	},
 	{
@@ -599,9 +631,12 @@
 		"quantity": 2
 	},
 	{
+		"attack": 1,
 		"code": "27046",
 		"cost": 4,
+		"deck_limit": 1,
 		"faction_code": "basic",
+		"health": 3,
 		"is_unique": true,
 		"name": "Agent 13",
 		"octgn_id": "3ce28169-17c6-40e5-9ce5-d7252c32a807",
@@ -610,13 +645,15 @@
 		"quantity": 1,
 		"resource_physical": 1,
 		"subname": "Sharon Carter",
-		"traits": "SHIELD. Spy.",
+		"thwart": 2,
+		"traits": "S.H.I.E.L.D. Spy.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 3,
 		"code": "27047",
 		"cost": 5,
+		"deck_limit": 1,
 		"faction_code": "basic",
 		"health": 5,
 		"is_unique": true,
@@ -627,13 +664,14 @@
 		"quantity": 1,
 		"resource_physical": 1,
 		"thwart": 3,
-		"traits": "SHIELD.",
+		"traits": "S.H.I.E.L.D.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 2,
 		"code": "27048",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "basic",
 		"health": 3,
 		"is_unique": true,
@@ -652,6 +690,7 @@
 		"attack": 2,
 		"code": "27049",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "basic",
 		"health": 3,
 		"is_unique": true,
@@ -697,6 +736,7 @@
 	{
 		"code": "27054",
 		"cost": 2,
+		"deck_limit": 3,
 		"faction_code": "basic",
 		"name": "Government Liaison",
 		"octgn_id": "bc85bac2-a76b-4cbf-a9ef-866ab34cb28e",
@@ -704,12 +744,13 @@
 		"position": 54,
 		"quantity": 3,
 		"resource_mental": 1,
-		"traits": "Persona. SHIELD.",
+		"traits": "Persona. S.H.I.E.L.D.",
 		"type_code": "support"
 	},
 	{
 		"code": "27055",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "basic",
 		"is_unique": true,
 		"name": "Sky-Destroyer",
@@ -718,13 +759,12 @@
 		"position": 55,
 		"quantity": 1,
 		"resource_energy": 1,
-		"traits": "SHIELD. Vehicle.",
+		"traits": "S.H.I.E.L.D. Vehicle.",
 		"type_code": "support"
 	},
 	{
 		"back_link": "27174b",
 		"code": "27174a",
-		"double_sided": true,
 		"faction_code": "campaign",
 		"name": "Public Outcry",
 		"octgn_id": "98d67b98-d883-4fdc-a1a0-3b62d2a9cdd1",
@@ -739,7 +779,6 @@
 	},
 	{
 		"code": "27174b",
-		"double_sided": true,
 		"faction_code": "campaign",
 		"name": "Public Outcry",
 		"octgn_id": "98d67b98-d883-4fdc-a1a0-3b62d2a9cdd1",
@@ -860,7 +899,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 1,
-		"traits": "SHIELD. Tech.",
+		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -874,7 +913,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 1,
-		"traits": "Enhanced. SHIELD. Tech.",
+		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -889,7 +928,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 2,
-		"traits": "SHIELD. Tech.",
+		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -903,7 +942,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 2,
-		"traits": "Enhanced. SHIELD. Tech.",
+		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -918,7 +957,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 3,
-		"traits": "SHIELD. Tech.",
+		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -932,7 +971,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 3,
-		"traits": "Enhanced. SHIELD. Tech.",
+		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -947,7 +986,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 4,
-		"traits": "SHIELD. Tech.",
+		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -961,7 +1000,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 4,
-		"traits": "Enhanced. SHIELD. Tech.",
+		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -976,7 +1015,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 5,
-		"traits": "SHIELD. Tech.",
+		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -990,7 +1029,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 5,
-		"traits": "Enhanced. SHIELD. Tech.",
+		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -1005,7 +1044,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 6,
-		"traits": "SHIELD. Tech.",
+		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -1019,7 +1058,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 6,
-		"traits": "Enhanced. SHIELD. Tech.",
+		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -1034,7 +1073,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 7,
-		"traits": "SHIELD. Tech.",
+		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -1048,7 +1087,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 7,
-		"traits": "Enhanced. SHIELD. Tech.",
+		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -1063,7 +1102,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 8,
-		"traits": "SHIELD. Tech.",
+		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
@@ -1077,7 +1116,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 8,
-		"traits": "Enhanced. SHIELD. Tech.",
+		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
 	{
