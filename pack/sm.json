@@ -303,6 +303,7 @@
 	},
 	{
 		"attack": 1,
+		"attack_cost": 1,
 		"code": "27017",
 		"cost": 3,
 		"deck_limit": 1,
@@ -316,7 +317,9 @@
 		"quantity": 1,
 		"resource_physical": 1,
 		"subname": "Hobie Brown",
+		"text": "Play only if you control a [[Web-Warrior]] card.\n<b>Interrupt</b>: When Spider-Man leaves play, discard the top 3 cards of the encounter deck. Deal damage to the villain equal to the number of boost icons <i>([boost])</i> discarded this way.",
 		"thwart": 2,
+		"thwart_cost": 2,
 		"traits": "Web-Warrior.",
 		"type_code": "ally"
 	},
@@ -331,6 +334,7 @@
 		"position": 18,
 		"quantity": 1,
 		"resource_wild": 1,
+		"text": "Max 1 per deck.\n<b>Hero Action</b>: Exhaust a [[Web-Warrior]] card you control → search your discard pile  for a [[Web-Warrior]] ally and put it into play, then choose a player. That player may spend 3 resources of any type to repeat this ability.",
 		"type_code": "event"
 	},
 	{
@@ -344,6 +348,7 @@
 		"position": 19,
 		"quantity": 1,
 		"resource_wild": 1,
+		"text": "Team-Up (Gwen Stacy and Miles Morales). Max 1 per deck.\n<b>Alter-Ego Action</b>: Heal 3 damage each from Gwen Stacy and Miles Morales.",
 		"type_code": "event"
 	},
 	{
@@ -379,6 +384,7 @@
 		"position": 23,
 		"quantity": 1,
 		"resource_energy": 1,
+		"text": "Ignore this card's resource cost if your identity has the [[Web-Warrior]] trait.\n<b>Response</b>: After a [[Web-Warrior]] ally leaves play, choose a player → that player draws 1 card.",
 		"traits": "Location. Web-Warrior.",
 		"type_code": "support"
 	},
@@ -393,6 +399,7 @@
 		"position": 24,
 		"quantity": 3,
 		"resource_physical": 1,
+		"text": "Play under any player's control. Max 1 per player.\n<b>Hero Action</b>: Exhaust Plan B and discard 1 random card from your hand → deal 2 damage to an enemy.",
 		"traits": "Tactic.",
 		"type_code": "upgrade"
 	},
