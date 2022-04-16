@@ -9,6 +9,7 @@
 		"position": 25,
 		"quantity": 1,
 		"set_code": "ghost_spider",
+		"text": "<b>Give to the Gwen Stacy player.</b>\nSearch your deck, hand, discard pile, and play area for George Stacy and set him aside. Attach this obligation to him.\n<b>Alter-Ego Action</b>: Exhaust Gwen Stacy and remove this obligation from the game → add George Stacy to your hand.",
 		"type_code": "obligation"
 	},
 	{
@@ -16,6 +17,7 @@
 		"boost": 3,
 		"code": "27026",
 		"faction_code": "encounter",
+		"flavor": "Peter Parker's research into the healing properties of lizard DNA has backfired, turning him and all those who come in contact with his serum into reptilian monstrosities!",
 		"name": "Regenerative Research",
 		"octgn_id": "9f2a2446-89a3-49cc-88c8-b3e449701923",
 		"pack_code": "sm",
@@ -23,6 +25,7 @@
 		"quantity": 1,
 		"set_code": "ghost_spider_nemesis",
 		"set_position": 1,
+		"text": "<b>Forced Interrupt</b>: When the villain phase begins, heal 1 damage from each enemy.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -40,6 +43,7 @@
 		"scheme": 1,
 		"set_code": "ghost_spider_nemesis",
 		"set_position": 2,
+		"text": "<b>Forced Interrupt</b>: When the villain phase begins, heal 1 damage from The Lizard.\n<i>(Ghost-Spider's nemesis minion.)</i>",
 		"traits": "Brute. Creature.",
 		"type_code": "minion"
 	},
@@ -47,6 +51,7 @@
 		"boost": 0,
 		"code": "27028",
 		"faction_code": "encounter",
+		"flavor": "\"RAAARRRRRRR!!!\"",
 		"name": "Experimental Injection",
 		"octgn_id": "e01a8dd8-3132-4001-bbf8-b97d396126cb",
 		"pack_code": "sm",
@@ -54,12 +59,14 @@
 		"quantity": 1,
 		"set_code": "ghost_spider_nemesis",
 		"set_position": 3,
+		"text": "Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.\nAttached minion gains the [[Creature]] trait and gets +4 hit points.",
 		"type_code": "attachment"
 	},
 	{
 		"boost": 1,
 		"code": "27029",
 		"faction_code": "encounter",
+		"flavor": "\"Fresh meat...\" — The Lizard",
 		"name": "In Cold Blood",
 		"octgn_id": "e1af91a1-1775-4b5c-a02a-ec9eae2c5259",
 		"pack_code": "sm",
@@ -67,6 +74,7 @@
 		"quantity": 2,
 		"set_code": "ghost_spider_nemesis",
 		"set_position": 4,
+		"text": "<b>When Revealed</b>: The Lizard attacks you. You cannot play events until after that attack resolves. If no attack was made this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
