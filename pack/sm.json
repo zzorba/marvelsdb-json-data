@@ -5,8 +5,10 @@
 		"code": "27001a",
 		"defense": 3,
 		"faction_code": "hero",
+		"flavor": "\"So I'm fighting a monster. Not the worst way for a teenage girl to spend her Friday evening.\"",
 		"hand_size": 5,
 		"health": 10,
+		"illustrator": "Andrea Di Vitto & Laura Villari",
 		"is_unique": true,
 		"name": "Ghost-Spider",
 		"octgn_id": "38d5ddfb-5061-45eb-bd80-086f13997a58",
@@ -14,6 +16,7 @@
 		"position": 1,
 		"quantity": 1,
 		"set_code": "ghost_spider",
+		"text": "<i>Dizzying Reflexes</i> - <b>Response:</b> After you resolve an \"<b>Interrupt</b>\" or \"<b>Response</b>\" ability on an event, ready Ghost-Spider. (Limit once per phase.)",
 		"thwart": 1,
 		"traits": "Web-Warrior.",
 		"type_code": "hero"
@@ -21,9 +24,11 @@
 	{
 		"code": "27001b",
 		"faction_code": "hero",
+		"flavor": "\"Time for the drum solo!\"",
 		"hand_size": 6,
 		"health": 10,
 		"hidden": true,
+		"illustrator": "Andrea Di Vitto & Laura Villari",
 		"is_unique": true,
 		"name": "Gwen Stacy",
 		"octgn_id": "38d5ddfb-5061-45eb-bd80-086f13997a58",
@@ -32,6 +37,7 @@
 		"quantity": 1,
 		"recover": 3,
 		"set_code": "ghost_spider",
+		"text": "<b>Action:</b> Choose to either shuffle Ticket to the Multiverse from your discard pile into your deck or ready George Stacy. (Limit once per round.)",
 		"traits": "Civilian.",
 		"type_code": "alter_ego"
 	},
@@ -40,6 +46,7 @@
 		"cost": 2,
 		"deck_limit": 3,
 		"faction_code": "hero",
+		"flavor": "\"I thought you'd at least TRY to put a fight.\"-Ghost-Spider",
 		"name": "Ghost Kick",
 		"octgn_id": "697f3da5-2fbb-43d1-a6b5-34fb5e5eee48",
 		"pack_code": "sm",
@@ -48,6 +55,7 @@
 		"resource_physical": 1,
 		"set_code": "ghost_spider",
 		"set_position": 1,
+		"text": "<b>Hero Response</b> <i>(attack)</i>: After Ghost-Spider uses a basic power, deal 6 damage to an enemy. (Max 1 per basic power use.)",
 		"traits": "Attack.",
 		"type_code": "event"
 	},
@@ -64,6 +72,7 @@
 		"resource_energy": 1,
 		"set_code": "ghost_spider",
 		"set_position": 4,
+		"text": "<b>Alter-Ego Action</b>:\n- If George Stacy is in play, attach 1 event from your hand or discard pile facedown to George Stacy.\n- If George Stacy is not in play, search your deck and discard pile for him and add him to your hand. <i>(Shuffle.)</i>",
 		"type_code": "event"
 	},
 	{
@@ -71,6 +80,7 @@
 		"cost": 2,
 		"deck_limit": 3,
 		"faction_code": "hero",
+		"flavor": "\"Life is most in-focus when the world is upside down.\"-Gwen Stacy",
 		"name": "Phantom Flip",
 		"octgn_id": "601ffd46-8f4c-48ed-b4f8-c8a074a60161",
 		"pack_code": "sm",
@@ -79,6 +89,7 @@
 		"resource_energy": 1,
 		"set_code": "ghost_spider",
 		"set_position": 5,
+		"text": "<b>Hero Response</b> <i>(thwart)</i>: After Ghost-Spider uses a basic power, remove 5 threat from a scheme. (Max 1 per basic power use.)",
 		"traits": "Thwart.",
 		"type_code": "event"
 	},
@@ -95,6 +106,7 @@
 		"resource_mental": 1,
 		"set_code": "ghost_spider",
 		"set_position": 8,
+		"text": "<b>Hero Interrupt</b>: When a card is revealed from the encounter deck, deal damage to the villain equal to 1 more than the boost icons <i>([boost])</i> on that card. Cancel that card's \"<b>When Revealed</b>\" effects.",
 		"traits": "Skill.",
 		"type_code": "event"
 	},
@@ -111,6 +123,7 @@
 		"resource_mental": 1,
 		"set_code": "ghost_spider",
 		"set_position": 10,
+		"text": "Requirement ([mental]). <i>While paying for this card, spend the listed resources.</i>\n<b>Hero Interrupt</b>: When an enemy would activate, cancel that activation. I a minion's activation was cancelled this way, deal 4 damage to that minion.",
 		"traits": "Superpower.",
 		"type_code": "event"
 	},
@@ -119,6 +132,7 @@
 		"cost": 1,
 		"deck_limit": 1,
 		"faction_code": "hero",
+		"flavor": "\"Trust me, Ghost-Spider is not the problem.\"",
 		"is_unique": true,
 		"name": "George Stacy",
 		"octgn_id": "41667007-8774-4148-8406-f5b3a11c59d8",
@@ -128,6 +142,7 @@
 		"resource_energy": 1,
 		"set_code": "ghost_spider",
 		"set_position": 12,
+		"text": "Events attached to George Stacy may be played as if they were in your hand.\n<b>Action</b>: Exhaust George Stacy → attach 1 event from your hand facedown here (to a maximum of 3).",
 		"traits": "Persona.",
 		"type_code": "support"
 	},
@@ -144,6 +159,7 @@
 		"resource_wild": 2,
 		"set_code": "ghost_spider",
 		"set_position": 13,
+		"text": "<b>Action</b>: Remove Ticket to the Multiverse from the game → discard your hand, shuffle your discard pile into your deck, draw up to your hand size, and ready each Ghost-Spider card you control.",
 		"traits": "Item.",
 		"type_code": "upgrade"
 	},
@@ -152,6 +168,7 @@
 		"cost": 2,
 		"deck_limit": 2,
 		"faction_code": "hero",
+		"flavor": "\"These should come in handy.\"-Gwen Stacy",
 		"name": "Web-Bracelet",
 		"octgn_id": "bc24ec84-9a2e-4c46-800d-f866f5032a45",
 		"pack_code": "sm",
@@ -160,6 +177,7 @@
 		"resource_physical": 1,
 		"set_code": "ghost_spider",
 		"set_position": 14,
+		"text": "<b>Hero Response</b>: After you resolve an \"<b>Interrupt</b>\" or \"<b>Response</b>\" ability on an event, exhaust Web-Bracelet → draw 1 card. (Max 1 per event.)",
 		"traits": "Item. Tech.",
 		"type_code": "upgrade"
 	},
