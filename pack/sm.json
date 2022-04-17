@@ -412,6 +412,7 @@
 		"faction_code": "hero",
 		"hand_size": 5,
 		"health": 9,
+		"illustrator": "Joey Vasquez",
 		"is_unique": true,
 		"name": "Spider-Man",
 		"octgn_id": "b675bf6a-8cf5-422c-90dd-f3f64765a7f0",
@@ -419,6 +420,7 @@
 		"position": 30,
 		"quantity": 1,
 		"set_code": "spider_man_morales",
+		"text": "<i>Venom Blast</i> - <b>Special</b>: Deal 2 damage to an enemy. Stun that enemy.\n<i>Spider Camouflage</i> - <b>Special</b>: Give Spider-Man a tough status card. Confuse an enemy.",
 		"thwart": 2,
 		"traits": "Champion. Web-Warrior.",
 		"type_code": "hero"
@@ -426,9 +428,11 @@
 	{
 		"code": "27030b",
 		"faction_code": "hero",
+		"flavor": "\"Once you've leaped from skyscrapers and fought off bad guys, everything else is a chore.\"",
 		"hand_size": 6,
 		"health": 9,
 		"hidden": true,
+		"illustrator": "Joey Vasquez",
 		"is_unique": true,
 		"name": "Miles Morales",
 		"octgn_id": "b675bf6a-8cf5-422c-90dd-f3f64765a7f0",
@@ -437,6 +441,7 @@
 		"quantity": 1,
 		"recover": 4,
 		"set_code": "spider_man_morales",
+		"text": "<b>Response</b>: After you change to this form, shuffle 1 Spider-Man card from your discard pile into your deck.",
 		"traits": "Civilian.",
 		"type_code": "alter_ego"
 	},
@@ -445,6 +450,7 @@
 		"cost": 1,
 		"deck_limit": 2,
 		"faction_code": "hero",
+		"flavor": "\"I'm not above adding insult into injury.\" — Spider-Man",
 		"name": "Arachnobatics",
 		"octgn_id": "c0445699-289e-42de-a89a-e4ecb4730c7b",
 		"pack_code": "sm",
@@ -453,6 +459,7 @@
 		"resource_mental": 1,
 		"set_code": "spider_man_morales",
 		"set_position": 1,
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 2 damage to an enemy. If that enemy has a stun status card, deal 3 additional damage to it. If that enemy has a confuse status card, deal 3 additional damage to it.",
 		"traits": "Attack.",
 		"type_code": "event"
 	},
@@ -461,6 +468,7 @@
 		"cost": 1,
 		"deck_limit": 2,
 		"faction_code": "hero",
+		"flavor": "\"I didn't ask for this power, this...responsibility. But I won't let it go to waste.\" — Miles Morales",
 		"name": "Double Life",
 		"octgn_id": "4d718457-415c-4c37-a1ea-cea77c5a24c0",
 		"pack_code": "sm",
@@ -469,6 +477,7 @@
 		"resource_energy": 1,
 		"set_code": "spider_man_morales",
 		"set_position": 3,
+		"text": "Max 1 per round.\n<b>Action</b>: Change your form. If you paid for this card using a [physical] resource, ready your identity.",
 		"type_code": "event"
 	},
 	{
@@ -476,6 +485,7 @@
 		"cost": 2,
 		"deck_limit": 2,
 		"faction_code": "hero",
+		"flavor": "\"I can see that you're not happy to see me... or not see me?\" — Spider-Man",
 		"name": "Swing In",
 		"octgn_id": "3b81de9b-b326-4863-b8b5-021045017867",
 		"pack_code": "sm",
@@ -484,6 +494,7 @@
 		"resource_energy": 1,
 		"set_code": "spider_man_morales",
 		"set_position": 5,
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 4 threat from a scheme. If you paid for this card using a [mental] resource, resolve Spider-Man's <i>\"Spider Camouflage\"</i> ability.",
 		"traits": "Thwart.",
 		"type_code": "event"
 	},
@@ -492,6 +503,7 @@
 		"cost": 2,
 		"deck_limit": 3,
 		"faction_code": "hero",
+		"flavor": "\"If that doesn't hold you, I know something that will.\" — Spider-Man",
 		"name": "Web-Shot",
 		"octgn_id": "53edf101-36c8-4bc9-aabf-cdb224af30b1",
 		"pack_code": "sm",
@@ -500,6 +512,7 @@
 		"resource_mental": 1,
 		"set_code": "spider_man_morales",
 		"set_position": 7,
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. If you paid for this card using a [energy] resource, resolve Spider-Man's <i>\"Venom Blast\"</i> ability.",
 		"traits": "Attack.",
 		"type_code": "event"
 	},
@@ -508,6 +521,7 @@
 		"cost": 2,
 		"deck_limit": 1,
 		"faction_code": "hero",
+		"flavor": "\"I'm the man in the chair.\"",
 		"is_unique": true,
 		"name": "Ganke Lee",
 		"octgn_id": "aec390a3-0731-497d-b6f0-7e00a60c7baa",
@@ -517,6 +531,7 @@
 		"resource_wild": 1,
 		"set_code": "spider_man_morales",
 		"set_position": 10,
+		"text": "<b>Action</b>: Exhaust Ganke Lee → draw 1 card. If you are in hero form, choose and discard 1 card from your hand.",
 		"traits": "Persona.",
 		"type_code": "support"
 	},
@@ -525,6 +540,7 @@
 		"cost": 2,
 		"deck_limit": 1,
 		"faction_code": "hero",
+		"flavor": "\"I'm not proud of my past, but I don't regret it either. It brought me where I am today.\"",
 		"is_unique": true,
 		"name": "Jefferson Davis",
 		"octgn_id": "519e2dca-2b80-46ed-b860-30bd9688282f",
@@ -534,6 +550,7 @@
 		"resource_physical": 1,
 		"set_code": "spider_man_morales",
 		"set_position": 11,
+		"text": "<b>Alter-Ego Action</b>: Exhaust Jefferson Davis → remove 1 threat from the scheme with the least threat.",
 		"traits": "Persona. S.H.I.E.L.D.",
 		"type_code": "support"
 	},
@@ -550,6 +567,7 @@
 		"resource_energy": 1,
 		"set_code": "spider_man_morales",
 		"set_position": 12,
+		"text": "<b>Hero Response</b>: After your hero uses a basic power, discard Power Within → resolve Spider-Man's <i>\"Venom Blast\"</i> ability.",
 		"traits": "Superpower.",
 		"type_code": "upgrade"
 	},
@@ -566,6 +584,7 @@
 		"resource_mental": 1,
 		"set_code": "spider_man_morales",
 		"set_position": 13,
+		"text": "<b>Hero Response</b>: After your hero uses a basic power, discard Defense Mechanism → resolve Spider-Man's <i>\"Spider Camouflage\"</i> ability.",
 		"traits": "Superpower.",
 		"type_code": "upgrade"
 	},
@@ -582,6 +601,7 @@
 		"resource_physical": 1,
 		"set_code": "spider_man_morales",
 		"set_position": 14,
+		"text": "Uses (3 web counters). <i>(Enters play with 3 counters. When those are gone, discard this card)</i>\n<b>Hero Resource</b>: Exhaust Web-Shooter and remove 1 web counter from it → generate a [wild] resource.",
 		"traits": "Item. Tech.",
 		"type_code": "upgrade"
 	},
