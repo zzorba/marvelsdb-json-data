@@ -445,9 +445,9 @@
 		"position": 87,
 		"quantity": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "While a [[Black Order]] minion is in play, threat cannot be removed from this side scheme.",		
 		"set_code": "black_order",
 		"set_position": 3,
-		"scheme_text": "While a [[Black Order]] minion is in play, threat cannot be removed from this side scheme.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -466,6 +466,7 @@
 	},
 	{
 		"attack": 2,
+		"boost_text": "Give the villain a tough status",
 		"code": "21089",
 		"faction_code": "encounter",
 		"health": 4,
@@ -477,12 +478,13 @@
 		"scheme": 1,
 		"set_code": "armies_of_titan",
 		"set_position": 1,
-		"text": "Guard.\n<b>When Defeated:</b> Give the villain a tough status card.","boost_text": "[star]<b>Boost:</b> Give the villain a tough status",
+		"text": "Guard.\n<b>When Defeated:</b> Give the villain a tough status card.",
 		"traits": "Black Order.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
+		"boost_text": "Discard 1 card at random from your hand.",
 		"code": "21090",
 		"faction_code": "encounter",
 		"health": 2,
@@ -494,7 +496,7 @@
 		"scheme": 1,
 		"set_code": "armies_of_titan",
 		"set_position": 3,
-		"text": "<b>When Revealed:</b> Discard 1 card at random from your hand.","boost_text": "[star]<b>Boost:</b> Discard 1 card at random from your hand.",
+		"text": "<b>When Revealed:</b> Discard 1 card at random from your hand.",
 		"traits": "Black Order.",
 		"type_code": "minion"
 	},
@@ -509,9 +511,9 @@
 		"position": 91,
 		"quantity": 2,
 		"scheme_acceleration": 1,
+		"scheme_text": "<b>When Defeated:</b> Discard cards from the top of the encounter deck until a minion is discarded. Put that minion into play engaged with the player who defeated this scheme.",
 		"set_code": "armies_of_titan",
 		"set_position": 5,
-		"scheme_text": "<b>When Defeated:</b> Discard cards from the top of the encounter deck until a minion is discarded. Put that minion into play engaged with the player who defeated this scheme.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -636,7 +638,7 @@
 	},
 	{
 		"back_name": "Under Siege",
-		"back_text": "",
+		"back_text": "<b>Contents:</b> Proxima Midnight I and II <i>(stages (II) and (III) instead for expert mode)</i>. Corvus Glaive I and II <i>(stages (II) and (III) instead for expert mode)</i>. Tower Defense and Standard sets. One modular encounter set <i>(Armies of Titan)</i>.\n<b>Setup:</b> Reveal stage 2A and put it into play next to this stage so there are two main schemes and two villains in play.",
 		"base_threat": 1,
 		"code": "21098",
 		"double_sided": true,
@@ -650,14 +652,13 @@
 		"set_code": "tower_defense",
 		"set_position": 7,
 		"stage": 1,
-		"back_text": "<b>Contents:</b> Proxima Midnight I and II <i>(stages (II) and (III) instead for expert mode)</i>. Corvus Glaive I and II <i>(stages (II) and (III) instead for expert mode)</i>. Tower Defense and Standard sets. One modular encounter set <i>(Armies of Titan)</i>.\n<b>Setup:</b> Reveal stage 2A and put it into play next to this stage so there are two main schemes and two villains in play.",
 		"text": "<b><i>Proxima Midnight's Scheme.</i></b>\n<b>Forced Interrupt:</b> When this stage would be completed, remove all the threat from this stage instead. Then, deal 6[per_player] damage to Avengers Tower.",
 		"threat": 6,
 		"type_code": "main_scheme"
 	},
 	{
 		"back_name": "The Armies of Thanos",
-		"back_text": "",
+		"back_text": "<b>When Revealed:</b> Put the Avengers Tower environment into play, [[stronghold]] side faceup. Put the Focused Defense attachment into play attached to this stage. Each player searches the encounter deck for a copy of Black Order Besieger and puts it into play engaged with them. Shuffle the encounter deck.",
 		"base_threat": 1,
 		"code": "21099",
 		"double_sided": true,
@@ -671,14 +672,13 @@
 		"set_code": "tower_defense",
 		"set_position": 8,
 		"stage": 1,
-		"back_text": "<b>When Revealed:</b> Put the Avengers Tower environment into play, [[stronghold]] side faceup. Put the Focused Defense attachment into play attached to this stage. Each player searches the encounter deck for a copy of Black Order Besieger and puts it into play engaged with them. Shuffle the encounter deck.",
 		"text": "<b><i>Corvus Glaive's Scheme.</i></b>\n<b>Forced Interrupt:</b> When this stage would be completed, remove all the threat from this stage instead. Then, deal each player 1 facedown encounter card.",
 		"threat": 6,
 		"type_code": "main_scheme"
 	},
 	{
 		"back_name": "Avengers Tower",
-		"back_text": "",
+		"back_text": "The unique rule does not apply to Avengers Tower.\n<b>Forced Response:</b> After damage is placed here, if there is at least 9[per_player] damage here, remove all of it. Then flip Avenger's Tower over.",
 		"back_traits": "Stronghold.",
 		"code": "21100",
 		"double_sided": true,
@@ -690,7 +690,6 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 9,
-		"back_text": "The unique rule does not apply to Avengers Tower.\n<b>Forced Response:</b> After damage is placed here, if there is at least 9[per_player] damage here, remove all of it. Then flip Avenger's Tower over.",
 		"text": "<b>When Revealed:</b> Discard each other Avengers Tower from play.\n<b> Forced Response:</b> After damage is placed here, if there is at least 9[per player] damage here, the players lose the game.",
 		"traits": "Damaged.",
 		"type_code": "environment"
@@ -774,6 +773,7 @@
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "Add the other villain's SCH and ATK to this villain's SCH and ATK for this activation",
 		"code": "21106",
 		"faction_code": "encounter",
 		"name": "Proxima's Power",
@@ -783,10 +783,11 @@
 		"quantity": 2,
 		"set_code": "tower_defense",
 		"set_position": 19,
-		"text": "<b> When Revealed: </b> Proxima Midnight activates against you.","boost_text": "[star] <b> Boost: </b> Add the other villain's SCH and ATK to this villain's SCH and ATK for this activation",
+		"text": "<b> When Revealed: </b> Proxima Midnight activates against you.",
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "Add the other villain's SCH and ATK to this villain's SCH and ATK for this activation",
 		"code": "21107",
 		"faction_code": "encounter",
 		"name": "Corvus's Cunning",
@@ -796,10 +797,11 @@
 		"quantity": 2,
 		"set_code": "tower_defense",
 		"set_position": 21,
-		"text": "<b> When Revealed: </b> Corvus Glaive activates against you.","boost_text": "[star] <b> Boost: </b> Add the other villain's SCH and ATK to this villain's SCH and ATK for this activation",
+		"text": "<b> When Revealed: </b> Corvus Glaive activates against you.",
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "Heal 2 damage from the active villain and give it a tough status card",
 		"code": "21108",
 		"faction_code": "encounter",
 		"name": "Bound by Blood",
@@ -809,7 +811,7 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 23,
-		"text": "<b> When Revealed: </b> Heal 2 damage from each villain. Give each villain a tough status card.","boost_text": "[star] <b> Boost: </b> Heal 2 damage from the active villain and give it a tough status card",
+		"text": "<b> When Revealed: </b> Heal 2 damage from each villain. Give each villain a tough status card.",
 		"type_code": "treachery"
 	},
 	{
@@ -838,9 +840,9 @@
 		"position": 110,
 		"quantity": 2,
 		"scheme_crisis": 1,
+		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> The player who defeated this cheme draws 1 card.",
 		"set_code": "tower_defense",
 		"set_position": 26,
-		"text": "Hinder 1[per_player]","scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> The player who defeated this cheme draws 1 card.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -905,7 +907,7 @@
 	},
 	{
 		"back_name": "The Infinity Stones",
-		"back_text": "",
+		"back_text": "<b> When Revealed: </b> Put the top card of the [[infinity stone]] deck into play. Search the encounter deck for Sanctuary side scheme and reveal it. (Shuggle the encounter deck.)",
 		"base_threat": 0,
 		"code": "21114",
 		"double_sided": true,
@@ -916,17 +918,16 @@
 		"pack_code": "mts",
 		"position": 114,
 		"quantity": 1,
+		"scheme_text": "<b> Contents: </b> Thanos I and Thanos II (Thanos II and Thanos III for expert mode). Thanos, Infinity Gaultlet and Standard sets. Two modular sets (Black Order and Children of Thanos). See rules insert for The Infinity Gauntlet rules.",
 		"set_code": "thanos",
 		"set_position": 4,
 		"stage": 1,
-		"scheme_text": "<b> Contents: </b> Thanos I and Thanos II (Thanos II and Thanos III for expert mode). Thanos, Infinity Gaultlet and Standard sets. Two modular sets (Black Order and Children of Thanos). See rules insert for The Infinity Gauntlet rules.",
-		"back_text": "<b> When Revealed: </b> Put the top card of the [[infinity stone]] deck into play. Search the encounter deck for Sanctuary side scheme and reveal it. (Shuggle the encounter deck.)",
 		"threat": 12,
 		"type_code": "main_scheme"
 	},
 	{
 		"back_name": "Balance the Scales",
-		"back_text": "",
+		"back_text": "<b> If this stage is completed, the players lose the game. </b>",
 		"base_threat": 0,
 		"code": "21115",
 		"double_sided": true,
@@ -937,11 +938,10 @@
 		"pack_code": "mts",
 		"position": 115,
 		"quantity": 1,
+		"scheme_text": "<b> When Revealed: </b> Each player shuffles their discard pile into their deck. Each player removes the top half of their deck (rounded down) from the game.",
 		"set_code": "thanos",
 		"set_position": 5,
 		"stage": 2,
-		"scheme_text": "<b> When Revealed: </b> Each player shuffles their discard pile into their deck. Each player removes the top half of their deck (rounded down) from the game.",
-		"back_text": "<b> If this stage is completed, the players lose the game. </b>",
 		"threat": 12,
 		"type_code": "main_scheme"
 	},
@@ -956,9 +956,9 @@
 		"pack_code": "mts",
 		"position": 116,
 		"quantity": 1,
+		"scheme_text": "Hinder 1[per_player]. Victory 1. \n Thanos cannot take damage. <b> When Defeated: </b> Each player may spend up to 3 [physical] resources from their hand. Deal 2 damage to Thanos for each [physical] resources spent this way. This damage ignores the tough status card.",
 		"set_code": "thanos",
 		"set_position": 6,
-		"scheme_text": "Hinder 1[per_player]. Victory 1. \n Thanos cannot take damage. <b> When Defeated: </b> Each player may spend up to 3 [physical] resources from their hand. Deal 2 damage to Thanos for each [physical] resources spent this way. This damage ignores the tough status card.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1036,6 +1036,7 @@
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "Discard the top card of the [[infinity stone]] deck. Apply its boos icons [boost] for this activation as if it were a boost card.",
 		"code": "21122",
 		"faction_code": "encounter",
 		"name": "\"I Am Inevitable\"",
@@ -1045,7 +1046,7 @@
 		"quantity": 2,
 		"set_code": "thanos",
 		"set_position": 15,
-		"text": "<b> When Revealed: </b> Give Thanos 1 facedown boost card.","boost_text": "[star] <b>Boost</b> Discard the top card of the [[infinity stone]] deck. Apply its boos icons [boost] for this activation as if it were a boost card.",
+		"text": "<b> When Revealed: </b> Give Thanos 1 facedown boost card.",
 		"type_code": "treachery"
 	},
 	{
@@ -1063,6 +1064,7 @@
 	{
 		"base_threat": 2,
 		"boost": 2,
+		"boost_text": "If damage from this attack defeats an ally, put the top card of the [[infinity stone]] deck into play.",
 		"code": "21124",
 		"faction_code": "encounter",
 		"name": "The Titan's Throne",
@@ -1074,8 +1076,7 @@
 		"scheme_boost": 1,
 		"set_code": "thanos",
 		"set_position": 19,
-		"text": "<b> When Revealed: </b> Put hte top card of the [[infinity stone]] deck into play.",
-		"boost_text": "[star] <b>Boost</b> If damage from this attack defeats an ally, put the top card of the [[infinity stone]] deck into play.",
+		"text": "<b> When Revealed: </b> Put the top card of the [[infinity stone]] deck into play.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1098,6 +1099,7 @@
 	},
 	{
 		"attack": 3,
+		"boost_text": "Discard an ally or upgrade you control.",
 		"code": "21126",
 		"faction_code": "encounter",
 		"health": 5,
@@ -1111,13 +1113,13 @@
 		"set_code": "children_of_thanos",
 		"set_position": 2,
 		"text": "[star] Proxima Midnight's attacks gain piercing.",
-		"boost_text": "[star]<b>Boost:</b> Discard an ally or upgrade you control.",
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
 		"boost": 1,
+		"boost_text": "Give this enemy 1 additional boost card",
 		"code": "21127",
 		"faction_code": "encounter",
 		"health": 6,
@@ -1131,7 +1133,6 @@
 		"set_code": "children_of_thanos",
 		"set_position": 3,
 		"text": "Villainous (When this minion activates, give it a boost card.)",
-		"boost_text": "[star]<b>Boost:</b> Give this enemy 1 additional boost card",
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
 	},
@@ -1351,10 +1352,10 @@
 		"pack_code": "mts",
 		"position": 138,
 		"quantity": 1,
+		"scheme_text": "<b> Contents: </b> Villain deck Hela A (Hela Be instead for expert mode). Hela and standard sets. Two modular encounter sets (Legions of Hel and Frost Giants). \n <b> Setup: </b> Attach Odin to the main scheme, [[captive]] side faceup. Reveal Gnipahellir and Garm. Set Gjallerbru, Skurge, Hall of Nastrond, and Nidhogg aside, out of play. Shuffle the encounter deck.",
 		"set_code": "hela",
 		"set_position": 3,
 		"stage": 1,
-		"scheme_text": "<b> Contents: </b> Villain deck Hela A (Hela Be instead for expert mode). Hela and standard sets. Two modular encounter sets (Legions of Hel and Frost Giants). \n <b> Setup: </b> Attach Odin to the main scheme, [[captive]] side faceup. Reveal Gnipahellir and Garm. Set Gjallerbru, Skurge, Hall of Nastrond, and Nidhogg aside, out of play. Shuffle the encounter deck.",
 		"threat": 18,
 		"type_code": "main_scheme"
 	},
@@ -1410,10 +1411,10 @@
 		"position": 140,
 		"quantity": 1,
 		"scheme_acceleration": 1,
+		"scheme_text": "Hinder 1[per_player]. Victory 2. \n <b> When Defeated: </b> The first player reveals Gjallerbru and Skurg, and puts them into play. Deal each other player 1 facedown encounter card.",
 		"set_code": "hela",
 		"set_position": 5,
 		"text": "Hinder 1[per_player]",
-		"scheme_text": "Hinder 1[per_player]. Victory 2. \n <b> When Defeated: </b> The first player reveals Gjallerbru and Skurg, and puts them into play. Deal each other player 1 facedown encounter card.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1428,10 +1429,9 @@
 		"position": 141,
 		"quantity": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "Hinder 1[per_player]. Victory 4. \n <b> When Defeated: </b> The first player detaches Odin from the main scheme and takes control of him. Deal each player 1 facedown encounter card.",
 		"set_code": "hela",
 		"set_position": 6,
-		"text": "Hinder 1[per_player]",
-		"scheme_text": "Hinder 1[per_player]. Victory 4. \n <b> When Defeated: </b> The first player detaches Odin from the main scheme and takes control of him. Deal each player 1 facedown encounter card.",
 		"text": "Hinder 1[per_player]",
 		"type_code": "side_scheme"
 	},
@@ -1448,10 +1448,9 @@
 		"quantity": 1,
 		"scheme_amplify": 1,
 		"scheme_boost": 1,
+		"scheme_text": "Hinder 1[per_player]. Victory 3. \n <b> When Defeated: </b> The first player reveals Hall of Nastrond and Nidhogg, and puts them into play. Deal each other player 1 facedown encounter card.",
 		"set_code": "hela",
 		"set_position": 7,
-		"text": "Hinder 1[per_player]",
-		"scheme_text": "Hinder 1[per_player]. Victory 3. \n <b> When Defeated: </b> The first player reveals Hall of Nastrond and Nidhogg, and puts them into play. Deal each other player 1 facedown encounter card.",
 		"text": "Hinder 1[per_player]",
 		"type_code": "side_scheme"
 	},
@@ -1477,6 +1476,7 @@
 	},
 	{
 		"attack": 3,
+		"attack_text": "Skurge's attacks gain piercing.",
 		"boost": 3,
 		"code": "21144",
 		"faction_code": "encounter",
@@ -1491,12 +1491,13 @@
 		"scheme": 1,
 		"set_code": "hela",
 		"set_position": 9,
-		"text": "Toughness. Victory 3. \n Skurge engages the first player. \n <b> Threat cannot be removed from Gjallerbru. </b>","attack_text": "Skurge's attacks gain piercing.",
+		"text": "Toughness. Victory 3. \n Skurge engages the first player. \n <b> Threat cannot be removed from Gjallerbru. </b>",
 		"traits": "Asgard. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 4,
+		"attack_text": "Nidhogg's attacks gain overkill.",
 		"boost": 4,
 		"code": "21145",
 		"faction_code": "encounter",
@@ -1512,11 +1513,11 @@
 		"set_code": "hela",
 		"set_position": 10,
 		"text": "Toughness. Victory 4. \n Nidhogg engages the first player. \n <b> Threat cannot be removed from Hall of Nastrond. </b>",
-		"attack_text": "Nidhogg's attacks gain overkill.",
 		"traits": "Creature. Elite.",
 		"type_code": "minion"
 	},
 	{
+		"boost_text": "Attach Nightsword to Hela.",
 		"code": "21146",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1528,11 +1529,11 @@
 		"set_code": "hela",
 		"set_position": 11,
 		"text": "Attach to Hela. /n [star] Hela's attacks gain piercing.",
-		"boost_text": "[star]<b>Boost:</b> Attach Nightsword to Hela.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "Attach Hela's Crown to Hela.",
 		"code": "21147",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1544,11 +1545,11 @@
 		"set_code": "hela",
 		"set_position": 12,
 		"text": "Attach to Hela. \n [star]<b> Forced Response: <b> After Hela schemes, give her a facedown boost card.",
-		"boost_text": "[star]<b>Boost:</b> Attach Hela's Crown to Hela.",
 		"traits": "Item.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "[star]<b>Boost:</b> Attach Hela's Cloack to Hela.",
 		"code": "21148",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1559,12 +1560,13 @@
 		"quantity": 1,
 		"set_code": "hela",
 		"set_position": 13,
-		"text": "Attach to Hela. /n Hela gains stalwart.","boost_text": "[star]<b>Boost:</b> Attach Hela's Cloack to Hela.",
+		"text": "Attach to Hela. /n Hela gains stalwart.",
 		"traits": "Armor.",
 		"type_code": "attachment"
 	},
 	{
 		"boost": 1,
+		"boost_text": "[star]<b>Boost:</b> If damage from this attach defeats an ally, place 2 threat on the main scheme.",
 		"code": "21149",
 		"faction_code": "encounter",
 		"name": "Hela's Domain",
@@ -1575,7 +1577,6 @@
 		"set_code": "hela",
 		"set_position": 14,
 		"text": "<b> When Revealed: </b> Place 1 threat on the main scheme. Place 1 additional threat on the main scheme for each side scheme in the victory display.",
-		"boost_text": "[star]<b>Boost:</b> If damage from this attach defeats an ally, place 2 threat on the main scheme.",
 		"type_code": "treachery"
 	},
 	{
@@ -1664,9 +1665,9 @@
 		"position": 155,
 		"quantity": 2,
 		"scheme_crisis": 1,
+		"scheme_text": "<b> When Revealed: </b> Place 2 additional threat here for each [[undead]] minion in play. If there are no [[undead]] minions in play, this card gains surge.",
 		"set_code": "legions_of_hel",
 		"set_position": 6,
-		"scheme_text": "<b> When Revealed: </b> Place 2 additional threat here for each [[undead]] minion in play. If there are no [[undead]] minions in play, this card gains surge.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1691,6 +1692,7 @@
 	{
 		"attack": 3,
 		"boost": 1,
+		"boost_text": "If the villain is attacking and this attack deals damage to a character, stun that character.",
 		"code": "21157",
 		"faction_code": "encounter",
 		"health": 4,
@@ -1703,7 +1705,6 @@
 		"set_code": "frost_giants",
 		"set_position": 2,
 		"text": "Toughness. (This character enters play with a tough status card.)",
-		"boost_text": "[star]<b>Boost:</b> If the villain is attacking and this attack deals damage to a character, stun that character.",
 		"traits": "Giant.",
 		"type_code": "minion"
 	},
@@ -1732,9 +1733,9 @@
 		"pack_code": "mts",
 		"position": 159,
 		"quantity": 1,
+		"scheme_text": "Heroes and allies cannot be readied by player card effects. \n<b> When Revealed:</b> Exhaust each ally in play.",
 		"set_code": "frost_giants",
 		"set_position": 6,
-		"scheme_text": "Heroes and allies cannot be readied by player card effects. \n<b> When Revealed:</b> Exhaust each ally in play.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1840,7 +1841,7 @@
 	},
 	{
 		"back_name": "All Hail King Loki",
-		"back_text": "",
+		"back_text": "<b> Forced Interrupt: </b> When Loki is defeated, advance to a random set-aside Loki villain. <b> If the number of Lokis in the victory display is equal to the victory condition, the players win the game. (See rule insert.) If this tage is completed, the players loose the game. </b>",
 		"base_threat": 1,
 		"code": "21165",
 		"double_sided": true,
@@ -1851,11 +1852,10 @@
 		"pack_code": "mts",
 		"position": 165,
 		"quantity": 1,
+		"scheme_text": "<b> Contents: <b> Loki, infinity Gauntlet, and standard encounter sets. Two modular encounter sets. (Enchantress and Frost Giants). \n <b> Setup: </b> Set each copy of the Loki villain aside, out of play. Put the War in asgard side scheme into play. Shuffle the encounter deck. Reveal 1 set-aside Loki villain at random. Reveal the top card of the [[infinity stone]] deck.",
 		"set_code": "loki",
 		"set_position": 6,
 		"stage": 1,
-		"scheme_text": "<b> Contents: <b> Loki, infinity Gauntlet, and standard encounter sets. Two modular encounter sets. (Enchantress and Frost Giants). \n <b> Setup: </b> Set each copy of the Loki villain aside, out of play. Put the War in asgard side scheme into play. Shuffle the encounter deck. Reveal 1 set-aside Loki villain at random. Reveal the top card of the [[infinity stone]] deck.",
-		"back_text": "<b> Forced Interrupt: </b> When Loki is defeated, advance to a random set-aside Loki villain. <b> If the number of Lokis in the victory display is equal to the victory condition, the players win the game. (See rule insert.) If this tage is completed, the players loose the game. </b>",
 		"threat": 12,
 		"type_code": "main_scheme"
 	},
@@ -1871,10 +1871,10 @@
 		"position": 166,
 		"quantity": 1,
 		"scheme_amplify": 1,
+		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"set_code": "loki",
 		"set_position": 7,
 		"text": "Hinder 1[per_player]",
-		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"text": "Hinder 1[per_player]",
 		"type_code": "side_scheme"
 	},
@@ -1894,7 +1894,6 @@
 		"set_code": "loki",
 		"set_position": 8,
 		"text": "Hinder 1[per_player]","scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
-		"text": "Hinder 1[per_player]",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1909,10 +1908,9 @@
 		"position": 168,
 		"quantity": 1,
 		"scheme_crisis": 1,
+		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"set_code": "loki",
 		"set_position": 9,
-		"text": "Hinder 1[per_player]",
-		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"text": "Hinder 1[per_player]",
 		"type_code": "side_scheme"
 	},
@@ -1928,12 +1926,13 @@
 		"position": 169,
 		"quantity": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"set_code": "loki",
 		"set_position": 10,
-		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"type_code": "side_scheme"
 	},
 	{
+		"boost_text": "Attach this card to Loki.",
 		"code": "21170",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1945,11 +1944,11 @@
 		"set_code": "loki",
 		"set_position": 11,
 		"text": "Attach to Loki. \n <b> Hero Response: </b> After you make a baisc attack against Loki, spend [energy] [physical] resources → discard this card.",
-		"boost_text": "[star] <b> Boost: </b> Attach this card to Loki.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "Attach this card to Loki.",
 		"code": "21171",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1961,7 +1960,6 @@
 		"set_code": "loki",
 		"set_position": 12,
 		"text": "Attach to Loki. \n <b> Hero Response: </b> After you make a baisc attack against Loki, spend [mental] [physical] resources → discard this card.",
-		"boost_text": "[star] <b> Boost: </b> Attach this card to Loki.",
 		"traits": "Item.",
 		"type_code": "attachment"
 	},
@@ -2011,6 +2009,7 @@
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "Discard the top card of the [[infinity stone]] deck. Apply it's boost icons [boost] for this activation as if it were a boost card.",
 		"code": "21175",
 		"faction_code": "encounter",
 		"name": "Infinite Mischief",
@@ -2021,10 +2020,10 @@
 		"set_code": "loki",
 		"set_position": 17,
 		"text": "<b> When Revealed: </b> Shuffle the [[infinity stone]] deck discard pile into the [[infinity stone]] deck and reveal the top card.",
-		"boost_text": "[star] <b> Boost: </b> Discard the top card of the [[infinity stone]] deck. Apply it's boost icons [boost] for this activation as if it were a boost card.",
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "Give Loki an additional boost card and a tough status card.",
 		"code": "21176",
 		"faction_code": "encounter",
 		"name": "The Trickster",
@@ -2035,7 +2034,6 @@
 		"set_code": "loki",
 		"set_position": 19,
 		"text": "<b> When Revealed: </b> Swap Loki with a random set-aside Loki villain. Loki activates agains you.",
-		"boost_text": "[star]<b>Boost:</b> Give Loki an additional boost card and a tough status card.",
 		"type_code": "treachery"
 	},
 	{
