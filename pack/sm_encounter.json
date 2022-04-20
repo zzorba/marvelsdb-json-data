@@ -1313,12 +1313,14 @@
 		"position": 127,
 		"quantity": 1,
 		"scheme_acceleration": 1,
+		"scheme_text": "Treat the printed text box of each [[location]] support and each [[persona]] support as if it were blank (except for [[traits]])",
 		"set_code": "city_in_chaos",
 		"set_position": 1,
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 3,
+		"attack_text": "Rhino's attack gain overkill and piercing",
 		"boost": 3,
 		"code": "27128",
 		"faction_code": "encounter",
@@ -1332,6 +1334,7 @@
 		"scheme": 0,
 		"set_code": "city_in_chaos",
 		"set_position": 2,
+		"text": "Steady. (Steady characters require 2 status cards of the same type to be stunned or confused.)",
 		"traits": "Criminal. Elite.",
 		"type_code": "minion"
 	},
@@ -1346,6 +1349,7 @@
 		"quantity": 1,
 		"set_code": "city_in_chaos",
 		"set_position": 3,
+		"text": "<b> When Revealed: </b> Rhino schemes with +2 SCH. If Rhino is not in play, search the encounter deck and discard pile for the Rhino minion and put him into play engaged with you. (shuffle.)",
 		"type_code": "treachery"
 	},
 	{
@@ -1359,6 +1363,7 @@
 		"quantity": 2,
 		"set_code": "city_in_chaos",
 		"set_position": 4,
+		"text": "Peril. (While you are resolving this card, other players cannot help you.) \n <b> When Reveald: </b> Choose: \n Place 1 acceleration token on the main scheme. \n Exhause a character you control and spend 1 resource of any type",
 		"type_code": "treachery"
 	},
 	{
@@ -1375,6 +1380,7 @@
 		"scheme": 0,
 		"set_code": "down_to_earth",
 		"set_position": 1,
+		"text": "Surge. \n <b> Alter-ego Action: </b> Spend a [physical] resource → deal 3 damage to Common Criminal. If this minion is defeated this way, choose to either draw 1 card or remove 3 threat from a side scheme.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
@@ -1389,6 +1395,7 @@
 		"quantity": 1,
 		"set_code": "down_to_earth",
 		"set_position": 4,
+		"text": "While in hero form, increase the resource cost of each event you play by 1. \n <b> Alter-Ego Action: </b> Discard 1 identity specific card from your hand → discard this obligation.",
 		"type_code": "obligation"
 	},
 	{
@@ -1402,6 +1409,7 @@
 		"position": 133,
 		"quantity": 1,
 		"scheme_acceleration": 1,
+		"scheme_text": "You cannot thwart this scheme. \n <b> Alter-Ego Action: </b> Spend 2 resources of any type → remove threat from this scheme equal to your alter-ego's REC. If your identity has the [[civilian]] trait, draw 1 card.",
 		"set_code": "down_to_earth",
 		"set_position": 5,
 		"type_code": "side_scheme"
@@ -1416,6 +1424,7 @@
 		"quantity": 1,
 		"set_code": "down_to_earth",
 		"set_position": 6,
+		"text": "<b> When Revealed: </b> You may change form. If you are in hero form, place 2 threat on the main scheme. If you are alter-ego form, you cannot change form during your next turn.",
 		"type_code": "treachery"
 	},
 	{
@@ -1428,6 +1437,7 @@
 		"quantity": 1,
 		"set_code": "down_to_earth",
 		"set_position": 7,
+		"text": "<b> When Revealed: </b> Search the encounter deck, discard pile, set-aside area, and removed-from-game area for a copy of your obligation, then reveal it. During that reveal, if you change to alter-ego form, discard 1 random card from your hand. If your obligation was not revealed this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
@@ -1441,6 +1451,7 @@
 		"quantity": 1,
 		"set_code": "goblin_gear",
 		"set_position": 1,
+		"text": "Attach to the villain. \n <b> Forced Response: </b> After attached villain activates against you, it activates against you again. (Limit once per rounder per player). \n <b> Hero Action: </b> Discard any number of [[attack]] cards from your hand with a combined resource cost of 3 or more → discard this card.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
@@ -1455,6 +1466,7 @@
 		"quantity": 1,
 		"set_code": "goblin_gear",
 		"set_position": 2,
+		"text": "Attach to the villain. \n Uses (2 bomb counters.) \n [star] <b>Foced Response: </b> After the villain attacks you, remove 1 bomb counter from here → exhauset 1 upgrade and 1 support you control.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -1469,6 +1481,7 @@
 		"quantity": 1,
 		"set_code": "goblin_gear",
 		"set_position": 3,
+		"text": "Attach to the villain. \n Uses (2 bomb counters.) \n [star] <b>Foced Response: </b> After the villain attacks you, remove 1 bomb counter from here → take 2 indirect damage.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -1483,6 +1496,7 @@
 		"quantity": 1,
 		"set_code": "goblin_gear",
 		"set_position": 4,
+		"text": "Attach to the villain. \n Uses (2 bomb counters.) \n [star] <b>Foced Response: </b> After the villain attacks you, remove 1 bomb counter from here → discard 1 event from your hand with the lowest cost.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -1497,12 +1511,14 @@
 		"position": 140,
 		"quantity": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "Each [[Tech]] attachment gains surge.",
 		"set_code": "goblin_gear",
 		"set_position": 5,
 		"type_code": "side_scheme"
 	},
 	{
 		"boost": 0,
+		"boost_text": "Give the villain 2 additional boost cards for this activation.",
 		"code": "27141",
 		"faction_code": "encounter",
 		"name": "Remote Navigation",
@@ -1512,11 +1528,13 @@
 		"quantity": 1,
 		"set_code": "goblin_gear",
 		"set_position": 6,
+		"text": "<b> When Revealed: </b> If Advaned Glider is in play, the villain activates against you. If it is not in play, search the encounter deck and discard pile for Advance Glider and reveal it.",
 		"type_code": "treachery"
 	},
 	{
 		"attack": 0,
 		"boost": 0,
+		"boost_text": "Put this minion into play engaged with you.",
 		"code": "27142",
 		"faction_code": "encounter",
 		"health": 5,
@@ -1528,11 +1546,13 @@
 		"scheme": 0,
 		"set_code": "guerrilla_tactics",
 		"set_position": 1,
+		"text": "In expert mode, Life-size Decoy gains toughness. \n The engaged player cannot thwart side schemes",
 		"type_code": "minion"
 	},
 	{
 		"base_threat_fixed": 6,
 		"boost": 1,
+		"boost_text": "Place 1 threat on each scheme. (In expert mode, place 1 additional threat on the main scheme.)",
 		"code": "27143",
 		"faction_code": "encounter",
 		"name": "Coordinated Effort",
@@ -1540,6 +1560,7 @@
 		"pack_code": "sm",
 		"position": 143,
 		"quantity": 1,
+		"scheme_text": "Each enemy gains 1 acceleration icon.",
 		"set_code": "guerrilla_tactics",
 		"set_position": 3,
 		"type_code": "side_scheme"
@@ -1547,6 +1568,7 @@
 	{
 		"base_threat_fixed": 4,
 		"boost": 1,
+		"boost_text": "Deal 1 idirect damage to each player. (In expert mode, deal 1 addition indirect damage to the first player.)",
 		"code": "27144",
 		"faction_code": "encounter",
 		"name": "Hidden in Shadow",
@@ -1554,6 +1576,7 @@
 		"pack_code": "sm",
 		"position": 144,
 		"quantity": 1,
+		"scheme_text": "Each enemy gains 1 hazard icon.",
 		"set_code": "guerrilla_tactics",
 		"set_position": 4,
 		"type_code": "side_scheme"
@@ -1561,6 +1584,7 @@
 	{
 		"base_threat_fixed": 5,
 		"boost": 1,
+		"boost_text": "In expert mode, this card gets +2 boost icons [boost][boost] for this activation.",
 		"code": "27145",
 		"faction_code": "encounter",
 		"name": "Teamwork Makes the Dream Work",
@@ -1568,6 +1592,7 @@
 		"pack_code": "sm",
 		"position": 145,
 		"quantity": 1,
+		"scheme_text": "Each enemy gets +1 SCH and +1 ATK.",
 		"set_code": "guerrilla_tactics",
 		"set_position": 5,
 		"type_code": "side_scheme"
@@ -1582,6 +1607,7 @@
 		"quantity": 2,
 		"set_code": "guerrilla_tactics",
 		"set_position": 6,
+		"text": "In expert mode, this card gains surge. \n <b> When Revealed: </b> Place 1 threat on the main scheme for each enemy in play.",
 		"type_code": "treachery"
 	},
 	{
@@ -1595,6 +1621,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 1,
+		"text": "Surge. \n Attach to the villain \n [star] Attached villain's attacks gain overkill and piercing.  <b> Hero Action: </b> Discard the highest cost upgrade you control → discard this card.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -1609,6 +1636,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 2,
+		"text": "Surge. \n Attach to the villain \n [star] <b> Forced Response: </b> After attached villain attacks and damages your identity, place 2 threat on the main scheme. \n <b> Hero Action: </b> Spend [energy] [mental][physical] resources → discard this card.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
@@ -1623,6 +1651,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 3,
+		"text": "Surge. \n Attach to the villain \n Attached villain gains realiate 1. \n <b> Hero Action: </b> Take 3 indirect damage → discard this card.",
 		"traits": "Armor. Tech.",
 		"type_code": "attachment"
 	},
@@ -1637,6 +1666,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 4,
+		"text": "Surge. \n Attach to the villain \n Reduce the amount of damage attached villain takes from each attack by 1  <b> Hero Action: </b> Give the villain a tough status card and 1 facedown boost card → discard this card.",
 		"traits": "Armor. Tech.",
 		"type_code": "attachment"
 	},
@@ -1651,6 +1681,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 5,
+		"text": "Surge. \n Attach to the villain. \n <b> Hero Action: </b> The villain attacks you. After that attack ends, if your identity took no damage from that attack, discard this card.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -1665,6 +1696,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 6,
+		"text": "Surge . \n Attach to the villain. \n [star] Each character cannot defend against attached villain's attack. \n <b> Hero Action: </b> Exhause a character you control and discard 1 random card from your hand → discard this card.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
