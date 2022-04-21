@@ -305,7 +305,7 @@
 	{
 		"code": "16161",
 		"name": "Take the Fight to Them",
-		"text": "Unit Cost 3.\n<b>Hero Action</b>: Look at the top 2[per_player] cards of the encounter deck. Discard any number of those, then place the rest on the top and/or bottom of the encounter deck in any order. Draw 1 card."
+		"text": "Unit Cost 3.\n<b>Hero Action</b>: Look at the top 2[per_hero] cards of the encounter deck. Discard any number of those, then place the rest on the top and/or bottom of the encounter deck in any order. Draw 1 card."
 	},
 	{
 		"code": "16162",
@@ -398,52 +398,52 @@
 	{
 		"code": "16178a",
 		"name": "Badoon Blitz",
-		"text": "<b>Standard Mode Only.</b>\nHinder 3[per_player]. <i>(When revealed, place 3[per_player] theat here.)</i>\nVictory 1. <i>(When defeated, add this card to the victory display.)</i>\n<b>When Defeated</b>: Each player may draw 1 card."
+		"text": "<b>Standard Mode Only.</b>\nHinder 3[per_hero]. <i>(When revealed, place 3[per_hero] theat here.)</i>\nVictory 1. <i>(When defeated, add this card to the victory display.)</i>\n<b>When Defeated</b>: Each player may draw 1 card."
 	},
 	{
 		"code": "16178b",
 		"name": "Badoon Blitz",
-		"text": "<b>Expert Mode Only.</b>\nHinder 4[per_player]. Victory 1.\n<b>When Defeated</b>: Each player must choose and discard 1 card from their hand."
+		"text": "<b>Expert Mode Only.</b>\nHinder 4[per_hero]. Victory 1.\n<b>When Defeated</b>: Each player must choose and discard 1 card from their hand."
 	},
 	{
 		"code": "16179a",
 		"name": "Gallery of Splendor",
-		"text": "<b>Standard Mode Only.</b>\nHinder 3[per_player]. Victory 1.\n<b>When Defeated</b>: Place the top card of each player's deck faceup into the Collection."
+		"text": "<b>Standard Mode Only.</b>\nHinder 3[per_hero]. Victory 1.\n<b>When Defeated</b>: Place the top card of each player's deck faceup into the Collection."
 	},
 	{
 		"code": "16179b",
 		"name": "Gallery of Splendor",
-		"text": "<b>Expert Mode Only.</b>\nHinder 4[per_player]. Victory 1.\n<b>When Defeated</b>: Each player must place 1 card at random from their hand faceup into The Collection."
+		"text": "<b>Expert Mode Only.</b>\nHinder 4[per_hero]. Victory 1.\n<b>When Defeated</b>: Each player must place 1 card at random from their hand faceup into The Collection."
 	},
 	{
 		"code": "16180a",
 		"name": "\"There is No Escape\"",
-		"text": "<b>Standard Mode Only.</b>\nHinder 3[per_player]. Victory 1.\n<b>When Defeated</b>: Deal 1 damage to each player."
+		"text": "<b>Standard Mode Only.</b>\nHinder 3[per_hero]. Victory 1.\n<b>When Defeated</b>: Deal 1 damage to each player."
 	},
 	{
 		"code": "16180b",
 		"name": "\"There is No Escape\"",
-		"text": "<b>Expert Mode Only.</b>\nHinder 4[per_player]. Victory 1.\n<b>When Defeated</b>: Deal 2 damage to each player."
+		"text": "<b>Expert Mode Only.</b>\nHinder 4[per_hero]. Victory 1.\n<b>When Defeated</b>: Deal 2 damage to each player."
 	},
 	{
 		"code": "16181a",
 		"name": "Guerrilla Tactics",
-		"text": "<b>Standard Mode Only.</b>\nHinder 3[per_player]. Victory 1.\n<b>When Defeated</b>: Place 2 evasion counters on Nebula's Ship."
+		"text": "<b>Standard Mode Only.</b>\nHinder 3[per_hero]. Victory 1.\n<b>When Defeated</b>: Place 2 evasion counters on Nebula's Ship."
 	},
 	{
 		"code": "16181b",
 		"name": "Guerrilla Tactics",
-		"text": "<b>Expert Mode Only.</b>\nHinder 4[per_player]. Victory 1.\n<b>When Defeated</b>: Place 3 evasion counters on Nebula's Ship."
+		"text": "<b>Expert Mode Only.</b>\nHinder 4[per_hero]. Victory 1.\n<b>When Defeated</b>: Place 3 evasion counters on Nebula's Ship."
 	},
 	{
 		"code": "16182a",
 		"name": "Kree Supremacy",
-		"text": "<b>Standard Mode Only.</b>\nHinder 3[per_player]. Victory 1."
+		"text": "<b>Standard Mode Only.</b>\nHinder 3[per_hero]. Victory 1."
 	},
 	{
 		"code": "16182b",
 		"name": "Kree Supremacy",
-		"text": "<b>Expert Mode Only.</b>\nHinder 4[per_player]. Victory 1."
+		"text": "<b>Expert Mode Only.</b>\nHinder 4[per_hero]. Victory 1."
 	},
 	{
 		"boost_text": "Put Badoon Headhunter into play engaged with you.",
@@ -473,6 +473,6 @@
 	{
 		"code": "16187",
 		"name": "Fugitive Recovery",
-		"text": "Surge.\nHinder 3[per_player]. <i>(When revealed, place 3[per_player] threat here.)</i>"
+		"text": "Surge.\nHinder 3[per_hero]. <i>(When revealed, place 3[per_hero] threat here.)</i>"
 	}
 ]

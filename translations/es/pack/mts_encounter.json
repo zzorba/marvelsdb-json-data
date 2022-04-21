@@ -233,7 +233,7 @@
 		"code": "21098",
 		"flavor": "Medianoche Próxima lidera a la Orden Negra en un ataque directo contra la Torre de los Vengadores.",
 		"name": "Bajo asedio",
-		"text": "<b><i>Plan de Medianoche Próxima.</i></b>\n<b>Interrupción obligada:</b> cuando vaya a completarse esta etapa, en vez de eso quita toda la Amenaza que haya sobre esta etapa. Luego inflige 6[per_player] de Daño a la Torre de los Vengadores."
+		"text": "<b><i>Plan de Medianoche Próxima.</i></b>\n<b>Interrupción obligada:</b> cuando vaya a completarse esta etapa, en vez de eso quita toda la Amenaza que haya sobre esta etapa. Luego inflige 6[per_hero] de Daño a la Torre de los Vengadores."
 	},
 	{
 		"back_name": "Los ejércitos de Thanos",
@@ -245,11 +245,11 @@
 	},
 	{
 		"back_name": "Torre de los Vengadores",
-		"back_text": "La regla de las cartas únicas no se aplica a la Torre de los Vengadores.\n<b>Respuesta obligada:</b> después de que se coloque Daño sobre esta carta, si hay al menos 9[per_player] de Daño sobre ella, quítalo todo. Luego dale la vuelta a la Torre de los Vengadores.",
+		"back_text": "La regla de las cartas únicas no se aplica a la Torre de los Vengadores.\n<b>Respuesta obligada:</b> después de que se coloque Daño sobre esta carta, si hay al menos 9[per_hero] de Daño sobre ella, quítalo todo. Luego dale la vuelta a la Torre de los Vengadores.",
 		"back_traits": "Fortaleza.",
 		"code": "21100",
 		"name": "Torre de los Vengadores",
-		"text": "<b>Cuando se muestre esta carta:</b> descarta del juego todas las demás cartas de Torre de los Vengadores.\n<b>Respuesta obligada:</b> después de que se coloque Daño sobre esta carta, si hay al menos 9[per_player] de Daño sobre ella, los jugadores pierden la partida.",
+		"text": "<b>Cuando se muestre esta carta:</b> descarta del juego todas las demás cartas de Torre de los Vengadores.\n<b>Respuesta obligada:</b> después de que se coloque Daño sobre esta carta, si hay al menos 9[per_hero] de Daño sobre ella, los jugadores pierden la partida.",
 		"traits": "Dañado."
 	},
 	{
@@ -312,7 +312,7 @@
 		"code": "21110",
 		"flavor": "\"Corvus ha ordenado a un regimiento de sus tropas que ataquen la ciudad de Nueva York para hacer salir a los Vengadores.\"",
 		"name": "Atacan la ciudad",
-		"text": "Complicación 1[per_player].\n<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan roba 1 carta."
+		"text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan roba 1 carta."
 	},
 	{
 		"code": "21111",
@@ -352,7 +352,7 @@
 	{
 		"code": "21116",
 		"name": "Sanctuary",
-		"text": "Complicación 1[per_player]. Victoria 1.\nThanos no puede sufrir Daño.\n<b>Cuando se derrote esta carta:</b> cada jugador puede gastar hasta 3 recursos [physical] de su mano. Inflige 2 de Daño a Thanos por cada recurso [physical] que se haya gastado de este modo. Este Daño ignora la carta de Estado \"Duro\"."
+		"text": "Complicación 1[per_hero]. Victoria 1.\nThanos no puede sufrir Daño.\n<b>Cuando se derrote esta carta:</b> cada jugador puede gastar hasta 3 recursos [physical] de su mano. Inflige 2 de Daño a Thanos por cada recurso [physical] que se haya gastado de este modo. Este Daño ignora la carta de Estado \"Duro\"."
 	},
 	{
 		"code": "21117",
@@ -486,7 +486,7 @@
 		"back_link": "21136b",
 		"code": "21136a",
 		"name": "Hela",
-		"text": "[star] Hela recibe +1 PLA, +1 ATQ y +2[per_player] de Vida por cada Plan secundario que haya en la zona de victoria.\n<b>Cuando Hela sea derrotada, si Odín no está vinculado al Plan principal, los jugadores ganan la partida.</b>",
+		"text": "[star] Hela recibe +1 PLA, +1 ATQ y +2[per_hero] de Vida por cada Plan secundario que haya en la zona de victoria.\n<b>Cuando Hela sea derrotada, si Odín no está vinculado al Plan principal, los jugadores ganan la partida.</b>",
 		"traits": "Asgard. Místico."
 	},
 	{
@@ -500,7 +500,7 @@
 		"back_link": "21137b",
 		"code": "21137a",
 		"name": "Hela",
-		"text": "[star] Hela recibe +1 PLA, +1 ATQ y +3[per_player] de Vida por cada Plan secundario que haya en la zona de victoria.\n<b>Cuando Hela sea derrotada, si Odín no está vinculado al Plan principal, los jugadores ganan la partida.</b>",
+		"text": "[star] Hela recibe +1 PLA, +1 ATQ y +3[per_hero] de Vida por cada Plan secundario que haya en la zona de victoria.\n<b>Cuando Hela sea derrotada, si Odín no está vinculado al Plan principal, los jugadores ganan la partida.</b>",
 		"traits": "Asgard. Místico."
 	},
 	{
@@ -536,17 +536,17 @@
 	{
 		"code": "21140",
 		"name": "Gnipahellir",
-		"text": "Complicación 1[per_player]. Victoria 2.\n<b>Cuando se derrote esta carta:</b> el jugador inicial muestra Gjallerbru y a Skurge, y los pone en juego. Dales a los demás jugadores 1 carta de Encuentro boca abajo a cada uno."
+		"text": "Complicación 1[per_hero]. Victoria 2.\n<b>Cuando se derrote esta carta:</b> el jugador inicial muestra Gjallerbru y a Skurge, y los pone en juego. Dales a los demás jugadores 1 carta de Encuentro boca abajo a cada uno."
 	},
 	{
 		"code": "21141",
 		"name": "Salón de Nastrond",
-		"text": "Complicación 1[per_player]. Victoria 4.\n<b>Cuando se derrote esta carta:</b> el jugador inicial desvincula a Odín del Plan principal y toma el control de su carta. Dale 1 carta de Encuentro boca abajo a cada uno."
+		"text": "Complicación 1[per_hero]. Victoria 4.\n<b>Cuando se derrote esta carta:</b> el jugador inicial desvincula a Odín del Plan principal y toma el control de su carta. Dale 1 carta de Encuentro boca abajo a cada uno."
 	},
 	{
 		"code": "21142",
 		"name": "Gjallerbru",
-		"text": "Complicación 1[per_player]. Victoria 3.\n<b>Cuando se derrote esta carta:</b> el jugador inicial muestra el Saón de Nastrond y a Nidhogg, y los pone en juego. Dales a los demás jugadores 1 carta de Encuentro boca abajo a cada uno."
+		"text": "Complicación 1[per_hero]. Victoria 3.\n<b>Cuando se derrote esta carta:</b> el jugador inicial muestra el Saón de Nastrond y a Nidhogg, y los pone en juego. Dales a los demás jugadores 1 carta de Encuentro boca abajo a cada uno."
 	},
 	{
 		"code": "21143",
@@ -702,25 +702,25 @@
 		"code": "21166",
 		"flavor": "\"Mientras saqueaba la armería de Odín, Loki ha encontrado el arma ancestral de los gigantes de hielo.\"",
 		"name": "Cofre de los Antiguos Inviernos",
-		"text": "Complicación 1[per_player],\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar)."
+		"text": "Complicación 1[per_hero],\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar)."
 	},
 	{
 		"code": "21167",
 		"flavor": "\"Los seguidores de Loki combaten a quienes aún se mantienen leales a Odín.\"",
 		"name": "Guerra en Asgard",
-		"text": "Complicación 1[per_player].\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar)."
+		"text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar)."
 	},
 	{
 		"code": "21168",
 		"flavor": "\"El dios de las mentiras siembra el caos en la Tierra por mera diversión.\"",
 		"name": "Locura en Midgard",
-		"text": "Complicación 1[per_player].\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar)."
+		"text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar)."
 	},
 	{
 		"code": "21169",
 		"flavor": "\"Loki utiliza el Bifrost para desplegar sus fuerzas a lo largo y ancho de los Nueve Reinos.\"",
 		"name": "Abrir el Bifrost",
-		"text": "Complicación 1[per_player].\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar)."
+		"text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar)."
 	},
 	{
 		"boost_text": "<b>Aumento:</b> vincula esta carta a Loki.",
