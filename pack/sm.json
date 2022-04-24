@@ -123,7 +123,7 @@
 		"resource_mental": 1,
 		"set_code": "ghost_spider",
 		"set_position": 10,
-		"text": "Requirement ([mental]). <i>While paying for this card, spend the listed resources.</i>\n<b>Hero Interrupt</b>: When an enemy would activate, cancel that activation. I a minion's activation was cancelled this way, deal 4 damage to that minion.",
+		"text": "Requirement ([mental]). <i>(While paying for this card, spend the listed resources.)</i>\n<b>Hero Interrupt</b>: When an enemy would activate, cancel that activation. If a minion's activation was cancelled this way, deal 4 damage to that minion.",
 		"traits": "Superpower.",
 		"type_code": "event"
 	},
@@ -229,6 +229,7 @@
 	},
 	{
 		"attack": 2,
+		"attack_cost": 2,
 		"code": "27012",
 		"cost": 3,
 		"deck_limit": 1,
@@ -245,6 +246,7 @@
 		"subname": "Billy Braddock",
 		"text": "<b>Interrupt</b>: When Spider-UK defends against an attack, deal damage to the attacking enemy equal to the number of [[Web-Warrior]] cards you control.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "Web-Warrior.",
 		"type_code": "ally"
 	},
@@ -282,7 +284,7 @@
 		"position": 15,
 		"quantity": 3,
 		"resource_energy": 1,
-		"text": "<b>Hero Action</b> <i>attack</i>: Discard cards from the top of the encounter deck until you discard a treachery. Reveal that treachery → deal 5 damage to the villain.",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Discard cards from the top of the encounter deck until you discard a treachery. Reveal that treachery → deal 5 damage to the villain.",
 		"traits": "Attack.",
 		"type_code": "event"
 	},
@@ -1228,7 +1230,7 @@
 		"resource_wild": 1,
 		"scheme_hazard": 1,
 		"subname": "Eddie Brock",
-		"text": "<b>Response</b>: After you reveal an encounter card, deal 1 damage to Venom → deal damage to an enemy equal to the number of icons <i>([star] and [boost)</i> in that card's boost area.",
+		"text": "<b>Response</b>: After you reveal an encounter card, deal 1 damage to Venom → deal damage to an enemy equal to the number of icons <i>([star] and [boost])</i> in that card's boost area.",
 		"thwart": 2,
 		"thwart_cost": 1,
 		"traits": "Symbiote.",
