@@ -116,7 +116,7 @@
 	{
 		"code": "16066",
 		"name": "Bloqueo orbital",
-		"text": "Complicación 2[per_player]. <i>(Cuando se muestre esta carta, coloca 2[per_player] de Amenaza sobre ella.)</i>\n<b>Acción del jugador inicial:</b> agota la Milano → quita 3 de Amenaza de este Plan."
+		"text": "Complicación 2[per_hero]. <i>(Cuando se muestre esta carta, coloca 2[per_hero] de Amenaza sobre ella.)</i>\n<b>Acción del jugador inicial:</b> agota la Milano → quita 3 de Amenaza de este Plan."
 	},
 	{
 		"code": "16067",
@@ -126,7 +126,7 @@
 	{
 		"code": "16068",
 		"name": "Armada opresora",
-		"text": "Complicación 3[per_player]. <i>(Cuando se muestre esta carta, coloca 3[per_player] de Amenaza sobre ella.)</i>\n<b>Acción del jugador inicial:</b> agota la Milano → quita 3 de Amenaza de este Plan."
+		"text": "Complicación 3[per_hero]. <i>(Cuando se muestre esta carta, coloca 3[per_hero] de Amenaza sobre ella.)</i>\n<b>Acción del jugador inicial:</b> agota la Milano → quita 3 de Amenaza de este Plan."
 	},
 	{
 		"code": "16069",
@@ -160,7 +160,7 @@
 	{
 		"code": "16073b",
 		"name": "La gran colección",
-		"text": "<b>Acción de Héroe:</b> elige entre agotar tu Héroe o gastar 2 recursos de cualquier tipo → descarta 1 carta de la Colección <i>(se coloca en la pila de descartes de su propietario).</i> (Límite de una vez por ronda y jugador.)\n<b>Si hay al menos 5[per_player] cartas en la Colección o si se completa esta etapa, los jugadores pierden la partida.</b>"
+		"text": "<b>Acción de Héroe:</b> elige entre agotar tu Héroe o gastar 2 recursos de cualquier tipo → descarta 1 carta de la Colección <i>(se coloca en la pila de descartes de su propietario).</i> (Límite de una vez por ronda y jugador.)\n<b>Si hay al menos 5[per_hero] cartas en la Colección o si se completa esta etapa, los jugadores pierden la partida.</b>"
 	},
 	{
 		"boost_text": "Después de que termine esta activación, muestra esta carta.",
@@ -177,7 +177,7 @@
 		"traits": "Cazarrecompensas."
 	},
 	{
-		"boost_text": "Si hay 3[per_player] cartas o menos en la Colección, coge la primera carta de tu mazo y colócala boca arriba en la Colección.",
+		"boost_text": "Si hay 3[per_hero] cartas o menos en la Colección, coge la primera carta de tu mazo y colócala boca arriba en la Colección.",
 		"code": "16076",
 		"name": "Caja poco llamativa",
 		"text": "<b>Cuando se muestre esta carta:</b> coloca en la Colección la carta con el coste más bajo que controles. Si no puedes hacerlo, esta carta gana Oleada."
@@ -200,7 +200,7 @@
 	{
 		"code": "16080a",
 		"name": "El Coleccionista",
-		"text": "[star] El Coleccionista recibe +X PLA y +X ATQ, siendo X igual al número de la etapa actual del Plan principal.\n<b>Interrupción obligada:</b> cuando El Coleccionista vaya a ser derrotado, en vez de eso quita 3[per_player] de Amenaza del Plan principal y dale la vuelta a esta carta.",
+		"text": "[star] El Coleccionista recibe +X PLA y +X ATQ, siendo X igual al número de la etapa actual del Plan principal.\n<b>Interrupción obligada:</b> cuando El Coleccionista vaya a ser derrotado, en vez de eso quita 3[per_hero] de Amenaza del Plan principal y dale la vuelta a esta carta.",
 		"traits": "Primigenio."
 	},
 	{
@@ -213,7 +213,7 @@
 	{
 		"code": "16081a",
 		"name": "El Coleccionista",
-		"text": "[star] El Coleccionista recibe +X PLA y +X ATQ, siendo X igual al número de la etapa actual del Plan principal.\n<b>Interrupción obligada:</b> cuando El Coleccionista vaya a ser derrotado, en vez de eso quita 3[per_player] de Amenaza del Plan principal y dale la vuelta a esta carta.",
+		"text": "[star] El Coleccionista recibe +X PLA y +X ATQ, siendo X igual al número de la etapa actual del Plan principal.\n<b>Interrupción obligada:</b> cuando El Coleccionista vaya a ser derrotado, en vez de eso quita 3[per_hero] de Amenaza del Plan principal y dale la vuelta a esta carta.",
 		"traits": "Primigenio."
 	},
 	{
@@ -268,7 +268,7 @@
 	{
 		"code": "16085b",
 		"name": "Nave museo",
-		"text": "\"<i>¡Agarraos los traseros!</i>\" — <b>Interrupción obligada:</b> cuando empiece la fase del Villano, elige una opción:\n- Agota la Milano → reparte 2[per_player] de Daño indirecto entre los jugadores.\n- Reparte 3[per_player] de Daño indirecto entre los jugadores.",
+		"text": "\"<i>¡Agarraos los traseros!</i>\" — <b>Interrupción obligada:</b> cuando empiece la fase del Villano, elige una opción:\n- Agota la Milano → reparte 2[per_hero] de Daño indirecto entre los jugadores.\n- Reparte 3[per_hero] de Daño indirecto entre los jugadores.",
 		"traits": "Aéreo. Vehículo."
 	},
 	{
@@ -304,7 +304,7 @@
 	{
 		"code": "16091a",
 		"name": "El arte de la evasión",
-		"text": "<b>Contenido:</b> Nébula (I) y Nébula (II). <i>(Nébula (II) y Nébula (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros Gema del Poder, Nave espacial, Nébula y Normal. Un conjunto de Encuentros modular <i>(Piratas espaciales).</i>\n<b>Preparación:</b> pon en juego el Entorno Nave de Nébula y el Apoyo Milano. Vincula la Gema del Poder a Nébula. Descarta las 2[per_player] primeras cartas del mazo de Encuentros, luego vincula a Nébula cada Accesorio [[Técnica]] que se haya descartado de este modo."
+		"text": "<b>Contenido:</b> Nébula (I) y Nébula (II). <i>(Nébula (II) y Nébula (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros Gema del Poder, Nave espacial, Nébula y Normal. Un conjunto de Encuentros modular <i>(Piratas espaciales).</i>\n<b>Preparación:</b> pon en juego el Entorno Nave de Nébula y el Apoyo Milano. Vincula la Gema del Poder a Nébula. Descarta las 2[per_hero] primeras cartas del mazo de Encuentros, luego vincula a Nébula cada Accesorio [[Técnica]] que se haya descartado de este modo."
 	},
 	{
 		"code": "16091b",
@@ -445,7 +445,7 @@
 	{
 		"code": "16110",
 		"name": "Fanatismo",
-		"text": "Oleada.\nVincula esta carta a Ronan el Acusador. Usos (1 contador de Furia, más 1[per_player] contadores de Furia adicionales).\n[star]<b>Interrupción obligada:</b> cuando Ronan el Acusador te ataque, ese ataque gana Brutalidad y Penetrante. Al final de ese ataque, quita 1 contador de Furia de esta carta.",
+		"text": "Oleada.\nVincula esta carta a Ronan el Acusador. Usos (1 contador de Furia, más 1[per_hero] contadores de Furia adicionales).\n[star]<b>Interrupción obligada:</b> cuando Ronan el Acusador te ataque, ese ataque gana Brutalidad y Penetrante. Al final de ese ataque, quita 1 contador de Furia de esta carta.",
 		"traits": "Alteración."
 	},
 	{
@@ -457,13 +457,13 @@
 	{
 		"code": "16112",
 		"name": "Maniobra de pinza",
-		"text": "Complicación 2[per_player] <i>(Cuando se muestre esta carta, coloca 2[per_player] de Amenaza sobre ella.)</i>.\n<b>Acción del jugador inicial:</b> agota la Milano → quita 3 de Amenaza de este Plan."
+		"text": "Complicación 2[per_hero] <i>(Cuando se muestre esta carta, coloca 2[per_hero] de Amenaza sobre ella.)</i>.\n<b>Acción del jugador inicial:</b> agota la Milano → quita 3 de Amenaza de este Plan."
 	},
 	{
 		"code": "16113",
 		"flavor": "<b><i>El avanzado entrenamiento kree de Ronan el Acusador y su determinación fanática lo convierten en un adversario inigualable.</i></b>",
 		"name": "Superioridad táctica",
-		"text": "La Gema del Poder no puede desvincularse de Ronan el Acusador.\n<b>Cuando se muestre esta carta:</b> vincula la Gema del Poder a Ronan el Acusador. Si ya estaba vinculada a él, coloca 1[per_player] de Amenaza sobre esta carta."
+		"text": "La Gema del Poder no puede desvincularse de Ronan el Acusador.\n<b>Cuando se muestre esta carta:</b> vincula la Gema del Poder a Ronan el Acusador. Si ya estaba vinculada a él, coloca 1[per_hero] de Amenaza sobre esta carta."
 	},
 	{
 		"boost_text": "Vincula la Gema del Poder a Ronan el Acusador.",
@@ -553,22 +553,22 @@
 	{
 		"code": "16127",
 		"name": "Huevo del monarca hujahdariano",
-		"text": "Complicación 2[per_player]. Victoria 0.\n<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan puede preparar su carta de Superhéroe."
+		"text": "Complicación 2[per_hero]. Victoria 0.\n<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan puede preparar su carta de Superhéroe."
 	},
 	{
 		"code": "16128",
 		"name": "Tetera mágica",
-		"text": "Complicación 2[per_player]. Victoria 0.\n<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan puede curar 4 de Daño a su Superhéroe."
+		"text": "Complicación 2[per_hero]. Victoria 0.\n<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan puede curar 4 de Daño a su Superhéroe."
 	},
 	{
 		"code": "16129",
 		"name": "Piedra filosofal",
-		"text": "Complicación 2[per_player]. Victoria 0.\n<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan puede robar 2 cartas."
+		"text": "Complicación 2[per_hero]. Victoria 0.\n<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan puede robar 2 cartas."
 	},
 	{
 		"code": "16130",
 		"name": "Bola de cristal",
-		"text": "Complicación 2[per_player]. Victoria 0.\n<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan puede jugar una carta desde su mano, reduciendo en 3 su coste en recursos."
+		"text": "Complicación 2[per_hero]. Victoria 0.\n<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan puede jugar una carta desde su mano, reduciendo en 3 su coste en recursos."
 	},
 	{
 		"code": "16131",
@@ -659,7 +659,7 @@
 	{
 		"code": "16144",
 		"name": "A cañonazos",
-		"text": "Complicación 3[per_player] <i>(Cuando se muestre esta carta, coloca 3[per_player] de Amenaza sobre ella.)</i>.\n<b>Acción del jugador inicial:</b> agota la Milano → quita 3 de Amenaza de este Plan."
+		"text": "Complicación 3[per_hero] <i>(Cuando se muestre esta carta, coloca 3[per_hero] de Amenaza sobre ella.)</i>.\n<b>Acción del jugador inicial:</b> agota la Milano → quita 3 de Amenaza de este Plan."
 	},
 	{
 		"code": "16145",

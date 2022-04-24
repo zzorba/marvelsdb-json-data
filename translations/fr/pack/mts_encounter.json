@@ -244,7 +244,7 @@
 		"code": "21098",
 		"flavor": "Proxima Minuit mène une attaque de l'Ordre noir contre la tour des Avengers.",
 		"name": "Under Siege",
-		"text": "<b>Manigance de Proxima Minuit.</b>\n<b>Interruption forcée</b> : quand ce stade est censé être achevé, retirez toutes les menaces à la place. Ensuite, infligez 6[per_player] dégâts à la Tour des Avengers."
+		"text": "<b>Manigance de Proxima Minuit.</b>\n<b>Interruption forcée</b> : quand ce stade est censé être achevé, retirez toutes les menaces à la place. Ensuite, infligez 6[per_hero] dégâts à la Tour des Avengers."
 	},
 	{
 		"back_name": "Les Armées de Thanos",
@@ -256,11 +256,11 @@
 	},
 	{
 		"back_name": "Tour des Avengers",
-		"back_text": "La règle d'unicité ne s'applique pas à la Tour des Avengers.\n<b>Réponse forcée</b> : après qu'au moins un dégât a été placé sur cette carte, s'il y a au moins 9[per_player] dégâts dessus, retirez-les tous. Ensuite, retournez la Tour des Avengers.",
+		"back_text": "La règle d'unicité ne s'applique pas à la Tour des Avengers.\n<b>Réponse forcée</b> : après qu'au moins un dégât a été placé sur cette carte, s'il y a au moins 9[per_hero] dégâts dessus, retirez-les tous. Ensuite, retournez la Tour des Avengers.",
 		"back_traits": "Place Forte.",
 		"code": "21100",
 		"name": "Tour des Avengers",
-		"text": "<b>Une fois révélée</b> : défaussez chaque autre Tour des Avengers en jeu.\n<b>Réponse forcée</b> : après qu'au moins un dégât a été placé sur cette carte, s'il y a au moins 9[per_player] dégâts dessus, les joueurs perdent la partie.",
+		"text": "<b>Une fois révélée</b> : défaussez chaque autre Tour des Avengers en jeu.\n<b>Réponse forcée</b> : après qu'au moins un dégât a été placé sur cette carte, s'il y a au moins 9[per_hero] dégâts dessus, les joueurs perdent la partie.",
 		"traits": "Endommagé."
 	},
 	{
@@ -324,7 +324,7 @@
 		"code": "21110",
 		"flavor": "Corvus ordonne à un de ses régiments d'attaquer New York afin de faire sortir les Avengers.",
 		"name": "La Ville est Attaquée",
-		"text": "Entrave 1[per_player].\n<b>une fois déjouée</b> : le joueur qui a déjoué cette manigance pioche 1 carte."
+		"text": "Entrave 1[per_hero].\n<b>une fois déjouée</b> : le joueur qui a déjoué cette manigance pioche 1 carte."
 	},
 	{
 		"code": "21111",
@@ -364,7 +364,7 @@
 	{
 		"code": "21116",
 		"name": "Sanctuaire",
-		"text": "Entrave 1[per_player]. Victoire 1.\nThanos ne peut pas subir de dégâts.\n<b>Une fois déjouée</b> : chaque joueur peut dépenser jusqu'à 3 ressources [physical] de sa main. Infligez 2 dégâts à Thanos pour chaque ressource [physical] ainsi dépensée. Ces dégâts ignorent la carte d'état Tenace."
+		"text": "Entrave 1[per_hero]. Victoire 1.\nThanos ne peut pas subir de dégâts.\n<b>Une fois déjouée</b> : chaque joueur peut dépenser jusqu'à 3 ressources [physical] de sa main. Infligez 2 dégâts à Thanos pour chaque ressource [physical] ainsi dépensée. Ces dégâts ignorent la carte d'état Tenace."
 	},
 	{
 		"code": "21117",
@@ -499,10 +499,10 @@
 		"traits": "Pierre d'Infinité."
 	},
 	{
-		"attack_text": "Hela gagne +1 MNG, +1 ATQ et +2[per_player] points de vie pour chaque manigance annexe dans la pile de victoire.",
+		"attack_text": "Hela gagne +1 MNG, +1 ATQ et +2[per_hero] points de vie pour chaque manigance annexe dans la pile de victoire.",
 		"code": "21136a",
 		"name": "Hela",
-		"scheme_text": "Hela gagne +1 MNG, +1 ATQ et +2[per_player] points de vie pour chaque manigance annexe dans la pile de victoire.",
+		"scheme_text": "Hela gagne +1 MNG, +1 ATQ et +2[per_hero] points de vie pour chaque manigance annexe dans la pile de victoire.",
 		"text": "<b>Quand Hela est vaincue, si Odin n'est pas attaché à la manigance principale, vous gagnez la partie.</b>",
 		"traits": "Asgard. Mystique."
 	},
@@ -514,10 +514,10 @@
 		"traits": "Asgard. Blessé."
 	},
 	{
-		"attack_text": "Hela gagne +1 MNG, +1 ATQ et +3[per_player] points de vie pour chaque manigance annexe dans la pile de victoire.",
+		"attack_text": "Hela gagne +1 MNG, +1 ATQ et +3[per_hero] points de vie pour chaque manigance annexe dans la pile de victoire.",
 		"code": "21137a",
 		"name": "Hela",
-		"scheme_text": "Hela gagne +1 MNG, +1 ATQ et +3[per_player] points de vie pour chaque manigance annexe dans la pile de victoire.",
+		"scheme_text": "Hela gagne +1 MNG, +1 ATQ et +3[per_hero] points de vie pour chaque manigance annexe dans la pile de victoire.",
 		"text": "<b>Quand Hela est vaincue, si Odin n'est pas attaché à la manigance principale, vous gagnez la partie.</b>",
 		"traits": "Asgard. Mystique."
 	},
@@ -553,17 +553,17 @@
 	{
 		"code": "21140",
 		"name": "Gnipahellir",
-		"text": "Entrave 1[per_player]. Victoire 2.\n<b>Une fois déjouée</b> : le premier joueur révèle Gjallerbru et Skurge et les met en jeu. Attribuez 1 carte Rencontre face cachée à chaque autre joueur."
+		"text": "Entrave 1[per_hero]. Victoire 2.\n<b>Une fois déjouée</b> : le premier joueur révèle Gjallerbru et Skurge et les met en jeu. Attribuez 1 carte Rencontre face cachée à chaque autre joueur."
 	},
 	{
 		"code": "21141",
 		"name": "Gjallerbru",
-		"text": "Entrave 1[per_player]. Victoire 3.\n<b>Une fois déjouée</b> : le premier joueur révèle la Forteresse de Nastrond et Nidhogg et les met en jeu. Attribuez 1 carte Rencontre face cachée à chaque autre joueur."
+		"text": "Entrave 1[per_hero]. Victoire 3.\n<b>Une fois déjouée</b> : le premier joueur révèle la Forteresse de Nastrond et Nidhogg et les met en jeu. Attribuez 1 carte Rencontre face cachée à chaque autre joueur."
 	},
 	{
 		"code": "21141",
 		"name": "Forteresse de Nastrond",
-		"text": "Entrave 1[per_player]. Victoire 4.\n<b>Une fois déjouée</b> : le premier joueur détache Odin de la manigance principale et en prend le contrôle. Attribuez 1 carte Rencontre face cachée à chaque joueur."
+		"text": "Entrave 1[per_hero]. Victoire 4.\n<b>Une fois déjouée</b> : le premier joueur détache Odin de la manigance principale et en prend le contrôle. Attribuez 1 carte Rencontre face cachée à chaque joueur."
 	},
 	{
 		"code": "21143",
@@ -725,25 +725,25 @@
 		"code": "21166",
 		"flavor": "Loki a pillé l'armurie d'Odin et y a découvert l'antique arme des Géants de Glace.",
 		"name": "Écrin des Hivers d'Antant",
-		"text": "Entrave 1[per_player].\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard."
+		"text": "Entrave 1[per_hero].\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard."
 	},
 	{
 		"code": "21167",
 		"flavor": "Les partisans de Loki affrontent ceux qui sont encore loyaux à Odin.",
 		"name": "Guerre sur Asgard",
-		"text": "Entrave 1[per_player].\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard."
+		"text": "Entrave 1[per_hero].\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard."
 	},
 	{
 		"code": "21168",
 		"flavor": "Le Dieu de la Malice répand le chaos sur Terre pour son simple amusement.",
 		"name": "Folie sur Midgard",
-		"text": "Entrave 1[per_player]\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard."
+		"text": "Entrave 1[per_hero]\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard."
 	},
 	{
 		"code": "21169",
 		"flavor": "Loki utilise le Bifrost pour délacer ses troupes entre les Neuf Royaumes.",
 		"name": "Ouvrir le Bifrost",
-		"text": "Entrave 1[per_player]\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard."
+		"text": "Entrave 1[per_hero]\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard."
 	},
 	{
 		"boost_text": "<b>Boost</b> : attachez cette carte à Loki.",

@@ -115,7 +115,7 @@
 	{
 		"code": "16066",
 		"name": "Assedio Planetario",
-		"text": "Ostacolo 2[per_player]. <i>(Quando questa carta viene rivelata, colloca 2[per_player] minacce su di essa.)</i>\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
+		"text": "Ostacolo 2[per_hero]. <i>(Quando questa carta viene rivelata, colloca 2[per_hero] minacce su di essa.)</i>\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
 	},
 	{
 		"code": "16067",
@@ -125,7 +125,7 @@
 	{
 		"code": "16068",
 		"name": "Flotta Oppressiva",
-		"text": "Ostacolo 3[per_player]. <i>Quando questa carta viene rivelata, colloca 3[per_player] minacce su di essa.)</i>\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
+		"text": "Ostacolo 3[per_hero]. <i>Quando questa carta viene rivelata, colloca 3[per_hero] minacce su di essa.)</i>\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
 	},
 	{
 		"code": "16069",
@@ -159,7 +159,7 @@
 	{
 		"code": "16073b",
 		"name": "La Grande Collezione",
-		"text": "<b>Azione Eroe:</b> Scegli se esaurire il tuo eroe oppure spendere 2 risorse di qualsiasi tipo → scarta 1 carta dalla Collezione <i>(nella pila degli scarti del suo proprietario).</i> (Limite di una volta per round per giocatore.)\n<b>Se ci sono 5[per_player] o più carte nella Collezione o se questo stadio è completato, i giocatori perdono la partita.</b>"
+		"text": "<b>Azione Eroe:</b> Scegli se esaurire il tuo eroe oppure spendere 2 risorse di qualsiasi tipo → scarta 1 carta dalla Collezione <i>(nella pila degli scarti del suo proprietario).</i> (Limite di una volta per round per giocatore.)\n<b>Se ci sono 5[per_hero] o più carte nella Collezione o se questo stadio è completato, i giocatori perdono la partita.</b>"
 	},
 	{
 		"boost_text": "Dopo che questa attivazione è terminata, rivela questa carta.",
@@ -176,7 +176,7 @@
 		"traits": "Cacciatore di taglie."
 	},
 	{
-		"boost_text": "Se ci sono 3[per_player] o meno carte nella Collezione, metti nella Collezione a faccia in su 1 carta dalla cima del tuo mazzo.",
+		"boost_text": "Se ci sono 3[per_hero] o meno carte nella Collezione, metti nella Collezione a faccia in su 1 carta dalla cima del tuo mazzo.",
 		"code": "16076",
 		"name": "Scatola Anonima",
 		"text": "<b>Quando Rivelata:</b> Metti nella Collezione a faccia in su la carta dal costo più basso che controlli. Se non puoi farlo, questa carta ottiene Impulso."
@@ -199,7 +199,7 @@
 	{
 		"code": "16080a",
 		"name": "Collezionista",
-		"text": "[star] Collezionista riceve +X TRA e +X ATT, dove X è pari al numero di stadio attuale della trama principale.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per essere sconfitto, rimuovi invece 3[per_player] minacce dalla trama principale e gira questa carta.",
+		"text": "[star] Collezionista riceve +X TRA e +X ATT, dove X è pari al numero di stadio attuale della trama principale.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per essere sconfitto, rimuovi invece 3[per_hero] minacce dalla trama principale e gira questa carta.",
 		"traits": "Antico dell'Universo."
 	},
 	{
@@ -212,7 +212,7 @@
 	{
 		"code": "16081a",
 		"name": "Collezionista",
-		"text": "[star] Collezionista riceve +X TRA e +X ATT, dove X è pari al numero di stadio attuale della trama principale.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per essere sconfitto, rimuovi invece 3[per_player] minacce dalla trama principale e gira questa carta.",
+		"text": "[star] Collezionista riceve +X TRA e +X ATT, dove X è pari al numero di stadio attuale della trama principale.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per essere sconfitto, rimuovi invece 3[per_hero] minacce dalla trama principale e gira questa carta.",
 		"traits": "Antico dell'Universo."
 	},
 	{
@@ -267,7 +267,7 @@
 	{
 		"code": "16085b",
 		"name": "Nave Museo",
-		"text": "\"<i>Chiappe strette, si parte!</i>\" - <b>Interruzione Obbligata:</b> Quando la Fase del Criminale inizia, scegli 1 effetto tra:\n- Esaurisci Milano → assegna 2[per_player] danni indiretti tra i giocatori.\n- Assegna un totale di 3[per_player] danni indiretti tra i giocatori.",
+		"text": "\"<i>Chiappe strette, si parte!</i>\" - <b>Interruzione Obbligata:</b> Quando la Fase del Criminale inizia, scegli 1 effetto tra:\n- Esaurisci Milano → assegna 2[per_hero] danni indiretti tra i giocatori.\n- Assegna un totale di 3[per_hero] danni indiretti tra i giocatori.",
 		"traits": "Aereo. Veicolo."
 	},
 	{
@@ -303,7 +303,7 @@
 	{
 		"code": "16091a",
 		"name": "L'arte dell'Elusione",
-		"text": "<b>Contenuto:</b> Nebula (I) e Nebula (II). <i>(Nebula (II) e Nebula (III) invece per la modalità esperto.)</i> Set di incontri Nebula, Gemma del Potere, Comando della Nave, e Standard. 1 set di incontri modulare <i>(Pirati Spaziali).</i>\n<b>Preparazione:</b> Metti in gioco l'ambiente Nave di Nebula e il supporto Milano. Assegna Gemma del Potere a Nebula. Scarta 2[per_player] carte dalla cima del mazzo degli incontri, poi assegna ogni aggiunta [[Tecnica]] scartata in questo modo a Nebula."
+		"text": "<b>Contenuto:</b> Nebula (I) e Nebula (II). <i>(Nebula (II) e Nebula (III) invece per la modalità esperto.)</i> Set di incontri Nebula, Gemma del Potere, Comando della Nave, e Standard. 1 set di incontri modulare <i>(Pirati Spaziali).</i>\n<b>Preparazione:</b> Metti in gioco l'ambiente Nave di Nebula e il supporto Milano. Assegna Gemma del Potere a Nebula. Scarta 2[per_hero] carte dalla cima del mazzo degli incontri, poi assegna ogni aggiunta [[Tecnica]] scartata in questo modo a Nebula."
 	},
 	{
 		"code": "16091b",
@@ -444,7 +444,7 @@
 	{
 		"code": "16110",
 		"name": "Fanatismo",
-		"text": "Impulso.\nAssegna a Ronan l'Accusatore. Utilizzo (1 gettone furia, più 1[per_player] gettoni furia aggiuntivi).\n[star]<b>Interruzione Obbligata:</b> Quando Ronan l'Accusatore ti attacca, quell'attacco ottiene Perforante e Sopraffazione. Alla fine di quell'attacco, rimuovi 1 gettone furia da questa carta.",
+		"text": "Impulso.\nAssegna a Ronan l'Accusatore. Utilizzo (1 gettone furia, più 1[per_hero] gettoni furia aggiuntivi).\n[star]<b>Interruzione Obbligata:</b> Quando Ronan l'Accusatore ti attacca, quell'attacco ottiene Perforante e Sopraffazione. Alla fine di quell'attacco, rimuovi 1 gettone furia da questa carta.",
 		"traits": "Condizione."
 	},
 	{
@@ -455,13 +455,13 @@
 	{
 		"code": "16112",
 		"name": "Manovra a Tenaglia",
-		"text": "Ostacolo 2[per_player] <i>(Quando questa carta viene rivelata, colloca 2[per_player] minacce da questa trama.)</i>.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
+		"text": "Ostacolo 2[per_hero] <i>(Quando questa carta viene rivelata, colloca 2[per_hero] minacce da questa trama.)</i>.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
 	},
 	{
 		"code": "16113",
 		"flavor": "<b><i>L'avanzato addestramento Kree di Ronan l'Accusatore e la sua fanatica determinazione fanno di lui un avversario come nessun altro.</i></b>",
 		"name": "Tattiche Superiori",
-		"text": "Gemma del Potere non può essere disassegnata da Ronan l'Accusatore.\n<b>Quando Rivelata:</b> Assegna Gemma del Potere a Ronan l'Accusatore. Se è già assegnata a esso, colloca 1[per_player] minacce su questa carta."
+		"text": "Gemma del Potere non può essere disassegnata da Ronan l'Accusatore.\n<b>Quando Rivelata:</b> Assegna Gemma del Potere a Ronan l'Accusatore. Se è già assegnata a esso, colloca 1[per_hero] minacce su questa carta."
 	},
 	{
 		"boost_text": "Assegna Gemma del Potere a Ronan l'Accusatore.",
@@ -551,22 +551,22 @@
 	{
 		"code": "16127",
 		"name": "Uovo del Monarca Hujahdariano",
-		"text": "Ostacolo 2[per_player]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può ripristinare la sua identità."
+		"text": "Ostacolo 2[per_hero]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può ripristinare la sua identità."
 	},
 	{
 		"code": "16128",
 		"name": "Teiera Magica",
-		"text": "Ostacolo 2[per_player]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può curare 4 danni alla sua identità."
+		"text": "Ostacolo 2[per_hero]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può curare 4 danni alla sua identità."
 	},
 	{
 		"code": "16129",
 		"name": "Pietra Filosofale",
-		"text": "Ostacolo 2[per_player]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può pescare 2 carte."
+		"text": "Ostacolo 2[per_hero]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può pescare 2 carte."
 	},
 	{
 		"code": "16130",
 		"name": "Sfera di Cristallo",
-		"text": "Ostacolo 2[per_player]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può giocare 1 carta dalla sua mano, riducendo di 3 il suo costo in risorse."
+		"text": "Ostacolo 2[per_hero]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può giocare 1 carta dalla sua mano, riducendo di 3 il suo costo in risorse."
 	},
 	{
 		"code": "16131",
@@ -657,7 +657,7 @@
 	{
 		"code": "16144",
 		"name": "Cannoneggiamento",
-		"text": "Ostacolo 3[per_player] <i>(Quando questa carta viene rivelata, colloca 3[per_player] minacce su di essa.)</i>.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
+		"text": "Ostacolo 3[per_hero] <i>(Quando questa carta viene rivelata, colloca 3[per_hero] minacce su di essa.)</i>.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
 	},
 	{
 		"code": "16145",
