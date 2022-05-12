@@ -1731,12 +1731,14 @@
 		"quantity": 1,
 		"set_code": "personal_nightmare",
 		"set_position": 1,
+		"text": "Attach to your identity. \n You cannot resolve triggered abilities in your hero's printed text box. (Triggered abilities are ones with <b> bold </b> timing triggers.) /n <b> Alter-Ego Action: </b> Discard 1 identity-specific card at random from your hand →discard this card.",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},
 	{
 		"attack": 1,
 		"boost": 2,
+		"boost_text": "Draw 3 cards. Discard 3 random cards from your hand.",
 		"code": "27154",
 		"faction_code": "encounter",
 		"health": 5,
@@ -1748,6 +1750,7 @@
 		"scheme": 1,
 		"set_code": "personal_nightmare",
 		"set_position": 2,
+		"text": "Evil Doppelganger gers +X SCH and +X ATK where X is equal to the number of identity-specific cards in the engaged player's hand.",
 		"traits": "Illusion.",
 		"type_code": "minion"
 	},
@@ -1764,6 +1767,7 @@
 		"scheme_acceleration": 1,
 		"scheme_crisis": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "Victory  1. (When defeated, add this card to the victory display.) \n Each identity gets +2 hand size.",
 		"set_code": "personal_nightmare",
 		"set_position": 4,
 		"type_code": "side_scheme"
@@ -1779,6 +1783,7 @@
 		"position": 156,
 		"quantity": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "<b> When Revealed: </b> Place 1 additional threat here for each card in your hand.",
 		"set_code": "personal_nightmare",
 		"set_position": 5,
 		"type_code": "side_scheme"
@@ -1793,6 +1798,7 @@
 		"quantity": 2,
 		"set_code": "personal_nightmare",
 		"set_position": 6,
+		"text": "Peril. (While you are resolving this card, other players cannot help you.) \n <b>When Revealed: </b> Discard cards from the top of your deck equal to the number of cards in your hand. If at least 1 identity-specific card was discarded this way, place 1 threat on the main scheme. If not identity-specific card was discarded this way, take 1 damage.",
 		"type_code": "treachery"
 	},
 	{
@@ -1809,6 +1815,7 @@
 		"scheme": 2,
 		"set_code": "sinister_assault",
 		"set_position": 1,
+		"text": "Incite 2. Villainous. \n [star] <b> Forced Response: </b> After Doctor Octopus activates against you, place 1 threat on each scheme.",
 		"traits": "Elite. Genius.",
 		"type_code": "minion"
 	},
@@ -1826,6 +1833,7 @@
 		"scheme": 2,
 		"set_code": "sinister_assault",
 		"set_position": 2,
+		"text": "Retaliate 1. Villainous. \n <b>Forced Response: </b> After Electro engages you or activates against you, discard cards from the top of your deck until you discard a [energy] or [wild] resource.",
 		"traits": "Criminal. Elite.",
 		"type_code": "minion"
 	},
@@ -1843,6 +1851,7 @@
 		"scheme": 1,
 		"set_code": "sinister_assault",
 		"set_position": 3,
+		"text": "Patrol. Villainous. \n [star] <b>Forced Response: </b> After Hobgolbin attacks you, take 2 indirect damage.",
 		"traits": "Aerial. Elite.",
 		"type_code": "minion"
 	},
@@ -1860,6 +1869,7 @@
 		"scheme": 1,
 		"set_code": "sinister_assault",
 		"set_position": 4,
+		"text": "Steady. Villainous. \n [star] <b>Forced Response: </b> After Kraven the Hunter attacks and damges a character you control, discard 1 upgrade or support you control.",
 		"traits": "Elite.",
 		"type_code": "minion"
 	},
@@ -1877,6 +1887,7 @@
 		"scheme": 1,
 		"set_code": "sinister_assault",
 		"set_position": 5,
+		"text": "Toughness. Villainous. \n [star] <b>Forced Response: </b> After Scorpion attacks and damges a character, stun that character. If it is already stunned, deal 2 damage to it.",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
@@ -1894,6 +1905,7 @@
 		"scheme": 1,
 		"set_code": "sinister_assault",
 		"set_position": 6,
+		"text": "Quickstrike. Villainous. \n [star] <b>Forced Response: </b> After Vulture activates against you, discard 1 random card from your hand.",
 		"traits": "Aerial. Elite.",
 		"type_code": "minion"
 	},
@@ -1909,6 +1921,7 @@
 		"scheme_boost": 1,
 		"set_code": "symbiotic_strength",
 		"set_position": 1,
+		"text": "Attach to the villain. \n <b> Hero Action: </b> Spend [mental][physical][energy] resources → discard this card.",
 		"type_code": "attachment"
 	},
 	{
@@ -1922,11 +1935,13 @@
 		"quantity": 1,
 		"set_code": "symbiotic_strength",
 		"set_position": 2,
+		"text": "Attach to the villain. \n <b>Forced Response: </b> After attached villain takes any amount of damage from an attack, give attached villain 1 facedown boost card. If that attack dealt 3 or more damage to attached villain, discard this card.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
 	{
 		"boost": 0,
+		"boost_text": "You are stunned. If you are already stunned, take 2 damage.",
 		"code": "27166",
 		"faction_code": "encounter",
 		"name": "Webbed Up",
@@ -1936,12 +1951,14 @@
 		"quantity": 1,
 		"set_code": "symbiotic_strength",
 		"set_position": 3,
+		"text": "Attach to your identity.  \n <b> Forced Interrupt </b> When your hero would attack, discard Webbed Up instead. Then you are stunned.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
 	{
 		"attack": 2,
 		"boost": 0,
+		"boost_text": "Put enraged Symbiote into play engaged with you.",
 		"code": "27167",
 		"faction_code": "encounter",
 		"health": 2,
@@ -1953,6 +1970,7 @@
 		"scheme": 1,
 		"set_code": "symbiotic_strength",
 		"set_position": 4,
+		"text": "Guard Patrol. (While this minion is engaged with you, you cannot thwart the main scheme.)",
 		"traits": "Symbiote.",
 		"type_code": "minion"
 	},
@@ -1967,10 +1985,12 @@
 		"quantity": 2,
 		"set_code": "symbiotic_strength",
 		"set_position": 7,
+		"text": "<b> When Revealed (Alter-Ego): </b> Change to hero form. The villain attacks you. \n <b>When Revealed (Hero): </b> The villain attacks you. Give the villain 1 additional boost card for that activation.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 0,
+		"boost_text": "If this activation is an attack, this card gets +2 boost icons ([boost][boost]) for this attack and this attack gains overkill.",
 		"code": "27169",
 		"faction_code": "encounter",
 		"name": "Unstable Sentience",
@@ -1980,10 +2000,12 @@
 		"quantity": 1,
 		"set_code": "symbiotic_strength",
 		"set_position": 9,
+		"text": "Surge. \n <b> When Revealed: </b> Give the villain 1 facedown boost card.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 1,
+		"boost_text": "If any ally is defeated by this attack, take indirect damage equal to that ally's printed cost.",
 		"code": "27170",
 		"faction_code": "encounter",
 		"name": "Delusion of Collusion",
@@ -1993,6 +2015,7 @@
 		"quantity": 2,
 		"set_code": "whispers_of_paranoia",
 		"set_position": 1,
+		"text": "Attach to your identity. \n You cannot ready allies or [[persona]] supports you control \n <b> Alter-Ego Action: </b> Discard an ally or [[persona]] support you control → discard this card.",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},
@@ -2007,11 +2030,13 @@
 		"quantity": 1,
 		"set_code": "whispers_of_paranoia",
 		"set_position": 3,
+		"text": "Treat attached ally as a minion with a blank text box (except for [[traits]]). Attach minion's SCH is equal to its printed THW and it does not take consequential damage. \n <b>When Revealed: </b> Attach to the ally you control with the lowest cost. If you cannot, this card gains surge.",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},
 	{
 		"boost": 2,
+		"boost_text": "Deal 1 damage to each character you control.",
 		"code": "27172",
 		"faction_code": "encounter",
 		"name": "Old Grudge",
@@ -2021,6 +2046,7 @@
 		"quantity": 1,
 		"set_code": "whispers_of_paranoia",
 		"set_position": 4,
+		"text": "Attached minion gets +1 hit point. \n <b> When Revealed: </b> Search the encounter deck, discard pile, and set-aside area for your nemesis minion, then reveal that minion. Attach old Grudge to it (Shuffle.)",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},
@@ -2035,6 +2061,7 @@
 		"position": 173,
 		"quantity": 1,
 		"scheme_boost": 1,
+		"scheme_text": "<b>When Revealed: </b> Search the encounter deck, discard pile, set-aside aread for your nemesis side scheme, then reveal it. Place X additional threat here, where X is requal to the amount of threat on that side scheme.",
 		"set_code": "whispers_of_paranoia",
 		"set_position": 5,
 		"type_code": "side_scheme"
