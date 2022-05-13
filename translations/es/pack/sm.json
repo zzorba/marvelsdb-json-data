@@ -1,0 +1,440 @@
+[
+	{
+		"code": "27001a",
+		"name": "Ghost-Spider",
+		"traits": "Guerrero Araña.",
+		"flavor": "\"Así que tengo que salva a un hombre adulto de un monstruo. No es la peor manera de pasar la noche del viernes para una adolescente.\"",
+		"text": "<i>Reflejos vertiginosos</i> — <b>Respuesta:</b> después de que resuelvas una capacidad de \"<b>Interrupción</b>\" o \"<b>Respuesta</b>\" de un Evento, prepara a Ghost-Spider. (Límite de una vez por fase.)"
+	},
+	{
+		"code": "27001b",
+		"name": "Gwen Stacy",
+		"traits": "Civil.",
+		"flavor": "\"¡Toma solo de batería!\"",
+		"text": "<b>Acción:</b> elige entre coger el Billete al multiverso de tu pila de descartes y añadirlo a tu mazo (barajándolo después), o bien preparar a George Stacy. (Límite de una vez por ronda.)"
+	},
+	{
+		"code": "27002",
+		"name": "Patada fantasma",
+		"traits": "Ataque.",
+		"flavor": "\"Creí que por lo menos INTENTARÍAS resistirte un poco.\" —Ghost-Spider",
+		"text": "<b>Respuesta de Héroe</b> <i>(ataque)</i>: después de que Ghost-Spider use un atributo básico, inflige 6 de Daño a un enemigo. (Máximo de 1 por cada uso de un atributo básico)."
+	},
+	{
+		"code": "27003",
+		"name": "Consejos paternos",
+		"text": "<b>Acción de Alter ego:</b>\n- Si George Stacy está en juego, coge 1 Evento de tu mano o pila de descartes y vincúlalo boca abajo a George Stacy.\n- Si George Stacy no está en juego, búscalo en tu mazo y pila de descartes y añádeló a tu mano. <i>(Baraja el mazo.)</i>"
+	},
+	{
+		"code": "27004",
+		"name": "Voltereta espectral",
+		"traits": "Intervención.",
+		"flavor": "\"Veo la vida mucho más clara cuando todo está del revés.\" —Gwen Stacy",
+		"text": "<b>Respuesta de Héroe</b> <i>(intervención)</i>: después de que Ghost-Spider use un atributo básico, quita 5 de Amenaza de un Plan. (Máximo de 1 por cada uso de un atributo básico.)"
+	},
+	{
+		"code": "27005",
+		"name": "Piruetas y puñetazos",
+		"traits": "Habilidad.",
+		"text": "<b>Interrupción de Héroe:</b> cuando se muestre una carta del mazo de Encuentros, inflige tanto Daño al Villano como 1 más el número de iconos de Aumento ([boost]) que tenga esa carta. Anula sus efectos de \"<b>Cuando se muestre esta carta</b>\"."
+	},
+	{
+		"code": "27006",
+		"name": "Ataduras de red",
+		"traits": "Superpoder.",
+		"text": "Requisito ([mental]).\n<b>Interrupción de Héroe:</b> cuando un enemigo vaya a activarse, anula esa activación. Si se anula la activación de un Esbirro de este modo, inflige 4 de Daño a ese Esbirro."
+	},
+	{
+		"code": "27007",
+		"name": "George Stacy",
+		"traits": "Individuo.",
+		"flavor": "\"Hacedme cado, Ghost-Spider no es el problema.\"",
+		"text": "Los Eventos vinculados a George Stacy pueden jugarse como si estuvieran en tu mano.\n<b>Acción:</b> agota a George Stacy → vincula boca abajo a esta carta 1 Evento de tu mano (hasta un máximo de 3)."
+	},
+	{
+		"code": "27008",
+		"name": "Billete al multiverso",
+		"traits": "Objeto.",
+		"text": "<b>Acción:</b> retira el Billete al multiverso de la partida → descarta tu mano, mezcla tu pila de descartes con tu mazo, roba cartas hasta alcanzar el tamaño máximo de tu mano y prepara todas las cartas de Ghost-Spider que controles."
+	},
+	{
+		"code": "27009",
+		"name": "Pulsera lanzarredes",
+		"traits": "Objeto. Tecnología.",
+		"flavor": "\"Estos chismes me serán muy útiles.\" —Gwen Stacy",
+		"text": "<b>Respuesta de Héroe:</b> después de que resuelvas una capacidad de \"<b>Interrupción</b>\" o \"<b>Respuesta</b>\" de un Evento, agota la Pulsera lanzarredes → roba 1 carta. (Máximo de 1 por Evento.)"
+	},
+	{
+		"code": "27010",
+		"name": "Seda",
+		"traits": "Guerrero Araña.",
+		"flavor": "\"Tal vez sí le esté cogiendo el tranquillo a esto del superheroísmo.\"",
+		"text": "<b>Respuesta:</b> después de que juegues a Seda desde tu mano, si controlas otra carta [[Guerrero Araña]], busca una carta de Perfidia en el mazo de Encuentros y descártala. <i>(Baraja el mazo.)</i>"
+	},
+	{
+		"code": "27011",
+		"name": "Spiderman",
+		"subname": "Miles Morales",
+		"traits": "Guerrero Araña.",
+		"flavor": "\"A Brooklyn no le gusta que la dominen. Somos así de salvajes.\"",
+		"text": "<b>Respuesta:</b> después de que juegues a Spiderman desde tu mano, aturde y confunde a un enemigo si controlas al menos 3 cartas [[Guerrero Araña]]."
+	},
+	{
+		"code": "27012",
+		"name": "Spider-UK",
+		"subname": "Billy Braddock",
+		"traits": "Guerrero Araña.",
+		"flavor": "\"La gente necesitará protección y ayuda, y somos los únicos que pueden dársela.\"",
+		"text": "<b>Interrupción:</b> cuando Spider-UK defienda contra un ataque, inflige tanto Daño al enemigo atacante como el número de cartas [[Guerrero Araña]] que controles."
+	},
+	{
+		"code": "27014",
+		"name": "Salto con giro",
+		"traits": "Defensa.",
+		"flavor": "\"¡Por arriba! ¡Por abajo! Ay, qué lento eres.\" —Ghost-Spider",
+		"text": "<b>Interrupción de Héroe</b> <i>(defensa)</i>: cuando vayas a sufrir cualquier cantidad de Daño, evita 2 de ese Daño. Si has pagado el coste de esta carta usando un recurso [energy], quita 2 de Amenaza del Plan principal."
+	},
+	{
+		"code": "27015",
+		"name": "Devolver el favor",
+		"traits": "Ataque.",
+		"text": "<b>Acción de Héroe</b> <i>(ataque)</i>: descarta cartas de la parte superior del mazo de Encuentros hasta que descartes una carta de Perfidia. Muesta esa carta de Perfidia → inflige 5 de Daño al Villano."
+	},
+	{
+		"code": "27016",
+		"name": "Lo que no me mata",
+		"flavor": "\"¡En cuanto salga de aquí, te vas a enterar!\"",
+		"text": "Requisito ([physical]).\n<b>Acción de Héroe:</b> cura 2 de Daño a tu Héroe → prepara tu Héroe."
+	},
+	{
+		"code": "27017",
+		"name": "Spider-Man",
+		"subname": "Hobie Brown",
+		"traits": "Guerrero Araña.",
+		"text": "Juega esta carta sólo si controlas una carta [[Guerrero Araña]].\n<b>Interrupción:</b> cuando Spiderman abandone el juego, descarta las 3 primeras cartas del mazo de Encuentros. Inflige tanto Daño al Villano como el número de iconos de Aumento ([boost]) que se hayan descartado de este modo."
+	},
+	{
+		"code": "27018",
+		"name": "Multiverso arácnido",
+		"text": "Máximo de 1 por mazo.\n<b>Acción de Héroe:</b> agota una carta [[Guerrero Araña]] que controles → busca un Aliado [[Guerrero Araña]] en tu pila de descartes y pono en juego, luego elige a un jugador. Ese jugador puede gastar 3 recursos de cualquier tipo para volver a usar esta capacidad."
+	},
+	{
+		"code": "27019",
+		"name": "Amor juvenil",
+		"text": "Equipo (Gwen Stacy y Miles Morales). Máximo de 1 por mazo.\n<b>Acción de Alter ego:</b> cura 3 de Daño a Gwen Stacy y Miles Morales."
+	},
+	{
+		"code": "27023",
+		"name": "La Red de la Vida y el Destino",
+		"traits": "Lugar. Guerrero Araña.",
+		"text": "Ignora el coste en recursos de esta carta si tu Superhéroe tiene el rasgo [[Guerrero Araña]].\n<b>Respuesta:</b> después de que un Aliado [[Guerrero Araña]] abandone el juego, elige a un jugador → ese jugador roba 1 carta."
+	},
+	{
+		"code": "27024",
+		"name": "Plan B",
+		"traits": "Táctica.",
+		"text": "Juega esta carta poniéndola bajo el control de cualquier jugador. Máximo de 1 por jugador.\n<b>Acción de Héroe:</b> agota Plan B y descarta 1 carta de tu mano al azar → inflige 2 de Daño a un enemigo."
+	},
+	{
+		"code": "27030a",
+		"name": "Spiderman",
+		"traits": "Campeón. Guerrero Araña.",
+		"text": "<i>Rayo de veneno</i> — <b>Especial:</b> inflige 2 de Daño a un enemigo. Aturde a ese enemigo.\n<i>Camuflaje arácnido</i> — <b>Especial:</b> dale a Spiderman una carta de estado \"Duro\". Confunde a un enemigo."
+	},
+	{
+		"code": "27030b",
+		"name": "Miles Morales",
+		"traits": "Civil.",
+		"flavor": "\"Cuando has saltado desde rascacielos y luchado contra supervillanos, te acabas aburriendo de todo lo demás.\"",
+		"text": "<b>Respuesta:</b> después de que cambies a esta identidad, coge 1 carta específica de Spiderman que esté en tu pila de descartes, añádela a tu mazo y barájalo."
+	},
+	{
+		"code": "27031",
+		"name": "Acrobacia arácnida",
+		"traits": "Ataque.",
+		"flavor": "\"No suelo renunciar al recochineo.\" —Spiderman",
+		"text": "<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 2 de Daño a un enemigo. Si ese enemigo tiene una carta de Estado \"Aturdido\", inflígele 3 de Daño adicional. Si ese enmigo tiene una carta de Estado \"Confundido\", inflígele 3 de Daño adicional."
+	},
+	{
+		"code": "27032",
+		"name": "Doble vida",
+		"flavor": "\"Yo no pedí este poder, esta… responsabilidad. Pero no pienso desperdiciarlo.\" —Miles Morales",
+		"text": "Máximo de 1 por ronda.\n<b>Acción:</b> cambia de identidad. Si has pagado el coste de esta carta usando un recurso [physical], prepara tu Superhéroe."
+	},
+	{
+		"code": "27033",
+		"name": "Llegar columpiándose",
+		"traits": "Intervención.",
+		"flavor": "\"Veo que no te alegras de verme… ¡o de no verme!\" —Spiderman",
+		"text": "<b>Acción de Héroe</b> <i>(intervención)</i>: quita 4 de Amenaza de un Plan. Si has pagado el coste de esta carta usando un recurso [mental], resuelve la capacidad \"Camuflaje arácnido\" de Spiderman."
+	},
+	{
+		"code": "27034",
+		"name": "Descarga de telaraña",
+		"traits": "Ataque.",
+		"flavor": "\"Si eso no basta para contenerte, sé de otra cosas que si lo hará.\" —Spiderman",
+		"text": "<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 4 de Daño a un enemigo. Si has pagado el coste de esta carta usando un recurso [energy], resuelve la capacidad \"Rayo de veneno\" de Spiderman."
+	},
+	{
+		"code": "27035",
+		"name": "Ganke Lee",
+		"traits": "Individuo.",
+		"flavor": "\"Soy el tío que le ayuda desde casa.\"",
+		"text": "<b>Acción:</b> agota a Ganke Lee → roba 1 carta. Si tienes adoptada tu identidad de Héroe, elige 1 carta de tu mano y descártala."
+	},
+	{
+		"code": "27036",
+		"name": "Jefferson Davis",
+		"traits": "Individuo. S.H.I.E.L.D.",
+		"flavor": "\"No me enorgullezco de mi pasado, pero tampoco me arrepiento de lo que hice. Así he llegado hasta donde estoy hoy.\"",
+		"text": "<b>Acción de Alter ego:</b> agota a Jefferson Davis → quita 1 de Amenaza del Plan que tenga menos Amenaza."
+	},
+	{
+		"code": "27037",
+		"name": "Poder interior",
+		"traits": "Superpoder.",
+		"text": "<b>Respuesta de Héroe:</b> después de que tu Héroe use un atributo básico, descarta Poder interior → resuelve la capacidad \"Rayo de veneno\" de Spiderman."
+	},
+	{
+		"code": "27038",
+		"name": "Mecanismo de defensa",
+		"traits": "Superpoder.",
+		"text": "<b>Respuesta de Héroe:</b> después de que tu Héroe use un atributo básico, descarta Mecanismo de defensa → resuelve la capacidad \"Camuflaje arácnido\" de Spiderman."
+	},
+	{
+		"code": "27039",
+		"name": "Lanzarredes",
+		"traits": "Objeto. Tecnología.",
+		"text": "Usos (3 contadores de Telaraña).\n<b>Recurso de Héroe:</b> agota los Lanzarredes y quítales 1 contador de Telaraña → genera un recurso [wild]."
+	},
+	{
+		"code": "27040",
+		"name": "Monica Chang",
+		"traits": "S.H.I.E.L.D.",
+		"text": "<b>Respuesta:</b> después de que Monica Chang entre en juego, busca una copia de la carta de Apoyo Equipo de vigilancia en tu mazo, tu mano y tu pila de descartes, y ponla en juego. Coloca 1 contado de Escucha sobre cada Equipo de vigilancia que controles."
+	},
+	{
+		"code": "27041",
+		"name": "SpiderWoman",
+		"subname": "Jessica Drew",
+		"traits": "S.H.I.E.L.D. Guerrero Araña.",
+		"flavor": "\"¿Sois la primera opción? ¿De verdad? ¿Hasta dónde llegaron buscando en las páginas amarillas hasta conformarse con vosotros?\"",
+		"text": "El coste para jugar a Spiderwoman se reduce en 1 por cada enemigo confundido que haya en juego."
+	},
+	{
+		"code": "27042",
+		"name": "Intervención de S.H.I.E.L.D.",
+		"traits": "S.H.I.E.L.D. Táctica.",
+		"flavor": "\"¡A partir de este momento, esta situación entra dentro de la jurisdicción del Servicio Homologado de Inteligencia, Espionaje, Logística y Defensa!\"",
+		"text": "<b>Acción:</b> agota hasta 3 cartas [[S.H.I.E.L.D.]] que controles y elige un Plan → quita 2 de Amenaza de ese Plan por cada carta que hayas agotado de este modo."
+	},
+	{
+		"code": "27043",
+		"name": "Logística internacional",
+		"traits": "S.H.I.E.L.D. Táctica.",
+		"text": "<b>Acción:</b> agota 1 carta [[S.H.I.E.L.D.]] que controles → mira las 4 primeras cartas de un mazo de Jugador o del mazo de Encuentros. Descarta cualquier cantidad de esas cartas y coloca el resto en la parte superior o inferior de ese mazo en el orden que prefieras."
+	},
+	{
+		"code": "27044",
+		"name": "Agente sobre el terreno",
+		"traits": "Individuo. S.H.I.E.L.D.",
+		"text": "Usos (3 contadores de Refuerzos).\n<b>Interrupción de Héroe:</b> cuando un Aliado [[S.H.I.E.L.D.]] vaya a sufrir cualquer cantidad de Daño derivado, aogta al Agente sobre el terreno y quítale 1 contador de Refuerzos → evita 1 de ese Daño."
+	},
+	{
+		"code": "27046",
+		"name": "Agente 13",
+		"subname": "Sharon Carter",
+		"traits": "S.H.I.E.L.D. Espía.",
+		"flavor": "\"Llevo en todo mi cuerpo las cicatrices del pasado. Pero soy más que eso. Ahora soy la mejor. Más fuerte. Más sabia.\"",
+		"text": "[star] <b>Respuesta:</b> después de que la Agente 13 ataque o intervenga, elige un Apoyo [[S.H.I.E.L.D.]] → prepara ese Apoyo."
+	},
+	{
+		"code": "27047",
+		"name": "Dum Dum Dugan",
+		"traits": "S.H.I.E.L.D.",
+		"text": "<b>Interrupción:</b> cuando uses uno de los atributos básicos de Dum Dum Dugan, agota hasta 3 cartas [[S.H.I.E.L.D.]] que controles. Por cada carta que agotes de este modo, Dum Dum Dugan suma +1 a ese atributo para este uso."
+	},
+	{
+		"code": "27048",
+		"name": "Ghost-Spider",
+		"subname": "Gwen Stacy",
+		"traits": "Guerrero Araña.",
+		"text": "Juega esta carta sóli si controlas una carta [[Guerrero Araña]].\n<b>Interrupción:</b> cuando Ghost-Spider abandone el juego, busca en tu mazo un Evento específico de un Superhéroe y añádelo a tu mano. <i>(Baraja el mazo.)</i>"
+	},
+	{
+		"code": "27049",
+		"name": "Spiderman",
+		"subname": "Peter Parker",
+		"traits": "Guerrero Araña.",
+		"flavor": "\"¿Te das cuenta, Miles? Así es como se hace.\"",
+		"text": "Requisito ([energy] [mental] [physical]).\n<b>Respuesta:</b> después de que Spiderman ataque o intervenga, elige otro personaje [[Guerrero Araña]] → prepara ese personaje."
+	},
+	{
+		"code": "27054",
+		"name": "Enlace con el Gobierno",
+		"traits": "Individuo. S.H.I.E.L.D.",
+		"flavor": "\"Mi gente se pondrá en contacto con su gente.\"",
+		"text": "<b>Acción de Héroe:</b> agota el Enlace con el Gobierno → juega una carta [[S.H.I.E.L.D.]] desde tu mano, reduciendo en 1 su coste en recursos."
+	},
+	{
+		"code": "27055",
+		"name": "Destructor aéreo",
+		"traits": "S.H.I.E.L.D. Vehículo.",
+		"flavor": "\"No tenemos por costumbre desplegar destructores aéreos. Pero cuando lo hacemos, ten por seguro que la situación se ha puesto seria.\" —Nick Furia",
+		"text": "<b>Respuesta:</b> después de que juegues una carta [[S.H.I.E.L.D.]], agota el Destructor aéreo → inflige 2 de Daño a un enemigo."
+	},
+	{
+		"code": "27174a",
+		"name": "Clamor popular",
+		"text": "<b>Sólo en modo Normal</b>\nVictoria 1. Usos (2[per_hero] contadores de Mala fama).\n<b>Respuesta:</b> después de que se derrote a un Esbirro o Plan secundario, quita 1 contador de Mala fama de esta carta."
+	},
+	{
+		"code": "27174b",
+		"name": "Clamor popular",
+		"text": "<b>Sólo en modo Experto</b>\nVictoria 1. Usos (3[per_hero] contadores de Mala fama).\n<b>Respuesta:</b> después de que se derrote a un Esbirro o Plan secundario, quita 1 contador de Mala fama de esta carta."
+	},
+	{
+		"code": "27175",
+		"name": "Campaña de difamación",
+		"text": "En modo Experto, esta carta gana Oleada.\n<b>Cuando se muestre esta carta:</b> si está en juego Clamor popular, colócale encima 2 contadores de Mala fama, luego retira esta carta de la partida. Si Clamor popular no está en juego, coloca 2 de Amenaza sobre el Plan principal."
+	},
+	{
+		"code": "27176",
+		"name": "Atraco en un callejón",
+		"text": "Oleada.\nVictoria 1.\n<b>Respuesta obligada:</b> después de que intervengas contra este Plan, elige entre gastar 1 recurso [physical] o bien descartar 1 carta de tu mano al azar."
+	},
+	{
+		"code": "27177",
+		"name": "Gato subido a un árbol",
+		"text": "Oleada.\nVictoria 1.\nComo coste adicional para intervenir contra este Plan, sufres 2 de Daño indirecto."
+	},
+	{
+		"code": "27178",
+		"name": "Secuaces atracadores",
+		"text": "Oleada.\nVictoria 1.\n<b>Respuesta obligada:</b> después de que si quite cualquier cantidad de Amenaza de este Plan, coloca esa misma cantidad de Amenaza sobre el Plan principal."
+	},
+	{
+		"code": "27179",
+		"name": "Descarrilamiento",
+		"text": "Oleada.\nVictoria 1.\n<b>Interrupción obligada:</b> cuando empiece la fase del Villano, coloca 1 contado de Velocidad sobre esta carta. Si hay al menos 2 contadores de Velocidad sobre esta carta, retírala de la partida y descarta las 3 primeras cartas del mazo de cada jugar."
+	},
+	{
+		"code": "27180",
+		"name": "Rescate entre los escombros",
+		"text": "Oleada.\nVictoria 1.\n<b>Interrupción:</b> cuando un personaje realice una intervención básica contra este Plan secundario, puede usar su ATQ en vez de su INT."
+	},
+	{
+		"code": "27181",
+		"name": "No hay traición sin castigo",
+		"text": "Victoria -1.\nVincula esta carta a Veneno (Eddie Brock). Si no es posible, esta carta gana Oleada.\n<b>Interrupción obligada:</b> cuando un Villano ataque, atacará a Veneno. Si Veneno es derrotado por ese ataque, añade esta carta y la carta de Veneno a la zona de victoria.\n<b>Acción:</b> agota a Veneno y gasta 2 recursos del mismo tipo → descarta esta carta."
+	},
+	{
+		"code": "27182a",
+		"name": "Dardos compactos",
+		"traits": "S.H.I.E.L.D. Tecnología.",
+		"text": "Inicio. Permanente.\n<b>Respuesta de Héroe:</b> después de que tu Héroe ataque, quita 1 contador de Dardos de esta carta → inflige 1 de Daño a un enemigo.\n<b>Acción de Alter ego:</b> gasta 1 recurso de cualquier tipo → coloca 3 contadores de Dardos sobre esta carta. (Límite de una vez por ronda.)"
+	},
+	{
+		"code": "27182b",
+		"name": "Dardos compactos",
+		"traits": "Mejorado. S.H.I.E.L.D. Tecnología.",
+		"text": "Permanente.\n<b>Respuesta de Héroe:</b> después de que tu Héroe ataque, quita 1 contador de Dardos de esta carta → inflige 1 de Daño a un máximo de 2 enemigos distintos.\n<b>Acción de Alter ego:</b> gasta 1 recurso de cualquier tipo → coloca 3 contadores de Dardos sobre esta carta. (Límite de una vez por ronda.)"
+	},
+	{
+		"code": "27183a",
+		"name": "Tejido antichoque",
+		"traits": "S.H.I.E.L.D. Tecnología.",
+		"text": "Inicio. Permanente.\nTu Superhéroe recibe +2 de Vida.\n<b>Interrupción de Héroe:</b> cuando empiece la fase del Villano, gasta 1 recurso de cualquier tipo → hasta el final de la fase, se reduce en 1 la cantidad de Daño que sufra tu Héroe de cada ataque enemigo."
+	},
+	{
+		"code": "27183b",
+		"name": "Tejido antichoque",
+		"traits": "Mejorado. S.H.I.E.L.D. Tecnología.",
+		"text": "Permanente.\nTu Superhéroe recibe +3 de Vida.\n<b>Interrupción de Héroe:</b> cuando tu Héroe vaya a sufrir cualquier cantidad de Daño a consecuencia de un ataque enemigo, descarta la primera carta de tu mazo → evita 1 de ese Daño."
+	},
+	{
+		"code": "27184a",
+		"name": "Lentes láser",
+		"traits": "S.H.I.E.L.D. Tecnología.",
+		"text": "Inicio. Permanente.\nTu Héroe recibe -1 INT.\nTu Héroe recibe +1 ATQ, y sus ataques básicos ganan Brutalidad."
+	},
+	{
+		"code": "27184b",
+		"name": "Lentes láser",
+		"traits": "Mejorado. S.H.I.E.L.D. Tecnología.",
+		"text": "Permanente.\nTu Héroe recibe -1 INT.\nTu Héroe recibe +2 ATQ, y sus ataques básicos ganan Brutalidad y Penetrante."
+	},
+	{
+		"code": "27185a",
+		"name": "Guantelete propulsor",
+		"traits": "S.H.I.E.L.D. Tecnología.",
+		"text": "Inicio. Permanente.\n<b>Acción de Héroe:</b> agota el Guantelete propulsor y sufre 2 de Daño indirecto → prepara tu Héroe."
+	},
+	{
+		"code": "27185b",
+		"name": "Guantelete propulsor",
+		"traits": "Mejorado. S.H.I.E.L.D. Tecnología.",
+		"text": "Permanente.\n<b>Acción de Héroe:</b> agota el Guantelete propulsor y sufre 2 de Daño indirecto → prepara tu Héroe. Tu Héroe recibe +1 INT, +1 ATQ y +1 DEF hasta el final de la fase."
+	},
+	{
+		"code": "27186a",
+		"name": "Proyector de retina",
+		"traits": "S.H.I.E.L.D. Tecnología.",
+		"text": "Inicio. Permanente.\nEl atributo básico de intervención de tu Héroe <i>(INT)</i> sólo puede quitar Amenaza del Plan que tenga más Amenaza.\nTu Héroe recibe +1 INT, y sus intervenciones básicas ignoran el icono de Crisis ([crisis])."
+	},
+	{
+		"code": "27186b",
+		"name": "Proyector de retina",
+		"traits": "Mejorado. S.H.I.E.L.D. Tecnología.",
+		"text": "Permanente.\nEl atributo básico de intervención de tu Héroe <i>(INT)</i> sólo puede quitar Amenaza del Plan que tenga más Amenaza.\nTu Héroe recibe +2 INT, y sus intervenciones básicas ignoran el icono de Crisis ([crisis]) y la palabra clave Patrulla."
+	},
+	{
+		"code": "27187a",
+		"name": "Nudilleras eléctricas",
+		"traits": "S.H.I.E.L.D. Tecnología.",
+		"text": "Inicio. Permanente.\n<b>Respuesta de Héroe:</b> después de que tu Héroe realice un ataque básico contra un enemigo, descarta la primera carta del mazo de Encuentros. Si no se ha descartado ningún icono de aumento ([boost]) de este modo, aturde a ese enemigo."
+	},
+	{
+		"code": "27187b",
+		"name": "Nudilleras eléctricas",
+		"traits": "Mejorado. S.H.I.E.L.D. Tecnología.",
+		"text": "Permanente.\nTu Héroe recibe +1 ATQ.\n<b>Respuesta de Héroe:</b> después de que tu Héroe realice un ataque básico contra un enemigo, descarta la primera carta del mazo de Encuentros. Si se ha descartado como máximo 1 icono de Aumento ([boost]) de este modo, aturde a ese enemigo."
+	},
+	{
+		"code": "27188a",
+		"name": "Brazales de ondas",
+		"traits": "S.H.I.E.L.D. Tecnología.",
+		"text": "Inicio. Permanente.\nTu Héroe recibe -1 ATQ.\nTu Héroe recibe +1 DEF, y gana Represalia 1 y Tesón."
+	},
+	{
+		"code": "27188b",
+		"name": "Brazales de ondas",
+		"traits": "Mejorado. S.H.I.E.L.D. Tecnología.",
+		"text": "Permanente.\nTu Héroe recibe -1 ATQ.\nTu Héroe recibe +2 DEF, y gana Represalia 1 y Firmeza."
+	},
+	{
+		"code": "27189a",
+		"name": "Rastreador de muñeca",
+		"traits": "S.H.I.E.L.D. Tecnología.",
+		"text": "Inicio. Permanente.\n<b>Respuesta obligada:</b> después de que entre en juego un Esbirro o Plan secundario, vincúlale el Rastreador de muñeca.\n<b>Interrupción:</b> cuando la carta vinculada sea derrotada, roba 1 carta. <i>(Devuelve esta carta a tu zona de juego.)</i>"
+	},
+	{
+		"code": "27189b",
+		"name": "Rastreador de muñeca",
+		"traits": "Mejorado. S.H.I.E.L.D. Tecnología.",
+		"text": "Permanente.\n<b>Respuesta obligada:</b> después de que entre en juego un Esbirro o Plan secundario, vincúlale el Rastreador de muñeca.\n<b>Interrupción:</b> cuando la carta vinculada sea derrotada, roba 2 cartas y luego descarta 1 carta de tu mano."
+	},
+	{
+		"code": "27190",
+		"name": "Veneno",
+		"subname": "Eddie Brock",
+		"traits": "Simbionte.",
+		"text": "<b>Respuesta:</b> después de que muestres una carta de Encuentro, inflige 1 de Daño a Veneno → inflige tanto Daño a un enemigo como el número de iconos ([start] y [boost]) que haya en el recuadro de aumentos de esa carta."
+	},
+	{
+		"code": "27191",
+		"name": "Traje simbionte",
+		"traits": "Simbionte.",
+		"text": "Máximo de 1 por mazo.\nTu Superhéroe recibe +1 a cada uno de sus atributos básicos, +1 al tamaño de su mano y +10 de Vida"
+	}
+]

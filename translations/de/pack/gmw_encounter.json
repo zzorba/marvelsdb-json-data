@@ -115,7 +115,7 @@
 	{
 		"code": "16066",
 		"name": "Blockade",
-		"text": "Hinder 2[per_player]. <i>(When revealed, place 2[per_player] theat here.)</i>\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme."
+		"text": "Hinder 2[per_hero]. <i>(When revealed, place 2[per_hero] theat here.)</i>\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme."
 	},
 	{
 		"code": "16067",
@@ -125,7 +125,7 @@
 	{
 		"code": "16068",
 		"name": "Oppressive Armada",
-		"text": "Hinder 3[per_player]. <i>When revealed, place 3[per_player] theat here.)</i>\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme."
+		"text": "Hinder 3[per_hero]. <i>When revealed, place 3[per_hero] theat here.)</i>\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme."
 	},
 	{
 		"code": "16069",
@@ -159,7 +159,7 @@
 	{
 		"code": "16073b",
 		"name": "The Grand Collection",
-		"text": "<b>Hero Action:</b> Choose to either exhaust your hero or spend 2 ressources of any type → discard 1 card from The Collection <i>(to its owner's discard pile).</i> (Limit once per round per player.)\n<b>If there are at least 5[per_player] cards in The Collection or if this stage is completed, the players lose the game.</b>"
+		"text": "<b>Hero Action:</b> Choose to either exhaust your hero or spend 2 ressources of any type → discard 1 card from The Collection <i>(to its owner's discard pile).</i> (Limit once per round per player.)\n<b>If there are at least 5[per_hero] cards in The Collection or if this stage is completed, the players lose the game.</b>"
 	},
 	{
 		"boost_text": "After this activation ends, reveal this card.",
@@ -176,7 +176,7 @@
 		"traits": "Bounty Hunter."
 	},
 	{
-		"boost_text": "If there are 3[per_player] or fewer cards in The Collection, put the top card of your deck faceup into The Collection.",
+		"boost_text": "If there are 3[per_hero] or fewer cards in The Collection, put the top card of your deck faceup into The Collection.",
 		"code": "16076",
 		"name": "Inconspicious Box",
 		"text": "<b>When Revealed:</b> Put the lowest cost card you control faceup into The Collection. If you cannot, this card gains surge."
@@ -199,7 +199,7 @@
 	{
 		"code": "16080a",
 		"name": "Collector",
-		"text": "[star] Collector gets +X SCH and +X ATK, where X is equal to the main scheme's current stage number.\n<b>Forced Interrupt:</b> When Collector would be defeated, remove 3[per_player] threat from the main scheme and flip this card instead.",
+		"text": "[star] Collector gets +X SCH and +X ATK, where X is equal to the main scheme's current stage number.\n<b>Forced Interrupt:</b> When Collector would be defeated, remove 3[per_hero] threat from the main scheme and flip this card instead.",
 		"traits": "Elder."
 	},
 	{
@@ -212,7 +212,7 @@
 	{
 		"code": "16081a",
 		"name": "Collector",
-		"text": "[star] Collector gets +X SCH and +X ATK, where X is equal to the main scheme's current stage number.\n<b>Forced Interrupt:</b> When Collector would be defeated, remove 3[per_player] threat from the main scheme and flip this card instead.",
+		"text": "[star] Collector gets +X SCH and +X ATK, where X is equal to the main scheme's current stage number.\n<b>Forced Interrupt:</b> When Collector would be defeated, remove 3[per_hero] threat from the main scheme and flip this card instead.",
 		"traits": "Elder."
 	},
 	{
@@ -267,7 +267,7 @@
 	{
 		"code": "16085b",
 		"name": "Museum Ship",
-		"text": "\"<i>Hold on to your butts!</i>\" - <b>Forced Interrupt:</b> Chen the villain phase begins, choose one:\n- Exhaust the Milano → assign 2[per_player] indirect damage among players.\n- Assign 3[per_player] indirect damage among players.",
+		"text": "\"<i>Hold on to your butts!</i>\" - <b>Forced Interrupt:</b> Chen the villain phase begins, choose one:\n- Exhaust the Milano → assign 2[per_hero] indirect damage among players.\n- Assign 3[per_hero] indirect damage among players.",
 		"traits": "Aerial. Vehicule."
 	},
 	{
@@ -303,7 +303,7 @@
 	{
 		"code": "16091a",
 		"name": "The Art of Evasion",
-		"text": "<b>Contents:</b> Nebula (I) and Nebula (II). <i>(Nebula (II) and Nebula (III) instead for expert mode.)</i> Nebula, Power Stone, Ship Command, and Standard encounter sets. One modular encounter set <i>(Space Pirates).</i>\n<b>Setup:</b> Put the Nebula's Ship environment and the Milano support into play. Attach the Power Stone to Nebula. Discard the top 2[per_player] cards of the encounter deck, then attach each [[Technique]] attachment discarded this way to Nebula."
+		"text": "<b>Contents:</b> Nebula (I) and Nebula (II). <i>(Nebula (II) and Nebula (III) instead for expert mode.)</i> Nebula, Power Stone, Ship Command, and Standard encounter sets. One modular encounter set <i>(Space Pirates).</i>\n<b>Setup:</b> Put the Nebula's Ship environment and the Milano support into play. Attach the Power Stone to Nebula. Discard the top 2[per_hero] cards of the encounter deck, then attach each [[Technique]] attachment discarded this way to Nebula."
 	},
 	{
 		"code": "16091b",
@@ -444,7 +444,7 @@
 	{
 		"code": "16110",
 		"name": "Fanaticism",
-		"text": "Surge.\nAttach to Ronan the Accuser. Uses (1 fury counter, plus 1[per_player] additional fury counters).\n[star]<b>Forced Interrupt:</b> When Ronan the Accuser attacks you, that attack gains overkill and piercing. At the end of that attack, remove 1 fury counter from here.",
+		"text": "Surge.\nAttach to Ronan the Accuser. Uses (1 fury counter, plus 1[per_hero] additional fury counters).\n[star]<b>Forced Interrupt:</b> When Ronan the Accuser attacks you, that attack gains overkill and piercing. At the end of that attack, remove 1 fury counter from here.",
 		"traits": "Condition."
 	},
 	{
@@ -455,13 +455,13 @@
 	{
 		"code": "16112",
 		"name": "Pincer Maneuver",
-		"text": "Hinder 2[per_player] <i>(When revealed, place 2[per_player] threat here.)</i>.\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme."
+		"text": "Hinder 2[per_hero] <i>(When revealed, place 2[per_hero] threat here.)</i>.\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme."
 	},
 	{
 		"code": "16113",
 		"flavor": "<b><i>Ronan the Accuser's advanced Kree training and fanatical determination make him an opponen like no other.</i></b>",
 		"name": "Superior Tactics",
-		"text": "The Power Stone cannot be unattached from Ronan the Accuser.\n<b>When Revealed:</b> Attach the Power Stone to Ronan the Accuser. If it is already attached to him, place 1[per_player] threat here."
+		"text": "The Power Stone cannot be unattached from Ronan the Accuser.\n<b>When Revealed:</b> Attach the Power Stone to Ronan the Accuser. If it is already attached to him, place 1[per_hero] threat here."
 	},
 	{
 		"boost_text": "Attache the Power Stone to Ronan the Accuser.",
@@ -551,22 +551,22 @@
 	{
 		"code": "16127",
 		"name": "Hujahdarian Monarch Egg",
-		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may ready their identity."
+		"text": "Hinder 2[per_hero]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may ready their identity."
 	},
 	{
 		"code": "16128",
 		"name": "Magical Teapot",
-		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may heal 4 damage from their identity."
+		"text": "Hinder 2[per_hero]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may heal 4 damage from their identity."
 	},
 	{
 		"code": "16129",
 		"name": "Philosopher's Stone",
-		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may draw 2 cards."
+		"text": "Hinder 2[per_hero]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may draw 2 cards."
 	},
 	{
 		"code": "16130",
 		"name": "Crystal Ball",
-		"text": "Hinder 2[per_player]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may play a card from their hand, reducing its resources cost by 3."
+		"text": "Hinder 2[per_hero]. Victory 0.\n<b>When Defeated:</b> The player who defeated this scheme may play a card from their hand, reducing its resources cost by 3."
 	},
 	{
 		"code": "16131",
@@ -657,7 +657,7 @@
 	{
 		"code": "16144",
 		"name": "Cannonade",
-		"text": "Hinder 3[per_player] <i>(When revealed, place 3[per_player] threat here.)</i>.\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme."
+		"text": "Hinder 3[per_hero] <i>(When revealed, place 3[per_hero] threat here.)</i>.\n<b>First Player Action:</b> Exhaust the Milano → remove 3 threat from this scheme."
 	},
 	{
 		"code": "16145",

@@ -9,13 +9,16 @@
 		"position": 25,
 		"quantity": 1,
 		"set_code": "ghost_spider",
+		"text": "<b>Give to the Gwen Stacy player.</b>\nSearch your deck, hand, discard pile, and play area for George Stacy and set him aside. Attach this obligation to him.\n<b>Alter-Ego Action</b>: Exhaust Gwen Stacy and remove this obligation from the game → add George Stacy to your hand.",
 		"type_code": "obligation"
 	},
 	{
-		"base_threat_fixed": 5,
+		"base_threat": 5,
+		"base_threat_fixed": true,
 		"boost": 3,
 		"code": "27026",
 		"faction_code": "encounter",
+		"flavor": "Peter Parker's research into the healing properties of lizard DNA has backfired, turning him and all those who come in contact with his serum into reptilian monstrosities!",
 		"name": "Regenerative Research",
 		"octgn_id": "9f2a2446-89a3-49cc-88c8-b3e449701923",
 		"pack_code": "sm",
@@ -23,6 +26,7 @@
 		"quantity": 1,
 		"set_code": "ghost_spider_nemesis",
 		"set_position": 1,
+		"text": "<b>Forced Interrupt</b>: When the villain phase begins, heal 1 damage from each enemy.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -40,6 +44,7 @@
 		"scheme": 1,
 		"set_code": "ghost_spider_nemesis",
 		"set_position": 2,
+		"text": "<b>Forced Interrupt</b>: When the villain phase begins, heal 1 damage from The Lizard.\n<i>(Ghost-Spider's nemesis minion.)</i>",
 		"traits": "Brute. Creature.",
 		"type_code": "minion"
 	},
@@ -47,6 +52,7 @@
 		"boost": 0,
 		"code": "27028",
 		"faction_code": "encounter",
+		"flavor": "\"RAAARRRRRRR!!!\"",
 		"name": "Experimental Injection",
 		"octgn_id": "e01a8dd8-3132-4001-bbf8-b97d396126cb",
 		"pack_code": "sm",
@@ -54,12 +60,14 @@
 		"quantity": 1,
 		"set_code": "ghost_spider_nemesis",
 		"set_position": 3,
+		"text": "Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.\nAttached minion gains the [[Creature]] trait and gets +4 hit points.",
 		"type_code": "attachment"
 	},
 	{
 		"boost": 1,
 		"code": "27029",
 		"faction_code": "encounter",
+		"flavor": "\"Fresh meat...\" — The Lizard",
 		"name": "In Cold Blood",
 		"octgn_id": "e1af91a1-1775-4b5c-a02a-ec9eae2c5259",
 		"pack_code": "sm",
@@ -67,25 +75,29 @@
 		"quantity": 2,
 		"set_code": "ghost_spider_nemesis",
 		"set_position": 4,
+		"text": "<b>When Revealed</b>: The Lizard attacks you. You cannot play events until after that attack resolves. If no attack was made this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 2,
 		"code": "27056",
 		"faction_code": "encounter",
-		"name": "Keeping Secret",
+		"name": "Keeping Secrets",
 		"octgn_id": "42f1725b-2160-4545-8eaa-91cc9aac1ec3",
 		"pack_code": "sm",
 		"position": 56,
 		"quantity": 1,
 		"set_code": "spider_man_morales",
+		"text": "<b>Give to the Miles Morales player.</b>\nYou may flip to alter-ego form. Choose:\n- Exhaust Miles Morales → remove Keeping Secrets from the game.\n- Discard Ganke Lee and Jefferson Davis from play. If neither was discarded this way, this card gains surge. Discard this obligation.",
 		"type_code": "obligation"
 	},
 	{
-		"base_threat_fixed": 4,
+		"base_threat": 4,
+		"base_threat_fixed": true,
 		"boost": 3,
 		"code": "27057",
 		"faction_code": "encounter",
+		"flavor": "Prowler is on the hunt and won't stop until he corners his prey.",
 		"name": "Tracking Prey",
 		"octgn_id": "1bfbbe55-3f2e-4aec-ac8a-f0bc5d4d8f8c",
 		"pack_code": "sm",
@@ -94,6 +106,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "spider_man_morales_nemesis",
 		"set_position": 1,
+		"text": "<b>When Revealed</b>: If you are in alter-ego form, place 1 acceleration token here.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -101,6 +114,7 @@
 		"boost": 2,
 		"code": "27058",
 		"faction_code": "encounter",
+		"flavor": "\"I'll give ya one piece of advice: Don't let me find you.\"",
 		"health": 5,
 		"is_unique": true,
 		"name": "Prowler",
@@ -111,13 +125,17 @@
 		"scheme": 1,
 		"set_code": "spider_man_morales_nemesis",
 		"set_position": 2,
+		"text": "Stalwart.\n<b>When Revealed</b>: If you are in alter-ego form, give Prowler a tough status card.\n<i>(Spider-Man's nemesis minion)</i>",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
+		"attack": 2,
+		"attack_text": "Attached minion's attacks gain piercing.",
 		"boost": 2,
 		"code": "27059",
 		"faction_code": "encounter",
+		"flavor": "Claws designed to shred steel.",
 		"name": "Razor Claws",
 		"octgn_id": "a189f7d0-3481-4002-bdac-0b42137236e1",
 		"pack_code": "sm",
@@ -125,6 +143,7 @@
 		"quantity": 1,
 		"set_code": "spider_man_morales_nemesis",
 		"set_position": 3,
+		"text": "Attach to the minion with the highest printed hit points. If you cannot, this card gains surge.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -139,6 +158,7 @@
 		"quantity": 2,
 		"set_code": "spider_man_morales_nemesis",
 		"set_position": 4,
+		"text": "<b>When Revealed</b>: Prowler attacks the player with the fewest remaining hit points <i>(even if that player is in alter-ego form)</i>. If that attack defeats a character or not attack was made this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
@@ -157,6 +177,7 @@
 		"set_code": "sandman",
 		"set_position": 1,
 		"stage": 1,
+		"text": "Sand Blast - [star]<b>Forced Interrupt: </b> When sandman attacks you, that attack deals indirect damage. If your identity takes any amount of damange from that attack, resolve the Surging Sands ability on City Streets",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -176,6 +197,7 @@
 		"set_code": "sandman",
 		"set_position": 2,
 		"stage": 2,
+		"text": "<b>When Revealed: </b> Resolve the Surging Sands ability on City Streets. \n Sand Blast - [star] <b>Forced Interrupt: </b> When Sandman attacks you, that attack deals indirect damage. If your identity takes any amount of damage from that attack, resolve the Surging Sands ability on City Streets.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -195,6 +217,7 @@
 		"set_code": "sandman",
 		"set_position": 3,
 		"stage": 3,
+		"text": "<b>When Revealed: </b> Place 1 sand counter on City Streets. Resolve its Surging Sands ability. \n Sand Wave - [star] <b>Forced  Interrupt: </b> When Sandman attacks you, that attack gains overkill. If your identity takes any amount of damage from that attack, resolve the Surging Sands ability on City Streets.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -209,9 +232,11 @@
 		"pack_code": "sm",
 		"position": 64,
 		"quantity": 1,
+		"scheme_text": "<b>Forced Response:</b> After an accerleration token is place on this scheme, deal 3 indirect damage to the first player. \n <b>If this stage is completed, the players lose the game. </b>",
 		"set_code": "sandman",
 		"set_position": 4,
 		"stage": 1,
+		"text": "<b>Contents: </b> Sandman (I) and Sandman (II). (Sandman (II) and Sandman (III) instead for expert mode.) Sandman, City in Chaos, and standard encounter sets. One modular encounter set (Down to Earth). \n <b>Setup: </b>Search the encounter deck for the city Streets environment and put it into play. Place 4 sand counters on it.",
 		"threat": 9,
 		"type_code": "main_scheme"
 	},
@@ -225,11 +250,13 @@
 		"quantity": 1,
 		"set_code": "sandman",
 		"set_position": 5,
+		"text": "Surging Sands - <b>Special: </b>Place 1 sand counter here. Discard card from the top of the encounter deck equal to the number of sand counters here. \n <b>Hero Action: </b> Exhause a chracter you control -> remove sand counters from here equal to that character's ATK. (limit once per round per player.)",
 		"traits": "Location.",
 		"type_code": "environment"
 	},
 	{
 		"boost": 0,
+		"boost_text": "Reveal this card.",
 		"code": "27066",
 		"faction_code": "encounter",
 		"name": "Sand Form",
@@ -239,6 +266,7 @@
 		"quantity": 2,
 		"set_code": "sandman",
 		"set_position": 6,
+		"text": "Attach to Sandman. \n <b>Forced Interrupt: </b> When you would deal amount of damage to Sandman, discard sand Form instead -> resove the Surging Sands ability on City Streets",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -254,6 +282,7 @@
 		"scheme": 1,
 		"set_code": "sandman",
 		"set_position": 8,
+		"text": "X is equal to the number of sand counters on City Street. \n <b>When Defeated: </b>Resove the Surging Sands ability on City Streets.",
 		"type_code": "minion"
 	},
 	{
@@ -267,6 +296,7 @@
 		"position": 68,
 		"quantity": 2,
 		"scheme_crisis": 1,
+		"scheme_text": "<b>When Deafeated:</b> Resolve the Surging Sands ability on City Streets. Resolve it again.",
 		"set_code": "sandman",
 		"set_position": 12,
 		"type_code": "side_scheme"
@@ -282,12 +312,14 @@
 		"position": 69,
 		"quantity": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "<b>When Revealed: </b> Place X additional threat here, where X is equal to the number of sand counter on City Streets.",
 		"set_code": "sandman",
 		"set_position": 14,
 		"type_code": "side_scheme"
 	},
 	{
 		"boost": 0,
+		"boost_text": "Resolve this card's <b>When Revealed </b> ability.",
 		"code": "27070",
 		"faction_code": "encounter",
 		"name": "Sandslide",
@@ -297,6 +329,7 @@
 		"quantity": 1,
 		"set_code": "sandman",
 		"set_position": 15,
+		"text": "<b>When Revealed: </b> Place 2 sand counters on City Streets, then resolve its Surging Sands ability. If at least 1 Sandman card was discarded this way, you are stunned.",
 		"type_code": "treachery"
 	},
 	{
@@ -310,6 +343,7 @@
 		"quantity": 1,
 		"set_code": "sandman",
 		"set_position": 16,
+		"text": "<b> When Revealed: </b> Deal X indirect damage among players (divided as you choose), where X is requal to the number of sand counters on City Streets. If there are no sand counters on City Streets, place 3 sand counters on it and shuffle this card into the encounter deck.",
 		"type_code": "treachery"
 	},
 	{
@@ -323,6 +357,7 @@
 		"quantity": 2,
 		"set_code": "sandman",
 		"set_position": 17,
+		"text": "<b>When Revealed (Alter-Ego): </b> resolve the Surging Sands ability on City streets. This card gain surge. \n <b>When Revealed (Hero):</b>Sandman attacks you with +1 ATK",
 		"type_code": "treachery"
 	},
 	{
@@ -342,6 +377,7 @@
 		"set_position": 1,
 		"stage": 1,
 		"traits": "Symbiote.",
+		"text": "Toughness. (This character enters play with a tough status card.) \n Vengeance - <b> Forced Response: </b> After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
 		"type_code": "villain"
 	},
 	{
@@ -360,6 +396,7 @@
 		"set_code": "venom",
 		"set_position": 2,
 		"stage": 2,
+		"text": "Toughness. Steady. \n <b>When Revealed: </b>Search the encounter deck and discard pile for the Tooth and Nail side scheme and put it into play. (Shuffle.) \n Vengeance - <b>Forced Response: </b> After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
 		"traits": "Symbiote.",
 		"type_code": "villain"
 	},
@@ -379,6 +416,7 @@
 		"set_code": "venom",
 		"set_position": 3,
 		"stage": 3,
+		"text": "Retaliate 1. Steady. Toughness. \n <b>When Revealed: </b> Place 2 facedown boost cards on each identity. \n Retribution - <b>Forced Response: </b>After you attack and damge Venom with a card you control, place 1 facedown boost card on your identity (2 facedown boost cards instead if this is the first attack this turn).",
 		"traits": "Symbiote.",
 		"type_code": "villain"
 	},
@@ -392,9 +430,11 @@
 		"pack_code": "sm",
 		"position": 76,
 		"quantity": 1,
+		"scheme_text": "<b>Forced Interrupt: </b> When Venom activates against you, move each facedown boost card from your identity to Venom. \n <b>If this stage is completed, the players lose the game </b>",
 		"set_code": "venom",
 		"set_position": 4,
 		"stage": 1,
+		"text": "<b>Contents: </b> Venom (I) and Venom (II). (Venom (II) and Venom (III) instead for expert mode.) Venom, Symbiotic Strength, and Standard encounter sets. One modular encounter set (Down to Earth.) \n <b> Setup: </b>Put the Bell Twoer environment into play, [[QUIET]] side faceup.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -408,8 +448,10 @@
 		"pack_code": "sm",
 		"position": 76,
 		"quantity": 1,
+		"scheme_text": "<b>Forced Interrupt: </b> When Venom activates against you, move each facedown boost card from your identity to Venom. \n <b>If this stage is completed, the players lose the game </b>",
 		"set_code": "venom",
 		"set_position": 4,
+		"text": "<b>Contents: </b> Venom (I) and Venom (II). (Venom (II) and Venom (III) instead for expert mode.) Venom, Symbiotic Strength, and Standard encounter sets. One modular encounter set (Down to Earth.) \n <b> Setup: </b>Put the Bell Twoer environment into play, [[QUIET]] side faceup.",
 		"threat": 10,
 		"type_code": "main_scheme"
 	},
@@ -425,6 +467,7 @@
 		"quantity": 1,
 		"set_code": "venom",
 		"set_position": 5,
+		"text": "If there are at least 3[per_player] chime counters here, flip this card. \n <b>Interrupt: </b> When any amount of damage would be dealt to Venom by an attack, (you may) place that many chime counters here instead.",
 		"traits": "Location. Quiet.",
 		"type_code": "environment"
 	},
@@ -439,11 +482,13 @@
 		"quantity": 1,
 		"set_code": "venom",
 		"set_position": 5,
+		"text": "Increase all damage Venom takes by 1. \n If there are no chime counters here, flip this card. \n <b>Forced Interrupt: </b> When Venom's attack would deal any amount of damage to an identity, remove that many chime counters from here. For each chime counter removed this way, prevent 1 of that damage.",
 		"traits": "Location. Ringing.",
 		"type_code": "environment"
 	},
 	{
 		"boost": 0,
+		"boost_text": "Reveal this card.",
 		"code": "27078",
 		"faction_code": "encounter",
 		"name": "\"Now We're Angry!\"",
@@ -453,6 +498,7 @@
 		"quantity": 2,
 		"set_code": "venom",
 		"set_position": 6,
+		"text": "Attach to Venom. \n Uses (2 rage counters). \n [star] Venom's attack gain overkill. \n <b>Forced Response: </b>After Venom takes any amount of damage from an attack, remove 1 rage counter from here",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -466,6 +512,7 @@
 		"pack_code": "sm",
 		"position": 79,
 		"quantity": 1,
+		"scheme_text": "Treat the Bell Tower's printed text box as if it were blank (except for [[traits]]). \n <b>When Revealed: </b> Remove each chime counter from the Bell Tower and flip it to it's [[quiet]] side.",
 		"set_code": "venom",
 		"set_position": 8,
 		"type_code": "side_scheme"
@@ -473,6 +520,7 @@
 	{
 		"base_threat": 9,
 		"boost": 1,
+		"boost_text": "If this activation is  an attack, take 2 indirect damage.",
 		"code": "27080",
 		"faction_code": "encounter",
 		"name": "Lashing Out",
@@ -481,6 +529,7 @@
 		"position": 80,
 		"quantity": 1,
 		"scheme_acceleration": 1,
+		"scheme_text": "<b>Response: </b> After Venom takes any amount of damage from an attack, remove an equal amount of threat from here.",
 		"set_code": "venom",
 		"set_position": 9,
 		"type_code": "side_scheme"
@@ -488,6 +537,7 @@
 	{
 		"base_threat": 8,
 		"boost": 2,
+		"boost_text": "If this activation is an attack, it gains piercing.",
 		"code": "27081",
 		"faction_code": "encounter",
 		"name": "Tooth and Nail",
@@ -496,12 +546,14 @@
 		"position": 81,
 		"quantity": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "<b>Reponse: </b> After Venom takes any amount of damage from an attack, remove an equal amount of threat from here.",
 		"set_code": "venom",
 		"set_position": 10,
 		"type_code": "side_scheme"
 	},
 	{
 		"boost": 1,
+		"boost_text": "Remove 1 chime counter from the Bell tower.",
 		"code": "27082",
 		"faction_code": "encounter",
 		"name": "Biting Retort",
@@ -511,10 +563,12 @@
 		"quantity": 2,
 		"set_code": "venom",
 		"set_position": 11,
+		"text": "<b>When Revealed: </b> Venom activates against you. Each boost card turned faceup during that activation gets +1 boost icon [boost].",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 0,
+		"boost_text": "Resolve this card's <b>When Revealed </b> ability.",
 		"code": "27083",
 		"faction_code": "encounter",
 		"name": "For Whom the Bell Tolls",
@@ -524,6 +578,7 @@
 		"quantity": 2,
 		"set_code": "venom",
 		"set_position": 13,
+		"text": "<b>When Revealed: </b> Remove 2 chime counters from the Bell Tower. If the Bell Tower is on its [[quiet]] side, take 1 damage. If it is on its [[ringing]] side, remove 1 threat from the main scheme.",
 		"type_code": "treachery"
 	},
 	{
@@ -542,6 +597,7 @@
 		"set_code": "mysterio",
 		"set_position": 1,
 		"stage": 1,
+		"text": "Seeds of Fear - [star] <b>Forced Response: </b> After you resolve a boost card during Mysterio's activation, place that card in your discard pile if it has the [illusion]] trait.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -561,6 +617,7 @@
 		"set_code": "mysterio",
 		"set_position": 2,
 		"stage": 2,
+		"text": "<b>When Revealed:</b> In player order, shuffle the top card of the encounter deck into each player's deck. \n Creeping Fear - [star] <b>Forced Response: </> After you resolve a boost card during Mysterio's activation, place that card on the bootom of your deck if it has the [[illusion]] trait.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -580,11 +637,13 @@
 		"set_code": "mysterio",
 		"set_position": 3,
 		"stage": 3,
+		"text": "<b>When Revealed: </b> Discard the top 5 cards of each player's deck. \n Bound by Feat - [star] <b> Forced Response: </b> After you resolve a boost card during Mysterio's Activation, place that card on the top of your deck if it has the [[illusion]] trait.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
 	{
 		"base_threat": 2,
+		"back_text": "<b>Forced Interript: </b> When you would draw or discard an encounter card from your deck, deal it to yourself as a facedown encounter card → draw 1 card.",
 		"code": "27087",
 		"double_sided": true,
 		"escalation_threat": 1,
@@ -594,6 +653,7 @@
 		"pack_code": "sm",
 		"position": 87,
 		"quantity": 1,
+		"scheme_text": "<b> Contents: </b> Mysterio (I) and Mysterio (II). (Mysterio (II) and Mysterio (III) instead for expert mode.) Mysterio, Personal Nightmare, and Standard encounter sets. One modular encounter set (Whispers of Paranoia.) \n <b> Setup</b>Put a shifting Apparition minion into play engaged with each player. (Shuggle.)",
 		"set_code": "mysterio",
 		"set_position": 4,
 		"stage": 1,
@@ -602,6 +662,7 @@
 	},
 	{
 		"base_threat": 3,
+		"back_text": "<b> Forced Interrupt: </b> When you would draw or discard an encounter card from your deck, deal it to yourself as a facedown encounter card → draw 1 card. \n <b>If this stage is completed, the players lose the game. </b>",
 		"code": "27088",
 		"double_sided": true,
 		"escalation_threat": 1,
@@ -611,6 +672,7 @@
 		"pack_code": "sm",
 		"position": 88,
 		"quantity": 1,
+		"scheme_text": "<b> When Revealed:</b> In player order, shuffle the top 2 cards of the encoutner deck into each player's deck.",
 		"set_code": "mysterio",
 		"set_position": 5,
 		"stage": 2,
@@ -628,11 +690,13 @@
 		"quantity": 1,
 		"set_code": "mysterio",
 		"set_position": 6,
+		"text": "Attach to Mysterio. \n<b>Hero Action: </b> Spend 1 resource of any type and shuffle the top 2 cards of the encounter deck into your deck → discard this card.",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},
 	{
 		"boost": 1,
+		"boost_text": "Give Mysterio 1 additional boost card this activation.",
 		"code": "27090",
 		"faction_code": "encounter",
 		"name": "Masterful Mirage",
@@ -642,6 +706,7 @@
 		"quantity": 2,
 		"set_code": "mysterio",
 		"set_position": 7,
+		"text": "Attach to Mysterio. \n<b> Forced Interrupt </b> When you would deal any amount of damage to Mysterio, discard the top 4 cards of your deck instead. Discard this card.",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},
@@ -659,11 +724,13 @@
 		"scheme": 1,
 		"set_code": "mysterio",
 		"set_position": 9,
+		"text": "Guard. (While this minion is engaged with your, you cannot attack the villain.) \n <b> When Defeated: </b> If this minion was defeated with excess damage, the defeating player shuffles the top card of the encounter deck intro their deck.",
 		"traits": "Illusion.",
 		"type_code": "minion"
 	},
 	{
 		"boost": 0,
+		"boost_text": "Reveal this card.",
 		"code": "27092",
 		"faction_code": "encounter",
 		"name": "Déjà Vu",
@@ -673,10 +740,12 @@
 		"quantity": 2,
 		"set_code": "mysterio",
 		"set_position": 13,
+		"text": "Peril. (While you are resolving this card, other players cannot help you.) \n <b> When Revealed: </b> Choose to either take 1 damage or place 1 threat on the main scheme. Shuffle Deja Vu into any player's deck.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 0,
+		"boost_text": "Choose to either spend [mental][mental] resources or deal this card to yourself as a facedown encounter card.",
 		"code": "27093",
 		"faction_code": "encounter",
 		"name": "Fearmonger",
@@ -686,6 +755,7 @@
 		"quantity": 2,
 		"set_code": "mysterio",
 		"set_position": 15,
+		"text": "Surge. \n <b> When Revealed: </b> Discard your hand. Draw up to your hand size.",
 		"type_code": "treachery"
 	},
 	{
@@ -1313,12 +1383,14 @@
 		"position": 127,
 		"quantity": 1,
 		"scheme_acceleration": 1,
+		"scheme_text": "Treat the printed text box of each [[location]] support and each [[persona]] support as if it were blank (except for [[traits]])",
 		"set_code": "city_in_chaos",
 		"set_position": 1,
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 3,
+		"attack_text": "Rhino's attack gain overkill and piercing",
 		"boost": 3,
 		"code": "27128",
 		"faction_code": "encounter",
@@ -1332,6 +1404,7 @@
 		"scheme": 0,
 		"set_code": "city_in_chaos",
 		"set_position": 2,
+		"text": "Steady. (Steady characters require 2 status cards of the same type to be stunned or confused.)",
 		"traits": "Criminal. Elite.",
 		"type_code": "minion"
 	},
@@ -1346,6 +1419,7 @@
 		"quantity": 1,
 		"set_code": "city_in_chaos",
 		"set_position": 3,
+		"text": "<b> When Revealed: </b> Rhino schemes with +2 SCH. If Rhino is not in play, search the encounter deck and discard pile for the Rhino minion and put him into play engaged with you. (shuffle.)",
 		"type_code": "treachery"
 	},
 	{
@@ -1359,6 +1433,7 @@
 		"quantity": 2,
 		"set_code": "city_in_chaos",
 		"set_position": 4,
+		"text": "Peril. (While you are resolving this card, other players cannot help you.) \n <b> When Reveald: </b> Choose: \n Place 1 acceleration token on the main scheme. \n Exhause a character you control and spend 1 resource of any type",
 		"type_code": "treachery"
 	},
 	{
@@ -1375,6 +1450,7 @@
 		"scheme": 0,
 		"set_code": "down_to_earth",
 		"set_position": 1,
+		"text": "Surge. \n <b> Alter-ego Action: </b> Spend a [physical] resource → deal 3 damage to Common Criminal. If this minion is defeated this way, choose to either draw 1 card or remove 3 threat from a side scheme.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
@@ -1389,6 +1465,7 @@
 		"quantity": 1,
 		"set_code": "down_to_earth",
 		"set_position": 4,
+		"text": "While in hero form, increase the resource cost of each event you play by 1. \n <b> Alter-Ego Action: </b> Discard 1 identity specific card from your hand → discard this obligation.",
 		"type_code": "obligation"
 	},
 	{
@@ -1402,6 +1479,7 @@
 		"position": 133,
 		"quantity": 1,
 		"scheme_acceleration": 1,
+		"scheme_text": "You cannot thwart this scheme. \n <b> Alter-Ego Action: </b> Spend 2 resources of any type → remove threat from this scheme equal to your alter-ego's REC. If your identity has the [[civilian]] trait, draw 1 card.",
 		"set_code": "down_to_earth",
 		"set_position": 5,
 		"type_code": "side_scheme"
@@ -1416,6 +1494,7 @@
 		"quantity": 1,
 		"set_code": "down_to_earth",
 		"set_position": 6,
+		"text": "<b> When Revealed: </b> You may change form. If you are in hero form, place 2 threat on the main scheme. If you are alter-ego form, you cannot change form during your next turn.",
 		"type_code": "treachery"
 	},
 	{
@@ -1428,6 +1507,7 @@
 		"quantity": 1,
 		"set_code": "down_to_earth",
 		"set_position": 7,
+		"text": "<b> When Revealed: </b> Search the encounter deck, discard pile, set-aside area, and removed-from-game area for a copy of your obligation, then reveal it. During that reveal, if you change to alter-ego form, discard 1 random card from your hand. If your obligation was not revealed this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
@@ -1441,6 +1521,7 @@
 		"quantity": 1,
 		"set_code": "goblin_gear",
 		"set_position": 1,
+		"text": "Attach to the villain. \n <b> Forced Response: </b> After attached villain activates against you, it activates against you again. (Limit once per rounder per player). \n <b> Hero Action: </b> Discard any number of [[attack]] cards from your hand with a combined resource cost of 3 or more → discard this card.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
@@ -1455,6 +1536,7 @@
 		"quantity": 1,
 		"set_code": "goblin_gear",
 		"set_position": 2,
+		"text": "Attach to the villain. \n Uses (2 bomb counters.) \n [star] <b>Foced Response: </b> After the villain attacks you, remove 1 bomb counter from here → exhauset 1 upgrade and 1 support you control.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -1469,6 +1551,7 @@
 		"quantity": 1,
 		"set_code": "goblin_gear",
 		"set_position": 3,
+		"text": "Attach to the villain. \n Uses (2 bomb counters.) \n [star] <b>Foced Response: </b> After the villain attacks you, remove 1 bomb counter from here → take 2 indirect damage.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -1483,6 +1566,7 @@
 		"quantity": 1,
 		"set_code": "goblin_gear",
 		"set_position": 4,
+		"text": "Attach to the villain. \n Uses (2 bomb counters.) \n [star] <b>Foced Response: </b> After the villain attacks you, remove 1 bomb counter from here → discard 1 event from your hand with the lowest cost.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -1497,12 +1581,14 @@
 		"position": 140,
 		"quantity": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "Each [[Tech]] attachment gains surge.",
 		"set_code": "goblin_gear",
 		"set_position": 5,
 		"type_code": "side_scheme"
 	},
 	{
 		"boost": 0,
+		"boost_text": "Give the villain 2 additional boost cards for this activation.",
 		"code": "27141",
 		"faction_code": "encounter",
 		"name": "Remote Navigation",
@@ -1512,11 +1598,13 @@
 		"quantity": 1,
 		"set_code": "goblin_gear",
 		"set_position": 6,
+		"text": "<b> When Revealed: </b> If Advaned Glider is in play, the villain activates against you. If it is not in play, search the encounter deck and discard pile for Advance Glider and reveal it.",
 		"type_code": "treachery"
 	},
 	{
 		"attack": 0,
 		"boost": 0,
+		"boost_text": "Put this minion into play engaged with you.",
 		"code": "27142",
 		"faction_code": "encounter",
 		"health": 5,
@@ -1528,11 +1616,13 @@
 		"scheme": 0,
 		"set_code": "guerrilla_tactics",
 		"set_position": 1,
+		"text": "In expert mode, Life-size Decoy gains toughness. \n The engaged player cannot thwart side schemes",
 		"type_code": "minion"
 	},
 	{
 		"base_threat_fixed": 6,
 		"boost": 1,
+		"boost_text": "Place 1 threat on each scheme. (In expert mode, place 1 additional threat on the main scheme.)",
 		"code": "27143",
 		"faction_code": "encounter",
 		"name": "Coordinated Effort",
@@ -1540,6 +1630,7 @@
 		"pack_code": "sm",
 		"position": 143,
 		"quantity": 1,
+		"scheme_text": "Each enemy gains 1 acceleration icon.",
 		"set_code": "guerrilla_tactics",
 		"set_position": 3,
 		"type_code": "side_scheme"
@@ -1547,6 +1638,7 @@
 	{
 		"base_threat_fixed": 4,
 		"boost": 1,
+		"boost_text": "Deal 1 idirect damage to each player. (In expert mode, deal 1 addition indirect damage to the first player.)",
 		"code": "27144",
 		"faction_code": "encounter",
 		"name": "Hidden in Shadow",
@@ -1554,6 +1646,7 @@
 		"pack_code": "sm",
 		"position": 144,
 		"quantity": 1,
+		"scheme_text": "Each enemy gains 1 hazard icon.",
 		"set_code": "guerrilla_tactics",
 		"set_position": 4,
 		"type_code": "side_scheme"
@@ -1561,6 +1654,7 @@
 	{
 		"base_threat_fixed": 5,
 		"boost": 1,
+		"boost_text": "In expert mode, this card gets +2 boost icons [boost][boost] for this activation.",
 		"code": "27145",
 		"faction_code": "encounter",
 		"name": "Teamwork Makes the Dream Work",
@@ -1568,6 +1662,7 @@
 		"pack_code": "sm",
 		"position": 145,
 		"quantity": 1,
+		"scheme_text": "Each enemy gets +1 SCH and +1 ATK.",
 		"set_code": "guerrilla_tactics",
 		"set_position": 5,
 		"type_code": "side_scheme"
@@ -1582,6 +1677,7 @@
 		"quantity": 2,
 		"set_code": "guerrilla_tactics",
 		"set_position": 6,
+		"text": "In expert mode, this card gains surge. \n <b> When Revealed: </b> Place 1 threat on the main scheme for each enemy in play.",
 		"type_code": "treachery"
 	},
 	{
@@ -1595,6 +1691,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 1,
+		"text": "Surge. \n Attach to the villain \n [star] Attached villain's attacks gain overkill and piercing.  <b> Hero Action: </b> Discard the highest cost upgrade you control → discard this card.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -1609,6 +1706,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 2,
+		"text": "Surge. \n Attach to the villain \n [star] <b> Forced Response: </b> After attached villain attacks and damages your identity, place 2 threat on the main scheme. \n <b> Hero Action: </b> Spend [energy] [mental][physical] resources → discard this card.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
@@ -1623,6 +1721,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 3,
+		"text": "Surge. \n Attach to the villain \n Attached villain gains realiate 1. \n <b> Hero Action: </b> Take 3 indirect damage → discard this card.",
 		"traits": "Armor. Tech.",
 		"type_code": "attachment"
 	},
@@ -1637,6 +1736,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 4,
+		"text": "Surge. \n Attach to the villain \n Reduce the amount of damage attached villain takes from each attack by 1  <b> Hero Action: </b> Give the villain a tough status card and 1 facedown boost card → discard this card.",
 		"traits": "Armor. Tech.",
 		"type_code": "attachment"
 	},
@@ -1651,6 +1751,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 5,
+		"text": "Surge. \n Attach to the villain. \n <b> Hero Action: </b> The villain attacks you. After that attack ends, if your identity took no damage from that attack, discard this card.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -1665,6 +1766,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 6,
+		"text": "Surge . \n Attach to the villain. \n [star] Each character cannot defend against attached villain's attack. \n <b> Hero Action: </b> Exhause a character you control and discard 1 random card from your hand → discard this card.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
@@ -1679,12 +1781,14 @@
 		"quantity": 1,
 		"set_code": "personal_nightmare",
 		"set_position": 1,
+		"text": "Attach to your identity. \n You cannot resolve triggered abilities in your hero's printed text box. (Triggered abilities are ones with <b> bold </b> timing triggers.) /n <b> Alter-Ego Action: </b> Discard 1 identity-specific card at random from your hand →discard this card.",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},
 	{
 		"attack": 1,
 		"boost": 2,
+		"boost_text": "Draw 3 cards. Discard 3 random cards from your hand.",
 		"code": "27154",
 		"faction_code": "encounter",
 		"health": 5,
@@ -1696,6 +1800,7 @@
 		"scheme": 1,
 		"set_code": "personal_nightmare",
 		"set_position": 2,
+		"text": "Evil Doppelganger gers +X SCH and +X ATK where X is equal to the number of identity-specific cards in the engaged player's hand.",
 		"traits": "Illusion.",
 		"type_code": "minion"
 	},
@@ -1712,6 +1817,7 @@
 		"scheme_acceleration": 1,
 		"scheme_crisis": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "Victory  1. (When defeated, add this card to the victory display.) \n Each identity gets +2 hand size.",
 		"set_code": "personal_nightmare",
 		"set_position": 4,
 		"type_code": "side_scheme"
@@ -1727,6 +1833,7 @@
 		"position": 156,
 		"quantity": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "<b> When Revealed: </b> Place 1 additional threat here for each card in your hand.",
 		"set_code": "personal_nightmare",
 		"set_position": 5,
 		"type_code": "side_scheme"
@@ -1741,6 +1848,7 @@
 		"quantity": 2,
 		"set_code": "personal_nightmare",
 		"set_position": 6,
+		"text": "Peril. (While you are resolving this card, other players cannot help you.) \n <b>When Revealed: </b> Discard cards from the top of your deck equal to the number of cards in your hand. If at least 1 identity-specific card was discarded this way, place 1 threat on the main scheme. If not identity-specific card was discarded this way, take 1 damage.",
 		"type_code": "treachery"
 	},
 	{
@@ -1757,6 +1865,7 @@
 		"scheme": 2,
 		"set_code": "sinister_assault",
 		"set_position": 1,
+		"text": "Incite 2. Villainous. \n [star] <b> Forced Response: </b> After Doctor Octopus activates against you, place 1 threat on each scheme.",
 		"traits": "Elite. Genius.",
 		"type_code": "minion"
 	},
@@ -1774,6 +1883,7 @@
 		"scheme": 2,
 		"set_code": "sinister_assault",
 		"set_position": 2,
+		"text": "Retaliate 1. Villainous. \n <b>Forced Response: </b> After Electro engages you or activates against you, discard cards from the top of your deck until you discard a [energy] or [wild] resource.",
 		"traits": "Criminal. Elite.",
 		"type_code": "minion"
 	},
@@ -1791,6 +1901,7 @@
 		"scheme": 1,
 		"set_code": "sinister_assault",
 		"set_position": 3,
+		"text": "Patrol. Villainous. \n [star] <b>Forced Response: </b> After Hobgolbin attacks you, take 2 indirect damage.",
 		"traits": "Aerial. Elite.",
 		"type_code": "minion"
 	},
@@ -1808,6 +1919,7 @@
 		"scheme": 1,
 		"set_code": "sinister_assault",
 		"set_position": 4,
+		"text": "Steady. Villainous. \n [star] <b>Forced Response: </b> After Kraven the Hunter attacks and damges a character you control, discard 1 upgrade or support you control.",
 		"traits": "Elite.",
 		"type_code": "minion"
 	},
@@ -1825,6 +1937,7 @@
 		"scheme": 1,
 		"set_code": "sinister_assault",
 		"set_position": 5,
+		"text": "Toughness. Villainous. \n [star] <b>Forced Response: </b> After Scorpion attacks and damges a character, stun that character. If it is already stunned, deal 2 damage to it.",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
@@ -1842,6 +1955,7 @@
 		"scheme": 1,
 		"set_code": "sinister_assault",
 		"set_position": 6,
+		"text": "Quickstrike. Villainous. \n [star] <b>Forced Response: </b> After Vulture activates against you, discard 1 random card from your hand.",
 		"traits": "Aerial. Elite.",
 		"type_code": "minion"
 	},
@@ -1857,6 +1971,7 @@
 		"scheme_boost": 1,
 		"set_code": "symbiotic_strength",
 		"set_position": 1,
+		"text": "Attach to the villain. \n <b> Hero Action: </b> Spend [mental][physical][energy] resources → discard this card.",
 		"type_code": "attachment"
 	},
 	{
@@ -1870,11 +1985,13 @@
 		"quantity": 1,
 		"set_code": "symbiotic_strength",
 		"set_position": 2,
+		"text": "Attach to the villain. \n <b>Forced Response: </b> After attached villain takes any amount of damage from an attack, give attached villain 1 facedown boost card. If that attack dealt 3 or more damage to attached villain, discard this card.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
 	{
 		"boost": 0,
+		"boost_text": "You are stunned. If you are already stunned, take 2 damage.",
 		"code": "27166",
 		"faction_code": "encounter",
 		"name": "Webbed Up",
@@ -1884,12 +2001,14 @@
 		"quantity": 1,
 		"set_code": "symbiotic_strength",
 		"set_position": 3,
+		"text": "Attach to your identity.  \n <b> Forced Interrupt </b> When your hero would attack, discard Webbed Up instead. Then you are stunned.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
 	{
 		"attack": 2,
 		"boost": 0,
+		"boost_text": "Put enraged Symbiote into play engaged with you.",
 		"code": "27167",
 		"faction_code": "encounter",
 		"health": 2,
@@ -1901,6 +2020,7 @@
 		"scheme": 1,
 		"set_code": "symbiotic_strength",
 		"set_position": 4,
+		"text": "Guard Patrol. (While this minion is engaged with you, you cannot thwart the main scheme.)",
 		"traits": "Symbiote.",
 		"type_code": "minion"
 	},
@@ -1915,10 +2035,12 @@
 		"quantity": 2,
 		"set_code": "symbiotic_strength",
 		"set_position": 7,
+		"text": "<b> When Revealed (Alter-Ego): </b> Change to hero form. The villain attacks you. \n <b>When Revealed (Hero): </b> The villain attacks you. Give the villain 1 additional boost card for that activation.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 0,
+		"boost_text": "If this activation is an attack, this card gets +2 boost icons ([boost][boost]) for this attack and this attack gains overkill.",
 		"code": "27169",
 		"faction_code": "encounter",
 		"name": "Unstable Sentience",
@@ -1928,10 +2050,12 @@
 		"quantity": 1,
 		"set_code": "symbiotic_strength",
 		"set_position": 9,
+		"text": "Surge. \n <b> When Revealed: </b> Give the villain 1 facedown boost card.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 1,
+		"boost_text": "If any ally is defeated by this attack, take indirect damage equal to that ally's printed cost.",
 		"code": "27170",
 		"faction_code": "encounter",
 		"name": "Delusion of Collusion",
@@ -1941,6 +2065,7 @@
 		"quantity": 2,
 		"set_code": "whispers_of_paranoia",
 		"set_position": 1,
+		"text": "Attach to your identity. \n You cannot ready allies or [[persona]] supports you control \n <b> Alter-Ego Action: </b> Discard an ally or [[persona]] support you control → discard this card.",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},
@@ -1955,11 +2080,13 @@
 		"quantity": 1,
 		"set_code": "whispers_of_paranoia",
 		"set_position": 3,
+		"text": "Treat attached ally as a minion with a blank text box (except for [[traits]]). Attach minion's SCH is equal to its printed THW and it does not take consequential damage. \n <b>When Revealed: </b> Attach to the ally you control with the lowest cost. If you cannot, this card gains surge.",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},
 	{
 		"boost": 2,
+		"boost_text": "Deal 1 damage to each character you control.",
 		"code": "27172",
 		"faction_code": "encounter",
 		"name": "Old Grudge",
@@ -1969,6 +2096,7 @@
 		"quantity": 1,
 		"set_code": "whispers_of_paranoia",
 		"set_position": 4,
+		"text": "Attached minion gets +1 hit point. \n <b> When Revealed: </b> Search the encounter deck, discard pile, and set-aside area for your nemesis minion, then reveal that minion. Attach old Grudge to it (Shuffle.)",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},
@@ -1983,6 +2111,7 @@
 		"position": 173,
 		"quantity": 1,
 		"scheme_boost": 1,
+		"scheme_text": "<b>When Revealed: </b> Search the encounter deck, discard pile, set-aside aread for your nemesis side scheme, then reveal it. Place X additional threat here, where X is requal to the amount of threat on that side scheme.",
 		"set_code": "whispers_of_paranoia",
 		"set_position": 5,
 		"type_code": "side_scheme"

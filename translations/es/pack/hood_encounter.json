@@ -19,7 +19,6 @@
 		"traits": "Criminal."
 	},
 	{
-		"back_name": "Búsqueda de contactos",
 		"back_text": "<b>Contenido:</b> El Encapuchado (I) y El Encapuchado (II). <i>(El Encapuchado (II) y El Encapuchado (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros de El Encapuchado y Normal.\n<b>Preparación:</b> elige 7 conjuntos de Encuentros modulares y apártalos a un lado <i>(puedes elegirlos al azar).</i> Elige al azar 1 de esos conjuntos, añádelo al mazo de Encuentros y barájalo.",
 		"code": "24004",
 		"flavor": "El Encapuchado pretende formar un ejército, y para ello ha de convencer a varios villanos de que juntos serían más fuertas que separados.",
@@ -28,7 +27,6 @@
 	},
 	{
 		"back_flavor": "Con esfuerzo, determinación y numerosas actividades ilegales, el Encapuchado ha logrado expandir su imperio y reunir una fuerza formidable que supone una amenaza para la seguridad de todos los ciudadanos de Nueva York.",
-		"back_name": "Promesa de prosperidad",
 		"back_text": "<b>Cuando se muestre esta carta:</b> elige al azar 1 conjunto de Encuentros modular que esté apartado, luego añádelo al mazo de Encuentros y barájalo. Coloca 1 ficha de Aceleración sobre el Plan principal.",
 		"code": "24005",
 		"name": "Promesa de prosperidad",
@@ -36,7 +34,6 @@
 	},
 	{
 		"back_flavor": "Con una legión de villanos de su parte, el Encapuchado ha fundado un imperio de depravación que incluso el más poderoso de los héroes haría bien en temer.",
-		"back_name": "Estado criminal",
 		"back_text": "<b>Cuando se muestre esta carta:</b> elige al azar 1 conjunto de Encuentros modular que esté apartado, luego añádelo al mazo de Encuentros y barájalo. Coloca 1 ficha de Aceleración sobre el Plan principal. Cada jugador debe resolver la capacidad \"Juego sucio\" de El Encapuchado siguiendo el orden de jugadores.",
 		"code": "24006",
 		"name": "Estado criminal",
@@ -300,12 +297,13 @@
 		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> cada enemigo [[Criminal]] que esté en juego ejecuta el Plan. Si ningún enemigo ejecuta el Plan de este modo, esta carta gana Oleada.\n<b>Cuando se muestre esta carta (Héroe):</b> cada enemigo [[Criminal]] que esté en juego te ataca. Si ningún enemigo ataca de este modo, esta carta gana Oleada."
 	},
 	{
+		"back_text": "<b><i>Expert Mode Only.</i></b>\nPermanent. Setup.\nEach enemy gains steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>",
 		"code": "24049",
 		"name": "Adversario formidable",
 		"text": "Permanente. Inicio.\nEl Villano gana Tesón. <i>(Un personaje con Tesón requiere 2 cartas de Estado del mismo tipo para quedar aturdido o confundido.)</i>"
 	},
 	{
-		"boost_text":"dale al Villano 1 carta de aumento adicional para esta activación.",
+		"boost_text": "dale al Villano 1 carta de aumento adicional para esta activación.",
 		"code": "24050",
 		"name": "Tratos turbios",
 		"text": "<b>Cuando se muestre esta carta:</b> el Villano ejecuta el Plan con +1 PLA."
@@ -389,7 +387,7 @@
 		"code": "24064",
 		"flavor": "La Brigada de Demolición está desbocada y emplea sus músculos imbuidos de magia para sembrar el caos y la destrucción.",
 		"name": "Expertos en demoliciones",
-		"text": "Complicación 2[per_player]. <i>(Cuando se muestre esta carta, coloca 2[per_player] de Amenaza sobre ella.)</i>\nEl Villano y todos los Esbirros [[Élite]] ganan Represalia 1."
+		"text": "Complicación 2[per_hero]. <i>(Cuando se muestre esta carta, coloca 2[per_hero] de Amenaza sobre ella.)</i>\nEl Villano y todos los Esbirros [[Élite]] ganan Represalia 1."
 	},
 	{
 		"attack_text": "Mientas Destructor esté atacando, recibe +2 ATQ si es un ataque no defendido.",
