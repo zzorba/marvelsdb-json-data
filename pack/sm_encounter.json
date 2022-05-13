@@ -1099,6 +1099,7 @@
 		"set_code": "venom_goblin",
 		"set_position": 1,
 		"stage": 1,
+		"text": "Steady. \n Infest the City - [star] <b>Forced Response: </b> After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Choose to either place 2 threat on that scheme or resolve its <b> Special </b> ability.",
 		"traits": "Goblin. Symbiote.",
 		"type_code": "villain"
 	},
@@ -1118,6 +1119,7 @@
 		"set_code": "venom_goblin",
 		"set_position": 2,
 		"stage": 2,
+		"text": "Steady. Toughness. \n <b>When Revealed: </b> Deal 2 facedown encounter cards to each player. \n Claim the Throne - [star] <b>Forced Response: </b>After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Resolve its <b>Special</b> ability.",
 		"traits": "Goblin. Symbiote.",
 		"type_code": "villain"
 	},
@@ -1137,6 +1139,7 @@
 		"set_code": "venom_goblin",
 		"set_position": 3,
 		"stage": 3,
+		"text": "Retaliate 1. Stalwart. Toughness. \n <b>When Revealed: </b> Deal 3 facedown encounter cards to each player. \n Reign of Terror - [star]<b>Forced Response: </b> After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Place 1 threat on that scheme and resolve its <b> Special </b> ability.",
 		"traits": "Goblin. Symbiote.",
 		"type_code": "villain"
 	},
@@ -1153,6 +1156,7 @@
 		"set_code": "venom_goblin",
 		"set_position": 4,
 		"stage": 1,
+		"text": "<b> Contents: </b> Venom Goblin (I) and Venom Goblin (II) (Venom Goblin (II) and Venom Goblin (III) for expert mode.) Venom Goblin, symbiotic strength, and standard encounter sets. One modular encounter set (Goblin Gear). \n <b>Setup: </b> Put the Lower Manhattan, Midtown Mahattan, and Upper Mahattan main schemes into play. Place the glifer counter on Midtown Manhattan. Flip this card and set it asside.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -1166,6 +1170,7 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 4,
+		"text": "Player cards that affect the main scheme can apply to any main scheme. \n encounter cards that affect the main scheme only apply to the scheme with the glider counter (including the placing of acceleration tokens). \n Each main scheme accumulates threat each round according to its acceleration value and any accerlation tokens on that scheme",
 		"type_code": "environment"
 	},
 	{
@@ -1183,6 +1188,7 @@
 		"set_code": "venom_goblin",
 		"set_position": 5,
 		"stage": 1,
+		"text": "<b>Special: </b>Place 1 threat on each scheme. If a [[symbiote]] environment is in play, place 1 additional threat on this scheme.",
 		"threat": 11,
 		"type_code": "main_scheme"
 	},
@@ -1197,6 +1203,7 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 5,
+		"text": "<b> When Revealed: </b> Move the glider counter and each accerleration token from here to the main scheme with the least threat. \n <b> If there are at least 2 [[symbiote]] environments in play, the players lose the game.",
 		"traits": "Location. Symbiote.",
 		"type_code": "environment"
 	},
@@ -1215,6 +1222,7 @@
 		"set_code": "venom_goblin",
 		"set_position": 6,
 		"stage": 1,
+		"text": "<b>Special: </b> Take 2 indirect damage. If a [[symbiote]] environment is in play, take 1 additional indirect damage.",
 		"threat": 12,
 		"type_code": "main_scheme"
 	},
@@ -1229,6 +1237,7 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 6,
+		"text": "<b> When Revealed: </b> Move the glider counter and each accerleration token from here to the main scheme with the least threat. \n <b> If there are at least 2 [[symbiote]] environments in play, the players lose the game.",
 		"traits": "Location. Symbiote.",
 		"type_code": "environment"
 	},
@@ -1247,6 +1256,7 @@
 		"set_code": "venom_goblin",
 		"set_position": 7,
 		"stage": 1,
+		"text": "<b>Special: </b> Discard 1 card from your hand. If a [[symbiote]] environment is in play, discard the top 4 cards of your deck.",
 		"threat": 10,
 		"type_code": "main_scheme"
 	},
@@ -1261,6 +1271,7 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 7,
+		"text": "<b> When Revealed: </b> Move the glider counter and each accerleration token from here to the main scheme with the least threat. \n <b> If there are at least 2 [[symbiote]] environments in play, the players lose the game.",
 		"traits": "Location. Symbiote.",
 		"type_code": "environment"
 	},
@@ -1275,11 +1286,13 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 8,
+		"text": "Attach to Venom Goblin. \b <b>Hero Action: </b> Spend [energ][genius][strength] printed resources -> discard this card.",
 		"type_code": "attachment"
 	},
 	{
 		"attack": 3,
 		"boost": 0,
+		"boost_text": "Move the glider counter to the main scheme with the most threat. Place 1 threat on that scheme.",
 		"code": "27121",
 		"faction_code": "encounter",
 		"health": 5,
@@ -1291,12 +1304,14 @@
 		"scheme": 0,
 		"set_code": "venom_goblin",
 		"set_position": 9,
+		"text": "[star] While a [symbiote] environment is in play, Symbiotic Berserker gains quickstrike.",
 		"traits": "Symbiote.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
 		"boost": 3,
+		"boost_text": "If this activation is an attack, this attack deals indirect damage.",
 		"code": "27122",
 		"faction_code": "encounter",
 		"health": 6,
@@ -1308,12 +1323,14 @@
 		"scheme": 2,
 		"set_code": "venom_goblin",
 		"set_position": 11,
+		"text": "Retaliate 1. Steady. Toughness. \n  [star]While a [[symbiote]] environment is in play, Symbiotic Montrosity gets +3 hit points.",
 		"traits": "Elite. Symbiote.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
 		"boost": 0,
+		"boost_text": "Place 1 threat on each main scheme without the glider counter.",
 		"code": "27123",
 		"faction_code": "encounter",
 		"health": 4,
@@ -1325,6 +1342,7 @@
 		"scheme": 1,
 		"set_code": "venom_goblin",
 		"set_position": 12,
+		"text": "Guard. \n While a [[symbiote]] environment is in play, Symbiotic Thrall gains patrol.",
 		"traits": "Symbiote.",
 		"type_code": "minion"
 	},
@@ -1339,8 +1357,10 @@
 		"position": 124,
 		"quantity": 1,
 		"scheme_acceleration": 1,
+		"scheme_text": "While there are no other [[symbiote]] environments in play, this card is considered a [[symbiote]] environment.",
 		"set_code": "venom_goblin",
 		"set_position": 16,
+
 		"type_code": "side_scheme"
 	},
 	{
@@ -1355,12 +1375,14 @@
 		"position": 125,
 		"quantity": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "Hinder 2[per_player]. \n <b> When Revealed: </b> Move the glider token to the main scheme with the most threat. Resolve thats schemes <b>Special</b> ability.",
 		"set_code": "venom_goblin",
 		"set_position": 17,
 		"type_code": "side_scheme"
 	},
 	{
 		"boost": 0,
+		"boost_text": "Resolve te","scheme_text": "Resolve the <b>Special</b> ability of the scheme with the glider counter.",
 		"code": "27126",
 		"faction_code": "encounter",
 		"name": "Spreading Panic",
@@ -1370,6 +1392,7 @@
 		"quantity": 2,
 		"set_code": "venom_goblin",
 		"set_position": 18,
+		"text": "Surge. \n <b>When Revealed: </b> Resolve the <b>Special</b> ability of the scheme with the glider counter.",
 		"type_code": "treachery"
 	},
 	{
