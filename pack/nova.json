@@ -4,7 +4,6 @@
 		"back_link": "28001b",
 		"code": "28001a",
 		"defense": 2,
-		"double_sided": true,
 		"faction_code": "hero",
 		"hand_size": 5,
 		"health": 10,
@@ -21,7 +20,6 @@
 	},
 	{
 		"code": "28001b",
-		"double_sided": true,
 		"faction_code": "hero",
 		"hand_size": 6,
 		"health": 10,
@@ -40,6 +38,7 @@
 		"attack": 1,
 		"code": "28002",
 		"cost": 3,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"health": 3,
 		"is_unique": true,
@@ -58,12 +57,13 @@
 	{
 		"code": "28003",
 		"cost": 1,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Forcefield Projection",
 		"octgn_id": "a5c6671e-e075-4a7e-9d00-908c91539758",
 		"pack_code": "nova",
 		"position": 3,
-		"quantity": 3,
+		"quantity": 2,
 		"resource_physical": 1,
 		"set_code": "nova",
 		"set_position": 2,
@@ -73,6 +73,7 @@
 	{
 		"code": "28004",
 		"cost": 2,
+		"deck_limit": 3,
 		"faction_code": "hero",
 		"name": "Lightspeed Flight",
 		"octgn_id": "9efd02f1-485f-4304-b6d0-04b6c701a475",
@@ -88,6 +89,7 @@
 	{
 		"code": "28005",
 		"cost": 2,
+		"deck_limit": 3,
 		"faction_code": "hero",
 		"name": "Pot Shot",
 		"octgn_id": "63d48598-0994-4374-a9d0-a767d6a51cd9",
@@ -103,6 +105,7 @@
 	{
 		"code": "28006",
 		"cost": 1,
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Unleash Nova Force",
 		"octgn_id": "ccf92fc5-7e77-4070-ae41-d112e507585f",
@@ -117,6 +120,7 @@
 	},
 	{
 		"code": "28007",
+		"deck_limit": 2,
 		"faction_code": "hero",
 		"name": "Connection to the Worldmind",
 		"octgn_id": "71d5eaf1-5ef9-4b7f-9c2b-a580eb0845df",
@@ -132,6 +136,7 @@
 	{
 		"code": "28008",
 		"cost": 2,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"is_unique": true,
 		"name": "Jesse Alexander",
@@ -148,6 +153,7 @@
 	{
 		"code": "28009",
 		"cost": 1,
+		"deck_limit": 1,
 		"faction_code": "hero",
 		"is_unique": true,
 		"name": "Supernova Helmet",
