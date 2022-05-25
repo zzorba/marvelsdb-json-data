@@ -2,61 +2,31 @@
 	{	
 		"code": "29028",
 		"name": "Ein kleiner Rückschlag",
-		"text": "<b>Donnez cette carte au joueur de Riri Williams.</b>\nRetirez 1 jeton Progression de votre identité, défaussez ensuite Léger Contretemps. Si aucun jeton Progression n'est retiré par cet effet, attribuez-vous 1 carte Rencontre face cachée, mélangez ensuite Léger Contretemps dans le deck Rencontre."
+		"text": "<b>Gib dies dem Spieler von Riri Williams.</b>\nEntferne 1 Fortschrittsmarker von deiner Identität und lege dann diese Karte ab. Falls auf diese Weise kein Fortschrittsmarker entfernt wurde, teile dir selbst 1 verdeckte Begegnungskarte zu und mische dann diese Karte in das Begegnungsdeck."
 	},	
 	{	
 		"code": "29029",
+		"flavor": "Lucia von Bardas hat die Kontrolle über Latveria übernommen und wird vor nichts zurückschrecken, um ein für alle Mal die Vormachtstellung Latverias zu beweisen.",
 		"name": "Gewaltherrschaft",
-		"text": "Tant que Lucia von Bardas est en jeu, cette manigance gagne une icône d'aléas ([Hazard]).\nTant que Lucia von Bardas n'est pas en jeu, cette manigance gagne une icône d'accélération ([Acceleration])."
+		"text": "Solange Lucia von Bardas im Spiel ist, erhält diese Karte ein Gefahrensymbol ([Hazard]).\nSolange Lucia von Bardas nicht im Spiel ist, erhält diese Karte ein Beschleunigungssymbol ([Acceleration])."
 	},	
 	{	
 		"code": "29030",
-		"flavor": "Lucia von Bardas a pris le contrôle de la Latvérie et ne reculera devant rien pour démontrer la puissance de son pays.",
 		"name": "Lucia von Bardas",
-		"text": "Tant que Lucia von Bardas a une carte d'état Tenace, elle gagne +1 MNG et +1 ATQ.\n<b>Réponse forcée</b> : après la fin de la phase du Méchant, donnez une carte d'état Tenace à Lucia von Bardas.\n<i>(Sbire Némésis d'Ironheart.)</i>",
+		"text": "Solange Lucia von Bardas eine Zäh-Statuskarte hat, bekommt sie +1 PLA und +1 ANG.\n<b>Erzwungene Reaktion</b>: Nachdem die Schurkenphase beendet ist, gib Lucia von Bardas eine Zäh-Statuskarte.\n<i>(Ironhearts Erzfeind-Scherge.)</i>",
 		"traits": "Cyborg. Elite. Krimineller."
 	},	
 	{	
-		"boost_text": "si vous avez au moins les ressources suivantes dans votre main : [energy][energy], mettez Zzzax en jeu, engagé avec vous.",
+		"boost_text": "Teile dir diese Karte als verdeckte Begegnungskarte zu.",
 		"code": "29031",
 		"name": " Cyborg-Technologie",
-		"text": "Attachez cette carte au sbire ayant le plus de [[TRAITS]]. Si vous ne pouvez pas, cette carte gagne Renfort.\nLe sbire attaché gagne +3 points de vie et Riposte 1.",
+		"text": "Hänge diese Karte an den Schergen mit den meisten [[Merkmalen]] an. Falls du das nicht kannst, erhält diese Karte Nachrüsten.\nDer Scherge mit diesem Anhang bekommt +3 Lebenspunkte und erhält Vergeltung 1",
 		"traits": "Tech."
 	},	
 	{	
 		"code": "29032",
-		"flavor": "\"Bravo pour votre persévérance et votre volonté. La plupart d'entre vous devraient être morts à cette heure.\"",
+		"flavor": "\"Gratulation zu eurem Durchhaltevermögen und eurem amerikanischen Kampfgeist. Die meisten von euch sollten längst tot sein.\"",
 		"name": "Politische Vergeltung",
-		"text": "<b>Une fois révélée</b> : si Lucia von Bardas est en jeu, elle manigance. Si Diriger par la Force est en jeu, placez 3 menaces dessus. Si ni l'une ni l'autre ne sont en jeu, cette carte gagne Renfort."
-	},	
-	{	
-		"code": "29036",
-		"flavor": "Zzzax contrôle l'approvisionnement en énergie de la ville, provoquant des pannes dans le système !",
-		"name": "Boucle de Rétroaction",
-		"text": "<b>Une fois révélée</b> : chaque joueur doit placer sur cette carte un nombre de menaces égal au nombre total de ressources [energy] dans sa main et sur les cartes qu'il contrôle."
-	},	
-	{	
-		"boost_text": "attribuez-vous cette carte en tant que carte Rencontre face cachée.",
-		"code": "29037",
-		"name": "Zzzax",
-		"text": "[star] Zzzax gagne +X ATQ et +X points de vie, X étant égal au nombre total de ressources [energy] sur les cartes contrôlées par le joueur engagé.",
-		"traits": "Criminel."
-	},	
-	{	
-		"code": "29038",
-		"name": "Survoltage",
-		"text": "Attachez cette carte à votre identité.\nTraitez les ressources imprimées de chaque carte dans votre main comme s'il s'agissait de [energy].\n<b>Action de héros</b> : choisissez : soit vous défaussez une carte que vous contrôlez ayant une ressource [energy] imprimée, soit vous subissez 2 dégâts indirects → défaussez cette carte."
-	},	
-	{	
-		"code": "29039",
-		"name": "Pression Statique",
-		"text": "<b>Interruption forcée</b> : quand la phase du Méchant commence, infligez 2 dégâts indirects à chaque joueur ayant une ressource [energy] dans sa main et/ou sur une carte qu'il contrôle.\n<b>Action de héros</b> : choisissez : soit vous défaussez une carte que vous contrôlez ayant une ressource [energy] imprimée, soit vous subissez 2 dégâts indirects → défaussez cette carte.",
-		"traits": "Condition."
-	},	
-	{	
-		"code": "29040",
-		"flavor": "\"Je suis Zzzax, et je te Zzzap !\"",
-		"name": "Zzzap !",
-		"text": "<b>Une fois révélée</b> : subissez un nombre de dégâts indirects égal au nombre total de ressources [energy] dans votre main. Si votre identité subit 1 dégât ou moins par cet effet, cette carte gagne Renfort."
+		"text": "<b>Sobald aufgedeckt</b>: Falls Lucia von Bardas im Spiel ist, treibt sie den Plan voran. Falls der Nebenplan Gewaltherrschaft im Spiel ist, platziere 3 Bedrohung auf ihm. Falls keine von beiden Karten im Spiel ist, erhält diese Karte Nachrüsten."
 	}	
 ]
