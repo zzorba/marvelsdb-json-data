@@ -2,7 +2,7 @@
 	{
 		"code": "21026",
 		"name": "Perdita di Controllo",
-		"text": "<b>Fai ricevere al giocatore Monica Rambeau.</b>\nNon puoi cambiare sembianza di energia.\n<b>Azione Alter Ego</b>: Esaurisci Monica Rambeau -> rimuovi dal gioco Perdita di Controllo."
+		"text": "<b>Fai ricevere al giocatore Monica Rambeau.</b>\nNon puoi cambiare sembianza di energia.\n<b>Azione Alter Ego</b>: Esaurisci Monica Rambeau → rimuovi dal gioco Perdita di Controllo."
 	},
 	{
 		"attack_text": "<b>Risposta Obbligata</b>: Dopo che Uomo Radioattivo si è attivato contro di te, infliggi 1 danno a ogni personaggio che controlli.",
@@ -21,7 +21,7 @@
 	{
 		"code": "21029",
 		"name": "Potere Prosciugato",
-		"text": "Assegna alla tua identità.\n<b>Risposta Obbligata</b> Dopo che il tuo turno è terminato, subisci 1 danno.\n<b>Azione Alter Ego</b>: Spendi [energy][energy] -> scarta questa carta."
+		"text": "Assegna alla tua identità.\n<b>Risposta Obbligata</b> Dopo che il tuo turno è terminato, subisci 1 danno.\n<b>Azione Alter Ego</b>: Spendi [energy][energy] → scarta questa carta."
 	},
 	{
 		"code": "21030",
@@ -32,7 +32,7 @@
 	{
 		"code": "21066",
 		"name": "Ciclo di Rigenerazione",
-		"text": "<b>Fai ricevere al giocatore Adam Warlock.</b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n-Esaurisci il tuo alter ego -> rimuovi dal gioco questa incombenza.\n-Scarta 5 carte dalla cima del tuo mazzo. Colloca 1 minaccia sulla trama principale per ogni aspetto diverso scartato in questo modo. Scarta questa incombenza."
+		"text": "<b>Fai ricevere al giocatore Adam Warlock.</b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n-Esaurisci il tuo alter ego → rimuovi dal gioco questa incombenza.\n-Scarta 5 carte dalla cima del tuo mazzo. Colloca 1 minaccia sulla trama principale per ogni aspetto diverso scartato in questo modo. Scarta questa incombenza."
 	},
 	{
 		"attack_text": "<b>Risposta Obbligata</b>: Dopo che Magus si è attivato contro di te, scarta 5 carte dalla cima del tuo mazzo.",
@@ -307,8 +307,8 @@
 	{
 		"code": "21110",
 		"name": "Città sotto Attacco",
-		"scheme_text": "Hinder 1[per_player].\n<b>When Defeated:</b> The player who defeated this scheme draws 1 card.",
-		"text": "Ostacolo 1[per_player] <b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama pesca 1 carta.",
+		"scheme_text": "Hinder 1[per_hero].\n<b>When Defeated:</b> The player who defeated this scheme draws 1 card.",
+		"text": "Ostacolo 1[per_hero] <b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama pesca 1 carta.",
 		"flavor": "<b><i>Gamma Corvi ordina alle sue truppe di attaccare New York per stanare gli Avengers.</i></b>"
 	},
 	{
@@ -349,8 +349,8 @@
 	{
 		"code": "21116",
 		"name": "Santuario",
-		"scheme_text": "Hinder 1[per_player]. Victory 1.\n Thanos cannot take damage.<b> When Defeated:</b> Each player may spend up to 3 [physical] resources from their hand. Deal 2 damage to Thanos for each [physical] resource spent this way. This damage ignores the tough status card.",
-		"text": "Ostacolo 1[per_player]. Vittoria 1. Thanos non può subire danni. <b>Quando Sconfitta:</b> Ogni giocatore può spendere fino a 3 [physical] dalla sua mano. Infliggi 2 danni a Thanos per ogni [physical] spesa in questo modo. Questi danni ignorano la carta status Robustezza."
+		"scheme_text": "Hinder 1[per_hero]. Victory 1.\n Thanos cannot take damage.<b> When Defeated:</b> Each player may spend up to 3 [physical] resources from their hand. Deal 2 damage to Thanos for each [physical] resource spent this way. This damage ignores the tough status card.",
+		"text": "Ostacolo 1[per_hero]. Vittoria 1. Thanos non può subire danni. <b>Quando Sconfitta:</b> Ogni giocatore può spendere fino a 3 [physical] dalla sua mano. Infliggi 2 danni a Thanos per ogni [physical] spesa in questo modo. Questi danni ignorano la carta status Robustezza."
 	},
 	{
 		"code": "21117",
@@ -484,13 +484,13 @@
 	{
 		"code": "21136a",
 		"name": "Hela",
-		"text": "[star]Hela riceve +1 TRA, +1 ATT e +2[per_player] punti ferita per ogni trama secondaria nella galleria delle vittorie. <b>Quando Hela è sconfitta, se Odino non è assegnato alla trama principale, i giocatori vincono la partita.</b>",
+		"text": "[star]Hela riceve +1 TRA, +1 ATT e +2[per_hero] punti ferita per ogni trama secondaria nella galleria delle vittorie. <b>Quando Hela è sconfitta, se Odino non è assegnato alla trama principale, i giocatori vincono la partita.</b>",
 		"traits": "Asgard. Mistico."
 	},
 	{
 		"code": "21136b",
 		"name": "Hela",
-		"text": "[star]Hela riceve +1 TRA, +1 ATT e +3[per_player] punti ferita per ogni trama secondaria nella galleria delle vittorie. <b>Quando Hela è sconfitta, se Odino non è assegnato alla trama principale, i giocatori vincono la partita.</b>",
+		"text": "[star]Hela riceve +1 TRA, +1 ATT e +3[per_hero] punti ferita per ogni trama secondaria nella galleria delle vittorie. <b>Quando Hela è sconfitta, se Odino non è assegnato alla trama principale, i giocatori vincono la partita.</b>",
 		"traits": "Asgard. Mistico."
 	},
 	{
@@ -530,20 +530,20 @@
 	{
 		"code": "21140",
 		"name": "Gnipahellir",
-		"scheme_text": "Hinder 1[per_player]. Victory 2. \n <b> When Defeated: </b> The first player reveals Gjallerbru and Skurg, and puts them into play. Deal each other player 1 facedown encounter card.",
-		"text": "Ostacolo 1[per_player]. Vittoria 2. <b>Quando Sconfitta:</b> Il primo giocatore rivela Gjallerbru e Skurge e li mette in gioco. Distribuisci 1 carta incontro a faccia in giù a ogni altro giocatore."
+		"scheme_text": "Hinder 1[per_hero]. Victory 2. \n <b> When Defeated: </b> The first player reveals Gjallerbru and Skurg, and puts them into play. Deal each other player 1 facedown encounter card.",
+		"text": "Ostacolo 1[per_hero]. Vittoria 2. <b>Quando Sconfitta:</b> Il primo giocatore rivela Gjallerbru e Skurge e li mette in gioco. Distribuisci 1 carta incontro a faccia in giù a ogni altro giocatore."
 	},
 	{
 		"code": "21141",
 		"name": "Palazzo di Nastrond",
-		"scheme_text": "Hinder 1[per_player]. Victory 4. \n <b> When Defeated: </b> The first player detaches Odin from the main scheme and takes control of him. Deal each player 1 facedown encounter card.",
-		"text": "Ostacolo 1[per_player]. Vittoria 4. <b>Quando Sconfitta:</b> Il primo giocatore disassegna Odino dalla trama principale e ne prende il controllo. Distribuisci 1 carta incontro a faccia in giù a ogni giocatore."
+		"scheme_text": "Hinder 1[per_hero]. Victory 4. \n <b> When Defeated: </b> The first player detaches Odin from the main scheme and takes control of him. Deal each player 1 facedown encounter card.",
+		"text": "Ostacolo 1[per_hero]. Vittoria 4. <b>Quando Sconfitta:</b> Il primo giocatore disassegna Odino dalla trama principale e ne prende il controllo. Distribuisci 1 carta incontro a faccia in giù a ogni giocatore."
 	},
 	{
 		"code": "21142",
 		"name": "Gjallerbru",
-		"scheme_text": "Hinder 1[per_player]. Victory 3. \n <b> When Defeated: </b> The first player reveals Hall of Nastrond and Nidhogg, and puts them into play. Deal each other player 1 facedown encounter card.",
-		"text": "Ostacolo 1[per_player]. Vittoria 3. <b>Quando Sconfitta:</b> Il primo giocatore rivela Palazzo di Nastrond e Nidhogg e li mette in gioco. Distribuisci 1 carta incontro a faccia in giù a ogni altro giocatore."
+		"scheme_text": "Hinder 1[per_hero]. Victory 3. \n <b> When Defeated: </b> The first player reveals Hall of Nastrond and Nidhogg, and puts them into play. Deal each other player 1 facedown encounter card.",
+		"text": "Ostacolo 1[per_hero]. Vittoria 3. <b>Quando Sconfitta:</b> Il primo giocatore rivela Palazzo di Nastrond e Nidhogg e li mette in gioco. Distribuisci 1 carta incontro a faccia in giù a ogni altro giocatore."
 	},
 	{
 		"code": "21143",
@@ -703,30 +703,30 @@
 	{
 		"code": "21166",
 		"name": "Scrigno degli Antichi Inverni",
-		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
-		"text": "Ostacolo 1[per_player]. <b>Quando Sconfitta:</b> Rivela 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Scambia Loki con 1 criminale Loki messo da parte casuale.",
+		"scheme_text": "Hinder 1[per_hero] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
+		"text": "Ostacolo 1[per_hero]. <b>Quando Sconfitta:</b> Rivela 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Scambia Loki con 1 criminale Loki messo da parte casuale.",
 		"flavor": "<b><i>Loki ha saccheggiato l'armeria di Odino e ha scoperto l'antica arma dei Giganti di Ghiaccio.</i></b>"
 	},
 	{
 		"code": "21167",
 		"name": "Guerra ad Asgard",
-		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
-		"text": "Ostacolo 1[per_player]. <b>Quando Sconfitta:</b> Rivela 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Scambia Loki con 1 criminale Loki messo da parte casuale.",
+		"scheme_text": "Hinder 1[per_hero] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
+		"text": "Ostacolo 1[per_hero]. <b>Quando Sconfitta:</b> Rivela 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Scambia Loki con 1 criminale Loki messo da parte casuale.",
 		"flavor": "<b><i>I seguaci di Loki combattono contro chi resta ancora fedele a Odino.</i></b>"
 	},
 	{
 		"code": "21168",
 		"name": "Follia su Midgard",
-		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
-		"text": "Ostacolo 1[per_player]. <b>Quando Sconfitta:</b> Rivela 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Scambia Loki con 1 criminale Loki messo da parte casuale.",
+		"scheme_text": "Hinder 1[per_hero] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
+		"text": "Ostacolo 1[per_hero]. <b>Quando Sconfitta:</b> Rivela 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Scambia Loki con 1 criminale Loki messo da parte casuale.",
 		"flavor": "<b><i>Il Dio dell'inganno semina il caos sulla Terra per puro divertimento.</i></b>"
 	},
 	{
 		"code": "21169",
 		"name": "Aprire il Bifrost",
-		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
+		"scheme_text": "Hinder 1[per_hero] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"flavor": "<b><i>Loki usa il Bifrost per spostare le sue forze su tutti i Nove Regni.</i></b>",
-		"text": "Ostacolo 1[per_player]. <b>Quando Sconfitta:</b> Rivela 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Scambia Loki con 1 criminale Loki messo da parte casuale."
+		"text": "Ostacolo 1[per_hero]. <b>Quando Sconfitta:</b> Rivela 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Scambia Loki con 1 criminale Loki messo da parte casuale."
 	},
 	{
 		"code": "21170",

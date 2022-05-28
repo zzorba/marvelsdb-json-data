@@ -86,14 +86,14 @@
 	{
 		"code": "27065",
 		"name": "City Streets",
-		"text": "Surging Sands - <b>Special: </b>Place 1 sand counter here. Discard card from the top of the encounter deck equal to the number of sand counters here. \n <b>Hero Action: </b> Exhause a chracter you control -> remove sand counters from here equal to that character's ATK. (limit once per round per player.)",
+		"text": "Surging Sands - <b>Special: </b>Place 1 sand counter here. Discard card from the top of the encounter deck equal to the number of sand counters here. \n <b>Hero Action: </b> Exhause a chracter you control → remove sand counters from here equal to that character's ATK. (limit once per round per player.)",
 		"traits": "Location."
 	},
 	{
 		"boost_text": "Reveal this card.",
 		"code": "27066",
 		"name": "Sand Form",
-		"text": "Attach to Sandman. \n <b>Forced Interrupt: </b> When you would deal amount of damage to Sandman, discard sand Form instead -> resove the Surging Sands ability on City Streets",
+		"text": "Attach to Sandman. \n <b>Forced Interrupt: </b> When you would deal amount of damage to Sandman, discard sand Form instead → resove the Surging Sands ability on City Streets",
 		"traits": "Condition."
 	},
 	{
@@ -160,7 +160,7 @@
 	{
 		"code": "27077a",
 		"name": "Bell Tower",
-		"text": "If there are at least 3[per_player] chime counters here, flip this card. \n <b>Interrupt: </b> When any amount of damage would be dealt to Venom by an attack, (you may) place that many chime counters here instead.",
+		"text": "If there are at least 3[per_hero] chime counters here, flip this card. \n <b>Interrupt: </b> When any amount of damage would be dealt to Venom by an attack, (you may) place that many chime counters here instead.",
 		"traits": "Location. Quiet."
 	},
 	{
@@ -321,13 +321,13 @@
 	{
 		"code": "27102a",
 		"name": "Light at the End",
-		"text": "Permanent. Hinder 10[per_player]. \n The players cannot win unless they escape. \n <b>Forced Interrupt: </b> When the last threat is removed from this scheme, resolve the Ambush! Ability on the main scheme. Flip this card. (The palyers can escape on the other side.)",
+		"text": "Permanent. Hinder 10[per_hero]. \n The players cannot win unless they escape. \n <b>Forced Interrupt: </b> When the last threat is removed from this scheme, resolve the Ambush! Ability on the main scheme. Flip this card. (The palyers can escape on the other side.)",
 		"traits": "Trap!"
 	},
 	{
 		"code": "27102b",
 		"name": "Light at the End",
-		"text": "Permanent. Hinder 10[per_player]. \n The players cannot win unless they escape. \n <b>Forced Interrupt: </b> When the last threat is removed from this scheme, the players escape and win the game.",
+		"text": "Permanent. Hinder 10[per_hero]. \n The players cannot win unless they escape. \n <b>Forced Interrupt: </b> When the last threat is removed from this scheme, the players escape and win the game.",
 		"traits": "Chase!"
 	},
 	{
@@ -448,7 +448,7 @@
 	{
 		"code": "27120",
 		"name": "We Are One",
-		"text": "Attach to Venom Goblin. \b <b>Hero Action: </b> Spend [energ][genius][strength] printed resources -> discard this card."
+		"text": "Attach to Venom Goblin. \b <b>Hero Action: </b> Spend [energ][genius][strength] printed resources → discard this card."
 	},
 	{
 		"boost_text": "Move the glider counter to the main scheme with the most threat. Place 1 threat on that scheme.",
@@ -479,7 +479,7 @@
 	{
 		"code": "27125",
 		"name": "Joy Ride",
-		"scheme_text": "Hinder 2[per_player]. \n <b> When Revealed: </b> Move the glider token to the main scheme with the most threat. Resolve thats schemes <b>Special</b> ability."
+		"scheme_text": "Hinder 2[per_hero]. \n <b> When Revealed: </b> Move the glider token to the main scheme with the most threat. Resolve thats schemes <b>Special</b> ability."
 	},
 	{
 		"boost_text": "Resolve the <b>Special</b> ability of the scheme with the glider counter.",

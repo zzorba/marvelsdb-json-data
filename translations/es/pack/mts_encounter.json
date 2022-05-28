@@ -308,7 +308,7 @@
 	{
 		"code": "21110",
 		"name": "Atacan la ciudad",
-		"scheme_text": "Hinder 1[per_player].\n<b>When Defeated:</b> The player who defeated this scheme draws 1 card.",
+		"scheme_text": "Hinder 1[per_hero].\n<b>When Defeated:</b> The player who defeated this scheme draws 1 card.",
 		"text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan roba 1 carta.",
 		"flavor": "\"Corvus ha ordenado a un regimiento de sus tropas que ataquen la ciudad de Nueva York para hacer salir a los Vengadores.\""
 	},
@@ -350,7 +350,7 @@
 	{
 		"code": "21116",
 		"name": "Sanctuary",
-		"scheme_text": "Hinder 1[per_player]. Victory 1.\n Thanos cannot take damage.<b> When Defeated:</b> Each player may spend up to 3 [physical] resources from their hand. Deal 2 damage to Thanos for each [physical] resource spent this way. This damage ignores the tough status card.",
+		"scheme_text": "Hinder 1[per_hero]. Victory 1.\n Thanos cannot take damage.<b> When Defeated:</b> Each player may spend up to 3 [physical] resources from their hand. Deal 2 damage to Thanos for each [physical] resource spent this way. This damage ignores the tough status card.",
 		"text": "Complicación 1[per_hero]. Victoria 1.\nThanos no puede sufrir Daño.\n<b>Cuando se derrote esta carta:</b> cada jugador puede gastar hasta 3 recursos [physical] de su mano. Inflige 2 de Daño a Thanos por cada recurso [physical] que se haya gastado de este modo. Este Daño ignora la carta de Estado \"Duro\"."
 	},
 	{
@@ -533,19 +533,19 @@
 	{
 		"code": "21140",
 		"name": "Gnipahellir",
-		"scheme_text": "Hinder 1[per_player]. Victory 2. \n <b> When Defeated: </b> The first player reveals Gjallerbru and Skurg, and puts them into play. Deal each other player 1 facedown encounter card.",
+		"scheme_text": "Hinder 1[per_hero]. Victory 2. \n <b> When Defeated: </b> The first player reveals Gjallerbru and Skurg, and puts them into play. Deal each other player 1 facedown encounter card.",
 		"text": "Complicación 1[per_hero]. Victoria 2.\n<b>Cuando se derrote esta carta:</b> el jugador inicial muestra Gjallerbru y a Skurge, y los pone en juego. Dales a los demás jugadores 1 carta de Encuentro boca abajo a cada uno."
 	},
 	{
 		"code": "21141",
 		"name": "Salón de Nastrond",
-		"scheme_text": "Hinder 1[per_player]. Victory 4. \n <b> When Defeated: </b> The first player detaches Odin from the main scheme and takes control of him. Deal each player 1 facedown encounter card.",
+		"scheme_text": "Hinder 1[per_hero]. Victory 4. \n <b> When Defeated: </b> The first player detaches Odin from the main scheme and takes control of him. Deal each player 1 facedown encounter card.",
 		"text": "Complicación 1[per_hero]. Victoria 4.\n<b>Cuando se derrote esta carta:</b> el jugador inicial desvincula a Odín del Plan principal y toma el control de su carta. Dale 1 carta de Encuentro boca abajo a cada uno."
 	},
 	{
 		"code": "21142",
 		"name": "Gjallerbru",
-		"scheme_text": "Hinder 1[per_player]. Victory 3. \n <b> When Defeated: </b> The first player reveals Hall of Nastrond and Nidhogg, and puts them into play. Deal each other player 1 facedown encounter card.",
+		"scheme_text": "Hinder 1[per_hero]. Victory 3. \n <b> When Defeated: </b> The first player reveals Hall of Nastrond and Nidhogg, and puts them into play. Deal each other player 1 facedown encounter card.",
 		"text": "Complicación 1[per_hero]. Victoria 3.\n<b>Cuando se derrote esta carta:</b> el jugador inicial muestra el Saón de Nastrond y a Nidhogg, y los pone en juego. Dales a los demás jugadores 1 carta de Encuentro boca abajo a cada uno."
 	},
 	{
@@ -706,28 +706,28 @@
 	{
 		"code": "21166",
 		"name": "Cofre de los Antiguos Inviernos",
-		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
+		"scheme_text": "Hinder 1[per_hero] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"text": "Complicación 1[per_hero],\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar).",
 		"flavor": "\"Mientras saqueaba la armería de Odín, Loki ha encontrado el arma ancestral de los gigantes de hielo.\""
 	},
 	{
 		"code": "21167",
 		"name": "Guerra en Asgard",
-		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
+		"scheme_text": "Hinder 1[per_hero] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar).",
 		"flavor": "\"Los seguidores de Loki combaten a quienes aún se mantienen leales a Odín.\""
 	},
 	{
 		"code": "21168",
 		"name": "Locura en Midgard",
-		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
+		"scheme_text": "Hinder 1[per_hero] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar).",
 		"flavor": "\"El dios de las mentiras siembra el caos en la Tierra por mera diversión.\""
 	},
 	{
 		"code": "21169",
 		"name": "Abrir el Bifrost",
-		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
+		"scheme_text": "Hinder 1[per_hero] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"flavor": "\"Loki utiliza el Bifrost para desplegar sus fuerzas a lo largo y ancho de los Nueve Reinos.\"",
 		"text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar)."
 	},

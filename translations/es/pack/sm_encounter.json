@@ -167,7 +167,7 @@
 	{
 		"code": "27077a",
 		"name": "Campanario",
-		"text": "Si hay al menos 3[per_player] contadores de Campanada sobre esta carta, dale la vuelta a esta carta.\n <b>Interrupción: </b>cuando se vaya a infligir cualquier cantidad de Daño a Veneno como consecuencia de un ataque, en vez de eso puedes <i>(si quieres)</i> colocar ese mismo número de contadores de Campanada sobre esta carta.",
+		"text": "Si hay al menos 3[per_hero] contadores de Campanada sobre esta carta, dale la vuelta a esta carta.\n <b>Interrupción: </b>cuando se vaya a infligir cualquier cantidad de Daño a Veneno como consecuencia de un ataque, en vez de eso puedes <i>(si quieres)</i> colocar ese mismo número de contadores de Campanada sobre esta carta.",
 		"traits": "Lugar. En silencio.",
 		"flavor": "El simbionte Veneno es muy sensible a los ruidos fuertes..."
 	},
@@ -334,13 +334,13 @@
 	{
 		"code": "27102a",
 		"name": "La luz al final del túnel",
-		"text": "Permanente. Complicación 10[per_player].\nLos jugadores no pueden ganar a menos que logren escapar. \n<b>Interrupción obligada: </b>cuando se quite la última ficha de Amenaza de este Plan, resuelve la capacidad \"¡Emboscada!\" del Plan principal. Dale la vuelta a esta carta. (Los jugadores podrán escapar por la otra cara.)",
+		"text": "Permanente. Complicación 10[per_hero].\nLos jugadores no pueden ganar a menos que logren escapar. \n<b>Interrupción obligada: </b>cuando se quite la última ficha de Amenaza de este Plan, resuelve la capacidad \"¡Emboscada!\" del Plan principal. Dale la vuelta a esta carta. (Los jugadores podrán escapar por la otra cara.)",
 		"traits": "¡trampa!"
 	},
 	{
 		"code": "27102b",
 		"name": "La luz al final del túnel",
-		"text": "Permanente. Complicación 10[per_player].\nLos jugadores no pueden ganar a menos que logren escapar.\n<b>Interrupción obligada: </b>cuando se quite la última ficha de Amenaza de este Plan, los jugadores logran escapar y ganan la partida.",
+		"text": "Permanente. Complicación 10[per_hero].\nLos jugadores no pueden ganar a menos que logren escapar.\n<b>Interrupción obligada: </b>cuando se quite la última ficha de Amenaza de este Plan, los jugadores logran escapar y ganan la partida.",
 		"traits": "¡Persecución!"
 	},
 	{
@@ -500,8 +500,8 @@
 	{
 		"code": "27125",
 		"name": "Escapada aérea",
-		"scheme_text": "Hinder 2[per_player]. \n <b> When Revealed: </b> Move the glider token to the main scheme with the most threat. Resolve thats schemes <b>Special</b> ability.",
-		"text": "Complicación 2[per_player].\n<b>Cuando se muestre esta carta:</b> traslada el contador de Planeador al Plan principal que tenga más Amenaza. Resuelve la capacidad \"<b>Especial:</b>\" de ese Plan."
+		"scheme_text": "Hinder 2[per_hero]. \n <b> When Revealed: </b> Move the glider token to the main scheme with the most threat. Resolve thats schemes <b>Special</b> ability.",
+		"text": "Complicación 2[per_hero].\n<b>Cuando se muestre esta carta:</b> traslada el contador de Planeador al Plan principal que tenga más Amenaza. Resuelve la capacidad \"<b>Especial:</b>\" de ese Plan."
 	},
 	{
 		"boost_text": "resuelve la capacidad \"<b>Especial:</b>\" del Plan que tenga asignado el contador de Planeador.",
