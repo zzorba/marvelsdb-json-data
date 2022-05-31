@@ -6,7 +6,7 @@
 	},
 	{
 		"code": "27026",
-		"flavor": "¡Mientras investigaba las propiedades regenerativas del ADN de lagarto, Peter Parker ha sufrido un terrible accidente que lo ha transformado a él y a todos los que entrane en contacto con su suero en reptiles monstruosos!",
+		"flavor": "¡Mientras investigaba las propiedades regenerativas del ADN de lagarto, Peter Parker ha sufrido un terrible accidente que lo ha transformado a él y a todos los que entran en contacto con su suero en reptiles monstruosos!",
 		"name": "Investigación sobre regeneración",
 		"text": "<b>Interrupción obligada:</b> cuando empiece la fase del Villano, cura 1 de Daño a cada enemigo."
 	},
@@ -30,571 +30,787 @@
 	},
 	{
 		"code": "27056",
-		"name": "Keeping Secret"
+		"name": "Secretos guardados",
+		"text": "<b>Dale esta carta al jugador que lleva a Miles Morales.</b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\nAgota a Miles Morales → retira de la partida Secretos guardados.\nDescarta a Ganke Lee y Jefferson Davis del juego. Si no se descarta ninguno de los dos de este modo, esta carta gana Oleada. Descarta esta Obligación."
 	},
 	{
 		"code": "27057",
-		"name": "Tracking Prey"
+		"flavor": "El Merodeador está de cacería y no se detendrá hasta haber acorralado a su presa.",
+		"name": "El rastro de la presa",
+		"text": "<b>Cuando se muestre esta carta:</b> si tienes adoptada la identidad de tu Alter ego, coloca 1 ficha de Aceleración sobre esta carta."
 	},
 	{
 		"code": "27058",
-		"name": "Prowler",
+		"flavor": "\"Voy a darte un consejo: procura que no te encuentre\"",
+		"name": "Merodeador",
+		"text": "Firmeza.\n<b>Cuando se muestre esta carta:</b> si tienes adoptada la identidad de tu Alter ego, dale al Merodeador una carta de Estado \"Duro\".\n<i>(Esbirro Archienemigo de Spiderman.)</i>",
 		"traits": "Criminal."
 	},
 	{
+		"attack_text": "Los ataques del Esbirro vinculado ganan Penetrante.",
 		"code": "27059",
-		"name": "Razor Claws",
-		"traits": "Weapon."
+		"flavor": "Garras diseñadas para triturar acero.",
+		"name": "Garras afiladas",
+		"text": "Vincula esta carta al Esbirro que tenga el valor impreso más alto de Vida. Si no es posible, esta carta gana Oleada.",
+		"traits": "Arma."
 	},
 	{
 		"code": "27060",
-		"name": "Slice and Dice"
+		"name": "Hacer picadillo",
+		"text": "<b>Cuando se muestre esta carta:</b> el Merodeador ataca al jugador que tenga menos Vida restante <i>(incluso aunque tenga adoptada la identidad de su Alter ego)</i>. Si el ataque derrota a un personaje o no se produce ningún ataque de este modo, esta carta gana Oleada."
 	},
 	{
 		"code": "27061",
-		"name": "Sandman",
+		"flavor": "\"¡Sigo siendo más poderoso que todos vosotros, capullos!\"",
+		"name": "Hombre de Arena",
+		"text": "<i>Chorro de arena</i> — [star] <b>Interrupción obligada: </b> cuando el Hombre de Arena te ataque, su ataque inflige Daño indirecto. Si tu Superhéroe sufre Daño a consecuencia de ese ataque, resuelve la capacidad <i>\"Acumulación de arena\"</i> de Calles de la ciudad.",
 		"traits": "Criminal."
 	},
 	{
 		"code": "27062",
-		"name": "Sandman",
+		"name": "Hombre de Arena",
+		"text": "<b>Cuando se muestre esta carta:</b> resuelve la capacidad <i>\"Acumulación de arena\"</i> de Calles de la ciudad.\n <i>Chorro de arena</i> — [star] <b>Interrupción obligada: </b>cuando el Hombre de Arena te ataque, su ataque inflige Daño indirecto. Si tu Superhéroe sufre Daño a consecuencia de ese ataque, resuelve la capacidad <i>\"Acumulación de arena\"</i> de Calles de la ciudad.",
 		"traits": "Criminal."
 	},
 	{
 		"code": "27063",
-		"name": "Sandman",
+		"name": "Hombre de Arena",
+		"text": "<b>Cuando se muestre esta carta:</b> coloca 1 contador de Arena sobre Calles de la ciudad. Resuelve su capacidad <i>\"Acumulación de arena\"</i>.\n <i>Ola de arena</i> — [star] <b>Interrupción obligada:</b> cuando el Hombre de Arena te ataque, su ataque gana Brutalidad. Si tu Superhéroe sufre Daño a consecuencia de ese ataque, resuelve la capacidad <i>\"Acumulación de arena\"</i> de Calles de la ciudad.",
 		"traits": "Criminal."
 	},
 	{
 		"code": "27064",
-		"name": "Hapless Pedestrians"
+		"flavor": "\"¡El Hombre de Arena inunda las calles de la ciudad con un torrente de arena poniendo en grave peligro a los inocentes transeúntes!\"",
+		"name": "Peatones indefensos",
+		"scheme_text": "<b>Respuesta obligada:</b> después de que se coloque una ficha de Aceleración sobre este Plan, inflige 3 de Daño indirecto al jugador inicial.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
+		"text": "<b>Contenido: </b> Hombre de Arena (I) y Hombre de Arena (II). <i>(Hombre de Arena (II) y Hombre de Arena (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros del Hombre de Arena, Caos en la ciudad y Normal. Un conjunto de Encuentros modular <i>Con los pies en la tierra.</i>\n <b>Preparación: </b>busca la carta de Entorno Calles de la ciudad en el mazo de Encuentros y ponla en juego. Colócale encima 4 contadores de Arena."
 	},
 	{
 		"code": "27065",
-		"name": "City Streets",
-		"traits": "Location."
+		"name": "Calles de la ciudad",
+		"text": "</b>Acumulación de arena</b> — <b>Especial: </b>coloca 1 contador de Arena sobre esta carta. Descarta tantas cartas de la parte superior del mazo de Encuentros como el número de contadores de Arena que haya sobre esta carta. \n<b>Acción de Héroe: </b>agota un personaje que controles → quita tantos contadores de Arena de esta carta como la puntuación de ATQ de ese personaje. (Límite de una vez por ronda y jugador.)",
+		"traits": "Lugar."
 	},
 	{
+		"boost_text": "Muestra esta carta.",
 		"code": "27066",
-		"name": "Sand Form",
-		"traits": "Condition."
+		"name": "Forma arenosa",
+		"text": "Vincula esta carta al Hombre de Arena. \n <b>Interrupción obligada:</b> cuando vayass a infligir cualquier cantidad de Daño al Hombre de Arena, en vez de eso descarta Forma arenosa → resuelve la capacidad <i>\"Acumulación de arena\"</i> de Calles de la ciudad.",
+		"traits": "Alteración."
 	},
 	{
 		"code": "27067",
-		"name": "Sand Clone"
+		"flavor": "\"Si queréis pillarme, vais a tener que pasar por encima de... ¡MÍ!\" —Hombre de Arena",
+		"name": "Duplicado de arena",
+		"text": "X es igual al número de contadores de Arena que haya sobre Calles de la ciudad.\n <b>Cuando se derrote esta carta:</b> resuelve la capacidad <i>\"Acumulación de arena\"</i> de Calles de la ciudad."
 	},
 	{
+		"flavor": "\"Una tromba de color marrón inunda las calles a vuestro alrededor. No importa hacia dónde avancéis, el Hombre de Arena siempre está ahí, esperando.",
 		"code": "27068",
-		"name": "Dirt Trap"
+		"name": "Trampa de tierra",
+		"scheme_text": "<b>Cuando se derrote esta carta:</b> resuelve la capacidad <i>\"Acumulación de arena\"</i> de Calles de la ciudad. Vuelve a resolverla."
 	},
 	{
 		"code": "27069",
-		"name": "Tidal Sands"
+		"name": "Marea arenosa",
+		"scheme_text": "<b>Cuando se muestre esta carta:</b> coloca X de Amenaza adicional sobre esta carta, siendo X igual al número de contadores de Arena que haya sobre Calles de la ciudad."
 	},
 	{
+		"boost_text": "Resuelve la capacidad \"<b>Cuando se muestre esta carta</b>\" de esta carta.",
 		"code": "27070",
-		"name": "Sandslide"
+		"name": "Avalancha de arena",
+		"text": "<b>Cuando se muestre esta carta:</b> coloca 2 contadores de Arena sobre Calles de la ciudad, luego resuelve su capacidad <i>\"Acumulación de arena\"</i>. Si se descarta al menos 1 carta del Hombre de Arena de este modo, quedas aturdido."
 	},
 	{
 		"code": "27071",
-		"name": "Sand Storm"
+		"name": "Tormenta de arena",
+		"text": "<b>Cuando se muestre esta carta:</b> inflige X de Daño indirecto a los jugadores <i>(repártelo entre ellos como prefieras)</i>, siendo X igual al número de contadores de Arena que haya sobre Calles de la ciudad. Si no hay contadores sobre Calles de la ciudad, coloca 3 contadores de Arena sobre esa carta, devuelve esta carta al mazo de Encuentros y barájalo."
 	},
 	{
 		"code": "27072",
-		"name": "Sand Smash"
+		"flavor": "\"¡Os enterraré!\"",
+		"name": "Ariete de arena",
+		"text": "<b>Cuando se muestre esta carta (Alter ego): </b>resuelve la capacidad <i>\"Acumulación de arena\"</i> de Calles de la ciudad. Esta carta gana Oleada.\n <b>Cuando se muestre esta carta (Héroe):</b> el Hombre de Arena te ataca con +1 ATQ."
 	},
 	{
 		"code": "27073",
-		"name": "Venom",
-		"traits": "Symbiote."
+		"name": "Veneno",
+		"text": "Dureza. </i>(Este personaje entra en juego con una carta de Estado \"Duro\".)</i>\n <i>Venganza</i> — <b>Respuesta obligada:</b> después de que ataques e inflijas Daño a Veneno con una carta que controles, coloca 1 carta de aumento boca abajo sobre tu Superhéroe.",
+		"traits": "Simbionte."
 	},
 	{
 		"code": "27074",
-		"name": "Venom",
-		"traits": "Symbiote."
+		"name": "Veneno",
+		"text": "Dureza. Tesón.\n <b>Cuando se muestre esta carta: </b>busca el Plan secundario Con uñas y dientes en el mazo y la pila de descartes de Encuentros y ponlo en juego. <i>(Baraja el mazo.)</i>\n <i>Venganza</i> — <b>Respuesta obligada: </b> después de que ataques e inflijas Daño a Veneno con una carta que controles, coloca 1 carta de aumento boca abajo sobre tu Superhéroe.",
+		"traits": "Simbionte."
 	},
 	{
 		"code": "27075",
-		"name": "Venom",
-		"traits": "Symbiote."
+		"name": "Veneno",
+		"text": "Represalia 1. Tesón. Dureza.\n <b>Cuando se muestre esta carta:</b> coloca 2 cartas de aumento boca abajo sobre cada Superhéroe.\n <i>Retribución</i> — <b>Respuesta obligada:</b> después de que ataques e inflijas Daño a Veneno con una carta que controles, colca 1 carta de aumento boca abajo sobre tu Superhéroe (2 cartas de aumento boca abajo si éste ha sido el primer ataque del turno).",
+		"traits": "Simbionte."
 	},
 	{
+		"back_link": "27076b",
 		"code": "27076a",
-		"name": "\"Leave Us Alone!\""
+		"flavor": "Nada más veros, Veneno enloquece de furia y os araca sin descanso, dejando un rastro de destrucción por toda la ciudad.",
+		"name": "\"¡Dejadnos en paz!\"",
+		"scheme_text": "<b>Interrupción obligada: </b>cuando Veneno se active contra ti, trasládale todas las cartas de aumento que haya boca abajo sobre tu Superhéroe.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
+		"text": "<b>Contenido: </b> Veneno (I) y Veneno (II). <i>(Veneno (II) y Veneno (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros de Veneno, Fuerza simbiótica y Normal. Un conjunto de Encuentros modular <i>(Con los pies en la tierra).</i>\n <b>Preparación: </b>pon en juego la carta de Entorno Campanario, con la cara de [[En silencio]] boca arriba."
 	},
 	{
 		"code": "27076b",
-		"name": "\"Leave Us Alone!\""
+		"flavor": "Nada más veros, Veneno enloquece de furia y os araca sin descanso, dejando un rastro de destrucción por toda la ciudad.",
+		"name": "\"¡Dejadnos en paz!\"",
+		"scheme_text": "<b>Interrupción obligada: </b>cuando Veneno se active contra ti, trasládale todas las cartas de aumento que haya boca abajo sobre tu Superhéroe.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
+		"text": "<b>Contenido: </b> Veneno (I) y Veneno (II). <i>(Veneno (II) y Veneno (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros de Veneno, Fuerza simbiótica y Normal. Un conjunto de Encuentros modular <i>(Con los pies en la tierra).</i>\n <b>Preparación: </b>pon en juego la carta de Entorno Campanario, con la cara de [[En silencio]] boca arriba."
 	},
 	{
+		"back_link": "27077b",
 		"code": "27077a",
-		"name": "Bell Tower",
-		"traits": "Location. Quiet."
+		"flavor": "El simbionte Veneno es muy sensible a los ruidos fuertes...",
+		"name": "Campanario",
+		"text": "Si hay al menos 3[per_player] contadores de Campanada sobre esta carta, dale la vuelta a esta carta.\n <b>Interrupción: </b>cuando se vaya a infligir cualquier cantidad de Daño a Veneno como consecuencia de un ataque, en vez de eso puedes <i>(si quieres)</i> colocar ese mismo número de contadores de Campanada sobre esta carta.",
+		"traits": "Lugar. En silencio."
 	},
 	{
 		"code": "27077b",
-		"name": "Bell Tower",
-		"traits": "Location. Ringing."
+		"name": "Campanario",
+		"text": "Aumenta en 1 todo el Daño que sufra Veneno.\n Si no hay contadores de Campanada sobre esta carta, dale la vuelta a esta carta.\n <b>Interrupción obligada: </b>cuando el ataque de Veneno vaya a infligir cualquier cantidad de Daño a un Superhéroe, quita esa misma cantidad de contadores de Campanada de esta carta. Se evita 1 de ese Daño por cada contador de Campanada que se haya retirado de este modo.",
+		"traits": "Lugar. Sonando."
 	},
 	{
+		"boost_text": "Muestra esta carta.",
 		"code": "27078",
-		"name": "\"Now We're Angry!\"",
-		"traits": "Condition."
+		"name": "\"¡Ahora si que nos hemos enfadado!\"",
+		"text": "Vincula esta carta a Veneno.\n Usos (2 contadores de Ira).\n [star] Los ataques de Veneno ganan Brutalidad.\n <b>Respuesta obligada: </b>después de que Veneno sufra cualquier cantidad de Daño a consecuencia de un ataque, quita 1 contador de Ira de esta carta.",
+		"traits": "Alteración."
 	},
 	{
 		"code": "27079",
-		"name": "Guard the Bell Tower"
+		"name": "Defensa del campanario",
+		"scheme_text": "El texto de reglas impreso del Campanario se trata como si estuviese en blanco <i>(a excepción de los [[rasgos]])</i>.\n <b>Cuando se muestre esta carta: </b>quita todos los contadores de Campanada del Campanario y dale la vuelta para dejar boca arriba su cara de [[en silencio]]."
 	},
 	{
+		"boost_text": "si esta activación es un ataque, sufres 2 de Daño indirecto.",
 		"code": "27080",
-		"name": "Lashing Out"
+		"name": "Dando guerra",
+		"scheme_text": "<b>Respuesta: </b>después de que Veneno sufra cualquier cantidad de Daño a consecuencia de un ataque, quita esa misma cantidad de Amenaza de esta carta."
 	},
 	{
+		"boost_text": "si esta activación es un ataque, gana Penetrante.",
 		"code": "27081",
-		"name": "Tooth and Nail"
+		"name": "Con uñas y dientes",
+		"scheme_text": "<b>Respuesta: </b>después de que Veneno sufra cualquier cantidad de Daño a consecuencia de un ataque, quita esa misma cantidad de Amenaza de esta carta."
 	},
 	{
+		"boost_text": "quita 1 contador de Campanada del Campanario.",
 		"code": "27082",
-		"name": "Biting Retort"
+		"name": "Réplica mordaz",
+		"text": "<b>Cuando se muestre esta carta: </b>Veneno se activa contra ti. Cada carta de aumento que se ponga boca arriba durante esa activación recibe +1 icono de Aumento [boost]."
 	},
 	{
+		"boost_text": "Resuelve la capacidad \"<b>Cuando se muestre esta carta </b>\" de esta carta.",
 		"code": "27083",
-		"name": "For Whom the Bell Tolls"
+		"name": "Por quién doblan las campanas",
+		"text": "<b>Cuando se muestre esta carta: </b>quita 2 contadores de Campanada del Campanario. Si el Campanario tiene boca arriba su cara de [[En silencio]], sufres 1 de Daño. Si tiene boca arriba su cara de [[sonando]], quita 1 de Amenaza del Plan principal."
 	},
 	{
 		"code": "27084",
+		"flavor": "¡Bienvenidos a vuestra peor pesadilla!",
 		"name": "Mysterio",
+		"text": "<i>Miedo incipiente</i> — [star] <b>Respuesta obligada: </b>después de que resuelvas una carta de aumento durante la activación de Mysterio, coloca esa carta en tu pila de descartes si tiene el rasgo [ilusión]].",
 		"traits": "Criminal."
 	},
 	{
 		"code": "27085",
 		"name": "Mysterio",
+		"text": "<b>Cuando se muestre esta carta:</b> siguiendo el orden de jugadores, añade la primera carta del mazo de Encuentros al mazo de cada jugador y barájalo.\n <i>Miedo en aumento</i> — [star] <b>Respuesta obligada: </>después de que resuelvas una carta de aumento durante la activación de Mysterio, coloca esa carta en la parte inferior de tu mazo si tiene el rasgo [[ilusión]].",
 		"traits": "Criminal."
 	},
 	{
 		"code": "27086",
 		"name": "Mysterio",
+		"text": "<b>Cuando se muestre esta carta: </b>descarta las 5 primeras cartas del mazo de cada jugador.\n <i>Presa del pánico</i> - [star] <b>Respuesta obligada:</b> después de que resuelvas una carta de aumento durante la activación de Mysterio, coloca esa carta en la parte superior de tu mazo si tiene el rasgo [[ilusión]].",
 		"traits": "Criminal."
 	},
 	{
+		"back_link": "27087b",
+		"back_text": "<b>Interrupción obligada: </b>cuando vayas a robar o descartar una carta de Encuentro de tu mazo, quédatela como carta de Encuentro boca abajo → roba 1 carta.",
 		"code": "27087",
-		"name": "Maze of Mirrors"
+		"flavor": "En cada recodo del camino aparecen innumerables copias vuestras. Los cristales rotos se vuelven a recompone, y pese a todos vuestros intentos por buscar la salida del laberinto, sólo conseguís adentraros aún más en él. Tal vez el único modo de escapar sea derrotar a Mysterio.",
+		"name": "Laberinto de espejos",
+		"scheme_text": "<b>Contenido: </b> Mysterio (I) y Mysterio (II). <i>(Mysterio (II) y Mysterio (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros de Mysterio, Pesadilla personal y Normal. Un conjunto de Encuentros modular <i>(Susurros paranoides.)</i>\n<b> Preparación: </b>pon en juego un Esbirro Aparición omnipresente efrentado a cada jugador. <i>(Baraja el mazo.)</i>"
 	},
 	{
+		"back_link": "27088b",
+		"back_text": "<b>Interrupción oblligada: </b>cuando vayas a robar o descartar una carta de Encuentro de tu mazo, quédatela como carta de Encuentro boca abajo → roba 1 carta.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
 		"code": "27088",
-		"name": "Edge of Reality"
+		"flavor": "¡Si no os dais prisa, las alucinaciones podrían acabar convirtiéndose en una parte permanente de vuestra psique y quedaríais atrapados en una pesadilla eterna!",
+		"name": "Los límites de la realidad",
+		"scheme_text": "<b>Cuando se muestre esta carta:</b> siguiendo el orden de jugadores, añade las 2 primeras cartas del mazo de Encuentros al mazo de cada jugador y barájalo."
+	},
+	{
+		"code": "27088b",
+		"flavor": "La manipulación mental de Mysterio empieza a haceros mella, nublando vuestra capacidad para distinguir la fantasía de la realidad.",
+		"name": "Los límites de la realidad",
+		"scheme_text": "<b>Cuando se muestre esta carta:</b> siguiendo el orden de jugadores, añade las 2 primeras cartas del mazo de Encuentros al mazo de cada jugador y barájalo."
 	},
 	{
 		"code": "27089",
-		"name": "Humongous Hallucination",
-		"traits": "Illusion."
+		"flavor": "\"¡Y ahora te aplastaré como el insecto que eres!\" —Mysterio",
+		"name": "Alucinación descomunal",
+		"text": "Vincula esta carta a Mysterio.\n<b>Acción de Héroe: </b>gasta 1 recurso de cualquier tipo, añade a tu mazo las 2 primeras cartas del mazo de Encuentros y baraja tu mazo → descarta esta carta.",
+		"traits": "Ilusión."
 	},
 	{
+		"boost_text": "dale a Mysterio 1 carta de aumento adicional para esta activación.",
 		"code": "27090",
-		"name": "Masterful Mirage",
-		"traits": "Illusion."
+		"name": "Espejismo magistral",
+		"text": "Vincula esta carta a Mysterio.\n<b>Interrupción obligada:</b> cuando vayas a infligir cualquier cantidad de Daño a Mysterio, en vez de eso descarta las 4 primeras cartas de la parte superior de tu mazo. Descarta esta carta.",
+		"traits": "Ilusión."
 	},
 	{
 		"code": "27091",
-		"name": "Shifting Apparition",
-		"traits": "Illusion."
+		"name": "Aparición omnipresente",
+		"text": "Guardia. <i>(Mientras este Esbirro esté enfrentado a ti, no podrás atacar al Villano.)</i>\n<b>Cuando se derrote esta carta:</b> si se ha derrotado a este Esbirro inflingiéndole Daño sobrante, el jugador que lo ha derrotado coge la primera carta del mazo de Encuentros, la añade a su mazo y lo baraja.",
+		"traits": "Ilusión."
 	},
 	{
+		"boost_text": "Muestra esta carta.",
 		"code": "27092",
-		"name": "Déjà Vu"
+		"name": "Reminiscencia",
+		"text": "Peligro. </i>(Mientras estés resolviendo esta carta, los demás jugadores no podrán ayudarte.)<i>\n<b>Cuando se muestre esta carta: </b>elige entre sufrir 1 de Daño o colocar 1 de Amenaza sobre el Plan principal. Añade  Reminiscencia al mazo de cualquier jugador y barájalo."
 	},
 	{
+		"boost_text": "elige entre gastar recursos [mental][mental] o bien quedarte esta carta como carta de Encuentro boca abajo.",
 		"code": "27093",
-		"name": "Fearmonger"
+		"name": "Maestro del terror",
+		"text": "Oleada.\n <b>Cuando se muestre esta carta: </b>descarta tu mano de cartas. Roba cartas hasta restablecer el tamaño de tu mano."
 	},
 	{
 		"code": "27094",
 		"name": "Doctor Octopus",
-		"traits": "Activation Order 1"
+		"text": "[star] <b>Respuesta obligada: </b>después de que el Doctor Octopus ataque y te inflija Daño, coloca 1 de Amenaza sobre cada Plan. Traslada el contador de Villano activo al siguiente Villano en el orden de activación.\n<b>Cuando se derrote esta carta: </b>quita 4 de Amenaza de un Plan secundario (7 de Amenaza si no hay ningún otro Villano en juego). Aparta este Villano a un lado.",
+		"traits": "Orden de activación 1"
 	},
 	{
 		"code": "27095",
 		"name": "Electro",
-		"traits": "Activation Order 2"
+		"text": "[star] <b>Respuesta obligada: </b>después de que Electro ataque y te inflija Daño, descarta las 7 primeras cartas de la parte superior de tu mazo. Traslada el contador de Villano activo al siguiente Villano en el orden de activación.\n<b>Cuando se derrote esta carta: </b>quita 4 de Amenaza de un Plan secundario (7 de Amenaza si no hay ningún otro Villano en juego). Aparta este Villano a un lado.",
+		"traits": "Orden de activación 2"
 	},
 	{
 		"code": "27096",
-		"name": "Hobgoblin",
-		"traits": "Activation Order 3"
+		"name": "Duende",
+		"text": "[star] <b>Respuesta obligada: </b>después de que el Duende ataque y te inflija Daño, sufres 2 de Daño indirecto. Traslada el contador de Villano activo al siguiente Villano en el orden de activación.\n<b>Cuando se derrote esta carta: </b>quita 4 de Amenaza de un Plan secundario (7 de Amenaza si no hay ningún otro Villano en juego). Aparta este Villano a un lado.",
+		"traits": "Orden de activación 3"
 	},
 	{
 		"code": "27097",
-		"name": "Kraven the Hunter",
-		"traits": "Activation Order 4"
+		"name": "Kraven el Cazador",
+		"text": "[star] <b>Respuesta obligada: </b>después de que Kraven el Cazador ataque y te inflija Daño, elige 1 Apoyo o Mejora que controles y descártalo. Traslada el contador de Villano activo al siguiente Villano en el orden de activación.\n<b>Cuando se derrote esta carta: </b>quita 4 de Amenaza de un Plan secundario (7 de Amenaza si no hay ningún otro Villano en juego). Aparta este Villano a un lado.",
+		"traits": "Orden de activación 4"
 	},
 	{
 		"code": "27098",
-		"name": "Scorpion",
-		"traits": "Activation Order 5"
+		"name": "Escorpión",
+		"text": "[star] <b>Respuesta obligada: </b>después de que el Escorpión ataque y te inflija Daño, aturde a un personaje que controles. Traslada el contador de Villano activo al siguiente Villano en el orden de activación.\n<b>Cuando se derrote esta carta: </b>quita 4 de Amenaza de un Plan secundario (7 de Amenaza si no hay ningún otro Villano en juego). Aparta este Villano a un lado.",
+		"traits": "Orden de activación 5"
 	},
 	{
 		"code": "27099",
-		"name": "Vulture",
-		"traits": "Activation Order 6"
+		"name": "Buitre",
+		"text": "[star] <b>Respuesta obligada: </b>después de que Electro ataque y te inflija Daño, descarta las 7 primeras cartas de la parte superior de tu mazo. Traslada el contador de Villano activo al siguiente Villano en el orden de activación.\n<b>Cuando se derrote esta carta: </b>quita 4 de Amenaza de un Plan secundario (7 de Amenaza si no hay ningún otro Villano en juego). Aparta este Villano a un lado.",
+		"traits": "Orden de activación 6"
 	},
 	{
 		"code": "27100",
-		"name": "Sinister Synchonization"
+		"name": "Sincronización siniestra",
+		"scheme_text": "¡Emboscada! — <b>Especial: </b>elige al azar un Villano que esté apartado, ponlo en juego y colócale encima el contador de Villano activo. (En modo Experto, coloca 2 de Amenaza sobre La luz al final del túnel). \n <b>Interrupción obligada: </b>cuando vaya a activarse un Villano, si no hay ninguno en juego, resuelve la capacidad \"¡Emboscada!\" de esta carta. Reanuda esa activación.",
+		"text": "<b>Contenido: </b>Doctor Octopus, Electro, Duende, Kraven el Cazador, Escorpión y Buitre. Conjuntos de Encuentros de Los seis siniestros, Tácticas de guerrilla y Normal. \n <b>Preparación: </b>elige X Villanos al azar, siendo X 1 más que el número de jugadores. Pon en juego esos Villanos, coloca el contador de Villano activo sobre el Villano que tenga la puntuación más baja en el orden de activación y aparta a un lado los demás Villanos. Pon en juego el Plan secundario La luz al final del túnel, con la cara de [[¡trampa!]] boca arriba."
 	},
 	{
+		"back_link": "27101b",
 		"code": "27101a",
-		"name": "Sinister Beatdown"
+		"flavor": "Los seis villanos están más confiados que nunca y se muestran decididos a acabar con vosotros de una vez por todas.",
+		"name": "Zurra siniestra",
+		"text": "<b>Cuando se muestre esta carta: </b>eliga al azar un Villano que esté apartado, ponlo en juego y colócale encima el contador de Villano activo (incluso aunque otro Villano tenga el contador en este momento). Si no se pone en juego ningún Villano de este modo, o si es una partida en modo Experto, dale al jugador inicial 1 carta de Encuentro boca abajo."
 	},
 	{
 		"code": "27101b",
-		"name": "Sinister Beatdown"
+		"name": "Zurra siniestra",
+		"text": "¡Emboscada! — <b>Especial: </b>elige al azar un Villano que esté apartado, ponlo en juego y colócale encima el contador de Villano activo. (En modo Experto, caloca 2 de Amenaza sobre La luz al final del túnel). \n <b>Interrupción obligada: </b>cuando vaya a activarse un Villano, si no hay ninguno en juego, resuelve la capacidad \"¡Emboscada!\" de esta carta. Reanuda esa activación. \n <b>Si se completa esta etapa, los jugadores pierden la partida. </b>"
 	},
 	{
+		"back_link": "27102b",
 		"code": "27102a",
-		"name": "Light at the End",
-		"traits": "Trap!"
+		"name": "La luz al final del túnel",
+		"text": "Permanente. Complicación 10[per_player].\nLos jugadores no pueden ganar a menos que logren escapar. \n<b>Interrupción obligada: </b>cuando se quite la última ficha de Amenaza de este Plan, resuelve la capacidad \"¡Emboscada!\" del Plan principal. Dale la vuelta a esta carta. (Los jugadores podrán escapar por la otra cara.)",
+		"traits": "¡trampa!"
 	},
 	{
 		"code": "27102b",
-		"name": "Light at the End",
-		"traits": "Chase!"
+		"name": "La luz al final del túnel",
+		"text": "Permanente. Complicación 10[per_player].\nLos jugadores no pueden ganar a menos que logren escapar.\n<b>Interrupción obligada: </b>cuando se quite la última ficha de Amenaza de este Plan, los jugadores logran escapar y ganan la partida.",
+		"traits": "¡Persecución!"
 	},
 	{
 		"code": "27103",
-		"name": "Heightened Morale",
-		"traits": "Condition."
+		"name": "Moral reforzada",
+		"text": "Vincula esta carta al Villano que tenga la puntuación más alta dentro del orden de activación. Si no es posible, resuelve la capacidad \"¡Emboscada!\" del Plan principal y luego vincula esta carta al Villano activo.\nX es igual al número de Villanos que haya en juego.",
+		"traits": "Alteración."
 	},
 	{
 		"code": "27104",
-		"name": "Taunting Presence",
-		"traits": "Condition."
+		"name": "Presencia provocadora",
+		"text": "Vincula esta carta al Villano que tenga más Vida restante. Si no es posible, resuelve la capacidad \"¡Emboscada!\" del Plan principal y luego vincula esta carta al Villano activo.\n No puede quitarse Amenaza de La luz al final del túnel.",
+		"traits": "Alteración."
 	},
 	{
 		"code": "27105",
-		"name": "Team Leader",
-		"traits": "Title."
+		"name": "Líder del grupo",
+		"text": "Vincula esta carta al Villano que tenga la puntuación más baja dentro del orden de activación. Si no es posible, resuelve la capacidad \"¡Emboscada!\" del Plan principal y luego vincula esta carta al Villano activo.",
+		"traits": "Título."
 	},
 	{
 		"code": "27106",
-		"name": "Take One for the Team"
+		"name": "Sacrificio por el equipo",
+		"text": "Vincula esta carta al Villano que tenga la puntuación más alta de ATQ. Si no es posible, resuelve la capacidad \"¡Emboscada!\" del Plan principal y luego vincula esta carta al Villano activo.\nNo puedes atacar a Villanos que no tengan vinculada una copia de Sacrificio por el equipo."
 	},
 	{
+		"boost_text": "Dale al Villano 1 carta de aumento adicional para esta activación.",
 		"code": "27107",
-		"name": "Brute Force Barricade"
+		"name": "Barrera de fuerza bruta",
+		"text": "Victoria 1. (Cuando esta carta sea derrotada, añádela a la zona de victoria.)\nNo puede quitarse Amenaza de otros Planes secundarios."
 	},
 	{
 		"code": "27108",
-		"name": "Frequent Flyers"
+		"name": "Frequent Flyers",
+		"text": "En modo Experto, esta carta gana Incitar 1 y no puede anularse.\n<b>Cuando se muestre esta carta: </b>pon en juego las cartas apartadas del Duende y el Buitre. Si el Duende ya está en juego, sufres 2 de Daño indirecto. Si el Buitre ya está en juego, descarta 1 carta de tu mano al azar."
 	},
 	{
 		"code": "27109",
-		"name": "High Fashion"
+		"name": "Vestuario exótico",
+		"text": "En modo Experto, esta carta gana Incitar 1 y no puede anularse.\n<b>Cuando se muestre esta carta: </b>pon en juego las cartas apartadas de Electro y Kraven el Cazador. Si Electro ya está en juego, descarta la carta que controles que tenga el coste más alto. Si Kraven el Cazador ya está en juego, descarta la carta que controles que tenga el coste más bajo."
 	},
 	{
 		"code": "27110",
-		"name": "Robotic Enhancements"
+		"name": "Mejoras robóticas",
+		"text": "En modo Experto, esta carta gana Incitar 1 y no puede anularse.\n<b>Cuando se muestre esta carta: </b>pon en juego las cartas apartadas del Doctor Octopus y el Escorpión. Si el Doctor Octopus ya está en juego, confunde a un personaje que controles. Si el Escorpión ya está en juego, aturde a un personaje que controles."
 	},
 	{
 		"code": "27111",
-		"name": "Partnership of Pain"
+		"name": "Cómplices en crueldad",
+		"text": "<b>Cuando se muestre esta carta (Alter ego): </b>el Villano que tenga la puntuación más baja en el orden de activación ejecuta el Plan con +X PLA, siendo X igual a la suma de las puntuaciones de PLA de todos los demás Villanos que haya en juego.\n<b>Cuando se muestre esta carta (Héroe): </b>el Villano que tenga la puntuación más alta en el orden de activación te ataca con +X ATQ, siendo X igual a la suma de las puntuaciones de ATQ de todos los demás Villanos que haya en juego."
 	},
 	{
 		"code": "27112",
-		"name": "Surprise!"
+		"flavor": "\"...\" —Spiderman",
+		"name": "¡Sorpresa!",
+		"text": "En modo Experto, esta carta gana Oleada y no puede anularse.\n<b>Cuando se muestre esta carta: </b>resuelve la capacidad \"¡Emboscada!\" del Plan principal. Si no se pone en juego ningún Villano de este modo, coloca 3 de Amenaza sobre La luz al final del túnel."
 	},
 	{
 		"code": "27113",
-		"name": "Venom Goblin",
-		"traits": "Goblin. Symbiote."
+		"name": "Duende Veneno",
+		"text": "Tesón. \n Infestar la ciudad — [star] <b>Respuesta obligada: </b>después de que el Duende Veneno se active contra ti, traslada el contador de Planeador al Plan principal que tenga menos Amenaza. Elige entre colocar 2 de Amenaza sobre ese Plan o bien resolver su capacidad \"<b>Especial</b>\".",
+		"traits": "Duende. Simbionte."
 	},
 	{
 		"code": "27114",
-		"name": "Venom Goblin",
-		"traits": "Goblin. Symbiote."
+		"name": "Duende Veneno",
+		"text": "Tesón. Dureza. \n <b>Cuando se muestre esta carta: </b>reparte 2 cartas de Encuentro boca abajo a cada jugador. \n Reclamar el trono — [star] <b>Respuesta obligada: </b>después de que el Duende Veneno se active contra ti, traslada el contador de Planeador al Plan principal que tenga menos Amenaza. Resuelve su capacidad \"<b>Especial</b>\".",
+		"traits": "Duende. Simbionte."
 	},
 	{
 		"code": "27115",
-		"name": "Venom Goblin",
-		"traits": "Goblin. Symbiote."
+		"name": "Duende Veneno",
+		"text": "Represalia 1. Firmeza. Dureza. \n <b>Cuando se muestre esta carta: </b>reparte 3 cartas de Encuentro boca abajo a cada jugador. \nReinado de terror — [star]<b>Respuesta obligada: </b>después de que el Duende Veneno se active contra ti, traslada el contador de Planeador al Plan principal que tenga menos Amenaza. Coloca 1 de Amenaza sobre ese Plan y resuelve su capacidad \"<b>Especial</b>\".",
+		"traits": "Duende. Simbionte."
 	},
 	{
+		"back_link": "27116b",
 		"code": "27116a",
-		"name": "Skies Over New York"
+		"name": "El cielo de Nueva York",
+		"text": "<b>Contenido: </b>Duende Veneno (I) y Duende Veneno (II) (Duende Veneno (II) y Duende Veneno (III) para jugar en modo Experto.) Conjuntos de Encuentros del Duende Veneno, Fuerza simbiótica y Normal. Un conjunto de Encuentros modular (Artilugios de duende). \n <b>Preparación: </b>pon en juego los Planes principales Lower Manhattan, Midtown Manhattan y Upper Manhattan. Coloca el contador de Planeador sobre Midtown Manhattan. Dale la vuelta a esta carta y apártala a un lado."
 	},
 	{
 		"code": "27116b",
-		"name": "Skies Over New York"
+		"name": "El cielo de Nueva York",
+		"text": "Las cartas de Jugador que afecten al Plan principal pueden aplicarse a cualquier Plan principal.\n Las cartas de Encuentro que afecten al Plan principal sólo se aplican al Plan que tenga asignado el contador de Planeador (esto incluye la colocación de gichas de Aceleración). \nCada Plan principal acumula Amenaza cada ronda en función de su valor de Aceleración y de las fichas de Aceleración que tenga encima."
 	},
 	{
+		"back_link": "27117b",
 		"code": "27117a",
-		"name": "Lower Manhattan"
+		"flavor": "La zona sur de Manhattan es un hervidero de actividad comercial; la mayoría de sus ciudadanos están tan concentrados en sus finanzas que apenas han reparado en el intento del Duende Veneno por apoderarse de la ciudad.",
+		"name": "Lower Manhattan",
+		"text": "<b>Especial: </b>coloca 1 de Amenaza sobre cada Plan. Si hay en juego algún Entorno [[simbionte]], coloca 1 de Amenaza adicional sobre este Plan."
 	},
 	{
 		"code": "27117b",
 		"name": "Lower Manhattan",
-		"traits": "Location. Symbiote."
+		"text": "<b>Cuando se muestre esta carta: </b>traslada el contador de Planeador y todas las fichas de Aceleración que haya sobre esta carta al Plan principal que tenga menos Amenaza. \n <b>Si hay al menos 2 cartas de Entorno [[simbionte]] en juego, los jugadores pierden la partida.",
+		"traits": "Lugar. Simbionte."
 	},
 	{
+		"back_link": "27118b",
 		"code": "27118a",
-		"name": "Midtown Manhattan"
+		"flavor": "Los emblemáticos edificios y las concurridas calles de la zona central de Manhattan os impiden seguir con claridad el vuelo zigzagueante del Duende Veneno.",
+		"name": "Midtown Manhattan",
+		"text": "<b>Especial: </b>sufres 2 de Daño indirecto. Si hay en juego algún Entorno [[simbionte]], sufres 1 de Daño indirecto adicional."
 	},
 	{
 		"code": "27118b",
 		"name": "Midtown Manhattan",
-		"traits": "Location. Symbiote."
+		"text": "<b>Cuando se muestre esta carta: </b>traslada el contador de Planeador y todas las fichas de Aceleración que haya sobre esta carta al Plan principal que tenga menos Amenaza. \n <b>Si hay al menos 2 cartas de Entorno [[simbionte]] en juego, los jugadores pierden la partida.",
+		"traits": "Lugar. Simbionte."
 	},
 	{
+		"back_link": "27119b",
 		"code": "27119a",
-		"name": "Upper Manhattan"
+		"flavor": "Los habitantes de la zona norte de Manhattan disfrutan de un día soleado en Central Park y Harlem, sin ser conscientes de que el Duende Veneno planea infestar su comunidad.",
+		"name": "Upper Manhattan",
+		"text": "<b>Especial: </b>descarta 1 carta de tu mano. Si hay en juego algún Entorno [[simbionte]], descarta las 4 primeras cartas de la parte superior de tu mazo."
 	},
 	{
 		"code": "27119b",
 		"name": "Upper Manhattan",
-		"traits": "Location. Symbiote."
+		"text": "<b>Cuando se muestre esta carta: </b>traslada el contador de Planeador y todas las fichas de Aceleración que haya sobre esta carta al Plan principal que tenga menos Amenaza. \n<b>Si hay al menos 2 cartas de Entorno [[simbionte]] en juego, los jugadores pierden la partida.",
+		"traits": "Lugar. Simbionte."
 	},
 	{
 		"code": "27120",
-		"name": "We Are One"
+		"flavor": "El Duende Verde era débil y patético. Pero NOSOTROS somos más poderosos de lo que él había soñado jamás.",
+		"name": "Somos uno",
+		"text": "Vincula esta carta al Duende Veneno. \n <b>Acción de Héroe: </b>gasta recursos impresos [energy][genius][strength] → descarta esta carta."
 	},
 	{
+		"boost_text": "traslada el contador de Planeador al Plan principal que tenga más Amenaza. Coloca 1 de Amenaza sobre ese Plan.",
 		"code": "27121",
-		"name": "Symbiotic Berserker",
-		"traits": "Symbiote."
+		"name": "Simbionte enloquecido",
+		"text": "Mientras haya en juego un Entorno [[simbionte]], el Simbionte enloquecido gana Ataque veloz.",
+		"traits": "Simbionte."
 	},
 	{
+		"attack_text": "Mientras haya en juego un Entorno [[simbionte]], la Monstruosidad simbiótica recibe +3 de Vida.",
+		"boost_text": "si esta activación es un ataque, inflige Daño indirecto.",
 		"code": "27122",
-		"name": "Symbiotic Monstrosity",
-		"traits": "Elite. Symbiote."
+		"name": "Monstruosidad simbiótica",
+		"text": "Represalia 1. Tesón. Dureza.",
+		"traits": "Élite. Simbionte."
 	},
 	{
+		"boost_text": "coloca 1 de Amenaza sobre cada Plan principal que no tenga asignado el contador de Planeador.",
 		"code": "27123",
-		"name": "Symbiotic Thrall",
-		"traits": "Symbiote."
+		"name": "Esclavo simbiótico",
+		"text": "Guardia.\nMientras haya en juego un Entorno [[simbionte]], el Esclavo simbiótico gana Patrulla.",
+		"traits": "Simbionte."
 	},
 	{
+		"boost_text": "muestra esta carta.",
 		"code": "27124",
-		"name": "Festering Mass"
+		"name": "Masa infecciosa",
+		"text": "Mientras haya en juego un Entorno [[simbionte]], esta carta se considera un Entorno [[simbionte]]."
 	},
 	{
 		"code": "27125",
-		"name": "Joy Ride"
+		"name": "Escapada aérea",
+		"text": "Complicación 2[per_player].\n<b>Cuando se muestre esta carta:</b> traslada el contador de Planeador al Plan principal que tenga más Amenaza. Resuelve la capacidad \"<b>Especial:</b>\" de ese Plan."
 	},
 	{
+		"boost_text": "resuelve la capacidad \"<b>Especial:</b>\" del Plan que tenga asignado el contador de Planeador.",
 		"code": "27126",
-		"name": "Spreading Panic"
+		"name": "Sembrar el pánico",
+		"text": "<b>Cuando se muestre esta carta:</b> resuelve la capacidad \"<b>Especial:</b>\" del Plan que tenga asignado el contador de Planeador."
 	},
 	{
 		"code": "27127",
-		"name": "Panic in the Streets"
+		"name": "Pánico en las calles",
+		"scheme_text": "El texto de reglas impreso de todos los Apoyos [[lugar]] e [[individuo]] se trata como si estuviese en blanco (a excepción de los [[rasgos]])."
 	},
 	{
+		"attack_text": "Los ataques del Rino ganan Brutalidad y Penetrante.",
 		"code": "27128",
-		"name": "Rhino",
-		"traits": "Criminal. Elite."
+		"name": "Rino",
+		"text": "Tesón. (Un personaje con Tesón requiere 2 cartas de Estado del mismo tipo para quedar aturdido o confundido.)",
+		"traits": "Criminal. Élite."
 	},
 	{
 		"code": "27129",
-		"name": "Calling in Favors"
+		"flavor": "\"Os ayudaré, pero sólo si dejáis que rompa cosas y me las quede luego.\" —Rino",
+		"name": "Favores pendientes",
+		"text": "<b>Cuando se muestre esta carta: </b>el Rino ejecuta el Plan con +2 PLA. Si el Rino no está en juego, busca un Esbirro llamado Rino en el mazo y la pila de descartes de Encuentros y ponlo en juego enfrentado a ti. (Baraja el mazo.)"
 	},
 	{
 		"code": "27130",
-		"name": "Now or Never"
+		"name": "Ahora o nunca",
+		"text": "Peligro. (Mientras estés resolviendo esta carta, los demás jugadores no podrán ayudarte.)\n<b>Cuando se muestre esta carta:</b> elige una opción:\n Coloca 1 ficha de Aceleración sobre el Plan principal.\n Agota un personaje que controles y gasta 1 recurso de cualquier tipo."
 	},
 	{
 		"code": "27131",
-		"name": "Common Criminal",
+		"name": "Criminal de poca monta",
+		"text": "Oleada.\n <b>Acción de Alter ego:</b> gasta un recurso [physical] → inflige 3 de Daño al Criminal de poca monta. Si este Esbirro es derrotado de este modo, elige entre robar 1 carta o quitar 3 de Amenaza de un Plan secundario.",
 		"traits": "Criminal."
 	},
 	{
 		"code": "27132",
-		"name": "Friends and Family"
+		"flavor" : "\"Ya lo sé, tienes que hacer lo que tienes que hacer. Y yo no voy a impedírtelo... pero tú tampoco puedes impedirme que me preocupe por mi niñita.\" —Ronnie Williams",
+		"name": "Amigos y familiares",
+		"text": "Mientras tengas adoptada tu identidad de Héroe, el coste en recursos de todos los Eventos que juegues se incrementa en 1.\n <b>Acción de Alter ego: </b>descarta 1 carta específica de un Superhéroe de tu mano → descarta esta Obligación."
 	},
 	{
 		"code": "27133",
-		"name": "Volunteer Work"
+		"name": "Voluntariado",
+		"scheme_text": "No se puede intervenir contra este Plan.\n<b>Acción de Alter ego:</b> gasta 2 recursos de cualquier tipo → quita tanta Amenaza de este Plan como la puntuación de REC de tu Alter ego. Si tu Superhéroe tiene el rasgo [[civil]], roba 1 carta."
 	},
 	{
 		"code": "27134",
-		"name": "\"Threat or Menace?\""
+		"flavor": "\"¡Lo sabéis tan bien como yo! ¡Todas esas personas disfrazadas de araña no son más que un hatajo de maleantes! Después de todo, quien va con la cara tapada es porque no trama nada bueno.\" —J. Jonah Jameson",
+		"name": "\"¿Peligro o amenaza?\"",
+		"text": "<b> Cuando se muestre esta carta:</b> puedes  cambiar de identidad. Si tienes adoptada tu identidad de Héroe, coloca 2 de Amenaza sobre el Plan principal. Si tienes adoptada la identidad de tu Alter ego, no podrás cambiar de identidad durante tu próximo turno."
 	},
 	{
 		"code": "27135",
-		"name": "Loose Ends"
+		"name": "Cabos sueltos",
+		"text": "<b>Cuando se muestre esta carta:</b> busca tu Obligación en el mazo de Encuentros, en su pila de descartes, entre las cartas apartadas y entre las cartas que se han retirado de la partida, y luego muéstrala. Al mostrarla, si cambias a la identidad de tu Alter ego, descarta 1 carta de tu mano al azar. Si tu Obligación no se ha mostrado de este modo, esta carta gana Oleada."
 	},
 	{
 		"code": "27136",
-		"name": "Advanced Glider",
-		"traits": "Item. Tech."
+		"name": "Planeador avanzado",
+		"text": "Vincula esta carta al Villano.\n<b>Respuesta obligada:</b> después de que el Villano vinculado se active contra tu, vuelve a activarse contra ti. (Límite de una vez por ronda y jugador.)\n<b>Acción de Héroe:</b> descarta cualquier número de cartas de [[ataque]] de tu mano que sumen entre todas un coste en recursos de 3 o más → descarta esta carta.",
+		"traits": "Objeto. Tecnología."
 	},
 	{
 		"code": "27137",
-		"name": "Concussive Bombs",
-		"traits": "Tech. Weapon."
+		"flavor": "Su onda expansiva es tan potente que puede resquebrajar el acero.",
+		"name": "Bombas de impacto",
+		"text": "Vincula esta carta al Villano.\nUsos (2 contadores de Bomba).\n[star] <b>Respuesta obligada:</b> después de que el Villano te ataque, quita 1 contador de Bomba de esta carta → agota 1 Mejora y 1 Apoyo que controles.",
+		"traits": "Tecnología. Arma."
 	},
 	{
 		"code": "27138",
-		"name": "Incendiary Bombs",
-		"traits": "Tech. Weapon."
+		"flavor": "Están rellenas con un combustible sumamente volátil que arde con una intensidad abrasadora.",
+		"name": "Bombas incendiarias",
+		"text": "Vincula esta carta al Villano.\nUsos (2 contadores de Bomba).\n[star] <b>Respuesta obligada:</b> después de que el Villano te ataque, quita 1 contador de Bomba de esta carta → sufres 2 de Daño indirecto.",
+		"traits": "Tecnología. Arma."
 	},
 	{
 		"code": "27139",
-		"name": "Smoke Bombs",
-		"traits": "Tech. Weapon."
+		"flavor": "La densa humareda tóxica que liberan estas bombas puede incapacitar en el acto incluso a los enemigos más duros.",
+		"name": "Bombas de humo",
+		"text": "Vincula esta carta al Villano.\nUsos (2 contadores de Bomba).\n[star] <b>Respuesta obligada:</b> después de que el Villano te ataque, quita 1 contador de Bomba de esta carta → descarta 1 Evento de tu mano que tenga el coste más bajo.",
+		"traits": "Tecnología. Arma."
 	},
 	{
 		"code": "27140",
-		"name": "Limitless Supply"
+		"flavor": "Norman Osborn ha estado muy atareado fabricado y almacenando dispositivos tecnológicos, y ahora tanto él como sus compinches disponen de un cuantioso arsenal de armas y artilugios.",
+		"name": "Suministro ilimitado",
+		"scheme_text": "Todos los Accesorios [[tecnología]] ganan Oleada."
 	},
 	{
+		"boost_text": "dale al Villano 2 cartas de aumento adicionales para esta activación.",
 		"code": "27141",
-		"name": "Remote Navigation"
+		"name": "Control remoto",
+		"text": "<b>Cuando se muestre esta carta: </b>si está en juego el Planeador avanzado, el Villano se activa contra ti. Si no está en juego, busca el Planeador avanzado en el mazo y la pila de descartes de Encuentros y muéstralo."
 	},
 	{
+		"boost_text": "pon en juego este Esbirro enfrentado a ti.",
 		"code": "27142",
-		"name": "Life-Size Decoy"
+		"name": "Señuelo en tamaño real",
+		"text": "En modo Experto, el Señuelo en tamaño real gana Dureza.\nEl juegador enfrentado no puede intervenir contra Planes secundarios."
 	},
 	{
+		"boost_text": "coloca 1 de Amenaza sobre cada Plan. (En modo Experto, coloca 1 de Amenaza adicional sobre el Plan principal.)",
 		"code": "27143",
-		"name": "Coordinated Effort"
+		"name": "Esfuerzo coordinado",
+		"scheme_text": "Cada enemigo gana 1 icono de Aceleración."
 	},
 	{
+		"boost_text": "inflige 1 de Daño indirecto a cada jugador. (en modo Experto, inflige 1 de Daño indirecto adicional al jugador inicial.)",
 		"code": "27144",
-		"name": "Hidden in Shadow"
+		"name": "Oculto entre las sombras",
+		"scheme_text": "Cada enemigo gana 1 icono de Riesgo."
 	},
 	{
+		"boost_text": "en modo Experto, esta carta recibe +2 iconos de Aumento ([boost][boost]) para esta activación.",
 		"code": "27145",
-		"name": "Teamwork Makes the Dream Work"
+		"name": "La unión hace la fuerza",
+		"scheme_text": "Cada enemigo recibe +1 PLA y +1 ATQ."
 	},
 	{
 		"code": "27146",
-		"name": "From Every Direction"
+		"flavor": "La oscuridad baila con intenciones siniestras.",
+		"name": "A diestro y siniestro",
+		"text": "En modo Experto, esta gana Oleada.\n<b>Cuando se muestre esta carta:</b> coloca 1 de Amenaza sobre el Plan principal por cada enemigo que haya en juego."
 	},
 	{
 		"code": "27147",
-		"name": "Arm Cannon",
-		"traits": "Tech. Weapon."
+		"name": "Cañón de antebrazo",
+		"text": "Oleada.\nVincula esta carta al Villano.\n[star] Los ataques del Villano vinculado ganan Brutalidad y Penetrante.\n<b>Acción de Héroe: </b>descarta la Mejora con el coste más alto que controles → descarta esta carta.",
+		"traits": "Tecnología. Arma."
 	},
 	{
 		"code": "27148",
-		"name": "Ionic Boots",
-		"traits": "Item. Tech."
+		"name": "Botas iónicas",
+		"text": "Oleada.\nVincula esta carta al Villano.\n[star] <b>Respuesta obligada: </b>después de que el Villano vinculado ataque e inflija Daño a tu Superhéroe, coloca 2 de Amenaza sobre el Plan principal.\n<b>Acción de Héroe:</b> gasta recursos [energy][mental][physical] → descarta esta carta.",
+		"traits": "Objeto. Tecnología."
 	},
 	{
 		"code": "27149",
-		"name": "Kinetic Armor",
-		"traits": "Armor. Tech."
+		"name": "Blindaje cinético",
+		"text": "Oleada.\nVincula esta carta al Villano.\nEl Villano vinculado gana Represalia 1.\n<b>Acción de Héroe:</b> sufre 3 de Daño indirecto → descarta esta carta.",
+		"traits": "Armadura. Tecnología."
 	},
 	{
 		"code": "27150",
-		"name": "Neocarbon Scales",
-		"traits": "Armor. Tech."
+		"name": "Malla de neocarbono",
+		"text": "Oleada.\nVincula esta carta al Villano.\nReduce en 1 el Daño que sufre el Villano vinculado en cada ataque.<b>Acción de Héroe: </b>dale al Villano una carta de Estado \"Duro\" y 1 carta de aumento boca abajo → descarta esta carta.",
+		"traits": "Armadura. Tecnología."
 	},
 	{
 		"code": "27151",
-		"name": "Spiked Gauntlet",
-		"traits": "Tech. Weapon."
+		"name": "Guantelete con pinchos",
+		"text": "Oleada.\nVincula esta carta al Villano.\n<b>Acción de Héroe: </b>el Villano te ataca. Después de que termine ese ataque, si tu Superhéroe no ha sufrido Daños a consecuencia del mismo, descarta esta carta.",
+		"traits": "Tecnología. Arma."
 	},
 	{
 		"code": "27152",
-		"name": "Tracking Display",
-		"traits": "Item. Tech."
+		"name": "Visor de localización",
+		"text": "Oleada.\nVincula esta carta al Villano.\n[star] Ningún personaje puede defender contra los ataques del Villano vinculado.\n<b>Acción de Héroe:</b> agota un personaje que controles y descarta 1 carta de tu mano al azar → descarta esta carta.",
+		"traits": "Objeto. Tecnología."
 	},
 	{
 		"code": "27153",
-		"name": "Induced Panic",
-		"traits": "Illusion."
+		"name": "Pánico inducido",
+		"text": "Vincula esta carta a tu Superhéroe.\nNo puedes resolver las capacidades aplicadas impresas en el texto de reglas de tu Héroe. (Las capacidades aplicadas son las que tienen un encabezado en <b>negrita</b> que señala el momento en que se aplican.)/n<b>Acción de Alter ego:</b> descarta de tu mano 1 carta al azar que sea específica de un Superhéroe → descarta esta carta.",
+		"traits": "Ilusión."
 	},
 	{
+		"boost_text": "roba 3 cartas. Descarta 3 cartas de tu mano al azar.",
 		"code": "27154",
-		"name": "Evil Doppelgänger",
-		"traits": "Illusion."
+		"name": "Doble malvado",
+		"text": "El Doble malvado recibe +X PLA y +X ATQ, siendo X igual al número de cartas específicas de Superhéroes que haya en la mano del jugador enfrentado..",
+		"traits": "Ilusión."
 	},
 	{
 		"code": "27155",
-		"name": "Fool's Paradise"
+		"name": "En las nubes",
+		"scheme_text": "Victoria 1. (Cuando esta carta sea derrotada, añádela a la zona de victoria.)\nCada Superhéroe recibe +2 al tamaño de su mano."
 	},
 	{
 		"code": "27156",
-		"name": "Weakness from Within"
+		"flavor": "Mysterio es un maestro del terror capaz de identificar las fobias de sus víctimas estudiando hasta el menor de sus respingos.",
+		"name": "Debilidad interior",
+		"scheme_text": "<b>Cuando se muestre esta carta: </b>coloca 1 de Amenaza adicional sobre esta carta por cada carta que tengas en la mano."
 	},
 	{
 		"code": "27157",
-		"name": "Deepest Fears"
+		"name": "Los miedos más profundos",
+		"text": "Peligro. (Mientras estés resolviendo esta carta, los demás jugadores no podrán ayudarte.)\n<b>Cuando se muestre esta carta:</b> descarta tantas cartas de la parte superior de tu mazo como el número de cartas que tengas en la mano. Si se descarta de este modo al menos 1 carta específica de un Superhéroe, coloca 1 de Amenaza sobre el Plan principal. Si no se descarta ninguna carta específica de un Superhéroe, sufres 1 de Daño."
 	},
 	{
 		"code": "27158",
+		"flavor": "¡Mira cómo atrapo una araña en mi propia tela formada con mis nuevos brazos!",
 		"name": "Doctor Octopus",
-		"traits": "Elite. Genius."
+		"text": "Incitar 2. Infame.\n[star] <b>Respuesta obligada: </b>después de que el Doctor Octopus se active contra tu, coloca 1 de Amenaza sobre cada Plan.",
+		"traits": "Élite. Genio."
 	},
 	{
 		"code": "27159",
+		"flavor": "¡Con mis grandes poderes, nada podrá detenerme!",
 		"name": "Electro",
-		"traits": "Criminal. Elite."
+		"text": "Represalia 1. Infame.\n<b>Respuesta obligada:</b> después de que Electro se enfrente a ti o se active contra ti, descarta cartas de la parte superior de tu mazo hasta que descartes un recurso [energy] o [wild].",
+		"traits": "Criminal. Élite."
 	},
 	{
 		"code": "27160",
-		"name": "Hobgoblin",
-		"traits": "Aerial. Elite."
+		"flavor": "No te imaginas cuánto voy a disfrutar esto.",
+		"name": "Duende",
+		"text": "Patrulla. Infame.\n[star] <b>Respuesta obligada:</b> después de que el Duende te ataque, sufres 2 de Daño indirecto.",
+		"traits": "Aéreo. Élite."
 	},
 	{
 		"code": "27161",
-		"name": "Kraven the Hunter",
-		"traits": "Elite."
+		"flavor": "Mis cuchillos están tan afilados como mi instinto.",
+		"name": "Kraven el Cazador",
+		"text": "Tesón. Infame.\n[star] <b>Respuesta obligada: </b>después de que Kraven el Cazador ataque e inflija Daño a un personaje que controles, descarta 1 Mejora o Apoyo que controles.",
+		"traits": "Élite."
 	},
 	{
 		"code": "27162",
-		"name": "Scorpion",
-		"traits": "Brute. Elite."
+		"flavor": "Esto es la última batalla de Spiderman, ¿no? No me la perdería por nada del mundo.",
+		"name": "Escorpión",
+		"text": "Dureza. Infame.\n[star] <b>Respuesta obligada: </b>después de que el Escorpión ataque e inflija Daño a un personaje, aturde a ese personaje. Si ya estaba aturdido, le inflige 2 de Daño.",
+		"traits": "Bruto. Élite."
 	},
 	{
 		"code": "27163",
-		"name": "Vulture",
-		"traits": "Aerial. Elite."
+		"flavor": "Nadie odia más que yo al trepamuros.",
+		"name": "Buitre",
+		"text": "Ataque veloz. Infame.\n[star] <b>Respuesta obligada: </b>después de que el Buitre se active contra ti, descarta 1 carta de tu mano al azar.",
+		"traits": "Aéreo. Élite."
 	},
 	{
 		"code": "27164",
-		"name": "Improvised Weapons"
+		"name": "Armas improvisadas",
+		"text": "Vincula esta carta al Villano.\n<b>Acción de Héroe: </b>gasta recursos [mental][physical][energy] → descarta esta carta."
 	},
 	{
 		"code": "27165",
-		"name": "Violent Tendencies",
-		"traits": "Condition."
+		"flavor": "Mmm, sesos...",
+		"name": "Tendencias violentas",
+		"text": "Vincula esta carta al Villano.\n<b>Respuesta obligada:</b> después de que el Villano vinculado sufra cualquier cantidad de Daño a consecuencia de un ataque, dale 1 carta de aumento boca abajo. Si el ataque ha infligido al menos 3 de Daño al Villano vinculado, descarta esta carta..",
+		"traits": "Alteración."
 	},
 	{
+		"boost_text": "quedas aturdido. Si ya estabas aturdido, sufres 2 de Daño.",
 		"code": "27166",
-		"name": "Webbed Up",
-		"traits": "Condition."
+		"name": "Envuelto en telaraña",
+		"text": "Vincula esta carta a tu Superhéroe.\n<b>Interrupción obligada:</b> cuando tu Héroe vaya a atacar, en vez de eso descarta Envuelto en telaraña. Luego quedas aturdido.",
+		"traits": "Alteración."
 	},
 	{
+		"boost_text": "pon en juego al Simbionte rabioso enfrentado a ti.",
 		"code": "27167",
-		"name": "Enraged Symbiote",
-		"traits": "Symbiote."
+		"name": "Simbionte rabioso",
+		"text": "Guardia. Patrulla. (Mientras este Esbirro esté enfrentado a ti, no podrás intervenir en el Plan principal.)",
+		"traits": "Simbionte."
 	},
 	{
 		"code": "27168",
-		"name": "Swinging Assault"
+		"flavor": "\"¿Es que no aprenderéis nunca, perdedores?\" —Veneno",
+		"name": "Ataque en balanceo",
+		"text": "<b>Cuando se muestre esta carta (Alter ego): </b>cambia a tu identidad de Héroe. El Villano te ataca.\n<b>Cuando se muestre esta carta (Héroe): </b>el Villano te ataca. Dale al Villano 1 carta de aumento adicional para esa activación."
 	},
 	{
+		"boost_text": "si esta activación es un ataque, esta carta recibe +2 iconos de Aumento ([boost][boost]) para este ataque, y además este ataque gana Brutalidad.",
 		"code": "27169",
-		"name": "Unstable Sentience"
+		"name": "Inteligencia inestable",
+		"text": "Oleada.\n<b>Cuando se muestre esta carta:</b> dale al Villano 1 carta de aumento boca abajo."
 	},
 	{
+		"boost_text": "si este ataque derrota a un Aliado, sufres tanto Daño indirecto como el coste impreso de ese Aliado.",
 		"code": "27170",
-		"name": "Delusion of Collusion",
-		"traits": "Illusion."
+		"name": "Manía persecutoria",
+		"text": "Vincula esta carta a tu Superhéroe.\nNo puedes preparar Aliados ni tampoco Apoyos [[individuo]] que controles.\n<b>Acción de Alter ego:</b> descarta un Aliado o un Apoyo [[individuo]] que controles → descarta esta carta.",
+		"traits": "Ilusión."
 	},
 	{
 		"code": "27171",
-		"name": "Manipulated Mind",
-		"traits": "Illusion."
+		"name": "Mente manipulada",
+		"text": "El Aliado vinculado se trata como si fuera un Esbirro con el texto de reglas impreso en blanco (a excepción de los [[rasgos]]). La puntuación de PLA del Esbirro vinculado es igual a su puntuación impresa de INT, y no sufre Daño derivado.\n<b>Cuando se muestre esta carta: </b>vincula esta carta al Aliado controlado por ti que tenga el coste más bajo. Si no es posible, esta carta gana Oleada.",
+		"traits": "Ilusión."
 	},
 	{
+		"boost_text": "inflige 1 de Daño a cada personaje que controles.",
 		"code": "27172",
-		"name": "Old Grudge",
-		"traits": "Illusion."
+		"name": "Vieja rencilla",
+		"text": "El Esbirro vinculado recibe +1 de Vida.\n<b>Cuando se muestre esta carta:</b> busca a tu Esbirro Archienemigo en el mazo de Encuentros, en su pila de descartes y en la zona de cartas apartadas, y luego muestra a ese Esbirro. Vincúlale la Vieja rencilla. (Baraja el mazo.)",
+		"traits": "Ilusión."
 	},
 	{
 		"code": "27173",
-		"name": "Analysis Paralysis"
+		"name": "Paralizados por la duda",
+		"scheme_text": "<b>Cuando se muestre esta carta: </b>busca el Plan secundario de tu Archienemigo en el mazo de Encuentros, en su pila de descartes y en la zona de cartas apartadas, y luego muéstralo. Coloca X de Amenaza adicional sobre esta carta, siendo X igual a la cantidad de Amenaza que haya sobre ese Plan secundario."
 	}
 ]
