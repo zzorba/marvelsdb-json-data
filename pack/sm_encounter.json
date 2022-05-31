@@ -773,6 +773,7 @@
 		"set_code": "sinister_six",
 		"set_position": 1,
 		"stage": 1,
+		"text": "[star] <b>Forced Response: </b> After Doctor Octopus attacks and damages you, place 1 threat on each scheme. Move the active counter to the next villain in the activation order. \n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 1",
 		"type_code": "villain"
 	},
@@ -791,6 +792,7 @@
 		"set_code": "sinister_six",
 		"set_position": 2,
 		"stage": 1,
+		"text": "[star] <b>Forced Response: </b> After Electro attacks and damges you, discard the top 7 cards of your deck. Move the active counter to the next villain in the activation order. \n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 2",
 		"type_code": "villain"
 	},
@@ -809,6 +811,7 @@
 		"set_code": "sinister_six",
 		"set_position": 3,
 		"stage": 1,
+		"text": "[star] <b>Forced Response: </b> AfterHobgoblin attacks and damages you, take 2 indirect damage. Move the active counter to the next villain in the activation order. \n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 3",
 		"type_code": "villain"
 	},
@@ -827,6 +830,7 @@
 		"set_code": "sinister_six",
 		"set_position": 4,
 		"stage": 1,
+		"text": "[star] <b>Forced Response: </b> After Kraven the Hunter attacks and damages you, choose and discard 1 support or upgrade you control. Move the active counter to the next villain in the activation order. \n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 4",
 		"type_code": "villain"
 	},
@@ -845,6 +849,7 @@
 		"set_code": "sinister_six",
 		"set_position": 5,
 		"stage": 1,
+		"text": "[star] <b>Forced Response: </b> After Scorpion attacks and damages you, stun a character you control. Move the active counter to the next villain in the activation order. \n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 5",
 		"type_code": "villain"
 	},
@@ -863,6 +868,7 @@
 		"set_code": "sinister_six",
 		"set_position": 6,
 		"stage": 1,
+		"text": "[star] <b>Forced Response: </b> After Vulture attacks and damages you, choose and discard 1 card from your hand. Move the active counter to the next villain in the activation order. \n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 6",
 		"type_code": "villain"
 	},
@@ -877,9 +883,12 @@
 		"pack_code": "sm",
 		"position": 100,
 		"quantity": 1,
+		"scheme_text": "Ambush - <b>Special: </b> Choose a set-aside villain at random, put that villain into play, and place the active counter on it. (In expert mode, place 2 threat on Light at the End). \n <b>Forced Interrupt: </b> When a villain would activate, if no villain is in play, resolve this cards Ambush! ability. Continue that activation.",
 		"set_code": "sinister_six",
 		"set_position": 7,
 		"stage": 1,
+		"text": "<b> Contents: </b> Doctor Octopus, Electro, Hobgoblin, Kraven the Hunter, Scorpion, and Vulture. The Sinister Six, Guerrila tactics, and standard encounter sets. \n <b>Setup: </b> Choose X villains at random, where X is 1 more than the number of players. Put those villains into play, place the active counter on the villain with the lowest activation order value, and set the other villains aside. Put the Light at the End side scheme into play, [[trap!]] side faceup.",
+
 		"threat": 8,
 		"type_code": "main_scheme"
 	},
@@ -893,9 +902,11 @@
 		"pack_code": "sm",
 		"position": 101,
 		"quantity": 1,
+		
 		"set_code": "sinister_six",
 		"set_position": 8,
 		"stage": 2,
+		"text": "<b>When Revealed: </b> Choose a set-aside villain at randomput that villain into play, and place active counter on it (even if another villain has the counter). If no villain was put into play this way or this is expert mode, deal the first player 1 facedown enounter card.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -912,6 +923,7 @@
 		"set_code": "sinister_six",
 		"set_position": 8,
 		"stage": 2,
+		"text": "Ambush! - <b>Special: </b> Choose a set-aside villain at random, put that villain into play, and place the active counter on it. (In expert mode, place 2 threat on Light at the End). \n <b>Forced Interrupt </b> When a villain would activate, if no villain is in play, resolve this cards Ambush! ability. Continue that activation. \n <b>If this stage is completed, the players lose the game. </b>",
 		"threat": 7,
 		"type_code": "main_scheme"
 	},
@@ -929,6 +941,7 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 9,
+		"text": "Permanent. Hinder 10[per_player]. \n The players cannot win unless they escape. \n <b>Forced Interrupt: </b> When the last threat is removed from this scheme, resolve the Ambush! Ability on the main scheme. Flip this card. (The palyers can escape on the other side.)",
 		"traits": "Trap!",
 		"type_code": "side_scheme"
 	},
@@ -946,6 +959,7 @@
 		"scheme_boost": 1,
 		"set_code": "sinister_six",
 		"set_position": 9,
+		"text": "Permanent. Hinder 10[per_player]. \n The players cannot win unless they escape. \n <b>Forced Interrupt: </b> When the last threat is removed from this scheme, the players escape and win the game.",
 		"traits": "Chase!",
 		"type_code": "side_scheme"
 	},
@@ -959,6 +973,7 @@
 		"quantity": 2,
 		"set_code": "sinister_six",
 		"set_position": 10,
+		"text": "Attach to the villain with the highest activation order value. If you cannot, resolve the Ambush! Ability on the main scheme, then attach this card on the active villain. X is equal to the number of villains in play.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -973,6 +988,7 @@
 		"quantity": 2,
 		"set_code": "sinister_six",
 		"set_position": 12,
+		"text": "Attach to the villain with the most remaining hit points. If you cannot, resolve the Ambush! Ability on the main scheme, then attach this card to the active villain.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -988,6 +1004,7 @@
 		"scheme_crisis": 1,
 		"set_code": "sinister_six",
 		"set_position": 14,
+		"text": "Attach to the villain with the lowest activation order value. If you cannot, resolve the Ambush! Ability on the main scheme, then attach this card to the active villain.",
 		"traits": "Title.",
 		"type_code": "attachment"
 	},
@@ -1002,11 +1019,13 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 15,
+		"text": "Attach to the villain with the highest ATK. If you cannot, resolve the Ambush! Ability on the main scheme, then attach this card to the active villain. \n You cannot attack villains who do not have an attached copy of Take One for the Team.",
 		"type_code": "attachment"
 	},
 	{
 		"base_threat_fixed": 9,
 		"boost": 2,
+		"boost_text": "Give the villain 1 additional boost card for this activation.",
 		"code": "27107",
 		"faction_code": "encounter",
 		"name": "Brute Force Barricade",
@@ -1016,6 +1035,7 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 16,
+		"text": "Victory 1. (When defeated, add this card to the victory display.) \n Threat cannot be removed from other side schemes.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1029,6 +1049,7 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 17,
+		"text": "In expert mode, this card gains incite 1 and cannot be canceled. \n <b>When Revealed: </b> Put the set-aside Hobgoblin and Vulture into play. If Hobgoblin is already in play, take 2 indirect damage. If Vulture is already in play, discard 1 card at random from your hand.",
 		"type_code": "treachery"
 	},
 	{
@@ -1042,6 +1063,7 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 18,
+		"text": "In expert mode, this card gains incite 1 and cannot be canceled. \n <b>When Revealed: </b> Put the set-aside Electro and Kraven the Hunter into play. If Electro is already in play, discard the highest-cost card you control. If Kraven the Hunter is already in play, discard the lowest-cost card you control.",
 		"type_code": "treachery"
 	},
 	{
@@ -1055,6 +1077,7 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 19,
+		"text": "In expert mode, this card gains incite 1 and cannot be canceled. \n <b>When Revealed: </b> Put the set-aside Doctor Octopus and Scorpion into play. If Doctor Octopus is already in play, confuse a character you control. If Scorpion is already in play, stun a character you control.",
 		"type_code": "treachery"
 	},
 	{
@@ -1068,6 +1091,7 @@
 		"quantity": 3,
 		"set_code": "sinister_six",
 		"set_position": 20,
+		"text": "<b>When Revealed (Alter-Ego): </b> The Villain with the lowest activation order value schemes with +X SCH where X is equal to the total SCH of all other villains in play. \n <b> When Revealed (Hero): </b> The villain with the highest activation order value attacks you with +X ATK, where X is equal to the total ATK of all other villains in play.",
 		"type_code": "treachery"
 	},
 	{
@@ -1081,6 +1105,7 @@
 		"quantity": 3,
 		"set_code": "sinister_six",
 		"set_position": 23,
+		"text": "In expert mode, this card gains surge and cannot be canceled. \n <b> When Revealed: </b>Resolve the Ambush! Ability on the main scheme. If no villain was put into play this way, place 3 threat on Light at the End.",
 		"type_code": "treachery"
 	},
 	{
