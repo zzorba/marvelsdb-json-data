@@ -57,7 +57,7 @@
 		"code": "16008",
 		"flavor": "\"Je s'appelle. GROOT !\" — Groot",
 		"name": "Branches Enchevêtrées",
-		"text": "<b>Interruption de héros</b> : quand Groot effectue un contre de base,retirez-lui 1 jeton Croissance et inclinez Branches Enchevêtrées → Groot gagne +2 CTR pour ce contre.",
+		"text": "<b>Interruption de héros</b> : quand Groot effectue un contre de base, retirez-lui 1 jeton Croissance et inclinez Branches Enchevêtrées → Groot gagne +2 CTR pour ce contre.",
 		"traits": "Super-pouvoir."
 	},
 	{
@@ -117,7 +117,7 @@
 	{
 		"code": "16020",
 		"name": "Faune et Flore",
-		"text": "En Équipe (Groot et Rocket Raccoon).\n1 max par deck\n <b>Action de héros</b> : placez 2 jetons Croissance sur Groot (jusqu'à un maximum de 10) et redressez-le ou placez 2 jetons Charge sur une amélioration du set Rocket Raccoon et redressez cette amélioration"
+		"text": "En Équipe (Groot et Rocket Raccoon).\n1 max par deck.\n<b>Action de héros</b> : placez 2 jetons Croissance sur Groot (jusqu'à un maximum de 10) et redressez-le ou placez 2 jetons Charge sur une amélioration du set Rocket Raccoon et redressez cette amélioration."
 	},
 	{
 		"code": "16024",
@@ -199,7 +199,7 @@
 		"code": "16039",
 		"flavor": "\"Même vu de là-haut, je peux dire que tu es sans doute l'humain le plus laid que j'ai jamais vu. Et pourtant je traîne avec Peter Quill.\" — Rocket Raccoon",
 		"name": "Bottes à Propulsion",
-		"text": "Tant qu'il est sous forme de héros, rocket Raccoon gagne +1 CTR et le trait [[Aérien]].",
+		"text": "Tant qu'il est sous forme de héros, rocket Raccoon gagne +1 CTR et le trait [[AÉRIEN]].",
 		"traits": "Armure. Arme."
 	},
 	{
@@ -240,5 +240,238 @@
 		"name": "Bottes Propulsées",
 		"text": "Jouez cette carte uniquement si votre identité a le trait [[GARDIEN]].\n1 max par joueur.\n <b>Interruption de héros</b> : quand vous êtes censé subir n'importe quelle quantité de dégâts d'une attaque, inclinez les Bottes Propulsées et défaussez la carte du dessus de votre deck → prévenez 1 de ces dégâts.",
 		"traits": "Armure. Tech."
+	},
+	{
+		"code": "16150",
+		"name": "Échange d'Idées",
+		"text": "Coût en Crédits : 1.\n<b>Action de héros</b> <i>(contre)</i> : nommez un type de carte, ensuite, regardez la carte du dessus de votre deck. Si cette carte correspond au type nommé, retirez 3 menaces de la manigance principale. Placez la carte regardée sur ou sous votre deck, ensuite, piochez 1 carte.",
+		"traits": "Contre."
+	},
+	{
+		"code": "16151",
+		"name": "Par Tous les Moyens",
+		"text": "Coût en Crédits : 1.\n<b>Action de héros</b> <i>(attaque)</i> : placez 2 menaces sur la manigance principale. Infligez 3 dégâts au méchant. Piochez 1 carte.",
+		"traits": "Attaque."
+	},
+	{
+		"code": "16152",
+		"name": "Plan de Rechange",
+		"text": "Coût en Crédits : 1.\n<b>Action de héros</b> <i>(attaque)</i> : défaussez les 4 cartes du dessous de votre deck. Pour chaque type de ressources différent ainsi défaussé, infligez 1 dégât à un ennemi. Piochez 1 carte.",
+		"traits": "Attaque."
+	},
+	{
+		"code": "16153",
+		"name": "Au Mépris du Danger",
+		"text": "Coût en Crédits : 1.\n<b>Interruption de héros</b> : quand une identité est censée subir n'importe quelle quantité de dégâts d'une attaque, prévenez 2 de ces dégâts. Piochez 1 carte."
+	},
+	{
+		"code": "16154",
+		"name": "Calculer les Probabilités",
+		"text": "Coût en Crédits : 2.\n<b>Action de héros</b> : piochez 1 carte et choisissez un joueur. Ce joueur peut piocher 1 carte, ensuite, il choisit et défausse 1 carte de sa main."
+	},
+	{
+		"code": "16155",
+		"name": "Solution Créative",
+		"text": "Coût en Crédits : 2.\n<b>Action de héros</b> : piochez 1 carte et retirez une carte d'état de n'importe quel personnage. Si le type de la carte d'état retirée était : \n- Tenace - Infligez 3 dégâts à un ennemi.\n- Sonné - Retirer 3 menaces d'une manigance.\n- Désorienté - Soignez 3 dégâts d'une identité."
+	},
+	{
+		"code": "16156",
+		"name": "Être aux Prises",
+		"text": "Coût en Crédits : 2.\n<b>Action de héros</b> : infligez 1 dégât à un ennemi et sonnez-le. Sonnez votre héros. Piochez 1 carte."
+	},
+	{
+		"code": "16157",
+		"name": "Improviser",
+		"text": "Coût en Crédits : 2.\n<b>Action de héros</b> : infligez 1 dégât à un ennemi et désorienté-le. Désorientez votre héros. Piochez 1 carte."
+	},
+	{
+		"code": "16158",
+		"name": "Évité de Justesse",
+		"text": "Coût en Crédits : 3.\n<b>Interruption de héros</b> : quand une carte de boost est retournée face visible, annulez sa capacité <b>\"Boost\"</b> et toutes ses icônes de boost <i>([boost])</i>, ensuite, défaussez-la. Piochez 1 carte."
+	},
+	{
+		"code": "16159",
+		"name": "Braver le Danger",
+		"text": "Coût en Crédits : 3.\n<b>Action de héros</b> <i>(attaque)</i> : infligez 5 dégâts à un ennemi et défaussez la carte du dessus du deck Rencontre. Subissez 1 dégât pour chaque icône de boost <i>([boost])</i> ainsi défaussée.",
+		"traits": "Attaque."
+	},
+	{
+		"code": "16160",
+		"name": "Prendre des Risques",
+		"text": "Coût en Crédits : 3.\n<b>Action de héros</b> <i>(contre)</i> : subissez 2 dégâts. Retirez 5 menaces d'une manigance.",
+		"traits": "Contre."
+	},
+	{
+		"code": "16161",
+		"name": "Combattre sur leur Terrain",
+		"text": "Coût en Crédits : 3.\n<b>Action de héros</b> : regardez les 2[per_hero] cartes du dessus du deck Rencontre. Défaussez n'importe quel nombre de ces cartes, ensuite, placez le reste sur et/ou sous le deck dans n'importe quel ordre. Piochez 1 carte."
+	},
+	{
+		"code": "16162",
+		"name": "Plaques de Protection",
+		"text": "Coût en Crédits : 4.\n<b>Interruption de héros</b> : quand une identité est censée subir n'importe quelle quantité de dégâts, inclinez les Plaques de Protection → prévenez 1 de ces dégâts (2 à la place si vous contrôlez le Milano).",
+		"traits": "Module du Milano. Armure."
+	},
+	{
+		"code": "16163",
+		"name": "Canon Lourd",
+		"text": "Coût en Crédits : 4.\n<b>Action de héros</b> : inclinez le Canon Lourd → infligez 1 dégât à chaque ennemi. Si vous contrôlez le Milano, infligez 1 dégât supplémentaire au méchant.",
+		"traits": "Module du Milano. Arme."
+	},
+	{
+		"code": "16164",
+		"name": "Hyper Propulseurs",
+		"text": "Coût en Crédits : 4.\n<b>Action de héros</b> : inclinez les Hyper Propulseurs → retirez 1 menace de chaque manigance. Si vous contrôlez le Milano, retirez 1 menace supplémentaire de la manigacne principale.",
+		"traits": "Module du Milano. Tech."
+	},
+	{
+		"code": "16165",
+		"name": "Cœur du Réacteur",
+		"text": "Coût en Crédits : 4.\n<b>Action de héros</b> : inclinez le Cœur du Réacteur et défaussez les 2 cartes du dessus de vorte deck (la carte du dessus de votre deck à la place si vous contrôlez le Milano) → réduisez de 1 le coût en ressources du prochain événement que vous jouez à ce tour.",
+		"traits": "Module du Milano. Tech."
+	},
+	{
+		"code": "16166",
+		"name": "Résolution Ardente",
+		"text": "Coût en Crédits : 5.\n<b>Action de héros</b> : redressez un personnage ami. Piochez 1 carte."
+	},
+	{
+		"code": "16167",
+		"name": "Se Ruer",
+		"text": "Coût en Crédits : 5.\n<b>Interruption de héros</b> : quand une carte est révélée du deck Rencontre, annulez les effets de cette carte et défaussez-la."
+	},
+	{
+		"code": "16168",
+		"name": "Sauvegarde",
+		"text": "Coût en Crédits : 5.\n<b>Action de héros</b> : donnez à un maximum de 2 personnages amis une carte d'état Tenace chacun. Piochez 1 carte."
+	},
+	{
+		"code": "16169",
+		"name": "Valeur Sûre",
+		"text": "Coût en Crédits : 5.\n<b>Action de héros</b> : réduisez de 3 le coût en ressource de la prochaine carte jouée à cete phase."
+	},
+	{
+		"code": "16170",
+		"name": "Soute",
+		"text": "Coût en Crédits : 6.\n<b>Action de héros</b> : inclinez la soute → soignez 1 dégât d'un personnage ami. Si vous contrôlez le Milano, soignez 1 dégât de votre identité.",
+		"traits": "Module du Milano. Lieu."
+	},
+	{
+		"code": "16171",
+		"name": "Laser Monté",
+		"text": "Coût en Crédits : 6.\n<b>Action de héros</b> : inclinez le Laser Monté → infligez 2 dégâts à un ennemi (3 dégâts à la place si vous contrôlez le Milano).",
+		"traits": "Module du Milano. Arme."
+	},
+	{
+		"code": "16172",
+		"name": "Manche de Pilotage",
+		"text": "Coût en Crédits : 6.\n<b>Action de héros</b> : inclinez le Manche de Pilotage, choisissez et défaussez 1 carte de votre main (défaussez la carte du dessus de votre deck à la place si vous contrôlez le Milano) → piochez 1 carte.",
+		"traits": "Module du Milano. Tech."
+	},
+	{
+		"code": "16173",
+		"name": "Écran de Ciblage",
+		"text": "Coût en Crédits : 6.\n<b>Action de héros</b> : inclinez l'Écran de Ciblage → retirez 2 menaces d'une menace (3 menaces à la place si vous contrôlez le Milano).",
+		"traits": "Module du Milano. Tech."
+	},
+	{
+		"code": "16174",
+		"name": "Stratégie Globale",
+		"text": "Coût en Crédits : 7.\n<b>Action de héros</b> : piochez jusqu'à atteindre votre taille de main maximale. Retirez cette carte de la partie."
+	},
+	{
+		"code": "16175",
+		"name": "Déchaînement de Puisssance",
+		"text": "Coût en Crédits : 7.\n<b>Action de héros</b> : inflige 5 dégâts au méchant et retirez 5 menaces de la manigance principale. Retirez cette carte de la partie."
+	},
+	{
+		"code": "16176",
+		"name": "Efficacité Prouvée",
+		"text": "Coût en Crédits : 7.\n<b>Action de héros</b> : choisissez un joueur. Ce joueur peut ajouter à sa main jusqu'à 3 cartes de sa pile de défausse. Retirez cette carte de la partie."
+	},
+	{
+		"code": "16177",
+		"name": "Triple Menace",
+		"text": "Coût en Crédits : 7.\n<<b>Action de héros</b> : redressez jusqu'à 3 personnages. Retirez cette carte de la partie."
+	},
+	{
+		"code": "16178a",
+		"name": "Attaque Surprise des Badoon",
+		"text": "<b>Mode Standard Uniquement.</b>\nEntrave 3[per_hero]. <i>(Quand cette carte est révélée, placez 3[per_hero] menaces dessus.)</i>\nVictoire 1. <i>(Une fois déjouée, ajoutez cette carte à la pile de victoire.)</i>\n<b>Une fois déjouée</b> : chaque joueur peut piocher 1 carte."
+	},
+	{
+		"code": "16178b",
+		"name": "Attaque Surprise des Badoon",
+		"text": "<b>Mode Expert Uniquement.</b>\nEntrave 4[per_hero]. Victoire 1.\n<b>Une fois déjouée</b> : chaque joueur doit choisir et défausser 1 carte de sa main."
+	},
+	{
+		"code": "16179a",
+		"name": "Gallerie des Merveilles",
+		"text": "<b>Mode Standard Uniquement.</b>\nEntrave 3[per_hero]. Victoire 1.\n<b>Une fois déjouée</b> : mettez dans La Collection, face visible, la carte du dessus du deck de chaque joueur."
+	},
+	{
+		"code": "16179b",
+		"name": "Gallerie des Merveilles",
+		"text": "<b>Mode Expert Uniquement.</b>\nEntrave 4[per_hero]. Victoire 1.\n<b>Une fois déjouée</b> : chaque joueur doit mettre dans La Collection, face visible, 1 carte prise au hasard dans sa main."
+	},
+	{
+		"code": "16180a",
+		"name": "\"Il n'y a Aucune Issue\"",
+		"text": "<b>Mode Standard Uniquement.</b>\nEntrave 3[per_hero]. Victoire 1.\n<b>Une fois déjouée</b> : infligez 1 dégât à chaque joueur."
+	},
+	{
+		"code": "16180b",
+		"name": "\"Il n'y a Aucune Issue\"",
+		"text": "<b>Mode Expert Uniquement.</b>\nEntrave 4[per_hero]. Victoire 1.\n<b>Une fois déjouée</b> : infligez 2 dégâts à chaque joueur."
+	},
+	{
+		"code": "16181a",
+		"name": "Tactiques de Guérilla",
+		"text": "<b>Mode Standard Uniquement.</b>\nEntrave 3[per_hero]. Victoire 1.\n<b>Une fois déjouée</b> : placez 2 jetons Fuite sur le Vaisseau de Nebula."
+	},
+	{
+		"code": "16181b",
+		"name": "Tactiques de Guérilla",
+		"text": "<b>Mode Expert Uniquement.</b>\nEntrave 4[per_hero]. Victoire 1.\n<b>Une fois déjouée</b> : placez 3 jetons Fuite sur le Vaisseau de Nebula."
+	},
+	{
+		"code": "16182a",
+		"name": "supériorité Kree",
+		"text": "<b>Mode Standard Uniquement.</b>\nEntrave 3[per_hero]. Victoire 1."
+	},
+	{
+		"code": "16182b",
+		"name": "Supériorité Kree",
+		"text": "<b>Mode Expert Uniquement.</b>\nEntrave 4[per_hero]. Victoire 1."
+	},	
+	{	
+		"boost_text": "mettez en jeu le Traqueur Badoon, engagé avec vous.",
+		"code": "16183",
+		"name": "Traqueur Badoon",
+		"text": "Victoire 2. <i>(Une fois déjouée, ajoutez cette carte à la pile de victoire.)</i>\nVilenie. <i>(Quand ce sbire s'active, donnez-lui une carte de boost.)<i>",
+		"traits": "Badoon."
+	},	
+	{	
+		"boost_text": "donnez au méchant 1 carte de boost supplémentaire pour cette activation.",
+		"code": "16184",
+		"name": "En Chasse",
+		"text": "Renfort.\n<b>Une fois révélée</b> : choisissez : soit vous subissez 2 dégâts, soit vous défaussez 1 carte prise au hasard dans votre main."
+	},		
+	{	
+		"boost_text": "donnez au méchant 1 carte de boost supplémentaire pour cette activation.",
+		"code": "16185",
+		"name": "Infraction à la Loi",
+		"text": "Renfort.\n<b>Une fois révélée</b> : inclinez votre identité. Si vous ne pouvez pas, placez 2 menaces sur la manigance principale."
+	},
+	{	
+		"code": "16186",
+		"name": "Gros Bras du Traqueur",
+		"text": "Renfort.\nPatrouille <i>(Tant que ce sbire est engagé avec vous, vous ne pouvez pas contrer la manigance principale.)</i>",
+		"traits": "Badoon."
+	},
+	{
+		"code": "16187",
+		"name": "Retrouver les Fugitifs",
+		"text": "Renfort.\nEntrave 3[per_hero]. <i>(Quand cette carte est révélée, placez 3[per_hero] menaces dessus.)</i>"
 	}
 ]
