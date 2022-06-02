@@ -1537,6 +1537,7 @@
 		"scheme": 1,
 		"set_code": "legions_of_hel",
 		"set_position": 1,
+		"text": "Guard. \n<b> When Revealed:</b> Choose to either take 1 damage or place 1 threat on the main scheme.",		
 		"traits": "Undead.",
 		"type_code": "minion"
 	},
@@ -1551,6 +1552,7 @@
 		"quantity": 2,
 		"set_code": "legions_of_hel",
 		"set_position": 3,
+		"text": "Treat attached ally as an [[Undead]] minion with a blank text box. Attached minions SCH is equal to its printed THW and it does not take consequential damage. \n <b> When Revealed: </b> Discard cards from top of your deck until you discard an ally. Put that ally into play engaged with you with Fallen Warrior attached to it",		
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -1565,6 +1567,7 @@
 		"quantity": 1,
 		"set_code": "legions_of_hel",
 		"set_position": 5,
+		"text": "<b> When Revealed: </b> Each player must choose to either discard the upgrade or support they control with the highest cost, or take damage equal to the total number of upgrades and supports they control.",		
 		"type_code": "treachery"
 	},
 	{
@@ -1579,6 +1582,7 @@
 		"position": 155,
 		"quantity": 2,
 		"scheme_crisis": 1,
+		"scheme_text": "<b> When Revealed: </b> Place 2 additional threat here for each [[undead]] minion in play. If there are no [[undead]] minions in play, this card gains surge.",
 		"set_code": "legions_of_hel",
 		"set_position": 6,
 		"type_code": "side_scheme"
@@ -1598,12 +1602,14 @@
 		"scheme": 2,
 		"set_code": "frost_giants",
 		"set_position": 1,
+		"text": "Toughness.\n<b>Forced Response:</b> After Laufey attacks and damages a character, stun that character.",
 		"traits": "Elite. Giant.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 3,
 		"boost": 1,
+		"boost_text": "If the villain is attacking and this attack deals damage to a character, stun that character.",		
 		"code": "21157",
 		"faction_code": "encounter",
 		"health": 4,
@@ -1615,6 +1621,7 @@
 		"scheme": 1,
 		"set_code": "frost_giants",
 		"set_position": 2,
+		"text": "Toughness. (This character enters play with a tough status card.)",		
 		"traits": "Giant.",
 		"type_code": "minion"
 	},
@@ -1629,6 +1636,7 @@
 		"quantity": 2,
 		"set_code": "frost_giants",
 		"set_position": 4,
+		"text": "Attack to your identity \n Attached identity cannot ready. \n <b>Alter-Ego Action: </b> Spend [energy] [physical] resources → discard this card.",		
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -1642,6 +1650,7 @@
 		"pack_code": "mts",
 		"position": 159,
 		"quantity": 1,
+		"scheme_text": "Heroes and allies cannot be readied by player card effects. \n<b> When Revealed:</b> Exhaust each ally in play.",		
 		"set_code": "frost_giants",
 		"set_position": 6,
 		"type_code": "side_scheme"
@@ -1937,6 +1946,7 @@
 		"scheme": 2,
 		"set_code": "enchantress",
 		"set_position": 1,
+		"text": "<b>When Revealed</b>: Search the encounter deck, discard pile, and set-aside area for a copy of Seduced and attach it to your identity. <i>(Shuffle.)</i>",		
 		"traits": "Asgard. Elite.",
 		"type_code": "minion"
 	},
@@ -1951,6 +1961,7 @@
 		"quantity": 2,
 		"set_code": "enchantress",
 		"set_position": 2,
+		"text": "Treat attached ally as an [[Enthralled]] minion with a blank text box. Attached minion's SCH is equal to its printed THW and it does not take consequential damage.\n<b>When Revealed</b>: Attach to the ally with the highest cost without Beguiled attached. Attached ally engages its controller. Otherwise, this card gains surge.",		
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -1965,6 +1976,7 @@
 		"quantity": 2,
 		"set_code": "enchantress",
 		"set_position": 4,
+		"text": "Attach to your identity.\nYou cannot make basic attacks or play [[Attack]] events.\n<b>Alter-Ego Action</b>: Spend [energy] [mental] resources → discard this card.",		
 		"traits": "Condition.",
 		"type_code": "attachment"
 	}
