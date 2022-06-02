@@ -1662,6 +1662,7 @@
 		"set_code": "loki",
 		"set_position": 1,
 		"stage": 1,
+		"text": "Victory 1. \n Loki cannot take damage while a side scheme is in play. \n <b> When Defeated: </b> Discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that side scheme.",		
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
 	},
@@ -1681,6 +1682,7 @@
 		"set_code": "loki",
 		"set_position": 2,
 		"stage": 1,
+		"text": "Retaliate 1. Victory 1. \n <b> When Defeated: </b> Discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that side scheme.",		
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
 	},
@@ -1700,6 +1702,7 @@
 		"set_code": "loki",
 		"set_position": 3,
 		"stage": 1,
+		"text": "Stalwart. Victory 1. \n <b> When Defeated: </b> Discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that side scheme.",		
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
 	},
@@ -1719,11 +1722,13 @@
 		"set_code": "loki",
 		"set_position": 4,
 		"stage": 1,
+		"text": "Stalwart. Victory 1. \n <b> When Defeated: </b> Discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that side scheme.",		
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 2,
+		"attack_text": "Loki's attacks gain piercing.",
 		"code": "21164",
 		"faction_code": "encounter",
 		"health": 20,
@@ -1738,12 +1743,13 @@
 		"set_code": "loki",
 		"set_position": 5,
 		"stage": 1,
+		"text": "Victory 1. \n <b> When Defeated: </b> Discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that side scheme.",		
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
 	},
 	{
 		"back_name": "All Hail King Loki",
-		"back_text": "",
+		"back_text": "<b> Forced Interrupt: </b> When Loki is defeated, advance to a random set-aside Loki villain. <b> If the number of Lokis in the victory display is equal to the victory condition, the players win the game. (See rule insert.) If this tage is completed, the players loose the game. </b>",
 		"base_threat": 1,
 		"code": "21165",
 		"double_sided": true,
@@ -1754,6 +1760,7 @@
 		"pack_code": "mts",
 		"position": 165,
 		"quantity": 1,
+		"scheme_text": "<b> Contents: <b> Loki, infinity Gauntlet, and standard encounter sets. Two modular encounter sets. (Enchantress and Frost Giants). \n <b> Setup: </b> Set each copy of the Loki villain aside, out of play. Put the War in asgard side scheme into play. Shuffle the encounter deck. Reveal 1 set-aside Loki villain at random. Reveal the top card of the [[infinity stone]] deck.",
 		"set_code": "loki",
 		"set_position": 6,
 		"stage": 1,
@@ -1772,6 +1779,7 @@
 		"position": 166,
 		"quantity": 1,
 		"scheme_amplify": 1,
+		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",		
 		"set_code": "loki",
 		"set_position": 7,
 		"text": "Hinder 1[per_hero]",
@@ -1790,6 +1798,7 @@
 		"quantity": 1,
 		"scheme_acceleration": 1,
 		"scheme_boost": 1,
+	        "scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"set_code": "loki",
 		"set_position": 8,
 		"text": "Hinder 1[per_hero]",
@@ -1807,6 +1816,7 @@
 		"position": 168,
 		"quantity": 1,
 		"scheme_crisis": 1,
+		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"set_code": "loki",
 		"set_position": 9,
 		"text": "Hinder 1[per_hero]",
@@ -1824,6 +1834,7 @@
 		"position": 169,
 		"quantity": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "Hinder 1[per_player] \n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"set_code": "loki",
 		"set_position": 10,
 		"type_code": "side_scheme"
@@ -1839,6 +1850,7 @@
 		"quantity": 1,
 		"set_code": "loki",
 		"set_position": 11,
+		"text": "Attach to Loki. \n <b> Hero Response: </b> After you make a baisc attack against Loki, spend [energy] [physical] resources → discard this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -1853,6 +1865,7 @@
 		"quantity": 1,
 		"set_code": "loki",
 		"set_position": 12,
+		"text": "Attach to Loki. \n <b> Hero Response: </b> After you make a baisc attack against Loki, spend [mental] [physical] resources → discard this card.",
 		"traits": "Item.",
 		"type_code": "attachment"
 	},
@@ -1868,6 +1881,7 @@
 		"quantity": 1,
 		"set_code": "loki",
 		"set_position": 13,
+		"text": "Attach to Loki. \n <b> Forced Response: </b> After Loki is swapped with a set-aside Loki villain, give him a tough status card. \n <b> Hero Response: </b> After you make a baisc attack against Loki, spend [energy] [mental] resources → discard this card.",
 		"traits": "Armor.",
 		"type_code": "attachment"
 	},
@@ -1882,6 +1896,7 @@
 		"quantity": 1,
 		"set_code": "loki",
 		"set_position": 14,
+		"text": "Attach to Loki. \n <b> Forced Response: </b> When Loki would take damage from an attack, discard the top card of the encounter deck. If that card is a treachery, prevent all damage from this attack and discard this card.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -1896,9 +1911,11 @@
 		"quantity": 2,
 		"set_code": "loki",
 		"set_position": 15,
+		"text": "<b> When Revealed (Alter-Ego): </b> You are stunned. If you were already stunned, place 2 threat on the main scheme. \n <b> When Revealed (Hero): </b> You are stunned. If you were already stunned, take 2 damage.",
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "Discard the top card of the [[infinity stone]] deck. Apply it's boost icons [boost] for this activation as if it were a boost card."		
 		"code": "21175",
 		"faction_code": "encounter",
 		"name": "Infinite Mischief",
@@ -1908,9 +1925,11 @@
 		"quantity": 2,
 		"set_code": "loki",
 		"set_position": 17,
+		"text": "<b> When Revealed: </b> Shuffle the [[infinity stone]] deck discard pile into the [[infinity stone]] deck and reveal the top card.",
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "Give Loki an additional boost card and a tough status card.",
 		"code": "21176",
 		"faction_code": "encounter",
 		"name": "The Trickster",
@@ -1920,6 +1939,7 @@
 		"quantity": 3,
 		"set_code": "loki",
 		"set_position": 19,
+		"text": "<b> When Revealed: </b> Swap Loki with a random set-aside Loki villain. Loki activates agains you.",
 		"type_code": "treachery"
 	},
 	{
