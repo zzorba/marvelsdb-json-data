@@ -509,6 +509,7 @@
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Interrupt:</b> When Proxima Midnight attacks you, choose to either deal 1 damage to Avenger's Tower, or Proxima Midnight gets +2 ATK for this attack.",
 		"code": "21092",
 		"faction_code": "encounter",
 		"health": 9,
@@ -523,6 +524,7 @@
 		"set_code": "tower_defense",
 		"set_position": 1,
 		"stage": 1,
+		"text": "<b>Proxima Midnight cannot be defeated while Corvus Glaive has any hit points remaining.</b>",
 		"traits": "Black Order.",
 		"type_code": "villain"
 	},
@@ -542,6 +544,7 @@
 		"set_code": "tower_defense",
 		"set_position": 2,
 		"stage": 2,
+		"text": "[star]<b>Forced Interrupt:</b> When Proxima Midnight attacks you, choose to either deal 1 damange to Avenger's Tower, or Proxima Midnight gets +2 ATK for this attack. \n <b> Proxima Midnight cannot be defeated while Corvus Glaive has any hit points remaining </b>",
 		"traits": "Black Order.",
 		"type_code": "villain"
 	},
@@ -561,6 +564,7 @@
 		"set_code": "tower_defense",
 		"set_position": 3,
 		"stage": 3,
+		"text": "[star]<b>Forced Interrupt:</b> When Proxima Midnight attacks you, choose to either deal 1 damange to Avenger's Tower, or Proxima Midnight gets +2 ATK for this attack. \n <b> Proxima Midnight cannot be defeated while Corvus Glaive has any hit points remaining </b>",		
 		"traits": "Black Order.",
 		"type_code": "villain"
 	},
@@ -580,6 +584,7 @@
 		"set_code": "tower_defense",
 		"set_position": 4,
 		"stage": 1,
+		"text": "[star]<b>Forced Interrupt:</b> After Corvus Glaive makes an undefended attack, discard the top card of the encounter deck → deal 1 damage to Avenger's Tower for each boost icon ([boost]) on that card. \n<b>Corvus Glaive cannot be defeated while Proxima Midnight has any hit points remaining.</b>",		
 		"traits": "Black Order.",
 		"type_code": "villain"
 	},
@@ -599,6 +604,7 @@
 		"set_code": "tower_defense",
 		"set_position": 5,
 		"stage": 2,
+		"text": "[star]<b>Forced Interrupt:</b> After Corvus Glaive makes an undefended attack, discard the top card of the encounter deck → deal 1 damange to Avenger's Tpwer for each boost icon [[boost]] on that card. \n <b> Corvus Glaive cannot be defeated while Proxima Midnight has any hit points remaining </b>",		
 		"traits": "Black Order.",
 		"type_code": "villain"
 	},
@@ -618,12 +624,13 @@
 		"set_code": "tower_defense",
 		"set_position": 6,
 		"stage": 3,
+		"text": "[star]<b>Forced Interrupt:</b> After Corvus Glaive makes an undefended attack, discard the top card of the encounter deck → deal 1 damange to Avenger's Tpwer for each boost icon [[boost]] on that card. \n <b> Corvus Glaive cannot be defeated while Proxima Midnight has any hit points remaining </b>",		
 		"traits": "Black Order.",
 		"type_code": "villain"
 	},
 	{
 		"back_name": "Under Siege",
-		"back_text": "",
+		"back_text": "<b>Contents:</b> Proxima Midnight I and II <i>(stages (II) and (III) instead for expert mode)</i>. Corvus Glaive I and II <i>(stages (II) and (III) instead for expert mode)</i>. Tower Defense and Standard sets. One modular encounter set <i>(Armies of Titan)</i>.\n<b>Setup:</b> Reveal stage 2A and put it into play next to this stage so there are two main schemes and two villains in play.",
 		"base_threat": 1,
 		"code": "21098",
 		"double_sided": true,
@@ -637,12 +644,13 @@
 		"set_code": "tower_defense",
 		"set_position": 7,
 		"stage": 1,
+		"text": "<b><i>Proxima Midnight's Scheme.</i></b>\n<b>Forced Interrupt:</b> When this stage would be completed, remove all the threat from this stage instead. Then, deal 6[per_player] damage to Avengers Tower.",		
 		"threat": 6,
 		"type_code": "main_scheme"
 	},
 	{
 		"back_name": "The Armies of Thanos",
-		"back_text": "",
+		"back_text": "<b>When Revealed:</b> Put the Avengers Tower environment into play, [[stronghold]] side faceup. Put the Focused Defense attachment into play attached to this stage. Each player searches the encounter deck for a copy of Black Order Besieger and puts it into play engaged with them. Shuffle the encounter deck.",
 		"base_threat": 1,
 		"code": "21099",
 		"double_sided": true,
@@ -656,12 +664,13 @@
 		"set_code": "tower_defense",
 		"set_position": 8,
 		"stage": 1,
+		"text": "<b><i>Corvus Glaive's Scheme.</i></b>\n<b>Forced Interrupt:</b> When this stage would be completed, remove all the threat from this stage instead. Then, deal each player 1 facedown encounter card.",		
 		"threat": 6,
 		"type_code": "main_scheme"
 	},
 	{
 		"back_name": "Avengers Tower",
-		"back_text": "",
+		"back_text": "The unique rule does not apply to Avengers Tower.\n<b>Forced Response:</b> After damage is placed here, if there is at least 9[per_player] damage here, remove all of it. Then flip Avenger's Tower over.",
 		"back_traits": "Stronghold.",
 		"code": "21100",
 		"double_sided": true,
@@ -673,6 +682,7 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 9,
+		"text": "<b>When Revealed:</b> Discard each other Avengers Tower from play.\n<b>Forced Response:</b> After damage is placed here, if there is at least 9[per player] damage here, the players lose the game.",		
 		"traits": "Damaged.",
 		"type_code": "environment"
 	},
@@ -686,6 +696,7 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 10,
+		"text": "Permanent.\n The villain who matches the attached scheme is the active villain.\n<b>Forced Response:</b> After the player phase ends, attach this card to the other main scheme.",		
 		"type_code": "attachment"
 	},
 	{
@@ -702,6 +713,7 @@
 		"scheme": 1,
 		"set_code": "tower_defense",
 		"set_position": 11,
+		"text": "<b>Forced Response:</b> After Black Order Besieger engages you, choose to either deal 1 damage to Avengers Tower or deal 2 damage to your identity.",		
 		"traits": "Black Order.",
 		"type_code": "minion"
 	},
@@ -717,6 +729,7 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 15,
+		"text": "Attach to Proxima Midnght.\n<b>Hero Action:</b> Take 1 damage and spend [energy] [mental] resources → discard this card.",		
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -732,6 +745,7 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 16,
+		"text": "Attach to Corvus Glaive.\nCorvus Glaive gains retaliate 1.\n<b>Hero Action:<\b> Take 1 damage and spend [energy] [physical] resources → discard this card.",		
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -746,10 +760,12 @@
 		"quantity": 2,
 		"set_code": "tower_defense",
 		"set_position": 17,
+		"text": "Attach to the villain who is not the active villain.",		
 		"traits": "Tactic.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "Add the other villain's SCH and ATK to this villain's SCH and ATK for this activation.",
 		"code": "21106",
 		"faction_code": "encounter",
 		"name": "Proxima's Power",
@@ -759,9 +775,11 @@
 		"quantity": 2,
 		"set_code": "tower_defense",
 		"set_position": 19,
+		"text": "<b>When Revealed:</b> Proxima Midnight activates against you.",		
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "Add the other villain's SCH and ATK to this villain's SCH and ATK for this activation.",
 		"code": "21107",
 		"faction_code": "encounter",
 		"name": "Corvus's Cunning",
@@ -771,9 +789,11 @@
 		"quantity": 2,
 		"set_code": "tower_defense",
 		"set_position": 21,
+		"text": "<b>When Revealed:</b> Corvus Glaive activates against you.",
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "Heal 2 damage from the active villain and give it a tough status card.",
 		"code": "21108",
 		"faction_code": "encounter",
 		"name": "Bound by Blood",
@@ -783,6 +803,7 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 23,
+		"text": "<b>When Revealed:</b> Heal 2 damage from each villain. Give each villain a tough status card.",		
 		"type_code": "treachery"
 	},
 	{
@@ -796,6 +817,8 @@
 		"quantity": 2,
 		"set_code": "tower_defense",
 		"set_position": 24,
+		"text": "<b> When Revealed: </b> Deal 3 damage to Avengers Tower","boost_text": "[star] <b> Boost: </b> If damage from this attack deafeats an ally, deal 3 damage to Avengers tower",
+		
 		"type_code": "treachery"
 	},
 	{
@@ -810,6 +833,7 @@
 		"position": 110,
 		"quantity": 2,
 		"scheme_crisis": 1,
+		"scheme_text": "Hinder 1[per_player].\n<b>When Defeated:</b> The player who defeated this scheme draws 1 card.",
 		"set_code": "tower_defense",
 		"set_position": 26,
 		"text": "Hinder 1[per_hero]",
