@@ -1,0 +1,62 @@
+[
+	{
+		"code": "29028",
+		"name": "Un leve contratiempo",
+		"text": "<b>Dale esta carta al jugador que lleva a Riri Williams.</b>\nQuita 1 cotnador de Progreso de tu carta de Superhéroe, luego descarta esta carta. Si no se ha quitado ningún contador de Progreso de este modo, data a ti mismo 1 carta de Encuentro boca abajo, luego añade esta carta al mazo de Encuentros y barájalo."
+	},
+	{
+		"code": "29029",
+		"flavor": "Lucia von Bardas ha tomado el control de Latveria y no se detendrá ante nada con tal de dejar patente el poderío de esta nación.",
+		"name": "Gobernar por la fuerza",
+		"text": "Mientras Lucia von Bardas esté en juego, esta carta gana un icono de Riesgo ([hazard]).\nMientras Lucia von Bardas no esté en juego, esta carta gana un icono de Aceleración ([acceleration])."
+	},
+	{
+		"code": "29030",
+		"name": "Lucia von Bardas",
+		"text": "Mientras Lucia von Bardas tenga una carta de Estado \"Duro\", recibe +1 PLA y +1 ATQ.\n<b>Respuesta obligada:</b> después de que termine la fase del Villano, dale a Lucia von Bardas una carta de Estado \"Duro\".\n<i>(Esbirro Archienemigo de Ironheart.)</i>",
+		"traits": "Criminal. Cíborg. Élite."
+	},
+	{
+		"code": "29031",
+		"boost_text": "Quédate esta carta como carta de Encuentro boca abajo",
+		"name": "Tecnología cíborg",
+		"text": "Vincula esta carta al Esbirro que tenga más [[Rasgos]]. Si no es posible, esta carta gana Oleada.\nEl Esbirro vinculado recibe +3 de Vida y gana Represalia 1.",
+		"traits": "Tecnología."
+	},
+	{
+		"code": "29032",
+		"flavor": "\"Os felicito por vuestra perseverancia y patriotismo. Se supone que la mayoría deberíais estar muertos a estas alturas.\"",
+		"name": "Represalia política",
+		"text": "<b>Cuando se muestre esta carta:</b> si Lucia von Bardas está en juego, ejecuta el Plan. Si Gobernar por la fuerza está en juego, colócale encima 3 de Amenaza. Si ninguna de las dos cartas está en juego, esta carta gana Oleada."
+	},
+	{
+		"code": "29036",
+		"flavor": "¡Zzzax controla el suministro eléctrico de la ciudad y está sembrando el caos en el sistema!",
+		"name": "Bucle de retroalimentación",
+		"text": "<b>Cuando se muestre esta carta:</b> cada jugador debe colocar tanta Amenaza sobre esta carta como el número total de recursos [energy] que haya en las cartas de su mano y en las cartas que controle."
+	},
+	{
+		"code": "29037",
+		"boost_text": "Si tienes al menos [energy][energy] entre los recursos de las cartas de tu mano, pon en juego a Zzzax enfrentado a ti.",
+		"name": "Zzzax",
+		"text": "Zzzax recibe +X ATQ y +X de Vida, siendo X igual al número total de recursos [energy] que haya en las cartas controladas por el jugador enfrentado.",
+		"traits": "Criminal."
+	},
+	{
+		"code": "29038",
+		"name": "Cables cruzados",
+		"text": "Vincula esta carta a tu carta de Superhéroe.\nTrata el recurso impreso de cada carta que tengas en tu mano como si fuera [energy].\n<b>Acción de Héroe:</b> elige entre descartar una carta que controles y que tenga impreso un recurso [energy] o bien sufrir 2 de Daño indirecto → descarta esta carta."
+	},
+	{
+		"code": "29039",
+		"name": "Electricidad estática",
+		"text": "<b>Interrupción obligada:</b> cuando empiece la fase del Villano, inflige 2 de Daño indirecto a cada jugador que tenga un recurso [energy] en su mano o en una carta que controle.\b<b>Acción de Héroe:</b> elige entre descartar una carta que controles y que tenga impreso un recurso [energy] o bien sufrir 2 de Daño indirecto → descarta esta carta.",
+		"traits": "Alteración."
+	},
+	{
+		"code": "29040",
+		"flavor": "\"¡Yo Zzzax! ¡Tú zzzap!\"",
+		"name": "¡Zzzap!",
+		"text": "<b>Cuando se muestre esta carta:</b> sufres tanto Daño indirecto como el número total de recursos [energy] que tengas en tu mano. Si se ha infligido como máximo 1 de Daño a tu Superhéroe de este modo, esta carta gana Oleada."
+	}
+]
