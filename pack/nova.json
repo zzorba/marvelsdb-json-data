@@ -73,7 +73,7 @@
 		"resource_physical": 1,
 		"set_code": "nova",
 		"set_position": 2,
-		"text": "<b>Hero Interrupt</b>: When a friendly character would take any amount of damage from an attack, prevent 3 of that damage. If you paid for this card using a  resource, deal 3 damage to an enemy",
+		"text": "<b>Hero Interrupt</b>: When a friendly character would take any amount of damage from an attack, prevent 3 of that damage. If you paid for this card using a [wild] resource, deal 3 damage to an enemy",
 		"traits": "Superpower.",
 		"type_code": "event"
 	},
@@ -90,7 +90,7 @@
 		"resource_mental": 1,
 		"set_code": "nova",
 		"set_position": 4,
-		"text": "Double the number of [wild] resources generated while paying for this card. Hero Action (thwart): Remove 3 threat from a scheme.",
+		"text": "Double the number of [wild] resources generated while paying for this card.\n<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme.",
 		"traits": "Superpower. Thwart.",
 		"type_code": "event"
 	},
@@ -107,7 +107,7 @@
 		"resource_energy": 1,
 		"set_code": "nova",
 		"set_position": 7,
-		"text": "Double the number of [wild] resources generated while paying for this card. <b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy.",
+		"text": "Double the number of [wild] resources generated while paying for this card.\n<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy.",
 		"traits": "Attack. Superpower.",
 		"type_code": "event"
 	},
@@ -124,7 +124,7 @@
 		"resource_energy": 1,
 		"set_code": "nova",
 		"set_position": 10,
-		"text": "Max 1 per round. <b>Hero Action</b>: Until the end of the round, each time Nova defeats an enemy or removes the last threat from a scheme, ready Nova and draw 1 card.",
+		"text": "Max 1 per round.\n<b>Hero Action</b>: Until the end of the round, each time Nova defeats an enemy or removes the last threat from a scheme, ready Nova and draw 1 card.",
 		"traits": "Superpower.",
 		"type_code": "event"
 	},
@@ -175,7 +175,7 @@
 		"resource_mental": 1,
 		"set_code": "nova",
 		"set_position": 15,
-		"text": "Nova gains the Aerial trait. Hero Resource: Exhaust Supernova Helmet → generate a [wild] resource",
+		"text": "Nova gains the Aerial trait.\nHero Resource: Exhaust Supernova Helmet → generate a [wild] resource",
 		"traits": "Armor.",
 		"type_code": "upgrade"
 	},
@@ -194,7 +194,7 @@
 		"quantity": 1,
 		"resource_energy": 1,
 		"subname": "Fernanda Rodriguez",
-		"text": "Play only if your identity has the [[champion]] trait. <b>Hero Response</b>: After The Locust enters play, add 1 Aggression (red) event from your discard pile to your hand.",
+		"text": "Play only if your identity has the [[champion]] trait.\n<b>Hero Response</b>: After The Locust enters play, add 1 Aggression (red) event from your discard pile to your hand.",
 		"thwart": 1,
 		"traits": "Champion.",
 		"type_code": "ally"
@@ -217,7 +217,7 @@
 		"position": 12,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "Play only if your identity has the Aerial trait. <b>Hero Response</b> <i>(attack)</i>: After your hero attacks, deal 4 damage to an enemy",
+		"text": "Play only if your identity has the Aerial trait.\n<b>Hero Response</b> <i>(attack)</i>: After your hero attacks, deal 4 damage to an enemy",
 		"traits": "Aerial. Attack.",
 		"type_code": "event"
 	},
@@ -232,7 +232,7 @@
 		"position": 13,
 		"quantity": 3,
 		"resource_mental": 1,
-		"text": "Requirement ([physical]). <b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. For each point of excess damage dealt to that enemy by this attack, discard the top card of your deck and add each Aggression (red) card discarded this way to your hand. ",
+		"text": "Requirement ([physical]).\n<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. For each point of excess damage dealt to that enemy by this attack, discard the top card of your deck and add each Aggression (red) card discarded this way to your hand. ",
 		"traits": "Attack.",
 		"type_code": "event"
 	},
@@ -284,7 +284,7 @@
 		"position": 17,
 		"quantity": 3,
 		"resource_mental": 1,
-		"text": "Requirement ([mental][mental]). Max 1 per player. <b>Interrupt</b>: When you play an Aggression Attack event, if you paid for that event using a  resource, increase the amount of damage that event deals by its printed cost.",
+		"text": "Requirement ([mental][mental]).\nMax 1 per player.\n<b>Interrupt</b>: When you play an Aggression Attack event, if you paid for that event using a  resource, increase the amount of damage that event deals by its printed cost.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -301,7 +301,7 @@
 		"position": 18,
 		"quantity": 1,
 		"resource_mental": 1,
-		"text": "Play only if your identity has the [[champion]] or [[genius]] trait. <b>Response</b>: After you play Moon Girl from your hand, draw 1 card for each [mental] resource used to pay for her.",
+		"text": "Play only if your identity has the [[champion]] or [[genius]] trait.\n<b>Response</b>: After you play Moon Girl from your hand, draw 1 card for each [mental] resource used to pay for her.",
 		"thwart": 2,
 		"traits": "Champion. Genius.",
 		"type_code": "ally"
@@ -345,7 +345,7 @@
 		"position": 26,
 		"quantity": 3,
 		"resource_energy": 1,
-		"text": "Play only if your identity has the Aerial trait. Hero Response (thwart): After your hero thwarts, remove 3 threat from a scheme.",
+		"text": "Play only if your identity has the Aerial trait.\nHero Response (thwart): After your hero thwarts, remove 3 threat from a scheme.",
 		"traits": "Aerial. Thwart.",
 		"type_code": "event"
 	},
@@ -360,7 +360,7 @@
 		"position": 27,
 		"quantity": 3,
 		"resource_mental": 1,
-		"text": "While your identity has the Aerial trait, reduce the amount of damage you take from each enemy attack by 1. <b>Forced Interrupt</b>: When your turn begins, discard this card.",
+		"text": "While your identity has the Aerial trait, reduce the amount of damage you take from each enemy attack by 1.\n<b>Forced Interrupt</b>: When your turn begins, discard this card.",
 		"traits": "Aerial. Tactic.",
 		"type_code": "upgrade"
 	}
