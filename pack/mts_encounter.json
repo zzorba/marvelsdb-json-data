@@ -1259,6 +1259,7 @@
 		"set_code": "hela",
 		"set_position": 1,
 		"stage": 1,
+		"text": "[star] Hela gets +1 SCH, +1 ATK and +2[per_player] hit points for each side scheme in victory display. \n <b> When Hela is defeated, if Odin is not attached to the main scheme, you win the game </b>",
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
 	},
@@ -1279,6 +1280,7 @@
 		"set_code": "hela",
 		"set_position": 2,
 		"stage": 2,
+		"text": "Hela cannot be defeated. \n <b> Forced Response: </b> After a side scheme is defeated, flip Hela to her [[mystic]] side.",		
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
 	},
@@ -1298,6 +1300,7 @@
 		"set_code": "hela",
 		"set_position": 2,
 		"stage": 2,
+		"text": "[star] Hela gets +1 SCH, +1 ATK and +3[per_player] hit points for each side scheme in victory display. \n <b> When Hela is defeated, if Odin is not attached to the main scheme, you win the game </b>",		
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
 	},
@@ -1314,9 +1317,11 @@
 		"pack_code": "mts",
 		"position": 138,
 		"quantity": 1,
+		"scheme_text": "<b> Contents: </b> Villain deck Hela A (Hela Be instead for expert mode). Hela and standard sets. Two modular encounter sets (Legions of Hel and Frost Giants). \n <b> Setup: </b> Attach Odin to the main scheme, [[captive]] side faceup. Reveal Gnipahellir and Garm. Set Gjallerbru, Skurge, Hall of Nastrond, and Nidhogg aside, out of play. Shuffle the encounter deck.",
 		"set_code": "hela",
 		"set_position": 3,
 		"stage": 1,
+		"text": "Hela cannot be defeated. \n <b> Forced Response: </b> After a side scheme is defeated, flip Hela to her [[mystic]] side.",		
 		"threat": 18,
 		"type_code": "main_scheme"
 	},
@@ -1335,6 +1340,7 @@
 		"quantity": 1,
 		"set_code": "hela",
 		"set_position": 4,
+		"text": "While Odin is not attached to the main scheme, he gains: The first player gains control of Odin. Odin cannot have cards attached and does not count against ally limit. \n <b> If Odin leaves play, the player lose the game. <b>",		
 		"thwart": 2,
 		"traits": "Asgard. Captive.",
 		"type_code": "ally"
@@ -1354,6 +1360,7 @@
 		"quantity": 1,
 		"set_code": "hela",
 		"set_position": 4,
+		"text": "The first player gains control of Odin. \n Odin cannot have encounter cards attached and does not count agains the ally limit. \n <b> Forced Interrupt: </b> When Odin leaves play, remove him from the game",	
 		"thwart": 3,
 		"traits": "Asgard. King.",
 		"type_code": "ally"
@@ -1370,6 +1377,7 @@
 		"position": 140,
 		"quantity": 1,
 		"scheme_acceleration": 1,
+		"scheme_text": "Hinder 1[per_player]. Victory 2. \n <b> When Defeated: </b> The first player reveals Gjallerbru and Skurg, and puts them into play. Deal each other player 1 facedown encounter card.",		
 		"set_code": "hela",
 		"set_position": 5,
 		"text": "Hinder 1[per_hero]",
@@ -1387,6 +1395,7 @@
 		"position": 141,
 		"quantity": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "Hinder 1[per_player]. Victory 4. \n <b> When Defeated: </b> The first player detaches Odin from the main scheme and takes control of him. Deal each player 1 facedown encounter card.",		
 		"set_code": "hela",
 		"set_position": 6,
 		"text": "Hinder 1[per_hero]",
@@ -1405,6 +1414,7 @@
 		"quantity": 1,
 		"scheme_amplify": 1,
 		"scheme_boost": 1,
+		"scheme_text": "Hinder 1[per_player]. Victory 3. \n <b> When Defeated: </b> The first player reveals Hall of Nastrond and Nidhogg, and puts them into play. Deal each other player 1 facedown encounter card.",		
 		"set_code": "hela",
 		"set_position": 7,
 		"text": "Hinder 1[per_hero]",
@@ -1426,11 +1436,13 @@
 		"scheme": 1,
 		"set_code": "hela",
 		"set_position": 8,
+		"text": "Toughness. Victory 2. \n Garm engages the first player. \n <b> Threat cannot be removed from Gnipahellir. </b>",		
 		"traits": "Creature. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 3,
+		"attack_text": "Skurge's attacks gain piercing.",		
 		"boost": 3,
 		"code": "21144",
 		"faction_code": "encounter",
@@ -1445,11 +1457,13 @@
 		"scheme": 1,
 		"set_code": "hela",
 		"set_position": 9,
+		"text": "Toughness. Victory 3. \n Skurge engages the first player. \n <b> Threat cannot be removed from Gjallerbru. </b>",		
 		"traits": "Asgard. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 4,
+		"attack_text": "Nidhogg's attacks gain overkill.",		
 		"boost": 4,
 		"code": "21145",
 		"faction_code": "encounter",
@@ -1464,10 +1478,12 @@
 		"scheme": 1,
 		"set_code": "hela",
 		"set_position": 10,
+		"text": "Toughness. Victory 4. \n Nidhogg engages the first player. \n <b> Threat cannot be removed from Hall of Nastrond. </b>",
 		"traits": "Creature. Elite.",
 		"type_code": "minion"
 	},
 	{
+		"boost_text": "Attach Nightsword to Hela.",	
 		"code": "21146",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1478,10 +1494,12 @@
 		"quantity": 1,
 		"set_code": "hela",
 		"set_position": 11,
+		"text": "Attach to Hela. /n [star] Hela's attacks gain piercing.",		
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "Attach Hela's Crown to Hela.",
 		"code": "21147",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1492,10 +1510,12 @@
 		"quantity": 1,
 		"set_code": "hela",
 		"set_position": 12,
+		"text": "Attach to Hela. \n [star]<b> Forced Response: <b> After Hela schemes, give her a facedown boost card.",		
 		"traits": "Item.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "[star]<b>Boost:</b> Attach Hela's Cloack to Hela.",
 		"code": "21148",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1506,11 +1526,13 @@
 		"quantity": 1,
 		"set_code": "hela",
 		"set_position": 13,
+		"text": "Attach to Hela. /n Hela gains stalwart.",	
 		"traits": "Armor.",
 		"type_code": "attachment"
 	},
 	{
 		"boost": 1,
+		"boost_text": "[star]<b>Boost:</b> If damage from this attach defeats an ally, place 2 threat on the main scheme.",		
 		"code": "21149",
 		"faction_code": "encounter",
 		"name": "Hela's Domain",
@@ -1520,6 +1542,7 @@
 		"quantity": 2,
 		"set_code": "hela",
 		"set_position": 14,
+		"text": "<b> When Revealed: </b> Place 1 threat on the main scheme. Place 1 additional threat on the main scheme for each side scheme in the victory display.",		
 		"type_code": "treachery"
 	},
 	{
@@ -1533,6 +1556,7 @@
 		"quantity": 2,
 		"set_code": "hela",
 		"set_position": 16,
+		"text": "<b> When Revealed (Alter-Ego): </b> Hela schemes. Place 1 threat on each side scheme. \n <b> When Revealed (Hero): </b> Hela attacks you. Place 1 threat on each side scheme.",
 		"type_code": "treachery"
 	},
 	{
@@ -1545,6 +1569,7 @@
 		"quantity": 2,
 		"set_code": "hela",
 		"set_position": 18,
+		"text": "<b> When Revealed: </b> Take 1 indirect damage. Take 1 additional indirect damage for each side scheme in the victory display.",		
 		"type_code": "treachery"
 	},
 	{
