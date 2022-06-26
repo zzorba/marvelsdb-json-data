@@ -1,159 +1,160 @@
 [
 	{
 		"code": "06001a",
-		"flavor": "\"Now you face the mightiest Avenger of all\"",
+		"flavor": "\"모든 Avenger 중 가장 강력한 자를 마주하라.\"",
 		"name": "Thor",
-		"text": "\"Have at thee!\" — <b>Response</b>: After you engage a minion, draw 2 cards. (Limit once per phase.)",
-		"traits": "Asgard. Avenger."
+		"text": "\"전투를 시작해볼까!\" — <b>반응</b>: 당신이 하수인과 교전에 돌입한 후, 카드 2장을 뽑습니다(페이즈마다 1회 제한).",
+		"traits": "아스가르드. Avenger."
 	},
 	{
 		"code": "06001b",
 		"name": "Odinson",
-		"text": "Worthy — <b>Action</b>: Search your deck and discard pile for the Mjolnir upgrade and add it to your hand. Shuffle your deck. (Limit once per round).",
-		"traits": "Asgard."
+		"text": "자격 있는 자 — <b>행동</b>: 당신의 덱과 버린 더미에서 묠니르 업그레이드를 찾아 당신의 손에 더합니다. 당신의 덱을 섞습니다(라운드마다 1회 제한).",
+		"traits": "아스가르드."
 	},
 	{
 		"code": "06002",
-		"flavor": "\"Where my Beloved sallies forth—let his Lady Sif be at his side!\"",
+		"flavor": "\"내가 사랑하는 이가 앞으로 나아갈 때—그의 Lady Sif가 함께하기를!\"",
 		"name": "Lady Sif",
-		"text": "<b>Response</b>: After Lady Sif enters play, ready Thor or Odinson.",
-		"traits": "Asgard."
+		"text": "<b>반응</b>: Lady Sif가 플레이 영역에 들어온 후, Thor 또는 Odinson을 준비합니다.",
+		"traits": "아스가르드."
 	},
 	{
 		"code": "06003",
-		"name": "Defender of the Nine Realms",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Discard cards from the top of the encounter deck until you discard a minion. Put that minion into play engaged with you → remove 3 threat from a scheme.",
-		"traits": "Thwart."
+		"name": "아홉 영역의 수호자",
+		"text": "<b>히어로 행동</b><i>(저지)</i>: 조우 덱에서 하수인이 버려질 때까지 카드를 버립니다. 이렇게 버려진 하수인을 당신과 교전 중인 채로 플레이 영역에 내려놓습니다 → 음모 하나에서 위협을 3만큼 제거합니다.",
+		"traits": "저지."
 	},
 	{
 		"code": "06004",
-		"flavor": "\"For honor! For glory! For Asgard!\" -- Thor",
-		"name": "For Asgard!",
-		"text": "<b>Alter-Ego Action</b>: Search your deck and discard pile for a card with the [[Asgard]] trait and add it to your hand. Shuffle your deck."
+		"flavor": "\"명예를 위하여! 영광을 위하여! 아스가르드를 위하여!\" -- Thor",
+		"name": "아스가르드를 위하여!",
+		"text": "<b>일상 행동</b>: 당신의 덱과 버린 더미에서 [[아스가르드]] 카드 1장을 찾아 손에 듭니다. 당신의 덱을 섞습니다."
 	},
 	{
 		"code": "06005",
-		"flavor": "\"Now, Mjolnir! Strike true\" -- Thor",
-		"name": "Hammer Throw",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust Mjolnir → deal 8 damage to an enemy and return Mjolnir to your hand. This attack gains overkill.",
-		"traits": "Attack. Superpower."
+		"flavor": "\"지금이야, 묠니르! 일직선으로 타격을!\" -- Thor",
+		"name": "망치 던지기",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: 묠니르를 소진 → 적 하나에게 피해 8점을 입히고 묠니르를 당신의 손으로 되돌림. 이 공격은 압살을 얻음.",
+		"traits": "공격. 슈퍼파워."
 	},
 	{
 		"code": "06006",
-		"flavor": "\"I say thee, nay!\" -- Thor",
-		"name": "Lightning Strike",
-		"text": "<b>Hero Action</b>: Spend X [energy] resources → deal X damages to the villain and each minion engaged with you. This attack ignores tough statuses card if you have the [[Aerial]] trait.",
-		"traits": "Superpower."
+		"flavor": "\"그 의견엔 반댈세!\" -- Thor",
+		"name": "번개 작렬",
+		"text": "<b>히어로 행동</b>: [energy] 자원을 X개 소모 → 당신과 교전 중인 각 하수인과 빌런에게 피해 X점을 입힘. 당신에게 [[공중]] 특성이 있다면 이 공격은 강인함 상태 카드를 무시함.",
+		"traits": "슈퍼파워."
 	},
 	{
 		"code": "06007",
-		"flavor": "It is from the shining city of Asgard that Odin watches over the Nine Realms, and it was here that Thor was raised a prince.",
-		"name": "Asgard",
-		"text": "You get +1 hand size.",
-		"traits": "Asgard. Location."
+		"flavor": "빛나는 도시 아스가르드에서 Odin은 아홉 영역을 지켜보고, 후계자로서 토르를 길러냈다.",
+		"name": "아스가르드",
+		"text": "당신은 손 크기 +1을 받습니다.",
+		"traits": "아스가르드. 장소."
 	},
 	{
 		"code": "06008",
-		"flavor": "\"I am the God of Thunder, lord of the savage Lightning. The vary skies must tremble when speaks the Mighty Thor!\" -- Thor",
-		"name": "God of Thunder",
-		"text": "<b>Hero Resource</b>: Exhaust God of Thunder → generate a [energy] resource.",
-		"traits": "Asgard. Title."
+		"flavor": "\"나는 천둥의 신이자, 맹렬한 번개의 군주다. 위대한 Thor가 이야기할 때, 수많은 세상의 하늘이 전율할지니!\" -- Thor",
+		"name": "천둥의 신",
+		"text": "<b>히어로 자원</b>: 천둥의 신을 소진 → [energy] 자원을 생성.",
+		"traits": "아스가르드. 칭호."
 	},
 	{
 		"code": "06009",
-		"flavor": "Whosoever holds this hammer, if he be worthy, shall possess the power of Thor.",
-		"name": "Mjolnir",
-		"text": "Restricted. <i>(Max 2 restricted cards per player.)</i>\nThor gets +1 ATK and gains the [[Aerial]] trait.",
-		"traits": "Asgard. Weapon."
+		"flavor": "이 망치를 드는 자가 누구든, 자격이 있다면 토르의 힘을 지니리라.",
+		"name": "묠니르",
+		"text": "한정. <i>(플레이어마다 한정 키워드를 가진 카드는 최대 2장).</i>\nThor는 공격 +1을 받고 [[공중]] 특성을 얻습니다.",
+		"traits": "아스가르드. 무기."
 	},
 	{
 		"code": "06010",
-		"flavor": "\"Brothers and sisters -- prepare yourselves. Today we go to WAR!\" -- Thor",
-		"name": "Thor's Helmet",
-		"text": "You get +5 hit points.",
-		"traits": "Asgard. Armor."
+		"flavor": "\"형제 자매들이여, 대비하라. 오늘 우리는 전쟁에 나선다!\" -- Thor",
+		"name": "Thor 헬멧",
+		"text": "당신은 +5 생명력을 받습니다.",
+		"traits": "아스가르드. 갑옷."
 	},
 	{
 		"code": "06011",
-		"flavor": "Whatever Thor can do, Hercules can accomplish more mightily!",
+		"flavor": "Thor가 할 수 있는 일이라면, Hercules가 훨씬 위대하게 수행할 수 있지!",
 		"name": "Hercules",
-		"text": "Reduce the cost to play Hercules by 1 for each minion engaged with you.",
-		"traits": "Avenger. Olympus."
+		"text": "당신과 교전 중인 하수인마다 Hercules를 플레이하기 위한 자원 비용을 1만큼 감소시킵니다.",
+		"traits": "Avenger. 올림푸스."
 	},
 	{
 		"code": "06012",
-		"flavor": "I am Valkyrie, shieldmaiden of Asgard.",
+		"flavor": "나는 Valkyrie, 아스가르드의 방패여전사다.",
 		"name": "Valkyrie",
-		"text": "<b>Response:</b> After Valkyrie enters play, deal 2 damage to a minion (3 damage instead if you paid for this card using a [energy] resource).",
-		"traits": "Asgard. Avenger."
+		"text": "<b>반응:</b> Valkyrie가 플레이 영역에 들어온 후, 하수인 하나에게 피해 2점을 입힙니다(이 카드에 [energy] 자원을 지불했다면 대신 피해 3점을 입힙니다).",
+		"traits": "아스가르드. Avenger."
 	},
 	{
 		"code": "06014",
-		"flavor": "\"I would have words with thee!\" -- Thor",
-		"name": "Get Over Here!",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 1 damage to a minion. If you have the [[Aerial]] trait, engage that enemy.",
-		"traits": "Attack."
+		"flavor": "\"상대와 대화를 좀 하고 싶은데!\" -- Thor",
+		"name": "이리로 와 보시지!",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: 하수인 하나에게 피해 1점을 입힙니다. 당신에게 [[공중]] 특성이 있다면, 그 적과 교전에 돌입합니다.",
+		"traits": "공격."
 	},
 	{
 		"code": "06015",
-		"flavor": "POW!",
-		"name": "Mean Swing",
-		"text": "<b>Hero Interrupt</b>: When your hero makes a basic attack, exhaust a [[Weapon]] upgrade on your hero → your hero gets +3 ATK for this attack.",
-		"traits": "Skill."
+		"flavor": "퍼억!",
+		"name": "기막힌 휘두르기",
+		"text": "<b>히어로 난입</b>: 당신의 히어로가 기본 공격을 할 때, 당신의 히어로의 플레이 영역에 있는 [[무기]] 업그레이드를 소진 → 당신의 히어로는 이 공격에서 공격 +3을 받습니다.",
+		"traits": "기술."
 	},
 	{
 		"code": "06017",
-		"name": "Hall of Heroes",
-		"text": "<b>Response:</b> After you defeat a minion, place 1 glory counter here.\n<b>Alter-Ego Action:</b> Exhaust Hall of Heroes and remove 3 glory counters from it → draw 3 cards.",
-		"traits": "Asgard. Location."
+		"name": "영웅의 전당",
+		"text": "<b>반응:</b> 당신이 하수인을 격파한 후, 이 카드에 영광 카운터를 1만큼 놓습니다.\n<b>일상 행동:</b> 영웅의 전당을 소진하고 이 카드에서 영광 카운터를 3만큼 제거 → 카드 3장을 뽑습니다.",
+		"traits": "아스가르드. 장소."
 	},
 	{
 		"code": "06018",
-		"name": "Battle Fury",
-		"text": "Play under any player's control.\nMax 1 per player.\n<b>Response:</b> After your hero attacks and defeats a minion, deal 1 damage to your hero and discard Battle Fury → ready your hero.",
-		"traits": "Condition."
+		"name": "전투 격노",
+		"text": "이 카드를 플레이하면, 조종할 플레이어를 정합니다.\n플레이어마다 최대 1장.\n<b>반응:</b> 당신의 히어로가 공격하여 하수인을 격파한 후, 당신의 히어로에게 피해 1점을 입히고 전투 격노를 버림 → 당신의 히어로를 준비.",
+		"traits": "상태."
 	},
 	{
 		"code": "06019",
-		"name": "Jarnbjorn",
-		"text": "Restricted.\n<b>Response:</b> After your hero attacks an enemy, spend a [physical] resource → deal 2 damage to an enemy.",
-		"traits": "Asgard. Weapon."
+		"name": "얀브욘",
+		"text": "한정.\n<b>반응:</b> 당신의 히어로가 적을 공격한 후, [physical] 자원을 소모 → 적 하나에게 피해 2점을 입힙니다.",
+		"traits": "아스가르드. 무기."
 	},
 	{
 		"code": "06020",
-		"flavor": "\"You wish to know what I see?\"",
+		"flavor": "\"내가 무엇을 보는지 알고 싶은가?\"",
 		"name": "Heimdall",
-		"text": "<b>Response:</b> After Heimdall enters play, look at the top 3 cards of the encounter deck. Discard 1 of them and put the others back in any order.",
-		"traits": "Asgard."
+		"text": "<b>반응:</b> Heimdall이 플레이 영역에 들어온 후, 조우 덱 맨 위에서 카드 3장을 봅니다. 그 중 1장을 버리고 나머지는 원하는 순서대로 되돌립니다.",
+		"traits": "아스가르드."
 	},
 	{
 		"code": "06021",
-		"flavor": "\"It's unbreakable skin, man. Don't you know who I am?\" -- Luke Cage",
-		"name": "Invulnerability",
-		"text": "<b>Hero Action</b>: Give your hero a tough status card.",
-		"traits": "Superpower."
+		"flavor": "\"내 피부는 뚫을 수 없지. 내가 누군지 모르시나?\" -- Luke Cage",
+		"name": "공격 불능",
+		"text": "<b>히어로 행동</b>: 당신의 히어로에게 강인함 상태 카드를 줍니다.",
+		"traits": "슈퍼파워."
 	},
 	{
 		"code": "06031",
-		"name": "Under Surveillance",
-		"text": "Attach to the main scheme. Max 1 per scheme.\nIncrease the target threat value of attached scheme by 4.",
-		"traits": "Condition."
+		"name": "감시 하에",
+		"text": "주요 음모에 장착합니다. 음모마다 최대 1장.\n부착된 음모의 위협 임계점을 4만큼 증가시킵니다.",
+		"traits": "상태."
 	},
 	{
 		"code": "06032",
-		"name": "Teamwork",
-		"text": "<b>Hero Interrupt</b> When you use your basic thwart power <i>(THW)</i> or basic attack power <i>(ATK)</i>, exhaust an ally you control → add that ally's matching power to your hero's power for this use.",
-		"traits": "Tactic."
+		"name": "팀워크",
+		"text": "<b>히어로 난입:</b> 당신이 기본 저지<i>(저지)</i>나 기본 공격<i>(공격)</i>을 수행할 때, 당신이 조종하는 동료 하나를 소진 → 이번 저지 또는 공격에서 소진한 동료의 알맞은 능력(저지 또는 공격)을 당신의 히어로의 능력에 더합니다.",
+		"traits": "전술."
 	},
 	{
 		"code": "06033",
-		"name": "Second Wind",
-		"text": "<b>Action</b>: Heal 4 damage from an identity (5 damage instead if you paid for this card using a [mental] resource)."
+		"name": "원기 회복",
+		"text": "<b>행동</b>: 아이덴티티 하나가 입은 피해 4점을 치료합니다(이 카드에 [mental] 자원을 지불했다면, 대신 피해 5점을 치료합니다)."
 	},
 	{
 		"code": "06034",
-		"name": "Enhanced Physique",
-		"text": "Uses (3 physical counters).\n<b>Hero Resource</b>: Exhaust Enhanced Physique and remove 1 physical counter from it → generate a [physical] resource.",
-		"traits": "Condition."
+		"name": "향상된 체격",
+		"text": "사용 (물리력 카운터 3).\n<b>히어로 자원</b>: 향상된 체격을 소진하고 이 카드에서 물리력 카운터 1개 제거 → [physical] 자원을 생성.",
+		"traits": "상태."
 	}
+
 ]

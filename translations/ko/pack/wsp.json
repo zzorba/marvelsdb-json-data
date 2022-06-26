@@ -1,172 +1,172 @@
 [
 	{
 		"code": "13001a",
-		"flavor": "\"You should learn to play nice!\"",
+		"flavor": "\"예의를 지키는 방법을 가르쳐 줘야겠군!\"",
 		"name": "Wasp",
-		"text": "Small but Mighty — <b>Response:</b> After Wasp <em>(or an event you play)</em> defeats a minion or side scheme, deal 1 damage to the villain.",
-		"traits": "Avenger. Tiny."
+		"text": "작지만 강한 자 — <b>반응:</b> Wasp<em>(또는 당신이 플레이하는 이벤트)</em>가 하수인 또는 부가 음모를 격파한 후, 빌런에게 피해 1점을 입힙니다.",
+		"traits": "Avenger. 미세."
 	},
 	{
 		"code": "13001b",
-		"flavor": "\"G.I.R.L. is dedicated to finding brilliant women who will not only save the world, but change it.\"",
+		"flavor": "\"G.I.R.L.은 세상을 구할 뿐만 아니라, 바꿀 수 있는 영민한 여성들을 찾기 위한 기관이야.\"",
 		"name": "Nadia Van Dyne",
-		"text": "G.I.R.L. — <b>Action:</b> Shuffle up to 2 cards with a printed [mental] resource from your discard pile into your deck. (Limit once per round.)",
-		"traits": "Genius."
+		"text": "G.I.R.L. — <b>행동:</b> 당신의 버린 더미에서 [mental] 자원이 인쇄된 카드를 2장까지 선택해 당신의 덱에 넣고 섞습니다(라운드마다 1회 제한).",
+		"traits": "천재."
 	},
 	{
-		"attack_text": "Damage you deal using your basic attack power (ATK) can be divided among enemies as you choose.",
+		"attack_text": "당신의 기본 공격 수치를 사용하여 입히는 피해는 여러 적에게 원하는 대로 나누어 입힐 수 있습니다.",
 		"code": "13001c",
-		"flavor": "\"Aww, you're all so tiny and cute.\"",
+		"flavor": "\"꺅, 너희 다들 작고 귀여운걸.\"",
 		"name": "Wasp",
-		"scheme_text": "Threat you remove using your basic thwart power (THW) can be divided among schemes as you choose.",
-		"traits": "Avenger. Giant."
+		"scheme_text": "당신의 기본 저지 수치를 사용하여 제거하는 위협은 여러 음모에서 원하는 대로 나누어 제거할 수 있습니다.",
+		"traits": "Avenger. 거대."
 	},
 	{
 		"code": "13002",
 		"name": "Ant-Man",
 		"subname": "Scott Lang",
-		"text": "While you are in [[Giant]] hero form, Ant-Man gains the [[Giant]] trait and gets +1 ATK.\nWhile you are in [[Tiny]] hero form, Ant-Man gains the [[Tiny]] trait and gets +1 THW.",
+		"text": "당신이 [[거대]] 히어로 형태인 동안, Ant-Man은 [[거대]] 특성을 얻고 공격 +1을 받습니다.\n당신이 [[미세]] 히어로 형태인 동안, Ant-Man은 [[미세]] 특성을 얻고 저지 +1을 받습니다.",
 		"traits": "Avenger."
 	},
 	{
 		"code": "13003",
-		"flavor": "\"Glad to be of service!\" - Wasp",
-		"name": "Giant Help",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme (remove a total of 4 threat divided among schemes as you choose instead if you are in [[Giant]] hero form).",
-		"traits": "Thwart."
+		"flavor": "\"도움이 되어 기쁘네요!\" - Wasp",
+		"name": "거대한 도움",
+		"text": "<b>히어로 행동</b><i>(저지)</i>: 음모 하나에서 위협을 3만큼 제거합니다(당신이 [[거대]] 히어로 형태라면 대신 여러 음모에서 위협을 4만큼 원하는 대로 나누어 제거합니다).",
+		"traits": "저지."
 	},
 	{
 		"code": "13004",
-		"flavor": "\"You're going to want to ice that in the morning.\" - Wasp",
-		"name": "Pinpoint Strike",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 7 damage to an enemy. If you are in [[Tiny]] hero form, this attack deals 1 additional damage to that enemy and gains overkill.",
-		"traits": "Attack."
+		"flavor": "\"아침이 되면 냉찜질을 하고 싶을 걸.\" - Wasp",
+		"name": "미세지점 타격",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: 적 하나에게 피해 7점을 입힙니다. 당신이 [[미세]] 히어로 형태라면, 이번 공격은 그 적에게 피해 1점을 추가로 입히며 압살을 얻습니다.",
+		"traits": "공격."
 	},
 	{
 		"code": "13005",
-		"flavor": "\"Bet you didn't expect to see that.\" - Wasp",
-		"name": "Rapid Growth",
-		"text": "<b>Hero Interrupt</b>: When you use one of your hero's basic powers (THW, ATK, or DEF), change to your [[Giant]] hero form and get +2 to that power for this use.",
-		"traits": "Giant. Superpower."
+		"flavor": "\"이런 건 예상 못했지?\" - Wasp",
+		"name": "급성장",
+		"text": "<b>히어로 난입</b>: 당신이 당신의 히어로의 기본 기능 중 하나를 사용할 때(저지, 공격, 방어), 당신의 [[거대]] 히어로 형태로 변신하고 이번 사용에서 해당 기능에 +2를 받습니다.",
+		"traits": "거대. 슈퍼파워."
 	},
 	{
 		"code": "13006",
-		"name": "Wasp Sting",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: If you are in [[Giant]] hero form, deal a total of 4 damage divided among enemies you choose.\n<b>Hero Action</b> <i>(attack)</i>: If you are in [[Tiny]] hero form, deal 5 damage to an enemy.",
-		"traits": "Attack."
+		"name": "말벌의 침",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: 당신이 [[거대]] 히어로 형태라면, 여러 적에게 피해 4점을 원하는 대로 나누어 입힙니다.\n<b>히어로 행동</b><i>(공격)</i>: 당신이 [[미세]] 히어로 형태라면, 적 하나에게 피해 5점을 입힙니다.",
+		"traits": "공격."
 	},
 	{
 		"code": "13007",
-		"name": "Pym Particles",
-		"text": "<b>Hero Response</b>: After you spend this card, heal 2 damage from your hero if you are in [[Giant]] hero form or draw 1 card if you are in [[Tiny]] hero form."
+		"name": "Pym 입자",
+		"text": "<b>히어로 반응:</b> 당신이 이 카드를 소비한 후, 당신이 [[거대]] 히어로 형태라면 당신의 히어로가 입은 피해 2점을 치료합니다. 당신이 [[미세]] 히어로 형태라면 대신 카드 1장을 뽑습니다."
 	},
 	{
 		"code": "13008",
-		"name": "Red Room Training",
-		"text": "While you are in [[Giant]] hero form, you gain retaliate 1.\nWhile you are in [[Tiny]] hero form, your basic attacks gain piercing. <i>(Discard any tough status cards from the target before dealing damage.)</i>",
-		"traits": "Skill."
+		"name": "붉은 방 훈련",
+		"text": "당신이 [[거대]] 히어로 형태인 동안, 당신은 반격 1을 얻습니다.\n당신이 [[미세]] 히어로 형태인 동안, 당신의 기본 공격은 관통을 얻습니다<i>(피해를 입히기 전에 공격 목표에 놓인 강인함 상태 카드를 모두 버립니다).</i>",
+		"traits": "기술."
 	},
 	{
 		"code": "13009",
-		"name": "Bio-Synthetic Wings",
-		"text": "Wasp gains the [[Aerial]] trait.\n<b>Interrupt:</b> When you would take any amount of damage, if you are in [[Tiny]] hero form, exhaust Bio-Synthetic Wings → prevent 1 of that damage.",
-		"traits": "Item. Tech."
+		"name": "생합성 날개",
+		"text": "Wasp는 [[공중]] 특성을 얻습니다.\n<b>난입:</b> 당신이 피해를 받으려 할 때, 당신이 [[미세]] 히어로 형태라면, 생합성 날개를 소진 → 그 피해에서 1점을 방지.",
+		"traits": "도구. 과학."
 	},
 	{
 		"code": "13010",
-		"name": "Wasp's Helmet",
-		"text": "While you are in [[Giant]] hero form, you get +1 THW.\nWhile you are in [[Tiny]] hero form, you get +1 ATK.",
-		"traits": "Armor. Tech."
+		"name": "Wasp 헬멧",
+		"text": "당신이 [[거대]] 히어로 형태인 동안, 당신은 저지 +1을 받습니다. \n당신이 [[미세]] 히어로 형태인 동안, 당신은 공격 +1을 받습니다.",
+		"traits": "갑옷. 과학."
 	},
 	{
 		"code": "13011",
-		"flavor": "\"You wanna eat my hammer? Then by all means, take a big bite!\"",
+		"flavor": "\"내 망치를 먹고 싶은가? 수단과 방법을 가리지 말고 크게 한 입 베어물게나!\"",
 		"name": "Thor",
 		"subname": "Jane Foster",
-		"text": "<b>Response:</b> After you play Thor from your hand, deal 2 damage to the villain (3 damage instead if you paid for this card using a [physical] resource).",
-		"traits": "Asgard. Avenger."
+		"text": "<b>반응:</b> 당신의 손에서 Thor를 플레이한 후, 빌런에게 피해 2점을 입힙니다(이 카드에 [physical] 자원을 지불했다면 대신 피해 3점을 입힙니다).",
+		"traits": "아스가르드. Avenger."
 	},
 	{
 		"code": "13012",
 		"name": "Wasp",
 		"subname": "Janet Van Dyne",
-		"text": "Wasp gets +1 hit point for each pym counter on her.\n<b>Interrupt:</b> When Wasp enters play, place 1 pym counter on her (to a maximum of 3) for each [energy] resource you overpaid for Wasp's cost.",
-		"traits": "Aerial. Avenger."
+		"text": "Wasp은 Wasp에게 놓인 pym 카운터마다 생명력 +1을 받습니다. \n<b>난입:</b> Wasp이 플레이 영역에 들어올 때, 당신이 Wasp에 명시된 자원 비용을 넘어서 생성한 [Energy] 자원마다 Wasp에 pym 카운터를 1만큼 올려놓습니다.",
+		"traits": "공중. Avenger."
 	},
 	{
 		"code": "13013",
-		"name": "Into the Fray",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to a minion. For each point of excess damage dealt by this attack, remove 1 threat from the main scheme.",
-		"traits": "Attack."
+		"name": "경쟁에 뛰어들다",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: 하수인 하나에게 피해 6점을 입힙니다. 이번 공격으로 입힌 초과 피해마다, 주요 음모에서 위협을 1만큼 제거합니다.",
+		"traits": "공격."
 	},
 	{
 		"code": "13014",
-		"name": "Surprise Attack",
-		"text": "<b>Hero Response</b> <i>(attack)</i>: After you change form, deal 3 damage to an enemy (4 damage instead if you paid for this card using [physical] resource).",
-		"traits": "Attack."
+		"name": "기습",
+		"text": "<b>히어로 반응</b><i>(공격)</i>: 당신이 형태를 변신한 후, 적 하나에게 피해 3점을 입힙니다(이 카드에 [physical] 자원을 지불했다면 대신 피해 4점을 입힙니다).",
+		"traits": "공격."
 	},
 	{
 		"code": "13016",
-		"flavor": "\"YOU CALL THAT A PUSHUP! MY GRANDMOTHER DOES BETTER PUSHUPS!\"",
+		"flavor": "\"그것도 팔굽혀펴기라고 하고 있는 건가! 우리 할머니도 그것보단 팔굽혀펴기를 잘 하시겠다!\"",
 		"name": "Boot Camp",
-		"text": "Play under any player's control. Max 1 per player.\nEach ally you control gets +1 ATK.",
-		"traits": "Location."
+		"text": "이 카드를 플레이하면, 조종할 플레이어를 정합니다. 플레이어마다 최대 1장.\n당신이 조종하는 각 동료는 공격 +1을 받습니다.",
+		"traits": "장소."
 	},
 	{
 		"code": "13017",
-		"name": "Lie in Wait",
-		"text": "Max 1 per player.\n<b>Hero Response</b> <i>(attack)</i>: After a minion engages you, discard Lie in Wait → deal 3 damage to that minion.",
-		"traits": "Preparation."
+		"name": "숨어 기다리다",
+		"text": "플레이어마다 최대 1장.\n<b>히어로 반응</b><i>(공격)</i>: 하수인이 당신과 교전한 후, 숨어 기다리다를 버림 → 그 하수인에게 피해 3점을 입힘.",
+		"traits": "대비."
 	},
 	{
 		"code": "13018",
-		"flavor": "\"I'm totally going to be like Tony Stark! Except for that weird facial hair.\"",
+		"flavor": "\"난 완전 Tony Stark처럼 될 거에요! 이상한 수염만 빼고 말이죠.\"",
 		"name": "Ironheart",
-		"text": "<b>Response</b>: After you play Ironheart from your hand, draw 1 card.",
-		"traits": "Champion."
+		"text": "<b>반응</b>: 당신의 손에서 Ironheart를 플레이한 후, 카드 1장을 뽑습니다.",
+		"traits": "챔피언."
 	},
 	{
 		"code": "13019",
-		"flavor": "\"I'm needed. And just like that, none of the rest of it matters.\"",
+		"flavor": "\"나를 필요로 하는 사람이 있어. 다른 조건은 하나도 중요하지 않아.\"",
 		"name": "Spider-Man",
 		"subname": "Miles Morales",
-		"text": "<b>Response:</b> After you play Spider-Man from your hand, choose THW or ATK. Spider-Man gets +2 to the chosen power until the end of the phase.",
-		"traits": "Champion."
+		"text": "<b>반응:</b> 당신의 손에서 Spider-Man을 플레이한 후, 저지나 공격을 선택합니다. choose THW or ATK. Spider-Man은 페이즈의 끝까지 선택한 기능에 +2를 받습니다.",
+		"traits": "챔피언."
 	},
 	{
 		"code": "13020",
-		"name": "Swarm Tactics",
-		"text": "Team-Up (Ant-Man and Wasp). Max 1 per deck.\n<b>Hero Action:</b> Change to your other hero form. Ready your hero.",
-		"traits": "Tactic."
+		"name": "무리 전술",
+		"text": " 협력(Ant-Man 그리고 Wasp). 덱마다 최대 1장.\n<b>히어로 행동:</b> 당신의 다른 히어로 형태로 변신합니다. 당신의 히어로를 준비합니다.",
+		"traits": "전술."
 	},
 	{
 		"code": "13024",
-		"name": "The Power in All of Us",
-		"text": "Max 2 per deck.\nDouble the number of resources this card generates when paying for a Basic (gray) card."
+		"name": "우리 모두에게 있는 힘",
+		"text": "덱마다 최대 2장.\n 기본<i>(회색)</i> 카드에 이 카드를 비용으로 지불하는 한, 이 카드가 생성하는 자원은 2배가 됩니다."
 	},
 	{
 		"code": "13031",
-		"name": "Running Interference",
-		"text": "Play only if your identity has the [[Avenger]] trait.\n<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from the main scheme. Remove X additional threat from the main scheme (to a maximum of 3), where X is equal to the villain's stage number.",
-		"traits": "Thwart."
+		"name": "훼방",
+		"text": "당신의 아이덴티티에게 [[Avenger]] 특성이 있을 때만 플레이합니다.\n<b>히어로 행동</b><i>(저지)</i>: 주요 음모에서 위협을 2만큼 제거합니다. 주요 음모에서 위협을 X만큼 추가로 제거합니다(최대 3만큼). X는 빌런의 스테이지 번호입니다.",
+		"traits": "저지."
 	},
 	{
 		"code": "13032",
-		"name": "All for One",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 3 damage to an enemy and exhaust any number of [[Avenger]] characters you control. Deal 1 additional damage to that enemy for each character exhausted this way.",
-		"traits": "Attack."
+		"name": "모두가 하나로",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: 적 하나에게 피해 3점을 입히고 당신이 조종하는 [[Avenger]] 캐릭터를 원하는 만큼 소진합니다. 이렇게 소진한 캐릭터마다 그 적에게 피해 1점을 추가로 입힙니다.",
+		"traits": "공격."
 	},
 	{
 		"code": "13033",
-		"flavor": "\"You do know the front door is unlocked, right?\" - Spider-Man",
-		"name": "Perseverance",
-		"text": "<b>Hero Response</b>: After you change form, give your hero a tough status card.",
-		"traits": "Tactic."
+		"flavor": "\"정문이 열려 있는 거 알고는 있지?\" - Spider-Man",
+		"name": "인내",
+		"text": "<b>히어로 반응</b>: 당신이 형태를 변신한 후, 당신의 히어로에게 강인함 상태 카드를 줍니다.",
+		"traits": "전술."
 	},
 	{
 		"code": "13034",
-		"flavor": "\"Don't worry, the ringing in your ears will go away... eventually.\" - Nadia Van Dyne",
-		"name": "Athletic Conditioning",
-		"text": "<b>Hero Action</b>: Discard 1 stun or confuse status card from your hero."
+		"flavor": "\"걱정 마. 네 귓가에 울리는 소리는 결국 사라질 거야… 결국엔.\" - Nadia Van Dyne",
+		"name": "탄탄한 훈련",
+		"text": "<b>히어로 행동</b>: 당신의 히어로에게 놓인 기절 또는 혼란 상태 카드 1장을 버립니다."
 	}
 ]

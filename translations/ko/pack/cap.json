@@ -1,156 +1,157 @@
 [
 	{
 		"code": "03001a",
-		"flavor": "\"My duty to my country comes first, no matter the cost!\"",
+		"flavor": "\"국가에 대한 의무를 다하는 것이 내 사명이다. 그 대가가 뭐든지 간에!\"",
 		"name": "Captain America",
-		"text": "\"I Can Do This All Day!\" — <b>Action</b>: Discard 1 card from your hand → ready Captain America. (Limit once per round.)",
-		"traits": "Avenger. Soldier."
+		"text": "\"하루 종일도 할 수 있어!\" — <b>행동</b>: 당신의 손에서 카드 1장을 버림 → Captain America를 준비(라운드마다 1회 제한.)",
+		"traits": "Avenger. 군인."
 	},
 	{
 		"code": "03001b",
 		"name": "Steve Rogers",
-		"text": "Living Legend — Reduce the cost of the first ally played each round by 1.\n<b>Setup</b>: Search your deck and discard pile for the Captain America's Shield upgrade and add it to your hand. Shuffle your deck.",
-		"traits": "S.H.I.E.L.D. Soldier."
+		"text": "살아있는 전설 — 라운드마다 플레이어가 처음으로 플레이하는 동료의 비용이 1만큼 줄어듭니다.\n<b>사전 준비</b>: 당신의 덱과 버린 더미에서 캡틴 아메리카 방패 업그레이드를 찾아 당신의 손에 더합니다. 당신의 덱을 섞습니다.",
+		"traits": "S.H.I.E.L.D. 군인."
 	},
 	{
 		"code": "03002",
-		"flavor": "\"Cap, you said we'd fight as a team! I want to come with you!\"",
+		"flavor": "\"캡틴, 한 팀으로써 함께 싸우기로 했잖아요! 함께 가게 해주세요!\"",
 		"name": "Agent 13",
 		"subname": "Sharon Carter",
-		"text": "<b>Response</b>: After Agent 13 enters play, remove 2 threat from a scheme.",
+		"text": "<b>반응</b>: Agent 13이 플레이 영역에 들어온 후, 음모 하나에서 위협을 2만큼 제거합니다.",
 		"traits": "S.H.I.E.L.D."
 	},
 	{
 		"code": "03003",
-		"flavor": "\"No one dies on my watch.\" -- Captain America",
-		"name": "Fearless Determination",
-		"text": "<b>Hero Action</b>: Captain America gets +1 THW until the end of the phase. Draw 1 card.",
-		"traits": "Superpower."
+		"flavor": "\"내가 보고 있는 한, 죽는 사람은 없을 거야.\" -- Captain America",
+		"name": "용기있는 결단",
+		"text": "<b>히어로 행동</b>: Captain America는 페이즈의 끝까지 저지 +1을 받습니다. 카드 1장을 뽑습니다.",
+		"traits": "슈퍼파워."
 	},
 	{
 		"code": "03004",
-		"flavor": "\"No, you move.\" -- Captain America",
-		"name": "Heroic Strike",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. If you paid for this card using a [physical] resource, stun that enemy.",
-		"traits": "Attack."
+		"flavor": "\"아니, 그 쪽에서 비켜.\" -- Captain America",
+		"name": "영웅적인 일격",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: 적 하나에게 피해 6점을 입힙니다. 이 카드에 [Physical] 자원을 지불했다면, 그 적을 기절시킵니다.",
+		"traits": "공격."
 	},
 	{
 		"code": "03005",
-		"flavor": "\"Is that all you've got?\" -- Captain America",
-		"name": "Shield Block",
-		"text": "<b>Interrupt</b> <i>(defense)</i>: When you would take any amount of damage, exhaust Captain America's Shield → prevent all of that damage.",
-		"traits": "Defense."
+		"flavor": "\"겨우 이거야?\" -- Captain America",
+		"name": "방패 올리기",
+		"text": "<b>난입</b><i>(방어)</i>: 당신이 피해를 받으려 할 때, 캡틴 아메리카 방패를 소진 → 해당 피해를 모두 방지.",
+		"traits": "방어."
 	},
 	{
 		"code": "03006",
-		"flavor": "\"Sharon! Duck!\" -- Captain America",
-		"name": "Shield Toss",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Discard X cards from your hand, then return Captain America's Shield from play to your hand → deal 4 damage to X enemies.",
-		"traits": "Attack. Superpower."
+		"flavor": "\"Sharon! 숙여!\" -- Captain America",
+		"name": "방패 튕기기",
+		"text": "<b>히어로 행동</b><i>(공격)</i>: 당신의 손에서 카드 X장을 버림. 그러고 나서 플레이 영역에 있는 캡틴 아메리카 방패를 당신의 손으로 되돌리기 → 적 X명에게 피해 4점을 입힘.",
+		"traits": "공격. 슈퍼파워."
 	},
 	{
 		"code": "03007",
-		"flavor": "Even Captain America needs a place to get away and rest.",
-		"name": "Steve's Apartment",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Steve's Apartment → draw 1 card and heal 1 damage from Steve Rogers.",
-		"traits": "Location."
+		"flavor": "Captain America에게조차도 훌쩍 떠나 쉴 장소가 필요합니다.",
+		"name": "Steve의 집",
+		"text": "<b>일상 행동</b>: Steve의 집을 소진 → 카드 1장을 뽑고 Steve Rogers가 입은 피해 1점을 치료.",
+		"traits": "장소."
 	},
 	{
 		"code": "03008",
-		"flavor": "\"A soldier, even a super-soldier, is only as strong as his ideals.\" -- Steve Rogers",
-		"name": "Captain America's Helmet",
-		"text": "<b>Interrupt</b>: When Captain America would be defeated, set his hit point dial to 1 instead. Then, discard this card.",
-		"traits": "Item."
+		"flavor": "\"군인이든, 슈퍼 솔져든, 신념이 확고한 정도만큼만 강할 뿐이다.\" -- Steve Rogers",
+		"name": "Captain America 헬멧",
+		"text": "<b>난입</b>: Captain America가 격파되려 할 때, 대신 Captain America의 생명력 다이얼을 1로 맞춥니다. 그러고 나서, 이 카드를 버립니다.",
+		"traits": "도구."
 	},
 	{
 		"code": "03009",
-		"flavor": "\"This shield is a symbol of freedom.\" -- Captain America",
-		"name": "Captain America's Shield",
-		"text": "Restricted. <i>(Max 2 restricted cards per player.)</i>\nCaptain America gets +1 DEF and gains retaliate 1.",
-		"traits": "Item."
+		"flavor": "\"이 방패는 자유의 상징이다.\" -- Captain America",
+		"name": "Captain America 방패",
+		"text": "한정<i>(플레이어마다 한정 키워드를 가진 카드는 최대 2장). </i>\nCaptain America는 방어 +1을 받고 반격 1을 얻습니다.",
+		"traits": "도구."
 	},
 	{
 		"code": "03010",
-		"flavor": "\"The serum gave Cap his super-strength. But his heart, his unrelenting determination -- those were Steve's long before he picked up the shield.\" -- Sharon Carter",
-		"name": "Super-Soldier Serum",
-		"text": "<b>Resource</b>: Exhaust Super-Soldier Serum → generate a [physical] resource.",
-		"traits": "Item."
+		"flavor": "\"슈퍼 솔져 혈청은 캡틴에게 강한 완력을 주었지만, 그의 심장 속에 담긴 꺾일 줄 모르는 결단력… 그건 Steve가 방패를 집어 들기 훨씬 전부터 가지고 있던 거에요.\" -- Sharon Carter",
+		"name": "슈퍼 솔져 혈청",
+		"text": "<b>자원</b>: 슈퍼 솔져 혈청을 소진 → [physical] 자원을 생성.",
+		"traits": "도구."
 	},
 	{
 		"code": "03011",
 		"name": "Falcon",
 		"subname": "Sam Wilson",
-		"text": "<b>Response</b>: After Falcon enters play, look at the top 3 cards of the encounter deck. For each treachery looked at this way, remove 1 threat from a scheme.",
-		"traits": "Aerial. Avenger."
+		"text": "<b>반응</b>: Falcon이 플레이 영역에 들어온 후, 조우 덱 맨 위에서 카드 3장을 봅니다. 이렇게 본 카드 중 배반 카드마다 음모 하나에서 위협을 1만큼 제거합니다.",
+		"traits": "공중. Avenger."
 	},
 	{
 		"code": "03013",
-		"flavor": "Come on squirrels, let's get 'im!.",
+		"flavor": "해 보자, 다람쥐야. 저 녀석을 잡아 보는 거야!",
 		"name": "Squirrel Girl",
 		"subname": "Doreen Green",
-		"text": "<b>Response</b>: After Squirrel Girl enters play, deal 1 damage to each enemy.",
+		"text": "<b>반응</b>: Squirrel Girl이 플레이 영역에 들어온 후, 모든 적에게 피해 1점을 입힙니다.",
 		"traits": "Avenger."
 	},
 	{
-		"attack_text": "As an additional cost for Wonder Man to attack, you must discard 1 card from your hand.",
+		"attack_text": "Wonder Man이 공격하기 위한 추가 비용으로, 당신의 손에서 카드 1장을 반드시 버립니다.",
 		"code": "03014",
-		"flavor": "It's time for a reckoning!.",
+		"flavor": "심판의 시간이다!",
 		"name": "Wonder Man",
 		"subname": "Simon Williams",
 		"traits": "Avenger."
 	},
 	{
 		"code": "03015",
-		"name": "Avengers Assemble!",
-		"text": "Max 1 per round.\n<b>Hero Action</b></i>: Ready each [[Avenger]] character you control. Until the end of the phase, each [[Avenger]] character in play gets +1 THW and +1 ATK."
+		"name": "Avengers 어셈블!",
+		"text": "라운드마다 최대 1번.\n<b>히어로 행동</b></i>: 당신이 조종하는 각 [[Avenger]] 캐릭터를 준비합니다. 페이즈의 끝까지, 플레이 영역에 있는 각 [[Avenger]] 캐릭터는 저지 +1과 공격 +1을 받습니다."
 	},
 	{
 		"code": "03017",
-		"flavor": "\"Good thing I brought friends.\" -- Captain America",
-		"name": "Strength In Numbers",
-		"text": "<b>Action</b>: Exhaust any number of allies you control → draw 1 card for each ally exhausted this way."
+		"flavor": "\"친구들을 데려와서 다행이군.\" -- Captain America",
+		"name": "뭉치면 강하다",
+		"text": "<b>행동</b>: 당신이 조종하는 동료를 원하는 만큼 소진 → 이렇게 소진한 동료마다 카드 1장을 뽑음."
 	},
 	{
 		"code": "03019",
-		"name": "Quinjet",
-		"text": "<b>Response:</b> After your turn begins, place 1 time counter on Quinjet.\n<b>Action:</b> Put an [[Avenger]] ally from your hand into play with printed cost equal to or less than the number of time counters on Quinjet. Then, discard Quinjet.",
-		"traits": "Avenger. Vehicle."
+		"name": "퀸젯",
+		"text": "<b>반응:</b> 당신의 차례가 시작한 후, 퀸젯에 시간 카운터를 1만큼 놓습니다.\n<b>행동:</b> 자원 비용이 에 놓인 시간 카운터 이하인 [[Avenger]] 동료를 당신의 손에서 플레이 영역에 내려놓습니다. 그러고 나서, Quinjet을 버립니다.",
+		"traits": "Avenger. 탈것."
 	},
 	{
 		"code": "03024",
-		"name": "Avengers Tower",
-		"text": "If each of your allies has the [[Avenger]] trait, increase your ally limit by 1.\n<b>Action:</b> Exhaust Avengers Tower → reduce the cost of the next [[Avenger]] ally played this phase by 1.",
-		"traits": "Avenger. Location."
+		"name": "어벤져스 타워",
+		"text": "당신이 조종하는 모든 동료에게 [[Avenger]] 특성이 있다면, 당신의 동료 제한을 1만큼 증가시킵니다.\n<b>행동:</b> 어벤져스 타워를 소진 → 플레이어가 이번 페이즈에 플레이하는 다음 [[Avenger]] 동료의 자원 비용을 1만큼 감소시킴.",
+		"traits": "Avenger. 장소."
 	},
 	{
 		"code": "03025",
-		"name": "Honorary Avenger",
-		"text": "Play only if your identity has the [[Avenger]] trait.\nAttach to a friendly character.\nAttached character gets +1 hit point and gains the [[Avenger]] trait.",
-		"traits": "Title."
+		"name": "명예 Avenger",
+		"text": "당신의 아이덴티티에게 [[Avenger]] 특성이 있을 때만 플레이합니다.\n아군 캐릭터에게 장착합니다.\n장착된 캐릭터는 생명력 +1을 받고 [[Avenger]] 특성을 얻습니다.",
+		"traits": "칭호."
 	},
 	{
 		"code": "03031",
-		"flavor": "\"Should I be worried about him?\" -- Spider-Man",
-		"name": "Enraged",
-		"text": "Attach to an ally. Max 1 per ally.\nAttached ally gets +2 ATK and takes +1 consequential damage after it attacks.",
-		"traits": "Condition."
+		"flavor": "\"걱정해야 할 정도는 아닌 거지?\" -- Spider-Man",
+		"name": "격노",
+		"text": "동료에게 장착합니다. 동료마다 1장 제한.\n장착된 동료는 공격 +2를 받고 공격한 후 부수적 피해 1점을 추가로 입습니다.",
+		"traits": "상태."
 	},
 	{
 		"code": "03032",
-		"name": "Followed",
-		"text": "Attach to a side scheme. Max 1 per scheme.\n<b>Response</b>: When attached scheme is defeated, deal 4 damage to an enemy."
+		"name": "추적",
+		"text": "부가 음모에게 장착합니다. 음모마다 최대 1장.\n<b>난입</b>: 장착된 음모가 격파될 때, 적 하나에게 피해 4점을 입힙니다."
 	},
 	{
 		"code": "03033",
-		"flavor": "\"Do these guys ever run out of ammo!\" -- Captain America",
-		"name": "Expert Defense",
-		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When your hero defends against an attack, it gets +3 DEF for that attack.",
-		"traits": "Defense."
+		"flavor": "\"이 친구들 총알이 소모되곤 있는 거야?\" -- Captain America",
+		"name": "숙련된 방어",
+		"text": "<b>히어로 난입</b><i>(방어)</i>: 당신의 히어로가 적의 공격을 방어할 때, 당신은 그 공격에서 방어 +3을 받습니다.",
+		"traits": "방어."
 	},
 	{
 		"code": "03034",
-		"name": "Enhanced Awareness",
-		"text": "Uses (3 mental counters).\n<b>Hero Resource</b>: Exhaust Enhanced Awareness and remove 1 mental counter from it → generate a [mental] resource.",
-		"traits": "Condition."
+		"name": "향상된 자각",
+		"text": "사용 (정신력 카운터 3).\n<b>히어로 자원</b>: 향상된 자각을 소진하고 향상된 자각에 놓인 정신력 카운터 1개 제거 → [mental] 자원을 생성.",
+		"traits": "상태."
 	}
+
 ]
