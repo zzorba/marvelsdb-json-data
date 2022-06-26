@@ -9,6 +9,7 @@
 		"position": 28,
 		"quantity": 1,
 		"set_code": "ironheart",
+		"text": "Remove 1 progress counter from your identity, then discard this card. If no progress counter was removed this way, deal yourself 1 facedown encounter card, then shuffle this card into the encounter deck.",
 		"type_code": "obligation"
 	},
 	{
@@ -22,6 +23,7 @@
 		"pack_code": "ironheart",
 		"position": 29,
 		"quantity": 1,
+		"scheme_text": "While Lucia von Bardas is in play, this card gains a hazard icon. While Lucia von Bardas is not in play, this card gains an acceleration icon",
 		"set_code": "ironheart_nemesis",
 		"set_position": 1,
 		"type_code": "side_scheme"
@@ -41,11 +43,13 @@
 		"scheme": 2,
 		"set_code": "ironheart_nemesis",
 		"set_position": 2,
+		"text": "While Lucia von Bardas has tough status card, she gets +1 SCH and +1 ATK. \n<b>Forced Response:</b> After the villain phase ends, give Lucia von Bardas a tough status card.",
 		"traits": "Criminal. Cyborg. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"boost": 0,
+		"boost text": "Deal this card to yourself as a facedown encounter card.",
 		"code": "29031",
 		"faction_code": "encounter",
 		"name": "Cyborg Tech",
@@ -55,6 +59,7 @@
 		"quantity": 1,
 		"set_code": "ironheart_nemesis",
 		"set_position": 3,
+		"text": "Attach to the minion with the most traits. If you cannot, this card gains surge. \n Attached minion gets +3 hit points and gains retaliate 1.",
 		"traits": "Tech.",
 		"type_code": "attachment"
 	},
@@ -69,6 +74,7 @@
 		"quantity": 2,
 		"set_code": "ironheart_nemesis",
 		"set_position": 4,
+		"text": "<b>When Revealed:</b> If Lucia von Bardas is in play, she schemes. If Rule by Force is in play, place 3 threat on it. If neither is in play, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
@@ -83,13 +89,16 @@
 		"position": 36,
 		"quantity": 1,
 		"scheme_acceleration": 1,
+		"scheme_text": "<b>Whem Revealed:</b> Each player must place threat here equal to the total number [energy] resources in their hand and on cards they control",
 		"set_code": "zzzax",
 		"set_position": 1,
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 2,
+		"attack_text": "Zzzax gets +X ATK and +X hit points, where X is equal to the total number of [energy] resources on card the engaged player controls.",
 		"boost": 0,
+		"boost_text": "If you have at least [energy] [energy] resources in your hand, put Zzzax into play engaged to you.",
 		"code": "29037",
 		"faction_code": "encounter",
 		"health": 4,
@@ -116,6 +125,8 @@
 		"quantity": 2,
 		"set_code": "zzzax",
 		"set_position": 3,
+		"text": "Attach to your identity. \n Treat the printed resources of each card in your hand as if it were [energy]. \n<b>Hero Action:</b> Choose to either discard a card you control with a printed [energy] resource or take 2 indirect damage > discard this card.",
+		"code": "29037",
 		"type_code": "attachment"
 	},
 	{
@@ -129,6 +140,8 @@
 		"quantity": 1,
 		"set_code": "zzzax",
 		"set_position": 5,
+		"text": "<b>Forced Interrupt: </b> When the villain phase begins, deal 2 indirect damange to each player with a [energy] resource in their hand and/or on a card they control. \n<b>Hero action:</b> Choose to either discard a card you control with a printed [energy] resource or take 2 indirect damage > discard this card.", 
+		"code": "29037",
 		"traits": "Condition.",
 		"type_code": "environment"
 	},
@@ -143,6 +156,7 @@
 		"quantity": 2,
 		"set_code": "zzzax",
 		"set_position": 6,
+		"text": "<b>When Revealed:</b> Take indirect damage equal to the total number of [energy] resources in your hand. If your identity was dealt 1 or fewer damage this way, this card gains surge.",
 		"type_code": "treachery"
 	}
 ]
