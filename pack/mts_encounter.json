@@ -855,6 +855,7 @@
 		"set_code": "thanos",
 		"set_position": 1,
 		"stage": 1,
+		"text": "Stalwart. <i>(This character cannot be stunned or confused.)</i>\n<b>Forced Response:</b> After the [[infinity stone]] deck runs out, give Thanos 1 facedown boost card.",		
 		"traits": "Black Order. Titan.",
 		"type_code": "villain"
 	},
@@ -874,6 +875,7 @@
 		"set_code": "thanos",
 		"set_position": 2,
 		"stage": 2,
+		"text": "Stalwart. Toughness.\n<b>When Revealed:<b/> Search the encounter deck and discard pile for Thanos's Helmet and reveal it. <i>(Shuffle.)</i>\n<b>Forced Response:</b> After the [[infinity stone]] deck runs out, give Thanos 1 facedown boost card.",		
 		"traits": "Black Order. Titan.",
 		"type_code": "villain"
 	},
@@ -893,12 +895,13 @@
 		"set_code": "thanos",
 		"set_position": 3,
 		"stage": 3,
+		"text": "Stalwart. Toughness.\n<b>When Revealed:<b/> Search the encounter deck and discard pile for Thanos's Helmet and reveal it. <i>(Shuffle.)</i>\n<b>Forced Response:</b> After the [[infinity stone]] deck runs out, give Thanos 1 facedown boost card.",		
 		"traits": "Black Order. Titan.",
 		"type_code": "villain"
 	},
 	{
 		"back_name": "The Infinity Stones",
-		"back_text": "",
+		"back_text": "<b>When Revealed:</b> Put the top card of the [[infinity stone]] deck into play. Search the encounter deck for the Sanctuary side scheme and reveal it. <i>(Shuffle the encounter deck.)</i>",
 		"base_threat": 0,
 		"code": "21114",
 		"double_sided": true,
@@ -909,6 +912,7 @@
 		"pack_code": "mts",
 		"position": 114,
 		"quantity": 1,
+		"scheme_text": "<b>Contents:</b> Thanos I and Thanos II <i>(Thanos II and Thanos III for expert mode)</i>. Thanos, Infinity Gaultlet and Standard sets. Two modular sets <i>(Black Order and Children of Thanos)</i>. See rules insert for The Infinity Gauntlet rules.",		
 		"set_code": "thanos",
 		"set_position": 4,
 		"stage": 1,
@@ -917,7 +921,7 @@
 	},
 	{
 		"back_name": "Balance the Scales",
-		"back_text": "",
+		"back_text": "<b>If this stage is completed, the players lose the game.</b>",
 		"base_threat": 0,
 		"code": "21115",
 		"double_sided": true,
@@ -928,6 +932,7 @@
 		"pack_code": "mts",
 		"position": 115,
 		"quantity": 1,
+		"scheme_text": "<b>When Revealed:</b> Each player shuffles their discard pile into their deck. Each player removes the top half of their deck (rounded down) from the game.",		
 		"set_code": "thanos",
 		"set_position": 5,
 		"stage": 2,
@@ -945,6 +950,7 @@
 		"pack_code": "mts",
 		"position": 116,
 		"quantity": 1,
+		"scheme_text": "Hinder 1[per_player]. Victory 1.\n Thanos cannot take damage.<b> When Defeated:</b> Each player may spend up to 3 [physical] resources from their hand. Deal 2 damage to Thanos for each [physical] resource spent this way. This damage ignores the tough status card.",		
 		"set_code": "thanos",
 		"set_position": 6,
 		"text": "Hinder 1[per_hero]",
@@ -962,6 +968,7 @@
 		"quantity": 1,
 		"set_code": "thanos",
 		"set_position": 7,
+		"text": "Attach to Thanos.\n<b>Forced Interrupt</b>: When Thanos would take any amount of damage, reduce that amount by 1.\n <b>Hero Response:<b> After a hero makes a basic attack against Thanos, spend [energy] [physical] resources → discard this card.",		
 		"traits": "Armor.",
 		"type_code": "attachment"
 	},
@@ -977,6 +984,7 @@
 		"quantity": 1,
 		"set_code": "thanos",
 		"set_position": 8,
+		"text": "Attach to Thanos.\nThanos gains retaliate 1.<b>Hero Response</b>: After a hero makes a basic attack against Thanos, spend [mental] [strength] resources → discard this card.",		
 		"traits": "Armor.",
 		"type_code": "attachment"
 	},
@@ -991,6 +999,7 @@
 		"quantity": 2,
 		"set_code": "thanos",
 		"set_position": 9,
+		"text": "Attach to Thanos. [star] <b>Forced Interrupt:</b> When Thanos activates, put the top card of the [[infinity stone]] deck into play. At the end of this activation, discard Master of the Stones.",		
 		"type_code": "attachment"
 	},
 	{
@@ -1004,9 +1013,10 @@
 		"quantity": 2,
 		"set_code": "thanos",
 		"set_position": 11,
+		"text": "<b>When Revealed (Alter-Ego)</b>: Thanos schemes.\n<b>When Revealed (Hero)</b>: Thanos attacks you. That attack gains overkill and piercing.",
 		"type_code": "treachery"
 	},
-	{
+	{	"boost_text": "Give Thanos a tough status card.",
 		"code": "21121",
 		"faction_code": "encounter",
 		"name": "Deviant Syndrome",
@@ -1016,9 +1026,11 @@
 		"quantity": 2,
 		"set_code": "thanos",
 		"set_position": 13,
+		"text": "Incite 1.\n<b>When Revealed</b>: Give Thanos a tough status card. If you cannot, place 2 threat on the main scheme.",		
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "Discard the top card of the [[infinity stone]] deck. Apply its boost icons ([boost]) for this activation as if it were a boost card.",
 		"code": "21122",
 		"faction_code": "encounter",
 		"name": "\"I Am Inevitable\"",
@@ -1028,9 +1040,11 @@
 		"quantity": 2,
 		"set_code": "thanos",
 		"set_position": 15,
+		"text": "<b>When Revealed:</b>Give Thanos 1 facedown boost card.",
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "If damage from this attack defeats an ally, put the top card of the infinity stone deck into play",
 		"code": "21123",
 		"faction_code": "encounter",
 		"name": "The Mad Titan",
@@ -1040,11 +1054,13 @@
 		"quantity": 2,
 		"set_code": "thanos",
 		"set_position": 17,
+		"text": "<b>When Revealed:</b> Put the top card of the infinity stone deck into play.",
 		"type_code": "treachery"
 	},
 	{
 		"base_threat": 2,
 		"boost": 2,
+		"boost_text": "If damage from this attack defeats an ally, put the top card of the [[infinity stone]] deck into play.",		
 		"code": "21124",
 		"faction_code": "encounter",
 		"name": "The Titan's Throne",
@@ -1056,6 +1072,7 @@
 		"scheme_boost": 1,
 		"set_code": "thanos",
 		"set_position": 19,
+		"text": "<b>When Revealed:</b> Put the top card of the [[infinity stone]] deck into play.",
 		"type_code": "side_scheme"
 	},
 	{
