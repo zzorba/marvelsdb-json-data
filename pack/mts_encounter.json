@@ -411,6 +411,7 @@
 		"scheme": 1,
 		"set_code": "black_order",
 		"set_position": 1,
+		"text": "[star] Black Dwarf's attack gain overkill.",		
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
 	},
@@ -429,6 +430,7 @@
 		"scheme": 2,
 		"set_code": "black_order",
 		"set_position": 2,
+		"text": "Quickstrike.\n<b>Forced Response:</b> After supergiant attacks and damages a character, that character is stunned.",
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
 	},
@@ -443,6 +445,7 @@
 		"position": 87,
 		"quantity": 1,
 		"scheme_hazard": 1,
+		"scheme_text": "While a [[Black Order]] minion is in play, threat cannot be removed from this side scheme.",		
 		"set_code": "black_order",
 		"set_position": 3,
 		"type_code": "side_scheme"
@@ -458,10 +461,12 @@
 		"quantity": 1,
 		"set_code": "black_order",
 		"set_position": 4,
+		"text": "<b>When Revealed:</b> Each minion engaged with a player activates against that player. Each player who is not engaged with a minion searches the encounter deck and discard pile for a [[Black Order]] minion and puts it into play engaged with them. Shuffle the encounter deck.",
 		"type_code": "treachery"
 	},
 	{
 		"attack": 2,
+		"boost_text": "Give the villain a tough status card.",		
 		"code": "21089",
 		"faction_code": "encounter",
 		"health": 4,
@@ -473,11 +478,13 @@
 		"scheme": 1,
 		"set_code": "armies_of_titan",
 		"set_position": 1,
+		"text": "Guard.\n<b>When Defeated:</b> Give the villain a tough status card.",		
 		"traits": "Black Order.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
+		"boost_text": "Discard 1 card at random from your hand.",		
 		"code": "21090",
 		"faction_code": "encounter",
 		"health": 2,
@@ -489,6 +496,7 @@
 		"scheme": 1,
 		"set_code": "armies_of_titan",
 		"set_position": 3,
+		"text": "<b>When Revealed:</b> Discard 1 card at random from your hand.",
 		"traits": "Black Order.",
 		"type_code": "minion"
 	},
@@ -503,6 +511,7 @@
 		"position": 91,
 		"quantity": 2,
 		"scheme_acceleration": 1,
+		"scheme_text": "<b>When Defeated:</b> Discard cards from the top of the encounter deck until a minion is discarded. Put that minion into play engaged with the player who defeated this scheme.",		
 		"set_code": "armies_of_titan",
 		"set_position": 5,
 		"type_code": "side_scheme"
@@ -1089,11 +1098,13 @@
 		"scheme": 2,
 		"set_code": "children_of_thanos",
 		"set_position": 1,
+		"text": "Retaliate 1. Toughness.","boost_text": "[star]<b>Boost:</b> Discard an ally or support you control.",		
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 3,
+		"boost_text": "Discard an ally or upgrade you control.",		
 		"code": "21126",
 		"faction_code": "encounter",
 		"health": 5,
@@ -1106,12 +1117,14 @@
 		"scheme": 1,
 		"set_code": "children_of_thanos",
 		"set_position": 2,
+		"text": "[star] Proxima Midnight's attacks gain piercing.",		
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
 		"boost": 1,
+		"boost_text": "Give this enemy 1 additional boost card",		
 		"code": "21127",
 		"faction_code": "encounter",
 		"health": 6,
@@ -1124,6 +1137,7 @@
 		"scheme": 1,
 		"set_code": "children_of_thanos",
 		"set_position": 3,
+		"text": "Villainous (When this minion activates, give it a boost card.)",		
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
 	},
@@ -1140,6 +1154,7 @@
 		"scheme_crisis": 1,
 		"set_code": "children_of_thanos",
 		"set_position": 4,
+		"text": "<b>When Defeated:</b> Deal the player who defeated this scheme a facedown encounter card",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1153,6 +1168,7 @@
 		"quantity": 1,
 		"set_code": "infinity_gauntlet",
 		"set_position": 1,
+		"text": "Permanent. setup \n [star] <b> Forced Response: </b> After attached villain activates, resolve the <b> Special </b> ability of each [[infinity stone]] in play. Otherwise, put the top card of the [[infinity stone]] deck into play.",		
 		"traits": "Artifact. Weapon.",
 		"type_code": "attachment"
 	},
@@ -1167,6 +1183,7 @@
 		"quantity": 1,
 		"set_code": "infinity_gauntlet",
 		"set_position": 2,
+		"text": "<b> Special: </b> You are confused. If you were already confused, discard 1 card at random from your hand. Place this card in the [[infinity stone]] deck discard pile.",
 		"traits": "Infinity Stone.",
 		"type_code": "environment"
 	},
@@ -1181,6 +1198,7 @@
 		"quantity": 1,
 		"set_code": "infinity_gauntlet",
 		"set_position": 3,
+		"text": "<b> Special: </b> You are stunned. If you were already stunned, take 3 damage. Place this card in the [[infinity stone]] deck discard pile.",		
 		"traits": "Infinity Stone.",
 		"type_code": "environment"
 	},
@@ -1195,6 +1213,7 @@
 		"quantity": 1,
 		"set_code": "infinity_gauntlet",
 		"set_position": 4,
+		"text": "<b> Special: </b> Discard an ally, upgrade, or support you control. Place this card in the [[infinity stone]] deck discard pile.",		
 		"traits": "Infinity Stone.",
 		"type_code": "environment"
 	},
@@ -1209,6 +1228,7 @@
 		"quantity": 1,
 		"set_code": "infinity_gauntlet",
 		"set_position": 5,
+		"text": "<b> Special: </b> Heal 3 damage from the villain and give it a facedown boost card. Place this card in the  [[infinity stone]] deck discard pile.",		
 		"traits": "Infinity Stone.",
 		"type_code": "environment"
 	},
@@ -1223,6 +1243,7 @@
 		"quantity": 1,
 		"set_code": "infinity_gauntlet",
 		"set_position": 6,
+		"text": "<b> Special: </b> Discard cards from the top of the encounter deck until a minion is discarded → put that minion into play engaged with your. Place this card in the [[infinity stone]] deck discard pile.",		
 		"traits": "Infinity Stone.",
 		"type_code": "environment"
 	},
@@ -1237,6 +1258,7 @@
 		"quantity": 1,
 		"set_code": "infinity_gauntlet",
 		"set_position": 7,
+		"text": "<b> Special: </b> Discard the top 4 cards of your deck and place 1 threat on the main scheme for each different card type discarded this way. Place this card in the [[infinity stone]] deck discard pile.",		
 		"traits": "Infinity Stone.",
 		"type_code": "environment"
 	},
