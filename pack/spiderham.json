@@ -130,6 +130,23 @@
 		"type_code": "event"
 	},
 	{
+		"code": "30007",
+		"cost": 3,
+		"deck_limit": 2,
+		"faction_code": "hero",
+		"flavor": "\"Am I a pig with the proportionate strength and agility of a spider? Or a spider with the physical limitations of a pig?\" —Peter Porker",
+		"name": "Swinging Wb Pig",
+		"pack_code": "spiderham",
+		"position": 7,
+		"quantity": 2,
+		"resource_energy": 1,
+		"set_code": "spiderham",
+		"set_position": 8,
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. Confuse that enemy.",
+		"traits": "Cartoon. Attack.",
+		"type_code": "event"
+	},
+	{
 		"code": "30009",
 		"cost": 1,
 		"deck_limit": 2,
@@ -233,7 +250,7 @@
 		"quantity": 3,
 		"resource_energy": 1,
 		"text": "Requirement ([energy]).\n<b>Hero Action</b> <i>(thwart)</i>: Remove 1[per_player] threat from each side scheme. Deal 1 damage to the villain for each side scheme defeated this way.",
-		"traits": "Thwart",
+		"traits": "Thwart.",
 		"type_code": "event"
 	},
 	{
@@ -249,6 +266,27 @@
 		"text": "Attach to a scheme. Max 1 per scheme.\n<b>Hero Interrupt:</b> When any amount of threat is removed from attached scheme by a thwart, discard this card → remove an equal amount of threat from a different scheme.",
 		"traits": "",
 		"type_code": "upgrade"
+	},
+	{
+		"attack": 2,
+		"attack_cost": 1,
+		"code": "30020",
+		"cost": 4,
+		"deck_limit": 1,
+		"faction_code": "basic",
+		"health": 4,
+		"is_unique": true,
+		"name": "Scarlet Spider",
+		"pack_code": "spiderham",
+		"position": 20,
+		"quantity": 1,
+		"resource_mental": 1,
+		"subname": "Kaine",
+		"text": "Play only if you control a [[Web-Warrior]] card.\n<b>Interrupt:</b> When you would reveal an encounter card, name a card type, then look at that card. If that card is of the named type, deal 1 damage to Scarlet Spider and draw 1 card.",
+		"thwart": 1,
+		"thwart_cost": 1,
+		"traits": "Web-Warrior.",
+		"type_code": "ally"
 	},
 	{
 		"code": "30029",
