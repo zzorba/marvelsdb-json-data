@@ -314,17 +314,10 @@
    },
    {
       "code": "33017",
+      "duplicate_of": "06032",
       "pack_code": "cyclops",
-      "faction_code": "leadership",
-      "type_code": "event",
-      "name": "Teamwork",
       "position": 17,
       "quantity": 3,
-      "deck_limit": 3,
-      "cost": 0,
-      "resource_energy": 1,
-      "traits": "Tactic.",
-      "text": "<b>Hero Interrupt</b>: When you use your basic thwart power (THW) or basic attack power (ATK), exhaust an ally you control \u2192 add that ally's matching power to your hero's power for this use.",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033017"
    },
    {
@@ -423,21 +416,21 @@
    },
    {
       "code": "33024",
-      "duplicate_of": "32022",
+      "duplicate_of": "01088",
       "pack_code": "cyclops",
       "position": 24,
       "quantity": 1
    },
    {
       "code": "33025",
-      "duplicate_of": "32023",
+      "duplicate_of": "01089",
       "pack_code": "cyclops",
       "position": 25,
       "quantity": 1
    },
    {
       "code": "33026",
-      "duplicate_of": "32024",
+      "duplicate_of": "01090",
       "pack_code": "cyclops",
       "position": 26,
       "quantity": 1
@@ -450,6 +443,7 @@
       "name": "Marked",
       "position": 32,
       "quantity": 3,
+      "deck_limit": 3,
       "cost": 0,
       "traits": "Tactic.",
       "text": "Attach to an minion. Max 1 per minion.\nAttacks against attached minion gain overkill.",
@@ -463,9 +457,10 @@
       "name": "Befuddle",
       "position": 33,
       "quantity": 3,
+      "deck_limit": 3,
       "cost": 0,
       "traits": "Tactic.",
-      "text": "Attach to an minion. Max 1 per minion.\\<b>Interrupt</b>: When a character makes a basic attack against attached minion, that character uses THW instead of their ATK.",
+      "text": "Attach to an minion. Max 1 per minion.\n<b>Interrupt</b>: When a character makes a basic attack against attached minion, that character uses THW instead of their ATK.",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033033"
    },
    {
@@ -476,6 +471,7 @@
       "name": "Pinned Down",
       "position": 34,
       "quantity": 3,
+      "deck_limit": 3,
       "cost": 0,
       "traits": "Tactic.",
       "text": "Attach to an minion. Max 1 per minion.\nAttached minion gets -2 ATK.",
@@ -489,6 +485,7 @@
       "name": "Honorary X-Men",
       "position": 35,
       "quantity": 3,
+      "deck_limit": 3,
       "cost": 0,
       "traits": "Title.",
       "text": "Play only if your identity has the [[X-MEN]] trait.\nAttach to a friendly character.\nAttached character gets +1 hit point and gains the [[X-MEN]] trait.",
