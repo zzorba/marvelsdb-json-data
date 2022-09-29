@@ -6,6 +6,9 @@
       "faction_code": "hero",
       "set_code": "phoenix",
       "type_code": "hero",
+      "meta": {
+			"colors": ["#a2238e", "#31225d", "#83c1ea", "#fffffd"]
+		},
       "name": "Phoenix",
       "position": 1,
       "quantity": 1,
@@ -35,7 +38,7 @@
       "health": 9,
       "hand_size": "6",
       "traits": "Mutant. Psionic.",
-      "text": "<b>Setup</b>: Put your Phoenix Force upgrade into play,  [[RESTRAINED]] side faceup. Place 4 power counters on it.\\n[star]<b>Response</b>: After you make a basic recovery, place 1 power counter on Phoenix Force.",
+      "text": "<b>Setup</b>: Put your Phoenix Force upgrade into play,  [[RESTRAINED]] side faceup. Place 4 power counters on it.\n[star]<b>Response</b>: After you make a basic recovery, place 1 power counter on Phoenix Force.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034001"
    },
    {
@@ -46,12 +49,14 @@
       "set_code": "phoenix",
       "type_code": "upgrade",
       "name": "Phoenix Force A",
+      "permanent": true,
       "position": 2,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 1,
       "resource_mental": "1",
       "traits": "Restrained.",
-      "text": "Permanent.\\nYou gain the [[RESTRAINED]] trait.\\n<b>Forced Response</b>: After the last power counter is removed from here, flip this card.",
+      "text": "Permanent.\nYou gain the [[RESTRAINED]] trait.\n<b>Forced Response</b>: After the last power counter is removed from here, flip this card.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034002"
    },
    {
@@ -61,12 +66,14 @@
       "set_code": "phoenix",
       "type_code": "upgrade",
       "name": "Phoenix Force B",
+      "hidden": true,
       "position": 2,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 1,
       "resource_physical": "1",
       "traits": "Unleashed.",
-      "text": "Permanent.\\nYou gain the [[UNLEASHED]] trait.\\nPhoenix gets -2 THW and +2 ATK.\\n<b>Forced Response</b>: After a power counter is placed here, if there are 4 or more power counters here, flip this card.",
+      "text": "Permanent.\nYou gain the [[UNLEASHED]] trait.\nPhoenix gets -2 THW and +2 ATK.\n<b>Forced Response</b>: After a power counter is placed here, if there are 4 or more power counters here, flip this card.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034002"
    },
    {
@@ -77,6 +84,7 @@
       "type_code": "ally",
       "name": "Cyclops",
       "position": 3,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 2,
       "is_unique": true,
@@ -86,7 +94,7 @@
       "health": 3,
       "resource_wild": 1,
       "traits": "X-Men.",
-      "text": "<b>Response</b>: After Cyclops enters play, place 2 power counters on Phoenix Force.\\n<b>Response</b>: When Cyclops leaves play, remove 2 power counters from Phoenix Force.",
+      "text": "<b>Response</b>: After Cyclops enters play, place 2 power counters on Phoenix Force.\n<b>Response</b>: When Cyclops leaves play, remove 2 power counters from Phoenix Force.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034003"
    },
    {
@@ -97,13 +105,14 @@
       "type_code": "support",
       "name": "White Hot Room",
       "position": 4,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 3,
       "is_unique": true,
       "cost": 2,
       "resource_mental": "1",
       "traits": "Location. Phoenix.",
-      "text": "<b>Alter-Ego Action</b>: Exhaust White Hot Room \u2192 choose:\\\u2022 Place 1 power counter on Phoenix Force.\\n\u2022 Heal 2 damage from Jean Grey.",
+      "text": "<b>Alter-Ego Action</b>: Exhaust White Hot Room \u2192 choose:\\\u2022 Place 1 power counter on Phoenix Force.\n\u2022 Heal 2 damage from Jean Grey.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034004"
    },
    {
@@ -114,13 +123,14 @@
       "type_code": "upgrade",
       "name": "Phoenix Suit",
       "position": 5,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 4,
       "is_unique": true,
       "cost": 2,
       "resource_physical": "1",
       "traits": "Item.",
-      "text": "Phoenix gains the [[AERIAL]] trait.\\nWhile you have the [[RESTRAINED]] trait, you gain steady.\\nWhile you have the [[UNLEASHED]] trait, you gain retaliate 1.",
+      "text": "Phoenix gains the [[AERIAL]] trait.\nWhile you have the [[RESTRAINED]] trait, you gain steady.\nWhile you have the [[UNLEASHED]] trait, you gain retaliate 1.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034005"
    },
    {
@@ -131,6 +141,7 @@
       "type_code": "upgrade",
       "name": "Rise from the Ashes",
       "position": 6,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 5,
       "cost": 3,
@@ -147,12 +158,13 @@
       "type_code": "upgrade",
       "name": "Telekinetic Shield",
       "position": 7,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 6,
       "cost": 2,
       "resource_physical": "1",
       "traits": "Psionic.",
-      "text": "Attach to a friendly character.\\n<b>Forced Interrupt</b>: When attached character would take damage from an enemy attack, place that damage here instead. Then, if there is at least 5 damage here, discard Telekinetic Shield.",
+      "text": "Attach to a friendly character.\n<b>Forced Interrupt</b>: When attached character would take damage from an enemy attack, place that damage here instead. Then, if there is at least 5 damage here, discard Telekinetic Shield.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034007"
    },
    {
@@ -163,11 +175,12 @@
       "type_code": "upgrade",
       "name": "Mental Paralysis",
       "position": 8,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 7,
       "cost": 2,
       "traits": "Psionic.",
-      "text": "Hero form only. Attach to a non-[[ELITE]] minion.\\nAttached minion cannot activate.\\n<b>Forced Interrupt</b>: After you flip to alter-ego form, discard this card.",
+      "text": "Hero form only. Attach to a non-[[ELITE]] minion.\nAttached minion cannot activate.\n<b>Forced Interrupt</b>: After you flip to alter-ego form, discard this card.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034008"
    },
    {
@@ -178,11 +191,12 @@
       "type_code": "upgrade",
       "name": "Mind Control",
       "position": 9,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 8,
       "cost": 4,
       "traits": "Condition. Psionic.",
-      "text": "Attach to a non-[[ELITE]] minion.\\nTake control of attached minion and treat it as a [[CONTROLLED]] ally with a blank text box. Its THW is equal to its printed SCH and it takes 1 consequential damage after it thwarts or attacks.",
+      "text": "Attach to a non-[[ELITE]] minion.\nTake control of attached minion and treat it as a [[CONTROLLED]] ally with a blank text box. Its THW is equal to its printed SCH and it takes 1 consequential damage after it thwarts or attacks.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034009"
    },
    {
@@ -193,6 +207,7 @@
       "type_code": "event",
       "name": "Telekinetic Attack",
       "position": 10,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 9,
       "cost": 3,
@@ -209,6 +224,7 @@
       "type_code": "event",
       "name": "Psychic Blast",
       "position": 11,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 11,
       "cost": 2,
@@ -225,6 +241,7 @@
       "type_code": "event",
       "name": "Telepathic Trickery",
       "position": 12,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 13,
       "cost": 2,
@@ -241,12 +258,13 @@
       "type_code": "event",
       "name": "Phoenix Firebird",
       "position": 13,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 15,
       "cost": 1,
       "resource_energy": 1,
       "traits": "Phoenix.",
-      "text": "<b>Hero Action</b>: Choose:\\\u2022 Remove 1 power counter from Phoenix Force \u2192 ready Phoenix.\\n\u2022 Place 2 power counters on Phoenix Force.",
+      "text": "<b>Hero Action</b>: Choose:\\\u2022 Remove 1 power counter from Phoenix Force \u2192 ready Phoenix.\n\u2022 Place 2 power counters on Phoenix Force.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034013"
    },
    {
@@ -301,7 +319,7 @@
       "cost": 1,
       "resource_mental": "1",
       "traits": "Training.",
-      "text": "Attach to an [[X-MEN]] ally. Max 1 [[TRAINING]] upgrade per ally.\\nAttached ally gets +1 THW point and +2 hit points.",
+      "text": "Attach to an [[X-MEN]] ally. Max 1 [[TRAINING]] upgrade per ally.\nAttached ally gets +1 THW point and +2 hit points.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034016"
    },
    {
@@ -359,7 +377,7 @@
       "quantity": 2,
       "deck_limit": 2,
       "resource_wild": 1,
-      "text": "Max 2 per deck.\\n<b>Interrupt</b>: When you spend this card to play a [[THWART]] event, that event removes 1 additionnal threat.",
+      "text": "Max 2 per deck.\n<b>Interrupt</b>: When you spend this card to play a [[THWART]] event, that event removes 1 additionnal threat.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034020"
    },
    {
@@ -379,7 +397,7 @@
       "health": 3,
       "resource_energy": 1,
       "traits": "Aerial. X-Men.",
-      "text": "Reduce the cost to play Storm by 1 if your identity has the [[MUTANT]] or [[X-MEN]] trait.\\n[star]<b>Interrupt</b>: When Storm thwarts a scheme, move 2 threat from that scheme to another scheme.",
+      "text": "Reduce the cost to play Storm by 1 if your identity has the [[MUTANT]] or [[X-MEN]] trait.\n[star]<b>Interrupt</b>: When Storm thwarts a scheme, move 2 threat from that scheme to another scheme.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034021"
    },
    {
@@ -395,7 +413,7 @@
       "cost": 1,
       "resource_mental": "1",
       "traits": "Location. X-Men.",
-      "text": "Play only if your identity has the [[MUTANT]] trait.\\n<b>Alter-Ego Action</b>: Exhaust Cerebro \u2192 search the top 5 cards of your deck for an [[X-MEN]] ally (search your whole deck instead if you control a [[PSIONIC]] character) and add that ally to your hand. <i>(Shuffle.)</i>",
+      "text": "Play only if your identity has the [[MUTANT]] trait.\n<b>Alter-Ego Action</b>: Exhaust Cerebro \u2192 search the top 5 cards of your deck for an [[X-MEN]] ally (search your whole deck instead if you control a [[PSIONIC]] character) and add that ally to your hand. <i>(Shuffle.)</i>",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034022"
    },
    {
@@ -417,7 +435,7 @@
       "cost": 1,
       "resource_physical": "1",
       "traits": "Condition.",
-      "text": "Play under any player's control. Max 1 per player.\\nYour alter-ego gets +2 REC.",
+      "text": "Play under any player's control. Max 1 per player.\nYour alter-ego gets +2 REC.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034024"
    },
    {
@@ -452,7 +470,7 @@
       "deck_limit": 3,
       "cost": 2,
       "traits": "Attack. Psionic.",
-      "text": "Play only if your identity has the [[PSIONIC]] trait.\\n<b>Hero Action</b> <i>(attack)</i>: Deal 3 damage to an enemy. Confuse that enemy.",
+      "text": "Play only if your identity has the [[PSIONIC]] trait.\n<b>Hero Action</b> <i>(attack)</i>: Deal 3 damage to an enemy. Confuse that enemy.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034032"
    },
    {
@@ -466,7 +484,7 @@
       "deck_limit": 3,
       "cost": 2,
       "traits": "Defense. Psionic.",
-      "text": "Play only if your identity has the [[PSIONIC]] trait.\\n<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks you, choose a different enemy \u2192 damage from that attack is dealt to the chosen enemy instead of you.",
+      "text": "Play only if your identity has the [[PSIONIC]] trait.\n<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks you, choose a different enemy \u2192 damage from that attack is dealt to the chosen enemy instead of you.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034033"
    },
    {
@@ -480,7 +498,7 @@
       "deck_limit": 3,
       "cost": 0,
       "traits": "Psionic.",
-      "text": "Play only if your identity has the [[PSIONIC]] trait.\\n<b>Hero Action</b>: Ready an ally. That ally gets +2 THW and +2 ATK for its next basic thwart or attack action this phase.",
+      "text": "Play only if your identity has the [[PSIONIC]] trait.\n<b>Hero Action</b>: Ready an ally. That ally gets +2 THW and +2 ATK for its next basic thwart or attack action this phase.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034034"
    },
    {
@@ -493,7 +511,7 @@
       "quantity": 1,
       "deck_limit": 1,
       "cost": 1,
-      "text": "Team-Up (Phoenix and Storm). Max 1 per deck.\\n<b>Hero Action</b>: Ready Phoenix and Storm. Heal 2 damage from each of them.",
+      "text": "Team-Up (Phoenix and Storm). Max 1 per deck.\n<b>Hero Action</b>: Ready Phoenix and Storm. Heal 2 damage from each of them.",
       "octgn_id": "9b407333-e221-495f-a145-e5a9b4034035"
    }
 ]

@@ -6,6 +6,9 @@
       "faction_code": "hero",
       "set_code": "cyclops",
       "type_code": "hero",
+      "meta": {
+			"colors": ["#a2238e", "#31225d", "#83c1ea", "#fffffd"]
+		},
       "name": "Cyclops",
       "position": 1,
       "quantity": 1,
@@ -35,7 +38,7 @@
       "health": 10,
       "hand_size": "6",
       "traits": "Mutant.",
-      "text": "You may include [[X-MEN]] allies from any aspect in your deck.\\n<i>Constant Training</i> \u2212 <b>Action</b>: Search your deck for a [[TACTIC]] upgrade and add it to your hand. (Limit once per round).",
+      "text": "You may include [[X-MEN]] allies from any aspect in your deck.\n<i>Constant Training</i> \u2212 <b>Action</b>: Search your deck for a [[TACTIC]] upgrade and add it to your hand. (Limit once per round).",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033001"
    },
    {
@@ -47,6 +50,7 @@
       "name": "Phoenix",
       "subname": "Jean Grey",
       "position": 2,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 1,
       "is_unique": true,
@@ -67,6 +71,7 @@
       "type_code": "upgrade",
       "name": "Ruby Quartz Visor",
       "position": 3,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 2,
       "is_unique": true,
@@ -84,13 +89,14 @@
       "type_code": "upgrade",
       "name": "Field Commander",
       "position": 4,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 3,
       "is_unique": true,
       "cost": 1,
       "resource_physical": "1",
       "traits": "Title.",
-      "text": "You take the first turn during player phase. <i>(When your turn is done, play proceeds in player order, starting with the first player. You do not take another turn.)</i>\\nEach Cyclops upgrade attached to a minion loses the temporary keyword.",
+      "text": "You take the first turn during player phase. <i>(When your turn is done, play proceeds in player order, starting with the first player. You do not take another turn.)</i>\nEach Cyclops upgrade attached to a minion loses the temporary keyword.",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033004"
    },
    {
@@ -101,12 +107,13 @@
       "type_code": "upgrade",
       "name": "Exploit Weakness",
       "position": 5,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 4,
       "cost": 1,
       "resource_physical": "1",
       "traits": "Tactic.",
-      "text": "Attach to an enemy. Max 1 per enemy.\\nTemporary.\\nIncrease the amount of damage attached enemy takes from each attack by 1.",
+      "text": "Attach to an enemy. Max 1 per enemy.\nTemporary.\nIncrease the amount of damage attached enemy takes from each attack by 1.",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033005"
    },
    {
@@ -117,12 +124,13 @@
       "type_code": "upgrade",
       "name": "Practiced Defense",
       "position": 6,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 6,
       "cost": 0,
       "resource_energy": 1,
       "traits": "Tactic.",
-      "text": "Attach to an enemy. Max 1 per enemy.\\nTemporary.\\nAttached enemy gets -1 ATK.",
+      "text": "Attach to an enemy. Max 1 per enemy.\nTemporary.\nAttached enemy gets -1 ATK.",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033006"
    },
    {
@@ -133,12 +141,13 @@
       "type_code": "upgrade",
       "name": "Priority Target",
       "position": 7,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 8,
       "cost": 0,
       "resource_mental": "1",
       "traits": "Tactic.",
-      "text": "Attach to an enemy. Max 1 per enemy.\\nTemporary.\\n<b>Interrupt</b>: When attached enemy is defeated, the player who defeated it draws 2 cards.",
+      "text": "Attach to an enemy. Max 1 per enemy.\nTemporary.\n<b>Interrupt</b>: When attached enemy is defeated, the player who defeated it draws 2 cards.",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033007"
    },
    {
@@ -149,6 +158,7 @@
       "type_code": "event",
       "name": "Full Blast",
       "position": 8,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 10,
       "cost": 1,
@@ -165,6 +175,7 @@
       "type_code": "event",
       "name": "Rocket Beam",
       "position": 9,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 11,
       "cost": 2,
@@ -181,6 +192,7 @@
       "type_code": "event",
       "name": "Tactical Brillance",
       "position": 10,
+      "deck_limit": 3,
       "quantity": 3,
       "set_position": 13,
       "cost": 2,
@@ -281,7 +293,7 @@
       "cost": 1,
       "resource_mental": "1",
       "traits": "Training.",
-      "text": "Attach to an [[X-MEN]] ally. Max 1 [[TRAINING]] upgrade per ally.\\nAttached ally gets +1 THW,  +1 ATK and +1 hot point.",
+      "text": "Attach to an [[X-MEN]] ally. Max 1 [[TRAINING]] upgrade per ally.\nAttached ally gets +1 THW,  +1 ATK and +1 hot point.",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033015"
    },
    {
@@ -296,7 +308,7 @@
       "cost": 0,
       "resource_physical": "1",
       "traits": "Tactic.",
-      "text": "Attach to an minion. Max 1 per minion.\\nEach ally takes -1 consequential damage ([consequential]) when attacking attached minion.",
+      "text": "Attach to an minion. Max 1 per minion.\nEach ally takes -1 consequential damage ([consequential]) when attacking attached minion.",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033016"
    },
    {
@@ -324,7 +336,7 @@
       "quantity": 2,
       "deck_limit": 2,
       "resource_wild": 1,
-      "text": "Max 2 per deck.\\n<b>Interrupt</b>: When you spend this card to play an ally, that ally gets +1 THW and +1 ATK until the end of the phase.",
+      "text": "Max 2 per deck.\n<b>Interrupt</b>: When you spend this card to play an ally, that ally gets +1 THW and +1 ATK until the end of the phase.",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033018"
    },
    {
@@ -405,7 +417,7 @@
       "deck_limit": 1,
       "cost": 2,
       "resource_energy": 1,
-      "text": "Team-Up (Cyclops and  Phoenix). Max 1 per deck.\\n<b>Hero Action</b>: Ready Cyclops and Phoenix. Choose to either return a Cyclops card from your discard pile to your hand or place 2 power counters on Phoenix Force.",
+      "text": "Team-Up (Cyclops and  Phoenix). Max 1 per deck.\n<b>Hero Action</b>: Ready Cyclops and Phoenix. Choose to either return a Cyclops card from your discard pile to your hand or place 2 power counters on Phoenix Force.",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033023"
    },
    {
@@ -439,7 +451,7 @@
       "quantity": 3,
       "cost": 0,
       "traits": "Tactic.",
-      "text": "Attach to an minion. Max 1 per minion.\\nAttacks against attached minion gain overkill.",
+      "text": "Attach to an minion. Max 1 per minion.\nAttacks against attached minion gain overkill.",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033032"
    },
    {
@@ -465,7 +477,7 @@
       "quantity": 3,
       "cost": 0,
       "traits": "Tactic.",
-      "text": "Attach to an minion. Max 1 per minion.\\nAttached minion gets -2 ATK.",
+      "text": "Attach to an minion. Max 1 per minion.\nAttached minion gets -2 ATK.",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033034"
    },
    {
@@ -478,7 +490,7 @@
       "quantity": 3,
       "cost": 0,
       "traits": "Title.",
-      "text": "Play only if your identity has the [[X-MEN]] trait.\\nAttach to a friendly character.\\nAttached character gets +1 hit point and gains the [[X-MEN]] trait.",
+      "text": "Play only if your identity has the [[X-MEN]] trait.\nAttach to a friendly character.\nAttached character gets +1 hit point and gains the [[X-MEN]] trait.",
       "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033035"
    }
 ]

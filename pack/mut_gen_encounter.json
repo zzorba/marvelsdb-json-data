@@ -299,6 +299,8 @@
       "set_position": 7,
       "is_unique": true,
       "cost": 0,
+      "attack": 0,
+      "thwart": 0,
       "health": 9,
       "traits": "Senator.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032066"
@@ -367,7 +369,7 @@
       "position": 71,
       "quantity": 1,
       "set_position": 16,
-      "text": "Hinder 2[per_player].\\nVictory 1.",
+      "text": "Hinder 2[per_player].\nVictory 1.",
       "boost": 2,
       "base_threat": 2,
       "base_threat_fixed": true,
@@ -690,7 +692,7 @@
       "health": 3,
       "resource_wild": 1,
       "traits": "X-Men.",
-      "text": "Victory -1.\\nThe first player controls Jubilee. She does not count against your ally limit.\\n<b>Action</b>: Exhaust Jubilee and spend a [energy] resource \u2192 deal 2 damage to an enemy.",
+      "text": "Victory -1.\nThe first player controls Jubilee. She does not count against your ally limit.\n<b>Action</b>: Exhaust Jubilee and spend a [energy] resource \u2192 deal 2 damage to an enemy.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032088"
    },
    {
@@ -799,7 +801,7 @@
       "quantity": 2,
       "set_position": 12,
       "traits": "Sentinel. Tech.",
-      "text": "Attach to the villain.\\n[star] The villain's attacks gain piercing and ranged.",
+      "text": "Attach to the villain.\n[star] The villain's attacks gain piercing and ranged.",
       "boost": 1,
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032094"
    },
@@ -814,7 +816,7 @@
       "quantity": 1,
       "set_position": 14,
       "traits": "Sentinel. Tech.",
-      "text": "Attach to the villain.\\n[star] The villain gains retaliate 1.",
+      "text": "Attach to the villain.\n[star] The villain gains retaliate 1.",
       "boost": 0,
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032095"
    },
@@ -829,7 +831,7 @@
       "quantity": 1,
       "set_position": 15,
       "traits": "Sentinel. Tech.",
-      "text": "Attach to the villain.\\n[star] The villain gets +8 hit points.",
+      "text": "Attach to the villain.\n[star] The villain gets +8 hit points.",
       "boost": 0,
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032096"
    },
@@ -1857,7 +1859,7 @@
       "set_position": 8,
       "double_sided": true,
       "traits": "Condition.",
-      "text": "Attach to Magneto.\\nPermanent.\\nMagneto loses steady.",
+      "text": "Attach to Magneto.\nPermanent.\nMagneto loses steady.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032145"
    },
    {
@@ -1890,7 +1892,7 @@
       "set_position": 13,
       "is_unique": true,
       "traits": "Armor. Magnetic.",
-      "text": "Attach to Magneto.\\nMagneto cannot be confused.",
+      "text": "Attach to Magneto.\nMagneto cannot be confused.",
       "boost": 3,
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032147"
    },
@@ -1906,7 +1908,7 @@
       "set_position": 14,
       "is_unique": true,
       "traits": "Armor. Magnetic.",
-      "text": "Attach to Magneto.\\nMagneto cannot be stunned.",
+      "text": "Attach to Magneto.\nMagneto cannot be stunned.",
       "boost": 3,
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032148"
    },
@@ -1921,7 +1923,7 @@
       "quantity": 1,
       "set_position": 15,
       "traits": "Magnetic.",
-      "text": "Attach to Magneto.\\nMagneto gains retaliate 1.",
+      "text": "Attach to Magneto.\nMagneto gains retaliate 1.",
       "boost": 2,
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032149"
    },

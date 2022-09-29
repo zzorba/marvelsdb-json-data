@@ -6,6 +6,9 @@
       "faction_code": "hero",
       "set_code": "colossus",
       "type_code": "hero",
+      "meta": {
+			"colors": ["#a2238e", "#31225d", "#83c1ea", "#fffffd"]
+		},
       "name": "Colossus",
       "position": 1,
       "quantity": 1,
@@ -17,7 +20,7 @@
       "health": 14,
       "hand_size": "4",
       "traits": "X-Men.",
-      "text": "Colossus can have 1 additional tough status card.\\n<i>Stell Skin</i> \u2013 <b>Response</b>: After you change to this form, give Colossus a tough status card.",
+      "text": "Colossus can have 1 additional tough status card.\n<i>Steel Skin</i> \u2013 <b>Response</b>: After you change to this form, give Colossus a tough status card.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032001"
    },
    {
@@ -35,7 +38,7 @@
       "health": 14,
       "hand_size": "6",
       "traits": "Mutant.",
-      "text": "<b>Setup</b>: Search your deck for a copy of Organic Steel and add it to your hand.\\n<i>Aspiring Artist</i> \u2013 <b>Response</b>: After you change to this form, shuffle a Colossus card from your discard pile into your deck.",
+      "text": "<b>Setup</b>: Search your deck for a copy of Organic Steel and add it to your hand.\n<i>Aspiring Artist</i> \u2013 <b>Response</b>: After you change to this form, shuffle a Colossus card from your discard pile into your deck.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032001"
    },
    {
@@ -47,6 +50,7 @@
       "name": "Shadowcat",
       "subname": "Kitty Pryde",
       "position": 2,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 1,
       "is_unique": true,
@@ -67,6 +71,7 @@
       "type_code": "support",
       "name": "Piotr's Studio",
       "position": 3,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 2,
       "is_unique": true,
@@ -84,12 +89,13 @@
       "type_code": "upgrade",
       "name": "Iron Will",
       "position": 4,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 3,
       "cost": 2,
       "resource_mental": "1",
       "traits": "Superpower.",
-      "text": "Colossus gets +1 THW.\\n<b>Response</b>: After a tough status card is discarded from Colossus, draw 1 card.",
+      "text": "Colossus gets +1 THW.\n<b>Response</b>: After a tough status card is discarded from Colossus, draw 1 card.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032004"
    },
    {
@@ -100,12 +106,13 @@
       "type_code": "upgrade",
       "name": "Titanium Muscles",
       "position": 5,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 4,
       "cost": 2,
       "resource_physical": "1",
       "traits": "Superpower.",
-      "text": "Colossus gets +1 ATK.\\n<b>Hero Resource</b>: Exhaust this card \u2192 generate a [physical] resource for each tough status card on Colossus.",
+      "text": "Colossus gets +1 ATK.\n<b>Hero Resource</b>: Exhaust this card \u2192 generate a [physical] resource for each tough status card on Colossus.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032005"
    },
    {
@@ -116,12 +123,13 @@
       "type_code": "upgrade",
       "name": "Organic Steel",
       "position": 6,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 5,
       "cost": 2,
       "resource_energy": 1,
       "traits": "Superpower.",
-      "text": "Uses (2 steel counters).\\n<b>Hero Response</b>: After a tough status card is discarded from Colossus, exhaust this card and remove 1 steel counter from it \u2192 give Colossus a tough status card.",
+      "text": "Uses (2 steel counters).\n<b>Hero Response</b>: After a tough status card is discarded from Colossus, exhaust this card and remove 1 steel counter from it \u2192 give Colossus a tough status card.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032006"
    },
    {
@@ -132,6 +140,7 @@
       "type_code": "event",
       "name": "Made of Rage",
       "position": 7,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 7,
       "cost": 0,
@@ -148,6 +157,7 @@
       "type_code": "event",
       "name": "Steel Fist",
       "position": 8,
+      "deck_limit": 3,
       "quantity": 3,
       "set_position": 9,
       "cost": 2,
@@ -164,12 +174,13 @@
       "type_code": "event",
       "name": "Bulletproof Protector",
       "position": 9,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 12,
       "cost": 0,
       "resource_physical": "1",
       "traits": "Superpower.",
-      "text": "<b>Hero Action</b>: Discard a tough status card from your hero \u2192 choose :\\n\u2022 Give your hero 2 tough status cards.\\n\u2022 Ready your hero.",
+      "text": "<b>Hero Action</b>: Discard a tough status card from your hero \u2192 choose :\n\u2022 Give your hero 2 tough status cards.\n\u2022 Ready your hero.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032009"
    },
    {
@@ -180,6 +191,7 @@
       "type_code": "event",
       "name": "Armor Up",
       "position": 10,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 14,
       "cost": 0,
@@ -240,7 +252,7 @@
       "cost": 1,
       "resource_mental": "1",
       "traits": "Training.",
-      "text": "Attach to an [[X-MEN]] ally. Max 1 [[Training]] upgrade per ally.\\nAttached ally gets +3 hit points.",
+      "text": "Attach to an [[X-MEN]] ally. Max 1 [[Training]] upgrade per ally.\nAttached ally gets +3 hit points.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032013"
    },
    {
@@ -300,7 +312,7 @@
       "cost": 1,
       "resource_energy": 1,
       "traits": "Defense.",
-      "text": "Play only if your identity has the [[X-MEN]] trait.\\n<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, put an [[X-MEN]] ally into play from your hand. Exhaust it and declare it the defender for this attack.",
+      "text": "Play only if your identity has the [[X-MEN]] trait.\n<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, put an [[X-MEN]] ally into play from your hand. Exhaust it and declare it the defender for this attack.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032017"
    },
    {
@@ -313,7 +325,7 @@
       "quantity": 2,
       "deck_limit": 2,
       "resource_wild": 1,
-      "text": "Max 2 per deck.\\n<b>Hero Interrupt</b>: When you spend this card to play a [[Defense]] event, draw 1 card.",
+      "text": "Max 2 per deck.\n<b>Hero Interrupt</b>: When you spend this card to play a [[Defense]] event, draw 1 card.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032018"
    },
    {
@@ -364,7 +376,7 @@
       "cost": 2,
       "resource_physical": "1",
       "traits": "Attack. Defense.",
-      "text": "Team-Up (Colossus and Shadowcat).\\nMax 1 per deck.\\n\\n<b>Hero Interrupt</b> <i>(attack/defense)</i>: When an enemy attacks, prevent all damage from that attack and deal 4 damage to the attacking enemy.",
+      "text": "Team-Up (Colossus and Shadowcat).\nMax 1 per deck.\n\n<b>Hero Interrupt</b> <i>(attack/defense)</i>: When an enemy attacks, prevent all damage from that attack and deal 4 damage to the attacking enemy.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032021"
    },
    {
@@ -413,6 +425,9 @@
       "faction_code": "hero",
       "set_code": "shadowcat",
       "type_code": "hero",
+      "meta": {
+			"colors": ["#a2238e", "#31225d", "#83c1ea", "#fffffd"]
+		},
       "name": "Shadowcat",
       "position": 30,
       "quantity": 1,
@@ -442,7 +457,7 @@
       "health": 9,
       "hand_size": "6",
       "traits": "Mutant.",
-      "text": "<b>Setup</b>: Put your mass form upgrade into play, Solid side faceup.\\n<i>Phase Control</i> \u2013 <b>Action</b>: Flip your mass form upgrade. (Limit once per round.)",
+      "text": "<b>Setup</b>: Put your mass form upgrade into play, Solid side faceup.\n<i>Phase Control</i> \u2013 <b>Action</b>: Flip your mass form upgrade. (Limit once per round.)",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032030"
    },
    {
@@ -453,12 +468,14 @@
       "set_code": "shadowcat",
       "type_code": "upgrade",
       "name": "Solid",
+      "permanent": true,
       "position": 31,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 1,
       "double_sided": true,
       "resource_physical": "1",
-      "text": "Mass form. Permanent.\\n<b>Hero Resource</b>: Exhaust this card \u2192 generate a [physical] resource for an [[attack]] or [[defense]] event.\\n<b>Response</b>: After you attack or defend in Solid mass form, flip this card.",
+      "text": "Mass form. Permanent.\n<b>Hero Resource</b>: Exhaust this card \u2192 generate a [physical] resource for an [[attack]] or [[defense]] event.\n<b>Response</b>: After you attack or defend in Solid mass form, flip this card.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032031"
    },
    {
@@ -467,13 +484,15 @@
       "faction_code": "hero",
       "set_code": "shadowcat",
       "type_code": "upgrade",
+      "hidden": true,
       "name": "Phased",
       "position": 31,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 1,
       "double_sided": true,
       "resource_mental": "1",
-      "text": "Mass form. Permanent.\\nWhile Shadowcat is defending, she cannot take damage.\\n<b>Forced Response</b>: After you attack or defend in Phased mass form, flip this card.",
+      "text": "Mass form. Permanent.\nWhile Shadowcat is defending, she cannot take damage.\n<b>Forced Response</b>: After you attack or defend in Phased mass form, flip this card.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032031"
    },
    {
@@ -484,6 +503,7 @@
       "type_code": "ally",
       "name": "Lockheed",
       "position": 32,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 2,
       "is_unique": true,
@@ -493,7 +513,7 @@
       "health": 2,
       "resource_wild": 1,
       "traits": "Dragon. X-Men.",
-      "text": "<b>Response</b>: After Lockheed enters play, if you are in:\\n\u2022 Solid mass form, deal 2 damage to an enemy.\\n\u2022 Phased mass form, remove 2 threat from a scheme.",
+      "text": "<b>Response</b>: After Lockheed enters play, if you are in:\n\u2022 Solid mass form, deal 2 damage to an enemy.\n\u2022 Phased mass form, remove 2 threat from a scheme.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032032"
    },
    {
@@ -504,13 +524,14 @@
       "type_code": "support",
       "name": "Kitty's Room",
       "position": 33,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 3,
       "is_unique": true,
       "cost": 1,
       "resource_physical": "1",
       "traits": "Location.",
-      "text": "<b>Alter-Ego Action</b>: Exhaust Kitty's Room \u2192 if you are in:\\n\u2022 Solid mass form, heal 2 damage from Kitty Pryde.\\n\u2022 Phased mass form, draw 1 card.",
+      "text": "<b>Alter-Ego Action</b>: Exhaust Kitty's Room \u2192 if you are in:\n\u2022 Solid mass form, heal 2 damage from Kitty Pryde.\n\u2022 Phased mass form, draw 1 card.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032033"
    },
    {
@@ -521,6 +542,7 @@
       "type_code": "upgrade",
       "name": "Acute Control",
       "position": 34,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 4,
       "cost": 1,
@@ -537,6 +559,7 @@
       "type_code": "upgrade",
       "name": "Intangible Interference",
       "position": 35,
+      "deck_limit": 1,
       "quantity": 1,
       "set_position": 5,
       "cost": 1,
@@ -553,12 +576,13 @@
       "type_code": "upgrade",
       "name": "Phased and Confused",
       "position": 36,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 6,
       "cost": 3,
       "resource_mental": "1",
       "traits": "Condition.",
-      "text": "Hero form only. Attach to an enemy. Max 1 per enemy.\\n<b>Forced Interrupt</b>: When attached enemy would attack, discard this card insted. Then, confuse that enemy.",
+      "text": "Hero form only. Attach to an enemy. Max 1 per enemy.\n<b>Forced Interrupt</b>: When attached enemy would attack, discard this card insted. Then, confuse that enemy.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032036"
    },
    {
@@ -569,6 +593,7 @@
       "type_code": "event",
       "name": "Shadowcat Surprise",
       "position": 37,
+      "deck_limit": 3,
       "quantity": 3,
       "set_position": 8,
       "cost": 2,
@@ -585,6 +610,7 @@
       "type_code": "event",
       "name": "Phase Strike",
       "position": 38,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 11,
       "cost": 3,
@@ -601,6 +627,7 @@
       "type_code": "event",
       "name": "Airwalk",
       "position": 39,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 13,
       "cost": 1,
@@ -617,12 +644,13 @@
       "type_code": "event",
       "name": "Quick Shift",
       "position": 40,
+      "deck_limit": 2,
       "quantity": 2,
       "set_position": 15,
       "cost": 0,
       "resource_energy": 1,
       "traits": "Defense. Superpower.",
-      "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, if you are in:\\n\u2022 Solid mass form, change to Phased mass form.\\n\u2022 Phased mass form, draw 2 cards.",
+      "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, if you are in:\n\u2022 Solid mass form, change to Phased mass form.\n\u2022 Phased mass form, draw 2 cards.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032040"
    },
    {
@@ -642,7 +670,7 @@
       "health": 4,
       "resource_physical": "1",
       "traits": "X-Men.",
-      "text": "[star] Wolverine's attacks gain piercing.\\n<b>Response</b>: After your turn begins, heal 1 damage from Wolverine.",
+      "text": "[star] Wolverine's attacks gain piercing.\n<b>Response</b>: After your turn begins, heal 1 damage from Wolverine.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032041"
    },
    {
@@ -677,7 +705,7 @@
       "cost": 1,
       "resource_physical": "1",
       "traits": "Training.",
-      "text": "Attach to an [[X-MEN]] ally. Max 1 [[Training]] upgrade per ally.\\nAttached ally gets +1 ATK and +2 hit points.",
+      "text": "Attach to an [[X-MEN]] ally. Max 1 [[Training]] upgrade per ally.\nAttached ally gets +1 ATK and +2 hit points.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032043"
    },
    {
@@ -692,7 +720,7 @@
       "cost": 0,
       "resource_mental": "1",
       "traits": "Condition.",
-      "text": "Attach to a minion.\\nAttached minion gets +2 hit points and gains patrol.\\n<b>Interrupt</b>: When attached minion is defeated, remove 4 threat from the main scheme.",
+      "text": "Attach to a minion.\nAttached minion gets +2 hit points and gains patrol.\n<b>Interrupt</b>: When attached minion is defeated, remove 4 threat from the main scheme.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032044"
    },
    {
@@ -707,7 +735,7 @@
       "cost": 1,
       "resource_energy": 1,
       "traits": "Attack.",
-      "text": "Play only if your identity has the [[X-MEN]] trait.\\n<b>Hero Action</b> <i>(attack)</i>: Exhaust your hero and any number of [[X-MEN]] allies \u2192 deal X damage among enemies in play, where X is the total ATK of the characters you exhausted this way.",
+      "text": "Play only if your identity has the [[X-MEN]] trait.\n<b>Hero Action</b> <i>(attack)</i>: Exhaust your hero and any number of [[X-MEN]] allies \u2192 deal X damage among enemies in play, where X is the total ATK of the characters you exhausted this way.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032045"
    },
    {
@@ -735,7 +763,7 @@
       "quantity": 2,
       "deck_limit": 2,
       "resource_wild": 1,
-      "text": "Max 2 per deck.\\n<b>Hero Interrupt</b>: When you spend this card to play a [[Attack]] event, that event deals 1 additional damage.",
+      "text": "Max 2 per deck.\n<b>Hero Interrupt</b>: When you spend this card to play a [[Attack]] event, that event deals 1 additional damage.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032047"
    },
    {
@@ -754,7 +782,7 @@
       "health": 3,
       "resource_physical": "1",
       "traits": "X-Men.",
-      "text": "Reduce the cost to play Colossus by 1 if your identity has the [[MUTANT]] or [[X-MEN]] trait.\\nToughness.",
+      "text": "Reduce the cost to play Colossus by 1 if your identity has the [[MUTANT]] or [[X-MEN]] trait.\nToughness.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032048"
    },
    {
@@ -792,7 +820,7 @@
       "cost": 1,
       "resource_energy": 1,
       "traits": "Condition.",
-      "text": "Play under any player's control.\\nMax 1 per_player.\\n<b>Hero Response</b>: After you change form, discard this card \u2192 ready your hero.",
+      "text": "Play under any player's control.\nMax 1 per_player.\n<b>Hero Response</b>: After you change form, discard this card \u2192 ready your hero.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032051"
    },
    {
@@ -846,7 +874,7 @@
       "double_sided": true,
       "resource_mental": "1",
       "traits": "Persona.",
-      "text": "Permanent.\\nThe first player controls Metro P.D.",
+      "text": "Permanent.\nThe first player controls Metro P.D.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032171"
    },
    {
@@ -878,7 +906,7 @@
       "set_position": 2,
       "double_sided": true,
       "is_unique": true,
-      "scheme": 2,
+      "thwart": 2,
       "attack": 3,
       "health": 5,
       "resource_wild": 1,
@@ -977,7 +1005,7 @@
       "set_position": 5,
       "double_sided": true,
       "traits": "Condition.",
-      "text": "Attach to Magneto.\\nPermanent.",
+      "text": "Attach to Magneto.\nPermanent.",
       "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032175"
    },
    {
