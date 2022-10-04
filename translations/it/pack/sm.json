@@ -1,418 +1,443 @@
 [
-	{
-		"code": "27001a",
-		"flavor": "\"So I'm fighting a monster. Not the worst way for a teenage girl to spend her Friday evening.\"",
-		"name": "Ghost-Spider",
-		"text": "<i>Dizzying Reflexes</i> - <b>Response:</b> After you resolve an \"<b>Interrupt</b>\" or \"<b>Response</b>\" ability on an event, ready Ghost-Spider. (Limit once per phase.)",
-		"traits": "Web-Warrior."
-	},
-	{
-		"code": "27001b",
-		"flavor": "\"Time for the drum solo!\"",
-		"name": "Gwen Stacy",
-		"text": "<b>Action:</b> Choose to either shuffle Ticket to the Multiverse from your discard pile into your deck or ready George Stacy. (Limit once per round.)",
-		"traits": "Civilian."
-	},
-	{
-		"code": "27002",
-		"flavor": "\"I thought you'd at least TRY to put a fight.\"-Ghost-Spider",
-		"name": "Ghost Kick",
-		"text": "<b>Hero Response</b> <i>(attack)</i>: After Ghost-Spider uses a basic power, deal 6 damage to an enemy. (Max 1 per basic power use.)",
-		"traits": "Attack."
-	},
-	{
-		"code": "27003",
-		"name": "Parental Guidance",
-		"text": "<b>Alter-Ego Action</b>:\n- If George Stacy is in play, attach 1 event from your hand or discard pile facedown to George Stacy.\n- If George Stacy is not in play, search your deck and discard pile for him and add him to your hand. <i>(Shuffle.)</i>"
-	},
-	{
-		"code": "27004",
-		"flavor": "\"Life is most in-focus when the world is upside down.\"-Gwen Stacy",
-		"name": "Phantom Flip",
-		"text": "<b>Hero Response</b> <i>(thwart)</i>: After Ghost-Spider uses a basic power, remove 5 threat from a scheme. (Max 1 per basic power use.)",
-		"traits": "Thwart."
-	},
-	{
-		"code": "27005",
-		"name": "Pirouette and Punch",
-		"text": "<b>Hero Interrupt</b>: When a card is revealed from the encounter deck, deal damage to the villain equal to 1 more than the boost icons <i>([boost])</i> on that card. Cancel that card's \"<b>When Revealed</b>\" effects.",
-		"traits": "Skill."
-	},
-	{
-		"code": "27006",
-		"name": "Web Binding",
-		"text": "Requirement ([mental]). <i>(While paying for this card, spend the listed resources.)</i>\n<b>Hero Interrupt</b>: When an enemy would activate, cancel that activation. If a minion's activation was cancelled this way, deal 4 damage to that minion.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "27007",
-		"flavor": "\"Trust me, Ghost-Spider is not the problem.\"",
-		"name": "George Stacy",
-		"text": "Events attached to George Stacy may be played as if they were in your hand.\n<b>Action</b>: Exhaust George Stacy → attach 1 event from your hand facedown here (to a maximum of 3).",
-		"traits": "Persona."
-	},
-	{
-		"code": "27008",
-		"name": "Ticket to the Multiverse",
-		"text": "<b>Action</b>: Remove Ticket to the Multiverse from the game → discard your hand, shuffle your discard pile into your deck, draw up to your hand size, and ready each Ghost-Spider card you control.",
-		"traits": "Item."
-	},
-	{
-		"code": "27009",
-		"flavor": "\"These should come in handy.\"-Gwen Stacy",
-		"name": "Web-Bracelet",
-		"text": "<b>Hero Response</b>: After you resolve an \"<b>Interrupt</b>\" or \"<b>Response</b>\" ability on an event, exhaust Web-Bracelet → draw 1 card. (Max 1 per event.)",
-		"traits": "Item. Tech."
-	},
-	{
-		"code": "27010",
-		"flavor": "\"Maybe I am getting the hang of this superhero stuff.\"",
-		"name": "Silk",
-		"subname": "Cindy Moon",
-		"text": "<b>Response</b>: After you play Silk from your hand, if you control another [[Web-Warrior]] card, search the encounter deck for a treachery and discard it. <i>(Shuffle.)</i>",
-		"traits": "Web-Warrior."
-	},
-	{
-		"code": "27011",
-		"flavor": "\"Brooklyn doesn't like being run. We're wild like that.\"",
-		"name": "Spider-Man",
-		"subname": "Miles Morales",
-		"text": "<b>Response</b>: After you play Spider-Man from your hand, stun and confuse an enemy if you control at least 3 [[Web-Warrior]] cards.",
-		"traits": "Web-Warrior."
-	},
-	{
-		"code": "27012",
-		"flavor": "\"People need protection and help, and we're the only ones who can do it.\"",
-		"name": "Spider-UK",
-		"subname": "Billy Braddock",
-		"text": "<b>Interrupt</b>: When Spider-UK defends against an attack, deal damage to the attacking enemy equal to the number of [[Web-Warrior]] cards you control.",
-		"traits": "Web-Warrior."
-	},
-	{
-		"code": "27014",
-		"flavor": "\"Up high! Down low! Aww, too slow.\"-Ghost-Spider",
-		"name": "Jump Flip",
-		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When you would take any amount of damage, prevent 2 of that damage. If you paid for this card using a [energy] resource, remove 2 threat from the main scheme.",
-		"traits": "Defense."
-	},
-	{
-		"code": "27015",
-		"name": "Return the Favor",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Discard cards from the top of the encounter deck until you discard a treachery. Reveal that treachery → deal 5 damage to the villain.",
-		"traits": "Attack."
-	},
-	{
-		"code": "27016",
-		"flavor": "\"When I get outta here, you're gonna get it!\"",
-		"name": "What Doesn't Kill Me",
-		"text": "Requirement ([physical]) <i>(While paying for this card, spend the listed resources.)</i>\n<b>Hero Action</b>: Heal 2 damage from your hero → ready your hero."
-	},
-	{
-		"code": "27017",
-		"name": "Spider-Man",
-		"subname": "Hobie Brown",
-		"text": "Play only if you control a [[Web-Warrior]] card.\n<b>Interrupt</b>: When Spider-Man leaves play, discard the top 3 cards of the encounter deck. Deal damage to the villain equal to the number of boost icons <i>([boost])</i> discarded this way.",
-		"traits": "Web-Warrior."
-	},
-	{
-		"code": "27018",
-		"name": "Across the Spider-Verse",
-		"text": "Max 1 per deck.\n<b>Hero Action</b>: Exhaust a [[Web-Warrior]] card you control → search your discard pile  for a [[Web-Warrior]] ally and put it into play, then choose a player. That player may spend 3 resources of any type to repeat this ability."
-	},
-	{
-		"code": "27019",
-		"name": "Young Love",
-		"text": "Team-Up (Gwen Stacy and Miles Morales). Max 1 per deck.\n<b>Alter-Ego Action</b>: Heal 3 damage each from Gwen Stacy and Miles Morales."
-	},
-	{
-		"code": "27023",
-		"name": "Web of Life and Destiny",
-		"text": "Ignore this card's resource cost if your identity has the [[Web-Warrior]] trait.\n<b>Response</b>: After a [[Web-Warrior]] ally leaves play, choose a player → that player draws 1 card.",
-		"traits": "Location. Web-Warrior."
-	},
-	{
-		"code": "27024",
-		"name": "Plan B",
-		"text": "Play under any player's control. Max 1 per player.\n<b>Hero Action</b>: Exhaust Plan B and discard 1 random card from your hand → deal 2 damage to an enemy.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "27030a",
-		"name": "Spider-Man",
-		"text": "<i>Venom Blast</i> - <b>Special</b>: Deal 2 damage to an enemy. Stun that enemy.\n<i>Spider Camouflage</i> - <b>Special</b>: Give Spider-Man a tough status card. Confuse an enemy.",
-		"traits": "Champion. Web-Warrior."
-	},
-	{
-		"code": "27030b",
-		"flavor": "\"Once you've leaped from skyscrapers and fought off bad guys, everything else is a chore.\"",
-		"name": "Miles Morales",
-		"text": "<b>Response</b>: After you change to this form, shuffle 1 Spider-Man card from your discard pile into your deck.",
-		"traits": "Civilian."
-	},
-	{
-		"code": "27031",
-		"flavor": "\"I'm not above adding insult into injury.\" — Spider-Man",
-		"name": "Arachnobatics",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 2 damage to an enemy. If that enemy has a stun status card, deal 3 additional damage to it. If that enemy has a confuse status card, deal 3 additional damage to it.",
-		"traits": "Attack."
-	},
-	{
-		"code": "27032",
-		"flavor": "\"I didn't ask for this power, this...responsibility. But I won't let it go to waste.\" — Miles Morales",
-		"name": "Double Life",
-		"text": "Max 1 per round.\n<b>Action</b>: Change your form. If you paid for this card using a [physical] resource, ready your identity."
-	},
-	{
-		"code": "27033",
-		"flavor": "\"I can see that you're not happy to see me... or not see me?\" — Spider-Man",
-		"name": "Swing In",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 4 threat from a scheme. If you paid for this card using a [mental] resource, resolve Spider-Man's <i>\"Spider Camouflage\"</i> ability.",
-		"traits": "Thwart."
-	},
-	{
-		"code": "27034",
-		"flavor": "\"If that doesn't hold you, I know something that will.\" — Spider-Man",
-		"name": "Web-Shot",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. If you paid for this card using a [energy] resource, resolve Spider-Man's <i>\"Venom Blast\"</i> ability.",
-		"traits": "Attack."
-	},
-	{
-		"code": "27035",
-		"flavor": "\"I'm the man in the chair.\"",
-		"name": "Ganke Lee",
-		"text": "<b>Action</b>: Exhaust Ganke Lee → draw 1 card. If you are in hero form, choose and discard 1 card from your hand.",
-		"traits": "Persona."
-	},
-	{
-		"code": "27036",
-		"flavor": "\"I'm not proud of my past, but I don't regret it either. It brought me where I am today.\"",
-		"name": "Jefferson Davis",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Jefferson Davis → remove 1 threat from the scheme with the least threat.",
-		"traits": "Persona. S.H.I.E.L.D."
-	},
-	{
-		"code": "27037",
-		"name": "Power Within",
-		"text": "<b>Hero Response</b>: After your hero uses a basic power, discard Power Within → resolve Spider-Man's <i>\"Venom Blast\"</i> ability.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "27038",
-		"name": "Defense Mechanism",
-		"text": "<b>Hero Response</b>: After your hero uses a basic power, discard Defense Mechanism → resolve Spider-Man's <i>\"Spider Camouflage\"</i> ability.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "27039",
-		"name": "Web-Shooter",
-		"text": "Uses (3 web counters). <i>(Enters play with 3 counters. When those are gone, discard this card)</i>\n<b>Hero Resource</b>: Exhaust Web-Shooter and remove 1 web counter from it → generate a [wild] resource.",
-		"traits": "Item. Tech."
-	},
-	{
-		"code": "27040",
-		"name": "Monica Chang",
-		"text": "<b>Response</b>: After Monica Chang enters play, search your deck, hand and discard pile for a copy of Surveillance Team support and put it into play. Place 1 snoop counter on each Surveillance Team you control.",
-		"traits": "S.H.I.E.L.D."
-	},
-	{
-		"code": "27041",
-		"flavor": "\"You're the A-team? Really? How far down the list do you think they were when they settled on you guys?\"",
-		"name": "Spider-Woman",
-		"subname": "Jessica Drew",
-		"text": "Reduce the cost to play Spider-Woman by 1 for each confused enemy in play.",
-		"traits": "S.H.I.E.L.D. Web-Warrior."
-	},
-	{
-		"code": "27042",
-		"flavor": "\"This is now the jurisdiction of the Strategic Homeland Intervention, Enforcement, and Logistics Division!\"",
-		"name": "Homeland Intervention",
-		"text": "<b>Action</b>: Exhaust up to 3 [[S.H.I.E.L.D.]] cards you control and choose a scheme → remove 2 threat from that scheme for each card exhausted this way.",
-		"traits": "S.H.I.E.L.D. Tactic."
-	},
-	{
-		"code": "27043",
-		"name": "Global Logistics",
-		"text": "<b>Action</b>: Exhaust 1 [[S.H.I.E.L.D.]] card you control → look at the top 4 cards of a player deck or the encounter deck. Discard any number of those, and put the others on the top and/or bottom of that deck in any order.",
-		"traits": "S.H.I.E.L.D. Tactic."
-	},
-	{
-		"code": "27044",
-		"name": "Field Agent",
-		"text": "Uses (3 backup counters).\n<b>Hero Interrupt</b>: When a [[S.H.I.E.L.D.]] ally would take any amount of consequential damage, exhaust Field Agent and remove 1 backup counter from it → prevent 1 of that damage.",
-		"traits": "Persona. S.H.I.E.L.D."
-	},
-	{
-		"attack_text": "<b>Response</b>: After Agent 13 attacks or thwarts, choose a [[S.H.I.E.L.D.]] support → ready that support.",
-		"code": "27046",
-		"flavor": "\"I bear the scars of the past all over me. But there's more to me than that. I'm better now. Stronger. Wiser.\"",
-		"name": "Agent 13",
-		"subname": "Sharon Carter",
-		"traits": "S.H.I.E.L.D. Spy."
-	},
-	{
-		"code": "27047",
-		"name": "Dum Dum Dugan",
-		"text": "<b>Interrupt</b>: When you use one of Dum Dum Dugan's basic powers, exhaust up to 3 [[S.H.I.E.L.D.]] cards you control. For each card exhausted this way, Dum Dum Dugan gets +1 to that power for this use.",
-		"traits": "S.H.I.E.L.D."
-	},
-	{
-		"code": "27048",
-		"name": "Ghost-Spider",
-		"subname": "Gwen Stacy",
-		"text": "Play only if you control a [[Web-Warrior]] card.\n<b>Interrupt</b>: When Ghost-Spider leaves play, search your deck for an identity-specific event and add it to your hand. <i>(Shuffle.)</i>",
-		"traits": "Web-Warrior."
-	},
-	{
-		"code": "27049",
-		"flavor": "\"See, Miles, that's how you do it.\"",
-		"name": "Spider-Man",
-		"subname": "Peter Parker",
-		"text": "Requirement ([energy] [mental] [physical]). <i>(While paying for this card, spend the listed resources.)</i>\n<b>Response</b>: After Spider-Man attacks or thwarts, choose another [[Web-Warrior]] character → ready that character.",
-		"traits": "Web-Warrior."
-	},
-	{
-		"code": "27054",
-		"flavor": "\"I'll have my people contact your people.\"",
-		"name": "Government Liaison",
-		"text": "<b>Hero Action</b>: Exhaust Government Liaison → play a [[S.H.I.E.L.D.]] card from your hand, reducing its resource cost by 1.",
-		"traits": "Persona. S.H.I.E.L.D."
-	},
-	{
-		"code": "27055",
-		"flavor": "\"It's not often we deploy a Sky-Destroyer. But when we do, that's how you know the situation is about to get serious.\" — Nick Fury",
-		"name": "Sky-Destroyer",
-		"text": "<b>Response</b>: After you play a [[S.H.I.E.L.D.]] card, exhaust Sky-Destroyer → deal 2 damage to an enemy.",
-		"traits": "S.H.I.E.L.D. Vehicle."
-	},
-	{
-		"code": "27174a",
-		"name": "Public Outcry",
-		"traits": "Standard Mode Only."
-	},
-	{
-		"code": "27174b",
-		"name": "Public Outcry",
-		"traits": "Expert Mode Only."
-	},
-	{
-		"code": "27175",
-		"name": "Smear Campaign"
-	},
-	{
-		"code": "27176",
-		"name": "Back Alley Burglary"
-	},
-	{
-		"code": "27177",
-		"name": "Cat in a Tree"
-	},
-	{
-		"code": "27178",
-		"name": "Henchmen Heist"
-	},
-	{
-		"code": "27179",
-		"name": "Off the Rails"
-	},
-	{
-		"code": "27180",
-		"name": "Rubble Rescue"
-	},
-	{
-		"code": "27181",
-		"name": "Snitches Get Stitches"
-	},
-	{
-		"code": "27182a",
-		"name": "Compact Darts",
-		"traits": "S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27182b",
-		"name": "Compact Darts",
-		"traits": "Enhanced. S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27183a",
-		"name": "Impact-Dampening Suit",
-		"traits": "S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27183b",
-		"name": "Impact-Dampening Suit",
-		"traits": "Enhanced. S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27184a",
-		"name": "Laser Googles",
-		"traits": "S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27184b",
-		"name": "Laser Googles",
-		"traits": "Enhanced. S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27185a",
-		"name": "Propulsion Gauntlet",
-		"traits": "S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27185b",
-		"name": "Propulsion Gauntlet",
-		"traits": "Enhanced. S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27186a",
-		"name": "Retinal Display",
-		"traits": "S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27186b",
-		"name": "Retinal Display",
-		"traits": "Enhanced. S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27187a",
-		"name": "Shock Knuckles",
-		"traits": "S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27187b",
-		"name": "Shock Knuckles",
-		"traits": "Enhanced. S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27188a",
-		"name": "Wave Bracers",
-		"traits": "S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27188b",
-		"name": "Wave Bracers",
-		"traits": "Enhanced. S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27189a",
-		"name": "Wrist Navigators",
-		"traits": "S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27189b",
-		"name": "Wrist Navigators",
-		"traits": "Enhanced. S.H.I.E.L.D. Tech."
-	},
-	{
-		"code": "27190",
-		"name": "Venom",
-		"subname": "Eddie Brock",
-		"text": "<b>Response</b>: After you reveal an encounter card, deal 1 damage to Venom → deal damage to an enemy equal to the number of icons <i>([star] and [boost])</i> in that card's boost area.",
-		"traits": "Symbiote."
-	},
-	{
-		"code": "27191",
-		"name": "Symbiote Suit",
-		"text": "Max 1 per deck.\nYour identity gets +1 to each of its basic powers, +1 hand size, and +10 hit points.",
-		"traits": "Symbiote."
-	}
+    {
+        "code": "27001a",
+        "flavor": "\"Ok, sto combattendo con un mostro, no? Cioè, non è il peggior venerdì sera del mondo per un adolescente.\"",
+        "name": "Ghost-Spider",
+        "text": "<i>Riflessi Frastornanti</i> - <b>Risposta:</b> Dopo che hai risolto una capacità \"<b>Interruzione</b>\" o \"<b>Risposta</b>\" di un evento, ripristina Ghost-Spider. (Limite di una volta per fase.)",
+        "traits": "Web-Warrior."
+    },
+    {
+        "code": "27001b",
+        "flavor": "\"E' il momento dell'assolo di batteria!\"",
+        "name": "Gwen Stacy",
+        "text": "<b>Azione:</b> Scegli se mescolare Biglietto per il Multiverso dalla tua pila degli scarti nel tuo mazzo oppure ripristinare George Stacy. (Limite di una volta per round.)",
+        "traits": "Civile."
+    },
+    {
+        "code": "27002",
+        "flavor": "\"Pensavo che almeno avresti PROVATO a tenermi testa.\" — Ghost-Spider",
+        "name": "Calcio Fantasma",
+        "text": "<b>Risposta Eroe</b> <i>(attacco)</i>: Dopo che Ghost-Spider ha usato un potere base, infliggi 6 danni a un nemico. (Massimo 1 per uso di un potere base.)",
+        "traits": "Attacco."
+    },
+    {
+        "code": "27003",
+        "name": "Guida Genitoriale",
+        "text": "<b>Azione Alter Ego</b>:\n- Se George Stacy è in gioco, assegnali a faccia in giù 1 evento dalla tua mano o dalla tua pila degli scarti.\n- Se George Stacy non è in gioco, cercalo nel tuo mazzo e nella tua pila degli scarti e aggiungilo alla tua mano. <i>(Mescola.)</i>"
+    },
+    {
+        "code": "27004",
+        "flavor": "\"La vita ha più senso quando il mondo è a testa in giù.\" — Gwen Stacy",
+        "name": "Balzo Spettrale",
+        "text": "<b>Risposta Eroe</b> <i>(intervento)</i>: Dopo che Ghost-Spider ha usato un potere base, rimuovi 5 minacce da una trama. (Massimo 1 per uso di un potere base.)",
+        "traits": "Intervento."
+    },
+    {
+        "code": "27005",
+        "name": "Piroetta e Pugno",
+        "text": "<b>Interruzione Eroe</b>: Quando viene rivelata una carta dal mazzo degli incontri, infliggi al criminale un ammontare di danni pari al numero di icone potenziamento <i>([boost])</i> su quella carta +1. Annulla gli effetti \"<b>Quando rivelata</b>\" di quella carta.",
+        "traits": "Abilità."
+    },
+    {
+        "code": "27006",
+        "name": "Invischiato Nella Ragnatela",
+        "text": "Requisito ([mental]). <i>(Mentre paghi per questa carta, spendi le risorse indicate.)</i>\n<b>Interruzione Eroe</b>: Quando un nemico sta per attivarsi, annulla quell'attivazione. Se è stata annullata l'attivazione di un gregario in questo modo, infliggi 4 danni a quel gregario.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "27007",
+        "flavor": "\"Fidati di me: il problema non è Ghost-Spider.\"",
+        "name": "George Stacy",
+        "text": "Puoi giocare gli eventi assegnati a George Stacy come se fossero nella tua mano.\n<b>Azione</b>: Esaurisci George Stacy → assegna a faccia in giù a questa carta 1 evento dalla tua mano (fino ad un massimo di 3).",
+        "traits": "Persona."
+    },
+    {
+        "code": "27008",
+        "name": "Biglietto Per il Multiverso",
+        "text": "<b>Azione</b>: Rimuovi dal gioco Biglietto per il Mutiverso → scarta la tua mano, mescola la tua pila degli scarti nel tuo mazzo, pesca fino al tuo limite di mano e ripristina ogni carta del set Ghost-Spider che controlli. ",
+        "traits": "Oggetto."
+    },
+    {
+        "code": "27009",
+        "flavor": "\"Questi potrebbero rivelarsi utili.\" — Gwen Stacy",
+        "name": "Braccialetto Lancia-Ragnatele",
+        "text": "<b>Risposta Eroe</b>: Dopo che hai risolto una capacità \"<b>Interruzione</b>\" o \"<b>Risposta</b>\" di un evento, esaurisci Braccialetto Lancia-Ragnatele → pesca 1 carta. (Massimo 1 per evento.)",
+        "traits": "Oggetto.Tecnologia."
+    },
+    {
+        "code": "27010",
+        "flavor": "\"Forse sto cominciando a prenderci la mano con questa roba da supereroina.\"",
+        "name": "Silk",
+        "text": "<b>Risposta</b>: Dopo che hai giocato Silk dalla tua mano, se controlli altre carte [[Web-Warrior]], cerca nel mazzo degli incontri 1 insidia e scartala. <i>(Mescola.)</i>",
+        "traits": "Web-Warrior.",
+        "subname": "Cindy Moon"
+    },
+    {
+        "code": "27011",
+        "flavor": "\"A Brooklyn non piacciono i padroni. Siamo gente così, selvatica.\"",
+        "name": "Spider-Man",
+        "text": "<b>Risposta</b>: Dopo che hai giocato Spider-Man dalla tua mano, se controlli 3 o più carte [[Web-Warrior]], stordisci e confondi 1 nemico.",
+        "traits": "Web-Warrior.",
+        "subname": "Miles Morales"
+    },
+    {
+        "code": "27012",
+        "flavor": "\"La gente ha bisogno di protezione e aiuto, e siamo gli unici che possono offrirlo.\"",
+        "name": "Spider-UK",
+        "text": "<b>Interruzione</b>: Quando Spider-UK difende da un attacco, infliggi al nemico attaccante un ammontare di danni pari al numero di carte [[Web-Warrior]] che controlli.",
+        "traits": "Web-Warrior.",
+        "subname": "Billy Braddock"
+    },
+    {
+        "code": "27014",
+        "flavor": "\"In alto! In basso! Peccato... troppo lento.\" — Ghost-Spider",
+        "name": "Salto Mortale",
+        "text": "<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando stai per subire un quasiasi ammontare di danni, previeni 2 di quei danni. Se hai pagato questa carta usando una [energy], rimuovi 2 minacce dalla trama principale.",
+        "traits": "Difesa."
+    },
+    {
+        "code": "27015",
+        "name": "Restituire il Favore",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Scarta carte dalla cima del mazzo degli incontri finché non scarti 1 insidia. Rivela quell'insidia → stordisci un totale di 2 volte fino a 2 nemici.",
+        "traits": "Attacco."
+    },
+    {
+        "code": "27016",
+        "flavor": "\"Fammi uscire da qui, che ti faccio vedere io!\"",
+        "name": "Ciò Che Non Mi Uccide",
+        "text": "Requisito ([physical]) <i>(Mentre paghi per questa carta, spendi le risorse indicate.)</i>\n<b>Azione Eroe</b>: Cura 2 danni al tuo eroe → ripristina il tuo eroe."
+    },
+    {
+        "code": "27017",
+        "name": "Spider-Man",
+        "text": "Gioca solo se controlli carte [[Web-Warrior]].\n<b>Interruzione</b>: Quando Spider-Man esce dal gioco, scarta 3 carte dalla cima del mazzo degli incontri. Infliggi al criminale un ammontare di danni pari al numero di icone potenziamento <i>([boost])</i> scartate in questo modo.",
+        "traits": "Web-Warrior.",
+        "subname": "Hobie Brown"
+    },
+    {
+        "code": "27018",
+        "name": "Attraverso il Ragnoverso",
+        "text": "Massimo 1 per mazzo.\n<b>Azione Eroe</b>: Esaurisci 1 carta [[Web-Warrior]] che controlli → cerca nella tua pila degli scarti 1 alleato [[Web-Warrior]] e mettilo in gioco, poi scegli 1 giocatore. Quel giocatore può spendere 3 risorse di qualsiasi tipo per ripetere questa capacità."
+    },
+    {
+        "code": "27019",
+        "name": "Primo Amore",
+        "text": "Team-Up (Gwen Stacy e Miles Morales). Massimo 1 per mazzo.\n<b>Azione Alter Ego</b>: Cura 3 danni a Gwen Stacy e 3 danni a Miles Morales."
+    },
+    {
+        "code": "27023",
+        "name": "Ragnatela della Vita e del Destino",
+        "text": "Se la tua identità possiede il tratto [[Web-Warrior]], ignora il costo in risorse di questa carta.\n<b>Risposta</b>: Dopo che un alleato [[Web-Warrior]] è uscito dal gioco, scegli 1 giocatore → quel giocatore pesca 1 carta.",
+        "traits": "Luogo. Web-Warrior."
+    },
+    {
+        "code": "27024",
+        "name": "Piano B",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\n<b>Azione Eroe</b>: Esaurisci Piano B e scarta 1 carta casuale dalla tua mano → infliggi 2 danni a un nemico.",
+        "traits": "Tattica."
+    },
+    {
+        "code": "27030a",
+        "name": "Spider-Man",
+        "text": "<i>Scarica di Veleno</i> - <b>Speciale</b>: Infliggi 2 danni a un nemico. Stordisci quel nemico.\n<i>Mimetismo da Ragno</i> - <b>Speciale</b>: Irrobustisci Spider-Man. Confondi 1 nemico.",
+        "traits": "Champion. Web-Warrior."
+    },
+    {
+        "code": "27030b",
+        "flavor": "\"Una volta che sei saltato giù da un grattacielo e hai preso a calci qualche cattivone, tutto il resto sembra solo una rottura.\"",
+        "name": "Miles Morales",
+        "text": "<b>Risposta</b>: Dopo che hai assunto questa sembianza, mescola nel tuo mazzo 1 carta dal set Spider-Man dalla tua pila degli scarti.",
+        "traits": "Civile."
+    },
+    {
+        "code": "27031",
+        "flavor": "\"Aggiungere il danno alla beffa? Sì, direi che è nel mio stile.\" — Spider-Man",
+        "name": "Aracnobazie",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 2 danni a un nemico. Se quel nemico possiede carta status Stordito, infliggigli 3 danni aggiuntivi. Se quel nemico possiede carte status Confuso, infliggigli 3 danni aggiuntivi.",
+        "traits": "Attacco."
+    },
+    {
+        "code": "27032",
+        "flavor": "\"Non ho chiesto io questo potere, questa... responsabilità. Ma non intendo sprecarlo.\" — Miles Morales",
+        "name": "Doppia Vita",
+        "text": "Massimo 1 per round.\n<b>Azione</b>: Cambia la tua sembianza. Se hai pagato questa carta usando [physical], ripristina la tua identità."
+    },
+    {
+        "code": "27033",
+        "flavor": "\"Posso intuire che tu non sia contento di vedermi... o di non vedermi.\" — Spider-Man",
+        "name": "Entrata Oscillante",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 4 minacce da una trama. Se hai pagato questa carta usando una [mental], risolvi la capacità <i>\"Mimetismo da Ragno\"</i> di Spider-Man.",
+        "traits": "Intervento."
+    },
+    {
+        "code": "27034",
+        "flavor": "\"Se questo non ti fermerà, ho in mente qualcos'altro che potrebbe riuscirci.\" — Spider-Man",
+        "name": "Getto di Ragnatela",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>:Infliggi 4 danni a un nemico. Se hai pagato questa carta usando una [energy], risolvi la capacità <i>\"Scarica di Veleno\"</i> di Spider-Man.",
+        "traits": "Attacco."
+    },
+    {
+        "code": "27035",
+        "flavor": "\"Sono il tipo sulla sedia.\"",
+        "name": "Ganke Lee",
+        "text": "<b>Azione</b>: Esaurisci Ganke Lee → pesca 1 carta. Se sei nella sembianza di eroe, scegli e scarta 1 carta dalla tua mano.",
+        "traits": "Persona."
+    },
+    {
+        "code": "27036",
+        "flavor": "\"Non vado fiero del mio passato, ma nemmeno me ne pento. E' grazie al mio passato che sono qui dove sono oggi.\"",
+        "name": "Jefferson Davis",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Jefferson Davis → rimuovi 1 minaccia dalla trama con meno minacce.",
+        "traits": "Persona. S.H.I.E.L.D."
+    },
+    {
+        "code": "27037",
+        "name": "Potere Interiore",
+        "text": "<b>Risposta Eroe</b>: Dopo che il tuo eroe ha usato un potere base, scarta Potere Interiore → risolvi la capacità <i>\"Scarica di Veleno\"</i> di Spider-Man.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "27038",
+        "name": "Meccanismo Difensivo",
+        "text": "<b>Risposta Eroe</b>: Dopo che il tuo eroe ha usato un potere base, scarta Meccanismo Difensivo → risolvi la capacità <i>\"Mimetismo da Ragno\"</i> di Spider-Man.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "27039",
+        "name": "Lancia-Ragnatele",
+        "text": "Utilizzo (3 gettoni ragnatela). <i>(Entra in gioco con 3 gettoni. Quando finiscono, scarta questa carta.)</i>\n<b>Risorsa Eroe</b>: Esaurisci Lancia-Ragnatele e rimuovi 1 gettone ragnatela da esso → genera [wild].",
+        "traits": "Oggetto. Tecnologia."
+    },
+    {
+        "code": "27040",
+        "name": "Monica Chang",
+        "text": "<b>Risposta</b>: Dopo che Monica Chang è entrata in gioco, cerca nel tuo mazzo, nella tua mano e nella tua pila degli scarti 1 supporto Squadra di Sorveglianza e mettilo in gioco. Colloca 1 gettone pedinamento su ogni Squadra di Sorveglianza che controlli.",
+        "traits": "S.H.I.E.L.D."
+    },
+    {
+        "code": "27041",
+        "flavor": "\"Voi sareste la squadra migliore? Sul serio? Dovevano essere parecchio in basso sulla lista per essersi accontentati di voi.\"",
+        "name": "Spider-Woman",
+        "text": "Riduci di 1 il costo per giocare Spider-Woman per ogni nemico confuso in gioco.",
+        "traits": "S.H.I.E.L.D. Web-Warrior.",
+        "subname": "Jessica Drew"
+    },
+    {
+        "code": "27042",
+        "flavor": "\"Da questo momento siete sotto la giurisdizione dello Strategic Homeland Intervention Enforcement and Logistics Division!\"",
+        "name": "Intervento in Patria",
+        "text": "<b>Azione</b>: Esaurisci fino a 3 carte [[S.H.I.E.L.D.]] che controlli e scegli 1 trama → rimuovi 2 minacce da quella trama per ogni carta esaurita in questo modo.",
+        "traits": "S.H.I.E.L.D. Tattica."
+    },
+    {
+        "code": "27043",
+        "name": "Logistica Globalizzata",
+        "text": "<b>Azione</b>: Esaurisci 1 carta [[S.H.I.E.L.D.]] che controlli → guarda 4 carte dalla cima del mazzo di un giocatore o dalla cima del mazzo degli incontri. Scartane un qualsiasi numero, poi colloca le altre in cima e/o in fondo a quel mazzo nell'ordine che preferisci.",
+        "traits": "S.H.I.E.L.D. Tattica."
+    },
+    {
+        "code": "27044",
+        "name": "Agente sul Campo",
+        "text": "Utilizzo (3 gettoni rinforzo).\n<b>Interruzione Eroe</b>: Quando un alleato [[S.H.I.E.L.D.]] sta per subire un qualsiasi ammontare di danni conseguenti, esaurisci Agente sul Campo e rimuovi 1 gettone rinforzi da esso → previeni 1 di quei danni.",
+        "traits": "Persona. S.H.I.E.L.D."
+    },
+    {
+        "code": "27046",
+        "flavor": "\"Porto su di me le cicatrici del passato, ma non sono solo questo. Adesso sono una persona migliore. Più forte. Più saggia.\"",
+        "name": "Agente 13",
+        "traits": "S.H.I.E.L.D. Spia.",
+        "subname": "Sharon Carter",
+        "attack_text": "<b>Risposta</b>: Dopo che Agente 13 ha attaccato o è intervenuta, scegli 1 supporto [[S.H.I.E.L.D.]] → ripristina quel supporto."
+    },
+    {
+        "code": "27047",
+        "name": "Dum Dum Dugan",
+        "text": "<b>Interruzione</b>: Quando usi un potere base di Dum Dum Dugan, esaurisci fino a 3 carte [[S.H.I.E.L.D.]] che controlli. Per ogni carta esaurita in questo modo, Dum Dum Dugan riceve +1 a quel potere oer questo uso.",
+        "traits": "S.H.I.E.L.D."
+    },
+    {
+        "code": "27048",
+        "name": "Ghost-Spider",
+        "text": "Gioca solo se controlli carte [[Web-Warrior]].\n<b>Interruzione</b>: Quando Ghost-Spider esce dal gioco, cerca nel tuo mazzo 1 evento specifico di identità e aggiungilo alla tua mano. <i>(Mescola.)</i>",
+        "traits": "Web-Warrior.",
+        "subname": "Gwen Stacy"
+    },
+    {
+        "code": "27049",
+        "flavor": "\"Vedi Miles? Ecco come si fa.\"",
+        "name": "Spider-Man",
+        "text": "Requisito ([energy] [mental] [physical]). <i>(Mentre paghi per questa carta, spendi le risorse indicate.)</i>\n<b>Risposta</b>: Dopo che Spider-Man ha attaccato o è intervenuto, scegli 1 altro personaggio [[Web-Warrior]] → ripristina quel personaggio.",
+        "traits": "Web-Warrior.",
+        "subname": "Peter Parker"
+    },
+    {
+        "code": "27054",
+        "flavor": "\"Farò in modo che i miei contattino i tuoi.\"",
+        "name": "Intermediario Governativo",
+        "text": "<b>Azione Eroe</b>: Esaurisci Intermediario Governativo → gioca 1 carta [[S.H.I.E.L.D.]] dalla tua mano, riducendo di 1 il suo costo in risorse.",
+        "traits": "Persona. S.H.I.E.L.D."
+    },
+    {
+        "code": "27055",
+        "flavor": "\"Non dispieghiamo spesso lo Sky-Destroyer. Ma quando lo facciamo, puoi star certo che la situazione sta per farsi seria.\" — Nick Fury",
+        "name": "Sky-Destroyer",
+        "text": "<b>Risposta</b>: Dopo che hai giocato una carta [[S.H.I.E.L.D.]], esaurisci Sky-Destroyer → infliggi 2 danni a un nemico.",
+        "traits": "S.H.I.E.L.D. Veicolo."
+    },
+    {
+        "code": "27174a",
+        "name": "Indignazione Pubblica",
+        "text": "Vittoria 1. Utilizzo (2 [per_player] gettoni fama).\n<b>Risposta:</b> Dopo che un gregario o una trama secondaria sono stati sconfitti, rimuovi 1 gettone fama da questa carta.",
+        "traits": "Solo Modalità Standard."
+    },
+    {
+        "code": "27174b",
+        "name": "Indignazione Pubblica",
+        "text": "Vittoria 1. Utilizzo (3 [per_player] gettoni fama).\n<b>Risposta:</b> Dopo che un gregario o una trama secondaria sono stati sconfitti, rimuovi 1 gettone fama da questa carta.",
+        "traits": "Solo Modalità Esperto."
+    },
+    {
+        "code": "27175",
+        "name": "Campagna di Diffamazione",
+        "text": "In modalità esperto, questa carta ottiene Impulso.\n<b>Quando Rivelata:</b> Se Indignazione Pubblica è in gioco, colloca 2 gettoni fama su di essa, poi rimuovi dal gioco questa carta. Se Indignazione Pubblica non è in gioco, colloca 2 minacce sulla trama principale."
+    },
+    {
+        "code": "27176",
+        "name": "Rapina nel Vicolo",
+        "text": "Impulso. Vittoria 1. <i>Quando questa carta è sconfitta, collocala nella galleria delle vittorie.)</i>\n<b>Risposta Obbligata:</b> Dopo che sei intervenuto su questa trama, scegli se spendere [physical] oppure scartare 1 carta casuale dalla tua mano."
+    },
+    {
+        "code": "27177",
+        "name": "Gatto sull'Albero",
+        "text": "Impulso. Vittoria 1. <i>Quando questa carta è sconfitta, collocala nella galleria delle vittorie.)</i>\nCome costo aggiuntivo per intervenire su questa trama, subisci 2 danni indiretti."
+    },
+    {
+        "code": "27178",
+        "name": "Rapina degli Scagnozzi",
+        "text": "Impulso. Vittoria 1. <i>Quando questa carta è sconfitta, collocala nella galleria delle vittorie.)</i>\n<b>Risposta Obbligata:</b> Dopo che un qualsiasi ammontare di minacce è stato rimosso da questa trama, colloca un pari ammontare di minacce sulla trama principale."
+    },
+    {
+        "code": "27179",
+        "name": "Deragliamento",
+        "text": "Impulso. Vittoria 1. <i>Quando questa carta è sconfitta, collocala nella galleria delle vittorie.)</i>\n<b>Interruzione Obbligata:</b> Quando la Fase del Criminale inizia, colloca 1 gettone velocità su questa carta. Se ci sono 2 o più gettoni velocità su questa carta, rimuovi dal gioco questa carta e scarta 3 carte dalla cima del mazzo di ogni giocatore."
+    },
+    {
+        "code": "27180",
+        "name": "Salvataggio tra le Macerie",
+        "text": "Impulso. Vittoria 1. <i>Quando questa carta è sconfitta, collocala nella galleria delle vittorie.)</i>\n<b>Interruzione:</b> Quando un personaggio effettua un intervento base su questa trama secondaria, quel personaggio può usare il suo ATT invece del suo INT."
+    },
+    {
+        "code": "27181",
+        "name": "Schiaffoni Agli Spioni",
+        "text": "Vittoria -1. Assegna a Venom (Eddie Brock). Se non puoi farlo, questa carta ottiene Impulso.\n<b>Interruzione Obbligata:</b> Quando un criminale attacca, attacca Venom. Se quell'attacco sconfigge Venom, aggiungi Venom e questa carta alla galleria delle vittorie.\n<b>Azione:</b> Esaurisci Venom e spendi 2 risorse dello stesso tipo → scarta questa carta."
+    },
+    {
+        "code": "27182a",
+        "name": "Dardi Compatti",
+        "text": "Permanente. Preparazione.\n<b>Risposta Eroe:</b> Dopo che il tuo eroe ha attaccato, rimuovi 1 gettone dardo da questa carta → infliggi 1 danno a un nemico.\n<b>Azione Alter Ego:</b> Spendi 1 risorsa di qualsiasi tipo → colloca 3 gettoni dardo su questa carta. (Limite di una volta per round.)",
+        "traits": "S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27182b",
+        "name": "Dardi Compatti",
+        "text": "Permanente.\n<b>Risposta Eroe:</b> Dopo che il tuo eroe ha attaccato, rimuovi 1 gettone dardo da questa carta → infliggi 1 danno a un massimo di 2 nemici diversi.\n<b>Azione Alter Ego:</b> Spendi 1 risorsa di qualsiasi tipo → colloca 3 gettoni dardo su questa carta. (Limite di una volta per round.)",
+        "traits": "Potenziato. S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27183a",
+        "name": "Tuta Smorzante",
+        "text": "Permanente. Preparazione.\nLa tua identità riceve +2 punti ferita.\n<b>Interruzione Eroe:</b> Quando la Fase del Criminale inizia, spendi 1 risorsa di qualsiasi tipo → fino alla fine della fase, riduci di 1 l'ammontare di danni subiti dal tuo eroe da ogni attacco nemico.",
+        "traits": "S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27183b",
+        "name": "Tuta Smorzante",
+        "text": "Permanente.\nLa tua identità riceve +3 punti ferita.\n<b>Interruzione Eroe:</b> Quando il tuo eroe sta per subire un qualsiasi ammontare di danni da un attacco nemico, scarta 1 carta dalla cima del tuo mazzo → previeni 1 di quei danni.",
+        "traits": "Potenziato. S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27184a",
+        "name": "Visori Laser",
+        "text": "Permanente. Preparazione.\nIl tuo eroe riceve -1 INT.\nIl tuo eroe riceve +1 ATT e gli attacchi base del tuo eroe ottengono Sopraffazione.",
+        "traits": "S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27184b",
+        "name": "Visori Laser",
+        "text": "Permanente.\nIl tuo eroe riceve -1 INT.\nIl tuo eroe riceve +2 ATT e gli attacchi base del tuo eroe ottengono Perforante e Sopraffazione.",
+        "traits": "Potenziato. S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27185a",
+        "name": "Guanti a Propulsione",
+        "text": "Permanente. Preparazione.\n<b>Azione Eroe:</b> Esaurisci Guanti a Propulsione e subisci 2 danni indiretti → ripristina il tuo eroe.",
+        "traits": "S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27185b",
+        "name": "Guanti a Propulsione",
+        "text": "Permanente.\n<b>Azione Eroe:</b> Esaurisci Guanti a Propulsione e subisci 2 danni indiretti → ripristina il tuo eroe. Il tuo eroe riceve +1 INT, +1 ATT e +1 DIF fino alla fine della fase.",
+        "traits": "Potenziato. S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27186a",
+        "name": "Display Retinico",
+        "text": "Permanente. Preparazione.\nIl potere di intervento base <i>(INT)</i> del tuo eroe può rimuovere minacce solo dalla trama con più minacce.\nIl tuo eroe riceve +1 INT e gli interventi base del tuo eroe ignorano l'icona crisi <i>([crysis]</i>.",
+        "traits": "S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27186b",
+        "name": "Display Retinico",
+        "text": "Permanente.\nIl potere di intervento base <i>(INT)</i> del tuo eroe può rimuovere minacce solo dalla trama con più minacce.\nIl tuo eroe riceve +2 INT e gli interventi base del tuo eroe ignorano l'icona crisi <i>([crysis]</i> e la parola chiave Pattuglia.",
+        "traits": "Potenziato. S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27187a",
+        "name": "Pugni Elettrizzati",
+        "text": "Permanente. Preparazione.\n<b>Azione Eroe:</b> Dopo che il tuo eroe ha effettuato un attacco base contro un nemico, scarta 1 carta dalla cima del mazzo incontri. Se non sono state scartate icone potenziamento <i>([boost])</i> in questo modo, stordisci quel nemico.",
+        "traits": "S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27187b",
+        "name": "Pugni Elettrizzati",
+        "text": "Permanente.\nIl tuo eroe riceve +1 ATT.\n<b>Risposta Eroe:</b> Dopo che il tuo eroe ha effettuato un attacco base contro un nemico, scarta 1 carta dalla cima del mazzo degli incontri. Se 1 o meno icone potenziamento <i>([boost]</i> sono state scartate in questo modo, stordisci quel nemico.",
+        "traits": "Potenziato. S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27188a",
+        "name": "Bracciali a Onde",
+        "text": "Permanente. Preparazione.\nIl tuo eroe riceve -1 ATT.\nIl tuo eroe riceve +1 DIF e ottiene Ritorsione 1 e Tempra.",
+        "traits": "S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27188b",
+        "name": "Bracciali a Onde",
+        "text": "Permanente.\nIl tuo eroe riceve -1 ATT.\nIl tuo eroe riceve +2 DIF e ottiene Ritorsione 1 e Stabile.",
+        "traits": "Potenziato. S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27189a",
+        "name": "Navigatore da Polso",
+        "text": "Permanente. Preparazione.\n<b>Risposta Obblitato:</b> Dopo che un gregario o una trama secondaria sono entrati in gioco, assegna Navigatore da Polso a quella carta.\n<b>Interruzione:</b> Quando la carta con questa miglioria è sconfitta, pesca 1 carta.",
+        "traits": "S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27189b",
+        "name": "Navigatore da Polso",
+        "text": "Permanente.\n<b>Risposta Obblitato:</b> Dopo che un gregario o una trama secondaria sono entrati in gioco, assegna Navigatore da Polso a quella carta.\n<b>Interruzione:</b> Quando la carta con questa miglioria è sconfitta, pesca 2 carte, poi scarta 1 carta dalla tua mano.",
+        "traits": "Potenziato. S.H.I.E.L.D. Tecnologia."
+    },
+    {
+        "code": "27190",
+        "name": "Venom",
+        "text": "<b>Risposta</b>: Dopo che hai rivelato una carta incontro, infliggi 1 danno a Venom → infliggi un ammontare di danni a un nemico pari al numero di icone <i>([star] and [boost])</i> nel campo di potenziamento di quella carta.",
+        "traits": "Simbionte.",
+        "subname": "Eddie Brock"
+    },
+    {
+        "code": "27191",
+        "name": "Tuta Simbiotica",
+        "text": "Massimo 1 per mazzo.\nLa tua identità riceve +1 a ognuno dei suoi poteri base, +1 limite di mano e +10 punti ferita.",
+        "traits": "Simbionte."
+    }
 ]
