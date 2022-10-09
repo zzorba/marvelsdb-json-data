@@ -1,0 +1,866 @@
+[
+   {
+      "code": "32025",
+      "name": "Mal du Pays",
+      "text": "<b><i>Donnez cette carte au joueur de Piotr Rasputin.</b></i>\nVous pouvez passer sous forme d'alter ego. Choisissez :\n- Inclinez Piotr Rasputin → retirez Mal du Pays de la partie.\n- Défaussez cette obligation et chaque carte d'état Tenace de votre identité. Si vous ne défaussez pas carte d'état Tenace par cet effet, cette obligation gagne Renfort."
+   },
+   {
+      "boost_text": "si cette activation est une attaque, elle gagne Déferlement et Perçant.",
+      "code": "32026",
+      "flavor": "\"Rien n'arrête le Fléau !\"",
+      "name": "Le Fléau",
+      "traits": "Brute. Élite.",
+      "text": "Robuste. Tenacité."
+   },
+   {
+      "code": "32027",
+      "flavor": "Le Fléau possède le pouvoir du Cyttorak, mais cette force le rend fou.",
+      "name": "Le Fléau Saccage Tout !",
+      "text": "<b>Une fois révélée</b> : défaussez chaque carte d'état Tenace de chaque personnage ami. Placez 2 menaces sur cette manigance pour chaque carte d'état Tenace ainsi défaussée."
+   },
+   {
+      "code": "32028",
+      "name": "Inarrêtable",
+      "text": "Attachez cette carte à l'ennemi ayant l'ATQ imprimée la plus élevée qui n'a pas d'exemplaire d'Inarrêtable attaché. Sinon, cette carte gagne Renfort.\n[star] <b>Interruption Forcée</b> : quand l'ennemi attaché attaque, cette attaque gagne Déferlement et Perçant. À la fin de cette attaque, défaussez Inarrêtable."
+   },
+   {
+      "boost_text": "révélez cette carte.",
+      "code": "32029",
+      "flavor": "\"Ignores-tu qui je suis ?\" — Le Fléau",
+      "name": "Écrasé",
+      "text": "<b>Une fois révélée</b> : vous êtes sonné. Si vous êtes déjà sonné, subissez 2 dégâts."
+   },
+   {
+      "code": "32055",
+      "name": "Déphasage Permanent",
+      "text": "<b><i>Donnez cette carte au joueur de Kitty Pride.</b></i>\nRetournez votre amélioration forme de masse pour que sa face Incorporelle soit visible.\nVous ne pouvez ni attaquer, ni défendre ni changer de forme de masse.\n<b>Action d'alter ego</b> : inclinez Kitty Pride → retirez Déphasage Permanent de la partie."
+   },
+   {
+      "boost_text": "vous êtes désorienté.",
+      "code": "32056",
+      "name": "La Reine Blanche",
+      "text": "Vilenie.\nTant que La Reine Blanche est engagée avec vous, vous êtes désorienté.\n<i>(Sbire Némésis de Shadowcat.)</i>",
+      "traits": "Élite. Psionique."
+   },
+   {
+      "code": "32057",
+      "name": "Le Club des Damnés",
+      "text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance cherche un exemplaire du sbire Pion des Damnés dans le deck Rencontre, la pile de défausse Rencontre et la zone \"mis de côté\", et le met en jeu engagé avec lui.<i>(Mélangez.)</i>"
+   },
+   {
+      "boost_text": "mettez en jeu le Pion des Damnés engagé avec vous.",
+      "code": "32058",
+      "name": "Pion des Damnés",
+      "text": "Garde. Patrouille. Renfort.",
+      "traits": "Damnés."
+   },
+   {
+      "code": "32059",
+      "flavor": "\"Sois mignon, arrête de bouger... et de parler. Voilà. C'est mieux comme ça.\" — La Reine Blanche",
+      "name": "Entrave Télépathique",
+      "text": "Attachez cette carte à votre identité.\nTant que l'Entrave Télépathique est attachée à votre identité, vous êtes sonné.\n<b>Action</b> : dépensez les ressources suivantes : [mental][mental] → défaussez cette carte.",
+      "traits": "Condition."
+   },
+   {
+      "code": "32060",
+      "flavor": "\"Je vais t'arracher les tripes !\"",
+      "name": "Dents-de-Sabre",
+      "text": "[star] <b>Réponse forcée</b> : après que Dents-de-Sabre s'est activé contre vous, défaussez la carte du dessus du deck Rencontre. Soignez un nombre de dégâts de Dents-de-Sabre égal au nombre d'icônes de boost ([boost]) ainsi défaussées.",
+      "traits": "Confrérie des Mutants."
+   },
+   {
+      "code": "32061",
+      "name": "Dents-de-Sabre",
+      "text": "Ténacité.\n[star] <b>Réponse forcée</b> : après que Dents-de-Sabre s'est activé contre vous, défaussez la carte du dessus du deck Rencontre. Soignez un nombre de dégâts de Dents-de-Sabre égal au nombre d'icônes de boost ([boost]) ainsi défaussées.",
+      "traits": "Confrérie des Mutants."
+   },
+   {
+      "code": "32062",
+      "name": "Dents-de-Sabre",
+      "text": "Riposte 1. Ténacité.\n[star] <b>Réponse forcée</b> : après que Dents-de-Sabre s'est activé contre vous, défaussez la carte du dessus du deck Rencontre. Soignez un nombre de dégâts de Dents-de-Sabre égal au nombre d'icônes de boost ([boost]) ainsi défaussées.",
+      "traits": "Confrérie des Mutants."
+   },
+   {
+      "code": "32063a",
+      "name": "La Proie de Dents-de-Sabre",
+      "text": "<b>Contenu</b> : Dents-de-Sabre (I) et Dents-de-Sabre (II). <i>(Dents-de-Sabre (II) et Dents-de-Sabre (III) à la place en mode expert.)</i> Les sets de rencontre Dents-de-Sabre et Standard. Deux sets de rencontre modulaires (<i>Confrérie</i> et <i>Mystique</i>).\n<b>Mise en place</b> : mettez en jeu la manigance annexe Trouver le Sénateur. Attachez-lui l'allié Robert Kelly. Tant qu'il est attaché à Trouver le Sénateur, Robert Kelly est en jeu mais sous le contrôle d'aucun joueur.",
+   },
+   {
+      "code": "32063b",
+      "name": "La Proie de Dents-de-Sabre",
+      "text": "[star] <b>Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, infligez 2 dégâts à Robert Kelly (3 à la place s'il y a au moins 6[per_hero] menaces sur cette manigance).\n Tant que Robert Kelly est attaché à Trouver le Sénateur, considérez que la boîte de texte de Robert Kelly est vide.\n<b>Si Robert Kelly quitte la partie, les joueurs perdent la partie.</b>"
+   },
+   {
+      "code": "32064a",
+      "name": "Le Sénateur Blessé",
+      "flavor": "Dents-de-Sabre a blessé le Sénateur Kelly et continue de le pourchasser !";
+      "text": "<b>Une fois révélée</b> : attribuez 1 carte rencontre face cachée à chaque joueur.",
+   },
+   {
+      "code": "32064b",
+      "flavor": "Mettez Robert Kelly à l'abri avant que Dents-de-Sabre ne termine le travail.",
+      "name": "Le Sénateur Blessé",
+      "text": "<b>Une fois achevé</b> : vainquez Robert Kelly.\n<b>Si Robert Kelly quitte la partie, les joueurs perdent la partie.</b>"
+   },
+   {
+      "code": "32065a",
+      "name": "Trouver le Sénateur",
+      "text": "Robert Kelly ne peut pas être soigné par des effets de carte Joueur et ne peut pas avoir d'améliorations attachées.\n<b>Une fois déjouée</b> : le premier joueur détache Robert Kelly de cette manigance et en prend le contrôle. Avancez à la manigance principale 2A. Retournez cette carte et placez-la à côté de la manigance principale."
+   },
+   {
+      "code": "32065b",
+      "name": "Protéger le Sénateur",
+      "text": "Robert Kelly ne peut pas être soigné par des effets de carte Joueur et ne peut pas avoir d'améliorations attachées.\n<b>Réponse de héros</b> : après que votre héros a défendu contre une attaque de Dents-de-Sabre, dépensez 2 ressources de n'importe quel type → redressez votre héros. Seul le joueur qui contrôle Robert Kelly peut déclencher cette capacité."
+      "traits": "Mission."
+   },
+   {
+      "code": "32066",
+      "name": "Robert Kelly",
+      "text": "Le premier joueur contrôle Robert Kelly. Il ne compte pas dans votre limite d'alliés et ne peut pas avoir de cartes Joueur attachées.\n<b>Interruption forcée</b> : quand un ennemi résout une attaque non défendue contre vous, infligez les dégâts de cette attaque à Robert Kelly.",
+      "traits": "Sénateur."
+   },
+   {
+      "boost_text": "attachez cette carte à Dents-de-Sabre.",
+      "code": "32067",
+      "name": "Griffres en Adamantium",
+      "text": "Attachez cette carte à Dents-de-Sabre.\n[star] Les attaques de Dents-de-Sabre gagnent Perçant.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy][mental][physical] → défaussez cette carte.",
+      "traits": "Arme."
+   },	
+   {	
+      "boost_text": "attachez cette carte à Dents-de-Sabre.",
+      "code": "32068",
+      "name": "Férocité Animale",
+      "text": "Attachez cette carte à Dents-de-Sabre.\nDents-de-Sabre gagne Robuste. <i>(Ce personnage ne peut être ni sonné ni désorienté.)</i>\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy][mental][physical] → défaussez cette carte.",
+      "traits": "Condition."
+   },	
+   {	
+      "boost_text": "si un allié est vaincu par cette attaque, placez 2 menaces sur la manigance principale.",
+      "code": "32069",
+      "name": "Dents-de-Sabre Frappe",
+      "text": "<b>Une fois révélée</b> : infligez 1 dégât à Robert Kelly. Vous pouvez inclinez votre héros pour prévenir ce dégât."
+   },	
+   {	
+      "code": "32070",
+      "name": "Sauvagerie Implacable",
+      "text": "<b>Une fois révélée (alter ego)</b> : Dents-de-Sabre manigance. Si sa valeur de \"dégâts subis\" est de 0, il gagne +1 MNG pour cette activation.\n<b>Une fois révélée (héros)</b> : Dents-de-Sabre vous attaque. Si sa valeur de \"dégâts subis\" est de 0, il gagne +1 ATQ pour cette activation"
+   },	
+   {	
+      "code": "32071",
+      "name": "Urgence Médicale",
+      "text": "Entrave 2[per_hero]. <i>(Quand cette carte est révélée, placez 2[per_hero] menaces dessus.)</i>\nVictoire 1. <i>(Une fois déjouée, ajoutez cette carte à la pile de victoire.)</i>\n<b>Une fois déjouée</b> : soignez 2 dégâts de Robert Kelly."
+   },	
+   {	
+      "code": "32072",
+      "flavor": "Dents-de-Sabre poursuit sa traque frénétique à la recherche de Kelly. Vous allez devoir détournez son attention du sénateur !",
+      "name": "Rage Férale",
+      "text": "<b>Une fois déjouée</b> : Dents-de-Sabre attaque le joueur qui a déjoué cette manigance <i>(même si ce joueur est sous sa forme d'alter ego)</i>."
+   },	
+   {	
+      "boost_text": "inclinez un personnage que vous contrôlez.",
+      "code": "32073",
+      "name": "Avalanche",
+      "text": "[star] <b>Réponse forcée</b> : après qu'Avalanche vous a attaqué, inclinez un personnage que vous contrôlez.",
+      "traits": "Confrérie des Mutants."
+   },	
+   {	
+      "code": "32074",
+      "flavor": "\"Rien ne peut ébranler Le Colosse !\"",
+      "name": "Le Colosse",
+      "text": "Garde.\n[star] <b>Réponse forcée</b> : après que Le Colosse a attaqué et blessé un personnage, sonnez ce personnage.",
+      "traits": "Confrérie des Mutants."
+   },	
+   {	
+      "code": "32075",
+      "flavor": "\"Je joue toujours avec le feu. Et je ne me brûle jamais !\"",
+      "name": "Pyro",
+      "text": "[star] <b>Réponse forcée</b> : après que Pyro vous a attaqué, défaussez les 2 cartes du dessus de votre deck. Subissez 1 dégât indirect pour chaque icône de ressource imprimée ainsi défaussée.",
+      "traits": "Confrérie des Mutants."
+   },	
+   {	
+      "boost_text": "défaussez 1 carte prise au hasard dans votre main.",
+      "code": "32076",
+      "name": "Le Crapaud",
+      "text": "[star] <b>Réponse forcée</b> : après que Le Crapaud a attaqué et blessé un personnage que vous contrôlez, défaussez 1 carte prise au hasard dans votre main.",
+      "traits": "Confrérie des Mutants."
+   },	
+   {	
+      "boost_text": "attachez cette carte à un sbire et donnez-lui une carte d'état Tenace.",
+      "code": "32077",
+      "name": "Homo Superior",
+      "text": "Attachez cette carte à un sbire et donnez-lui une carte d'état Tenace. Sinon, cette carte gagne Renfort.\n Le sbire attaché gagne +5 points de vie.",
+      "traits": "Condition."
+   },	
+   {	
+      "code": "32078",
+      "name": "Terroristes Mutants",
+      "text": "<b>Une fois révélée</b> : chercher dans le deck Rencontre ou la pile de défausse Rencontre la manigance annexe La Confrérie et révélez-la. <i>(Mélangez.)</i> Si elle n'est pas entrée en jeu de cette façon, défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'un sbire [[CONFRÉRIE DES MUTANTS]] soit défaussé et révélez-le."
+   },	
+   {	
+      "code": "32079",
+      "flavor": "Magnéto a créé sa Confrérie des Mutants pour réaliser ses ambitions de domination des mutants sur les humains.",
+      "name": "La Confrérie",
+      "text": "Entrave 2[per_hero]. <i>(Quand cette carte est révélée, placez 2[per_hero] menaces dessus.)</i>\nChaque sbire [[CONFRÉRIE DES MUTANTS]] gagne Coup Rapide."
+   },	
+   {	
+      "code": "32080",
+      "flavor": "\"Je ne suis pas une femme à sous-estimer.\"",
+      "name": "Mystique",
+      "text": "Ténacité.\nLes joueurs ne peuvant pas attaquer le méchant.\n[star] La MNG de Mystique est égale à celle du méchant. L'ATQ de Mystique est égale à celle du méchant.",
+      "traits": "Confrérie des Mutants. Élite."
+   },	
+   {	
+      "code": "32081",
+      "flavor": "Les pouvoirs métamorphiques de Mystique sont une grande source de chaos.",
+      "name": "La Métamorphe Sème le Chaos",
+      "text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance mélange dans son deck chaque carte [[MÉTAMORPHE]] de la pile de défausse Rencontre."
+   },	
+   {	
+      "code": "32082",
+      "name": "Infiltration",
+      "text": "<b>Une fois révélée</b> : mélangez cette carte dans votre deck. Cette carte gagne Renfort.\n<b>Réponse forcée</b> : après que cette carte est entrée dans votre main, défaussez un allié ou un soutien que vous contrôlez. <i>(Vous pouvez défaussez cette carte de votre main à la fin de la phase des Joueurs comme n'importe quelle autre carte.)</i>",
+      "traits": "Métamorphe."
+   },	
+   {	
+      "code": "32083",
+      "name": "Surprise de Métamorphe",
+      "text": "<b>Une fois révélée</b> : mélangez cette carte dans votre deck. Cette carte gagne Renfort.\n<b>Réponse forcée</b> : après que cette carte est entrée dans votre main, Mystique s'active contre vous. Sinon, chercher Mystique dans le deck Rencontre ou la pile de défausse Renccontre et révélez-la.",
+      "traits": "Métamorphe."
+   },	
+   {	
+      "code": "32084",
+      "flavor": "\"MUTANT DÉTECTÉ. INITIATION DE LA SÉQUENCE DE CAPTURE.\"",
+      "name": "Sentinelle",
+      "text": "Ténacité.\n<b>Une fois révélée</b> : le premier joueur cherche dans le deck Rencontre ou la pile de défausse Rencontre un exemplaire de la manigance annexe Protocoles d'Enlèvement et la révèle. <i>(Mélangez.)</i>",
+      "traits": "Sentinelle."
+   },	
+   {	
+      "code": "32085",
+      "name": "Sentinelle",
+      "text": "Solide. Ténacité.\n<b>Une fois révélée</b> : le premier joueur cherche dans le deck Rencontre ou la pile de défausse Rencontre un exemplaire de la manigance annexe Protocoles d'Enlèvement et la révèle. <i>(Mélangez.)</i>Attribuez 1 carte Rencontre face cachée à chaque autre joueur.",
+      "traits": "Sentinelle."
+   },	
+   {	
+      "code": "32086",
+      "name": "Sentinelle",
+      "text": "Robuste. Ténacité.\n<b>Une fois révélée</b> : le premier joueur cherche dans le deck Rencontre ou la pile de défausse Rencontre un exemplaire de la manigance annexe Protocoles d'Enlèvement et la révèle. <i>(Mélangez.)</i>Donnez une carte rencontre face cachée à chaque autre joueur.",
+      "traits": "Sentinelle."
+   },
+   {
+      "code": "32087a",
+      "name": "La Nuit des Sentinelles",
+      "text": "<b>Contenu</b> : Sentinelle (I) et Sentinelle (II). <i>(Sentinelle (II) et Sentinelle (III) à la place en mode expert.)</i> Les sets de rencontre Projet Wideawake, Tolérance Zéro et Standard. Un set de rencontre modulaire <i>(Sentinelles)</i>.\n<b>Mise en place</b> : mettez de côté chaque allié [[CAPTIF]]. Révélez les manigances annexes Opération Tolérance Zéro et Le Centre Commercial.",
+   },
+   {
+      "code": "32087b",
+      "name": "La Nuit des Sentinelles",
+      "text": "Opération Tolérance Zéro gagne Permanent.\n<b>Réponse forcée</b> : après que de la menace a été placée sur cette manigance principale, s'il y a au moins 5[per_hero] menaces dessus, le premier joueur place la carte du dessus de son deck, face cachée, sous Opération Tolérance Zéro. Ensuite, retirez 5[per_hero] menaces de La Nuit des Sentinelles."
+   },
+   {
+      "code": "32088a",
+      "name": "Le Centre Commercial",
+      "text": "<b>Une fois déjouée</b> : le premier joueur cherche un sbire [[SENTINELLE]] dans le deck Rencontre ou la pile de défausse Rencontre et le révèle. Retournez cette carte et mettez en jeu Jubilé, en défaussant tout autre version de Jubilé qui serait en jeu."
+   },
+   {
+      "code": "32088b",
+      "name": "Jubilé",
+      "subname": "Jubilation Lee",
+      "text": "Victoire -1.\nLe premier joueur contrôle Jubilé. Elle ne compte pas dans votre limite d'alliés.\n<b>Action</b> : inclinez Jubilé et dépensez une ressource [energy] → infligez 2 dégâts à un ennemi.",
+      "traits": "X-Men."
+   },
+   {	
+      "code": "32089",
+      "flavor": "\"Toi ... il va t'arriver des bricoles.\"",
+      "name": "Rictor",
+      "subname": "Julio Richter",
+      "text": "[star] <b>Réponse</b> : après que Rictor a attaqué, infligez 1 dégât au méchant et à chaque sbire engagé avec vous.",
+      "traits": "Captif. X-Men."
+   },	
+   {	
+      "code": "32090",
+      "name": "Bang Bang",
+      "subname": "Tabitha Smith",
+      "text": "[star] <b>Réponse</b> : après que Bang Bang a attaqué un ennemi, placez 1 jeton Bombe sur cet ennemi. À la fin de la phase des joueurs, retirez tous les jetons Bombe en jeu et infligez 2 dégâts à chaque ennemi pour chaque jeton bombe qui lui est ainsi retiré."
+      "traits": "Captif. X-Men."
+   },	
+   {	
+      "code": "32091",
+      "flavor": "\"Je suis quasiment invulnérable sous cette forme.\"",
+      "name": "Rocket",
+      "subname": "Sam Guthrie",
+      "text": "[star] Après avoir attaqué et vaincu un sbire, Rocket subit 1 dégât consécutif de moins.",
+      "traits": "Captif. X-Men."
+   },	
+   {	
+      "code": "32092",
+      "flavor": "\"Je ne sais pas pourquoi vous faîtes ça. Mais si vous blessez mes amis, alors je vous promets que vous allez souffrir.\"",
+      "name": "Félina",
+      "subname": "Rahne Sinclair",
+      "text": "[star] Les attaques de Félina gagnent Perçant.",
+      "traits": "Captif. X-Men."
+   },	
+   {	
+      "boost_text": "mettez en jeu la Sentinelle Mark IV engagée avec vous.",
+      "code": "32093",
+      "name": "Sentinelle Mark IV",
+      "text": "Garde. Patrouille. <i>(Tant que ce sbire est engagé avec vous, vous ne pouvez pas contrer la manigance principale.)</i>",
+      "traits": "Sentinelle."
+   },
+   {
+      "boost_text": "inclinez votre identité.",
+      "code": "32094",
+      "name": "Faisceau Énergétique",
+      "text": "Attachez cette carte au méchant.\n[star] L'attaque du méchant gagne Perçant et À Distance.\n<b>Action de héros</b> : dépensez les ressources suivantes : [physical][physical][physical] → défaussez cette carte.",
+      "traits": "Sentinelle. Tech."
+   },
+   {
+      "boost_text": "attachez cette carte au méchant.",
+      "code": "32095",
+      "name": "I.A. Évolutive",
+      "text": "Attachez cette carte au méchant.\nLe méchant gagne Riposte 1.\n<b>Action de héros</b> : dépensez les ressources suivantes : [mental][mental][mental] → défaussez cette carte.",
+      "traits": "Sentinelle. Tech."
+   },
+   {
+      "boost_text": "attachez cette carte au méchant.",
+      "code": "32096",
+      "name": "Armure Adaptative",
+      "text": "Attachez cette carte au méchant.\nLe méchant gagne +8 points de vie.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy][energy][energy] → défaussez cette carte.",
+      "traits": "Sentinelle. Tech."
+   },	
+   {	
+      "boost_text": "donnez au méchant une carte d'état Tenace.",
+      "code": "32097",
+      "name": "Autoréparation",
+      "text": "<b>Une fois révélée</b> : défaussez chaque carte d'état du méchant. Donnez au méchant une carte d'état Tenace et soignez-le de 5 dégâts."
+   },	
+   {	
+      "code": "32098",
+      "name": "Mutant Détecté",
+      "text": "<b>Une fois révélée</b> : choisissez :\n- Placez la carte du dessus de votre deck, face cachée, sous Opération Tolérance Zéro.\n- Le méchant et chaque sbire engagé avec vous vous attaquent <i>(même si vous êtes sous forme d'alter ego).</i>"
+   },	
+   {	
+      "code": "32099",
+      "flavor": "\"Si nous n'allons pas chercher nos amis, ils seront capturés, c'est certain !\" — Iceberg",
+      "name": "Prévenir les Autres",
+      "text": "<b>Réponse forcée</b> : après la fin de votre tour, placez cette carte, face cachée sous Opération Tolérance Zéro\n<b>Action d'alter ego</b> : inclinez votre identité → défaussez cette carte."
+   },	
+   {	
+      "code": "32100",
+      "name": "Protocoles d'Enlèvement",
+      "text": "Entrave 2[per_hero]. Victoire 2.\n<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance prend au hasard 1 allié [[CAPTIF]] mis de côté et le met en jeu sous son contrôle."
+   },	
+   {	
+      "code": "32101",
+      "name": "Sentinelle Mark II",
+      "text": "<b>Une fois révélée</b> : si Opération Tolérance Zéro est en jeu, la Sentinelle Mark II gagne Renfort. Sinon, cherchez la manigance annexe Opération Tolérance Zéro dans le deck Rencontre ou la pile de défausse Rencontre et révélez-la. <i>(Mélangez.)</i>",
+      "traits": "Sentinelle."
+   },	
+   {	
+      "boost_text": "vous êtes sonné. Si vous êtes déjà sonné, subissez 2 dégâts.",
+      "code": "32102",
+      "name": "Sentinelle Mark III",
+      "text": "Ténacité.\n<b>Une fois révélée</b> : cherchez un attachement Barrière Énergétique dans le deck Rencontre ou la pile de défausse Rencontre et attachez-le à ce sbire.",
+      "traits": "Sentinelle."
+   },	
+   {	
+      "code": "32103",
+      "name": "Barrière Énergétique",
+     "text": "Attachez cette carte à un sbire [[SENTINELLE]] qui n'a pas d'exemplaire de Barrière Énergétique attaché et donnez-lui une carte d'état Tenace. Sinon, cette carte gagne Renfort.\n[star] <b>Réponse forcée</b> : après que le sbire attaché a attaqué, donnez-lui une carte d'état Tenace.",
+      "traits": "Sentinelle. Tech."
+   },	
+   {	
+      "code": "32104",
+      "name": "Opération Tolérance Zéro",
+      "text": "<b>Réponse forcée</b> : après qu'un ennemi a attaqué et vaincu un allié, placez cet allié, face cachée, sous cette manigance.\n<b>S'il y a X cartes face cachée sous cette manigance, les joueurs perdent la partie. X est égal au nombre de joueurs plus 3.</b>"
+   },	
+   {	
+      "code": "32105",
+      "name": "Sentinelle Mark V",
+      "text": "<b>Une fois révélée</b> : si Cible à Éliminer est attaché à votre identité, la Sentinelle Mark V vous attaque <i>(même si vous êtes sous forme d'alter ego).</i> Sinon, cherchez un attachement Cible à Éliminer dans le deck Rencontre ou la pile de défausse Rencontre et révélez-le.",
+      "traits": "Sentinelle."
+   },	
+   {	
+      "boost_text": "si Cible à Éliminer est attaché à une identité, attribuez cette carte de boost à ce joueur en tant que carte Rencontre face cachée.",
+      "code": "32106", 
+      "name": "Sentinelle Mark VI",
+      "text": "Coup Rapide.",
+      "traits": "Sentinelle."
+   },	
+   {	
+      "code": "32107",
+      "name": "Cible à Éliminer",
+      "text": "Attachez cette carte à votre identité si vous n'avez pas d'exemplaire de Cible à Éliminer attaché. Sinon, cette carte gagne Renfort.\nTant que vous êtes engagé avec un sbire [[SENTINELLE]], vous ne pouvez pas passer de votre forme de héros à votre forme d'alter ego.\n<b>Action</b> : inclinez votre identité → défaussez cette carte."
+   },	
+   {	
+      "code": "32108", 
+      "flavor": "Les Sentinelles ont été construites dans un seul but : traquer les mutants. Elles sont infatigables. Elles ne s'arrêtent pas tant qu'elles n'ont pas capturé leur cible.",
+      "name": "Robots Infatigables",
+      "text": "Aucun joueur engagé avec un sbire [[SENTINELLE]] ne peut pas contrer cette menace."
+   },	
+   {	
+      "code": "32109", 
+      "name": "Le Moule Initial",
+      "text": "Robuste. Ténacité.\n[star] <b>Interruption forcée</b> : quand Le Moule Initial manigance contre vous, défaussez des cartes du deck Rencontre jusqu'à ce qu'un sbire [[SENTINELLE]] soit défaussé. Mettez en jeu ce sbire engagé avec vous. Ne donnez pas de carte de boost au Moule Initial pour cette activation.",
+      "traits": "Sentinelle."
+   },	
+   {	
+      "code": "32110", 
+      "name": "Le Moule Initial",
+      "text": "Robuste. Ténacité.\n[star] <b>Interruption forcée</b> : quand Le Moule Initial manigance contre vous, défaussez des cartes du deck Rencontre jusqu'à ce qu'un sbire [[SENTINELLE]] soit défaussé. Mettez en jeu ce sbire engagé avec vous. Ne donnez pas de carte de boost au Moule Initial pour cette activation.",
+      "traits": "Sentinelle."
+   },	
+   {	
+      "code": "32111", 
+      "name": "Le Moule Initial",
+      "text": "Robuste. Ténacité.\n[star] <b>Interruption forcée</b> : quand Le Moule Initial manigance contre vous, défaussez des cartes du deck Rencontre jusqu'à ce qu'un sbire [[SENTINELLE]] soit défaussé. Mettez en jeu ce sbire engagé avec vous. Ne donnez pas de carte de boost au Moule Initial pour cette activation.",
+      "traits": "Sentinelle."
+   },
+   {
+      "code": "32112a",
+      "name": "L'Usine de Sentinelles",
+      "text": "<b>Contenu</b> : Le Moule Initial (I) et Le Moule Initial (II). <i>(Le Moule Initial (II) et Le Moule Initial (III) à la place en mode expert.)</i> Les sets de rencontre Moule Initial, Sentinelles et Standard. Un set de rencontre modulaire <i>(Tolérance Zéro)</i>.\n<b>Mise en place</b> : mettez en jeu l'allié Magnéto (X 172B) sous le contrôle du premier joueur."
+   },
+   {
+      "code": "32112b",
+      "name": "L'Usine de Sentinelles",
+      "text": "Chaque sbire [[SENTINELLE]] gagne Garde.\n<b>Une fois révélée</b> : chaque joueur défausse des cartes du deck Rencontre jusqu'à ce qu'il défausse un sbire [[SENTINELLE]]. Ensuite, il met en jeu ce sbire engagé avec lui."
+   },
+   {
+      "code": "32113a",
+      "name": "Les Desseins du Moule Initial",
+      "text": "<b>Une fois révélée</b> : mélangez la pile de défausse Rencontre dans le deck Rencontre. Chaque joueur défausse des cartes du deck Rencontre jusqu'à ce qu'il défausse un sbire [[SENTINELLE]]. Ensuite, il le met en jeu engagé avec lui."
+   },
+   {
+      "code": "32113b",
+      "flavor": "La programmation du Moule Initial s'est retournée contre ses créateurs ! La Sentinelle géante est arrivée à la conclusion que les mutants descendent des humains et programme ses rejetons afin qu'ils détruisent toute personne sur Terre !",
+      "name": "Les Desseins du Moule Initial",
+      "text": "Chaque sbire [[SENTINELLE]] gagne Garde.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+   },	
+   {	
+      "code": "32114",
+      "name": "Sentinel Mark VIII",
+      "flavor": "\"Ils ont amélioré leurs armures !\" — Cyclope",
+      "text": "<b>Réponse forcée</b> : après que ce sbire vous a engagé, attachez-lui l'attachement [[SENTINELLE]] le plus proche du dessus de la pile de défausse.",
+      "traits": "Sentinelle."
+   },	
+   {	
+      "boost_text": "attachez cette carte à un sbire [[SENTINELLE]].",
+      "code": "32115",  
+      "name": "Amélioration des Unités",
+      "text": "Attachez cette carte à un sbire [[SENTINELLE]]. Sinon, cette carte gagne Renfort.\nLe sbire attaché gagne +2 points de vie et gagne Riposte 1.",
+      "traits": "Sentinelle. Tech."
+   },	
+   {	
+      "code": "32116",
+      "name": "Rayon Étourdissant",
+      "text": "Attachez cette carte à un sbire [[SENTINELLE]] qui n'a pas d'exemplaire de Rayon Étourdissant. Sinon, cette carte gagne Renfort.\n[star] <b>Réponse forcée</b> : après que le sbire attaché a attaqué et blessé un personnage, sonnez ce personnage.",
+      "traits": "Sentinelle. Tech."
+   },	
+   {	
+      "code": "32117",
+      "name": "Rejetons du Moule Initial",
+      "text": "<b>Une fois révélée (alter ego)</b> : chaque sbire engagé avec vous manigance. Si vous n'êtes pas engagé avec un sbire, Le Moule Initial manigance.\n<b>Une fois révélée (héros)</b> : chaque sbire engagé avec vous vous attaque. Si vous n'êtes pas engagé avec un sbire, Le Moule Initial vous attaque."
+   },	
+   {	
+      "boost_text": "donnez au méchant une carte d'état Tenace.",
+      "code": "32118",
+      "name": "Boucliers Activés",
+      "text": "<b>Une fois révélée</b> : donnez une carte d'état Tenace à chaque sbire [[SENTINELLE]] engagé avec vous. Sinon, cette carte gagne Renfort."
+   },	
+   {	
+      "code": "32119",
+      "name": "Alerte Intrusion !",
+      "text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance défausse des cartes du deck Rencontre jusqu'à ce qu'il défausse un sbire [[SENTINELLE]]. Ensuite, il met en jeu ce sbire engagé avec lui."
+   },	
+   {	
+      "code": "32120",
+      "flavor": "Si vous pouviez introduire un virus informatique dans le noyau du Moule Initial, vous pourriez l'affaiblir de l'intérieur.",
+      "name": "Inoculer un Virus Informatique",
+      "text": "Entrave 2[per_hero]. Victoire 1.\n<b>Une fois déjouée</b> : infligez 2 dégâts à chaque ennemi [[SENTINELLE]]."
+   },      
+   {	
+      "code": "32121a",
+      "name": "Avalanche",
+      "flavor": "\"Sortez et venez vous battre, ou je fais s'effronder tout le bâtiment !\"",
+      "text": "Ténacité. Victoire 2.\n[star] <b>Réponse de héros</b> : après qu'Avalanche vous a attaqué, inclinez un allié que vous contrôlez.",
+      "traits": "Confrérie des Mutants."
+   },      	
+   {	
+      "code": "32121b",
+      "name": "Avalanche",
+      "flavor": "\"Sortez et venez vous battre, ou je fais s'effronder tout le bâtiment !\"",
+      "text": "Ténacité. Victoire 2.\n[star] <b>Réponse de héros</b> : après qu'Avalanche vous a attaqué, inclinez un allié que vous contrôlez.",
+      "traits": "Confrérie des Mutants."
+   },
+   {	
+      "code": "32122a",
+      "name": "Le Colosse",
+      "flavor": "\"D'abord, je te casse la figure ! Ensuite, je vide ton frigo !\"",
+      "text": "Ténacité. Victoire 2.\n[star] <b>Réponse de héros</b> : après que Le Colosse a attaqué et blessé un personnage, sonnez ce personnage.",
+      "traits": "Confrérie des Mutants."
+   },
+   {	
+      "code": "32122b",
+      "name": "Le Colosse",
+      "flavor": "\"D'abord, je te casse la figure ! Ensuite, je vide ton frigo !\"",
+      "text": "Ténacité. Victoire 2.\n[star] <b>Réponse de héros</b> : après que Le Colosse a attaqué et blessé un personnage, sonnez ce personnage.",
+      "traits": "Confrérie des Mutants."
+   },      
+   {	
+      "code": "32123a",
+      "name": "Pyro",
+      "text": "Ténacité. Victoire 2.\n[star] <b>Réponse de héros</b> : après que Pyro vous a attaqué, défaussez les 2 cartes du dessus de votre deck. Subissez 1 dégât indirect pour chaque icône de ressource imprimée ainsi défaussée.",
+      "traits": "Confrérie des Mutants."
+   },	
+   {	
+      "code": "32123b",
+      "name": "Pyro",
+      "text": "Ténacité. Victoire 2.\n[star] <b>Réponse de héros</b> : après que Pyro vous a attaqué, défaussez les 2 cartes du dessus de votre deck. Subissez 1 dégât indirect pour chaque icône de ressource imprimée ainsi défaussée.",
+      "traits": "Confrérie des Mutants."
+   },	
+   {	
+      "code": "32124a",
+      "name": "Le Crapaud",
+      "flavor": "\"Ah, les X-Men... vous pensez que vous êtes bien meilleurs que moi ? Je vais vous prouver le contraire !\"",
+      "text": "Ténacité. Victoire 2.\n[star] <b>Réponse de héros</b> : après que Le Crapaud a attaqué et blessé un personnage que vous contrôlez, défausser 1 carte au hasard dans votre main.",
+      "traits": "Confrérie des Mutants."
+   },      
+      "code": "32124b",
+      "name": "Le Crapaud",
+      "flavor": "\"Ah, les X-Men... vous pensez que vous êtes bien meilleurs que moi ? Je vais vous prouver le contraire !\"",
+      "text": "Ténacité. Victoire 2.\n[star] <b>Réponse de héros</b> : après que Le Crapaud a attaqué et blessé un personnage que vous contrôlez, défausser 1 carte au hasard dans votre main.",
+      "traits": "Confrérie des Mutants."
+   },
+   {
+      "code": "32125a",
+      "name": "La Confrérie Attaque !",
+      "text": "<b>Contenu</b> : Avalanche (A), Le Colosse (A), Pyro (A) et Le Crapaud (A). <i>(Utilisez les faces (B) à la place en mode expert)</i>. Les sets de rencontre L'Attaque du Manoir, Confrérie et Standard. Un set de rencontre modulaire <i>(Mystique)</i>.\n<b>Mise en place</b> : mettez en jeu l'environnement Sauver l'École. Mélangez tous les exemplaires de la manigance principale 2A et empilez-les, sous La Confrérie Attaque ! Mélangez les méchants ensemble <i>(sans regarder)</i> pour créer le deck Méchant. La carte du dessus de ce deck en jeu."
+   },
+   {
+      "code": "32125b",
+      "flavor": "L'institut Xavier est attaqué par la Confrérie des Mutants !",
+      "name": "La Confrérie Attaque !"
+      "text": "<b>Une fois révélée</b> : attribuez 1 carte de rencontre face cachée à chaque joueur. Avancez à la carte suivante du deck Manigance Principale. Ajoutez La Confrérie Attaque ! à la pile de victoire."
+   },
+   {
+      "code": "32126a",
+      "name": "Le Manoir est Envahi",
+      "text": "<b>Une fois révélée</b> : retournez cette carte.",
+      "flavor": "La Confrérie se regroupe et concentre ses attaques sur ..."
+   },
+   {
+      "code": "32126b",
+      "name": "L'Atrium",
+      "text": "Chaque personne gagne Solide.\n<b>Une fois achevée</b> : ajoutez cette manigance à la pile de victoire. Avancez à la carte suivante du deck Manigance Principale.\n<b>S'il y a au moins 3 manigances principales dans la pile de victoire, les joueurs perdent la partie.</b>"
+   },
+   {
+      "code": "32127a",
+      "name": "Le Manoir est Envahi",
+      "text": "<b>Une fois révélée</b> : retournez cette carte.",
+      "flavor": "La Confrérie se regroupe et concentre ses attaques sur ..."
+   },
+   {
+      "code": "32127b",
+      "name": "La Caféteria",
+      "text": "Chaque personne gagne Riposte 1.\n<b>Une fois achevée</b> : ajoutez cette manigance à la pile de victoire. Avancez à la carte suivante du deck Manigance Principale.\n<b>S'il y a au moins 3 manigances principales dans la pile de victoire, les joueurs perdent la partie.</b>
+   },
+   {
+      "code": "32128a",
+      "name": "Le Manoir est Envahi",
+      "text": "<b>Une fois révélée</b> : retournez cette carte.",
+      "flavor": "La Confrérie se regroupe et concentre ses attaques sur ..."
+   },
+   {
+      "code": "32128b",
+      "name": "Le Terrain de Basket",
+      "text": "Chaque allié et sbire gagne Ténacité.\n<b>Une fois achevée</b> : ajoutez cette manigance à la pile de victoire. Avancez à la carte suivante du deck Manigance Principale.\n<b>S'il y a au moins 3 manigances principales dans la pile de victoire, les joueurs perdent la partie.</b>
+   },
+   {
+      "code": "32129a",
+      "name": "Le Manoir est Envahi",
+      "text": "<b>Une fois révélée</b> : retournez cette carte.",
+      "flavor": "La Confrérie se regroupe et concentre ses attaques sur ..."
+   },
+   {
+      "code": "32129b",
+      "name": "La Cour",
+      "text": "Chaque personnage gagne +1 ATQ.\n<b>Une fois achevée</b> : ajoutez cette manigance à la pile de victoire. Avancez à la carte suivante du deck Manigance Principale.\n<b>S'il y a au moins 3 manigances principales dans la pile de victoire, les joueurs perdent la partie.</b>
+   },
+   {
+      "code": "32130",
+      "name": "Sauver l'École",
+      "text": "<b>Réponse forcée</b> : après que le méchant a été vaincu, s'il y a X méchants dans la pile de victoire, les joueurs gagnent la partie (voir livret de règles X, page 15). Sinon, attribuez à chaque joueur une carte rencontre face cachée et révélez le méchant suivant. Si un sbire avec le même titre que le nouveau méchant est engagé avec un joueur, défaussez ce sbire et le méchant s'active contre ce joueur."
+   },
+   {
+      "code": "32131",
+      "name": "La Confrérie Est Sans Pitié",
+      "text": "<b>Une fois révélée</b> : pour chaque ennemi indiqué ci-dessous qui est en jeu : \n- Avalanche, inclinez votre identité.\n- Le Colosse, vous êtes sonné.\n- Pyro, subissez 2 dégâts indirects.\n- Le Crapaud, défaussez 1 carte prise au hasard dans votre main."
+   },
+   {     
+      "boost_text": "si le méchant est Avalanche, donnez-lui une carte de boost supplémentaire pour cette activation.",
+      "code": "32132",
+      "name": "Glissement de Terrain",
+      "text": "<b>Une fois révélée</b> : Avalanche s'active contre vous. S'il n'est pas en jeu, chercher le sbire Avalanche dans le deck Rencontre ou la pile de défausse et révélez-le."
+   },
+   {
+      "boost_text": "si le méchant est Le Colosse, donnez-lui une carte de boost supplémentaire pour cette activation.",
+      "code": "32133",
+      "name": "Inamovible",
+      "text": "<b>Une fois révélée</b> : Le Colosse s'active contre vous. S'il n'est pas en jeu, chercher le sbire Le Colosse dans le deck Rencontre ou la pile de défausse et révélez-le."
+   },
+   {
+      "boost_text": "si le méchant est Pyro, donnez-lui une carte de boost supplémentaire pour cette activation.",
+      "code": "32134",
+      "name": "Pyromane",
+      "text": "<b>Une fois révélée</b> : Pyro s'active contre vous. S'il n'est pas en jeu, chercher le sbire Pyro dans le deck Rencontre ou la pile de défausse et révélez-le."
+   },
+   {
+      "boost_text": "si le méchant est Le Crapaud, donnez-lui une carte de boost supplémentaire pour cette activation.",
+      "code": "32135",
+      "name": "Monté sur Ressorts !",
+      "text": "<b>Une fois révélée</b> : Le Crapaud s'active contre vous. S'il n'est pas en jeu, chercher le sbire Le Crapaud dans le deck Rencontre ou la pile de défausse et révélez-le."
+   },
+   {
+      "code": "32136",
+      "name": "Protéger les Étudiants",
+      "text": "Entrave 2[per_hero].\n<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance cherche un allié dans son deck ou sa pile de défausse et l'ajoute à sa main."
+   },
+   {
+      "code": "32137",
+      "name": "Assiégés",
+      "text": "<b>Une fois révélée</b> : placez 3 menaces sur cette manigance pour chaque personnage [[CONFRÉRIE DES MUTANTS]] en jeu."
+   },
+   {
+      "code": "32138",
+      "flavor": "\"Vous opposer au Maître du Magnétisme ne peut mener qu'à votre propre destruction !\"",
+      "name": "Magnéto",
+      "traits": "Confrérie des Mutants.",
+      "text": "Solide. Ténacité.\n[star] <b>Réponse forcée</b> : après que Magnéto vous a attaqué, placé 1 jeton Aimant sur la manigance principale."
+   },
+   {
+      "code": "32139",
+      "name": "Magnéto",
+      "traits": "Confrérie des Mutants.",
+      "text": "Solide. Ténacité.\n<b>Une fois révélée</b> : attribuez 1 carte Rencontre face cachée à chaque joueur.\n[star] <b>Réponse forcée</b> : après que Magnéto vous a attaqué, placé 1 jeton Aimant sur la manigance principale."
+   },
+   {
+      "code": "32140",
+      "name": "Magnéto",
+      "traits": "Confrérie des Mutants.",
+      "text": "Solide. Ténacité.\n<b>Une fois révélée</b> : attribuez 1 carte Rencontre face cachée à chaque joueur.\n[star] <b>Réponse forcée</b> : après que Magnéto vous a attaqué, placé 1 jeton Aimant sur la manigance principale."
+   },
+   {
+      "code": "32141a",
+      "flavor": "Magnéto réside en orbite autour de la Terre dans son sanctuaire spatial.",
+      "name": "Astéroïde M",
+      "text": "<b>Contenu</b> : Magnéto (I) et Magnéto (II). <i>(Magnéto (II) et Magnéto (III) à la place en mode expert)</i>. Les sets de rencontre Magnéto et Standard. Un set de rencontre <i>(Acolytes)</i>.\n<b>Mise en place</b> : mettez de côté la manigance annexe Dérive Orbitale. Révélez la manigance annexe À l'Abordage !"
+   },
+   {
+      "code": "32141b",
+      "name": "Astéroïde M",
+      "text": "<b>Réponse forcée</b> : après avoir placé un jeton Aimant sur cette manigance, s'il y a au moins 3 jetons Aimant dessus, défaussez des cartes du deck Rencontre jusqu'à ce qu'une carte [[MAGNÉTIQUE]] soit défaussée. Révélez cette carte, puis retirez 3 jetons Aimant de cette manigance."
+   },
+   {
+      "code": "32142a",
+      "name": "Lignes de Production",
+      "text": "<b>Une fois révélée</b> : placez 1 jeton Aimant sur cette manigance. Si Saboter Le Moule Initial n'est pas dans la pile de victoire, le premier joueur cherche un exemplaire du sbire Sentinelle de Type M dans le deck Rencontre ou la pile de défausse rencontre et le révèle."
+   },
+   {
+      "code": "32142b",
+      "name": "Lignes de Production",
+      "text": "<b>Réponse forcée</b> : après avoir placé un jeton Aimant sur cette manigance, s'il y a au moins 3 jetons Aimant dessus, défaussez des cartes du deck Rencontre jusqu'à ce qu'une carte [[MAGNÉTIQUE]] soit défaussée. Révélez cette carte, puis retirez 3 jetons Aimant de cette manigance."
+   },
+   {
+      "code": "32143a",
+      "name": "Les Règles de Magnus",
+      "text": "<b>Une fois révélée</b> : placez 2 jetons Aimant sur cette manigance. Si Contrainte Physique n'est pas attachée à Magnéto, le premier joueur cherche un attachement [[MAGNÉTIQUE]] dans le deck Rencontre ou la pile défausse et le révèle."
+   },
+   {
+      "code": "32143b",
+      "name": "Les Règles de Magnus",
+      "text": "<b>Réponse forcée</b> : après avoir placé un jeton Aimant sur cette manigance, s'il y a au moins 3 jetons Aimant dessus, défaussez des cartes du deck Rencontre jusqu'à défausser une carte [[MAGNÉTIQUE]] soit défaussée. Révélez cette carte, puis retirez 3 jetons Aimant de cette manigance.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+   },
+   {
+      "code": "32144a",
+      "flavor": "Pour mettre un terme aux sombres machinations de Magnéto, vous devez d'abord vous poser sur l'Astéroïde M.",
+      "name": "À l'Abordage !",
+      "text": "La valeur de \"dégâts subits\" de Magnéto ne peut pas être supérieure à 6[per_hero].\n<b>Une fois déjouée</b> : retournez cette carte et révélez Saboter Le Moule Initial."
+   },
+   {
+      "code": "32144b",
+      "flavor": "Le Moule Initial a été reprogrammé. Vous devez le désactiver avant qu'il ne crée des Sentinelles spécialisées dans la chasse aux humains !",
+      "name": "Saboter Le Moule Initial",
+      "text": "La valeur de \"dégâts subits\" de Magnéto ne peut pas être supérieure à 12[per_hero].\n<b>Une fois déjouée</b> : Révélez la manigance annexe mise de côté Dérive Orbitale. Ajoutez Saboter Le Moule Initial à la pile de victoire."
+   },
+   {
+      "code": "32145a",
+      "flavor": "Magnéto est un ennemi invincible. Le seul moyen de le vaincre est de détruire sa base orbitale en la faisant s'écraser sur la Terre.",
+      "name": "Dérive Orbitale",
+      "text": "La valeur de \"dégâts subits\" de Magnéto ne peut pas être supérieure à 18[per_hero].\n<b>Une fois déjouée</b> : retournez cette carte et révélez Contrainte Physique."
+   },
+   {
+      "code": "32145b",
+      "flavor": "Alors que l'Astéroïde M amorce sa chute incontrôlée, Magnéto se sert de son pouvoir pour l'empêcher de se désagréger tout en se battant avec vous !",
+      "name": "Contrainte Physique",
+      "traits": "Condition.",
+      "text": "Attachez cette carte à Magnéto.\nPermanent.\nMagnéto perd Solide."
+   },
+   {
+      "back_text": "donnez à Magnéto une carte d'état Tenace et une carte de boost face cachée.",
+      "code": "32146",
+      "name": "Sentinelle de Type M",
+      "traits": "Sentinelle.",
+      "text": "Garde.\n<b>Une fois vaincu</b> : donnez à Magnéto une carte d'état Tenace."
+   },
+   {
+      "code": "32147",
+      "flavor": "Magnéto a conçu ce casque pour qu'il le protège des pouvoirs télépathiques de Charles Xavier.",
+      "name": "Casque de Magnéto"
+      "traits": "Armure. Magnétique.",
+      "text": "Attachez cette carte à Magnéto.\nMagnéto ne peut pas être désorienté.\n<b>Réponse de héros</b> : après que votre héros a effectué une attaque de base contre Magnéto, dépensez les ressources suivantes : [energy][mental][physical] → défaussez cette carte."
+   },
+   {
+      "code": "32148",
+      "flavor": "L'armure de Magnéto est suffisamment résistante pour survivre au rayon d'un gantelet énergétique des Sentinelles.",
+      "name": "Armure de Magnéto",
+      "traits": "Armure. Magnétique.",
+      "text": "Attachez cette carte à Magnéto.\nMagnéto ne peut pas être sonné.\n<b>Réponse de héros</b> : après que votre héros a effectué une attaque de base contre Magnéto, dépensez les ressources suivantes : [energy][mental][physical] → défaussez cette carte."
+   },
+   {
+      "code": "32149",
+      "name": "Bulle Magnétique",
+      "traits": "Magnétique.",
+      "text": "Attachez cette carte à Magnéto.\nMagnéto gagne Riposte 1.\n<b>Interruption forcée</b> : quand Magnéto est censé subir n'importe quelle quantité de dégâts, placez ces dégâts sur cette carte à la place. Ensuite, s'il y a au moins 8 dégâts dessus, défaussez la Bulle Magnétique."
+   },
+   {
+      "code": "32150",
+      "flavor": "\"Aïe, ça craint.\" — Archangel",
+      "name": "Enveloppé de Métal",
+      "traits": "Magnétique.",
+      "text": "Attachez cette carte à votre identité. 1 max par identité.\nML'identité attaché ne peut ni contrer, ni attaquer, ni défendre, ni récupérer.\n<b>Action</b> : inclinez votre identité et dépensez 1 ressource [physical] → défaussez cette carte."
+   },
+   {
+      "code": "32151",
+      "flavor": "\"Ni vos pouvoirs ni aucun de vos talents ne pourront vous sauver de ma colère !\" — Magnéto",
+      "name": "Maître du Magnétisme",
+      "text": "<b>Une fois révélée</b> : prenez la carte [[MAGNÉTIQUE]] la plus proche du dessus de la pile de défausse Rencontre et donnez-la à Magnéto en tant que carte de boost face cachée. Magnéto s'active contre vous."
+   },
+   {
+      "code": "32152",
+      "name": "Choc Électrique",
+      "text": "<b>Une fois révélée (alter ego)</b> : vous êtes désorienté. Placez 1 menace sur la manigance principale pour chaque jeton Aimant sur elle.\n<b>Une fois révélée (héros)</b> : vous êtes sonné. Subissez 1 dégât pour chaque jeton Aimant sur la manigance principale.",
+      "traits": "Magnétique."
+   },
+   {
+      "boost_text": "inclinez votre identité.",
+      "code": "32153",
+      "name": "Déflagration Électromagnétique",
+      "text": "<b>Une fois révélée</b> : inclinez chaque amélioration et soutien que vous contrôlez. Placez 1 jeton Aimant sur la manigance principiale.",
+      "traits": "Magnétique."
+   },
+   {
+      "boost_text": "si un allié est vaincu par cette attaque, placez 1 jeton Aimant sur la manigance principale.",
+      "code": "32154",
+      "name": "Éclats de Métal",
+      "traits": "Magnétique.",
+      "text": "<b>Une fois révélée</b> : infligez 1 dégât à chaque personnage que vous contrôlez. Placez 1 jeton Aimant sur la manigance principale."
+   },
+   {
+      "code": "32155",
+      "flavor": "\"J'aurais dû le voir venir !\" — Cyclope",
+      "name": "Projectile Magnétique"
+      "traits": "Magnétique.",
+      "text": "Renfort.\n<b>Une fois révélée</b> : vainquez un sbire [[SENTINELLE]] en jeu. Ensuite, subissez 5 dégâts. Vous pouvez défausse X cartes de votre main pour prévenir X de ces dégâts."
+   },
+   {
+      "code": "32156",
+      "name": "Chaos Magnétique",
+      "text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance défausse les 4 cartes du dessus du deck Rencontre. Ce joueur place 1 jeton Aimant sur la manigance principale pour chaque carte [[MAGNÉTIQUE]] ainsi défaussée.",
+      "traits": "Magnétique."
+   },
+   {
+      "boost_text": "inclinez chaque allié que vous contrôlez.",
+      "code": "32157",
+      "name": "Scellé Magnétiquement",
+      "text": "<b>Une fois révélée</b> : placez 2 menaces supplémentaires sur cette manigance pour chaque allié en jeu.",
+      "traits": "Magnétique."
+   },
+   {
+      "code": "32158",
+      "name": "Capturé !",
+      "text": "<b>Une fois révélée</b> : chaque joueur place les 6 cartes du dessus de son deck, face cachée, sous cette manigance.\n<b>Une fois déjouée</b> : Magnéto s'active contre le joueur qui a déjoué cette manigance. <i>(Défaussez les cartes qui sont sous cette manigance.</i>",
+      "traits": "Magnétique."
+   },
+   {
+      "code": "32159",
+      "name": "Fabian Cortez"
+      "traits": "Acolyte. Élite.",
+      "text": "Collaboration ([[ACOLYTE]]). Vilenie.\n<b>Une fois vaincu</b> : le joueur qui a vaincu Fabian Cortez défausse des cartes du deck Rencontre jusqu'à ce qu'un sbire [[ACOLYTE]] soit défaussé. Ensuite, il met en jeu ce sbire engagé avec lui."
+   },
+   {
+      "code": "32160",
+      "name": "Amelia Voght",
+      "traits": "Acolyte.",
+      "text": "Robuste. Collaboration ([[ACOLYTE]]).\n<b>Une fois vaincu</b> : le joueur qui a vaincu Amelia Voght est désorienté. S'il est déjà désorienté, placez 2 menaces sur la manigance principale."
+   },
+   {
+      "code": "32161",
+      "name": "Senyaka",
+      "traits": "Acolyte.",
+      "text": "Collaboration ([[ACOLYTE]]).\n[star] Les attaques de Senyaka gagnent Perçant.\n<b>Une fois vaincu</b> : le joueur qui a vaincu Senyaka est sonné. S'il est déjà sonné, il subit 3 dégâts."
+   },
+   {
+      "code": "32162",
+      "name": "Delgado",
+      "traits": "Acolyte.",
+      "text": "Riposte 1. Collaboration ([[ACOLYTE]]).\n<b>Une fois vaincu</b> : défaussez chaque carte d'état Sonné et Désorienté du méchant et donnez-lui une carte de boost face cachée."
+   },
+   {
+      "code": "32163",
+      "name": "Unuscione",
+      "traits": "Acolyte.",
+      "text": "Collaboration ([[ACOLYTE]]). Ténacité.\n<b>Une fois vaincu</b> : donnez une carte d'état Tenace au méchant. S'il a déjà une carte d'état Tenace, soignez-le de 4 dégâts."
+   },
+   {
+      "code": "32164",
+      "name": "Voués à la Cause",
+      "text": "<b>Une fois révélée</b> : résolvez la capacité \"<b>Une fois vaincu</b>\" de chaque sbire [[ACOLYTE]] engagé avec vous. Si vous n'êtes pas engagé avec un sbire [[ACOLYTE]], défaussez des cartes du deck Rencontre jusqu'à ce qu'un sbire soit défaussé, puis révélez-le."
+   },
+   {
+      "boost_text": "mélangez dans le deck Rencontre chaque sbire [[ACOLYTE]] de la pile de défausse.",
+      "code": "32165",
+      "name": "Les Acolytes",
+      "text": "Chaque sbire [[ACOLYTE]] gagne Garde."
+   },
+   {
+      "code": "32166",
+      "flavor": "\"Je suis de retour.\"",
+      "name": "Nemrod",
+      "traits": "Élite. Sentinelle.",
+      "text": "Robuste. Victoire 1.\nNemrod ne peut pas subir plus de 3 dégâts à chaque phase."
+   },
+   {
+      "boost_text": "attribuez-vous cette carte en tant que carte Rencontre face cachée.",
+      "code": "32167",
+      "flavor": "\"Pour assurer l'avenir de l'humanité, je dois détruire la race des mutants.\"",
+      "name": "Bastion",
+      "traits": "Élite. Sentinelle.",
+      "text": " Ténacité. Vilénie. Victoire 1."
+   },
+   {
+      "code": "32168",
+      "name": "Le Portail de Nemrod",
+      "text": "Victoire 1.\n<b>Une fois déjouée</b> : dans l'ordre des joueurs, chaque joueur défausse les 2 cartes du dessus du deck Rencontre et subit un nombre de dégâts indirects égal au nombre d'icônes de boost ([boost]) ainsi défaussées."
+   },
+   {
+      "code": "32169",
+      "flavor": "Bastion manipule les événements présents pour faire advenir le futur d'où il vient.",
+      "name": "Les Machinations de Bastion",
+      "text": "Victoire 1.\n<b>Une fois révélée</b> : chaque joueur place les 9 cartes du dessus de son deck, face cachée, sous cette manigance."
+   },
+   {
+      "code": "32170",
+      "name": "Technologie Nano-Sentinelle",
+      "traits": "Sentinelle. Tech.",
+      "text": "Victoire 1.\nLe sbire attaché gagne +4 points de vie et le trait [[SENTINELLE]].\n<b>Une fois révélée</b> : cherchez votre sbire Némésis dans le deck rencontre, la pile de défausse et la zone \"mis de côté\". Mettez-le en jeu engagé avec vous et attachez-lui cette carte."
+   }
+]
