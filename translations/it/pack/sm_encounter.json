@@ -62,548 +62,702 @@
 	{
 		"code": "27061",
 		"name": "Sandman",
+		"text": "Sand Blast - [star]<b>Forced Interrupt: </b> When sandman attacks you, that attack deals indirect damage. If your identity takes any amount of damange from that attack, resolve the Surging Sands ability on City Streets",
 		"traits": "Criminal."
 	},
 	{
 		"code": "27062",
 		"name": "Sandman",
+		"text": "<b>When Revealed: </b> Resolve the Surging Sands ability on City Streets. \n Sand Blast - [star] <b>Forced Interrupt: </b> When Sandman attacks you, that attack deals indirect damage. If your identity takes any amount of damage from that attack, resolve the Surging Sands ability on City Streets.",
 		"traits": "Criminal."
 	},
 	{
 		"code": "27063",
 		"name": "Sandman",
+		"text": "<b>When Revealed: </b> Place 1 sand counter on City Streets. Resolve its Surging Sands ability. \n Sand Wave - [star] <b>Forced  Interrupt: </b> When Sandman attacks you, that attack gains overkill. If your identity takes any amount of damage from that attack, resolve the Surging Sands ability on City Streets.",
 		"traits": "Criminal."
 	},
 	{
 		"code": "27064",
-		"name": "Hapless Pedestrians"
+		"name": "Hapless Pedestrians",
+		"scheme_text": "<b>Forced Response:</b> After an accerleration token is place on this scheme, deal 3 indirect damage to the first player. \n <b>If this stage is completed, the players lose the game. </b>",
+		"text": "<b>Contents: </b> Sandman (I) and Sandman (II). (Sandman (II) and Sandman (III) instead for expert mode.) Sandman, City in Chaos, and standard encounter sets. One modular encounter set (Down to Earth). \n <b>Setup: </b>Search the encounter deck for the city Streets environment and put it into play. Place 4 sand counters on it."
 	},
 	{
 		"code": "27065",
 		"name": "City Streets",
+		"text": "Surging Sands - <b>Special: </b>Place 1 sand counter here. Discard card from the top of the encounter deck equal to the number of sand counters here. \n <b>Hero Action: </b> Exhause a chracter you control -> remove sand counters from here equal to that character's ATK. (limit once per round per player.)",
 		"traits": "Location."
 	},
 	{
+		"boost_text": "Reveal this card.",
 		"code": "27066",
 		"name": "Sand Form",
+		"text": "Attach to Sandman. \n <b>Forced Interrupt: </b> When you would deal amount of damage to Sandman, discard sand Form instead -> resove the Surging Sands ability on City Streets",
 		"traits": "Condition."
 	},
 	{
 		"code": "27067",
-		"name": "Sand Clone"
+		"name": "Sand Clone",
+		"text": "X is equal to the number of sand counters on City Street. \n <b>When Defeated: </b>Resove the Surging Sands ability on City Streets."
 	},
 	{
 		"code": "27068",
-		"name": "Dirt Trap"
+		"name": "Dirt Trap",
+		"scheme_text": "<b>When Deafeated:</b> Resolve the Surging Sands ability on City Streets. Resolve it again."
 	},
 	{
 		"code": "27069",
-		"name": "Tidal Sands"
+		"name": "Tidal Sands",
+		"scheme_text": "<b>When Revealed: </b> Place X additional threat here, where X is equal to the number of sand counter on City Streets."
 	},
 	{
+		"boost_text": "Resolve this card's <b>When Revealed </b> ability.",
 		"code": "27070",
-		"name": "Sandslide"
+		"name": "Sandslide",
+		"text": "<b>When Revealed: </b> Place 2 sand counters on City Streets, then resolve its Surging Sands ability. If at least 1 Sandman card was discarded this way, you are stunned."
 	},
 	{
 		"code": "27071",
-		"name": "Sand Storm"
+		"name": "Sand Storm",
+		"text": "<b> When Revealed: </b> Deal X indirect damage among players (divided as you choose), where X is requal to the number of sand counters on City Streets. If there are no sand counters on City Streets, place 3 sand counters on it and shuffle this card into the encounter deck."
 	},
 	{
 		"code": "27072",
-		"name": "Sand Smash"
+		"name": "Sand Smash",
+		"text": "<b>When Revealed (Alter-Ego): </b> resolve the Surging Sands ability on City streets. This card gain surge. \n <b>When Revealed (Hero):</b>Sandman attacks you with +1 ATK"
 	},
 	{
 		"code": "27073",
 		"name": "Venom",
+		"text": "Toughness. (This character enters play with a tough status card.) \n Vengeance - <b> Forced Response: </b> After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
 		"traits": "Symbiote."
 	},
 	{
 		"code": "27074",
 		"name": "Venom",
+		"text": "Toughness. Steady. \n <b>When Revealed: </b>Search the encounter deck and discard pile for the Tooth and Nail side scheme and put it into play. (Shuffle.) \n Vengeance - <b>Forced Response: </b> After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
 		"traits": "Symbiote."
 	},
 	{
 		"code": "27075",
 		"name": "Venom",
+		"text": "Retaliate 1. Steady. Toughness. \n <b>When Revealed: </b> Place 2 facedown boost cards on each identity. \n Retribution - <b>Forced Response: </b>After you attack and damge Venom with a card you control, place 1 facedown boost card on your identity (2 facedown boost cards instead if this is the first attack this turn).",
 		"traits": "Symbiote."
 	},
 	{
 		"code": "27076a",
-		"name": "\"Leave Us Alone!\""
+		"name": "\"Leave Us Alone!\"",
+		"scheme_text": "<b>Forced Interrupt: </b> When Venom activates against you, move each facedown boost card from your identity to Venom. \n <b>If this stage is completed, the players lose the game </b>",
+		"text": "<b>Contents: </b> Venom (I) and Venom (II). (Venom (II) and Venom (III) instead for expert mode.) Venom, Symbiotic Strength, and Standard encounter sets. One modular encounter set (Down to Earth.) \n <b> Setup: </b>Put the Bell Twoer environment into play, [[QUIET]] side faceup."
 	},
 	{
 		"code": "27076b",
-		"name": "\"Leave Us Alone!\""
+		"name": "\"Leave Us Alone!\"",
+		"scheme_text": "<b>Forced Interrupt: </b> When Venom activates against you, move each facedown boost card from your identity to Venom. \n <b>If this stage is completed, the players lose the game </b>",
+		"text": "<b>Contents: </b> Venom (I) and Venom (II). (Venom (II) and Venom (III) instead for expert mode.) Venom, Symbiotic Strength, and Standard encounter sets. One modular encounter set (Down to Earth.) \n <b> Setup: </b>Put the Bell Twoer environment into play, [[QUIET]] side faceup."
 	},
 	{
 		"code": "27077a",
 		"name": "Bell Tower",
+		"text": "If there are at least 3[per_player] chime counters here, flip this card. \n <b>Interrupt: </b> When any amount of damage would be dealt to Venom by an attack, (you may) place that many chime counters here instead.",
 		"traits": "Location. Quiet."
 	},
 	{
 		"code": "27077b",
 		"name": "Bell Tower",
+		"text": "Increase all damage Venom takes by 1. \n If there are no chime counters here, flip this card. \n <b>Forced Interrupt: </b> When Venom's attack would deal any amount of damage to an identity, remove that many chime counters from here. For each chime counter removed this way, prevent 1 of that damage.",
 		"traits": "Location. Ringing."
 	},
 	{
+		"boost_text": "Reveal this card.",
 		"code": "27078",
 		"name": "\"Now We're Angry!\"",
+		"text": "Attach to Venom. \n Uses (2 rage counters). \n [star] Venom's attack gain overkill. \n <b>Forced Response: </b>After Venom takes any amount of damage from an attack, remove 1 rage counter from here",
 		"traits": "Condition."
 	},
 	{
 		"code": "27079",
-		"name": "Guard the Bell Tower"
+		"name": "Guard the Bell Tower",
+		"scheme_text": "Treat the Bell Tower's printed text box as if it were blank (except for [[traits]]). \n <b>When Revealed: </b> Remove each chime counter from the Bell Tower and flip it to it's [[quiet]] side."
 	},
 	{
+		"boost_text": "If this activation is  an attack, take 2 indirect damage.",
 		"code": "27080",
-		"name": "Lashing Out"
+		"name": "Lashing Out",
+		"scheme_text": "<b>Response: </b> After Venom takes any amount of damage from an attack, remove an equal amount of threat from here."
 	},
 	{
+		"boost_text": "If this activation is an attack, it gains piercing.",
 		"code": "27081",
-		"name": "Tooth and Nail"
+		"name": "Tooth and Nail",
+		"scheme_text": "<b>Reponse: </b> After Venom takes any amount of damage from an attack, remove an equal amount of threat from here."
 	},
 	{
+		"boost_text": "Remove 1 chime counter from the Bell tower.",
 		"code": "27082",
-		"name": "Biting Retort"
+		"name": "Biting Retort",
+		"text": "<b>When Revealed: </b> Venom activates against you. Each boost card turned faceup during that activation gets +1 boost icon [boost]."
 	},
 	{
+		"boost_text": "Resolve this card's <b>When Revealed </b> ability.",
 		"code": "27083",
-		"name": "For Whom the Bell Tolls"
+		"name": "For Whom the Bell Tolls",
+		"text": "<b>When Revealed: </b> Remove 2 chime counters from the Bell Tower. If the Bell Tower is on its [[quiet]] side, take 1 damage. If it is on its [[ringing]] side, remove 1 threat from the main scheme."
 	},
 	{
 		"code": "27084",
 		"name": "Mysterio",
+		"text": "Seeds of Fear - [star] <b>Forced Response: </b> After you resolve a boost card during Mysterio's activation, place that card in your discard pile if it has the [illusion]] trait.",
 		"traits": "Criminal."
 	},
 	{
 		"code": "27085",
 		"name": "Mysterio",
+		"text": "<b>When Revealed:</b> In player order, shuffle the top card of the encounter deck into each player's deck. \n Creeping Fear - [star] <b>Forced Response: </> After you resolve a boost card during Mysterio's activation, place that card on the bootom of your deck if it has the [[illusion]] trait.",
 		"traits": "Criminal."
 	},
 	{
 		"code": "27086",
 		"name": "Mysterio",
+		"text": "<b>When Revealed: </b> Discard the top 5 cards of each player's deck. \n Bound by Feat - [star] <b> Forced Response: </b> After you resolve a boost card during Mysterio's Activation, place that card on the top of your deck if it has the [[illusion]] trait.",
 		"traits": "Criminal."
 	},
 	{
+		"back_text": "<b>Forced Interript: </b> When you would draw or discard an encounter card from your deck, deal it to yourself as a facedown encounter card → draw 1 card.",
 		"code": "27087",
-		"name": "Maze of Mirrors"
+		"name": "Maze of Mirrors",
+		"scheme_text": "<b> Contents: </b> Mysterio (I) and Mysterio (II). (Mysterio (II) and Mysterio (III) instead for expert mode.) Mysterio, Personal Nightmare, and Standard encounter sets. One modular encounter set (Whispers of Paranoia.) \n <b> Setup</b>Put a shifting Apparition minion into play engaged with each player. (Shuggle.)"
 	},
 	{
+		"back_text": "<b> Forced Interrupt: </b> When you would draw or discard an encounter card from your deck, deal it to yourself as a facedown encounter card → draw 1 card. \n <b>If this stage is completed, the players lose the game. </b>",
 		"code": "27088",
-		"name": "Edge of Reality"
+		"name": "Edge of Reality",
+		"scheme_text": "<b> When Revealed:</b> In player order, shuffle the top 2 cards of the encoutner deck into each player's deck."
 	},
 	{
 		"code": "27089",
 		"name": "Humongous Hallucination",
+		"text": "Attach to Mysterio. \n<b>Hero Action: </b> Spend 1 resource of any type and shuffle the top 2 cards of the encounter deck into your deck → discard this card.",
 		"traits": "Illusion."
 	},
 	{
+		"boost_text": "Give Mysterio 1 additional boost card this activation.",
 		"code": "27090",
 		"name": "Masterful Mirage",
+		"text": "Attach to Mysterio. \n<b> Forced Interrupt </b> When you would deal any amount of damage to Mysterio, discard the top 4 cards of your deck instead. Discard this card.",
 		"traits": "Illusion."
 	},
 	{
 		"code": "27091",
 		"name": "Shifting Apparition",
+		"text": "Guard. (While this minion is engaged with your, you cannot attack the villain.) \n <b> When Defeated: </b> If this minion was defeated with excess damage, the defeating player shuffles the top card of the encounter deck intro their deck.",
 		"traits": "Illusion."
 	},
 	{
+		"boost_text": "Reveal this card.",
 		"code": "27092",
-		"name": "Déjà Vu"
+		"name": "Déjà Vu",
+		"text": "Peril. (While you are resolving this card, other players cannot help you.) \n <b> When Revealed: </b> Choose to either take 1 damage or place 1 threat on the main scheme. Shuffle Deja Vu into any player's deck."
 	},
 	{
+		"boost_text": "Choose to either spend [mental][mental] resources or deal this card to yourself as a facedown encounter card.",
 		"code": "27093",
-		"name": "Fearmonger"
+		"name": "Fearmonger",
+		"text": "Surge. \n <b> When Revealed: </b> Discard your hand. Draw up to your hand size."
 	},
 	{
 		"code": "27094",
 		"name": "Doctor Octopus",
+		"text": "[star] <b>Forced Response: </b> After Doctor Octopus attacks and damages you, place 1 threat on each scheme. Move the active counter to the next villain in the activation order. \n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 1"
 	},
 	{
 		"code": "27095",
 		"name": "Electro",
+		"text": "[star] <b>Forced Response: </b> After Electro attacks and damges you, discard the top 7 cards of your deck. Move the active counter to the next villain in the activation order. \n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 2"
 	},
 	{
 		"code": "27096",
 		"name": "Hobgoblin",
+		"text": "[star] <b>Forced Response: </b> AfterHobgoblin attacks and damages you, take 2 indirect damage. Move the active counter to the next villain in the activation order. \n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 3"
 	},
 	{
 		"code": "27097",
 		"name": "Kraven the Hunter",
+		"text": "[star] <b>Forced Response: </b> After Kraven the Hunter attacks and damages you, choose and discard 1 support or upgrade you control. Move the active counter to the next villain in the activation order. \n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 4"
 	},
 	{
 		"code": "27098",
 		"name": "Scorpion",
+		"text": "[star] <b>Forced Response: </b> After Scorpion attacks and damages you, stun a character you control. Move the active counter to the next villain in the activation order. \n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 5"
 	},
 	{
 		"code": "27099",
 		"name": "Vulture",
+		"text": "[star] <b>Forced Response: </b> After Vulture attacks and damages you, choose and discard 1 card from your hand. Move the active counter to the next villain in the activation order. \n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 6"
 	},
 	{
 		"code": "27100",
-		"name": "Sinister Synchonization"
+		"name": "Sinister Synchonization",
+		"scheme_text": "Ambush - <b>Special: </b> Choose a set-aside villain at random, put that villain into play, and place the active counter on it. (In expert mode, place 2 threat on Light at the End). \n <b>Forced Interrupt: </b> When a villain would activate, if no villain is in play, resolve this cards Ambush! ability. Continue that activation.",
+		"text": "<b> Contents: </b> Doctor Octopus, Electro, Hobgoblin, Kraven the Hunter, Scorpion, and Vulture. The Sinister Six, Guerrila tactics, and standard encounter sets. \n <b>Setup: </b> Choose X villains at random, where X is 1 more than the number of players. Put those villains into play, place the active counter on the villain with the lowest activation order value, and set the other villains aside. Put the Light at the End side scheme into play, [[trap!]] side faceup."
 	},
 	{
 		"code": "27101a",
-		"name": "Sinister Beatdown"
+		"name": "Sinister Beatdown",
+		"text": "<b>When Revealed: </b> Choose a set-aside villain at randomput that villain into play, and place active counter on it (even if another villain has the counter). If no villain was put into play this way or this is expert mode, deal the first player 1 facedown enounter card."
 	},
 	{
 		"code": "27101b",
-		"name": "Sinister Beatdown"
+		"name": "Sinister Beatdown",
+		"text": "Ambush! - <b>Special: </b> Choose a set-aside villain at random, put that villain into play, and place the active counter on it. (In expert mode, place 2 threat on Light at the End). \n <b>Forced Interrupt </b> When a villain would activate, if no villain is in play, resolve this cards Ambush! ability. Continue that activation. \n <b>If this stage is completed, the players lose the game. </b>"
 	},
 	{
 		"code": "27102a",
 		"name": "Light at the End",
+		"text": "Permanent. Hinder 10[per_player]. \n The players cannot win unless they escape. \n <b>Forced Interrupt: </b> When the last threat is removed from this scheme, resolve the Ambush! Ability on the main scheme. Flip this card. (The palyers can escape on the other side.)",
 		"traits": "Trap!"
 	},
 	{
 		"code": "27102b",
 		"name": "Light at the End",
+		"text": "Permanent. Hinder 10[per_player]. \n The players cannot win unless they escape. \n <b>Forced Interrupt: </b> When the last threat is removed from this scheme, the players escape and win the game.",
 		"traits": "Chase!"
 	},
 	{
 		"code": "27103",
 		"name": "Heightened Morale",
+		"text": "Attach to the villain with the highest activation order value. If you cannot, resolve the Ambush! Ability on the main scheme, then attach this card on the active villain. X is equal to the number of villains in play.",
 		"traits": "Condition."
 	},
 	{
 		"code": "27104",
 		"name": "Taunting Presence",
+		"text": "Attach to the villain with the most remaining hit points. If you cannot, resolve the Ambush! Ability on the main scheme, then attach this card to the active villain.",
 		"traits": "Condition."
 	},
 	{
 		"code": "27105",
 		"name": "Team Leader",
+		"text": "Attach to the villain with the lowest activation order value. If you cannot, resolve the Ambush! Ability on the main scheme, then attach this card to the active villain.",
 		"traits": "Title."
 	},
 	{
 		"code": "27106",
-		"name": "Take One for the Team"
+		"name": "Take One for the Team",
+		"text": "Attach to the villain with the highest ATK. If you cannot, resolve the Ambush! Ability on the main scheme, then attach this card to the active villain. \n You cannot attack villains who do not have an attached copy of Take One for the Team."
 	},
 	{
+		"boost_text": "Give the villain 1 additional boost card for this activation.",
 		"code": "27107",
-		"name": "Brute Force Barricade"
+		"name": "Brute Force Barricade",
+		"text": "Victory 1. (When defeated, add this card to the victory display.) \n Threat cannot be removed from other side schemes."
 	},
 	{
 		"code": "27108",
-		"name": "Frequent Flyers"
+		"name": "Frequent Flyers",
+		"text": "In expert mode, this card gains incite 1 and cannot be canceled. \n <b>When Revealed: </b> Put the set-aside Hobgoblin and Vulture into play. If Hobgoblin is already in play, take 2 indirect damage. If Vulture is already in play, discard 1 card at random from your hand."
 	},
 	{
 		"code": "27109",
-		"name": "High Fashion"
+		"name": "High Fashion",
+		"text": "In expert mode, this card gains incite 1 and cannot be canceled. \n <b>When Revealed: </b> Put the set-aside Electro and Kraven the Hunter into play. If Electro is already in play, discard the highest-cost card you control. If Kraven the Hunter is already in play, discard the lowest-cost card you control."
 	},
 	{
 		"code": "27110",
-		"name": "Robotic Enhancements"
+		"name": "Robotic Enhancements",
+		"text": "In expert mode, this card gains incite 1 and cannot be canceled. \n <b>When Revealed: </b> Put the set-aside Doctor Octopus and Scorpion into play. If Doctor Octopus is already in play, confuse a character you control. If Scorpion is already in play, stun a character you control."
 	},
 	{
 		"code": "27111",
-		"name": "Partnership of Pain"
+		"name": "Partnership of Pain",
+		"text": "<b>When Revealed (Alter-Ego): </b> The Villain with the lowest activation order value schemes with +X SCH where X is equal to the total SCH of all other villains in play. \n <b> When Revealed (Hero): </b> The villain with the highest activation order value attacks you with +X ATK, where X is equal to the total ATK of all other villains in play."
 	},
 	{
 		"code": "27112",
-		"name": "Surprise!"
+		"name": "Surprise!",
+		"text": "In expert mode, this card gains surge and cannot be canceled. \n <b> When Revealed: </b>Resolve the Ambush! Ability on the main scheme. If no villain was put into play this way, place 3 threat on Light at the End."
 	},
 	{
 		"code": "27113",
 		"name": "Venom Goblin",
+		"text": "Steady. \n Infest the City - [star] <b>Forced Response: </b> After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Choose to either place 2 threat on that scheme or resolve its <b> Special </b> ability.",
 		"traits": "Goblin. Symbiote."
 	},
 	{
 		"code": "27114",
 		"name": "Venom Goblin",
+		"text": "Steady. Toughness. \n <b>When Revealed: </b> Deal 2 facedown encounter cards to each player. \n Claim the Throne - [star] <b>Forced Response: </b>After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Resolve its <b>Special</b> ability.",
 		"traits": "Goblin. Symbiote."
 	},
 	{
 		"code": "27115",
 		"name": "Venom Goblin",
+		"text": "Retaliate 1. Stalwart. Toughness. \n <b>When Revealed: </b> Deal 3 facedown encounter cards to each player. \n Reign of Terror - [star]<b>Forced Response: </b> After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Place 1 threat on that scheme and resolve its <b> Special </b> ability.",
 		"traits": "Goblin. Symbiote."
 	},
 	{
 		"code": "27116a",
-		"name": "Skies Over New York"
+		"name": "Skies Over New York",
+		"text": "<b> Contents: </b> Venom Goblin (I) and Venom Goblin (II) (Venom Goblin (II) and Venom Goblin (III) for expert mode.) Venom Goblin, symbiotic strength, and standard encounter sets. One modular encounter set (Goblin Gear). \n <b>Setup: </b> Put the Lower Manhattan, Midtown Mahattan, and Upper Mahattan main schemes into play. Place the glifer counter on Midtown Manhattan. Flip this card and set it asside."
 	},
 	{
 		"code": "27116b",
-		"name": "Skies Over New York"
+		"name": "Skies Over New York",
+		"text": "Player cards that affect the main scheme can apply to any main scheme. \n encounter cards that affect the main scheme only apply to the scheme with the glider counter (including the placing of acceleration tokens). \n Each main scheme accumulates threat each round according to its acceleration value and any accerlation tokens on that scheme"
 	},
 	{
 		"code": "27117a",
-		"name": "Lower Manhattan"
+		"name": "Lower Manhattan",
+		"text": "<b>Special: </b>Place 1 threat on each scheme. If a [[symbiote]] environment is in play, place 1 additional threat on this scheme."
 	},
 	{
 		"code": "27117b",
 		"name": "Lower Manhattan",
+		"text": "<b> When Revealed: </b> Move the glider counter and each accerleration token from here to the main scheme with the least threat. \n <b> If there are at least 2 [[symbiote]] environments in play, the players lose the game.",
 		"traits": "Location. Symbiote."
 	},
 	{
 		"code": "27118a",
-		"name": "Midtown Manhattan"
+		"name": "Midtown Manhattan",
+		"text": "<b>Special: </b> Take 2 indirect damage. If a [[symbiote]] environment is in play, take 1 additional indirect damage."
 	},
 	{
 		"code": "27118b",
 		"name": "Midtown Manhattan",
+		"text": "<b> When Revealed: </b> Move the glider counter and each accerleration token from here to the main scheme with the least threat. \n <b> If there are at least 2 [[symbiote]] environments in play, the players lose the game.",
 		"traits": "Location. Symbiote."
 	},
 	{
 		"code": "27119a",
-		"name": "Upper Manhattan"
+		"name": "Upper Manhattan",
+		"text": "<b>Special: </b> Discard 1 card from your hand. If a [[symbiote]] environment is in play, discard the top 4 cards of your deck."
 	},
 	{
 		"code": "27119b",
 		"name": "Upper Manhattan",
+		"text": "<b> When Revealed: </b> Move the glider counter and each accerleration token from here to the main scheme with the least threat. \n <b> If there are at least 2 [[symbiote]] environments in play, the players lose the game.",
 		"traits": "Location. Symbiote."
 	},
 	{
 		"code": "27120",
-		"name": "We Are One"
+		"name": "We Are One",
+		"text": "Attach to Venom Goblin. \b <b>Hero Action: </b> Spend [energ][genius][strength] printed resources -> discard this card."
 	},
 	{
+		"boost_text": "Move the glider counter to the main scheme with the most threat. Place 1 threat on that scheme.",
 		"code": "27121",
 		"name": "Symbiotic Berserker",
+		"text": "[star] While a [symbiote] environment is in play, Symbiotic Berserker gains quickstrike.",
 		"traits": "Symbiote."
 	},
 	{
+		"boost_text": "If this activation is an attack, this attack deals indirect damage.",
 		"code": "27122",
 		"name": "Symbiotic Monstrosity",
+		"text": "Retaliate 1. Steady. Toughness. \n  [star]While a [[symbiote]] environment is in play, Symbiotic Montrosity gets +3 hit points.",
 		"traits": "Elite. Symbiote."
 	},
 	{
+		"boost_text": "Place 1 threat on each main scheme without the glider counter.",
 		"code": "27123",
 		"name": "Symbiotic Thrall",
+		"text": "Guard. \n While a [[symbiote]] environment is in play, Symbiotic Thrall gains patrol.",
 		"traits": "Symbiote."
 	},
 	{
 		"code": "27124",
-		"name": "Festering Mass"
+		"name": "Festering Mass",
+		"scheme_text": "While there are no other [[symbiote]] environments in play, this card is considered a [[symbiote]] environment."
 	},
 	{
 		"code": "27125",
-		"name": "Joy Ride"
+		"name": "Joy Ride",
+		"scheme_text": "Hinder 2[per_player]. \n <b> When Revealed: </b> Move the glider token to the main scheme with the most threat. Resolve thats schemes <b>Special</b> ability."
 	},
 	{
+		"boost_text": "Resolve the <b>Special</b> ability of the scheme with the glider counter.",
 		"code": "27126",
-		"name": "Spreading Panic"
+		"name": "Spreading Panic",
+		"text": "Surge. \n <b>When Revealed: </b> Resolve the <b>Special</b> ability of the scheme with the glider counter."
 	},
 	{
 		"code": "27127",
-		"name": "Panic in the Streets"
+		"name": "Panic in the Streets",
+		"scheme_text": "Treat the printed text box of each [[location]] support and each [[persona]] support as if it were blank (except for [[traits]])"
 	},
 	{
+		"attack_text": "Rhino's attack gain overkill and piercing",
 		"code": "27128",
 		"name": "Rhino",
+		"text": "Steady. (Steady characters require 2 status cards of the same type to be stunned or confused.)",
 		"traits": "Criminal. Elite."
 	},
 	{
 		"code": "27129",
-		"name": "Calling in Favors"
+		"name": "Calling in Favors",
+		"text": "<b> When Revealed: </b> Rhino schemes with +2 SCH. If Rhino is not in play, search the encounter deck and discard pile for the Rhino minion and put him into play engaged with you. (shuffle.)"
 	},
 	{
 		"code": "27130",
-		"name": "Now or Never"
+		"name": "Now or Never",
+		"text": "Peril. (While you are resolving this card, other players cannot help you.) \n <b> When Reveald: </b> Choose: \n Place 1 acceleration token on the main scheme. \n Exhause a character you control and spend 1 resource of any type"
 	},
 	{
 		"code": "27131",
 		"name": "Common Criminal",
+		"text": "Surge. \n <b> Alter-ego Action: </b> Spend a [physical] resource → deal 3 damage to Common Criminal. If this minion is defeated this way, choose to either draw 1 card or remove 3 threat from a side scheme.",
 		"traits": "Criminal."
 	},
 	{
 		"code": "27132",
-		"name": "Friends and Family"
+		"name": "Friends and Family",
+		"text": "While in hero form, increase the resource cost of each event you play by 1. \n <b> Alter-Ego Action: </b> Discard 1 identity specific card from your hand → discard this obligation."
 	},
 	{
 		"code": "27133",
-		"name": "Volunteer Work"
+		"name": "Volunteer Work",
+		"scheme_text": "You cannot thwart this scheme. \n <b> Alter-Ego Action: </b> Spend 2 resources of any type → remove threat from this scheme equal to your alter-ego's REC. If your identity has the [[civilian]] trait, draw 1 card."
 	},
 	{
 		"code": "27134",
-		"name": "\"Threat or Menace?\""
+		"name": "\"Threat or Menace?\"",
+		"text": "<b> When Revealed: </b> You may change form. If you are in hero form, place 2 threat on the main scheme. If you are alter-ego form, you cannot change form during your next turn."
 	},
 	{
 		"code": "27135",
-		"name": "Loose Ends"
+		"name": "Loose Ends",
+		"text": "<b> When Revealed: </b> Search the encounter deck, discard pile, set-aside area, and removed-from-game area for a copy of your obligation, then reveal it. During that reveal, if you change to alter-ego form, discard 1 random card from your hand. If your obligation was not revealed this way, this card gains surge."
 	},
 	{
 		"code": "27136",
 		"name": "Advanced Glider",
+		"text": "Attach to the villain. \n <b> Forced Response: </b> After attached villain activates against you, it activates against you again. (Limit once per rounder per player). \n <b> Hero Action: </b> Discard any number of [[attack]] cards from your hand with a combined resource cost of 3 or more → discard this card.",
 		"traits": "Item. Tech."
 	},
 	{
 		"code": "27137",
 		"name": "Concussive Bombs",
+		"text": "Attach to the villain. \n Uses (2 bomb counters.) \n [star] <b>Foced Response: </b> After the villain attacks you, remove 1 bomb counter from here → exhauset 1 upgrade and 1 support you control.",
 		"traits": "Tech. Weapon."
 	},
 	{
 		"code": "27138",
 		"name": "Incendiary Bombs",
+		"text": "Attach to the villain. \n Uses (2 bomb counters.) \n [star] <b>Foced Response: </b> After the villain attacks you, remove 1 bomb counter from here → take 2 indirect damage.",
 		"traits": "Tech. Weapon."
 	},
 	{
 		"code": "27139",
 		"name": "Smoke Bombs",
+		"text": "Attach to the villain. \n Uses (2 bomb counters.) \n [star] <b>Foced Response: </b> After the villain attacks you, remove 1 bomb counter from here → discard 1 event from your hand with the lowest cost.",
 		"traits": "Tech. Weapon."
 	},
 	{
 		"code": "27140",
-		"name": "Limitless Supply"
+		"name": "Limitless Supply",
+		"scheme_text": "Each [[Tech]] attachment gains surge."
 	},
 	{
+		"boost_text": "Give the villain 2 additional boost cards for this activation.",
 		"code": "27141",
-		"name": "Remote Navigation"
+		"name": "Remote Navigation",
+		"text": "<b> When Revealed: </b> If Advaned Glider is in play, the villain activates against you. If it is not in play, search the encounter deck and discard pile for Advance Glider and reveal it."
 	},
 	{
+		"boost_text": "Put this minion into play engaged with you.",
 		"code": "27142",
-		"name": "Life-Size Decoy"
+		"name": "Life-Size Decoy",
+		"text": "In expert mode, Life-size Decoy gains toughness. \n The engaged player cannot thwart side schemes"
 	},
 	{
+		"boost_text": "Place 1 threat on each scheme. (In expert mode, place 1 additional threat on the main scheme.)",
 		"code": "27143",
-		"name": "Coordinated Effort"
+		"name": "Coordinated Effort",
+		"scheme_text": "Each enemy gains 1 acceleration icon."
 	},
 	{
+		"boost_text": "Deal 1 idirect damage to each player. (In expert mode, deal 1 addition indirect damage to the first player.)",
 		"code": "27144",
-		"name": "Hidden in Shadow"
+		"name": "Hidden in Shadow",
+		"scheme_text": "Each enemy gains 1 hazard icon."
 	},
 	{
+		"boost_text": "In expert mode, this card gets +2 boost icons [boost][boost] for this activation.",
 		"code": "27145",
-		"name": "Teamwork Makes the Dream Work"
+		"name": "Teamwork Makes the Dream Work",
+		"scheme_text": "Each enemy gets +1 SCH and +1 ATK."
 	},
 	{
 		"code": "27146",
-		"name": "From Every Direction"
+		"name": "From Every Direction",
+		"text": "In expert mode, this card gains surge. \n <b> When Revealed: </b> Place 1 threat on the main scheme for each enemy in play."
 	},
 	{
 		"code": "27147",
 		"name": "Arm Cannon",
+		"text": "Surge. \n Attach to the villain \n [star] Attached villain's attacks gain overkill and piercing.  <b> Hero Action: </b> Discard the highest cost upgrade you control → discard this card.",
 		"traits": "Tech. Weapon."
 	},
 	{
 		"code": "27148",
 		"name": "Ionic Boots",
+		"text": "Surge. \n Attach to the villain \n [star] <b> Forced Response: </b> After attached villain attacks and damages your identity, place 2 threat on the main scheme. \n <b> Hero Action: </b> Spend [energy] [mental][physical] resources → discard this card.",
 		"traits": "Item. Tech."
 	},
 	{
 		"code": "27149",
 		"name": "Kinetic Armor",
+		"text": "Surge. \n Attach to the villain \n Attached villain gains realiate 1. \n <b> Hero Action: </b> Take 3 indirect damage → discard this card.",
 		"traits": "Armor. Tech."
 	},
 	{
 		"code": "27150",
 		"name": "Neocarbon Scales",
+		"text": "Surge. \n Attach to the villain \n Reduce the amount of damage attached villain takes from each attack by 1  <b> Hero Action: </b> Give the villain a tough status card and 1 facedown boost card → discard this card.",
 		"traits": "Armor. Tech."
 	},
 	{
 		"code": "27151",
 		"name": "Spiked Gauntlet",
+		"text": "Surge. \n Attach to the villain. \n <b> Hero Action: </b> The villain attacks you. After that attack ends, if your identity took no damage from that attack, discard this card.",
 		"traits": "Tech. Weapon."
 	},
 	{
 		"code": "27152",
 		"name": "Tracking Display",
+		"text": "Surge . \n Attach to the villain. \n [star] Each character cannot defend against attached villain's attack. \n <b> Hero Action: </b> Exhause a character you control and discard 1 random card from your hand → discard this card.",
 		"traits": "Item. Tech."
 	},
 	{
 		"code": "27153",
 		"name": "Induced Panic",
+		"text": "Attach to your identity. \n You cannot resolve triggered abilities in your hero's printed text box. (Triggered abilities are ones with <b> bold </b> timing triggers.) /n <b> Alter-Ego Action: </b> Discard 1 identity-specific card at random from your hand →discard this card.",
 		"traits": "Illusion."
 	},
 	{
+		"boost_text": "Draw 3 cards. Discard 3 random cards from your hand.",
 		"code": "27154",
 		"name": "Evil Doppelgänger",
+		"text": "Evil Doppelganger gers +X SCH and +X ATK where X is equal to the number of identity-specific cards in the engaged player's hand.",
 		"traits": "Illusion."
 	},
 	{
 		"code": "27155",
-		"name": "Fool's Paradise"
+		"name": "Fool's Paradise",
+		"scheme_text": "Victory  1. (When defeated, add this card to the victory display.) \n Each identity gets +2 hand size."
 	},
 	{
 		"code": "27156",
-		"name": "Weakness from Within"
+		"name": "Weakness from Within",
+		"scheme_text": "<b> When Revealed: </b> Place 1 additional threat here for each card in your hand."
 	},
 	{
 		"code": "27157",
-		"name": "Deepest Fears"
+		"name": "Deepest Fears",
+		"text": "Peril. (While you are resolving this card, other players cannot help you.) \n <b>When Revealed: </b> Discard cards from the top of your deck equal to the number of cards in your hand. If at least 1 identity-specific card was discarded this way, place 1 threat on the main scheme. If not identity-specific card was discarded this way, take 1 damage."
 	},
 	{
 		"code": "27158",
 		"name": "Doctor Octopus",
+		"text": "Incite 2. Villainous. \n [star] <b> Forced Response: </b> After Doctor Octopus activates against you, place 1 threat on each scheme.",
 		"traits": "Elite. Genius."
 	},
 	{
 		"code": "27159",
 		"name": "Electro",
+		"text": "Retaliate 1. Villainous. \n <b>Forced Response: </b> After Electro engages you or activates against you, discard cards from the top of your deck until you discard a [energy] or [wild] resource.",
 		"traits": "Criminal. Elite."
 	},
 	{
 		"code": "27160",
 		"name": "Hobgoblin",
+		"text": "Patrol. Villainous. \n [star] <b>Forced Response: </b> After Hobgolbin attacks you, take 2 indirect damage.",
 		"traits": "Aerial. Elite."
 	},
 	{
 		"code": "27161",
 		"name": "Kraven the Hunter",
+		"text": "Steady. Villainous. \n [star] <b>Forced Response: </b> After Kraven the Hunter attacks and damges a character you control, discard 1 upgrade or support you control.",
 		"traits": "Elite."
 	},
 	{
 		"code": "27162",
 		"name": "Scorpion",
+		"text": "Toughness. Villainous. \n [star] <b>Forced Response: </b> After Scorpion attacks and damges a character, stun that character. If it is already stunned, deal 2 damage to it.",
 		"traits": "Brute. Elite."
 	},
 	{
 		"code": "27163",
 		"name": "Vulture",
+		"text": "Quickstrike. Villainous. \n [star] <b>Forced Response: </b> After Vulture activates against you, discard 1 random card from your hand.",
 		"traits": "Aerial. Elite."
 	},
 	{
 		"code": "27164",
-		"name": "Improvised Weapons"
+		"name": "Improvised Weapons",
+		"text": "Attach to the villain. \n <b> Hero Action: </b> Spend [mental][physical][energy] resources → discard this card."
 	},
 	{
 		"code": "27165",
 		"name": "Violent Tendencies",
+		"text": "Attach to the villain. \n <b>Forced Response: </b> After attached villain takes any amount of damage from an attack, give attached villain 1 facedown boost card. If that attack dealt 3 or more damage to attached villain, discard this card.",
 		"traits": "Condition."
 	},
 	{
+		"boost_text": "You are stunned. If you are already stunned, take 2 damage.",
 		"code": "27166",
 		"name": "Webbed Up",
+		"text": "Attach to your identity.  \n <b> Forced Interrupt </b> When your hero would attack, discard Webbed Up instead. Then you are stunned.",
 		"traits": "Condition."
 	},
 	{
+		"boost_text": "Put enraged Symbiote into play engaged with you.",
 		"code": "27167",
 		"name": "Enraged Symbiote",
+		"text": "Guard Patrol. (While this minion is engaged with you, you cannot thwart the main scheme.)",
 		"traits": "Symbiote."
 	},
 	{
 		"code": "27168",
-		"name": "Swinging Assault"
+		"name": "Swinging Assault",
+		"text": "<b> When Revealed (Alter-Ego): </b> Change to hero form. The villain attacks you. \n <b>When Revealed (Hero): </b> The villain attacks you. Give the villain 1 additional boost card for that activation."
 	},
 	{
+		"boost_text": "If this activation is an attack, this card gets +2 boost icons ([boost][boost]) for this attack and this attack gains overkill.",
 		"code": "27169",
-		"name": "Unstable Sentience"
+		"name": "Unstable Sentience",
+		"text": "Surge. \n <b> When Revealed: </b> Give the villain 1 facedown boost card."
 	},
 	{
+		"boost_text": "If any ally is defeated by this attack, take indirect damage equal to that ally's printed cost.",
 		"code": "27170",
 		"name": "Delusion of Collusion",
+		"text": "Attach to your identity. \n You cannot ready allies or [[persona]] supports you control \n <b> Alter-Ego Action: </b> Discard an ally or [[persona]] support you control → discard this card.",
 		"traits": "Illusion."
 	},
 	{
 		"code": "27171",
 		"name": "Manipulated Mind",
+		"text": "Treat attached ally as a minion with a blank text box (except for [[traits]]). Attach minion's SCH is equal to its printed THW and it does not take consequential damage. \n <b>When Revealed: </b> Attach to the ally you control with the lowest cost. If you cannot, this card gains surge.",
 		"traits": "Illusion."
 	},
 	{
+		"boost_text": "Deal 1 damage to each character you control.",
 		"code": "27172",
 		"name": "Old Grudge",
+		"text": "Attached minion gets +1 hit point. \n <b> When Revealed: </b> Search the encounter deck, discard pile, and set-aside area for your nemesis minion, then reveal that minion. Attach old Grudge to it (Shuffle.)",
 		"traits": "Illusion."
 	},
 	{
 		"code": "27173",
-		"name": "Analysis Paralysis"
+		"name": "Analysis Paralysis",
+		"scheme_text": "<b>When Revealed: </b> Search the encounter deck, discard pile, set-aside aread for your nemesis side scheme, then reveal it. Place X additional threat here, where X is requal to the amount of threat on that side scheme."
 	}
 ]
