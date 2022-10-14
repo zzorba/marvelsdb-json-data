@@ -2,262 +2,279 @@
 	{
 		"code": "32001a",
 		"name": "Colossus",
-		"text": "Colossus can have 1 additional tough status card.\n<i>Steel Skin</i> – <b>Response</b>: After you change to this form, give Colossus a tough status card.",
+		"text": "Colossus kann 1 zusätzliche Zäh-Statuskarte haben.\n<i>Haut aus Stahl</i> – <b>Reaktion</b>: Nachdem du in diese Gestalt gewechselt bist, gib Colossus eine Zäh-Statuskarte.",
 		"traits": "X-Men."
 	},
 	{
 		"code": "32001b",
 		"name": "Piotr Rasputin",
-		"text": "<b>Setup</b>: Search your deck for a copy of Organic Steel and add it to your hand.\n<i>Aspiring Artist</i> – <b>Response</b>: After you change to this form, shuffle a Colossus card from your discard pile into your deck.",
+		"text": "<b>Spielaufbau</b>: Durchsuche dein Deck nach einem Exemplar von Organischer Stahl und nimm es auf deine Hand.\n<i>Aufstrebender Künstler</i> – <b>Reaktion</b>: Nachdem du in diese Gestalt gewechselt bist, mische eine Colossus-Karte aus deinem Ablagestapel in dein Deck.",
 		"traits": "Mutant."
 	},
 	{
 		"code": "32002",
+		"flavor": "\"Komm schon, Peter, du Dummkopf! Dein Körper ist aus Metall, nicht dein Gehirn!\"",
 		"name": "Shadowcat",
 		"subname": "Kitty Pryde",
-		"text": "Shadowcat ignores the guard and patrol keywords, and any crisis icons ([crisis]) in play.",
+		"text": "Shadowcat ignoriert die Schlüsselwörter Wache und Patrouille und alle Krisensymbole ([crisis]) im Spiel.",
 		"traits": "X-Men."
 	},
 	{
 		"code": "32003",
+		"flavor": "\"Unter seiner Haut aus Stahl verbirgt sich das Herz eines Künstlers, der lieber malt als kämpft.\"",
 		"name": "Piotr's Studio",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Piotr's Studio → discard cards from your deck until you discard a Colossus card. Add that card to your hand.",
-		"traits": "Location."
+		"text": "<b>Alter-Ego Aktion</b>: Erschöpfe Piotrs Studio → lege Karten von deinem Deck ab, bis du eine Colossus-Karte ablegst, und nimm sie auf deine Hand.",
+		"traits": "Ort."
 	},
 	{
 		"code": "32004",
-		"name": "Iron Will",
-		"text": "Colossus gets +1 THW.\n<b>Response</b>: After a tough status card is discarded from Colossus, draw 1 card.",
-		"traits": "Superpower."
+		"flavor": "\"Peteys Wille ist genau so stark wie seine gepanzerte Haut. Er gibt niemals nach.\" - Wolverine",
+		"name": "Eiserner Wille",
+		"text": "Colossus bekommt +1 WID.\n<b>Held - Reaktion</b>: Nachdem eine Zäh-Statuskarte von Colossus abgelegt worden ist, ziehe 1 Karte.",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "32005",
-		"name": "Titanium Muscles",
-		"text": "Colossus gets +1 ATK.\n<b>Hero Resource</b>: Exhaust this card → generate a [physical] resource for each tough status card on Colossus.",
-		"traits": "Superpower."
+		"name": "Muskeln aus Titan",
+		"text": "Colossus bekommt +1 ANG.\n<b>Held - Ressource</b>: Erschöpfe diese Karte  → erzeuge für jede Zäh-Statuskarte auf Colossus eine [physical]-Ressource.",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "32006",
-		"name": "Organic Steel",
-		"text": "Uses (2 steel counters).\n<b>Hero Response</b>: After a tough status card is discarded from Colossus, exhaust this card and remove 1 steel counter from it → give Colossus a tough status card.",
-		"traits": "Superpower."
+		"name": "Organischer Stahl",
+		"text": "Anwendungen (2 Stahlmarker).\n<b>Held - Reaktion</b>: Nachdem eine Zäh-Statuskarte von Colossus abgelegt worden ist, erschöpfe diese Karte und entferne 1 Stahlmarker von ihr  → gib Colossus eine Zäh-Statuskarte.",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "32007",
-		"name": "Made of Rage",
-		"text": "<b>Hero Interrupt</b>: When you make a basic attack, discard a tough status card from your hero → youo get +6 ATK for that attack. That attack gains overkill.",
-		"traits": "Superpower."
+		"flavor": "\"Aaarrrrrhhhhhh!!\" - Colossus",
+		"name": "Aus Zorn geformt",
+		"text": "<b>Held - Unterbrechung</b>: Sobald du einen Basisangriff durchführst, lege eine Zäh-Statuskarte von deinem Helden ab → du bekommst für den Angriff +6 ANG. Der Angriff erhält Overkill.",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "32008",
-		"name": "Steel Fist",
-		"text": "<b>Hero Action</b>: Deal 5 damage to an enemu. You may discard a tough status card from your hero → stun and confuse that enemy.",
-		"traits": "Attack. Superpower."
+		"flavor": "\"Kameraden, lasst uns diesen Kampf ein für alle Mal beenden!\" - Colossus",
+		"name": "Stahlfaust",
+		"text": "<b>Held - Aktion)</b> <i>(Angriff)</i>: Füge einem Gegner 5 Schaden zu. Du darfst eine Zäh-Statuskarte von deinem Helden ablegen →betäube und verwirre jenen Gegner.",
+		"traits": "Angriff. Superkraft."
 	},
 	{
 		"code": "32009",
-		"name": "Bulletproof Protector",
-		"text": "<b>Hero Action</b>: Discard a tough status card from your hero → choose :\n• Give your hero 2 tough status cards.\n• Ready your hero.",
-		"traits": "Superpower."
+		"name": "Kugelsicherer Beschützer",
+		"text": "<b>Held - Aktion</b>: Lege eine Zäh-Statuskarte von deinem Helden ab  → wähle :\n• Gib deinem Helden 2 Zäh-Statuskarten.\n• Mache deinen Helden spielbereit.",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "32010",
-		"name": "Armor Up",
-		"text": "<b>Alter-Ego Interrupt</b>: When the villain activates, change to hero form.",
-		"traits": "Superpower."
+		"flavor": "\"Statt mich zu erledigen, hast du nur mit mir gespielt. Das hat mir Zeit verschafft, mich zu verwandeln - von Piotr Rasputin... in Colossus!\" - Colossus",
+		"name": "Panzern",
+		"text": "<b>Alter Ego - Unterbrechung</b>: Sobald der Schurke aktiviert wird, wechsle in deine Heldengestalt.",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "32011",
 		"name": "Nightcrawler",
 		"subname": "Kurt Wagner",
-		"text": "<b>Interrupt</b>: When an [[X-MEN]] character would take any amount of damage from an enemy attack, spend a [energy] resource and return Nightcrawler to your hand → prevent all of that damage.",
+		"text": "<b>Unterbrechung</b>: Sobald ein [[X-Men]]-Charakter durch einen gegnerischen Angriff eine beliebige Menge an Schaden nehmen würde, gib eine [energy]-Ressource aus und schicke Nightcrawler auf deine Hand zurück → verhindere allen Schaden davon.",
 		"traits": "X-Men."
 	},
 	{
 		"code": "32012",
+		"flavor": "\"Ich liebe meinen Vater. Aber wo er versucht, andere zu beherrschen, da kämpfe ich darum, sie zu beschützen.\"",
 		"name": "Polaris",
 		"subname": "Lorna Dane",
-		"text": "<b>Response</b>: After Polaris enters play, give an [[X-MEN]] character a tough status card.",
+		"text": "<b>Reaktion</b>: Nachdem Polaris ins Spiel gekommen ist, gib einem [[X-Men]]-Charakter eine Zäh-Statuskarte.",
 		"traits": "X-Men."
 	},
 	{
 		"code": "32013",
-		"name": "Protective Training",
-		"text": "Attach to an [[X-MEN]] ally. Max 1 [[Training]] upgrade per ally.\nAttached ally gets +3 hit points.",
+		"flavor": "\"Die X-Men haben geschworen, eine Welt zu beschützen, die sie hasst und fürchtet. Dafür trainieren sie unablässig.\"",
+		"name": "Defensivtraining",
+		"text": "Hänge diese Karte an einen [[X-Men]]-Verbündeten an. Max. 1 [[Training]]-Upgrade pro Verbündeten.\nDer Verbündete mit diesem Upgrade bekommt +3 Lebenspunkte.",
 		"traits": "Training."
 	},
 	{
 		"code": "32014",
-		"name": "Powerful Punch",
-		"text": "<b>Hero Interrupt</b> <i>(attack/defense)</i>: When an enemy initiates an attack, deal 4 damage to that enemy.",
-		"traits": "Attack. Defense."
+		"flavor": "\"Wie wäre es mit einem Schlag in die Magengrube?!\" - Shadowcat",
+		"name": "Mächtiger Schlag",
+		"text": "<b>Held - Unterbrechung</b> <i>(Angriff/Verteidigung)</i>: Sobald ein Gegner einen Angriff einleitet, füge ihm 4 Schaden zu.",
+		"traits": "Angriff. Verteidigung."
 	},
 	{
 		"code": "32016",
 		"name": "Perseverance",
-		"text": "<b>Hero Response</b>: After you change form, give your hero a tough status card.",
-		"traits": "Tactic."
+		"text": "<b>Held - Reaktion</b>: Nachdem du deine Gestalt gewechselt hast, gib deinem Helden eine Zäh-Statuskarte.",
+		"traits": "Taktik."
 	},
 	{
 		"code": "32017",
-		"name": "Mutant Protection",
-		"text": "Play only if your identity has the [[X-MEN]] trait.\n<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, put an [[X-MEN]] ally into play from your hand. Exhaust it and declare it the defender for this attack.",
-		"traits": "Defense."
+		"name": "Beschützer-Mutanten",
+		"text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[X-Men]] hat.\n<b>Held - Unterbrechung </b> <i>(Verteidigung)</i>: Sobald ein Gegner angreift, bringe einen [[X-Men]]-Verbündeten von deiner Hand ins Spiel. Erschöpfe ihn und erkläre ihn für diesen Angriff zum Verteidiger.",
+		"traits": "Verteidigung."
 	},
 	{
 		"code": "32018",
-		"name": "Defensive Energy",
-		"text": "Max 2 per deck.\n<b>Hero Interrupt</b>: When you spend this card to play a [[Defense]] event, draw 1 card."
+		"name": "Schützende Energie",
+		"text": "Max. 2 pro Deck.\n<b>Held - Unterbrechung</b>: Sobald du diese Karte ausgibst, um ein [[Verteidigung]]-Ereignis zu spielen, ziehe 1 Karte."
 	},
 	{
 		"code": "32019",
 		"name": "Professor X",
 		"subname": "Charles Xavier",
-		"text": "<b>Forced Response</b>: After Professor X enters play, choose one : confuse the villain, stun a minion, or ready an [[X-MEN]] character. At the end of the round, if Professor X is still in play, discard him.",
-		"traits": "Psionic. X-Men."
+		"text": "<b>Erzwungene Reaktion</b>: Nachdem Professor X ins Spiel gekommen ist, wähle eines: Verwirre den Schurken, betäube einen Schergen oder mache einen [[X-Men]]-Charakter spielbereit. Falls Professor X am Ende der Runde noch im Spiel ist, lege ihn ab.",
+		"traits": "Psionisch. X-Men."
 	},
 	{
 		"code": "32020",
+		"flavor": "\"Forge hat sich mit dieser Schönheit wirklich selbst übertroffen!\" - Beast",
 		"name": "The X-Jet",
-		"text": "<b>Resource</b>: Exhaust The X-Jet → generate a [wild] resource for a player whose identity has the [[X-MEN]] trait.",
-		"traits": "Vehicle. X-Men."
+		"text": "<b>Ressource</b>: Erschöpfe X-Jet → erzeuge eine [wild]-Ressource für einen Spieler, dessen Identität das Merkmal [[X-Men]] hat.",
+		"traits": "Fahrzeug. X-Men."
 	},
 	{
 		"code": "32021",
-		"name": "Shadow and Steel",
-		"text": "Team-Up (Colossus and Shadowcat).\nMax 1 per deck.\n\n<b>Hero Interrupt</b> <i>(attack/defense)</i>: When an enemy attacks, prevent all damage from that attack and deal 4 damage to the attacking enemy.",
-		"traits": "Attack. Defense."
+		"name": "Schatten und Stahl",
+		"text": "Teamwork (Colossus und Shadowcat).\nMax. 1 pro Deck.\n\n<b>Held - Unterbrechung</b> <i>(Angriff/Verteidigung)</i>: Sobald ein Gegner angreift, verhindere allen Schaden durch den Angriff und füge dem angreifenden Gegner 4 Schaden zu.",
+		"traits": "Angriff. Verteidigung."
 	},
 	{
 		"code": "32030a",
+		"flavor": "\"Du kannst nicht aufhalten, was du nicht zu fassen kriegst!\"",
 		"name": "Shadowcat",
-		"text": "<i>Selective Intangibility</i> – While you are in Phased mass form, Shadowcat ignores the guard and patrol keywords, and any crisis icons ([crisis]) in play.",
+		"text": "<i>Selektive Immaterialität</i> – Solange du in der Phasenform-Massegestalt bist, ignoriert Shadowcat die Schlüsselwörter Wache und Patrouille sowie alle Krisensymbole ([crisis]) im Spiel.",
 		"traits": "X-Men."
 	},
 	{
 		"code": "32030b",
 		"name": "Kitty Pride",
-		"text": "<b>Setup</b>: Put your mass form upgrade into play, Solid side faceup.\n<i>Phase Control</i> – <b>Action</b>: Flip your mass form upgrade. (Limit once per round.)",
+		"text": "<b>Spielaufbau</b>: Bringe dein Massegestalt-Upgrade mit der Festform-Seite nach oben ins Spiel.\n<i>Phasenkontrolle</i> – <b>Aktion</b>: Flip your mass form upgrade. (Limit once per round.)",
 		"traits": "Mutant."
 	},
 	{
 		"code": "32031a",
-		"name": "Solid",
-		"text": "Mass form. Permanent.\n<b>Hero Resource</b>: Exhaust this card → generate a [physical] resource for an [[attack]] or [[defense]] event.\n<b>Response</b>: After you attack or defend in Solid mass form, flip this card."
+		"name": "Festform",
+		"text": "Massegestalt. Dauerhaft.\n<b>Held - Ressource</b>: Erschöpfe diese Karte → erzeuge eine [physical]-Ressource für ein [[Angriff]]- oder [[Verteidigung]]-Ereignis.\n<b>Reaktion</b>: Nachdem du in dieser Masse-gestalt angegriffen oder verteidigt hast, drehe diese Karte um."
 	},
 	{
 		"code": "32031b",
-		"name": "Phased",
-		"text": "Mass form. Permanent.\nWhile Shadowcat is defending, she cannot take damage.\n<b>Forced Response</b>: After you attack or defend in Phased mass form, flip this card."
+		"name": "Phasenform",
+		"text": "Massegestalt. Dauerhaft.\nSolange Shadowcat verteidigt, kann sie keinen Schaden nehmen.\n<b>Erzwungene Reaktion</b>: Nachdem du in dieser Massegestalt angegriffen oder verteidigt hast, drehe diese Karte um."
 	},
 	{
 		"code": "32032",
 		"name": "Lockheed",
-		"text": "<b>Response</b>: After Lockheed enters play, if you are in:\n• Solid mass form, deal 2 damage to an enemy.\n• Phased mass form, remove 2 threat from a scheme.",
-		"traits": "Dragon. X-Men."
+		"text": "<b>Reaktion</b>: Nachdem Lockheed ins Spiel gekommen ist und du in deiner...\n• Festform-Massegestalt bist, füge einem Gegner 2 Schaden zu.\n• Phasenform-Massegestalt bist, entferne 2 Bedrohung von einem Plan.",
+		"traits": "Drache. X-Men."
 	},
 	{
 		"code": "32033",
-		"name": "Kitty's Room",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Kitty's Room → if you are in:\n• Solid mass form, heal 2 damage from Kitty Pryde.\n• Phased mass form, draw 1 card.",
-		"traits": "Location."
+		"name": "Kittys Zimmerm",
+		"text": "<b>Alter Ego - Aktion</b>: Erschöpfe Kittys Zimmer → falls du in deiner...\n• Festform-Massegestalt bist, heile 2 Schaden von Kitty Pryde.\n• Phasenform-Massegestalt bist, ziehe 1 Karte",
+		"traits": "Ort."
 	},
 	{
 		"code": "32034",
-		"name": "Acute Control",
-		"text": "<b>Hero Response</b>: After you ignore the guard or patrol keyword on a minion, exhaust Acute Control → deal 2 damage to that minion.",
-		"traits": "Superpower."
+		"flavor": "\"Hast du 'ne Ahnung, wie viel Konzentration es erfordert, nur meinen Fuß immateriell zu machen?\" - Shadowcat",
+		"name": "Präzise Kontrolle",
+		"text": "<b>Held - Reaktion</b>: Nachdem du das Schlüsselwort Wache oder Patrouille auf einem Schergen ignoriert hast, erschöpfe Präzise Kontrolle → füge jenem Schergen 2 Schaden zu.",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "32035",
-		"name": "Intangible Interference",
-		"text": "<b>Hero Response</b>: After you ignore the crisis icon ([crisis]) on a scheme, exhaust Intangible Interference → remove 2 thret from that scheme.",
-		"traits": "Superpower."
+		"flavor": "\"Shadowcats Phasenform hat eine störende Wirkung auf jegliche Elektronik.\"",
+		"name": "Immaterielle Interferenz",
+		"text": "<b>Held - Reaktion</b>: Nachdem du das Krisensymbol ([crisis]) auf einem Plan ignoriert hast, erschöpfe Immaterielle Interferenz → entferne 2 Bedrohung von dem Plan.",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "32036",
-		"name": "Phased and Confused",
-		"text": "Hero form only. Attach to an enemy. Max 1 per enemy.\n<b>Forced Interrupt</b>: When attached enemy would attack, discard this card insted. Then, confuse that enemy.",
-		"traits": "Condition."
+		"name": "Phasenverwirrung",
+		"text": "Nur in Heldengestalt. Hänge diese Karte an einen Gegner an. Max. 1 pro Gegner.\n<b>Erzwungene Unterbrechung</b>: Sobald der Gegner mit diesem Upgrade angreifen würde, lege stattdessen diese Karte ab. Dann verwirre den Gegner.",
+		"traits": "Zustand."
 	},
 	{
 		"code": "32037",
-		"name": "Shadowcat Surprise",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 3 damage to an enemy. Ready your hero.",
-		"traits": "Attack. Superpower."
+		"flavor": "\"Gleich kommt noch was, mit dem du nicht gerechnet hast.\" - Shadowcat",
+		"name": "Shadowcat-Überraschung",
+		"text": "<b>Held - Aktion</b> <i>(Angriff)</i>: Füge einem Gegner 3 Schaden zu. Mache deinen Helden spielbereit.",
+		"traits": "Angriff. Superkraft."
 	},
 	{
 		"code": "32038",
-		"name": "Phase Strike",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. If you are in Phased mass form, you may discard an attachment with the text \\\"<b>Hero Action</b>\\\" or \\\"<b>Hero Response</b>\\\" from that enemy.",
-		"traits": "Attack. Superpower."
+		"name": "Phasentritt",
+		"text": "<b>Held - Aktion</b> <i>(Angriff)</i>: Füge einem Gegner 6 Schaden zu. Falls du in deiner Phasenform-Massegestalt bist, darfst du einen Anhang mit \\\"<b>„Held - Aktion</b>\\\" oder \\\"<b>Held - Reaktion</b>\\\" von dem Gegner ablegen.",
+		"traits": "Angriff. Superkraft."
 	},
 	{
 		"code": "32039",
-		"name": "Airwalk",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from a scheme (4 threat instead if you are in Phased mass form).",
-		"traits": "Superpower. Thwart."
+		"flavor": "\"Um den Rapper zu zitieren: ‚You can't touch this!'\" - Shadowcat",
+		"name": "Luftlauf",
+		"text": "<b>Held - Aktion</b> <i>(Widerstand)</i>: Entferne 2 Bedrohung von einem Plan (4 Bedrohung stattdessen, falls du in deiner Phasenform-Massegestalt bist).",
+		"traits": "Superkraft. Widerstand."
 	},
 	{
 		"code": "32040",
-		"name": "Quick Shift",
-		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, if you are in:\n• Solid mass form, change to Phased mass form.\n• Phased mass form, draw 2 cards.",
-		"traits": "Defense. Superpower."
+		"name": "Schnelle Phasenverschiebung",
+		"text": "<b>Held - Unterbrechung</b> <i>(Verteidigung)</i>: Sobald ein Gegner angreift, falls du in deiner...\n• Festform-Massegestalt bist, wechsle in deine Phasenform-Massegestalt.\n• Phasenform-Massegestalt bist, ziehe 2 Karten.",
+		"traits": "Superkraft. Verteidigung."
 	},
 	{
 		"code": "32041",
+		"flavor": "\"Willst du dein Glück herausfordern, Kumpel?\"",
 		"name": "Wolverine",
 		"subname": "Logan",
-		"text": "[star] Wolverine's attacks gain piercing.\n<b>Response</b>: After your turn begins, heal 1 damage from Wolverine.",
+		"text": "[star] Wolverines Angriffe erhalten Durchdringend.\n<b>Reaktion</b>: Nachdem dein Zug begonnen hat, heile 1 Schaden von Wolverine.",
 		"traits": "X-Men."
 	},
 	{
 		"code": "32042",
 		"name": "Magik",
 		"subname": "Illyana Rasputin",
-		"text": "<b>Response</b>: After you play Magik from your hand, spend a [mental] resource → choose a non-[[Elite]] minion engaged with an [[X-MEN]] hero. Shuffle that minion into the encounter deck.",
-		"traits": "Mystic. X-Men."
+		"text": "<b>Reaktion</b>: Nachdem du Magik von deiner Hand gespielt hast, gib eine [mental]-Ressource aus → wähle einen Nicht-[[Elite]]-Schergen im Kampf mit einem [[X-Men]]-Helden. Mische den Schergen in das Begegnungsdeck.",
+		"traits": "Mystiker. X-Men."
 	},
 	{
 		"code": "32043",
-		"name": "Attack Training",
-		"text": "Attach to an [[X-MEN]] ally. Max 1 [[Training]] upgrade per ally.\nAttached ally gets +1 ATK and +2 hit points.",
+		"name": "Offensivtraining",
+		"text": "Hänge diese Karte an einen [[X-Men]]-Verbündeten an. Max. 1 [[Training]]-Upgrade pro Verbündeten.\nDer Verbündete mit diesem Upgrade bekommt +1 ANG und +2 Lebenspunkte.",
 		"traits": "Training."
 	},
 	{
 		"code": "32044",
-		"name": "Gatekeeper",
-		"text": "Attach to a minion.\nAttached minion gets +2 hit points and gains patrol.\n<b>Interrupt</b>: When attached minion is defeated, remove 4 threat from the main scheme.",
-		"traits": "Condition."
+		"name": "Torwächter",
+		"text": "Hänge diese Karte an einen Schergen an.\nDer Scherge mit diesem Upgrade bekommt +2 Lebenspunkte und erhält Patrouille.\n<b>Unterbrechung</b>:Sobald der Scherge mit diesem Upgrade besiegt wird, entferne 4 Bedrohung vom Hauptplan.",
+		"traits": "Zustand."
 	},
 	{
 		"code": "32045",
-		"name": "Team Strike",
-		"text": "Play only if your identity has the [[X-MEN]] trait.\n<b>Hero Action</b> <i>(attack)</i>: Exhaust your hero and any number of [[X-MEN]] allies → deal X damage among enemies in play, where X is the total ATK of the characters you exhausted this way.",
-		"traits": "Attack."
+		"name": "Teamangriff",
+		"text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[X-Men]] hat.\n<b>Held - Aktion</b> <i>(Angriff)</i>: Erschöpfe deinen Helden und beliebig viele [[X-Men]]-Verbündete  → füge unter allen Gegnern im Spiel X Schaden zu. X ist die Summe der ANG-Werte aller Charaktere, die du auf diese Weise erschöpft hast.",
+		"traits": "Angriff."
 	},
 	{
 		"code": "32047",
-		"name": "Aggressive Energy",
-		"text": "Max 2 per deck.\n<b>Hero Interrupt</b>: When you spend this card to play a [[Attack]] event, that event deals 1 additional damage."
+		"name": "Aggressive Energie",
+		"text": "Max. 2 pro Deck.\n<b>Held - Unterbrechung</b>: Sobald du diese Karte ausgibst, um ein [[Angriff]]-Ereignis zu spielen, fügt das Ereignis 1 zusätzlichen Schaden zu."
 	},
 	{
 		"code": "32048",
+		"flavor": "\"Bleib hinter mir, Towarischtsch!\"",
 		"name": "Colossus",
-		"text": "Reduce the cost to play Colossus by 1 if your identity has the [[MUTANT]] or [[X-MEN]] trait.\nToughness.",
+		"text": "Senke die Kosten, um Colossus zu spielen, um 1, falls deine Identität das Merkmal [[Mutant]] oder [[X-Men]] hat.\nZähigkeit.",
 		"traits": "X-Men."
 	},
 	{
 		"code": "32049",
 		"name": "X-Mansion",
-		"text": "<b>Alter-Ego Action</b>: Exhaust X-Mansion → heal 1 damage from a [[MUTANT]] or [[X-MEN]] character. Any player whose alter-ego has the [[MUTANT]] trait may trigger this ability.",
-		"traits": "Location. X-Men."
+		"text": "<b>Alter Ego - Aktion</b>: Erschöpfe X-Mansion → heile 1 Schaden von einem [[Mutant]]- oder [[X-Men]]-Charakter. Jeder Spieler, dessen Alter Ego das Merkmal [[Mutant]] hat, darf diese Fähigkeit auslösen.",
+		"traits": "Ort. X-Men."
 	},
 	{
 		"code": "32051",
-		"name": "Ready to Rumble",
-		"text": "Play under any player's control.\nMax 1 per_player.\n<b>Hero Response</b>: After you change form, discard this card → ready your hero.",
-		"traits": "Condition."
+		"name": "Bereit zum Austeilen",
+		"text": "Spiele diese Karte unter die Kontrolle eines beliebigen Spielers.\nMax. 1 pro Spieler.\n<b>Held Reaktion</b>: Held Reaktion: → mache deinen Helden spielbereit.",
+		"traits": "Zustand."
 	},
 	{
 		"code": "32171a",
