@@ -151,7 +151,7 @@
 		"resource_energy": 1,
 		"set_code": "colossus",
 		"set_position": 7,
-		"text": "<b>Hero Interrupt</b>: When you make a basic attack, discard a tough status card from your hero → youo get +6 ATK for that attack. That attack gains overkill.",
+		"text": "<b>Hero Interrupt</b>: When you make a basic attack, discard a tough status card from your hero → you get +6 ATK for that attack. That attack gains overkill.",
 		"traits": "Superpower.",
 		"type_code": "event"
 	},
@@ -185,7 +185,7 @@
 		"resource_physical": "1",
 		"set_code": "colossus",
 		"set_position": 12,
-		"text": "<b>Hero Action</b>: Discard a tough status card from your hero → choose :\n• Give your hero 2 tough status cards.\n• Ready your hero.",
+		"text": "<b>Hero Action</b>: Discard a tough status card from your hero → choose:\n• Give your hero 2 tough status cards.\n• Ready your hero.",
 		"traits": "Superpower.",
 		"type_code": "event"
 	},
@@ -605,7 +605,7 @@
 		"resource_energy": 1,
 		"set_code": "shadowcat",
 		"set_position": 11,
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. If you are in Phased mass form, you may discard an attachment with the text \\\"<b>Hero Action</b>\\\" or \\\"<b>Hero Response</b>\\\" from that enemy.",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. If you are in Phased mass form, you may discard an attachment with the text \"<b>Hero Action</b>\" or \"<b>Hero Response</b>\" from that enemy.",
 		"traits": "Attack. Superpower.",
 		"type_code": "event"
 	},
@@ -645,6 +645,7 @@
 	},
 	{
 		"attack": 3,
+		"attack_cost": 2,
 		"code": "32041",
 		"cost": 4,
 		"deck_limit": 1,
