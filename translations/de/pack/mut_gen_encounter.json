@@ -1,50 +1,65 @@
 [
 	{
 		"code": "32025",
-		"name": "Homesick"
+		"name": "Heimweh",
+		"text": "<b><i>Gib dies dem Spieler von Piotr Rasputin. </i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n- Erschöpfe Piotr Rasputin → entferne Heimweh aus dem Spiel.\n- Lege diese Karte und jede Zäh-Statuskarte von deiner Identität ab. Falls du auf diese Weise keine Zäh-Statuskarten abgelegt hast, erhält diese Karte Nachrüsten."
 	},
 	{
 		"code": "32026",
+		"flavor": "\"Nichts kann den Juggernaut aufhalten!\"",
+		"boost_text": "Falls diese Aktivierung ein Angriff ist, erhält der Angriff Overkill und Durchdringend",
 		"name": "Juggernaut",
-		"text": "Stalwart. Toughness.",
-		"traits": "Brute. Elite."
+		"text": "Gestählt. Zähigkeit.\n<i>(Colossus Erzfeind-Scherge.)</i>",
+		"traits": "Elite. Schläger."
 	},
 	{
 		"code": "32027",
-		"name": "Rampaging Juggernaut"
+		"flavor": "\"Juggernaut besitzt die Macht von Cyttorak, die ihn aber auch in den Wahnsinn treibt.\"",
+		"name": "Juggernauts Zerstörungswut",
+		"text": "<b>Sobald aufgedeckt</b>: Lege jede Zäh-Statuskarte von jedem befreundeten Charakter ab. Platziere hier 2 Bedrohung für jede auf diese Weise abgelegte Zäh-Statuskarte."
 	},
 	{
 		"code": "32028",
-		"name": "Unstoppable"
+		"name": "Unaufhaltsam",
+		"text": "Hänge diese Karte an den Gegner mit dem höchsten aufgedruckten ANG-Wert und ohne ein angehängtes Exemplar Unaufhaltsam an. Ansonsten erhält diese Karte Nachrüsten.\n<b>Erzwungene Unterbrechung</b>: Sobald der Gegner mit diesem Anhang angreift, erhält der Angriff Overkill und Durchdringend. Lege Unaufhaltsam am Ende des Angriffs ab."
 	},
 	{
 		"code": "32029",
-		"name": "Slammed"
+		"flavor": "\"Weißt du nicht, wer ich bin?\" - Juggernaut",
+		"boost_text": "Decke diese Karte auf.",
+		"name": "Reingehauen",
+		"text": "<b>Sobald aufgedeckt</b>: Du wirst betäubt. Falls du bereits betäubt bist, nimm 2 Schaden."
 	},
 	{
 		"code": "32055",
-		"name": "Permanently Phased"
+		"name": "Dauerhaft Phasenverschoben",
+		"text": "<b><i>Gib dies dem Spieler von Kitty Pryde.</i></b>\nDrehe dein Massegestalt-Upgrade auf die Phasenform-Seite um.\nDu kannst nicht angreifen, verteidigen oder deine Massegestalt wechseln.\n<b>Alter Ego - Aktion</b>: Erschöpfe Kitty Pryde → entferne Dauerhaft phasenverschoben aus dem Spiel."
 	},
 	{
 		"code": "32056",
+		"boost_text": "Du wirst verwirrt.",
 		"name": "White Queen",
-		"text": "Villainous.",
-		"traits": "Elite. Psionic."
+		"text": "Schurkisch.\nSolange White Queen mit dir im Kampf ist, bist du verwirrt.\n(Shadowcats Erzfeind-Scherge.)",
+		"traits": "Elite. Psionisch."
 	},
 	{
 		"code": "32057",
-		"name": "The Hellfire Club"
+		"name": "Der Hellfire Club",
+		"text": "<b>Sobald besiegt</b>: Der Spieler, der diesen Plan besiegt hat, durchsucht das Begegnungsdeck, den Ablagestapel und die beiseitegelegten Karten nach einem Schergen Hellfire-Schachfigur und bringt ihn mit sich im Kampf ins Spiel. <i>(Mische.)</i>"
 	},
 	{
 		"code": "32058",
-		"name": "Hellfire Pawn",
-		"text": "Guard. Patrol. Surge.",
+		"boost_text": "Bringe Hellfire-Schachfigur mit dir im Kampf ins Spiel.",
+		"name": "Hellfire-Schachfigur",
+		"text": "Nachrüsten. Patrouille. Wache.",
 		"traits": "Hellfire."
 	},
 	{
 		"code": "32059",
-		"name": "Telepathic Restraint",
-		"traits": "Condition."
+		"flavor": "\"Sei ein Schatz und beweg dich nicht ... und schweig. So ist es besser.\" - White Queen",
+		"name": "Telepathische Fesselung",
+		"text": "Hänge diese Karte an deine Identität an.\nSolange Telepathische Fesselung an deine Identität angehängt ist, bist du betäubt.\n<b>Aktion</b>: Gib [mental][mental]-Ressourcen aus → lege diese Karte ab.",
+		"traits": "Zustand."
 	},
 	{
 		"code": "32060",
@@ -113,7 +128,7 @@
 	{
 		"code": "32071",
 		"name": "Medical Emergency",
-		"text": "Hinder 2[per_hero].\nVictory 1."
+		"text": "Hinder 2[per_player].\nVictory 1."
 	},
 	{
 		"code": "32072",
@@ -152,7 +167,7 @@
 	{
 		"code": "32079",
 		"name": "The Brotherhood",
-		"text": "Hinder 2[per_hero]."
+		"text": "Hinder 2[per_player]."
 	},
 	{
 		"code": "32080",
@@ -274,7 +289,7 @@
 	{
 		"code": "32100",
 		"name": "Abduction Protocols",
-		"text": "Hinder 2[per_hero]. Victory 2."
+		"text": "Hinder 2[per_player]. Victory 2."
 	},
 	{
 		"code": "32101",
@@ -379,7 +394,7 @@
 	{
 		"code": "32120",
 		"name": "Insert Virus Program",
-		"text": "Hinder 2[per_hero]. Victory 1."
+		"text": "Hinder 2[per_player]. Victory 1."
 	},
 	{
 		"code": "32121a",
@@ -492,7 +507,7 @@
 	{
 		"code": "32135",
 		"name": "Hopping Mad",
-		"text": "Hinder 2[per_hero]."
+		"text": "Hinder 2[per_player]."
 	},
 	{
 		"code": "32136",
