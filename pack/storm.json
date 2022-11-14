@@ -6,6 +6,15 @@
       "faction_code": "hero",
       "set_code": "storm",
       "type_code": "hero",
+      "meta": {
+			"colors": [
+				"#cfd5cf",
+				"#283283",
+				"#08080c",
+				"#fffffd"
+			],
+			"offset": "-38px -33px"
+		},
       "name": "Storm",
       "position": 1,
       "quantity": 1,
@@ -17,7 +26,7 @@
       "health": 10,
       "hand_size": "5",
       "traits": "X-Men.",
-      "text": "<i>Weather Control</i> \u2212 <b>Action</b>: Swap your [[WEATHER]] support in play with a support of your choice from the [[WEATHER]] deck. Resolve the \\\"<b>Special</b>\\\" ability on your [[WEATHER]] support in play. (Limit once per round).",
+      "text": "<i>Weather Control</i> - <b>Action</b>: Swap your [[WEATHER]] support in play with a support of your choice from the [[WEATHER]] deck. Resolve the \"<b>Special</b>\" ability on your [[WEATHER]] support in play. (Limit once per round).",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036001"
    },
    {
@@ -27,6 +36,7 @@
       "set_code": "storm",
       "type_code": "alter_ego",
       "name": "Ororo Munroe",
+      "hidden": true,
       "position": 1,
       "quantity": 1,
       "double_sided": true,
@@ -35,7 +45,7 @@
       "health": 10,
       "hand_size": "6",
       "traits": "Mutant.",
-      "text": "Ororo Munroe begins the game with a [[WEATHER]] deck. (see insert.)\\n<i>\\\"I fell a storm comming...\\\"</i> \u2212 <b>Setup</b>: Choose a support from the [[WEATHER]] deck and put it into play.",
+      "text": "Ororo Munroe begins the game with a [[WEATHER]] deck. (see insert.)\n<i>\"I fell a storm comming...\"</i> - <b>Setup</b>: Choose a support from the [[WEATHER]] deck and put it into play.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036001"
    },
    {
@@ -47,10 +57,11 @@
       "name": "Clear Skies",
       "position": 2,
       "quantity": 1,
+      "deck_limit": 1,
       "set_position": 1,
       "resource_wild": 1,
       "traits": "Weather.",
-      "text": "Permanent.\\nEach character gains stalwart.\\n<b>Special</b>: Draw 1 card.",
+      "text": "Permanent.\nEach character gains stalwart.\n<b>Special</b>: Draw 1 card.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036002"
    },
    {
@@ -62,10 +73,11 @@
       "name": "Hurricane",
       "position": 3,
       "quantity": 1,
+      "deck_limit": 1,
       "set_position": 2,
-      "resource_physical": "1",
+      "resource_physical": 1,
       "traits": "Weather.",
-      "text": "Permanent.\\nEach character gains retaliate 1.\\n<b>Special</b>: Remove 2 threat from a scheme.",
+      "text": "Permanent.\nEach character gains retaliate 1.\n<b>Special</b>: Remove 2 threat from a scheme.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036003"
    },
    {
@@ -77,10 +89,11 @@
       "name": "Thunderstorm",
       "position": 4,
       "quantity": 1,
+      "deck_limit": 1,
       "set_position": 3,
       "resource_energy": 1,
       "traits": "Weather.",
-      "text": "Permanent.\\nEach character gets +1 ATK.\\n<b>Special</b>: Deal 2 damage to an enemy.",
+      "text": "Permanent.\nEach character gets +1 ATK.\n<b>Special</b>: Deal 2 damage to an enemy.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036004"
    },
    {
@@ -92,10 +105,11 @@
       "name": "Blizzard",
       "position": 5,
       "quantity": 1,
+      "deck_limit": 1,
       "set_position": 4,
-      "resource_mental": "1",
+      "resource_mental": 1,
       "traits": "Weather.",
-      "text": "Permanent.\\nEach character gets -1 ATK.\\n<b>Special</b>: Choose a non-[[ELITE]] minion \u2192 until the end of the round, treat that minion's text box as if it were blank <i>(except for <b>TRAITS</b></i>).",
+      "text": "Permanent.\nEach character gets -1 ATK.\n<b>Special</b>: Choose a non-[[ELITE]] minion → until the end of the round, treat that minion's text box as if it were blank <i>(except for <b>TRAITS</b></i>).",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036005"
    },
    {
@@ -107,12 +121,13 @@
       "name": "Storm's Crown",
       "position": 6,
       "quantity": 1,
+      "deck_limit": 1,
       "set_position": 1,
       "is_unique": true,
       "cost": 2,
-      "resource_mental": "1",
+      "resource_mental": 1,
       "traits": "Item.",
-      "text": "Storm gets +1 THW.\\n<b>Hero Resource</b>: Exhaust Storm's Crown \u2192 generate the printed resource on your [[WEATHER]] support.",
+      "text": "Storm gets +1 THW.\n<b>Hero Resource</b>: Exhaust Storm's Crown → generate the printed resource on your [[WEATHER]] support.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036006"
    },
    {
@@ -124,12 +139,13 @@
       "name": "Storm's Cape",
       "position": 7,
       "quantity": 1,
+      "deck_limit": 1,
       "set_position": 2,
       "is_unique": true,
       "cost": 3,
       "resource_energy": 1,
       "traits": "Item.",
-      "text": "Storm gets +1 DEF and gains the [[AERIAL]] trait.\\n<b>Hero Response</b>: After you resolve the  \\\"<b>Special</b>\\\" ability on your [[WEATHER]] support, exhaust Storm's Cape \u2192 ready Storm.",
+      "text": "Storm gets +1 DEF and gains the [[AERIAL]] trait.\n<b>Hero Response</b>: After you resolve the  \"<b>Special</b>\" ability on your [[WEATHER]] support, exhaust Storm's Cape → ready Storm.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036007"
    },
    {
@@ -141,12 +157,13 @@
       "name": "Ororo's Garden",
       "position": 8,
       "quantity": 1,
+      "deck_limit": 1,
       "set_position": 3,
       "is_unique": true,
       "cost": 1,
-      "resource_physical": "1",
+      "resource_physical": 1,
       "traits": "Location.",
-      "text": "<b>Alter-Ego Action</b>: Exhaust Ororo's Garden \u2192 heal 2 damage from you identity.",
+      "text": "<b>Alter-Ego Action</b>: Exhaust Ororo's Garden → heal 2 damage from you identity.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036008"
    },
    {
@@ -158,11 +175,12 @@
       "name": "Weather Goddess",
       "position": 9,
       "quantity": 3,
+      "deck_limit": 3,
       "set_position": 4,
       "cost": 0,
       "resource_energy": 1,
       "traits": "Superpower.",
-      "text": "<b>Hero Action</b>:  Swap your [[WEATHER]] support in play with a support of your choice from the [[WEATHER]] deck. Resolve the \\\"<b>Special</b>\\\" ability on your [[WEATHER]] support in play.",
+      "text": "<b>Hero Action</b>:  Swap your [[WEATHER]] support in play with a support of your choice from the [[WEATHER]] deck. Resolve the \"<b>Special</b>\" ability on your [[WEATHER]] support in play.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036009"
    },
    {
@@ -174,11 +192,12 @@
       "name": "Torrential Rain",
       "position": 10,
       "quantity": 3,
+      "deck_limit": 3,
       "set_position": 7,
       "cost": 2,
-      "resource_mental": "1",
+      "resource_mental": 1,
       "traits": "Superpower. Thwart.",
-      "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from among schemes in play. If Hurricane is in play, resolve its \\\"<b>Special</b>\\\" ability.",
+      "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from among schemes in play. If Hurricane is in play, resolve its \"<b>Special</b>\" ability.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036010"
    },
    {
@@ -190,10 +209,11 @@
       "name": "Lightning Bolt",
       "position": 11,
       "quantity": 2,
+      "deck_limit": 2,
       "set_position": 10,
       "cost": 3,
       "traits": "Attack. Superpower.",
-      "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 8 damage to an enemy. If Thunderstorm is in play, resolve its \\\"<b>Special</b>\\\" ability.",
+      "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 8 damage to an enemy. If Thunderstorm is in play, resolve its \"<b>Special</b>\" ability.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036011"
    },
    {
@@ -205,10 +225,11 @@
       "name": "Flash Freeze",
       "position": 12,
       "quantity": 2,
+      "deck_limit": 2,
       "set_position": 12,
       "cost": 1,
       "traits": "Defense. Superpower.",
-      "text": "<b>Hero Interrupt</b>: When the villain attacks you, the villain and each minion engaged with you get -3 ATK while attacking you this phase. If Blizzard is in play, resolve its \\\"<b>Special</b>\\\" ability.",
+      "text": "<b>Hero Interrupt</b>: When the villain attacks you, the villain and each minion engaged with you get -3 ATK while attacking you this phase. If Blizzard is in play, resolve its \"<b>Special</b>\" ability.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036012"
    },
    {
@@ -220,11 +241,12 @@
       "name": "Blast of Wind",
       "position": 13,
       "quantity": 2,
+      "deck_limit": 2,
       "set_position": 14,
       "cost": 3,
-      "resource_physical": "1",
+      "resource_physical": 1,
       "traits": "Superpower.",
-      "text": "<b>Hero Action</b>: Choose a player \u2192 deal 3 damage to the villain and each minion engaged with that player. Resolve the \\\"<b>Special</b>\\\" ability of your [[WEATHER]] support.",
+      "text": "<b>Hero Action</b>: Choose a player → deal 3 damage to the villain and each minion engaged with that player. Resolve the \"<b>Special</b>\" ability of your [[WEATHER]] support.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036013"
    },
    {
@@ -260,9 +282,9 @@
       "thwart": 2,
       "attack": 1,
       "health": 2,
-      "resource_mental": "1",
+      "resource_mental": 1,
       "traits": "Psionic. X-Men.",
-      "text": "<b>Response</b>: After Mirage enters play, choose an enemy whose SCH is less than Mirage's THW \u2192 stun that enemy.",
+      "text": "<b>Response</b>: After Mirage enters play, choose an enemy whose SCH is less than Mirage's THW → stun that enemy.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036015"
    },
    {
@@ -279,7 +301,7 @@
       "thwart": 1,
       "attack": 3,
       "health": 3,
-      "resource_physical": "1",
+      "resource_physical": 1,
       "traits": "X-Men.",
       "text": "[star] Gentle takes +1 consequential damage ([consequential]) after he attacks the villain.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036016"
@@ -313,9 +335,9 @@
       "quantity": 3,
       "deck_limit": 3,
       "cost": 3,
-      "resource_mental": "1",
+      "resource_mental": 1,
       "traits": "Team.",
-      "text": "Play under any player's control. Max 1 [[TEAM]] card per player.\\nEach of your [[X-MEN]] allies gets +1 hit point. If each of your characters has the [[X-MEN]] trait, each of your [[X-MEN]] allies costs 1 fewer resource to play.",
+      "text": "Play under any player's control. Max 1 [[TEAM]] card per player.\nEach of your [[X-MEN]] allies gets +1 hit point. If each of your characters has the [[X-MEN]] trait, each of your [[X-MEN]] allies costs 1 fewer resource to play.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036018"
    },
    {
@@ -328,9 +350,9 @@
       "quantity": 3,
       "deck_limit": 3,
       "cost": 1,
-      "resource_physical": "1",
+      "resource_physical": 1,
       "traits": "Skill.",
-      "text": "Uses (3 leadership counters). Max 1 per player.\\n<b>Interrupt</b>: When an ally makes a basic thwart or basic attack action, remove 1 leadership counter from here \u2192 that ally gets +1 THW and +1 ATK for that action.",
+      "text": "Uses (3 leadership counters). Max 1 per player.\n<b>Interrupt</b>: When an ally makes a basic thwart or basic attack action, remove 1 leadership counter from here → that ally gets +1 THW and +1 ATK for that action.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036019"
    },
    {
@@ -338,7 +360,7 @@
       "pack_code": "storm",
       "faction_code": "leadership",
       "type_code": "event",
-      "name": "\\\"To Me, My X-Men!\\\"",
+      "name": "\"To Me, My X-Men!\"",
       "position": 20,
       "quantity": 3,
       "deck_limit": 3,
@@ -369,7 +391,7 @@
       "thwart": 1,
       "attack": 1,
       "health": 2,
-      "resource_mental": "1",
+      "resource_mental": 1,
       "traits": "X-Men.",
       "text": "<b>Response</b>: After Forge enters play, search your deck and discard pile for an [[X-MEN]] or [[X-FORCE]] support and add it to your hand. (Shuffle.)",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036022"
@@ -409,12 +431,12 @@
       "deck_limit": 3,
       "cost": 1,
       "traits": "Condition.",
-      "text": "Play under any player's control. Max 1 per player.\\nYou get +3 hit points.",
+      "text": "Play under any player's control. Max 1 per player.\nYou get +3 hit points.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036026"
    },
    {
       "code": "36027",
-      "duplicate_of": "32022",
+      "duplicate_of": "01088",
       "pack_code": "storm",
       "position": 27,
       "quantity": 1,
@@ -422,7 +444,7 @@
    },
    {
       "code": "36028",
-      "duplicate_of": "32023",
+      "duplicate_of": "01089",
       "pack_code": "storm",
       "position": 28,
       "quantity": 1,
@@ -430,7 +452,7 @@
    },
    {
       "code": "36029",
-      "duplicate_of": "32024",
+      "duplicate_of": "01090",
       "pack_code": "storm",
       "position": 29,
       "quantity": 1,
@@ -447,7 +469,7 @@
       "deck_limit": 3,
       "cost": 1,
       "traits": "Location.",
-      "text": "Max 1 per player.\\n<b>Response</b>: After an ally defends against an attack and is not defeated, exhaust this card \u2192 ready that ally.",
+      "text": "Max 1 per player.\n<b>Response</b>: After an ally defends against an attack and is not defeated, exhaust this card → ready that ally.",
       "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036035"
    }
 ]
