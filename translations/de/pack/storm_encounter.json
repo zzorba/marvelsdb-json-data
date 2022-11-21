@@ -1,53 +1,30 @@
 [
    {
       "code": "36030",
-      "name": "Claustrophobie",
-      "text" : "<b><i>Donnez cette carte au joueur d'Ororo Munroe.</b></i>\nPassez sous forme d'alter ego.\nVous ne pouvez pas changer de forme.\n<b>Action d'alter ego</b> : inclinez Ororo Munroe → retirez Claustrophobie de la partie."
+      "name": "Klaustrophobie",
+      "text" : "<b><i>Gib dies dem Spieler von Ororo Munroe.</b></i>\nDrehe deine Identität auf deine Alter-Ego-Seite um.\nDu kannst deine Gestalt nicht wechseln.\n<b>Alter Ego - Aktion</b>: Erschöpfe Ororo Munroe → entferne Klaustrophobie aus dem Spiel."
    },
    {
       "code": "36031",
       "name": "Callisto",
-      "flavor" : "\"Dis adieu à ton joli visage !\"",
-      "text" : "Coup Rapide.\n<b>Interruption forcée</b> : quand une traîtrise Combat au Couteau est révélée, donnez une carte d'état Tenace à Callisto.",
-      "traits": "Élite. Morlock."
+      "flavor" : "\"Ich werde dir dein hübsches Gesicht verunstalten!\"",
+      "text" : "Erstschlag.\n<b>Erzwungene Unterbrechung</b>: Sobald eine Verratskarte Messerkampf aufgedeckt wird, gib Callisto eine Zäh-Statuskarte. (Storms Erzfeind-Scherge.)",
+      "traits": "Elite. Morlock."
    },
    {
       "code": "36032",
-      "flavor" : "Callisto protège les Morlocks, et elle ne laissera personne remettre en question son autorité.",
-      "name": "Cheffe des Morlocks",
-      "text" : "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance cherche une traîtrise Combat au Couteau dans le deck Rencontre, la pile de défausse Rencontre et la zone \"mis de côté\", et la révèle."
+      "flavor" : "Callisto beschützt die Morlocks und sie lässt nicht zu, dass jemand ihre Autorität infrage stellt.",
+      "name": "Anführerin der Morlocks",
+      "text" : "<b>Sobald besiegt</b>: Der Spieler, der diesen Plan besiegt hat, durchsucht das Begegnungsdeck, den Ablagestapel und die beiseitegelegten Karten nach einer Verratskarte Messerkampf und deckt sie auf."
    },
    {
       "code": "36033",
-      "name": "Cran d'Arrêt",
-      "text" : "Attachez cette carte au sbire ayant l'ATQ imprimée la plus élevée. Sinon, cette carte gagne Renfort.\n[star] Les attaques du sbire gagnent Perçant."
+      "name": "Springmesser",
+      "text" : "Hänge diese Karte an den Schergen mit dem höchsten aufgedruckten ANG-Wert an. Ansonsten erhält diese Karte Nachrüsten.\n[star] Die Angriffe des Schergen mit diesem Anhang erhalten Durchdringend."
    },
    {
       "code": "36034",
-      "name": "Combat au Couteau",
-      "text" : "<b>Une fois révélée (alter ego)</b> : cette carte gagne Renfort.\n<b>Une fois révélée (héros)</b> : choisissez un ennemi ayant l'ATQ la plus élevée → subissez une quantité de dégâts égale à son ATQ. Infligez à cet ennemi une quantité de dégâts égale à votre ATQ."
+      "name": "Messerkampf",
+      "text" : "<b>Sobald aufgedeckt (Alter Ego)</b>: Diese Karte erhält Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Wähle einen Gegner mit dem höchsten ANG-Wert → nimm Schaden in Höhe seines ANG-Wertes. Füge dem Gegner Schaden in Höhe deines ANG-Wertes zu."
    },
-   {
-      "code": "36036",
-      "name": "Le Roi d'Ombre",
-      "text" : "Tant qu'un sbire [[CONTRÔLÉ]] est en jeu, Le Roi d'Ombre ne peut pas subir de dégâts.\n<b>Une fois révélée</b> : cherchez un exemplaire de l'attachement Possédé dans le deck Rencontre ou la pile de défausse Rencontre et révélez-le. <i>(Mélangez.)</i>",
-      "traits": "Élite. Psionique."
-   },
-   {
-      "boost_text": "si vous êtes engagé avec un sbire [[CONTRÔLÉ]], révélez cette manigance annexe.",
-      "code": "36037",
-      "name": "Seigneur du Plan Astral",
-      "text" : "<b>Une fois déjouée</b> : défaussez 1 exemplaire de Possédé qui est en jeu."
-   },
-   {
-      "code": "36038",
-      "name": "Possédé",
-      "text" : "Considérez l'allié attaché comme un sbire [[CONTRÔLÉ]] dont la boîte de texte est vide. Sa MNG est égale à son CTR imprimé et il ne subit pas de dégâts consécutifs.\n<b>Une fois révélée</b> : attachez cette carte à l'allié ayant le CTR le plus faible qui n'a pas d'exemplaire de Possédé attaché. Si vous ne pouvez pas, cette carte gagne Renfort."
-   },
-   {
-      "boost_text": "mélangez dans le deck Rencontre toutes les cartes du set Le Roi d'Ombre qui se trouvent dans la pile de défausse.",
-      "code": "36039",
-      "name": "Attaque Astrale",
-      "text" : "<b>Une fois déjouée</b> : chaque sbire [[CONTRÔLÉ]] s'active contre vous. S'il n'y a pas de sbire [[CONTRÔLÉ]] en jeu, cette carte gagne Renfort."
-   }
 ]
