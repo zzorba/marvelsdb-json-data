@@ -11,13 +11,22 @@
       "quantity": 1,
       "double_sided": true,
       "is_unique": true,
+      "meta": {
+			"colors": [
+				"#da9f1a",
+				"#143e1e",
+				"#791821",
+				"#fffffd"
+			],
+			"offset": "-41px -34px"
+		},
       "thwart": 2,
       "attack": 2,
       "defense": 2,
       "health": 11,
       "hand_size": "5",
       "traits": "X-Men.",
-      "text": "<i>Skin Contact</i> \u2212 <b>Action</b>: Attach Touched to another character. You gain each of the attached character's [[TRAITS]] until the end of the round. (Limit once per round.)\\n<b>Forced Response</b>: After the player phase begins, find Touched and set it aside.",
+      "text": "<i>Skin Contact</i> \u2212 <b>Action</b>: Attach Touched to another character. You gain each of the attached character's [[TRAITS]] until the end of the round. (Limit once per round.)\n<b>Forced Response</b>: After the player phase begins, find Touched and set it aside.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038001"
    },
    {
@@ -30,16 +39,18 @@
       "position": 1,
       "quantity": 1,
       "double_sided": true,
+      "hidden": true,
       "is_unique": true,
       "recover": 3,
       "health": 11,
       "hand_size": "6",
       "traits": "Mutant.",
-      "text": "<b>Setup</b>: Set your Touched upgrade aside.\\n<i>Withdrawn</i> \u2212 <b>Forced Response</b>: After you change to this form, set Touched aside.",
+      "text": "<b>Setup</b>: Set your Touched upgrade aside.\n<i>Withdrawn</i> \u2212 <b>Forced Response</b>: After you change to this form, set Touched aside.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038001"
    },
    {
       "code": "38002",
+      "deck_limit": 1,
       "pack_code": "rogue",
       "faction_code": "hero",
       "set_code": "rogue",
@@ -50,11 +61,12 @@
       "set_position": 1,
       "resource_physical": "1",
       "traits": "Condition.",
-      "text": "If Touched is attached to a:\\nMinion \u2212 Rogue's attacks gain overkill.\\nVillain \u2212 Rogue gains retaliate 1.\\nAlly \u2212 Rogue gains the [[AERIAL]] trait.\\nHero \u2212 Rogue gains stalwart.",
+      "text": "If Touched is attached to a:\nMinion \u2212 Rogue's attacks gain overkill.\nVillain \u2212 Rogue gains retaliate 1.\nAlly \u2212 Rogue gains the [[AERIAL]] trait.\nHero \u2212 Rogue gains stalwart.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038002"
    },
    {
       "code": "38003",
+      "deck_limit": 1,
       "pack_code": "rogue",
       "faction_code": "hero",
       "set_code": "rogue",
@@ -71,11 +83,12 @@
       "health": 3,
       "resource_wild": 1,
       "traits": "X-Men.",
-      "text": "Gambit enters play with 3 charge counters on him.\\n[star]<b>Interrupt</b>: When Gambit attacks, remove 1 charge counter from him \u2192 deal 1 damage to an enemy.",
+      "text": "Gambit enters play with 3 charge counters on him.\n[star]<b>Interrupt</b>: When Gambit attacks, remove 1 charge counter from him → deal 1 damage to an enemy.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038003"
    },
    {
       "code": "38004",
+      "deck_limit": 1,
       "pack_code": "rogue",
       "faction_code": "hero",
       "set_code": "rogue",
@@ -88,11 +101,12 @@
       "cost": 1,
       "resource_energy": 1,
       "traits": "Item.",
-      "text": "While Touched is attached to a friendly character, Rogue gets +1 THW.\\nWhile Touched is attached to a enemy character, Rogue gets +1 ATK.",
+      "text": "While Touched is attached to a friendly character, Rogue gets +1 THW.\nWhile Touched is attached to a enemy character, Rogue gets +1 ATK.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038004"
    },
    {
       "code": "38005",
+      "deck_limit": 3,
       "pack_code": "rogue",
       "faction_code": "hero",
       "set_code": "rogue",
@@ -104,11 +118,12 @@
       "cost": 2,
       "resource_mental": "1",
       "traits": "Superpower. Thwart.",
-      "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. If Rogue has:\\n\u2022 [[AERIAL]], remove 2 additional threat.\\n\u2022 Retaliate, confuse an enemy.\\n\u2022 Stalwart, draw 1 card.",
+      "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. If Rogue has:\n\u2022 [[AERIAL]], remove 2 additional threat.\n\u2022 Retaliate, confuse an enemy.\n\u2022 Stalwart, draw 1 card.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038005"
    },
    {
       "code": "38006",
+      "deck_limit": 3,
       "pack_code": "rogue",
       "faction_code": "hero",
       "set_code": "rogue",
@@ -120,11 +135,12 @@
       "cost": 3,
       "resource_physical": "1",
       "traits": "Attack. Superpower.",
-      "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. If Rogue has:\\n\u2022 [[AERIAL]], this attack deals 2 additional damage.\\n\u2022 Retaliate, stun that enemy.\\n\u2022 Stalwart, draw 1 card.",
+      "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. If Rogue has:\n\u2022 [[AERIAL]], this attack deals 2 additional damage.\n\u2022 Retaliate, stun that enemy.\n\u2022 Stalwart, draw 1 card.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038006"
    },
    {
       "code": "38007",
+      "deck_limit": 2,
       "pack_code": "rogue",
       "faction_code": "hero",
       "set_code": "rogue",
@@ -136,11 +152,12 @@
       "cost": 2,
       "resource_energy": 1,
       "traits": "Superpower.",
-      "text": "<b>Hero Action</b>: Attach Touched to a character other than Rogue and deal 2 damage to that character \u2192 heal 2 damage from Rogue and ready her. You gain each of the attached character's ([TRAITS]) until the end of the round.",
+      "text": "<b>Hero Action</b>: Attach Touched to a character other than Rogue and deal 2 damage to that character → heal 2 damage from Rogue and ready her. You gain each of the attached character's ([TRAITS]) until the end of the round.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038007"
    },
    {
       "code": "38008",
+      "deck_limit": 2,
       "pack_code": "rogue",
       "faction_code": "hero",
       "set_code": "rogue",
@@ -157,6 +174,7 @@
    },
    {
       "code": "38009",
+      "deck_limit": 3,
       "pack_code": "rogue",
       "faction_code": "hero",
       "set_code": "rogue",
@@ -168,7 +186,7 @@
       "cost": 0,
       "resource_mental": "1",
       "traits": "Superpower.",
-      "text": "<b>Hero Action</b>: If Touched is attached to a friendly character, search its owner's discard pile for an event that belong's to the same classification as that character (identity-specific, aspect, or basic) \u2192 add that event to your hand.",
+      "text": "<b>Hero Action</b>: If Touched is attached to a friendly character, search its owner's discard pile for an event that belong's to the same classification as that character (identity-specific, aspect, or basic) → add that event to your hand.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038009"
    },
    {
@@ -188,7 +206,7 @@
       "health": 3,
       "resource_mental": "1",
       "traits": "X-Men.",
-      "text": "Iceman enters play with 3 freeze counters on him.\\n<b>Response</b>: After a minion enters play, remove 1 freeze counter from Iceman \u2192 stun that minion.",
+      "text": "Iceman enters play with 3 freeze counters on him.\n<b>Response</b>: After a minion enters play, remove 1 freeze counter from Iceman → stun that minion.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038010"
    },
    {
@@ -228,22 +246,15 @@
       "health": 2,
       "resource_physical": "1",
       "traits": "X-Men.",
-      "text": "Play only if your identity has the [[X-MEN]] trait.\\nToughness.",
+      "text": "Play only if your identity has the [[X-MEN]] trait.\nToughness.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038012"
    },
    {
       "code": "38013",
+      "duplicate_of": "09020",
       "pack_code": "rogue",
-      "faction_code": "protection",
-      "type_code": "upgrade",
-      "name": "Unflappable",
       "position": 13,
       "quantity": 3,
-      "deck_limit": 3,
-      "cost": 1,
-      "resource_mental": "1",
-      "traits": "Condition.",
-      "text": "Play under any player's control. Max 1 per player.\\n<b>Response</b>: After you defend against an attack and take no damage, exhaust Unflappable \u2192 draw 1 card.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038013"
    },
    {
@@ -258,22 +269,15 @@
       "cost": 2,
       "resource_physical": "1",
       "traits": "Skill.",
-      "text": "Uses (3 judo counters). Max 1 per player.\\n<b>Interrupt</b>: When you defend against an enemy attack, remove 1 judo counter from here \u2192 that enemy gets -2 ATK for that attack.",
+      "text": "Uses (3 judo counters). Max 1 per player.\n<b>Interrupt</b>: When you defend against an enemy attack, remove 1 judo counter from here → that enemy gets -2 ATK for that attack.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038014"
    },
    {
       "code": "38015",
+      "duplicate_of": "05014",
       "pack_code": "rogue",
-      "faction_code": "protection",
-      "type_code": "event",
-      "name": "Preemptive Strike",
       "position": 15,
       "quantity": 3,
-      "deck_limit": 3,
-      "cost": 1,
-      "resource_energy": 1,
-      "traits": "Defense.",
-      "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When a boost card is turned face up while the willain attacks, cancel all boost icons ([boost]) on that card. Then, deal 1 damage to the villain for each boost icon canceled this way.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038015"
    },
    {
@@ -312,7 +316,7 @@
       "cost": 2,
       "resource_mental": "1",
       "traits": "Persona.",
-      "text": "Play only if your identity has the [[MUTANT]] trait.\\n<b>Response</b>: After a [[MUTANT]] alter-ego changes into hero form, exhaust Moira MacTaggert \u2192 that hero's controller draws 1 card.",
+      "text": "Play only if your identity has the [[MUTANT]] trait.\n<b>Response</b>: After a [[MUTANT]] alter-ego changes into hero form, exhaust Moira MacTaggert → that hero's controller draws 1 card.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038018"
    },
    {
@@ -326,7 +330,7 @@
       "deck_limit": 3,
       "cost": 1,
       "resource_wild": 1,
-      "text": "Play only if your identity has the [[MUTANT]] trait. Max 1 per player\\n<b>Resource</b>: Exhaust X-Gene \u2192 generate a [wild] resource for an identity-specific event.",
+      "text": "Play only if your identity has the [[MUTANT]] trait. Max 1 per player\n<b>Resource</b>: Exhaust X-Gene → generate a [wild] resource for an identity-specific event.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038019"
    },
    {
@@ -339,7 +343,7 @@
    },
    {
       "code": "38021",
-      "duplicate_of": "32022",
+      "duplicate_of": "01088",
       "pack_code": "rogue",
       "position": 21,
       "quantity": 1,
@@ -347,7 +351,7 @@
    },
    {
       "code": "38022",
-      "duplicate_of": "32023",
+      "duplicate_of": "01089",
       "pack_code": "rogue",
       "position": 22,
       "quantity": 1,
@@ -355,7 +359,7 @@
    },
    {
       "code": "38023",
-      "duplicate_of": "32024",
+      "duplicate_of": "01090",
       "pack_code": "rogue",
       "position": 23,
       "quantity": 1,
@@ -373,7 +377,7 @@
       "cost": 1,
       "resource_mental": "1",
       "traits": "Location.",
-      "text": "Max 1 per player.\\n<b>Response</b>: After an ally is defeated by consequential damage, exhaust Med Lab \u2192 place it here. (Limit 1 ally at a time.)\\n<b>Alter-Ego Action</b>: Exhaust Med Lab \u2192 play the ally here as if it was in your hand. It enters play exhausted.",
+      "text": "Max 1 per player.\n<b>Response</b>: After an ally is defeated by consequential damage, exhaust Med Lab → place it here. (Limit 1 ally at a time.)\n<b>Alter-Ego Action</b>: Exhaust Med Lab → play the ally here as if it was in your hand. It enters play exhausted.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038028"
    }
 ]
