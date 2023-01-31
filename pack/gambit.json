@@ -122,7 +122,7 @@
       "cost": 1,
       "resource_mental": "1",
       "traits": "Armor. Item.",
-      "text": "<b>Hero Response</b>: After Gambit defends against an attack and takes no damage, exxhaust Gambit's Guild Armor → ready Gambit.",
+      "text": "<b>Hero Response</b>: After Gambit defends against an attack and takes no damage, exhaust Gambit's Guild Armor → ready Gambit.",
       "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037005"
    },
    {
@@ -190,7 +190,7 @@
       "cost": 2,
       "resource_energy": 1,
       "traits": "Thwart.",
-      "text": "<b>Alter-Ego Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. If this removes the last threat from that scheme, confise the villain.",
+      "text": "<b>Alter-Ego Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. If this removes the last threat from that scheme, confuse the villain.",
       "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037009"
    },
    {
@@ -259,8 +259,9 @@
       "quantity": 3,
       "deck_limit": 3,
       "cost": 2,
+      "resource_energy": 1,
       "traits": "Skill.",
-      "text": "Uses (3 operative counters). Max 1 per player.\n<b>Interrupt</b>: When you thwart, remove 1 operative counter from here → that thwart removes 1 additionnal threat.",
+      "text": "Uses (3 operative counters). Max 1 per player.\n<b>Interrupt</b>: When you thwart, remove 1 operative counter from here → that thwart removes 1 additional threat.",
       "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037013"
    },
    {
@@ -281,6 +282,7 @@
       "quantity": 3,
       "deck_limit": 3,
       "cost": 2,
+      "resource_energy": 1,
       "traits": "Thwart.",
       "text": "Play only if your identity has the [[SPY]] or [[THIEF]] trait.\n<b>Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme.",
       "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037015"
@@ -319,8 +321,9 @@
       "quantity": 1,
       "deck_limit": 1,
       "cost": 2,
+      "resource_energy": 1,
       "traits": "Attack. Thwart.",
-      "text": "Team-Up (Gambit and Rogue). Max 1 per deck.<b>Hero Action</b> <i>(attack/thwart)</i>: Deal 4 damage to an enemy. Remove 4 threat from a scheme.",
+      "text": "Team-Up (Gambit and Rogue). Max 1 per deck.\n<b>Hero Action</b> <i>(attack/thwart)</i>: Deal 4 damage to an enemy. Remove 4 threat from a scheme.",
       "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037019"
    },
    {
@@ -341,6 +344,7 @@
       "quantity": 3,
       "deck_limit": 3,
       "cost": 0,
+      "resource_energy": 1,
       "text": "Play only if your identity has the [[MUTANT]] trait.\n<b>Alter-Ego Action</b>: Choose up to 2 identity-specific cards in your discard pile and shuffle them into your deck. If X-Mansion is in play, draw 1 card.",
       "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037021"
    },
@@ -378,6 +382,7 @@
       "quantity": 3,
       "deck_limit": 3,
       "cost": 1,
+      "resource_mental": 1,
       "traits": "Location.",
       "text": "Max 1 per player.\n<b>Response</b>: After an ally attacks and defeats a minion, exhaust War Room → remove 1 threat from a scheme.",
       "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037030"
@@ -392,6 +397,7 @@
       "quantity": 3,
       "deck_limit": 3,
       "cost": 0,
+      "resource_energy": 1,
       "text": "Play only if your identity has the [[MUTANT]] trait.\n<b>Alter-Ego Action</b>: Choose up to 2 [[X-MEN]] allies in your discard pile and shuffle them into your deck. If X-Mansion is in play, draw 1 card.",
       "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037031"
    }
