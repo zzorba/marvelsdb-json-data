@@ -7,6 +7,17 @@
 		]
 	},
 	"properties": {
+		"attack": {
+			"oneOf": [
+				{
+					"minimum": -1,
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
 		"back_flavor": {
 			"minLength": 1,
 			"type": "string"
@@ -65,6 +76,10 @@
 		},
 		"enemy_horror": {
 			"minimum": 0,
+			"type": "integer"
+		},
+		"escalation_threat": {
+			"minimum": -1,
 			"type": "integer"
 		},
 		"exceptional": {
@@ -165,6 +180,17 @@
 		"text": {
 			"minLength": 1,
 			"type": "string"
+		},
+		"thwart": {
+			"oneOf": [
+				{
+					"minimum": -1,
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
 		},
 		"traits": {
 			"minLength": 0,
