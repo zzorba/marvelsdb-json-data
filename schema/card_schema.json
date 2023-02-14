@@ -134,6 +134,22 @@
 			"minimum": 1,
 			"type": "integer"
 		},
+		"resource_energy": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"resource_mental": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"resource_physical": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"resource_wild": {
+			"minimum": 0,
+			"type": "integer"
+		},
 		"restrictions": {
 			"minLength": 1,
 			"type": "string"
@@ -141,26 +157,6 @@
 		"set_code": {
 			"minLength": 1,
 			"type": "string"
-		},
-		"skill_agility": {
-			"minimum": 0,
-			"type": "integer"
-		},
-		"skill_combat": {
-			"minimum": 0,
-			"type": "integer"
-		},
-		"skill_intellect": {
-			"minimum": 0,
-			"type": "integer"
-		},
-		"skill_wild": {
-			"minimum": 0,
-			"type": "integer"
-		},
-		"skill_willpower": {
-			"minimum": 0,
-			"type": "integer"
 		},
 		"subname": {
 			"minLength": 1,
