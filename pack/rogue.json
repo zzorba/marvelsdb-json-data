@@ -59,7 +59,7 @@
       "position": 2,
       "quantity": 1,
       "set_position": 1,
-      "resource_physical": "1",
+      "resource_physical": 1,
       "traits": "Condition.",
       "text": "If Touched is attached to a:\nMinion \u2212 Rogue's attacks gain overkill.\nVillain \u2212 Rogue gains retaliate 1.\nAlly \u2212 Rogue gains the [[AERIAL]] trait.\nHero \u2212 Rogue gains stalwart.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038002"
@@ -116,7 +116,7 @@
       "quantity": 3,
       "set_position": 4,
       "cost": 2,
-      "resource_mental": "1",
+      "resource_mental": 1,
       "traits": "Superpower. Thwart.",
       "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. If Rogue has:\n\u2022 [[AERIAL]], remove 2 additional threat.\n\u2022 Retaliate, confuse an enemy.\n\u2022 Stalwart, draw 1 card.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038005"
@@ -133,7 +133,7 @@
       "quantity": 3,
       "set_position": 7,
       "cost": 3,
-      "resource_physical": "1",
+      "resource_physical": 1,
       "traits": "Attack. Superpower.",
       "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. If Rogue has:\n\u2022 [[AERIAL]], this attack deals 2 additional damage.\n\u2022 Retaliate, stun that enemy.\n\u2022 Stalwart, draw 1 card.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038006"
@@ -167,7 +167,7 @@
       "quantity": 2,
       "set_position": 12,
       "cost": 1,
-      "resource_physical": "1",
+      "resource_physical": 1,
       "traits": "Defense. Superpower.",
       "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy with Touched attached to it attacks, prevent all damage from that attack and gain a tough status card.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038008"
@@ -184,7 +184,7 @@
       "quantity": 3,
       "set_position": 14,
       "cost": 0,
-      "resource_mental": "1",
+      "resource_mental": 1,
       "traits": "Superpower.",
       "text": "<b>Hero Action</b>: If Touched is attached to a friendly character, search its owner's discard pile for an event that belong's to the same classification as that character (identity-specific, aspect, or basic) → add that event to your hand.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038009"
@@ -204,7 +204,7 @@
       "thwart": 1,
       "attack": 2,
       "health": 3,
-      "resource_mental": "1",
+      "resource_mental": 1,
       "traits": "X-Men.",
       "text": "Iceman enters play with 3 freeze counters on him.\n<b>Response</b>: After a minion enters play, remove 1 freeze counter from Iceman → stun that minion.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038010"
@@ -244,7 +244,7 @@
       "thwart": 1,
       "attack": 1,
       "health": 2,
-      "resource_physical": "1",
+      "resource_physical": 1,
       "traits": "X-Men.",
       "text": "Play only if your identity has the [[X-MEN]] trait.\nToughness.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038012"
@@ -267,7 +267,7 @@
       "quantity": 3,
       "deck_limit": 3,
       "cost": 2,
-      "resource_physical": "1",
+      "resource_physical": 1,
       "traits": "Skill.",
       "text": "Uses (3 judo counters). Max 1 per player.\n<b>Interrupt</b>: When you defend against an enemy attack, remove 1 judo counter from here → that enemy gets -2 ATK for that attack.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038014"
@@ -290,7 +290,7 @@
       "quantity": 3,
       "deck_limit": 3,
       "cost": 1,
-      "resource_mental": "1",
+      "resource_mental": 1,
       "traits": "Defense.",
       "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When your hero defends against an attack, it gets +2 DEF for that attack. If you take no damage from that attack, remove 2 threat from a scheme.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038016"
@@ -314,7 +314,7 @@
       "deck_limit": 1,
       "is_unique": true,
       "cost": 2,
-      "resource_mental": "1",
+      "resource_mental": 1,
       "traits": "Persona.",
       "text": "Play only if your identity has the [[MUTANT]] trait.\n<b>Response</b>: After a [[MUTANT]] alter-ego changes into hero form, exhaust Moira MacTaggert → that hero's controller draws 1 card.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038018"
@@ -375,7 +375,7 @@
       "quantity": 3,
       "deck_limit": 3,
       "cost": 1,
-      "resource_mental": "1",
+      "resource_mental": 1,
       "traits": "Location.",
       "text": "Max 1 per player.\n<b>Response</b>: After an ally is defeated by consequential damage, exhaust Med Lab → place it here. (Limit 1 ally at a time.)\n<b>Alter-Ego Action</b>: Exhaust Med Lab → play the ally here as if it was in your hand. It enters play exhausted.",
       "octgn_id": "eb5252a6-d631-49b7-a562-b88b23038028"
