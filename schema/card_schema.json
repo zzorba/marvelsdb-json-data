@@ -7,6 +7,17 @@
 		]
 	},
 	"properties": {
+		"attack": {
+			"oneOf": [
+				{
+					"minimum": -1,
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
 		"back_flavor": {
 			"minLength": 1,
 			"type": "string"
@@ -50,6 +61,26 @@
 		"duplicate_of": {
 			"pattern": "^[0-9a-z]{5}[0-9a-z]?$",
 			"type": "string"
+		},
+		"enemy_damage": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"enemy_evade": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"enemy_fight": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"enemy_horror": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"escalation_threat": {
+			"minimum": -1,
+			"type": "integer"
 		},
 		"exceptional": {
 			"type": "boolean"
@@ -145,6 +176,17 @@
 		"text": {
 			"minLength": 1,
 			"type": "string"
+		},
+		"thwart": {
+			"oneOf": [
+				{
+					"minimum": -1,
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
 		},
 		"traits": {
 			"minLength": 0,
