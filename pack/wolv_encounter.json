@@ -3,19 +3,23 @@
 		"boost": 2,
 		"code": "35027",
 		"faction_code": "encounter",
+		"illustrator": "Ario Anindito & Javier Mena Guerrero",
 		"name": "Past Demons",
 		"octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035027",
 		"pack_code": "wolv",
 		"position": 27,
 		"quantity": 1,
 		"set_code": "wolverine",
+		"text": "<b><i>Give to the Logan player</i></b>\nYou may flip to alter-ego form. Choose:\n- Exhaust Logan → remove Past Demons from the game.\n- You are stunned and confused. Discard this card.",
 		"type_code": "obligation"
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Interrupt</b>: When Omega Red attacks you, deal 1 damage to each character you control.",
 		"boost": 3,
 		"code": "35028",
 		"faction_code": "encounter",
+		"flavor": "My death factor will drain the life from your body!",
 		"health": 8,
 		"name": "Omega Red",
 		"octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035028",
@@ -35,6 +39,8 @@
 		"boost": 3,
 		"code": "35029",
 		"faction_code": "encounter",
+		"flavor": "Omega Red needs the Carbonadium Synthesizer to prevent his death factor from killing him.",
+		"illustrator": "Eduardo Mello",
 		"name": "The Carbonadium Synthesizer",
 		"octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035029",
 		"pack_code": "wolv",
@@ -57,11 +63,14 @@
 		"quantity": 2,
 		"set_code": "wolverine_nemesis",
 		"set_position": 3,
+		"text": "Attach to your identity.\n<b>Forced Response:</b> After your turn ends, take 1 damage.\n<b>Alter-Ego Interrupt:</b> When you make a basic recovery, discard this card instead of healing damage.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "You are stunned. Take 1 damage (4 damage instead if you are already stunned).",
 		"code": "35031",
 		"faction_code": "encounter",
+		"illustrator": "Eslam Aboshady",
 		"name": "Tentacle Strike",
 		"octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035031",
 		"pack_code": "wolv",
@@ -69,14 +78,18 @@
 		"quantity": 1,
 		"set_code": "wolverine_nemesis",
 		"set_position": 5,
+		"text": "<b>When Revealed</b>: You are stunned. Take 1 damage (4 damage instead if you are already stunned).",
 		"type_code": "treachery"
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After Lady Deathstrike attacks and damages a character, that character's owner discards 1 random card from their hand.",
 		"boost": 3,
 		"code": "35034",
 		"faction_code": "encounter",
+		"flavor": "\"This time I will carve your heart from your chest!\"",
 		"health": 6,
+		"illustrator": "Ario Murti",
 		"is_unique": true,
 		"name": "Lady Deathstrike",
 		"octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035034",
@@ -104,6 +117,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "deathstrike",
 		"set_position": 2,
+		"text": "<b>When Revealed</b>: If Lady Deathstrike is in play, she activates against you. Otherwise, search the encounter deck and discard pile for Lady Deathstrike and put her into play engaged with you.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -121,15 +135,17 @@
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "Discard 1 random card from your hand and take damage equal to the number of printed resources on it.",
 		"code": "35037",
 		"faction_code": "encounter",
-		"name": "Bain de Sang",
+		"name": "Hack 'n' Slash",
 		"octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035037",
 		"pack_code": "wolv",
 		"position": 37,
 		"quantity": 2,
 		"set_code": "deathstrike",
 		"set_position": 5,
+		"text": "<b>When Revealed</b>: Discard 1 random card from your hand and take damage equal to the number of printed resources on it.",
 		"type_code": "treachery"
 	}
 ]

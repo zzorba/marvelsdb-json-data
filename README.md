@@ -78,7 +78,7 @@ To check and apply formatting to JSON files:
 * flavor
 * **hand_size** - Character's hand size
 * **health** - Character's health
-* illustrator
+* illustrator - The name(s) of the artist(s) on the card
 * **is_unique**
 * **name**
 * octgn_id
