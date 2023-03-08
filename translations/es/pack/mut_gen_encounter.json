@@ -1,0 +1,832 @@
+[
+	{
+		"code": "32025",
+		"name": "Morriña",
+		"text": "<b><i>Dale esta carta al jugador que lleva a Piotr Rasputin.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\nAgota a Piotr Rasputin → retira de la partida Morriña.\nDescarta esta carta y todas las cartas de Estado /*Duro/* que tenga tu Superhéroe. Si no has descartado ninguna carta de Estado /*Duro/* de este modo, esta carta gana Oleada."
+	},
+	{
+		"boost_text": "si esta activación es un ataque, éste gana Brutalidad y Penetrante.",
+		"code": "32026",
+		"flavor": "\"¡Nada detiene al Juggernaut!\"",
+		"name": "Juggernaut",
+		"text": "Firmeza. Dureza.",
+		"traits": "Bruto. Élite."
+	},
+	{
+		"code": "32027",
+		"flavor": "\"Juggernaut posee el poder de Cyttorak, pero éste también le hace enloquecer.\"",
+		"name": "Juggernaut desbocado",
+		"text": "<b>Cuando se muestre esta carta:</b> descarta todas las cartas de Estado /*Duro/* que tenga cada personaje amigo. Coloca 2 de Amenaza sobre esta carta por cada carta de Estado /*Duro/* que se haya descartado de este modo."
+	},
+	{
+		"attack_text": "<b>Interrupción obligada:</b> cuando el enemigo vinculado ataque, dicho ataque gana Brutalidad y Penetrante. Al final de este ataque, descarta Imparable.",
+		"code": "32028",
+		"name": "Imparable",
+		"text": "Vincula esta carta al enemigo que tenga el valor impreso más alto de ATQ y que no tenga ya vinculada una copia de Imparable. De no ser posible, esta carta gana Oleada."
+	},
+	{
+		"boost_text": "muestra esta carta.",
+		"code": "32029",
+		"flavor": "\"¿Es que no sabes quién soy?\"-Juggernaut",
+		"name": "Arrollamiento",
+		"text": "<b>Cuando se muestre esta carta:</b> quedas aturdido. Si ya estabas aturdido, sufres 2 de Daño."
+	},
+	{
+		"code": "32055",
+		"name": "En fase permanente",
+		"text": "<b><i>Dale esta carta al jugador que lleva a Kitty Pride.</i></b>\nDale la vuelta a tu Mejora de identidad de masa para cambiarla a En fase.\nNo puedes atacar, defender ni cambiar de identidad de masa.\n<b>Acción de Alter ego:</b> agota a Kitty Pride → retira de la partida En fase permanente."
+	},
+	{
+		"boost_text": "quedas confundido.",
+		"code": "32056",
+		"name": "Reina Blanca",
+		"text": "Infame.\nMientras la Reina Blanca esté enfrentada a ti, quedas confundido.\n(Esbirro Archienemigo de Gatasombra.)",
+		"traits": "Élite. Psiónico."
+	},
+	{
+		"code": "32057",
+		"name": "El Club Fuego Infernal",
+		"text": "<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan busca una copia del Esbirro Peón del Fuego Infernal en el mazo de Encuentros, la pila de descartes y la zona apartada, y lo pone en juego enfrentado a él. (Baraja el mazo.)"
+	},
+	{
+		"boost_text": "pon en juego el Peon del fuego Infernal enfrentado a ti.",
+		"code": "32058",
+		"name": "Peón del Fuego Infernal",
+		"text": "Guardia. Patrulla. Oleada.",
+		"traits": "Fuego infernal."
+	},
+	{
+		"code": "32059",
+		"name": "Contención telepática",
+		"flavor": "\"Pórtate bien y no te muevas...ni hables.Así está mejor.\"-Reina Blanca",
+		"text": "Vincula esta carta a tu Superhéroe.\nMientras la Contención telepática esté vinculada a tu Superhéroe, quedas aturdido.\n<b>Acción:</b> gasta recursos [mental][mental] → descarta esta carta.",
+		"traits": "Alteración."
+	},
+	{
+		"attack_text": "<b>Respuesta obligada:</b> .",
+		"code": "32060",
+		"name": "Dientes de Sable I",
+		"flavor": "\"Pórtate bien y no te muevas...ni hables.Así está mejor.\"-Reina Blanca",
+		"traits": "Hermandad de mutantes"
+	},
+	{
+		"code": "32061",
+		"name": "Dientes de Sable II",
+		"text": "Dureza.",
+		"traits": "Hermandad de mutantes"
+	},
+	{
+		"code": "32062",
+		"name": "Dientes de Sable III",
+		"text": "Represalia 1. Dureza.",
+		"traits": "Hermandad de mutantes"
+	},
+	{
+		"back_link": "32063b",
+		"code": "32063a",
+		"name": "Acosado por Dientes de Sable 1A",
+		"text": ""
+	},
+	{
+		"code": "32063b",
+		"name": "Acosado por Dientes de Sable 1B",
+		"text": ""
+	},
+	{
+		"back_link": "32064b",
+		"code": "32064a",
+		"name": "El Senador herido 2A",
+		"text": "<b>Cuando se muestre esta carta:</b>."
+	},
+	{
+		"code": "32064b",
+		"name": "El Senador herido 2B",
+		"text": "<b>Cuando se complete esta carta:</b> derrota a Robert Kelly."
+	},
+	{
+		"back_link": "32065b",
+		"code": "32065a",
+		"name": "Busca al Senador",
+		"text": "Ataque veloz."
+	},
+	{
+		"code": "32065b",
+		"name": "Proteger al Senador",
+		"text": "Ataque veloz."
+	},
+	{
+		"code": "32066",
+		"name": "Robert Kelly",
+		"text": "El jugador inicial controla a Robert Kelly. No se cuenta de cara a tu límite de Aliados y tampoco se le pueden vincular cartas de Jugador.\n<b>Interrupción obligada:</b> cuando un enemigo resuelva un ataque no defendido contra ti, inflige ese Daño a Robert Kelly.",
+		"traits": "Senador."
+	},
+	{
+		"boost_text": "Vincula esta carta a Dientes de Sable.",
+		"code": "32067",
+		"name": "Garras de Adamántium",
+		"text": "Vincula esta carta a Dientes de Sable.\n<b>Acción de Héroe:</b> gasta recursos [energy][mental][physical] → descarta esta carta.",
+		"traits": "Arma."
+	},
+	{
+		"boost_text": "Vincula esta carta a Dientes de Sable.",
+		"code": "32068",
+		"name": "Ferocidad Animal",
+		"text": "Vincula esta carta a Dientes de Sable.\nDientes de Sable gana Firmeza.\n<b>Acción de Héroe:</b> gasta recursos [energy][mental][physical] → descarta esta carta.",
+		"traits": "Alteración."
+	},
+	{
+		"code": "32069",
+		"name": "Dientes de Sable ataca",
+		"text": "Ataque veloz."
+	},
+	{
+		"code": "32070",
+		"name": "Salvajismo impaclabe",
+		"text": ""
+	},
+	{
+		"code": "32071",
+		"name": "Emergencia médica",
+		"text": "Complicación 2[per_hero].\nVictory 1."
+	},
+	{
+		"code": "32072",
+		"name": "Rabia salvaje",
+		"text": ""
+	},
+	{
+		"code": "32073",
+		"name": "Avalancha",
+		"text": "",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"code": "32074",
+		"name": "Mole",
+		"text": "Guardia.",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"code": "32075",
+		"name": "Piros",
+		"text": "",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"code": "32076",
+		"name": "Sapo",
+		"text": ".",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"code": "32077",
+		"name": "Homo Superior",
+		"text": "",
+		"traits": "Alteración."
+	},
+	{
+		"code": "32078",
+		"name": "Terroristas mutantes",
+		"text": ""
+	},
+	{
+		"code": "32079",
+		"name": "La Hermandad",
+		"text": "Complicación 2[per_hero]."
+	},
+	{
+		"code": "32080",
+		"name": "Mística",
+		"text": "Dureza.",
+		"traits": "Hermandad de mutantes. Élite."
+	},
+	{
+		"code": "32081",
+		"name": "Malicia metamórfica",
+		"text": ""
+	},
+	{
+		"code": "32082",
+		"name": "Infiltración",
+		"text": "",
+		"traits": "Cambiaformas."
+	},
+	{
+		"code": "32083",
+		"name": "Impostora imprevisible",
+		"text": "",
+		"traits": "Cambiaformas."
+	},
+	{
+		"code": "32084",
+		"name": "Centinela I",
+		"text": "Dureza.",
+		"traits": "Centinela."
+	},
+	{
+		"code": "32085",
+		"name": "Centinela II",
+		"text": "Tesón. Dureza.",
+		"traits": "Centinela."
+	},
+	{
+		"code": "32086",
+		"name": "Centinela III",
+		"text": "Firmeza. Dureza.",
+		"traits": "Centinela."
+	},
+	{
+		"back_link": "32087b",
+		"code": "32087a",
+		"name": "Noche de los centinelas A",
+		"text": ""
+	},
+	{
+		"code": "32087b",
+		"name": "Noche de los centinelas B",
+		"text": ""
+	},
+	{
+		"back_link": "32088b",
+		"code": "32088a",
+		"name": "Mutante at the Mall",
+		"text": ""
+	},
+	{
+		"code": "32088b",
+		"name": "Júbilo",
+		"subname": "Jubilation Lee",
+		"text": "Victoria -1.\nEl jugador inicial controla a Júbilo. No se cuenta de cara a tu límite de Aliados.\n<b>Acción</b>: Agota a Júbilo y gasta un recurso [energy] → inflige 2 de Daño a un enemigo.",
+		"traits": "Patrulla-X."
+	},
+	{
+		"code": "32089",
+		"name": "Rictor",
+		"subname": "Julio Richter",
+		"text": "",
+		"traits": "Cautivo. Patrulla-X."
+	},
+	{
+		"code": "32090",
+		"name": "Bum Bum",
+		"subname": "Tabitha Smith",
+		"text": "",
+		"traits": "Cautivo. Patrulla-X."
+	},
+	{
+		"code": "32091",
+		"name": "Bala de Cañón",
+		"subname": "Sam Guthrie",
+		"text": "",
+		"traits": "Cautivo. Patrulla-X."
+	},
+	{
+		"code": "32092",
+		"name": "Loba Venenosa",
+		"subname": "Rahne Sinclair",
+		"text": "",
+		"traits": "Cautivo. Patrulla-X."
+	},
+	{
+		"code": "32093",
+		"name": "Centinela Mark IV",
+		"text": "Guardia. Patrulla.",
+		"traits": "Centinela."
+	},
+	{
+		"boost_text": "agota tu carta de Superhéroe.",
+		"code": "32094",
+		"name": "Guantelete lanzarrayos",
+		"text": "Vincula esta carta al Villano.\n[star] Los ataques del villano ganan A distancia y Penetrante.\n<b>Acción de Héroe:</b> gasta recursos [physical][physical][physical] → descarta esta carta.",
+		"traits": "Centinela. Tecnología."
+	},
+	{
+		"boost_text": "Vincula esta carta al Villano.",
+		"code": "32095",
+		"name": "IA de aprendizaje",
+		"text": "Vincula esta carta al Villano.\n[star] El Villano gana Reperesalia 1.\n<b>Acción de Héroe:</b> gasta recursos [mental][mental][mental] → descarta esta carta.",
+		"traits": "Centinela. Tecnología."
+	},
+	{
+		"boost_text": "Vincula esta carta al Villano.",
+		"code": "32096",
+		"name": "Blindaje adaptativo",
+		"text": "Vincula esta carta al Villano.\n[star] El Villano recibe +8 de Vida.\n<b>Acción de Héroe:</b> gasta recursos [energy][energy][energy] → descarta esta carta.",
+		"traits": "Centinela. Tecnología."
+	},
+	{
+		"boost_text": "dale al Villano una carta de Estado /*Duro/*.",
+		"code": "32097",
+		"name": "Reparaciones automatizadas",
+		"text": ""
+	},
+	{
+		"code": "32098",
+		"name": "Mutante Detectado",
+		"text": ""
+	},
+	{
+		"code": "32099",
+		"name": "Avisar a los demás",
+		"text": "."
+	},
+	{
+		"code": "32100",
+		"name": "Protocolos de captura",
+		"text": "Complicación 2[per_hero]. Victoria 2."
+	},
+	{
+		"code": "32101",
+		"name": "Centinela Mark II",
+		"text": ".",
+		"traits": "Centinela."
+	},
+	{
+		"boost_text": "quedas aturdido. Si ya estabas aturdido, sufres 2 de Daño.",
+		"code": "32102",
+		"name": "Centinela Mark III",
+		"text": "Dureza.",
+		"traits": "Centinela."
+	},
+	{
+		"code": "32103",
+		"name": "Barrera de Energía",
+		"text": "",
+		"traits": "Centinela. Tecnología."
+	},
+	{
+		"code": "32104",
+		"name": "Operación Tolerancia Cero",
+		"text": "<b>Respuesta obligada:</b>"
+	},
+	{
+		"code": "32105",
+		"name": "Centinela Mark V",
+		"text": "<b>Cuando se muestre esta carta:</b>",
+		"traits": "Centinela."
+	},
+	{
+		"code": "32106",
+		"name": "Centinela Mark VI",
+		"text": "Ataque veloz.",
+		"traits": "Centinela."
+	},
+	{
+		"code": "32107",
+		"name": "Objetivo designado",
+		"text": "Vincula esta carta a tu Superhéroe si no tienes ya vinculada una copia de Objetivo designado."
+	},
+	{
+		"code": "32108",
+		"name": "Robots implacables",
+		"text": "Ataque veloz."
+	},
+	{
+		"code": "32109",
+		"name": "Molde Maestro I",
+		"text": "Firmeza. Dureza.",
+		"traits": "Centinela."
+	},
+	{
+		"code": "32110",
+		"name": "Molde Maestro II",
+		"text": "Firmeza. Dureza.",
+		"traits": "Centinela."
+	},
+	{
+		"code": "32111",
+		"name": "Molde Maestro III",
+		"text": "Firmeza. Dureza.",
+		"traits": "Centinela."
+	},
+	{
+		"back_link": "32112b",
+		"code": "32112a",
+		"name": "La fábrica de centinelas A",
+		"text": "."
+	},
+	{
+		"code": "32112b",
+		"name": "La fábrica de centinelas B",
+		"text": "."
+	},
+	{
+		"back_link": "32113b",
+		"code": "32113a",
+		"name": "El plan del Molde Maestro A",
+		"text": "."
+	},
+	{
+		"code": "32113b",
+		"name": "El plan del Molde Maestro B",
+		"text": "Ataque veloz."
+	},
+	{
+		"code": "32114",
+		"name": "Centinela Mark VIII",
+		"text": "<b>Respuesta obligada:</b>.",
+		"traits": "Centinela."
+	},
+	{
+		"code": "32115",
+		"name": "Mejora de unidad",
+		"text": "Vincula esta carta a un Esbirro [CENTINELA]. De no ser posible, esta cata gana Oleada.\nEl Esbirro vinculado recibe +2 de Vida y gana Represalia 1.",
+		"traits": "Centinela. Tecnología."
+	},
+	{
+		"code": "32116",
+		"name": "Rayo aturdidor",
+		"text": "Vincula esta carta a un Esbirro [CENTINELA] que no tenga ya vinculado un Rayo aturdidor. De no ser posible, esta carta gana Oleada.",
+		"traits": "Centinela. Tecnología."
+	},
+	{
+		"code": "32117",
+		"name": "HIjos del Molde Maestro",
+		"text": "."
+	},
+	{
+		"code": "32118",
+		"name": "Activar los escudos",
+		"text": "."
+	},
+	{
+		"code": "32119",
+		"name": "¡Alerta de intrusos!",
+		"text": "."
+	},
+	{
+		"code": "32120",
+		"name": "Cargar virus informático",
+		"text": "Complicación 2[per_hero]. Victoria 1.\n<b>Cuando se derrote esta carta:</b> inflige 2 de Daño a cada enemigo [CENTINELA]."
+	},
+	{
+		"back_link": "32121b",
+		"code": "32121a",
+		"name": "Avalancha A",
+		"text": "Dureza. Victoria 2.",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"code": "32121b",
+		"name": "Avalancha B",
+		"text": "Dureza. Victoria 2.",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"back_link": "32122b",
+		"code": "32122a",
+		"name": "Mole A",
+		"text": "Dureza. Victoria 2.",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"code": "32122b",
+		"name": "Mole B",
+		"text": "Dureza. Victoria 2.",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"code": "32123a",
+		"name": "Piros A",
+		"text": "Dureza. Victoria 2.",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"code": "32123b",
+		"name": "Piros B",
+		"text": "Dureza. Victoria 2.",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"back_link": "32124b",
+		"code": "32124a",
+		"name": "Sapo A",
+		"text": "Dureza. Victoria 2.",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"code": "32124b",
+		"name": "Sapo B",
+		"text": "Dureza. Victoria 2.",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"back_link": "32125b",
+		"code": "32125a",
+		"name": "La Hermandad ataca! A",
+		"text": "."
+	},
+	{
+		"code": "32125b",
+		"name": "La Hermandad ataca! B",
+		"text": "."
+	},
+	{
+		"back_link": "32126b",
+		"code": "32126a",
+		"name": "El vestíbulo A",
+		"text": "."
+	},
+	{
+		"code": "32126b",
+		"name": "El vestíbulo B",
+		"text": "."
+	},
+	{
+		"back_link": "32127b",
+		"code": "32127a",
+		"name": "La cafetería A",
+		"text": "."
+	},
+	{
+		"code": "32127b",
+		"name": "La cafetería B",
+		"text": "."
+	},
+	{
+		"back_link": "32128b",
+		"code": "32128a",
+		"name": "La cancha de baloncesto A",
+		"text": "."
+	},
+	{
+		"code": "32128b",
+		"name": "La cancha de baloncesto B",
+		"text": "."
+	},
+	{
+		"back_link": "32129b",
+		"code": "32129a",
+		"name": "El patio A",
+		"text": "."
+	},
+	{
+		"code": "32129b",
+		"name": "El patio B",
+		"text": "."
+	},
+	{
+		"code": "32130",
+		"name": "Salvar el instituto",
+		"text": "."
+	},
+	{
+		"code": "32131",
+		"name": "Vapuleados por la Hermandad",
+		"text": "."
+	},
+	{
+		"code": "32132",
+		"name": "Erupción de tierra",
+		"text": "."
+	},
+	{
+		"code": "32133",
+		"name": "Immovible",
+		"text": "."
+	},
+	{
+		"code": "32134",
+		"name": "Pirómano",
+		"text": "."
+	},
+	{
+		"code": "32135",
+		"name": "Sapos y culebras",
+		"text": "."
+	},
+	{
+		"code": "32136",
+		"name": "Proteger a los alumnos",
+		"text": "Complicación 2[per_hero]."
+	},
+	{
+		"code": "32137",
+		"name": "Bajo asedio",
+		"text": "."
+	},
+	{
+		"code": "32138",
+		"name": "Magneto I",
+		"text": "Tesón. Dureza.",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"code": "32139",
+		"name": "Magneto II",
+		"text": "Tesón. Dureza.",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"code": "32140",
+		"name": "Magneto III",
+		"text": "Tesón. Dureza.",
+		"traits": "Hermandad de mutantes."
+	},
+	{
+		"back_link": "32141b",
+		"code": "32141a",
+		"name": "Asteroide M A",
+		"text": "."
+	},
+	{
+		"code": "32141b",
+		"name": "Asteroide M B",
+		"text": "."
+	},
+	{
+		"back_link": "32142b",
+		"code": "32142a",
+		"name": "Fábrica operativa A",
+		"text": "."
+	},
+	{
+		"code": "32142b",
+		"name": "Fábrica operativa B",
+		"text": "Complicación 2[per_hero]."
+	},
+	{
+		"back_link": "32143b",
+		"code": "32143a",
+		"name": "La dictadura de Magnus A",
+		"text": "."
+	},
+	{
+		"code": "32143b",
+		"name": "La dictadura de Magnus B",
+		"text": "."
+	},
+	{
+		"back_link": "32144b",
+		"code": "32144a",
+		"name": "Misión de abordaje",
+		"text": "Magneto no puede tener más de 6[per_hero] de Daño acumulado.\n<b>Cuando se derrote esta carta:</b> dale la vuelta a esta carta y muestra Sabotear el Molde Maestro."
+	},
+	{
+		"code": "32144b",
+		"name": "Sabotear el Molde Maestro",
+		"text": "Magneto no puede tener más de 12[per_hero] de Daño acumulado.\n<b>Cuando se derrote esta carta:</b> muestra el Plan secundario Caída de órbita que está apartado. Añade esta carta a la zona de victoria."
+	},
+	{
+		"back_link": "32145b",
+		"code": "32145a",
+		"name": "Caída de Órbita",
+		"text": "Magneto no puede tener más de 18[per_hero] de Daño acumulado.\n<b>Cuando se derrote esta carta:</b> dale la vuelta a esta carta y muestra Esfuerzo físico."
+	},
+	{
+		"code": "32145b",
+		"name": "Esfuerzo Físico",
+		"text": "Vincula esta carta a Magneto.\nPermanente.\nMagneto pierde Tesón.",
+		"traits": "Alteración."
+	},
+	{
+		"code": "32146",
+		"name": "Centinela tipo M",
+		"text": "Guardia.\n<b>Cuando se derrote esta carta:</b> dale a Magneto una carta de Estado /*Duro/*.",
+		"traits": "Centinela."
+	},
+	{
+		"code": "32147",
+		"name": "Casco de Magneto",
+		"text": "Vincula esta carta a Magneto.\nMagneto no puede quedar confundido.",
+		"traits": "Armadura. Magnético."
+	},
+	{
+		"code": "32148",
+		"name": "Magneto's Armadura",
+		"text": "Vincula esta carta a Magneto.\nMagneto no puede quedar aturdido.",
+		"traits": "Armadura. Magnético."
+	},
+	{
+		"code": "32149",
+		"name": "Burbuja Magnética",
+		"text": "Vincula esta carta a Magneto.\nMagneto gana Reperesalia 1.",
+		"traits": "Magnético."
+	},
+	{
+		"code": "32150",
+		"name": "Envoltura Metálica",
+		"text": ".",
+		"traits": "Magnético."
+	},
+	{
+		"code": "32151",
+		"name": "El amo del magnetismo",
+		"text": ".",
+		"traits": "Magnético."
+	},
+	{
+		"code": "32152",
+		"name": "Sacudida eléctrica",
+		"text": "."
+	},
+	{
+		"boost_text": "agota tu carta de Superhéroe.",
+		"code": "32153",
+		"name": "Estallido electromagnético",
+		"text": ".",
+		"traits": "Magnético."
+	},
+	{
+		"boost_text": "si esto es un ataque y derrota a un Aliado, coloca 1 contador de Magnetismo sobre el Plan principal.",
+		"code": "32154",
+		"name": "Fragmentos de metal",
+		"text": ".",
+		"traits": "Magnético."
+	},
+	{
+		"code": "32155",
+		"name": "Proyectil magnético",
+		"text": "Oleada.",
+		"traits": "Magnético."
+	},
+	{
+		"code": "32156",
+		"name": "Malevolencia magnética",
+		"text": ".",
+		"traits": "Magnético."
+	},
+	{
+		"boost_text": "agota todos los Aliados que controles.",
+		"code": "32157",
+		"name": "Sellado magnético",
+		"text": ".",
+		"traits": "Magnético."
+	},
+	{
+		"code": "32158",
+		"name": "¡Apresado!",
+		"text": ".",
+		"traits": "Magnético."
+	},
+	{
+		"code": "32159",
+		"name": "Fabian Cortez",
+		"text": "Trabajo en equipo ([[ACÓLITO]]). Infame.",
+		"traits": "Acólito. Élite."
+	},
+	{
+		"code": "32160",
+		"name": "Amelia Voght",
+		"text": "Firmeza. Trabajo en equipo ([[ACÓLITO]]).",
+		"traits": "Acólito."
+	},
+	{
+		"code": "32161",
+		"name": "Senyaka",
+		"text": "Trabajo en equipo ([[ACÓLITO]]).",
+		"traits": "Acólito."
+	},
+	{
+		"code": "32162",
+		"name": "Delgado",
+		"text": "Represalia 1. Trabajo en equipo ([[ACÓLITO]]).",
+		"traits": "Acólito."
+	},
+	{
+		"code": "32163",
+		"name": "Unuscione",
+		"text": "Trabajo en equipo ([[ACÓLITO]]). Dureza.",
+		"traits": "Acólito."
+	},
+	{
+		"code": "32164",
+		"name": "Fanatismo por la causa",
+		"text": "."
+	},
+	{
+		"boost_text": "coge todos los Esbirros [ACÓLITO] que haya en la pila de descartes, añádelos al mazo de Encuentros y barájalo.",
+		"code": "32165",
+		"name": "Los Acólitos",
+		"text": "Todos los Esbirros [ACÓLITO] ganan Guardia."
+	},
+	{
+		"code": "32166",
+		"name": "Nimrod",
+		"text": "Firmeza. Victoria 1.\nNimrod no puede sufrir más de 3 de Daño en cada fase.",
+		"traits": "Élite. Centinela."
+	},
+	{
+		"boost_text": "quédate esta carta como carta de Encuentro boca abajo.",
+		"code": "32167",
+		"name": "Bastión",
+		"text": "Dureza. Infame. Victoria 1.",
+		"traits": "Élite. Centinela."
+	},
+	{
+		"code": "32168",
+		"name": "Portal de Nimrod",
+		"text": "Victoria 1.\n<b>Cuando se derrote esta carta:</b> "
+	},
+	{
+		"code": "32169",
+		"name": "Las maquinaciones de Bastión",
+		"text": "Victoria 1."
+	},
+	{
+		"code": "32170",
+		"name": "Tecnología de Nanocentinela",
+		"text": "Victoria 1.",
+		"traits": "Centinela. Tecnología."
+	}
+]
