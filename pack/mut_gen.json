@@ -50,6 +50,7 @@
 	},
 	{
 		"attack": 2,
+		"attack_cost": 1,
 		"code": "32002",
 		"cost": 3,
 		"deck_limit": 1,
@@ -67,6 +68,7 @@
 		"subname": "Kitty Pryde",
 		"text": "Shadowcat ignores the guard and patrol keywords, and any crisis icons ([crisis]) in play.",
 		"thwart": 2,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	},
@@ -209,6 +211,7 @@
 	},
 	{
 		"attack": 2,
+		"attack_cost": 1,
 		"code": "32011",
 		"cost": 3,
 		"deck_limit": 1,
@@ -224,11 +227,13 @@
 		"subname": "Kurt Wagner",
 		"text": "<b>Interrupt</b>: When an [[X-MEN]] character would take any amount of damage from an enemy attack, spend a [energy] resource and return Nightcrawler to your hand → prevent all of that damage.",
 		"thwart": 2,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 2,
+		"attack_cost": 1,
 		"code": "32012",
 		"cost": 3,
 		"deck_limit": 1,
@@ -244,6 +249,7 @@
 		"subname": "Lorna Dane",
 		"text": "<b>Response</b>: After Polaris enters play, give an [[X-MEN]] character a tough status card.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	},
@@ -330,6 +336,7 @@
 	},
 	{
 		"attack": 0,
+		"attack_cost": 1,
 		"code": "32019",
 		"cost": 3,
 		"deck_limit": 1,
@@ -345,6 +352,7 @@
 		"subname": "Charles Xavier",
 		"text": "<b>Forced Response</b>: After Professor X enters play, choose one: confuse the villain, stun a minion, or ready an [[X-MEN]] character. At the end of the round, if Professor X is still in play, discard him.",
 		"thwart": 3,
+		"thwart_cost": 1,
 		"traits": "Psionic. X-Men.",
 		"type_code": "ally"
 	},
@@ -489,6 +497,7 @@
 	},
 	{
 		"attack": 1,
+		"attack_cost": 1,
 		"code": "32032",
 		"cost": 2,
 		"deck_limit": 1,
@@ -505,6 +514,7 @@
 		"set_position": 2,
 		"text": "<b>Response</b>: After Lockheed enters play, if you are in:\n• Solid mass form, deal 2 damage to an enemy.\n• Phased mass form, remove 2 threat from a scheme.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "Dragon. X-Men.",
 		"type_code": "ally"
 	},
@@ -663,11 +673,13 @@
 		"subname": "Logan",
 		"text": "[star] Wolverine's attacks gain piercing.\n<b>Response</b>: After your turn begins, heal 1 damage from Wolverine.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 2,
+		"attack_cost": 1,
 		"code": "32042",
 		"cost": 3,
 		"deck_limit": 1,
@@ -683,6 +695,7 @@
 		"subname": "Illyana Rasputin",
 		"text": "<b>Response</b>: After you play Magik from your hand, spend a [mental] resource → choose a non-[[Elite]] minion engaged with an [[X-MEN]] hero. Shuffle that minion into the encounter deck.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "Mystic. X-Men.",
 		"type_code": "ally"
 	},
@@ -754,6 +767,7 @@
 	},
 	{
 		"attack": 3,
+		"attack_cost": 2,
 		"code": "32048",
 		"cost": 4,
 		"deck_limit": 1,
@@ -768,6 +782,7 @@
 		"resource_physical": 1,
 		"text": "Reduce the cost to play Colossus by 1 if your identity has the [[MUTANT]] or [[X-MEN]] trait.\nToughness.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	},
@@ -881,6 +896,7 @@
 	},
 	{
 		"attack": 3,
+		"attack_cost": 1,
 		"code": "32172b",
 		"double_sided": true,
 		"faction_code": "campaign",
@@ -894,9 +910,10 @@
 		"resource_wild": 1,
 		"set_code": "mut_gen_campaign",
 		"set_position": 2,
-		"subname": "Erik Lensherr",
-		"text": "Victory 1.",
+		"subname": "Erik Lehnsherr",
+		"text": "Victory 1.\nThe first player controls Magneto. He does not count against your ally limit.\n[star] <b>Response</b>: After Magneto attacks and defeats a [[SENTINEL]] minion, heal 1 damage from Magneto.",
 		"thwart": 2,
+		"thwart_cost": 1,
 		"traits": "Brotherhood of Mutants.",
 		"type_code": "ally"
 	},

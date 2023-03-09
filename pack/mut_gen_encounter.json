@@ -288,7 +288,7 @@
 		"type_code": "environment"
 	},
 	{
-		"attack": 0,
+		"attack": null,
 		"code": "32066",
 		"cost": 0,
 		"faction_code": "encounter",
@@ -301,7 +301,8 @@
 		"quantity": 1,
 		"set_code": "sabretooth",
 		"set_position": 7,
-		"thwart": 0,
+		"text": "The first player controls Robert Kelly. He does not count against your ally limit and cannot have player cards attached.\n<b>Forced Interrupt</b>: When an enemy resolves an undefended attack against you, deal the damage to Robert Kelly.",
+		"thwart": null,
 		"traits": "Senator.",
 		"type_code": "ally"
 	},
@@ -675,6 +676,7 @@
 	},
 	{
 		"attack": 1,
+		"attack_cost": 1,
 		"code": "32088b",
 		"cost": 0,
 		"double_sided": true,
@@ -692,11 +694,13 @@
 		"subname": "Jubilation Lee",
 		"text": "Victory -1.\nThe first player controls Jubilee. She does not count against your ally limit.\n<b>Action</b>: Exhaust Jubilee and spend a [energy] resource → deal 2 damage to an enemy.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 1,
+		"attack_cost": 1,
 		"code": "32089",
 		"cost": 2,
 		"faction_code": "encounter",
@@ -711,12 +715,15 @@
 		"set_code": "project_wideawake",
 		"set_position": 6,
 		"subname": "Julio Richter",
+		"text": "[star] <b>Response</b>: After Rictor attacks, deal 1 damage to the villain and each minion engaged with you.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "Captive. X-Men.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 1,
+		"attack_cost": 1,
 		"code": "32090",
 		"cost": 2,
 		"faction_code": "encounter",
@@ -730,12 +737,15 @@
 		"set_code": "project_wideawake",
 		"set_position": 7,
 		"subname": "Tabitha Smith",
+		"text": "[star] <b>Response</b>: After Boom Boom attacks an enemy, place 1 bomb counter on it. At the end of the player phase, remove all bomb counters from play and deal 2 damage to each enemy for each bomb counter removed from it this way.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "Captive. X-Men.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 2,
+		"attack_cost": 1,
 		"code": "32091",
 		"cost": 2,
 		"faction_code": "encounter",
@@ -749,12 +759,15 @@
 		"set_code": "project_wideawake",
 		"set_position": 8,
 		"subname": "Sam Guthrie",
+		"text": "[star] Cannonball takes -1 consequential damage after he attacks and defeats a minion.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "Captive. X-Men.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 2,
+		"attack_cost": 1,
 		"code": "32092",
 		"cost": 2,
 		"faction_code": "encounter",
@@ -768,7 +781,9 @@
 		"set_code": "project_wideawake",
 		"set_position": 9,
 		"subname": "Rahne Sinclair",
+		"text": "[star] Wolfbane's attacks gain piercing.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "Captive. X-Men.",
 		"type_code": "ally"
 	},
