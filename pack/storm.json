@@ -25,7 +25,7 @@
 		"position": 1,
 		"quantity": 1,
 		"set_code": "storm",
-		"text": "<i>Weather Control</i> - <b>Action</b>: Swap your [[WEATHER]] support in play with a support of your choice from the [[WEATHER]] deck. Resolve the \"<b>Special</b>\" ability on your [[WEATHER]] support in play. (Limit once per round).",
+		"text": "<i>Weather Control</i> — <b>Action</b>: Swap your [[WEATHER]] support in play with a support of your choice from the [[WEATHER]] deck. Resolve the \"<b>Special</b>\" ability on your [[WEATHER]] support in play. (Limit once per round).",
 		"thwart": 1,
 		"traits": "X-Men.",
 		"type_code": "hero"
@@ -46,7 +46,7 @@
 		"quantity": 1,
 		"recover": 3,
 		"set_code": "storm",
-		"text": "Ororo Munroe begins the game with a [[WEATHER]] deck. (See insert.)\n<i>\"I feel a storm coming...\"</i> - <b>Setup</b>: Choose a support from the [[WEATHER]] deck and put it into play.",
+		"text": "Ororo Munroe begins the game with a [[WEATHER]] deck. (See insert.)\n<i>\"I feel a storm coming...\"</i> — <b>Setup</b>: Choose a support from the [[WEATHER]] deck and put it into play.",
 		"traits": "Mutant.",
 		"type_code": "alter_ego"
 	},
@@ -171,7 +171,7 @@
 		"resource_physical": 1,
 		"set_code": "storm",
 		"set_position": 3,
-		"text": "<b>Alter-Ego Action</b>: Exhaust Ororo's Garden → heal 2 damage from you identity.",
+		"text": "<b>Alter-Ego Action</b>: Exhaust Ororo's Garden → heal 2 damage from your identity.",
 		"traits": "Location.",
 		"type_code": "support"
 	},
@@ -242,7 +242,7 @@
 		"resource_energy": 1,
 		"set_code": "storm",
 		"set_position": 12,
-		"text": "<b>Hero Interrupt</b>: When the villain attacks you, the villain and each minion engaged with you get -3 ATK while attacking you this phase. If Blizzard is in play, resolve its \"<b>Special</b>\" ability.",
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When the villain attacks you, the villain and each minion engaged with you get -3 ATK while attacking you this phase. If Blizzard is in play, resolve its \"<b>Special</b>\" ability.",
 		"traits": "Defense. Superpower.",
 		"type_code": "event"
 	},
@@ -280,11 +280,13 @@
 		"subname": "Alex Summers",
 		"text": "[star] <b>Forced Interrupt</b>: When Havok attacks, discard the top card of the encounter deck. For each boost icon ([boost]) discarded this way, Havok gets +1 ATK for this attack and takes +1 consequential damage ([consequential]).",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 1,
+		"attack_cost": 1,
 		"code": "36015",
 		"cost": 3,
 		"deck_limit": 1,
@@ -300,11 +302,13 @@
 		"subname": "Dani Moonstar",
 		"text": "<b>Response</b>: After Mirage enters play, choose an enemy whose SCH is less than Mirage's THW → stun that enemy.",
 		"thwart": 2,
+		"thwart_cost": 1,
 		"traits": "Psionic. X-Men.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 3,
+		"attack_cost": 1,
 		"code": "36016",
 		"cost": 3,
 		"deck_limit": 1,
@@ -320,11 +324,13 @@
 		"subname": "Nezhno Abidemi",
 		"text": "[star] Gentle takes +1 consequential damage ([consequential]) after he attacks the villain.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 2,
+		"attack_cost": 2,
 		"code": "36017",
 		"cost": 2,
 		"deck_limit": 1,
@@ -340,6 +346,7 @@
 		"subname": "Megan Gwynn",
 		"text": "<b>Response</b>: After you play Pixie from your hand, add an [[X-MEN]] ally from your discard pile to your hand.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "Aerial. X-Men.",
 		"type_code": "ally"
 	},
@@ -383,7 +390,7 @@
 		"pack_code": "storm",
 		"position": 20,
 		"quantity": 3,
-		"text": "Play only if your identity has the [[X-MEN]] trait.<b>Hero Action</b>: Search the top 5 cards of your deck for an [[X-MEN]] ally and put it into play. If that ally is still in play at the end of the phase, add it to your hand.",
+		"text": "Play only if your identity has the [[X-MEN]] trait.\n<b>Hero Action</b>: Search the top 5 cards of your deck for an [[X-MEN]] ally and put it into play. If that ally is still in play at the end of the phase, add it to your hand.",
 		"traits": "Tactic.",
 		"type_code": "event"
 	},
@@ -397,6 +404,7 @@
 	},
 	{
 		"attack": 1,
+		"attack_cost": 1,
 		"code": "36022",
 		"cost": 2,
 		"deck_limit": 1,
@@ -409,8 +417,9 @@
 		"position": 22,
 		"quantity": 1,
 		"resource_mental": 1,
-		"text": "<b>Response</b>: After Forge enters play, search your deck and discard pile for an [[X-MEN]] or [[X-FORCE]] support and add it to your hand. (Shuffle.)",
+		"text": "<b>Response</b>: After Forge enters play, search your deck and discard pile for an [[X-MEN]] or [[X-FORCE]] support and add it to your hand. <i>(Shuffle.)</i>",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	},
