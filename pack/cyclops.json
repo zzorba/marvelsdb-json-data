@@ -60,6 +60,7 @@
 	},
 	{
 		"attack": 2,
+		"attack_cost": 1,
 		"code": "33002",
 		"cost": 3,
 		"deck_limit": 1,
@@ -77,6 +78,7 @@
 		"subname": "Jean Grey",
 		"text": "<b>Response</b>: After Phoenix enters play, choose a Cyclops card in your discard pile and add it to your hand.",
 		"thwart": 2,
+		"thwart_cost": 1,
 		"traits": "Psionic. X-Men.",
 		"type_code": "ally"
 	},
@@ -112,7 +114,7 @@
 		"resource_physical": 1,
 		"set_code": "cyclops",
 		"set_position": 3,
-		"text": "You take the first turn during player phase. <i>(When your turn is done, play proceeds in player order, starting with the first player. You do not take another turn.)</i>\nEach Cyclops upgrade attached to a minion loses the temporary keyword.",
+		"text": "You take the first turn during the player phase. <i>(When your turn is done, play proceeds in player order, starting with the first player. You do not take another turn.)</i>\nEach Cyclops upgrade attached to a minion loses the temporary keyword.",
 		"traits": "Title.",
 		"type_code": "upgrade"
 	},
@@ -206,7 +208,7 @@
 		"cost": 2,
 		"deck_limit": 3,
 		"faction_code": "hero",
-		"name": "Tactical Brillance",
+		"name": "Tactical Brilliance",
 		"octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033010",
 		"pack_code": "cyclops",
 		"position": 10,
@@ -220,6 +222,7 @@
 	},
 	{
 		"attack": 2,
+		"attack_cost": 1,
 		"code": "33011",
 		"cost": 4,
 		"deck_limit": 1,
@@ -232,14 +235,16 @@
 		"position": 11,
 		"quantity": 1,
 		"resource_mental": 1,
-		"subname": "Hank Mccoy",
+		"subname": "Hank McCoy",
 		"text": "<b>Response</b>: After Beast enters play, search your deck and discard pile for a resource card and add it to your hand. <i>(Shuffle.)</i>",
 		"thwart": 2,
+		"thwart_cost": 1,
 		"traits": "Genius. X-Men.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 1,
+		"attack_cost": 1,
 		"code": "33012",
 		"cost": 3,
 		"deck_limit": 1,
@@ -255,11 +260,13 @@
 		"subname": "Sooraya Qadir",
 		"text": "[star] <b>Interrupt</b>: When Dust attacks a minion, she attacks each minion in play. Dust takes +1 consequential damage ([consequential]) after this attack.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 3,
+		"attack_cost": 2,
 		"code": "33013",
 		"cost": 4,
 		"deck_limit": 1,
@@ -275,11 +282,13 @@
 		"subname": "Santo Vaccarro",
 		"text": "Retaliate 1.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 0,
+		"attack_cost": 1,
 		"code": "33014",
 		"cost": 3,
 		"deck_limit": 1,
@@ -295,6 +304,7 @@
 		"subname": "Ruth Aldine",
 		"text": "<b>Response</b>: After Blindfold enters play, look at the top 5 cards of the encounter deck. Discard 1 of those cards and put the rest back in the same order.",
 		"thwart": 2,
+		"thwart_cost": 1,
 		"traits": "Psionic. X-Men.",
 		"type_code": "ally"
 	},
@@ -309,7 +319,7 @@
 		"position": 15,
 		"quantity": 3,
 		"resource_mental": 1,
-		"text": "Attach to an [[X-MEN]] ally. Max 1 [[TRAINING]] upgrade per ally.\nAttached ally gets +1 THW, +1 ATK and +1 hit point.",
+		"text": "Attach to an [[X-MEN]] ally. Max 1 [[TRAINING]] upgrade per ally.\nAttached ally gets +1 THW, +1 ATK, and +1 hit point.",
 		"traits": "Training.",
 		"type_code": "upgrade"
 	},
@@ -324,7 +334,7 @@
 		"position": 16,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "Attach to an minion. Max 1 per minion.\nEach ally takes -1 consequential damage ([consequential]) when attacking attached minion.",
+		"text": "Attach to a minion. Max 1 per minion.\nEach ally takes -1 consequential damage ([consequential]) when attacking attached minion.",
 		"traits": "Tactic.",
 		"type_code": "upgrade"
 	},
@@ -351,6 +361,7 @@
 	},
 	{
 		"attack": 2,
+		"attack_cost": 1,
 		"code": "33019",
 		"cost": 3,
 		"deck_limit": 1,
@@ -366,6 +377,7 @@
 		"subname": "Warren Worthington III",
 		"text": "Reduce the cost to play Angel by 1 if your identity has the [[MUTANT]] or [[X-MEN]] trait.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "Aerial. X-Men.",
 		"type_code": "ally"
 	},
@@ -381,7 +393,7 @@
 		"position": 20,
 		"quantity": 1,
 		"resource_physical": 1,
-		"text": "If each of your allies has the [[X-MEN]] trait, increase your ally limit by 1.\n<b>Response:</b> After an [[X-MEN]] ally enters play, exhaust Utopia -> ready an [[X-MEN]] character.",
+		"text": "If each of your allies has the [[X-MEN]] trait, increase your ally limit by 1.\n<b>Response:</b> After an [[X-MEN]] ally enters play, exhaust Utopia → ready an [[X-MEN]] character.",
 		"traits": "Location. X-Men.",
 		"type_code": "support"
 	},
@@ -462,7 +474,7 @@
 		"position": 32,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "Attach to an minion. Max 1 per minion.\nAttacks against attached minion gain overkill.",
+		"text": "Attach to a minion. Max 1 per minion.\nAttacks against attached minion gain overkill.",
 		"traits": "Tactic.",
 		"type_code": "upgrade"
 	},
@@ -477,7 +489,7 @@
 		"position": 33,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "Attach to an minion. Max 1 per minion.\n<b>Interrupt</b>: When a character makes a basic attack against attached minion, that character uses THW instead of their ATK.",
+		"text": "Attach to a minion. Max 1 per minion.\n<b>Interrupt</b>: When a character makes a basic attack against attached minion, that character uses their THW instead of their ATK.",
 		"traits": "Tactic.",
 		"type_code": "upgrade"
 	},
@@ -492,7 +504,7 @@
 		"position": 34,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "Attach to an minion. Max 1 per minion.\nAttached minion gets -2 ATK.",
+		"text": "Attach to a minion. Max 1 per minion.\nAttached minion gets -2 ATK.",
 		"traits": "Tactic.",
 		"type_code": "upgrade"
 	},
@@ -507,7 +519,7 @@
 		"position": 35,
 		"quantity": 3,
 		"resource_physical": 1,
-		"text": "Play only if your identity has the [[X-MEN]] trait.\nAttach to a friendly character.\nAttached character gets +1 hit point and gains the [[X-MEN]] trait.",
+		"text": "Play only if your identity has the [[X-MEN]] trait.\nAttach to a friendly character. Max 1 per character.\nAttached character gets +1 hit point and gains the [[X-MEN]] trait.",
 		"traits": "Title.",
 		"type_code": "upgrade"
 	}
