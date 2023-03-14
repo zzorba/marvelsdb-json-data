@@ -1,58 +1,60 @@
 [
-	{
-		"code": "28021",
-		"name": "Weight of the World",
-		"text": "While this card is in play, Supernova Helmet cannot ready. /n <b>Alter-Ego Action:</b> Exhause Sam Alexander > remove this obligation from the game."
-	},
-	{
-		"code": "28022",
-		"name": "\"Bring the War!\""
-	},
-	{
-		"attack_text": "<b>Forced Interrupt:</b>When Warbringer attacks you, he gets +1 ATK for that attack for each card with a printed [misc] resource in your hand. That attack gains overkill.",
-		"code": "28023",
-		"name": "Warbringer",
-		"traits": "Brute. Chitauri."
-	},
-	{
-		"boost_text": "Play 1 threat on the main scheme for each card with a printed [misc] resource in your hand.",
-		"code": "28024",
-		"name": "War Delivery",
-		"text": "<b>When Revealed: </b>You may spend a [misc] resource. If you do not, the villain and Warbringer each attack you (even if you are in alter-ego form)."
-	},
-	{
-		"code": "28025",
-		"name": "\"The War's Been Brought\"",
-		"text": "Surge. /n <b>When Revealed:</b> Discard X cards from the top of the encounter deck, where X is equal to the total number of printed [misc] resources on cards in your hand, cards under your control, and card in your discard pile"
-	},
-	{
-		"code": "28028",
-		"name": "Armored Assault",
-		"scheme_text": "Each enemy with a tough status card gets +3 ATK."
-	},
-	{
-		"attack_text": "<b>Forced Response:</b>After Armadillo activates against you, give him a tough status card.",
-		"code": "28029",
-		"name": "Armadillo",
-		"scheme_text": "<b>Forced Response:</b>After Armadillo activates against you, give him a tough status card.",
-		"text": "Toughness. /n Armadillo can have any number of tough status cards.",
-		"traits": "Brute. Elite."
-	},
-	{
-		"attack_text": "While Armadillo has a tough status card, characters cannot defend against his attacks.",
-		"code": "28030",
-		"name": "Rollin', Rollin'",
-		"text": "Attack to Armadillo. If Armadillo is not in play, search the encounter deck and discard pile for Armadillo, put him into play, engaged with you , and attach this card to him. (shuffle.)",
-		"traits": "Condition."
-	},
-	{
-		"code": "28031",
-		"name": "Tough and Tumble",
-		"text": "<b>When Revealed (Alter-Ego): </b>Each enemy with a tough status card schemes. If no enemy activates this way, this card gains surge. /n <b>When Revealed (Hero): </b> Each enemy with a tough status card attacks you. If no enemy activated this way, this card gains surge."
-	},
-	{
-		"code": "28032",
-		"name": "Tough It Out",
-		"text": "<b>When Revealed:</b>Give Armadillo and the villain each a tough status card. If 1 or fewer tough status cards were given this way, this card gains surge."
-	}
+    {
+        "code": "28021",
+        "name": "Peso del Mondo",
+        "text": "<b> Fai ricevere al giocatore Sam Alexander </b>\nMentre questa carta è in gioco, Elmo Supernova non può essere ripristinato. \n<b>Azione Alter Ego:</b> Esaurisci Sam Alexander → rimuovi dal gioco questa incombenza."
+    },
+    {
+        "code": "28022",
+        "name": "\"E Guerra Sia!\"",
+        "text": "<b>Quando Rivelata:</b> Ogni giocatore scarta 1 carta con [misc] stampate che controlla. Per ogni carta scartata in questo modo, colloca 1 minaccia su questa carta."
+    },
+    {
+        "code": "28023",
+        "name": "Warbringer",
+        "text": "<i> Gregari nemesi di Nova </i>",
+        "attack_text": "<b>Interruzione Obbligata:</b> Quando Warbringer ti attacca, riceve + 1 ATT per quell'attacco per ogni carta con [misc] stampate nella tua mano. Quell'attacco ottiene Sopraffazione.",
+        "traits": "Bruto. Chitauri."
+    },
+    {
+        "code": "28024",
+        "name": "Portatore di Guerra",
+        "text": "<b>Quando Rivelata: </b>puoi spendere [misc]. Se non lo fai, il crimnale e Warbringer ti attaccano <i>(anche se sei nella sembianza di alter ego).</i>",
+        "boost_text": "Colloca 1 minaccia sulla trama principale per ogni carta con [misc] stampate nella tua mano."
+    },
+    {
+        "code": "28025",
+        "name": "\"Avete Voluto la Guerra\"",
+        "text": "Impulso\n<b>Quando Rivelata:</b> Scarta X carte dalla cima del mazzo degli incontri, dove X è pari al numero totale di [misc] stampate sulle carte nella tua mano, sotto il tuo controllo e nella tua pila degli scarti."
+    },
+    {
+        "code": "28028",
+        "name": "Assalto Corazzato",
+        "scheme_text": "Ogni nemico robusto riceve +3 ATT."
+    },
+    {
+        "code": "28029",
+        "name": "Armadillo",
+        "text": "Robustezza.\nArmadillo può avere un qualsiasi numero di carte status Robusto.",
+        "attack_text": "<b>Risposta Obbligata:</b> Dopo che Armadillo si è attivato contro di te, irrobustiscilo.",
+        "traits": "Bruto. Elite.",
+        "scheme_text": "<b>Risposta Obbligata:</b> Dopo che Armadillo si è attivato contro di te, irrobustiscilo."
+    },
+    {
+        "code": "28030",
+        "name": "Gira e Gira",
+        "text": "Assegna ad Armadillo. Se Armadillo non è in gioco, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Armadillo, mettilo in gioco impegnato con te e assegnagli questa carta. <i>(Mescola.)</i>",
+        "attack_text": "Mentre Armadillo è robusto, i personaggi non possono difendere dai suoi attacchi.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "28031",
+        "name": "Robusto e Rotondo",
+        "text": "<b>Quando Rivelata (Alter Ego): </b> Ogni nemico robusto trama. Se nessun nemico si è attivato in questo modo, questa carta ottiene Impulso. /n \n<b>Quando Rivelata (Eroe): </b>Ogni nemico robusto ti attacca. Se nessun nemico si è attivato in questo modo, questa carta ottiene Impulso."
+    },
+    {
+        "code": "28032",
+        "name": "Fatti Robusto",
+        "text": "<b>Quando Rivelata:</b> Irrobustisci Armadillo e il criminale. Se 1 o meno nemici sono stati irrobustiti in questo modo, questa carta ottiene Impulso."
+    }
 ]
