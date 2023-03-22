@@ -1,0 +1,186 @@
+[
+   {
+      "code": "37001a",
+      "name": "Gambito",
+      "traits": "Ladrón. Patrulla X.",
+      "text": "<i>Cargar el naipe</i> \u2212 <b>Acción</b>: coloca 1 contador de Carga sobre esta carta. (Límite de una vez por ronda.)\n<i>Arrojar el naipe</i> \u2212 <b>Interrupción</b>: cuando jueges un evento de [[ATAQUE]], quita hasta 3 contadores de Carga de esta carta → ese evento inflige +1 de Daño por cada contador que hayas quitado."
+   },
+   {
+      "code": "37001b",
+      "name": "Remy LeBeau",
+      "traits": "Mutante. Ladrón.",
+      "text": "<i>Ladrón Extraordinario</i> \u2212 <b>Acción</b> <i>(intervención)</i>: agota Remy LeBeau y mira las 2 primeras cartas del mazo de Encuentros. Descarta 1 de esas cartas → quita tanta Amenaza de un Plan como el número de iconos de Aumento ([boost]) de esa carta."
+   },
+   {
+      "code": "37002",
+	  "flavor": "\"¡No puedo cargar con ese cajún pirado a todas partes!\"",
+      "name": "Pícara",
+      "subname": "Anna Marie",
+      "traits": "Aéreo. Patrulla X.",
+      "text": "El coste para jugar a Pícara se reduce en 1 por cada contador de Carga que haya sobre tu carta de Superhéroe.\nDureza."
+   },
+   {
+      "code": "37003",
+      "name": "El Gremio de Ladrones",
+      "traits": "Gremio",
+      "text": "<b>Respuesta de Alter ego</b>: despúes de que resuelvas tu capacidad <i>\"Ladrón Extraordinario\"</i>, agota El Gremio de Ladrones → quita 1 de Amenaza de un Plan. Si con esto se quita la última ficha de Amenaza de este Plan, roba 1 carta."
+   },
+   {
+      "code": "37004",
+	  "flavor": "\"Así que quieres pelear con Gambito, ¿eh?\"\n-Gambito",
+      "name": "Vara de Gambito",
+      "traits": "Objeto. Arma.",
+      "text": "<b>Interrupción de Héroe</b>: cuando un enemigo ataque, agota la Vara de Gambito → inflige 1 de Daño a ese enemigo."
+   },
+   {
+      "code": "37005",
+	  "flavor": "\"Los miembros del Gremio de Ladrones visten armaduras personalizadas para protegerse de los asesinos.\"",
+      "name": "Armadura gremial de Gambito",
+      "traits": "Armadura. Objeto.",
+      "text": "<b>Respuesta de Héroe</b>: despúes de que Gambito defienda contra un ataque y no sufra Daño, agota la Armadura gremial de Gambito → prepara a Gambito."
+   },
+   {
+      "code": "37006",
+      "name": "Naipe cargado",
+      "traits": "Ataque. Superpoder.",
+      "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 4 de Daño a un enemigo. Para este ataque, si la capacidad <i>\"Arrojar el naipe\"</i> de Gambito ha quitado al menos:\n\u2022 1 contador, este ataque gana A Distancia.\n\u2022 2 contadores, este ataque también gana Penetrante.\n\u2022 3 contadores, este ataque también gana Brutalidad."
+   },
+   {
+      "code": "37007",
+	  "flavor": "\"Tapaos los ojos, mes amis.¡Esta mano está que arde!\"\n-Gambito",
+      "name": "Escalera real",
+      "traits": "Ataque. Superpoder.",
+      "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: coloca 1 contador de Carga sobre Gambito. inflige 0 de Daño a un enemigo. inflige 0 de Daño a un enemigo. inflige 0 de Daño a un enemigo."
+   },
+   {
+      "code": "37008",
+      "name": "Agilidad innata",
+      "traits": "Defensa. Superpoder.",
+      "text": "<b>Interrupción de Héroe</b> <i>(defensa)</i>: cuando defiendas contra un ataque, coloca 1 contador de Carga sobre Gambito → por cada contador de Carga que haya sobre Gambito, recibes +1 DEF para ese ataque."
+   },
+   {
+      "code": "37009",
+	  "flavor": "\"Yo soy el ladrón, chére...y vas tú y me robas el corazón.\"\n-Gambito",
+      "name": "Encanto criollo",
+      "traits": "Intervención.",
+      "text": "<b>Acción de Alter ego</b> <i>(intervención)</i>: quita 3 de Amenaza de un Plan. Si con esto se quita la última ficha de Amenaza de ese Plan, confunde al Villano."
+   },
+   {
+      "code": "37010",
+      "name": "Aceleración molecular",
+      "text": "<b>Interrupción de Héroe</b>: cuando gastes esta carta, coloca 1 contador de Carga sobre Gambito."
+   },
+   {
+      "code": "37011",
+      "name": "Bishop",
+      "subname": "Lucas Bishop",
+      "traits": "Patrulla X.",
+      "text": "<b>Respuesta</b>: despúes de que un enemigo te ataque, coloca 1 contador de Energía sobre esta carta.\n[star]<b>Interrupción</b>: cuando Bishop ataque, quítale todos los contadores de Energía → para cada contador descartado de este modo, Bishop recibe +2 ATQ para este ataque (hasta un maximo de +6 ATQ)."
+   },
+   {
+      "code": "37012",
+	  "flavor": "\"¿Lo oyes? Esta ciudad es una sinfonía. Y yo soy su altavoz.\"",
+      "name": "Dazzler",
+      "subname": "Alison Blaire",
+      "traits": "Patrulla X.",
+      "text": "<b>Respuesta</b>: despúes de que Dazzler entre en juego, confunde a un enemigo."
+   },
+   {
+      "code": "37013",
+      "name": "Habilidad de intrusión",
+      "traits": "Habilidad.",
+      "text": "Usos (3 contadores de Intrusión). Máximo de 1 por jugador.\n<b>Interrupción</b>: cuando intervengas, quita 1 contador de Intrusión de esta carta → esa intervención quita 1 de Amenaza adicional."
+   },
+   {
+      "code": "37014",
+      "duplicate_of": "08013",
+      "pack_code": "gambit",
+      "position": 14,
+      "quantity": 3,
+      "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037014"
+   },
+   {
+      "code": "37015",
+      "name": "Allanamiento de morada",
+      "traits": "Intervención.",
+      "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[ESPÍA]] o [[LADRÓN]].\n<b>Acción</b> <i>(intervención)</i>: quita 3 de Amenaza de un Plan."
+   },
+   {
+      "code": "37016",
+      "duplicate_of": "34020",
+      "pack_code": "gambit",
+      "position": 16,
+      "quantity": 2,
+      "octgn_id": ""
+   },
+   {
+      "code": "37017",
+      "duplicate_of": "32019",
+      "pack_code": "gambit",
+      "position": 17,
+      "quantity": 1,
+      "octgn_id": ""
+   },
+   {
+      "code": "37018",
+      "duplicate_of": "32049",
+      "pack_code": "gambit",
+      "position": 18,
+      "quantity": 1,
+      "octgn_id": ""
+   },
+   {
+      "code": "37019",
+      "name": "La bella y el ladrón",
+      "traits": "Ataque. Intervención.",
+      "text": "Equipo (Gambito y Pícara). Máximo de 1 por mazo.\n<b>Acción de Héroe</b> <i>(ataque/intervención)</i>: inflige 4 de Daño a un enemigo. Quita 4 de Amenaza de un Plan."
+   },
+   {
+      "code": "37020",
+      "duplicate_of": "18020",
+      "pack_code": "gambit",
+      "position": 20,
+      "quantity": 3,
+      "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037020"
+   },
+   {
+      "code": "37021",
+      "name": "Educación para mutantes",
+      "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[MUTANTE]].\n<b>Acción de Alter ego</b>: elige hasta 2 cartas específicas de Superhéroes que haya en tu pila de descartes, añadelas a tu mazo y barájalo. Si la Mansión esta en juego, roba 1 carta."
+   },
+   {
+      "code": "37022",
+      "duplicate_of": "01088",
+      "pack_code": "gambit",
+      "position": 22,
+      "quantity": 1,
+      "octgn_id": ""
+   },
+   {
+      "code": "37023",
+      "duplicate_of": "01089",
+      "pack_code": "gambit",
+      "position": 23,
+      "quantity": 1,
+      "octgn_id": ""
+   },
+   {
+      "code": "37024",
+      "duplicate_of": "01090",
+      "pack_code": "gambit",
+      "position": 24,
+      "quantity": 1,
+      "octgn_id": ""
+   },
+   {
+      "code": "37030",
+      "name": "Sala de guerra",
+      "traits": "Lugar.",
+      "text": "Máximo 1 por jugador.\n<b>Respuesta</b>: despúes de que un Aliado ataque y derrote a un Esbirro, agota la Sala de guerra → quita 1 de Amenaza de un Plan."
+   },
+   {
+      "code": "37031",
+      "name": "Clases de la Patrulla-X",
+      "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[MUTANTE]].\n<b>Acción de Alter ego</b>: elige hasta 2 Aliados [[PATRULLA-X]] que estén en tu pila de descartes, añádelos a tu mazo y barájalo. Si Mansión X está en juego, roba 1 carta."
+   }
+]
