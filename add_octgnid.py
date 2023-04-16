@@ -1,7 +1,7 @@
 import json
 import uuid
 
-runFile = 'next_evolution.json'
+runFile = 'next_evol_encounter.json'
 
 with open('./pack/' + runFile) as json_file:
     data = json.load(json_file)
