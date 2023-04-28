@@ -18,6 +18,14 @@
 				}
 			]
 		},
+		"attack_cost": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"attack_text": {
+			"minLength": 1,
+			"type": "string"
+		},
 		"back_flavor": {
 			"minLength": 1,
 			"type": "string"
@@ -26,24 +34,28 @@
 			"minLength": 1,
 			"type": "string"
 		},
+		"base_threat": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"base_threat_fixed": {
+			"type": "boolean"
+		},
+		"boost": {
+			"minimum": 1,
+			"type": "integer"
+		},
+		"boost_text": {
+			"minLength": 1,
+			"type": "string"
+		},
 		"code": {
 			"pattern": "^[0-9]{5}[abcdef]?$",
 			"type": "string"
 		},
 		"cost": {
-			"oneOf": [
-				{
-					"minimum": 0,
-					"type": "integer"
-				},
-				{
-					"type": "null"
-				},
-				{
-					"pattern": "x",
-					"type": "string"
-				}
-			]
+			"minimum": -1,
+			"type": "integer"
 		},
 		"deck_limit": {
 			"minimum": 1,
@@ -55,6 +67,10 @@
 		"deck_requirements": {
 			"type": "array"
 		},
+		"defense": {
+			"minimum": 0,
+			"type": "integer"
+		},
 		"double_sided": {
 			"type": "boolean"
 		},
@@ -62,31 +78,9 @@
 			"pattern": "^[0-9a-z]{5}[0-9a-z]?$",
 			"type": "string"
 		},
-		"enemy_damage": {
-			"minimum": 0,
-			"type": "integer"
-		},
-		"enemy_evade": {
-			"minimum": 0,
-			"type": "integer"
-		},
-		"enemy_fight": {
-			"minimum": 0,
-			"type": "integer"
-		},
-		"enemy_horror": {
-			"minimum": 0,
-			"type": "integer"
-		},
 		"escalation_threat": {
 			"minimum": -1,
 			"type": "integer"
-		},
-		"exceptional": {
-			"type": "boolean"
-		},
-		"exile": {
-			"type": "boolean"
 		},
 		"faction_code": {
 			"minLength": 1,
@@ -96,9 +90,16 @@
 			"minLength": 0,
 			"type": "string"
 		},
+		"hand_size": {
+			"minimum": 1,
+			"type": "integer"
+		},
 		"health": {
 			"minimum": 0,
 			"type": "integer"
+		},
+		"health_per_hero": {
+			"type": "boolean"
 		},
 		"illustrator": {
 			"pattern": ".*",
@@ -134,6 +135,10 @@
 			"minimum": 1,
 			"type": "integer"
 		},
+		"recover": {
+			"minimum": 0,
+			"type": "integer"
+		},
 		"resource_energy": {
 			"minimum": 0,
 			"type": "integer"
@@ -154,28 +159,54 @@
 			"minLength": 1,
 			"type": "string"
 		},
+		"scheme_acceleration": {
+			"minimum": 1,
+			"type": "integer"
+		},
+		"scheme_crisis": {
+			"minimum": 1,
+			"type": "integer"
+		},
+		"scheme_hazard": {
+			"minimum": 1,
+			"type": "integer"
+		},
 		"set_code": {
 			"minLength": 1,
 			"type": "string"
 		},
-		"subname": {
-			"minLength": 1,
-			"type": "string"
-		},
-		"subtype_code": {
+		"stage": {
 			"oneOf": [
 				{
-					"minLength": 0,
-					"type": "string"
+					"minimum": 0,
+					"type": "integer"
 				},
 				{
 					"type": "null"
 				}
 			]
 		},
+		"subname": {
+			"minLength": 1,
+			"type": "string"
+		},
 		"text": {
 			"minLength": 1,
 			"type": "string"
+		},
+		"threat": {
+			"oneOf": [
+				{
+					"minimum": 0,
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"threat_fixed": {
+			"type": "boolean"
 		},
 		"thwart": {
 			"oneOf": [
@@ -187,6 +218,14 @@
 					"type": "null"
 				}
 			]
+		},
+		"thwart_cost": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"thwart_text": {
+			"minLength": 1,
+			"type": "string"
 		},
 		"traits": {
 			"minLength": 0,

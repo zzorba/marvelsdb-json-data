@@ -49,7 +49,6 @@
 		"type_code": "minion"
 	},
 	{
-		"boost": 0,
 		"code": "27028",
 		"faction_code": "encounter",
 		"flavor": "\"RAAARRRRRRR!!!\"",
@@ -255,7 +254,6 @@
 		"type_code": "environment"
 	},
 	{
-		"boost": 0,
 		"boost_text": "Reveal this card.",
 		"code": "27066",
 		"faction_code": "encounter",
@@ -287,7 +285,8 @@
 		"type_code": "minion"
 	},
 	{
-		"base_threat_fixed": 1,
+		"base_threat": 1,
+		"base_threat_fixed": true,
 		"boost": 3,
 		"code": "27068",
 		"faction_code": "encounter",
@@ -303,7 +302,8 @@
 		"type_code": "side_scheme"
 	},
 	{
-		"base_threat_fixed": 2,
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "27069",
 		"faction_code": "encounter",
@@ -319,7 +319,6 @@
 		"type_code": "side_scheme"
 	},
 	{
-		"boost": 0,
 		"boost_text": "Resolve this card's <b>When Revealed </b> ability.",
 		"code": "27070",
 		"faction_code": "encounter",
@@ -488,7 +487,6 @@
 		"type_code": "environment"
 	},
 	{
-		"boost": 0,
 		"boost_text": "Reveal this card.",
 		"code": "27078",
 		"faction_code": "encounter",
@@ -504,7 +502,8 @@
 		"type_code": "attachment"
 	},
 	{
-		"base_threat_fixed": 3,
+		"base_threat": 3,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "27079",
 		"faction_code": "encounter",
@@ -568,7 +567,6 @@
 		"type_code": "treachery"
 	},
 	{
-		"boost": 0,
 		"boost_text": "Resolve this card's <b>When Revealed </b> ability.",
 		"code": "27083",
 		"faction_code": "encounter",
@@ -730,7 +728,6 @@
 		"type_code": "minion"
 	},
 	{
-		"boost": 0,
 		"boost_text": "Reveal this card.",
 		"code": "27092",
 		"faction_code": "encounter",
@@ -745,7 +742,6 @@
 		"type_code": "treachery"
 	},
 	{
-		"boost": 0,
 		"boost_text": "Choose to either spend [mental][mental] resources or deal this card to yourself as a facedown encounter card.",
 		"code": "27093",
 		"faction_code": "encounter",
@@ -929,7 +925,7 @@
 	{
 		"back_link": "27102b",
 		"base_threat": 10,
-		"base_threat_fixed": 10,
+		"base_threat_fixed": true,
 		"code": "27102a",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -945,8 +941,8 @@
 		"type_code": "side_scheme"
 	},
 	{
-		"base_threat": 10,
-		"base_threat_fixed": 5,
+		"base_threat": 5,
+		"base_threat_fixed": true,
 		"code": "27102b",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -1023,7 +1019,8 @@
 		"type_code": "attachment"
 	},
 	{
-		"base_threat_fixed": 9,
+		"base_threat": 9,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"boost_text": "Give the villain 1 additional boost card for this activation.",
 		"code": "27107",
@@ -1316,7 +1313,6 @@
 	},
 	{
 		"attack": 3,
-		"boost": 0,
 		"boost_text": "Move the glider counter to the main scheme with the most threat. Place 1 threat on that scheme.",
 		"code": "27121",
 		"faction_code": "encounter",
@@ -1354,7 +1350,6 @@
 	},
 	{
 		"attack": 2,
-		"boost": 0,
 		"boost_text": "Place 1 threat on each main scheme without the glider counter.",
 		"code": "27123",
 		"faction_code": "encounter",
@@ -1372,8 +1367,8 @@
 		"type_code": "minion"
 	},
 	{
-		"base_threat_fixed": 5,
-		"boost": 0,
+		"base_threat": 5,
+		"base_threat_fixed": true,
 		"code": "27124",
 		"faction_code": "encounter",
 		"name": "Festering Mass",
@@ -1389,7 +1384,7 @@
 	},
 	{
 		"base_threat": 2,
-		"base_threat_fixed": 2,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "27125",
 		"faction_code": "encounter",
@@ -1405,7 +1400,6 @@
 		"type_code": "side_scheme"
 	},
 	{
-		"boost": 0,
 		"boost_text": "Resolve the <b>Special</b> ability of the scheme with the glider counter.",
 		"code": "27126",
 		"faction_code": "encounter",
@@ -1420,7 +1414,8 @@
 		"type_code": "treachery"
 	},
 	{
-		"base_threat_fixed": 5,
+		"base_threat": 5,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "27127",
 		"faction_code": "encounter",
@@ -1618,7 +1613,8 @@
 		"type_code": "attachment"
 	},
 	{
-		"base_threat_fixed": 5,
+		"base_threat": 5,
+		"base_threat_fixed": true,
 		"boost": 3,
 		"code": "27140",
 		"faction_code": "encounter",
@@ -1634,7 +1630,6 @@
 		"type_code": "side_scheme"
 	},
 	{
-		"boost": 0,
 		"boost_text": "Give the villain 2 additional boost cards for this activation.",
 		"code": "27141",
 		"faction_code": "encounter",
@@ -1650,7 +1645,6 @@
 	},
 	{
 		"attack": 0,
-		"boost": 0,
 		"boost_text": "Put this minion into play engaged with you.",
 		"code": "27142",
 		"faction_code": "encounter",
@@ -1667,7 +1661,8 @@
 		"type_code": "minion"
 	},
 	{
-		"base_threat_fixed": 6,
+		"base_threat": 6,
+		"base_threat_fixed": true,
 		"boost": 1,
 		"boost_text": "Place 1 threat on each scheme. (In expert mode, place 1 additional threat on the main scheme.)",
 		"code": "27143",
@@ -1683,7 +1678,8 @@
 		"type_code": "side_scheme"
 	},
 	{
-		"base_threat_fixed": 4,
+		"base_threat": 4,
+		"base_threat_fixed": true,
 		"boost": 1,
 		"boost_text": "Deal 1 idirect damage to each player. (In expert mode, deal 1 addition indirect damage to the first player.)",
 		"code": "27144",
@@ -1699,8 +1695,9 @@
 		"type_code": "side_scheme"
 	},
 	{
-		"base_threat_fixed": 5,
-		"boost": 1,
+		"base_threat": 5,
+		"base_threat_fixed": true,
+		"boost": 2,
 		"boost_text": "In expert mode, this card gets +2 boost icons [boost][boost] for this activation.",
 		"code": "27145",
 		"faction_code": "encounter",
@@ -1870,7 +1867,8 @@
 		"type_code": "side_scheme"
 	},
 	{
-		"base_threat_fixed": 1,
+		"base_threat": 1,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "27156",
 		"faction_code": "encounter",
@@ -2037,7 +2035,6 @@
 		"type_code": "attachment"
 	},
 	{
-		"boost": 0,
 		"boost_text": "You are stunned. If you are already stunned, take 2 damage.",
 		"code": "27166",
 		"faction_code": "encounter",
@@ -2054,7 +2051,6 @@
 	},
 	{
 		"attack": 2,
-		"boost": 0,
 		"boost_text": "Put enraged Symbiote into play engaged with you.",
 		"code": "27167",
 		"faction_code": "encounter",
@@ -2086,7 +2082,6 @@
 		"type_code": "treachery"
 	},
 	{
-		"boost": 0,
 		"boost_text": "If this activation is an attack, this card gets +2 boost icons ([boost][boost]) for this attack and this attack gains overkill.",
 		"code": "27169",
 		"faction_code": "encounter",
@@ -2148,7 +2143,8 @@
 		"type_code": "attachment"
 	},
 	{
-		"base_threat_fixed": 1,
+		"base_threat": 1,
+		"base_threat_fixed": true,
 		"boost": 3,
 		"code": "27173",
 		"faction_code": "encounter",
