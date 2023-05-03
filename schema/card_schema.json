@@ -35,8 +35,15 @@
 			"type": "string"
 		},
 		"base_threat": {
-			"minimum": 0,
-			"type": "integer"
+			"oneOf": [
+				{
+					"minimum": 0,
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
 		},
 		"base_threat_fixed": {
 			"type": "boolean"
