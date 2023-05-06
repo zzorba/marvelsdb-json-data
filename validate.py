@@ -44,11 +44,13 @@ def custom_card_check(args, card, pack_code, factions_data, types_data):
     if card["pack_code"] != pack_code:
         raise jsonschema.ValidationError("Pack code '%s' of the card '%s' doesn't match the pack code '%s' of the file it appears in." % (card["pack_code"], card["code"], pack_code))
     if card.get("faction_code") and card["faction_code"] not in [f["code"] for f in factions_data]:
-        raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid faction code." % (card["faction_code"], card["code"]))
-    if card.get("type_code") and  card["type_code"] not in [f["code"] for f in types_data]:
-        raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid type code." % (card["type_code"], card["code"]))
+        raise jsonschema.ValidationError("Faction code '%s' of the card '%s' doesn't match any valid faction code." % (card["faction_code"], card["code"]))
+    if card.get("type_code") and card["type_code"] not in [f["code"] for f in types_data]:
+        raise jsonschema.ValidationError("Type code '%s' of the card '%s' doesn't match any valid type code." % (card["type_code"], card["code"]))
     if card.get("traits") and not re.search("[\.!\d]$", card["traits"]):
         raise jsonschema.ValidationError("The traits list \"%s\" on card %s does not end with a period (.), exclamation point (!), or number (0-9)." % (card["traits"], card["code"]))
+    if card.get("type_code") and card["type_code"] == "hero" and not card.get("meta"):
+        raise jsonschema.ValidationError("Hero card '%s' requires the meta property." % (card["code"]))
 
 def format_json(json_data):
     formatted_data = json.dumps(json_data, ensure_ascii=False, sort_keys=True, indent=4, separators=(',', ': '))
