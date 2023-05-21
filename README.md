@@ -53,7 +53,10 @@ To check and apply formatting to JSON files:
 
 #### Card schema
 
-* **attack** - Character's attack value
+* **attack** - Character's attack value. Format is integer or `null`. Possible values:
+  * `null`: Shows up as dash or star depending on if **attack_text** is defined
+  * -1: Shows up as X
+  * 0+: Shows up as the given integer
 * **attack_cost** - Cost for the character to attack (commonly, the amount of consequential damage)
 * **attack_text** - Ability text associated with the character's attack  
 * **code** - 5 digit card identifier. Consists of two zero-padded numbers: first two digits are the cycle position, last three are position of the card within the cycle (printed on the card).
@@ -67,12 +70,15 @@ To check and apply formatting to JSON files:
     }
   ]
   ```
-* **defense** - Character's defense value  
+* **defense** - Character's defense value
+* **escalation_threat** - The acceleration threat to apply to main/side schemes. Possible values:
+  * -1: Shows up as X
+  * 0+: Shows up as the given number
 * **faction_code**
 * flavor
 * **hand_size** - Character's hand size
 * **health** - Character's health
-* illustrator
+* illustrator - The name(s) of the artist(s) on the card
 * **is_unique**
 * **name**
 * octgn_id
@@ -83,7 +89,10 @@ To check and apply formatting to JSON files:
 * **resource_[energy|mental|physical|wild]** - Amount of resources of the given type
 * **subname** - Subname associated with a character (e.g. `Carol Danvers` is a subname for `Captain Marvel`)
 * text
-* **thwart** - Character's thwart value
+* **thwart** - Character's thwart value. Format is integer or `null`. Possible values:
+  * `null`: Shows up as dash or star depending on if **thwart_text** is defined
+  * -1: Shows up as X
+  * 0+: Shows up as the given integer
 * **thwart_cost** - Cost for the character to thwart (commonly, the amount of consequential damage)
 * **thwart_text** - Ability text associated with the character's thwart
 * **traits** - List of traits following the pattern `Trait1. Trait2.`

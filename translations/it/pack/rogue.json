@@ -1,0 +1,115 @@
+[
+	{
+		"code": "38001a",
+		"name": "Rogue",
+		"text": "<i>Skin Contact</i> − <b>Action</b>: Attach Touched to another character. You gain each of the attached character's [[TRAITS]] until the end of the round. (Limit once per round.)\n<b>Forced Response</b>: After the player phase begins, find Touched and set it aside.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "38001b",
+		"flavor": "\"You couldn't live mah life.\"",
+		"name": "Anna Marie",
+		"text": "<b>Setup</b>: Set your Touched upgrade aside.\n<i>Withdrawn</i> − <b>Forced Response</b>: After you change to this form, set Touched aside.",
+		"traits": "Mutant."
+	},
+	{
+		"code": "38002",
+		"name": "Touched",
+		"text": "If Touched is attached to a:\nMinion − Rogue's attacks gain overkill.\nVillain − Rogue gains retaliate 1.\nAlly − Rogue gains the [[AERIAL]] trait.\nHero − Rogue gains stalwart.",
+		"traits": "Condition."
+	},
+	{
+		"code": "38003",
+		"name": "Gambit",
+		"subname": "Remy LeBeau",
+		"text": "Gambit enters play with 3 charge counters on him.\n[star]<b>Interrupt</b>: When Gambit attacks, remove 1 charge counter from him → deal 1 damage to an enemy.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "38004",
+		"name": "Rogue's Jacket",
+		"text": "While Touched is attached to a friendly character, Rogue gets +1 THW.\nWhile Touched is attached to a enemy character, Rogue gets +1 ATK.",
+		"traits": "Item."
+	},
+	{
+		"code": "38005",
+		"name": "Goin' Rogue",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. If Rogue has:\n• [[AERIAL]], remove 2 additional threat.\n• Retaliate, confuse an enemy.\n• Stalwart, draw 1 card.",
+		"traits": "Superpower. Thwart."
+	},
+	{
+		"code": "38006",
+		"name": "Southern Cross",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. If Rogue has:\n• [[AERIAL]], this attack deals 2 additional damage.\n• Retaliate, stun that enemy.\n• Stalwart, draw 1 card.",
+		"traits": "Attack. Superpower."
+	},
+	{
+		"code": "38007",
+		"name": "Energy Transfer",
+		"text": "<b>Hero Action</b>: Attach Touched to a character other than Rogue and deal 2 damage to that character → heal 2 damage from Rogue and ready her. You gain each of the attached character's [[TRAITS]] until the end of the round.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "38008",
+		"name": "Bulletproof Belle",
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy with Touched attached to it attacks, prevent all damage from that attack and gain a tough status card.",
+		"traits": "Defense. Superpower."
+	},
+	{
+		"code": "38009",
+		"name": "Superpower Adaptation",
+		"text": "<b>Hero Action</b>: If Touched is attached to a friendly character, search its owner's discard pile for an event that belong's to the same classification as that character <i>(identity-specific, aspect, or basic)</i> → add that event to your hand.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "38010",
+		"name": "Iceman",
+		"subname": "Bobby Drake",
+		"text": "Iceman enters play with 3 freeze counters on him.\n<b>Response</b>: After a minion enters play, remove 1 freeze counter from Iceman → stun that minion.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "38011",
+		"name": "Karma",
+		"subname": "Xi'an Coy Manh",
+		"text": "<b>Response</b>: After you play Karma from your hand, choose a non-[[ELITE]] minion. While Karma is in play, take control of that minion and treat it as a [[CONTROLLED]] ally with a blank text box. Its THW is equal to its printed SCH and it takes 2 consequential damage after it thwarts or attacks.",
+		"traits": "Psionic. X-Men."
+	},
+	{
+		"code": "38012",
+		"flavor": "\"Good luck getting through my impenetrable psionic exoskeleton.\"",
+		"name": "Armor",
+		"subname": "Hisako Ichiki",
+		"text": "Play only if your identity has the [[X-MEN]] trait.\nToughness.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "38014",
+		"name": "Judoka Skill",
+		"text": "Uses (3 judo counters). Max 1 per player.\n<b>Interrupt</b>: When you defend against an enemy attack, remove 1 judo counter from here → that enemy gets -2 ATK for that attack.",
+		"traits": "Skill."
+	},
+	{
+		"code": "38016",
+		"name": "Not Today!",
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When your hero defends against an attack, it gets +2 DEF for that attack. If you take no damage from that attack, remove 2 threat from a scheme.",
+		"traits": "Defense."
+	},
+	{
+		"code": "38018",
+		"name": "Moira MacTaggert",
+		"text": "Play only if your identity has the [[MUTANT]] trait.\n<b>Response</b>: After a [[MUTANT]] alter-ego changes into hero form, exhaust Moira MacTaggert → that hero's controller draws 1 card.",
+		"traits": "Persona."
+	},
+	{
+		"code": "38019",
+		"name": "X-Gene",
+		"text": "Play only if your identity has the [[MUTANT]] trait. Max 1 per player\n<b>Resource</b>: Exhaust X-Gene → generate a [wild] resource for an identity-specific event."
+	},
+	{
+		"code": "38028",
+		"name": "Med Lab",
+		"text": "Max 1 per player.\n<b>Response</b>: After an ally is defeated by consequential damage, exhaust Med Lab → place it here. (Limit 1 ally at a time.)\n<b>Alter-Ego Action</b>: Exhaust Med Lab → play the ally here as if it was in your hand. It enters play exhausted.",
+		"traits": "Location."
+	}
+]

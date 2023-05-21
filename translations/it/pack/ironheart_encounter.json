@@ -1,57 +1,57 @@
 [
-	{
-		"code": "29028",
-		"name": "A Minor Setback",
-		"text": "Remove 1 progress counter from your identity, then discard this card. If no progress counter was removed this way, deal yourself 1 facedown encounter card, then shuffle this card into the encounter deck."
-	},
-	{
-		"code": "29029",
-		"name": "Rule by Force",
-		"scheme_text": "While Lucia von Bardas is in play, this card gains a hazard icon. While Lucia von Bardas is not in play, this card gains an acceleration icon"
-	},
-	{
-		"code": "29030",
-		"name": "Lucia von Bardas",
-		"text": "While Lucia von Bardas has tough status card, she gets +1 SCH and +1 ATK.\n<b>Forced Response:</b> After the villain phase ends, give Lucia von Bardas a tough status card.",
-		"traits": "Criminal. Cyborg. Elite."
-	},
-	{
-		"code": "29031",
-		"name": "Cyborg Tech",
-		"text": "Attach to the minion with the most traits. If you cannot, this card gains surge.\n Attached minion gets +3 hit points and gains retaliate 1.",
-		"traits": "Tech."
-	},
-	{
-		"code": "29032",
-		"name": "Political Retribution",
-		"text": "<b>When Revealed:</b> If Lucia von Bardas is in play, she schemes. If Rule by Force is in play, place 3 threat on it. If neither is in play, this card gains surge."
-	},
-	{
-		"code": "29036",
-		"name": "Feedback Loop",
-		"scheme_text": "<b>Whem Revealed:</b> Each player must place threat here equal to the total number [energy] resources in their hand and on cards they control"
-	},
-	{
-		"attack_text": "Zzzax gets +X ATK and +X hit points, where X is equal to the total number of [energy] resources on card the engaged player controls.",
-		"boost_text": "If you have at least [energy] [energy] resources in your hand, put Zzzax into play engaged to you.",
-		"code": "29037",
-		"name": "Zzzax",
-		"traits": "Criminal."
-	},
-	{
-		"code": "29038",
-		"name": "Haywire",
-		"text": "Attach to your identity.\n Treat the printed resources of each card in your hand as if it were [energy].\n<b>Hero Action:</b> Choose to either discard a card you control with a printed [energy] resource or take 2 indirect damage > discard this card."
-	},
-	{
-		"code": "29039",
-		"name": "Air Static",
-		"text": "<b>Forced Interrupt: </b> When the villain phase begins, deal 2 indirect damange to each player with a [energy] resource in their hand and/or on a card they control.\n<b>Hero action:</b> Choose to either discard a card you control with a printed [energy] resource or take 2 indirect damage > discard this card.",
-		"traits": "Condition."
-	},
-	{
-		"code": "29040",
-		"name": "Zzzap!",
-		"text": "<b>When Revealed:</b> Take indirect damage equal to the total number of [energy] resources in your hand. If your identity was dealt 1 or fewer damage this way, this card gains surge."
-	}
+    {
+        "code": "29028",
+        "name": "Piccolo Contrattempo",
+        "text": "<b><i>Fai ricevere al giocatore Riri Williams.</i></b>\nRimuovi 1 gettone progresso dalla tua identità, poi scarta questa carta. Se nessun gettone progresso è stato rimosso in questo modo, distribuisci 1 carta incontro a faccia in giù a te stesso, poi mescola questa carta nel mazzo degli incontri."
+    },
+    {
+        "code": "29029",
+        "name": "Governare con la Forza",
+        "scheme_text": "Mentre Lucia von Bardas è in gioco, questa carta ottiene 1 icona pericolo. Mentre Lucia von Bardas non è in gioco, questa cata ottiene 1 icona accelerazione."
+    },
+    {
+        "code": "29030",
+        "name": "Lucia von Bardas",
+        "text": "Mentre Lucia von Bardas è robusta, riceve +1 TRA e +1 ATT. \n<b>Risposta Obbligata:</b> Dopo che la Fase del Criminale è terminata, irrobustisci Lucia von Bardas.",
+        "traits": "Criminale. Cyborg. Elite."
+    },
+    {
+        "code": "29031",
+        "name": "Tecnologia Cyborg",
+        "text": "Assegna al gregario con più <b>tratti</b>. Se non puoi farlo, questa carta ottiene Impulso. \n Il gregario con questa aggiunta riceve +3 punti ferita e ottiene Ritorsione 1.",
+        "traits": "Tecnologia."
+    },
+    {
+        "code": "29032",
+        "name": "Ritorsione Politica",
+        "text": "<b>Quando Rivelata:</b> Se Lucia von Bardas è in gioco, essa trama. Se Governare con la Forza è in gioco, colloca 3 minacce su di essa. Se nessuna delle due carte è in gioco, questa carta ottiene Impulso."
+    },
+    {
+        "code": "29036",
+        "name": "Ciclo di Retroazione",
+        "scheme_text": "<b>Quando Rivelata:</b> Ogni giocatore deve collocare su questa trama un ammontare di minacce pari al numero totale di [energy] che ha in mano e sulle carte che controlla."
+    },
+    {
+        "code": "29037",
+        "name": "Zzzax",
+        "traits": "Criminale.",
+        "attack_text": "Zzzax riceve +X ATT e +X punti ferita, dove X è pari al numero totale di [energy] sulle carte controllate dal giocatore impegnato.",
+        "boost_text": "Se hai almeno [energy] [energy] nella tua mano, metti in gioco Zzzax impegnato con te."
+    },
+    {
+        "code": "29038",
+        "name": "InTilt",
+        "text": "Assegna alla tua identità. \n Considera le risorse stampate su ogni carta nella ua mano come se fossero [energy]. \n<b>Azione Eroe:</b> Scegli se scartare 1 carta con [energy] stampate che controlli oppure subire 2 danni indiretti → scarta questa carta."
+    },
+    {
+        "code": "29039",
+        "name": "Elettricità Statica",
+        "text": "<b>Interruzione Obbligata: </b> Quando la Fase del Criminale inizia, infliggi 2 danni indiretti a ogni giocatore con [energy] nella sua mano e/o sulle carte che controlla. \n<b>Azione Eroe:</b> Scegli se scartare 1 carta con [energy] stampate che controlli oppure subire 2 danni indiretti →  scarta questa carta.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "29040",
+        "name": "Zzzap!",
+        "text": "<b>Quando Rivelata:</b> Subisci un ammontare di danni indiretti pari al numero totale di [energy] nella tua mano. Se 1 o meno danni sono stati inflitti alla tua identità in questo modo, questa cata ottiene Impulso."
+    }
 ]

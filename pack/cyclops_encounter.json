@@ -9,11 +9,13 @@
 		"position": 27,
 		"quantity": 1,
 		"set_code": "cyclops",
+		"text": "<b><i>Give to the Scott Summers player.</i></b>\nSearch your hand, deck, discard pile, and play area for Ruby Quartz Visor and place it facedown under this card.\nCyclops cannot attack.\n<b>Alter-Ego Action</b>: Exhaust Scott Summers → add Ruby Quartz Visor to your hand and remove Lost Visor from the game.",
 		"type_code": "obligation"
 	},
 	{
 		"attack": 1,
 		"boost": 2,
+		"boost_text": "You are stunned. If you are already stunned, take 2 damage.",
 		"code": "33028",
 		"faction_code": "encounter",
 		"health": 6,
@@ -25,6 +27,8 @@
 		"quantity": 1,
 		"scheme": 1,
 		"set_code": "cyclops_nemesis",
+		"set_position": 1,
+		"text": "Stalwart. Toughness. Villainous.",
 		"traits": "Elite. Marauder.",
 		"type_code": "minion"
 	},
@@ -38,11 +42,15 @@
 		"pack_code": "cyclops",
 		"position": 29,
 		"quantity": 1,
-		"scheme_boost": "1",
+		"scheme_boost": 1,
 		"set_code": "cyclops_nemesis",
+		"set_position": 2,
+		"text": "<b>When Defeated</b>: Search the encounter deck and discard pile for Gene Therapy and reveal it. <i>(Shuffle.)</i>",
 		"type_code": "side_scheme"
 	},
 	{
+		"attack": 2,
+		"attack_text": "<b>Forced Interrupt</b>: When attached enemy attacks, the attack gains overkill and piercing. At the end of this attack, discard Gene Therapy.",
 		"boost": 2,
 		"code": "33030",
 		"faction_code": "encounter",
@@ -52,6 +60,8 @@
 		"position": 30,
 		"quantity": 2,
 		"set_code": "cyclops_nemesis",
+		"set_position": 3,
+		"text": "Attach to the enemy with the lowest printed ATK without a copy of Gene Therapy attached. Otherwise, this card gains surge.",
 		"type_code": "attachment"
 	},
 	{
@@ -64,6 +74,8 @@
 		"position": 31,
 		"quantity": 1,
 		"set_code": "cyclops_nemesis",
+		"set_position": 5,
+		"text": "<b>When Revealed (Alter-Ego)</b>: If Mister Sinister is in play, he schemes. Otherwise, place 2 threat on the main scheme.\n<b>When Revealed (Hero)</b>: If Mister Sinister is in play, he attacks you. Otherwise, take 2 damage.",
 		"type_code": "treachery"
 	}
 ]

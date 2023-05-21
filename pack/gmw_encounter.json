@@ -558,7 +558,7 @@
 		"quantity": 2,
 		"set_code": "collector1",
 		"set_position": 9,
-		"text": "<b>When Revealed:</b> Choose one :\n- Put the highest cost card from your hand faceup into The Collection.\n- Discard the highest cost card from your hand, then place threat on the main scheme equal to its printed cost.",
+		"text": "<b>When Revealed:</b> Choose one:\n- Put the highest cost card from your hand faceup into The Collection.\n- Discard the highest cost card from your hand, then place threat on the main scheme equal to its printed cost.",
 		"type_code": "treachery"
 	},
 	{
@@ -591,6 +591,7 @@
 	},
 	{
 		"attack": 1,
+		"attack_text": "Collector gets +X SCH and +X ATK, where X is equal to the main scheme's current stage number.\n<b>Forced Interrupt:</b> When Collector would be defeated, remove 3[per_hero] threat from the main scheme and flip this card instead.",
 		"back_link": "16080b",
 		"code": "16080a",
 		"double_sided": true,
@@ -604,10 +605,10 @@
 		"position": 80,
 		"quantity": 1,
 		"scheme": 1,
+		"schema_text": "Collector gets +X SCH and +X ATK, where X is equal to the main scheme's current stage number.\n<b>Forced Interrupt:</b> When Collector would be defeated, remove 3[per_hero] threat from the main scheme and flip this card instead.",
 		"set_code": "collector2",
 		"set_position": 1,
 		"stage": 0,
-		"text": "[star] Collector gets +X SCH and +X ATK, where X is equal to the main scheme's current stage number.\n<b>Forced Interrupt:</b> When Collector would be defeated, remove 3[per_hero] threat from the main scheme and flip this card instead.",
 		"traits": "Elder.",
 		"type_code": "villain"
 	},
@@ -635,6 +636,7 @@
 	},
 	{
 		"attack": 2,
+		"attack_text": "Collector gets +X SCH and +X ATK, where X is equal to the main scheme's current stage number.\n<b>Forced Interrupt:</b> When Collector would be defeated, remove 3[per_hero] threat from the main scheme and flip this card instead.",
 		"back_link": "16081b",
 		"code": "16081a",
 		"double_sided": true,
@@ -648,10 +650,10 @@
 		"position": 81,
 		"quantity": 1,
 		"scheme": 2,
+		"schema_text": "Collector gets +X SCH and +X ATK, where X is equal to the main scheme's current stage number.\n<b>Forced Interrupt:</b> When Collector would be defeated, remove 3[per_hero] threat from the main scheme and flip this card instead.",
 		"set_code": "collector2",
 		"set_position": 2,
 		"stage": 0,
-		"text": "[star] Collector gets +X SCH and +X ATK, where X is equal to the main scheme's current stage number.\n<b>Forced Interrupt:</b> When Collector would be defeated, remove 3[per_hero] threat from the main scheme and flip this card instead.",
 		"traits": "Elder.",
 		"type_code": "villain"
 	},
@@ -934,6 +936,7 @@
 		"base_threat": 2,
 		"code": "16091b",
 		"double_sided": true,
+		"escalation_threat": -1,
 		"faction_code": "encounter",
 		"flavor": "<b><i>You've tracked Nebula's location but she's trying desperately to get away. This may be your only chance to take the Power Stone from her.</i></b>",
 		"name": "The Art of Evasion",
@@ -971,6 +974,7 @@
 		"base_threat": 3,
 		"code": "16092b",
 		"double_sided": true,
+		"escalation_threat": -1,
 		"faction_code": "encounter",
 		"flavor": "<b><i>Nebula's engines are primed and ready. Take them out before she warp jumps!</i></b>",
 		"name": "Warp Drive Initiated",

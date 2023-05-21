@@ -133,7 +133,7 @@
 		"code": "21069",
 		"faction_code": "encounter",
 		"health": 4,
-		"name": "Zealot of thuth",
+		"name": "Zealot of Truth",
 		"octgn_id": "1c5e678e-9214-4b41-afb5-b6a1764fd2d5",
 		"pack_code": "mts",
 		"position": 69,
@@ -141,8 +141,8 @@
 		"scheme": 1,
 		"set_code": "warlock_nemesis",
 		"set_position": 3,
-		"text": "Threat cannot be removed from the Church of thuth side scheme.",
-		"traits": "Mystic",
+		"text": "Threat cannot be removed from the Universal Church of Truth side scheme.",
+		"traits": "Mystic.",
 		"type_code": "minion"
 	},
 	{
@@ -1348,7 +1348,7 @@
 	},
 	{
 		"back_name": "Odin's Torment",
-		"back_text": "",
+		"back_text": "<b> Contents: </b> Villain deck Hela A (Hela B instead for expert mode). Hela and standard sets. Two modular encounter sets (Legions of Hel and Frost Giants).\n<b> Setup: </b> Attach Odin to the main scheme, [[captive]] side faceup. Reveal Gnipahellir and Garm. Set Gjallerbru, Skurge, Hall of Nastrond, and Nidhogg aside, out of play. Shuffle the encounter deck.",
 		"base_threat": 1,
 		"code": "21138",
 		"double_sided": true,
@@ -1359,11 +1359,10 @@
 		"pack_code": "mts",
 		"position": 138,
 		"quantity": 1,
-		"scheme_text": "<b> Contents: </b> Villain deck Hela A (Hela Be instead for expert mode). Hela and standard sets. Two modular encounter sets (Legions of Hel and Frost Giants).\n<b> Setup: </b> Attach Odin to the main scheme, [[captive]] side faceup. Reveal Gnipahellir and Garm. Set Gjallerbru, Skurge, Hall of Nastrond, and Nidhogg aside, out of play. Shuffle the encounter deck.",
 		"set_code": "hela",
 		"set_position": 3,
 		"stage": 1,
-		"text": "Hela cannot be defeated.\n<b> Forced Response: </b> After a side scheme is defeated, flip Hela to her [[mystic]] side.",
+		"text": "<b> Forced Interrupt: </b> When Hela would be defeated, if Odin is attached to this scheme, discard each attachment from Hela and flip her to her [[wounded]] side instead.\n<b> If this scheme is completed, the players lose the game. </b>",
 		"threat": 18,
 		"type_code": "main_scheme"
 	},
