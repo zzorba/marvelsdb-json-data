@@ -1,7 +1,7 @@
 import json
 import uuid
 
-runFile = 'qsv_encounter.json'
+runFile = 'angel.json'
 
 with open('./pack/' + runFile) as json_file:
     data = json.load(json_file)
