@@ -49,7 +49,6 @@
 		"type_code": "minion"
 	},
 	{
-		"boost": 0,
 		"code": "27028",
 		"faction_code": "encounter",
 		"flavor": "\"RAAARRRRRRR!!!\"",
@@ -177,7 +176,7 @@
 		"set_code": "sandman",
 		"set_position": 1,
 		"stage": 1,
-		"text": "Sand Blast - [star]<b>Forced Interrupt: </b> When sandman attacks you, that attack deals indirect damage. If your identity takes any amount of damange from that attack, resolve the Surging Sands ability on City Streets",
+		"text": "<i>Sand Blast</i> — [star]<b>Forced Interrupt</b>: When Sandman attacks you, that attack deals indirect damage. If your identity takes any amount of damage from that attack, resolve the \"<i>Surging Sands</i>\" ability on City Streets.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -197,7 +196,7 @@
 		"set_code": "sandman",
 		"set_position": 2,
 		"stage": 2,
-		"text": "<b>When Revealed: </b> Resolve the Surging Sands ability on City Streets.\nSand Blast - [star] <b>Forced Interrupt: </b> When Sandman attacks you, that attack deals indirect damage. If your identity takes any amount of damage from that attack, resolve the Surging Sands ability on City Streets.",
+		"text": "<b>When Revealed</b>: Resolve the \"<i>Surging Sands</i>\" ability on City Streets.\n<i>Sand Blast</i> — [star] <b>Forced Interrupt</b>: When Sandman attacks you, that attack deals indirect damage. If your identity takes any amount of damage from that attack, resolve the \"<i>Surging Sands</i>\" ability on City Streets.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -217,11 +216,12 @@
 		"set_code": "sandman",
 		"set_position": 3,
 		"stage": 3,
-		"text": "<b>When Revealed: </b> Place 1 sand counter on City Streets. Resolve its Surging Sands ability.\nSand Wave - [star] <b>Forced Interrupt: </b> When Sandman attacks you, that attack gains overkill. If your identity takes any amount of damage from that attack, resolve the Surging Sands ability on City Streets.",
+		"text": "<b>When Revealed</b>: Place 1 sand counter on City Streets. Resolve its \"<i>Surging Sands</i>\" ability.\n<i>Sand Wave</i> — [star] <b>Forced Interrupt</b>: When Sandman attacks you, that attack gains overkill. If your identity takes any amount of damage from that attack, resolve the \"<i>Surging Sands</i>\" ability on City Streets.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
 	{
+		"back_text": "<b>Contents</b>: Sandman (I) and Sandman (II). <i>(Sandman (II) and Sandman (III) instead for expert mode.)</i> Sandman, City in Chaos, and Standard encounter sets. One modular encounter set <i>(Down to Earth)</i>.\n<b>Setup</b>: Search the encounter deck for the City Streets environment and put it into play. Place 4 sand counters on it.",
 		"base_threat": 2,
 		"code": "27064",
 		"double_sided": true,
@@ -232,11 +232,10 @@
 		"pack_code": "sm",
 		"position": 64,
 		"quantity": 1,
-		"scheme_text": "<b>Forced Response:</b> After an accerleration token is place on this scheme, deal 3 indirect damage to the first player.\n<b>If this stage is completed, the players lose the game. </b>",
 		"set_code": "sandman",
 		"set_position": 4,
 		"stage": 1,
-		"text": "<b>Contents: </b> Sandman (I) and Sandman (II). (Sandman (II) and Sandman (III) instead for expert mode.) Sandman, City in Chaos, and standard encounter sets. One modular encounter set (Down to Earth).\n<b>Setup: </b>Search the encounter deck for the city Streets environment and put it into play. Place 4 sand counters on it.",
+		"text": "<b>Forced Response</b>: After an acceleration token is placed on this scheme, deal 3 indirect damage to the first player.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 9,
 		"type_code": "main_scheme"
 	},
@@ -250,12 +249,11 @@
 		"quantity": 1,
 		"set_code": "sandman",
 		"set_position": 5,
-		"text": "Surging Sands - <b>Special: </b>Place 1 sand counter here. Discard card from the top of the encounter deck equal to the number of sand counters here.\n<b>Hero Action: </b> Exhause a chracter you control → remove sand counters from here equal to that character's ATK. (limit once per round per player.)",
+		"text": "<i>Surging Sands</i> — <b>Special</b>: Place 1 sand counter here. Discard cards from the top of the encounter deck equal to the number of sand counters here.\n<b>Hero Action</b>: Exhaust a character you control → remove sand counters from here equal to that character's ATK. (Limit once per round per player.)",
 		"traits": "Location.",
 		"type_code": "environment"
 	},
 	{
-		"boost": 0,
 		"boost_text": "Reveal this card.",
 		"code": "27066",
 		"faction_code": "encounter",
@@ -266,7 +264,7 @@
 		"quantity": 2,
 		"set_code": "sandman",
 		"set_position": 6,
-		"text": "Attach to Sandman.\n<b>Forced Interrupt: </b> When you would deal amount of damage to Sandman, discard sand Form instead → resove the Surging Sands ability on City Streets",
+		"text": "Attach to Sandman.\n<b>Forced Interrupt</b>: When you would deal any amount of damage to Sandman, discard Sand Form instead → resolve the \"<i>Surging Sands</i>\" ability on City Streets.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -274,6 +272,7 @@
 		"attack": -1,
 		"code": "27067",
 		"faction_code": "encounter",
+		"flavor": "\"If you wanna get to me, you gotta go through... ME!\" — Sandman",
 		"health": 3,
 		"name": "Sand Clone",
 		"octgn_id": "80f402fc-9c39-4553-91ed-a66aef5091c4",
@@ -283,29 +282,30 @@
 		"scheme": 1,
 		"set_code": "sandman",
 		"set_position": 8,
-		"text": "X is equal to the number of sand counters on City Street.\n<b>When Defeated: </b>Resolve the \"Surging Sands\" ability on City Streets.",
+		"text": "X is equal to the number of sand counters on City Streets.\n<b>When Defeated</b>: Resolve the \"<i>Surging Sands</i>\" ability on City Streets.",
 		"type_code": "minion"
 	},
 	{
-		"base_threat": null,
-		"base_threat_fixed": 1,
+		"base_threat": 1,
+		"base_threat_fixed": true,
 		"boost": 3,
 		"code": "27068",
 		"faction_code": "encounter",
+		"flavor": "A beige billow floods the streets around you. Everywhere you turn, Sandman awaits.",
 		"name": "Dirt Trap",
 		"octgn_id": "07f2c73b-5d07-4d5a-8d49-00bab9660a3c",
 		"pack_code": "sm",
 		"position": 68,
 		"quantity": 2,
 		"scheme_crisis": 1,
-		"scheme_text": "<b>When Deafeated:</b> Resolve the Surging Sands ability on City Streets. Resolve it again.",
 		"set_code": "sandman",
 		"set_position": 12,
+		"text": "<b>When Defeated</b>: Resolve the \"<i>Surging Sands</i>\" ability on City Streets. Resolve it again.",
 		"type_code": "side_scheme"
 	},
 	{
-		"base_threat": null,
-		"base_threat_fixed": 2,
+		"base_threat": 2,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "27069",
 		"faction_code": "encounter",
@@ -315,14 +315,13 @@
 		"position": 69,
 		"quantity": 1,
 		"scheme_hazard": 1,
-		"scheme_text": "<b>When Revealed: </b> Place X additional threat here, where X is equal to the number of sand counter on City Streets.",
 		"set_code": "sandman",
 		"set_position": 14,
+		"text": "<b>When Revealed</b>: Place X additional threat here, where X is equal to the number of sand counters on City Streets.",
 		"type_code": "side_scheme"
 	},
 	{
-		"boost": 0,
-		"boost_text": "Resolve this card's <b>When Revealed </b> ability.",
+		"boost_text": "Resolve this card's \"<b>When Revealed</b>\" ability.",
 		"code": "27070",
 		"faction_code": "encounter",
 		"name": "Sandslide",
@@ -332,7 +331,7 @@
 		"quantity": 1,
 		"set_code": "sandman",
 		"set_position": 15,
-		"text": "<b>When Revealed: </b> Place 2 sand counters on City Streets, then resolve its Surging Sands ability. If at least 1 Sandman card was discarded this way, you are stunned.",
+		"text": "<b>When Revealed</b>: Place 2 sand counters on City Streets, then resolve its \"<i>Surging Sands</i>\" ability. If at least 1 Sandman card was discarded this way, you are stunned.",
 		"type_code": "treachery"
 	},
 	{
@@ -346,13 +345,14 @@
 		"quantity": 1,
 		"set_code": "sandman",
 		"set_position": 16,
-		"text": "<b> When Revealed: </b> Deal X indirect damage among players (divided as you choose), where X is requal to the number of sand counters on City Streets. If there are no sand counters on City Streets, place 3 sand counters on it and shuffle this card into the encounter deck.",
+		"text": "<b>When Revealed</b>: Deal X indirect damage among players <i>(divided as you choose)</i>, where X is equal to the number of sand counters on City Streets. If there are no sand counters on City Streets, place 3 sand counters on it and shuffle this card into the encounter deck.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 1,
 		"code": "27072",
 		"faction_code": "encounter",
+		"flavor": "\"I will bury you!\"",
 		"name": "Sand Smash",
 		"octgn_id": "7a952776-cce9-4586-ae80-378d2973234d",
 		"pack_code": "sm",
@@ -360,7 +360,7 @@
 		"quantity": 2,
 		"set_code": "sandman",
 		"set_position": 17,
-		"text": "<b>When Revealed (Alter-Ego): </b> resolve the Surging Sands ability on City streets. This card gain surge.\n<b>When Revealed (Hero):</b>Sandman attacks you with +1 ATK",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Resolve the \"<i>Surging Sands</i>\" ability on City Streets. This card gains surge.\n<b>When Revealed (Hero)</b>: Sandman attacks you with +1 ATK.",
 		"type_code": "treachery"
 	},
 	{
@@ -379,7 +379,7 @@
 		"set_code": "venom",
 		"set_position": 1,
 		"stage": 1,
-		"text": "Toughness. (This character enters play with a tough status card.)\nVengeance - <b> Forced Response: </b> After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
+		"text": "Toughness. (This character enters play with a tough status card.)\n<i>Vengeance</i> — <b>Forced Response</b>: After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
 		"traits": "Symbiote.",
 		"type_code": "villain"
 	},
@@ -399,7 +399,7 @@
 		"set_code": "venom",
 		"set_position": 2,
 		"stage": 2,
-		"text": "Toughness. Steady.\n<b>When Revealed: </b>Search the encounter deck and discard pile for the Tooth and Nail side scheme and put it into play. (Shuffle.)\nVengeance - <b>Forced Response: </b> After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
+		"text": "Toughness. Steady.\n<b>When Revealed</b>: Search the encounter deck and discard pile for the Tooth and Nail side scheme and put it into play. <i>(Shuffle.)</i>\n<i>Vengeance</i> — <b>Forced Response</b>: After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
 		"traits": "Symbiote.",
 		"type_code": "villain"
 	},
@@ -419,7 +419,7 @@
 		"set_code": "venom",
 		"set_position": 3,
 		"stage": 3,
-		"text": "Retaliate 1. Steady. Toughness.\n<b>When Revealed: </b> Place 2 facedown boost cards on each identity.\nRetribution - <b>Forced Response: </b>After you attack and damge Venom with a card you control, place 1 facedown boost card on your identity (2 facedown boost cards instead if this is the first attack this turn).",
+		"text": "Retaliate 1. Steady. Toughness.\n<b>When Revealed</b>: Place 2 facedown boost cards on each identity.\n<i>Retribution</i> — <b>Forced Response</b>: After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity (2 facedown boost cards instead if this is the first attack this turn).",
 		"traits": "Symbiote.",
 		"type_code": "villain"
 	},
@@ -434,11 +434,10 @@
 		"pack_code": "sm",
 		"position": 76,
 		"quantity": 1,
-		"scheme_text": "<b>Forced Interrupt: </b> When Venom activates against you, move each facedown boost card from your identity to Venom.\n<b>If this stage is completed, the players lose the game </b>",
 		"set_code": "venom",
 		"set_position": 4,
 		"stage": 1,
-		"text": "<b>Contents: </b> Venom (I) and Venom (II). (Venom (II) and Venom (III) instead for expert mode.) Venom, Symbiotic Strength, and Standard encounter sets. One modular encounter set (Down to Earth.)\n<b> Setup: </b>Put the Bell Twoer environment into play, [[QUIET]] side faceup.",
+		"text": "<b>Contents</b>: Venom (I) and Venom (II). <i>(Venom (II) and Venom (III) instead for expert mode.)</i> Venom, Symbiotic Strength, and Standard encounter sets. One modular encounter set <i>(Down to Earth.)</i>\n<b>Setup</b>: Put the Bell Tower environment into play, [[QUIET]] side faceup.",
 		"threat": null,
 		"type_code": "main_scheme"
 	},
@@ -448,15 +447,15 @@
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
+		"hidden": true,
 		"name": "\"Leave Us Alone!\"",
 		"octgn_id": "f0fae2c4-caaf-427a-83ea-fa3898828b6b",
 		"pack_code": "sm",
 		"position": 76,
 		"quantity": 1,
-		"scheme_text": "<b>Forced Interrupt: </b> When Venom activates against you, move each facedown boost card from your identity to Venom.\n<b>If this stage is completed, the players lose the game </b>",
 		"set_code": "venom",
 		"set_position": 4,
-		"text": "<b>Contents: </b> Venom (I) and Venom (II). (Venom (II) and Venom (III) instead for expert mode.) Venom, Symbiotic Strength, and Standard encounter sets. One modular encounter set (Down to Earth.)\n<b> Setup: </b>Put the Bell Twoer environment into play, [[QUIET]] side faceup.",
+		"text": "<b>Forced Interrupt</b>: When Venom activates against you, move each facedown boost card from your identity to Venom.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 10,
 		"type_code": "main_scheme"
 	},
@@ -480,6 +479,7 @@
 		"code": "27077b",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"hidden": true,
 		"name": "Bell Tower",
 		"octgn_id": "2e7f7d42-8883-4c2a-844e-c6883c9d4564",
 		"pack_code": "sm",
@@ -487,12 +487,13 @@
 		"quantity": 1,
 		"set_code": "venom",
 		"set_position": 5,
-		"text": "Increase all damage Venom takes by 1.\nIf there are no chime counters here, flip this card.\n<b>Forced Interrupt: </b> When Venom's attack would deal any amount of damage to an identity, remove that many chime counters from here. For each chime counter removed this way, prevent 1 of that damage.",
+		"text": "Increase all damage Venom takes by 1.\nIf there are no chime counters here, flip this card.\n<b>Forced Interrupt</b>: When Venom's attack would deal any amount of damage to an identity, remove that many chime counters from here. For each chime counter removed this way, prevent 1 of that damage.",
 		"traits": "Location. Ringing.",
 		"type_code": "environment"
 	},
 	{
-		"boost": 0,
+		"attack": 1,
+		"attack_text": "Venom's attack gain overkill.",
 		"boost_text": "Reveal this card.",
 		"code": "27078",
 		"faction_code": "encounter",
@@ -503,13 +504,13 @@
 		"quantity": 2,
 		"set_code": "venom",
 		"set_position": 6,
-		"text": "Attach to Venom.\nUses (2 rage counters).\n[star] Venom's attack gain overkill.\n<b>Forced Response: </b>After Venom takes any amount of damage from an attack, remove 1 rage counter from here",
+		"text": "Attach to Venom.\nUses (2 rage counters).\n<b>Forced Response</b>: After Venom takes any amount of damage from an attack, remove 1 rage counter from here.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
 	{
-		"base_threat": null,
-		"base_threat_fixed": 3,
+		"base_threat": 3,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "27079",
 		"faction_code": "encounter",
@@ -518,13 +519,14 @@
 		"pack_code": "sm",
 		"position": 79,
 		"quantity": 1,
-		"scheme_text": "Treat the Bell Tower's printed text box as if it were blank (except for [[traits]]).\n<b>When Revealed: </b> Remove each chime counter from the Bell Tower and flip it to it's [[quiet]] side.",
 		"set_code": "venom",
 		"set_position": 8,
+		"text": "Treat the Bell Tower's printed text box as if it were blank <i>(except for [[TRAITS]])</i>.\n<b>When Revealed</b>: Remove each chime counter from the Bell Tower and flip it to its [[QUIET]] side.",
 		"type_code": "side_scheme"
 	},
 	{
 		"base_threat": 9,
+		"base_threat_fixed": true,
 		"boost": 1,
 		"boost_text": "If this activation is an attack, take 2 indirect damage.",
 		"code": "27080",
@@ -535,13 +537,14 @@
 		"position": 80,
 		"quantity": 1,
 		"scheme_acceleration": 1,
-		"scheme_text": "<b>Response: </b> After Venom takes any amount of damage from an attack, remove an equal amount of threat from here.",
 		"set_code": "venom",
 		"set_position": 9,
+		"text": "<b>Response</b>: After Venom takes any amount of damage from an attack, remove an equal amount of threat from here.",
 		"type_code": "side_scheme"
 	},
 	{
 		"base_threat": 8,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"boost_text": "If this activation is an attack, it gains piercing.",
 		"code": "27081",
@@ -552,9 +555,9 @@
 		"position": 81,
 		"quantity": 1,
 		"scheme_hazard": 1,
-		"scheme_text": "<b>Reponse: </b> After Venom takes any amount of damage from an attack, remove an equal amount of threat from here.",
 		"set_code": "venom",
 		"set_position": 10,
+		"text": "<b>Response</b>: After Venom takes any amount of damage from an attack, remove an equal amount of threat from here.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -569,12 +572,11 @@
 		"quantity": 2,
 		"set_code": "venom",
 		"set_position": 11,
-		"text": "<b>When Revealed: </b> Venom activates against you. Each boost card turned faceup during that activation gets +1 boost icon [boost].",
+		"text": "<b>When Revealed</b>: Venom activates against you. Each boost card turned faceup during that activation gets +1 boost icon [boost].",
 		"type_code": "treachery"
 	},
 	{
-		"boost": 0,
-		"boost_text": "Resolve this card's <b>When Revealed </b> ability.",
+		"boost_text": "Resolve this card's \"<b>When Revealed</b>\" ability.",
 		"code": "27083",
 		"faction_code": "encounter",
 		"name": "For Whom the Bell Tolls",
@@ -584,7 +586,7 @@
 		"quantity": 2,
 		"set_code": "venom",
 		"set_position": 13,
-		"text": "<b>When Revealed: </b> Remove 2 chime counters from the Bell Tower. If the Bell Tower is on its [[quiet]] side, take 1 damage. If it is on its [[ringing]] side, remove 1 threat from the main scheme.",
+		"text": "<b>When Revealed</b>: Remove 2 chime counters from the Bell Tower. If the Bell Tower is on its [[quiet]] side, take 1 damage. If it is on its [[ringing]] side, remove 1 threat from the main scheme.",
 		"type_code": "treachery"
 	},
 	{
@@ -593,6 +595,7 @@
 		"faction_code": "encounter",
 		"health": 15,
 		"health_per_hero": true,
+		"illustrator": "Andrea Di Vito & Laura Villari",
 		"is_unique": true,
 		"name": "Mysterio",
 		"octgn_id": "2f5393e9-2f46-4e1a-a54d-45a9374ab5c1",
@@ -603,7 +606,7 @@
 		"set_code": "mysterio",
 		"set_position": 1,
 		"stage": 1,
-		"text": "Seeds of Fear - [star] <b>Forced Response: </b> After you resolve a boost card during Mysterio's activation, place that card in your discard pile if it has the [illusion]] trait.",
+		"text": "<i>Seeds of Fear</i> — [star] <b>Forced Response</b>: After you resolve a boost card during Mysterio's activation, place that card in your discard pile if it has the [[illusion]] trait.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -613,6 +616,7 @@
 		"faction_code": "encounter",
 		"health": 17,
 		"health_per_hero": true,
+		"illustrator": "Andrea Di Vito & Laura Villari",
 		"is_unique": true,
 		"name": "Mysterio",
 		"octgn_id": "508eea9c-19da-4761-809f-98a7121e7d78",
@@ -623,7 +627,7 @@
 		"set_code": "mysterio",
 		"set_position": 2,
 		"stage": 2,
-		"text": "<b>When Revealed:</b> In player order, shuffle the top card of the encounter deck into each player's deck.\nCreeping Fear - [star] <b>Forced Response: </> After you resolve a boost card during Mysterio's activation, place that card on the bootom of your deck if it has the [[illusion]] trait.",
+		"text": "<b>When Revealed</b>: In player order, shuffle the top card of the encounter deck into each player's deck.\n<i>Creeping Fear</i> — [star] <b>Forced Response</b>: After you resolve a boost card during Mysterio's activation, place that card on the bottom of your deck if it has the [[illusion]] trait.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -633,6 +637,7 @@
 		"faction_code": "encounter",
 		"health": 16,
 		"health_per_hero": true,
+		"illustrator": "Andrea Di Vito & Laura Villari",
 		"is_unique": true,
 		"name": "Mysterio",
 		"octgn_id": "1ab99fb0-2f7d-4beb-8990-60fe59c44788",
@@ -643,45 +648,47 @@
 		"set_code": "mysterio",
 		"set_position": 3,
 		"stage": 3,
-		"text": "<b>When Revealed: </b> Discard the top 5 cards of each player's deck.\nBound by Feat - [star] <b> Forced Response: </b> After you resolve a boost card during Mysterio's Activation, place that card on the top of your deck if it has the [[illusion]] trait.",
+		"text": "<b>When Revealed</b>: Discard the top 5 cards of each player's deck.\n<i>Bound by Fear</i> — [star] <b>Forced Response</b>: After you resolve a boost card during Mysterio's activation, place that card on the top of your deck if it has the [[illusion]] trait.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
 	{
-		"back_text": "<b>Forced Interript: </b> When you would draw or discard an encounter card from your deck, deal it to yourself as a facedown encounter card → draw 1 card.",
+		"back_text": "<b>Contents</b>: Mysterio (I) and Mysterio (II). <i>(Mysterio (II) and Mysterio (III) instead for expert mode.)</i> Mysterio, Personal Nightmare, and Standard encounter sets. One modular encounter set <i>(Whispers of Paranoia.)</i>\n<b>Setup</b>: Put a shifting Apparition minion into play engaged with each player. <i>(Shuffle.)</i>",
 		"base_threat": 2,
 		"code": "27087",
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
+		"illustrator": "Stefano Landini & Javier Mena",
 		"name": "Maze of Mirrors",
 		"octgn_id": "d2642a7a-62a6-4cbf-9d35-6197dc918549",
 		"pack_code": "sm",
 		"position": 87,
 		"quantity": 1,
-		"scheme_text": "<b> Contents: </b> Mysterio (I) and Mysterio (II). (Mysterio (II) and Mysterio (III) instead for expert mode.) Mysterio, Personal Nightmare, and Standard encounter sets. One modular encounter set (Whispers of Paranoia.)\n<b> Setup</b>Put a shifting Apparition minion into play engaged with each player. (Shuggle.)",
 		"set_code": "mysterio",
 		"set_position": 4,
 		"stage": 1,
+		"text": "<b>Forced Interrupt</b>: When you would draw or discard an encounter card from your deck, deal it to yourself as a facedown encounter card → draw 1 card.",
 		"threat": 8,
 		"type_code": "main_scheme"
 	},
 	{
-		"back_text": "<b> Forced Interrupt: </b> When you would draw or discard an encounter card from your deck, deal it to yourself as a facedown encounter card → draw 1 card.\n<b>If this stage is completed, the players lose the game. </b>",
+		"back_text": "<b>When Revealed</b>: In player order, shuffle the top 2 cards of the encoutner deck into each player's deck.",
 		"base_threat": 3,
 		"code": "27088",
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
+		"illustrator": "Stefano Landini & Javier Mena",
 		"name": "Edge of Reality",
 		"octgn_id": "5f8d0885-f894-4924-b4b8-111a020e9566",
 		"pack_code": "sm",
 		"position": 88,
 		"quantity": 1,
-		"scheme_text": "<b> When Revealed:</b> In player order, shuffle the top 2 cards of the encoutner deck into each player's deck.",
 		"set_code": "mysterio",
 		"set_position": 5,
 		"stage": 2,
+		"text": "<b>Forced Interrupt</b>: When you would draw or discard an encounter card from your deck, deal it to yourself as a facedown encounter card → draw 1 card.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 9,
 		"type_code": "main_scheme"
 	},
@@ -730,12 +737,11 @@
 		"scheme": 1,
 		"set_code": "mysterio",
 		"set_position": 9,
-		"text": "Guard. (While this minion is engaged with your, you cannot attack the villain.)\n<b> When Defeated: </b> If this minion was defeated with excess damage, the defeating player shuffles the top card of the encounter deck intro their deck.",
+		"text": "Guard. <i>(While this minion is engaged with you, you cannot attack the villain.)</i>\n<b>When Defeated</b>: If this minion was defeated with excess damage, the defeating player shuffles the top card of the encounter deck into their deck.",
 		"traits": "Illusion.",
 		"type_code": "minion"
 	},
 	{
-		"boost": 0,
 		"boost_text": "Reveal this card.",
 		"code": "27092",
 		"faction_code": "encounter",
@@ -746,11 +752,10 @@
 		"quantity": 2,
 		"set_code": "mysterio",
 		"set_position": 13,
-		"text": "Peril. (While you are resolving this card, other players cannot help you.)\n<b> When Revealed: </b> Choose to either take 1 damage or place 1 threat on the main scheme. Shuffle Deja Vu into any player's deck.",
+		"text": "Peril. <i>(While you are resolving this card, other players cannot help you.)</i>\n<b>When Revealed</b>: Choose to either take 1 damage or place 1 threat on the main scheme. Shuffle Déjà Vu into any player's deck.",
 		"type_code": "treachery"
 	},
 	{
-		"boost": 0,
 		"boost_text": "Choose to either spend [mental][mental] resources or deal this card to yourself as a facedown encounter card.",
 		"code": "27093",
 		"faction_code": "encounter",
@@ -761,14 +766,16 @@
 		"quantity": 2,
 		"set_code": "mysterio",
 		"set_position": 15,
-		"text": "Surge.\n<b> When Revealed: </b> Discard your hand. Draw up to your hand size.",
+		"text": "Surge.\n<b>When Revealed</b>: Discard your hand. Draw up to your hand size.",
 		"type_code": "treachery"
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After Doctor Octopus attacks and damages you, place 1 threat on each scheme. Move the active counter to the next villain in the activation order.",
 		"code": "27094",
 		"faction_code": "encounter",
 		"health": 8,
+		"illustrator": "Andrea Di Vito & Laura Villari",
 		"is_unique": true,
 		"name": "Doctor Octopus",
 		"octgn_id": "2e05b415-c758-47b6-8ae3-57dc76ac49df",
@@ -779,15 +786,17 @@
 		"set_code": "sinister_six",
 		"set_position": 1,
 		"stage": 1,
-		"text": "[star] <b>Forced Response: </b> After Doctor Octopus attacks and damages you, place 1 threat on each scheme. Move the active counter to the next villain in the activation order.\n<b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
+		"text": "<b>When Defeated</b>: Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 1",
 		"type_code": "villain"
 	},
 	{
 		"attack": 1,
+		"attack_text": "<b>Forced Response</b>: After Electro attacks and damges you, discard the top 7 cards of your deck. Move the active counter to the next villain in the activation order.",
 		"code": "27095",
 		"faction_code": "encounter",
 		"health": 8,
+		"illustrator": "Andrea Di Vito & Laura Villari",
 		"is_unique": true,
 		"name": "Electro",
 		"octgn_id": "800f33c8-a683-470a-944e-ae7083a7f3a3",
@@ -798,15 +807,17 @@
 		"set_code": "sinister_six",
 		"set_position": 2,
 		"stage": 1,
-		"text": "[star] <b>Forced Response: </b> After Electro attacks and damges you, discard the top 7 cards of your deck. Move the active counter to the next villain in the activation order.\n<b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
+		"text": "<b>When Defeated</b>: Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 2",
 		"type_code": "villain"
 	},
 	{
 		"attack": 1,
+		"attack_text": "<b>Forced Response</b>: After Hobgoblin attacks and damages you, take 2 indirect damage. Move the active counter to the next villain in the activation order.",
 		"code": "27096",
 		"faction_code": "encounter",
 		"health": 9,
+		"illustrator": "Andrea Di Vito & Laura Villari",
 		"is_unique": true,
 		"name": "Hobgoblin",
 		"octgn_id": "83211044-881e-40ac-9735-af5db8689286",
@@ -817,15 +828,17 @@
 		"set_code": "sinister_six",
 		"set_position": 3,
 		"stage": 1,
-		"text": "[star] <b>Forced Response: </b> AfterHobgoblin attacks and damages you, take 2 indirect damage. Move the active counter to the next villain in the activation order.\n<b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
+		"text": "<b>When Defeated</b>: Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 3",
 		"type_code": "villain"
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After Kraven the Hunter attacks and damages you, choose and discard 1 support or upgrade you control. Move the active counter to the next villain in the activation order.",
 		"code": "27097",
 		"faction_code": "encounter",
 		"health": 9,
+		"illustrator": "Andrea Di Vito & Laura Villari",
 		"is_unique": true,
 		"name": "Kraven the Hunter",
 		"octgn_id": "e4974462-c4bb-4286-9c27-93126f6726d5",
@@ -836,15 +849,17 @@
 		"set_code": "sinister_six",
 		"set_position": 4,
 		"stage": 1,
-		"text": "[star] <b>Forced Response: </b> After Kraven the Hunter attacks and damages you, choose and discard 1 support or upgrade you control. Move the active counter to the next villain in the activation order.\n<b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
+		"text": "<b>When Defeated</b>: Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 4",
 		"type_code": "villain"
 	},
 	{
 		"attack": 3,
+		"attack_text": "<b>Forced Response</b>: After Scorpion attacks and damages you, stun a character you control. Move the active counter to the next villain in the activation order.",
 		"code": "27098",
 		"faction_code": "encounter",
 		"health": 10,
+		"illustrator": "Andrea Di Vito & Laura Villari",
 		"is_unique": true,
 		"name": "Scorpion",
 		"octgn_id": "b5a76600-dcdb-4528-84fb-56217769dbc7",
@@ -855,15 +870,17 @@
 		"set_code": "sinister_six",
 		"set_position": 5,
 		"stage": 1,
-		"text": "[star] <b>Forced Response: </b> After Scorpion attacks and damages you, stun a character you control. Move the active counter to the next villain in the activation order.\n<b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
+		"text": "<b>When Defeated</b>: Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 5",
 		"type_code": "villain"
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After Vulture attacks and damages you, choose and discard 1 card from your hand. Move the active counter to the next villain in the activation order.",
 		"code": "27099",
 		"faction_code": "encounter",
 		"health": 7,
+		"illustrator": "Javier Mena & Anna Rud",
 		"is_unique": true,
 		"name": "Vulture",
 		"octgn_id": "ece2a17b-19b3-4813-9d61-e106d2f21622",
@@ -874,26 +891,27 @@
 		"set_code": "sinister_six",
 		"set_position": 6,
 		"stage": 1,
-		"text": "[star] <b>Forced Response: </b> After Vulture attacks and damages you, choose and discard 1 card from your hand. Move the active counter to the next villain in the activation order.\n<b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
+		"text": "<b>When Defeated</b>: Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 6",
 		"type_code": "villain"
 	},
 	{
+		"back_text": "<b>Contents</b>: Doctor Octopus, Electro, Hobgoblin, Kraven the Hunter, Scorpion, and Vulture. The Sinister Six, Guerrila tactics, and Standard encounter sets.\n<b>Setup</b>: Choose X villains at random, where X is 1 more than the number of players. Put those villains into play, place the active counter on the villain with the lowest activation order value, and set the other villains aside. Put the Light at the End side scheme into play, [[trap!]] side faceup.",
 		"base_threat": 2,
 		"code": "27100",
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
+		"illustrator": "Virgilio D'Ambrosio & Javier Mena",
 		"name": "Sinister Synchonization",
 		"octgn_id": "d1b9e550-e569-455e-b32e-56a1426acd8a",
 		"pack_code": "sm",
 		"position": 100,
 		"quantity": 1,
-		"scheme_text": "Ambush - <b>Special: </b> Choose a set-aside villain at random, put that villain into play, and place the active counter on it. (In expert mode, place 2 threat on Light at the End).\n<b>Forced Interrupt: </b> When a villain would activate, if no villain is in play, resolve this cards Ambush! ability. Continue that activation.",
 		"set_code": "sinister_six",
 		"set_position": 7,
 		"stage": 1,
-		"text": "<b> Contents: </b> Doctor Octopus, Electro, Hobgoblin, Kraven the Hunter, Scorpion, and Vulture. The Sinister Six, Guerrila tactics, and standard encounter sets.\n<b>Setup: </b> Choose X villains at random, where X is 1 more than the number of players. Put those villains into play, place the active counter on the villain with the lowest activation order value, and set the other villains aside. Put the Light at the End side scheme into play, [[trap!]] side faceup.",
+		"text": "Ambush! — <b>Special</b>: Choose a set-aside villain at random, put that villain into play, and place the active counter on it. (In expert mode, place 2 threat on Light at the End).\n<b>Forced Interrupt</b>: When a villain would activate, if no villain is in play, resolve this card's \"<i>Ambush!</i>\" ability. Continue that activation.",
 		"threat": 8,
 		"type_code": "main_scheme"
 	},
@@ -911,7 +929,7 @@
 		"set_code": "sinister_six",
 		"set_position": 8,
 		"stage": 2,
-		"text": "<b>When Revealed: </b> Choose a set-aside villain at randomput that villain into play, and place active counter on it (even if another villain has the counter). If no villain was put into play this way or this is expert mode, deal the first player 1 facedown enounter card.",
+		"text": "<b>When Revealed</b>: Choose a set-aside villain at random, put that villain into play, and place the active counter on it <i>(even if another villain has the counter)</i>. If no villain was put into play this way or this is expert mode, deal the first player 1 facedown encounter card.",
 		"threat": null,
 		"type_code": "main_scheme"
 	},
@@ -921,6 +939,7 @@
 		"double_sided": true,
 		"escalation_threat": 1,
 		"faction_code": "encounter",
+		"hidden": true,
 		"name": "Sinister Beatdown",
 		"octgn_id": "ffff8175-9807-4a4d-b508-6298e430af77",
 		"pack_code": "sm",
@@ -929,14 +948,14 @@
 		"set_code": "sinister_six",
 		"set_position": 8,
 		"stage": 2,
-		"text": "Ambush! - <b>Special: </b> Choose a set-aside villain at random, put that villain into play, and place the active counter on it. (In expert mode, place 2 threat on Light at the End).\n<b>Forced Interrupt </b> When a villain would activate, if no villain is in play, resolve this cards Ambush! ability. Continue that activation.\n<b>If this stage is completed, the players lose the game. </b>",
+		"text": "<i>Ambush!</i> — <b>Special</b>: Choose a set-aside villain at random, put that villain into play, and place the active counter on it. (In expert mode, place 2 threat on Light at the End).\n<b>Forced Interrupt</b> When a villain would activate, if no villain is in play, resolve this card's \"<i>Ambush!</i>\" ability. Continue that activation.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 7,
 		"type_code": "main_scheme"
 	},
 	{
 		"back_link": "27102b",
 		"base_threat": 10,
-		"base_threat_fixed": 10,
+		"base_threat_fixed": true,
 		"code": "27102a",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -947,16 +966,17 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 9,
-		"text": "Permanent. Hinder 10[per_hero].\nThe players cannot win unless they escape.\n<b>Forced Interrupt: </b> When the last threat is removed from this scheme, resolve the Ambush! Ability on the main scheme. Flip this card. (The palyers can escape on the other side.)",
+		"text": "Permanent. Hinder 10[per_hero].\nThe players cannot win unless they escape.\n<b>Forced Interrupt</b>: When the last threat is removed from this scheme, resolve the \"<i>Ambush!</i>\" ability on the main scheme. Flip this card. <i>(The players can escape on the other side.)</i>",
 		"traits": "Trap!",
 		"type_code": "side_scheme"
 	},
 	{
-		"base_threat": 10,
-		"base_threat_fixed": 5,
+		"base_threat": 5,
+		"base_threat_fixed": true,
 		"code": "27102b",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"hidden": true,
 		"name": "Light at the End",
 		"octgn_id": "6c1142d0-3fb7-4303-85b3-bec275ad8d5e",
 		"pack_code": "sm",
@@ -965,7 +985,7 @@
 		"scheme_boost": 1,
 		"set_code": "sinister_six",
 		"set_position": 9,
-		"text": "Permanent. Hinder 10[per_hero].\nThe players cannot win unless they escape.\n<b>Forced Interrupt: </b> When the last threat is removed from this scheme, the players escape and win the game.",
+		"text": "Permanent. Hinder 10[per_hero].\nThe players cannot win unless they escape.\n<b>Forced Interrupt</b>: When the last threat is removed from this scheme, the players escape and win the game.",
 		"traits": "Chase!",
 		"type_code": "side_scheme"
 	},
@@ -980,7 +1000,7 @@
 		"quantity": 2,
 		"set_code": "sinister_six",
 		"set_position": 10,
-		"text": "Attach to the villain with the highest activation order value. If you cannot, resolve the \"Ambush!\" ability on the main scheme, then attach this card to the active villain.\nX is equal to the number of villains in play.",
+		"text": "Attach to the villain with the highest activation order value. If you cannot, resolve the \"<i>Ambush!</i>\" ability on the main scheme, then attach this card to the active villain.\nX is equal to the number of villains in play.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -1030,8 +1050,8 @@
 		"type_code": "attachment"
 	},
 	{
-		"base_threat": null,
-		"base_threat_fixed": 9,
+		"base_threat": 9,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"boost_text": "Give the villain 1 additional boost card for this activation.",
 		"code": "27107",
@@ -1043,7 +1063,7 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 16,
-		"text": "Victory 1. (When defeated, add this card to the victory display.)\nThreat cannot be removed from other side schemes.",
+		"text": "Victory 1. <i>(When defeated, add this card to the victory display.)</i>\nThreat cannot be removed from other side schemes.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1057,7 +1077,7 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 17,
-		"text": "In expert mode, this card gains incite 1 and cannot be canceled.\n<b>When Revealed: </b> Put the set-aside Hobgoblin and Vulture into play. If Hobgoblin is already in play, take 2 indirect damage. If Vulture is already in play, discard 1 card at random from your hand.",
+		"text": "In expert mode, this card gains incite 1 and cannot be canceled.\n<b>When Revealed</b>: Put the set-aside Hobgoblin and Vulture into play. If Hobgoblin is already in play, take 2 indirect damage. If Vulture is already in play, discard 1 card at random from your hand.",
 		"type_code": "treachery"
 	},
 	{
@@ -1071,7 +1091,7 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 18,
-		"text": "In expert mode, this card gains incite 1 and cannot be canceled.\n<b>When Revealed: </b> Put the set-aside Electro and Kraven the Hunter into play. If Electro is already in play, discard the highest-cost card you control. If Kraven the Hunter is already in play, discard the lowest-cost card you control.",
+		"text": "In expert mode, this card gains incite 1 and cannot be canceled.\n<b>When Revealed</b>: Put the set-aside Electro and Kraven the Hunter into play. If Electro is already in play, discard the highest-cost card you control. If Kraven the Hunter is already in play, discard the lowest-cost card you control.",
 		"type_code": "treachery"
 	},
 	{
@@ -1085,7 +1105,7 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 19,
-		"text": "In expert mode, this card gains incite 1 and cannot be canceled.\n<b>When Revealed: </b> Put the set-aside Doctor Octopus and Scorpion into play. If Doctor Octopus is already in play, confuse a character you control. If Scorpion is already in play, stun a character you control.",
+		"text": "In expert mode, this card gains incite 1 and cannot be canceled.\n<b>When Revealed</b>: Put the set-aside Doctor Octopus and Scorpion into play. If Doctor Octopus is already in play, confuse a character you control. If Scorpion is already in play, stun a character you control.",
 		"type_code": "treachery"
 	},
 	{
@@ -1113,7 +1133,7 @@
 		"quantity": 3,
 		"set_code": "sinister_six",
 		"set_position": 23,
-		"text": "In expert mode, this card gains surge and cannot be canceled.\n<b> When Revealed: </b>Resolve the Ambush! Ability on the main scheme. If no villain was put into play this way, place 3 threat on Light at the End.",
+		"text": "In expert mode, this card gains surge and cannot be canceled.\n<b>When Revealed</b>:Resolve the Ambush! Ability on the main scheme. If no villain was put into play this way, place 3 threat on Light at the End.",
 		"type_code": "treachery"
 	},
 	{
@@ -1132,7 +1152,7 @@
 		"set_code": "venom_goblin",
 		"set_position": 1,
 		"stage": 1,
-		"text": "Steady.\nInfest the City - [star] <b>Forced Response: </b> After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Choose to either place 2 threat on that scheme or resolve its <b> Special </b> ability.",
+		"text": "Steady.\n<i>Infest the City</i> — [star] <b>Forced Response</b>: After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Choose to either place 2 threat on that scheme or resolve its \"<b>Special</b>\" ability.",
 		"traits": "Goblin. Symbiote.",
 		"type_code": "villain"
 	},
@@ -1152,7 +1172,7 @@
 		"set_code": "venom_goblin",
 		"set_position": 2,
 		"stage": 2,
-		"text": "Steady. Toughness.\n<b>When Revealed: </b> Deal 2 facedown encounter cards to each player.\nClaim the Throne - [star] <b>Forced Response: </b>After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Resolve its <b>Special</b> ability.",
+		"text": "Steady. Toughness.\n<b>When Revealed</b>: Deal 2 facedown encounter cards to each player.\n<i>Claim the Throne</i> — [star] <b>Forced Response</b>: After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Resolve its \"<b>Special</b>\" ability.",
 		"traits": "Goblin. Symbiote.",
 		"type_code": "villain"
 	},
@@ -1172,7 +1192,7 @@
 		"set_code": "venom_goblin",
 		"set_position": 3,
 		"stage": 3,
-		"text": "Retaliate 1. Stalwart. Toughness.\n<b>When Revealed: </b> Deal 3 facedown encounter cards to each player.\nReign of Terror - [star]<b>Forced Response: </b> After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Place 1 threat on that scheme and resolve its <b> Special </b> ability.",
+		"text": "Retaliate 1. Stalwart. Toughness.\n<b>When Revealed</b>: Deal 3 facedown encounter cards to each player.\n<i>Reign of Terror</i> — [star]<b>Forced Response</b>: After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Place 1 threat on that scheme and resolve its \"<b>Special</b>\" ability.",
 		"traits": "Goblin. Symbiote.",
 		"type_code": "villain"
 	},
@@ -1190,7 +1210,7 @@
 		"set_code": "venom_goblin",
 		"set_position": 4,
 		"stage": 1,
-		"text": "<b> Contents: </b> Venom Goblin (I) and Venom Goblin (II) (Venom Goblin (II) and Venom Goblin (III) for expert mode.) Venom Goblin, symbiotic strength, and standard encounter sets. One modular encounter set (Goblin Gear).\n<b>Setup: </b> Put the Lower Manhattan, Midtown Mahattan, and Upper Mahattan main schemes into play. Place the glifer counter on Midtown Manhattan. Flip this card and set it asside.",
+		"text": "<b>Contents</b>: Venom Goblin (I) and Venom Goblin (II) <i>(Venom Goblin (II) and Venom Goblin (III) for expert mode.)</i> Venom Goblin, Symbiotic Strength, and Standard encounter sets. One modular encounter set <i>(Goblin Gear)</i>.\n<b>Setup</b>: Put the Lower Manhattan, Midtown Manhattan, and Upper Manhattan main schemes into play. Place the glider counter on Midtown Manhattan. Flip this card and set it aside.",
 		"threat": null,
 		"type_code": "main_scheme"
 	},
@@ -1198,6 +1218,7 @@
 		"code": "27116b",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"hidden": true,
 		"name": "Skies Over New York",
 		"octgn_id": "1a105de2-01b9-4232-aa4c-5a84116e1cf6",
 		"pack_code": "sm",
@@ -1222,8 +1243,8 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 5,
-		"stage": 1,
-		"text": "<b>Special: </b>Place 1 threat on each scheme. If a [[symbiote]] environment is in play, place 1 additional threat on this scheme.",
+		"stage": null,
+		"text": "<b>Special</b>: Place 1 threat on each scheme. If a [[symbiote]] environment is in play, place 1 additional threat on this scheme.",
 		"threat": 11,
 		"type_code": "main_scheme"
 	},
@@ -1231,6 +1252,7 @@
 		"code": "27117b",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"hidden": true,
 		"name": "Lower Manhattan",
 		"octgn_id": "638af324-457e-450b-b6b8-44566cf9ad7e",
 		"pack_code": "sm",
@@ -1238,7 +1260,7 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 5,
-		"text": "<b> When Revealed: </b> Move the glider counter and each accerleration token from here to the main scheme with the least threat.\n<b> If there are at least 2 [[symbiote]] environments in play, the players lose the game.",
+		"text": "<b>When Revealed</b>: Move the glider counter and each acceleration token from here to the main scheme with the least threat.\n<b>If there are at least 2 [[symbiote]] environments in play, the players lose the game.</b>",
 		"traits": "Location. Symbiote.",
 		"type_code": "environment"
 	},
@@ -1256,8 +1278,8 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 6,
-		"stage": 1,
-		"text": "<b>Special: </b> Take 2 indirect damage. If a [[symbiote]] environment is in play, take 1 additional indirect damage.",
+		"stage": null,
+		"text": "<b>Special</b>: Take 2 indirect damage. If a [[symbiote]] environment is in play, take 1 additional indirect damage.",
 		"threat": 12,
 		"type_code": "main_scheme"
 	},
@@ -1265,6 +1287,7 @@
 		"code": "27118b",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"hidden": true,
 		"name": "Midtown Manhattan",
 		"octgn_id": "3f635367-a5a3-4a28-8792-67d72c0d300c",
 		"pack_code": "sm",
@@ -1272,13 +1295,14 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 6,
-		"text": "<b> When Revealed: </b> Move the glider counter and each accerleration token from here to the main scheme with the least threat.\n<b> If there are at least 2 [[symbiote]] environments in play, the players lose the game.",
+		"text": "<b>When Revealed</b>: Move the glider counter and each acceleration token from here to the main scheme with the least threat.\n<b>If there are at least 2 [[symbiote]] environments in play, the players lose the game.</b>",
 		"traits": "Location. Symbiote.",
 		"type_code": "environment"
 	},
 	{
 		"back_link": "27119b",
 		"base_threat": 0,
+		"base_threat_fixed": true,
 		"code": "27119a",
 		"double_sided": true,
 		"escalation_threat": 1,
@@ -1290,8 +1314,8 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 7,
-		"stage": 1,
-		"text": "<b>Special: </b> Discard 1 card from your hand. If a [[symbiote]] environment is in play, discard the top 4 cards of your deck.",
+		"stage": null,
+		"text": "<b>Special</b>: Discard 1 card from your hand. If a [[symbiote]] environment is in play, discard the top 4 cards of your deck.",
 		"threat": 10,
 		"type_code": "main_scheme"
 	},
@@ -1299,6 +1323,7 @@
 		"code": "27119b",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"hidden": true,
 		"name": "Upper Manhattan",
 		"octgn_id": "dce8888a-13c1-491b-8053-68aa45b3bfe9",
 		"pack_code": "sm",
@@ -1306,11 +1331,12 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 7,
-		"text": "<b> When Revealed: </b> Move the glider counter and each accerleration token from here to the main scheme with the least threat.\n<b> If there are at least 2 [[symbiote]] environments in play, the players lose the game.",
+		"text": "<b>When Revealed</b>: Move the glider counter and each acceleration token from here to the main scheme with the least threat.\n<b>If there are at least 2 [[symbiote]] environments in play, the players lose the game.</b>",
 		"traits": "Location. Symbiote.",
 		"type_code": "environment"
 	},
 	{
+		"attack": 3,
 		"boost": 3,
 		"code": "27120",
 		"faction_code": "encounter",
@@ -1319,14 +1345,15 @@
 		"pack_code": "sm",
 		"position": 120,
 		"quantity": 1,
+		"scheme": 3,
 		"set_code": "venom_goblin",
 		"set_position": 8,
-		"text": "Attach to Venom Goblin. \b <b>Hero Action: </b> Spend [energ][genius][strength] printed resources → discard this card.",
+		"text": "Attach to Venom Goblin.\n<b>Hero Action</b>: Spend [energy][mental][physical] printed resources → discard this card.",
 		"type_code": "attachment"
 	},
 	{
 		"attack": 3,
-		"boost": 0,
+		"attack_text": "While a [[symbiote]] environment is in play, Symbiotic Berserker gains quickstrike.",
 		"boost_text": "Move the glider counter to the main scheme with the most threat. Place 1 threat on that scheme.",
 		"code": "27121",
 		"faction_code": "encounter",
@@ -1339,7 +1366,6 @@
 		"scheme": 0,
 		"set_code": "venom_goblin",
 		"set_position": 9,
-		"text": "[star] While a [symbiote] environment is in play, Symbiotic Berserker gains quickstrike.",
 		"traits": "Symbiote.",
 		"type_code": "minion"
 	},
@@ -1364,7 +1390,6 @@
 	},
 	{
 		"attack": 2,
-		"boost": 0,
 		"boost_text": "Place 1 threat on each main scheme without the glider counter.",
 		"code": "27123",
 		"faction_code": "encounter",
@@ -1382,9 +1407,9 @@
 		"type_code": "minion"
 	},
 	{
-		"base_threat": null,
-		"base_threat_fixed": 5,
-		"boost": 0,
+		"base_threat": 5,
+		"base_threat_fixed": true,
+		"boost_text": "Reveal this card.",
 		"code": "27124",
 		"faction_code": "encounter",
 		"name": "Festering Mass",
@@ -1393,14 +1418,14 @@
 		"position": 124,
 		"quantity": 1,
 		"scheme_acceleration": 1,
-		"scheme_text": "While there are no other [[symbiote]] environments in play, this card is considered a [[symbiote]] environment.",
 		"set_code": "venom_goblin",
 		"set_position": 16,
+		"text": "While there are no other [[symbiote]] environments in play, this card is considered a [[symbiote]] environment.",
 		"type_code": "side_scheme"
 	},
 	{
 		"base_threat": 2,
-		"base_threat_fixed": 2,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "27125",
 		"faction_code": "encounter",
@@ -1410,14 +1435,13 @@
 		"position": 125,
 		"quantity": 1,
 		"scheme_hazard": 1,
-		"scheme_text": "Hinder 2[per_hero].\n<b> When Revealed: </b> Move the glider token to the main scheme with the most threat. Resolve thats schemes <b>Special</b> ability.",
 		"set_code": "venom_goblin",
 		"set_position": 17,
+		"text": "Hinder 2[per_hero].\n<b>When Revealed</b>: Move the glider token to the main scheme with the most threat. Resolve that scheme's \"<b>Special</b>\" ability.",
 		"type_code": "side_scheme"
 	},
 	{
-		"boost": 0,
-		"boost_text": "Resolve the <b>Special</b> ability of the scheme with the glider counter.",
+		"boost_text": "Resolve the \"<b>Special</b>\" ability of the scheme with the glider counter.",
 		"code": "27126",
 		"faction_code": "encounter",
 		"name": "Spreading Panic",
@@ -1427,12 +1451,12 @@
 		"quantity": 2,
 		"set_code": "venom_goblin",
 		"set_position": 18,
-		"text": "Surge.\n<b>When Revealed: </b> Resolve the <b>Special</b> ability of the scheme with the glider counter.",
+		"text": "Surge.\n<b>When Revealed</b>: Resolve the \"<b>Special</b>\" ability of the scheme with the glider counter.",
 		"type_code": "treachery"
 	},
 	{
-		"base_threat": null,
-		"base_threat_fixed": 5,
+		"base_threat": 5,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "27127",
 		"faction_code": "encounter",
@@ -1442,9 +1466,9 @@
 		"position": 127,
 		"quantity": 1,
 		"scheme_acceleration": 1,
-		"scheme_text": "Treat the printed text box of each [[location]] support and each [[persona]] support as if it were blank (except for [[traits]])",
 		"set_code": "city_in_chaos",
 		"set_position": 1,
+		"text": "Treat the printed text box of each [[location]] support and each [[persona]] support as if it were blank <i>(except for [[traits]])</i>.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1478,7 +1502,7 @@
 		"quantity": 1,
 		"set_code": "city_in_chaos",
 		"set_position": 3,
-		"text": "<b> When Revealed: </b> Rhino schemes with +2 SCH. If Rhino is not in play, search the encounter deck and discard pile for the Rhino minion and put him into play engaged with you. (shuffle.)",
+		"text": "<b>When Revealed</b>: Rhino schemes with +2 SCH. If Rhino is not in play, search the encounter deck and discard pile for the Rhino minion and put him into play engaged with you. (shuffle.)",
 		"type_code": "treachery"
 	},
 	{
@@ -1538,9 +1562,9 @@
 		"position": 133,
 		"quantity": 1,
 		"scheme_acceleration": 1,
-		"scheme_text": "You cannot thwart this scheme.\n<b> Alter-Ego Action: </b> Spend 2 resources of any type → remove threat from this scheme equal to your alter-ego's REC. If your identity has the [[civilian]] trait, draw 1 card.",
 		"set_code": "down_to_earth",
 		"set_position": 5,
+		"text": "You cannot thwart this scheme.\n<b>Alter-Ego Action</b>: Spend 2 resources of any type → remove threat from this scheme equal to your alter-ego's REC. If your identity has the [[civilian]] trait, draw 1 card.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1553,7 +1577,7 @@
 		"quantity": 1,
 		"set_code": "down_to_earth",
 		"set_position": 6,
-		"text": "<b> When Revealed: </b> You may change form. If you are in hero form, place 2 threat on the main scheme. If you are alter-ego form, you cannot change form during your next turn.",
+		"text": "<b>When Revealed</b>: You may change form. If you are in hero form, place 2 threat on the main scheme. If you are alter-ego form, you cannot change form during your next turn.",
 		"type_code": "treachery"
 	},
 	{
@@ -1566,7 +1590,7 @@
 		"quantity": 1,
 		"set_code": "down_to_earth",
 		"set_position": 7,
-		"text": "<b> When Revealed: </b> Search the encounter deck, discard pile, set-aside area, and removed-from-game area for a copy of your obligation, then reveal it. During that reveal, if you change to alter-ego form, discard 1 random card from your hand. If your obligation was not revealed this way, this card gains surge.",
+		"text": "<b>When Revealed</b>: Search the encounter deck, discard pile, set-aside area, and removed-from-game area for a copy of your obligation, then reveal it. During that reveal, if you change to alter-ego form, discard 1 random card from your hand. If your obligation was not revealed this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
@@ -1630,8 +1654,8 @@
 		"type_code": "attachment"
 	},
 	{
-		"base_threat": null,
-		"base_threat_fixed": 5,
+		"base_threat": 5,
+		"base_threat_fixed": true,
 		"boost": 3,
 		"code": "27140",
 		"faction_code": "encounter",
@@ -1641,13 +1665,12 @@
 		"position": 140,
 		"quantity": 1,
 		"scheme_hazard": 1,
-		"scheme_text": "Each [[Tech]] attachment gains surge.",
 		"set_code": "goblin_gear",
 		"set_position": 5,
+		"text": "Each [[Tech]] attachment gains surge.",
 		"type_code": "side_scheme"
 	},
 	{
-		"boost": 0,
 		"boost_text": "Give the villain 2 additional boost cards for this activation.",
 		"code": "27141",
 		"faction_code": "encounter",
@@ -1658,12 +1681,11 @@
 		"quantity": 1,
 		"set_code": "goblin_gear",
 		"set_position": 6,
-		"text": "<b> When Revealed: </b> If Advaned Glider is in play, the villain activates against you. If it is not in play, search the encounter deck and discard pile for Advance Glider and reveal it.",
+		"text": "<b>When Revealed</b>: If Advaned Glider is in play, the villain activates against you. If it is not in play, search the encounter deck and discard pile for Advance Glider and reveal it.",
 		"type_code": "treachery"
 	},
 	{
 		"attack": 0,
-		"boost": 0,
 		"boost_text": "Put this minion into play engaged with you.",
 		"code": "27142",
 		"faction_code": "encounter",
@@ -1680,8 +1702,8 @@
 		"type_code": "minion"
 	},
 	{
-		"base_threat": null,
-		"base_threat_fixed": 6,
+		"base_threat": 6,
+		"base_threat_fixed": true,
 		"boost": 1,
 		"boost_text": "Place 1 threat on each scheme. (In expert mode, place 1 additional threat on the main scheme.)",
 		"code": "27143",
@@ -1691,16 +1713,16 @@
 		"pack_code": "sm",
 		"position": 143,
 		"quantity": 1,
-		"scheme_text": "Each enemy gains 1 acceleration icon.",
 		"set_code": "guerrilla_tactics",
 		"set_position": 3,
+		"text": "Each enemy gains 1 acceleration icon.",
 		"type_code": "side_scheme"
 	},
 	{
-		"base_threat": null,
-		"base_threat_fixed": 4,
+		"base_threat": 4,
+		"base_threat_fixed": true,
 		"boost": 1,
-		"boost_text": "Deal 1 idirect damage to each player. (In expert mode, deal 1 addition indirect damage to the first player.)",
+		"boost_text": "Deal 1 indirect damage to each player. (In expert mode, deal 1 addition indirect damage to the first player.)",
 		"code": "27144",
 		"faction_code": "encounter",
 		"name": "Hidden in Shadow",
@@ -1708,15 +1730,15 @@
 		"pack_code": "sm",
 		"position": 144,
 		"quantity": 1,
-		"scheme_text": "Each enemy gains 1 hazard icon.",
 		"set_code": "guerrilla_tactics",
 		"set_position": 4,
+		"text": "Each enemy gains 1 hazard icon.",
 		"type_code": "side_scheme"
 	},
 	{
-		"base_threat": null,
-		"base_threat_fixed": 5,
-		"boost": 1,
+		"base_threat": 5,
+		"base_threat_fixed": true,
+		"boost": 2,
 		"boost_text": "In expert mode, this card gets +2 boost icons [boost][boost] for this activation.",
 		"code": "27145",
 		"faction_code": "encounter",
@@ -1725,9 +1747,9 @@
 		"pack_code": "sm",
 		"position": 145,
 		"quantity": 1,
-		"scheme_text": "Each enemy gets +1 SCH and +1 ATK.",
 		"set_code": "guerrilla_tactics",
 		"set_position": 5,
+		"text": "Each enemy gets +1 SCH and +1 ATK.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1740,7 +1762,7 @@
 		"quantity": 2,
 		"set_code": "guerrilla_tactics",
 		"set_position": 6,
-		"text": "In expert mode, this card gains surge.\n<b> When Revealed: </b> Place 1 threat on the main scheme for each enemy in play.",
+		"text": "In expert mode, this card gains surge.\n<b>When Revealed</b>: Place 1 threat on the main scheme for each enemy in play.",
 		"type_code": "treachery"
 	},
 	{
@@ -1880,14 +1902,14 @@
 		"scheme_acceleration": 1,
 		"scheme_crisis": 1,
 		"scheme_hazard": 1,
-		"scheme_text": "Victory  1. (When defeated, add this card to the victory display.)\nEach identity gets +2 hand size.",
 		"set_code": "personal_nightmare",
 		"set_position": 4,
+		"text": "Victory  1. <i>(When defeated, add this card to the victory display.)</i>\nEach identity gets +2 hand size.",
 		"type_code": "side_scheme"
 	},
 	{
-		"base_threat": null,
-		"base_threat_fixed": 1,
+		"base_threat": 1,
+		"base_threat_fixed": true,
 		"boost": 2,
 		"code": "27156",
 		"faction_code": "encounter",
@@ -1897,9 +1919,9 @@
 		"position": 156,
 		"quantity": 1,
 		"scheme_hazard": 1,
-		"scheme_text": "<b> When Revealed: </b> Place 1 additional threat here for each card in your hand.",
 		"set_code": "personal_nightmare",
 		"set_position": 5,
+		"text": "<b>When Revealed</b>: Place 1 additional threat here for each card in your hand.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1912,7 +1934,7 @@
 		"quantity": 2,
 		"set_code": "personal_nightmare",
 		"set_position": 6,
-		"text": "Peril. (While you are resolving this card, other players cannot help you.)\n<b>When Revealed: </b> Discard cards from the top of your deck equal to the number of cards in your hand. If at least 1 identity-specific card was discarded this way, place 1 threat on the main scheme. If not identity-specific card was discarded this way, take 1 damage.",
+		"text": "Peril. (While you are resolving this card, other players cannot help you.)\n<b>When Revealed</b>: Discard cards from the top of your deck equal to the number of cards in your hand. If at least 1 identity-specific card was discarded this way, place 1 threat on the main scheme. If not identity-specific card was discarded this way, take 1 damage.",
 		"type_code": "treachery"
 	},
 	{
@@ -1947,7 +1969,7 @@
 		"scheme": 2,
 		"set_code": "sinister_assault",
 		"set_position": 2,
-		"text": "Retaliate 1. Villainous.\n<b>Forced Response: </b> After Electro engages you or activates against you, discard cards from the top of your deck until you discard a [energy] or [wild] resource.",
+		"text": "Retaliate 1. Villainous.\n<b>Forced Response</b>: After Electro engages you or activates against you, discard cards from the top of your deck until you discard a [energy] or [wild] resource.",
 		"traits": "Criminal. Elite.",
 		"type_code": "minion"
 	},
@@ -1965,7 +1987,7 @@
 		"scheme": 1,
 		"set_code": "sinister_assault",
 		"set_position": 3,
-		"text": "Patrol. Villainous.\n[star] <b>Forced Response: </b> After Hobgolbin attacks you, take 2 indirect damage.",
+		"text": "Patrol. Villainous.\n[star] <b>Forced Response</b>: After Hobgolbin attacks you, take 2 indirect damage.",
 		"traits": "Aerial. Elite.",
 		"type_code": "minion"
 	},
@@ -1983,7 +2005,7 @@
 		"scheme": 1,
 		"set_code": "sinister_assault",
 		"set_position": 4,
-		"text": "Steady. Villainous.\n[star] <b>Forced Response: </b> After Kraven the Hunter attacks and damges a character you control, discard 1 upgrade or support you control.",
+		"text": "Steady. Villainous.\n[star] <b>Forced Response</b>: After Kraven the Hunter attacks and damges a character you control, discard 1 upgrade or support you control.",
 		"traits": "Elite.",
 		"type_code": "minion"
 	},
@@ -2001,7 +2023,7 @@
 		"scheme": 1,
 		"set_code": "sinister_assault",
 		"set_position": 5,
-		"text": "Toughness. Villainous.\n[star] <b>Forced Response: </b> After Scorpion attacks and damges a character, stun that character. If it is already stunned, deal 2 damage to it.",
+		"text": "Toughness. Villainous.\n[star] <b>Forced Response</b>: After Scorpion attacks and damges a character, stun that character. If it is already stunned, deal 2 damage to it.",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
@@ -2019,7 +2041,7 @@
 		"scheme": 1,
 		"set_code": "sinister_assault",
 		"set_position": 6,
-		"text": "Quickstrike. Villainous.\n[star] <b>Forced Response: </b> After Vulture activates against you, discard 1 random card from your hand.",
+		"text": "Quickstrike. Villainous.\n[star] <b>Forced Response</b>: After Vulture activates against you, discard 1 random card from your hand.",
 		"traits": "Aerial. Elite.",
 		"type_code": "minion"
 	},
@@ -2049,12 +2071,11 @@
 		"quantity": 1,
 		"set_code": "symbiotic_strength",
 		"set_position": 2,
-		"text": "Attach to the villain.\n<b>Forced Response: </b> After attached villain takes any amount of damage from an attack, give attached villain 1 facedown boost card. If that attack dealt 3 or more damage to attached villain, discard this card.",
+		"text": "Attach to the villain.\n<b>Forced Response</b>: After attached villain takes any amount of damage from an attack, give attached villain 1 facedown boost card. If that attack dealt 3 or more damage to attached villain, discard this card.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
 	{
-		"boost": 0,
 		"boost_text": "You are stunned. If you are already stunned, take 2 damage.",
 		"code": "27166",
 		"faction_code": "encounter",
@@ -2071,7 +2092,6 @@
 	},
 	{
 		"attack": 2,
-		"boost": 0,
 		"boost_text": "Put enraged Symbiote into play engaged with you.",
 		"code": "27167",
 		"faction_code": "encounter",
@@ -2103,7 +2123,6 @@
 		"type_code": "treachery"
 	},
 	{
-		"boost": 0,
 		"boost_text": "If this activation is an attack, this card gets +2 boost icons ([boost][boost]) for this attack and this attack gains overkill.",
 		"code": "27169",
 		"faction_code": "encounter",
@@ -2114,7 +2133,7 @@
 		"quantity": 1,
 		"set_code": "symbiotic_strength",
 		"set_position": 9,
-		"text": "Surge.\n<b> When Revealed: </b> Give the villain 1 facedown boost card.",
+		"text": "Surge.\n<b>When Revealed</b>: Give the villain 1 facedown boost card.",
 		"type_code": "treachery"
 	},
 	{
@@ -2144,7 +2163,7 @@
 		"quantity": 1,
 		"set_code": "whispers_of_paranoia",
 		"set_position": 3,
-		"text": "Treat attached ally as a minion with a blank text box (except for [[traits]]). Attach minion's SCH is equal to its printed THW and it does not take consequential damage.\n<b>When Revealed: </b> Attach to the ally you control with the lowest cost. If you cannot, this card gains surge.",
+		"text": "Treat attached ally as a minion with a blank text box (except for [[traits]]). Attach minion's SCH is equal to its printed THW and it does not take consequential damage.\n<b>When Revealed</b>: Attach to the ally you control with the lowest cost. If you cannot, this card gains surge.",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},
@@ -2160,13 +2179,13 @@
 		"quantity": 1,
 		"set_code": "whispers_of_paranoia",
 		"set_position": 4,
-		"text": "Attached minion gets +1 hit point.\n<b> When Revealed: </b> Search the encounter deck, discard pile, and set-aside area for your nemesis minion, then reveal that minion. Attach old Grudge to it (Shuffle.)",
+		"text": "Attached minion gets +1 hit point.\n<b>When Revealed</b>: Search the encounter deck, discard pile, and set-aside area for your nemesis minion, then reveal that minion. Attach old Grudge to it (Shuffle.)",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},
 	{
-		"base_threat": null,
-		"base_threat_fixed": 1,
+		"base_threat": 1,
+		"base_threat_fixed": true,
 		"boost": 3,
 		"code": "27173",
 		"faction_code": "encounter",
@@ -2176,9 +2195,9 @@
 		"position": 173,
 		"quantity": 1,
 		"scheme_boost": 1,
-		"scheme_text": "<b>When Revealed: </b> Search the encounter deck, discard pile, set-aside aread for your nemesis side scheme, then reveal it. Place X additional threat here, where X is requal to the amount of threat on that side scheme.",
 		"set_code": "whispers_of_paranoia",
 		"set_position": 5,
+		"text": "<b>When Revealed</b>: Search the encounter deck, discard pile, and set-aside area for your nemesis side scheme, then reveal it. Place X additional threat here, where X is equal to the amount of threat on that side scheme.",
 		"type_code": "side_scheme"
 	}
 ]
