@@ -261,6 +261,7 @@
 	},
 	{
 		"attack": 3,
+		"attack_cost": 2,
 		"code": "25013",
 		"cost": 3,
 		"deck_limit": 1,
@@ -276,11 +277,13 @@
 		"subname": "Odinson",
 		"text": "Toughness.\n<b>Interrupt</b>: When Thor attacks a minion engaged with a player, spend a [energy] resource → resolve this attack against each minion engaged with that player (in the order of your choice).",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "Asgard. Avenger.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 2,
+		"attack_cost": 1,
 		"code": "25014",
 		"cost": 2,
 		"deck_limit": 1,
@@ -297,6 +300,7 @@
 		"subname": "Puddlegulp",
 		"text": "<b>Response</b>: After Throg enters play, give him a tough status card if you are engaged with a minion.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "Asgard. Guardian.",
 		"type_code": "ally"
 	},
@@ -334,6 +338,7 @@
 		"quantity": 3,
 		"resource_physical": 1,
 		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal damage to an enemy equal to your ATK.",
+		"traits": "Attack.",
 		"type_code": "event"
 	},
 	{
@@ -365,6 +370,7 @@
 		"quantity": 3,
 		"resource_physical": 1,
 		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When your hero defends against an attack, use its ATK instead of its DEF for this attack.",
+		"traits": "Defense.",
 		"type_code": "event"
 	},
 	{

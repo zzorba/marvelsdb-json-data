@@ -6,7 +6,7 @@
 		"defense": 2,
 		"double_sided": true,
 		"faction_code": "hero",
-		"hand_size": "5",
+		"hand_size": 5,
 		"health": 10,
 		"illustrator": "Joey Vazquez",
 		"is_unique": true,
@@ -34,7 +34,7 @@
 		"code": "35001b",
 		"double_sided": true,
 		"faction_code": "hero",
-		"hand_size": "6",
+		"hand_size": 6,
 		"health": 10,
 		"hidden": true,
 		"illustrator": "Joey Vazquez",
@@ -71,6 +71,7 @@
 	},
 	{
 		"attack": 1,
+		"attack_cost": 1,
 		"code": "35003",
 		"cost": 2,
 		"deck_limit": 1,
@@ -89,6 +90,7 @@
 		"subname": "Jubilation Lee",
 		"text": "<b>Response</b>: After Jubilee enters play, choose an enemy. Until the end of the phase, while Wolverine or Jubilee is making a basic attack against that enemy, they get +2 ATK for that attack.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	},
@@ -252,6 +254,7 @@
 	},
 	{
 		"attack": 1,
+		"attack_cost": 1,
 		"code": "35013",
 		"cost": 4,
 		"deck_limit": 1,
@@ -267,11 +270,13 @@
 		"subname": "Betsy Braddock",
 		"text": "Psylocke enters play with 2 psionic counters on her.\n[star] <b>Interrupt</b>: When Psylocke attacks an enemy, remove 1 psionic counter from her → confuse that enemy and deal 1 damage to it.",
 		"thwart": 2,
+		"thwart_cost": 1,
 		"traits": "Psionic. X-Men.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 2,
+		"attack_cost": 1,
 		"code": "35014",
 		"cost": 2,
 		"deck_limit": 1,
@@ -287,6 +292,7 @@
 		"subname": "Shiro Yoshida",
 		"text": "<b>Response</b>: After you play Sunfire from your hand, spend a [energy] resource → choose an attachment with the text \"<b>Hero Action</b>\" or \"<b>Hero Response</b>\" and discard it.",
 		"thwart": 1,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	},
@@ -454,6 +460,7 @@
 	},
 	{
 		"attack": 2,
+		"attack_cost": 1,
 		"code": "35033",
 		"cost": 4,
 		"deck_limit": 1,
@@ -468,6 +475,7 @@
 		"resource_mental": 1,
 		"text": "Play only if your identity has the [[X-MEN]] trait.\n[star] <b>Response</b>: After Longshot attacks a non-[[ELITE]] minion, discard the top card of the encounter deck. If that card has a star icon ([star]) in the boost area, defeat the attacked minion.",
 		"thwart": 2,
+		"thwart_cost": 1,
 		"traits": "X-Men.",
 		"type_code": "ally"
 	}
