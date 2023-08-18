@@ -1,7 +1,7 @@
 import json
 import uuid
 
-runFile = 'next_evol_encounter.json'
+runFile = 'next_evol.json'
 pack_code = 'next_evol'
 
 with open('./packs.json') as json_file:
