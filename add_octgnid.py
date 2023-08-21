@@ -1,8 +1,8 @@
 import json
 import uuid
 
-runFile = 'rogue.json'
-pack_code = 'rogue'
+runFile = 'next_evol.json'
+pack_code = 'next_evol'
 
 with open('./packs.json') as json_file:
     pack_data = json.load(json_file)
