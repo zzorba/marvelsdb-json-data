@@ -79,6 +79,7 @@ To check and apply formatting to JSON files:
   ]
   ```
 * **defense** - Character's defense value
+* **defense_text** - Ability text associated with the character's defense  
 * **double_sided** - Whether the card is a double sided card
 * **duplicate_of** - A link to the original card code for duplicate cards in other packs
 * **escalation_threat** - The acceleration threat to apply to main/side schemes. By default, it is per hero. Possible values:
