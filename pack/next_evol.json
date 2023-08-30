@@ -170,7 +170,7 @@
         "deck_limit": 1,
         "faction_code": "hero",
         "flavor": "\"I'm sorry, Wade. I'm afraid I can't do that.\"",
-        "illustrator": "Arlo Murti & Indra Setlawan",
+        "illustrator": "Ario Murti & Indra Setlawan",
         "is_unique": true,
         "name": "Professor",
         "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040008",
@@ -1203,5 +1203,26 @@
         "set_position": 11,
         "text": "<b>Alter-Ego Action</b>: Choose:\n\u2022 Heal 2 damage from your identity\n\u2022 Draw 1 card.\nAny player may trigger this ability. (Limit once per round per player.)",
         "type_code": "support"
+    },
+    {
+        "attack": 2,
+        "attack_cost": 1,
+        "code": "40204",
+        "cost": 4,
+        "deck_limit": 1,
+        "faction_code": "basic",
+        "health": 3,
+        "is_unique": true,
+        "name": "Hope Summers",
+        "octgn_id": "104e1218-df9b-43f7-93e0-ca2ef9040204",
+        "pack_code": "next_evol",
+        "position": 204,
+        "quantity": 1,
+        "resource_mental": 1,
+        "text": "Hope Summers gains each [[TRAIT]] on your identity.\n<b>Response</b>: After you play Hope Summers from your hand, search your deck for a [[SUPERPOWER]] card and add it to your hand. <i>(Shuffle.)</i>",
+        "thwart": 2,
+        "thwart_cost": 1,
+        "traits": "X-Force.",
+        "type_code": "ally"
     }
 ]
