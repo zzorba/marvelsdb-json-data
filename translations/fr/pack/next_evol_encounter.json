@@ -1,0 +1,958 @@
+[	
+	{
+		"code": "40031",
+		"name": "Résurgence du Technovirus",
+		"text": "<b><i>Donnez cette carte au joueur de Nathan Summers.</b></i>\n<b>Une fois révélée</b> : cherchez Purge du Technovirus dans votre deck, votre pile de défausse, votre main ou la pile de victoire et mettez-la en jeu. <i>(Mélangez.)</i> Attachez cette obligation à Purge du Technovirus. Si vous ne pouvez pas, défaussez cette obligation et attribuez-vous 1 carte Rencontre face cachée."
+	},
+	{
+		"code": "40032",
+		"flavor": "\"Qu'importe qui est le clone, Cable. Mon pouvoir est le plus puissant !\"",
+		"name": "Stryfe",
+		"text": "Vilenie.\n<b>Interruption forcée</b> : quand un joueur joue un événement [[PSIONIQUE]], annulez les effets de cet événement et infligez 1 dégât à Stryfe.",
+		"traits": "Front de Libération des Mutants. Psionique."
+	},
+	{
+		"code": "40033",
+		"name": "Retour Vers le Futur",
+		"text": "Le joueur de Cable ne peut pas retirer les menaces qui sont sur des manigances autres que Retour vers le Futur. Les autres joueurs ne peuvent pas retirer les menaces qui sont sur Retour Vers le Futur.\nLe joueur de Cable ne peut pas blesser des ennemis qui ne sont pas engagés avec lui. Les autres joueurs ne peuvent pas blesser des sbires engagés avec le joueur de Cable."
+	},
+	{
+		"boost_text": "attachez cette carte à l'ennemi actif.",
+		"code": "40034",
+		"name": "Champ de Force Télékinétique",
+		"text": "Attachez cette carte à Stryfe. Sinon, attachez-la au méchant.\n<b>Interruption forcée</b> : quand le personnage attaché est censé subir n'importe quelle quantité de dégâts, prévenez ces dégâts. Si au moins 2 dégâts ont été prévenus par cet effet, défaussez cet attachement.",
+		"traits": "Psionique."
+	},
+	{
+		"boost_text": "vous êtes désorienté.",
+		"code": "40035",
+		"name": "Sonder l'Esprit",
+		"text": "<b>Une fois révélée</b> : placez 2 menaces sur la manigance principale. Placez 1 menace supplémentaire sur la manigance principale pour chaque manigance annexe dans la pile de victoire.",
+		"traits": "Psionique."
+	},
+	{
+		"boost_text": "vous êtes sonné.",
+		"code": "40036",
+		"name": "Décharge Télékinétique",
+		"text": "<b>Une fois révélée</b> : subissez 2 dégâts. Subissez 1 dégât supplémentaire pour chaque manigance annexe dans la pile de victoire.",
+		"traits": "Psionique."
+	},
+	{
+		"code": "40065",
+		"flavor": "Lorsqu'elle était enfant, Neena a servi de cobaye dans un programme connu sous le nom Projet Armageddon, visant à créer des super-soldats.",
+		"name": "Souvenirs de l'Armageddon",
+		"text": "<b><i>Donnez cette carte au joueur de Neena Thurman.</b></i>\nVotre identité perd le texte imprimé dans sa boîte de texte <i>(sauf les [[TRAITS]])</i>.\n<b>Action d'alter ego</b> : inclinez votre identité → défaussez Souvenirs de l'Armageddon."
+	},
+	{
+		"code": "40066",
+		"flavor": "Topaz est capable d'affecter les capacités des autres mutants. Elle peut soit les amplifier, soit les annuler.",
+		"name": "Topaz",
+		"text": "<b>Une fois révélée</b> : cherchez 1 exemplaire de Super Retour de Flamme dans le deck Rencontre, la pile de défausse Rencontre et la zone \"mise de côté\", et attachez-le à votre identité. <i>(Mélangez.)</i>\n<i>(Sbire némésis de Domino.)</i>",
+		"traits": "Mutant."
+	},
+	{
+		"code": "40067",
+		"flavor": "Domino passe une journée déplaisante. Pas cool. Pas sympa. Et même, très mauvaise.",
+		"name": "Pas Mon Jour de Chance",
+		"text": "<b>Une fois révélée</b> : chaque joueur doit soit subir 1 dégât, soit placer 2 menaces sur cette manigance annexe."
+	},
+	{
+		"code": "40068",
+		"flavor": "La chance de Domino fait le malheur de Prototype. Et lorsqu'elle souffre, lui se renforce.",
+		"health_text": "Prototype gagne +1 point de vie pour chaque jeton Chance sur lui.",
+		"name": "Prototype",
+		"text": "<b>Une fois révélée</b> : placez sur Prototype une nombre de jetons Chance égal à la quantité de dégâts que votre identité a subie.",
+		"traits":"Mutant."
+	},
+	{
+		"code": "40069",
+		"name": "Super Retour de Flamme",
+		"text": "Attachez cette carte à votre identité.\n<b>Réponse forcée</b> : après avoir résolu une capacité de votre identité ou d'une carte spécifique à votre identité, subissez 1 dégât.\n<b>Action d'alter ego</b> : défaussez de votre main 1 carte spécifique à votre identité → défaussez cette carte.",
+		"traits": "Condition."
+	},
+	{
+		"code": "40070a",
+		"attack_text": "<b>Interruption forcée</b> : quand Arclight vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Désorientez un personnage que vous contrôlez.\n- Arclight gagne +2 ATQ pour cette attaque.",
+		"name": "Arclight",
+		"traits": "Brute. Maraudeur."
+	},
+	{
+		"code": "40070b",
+		"attack_text": "<b>Interruption forcée</b> : quand Arclight vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Désorientez le personnage que vous contrôlez ayant la CTR la plus élevée.\n- Arclight gagne +2 ATQ pour cette attaque.",
+		"name": "Arclight",
+		"traits": "Brute. Maraudeur."
+	},
+	{
+		"code": "40071a", 
+		"attack_text": "<b>Interruption forcée</b> : quand Le Casseur vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Donnez une carte d'état Tenace au Casseur.\n- Le Casseur gagne +2 ATQ pour cette attaque.",
+		"name": "Le Casseur",
+		"traits": "Brute. Maraudeur."
+	},
+	{
+		"code": "40071b", 
+		"attack_text": "<b>Interruption forcée</b> : quand Le Casseur vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Donnez une carte d'état Tenace au Casseur.\n- Le Casseur gagne +2 ATQ pour cette attaque et cette attaque gagne Déferlement.",
+		"name": "Le Casseur",
+		"traits": "Brute. Maraudeur."
+	},
+	{
+		"code": "40072a",
+		"attack_text": "<b>Interruption forcée</b> : quand Chimera vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Dépensez une ressource [mental].\n- Chimera gagne +2 ATQ pour cette attaque.",
+		"name": "Chimera",
+		"traits": "Maraudeur. Psionique."
+	},
+	{
+		"attack_text": "<b>Interruption forcée</b> : quand Chimera vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Dépensez les ressources suivantes : [mental][mental].\n- Chimera gagne +2 ATQ pour cette attaque.",
+		"code": "40072b",
+		"name": "Chimera",
+		"traits": "Maraudeur. Psionique."
+	},
+	{
+		"code": "40073a",
+		"attack_text": "<b>Interruption forcée</b> : quand Greycrow vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Défaussez la carte que vous contrôlez ayant le coût le plus élevé.\n- Greycrow gagne +X ATQ pour cette attaque, X étant le coût imprimé de la carte que vous contrôlez ayant le coût le plus élevé.",
+		"name": "Greycrow",
+		"traits": "Maraudeur. Mercenaire."
+	},
+	{
+		"code": "40073b",
+		"attack_text": "<b>Interruption forcée</b> : quand Greycrow vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Défaussez chaque carte que vous contrôlez ayant le coût le plus élevé.\n- Greycrow gagne +X ATQ pour cette attaque, X étant le coût imprimé de la carte que vous contrôlez ayant le coût le plus élevé.",
+		"name": "Greycrow",
+		"traits": "Maraudeur. Mercenaire."
+	},
+	{
+		"code": "40074a",
+		"attack_text": "<b>Interruption forcée</b> : quand Harpon vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Subissez 2 dégâts indirects.\n- Donnez 1 carte de boost face cachée supplémentaire à Harpon pour cette attaque.",
+		"name": "Harpon",
+		"traits": "Brute. Maraudeur."
+	},
+	{
+		"code": "40074b",
+		"attack_text": "<b>Interruption forcée</b> : quand Harpon vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Subissez 3 dégâts indirects.\n- Donnez 1 carte de boost face cachée supplémentaire à Harpon pour cette attaque. Cette attaque gagne Déferlement.",
+		"name": "Harpon",
+		"traits": "Brute. Maraudeur."
+	},
+	{
+		"code": "40075a",
+		"attack_text": "<b>Interruption forcée</b> : quand Riptide vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Placez 2 menaces sur la manigance principale et 1 menace sur chaque manigance annexe.\n- Riptide gagne +2 ATQ pour cette attaque.",
+		"name": "Riptide",
+		"traits": "Assassin. Maraudeur."
+	},
+	{
+		"code": "40075b",
+		"attack_text": "<b>Interruption forcée</b> : quand Riptide vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Placez 3 menaces sur la manigance principale et 1 menace sur chaque manigance annexe.\n- Riptide gagne +2 ATQ pour cette attaque et cette attaque gagne À Distance et Perçant.",
+		"name": "Riptide",
+		"traits": "Assassin. Maraudeur."
+	},
+	{
+		"code": "40076a",
+	    	"attack_text": "<b>Interruption forcée</b> : quand Vertigo vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Sonnez un personnage que vous contrôlez.\n- Vertigo gagne +2 ATQ pour cette attaque.",
+		"name": "Vertigo",
+		"traits": "Altéré. Maraudeur."
+	},
+	{
+		"code": "40076b",
+		"attack_text": "<b>Interruption forcée</b> : quand Vertigo vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Sonnez le personnage que vous contrôlez ayant l'ATQ la plus élevée.\n- Vertigo gagne +2 ATQ pour cette attaque.",
+		"name": "Vertigo",
+		"traits": "Altéré. Maraudeur."
+	},
+	{
+		"code": "40077a",
+		"name": "Toc, Toc, Toc",
+		"text": "<b>Contenu</b> : Les Maraudeurs, face A <i>(face B en mode expert)</i>. Les sets de rencontre Le Siège des Morlocks et Standard. Deux sets de rencontre modulaires <i>(Équipement Militaire et Tueurs de Mutants)</i>.\n<b>Mise en place</b> : mettez en jeu l'environnement Mis Hors d'État de Nuire. Mettez de côté la traîtrise Cachez-Vous! et chaque allié Morlock. Mélangez ensemble les méchants <i>(sans regarder)</i> pour créer le deck Méchant. La cartge du dessus de ce deck est en jeu."
+	},
+	{
+		"code": "40077b",
+		"name": "Toc, Toc, Toc",
+		"text": "[star] <b>Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, placez 1 jeton Coup sur cette carte. S'il y a au moins 3 jetons Coup sur cette carte, avancez au stade 2A.\n<b>S'il y a 3 méchants sous Mis Hors d'État de Nuire, les joueurs gagnent la partie.</b>"
+	},
+	{
+		"code": "40078a",
+		"name": "Massacre de Mutants",
+		"text": "<b>Une fois révélée</b> : chaque joueur met en jeu sous son contrôle 1 allié Morlock mis de côté (2 alliés Morlock à la place si la partie ne comprend qu'un seul joueur). Mélangez dans le deck Rencontre la traîtrise Cachez-Vous!. Si le stade précédent a avancé grâce à des jetons Coup, donnez une carte d'état Tenace à chaque allié Morlock."
+	},
+	{
+		"code": "40078b",
+		"name": "Massacre de Mutants",
+		"text": "<b>Action</b> : inclinez un allié [[MORLOCK]] → mélangez dans le deck Rencontre Cachez-Vous! depuis la pile de défausse Rencontre.\n<b>S'il y a 3 méchants sous Mis Hors d'État de Nuire, les joueurs gagnent la partie.\nSi ce stade est achevé ou s'il n'y a pas d'alliés Morlock en jeu, les joueurs perdent la partie.</b>"
+	},
+	{
+		"code": "40079",
+		"name": "Morlock",
+		"text": "Victoire -1.\nNe compte pas dans votre limite d'alliés. Les capacités de carte ne peuvent pas retirer cet allié du jeu.\n<b>Interruption forcée</b> : quand un ennemi vous attaque, il attaque un Morlock que vous contrôlez à la place.",
+		"traits": "Morlock. Mutant."
+	},
+	{
+		"boost_text": "donnez une carte d'état Tenace à 1 allié [[MORLOCK]]. Donnez 1 carte de boost supplémentaire au méchant pour cette activation.",
+		"code": "40080",
+		"name":  "Cachez-Vous!",
+		"text": "Renfort.\n<b>Une fois révélée</b> : donnez une carte d'état Tenace à un allié [[MORLOCK]]."
+	},
+	{
+		"code": "40081a",
+		"name": "Mis Hors d'État de Nuire",
+		"text": "<b><i>Mode Standard Uniquement.</b></i>\nLes cartes sous cet environnement ne sont pas en jeu.\n<b>Réponse forcée</b> : après que le méchant a été vaincu, placez-le sous cette carte. Défaussez chaque sbire qui partage un titre avec le méchant du dessus du deck Méchant. <i>(Ce méchant est en jeu.)</i>Le méchant s'active contre chaque joueur dans l'ordre des joueurs."
+	},
+	{
+		"code": "40081b",
+		"name": "Mis Hors d'État de Nuire",
+		"text": "<b><i>Mode Expert Uniquement.</b></i>\nLes cartes sous cet environnement ne sont pas en jeu. Le méchant gagne Riposte 1 pour chaque carte sous cet environnement.\n<b>Réponse forcée</b> : après que le méchant a été vaincu, placez-le sous cet environnement. Défaussez chaque sbire qui partage un titre avec le méchant du dessus du deck Méchant. <i>(Ce méchant est en jeu.)</i>Le méchant s'active contre chaque joueur dans l'ordre des joueurs."
+	},
+	{
+		"boost_text": "cette carte gagne +X icônes de boost ([boost]), X étant le nombre de méchants sous Mis Hors d'État de Nuire.",
+		"code": "40082",
+		"name": "Galvanisé par la Colère",
+		"text": "Attachez cette carte au méchant.\n<b>Action de héros</b> : inclinez un personnage que vous contrôlez et dépensez X ressources de n'importe quel type, X étant le nombre de méchants sous Mis Hors d'État de Nuire → défaussez cette carte.",
+		"traits": "Condition."
+	},
+	{
+		"code": "40083",
+		"name": "Poussé Dans ses Retranchements",
+		"text": "Attachez cette carte au méchant.\nTant qu'il y a exactement 1 méchant sous Mis Hors d'État de Nuire, le méchant attaché gagne Solide.\nTant qu'il y a exactement 2 méchants sous Mis Hors d'État de Nuire, le méchant attaché gagne Robuste.\n<b>Action de héros</b> : le méchant attaché vous attaque → défaussez cette carte.",
+		"traits": "Condition."
+	},
+	{
+		"code": "40084",
+		"name": "Quoi qu'il en Coûte",
+		"text": "<b>Une fois révélée</b> : placez 1[per_hero] menace supplémentaire sur cette carte pour chaque méchant sous Mis Hors d'État de Nuire."
+	},
+	{
+		"code": "40085",
+		"name": "En Plein Chaos",
+		"text": "<b>Une fois révélée</b> : placez 1[per_hero] menace supplémentaire sur cette carte pour chaque méchant sous Mis Hors d'État de Nuire."
+	},
+	{
+		"code": "40086",
+		"name": "Pas Facile de Marauder",
+		"text": "<b>Une fois révélée</b> : placez 1[per_hero] menace supplémentaire sur cette carte pour chaque méchant sous Mis Hors d'État de Nuire."
+	},
+	{
+		"code": "40087",
+		"name": "Contrôle Territorial",
+		"text": "Assaut. <i>(Les contres de base contre cette manigance utilisent l'ATQ à la place de la CTR.)</i>\n<b>Une fois révélée</b> : placez 1[per_hero] menace supplémentaire sur cette carte pour chaque méchant sous Mis Hors d'État de Nuire."
+	},
+	{
+		"code": "40088",
+		"boost_text": "si vous contrôlez un allié Morlock, choisissez : soit vous lui infligez 1 dégât, soit vous dépensez 1 ressource de n'importe quel type.",
+		"name": "De Retour au Combat",
+		"text": "<b>Une fois révélée</b> : donnez une carte d'état Tenace au méchant. Placez sur la manigance principale un nombre de menaces égal au nombre de méchants sous Mis Hors d'État de Nuire."
+	},
+	{
+		"code": "40089",
+		"boost_text": "si cette activation est une attaque, elle gagne Déferlement.",
+		"name": "Pourchasser les Faibles",
+		"text": "<b>Une fois révélée (alter ego)</b> : cette carte gagne Renfort.\n<b>Une fois révélée (héros)</b> : le méchant vous attaque. S'il y a au moins 1 méchant sous Mis Hors d'État de Nuire, cette attaque gagne Déferlement."
+	},
+	{
+		"code": "40090",
+		"name": "Lourdement Armé",
+		"text": "Attachez cette carte à l'ennemi ayant l'ATQ la plus élevée.\nL'ennemi gagne Riposte 2.\n<b>Réponse de héros</b> : après avoir attaqué l'ennemi attaché, dépensez 2 ressources du même type → défaussez cette carte.",
+		"traits": "Arme."
+	},
+	{
+		"code": "40091",
+		"name": "Exosquelette en Titane",
+		"text": "Attachez cette carte à l'ennemi ayant le moins de points de vie restants.\nL'ennemi attaché ne peut pas subir plus de 2 dégâts d'une attaque.\n<b>Action de héros</b> : choisissez : soit vous dépensez 3 ressources de n'importe quel type, soit vous retirez de l'ennemi attaché une carte d'état Désorienté ou Sonné → défaussez cette carte.",
+		"traits": "Armure. Tech."
+	},
+	{
+		"code": "40092",
+		"name": "Collier Inhibiteur",
+		"text": "Attachez cette carte à votre identité.\nVotre identité perd le texte imprimé dans sa boîte de texte <i>(sauf les [[TRAITS]])</i>.\n<b>Action</b> : choisissez : soit vous inclinez un personnage que vous contrôlez, soit vous subissez 3 dégâts → défaussez cette carte. <i>(N'importe quel joueur peut utiliser cette capacité.)</i>",
+		"traits": "Tech."
+	},
+	{
+		"code": "40093",
+		"name": "Le Soutien du Sénateur",
+		"flavor": "Ce genre de matériel ne se trouve pas au marché noir. Quelqu'un de haut placé au gouvernement américain doit être impliqué.",
+		"text": "Entrave 1[per_hero].\n<b>Une fois déjouée</b> : le premier joueur défausse des cartes du dessus du deck Rencontre jusqu'à ce qu'un attachement soit défaussé, puis il le révèle."
+	},
+	{
+		"code": "40094",
+		"attack_text": "<b>Interruption forcée</b> : quand Arclight vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Désorientez un personnage que vous contrôlez.\n- Arclight gagne +2 ATQ pour cette attaque.",
+		"name": "Arclight",
+		"text": "Riposte 1.",
+		"traits": "Brute. Maraudeur."
+	},
+	{
+		"code": "40095", 
+		"attack_text": "<b>Interruption forcée</b> : quand Le Casseur vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Donnez une carte d'état Tenace au Casseur.\n- Le Casseur gagne +2 ATQ pour cette attaque.",
+		"name": "Le Casseur",
+		"text": "Garde.",
+		"traits": "Brute. Maraudeur."
+	},
+	{
+		"code": "40096",
+		"attack_text": "<b>Interruption forcée</b> : quand Chimera vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Dépensez une ressource [mental].\n- Chimera gagne +2 ATQ pour cette attaque.",
+		"name": "Chimera",
+		"text": "Patrouille.",
+		"traits": "Maraudeur. Psionique."
+	},
+	{
+		"code": "40097",
+		"attack_text": "<b>Interruption forcée</b> : quand Greycrow vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Défaussez la carte que vous contrôlez ayant le coût le plus élevé.\n- Greycrow gagne +X ATQ pour cette attaque, X étant le coût imprimé de la carte que vous contrôlez ayant le coût le plus élevé.",
+		"name": "Greycrow",
+		"text": "Riposte 1.",
+		"traits": "Maraudeur. Mercenaire."
+	},
+	{
+		"code": "40098",
+		"attack_text": "<b>Interruption forcée</b> : quand Harpon vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Subissez 2 dégâts indirects.\n- Harpon gagne +2 ATQ pour cette attaque et cette attaque gagne Perçant.",
+		"name": "Harpon",
+		"text": "Garde.",
+		"traits": "Brute. Maraudeur."
+	},
+	{
+		"code": "40099",
+		"attack_text": "<b>Interruption forcée</b> : quand Riptide vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Placez 2 menaces sur la manigance principale et 1 menace sur chaque manigance annexe.\n- Riptide gagne +2 ATQ pour cette attaque.",
+		"name": "Riptide",
+		"text": "Patrouille.",
+		"traits": "Assassin. Maraudeur."
+	},
+	{
+		"code": "40100",
+		"attack_text": "<b>Interruption forcée</b> : quand Vertigo vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Sonnez un personnage que vous contrôlez.\n- Vertigo gagne +2 ATQ pour cette attaque.",
+		"name": "Vertigo",
+		"text": "Garde.",
+		"traits": "Altéré. Maraudeur."
+	},
+	{
+		"code": "40101",
+		"name": "Tueurs de Mutants",
+		"text": "Chaque sbire [[MARAUDER]] gagne Coup Rapide.\n<b>Une fois révélée</b> : ajoutez 1 menace supplémentaire sur cette carte pour chaque personnage en jeu ayant au moins 1 des traits suivants : [[MUTANT]], [[X-FACTOR]], [[X-FORCE]], [[X-MEN]]."
+	},
+	{
+		"code": "40102",
+		"name": "Liés par les Affaires",
+		"text": "<b>Une fois révélée</b> : défaussez des cartes du deck Rencontre jusqu'à ce qu'un sbire [[MARAUDER]] qui ne partage pas un titre avec une carte en jeu soit défaussée. Mettez en jeu ce sbire engagé avec vous."
+	},
+	{
+		"code": "40103a",
+		"name": "Il Faut s'Enfuir",
+		"text": "<b>Contenu</b> : Les Maraudeurs, face A <i>(face B en mode Expert)</i>. Les sets de rencontre En Fuite, Tueurs de Mutants et Standard. Deux sets de rencontre modulaires <i>(Équipement Militaire et Mauvais Garçons)</i>.\n<b>Mise en place</b> : mettez en jeu 1 méchant [[MARAUDER]] pris au hasard. Retirez de la partie le sbire ayant le même titre que le méchant ainsi que tous les autres méchants. Attachez l'attachement Le Ravisseur de Hope au méchant, face [[CONFIANT]] visible."
+	},
+	{
+		"code": "40103b",
+		"name": "Il Faut s'Enfuir",
+		"text": "Chaque sbire [[MARAUDER]] gagne Solide. En mode expert, le méchant gagne lui-aussi Solide.\n<b>Une fois révélée</b> : chaque joueur cherche un sbire [[MARAUDER]] dans le deck Rencontre et le met en jeu engagé avec lui. <i>(Mélangez.)</i><b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+	},
+	{
+		"code": "40104a",
+		"flavor": "Après avoir pris une bonne correction, les Marauders redoublent d'efforts pour s'échapper avec leur captive.",
+		"name": "En Fuite avec Hope",
+		"text": "<b>Une fois révélée</b> : chaque joueur cherche un sbire [[MARAUDER]] dans le deck Rencontre ou la pile de défausse Rencontre et le met en jeu engagé avec lui. <i>(Mélangez.)</i> Donnez une carte d'état Tenace à chaque ennemi [[MARAUDER]]."
+	},
+	{
+		"code": "40104b",
+		"name": "En Fuite avec Hope",
+		"text": "Chaque sbire [[MARAUDER]] gagne Garde et Solide. En mode expert, le méchant gagne Solide.\n<b>Si le méchant est vaincu, les joueurs gagnent la partie.\nSi ce stade est achevé, les joueurs perdent la partie.</b>"
+	},
+	{
+		"code": "40105a",
+		"name": "Le Ravisseur de Hope",
+		"text": "Permanent.\n[star] <b>Interruption forcée</b> : quand le méchant est censé vous attaquer, si un sbire [[MARAUDER]] est engagé avec vous, le méchant manigance à la place.\n<b>Interruption forcée</b> : quand le méchant est censé être vaincu, réinitialisez les points de vie du méchant attaché jusqu'à la valeur de ses points de vie imprimés à la place. Retournez cette carte et révélez-la.",
+		"traits": "Confiant."
+	},
+	{
+		"code": "40105b",
+		"attack_text": "<b>Interruption forcée</b> : quand le méchant est censé vous attaquer, si un sbire [[MARAUDER]] est engagé avec vous, le méchant manigance à la place.",
+		"name": "Le Ravisseur de Hope",
+		"text": "Permanent.\nLe méchant gagne +6[per_hero] points de vie.\n<b>Une fois révélée</b> : avancez la manigance principale au stade 2A. Cet effet ne peut pas être annulé.",
+	    	"traits": "Désespéré."
+	},
+	{
+		"code": "40106",
+		"name": "Caché dans les Décombres",
+		"text": "Attachez cette carte à l'ennemi ayant le moins de points de vie restants.\n<b>Interruption forcée</b> : quand n'importe quelle quantité de dégâts devrait être infligée à l'ennemi attaché, placez-les sur cette carte à la place. S'il y a au moins 3 dégâts sur cette carte, l'ennemi attaché attaque le joueur qui vient d'infliger les dégâts placés sur cette carte. Ensuite, défaussez cette carte.",
+		"traits": "Condition."
+	},
+	{
+		"code": "40107",
+		"name": "Arme Favorite",
+		"text": "Attachez cette carte à Greycrow ou Harpon. Sinon, attachez-la à l'ennemi [[MARAUDER]] ayant l'ATQ la plus faible.\n[star] Les attaques de l'ennemi attaché gagnent Déferlement, Perçant et À Distance.\n <b>Réponse de héros</b> : après que votre héros a défendu contre une attaque de l'ennemi attaché sans subir de dégâts → défaussez cette carte.",
+		"traits": "Arme."
+	},
+	{
+		"code": "40108",
+		"name": "Embuscade",
+		"text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance cherche un sbire [[MARAUDER]] dans le deck Rencontre ou la pile de défausse Rencontre et le met en jeu engagé avec lui. <i>(Mélangez.)</i>"
+	},
+	{
+		"code": "40109",
+		"name": "En Fuite",
+		"text": "Tant que Le Casseur est en jeu, cette manigance gagne l'icône de crise ([crisis]).\nTant que Chimera est en jeu, cette manigance gagne l'icône d'amplification ([Amplify])."	
+	},
+	{
+		"code": "40110",
+		"name": "Manœuvre Étourdissante",
+		"text": "<b>Une fois révélée</b> : inclinez un personnage que vous contrôlez. Si les ennemis suivants sont en jeu :\n- Arclight - Sonnez un personnage que vous contrôlez.\n- Riptide - Subissez 3 dégâts indirects.\n- Vertigo - Désorientez un personnage que vous contrôlez."
+	},
+	{
+		"code": "40111",
+		"name": "Association de Malfaiteurs",
+		"text": "<b>Une fois révélée</b> : choisissez :\n- Chaque sbire [[MARAUDER]] engagé avec vous s'active contre vous.\n- Défaussez les 7 cartes du dessus du deck Rencontre. Mettez en jeu, engagé avec vous, le sbire [[MARAUDER]] le plus proche du dessus de la pile de défausse Rencontre."	
+	},
+	{
+		"boost_text": "inclinez un personnage que vous contrôlez.",
+		"code": "40112",
+		"name": "Gorgeous George",
+		"attack_text": "<b>Interruption forcée</b> : quand Gorgeous George vous attaque, inclinez un personnage que vous contrôlez.",
+		"text": "Collaboration ([[MAUVAIS GARÇON]]).",
+		"traits": "Mauvais Garçon."
+	},
+	{
+		"boost_text": "après cette activation, mélangez Hairbag dans le deck Rencontre.",
+		"code": "40113",
+		"name": "Hairbag",
+		"text": "Renfort. Collaboration ([[MAUVAIS GARÇON]]).",
+		"traits": "Mauvais Garçon."
+	},
+	{
+		"boost_text": "si le méchant est en train d'attaquer, cette attaque gagne Perçant.",
+		"code": "40114",
+		"name": "Ramrod",
+		"attack_text": "Les attaques de Ramrod gagnent Perçant.",
+		"text": "Riposte 1. Collaboration ([[MAUVAIS GARÇON]]).",
+		"traits": "Mauvais Garçon."
+	},
+	{
+		"boost_text": "vous êtes sonné.",
+		"code": "40115",
+		"name": "Ruckus",
+		"text": "Collaboration ([[MAUVAIS GARÇON]]).\n<b>Une fois révélée</b> : sonnez chaque personnage que vous contrôlez.",
+		"traits": "Mauvais Garçon."
+	},
+	{
+		"boost_text": "vous êtes sonné.",
+		"code": "40116",
+		"name": "Slab",
+		"attack_text": "<b>Interruption forcée</b> : quans Slab attaque, placez sur lui 1 jeton Croissance. Slab gagne +1 ATQ pour chaque jeton Croissance sur lui pour cette attaque.",
+		"text": "Collaboration ([[MAUVAIS GARÇON]]). Ténacité.",
+		"traits": "Mauvais Garçon."
+	},
+	{
+		"code": "40117",
+		"name": "De Plus en Plus Méchants",
+		"text": "Chaque sbire gagne +1 ATQ.\n<b>Une fois révélée</b> : placez 1 menace sur cette carte pour chaque sbire en jeu (2 menaces pour chaque [[MAUVAIS GARÇON]]). Cherchez un sbire [[MAUVAIS GARÇON]] dans le deck Rencontre ou la pile de défausse Rencontre et révélez-le. <i>(Mélangez.)</i>"
+	},
+	{
+		"code": "40118",
+		"attack_text": "Le Fléau gagne +1 ATQ pour chaque jeton Inertie.",
+		"flavor": "\"Personne - mais personne - ne peut me vaincre !\"",
+		"name": "Le Fléau",
+		"text": "<b>Une fois révélée</b> : placez 1 jeton Inertie sur cette carte. Donnez une carte d'état Tenace au Fléau.",
+		"traits": "Brute."
+	},
+	{
+		"code": "40119",
+		"attack_text": "Le Fléau gagne +1 ATQ pour chaque jeton Inertie.",
+		"name": "Le Fléau",
+		"text": "<b>Une fois révélée</b> : placez 1 jeton Inertie sur cette carte. Si Le Fléau Sans Protection est en jeu, retournez-la. Sinon, donnez une carte d'état Tenace au Fléau.",
+		"traits": "Brute."
+	},
+	{
+		"code": "40120",
+		"attack_text": "Le Fléau gagne +1 ATQ pour chaque jeton Inertie.",
+		"name": "Le Fléau",
+		"text": "<b>Une fois révélée</b> : cherchez Force d'Inertie dans le deck Rencontre ou la pile de défausse Rencontre et révélez-la. <i>(Mélangez.)</i> Si Le Fléau Sans Protection est en jeu, retournez-la. Sinon, donnez une carte d'état Tenace au Fléau.",
+		"traits": "Brute."
+	},
+	{
+		"code": "40121a",
+		"name": "L'Inarrêtable Fléau",
+		"text": "<b>Contenu</b> : Le Fléau (I) et Le Fléau (II) <i>(Le Fléau (II) et Le Fléau (III) à la place en mode expert)</i>. Les sets de rencontre Le Fléau, Hope Summers et Standard. Un set de rencontre modulaire <i>(Black Tom Cassidy)</i>.\n<b>Mise en place</b> : attachez le Casque du Fléau. Mettez en Jeu Hope Summers sous le contrôle du premier joueur."
+	},
+	{
+		"code": "40121b",
+		"name": "L'Inarrêtable Fléau",
+		"text": "<b>Interruption forcée</b> : quand cette manigance est censée être achevée, résolvez chacun des effets suivants à place :\n1. Retirez toutes les menaces de cette manigance.\n2. Si Le Fléau Sans Protection est en jeu, retournez-la.\n3. Placez un jeton Inertie sur Le Fléau.\n4. Le Fléau attaque chaque joueur dans l'ordre des joueurs <i>(même s'ils sont sous forme d'alter ego)</i>."
+	},
+	{
+		"code": "40122a",
+		"name": "Le Casque du Fléau",
+		"text": "Permanent. Attachez cette carte au Fléau.\nLe Fléau gagne Robuste et son attaque gagne Déferlement.\n<b>Action de héros</b> : dépensez 3 ressources du même type → retirez chaque jeton Inertie sur Le Fléau. Retournez cette carte.",
+		"traits": "Armure."
+	},
+	{
+		"code": "40122b",
+		"name": "Le Fléau Sans Protection",
+		"scheme_text": "<b>Réponse forcée</b> : après que Le Fléau a manigancé, placez 1 jeton Inertie sur le Fléau. Retournez cette carte.",
+		"text": "Permanent. Attachez cette carte au Fléau.\nLe Fléau subit 1 dégât supplémentaire de chaque carte ayant une ressource [mental] imprimée."
+	},
+	{
+		"code": "40123",
+		"name": "Force d'Inertie",
+		"text": "Le Fléau gagne Riposte X, X étant le nombre de jetons Inertie sur Le Fléau.\n<b>Une fois révélée</b> : attachez Force d'Inertie au Fléau et placez 1 jeton Inertie sur lui.\n<b>Réponse de héros</b> : après que Le Fléau vous a attaqué, dépensez 1 ressource pour chaque dégât infligé par cette attaque → défaussez cette carte."
+	},
+	{
+		"code": "40124",
+		"name": "Gagner du Temps",
+		"text": "<b>Réponse de héros</b> : après avoir défendu contre une attaque du Fléau, retirez 1 menace de cette manigance."
+	},
+	{
+		"code": "40125",
+		"name": "Percée",
+		"flavor": "\"Oh, yeah !\" — Le Fléau",
+		"text": "<b>Une fois révélée</b> : choisissez :\n- Subissez un nombre de dégâts égal à l'ATQ du Fléau.\n- Défaussez l'amélioration ou le soutien que vous contrôlez ayant le coût le plus élevé."
+	},
+	{
+		"boost_text": "donnez une carte d'état Tenace au Fléau.",
+		"code": "40126",
+		"name": "Aplatir",
+		"text": "<b>Une fois révélée</b> : choisissez : soit vous subissez un nombre de dégâts égal à l'ATQ du Fléau, soit vous placez 1 jeton Inertie sur lui."
+	},
+	{
+		"boost_text": "subissez 1 dégât indirect.",
+		"code": "40127",
+		"name": "Ondes Sismiques",
+		"text": "<b>Une fois révélée</b> : les joueurs subissent collectivement un nombre de dégâts indirects égal à l'ATQ du Fléau."
+	},
+	{
+		"boost_text": "infligez 1 dégât à un allié que vous contrôlez.",
+		"code": "40128",
+		"name": "Piétiner",
+		"text": "<b>Une fois révélée (alter ego)</b> : subissez 2 dégâts indirects.\n<b>Une fois révélée (héros)</b> : Le Fléau attaque l'allié avec le moins de points de vie restants."
+	},
+	{
+		"code": "40129",
+		"name": "Avatar de Cyttorak",
+		"text": "En mode Expert, cette carte gagne Incitation 1.\n<b>Une fois révélée</b> : si Le Fléau Sans Protection est en jeu, retournez-la et placez 1 jeton Inertie sur le Fléau. Sinon, placez sur la manigance principale un nombre de menaces égal à l'ATQ du Fléau."
+	},
+	{
+		"code": "40130",
+		"name": "Hope Summers",
+		"text": "Mise en Place. Le premier joueur contrôle Hope Summers. Hope Summers ne compte pas dans votre limite d'alliés.\n[star] La CTR de base et l'ATQ de base de Hope Summers sont égales à la CTR et à l'ATQ de votre héros.\n<b>Si Hope Summers quitte le jeu, les joueurs perdent la partie.</b>",
+		"traits": "Psionique. X-Force. X-Men."
+	},
+	{
+		"code": "40131",
+		"name": "Hope Captive",
+		"flavor": "\"Oui, oui. Je sais ce que j'ai à faire\", marmonne Hope à son ravisseur.\"Ce n'est pas la première fois que je me fais capturer, vous savez.\"",
+		"text": "Hope Summers ne peut pas se redresser.\n<b>Une fois révélée (héros)</b> : inclinez Hope Summers."
+	},
+	{
+		"code": "40132",
+		"name": "Black Tom Cassidy",
+		"text": "Vilenie.\nBlack Tom Cassidy ne peut pas subir de dégâts tant que Saule Agrippant est en jeu.\n<b>Une fois révélée</b> : cherchez 1 exemplaire de Saule Agrippant dans le deck Rencontre ou la pile de défausse Rencontre et mettez-le en jeu engagé avec vous. <i>(Mélangez.)</i>",
+		"traits": "Criminel. Élite."
+	},
+	{
+		"boost_text": "vous êtes sonné.",
+		"code": "40133",
+		"attack_text": "<b>Réponse forcée</b> : après le Saule Agrippant a attaqué et blessé un personnage, sonnez ce personnage.",
+		"name": "Saule Agrippant",
+		"text": "Garde. Coup Rapide.",
+		"traits": "Bois."
+	},
+	{
+		"code": "40134",
+		"name": "Passer au Vert",
+		"text": "Entrave 2[per_hero].\n Chaque exemplaire de Saule Agrippant gagne Renfort."
+	},
+	{
+		"code": "40135",
+		"name": "Volée de Bois Vert",
+		"text": "<b>Une fois révélée</b> : chaque exemplaire de Saule Agrippant attaque le joueur avec lequel il est engagé <i>(même si ce joueur est sous forme d'alter ego).</i> Si vous n'avez pas été attaqué par cet effet, cherchez un exemplaire de Saule Agrippant dans le deck Rencontre ou la pile de défausse Rencontre et révélez-le. <i>(Mélangez.)</i>"
+	},
+	{
+		"code": "40136",
+		"flavor": "\"Visionnaire, messie, aliéné, qu'importe. Je suis SINISTRE.\"",
+		"name": "Mister Sinistre",
+		"text": "<b>Réponse forcée</b> : après qu'une carte d'état a été placée sur Mister Sinistre, placez 1 menace sur la menace principale.",
+		"traits": "Génie."
+	},
+	{
+		"code": "40137",
+		"name": "Mister Sinistre",
+		"text": "<b>Une fois révélée</b> : placez 1[per_hero] menace sur la manigance principale (2[per_hero] si Mister Sinistre a moins de 2 attachements [[SUPER-POUVOIR]]).\n<b>Réponse forcée</b> : après qu'une carte d'état a été placée sur Mister Sinistre, placez 2 menaces sur la menace principale.",
+		"traits": "Génie."
+	},
+	{
+		"code": "40138",
+		"name": "Mister Sinistre",
+		"text": "<b>Une fois révélée</b> : placez 2[per_hero] menaces sur la manigance principale (3[per_hero] si Mister Sinistre a moins de 2 attachements [[SUPER-POUVOIR]]).\n<b>Réponse forcée</b> : après qu'une carte d'état a été placée sur Mister Sinistre, placez 3 menaces sur la menace principale.",
+		"traits": "Génie."
+	},
+	{
+		"code": "40139a",
+		"name": "Sinistre Dessein",
+		"text": "<b>Contenu</b> : Mister Sinistre (I) et Mister Sinistre (II) <i>(Mister Sinistre (II) et Mister Sinistre (III) à la place en mode expert)</i>. Les sets de rencontre Mister Sinistre, Vol, Super Force, Télépathie, Hope Summers et Standard. Un set de rencontre modulaire <i>(Mauvais Garçons)</i>.\n<b>Mise en place</b> : mettez de côté les sets de Rencontre Vol, Super Force et Télépathie. Mettez en jeu Hope Summers sous le contrôle du premier joueur."
+	},
+	{
+		"code": "40139b",
+		"name": "Sinistre Dessein",
+		"flavor": "Le laboratoire secret dissimulé dans les profondeurs de l'orphelinat abandonné est rempli de cuves dans lesquelles sont plongées d'innocents mutants. Autant de cobayes pour les expérimentations de Sinistre.",
+		"text": "<b>Une fois révélée</b> : retirez de la partie un stade 2 sélectionné au hasard. Ensuite, avancez à un stade 2A sélectionné au hasard."
+	},
+	{
+		"code": "40140a",
+		"name": "Sinistres Expérimentations",
+		"flavor": "Mister Sinistre tente d'incorporer l'ADN d'autres mutants dans son propre génome."
+	},
+	{
+		"code": "40140b",
+		"name": "Prêt à s'Envoler",
+		"text": "<b>Une fois révélée</b> : attachez l'attachement Vol à Mister Sinistre et mélangez dans le deck Rencontre le reste du set de rencontre Vol.\n<b>Une fois achevé</b> : avancez à l'autre stade 2A. Si vous ne pouvez pas, avancez au stade 3A."
+	},
+	{
+		"code": "40141a",
+		"name": "Sinistres Expérimentations",
+		"flavor": "Mister Sinistre tente d'incorporer l'ADN d'autres mutants dans son propre génome."
+	},
+	{
+		"code": "40141b",
+		"name": "Prise de Masse",
+		"text": "<b>Une fois révélée</b> : attachez l'attachement Super Force à Mister Sinistre et mélangez dans le deck Rencontre le reste du set de rencontre Super Force.\n<b>Une fois achevé</b> : avancez à l'autre stade 2A. Si vous ne pouvez pas, avancez au stade 3A."
+	},
+	{
+		"code": "40142a",
+		"name": "Sinistres Expérimentations",
+		"flavor": "Mister Sinistre tente d'incorporer l'ADN d'autres mutants dans son propre génome."
+	},
+	{
+		"code": "40142b",
+		"name": "Ultime Perception",
+		"text": "<b>Une fois révélée</b> : attachez l'attachement Télépathie à Mister Sinistre et mélangez dans le deck Rencontre le reste du set de rencontre Télépathie.\n<b>Une fois achevé</b> : avancez à l'autre stade 2A. Si vous ne pouvez pas, avancez au stade 3A."
+	},
+	{
+		"code": "40143a",
+		"name": "Sinistres Fins",
+		"flavor": "\"Contemplez ma puissance et tremblez de désespoir !\" glousse Sinistre. \"Une fois que j'aurais la mutation de Hope dans mon code génétique, je serai capable d'imiter le pouvoir de n'importe quel mutant et là... j'atteindrai la perfection !\"",
+		"text": "<b>Une fois révélée</b> : attribuez 1 carte Rencontre face cachée à chaque joueur."
+	},
+	{
+		"code": "40143b",
+		"name": "Sinistres Fins",
+		"flavor": "\"Je devrais vous remercier\", ricane Sinistre. \"Vous avez fait ce dont mes larbins empotés ont toujours été incapables : vous m'avez apporté de l'espoir avec Hope.\"",
+		"text": "<b>Interruption forcée</b> : quand Mister Sinistre attaque, il attaque Hope Summers à la place. <i>(D'autres peuvent défendre l'attaque.)</i>\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+	},
+	{
+		"code": "40144",
+		"name": "Sinistre Déguisement",
+		"text": "Attachez cette carte à Mister Sinistre.\n<b>Interruption forcée</b> : quand un joueur est censé infliger des dégâts à Mister Sinistre, ce joueur peut dépenser les ressources suivantes : [mental][mental]. S'il ne le fait pas, il inflige ces dégâts au personnage ami ayant le moins de points de vie restants à la place. Défaussez cet attachement <i>(que les ressources aient été dépensée ou non)</i>.",
+		"traits": "Condition."
+	},
+	{
+		"boost_text": "pour cette activation, Mister Sinistre gagne +1 MNG et +1 ATQ pour chaque attachement [[SUPER-POUVOIR]] sur lui.",
+		"code": "40145",
+		"name": "Sinistre Soldat",
+		"text": "[star] Le Sinistre Soldat gagne +1 MNG et +1 ATQ pour chaque attachement [[SUPER-POUVOIR]] sur Mister Sinistre.",
+		"traits": "Clone."
+	},
+	{
+		"code": "40146",
+		"name": "Téléporté Ailleurs",
+		"text": "Entrave 1[per_hero].\nMister Sinistre ne peut pas subir de dégâts.\n<b>Interruption forcée</b> : quand Mister Sinistre est censé attaquer, il manigance à la place."
+	},
+	{
+		"code": "40147",
+		"name": "Maîtrise de la Génétique",
+		"text": "<b>Une fois révélée</b> : si Mister Sinistre a les traits suivants :\n[[AÉRIEN]] - Subissez 2 dégâts indirects.\n[[BRUTE]] - Inclinez votre identité.\n[[PSIONIQUE]] - Placez 2 menaces sur la manigance principale."
+	},
+	{
+		"boost_text": "donnez une carte d'état Tenace à Mister Sinistre.",
+		"code": "40148",
+		"name": "Contrôle Moléculaire",
+		"text": "<b>Une fois révélée</b> : donnez une carte d'état Tenace à Mister Sinistre. S'il a le trait [[BRUTE]], il se soigne de 4 dégâts."
+	},
+	{
+		"boost_text": "vous êtes désorienté.",
+		"code": "40149",
+		"name": "Sinistre Manigance",
+		"text": "<b>Une fois révélée</b> : Mister Sinistre manigance. S'il a le trait [[PSIONIQUE]], vous êtes désorienté."
+	},
+	{
+		"boost_text": "vous êtes sonné.",
+		"code": "40150",
+		"name": "Sinistre Attaque",
+		"text": "<b>Une fois révélée (alter ego)</b> : cette carte gagne Renfort.\n<b>Une fois révélée (héros)</b> : Mister Sinistre vous attaque. S'il a le trait [[AÉRIEN]], vous êtes sonné."
+	},
+	{
+		"code": "40151",
+		"name": "Vol",
+		"attack_text": "Les attaques du méchant attaché gagnent Déferlement.",
+		"text": "Mise en Place. Attachez cette carte au méchant.\nPermanent.\nLe méchant attaché gagne le trait [[AÉRIEN]].",
+		"traits": "Super-pouvoir."
+	},
+	{
+		"code": "40152",
+		"name": "Bombardement Aérien",
+		"text": "Attachez cette carte au méchant.\n[star] Le méchant attaché gagne +1 ATQ et ignore le mot-clé Riposte tant qu'il attaque un personnnage non-[[AÉRIEN]].\n<b>Action de héros</b> : inclinez votre héros et dépensez les ressources suivantes : [mental][mental] → défaussez cette carte.",
+		"traits": "Condition."
+	},
+	{
+		"code": "40153",
+		"name": "Hors d'Atteinte",
+		"text": "Attachez cette carte au méchant.\nLe méchant ne peut pas subir de dégâts sauf si l'attaquant ou l'attaque a le trait [[AÉRIEN]], ou si l'attaque a le mot-clé À Distance.\n<b>Action de héros</b> : inclinez votre héros et dépensez les ressources suivantes : [energy][energy] → défaussez cette carte.",
+		"traits": "Condition."
+	},
+	{
+		"boost_text": "si le méchant est en train d'attaquer, cette attaque gagne Perçant.",
+		"code": "40154",
+		"name": "En Hauteur",
+		"text": "<b>Une fois révélée</b> : défaussez chaque carte d'état Tenace de chaque personnage ami. Les joueurs subissent collectivement 2 dégâts indirects (4 dégâts indirects à la place si le méchant a le trait [[BRUTE]])."
+	},
+	{
+		"code": "40155",
+		"name": "Super Force",
+		"text": "Mise en Place. Attachez cette carte au méchant.\nPermanent.\nLe méchant attaché gagne le trait [[BRUTE]] et le mot-clé Solide. <i>(Les personnages solides ont besoin de 2 cartes d'état du même type pour être sonné ou désorienté.)</i>",
+		"traits": "Super-pouvoir."
+	},
+	{
+		"code": "40156",
+		"name": "Insensible",
+		"text": "Attachez cette carte au méchant.\nDiminuez de 1 la quantité de dégâts que le méchant attaché subit de chaque attaque.\n<b>Action de héros</b> : dépensez les ressources suivantes : [physical][physical] → donnez au méchant une carte d'état Tenace et défaussez cet attachement."
+	},
+	{
+		"code": "40157",
+		"attack_text": "Les attaques du méchant gagnent À Distance.\n[star] <b>Réponse forcée</b> : après que le méchant a attaqué, défaussez cette carte.",
+		"name": "Lancer d'Objet",
+		"text": "Attachez cette carte au méchant.",
+		"traits": "Objet."
+	},
+	{
+		"code": "40158",
+		"name": "\"Je Prends Ça\"",
+		"text": "<b>Une fois révélée</b> : défaussez l'amélioration que vous contrôlez ayant le coût le plus faible (le coût le plus élevé à la place si le méchant a le trait [[PSIONIQUE]]). Si aucune amélioration n'a été défaussée par cet effet, cette carte gagne Renfort."
+	},
+	{
+		"code": "40159",
+		"name": "Télépathie",
+		"text": "Mise en Place. Attachez cette carte au méchant.\nPermanent.\nLe méchant attaché gagne le trait [[PSIONIQUE]] et le mot-clé Riposte 1. <i>(Après que ce personnage a été attaqué, infligez 1 dégât au personnage attaquant.)</i>",
+		"traits": "Super-pouvoir."
+	},
+	{
+		"code": "40160",
+		"name": "Tragédie sur Mesure",
+		"text": "Les soutiens que vous contrôlez ne peuvent pas se redresser.\n<b>Une fois révélée</b> : inclinez chaque soutien que vous contrôlez. Si aucun soutien n'a été incliné par cet effet, cette carte gagne Renfort.\n<b>Action d'alter ego</b> : inclinez votre identité et défaussez 1 carte du dessus de votre deck pour chaque soutien que vous contrôlez → défaussez cette obligation."
+	},
+	{
+		"code": "40161",
+		"flavor": "\"Essaye encore de m'appeler \"poupée\" pour voir !\" — Domino",
+		"name": "Semer la Zizanie",
+		"text": "Les alliés que vous contrôlez ne peuvent pas se redresser.\n<b>Une fois révélée</b> : inclinez chaque allié que vous contrôlez. Si aucun allié n'a été incliné par cet effet, cette carte gagne Renfort.\n<b>Action d'alter ego</b> : dépensez les ressources suivantes : [mental][mental] → défaussez cette obligation."
+	},
+	{
+		"boost_text": "si le méchant est en train d'attaquer, cette attaque gagne Déferlement.",
+		"code": "40162",
+		"name": "Un Coup d'Avance",
+		"text": "<b>Une fois révélée</b> : défaussez 1 carte prise au hasard dans votre main (2 cartes prises au hasard à la place si le méchant a le trait [[AÉRIEN]])."
+	},
+	{
+		"code": "40163",
+		"attack_text": "Tant que Stryfe vous attaque, il gagne +X ATQ, X étant le nombre de cartes dans votre main du type le plus courant.",
+		"flavor": "\"Incline toi devant qui te domine !\"",
+		"name": "Stryfe",
+		"traits": "Front de Libération des Mutants. Psionique."
+	},
+	{
+		"code": "40164",
+		"attack_text": "Tant que Stryfe vous attaque, il gagne +X ATQ, X étant le nombre de cartes dans votre main du type le plus courant.",
+		"name": "Stryfe",
+		"text": "<b>Une fois révélée</b> : chaque joueur défausse des cartes du dessus du deck Rencontre jusqu'à ce qu'un attachement [[PSIONIQUE]] soit défaussé, puis il le révèle.",
+		"traits": "Front de Libération des Mutants. Psionique."
+	},
+	{
+		"code": "40165",
+		"attack_text": "Tant que Stryfe vous attaque, il gagne +X ATQ, X étant le nombre de cartes dans votre main du type le plus courant.",
+		"name": "Stryfe",
+		"text": "<b>Réponse forcée</b> : après avoir attaqué Stryfe, subissez X dégâts, X étant le nombre de cartes dans votre main du type le plus courant.",
+		"traits": "Front de Libération des Mutants. Psionique."
+	},
+	{
+		"code": "40166a",
+		"name": "Puissance Incontrôlable",
+		"text": "<b>Contenu</b> : Stryfe (I) et Stryfe (II) <i>(Stryfe (II) et Stryfe (III) à la place en mode expert)</i>. Les sets de rencontre Stryfe, Hope Summers et Standard. Deux sets de rencontre modulaires <i>(Mesures Extrêmes et Insurrection de Mutants)</i>.\n<b>Mise en place</b> : mettez en jeu Hope Summers sous le contrôle du premier joueur. Révélez Dans les Griffres de Stryfe."
+	},
+	{
+		"code": "40166b",
+		"name": "Puissance Incontrôlable",
+		"flavor": "Hope essaye d'imiter les capacités de Stryfe, mais elle est très vite submergée par son pouvoir.",
+		"text": "[star] <b>Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, chaque joueur place X menaces sur cette manigance, X étant le nombre de cartes dans sa main du type le plus commun. Chaque joueur peut défausser 1 carte de sa main avant de calculer la valeur de X.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+	},
+	{
+		"code": "40167a",
+		"name": "Laissé à Votre Sort",
+		"flavor": "Hope parvient à se libérer des griffes de Stryfe, mais elle peine à contenir son immense pouvoir psionique.\n\"Je vais laisser Hope vous tuer jusqu'au dernier\", dit Stryfe en riant.\"J'ai du travail qui m'attend pour déclencher l'Apocalypse !\""
+	},
+	{
+		"code": "40167b",
+		"name": "Laissé à Votre Sort",
+		"flavor": "Stryfe essaye de s'échapper dans le passé. Qui sait quel désastre il peut provoquer ?",
+		"text": "Stryfe gagne Robuste.\nLa taille de main de chaque joueur augmente de +2. Augmentez de 1 le coût en ressources pour jouer chaque carte Joueur.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+	},
+	{
+		"code": "40168a",
+		"name": "Dans les Griffes de Stryfe",
+		"text": "Permanent. Entrave 6[per_hero].\nHope Summers peut seulement attaquer Stryfe et peut seulement contrer cette manigance.\n<b>Réponse forcée</b> : après que Stryfe a été vaincu ou que la dernière menace a été retirée de cette manigance, retournez cette carte et révélez Bombe Ambulante. Placez sur Bombe Ambulante les menaces qui sont sur Dans les Griffes de Stryfe."
+	},
+	{
+		"code": "40168b",
+		"name": "Bombe Ambulante",
+		"flavor": "Hope tente d'imiter les pouvoirs de Stryfe, mais leur intensité est trop importante pour qu'elle parvienne à les contrôler totalement. Si elle se laisse submerger... les conséquences seront désastreuses !",
+		"text": "Victoire 1.\nStryfe ne peut pas être vaincu.\n<b>Une fois révélée</b> : avancez la manigance principale au stade 2A. Cet effet ne peut pas être annulé."
+	},
+	{
+		"code": "40169",
+		"name": "Transfert Mental",
+		"text": "Si Dans les Griffes de Stryfe est en jeu, attachez cette carte à Hope Summers. Sinon, attachez cette carte à votre identité.\n<b>Réponse forcée</b> : après que Stryfe a subi n'importe quelle quantité de dégâts, le personnage attaché subit la même quantité de dégâts. Défaussez cette carte.",
+		"traits": "Condition. Psionique."
+	},
+	{
+		"code": "40170",
+		"name": "Altération de l'Esprit",
+		"text": "Attachez cette carte à votre identité.\n<b>Réponse forcée</b> : après avoir joué un événement ou une amélioration, subissez 1 dégât.\n<b>Réponse</b> : après avoir récupéré, dépensez une ressource [mental] → défaussez cette carte.",
+		"traits": "Condition. Psionique."
+	},
+	{
+		"code": "40171",
+		"name": "Piège de l'Esprit",
+		"text": "Attachez cette carte à votre identité.\nVos alliés, améliorations et soutiens entrent en jeu inclinés.\n<b>Action d'alter ego</b> : inclinez 3 cartes que vous contrôlez → défaussez cette carte.",
+		"traits": "Condition. Psionique."
+	},
+	{
+		"code": "40172",
+		"name": "Amnésie Psionique",
+		"text": "Attachez cette carte à votre identité.\nAugmentez de 2 le coût en ressources de chaque allié et de chaque soutien que vous jouez.\n<b>Réponse</b> : après avoir joué un allié ou un soutien, inclinez votre identité → défaussez cette carte.",
+		"traits": "Condition. Psionique."
+	},
+	{
+		"code": "40173",
+		"name": "Inertie Psychique",
+		"flavor": "\"C'est... comme si... quelque chose... retenait... Caliban !\" — Caliban",
+		"text": "Attachez cette carte à votre identité.\n<b>Action de héros</b> : si votre héros a attaqué et contré à cette phase → défaussez cette carte.",
+		"traits": "Condition. Psionique."
+	},
+	{
+		"code": "40174",
+		"name": "Zéro",
+		"text": "Garde. Patrouille. Ténacité.\n<b>Une fois vaincu</b> : si le joueur qui a vaincu Zéro n'a pas au moins 3 cartes du même type dans sa main, mélangez Zéro dans le deck Rencontre.",
+		"traits": "Front de Libération des Mutants."
+	},
+	{
+		"code": "40175",
+		"name": "Effacement Cérébral",
+		"text": "<b>Une fois révélée</b> : renvoyez dans la main de son propriétaire une amélioration ou un soutien que vous contrôlez.\n<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance renvoie dans la main de son propriétaire une amélioration ou un soutien qu'il contrôle."
+	},
+	{
+		"code": "40176",
+		"name": "Camouflage Télépathique",
+		"text": "<b>Une fois révélée</b> : chaque joueur place X menaces sur cette carte, X étant le nombre de cartes dans sa main du type le plus commun."
+	},
+	{
+		"code": "40177",
+		"name": "Déflagration Psionique",
+		"text": "<b>Une fois révélée</b> : défaussez les X cartes du dessus du deck Rencontre, X étant le nombre de cartes dans votre main du type le plus commun. Attribuez-vous, en tant que carte Rencontre face cachée, chaque carte [[PSIONIQUE]] ainsi défaussée.",
+		"traits": "Psionique."
+	},
+	{
+		"boost_text": "défaussez 1 carte de votre main. Ensuite, piochez 1 carte.",
+		"code": "40178",
+		"name": "Saturation Psychique",
+		"text": "<b>Une fois révélée</b> : choisissez un type de carte, ensuite défaussez chaque carte de votre main qui n'est pas de ce type. Piochez jusqu'à atteindre votre taille de main. Placez 1 menace sur la manigance principale pour chaque carte du type choisi qui est dans votre main.",
+		"traits": "Psionique."
+	},
+	{
+		"boost_text": "si vous avez au moins 3 cartes dans votre main qui partagent un même type, placez 3 menaces sur la manigance principale.",
+		"code": "40179",
+		"name": "Ondes Télékinétiques",
+		"text": "<b>Une fois révélée</b> : renvoyez dans votre main une amélioration ou un soutien que vous contrôlez. Stryfe s'active contre vous.",
+		"traits": "Psionique."
+	},
+	{
+		"code": "40180",
+		"name": "Strobe",
+		"text": "Patrouille.\n<b>Une fois révélée</b> : choisissez :\n- Sonnez chaque personnage que vous contrôlez.\n- Infligez 1 dégât à chaque personnage que vous contrôlez.",
+		"traits": "Front de Libération des Mutants."
+	},
+	{
+		"code": "40181",
+		"name": "Tempo",
+		"text": "Tant que Tempo est engagée avec vous, votre taille de main augmente de +1.\n[star] <b>Réponse forcée</b> : après que Tempo s'est activée contre vous, défaussez du dessus de votre deck un nombre de cartes égal au nombre de cartes dans votre main multiplié par deux.",
+		"traits": "Front de Libération des Mutants."
+	},
+	{
+		"code": "40182",
+		"name": "Thumbelina",
+		"text": "Réduisez de 1 la quantité de dégâts que Thumbelina subit de chaque attaque sauf si l'attaquant a le trait [[MINUSCULE]].\n<b>Une fois révélée</b> : renvoyez dans la main de son propriétaire l'amélioration que vous contrôlez ayant le coût le plus élevé.",
+		"traits": "Front de Libération des Mutants."
+	},
+	{
+		"code": "40183",
+		"name": "Wildside",
+		"text": "<b>Une fois révélée</b> : choisissez :\n- Wildside vous attaque.\n- Renvoyez dans la main de son propriétaire le soutien que vous contrôlez ayant le coût le plus élevé.",
+		"traits": "Front de Libération des Mutants."
+	},
+	{
+		"code": "40184",
+		"name": "Mesures Extrêmes",
+		"text": "Entrave 2[per_hero].\n<b>Réponse forcée</b> : après qu'une carte Joueur est entrée en jeu, son contrôleur subit un nombre de dégâts indirects égal au coût imprimé de cette carte."
+	},
+	{
+		"code": "40185",
+		"name": "Dragonne",
+		"text": "[star] <b>Interruption forcée</b> : quand Dragonne s'active contre vous, elle gagne +X MNG et +X ATQ pour cette activation, X étant le nombre de ressources [energy] dans votre main.",
+		"traits": "Front de Libération des Mutants."
+	},
+	{
+		"code": "40186",
+		"name": "Quatre-Bras",
+		"flavor": "\"On m'appelle Quatre-Bras parce que je suis fort en massages.\"",
+		"attack_text": "<b>Réponse forcée</b> : après que Quatre-Bras vous a attaqué, défaussez X cartes du dessus de votre deck, X étant le nombre de ressources [physical] dans votre main.",
+		"traits": "Front de Libération des Mutants."
+	},
+	{
+		"code": "40187",
+		"name": "Reaper",
+		"attack_text": "<b>Interruption forcée</b> : quand Reaper vous attaque, si vous avez au moins :\n- [mental][mental] ressources dans votre main, sonnez votre identité.\n- [mental][mental][mental] ressources dans votre main, inclinez votre identité.",
+		"traits": "Front de Libération des Mutants."
+	},
+	{
+		"code": "40188",
+		"name": "Samouraï",
+		"attack_text": "<b>Réponse forcée</b> : après que Samouraï vous a attaqué, placez 1 jeton Charge sur lui. Choisissez :\n- Subissez un nombre de dégâts égal au nombre de jetons Charge sur Samouraï.\n- Défaussez 1 carte que vous contrôlez ayant un coût imprimé supérieur ou égal au nombre de jetons Charge sur Samouraï.",
+		"traits": "Front de Libération des Mutants."
+	},
+	{
+		"code": "40189",
+		"name": "Insurrection de Mutants",
+		"text": "Assaut. <i>(Les contres de base contre cette manigance utilisent l'ATQ à la place de la CTR.)</i>\nChaque sbire gagne Ténacité.\n<b>Une fois révélée</b> : placez 2 menaces supplémentaires sur cette carte pour chaque personnage [[FRONT DE LIBÉRATION DES MUTANTS]] en jeu. Si aucune menace supplémentaire n'a été placée par cet effet, cette carte gagne Renfort."
+	},
+	{
+		"boost_text": "défaussez un événement de votre main.",
+		"code": "40198",
+		"name": "Lady Mastermind",
+		"text": "Renfort.\n<b>Une fois révélée</b> : subissez X dégâts, X étant le coût imprimé de l'événement de votre main ayant le coût le plus élevé.",
+		"traits": "Maraudeur."
+	},
+	{
+		"code": "40199",
+		"name": "Malice",
+		"text": "Renfort.\n<b>Une fois révélée</b> : attaché Malice à l'allié non-[[PSIONIQUE]] ayant le coût le plus élevé. L'allié attaché engage son contrôleur. L'allié attaché est considéré comme un sbire [[POSSÉDÉ]] ayant une boîte de texte vide <i>(sauf les [[TRAITS]])</i>. La MNG du sbire attaché est égale à son CTR et il ne subit pas de dégâts consécutifs.",
+		"traits": "Maraudeur."
+	},
+	{
+		"code": "40200",
+		"name": "Scrambler",
+		"flavor": "\"Tu fais moins le malin sans tes pouvoirs, pas vrai ?\"",
+		"text": "Renfort.\n<b>Une fois révélée</b> : défaussez une amélioration que vous contrôlez.",
+		"traits": "Maraudeur."
+	},
+	{
+		"boost_text": "renvoyez dans votre main le soutien que vous contrôlez ayant le coût le plus élevé.",
+		"code": "40201",
+		"name": "Vanisher",
+		"text": "Renfort.\n<b>Une fois révélée</b> : renvoyez dans votre main le soutien que vous contrôlez ayant le coût le plus élevé.",
+		"traits": "Marauder."
+	},
+	{
+		"boost_text": "donnez au méchant 1 carte de boost supplémentaire pour cette activation.",
+		"code": "40202",
+		"name": "Sous Pression",
+		"text": "Renfort."
+	},
+	{
+		"boost_text": "choisissez : soit vous défaussez 1 carte Ressource de votre main, soit vous subissez 2 dégâts.",
+		"code": "40203",
+		"name": "Surchargé",
+		"text": "Renfort.\n<b>Une fois révélée</b> : choisissez : soit vous défaussez 1 carte Ressource de votre main, soit vous subissez 2 dégâts."
+	}
+]
