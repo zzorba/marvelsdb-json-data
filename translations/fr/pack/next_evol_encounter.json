@@ -155,22 +155,14 @@
 		"traits": "Altéré. Maraudeur."
 	},
 	{
-		"code": "40077a",
-		"name": "Toc, Toc, Toc",
-		"text": "<b>Contenu</b> : Les Maraudeurs, face A <i>(face B en mode expert)</i>. Les sets de rencontre Le Siège des Morlocks et Standard. Deux sets de rencontre modulaires <i>(Équipement Militaire et Tueurs de Mutants)</i>.\n<b>Mise en place</b> : mettez en jeu l'environnement Mis Hors d'État de Nuire. Mettez de côté la traîtrise Cachez-Vous! et chaque allié Morlock. Mélangez ensemble les méchants <i>(sans regarder)</i> pour créer le deck Méchant. La cartge du dessus de ce deck est en jeu."
-	},
-	{
-		"code": "40077b",
+		"back_text": "<b>Contenu</b> : Les Maraudeurs, face A <i>(face B en mode expert)</i>. Les sets de rencontre Le Siège des Morlocks et Standard. Deux sets de rencontre modulaires <i>(Équipement Militaire et Tueurs de Mutants)</i>.\n<b>Mise en place</b> : mettez en jeu l'environnement Mis Hors d'État de Nuire. Mettez de côté la traîtrise Cachez-Vous! et chaque allié Morlock. Mélangez ensemble les méchants <i>(sans regarder)</i> pour créer le deck Méchant. La cartge du dessus de ce deck est en jeu.",
+		"code": "40077",
 		"name": "Toc, Toc, Toc",
 		"text": "[star] <b>Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, placez 1 jeton Coup sur cette carte. S'il y a au moins 3 jetons Coup sur cette carte, avancez au stade 2A.\n<b>S'il y a 3 méchants sous Mis Hors d'État de Nuire, les joueurs gagnent la partie.</b>"
 	},
 	{
-		"code": "40078a",
-		"name": "Massacre de Mutants",
-		"text": "<b>Une fois révélée</b> : chaque joueur met en jeu sous son contrôle 1 allié Morlock mis de côté (2 alliés Morlock à la place si la partie ne comprend qu'un seul joueur). Mélangez dans le deck Rencontre la traîtrise Cachez-Vous!. Si le stade précédent a avancé grâce à des jetons Coup, donnez une carte d'état Tenace à chaque allié Morlock."
-	},
-	{
-		"code": "40078b",
+		"back_text": "<b>Une fois révélée</b> : chaque joueur met en jeu sous son contrôle 1 allié Morlock mis de côté (2 alliés Morlock à la place si la partie ne comprend qu'un seul joueur). Mélangez dans le deck Rencontre la traîtrise Cachez-Vous!. Si le stade précédent a avancé grâce à des jetons Coup, donnez une carte d'état Tenace à chaque allié Morlock.",
+		"code": "40078",
 		"name": "Massacre de Mutants",
 		"text": "<b>Action</b> : inclinez un allié [[MORLOCK]] → mélangez dans le deck Rencontre Cachez-Vous! depuis la pile de défausse Rencontre.\n<b>S'il y a 3 méchants sous Mis Hors d'État de Nuire, les joueurs gagnent la partie.\nSi ce stade est achevé ou s'il n'y a pas d'alliés Morlock en jeu, les joueurs perdent la partie.</b>"
 	},
@@ -267,51 +259,44 @@
 	},
 	{
 		"code": "40094",
-		"attack_text": "<b>Interruption forcée</b> : quand Arclight vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Désorientez un personnage que vous contrôlez.\n- Arclight gagne +2 ATQ pour cette attaque.",
 		"name": "Arclight",
-		"text": "Riposte 1.",
+		"text": "Riposte 1.\n[star] <b>Interruption forcée</b> : quand Arclight vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Désorientez un personnage que vous contrôlez.\n- Arclight gagne +2 ATQ pour cette attaque.",
 		"traits": "Brute. Maraudeur."
 	},
 	{
 		"code": "40095", 
-		"attack_text": "<b>Interruption forcée</b> : quand Le Casseur vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Donnez une carte d'état Tenace au Casseur.\n- Le Casseur gagne +2 ATQ pour cette attaque.",
 		"name": "Le Casseur",
-		"text": "Garde.",
+		"text": "Garde.\n[star] <b>Interruption forcée</b> : quand Le Casseur vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Donnez une carte d'état Tenace au Casseur.\n- Le Casseur gagne +2 ATQ pour cette attaque.",
 		"traits": "Brute. Maraudeur."
 	},
 	{
 		"code": "40096",
-		"attack_text": "<b>Interruption forcée</b> : quand Chimera vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Dépensez une ressource [mental].\n- Chimera gagne +2 ATQ pour cette attaque.",
 		"name": "Chimera",
-		"text": "Patrouille.",
+		"text": "Patrouille.\n[star] <b>Interruption forcée</b> : quand Chimera vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Dépensez une ressource [mental].\n- Chimera gagne +2 ATQ pour cette attaque.",
 		"traits": "Maraudeur. Psionique."
 	},
 	{
 		"code": "40097",
-		"attack_text": "<b>Interruption forcée</b> : quand Greycrow vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Défaussez la carte que vous contrôlez ayant le coût le plus élevé.\n- Greycrow gagne +X ATQ pour cette attaque, X étant le coût imprimé de la carte que vous contrôlez ayant le coût le plus élevé.",
 		"name": "Greycrow",
-		"text": "Riposte 1.",
+		"text": "Riposte 1.\n[star] <b>Interruption forcée</b> : quand Greycrow vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Défaussez la carte que vous contrôlez ayant le coût le plus élevé.\n- Greycrow gagne +X ATQ pour cette attaque, X étant le coût imprimé de la carte que vous contrôlez ayant le coût le plus élevé.",
 		"traits": "Maraudeur. Mercenaire."
 	},
 	{
 		"code": "40098",
-		"attack_text": "<b>Interruption forcée</b> : quand Harpon vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Subissez 2 dégâts indirects.\n- Harpon gagne +2 ATQ pour cette attaque et cette attaque gagne Perçant.",
 		"name": "Harpon",
-		"text": "Garde.",
+		"text": "Garde.\n[star] <b>Interruption forcée</b> : quand Harpon vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Subissez 2 dégâts indirects.\n- Harpon gagne +2 ATQ pour cette attaque et cette attaque gagne Perçant.",
 		"traits": "Brute. Maraudeur."
 	},
 	{
 		"code": "40099",
-		"attack_text": "<b>Interruption forcée</b> : quand Riptide vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Placez 2 menaces sur la manigance principale et 1 menace sur chaque manigance annexe.\n- Riptide gagne +2 ATQ pour cette attaque.",
 		"name": "Riptide",
-		"text": "Patrouille.",
+		"text": "Patrouille.\n[star] <b>Interruption forcée</b> : quand Riptide vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Placez 2 menaces sur la manigance principale et 1 menace sur chaque manigance annexe.\n- Riptide gagne +2 ATQ pour cette attaque.",
 		"traits": "Assassin. Maraudeur."
 	},
 	{
 		"code": "40100",
-		"attack_text": "<b>Interruption forcée</b> : quand Vertigo vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Sonnez un personnage que vous contrôlez.\n- Vertigo gagne +2 ATQ pour cette attaque.",
 		"name": "Vertigo",
-		"text": "Garde.",
+		"text": "Garde.\n[star] <b>Interruption forcée</b> : quand Vertigo vous attaque ou attaque un allié que vous contrôlez, choisissez :\n- Sonnez un personnage que vous contrôlez.\n- Vertigo gagne +2 ATQ pour cette attaque.",
 		"traits": "Altéré. Maraudeur."
 	},
 	{
@@ -325,23 +310,15 @@
 		"text": "<b>Une fois révélée</b> : défaussez des cartes du deck Rencontre jusqu'à ce qu'un sbire [[MARAUDER]] qui ne partage pas un titre avec une carte en jeu soit défaussée. Mettez en jeu ce sbire engagé avec vous."
 	},
 	{
-		"code": "40103a",
+		"back_text": "<b>Contenu</b> : Les Maraudeurs, face A <i>(face B en mode Expert)</i>. Les sets de rencontre En Fuite, Tueurs de Mutants et Standard. Deux sets de rencontre modulaires <i>(Équipement Militaire et Mauvais Garçons)</i>.\n<b>Mise en place</b> : mettez en jeu 1 méchant [[MARAUDER]] pris au hasard. Retirez de la partie le sbire ayant le même titre que le méchant ainsi que tous les autres méchants. Attachez l'attachement Le Ravisseur de Hope au méchant, face [[CONFIANT]] visible.",
+		"code": "40103",
 		"name": "Il Faut s'Enfuir",
-		"text": "<b>Contenu</b> : Les Maraudeurs, face A <i>(face B en mode Expert)</i>. Les sets de rencontre En Fuite, Tueurs de Mutants et Standard. Deux sets de rencontre modulaires <i>(Équipement Militaire et Mauvais Garçons)</i>.\n<b>Mise en place</b> : mettez en jeu 1 méchant [[MARAUDER]] pris au hasard. Retirez de la partie le sbire ayant le même titre que le méchant ainsi que tous les autres méchants. Attachez l'attachement Le Ravisseur de Hope au méchant, face [[CONFIANT]] visible."
+		"text": "Chaque sbire [[MARAUDER]] gagne Solide. En mode expert, le méchant gagne lui-aussi Solide.\n<b>Une fois révélée</b> : chaque joueur cherche un sbire [[MARAUDER]] dans le deck Rencontre et le met en jeu engagé avec lui. <i>(Mélangez.)</i><b>Si ce stade est achevé, les joueurs perdent la partie.</b>"		
 	},
 	{
-		"code": "40103b",
-		"name": "Il Faut s'Enfuir",
-		"text": "Chaque sbire [[MARAUDER]] gagne Solide. En mode expert, le méchant gagne lui-aussi Solide.\n<b>Une fois révélée</b> : chaque joueur cherche un sbire [[MARAUDER]] dans le deck Rencontre et le met en jeu engagé avec lui. <i>(Mélangez.)</i><b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
-	},
-	{
-		"code": "40104a",
-		"flavor": "Après avoir pris une bonne correction, les Marauders redoublent d'efforts pour s'échapper avec leur captive.",
-		"name": "En Fuite avec Hope",
-		"text": "<b>Une fois révélée</b> : chaque joueur cherche un sbire [[MARAUDER]] dans le deck Rencontre ou la pile de défausse Rencontre et le met en jeu engagé avec lui. <i>(Mélangez.)</i> Donnez une carte d'état Tenace à chaque ennemi [[MARAUDER]]."
-	},
-	{
-		"code": "40104b",
+		"back_flavor": "Après avoir pris une bonne correction, les Marauders redoublent d'efforts pour s'échapper avec leur captive.",
+		"back_text": "<b>Une fois révélée</b> : chaque joueur cherche un sbire [[MARAUDER]] dans le deck Rencontre ou la pile de défausse Rencontre et le met en jeu engagé avec lui. <i>(Mélangez.)</i> Donnez une carte d'état Tenace à chaque ennemi [[MARAUDER]].",
+		"code": "40104",
 		"name": "En Fuite avec Hope",
 		"text": "Chaque sbire [[MARAUDER]] gagne Garde et Solide. En mode expert, le méchant gagne Solide.\n<b>Si le méchant est vaincu, les joueurs gagnent la partie.\nSi ce stade est achevé, les joueurs perdent la partie.</b>"
 	},
@@ -353,9 +330,8 @@
 	},
 	{
 		"code": "40105b",
-		"attack_text": "<b>Interruption forcée</b> : quand le méchant est censé vous attaquer, si un sbire [[MARAUDER]] est engagé avec vous, le méchant manigance à la place.",
 		"name": "Le Ravisseur de Hope",
-		"text": "Permanent.\nLe méchant gagne +6[per_hero] points de vie.\n<b>Une fois révélée</b> : avancez la manigance principale au stade 2A. Cet effet ne peut pas être annulé.",
+		"text": "Permanent.\nLe méchant gagne +6[per_hero] points de vie.\n<b>Une fois révélée</b> : avancez la manigance principale au stade 2A. Cet effet ne peut pas être annulé.\n[star] <b>Interruption forcée</b> : quand le méchant est censé vous attaquer, si un sbire [[MARAUDER]] est engagé avec vous, le méchant manigance à la place.",
 	    	"traits": "Désespéré."
 	},
 	{
@@ -394,8 +370,7 @@
 		"boost_text": "inclinez un personnage que vous contrôlez.",
 		"code": "40112",
 		"name": "Gorgeous George",
-		"attack_text": "<b>Interruption forcée</b> : quand Gorgeous George vous attaque, inclinez un personnage que vous contrôlez.",
-		"text": "Collaboration ([[MAUVAIS GARÇON]]).",
+		"text": "Collaboration ([[MAUVAIS GARÇON]]).\n[star] <b>Interruption forcée</b> : quand Gorgeous George vous attaque, inclinez un personnage que vous contrôlez.",
 		"traits": "Mauvais Garçon."
 	},
 	{
@@ -409,8 +384,7 @@
 		"boost_text": "si le méchant est en train d'attaquer, cette attaque gagne Perçant.",
 		"code": "40114",
 		"name": "Ramrod",
-		"attack_text": "Les attaques de Ramrod gagnent Perçant.",
-		"text": "Riposte 1. Collaboration ([[MAUVAIS GARÇON]]).",
+		"text": "Riposte 1. Collaboration ([[MAUVAIS GARÇON]]).\n[star] Les attaques de Ramrod gagnent Perçant.",
 		"traits": "Mauvais Garçon."
 	},
 	{
@@ -421,7 +395,6 @@
 		"traits": "Mauvais Garçon."
 	},
 	{
-		"boost_text": "vous êtes sonné.",
 		"code": "40116",
 		"name": "Slab",
 		"attack_text": "<b>Interruption forcée</b> : quans Slab attaque, placez sur lui 1 jeton Croissance. Slab gagne +1 ATQ pour chaque jeton Croissance sur lui pour cette attaque.",
@@ -456,12 +429,8 @@
 		"traits": "Brute."
 	},
 	{
-		"code": "40121a",
-		"name": "L'Inarrêtable Fléau",
-		"text": "<b>Contenu</b> : Le Fléau (I) et Le Fléau (II) <i>(Le Fléau (II) et Le Fléau (III) à la place en mode expert)</i>. Les sets de rencontre Le Fléau, Hope Summers et Standard. Un set de rencontre modulaire <i>(Black Tom Cassidy)</i>.\n<b>Mise en place</b> : attachez le Casque du Fléau. Mettez en Jeu Hope Summers sous le contrôle du premier joueur."
-	},
-	{
-		"code": "40121b",
+		"back_text": "<b>Contenu</b> : Le Fléau (I) et Le Fléau (II) <i>(Le Fléau (II) et Le Fléau (III) à la place en mode expert)</i>. Les sets de rencontre Le Fléau, Hope Summers et Standard. Un set de rencontre modulaire <i>(Black Tom Cassidy)</i>.\n<b>Mise en place</b> : attachez le Casque du Fléau. Mettez en Jeu Hope Summers sous le contrôle du premier joueur.",
+		"code": "40121",
 		"name": "L'Inarrêtable Fléau",
 		"text": "<b>Interruption forcée</b> : quand cette manigance est censée être achevée, résolvez chacun des effets suivants à place :\n1. Retirez toutes les menaces de cette manigance.\n2. Si Le Fléau Sans Protection est en jeu, retournez-la.\n3. Placez un jeton Inertie sur Le Fléau.\n4. Le Fléau attaque chaque joueur dans l'ordre des joueurs <i>(même s'ils sont sous forme d'alter ego)</i>."
 	},
@@ -474,8 +443,7 @@
 	{
 		"code": "40122b",
 		"name": "Le Fléau Sans Protection",
-		"scheme_text": "<b>Réponse forcée</b> : après que Le Fléau a manigancé, placez 1 jeton Inertie sur le Fléau. Retournez cette carte.",
-		"text": "Permanent. Attachez cette carte au Fléau.\nLe Fléau subit 1 dégât supplémentaire de chaque carte ayant une ressource [mental] imprimée."
+		"text": "Permanent. Attachez cette carte au Fléau.\nLe Fléau subit 1 dégât supplémentaire de chaque carte ayant une ressource [mental] imprimée.\n[star] <b>Réponse forcée</b> : après que Le Fléau a manigancé, placez 1 jeton Inertie sur le Fléau. Retournez cette carte."
 	},
 	{
 		"code": "40123",
@@ -572,54 +540,37 @@
 		"traits": "Génie."
 	},
 	{
-		"code": "40139a",
-		"name": "Sinistre Dessein",
-		"text": "<b>Contenu</b> : Mister Sinistre (I) et Mister Sinistre (II) <i>(Mister Sinistre (II) et Mister Sinistre (III) à la place en mode expert)</i>. Les sets de rencontre Mister Sinistre, Vol, Super Force, Télépathie, Hope Summers et Standard. Un set de rencontre modulaire <i>(Mauvais Garçons)</i>.\n<b>Mise en place</b> : mettez de côté les sets de Rencontre Vol, Super Force et Télépathie. Mettez en jeu Hope Summers sous le contrôle du premier joueur."
-	},
-	{
-		"code": "40139b",
+		"back_text": "<b>Contenu</b> : Mister Sinistre (I) et Mister Sinistre (II) <i>(Mister Sinistre (II) et Mister Sinistre (III) à la place en mode expert)</i>. Les sets de rencontre Mister Sinistre, Vol, Super Force, Télépathie, Hope Summers et Standard. Un set de rencontre modulaire <i>(Mauvais Garçons)</i>.\n<b>Mise en place</b> : mettez de côté les sets de Rencontre Vol, Super Force et Télépathie. Mettez en jeu Hope Summers sous le contrôle du premier joueur.",
+		"code": "40139",
 		"name": "Sinistre Dessein",
 		"flavor": "Le laboratoire secret dissimulé dans les profondeurs de l'orphelinat abandonné est rempli de cuves dans lesquelles sont plongées d'innocents mutants. Autant de cobayes pour les expérimentations de Sinistre.",
 		"text": "<b>Une fois révélée</b> : retirez de la partie un stade 2 sélectionné au hasard. Ensuite, avancez à un stade 2A sélectionné au hasard."
 	},
 	{
-		"code": "40140a",
-		"name": "Sinistres Expérimentations",
-		"flavor": "Mister Sinistre tente d'incorporer l'ADN d'autres mutants dans son propre génome."
-	},
-	{
-		"code": "40140b",
+		"back_name": "Sinistres Expérimentations",
+		"back_flavor": "Mister Sinistre tente d'incorporer l'ADN d'autres mutants dans son propre génome.",
+		"code": "40140",
 		"name": "Prêt à s'Envoler",
 		"text": "<b>Une fois révélée</b> : attachez l'attachement Vol à Mister Sinistre et mélangez dans le deck Rencontre le reste du set de rencontre Vol.\n<b>Une fois achevé</b> : avancez à l'autre stade 2A. Si vous ne pouvez pas, avancez au stade 3A."
 	},
 	{
-		"code": "40141a",
-		"name": "Sinistres Expérimentations",
-		"flavor": "Mister Sinistre tente d'incorporer l'ADN d'autres mutants dans son propre génome."
-	},
-	{
-		"code": "40141b",
+		"back_name": "Sinistres Expérimentations",
+		"back_flavor": "Mister Sinistre tente d'incorporer l'ADN d'autres mutants dans son propre génome.";
+		"code": "40141",
 		"name": "Prise de Masse",
 		"text": "<b>Une fois révélée</b> : attachez l'attachement Super Force à Mister Sinistre et mélangez dans le deck Rencontre le reste du set de rencontre Super Force.\n<b>Une fois achevé</b> : avancez à l'autre stade 2A. Si vous ne pouvez pas, avancez au stade 3A."
 	},
 	{
-		"code": "40142a",
-		"name": "Sinistres Expérimentations",
-		"flavor": "Mister Sinistre tente d'incorporer l'ADN d'autres mutants dans son propre génome."
-	},
-	{
-		"code": "40142b",
+		"back_name": "Sinistres Expérimentations",
+		"back_flavor": "Mister Sinistre tente d'incorporer l'ADN d'autres mutants dans son propre génome.",
+		"code": "40142",
 		"name": "Ultime Perception",
 		"text": "<b>Une fois révélée</b> : attachez l'attachement Télépathie à Mister Sinistre et mélangez dans le deck Rencontre le reste du set de rencontre Télépathie.\n<b>Une fois achevé</b> : avancez à l'autre stade 2A. Si vous ne pouvez pas, avancez au stade 3A."
 	},
 	{
-		"code": "40143a",
-		"name": "Sinistres Fins",
-		"flavor": "\"Contemplez ma puissance et tremblez de désespoir !\" glousse Sinistre. \"Une fois que j'aurais la mutation de Hope dans mon code génétique, je serai capable d'imiter le pouvoir de n'importe quel mutant et là... j'atteindrai la perfection !\"",
-		"text": "<b>Une fois révélée</b> : attribuez 1 carte Rencontre face cachée à chaque joueur."
-	},
-	{
-		"code": "40143b",
+		"back_flavor": "\"Contemplez ma puissance et tremblez de désespoir !\" glousse Sinistre. \"Une fois que j'aurais la mutation de Hope dans mon code génétique, je serai capable d'imiter le pouvoir de n'importe quel mutant et là... j'atteindrai la perfection !\"",
+		"back_text": "<b>Une fois révélée</b> : attribuez 1 carte Rencontre face cachée à chaque joueur.";
+		"code": "40143",
 		"name": "Sinistres Fins",
 		"flavor": "\"Je devrais vous remercier\", ricane Sinistre. \"Vous avez fait ce dont mes larbins empotés ont toujours été incapables : vous m'avez apporté de l'espoir avec Hope.\"",
 		"text": "<b>Interruption forcée</b> : quand Mister Sinistre attaque, il attaque Hope Summers à la place. <i>(D'autres peuvent défendre l'attaque.)</i>\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
@@ -703,9 +654,8 @@
 	},
 	{
 		"code": "40157",
-		"attack_text": "Les attaques du méchant gagnent À Distance.\n[star] <b>Réponse forcée</b> : après que le méchant a attaqué, défaussez cette carte.",
 		"name": "Lancer d'Objet",
-		"text": "Attachez cette carte au méchant.",
+		"text": "Attachez cette carte au méchant.\n[star] Les attaques du méchant gagnent À Distance.\n[star] <b>Réponse forcée</b> : après que le méchant a attaqué, défaussez cette carte.",
 		"traits": "Objet."
 	},
 	{
@@ -864,9 +814,11 @@
 		"traits": "Front de Libération des Mutants."
 	},
 	{
+		"attack_text": "<b>Réponse forcée</b> : après que Tempo s'est activée contre vous, défaussez du dessus de votre deck un nombre de cartes égal au nombre de cartes dans votre main multiplié par deux.",
 		"code": "40181",
 		"name": "Tempo",
-		"text": "Tant que Tempo est engagée avec vous, votre taille de main augmente de +1.\n[star] <b>Réponse forcée</b> : après que Tempo s'est activée contre vous, défaussez du dessus de votre deck un nombre de cartes égal au nombre de cartes dans votre main multiplié par deux.",
+		"scheme_text": "<b>Réponse forcée</b> : après que Tempo s'est activée contre vous, défaussez du dessus de votre deck un nombre de cartes égal au nombre de cartes dans votre main multiplié par deux.",
+		"text": "Tant que Tempo est engagée avec vous, votre taille de main augmente de +1.",
 		"traits": "Front de Libération des Mutants."
 	},
 	{
