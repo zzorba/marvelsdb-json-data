@@ -9,13 +9,16 @@
 		"position": 25,
 		"quantity": 1,
 		"set_code": "colossus",
+		"text": "<b><i>Give to the Piotr Rasputin player.</i></b>\nYou may flip to alter-ego form. Choose:\n- Exhaust Piotr Rasputin → remove Homesick from the game.\n- Discard this card and each tough status card from your identity. If you discarded no tough status cards this way, this card gains surge.",
 		"type_code": "obligation"
 	},
 	{
 		"attack": 4,
 		"boost": 2,
+		"boost_text": "If this activation is an attack, that attack gains overkill and piercing.",
 		"code": "32026",
 		"faction_code": "encounter",
+		"flavor": "\"Nothing can stop the Juggernaut!\"",
 		"health": 8,
 		"is_unique": true,
 		"name": "Juggernaut",
@@ -35,16 +38,21 @@
 		"boost": 3,
 		"code": "32027",
 		"faction_code": "encounter",
+		"flavor": "Juggernaut possesses the power of Cyttorak, but it also drives him mad.",
 		"name": "Rampaging Juggernaut",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032027",
 		"pack_code": "mut_gen",
 		"position": 27,
 		"quantity": 1,
+		"scheme_boost": "1",
 		"set_code": "colossus_nemesis",
 		"set_position": 2,
+		"text": "<b>When Revealed</b>: Discard each tough status card from each friendly character. Place 2 threat here for each tough status card discarded this way.",
 		"type_code": "side_scheme"
 	},
 	{
+		"attack": 2,
+		"attack_text": "<b>Forced Interrupt</b>: When attached enemy attacks, the attack gains overkill and piercing. At the end of this attack, discard Unstoppable.",
 		"boost": 2,
 		"code": "32028",
 		"faction_code": "encounter",
@@ -55,12 +63,15 @@
 		"quantity": 2,
 		"set_code": "colossus_nemesis",
 		"set_position": 3,
+		"text": "Attach to the enemy with the highest printed ATK without a copy of Unstoppable attached. Otherwise, this card gains surge.",
 		"type_code": "attachment"
 	},
 	{
 		"boost": 2,
+		"boost_text": "Reveal this card.",
 		"code": "32029",
 		"faction_code": "encounter",
+		"flavor": "\"Don't you know who I am?\" - Juggernaut",
 		"name": "Slammed",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032029",
 		"pack_code": "mut_gen",
@@ -68,6 +79,7 @@
 		"quantity": 1,
 		"set_code": "colossus_nemesis",
 		"set_position": 5,
+		"text": "<b>When Revealed</b>: You are stunned. If you are already stunned, take 2 damage",
 		"type_code": "treachery"
 	},
 	{
@@ -80,11 +92,13 @@
 		"position": 55,
 		"quantity": 1,
 		"set_code": "shadowcat",
+		"text": "<b><i>Give to the Kitty Pryde player.</i></b>\nFlip your mass form upgrade to Phased. You cannot attack, defend or change mass form.\n<b>Alter-Ego Action</b>: Exhaust Kitty Pryde → remove Permanently Phased from the game.",
 		"type_code": "obligation"
 	},
 	{
 		"attack": 1,
 		"boost": 1,
+		"boost_text": "You are confused.",
 		"code": "32056",
 		"faction_code": "encounter",
 		"health": 5,
@@ -97,7 +111,7 @@
 		"scheme": 1,
 		"set_code": "shadowcat_nemesis",
 		"set_position": 1,
-		"text": "Villainous.",
+		"text": "Villainous.\nWhile White Queen is engaged with you, you are confused. <i>(Shadowcat's nemesis minion.)</i>",
 		"traits": "Elite. Psionic.",
 		"type_code": "minion"
 	},
@@ -114,10 +128,12 @@
 		"scheme_acceleration": 1,
 		"set_code": "shadowcat_nemesis",
 		"set_position": 2,
+		"text": "<b>When Defeated</b>: The player who defeated this scheme searches the encounter deck, discard pile, and set-aside area for a copy of the Hellfire Pawn minion and puts it into play engaged with them. <i>(Shuffle.)</i>",
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 2,
+		"boost_text": "Put Hellfire Pawn into play engaged with you.",
 		"code": "32058",
 		"faction_code": "encounter",
 		"health": 3,
@@ -137,6 +153,7 @@
 		"boost": 2,
 		"code": "32059",
 		"faction_code": "encounter",
+		"flavor": "\"Be a dear and don't move... or talk. That's better.\" - White Queen",
 		"name": "Telepathic Restraint",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032059",
 		"pack_code": "mut_gen",
@@ -144,22 +161,26 @@
 		"quantity": 1,
 		"set_code": "shadowcat_nemesis",
 		"set_position": 5,
+		"text": "Attach to your identity.\nWhile Telepathic Restraint is attached to your identity, you are stunned.\n<b>Action</b>: Spend [mental] [mental] resources → discard this card.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After Sabretooth activates against you, discard the top card of the encounter deck. Heal damage from Sabretooth equal to the number of boost icons ([boost]) discarded this way.",
 		"code": "32060",
 		"faction_code": "encounter",
+		"flavor": "\"I'll rip yer guts out!\"",
 		"health": 13,
 		"health_per_hero": true,
 		"is_unique": true,
-		"name": "Sabretooth I",
+		"name": "Sabretooth",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032060",
 		"pack_code": "mut_gen",
 		"position": 60,
 		"quantity": 1,
 		"scheme": 1,
+		"scheme_text": "<b>Forced Response</b>: After Sabretooth activates against you, discard the top card of the encounter deck. Heal damage from Sabretooth equal to the number of boost icons ([boost]) discarded this way.",
 		"set_code": "sabretooth",
 		"set_position": 1,
 		"stage": 1,
@@ -168,17 +189,19 @@
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After Sabretooth activates against you, discard the top card of the encounter deck. Heal damage from Sabretooth equal to the number of boost icons ([boost]) discarded this way.",
 		"code": "32061",
 		"faction_code": "encounter",
 		"health": 15,
 		"health_per_hero": true,
 		"is_unique": true,
-		"name": "Sabretooth II",
+		"name": "Sabretooth",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032061",
 		"pack_code": "mut_gen",
 		"position": 61,
 		"quantity": 1,
 		"scheme": 2,
+		"scheme_text": "<b>Forced Response</b>: After Sabretooth activates against you, discard the top card of the encounter deck. Heal damage from Sabretooth equal to the number of boost icons ([boost]) discarded this way.",
 		"set_code": "sabretooth",
 		"set_position": 2,
 		"stage": 2,
@@ -188,17 +211,19 @@
 	},
 	{
 		"attack": 3,
+		"attack_text": "<b>Forced Response</b>: After Sabretooth activates against you, discard the top card of the encounter deck. Heal damage from Sabretooth equal to the number of boost icons ([boost]) discarded this way.",
 		"code": "32062",
 		"faction_code": "encounter",
 		"health": 18,
 		"health_per_hero": true,
 		"is_unique": true,
-		"name": "Sabretooth III",
+		"name": "Sabretooth",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032062",
 		"pack_code": "mut_gen",
 		"position": 62,
 		"quantity": 1,
 		"scheme": 2,
+		"scheme_text": "<b>Forced Response</b>: After Sabretooth activates against you, discard the top card of the encounter deck. Heal damage from Sabretooth equal to the number of boost icons ([boost]) discarded this way.",
 		"set_code": "sabretooth",
 		"set_position": 3,
 		"stage": 3,
@@ -217,6 +242,7 @@
 		"quantity": 1,
 		"set_code": "sabretooth",
 		"set_position": 4,
+		"text": "<b>Contents:</b> Sabretooth (I) and Sabretooth (II). <i>(Sabretooth (II) and Sabretooth (III) for expert mode.)</i> Sabretooth and Standard sets. Two modular sets (<i>Brotherhood</i> and <i>Mystique</i>).\n<b>Setup:</b> Put the Find the Senator side scheme into play. Attach the Robert Kelly to it. While attached to Find the Senator, Robert Kelly is in play but under no player's control.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -231,12 +257,14 @@
 		"quantity": 1,
 		"set_code": "sabretooth",
 		"set_position": 4,
+		"text": "<b>[star] Forced Response:</b> After resolving step 1 of the villain phase, deal 2 damage to Robert Kelly (3 damage instead if there is at least 6[per_hero] threat here).\nWhile Robert Kelly is attached to Find the Senator, treat his text box as if it were blank.\n<b>If Robert Kelly leaves play, the players lose the game.</b>",
 		"type_code": "main_scheme"
 	},
 	{
 		"back_link": "32064b",
 		"code": "32064a",
 		"faction_code": "encounter",
+		"flavor": "Sabretooth has wounded Senator Kelly and continues to hound him!",
 		"name": "The Injured Senator 2A",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032064",
 		"pack_code": "mut_gen",
@@ -244,6 +272,7 @@
 		"quantity": 1,
 		"set_code": "sabretooth",
 		"set_position": 5,
+		"text": "<b>When Revealed</b>: Deal each player a facedown encounter card.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -251,6 +280,7 @@
 		"code": "32064b",
 		"escalation_threat": 1,
 		"faction_code": "encounter",
+		"flavor": "Get Robert Kelly to safety before Sabretooth finishes the job.",
 		"name": "The Injured Senator 2B",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032064",
 		"pack_code": "mut_gen",
@@ -258,6 +288,8 @@
 		"quantity": 1,
 		"set_code": "sabretooth",
 		"set_position": 5,
+		"text": "<b>When Completed</b>: Defeat Robert Kelly.\n<b>If Robert Kelly leaves play, the players lose the game.</b>",
+		"threat": 9,
 		"type_code": "main_scheme"
 	},
 	{
@@ -270,8 +302,10 @@
 		"pack_code": "mut_gen",
 		"position": 65,
 		"quantity": 1,
+		"scheme_crisis": 1,
 		"set_code": "sabretooth",
 		"set_position": 6,
+		"text": "Robert Kelly cannot be healed by player card effects and cannot have upgrades attached.\n<b>When Defeated</b>: The first player detaches Robert Kelly from this scheme and takes control of him. Advance to main scheme 2A. Flip this card and place it next the main scheme.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -284,6 +318,8 @@
 		"quantity": 1,
 		"set_code": "sabretooth",
 		"set_position": 6,
+		"text": "Robert Kelly cannot be healed by player card effects and cannot have upgrades attached.\n<b>Hero Response</b>: After your hero defends against an attack from Sabretooth, spend 2 resources of any type → ready your hero. Only the player who controls Robert Kelly can trigger this ability.",
+		"traits": "Mission.",
 		"type_code": "environment"
 	},
 	{
@@ -306,6 +342,9 @@
 		"type_code": "ally"
 	},
 	{
+		"attack": 1,
+		"attack_text": "Sabretooth's attacks gain piercing.",
+		"boost_text": "Attach this card to Sabretooth.",
 		"code": "32067",
 		"faction_code": "encounter",
 		"name": "Adamantium Claws",
@@ -315,10 +354,12 @@
 		"quantity": 1,
 		"set_code": "sabretooth",
 		"set_position": 8,
+		"text": "Attach to Sabretooth.\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "Attach this card to Sabretooth.",
 		"code": "32068",
 		"faction_code": "encounter",
 		"name": "Animal Ferocity",
@@ -328,10 +369,12 @@
 		"quantity": 1,
 		"set_code": "sabretooth",
 		"set_position": 9,
+		"text": "Attach to Sabretooth.\nSabretooth gains stalwart. <i>(This character cannot be stunned or confused.)\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "If this attack defeats an ally, place 2 threat on the main scheme.",
 		"code": "32069",
 		"faction_code": "encounter",
 		"name": "Sabretooth Strikes",
@@ -341,6 +384,7 @@
 		"quantity": 2,
 		"set_code": "sabretooth",
 		"set_position": 10,
+		"text": "<b>When Revealed</b>: Deal 1 damage to Robert Kelly. You may exhaust your hero to prevent this.",
 		"type_code": "treachery"
 	},
 	{
@@ -354,6 +398,7 @@
 		"quantity": 4,
 		"set_code": "sabretooth",
 		"set_position": 12,
+		"text": "<b>When Revealed (Alter_Ego)</b>: Sabretooth schemes. If he has no sustained damage, he gets +1 SCH for this activation.\n<b>When Revealed (Hero)</b>: Sabretooth attacks you. If he has no sustained damage, he gets +1 ATK for this activation.",
 		"type_code": "treachery"
 	},
 	{
@@ -370,7 +415,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "sabretooth",
 		"set_position": 16,
-		"text": "Hinder 2[per_hero].\nVictory 1.",
+		"text": "Hinder 2[per_hero].\nVictory 1.\n<b>When Defeated</b>: Heal 2 damage from Robert Kelly.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -379,7 +424,8 @@
 		"boost": 3,
 		"code": "32072",
 		"faction_code": "encounter",
-		"name": "Deral Rage",
+		"flavor": "Sabretooth has worked himself into a frenzy in his hunt for Kelly. You need to draw his attention away from the Senator!",
+		"name": "Feral Rage",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032072",
 		"pack_code": "mut_gen",
 		"position": 72,
@@ -387,11 +433,14 @@
 		"scheme_crisis": 1,
 		"set_code": "sabretooth",
 		"set_position": 17,
+		"text": "<b>When Defeated</b>: Sabretooth attacks the player who defeated this scheme (even if that player is in alter-ego form).",
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 3,
+		"attack_text": "<b>Forced Response</b>: After Avalanche attacks you, exhaust a character you control.",
 		"boost": 1,
+  		"boost_text": "Exhaust a character you control.",
 		"code": "32073",
 		"faction_code": "encounter",
 		"health": 5,
@@ -409,9 +458,11 @@
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After Blob attacks and damages a character, stun that character.",
 		"boost": 2,
 		"code": "32074",
 		"faction_code": "encounter",
+		"flavor": "Nothing moves the Blob!",
 		"health": 6,
 		"is_unique": true,
 		"name": "Blob",
@@ -428,9 +479,11 @@
 	},
 	{
 		"attack": 0,
+		"attack_text": "<b>Forced Response</b>: After Pyro attacks you, discard the top 2 cards of your deck. Take 1 indirect damage for each printed resource icon discarded this way.",
 		"boost": 2,
 		"code": "32075",
 		"faction_code": "encounter",
+		"flavor": "I always play with fire. And I never get burned!",
 		"health": 4,
 		"is_unique": true,
 		"name": "Pyro",
@@ -446,7 +499,9 @@
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After Toad attacks and damages a character you control, discard 1 random card from your hand.",
 		"boost": 1,
+		"boost_text": "Discard 1 random card from your hand.",
 		"code": "32076",
 		"faction_code": "encounter",
 		"health": 3,
@@ -464,6 +519,7 @@
 	},
 	{
 		"boost": 1,
+		"boost_text": "Attach this card to a minion and give it a tough status card.",
 		"code": "32077",
 		"faction_code": "encounter",
 		"name": "Homo Superior",
@@ -473,6 +529,7 @@
 		"quantity": 2,
 		"set_code": "brotherhood",
 		"set_position": 5,
+		"text": "Attach to a minion and give it a tough status card. Otherwise, this card gains surge.\nAttached minion gets +5 hit points.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -487,6 +544,7 @@
 		"quantity": 1,
 		"set_code": "brotherhood",
 		"set_position": 7,
+		"text": "<b>When Revealed</b>: Search the encounter deck and discard pile for The Brotherhood side scheme and reveal it. <i>(Shuffle.)</i> If it did not enter play this way, discard cards from the top of the encounter deck until a [[Brotherhood of Mutants]] minion is discarded and reveal it.",
 		"type_code": "treachery"
 	},
 	{
@@ -495,6 +553,7 @@
 		"boost": 3,
 		"code": "32079",
 		"faction_code": "encounter",
+		"flavor": "Magneto assembled the Brotherhood of Mutants to enact his plan for mutant dominance.",
 		"name": "The Brotherhood",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032079",
 		"pack_code": "mut_gen",
@@ -503,13 +562,15 @@
 		"scheme_hazard": 1,
 		"set_code": "brotherhood",
 		"set_position": 8,
-		"text": "Hinder 2[per_hero].",
+		"text": "Hinder 2[per_hero].\nEach [[Brotherhood of Mutants]] minion gains quickstrike.",
 		"type_code": "side_scheme"
 	},
 	{
+		"attack_text": "Mystique's SCH is equal to the villain's SCH, and her ATK is equal to the villain's ATK.",
 		"boost": 3,
 		"code": "32080",
 		"faction_code": "encounter",
+		"flavor": "I am not a woman to be trifled with!",
 		"health": 9,
 		"is_unique": true,
 		"name": "Mystique",
@@ -517,9 +578,10 @@
 		"pack_code": "mut_gen",
 		"position": 80,
 		"quantity": 1,
+		"scheme_text": "Mystique's SCH is equal to the villain's SCH, and her ATK is equal to the villain's ATK.",
 		"set_code": "mystique",
 		"set_position": 1,
-		"text": "Toughness.",
+		"text": "Toughness.\nPlayers cannot attack the villain.",
 		"traits": "Brotherhood of Mutants. Elite.",
 		"type_code": "minion"
 	},
@@ -529,6 +591,7 @@
 		"boost": 3,
 		"code": "32081",
 		"faction_code": "encounter",
+		"flavor": "Mystique's shapeshifting makes her all manner of trouble.",
 		"name": "Metamorphic Mayhem",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032081",
 		"pack_code": "mut_gen",
@@ -537,6 +600,7 @@
 		"scheme_boost": "1",
 		"set_code": "mystique",
 		"set_position": 2,
+		"text": "<b>When Defeated</b>: The player who defeated this scheme shuffles each [[Shapeshifter]] card from the encounter discard pile into their deck.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -550,6 +614,7 @@
 		"quantity": 2,
 		"set_code": "mystique",
 		"set_position": 3,
+		"text": "<b>When Revealed</b>: Shuffle this card into your deck. This card gains surge.\n<b>Forced Response</b>: After this card enters your hand, discard an ally or support you control. <i>(You may discard this card from your hand at the end of the player phase like any other card.)</i>",
 		"traits": "Shapeshifter.",
 		"type_code": "treachery"
 	},
@@ -564,6 +629,7 @@
 		"quantity": 1,
 		"set_code": "mystique",
 		"set_position": 5,
+		"text": "<b>When Revealed</b>: Shuffle this card into your deck. This card gains surge.\n<b>Forced Response</b>: After this card enters your hand, Mystique activates against you. Otherwise, search the encounter deck and discard pile for Mystique an reveal her.",
 		"traits": "Shapeshifter.",
 		"type_code": "treachery"
 	},
@@ -573,7 +639,7 @@
 		"faction_code": "encounter",
 		"health": 16,
 		"health_per_hero": true,
-		"name": "Sentinel I",
+		"name": "Sentinel",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032084",
 		"pack_code": "mut_gen",
 		"position": 84,
@@ -582,7 +648,7 @@
 		"set_code": "project_wideawake",
 		"set_position": 1,
 		"stage": 1,
-		"text": "Toughness.",
+		"text": "Toughness.\n<b>When Revealed</b>: The first player searches the encounter deck and discard pile for a copy of the Abduction Protocols side scheme and reveals it. <i>(Shuffle.)</i>",
 		"traits": "Sentinel.",
 		"type_code": "villain"
 	},
@@ -592,7 +658,7 @@
 		"faction_code": "encounter",
 		"health": 18,
 		"health_per_hero": true,
-		"name": "Sentinel II",
+		"name": "Sentinel",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032085",
 		"pack_code": "mut_gen",
 		"position": 85,
@@ -601,7 +667,7 @@
 		"set_code": "project_wideawake",
 		"set_position": 2,
 		"stage": 2,
-		"text": "Steady. Toughness.",
+		"text": "Steady. Toughness.\n<b>When Revealed</b>: The first player searches the encounter deck and discard pile for a copy of the Abduction Protocols side scheme and reveals it. <i>(Shuffle.)</i> Deal each other player a facedown encounter card.",
 		"traits": "Sentinel.",
 		"type_code": "villain"
 	},
@@ -611,7 +677,7 @@
 		"faction_code": "encounter",
 		"health": 22,
 		"health_per_hero": true,
-		"name": "Sentinel III",
+		"name": "Sentinel",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032086",
 		"pack_code": "mut_gen",
 		"position": 86,
@@ -620,7 +686,7 @@
 		"set_code": "project_wideawake",
 		"set_position": 3,
 		"stage": 3,
-		"text": "Stalwart. Toughness.",
+		"text": "Stalwart. Toughness.\n<b>When Revealed</b>: The first player searches the encounter deck and discard pile for a copy of the Abduction Protocols side scheme and reveals it. <i>(Shuffle.)</i> Deal each other player a facedown encounter card.",
 		"traits": "Sentinel.",
 		"type_code": "villain"
 	},
@@ -636,6 +702,7 @@
 		"quantity": 1,
 		"set_code": "project_wideawake",
 		"set_position": 4,
+		"text": "<b>Contents:</b> Sentinel (I) and Sentinel (II). <i>(Sentinel (II) and Sentinel (III) for expert mode.)</i> Project Wideawake, Zero Tolerance, and Standard sets. One modular set (<i>Sentinels</i>).\n<b>Setup:</b> Set each [[Captive]] ally aside. Reveal the Operation Zero Tolerance and Mutants at the Mall side schemes.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -651,6 +718,7 @@
 		"quantity": 1,
 		"set_code": "project_wideawake",
 		"set_position": 4,
+		"text": "Operation Zero Tolerance gains permanent.\n<b>Forced Response</b>: After threat is placed here, if there is at least 5[per_hero] threat here, the first player places the top card of their deck facedown under Operation Zero Tolerance. Then, remove 5[per_hero] threat from this scheme.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -660,7 +728,7 @@
 		"code": "32088a",
 		"double_sided": true,
 		"faction_code": "encounter",
-		"name": "Mutant at the Mall",
+		"name": "Mutants at the Mall",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032088",
 		"pack_code": "mut_gen",
 		"position": 88,
@@ -668,6 +736,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "project_wideawake",
 		"set_position": 5,
+		"text": "<b>When Defeated</b>: The first player searches the encounter deck and discard pile for a [[Sentinel]] minion and reveals it. Flip this card and put Jubilee into play, discarding any other version of Jubilee from play.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -700,6 +769,7 @@
 		"code": "32089",
 		"cost": 2,
 		"faction_code": "encounter",
+		"flavor": "\"Man...have you got one weird life ahead of you.\"",
 		"health": 3,
 		"is_unique": true,
 		"name": "Rictor",
@@ -730,6 +800,7 @@
 		"pack_code": "mut_gen",
 		"position": 90,
 		"quantity": 1,
+		"resource_wild": 1,
 		"set_code": "project_wideawake",
 		"set_position": 7,
 		"subname": "Tabitha Smith",
@@ -745,6 +816,7 @@
 		"code": "32091",
 		"cost": 2,
 		"faction_code": "encounter",
+		"flavor": "\"Ah'm pretty much invulnerable when Ah'm blastin'.\"",
 		"health": 3,
 		"is_unique": true,
 		"name": "Cannonball",
@@ -752,6 +824,7 @@
 		"pack_code": "mut_gen",
 		"position": 91,
 		"quantity": 1,
+		"resource_wild": 1,
 		"set_code": "project_wideawake",
 		"set_position": 8,
 		"subname": "Sam Guthrie",
@@ -767,6 +840,7 @@
 		"code": "32092",
 		"cost": 2,
 		"faction_code": "encounter",
+		"flavor": "\"I dinna ken why ye're doin' this. But if'n ye hurt my friends, then yuir in fer a world o' hurt!\"",
 		"health": 3,
 		"is_unique": true,
 		"name": "Wolfsbane",
@@ -774,6 +848,7 @@
 		"pack_code": "mut_gen",
 		"position": 92,
 		"quantity": 1,
+		"resource_wild": 1,
 		"set_code": "project_wideawake",
 		"set_position": 9,
 		"subname": "Rahne Sinclair",
@@ -784,6 +859,7 @@
 		"type_code": "ally"
 	},
 	{
+		"boost_text": "Put Sentinel Mark IV into play engaged with you.",
 		"attack": 2,
 		"code": "32093",
 		"faction_code": "encounter",
@@ -801,7 +877,10 @@
 		"type_code": "minion"
 	},
 	{
+		"attack": 1,
+		"attack_text": "The villain's attacks gain piercing and ranged.",
 		"boost": 1,
+		"boost_text": "Exhaust your identity.",
 		"code": "32094",
 		"faction_code": "encounter",
 		"name": "Gauntlet Beam",
@@ -811,11 +890,12 @@
 		"quantity": 2,
 		"set_code": "project_wideawake",
 		"set_position": 12,
-		"text": "Attach to the villain.\n[star] The villain's attacks gain piercing and ranged.",
+		"text": "Attach to the villain.\n<b>Hero Action</b>: Spend [physical] [physical] [physical] resources → discard this card.",
 		"traits": "Sentinel. Tech.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "Attach this card to the villain.",
 		"code": "32095",
 		"faction_code": "encounter",
 		"name": "Learning A.I.",
@@ -823,13 +903,15 @@
 		"pack_code": "mut_gen",
 		"position": 95,
 		"quantity": 1,
+		"scheme": 1,
 		"set_code": "project_wideawake",
 		"set_position": 14,
-		"text": "Attach to the villain.\n[star] The villain gains retaliate 1.",
+		"text": "Attach to the villain.\nThe villain gains retaliate 1.\n<b>Hero Action</b>: Spend [mental] [mental] [mental] resources → discard this card.",
 		"traits": "Sentinel. Tech.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "Attach this card to the villain.",
 		"code": "32096",
 		"faction_code": "encounter",
 		"name": "Adaptive Armor",
@@ -839,11 +921,12 @@
 		"quantity": 1,
 		"set_code": "project_wideawake",
 		"set_position": 15,
-		"text": "Attach to the villain.\n[star] The villain gets +8 hit points.",
+		"text": "Attach to the villain.\nThe villain gets +8 hit points.\n<b>Hero Action</b>: Spend [energy] [energy] [energy] resources → discard this card.",
 		"traits": "Sentinel. Tech.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_text": "Give the villain a tough status card.",
 		"code": "32097",
 		"faction_code": "encounter",
 		"name": "Self-Repair",
@@ -853,6 +936,7 @@
 		"quantity": 1,
 		"set_code": "project_wideawake",
 		"set_position": 16,
+		"text": "<b>When Revealed</b>: Discard each status card from the villain. Give the villain a tough status card and heal 5 damage from it.",
 		"type_code": "treachery"
 	},
 	{
@@ -864,6 +948,7 @@
 		"pack_code": "mut_gen",
 		"position": 98,
 		"quantity": 2,
+		"text": "<b>When Revealed</b>: Choose:\n- Place the top card of your deck facedown under Operation Zero Tolerance.\n- The villain and each minion engaged with you attacks you <i>(even if you are in alter-ego form)</i>.",
 		"set_code": "project_wideawake",
 		"set_position": 17,
 		"type_code": "treachery"
@@ -872,6 +957,7 @@
 		"boost": 2,
 		"code": "32099",
 		"faction_code": "encounter",
+		"flavor": "\"If we don't get to our friends first, they'll be captured for sure! - Iceman\"",
 		"name": "Warn the Others",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032099",
 		"pack_code": "mut_gen",
@@ -879,7 +965,8 @@
 		"quantity": 2,
 		"set_code": "project_wideawake",
 		"set_position": 19,
-		"type_code": "treachery"
+		"text": "<b>Forced Response</b>: After your turn ends, place this card facedown under Operation Zero Tolerance.\n<b>Alter-Ego Action</b>: Exhaust your identity → discard this card.",
+		"type_code": "obligation"
 	},
 	{
 		"base_threat": 2,
@@ -895,7 +982,7 @@
 		"scheme_crisis": 1,
 		"set_code": "project_wideawake",
 		"set_position": 21,
-		"text": "Hinder 2[per_hero]. Victory 2.",
+		"text": "Hinder 2[per_hero]. Victory 2.\n<b>When Defeated</b>: The player who defeated this scheme takes 1 random set-aside [[Captive]] ally and puts it into play under their control.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -912,10 +999,12 @@
 		"scheme": 1,
 		"set_code": "zero_tolerance",
 		"set_position": 1,
+		"text": "<b>When Revealed</b>: If Operation Zero Tolerance is in play, Sentinel Mark II gains surge. Otherwise, search the encounter deck and discard pile for the Operation Zero Tolerance side scheme and reveal it. <i>(Shuffle.)</i>",
 		"traits": "Sentinel.",
 		"type_code": "minion"
 	},
 	{
+		"boost_text": "You are stunned. If you are already stunned, take 2 damage.",
 		"attack": 3,
 		"code": "32102",
 		"faction_code": "encounter",
@@ -928,11 +1017,13 @@
 		"scheme": 2,
 		"set_code": "zero_tolerance",
 		"set_position": 3,
-		"text": "Toughness.",
+		"text": "Toughness.\n<b>When Revealed</b>: Search the encounter deck and discard pile for the Energy Barrier attachement and attach it to this minion.",
 		"traits": "Sentinel.",
 		"type_code": "minion"
 	},
 	{
+		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After attached minion attacks, give it a tough status card.",
 		"boost": 1,
 		"code": "32103",
 		"faction_code": "encounter",
@@ -943,6 +1034,7 @@
 		"quantity": 2,
 		"set_code": "zero_tolerance",
 		"set_position": 5,
+		"text": "Attach to a [[Sentinel]] minion without Energy Barrier attached and give it a tough status card. Otherwise, this card gains surge.",
 		"traits": "Sentinel. Tech.",
 		"type_code": "attachment"
 	},
@@ -958,6 +1050,7 @@
 		"quantity": 1,
 		"set_code": "zero_tolerance",
 		"set_position": 7,
+		"text": "<b>Forced Response</b>: After an enemy attacks and defeats an ally, place that ally facedown under this scheme.\n<b>If there are X facedown cards under this scheme, the players lose the game. X is 3 more than the number of players.</b>",
 		"type_code": "side_scheme"
 	},
 	{
@@ -974,11 +1067,13 @@
 		"scheme": 1,
 		"set_code": "sentinels",
 		"set_position": 1,
+		"text": "<b>When Revealed</b>: If Targeted for Elimination is attached to your identity, Sentinel Mark V attacks you <i>(even if you are in alter-ego form). Otherwise, search the encounter deck and discard pile for the Targeted for Elimination attachement and reveal it.</i>",
 		"traits": "Sentinel.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
+		"boost_text": "If Targeted for Elimination is attached to an identity, deal this card to that player as a facedown encounter card.",
 		"code": "32106",
 		"faction_code": "encounter",
 		"health": 6,
@@ -1005,6 +1100,7 @@
 		"quantity": 2,
 		"set_code": "sentinels",
 		"set_position": 5,
+		"text": "Attach to your identity if a copy of Targeted for Elimination is not attached to you. Otherwise, this card gains surge.\nWhile you are engaged with a [[Sentinel]] minion, you cannot change from hero form to alter-ego form.\n<b>Action</b>: Exhaust your identity → discard this card.",
 		"type_code": "attachment"
 	},
 	{
@@ -1012,6 +1108,7 @@
 		"boost": 3,
 		"code": "32108",
 		"faction_code": "encounter",
+		"flavor": "Sentinels were constructed solely for hunting mutants. They do not tire. They do not stop until they capture their target.",
 		"name": "Relentless Robots",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032108",
 		"pack_code": "mut_gen",
@@ -1020,6 +1117,7 @@
 		"scheme_hazard": 1,
 		"set_code": "sentinels",
 		"set_position": 7,
+		"text": "Each player engaged with a [[Sentinel]] minion cannot thwart this scheme.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1029,12 +1127,13 @@
 		"health": 12,
 		"health_per_hero": true,
 		"is_unique": true,
-		"name": "Master Mold I",
+		"name": "Master Mold",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032109",
 		"pack_code": "mut_gen",
 		"position": 109,
 		"quantity": 1,
 		"scheme": 1,
+		"scheme_text": "<b>Forced Interrupt</b>: When Master Mold schemes against you, discard cards from the encounter deck until a [[Sentinel]] minion is discarded. Put that minion into play engaged with you. Do not give Master Mold a boost card for this activation.",
 		"set_code": "master_mold",
 		"set_position": 1,
 		"stage": 1,
@@ -1049,12 +1148,13 @@
 		"health": 14,
 		"health_per_hero": true,
 		"is_unique": true,
-		"name": "Master Mold II",
+		"name": "Master Mold",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032110",
 		"pack_code": "mut_gen",
 		"position": 110,
 		"quantity": 1,
 		"scheme": 2,
+		"scheme_text": "<b>Forced Interrupt</b>: When Master Mold schemes against you, discard cards from the encounter deck until a [[Sentinel]] minion is discarded. Put that minion into play engaged with you. Do not give Master Mold a boost card for this activation.",
 		"set_code": "master_mold",
 		"set_position": 2,
 		"stage": 2,
@@ -1069,12 +1169,13 @@
 		"health": 16,
 		"health_per_hero": true,
 		"is_unique": true,
-		"name": "Master Mold III",
+		"name": "Master Mold",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032111",
 		"pack_code": "mut_gen",
 		"position": 111,
 		"quantity": 1,
 		"scheme": 3,
+		"scheme_text": "<b>Forced Interrupt</b>: When Master Mold schemes against you, discard cards from the encounter deck until a [[Sentinel]] minion is discarded. Put that minion into play engaged with you. Do not give Master Mold a boost card for this activation.",
 		"set_code": "master_mold",
 		"set_position": 3,
 		"stage": 3,
@@ -1093,6 +1194,7 @@
 		"quantity": 1,
 		"set_code": "master_mold",
 		"set_position": 4,
+		"text": "<b>Contents:</b> Master Mold (I) and Master Mold (II). <i>(Master Mold (II) and Master Mold (III) for expert mode.)</i> Master Mold, Sentinels, and Standard sets. One modular set (<i>Zero Tolerance</i>).\n<b>Setup:</b> Put the Magneto Ally (172B) into play under the first player's control.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -1107,6 +1209,7 @@
 		"quantity": 1,
 		"set_code": "master_mold",
 		"set_position": 4,
+		"text": "Each [[Sentinel]] minion gains guard.\n<b>When Revealed</b>: Each player discards cards from the encounter deck until they discard a [[Sentinel]] minion, then puts it into play engaged with them.",
 		"threat": 6,
 		"type_code": "main_scheme"
 	},
@@ -1121,6 +1224,7 @@
 		"quantity": 1,
 		"set_code": "master_mold",
 		"set_position": 5,
+		"text": "<b>When Revealed</b>: Shuffle the encounter discard pile into the encounter deck. Each player discards cards from the encounter deck until they discard a [[Sentinel]] minion, then puts it into play engaged with them.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -1128,6 +1232,7 @@
 		"code": "32113b",
 		"escalation_threat": 1,
 		"faction_code": "encounter",
+		"flavor": "Master Mold's programming has backfired! Recognizing that mutants come from humans, the giant Sentinel is programming its 'offspring' to subdue everyone on Earth!",
 		"name": "Master Mold's Agenda B",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032113",
 		"pack_code": "mut_gen",
@@ -1135,6 +1240,7 @@
 		"quantity": 1,
 		"set_code": "master_mold",
 		"set_position": 5,
+		"text": "Each [[Sentinel]] minion gains guard.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 8,
 		"type_code": "main_scheme"
 	},
@@ -1143,6 +1249,7 @@
 		"boost": 2,
 		"code": "32114",
 		"faction_code": "encounter",
+		"flavor": "\"They've upgraded their armor!\" - Cyclops",
 		"health": 8,
 		"name": "Sentinel Mark VIII",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032114",
@@ -1152,10 +1259,13 @@
 		"scheme": 3,
 		"set_code": "master_mold",
 		"set_position": 6,
+		"text": "<b>Forced Response</b>: After this minion engages you, attach the topmost [[Sentinel]] attachement from the discard pile to this minion.",
 		"traits": "Sentinel.",
 		"type_code": "minion"
 	},
 	{
+		"attack": 1,
+		"boost_text": "Attach to a [[Sentinel]] minion.",
 		"code": "32115",
 		"faction_code": "encounter",
 		"name": "Unit Upgrade",
@@ -1163,12 +1273,16 @@
 		"pack_code": "mut_gen",
 		"position": 115,
 		"quantity": 2,
+		"scheme": 1,
 		"set_code": "master_mold",
 		"set_position": 8,
+		"text": "Attach to a [[Sentinel]] minion. Otherwise, this card gains surge.\nAttached minion gets +2 hit points and gains retaliate 1.",
 		"traits": "Sentinel. Tech.",
 		"type_code": "attachment"
 	},
 	{
+		"attack": 1,
+		"attack_text": "<b>Forced Response</b>: After attached minion attacks and damages a character, stun that character.",
 		"boost": 2,
 		"code": "32116",
 		"faction_code": "encounter",
@@ -1179,6 +1293,7 @@
 		"quantity": 2,
 		"set_code": "master_mold",
 		"set_position": 10,
+		"text": "Attach to a [[Sentinel]] minion without Stun Beam attached. Otherwise, this card gains surge.",
 		"traits": "Sentinel. Tech.",
 		"type_code": "attachment"
 	},
@@ -1193,9 +1308,11 @@
 		"quantity": 2,
 		"set_code": "master_mold",
 		"set_position": 12,
+		"text": "<b>When Revealed (Alter-Ego)</b>: Each minion engaged with you schemes. If you are not engaged with a minion, Master Mold schemes.\n<b>When Revealed (Hero)</b>: Each minion engaged with you attacks you. If you are not engaged with a minion, Master Mold attacks you.",
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "Give the villain a tough status card.",
 		"code": "32118",
 		"faction_code": "encounter",
 		"name": "Shields Up",
@@ -1205,6 +1322,7 @@
 		"quantity": 2,
 		"set_code": "master_mold",
 		"set_position": 14,
+		"text": "<b>When Revealed</b>: Give each [[Sentinel]] minion engaged with you a tough status card. Otherwise, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
@@ -1220,6 +1338,7 @@
 		"scheme_crisis": 1,
 		"set_code": "master_mold",
 		"set_position": 16,
+		"text": "<b>When Defeated</b>: The player who defeated this scheme discards cards from the encounter deck until they discard a [[Sentinel]] minion, then puts it into play engaged with them.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1228,6 +1347,7 @@
 		"boost": 2,
 		"code": "32120",
 		"faction_code": "encounter",
+		"flavor": "If you can insert a computer virus into Master Mold's mainframe, you can weaken it from the inside.",
 		"name": "Insert Virus Program",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032120",
 		"pack_code": "mut_gen",
@@ -1236,15 +1356,17 @@
 		"scheme_acceleration": 1,
 		"set_code": "master_mold",
 		"set_position": 17,
-		"text": "Hinder 2[per_hero]. Victory 1.",
+		"text": "Hinder 2[per_hero]. Victory 1.\n<b>When Defeated</b>: Deal 2 damage to each [[Sentinel]] enemy.",
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 3,
+		"attack_text": "<b>Forced Response</b>: After Avalanche attacks you, exhaust an ally you control.",
 		"back_link": "32121b",
 		"code": "32121a",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "\"Come out and fight, or I'll bring the whole building down!\"",
 		"health": 15,
 		"health_per_hero": true,
 		"is_unique": true,
@@ -1262,9 +1384,11 @@
 	},
 	{
 		"attack": 4,
+		"attack_text": "<b>Forced Response</b>: After Avalanche attacks you, exhaust an ally you control.",
 		"code": "32121b",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "\"Come out and fight, or I'll bring the whole building down!\"",
 		"health": 18,
 		"health_per_hero": true,
 		"is_unique": true,
@@ -1282,10 +1406,12 @@
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After Blob attacks and damages a character, stun that character.",
 		"back_link": "32122b",
 		"code": "32122a",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "\"First I'm going to crush you! Then I'm going to raid your fridge!\"",
 		"health": 16,
 		"health_per_hero": true,
 		"is_unique": true,
@@ -1303,9 +1429,11 @@
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After Blob attacks and damages a character, stun that character.",
 		"code": "32122b",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "\"First I'm going to crush you! Then I'm going to raid your fridge!\"",
 		"health": 19,
 		"health_per_hero": true,
 		"is_unique": true,
@@ -1323,6 +1451,7 @@
 	},
 	{
 		"attack": 0,
+		"attack_text": "<b>Forced Response</b>: After Pyro attacks you, discard the top 2 cards of your deck. Take 1 indirect damage for each printed resource icon discarded this way.",
 		"back_link": "32123b",
 		"code": "32123a",
 		"double_sided": true,
@@ -1344,6 +1473,7 @@
 	},
 	{
 		"attack": 1,
+		"attack_text": "<b>Forced Response</b>: After Pyro attacks you, discard the top 2 cards of your deck. Take 1 indirect damage for each printed resource icon discarded this way.",
 		"code": "32123b",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -1364,10 +1494,12 @@
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After Toad attacks and damages a character you control, discard 1 random card from your hand.",
 		"back_link": "32124b",
 		"code": "32124a",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "\"You X-Men think you're so much better than me! I'll show you!\"",
 		"health": 13,
 		"health_per_hero": true,
 		"is_unique": true,
@@ -1385,9 +1517,11 @@
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After Toad attacks and damages a character you control, discard 1 random card from your hand.",
 		"code": "32124b",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "\"You X-Men think you're so much better than me! I'll show you!\"",
 		"health": 16,
 		"health_per_hero": true,
 		"is_unique": true,
@@ -1415,6 +1549,7 @@
 		"quantity": 1,
 		"set_code": "mansion_attack",
 		"set_position": 5,
+		"text": "<b>Contents:</b> Avalanche (A), Blob (A), Pyro (A), and Toad (A). <i>(Use their (B) sides for expert mode.)</i> Mansion Attack, Brotherhood, and Standard sets. One modular set (<i>Mystique</i>).\n<b>Setup:</b> Put the Save the School environment into play. Shuffle all copies of main scheme 2A and stack them under this scheme. Shuffle the villains together <i>(without looking)</i> to create the villain deck. The top card of this deck is in play.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -1422,6 +1557,7 @@
 		"code": "32125b",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "The Xavier Institute is under attack by the Brotherhood of Mutants!",
 		"name": "The Brotherhood Strikes! B",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032125",
 		"pack_code": "mut_gen",
@@ -1429,6 +1565,7 @@
 		"quantity": 1,
 		"set_code": "mansion_attack",
 		"set_position": 5,
+		"text": "<b>When Revealed</b>: Deal each player a facedown encounter card. Advance to the next card in the main scheme deck. Add this card to the victory display.",
 		"threat": 0,
 		"type_code": "main_scheme"
 	},
@@ -1437,6 +1574,7 @@
 		"code": "32126a",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "The Brotherhood strike in unison, focusing their attack on...",
 		"name": "The Atrium A",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032126",
 		"pack_code": "mut_gen",
@@ -1444,6 +1582,7 @@
 		"quantity": 1,
 		"set_code": "mansion_attack",
 		"set_position": 6,
+		"text": "<b>When Revealed</b>: Flip this card",
 		"type_code": "main_scheme"
 	},
 	{
@@ -1459,6 +1598,7 @@
 		"quantity": 1,
 		"set_code": "mansion_attack",
 		"set_position": 6,
+		"text": "Each character gains steady.\n<b>When Completed</b>: Add this scheme to the victory display. Advance to the next card in the main scheme deck.\n <b>If there are 3 main schemes in the victory display, the players lose the game.</b>",
 		"threat": 7,
 		"type_code": "main_scheme"
 	},
@@ -1467,6 +1607,7 @@
 		"code": "32127a",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "The Brotherhood strike in unison, focusing their attack on...",
 		"name": "The Cafeteria A",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032127",
 		"pack_code": "mut_gen",
@@ -1474,6 +1615,7 @@
 		"quantity": 1,
 		"set_code": "mansion_attack",
 		"set_position": 7,
+		"text": "<b>When Revealed</b>: Flip this card",
 		"type_code": "main_scheme"
 	},
 	{
@@ -1489,6 +1631,7 @@
 		"quantity": 1,
 		"set_code": "mansion_attack",
 		"set_position": 7,
+		"text": "Each character gains retaliate 1.\n<b>When Completed</b>: Add this scheme to the victory display. Advance to the next card in the main scheme deck.\n <b>If there are 3 main schemes in the victory display, the players lose the game.</b>",
 		"threat": 7,
 		"type_code": "main_scheme"
 	},
@@ -1497,6 +1640,7 @@
 		"code": "32128a",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "The Brotherhood strike in unison, focusing their attack on...",
 		"name": "The Basketball Court A",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032128",
 		"pack_code": "mut_gen",
@@ -1504,6 +1648,7 @@
 		"quantity": 1,
 		"set_code": "mansion_attack",
 		"set_position": 8,
+		"text": "<b>When Revealed</b>: Flip this card",
 		"type_code": "main_scheme"
 	},
 	{
@@ -1519,6 +1664,7 @@
 		"quantity": 1,
 		"set_code": "mansion_attack",
 		"set_position": 8,
+		"text": "Each ally and minion gains toughness.\n<b>When Completed</b>: Add this scheme to the victory display. Advance to the next card in the main scheme deck.\n <b>If there are 3 main schemes in the victory display, the players lose the game.</b>",
 		"threat": 7,
 		"type_code": "main_scheme"
 	},
@@ -1527,6 +1673,7 @@
 		"code": "32129a",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "The Brotherhood strike in unison, focusing their attack on...",
 		"name": "The Courtyard A",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032129",
 		"pack_code": "mut_gen",
@@ -1534,6 +1681,7 @@
 		"quantity": 1,
 		"set_code": "mansion_attack",
 		"set_position": 9,
+		"text": "<b>When Revealed</b>: Flip this card",
 		"type_code": "main_scheme"
 	},
 	{
@@ -1549,6 +1697,7 @@
 		"quantity": 1,
 		"set_code": "mansion_attack",
 		"set_position": 9,
+		"text": "Each character gains +1 ATK.\n<b>When Completed</b>: Add this scheme to the victory display. Advance to the next card in the main scheme deck.\n <b>If there are 3 main schemes in the victory display, the players lose the game.</b>",
 		"threat": 7,
 		"type_code": "main_scheme"
 	},
@@ -1562,6 +1711,7 @@
 		"quantity": 1,
 		"set_code": "mansion_attack",
 		"set_position": 10,
+		"text": "<b>Forced Response</b>: After the villain is defeated, if there are X villains in the victory display, the players win the game. (See rulebook, page 15.) Otherwise, deal each player an encounter card and reveal the next villain. If a minion with the same title as the new villain is engaged with a player, discard that minion and the villain activates against that player.",
 		"type_code": "environment"
 	},
 	{
@@ -1575,10 +1725,12 @@
 		"quantity": 3,
 		"set_code": "mansion_attack",
 		"set_position": 11,
+		"text": "<b>When Revealed</b>: For each of the following enemies in play:\n- Avalanche, exhaust your identity.\n-Blob, you are stunned.\n- Pyro, take 2 indirect damage.\n- Toad, discard 1 random card from your hand.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 1,
+		"boost_text": "If the villain is Avalanche, give him an additional boost card for this activation.",
 		"code": "32132",
 		"faction_code": "encounter",
 		"name": "Ground Swell",
@@ -1588,10 +1740,12 @@
 		"quantity": 2,
 		"set_code": "mansion_attack",
 		"set_position": 14,
+		"text": "<b>When Revealed</b>: Avalanche activates against you. If he is not in play, search the encounter deck and discard pile for the Avalanche minion and reveal him.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 1,
+		"boost_text": "If the villain is Blob, give him an additional boost card for this activation.",
 		"code": "32133",
 		"faction_code": "encounter",
 		"name": "Immovable",
@@ -1601,10 +1755,12 @@
 		"quantity": 2,
 		"set_code": "mansion_attack",
 		"set_position": 16,
+		"text": "<b>When Revealed</b>: Blob activates against you. If he is not in play, search the encounter deck and discard pile for the Blob minion and reveal him.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 1,
+		"boost_text": "If the villain is Pyro, give him an additional boost card for this activation.",
 		"code": "32134",
 		"faction_code": "encounter",
 		"name": "Pyromaniac",
@@ -1614,12 +1770,12 @@
 		"quantity": 2,
 		"set_code": "mansion_attack",
 		"set_position": 18,
+		"text": "<b>When Revealed</b>: Pyro activates against you. If he is not in play, search the encounter deck and discard pile for the Pyro minion and reveal him.",
 		"type_code": "treachery"
 	},
 	{
-		"base_threat": 2,
-		"base_threat_fixed": true,
-		"boost": 2,
+		"boost": 1,
+		"boost_text": "If the villain is Toad, give him an additional boost card for this activation.",
 		"code": "32135",
 		"faction_code": "encounter",
 		"name": "Hopping Mad",
@@ -1627,15 +1783,15 @@
 		"pack_code": "mut_gen",
 		"position": 135,
 		"quantity": 2,
-		"scheme_crisis": 1,
 		"set_code": "mansion_attack",
 		"set_position": 20,
-		"text": "Hinder 2[per_hero].",
+		"text": "<b>When Revealed</b>: Toad activates against you. If he is not in play, search the encounter deck and discard pile for the Toad minion and reveal him.",
 		"type_code": "treachery"
 	},
 	{
-		"base_threat": 0,
-		"boost": 3,
+		"base_threat": 2,
+		"base_threat_fixed": true,
+		"boost": 2,
 		"code": "32136",
 		"faction_code": "encounter",
 		"name": "Protect the Students",
@@ -1643,12 +1799,15 @@
 		"pack_code": "mut_gen",
 		"position": 136,
 		"quantity": 2,
-		"scheme_acceleration": 1,
+		"scheme_crisis": 1,
 		"set_code": "mansion_attack",
 		"set_position": 22,
+		"text": "Hinder 2[per_hero].\n<b>When Defeated</b>: The player who defeated this scheme searches their deck and discard pile for an ally and adds it to their hand.",
 		"type_code": "side_scheme"
 	},
 	{
+		"base_threat": 0,
+		"boost": 3,
 		"code": "32137",
 		"faction_code": "encounter",
 		"name": "Under Siege",
@@ -1656,18 +1815,22 @@
 		"pack_code": "mut_gen",
 		"position": 137,
 		"quantity": 2,
+		"scheme_acceleration": 1,
 		"set_code": "mansion_attack",
 		"set_position": 24,
+		"text": "<b>When Revealed</b>: Place 3 threat on this scheme for each [[Brotherhood of Mutants]] character in play.",
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 2,
+		"attack_text": "<b>Forced Response</b>: After Magneto attacks you, place 1 magnet counter on the main scheme.",
 		"code": "32138",
 		"faction_code": "encounter",
+		"flavor": "\"To oppose the Master of Magnetism is to invite your own destruction!\"",
 		"health": 18,
 		"health_per_hero": true,
 		"is_unique": true,
-		"name": "Magneto I",
+		"name": "Magneto",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032138",
 		"pack_code": "mut_gen",
 		"position": 138,
@@ -1675,18 +1838,20 @@
 		"scheme": 2,
 		"set_code": "magneto",
 		"set_position": 1,
+		"stage": 1,
 		"text": "Steady. Toughness.",
 		"traits": "Brotherhood of Mutants.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 3,
+		"attack_text": "<b>Forced Response</b>: After Magneto attacks you, place 1 magnet counter on the main scheme.",
 		"code": "32139",
 		"faction_code": "encounter",
 		"health": 20,
 		"health_per_hero": true,
 		"is_unique": true,
-		"name": "Magneto II",
+		"name": "Magneto",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032139",
 		"pack_code": "mut_gen",
 		"position": 139,
@@ -1694,18 +1859,20 @@
 		"scheme": 2,
 		"set_code": "magneto",
 		"set_position": 2,
-		"text": "Steady. Toughness.",
+		"stage": 2,
+		"text": "Steady. Toughness.\n<b>When Revealed</b>: Deal each player a facedown encounter card.",
 		"traits": "Brotherhood of Mutants.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 3,
+		"attack_text": "<b>Forced Response</b>: After Magneto attacks you, place 1 magnet counter on the main scheme.",
 		"code": "32140",
 		"faction_code": "encounter",
 		"health": 22,
 		"health_per_hero": true,
 		"is_unique": true,
-		"name": "Magneto III",
+		"name": "Magneto",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032140",
 		"pack_code": "mut_gen",
 		"position": 140,
@@ -1713,7 +1880,8 @@
 		"scheme": 3,
 		"set_code": "magneto",
 		"set_position": 3,
-		"text": "Steady. Toughness.",
+		"stage": 3,
+		"text": "Steady. Toughness.\n<b>When Revealed</b>: Deal each player a facedown encounter card.",
 		"traits": "Brotherhood of Mutants.",
 		"type_code": "villain"
 	},
@@ -1722,6 +1890,7 @@
 		"code": "32141a",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "Magneto floats above the Earth in his orbital sanctuary.",
 		"name": "Asteroid M A",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032141",
 		"pack_code": "mut_gen",
@@ -1729,6 +1898,7 @@
 		"quantity": 1,
 		"set_code": "magneto",
 		"set_position": 4,
+		"text": "<b>Contents:</b> Magneto (I) and Magneto (II). <i>(Magneto (II) and Magneto (III) for expert mode.)</i> Magneto and Standard sets. One modular set (<i>Acolytes</i>).\n<b>Setup:</b> Set the Orbital Decay side scheme aside. Reveal the Boarding Party side scheme.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -1744,6 +1914,7 @@
 		"quantity": 1,
 		"set_code": "magneto",
 		"set_position": 4,
+		"text": "<b>Forced Response</b>: After you place a magnet counter on this scheme, if there are at least 3 magnet counters here, discard cards from the encounter deck until a [[Magnetic]] card is discarded. Reveal that card, then remove 3 magnet counters from this scheme.",
 		"threat": 5,
 		"type_code": "main_scheme"
 	},
@@ -1759,6 +1930,7 @@
 		"quantity": 1,
 		"set_code": "magneto",
 		"set_position": 5,
+		"text": "<b>When Revealed</b>: Place 1 magnet counter here. If Sabotage Master Mold is not in the victory display, the first player searches the encounter deck and discard pile for a copy of the M-Type Sentinel minion and reveals it.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -1774,6 +1946,7 @@
 		"quantity": 1,
 		"set_code": "magneto",
 		"set_position": 5,
+		"text": "<b>Forced Response</b>: After you place a magnet counter on this scheme, if there are at least 3 magnet counters here, discard cards from the encounter deck until a [[Magnetic]] card is discarded. Reveal that card, then remove 3 magnet counters from this scheme.",
 		"threat": 6,
 		"type_code": "main_scheme"
 	},
@@ -1789,6 +1962,7 @@
 		"quantity": 1,
 		"set_code": "magneto",
 		"set_position": 6,
+		"text": "<b>When Revealed</b>: Place 2 magnet counters here. If Physical Strain is not attached to Magneto, the first player searches the encounter deck and discard pile for a [[Magnetic]] attachement and reveals it.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -1804,6 +1978,7 @@
 		"quantity": 1,
 		"set_code": "magneto",
 		"set_position": 6,
+		"text": "<b>Forced Response</b>: After you place a magnet counter on this scheme, if there are at least 3 magnet counters here, discard cards from the encounter deck until a [[Magnetic]] card is discarded. Reveal that card, then remove 3 magnet counters from this scheme.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 7,
 		"type_code": "main_scheme"
 	},
@@ -1813,6 +1988,7 @@
 		"code": "32144a",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "To stop Magneto's nefarious plan, you must first board Asteroid M.",
 		"name": "Boarding Party",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032144",
 		"pack_code": "mut_gen",
@@ -1820,6 +1996,7 @@
 		"quantity": 1,
 		"set_code": "magneto",
 		"set_position": 7,
+		"text": "Magneto cannot have more than 6[per_hero] sustained damage.\n<b>When Defeated</b>: Flip this card and reveal Sabotage Master Mold.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1827,6 +2004,7 @@
 		"code": "32144b",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "Master Mold has been reprogrammed. You must take it offline before it can create human-hunting Sentinels!",
 		"name": "Sabotage Master Mold",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032144",
 		"pack_code": "mut_gen",
@@ -1834,13 +2012,16 @@
 		"quantity": 1,
 		"set_code": "magneto",
 		"set_position": 7,
+		"text": "Magneto cannot have more than 12[per_hero] sustained damage.\n<b>When Defeated</b>: Reveal the set-aside Orbital Decay side scheme. Add this card to the victory display.",
 		"type_code": "side_scheme"
 	},
 	{
 		"back_link": "32145b",
+		"base_threat": 3,
 		"code": "32145a",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "Magneto is an indomitable foe. The only way to ensure his defeat is to destroy his asteroid bas by crashing it to Earth.",
 		"name": "Orbital Decay",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032145",
 		"pack_code": "mut_gen",
@@ -1848,12 +2029,14 @@
 		"quantity": 1,
 		"set_code": "magneto",
 		"set_position": 8,
+		"text": "Magneto cannot have more than 18[per_hero] sustained damage.\n<b>When Defeated</b>: Flip this card and reveal Physical Strain.",
 		"type_code": "side_scheme"
 	},
 	{
 		"code": "32145b",
 		"double_sided": true,
 		"faction_code": "encounter",
+		"flavor": "As Asteroid M begins its uncontrolled plummet, Magneto uses his power to hold it together even as he fights with you!.",
 		"name": "Physical Strain",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032145",
 		"pack_code": "mut_gen",
@@ -1867,6 +2050,7 @@
 	},
 	{
 		"attack": 2,
+		"boost_text": "Give Magneto a tough status card and a facedown boost card.",
 		"code": "32146",
 		"faction_code": "encounter",
 		"health": 5,
@@ -1878,7 +2062,7 @@
 		"scheme": 2,
 		"set_code": "magneto",
 		"set_position": 9,
-		"text": "Guard.",
+		"text": "Guard.\n<b>When Defeated</b>: Give Magneto a tough status card.",
 		"traits": "Sentinel.",
 		"type_code": "minion"
 	},
@@ -1886,6 +2070,7 @@
 		"boost": 3,
 		"code": "32147",
 		"faction_code": "encounter",
+		"flavor": "Magneto designed his helmet to protect him from Xavier's telepathic powers.",
 		"is_unique": true,
 		"name": "Magneto's Helmet",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032147",
@@ -1894,14 +2079,17 @@
 		"quantity": 1,
 		"set_code": "magneto",
 		"set_position": 13,
-		"text": "Attach to Magneto.\nMagneto cannot be confused.",
+		"scheme": 1,
+		"text": "Attach to Magneto.\nMagneto cannot be confused.\n<b>Hero Response</b>: After your hero makes a basic attack against Magneto, spend [energy] [mental] [physical] resources → discard this card.",
 		"traits": "Armor. Magnetic.",
 		"type_code": "attachment"
 	},
 	{
+		"attack": 1,
 		"boost": 3,
 		"code": "32148",
 		"faction_code": "encounter",
+		"flavor": "Magneto's armor is strong enough to survive a direct blast from a Sentinel's gauntlet beam.",
 		"is_unique": true,
 		"name": "Magneto's Armor",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032148",
@@ -1910,7 +2098,7 @@
 		"quantity": 1,
 		"set_code": "magneto",
 		"set_position": 14,
-		"text": "Attach to Magneto.\nMagneto cannot be stunned.",
+		"text": "Attach to Magneto.\nMagneto cannot be stunned.\n<b>Hero Response</b>: After your hero makes a basic attack against Magneto, spend [energy] [mental] [physical] resources → discard this card.",
 		"traits": "Armor. Magnetic.",
 		"type_code": "attachment"
 	},
@@ -1925,7 +2113,7 @@
 		"quantity": 1,
 		"set_code": "magneto",
 		"set_position": 15,
-		"text": "Attach to Magneto.\nMagneto gains retaliate 1.",
+		"text": "Attach to Magneto.\nMagneto gains retaliate 1.\n<b>Forced Interrupt</b>: When Magneto would take any amount of damage, place it here instead. Then, if there is 8 or more damage here, discard this card.",
 		"traits": "Magnetic.",
 		"type_code": "attachment"
 	},
@@ -1933,6 +2121,7 @@
 		"boost": 2,
 		"code": "32150",
 		"faction_code": "encounter",
+		"flavor": "\"Well, this sucks.\" - Archangel",
 		"name": "Wrapped in Metal",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032150",
 		"pack_code": "mut_gen",
@@ -1940,6 +2129,7 @@
 		"quantity": 2,
 		"set_code": "magneto",
 		"set_position": 16,
+		"text": "Attach to your identity. Max 1 per identity.\nAttached identity cannot thwart, attack, defend, or recover.\n<b>Action</b>: Exhaust your identity and spend a [physical] resource → discard this card. ",
 		"traits": "Magnetic.",
 		"type_code": "attachment"
 	},
@@ -1947,6 +2137,7 @@
 		"boost": 2,
 		"code": "32151",
 		"faction_code": "encounter",
+		"flavor": "\"Neither your powers nor all your skills can save you from my wrath!\" - Magneto",
 		"name": "Master of Magnetism",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032151",
 		"pack_code": "mut_gen",
@@ -1954,6 +2145,7 @@
 		"quantity": 2,
 		"set_code": "magneto",
 		"set_position": 18,
+		"text": "<b>When Revealed</b>: Take the topmost [[Magnetic]] card in the encounter discard pile and give it to Magneto as a facedown boost card. Magneto activates against you.",
 		"type_code": "treachery"
 	},
 	{
@@ -1967,10 +2159,12 @@
 		"quantity": 2,
 		"set_code": "magneto",
 		"set_position": 20,
+		"text": "<b>When Revealed (Alter-Ego)</b>: You are confused. Place 1 threat on the main scheme for each magnet counter on it.\n<b>When Revealed (Hero)</b>: You are stunned. Take 1 damage for each magnet counter on the main scheme.",
 		"traits": "Magnetic.",
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "Exhaust your identity.",
 		"code": "32153",
 		"faction_code": "encounter",
 		"name": "Electromagnetic Blast",
@@ -1980,10 +2174,12 @@
 		"quantity": 2,
 		"set_code": "magneto",
 		"set_position": 22,
+		"text": "<b>When Revealed</b>: Exhaust each upgrade and support you control. Place 1 counter on the main scheme.",
 		"traits": "Magnetic.",
 		"type_code": "treachery"
 	},
 	{
+		"boost_text": "If this is an attack that defeats an ally, place 1 magnet counter on the main scheme.",
 		"code": "32154",
 		"faction_code": "encounter",
 		"name": "Metal Shards",
@@ -1993,6 +2189,7 @@
 		"quantity": 2,
 		"set_code": "magneto",
 		"set_position": 24,
+		"text": "<b>When Revealed</b>: Deal 1 damage to each character you control. Place 1 magnet counter on the main scheme.",
 		"traits": "Magnetic.",
 		"type_code": "treachery"
 	},
@@ -2000,6 +2197,7 @@
 		"boost": 1,
 		"code": "32155",
 		"faction_code": "encounter",
+		"flavor": "\"I should have seen that coming!\" - Cyclops",
 		"name": "Magnetic Missile",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032155",
 		"pack_code": "mut_gen",
@@ -2007,7 +2205,7 @@
 		"quantity": 2,
 		"set_code": "magneto",
 		"set_position": 26,
-		"text": "Surge.",
+		"text": "Surge.\n<b>When Revealed</b>: Defeat a [[Sentinel]] minion in play. Then, take 5 damage. You may discard X cards from your hand to prevent X of that damage.",
 		"traits": "Magnetic.",
 		"type_code": "treachery"
 	},
@@ -2025,10 +2223,12 @@
 		"scheme_boost": "1",
 		"set_code": "magneto",
 		"set_position": 28,
+		"text": "<b>When Defeated</b>: The player who defeated this scheme discards the top 4 cards of the encounter deck. That player places 1 magnet counter on the main scheme for each [[Magnetic]] card discarded this way.",
 		"traits": "Magnetic.",
 		"type_code": "side_scheme"
 	},
 	{
+		"boost_text": "Exhaust each ally you control.",
 		"base_threat": 2,
 		"base_threat_fixed": true,
 		"code": "32157",
@@ -2041,6 +2241,7 @@
 		"scheme_crisis": 1,
 		"set_code": "magneto",
 		"set_position": 29,
+		"text": "<b>When Revealed</b>: Place 2 additional threat here for each ally in play.",
 		"traits": "Magnetic.",
 		"type_code": "side_scheme"
 	},
@@ -2057,6 +2258,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "magneto",
 		"set_position": 30,
+		"text": "<b>When Revealed</b>: Each player places the top 6 cards of their deck facedown under here.\n<b>When Defeated</b>: Magneto activates against the player who defeated this scheme. <i>(Discard cards under here.)</i>",
 		"traits": "Magnetic.",
 		"type_code": "side_scheme"
 	},
@@ -2075,7 +2277,7 @@
 		"scheme": 1,
 		"set_code": "acolytes",
 		"set_position": 1,
-		"text": "Teamwork ([[ACOLYTE]]). Villainous.",
+		"text": "Teamwork ([[ACOLYTE]]). Villainous.\n<b>When Defeated</b>: The player who defeated Fabian Cortez discards cards from the encounter deck until an [[ACOLYTE]] minion is discarded, then puts that minion into play engaged them.",
 		"traits": "Acolyte. Elite.",
 		"type_code": "minion"
 	},
@@ -2094,12 +2296,13 @@
 		"scheme": 2,
 		"set_code": "acolytes",
 		"set_position": 2,
-		"text": "Stalwart. Teamwork ([[ACOLYTE]]).",
+		"text": "Stalwart. Teamwork ([[ACOLYTE]]).\n<b>When Defeated</b>: The player who defeated Amelia Voght is confused. If they are already confused, place 2 threat on the main scheme.",
 		"traits": "Acolyte.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 3,
+		"attack_text": "Senyaka's attacks gain piercing.",
 		"boost": 3,
 		"code": "32161",
 		"faction_code": "encounter",
@@ -2113,7 +2316,7 @@
 		"scheme": 1,
 		"set_code": "acolytes",
 		"set_position": 3,
-		"text": "Teamwork ([[ACOLYTE]]).",
+		"text": "Teamwork ([[ACOLYTE]]).\n<b>When Defeated</b>: The player who defeated Senyaka is stunned. If they are already stunned, they take 3 damage.",
 		"traits": "Acolyte.",
 		"type_code": "minion"
 	},
@@ -2132,7 +2335,7 @@
 		"scheme": 1,
 		"set_code": "acolytes",
 		"set_position": 4,
-		"text": "Retaliate 1. Teamwork ([[ACOLYTE]]).",
+		"text": "Retaliate 1. Teamwork ([[ACOLYTE]]).\n<b>When Defeated</b>: Discard each stunned and confused card from the villain and give it a facedown boost card.",
 		"traits": "Acolyte.",
 		"type_code": "minion"
 	},
@@ -2151,7 +2354,7 @@
 		"scheme": 2,
 		"set_code": "acolytes",
 		"set_position": 5,
-		"text": "Teamwork ([[ACOLYTE]]). Toughness.",
+		"text": "Teamwork ([[ACOLYTE]]). Toughness.\n<b>When Defeated</b>: Give the villain a tough status card. If the villain already has a tough status card, heal 4 damage from it.",
 		"traits": "Acolyte.",
 		"type_code": "minion"
 	},
@@ -2166,10 +2369,12 @@
 		"quantity": 1,
 		"set_code": "acolytes",
 		"set_position": 6,
+		"text": "<b>When Revealed</b>: Resolve the \"When Defeated\" ability of each [[Acolyte]] minion engaged with you. If you are not engaged with an [[Acolyte]] minion, discard cards from the encounter deck until a minion is discarded, then reveal it.",
 		"type_code": "treachery"
 	},
 	{
 		"base_threat": 3,
+		"boost_text": "Shuffle each [[Acolyte]] minion from the discard pile into the encounter deck.",
 		"code": "32165",
 		"faction_code": "encounter",
 		"name": "The Acolytes",
@@ -2180,6 +2385,7 @@
 		"scheme_hazard": 1,
 		"set_code": "acolytes",
 		"set_position": 7,
+		"text": "Each [[Acolyte]] minion gains guard.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -2187,6 +2393,7 @@
 		"boost": 3,
 		"code": "32166",
 		"faction_code": "encounter",
+		"flavor": "\"I have returned.\"",
 		"health": 9,
 		"is_unique": true,
 		"name": "Nimrod",
@@ -2197,14 +2404,16 @@
 		"scheme": 2,
 		"set_code": "future_past",
 		"set_position": 1,
-		"text": "Stalwart. Victory 1.",
+		"text": "Stalwart. Victory 1.\nNimrod cannot take more than 3 damage each phase.",
 		"traits": "Elite. Sentinel.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
+		"boost_text": "Deal this card to yourself as a facedown encounter card.",
 		"code": "32167",
 		"faction_code": "encounter",
+		"flavor": "\"To ensure the future of humanity, I will destroy mutantkind.\"",
 		"health": 10,
 		"is_unique": true,
 		"name": "Bastion",
@@ -2232,7 +2441,7 @@
 		"scheme_hazard": 1,
 		"set_code": "future_past",
 		"set_position": 3,
-		"text": "Victory 1.",
+		"text": "Victory 1.\n<b>When Defeated</b>: In player order, each player discards the top 2 cards of the encounter deck and takes indirect damage equal to the number of boost icons ([boost]) discarded this way.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -2241,6 +2450,7 @@
 		"boost": 3,
 		"code": "32169",
 		"faction_code": "encounter",
+		"flavor": "Bastion manipulates current events to bring about the future from which he came.",
 		"name": "Bastion's Machinations",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032169",
 		"pack_code": "mut_gen",
@@ -2249,7 +2459,7 @@
 		"scheme_boost": "1",
 		"set_code": "future_past",
 		"set_position": 4,
-		"text": "Victory 1.",
+		"text": "Victory 1.\n<b>When Revealed</b>: Each player places the top 9 cards of their deck facedown under here.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -2263,7 +2473,7 @@
 		"quantity": 1,
 		"set_code": "future_past",
 		"set_position": 5,
-		"text": "Victory 1.",
+		"text": "Victory 1.\nAttached minion gets +4 hit points and gains the [[Sentinel]] trait.\n<b>When Revealed</b>: Search the encounter deck, discard pile, and set-aside area for your nemesis minion. Put it into play engaged with you and attach this card to it.",
 		"traits": "Sentinel. Tech.",
 		"type_code": "attachment"
 	}
