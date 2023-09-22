@@ -1,0 +1,182 @@
+[
+	{
+		"code": "41001a",
+		"flavor": "\"Mon esprit est plus aiguisé que n'importe quelle lame.\"",
+		"name": "Psylocke",
+		"text": "[star] <i>Contrôle de l'Énergie-Psi</i> — <b>Interruption</b> : quand vous utilisez un des pouvoirs de base de Psylocke <i>(CTR, ATQ ou DEF)</i>, retournez une amélioration [[ÉNERGIE-PSI]].",
+		"traits": "Psionique. X-Force."
+	},
+	{
+		"code": "41001b",
+		"name": "Betsy Braddock",
+		"text": "<i>Manifestation Psionique</i> — <b>Mise en place</b> : mettez en jeu vos 2 améliorations [[ÉNERGIE-PSI]], face Psi-Couteau visible.\n<b>Action</b> : inclinez 1 amélioration [[ÉNERGIE-PSI]] → mélangez dans votre deck 1 carte [[PSIONIQUE]] de votre pile de défausse.",
+		"traits": "Mutant. Psionique."
+	},
+	{
+		"code": "41002a",
+		"name": "Psi-Couteau",
+		"text": "Permanent.\nPsylocke gagne +1 CTR.\n<b>Ressource de héros</b> : inclinez le Psi-Couteau → générez une ressource [mental]. Vous pouvez retournez cette carte.",
+		"traits": "Énergie-Psi. Arme."
+	},
+	{
+		"code": "41002b",
+		"name": "Psi-Katana",
+		"text": "Permanent. Restreint.\nPsylocke gagne +1 ATQ et ses attaques de base gagnent Perçant.\n<b>Ressource de héros</b> : inclinez le Psi-Katana → générez une ressource [physical]. Vous pouvez retournez cette carte.",
+		"traits": "Énergie-Psi. Arme."
+	},
+	{
+		"code": "41003",
+		"flavor": "\"Quelqu'un a appelé un taxi ?\"",
+		"name": "Angel",
+		"subname": "Warren Worthington III",
+		"text": "<b>Réponse</b> : après avoir joué Angel de votre main, redressez votre identité.</i>",
+		"traits": "Aérien. X-Force."
+	},
+	{
+		"code": "41004",
+		"name": "Lames en Rafales",
+		"text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 2 dégâts à un ennemi. Pour chaque Psi-Couteau que vous contrôlez, choisissez un ennemi et désorientez-le. Pour chaque Psi-Katana que vous contrôlez, choisissez un ennemi et infligez-lui 2 dégats.",
+		"traits": "Attaque. Psionique."
+	},
+	{
+		"code": "41005",
+		"name": "Détection Mentale",
+		"text": "<b>Action de héros</b> <i>(contre)</i> : retirez 1 menace d'une manigance. Pour chaque Psi-Couteau que vous contrôlez, retirez 2 menaces supplémentaires de cette manigance. Pour chaque Psi-Katana que vous contrôlez, piochez 1 carte.",
+		"traits": "Contre. Psionique."
+	},
+	{
+		"code": "41006",
+		"name": "Redirection Psionique",
+		"text": "<b>Interruption de héros</b> <i>(défense)</i> : quand vous êtes censé subir n'importe quelle quantité de dégâts d'une attaque ennemie, prévenez 2 de ces dégâts. Pour chaque Psi-Katana que vous contrôlez, prévenez 2 dégâts supplémentaires. Pour chaque Psi-Couteau que vous contrôlez, désorientez cet ennemi.",
+		"traits": "Défense. Psionique."
+	},
+	{
+		"code": "41007",
+		"name": "Suggestion Télépathique",
+		"text": "<b>Interruption de héros</b> : quand vous révélez une carte du deck Rencontre, annulez ses effets \"<b>Une fois révélée</b>\". Pour chaque Psi-Katana que vous contrôlez, choisissez un ennemi et infligez-lui 2 dégâts. Pour chaque Psi-Couteau que vous contrôlez, choisissez une manigance et retirez-en 1 menace.",
+		"traits": "Psionique."
+	},
+	{
+		"code": "41008",
+		"name": "Entraînement Rigoureux",
+		"flavor": "\"C'est en forgeant qu'on devient forgeron.\" — Psylocke",
+		"text": "<b>Action</b> : inclinez Entraînement Rigoureux → cherchez une carte [[COMPÉTENCE]] dans votre deck et ajoutez-la à votre main. <i>(Mélangez.)</i> Si vous êtes sous forme de héros, défaussez 1 carte de votre main.",
+		"traits": "Entraînement."
+	},
+	{
+		"code": "41009",
+		"name": "Entraînement aux Arts Martiaux",
+		"text": "Psylocke gagne +1 DEF.\n<b>Réponse de héros</b> : après que Psylocke a défendu contre une attaque, défaussez Entraînement aux Arts Martiaux → redressez Psylocke.",
+		"traits": "Compétence."
+	},
+	{
+		"code": "41010",
+		"name": "Entraînement Psionique",
+		"text": "Psylocke ignore les mots-clés Garde et Patrouille.\n<b>Réponse de héros</b> : après que Psylocke a contré, défaussez Entraînement Psionique → désorientez un ennemi.",
+		"traits": "Compétence."
+	},
+	{
+		"code": "41011",
+		"name": "Entraînement aux Armes",
+		"text": "Psylocke gagne Riposte 1.\n<b>Réponse de héros</b> : après que Psylocke a attaqué, défaussez Entraînement aux Armes → redressez chaque amélioration [[ARME]] que vous contrôlez.",
+		"traits": "Compétence."
+	},
+	{
+		"code": "41012",
+		"attack_text": "Captain Britain subit -1 dégât de conséquence après avoir contré une manigance annexe ou attaqué un sbire.",
+        	"thwart_text": "Captain Britain subit -1 dégât de conséquence après avoir contré une manigance annexe ou attaqué un sbire.",
+		"flavor": "\"Je serai votre champion, aujourd'hui et à jamais.\"",
+		"name": "Captain Britain",
+		"subname": "Brian Braddock",
+		"traits": "Aérien. Excalibur."
+	},
+	{
+		"code": "41013",
+		"attack_text": "<b>Réponse</b> : après que Cypher a attaqué et blessé un ennemi désorienté, piochez 1 carte.",
+		"flavor": "\"Ton langage corporel m'a donné toutes les informations dont j'ai besoin pour te battre.\"",
+		"name": "Cypher",
+		"subname": "Doug Ramsey",
+		"traits": "X-Force."
+	},
+	{
+		"code": "41015",
+		"name": "Dans la Tête",
+		"text": "<b>Réponse de héros</b> : après que votre héros a effectué une attaque de base et blessé un ennemi, désorientez cet ennemi. Si cet ennemi est déjà désorienté, sonnez-le à la place.",
+		"traits": "Compétence."
+	},
+	{
+		"code": "41016",
+		"name": "Tendre un Piège",
+		"flavor": "\"Je monte et toi, tu vas en bas.\"\n\"- C'est toujours moi qui vais en bas.\"\n\"- Ok. Monte alors..\"\n\"- J'aime bien aller en bas.\" — Wolverine et Deadpool",
+		"text": "Victoire 0.\n<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance inflige 5[per_hero] dégâts au méchant."
+	},
+	{
+		"code": "41017",
+		"name": "Vole Comme un Papillon",
+		"text": "Jouez cette carte sous le contrôle de n'importe quel joueur.\n1 max par joueur.\n<b>Interruption</b> : quand un personnage que vous contrôlez attaque un ennemi désorienté, augmentez de 1 la quantité de dégâts que cette attaque inflige à cet ennemi.",
+		"traits": "Compétence."
+	},
+	{
+		"code": "41018",
+		"name": "Pete Wisdom",
+		"text": "Jouez cette carte uniquement si votre identité a le trait [[X-FORCE]].\n<b>Réponse</b> : après que vous avez résolu les effets \"<b>Une fois révélée</b>\" d'une carte Traîtrise, soignez 1 dégât de Pete Wisdom.",
+		"traits": "X-Force."
+	},
+	{
+		"code": "41019",
+		"name": "Concentrer ses Forces",
+		"text": "<b>Interruption de héros</b> : quand votre héros effectue une attaque dotée d'un mot-clef <i>(Déferlement, Perçant ou À Distance.)</i>, cette attaque inflige 2 dégâts supplémentaires. (1 max par attaque.)",
+		"traits": "Compétence."
+	},
+	{
+		"code": "41020",
+		"name": "Deux Cœurs s'Envolent",
+		"text": "En Équipe (Angel et Psylocke).\n1 max par deck.\n<b>Action de héros</b> : cherchez un événement spécifique à l'identité dans votre pile de défausse et ajoutez-le à votre main. Redressez Angel et Psylocke.",
+		"traits": "Aérien. Psionique."
+	},
+	{
+		"code": "41022",
+		"name": "IPAC",
+		"text": "Jouez cette carte uniquement si votre identité a le trait [[X-FORCE]].\n<b>Action de héros</b> : inclinez IPAC et attribuez 1 carte Rencontre face cachée à un joueur → ce joueur pioche 2 cartes.",
+		"traits": "Véhicule. X-Force."
+	},
+	{
+		"code": "41023",
+		"name": "X-Bunker",
+		"text": "<b>Action</b> : inclinez le X-Bunker et choisissez un joueur dont l'identité a le trait [[MUTANT]] → ce joueur cherche une carte parmi les X cartes du dessus de son deck et l'ajoute à sa main, X étant le nombre de manigances annexes dans la pile de victoire. <i>(Mélangez.)</i>",
+		"traits": "Lieu. X-Force."
+	},
+	{
+		"code": "41024",
+		"name": "Télépathie",
+		"text": "Jouez cette carte uniquement si votre identité a le trait [[PSIONIQUE]].\n1 max par joueur.\n<b>Action de héros</b> <i>(contre)</i> : inclinez Télépathie et dépensez les ressources suivantes : [mental][mental] → retirez 2 menaces d'une manigance.",
+		"traits": "Psionique. Super-pouvoir."
+	},
+	{
+		"code": "41030",
+		"name": "Attaque au Psi-Arc",
+		"text": "Jouez cette carte uniquement si votre identité a le trait [[PSIONIQUE]].\n<b>Action de héros</b> <i>(attaque)</i> : infligez 4 dégâts à un ennemi. Cette attaque gagne À Distance.",
+		"traits": "Attaque. Psionique."
+	},
+	{
+		"code": "41031",
+		"attack_text": "<b>Réponse</b> : après avoir utilisé un des pouvoirs de base de Domino, échangez une carte de votre main avec la carte du dessus de votre deck.",
+		"thwart_text": "<b>Réponse</b> : après avoir utilisé un des pouvoirs de base de Domino, échangez une carte de votre main avec la carte du dessus de votre deck.",
+		"flavor": "\"Tu te sens en veine, tronche de cake ?\"",
+		"name": "Domino",
+		"subname": "Neena Thurman",
+		"traits": "Posse. X-Force."
+	},
+	{
+		"code": "41032",
+		"name": "Attaque au Psi-Fléau",
+		"text": "Jouez cette carte uniquement si votre identité a le trait [[PSIONIQUE]].\n<b>Réponse de héros</b> <i>(attaque)</i> : après avoir défendu contre une attaque ennemie, infligez 3 dégâts à cet ennemi et sonnez-le.",
+		"traits": "Attaque. Psionique."
+	},
+	{
+		"code": "41033",
+		"name": "Télékinésie",
+		"text": "Jouez cette carte uniquement si votre identité a le trait [[PSIONIQUE]].\n1 max par joueur.\n<b>Action de héros</b> <i>(attaque)</i> : inclinez Télékinésie et dépensez les ressources suivantes : [mental][mental] → infligez 3 dégâts à un ennemi.",
+		"traits": "Psionique. Super-pouvoir."
+	}
+]
