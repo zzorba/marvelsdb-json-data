@@ -1,349 +1,349 @@
 [
 	{
 		"code": "40001a",
-		"flavor": "\"Nous avons peut-être remporté une bataille, mais la guerre est loin d'être terminée.\"",
+		"flavor": "\"Diese Schlacht mag gewonnen sein, aber der Krieg ist noch lange nicht vorbei.\"",
 		"name": "Cable",
-		"text": "<b>Réponse</b> : après que Cable a déjoué une manigance annexe, redressez-le. (Limite d'une fois par phase.)",
+		"text": "<b>Reaktion</b> : Nachdem Cable einen Nebenplan besiegt hat, mache ihn spielbereit. (Nur ein Mal pro Phase.)",
 		"traits": "Soldat. X-Force."
 	},
 	{
 		"code": "40001b",
 		"name": "Nathan Summers",
-		"text": "Vous pouvez inclure dans votre deck des manigances annexes de Joueur de n'importe quelle affinité.\n<i>Soldat X</i> — <b>Mise en place</b> : cherchez une manigance annexe de Joueur dans votre deck ou votre pile de défausse et mettez-la en jeu. <i>(Mélangez.)</i>",
+		"text": "Du darfst Spieler-Nebenpläne beliebiger Aspekte in dein Deck aufnehmen.\n<i>Soldat X</i> — <b>Spielaufbau</b> : Durchsuche dein Deck und deinen Ablagestapel nach einem Spieler-Nebenplan und bringe ihn ins Spiel. <i>(Mische.)</i>",
 		"traits": "Mutant. Soldat."
 	},	
 	{
 		"code": "40002",
-		"flavor": "\"Translation corporelle pour deux.\" — Cable",
-		"name": "Translatation Corporelle",
-		"text": "<b>Action</b> : changez de forme. Chaque autre joueur peut changer de forme pour celle que vous avez."
+		"flavor": "\"Bodyslide für zwei.\" — Cable",
+		"name": "Bodyslide",
+		"text": "<b>Aktion</b> : Wechsle deine Gestalt. Jeder andere Spieler darf in die Gestalt wechseln, in der du dich jetzt befindest."
 	},
 	{
 		"code": "40003",
-		"name": "Sonder l'Esprit",
-		"text": "<b>Action de héros</b> <i>(contre)</i> : retirez 3 menaces d'une manigance. Retirez 1 menace supplémentaire de cette manigance pour chaque manigance annexe dans la pile de victoire.",
-		"traits": "Psionique. Super-pouvoir. Contre."
+		"name": "Gedankenscan",
+		"text": "<b>Held Aktion</b> <i>(Widerstand)</i> : Entferne 3 Bedrohung von einem Plan. Entferne für jeden Nebenplan im Siegpunktestapel 1 zusätzliche Bedrohung von dem Plan.",
+		"traits": "Psionisch. Superkraft. Widerstand."
 	},
 	{
 		"code": "40004",
-		"name": "Précognition",
-		"text": "<b>Action de héros</b> : regardez les X cartes du dessus du deck Rencontre, X étant le nombre de manigances annexes dans la pile de victoire. Vous pouvez défausser 1 de ces cartes consultées. Remettez les autres dans l'ordre de votre choix.",
-		"traits": "Psionique. Super-pouvoir."
+		"name": "Vorahnung",
+		"text": "<b>Held Aktion</b>: Sieh dir die obersten X Karten des Begegnungsdecks an, wobei X die Anzahl der Nebenpläne im Siegpunktestapel ist. Du darfst 1 dieser Karten ablegen. Lege die übrigen in beliebiger Reihenfolge zurück.",
+		"traits": "Psionisch. Superkraft."
 	},
 	{
 		"code": "40005",
-		"name": "Décharge Télékinétique",
-		"text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 6 dégâts à un ennemi. Infligez 1 dégât supplémentaire à cet ennemi pour chaque manigance annexe dans la pile de victoire.",
-		"traits": "Attaque. Psionique. Super-pouvoir."
+		"name": "Telekinetischer Stoss",
+		"text": "<b>Held - Aktion</b> <i>(Angriff)</i> : Füge einem Gegner 6 Schaden zu. Füge dem Gegner für jeden Nebenplan im Siegpunktestapel 1 zusätzlichen Schaden zu.",
+		"traits": "Angriff. Psionisch. Superkraft."
 	},
 	{
 		"code": "40006",
-		"name": "Purge du Technovirus",
-		"text": "Victoire 0.\nLes personnages autre que Cable ne peuvent retirer aucune menace de Purge du Technovirus.\nTant que Purge du Technovirus est dans la pile de victoire, Nathan Summers et Cable gagnent le trait [[PSIONIQUE]] et Cable gagne +1 CTR, +1 ATQ et +1 DEF."
+		"name": "Technovirus unterdrücken",
+		"text": "Sieg 0.\nNiemand außer Cable kann Bedrohung von Technovirus unterdrücken entfernen.\nSolange Technovirus unterdrücken im Siegpunktestapel ist, erhalten Nathan Summers und Cable das Merkmal [[PSIONISCH]] und Cable bekommt +1 WID, +1 ANG und +1 VER."
 	},
 	{
 		"code": "40007",
-		"flavor": "La base orbitale de Cable est dirigée par une I.A. consciente connue sous le nom de Professeur.",
+		"flavor": "Cables orbitale Basis wird von einer empfindungsfähigen Kl namens Professor gesteuert.",
 		"name": "Graymalkin",
-		"text": "<b>Réponse</b> : après qu'une manigance annexe a été déjouée, redressez Graymalkin.\n<b>Ressource</b> : inclinez Graymalkin → générez une ressource [energy].",
-		"traits": "Lieu."
+		"text": "<b>Reaktion</b> : Nachdem ein Nebenplan besiegt worden ist, mache Graymalkin spielbereit.\n<b>Ressource</b> : Erschöpfe Graymalkin → erzeuge eine [energy]-Ressource.",
+		"traits": "Ort."
 	},
 	{
 		"code": "40008",
-		"flavor": "\"Je suis désolé Wade, mais je ne peux pas faire ça.\"",
-		"name": "Professeur",
-		"text": "<b>Action d'alter ego</b> : inclinez Professeur → choisissez : soit vous piochez 1 carte, soit vous cherchez une manigance annexe de Joueur dans votre deck ou votre pile de défausse et l'ajoutez à votre main. <i>(Mélangez.)</i>",
-		"traits": "Individu. Tech."
+		"flavor": "\"Es tut mir leid, Wade. Aber das kann ich nicht tun.\"",
+		"name": "Professor",
+		"text": "<b>Alter Ego Aktion</b> : Erschöpfe Professor → wähle: Ziehe entweder 1 Karte oder durchsuche dein Deck und deinen Ablagestapel nach einem Spieler-Nebenplan und nimm ihn auf deine Hand. <i>(Mische.)</i>",
+		"traits": "Person. Tech."
 	},
 	{
 		"code": "40009",
 		"name": "Askani'son",
-		"text": "<b>Réponse de héros</b> <i>(contre)</i> : après que vous avez défendu contre une attaque ennemie, inclinez Askani'son et dépensez une ressource [energy] → retirez d'une manigance un nombre de menaces égal à la CTR de votre héros.",
-		"traits": "Titre."
+		"text": "<b>Held Reaktion</b> <i>(Widerstand)</i> : Nachdem du gegen den Angriff eines Gegners verteidigt hast, erschöpfe Askani'son und gib eine [energy]-Ressource aus → entferne Bedrohung von einem Plan in Höhe des WID-Wertes deines Helden.",
+		"traits": "Titel."
 	},
 	{
 		"code": "40010",
-		"name": "Amnésie Forcée",
-		"text": "<b>Réponse de héros</b> : après qu'une manigance annexe <i>(non-Permanent)</i> a été déjouée, ajoutez Amnésie Forcée et cette manigance annexe à la pile de victoire.",
-		"traits": "Psionique. Super-pouvoir."
+		"name": "Erzwungene Amnesie",
+		"text": "<b>Held Reaktion</b> : Nachdem ein <i>(nicht-dauerhafter)</i> Nebenplan besiegt worden ist, füge Erzwungene Amnesie und den Nebenplan dem Siegpunktestapel hinzu.  a été déjouée, ajoutez Amnésie Forcée et cette manigance annexe à la pile de victoire.",
+		"traits": "Psionisch. Superkraft."
 	},
 	{
 		"code": "40011",
-		"name": "Fusil à Plasma",
-		"text": "Restreint.\n<b>Action de héros</b> <i>(attaque)</i> : inclinez le Fusil à Plasma et dépensez une ressource [energy] → infligez 1 dégât à un ennemi pour chaque manigance annexe dans la pile de victoire (jusqu'à un maximum de 4). Cette attaque gagne À Distance.",
-		"traits": "Tech. Arme."
+		"name": "Plasma-Gewehr",
+		"text": "Eingeschränkt.\n<b>Held Aktion</b> <i>(Angriff)</i> : Erschöpfe Plasma-Gewehr und gib eine [energy]-Ressource aus → füge einem Gegner für jeden Nebenplan im Siegpunktestapel 1 Schaden zu (bis zu einem Maximum von 4). Dieser Angriff erhält Fernkampf.",
+		"traits": "Tech. Waffe."
 	},
 	{
 		"code": "40012",
-		"name": "Champ de Force Télékinétique",
-		"text": "Sous forme de héros uniquement.\n<b>Interruption de héros</b> : quand un personnage ami est censé subir n'importe quelle quantité de dégâts, défaussez Champ de Force Télékinétique → prévenez tous ces dégâts.",
-		"traits": "Psionique. Super-pouvoir."
+		"name": "Telekinetisches Kraftfeld",
+		"text": "Nur Heldengestalt.\n<b>Held Unterbrechung</b> : Sobald ein befreundeter Charakter eine beliebige Menge an Schaden nehmen würde, lege Telekinetisches Kraftfeld ab → verhindere allen Schaden davon.",
+		"traits": "Psionisch. Superkraft."
 	},
 	{
 		"code": "40013",
-		"name": "Saut Temporel",
-		"text": "<b>Interruption de héros</b> : quand la manigance principale est censée être achevée, retirez Saut Temporel de la partie et mettez en jeu une manigance annexe de la pile de victoire → déplacez 4 menaces de la manigance principale vers cette manigance annexe.",
-		"traits": "Tactique."
+		"name": "Zeitsprung",
+		"text": "<b>Held Unterbrechung</b> : Sobald der Hauptplan vollendet werden würde, entferne diese Karte aus dem Spiel und bringe einen Nebenplan aus dem Siegpunktestapel ins Spiel → verschiebe 4 Bedrohung vom Hauptplan auf den Nebenplan.",
+		"traits": "Taktik."
 	},
 	{
 		"code": "40014",
 		"name": "Caliban",
-		"text": "<b>Réponse</b> : après que Caliban est entré en jeu, défaussez des cartes du dessus de votre deck jusqu'à ce qu'un allié [[X-FACTOR]], [[X-FORCE]] ou [[X-MEN]] soit défaussé. Ajoutez cet allié défaussé à votre main.",
-		"traits": "Psionique. X-Force."
+		"text": "<b>Reaktion</b> : Nachdem Caliban ins Spiel gekommen ist, lege Karten von deinem Deck ab, bis ein [[X-FACTOR]], [[X-FORCE]] oder [[X-MEN]]-Verbündeter abgelegt wird. Nimm den abgelegten Verbündeten auf deine Hand.",
+		"traits": "Psionisch. X-Force."
 	},
 	{
 		"code": "40015",
-		"flavor": "\"E.V.A. est plus qu'un véhicule. Elle est ma partenaire. Elle est ma mutation.\"",
+		"flavor": "\"E.V.A. ist mehr als ein Schiff. Sie ist mein Partner. Sie ist meine Mutation.\"",
 		"name": "Fantomex",
 		"subname": "Charlie Cluster-7",
-		"text": "<b>Réponse</b> : après que Fantomex est entré en jeu, cherchez E.V.A. dans votre deck ou votre pile de défausse et mettez-la en jeu. <i>(Mélangez.)</i>",
-		"traits": "Psionique. X-Force."
+		"text": "<b>Reaktion</b> : Nachdem Fantomex ins Spiel gekommen ist, durchsuche dein Deck und deinen Ablagestapel nach E.V.A. und bringe sie ins Spiel. <i>(Mische.)</i>",
+		"traits": "Psionisch. X-Force."
 	},
 	{
 		"code": "40016",
 		"name": "Sunspot",
-        "subname": "Bobby Da Costa",
-		"text": "<b>Réponse</b> : après avoir joué Sunspot de votre main, choisissez un joueur → infligez 1 dégât au méchant et à chaque sbire engagé avec le joueur choisi pour chaque ressource [energy] utilisée pour payer Sunspot.",
-       	"traits": "Aérien. X-Force."
+      		"subname": "Bobby Da Costa",
+		"text": "<b>Reaktion</b> : Nachdem du Sunspot von deiner Hand gespielt hast, wähle einen Spieler → füge für jede [energy]-Ressource, die du verwendet hast, um für Sunspot zu bezahlen, dem Schurken und jedem Schergen, der mit dem gewählten Spieler im Kampf ist, 1 Schaden zu.",
+    	 	"traits": "Fliegend. X-Force."
 	},
 	{
 		"code": "40017",
-		"name": "Organiser une Mission",
-		"text": "Jouez cette carte uniquement si une manigance annexe dans la pile de victoire.\n<b>Action de héros</b> : jusqu'à la fin de la phase, les alliés que vous contrôlez ne subissent pas de dégâts consécutifs."
+		"name": "Einsatzplanung",
+		"text": "Spiele diese Karte nur, falls mindestens ein Nebenplan im Siegpunktestapel ist.\n<b>Held Aktion</b> : Bis zum Ende der Phase nehmen Verbündete unter deiner Kontrolle keinen Folgeschaden."
 	},
 	{
 		"code": "40018",
-      	"flavor": "\"Équipe bleue, rejoignez-moi tout de suite !\" — Bishop",
-		"name": "Appeler des Renforts",
-		"text": "Victoire 0.\n<b>Une fois déjouée</b> : chaque joueur peut chercher un allié dans son deck ou sa pile défausse et le mettre en jeu. <i>(Mélangez.)</i>"
+    	  	"flavor": "\"Team Blau, wir treffen uns an meinem Standort!\" — Bishop",
+		"name": "Verstärkung anfordern",
+		"text": "Sieg 0.\n<b>Sobald besiegt</b> : Jeder Spieler darf sein Deck und seinen Ablagestapel nach einem Verbündeten durchsuchen und ihn ins Spiel bringen. <i>(Mische.)</i>"
 	},
 	{
 		"code": "40019",
-      	"flavor": "\"On va avoir besoin d'armes. Beaucoup d'armes.\" — Cable",
-		"name": "Viser et Tirer",
-		"text": "Victoire 0.\n<b>Une fois déjouée</b> : chaque joueur peut chercher une amélioration [[ARME]] ayant un coût de 3 ou moins dans son deck ou sa pile de défausse et la mettre en jeu. <i>(Mélangez.)</i>"
+     	 	"flavor": "\"Wir brauchen Waffen. Jede Menge Waffen.\" — Cable",
+		"name": "Laden Und Entsichern",
+		"text": "Victoire 0.\n<b>Sobald besiegt</b> : Jeder Spieler darf sein Deck und seinen Ablagestapel nach einem [[WAFFE]]-Upgrade mit Kosten von 3 oder weniger durchsuchen und es ins Spiel bringen. <i>(Mische.)</i>"
 	},
 	{
 		"code": "40020",
-      	"flavor": "\"Ne vous inquiétez pas, les enfants. Cela ne peut pas me traverser.\" — Armor",
-		"name": "Établir un Périmètre",
-		"text": "Victoire 0.\n<b>Une fois déjouée</b> : donnez une carte d'état Tenace à chaque identité."
+      		"flavor": "\"Keine Angst, Kinder. Durch mich kommen Sie nicht durch!\" — Armor",
+		"name": "Schutzzone Einrichten",
+		"text": "Sieg 0.\n<b>Sobald besiegt</b> : Sobald besiegt: Gib jeder Identität eine Zäh-Statuskarte."
 	},
 	{
 		"code": "40021",
 		"name": "E.V.A.",
-		"text": "Si Fantomex n'est pas en jeu, défaussez E.V.A.\n<b>Action</b> : inclinez E.V.A. → choisissez :\n- Retirez 1 menace d'une manigance.\n- Infligez 1 dégât à un ennemi.\n- Soignez 1 dégât de Fantomex.",
-		"traits": "Véhicule."
+		"text": "Falls Fantomex nicht im Spiel ist, lege E.V.A. ab.\n<b>Aktion</b> : Erschöpfe E.V.A. → wähle :\n- Entferne 1 Bedrohung von einem Plan.\n- Füge einem Gegner 1 Schaden zu.\n- Heile 1 Schaden von Fantomex.",
+		"traits": "Fahrzeug."
 	},
 	{
 		"code": "40022",
-		"name": "Incroyable X-Force",
-		"text": "Jouez cette carte sous le contrôle de n'importe quel joueur. 1 carte [[ÉQUIPE]] max par joueur.\nSi chacun de vos personnages a le trait [[X-FORCE]], chaque allié que vous contrôlez gagne +1 CTR et subit -1 dégât consécutif ([consequential]) après avoir contré une manigance annexe.",
-		"traits": "Équipe."
+		"name": "Uncanny X-Force",
+		"text": "Spiele diese Karte unter die Kontrolle eines beliebigen Spielers. Max. 1 [[Team]]-Karte pro Spieler.\nFalls jeder deiner Charaktere das Merkmal [[X-FORCE]]hat, bekommt jeder Verbündete unter deiner Kontrolle +1 WID und nimmt nach dem Widerstandleisten gegen einen Nebenplan - 1 Folgeschaden ([consequential])",
+		"traits": "Team."
 	},
 	{
 		"code": "40023",
-		"name": "Chef de Mission",
-		"text": "Réduisez de 1 le coût pour jouer Chef de Mission si votre identité a le trait [[SOLDAT]].\n<b>Réponse de héros</b> : après qu'une manigance annexe a été déjouée, inclinez Chef de Mission → chaque joueur pioche 1 carte.",
-		"traits": "Titre."
+		"name": "Einsatzleiter",
+		"text": "Senke die Kosten, um Einsatzleiter zu spielen, um 1, falls deine Identität das Merkmal [[SOLDAT]] hat.\n<b>Held Reaktion</b> : Nachdem ein Nebenplan besiegt worden ist, erschöpfe Einsatzleiter → jeder Spieler zieht 1 Karte.",
+		"traits": "Titel."
 	},
 	{
 		"code": "40024",
-		"flavor": "\"... Cable ? Je ne suis pas intéressé. Je regarde tout en streaming.\"",
+		"flavor": "\"... Cable? Kein Interesse. Ich streame alles.\"",
 		"name": "Deadpool",
 		"subname": "Wade Wilson",
-		"text": "<b>Interruption forcée</b> : quand Deadpool est censé être vaincu à cause d'un dégât consécutif, soignez-le de 3 dégâts à la place. Ajouter un pion Accélération à la manigance principale.",
-		"traits": "Mercenaire. X-Force."
+		"text": "<b>Erzwungene Unterbrechung</b> : Sobald Deadpool durch Folgeschaden besiegt werden würde, heile stattdessen 3 Schaden vom ihm. Lege einen Beschleunigungsmarker auf den Hauptplan.",
+		"traits": "Söldner. X-Force."
 	},
 	{
 		"code": "40025",
 		"name": "Deathlok",
 		"subname": "Unité L17",
-		"text": "<b>Réponse de héros</b> : après que Deathlok est entré en jeu, choisissez dans la pile de défausse de n'importe quel joueur une amélioration ayant un coût de 1 ou moins pouvant être attachée à Deathlok. Attachez cette amélioration à Deathlok.",
+		"text": "<b>Held Reaktion</b> : Nachdem Deathlok ins Spiel gekommen ist, wähle ein Upgrade im Ablagestapel eines beliebigen Spielers mit Kosten von 1 oder weniger, das an Deathlok angehängt werden kann. Hänge das Upgrade an Deathlok an.",
 		"traits": "Cyborg. X-Force."
 	},
 	{
 		"code": "40026",
-		"name": "Meilleurs Ennemis",
-		"text": "En Équipe (Cable et Deadpool). 1 max par deck.\n<b>Action de héros</b> <i>(contre)</i> : infligez 1 dégât à Cable et 1 dégât à Deadpool. Retirez 3 menaces d'une manigance et 3 menaces d'une autre manigance.",
-		"traits": "Contre."
+		"name": "Beste Feinde",
+		"text": "Teamwork (Cable und Deadpool). Max. 1 pro Deck.\n<b>Held Aktion </b> <i>(Widerstand)</i> : Füge Cable und Deadpool je 1 Schaden zu. Entferne 3 Bedrohung von einem Plan und 3 Bedrohung von einem anderen Plan.",
+		"traits": "Widerstand."
 	},
 	{
 		"code": "40027",
-		"flavor": "\"J'ai exactement ce qu'il te faut.\" — Forge",
-		"name": "Construire un Soutien",
-		"text": "Victoire 0.\n<b>Une fois déjouée</b> : chaque joueur peut chercher un soutien ayant un coût de 3 ou moins dans son deck ou sa pile de défausse et le mettre en jeu. <i>(Mélangez.)</i>"
+		"flavor": "\"Da hab ich genau das Richtige.\" — Forge",
+		"name": "Unterstützung Leisten",
+		"text": "Sieg 0.\n<b>Sobald besiegt</b> : Jeder Spieler darf sein Deck und seinen Ablagestapel nach einem Vorteil mit Kosten von 3 oder weniger durchsuchen und ihn ins Spiel bringen. <i>(Mische.)</i>"
 	},
 	{
 		"code": "40028",
-		"name": "Le Pouvoir de l'Esprit",
-		"text": "Doublez le nombre de ressources générées par cette carte lorsque vous payez une carte [[PSIONIQUE]]."
+		"name": "Kraft des Geistes",
+		"text": "Verdopple die Anzahl der Ressourcen, die diese Karte erzeugt, wenn du für eine [[PSIONISCH]]-Karte bezahlst."
 	},
 	{
 		"code": "40029",
 		"name": "Psimitar",
-		"text": "Restreint.\n<b>Réponse de héros</b> <i>(attaque)</i> : après avoir joué une autre carte [[PSIONIQUE]], inclinez Psimitar → infligez 2 dégâts à un ennemi.",
-		"traits": "Psionique. Arme."
+		"text": "Eingeschränkt.\n<b>Held Reaktion</b> <i>(Angriff)</i> : Nachdem du eine andere [[PSIONISCH]]- Karte gespielt hast, erschöpfe Psimitar → füge einem Gegner 2 Schaden zu.",
+		"traits": "Psionisch. Waffe."
 	},
 	{
 		"code": "40030",
-		"name": "Arme de Poing",
-		"flavor": "\"Ce flingue est presque aussi dangeureux que l'homme qui l'utilise.\" — Cable",
-		"text": "Attachez cette carte à un allié. 1 max par allié.\nL'allié attaché gagne +1 ATQ et ses attaques gagnent À Distance.",
-		"traits": "Arme."
+		"name": "Handfeuerwaffe",
+		"flavor": "\"Diese Waffe ist nicht annähernd so gefährlich wie der Mann, der sie führt.\" — Cable",
+		"text": "Hänge diese Karte an einen Verbündeten an. Max. 1 pro Verbündeten.\nDer Verbündete mit diesem Upgrade bekommt +1 ANG und seine Angriffe erhalten Fernkampf.",
+		"traits": "Waffe."
 	},
 	{
 		"code": "40037a",
 		"name": "Domino",
-		"text": "Lorsque vous comptez des ressources sur des cartes défaussées du dessus de votre deck, comptez deux fois chaque icône [wild].\n<b>Action</b> : choisissez une carte dans votre main. Échangez cette carte avec la carte du dessus de votre deck. (Limite d'une fois par round.)",
+		"text": "Sobald du Ressourcen auf Karten zählst, die du von deinem Deck abgelegt hast, zähle jedes aufgedruckte [wild]-Symbol doppelt.\n<b>Aktion</b> : Wähle eine Karte auf deiner Hand. Tausche die Karte mit der obersten Karte deines Decks. (Nur ein Mal pro Runde.)",
 		"traits": "Posse. X-Force."
 	},
 	{
 		"code": "40037b",
-		"flavor": "\"Suspense... Je gagne encore !\"",
+		"flavor": "\"Was sagt man dazu? Schon wieder gewonnen.\"",
 		"name": "Neena Thurman",
-		"text": "<b>Action</b> : choisissez une carte dans votre main. Échangez cette carte avec la carte du dessus de votre pile de défausse. (Limite d'une fois par round.)",
+		"text": "<b>Action</b> : Wähle eine Karte auf deiner Hand. Tausche die Karte mit der obersten Karte deines Ablagestapels. (Nur ein Mal pro Runde.)",
 		"traits": "Mutant."
 	},
 	{
 		"code": "40038",
 		"name": "Diamondback",
 		"subname": "Rachel Leighton",
-		"text": "<b>Action</b> : inclinez Diamondback, infligez-lui 1 dégât et défaussez la carte du dessus de votre deck → infligez 1 dégât à chaque ennemi pour chaque icône de ressource défaussée par cet effet.",
+		"text": "<b>Aktion</b> : Erschöpfe Diamondback, füge ihr 1 Schaden zu und lege die oberste Karte deines Decks ab → füge jedem Gegner für jedes auf diese Weise abgelegte Ressourcensymbol 1 Schaden zu.",
 		"traits": "Posse."
 	},
 	{
 		"code": "40039",
 		"name": "Outlaw",
 		"subname": "Inez Temple",
-		"attack_text": "<b>Interruption</b> : quand Outlaw attaque, défaussez la carte du dessus de votre deck → Outlaw gagne +1 ATQ pour cette attaque pour chaque icône de ressource défaussée par cet effet.",
-		"text": "Ténacité.",
-		"traits": "Hors-la-loi. Posse."
+		"attack_text": "<b>Unterbrechung</b> : Sobald Outlaw angreift, lege die oberste Karte deines Decks ab → Outlaw bekommt für diesen Angriff für jedes auf diese Weise abgelegte Ressourcensymbol +1 ANG.",
+		"text": "Zähigkeit.",
+		"traits": "Gesetzloser. Posse."
 	},
 	{
 		"code": "40040",
-		"name": "Un Bon Échauffement",
-		"text": "<b>Action de héros</b> <i>(attaque)</i> : infligez 4 dégâts à un ennemi et défaussez la carte du dessus de votre deck. Pour chaque icône de ressource défaussée par cet effet, infligez 1 dégât supplémentaire à cet ennemi.",
-		"traits": "Attaque. Super-pouvoir."
+		"name": "Ein Gutes Workout",
+		"text": "<b>Held Aktion </b> <i>(Angriff)</i> : Füge einem Gegner 4 Schaden zu und lege die oberste Karte deines Decks ab. Füge dem Gegner für jedes auf diese Weise abgelegte Ressourcensymbol 1 zusätzlichen Schaden zu.",
+		"traits": "Angriff. Superkraft."
 	},
 	{
 		"code": "40041",
-		"name": "La Chance Faite Femme",
-		"text": "<b>Action de héros</b> : défaussez la carte du dessus de votre deck et comptez les ressources qui s'y trouvent. Pour chaque ressource ainsi comptée, appliquez l'effet correspondant :\n[energy] - Soignez 2 dégâts d'un personnage.\n[mental] - Retirez 2 menaces d'une manigance.\n[physical] - Infligez 3 dégâts à un ennemi.\n[wild] - Choisissez 1 des effets ci-dessus.",
-		"traits": "Super-pouvoir."
+		"name": "Fortuna, steh mir bei!",
+		"text": "<b>Held Aktion</b> : Lege die oberste Karte deines Decks ab und zähle ihre Ressourcen. Handle für jede auf diese Weise gezählte Ressource ihren Effekt ab :\n[energy] - Heile 2 Schaden von einem Charakter.\n[mental] - Entferne 2 Bedrohung von einem Plan.\n[physical] - Füge einem Gegner 3 Schaden zu.\n[wild] - Wähle 1 der obigen Optionen.",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "40042",
-		"name": "Au Bon Endroit, Au Bon Moment",
-		"text": "<b>Action de héros</b> <i>(contre)</i> : retirez 3 menaces d'une manigance et défaussez la carte du dessus de votre deck. Pour chaque icône de ressource défaussée par cet effet, retirez 1 menace supplémentaire de cette manigance.",
-		"traits": "Contre. Super-pouvoir."
+		"name": "Zur rechten Zeit am rechten Ort",
+		"text": "<b>Held Aktion</b> <i>(Widerstand)</i> : Entferne 3 Bedrohung von einem Plan und lege die oberste Karte deines Decks ab. Entferne für jedes auf diese Weise abgelegte Ressourcensymbol 1 zusätzliche Bedrohung von dem Plan.",
+		"traits": "Superkraft. Widerstand."
 	},
 	{
 		"code": "40043",
 		"name": "Jackpot !",
-		"text": "<b>Réponse</b> : après que cette carte a été défaussée du dessus de votre deck, remélangez-la dans votre deck."
+		"text": "<b>Reaktion</b> : Nachdem diese Karte von deinem Deck abgelegt worden ist, mische sie zurück in dein Deck."
 	},
 	{
 		"code": "40044",
-		"flavor": "\"Je rêve ou tu viens de me faire pipi dessus, sale petite saucisse ?\" — Domino",
-		"name": "Pip Le Carlin",
-		"text": "<b>Action d'alter ego</b> : inclinez Pip Le Carlin → placez sur votre deck 1 carte [[POSSE]] ou du set Domino de votre pile de défausse.",
-		"traits": "Créature."
+		"flavor": "\"Hast du mich gerade angepinkelt, du fieses, kleines Würstchen?\" — Domino",
+		"name": "Pip, der Mops",
+		"text": "<b>Alter Ego Aktion</b> : Erschöpfe Pip, der Mops → lege 1 Domino- oder [[POSSE]]-Karte aus deinem Ablagestapel auf dein Deck.",
+		"traits": "Kreatur."
 	},
 	{
 		"code": "40045",
-		"name": "Le Painted Lady",
-		"text": "<b>Réponse</b> : après avoir défaussé une carte du dessus de votre deck, attachez-la face cachée à ce soutien (jusqu'à un maximum de 3).\n<b>Action d'alter ego</b> : inclinez Le Painted Lady → ajoutez à votre main 1 carte attachée à ce soutien.",
-		"traits": "Véhicule."
+		"name": "Painted Lady",
+		"text": "<b>Reaktion</b> : Nachdem du eine Karte von deinem Deck abgelegt hast, hänge die Karte verdeckt hier an (bis zu einem Maximum von 3).\n<b>Alter Ego Aktion</b> : Erschöpfe Painted Lady → nimm 1 Karte, die hier angehängt ist, auf deine Hand.",
+		"traits": "Fahrzeug."
 	},
 	{
 		"code": "40046",
-		"name": "Pistolet de Domino",
-		"text": "Restreint.\n<b>Action de héros</b> <i>(attaque)</i> : inclinez le Pistolet de Domino, choisissez un ennemi et défaussez la carte du dessus de votre deck → infligez 1 dégât à un ennemi pour chaque icône de ressource défaussée par cet effet. Cette attaque gagne À Distance.",
-		"traits": "Arme."
+		"name": "Dominos Pistole",
+		"text": "Eingeschränkt.\n<b>Held Aktion</b> <i>(Angriff)</i> : Erschöpfe Dominos Pistole, wähle einen Gegner und lege die oberste Karte deines Decks ab → füge dem Gegner für jedes auf diese Weise abgelegte Ressourcen-symbol 1 Schaden zu. Dieser Angriff erhält Fernkampf.",
+		"traits": "Waffe."
 	},
 	{
 		"code": "40047",
-		"name": "Chance Impossible",
-		"text": "<b>Interruption de héros</b> <i>(défense)</i> : quand une carte de boost est retournée face visible lors d'une attaque contre vous, inclinez Chance Impossible → annulez les icônes de boost de cette carte et sa capacité \"<b>Boost</b>\". Donnez une autre carte de boost à l'ennemi attaquant pour cette attaque.",
-		"traits": "Super-pouvoir."
+		"name": "Mit Glück Und Können",
+		"text": "<b>Held Unterbrechung</b> <i>(Verteidigung)</i> : Sobald während eines Angriffs gegen dich eine Boost-Karte aufgedeckt wird, erschöpfe Mit Glück und Können → hebe die Boost-Symbole und die \"<b>Boost</b>\"-Fähigkeit der Karte auf. Gib dem angreifenden Gegner für diesen Angriff eine weitere Boost-Karte.",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "40048",
-		"name": "La Chance d'une Pause",
-		"text": "<b>Interruption de héros</b> : quand vous révélez une carte Rencontre, défaussez La Chance d'une Pause → annulez les effets de cette carte et défaussez-la. Révélez une autre carte du deck Rencontre.",
-		"traits": "Super-pouvoir."
+		"name": "Glücklicher Zufall",
+		"text": "<b>Held Unterbrechung</b> : Sobald du eine Begegnungskarte aufdeckst, lege Glücklicher Zufall ab → hebe die Effekte der Karte auf und lege sie ab. Decke eine weitere Karte vom Begegnungsdeck auf.",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "40049",
-		"name": "Champ de Probabilité",
-		"text": "<b>Interruption</b> : quand vous utilisez un pouvoir de base, défaussez la carte du dessus de votre deck → vous gagnez +1 à ce pouvoir pour cette utilisation pour chaque icône de ressource défaussée par cet effet.",
-		"traits": "Super-pouvoir."
+		"name": "Wahrscheinlichkeitsfeld",
+		"text": "<b>Unterbrechung</b> : Sobald du eine Basiskraft verwendest, lege die oberste Karte deines Decks ab → du bekommst für diese Verwendung +1 auf die Kraft für jedes auf diese Weise abgelegte Ressourcensymbol.",
+		"traits": "Superkraft."
 	},
 	{
 		"code": "40050",
-		"flavor": "\"J'ai flairé l'odeur de ma proie.\"",
+		"flavor": "\"Ich habe die Witterung der Beute aufgenommen.\"",
 		"name": "Féral",
 		"subname": "Maria Callasantos",
-		"thwart_text": "<b>Réponse</b> : après que Féral a contré, défaussez la carte du dessus de votre deck. Pour chaque icône de ressource défaussée par cet effet, infligez 1 dégât au méchant.",
+		"thwart_text": "<b>Reaktion</b> : Nachdem Feral Widerstand geleistet hat, lege die oberste Karte deines Decks ab. Füge dem Schurken für jedes auf diese Weise abgelegte Ressourcensymbol 1 Schaden zu.",
 		"traits": "X-Force."
 	},
 	{
 		"code": "40051",
 		"name": "Félina",
 		"subname": "Rahne Sinclair",
-		"thwart_text": "<b>Réponse</b> : après que Félina a contré, nommez un type de carte, puis défaussez la carte du dessus de votre deck. Si cette carte est du type nommé, vous pouvez l'ajouter à votre main.",
+		"thwart_text": "<b>Reaktion</b> : Nachdem Wolfsbane Widerstand geleistet hat, benenne einen Kartentyp, dann lege die oberste Karte deines Decks ab. Falls die Karte den benannten Typ hat, darfst du sie auf deine Hand nehmen.",
 		"traits": "X-Force."
 	},
 	{
 		"code": "40053",
-		"flavor": "\"Plusieurs esprits valent mieux qu'un, si vous me permettez cet aphorisme.\" — Le Fauve",
-		"name": "Enquêter en Équipe",
-		"text": "Alliance. <i>(Les joueurs peuvent payer collectivement les coûts de cette carte.)</i>\n<b>Action de héros</b> : retirez 3[per_hero] menaces d'une manigance annexe."
+		"flavor": "\"Wenn ich einen Satz prägen darf: Viele Köche veredeln den Brei.\" — Beast",
+		"name": "Teamermittlung",
+		"text": "Allianz. <i>(Die Spieler können die Kosten dieser Karte als Gruppe bezahlen)</i>\n<b>Held - Aktion</b> : Entferne 3[per_hero] Bedrohung von einem Nebenplan."
 	},
 	{
 		"code": "40054",
-		"flavor": "\"Bonne nuit, mon pote.\" — Wolverine",
-		"name": "Assommer les Gardes",
-		"text": "Victoire 0.\n<b>Une fois déjouée</b> : chaque joueur peut défausser un sbire non-[[ÉLITE]] en jeu."
+		"flavor": "\"Schlaf gut, Kumpel.\" — Wolverine",
+		"name": "Die Wachen Ausschalten",
+		"text": "Sieg 0.\n<b>Sobald besiegt</b> : Jeder Spieler darf 1 Nicht-[[ELITE]]-Schergen aus dem Spiel ablegen."
 	},
 	{
 		"code": "40056",
-		"name": "L'Ours de l'Atlas",
+		"name": "Atlas Bear",
 		"subname": "Shoon'kwa",
-		"text": "<b>Action</b> : inclinez L'Ours de l'Atlas → regardez la carte du dessus du deck d'un joueur. Si cette carte est un événement, vous pouvez infliger 1 dégât à L'Ours de l'Atlas pour ajouter la carte consultée à la main de son propriétaire.",
+		"text": "<b>Aktion</b> : Erschöpfe Atlas Bear → sieh dir die oberste Karte eines Spielerdecks an. Falls die Karte ein Ereignis ist, darfst du Atlas Bear 1 Schaden zufügen, damit der Besitzer die Karte auf seine Hand nimmt.",
 		"traits": "Posse. Wakanda."
 	},
 	{
 		"code": "40057",
-		"flavor": "\"Je suis la dernière de mon espèce.Je suis la dernière kumiho !\"",
-		"name": "La Renarde Blanche",
+		"flavor": "\"Ich bin die Letzte meiner Art. Ich bin die letzte Kumiho!\"",
+		"name": "White Fox",
 		"subname": "Ami Han",
-		"text": "<b>Réponse</b> : après que La Renarde Blanche a été défaussée du dessus de votre deck, mettez-la en jeu sous votre contrôle.",
+		"text": "<b>Reaktion</b> : Nachdem White Fox von deinem Deck abgelegt worden ist, bringe sie unter deiner Kontrolle ins Spiel.",
 		"traits": "Posse."
 	},
 	{
 		"code": "40058",
-		"name": "Le Posse",
-		"text": "1 max par deck.\nJouez cette carte uniquement si vous contrôlez au moins 3 personnages avec le trait [[POSSE]].\n<b>Action de héros</b> : soignez 1 dégât de chaque personnage [[POSSE]] et redressez chacun d'eux.",
+		"name": "Die Posse",
+		"text": "Max. 1 pro Deck.\nSpiele diese Karte nur, falls du mindestens 3 Charaktere mit dem Merkmal [[POSSE]] kontrollierst.\n<b>Held Aktion</b> : Heile 1 Schaden von jedem [[POSSE]]-Charakter und mache sie alle spielbereit.",
 		"traits": "Posse."
 	},
 	{
 		"code": "40059",
-		"flavor": "\"Le cours a commencé\" — Charles Xavier",
-		"name": "Entraînement aux Superpouvoirs",
-		"text": "Victoire 0.\n<b>Une fois déjouée</b> : chaque joueur peut chercher dans son deck ou sa pile de défausse une amélioration spécifique à son identité et la mettre en jeu. <i>(Mélangez.)</i>"
+		"flavor": "\"Der Unterricht beginnt!\" — Charles Xavier",
+		"name": "Superkraft-Training",
+		"text": "Sieg 0.\n<b>Sobald besiegt</b> : Jeder Spieler darf sein Deck und seinen Ablagestapel nach einem identitätsspezifischen Upgrade durchsuchen und es ins Spiel bringen. <i>(Mische.)</i>"
 	},
 	{
 		"code": "40060",
-		"name": "Se Donner à Fond",
-		"text": "<b>Réponse</b> : après que cette carte a été défaussée du dessus de votre deck, ajoutez-la à votre main."
+		"name": "Tiefer Graben",
+		"text": "<b>Reaktion</b> : Nachdem diese Karte von deinem Deck abgelegt worden ist, nimm sie auf deine Hand."
 	},
 	{
 		"code": "40064",
-		"name": "Tireur d'Élite",
-		"text": "1 max par joueur.\n<b>Interruption de héros</b> : quand vous effectuez une attaque À Distance, défaussez la carte du dessus de votre deck → cette attaque inflige 1 dégât supplémentaire pour chaque icône de ressource défaussée par cet effet.",
-		"traits": "Compétence."
+		"name": "Scharfschütze",
+		"text": "Max. 1 pro Spieler.\n<b>Held Unterbrechung</b> : Sobald du einen Fernkampfangriff durchführst, lege die oberste Karte deines Decks ab → dieser Angriff fügt für jedes auf diese Weise abgelegte Ressourcen-symbol 1 zusätzlichen Schaden zu.",
+		"traits": "Fertigkeit."
 	},
 	{
 		"code": "40190a",
