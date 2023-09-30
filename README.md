@@ -93,6 +93,7 @@ To check and apply formatting to JSON files:
   * `hero`
   * `justice`
   * `leadership`
+  * `pool`
   * `protection`
 * **flavor** - The flavor text on a card
 * **hand_size** - Character's hand size
