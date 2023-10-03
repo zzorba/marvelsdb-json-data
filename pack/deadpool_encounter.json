@@ -1,5 +1,16 @@
 [
     {
+        "code": "44032",
+        "faction_code": "encounter",
+        "name": "The Merc with the Mouth",
+        "octgn_id": "03bdcc46-22c1-4a7f-8ca7-e212d5044032",
+        "pack_code": "deadpool",
+        "position": 32,
+        "quantity": 1,
+        "set_code": "deadpool",
+        "type_code": "obligation"
+    },
+    {
         "code": "44033",
         "faction_code": "encounter",
         "name": "Butler",
@@ -20,7 +31,8 @@
         "position": 34,
         "quantity": 1,
         "set_code": "deadpool_nemesis",
-        "set_position": 2
+        "set_position": 2,
+        "type_code": "treachery"
     },
     {
         "code": "44035",
@@ -31,7 +43,8 @@
         "position": 35,
         "quantity": 1,
         "set_code": "deadpool_nemesis",
-        "set_position": 3
+        "set_position": 3,
+        "type_code": "treachery"
     },
     {
         "attack": 2,
@@ -64,6 +77,91 @@
         "set_code": "dreadpool",
         "set_position": 1,
         "text": "<b>When Revealed</b>: Reveal the set-aside Dreadpool minion and Dreadful Deeds side scheme. Shuffle the rest of the set-aside Dreadpool encounter set into the encounter deck. Remove this card from the game.",
+        "type_code": "treachery"
+    },
+    {
+        "attack": 2,
+        "boost": 3,
+        "code": "44038",
+        "faction_code": "encounter",
+        "flavor": "\"What I do...I do for the cause. But I still feel bad about it...usually.\"",
+        "health": 3,
+        "illustrator": "Andrea Di Vito & Laura Villari",
+        "name": "Dreadpool",
+        "octgn_id": "03bdcc46-22c1-4a7f-8ca7-e212d5044038",
+        "pack_code": "deadpool",
+        "position": 38,
+        "quantity": 1,
+        "scheme": 2,
+        "set_code": "dreadpool",
+        "set_position": 2,
+        "text": "Dreadpool engages the first player.\n<b>When Defeated</b>: Deal Dreadpool to the player who defeated him as a facedown encounter card.",
+        "traits": "Assassin. Elite.",
+        "type_code": "minion"
+    },
+    {
+        "base_threat": 2,
+        "base_threat_fixed": true,
+        "boost": 3,
+        "code": "44039",
+        "faction_code": "encounter",
+        "flavor": "Dreadpool believes the only way to end his suffering is to kill every being in all of the multiverse.",
+        "illustrator": "Andrea Di Vito & Laura Villari",
+        "name": "Dreadful Deeds",
+        "octgn_id": "03bdcc46-22c1-4a7f-8ca7-e212d5044039",
+        "pack_code": "deadpool",
+        "position": 39,
+        "quantity": 1,
+        "scheme_amplify": 1,
+        "set_code": "dreadpool",
+        "set_position": 3,
+        "text": "<b>When Revealed</b>: Place 2 threat here for each player who controls 1 or more 'Pool (pink) cards.",
+        "type_code": "side_scheme"
+    },
+    {
+        "attack": 1,
+        "boost": 1,
+        "code": "44040",
+        "faction_code": "encounter",
+        "name": "Anti-Regeneration Ray",
+        "octgn_id": "03bdcc46-22c1-4a7f-8ca7-e212d5044040",
+        "pack_code": "deadpool",
+        "position": 40,
+        "quantity": 1,
+        "set_code": "dreadpool",
+        "set_position": 4,
+        "text": "Attach to Dreadpool. Otherwise, attach to the villain.\n<b>Forced Interrupt</b>: When attached character attacks a non-villain character, threat the attacked character's text box as if it were blank (except for [[TRAITS]]) until the end of the attack.\n<b>Hero Action</b>: Spend [energy][mental][physical] resources \u2192 attach this card to your identity.",
+        "traits": "Weapon.",
+        "type_code": "attachment"
+    },
+    {
+        "boost": 2,
+        "code": "44041",
+        "faction_code": "encounter",
+        "illustrator": "Andrea Di Vito & Laura Villari",
+        "name": "'Pool-ized",
+        "octgn_id": "03bdcc46-22c1-4a7f-8ca7-e212d5044041",
+        "pack_code": "deadpool",
+        "position": 41,
+        "quantity": 2,
+        "set_code": "dreadpool",
+        "set_position": 5,
+        "text": "Treat attached ally as a [['POOL]] minion with a blank text box. Attached minion's SCH is equal to its printed THW and it does not take consequential damage.\n<b>When Revealed</b>: Attach to the ally with the highest cost without 'Pool-ized attached. Otherwise, this card gains surge.",
+        "type_code": "attachment"
+    },
+    {
+        "boost": 2,
+        "code": "44042",
+        "faction_code": "encounter",
+        "illustrator": "Andrea Di Vito & Laura Villari",
+        "name": "Metacidal Tendencies",
+        "octgn_id": "03bdcc46-22c1-4a7f-8ca7-e212d5044042",
+        "pack_code": "deadpool",
+        "position": 42,
+        "quantity": 1,
+        "set_code": "dreadpool",
+        "set_position": 7,
+        "text": "<b>When Revealed</b>: Deal 2 damage to each [[DEADPOOL CORPS]] character (3 damage instead if Dreadpool is in play). If no damage was dealt this way, place 1 acceleration token on the main scheme.",
         "type_code": "treachery"
     }
 ]
