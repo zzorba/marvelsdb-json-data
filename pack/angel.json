@@ -14,8 +14,8 @@
         "meta": {
             "colors": [
                 "#5684b2",
-                "#faf0b8",
                 "#b1b2b5",
+                "#faf0b8",
                 "#fffffd"
             ],
             "offset": "-35px -33px"
@@ -86,7 +86,6 @@
     {
         "attack": 1,
         "attack_cost": 1,
-        "attack_text": "<b>Hero Response</b>: After Psylocke attacks, if you are:\n\u2022 Angel, heal 1 damage from Psylocke.\n\u2022 Archangel, ready your hero.",
         "code": "42002",
         "cost": 3,
         "deck_limit": 1,
@@ -102,6 +101,7 @@
         "set_code": "angel",
         "set_position": 1,
         "subname": "Betsy Braddock",
+        "text": "[star] <b>Hero Response</b>: After Psylocke attacks, if you are:\n\u2022 Angel, heal 1 damage from Psylocke.\n\u2022 Archangel, ready your hero.",
         "thwart": 1,
         "thwart_cost": 1,
         "traits": "Psionic. X-Force.",
@@ -254,7 +254,6 @@
     {
         "attack": 1,
         "attack_cost": 1,
-        "attack_text": "<b>Response</b>: After Elixir attacks or thwarts, heal 1 damage from another friendly character.",
         "code": "42011",
         "cost": 4,
         "deck_limit": 1,
@@ -268,16 +267,15 @@
         "quantity": 1,
         "resource_mental": 1,
         "subname": "Josh Foley",
+        "text": "[star] <b>Response</b>: After Elixir attacks or thwarts, heal 1 damage from another friendly character.",
         "thwart": 1,
         "thwart_cost": 1,
-        "thwart_text": "<b>Response</b>: After Elixir attacks or thwarts, heal 1 damage from another friendly character.",
         "traits": "X-Force.",
         "type_code": "ally"
     },
     {
         "attack": 2,
         "attack_cost": 1,
-        "attack_text": "<b>Response</b>: After Siryn attacks, stun a minion.",
         "code": "42012",
         "cost": 4,
         "deck_limit": 1,
@@ -292,6 +290,7 @@
         "quantity": 1,
         "resource_energy": 1,
         "subname": "Theresa Cassidy",
+        "text": "[star] <b>Response</b>: After Siryn attacks, stun a minion.",
         "thwart": 2,
         "thwart_cost": 1,
         "traits": "Aerial. X-Force.",
@@ -441,18 +440,10 @@
     },
     {
         "code": "42021",
-        "cost": 2,
-        "deck_limit": 1,
-        "faction_code": "basic",
-        "name": "Soaring Hearts",
-        "octgn_id": "cbfcb70f-a855-4068-b02f-816804042021",
+        "duplicate_of": "41020",
         "pack_code": "angel",
         "position": 21,
-        "quantity": 1,
-        "resource_wild": 1,
-        "text": "Team-Up (Angel and Psylocke). Max 1 per deck.\n<b>Hero Action</b>: Search your discard pile for an identity-specific event and add it to your hand. Ready Angel and Psylocke.",
-        "traits": "Aerial. Psionic.",
-        "type_code": "event"
+        "quantity": 1
     },
     {
         "code": "42022",

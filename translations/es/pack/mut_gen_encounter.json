@@ -63,19 +63,21 @@
 		"traits": "Alteración."
 	},
 	{
-		"attack_text": "<b>Respuesta obligada:</b> .",
+		"attack_text": "<b>Respuesta obligada:</b> después de que Dientes de Sable se active contra ti, descarta la primera carta del mazo de Encuentros. Cura a Dientes de Sable tanto Daño como el número de iconos de Aumento () que se hayan descartado de este modo.",
 		"code": "32060",
 		"name": "Dientes de Sable I",
-		"flavor": "\"Pórtate bien y no te muevas...ni hables.Así está mejor.\"-Reina Blanca",
+		"flavor": "\"¡Te voy a arrancar las tripas!\"",
 		"traits": "Hermandad de mutantes"
 	},
 	{
+		"attack_text": "<b>Respuesta obligada:</b> después de que Dientes de Sable se active contra ti, descarta la primera carta del mazo de Encuentros. Cura a Dientes de Sable tanto Daño como el número de iconos de Aumento () que se hayan descartado de este modo.",
 		"code": "32061",
 		"name": "Dientes de Sable II",
 		"text": "Dureza.",
 		"traits": "Hermandad de mutantes"
 	},
 	{
+		"attack_text": "<b>Respuesta obligada:</b> después de que Dientes de Sable se active contra ti, descarta la primera carta del mazo de Encuentros. Cura a Dientes de Sable tanto Daño como el número de iconos de Aumento () que se hayan descartado de este modo.",
 		"code": "32062",
 		"name": "Dientes de Sable III",
 		"text": "Represalia 1. Dureza.",
@@ -85,34 +87,36 @@
 		"back_link": "32063b",
 		"code": "32063a",
 		"name": "Acosado por Dientes de Sable 1A",
-		"text": ""
+		"text": "<b>Contenido:</b> Dientes de Sable (I) y Dientes de Sable (II). (Dientes de Sable [II] y Dientes de Sable [III] para jugar en modo Experto.) Conjuntos de Encuentros de Dientes de Sable y Normal. Dos conjuntos de Encuentros modulares (Hermandad y Mística).\n<b>Preparación:</b> pon en juego el Plan secundario Buscar al senador. Vincúlale la carta de Aliado de Robert Kelly. Mientras esté vinculado a Buscar al senador, Robert Kelly está en juego pero no lo controla ningún jugador."
 	},
 	{
 		"code": "32063b",
 		"name": "Acosado por Dientes de Sable 1B",
-		"text": ""
+		"text": "Mientras Robert Kelly esté vinculado a Buscar al senador, trata su texto de reglas como si estuviese en blanco.\n<b>Si Robert Kelly abandona el juego, los jugadores pierden la partida.</b>"
 	},
 	{
 		"back_link": "32064b",
 		"code": "32064a",
 		"name": "El Senador herido 2A",
-		"text": "<b>Cuando se muestre esta carta:</b>."
+		"flavor": "\"¡Dientes de Sable ha herido al senador Kelly y continúa hostigándolo!\"",
+		"text": "<b>Cuando se muestre esta carta:</b> reparte a cada jugador 1 carta de Encuentro boca abajo."
 	},
 	{
 		"code": "32064b",
 		"name": "El Senador herido 2B",
-		"text": "<b>Cuando se complete esta carta:</b> derrota a Robert Kelly."
+		"text": "<b>Cuando se complete esta carta:</b> derrota a Robert Kelly.\n<b>Si Robert Kelly abandona el juego, los jugadores pierden la partida.</b>"
 	},
 	{
 		"back_link": "32065b",
 		"code": "32065a",
 		"name": "Busca al Senador",
-		"text": "Ataque veloz."
+		"text": "Robert Kelly no puede curarse mediante efectos de cartas de Jugador y tampoco se le pueden vincular Mejoras.\n<b>Cuando se derrote esta carta:</b> el jugador inicial desvincula a Robert Kelly de este Plan y toma el control de su carta. El Plan principal avanza a la etapa 2A. Dale la vuelta a esta carta y colócala junto al Plan principal."
 	},
 	{
 		"code": "32065b",
 		"name": "Proteger al Senador",
-		"text": "Ataque veloz."
+		"text": "Robert Kelly no puede curarse mediante efectos de cartas de Jugador y tampoco se le pueden vincular Mejoras.\n<b>Respuesta de Héroe:</b> después de que tu Héroe defienda contra un ataque de Dientes de Sable, gasta 2 recursos de cualquier tipo → prepara a tu Héroe. El jugador que controla a Robert Kelly es el único que puede aplicar esta capacidad.",
+		"traits": "Misión."
 	},
 	{
 		"code": "32066",
@@ -135,64 +139,73 @@
 		"traits": "Alteración."
 	},
 	{
+		"boost_text": "si este ataque derrota a un Aliado, coloca 2 de Amenaza sobre el Plan principal.",
 		"code": "32069",
 		"name": "Dientes de Sable ataca",
-		"text": "Ataque veloz."
+		"text": "<b>Cuando se muestre esta carta:</b> inflige 1 de Daño a Robert Kelly. Puedes agotar a tu Héroe para evitar esto."
 	},
 	{
 		"code": "32070",
 		"name": "Salvajismo impaclabe",
-		"text": ""
+		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> Dientes de Sable ejecuta el Plan. Si no tiene Daño acumulado, recibe +1 PLA para esta activación.\n<b>Cuando se muestre esta carta (Héroe):</b> Dientes de Sable te ataca. Si no tiene Daño acumulado, recibe +1 ATQ para esta activación."
 	},
 	{
 		"code": "32071",
 		"name": "Emergencia médica",
-		"text": "Complicación 2[per_hero].\nVictory 1."
+		"text": "Complicación 2[per_hero].\nVictoria 1.\n<b>Cuando se derrote esta carta:</b> cura 2 de Daño a Robert Kelly."
 	},
 	{
 		"code": "32072",
 		"name": "Rabia salvaje",
-		"text": ""
+		"flavor": "\"La caza de Kelly ha inducido un frenesí rabioso en Dientes de Sable. ¡Teneís qué desviar su atención del senador!\"",
+		"text": "<b>Cuando se derrote esta carta:</b> Dientes de Sable ataca al jugador que haya derrotado este Plan (incluso aunque tenga adoptada la identidad de su Alter ego)."
 	},
 	{
+		"attack_text": "<b>Respuesta obligada:</b> después de que Avalancha te ataque, agota un personaje que controles.",
+		"boost_text": "agota un personaje que controles.",
 		"code": "32073",
 		"name": "Avalancha",
-		"text": "",
 		"traits": "Hermandad de mutantes."
 	},
 	{
+		"attack_text": "<b>Respuesta obligada:</b> después de que la Mole ataque e inflija Daño a un personaje, aturde a ese personaje.",
 		"code": "32074",
 		"name": "Mole",
 		"text": "Guardia.",
+		"flavor": "\"¡Nada mueve a la Mole!\"",
 		"traits": "Hermandad de mutantes."
 	},
 	{
+		"attack_text": "<b>Respuesta obligada:</b> después de que Piros te ataque, descarta las 2 primeras cartas de tu mazo. Sufres 1 de Daño indirecto por cada icono de recurso impreso que se hata descartado de este modo.",
 		"code": "32075",
 		"name": "Piros",
-		"text": "",
+		"flavor": "\"Piros juega con fuego, chicos...¡pero nunca se quema!\"",
 		"traits": "Hermandad de mutantes."
 	},
 	{
+		"attack_text": "<b>Respuesta obligada:</b> después de que Sapo ataque e inflija Daño a un personaje que controles, descarta 1 carta de tu mano al azar.",
+		"boost_text": "descarta 1 carta de tu mano al azar.",
 		"code": "32076",
 		"name": "Sapo",
-		"text": ".",
 		"traits": "Hermandad de mutantes."
 	},
 	{
+		"boost_text": "vincula esta carta a un Esbirro y dale una carta de Estado /*Duro/*.",
 		"code": "32077",
 		"name": "Homo Superior",
-		"text": "",
+		"text": "Vincula esta carta a un Esbirro y dale una carta de Estado /*Duro/*. De no ser posible, esta carta gana Oleada.\nEl Esbirro vinculado recibe +5 de Vida.",
 		"traits": "Alteración."
 	},
 	{
 		"code": "32078",
 		"name": "Terroristas mutantes",
-		"text": ""
+		"text": "<b>Cuando se muestre esta carta:</b> busca el Plan secundario La Hermandad en el mazo y la pila de descartes de Encuentros y muéstralo. (Baraja el mazo.) Si no ha entrado en juego de este modo, descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Esbirro [[HERMANDAD DE MUTANTES]] y muéstralo."
 	},
 	{
 		"code": "32079",
 		"name": "La Hermandad",
-		"text": "Complicación 2[per_hero]."
+		"flavor": "\"Magneto fundó la Hermandad de Mutantes para llevar a cabo su plan de supremacía mutante.\"",
+		"text": "Complicación 2[per_hero].\nTodos los Esbirros [[HERMANDAD DE MUTANTES]] ganan Ataque veloz."
 	},
 	{
 		"code": "32080",
@@ -304,7 +317,7 @@
 		"boost_text": "Vincula esta carta al Villano.",
 		"code": "32095",
 		"name": "IA de aprendizaje",
-		"text": "Vincula esta carta al Villano.\n[star] El Villano gana Reperesalia 1.\n<b>Acción de Héroe:</b> gasta recursos [mental][mental][mental] → descarta esta carta.",
+		"text": "Vincula esta carta al Villano.\n[star] El Villano gana Represalia 1.\n<b>Acción de Héroe:</b> gasta recursos [mental][mental][mental] → descarta esta carta.",
 		"traits": "Centinela. Tecnología."
 	},
 	{
@@ -441,7 +454,7 @@
 	},
 	{
 		"code": "32117",
-		"name": "HIjos del Molde Maestro",
+		"name": "Hijos del Molde Maestro",
 		"text": "."
 	},
 	{
@@ -700,7 +713,7 @@
 	{
 		"code": "32149",
 		"name": "Burbuja Magnética",
-		"text": "Vincula esta carta a Magneto.\nMagneto gana Reperesalia 1.",
+		"text": "Vincula esta carta a Magneto.\nMagneto gana Represalia 1.",
 		"traits": "Magnético."
 	},
 	{
@@ -718,7 +731,8 @@
 	{
 		"code": "32152",
 		"name": "Sacudida eléctrica",
-		"text": "."
+		"text": ".",
+		"traits": "Magnético."
 	},
 	{
 		"boost_text": "agota tu carta de Superhéroe.",

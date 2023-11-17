@@ -234,7 +234,7 @@
         "resource_physical": 1,
         "set_code": "cable",
         "set_position": 13,
-        "text": "Restricted.\n<b>Hero Action</b> <i>(attack)</i>: Exhaust Plasma Rifle and spend a [physical] resource \u2192 deal 1 damage to an enemy for each side scheme in the victory display (to a maximum of 4). This attack gains ranged.",
+        "text": "Restricted.\n<b>Hero Action</b> <i>(attack)</i>: Exhaust Plasma Rifle and spend a [energy] resource \u2192 deal 1 damage to an enemy for each side scheme in the victory display (to a maximum of 4). This attack gains ranged.",
         "traits": "Tech. Weapon.",
         "type_code": "upgrade"
     },
@@ -418,7 +418,7 @@
         "position": 21,
         "quantity": 1,
         "resource_wild": 1,
-        "text": "If Fantomex is not in play, discard E.V.A.\n<b>Action</b>: Exhause E.V.A. \u2192 choose:\n\u2022 Remove 1 threat from a scheme.\n\u2022 Deal 1 damage to an enemy.\n\u2022 Heal 1 damage from Fantomex.",
+        "text": "If Fantomex is not in play, discard E.V.A.\n<b>Action</b>: Exhaust E.V.A. \u2192 choose:\n\u2022 Remove 1 threat from a scheme.\n\u2022 Deal 1 damage to an enemy.\n\u2022 Heal 1 damage from Fantomex.",
         "traits": "Vehicle.",
         "type_code": "support"
     },
@@ -655,7 +655,6 @@
     {
         "attack": 1,
         "attack_cost": 1,
-        "attack_text": "<b>Interrupt</b>: When Outlaw attacks, discard the top card of your deck \u2192 Outlaw gets +1 ATK for this attack for each resource icon discarded this way.",
         "code": "40039",
         "cost": 3,
         "deck_limit": 1,
@@ -672,7 +671,7 @@
         "set_code": "domino",
         "set_position": 2,
         "subname": "Inez Temple",
-        "text": "Toughness.",
+        "text": "Toughness.\n[star] <b>Interrupt</b>: When Outlaw attacks, discard the top card of your deck \u2192 Outlaw gets +1 ATK for this attack for each resource icon discarded this way.",
         "thwart": 1,
         "thwart_cost": 1,
         "traits": "Outlaw. Posse.",
@@ -873,9 +872,9 @@
         "quantity": 1,
         "resource_energy": 1,
         "subname": "Maria Callasantos",
+        "text": "[star] <b>Response</b>: After Feral thwarts, discard the top card of your deck. For each resource icon discarded this way, deal 1 damage to the villain.",
         "thwart": 2,
         "thwart_cost": 1,
-        "thwart_text": "<b>Response</b>: After Feral thwarts, discard the top card of your deck. For each resource icon discarded this way, deal 1 damage to the villain.",
         "traits": "X-Force.",
         "type_code": "ally"
     },
@@ -895,9 +894,9 @@
         "quantity": 1,
         "resource_physical": 1,
         "subname": "Rahne Sinclair",
+        "text": "[star] <b>Response</b>: After Wolfsbane thwarts, name a card type, then discard the top card of your deck. If that card is of the named type, you may add it to your hand.",
         "thwart": 2,
         "thwart_cost": 1,
-        "thwart_text": "<b>Response</b>: After Wolfsbane thwarts, name a card type, then discard the top card of your deck. If that card is of the named type, you may add it to your hand.",
         "traits": "X-Force.",
         "type_code": "ally"
     },
