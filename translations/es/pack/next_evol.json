@@ -1,0 +1,467 @@
+[
+    {
+        "back_link": "40001b",
+        "code": "40001a",
+        "flavor": "\"Puede que hayamos ganado esta batalla, pero la guerra aún no ha terminado.\"",
+        "name": "Cable",
+        "text": "<b>Respuesta</b>: despúes de que Cable derrote un Plan secundario, prepáralo. (Límite de una vez por fase.)",
+        "traits": "Soldado. X-Force."
+    },
+    {
+        "code": "40001b",
+        "name": "Nathan Summers",
+        "text": "Puedes incluir en tu mazo Planes secundarios de jugador de cualquier aspecto.\nSoldado X \u2014 <b>Preparación</b>: busca un Plan secundario de jugador en tu mazo y tu pila de descartes y ponlo en juego. <i>(Baraja el mazo.)</i>",
+        "traits": "Mutante. Soldado."
+    },
+    {
+        "code": "40002",
+	"flavor": "\"Teleportación para dos.\" -Cable",
+        "name": "Teleportación",
+        "text": "<b>Acción</b>: cambia de identidad. Todos los demás jugadores pueden cambiar a la identidad que tú hayas adoptado."
+    },
+    {
+        "code": "40003",
+        "name": "Exploración mental",
+        "text": "<b>Acción de Héroe</b> <i>(intervención)</i>: quita 3 de Amenaza de un Plan. Quita 1 de Amenaza adicional de ese Plan por cada Plan secundario que haya en la zona de victoria.",
+        "traits": "Psiónico. Superpoder. Intervención."
+    },
+    {
+        "code": "40004",
+        "name": "Precognición",
+        "text": "<b>Acción de Héroe</b>: mira las X primeras cartas del mazo de Encuentros, siendo X el número de Planes secundarios que haya en la zona de victoria. Puedes descartar 1 de esas cartas. Devuelve el resto en el orden que prefieras.",
+        "traits": "Psiónico. Superpoder."
+    },
+    {
+        "code": "40005",
+        "name": "Descarga Telequinética",
+        "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 6 de Daño a un enemigo. Inflige 1 de Daño adicional a ese enemigo por cada Plan secundario que haya en la zona de victoria.",
+        "traits": "Ataque. Psiónico. Superpoder."
+    },
+    {
+        "code": "40006",
+        "name": "Purga del tecnovirus",
+        "text": "Victoria 0.\nNingún personaje que no sea Cable puede quitar Amenaza de Purga de tecnovirus.\nMientras Purga de tecnovirus esté en la zona de victoria, Nathan Summers y Cable ganan el rasgo [[PSIÓNICO]] y Cable recibe +1 INT, +1 ATQ y +1 DEF."
+    },
+    {
+        "code": "40007",
+        "flavor": "La base orbital de Cable, controlada por una inteligencia artificial llamada Profesor.",
+        "name": "Graymalkin",
+        "text": "<b>Respuesta</b>: después de que se derrote un Plan secundario, prepara Graymalkin.\n<b>Recurso</b>: agota Graymalkin \u2192 genera un recurso [energy].",
+        "traits": "Lugar."
+    },
+    {
+        "code": "40008",
+        "flavor": "\"Lo siento, Wade. Me temo que no puedo hacer eso.\"",
+        "name": "Profesor",
+        "text": "<b>Acción de Alter ego</b>: agota Profesor \u2192 elige entre robar 1 carta o buscar un Plan secundario de jugador en tu mazo y pila de descartes y añadirlo a tu mano. <i>(Baraja el mazo.)</i>",
+        "traits": "Individuo. Tecnología."
+    },
+    {
+        "code": "40009",
+        "name": "Hijo de Askaki",
+        "text": "<b>Respuesta de Héroe</b> <i>(intervención)</i>: después de que defiendas contra un ataque enemigo, agota Hijo de Askaki y gasta un recurso de [energy] \u2192 quita tanta Amenaza de un Plan como puntuación de INT de tu Héroe.",
+        "traits": "Título."
+    },
+    {
+        "code": "40010",
+        "name": "Amnesia inducida",
+        "text": "<b>Respuesta de Héroe</b>: después de que se derrote un Plan secundario <i>(que no sea Permanente)</i>, añade Amnesia inducida y ese Plan secundario a la zona de victoria.",
+        "traits": "Psiónico. Superpoder."
+    },
+    {
+        "code": "40011",
+        "name": "Fusil de plasma",
+        "text": "Restringida.\n<b>Acción de Héroe</b> <i>(ataque)</i>: agota el Fusil de plasma y gasta un recurso [physical] \u2192 inflige 1 de Daño a un enemigo por cada Plan secundario que haya en la zona de victoria (hasta un máximo de 4). Este ataque gana A distancia.",
+        "traits": "Tecnología. Arma."
+    },
+    {
+        "code": "40012",
+        "name": "Campo de fuerza telequinético",
+        "text": "Sólo en identidad de Héroe\n<b>Interrupción de Héroe</b>: cuando un personaje amigo vaya sufrir cualquier cantidad de Daño, descarta el Campo de fuerza telequinético \u2192 evita todo ese Daño.",
+        "traits": "Psiónico. Superpoder."
+    },
+    {
+        "code": "40013",
+        "name": "Salto en el tiempo",
+        "text": "<b>Interrupción de Héroe</b>: cuando vaya a completarse el Plan principal, retira esta carta de la partida y pon en juego un Plan secundario que este en la zona de victoria \u2192 traslada 4 de Amenaza desde el Plan principal hasta ese Plan secundario.",
+        "traits": "Tactic."
+    },
+    {
+        "code": "40014",
+        "name": "Caliban",
+        "text": "<b>Respuesta</b>: después de que Caliban entre en juego, descarta cartas de la parte superior de  tu mazo hasta que se descarte un Aliado [[FACTOR-X]], [[X-FORCE]], or [[PATRULLA-X]]. añade ese Aliado a tu mano.",
+        "traits": "Psiónico. X-Force."
+    },
+    {
+        "code": "40015",
+        "flavor": "\"E.V.A. no es un vehículo. Es mi socia. Es mi mutación.\"",
+        "name": "Fantomex",
+        "subname": "Charlie Cluster-7",
+        "text": "<b>Respuesta</b>: después de que Fantomex entre en juego, busca E.V.A. en tu mazo y tu pila de descartes y ponla en juego. <i>(Baraja el mazo.)</i>",
+        "traits": "Psiónico. X-Force."
+    },
+    {
+        "code": "40016",
+        "name": "Mancha Solar",
+        "subname": "Bobby Da Costa",
+        "text": "<b>Respuesta</b>: después de que juegues a Mancha Solar desde tu mano, elige un jugador \u2192 inflige 1 de Daño al Villano y a cada Esbirro enfrentado con el jugador elegido por cada recurso [energy] usado para pagar el coste de Mancha Solar.",
+        "traits": "Aéreo. X-Force."
+    },
+    {
+        "code": "40017",
+        "name": "Planificar la misión",
+        "text": "Juega esta carta sólo si hay un Plan secundario en la zona de victoria.\n<b>Acción de Héroe</b>: hasta el final de la fase, los Aliados que controles no sufren Daño derivado."
+    },
+    {
+        "code": "40018",
+        "flavor": "\"¡Equipo azul, reagruparos en mi posición!\" \u2014 Bishop",
+        "name": "Pedir refuerzos",
+        "text": "Victoria 0.\n<b>Cuando se derrote esta carta</b>: cada jugador puede buscar un Aliado en su mazo y su pila de descartes y ponerlo en juego. <i>(Baraja el mazo.)</i>"
+    },
+    {
+        "code": "40019",
+        "flavor": "\"Necesitaremos armas. A montones.\" \u2014 Cable",
+        "name": "Armados hasta los dientes",
+        "text": "Victoria 0.\n<b>Cuando se derrote esta carta</b>: cada jugador puede buscar en su mazo y su pila de descartes una Mejora [[ARMA]]con un coste de 3 o menos y ponerla en juego. <i>(Baraja el mazo.)</i>"
+    },
+    {
+        "code": "40020",
+        "flavor": "\"No os preocupéis, niños. ¡No pasarán de aquí!\" \u2014 Armadura",
+        "name": "Establecer un perímetro defensivo",
+        "text": "Victoria 0.\n<b>Cuando se derrote esta carta</b>: dale a cada Superhéroe una carta de Estado \"Duro\"."
+    },
+    {
+        "code": "40021",
+        "name": "E.V.A.",
+        "text": "Si Fantomex no está en juego, descarta a E.V.A.\n<b>Acción</b>: agota a E.V.A. \u2192 elige una opción:\n\u2022 Quita 1 de Amenazade un Plan.\n\u2022 Inflige 1 de Daño a un enemigo.\n\u2022 Cura 1 de Daño a Fantomex.",
+        "traits": "Vehículo."
+    },
+    {
+        "code": "40022",
+        "name": "Los imposibles X-Force",
+        "text": "Juega esta carta poniéndola bajo el control de cualquier jugador. Máximo de 1 carta de [[GRUPO]] por jugador.\nSi todos tus personajes tienen el rasgo [[X-FORCE]], Cada Aliado que controles recibe +1 INT y sufre -1 de Daño derivado ([consequential]) después de intervenir en un Plan secundario.",
+        "traits": "Grupo."
+    },
+    {
+        "code": "40023",
+        "name": "Jefe de misión",
+        "text": "El coste para jugar Jefe de misión se reduce en 1 si tu Superhéroe tiene el rasgo [[SOLDADO]].\n<b>Respuesta de Héroe</b>: después de que se derrote un Plan secundario, agota Jefe de misión \u2192 cada jugador roba 1 carta.",
+        "traits": "Título."
+    },
+    {
+        "code": "40024",
+        "flavor": "\"¿Cable? No, no me interesa. Yo lo veo todo online.\"",
+        "name": "Masacre",
+        "subname": "Wade Wilson",
+        "text": "<b> Interrupción obligada</b>: cuando Masacre vaya a ser derrotado por Daño derivado, en vez de eso cúrale 3 de Daño. Añade 1 ficha de Aceleración al Plan principal.",
+        "traits": "Mercenario. X-Force."
+    },
+    {
+        "code": "40025",
+        "name": "Deathlok",
+        "subname": "Unit L17",
+        "text": "<b>Respuesta de Héroe</b>: después de que Deathlok entre en juego, elige una Mejora que esté en la pila de descartes de cualquier jugador, con un coste de 1 o menos y que se pueda vincular a Deathlok. Vincula esa Mejora a Deathlok.",
+        "traits": "Cíborg. X-Force."
+    },
+    {
+        "code": "40026",
+        "name": "Eneamigos",
+        "text": "Equipo (Cable y Masacre). Máximo de 1 por mazo.\n<b>Acción de Héroe</b> <i>(intervención)</i>: inflige 1 de Daño a Cable y Masacre. Quita 3 de Amenaza de un Plan y 3 de Amenaza de otro Plan distinto.",
+        "traits": "Intervención."
+    },
+    {
+        "code": "40027",
+        "flavor": "\"Tengo lo justo que necesitamos.\" \u2014 Forja",
+        "name": "Conseguir apoyo",
+        "text": "Victoria 0.\n<b>Cuando se derrote esta carta</b>: cada jugador puede buscar en su mazo y en su pila de descartes un Apoyo de coste 3 o menos y ponerlo en juego. <i>(Baraja el mazo.)</i>"
+    },
+    {
+        "code": "40028",
+        "name": "El poder de la mente",
+        "text": "El número de recursos generados por esta carta se duplica al pagar el coste de una carta con el rasgo [[PSIÓNICO]]."
+    },
+    {
+        "code": "40029",
+        "name": "Psimitarra",
+        "text": "Restringida.\n<b>Respuesta de Héroe</b> <i>(ataque)</i>: después de que juegues otra carta con el rasgo [[PSIÓNICO]], agota Psimitarra \u2192 inflige 2 de Daño a un enemigo.",
+        "traits": "Psiónico. Arma."
+    },
+    {
+        "code": "40030",
+        "flavor": "\"esta arma no es ni de lejos tan peligrosa como el hombre que la empuña.\" \u2014 Cable",
+        "name": "Arma secundaria",
+        "text": "Vincula esta carta a un Aliado. Máximo de 1 por Aliado.\nEl Aliado vinculado recibe +1 ATQ y sus ataques ganan A distancia..",
+        "traits": "Arma."
+    },
+    {
+        "back_link": "40037b",
+        "code": "40037a",
+        "name": "Dominó",
+        "text": "Cuando cuentes los recursos de las cartas descartadas de la parte superior de tu mazo, cada icono [wild] impreso vale por dos.\n<b>Acción</b>: elige una carta de tu mano. Intercambia esa carta por la primera carta de tu mazo. (Límite de una vez por ronda.)",
+        "traits": "Cuadrilla. X-Force."
+    },
+    {
+        "code": "40037b",
+        "name": "Neena Thurman",
+        "text": "<b>Acción</b>: elige una carta de tu mano. Intercambia esa carta por la primera que haya en la parte superior de tu pila de descartes. (Límite de una vez por ronda.)",
+        "traits": "Mutante."
+    },
+    {
+        "code": "40038",
+        "name": "Iguana",
+        "subname": "Rachel Leighton",
+        "text": "<b>Acción</b>: agota a Iguana, inflígele 1 de Daño y descarta la primera carta de la parte superior de tu mazo \u2192 dinflige 1 de Daño a cada enemigo por cada icono de recurso que se haya descartado de este modo.",
+        "traits": "Cuadrilla."
+    },
+    {
+        "attack_text": "<b>Interrupción</b>: cuando Forajida ataque, descarta la primera carta de la parte superior de tu mazo \u2192 Forajida recibe +1 ATQ para este ataque por cada icono de recurso que se haya descartado de este modo.",
+        "code": "40039",
+        "name": "Forajida",
+        "subname": "Inez Temple",
+        "text": "Dureza.",
+        "traits": "Forajida. Cuadrilla."
+    },
+    {
+        "code": "40040",
+        "name": "Un buen entrenamiento",
+        "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 4 de Daño a un enemigo y descarta la primera carta de la parte superior de tu mazo. Por cada icono de recurso que se haya descartado de este modo, inflige 1 de Daño adicional a ese enemigo."
+    },
+    {
+        "code": "40041",
+        "name": "Cuestión de suerte",
+        "text": "<b>Acción de Héroe</b>: descarta la primera carta de la parte superior de tu mazo y cuenta los recursos que hay en ella. Por cada recurso que hayas contado de esta modo, si esa:\n[energy] - Cura 2 de Daño a un personaje.\n[mental] - Quita 2 de Amenaza de un Plan.\n[physical] - inflige 3 de Daño a un enemigo.\n[wild] - Elige 1 de las opciones anteriores."
+    },
+    {
+        "code": "40042",
+        "name": "En el lugar y momento precisos",
+        "text": "<b>Acción de Héroe</b> <i>(intervención)</i>: Quita 3 de Amenaza de un Plan y descarta la primera carta de la parte superior de tu mazo. Por cada icono de recurso que se haya descartado de este modo, quita 1 de Amenaza adicional de ese Plan.",
+        "traits": "Superpoder. Intervención."
+    },
+    {
+        "code": "40043",
+        "name": "¡Premio!",
+        "text": "<b>Respuesta</b>: después de que se descarte esta carta de la parte superior de tu mazo, devuélvela a tu mazo y barájalo."
+    },
+    {
+        "code": "40044",
+        "flavor": "\"¿Acabas de hacerme pipí encima. salchichita mala?\" \u2014 Dominó",
+        "name": "Pip el perro",
+        "text": "<b>Acción de Alter ego</b>: agota a Pip el perro \u2192 coge 1 carta de Dominó o de la [[CUADRILLA]] que esté en tu pila de descartes y colócala en la parte superior de tu mazo.",
+        "traits": "Criatura."
+    },
+    {
+        "code": "40045",
+        "name": "El Dama Pintada",
+        "text": "<b>Respuesta</b>: después de que descartes una carta de la parte superior de tu mazo, vincula esa carta a ésta boca abajo (hasta un máximo de 3 cartas).\n<b>Acción de Alter ego</b>: agota El Dama Pintada \u2192 añade a tu mano 1 de las cartas que estén viculadas aquí.",
+        "traits": "Vehículo."
+    },
+    {
+        "code": "40046",
+        "name": "Pistola de Dominó",
+        "text": "Restringida.\n<b>Acción de Héroe</b> <i>(ataque)</i>: agota la Pistola de Dominó, elige un enemigo, y descarta la primera carta de la parte superior de tu mazo \u2192 inflige 1 de Daño a ese enemigo por cada icono de recurso que se haya descartado de este modo. Este ataque gana A distancia.",
+        "traits": "Arma."
+    },
+    {
+        "code": "40047",
+        "name": "Suerte y talento",
+        "text": "<b>Interrupción de Héroe</b> <i>(defensa)</i>: cuando se ponga boca arriba una carta de aumento durante un ataque efectuado contra ti, agota Suerte y talento \u2192 anula los iconos de Aumento y la capacidad de \"<b>Aumento</b>\" . Dale al enemigo atacante otra carta de aumento para este ataque.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "40048",
+        "name": "Golpe de suerte",
+        "text": "<b>Interrupción de Héroe</b>: cuando muestres una carta de Encuentro, descarta Golpe de suerte \u2192 anula los efectos de esa carta y descártala. Muestra otra carta del mazo de Encuentros.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "40049",
+        "name": "Campo de probabilidad",
+        "text": "<b>Interrupción</b>: cuando uses un atributo básico, descarta la primera carta de la parte superior de tu mazo \u2192 recibes +1 a ese atributo para este uso por cada icono de recurso que se haya descartado de este modo.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "40050",
+        "flavor": "\"He captado el rastro de mi presa.\"",
+        "name": "Feroz",
+        "subname": "Maria Callasantos",
+        "thwart_text": "<b>Respuesta</b>: después de que Feroz intervenga, descarta la primera carta de la parte superior de tu mazo. Por cada icono de recurso que se haya descartado de este modo, inflige 1 de Daño al Villano.",
+        "traits": "X-Force."
+    },
+    {
+        "code": "40051",
+        "name": "Loba Venenosa",
+        "subname": "Rahne Sinclair",
+        "thwart_text": "<b>Respuesta</b>: después de que Loba Venenosa intervenga, nombra un tipo de carta y luego descarta la primera carta de la parte superior de tu mazo. Si esa carta es del tipo nombrado, puedes añadirla a tu mano.",
+        "traits": "X-Force."
+    },
+    {
+        "code": "40052",
+        "duplicate_of": "30014",
+        "pack_code": "next_evol",
+        "position": 52,
+        "quantity": 3
+    },
+    {
+        "code": "40053",
+        "flavor": "\"Si se me permite acuñar una expresión: muchas mentes aligeran el trabajo.\" \u2014 Bestia",
+        "name": "Investigación en grupo",
+        "text": "Alianza. <i>(Los jugadores pueden pagar los costes de esta carta en grupo.)</i>\n<b>Acción de Héroe</b>: Quita 3[per_hero] de Amenaza de un Plan secundario."
+    },
+    {
+        "code": "40054",
+        "flavor": "\"A dormir, nene.\" \u2014 Lobezno",
+        "name": "Eliminar a los guardias",
+        "text": "Victoria 0.\n<b>Cuando se derrote esta carta</b>: cada jugador puede descartar del juego 1 Esbirro que no sea [[ÉLITE]]."
+    },
+    {
+        "code": "40055",
+        "duplicate_of": "30019",
+        "pack_code": "next_evol",
+        "position": 55,
+        "quantity": 3
+    },
+    {
+        "code": "40056",
+        "name": "Osa del Atlas",
+        "subname": "Shoon'kwa",
+        "text": "<b>Acción</b>: agota a la Osa del Atlas \u2192 mira la primera carta de la parte superior del mazo de un jugador. Si esa carta es un Evento, puedes inflingir 1 de Daño a la Osa del Atlas para añadir esa carta a la mano de su propietario.",
+        "traits": "Cuadrilla. Wakanda."
+    },
+    {
+        "code": "40057",
+        "flavor": "\"Soy la última de mi especie. ¡Soy la última kumiho!\"",
+        "name": "White Fox",
+        "subname": "Ami Han",
+        "text": "<b>Respuesta</b>: después de que White Fox se descarte de la parte superior de tu mazo, ponla en juego controlada por ti.",
+        "traits": "Cuadrilla."
+    },
+    {
+        "code": "40058",
+        "name": "La Cuadrilla",
+        "text": "Máximo de 1 por mazo.\nJuega esta carta sólo si controlas al menos 3 personajes que tengan el rasgo [[CUADRILLA]].\n<b>Acción de Héroe</b>: Cura 1 de Daño a todos los personajes [[CUADRILLA]] y prepáralos.",
+        "traits": "Cuadrilla."
+    },
+    {
+        "code": "40059",
+        "flavor": "\"La clase ha empezado.\" \u2014 Charles Xavier",
+        "name": "Entrenamiento de superpoderes",
+        "text": "Victoria 0.\n<b>Cuando se derrote esta carta</b>: cada jugador puede buscar en su mazo y en su pila de descartes una Mejora específica de su Superhéroe y ponerla en juego <i>(Baraja el mazo.)</i>"
+    },
+    {
+        "code": "40060",
+        "name": "Reserva interior",
+        "text": "<b>Respuesta</b>: después de que se descarte esta carta de la parte superior de tu mazo, añádela a tu mano."
+    },
+    {
+        "code": "40061",
+        "duplicate_of": "01088",
+        "pack_code": "next_evol",
+        "position": 61,
+        "quantity": 1
+    },
+    {
+        "code": "40062",
+        "duplicate_of": "01089",
+        "pack_code": "next_evol",
+        "position": 62,
+        "quantity": 1
+    },
+    {
+        "code": "40063",
+        "duplicate_of": "01090",
+        "pack_code": "next_evol",
+        "position": 63,
+        "quantity": 1
+    },
+    {
+        "code": "40064",
+        "name": "Puntería",
+        "text": "Max 1 per player. <b>Interrupción de Héroe</b>: cuando realices un ataque con A distancia, descarta la primera carta de la parte superior de tu mazo \u2192 este ataque inflige 1 de Daño adicional por cada icono de recurso que se haya descartado de este modo.",
+        "traits": "Habilidad."
+    },
+    {
+        "back_link": "40190b",
+        "code": "40190a",
+        "name": "Assemble the Grupo",
+        "text": "This scheme does not count against the player side scheme limit.\n<b>Cuando se derrote esta carta</b>: Flip this card y put Grupo Assembled into play.\n<i>(The ability on Grupo Assembled allows each player to play an ally from their deck for free.)</i>"
+    },
+    {
+        "code": "40190b",
+        "name": "Grupo Assembled",
+        "text": "Enters play with 1 assembly counter on it.\n<b>Acción</b>: Quita 1 assembly counter from here \u2192 each player may search their deck y descarta pile for an ally with a printed cost of 3 or less y put it into play. <i>(Any player can do this.)</i>"
+    },
+    {
+        "back_link": "40191b",
+        "code": "40191a",
+        "name": "Establish Safehouse",
+        "text": "This scheme does not count against the player side scheme limit.\n<b>Cuando se derrote esta carta</b>: Flip this card y put Safehouse Established into play.\n<i>(The ability on Safehouse Established gains the players the Safehouse support card.)</i>"
+    },
+    {
+        "code": "40191b",
+        "name": "Safehouse Established",
+        "text": "Enters play with 1 safehouse counter on it.\n<b>Acción</b>: Quita 1 safehouse counter from here \u2192 the first player puts the Safehouse support into play under their control. <i>(Safehouse is a campaign card.)</i>"
+    },
+    {
+        "back_link": "40192b",
+        "code": "40192a",
+        "name": "Gear Up",
+        "text": "This scheme does not count against the player side scheme limit.\n<b>Cuando se derrote esta carta</b>: Flip this card y put Geared Up into play.\n<i>(The ability on Geared Up gains each player a Pouches resource card.)</i>"
+    },
+    {
+        "code": "40192b",
+        "name": "Geared Up",
+        "text": "Enters play with 1 pouch counter on it.\n<b>Acción</b>: Quita 1 pouch counter from here \u2192 each player shuffles 1 copy of the Pouches resource card into their deck. <i>(Pouches is a campaign card.)</i>"
+    },
+    {
+        "back_link": "40193b",
+        "code": "40193a",
+        "name": "Mission Prep",
+        "text": "This scheme does not count against the player side scheme limit.\n<b>Cuando se derrote esta carta</b>: Flip this card y put Mission Prepped into play.\n<i>(The ability on Mission Prepped allows each player to play an upgrade from their deck for free.)</i>"
+    },
+    {
+        "code": "40193b",
+        "name": "Mission Prepped",
+        "text": "Enters play with 1 prep counter on it.\n<b>Acción</b>: Quita 1 prep counter from here \u2192 each player searches their deck y descarta pile for 1 upgrade with a printed cost of 2 or less y puts it into play. <i>(Any player can do this.)</i>"
+    },
+    {
+        "back_link": "40194b",
+        "code": "40194a",
+        "name": "Practice Maneuvers",
+        "text": "This scheme does not count against the player side scheme limit.\n<b>Cuando se derrote esta carta</b>: Flip this card y put Practiced Maneuvers into play.\n<i>(The ability on Practiced Maneuvers provides the players a permanent discount on high-cost event cards.)</i>"
+    },
+    {
+        "code": "40194b",
+        "flavor": "\"Last one through the course does the laundry for a month!\" \u2014 Mancha Solar",
+        "name": "Practiced Maneuvers",
+        "text": "Reduce the cost to play each event with a printed cost of 3 or more by 1."
+    },
+    {
+        "back_link": "40195b",
+        "code": "40195a",
+        "name": "Prepare Defenses",
+        "text": "This scheme does not count against the player side scheme limit.\n<b>Cuando se derrote esta carta</b>: Flip this card y put Prepared Defenses into play.\n<i>(The ability on Prepared Defenses gains each player a permanent +1 DEF y retaliate 1.)</i>"
+    },
+    {
+        "code": "40195b",
+        "flavor": "\"We've got incoming!\"\n\"They can each my high-velocity diamond shards.\"\n\u2014 Rockslide y Bling!",
+        "name": "Prepared Defenses",
+        "text": "Each hero recibe +1 DEF y gains retaliate 1."
+    },
+    {
+        "code": "40196",
+        "flavor": "\"I can never remember where I put anything.\" \u2014 Masacre",
+        "name": "Pouches"
+    },
+    {
+        "code": "40197",
+        "name": "Safehouse",
+        "text": "<b>Acción de Alter ego</b>: Choose:\n\u2022 Cura 2 de Daño from your identity.\n\u2022 Draw 1 card.\nAny player may trigger this ability. (Límite de una vez por ronda per player.)",
+        "traits": "Lugar."
+    },
+    {
+        "code": "40204",
+        "name": "Hope Summers",
+        "text": "Hope Summers gains each [[TRAIT]] on your identity.\n<b>Respuesta</b>: después de que you play Hope Summers from your hand, search your deck for a [[SUPERPOWER]] card y add it to your hand. <i>(Baraja el mazo.)</i>",
+        "traits": "X-Force."
+    }
+]

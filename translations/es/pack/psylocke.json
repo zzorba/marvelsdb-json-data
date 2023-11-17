@@ -1,0 +1,199 @@
+[
+    {
+        "back_link": "41001b",
+        "code": "41001a",
+	"flavor": "\"Mi mente es más afilada que cualquier espada\"",
+        "name": "Mariposa Mental",
+        "text": "[star] <i>Control de energía psiónica</i> \u2014 <b>Interrupción</b>: cuando uses uno de los atributos básicos de Mariposa Mental <i>(INT, ATQ o DEF)</i>, dale la vuelta a 1 Mejora [[ENERGÍA PSIÓNICA]].",
+        "traits": "Psiónico. X-Force."
+    },
+    {
+        "code": "41001b",
+        "name": "Betsy Braddock",
+        "text": "<i>Manifestación psiónica</i> \u2014 <b>Preparación de la partida</b>: pon en juego tus 2 Mejoras [[ENERGÍA PSIÓNICA]] con la cara de Cuchillo psiónico boca arriba.\n<b>Acción</b>: agota 1 Mejora [[ENERGÍA PSIÓNICA]] \u2192 coge 1 carta con el rasgo [[PSIÓNICO]] de tu pila de descartes, añádela a tu mazo y barájalo.",
+        "traits": "Mutante. Psiónico."
+    },
+    {
+        "back_link": "41002b",
+        "code": "41002a",
+        "name": "Cuchillo psiónico",
+        "text": "Permanente.\nMariposa Mental recibe +1 INT.\n<b>Recurso de Héroe</b>: agota el Cuchillo psiónico \u2192 genera un recurso [mental]. Puedes dale la vuelta a esta carta.",
+        "traits": "Energía psiónica. Arma."
+    },
+    {
+        "code": "41002b",
+        "name": "Katana psiónica",
+        "text": "Permanente. Restringida.\nMariposa Mental recibe +1 ATQ y sus ataques básicos ganan Penetrante.\n<b>Recurso de Héroe</b>: agota la Katana psiónica \u2192 genera un recurso [physical]. Puedes dale la vuelta a esta carta.",
+        "traits": "Energía psiónica. Arma."
+    },
+    {
+        "code": "41003",
+        "flavor": "\"¿Alguien ha pedido una ayudita?\"",
+        "name": "Ángel",
+        "subname": "Warren Worthington III",
+        "text": "<b>Respuesta</b>: después de que juegues al Ángel desde tu mano, prepara tu carta de Superhéroe.",
+        "traits": "Aéreo. X-Force."
+    },
+    {
+        "code": "41004",
+        "name": "Ráfaga de cuchilladas",
+        "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 2 de Daño a un enemigo. Por cada Cuchillo psiónico que controles, confunde a un enemigo de tu elección. Por cada Katana psiónica que controles, inflige 2 de Daño a un enemigo de tu elección.",
+        "traits": "Ataque. Psiónico."
+    },
+    {
+        "code": "41005",
+        "name": "Detección Mental",
+        "text": "<b>Acción de Héroe</b> <i>(intervención)</i>: quita 1 de Amenaza de un Plan. Por cada Cuchillo psiónico que controles, quita 2 de Amenaza adicionales de ese Plan. Por cada Katana psiónica que controles, roba 1 carta.",
+        "traits": "Psiónico. Intervención."
+    },
+    {
+        "code": "41006",
+        "name": "Redirección psiónica",
+        "text": "<b>Interrupción de Héroe</b> <i>(defensa)</i>: cuando vayas a sufrir cualquier cantidad de Daño provocado por un ataque enemigo, evita 2 de ese Daño. Por cada Katana psiónica que controles, evitas 2 de Daño adicionales. Por cada Cuchillo psiónico que controles, confunde a ese enemigo.",
+        "traits": "Defensa. Psiónico."
+    },
+    {
+        "code": "41007",
+        "name": "Sugestión telepática",
+        "text": "<b>Interrupción de Héroe</b>: cuando muestres una carta del mazo de Encuentros, anula los efectos de \"<b>Cuando se muestre esta carta</b>\". Por cada Katana psiónica que controles, inflige 2 de Daño a un enemigo de tu elección. Por cada Cuchillo psiónico que controles, quita 1 de Amenaza de un Plan de tu elección.",
+        "traits": "Psiónico."
+    },
+    {
+        "code": "41008",
+        "flavor": "\"La práctica hace la perfección.\" \u2014 Mariposa Mental",
+        "name": "Rutina de entrenamiento",
+        "text": "<b>Acción</b>: agota Rutina de entrenamiento \u2192 busca en tu mazo una carta [[HABILIDAD]] y añádela a tu mano. <i>(Baraja el mazo.)</i> Si tienes adoptada tu identidad de Héroe, descarta 1 carta de tu mano.",
+        "traits": "Entrenamiento."
+    },
+    {
+        "code": "41009",
+        "name": "Entrenamiento en artes marciales",
+        "text": "Mariposa Mental recibe +1 DEF.\n<b>Respuesta de Héroe</b>: despúes de que Mariposa Mental defienda contra un ataque, descarta Entrenamiento en artes marciales \u2192 prepara a Mariposa Mental.",
+        "traits": "Habilidad."
+    },
+    {
+        "code": "41010",
+        "name": "Entrenamiento psiónico",
+        "text": "Mariposa Mental ignora las palabras clave Guardia y Patrulla.\n<b>Respuesta de Héroe</b>: despúes de que Mariposa Mental intervenga, descarta Entrenamiento psiónico \u2192 confunde a un enemigo.",
+        "traits": "Habilidad."
+    },
+    {
+        "code": "41011",
+        "name": "Entrenamiento con armas",
+        "text": "Mariposa Mental gana Represalia 1.\n<b>Respuesta de Héroe</b>: despúes de que Mariposa Mental ataque, descarta Entrenamiento con armas \u2192 prepara todas las Mejoras [[ARMA]] que controles.",
+        "traits": "Habilidad."
+    },
+    {
+        "attack_text": "El Capitán Britania sufre -1 de Daño derivado despúes de intervenir en un Plan secundario o atacar a un Esbirro.",
+        "code": "41012",
+        "flavor": "\"Yo seré tu adalid, ahora y por siempre.\"",
+        "name": "Capitán Britania",
+        "subname": "Brian Braddock",
+        "thwart_text": "El Capitán Britania sufre -1 de Daño derivado despúes de intervenir en un Plan secundario o atacar a un Esbirro.",
+        "traits": "Aéreo. Excalibur."
+    },
+    {
+        "attack_text": "<b>Respuesta</b>: despúes de que Cifra ataque e inflija Daño a un enemigo confundido, roba 1 carta.",
+        "code": "41013",
+        "flavor": "\"Tu lenguaje corporal me dice todo lo que necesito saber para vencerte.\"",
+        "name": "Cifra",
+        "subname": "Doug Ramsey",
+        "traits": "X-Force."
+    },
+    {
+        "code": "41014",
+        "duplicate_of": "05031",
+        "pack_code": "psylocke",
+        "position": 14,
+        "quantity": 3
+    },
+    {
+        "code": "41015",
+        "name": "Golpe a la cabeza",
+        "text": "<b>Respuesta de Héroe</b>: despúes de que tu Héroe realice un ataque básico e inflija Daño a un enemigo, confunde a ese enemigo. Si ese enemigo ya estaba confundido, en vez de eso atúrdelo.",
+        "traits": "Habilidad."
+    },
+    {
+        "code": "41016",
+        "flavor": "\"Tu le das por abajo y yo por arriba.\"\n\"Siempre me toca a mí por abajo.\"\n\"Vale, pues tú por arriba.\"\n\"Es que me gusta dar por abajo.\"\n \u2014 Lobezno y Masacre",
+        "name": "Tender una trampa",
+        "text": "Victoria 0.\n<b>Cuando se derrote esta carta</b>: el jugador que haya derrotado este Plan inflige 5[per_hero] de Daño al Villano."
+    },
+    {
+        "code": "41017",
+        "illustrator": "Eduardo Mello",
+        "name": "Aletear como una mariposa",
+        "text": "Juega esta carta poniéndola bajo el control de cualquier jugador.\nMáximo de 1 por jugador.\n<b>Interrupción</b>: cuando un personaje que controles ataque a un enemigo confundido, aumenta en 1 la cantidad de Daño que ese ataque inflige a ese enemigo.",
+        "traits": "Habilidad."
+    },
+    {
+        "code": "41018",
+        "name": "Pete Wisdom",
+        "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[X-FORCE]].\n<b>Respuesta</b>: despúes de que resuelvas los efectos del enunciado \"<b>Cuando se muestre esta carta</b>\" de una carta de Perfidia, cura 1 de Daño a Pete Wisdom.",
+        "traits": "X-Force."
+    },
+    {
+        "code": "41019",
+        "name": "Fuerza dirigida",
+        "text": "<b>Interrupción de Héroe</b>: cuando tu héroe realice un ataque que tenga una palabra clave <i>(A distancia, Brutalidad o Penetrante)</i>, ese ataque inflige 2 de Daño adicionales. (Máximo de 1 por ataque.)",
+        "traits": "Habilidad."
+    },
+    {
+        "code": "41020",
+        "name": "Amor de altos vuelos",
+        "text": "Equipo (Ángel y Mariposa Mental). Máximo 1 por mazo.\n<b>Acción de Héroe</b>: busca en tu pila de descartes un Evento específico de Superhéroe y añádelo a tu mano. Prepara al Ángel y a Mariposa Mental.",
+        "traits": "Aéreo. Psiónico."
+    },
+    {
+        "code": "41021",
+        "duplicate_of": "40028",
+        "pack_code": "psylocke",
+        "position": 21,
+        "quantity": 3
+    },
+    {
+        "code": "41022",
+        "name": "IPAC",
+        "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[X-FORCE]].\n<b>Acción de Héroe</b>: agota IPAC y dale 1 carta de Encuentro boca abajo a un jugador \u2192 ese jugador roba 2 cartas.",
+        "traits": "Vehículo. X-Force."
+    },
+    {
+        "code": "41023",
+        "name": "Bunker-X",
+        "text": "<b>Acción</b>: agota el Bunker-X y elige un jugador cuyo Superhéroe tenga el rasgo [[MUTANTE]] \u2192 ese jugador busca cualquier carta entre las X primeras cartas de su mazo, siendo X el número de Planes secundarios que haya en la zona de victoria, y añade esa carta a su mano. <i>(Baraja el mazo.)</i>",
+        "traits": "Lugar. X-Force."
+    },
+    {
+        "code": "41024",
+        "name": "Telepatía",
+        "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[PSIÓNICO]].\nMáximo de 1 por jugador.\n<b>Acción de Héroe</b> <i>(intervención)</i>: agota Telepatía y gasta recursos [mental][mental] \u2192 quita 2 de Amenaza de un Plan.",
+        "traits": "Psiónico. Superpoder."
+    },
+    {
+        "code": "41030",
+        "name": "Disparo de arco psiónico",
+        "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[PSIÓNICO]].\n<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 4 Daño a un enemigo. Este ataque gana A distancia.",
+        "traits": "Ataque. Psiónico."
+    },
+    {
+        "attack_text": "<b>Respuesta</b>: despúes de que uses uno de los atributos básicos de Dominó, intercambia una carta de tu mano por la primera carta de la parte superior de tu mazo.",
+        "code": "41031",
+        "flavor": "\"¿Quieres tentar a la suerte?\"",
+        "name": "Dominó",
+        "subname": "Neena Thurman",
+        "thwart_text": "<b>Respuesta</b>: despúes de que uses uno de los atributos básicos de Dominó, intercambia una carta de tu mano por la primera carta de la parte superior de tu mazo.",
+        "traits": "Cuadrilla. X-Force."
+    },
+    {
+        "code": "41032",
+        "name": "Mazazo psiónico",
+        "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[PSIÓNICO]].\n<b>Respuesta de Héroe</b> <i>(ataque)</i>: despúes de que defiendas contra un ataque enemigo, inflige 3 de Daño a ese enemigo y atúrdelo.",
+        "traits": "Ataque. Psiónico."
+    },
+    {
+        "code": "41033",
+        "name": "Telekinesis",
+        "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[PSIÓNICO]].\nMáximo de 1 por jugador.\n<b>Acción de Héroe</b> <i>(ataque)</i>: agota Telekinesis y gasta recursos [mental][mental] \u2192 inflige 3 de Daño a un enemigo.",
+        "traits": "Psiónico. Superpoder."
+    }
+]
