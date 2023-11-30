@@ -1,230 +1,180 @@
 [
-    {
-        "back_link": "43001b",
-        "code": "43001a",
-        "flavor": "\"La Fundación me creo para matar, pero yo prefiero luchar para salvar vidas.\"",
-        "name": "X-23",
-        "text": "<i>Arma viviente</i> \u2014 <b>Respuesta</b>: despúes de que X-23 sufra cualquier cantidad de Daño, prepara a X-23. (Límite de una vez por fase.)",
-        "traits": "X-Force."
-    },
-    {
-        "code": "43001b",
-        "name": "Laura Kinney",
-        "text": "<i>Shhnk!</i> \u2014 <b>Preparación de la partida</b>: pon en juego Garras de X-23.\n<b>Acción</b>: coge de tu pila de descartes la carta de Aliado de Honey Tejón o bien la carta de Evento Vinculo entre Hermanas, añádela a tu mazo y barájalo \u2192 roba 1 carta. (Límite de 1 vez por ronda.)",
-        "traits": "Mutante."
-    },
-    {
-        "code": "43002",
-        "name": "Garras de X-23",
-        "text": "Permanente.\n<b>Acción de Héroe</b>: Agota Garras de X-23 y sufre 2 de Daño \u2192 X-23 recibe +2 ATQ hasta el fina lde la ronda.",
-        "traits": "Arma."
-    },
-    {
-        "code": "43003",
-        "flavor": "\"No me asustas. ¡Y no dejaré que sigas jugando con mis amigos!\"",
-        "name": "Honey Tejón",
-        "subname": "Gabby Kinney",
-        "text": "<b>Respuesta de Héroe</b>: despúes de que Honey Tejón sufra cualquier cantidad de Daño, prepara a X-23.",
-        "traits": "Patrulla-X."
-    },
-    {
-        "code": "43004",
-        "flavor": "X-23 ha heredado los sentidos sobrehumanos de Lobezno... además de su encantadora personalidad.",
-        "name": "Instinto animal",
-        "text": "<b>Interrupción de Héroe</b>: cuando X-23 realice una intervención básica, recibe +X INT para esta intervención, siendo X igual a su puntuación de ATQ.",
-        "traits": "Habilidad."
-    },
-    {
-        "code": "43005",
-        "name": "Maestria con las garras",
-        "text": "Máximo de 1 por ronda.\n<b>Acción de Héroe</b>: hasta el final de la ronda, X-23 recibe +2 ATQ (y sus ataques ganan Brutalidad mientras Honey Tejón este en juego).",
-        "traits": "Habilidad."
-    },
-    {
-        "code": "43006",
-        "flavor": "\"Si lo que no te mata te hace más fuerte, a estas alturas yo ya debería tener la fuerza de Coloso.\" \u2014 X-23",
-        "name": "Regenerative Longevity",
-        "text": "<b>Acción</b>: cura 4 de Daño en total repartidos entre tu Superhéroe y Honey Tejón.",
-        "traits": "Superpoder."
-    },
-    {
-        "code": "43007",
-        "flavor": "\"¡Choca esos cinco!\" \u2014 Honey Tejón",
-        "name": "Vinculo entre hermanas",
-        "text": "<b>Interrupción de Héroe</b>: cuando Honey Tejón intervenga o ataque, añade el atributo correspondiente de X-23 al atributo de Honey Tejón para este uso.",
-        "traits": "Alteración."
-    },
-    {
-        "code": "43008",
-        "flavor": "El vínculo que une a Laura y Gabby va más alla de la simple genética.",
-        "name": "Como hermanas",
-        "text": "<b>Acción</b>: Agota Como hermanas y descarta de tu mano una carta de X-23 \u2192 busca a Honey Tejón en tu mazo y tu pila de descartes y añádetela a tu mano. <i>(Baraja el mazo.)</i>",
-        "traits": "Alteración."
-    },
-    {
-        "code": "43009",
-        "flavor": "Las garras de X-23 están revestidas de adamántium, por lo que están increíblemente afiladas y son casi indestructibles.",
-        "name": "Revestimiento de Adamántium",
-        "text": "Recibes +2 de Vida.\nX-23 gana Represalia 1 y sus ataques básicos ganan Penetrante."
-    },
-    {
-        "code": "43010",
-        "flavor": "\"¿Eso es todo lo que tienes?\" \u2014 X-23",
-        "name": "Impasible",
-        "text": "<b>Recurso</b>: Agota esta carta y sufre 1 de Daño \u2192 genera un recurso [wild].",
-        "traits": "Alteración."
-    },
-    {
-        "code": "43011",
-        "flavor": "\"Apenas lo he notado.\" \u2014 X-23",
-        "name": "Tolerancia al dolor",
-        "text": "<b>Respuesta</b>: después de que juegues una carta de X-23 <i>(incluida ésta)</i>, cura 1 de Daño a tu Superhéroe.",
-        "traits": "Superpoder."
-    },
-    {
-        "code": "43012",
-        "name": "Herida punzante",
-        "text": "Vincula esta carta a un enemigo al que X-23 o Honey Tejón haya atacado en este turno.\nEl enemigo vinculado recibe -1 ATQ.\n<b>Respuesta obligada</b>: despúes de que empiece la fase de los Jugadores, descarta esta carta e inflige 3 de Daño al enemigo vinculado.",
-        "traits": "Alteración."
-    },
-    {
-        "code": "43013",
-        "flavor": "\"Tic... tac... tic... tac\"",
-        "name": "Bum Bum",
-        "subname": "Tabitha Smith",
-        "text": "<b>Acción</b>: Agota a Bum Bum \u2192 añádele 1 contador de Bum. Luego puedes descartar a Bum Bum para infligir 1 de Daño a cada enemigo por cada contador de Bum que tenga encima.",
-        "traits": "X-Force."
-    },
-    {
-        "code": "43014",
-        "name": "Rictor",
-        "subname": "Julio Richter",
-        "text": "[star] <b>Respuesta</b>: despúes de que Rictor ataque, descarta la primera carta de la parte superior de tu mazo. Inflige 1 de Daño a cada Esbirro que esté enfrentado a ti por cada recurso que haya en la carta descartada.",
-        "traits": "X-Force."
-    },
-    {
-        "code": "43015",
-        "flavor": "Estrella Rota es un diestro espadachín con la capacidad de rajar el tejido del espacio para teletransportarse a grandes distancias.",
-        "name": "Estrella Rota",
-        "subname": "Gaveedra Seven",
-        "text": "[star] <b>Interrupción</b>: cuando Estrella Rota ataque a un Esbirro, enfréntate a ese Esbirro. Si ya estabas enfrentado a él, Estrella Rota recibe +1 ATQ para este ataque.",
-        "traits": "X-Force."
-    },
-    {
-        "code": "43016",
-        "name": "Impacto crítico",
-        "text": "Juega esta carta sólo si hay un Plan secundario en la zona de victoria.\n<b>Respuesta de Héroe</b>: despúes de que ataques a un enemigo, atúrdelo."
-    },
-    {
-        "code": "43017",
-        "duplicate_of": "12030",
-        "pack_code": "x23",
-        "position": 17,
-        "quantity": 3
-    },
-    {
-        "code": "43018",
-        "name": "Mantenerlos ocupados",
-        "text": "Victoria 0.\nAsalto. <i>(Las intervenciones básicas contra este Plan usan ATQ en vez de INT.)</i>\n<b>Cuando se derrote esta carta</b>: el jugador que haya derrotado este plan quita 5[per_hero] de Amenaza del Plan principal."
-    },
-    {
-        "code": "43019",
-        "name": "\"Ya me has cabreado\"",
-        "text": "Juega esta carta poniéndola bajo el control de cualquier jugador. Máximo de 1 por jugador.\nMientras la Vida restante de tu Héroe sea inferior a la mitad de su Vida inicial, Tu Héroe recibe +1 ATQ y -1 INT.",
-        "traits": "Alteración."
-    },
-    {
-        "code": "43020",
-        "name": "El método directo",
-        "text": "Vincula esta carta a un Plan secundario que no sea Permanente. Límite de 1 por Plan secundario.\nEl Plan vinculado gana Asalto. <i>(Las intervenciones básicas contra este Plan usan ATQ en vez de INT.)</i>",
-        "traits": "Táctica."
-    },
-    {
-        "code": "43021",
-        "name": "Entrenamiento especializado",
-        "text": "Victoria 0.\n<b>Cuando se derrote esta carta</b>: todo jugador que no controle una Mejora [[ESPECIALIZACIÓN]] elige 1 Mejora [[ESPECIALIZACIÓN]] que esté apartada y la pone en juego bajo su control."
-    },
-    {
-        "code": "43022",
-        "duplicate_of": "01088",
-        "pack_code": "x23",
-        "position": 22,
-        "quantity": 1
-    },
-    {
-        "code": "43023",
-        "duplicate_of": "01089",
-        "pack_code": "x23",
-        "position": 23,
-        "quantity": 1
-    },
-    {
-        "code": "43024",
-        "duplicate_of": "01090",
-        "pack_code": "x23",
-        "position": 24,
-        "quantity": 1
-    },
-    {
-        "code": "43025",
-        "duplicate_of": "41022",
-        "pack_code": "x23",
-        "position": 25,
-        "quantity": 1
-    },
-    {
-        "code": "43026",
-        "duplicate_of": "41023",
-        "pack_code": "x23",
-        "position": 26,
-        "quantity": 1
-    },
-    {
-        "code": "43027",
-        "duplicate_of": "36026",
-        "pack_code": "x23",
-        "position": 27,
-        "quantity": 3
-    },
-    {
-        "code": "43034",
-        "name": "Especialista en combate",
-        "text": "Enlazada (Entrenamiento especializado).\nTu Héroe recibe +1 ATQ.\n<b>Respuesta de Héroe</b>: despúes de que tu Héroe realice un ataque básico, agota esta carta \u2192 roba 1 carta.",
-        "traits": "Especialización."
-    },
-    {
-        "code": "43035",
-        "name": "Especialización en defensa",
-        "text": "Enlazada (Entrenamiento especializado).\nTu Héroe recibe +1 DEF.\n<b>Respuesta de Héroe</b>: despúes de que tu Héroe realice una defensa básica, agota esta carta \u2192 roba 1 carta.",
-        "traits": "Especialización."
-    },
-    {
-        "code": "43036",
-        "name": "Especialista en vanguardia",
-        "text": "Enlazada (Entrenamiento especializado).\nTu Héroe recibe +4 de Vida.\n<b>Respuesta</b>: despúes de que tu Superhéroe sufra Daño a consecuencia de un ataque enemigo, agota esta carta \u2192 roba 1 carta.",
-        "traits": "Especialización."
-    },
-    {
-        "code": "43037",
-        "name": "Especialista en vigilancia",
-        "text": "Enlazada (Entrenamiento especializado).\nTu Héroe recibe +1 INT.\n<b>Respuesta de Héroe</b>: despúes de que tu Héroe realice una intervención básica, agota esta carta \u2192 roba 1 carta.",
-        "traits": "Especialización."
-    },
-    {
-        "code": "43038",
-        "name": "Treta Prevesible",
-        "text": "Juega esta carta sólo si hay un Plan secundario en la zona de victoria.\n<b>Interrupción de Héroe</b>: cuando se muestre una carta de Perfidia del mazo de Encuentros, anula su efecto de \"<b>Cuando se muestre esta carta</b>\"."
-    },
-    {
-        "code": "43039",
-        "flavor": "\"¡Adelante, equipo!¡La victoria es nuestra!\" \u2014 Cíclope",
-        "name": "Alentar al Equipo",
-        "text": "Victoria 0.\n<b>Cuando se derrote esta carta</b>: cura 2 de Daño a cada Aliado."
-    },
-    {
-        "code": "43040",
-        "name": "Anticiparse al Ataque",
-        "text": "Juega esta carta sólo si hay un Plan secundario en la zona de victoria.\n<b>Interrupción de Héroe</b> <i>(defensa)</i>: cuando un enemy inicie un ataque, dale a tu Héroe una carta de Estado \"Duro\".",
-        "traits": "Defensa."
-    }
+	{
+		"code": "43001a",
+		"flavor": "\"Die Facility hat mich geschaffen, um zu töten, aber ich kämpfe lieber, um Leben zu schützen.\"",
+		"name": "X-23",
+		"text": "<i>Lebende Waffe</i> — <b>Reaktion</b> : Nachdem X-23 eine beliebige Menge an Schaden genommen hat, mache X-23 spielbereit. (Nur ein Mal pro Phase.)",
+		"traits": "X-Force."
+	},
+	{
+		"code": "43001b",
+		"name": "Laura Kinney",
+		"text": "<i>Shhnk !</i> — <b>Spielaufbau</b> : Bringe die Klauen von X-23 ins Spiel.\n<b>Aktion</b> : Mische entweder Honey Badger oder Schwesternpower aus deinem Ablagestapel in dein Deck → ziehe 1 Karte. (Nur ein Mal pro Runde.)",
+		"traits": "Mutant."
+	},
+	{
+		"code": "43002",
+		"name": "Klauen von X-23",
+		"text": "Dauerhaft.\n<b>Held - Aktion</b> : Erschöpfe Klauen von X-23 und nimm 2 Schaden → X-23 bekommt bis zum Ende der Runde +2 ANG.",
+		"traits": "Waffe."
+	},
+	{
+		"code": "43003",
+		"flavor": "\"Du jagst mir keine Angst ein. Ich lass nicht zu, dass du dich mit meinen Freunden anlegst!\"",
+		"name": "Honey Badger",
+		"subname": "Gabby Kinney",
+		"text": "<b>Held - Reaktion</b> : Nachdem Honey Badger eine beliebige Menge an Schaden genommen hat, mache X-23 spielbereit.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "43004",
+		"flavor": "X-23 hat Wolverines übermenschliche Sinne geerbt ... und seine charmante Persönlichkeit.",
+		"name": "Tierischer Instinkt",
+		"text": "<b>Held - Unterbrechung</b> : Sobald X-23 mit ihrer Basiskraft Widerstand leistet, bekommt sie dafür +X WID. X ist ihr ANG-Wert.",
+		"traits": "Fertigkeit."
+	},
+	{
+		"code": "43005",
+		"name": "Klauen-Kampfkunst",
+		"text": "Max. 1 pro Runde.\n<b>Held - Aktion</b> : X-23 bekommt bis zum Ende der Runde +2 ANG (und ihre Angriffe erhalten Overkill, solange Honey Badger im Spiel ist).",
+		"traits": "Fertigkeit."
+	},
+	{
+		"code": "43006",
+		"flavor": "\"Wenn dich alles, was dich nicht umbringt, stärker macht, müsste ich längst so stark sein wie Colossus.\" — X-23",
+		"name": "Regenerative Physiologie",
+		"text": "<b>Aktion</b> : Heile insgesamt 4 Schaden von deiner Identität und Honey Badger.",
+		"traits": "Superkraft."
+	},
+	{
+		"code": "43007",
+		"flavor": "\"High five!\" — Honey Badger",
+		"name": "Schwesternpower",
+		"text": "<b>Held - Unterbrechung</b> : Sobald Honey Badger Widerstand leistet oder angreift, addiere für diese Verwendung die entsprechende Kraft von X-23 zur Kraft von Honey Badger dazu.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "43008",
+		"flavor": "Das Band zwischen Laura und Gabby ist viel stärker als ihre genetische Verwandtschaft.",
+		"name": "Schwesterlichkeit",
+		"text": "<b>Aktion</b> : Erschöpfe Schwesterlichkeit und lege eine X-23-Karte von deiner Hand ab → durchsuche dein Deck und deinen Ablagestapel nach Honey Badger und nimm sie auf deine Hand. <i>(Mische.)</i>",
+		"traits": "Zustand."
+	},
+	{
+		"code": "43009",
+		"flavor": "Die Klauen von X-23 sind mit dem Metall Adamantium überzogen, was sie unglaublich scharf und nahezu unzerstörbar macht.",
+		"name": "Adamantium-Beschichtung",
+		"text": "Du bekommst +2 Lebenspunkte.\nX-23 erhält Vergeltung 1 und ihre Basisangriffe erhalten Durchdringend."
+	},
+	{
+		"code": "43010",
+		"flavor": "\"Ist das alles, was du draufhast?\" — X-23",
+		"name": "Grimmige Entschlossenheit",
+		"text": "<b>Ressource</b> : Erschöpfe diese Karte und nimm 1 Schaden → erzeuge eine [wild]-Ressource.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "43011",
+		"flavor": "\"Hab kaum was gespürt.\" — X-23",
+		"name": "Schmerztoleranz",
+		"text": "<b>Reaktion</b> : Nachdem du eine X-23-Karte gespielt hast <i>(einschließlich dieser)</i>, heile 1 Schaden von deiner Identität.",
+		"traits": "Superkraft."
+	},
+	{
+		"code": "43012",
+		"name": "Stichwunde",
+		"text": "Hänge dieses Upgrade an einen Gegner an, der von X-23 oder Honey Badger in diesem Zug angegriffen wurde.\nDer Gegner mit diesem Upgrade bekommt -1 ANG.\n<b>Erzwungene Reaktion</b> : Lege diese Karte nach Beginn der Spielerphase ab und füge dem Gegner mit Stichwunde 3 Schaden zu.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "43013",
+		"flavor": "\"Tick... tick ... tick..\"",
+		"name": "Big Bang",
+		"subname": "Tabitha Smith",
+		"text": "<b>Aktion</b> : Erschöpfe Boom Boom →  lege 1 Bumm!-Marker auf sie. Dann darfst du Boom Boom ablegen, um jedem Gegner für jeden Bumm!-Marker auf ihr 1 Schaden zuzufügen.",
+		"traits": "X-Force."
+	},
+	{
+		"code": "43014",
+		"name": "Rictor",
+		"subname": "Julio Richter",
+		"text": "[star] <b>Reaktion</b> : Nachdem Rictor angegriffen hat, lege die oberste Karte deines Decks ab. Füge jedem Schergen im Kampf mit dir für jede Ressource auf der abgelegten Karte 1 Schaden zu.",
+		"traits": "X-Force."
+	},
+	{
+		"code": "43015",
+		"name": "Shatterstar", 
+      	"flavor": "Shatterstar ist ein geschickter Schwertkämpfer und kann sogar Öffnungen in den Raum schneiden und sich so zu weit entfernten Zielen teleportieren.",
+		"subname": "Gaveedra Seven",
+		"text": "[star] <b>Unterbrechung</b> : Sobald Shatterstar einen Schergen angreift, verwickle den Schergen in einen Kampf. Falls du mit ihm bereits im Kampf bist, bekommt Shatterstar für diesen Angriff +1 ANG.",
+		"traits": "X-Force."
+	},
+	{
+		"code": "43016",
+		"name": "Kritischer Treffer",
+		"text": "Spiele diese Karte nur, falls ein Nebenplan im Siegpunktestapel ist.\n<b>Held - Reaktion</b> : Nachdem du einen Gegner angegriffen hast, betäube ihn."
+	},
+	{
+		"code": "43018",
+		"name": "Haltet Sie Auf Trab!",
+		"text": "Sieg 0./nAnsturm. <i>(Verwende bei einer Basisaktion Widerstand gegen diesen Plan den ANG-Wert anstelle des WID-Wertes.)</i>\n<b>Sobald besiegt</b> : Der Spieler, der diesen Plan besiegt hat, entfernt 5[per_hero] Bedrohung vom Hauptplan."
+	},
+	{
+		"code": "43019",
+		"name": "\"Jetzt Bin Ich Wütend\"",
+		"text": "Spiele diese Karte unter die Kontrolle eines beliebigen Spielers.\nMax. 1 pro Spieler.\nSolange die verbleibenden Lebenspunkte deines Helden weniger als die Hälfte seines Anfangswertes sind, bekommt dein Held +1 ANG und -1 WID.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "43020",
+		"name": "Der Direkte Weg",
+		"text": "Hänge dieses Upgrade an einen nicht-dauerhaften Nebenplan an. Max. 1 pro Nebenplan.\nDer Plan mit diesem Upgrade erhält Ansturm. <i>(Verwende bei einer Basisaktion Widerstand gegen diesen Plan den ANG-Wert anstelle des WID-Wertes.)</i>",
+		"traits": "Taktik."
+	},
+	{
+		"code": "43021",
+		"name": "Spezialisiertes Training",
+		"text": "Sieg 0.\n<bSobald besiegt</b> : eJder Spieler, der kein [[SPEZIALISIERUNG]]-Upgrade kontrolliert, wählt 1 beiseitegelegtes [[SPEZIALISIERUNG]]-Upgrade und bringt es unter seiner Kontrolle ins Spiel."
+	},
+	{
+		"code": "43034",
+		"name": "Kampfspezialist",
+		"text": "Verknüpft (Spezialisiertes Training).\n Dein Held bekommt +1 ANG.\n<b>Held - Reaktion/b> : Nachdem dein Held die Basisaktion Angriff durchgeführt hat, erschöpfe diese Karte → ziehe 1 Karte."
+        "traits": "Spezialisierung."
+	},
+	{
+		"code": "43035",
+		"name": "Verteidigungsspezialist",
+		"text": "Verknüpft (Spezialisiertes Training).\n Dein Held bekommt +1 VER.\n<b>Held - Reaktion/b> : Nachdem dein Held die Basisaktion Verteidigung durchgeführt hat, erschöpfe diese Karte → ziehe 1 Karte."
+        "traits": "Spezialisierung."
+	},
+	{
+		"code": "43036",
+		"name": "Frontlinienspezialist",
+		"text": "Verknüpft (Spezialisiertes Training).\n Dein Held bekommt +4 Lebenspunkte.\n<b>Reaktion/b> : Nachdem deine Identität durch den Angriff eines Gegners Schaden genommen hat, erschöpfe diese Karte → ziehe 1 Karte."
+        "traits": "Spezialisierung."
+	},
+	{
+		"code": "43037",
+		"name": "Überwachungsspezialist",
+		"text": "Verknüpft (Spezialisiertes Training).\n Dein Held bekommt +1 WID.\n<b>Held - Reaktion/b> : Nachdem dein Held die Basisaktion Widerstand durchgeführt hat, erschöpfe diese Karte → ziehe 1 Karte."
+        "traits": "Spezialisierung."
+	},
+	{
+		"code": "43038",
+		"name": "Masche durchschaut",
+		"text": "Spiele diese Karte nur, falls ein Nebenplan im Siegpunktestapel ist.\n<b>Held - Unterbrechung</b> : Sobald eine Verratskarte vom Begegnungsdeck aufgedeckt wird, hebe ihre \"<b>Sobald aufgedeckt</b>\"-Effekte auf."
+	},
+	{
+		"code": "43039",
+		"name": "Die Truppen mobilisieren",
+		"flavor": "\"Vorwärts, Team! Der Sieg ist nah!\" — Cyclops",
+		"text": "Sieg 0.\n<b>Sobald besiegt</b> : Heile 2 Schaden von jedem Verbündeten."
+	},
+	{
+		"code": "43040",
+		"name": "Erwarteter Angriff",
+		"text": "Spiele diese Karte nur, falls ein Nebenplan im Siegpunktestapel ist.\n<b>Held - Unterbrechung</b> <i>(Verteidigung)</i> : Sobald ein Gegner einen Angriff gegen dich einleitet, gib deinem Helden eine Zäh-Statuskarte.",
+		"traits": "Verteidigung."
+	}
 ]
