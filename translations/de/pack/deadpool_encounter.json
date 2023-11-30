@@ -1,35 +1,36 @@
 [
 	{
 		"code": "44032",
-		"flavor": "\"Quoi ? J'ai dit quelque chose d'offensant ?\" — Deadpool",
-		"name": "Mercenaire Provocateur",
-		"text" : "<b><i>Donnez cette carte au joueur de Wade Wilson.</i></b>\nInclinez chaque allié que vous contrôlez. Les alliés que vous contrôlez ne peuvent pas se redresser. Les autres joueurs ne peuvent pas résoudre de capacités de carte Joueur pendant votre tour.\n<b>Réponse forcée</b> : après la fin de la phase des joueurs, si vous n'avez pas parlé lors de cette phase, défaussez cette obligation."
+		"flavor": "\"Hab ich was Falsches gesagt?\" — Deadpool",
+		"name": "Der Söldner mit der grossen Klappe",
+		"text" : "<b><i>Gib dies dem Spieler von Wade Wilson.</i></b>\nErschöpfe jeden Verbündeten unter deiner Kontrolle. Verbündete unter deiner Kontrolle können nicht spielbereit gemacht werden. Andere Spieler können während deines Zuges keine Spielerkartenfähigkeiten abhandeln.\n<b>Erzwungene Reaktion</b> : Nachdem die Spielerphase beendet ist und falls du während dieser Phase nicht geredet hast, lege diese Karte ab."
 	},
 	{
+		"boost_text": "Du wirst verwirrt.",
 		"code": "44033",
 		"name": "Butler",
-		"scheme_text" : "<b>Interruption forcée</b> : quand Butler manigance, placez la menace sur Intervention Involontaire, si possible.\n<i>(Sbire Némésis de Deadpool.)</i>",
-		"traits": "Scientifique."
+		"scheme_text" : "<b>Erzwungene Unterbrechung</b> : Sobald Butler den Plan vorantreibt, platziere die Bedrohung auf Unfreiwillige Operationen, falls möglich.\n<i>(Deadpools Erzfeind-Scherge.)</i>",
+		"traits": "Wissenschaftler."
 	},
 	{
 		"code": "44034",
-		"flavor": "Butler espère soigner le cancer de sa sœur en utilisant les capacités régénératives de Deadpool.",
-		"name": "Intervention Involontaire",
-		"text" : "<b>Réponse forcée</b> : après que Deadpool a subi n'importe quelle quantité de dégâts, placez 1 menace sur cette manigance. Ensuite, s'il y a au moins 10 menaces dessus, retirez cette manigance de la partie."
+		"flavor": "Butler versucht, die Krebserkrankung seiner Schwester mit Hilfe von Deadpools Regenerationskräften zu heilen.",
+		"name": "Unfreiwillige Operationen",
+		"text" : "<b>Erzwungene Reaktion</b> : Nachdem Deadpool eine beliebige Menge an Schaden genommen hat, platziere hier 1 Bedrohung. Falls hier dann 10 oder mehr Bedrohung liegt, entferne diese Karte aus dem Spiel."
 	},
 	{
-		"boost_text": "attachez Tabula Rasa 16 à votre identité.",
+		"boost_text": "Hänge Tabula Rasa 16 an deine Identität an.",
 		"code": "44035",
-		"flavor": "Butler a utilisé cette substance pour effacer ses expériences de la mémoire de Deadpool.",
+		"flavor": "Butler löschte mit dieser Droge Deadpools Erinnerungen an seine medizinischen Experimente.",
 		"name": "Tabula Rasa 16",
-		"text" : "Attachez cette carte à votre identité.\nVotre identité perd le texte imprimé dans sa boîte de texte <i>(sauf les [[TRAITS]])</i>.\n<b>Action d'alter ego</b> : dépensez les ressources suivantes : [mental][mental] → défaussez cette carte."
+		"text" : "Hänge diese Karte an deine Identität an.\nBehandle das aufgedruckte Textfeld deiner Identität, als ob es leer wäre <i>(mit Ausnahme von [[MERKMALEN]])</i>.\n<b>Alter Ego - Aktion</b> : Gib [mental][mental]-Ressourcen aus → lege diese Karte ab."
 	},
 	{
 		"code": "44036",
-		"flavor": "Butler a financé ses recherches en créant des super-soldats pour des gouvernements étrangers.",
-		"name": "Soldat Altéré",
-		"text" : "Ténacité.\n[star] <b>Réponse forcée</b> : après l'activation du Soldat Altéré, soignez-le de tous ses dégâts.",
-		"traits": "Altéré. Soldat."
+		"flavor": "Butler finanzierte seine Forschung, indem er Supersoldaten für ausländische Regierungen entwickelte.",
+		"name": "Mutierter Soldat",
+		"text" : "Zähigkeit.\n[star] <b>Erzwungene Reaktion</b> : Nachdem Mutierter Soldat aktiviert worden ist, heile allen Schaden von ihm.",
+		"traits": "Mutation. Soldat."
 	},
 	{
 		"code": "44037",
