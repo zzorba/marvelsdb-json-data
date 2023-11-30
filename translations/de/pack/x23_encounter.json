@@ -1,37 +1,37 @@
 [
     {
         "code": "43028",
-        "name": "Aislamiento",
-        "text": "<b><i>Dale esta carta la jugador que lleva a Laura Kinney.</i></b>\nBusca a Honey Tejón en tu mano, mazo, pila de descartes y zona de juego, y colócala boca abajo debajo de esta carta. Si no es posible, descarta esta carta y coge 1 carta de Encuentro boca abajo.\n<b>Respuesta</b>: despúes de que realices una recuperación básica, descarta esta obligación y a Honey Tejón."
+        "name": "Selbstisolation",
+        "text": "<b><i>Gib dies dem Spieler von Laura Kinney.</i></b>\nDurchsuche deine Hand, dein Deck, deinen Ablagestapel und deine Spielzone nach Honey Badger und platziere sie verdeckt unter dieser Verpflichtung. Falls du das nicht kannst, lege diese Karte ab und teile dir selbst 1 verdeckte Begegnungskarte zu.\n<b>Reaktion</b>: Nachdem du deine Basiskraft Erholung verwendet hast, lege diese Verpflichtung und Honey Badger ab."
     },
     {
         "code": "43029",
-        "name": "Dama Mortal",
-        "text": "<b>Cuando se derrote esta carta</b>: el jugador que haya derrotado a este Esbirro descarta la primera carta del mazo de Encuentros y sufre 1 de Daño indirecto por cada icono de Aumento ([boost]) que haya en esta carta.",
-        "traits": "Élite. Cosechador."
+        "name": "Lady Deathstrike",
+        "text": "<b>Sobald besiegt</b>: Der Spieler, der Lady Deathstrike besiegt hat, legt die oberste Karte des Begegnungsdecks ab und nimmt für jedes Boost-Symbol ([boost]) auf der Karte 1 indirekten Schaden.",
+        "traits": "Elite. Reaver."
     },
     {
         "code": "43030",
-        "flavor": "\"Qué niña tan mona. Sería una lástima que la ocurriese algo malo.\" \u2014 Dama Mortal",
-        "name": "En aras de la venganza",
-        "text": "Todos los enemigos ganan Represalia 1."
+        "flavor": "\"So ein putziges Kind. Wäre doch eine Schande, wenn ihm etwas zustoßen würde.\" - Lady Deathstrike",
+        "name": "Im Namen Der Rache",
+        "text": "Jeder Gegner erhält Vergeltung 1."
     },
     {
         "code": "43031",
-        "name": "Modificaciones cibernéticas",
-        "text": "Vincula esta carta a dama Mortal. Si no es posible, descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Esbirro. Pon en juego ese Esbirro enfrentado a ti y vincúlale esta carta.\n<b>Interrupción obligada</b>: cuando el Esbirro vinculado vaya a ser descartado, en vez de eso devuélvelo al mazo de Encuentros y barájalo.",
-        "traits": "Tecnología."
+        "name": "Cybermods",
+        "text": "Hänge diese Karte an Lady Deathstrike an. Ansonsten lege Karten vom Begegnungsdeck ab, bis ein Scherge abgelegt wird. Bringe den Schergen mit dir im Kampf ins Spiel und hänge diese Karte an ihn an.\n<b>Erzwungene Unterbrechung</b>: Sobald der Scherge mit Cybermods abgelegt werden würde, mische ihn stattdessen in das Begegnungsdeck.",
+        "traits": "Tech."
     },
     {
         "code": "43032",
-        "name": "Herida crítica",
-        "text": "Vincula esta carta a tu Superhéroe.\n<b>Interrupción obligada</b>: cuando termine tu turno, descarta esta carta y sufre 4 de Daño.",
-        "traits": "Alteración."
+        "name": "Kritische Wunde",
+        "text": "Hänge diese Karte an deine Identität an.\n<b>Erzwungene Unterbrechung</b>: Sobald dein Zug endet, lege diese Karte ab und nimm 4 Schaden.",
+        "traits": "Zustand."
     },
     {
-        "boost_text": "descarta 1 carta de tu mano al azar y sufre tanto Daño como el número de recursos impresos en ella.",
+        "boost_text": "Lege 1 zufällige Karte von deiner Hand ab und nimm Schaden in Höhe der darauf aufgedruckten Ressourcen.",
         "code": "43033",
-        "name": "Descuartizamiento",
-        "text": "<b>Cuando se muestre esta carta</b>: descarta 1 carta de tu mano al azar y sufre tanto Daño como el número de recursos impresos en ella."
+        "name": "In Fetzen reissen",
+        "text": "<b>Sobald aufgedeckt</b>: Lege 1 zufällige Karte von deiner Hand ab und nimm Schaden in Höhe der darauf aufgedruckten Ressourcen."
     }
 ]
