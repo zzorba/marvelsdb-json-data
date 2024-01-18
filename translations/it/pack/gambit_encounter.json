@@ -1,56 +1,57 @@
 [
-	{
-		"code": "37025",
-		"name": "Guild Business",
-		"text": "<b><i>Give to the Remy LeBeau player.</i></b>\n<b>Alter-Ego Action</b>: Exhaust Remy LeBeau and spend a [energy] resource → remove Guild Business from the game."
-	},
-	{
-		"attack_text": "<b>Forced Response</b>: After Belladonna attacks and defeats a character, place 2 threat on the main scheme.\n<i>(Gambit's nemesis minion.)</i>",
-		"code": "37026",
-		"name": "Belladonna",
-		"text": "Quickstrike. Toughness.",
-		"traits": "Assassin. Elite."
-	},
-	{
-		"code": "37027",
-		"flavor": "The Assassins Guild has sworn to kill Gambit and the rest of the Thieves Guild.",
-		"name": "The Assassins Guild",
-		"text": "<b>Forced Response</b>: After an [[ASSASSIN]] minion attacks and defeats a character, place 2 threat here."
-	},
-	{
-		"attack_text": "<b>Forced Response</b>: After Guild Assassin attacks and defeats a character, place 1 threat on the main scheme.",
-		"code": "37028",
-		"name": "Guild Assassin",
-		"text": "Quickstrike.",
-		"traits": "Assassin."
-	},
-	{
-		"code": "37029",
-		"name": "Assassination Attempt",
-		"text": "<b>When Revealed</b>: Each [[ASSASSIN]] minion attacks you <i>(even if you are in alter-ego form)</i>. If there are no [[ASSASSIN]] minions in play, search the encounter deck and discard pile for an [[ASSASSIN]] minion and reveal it."
-	},
-	{
-		"code": "37032",
-		"flavor": "\"I serve proudly in the house and name of Magneto!\"",
-		"name": "Exodus",
-		"text": "Retaliate 1. Villanous.\n<b>When Revealed</b>: Search the encounter deck and discard pile for the Psionic Shield attachment and attach it to Exodus. <i>(Shuffle.)</i>",
-		"traits": "Acolyte. Elite. Psionic."
-	},
-	{
-		"code": "37033",
-		"flavor": "Exodus sees Magneto as the savior of mutantkind and serves as his herald.",
-		"name": "Herald of Avalon",
-		"text": "<b>When Defeated</b>: The player who defeated this scheme searches the encounter deck and discard pile for Exodus and reveals him. <i>(Shuffle.)</i>"
-	},
-	{
-		"code": "37034",
-		"name": "Psionic Shield",
-		"text": "Attach to a minion. Otherwise, Psionic Shield gains surge.\n<b>Forced Interrupt</b>: When attached minion would leave play, instead heal all damage from that minion and put it back into play. Then, discard this attachment."
-	},
-	{
-		"boost_text": "You are stunned and confused.",
-		"code": "37035",
-		"name": "Acolyte Frenzy",
-		"text": "<b>When Revealed</b>: Each [[ACOLYTE]] minion engaged with you activates against you. If you are not engaged with an [[ACOLYTE]] minion, this card gains surge."
-	}
+    {
+        "code": "37025",
+        "name": "Affari della Loggia",
+        "text": "<b><i>Fai ricevere al giocatore Remy LeBeau.</i></b>\n<b>Azione Alter Ego</b>: Esaurisci Remy LeBeau e spendi [energy] → rimuovi dal gioco Affari della Loggia."
+    },
+    {
+        "attack_text": "<b>Risposta Obbligata</b>: Dopo che Belladonna ha attaccato e sconfitto un personaggio, colloca 2 minacce sulla trama principale.\n<i>(Gregario nemesi di Gambit.)</i>",
+        "code": "37026",
+        "name": "Belladonna",
+        "text": "Colpo Rapido. Robustezza.\n[star]<b>Risposta Obbligata</b>: Dopo che Belladonna ha attaccato e sconfitto un personaggio, colloca 2 minacce sulla trama principale.\n(Gregario nemesi di Gambit.)",
+        "traits": "Assassino. Elite."
+    },
+    {
+        "code": "37027",
+        "flavor": "La Loggia degli Assassini ha giurato di uccidere Gambit e il resto della Loggia dei Ladri.",
+        "name": "La Loggia degli Assassini",
+        "text": "<b>Risposta Obbligata</b>: Dopo che un gregario [[ASSASSINO]] ha attaccato e sconfitto un personaggio, colloca 2 minacce su questa carta."
+    },
+    {
+        "attack_text": "<b>Risposta Obbligata</b>: Dopo che Assassino della Loggia ha attaccato e sconfitto un personaggio, colloca 1 minaccia sulla trama principale.",
+        "code": "37028",
+        "name": "Assassino della Loggia",
+        "text": "Colpo Rapido.\n[star]<b>Risposta Obbligata</b>: Dopo che Assassino della Loggia ha attaccato e sconfitto un personaggio, colloca 1 minaccia sulla trama principale.",
+        "traits": "Assassino."
+    },
+    {
+        "code": "37029",
+        "name": "Tentato Assassinio",
+        "text": "<b>Quando Rivelata</b>: Ogni gregario [[ASSASSINO]] ti attacca <i>(anche se ti trovi nella sembianza di alter ego)</i>. Se non ci sono gregari [[ASSASSINO]] in gioco, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario [[ASSASSINO]] e rivelalo."
+    },
+    {
+        "code": "37032",
+        "flavor": "\"Servo con onore la casa e il nome di Magneto!\"",
+        "name": "Exodus",
+        "text": "Criminoso. Ritorsione 1.\n<b>Quando Rivelata</b>: Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta Scudo Psionico e assegnala a Exodus. <i>(Mescola.)</i>",
+        "traits": "Accolito. Elite. Psionico."
+    },
+    {
+        "code": "37033",
+        "flavor": "Exodus vede in Magneto il salvatore della specie mutante, e si è messo al suo servizio come araldo.",
+        "name": "L'Araldo di Avalon",
+        "text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Exodus e lo rivela. <i>(Mescola.)</i>"
+    },
+    {
+        "code": "37034",
+        "name": "Scusdo Psionico",
+        "text": "Assegna a un gregario. Se non puoi farlo, Scudo Psionico ottiene Impulso.\n<b>Interruzione Obbligata</b>: Quando il gregario con questa aggiunta sta per uscire dal gioco, curagli invece tutti i danni e rimettilo in gioco. Poi scarta questa aggiunta.",
+        "traits": "Psionico."
+    },
+    {
+        "boost_text": "Sei stordito e confuso.",
+        "code": "37035",
+        "name": "Furia dell'Accolito",
+        "text": "<b>Quando Rivelata</b>: Ogni gregario [[ACCOLITO]] impegnato con te si attiva contro di te. Se non ci sono gregario [[ACCOLITO]] impegnati con te, questa carta ottiene Impulso."
+    }
 ]

@@ -1,179 +1,180 @@
 [
-	{
-		"code": "41001a",
-		"name": "Psylocke",
-		"text": "[star] <i>Psi-Energy Control</i> — <b>Interrupt</b>: When you use one of Psylocke's basic powers <i>(THW, ATK, or DEF)</i>, flip 1 [[PSI-ENERGY]] upgrade.",
-		"traits": "Psionic. X-Force."
-	},
-	{
-		"code": "41001b",
-		"name": "Betsy Braddock",
-		"text": "<i>Psionic Manifestation</i> — <b>Setup</b>: Put your 2 [[PSI-ENERGY]] upgrades into play, Psi-Knife side faceup.\n<b>Action</b>: Exhaust 1 [[PSI-ENERGY]] upgrade → shuffle 1 [[PSIONIC]] card from your discard pile into your deck.",
-		"traits": "Mutant. Psionic."
-	},
-	{
-		"code": "41002a",
-		"name": "Psi-Knife",
-		"text": "Permanent.\nPsylocke gets +1 THW.\n<b>Hero Resource</b>: Exhaust Psi-Knife → generate a [mental] resource. You may flip this card.",
-		"traits": "Psi-Energy. Weapon."
-	},
-	{
-		"code": "41002b",
-		"name": "Psi-Katana",
-		"text": "Permanent. Restricted.\nPsylocke gets +1 ATK and her basic attacks gain piercing.\n<b>Hero Resource</b>: Exhaust Psi-Katana → generate a [physical] resource. You may flip this card.",
-		"traits": "Psi-Energy. Weapon."
-	},
-	{
-		"code": "41003",
-		"flavor": "\"Did someone call for a pick-me-up?\"",
-		"name": "Angel",
-		"subname": "Warren Worthington III",
-		"text": "<b>Response</b>: After you play Angel from your hand, ready your identity.",
-		"traits": "Aerial. X-Force."
-	},
-	{
-		"code": "41004",
-		"name": "Flurry of Blades",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 2 damage to an enemy. For each Psi-Knife you control, choose an enemy and confuse it. For each Psi-Katana you control, choose an enemy and deal 2 damage to it.",
-		"traits": "Attack. Psionic."
-	},
-	{
-		"code": "41005",
-		"name": "Mental Detection",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 1 threat from a scheme. For each Psi-Knife you control, remove 2 additional threat from that scheme. For each Psi-Katana you control, draw 1 card.",
-		"traits": "Psionic. Thwart."
-	},
-	{
-		"code": "41006",
-		"name": "Psionic Redirect",
-		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When you would take any amount of damage from an enemy attack, prevent 2 of that damage. For each Psi-Katana you control, prevent 2 additional damage. For each Psi-Knife you control, confuse that enemy.",
-		"traits": "Defense. Psionic."
-	},
-	{
-		"code": "41007",
-		"name": "Telepathic Suggestion",
-		"text": "<b>Hero Interrupt</b>: When you reveal a card from the encounter deck, cancel its \"<b>When Revealed</b>\" effects. For each Psi-Katana you control, choose an enemy and deal 2 damage to it. For each Psi-Knife you control, choose a scheme and remove 1 threat from it.",
-		"traits": "Psionic."
-	},
-	{
-		"code": "41008",
-		"flavor": "\"Practice makes perfect.\" — Psylocke",
-		"name": "Training Regimen",
-		"text": "<b>Action</b>: Exhaust Training Regiment → search your deck for a [[SKILL]] card and add it to your hand. <i>(Shuffle.)</i> If you are in hero form, discard 1 card from your hand.",
-		"traits": "Training."
-	},
-	{
-		"code": "41009",
-		"name": "Martial Arts Training",
-		"text": "Psylocke gets +1 DEF.\n<b>Hero Response</b>: After Psylocke defends against an attack, discard Martial Arts Training → ready Psylocke.",
-		"traits": "Skill."
-	},
-	{
-		"code": "41010",
-		"name": "Psionic Training",
-		"text": "Psylocke ignores the guard and patrol keywords.\n<b>Hero Response</b>: After Psylocke thwarts, discard Psionic Training → confuse an enemy.",
-		"traits": "Skill."
-	},
-	{
-		"code": "41011",
-		"name": "Weapons Training",
-		"text": "Psylocke gains retaliate 1.\n<b>Hero Response</b>: After Psylocke attacks, discard Weapons Training → ready each [[WEAPON]] upgrade you control.",
-		"traits": "Skill."
-	},
-	{
-		"code": "41012",
-		"flavor": "\"I'll be your champion, now and forever.\"",
-		"name": "Captain Britain",
-		"subname": "Brian Braddock",
-		"text": "[star] Captain Britain takes -1 consequential damage after he thwarts a side scheme or attacks a minion.",
-		"traits": "Aerial. Excalibur."
-	},
-	{
-		"code": "41013",
-		"flavor": "\"Your body language told me everything I needed to know to beat you.\"",
-		"name": "Cypher",
-		"subname": "Doug Ramsey",
-		"text": "[star] <b>Response</b>: After Cypher attacks and damages a confused enemy, draw 1 card.",
-		"traits": "X-Force."
-	},
-	{
-		"code": "41015",
-		"name": "Upside the Head",
-		"text": "<b>Hero Response</b>: After your hero makes a basic attack and damages an enemy, confuse that enemy. If that enemy is already confused, stun it instead.",
-		"traits": "Skill."
-	},
-	{
-		"code": "41016",
-		"flavor": "\"You go low, I'll go high.\"\n\"I always go low.\"\n\"Fine, go high.\"\n\"I like going low.\"\n — Wolverine and Deadpool",
-		"name": "Lay the Trap",
-		"text": "Victory 0.\n<b>When Defeated</b>: The player who defeated this scheme deals 5[per_hero] damage to the villain."
-	},
-	{
-		"code": "41017",
-		"name": "Float Like a Butterfly",
-		"text": "Play under any player's control.\nMax 1 per player.\n<b>Interrupt</b>: When a character you control attacks a confused enemy, increase the amount of damage that attack deals to that enemy by 1.",
-		"traits": "Skill."
-	},
-	{
-		"code": "41018",
-		"name": "Pete Wisdom",
-		"text": "Play only if your identity has the [[X-FORCE]] trait.\n<b>Response</b>: After you resolve the \"<b>When Revealed</b>\" effects of a treachery card, heal 1 damage from Pete Wisdom.",
-		"traits": "X-Force."
-	},
-	{
-		"code": "41019",
-		"name": "Directed Force",
-		"text": "<b>Hero Interrupt</b>: When your hero makes an attack that has a keyword <i>(overkill, piercing, or ranged)</i>, that attack deals 2 additional damage. (Max 1 per attack.)",
-		"traits": "Skill."
-	},
-	{
-		"code": "41020",
-		"name": "Soaring Hearts",
-		"text": "Team-Up (Angel and Psylocke). Max 1 per deck.\n<b>Hero Action</b>: Search your discard pile for an identity-specific event and add it to your hand. Ready Angel and Psylocke.",
-		"traits": "Aerial. Psionic."
-	},
-	{
-		"code": "41022",
-		"name": "IPAC",
-		"text": "Play only if your identity has the [[X-FORCE]] trait.\n<b>Hero Action</b>: Exhaust IPAC and deal 1 facedown encounter card to a player → that player draws 2 cards.",
-		"traits": "Vehicle. X-Force."
-	},
-	{
-		"code": "41023",
-		"name": "X-Bunker",
-		"text": "<b>Action</b>: Exhaust X-Bunker and choose a player whose identity has the [[MUTANT]] trait → that player searches the top X cards of their deck for any card, where X is the number of side schemes in the victory display, and adds that card to their hand. <i>(Shuffle.)</i>",
-		"traits": "Location. X-Force."
-	},
-	{
-		"code": "41024",
-		"name": "Telepathy",
-		"text": "Play only if your identity has the [[PSIONIC]] trait. Max 1 per player.\n<b>Hero Action</b> <i>(thwart)</i>: Exhaust Telepathy and spend [mental][mental] resources → remove 2 threat from a scheme.",
-		"traits": "Psionic. Superpower."
-	},
-	{
-		"code": "41030",
-		"name": "Psi-Bow Attack",
-		"text": "Play only if your hero has the [[PSIONIC]] trait.\n<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. This attack gains ranged.",
-		"traits": "Attack. Psionic."
-	},
-	{
-		"code": "41031",
-		"flavor": "\"Do you feel lucky, punk?\"",
-		"name": "Domino",
-		"subname": "Neena Thurman",
-		"text": "[star] <b>Response</b>: After you use one of Domino's basic powers, swap a card in your hand with the top card of your deck.",
-		"traits": "Posse. X-Force."
-	},
-	{
-		"code": "41032",
-		"name": "Psi-Flail Strike",
-		"text": "Play only if your hero has the [[PSIONIC]] trait.\n<b>Hero Response</b> <i>(attack)</i>: After you defend against an enemy attack, deal 3 damage to that enemy and stun it.",
-		"traits": "Attack. Psionic."
-	},
-	{
-		"code": "41033",
-		"name": "Telekinesis",
-		"text": "Play only if your hero has the [[PSIONIC]] trait. Max 1 per player.\n<b>Hero Action</b> <i>(attack)</i>: Exhaust Telekinesis and spend [mental][mental] resources → deal 3 damage to an enemy.",
-		"traits": "Psionic. Superpower."
-	}
+    {
+        "code": "41001a",
+        "flavor": "\"La mia mente è più affilata di qualsiasi lama.\"",
+        "name": "Psylocke",
+        "text": "[star] <i>Controllo dell'Energia Psichica</i> — <b>Interruzione</b>: Quando usi un potere base di Psylocke <i>(INT, ATT o DIF)</i>, gira1 miglioria [[PSICOENERGIA]].",
+        "traits": "Psionico. X-Force."
+    },
+    {
+        "code": "41001b",
+        "name": "Betsy Braddock",
+        "text": "<i>Manifestazione Psionica</i> — <b>Preparazione</b>: Metti in gioco le tue 2 migliorie [[PSICOENERGIA]], con il lato Pugnale Psichico a faccia in su.\n<b>Azione</b>: Esaurisci 1 miglioria [[PSICOENERGIA]] → mescola nel tuo mazzo 1 carta [[PSIONICO]] dalla tua pila degli scarti.",
+        "traits": "Mutante. Psionico."
+    },
+    {
+        "code": "41002a",
+        "name": "Pugnale Psichico",
+        "text": "Permanente.\nPsylocke riceve +1 INT.\n<b>Risorsa Eroe</b>: Esaurisci Pugnale Psichico → genera [mental]. Puoi girare questa carta.",
+        "traits": "Arma. Psicoenergia."
+    },
+    {
+        "code": "41002b",
+        "name": "Katana Psichica",
+        "text": "Permanente. Restrizione.\nPsylocke riceve +1 ATT e i suoi attacchi base ottengono Perforante.\n<b>Risorsa Eroe</b>: Esaurisci Katana Psichica → genera [physical]. Puoi girare questa carta.",
+        "traits": "Arma. Psicoenergia."
+    },
+    {
+        "code": "41003",
+        "flavor": "\"Qualcuno ha bisogno di essere tirato un po' su?\"",
+        "name": "Angelo",
+        "subname": "Warren Worthington III",
+        "text": "<b>Risposta</b>: Dopo che hai giocato Angelo dalla tua mano, ripristina la tua identità.",
+        "traits": "Aereo. X-Force."
+    },
+    {
+        "code": "41004",
+        "name": "Raffica di Lame",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi  danni a un nemico. Per ogni Pugnale Psichico che controlli, scegli 1 nemico e confondilo. Per ogni Katana Psichica che controlli, scegli 1 nemico e infliggigli 2 danni.",
+        "traits": "Attacco. Psionico."
+    },
+    {
+        "code": "41005",
+        "name": "Localizzazione Mentale",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 1 minaccia da una trama. Per ogni Pugnale Psichico che controlli, rimuovi 2 minacce aggiuntive da quella trama. Per ogni Katana Psichica che controlli, pesca 1 carta.",
+        "traits": "Intervento. Psionico. ."
+    },
+    {
+        "code": "41006",
+        "name": "Deviazione Psionica",
+        "text": "<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando stai per subire un qualsiasi ammontare di danni da un attacco nemico, previeni 2 di quei danni. Per ogni Katana Psichica che controlli, previeni 2 danni aggiuntivi. Per ogni Pugnale Psichico che controlli, confondi quel nemico.",
+        "traits": "Difesa. Psionico."
+    },
+    {
+        "code": "41007",
+        "name": "Ipnosi Telepatica",
+        "text": "<b>Interruzione Eroe</b>: Quando riveli una carta dal mazzo degli incontri, annulla i suoi effetti \"<b>Quando rivelata</b>\". Per ogni Katana Psichica che controlli, scegli 1 nemico e infliggigli 2 danni. Per ogni Pugnale Psichico che controlli, scegli 1 trama e rimuovi 1 minaccia da essa.",
+        "traits": "Psionico."
+    },
+    {
+        "code": "41008",
+        "flavor": "\"La pratica rende perfetti!\" — Psylocke",
+        "name": "Regime di Allenamento",
+        "text": "<b>Azione</b>: Esaurisci Regime di Allenamento → cerca nel tuo mazzo 1 carta [[ABILITÀ]] e aggiungila alla tua mano. <i>(Mescola.)</i> Se sei nella sembianza di eroe, scarta 1 carta dalla tua mano.",
+        "traits": "Addestramento."
+    },
+    {
+        "code": "41009",
+        "name": "Addestramento nelle Arti Marziali",
+        "text": "Psylocke riceve +1 DIF.\n<b>Risposta Eroe</b>: Dopo che Psylocke ha difeso da un attacco, scarta Addestramento nelle Arti Marziali → ripristina Psylocke.",
+        "traits": "Abilità."
+    },
+    {
+        "code": "41010",
+        "name": "Addestramento Psionico",
+        "text": "Psylocke ignora le parole chiave Guardia e Pattuglia.\n<b>Risposta Eroe</b>: Dopo che Psylocke è intervenuta, scarta Addestramento Psionico → confondi 1 nemico.",
+        "traits": "Abilità."
+    },
+    {
+        "code": "41011",
+        "name": "Addestramento nelle Armi",
+        "text": "Psylocke ottiene Ritorsione 1.\n<b>Risposta Eroe</b>: Dopo che Psylocke ha attaccato, scarta Addestramento nelle Armi → ripristina ogni miglioria [[ARMA]] che controlli.",
+        "traits": "Abilità."
+    },
+    {
+        "code": "41012",
+        "flavor": "\"Sarò il tuo campione, ora e per sempre!\"",
+        "name": "Capitan Bretagna",
+        "subname": "Brian Braddock",
+        "text": "[star] Dopo che è intervenuto su una trama secondaria o ha attaccato un gregario, Capitan Bretagna subisce -1 danno conseguente.",
+        "traits": "Aereo. Excalibur."
+    },
+    {
+        "code": "41013",
+        "flavor": "\"È stato il tuo linguaggio del corpo a dirmi tutto ciò di cui avevo bisogno per batterti.",
+        "name": "Cypher",
+        "subname": "Doug Ramsey",
+        "text": "[star] <b>Risposta</b>: Dopo che Cypher ha attaccato e danneggiato un nemico confuso, pesca 1 carta.",
+        "traits": "X-Force."
+    },
+    {
+        "code": "41015",
+        "name": "Calcio Discendente",
+        "text": "<b>Risposta Eroe</b>: Dopo che il tuo eroe ha effettuato un attacco base e danneggiato un nemico, confondi quel nemico. Se quel nemico era già confuso, stordiscilo invece.",
+        "traits": "Abilità."
+    },
+    {
+        "code": "41016",
+        "flavor": "\"Tu sotto, io sopra.\"\n\"Tocca sempre a me andare sotto.\"\n\"E va bene, vai sopra.\"\n\"A me piace andare sotto.\"\n — Wolverine e Deadpool",
+        "name": "Predisporre la Trappola",
+        "text": "Vittoria 0.\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama infligge 5[per_hero] danni al criminale."
+    },
+    {
+        "code": "41017",
+        "name": "Vola Come una Farfalla",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\n<b>Interruzione</b>: Quando un personaggio che controlli attacca un nemico confuso, aumenta di 1 l'ammontare dei danni inflitti da quell'attacco a quel nemico.",
+        "traits": "Abilità."
+    },
+    {
+        "code": "41018",
+        "name": "Pete Wisdom",
+        "text": "Gioca solo se la tua identità possiede il tratto [[X-FORCE]].\n<b>Risposta</b>: Dopo che hai risolto gli effetti \"<b>Quando rivelata</b>\" di una carta insidia, cura 1 danno a Pete Wisdom.",
+        "traits": "X-Force."
+    },
+    {
+        "code": "41019",
+        "name": "Forza Concentrata",
+        "text": "<b>Interruzione Eroe</b>: Quando il tuo eroe effettua un attacco con la parola chiave <i>(Distanza, Perforante o Sopraffazione)</i>, quell'attacco infligge 2 danni aggiuntivi. (Massimo 1 per attacco.)",
+        "traits": "Abilità."
+    },
+    {
+        "code": "41020",
+        "name": "Cuori in Volo",
+        "text": "Team-Up (Angelo e Psylocke). Massimo 1 per mazzo.\n<b>Azione Eroe</b>: Cerca nella tua pila degli scarti 1 evento specifico di identità e aggiungilo alla tua mano. Ripristina Angelo e Psylocke.",
+        "traits": "Aereo. Psionico."
+    },
+    {
+        "code": "41022",
+        "name": "IPAC",
+        "text": "Gioca solo se la tua identità possiede il tratto [[X-FORCE]].\n<b>Azione Eroe</b>: Esaurisci IPAC e distribuisci 1 carta incontro a faccia in giù a un giocatore → quel giocatore pesca 2 carte.",
+        "traits": "Veicolo. X-Force."
+    },
+    {
+        "code": "41023",
+        "name": "Bunker-X",
+        "text": "<b>Azione</b>: Esaurisci Bunker-X e scegli 1 giocatore la cui identità possiede il tratto [[MUTANTE]] → quel giocatore cerca tra le X carte in cima al suo mazzo 1 carta e la aggiunge alla sua mano. X è pari al numero di trame secondarie nella galleria delle vittorie. <i>(Mescola.)</i>",
+        "traits": "Luogo. X-Force."
+    },
+    {
+        "code": "41024",
+        "name": "Telepatia",
+        "text": "Gioca solo se la tua identità possiede il tratto [[PSIONICO]]. Massimo 1 per giocatore.\n<b>Azione Eroe</b> <i>(intervento)</i>: Esaurisci Telepatia e spendi [mental][mental] → rimuovi 2 minacce da una trama.",
+        "traits": "Psionico. Superpotere."
+    },
+    {
+        "code": "41030",
+        "name": "Attacco con Arco Psichico",
+        "text": "Gioca solo se la tua identità possiede il tratto [[PSIONICO]].\n<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 4 danni a un nemico. Questo attacco ottiene Distanza.",
+        "traits": "Attacco. Psionico."
+    },
+    {
+        "code": "41031",
+        "flavor": "\"Ti senti fortunato, pivello?''",
+        "name": "Domino",
+        "subname": "Neena Thurman",
+        "text": "[star] <b>Risposta</b>: Dopo che hai usato un potere base di domino, scambia 1 carta nella tua mano con la carta in cima al tuo mazzo.",
+        "traits": "Posse. X-Force."
+    },
+    {
+        "code": "41032",
+        "name": "Colpo di Mazzafrusto Psichico",
+        "text": "Gioca solo se la tua identità possiede il tratto [[PSIONICO]].\n<b>Risposta Eroe</b> <i>(attacco)</i>: Dopo che hai difeso da un attacco, infliggi 3 danni a quel nemico e stordiscilo.",
+        "traits": "Attacco. Psionico."
+    },
+    {
+        "code": "41033",
+        "name": "Telecinesi",
+        "text": "Gioca solo se la tua identità possiede il tratto [[PSIONICO]]. Massimo 1 per giocatore.\n<b>Azione Eroe</b> <i>(intervento)</i>: Esaurisci Telecinesi e spendi [mental][mental] → infliggi 3 danni a un nemico.",
+        "traits": "Psionico. Superpotere."
+    }
 ]
