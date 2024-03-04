@@ -9,7 +9,7 @@
 		"position": 21,
 		"quantity": 1,
 		"set_code": "nova",
-		"text": "While this card is in play, Supernova Helmet cannot ready. /n <b>Alter-Ego Action:</b> Exhause Sam Alexander > remove this obligation from the game.",
+		"text": "<b>Give to the Sam Alexander player.</b>\nWhile this card is in play, Supernova Helmet cannot ready.\n<b>Alter-Ego Action</b>: Exhaust Sam Alexander \u2192 remove this obligation from the game.",
 		"type_code": "obligation"
 	},
 	{
@@ -23,7 +23,7 @@
 		"pack_code": "nova",
 		"position": 22,
 		"quantity": 1,
-		"scheme text": "<b>When Revealed:</b>Each player discard 1 card they control with a printed [misc] resource. For each card discard this way, place 1 threat here.",
+		"scheme text": "<b>When Revealed</b>: Each player discards 1 card they control with a printed [wild] resource. For each card discarded this way, place 1 threat here.",
 		"scheme_hazard": 1,
 		"set_code": "nova_nemesis",
 		"set_position": 1,
@@ -31,7 +31,7 @@
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Interrupt:</b>When Warbringer attacks you, he gets +1 ATK for that attack for each card with a printed [misc] resource in your hand. That attack gains overkill.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "28023",
 		"faction_code": "encounter",
@@ -45,12 +45,13 @@
 		"scheme": 1,
 		"set_code": "nova_nemesis",
 		"set_position": 2,
+		"text": "[star] <b>Forced Interrupt</b>: When Warbringer attacks you, he gets +1 ATK for that attack for each card with a printed [wild] resource in your hand. That attack gains overkill.\n<i>(Nova's nemesis minion.)</i>",
 		"traits": "Brute. Chitauri.",
 		"type_code": "minion"
 	},
 	{
 		"boost": 1,
-		"boost_text": "Play 1 threat on the main scheme for each card with a printed [misc] resource in your hand.",
+		"boost_star": true,
 		"code": "28024",
 		"faction_code": "encounter",
 		"name": "War Delivery",
@@ -60,7 +61,7 @@
 		"quantity": 2,
 		"set_code": "nova_nemesis",
 		"set_position": 3,
-		"text": "<b>When Revealed: </b>You may spend a [misc] resource. If you do not, the villain and Warbringer each attack you (even if you are in alter-ego form).",
+		"text": "<b>When Revealed</b>: You may spend a [wild] resource. If you do not, the villain and Warbringer each attack you <i>(even if you are in alter-ego form)</i>.\n<hr />\n[star] <b>Boost</b>: Place 1 threat on the main scheme for each card with a printed [wild] resource in your hand.",
 		"type_code": "treachery"
 	},
 	{
@@ -73,7 +74,7 @@
 		"quantity": 1,
 		"set_code": "nova_nemesis",
 		"set_position": 5,
-		"text": "Surge.\n<b>When Revealed:</b> Discard X cards from the top of the encounter deck, where X is equal to the total number of printed [misc] resources on cards in your hand, cards under your control, and cards in your discard pile.",
+		"text": "Surge.\n<b>When Revealed</b>: Discard X cards from the top of the encounter deck, where X is equal to the total number of printed [wild] resources on cards in your hand, cards under your control, and cards in your discard pile.",
 		"type_code": "treachery"
 	},
 	{
@@ -81,6 +82,7 @@
 		"boost": 2,
 		"code": "28028",
 		"faction_code": "encounter",
+		"flavor": "Armadillo is barreling through the city, steamrolling everything in his path.",
 		"name": "Armored Assault",
 		"octgn_id": "0271ab7e-75bc-436d-b0f7-be103892ea1d",
 		"pack_code": "nova",
@@ -93,7 +95,7 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Response:</b>After Armadillo activates against you, give him a tough status card.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "28029",
 		"faction_code": "encounter",
@@ -105,15 +107,16 @@
 		"position": 29,
 		"quantity": 1,
 		"scheme": 1,
-		"scheme_text": "<b>Forced Response:</b>After Armadillo activates against you, give him a tough status card.",
+		"scheme_star": true,
 		"set_code": "armadillo",
 		"set_position": 2,
-		"text": "Toughness. /n Armadillo can have any number of tough status cards.",
+		"text": "Toughness.\nArmadillo can have any number of tough status cards.\n[star] <b>Forced Response</b>: After Armadillo activates against you, give him a tough status card.",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
 	{
-		"attack_text": "While Armadillo has a tough status card, characters cannot defend against his attacks.",
+		"attack": 2,
+		"attack_star": true,
 		"boost": 2,
 		"code": "28030",
 		"faction_code": "encounter",
@@ -124,7 +127,7 @@
 		"quantity": 1,
 		"set_code": "armadillo",
 		"set_position": 3,
-		"text": "Attack to Armadillo. If Armadillo is not in play, search the encounter deck and discard pile for Armadillo, put him into play, engaged with you , and attach this card to him. (shuffle.)",
+		"text": "Attack to Armadillo. If Armadillo is not in play, search the encounter deck and discard pile for Armadillo, put him into play, engaged with you, and attach this card to him. <i>(Shuffle.)</i>\n[star] While Armadillo has a tough status card, characters cannot defend against his attacks.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -139,12 +142,13 @@
 		"quantity": 1,
 		"set_code": "armadillo",
 		"set_position": 4,
-		"text": "<b>When Revealed (Alter-Ego): </b>Each enemy with a tough status card schemes. If no enemy activates this way, this card gains surge. /n <b>When Revealed (Hero): </b> Each enemy with a tough status card attacks you. If no enemy activated this way, this card gains surge.",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Each enemy with a tough status card schemes. If no enemy activated this way, this card gains surge.\n<b>When Revealed (Hero)</b>:  Each enemy with a tough status card attacks you. If no enemy activated this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
 		"code": "28032",
 		"faction_code": "encounter",
+		"flavor": "\"Don't hit too hard. Might break your hand.\" —Armadillo",
 		"name": "Tough It Out",
 		"octgn_id": "865165c4-5c04-42bc-9ae9-c84314ca2636",
 		"pack_code": "nova",
@@ -152,7 +156,7 @@
 		"quantity": 2,
 		"set_code": "armadillo",
 		"set_position": 5,
-		"text": "<b>When Revealed:</b>Give Armadillo and the villain each a tough status card. If 1 or fewer tough status cards were given this way, this card gains surge.",
+		"text": "<b>When Revealed</b>: Give Armadillo and the villain each a tough status card. If 1 or fewer tough status cards were given this way, this card gains surge.",
 		"type_code": "treachery"
 	}
 ]
