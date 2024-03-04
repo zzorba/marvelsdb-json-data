@@ -1,6 +1,7 @@
 [
 	{
 		"code": "34001a",
+		"flavor": "\"The Phoenix chose me, but I alone decide who I am!\"",
 		"name": "Phoenix",
 		"text": "<i>Psionic Bond</i> - <b>Hero Resource</b>: Remove 1 power counter from Phoenix Force → generate a [wild] resource. (Limit once per phase).",
 		"traits": "Psionic. X-Men."
@@ -26,6 +27,7 @@
 	{
 		"code": "34003",
 		"name": "Cyclops",
+		"subname": "Scott Summers",
 		"text": "<b>Response</b>: After Cyclops enters play, place 2 power counters on Phoenix Force.\n<b>Response</b>: When Cyclops leaves play, remove 2 power counters from Phoenix Force.",
 		"traits": "X-Men."
 	},
@@ -67,18 +69,21 @@
 	},
 	{
 		"code": "34010",
+		"flavor": "\"Poor fool, you have no idea how hopelessly outmatched you are!\" — Phoenix",
 		"name": "Telekinetic Attack",
 		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 7 damage to an enemy. If you have the [[UNLEASHED]] trait, this attack deals 2 additional damage and gains overkill.",
 		"traits": "Attack. Psionic."
 	},
 	{
 		"code": "34011",
+		"flavor": "\"We fight on different battlefields. Your strength won't help you in mine.\" — Phoenix",
 		"name": "Psychic Blast",
 		"text": "<b>Hero Action</b>: Deal 4 damage to the villain. If you have the [[UNLEASHED]] trait, deal 4 damage to each minion engaged with you.",
 		"traits": "Psionic."
 	},
 	{
 		"code": "34012",
+		"flavor": "\"They can't see us because I won't let them.\" — Phoenix",
 		"name": "Telepathic Trickery",
 		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 4 threat from a scheme. If you have the [[UNLEASHED]] trait, stun and confuse an enemy.",
 		"traits": "Psionic. Thwart."
@@ -91,6 +96,7 @@
 	},
 	{
 		"code": "34014",
+		"flavor": "\"Ye'd best cover yer ears, lads...this is goin' to hurt!\"",
 		"name": "Banshee",
 		"subname": "Sean Cassidy",
 		"text": "[star]<b>Response</b>: After Banshee thwarts, confuse a minion.",
@@ -98,6 +104,7 @@
 	},
 	{
 		"code": "34015",
+		"flavor": "\"Whatever it is you're up to, it's over now.\"",
 		"name": "Marvel Girl",
 		"subname": "Rachel Summers",
 		"text": "[star]<b>Interrupt</b>: When Marvel Girl Attacks a minion, remove X threat from the main scheme, where X is that minion's printed SCH.",

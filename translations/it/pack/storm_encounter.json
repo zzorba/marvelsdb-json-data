@@ -1,55 +1,55 @@
 [
-	{
-		"code": "36030",
-		"name": "Claustrophobia",
-		"text": "<b><i>Give to the Ororo Munroe player.</i></b>\nFlip to alter-ego form. You cannot change forms.\n<b>Alter-Ego Action:</b> Exhaust Ororo Munroe → remove Claustrophobia from the game."
-	},
-	{
-		"code": "36031",
-		"flavor": "\"I'm going to ruin that pretty face of yours!\"",
-		"name": "Callisto",
-		"text": "Quickstrike.\n<b>Forced Interrupt</b>: When a Knife Fight treachery is revealed, give Callisto a tough status card.",
-		"traits": "Elite. Morlock."
-	},
-	{
-		"code": "36032",
-		"flavor": "Callisto protects the Morlocks, but she won't let anyone question her authority.",
-		"name": "Leader of the Morlocks",
-		"text": "<b>When Defeated</b>: The player who defeated this scheme searches the encounter deck, discard pile, and set-aside area for Knife Fight and reveals it."
-	},
-	{
-		"attack_text": "Attached minion's attacks gain piercing.",
-		"code": "36033",
-		"name": "Switchblade",
-		"text": "Attach to the minion with the highest printed ATK. Otherwise, this card gains surge."
-	},
-	{
-		"code": "36034",
-		"name": "Knife Fight",
-		"text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: Choose an enemy with the highest ATK → take damage equal to its ATK. Deal damage to that enemy equal to your ATK."
-	},
-	{
-		"code": "36036",
-		"name": "The Shadow King",
-		"text": "While a [[Controlled]] minion is in play, The Shadow King cannot take damage.\n<b>When Revealed</b>: Search the encounter deck and discard pile for a copy of the Possessed attachment and reveal it. <i>(Shuffle.)</i>",
-		"traits": "Elite. Psionic."
-	},
-	{
-		"boost_text": "If you are engaged with a [[Controlled]] minion, reveal this card.",
-		"code": "36037",
-		"name": "Ruler of the Astral Plane",
-		"text": "<b>When Defeated</b>: Discard 1 copy of Possessed from play."
-	},
-	{
-		"code": "36038",
-		"name": "Possessed",
-		"text": "Treat attached ally as a [[Controlled]] minion with a blank text box. Attached minion's SCH is equal to its printed THW and it does not take consequential damage.\n<b>When Revealed</b>: Attach to the ally with the lowest THW without Possessed attached. If you cannot, this card gains surge.",
-		"traits": "Condition."
-	},
-	{
-		"boost_text": "Shuffle each Shadow King card from the discard pile into the encounter deck.",
-		"code": "36039",
-		"name": "Astral Attack",
-		"text": "<b>When Revealed</b>: Each [[Controlled]] minion activates against you. If there are no [[Controlled]] minions in play, this card gains surge."
-	}
+    {
+        "code": "36030",
+        "name": "Claustrofobia",
+        "text": "<b><i>Fai ricevere al giocatore Ororo Munroe.</i></b>\nAssumi la sembianza di alter ego. \nNon puoi cambiare sembianza.\n<b>Azione Alter Ego:</b> Esaurisci Ororo Munroe → rimuovi dal gioco Claustrofobia."
+    },
+    {
+        "code": "36031",
+        "flavor": "\"Rovinerò quel tuo bel faccino!\"",
+        "name": "Callisto",
+        "text": "Colpo Rapido.\n<b>Interruzione Obbligata</b>: Quando viene rivelata un'insidia Lotta con i Coltelli, irrobustici Callisto.",
+        "traits": "Elite. Morlock."
+    },
+    {
+        "code": "36032",
+        "flavor": "Callisto protegge i Morlock, ma non permette a nessuno di mettere in dubbio la sua autorità.",
+        "name": "Capo dei Morlock",
+        "text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama cerca nel mazzo degli incontri, nella pila degli scarti degli incontri e nelle carte messe da parte 1 insidia Lotta con i Coltelli e la rivela."
+    },
+    {
+        "attack_text": "Gli attacchi del gregario con questa aggiunta ottengono Perforante.",
+        "code": "36033",
+        "name": "Coltello a Serramanico",
+        "text": "Assegna al gregario con più ATT stampato. Se non puoi farlo, questa carta ottiene Impulso.\n[star] Gli attacchi del gregario con questa aggiunta ottengono Perforante."
+    },
+    {
+        "code": "36034",
+        "name": "Lotta con i Coltelli",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Questa carta ottiene Impulso.\n<b>Quando Rivelata (Eroe)</b>: Scegli 1 nemico con più ATT → subisci un ammontare di danni pari al suo ATT. Infliggi un ammontare di danni a quel nemico pari al tuo ATT."
+    },
+    {
+        "code": "36036",
+        "name": "Re delle Ombre",
+        "text": "Mentre ci sono gregari [[CONTROLLATO]] in gioco, Re delle Ombre non può subire danni.\n<b>Quando Rivelata</b>: Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta Posseduto e rivelala. <i>(Mescola.)</i>",
+        "traits": "Elite. Psionico."
+    },
+    {
+        "boost_text": "Se sei impegnato con un gregario [[Controllato]], rivela questa carta. ",
+        "code": "36037",
+        "name": "Monarca del Piano Astrale",
+        "text": "<b>Quando Sconfitta</b>: Scarta dal gioco 1 copia di Posseduto.\n[star]<b>Potenziamento</b>: Se sei impegnato con un gregario <b>CONTROLLATO</b>, rivela questa carta."
+    },
+    {
+        "code": "36038",
+        "name": "Posseduto",
+        "text": "Considera l'alleato con questa aggiunta come se fosse un gregario [[CONTROLLATO]] con un riquadro di testo vuoto. La TRA del gregario con questa aggiunta è pari al suo INT stampato e non subisce danni conseguenti.\n<b>Quando Rivelata</b>: Assegna all'alleato con meno INT e senza altri Posseduto assegnati a esso. Se non puoi farlo, questa carta ottiene Impulso.",
+        "traits": "Condizione."
+    },
+    {
+        "boost_text": "Mescola nel mazzo degli incontri ogni carta del set Re delle Ombre dalla pila degli scarti degli Incontri.",
+        "code": "36039",
+        "name": "Attacco Astrale",
+        "text": "<b>Quando Rivelata</b>: Ogni gregario [[CONTROLLATO]] si attiva contro di te. Se non ci sono gregari [[CONTROLLATO]] in gioco, questa carta ottiene Impulso.\n[star]<b>Potenziamento</b>: Mescola nel mazzo degli incontri ogni carta del set Re delle Ombre dalla pila degli scarti degli Incontri."
+    }
 ]

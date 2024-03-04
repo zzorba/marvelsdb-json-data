@@ -1,40 +1,53 @@
 [
 	{
+		"attack_text": "<b>Forced Response</b>: After MaGog attacks and damages a character, place 1 ratings counter on The Champion.",
 		"code": "39001a",
 		"name": "MaGog (A)",
+		"text": "<b>Forced Interrupt</b>: When MaGog would be defeated, reset his hit points to 10[per_hero] instead. Place 3[per_hero] ratings counters on The Challengers and deal each player 1 facedown encounter card.",
 		"traits": "Brute."
 	},
 	{
+		"attack_text": "<b>Forced Response</b>: After MaGog attacks and damages a character, place 2 ratings counters on The Champion.",
 		"code": "39001b",
 		"name": "MaGog (B)",
+		"text": "<b>Forced Interrupt</b>: When MaGog would be defeated, reset his hit points to 10[per_hero] instead. Place 2[per_hero] ratings counters on The Challengers and deal each player 1 facedown encounter card.",
 		"traits": "Brute."
 	},
 	{
 		"code": "39002a",
-		"name": "Melee in the Mojo-seum (1A)"
+		"name": "Melee in the Mojo-seum (1A)",
+		"text": "<b>Contents</b>: MaGog (A) <i>(MaGog (B) instead for expert mode)</i>. MaGog and Standard encounter sets. One modular encounter set <i>(1 random modular set from the</i> MojoMania <i>scenario pack)</i>.\n<b>Setup</b>: Put The Champion environment card and The Challengers environment card into play, each with its [[BOOING CROWD]] side faceup."
 	},
 	{
 		"code": "39002b",
-		"name": "Melee in the Mojo-seum (1B)"
+		"flavor": "Teleported into a bizarre arena, you must fight for the audience's entertainment...and your lives!",
+		"name": "Melee in the Mojo-seum (1B)",
+		"text": "The players cannot win the game unless they wow the crowd as The Challengers.\n[star] <b>Forced Interrupt</b>: When this scheme would be completed, place 2[per_hero] ratings counters on The Champion and remove all threat from here instead."
 	},
 	{
 		"code": "39003a",
+		"flavor": "\"In this corner, we have your ninety-nine time defending Mojoverse champion, the mighty MaGog!\"",
 		"name": "The Champion (Booing Crowd)",
+		"text": "If there are at least 5[per_hero] ratings counters here, flip this environment <i>(without removing ratings counters)</i>.",
 		"traits": "Booing Crowd."
 	},
 	{
 		"code": "39003b",
 		"name": "The Champion (Cheering Crowd)",
+		"text": "Underdogs — <b>Forced Response</b>: After The Champion flips to this side, each player draws 1 card.\n<b>If there are at least 10[per_hero] ratings counters here, MaGog wins again and the players lose the game.</b>",
 		"traits": "Cheering Crowd."
 	},
 	{
 		"code": "39004a",
+		"flavor": "\"And in this corner, hailing from the tiny, insignificant planet of Earth, we have our challengers!\" — Mojo",
 		"name": "The Challengers (Booing Crowd)",
+		"text": "If there are at least 5[per_hero] ratings counters here, flip this environment <i>(without removing ratings counters)</i>.\n<i>(The players wow the crowd by placing ratings counters here.)</i>",
 		"traits": "Booing Crowd."
 	},
 	{
 		"code": "39004b",
 		"name": "The Challengers (Cheering Crowd)",
+		"text": "Tag Team — <b>Forced Response</b>: After The Challengers flips to this side, search the encounter deck and discard pile for Surprise Contender and put it into play engaged with the first player. If it is already in play, give it a tough status card.\n<b>If there are at least 10[per_hero] ratings counters here, you wow the crowd and the players win the game.</b>",
 		"traits": "Cheering Crowd."
 	},
 	{
@@ -72,42 +85,60 @@
 		"name": "Stage Fright"
 	},
 	{
+		"attack_text": "<b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
 		"code": "39012a",
 		"name": "Spiral I (Escaped)",
+		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.",
 		"traits": "Escaped. Mystic."
 	},
 	{
+		"attack_text": "<b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
 		"code": "39012b",
 		"name": "Spiral I (Cornered)",
+		"scheme_text": "<b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
+		"text": "If there are at least 3[per_hero] teleport counters here, remove all of them and flip Spiral.",
 		"traits": "Cornered. Mystic."
 	},
 	{
+		"attack_text": "<b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
 		"code": "39013a",
 		"name": "Spiral II (Escaped)",
+		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.",
 		"traits": "Escaped. Mystic."
 	},
 	{
+		"attack_text": "<b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
 		"code": "39013b",
 		"name": "Spiral II (Cornered)",
+		"scheme_text": "<b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
+		"text": "If there are at least 2[per_hero] teleport counters here, remove all of them and flip Spiral.",
 		"traits": "Cornered. Mystic."
 	},
 	{
+		"attack_text": "<b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
 		"code": "39014a",
 		"name": "Spiral III (Escaped)",
+		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.",
 		"traits": "Escaped. Mystic."
 	},
 	{
+		"attack_text": "<b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
 		"code": "39014b",
 		"name": "Spiral III (Cornered)",
+		"scheme_text": "<b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
+		"text": "If there are at least 3[per_hero] teleport counters here, remove all of them and flip Spiral.\n<b>When Revealed</b>: Spiral attacks each player in player order <i>(even in alter-ego form)</i>.",
 		"traits": "Cornered. Mystic."
 	},
 	{
 		"code": "39015a",
-		"name": "Across the Mojoverse (1A)"
+		"name": "Across the Mojoverse (1A)",
+		"text": "<b>Contents</b>: Spiral (I) and Spiral (II) <i>(Spiral (II) and Spiral (III) instead for expert mode)</i>. Spiral and Standard encounter sets. Three modular encounter sets from the MojoMania scenario pack.\n<b>Setup</b>: Put The Search for Spiral side scheme and 1 random [[SHOW]] environment into play. Shuffle each other [[SHOW]] environment together with the Cornered! treachery to create the show deck. <i>(See rulebook p. 11)</i>. Flip Spiral to her [[ESCAPED]] side."
 	},
 	{
 		"code": "39015b",
-		"name": "Across the Mojoverse (1B)"
+		"flavor": "If you want to return home, you'll need the help of the teleporting sorceress, Spiral. But she will need some convincing.",
+		"name": "Across the Mojoverse (1B)",
+		"text": "<b>Forced Interrupt</b>: When a [[SHOW]] environment would be discarded, place it on the bottom of the show deck instead.\n<b>If this stage is completed, the players lose the game.</b>"
 	},
 	{
 		"code": "39016",
@@ -140,36 +171,48 @@
 	{
 		"code": "39022",
 		"name": "Mojo I",
+		"text": "<b>Forced Response (Hero)</b>: After your turn ends, discard the top 3 cards of the encounter deck. Place 1 threat on your hero for each card discarded this way that does not belong to the Mojo encounter set.",
 		"traits": "Spineless."
 	},
 	{
 		"code": "39023",
 		"name": "Mojo II",
+		"text": "<b>When Revealed</b>: Place 2 threat on each friendly character.\n<b>Forced Response (Hero)</b>: After your turn ends, discard the top 4 cards of the encounter deck. Place 1 threat on your hero for each card discarded this way that does not belong to the Mojo encounter set.",
 		"traits": "Spineless."
 	},
 	{
 		"code": "39024",
 		"name": "Mojo III",
+		"text": "<b>When Revealed</b>: Place 3 threat on each friendly character.\n<b>Forced Response (Hero)</b>: After your turn ends, discard the top 5 cards of the encounter deck. Place 1 threat on your hero for each card discarded this way that does not belong to the Mojo encounter set.",
 		"traits": "Spineless."
 	},
 	{
 		"code": "39025a",
-		"name": "MojoMania (1A)"
+		"name": "MojoMania (1A)",
+		"text": "<b>Contents</b>: Mojo (I) and Mojo (II) <i>(Mojo (II) and Mojo (III) instead for expert mode)</i>. Mojo and Standard encounter sets.\n<b>Setup</b>: Choose 1 modular set, plus 1[per_hero] additional modular sets, from the MojoMania scenario pack and set them aside. Put the Wheel of Genres environment into play, [[SPINNING]] side faceup."
 	},
 	{
 		"code": "39025b",
-		"name": "MojoMania (1B)"
+		"name": "MojoMania (1B)",
+		"text": "<b>When Revealed</b>: Choose 1 set-aside encounter set at random, reveal its [[SHOW]] environment and shuffle its remaining cards into the encounter deck.\n<b>Forced Interrupt</b>: When a character flips or leaves play, move all threat from that character to this scheme.\n<b>If this stage is completed, the players lose the game.</b>"
 	},
 	{
 		"code": "39026a",
-		"name": "Wheel of Genres (Spinning)"
+		"flavor": "\"The ratings are stagnating. Time to shake things up with a crossover episode!\" — Mojo",
+		"name": "Wheel of Genres (Spinning)",
+		"text": "<b>Forced Response</b>: After the encounter deck resets, <b>if there are no set-aside modular encounter sets remaining, the players lose the game</b>. Otherwise, flip this card.",
+		"traits": "Spinning."
 	},
 	{
 		"code": "39026b",
-		"name": "Wheel of Genres (Stopped)"
+		"name": "Wheel of Genres (Stopped)",
+		"text": "<b>Forced Interrupt</b>: At the start of step three of the villain phase (deal encounter cards), randomly choose 1 set-aside modular set and reveal its [[SHOW]] environment. Shuffle the rest of that modular set and place it on top of the encounter deck. Deal the first player 2 facedown encounter cards and flip this card.",
+		"traits": "Stopped."
 	},
 	{
+		"attack_text": "<b>Forced Response</b>: After Mojo attacks, discard cards from the encounter deck equal to the amount of damage dealt by that attack.",
 		"code": "39027",
+		"flavor": "\"I live to serve, Your Supreme Spinelessness.\"",
 		"name": "Major Domo",
 		"text": "Attach to Mojo.",
 		"traits": "Persona."
