@@ -86,6 +86,7 @@
     {
         "attack": 1,
         "attack_cost": 1,
+        "attack_star": true,
         "code": "42002",
         "cost": 3,
         "deck_limit": 1,
@@ -254,6 +255,7 @@
     {
         "attack": 1,
         "attack_cost": 1,
+        "attack_star": true,
         "code": "42011",
         "cost": 4,
         "deck_limit": 1,
@@ -267,15 +269,17 @@
         "quantity": 1,
         "resource_mental": 1,
         "subname": "Josh Foley",
-        "text": "[star] <b>Response</b>: After Elixir attacks or thwarts, heal 1 damage from another friendly character.",
+        "text": "Play only if your identity has the [[X-Force]] or [[X-Men]] trait.\n[star] <b>Response</b>: After Elixir attacks or thwarts, heal 1 damage from another friendly character.",
         "thwart": 1,
         "thwart_cost": 1,
+        "thwart_star": true,
         "traits": "X-Force.",
         "type_code": "ally"
     },
     {
         "attack": 2,
         "attack_cost": 1,
+        "attack_star": true,
         "code": "42012",
         "cost": 4,
         "deck_limit": 1,
