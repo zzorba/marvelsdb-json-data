@@ -113,6 +113,7 @@
 		"code": "24006",
 		"double_sided": true,
 		"escalation_threat": 1,
+		"escalation_threat_star": true,
 		"faction_code": "encounter",
 		"name": "Crime State",
 		"octgn_id": "335f078d-6dbb-4caf-92f9-d7db70ae6fcb",
@@ -122,7 +123,7 @@
 		"set_code": "the_hood",
 		"set_position": 6,
 		"stage": 3,
-		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, each player must resolve The Hood's \"Foul Play\" ability in player order.\n<b>If this stage is completed, the players lose the game.</b>",
+		"text": "[star] <b>Forced Response</b>: After resolving step one of the villain phase, each player must resolve The Hood's <i>\"Foul Play\"</i> ability in player order.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 10,
 		"type_code": "main_scheme"
 	},
@@ -156,7 +157,7 @@
 	},
 	{
 		"attack": 1,
-		"boost_text": "Reveal this card.",
+		"boost_star": true,
 		"code": "24009",
 		"faction_code": "encounter",
 		"name": "The Hood's Pistol",
@@ -167,7 +168,7 @@
 		"scheme": 1,
 		"set_code": "the_hood",
 		"set_position": 9,
-		"text": "Attach to The Hood.\n<b>Hero Action:</b> Spend [mental][physical] resources → discard this card.",
+		"text": "Attach to The Hood.\n<b>Hero Action:</b> Spend [mental][physical] resources → discard this card.\n<hr />\n[star] <b>Boost</b>: Reveal this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -208,7 +209,7 @@
 	},
 	{
 		"boost": 1,
-		"boost_text": "After this activation ends, resolve The Hood's \"Foul Play\" ability.",
+		"boost_star": true,
 		"code": "24012",
 		"faction_code": "encounter",
 		"name": "Field Recruitment",
@@ -218,7 +219,7 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 13,
-		"text": "<b>When Revealed:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck. Resolve The Hood's \"Foul Play\" ability. Remove this card from the game.",
+		"text": "<b>When Revealed</b>: Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck. Resolve The Hood's <i>\"Foul Play\"</i> ability. Remove this card from the game.\n<hr />\n[star] <b>Boost</b>: After this activation ends, resolve The Hood's \"Foul Play\" ability.",
 		"type_code": "treachery"
 	},
 	{
@@ -253,7 +254,7 @@
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Response</b>: After Griffin attacks and damages a character, stun that character.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "24015",
 		"faction_code": "encounter",
@@ -267,7 +268,7 @@
 		"scheme": 1,
 		"set_code": "beasty_boys",
 		"set_position": 2,
-		"text": "Quickstrike.\n<b>When Defeated:</b> If there is a stunned friendly character in play, shuffle Griffin into the encounter deck.",
+		"text": "Quickstrike.\n[star] <b>Forced Response</b>: After Griffin attacks and damages a character, stun that character.\n<b>When Defeated:</b> If there is a stunned friendly character in play, shuffle Griffin into the encounter deck.",
 		"traits": "Brute. Masters of Evil.",
 		"type_code": "minion"
 	},
@@ -292,7 +293,7 @@
 		"type_code": "minion"
 	},
 	{
-		"boost_text": "Resolve this card's \"<b>When Revealed</b>\" ability.",
+		"boost_star": true,
 		"code": "24017",
 		"faction_code": "encounter",
 		"name": "Double Trouble",
@@ -302,13 +303,14 @@
 		"quantity": 1,
 		"set_code": "beasty_boys",
 		"set_position": 4,
-		"text": "<b>When Revealed:</b> Stun a character you control. Confuse a character you control.",
+		"text": "<b>When Revealed</b>: Stun a character you control. Confuse a character you control.\n<hr />\n[star] <b>Boost</b>: Resolve this card's \"<b>When Revealed</b>\" ability.",
 		"type_code": "treachery"
 	},
 	{
 		"attack": 1,
+		"attack_star": true,
 		"boost": 1,
-		"boost_text": "After this activation ends, put Brothers Grimm into play engaged with the first player.",
+		"boost_star": true,
 		"code": "24018",
 		"faction_code": "encounter",
 		"health": 8,
@@ -320,13 +322,15 @@
 		"position": 18,
 		"quantity": 1,
 		"scheme": 1,
+		"scheme_star": true,
 		"set_code": "brothers_grimm",
 		"set_position": 1,
-		"text": "[star]<b>Forced Interrupt:</b> When Brothers Grimm activates against you, discard cards from the top of the encounter deck until an attachment is discarded. Reveal that card.",
+		"text": "[star] <b>Forced Interrupt</b>: When Brothers Grimm activates against you, discard cards from the top of the encounter deck until an attachment is discarded. Reveal that card.\n<hr />\n[star] <b>Boost</b>: After this activation ends, put Brothers Grimm into play engaged with the first player.",
 		"traits": "Masters of Evil. Mystic.",
 		"type_code": "minion"
 	},
 	{
+		"attack_star": true,
 		"code": "24019",
 		"faction_code": "encounter",
 		"illustrator": "Patrick McEvoy",
@@ -335,13 +339,15 @@
 		"pack_code": "hood",
 		"position": 19,
 		"quantity": 1,
+		"scheme_star": true,
 		"set_code": "brothers_grimm",
 		"set_position": 2,
-		"text": "Attach to a [[Mystic]] minion. If you cannot, attach to the villain.\n[star]<b>Forced Response:</b> After attached enemy activates against you, discard this card → discard 1 card at random from your hand and deal yourself 1 facedown encounter card.",
+		"text": "Attach to a [[Mystic]] minion. If you cannot, attach to the villain.\n[star] <b>Forced Response</b>: After attached enemy activates against you, discard this card → discard 1 card at random from your hand and deal yourself 1 facedown encounter card.",
 		"traits": "Item.",
 		"type_code": "attachment"
 	},
 	{
+		"attack_star": true,
 		"boost": 1,
 		"code": "24020",
 		"faction_code": "encounter",
@@ -351,13 +357,15 @@
 		"pack_code": "hood",
 		"position": 20,
 		"quantity": 1,
+		"scheme_star": true,
 		"set_code": "brothers_grimm",
 		"set_position": 3,
-		"text": "Attach to a [[Mystic]] minion. If you cannot, attach to the villain.\n[star]<b>Forced Response:</b> After attached enemy activates against you, discard this card → take 3 indirect damage and deal yourself 1 facedown encounter card.",
+		"text": "Attach to a [[Mystic]] minion. If you cannot, attach to the villain.\n[star] <b>Forced Response</b>: After attached enemy activates against you, discard this card → take 3 indirect damage and deal yourself 1 facedown encounter card.",
 		"traits": "Item.",
 		"type_code": "attachment"
 	},
 	{
+		"attack_star": true,
 		"boost": 2,
 		"code": "24021",
 		"faction_code": "encounter",
@@ -367,13 +375,15 @@
 		"pack_code": "hood",
 		"position": 21,
 		"quantity": 1,
+		"scheme_star": true,
 		"set_code": "brothers_grimm",
 		"set_position": 4,
-		"text": "Attach to a [[Mystic]] minion. If you cannot, attach to the villain.\n[star]<b>Forced Response:</b> After attached enemy activates against you, discard this card → stun your identity and deal yourself 1 facedown encounter card.",
+		"text": "Attach to a [[Mystic]] minion. If you cannot, attach to the villain.\n[star] <b>Forced Response</b>: After attached enemy activates against you, discard this card → stun your identity and deal yourself 1 facedown encounter card.",
 		"traits": "Item.",
 		"type_code": "attachment"
 	},
 	{
+		"attack_star": true,
 		"boost": 3,
 		"code": "24022",
 		"faction_code": "encounter",
@@ -383,15 +393,16 @@
 		"pack_code": "hood",
 		"position": 22,
 		"quantity": 1,
+		"scheme_star": true,
 		"set_code": "brothers_grimm",
 		"set_position": 5,
-		"text": "Attach to a [[Mystic]] minion. If you cannot, attach to the villain.\n[star]<b>Forced Response:</b> After attached enemy activates against you, discard this card → choose and discard 1 ally, support, or upgrade you control and deal yourself 1 facedown encounter card.",
+		"text": "Attach to a [[Mystic]] minion. If you cannot, attach to the villain.\n[star] <b>Forced Response</b>: After attached enemy activates against you, discard this card → choose and discard 1 ally, support, or upgrade you control and deal yourself 1 facedown encounter card.",
 		"traits": "Item.",
 		"type_code": "attachment"
 	},
 	{
 		"base_threat": 2,
-		"boost_text": "Resolve this card's \"<b>When Revealed</b>\" ability.",
+		"boost_star": true,
 		"code": "24023",
 		"faction_code": "encounter",
 		"name": "Out for Blood",
@@ -402,12 +413,12 @@
 		"scheme_hazard": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 1,
-		"text": "<b>When Revealed:</b> Deal 1 damage to the friendly character with the fewest remaining hit points. If that character is defeated this way, repeat this effect.",
+		"text": "<b>When Revealed:</b> Deal 1 damage to the friendly character with the fewest remaining hit points. If that character is defeated this way, repeat this effect.\n<hr />\n[star] <b>Boost</b>: Resolve this card's \"<b>When Revealed</b>\" ability.",
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Interrupt:</b> When Controller's attack would deal any amount of damage to a character, increase that amount by that character's ATK.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "24024",
 		"faction_code": "encounter",
@@ -422,13 +433,14 @@
 		"scheme": 2,
 		"set_code": "crossfire_crew",
 		"set_position": 2,
+		"text": "[star] <b>Forced Interrupt:</b> When Controller's attack would deal any amount of damage to a character, increase that amount by that character's ATK.",
 		"traits": "Brute. Crossfire's Crew.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
 		"boost": 1,
-		"boost_text": "Choose and exhaust a character you control.",
+		"boost_star": true,
 		"code": "24025",
 		"faction_code": "encounter",
 		"health": 4,
@@ -441,13 +453,13 @@
 		"scheme": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 3,
-		"text": "<b>When Revealed:</b> Exhaust each ally you control. Place 1 threat on the main scheme for each ally exhausted this way.",
+		"text": "<b>When Revealed:</b> Exhaust each ally you control. Place 1 threat on the main scheme for each ally exhausted this way.\n<hr />\n[star] <b>Boost</b>: Choose and exhaust a character you control.",
 		"traits": "Criminal. Crossfire's Crew.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Interrupt:</b> When Crossfire attacks, he attacks the friendly character with the fewest remaining hit points. That attack gains overkill and ranged.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "24026",
 		"faction_code": "encounter",
@@ -462,14 +474,14 @@
 		"scheme": 2,
 		"set_code": "crossfire_crew",
 		"set_position": 4,
-		"text": "Quickstrike.",
+		"text": "Quickstrike.\n[star] <b>Forced Interrupt</b>: When Crossfire attacks, he attacks the friendly character with the fewest remaining hit points. That attack gains overkill and ranged.",
 		"traits": "Crossfire's Crew. Masters of Evil.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
 		"boost": 1,
-		"boost_text": "Discard cards from the top of your deck until you discard an ally.",
+		"boost_star": true,
 		"code": "24027",
 		"faction_code": "encounter",
 		"health": 5,
@@ -482,7 +494,7 @@
 		"scheme": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 5,
-		"text": "As an additional cost for the engaged player to ready a hero or ally they control, the player must spend a [mental] resource.",
+		"text": "As an additional cost for the engaged player to ready a hero or ally they control, the player must spend a [mental] resource.\n<hr />\n[star] <b>Boost</b>: Discard cards from the top of your deck until you discard an ally.",
 		"traits": "Criminal. Crossfire's Crew.",
 		"type_code": "minion"
 	},
@@ -502,7 +514,7 @@
 	},
 	{
 		"boost": 1,
-		"boost_text": "Deal yourself 1 facedown encounter card.",
+		"boost_star": true,
 		"code": "24029",
 		"faction_code": "encounter",
 		"name": "Cruel Intentions",
@@ -512,7 +524,7 @@
 		"quantity": 1,
 		"set_code": "expert_ii",
 		"set_position": 1,
-		"text": "Peril. Surge.\n<b>When Revealed</b>: Deal each player 1 facedown encounter card. Give the villain 1 facedown boost card.",
+		"text": "Peril. Surge.\n<b>When Revealed</b>: Deal each player 1 facedown encounter card. Give the villain 1 facedown boost card.\n<hr />\n[star] <b>Boost</b>: Deal yourself 1 facedown encounter card.",
 		"type_code": "treachery"
 	},
 	{
@@ -544,7 +556,7 @@
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "Deal 1 damage to each character you control. Give the villain 1 additional boost card for this activation.",
+		"boost_star": true,
 		"code": "24032",
 		"faction_code": "encounter",
 		"name": "Slug It Out",
@@ -554,7 +566,7 @@
 		"quantity": 1,
 		"set_code": "expert_ii",
 		"set_position": 4,
-		"text": "Peril. Surge.\n<b>When Revealed</b>: Exhaust your identity. Take 2 damage.",
+		"text": "Peril. Surge.\n<b>When Revealed</b>: Exhaust your identity. Take 2 damage.\n<hr />\n[star] <b>Boost</b>: Deal 1 damage to each character you control. Give the villain 1 additional boost card for this activation.",
 		"type_code": "treachery"
 	},
 	{
@@ -627,7 +639,7 @@
 	},
 	{
 		"attack": 3,
-		"attack_text": "Attached minion's attacks deal indirect damage.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "24037",
 		"faction_code": "encounter",
@@ -639,7 +651,7 @@
 		"quantity": 1,
 		"set_code": "ransacked_armory",
 		"set_position": 1,
-		"text": "Attach to the minion with the most remaining hit points. If you cannot, search the encounter deck and discard pile for a minion, put it into play engaged with you, and attach this card to it. <i>(Shuffle.)</i>",
+		"text": "Attach to the minion with the most remaining hit points. If you cannot, search the encounter deck and discard pile for a minion, put it into play engaged with you, and attach this card to it. <i>(Shuffle.)</i>\n[star] Attached minion's attacks deal indirect damage.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -677,7 +689,7 @@
 	},
 	{
 		"attack": 1,
-		"attack_text": "Attached minion's attacks gain overkill.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "24040",
 		"faction_code": "encounter",
@@ -689,7 +701,7 @@
 		"quantity": 1,
 		"set_code": "ransacked_armory",
 		"set_position": 5,
-		"text": "Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.\nAttach minion gets +3 hit points.",
+		"text": "Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.\nAttach minion gets +3 hit points.\n[star] Attached minion's attacks gain overkill.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -730,8 +742,8 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Response:</b> After Beetle attacks and damages you, discard the lowest-cost upgrade you control.",
-		"boost_text": "Choose and discard an upgrade you control.",
+		"attack_star": true,
+		"boost_star": true,
 		"code": "24043",
 		"faction_code": "encounter",
 		"health": 4,
@@ -744,14 +756,15 @@
 		"scheme": 1,
 		"set_code": "sinister_syndicate",
 		"set_position": 2,
+		"text": "[star] <b>Forced Response</b>: After Beetle attacks and damages you, discard the lowest-cost upgrade you control.\n<hr />\n[star] <b>Boost</b>: Choose and discard an upgrade you control.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Response:</b> After Boomerang attacks you, deal 1 damage to each ally you control.",
+		"attack_star": true,
 		"boost": 1,
-		"boost_text": "Deal 2 damage to an ally you control.",
+		"boost_star": true,
 		"code": "24044",
 		"faction_code": "encounter",
 		"health": 5,
@@ -764,12 +777,13 @@
 		"scheme": 2,
 		"set_code": "sinister_syndicate",
 		"set_position": 3,
+		"text": "[star] <b>Forced Response:</b> After Boomerang attacks you, deal 1 damage to each ally you control.\n<hr />\n[star] <b>Boost</b>: Deal 2 damage to an ally you control.",
 		"traits": "Criminal. Masters of Evil.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"boost_text": "Stun the character you control with the highest ATK value.",
+		"boost_star": true,
 		"code": "24045",
 		"faction_code": "encounter",
 		"health": 5,
@@ -782,13 +796,13 @@
 		"scheme": 1,
 		"set_code": "sinister_syndicate",
 		"set_position": 4,
-		"text": "<b>Forced Response:</b> After Shocker is attacked, stun the attacking character.",
+		"text": "<b>Forced Response:</b> After Shocker is attacked, stun the attacking character.\n<hr />\n[star] <b>Boost</b>: Stun the character you control with the highest ATK value.",
 		"traits": "Criminal. Masters of Evil.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"boost_text": "Discard the lowest-cost support you control.",
+		"boost_star": true,
 		"code": "24046",
 		"faction_code": "encounter",
 		"health": 3,
@@ -801,15 +815,15 @@
 		"scheme": 1,
 		"set_code": "sinister_syndicate",
 		"set_position": 5,
-		"text": "<b>Forced Interrupt:</b> When a character attacks Speed Demon, Speed Demon attacks that character. <i>(Resolve Speed Demon's attack first.)</i>",
+		"text": "<b>Forced Interrupt:</b> When a character attacks Speed Demon, Speed Demon attacks that character. <i>(Resolve Speed Demon's attack first.)</i>\n<hr />\n[star] <b>Boost</b>: Discard the lowest-cost support you control.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Interrupt:</b> When White Rabbit attacks you, discard 1 card at random from your hand.",
+		"attack_star": true,
 		"boost": 1,
-		"boost_text": "Choose and discard 1 identity-specific card from your hand.",
+		"boost_star": true,
 		"code": "24047",
 		"faction_code": "encounter",
 		"health": 3,
@@ -822,6 +836,7 @@
 		"scheme": 2,
 		"set_code": "sinister_syndicate",
 		"set_position": 6,
+		"text": "[star] <b>Forced Interrupt</b>: When White Rabbit attacks you, discard 1 card at random from your hand.\n<hr />\n[star] <b>Boost</b>: Choose and discard 1 identity-specific card from your hand.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
@@ -857,7 +872,7 @@
 	},
 	{
 		"boost": 1,
-		"boost_text": "Give the villain 1 additional boost card for this activation.",
+		"boost_star": true,
 		"code": "24050",
 		"faction_code": "encounter",
 		"name": "Dark Dealings",
@@ -867,7 +882,7 @@
 		"quantity": 2,
 		"set_code": "standard_ii",
 		"set_position": 2,
-		"text": "<b>When Revealed:</b> The villain schemes with +1 SCH.",
+		"text": "<b>When Revealed</b>: The villain schemes with +1 SCH.\n<hr />\n[star] <b>Boost</b>: Give the villain 1 additional boost card for this activation.",
 		"type_code": "treachery"
 	},
 	{
@@ -886,7 +901,7 @@
 	},
 	{
 		"boost": 2,
-		"boost_text": "Give the villain 1 additional boost card for this activation.",
+		"boost_star": true,
 		"code": "24052",
 		"faction_code": "encounter",
 		"name": "Overwhelming Force",
@@ -896,7 +911,7 @@
 		"quantity": 1,
 		"set_code": "standard_ii",
 		"set_position": 5,
-		"text": "<b>When Revealed:</b> Discard the highest-cost upgrade or support you control. If no card was discarded this way, this card gains surge.",
+		"text": "<b>When Revealed</b>: Discard the highest-cost upgrade or support you control. If no card was discarded this way, this card gains surge.\n<hr />\n[star] <b>Boost</b>: Give the villain 1 additional boost card for this activation.",
 		"type_code": "treachery"
 	},
 	{
@@ -916,7 +931,7 @@
 	},
 	{
 		"boost": 1,
-		"boost_text": "If the villain is attacking, this attack gains overkill.",
+		"boost_star": true,
 		"code": "24054",
 		"faction_code": "encounter",
 		"name": "Total Annihilation",
@@ -926,7 +941,7 @@
 		"quantity": 2,
 		"set_code": "standard_ii",
 		"set_position": 7,
-		"text": "Surge.\n<b>When Revealed (Hero)</b>: The villain attacks you. That attack gains overkill.",
+		"text": "Surge.\n<b>When Revealed (Hero)</b>: The villain attacks you. That attack gains overkill.\n<hr />\n[star] <b>Boost</b>: If the villain is attacking, this attack gains overkill.",
 		"type_code": "treachery"
 	},
 	{
@@ -997,7 +1012,7 @@
 		"type_code": "side_scheme"
 	},
 	{
-		"boost_text": "Resolve this card's \"<b>When Revealed</b>\" ability.",
+		"boost_star": true,
 		"code": "24059",
 		"faction_code": "encounter",
 		"name": "Citywide Crisis",
@@ -1007,7 +1022,7 @@
 		"quantity": 2,
 		"set_code": "state_of_emergency",
 		"set_position": 5,
-		"text": "<b>When Revealed:</b> Resolve each \"<b>When Revealed</b>\" ability on each side scheme in play. If no \"<b>When Revealed</b>\" ability was resolved this way, place 2 threat on each scheme.",
+		"text": "<b>When Revealed:</b> Resolve each \"<b>When Revealed</b>\" ability on each side scheme in play. If no \"<b>When Revealed</b>\" ability was resolved this way, place 2 threat on each scheme.\n<hr />\n[star] <b>Boost</b>: Resolve this card's \"<b>When Revealed</b>\" ability.",
 		"type_code": "treachery"
 	},
 	{
@@ -1090,7 +1105,7 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "24065",
 		"faction_code": "encounter",
@@ -1105,13 +1120,13 @@
 		"scheme": 2,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 2,
-		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>",
+		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>\n[star] While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 3,
-		"attack_text": "Bulldozer's attacks gain overkill.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "24066",
 		"faction_code": "encounter",
@@ -1126,7 +1141,7 @@
 		"scheme": 1,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 3,
-		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>",
+		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>\n[star] Bulldozer's attacks gain overkill.",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
@@ -1152,7 +1167,7 @@
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Response:</b> After Thunderball attacks you, deal 1 damage to each character you control.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "24068",
 		"faction_code": "encounter",
@@ -1167,13 +1182,13 @@
 		"scheme": 3,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 5,
-		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>",
+		"text": "Villainous. <i>(When this minion activates, give it a boost card.)</i>\n[star] <b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"boost": 1,
-		"boost_text": "For each [[Elite]] minion in play, this card gets +1 boost icon ([boost]) for this activation.",
+		"boost_star": true,
 		"code": "24069",
 		"faction_code": "encounter",
 		"name": "Combined Effort",
@@ -1183,7 +1198,7 @@
 		"quantity": 1,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 6,
-		"text": "<b>When Revealed:</b> Each [[Elite]] minion in play activates against the player it is engaged with. If no minion activated this way, this card gains surge.",
+		"text": "<b>When Revealed:</b> Each [[Elite]] minion in play activates against the player it is engaged with. If no minion activated this way, this card gains surge.\n<hr />\n[star] <b>Boost</b>: For each [[Elite]] minion in play, this card gets +1 boost icon ([boost]) for this activation.",
 		"type_code": "treachery"
 	},
 	{
