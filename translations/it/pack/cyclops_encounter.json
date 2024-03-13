@@ -1,30 +1,32 @@
 [
-	{
-		"code": "33027",
-		"name": "Lost Visor",
-		"text": "<b><i>Give to the Scott Summers player.</i></b>\nSearch your hand, deck, discard pile, and play area for Ruby Quartz Visor and place it facedown under this card.\nCyclops cannot attack.\n<b>Alter-Ego Action</b>: Exhaust Scott Summers → add Ruby Quartz Visor to your hand and remove Lost Visor from the game."
-	},
-	{
-		"boost_text": "You are stunned. If you are already stunned, take 2 damage.",
-		"code": "33028",
-		"name": "Mister Sinister",
-		"text": "Stalwart. Toughness. Villainous.",
-		"traits": "Elite. Marauder."
-	},
-	{
-		"code": "33029",
-		"name": "Genetic Manipulation",
-		"text": "<b>When Defeated</b>: Search the encounter deck and discard pile for Gene Therapy and reveal it. <i>(Shuffle.)</i>"
-	},
-	{
-		"attack_text": "<b>Forced Interrupt</b>: When attached enemy attacks, the attack gains overkill and piercing. At the end of this attack, discard Gene Therapy.",
-		"code": "33030",
-		"name": "Gene Therapy",
-		"text": "Attach to the enemy with the lowest printed ATK without a copy of Gene Therapy attached. Otherwise, this card gains surge."
-	},
-	{
-		"code": "33031",
-		"name": "Concussive Force",
-		"text": "<b>When Revealed (Alter-Ego)</b>: If Mister Sinister is in play, he schemes. Otherwise, place 2 threat on the main scheme.\n<b>When Revealed (Hero)</b>: If Mister Sinister is in play, he attacks you. Otherwise, take 2 damage."
-	}
+    {
+        "code": 33027,
+        "name": "Visore Smarrito",
+        "text": "<b><i>Fai ricevere al giocatore Scott Summers.</i></b>\nCerca nella tua mano, nel tuo mazzo, nella tua pila degli scarti e nella tua area di gioco Visore al Quarzo Rubino e collocalo a faccia in giù sotto questa carta.\nCiclope non può attaccare.\n<b>Azione Alter Ego</b>: Esaurisci Scott Summers → aggiungi Visore al Quarzo Rubino alla tua mano e rimuovi dal gioco Visore Smarrito."
+    },
+    {
+        "code": 33028,
+        "name": "Sinistro",
+        "text": "Criminoso. Robustezza. Stabile.",
+        "boost_text": "Sei stordito. Se eri già stordito, subisci 2 danni.",
+        "traits": "Elite. Marauder.",
+        "flavor": "\"Sono io a determinare il destino della razza mutante.\""
+    },
+    {
+        "code": 33029,
+        "name": "Manipolazione Genetica",
+        "text": "<b>Quando sconfitta</b>: Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta Terapia Genica e rivelala. <i>(Mescola.)</i>",
+        "flavor": "Sinistro sfrutta i geni dei mutanti per incrementare i suoi poteri."
+    },
+    {
+        "code": 33030,
+        "name": "Terapia Genica",
+        "text": "Assegna al nemico con meno ATT stampato senza altre Terapia Genica assegnate ad esso. Se non puoi farlo, questa carta ottiene Impulso.",
+        "attack_text": "<b>Interruzione Obbligata</b>: Quando il nemico con questa aggiunta attacca, l'attacco ottiene Perforante e Sopraffazione. Alla fine di questo attacco, scarta Terapia Genica."
+    },
+    {
+        "code": 33031,
+        "name": "Forza Concussiva",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Se Sinistro è in gioco, trama. Altrimenti, colloca 2 minacce sulla trama principale.\n<b>Quando Rivelata (Eroe)</b>: Se Sinistro è in gioco, ti attacca. Altrimenti, subisci 2 danni."
+    }
 ]
