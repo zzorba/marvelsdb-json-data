@@ -5,11 +5,9 @@
 		"text": "<b>Dale esta carta al jugador que lleva a Monica Rambeau.</b>\nNo puedes cambiar de identidad de energía.\n<b>Acción de Alter ego:</b> agota a Mónica Rambeau → retira del juego Pérdida de control."
 	},
 	{
-		"attack_text": "<b>Respuesta obligada:</b> después de que el Hombre Radiactivo se active contra ti, inflige 1 de Daño a cada personaje que controles.",
-		"boost_text": "<b>Aumento:</b> inflige 1 de Daño a cada personaje que controles.",
 		"code": "21027",
 		"name": "Hombre Radiactivo",
-		"scheme_text": "<b>Respuesta obligada:</b> después de que el Hombre Radiactivo se active contra ti, inflige 1 de Daño a cada personaje que controles.",
+		"text": "[star] <b>Respuesta obligada:</b> después de que el Hombre Radiactivo se active contra ti, inflige 1 de Daño a cada personaje que controles.\n<hr />\n[star] <b>Aumento:</b> inflige 1 de Daño a cada personaje que controles.",
 		"traits": "Élite. Genio."
 	},
 	{
@@ -35,24 +33,20 @@
 		"text": "<b>Dale esta carta al jugador que lleva a Adam Warlock.</b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n-Agota tu Alter ego → retira del juego Ciclo de regeneración.\n-Descarta las 5 primeras cartas de tu mazo. Coloca 1 de Amenaza sobre el Plan principal por cada aspecto distinto que se haya descartado de este modo. Descarta esta Obligación."
 	},
 	{
-		"attack_text": "<b>Respuesta obligada:</b> después de que El Magus se active contra ti, descarta las 5 primeras cartas de tu mazo.\n(Esbirro Archienemigo de Adam Warlock.)",
 		"code": "21067",
 		"name": "El Magus",
-		"scheme_text": "<b>Respuesta obligada:</b> después de que El Magus se active contra ti, descarta las 5 primeras cartas de tu mazo.",
-		"text": "Ataque veloz. Dureza.",
+		"text": "Ataque veloz. Dureza.\n[star] <b>Respuesta obligada:</b> después de que El Magus se active contra ti, descarta las 5 primeras cartas de tu mazo.\n(Esbirro Archienemigo de Adam Warlock.)",
 		"traits": "Élite. Místico."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> muestra esta carta.",
 		"code": "21068",
 		"name": "Iglesia Universal de la Verdad",
-		"text": "<b>Respuesta obligada:</b> después de que un jugador restablezca su mazo, agota al Superhéroe de ese jugador y atúrdelo."
+		"text": "<b>Respuesta obligada:</b> después de que un jugador restablezca su mazo, agota al Superhéroe de ese jugador y atúrdelo.\n<hr />\n[star] <b>Aumento:</b> muestra esta carta."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> pon en juego al Fanático de la Verdad enfrentado a ti.",
 		"code": "21069",
 		"name": "Fanático de la Verdad",
-		"text": "No puede quitarse Amenaza del Plan secundario \"Iglesia Universal de la Verdad\".",
+		"text": "No puede quitarse Amenaza del Plan secundario \"Iglesia Universal de la Verdad\".\n<hr />\n[star] <b>Aumento:</b> pon en juego al Fanático de la Verdad enfrentado a ti.",
 		"traits": "Místico"
 	},
 	{
@@ -162,7 +156,6 @@
 		"code": "21087",
 		"flavor": "\"Thanos ha reclutado a los mercenarios más peligrosos de la galaxia para formar la Orden Negra.\"",
 		"name": "La Orden Negra",
-		"scheme_text": "While a [[Black Order]] minion is in play, threat cannot be removed from this side scheme.",
 		"text": "Mientras haya en juego un Esbirro [[Orden Negra]], no podrá quitarse Amenaza de este Plan secundario."
 	},
 	{
@@ -171,28 +164,24 @@
 		"text": "<b>Cuando se muestre esta carta:</b> cada Esbirro que esté enfrentado a un juegador se activa contra ese jugador. Cada jugador que no esté enfrentado a un Esbirro busca un Esbirro [[Orden Negra]] en el mazo de Encuentros y en su pila de descartesm y lo pone en juego enfrentado a él. Baraja el mazo de Encuentros."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> dale al Villano una carta de Estado \"Duro\".",
 		"code": "21089",
 		"name": "Infantería de la Orden Negra",
-		"text": "Guardia.\n<b>Cuando se derrote esta carta:</b> dale al Villano una carta de Estado \"Duro\".",
+		"text": "Guardia.\n<b>Cuando se derrote esta carta:</b> dale al Villano una carta de Estado \"Duro\".\n<hr />\n[star] <b>Aumento:</b> dale al Villano una carta de Estado \"Duro\".",
 		"traits": "Orden Negra."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> descarta 1 carta de tu mano al azar.",
 		"code": "21090",
 		"flavor": "\"Los batidores son criaturas diseñadas genéticamente y sometidas por completo a la voluntad de su creador.\"",
 		"name": "Batidor",
-		"text": "<b>Cuando se muestre esta carta:</b> descarta 1 carta de tu mano al azar.",
+		"text": "<b>Cuando se muestre esta carta:</b> descarta 1 carta de tu mano al azar.\n<hr />\n[star] <b>Aumento:</b> descarta 1 carta de tu mano al azar.",
 		"traits": "Orden Negra."
 	},
 	{
 		"code": "21091",
 		"name": "Nave de desembarco",
-		"scheme_text": "<b>When Defeated:</b> Discard cards from the top of the encounter deck until a minion is discarded. Put that minion into play engaged with the player who defeated this scheme.",
 		"text": "<b>Cuando se derrote esta carta:</b> descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Esbirro. Pon en juego ese Esbirro enfrentado al jugador que haya derrotado este Plan."
 	},
 	{
-		"attack_text": "<b>Forced Interrupt:</b> When Proxima Midnight attacks you, choose to either deal 1 damage to Avenger's Tower, or Proxima Midnight gets +2 ATK for this attack.",
 		"code": "21092",
 		"name": "Medianoche Próxima",
 		"text": "[star] <b>Interrupción obligada:</b> cuando Medianoche Próxima te ataque, elige entre infligir 1 de Daño a la Torre de los Vengadores o bien que Medianoche Próxima reciba +2 ATQ para este ataque.\n<b>Medianoche Próxima no puede ser derrotada mientras a Corvus Glaive le quede Vida.</b>",
@@ -273,43 +262,37 @@
 		"traits": "Arma."
 	},
 	{
-		"boost_text": "<b>Interrupción obligada:</b> cuando el Villano vinculado ataque, ese ataque gana A distancia. Si ese ataque derrota a un Aliado, inflige 3 de Daño a la Torre de los Vengadores. Al final de ese ataque, descarta Asalto directo.",
 		"code": "21105",
 		"name": "Asalto directo",
-		"text": "Vincula esta carta al Villano que no sea el Villano activo.",
+		"text": "Vincula esta carta al Villano que no sea el Villano activo.\n[star] <b>Interrupción obligada:</b> cuando el Villano vinculado ataque, ese ataque gana A distancia. Si ese ataque derrota a un Aliado, inflige 3 de Daño a la Torre de los Vengadores. Al final de ese ataque, descarta Asalto directo.",
 		"traits": "Táctica."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> añade las puntuaciones de PLA y ATQ del otro Villano a las de este Villano para esta activación.",
 		"code": "21106",
 		"flavor": "\"¡En nombre de Thanos! ¡Muere!\" —Medianoche Próxima",
 		"name": "El poder de Medianoche",
-		"text": "<b>Cuando se muestre esta carta:</b> Medianoche Próxima se activa contra ti."
+		"text": "<b>Cuando se muestre esta carta:</b> Medianoche Próxima se activa contra ti.\n<hr />\n[star] <b>Aumento:</b> añade las puntuaciones de PLA y ATQ del otro Villano a las de este Villano para esta activación."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> añade las puntuaciones de PLA y ATQ del otro Villano a las de este Villano para esta activación.",
 		"code": "21107",
 		"flavor": "\"He aquí tu tributo, Thanos.\" —Corvus Glaive",
 		"name": "La astucia de Corvus",
-		"text": "<b>Cuando se muestre esta carta:</b> Corvus Glaive se activa contra ti."
+		"text": "<b>Cuando se muestre esta carta:</b> Corvus Glaive se activa contra ti.\n<hr />\n[star] <b>Aumento:</b> añade las puntuaciones de PLA y ATQ del otro Villano a las de este Villano para esta activación."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> cura 2 de Daño al Villano activo y dale una carta de Estado \"Duro\".",
 		"code": "21108",
 		"name": "Lazos de sangre",
-		"text": "<b>Cuando se muestre esta carta:</b> cura 2 de Daño a cada Villano. Dale a cada Villano una carta de Estado \"Duro\"."
+		"text": "<b>Cuando se muestre esta carta:</b> cura 2 de Daño a cada Villano. Dale a cada Villano una carta de Estado \"Duro\".\n<hr />\n[star] <b>Aumento:</b> cura 2 de Daño al Villano activo y dale una carta de Estado \"Duro\"."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> si el Daño causado por este ataque derrota a un Aliado, inflige 3 de Daño a la Torre de los Vengadores.",
 		"code": "21109",
 		"name": "Lluvia de fuego",
-		"text": "<b>Cuando se muestre esta carta:</b> inflige 3 de Daño a la Torre de los Vengadores."
+		"text": "<b>Cuando se muestre esta carta:</b> inflige 3 de Daño a la Torre de los Vengadores.\n<hr />\n[star] <b>Aumento:</b> si el Daño causado por este ataque derrota a un Aliado, inflige 3 de Daño a la Torre de los Vengadores."
 	},
 	{
 		"code": "21110",
 		"flavor": "\"Corvus ha ordenado a un regimiento de sus tropas que ataquen la ciudad de Nueva York para hacer salir a los Vengadores.\"",
 		"name": "Atacan la ciudad",
-		"scheme_text": "Hinder 1[per_hero].\n<b>When Defeated:</b> The player who defeated this scheme draws 1 card.",
 		"text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan roba 1 carta."
 	},
 	{
@@ -336,7 +319,6 @@
 		"code": "21114",
 		"flavor": "\"Thanos ha reunido las seis Gemas del Infinito y las ha encajado en el Guantelete del Infinito. Ya no le resta más que aprender a dominar su poder para llevar a cabo su plan genocida.\"",
 		"name": "Las Gemas del Infinito",
-		"scheme_text": "<b>Contents:</b> Thanos I and Thanos II <i>(Thanos II and Thanos III for expert mode)</i>. Thanos, Infinity Gaultlet and Standard sets. Two modular sets <i>(Black Order and Children of Thanos)</i>. See rules insert for The Infinity Gauntlet rules.",
 		"text": "<b>Cuando se muestre esta carta:</b> pon en juego la primera carta de la parte superior del mazo de [[Gema del infinito]]. Busca en el mazo de Encuentros el Plan secundario \"Santuario\" y muéstralo. <i>(Baraja el mazo de Encuentros.)</i>"
 	},
 	{
@@ -344,13 +326,11 @@
 		"code": "21115",
 		"flavor": "\"Con sólo chasquear los dedos, Thanos ha exterminado a la mitad de todos los seres vivos del universo. Si lográis arrebatar el Guantelete al titán loco, quizá podáis utilizar su poder para revertir esta tragedia. Pero si fracasáis, no quedará nadie capaz de hacerle frente.\"",
 		"name": "Equilibrar la balanza",
-		"scheme_text": "<b>When Revealed:</b> Each player shuffles their discard pile into their deck. Each player removes the top half of their deck (rounded down) from the game.",
 		"text": "<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
 	},
 	{
 		"code": "21116",
 		"name": "Sanctuary",
-		"scheme_text": "Hinder 1[per_hero]. Victory 1.\n Thanos cannot take damage.<b> When Defeated:</b> Each player may spend up to 3 [physical] resources from their hand. Deal 2 damage to Thanos for each [physical] resource spent this way. This damage ignores the tough status card.",
 		"text": "Complicación 1[per_hero]. Victoria 1.\nThanos no puede sufrir Daño.\n<b>Cuando se derrote esta carta:</b> cada jugador puede gastar hasta 3 recursos [physical] de su mano. Inflige 2 de Daño a Thanos por cada recurso [physical] que se haya gastado de este modo. Este Daño ignora la carta de Estado \"Duro\"."
 	},
 	{
@@ -378,53 +358,46 @@
 		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> Thanos ejecuta el Plan.\n<b>Cuando se muestre esta carta (Héroe):</b> Thanos te ataca. Ese ataque gana Brutalidad y Penetrante."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> dale a Thanos una carta de Estado \"Duro\".",
 		"code": "21121",
 		"name": "Sindrome desviante",
-		"text": "Incitar 1.\n<b>Cuando se muestre esta carta:</b> dale a Thanos una carta de Estado \"Duro\". Si no puedes hacerlo, coloca 2 de Amenaza sobre el Plan principal."
+		"text": "Incitar 1.\n<b>Cuando se muestre esta carta:</b> dale a Thanos una carta de Estado \"Duro\". Si no puedes hacerlo, coloca 2 de Amenaza sobre el Plan principal.\n<hr />\n[star] <b>Aumento:</b> dale a Thanos una carta de Estado \"Duro\"."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> descarta la primera carta de la parte superior del mazo de [[Gema del infinito]]. Aplica sus iconos de Aumento ([boost]) en esta activación como si fuese una carta de aumento.",
 		"code": "21122",
 		"name": "\"Yo soy inevitable\"",
-		"text": "<b>Cuando se muestre esta carta:</b> dale a Thanos 1 carta de aumento boca abajo."
+		"text": "<b>Cuando se muestre esta carta:</b> dale a Thanos 1 carta de aumento boca abajo.\n<hr />\n[star] <b>Aumento:</b> descarta la primera carta de la parte superior del mazo de [[Gema del infinito]]. Aplica sus iconos de Aumento ([boost]) en esta activación como si fuese una carta de aumento."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> si el Daño causado por este ataque derrota a un Aliado, pon en juego la primera carta de la parte superior del mazo de [[Gema del infinito]].",
 		"code": "21123",
 		"flavor": "\"¡Soy Thanos! Y tú... no eres nada.\" —Thanos",
 		"name": "El titán loco",
-		"text": "<b>Cuando se muestre esta carta:</b> pon en juego la primera carta de la parte superior del mazo de [[Gema del infinito]]."
+		"text": "<b>Cuando se muestre esta carta:</b> pon en juego la primera carta de la parte superior del mazo de [[Gema del infinito]].\n<hr />\n[star] <b>Aumento:</b> si el Daño causado por este ataque derrota a un Aliado, pon en juego la primera carta de la parte superior del mazo de [[Gema del infinito]]."
 	},
 	{
-		"boost_text": "If damage from this attack defeats an ally, put the top card of the [[infinity stone]] deck into play.",
 		"code": "21124",
 		"flavor": "\"Desde su salón del trono en las profundidades de Santuario, Thanos urde un plan para destruir todo lo que existe.\"",
 		"name": "El trono del titán",
 		"text": "<b>Cuando se derrote esta carta:</b> elige una [[Gema del infinito]] y descártala del juego."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> descarta un Aliado o Apoyo que controles.",
 		"code": "21125",
 		"flavor": "\"Soy el sirviente de mi amo, Thanos, un destructor de mundos. Soy uno de los cinco, Corvus Glaive.\"",
 		"name": "Corvus Glaive",
-		"text": "Represalia 1. Dureza.",
+		"text": "Represalia 1. Dureza.\n<hr />\n[star] <b>Aumento:</b> descarta un Aliado o Apoyo que controles.",
 		"traits": "Orden Negra. Élite."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> descarta un Aliado o Mejora que controles.",
 		"code": "21126",
 		"flavor": "\"Luchad, corred, someteos; nada de eso importará. Ahora este mundo pertenece a Thanos.\"",
 		"name": "Medianoche Próxima",
-		"text": "[star] Los ataques de Medianoche Próxima ganan Penetrante.",
+		"text": "[star] Los ataques de Medianoche Próxima ganan Penetrante.\n<hr />\n[star] <b>Aumento:</b> descarta un Aliado o Mejora que controles.",
 		"traits": "Orden Negra. Élite."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> dale a este enemigo 1 carta de aumento adicional.",
 		"code": "21127",
 		"flavor": "\"Deja de imaginar terribles finales para el mundo... porque uno muy real llegará muy pronto.\"",
 		"name": "Fauces Negras",
-		"text": "Infame. <i>(Cuando este Esbirro se active, dale una carta de aumento.)</i>",
+		"text": "Infame. <i>(Cuando este Esbirro se active, dale una carta de aumento.)</i>\n<hr />\n[star] <b>Aumento:</b> dale a este enemigo 1 carta de aumento adicional.",
 		"traits": "Orden Negra. Élite."
 	},
 	{
@@ -513,7 +486,6 @@
 		"code": "21138",
 		"flavor": "\"Para rescatar a Odín, debéis emprender un peligroso viaje a través de Hel.\"",
 		"name": "El tormento de Odín",
-		"scheme_text": "<b> Contents: </b> Villain deck Hela A (Hela Be instead for expert mode). Hela and standard sets. Two modular encounter sets (Legions of Hel and Frost Giants).\n <b> Setup: </b> Attach Odin to the main scheme, [[captive]] side faceup. Reveal Gnipahellir and Garm. Set Gjallerbru, Skurge, Hall of Nastrond, and Nidhogg aside, out of play. Shuffle the encounter deck.",
 		"text": "<b>Interrupción obligada:</b> cuando Hela vaya a ser derrotada, si Odín está vinculado a este Plan, en vez de eso descarta todos los Accesorios vinculados a Hela y dale la vuelta para poner boca arriba su cara de [[Herido]]\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
 	},
 	{
@@ -533,19 +505,16 @@
 	{
 		"code": "21140",
 		"name": "Gnipahellir",
-		"scheme_text": "Hinder 1[per_hero]. Victory 2.\n <b> When Defeated: </b> The first player reveals Gjallerbru and Skurg, and puts them into play. Deal each other player 1 facedown encounter card.",
 		"text": "Complicación 1[per_hero]. Victoria 2.\n<b>Cuando se derrote esta carta:</b> el jugador inicial muestra Gjallerbru y a Skurge, y los pone en juego. Dales a los demás jugadores 1 carta de Encuentro boca abajo a cada uno."
 	},
 	{
 		"code": "21141",
 		"name": "Salón de Nastrond",
-		"scheme_text": "Hinder 1[per_hero]. Victory 4.\n <b> When Defeated: </b> The first player detaches Odin from the main scheme and takes control of him. Deal each player 1 facedown encounter card.",
 		"text": "Complicación 1[per_hero]. Victoria 4.\n<b>Cuando se derrote esta carta:</b> el jugador inicial desvincula a Odín del Plan principal y toma el control de su carta. Dale 1 carta de Encuentro boca abajo a cada uno."
 	},
 	{
 		"code": "21142",
 		"name": "Gjallerbru",
-		"scheme_text": "Hinder 1[per_hero]. Victory 3.\n <b> When Defeated: </b> The first player reveals Hall of Nastrond and Nidhogg, and puts them into play. Deal each other player 1 facedown encounter card.",
 		"text": "Complicación 1[per_hero]. Victoria 3.\n<b>Cuando se derrote esta carta:</b> el jugador inicial muestra el Saón de Nastrond y a Nidhogg, y los pone en juego. Dales a los demás jugadores 1 carta de Encuentro boca abajo a cada uno."
 	},
 	{
@@ -556,47 +525,41 @@
 		"traits": "Criatura. Élite."
 	},
 	{
-		"attack_text": "Skurge's attacks gain piercing.",
 		"code": "21144",
 		"name": "Skurge",
 		"text": "Dureza. Victoria 3.\nSkurge se enfrenta al jugador inicial.\n[star] Los ataques de Skurge ganan Penetrante.\n<b>No puede quitarse Amenaza de Gjallerbru.</b>",
 		"traits": "Asgard. Élite."
 	},
 	{
-		"attack_text": "Nidhogg's attacks gain overkill.",
 		"code": "21145",
 		"name": "Nidhogg",
 		"text": "Dureza. Victoria 4.\nNidhogg se enfrenta al jugador inicial.\n[star] Los ataques de Nidhogg ganan Brutalidad.\n<b>No puede quitarse Amenaza del Salón de Nastrond.</b>",
 		"traits": "Criatura. Élite."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> vincula la Espada Nocturna a Hela.",
 		"code": "21146",
 		"flavor": "\"Muchos héroes han sucumbido víctimas de Hela y su espada maldita.\"",
 		"name": "Espada Nocturna",
-		"text": "Vincula esta carta a Hela.\n[star] Los ataques de Hela ganan Penetrante.",
+		"text": "Vincula esta carta a Hela.\n[star] Los ataques de Hela ganan Penetrante.\n<hr />\n[star] <b>Aumento:</b> vincula la Espada Nocturna a Hela.",
 		"traits": "Arma."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> vincula la Corona de Hela a Hela.",
 		"code": "21147",
 		"name": "Corona de Hela",
-		"text": "Vincula esta carta a Hela.\n[star] <b>Respuesta obligada:</b> después de que Hela ejecute el Plan, dale una carta de aumento boca abajo.",
+		"text": "Vincula esta carta a Hela.\n[star] <b>Respuesta obligada:</b> después de que Hela ejecute el Plan, dale una carta de aumento boca abajo.\n<hr />\n[star] <b>Aumento:</b> vincula la Corona de Hela a Hela.",
 		"traits": "Objeto."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> vincula la Capa de Hela a Hela.",
 		"code": "21148",
 		"flavor": "\"¡Hela no es una guerrera ordinaria, y las mías no son armas ordinarias!\" —Hela",
 		"name": "Capa de Hela",
-		"text": "Vincula esta carta a Hela.\nHela gana Firmeza.",
+		"text": "Vincula esta carta a Hela.\nHela gana Firmeza.\n<hr />\n[star] <b>Aumento:</b> vincula la Capa de Hela a Hela.",
 		"traits": "Armadura."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> si el Daño causado por este ataque derrota a un Aliado, coloca 2 de Amenaza sobre el Plan principal.",
 		"code": "21149",
 		"name": "Los dominios de Hela",
-		"text": "<b>Cuando se muestre esta carta:</b> coloca 1 de Amenaza sobre el Plan principal. Coloca 1 de Amenaza adicional sobre el Plan principal por cada Plan secundario que haya en la zona de victoria."
+		"text": "<b>Cuando se muestre esta carta:</b> coloca 1 de Amenaza sobre el Plan principal. Coloca 1 de Amenaza adicional sobre el Plan principal por cada Plan secundario que haya en la zona de victoria.\n<hr />\n[star] <b>Aumento:</b> si el Daño causado por este ataque derrota a un Aliado, coloca 2 de Amenaza sobre el Plan principal."
 	},
 	{
 		"code": "21150",
@@ -604,10 +567,9 @@
 		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> Hela ejecuta el Plan. Coloca 1 de Amenaza sobre cada Plan secundario.\n<b>Cuando se muestre esta carta (Héroe):</b> Hela te ataca. Coloca 1 de Amenaza sobre cada Plan secundario."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> esta carta gana tantos iconos de Aumento ([boost]) como el número de Planes secundarios que haya en la zona de victoria.",
 		"code": "21151",
 		"name": "Yermo helado de Niffleheim",
-		"text": "<b>Cuando se muestre esta carta:</b> sufres 1 de Daño indirecto. Sufres 1 de Daño indirecto adicional por cada Plan secundario que haya en la zona de victoria."
+		"text": "<b>Cuando se muestre esta carta:</b> sufres 1 de Daño indirecto. Sufres 1 de Daño indirecto adicional por cada Plan secundario que haya en la zona de victoria.\n<hr />\n[star] <b>Aumento:</b> esta carta gana tantos iconos de Aumento ([boost]) como el número de Planes secundarios que haya en la zona de victoria."
 	},
 	{
 		"code": "21152",
@@ -631,7 +593,6 @@
 		"code": "21155",
 		"flavor": "\"Con cada soldado que cae en combate, las huestes de Hel engrosan su número.\"",
 		"name": "Legiones de Hel",
-		"scheme_text": "<b> When Revealed: </b> Place 2 additional threat here for each [[undead]] minion in play. If there are no [[undead]] minions in play, this card gains surge.",
 		"text": "<b>Cuando se muestre esta carta:</b> coloca 2 de Amenaza adicional sobre esta carta por cada Esbirro [[No muerto]] que haya en juego. Si no hay Esbirros [[No muerto]] en juego, esta carta gana Oleada."
 	},
 	{
@@ -642,10 +603,9 @@
 		"traits": "Élite. Gigante."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> si el Villano está atacando y este ataque inflige Daño a un personaje, aturde a ese personaje.",
 		"code": "21157",
 		"name": "Gigante de hielo",
-		"text": "Dureza. <i>(Este personaje entra en juego con una carta de Estado \"Duro\".)</i>",
+		"text": "Dureza. <i>(Este personaje entra en juego con una carta de Estado \"Duro\".)</i>\n<hr />\n[star] <b>Aumento:</b> si el Villano está atacando y este ataque inflige Daño a un personaje, aturde a ese personaje.",
 		"traits": "Gigante."
 	},
 	{
@@ -659,7 +619,6 @@
 		"code": "21159",
 		"flavor": "\"El letal frío de Jotunheim es capaz de congelar los héroes más resistentes.\"",
 		"name": "Tormenta antinatural",
-		"scheme_text": "Heroes and allies cannot be readied by player card effects.\n<b> When Revealed:</b> Exhaust each ally in play.",
 		"text": "Ni Héroes ni Aliados pueden prepararse mediante efectos de cartas de Jugador.\n<b>Cuando se muestre esta carta:</b> agota todos los Aliados que estén en juego."
 	},
 	{
@@ -690,7 +649,6 @@
 		"traits": "Asgard. Místico."
 	},
 	{
-		"attack_text": "Loki's attacks gain piercing.",
 		"code": "21164",
 		"name": "Loki",
 		"text": "Victoria 1.\n[star] Los ataques de Loki ganan Penetrante.\n<b>Cuando se derrote esta carta:</b> descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Plan secundario. Muestra ese Plan secundario.",
@@ -700,49 +658,42 @@
 		"back_text": "<b>Contenido:</b> Conjuntos de Encuentros de Loki, Guantelete del Infinito y Normal. Dos conjuntos de Encuentros modulares <i>(Encantadora y Gigantes de hielo).</i>\n<b>Preparación:</b> aparta todas las copias del Villano Loki a un lado, fuera del juego. Pon en juego el Plan secundario \"Guerra en Asgard\". Baraja el mazo de Encuentros. Muestra 1 de los Villanos Loki apartados (elegido al azar). Muestra la primera carta de la parte superior del mazo de [[Gema del infinito]].",
 		"code": "21165",
 		"name": "Alabado sea el rey Loki",
-		"scheme_text": "<b> Contents: <b> Loki, infinity Gauntlet, and standard encounter sets. Two modular encounter sets. (Enchantress and Frost Giants).\n <b> Setup: </b> Set each copy of the Loki villain aside, out of play. Put the War in asgard side scheme into play. Shuffle the encounter deck. Reveal 1 set-aside Loki villain at random. Reveal the top card of the [[infinity stone]] deck.",
 		"text": "<b>Interrupción obligada:</b> cuando Loki sea derrotado, se avanza a uno de los Villanos Loki apartados (elegido al azar).\n<b>Si el número de Lokis que hay en la zona de victoria es igual a la condición de victoria, los jugadores ganan la partida (ver cuaderno de reglas). Si se completa esta etapa, los jugadores pierden la partida.</b>"
 	},
 	{
 		"code": "21166",
 		"flavor": "\"Mientras saqueaba la armería de Odín, Loki ha encontrado el arma ancestral de los gigantes de hielo.\"",
 		"name": "Cofre de los Antiguos Inviernos",
-		"scheme_text": "Hinder 1[per_hero]\n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"text": "Complicación 1[per_hero],\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar)."
 	},
 	{
 		"code": "21167",
 		"flavor": "\"Los seguidores de Loki combaten a quienes aún se mantienen leales a Odín.\"",
 		"name": "Guerra en Asgard",
-		"scheme_text": "Hinder 1[per_hero]\n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar)."
 	},
 	{
 		"code": "21168",
 		"flavor": "\"El dios de las mentiras siembra el caos en la Tierra por mera diversión.\"",
 		"name": "Locura en Midgard",
-		"scheme_text": "Hinder 1[per_hero]\n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar)."
 	},
 	{
 		"code": "21169",
 		"flavor": "\"Loki utiliza el Bifrost para desplegar sus fuerzas a lo largo y ancho de los Nueve Reinos.\"",
 		"name": "Abrir el Bifrost",
-		"scheme_text": "Hinder 1[per_hero]\n <b> When Defeated: </b> Reveal the top card of the [[infinity stone]] deck. Swap Loki with a random set-aside Loki villain.",
 		"text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta:</b> muestra la primera carta de la parte superior del mazo de [[Gema del infinito]]. Intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar)."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> vincula esta carta a Loki.",
 		"code": "21170",
 		"name": "Bastón de Loki",
-		"text": "Vincula esta carta a Loki.\n<b>Respuesta de Héroe:</b> después de que realices un ataque básico contra Loki, gasta recursos [energy][physical] → descarta esta carta.",
+		"text": "Vincula esta carta a Loki.\n<b>Respuesta de Héroe:</b> después de que realices un ataque básico contra Loki, gasta recursos [energy][physical] → descarta esta carta.\n<hr />\n[star] <b>Aumento:</b> vincula esta carta a Loki.",
 		"traits": "Arma."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> vincula esta carta a Loki.",
 		"code": "21171",
 		"name": "Corona de Loki",
-		"text": "Vincula esta carta a Loki.\n<b>Respuesta de Héroe:</b> después de que realices un ataque básico contra Loki, gasta recursos [mental][physical] → descarta esta carta.",
+		"text": "Vincula esta carta a Loki.\n<b>Respuesta de Héroe:</b> después de que realices un ataque básico contra Loki, gasta recursos [mental][physical] → descarta esta carta.\n<hr />\n[star] <b>Aumento:</b> vincula esta carta a Loki.",
 		"traits": "Objeto."
 	},
 	{
@@ -764,16 +715,14 @@
 		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> quedas aturdido. Si ya estabas aturdido, coloca 2 de Amenaza sobre el Plan princiapl.\n<b>Cuando se muestre esta carta (Héroe):</b> quedas aturdido. Si ya estabas aturdido, sufres 2 de Daño."
 	},
 	{
-		"boost_text": "descarta la primera carta de la parte superior del mazo de [[Gema del infinito]]. Aplica sus iconos de Aumento ([boost]) en esta activación como si fuese una carta de aumento.",
 		"code": "21175",
 		"name": "Mentira infinita",
-		"text": "<b>Cuando se muestre esta carta:</b> baraja el mazo de [[Gema del infinito]] junto con su pila de descartes y muestra la primera carta de la parte superior."
+		"text": "<b>Cuando se muestre esta carta:</b> baraja el mazo de [[Gema del infinito]] junto con su pila de descartes y muestra la primera carta de la parte superior.\n<hr />\n[star] <b>Boost</b>: descarta la primera carta de la parte superior del mazo de [[Gema del infinito]]. Aplica sus iconos de Aumento ([boost]) en esta activación como si fuese una carta de aumento."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> dale a Loki una carta de aumento adicional y una carta de Estado \"Duro\".",
 		"code": "21176",
 		"name": "El Embaucador",
-		"text": "<b>Cuando se muestre esta carta:</b> intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar). Loki se activa contra ti."
+		"text": "<b>Cuando se muestre esta carta:</b> intercambia a Loki por uno de los Villanos Loki apartados (elegido al azar). Loki se activa contra ti.\n<hr />\n[star] <b>Aumento:</b> dale a Loki una carta de aumento adicional y una carta de Estado \"Duro\"."
 	},
 	{
 		"code": "21177",
