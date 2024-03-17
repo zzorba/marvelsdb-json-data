@@ -1,7 +1,7 @@
 [
 	{
 		"attack": 3,
-		"boost_text": "Put Ronan the Accuser into play engaged with you.",
+		"boost_star": true,
 		"code": "90001",
 		"faction_code": "encounter",
 		"health": 9,
@@ -15,13 +15,13 @@
 		"scheme": 3,
 		"set_code": "kree_fanatic",
 		"set_position": 1,
-		"text": "Toughness.\nRonan the Accuser cannot be stunned.\n<b>Forced Interrupt</b>: When the villain phase begins, Ronan the Accuser engages the hero with the fewest remaining hit points.",
+		"text": "Toughness.\nRonan the Accuser cannot be stunned.\n<b>Forced Interrupt</b>: When the villain phase begins, Ronan the Accuser engages the hero with the fewest remaining hit points.\n<hr />\n[star] <b>Boost</b>: Put Ronan the Accuser into play engaged with you.",
 		"traits": "Accuser Corps. Elite. Kree.",
 		"type_code": "minion"
 	},
 	{
 		"base_threat": 3,
-		"boost_text": "Put Judge, Jury, Executioner into play.",
+		"boost_star": true,
 		"code": "90002",
 		"faction_code": "encounter",
 		"name": "Judge, Jury, Executioner",
@@ -32,11 +32,11 @@
 		"scheme_acceleration": 1,
 		"set_code": "kree_fanatic",
 		"set_position": 2,
-		"text": "<b>Forced Response</b>: After a friendly character is defeated by an enemy attack, place 2 threat on the main scheme.",
+		"text": "<b>Forced Response</b>: After a friendly character is defeated by an enemy attack, place 2 threat on the main scheme.\n<hr />\n[star] <b>Boost</b>: Put Judge, Jury, Executioner into play.",
 		"type_code": "side_scheme"
 	},
 	{
-		"boost_text": "Attach to your identity.",
+		"boost_star": true,
 		"code": "90003",
 		"faction_code": "encounter",
 		"name": "The Accused",
@@ -46,13 +46,13 @@
 		"quantity": 1,
 		"set_code": "kree_fanatic",
 		"set_position": 3,
-		"text": "Attach to your identity.\n<b>Forced Interrupt</b>: When an enemy initiates an attack against the attached identity, that enemy gets +1 ATK for the attack.\n<b>Forced Response</b>: After Ronan the Accuser is defeated, discard this card.",
+		"text": "Attach to your identity.\n<b>Forced Interrupt</b>: When an enemy initiates an attack against the attached identity, that enemy gets +1 ATK for the attack.\n<b>Forced Response</b>: After Ronan the Accuser is defeated, discard this card.\n<hr />\n[star] <b>Boost</b>: Attach to your identity.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
 	{
 		"boost": 3,
-		"boost_text": "If this activation defeats a character, deal the first player 1 facedown encounter card.",
+		"boost_star": true,
 		"code": "90004",
 		"faction_code": "encounter",
 		"name": "Bring the Hammer Down",
@@ -62,12 +62,12 @@
 		"quantity": 2,
 		"set_code": "kree_fanatic",
 		"set_position": 4,
-		"text": "<b>When Revealed</b>: Ronan the Accuser activates against the player he is engaged with. If Ronan the Accuser is not in play, this card gains surge.",
+		"text": "<b>When Revealed</b>: Ronan the Accuser activates against the player he is engaged with. If Ronan the Accuser is not in play, this card gains surge.\n<hr />\n[star] <b>Boost</b>: If this activation defeats a character, deal the first player 1 facedown encounter card.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 2,
-		"boost_text": "If this activation is an attack, that attack gains overkill.",
+		"boost_star": true,
 		"code": "90005",
 		"faction_code": "encounter",
 		"name": "You Dare Oppose Me?",
@@ -77,7 +77,7 @@
 		"quantity": 2,
 		"set_code": "kree_fanatic",
 		"set_position": 6,
-		"text": "<b>When Revealed</b>: Discard the top 5 cards of the encounter deck. Each time a card belonging to the Kree Fanatic set is discarded this way, deal that card to yourself as a facedown encounter card.",
+		"text": "<b>When Revealed</b>: Discard the top 5 cards of the encounter deck. Each time a card belonging to the Kree Fanatic set is discarded this way, deal that card to yourself as a facedown encounter card.\n<hr />\n[star] <b>Boost</b>: If this activation is an attack, that attack gains overkill.",
 		"type_code": "treachery"
 	}
 ]
