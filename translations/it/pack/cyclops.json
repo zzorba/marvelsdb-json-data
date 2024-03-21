@@ -1,168 +1,189 @@
 [
-	{
-		"code": "33001a",
-		"name": "Cyclops",
-		"text": "<i>Optic Blast</i> - <b>Action</b> <i>(attack)</i>: Spend one resource of any type → deal 3 damage to an enemy with an upgrade attached. (Limit once per round).",
-		"traits": "X-Men."
-	},
-	{
-		"code": "33001b",
-		"name": "Scott Summers",
-		"text": "You may include [[X-MEN]] allies from any aspect in your deck.\n<i>Constant Training</i> - <b>Action</b>: Search your deck for a [[TACTIC]] upgrade and add it to your hand. (Limit once per round).",
-		"traits": "Mutant."
-	},
-	{
-		"code": "33002",
-		"name": "Phoenix",
-		"subname": "Jean Grey",
-		"text": "<b>Response</b>: After Phoenix enters play, choose a Cyclops card in your discard pile and add it to your hand.",
-		"traits": "Psionic. X-Men."
-	},
-	{
-		"code": "33003",
-		"name": "Ruby Quartz Visor",
-		"text": "<b>Hero Resource</b>: Exhaust this card → generate a [energy] resource for your <i>\"Optic Blast\"</i> ability. That attack gains piercing and ranged.",
-		"traits": "Item."
-	},
-	{
-		"code": "33004",
-		"name": "Field Commander",
-		"text": "You take the first turn during player phase. <i>(When your turn is done, play proceeds in player order, starting with the first player. You do not take another turn.)</i>\nEach Cyclops upgrade attached to a minion loses the temporary keyword.",
-		"traits": "Title."
-	},
-	{
-		"code": "33005",
-		"name": "Exploit Weakness",
-		"text": "Attach to an enemy. Max 1 per enemy.\nTemporary.\nIncrease the amount of damage attached enemy takes from each attack by 1.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "33006",
-		"name": "Practiced Defense",
-		"text": "Attach to an enemy. Max 1 per enemy.\nTemporary.\nAttached enemy gets -1 ATK.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "33007",
-		"name": "Priority Target",
-		"text": "Attach to an enemy. Max 1 per enemy.\nTemporary.\n<b>Interrupt</b>: When attached enemy is defeated, the player who defeated it draws 2 cards.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "33008",
-		"name": "Full Blast",
-		"text": "<b>Hero Interrupt</b>: When you use your <i>\"Optic Blast\"</i> ability, exhaust Cyclops → this attack deals 8 additional damage and gains overkill.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "33009",
-		"name": "Rocket Beam",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 3 damage to an enemy. Deal 3 damage to an enemy with an upgrade attached.",
-		"traits": "Attack. Superpower."
-	},
-	{
-		"code": "33010",
-		"name": "Tactical Brillance",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. Choose a [[TACTIC]] card in your discard pile and add it to your hand.",
-		"traits": "Thwart."
-	},
-	{
-		"code": "33011",
-		"name": "Beast",
-		"subname": "Hank Mccoy",
-		"text": "<b>Response</b>: After Beast enters play, search your deck and discard pile for a resource card and add it to your hand. <i>(Shuffle.)</i>",
-		"traits": "Genius. X-Men."
-	},
-	{
-		"code": "33012",
-		"name": "Dust",
-		"subname": "Sooraya Qadir",
-		"text": "[star] <b>Interrupt</b>: When Dust attacks a minion, she attacks each minion in play. Dust takes +1 consequential damage ([consequential]) after this attack.",
-		"traits": "X-Men."
-	},
-	{
-		"code": "33013",
-		"name": "Rockslide",
-		"subname": "Santo Vaccarro",
-		"text": "Retaliate 1.",
-		"traits": "X-Men."
-	},
-	{
-		"code": "33014",
-		"name": "Blindfold",
-		"subname": "Ruth Aldine",
-		"text": "<b>Response</b>: After Blindfold enters play, look at the top 5 cards of the encounter deck. Discard 1 of those cards and put the rest back in the same order.",
-		"traits": "Psionic. X-Men."
-	},
-	{
-		"code": "33015",
-		"name": "Danger Room Training",
-		"text": "Attach to an [[X-MEN]] ally. Max 1 [[TRAINING]] upgrade per ally.\nAttached ally gets +1 THW, +1 ATK and +1 hit point.",
-		"traits": "Training."
-	},
-	{
-		"code": "33016",
-		"name": "Coordinated Attack",
-		"text": "Attach to an minion. Max 1 per minion.\nEach ally takes -1 consequential damage ([consequential]) when attacking attached minion.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "33018",
-		"name": "Effective Leadership",
-		"text": "Max 2 per deck.\n<b>Interrupt</b>: When you spend this card to play an ally, that ally gets +1 THW and +1 ATK until the end of the phase."
-	},
-	{
-		"code": "33019",
-		"name": "Angel",
-		"subname": "Warren Worthington III",
-		"text": "Reduce the cost to play Angel by 1 if your identity has the [[MUTANT]] or [[X-MEN]] trait.",
-		"traits": "Aerial. X-Men."
-	},
-	{
-		"code": "33020",
-		"name": "Utopia",
-		"text": "If each of your allies has the [[X-MEN]] trait, increase your ally limit by 1.",
-		"traits": "Location. X-Men."
-	},
-	{
-		"code": "33021",
-		"name": "Danger Room",
-		"text": "<b>Alter-Ego Response</b>: After an [[X-MEN]] ally enters play, exhaust Danger Room → search your deck and discard pile for a [[TRAINING]] upgrade and attach it to that ally. Any player whose alter-ego has the [[MUTANT]] trait may trigger this ability.",
-		"traits": "Location. X-Men."
-	},
-	{
-		"code": "33022",
-		"name": "Game Time",
-		"text": "<b>Hero Action</b>: Choose an ally with a [[TRAINING]] upgrade attached → ready that ally and heal 1 damage from it.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "33023",
-		"name": "Psychic Rapport",
-		"text": "Team-Up (Cyclops and  Phoenix). Max 1 per deck.\n<b>Hero Action</b>: Ready Cyclops and Phoenix. Choose to either return a Cyclops card from your discard pile to your hand or place 2 power counters on Phoenix Force."
-	},
-	{
-		"code": "33032",
-		"name": "Marked",
-		"text": "Attach to an minion. Max 1 per minion.\nAttacks against attached minion gain overkill.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "33033",
-		"name": "Befuddle",
-		"text": "Attach to an minion. Max 1 per minion.\n<b>Interrupt</b>: When a character makes a basic attack against attached minion, that character uses THW instead of their ATK.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "33034",
-		"name": "Pinned Down",
-		"text": "Attach to an minion. Max 1 per minion.\nAttached minion gets -2 ATK.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "33035",
-		"name": "Honorary X-Men",
-		"text": "Play only if your identity has the [[X-MEN]] trait.\nAttach to a friendly character.\nAttached character gets +1 hit point and gains the [[X-MEN]] trait.",
-		"traits": "Title."
-	}
+    {
+        "code": "33001a",
+        "name": "Ciclope",
+        "text": "<i>Raggio Ottico</i> − <b>Azione</b> <i>(attacco)</i>: Spendi 1 risorsa di qualsiasi tipo → infliggi 3 danni a un nemico con una miglioria. (Limite di una volta per round).",
+        "traits": "X-Men.",
+        "flavor": "\"Il professore ha un sogno. Io ho un piano.\""
+    },
+    {
+        "code": "33001b",
+        "name": "Scott Summers",
+        "text": "Puoi includere nel tuo mazzo alleati [[X-MEN]] di qualsiasi aspetto.\n<i>Addestramento Costante</i> − <b>Azione</b>: Cerca nel tuo mazzo 1 miglioria [[TATTICA]] e aggiungila alla tua mano. (Limite di una volta per round).",
+        "traits": "Mutante."
+    },
+    {
+        "code": 33002,
+        "name": "Fenice",
+        "text": "<b>Risposta</b>: Dopo che Fenice è entrata in gioco, scegli 1 carta del set Ciclope dalla tua pila degli scarti e aggiungila alla tua mano.",
+        "traits": "Psionico. X-Men.",
+        "subname": "Jean Grey",
+        "flavor": "\"Ci siamo dentro entrambi, Scott. Finchè morti non ci separi.\""
+    },
+    {
+        "code": 33003,
+        "name": "Visore al Quarzo Rubino",
+        "text": "<b>Risposta Eroe</b>: Esaurisci questa carta → genera [energy] per la tua capacità <i>\"Raggio Ottico\"</i>. Quell'attacco ottiene Distanza e Perforante.",
+        "traits": "Oggetto.",
+        "flavor": "\"Il visore di Ciclope lo aiuta a concentrare e controllare i suoi raggi ottici.\""
+    },
+    {
+        "code": 33004,
+        "name": "Comandante sul Campo",
+        "text": "Durante la fase dei Giocatori, svolgi tu il primo turno. <i>(Quando il tuo turno termina, la partita procede in ordine di gioco a cominciare dal primo giocatore. Non svolgere un altro turno.)</i>\nOgni miglioria del set Ciclope assegnata a un gregario perde la parola chiave Temporaneo.",
+        "traits": "Titolo."
+    },
+    {
+        "code": 33005,
+        "name": "Sfruttare il Punto Debole",
+        "text": "Assegna a un nemico. Massimo 1 per nemico.\nTemporaneo.\nAumenta di 1 l'ammontare di danni che il nemico con questa miglioria subisce da ogni attacco.",
+        "traits": "Tattica."
+    },
+    {
+        "code": 33006,
+        "name": "Difesa Preparata",
+        "text": "Assegna a un nemico. Massimo 1 per nemico.\nTemporaneo.\nIl nemico con questa miglioria riceve -1 ATT.",
+        "traits": "Tattica."
+    },
+    {
+        "code": 33007,
+        "name": "Bersaglio Prioritario",
+        "text": "Assegna a un nemico. Massimo 1 per nemico.\nTemporaneo.\n<b>Interruzione</b>: Quando il nemico con questa miglioria è sconfitto, il giocatore che lo ha sconfitto pesca 2 carte.",
+        "traits": "Tattica."
+    },
+    {
+        "code": 33008,
+        "name": "Raggio a Massima Potenza",
+        "text": "<b>Interruzione Eroe</b>: Quando usi la tua capacità <i>\"Raggio Ottico\"</i>, esaurisci Ciclope → questo attacco infligge 8 danni aggiuntivi e ottiene Sopraffazione.",
+        "traits": "Superpotere.",
+        "flavor": "\"Fuori dal mio giardino!\" - Ciclope"
+    },
+    {
+        "code": 33009,
+        "name": "Raggio a Rimbalzo",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 3 danni a un nemico. Infliggi 3 danni a un nemico con miglioria.",
+        "traits": "Attacco. Superpotere.",
+        "flavor": "\"Raggio oculare in buca d'angolo.\" - Ciclope"
+    },
+    {
+        "code": 33010,
+        "name": "Acume Tattico",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 3 minacce da una trama. Scegli una carta [[TATTICA]] dalla tua pila degli scarti e aggiungila alla tua mano.",
+        "traits": "Intervento.",
+        "flavor": "Per quanto i suoi raggi oculari siano formidabili, il vero potere di Ciclope è la capacità di ispirare la sua squadra e condurla alla vittoria."
+    },
+    {
+        "code": 33011,
+        "name": "Bestia",
+        "text": "<b>Risposta</b>: Dopo che Bestia è entrato in gioco, cerca nel tuo mazzo e nella pila degli scarti 1 carta risorsa e aggiungila alla tua mano. <i>(Mescola.)</i>",
+        "traits": "Genio. X-Men.",
+        "subname": "Hank Mccoy",
+        "flavor": "\"Oh, santi numi!\""
+    },
+    {
+        "code": 33012,
+        "name": "Dust",
+        "text": "[star] <b>Interruzione</b>: Quando Dust attacca un gregario, attacca ogni gregario in gioco. Dust subisce +1 danno conseguente ([consequential]) dopo questo attacco.",
+        "traits": "X-Men.",
+        "subname": "Sooraya Qadir",
+        "flavor": "\"Molto bene. Non mi tratterò!\""
+    },
+    {
+        "code": 33013,
+        "name": "Rockslide",
+        "text": "Ritorsione 1.",
+        "traits": "X-Men.",
+        "subname": "Santo Vaccarro",
+        "flavor": "\"Non me ne andrò senza combattere. Perchè sono uno degli X-Men, ed è quello che gli X-Men fanno.\""
+    },
+    {
+        "code": 33014,
+        "name": "Blindfold",
+        "text": "<b>Risposta</b>: Dopo che Blindfold è entrata in gioco, guarda 5 carte dalla cima del mazzo incontri. Scarta 1 di quelle carte e rimetti le altre in cima al mazzo nello stesso ordine.",
+        "traits": "Psionico. X-Men.",
+        "subname": "Ruth Aldine",
+        "flavor": "\"Occorrono occhi invisibili per scovare l'invisibile.\""
+    },
+    {
+        "code": 33015,
+        "name": "Addestramento nella Stanza\ndel Pericolo",
+        "text": "Assegna a un alleato [[X-MEN]]. Massimo 1 miglioria [[ADDESTRAMENTO]] per alleato.\nL'alleato con questa miglioria riceve +1 INT,  +1 ATT e +1 punti feriti.",
+        "traits": "Addestramento.",
+        "flavor": "\"Affrontiamo minacce sempre più grandi, e per questo dobbiamo addestrarci più duramente.\" - Ciclope"
+    },
+    {
+        "code": 33016,
+        "name": "Attacco Coordinato",
+        "text": "Assegna a un gregario. Massimo 1 per gregario.\nDopo che ha attaccato il gregario con questa miglioria, ogni alleato subisce -1 danno conseguente ([consequential]).",
+        "traits": "Tattica."
+    },
+    {
+        "code": 33017,
+        "name": "Lavoro di Squadra",
+        "text": "<b>Interruzione Eroe</b>: Quando usi il tuo potere di intervento base (INT) o il tuo potere di attacco base (ATT), esaurisci 1 alleato che controlli → aggiungi il suo potere corrispondente al potere del tuo eroe per questo uso.",
+        "traits": "Tattica."
+    },
+    {
+        "code": 33018,
+        "name": "Autorità Efficace",
+        "text": "Massimo 2 per mazzo.\n<b>Interruzione</b>: Quando hai speso le risorse di questa carta per giocare un alleato, quell'alleato riceve +1 INT e +1 ATT fino alla fine della fase."
+    },
+    {
+        "code": 33019,
+        "name": "Angelo",
+        "text": "Se la tua identità possiede il tratto [[MUTANTE]] o [[X-MEN]] riduci di 1 il costo per giocare Angelo.",
+        "traits": "Aereo. X-Men.",
+        "subname": "Warren Worthington III",
+        "flavor": "\"L'unica cosa migliore di essere un miliardario è essere un miliardario che può volare!\" - Angelo"
+    },
+    {
+        "code": 33020,
+        "name": "Utopia",
+        "text": "Se ogni tuo alleato possiede il tratto [[X-MEN]], aumenta di 1 il tuo limite di alleati.\n<b>Risposta</b>: Dopo che un alleato [[X-MEN]] è entrato in gioco, esaurisci Utopia → ripristina 1 personaggio [[X-MEN]].",
+        "traits": "Luogo. X-Men."
+    },
+    {
+        "code": 33021,
+        "name": "Stanza del Pericolo",
+        "text": "<b>Risposta Alter Ego</b>: Dopo che un alleato [[X-MEN]] è entrato in gioco, esaurisci Stanza del Pericolo → cerca nel tuo mazzo e nella pila degli scarti 1 miglioria [[ADDESTRAMENTO]] e assegnala a quell'alleato. Un qualsiasi giocatore il cui alter ego possiede il tratto [[MUTANTE]] può innescare questa capacità.",
+        "traits": "Luogo. X-Men."
+    },
+    {
+        "code": 33022,
+        "name": "Fischio d'Inizio",
+        "text": "<b>Azione Eroe</b>: Scegli 1 alleato con una miglioria [ADDESTRAMENTO]]  → ripristina quell'alleato e curagli 1 danno.",
+        "traits": "Tattica.",
+        "flavor": "\"Bene X-Men, ricordatevi l'addestramento!\" - Ciclope"
+    },
+    {
+        "code": 33023,
+        "name": "Relazione Psichica",
+        "text": "Team-Up (Ciclope e  Fenice). Massimo 1 per mazzo.\n<b>Azione Eroe</b>: Ripristina Ciclope e Fenice. Scegli se rimettere nella tua mano 1 carta del set Ciclope della tua pila degli scarti oppure collocare 2 gettoni potere su Forza Fenice."
+    },
+    {
+        "code": 33032,
+        "name": "Sotto Tiro",
+        "text": "Assegna a un gregario. Massimo 1 per gregario.\nGli attacchi contro il gregario con questa miglioria ottengono Sopraffazione.",
+        "traits": "Tattica.",
+        "flavor": "\"Bersaglio nel mirino.\" - Domino"
+    },
+    {
+        "code": 33033,
+        "name": "Diversivo",
+        "text": "Assegna a un gregario. Massimo 1 per gregario.\n<b>Interruzione</b>: Quando un personaggio effettua un attacco base contro il gregario con questa miglioria, quel personaggio usa il suo INT al posto del suo ATT .",
+        "traits": "Tattica."
+    },
+    {
+        "code": 33034,
+        "name": "Stritolamento",
+        "text": "Assegna a un gregario. Massimo 1 per gregario.\nIl gregario con questa miglioria -2 ATT.",
+        "traits": "Tattica.",
+        "flavor": "\"Ciccio, datti una calmata!\" - Rockslide"
+    },
+    {
+        "code": 33035,
+        "name": "X-Men Onorario",
+        "text": "Gioca solo se la tua identità possiede il tratto [[X-MEN]].\nAssegna a un personaggio amico. Massimo 1 per personaggio.\nIl personaggio con questa miglioria riceve +1 punti ferita e ottiene il tratto [[X-MEN]].",
+        "traits": "Titolo."
+    }
 ]
