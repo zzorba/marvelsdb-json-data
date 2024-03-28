@@ -28,10 +28,10 @@
       "is_unique": true,
       "scheme": 2,
       "attack": 3,
-      "attack_text": "<b>Forced Response</b>: After Belladonna attacks and defeats a character, place 2 threat on the main scheme.\n<i>(Gambit's nemesis minion.)</i>",
+      "attack_star": true,
       "health": 5,
       "traits": "Assassin. Elite.",
-      "text": "Quickstrike. Toughness.",
+      "text": "Quickstrike. Toughness.\n[star] <b>Forced Response</b>: After Belladonna attacks and defeats a character, place 2 threat on the main scheme.\n<i>(Gambit's nemesis minion.)</i>",
       "boost": 3,
       "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037026"
    },
@@ -67,10 +67,10 @@
       "set_position": 3,
       "scheme": 1,
       "attack": 2,
-      "attack_text": "<b>Forced Response</b>: After Guild Assassin attacks and defeats a character, place 1 threat on the main scheme.",
+      "attack_star": true,
       "health": 2,
       "traits": "Assassin.",
-      "text": "Quickstrike.",
+      "text": "Quickstrike.\n[star] <b>Forced Response</b>: After Guild Assassin attacks and defeats a character, place 1 threat on the main scheme.",
       "boost": 2,
       "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037028"
    },
@@ -144,7 +144,7 @@
       "text": "Attach to a minion. Otherwise, Psionic Shield gains surge.\n<b>Forced Interrupt</b>: When attached minion would leave play, instead heal all damage from that minion and put it back into play. Then, discard this attachment."
    },
    {
-      "boost_text": "You are stunned and confused.",
+      "boost_star": true,
       "code": "37035",
       "pack_code": "gambit",
       "faction_code": "encounter",
@@ -155,6 +155,6 @@
       "quantity": 2,
       "set_position": 5,
       "octgn_id": "f3ee0950-3220-468c-9735-3b1dcb037035",
-      "text": "<b>When Revealed</b>: Each [[ACOLYTE]] minion engaged with you activates against you. If you are not engaged with an [[ACOLYTE]] minion, this card gains surge."
+      "text": "<b>When Revealed</b>: Each [[ACOLYTE]] minion engaged with you activates against you. If you are not engaged with an [[ACOLYTE]] minion, this card gains surge.\n<hr />\n[star] <b>Boost</b>: You are stunned and confused."
    }
 ]

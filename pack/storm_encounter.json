@@ -54,7 +54,7 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "Attached minion's attacks gain piercing.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "36033",
 		"faction_code": "encounter",
@@ -66,7 +66,7 @@
 		"quantity": 1,
 		"set_code": "storm_nemesis",
 		"set_position": 3,
-		"text": "Attach to the minion with the highest printed ATK. Otherwise, this card gains surge.",
+		"text": "Attach to the minion with the highest printed ATK. Otherwise, this card gains surge.\n[star] Attached minion's attacks gain piercing.",
 		"type_code": "attachment"
 	},
 	{
@@ -104,7 +104,7 @@
 		"type_code": "minion"
 	},
 	{
-		"boost_text": "If you are engaged with a [[Controlled]] minion, reveal this card.",
+		"boost_star": true,
 		"base_threat": 6,
 		"base_threat_fixed": true,
 		"code": "36037",
@@ -117,7 +117,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "shadow_king",
 		"set_position": 2,
-		"text": "<b>When Defeated</b>: Discard 1 copy of Possessed from play.",
+		"text": "<b>When Defeated</b>: Discard 1 copy of Possessed from play.\n<hr />\n[star] <b>Boost</b>: If you are engaged with a [[Controlled]] minion, reveal this card.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -136,7 +136,7 @@
 		"type_code": "attachment"
 	},
 	{
-		"boost_text": "Shuffle each Shadow King card from the discard pile into the encounter deck.",
+		"boost_star": true,
 		"code": "36039",
 		"faction_code": "encounter",
 		"name": "Astral Attack",
@@ -146,7 +146,7 @@
 		"quantity": 1,
 		"set_code": "shadow_king",
 		"set_position": 5,
-		"text": "<b>When Revealed</b>: Each [[Controlled]] minion activates against you. If there are no [[Controlled]] minions in play, this card gains surge.",
+		"text": "<b>When Revealed</b>: Each [[Controlled]] minion activates against you. If there are no [[Controlled]] minions in play, this card gains surge.\n<hr />\n[star] <b>Boost</b>: Shuffle each Shadow King card from the discard pile into the encounter deck.",
 		"type_code": "treachery"
 	}
 ]

@@ -350,6 +350,7 @@
 	},
 	{
 		"attack": 2,
+		"attack_star": true,
 		"code": "21019",
 		"cost": 1,
 		"deck_limit": 1,
@@ -363,8 +364,9 @@
 		"quantity": 1,
 		"resource_physical": 1,
 		"subname": "Eric Brooks",
-		"text": "<b>Forced Response</b>: After Blade thwarts or attacks, choose to either spend a [physical] resource from your hand or discard Blade.",
+		"text": "[star] <b>Forced Response</b>: After Blade thwarts or attacks, choose to either spend a [physical] resource from your hand or discard Blade.",
 		"thwart": 1,
+		"thwart_star": true,
 		"traits": "Avenger. Vampire.",
 		"type_code": "ally"
 	},
@@ -1246,6 +1248,7 @@
 	},
 	{
 		"attack": 1,
+		"attack_star": true,
 		"code": "21191",
 		"faction_code": "campaign",
 		"health": 3,
@@ -1258,12 +1261,14 @@
 		"resource_wild": 1,
 		"set_code": "mts_campaign",
 		"set_position": 21,
+		"text": "[star] When Fandral uses his basic THW, ignore any crisis icons ([crisis]) in play.",
 		"thwart": 3,
 		"traits": "Asgard. Captive.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 3,
+		"attack_star": true,
 		"code": "21192",
 		"faction_code": "campaign",
 		"health": 3,
@@ -1276,6 +1281,7 @@
 		"resource_wild": 1,
 		"set_code": "mts_campaign",
 		"set_position": 22,
+		"text": "[star] Hogun's attacks gain piercing.",
 		"thwart": 1,
 		"traits": "Asgard. Captive.",
 		"type_code": "ally"

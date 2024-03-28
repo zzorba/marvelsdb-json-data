@@ -16,7 +16,7 @@
     },
     {
         "attack": 1,
-        "boost_text": "You are confused",
+        "boost_star": true,
         "code": "44033",
         "faction_code": "encounter",
         "health": 3,
@@ -27,9 +27,10 @@
         "position": 33,
         "quantity": 1,
         "scheme": 2,
-        "scheme_text": "<b>Forced Interrupt</b>: When Butler schemes, place that threat on Involuntary Procedures, if able.\n<i>(Deadpool's nemesis minion.)</i>",
+        "scheme_star": true,
         "set_code": "deadpool_nemesis",
         "set_position": 1,
+        "text": "[star] <b>Forced Interrupt</b>: When Butler schemes, place that threat on Involuntary Procedures, if able.\n<i>(Deadpool's nemesis minion.)</i>\n<hr />\n[star] <b>Boost</b>: You are confused.",
         "traits": "Scientist.",
         "type_code": "minion"
     },
@@ -52,7 +53,7 @@
         "type_code": "side_scheme"
     },
     {
-        "boost_text": "Attach Tabula Rasa 16 to your identity.",
+        "boost_star": true,
         "code": "44035",
         "faction_code": "encounter",
         "flavor": "Butler used this drug to erase Deadpool's memory of Butler's medical experiments.",
@@ -63,11 +64,12 @@
         "quantity": 1,
         "set_code": "deadpool_nemesis",
         "set_position": 3,
-        "text": "Attach to your identity.\nTreat your identity's printed text box as blank <i>(except for [[TRAITS]])</i>.\n<b>Alter-Ego Action</b>: Spend [mental][mental] resources \u2192 discard this card.",
+        "text": "Attach to your identity.\nTreat your identity's printed text box as blank <i>(except for [[TRAITS]])</i>.\n<b>Alter-Ego Action</b>: Spend [mental][mental] resources \u2192 discard this card.\n<hr />\n[star] <b>Boost</b>: Attach Tabula Rasa 16 to your identity.",
         "type_code": "attachment"
     },
     {
         "attack": 2,
+        "attack_star": true,
         "boost": 2,
         "code": "44036",
         "faction_code": "encounter",
@@ -79,6 +81,7 @@
         "position": 36,
         "quantity": 2,
         "scheme": 1,
+        "scheme_star": true,
         "set_code": "deadpool_nemesis",
         "set_position": 4,
         "text": "Toughness.\n[star] <b>Forced Response</b>: After Mutated Soldier activates, heal all damage from it.",

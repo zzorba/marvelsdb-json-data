@@ -10,7 +10,7 @@
 		"position": 25,
 		"quantity": 1,
 		"set_code": "spdr",
-		"text": "<b><i>Give to the Peni Parker player.</i></b>\nYou may flip to alter-ego form. Choose:\n- Exhaust Peni Parker → remove Inherited Burden from the game.\n- Choose and discard 1 [[Interface]] upgrade you control. Discard this obligation.",
+		"text": "<b><i>Give to the Peni Parker player.</i></b>\nYou may flip to alter-ego form. Choose:\n\u2022 Exhaust Peni Parker → remove Inherited Burden from the game.\n\u2022 Choose and discard 1 [[Interface]] upgrade you control. Discard this obligation.",
 		"type_code": "obligation"
 	},
 	{
@@ -28,7 +28,7 @@
 		"scheme_crisis": 1,
 		"set_code": "spdr_nemesis",
 		"set_position": 1,
-		"text": "As an additional cost to thwart this scheme, you must spend a [[energy]] resource.",
+		"text": "As an additional cost to thwart this scheme, you must spend a [energy] resource.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -46,7 +46,7 @@
 		"scheme": 2,
 		"set_code": "spdr_nemesis",
 		"set_position": 2,
-		"text": "<b>Forced Response:</b> After the engaged hero generates any number of resources, deal an equal amount of damage to that hero.\n<i>(SP//dr's nemesis minion.)</i>",
+		"text": "<b>Forced Response</b>: After the engaged hero generates any number of resources, deal an equal amount of damage to that hero.\n<i>(SP//dr's nemesis minion.)</i>",
 		"traits": "Creature.",
 		"type_code": "minion"
 	},
@@ -61,7 +61,7 @@
 		"quantity": 3,
 		"set_code": "spdr_nemesis",
 		"set_position": 3,
-		"text": "<b>When Revealed (Alter-Ego):</b> Choose to either spend [energy][energy] resources or exhaust your identity.\n<b>When Revealed (Hero):</b> Choose to either spend [energy][energy] or take 3 damage.",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Choose to either spend [energy][energy] resources or exhaust your identity.\n<b>When Revealed (Hero)</b>: Choose to either spend [energy][energy] or take 3 damage.",
 		"type_code": "treachery"
 	},
 	{
@@ -84,8 +84,8 @@
 	},
 	{
 		"attack": 3,
-		"attack_text": "Divide damage from Bombshell's attack among each character the attacked player controls as evenly as possible.",
-		"boost_text": "Deal 1 indirect damage to each player. Exhaust each character damaged this way.",
+		"attack_star": true,
+		"boost_star": true,
 		"code": "31031",
 		"faction_code": "encounter",
 		"health": 4,
@@ -98,6 +98,7 @@
 		"scheme": 2,
 		"set_code": "ironspider_sinister",
 		"set_position": 2,
+		"text": "[star] Divide damage from Bombshell's attack among each character the attacked player controls as evenly as possible.\n<hr />\n[star] <b>Boost</b>: Deal 1 indirect damage to each player. Exhaust each character damaged this way.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
@@ -107,6 +108,7 @@
 		"code": "31032",
 		"faction_code": "encounter",
 		"health": 3,
+		"health_star": true,
 		"is_unique": true,
 		"name": "Electro",
 		"octgn_id": "5b7da011-412e-452a-9edd-24618a031032",
@@ -116,13 +118,13 @@
 		"scheme": 1,
 		"set_code": "ironspider_sinister",
 		"set_position": 3,
-		"text": "[star] Electro gets +1 hit point for each [energy] resource attached to her.\n[star] <b>Forced Response:</b> After Electro engages you or activates against you, choose 1 card from your hand with a printed [energy] resource and attach it to her.",
+		"text": "[star] Electro gets +1 hit point for each [energy] resource attached to her.\n[star] <b>Forced Response</b>: After Electro engages you or activates against you, choose 1 card from your hand with a printed [energy] resource and attach it to her.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Interrupt:</b> When Hobgoblin would attack you, discard cards from the top of the encounter deck equal to Hobgoblin's ATK instead. Take 1 indirect damage for each boost icon ([boost]) discarded this way.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "31033",
 		"faction_code": "encounter",
@@ -136,12 +138,13 @@
 		"scheme": 2,
 		"set_code": "ironspider_sinister",
 		"set_position": 4,
+		"text": "[star] <b>Forced Interrupt</b>: When Hobgoblin would attack you, discard cards from the top of the encounter deck equal to Hobgoblin's ATK instead. Take 1 indirect damage for each boost icon ([boost]) discarded this way.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"attack_text": "Iron Spider's attacks gain overkill.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "31034",
 		"faction_code": "encounter",
@@ -156,14 +159,14 @@
 		"scheme": 2,
 		"set_code": "ironspider_sinister",
 		"set_position": 5,
-		"text": "Guard. Patrol. Retaliate 1. Toughness.",
+		"text": "Guard. Patrol. Retaliate 1. Toughness.\n[star] Iron Spider's attacks gain overkill.",
 		"traits": "Criminal. Elite.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
 		"boost": 1,
-		"boost_text": "Discard the top 7 cards of the encounter deck.",
+		"boost_star": true,
 		"code": "31035",
 		"faction_code": "encounter",
 		"health": 7,
@@ -176,13 +179,13 @@
 		"scheme": 1,
 		"set_code": "ironspider_sinister",
 		"set_position": 6,
-		"text": "<b>Forced Response:</b> After Sandman takes any amount of damage from an attack, discard the top 7 cards of the encounter deck.",
+		"text": "<b>Forced Response</b>: After Sandman takes any amount of damage from an attack, discard the top 7 cards of the encounter deck.\n<hr />\n[star] <b>Boost</b>: Discard the top 7 cards of the encounter deck.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
-		"boost_text": "Put this minion into play engaged with you.",
+		"boost_star": true,
 		"code": "31036",
 		"faction_code": "encounter",
 		"health": 4,
@@ -195,7 +198,7 @@
 		"scheme": 1,
 		"set_code": "ironspider_sinister",
 		"set_position": 7,
-		"text": "<b>When Defeated:</b> If Spot was defeated without excess damage, shuffle him into the encounter deck.",
+		"text": "<b>When Defeated</b>: If Spot was defeated without excess damage, shuffle him into the encounter deck.\n<hr />\n[star] <b>Boost</b>: Put this minion into play engaged with you.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
@@ -210,7 +213,7 @@
 		"quantity": 1,
 		"set_code": "ironspider_sinister",
 		"set_position": 8,
-		"text": "Surge.\nEach [[Criminal]] minion gains surge.\n<b>Hero Action:</b> If there are no [[Criminal]] minions in play, spend 2 resources of any type → discard this card.",
+		"text": "Surge.\nEach [[Criminal]] minion gains surge.\n<b>Hero Action</b>: If there are no [[Criminal]] minions in play, spend 2 resources of any type → discard this card.",
 		"type_code": "environment"
 	}
 ]

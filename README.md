@@ -54,17 +54,17 @@ To check and apply formatting to JSON files:
 #### Card schema
 
 * **attack** - Character's attack value. Format is integer or `null`. Possible values:
-  * `null`: Shows up as dash or star depending on if **attack_text** is defined
+  * `null`: Shows up as dash or a star if **attack_star** is defined
   * -1: Shows up as X
   * 0+: Shows up as the given integer
 * **attack_cost** - Cost for the character to attack (commonly, the amount of consequential damage)
-* **attack_text** - Ability text associated with the character's attack  
+* **attack_star** - Whether a star appears in the attack field indicating a special ability
 * **back_flavor** - The flavor text on the back of a card
 * **back_text** - The text on the back of a card
 * **base_threat** - The starting threat on a card. By default, it is per hero.
 * **base_threat_fixed** - Whether the **base_threat** is fixed and not per hero
 * **boost** - The number of boost icons on a card
-* **boost_text** - The associated ability text to resolve when flipping a card. This also indicates there's a star icon in the boost field.
+* **boost_star** - Whether a star appears in the boost field indicating a special ability
 * **code** - 5 digit card identifier. Consists of two zero-padded numbers: first two digits are the cycle position, last three are position of the card within the cycle (printed on the card).
 * **cost** - Play cost of the card. Relevant for most cards. Possible values:
   * -1: Shows up as X
@@ -79,12 +79,14 @@ To check and apply formatting to JSON files:
   ]
   ```
 * **defense** - Character's defense value
+* **defense_star** - Whether a star appears in the defense field indicating a special ability
 * **double_sided** - Whether the card is a double sided card
 * **duplicate_of** - A link to the original card code for duplicate cards in other packs
 * **escalation_threat** - The acceleration threat to apply to main/side schemes. By default, it is per hero. Possible values:
   * -1: Shows up as X
   * 0+: Shows up as the given number
 * **escalation_threat_fixed** - Whether the **escalation_threat** is fixed and not per hero
+* **escalation_threat_star** - Whether a star appears in the escalation threat field indicating a special ability
 * **faction_code** - The faction code type for a card. Possible values:
   * `aggression`
   * `basic`
@@ -99,6 +101,7 @@ To check and apply formatting to JSON files:
 * **hand_size** - Character's hand size
 * **health** - Character's health. By default, it is fixed.
 * **health_per_hero** - Whether the **health** is per hero
+* **health_star** - Whether a star appears in the health field indicating a special ability
 * **illustrator** - The name(s) of the artist(s) on the card
 * **is_unique** - Whether the card is unique
 * **name** - The name of the card
@@ -108,10 +111,12 @@ To check and apply formatting to JSON files:
 * **position** - The position of the card in the pack
 * **quantity** - The quantity of the given card found in a pack
 * **recover** - Character's recover value
+* **recover_star** - Whether a star appears in the recover field indicating a special ability
 * **resource_[energy|mental|physical|wild]** - Amount of resources of the given type
 * **scheme_acceleration** - The acceleration amount on schemes
 * **scheme_crisis** - The number of crisis icons on a scheme
 * **scheme_hazard** - The number of hazard icons on a scheme
+* **scheme_star** - Whether a star appears in the scheme field indicating a special ability
 * **set_code** - The code for the card's set. Possible values found in `sets.json`.
 * **set_position** - The position of the card in the set
 * **stage** - The stage number on a villain or main scheme. Possible values:
@@ -121,12 +126,13 @@ To check and apply formatting to JSON files:
 * **text** - The text on a card
 * **threat** - The target threat on a card before it advances. By default, it is per hero.
 * **threat_fixed** - Whether the **threat** is fixed and not per hero
+* **threat_star** - Whether a star appears in the threat field indicating a special ability
 * **thwart** - Character's thwart value. Possible values:
-  * `null`: Shows up as dash or star depending on if **thwart_text** is defined
+  * `null`: Shows up as dash or a star if **thwart_star** is defined
   * -1: Shows up as X
   * 0+: Shows up as the given integer
 * **thwart_cost** - Cost for the character to thwart (commonly, the amount of consequential damage)
-* **thwart_text** - Ability text associated with the character's thwart
+* **thwart_star** - Whether a star appears in the thwart field indicating a special ability
 * **traits** - List of traits following the pattern `Trait1. Trait2.`
 * **type_code** - Type of the card. Possible values (found in `types.json`):
   * `ally`

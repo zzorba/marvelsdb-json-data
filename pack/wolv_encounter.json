@@ -10,12 +10,12 @@
 		"position": 27,
 		"quantity": 1,
 		"set_code": "wolverine",
-		"text": "<b><i>Give to the Logan player</i></b>\nYou may flip to alter-ego form. Choose:\n- Exhaust Logan → remove Past Demons from the game.\n- You are stunned and confused. Discard this card.",
+		"text": "<b><i>Give to the Logan player</i></b>\nYou may flip to alter-ego form. Choose:\n\u2022 Exhaust Logan → remove Past Demons from the game.\n\u2022 You are stunned and confused. Discard this card.",
 		"type_code": "obligation"
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Interrupt</b>: When Omega Red attacks you, deal 1 damage to each character you control.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "35028",
 		"faction_code": "encounter",
@@ -29,7 +29,7 @@
 		"scheme": 1,
 		"set_code": "wolverine_nemesis",
 		"set_position": 1,
-		"text": "Retaliate 1. Steady.",
+		"text": "Retaliate 1. Steady.\n[star] <b>Forced Interrupt</b>: When Omega Red attacks you, deal 1 damage to each character you control.",
 		"traits": "Brute. Elite.",
 		"type_code": "minion"
 	},
@@ -67,7 +67,7 @@
 		"type_code": "attachment"
 	},
 	{
-		"boost_text": "You are stunned. Take 1 damage (4 damage instead if you are already stunned).",
+		"boost_star": true,
 		"code": "35031",
 		"faction_code": "encounter",
 		"illustrator": "Eslam Aboshady",
@@ -78,12 +78,12 @@
 		"quantity": 1,
 		"set_code": "wolverine_nemesis",
 		"set_position": 5,
-		"text": "<b>When Revealed</b>: You are stunned. Take 1 damage (4 damage instead if you are already stunned).",
+		"text": "<b>When Revealed</b>: You are stunned. Take 1 damage (4 damage instead if you are already stunned).\n<hr />\n[star] <b>Boost</b>: You are stunned. Take 1 damage (4 damage instead if you are already stunned).",
 		"type_code": "treachery"
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Response</b>: After Lady Deathstrike attacks and damages a character, that character's owner discards 1 random card from their hand.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "35034",
 		"faction_code": "encounter",
@@ -99,7 +99,7 @@
 		"scheme": 1,
 		"set_code": "deathstrike",
 		"set_position": 1,
-		"text": "Quickstrike.",
+		"text": "Quickstrike.\n[star] <b>Forced Response</b>: After Lady Deathstrike attacks and damages a character, that character's owner discards 1 random card from their hand.",
 		"traits": "Elite. Reaver.",
 		"type_code": "minion"
 	},
@@ -121,6 +121,8 @@
 		"type_code": "side_scheme"
 	},
 	{
+		"attack": 2,
+		"attack_star": true,
 		"boost": 2,
 		"code": "35036",
 		"faction_code": "encounter",
@@ -131,11 +133,12 @@
 		"quantity": 2,
 		"set_code": "deathstrike",
 		"set_position": 3,
+		"text": "Attach to an enemy without a copy of Adamantium Upgrades attached. Otherwise, this card gains surge.\n[star] Attached enemy's attacks gain piercing.\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources \u2192 discard this card.",
 		"traits": "Tech.",
 		"type_code": "attachment"
 	},
 	{
-		"boost_text": "Discard 1 random card from your hand and take damage equal to the number of printed resources on it.",
+		"boost_star": true,
 		"code": "35037",
 		"faction_code": "encounter",
 		"name": "Hack 'n' Slash",
@@ -145,7 +148,7 @@
 		"quantity": 2,
 		"set_code": "deathstrike",
 		"set_position": 5,
-		"text": "<b>When Revealed</b>: Discard 1 random card from your hand and take damage equal to the number of printed resources on it.",
+		"text": "<b>When Revealed</b>: Discard 1 random card from your hand and take damage equal to the number of printed resources on it.\n<hr />\n[star] <b>Boost</b>: Discard 1 random card from your hand and take damage equal to the number of printed resources on it.",
 		"type_code": "treachery"
 	}
 ]

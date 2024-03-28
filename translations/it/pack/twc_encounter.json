@@ -6,17 +6,15 @@
 		"text": "[star] <b>Risposta Obbligata</b>: Dopo il passo 1 della Fase del Criminale, Colloca 1 minaccia su ogni trama secondaria. Sposta il gettone attivo sul criminale la cui trama secondaria possiede più minacce. <i>(in caso di partià, è il primo giocatore a scegliere.)</i>\n<b>Se questo stadio è completo, i giocatori perdono la partita</b>"
 	},
 	{
-		"attack_text": "Mentre Demolitore attacca, se l'attacco non è difeso, riceve +2 ATT.",
 		"code": "07002",
 		"name": "Demolitore",
-		"scheme_text": "Quando Demolitore trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale",
+		"text": "[star] Quando Demolitore trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale\n[star] Mentre Demolitore attacca, se l'attacco non è difeso, riceve +2 ATT.",
 		"traits": "Squadra di Demolizione"
 	},
 	{
-		"attack_text": "Mentre Demolitore attacca, se l'attacco non è difeso, riceve +2 ATT.",
 		"code": "07003",
 		"name": "Demolitore",
-		"scheme_text": "Quando Demolitore trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale",
+		"text": "[star] Quando Demolitore trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale\n[star] Mentre Demolitore attacca, se l'attacco non è difeso, riceve +2 ATT.",
 		"traits": "Squadra di Demolizione"
 	},
 	{
@@ -30,16 +28,14 @@
 		"text": "Assegna alla trama secondaria del criminale attivo.\nNon è possibile rimuovere minacce dalla trama con questa aggiunta tramite un intervento.\n<b>Azione Eroe</b>: Il criminale corrispondente alla trama secondaria con questa aggiunta ti attacca. Poi scarta questa carta"
 	},
 	{
-		"attack_text": "<b>Risposta obbligata</b>: Dopo che demolitore ha attaccato, colloca 1 minaccia sulla trama secondaria con meno minacce.",
 		"code": "07006",
 		"name": "piede di Porco Magico",
-		"text": "assegna a demolitore.\n<b>Azione Eroe</b>: Esaurisci il tuo eroe e scarta 1 carta casuale dalla tua mano → scarta questa carta."
+		"text": "assegna a demolitore.\n[star] <b>Risposta obbligata</b>: Dopo che demolitore ha attaccato, colloca 1 minaccia sulla trama secondaria con meno minacce.\n<b>Azione Eroe</b>: Esaurisci il tuo eroe e scarta 1 carta casuale dalla tua mano → scarta questa carta."
 	},
 	{
 		"code": "07007",
 		"name": "Commando di Demolitore",
-		"scheme_text": "<b>Risposta Obbligata</b>: Dopo che Demolitore ha tramato, colloca 1 minnaccia sulla trama secondaria di ogni altro criminale.",
-		"text": "Assegna a Demolitore.\n<b>Azione Eroe</b>: Spendi [physical] [physical] → scarta questa carta."
+		"text": "Assegna a Demolitore.\n[star] <b>Risposta Obbligata</b>: Dopo che Demolitore ha tramato, colloca 1 minnaccia sulla trama secondaria di ogni altro criminale.\n<b>Azione Eroe</b>: Spendi [physical] [physical] → scarta questa carta."
 	},
 	{
 		"code": "07008",
@@ -48,23 +44,20 @@
 		"traits": "Traditore."
 	},
 	{
-		"boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Se sei nella sembianza di ere, quel criminale ti attacca dopo questo attacco. quell'attacco non riceve la carta potenziamento.",
 		"code": "07009",
 		"name": "Carcerato in Fuga",
-		"text": "Impulso",
+		"text": "Impulso\n<hr />\n[star] <b>Potenziamento</b>: Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Se sei nella sembianza di ere, quel criminale ti attacca dopo questo attacco. quell'attacco non riceve la carta potenziamento.",
 		"traits": "Criminale."
 	},
 	{
-		"boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce.",
 		"code": "07010",
 		"name": "Lavoro di Coppia",
-		"text": "<b>Quando Rivelata</b>: Rivela 1 carta dalla cima del mazzo del criminale la cui trama secondaria possiede meno minacce (2 carte dalla cima del suo mazzo se invece è l'unico criminale in gioco)."
+		"text": "<b>Quando Rivelata</b>: Rivela 1 carta dalla cima del mazzo del criminale la cui trama secondaria possiede meno minacce (2 carte dalla cima del suo mazzo se invece è l'unico criminale in gioco).\n<hr />\n[star] <b>Potenziamento</b>: Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce."
 	},
 	{
-		"boost_text": "Se questo attacco è non difeso, scarta 1 miglioria che controlli.",
 		"code": "07011",
 		"name": "Caos nella Prigione",
-		"text": "<b>Quando rivelata</b>: Scegli se scartare 1 miglioria che controlli oppure collocare 1 minaccia sulla trama secondaria del criminale attivo per ogni miglioria che controlli. Se non controlli alcuna miglioria, questa carta ottiene Impulso."
+		"text": "<b>Quando rivelata</b>: Scegli se scartare 1 miglioria che controlli oppure collocare 1 minaccia sulla trama secondaria del criminale attivo per ogni miglioria che controlli. Se non controlli alcuna miglioria, questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Se questo attacco è non difeso, scarta 1 miglioria che controlli."
 	},
 	{
 		"code": "07012",
@@ -77,16 +70,14 @@
 		"text": "<b>Quando Rivelata (Alter Ego)</b>: Il criminale la cui trama secondaria possiede meno minacce trama.\n<b>Quando Rivelata (Eroe)</b>: Il criminale la cui trama secondaria possiede meno minacce ti attacca."
 	},
 	{
-		"boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Quel criminale trama.",
 		"code": "07014",
 		"name": "Non Vedevo l'Ora",
-		"text": "<b>Quando Rivelata</b>: Il criminale attivo si cura 3 danni. Irrobustisci quel criminale."
+		"text": "<b>Quando Rivelata</b>: Il criminale attivo si cura 3 danni. Irrobustisci quel criminale.\n<hr />\n[star] <b>Potenziamento</b>: Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Quel criminale trama."
 	},
 	{
-		"boost_text": "Demolitore riceve +3 ATT per questa attivazione a meno che non collochi 2 minacce sulla sua trama secondaria.",
 		"code": "07015",
 		"name": "Legame Mistico",
-		"text": "<b>Quando Rivelata</b>: Colloca 2 minacce su ogni trama secondaria."
+		"text": "<b>Quando Rivelata</b>: Colloca 2 minacce su ogni trama secondaria.\n[star] <b>Potenziamento</b>: Demolitore riceve +3 ATT per questa attivazione a meno che non collochi 2 minacce sulla sua trama secondaria."
 	},
 	{
 		"code": "07016",
@@ -94,17 +85,15 @@
 		"text": "<b>Quando Rivelata</b>: Infliggi 1 danno all'eroe o alleato con meno punti ferita rimanenti. Se quel personaggio è sconfitto in questo modo, colloca 3 minacce sulla trama secondaria di Demolitore"
 	},
 	{
-		"attack_text": "<b>Risposta Obbligata</b>: Dopo che Thunderball ti ha attaccato, infliggi 1 danno a ogni personaggio che controlli.",
 		"code": "07017",
 		"name": "Thunderball",
-		"scheme_text": "Quando Thunderball trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale",
+		"text": "[star] Quando Thunderball trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale.\n[star] <b>Risposta Obbligata</b>: Dopo che Thunderball ti ha attaccato, infliggi 1 danno a ogni personaggio che controlli.",
 		"traits": "Squadra di Demolizione"
 	},
 	{
-		"attack_text": "<b>Risposta Obbligata</b>: Dopo che Thunderball ti ha attaccato, infliggi 1 danno a ogni personaggio che controlli.",
 		"code": "07018",
 		"name": "Thunderball",
-		"scheme_text": "Quando Thunderball trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale",
+		"text": "[star] Quando Thunderball trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale.\n[star] <b>Risposta Obbligata</b>: Dopo che Thunderball ti ha attaccato, infliggi 1 danno a ogni personaggio che controlli.",
 		"traits": "Squadra di Demolizione"
 	},
 	{
@@ -113,10 +102,9 @@
 		"text": "<b><i>Trama Secondaria di Thunderball.</i></b>\n<i>Mentre Thunderball è in gioco, questa carta non può uscire dal gioco.</i>\n<i>Scarica Gamma</i> -- <b>Risposta Obbligata</b>: Dopo che 1 o più minacce sono state collocate su questa trama, se su questa trama ci sono 10 o più minacce, stordisci ogni personaggio amico. Rimuovi da questa trama tutte le minacce tranne 3.."
 	},
 	{
-		"attack_text": "<b>Risposta Obbligata</b>: Dopo che Thunderball ha attaccato, colloca 1 minaccia sulla trama principale.",
 		"code": "07020",
 		"name": "Palla e Catena",
-		"text": "Assegna a Thunderball.\n<b>Azione Eroe</b>: Esaurisci il tuo eroe e scarta 1 carta casuale dalla tua mano → scarta questa carta.",
+		"text": "Assegna a Thunderball.\n[star] <b>Risposta Obbligata</b>: Dopo che Thunderball ha attaccato, colloca 1 minaccia sulla trama principale.\n<b>Azione Eroe</b>: Esaurisci il tuo eroe e scarta 1 carta casuale dalla tua mano → scarta questa carta.",
 		"traits": "Arma."
 	},
 	{
@@ -125,10 +113,9 @@
 		"text": "Assegna alla trama secondaria del criminale attivo.\nNon è possibile rimuovere minacce dalla trama con questa aggiunta tramite un intervento.\n<b>Azione Eroe</b>: Il criminale corrispondente alla trama secondaria con questa aggiunta ti attacca. Poi scarta questa carta"
 	},
 	{
-		"attack_text": "<b>Risposta Obbligata</b>: Dopo che Thunderball ha attaccato, scarta questa carta.",
 		"code": "07022",
 		"name": "Picco di radioattività",
-		"text": "Assegna a Thunderball.\nI danni in eccesso inflitti da Thunderball vengono collocati come minacce sulla sua trama secondaria.",
+		"text": "Assegna a Thunderball.\nI danni in eccesso inflitti da Thunderball vengono collocati come minacce sulla sua trama secondaria.\n[star] <b>Risposta Obbligata</b>: Dopo che Thunderball ha attaccato, scarta questa carta.",
 		"traits": "Condizione."
 	},
 	{
@@ -138,29 +125,25 @@
 		"traits": "Traditore."
 	},
 	{
-		"boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Se sei nella sembianza di ere, quel criminale ti attacca dopo questo attacco. quell'attacco non riceve la carta potenziamento.",
 		"code": "07024",
 		"name": "Carcerato in Fuga",
-		"text": "Impulso",
+		"text": "Impulso\n<hr />\n[star] <b>Potenziamento</b>: Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Se sei nella sembianza di ere, quel criminale ti attacca dopo questo attacco. quell'attacco non riceve la carta potenziamento.",
 		"traits": "Criminale."
 	},
 	{
-		"boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce.",
 		"code": "07025",
 		"name": "Lavoro di Coppia",
-		"text": "<b>Quando Rivelata</b>: Rivela 1 carta dalla cima del mazzo del criminale la cui trama secondaria possiede meno minacce (2 carte dalla cima del suo mazzo se invece è l'unico criminale in gioco)."
+		"text": "<b>Quando Rivelata</b>: Rivela 1 carta dalla cima del mazzo del criminale la cui trama secondaria possiede meno minacce (2 carte dalla cima del suo mazzo se invece è l'unico criminale in gioco).\n<hr />\n[star] <b>Potenziamento</b>: Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce."
 	},
 	{
-		"boost_text": "Se questo attacco è non difeso, scarta 1 miglioria che controlli.",
 		"code": "07026",
 		"name": "Caos nella Prigione",
-		"text": "<b>Quando rivelata</b>: Scegli se scartare 1 miglioria che controlli oppure collocare 1 minaccia sulla trama secondaria del criminale attivo per ogni miglioria che controlli. Se non controlli alcuna miglioria, questa carta ottiene Impulso."
+		"text": "<b>Quando rivelata</b>: Scegli se scartare 1 miglioria che controlli oppure collocare 1 minaccia sulla trama secondaria del criminale attivo per ogni miglioria che controlli. Se non controlli alcuna miglioria, questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Se questo attacco è non difeso, scarta 1 miglioria che controlli."
 	},
 	{
-		"boost_text": "Infliggi 1 danno al personaggio difensore.",
 		"code": "07027",
 		"name": "Proiettili a Energia",
-		"text": "<b>Quando Rivelata</b>: Infliggi 1 danno a ogni personaggio amico che controlli."
+		"text": "<b>Quando Rivelata</b>: Infliggi 1 danno a ogni personaggio amico che controlli.\n<hr />\n[star] <b>Potenziamento</b>: Infliggi 1 danno al personaggio difensore."
 	},
 	{
 		"code": "07028",
@@ -168,10 +151,9 @@
 		"text": "<b>Quando Rivelata (Alter Ego)</b>: Il criminale la cui trama secondaria possiede meno minacce trama.\n<b>Quando Rivelata (Eroe)</b>: Il criminale la cui trama secondaria possiede meno minacce ti attacca."
 	},
 	{
-		"boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Quel criminale trama.",
 		"code": "07029",
 		"name": "Non Vedevo l'Ora",
-		"text": "<b>Quando Rivelata</b>: Il criminale attivo si cura 3 danni. Irrobustisci quel criminale."
+		"text": "<b>Quando Rivelata</b>: Il criminale attivo si cura 3 danni. Irrobustisci quel criminale.\n<hr />\n[star] <b>Potenziamento</b>: Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Quel criminale trama."
 	},
 	{
 		"code": "07030",
@@ -186,15 +168,13 @@
 	{
 		"code": "07032",
 		"name": "Piledriver",
-		"scheme_text": "Quando Piledriver trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale.",
-		"text": "Ritorsione 1.",
+		"text": "Ritorsione 1.\n[star] Quando Piledriver trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale.",
 		"traits": "Squadra di Demolizione"
 	},
 	{
 		"code": "07033",
 		"name": "Piledriver",
-		"scheme_text": "Quando Piledriver trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale.",
-		"text": "Ritorsione 1.",
+		"text": "Ritorsione 1.\n[star] Quando Piledriver trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale.",
 		"traits": "Squadra di Demolizione"
 	},
 	{
@@ -219,17 +199,15 @@
 		"traits": "Traditore."
 	},
 	{
-		"boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Se sei nella sembianza di ere, quel criminale ti attacca dopo questo attacco. quell'attacco non riceve la carta potenziamento.",
 		"code": "07038",
 		"name": "Carcerato in Fuga",
-		"text": "Impulso",
+		"text": "Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Se sei nella sembianza di ere, quel criminale ti attacca dopo questo attacco. quell'attacco non riceve la carta potenziamento.",
 		"traits": "Criminale."
 	},
 	{
-		"boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce.",
 		"code": "07039",
 		"name": "Lavoro di Coppia",
-		"text": "<b>Quando Rivelata</b>: Rivela 1 carta dalla cima del mazzo del criminale la cui trama secondaria possiede meno minacce (2 carte dalla cima del suo mazzo se invece è l'unico criminale in gioco)."
+		"text": "<b>Quando Rivelata</b>: Rivela 1 carta dalla cima del mazzo del criminale la cui trama secondaria possiede meno minacce (2 carte dalla cima del suo mazzo se invece è l'unico criminale in gioco).\n<hr />\n[star] <b>Potenziamento</b>: Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce."
 	},
 	{
 		"code": "07040",
@@ -237,22 +215,19 @@
 		"text": "<b>Quando Rivelata (Alter Ego)</b>: Il criminale la cui trama secondaria possiede meno minacce trama.\n<b>Quando Rivelata (Eroe)</b>: Il criminale la cui trama secondaria possiede meno minacce ti attacca."
 	},
 	{
-		"boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Quel criminale trama.",
 		"code": "07041",
 		"name": "Non Vedevo l'Ora",
-		"text": "<b>Quando Rivelata</b>: Il criminale attivo si cura 3 danni. Irrobustisci quel criminale."
+		"text": "<b>Quando Rivelata</b>: Il criminale attivo si cura 3 danni. Irrobustisci quel criminale.\n<hr />\n[star] <b>Potenziamento</b>: Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Quel criminale trama."
 	},
 	{
-		"boost_text": "Scarta 1 supporto che controlli.",
 		"code": "07042",
 		"name": "Mani Fuori scala",
-		"text": "<b>Quando Rivelata</b>: Scarta il supporto dal costo più alto che controlli. Se nessun supporto è stato scartato in questo modo, colloca 2 minacce sulla trama secondaria del criminale attivo."
+		"text": "<b>Quando Rivelata</b>: Scarta il supporto dal costo più alto che controlli. Se nessun supporto è stato scartato in questo modo, colloca 2 minacce sulla trama secondaria del criminale attivo.\n<hr />\n[star] <b>Potenziamento</b>: Scarta 1 supporto che controlli."
 	},
 	{
-		"boost_text": "Irrobustisci il criminale attivo. Se è già robusto, colloca 2 minacce sulla sua trama secondaria.",
 		"code": "07043",
 		"name": "Piano di Fuga",
-		"text": "<b>Quando Rivelata</b>: Sei confuso. Se sei già confuso, Piledriver trama."
+		"text": "<b>Quando Rivelata</b>: Sei confuso. Se sei già confuso, Piledriver trama.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci il criminale attivo. Se è già robusto, colloca 2 minacce sulla sua trama secondaria."
 	},
 	{
 		"code": "07044",
@@ -260,23 +235,20 @@
 		"text": "<b>Quando Rivelata (Alter Ego)</b>: Piledriver trama. Se Piledriver è robusto, riceve +2 TRA per questa attivazione.\n<b>Quando Rivelata (Eroe)</b>: Piledriver ti attacca. Se Piledriver è robusto, riceve +2 ATT per questa attivazione."
 	},
 	{
-		"boost_text": "Sei confuso.",
 		"code": "07045",
 		"name": "Resilienza Incredibile",
-		"text": "<b>Quando Rivelata</b>: rimuovi da ogni criminale ogni carta status Stordito e Confuso. Se nessuna carta status è stata rimossa in questo modo, questa carta ottiene Impulso."
+		"text": "<b>Quando Rivelata</b>: rimuovi da ogni criminale ogni carta status Stordito e Confuso. Se nessuna carta status è stata rimossa in questo modo, questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Sei confuso."
 	},
 	{
-		"attack_text": "<b>Interruzione Obbligata</b>: Quando Bulldozer attacca, l'attacco ottiene Sopraffazione..",
 		"code": "07046",
 		"name": "Bulldozer",
-		"scheme_text": "Quando Bulldozer trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale.",
+		"text": "[star] Quando Bulldozer trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale.\n[star] <b>Interruzione Obbligata</b>: Quando Bulldozer attacca, l'attacco ottiene Sopraffazione.",
 		"traits": "Squadra di Demolizione"
 	},
 	{
-		"attack_text": "<b>Interruzione Obbligata</b>: Quando Bulldozer attacca, l'attacco ottiene Sopraffazione..",
 		"code": "07047",
 		"name": "Bulldozer",
-		"scheme_text": "Quando Bulldozer trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale.",
+		"text": "[star] Quando Bulldozer trama, colloca le minacce sulla sua trama secondaria invece che sulla trama principale.\n[star] <b>Interruzione Obbligata</b>: Quando Bulldozer attacca, l'attacco ottiene Sopraffazione.",
 		"traits": "Squadra di Demolizione"
 	},
 	{
@@ -285,10 +257,9 @@
 		"text": "<i><b>Trama Secondaria di Bulldozer.</i></b>\n<i>Mentre Bulldozer è in gioco, questa carta non può uscire dal gioco.</i>.\n<i>Carica!</i> -- <b>Risposta Obbligata</b>: Dopo che 1 o più minacce sono state collocate su questa trama, se ci sono 10 o più minacce su questa trama, ogni giocatore deve scartare 10 carte dalla cima del suo mazzo. Rimuovi da questa trama tutte le minacce tranne 3."
 	},
 	{
-		"attack_text": "<b>Risposta Obbligata</b>: Dopo che Bulldozer ti ha attaccato, scarta 1 carta dalla cima del tuo mazzo per ogni danno inflitto da quest'attacco.",
 		"code": "07049",
 		"name": "Elmo di Bulldozer",
-		"text": "Assegna a Bulldozer.\n<b>Azione Eroe</b>: Esaurisci il tuo eroe e scarta 1 carta casuale dalla tua mano → scarta questa carta.",
+		"text": "Assegna a Bulldozer.\n[star] <b>Risposta Obbligata</b>: Dopo che Bulldozer ti ha attaccato, scarta 1 carta dalla cima del tuo mazzo per ogni danno inflitto da quest'attacco.\n<b>Azione Eroe</b>: Esaurisci il tuo eroe e scarta 1 carta casuale dalla tua mano → scarta questa carta.",
 		"traits": "Armatura."
 	},
 	{
@@ -297,10 +268,9 @@
 		"text": "Assegna alla trama secondaria del criminale attivo.\nNon è possibile rimuovere minacce dalla trama con questa aggiunta tramite un intervento.\n<b>Azione Eroe</b>: Il criminale corrispondente alla trama secondaria con questa aggiunta ti attacca. Poi scarta questa carta"
 	},
 	{
-		"attack_text": "<b>Interruzione Obbligata</b>: quando bulldozer ti attacca, devi difendere dagli attacchi di Bulldozer con un alleato che controlli, se possibile.\n<b>Risposta Obbligata</b>: Dopo che Bulldozer ti ha attaccato, scarta questa carta.",
 		"code": "07051",
 		"name": "Velocità di Speronamento",
-		"text": "Assegna a Bulldozer. ",
+		"text": "Assegna a Bulldozer.\n[star] <b>Interruzione Obbligata</b>: quando bulldozer ti attacca, devi difendere dagli attacchi di Bulldozer con un alleato che controlli, se possibile.\n[star] <b>Risposta Obbligata</b>: Dopo che Bulldozer ti ha attaccato, scarta questa carta.",
 		"traits": "Condizione."
 	},
 	{
@@ -310,17 +280,15 @@
 		"traits": "Traditore."
 	},
 	{
-		"boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Se sei nella sembianza di ere, quel criminale ti attacca dopo questo attacco. quell'attacco non riceve la carta potenziamento.",
 		"code": "07053",
 		"name": "Carcerato in Fuga",
-		"text": "Impulso",
+		"text": "Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce. Se sei nella sembianza di ere, quel criminale ti attacca dopo questo attacco. quell'attacco non riceve la carta potenziamento.",
 		"traits": "Criminale."
 	},
 	{
-		"boost_text": "Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce.",
 		"code": "07054",
 		"name": "Lavoro di Coppia",
-		"text": "<b>Quando Rivelata</b>: Rivela 1 carta dalla cima del mazzo del criminale la cui trama secondaria possiede meno minacce (2 carte dalla cima del suo mazzo se invece è l'unico criminale in gioco)."
+		"text": "<b>Quando Rivelata</b>: Rivela 1 carta dalla cima del mazzo del criminale la cui trama secondaria possiede meno minacce (2 carte dalla cima del suo mazzo se invece è l'unico criminale in gioco).\n<hr />\n[star] <b>Potenziamento</b>: Sposta il gettone attivo sul criminale la cui trama secondaria possiede meno minacce."
 	},
 	{
 		"code": "07055",
@@ -328,10 +296,9 @@
 		"text": "<b>Quando Rivelata (Alter Ego)</b>: Bulldozer trama. Scarta 1 carta dalla cima del tuo mazzo per ogni minaccia collocata da questa attivazione.\n<b>Quando Rivelata (Eroe)</b>: Bulldozer ti attacca. Scarta 1 carta dalla cima del tuo mazzo per ogni danno inflitto da questo attacco."
 	},
 	{
-		"boost_text": "Se questo attacco è non difeso, scarta 1 miglioria che controlli.",
 		"code": "07056",
 		"name": "Caos nella Prigione",
-		"text": "<b>Quando rivelata</b>: Scegli se scartare 1 miglioria che controlli oppure collocare 1 minaccia sulla trama secondaria del criminale attivo per ogni miglioria che controlli. Se non controlli alcuna miglioria, questa carta ottiene Impulso."
+		"text": "<b>Quando rivelata</b>: Scegli se scartare 1 miglioria che controlli oppure collocare 1 minaccia sulla trama secondaria del criminale attivo per ogni miglioria che controlli. Se non controlli alcuna miglioria, questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Se questo attacco è non difeso, scarta 1 miglioria che controlli."
 	},
 	{
 		"code": "07057",

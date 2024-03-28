@@ -34,10 +34,9 @@
 		"traits": "Armor."
 	},
 	{
-		"attack_text": "<b>Forced Interrupt</b>: When Rhino attacks, the attack gains overkill. <i>(Excess damage to any ally from this attack is dealt to that ally's controller.)</i> At the end of this attack, discard Charge.",
 		"code": "01099",
 		"name": "Charge",
-		"text": "Attach to Rhino."
+		"text": "Attach to Rhino.\n[star] <b>Forced Interrupt</b>: When Rhino attacks, the attack gains overkill. <i>(Excess damage to any ally from this attack is dealt to that ally's controller.)</i> At the end of this attack, discard Charge."
 	},
 	{
 		"code": "01100",
@@ -120,24 +119,22 @@
 		"text": "<b>When Revealed</b>: You are confused. If you are already confused, this card gains surge."
 	},
 	{
-		"attack_text": "<b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"code": "01113",
 		"flavor": "\"Come meet your doom!\"",
 		"name": "Klaw",
+		"text": "[star] <b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"traits": "Masters of Evil."
 	},
 	{
-		"attack_text": "<b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"code": "01114",
 		"name": "Klaw",
-		"text": "<b>When Revealed</b>: Search the encounter deck and discard pile for The \"Immortal\" Klaw and reveal it. Shuffle the encounter deck.",
+		"text": "<b>When Revealed</b>: Search the encounter deck and discard pile for The \"Immortal\" Klaw and reveal it. Shuffle the encounter deck.\n[star] <b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"traits": "Masters of Evil."
 	},
 	{
-		"attack_text": "<b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"code": "01115",
 		"name": "Klaw",
-		"text": "Toughness. <i>(This character enters play with a tough status card.)</i>",
+		"text": "Toughness. <i>(This character enters play with a tough status card.)</i>\n[star] <b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"traits": "Masters of Evil."
 	},
 	{
@@ -157,10 +154,9 @@
 		"text": "<b>If this stage is completed, the players lose the game.</b>"
 	},
 	{
-		"attack_text": "<b>Forced Response</b>: After Klaw attacks and damages a character, stun that character.",
 		"code": "01118",
 		"name": "Sonic Converter",
-		"text": "Attach to Klaw.\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
+		"text": "Attach to Klaw.\n[star] <b>Forced Response</b>: After Klaw attacks and damages a character, stun that character.\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
 		"traits": "Weapon."
 	},
 	{
@@ -176,10 +172,9 @@
 		"traits": "Mercenary."
 	},
 	{
-		"boost_text": "Put Weapons Runner into play engaged with you.",
 		"code": "01121",
 		"name": "Weapons Runner",
-		"text": "Surge. <i>(After this card is revealed, reveal 1 additional encounter card.)</i>",
+		"text": "Surge. <i>(After this card is revealed, reveal 1 additional encounter card.)</i>\n<hr />\n[star] <b>Boost</b>: Put Weapons Runner into play engaged with you.",
 		"traits": "Mercenary."
 	},
 	{
@@ -188,10 +183,9 @@
 		"text": "<b>When Revealed (Alter-Ego)</b>: Discard 1 card at random from your hand.\n<b>When Revealed (Hero)</b>: Klaw attacks you. If this attack does damage, place 1 threat on the main scheme."
 	},
 	{
-		"boost_text": "If this activation deals damage to you, exhaust your hero.",
 		"code": "01123",
 		"name": "Sonic Boom",
-		"text": "<b>When Revealed</b>: Either spend [energy] [mental] [physical] or exhaust each character you control."
+		"text": "<b>When Revealed</b>: Either spend [energy] [mental] [physical] or exhaust each character you control.\n<hr />\n[star] <b>Boost</b>: If this activation deals damage to you, exhaust your hero."
 	},
 	{
 		"code": "01124",
@@ -223,31 +217,27 @@
 		"text": "<b>When Revealed</b>: Discard cards from the encounter deck until a [[Masters of Evil]] minion is discarded. Put that minion into play engaged with the first player."
 	},
 	{
-		"attack_text": "<b>Forced Response</b>: After Radioactive Man attacks you, discard 1 card at random from your hand.",
-		"boost_text": "Discard 1 card at random from your hand.",
 		"code": "01129",
 		"name": "Radioactive Man",
+		"text": "[star] <b>Forced Response</b>: After Radioactive Man attacks you, discard 1 card at random from your hand.\n<hr />\n[star] <b>Boost</b>: Discard 1 card at random from your hand.",
 		"traits": "Elite. Masters of Evil."
 	},
 	{
-		"attack_text": "<b>Forced Interrupt</b>: When Whirlwind attacks you, also resolve his attack against each other hero.",
-		"boost_text": "Deal 1 damage to each hero.",
 		"code": "01130",
 		"name": "Whirlwind",
+		"text": "[star] <b>Forced Interrupt</b>: When Whirlwind attacks you, also resolve his attack against each other hero.\n<hr />\n[star] <b>Boost</b>: Deal 1 damage to each hero.",
 		"traits": "Masters of Evil."
 	},
 	{
-		"attack_text": "<b>Forced Response</b>: After Tiger Shark attacks, give him a tough status card.",
-		"boost_text": "Give the villain a tough status card.",
 		"code": "01131",
 		"name": "Tiger Shark",
+		"text": "[star] <b>Forced Response</b>: After Tiger Shark attacks, give him a tough status card.\n<hr />\n[star] <b>Boost</b>: Give the villain a tough status card.",
 		"traits": "Masters of Evil."
 	},
 	{
-		"attack_text": "The engaged player must defend against Melter's attacks with an ally they control, if able.",
-		"boost_text": "Exhaust each ally you control.",
 		"code": "01132",
 		"name": "Melter",
+		"text": "[star] The engaged player must defend against Melter's attacks with an ally they control, if able.\n<hr />\n[star] <b>Boost</b>: Exhaust each ally you control.",
 		"traits": "Masters of Evil."
 	},
 	{
@@ -256,15 +246,15 @@
 		"text": "<b>When Revealed</b>: Each [[Masters of Evil]] minion attacks the hero it is engaged with. If no attacks were made this way, search the encounter deck and discard pile for a [[Masters of Evil]] minion and put it into play engaged with you, the shuffle the encounter deck."
 	},
 	{
-		"attack_text": "<b>Forced Response</b>: After Ultron attacks you, choose to either place 1 threat on the main scheme or put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"code": "01134",
 		"name": "Ultron",
+		"text": "[star] <b>Forced Response</b>: After Ultron attacks you, choose to either place 1 threat on the main scheme or put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"traits": "Android."
 	},
 	{
-		"attack_text": "<b>Forced Interrupt</b>: When Ultron attacks you, put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion. Until the end of his attack, Ultron gets +1 ATK for each [[Drone]] minion engaged with you.",
 		"code": "01135",
 		"name": "Ultron",
+		"text": "[star] <b>Forced Interrupt</b>: When Ultron attacks you, put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion. Until the end of his attack, Ultron gets +1 ATK for each [[Drone]] minion engaged with you.",
 		"traits": "Android."
 	},
 	{
@@ -305,8 +295,7 @@
 	{
 		"code": "01141",
 		"name": "Program Transmitter",
-		"scheme_text": "<b>Forced Response</b>: After Ultron schemes, place 1 threat on each side scheme.",
-		"text": "Attach to Ultron.\n<b>Hero Action</b>: Exhaust your hero and spend [mental] [mental] resources → discard this card.",
+		"text": "Attach to Ultron.\n[star] <b>Forced Response</b>: After Ultron schemes, place 1 threat on each side scheme.\n<b>Hero Action</b>: Exhaust your hero and spend [mental] [mental] resources → discard this card.",
 		"traits": "Item. Tech."
 	},
 	{
@@ -322,22 +311,19 @@
 		"traits": "Drone."
 	},
 	{
-		"boost_text": "Choose to either spend a [energy] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"code": "01144a",
 		"name": "Android Efficiency",
-		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion."
+		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.\n<hr />\n[star] <b>Boost</b>: Choose to either spend a [energy] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion."
 	},
 	{
-		"boost_text": "Choose to either spend a [mental] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"code": "01144b",
 		"name": "Android Efficiency",
-		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion."
+		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.\n<hr />\n[star] <b>Boost</b>: Choose to either spend a [mental] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion."
 	},
 	{
-		"boost_text": "Choose to either spend a [physical] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"code": "01144c",
 		"name": "Android Efficiency",
-		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion."
+		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.\n<hr />\n[star] <b>Boost</b>: Choose to either spend a [physical] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion."
 	},
 	{
 		"code": "01145",
@@ -345,10 +331,9 @@
 		"text": "<b>When Revealed (Alter-Ego)</b>: Ultron schemes. Discard the top card of your deck for each threat placed this way.\n<b>When Revealed (Hero)</b>: Ultron attacks you. Discard the top card of your deck for each damage dealt by this attack."
 	},
 	{
-		"boost_text": "Ultron heals 1 damage for each [[Drone]] minion engaged with you.",
 		"code": "01146",
 		"name": "Repair Sequence",
-		"text": "<b>When Revealed</b>: Ultron heals 2 damage for each [[Drone]] minion engaged with you. If no damage was healed this way, this card gains surge."
+		"text": "<b>When Revealed</b>: Ultron heals 2 damage for each [[Drone]] minion engaged with you. If no damage was healed this way, this card gains surge.\n<hr />\n[star] <b>Boost</b>: Ultron heals 1 damage for each [[Drone]] minion engaged with you."
 	},
 	{
 		"code": "01147",
@@ -391,10 +376,9 @@
 		"traits": "Weapon."
 	},
 	{
-		"boost_text": "Deal 1 damage to each character you control.",
 		"code": "01154",
 		"name": "Concussive Blast",
-		"text": "<b>When Revealed</b>: Deal 1 damage to each friendly character."
+		"text": "<b>When Revealed</b>: Deal 1 damage to each friendly character.\n<hr />\n[star] <b>Boost</b>: Deal 1 damage to each character you control."
 	},
 	{
 		"code": "01155",
@@ -414,10 +398,9 @@
 		"traits": "암살자. 간부. 용병."
 	},
 	{
-		"boost_text": "빌런에게 강인함 상태 카드를 줍니다.",
 		"code": "01158",
 		"name": "하트 허브",
-		"text": "쇄도<i>(이 카드가 해결된 후, 조우 카드 1장을 더 공개합니다)</i>\n<b>공개될 때</b>: 당신과 교전 중인 모든 하수인과 빌런에게 강인함 상태 카드를 줍니다."
+		"text": "쇄도<i>(이 카드가 해결된 후, 조우 카드 1장을 더 공개합니다)</i>\n<b>공개될 때</b>: 당신과 교전 중인 모든 하수인과 빌런에게 강인함 상태 카드를 줍니다.\n<hr />\n[star] <b>Boost</b>: 빌런에게 강인함 상태 카드를 줍니다."
 	},
 	{
 		"code": "01159",
@@ -449,10 +432,9 @@
 		"traits": "상태."
 	},
 	{
-		"boost_text": "이번 활성화에서 빌런에게 강화 카드 1장을 추가로 줍니다.",
 		"code": "01164",
 		"name": "Titania's Fury",
-		"text": "<b>공개될 때</b>: Titania가 당신의 히어로를 공격합니다. Titania가 공격을 하지 않았다면, Titania가 입은 모든 피해를 치료하고 이 카드는 쇄도를 얻습니다."
+		"text": "<b>공개될 때</b>: Titania가 당신의 히어로를 공격합니다. Titania가 공격을 하지 않았다면, Titania가 입은 모든 피해를 치료하고 이 카드는 쇄도를 얻습니다.\n<hr />\n[star] <b>Boost</b>: 이번 활성화에서 빌런에게 강화 카드 1장을 추가로 줍니다."
 	},
 	{
 		"code": "01165",
@@ -472,10 +454,9 @@
 		"traits": "범죄자."
 	},
 	{
-		"boost_text": "이번 활성화로 아군 캐릭터가 피해를 입는다면 그 캐릭터를 기절시킵니다.",
 		"code": "01168",
 		"name": "급강하 타격",
-		"text": "<b>공개될 때</b>: 당신의 히어로를 기절시킵니다. Vulture가 플레이 영역에 있다면 이 카드는 쇄도를 얻습니다."
+		"text": "<b>공개될 때</b>: 당신의 히어로를 기절시킵니다. Vulture가 플레이 영역에 있다면 이 카드는 쇄도를 얻습니다.\n<hr />\n[star] <b>Boost</b>: 이번 활성화로 아군 캐릭터가 피해를 입는다면 그 캐릭터를 기절시킵니다."
 	},
 	{
 		"code": "01169",
@@ -501,10 +482,9 @@
 		"text": "반격 1<i>(이 캐릭터가 공격받은 후, 공격 중인 캐릭터에게 피해 1점을 입힙니다).</i>"
 	},
 	{
-		"boost_text": "빌런이 방어되지 않은 공격을 하고 있다면, 당신이 조종하고 있는 업그레이드 하나를 선택해 버립니다.",
 		"code": "01173",
 		"name": "전기 채찍 공격",
-		"text": "<b>공개될 때</b>: 하나를 선택합니다. 당신이 조종하는 업그레이드 하나마다 당신의 히어로에게 피해 1점 입히기 / 당신이 조종하는 업그레이드 하나 선택해 버리기."
+		"text": "<b>공개될 때</b>: 하나를 선택합니다. 당신이 조종하는 업그레이드 하나마다 당신의 히어로에게 피해 1점 입히기 / 당신이 조종하는 업그레이드 하나 선택해 버리기.\n<hr />\n[star] <b>Boost</b>: 빌런이 방어되지 않은 공격을 하고 있다면, 당신이 조종하고 있는 업그레이드 하나를 선택해 버립니다."
 	},
 	{
 		"code": "01174",
@@ -521,20 +501,19 @@
 		"code": "01176",
 		"flavor": "사이키 매그니트론은 생각을 현실로 구현하는 크리족의 기기입니다. 이 기기가 Yon-Rogg의 손에 들어간다면 파괴적인 무기가 될 것입니다.",
 		"name": "사이키 매그니트론",
-		"text": "<b>공개될 때</b>: 이 카드에 위협을 1 [per_hero] 만큼 추가로 놓습니다."
+		"text": "<b>공개될 때</b>: 이 카드에 위협을 1[per_hero] 만큼 추가로 놓습니다."
 	},
 	{
-		"attack_text": "<b>강제 반응</b>: Yon-Rogg가 공격한 후, 사이키 매그니트론에 위협을 1만큼 놓습니다.",
 		"code": "01177",
 		"flavor": "\"두렵게 하지 못한다면 진정한 힘이라 할 수 없지.\"",
 		"name": "Yon-Rogg",
+		"text": "[star] <b>강제 반응</b>: Yon-Rogg가 공격한 후, 사이키 매그니트론에 위협을 1만큼 놓습니다.",
 		"traits": "간부. 크리."
 	},
 	{
-		"boost_text": "빌런이 방어되지 않은 공격을 하고 있다면, 주요 음모에 위협을 1만큼 놓습니다.",
 		"code": "01178",
 		"name": "크리 조종장치",
-		"text": "쇄도.<i>(이 카드가 해결된 후, 조우 카드 1장을 더 공개합니다).</i>\n<b>공개될 때</b>: 주요 음모에 위협을 1만큼 놓습니다."
+		"text": "쇄도.<i>(이 카드가 해결된 후, 조우 카드 1장을 더 공개합니다).</i>\n<b>공개될 때</b>: 주요 음모에 위협을 1만큼 놓습니다.\n<hr />\n[star] <b>Boost</b>: 빌런이 방어되지 않은 공격을 하고 있다면, 주요 음모에 위협을 1만큼 놓습니다."
 	},
 	{
 		"code": "01179",
@@ -548,11 +527,9 @@
 		"text": "<b>When Revealed</b>: If Madame Hydra is not in play, search the encounter deck and discard pile for Madame Hydra and put her into play engaged with you, then shuffle the encounter deck. Place 2 additional threat here for each [[Hydra]] enemy in play."
 	},
 	{
-		"attack_text": "<b>Forced Response</b>: After Madame Hydra schemes or attacks, place 2 threat on the Legions of Hydra side scheme.",
 		"code": "01181",
 		"name": "Madame Hydra",
-		"scheme_text": "<b>Forced Response</b>: After Madame Hydra schemes or attacks, place 2 threat on the Legions of Hydra side scheme.",
-		"text": "Madame Hydra cannot take damage while the Legions of Hydra side scheme is in play.",
+		"text": "Madame Hydra cannot take damage while the Legions of Hydra side scheme is in play.\n[star] <b>Forced Response</b>: After Madame Hydra schemes or attacks, place 2 threat on the Legions of Hydra side scheme.",
 		"traits": "Elite. Hydra."
 	},
 	{

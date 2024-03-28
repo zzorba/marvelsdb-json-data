@@ -37,7 +37,7 @@
 		"back_text": "<b>Cuando se muestre esta carta:</b> elige al azar 1 conjunto de Encuentros modular que esté apartado, luego añádelo al mazo de Encuentros y barájalo. Coloca 1 ficha de Aceleración sobre el Plan principal. Cada jugador debe resolver la capacidad \"Juego sucio\" de El Encapuchado siguiendo el orden de jugadores.",
 		"code": "24006",
 		"name": "Estado criminal",
-		"text": "<b>[star] Respuesta obligada:</b> después de colocar Amenaza sobre esta carta durante el primer paso de la fase del Villano, cada jugador debe resolver la capacidad \"Juego sucio\" de El Encapuchado siguiendo el orden de jugadores.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+		"text": "[star] <b>Respuesta obligada</b>: después de colocar Amenaza sobre esta carta durante el primer paso de la fase del Villano, cada jugador debe resolver la capacidad \"Juego sucio\" de El Encapuchado siguiendo el orden de jugadores.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
 	},
 	{
 		"code": "24007",
@@ -51,10 +51,9 @@
 		"traits": "Armadura."
 	},
 	{
-		"boost_text": "muesta esta carta.",
 		"code": "24009",
 		"name": "Pistola de El Encapuchado",
-		"text": "Vincula esta carta a El Encapuchado.\n<b>Acción de Héroe:</b> gasta recursos [mental][physical] → descarta esta carta.",
+		"text": "Vincula esta carta a El Encapuchado.\n<b>Acción de Héroe:</b> gasta recursos [mental][physical] → descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: muesta esta carta.",
 		"traits": "Arma."
 	},
 	{
@@ -69,10 +68,9 @@
 		"text": "Complicación 2[per_hero]. <i>(Cuando se muestre esta carta, coloca 2[per_hero] de Amenaza sobre ella.)</i>\n<b>Interrupción obligada:</b> cuando empiece la fase del Villano, cada jugador debe resolver la capacidad \"Juego sucio\" de El Encapuchado siguiendo el orden de jugadores."
 	},
 	{
-		"boost_text": "después de que termine esta activación, resuelve la capacidad \"Juego sucio\" de El Encapuchado.",
 		"code": "24012",
 		"name": "Reclutar sobre la marcha",
-		"text": "<b>Cuando se muestre esta carta:</b> elige al azar 1 conjunto de Encuentros modular que esté apartado, luego añádelo al mazo de Encuentros y barájalo. Resuelve la capacidad \"Juego sucio\" de El Encapuchado. Retira esta carta de la partida."
+		"text": "<b>Cuando se muestre esta carta</b>: elige al azar 1 conjunto de Encuentros modular que esté apartado, luego añádelo al mazo de Encuentros y barájalo. Resuelve la capacidad \"Juego sucio\" de El Encapuchado. Retira esta carta de la partida.\n<hr />\n[star] <b>Aumento</b>: después de que termine esta activación, resuelve la capacidad \"Juego sucio\" de El Encapuchado."
 	},
 	{
 		"code": "24013",
@@ -86,10 +84,9 @@
 		"text": "<b>Interrupción obligada:</b> cuando un personaje amigo que esté aturdido o confundido vaya a sufrir cualquier cantidad de Daño, dicha cantidad aumenta en 1."
 	},
 	{
-		"attack_text": "<b>Respuesta obligada</b>: después de que el Grifo ataque a un personaje y le inflija Daño, aturde a ese personaje.",
 		"code": "24015",
 		"name": "Griffin",
-		"text": "Ataque veloz.\n<b>Cuando se derrote esta carta:</b> si hay en juego algún personaje amigo aturdido, devuelve el Grifo al mazo de Encuentros y barájalo.",
+		"text": "Ataque veloz.\n[star] <b>Respuesta obligada</b>: después de que el Grifo ataque a un personaje y le inflija Daño, aturde a ese personaje.\n<b>Cuando se derrote esta carta:</b> si hay en juego algún personaje amigo aturdido, devuelve el Grifo al mazo de Encuentros y barájalo.",
 		"traits": "Bruto. Señores del mal."
 	},
 	{
@@ -99,16 +96,14 @@
 		"traits": "Bruto. Banda de fuego cruzado."
 	},
 	{
-		"boost_text": "resuelve la capacidad \"<b>Cuando se muestre esta carta</b>\" de esta carta.",
 		"code": "24017",
 		"name": "Doble amenaza",
-		"text": "<b>Cuando se muestre esta carta:</b> aturde a un personaje que controles. Confunde a un personaje que controles."
+		"text": "<b>Cuando se muestre esta carta:</b> aturde a un personaje que controles. Confunde a un personaje que controles.\n<hr />\n[star] <b>Aumento</b>: resuelve la capacidad \"<b>Cuando se muestre esta carta</b>\" de esta carta."
 	},
 	{
-		"boost_text": "después de que termine esta activación, pon en juego a los Hermanos Grimm enfrentados al jugador inicial.",
 		"code": "24018",
 		"name": "Hermanos Grimm",
-		"text": "[star]<b>interrupción obligada:</b> cuando los Hermanos Grimm se activen contra ti, descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Accesorio. Muestra esa carta.",
+		"text": "[star]<b>interrupción obligada:</b> cuando los Hermanos Grimm se activen contra ti, descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Accesorio. Muestra esa carta.\n<hr />\n[star] <b>Aumento</b>: después de que termine esta activación, pon en juego a los Hermanos Grimm enfrentados al jugador inicial.",
 		"traits": "Señores del mal. Místico."
 	},
 	{
@@ -136,37 +131,33 @@
 		"traits": "Objeto."
 	},
 	{
-		"boost_text": "resuelve la capacidad \"<b>Cuando se muestre esta carta</b>\".",
 		"code": "24023",
 		"name": "Sed de sangre",
-		"text": "<b>Cuando se muestre esta carta:</b> inflige 1 de Daño al personaje amigo que tenga menos Vida restante. Si esto derrota a ese personaje, repite este efecto."
+		"text": "<b>Cuando se muestre esta carta:</b> inflige 1 de Daño al personaje amigo que tenga menos Vida restante. Si esto derrota a ese personaje, repite este efecto.\n<hr />\n[star] <b>Aumento</b>: resuelve la capacidad \"<b>Cuando se muestre esta carta</b>\"."
 	},
 	{
-		"attack_text": "<b>Interrupción obligada:</b> cuando el ataque del Controlador vaya a infligir cualquier cantidad de Daño a un personaje, aumenta esa cantidad tantos puntos como el ATQ de ese personaje.",
 		"code": "24024",
 		"flavor": "\"¡Nadie evita llevar mis discos diabólicos!\"",
 		"name": "Controlador",
+		"text": "[star] <b>Interrupción obligada:</b> cuando el ataque del Controlador vaya a infligir cualquier cantidad de Daño a un personaje, aumenta esa cantidad tantos puntos como el ATQ de ese personaje.",
 		"traits": "Bruto. Banda de fuego cruzado."
 	},
 	{
-		"boost_text": "elige un personaje que controles y agótalo.",
 		"code": "24025",
 		"name": "Corruptor",
-		"text": "<b>Cuando se muestre esta carta:</b> agota todos los Aliados que controles. Coloca 1 de Amenaza sobre el Plan principal por cada Aliado que se haya agotado de este modo.",
+		"text": "<b>Cuando se muestre esta carta:</b> agota todos los Aliados que controles. Coloca 1 de Amenaza sobre el Plan principal por cada Aliado que se haya agotado de este modo.\n<hr />\n[star] <b>Aumento</b>: elige un personaje que controles y agótalo.",
 		"traits": "Criminal. Banda de fuego cruzado."
 	},
 	{
-		"attack_text": "<b>Interrupción obligada:</b> cuando Fuego Cruzado ataca, ataca al personaje amigo que tenga menos Vida restante. Ese ataque gana A distancia y Brutalidad.",
 		"code": "24026",
 		"name": "Fuego Cruzado",
-		"text": "Ataque veloz.",
+		"text": "Ataque veloz.\n[star] <b>Interrupción obligada:</b> cuando Fuego Cruzado ataca, ataca al personaje amigo que tenga menos Vida restante. Ese ataque gana A distancia y Brutalidad.",
 		"traits": "Banda de fuego cruzado. Señores del mal."
 	},
 	{
-		"boost_text": "descarta cartas de la parte superior de tu mazo hasta que descartes un Aliado.",
 		"code": "24027",
 		"name": "Mr. Miedo",
-		"text": "Como coste adicional para que el jugador enfrentado prepare un Héroe o Aliado que controle, ese jugador debe gastar un recurso [mental].",
+		"text": "Como coste adicional para que el jugador enfrentado prepare un Héroe o Aliado que controle, ese jugador debe gastar un recurso [mental].\n<hr />\n[star] <b>Aumento</b>: descarta cartas de la parte superior de tu mazo hasta que descartes un Aliado.",
 		"traits": "Criminal. Banda de fuego cruzado."
 	},
 	{
@@ -175,10 +166,9 @@
 		"text": "<b>Cuando se muestre esta carta:</b> descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Esbirro de la [[Banda de fuego cruzado]]. Muestra ese Esbirro. Sufres tanto Daño indirecto como el número de Esbirro de la [[Banda de fuego cruzado]] que haya en juego."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> coge 1 carta de Encuentro boca abajo.",
 		"code": "24029",
 		"name": "Crueles intenciones",
-		"text": "Peligro. Oleada.\n<b>Cuando se muestre esta carta:</b> reparte a cada jugador 1 carta de Encuentro boca abajo. Dale al Villano 1 carta de aumento boca abajo."
+		"text": "Peligro. Oleada.\n<b>Cuando se muestre esta carta:</b> reparte a cada jugador 1 carta de Encuentro boca abajo. Dale al Villano 1 carta de aumento boca abajo.\n<hr />\n[star] <b>Aumento</b>: coge 1 carta de Encuentro boca abajo."
 	},
 	{
 		"code": "24030",
@@ -191,10 +181,9 @@
 		"text": "Incitar 1. Peligro.\n<b>Cuando se muestre esta carta:</b> busca tu Esbirro Archienemigo en el mazo de Encuentros, en su pila de descartes y entre las cartas apartadas, y ponlo en juego enfrentado a ti. <i>Baraja el mazo.)</i>"
 	},
 	{
-		"boost_text": "<b>Aumento:</b> inflige 1 de Daño a cada personaje que controles. Dale al Villano 1 carta de aumento adicional para esta activación.",
 		"code": "24032",
 		"name": "A brazo partido",
-		"text": "Peligro. Oleada.\n<b>Cuando se muestre esta carta:</b> agota tu carta de Superhéroe. Sufres 2 de Daño."
+		"text": "Peligro. Oleada.\n<b>Cuando se muestre esta carta:</b> agota tu carta de Superhéroe. Sufres 2 de Daño.\n<hr />\n[star] <b>Aumento</b>: inflige 1 de Daño a cada personaje que controles. Dale al Villano 1 carta de aumento adicional para esta activación."
 	},
 	{
 		"code": "24033",
@@ -220,10 +209,9 @@
 		"text": "<b>Cuando se muestre esta carta:</b> si Calvin Zabo está en juego, ejecuta el Plan con +3 PLA y luego sufre 4 de Daño. Si Mr. Hyde está en juego, dale una carta de Estado \"Duro\" y te ataca <i>(incluso aunque tengas adoptada la identidad de tu Alter ego)</i>. Si ninguno de los dos está en juego, esta carta gana Oleada."
 	},
 	{
-		"attack_text": "Los ataques del Esbirro vinculado infligen Daño indirecto.",
 		"code": "24037",
 		"name": "Lanzallamas",
-		"text": "Vincula esta carta al Esbirro que tenga más Vida restante. Si no es posible, busca un Esbirro en el mazo de Encuentros y en su pila de descartes, ponlo en juego enfrentado a ti y vincúlales esta carta. <i>(Baraja el mazo.)</i>",
+		"text": "Vincula esta carta al Esbirro que tenga más Vida restante. Si no es posible, busca un Esbirro en el mazo de Encuentros y en su pila de descartes, ponlo en juego enfrentado a ti y vincúlales esta carta. <i>(Baraja el mazo.)</i>\n[star] Los ataques del Esbirro vinculado infligen Daño indirecto.",
 		"traits": "Tecnología. Arma."
 	},
 	{
@@ -239,10 +227,9 @@
 		"traits": "Objeto. Tecnología."
 	},
 	{
-		"attack_text": "Los ataques del Esbirro vinculado ganan Brutalidad.",
 		"code": "24040",
 		"name": "Guanteletes tecnificados",
-		"text": "Vincula esta carta al Esbirro que tenga más Vida restante. Si no es posible, esta carta gana Oleada.\nEl Esbirro vinculado recibe +3 de Vida.",
+		"text": "Vincula esta carta al Esbirro que tenga más Vida restante. Si no es posible, esta carta gana Oleada.\nEl Esbirro vinculado recibe +3 de Vida.\n[star] Los ataques del Esbirro vinculado ganan Brutalidad.",
 		"traits": "Tecnología. Arma."
 	},
 	{
@@ -257,38 +244,33 @@
 		"text": "<b>Cuando se muestre esta carta:</b> busca un Esbirro [[Criminal]] en el mazo de Encuentro y ponlo en juego enfrentado a ti. <i>(Baraja el mazo.)</i> Si no se pone en juego ningún Esbirro de este modo, esta carta gana Oleada."
 	},
 	{
-		"attack_text": "<b>Respuesta obligada:</b> después de que la Escarabajo ataque y te inflija Daño, descarta la Mejora de coste más bajo que controles.",
-		"boost_text": "elige una Mejora que controle y decártala.",
 		"code": "24043",
 		"name": "Escarabajo",
+		"text": "[star] <b>Respuesta obligada:</b> después de que la Escarabajo ataque y te inflija Daño, descarta la Mejora de coste más bajo que controles.\n<hr />\n[star] <b>Aumento</b>: elige una Mejora que controle y decártala.",
 		"traits": "Criminal."
 	},
 	{
-		"attack_text": "<b>Respuesta obligada:</b> después de que Búmerang te ataque, inflige 1 de Daño a cada Aliado que controles.",
-		"boost_text": "inflige 2 de Daño a un Aliado que controles.",
 		"code": "24044",
 		"name": "Búmerang",
+		"text": "[star] <b>Respuesta obligada:</b> después de que Búmerang te ataque, inflige 1 de Daño a cada Aliado que controles.\n<hr />\n[star] <b>Aumento</b>: inflige 2 de Daño a un Aliado que controles.",
 		"traits": "Criminal. Señores del mal."
 	},
 	{
-		"boost_text": "aturde al personaje que controles que tenga la puntuación más alta de ATQ.",
 		"code": "24045",
 		"name": "Conmocionador",
-		"text": "<b>Respuesta obligada:</b> Adespués de que el Conmocionador sea atacado, aturde al personaje atacante.",
+		"text": "<b>Respuesta obligada:</b> Adespués de que el Conmocionador sea atacado, aturde al personaje atacante.\n<hr />\n[star] <b>Aumento</b>: aturde al personaje que controles que tenga la puntuación más alta de ATQ.",
 		"traits": "Criminal. Señores del mal."
 	},
 	{
-		"boost_text": "descarta el Apoyo con el coste más bajo que controles.",
 		"code": "24046",
 		"name": "Demonio Veloz",
-		"text": "<b>Interrupción obligada:</b> cuando un personaje ataque a Demonio Veloz, éste ataca a ese personaje. <i>(El ataque de Demonio Veloz se resuelve primero.)</i>",
+		"text": "<b>Interrupción obligada:</b> cuando un personaje ataque a Demonio Veloz, éste ataca a ese personaje. <i>(El ataque de Demonio Veloz se resuelve primero.)</i>\n<hr />\n[star] <b>Aumento</b>: descarta el Apoyo con el coste más bajo que controles.",
 		"traits": "Criminal."
 	},
 	{
-		"attack_text": "<b>Interrupción obligada:</b> cuando Coneja Blanca te ataque, descarta 1 carta de tu mano al azar.",
-		"boost_text": "elije 1 carta de tu mano que sea específica de un Superhéroe y descártala.",
 		"code": "24047",
 		"name": "Coneja Blanca",
+		"text": "[star] <b>Interrupción obligada:</b> cuando Coneja Blanca te ataque, descarta 1 carta de tu mano al azar.\n<hr />\n[star] <b>Aumento</b>: elije 1 carta de tu mano que sea específica de un Superhéroe y descártala.",
 		"traits": "Criminal."
 	},
 	{
@@ -303,10 +285,9 @@
 		"text": "Permanente. Inicio.\nEl Villano gana Tesón. <i>(Un personaje con Tesón requiere 2 cartas de Estado del mismo tipo para quedar aturdido o confundido.)</i>"
 	},
 	{
-		"boost_text": "dale al Villano 1 carta de aumento adicional para esta activación.",
 		"code": "24050",
 		"name": "Tratos turbios",
-		"text": "<b>Cuando se muestre esta carta:</b> el Villano ejecuta el Plan con +1 PLA."
+		"text": "<b>Cuando se muestre esta carta:</b> el Villano ejecuta el Plan con +1 PLA.\n<hr />\n[star] <b>Aumento</b>: dale al Villano 1 carta de aumento adicional para esta activación."
 	},
 	{
 		"code": "24051",
@@ -314,10 +295,9 @@
 		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> descarta las 7 primeras cartas del mazo de Encuentros. Pon en juego enfrentado a ti al primer Esbirro descartado de este modo.\n<b>Cuando se muestre esta carta (Héroe):</b> el Villano y todos los Esbirros que estén enfrentados a ti te atacan. Esta carta gana Oleada."
 	},
 	{
-		"boost_text": "dale al Villano 1 carta de aumento adicional para esta activación.",
 		"code": "24052",
 		"name": "Fuerza abrumadora",
-		"text": "<b>Cuando se muestre esta carta:</b> descarta la Mejora o Apoyo con el coste más alto que controles. Si no se descarta ninguna carta de este modo, esta carta gana Oleada."
+		"text": "<b>Cuando se muestre esta carta:</b> descarta la Mejora o Apoyo con el coste más alto que controles. Si no se descarta ninguna carta de este modo, esta carta gana Oleada.\n<hr />\n[star] <b>Aumento</b>: dale al Villano 1 carta de aumento adicional para esta activación."
 	},
 	{
 		"code": "24053",
@@ -325,10 +305,9 @@
 		"text": "<b>Cuando se muestre esta carta:</b> muestra tu Esbirro Archienemigo que está apartado y ponlo en juego enfrentado a ti. Muestra el Plan secundario de tu Archienemigo que está apartado y ponlo en juego. Mezcla el resto del conjunto de Encuentros apartado de tu Archienemigo con el mazo de Encuentros y barájalo. Si tu Esbirro Archienemigo no estra en juego de este modo, esta carta gana Oleada."
 	},
 	{
-		"boost_text": "si el Villano está atacando, este ataque gana Brutalidad.",
 		"code": "24054",
 		"name": "Aniquilación total",
-		"text": "Oleada.\n<b>Cuando se muestre esta carta (Héroe):</b> el Villano te ataca. Ese ataque gana Brutalidad."
+		"text": "Oleada.\n<b>Cuando se muestre esta carta (Héroe):</b> el Villano te ataca. Ese ataque gana Brutalidad.\n<hr />\n[star] <b>Aumento</b>: si el Villano está atacando, este ataque gana Brutalidad."
 	},
 	{
 		"code": "24055",
@@ -354,10 +333,9 @@
 		"text": "<b>Cuando se muestre esta carta:</b> descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Esbirro, luego pon en juego ese Esbirro enfrentado a ti."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> resuelve la capacidad \"<b>Cuando se muestre esta carta</b>\" de esta carta.",
 		"code": "24059",
 		"name": "Emergencias por toda la ciudad",
-		"text": "<b>Cuando se muestre esta carta:</b> resuelve las capacidades del tipo \"<b>Cuando se muestre esta carta</b>\" de todos los Planes secundarios que haya en juego. Si no se resuelve ninguna capacidad del tipo \"<b>Cuando se muestre esta carta</b>\" de este modo, coloca 2 de Amenaza sobre cada Plan."
+		"text": "<b>Cuando se muestre esta carta:</b> resuelve las capacidades del tipo \"<b>Cuando se muestre esta carta</b>\" de todos los Planes secundarios que haya en juego. Si no se resuelve ninguna capacidad del tipo \"<b>Cuando se muestre esta carta</b>\" de este modo, coloca 2 de Amenaza sobre cada Plan.\n<hr />\n[star] <b>Aumento</b>: resuelve la capacidad \"<b>Cuando se muestre esta carta</b>\" de esta carta."
 	},
 	{
 		"code": "24060",
@@ -390,19 +368,17 @@
 		"text": "Complicación 2[per_hero]. <i>(Cuando se muestre esta carta, coloca 2[per_hero] de Amenaza sobre ella.)</i>\nEl Villano y todos los Esbirros [[Élite]] ganan Represalia 1."
 	},
 	{
-		"attack_text": "Mientas Destructor esté atacando, recibe +2 ATQ si es un ataque no defendido.",
 		"code": "24065",
 		"flavor": "\"¡Eres carne muerta a punto para ser macerada!\"",
 		"name": "Destructor",
-		"text": "Infame. <i>(Cuando este Esbirro se active, dale una carta de aumento.)</i>",
+		"text": "Infame. <i>(Cuando este Esbirro se active, dale una carta de aumento.)</i>\n[star] Mientas Destructor esté atacando, recibe +2 ATQ si es un ataque no defendido.",
 		"traits": "Bruto. Élite."
 	},
 	{
-		"attack_text": "Los ataques de Bulldozer ganan Brutalidad.",
 		"code": "24066",
 		"flavor": "\"¡Nada se interpone en el camino de Bulldozer!\"",
 		"name": "Bulldozer",
-		"text": "Infame. <i>(Cuando este Esbirro se active, dale una carta de aumento.)</i>",
+		"text": "Infame. <i>(Cuando este Esbirro se active, dale una carta de aumento.)</i>\n[star] Los ataques de Bulldozer ganan Brutalidad.",
 		"traits": "Bruto. Élite."
 	},
 	{
@@ -413,18 +389,16 @@
 		"traits": "Bruto. Élite."
 	},
 	{
-		"attack_text": "<b>Respuesta obligada:</b> después de que Bola de Trueno te ataque, inflige 1 de Daño a todos los personajes que controles.",
 		"code": "24068",
 		"flavor": "\"¡Dadles duro! ¡Es la hora e la demolición!\"",
 		"name": "Bola de Trueno",
-		"text": "Infame. <i>(Cuando este Esbirro se active, dale una carta de aumento.)</i>",
+		"text": "Infame. <i>(Cuando este Esbirro se active, dale una carta de aumento.)</i>\n[star] <b>Respuesta obligada:</b> después de que Bola de Trueno te ataque, inflige 1 de Daño a todos los personajes que controles.",
 		"traits": "Bruto. Élite."
 	},
 	{
-		"boost_text": "<b>Aumento:</b> por cada Esbirro [[Élite]] que haya en juego, esta carta recibe +1 icono de Aumento ([boost]) para esta activación.",
 		"code": "24069",
 		"name": "Esfuerzo combinado",
-		"text": "<b>Cuando se muestre esta carta:</b> cada Esbirro [[Élite]] que esté en juego se activa contra el jugador al que esté enfrentado. Si no se activa ningún Esbirro de este modo, esta carta gana Oleada."
+		"text": "<b>Cuando se muestre esta carta:</b> cada Esbirro [[Élite]] que esté en juego se activa contra el jugador al que esté enfrentado. Si no se activa ningún Esbirro de este modo, esta carta gana Oleada.\n<hr />\n[star] <b>Aumento</b>: por cada Esbirro [[Élite]] que haya en juego, esta carta recibe +1 icono de Aumento ([boost]) para esta activación."
 	},
 	{
 		"code": "24070",

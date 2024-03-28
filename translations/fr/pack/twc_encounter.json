@@ -6,17 +6,15 @@
 		"text": "[star] <b>Réponse forcée</b> : après l'étape un de la phase du Méchant, placez 1 menace sur chaque manigance annexe. Déplacez le jeton Actif vers le méchant dont la manigance a le plus de menaces <i>(En cas d'égalité, le premier joueur choisit.)</i>\n<b>Si ce stade est achevé, les joueurs perdent la partie</b>"
 	},
 	{
-		"attack_text": "Tant que le Démolisseur attaque, il gagne +2 ATQ si l'attaque est non défendue.",
 		"code": "07002",
 		"name": "Le Démolisseur",
-		"scheme_text": "Quand Le Démolisseur manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.",
+		"text": "[star] Quand Le Démolisseur manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.\n[star] Tant que le Démolisseur attaque, il gagne +2 ATQ si l'attaque est non défendue.",
 		"traits": "Les Démolisseurs."
 	},
 	{
-		"attack_text": "Tant que le Démolisseur attaque, il gagne +2 ATQ si l'attaque est non défendue.",
 		"code": "07003",
 		"name": "Le Démolisseur",
-		"scheme_text": "Quand Le Démolisseur manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.",
+		"text": "[star] Quand Le Démolisseur manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.\n[star] Tant que le Démolisseur attaque, il gagne +2 ATQ si l'attaque est non défendue.",
 		"traits": "Les Démolisseurs."
 	},
 	{
@@ -30,16 +28,14 @@
 		"text": "Attachez cette carte à la manigance annexe du méchant actif.\nLes menaces ne peuvent pas être retirées de la manigance attachée en contrant.\n<b>Action de héros</b> : le méchant correspondant à la manigance annexe attachée vous attaque. Ensuite, défaussez cette carte."
 	},
 	{
-		"attack_text": "<b>Réponse forcée</b> : après que Le Démolisseur a attaqué, placez 1 menace sur la manigance annexe ayant le moins de menaces.",
 		"code": "07006",
 		"name": "Pied-de-Biche Magique",
-		"text": "Attachez cette carte sur Le Démolisseur.\n<b>Action de héros</b> : inclinez votre héros et défaussez 1 carte prise au hasard dans votre main → défaussez cette carte."
+		"text": "Attachez cette carte sur Le Démolisseur.\n[star] <b>Réponse forcée</b> : après que Le Démolisseur a attaqué, placez 1 menace sur la manigance annexe ayant le moins de menaces.\n<b>Action de héros</b> : inclinez votre héros et défaussez 1 carte prise au hasard dans votre main → défaussez cette carte."
 	},
 	{
 		"code": "07007",
 		"name": "Ordre du Démolisseur",
-		"scheme_text": "<b>Réponse forcée</b> : après que Le Démolisseur a manigancé, placez 1 menace sur la manigance annexe de chaque autre méchant.",
-		"text": "Attachez cette carte sur le Démolisseur.\n<b>Action de héros</b> : dépensez les ressources suivantes : [physical] [physical] → défaussez cette carte."
+		"text": "Attachez cette carte sur le Démolisseur.\n[star] <b>Réponse forcée</b> : après que Le Démolisseur a manigancé, placez 1 menace sur la manigance annexe de chaque autre méchant.\n<b>Action de héros</b> : dépensez les ressources suivantes : [physical] [physical] → défaussez cette carte."
 	},
 	{
 		"code": "07008",
@@ -48,23 +44,20 @@
 		"traits": "Traître."
 	},
 	{
-		"boost_text": "déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Si vous êtes sous forme de héros, ce méchant vous attaque après cette attaque. Cette nouvelle attaque ne reçoit pas de carte de boost.",
 		"code": "07009",
 		"name": "Détenu en Fuite",
-		"text": "Renfort",
+		"text": "Renfort\n<hr />\n[star] <b>Boost</b>: déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Si vous êtes sous forme de héros, ce méchant vous attaque après cette attaque. Cette nouvelle attaque ne reçoit pas de carte de boost.",
 		"traits": "Criminel."
 	},
 	{
-		"boost_text": "déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces.",
 		"code": "07010",
 		"name": "Travailler en Binôme",
-		"text": "<b>Une fois révélée</b> : choisissez le méchant dont la manigance annexe a le moins de menaces. Révélez la carte du dessus de son deck (les 2 cartes du dessus à la place s'il s'agit du seul méchant en jeu)."
+		"text": "<b>Une fois révélée</b> : choisissez le méchant dont la manigance annexe a le moins de menaces. Révélez la carte du dessus de son deck (les 2 cartes du dessus à la place s'il s'agit du seul méchant en jeu).\n<hr />\n[star] <b>Boost</b>: déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces."
 	},
 	{
-		"boost_text": "si cette attaque est non défendue, défaussez une amélioration que vous contrôlez.",
 		"code": "07011",
 		"name": "Chaos dans la Prison",
-		"text": "<b>Une fois révélée</b> : choisissez : soit vous défaussez une amélioration que vous contrôlez, soit vous placez 1 menace sur la manigance annexe du méchant actif pour chaque amélioration que vous contrôlez. Si vous ne contrôlez aucune amélioration, cette carte gagne Renfort."
+		"text": "<b>Une fois révélée</b> : choisissez : soit vous défaussez une amélioration que vous contrôlez, soit vous placez 1 menace sur la manigance annexe du méchant actif pour chaque amélioration que vous contrôlez. Si vous ne contrôlez aucune amélioration, cette carte gagne Renfort.\n<hr />\n[star] <b>Boost</b>: si cette attaque est non défendue, défaussez une amélioration que vous contrôlez."
 	},
 	{
 		"code": "07012",
@@ -77,16 +70,14 @@
 		"text": "<b>Une fois révélée (alter ego)</b> : le méchant dont la manigance annexe a le plus de menaces manigance.\n<b>Une fois révélée (héros)</b> : le méchant dont la manigance annexe a le moins de menaces vous attaque."
 	},
 	{
-		"boost_text": "déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Ce dernier manigance.",
 		"code": "07014",
 		"name": "\"Depuis le Temps que j'Attends ça !\"",
-		"text": "<b>Une fois révélée</b> : le méchant actif se soigne de 3 dégâts. Donnez-lui une carte d'état Tenace."
+		"text": "<b>Une fois révélée</b> : le méchant actif se soigne de 3 dégâts. Donnez-lui une carte d'état Tenace.\n<hr />\n[star] <b>Boost</b>: déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Ce dernier manigance."
 	},
 	{
-		"boost_text": "Le Démolisseur gagne +3 ATQ pour cette activation sauf si vous placez 2 menaces sur sa manigance annexe.",
 		"code": "07015",
 		"name": "Lien Mystique",
-		"text": "<b>Une fois révélée</b> : placez 2 menaces sur chaque manigance annexe."
+		"text": "<b>Une fois révélée</b> : placez 2 menaces sur chaque manigance annexe.\n[star] <b>Boost</b>: Le Démolisseur gagne +3 ATQ pour cette activation sauf si vous placez 2 menaces sur sa manigance annexe."
 	},
 	{
 		"code": "07016",
@@ -94,17 +85,15 @@
 		"text": "<b>Une fois révélée</b> : infligez 1 dégât au héros ou à l'allié avec le moins de points de vie restants. Si ce personnage est vaincu par cet effet, placez 3 menaces sur la manigance annexe du Démolisseur."
 	},
 	{
-		"attack_text": "<b>Réponse forcée</b> : après que le Boulet vous a attaqué, infligez 1 dégât à chaque personnage que vous contrôlez.",
 		"code": "07017",
 		"name": "Le Boulet",
-		"scheme_text": "Quand le Boulet manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.",
+		"text": "[star] Quand le Boulet manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.\n[star] <b>Réponse forcée</b> : après que le Boulet vous a attaqué, infligez 1 dégât à chaque personnage que vous contrôlez.",
 		"traits": "Les Démolisseurs."
 	},
 	{
-		"attack_text": "<b>Réponse forcée</b> : après que le Boulet vous a attaqué, infligez 1 dégât à chaque personnage que vous contrôlez.",
 		"code": "07018",
 		"name": "Le Boulet",
-		"scheme_text": "Quand le Boulet manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.",
+		"text": "[star] Quand le Boulet manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.\n[star] <b>Réponse forcée</b> : après que le Boulet vous a attaqué, infligez 1 dégât à chaque personnage que vous contrôlez.",
 		"traits": "Les Démolisseurs."
 	},
 	{
@@ -113,10 +102,9 @@
 		"text": "<i><b>Manigance annexe du Boulet.</b></i>\nCette carte ne peut pas quitter le jeu tant que le Boulet est en jeu.\n<i>Démolition Gamma</i> — <b>Réponse forcée</b> : après que de la menace a été placée sur cette carte, s'il y a au moins 10 menaces dessus, sonnez chaque personnage ami. Retirez toutes les menaces de cette manigance sauf 3."
 	},
 	{
-		"attack_text": "<b>Réponse forcée</b> : après que Le Boulet a attaqué, placez 1 menace sur la manigance principale.",
 		"code": "07020",
 		"name": "Chaîne et Boulet",
-		"text": "Attachez cette carte sur Le Boulet.\n<b>Action de héros</b> : inclinez votre héros et défaussez 1 carte prise au hasard dans votre main → défaussez cette carte.",
+		"text": "Attachez cette carte sur Le Boulet.\n[star] <b>Réponse forcée</b> : après que Le Boulet a attaqué, placez 1 menace sur la manigance principale.\n<b>Action de héros</b> : inclinez votre héros et défaussez 1 carte prise au hasard dans votre main → défaussez cette carte.",
 		"traits": "Arme."
 	},
 	{
@@ -125,10 +113,9 @@
 		"text": "Attachez cette carte à la manigance annexe du méchant actif.\nLes menaces ne peuvent pas être retirées de la manigance attachée en contrant.\n<b>Action de héros</b> : le méchant correspondant à la manigance annexe attachée vous attaque. Ensuite, défaussez cette carte."
 	},
 	{
-		"attack_text": "<b>Réponse forcée</b> : après que Le Boulet a attaqué, défaussez cette carte.",
 		"code": "07022",
 		"name": "Accumulation de Radioactivité",
-		"text": "Attachez cette carte sur Le Boulet.\nLes dégâts en excès infligés par Le Boulet sont placés sur sa manigance annexe en tant que menaces."
+		"text": "Attachez cette carte sur Le Boulet.\nLes dégâts en excès infligés par Le Boulet sont placés sur sa manigance annexe en tant que menaces.\n[star] <b>Réponse forcée</b> : après que Le Boulet a attaqué, défaussez cette carte."
 	},
 	{
 		"code": "07023",
@@ -137,29 +124,25 @@
 		"traits": "Traître."
 	},
 	{
-		"boost_text": "déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Si vous êtes sous forme de héros, ce méchant vous attaque après cette attaque. Cette nouvelle attaque ne reçoit pas de carte de boost.",
 		"code": "07024",
 		"name": "Détenu en Fuite",
-		"text": "Renfort",
+		"text": "Renfort\n<hr />\n[star] <b>Boost</b>: déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Si vous êtes sous forme de héros, ce méchant vous attaque après cette attaque. Cette nouvelle attaque ne reçoit pas de carte de boost.",
 		"traits": "Criminel."
 	},
 	{
-		"boost_text": "déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces.",
 		"code": "07025",
 		"name": "Travailler en Binôme",
-		"text": "<b>Une fois révélée</b> : choisissez le méchant dont la manigance annexe a le moins de menaces. Révélez la carte du dessus de son deck (les 2 cartes du dessus à la place s'il s'agit du seul méchant en jeu)."
+		"text": "<b>Une fois révélée</b> : choisissez le méchant dont la manigance annexe a le moins de menaces. Révélez la carte du dessus de son deck (les 2 cartes du dessus à la place s'il s'agit du seul méchant en jeu).\n<hr />\n[star] <b>Boost</b>: déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces."
 	},
 	{
-		"boost_text": "si cette attaque est non défendue, défaussez une amélioration que vous contrôlez.",
 		"code": "07026",
 		"name": "Chaos dans la Prison",
-		"text": "<b>Une fois révélée</b> : choisissez : soit vous défaussez une amélioration que vous contrôlez, soit vous placez 1 menace sur la manigance annexe du méchant actif pour chaque amélioration que vous contrôlez. Si vous ne contrôlez aucune amélioration, cette carte gagne Renfort."
+		"text": "<b>Une fois révélée</b> : choisissez : soit vous défaussez une amélioration que vous contrôlez, soit vous placez 1 menace sur la manigance annexe du méchant actif pour chaque amélioration que vous contrôlez. Si vous ne contrôlez aucune amélioration, cette carte gagne Renfort.\n<hr />\n[star] <b>Boost</b>: si cette attaque est non défendue, défaussez une amélioration que vous contrôlez."
 	},
 	{
-		"boost_text": "infligez 1 dégât au personnage défenseur.",
 		"code": "07027",
 		"name": "Projectiles Énergétiques",
-		"text": "<b>Une fois révélée</b> : infligez 1 dégât à chaque personnage ami que vous contrôlez."
+		"text": "<b>Une fois révélée</b> : infligez 1 dégât à chaque personnage ami que vous contrôlez.\n<hr />\n[star] <b>Boost</b>: infligez 1 dégât au personnage défenseur."
 	},
 	{
 		"code": "07028",
@@ -167,10 +150,9 @@
 		"text": "<b>Une fois révélée (alter ego)</b> : le méchant dont la manigance annexe a le plus de menaces manigance.\n<b>Une fois révélée (héros)</b> : le méchant dont la manigance annexe a le moins de menaces vous attaque."
 	},
 	{
-		"boost_text": "déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Ce dernier manigance.",
 		"code": "07029",
 		"name": "\"Depuis le Temps que j'Attends ça !\"",
-		"text": "<b>Une fois révélée</b> : le méchant actif se soigne de 3 dégâts. Donnez-lui une carte d'état Tenace."
+		"text": "<b>Une fois révélée</b> : le méchant actif se soigne de 3 dégâts. Donnez-lui une carte d'état Tenace.\n<hr />\n[star] <b>Boost</b>: déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Ce dernier manigance."
 	},
 	{
 		"code": "07030",
@@ -185,15 +167,13 @@
 	{
 		"code": "07032",
 		"name": "Le Compresseur",
-		"scheme_text": "Quand Le Compresseur manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.",
-		"text": "Riposte 1.",
+		"text": "Riposte 1.\n[star] Quand Le Compresseur manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.",
 		"traits": "Les Démolisseurs."
 	},
 	{
 		"code": "07033",
 		"name": "Le Compresseur",
-		"scheme_text": "Quand Le Compresseur manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.",
-		"text": "Riposte 1.",
+		"text": "Riposte 1.\n[star] Quand Le Compresseur manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.",
 		"traits": "Les Démolisseurs."
 	},
 	{
@@ -218,17 +198,15 @@
 		"traits": "Traître."
 	},
 	{
-		"boost_text": "déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Si vous êtes sous forme de héros, ce méchant vous attaque après cette attaque. Cette nouvelle attaque ne reçoit pas de carte de boost.",
 		"code": "07038",
 		"name": "Détenu en Fuite",
-		"text": "Renfort",
+		"text": "Renfort.\n<hr />\n[star] <b>Boost</b>: déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Si vous êtes sous forme de héros, ce méchant vous attaque après cette attaque. Cette nouvelle attaque ne reçoit pas de carte de boost.",
 		"traits": "Criminel."
 	},
 	{
-		"boost_text": "déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces.",
 		"code": "07039",
 		"name": "Travailler en Binôme",
-		"text": "<b>Une fois révélée</b> : choisissez le méchant dont la manigance annexe a le moins de menaces. Révélez la carte du dessus de son deck (les 2 cartes du dessus à la place s'il s'agit du seul méchant en jeu)."
+		"text": "<b>Une fois révélée</b> : choisissez le méchant dont la manigance annexe a le moins de menaces. Révélez la carte du dessus de son deck (les 2 cartes du dessus à la place s'il s'agit du seul méchant en jeu).\n<hr />\n[star] <b>Boost</b>: déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces."
 	},
 	{
 		"code": "07040",
@@ -236,22 +214,19 @@
 		"text": "<b>Une fois révélée (alter ego)</b> : le méchant dont la manigance annexe a le plus de menaces manigance.\n<b>Une fois révélée (héros)</b> : le méchant dont la manigance annexe a le moins de menaces vous attaque."
 	},
 	{
-		"boost_text": "déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Ce dernier manigance.",
 		"code": "07041",
 		"name": "\"Depuis le Temps que j'Attends ça !\"",
-		"text": "<b>Une fois révélée</b> : le méchant actif se soigne de 3 dégâts. Donnez-lui une carte d'état Tenace."
+		"text": "<b>Une fois révélée</b> : le méchant actif se soigne de 3 dégâts. Donnez-lui une carte d'état Tenace.\n<hr />\n[star] <b>Boost</b>: déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Ce dernier manigance."
 	},
 	{
-		"boost_text": "défaussez un soutien que vous contrôlez.",
 		"code": "07042",
 		"name": "Mains Immenses",
-		"text": "<b>Une fois révélée</b> : défaussez le soutien que vous contrôlez ayant le coût le plus élevé. Si aucun soutien n'est défaussé par cet effet, placez 2 menaces sur la manigance du méchant actif."
+		"text": "<b>Une fois révélée</b> : défaussez le soutien que vous contrôlez ayant le coût le plus élevé. Si aucun soutien n'est défaussé par cet effet, placez 2 menaces sur la manigance du méchant actif.\n<hr />\n[star] <b>Boost</b>: défaussez un soutien que vous contrôlez."
 	},
 	{
-		"boost_text": "donnez une carte d'état Tenace au méchant actif. S'il a déjà une carte d'état Tenace, placez 2 menaces sur sa manigance.",
 		"code": "07043",
 		"name": "Projet de Fuite",
-		"text": "<b>Une fois révélée</b> : Vous êtes désorienté. Si vous êtes déjà désorienté, Le Compresseur manigance."
+		"text": "<b>Une fois révélée</b> : Vous êtes désorienté. Si vous êtes déjà désorienté, Le Compresseur manigance.\n<hr />\n[star] <b>Boost</b>: donnez une carte d'état Tenace au méchant actif. S'il a déjà une carte d'état Tenace, placez 2 menaces sur sa manigance."
 	},
 	{
 		"code": "07044",
@@ -259,23 +234,20 @@
 		"text": "<b>Une fois révélée (alter ego)</b> : Le Compresseur manigance. Si le Compresseur est tenace, il gagne +2 MNG pour cette activation.\n<b>Une fois révélée (héros)</b> : Le Compresseur vous attaque. Si Le Compresseur est tenace, il gagne +2 ATQ pour cette activation."
 	},
 	{
-		"boost_text": "Vous êtes désorienté.",
 		"code": "07045",
 		"name": "Incroyable Résistance",
-		"text": "<b>Une fois révélée</b> : retirez chaque carte d'état Sonné et Désorienté de chaque méchant. Si aucune carte d'état n'est retirée par cet effet, cette carte gagne Renfort."
+		"text": "<b>Une fois révélée</b> : retirez chaque carte d'état Sonné et Désorienté de chaque méchant. Si aucune carte d'état n'est retirée par cet effet, cette carte gagne Renfort.\n<hr />\n[star] <b>Boost</b>: Vous êtes désorienté."
 	},
 	{
-		"attack_text": "<b>Interruption forcée</b> : quand le Bulldozer attaque, l'attaque gagne Déferlement.",
 		"code": "07046",
 		"name": "Le Bulldozer",
-		"scheme_text": "Quand Le Bulldozer manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.",
+		"text": "[star] Quand Le Bulldozer manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.\n[star] <b>Interruption forcée</b> : quand le Bulldozer attaque, l'attaque gagne Déferlement.",
 		"traits": "Les Démolisseurs."
 	},
 	{
-		"attack_text": "<b>Interruption forcée</b> : quand le Bulldozer attaque, l'attaque gagne Déferlement.",
 		"code": "07047",
 		"name": "Le Bulldozer",
-		"scheme_text": "Quand Le Bulldozer manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.",
+		"text": "[star] Quand Le Bulldozer manigance, placez les menaces sur sa manigance annexe au lieu de la manigance principale.\n[star] <b>Interruption forcée</b> : quand le Bulldozer attaque, l'attaque gagne Déferlement.",
 		"traits": "Les Démolisseurs."
 	},
 	{
@@ -284,10 +256,9 @@
 		"text": "<i><b>Manigance annexe du Bulldozer.</b></i>\nCette carte ne peut pas quitter le jeu tant que Le Bulldozer est en jeu.\n<i>Charger !</!> — <b>Réponse forcée</b> : après que de la menace a été placée sur cette carte, s'il y a au moins 10 menaces dessus, chaque joueur doit défausser les 10 cartes du dessus de son deck. Retirez toutes les menaces de cette manigance sauf 3."
 	},
 	{
-		"attack_text": "<b>Réponse forcée</b> : après que Le Bulldozer vous a attaqué, défaussez 1 carte du dessus de votre deck pour chaque dégât infligé par cette attaque.",
 		"code": "07049",
 		"name": "Casque du Bulldozer",
-		"text": "Attachez cette carte sur Le Bulldozer.\n<b>Action de héros</b> : inclinez votre héros et défaussez 1 carte prise au hasard dans votre main → défaussez cette carte.",
+		"text": "Attachez cette carte sur Le Bulldozer.\n[star] <b>Réponse forcée</b> : après que Le Bulldozer vous a attaqué, défaussez 1 carte du dessus de votre deck pour chaque dégât infligé par cette attaque.\n<b>Action de héros</b> : inclinez votre héros et défaussez 1 carte prise au hasard dans votre main → défaussez cette carte.",
 		"traits": "Armure."
 	},
 	{
@@ -296,10 +267,9 @@
 		"text": "Attachez cette carte à la manigance annexe du méchant actif.\nLes menaces ne peuvent pas être retirées de la manigance attachée en contrant.\n<b>Action de héros</b> : le méchant correspondant à la manigance annexe attachée vous attaque. Ensuite, défaussez cette carte."
 	},
 	{
-		"attack_text": "<b>Interruption forcée</b> : quand Le Bulldozer vous attaque, vous devez défendre contre ses attaques avec un allié que vous contrôlez, si possible.\n<b>Réponse forcée</b> : après que Le Bulldozer vous a attaqué, défaussez cette carte.",
 		"code": "07051",
 		"name": "Vitesse de Charge",
-		"text": "Attachez cette carte sur Le Bulldozer."
+		"text": "Attachez cette carte sur Le Bulldozer.\n[star] <b>Interruption forcée</b> : quand Le Bulldozer vous attaque, vous devez défendre contre ses attaques avec un allié que vous contrôlez, si possible.\n[star] <b>Réponse forcée</b> : après que Le Bulldozer vous a attaqué, défaussez cette carte."
 	},
 	{
 		"code": "07052",
@@ -308,17 +278,15 @@
 		"traits": "Traître."
 	},
 	{
-		"boost_text": "déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Si vous êtes sous forme de héros, ce méchant vous attaque après cette attaque. Cette nouvelle attaque ne reçoit pas de carte de boost.",
 		"code": "07053",
 		"name": "Détenu en Fuite",
-		"text": "Renfort",
+		"text": "Renfort.\n<hr />\n[star] <b>Boost</b>: déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces. Si vous êtes sous forme de héros, ce méchant vous attaque après cette attaque. Cette nouvelle attaque ne reçoit pas de carte de boost.",
 		"traits": "Criminel."
 	},
 	{
-		"boost_text": "déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces.",
 		"code": "07054",
 		"name": "Travailler en Binôme",
-		"text": "<b>Une fois révélée</b> : choisissez le méchant dont la manigance annexe a le moins de menaces. Révélez la carte du dessus de son deck (les 2 cartes du dessus à la place s'il s'agit du seul méchant en jeu)."
+		"text": "<b>Une fois révélée</b> : choisissez le méchant dont la manigance annexe a le moins de menaces. Révélez la carte du dessus de son deck (les 2 cartes du dessus à la place s'il s'agit du seul méchant en jeu).\n<hr />\n[star] <b>Boost</b>: déplacez le jeton Actif vers le méchant dont la manigance annexe a le moins de menaces."
 	},
 	{
 		"code": "07055",
@@ -326,10 +294,9 @@
 		"text": "<b>Une fois révélée (alter ego)</b> : Le Bulldozer manigance. Défaussez la carte du dessus de votre deck pour chaque menace placée par cette activation.\n<b>Une fois révélée (héros)</b> : Le Bulldozer vous attaque. Défaussez la carte du dessus de votre deck pour chaque dégât infligé par cette attaque."
 	},
 	{
-		"boost_text": "si cette attaque est non défendue, défaussez une amélioration que vous contrôlez.",
 		"code": "07056",
 		"name": "Chaos dans la Prison",
-		"text": "<b>Une fois révélée</b> : choisissez : soit vous défaussez une amélioration que vous contrôlez, soit vous placez 1 menace sur la manigance annexe du méchant actif pour chaque amélioration que vous contrôlez. Si vous ne contrôlez aucune amélioration, cette carte gagne Renfort."
+		"text": "<b>Une fois révélée</b> : choisissez : soit vous défaussez une amélioration que vous contrôlez, soit vous placez 1 menace sur la manigance annexe du méchant actif pour chaque amélioration que vous contrôlez. Si vous ne contrôlez aucune amélioration, cette carte gagne Renfort.\n<hr />\n[star] <b>Boost</b>: si cette attaque est non défendue, défaussez une amélioration que vous contrôlez."
 	},
 	{
 		"code": "07057",

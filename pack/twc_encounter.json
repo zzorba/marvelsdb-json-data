@@ -7,6 +7,7 @@
 		"double_sided": true,
 		"escalation_threat": 1,
 		"escalation_threat_fixed": true,
+		"escalation_threat_star": true,
 		"faction_code": "encounter",
 		"name": "Breakout",
 		"octgn_id": "0a41a3f9-9056-48d9-a2f1-908cfc6adc05",
@@ -22,7 +23,7 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
+		"attack_star": true,
 		"code": "07002",
 		"faction_code": "encounter",
 		"health": 14,
@@ -34,16 +35,17 @@
 		"position": 2,
 		"quantity": 1,
 		"scheme": 2,
-		"scheme_text": "When Wrecker schemes, place the threat on his side scheme instead of the main scheme.",
+		"scheme_star": true,
 		"set_code": "wrecker",
 		"set_position": 1,
 		"stage": 1,
+		"text": "[star] When Wrecker schemes, place the threat on his side scheme instead of the main scheme.\n[star] While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 3,
-		"attack_text": "While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
+		"attack_star": true,
 		"code": "07003",
 		"faction_code": "encounter",
 		"health": 18,
@@ -55,10 +57,11 @@
 		"position": 3,
 		"quantity": 1,
 		"scheme": 3,
-		"scheme_text": "When Wrecker schemes, place the threat on his side scheme instead of the main scheme.",
+		"scheme_star": true,
 		"set_code": "wrecker",
 		"set_position": 2,
 		"stage": 2,
+		"text": "[star] When Wrecker schemes, place the threat on his side scheme instead of the main scheme.\n[star] While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
 	},
@@ -93,7 +96,7 @@
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Response</b>: After Wrecker attacks, place 1 threat on the side scheme with the least threat.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "07006",
 		"faction_code": "encounter",
@@ -105,7 +108,7 @@
 		"quantity": 1,
 		"set_code": "wrecker",
 		"set_position": 5,
-		"text": "Attach to Wrecker.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
+		"text": "Attach to Wrecker.\n[star] <b>Forced Response</b>: After Wrecker attacks, place 1 threat on the side scheme with the least threat.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
 		"type_code": "attachment"
 	},
 	{
@@ -119,10 +122,10 @@
 		"position": 7,
 		"quantity": 1,
 		"scheme": 1,
-		"scheme_text": "<b>Forced Response</b>: After Wrecker schemes, place 1 threat on each other villain's side scheme.",
+		"scheme_star": true,
 		"set_code": "wrecker",
 		"set_position": 6,
-		"text": "Attach to Wrecker.\n<b>Hero Action</b>: Spend [physical] [physical] resources → discard this card.",
+		"text": "Attach to Wrecker.\n[star] <b>Forced Response</b>: After Wrecker schemes, place 1 threat on each other villain's side scheme.\n<b>Hero Action</b>: Spend [physical] [physical] resources → discard this card.",
 		"type_code": "attachment"
 	},
 	{
@@ -144,7 +147,7 @@
 	},
 	{
 		"attack": 1,
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
+		"boost_star": true,
 		"code": "07009",
 		"faction_code": "encounter",
 		"health": 2,
@@ -156,12 +159,12 @@
 		"scheme": 1,
 		"set_code": "wrecker",
 		"set_position": 8,
-		"text": "Surge",
+		"text": "Surge\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat.",
+		"boost_star": true,
 		"code": "07010",
 		"faction_code": "encounter",
 		"name": "Buddy System",
@@ -171,11 +174,11 @@
 		"quantity": 1,
 		"set_code": "wrecker",
 		"set_position": 9,
-		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).",
+		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat.",
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "If this attack is undefended, discard an upgrade you control.",
+		"boost_star": true,
 		"code": "07011",
 		"faction_code": "encounter",
 		"name": "Chaos In the Prison",
@@ -185,7 +188,7 @@
 		"quantity": 1,
 		"set_code": "wrecker",
 		"set_position": 10,
-		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge.",
+		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge.\n<hr />\n[star] <b>Boost</b>: If this attack is undefended, discard an upgrade you control.",
 		"type_code": "treachery"
 	},
 	{
@@ -217,7 +220,7 @@
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "Move the active counter to the villain with the least threat on his side scheme. That villain schemes.",
+		"boost_star": true,
 		"code": "07014",
 		"faction_code": "encounter",
 		"name": "I've Been Waiting For This!",
@@ -227,11 +230,11 @@
 		"quantity": 1,
 		"set_code": "wrecker",
 		"set_position": 14,
-		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card.",
+		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card.\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain with the least threat on his side scheme. That villain schemes.",
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "Wrecker gets +3 ATK for this activation unless you place 2 threat on his side scheme.",
+		"boost_star": true,
 		"code": "07015",
 		"faction_code": "encounter",
 		"name": "Mystical Link",
@@ -241,7 +244,7 @@
 		"quantity": 2,
 		"set_code": "wrecker",
 		"set_position": 15,
-		"text": "<b>When Revealed</b>: Place 2 threat on each side scheme.",
+		"text": "<b>When Revealed</b>: Place 2 threat on each side scheme.\n[star] <b>Boost</b>: Wrecker gets +3 ATK for this activation unless you place 2 threat on his side scheme.",
 		"type_code": "treachery"
 	},
 	{
@@ -260,7 +263,7 @@
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
+		"attack_star": true,
 		"code": "07017",
 		"faction_code": "encounter",
 		"health": 13,
@@ -272,16 +275,17 @@
 		"position": 17,
 		"quantity": 1,
 		"scheme": 3,
-		"scheme_text": "When Thunderball schemes, place the threat on his side scheme instead of the main scheme.",
+		"scheme_star": true,
 		"set_code": "thunderball",
 		"set_position": 1,
 		"stage": 1,
+		"text": "[star] When Thunderball schemes, place the threat on his side scheme instead of the main scheme.\n[star] <b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
+		"attack_star": true,
 		"code": "07018",
 		"faction_code": "encounter",
 		"health": 16,
@@ -293,10 +297,11 @@
 		"position": 18,
 		"quantity": 1,
 		"scheme": 3,
-		"scheme_text": "When Thunderball schemes, place the threat on his side scheme instead of the main scheme.",
+		"scheme_star": true,
 		"set_code": "thunderball",
 		"set_position": 2,
 		"stage": 2,
+		"text": "[star] When Thunderball schemes, place the threat on his side scheme instead of the main scheme.\n[star] <b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
 	},
@@ -317,7 +322,7 @@
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Response</b>: After Thunderball attacks, place 1 threat on the main scheme.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "07020",
 		"faction_code": "encounter",
@@ -329,7 +334,7 @@
 		"quantity": 1,
 		"set_code": "thunderball",
 		"set_position": 4,
-		"text": "Attach to Thunderball.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
+		"text": "Attach to Thunderball.\n[star] <b>Forced Response</b>: After Thunderball attacks, place 1 threat on the main scheme.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -349,7 +354,7 @@
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Response</b>: After Thunderball attacks, discard this card.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "07022",
 		"faction_code": "encounter",
@@ -360,7 +365,7 @@
 		"quantity": 1,
 		"set_code": "thunderball",
 		"set_position": 6,
-		"text": "Attach to Thunderball.\nExcess damage dealt by Thunderball is placed as threat on his corresponding side scheme.",
+		"text": "Attach to Thunderball.\nExcess damage dealt by Thunderball is placed as threat on his corresponding side scheme.\n[star] <b>Forced Response</b>: After Thunderball attacks, discard this card.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -383,7 +388,7 @@
 	},
 	{
 		"attack": 1,
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
+		"boost_star": true,
 		"code": "07024",
 		"faction_code": "encounter",
 		"health": 2,
@@ -395,12 +400,12 @@
 		"scheme": 1,
 		"set_code": "thunderball",
 		"set_position": 8,
-		"text": "Surge",
+		"text": "Surge\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat.",
+		"boost_star": true,
 		"code": "07025",
 		"faction_code": "encounter",
 		"name": "Buddy System",
@@ -410,11 +415,11 @@
 		"quantity": 1,
 		"set_code": "thunderball",
 		"set_position": 9,
-		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).",
+		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat.",
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "If this attack is undefended, discard an upgrade you control.",
+		"boost_star": true,
 		"code": "07026",
 		"faction_code": "encounter",
 		"name": "Chaos In the Prison",
@@ -424,11 +429,11 @@
 		"quantity": 1,
 		"set_code": "thunderball",
 		"set_position": 10,
-		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge.",
+		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge.\n<hr />\n[star] <b>Boost</b>: If this attack is undefended, discard an upgrade you control.",
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "Deal 1 damage to the defending character.",
+		"boost_star": true,
 		"code": "07027",
 		"faction_code": "encounter",
 		"name": "Energy Projectiles",
@@ -438,7 +443,7 @@
 		"quantity": 1,
 		"set_code": "thunderball",
 		"set_position": 11,
-		"text": "<b>When Revealed</b>: Deal 1 damage to each friendly character you control.",
+		"text": "<b>When Revealed</b>: Deal 1 damage to each friendly character you control.\n<hr />\n[star] <b>Boost</b>: Deal 1 damage to the defending character.",
 		"type_code": "treachery"
 	},
 	{
@@ -456,7 +461,7 @@
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "Move the active counter to the villain with the least threat on his side scheme. That villain schemes.",
+		"boost_star": true,
 		"code": "07029",
 		"faction_code": "encounter",
 		"name": "I've Been Waiting For This!",
@@ -466,7 +471,7 @@
 		"quantity": 1,
 		"set_code": "thunderball",
 		"set_position": 14,
-		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card.",
+		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card.\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain with the least threat on his side scheme. That villain schemes.",
 		"type_code": "treachery"
 	},
 	{
@@ -510,11 +515,11 @@
 		"position": 32,
 		"quantity": 1,
 		"scheme": 2,
-		"scheme_text": "When Piledriver schemes, place the threat on his side scheme instead of the main scheme.",
+		"scheme_star": true,
 		"set_code": "piledriver",
 		"set_position": 1,
 		"stage": 1,
-		"text": "Retaliate 1.",
+		"text": "Retaliate 1.\n[star] When Piledriver schemes, place the threat on his side scheme instead of the main scheme.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
 	},
@@ -531,11 +536,11 @@
 		"position": 33,
 		"quantity": 1,
 		"scheme": 2,
-		"scheme_text": "When Wrecker schemes, place the threat on his side scheme instead of the main scheme.",
+		"scheme_star": true,
 		"set_code": "piledriver",
 		"set_position": 2,
 		"stage": 2,
-		"text": "Retaliate 1.",
+		"text": "Retaliate 1.\n[star] When Piledriver schemes, place the threat on his side scheme instead of the main scheme.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
 	},
@@ -601,7 +606,7 @@
 	},
 	{
 		"attack": 1,
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
+		"boost_star": true,
 		"code": "07038",
 		"faction_code": "encounter",
 		"health": 2,
@@ -613,12 +618,12 @@
 		"scheme": 1,
 		"set_code": "piledriver",
 		"set_position": 8,
-		"text": "Surge",
+		"text": "Surge.\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat.",
+		"boost_star": true,
 		"code": "07039",
 		"faction_code": "encounter",
 		"name": "Buddy System",
@@ -628,7 +633,7 @@
 		"quantity": 1,
 		"set_code": "piledriver",
 		"set_position": 9,
-		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).",
+		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat.",
 		"type_code": "treachery"
 	},
 	{
@@ -646,7 +651,7 @@
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "Move the active counter to the villain with the least threat on his side scheme. That villain schemes.",
+		"boost_star": true,
 		"code": "07041",
 		"faction_code": "encounter",
 		"name": "I've Been Waiting For This!",
@@ -656,11 +661,11 @@
 		"quantity": 1,
 		"set_code": "piledriver",
 		"set_position": 11,
-		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card.",
+		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card.\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain with the least threat on his side scheme. That villain schemes.",
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "Discard a support you control.",
+		"boost_star": true,
 		"code": "07042",
 		"faction_code": "encounter",
 		"name": "Oversized Hands",
@@ -670,11 +675,11 @@
 		"quantity": 2,
 		"set_code": "piledriver",
 		"set_position": 12,
-		"text": "<b>When Revealed</b>: Discard the support you control with the highest cost. If no support was discarded this way, place 2 threat on the active villain's scheme.",
+		"text": "<b>When Revealed</b>: Discard the support you control with the highest cost. If no support was discarded this way, place 2 threat on the active villain's scheme.\n<hr />\n[star] <b>Boost</b>: Discard a support you control.",
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "Give the active villain a tough status card. If they already have a tough status card, place 2 threat on their scheme.",
+		"boost_star": true,
 		"code": "07043",
 		"faction_code": "encounter",
 		"name": "Escape Plan",
@@ -684,7 +689,7 @@
 		"quantity": 2,
 		"set_code": "piledriver",
 		"set_position": 14,
-		"text": "<b>When Revealed</b>: You are confused. If you are already confused, Piledriver schemes.",
+		"text": "<b>When Revealed</b>: You are confused. If you are already confused, Piledriver schemes.\n<hr />\n[star] <b>Boost</b>: Give the active villain a tough status card. If they already have a tough status card, place 2 threat on their scheme.",
 		"type_code": "treachery"
 	},
 	{
@@ -702,7 +707,7 @@
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "You are confused.",
+		"boost_star": true,
 		"code": "07045",
 		"faction_code": "encounter",
 		"name": "Uncanny Resilience",
@@ -712,12 +717,12 @@
 		"quantity": 1,
 		"set_code": "piledriver",
 		"set_position": 18,
-		"text": "<b>When Revealed</b>: Remove each stunned and confused status card from each villain. If no status cards were removed, this card gains surge.",
+		"text": "<b>When Revealed</b>: Remove each stunned and confused status card from each villain. If no status cards were removed, this card gains surge.\n<hr />\n[star] <b>Boost</b>: You are confused.",
 		"type_code": "treachery"
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
+		"attack_star": true,
 		"code": "07046",
 		"faction_code": "encounter",
 		"health": 12,
@@ -729,16 +734,17 @@
 		"position": 46,
 		"quantity": 1,
 		"scheme": 1,
-		"scheme_text": "When Piledriver schemes, place the threat on his side scheme instead of the main scheme.",
+		"scheme_star": true,
 		"set_code": "bulldozer",
 		"set_position": 1,
 		"stage": 1,
+		"text": "[star] When Bulldozer schemes, place the threat on his side scheme instead of the main scheme.\n[star] <b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
+		"attack_star": true,
 		"code": "07047",
 		"faction_code": "encounter",
 		"health": 15,
@@ -750,10 +756,11 @@
 		"position": 47,
 		"quantity": 1,
 		"scheme": 2,
-		"scheme_text": "When Bulldozer schemes, place the threat on his side scheme instead of the main scheme.",
+		"scheme_star": true,
 		"set_code": "bulldozer",
 		"set_position": 2,
 		"stage": 2,
+		"text": "[star] When Bulldozer schemes, place the threat on his side scheme instead of the main scheme.\n[star] <b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
 	},
@@ -774,7 +781,7 @@
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Response</b>: After Bulldozer attacks you, discard 1 card from the top of your deck for each point of damage dealt by this attack.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "07049",
 		"faction_code": "encounter",
@@ -786,7 +793,7 @@
 		"quantity": 1,
 		"set_code": "bulldozer",
 		"set_position": 4,
-		"text": "Attach to Bulldozer.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
+		"text": "Attach to Bulldozer.\n[star] <b>Forced Response</b>: After Bulldozer attacks you, discard 1 card from the top of your deck for each point of damage dealt by this attack.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
 		"traits": "Armor.",
 		"type_code": "attachment"
 	},
@@ -806,7 +813,7 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Interrupt</b>: When Bulldozer attacks you, you must defend against Bulldozer's attacks with an ally you control, if able.\n<b>Forced Response</b>: After Bulldozer attacks you, discard this card.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "07051",
 		"faction_code": "encounter",
@@ -817,7 +824,7 @@
 		"quantity": 2,
 		"set_code": "bulldozer",
 		"set_position": 6,
-		"text": "Attach to Bulldozer.",
+		"text": "Attach to Bulldozer.\n[star] <b>Forced Interrupt</b>: When Bulldozer attacks you, you must defend against Bulldozer's attacks with an ally you control, if able.\n[star] <b>Forced Response</b>: After Bulldozer attacks you, discard this card.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -840,7 +847,7 @@
 	},
 	{
 		"attack": 1,
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
+		"boost_star": true,
 		"code": "07053",
 		"faction_code": "encounter",
 		"health": 2,
@@ -852,12 +859,12 @@
 		"scheme": 1,
 		"set_code": "bulldozer",
 		"set_position": 9,
-		"text": "Surge",
+		"text": "Surge.\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
 	{
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat.",
+		"boost_star": true,
 		"code": "07054",
 		"faction_code": "encounter",
 		"name": "Buddy System",
@@ -867,7 +874,7 @@
 		"quantity": 1,
 		"set_code": "bulldozer",
 		"set_position": 10,
-		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).",
+		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat.",
 		"type_code": "treachery"
 	},
 	{
@@ -885,7 +892,7 @@
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "If this attack is undefended, discard an upgrade you control.",
+		"boost_star": true,
 		"code": "07056",
 		"faction_code": "encounter",
 		"name": "Chaos In the Prison",
@@ -895,7 +902,7 @@
 		"quantity": 1,
 		"set_code": "bulldozer",
 		"set_position": 13,
-		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge.",
+		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge.\n<hr />\n[star] <b>Boost</b>: If this attack is undefended, discard an upgrade you control.",
 		"type_code": "treachery"
 	},
 	{

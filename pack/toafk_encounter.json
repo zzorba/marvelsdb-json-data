@@ -1,7 +1,7 @@
 [
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Interrupt:</b> When Kang attacks you, either place 1 threat on the main scheme, or he gets +2 ATK for this attack.",
+		"attack_star": true,
 		"code": "11001",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -18,7 +18,7 @@
 		"set_code": "kang",
 		"set_position": 1,
 		"stage": 1,
-		"text": "Toughness\n<b>When Defeated:</b> Advance the main scheme to stage 2 at the end of the phase.",
+		"text": "Toughness\n[star] <b>Forced Interrupt:</b> When Kang attacks you, either place 1 threat on the main scheme, or he gets +2 ATK for this attack.\n<b>When Defeated:</b> Advance the main scheme to stage 2 at the end of the phase.",
 		"traits": "Temporal.",
 		"type_code": "villain"
 	},
@@ -66,7 +66,7 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "This villain gets +1 ATK for each obligation in play.",
+		"attack_star": true,
 		"code": "11004",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -82,13 +82,13 @@
 		"set_code": "kang",
 		"set_position": 4,
 		"stage": 2,
-		"text": "Toughness.\n<b>When Defeated:</b> Remove the Realm of Rama-Tut from the game. At the end of the phase, join another game area.",
+		"text": "Toughness.\n[star] This villain gets +1 ATK for each obligation in play.\n<b>When Defeated:</b> Remove the Realm of Rama-Tut from the game. At the end of the phase, join another game area.",
 		"traits": "Temporal.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 3,
-		"attack_text": "This villain's attack gains piercing.",
+		"attack_star": true,
 		"code": "11005",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -104,13 +104,13 @@
 		"set_code": "kang",
 		"set_position": 5,
 		"stage": 2,
-		"text": "Toughness.\n<b>When Defeated:</b> Remove The Present Future War from the game. At the end of the phase, join another game area.",
+		"text": "Toughness.\n[star] This villain's attack gains piercing.\n<b>When Defeated:</b> Remove The Present Future War from the game. At the end of the phase, join another game area.",
 		"traits": "Temporal.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Interrupt:</b> When Kang attacks you, either place 1 threat on the main scheme, or he gets +2 ATK for this attack.",
+		"attack_star": true,
 		"code": "11006",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -127,7 +127,7 @@
 		"set_code": "kang",
 		"set_position": 6,
 		"stage": 3,
-		"text": "Toughness.\n<b>When Defeated:</b> The players win the game.",
+		"text": "Toughness.\n[star] <b>Forced Interrupt:</b> When Kang attacks you, either place 1 threat on the main scheme, or he gets +2 ATK for this attack.\n<b>When Defeated:</b> The players win the game.",
 		"traits": "Temporal.",
 		"type_code": "villain"
 	},
@@ -324,7 +324,7 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Interrupt:</b> When Kang attacks, the attack gains overkill. If this attack damages a hero, that hero is stunned. After this attack, discard Future Weapon.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "11015",
 		"deck_limit": 2,
@@ -338,12 +338,12 @@
 		"quantity": 2,
 		"set_code": "kang",
 		"set_position": 16,
-		"text": "Attach to Kang.\n",
+		"text": "Attach to Kang.\n[star] <b>Forced Interrupt:</b> When Kang attacks, the attack gains overkill. If this attack damages a hero, that hero is stunned. After this attack, discard Future Weapon.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
 	{
-		"boost_text": "Attach to your identity.",
+		"boost_star": true,
 		"code": "11016",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -355,13 +355,13 @@
 		"quantity": 1,
 		"set_code": "kang",
 		"set_position": 18,
-		"text": "Attach to your identity.\n<b>Forced Interrupt:</b> When attached character would ready, discard this card instead.",
+		"text": "Attach to your identity.\n<b>Forced Interrupt:</b> When attached character would ready, discard this card instead.\n<hr />\n[star] <b>Boost</b>: Attach to your identity.",
 		"traits": "Temporal.",
 		"type_code": "attachment"
 	},
 	{
 		"attack": 2,
-		"boost_text": "Give Kang a tough status card.",
+		"boost_star": true,
 		"code": "11017",
 		"deck_limit": 3,
 		"faction_code": "encounter",
@@ -375,7 +375,7 @@
 		"scheme": 1,
 		"set_code": "kang",
 		"set_position": 19,
-		"text": "Guard. Retaliate 1.",
+		"text": "Guard. Retaliate 1.\n<hr />\n[star] <b>Boost</b>: Give Kang a tough status card.",
 		"traits": "Robot. Temporal.",
 		"type_code": "minion"
 	},
@@ -557,7 +557,7 @@
 	},
 	{
 		"boost": 1,
-		"boost_text": "This card gains [boost] for each obligation in your play area.",
+		"boost_star": true,
 		"code": "11028",
 		"deck_limit": 2,
 		"faction_code": "encounter",
@@ -569,7 +569,7 @@
 		"quantity": 2,
 		"set_code": "kang",
 		"set_position": 41,
-		"text": "Surge.\n<b>When Revealed:</b> Each player takes 1 indirect damage for each obligation in their play area.",
+		"text": "Surge.\n<b>When Revealed:</b> Each player takes 1 indirect damage for each obligation in their play area.\n<hr />\n[star] <b>Boost</b>: This card gains [boost] for each obligation in your play area.",
 		"type_code": "treachery"
 	},
 	{
@@ -590,7 +590,7 @@
 	},
 	{
 		"attack": 2,
-		"boost_text": "You are stunned.",
+		"boost_star": true,
 		"code": "11030",
 		"deck_limit": 3,
 		"faction_code": "encounter",
@@ -604,13 +604,13 @@
 		"scheme": 1,
 		"set_code": "temporal",
 		"set_position": 1,
-		"text": "Quickstrike.",
+		"text": "Quickstrike.\n<hr />\n[star] <b>Boost</b>: You are stunned.",
 		"traits": "Soldier. Temporal.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Interrupt:</b> When Chitauri Soldier attacks you, discard the top card of the encounter deck → take indirect damage equal to the number of boost icons on that card.",
+		"attack_star": true,
 		"boost": 1,
 		"code": "11031",
 		"deck_limit": 2,
@@ -625,12 +625,13 @@
 		"scheme": 1,
 		"set_code": "temporal",
 		"set_position": 4,
+		"text": "[star] <b>Forced Interrupt:</b> When Chitauri Soldier attacks you, discard the top card of the encounter deck → take indirect damage equal to the number of boost icons on that card.",
 		"traits": "Soldier. Temporal.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 3,
-		"attack_text": "Tyrannosaurus Rex's attacks gain piercing.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "11032",
 		"deck_limit": 1,
@@ -645,7 +646,7 @@
 		"scheme": 0,
 		"set_code": "temporal",
 		"set_position": 6,
-		"text": "Toughness.",
+		"text": "Toughness.\n[star] Tyrannosaurus Rex's attacks gain piercing.",
 		"traits": "Creature. Temporal.",
 		"type_code": "minion"
 	},
@@ -669,7 +670,7 @@
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Interrupt:</b> When Kang attacks you, either place 1 threat on the main scheme, or he gets +2 ATK for this attack.",
+		"attack_star": true,
 		"code": "11034",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -686,7 +687,7 @@
 		"set_code": "exp_kang",
 		"set_position": 1,
 		"stage": 1,
-		"text": "Toughness.\n<b>When Defeated:</b> Advance the main scheme to stage 2 at the end of the phase.",
+		"text": "Toughness.\n[star] <b>Forced Interrupt:</b> When Kang attacks you, either place 1 threat on the main scheme, or he gets +2 ATK for this attack.\n<b>When Defeated:</b> Advance the main scheme to stage 2 at the end of the phase.",
 		"traits": "Temporal.",
 		"type_code": "villain"
 	},
@@ -734,7 +735,7 @@
 	},
 	{
 		"attack": 3,
-		"attack_text": "This villain gets +1 ATK for each obligation in play.",
+		"attack_star": true,
 		"code": "11037",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -750,13 +751,13 @@
 		"set_code": "exp_kang",
 		"set_position": 4,
 		"stage": 2,
-		"text": "Toughness.\n<b>When Defeated:</b> Remove The Realm of Rama-Tut from the game. At the end of the phase, join another game area.",
+		"text": "Toughness.\n[star] This villain gets +1 ATK for each obligation in play.\n<b>When Defeated:</b> Remove The Realm of Rama-Tut from the game. At the end of the phase, join another game area.",
 		"traits": "Temporal.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 4,
-		"attack_text": "This villain's attacks gain piercing.",
+		"attack_star": true,
 		"code": "11038",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -772,13 +773,13 @@
 		"set_code": "exp_kang",
 		"set_position": 5,
 		"stage": 2,
-		"text": "Toughness.\n<b>When Defeated:</b> Remove The Present Future War from the game. At the end of the phase, join another game area.",
+		"text": "Toughness.\n[star] This villain's attacks gain piercing.\n<b>When Defeated:</b> Remove The Present Future War from the game. At the end of the phase, join another game area.",
 		"traits": "Temporal.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Interrupt:</b> When Kang attacks you, either place 1 threat on the main scheme, or he gets +2 ATK for this attack.",
+		"attack_star": true,
 		"code": "11039",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -795,13 +796,13 @@
 		"set_code": "exp_kang",
 		"set_position": 6,
 		"stage": 3,
-		"text": "Toughness.\n<b>When Defeated:</b> The players win the game.",
+		"text": "Toughness.\n[star] <b>Forced Interrupt:</b> When Kang attacks you, either place 1 threat on the main scheme, or he gets +2 ATK for this attack.\n<b>When Defeated:</b> The players win the game.",
 		"traits": "Temporal.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 3,
-		"boost_text": "Exhaust a character you control. Give this enemy another boost card.",
+		"boost_star": true,
 		"code": "11040",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -816,13 +817,13 @@
 		"scheme": 1,
 		"set_code": "anachronauts",
 		"set_position": 1,
-		"text": "<b>When Revealed:</b> Discard an ally or support you control.",
+		"text": "<b>When Revealed:</b> Discard an ally or support you control.\n<hr />\n[star] <b>Boost</b>: Exhaust a character you control. Give this enemy another boost card.",
 		"traits": "Elite. Temporal.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
-		"boost_text": "Give this enemy a tough status card and another boost card.",
+		"boost_star": true,
 		"code": "11041",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -837,13 +838,13 @@
 		"scheme": 1,
 		"set_code": "anachronauts",
 		"set_position": 2,
-		"text": "Toughness. Villainous. <i>(When this minion activates, give it a boost card.)</i>",
+		"text": "Toughness. Villainous. <i>(When this minion activates, give it a boost card.)</i>\n<hr />\n[star] <b>Boost</b>: Give this enemy a tough status card and another boost card.",
 		"traits": "Elite. Temporal.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"boost_text": "Take 1 damage. Give this enemy another boost card.",
+		"boost_star": true,
 		"code": "11042",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -858,14 +859,14 @@
 		"scheme": 1,
 		"set_code": "anachronauts",
 		"set_position": 3,
-		"text": "Guard. Retaliate 1.",
+		"text": "Guard. Retaliate 1.\n<hr />\n[star] <b>Boost</b>: Take 1 damage. Give this enemy another boost card.",
 		"traits": "Elite. Temporal.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"attack_text": "Terminatrix's attacks gain piercing.",
-		"boost_text": "Give this enemy 2 more boost cards.",
+		"attack_star": true,
+		"boost_star": true,
 		"code": "11043",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -880,13 +881,13 @@
 		"scheme": 2,
 		"set_code": "anachronauts",
 		"set_position": 4,
-		"text": "Quickstrike.",
+		"text": "Quickstrike.\n[star] Terminatrix's attacks gain piercing.\n<hr />\n[star] <b>Boost</b>: Give this enemy 2 more boost cards.",
 		"traits": "Elite. Temporal.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"boost_text": "Discard 1 random card from your hand. Give this enemy another boost card.",
+		"boost_star": true,
 		"code": "11044",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -901,7 +902,7 @@
 		"scheme": 1,
 		"set_code": "anachronauts",
 		"set_position": 5,
-		"text": "<b>When Revealed:</b> Discard 1 random card from your hand.",
+		"text": "<b>When Revealed:</b> Discard 1 random card from your hand.\n<hr />\n[star] <b>Boost</b>: Discard 1 random card from your hand. Give this enemy another boost card.",
 		"traits": "Elite. Temporal.",
 		"type_code": "minion"
 	},
@@ -961,7 +962,7 @@
 	},
 	{
 		"attack": 2,
-		"boost_text": "Deal yourself 1 facedown encounter card.",
+		"boost_star": true,
 		"code": "11048",
 		"deck_limit": 2,
 		"faction_code": "encounter",
@@ -975,7 +976,7 @@
 		"scheme": 1,
 		"set_code": "mot",
 		"set_position": 2,
-		"text": "Incite 1. Surge.",
+		"text": "Incite 1. Surge.\n<hr />\n[star] <b>Boost</b>: Deal yourself 1 facedown encounter card.",
 		"traits": "Elite. Temporal.",
 		"type_code": "minion"
 	},
