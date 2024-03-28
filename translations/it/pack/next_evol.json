@@ -1,422 +1,426 @@
 [
-	{
-		"code": "40001a",
-		"flavor": "\"The battle may be won, but the war is far from over.\"",
-		"name": "Cable",
-		"text": "<b>Response</b>: After Cable defeats a side scheme, ready him. (Limit once per phase.)",
-		"traits": "Soldier. X-Force."
-	},
-	{
-		"code": "40001b",
-		"name": "Nathan Summers",
-		"text": "You may include player side schemes from any aspect in your deck.\nSoldier X — <b>Setup</b>: Search your deck and discard pile for a player side scheme and put it into play. <i>(Shuffle.)</i>",
-		"traits": "Mutant. Soldier."
-	},
-	{
-		"code": "40002",
-		"name": "Bodyslide",
-		"text": "<b>Action</b>: Change form. Each other player may change to the form you are in."
-	},
-	{
-		"code": "40003",
-		"name": "Mind Scan",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. Remove 1 additional threat from that scheme for each side scheme in the victory display.",
-		"traits": "Psionic. Superpower. Thwart."
-	},
-	{
-		"code": "40004",
-		"name": "Precognition",
-		"text": "<b>Hero Action</b>: Look at the top X cards of the encounter deck, where X is the number of side schemes in the victory display. You may discard 1 of those cards. Put the rest back in any order.",
-		"traits": "Psionic. Superpower."
-	},
-	{
-		"code": "40005",
-		"name": "Telekinetic Blast",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. Deal 1 additional damage to that enemy for each side scheme in the victory display.",
-		"traits": "Attack. Psionic. Superpower."
-	},
-	{
-		"code": "40006",
-		"name": "Technovirus Purge",
-		"text": "Victory 0.\nCharacters other than Cable cannot remove threat from Technovirus Purge.\nWhile Technovirus Purge is in the victory display, Nathan Summers and Cable gain the [[PSIONIC]] trait and Cable gets +1 THW, +1 ATK, and +1 DEF."
-	},
-	{
-		"code": "40007",
-		"flavor": "Cable's orbital base is operated by the sentient A.I. known as Professor.",
-		"name": "Graymalkin",
-		"text": "<b>Response</b>: After a side scheme is defeated, ready Graymalkin.\n<b>Resource</b>: Exhaust Graymalkin → generate a [energy] resource.",
-		"traits": "Location."
-	},
-	{
-		"code": "40008",
-		"flavor": "\"I'm sorry, Wade. I'm afraid I can't do that.\"",
-		"name": "Professor",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Professor → choose to either draw 1 card or search your deck and discard pile for a player side scheme and add it to your hand. <i>(Shuffle.)</i>",
-		"traits": "Persona. Tech."
-	},
-	{
-		"code": "40009",
-		"name": "Askani'son",
-		"text": "<b>Hero Response</b> <i>(thwart)</i>: After you defend against an enemy attack, exhaust Askani'son and spend a [energy] resource → remove threat from a scheme equal to your hero's THW.",
-		"traits": "Title."
-	},
-	{
-		"code": "40010",
-		"name": "Forced Amnesia",
-		"text": "<b>Hero Response</b>: After a <i>(non-permanent)</i> side scheme is defeated, add Forced Amnesia and that side scheme to the victory display.",
-		"traits": "Psionic. Superpower."
-	},
-	{
-		"code": "40011",
-		"name": "Plasma Rifle",
-		"text": "Restricted.\n<b>Hero Action</b> <i>(attack)</i>: Exhaust Plasma Rifle and spend a [energy] resource → deal 1 damage to an enemy for each side scheme in the victory display (to a maximum of 4). This attack gains ranged.",
-		"traits": "Tech. Weapon."
-	},
-	{
-		"code": "40012",
-		"name": "Telekinetic Force Field",
-		"text": "Hero form only\n<b>Hero Interrupt</b>: When a friendly character would take any amount of damage, discard Telekinetic Force Field → prevent all of that damage.",
-		"traits": "Psionic. Superpower."
-	},
-	{
-		"code": "40013",
-		"name": "Temporal Leap",
-		"text": "<b>Hero Interrupt</b>: When the main scheme would be completed, remove this card from the game and put a side scheme from the victory display into play → move 4 threat from the main scheme to that side scheme.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "40014",
-		"name": "Caliban",
-		"text": "<b>Response</b>: After Caliban enters play, discard cards from the top of your deck until an [[X-FACTOR]], [[X-FORCE]], or [[X-MEN]] ally is discarded. Add that ally to your hand.",
-		"traits": "Psionic. X-Force."
-	},
-	{
-		"code": "40015",
-		"flavor": "\"E.V.A. is more than a vehicle. She's my partner. She's my mutation.\"",
-		"name": "Fantomex",
-		"subname": "Charlie Cluster-7",
-		"text": "<b>Response</b>: After Fantomex enters play, search your deck and discard pile for E.V.A. and put it into play. <i>(Shuffle.)</i>",
-		"traits": "Psionic. X-Force."
-	},
-	{
-		"code": "40016",
-		"name": "Sunspot",
-		"subname": "Bobby Da Costa",
-		"text": "<b>Response</b>: After you play Sunspot from your hand, choose a player → deal 1 damage to the villain and each minion engaged with the chosen player for each [energy] resource used to pay for Sunspot.",
-		"traits": "Aerial. X-Force."
-	},
-	{
-		"code": "40017",
-		"name": "Mission Planning",
-		"text": "Play only if there is a side scheme in the victory display.\n<b>Hero Action</b>: Until the end of the phase, allies you control do not take consequential damage."
-	},
-	{
-		"code": "40018",
-		"flavor": "\"Blue team, rendezvous at my location!\" — Bishop",
-		"name": "Call for Backup",
-		"text": "Victory 0.\n<b>When Defeated</b>: Each player may search their deck and discard pile for an ally and put it into play. <i>(Shuffle.)</i>"
-	},
-	{
-		"code": "40019",
-		"flavor": "\"We'll need guns. Lots of guns.\" — Cable",
-		"name": "Lock and Load",
-		"text": "Victory 0.\n<b>When Defeated</b>: Each player may search their deck and discard pile for a [[WEAPON]] upgrade with a cost of 3 or less and put it into play. <i>(Shuffle.)</i>"
-	},
-	{
-		"code": "40020",
-		"flavor": "\"Don't worry, kids. They won't get through me!\" — Armor",
-		"name": "Establish Perimeter",
-		"text": "Victory 0.\n<b>When Defeated</b>: Give each identity a tough status card."
-	},
-	{
-		"code": "40021",
-		"name": "E.V.A.",
-		"text": "If Fantomex is not in play, discard E.V.A.\n<b>Action</b>: Exhaust E.V.A. → choose:\n• Remove 1 threat from a scheme.\n• Deal 1 damage to an enemy.\n• Heal 1 damage from Fantomex.",
-		"traits": "Vehicle."
-	},
-	{
-		"code": "40022",
-		"name": "Uncanny X-Force",
-		"text": "Play under any player's control. Max 1 [[TEAM]] card per player.\nIf each of your characters has the [[X-FORCE]] trait, each ally you control gets +1 THW and takes -1 consequential damage ([consequential]) after thwarting a side scheme.",
-		"traits": "Team."
-	},
-	{
-		"code": "40023",
-		"name": "Mission Leader",
-		"text": "Reduce the cost to play Mission Leader by 1 if your identity has the [[SOLDIER]] trait.\n<b>Hero Response</b>: After a side scheme is defeated, exhaust Mission Leader → each player draws 1 card.",
-		"traits": "Title."
-	},
-	{
-		"code": "40024",
-		"flavor": "\"...Cable? Not interested. I stream everything.\"",
-		"name": "Deadpool",
-		"subname": "Wade Wilson",
-		"text": "<b>Forced Interrupt</b>: When Deadpool would be defeated by consequential damage, heal 3 damage from him instead. Add an acceleration token to the main scheme.",
-		"traits": "Mercenary. X-Force."
-	},
-	{
-		"code": "40025",
-		"name": "Deathlok",
-		"subname": "Unit L17",
-		"text": "<b>Hero Response</b>: After Deathlok enters play, choose an upgrade in any player's discard pile with a cost of 1 or less that can be attached to Deathlok. Attach that upgrade to Deathlok.",
-		"traits": "Cyborg. X-Force."
-	},
-	{
-		"code": "40026",
-		"name": "Frenemies",
-		"text": "Team-Up (Cable and Deadpool). Max 1 per deck.\n<b>Hero Action</b> <i>(thwart)</i>: Deal 1 damage each to Cable and Deadpool. Remove 3 threat from a scheme and 3 threat from a different scheme.",
-		"traits": "Thwart."
-	},
-	{
-		"code": "40027",
-		"flavor": "\"I've got just the thing.\" — Forge",
-		"name": "Build Support",
-		"text": "Victory 0.\n<b>When Defeated</b>: Each player may search their deck and discard pile for a support with a cost of 3 or less and put it into play. <i>(Shuffle.)</i>"
-	},
-	{
-		"code": "40028",
-		"name": "The Power of the Mind",
-		"text": "Double the number of resources this card generates while paying for a [[PSIONIC]] card."
-	},
-	{
-		"code": "40029",
-		"name": "Psimitar",
-		"text": "Restricted.\n<b>Hero Response</b> <i>(attack)</i>: After you play another [[PSIONIC]] card, exhaust Psimitar → deal 2 damage to an enemy.",
-		"traits": "Psionic. Weapon."
-	},
-	{
-		"code": "40030",
-		"flavor": "\"That gun is not nearly as dangerous as the man who wields it.\" — Cable",
-		"name": "Sidearm",
-		"text": "Attach to an ally. Max 1 per ally.\nAttached ally gets +1 ATK and its attacks gain ranged.",
-		"traits": "Weapon."
-	},
-	{
-		"code": "40037a",
-		"name": "Domino",
-		"text": "When counting resources on cards discarded from the top of the deck, count each printed [wild] icon twice.\n<b>Action</b>: Choose a card in your hand. Swap that card with the top card of your deck. (Limit once per round.)",
-		"traits": "Posse. X-Force."
-	},
-	{
-		"code": "40037b",
-		"name": "Neena Thurman",
-		"text": "<b>Action</b>: Choose a card in your hand. Swap that card with the top card of your discard pile. (Limit once per round.)",
-		"traits": "Mutant."
-	},
-	{
-		"code": "40038",
-		"name": "Diamondback",
-		"subname": "Rachel Leighton",
-		"text": "<b>Action</b>: Exhaust Diamondback, deal 1 damage to her, and discard the top card of your deck → deal 1 damage to each enemy for each resource icon discarded this way.",
-		"traits": "Posse."
-	},
-	{
-		"code": "40039",
-		"name": "Outlaw",
-		"subname": "Inez Temple",
-		"text": "Toughness.\n[star] <b>Interrupt</b>: When Outlaw attacks, discard the top card of your deck → Outlaw gets +1 ATK for this attack for each resource icon discarded this way.",
-		"traits": "Outlaw. Posse."
-	},
-	{
-		"code": "40040",
-		"name": "A Good Workout",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy and discard the top card of your deck. For each resource icon discarded this way, deal 1 additional damage to an enemy."
-	},
-	{
-		"code": "40041",
-		"name": "Luck Be a Lady",
-		"text": "<b>Hero Action</b>: Discard the top card of your deck and count the resources on it. For each resource counted this way, if it is a:\n[energy] - Heal 2 damage from a character.\n[mental] - Remove 2 threat from a scheme.\n[physical] - Deal 3 damage to an enemy.\n[wild] - Choose 1 of the above."
-	},
-	{
-		"code": "40042",
-		"name": "Right Place, Right Time",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme and discard the top card of your deck. For each resource icon discarded this way, remove 1 additional threat from that scheme.",
-		"traits": "Superpower. Thwart."
-	},
-	{
-		"code": "40043",
-		"name": "Jackpot!",
-		"text": "<b>Response</b>: After this card is discarded from the top of your deck, shuffle it back into your deck."
-	},
-	{
-		"code": "40044",
-		"flavor": "\"Did you just piddle on me, you nasty little sausage!\" — Domino",
-		"name": "Pip the Pug",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Pip the Pug → put 1 Domino or [[POSSE]] card from your discard pile on top of your deck.",
-		"traits": "Creature."
-	},
-	{
-		"code": "40045",
-		"name": "The Painted Lady",
-		"text": "<b>Response</b>: After you discard a card from the top of the deck, attach that card facedown here (to a maximum of 3).\n<b>Alter-Ego Action</b>: Exhaust The Painted Lady → add 1 card attached here to your hand.",
-		"traits": "Vehicle."
-	},
-	{
-		"code": "40046",
-		"name": "Domino's Pistol",
-		"text": "Restricted.\n<b>Hero Action</b> <i>(attack)</i>: Exhaust Domino's Pistol, choose an enemy, and discard the top card of your deck → deal 1 damage to that enemy for each resource icon discarded this way. This attack gains ranged.",
-		"traits": "Weapon."
-	},
-	{
-		"code": "40047",
-		"name": "Lucky and Good",
-		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When a boost card is turned faceup during an attack against you, exhaust Lucky and Good → cancel that card's boost icons and \"<b>Potenziamento</b>\" ability. Give the attacking enemy another boost card for this attack.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "40048",
-		"name": "Lucky Break",
-		"text": "<b>Hero Interrupt</b>: When you reveal an encounter card, discard Lucky Break → cancel the effects of that card and discard it. Reveal another card from the encounter deck.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "40049",
-		"name": "Probability Field",
-		"text": "<b>Interrupt</b>: When you use a basic power, discard the top card of your deck → you get +1 to that power for this use for each resource icon discarded this way.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "40050",
-		"flavor": "\"I have caught the prey's scent.\"",
-		"name": "Feral",
-		"subname": "Maria Callasantos",
-		"text": "[star] <b>Response</b>: After Feral thwarts, discard the top card of your deck. For each resource icon discarded this way, deal 1 damage to the villain.",
-		"traits": "X-Force."
-	},
-	{
-		"code": "40051",
-		"name": "Wolfsbane",
-		"subname": "Rahne Sinclair",
-		"text": "[star] <b>Response</b>: After Wolfsbane thwarts, name a card type, then discard the top card of your deck. If that card is of the named type, you may add it to your hand.",
-		"traits": "X-Force."
-	},
-	{
-		"code": "40053",
-		"flavor": "\"If I may coin a phrase, many minds make light work.\" — Beast",
-		"name": "Team Investigation",
-		"text": "Alliance. <i>(The players can pay this card's costs as a group.)</i>\n<b>Hero Action</b>: Remove 3[per_hero] threat from a side scheme."
-	},
-	{
-		"code": "40054",
-		"flavor": "\"Nighty night, bub.\" — Wolverine",
-		"name": "Take Out the Guards",
-		"text": "Victory 0.\n<b>When Defeated</b>: Each player may discard 1 non-[[ELITE]] minion from play."
-	},
-	{
-		"code": "40056",
-		"name": "Atlas Bear",
-		"subname": "Shoon'kwa",
-		"text": "<b>Action</b>: Exhaust Atlas Bear → look at the top card of a player deck. If that card is an event, you may deal 1 damage to Atlas Bear to add that card to its owner's hand.",
-		"traits": "Posse. Wakanda."
-	},
-	{
-		"code": "40057",
-		"flavor": "\"I am the last of my kind. I am the last kumiho!\"",
-		"name": "White Fox",
-		"subname": "Ami Han",
-		"text": "<b>Response</b>: After White Fox is discarded from the top of your deck, put her into play under your control.",
-		"traits": "Posse."
-	},
-	{
-		"code": "40058",
-		"name": "The Posse",
-		"text": "Max 1 per deck.\nPlay only if you control at least 3 characters with the [[POSSE]] trait.\n<b>Hero Action</b>: Heal 1 damage from each [[POSSE]] character and ready them.",
-		"traits": "Posse."
-	},
-	{
-		"code": "40059",
-		"flavor": "\"Class is in session.\" — Charles Xavier",
-		"name": "Superpower Training",
-		"text": "Victory 0.\n<b>When Defeated</b>: Each player may search their deck and discard pile for an identity-specific upgrade and put it into play. <i>(Shuffle.)</i>"
-	},
-	{
-		"code": "40060",
-		"name": "Digging Deep",
-		"text": "<b>Response</b>: After this card is discarded from the top of your deck, add it to your hand."
-	},
-	{
-		"code": "40064",
-		"name": "Sharpshooter",
-		"text": "Max 1 per player. <b>Hero Interrupt</b>: When you make a ranged attack, discard the top card of your deck → this attack deals 1 additional damage for each resource icon discarded this way.",
-		"traits": "Skill."
-	},
-	{
-		"code": "40190a",
-		"name": "Assemble the Team",
-		"text": "This scheme does not count against the player side scheme limit.\n<b>When Defeated</b>: Flip this card and put Team Assembled into play.\n<i>(The ability on Team Assembled allows each player to play an ally from their deck for free.)</i>"
-	},
-	{
-		"code": "40190b",
-		"name": "Team Assembled",
-		"text": "Enters play with 1 assembly counter on it.\n<b>Action</b>: Remove 1 assembly counter from here → each player may search their deck and discard pile for an ally with a printed cost of 3 or less and put it into play. <i>(Any player can do this.)</i>"
-	},
-	{
-		"code": "40191a",
-		"name": "Establish Safehouse",
-		"text": "This scheme does not count against the player side scheme limit.\n<b>When Defeated</b>: Flip this card and put Safehouse Established into play.\n<i>(The ability on Safehouse Established gains the players the Safehouse support card.)</i>"
-	},
-	{
-		"code": "40191b",
-		"name": "Safehouse Established",
-		"text": "Enters play with 1 safehouse counter on it.\n<b>Action</b>: Remove 1 safehouse counter from here → the first player puts the Safehouse support into play under their control. <i>(Safehouse is a campaign card.)</i>"
-	},
-	{
-		"code": "40192a",
-		"name": "Gear Up",
-		"text": "This scheme does not count against the player side scheme limit.\n<b>When Defeated</b>: Flip this card and put Geared Up into play.\n<i>(The ability on Geared Up gains each player a Pouches resource card.)</i>"
-	},
-	{
-		"code": "40192b",
-		"name": "Geared Up",
-		"text": "Enters play with 1 pouch counter on it.\n<b>Action</b>: Remove 1 pouch counter from here → each player shuffles 1 copy of the Pouches resource card into their deck. <i>(Pouches is a campaign card.)</i>"
-	},
-	{
-		"code": "40193a",
-		"name": "Mission Prep",
-		"text": "This scheme does not count against the player side scheme limit.\n<b>When Defeated</b>: Flip this card and put Mission Prepped into play.\n<i>(The ability on Mission Prepped allows each player to play an upgrade from their deck for free.)</i>"
-	},
-	{
-		"code": "40193b",
-		"name": "Mission Prepped",
-		"text": "Enters play with 1 prep counter on it.\n<b>Action</b>: Remove 1 prep counter from here → each player searches their deck and discard pile for 1 upgrade with a printed cost of 2 or less and puts it into play. <i>(Any player can do this.)</i>"
-	},
-	{
-		"code": "40194a",
-		"name": "Practice Maneuvers",
-		"text": "This scheme does not count against the player side scheme limit.\n<b>When Defeated</b>: Flip this card and put Practiced Maneuvers into play.\n<i>(The ability on Practiced Maneuvers provides the players a permanent discount on high-cost event cards.)</i>"
-	},
-	{
-		"code": "40194b",
-		"flavor": "\"Last one through the course does the laundry for a month!\" — Sunspot",
-		"name": "Practiced Maneuvers",
-		"text": "Reduce the cost to play each event with a printed cost of 3 or more by 1."
-	},
-	{
-		"code": "40195a",
-		"name": "Prepare Defenses",
-		"text": "This scheme does not count against the player side scheme limit.\n<b>When Defeated</b>: Flip this card and put Prepared Defenses into play.\n<i>(The ability on Prepared Defenses gains each player a permanent +1 DEF and retaliate 1.)</i>"
-	},
-	{
-		"code": "40195b",
-		"flavor": "\"We've got incoming!\"\n\"They can each my high-velocity diamond shards.\"\n— Rockslide and Bling!",
-		"name": "Prepared Defenses",
-		"text": "Each hero gets +1 DEF and gains retaliate 1."
-	},
-	{
-		"code": "40196",
-		"flavor": "\"I can never remember where I put anything.\" — Deadpool",
-		"name": "Pouches"
-	},
-	{
-		"code": "40197",
-		"name": "Safehouse",
-		"text": "<b>Alter-Ego Action</b>: Choose:\n• Heal 2 damage from your identity.\n• Draw 1 card.\nAny player may trigger this ability. (Limit once per round per player.)",
-		"traits": "Location."
-	},
-	{
-		"code": "40204",
-		"name": "Hope Summers",
-		"text": "Hope Summers gains each [[TRAIT]] on your identity.\n<b>Response</b>: After you play Hope Summers from your hand, search your deck for a [[SUPERPOWER]] card and add it to your hand. <i>(Shuffle.)</i>",
-		"traits": "X-Force."
-	}
+    {
+        "code": "40001a",
+        "flavor": "\"Potremo aver vinto la battaglia, ma la guerra è tutt'altro che finita.\"",
+        "name": "Cable",
+        "text": "<b>Risposta</b>: Dopo che Cable ha sconfitto una trama secondaria, ripristinalo. (Limite di una volta per fase.)",
+        "traits": "Soldato. X-Force."
+    },
+    {
+        "code": "40001b",
+        "name": "Nathan Summers",
+        "text": "Puoi includere nel tuo mazzo trame secondarie giocatore di qualsiasi aspetto.\nSoldato X — <b>Preparazione</b>: Cerca nel tuo mazzo e nella tua pila degli scarti 1 trama secondaria giocatore e mettila in gioco. <i>(Mescola.)</i>",
+        "traits": "Mutante. Soldato."
+    },
+    {
+        "code": 40002,
+        "flavor": "\"Teleporto per due.\" - Cable",
+        "name": "Teleporto",
+        "text": "<b>Azione</b>: Cambia sembianza. Ogni altro giocatore può assumere la sembianza in cui sei."
+    },
+    {
+        "code": 40003,
+        "name": "Scansione Mentale",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 3 minacce da una trama. Rimuovi 1 minaccia aggiuntiva da quella trama per ogni trama secondaria nella galleria delle vittorie.",
+        "traits": "Intervento. Psionico. Superpotere."
+    },
+    {
+        "code": 40004,
+        "name": "Precognizione",
+        "text": "<b>Azione Eroe</b>: Guarda X carte dalla cima del mazzo degli incontri, dove X è pari al numero di trame secondarie nella galleria delle vittorie. Puoi scartare 1 di quelle carte. RImetti le altre in cima al mazzo in qualsiasi ordine.",
+        "traits": "Psionico. Superpotere."
+    },
+    {
+        "code": 40005,
+        "name": "Scarica Telecinetica",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 6 danni a un nemico. Infliggi 1 danno aggiuntivo a quel nemico per ogni trama secondaria nella galleria delle vittorie.",
+        "traits": "Attacco. Psionico. Superpotere."
+    },
+    {
+        "code": 40006,
+        "name": "Epurare il Tecnovirus",
+        "text": "Vittoria 0.\nI personaggi diversi da Cable non possono rimuovere minacce da Epurare il Tecnovirus.  \nMentre Epurare il Tecnovirus si trova nella galleria delle vittorie, Nathan Summers e Cable ottengono il tratto [[PSIONICO]] e Cable riceve +1 INT, +1 ATT e +1 DIF."
+    },
+    {
+        "code": 40007,
+        "flavor": "La base orbitale di Cable è gestita dall'I.A. senziente che risponde al nome di \"Professore\".",
+        "name": "Graymalkin",
+        "text": "<b>Risposta</b>: Dopo che una trama secondaria è stata sconfitta, ripristina Graymalkin.\n<b>Risorsa</b>: Esaurisci Graymalkin → genera [energy].",
+        "traits": "Luogo."
+    },
+    {
+        "code": 40008,
+        "flavor": "\"Mi dispiace, Wade. Purtroppo non posso farlo.\"",
+        "name": "Professore",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Professore → scegli se pescare 1 carta oppure cercare nel tuo mazzo e nella tua pila degli scarti 1 trama secondaria giocatore e aggiungerla alla tua mano. <i>(Mescola.)</i>",
+        "traits": "Persona. Tecnologia."
+    },
+    {
+        "code": 40009,
+        "name": "Askani'son",
+        "text": "<b>Risposta Eroe</b> <i>(intervento)</i>: Dopo che hai difeso da un attacco nemico, esaurisci Askani'son e spendi [energy] → rimuovi da una trama un ammontare di minacce pari all'INT del tuo eroe.",
+        "traits": "Titolo."
+    },
+    {
+        "code": 40010,
+        "name": "Amnesia Forzata",
+        "text": "<b>Risposta Eroe</b>: Dopo che una trama secondaria senza Permanente è stata sconfitta, colloca Amnesia Forzata e quella trama secondaria nella galleria delle vittorie.",
+        "traits": "Psionico. Superpotere."
+    },
+    {
+        "code": 40011,
+        "name": "Fucile al Plasma",
+        "text": "Restrizione.\n<b>Azione Eroe</b> <i>(attacco)</i>: Esaurisci Fucile al Plasma e spendi [energy] → infliggi a un nemico 1 danno per ogni trama secondaria nella galleria delle vittorie (fino ad un massimo di 4). Questo attacco ottiene Distanza.",
+        "traits": "Arma. Tecnologia."
+    },
+    {
+        "code": 40012,
+        "name": "Campo di Forza Telecinetico",
+        "text": "Solo sembianza di Eroe.\n<b>Interruzione Eroe</b>: Quando un personaggio amico sta per subire un qualsiasi ammontare di danni, scarta Campo di Forza Telecinetico → previeni tutti quei danni.",
+        "traits": "Psionico. Superpotere."
+    },
+    {
+        "code": 40013,
+        "name": "Salto Temporale",
+        "text": "<b>Interruzione Eroe</b>: Quando la trama principale sta per essere completata, rimuovi dal gioco questa carta e metti in gioco 1 trama secondaria dalla galleria delle vittorie → sposta 4 minacce dalla trama principale a quella trama secondaria.",
+        "traits": "Tattica."
+    },
+    {
+        "code": 40014,
+        "name": "Calibano",
+        "text": "<b>Risposta</b>: Dopo che Calibano è entrato in gioco, scarta carte dalla cima del tuo mazzo finchè non scarti 1 alleato [[X-FACTOR]], [[X-FORCE]], o [[X-MEN]]. Aggiungi quell'alleato alla tua mano.",
+        "traits": "Psionico. X-Force."
+    },
+    {
+        "code": 40015,
+        "flavor": "\"E.V.A. non è solo un veicolo: è la mia compagna; la mia mutazione.\"",
+        "name": "Fantomex",
+        "text": "<b>Risposta</b>: Dopo che Fantomex è entrato in gioco, cerca nel tuo mazzo e nella tua pila degli scarti E.V.A. e mettila in gioco. <i>(Mescola.)</i>",
+        "traits": "Psionico. X-Force.",
+        "subname": "Charlie Cluster-7"
+    },
+    {
+        "code": 40016,
+        "name": "Sunspot",
+        "text": "<b>Risposta</b>: Dopo che hai giocato Sunspot dalla tua mano, scegli 1 giocatore → infliggi al criminale e a ogni gregario impegnato con il giocatore scelto 1 danno per ogni [energy] usata per pagare il costo di Sunspot.",
+        "traits": "Aereo. X-Force.",
+        "subname": "Bobby Da Costa"
+    },
+    {
+        "code": 40017,
+        "name": "Pianificare la Missione",
+        "text": "Gioca solo se ci sono trame secondarie nella galleria delle vittorie.\n<b>Azione Eroe</b>: Fino alla fine della fase, gli alleati che controlli non subiscono danni conseguenti."
+    },
+    {
+        "code": 40018,
+        "flavor": "\"Squadra blu, ripiegate sulla mia posizione!\" — Alfiere",
+        "name": "Chiamare i Rinforzi",
+        "text": "Vittoria 0.\n<b>Quando Sconfitta</b>: Ogni giocatore può cercare nel suo mazzo e nella sua pila degli scarti 1 alleato e metterlo in gioco. <i>(Mescola.)</i>"
+    },
+    {
+        "code": 40019,
+        "flavor": "\"Ci serviranno armi... tante armi.\" — Cable",
+        "name": "Pronti alla Battaglia",
+        "text": "Vittoria 0.\n<b>Quando Sconfitta</b>: Ogni giocatore può cercare nel suo mazzo e nella sua pila degli scarti 1 miglioria [[ARMA]] dal costo pari o inferiore a 3 e metterla in gioco. <i>(Mescola.)</i>"
+    },
+    {
+        "code": 40020,
+        "flavor": "\"Non vi preoccupate ragazzi. Non riusciranno a oltrepassarmi!\" — Corazza",
+        "name": "Stabilire un Perimetro",
+        "text": "Vittoria 0.\n<b>Quando Sconfitta</b>: Irrobustisci ogni identità."
+    },
+    {
+        "code": 40021,
+        "name": "E.V.A.",
+        "text": "Se Fantomex non è in gioco, scarta E.V.A.\n<b>Azione</b>: Esaurisci E.V.A. → scegli 1 effetto tra:\n• Rimuovi 1 minaccia da una trama.\n• Infliggi 1 danno a un nemico.\n• Cura 1 danno a Fantomex.",
+        "traits": "Veicolo."
+    },
+    {
+        "code": 40022,
+        "name": "Incredibile X-Force",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 carta [[SQUADRA]] per giocatore.\nSe ogni tuo personaggio possiede il tratto [[X-FORCE]], ogni alleato che controlli riceve +1 INT e subisce -1 danno conseguente ([consequential]) dopo essere intervenuto su una trama secondaria.",
+        "traits": "Squadra."
+    },
+    {
+        "code": 40023,
+        "name": "Leader di Missione",
+        "text": "Se la tua identità possiede il tratto [[SOLDATO]], riduci di 1 il costo per giocare Leader di Missione.\n<b>Risposta Eroe</b>: Dopo che una trama secondaria è stata sconfitta, esaurisci Leader di Missione → ogni giocatore pesca 1 carta.",
+        "traits": "Titolo."
+    },
+    {
+        "code": 40024,
+        "flavor": "\"Cablo... espanol? Donde està la biblioteca.\"",
+        "name": "Deadpool",
+        "text": "<b>Interruzione Obbligata</b>: Quando Deadpool sta per essere sconfitto per aver subito danni conseguenti, curagli invece 3 danni. Colloca 1 gettone accelerazione sulla trama principale.",
+        "traits": "Mercenario. X-Force.",
+        "subname": "Wade Wilson"
+    },
+    {
+        "code": 40025,
+        "name": "Deathlok",
+        "text": "<b>Risposta Eroe</b>: Dopo che Deathlok è entrato in gioco, scegli 1 miglioria nella pila degli scarti di un qualsiasi giocatore dal costo pari o inferiore a 1 che possa essere assegnata a Deathlok. Assegna quella miglioria a Deathlok.",
+        "traits": "Cyborg. X-Force.",
+        "subname": "Unit L17"
+    },
+    {
+        "code": 40026,
+        "name": "Acerrimi Amici",
+        "text": "Team-Up (Cable e Deadpool). Massimo 1 per mazzo.\n<b>Azione Eroe</b> <i>(intervento)</i>: Infliggi 1 danno a Deadpool e 1 danno a Cable. Rimuovi 3 minacce da una trama e 3 minacce da una trama diversa.",
+        "traits": "Intervento."
+    },
+    {
+        "code": 40027,
+        "flavor": "\"Ho proprio quello che fa per te.\" — Forge",
+        "name": "Solide Fondamenta",
+        "text": "Vittoria 0.\n<b>Quando Sconfitta</b>: Ogni giocatore può cercare nel suo mazzo e nella sua pila degli scarti 1 supporto dal costo pari o inferiore a 3 e metterlo in gioco. <i>(Mescola.)</i>"
+    },
+    {
+        "code": 40028,
+        "name": "Potere della Mente",
+        "text": "Mentre paghi per una carta [[PSIONICO]] raddoppia il numero di risorse generate da questa carta."
+    },
+    {
+        "code": 40029,
+        "name": "Psimitarra",
+        "text": "Restrizione.\n<b>Risposta Eroe</b> <i>(attacco)</i>: Dopo che hai giocato un'altra carta [[PSIONICO]], esaurisci Psimitarra → infliggi 2 danni a un nemico.",
+        "traits": "Arma. Psionico."
+    },
+    {
+        "code": 40030,
+        "flavor": "\"Quella pistola è decisamente meno pericolosa dell'uomo che la impugna.\" — Cable",
+        "name": "Arma Secondaria",
+        "text": "Assegna a un alleato. Massimo 1 per alleato.\nL'alleato con questa miglioria riceve +1 ATT e i suoi attacchi ottengono Distanza.",
+        "traits": "Arma.  "
+    },
+    {
+        "code": "40037a",
+        "name": "Domino",
+        "text": "Quando conti le risorse sulle carte che scarti dalla cima del tuo mazzo, conta due volte ogni icona [wild] stampata.\n<b>Azione</b>: Scegli 1 carta nella tua mano. Scambia quella carta con la carta in cima al tuo mazzo. (Limite di una volta per round.)",
+        "traits": "Posse. X-Force."
+    },
+    {
+        "code": "40037b",
+        "flavor": "\"Ma guarda un po', ho vinto di nuovo!\"",
+        "name": "Neena Thurman",
+        "text": "<b>Azione</b>: Scegli 1 carta nella tua mano. Scambia quella carta con la carta in cima alla tua pila degli scarti. (Limite di una volta per round.)",
+        "traits": "Mutante."
+    },
+    {
+        "code": 40038,
+        "name": "Diamante",
+        "text": "<b>Azione</b>: Esaurisci Diamante, infliggile 1 danno e scarta 1 carta dalla cima del tuo mazzo → infliggi 1 danno a ogni nemico per ogni risorsa stampata scartata in questo modo.",
+        "traits": "Posse.",
+        "subname": "Rachel Leighton"
+    },
+    {
+        "code": 40039,
+        "name": "Outlaw",
+        "text": "Robustezza.\n[star] <b>Interruzione</b>: Quando Outlaw attacca, scarta 1 carta dalla cima del tuo mazzo → Outlaw riceve +1 ATT per questo attacco per ogni icona risorsa stampata scartata in questo modo.",
+        "traits": "Fuorilegge. Posse.",
+        "subname": "Inez Temple"
+    },
+    {
+        "code": 40040,
+        "name": "Ottimo Allenamento",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 4 danni a un nemico e scarta 1 carta dalla cima del tuo mazzo. Infliggi 1 danno aggiuntivo a quel nemico per ogni icona risorsa stampata scartata in questo modo.",
+        "traits": "Attacco. Superpotere."
+    },
+    {
+        "code": 40041,
+        "name": "Dea Bendata",
+        "text": "<b>Azione Eroe</b>: Scarta 1 carta dalla cima del tuo mazzo e conta le risorse su di essa. Per ogni risorsa stampata contata in questo modo, se è una:\n[energy] - Cura 2 danni a un personaggio.\n[mental] - Rimuovi 2 minacce da una trama.\n[physical] - Infliggi 3 danni a un nemico.\n[wild] - Scegli 1 degli effetti soprastanti.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": 40042,
+        "name": "Posto Giusto, Momento Giusto",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 3 minacce da una trama e scarta 1 carta dalla cima del tuo mazzo. Rimuovi 1 minaccia aggiuntiva da quella trama per ogni icona risorsa stampata scartata in questo modo.",
+        "traits": "Intervento. Superpotere."
+    },
+    {
+        "code": 40043,
+        "name": "Jackpot!",
+        "text": "<b>Risposta</b>: Dopo che questa carta è stata scartata dalla cima del tuo mazzo, rimescolala nel tuo mazzo."
+    },
+    {
+        "code": 40044,
+        "flavor": "\"Mi hai davvero fatto la pipì addosso, piccola mortadella dispettosa?\" — Domino",
+        "name": "Pallino il Carlino",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Pallino il Carlino → colloca in cima al tuo mazzo 1 carta del set Domino o [[POSSE]] dalla tua pila degli scarti.",
+        "traits": "Creatura."
+    },
+    {
+        "code": 40045,
+        "name": "Dama Illustrata",
+        "text": "<b>Risposta</b>: Dopo che hai scartato una carta dalla cima del tuo mazzo, assegna quella carta a faccia in giù a questa carta (fino a un massimo di 3).\n<b>Azione Alter Ego</b>: Esaurisci Dama Illustrata → aggiungi alla tua mano 1 carta assegnata a questa carta.",
+        "traits": "Veicolo."
+    },
+    {
+        "code": 40046,
+        "name": "Pistola di Domino",
+        "text": "Restrizione.\n<b>Azione Eroe</b> <i>(attacco)</i>: Esaurisci Pistola di Domino, scegli 1 nemico e scarta 1 carta dalla cima del tuo mazzo → infliggi 1 danno a quel nemico per ogni icona risorsa stampata scartata in questo modo. Questo attacco ottiene Distanza.",
+        "traits": "Arma."
+    },
+    {
+        "code": 40047,
+        "name": "Abile e Fortunata ",
+        "text": "<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando una carta potenziamento viene girata a faccia in su durante un attacco contro di te, esaurisci Abile e Fortunata → annulla le icone potenziamento e la capacità \"<b>Potenziamento</b>\" di quella carta. Fai ricevere 1 altra carta potenziamento al nemico attaccante per questo attacco.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": 40048,
+        "name": "Colpo di Fortuna",
+        "text": "<b>Interruzione Eroe</b>: Quando riveli una carta incontro, scarta Colpo di Fortuna → annulla gli effetti di quella carta e scartala. Rivela 1 altra carta dal mazzo degli incontri.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": 40049,
+        "name": "Campo Probabilistico",
+        "text": "<b>Interruzione</b>: Quando usi un potere base, scarta 1 carta dalla cima del tuo mazzo → ricevi +1 a quel potere per questo uso per ogni icona risorsa stampata scartata in questo modo.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": 40050,
+        "flavor": "\"Ho fiutato la preda.\"",
+        "name": "Feral",
+        "text": "[star] <b>Risposta</b>: Dopo che Feral è intervenuta, scarta 1 carta dalla cima del tuo mazzo. Infliggi 1 danno al criminale per ogni icona risorsa stampata scartata in questo modo.",
+        "traits": "X-Force.",
+        "subname": "Maria Callasantos"
+    },
+    {
+        "code": 40051,
+        "name": "Wolfsbane",
+        "text": "[star] <b>Risposta</b>: Dopo che Wolfsbane è intervenuta, dichiara un tipo di carta, poi scarta 1 carta dalla cima del tuo mazzo. Se quella carta è del tipo dichiarato, puoi aggiungerla alla tua mano.",
+        "traits": "X-Force.",
+        "subname": "Rahne Sinclair"
+    },
+    {
+        "code": 40053,
+        "flavor": "\"Se mi concedete una frase fatta: l'unione fa la forza.\" — Bestia",
+        "name": "Indagine di Squadra",
+        "text": "Alleanza. <i>(I giocatori possono pagare i costi di questa carta come gruppo.)</i>\n<b>Azione Eroe</b>: Rimuovi 3[per_hero] minacce da una trama secondaria."
+    },
+    {
+        "code": 40054,
+        "flavor": "\"Sogni d'oro, cocco.\" — Wolverine",
+        "name": "Occuparsi delle Guardie",
+        "text": "Vittoria 0.\n<b>Quando Sconfitta</b>: Ogni giocatore può scartare dal gioco 1 gregario non [[ELITE]]."
+    },
+    {
+        "code": 40056,
+        "name": "Orsa dell'Atlante",
+        "text": "<b>Azione</b>: Esaurisci Orsa dell'Atlante → guarda 1 carta dalla cima del mazzo di un giocatore. Se quella carta è un evento, puoi infliggere 1 danno a Orsa dell'Atlante per aggiungere quella carta alla mano del suo proprietario.",
+        "traits": "Posse. Wakanda.",
+        "subname": "Shoon'kwa"
+    },
+    {
+        "code": 40057,
+        "flavor": "\"Sono l'ultima della mia specie. Sono l'ultima kumiho!\"",
+        "name": "Volpe Bianca",
+        "text": "<b>Risposta</b>: Dopo che Volpe Bianca è stata scartata dalla cima del tuo mazzo, mettila in gioco sotto il tuo controllo.",
+        "traits": "Posse.",
+        "subname": "Ami Han"
+    },
+    {
+        "code": 40058,
+        "name": "Posse",
+        "text": "Massimo 1 per mazzo.\nGioca solo se controlli 3 o più personaggi [[POSSE]].\n<b>Azione Eroe</b>: Cura 1 danno a ogni personaggio [[POSSE]] e ripristinalo.",
+        "traits": "Posse."
+    },
+    {
+        "code": 40059,
+        "flavor": "\"La lezione non è ancora finita.\" — Charles Xavier",
+        "name": "Addestramento nei Superpoteri",
+        "text": "Vittoria 0.\n<b>Quando Sconfitta</b>: Ogni giocatore può cercare nel suo mazzo e nella sua pila degli scarti 1 miglioria specifica di identità e metterla in gioco. <i>(Mescola.)</i>"
+    },
+    {
+        "code": 40060,
+        "name": "Dare il Massimo",
+        "text": "<b>Risposta</b>: Dopo che questa carta è stata scartata dalla cima del tuo mazzo, aggiungila alla tua mano."
+    },
+    {
+        "code": 40064,
+        "name": "Tiratore Scelto",
+        "text": "Massimo 1 per giocatore.  \r\n<b>Interruzione Eroe</b>: Quando effettui un attacco con Distanza, scarta 1 carta dalla cima del tuo mazzo → questo attacco infligge1 danno aggiuntivo per ogni icona risorsa stampata scartata in questo modo.",
+        "traits": "Abilità."
+    },
+    {
+        "code": "40190a",
+        "name": "Riunire la Squadra",
+        "text": "Questa trama non conta al fine di determinare il limite di trama secondarie giocatore.\n<b>Quando Sconfitta</b>: Gira questa carta e metti in gioco Squadra Riunita.\n<i>(Le capacità su Squadra Riunita permette a ogni giocatore di giocare un alleato dal suo mazzo senza pagarne il costo.)</i>"
+    },
+    {
+        "code": "40190b",
+        "name": "Squadra Riunita",
+        "text": "Entra in gioco con 1 gettone unione su di essa.\n<b>Azione</b>: Rimuovi 1 gettone unione da questa carta → ogni giocatore può cercare nel suo mazzo e nella sua pila degli scarti 1 alleato dal costo stampato pari o inferiore a 3 e metterlo in gioco. <i>(Qualsiasi giocatore può farlo.)</i>"
+    },
+    {
+        "code": "40191a",
+        "name": "Stabilire un Rifugio",
+        "text": "Questa trama non conta al fine di determinare il limite di trama secondarie giocatore.\n<b>Quando Sconfitta</b>: Gira questa carta e metti in gioco Rifugio Stabilito.\n<i>(La capacità su Rifugio Stabilito permette ai giocatori di ottenere la carta supporto Rifugio.)</i>"
+    },
+    {
+        "code": "40191b",
+        "name": "Rifugio Stabilito",
+        "text": "Entra in gioco con 1 gettone rifugio su di esso.\n<b>Azione</b>: Rimuovi 1 gettone rifugio da questa carta → il primo giocatore mette in gioco il supporto Rifugio sotto il suo controllo. <i>(Rifugio è una carta del set campagna.)</i>"
+    },
+    {
+        "code": "40192a",
+        "name": "Equipaggiarsi",
+        "text": "Questa trama non conta al fine di determinare il limite di trama secondarie giocatore.\n<b>Quando Sconfitta</b>: Gira questa carta e metti in gioco Equipaggiati.\n<i>(La capacità su Equipaggiati permette ai giocatori di ottenere una carta risorse Tasche.)</i>"
+    },
+    {
+        "code": "40192b",
+        "name": "Equipaggiati",
+        "text": "Entra in gioco con 1 gettone tasca su di esso.\n<b>Azione</b>: Rimuovi 1 gettone tasca su questa carta → ogni giocatore mescola nel suo mazzo 1 carta risorsa Tasche. <i>(Tasche è una carta del set campagna.)</i>"
+    },
+    {
+        "code": "40193a",
+        "name": "Preparare la Missione",
+        "text": "Questa trama non conta al fine di determinare il limite di trama secondarie giocatore.\n<b>Quando Sconfitta</b>: Gira questa carta e metti in gioco Missione Preparata.\n<i>(La capacità su Missione Preparata permette a ogni giocatore di giocare una miglioria dal suo mazzo senza pagarne il costo.)</i>"
+    },
+    {
+        "code": "40193b",
+        "name": "Missione Preparata",
+        "text": "Entra in gioco con 1 gettone preparativi su di essa.\n<b>Azione</b>: Rimuovi 1 gettone preparativi da questa carta → ogni giocatore cerca nel suo mazzo e nella sua pila degli scarti 1 miglioria dal costo stampato pari o inferiore a 2 e la mette in gioco. <i>(Qualsiasi giocatore può farlo.)</i>"
+    },
+    {
+        "code": "40194a",
+        "name": "Testare Tattiche",
+        "text": "Questa trama non conta al fine di determinare il limite di trama secondarie giocatore.\n<b>Quando Sconfitta</b>: Gira questa carta e metti in gioco Tattiche Testate.\n<i>(La capacità su Tattiche Testate fornisce ai giocatori uno sconto permanente sulle carte evento di costo elevato.)</i>"
+    },
+    {
+        "code": "40194b",
+        "flavor": "\"L'ultimo a finire il percorso lava i panni a tutti per un mese!\" — Sunspot",
+        "name": "Tattiche Testate",
+        "text": "Riduci di 1 il costo per giocare ogni evento dal costo stampato pari o superiore a 3."
+    },
+    {
+        "code": "40195a",
+        "name": "Preparare le Difese",
+        "text": "Questa trama non conta al fine di determinare il limite di trama secondarie giocatore.\n<b>Quando Sconfitta</b>: Gira questa carta e metti in gioco Difese Preparate.\n<i>(La capacità su Difese Preparate fa ricevere ai giocatori +1 permanente alla DIF e fa loro ottenere Ritorsione 1.)</i>"
+    },
+    {
+        "code": "40195b",
+        "flavor": "\"Ne arrivano altri!\"\n\"Gli farò mangiare un po' dei miei frammenti di diamante ad alta velocità!\"\n— Rockslide e Bling!",
+        "name": "Difese Preparate",
+        "text": "Ogni eroe riceve + 1 DIF e ottiene Ritorsione 1."
+    },
+    {
+        "code": 40196,
+        "flavor": "\"Non mi ricordo mai dove infilo le cose.\" — Deadpool",
+        "name": "Tasche"
+    },
+    {
+        "code": 40197,
+        "name": "Rifugio  ",
+        "text": "<b>Azione Alter Ego</b>: Scegli 1 effetto tra:\n• Cura 2 danni alla tua identità.\n• Pesca 1 carta.\nUn qualsiasi giocatore può innescare questa capacità. (Limite di una volta per round per giocatore.)",
+        "traits": "Luogo."
+    },
+    {
+        "code": 40204,
+        "name": "Hope Summers",
+        "text": "Hope Summers ottiene ogni [[TRATTO]] posseduto dalla tua identità.\n<b>Risposta</b>: Dopo che hai giocato Hope Summers dalla tua mano, cerca nel tuo mazzo 1 carta [[SUPERPOTERE]] e aggiungila alla tua mano. <i>(Mescola.)</i>",
+        "traits": "X-Force."
+    }
 ]

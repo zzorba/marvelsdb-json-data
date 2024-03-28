@@ -1,738 +1,766 @@
 [
-	{
-		"code": "27025",
-		"name": "Worried Father",
-		"text": "<b>Give to the Gwen Stacy player.</b>\nSearch your deck, hand, discard pile, and play area for George Stacy and set him aside. Attach this obligation to him.\n<b>Alter-Ego Action</b>: Exhaust Gwen Stacy and remove this obligation from the game → add George Stacy to your hand."
-	},
-	{
-		"code": "27026",
-		"flavor": "Peter Parker's research into the healing properties of lizard DNA has backfired, turning him and all those who come in contact with his serum into reptilian monstrosities!",
-		"name": "Regenerative Research",
-		"text": "<b>Forced Interrupt</b>: When the villain phase begins, heal 1 damage from each enemy."
-	},
-	{
-		"code": "27027",
-		"name": "The Lizard",
-		"text": "<b>Forced Interrupt</b>: When the villain phase begins, heal 1 damage from The Lizard.\n<i>(Ghost-Spider's nemesis minion.)</i>",
-		"traits": "Brute. Creature."
-	},
-	{
-		"code": "27028",
-		"flavor": "\"RAAARRRRRRR!!!\"",
-		"name": "Experimental Injection",
-		"text": "Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.\nAttached minion gains the [[Creature]] trait and gets +4 hit points."
-	},
-	{
-		"code": "27029",
-		"flavor": "\"Fresh meat...\" — The Lizard",
-		"name": "In Cold Blood",
-		"text": "<b>When Revealed</b>: The Lizard attacks you. You cannot play events until after that attack resolves. If no attack was made this way, this card gains surge."
-	},
-	{
-		"code": "27056",
-		"name": "Keeping Secrets",
-		"text": "<b>Give to the Miles Morales player.</b>\nYou may flip to alter-ego form. Choose:\n\u2022 Exhaust Miles Morales → remove Keeping Secrets from the game.\n\u2022 Discard Ganke Lee and Jefferson Davis from play. If neither was discarded this way, this card gains surge. Discard this obligation."
-	},
-	{
-		"code": "27057",
-		"flavor": "Prowler is on the hunt and won't stop until he corners his prey.",
-		"name": "Tracking Prey",
-		"text": "<b>When Revealed</b>: If you are in alter-ego form, place 1 acceleration token here."
-	},
-	{
-		"code": "27058",
-		"flavor": "\"I'll give ya one piece of advice: Don't let me find you.\"",
-		"name": "Prowler",
-		"text": "Stalwart.\n<b>When Revealed</b>: If you are in alter-ego form, give Prowler a tough status card.\n<i>(Spider-Man's nemesis minion)</i>",
-		"traits": "Criminal."
-	},
-	{
-		"code": "27059",
-		"flavor": "Claws designed to shred steel.",
-		"name": "Razor Claws",
-		"text": "Attach to the minion with the highest printed hit points. If you cannot, this card gains surge.\n[star] Attached minion's attacks gain piercing.",
-		"traits": "Weapon."
-	},
-	{
-		"code": "27060",
-		"name": "Slice and Dice",
-		"text": "<b>When Revealed</b>: Prowler attacks the player with the fewest remaining hit points <i>(even if that player is in alter-ego form)</i>. If that attack defeats a character or not attack was made this way, this card gains surge."
-	},
-	{
-		"code": "27061",
-		"name": "Sandman",
-		"text": "Sand Blast - [star]<b>Forced Interrupt: </b> When sandman attacks you, that attack deals indirect damage. If your identity takes any amount of damange from that attack, resolve the Surging Sands ability on City Streets",
-		"traits": "Criminal."
-	},
-	{
-		"code": "27062",
-		"name": "Sandman",
-		"text": "<b>When Revealed: </b> Resolve the Surging Sands ability on City Streets.\n Sand Blast - [star] <b>Forced Interrupt: </b> When Sandman attacks you, that attack deals indirect damage. If your identity takes any amount of damage from that attack, resolve the Surging Sands ability on City Streets.",
-		"traits": "Criminal."
-	},
-	{
-		"code": "27063",
-		"name": "Sandman",
-		"text": "<b>When Revealed: </b> Place 1 sand counter on City Streets. Resolve its Surging Sands ability.\n Sand Wave - [star] <b>Forced  Interrupt: </b> When Sandman attacks you, that attack gains overkill. If your identity takes any amount of damage from that attack, resolve the Surging Sands ability on City Streets.",
-		"traits": "Criminal."
-	},
-	{
-		"back_text": "<b>Contents</b>: Sandman (I) and Sandman (II). <i>(Sandman (II) and Sandman (III) instead for expert mode.)</i> Sandman, City in Chaos, and Standard encounter sets. One modular encounter set <i>(Down to Earth)</i>.\n<b>Setup</b>: Search the encounter deck for the City Streets environment and put it into play. Place 4 sand counters on it.",
-		"code": "27064",
-		"name": "Hapless Pedestrians",
-		"text": "<b>Forced Response:</b> After an accerleration token is place on this scheme, deal 3 indirect damage to the first player.\n <b>If this stage is completed, the players lose the game. </b>"
-	},
-	{
-		"code": "27065",
-		"name": "City Streets",
-		"text": "Surging Sands - <b>Special: </b>Place 1 sand counter here. Discard card from the top of the encounter deck equal to the number of sand counters here.\n <b>Hero Action: </b> Exhause a chracter you control → remove sand counters from here equal to that character's ATK. (limit once per round per player.)",
-		"traits": "Location."
-	},
-	{
-		"code": "27066",
-		"name": "Sand Form",
-		"text": "Attach to Sandman.\n <b>Forced Interrupt: </b> When you would deal amount of damage to Sandman, discard sand Form instead → resove the Surging Sands ability on City Streets.\n<hr />\n[star] <b>Potenziamento</b>: Reveal this card.",
-		"traits": "Condition."
-	},
-	{
-		"code": "27067",
-		"flavor": "\"If you wanna get to me, you gotta go through... ME!\" — Sandman",
-		"name": "Sand Clone",
-		"text": "X is equal to the number of sand counters on City Street.\n <b>When Defeated: </b>Resove the Surging Sands ability on City Streets."
-	},
-	{
-		"code": "27068",
-		"flavor": "A beige billow floods the streets around you. Everywhere you turn, Sandman awaits.",
-		"name": "Dirt Trap",
-		"text": "<b>When Defeated</b>: Resolve the \"<i>Surging Sands</i>\" ability on City Streets. Resolve it again."
-	},
-	{
-		"code": "27069",
-		"name": "Tidal Sands",
-		"text": "<b>When Revealed</b>: Place X additional threat here, where X is equal to the number of sand counters on City Streets."
-	},
-	{
-		"code": "27070",
-		"name": "Sandslide",
-		"text": "<b>When Revealed: </b> Place 2 sand counters on City Streets, then resolve its Surging Sands ability. If at least 1 Sandman card was discarded this way, you are stunned.\n<hr />\n[star] <b>Potenziamento</b>: Resolve this card's <b>When Revealed </b> ability."
-	},
-	{
-		"code": "27071",
-		"name": "Sand Storm",
-		"text": "<b> When Revealed: </b> Deal X indirect damage among players (divided as you choose), where X is requal to the number of sand counters on City Streets. If there are no sand counters on City Streets, place 3 sand counters on it and shuffle this card into the encounter deck."
-	},
-	{
-		"code": "27072",
-		"flavor": "\"I will bury you!\"",
-		"name": "Sand Smash",
-		"text": "<b>When Revealed (Alter-Ego): </b> resolve the Surging Sands ability on City streets. This card gain surge.\n <b>When Revealed (Hero):</b>Sandman attacks you with +1 ATK"
-	},
-	{
-		"code": "27073",
-		"name": "Venom",
-		"text": "Toughness. (This character enters play with a tough status card.)\n Vengeance - <b> Forced Response: </b> After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
-		"traits": "Symbiote."
-	},
-	{
-		"code": "27074",
-		"name": "Venom",
-		"text": "Toughness. Steady.\n <b>When Revealed: </b>Search the encounter deck and discard pile for the Tooth and Nail side scheme and put it into play. (Shuffle.)\n Vengeance - <b>Forced Response: </b> After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
-		"traits": "Symbiote."
-	},
-	{
-		"code": "27075",
-		"name": "Venom",
-		"text": "Retaliate 1. Steady. Toughness.\n <b>When Revealed: </b> Place 2 facedown boost cards on each identity.\n Retribution - <b>Forced Response: </b>After you attack and damge Venom with a card you control, place 1 facedown boost card on your identity (2 facedown boost cards instead if this is the first attack this turn).",
-		"traits": "Symbiote."
-	},
-	{
-		"back_text": "<b>Contents: </b> Venom (I) and Venom (II). (Venom (II) and Venom (III) instead for expert mode.) Venom, Symbiotic Strength, and Standard encounter sets. One modular encounter set (Down to Earth.)\n <b> Setup: </b>Put the Bell Twoer environment into play, [[QUIET]] side faceup.",
-		"code": "27076a",
-		"name": "\"Leave Us Alone!\"",
-		"text": "<b>Forced Interrupt: </b> When Venom activates against you, move each facedown boost card from your identity to Venom.\n <b>If this stage is completed, the players lose the game </b>"
-	},
-	{
-		"back_text": "<b>Contents: </b> Venom (I) and Venom (II). (Venom (II) and Venom (III) instead for expert mode.) Venom, Symbiotic Strength, and Standard encounter sets. One modular encounter set (Down to Earth.)\n <b> Setup: </b>Put the Bell Twoer environment into play, [[QUIET]] side faceup.",
-		"code": "27076b",
-		"name": "\"Leave Us Alone!\"",
-		"text": "<b>Forced Interrupt: </b> When Venom activates against you, move each facedown boost card from your identity to Venom.\n <b>If this stage is completed, the players lose the game </b>"
-	},
-	{
-		"code": "27077a",
-		"name": "Bell Tower",
-		"text": "If there are at least 3[per_hero] chime counters here, flip this card.\n <b>Interrupt: </b> When any amount of damage would be dealt to Venom by an attack, (you may) place that many chime counters here instead.",
-		"traits": "Location. Quiet."
-	},
-	{
-		"code": "27077b",
-		"name": "Bell Tower",
-		"text": "Increase all damage Venom takes by 1.\n If there are no chime counters here, flip this card.\n <b>Forced Interrupt: </b> When Venom's attack would deal any amount of damage to an identity, remove that many chime counters from here. For each chime counter removed this way, prevent 1 of that damage.",
-		"traits": "Location. Ringing."
-	},
-	{
-		"code": "27078",
-		"name": "\"Now We're Angry!\"",
-		"text": "Attach to Venom.\n Uses (2 rage counters).\n [star] Venom's attack gain overkill.\n <b>Forced Response: </b>After Venom takes any amount of damage from an attack, remove 1 rage counter from here.\n<hr />\n[star] <b>Potenziamento</b>: Reveal this card.",
-		"traits": "Condition."
-	},
-	{
-		"code": "27079",
-		"name": "Guard the Bell Tower",
-		"text": "Treat the Bell Tower's printed text box as if it were blank <i>(except for [[TRAITS]])</i>.\n<b>When Revealed</b>: Remove each chime counter from the Bell Tower and flip it to its [[QUIET]] side."
-	},
-	{
-		"code": "27080",
-		"name": "Lashing Out",
-		"text": "<b>Response</b>: After Venom takes any amount of damage from an attack, remove an equal amount of threat from here.\n<hr />\n[star] <b>Potenziamento</b>: If this activation is  an attack, take 2 indirect damage."
-	},
-	{
-		"code": "27081",
-		"name": "Tooth and Nail",
-		"text": "<b>Response</b>: After Venom takes any amount of damage from an attack, remove an equal amount of threat from here.\n<hr />\n[star] <b>Potenziamento</b>: If this activation is an attack, it gains piercing."
-	},
-	{
-		"code": "27082",
-		"name": "Biting Retort",
-		"text": "<b>When Revealed: </b> Venom activates against you. Each boost card turned faceup during that activation gets +1 boost icon [boost].\n<hr />\n[star] <b>Potenziamento</b>: Remove 1 chime counter from the Bell tower."
-	},
-	{
-		"code": "27083",
-		"name": "For Whom the Bell Tolls",
-		"text": "<b>When Revealed: </b> Remove 2 chime counters from the Bell Tower. If the Bell Tower is on its [[quiet]] side, take 1 damage. If it is on its [[ringing]] side, remove 1 threat from the main scheme.\n<hr />\n[star] <b>Potenziamento</b>: Resolve this card's <b>When Revealed </b> ability."
-	},
-	{
-		"code": "27084",
-		"name": "Mysterio",
-		"text": "Seeds of Fear - [star] <b>Forced Response: </b> After you resolve a boost card during Mysterio's activation, place that card in your discard pile if it has the [illusion]] trait.",
-		"traits": "Criminal."
-	},
-	{
-		"code": "27085",
-		"name": "Mysterio",
-		"text": "<b>When Revealed:</b> In player order, shuffle the top card of the encounter deck into each player's deck.\n Creeping Fear - [star] <b>Forced Response: </> After you resolve a boost card during Mysterio's activation, place that card on the bootom of your deck if it has the [[illusion]] trait.",
-		"traits": "Criminal."
-	},
-	{
-		"code": "27086",
-		"name": "Mysterio",
-		"text": "<b>When Revealed: </b> Discard the top 5 cards of each player's deck.\n Bound by Feat - [star] <b> Forced Response: </b> After you resolve a boost card during Mysterio's Activation, place that card on the top of your deck if it has the [[illusion]] trait.",
-		"traits": "Criminal."
-	},
-	{
-		"back_text": "<b> Contents: </b> Mysterio (I) and Mysterio (II). (Mysterio (II) and Mysterio (III) instead for expert mode.) Mysterio, Personal Nightmare, and Standard encounter sets. One modular encounter set (Whispers of Paranoia.)\n <b> Setup</b>Put a shifting Apparition minion into play engaged with each player. (Shuffle.)",
-		"code": "27087",
-		"name": "Maze of Mirrors",
-		"text": "<b>Forced Interrupt</b>: When you would draw or discard an encounter card from your deck, deal it to yourself as a facedown encounter card → draw 1 card."
-	},
-	{
-		"back_text": "<b> When Revealed:</b> In player order, shuffle the top 2 cards of the encoutner deck into each player's deck.",
-		"code": "27088",
-		"name": "Edge of Reality",
-		"text": "<b>Forced Interrupt</b>: When you would draw or discard an encounter card from your deck, deal it to yourself as a facedown encounter card → draw 1 card.\n<b>If this stage is completed, the players lose the game.</b>"
-	},
-	{
-		"code": "27089",
-		"name": "Humongous Hallucination",
-		"text": "Attach to Mysterio.\n<b>Hero Action: </b> Spend 1 resource of any type and shuffle the top 2 cards of the encounter deck into your deck → discard this card.",
-		"traits": "Illusion."
-	},
-	{
-		"code": "27090",
-		"name": "Masterful Mirage",
-		"text": "Attach to Mysterio.\n<b> Forced Interrupt </b> When you would deal any amount of damage to Mysterio, discard the top 4 cards of your deck instead. Discard this card.\n<hr />\n[star] <b>Potenziamento</b>: Give Mysterio 1 additional boost card this activation.",
-		"traits": "Illusion."
-	},
-	{
-		"code": "27091",
-		"name": "Shifting Apparition",
-		"text": "Guard. (While this minion is engaged with your, you cannot attack the villain.)\n <b> When Defeated: </b> If this minion was defeated with excess damage, the defeating player shuffles the top card of the encounter deck intro their deck.",
-		"traits": "Illusion."
-	},
-	{
-		"code": "27092",
-		"name": "Déjà Vu",
-		"text": "Peril. (While you are resolving this card, other players cannot help you.)\n <b> When Revealed: </b> Choose to either take 1 damage or place 1 threat on the main scheme. Shuffle Deja Vu into any player's deck.\n<hr />\n[star] <b>Potenziamento</b>: Reveal this card."
-	},
-	{
-		"code": "27093",
-		"name": "Fearmonger",
-		"text": "Surge.\n <b> When Revealed: </b> Discard your hand. Draw up to your hand size.\n<hr />\n[star] <b>Potenziamento</b>: Choose to either spend [mental][mental] resources or deal this card to yourself as a facedown encounter card."
-	},
-	{
-		"code": "27094",
-		"name": "Doctor Octopus",
-		"text": "[star] <b>Forced Response: </b> After Doctor Octopus attacks and damages you, place 1 threat on each scheme. Move the active counter to the next villain in the activation order.\n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
-		"traits": "Activation Order 1"
-	},
-	{
-		"code": "27095",
-		"name": "Electro",
-		"text": "[star] <b>Forced Response: </b> After Electro attacks and damges you, discard the top 7 cards of your deck. Move the active counter to the next villain in the activation order.\n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
-		"traits": "Activation Order 2"
-	},
-	{
-		"code": "27096",
-		"name": "Hobgoblin",
-		"text": "[star] <b>Forced Response: </b> AfterHobgoblin attacks and damages you, take 2 indirect damage. Move the active counter to the next villain in the activation order.\n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
-		"traits": "Activation Order 3"
-	},
-	{
-		"code": "27097",
-		"name": "Kraven the Hunter",
-		"text": "[star] <b>Forced Response: </b> After Kraven the Hunter attacks and damages you, choose and discard 1 support or upgrade you control. Move the active counter to the next villain in the activation order.\n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
-		"traits": "Activation Order 4"
-	},
-	{
-		"code": "27098",
-		"name": "Scorpion",
-		"text": "[star] <b>Forced Response: </b> After Scorpion attacks and damages you, stun a character you control. Move the active counter to the next villain in the activation order.\n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
-		"traits": "Activation Order 5"
-	},
-	{
-		"code": "27099",
-		"name": "Vulture",
-		"text": "[star] <b>Forced Response: </b> After Vulture attacks and damages you, choose and discard 1 card from your hand. Move the active counter to the next villain in the activation order.\n <b> When Defeated: </b> Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
-		"traits": "Activation Order 6"
-	},
-	{
-		"back_text": "<b>Contents</b>: Doctor Octopus, Electro, Hobgoblin, Kraven the Hunter, Scorpion, and Vulture. The Sinister Six, Guerrila tactics, and Standard encounter sets.\n<b>Setup</b>: Choose X villains at random, where X is 1 more than the number of players. Put those villains into play, place the active counter on the villain with the lowest activation order value, and set the other villains aside. Put the Light at the End side scheme into play, [[trap!]] side faceup.",
-		"code": "27100",
-		"name": "Sinister Synchonization",
-		"text": "Ambush - <b>Special: </b> Choose a set-aside villain at random, put that villain into play, and place the active counter on it. (In expert mode, place 2 threat on Light at the End).\n <b>Forced Interrupt: </b> When a villain would activate, if no villain is in play, resolve this cards Ambush! ability. Continue that activation."
-	},
-	{
-		"code": "27101a",
-		"name": "Sinister Beatdown",
-		"text": "<b>When Revealed: </b> Choose a set-aside villain at randomput that villain into play, and place active counter on it (even if another villain has the counter). If no villain was put into play this way or this is expert mode, deal the first player 1 facedown enounter card."
-	},
-	{
-		"code": "27101b",
-		"name": "Sinister Beatdown",
-		"text": "Ambush! - <b>Special: </b> Choose a set-aside villain at random, put that villain into play, and place the active counter on it. (In expert mode, place 2 threat on Light at the End).\n <b>Forced Interrupt </b> When a villain would activate, if no villain is in play, resolve this cards Ambush! ability. Continue that activation.\n <b>If this stage is completed, the players lose the game. </b>"
-	},
-	{
-		"code": "27102a",
-		"name": "Light at the End",
-		"text": "Permanent. Hinder 10[per_hero].\n The players cannot win unless they escape.\n <b>Forced Interrupt: </b> When the last threat is removed from this scheme, resolve the Ambush! Ability on the main scheme. Flip this card. (The palyers can escape on the other side.)",
-		"traits": "Trap!"
-	},
-	{
-		"code": "27102b",
-		"name": "Light at the End",
-		"text": "Permanent. Hinder 10[per_hero].\n The players cannot win unless they escape.\n <b>Forced Interrupt: </b> When the last threat is removed from this scheme, the players escape and win the game.",
-		"traits": "Chase!"
-	},
-	{
-		"code": "27103",
-		"name": "Heightened Morale",
-		"text": "Attach to the villain with the highest activation order value. If you cannot, resolve the Ambush! Ability on the main scheme, then attach this card on the active villain. X is equal to the number of villains in play.",
-		"traits": "Condition."
-	},
-	{
-		"code": "27104",
-		"name": "Taunting Presence",
-		"text": "Attach to the villain with the most remaining hit points. If you cannot, resolve the Ambush! Ability on the main scheme, then attach this card to the active villain.",
-		"traits": "Condition."
-	},
-	{
-		"code": "27105",
-		"name": "Team Leader",
-		"text": "Attach to the villain with the lowest activation order value. If you cannot, resolve the Ambush! Ability on the main scheme, then attach this card to the active villain.",
-		"traits": "Title."
-	},
-	{
-		"code": "27106",
-		"name": "Take One for the Team",
-		"text": "Attach to the villain with the highest ATK. If you cannot, resolve the Ambush! Ability on the main scheme, then attach this card to the active villain.\n You cannot attack villains who do not have an attached copy of Take One for the Team."
-	},
-	{
-		"code": "27107",
-		"name": "Brute Force Barricade",
-		"text": "Victory 1. (When defeated, add this card to the victory display.)\n Threat cannot be removed from other side schemes.\n<hr />\n[star] <b>Potenziamento</b>: Give the villain 1 additional boost card for this activation."
-	},
-	{
-		"code": "27108",
-		"name": "Frequent Flyers",
-		"text": "In expert mode, this card gains incite 1 and cannot be canceled.\n <b>When Revealed: </b> Put the set-aside Hobgoblin and Vulture into play. If Hobgoblin is already in play, take 2 indirect damage. If Vulture is already in play, discard 1 card at random from your hand."
-	},
-	{
-		"code": "27109",
-		"name": "High Fashion",
-		"text": "In expert mode, this card gains incite 1 and cannot be canceled.\n <b>When Revealed: </b> Put the set-aside Electro and Kraven the Hunter into play. If Electro is already in play, discard the highest-cost card you control. If Kraven the Hunter is already in play, discard the lowest-cost card you control."
-	},
-	{
-		"code": "27110",
-		"name": "Robotic Enhancements",
-		"text": "In expert mode, this card gains incite 1 and cannot be canceled.\n <b>When Revealed: </b> Put the set-aside Doctor Octopus and Scorpion into play. If Doctor Octopus is already in play, confuse a character you control. If Scorpion is already in play, stun a character you control."
-	},
-	{
-		"code": "27111",
-		"name": "Partnership of Pain",
-		"text": "<b>When Revealed (Alter-Ego): </b> The Villain with the lowest activation order value schemes with +X SCH where X is equal to the total SCH of all other villains in play.\n <b> When Revealed (Hero): </b> The villain with the highest activation order value attacks you with +X ATK, where X is equal to the total ATK of all other villains in play."
-	},
-	{
-		"code": "27112",
-		"name": "Surprise!",
-		"text": "In expert mode, this card gains surge and cannot be canceled.\n <b> When Revealed: </b>Resolve the Ambush! Ability on the main scheme. If no villain was put into play this way, place 3 threat on Light at the End."
-	},
-	{
-		"code": "27113",
-		"name": "Venom Goblin",
-		"text": "Steady.\n Infest the City - [star] <b>Forced Response: </b> After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Choose to either place 2 threat on that scheme or resolve its <b> Special </b> ability.",
-		"traits": "Goblin. Symbiote."
-	},
-	{
-		"code": "27114",
-		"name": "Venom Goblin",
-		"text": "Steady. Toughness.\n <b>When Revealed: </b> Deal 2 facedown encounter cards to each player.\n Claim the Throne - [star] <b>Forced Response: </b>After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Resolve its <b>Special</b> ability.",
-		"traits": "Goblin. Symbiote."
-	},
-	{
-		"code": "27115",
-		"name": "Venom Goblin",
-		"text": "Retaliate 1. Stalwart. Toughness.\n <b>When Revealed: </b> Deal 3 facedown encounter cards to each player.\n Reign of Terror - [star]<b>Forced Response: </b> After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Place 1 threat on that scheme and resolve its <b> Special </b> ability.",
-		"traits": "Goblin. Symbiote."
-	},
-	{
-		"code": "27116a",
-		"name": "Skies Over New York",
-		"text": "<b> Contents: </b> Venom Goblin (I) and Venom Goblin (II) (Venom Goblin (II) and Venom Goblin (III) for expert mode.) Venom Goblin, symbiotic strength, and standard encounter sets. One modular encounter set (Goblin Gear).\n <b>Setup: </b> Put the Lower Manhattan, Midtown Mahattan, and Upper Mahattan main schemes into play. Place the glifer counter on Midtown Manhattan. Flip this card and set it asside."
-	},
-	{
-		"code": "27116b",
-		"name": "Skies Over New York",
-		"text": "Player cards that affect the main scheme can apply to any main scheme.\n encounter cards that affect the main scheme only apply to the scheme with the glider counter (including the placing of acceleration tokens).\n Each main scheme accumulates threat each round according to its acceleration value and any accerlation tokens on that scheme"
-	},
-	{
-		"code": "27117a",
-		"name": "Lower Manhattan",
-		"text": "<b>Special: </b>Place 1 threat on each scheme. If a [[symbiote]] environment is in play, place 1 additional threat on this scheme."
-	},
-	{
-		"code": "27117b",
-		"name": "Lower Manhattan",
-		"text": "<b> When Revealed: </b> Move the glider counter and each accerleration token from here to the main scheme with the least threat.\n <b> If there are at least 2 [[symbiote]] environments in play, the players lose the game.",
-		"traits": "Location. Symbiote."
-	},
-	{
-		"code": "27118a",
-		"name": "Midtown Manhattan",
-		"text": "<b>Special: </b> Take 2 indirect damage. If a [[symbiote]] environment is in play, take 1 additional indirect damage."
-	},
-	{
-		"code": "27118b",
-		"name": "Midtown Manhattan",
-		"text": "<b> When Revealed: </b> Move the glider counter and each accerleration token from here to the main scheme with the least threat.\n <b> If there are at least 2 [[symbiote]] environments in play, the players lose the game.",
-		"traits": "Location. Symbiote."
-	},
-	{
-		"code": "27119a",
-		"name": "Upper Manhattan",
-		"text": "<b>Special: </b> Discard 1 card from your hand. If a [[symbiote]] environment is in play, discard the top 4 cards of your deck."
-	},
-	{
-		"code": "27119b",
-		"name": "Upper Manhattan",
-		"text": "<b> When Revealed: </b> Move the glider counter and each accerleration token from here to the main scheme with the least threat.\n <b> If there are at least 2 [[symbiote]] environments in play, the players lose the game.",
-		"traits": "Location. Symbiote."
-	},
-	{
-		"code": "27120",
-		"name": "We Are One",
-		"text": "Attach to Venom Goblin. \n <b>Hero Action: </b> Spend [energy][mental][physical] printed resources → discard this card."
-	},
-	{
-		"code": "27121",
-		"name": "Symbiotic Berserker",
-		"traits": "Symbiote.",
-		"text": "[star] While a [symbiote] environment is in play, Symbiotic Berserker gains quickstrike.\n<hr />\n[star] <b>Potenziamento</b>: Move the glider counter to the main scheme with the most threat. Place 1 threat on that scheme."
-	},
-	{
-		"code": "27122",
-		"name": "Symbiotic Monstrosity",
-		"text": "Retaliate 1. Steady. Toughness.\n[star] While a [[symbiote]] environment is in play, Symbiotic Montrosity gets +3 hit points.\n<hr />\n[star] <b>Potenziamento</b>: If this activation is an attack, this attack deals indirect damage.",
-		"traits": "Elite. Symbiote."
-	},
-	{
-		"code": "27123",
-		"name": "Symbiotic Thrall",
-		"text": "Guard.\nWhile a [[symbiote]] environment is in play, Symbiotic Thrall gains patrol.\n<hr />\n[star] <b>Potenziamento</b>: Place 1 threat on each main scheme without the glider counter.",
-		"traits": "Symbiote."
-	},
-	{
-		"code": "27124",
-		"name": "Festering Mass",
-		"text": "While there are no other [[symbiote]] environments in play, this card is considered a [[symbiote]] environment.\n<hr />\n[star] <b>Potenziamento</b>: Reveal this card."
-	},
-	{
-		"code": "27125",
-		"name": "Joy Ride",
-		"text": "Hinder 2[per_hero].\n<b>When Revealed</b>: Move the glider token to the main scheme with the most threat. Resolve that scheme's \"<b>Special</b>\" ability."
-	},
-	{
-		"code": "27126",
-		"name": "Spreading Panic",
-		"text": "Surge.\n <b>When Revealed: </b> Resolve the <b>Special</b> ability of the scheme with the glider counter.\n<hr />\n[star] <b>Potenziamento</b>: Resolve the <b>Special</b> ability of the scheme with the glider counter."
-	},
-	{
-		"code": "27127",
-		"name": "Panic in the Streets",
-		"text": "Treat the printed text box of each [[location]] support and each [[persona]] support as if it were blank <i>(except for [[traits]])</i>."
-	},
-	{
-		"code": "27128",
-		"name": "Rhino",
-		"text": "Steady. (Steady characters require 2 status cards of the same type to be stunned or confused.)\n[star] Rhino's attack gain overkill and piercing",
-		"traits": "Criminal. Elite."
-	},
-	{
-		"code": "27129",
-		"name": "Calling in Favors",
-		"text": "<b> When Revealed: </b> Rhino schemes with +2 SCH. If Rhino is not in play, search the encounter deck and discard pile for the Rhino minion and put him into play engaged with you. (shuffle.)"
-	},
-	{
-		"code": "27130",
-		"name": "Now or Never",
-		"text": "Peril. (While you are resolving this card, other players cannot help you.)\n <b> When Reveald: </b> Choose:\n Place 1 acceleration token on the main scheme.\n Exhause a character you control and spend 1 resource of any type"
-	},
-	{
-		"code": "27131",
-		"name": "Common Criminal",
-		"text": "Surge.\n <b> Alter-ego Action: </b> Spend a [physical] resource → deal 3 damage to Common Criminal. If this minion is defeated this way, choose to either draw 1 card or remove 3 threat from a side scheme.",
-		"traits": "Criminal."
-	},
-	{
-		"code": "27132",
-		"name": "Friends and Family",
-		"text": "While in hero form, increase the resource cost of each event you play by 1.\n <b> Alter-Ego Action: </b> Discard 1 identity specific card from your hand → discard this obligation."
-	},
-	{
-		"code": "27133",
-		"name": "Volunteer Work",
-		"text": "You cannot thwart this scheme.\n<b>Alter-Ego Action</b>: Spend 2 resources of any type → remove threat from this scheme equal to your alter-ego's REC. If your identity has the [[civilian]] trait, draw 1 card."
-	},
-	{
-		"code": "27134",
-		"name": "\"Threat or Menace?\"",
-		"text": "<b> When Revealed: </b> You may change form. If you are in hero form, place 2 threat on the main scheme. If you are alter-ego form, you cannot change form during your next turn."
-	},
-	{
-		"code": "27135",
-		"name": "Loose Ends",
-		"text": "<b> When Revealed: </b> Search the encounter deck, discard pile, set-aside area, and removed-from-game area for a copy of your obligation, then reveal it. During that reveal, if you change to alter-ego form, discard 1 random card from your hand. If your obligation was not revealed this way, this card gains surge."
-	},
-	{
-		"code": "27136",
-		"name": "Advanced Glider",
-		"text": "Attach to the villain.\n <b> Forced Response: </b> After attached villain activates against you, it activates against you again. (Limit once per rounder per player).\n <b> Hero Action: </b> Discard any number of [[attack]] cards from your hand with a combined resource cost of 3 or more → discard this card.",
-		"traits": "Item. Tech."
-	},
-	{
-		"code": "27137",
-		"name": "Concussive Bombs",
-		"text": "Attach to the villain.\n Uses (2 bomb counters.)\n [star] <b>Foced Response: </b> After the villain attacks you, remove 1 bomb counter from here → exhauset 1 upgrade and 1 support you control.",
-		"traits": "Tech. Weapon."
-	},
-	{
-		"code": "27138",
-		"name": "Incendiary Bombs",
-		"text": "Attach to the villain.\n Uses (2 bomb counters.)\n [star] <b>Foced Response: </b> After the villain attacks you, remove 1 bomb counter from here → take 2 indirect damage.",
-		"traits": "Tech. Weapon."
-	},
-	{
-		"code": "27139",
-		"name": "Smoke Bombs",
-		"text": "Attach to the villain.\n Uses (2 bomb counters.)\n [star] <b>Foced Response: </b> After the villain attacks you, remove 1 bomb counter from here → discard 1 event from your hand with the lowest cost.",
-		"traits": "Tech. Weapon."
-	},
-	{
-		"code": "27140",
-		"name": "Limitless Supply",
-		"text": "Each [[Tech]] attachment gains surge."
-	},
-	{
-		"code": "27141",
-		"name": "Remote Navigation",
-		"text": "<b> When Revealed: </b> If Advaned Glider is in play, the villain activates against you. If it is not in play, search the encounter deck and discard pile for Advance Glider and reveal it.\n<hr />\n[star] <b>Potenziamento</b>: Give the villain 2 additional boost cards for this activation."
-	},
-	{
-		"code": "27142",
-		"name": "Life-Size Decoy",
-		"text": "In expert mode, Life-size Decoy gains toughness.\n The engaged player cannot thwart side schemes.\n<hr />\n[star] <b>Potenziamento</b>: Put this minion into play engaged with you."
-	},
-	{
-		"code": "27143",
-		"name": "Coordinated Effort",
-		"text": "Each enemy gains 1 acceleration icon ([acceleration]).\n<hr />\n[star] <b>Potenziamento</b>: Place 1 threat on each scheme. (In expert mode, place 1 additional threat on the main scheme.)"
-	},
-	{
-		"code": "27144",
-		"name": "Hidden in Shadow",
-		"text": "Each enemy gains 1 hazard icon ([hazard]).\n<hr />\n[star] <b>Potenziamento</b>: Deal 1 idirect damage to each player. (In expert mode, deal 1 addition indirect damage to the first player.)"
-	},
-	{
-		"code": "27145",
-		"name": "Teamwork Makes the Dream Work",
-		"text": "Each enemy gets +1 SCH and +1 ATK.\n<hr />\n[star] <b>Potenziamento</b>: In expert mode, this card gets +2 boost icons [boost][boost] for this activation."
-	},
-	{
-		"code": "27146",
-		"name": "From Every Direction",
-		"text": "In expert mode, this card gains surge.\n <b> When Revealed: </b> Place 1 threat on the main scheme for each enemy in play."
-	},
-	{
-		"code": "27147",
-		"name": "Arm Cannon",
-		"text": "Surge.\n Attach to the villain\n [star] Attached villain's attacks gain overkill and piercing.  <b> Hero Action: </b> Discard the highest cost upgrade you control → discard this card.",
-		"traits": "Tech. Weapon."
-	},
-	{
-		"code": "27148",
-		"name": "Ionic Boots",
-		"text": "Surge.\n Attach to the villain\n [star] <b> Forced Response: </b> After attached villain attacks and damages your identity, place 2 threat on the main scheme.\n <b> Hero Action: </b> Spend [energy] [mental][physical] resources → discard this card.",
-		"traits": "Item. Tech."
-	},
-	{
-		"code": "27149",
-		"name": "Kinetic Armor",
-		"text": "Surge.\n Attach to the villain\n Attached villain gains realiate 1.\n <b> Hero Action: </b> Take 3 indirect damage → discard this card.",
-		"traits": "Armor. Tech."
-	},
-	{
-		"code": "27150",
-		"name": "Neocarbon Scales",
-		"text": "Surge.\n Attach to the villain\n Reduce the amount of damage attached villain takes from each attack by 1  <b> Hero Action: </b> Give the villain a tough status card and 1 facedown boost card → discard this card.",
-		"traits": "Armor. Tech."
-	},
-	{
-		"code": "27151",
-		"name": "Spiked Gauntlet",
-		"text": "Surge.\n Attach to the villain.\n <b> Hero Action: </b> The villain attacks you. After that attack ends, if your identity took no damage from that attack, discard this card.",
-		"traits": "Tech. Weapon."
-	},
-	{
-		"code": "27152",
-		"name": "Tracking Display",
-		"text": "Surge .\n Attach to the villain.\n [star] Each character cannot defend against attached villain's attack.\n <b> Hero Action: </b> Exhause a character you control and discard 1 random card from your hand → discard this card.",
-		"traits": "Item. Tech."
-	},
-	{
-		"code": "27153",
-		"name": "Induced Panic",
-		"text": "Attach to your identity.\n You cannot resolve triggered abilities in your hero's printed text box. (Triggered abilities are ones with <b> bold </b> timing triggers.) /n <b> Alter-Ego Action: </b> Discard 1 identity-specific card at random from your hand →discard this card.",
-		"traits": "Illusion."
-	},
-	{
-		"code": "27154",
-		"name": "Evil Doppelgänger",
-		"text": "Evil Doppelganger gers +X SCH and +X ATK where X is equal to the number of identity-specific cards in the engaged player's hand.\n<hr />\n[star] <b>Potenziamento</b>: Draw 3 cards. Discard 3 random cards from your hand.",
-		"traits": "Illusion."
-	},
-	{
-		"code": "27155",
-		"name": "Fool's Paradise",
-		"text": "Victory  1. <i>(When defeated, add this card to the victory display.)</i>\nEach identity gets +2 hand size."
-	},
-	{
-		"code": "27156",
-		"name": "Weakness from Within",
-		"text": "<b>When Revealed</b>: Place 1 additional threat here for each card in your hand."
-	},
-	{
-		"code": "27157",
-		"name": "Deepest Fears",
-		"text": "Peril. (While you are resolving this card, other players cannot help you.)\n <b>When Revealed: </b> Discard cards from the top of your deck equal to the number of cards in your hand. If at least 1 identity-specific card was discarded this way, place 1 threat on the main scheme. If not identity-specific card was discarded this way, take 1 damage."
-	},
-	{
-		"code": "27158",
-		"name": "Doctor Octopus",
-		"text": "Incite 2. Villainous.\n [star] <b> Forced Response: </b> After Doctor Octopus activates against you, place 1 threat on each scheme.",
-		"traits": "Elite. Genius."
-	},
-	{
-		"code": "27159",
-		"name": "Electro",
-		"text": "Retaliate 1. Villainous.\n <b>Forced Response: </b> After Electro engages you or activates against you, discard cards from the top of your deck until you discard a [energy] or [wild] resource.",
-		"traits": "Criminal. Elite."
-	},
-	{
-		"code": "27160",
-		"name": "Hobgoblin",
-		"text": "Patrol. Villainous.\n [star] <b>Forced Response: </b> After Hobgolbin attacks you, take 2 indirect damage.",
-		"traits": "Aerial. Elite."
-	},
-	{
-		"code": "27161",
-		"name": "Kraven the Hunter",
-		"text": "Steady. Villainous.\n [star] <b>Forced Response: </b> After Kraven the Hunter attacks and damges a character you control, discard 1 upgrade or support you control.",
-		"traits": "Elite."
-	},
-	{
-		"code": "27162",
-		"name": "Scorpion",
-		"text": "Toughness. Villainous.\n [star] <b>Forced Response: </b> After Scorpion attacks and damges a character, stun that character. If it is already stunned, deal 2 damage to it.",
-		"traits": "Brute. Elite."
-	},
-	{
-		"code": "27163",
-		"name": "Vulture",
-		"text": "Quickstrike. Villainous.\n [star] <b>Forced Response: </b> After Vulture activates against you, discard 1 random card from your hand.",
-		"traits": "Aerial. Elite."
-	},
-	{
-		"code": "27164",
-		"name": "Improvised Weapons",
-		"text": "Attach to the villain.\n <b> Hero Action: </b> Spend [mental][physical][energy] resources → discard this card."
-	},
-	{
-		"code": "27165",
-		"name": "Violent Tendencies",
-		"text": "Attach to the villain.\n <b>Forced Response: </b> After attached villain takes any amount of damage from an attack, give attached villain 1 facedown boost card. If that attack dealt 3 or more damage to attached villain, discard this card.",
-		"traits": "Condition."
-	},
-	{
-		"code": "27166",
-		"name": "Webbed Up",
-		"text": "Attach to your identity.\n <b> Forced Interrupt </b> When your hero would attack, discard Webbed Up instead. Then you are stunned.\n<hr />\n[star] <b>Potenziamento</b>: You are stunned. If you are already stunned, take 2 damage.",
-		"traits": "Condition."
-	},
-	{
-		"code": "27167",
-		"name": "Enraged Symbiote",
-		"text": "Guard Patrol. (While this minion is engaged with you, you cannot thwart the main scheme.)\n<hr />\n[star] <b>Potenziamento</b>: Put enraged Symbiote into play engaged with you.",
-		"traits": "Symbiote."
-	},
-	{
-		"code": "27168",
-		"name": "Swinging Assault",
-		"text": "<b> When Revealed (Alter-Ego): </b> Change to hero form. The villain attacks you.\n <b>When Revealed (Hero): </b> The villain attacks you. Give the villain 1 additional boost card for that activation."
-	},
-	{
-		"code": "27169",
-		"name": "Unstable Sentience",
-		"text": "Surge.\n <b> When Revealed: </b> Give the villain 1 facedown boost card.\n<hr />\n[star] <b>Potenziamento</b>: If this activation is an attack, this card gets +2 boost icons ([boost][boost]) for this attack and this attack gains overkill."
-	},
-	{
-		"code": "27170",
-		"name": "Delusion of Collusion",
-		"text": "Attach to your identity.\n You cannot ready allies or [[persona]] supports you control\n <b> Alter-Ego Action: </b> Discard an ally or [[persona]] support you control → discard this card.\n<hr />\n[star] <b>Potenziamento</b>: If any ally is defeated by this attack, take indirect damage equal to that ally's printed cost.",
-		"traits": "Illusion."
-	},
-	{
-		"code": "27171",
-		"name": "Manipulated Mind",
-		"text": "Treat attached ally as a minion with a blank text box (except for [[traits]]). Attach minion's SCH is equal to its printed THW and it does not take consequential damage.\n <b>When Revealed: </b> Attach to the ally you control with the lowest cost. If you cannot, this card gains surge.",
-		"traits": "Illusion."
-	},
-	{
-		"code": "27172",
-		"name": "Old Grudge",
-		"text": "Attached minion gets +1 hit point.\n <b> When Revealed: </b> Search the encounter deck, discard pile, and set-aside area for your nemesis minion, then reveal that minion. Attach old Grudge to it (Shuffle.)\n<hr />\n[star] <b>Potenziamento</b>: Deal 1 damage to each character you control.",
-		"traits": "Illusion."
-	},
-	{
-		"code": "27173",
-		"name": "Analysis Paralysis",
-		"text": "<b>When Revealed</b>: Search the encounter deck, discard pile, and set-aside area for your nemesis side scheme, then reveal it. Place X additional threat here, where X is equal to the amount of threat on that side scheme."
-	}
+    {
+        "code": 27025,
+        "name": "Papà Preoccupato",
+        "text": "<b>Fai ricevere al giocatore Gwen Stacy.</b>\nCerca nel tuo mazzo, nella tua mano, nella tua pila degli scarti e nella tua area di gioco George Stacy e mettilo da parte. Assegnali questa incombenza.\n<b>Azione Alter Ego</b>: Esaurisci Gwen Stacy e rimuovi dal gioco questa incombenza → aggiungi George Stacy alla tua mano."
+    },
+    {
+        "code": 27026,
+        "name": "Ricerca Generativa",
+        "text": "<b>Interruzione Obbligata</b>: Quando la Fase del Criminale inizia, cura 1 danno a ogni nemico.",
+        "flavor": "Le ricerche di Peter Parker sulle proprietà rigenerative del DNA delle lucertole hanno portato a risultati inaspettati, trasformando lui e chiunque sia entrato in contatto con questo siero in una mostruosità rettile!"
+    },
+    {
+        "code": 27027,
+        "name": "Lizard",
+        "text": "<b>Interruzione Forzata</b>: Quando la Fase del Criminale inizia, cura 1 danno a Lizard.\n<i>(Gregario nemesi di Ghost-Spider.)</i>",
+        "traits": "Bruto. Creatura."
+    },
+    {
+        "code": 27028,
+        "name": "Iniezione Sperimentale",
+        "text": "Assegna al gregario con più punti ferita rimanenti. Se non puoi farlo, questa carta ottiene Impulso.\nIl gregario con questa aggiunta ottiene il tratto [[Creatura]] e riceve +4 punti ferita.",
+        "flavor": "\"RAAARRRRRRR!!!\""
+    },
+    {
+        "code": 27029,
+        "name": "A Sangue Freddo",
+        "text": "<b>Quando Rivelata</b>: Lizard ti attacca. Non puoi giocare eventi fino a dopo che quell'attacco è stato risolto. Se non è stato effettuato alcun attacco in questo modo, questa carta ottiene Impulso.",
+        "flavor": "\"Carne fresca...\" — Lizard"
+    },
+    {
+        "code": 27056,
+        "name": "Mantenere i Segreti",
+        "text": "<b>Fai ricevere al giocatore Miles Morales.</b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n- Esaurisci Miles Morales → rimuovi dal gioco Mantenere i Segreti.\n- Scarta dal gioco Ganke Lee e Jefferson Davis. Se non hai scartato nessuno dei due in questo modo, questa carta ottiene Impulso. Scarta questa incombenza."
+    },
+    {
+        "code": 27057,
+        "name": "Sulle Tracce della Preda",
+        "text": "<b>Quando Rivelata</b>: Se sei nella sembianza di alter ego, colloca 1 gettone accellerazione su questa carta.",
+        "flavor": "Prowler è a caccia e non si fermerà finché non avrà messo la sua preda con le spalle al muro."
+    },
+    {
+        "code": 27058,
+        "name": "Prowler",
+        "text": "Stabile.\n<b>Quando Rivelata</b>: Se sei nella sembianza di alter ego, irrobustisci Prowler.\n<i>(Gregario nemesi di Spider-Man)</i>",
+        "flavor": "\"Ti darò un consiglio: fai in modo che non ti trovi.\"",
+        "traits": "Criminale."
+    },
+    {
+        "code": 27059,
+        "name": "Artigli Affilati",
+		"text": "Assegna al gregario con più punti ferita stampati. Se non puoi farlo, questa carta ottiene Impulso.\n[star] Gli attacchi del nemico con questa aggiunta ottengono Perforante.",
+        "flavor": "Artigli progettati per dilaniare l'acciaio",
+        "traits": "Arma."
+    },
+    {
+        "code": 27060,
+        "name": "Taglia e Affetta",
+        "text": "<b>Quando Rivelata</b>: Prowler attacca il giocatore con meno punti ferita rimanenti <i>(anche se quel giocatore è nella sembianza di alter ego)</i>. Se quell'attacco sconfigge un personaggio o non viene effettuato alcun attacco in questo modo, questa carta ottiene Impulso."
+    },
+    {
+        "code": 27061,
+        "name": "Uomo Sabbia",
+        "text": "Scarica di Sabbia - [star]<b>Interruzione Obbligata: </b> Quando Uomo Sabbia ti attacca, quell'attacco infligge danni indiretti. Se la tua identità subisce un qualsiasi ammontare di danni da quell'attacco, risolvi la capacità \"Marea di Sabbia\" di Strade Cittadine.",
+        "flavor": "\"L'uomo Sabbia è più potente di tuti voi, vermi!\"",
+        "traits": "Criminale."
+    },
+    {
+        "code": 27062,
+        "name": "Uomo Sabbia",
+        "text": "<b>Quando Rivelata: </b> Risolvi la capacità \"Marea di Sabbia\" di Strade Cittadine. \n Scarica di Sabbia - [star] <b>Interruzione Obbligata: </b> Quando Uomo Sabbia ti attacca, quell'attacco infligge danni indiretti. Se la tua identità subisce un qualsiasi ammontare di danni da quell'attacco, risolvi la capacità \"Marea di Sabbia\" di Strade Cittadine.",
+        "traits": "Criminale."
+    },
+    {
+        "code": 27063,
+        "name": "Uomo Sabbia",
+        "text": "<b>Quando Rivelata: </b> Colloca 1 gettone sabbia su Strade Cittadine. Risolvi la sua capacità \"Marea di Sabbia\". \n Ondata di Sabbia - [star] <b>Interruzione Obbligata: </b> Quando Uomo Sabbia ti attacca, quell'attacco ottiene Sopraffazione. Sela tua identità subisce un qualsiasi ammontare di danni da quell'attacco, risolvi la capacità \"Marea di Sabbia\" di Strade Cittadine.",
+        "traits": "Criminale."
+    },
+    {
+        "code": 27064,
+        "name": "Passanti Sventurati",
+        "flavor": "L'Uomo Sabbia sta inondando le strade della città con le sue sabbie impetuose mettendo in pericolo i passanti innocenti!",
+        "text": "<b>Risposta Obbligata:</b> Dopo che un segnalino accellerazione è stato collocato su questra trama, infliggi 3 danni indiretti al primo giocatore.\n <b>Se questo stadio è completato, i giocatori perdono la partita. </b>",
+        "back_text": "<b>Contenuto: </b> Uomo Sabbia (I) e Uomo Sabbia (II). (Uomo Sabbia (II) e Uomo Sabbia (III) invece per la modalità esperto.) Set di incontri Uomo Sabbia, Città nel Caos e Standard. 1 set di incontri modulare (Piedi per Terra). \n <b>Preparazione: </b>Cerca nel mazzo degli incontri l'ambiente Strade Cittadine e mettilo in gioco. Colloca 4 gettoni sabbia su di esso."
+    },
+    {
+        "code": 27065,
+        "name": "Strade Cittadine",
+        "text": "Marea di Sabbia - <b>Speciale: </b>Colloca 1 gettone sabbia su questa carta. Scarta un ammontare di carte dalla cima del mazzo degli incontri pari al numero di gettoni sabbia su questa carta. \n <b>Azione Eroe: </b> Esaurisci 1 personaggio che controlli -> rimuovi da questa carta un ammontare di gettoni sabbia pari all'ATT di quel personaggio. (Limite di una volta per round per giocatore.)",
+        "traits": "Luogo."
+    },
+    {
+        "code": 27066,
+        "name": "Forma di Sabbia",
+        "text": "Assegna a Uomo Sabbia. \n <b>Interruzione Obbligata: </b> Quando stai per infliggere un qualsiasi ammontare di danni a Uomo Sabbia, scarta invece Forma di Sabbia -> risolvi la capacità \"Marea di Sabbia\" di Strade Cittadine.\n<hr />\n[star] <b>Potenziamento</b>: Rivela questa carta.",
+        "traits": "Condizione."
+    },
+    {
+        "code": 27067,
+        "name": "Clone di Sabbia",
+        "text": "X è pari al numero di gettoni sabbia su Strade Cittadine. \n <b>Quando Sconfitta: </b> Risolvi la capacità \"Marea di Sabbia\" di Strade Cittadine.",
+        "flavor": "\"Se volete mettere le mani su di me, prima dovrete passare sopra di... ME!\" - Uomo Sabbia"
+    },
+    {
+        "code": 27068,
+        "name": "Trappola di Fango",
+        "text": "<b>Quando Sconfitta</b>: Risolvi la capacità \"<i>Marea di sabbia</i>\" di Strade Cittadine. Risolvila di nuovo.",
+        "flavor": "Un'onda anomala beige invade le strade tutto attorno a voi. Ovunque vi voltiate, l'Uomo Sabbia attende in agguato."
+    },
+    {
+        "code": 27069,
+        "name": "Tsunami di Sabbia",
+        "text": "<b>Quando Rivelata: </b> Colloca X minacce aggiuntive su questa carta, dove X è pari al numero di gettoni sabbia su Strade Cittadine."
+    },
+    {
+        "code": 27070,
+        "name": "Valanga di Sabbia",
+        "text": "<b>Quando Rivelata: </b> Colloca 2 gettoni sabbia su Strade Cittadine, poi risolvi la sua capacità \"Marea di Sabbia\". Se 1 o più carte del set Uomo Sabbia sono state scartate in questo modo, sei stordito.\n<hr />\n[star] <b>Potenziamento</b>: Risolvi la capacità \"<b>Quando Rivelata </b>\" di questa carta."
+    },
+    {
+        "code": 27071,
+        "name": "Tempesta di Sabbia",
+        "text": "<b> Quando Rivelata: </b> Infliggi un totale di X danni indiretti ai giocatori (suddividendoli come preferisci), dove X è pari al numero di gettoni sabbia su Strade Cittadine. Se non ci sono gettoni sabbia su Strade Cittadine, colloca 3 gettoni sabbia su di esse e mescola questa carta nel mazzo degli incontri."
+    },
+    {
+        "code": 27072,
+        "name": "Schianto di Sabbia",
+        "text": "<b>Quando Rivelata (Alter Ego): </b> Risolvi la capacità \"Marea di Sabbia\" di Strade Cittadine. Questa carta ottiene impulso.\n <b>Quando Rivelata (Eroe):</b> Uomo Sabbia ti attacca con +1 ATT.",
+        "flavor": "\"Ti seppellirò!\""
+    },
+    {
+        "code": 27073,
+        "name": "Venom",
+        "text": "Robustezza. (Questo personaggio entra in gioco con 1 carta status Robusto.) \nVendetta - <b> Risposta Obbligata: </b> Dopo che hai attaccato e danneggiato Venom con una carta che controlli, colloca 1 carta potenziamento a faccia in giù sulla tua identità.",
+        "traits": "Simbionte."
+    },
+    {
+        "code": 27074,
+        "name": "Venom",
+        "text": "Robustezza. Tempra. \n <b>Quando Rivelata: </b> Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri la trama secondaria Zanne e Artigli e mettila in gioco. (Mescola.) \nVendetta - <b>Risposta Obbligata: </b> Dopo che hai attaccato e danneggiato Venom con una carta che controlli, colloca 1 carta potenziamento a faccia in giù sulla tua identità.",
+        "traits": "Simbionte."
+    },
+    {
+        "code": 27075,
+        "name": "Venom",
+        "text": "Ritorsione 1. Tempra. Robustezza. \n <b>Quando Rivelata: </b> Colloca 2 carte potenziamento a faccia in giù su ogni identità. \nCastigamento - <b>Risposta Obbligata: </b> Dopo che hai attaccato e danneggiato Venom con una carta che controlli, colloca 1 carta potenziamento a faccia in giù sulla tua identità (colloca invece 2 carte potenziamento a faccia in giù se questo è il primo attacco in questo turno).",
+        "traits": "Simbionte."
+    },
+    {
+        "code": "27076a",
+        "name": "\"Lasciateci in Pace!\"",
+        "text": "<b>Contenuto: </b> Venom (I) e Venom (II). (Venom (II) e Venom (III) invece per la modalità esperto.) Set di incontri Venom, Forza Simbiotica e Standard. 1 set di incontri modulare (Piedi per Terra.) \n <b> Preparazione: </b> Metti in gioco l'ambiente Campanile, con il lato [[SILENZIO]] a faccia in su."
+    },
+    {
+        "code": "27076b",
+        "name": "\"Lasciateci in Pace!\"",
+        "flavor": "Non appena si accorge della vostra presenza, Venom viene colto da un'improvvisa ferocia. Si avventa su di voi senza alcun controllo, seminando distruzione in tutta la città.",
+        "text": "<b>Interruzione Obbligata: </b> Quando Venom si attiva contro di te, sposta ogni carta potenziamento a faccia in giù dalla tua identità a Venom. \n <b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "27077a",
+        "name": "Campanile",
+        "text": "Se ci sono 3[per_player] o più gettoni rintocco su questa carta, girala. \n <b>Interruzione: </b> Quando un attacco sta per infliggere un qualsiasi ammontare di danni a Venom, puoi collocare invece un pari ammontare di gettoni rintocco su questa carta.",
+        "flavor": "Il simbionte Venom è molto sensibile ai rumori forti...",
+        "traits": "Luogo. Silenzio."
+    },
+    {
+        "code": "27077b",
+        "name": "Campanile ",
+        "text": "Aumenta di 1 tutti i danni subiti da Venom. \nSe non ci sono gettoni rintocco su questa carta, girala. \n <b>Interruzione Obbligata: </b> Quando un attacco di Venom sta per infliggere un qualsiasi ammontare di danni a un'identità, rimuovi un pari ammontare di gettoni rintocco da questa carta. Per ogni gettone rintocco rimosso in questo modo, previeni 1 di quei danni.",
+        "traits": "Frastuono. Luogo."
+    },
+    {
+        "code": 27078,
+        "name": "\"Siamo Già Arrabbiati!\"",
+        "text": "Assegna a Venom. \nUtilizzo (2 gettoni ira). \n [star] Gli attacchi di Venom ottengono Sopraffazione. \n <b>Risposta Obbligata: </b>Dopo che Venom ha subito un qualsiasi ammontare di danni da un attacco, rimuovi 1 gettone ira da questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Rivela questa carta.",
+        "traits": "Condizione."
+    },
+    {
+        "code": 27079,
+        "name": "A Guardia del Campanile",
+        "text": "Considera il riquadro di testa di Campanile come se fosse vuoto <i>([[TRATTI]] esclusi)</i>.\n<b>Quando Rivelata</b>: Rimuovi ogni gettone rintocco da Campanile e giralo sul lato [[SILENZIO]]."
+    },
+    {
+        "code": 27080,
+        "name": "Furia Sferzante",
+        "text": "<b>Risposta</b>: Dopo che Venom ha subito un qualsiasi ammontare di danni da un attacco, rimuovi un pari ammontare di minacce da questa trama.\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, subisci 2 danni indiretti."
+    },
+    {
+        "code": 27081,
+        "name": "Zanne e Artigli",
+        "text": "<b>Risposta: </b> Dopo che Venom ha subito un qualsiasi ammontare di danni da un attacco, rimuovi un pari ammontare di minacce da questa trama.\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, questo attacco ottiene Perforante."
+    },
+    {
+        "code": 27082,
+        "name": "Replica Mordace",
+        "text": "<b>Quando Rivelata: </b> Venom si attiva contro di te. Ogni carta potenziamento girata a faccia in su durante quell'attivazione riceve + 1 icona potenziamento [boost].\n<hr />\n[star] <b>Potenziamento</b>: Rimuovi 1 gettone rintocco da Campanile."
+    },
+    {
+        "code": 27083,
+        "name": "Per Chi Suona la Campana",
+        "text": "<b>Quando Rivelata: </b> Rimuovi 2 gettoni rintocco da Campanile. Se Campanile è sul lato [[SILENZIO]], subisci 1 danno. Se è sul lato [[FRASTUONO]], rimuovi 1 minaccia dalla trama principale.\n<hr />\n[star] <b>Potenziamento</b>: Risolvi la capacità \"<b>Quando Rivelata </b>\" di questa carta."
+    },
+    {
+        "code": 27084,
+        "name": "Mysterio",
+        "text": "Semi della Paura - [star] <b>Risposta Obbligata: </b> Dopo che hai risolto una carta potenziamento durante l'attivazione di Mysterio, se quella carta possiede il tratto [[ILLUSIONE]], collocala nella tua pila degli scarti.",
+        "flavor": "\"Benvenuti nel vostro incubo!\"",
+        "traits": "Criminale."
+    },
+    {
+        "code": 27085,
+        "name": "Mysterio",
+        "text": "<b>Quando Rivelata:</b> In ordine di gioco, mescola 1 carta dalla cima del mazzo degli incontri nel mazzo di ogni giocatore. \nPaura Strisciante - [star] <b>Risposta Obbligata: </> Dopo che hai risolto una carta potenziamento durante l'attivazione di Mysterio, se quella carta possiede il tratto [[ILLUSIONE]], collocala in fondo al tuo mazzo.",
+        "traits": "Criminale."
+    },
+    {
+        "code": 27086,
+        "name": "Mysterio",
+        "text": "<b>Quando Rivelata: </b> Scarta 5 carte dalla cima del mazzo di ogni giocatore. \nVincolato dalla Paura - [star] <b> Risposta Obbligata: </b> Dopo che hai risolto una carta potenziamento durante l'attivazione di Mysterio, se quella carta possiede il tratto [[ILLUSIONE]], collocala in cima al tuo mazzo.",
+        "traits": "Criminale."
+    },
+    {
+        "code": "27087",
+        "name": "Labirinto di Specchi",
+        "back_text": "<b> Contenuto: </b> Mysterio (I) e Mysterio (II). (Mysterio (II) e Mysterio (III) invece per la modalità esperto.) Set di incontri Mysterio, Incubo Personale e Standard. 1 set di incontri modulare (Sussurri di Paranoia.) \n <b> Preparazione:</b> Metti in gioco 1 gregario Spettro Mutevole impegnato con ogni giocatore. (Mescola.)",
+        "text": "<b>Interruzione Obbligata: </b> Quando stai per pescare o scartare una carta incontro dal tuo mazzo, distribuiscila come carta incontro a faccia in giù a te stesso → pesca 1 carta."
+    },
+    {
+        "code": "27088",
+        "name": "Ai Confini della Realtà",
+        "back_text": "<b> Quando Rivelata:</b> In ordine di gioco, mescola 2 carte dalla cima del mazzo degli incontri nel mazzo di ogni giocatore.",
+        "flavor": "La capacità di Mysterio di manipolare le menti comincia a gravare sui vostri pensieri, offuscando il confine che separa la realtà dalla fantasia.",
+        "text": "<b> Interruzione Obbligata: </b> Quando stai per pescare o scartare una carta incontro dal tuo mazzo, distribuiscila come carta incontro a faccia in giù a te stesso → pesca 1 carta. \n <b>Se questo stadio è completato, i giocatori perdono la partita. </b>"
+    },
+    {
+        "code": 27089,
+        "name": "Allucinazione Mastodontica",
+        "text": "Assegna a Mysterio. \n<b>Azione Eroe: </b> Spendi 1 risorsa di qualsiasi tipo e mescola 2 carte dalla cima del mazzo degli incontri nel tuo mazzo → scarta questa carta.",
+        "flavor": "\"E' tempo di schiacciarti come l'insetto che sei!\" - Mysterio",
+        "traits": "Illusione."
+    },
+    {
+        "code": 27090,
+        "name": "Miraggio Magistrale",
+        "text": "Assegna a Mysterio. \n<b> Interruzione Obbligata </b> Quando stai per infliggere un qualsiasi ammontare di danni a Mysterio, scarta invece 4 carte dalla cima del tuo mazzo. Scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Fai ricevere 1 carta potenziamento aggiuntiva a Mysterio per questa attivazione.",
+        "traits": "Illusione."
+    },
+    {
+        "code": 27091,
+        "name": "Spettro Mutevole",
+        "text": "Guardia. (Mentre questo gregario è impegnato con te, non puoi attaccare il criminale.) \n <b> Quando Sconfitta: </b> Se questo gregario è stato sconfitto con danni in eccesso, il giocatore che lo ha sconfitto mescola 1 carta dalla cima del mazzo degli incontri nel suo mazzo.",
+        "traits": "Illusione."
+    },
+    {
+        "code": 27092,
+        "name": "Déjà Vu",
+        "text": "Isolamento. (Mentre risolvi questa carta, gli altri giocatori non possono aiutarti.) \n <b> Quando Rivelata: </b> Scegli se subire 1 danno oppure collocare 1 minaccia sulla trama principale. Mescola Déjà Vu nel mazzo di un qualsiasi giocatore.\n<hr />\n[star] <b>Potenziamento</b>: Rivela questa carta."
+    },
+    {
+        "code": 27093,
+        "name": "Dispensatore di Paura",
+        "text": "Impulso. \n <b> Quando Rivelata: </b> Scarta la tua mano. Pesca fino al tuo limite di mano.\n<hr />\n[star] <b>Potenziamento</b>: Scegli se spendere [mental][mental] oppure distribuire questa carta come carta incontro a faccia in giù a te stesso."
+    },
+    {
+        "code": 27094,
+        "name": "Dottor Octopus",
+        "text": "[star] <b>Risposta Obbligata: </b> Dopo che Dottor Octopus ti ha attaccato e danneggiato, colloca 1 minaccia su ogni trama. Sposta il gettone attivo sul prossimo criminale in ordine di attivazione. \n <b> Quando Sconfitta: </b> Rimuovi 4 minacce da una trama secondaria (rimuovi invece 7 minacce se non ci sono altri criminali in gioco. Metti da parte questo criminale.",
+        "traits": "Ordine di Attivazione 1"
+    },
+    {
+        "code": 27095,
+        "name": "Electro",
+        "text": "[star] <b>Risposta Obbligata: </b> Dopo che Electro ti ha attaccato e danneggiato, scarta 7 carte dalla cima del tuo mazzo. Sposta il gettone attivo sul prossimo criminale in ordine di attivazione. \n <b> Quando Sconfitta: </b> Rimuovi 4 minacce da una trama secondaria (rimuovi invece 7 minacce se non ci sono altri criminali in gioco. Metti da parte questo criminale.",
+        "traits": "Ordine di Attivazione 2"
+    },
+    {
+        "code": 27096,
+        "name": "Hobgoblin",
+        "text": "[star] <b>Risposta Obbligata: </b> Dopo che Hobgoblin ti ha attaccato e danneggiato, subisci 2 danni indiretti. Sposta il gettone attivo sul prossimo criminale in ordine di attivazione. \n <b> Quando Sconfitta: </b> Rimuovi 4 minacce da una trama secondaria (rimuovi invece 7 minacce se non ci sono altri criminali in gioco. Metti da parte questo criminale.",
+        "traits": "Ordine di Attivazione 3"
+    },
+    {
+        "code": 27097,
+        "name": "Kraven il Cacciatore",
+        "text": "[star] <b>Risposta Obbligata: </b> Dopo che Kraven il Cacciatore ti ha attaccato e danneggiato, scegli e scarta 1 miglioria o supporto che controlli. Sposta il gettone attivo sul prossimo criminale in ordine di attivazione. \n <b> Quando Sconfitta: </b> Rimuovi 4 minacce da una trama secondaria (rimuovi invece 7 minacce se non ci sono altri criminali in gioco. Metti da parte questo criminale.",
+        "traits": "Ordine di Attivazione 4"
+    },
+    {
+        "code": 27098,
+        "name": "Scorpione",
+        "text": "[star] <b>Risposta Obbligata: </b> Dopo che Scorpione ti ha attaccato e danneggiato, stordisci 1 personaggio che controlli. Sposta il gettone attivo sul prossimo criminale in ordine di attivazione. \n <b> Quando Sconfitta: </b> Rimuovi 4 minacce da una trama secondaria (rimuovi invece 7 minacce se non ci sono altri criminali in gioco. Metti da parte questo criminale.",
+        "traits": "Ordine di Attivazione 5"
+    },
+    {
+        "code": 27099,
+        "name": "Avvoltoio",
+        "text": "[star] <b>Risposta Obbligata: </b> Dopo che Avvoltoio ti ha attaccato e danneggiato, scegli e scarta 1 carta dalla tua mano. Sposta il gettone attivo sul prossimo criminale in ordine di attivazione. \n <b> Quando Sconfitta: </b> Rimuovi 4 minacce da una trama secondaria (rimuovi invece 7 minacce se non ci sono altri criminali in gioco. Metti da parte questo criminale.",
+        "traits": "Ordine di Attivazione 6"
+    },
+    {
+        "code": "27100",
+        "name": "Sinistra Sincronizzazione",
+        "back_text": "<b> Contenuto: </b> Dottor Octopus, Electro, Hobgoblin, Kraven il Cacciatore, Scorpione, e Avvoltoio. Set di incontri Sinistri Sei, Tattiche di Guerriglia e Standard. \n <b>Preparazione: </b> Scegli X criminali casuali, dove X è pari al numero dei giocatori +1. Metti in gioco quei criminali, colloca il gettone attivo sul criminale con il valore di ordine di attivazione più basso e metti da parte gli altri. Metti in gioco la trama secondaria Luce alla Fine del Tunnel, con il lato [[TRAPPOLA!]] a faccia in su.",
+        "text": "Imboscata - <b>Speciale: </b> Scegli 1 criminale messo da parte casuale, mettilo in gioco e colloca il gettone attivo su di esso. (In modalità esperto, colloca 2 minacce su Luce alla Fine del Tunnel.) \n <b>Interruzione Obbligata: </b> Quando un criminale sta per attivarsi, se non ci sono criminali in gioco, risolvi la capacità \"Imboscata!\" di questa carta. Continua quell'attivazione."
+    },
+    {
+        "code": "27101a",
+        "name": "Sinistro Pestaggio",
+        "text": "<b>Quando Rivelata: </b> Scegli 1 criminale messo da parte casuale, mettilo in gioco e colloca il gettone attivo su di esso (anche se il gettone è attualmente su un altro criminale). Se nessun criminale è stato messo in gioco in questo modo o se si sta giocando in modalità esperto, distribuisci 1 carta incontro a faccia in giù al primo giocatore.",
+        "flavor": "I sei criminali sono più sicuri che mai di poterla spuntare e sono determinati a porre fine alla vostra esistenza una volta per tutte."
+    },
+    {
+        "code": "27101b",
+        "name": "Sinistro Pestaggio",
+        "text": "Imboscata! - <b>Speciale: </b> Scegli 1 criminale messo da parte casuale, mettilo in gioco e colloca il gettone attivo su di esso. (In modalità esperto, colloca 2 minacce su Luce alla Fine del Tunnel.). \n <b>Interruzione Obbligata </b> Quando un criminale sta per attivarsi, se non ci sono criminali in gioco, risolvi la capacità \"Imboscata!\" di questa carta. Continua quell'attivazione. \n <b>Se questo stadio è completato, i giocatori perdono la partita. </b>"
+    },
+    {
+        "code": "27102a",
+        "name": "Luce alla fine del Tunnel",
+        "text": "Ostacolo 10[per_player]. Permanente.\n I giocatori non possono vincere a meno che non fuggano. \n <b>Interruzione Obbligata: </b> Quando l'ultima minaccia è rimossa da questa trama, risolvi la capacità \"Imboscata!\" della trama principale. Gira questa carta. (I giocatori possono fuggire dall'altro lato.)",
+        "traits": "Trappola!"
+    },
+    {
+        "code": "27102b",
+        "name": "Luce alla fine del Tunnel",
+        "text": "Ostacolo 10[per_player]. Permanente.  \n I giocatori non possono vincere a meno che non fuggano. \n <b>Interruzione Obbligata: </b> Quando l'ultima minaccia è rimossa da questa trama, i giocatori fuggono e vincono la partita.",
+        "traits": "Inseguimento!"
+    },
+    {
+        "code": 27103,
+        "name": "Morale alle Stelle",
+        "text": "Assegna al criminale con il valore di ordine di attivazione più alto. Se non puoi farlo, risolvi la capacità \"Imboscata!\" della trama principale, poi assegna questa carta al criminale attivo. X è pari al numero di criminali in gioco.",
+        "traits": "Condizione."
+    },
+    {
+        "code": 27104,
+        "name": "Presenza Provocatrice",
+        "text": "Assegna al criminale con più punti ferita rimanenti. Se non puoi farlo, risolvi la capacità \"Imboscata!\" della trama principale, poi assgna questa carta al criminale attivo. Non è possibile rimuovere minacce da Luce alla Fine del Tunnel.",
+        "traits": "Condizione."
+    },
+    {
+        "code": 27105,
+        "name": "Caposquadra",
+        "text": "Assegna al criminale con il valore di ordine di attivazione più basso. Se non puoi farlo, risolvi la capacità \"Imboscata!\" della trama principale, poi assegna questa carta al criminale attivo.",
+        "traits": "Titolo."
+    },
+    {
+        "code": 27106,
+        "name": "Sacrificio per la Squadra",
+        "text": "Assegna al criminale con più ATT. Se non puoi farlo, risolvi la capacità \"Imboscata!\" della trama principale, poi assegna questa carta al criminale attivo. \n Non puoi attaccare i criminali a cui non è assegnata una copia di Sacrificio per la Squadra."
+    },
+    {
+        "code": 27107,
+        "name": "Muraglia di Forza Bruta ",
+        "text": "Vittoria 1. (Quando questa carta è sconfitta, collocala nella galleria delle vittorie.) \n Non è possibile rimuovere minacce dalle altre trame secondarie.\n<hr />\n[star] <b>Potenziamento</b>: Fai ricevere 1 carta potenziamento aggiuntiva al criminale per questa attivazione."
+    },
+    {
+        "code": 27108,
+        "name": "Minaccia Volante",
+        "text": "In modalità esperto, questa carta ottiene Incitazione 1 e non può essere annullata. \n <b>Quando Rivelata: </b> Metti in gioco Hobgoblin e Avvoltoio messi da parte. Se Hobgoblin è già in gioco, subisci 2 danni indiretti. Se Avvoltoio è già in gioco, scarta 1 carta casuale dalla tua mano."
+    },
+    {
+        "code": 27109,
+        "name": "Alta Moda",
+        "text": "In modalità esperto, questa carta ottiene Incitazione 1 e non può essere annullata. \n <b>Quando Rivelata: </b> Metti in gioco Electro e Kraven il Cacciatore messi da parte. Se Electro è già in gioco, scarta la carta dal costo più alto che controlli. Se Kraven il Cacciatore è già in gioco, scarta la carta dal costo più basso che controlli."
+    },
+    {
+        "code": 27110,
+        "name": "Potenziamenti Robotici",
+        "text": "In modalità esperto, questa carta ottiene Incitazione 1 e non può essere annullata. \n <b>Quando Rivelata: </b> Metti in gioco Dottor Octopus e Scorpione messi da parte. Se Dottor Octopus è già in gioco, confondi 1 personaggio che controlli. Se Scorpione è già in gioco, stordisci 1 personaggio che controlli."
+    },
+    {
+        "code": 27111,
+        "name": "Associazione a Distruggere",
+        "text": "<b>Quando Rivelata (Alter Ego): </b> Il criminale con il valore di ordine di attivazione più basso trama con +X TRA, dove X è pari alla TRA totale di tutti gli altri criminali in gioco. \n <b> Quando Rivelata (Eroe): </b> Il criminale con il valore di attivazione più alto attacca con +X ATT, dove X è pari all'ATT totale di tutti gli altri criminali in gioco."
+    },
+    {
+        "code": 27112,
+        "name": "Sorpresa!",
+        "text": "In modalità esperto, questa carta ottiene Impulso e non può essere annullata. \n <b> Quando Rivelata: </b>Risolvi la capacità \"Imboscata!\" della trama principale. Se non sono stati messi in gioco criminali in questo modo, colloca 3 minacce su Luce alla Fine del Tunnel.",
+        "flavor": "\"...\" - Spider-Man"
+    },
+    {
+        "code": 27114,
+        "name": "Venom Goblin",
+        "text": "Robustezza. Tempra.\n <b>Quando Rivelata: </b> Distribuisci 2 carte incontro a faccia in giù a ogni giocatore.\n Reclamare il Trono - [star] <b>Risposta Obbligata: </b> Dopo che Venom Goblin si è attivato contro di te, sposta il gettone aliante sulla trama principale con meno minacce. Risolvi la sua capacità \"<b>Speciale</b>\".",
+        "traits": "Goblin. Simbionte."
+    },
+    {
+        "code": 27115,
+        "name": "Venom Goblin",
+        "text": "Ritorsione 1. Robustezza. Stabile.\n <b>Quando Rivelata: </b> Distribuisci 3 carte incontro a faccia in giù a ogni giocatore.\n Regno del Terrore - [star]<b>Risposta Obbligata: </b> Dopo che Venom Goblin si è attivato contro di te, sposta il gettone aliante sulla trama principale con meno minacce. Colloca 1 minaccia su quella trama e risolvi la sua capacità \"<b> Speciale </b>\".",
+        "traits": "Goblin. Simbionte."
+    },
+    {
+        "code": "27116a",
+        "name": "Cieli di New York",
+        "text": "<b> Contenuto: </b> Venom Goblin (I) e Venom Goblin (II) (Venom Goblin (II) e Venom Goblin (III) invece per la modalità esperto.) Set di incontri Venom Goblin, Forza Simbiotica, e Standard. 1 set di incontri modulare (Equipaggiamento Goblin).\n <b>Preparazione: </b> Metti in gioco le trame principali Lower Manhattan, Midtown Mahattan e Upper Mahattan. Colloca il gettone aliante su Midtown Manhattan. Gira questa carta e mettila da parte."
+    },
+    {
+        "code": "27116b",
+        "name": "Cieli di New York",
+        "text": "Le carte giocatore che hanno effetto sulla \"trama principale\" possono avere effetto su qualsiasi trama principale.\nLe carte incontro che hanno effetto sulla \"trama principale\" hanno effetto solo sulla trama con il gettone aliante (inclusa la collocazione dei gettoni accelerazione).\nOgni trama principale accumula minacce a ogni round in base al proprio valore di accelerazione e ai gettoni accelerazione su di essa. "
+    },
+    {
+        "code": "27117a",
+        "name": "Lower Manhattan",
+        "text": "<b>Speciale: </b> Colloca 1 minaccia su ogni trama. Se ci sono ambienti [[SIMBIONTE]] in gioco, colloca 1 minaccia aggiuntiva su questa trama.",
+        "flavor": "Snodo del mercato mondiale, molti cittadini di Lower Manhattan non pensano che ad aumentare i loro profitti e non si accorgono dei tentativi di Venom Goblin di usurpare la città."
+    },
+    {
+        "code": "27117b",
+        "name": "Lower Manhattan",
+        "text": "<b> Quando Rivelata: </b> Sposta il gettone aliante e ogni segnalino accelerazione da questa carta alla trama principale con meno minacce.\n <b> Se ci sono 2 o più ambienti [[SIMBIONTE]] in gioco, i giocatori perdono la partita. </b>",
+        "traits": "Luogo. Simbionte."
+    },
+    {
+        "code": "27118a",
+        "name": "Midtown Manhattan",
+        "text": "<b>Speciale: </b> Subisci 2 danni indiretti. Se ci sono ambienti [[SIMBIONTE]] in gioco, subisci 1 danno indiretto aggiuntivo.",
+        "flavor": "Gli edifici emblematici e le strade frenetiche di Midtown Manhattan occultano gli spostamenti aerei di Venom Goblin."
+    },
+    {
+        "code": "27118b",
+        "name": "Midtown Manhattan",
+        "text": "<b> Quando Rivelata: </b> Sposta il gettone aliante e ogni segnalino accelerazione da questa carta alla trama principale con meno minacce.\n <b> Se ci sono 2 o più ambienti [[SIMBIONTE]] in gioco, i giocatori perdono la partita. </b>",
+        "traits": "Luogo. Simbionte."
+    },
+    {
+        "code": "27119a",
+        "name": "Upper Manhattan",
+        "text": "<b>Speciale: </b> Scarta 1 carta dalla tua mano. Se ci sono ambienti [[SIMBIONTE]] in gioco, scarta 4 carte dalla cima del tuo mazzo.",
+        "flavor": "Gli abitanti di Upper Manhattan si godono una giornata di sole passeggiando tra Central Park e Harlem, ignari del piano di Venom Goblin di infestare la loro comunità."
+    },
+    {
+        "code": "27119b",
+        "name": "Upper Manhattan",
+        "text": "<b> Quando Rivelata: </b> Sposta il gettone aliante e ogni segnalino accelerazione da questa carta alla trama principale con meno minacce.\n <b> Se ci sono 2 o più ambienti [[SIMBIONTE]] in gioco, i giocatori perdono la partita. </b>",
+        "traits": "Luogo. Simbionte."
+    },
+    {
+        "code": 27120,
+        "name": "Siamo Tutt'Uno",
+        "text": "Assegna a Venom Goblin. \n <b>Azione Eroe: </b> Spendi [energy][mental][physical] stampate → scarta questa carta.",
+        "flavor": "\"Il Goblin era patetico, debole. NOI siamo più potenti di quanto avesse mai sognato.\""
+    },
+    {
+        "code": 27121,
+        "name": "Devastatore Simbiotico",
+        "text": "[star] Mentre ci sono ambienti [[SIMBIONTE]] in gioco, Devastatore Simbiotico ottiene colpo rapido.\n<hr />\n[star] <b>Potenziamento</b>: Sposta il gettone aliante sulla trama principale con più minacce. Colloca 1 minaccia su quella trama.",
+        "traits": "Simbionte."
+    },
+    {
+        "code": 27122,
+        "name": "Mostruosità Simbiotica",
+        "text": "Ritorsione 1. Robustezza. Tempra.\n  [star] Mentre ci sono ambienti [[SIMBIONTE]] in gioco, Mostruosità Simbiotica riceve +3 punti ferita.\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, questo attacco infligge danni indiretti.",
+        "traits": "Elite. Simbionte."
+    },
+    {
+        "code": 27123,
+        "name": "Servitore Simbiotico",
+        "text": "Guardia.\n Mentre ci sono ambienti [[SIMBIONTE]] in gioco, Servitore Simbiotico ottiene Pattuglia.\n<hr />\n[star] <b>Potenziamento</b>: Colloca 1 minaccia su ogni trama principale senza il gettone aliante.",
+        "traits": "Simbionte."
+    },
+    {
+        "code": 27124,
+        "name": "Massa Purulenta",
+        "text": "Mentre non ci sono altri ambienti [[SIMBIONTE]] in gioco, questa carta è considerata un ambiente [[SIMBIONTE]].\n<hr />\n[star] <b>Potenziamento</b>: Rivela questa carta."
+    },
+    {
+        "code": 27125,
+        "name": "Giro di Piacere",
+        "text": "Ostacolo 2[per_hero].\n<b>Quando Rivelata</b>: Sposta il gettone aliante sulla trama principale con più minacce. Risolvi la capacità \"<b>Speciale</b>\" di quella trama."
+    },
+    {
+        "code": 27126,
+        "name": "Diffondere il Panico",
+        "text": "Impulso.\n <b>Quando Rivelata: </b> Risolvi la capacità \"<b>Speciale</b>\" della trama con il gettone aliante.\n<hr />\n[star] <b>Potenziamento</b>: Risolvi la capacità \"<b>Speciale</b>\" della trama con il gettone aliante."
+    },
+    {
+        "code": 27127,
+        "name": "Panico nelle Strade",
+        "text": "Considera il riquadro di testo di ogni supporto [[LUOGO]] e di ogni supporto [[PERSONA]] come se fosse vuoto <i>([[TRATTI]] esclusi)</i>."
+    },
+    {
+        "code": 27128,
+        "name": "Rhino",
+        "text": "Tempra. (Per stordire o confondere questo personaggio occorrono 2 carte status corrispondenti.)\n[star] Gli attacchi di Rhino ottengono Perforante e Sopraffazione.",
+        "traits": "Criminale. Elite."
+    },
+    {
+        "code": 27129,
+        "name": "Riscuotere un Favore",
+        "text": "<b> Quando Rivelata: </b> Rhino trama con +2 TRA. Se Rhino non è in gioco, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri il gregario Rhino e mettilo in gioco impegnato con te. (Mescola.)",
+        "flavor": "\"Io una mano te la do, ma solo se mi fai spaccare e arraffare qualcosa.\" - Rhino"
+    },
+    {
+        "code": 27130,
+        "name": "Ora o Mai Più",
+        "text": "Isolamento. (Mentre risolvi questa carta, gli altri giocatori non possono aiutarti.)\n <b> Quando Rivelata: </b> Scegli 1 effetto tra:\n Colloca 1 segnalino accelerazione sulla trama principale.\n Esaurisci 1 personaggio che controlli e spendi 1 risorsa di qualsiasi tipo."
+    },
+    {
+        "code": 27131,
+        "name": "Furfante Comune",
+        "text": "Impulso.\n <b> Azione Alter Ego: </b> Spendi [physical] → infliggi 3 danni a Furfante Comune. Se questo gregario è sconfitto in questo modo, scegli se pescare 1 carta oppure rimuovere 3 minacce da una trama secondaria. ",
+        "traits": "Criminale."
+    },
+    {
+        "code": 27132,
+        "name": "Amici e Famiglia",
+        "text": "Mentre sei nella sembianza di eroe, aumenta di 1 il costo in risorse di ogni evento che giochi.\n <b> Azione Alter Ego: </b> Scarta 1 carta specifica di identità dalla tua mano → scarta questa incombenza.",
+        "flavor": "\"Devi fare ciò che devi fare, lo capisco. E non ti impedirò di farlo, ma non puoi costringermi a non preoccuparmi per la mia bambina.\" - Ronnie Williams"
+    },
+    {
+        "code": 27133,
+        "name": "Volontariato",
+        "text": "Non puoi intervenire su questa trama.\n<b>Azione Alter Ego</b>: Spendi 2 risorse di qualsiasi tipo → rimuovi un ammomntare di minacce da questa trama pari al REC del tuo alter ego. Se la tu identità possiede il tratto [[CIVILE]], pesca 1 carta."
+    },
+    {
+        "code": 27134,
+        "name": "\"Pericolo o Minaccia?\"",
+        "text": "<b> Quando Rivelata: </b> Puoi cambiare sembianza. Se sei nella sembianza di eroe, colloca 2 minacce sulla trama principale. Se sei nella sembianza di alter ego, non puoi cambiare sembianza durante il tuo prossimo turno.",
+        "flavor": "\"Io lo so, e lo sapete anche voi! Questi spider-tizi non sono che una banda di delinquenti! Dopotutto, chiunque abbia bisogno di coprirsi la faccia non può nascondere nulla di buono.\" - J. Jonah Jameson"
+    },
+    {
+        "code": 27135,
+        "name": "Questioni in Sospeso",
+        "text": "<b> Quando Rivelata: </b> Cerca nel mazzo degli incontri, nella pila degli scarti degli incontri, nelle carte messe da parte e nelle carte rimosse dal gioco 1 copia della tua incombenza, poi rivelala. Durante quella rivelazione, se assumi la sembianza di alter ego, scarta 1 carta casuale dalla tua mano. Se non è stata rivelata la tua incombenza in questo modo, questa carta ottiene Impulso."
+    },
+    {
+        "code": 27136,
+        "name": "Aliante Avanzato",
+        "text": "Assegna al criminale.\n <b> Risposta Obbligata: </b> Dopo che il criminale con questa aggiunta si è attivato contro di te, si attiva di nuovo contro di te. (Limite di una volta per round per giocatore).\n <b> Azione Eroe: </b> Scarta un qualsiasi numero di carte [[ATTACCO]] dalla tua mano dal costo in risorse totale pari o superiore a 3 → scarta questa carta.",
+        "traits": "Oggetto. Tecnologia."
+    },
+    {
+        "code": 27137,
+        "name": "Bombe a Concussione",
+        "text": "Assegna al criminale.\n Utilizzo (2 gettoni bomba.)\n [star] <b>Risposta Obbligata: </b> Dopo che il criminale ti ha attaccato, rimuovi 1 gettone bomba da questa carta → esaurisci 1 miglioria e 1 supporto che controlli.",
+        "flavor": "La potenza di concussione generata da queste bombe è forte abbastanza da spezzare l'acciaio.",
+        "traits": "Arma. Tecnologia."
+    },
+    {
+        "code": 27138,
+        "name": "Bombe Incendiarie",
+        "text": "Assegna al criminale.\n Utilizzo (2 gettoni bomba.)\n [star] <b>Risposta Obbligata: </b> Dopo che il criminale ti ha attaccato, rimuovi 1 gettone bomba da questa carta → subisci 2 danni indiretti.",
+        "flavor": "Sono zeppe di carburante infiammabile, che brucia a temperature altissime.",
+        "traits": "Arma. Tecnologia."
+    },
+    {
+        "code": 27139,
+        "name": "Bombe Fumogene",
+        "text": "Assegna al criminale.\r\n Utilizzo (2 gettoni bomba.)\n [star] <b>Risposta Obbligata: </b> Dopo che il criminale ti ha attaccato, rimuovi 1 gettone bomba da questa carta → scarta l'evento adl costo più basso dalla tua mano.",
+        "flavor": "Il fumo denso e soffocante che esce da queste bombe può mettere fuori combattimento anche il più tenace degli avversari.",
+        "traits": "Arma. Tecnologia."
+    },
+    {
+        "code": 27140,
+        "name": "Scorte Senza Fine",
+        "text": "Ogni aggiunta [[TECNOLOGIA]] ottiene Impulso.",
+        "flavor": "Norman Osborn ha avuto il suo bel daffare a sviluppare e accumulare dispositivi tecnologici. In questo modo, ha garantito a sè stesso e ai suoi complici un deposito fornito di ogni genere di gadget e arma."
+    },
+    {
+        "code": 27141,
+        "name": "Volo Radiocomandato",
+        "text": "<b> Quando Rivelata: </b> Se Aliante Avanzato è in gioco, il criminale si attiva contro di te. Se non è in gioco, cerca Aliante Avanzato nel mazzo degli incontri e nella pila degli scarti degli incontri e rivelalo.\n<hr />\n[star] <b>Potenziamento</b>: Fai ricevere al criminale 2 carte potenziamento aggiuntive per questa attivazione."
+    },
+    {
+        "code": 27142,
+        "name": "Diversivo Realistico",
+        "text": "In modalità esperto, Diversivo Realistico ottiene Robustezza.\n Il giocatore impegnato non può intervenire sulle trame secondarie.\n<hr />\n[star] <b>Potenziamento</b>: Metti in gioco questo gregario impegnato con te."
+    },
+    {
+        "code": 27143,
+        "name": "Sforzo Coordinato ",
+        "text": "Ogni nemico ottiene 1 icona accelerazione.\n<hr />\n[star] <b>Potenziamento</b>: Colloca 1 minaccia su ogni trama. (In modalità esperto, colloca 1 minaccia aggiuntiva sulla trama principale.)"
+    },
+    {
+        "code": 27144,
+        "name": "Nascosto tra le Ombre",
+        "text": "Ogni nemico ottiene 1 icona pericolo.\n<hr />\n[star] <b>Potenziamento</b>: Infliggi 1 danno indiretto a ogni giocatore. (In modalità esperto, infliggi 1 danno indiretto aggiuntivo al primo giocatore.)"
+    },
+    {
+        "code": 27145,
+        "name": "Superiorità Numerica ",
+        "text": "Ogni nemico riceve +1 TRA e +1 ATT.\n<hr />\n[star] <b>Potenziamento</b>: In modalità esperto, questa carta riceve +2 icone potenziamento [boost][boost] per questa attivazione."
+    },
+    {
+        "code": 27146,
+        "name": "Da Ogni Direzione",
+        "text": "In modalità esperto, questa carta ottiene Impulso.\n <b> Quando Rivelata: </b> Colloca 1 minaccia sulla trama principale per ogni nemico in gioco.",
+        "flavor": "Le tenebre danzano con movimenti sinistri."
+    },
+    {
+        "code": 27147,
+        "name": "Cannone da Braccio",
+        "text": "Impulso.\n Assegna al criminale.\n [star] Gli attacchi del criminale con questa aggiunta ottengono Perforante e Sopraffazione.  <b> Azione Eroe: </b> Scarta la miglioria dal costo più alto che controlli → scarta questa carta.",
+        "traits": "Arma. Tecnologia."
+    },
+    {
+        "code": 27148,
+        "name": "Stivali Ionici",
+        "text": "Impulso.\n Assegna al criminale.\n [star] <b> Risposta Obbligata: </b> Dopo che il criminale con questa aggiunta ha attaccato e danneggiato la tua identità, colloca 2 minacce sulla trama principale.\n <b> Azione Eroe: </b> Spendi [energy] [mental][physical] → scarta questa carta.",
+        "traits": "Oggetto. Tecnologia."
+    },
+    {
+        "code": 27149,
+        "name": "Armatura Cinetica",
+        "text": "Impulso.\n Assegna al criminale.\n Il criminale con questa aggiunta ottiene Ritorsione 1.\n <b> Azione Eroe: </b> Subisci 3 danni indiretti → scarta questa carta.",
+        "traits": "Armatura. Tecnologia."
+    },
+    {
+        "code": 27150,
+        "name": "Scaglie di Neocarbonio",
+        "text": "Impulso.\n Assegna al criminale.\n Riduci di 1 l'ammontare di danni che il criminale con questa aggiunta subisce da ogni attacco.\r\n <b> Azione Eroe: </b> Irrobustisci il criminale e fagli ricevere 1 carta potenziamento a faccia in giù → scarta questa carta.",
+        "traits": "Armatura. Tecnologia."
+    },
+    {
+        "code": 27151,
+        "name": "Guanti Chiodati",
+        "text": "Impulso.\n Assegna al criminale.\n <b> Azione Eroe: </b> Il criminale ti attacca. Dopo che quell'attacco è terminato, se la tua identità non ha subito danni da quell'attacco, scarta questa carta.",
+        "traits": "Arma. Tecnologia."
+    },
+    {
+        "code": 27152,
+        "name": "Display di Tracciamento",
+        "text": "Impulso.\n Assegna al criminale. \n [star] I personaggi non possono difendere dagli attacchi del criminale con questa aggiunta.\n <b> Azione Eroe: </b> Esaurisci 1 personaggio che controlli e scarta 1 carta casuale dalla tua mano → scarta questa carta.",
+        "traits": "Oggetto. Tecnologia."
+    },
+    {
+        "code": 27153,
+        "name": "Panico Indotto",
+        "text": "Assegna alla tua identità.\n Non puoi risolvere le capacità innescate nel riquadro di testo stampato del tuo eroe. (Le capacità innescate sono quelle contrassegnate da un innesco di tempistica in <b> grassetto </b>.)\n<b> Azione Alter Ego: </b> Scarta 1 carta specifica di identità casuale dalla tua mano → scarta questa carta.",
+        "traits": "Illusione."
+    },
+    {
+        "code": 27154,
+        "name": "Sosia Malvagio ",
+        "text": "Sosia Malvagio riceve +X TRA e +X ATT, dove X è pari al numero di carte specifiche di identità nella mano del giocatore impegnato.\n<hr />\n[star] <b>Potenziamento</b>: Pesca 3 carte. Scarta 3 carte casuali dalla tua mano.",
+        "traits": "Illusione."
+    },
+    {
+        "code": 27155,
+        "name": "Paradiso degli Stolti",
+        "text": "Vittoria 1. <i>(Quando questa carta è sconfitta, collocala nella galleria delle vittorie.)</i>\nOgni identità riceve +2 limite di mano."
+    },
+    {
+        "code": 27156,
+        "name": "Debolezza Interiore",
+        "text": "<b>Quando Rivelata</b>: Colloca 1 minaccia aggiuntiva su questa carta per ogni carta nella tua mano.",
+        "flavor": "Maestro nelle tattiche intimidatorie, Mysterio sa sfruttare ogni singola informazione che può carpire sulle fobie della propria vittima."
+    },
+    {
+        "code": 27157,
+        "name": "Paure Profonde",
+        "text": "Isolamento. (Mentre risolvi questa carta, gli altri giocatori non possono aiutarti.)\n <b>Quando Rivelata: </b> Scarta un ammontare di carte dalla cima del tuo mazzo pari al numero di carte nella tua mano. Se 1 o più carte specifiche di identità sono state scartate in questo modo, colloca 1 minaccia sulla trama principale. Se non sono state scartate carte specifiche di identità in questo modo, subisci 1 danno."
+    },
+    {
+        "code": 27158,
+        "name": "Dottor Octopus",
+        "text": "Criminoso. Incitazione 2.\n [star] <b> Risposta Obbligata: </b> Dopo che Dottor Octopus si è attivato contro di te, colloca 1 minaccia su ogni trama.",
+        "flavor": "\"Ora, osserva mentre intrappolo un ragno nella mia ragnatela... Una ragnatela tessuta con le mie nuove braccia!\"",
+        "traits": "Elite. Genio."
+    },
+    {
+        "code": 27159,
+        "name": "Electro",
+        "text": "Criminoso. Ritorsione 1.\n <b>Risposta Obbligata: </b> Dopo che Electro ti ha impegnato o si è attivato contro di te, scarta carte dalla cima del tuo mazzo finchè non scarti una [energy] o [wild].",
+        "flavor": "\"Con i miei grandi poteri, nulla può fermarmi!\"",
+        "traits": "Criminale. Elite."
+    },
+    {
+        "code": 27160,
+        "name": "Hobgoblin",
+        "text": "Criminoso. Pattuglia.\n [star] <b>Risposta Obbligata: </b> Dopo che Hobgoblin ti ha attaccato, subisci 2 danni indiretti.",
+        "flavor": "\"Non puoi immaginare quanto mi godrò questo momento.\"",
+        "traits": "Aereo. Elite."
+    },
+    {
+        "code": 27161,
+        "name": "Kraven il Cacciatore",
+        "text": "Criminoso. Tempra.\n [star] <b>Risposta Obbligata: </b> Dopo che Kraven il Cacciatore ha attaccato e danneggiato un personaggio che controlli, scarta 1 miglioria o supporto che controlli.",
+        "flavor": "\"Le mie capacità sono affilate quanto i miei coltelli.\"",
+        "traits": "Elite."
+    },
+    {
+        "code": 27162,
+        "name": "Scorpione",
+        "text": "Criminoso. Robustezza.\n [star] <b>Risposta Obbligata: </b> Dopo che Scorpione ha attaccato e danneggiato un personaggio, stordisci quel personaggio. Se quel personaggio è già stordito, infliggigli 2 danni.",
+        "flavor": "\"L'ultima battaglia di Spider-Man? Non me la perderei per niente al mondo.\"",
+        "traits": "Bruto. Elite."
+    },
+    {
+        "code": 27163,
+        "name": "Avvoltoio",
+        "text": "Colpo Rapido. Criminoso.\n [star] <b>Risposta Obbligata: </b> Dopo che Avvoltoio si è attivato contro di te, scarta 1 carta casuale dalla tua mano.",
+        "flavor": "\"Nessuno odia l'arrampicamuri più di me!\"",
+        "traits": "Aereo. Elite."
+    },
+    {
+        "code": 27164,
+        "name": "Armi Improvvisate",
+        "text": "Assegna al criminale.\n <b> Azione Eroe: </b> Spendi [mental][physical][energy] → scarta questa carta."
+    },
+    {
+        "code": 27165,
+        "name": "Tendenze Violente ",
+        "text": "Assegna al criminale.\n <b> Risposta Obbligata: </b> Dopo che il criminale con questa aggiunta ha subito un qualsiasi ammontare di danni da un attacco, fagli ricevere 1 carta potenziamento a faccia in giù. Se quell'attacco ha inflitto 3 o più danni al criminale con questa aggiunta, scarta questa carta.",
+        "flavor": "\"Mmh, cervelli...\"",
+        "traits": "Condizione."
+    },
+    {
+        "code": 27166,
+        "name": "Intrappolato nella Tela",
+        "text": "Assegna alla tua identità.\n <b> Interruzione Obbligata </b> Quando il tuo eroe sta per attaccare, scarta invece Intrappolato nella Tela. Poi sei stordito.\n<hr />\n[star] <b>Potenziamento</b>: Sei stordito. Se eri già stordito, subisco 2 danni.",
+        "traits": "Condizione."
+    },
+    {
+        "code": 27167,
+        "name": "Simbionte Infuriato",
+        "text": "Guardia. Pattuglia. (Mentre questo gregario è impegnato con te, non puoi intervenire sulla trama principale.)\n<hr />\n[star] <b>Potenziamento</b>: Metti in gioco Simbionte Infuriato impegnato con te.",
+        "traits": "Simbionte."
+    },
+    {
+        "code": 27168,
+        "name": "Assalto Oscillante",
+        "text": "<b> Quando Rivelata (Alter Ego): </b> Assumi la sembianza di eroe. Il criminale ti attacca.\n <b> Quando Rivelata (Eroe): </b> Il criminale ti attacca. Fai ricevere 1 carta potenziamento aggiuntiva al criminale per quell'attivazione.",
+        "flavor": "\"Ma voi perdenti non imparate mai!?\" - Venom"
+    },
+    {
+        "code": 27169,
+        "name": "Coscienza Instabile",
+        "text": "Impulso.\n <b> Quando Rivelata: </b> Fai ricevere al criminale 1 carta potenziamento a faccia in giù.\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, questa carta riceve +2 icone potenziamento ([boost][boost]) per questo attacco e questo attacco ottiene Sopraffazione."
+    },
+    {
+        "code": 27170,
+        "name": "Delirio di Persecuzione",
+        "text": "Assegna alla tua identità.\n Non puoi ripristinare i supporti [[PERSONA]] o gli alleati che controlli.\n <b> Azione Alter Ego: </b> Scarta 1 supporto [[PERSONA]] o alleato che controlli → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Se un alleato è sconfitto da questo attacco, subisci un ammontare di danni indiretti pari al costo stampato di quell'alleato.",
+        "traits": "Illusione."
+    },
+    {
+        "code": 27171,
+        "name": "Mente Manipolata",
+        "text": "Considera l'alleato con questa aggiunta come se fosse un gregario con un riquadro di testo vuoto ([[TRATTI]] esclusi). La TRA del gregario con questa aggiunta è pari al suo INT stampato e non subisce danni conseguenti.\n <b> Quando Rivelata: </b> Assegna all'alleato dal costo più basso che controlli. Se non puoi farlo, questa carta ottiene Impulso.",
+        "traits": "Illusione."
+    },
+    {
+        "code": 27172,
+        "name": "Vecchi Rancori",
+        "text": "Il gregario con questa aggiunta riceve +1 punti ferita.\n <b> Quando Rivelata: </b> Cerca nel mazzo degli incontri, nella pila degli scarti degli incontri e nelle carte messe da parte il tuo gregario nemesi, poi rivela quel gregario. Assegnali Vecchi Rancori. (Mescola.)\n<hr />\n[star] <b>Potenziamento</b>: Infliggi 1 danno a ogni personaggio che controlli.",
+        "traits": "Illusione."
+    },
+    {
+        "code": 27173,
+        "name": "Paralisi da Analisi",
+        "text": "<b>Quando Rivelata</b>: Cerca nel mazzo degli incontri, nella pila degli scarti degli incontri e nelle carte messe da parte la tua trama secondaria nemesi, poi rivelala. Colloca X minacce aggiuntive su questa carta, dove X è pari all'ammontare di minacce su quella trama secondaria."
+    },
+    {
+        "code": 271130,
+        "name": "Venom Goblin",
+        "text": "Tempra.\n Infestare la Città - [star] <b>Risposta Obbligata: </b> Dopo che Venom Goblin si è attivato contro di te, sposta il gettone aliante sulla trama principale con meno minacce. Scegli se collocare 2 minacce su quella trama oppure risolvere la sua capacità \"<b> Speciale </b>\".",
+        "traits": "Goblin. Simbionte."
+    }
 ]

@@ -1,427 +1,487 @@
 [
-	{
-		"code": "39001a",
-		"name": "MaGog (A)",
-		"text": "[star] <b>Forced Response</b>: After MaGog attacks and damages a character, place 1 ratings counter on The Champion.\n<b>Forced Interrupt</b>: When MaGog would be defeated, reset his hit points to 10[per_hero] instead. Place 3[per_hero] ratings counters on The Challengers and deal each player 1 facedown encounter card.",
-		"traits": "Brute."
-	},
-	{
-		"code": "39001b",
-		"name": "MaGog (B)",
-		"text": "[star] <b>Forced Response</b>: After MaGog attacks and damages a character, place 2 ratings counters on The Champion.\n<b>Forced Interrupt</b>: When MaGog would be defeated, reset his hit points to 10[per_hero] instead. Place 2[per_hero] ratings counters on The Challengers and deal each player 1 facedown encounter card.",
-		"traits": "Brute."
-	},
-	{
-		"code": "39002a",
-		"name": "Melee in the Mojo-seum (1A)",
-		"text": "<b>Contents</b>: MaGog (A) <i>(MaGog (B) instead for expert mode)</i>. MaGog and Standard encounter sets. One modular encounter set <i>(1 random modular set from the</i> MojoMania <i>scenario pack)</i>.\n<b>Setup</b>: Put The Champion environment card and The Challengers environment card into play, each with its [[BOOING CROWD]] side faceup."
-	},
-	{
-		"code": "39002b",
-		"flavor": "Teleported into a bizarre arena, you must fight for the audience's entertainment...and your lives!",
-		"name": "Melee in the Mojo-seum (1B)",
-		"text": "The players cannot win the game unless they wow the crowd as The Challengers.\n[star] <b>Forced Interrupt</b>: When this scheme would be completed, place 2[per_hero] ratings counters on The Champion and remove all threat from here instead."
-	},
-	{
-		"code": "39003a",
-		"flavor": "\"In this corner, we have your ninety-nine time defending Mojoverse champion, the mighty MaGog!\"",
-		"name": "The Champion (Booing Crowd)",
-		"text": "If there are at least 5[per_hero] ratings counters here, flip this environment <i>(without removing ratings counters)</i>.",
-		"traits": "Booing Crowd."
-	},
-	{
-		"code": "39003b",
-		"name": "The Champion (Cheering Crowd)",
-		"text": "Underdogs — <b>Forced Response</b>: After The Champion flips to this side, each player draws 1 card.\n<b>If there are at least 10[per_hero] ratings counters here, MaGog wins again and the players lose the game.</b>",
-		"traits": "Cheering Crowd."
-	},
-	{
-		"code": "39004a",
-		"flavor": "\"And in this corner, hailing from the tiny, insignificant planet of Earth, we have our challengers!\" — Mojo",
-		"name": "The Challengers (Booing Crowd)",
-		"text": "If there are at least 5[per_hero] ratings counters here, flip this environment <i>(without removing ratings counters)</i>.\n<i>(The players wow the crowd by placing ratings counters here.)</i>",
-		"traits": "Booing Crowd."
-	},
-	{
-		"code": "39004b",
-		"name": "The Challengers (Cheering Crowd)",
-		"text": "Tag Team — <b>Forced Response</b>: After The Challengers flips to this side, search the encounter deck and discard pile for Surprise Contender and put it into play engaged with the first player. If it is already in play, give it a tough status card.\n<b>If there are at least 10[per_hero] ratings counters here, you wow the crowd and the players win the game.</b>",
-		"traits": "Cheering Crowd."
-	},
-	{
-		"code": "39005",
-		"name": "Jolt of Adrenaline",
-		"text": "Attach to MaGog.nMaGog gains retaliate 1 and stalwart.",
-		"traits": "Condition."
-	},
-	{
-		"code": "39006",
-		"name": "Surge of Aggression",
-		"text": "Attach to MaGog.",
-		"traits": "Condition."
-	},
-	{
-		"code": "39007",
-		"name": "Surprise Contender",
-		"text": "Villainous.",
-		"traits": "Clone. Elite."
-	},
-	{
-		"code": "39008",
-		"name": "Pump Up the Crowd"
-	},
-	{
-		"code": "39009",
-		"name": "Break a Leg"
-	},
-	{
-		"code": "39010",
-		"name": "Defend the Title"
-	},
-	{
-		"code": "39011",
-		"name": "Stage Fright"
-	},
-	{
-		"code": "39012a",
-		"name": "Spiral I (Escaped)",
-		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.\n[star] <b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
-		"traits": "Escaped. Mystic."
-	},
-	{
-		"code": "39012b",
-		"name": "Spiral I (Cornered)",
-		"text": "If there are at least 3[per_hero] teleport counters here, remove all of them and flip Spiral.\n[star] <b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
-		"traits": "Cornered. Mystic."
-	},
-	{
-		"code": "39013a",
-		"name": "Spiral II (Escaped)",
-		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.\n[star] <b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
-		"traits": "Escaped. Mystic."
-	},
-	{
-		"code": "39013b",
-		"name": "Spiral II (Cornered)",
-		"text": "If there are at least 2[per_hero] teleport counters here, remove all of them and flip Spiral.\n[star] <b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
-		"traits": "Cornered. Mystic."
-	},
-	{
-		"code": "39014a",
-		"name": "Spiral III (Escaped)",
-		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.\n[star] <b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
-		"traits": "Escaped. Mystic."
-	},
-	{
-		"code": "39014b",
-		"name": "Spiral III (Cornered)",
-		"text": "If there are at least 3[per_hero] teleport counters here, remove all of them and flip Spiral.\n<b>When Revealed</b>: Spiral attacks each player in player order <i>(even in alter-ego form)</i>.\n[star] <b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
-		"traits": "Cornered. Mystic."
-	},
-	{
-		"code": "39015a",
-		"name": "Across the Mojoverse (1A)",
-		"text": "<b>Contents</b>: Spiral (I) and Spiral (II) <i>(Spiral (II) and Spiral (III) instead for expert mode)</i>. Spiral and Standard encounter sets. Three modular encounter sets from the MojoMania scenario pack.\n<b>Setup</b>: Put The Search for Spiral side scheme and 1 random [[SHOW]] environment into play. Shuffle each other [[SHOW]] environment together with the Cornered! treachery to create the show deck. <i>(See rulebook p. 11)</i>. Flip Spiral to her [[ESCAPED]] side."
-	},
-	{
-		"code": "39015b",
-		"flavor": "If you want to return home, you'll need the help of the teleporting sorceress, Spiral. But she will need some convincing.",
-		"name": "Across the Mojoverse (1B)",
-		"text": "<b>Forced Interrupt</b>: When a [[SHOW]] environment would be discarded, place it on the bottom of the show deck instead.\n<b>If this stage is completed, the players lose the game.</b>"
-	},
-	{
-		"code": "39016",
-		"name": "The Search for Spiral",
-		"text": "Permanent."
-	},
-	{
-		"code": "39017",
-		"name": "Cornered!"
-	},
-	{
-		"code": "39018",
-		"name": "Spiral's Swords",
-		"text": "Attach to Spiral.\nUses (3 sword counters).",
-		"traits": "Weapon."
-	},
-	{
-		"code": "39019",
-		"name": "Erratic Teleportation",
-		"text": "Surge."
-	},
-	{
-		"code": "39020",
-		"name": "The Show Must Go On"
-	},
-	{
-		"code": "39021",
-		"name": "Well-Armed"
-	},
-	{
-		"code": "39022",
-		"name": "Mojo I",
-		"text": "<b>Forced Response (Hero)</b>: After your turn ends, discard the top 3 cards of the encounter deck. Place 1 threat on your hero for each card discarded this way that does not belong to the Mojo encounter set.",
-		"traits": "Spineless."
-	},
-	{
-		"code": "39023",
-		"name": "Mojo II",
-		"text": "<b>When Revealed</b>: Place 2 threat on each friendly character.\n<b>Forced Response (Hero)</b>: After your turn ends, discard the top 4 cards of the encounter deck. Place 1 threat on your hero for each card discarded this way that does not belong to the Mojo encounter set.",
-		"traits": "Spineless."
-	},
-	{
-		"code": "39024",
-		"name": "Mojo III",
-		"text": "<b>When Revealed</b>: Place 3 threat on each friendly character.\n<b>Forced Response (Hero)</b>: After your turn ends, discard the top 5 cards of the encounter deck. Place 1 threat on your hero for each card discarded this way that does not belong to the Mojo encounter set.",
-		"traits": "Spineless."
-	},
-	{
-		"code": "39025a",
-		"name": "MojoMania (1A)",
-		"text": "<b>Contents</b>: Mojo (I) and Mojo (II) <i>(Mojo (II) and Mojo (III) instead for expert mode)</i>. Mojo and Standard encounter sets.\n<b>Setup</b>: Choose 1 modular set, plus 1[per_hero] additional modular sets, from the MojoMania scenario pack and set them aside. Put the Wheel of Genres environment into play, [[SPINNING]] side faceup."
-	},
-	{
-		"code": "39025b",
-		"name": "MojoMania (1B)",
-		"text": "<b>When Revealed</b>: Choose 1 set-aside encounter set at random, reveal its [[SHOW]] environment and shuffle its remaining cards into the encounter deck.\n<b>Forced Interrupt</b>: When a character flips or leaves play, move all threat from that character to this scheme.\n<b>If this stage is completed, the players lose the game.</b>"
-	},
-	{
-		"code": "39026a",
-		"flavor": "\"The ratings are stagnating. Time to shake things up with a crossover episode!\" — Mojo",
-		"name": "Wheel of Genres (Spinning)",
-		"text": "<b>Forced Response</b>: After the encounter deck resets, <b>if there are no set-aside modular encounter sets remaining, the players lose the game</b>. Otherwise, flip this card.",
-		"traits": "Spinning."
-	},
-	{
-		"code": "39026b",
-		"name": "Wheel of Genres (Stopped)",
-		"text": "<b>Forced Interrupt</b>: At the start of step three of the villain phase (deal encounter cards), randomly choose 1 set-aside modular set and reveal its [[SHOW]] environment. Shuffle the rest of that modular set and place it on top of the encounter deck. Deal the first player 2 facedown encounter cards and flip this card.",
-		"traits": "Stopped."
-	},
-	{
-		"code": "39027",
-		"flavor": "\"I live to serve, Your Supreme Spinelessness.\"",
-		"name": "Major Domo",
-		"text": "Attach to Mojo.\n[star] <b>Forced Response</b>: After Mojo attacks, discard cards from the encounter deck equal to the amount of damage dealt by that attack.",
-		"traits": "Persona."
-	},
-	{
-		"code": "39028",
-		"name": "Stinger Tail",
-		"text": "Attach to Mojo.\n Mojo gains retaliate 2.",
-		"traits": "Weapon."
-	},
-	{
-		"code": "39029",
-		"name": "Supporting Actor",
-		"traits": "Robot. Thespyan."
-	},
-	{
-		"code": "39030",
-		"name": "Paparazzi",
-		"text": "Hinder 10."
-	},
-	{
-		"code": "39031",
-		"name": "Undercover Mojo",
-		"text": "Hinder 2[per_hero]."
-	},
-	{
-		"code": "39032",
-		"name": "Curtain Call"
-	},
-	{
-		"code": "39033",
-		"name": "Director's Directions"
-	},
-	{
-		"code": "39034",
-		"name": "Top Billing"
-	},
-	{
-		"code": "39035",
-		"name": "Dial M for Mojo",
-		"text": "Each other encounter card gains incite 1.\nEach friendly character gets +1 THW.",
-		"traits": "Setting. Show."
-	},
-	{
-		"code": "39036",
-		"name": "Build the Case"
-	},
-	{
-		"code": "39037",
-		"name": "Crime Scene Investigation",
-		"text": "Hinder 1[per_hero]."
-	},
-	{
-		"code": "39038",
-		"name": "Law & Order",
-		"text": "Hinder 1[per_hero]."
-	},
-	{
-		"code": "39039",
-		"name": "Dragnet",
-		"text": "Hinder 1[per_hero]."
-	},
-	{
-		"code": "39040",
-		"name": "Elementary, My Dear Mojo"
-	},
-	{
-		"code": "39041",
-		"name": "A Game of Mojo's",
-		"traits": "Setting. Show."
-	},
-	{
-		"code": "39042",
-		"name": "Dragon",
-		"text": "Retaliate 1. Toughness.",
-		"traits": "Dragon. Elite."
-	},
-	{
-		"code": "39043",
-		"name": "Goblin",
-		"text": "Surge.",
-		"traits": "Goblin."
-	},
-	{
-		"code": "39044",
-		"name": "Troll",
-		"text": "Toughness.",
-		"traits": "Brute. Troll."
-	},
-	{
-		"code": "39045",
-		"name": "Fetch Quest",
-		"text": "Surge."
-	},
-	{
-		"code": "39046",
-		"name": "Mana Drain"
-	},
-	{
-		"code": "39047",
-		"name": "The Mojo Files",
-		"text": "Each minion gains quickstrike.",
-		"traits": "Setting. Show."
-	},
-	{
-		"code": "39048",
-		"name": "Bandolier of Stakes",
-		"text": "Surge. Uses (3 stake counters).",
-		"traits": "Item."
-	},
-	{
-		"code": "39049",
-		"name": "Cultist",
-		"traits": "Mystic."
-	},
-	{
-		"code": "39050",
-		"name": "The Kraken",
-		"traits": "Creature. Elite."
-	},
-	{
-		"code": "39051",
-		"name": "Vampire",
-		"traits": "Vampire."
-	},
-	{
-		"code": "39052",
-		"name": "Werewolf Pack",
-		"traits": "Werewolf."
-	},
-	{
-		"code": "39053",
-		"name": "Mojo Runner",
-		"text": "Each minion and ally gains toughness.",
-		"traits": "Setting. Show."
-	},
-	{
-		"code": "39054",
-		"name": "Avalanche 9.0",
-		"traits": "Program."
-	},
-	{
-		"code": "39055",
-		"name": "Blob 3.14",
-		"traits": "Program."
-	},
-	{
-		"code": "39056",
-		"name": "Magneto 2.6",
-		"text": "Villainous.",
-		"traits": "Program."
-	},
-	{
-		"code": "39057",
-		"name": "Pyro 4.0",
-		"traits": "Program."
-	},
-	{
-		"code": "39058",
-		"name": "Toad 2.0",
-		"traits": "Program."
-	},
-	{
-		"code": "39059",
-		"name": "ICE-Teroid M",
-		"text": "Each minion gains guard and patrol."
-	},
-	{
-		"code": "39060",
-		"name": "Mojo in the Middle",
-		"text": "Each obligation gains 1 acceleration icon ([acceleration]).",
-		"traits": "Setting. Show."
-	},
-	{
-		"code": "39061",
-		"name": "Family Matters"
-	},
-	{
-		"code": "39062",
-		"name": "Growing Pains"
-	},
-	{
-		"code": "39063",
-		"name": "The Odd Couple"
-	},
-	{
-		"code": "39064",
-		"name": "The One with the Breakup"
-	},
-	{
-		"code": "39065",
-		"name": "Watch Me Play",
-		"text": "Incite 3. Peril."
-	},
-	{
-		"code": "39066",
-		"name": "Wild Wild Mojo",
-		"traits": "Setting. Show."
-	},
-	{
-		"code": "39067",
-		"name": "Dead or Alive",
-		"traits": "Bounty."
-	},
-	{
-		"code": "39068",
-		"name": "Card Shark",
-		"traits": "Creature. Elite."
-	},
-	{
-		"code": "39069",
-		"name": "Gunslinger",
-		"text": "Quickstrike.",
-		"traits": "Outlaw."
-	},
-	{
-		"code": "39070",
-		"name": "A Game of Cards"
-	},
-	{
-		"code": "39071",
-		"name": "Longshot"
-	}
+    {
+        "code": "39001a",
+        "name": "MaGog (A)",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che MaGog ha attaccato e danneggiato un personaggio, colloca 1 gettone favore su Campione.\n<b>Interruzione Obbligata</b>: Quando MaGog sta per essere sconfitto, regola invece il suo indicatore di punti ferita a 10[per_hero]. Colloca 3[per_hero] gettoni favore su Sfidanti e distribuisci 1 carta incontro a faccia in giù a ogni giocatore.",
+        "traits": "Bruto."
+    },
+    {
+        "code": "39001b",
+        "name": "MaGog (B)",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che MaGog ha attaccato e danneggiato un personaggio, colloca 2 gettoni favore su Campione.<b>Interruzione Obbligata</b>: Quando MaGog sta per essere sconfitto, regola invece il suo indicatore di punti ferita a 10[per_hero]. Colloca 2[per_hero] gettoni favore su Sfidanti e distribuisci 1 carta incontro a faccia in giù a ogni giocatore.",
+        "traits": "Bruto."
+    },
+    {
+        "code": "39002a",
+        "name": "Mischia nel Mojosseo (1A)",
+        "text": "<b>Contenuto</b>: MaGog (A) <i>(MaGog (B) invece per la modalità esperto)</i>. Set di incontri MaGog e standard. 1 set di incontri modulare <i>(casuale del pack scenario MojoMania)</i>.\n<b>Preparazione</b>: Metti in gioco la carta ambiente Campione e la carta ambiente Sfidanti, ognuna con il lato [[FOLLA OSTILE]] a faccia in su."
+    },
+    {
+        "code": "39002b",
+        "name": "Mischia nel Mojosseo (1B)",
+        "text": "I giocatori non possono vincere la partita a meno che non abbiano conquistato il pubblico come sfidanti.\n<b>[star] Interruzione Obbligata</b>: Quando questo stadio sta per essere compleatato, colloca invece 2[per_hero] gettoni favore su Campione e rimuovi tutte le minacce da questa carta.",
+        "flavor": "Teletrasportati in una bizarra arena, dovrete combattere per la  gioia del pubblico... e per le vostre vite!"
+    },
+    {
+        "code": "39003a",
+        "name": "Campione (Folla Ostile)",
+        "text": "Se ci sono 5[per_hero] o più gettoni favore su questa carta, gira questo ambiente <i>(senza rimuovere i gettoni favore da esso)</i>.",
+        "traits": "Folla Ostile.",
+        "flavor": "\"Nell'angolo blu, vincitore degli ultimi novantanove incontri e campione del Mojoverso, il possente MaGog!\" — Mojo"
+    },
+    {
+        "code": "39003b",
+        "name": "Campione (Folla Esultante)",
+        "text": "Sfavoriti — <b>Risposta Obbligata</b>: Dopo che Campione è stato girato su questo lato, ogni giocatore pesca 1 carta.\n<b>Se ci sono 10[per_hero] o più gettoni favore su questa carta, MaGog trionfa ancora una volta e i giocatori perdona la partita.</b>",
+        "traits": "Folla Esultante."
+    },
+    {
+        "code": "39004a",
+        "name": "Sfidanti (Folla Ostile)",
+        "text": "Se ci sono 5[per_hero] o più gettoni favore su questa carta, gira questo ambiente  <i>(senza rimuovere i gettoni favore da esso)</i>.\n<i>(Per conquistare il pubblico, i giocatori devono collocare gettoni favore su questa carta.)</i>",
+        "traits": "Folla Ostile.",
+        "flavor": "\"E nell'angolo rosso, provenienti dal piccolo e insignificante pianeta terra, abbiamo i nostri sfidanti!\" — Mojo"
+    },
+    {
+        "code": "39004b",
+        "name": "Sfidanti (Folla Esultante)",
+        "text": "Tag Team — <b>Risposta Obbligata</b>: Dopo che Sfidanti è stato girato su questo lato, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Contendente Inaspettato e mettilo in gioco impegnato con il primo giocatore. Se era già in gioco, irrobustiscilo.\n<b>Se ci sono 10[per_hero] o più gettoni favore su questa carta, i giocatori conquistano il pubblico e vincono la partita.</b>",
+        "traits": "Folla Esultante."
+    },
+    {
+        "code": "39005",
+        "name": "Scossa Adrenalinica",
+		"text": "Assegna aMaGog.\r\nMaGog otiene Ritorsione 1 e Stabile.\n<b>Risposta Obbligata</b>: Dopo che l'indicatore di punti ferita di Magog è stato regolato, colloca 1[per_hero] gettoni favore su Sfidanti e scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Rivela questa carta.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "39006",
+        "name": "Impeto Aggressivo",
+		"text": "Assegna a MaGog.\n<b>Risposta Obbligata</b>: Dopo che l'indicatore di punti ferita di Magog è stato regolato, colloca 1[per_hero] gettoni favore su Sfidanti e scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Rivela questa carta.",
+		"traits": "Condizione.",
+        "flavor": "\"Resta fermo, così posso schiacciarti!\" — MaGog"
+    },
+    {
+        "code": "39007",
+        "name": "Contendente Inaspettato",
+        "text": "Criminoso.\n[star] <b>Risposta Obbligata</b>: Dopo che Contendente Inaspettato ha attaccato e danneggiato un personaggio, colloca 1 gettone favore su Campione.<b>Quando Sconfitta</b>: Colloca 2[per_hero] gettoni favore su Sfidanti.",
+        "traits": "Clone. Elite."
+    },
+    {
+        "code": "39008",
+        "name": "Esaltare il Pubblico",
+        "text": "<b>Quando Rivelata</b>: Se Campione è sul lato [FOLLA ESULTANTE], colloca 1[per_hero] minacce aggiuntive su questa carta.\n<b>Quando Sconfitta</b>: Colloca 1[per_hero] gettoni favore su Sfidanti.",
+        "flavor": "\"Sentite anche voi profumo di botte?\" — MaGog"
+    },
+    {
+        "code": "39009",
+        "name": "Gambe in Spalla",
+        "text": "<b>Quando Rivelata</b>: Sei stordito. Subisci 2 danni (4 danni se invece ci sono gettoni favore su Sfidanti che su Campione). Puoi collocare un qualsiasi ammontare di gettoni favore su Campione per ridurre di 1 questi danni per ogni gettone collocato in questo modo."
+    },
+    {
+        "code": "39010",
+        "name": "Difendere il Titolo",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Colloca 2 gettoni favore su Campione.\n<b>Quando Rivelata (Eroe)</b>: MaGog ti attacca. Se un eroe difende da questo attacco e non subisce danni, colloca 2 gettone favore su Sfidanti.",
+        "flavor": "\"Non vi siete divertiti?\" — MaGog"
+    },
+    {
+        "code": "39011",
+        "name": "Ansia da Palcoscenico",
+        "text": "<b>Quando Rivelata</b>: Sei confuso. Colloca 2 minacce sulla trama principale (4 minacce se invece ci sono gettoni favore su Sfidanti che su Campione).\n<hr />\n[star] <b>Potenziamento</b>: Sei confuso."
+    },
+    {
+        "code": "39012a",
+        "name": "Spirale I (In fuga)",
+        "text": "Spirale non può subire danni o essere stordita. Non è possibile rimuovere minacce dalla trama principale.\n[star] <b>Risposta Obbligata</b>: Quando Spirale sta per attaccare, trama invece.",
+        "traits": "In Fuga. Mistico."
+    },
+    {
+        "code": "39012b",
+        "name": "Spirale I (Spalle al muro)",
+        "text": "Se ci sono 3[per_hero]o più gettoni teletrasporto su questa carta, rimuovili tutti e gira Spirale.\n[star] <b>Risposta Obbligata</b>: Dopo che Spirale si è attivata, colloca 1 gettone teletrasporto su questa carta.",
+        "traits": "Mistico. Spalle al Muro."
+    },
+    {
+        "code": "39013a",
+        "name": "Spirale II (In fuga)",
+        "text": "Spirale non può subire danni o essere stordita. Non è possibile rimuovere minacce dalla trama principale.\n[star] <b>Risposta Obbligata</b>: Quando Spirale sta per attaccare, trama invece.",
+        "traits": "In Fuga. Mistico."
+    },
+    {
+        "code": "39013b",
+        "name": "Spirale II (Spalle al muro)",
+        "text": "Se ci sono 2[per_hero] o più gettoni teletrasporto su questa carta, rimuovili tutti e gira Spirale.\n[star] <b>Risposta Obbligata</b>: Dopo che Spirale si è attivata, colloca 1 gettone teletrasporto su questa carta.",
+        "traits": "Mistico. Spalle al Muro."
+    },
+    {
+        "code": "39014a",
+        "name": "Spirale III (In fuga)",
+        "text": "Spirale non può subire danni o essere stordita. Non è possibile rimuovere minacce dalla trama principale.\n[star] <b>Risposta Obbligata</b>: Quando Spirale sta per attaccare, trama invece.",
+        "traits": "In Fuga. Mistico."
+    },
+    {
+        "code": "39014b",
+        "name": "Spirale III (Spalle al muro)",
+        "text": "Se ci sono 3[per_hero] o più gettoni teletrasporto su questa carta, rimuovili tutti e gira Spiale.\n<b>Quando Rivelata</b>: Spirale attacca ogni giocatore in ordine di gioco <i>(anche se sono nella sembianza di alter ego)</i>.\n[star] <b>Risposta Obbligata</b>: Dopo che Spirale si è attivata, colloca 1 gettone teletrasporto su questa carta.",
+        "traits": "Mistico. Spalle al Muro."
+    },
+    {
+        "code": "39015a",
+        "name": "Attraverso il Mojoverso (1A)",
+        "text": "<b>Contenuto</b>: Spirale (I) e Spirale (II) <i>(Spirale (II) e Spirale (III) invece per la modalità esperto)</i>. Set di incontri Spirale e Standard. 3 set di incontri modulari dal pack scenario MojoMania.\n<b>Preparazione</b>: Metti in gioco la trama secondaria Che fine ha fatto Spirale? e 1 ambiente [[SHOW]] casuale. Mescola assieme ogni altro ambiente [[SHOW]] e l'insidia Con le Spalle al Muro! per creare il mazzo degli show <i>(vedi il regolamento)</i>. Gira Spirale sul lato [[IN FUGA]]."
+    },
+    {
+        "code": "39015b",
+        "name": "Attraverso il Mojoverso (1B)",
+        "text": "<b>Interruzione Obbligata</b>: Quando un ambiente [[SHOW]] sta per essere scartato, collocalo invece in fondo al mazzo degli show..\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>",
+        "flavor": "Se volete sperare di tornare a casa, avrete bisogno dell'aiuto della stregona dei teletrasporti: Spirale. Prima, però, dovrete riuscire a convincerla."
+    },
+    {
+        "code": "39016",
+        "name": "Che Fine Ha Fatto Spirale?",
+        "text": "Permanente. "
+    },
+    {
+        "code": "39017",
+        "name": "Con le Spalle al Muro!",
+        "text": "<b>Quando Rivelata</b>: Gira Spirale sul lato [[SPALLE AL MURO]] <i>(questo effetto farà risolvere la sua capacità \"<b>[Quando Rivelata]</b>\", se presente)</i>. Rivela 1 carta dalla cima del mazzo degli show. Mescola questa carta nel mazzo degli show. Questo effetto non può essere annullato.",
+        "flavor": "\"Perchè non mi lasciate in pace!?\" - Spirale"
+    },
+    {
+        "code": "39018",
+        "name": "Spade di Spirale",
+        "text": "Assegna a Spirale.\nUtilizzo (3 gettoni spada).\n[star] Spirale riceve +1 ATT per ogni gettone spada su questa carta.\n<b>Azione Eroe</b>: Se Spirale è sul lato [[SPALLE AL MURO]], spendi [physical] [physical] → rimuovi 1 gettone spada da questa carta.",
+        "traits": "Arma.",
+        "flavor": "\"Non ho idea di come faccia a non tagliarsi un braccio.\" - Gambit"
+    },
+    {
+        "code": "39019",
+        "name": "Teletrasporto Imprevedibile",
+        "text": "Impulso.\n<b>Quando Rivelata</b>: Se Spirale è sul lato [[SPALLE AL MURO]], colloca 1 gettone teletrasporto su di essa. Se Spirale è sul lato [[IN FUGA]], puoi spendere [Mental] per guardare 1 carta dalla cima del mazzo degli show e metterla in cima o in fondo a quel mazzo."
+    },
+    {
+        "code": "39020",
+        "name": "Lo Spettacolo Deve Continuare",
+        "text": "<b>Quando Rivelata</b>: Ogni giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 carta dello stesso set di incontri dell'ambiente [[SHOW]] attuale e la distribuisce come carta incontro a faccia in giù a sè stesso. (Mescola.)"
+    },
+    {
+        "code": "39021",
+        "name": "Armata Fino ai Denti",
+        "text": "<b>Quando Rivelata</b>: Se ci sono copie Spade di Spirale assegnate a Spirale, ti attacca <i>(anche se sei nella sembianza di alter ego)</i>. Altrimenti, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 copia di Spade di Spirale e assegnagliela. (Mescola.)"
+    },
+    {
+        "code": "39022",
+        "name": "Mojo I",
+        "text": "<b>Risposta Obbligata (Eroe)</b>: Dopo che il turno è terminato, scarta 3 carte dalla cima del mazzo degli incontri. Colloca 1 minaccia sul lato eroe per ogni carta scartata in questo modo che non appartiene al set di incontri Mojo.",
+        "traits": "Invertebrato."
+    },
+    {
+        "code": "39023",
+        "name": "Mojo II",
+        "text": "<b>Quando Rivelata</b>: Colloca 2 minacce su ogni personaggio amico.\n<b>Risposta Obbligata (Eroe)</b>: Dopo che il tuo turno è terminato, scarta 4 carte dalla cima del mazzo degli incontri. Colloca 1 minaccia sul tuo eroe per ogni carta scartata in questo modo che non appartiene al set di incontri Mojo.",
+        "traits": "Invertebrato."
+    },
+    {
+        "code": "39024",
+        "name": "Mojo III",
+        "text": "<b>Quando Rivelata</b>: Colloca 3 minacce su ogni personaggio amico.\n<b>Risposta Obbligata (Eroe)</b>: Dopo che il tuo turno è terminato, scarta 5 carte dalla cima del mazzo degli incontri. Colloca 1 minaccia sul tuo eroe per ogni carta scartata in questo modo che non appartiene al set di incontri Mojo.",
+        "traits": "Invertebrato."
+    },
+    {
+        "code": "39025a",
+        "name": "MojoMania (1A)",
+        "text": "<b>Contenuto</b>: Mojo (I) e Mojo (II) <i>(Mojo (II) e Mojo (III) invece per la modalità esperto)</i>. Set di incontri Mojo e standard.\n<b>Preparazione</b>: Scegli 1[per_hero] +1 set di incontri modulari dal pack scenario MojoMania e mettili da parte. Metti in gioco l'ambiente Ruota dei Generi, con il lato [[ROTANTE]] a faccia in su."
+    },
+    {
+        "code": "39025b",
+        "name": "MojoMania (1B)",
+        "text": "<b>Quando Rivelata</b>: Scegli 1 set di incontri messo da parte casuale, rivelane l'ambiente [[SHOW]] e mescola le carte rimanenti di quel set nel mazzo degli incontri.\n<b>Interruzione Obbligata</b>: Quando un personaggio viene girato o esce dal gioco, sposta tutte le minacce da quel personaggio a questa trama.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "39026a",
+        "name": "Ruota dei Generi (Rotante)",
+        "text": "<b>Risposta Obbligata</b>: Dopo che il mazzo degli incontri è stato ricomposto, <b>se non ci sono set di incontri modulari messi da parte rimanenti, i giocatori perdono la partita</b>. Altrimenti, gira questa carta.",
+        "traits": "Rotante.",
+        "flavor": "\"Gli ascolti ristagnano. E' tempo di smuovere un po' le acque con un bell'episodio crossover!\" — Mojo"
+    },
+    {
+        "code": "39026b",
+        "name": "Ruota dei Generi (Fermo)",
+        "text": "<b>Interruzione Obbligata</b>: All'inizio del passo 3 della Fase del Criminale <i>(distribuire le carte incontro)</i>, scegli 1 set di incontri modulare messo da parte casuale e rivelane l'ambiente [[SHOW]]. Mescola il resto di quel set e collocalo in cima al mazzo degli incontri. Distribuisci 2 carte incontro a faccia in giù al primo giocatore e gira questa carta.",
+        "traits": "Fermo."
+    },
+    {
+        "code": "39027",
+        "name": "Major Domo",
+        "text": "Assegna a Mojo.\n[star] <b>Risposta Obbligata</b>: Dopo che Mojo ha attaccato, scarta un ammontare di carte dalla cima del mazzo degli incontri pari ai danni inflitti da quell'attacco.\n<b>Azione Eroe</b>: Spendi [Energy] [Mental] [physical] → scarta questa carta.",
+        "traits": "Persona.",
+        "flavor": "\"Vivo per servirvi, Vostra Suprema Invertebrità.\""
+    },
+    {
+        "code": "39028",
+        "name": "Coda a Pungiglione",
+        "text": "Assegna a Mojo.\nMojo ottiene Ritorsione 2.\n<b>Risposta Obbligata</b>: Quando un qualsiasi ammontare di danni sta per essere inflitto a Mojo, collocalo invece su questa carta. Poi, se ci sono 5 o più danni su questa carta, scarta Coda a Pungiglione.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta a Mojo.",
+        "traits": "Arma."
+    },
+    {
+        "code": "39029",
+        "name": "Comprimario",
+        "text": "<b>[star] Risposta Obbligata<b/>: Dopo che Comprimario si è attivato contro di te, colloca 2 minacce su questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Colloca 1 minaccia su ogni personaggio che controlli.",
+        "traits": "Attore. Robot.",
+        "flavor": "\"Costano meno di un attore vero.\" — Mojo"
+    },
+    {
+        "code": "39030",
+        "name": "Paparazzi",
+        "text": "Ostacolo 10.\n<b>Azione</b>: Scegli se esaurire 1 personaggio che controlli oppure scartare 1 carta dalla tua mano → rimuovi 2 minacce da questa carta (3 minacce se invece sei nella sembianza di alter ego).\n<b>Interruzione Obbligata</b>: Quando il tuo turno termina, sposta tutte le minacce da questa carta alla trama principale e scarta questa carta."
+    },
+    {
+        "code": "39031",
+        "name": "Mojo in Incognito",
+        "text": "Ostacolo 2[per_hero]. \n<b>Interruzione Obbligata</b>: Quando Mojo sta per subire un qualsiasi ammontare di danni, rimuovi invece un pari ammontare di minacce da questa trama.",
+        "flavor": "\"Non mi riconosceranno  mai.\"  — Mojo"
+    },
+    {
+        "code": "39032",
+        "name": "Inchino Finale",
+        "text": "<b>Quando Rivelata</b>: Sposta tutte le minacce dal personaggio con più minacce alla trama principale. Se non sono state spostate minacce in questo modo, colloca 1 minaccia su ogni personaggio che controlli.\n<hr />\n[star] <b>Potenziamento</b>: Rivela questa carta."
+    },
+    {
+        "code": "39033",
+        "name": "Direttive del Regista",
+        "text": "<b>Quando Rivelata</b>: Scegli 1 effetto tra:\n- Spendi 2 risorse di tipo diverso.\n- Mojo trama.\n- Subisci 1 danno per ogni minaccia sulla tua identità. Se subisci meno di 2 danni in questo modo, questa carta ottiene Impulso."
+    },
+    {
+        "code": "39034",
+        "name": "Campione di Incassi",
+        "text": "<b>Quando Rivelata</b>: Cura 1 danno a ogni personaggio che controlli. Colloca 2 minacce su ogni personaggio che controlli.\n<hr />\n[star] <b>Potenziamento</b>: Colloca 1 minaccia su ogni personaggio che controlli."
+    },
+    {
+        "code": "39035",
+        "name": "Il Mojo che Sapeva Troppo",
+        "text": "Ogni altra carta incontro ottiene Incitazione 1.\nOgni personaggio amico riceve +1 INT.\n<b>Quando Rivelata</b>: Scarta ogni altro ambiente [SHOW] in gioco. Se questa carta è stata rivelata dal mazzo incontri, ottiene Impulso.",
+        "traits": "Scena. Show."
+    },
+    {
+        "code": "39036",
+        "name": "Aprire il Caso",
+        "text": "<b>Risposta Obbligata</b>: Dopo che una trama secondaria è stata sconfitta, colloca 1 gettone indizio su questa carta. Poi, se ci sono 3 o più gettoni su questa carta, scartala."
+    },
+    {
+        "code": "39037",
+        "name": "Scena del Crimine",
+        "text": "Ostacolo 1[per_hero]. <i>(Quando rivelata, colloca 1[per_hero] minacce su questa carta.)</i> Non è possibile rimuovere minacce dalle altre trame.\n<b>Azione Eroe</b>: Spendi X [Mental] → rimuovi X minacce da questa trama.",
+        "flavor": "\"Sembra che la vittima fosse un uomo molto vivace.\" \n\"Da oggi sarà sicuramente più...mojo del solito.\"\n- Detective Domo e Mojo"
+    },
+    {
+        "code": "39038",
+        "name": "I Due Volti della Giustizia",
+        "text": "Ostacolo 1[per_hero]. <i>Quando rivelata, colloca 1[per_hero] minacce su questa carta.)</i>\nOgni personaggio amico riceve -2 ATT.\n<b>Azione Eroe</b>: Spendi X [Energy] → rimuovi X minacce da questa trama.",
+        "flavor": "\"Mi arresterò entrambi per oltraggio alla corte!\" - Giudice Mojo"
+    },
+    {
+        "code": "39039",
+        "name": "La Retata",
+        "text": "Ostacolo 1[per_hero]. <i>Quando rivelata, colloca 1[per_hero] minacce su questa carta.)</i>\nIl criminale non può subire danni.\n<b>Azione Eroe</b>: Spendi X [Physical] → rimuovi X minacce da questa trama.",
+        "flavor": "\"Tu non hai visto niente.\" — Boss Mojo"
+    },
+    {
+        "code": "39040",
+        "name": "\"Elementare, Mojo\"",
+        "text": "<b>Quando Rivelata</b>: Scegli 1 effetto tra:\n- Sposta tutte le minacce da una trama secondaria alla trama principale <i>(quella trama secondaria è sconfitta).</i>\n- Scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 trama secondaria. Rivelala."
+    },
+    {
+        "code": "39041",
+        "name": "Il Trono di Mojo",
+        "text": "Ogni giocatore riceve +1 limite di mano.\n<b>Quando Rivelata</b>: Scarta ogni altro ambiente [SCENA] in gioco. Se questa carta è stata rivelata dal mazzo degli incontri, ottiene Impulso.",
+        "traits": "Scena. Show."
+    },
+    {
+        "code": "39042",
+        "name": "Drago",
+        "text": "Ritorsione 1. Robustezza.\nRaddoppia l'ammontare di danni che questo gregario subisce delle carte con [Energy] stampate.\n<b>Quando Sconfitta</b>: Ogni giocatore pesca 4 carte.",
+        "traits": "Drago. Elite."
+    },
+    {
+        "code": "39043",
+        "name": "Goblin",
+        "text": "Impulso.\nQuesto gregario può subire danni solo da carte con [Physical] stampate.\n<b>Quando Sconfitta</b>: Rimuovi 2 minacce da una trama.",
+        "traits": "Goblin."
+    },
+    {
+        "code": "39044",
+        "name": "Troll",
+        "text": "Robustezza.\nQuesto gregario subisce 1 danno aggiuntivo da ogni carta con [Mental] stampate.\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questo gregario può mettere in gioco 1 alleato dalla sua pila degli scarti.",
+        "traits": "Bruto. Troll."
+    },
+    {
+        "code": "39045",
+        "name": "Missione di Ricerca",
+        "text": "Impulso.\n<b>Quando Sconfitta</b>: In ordine di gioco, ogni giocatore può cercare nel proprio mazzo 1 carta e giocarla senza pagarne il costo. (Mescola.)\n<hr />\n[star] <b>Potenziamento</b>: Metti in gioco questa carta.",
+        "flavor": "\"Portatemi un pò di verde!\" — Sir Mojo"
+    },
+    {
+        "code": "39046",
+        "name": "Risucchio Mana",
+        "text": "<b>Quando Rivelata</b>: Scegli 1 tipo di risorsa non jolly (non [star]), poi ogni giocatore pesca 2 carte. Ogni giocatore scarta ogni carta con il tipo di risorsa scelta dalla propria mano.\n<hr />\n[star] <b>Potenziamento</b>: Scarta 1 carta dalla tua mano."
+    },
+    {
+        "code": "39047",
+        "name": "M-Files",
+        "text": "Ogni gregario ottiene Colpo Rapido.\nDopo che ha attaccato un gregario ogni alleato subisce -1 danno conseguente ([consequential]).\n<b>Quando Rivelata</b>: Scarta ogni altro ambiente [[SCENA]] in gioco. Se questa carta è stata rivelata dal mazzo degli incontri, ottiene Impulso.",
+        "traits": "Scena. Show."
+    },
+    {
+        "code": "39048",
+        "name": "Bandoliera di Paletti",
+        "text": "Impulso. Utilizzo (3 gettoni paletto).\n<b>Quando Rivelata</b>: Puoi spendere 1 risorsa di qualsiasi tipo per assegnare questa carta alla tua identità. Se non lo fai, scarta questa carta.\n<b>Interruzione Eroe</b>: Quando il tuo eroe effettua un attacco base, rimuovi 1 gettone paletto da questa carta → il tuo eroe riceve +1 ATT per quell'attacco e quell'attacco ottiene Perforante.",
+        "traits": "Oggetto."
+    },
+    {
+        "code": "39049",
+        "name": "Cultista",
+        "text": "<b>Risposta Obbligata</b>: Dopo che Cultista si è attivato contro di te, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Kraken e mettilo in gioco impegnato con te.\n(Mescola.) Poi scarta Cultista.",
+        "traits": "Mistico.",
+        "flavor": "\"Liberate il kraken!\""
+    },
+    {
+        "code": "39050",
+        "name": "Kraken",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che Kraken si è attivato, ogni altro personaggio subisce 1 danno.\n<b>Quando Sconfitta</b>: Ogni personaggio amico si cura 1 danno.",
+        "traits": "Creatura. Elite.",
+        "flavor": "\"Rraaarhh!\""
+    },
+    {
+        "code": "39051",
+        "name": "Vampiro",
+        "text": "Raddoppia l'ammontare di danni che questo gregario subisce degli attacchi con perforante.\n[star] <b>Risposta Obbligata</b>:Dopo che Vampiro ha attaccato e danneggiato un personaggio, cura tutti i danni a Vampiro. Se non sono stati curati danni in questo modo, irrobustisci Vampiro.",
+        "traits": "Vampiro."
+    },
+    {
+        "code": "39052",
+        "name": "Branco di Lupi Mannari",
+        "text": "<b>Quando Rivelata</b>: Sconfiggi 1 alleato che controlli e collocalo a faccia in giù sotto Branco di Lupi Mannari.\n<b>Interruzione Eroe</b>: Quando Branco di Lupi Mannari sta per essere sconfitto, scarta invece 1 alleato da sotto di esso. Poi cura tutti i danni a Branco di Lupi Mannari.",
+        "traits": "Lupo Mannaro."
+    },
+    {
+        "code": "39053",
+        "name": "Mojo Mnemonic",
+        "text": "Ogni gregario e ogni alleato ottengono Robustezza.\n<b>Quando Rivelata</b>: Scarta ogni altro ambiente [[SCENA]] in gioco. Se questa carta è stata rivelata dal mazzo degli incontri, ottiene Impulso.",
+        "traits": "Scena. Show.",
+        "flavor": ">Password coretta. Avvio log-in nel server.\n>Benvenuto a MojoCorp! Le tue attività saranno monitorate."
+    },
+    {
+        "code": "39054",
+        "name": "Valanga 9.0",
+        "text": "<b>Risposta Obbligata</b>: Dopo che Valanga 9.0 ti ha impegnato, esaurisci 1 personaggio che controlli e infliggi 1 danno a quel personaggio.\n<hr />\n[star] <b>Potenziamento</b>: Esaurisci 1 personaggio che controlli.",
+        "traits": "Programma.",
+        "flavor": ">Deallocare cicli CPU da processo sconosciuto."
+    },
+    {
+        "code": "39055",
+        "name": "Blob 3.14",
+        "text": "Blob 3.14 non può subire più di 2 danni da ogni attacco.\n<hr />\n[star] <b>Potenziamento</b>: Sei stordito.",
+        "traits": "Programma.",
+        "flavor": ">Caricamento...\n>Caricamento...\n>Caricamento..."
+    },
+    {
+        "code": "39056",
+        "name": "Magneto 2.6",
+        "text": "Criminoso.\n[star] <b>Risposta Obbligata</b>: Dopo che Magneto 2.6 si è attivato contro di te, colloca 1 gettone magnetico su di lui. Poi scegli e scarta 1 carta dalla tua mano per ogni gettone magnetico su Magneto 2.6.",
+        "traits": "Elite. Programma.",
+        "flavor": ">Formattazione disco rigido corrotto in corso."
+    },
+    {
+        "code": "39057",
+        "name": "Pyro 4.0",
+        "text": "[star] <b>Interruzione Obbligata</b>: Quando Pyro 4.0 ti attacca, subisci 2 danni indiretti.\n<hr />\n[star] <b>Potenziamento</b>: Subisci 2 danni indiretti.",
+        "traits": "Programma.",
+        "flavor": ">Rimozione programma sconosciuto."
+    },
+    {
+        "code": "39058",
+        "name": "Toad 2.0",
+        "text": "<b>Risposta Obbligata</b>: Dopo che Toad 2.0 ti ha impegnato, colloca 1 miglioria che controlli a faccia in giù sotto Toad 2.0.\n<b>Quando Sconfitta</b>: Rimetti ogni carta sotto Toad 2.0 nella mano del suo proprietario.",
+        "traits": "Programma.",
+        "flavor": ">Subroutine pericolosa in quarantena."
+    },
+    {
+        "code": "39059",
+        "name": "ICE-teroide M",
+        "text": "Ogni gregario ottiene Guardia e Pattuglia.\n<b>Interruzione Obbligata</b>: Alla fine del round (dopo che il segnalino primo giocatore è satto passato), il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario e lo mette in gioco\nimpegnato con lui. (Mescola.)",
+        "flavor": ">Individuati programmi invasivi.\n> Intrusi Catturati Epurati."
+    },
+    {
+        "code": "39060",
+        "name": "Mojo Sotto un Tetto",
+        "text": "Ogni incombenza ottiene 1 icona accellerazione ([acceleration]).\n<b>Risposta</b>: Dopo che un giocatore ha scartato un'incombenza, quel giocatore pesca 1 carta.\n<b>Quando Rivelata</b>: Scarta ogni altro ambiente [[SCENA]] in gioco. Se questa carta è stata rivelata dal mazzo degli incontri, ottiene Impulso.",
+        "traits": "Scena. Show."
+    },
+    {
+        "code": "39061",
+        "name": "Tutto in Famiglia",
+        "text": "Considera il riquadro di testo stampato di ogni supporto che controlli come se fosse vuoto ([[TRATTI]] esclusi).\n<b> Azione Alter Ego</b>: Esaurisci la tua identità e ogni supporto che controlli → scarta questa incombenza.",
+        "flavor": "\"Non sarò mai come te!\" \"Sei il mio clone!\"\n- X-23 e Wolverine"
+    },
+    {
+        "code": "39062",
+        "name": "Mutanti in Blue Jeans",
+        "text": "Aumenta di 2 il costo per ogni giocatore ogni tua miglioria.\n<b>Azione Alter Ego</b>: Scarta 1 miglioria che controlli oppure scarta 1 miglioria dalla tua mano. Se ci sono più migliorie nella tua pila degli scarti di quante ce ne sono in gioco, scarta questa incombenza.",
+        "flavor": "\"Non è colpa mia!\" — Hope Summers"
+    },
+    {
+        "code": "39063",
+        "name": "La Strana Coppia",
+        "text": "Riduci di 2 il tuo limite di alleati.\n<b> Azione Alter Ego</b>: Esaurisci 2 personaggi che controlli → mescola nel tuo mazzo 1 alleato della tua pila degli scarti e scarta questa incombenza.",
+        "flavor": "\"Lo pulirò dopo.\" — Jubilee"
+    },
+    {
+        "code": "39064",
+        "name": "La Coppia Che Scoppia",
+        "text": "Ogni carta incontro ottiene Isolamento.\n<b> Azione Alter Ego</b>: Scarta 3 carte dalla tua mano e scegli 1 giocatore → il giocatore scelto pesca 1 carta e tu scarti questa incombenza."
+    },
+    {
+        "code": "39065",
+        "name": "Guardami Giocare",
+        "text": "Incitazione 3. Isolamento.\n<b>Interruzione Obbligata</b>: Quando cerchi una regola, sei confuso.\n<b>Azione Alter Ego</b>: Esaurisci la tua identità e scarta 1 carta status Confuso da essa → scarta questa incombenza.",
+        "flavor": "\"E fin qui ci siamo, ma 'tu' per cosa sta?!\" —Deadpool"
+    },
+    {
+        "code": "39066",
+        "name": "Wild Wild Mojo",
+        "text": "Ogni attacco nemico ottiene Sopraffazione.\n<b>Interruzione Obbligata</b>: Quando un personaggio subisce un qualsiasi ammontare di danni, aumenta di 1 quell'ammontare.\n<b>Quando Rivelata</b>: Scarta ogni altro ambiente [[SCENA]] in gioco. Se questa carta è stata rivelata dal mazzo degli incontri, ottiene Impulso.",
+        "traits": "Scena. Show."
+    },
+    {
+        "code": "39067",
+        "name": "Vivo o Morto",
+        "text": "Assegna al gregario con più punti ferita stampati. Se non puoi farlo, questa carta ottiene Impulso.\nIl gregario con questa aggiunta riceve +3[per_hero] punti ferita.\n<b>Interruzione Obbligata</b>: Quando il gregario con questa aggiunta è sconfitto, ogni giocatore aggiunge alla sua mano 1 carta dalla sua pila degli scarti.",
+        "traits": "Taglia."
+    },
+    {
+        "code": "39068",
+        "name": "Squalo della Frontiera",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che Squalo della Frontiera ti ha attaccato, scarta 3 carte della cima del tuo mazzo. Subisci 1 danno indiretto per ogni tipo di risorsa stampato ([Energy], [Mental], [Physical] o [star]) scartato in questo modo.",
+        "traits": "Creatura. Elite.",
+        "flavor": "Non fa altro che nuotare e mangiare e vincere a poker."
+    },
+    {
+        "code": "39069",
+        "name": "Pistolero",
+        "text": "Colpo Rapido.\n<b>Interruzione Obbligata</b>: Quando questo gregario ti impegna <i>(prima di risolvere Colpo Rapido)</i>, puoi spendere [Energy] [Energy]. Se lo fai, infliggi a questo gregario un ammontare di danni pari all'ATT del tuo eroe.",
+        "traits": "Fuorilegge.",
+        "flavor": "\"Estrai!\""
+    },
+    {
+        "code": "39070",
+        "name": "Il Gioco delle Carte",
+        "text": "<b>Quando Rivelata</b>: Pesca 5 carte.\nScegli e scarta 5 carte dalla tua mano.\nScarta 1 carta miglioria o supporto che controlli per ogni tipo di risorsa stampato ([Energy], [Mental], [Physical] o [star]) scartato in questo modo.",
+        "flavor": "Quando si gioca al gioco delle carte, o si vince o si perde..."
+    },
+    {
+        "code": "39071",
+        "name": "Longshot",
+        "text": "[star] Gli attacchi di Longshot ottengono Perforante.\nLongshot non conta al fine di determinare il tuo limite di alleati.\n<b>Quando Rivelata</b>: Metti in gioco Longshot sotto il tuo controllo. Questa carta ottine Impulso. Questo effetto non può essere annullato.",
+        "traits": "X-Men."
+    }
 ]
