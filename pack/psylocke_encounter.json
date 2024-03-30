@@ -15,7 +15,7 @@
     },
     {
         "attack": 1,
-        "attack_text": "<b>Forced Interrupt</b>: When Chimera activates against you, she gets +X SCH and +X ATK for this activation. X is the number of [mental] resources on cards you control.",
+        "attack_star": true,
         "boost": 3,
         "code": "41026",
         "faction_code": "encounter",
@@ -28,9 +28,10 @@
         "position": 26,
         "quantity": 1,
         "scheme": 1,
-        "scheme_text": "<b>Forced Interrupt</b>: When Chimera activates against you, she gets +X SCH and +X ATK for this activation. X is the number of [mental] resources on cards you control.",
+        "scheme_star": true,
         "set_code": "psylocke_nemesis",
         "set_position": 1,
+        "text": "[star] <b>Forced Interrupt</b>: When Chimera activates against you, she gets +X SCH and +X ATK for this activation. X is the number of [mental] resources on cards you control.",
         "traits": "Marauder. Psionic.",
         "type_code": "minion"
     },
@@ -70,7 +71,7 @@
         "type_code": "attachment"
     },
     {
-        "boost_text": "Choose to either spend a [mental] resource or confuse your identity.",
+        "boost_star": true,
         "code": "41029",
         "faction_code": "encounter",
         "illustrator": "Allie Preswick",
@@ -81,7 +82,7 @@
         "quantity": 2,
         "set_code": "psylocke_nemesis",
         "set_position": 4,
-        "text": "<b>When Revealed</b>: Take X indirect damage, where X is the number of [mental] resources on cards you control. If X is 0, this card gains surge.",
+        "text": "<b>When Revealed</b>: Take X indirect damage, where X is the number of [mental] resources on cards you control. If X is 0, this card gains surge.\n<hr />\n[star] <b>Boost</b>: Choose to either spend a [mental] resource or confuse your identity.",
         "type_code": "treachery"
     }
 ]

@@ -1,7 +1,7 @@
 [
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Response</b>: After MaGog attacks and damages a character, place 1 ratings counter on The Champion.",
+		"attack_star": true,
 		"back_link": "39001b",
 		"code": "39001a",
 		"double_sided": true,
@@ -19,13 +19,13 @@
 		"set_code": "magog",
 		"set_position": 1,
 		"stage": null,
-		"text": "<b>Forced Interrupt</b>: When MaGog would be defeated, reset his hit points to 10[per_hero] instead. Place 3[per_hero] ratings counters on The Challengers and deal each player 1 facedown encounter card.",
+		"text": "[star] <b>Forced Response</b>: After MaGog attacks and damages a character, place 1 ratings counter on The Champion.\n<b>Forced Interrupt</b>: When MaGog would be defeated, reset his hit points to 10[per_hero] instead. Place 3[per_hero] ratings counters on The Challengers and deal each player 1 facedown encounter card.",
 		"traits": "Brute.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Response</b>: After MaGog attacks and damages a character, place 2 ratings counters on The Champion.",
+		"attack_star": true,
 		"code": "39001b",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -43,7 +43,7 @@
 		"set_code": "magog",
 		"set_position": 1,
 		"stage": null,
-		"text": "<b>Forced Interrupt</b>: When MaGog would be defeated, reset his hit points to 10[per_hero] instead. Place 2[per_hero] ratings counters on The Challengers and deal each player 1 facedown encounter card.",
+		"text": "[star] <b>Forced Response</b>: After MaGog attacks and damages a character, place 2 ratings counters on The Champion.\n<b>Forced Interrupt</b>: When MaGog would be defeated, reset his hit points to 10[per_hero] instead. Place 2[per_hero] ratings counters on The Challengers and deal each player 1 facedown encounter card.",
 		"traits": "Brute.",
 		"type_code": "villain"
 	},
@@ -83,6 +83,7 @@
 		"stage": 1,
 		"text": "The players cannot win the game unless they wow the crowd as The Challengers.\n[star] <b>Forced Interrupt</b>: When this scheme would be completed, place 2[per_hero] ratings counters on The Champion and remove all threat from here instead.",
 		"threat": 6,
+		"threat_star": true,
 		"type_code": "main_scheme"
 	},
 	{
@@ -156,6 +157,7 @@
 		"type_code": "environment"
 	},
 	{
+		"boost_star": true,
 		"code": "39005",
 		"faction_code": "encounter",
 		"name": "Jolt of Adrenaline",
@@ -165,11 +167,12 @@
 		"quantity": 1,
 		"set_code": "magog",
 		"set_position": 5,
-		"text": "Attach to MaGog.nMaGog gains retaliate 1 and stalwart.",
+		"text": "Attach to MaGog.\nMaGog gains retaliate 1 and stalwart.\n<b>Forced Response</b>: After MaGog's hit points are reset, place 1[per_hero] ratings counters on The Challengers and discard this card.\n<hr />\n[star] <b>Boost</b>: Reveal this card.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_star": true,
 		"code": "39006",
 		"faction_code": "encounter",
 		"name": "Surge of Aggression",
@@ -179,12 +182,13 @@
 		"quantity": 1,
 		"set_code": "magog",
 		"set_position": 6,
-		"text": "Attach to MaGog.",
+		"text": "Attach to MaGog.\n<b>Forced Response</b>: After MaGog's hit points are reset, place 1[per_hero] ratings counters on The Challengers and discard this card.\n<hr />\n[star] <b>Boost</b>: Reveal this card.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
 	{
 		"attack": 2,
+		"attack_star": true,
 		"boost": 3,
 		"code": "39007",
 		"faction_code": "encounter",
@@ -199,7 +203,7 @@
 		"scheme": 1,
 		"set_code": "magog",
 		"set_position": 7,
-		"text": "Villainous.",
+		"text": "Villainous.\n[star] <b>Forced Response</b>: After Surprise Contender attacks and damages a character, place 1 ratings counters on The Champion.\n<b>When Defeated</b>: Place 2[per_hero] ratings counters on The Challengers.",
 		"traits": "Clone. Elite.",
 		"type_code": "minion"
 	},
@@ -245,6 +249,7 @@
 		"type_code": "treachery"
 	},
 	{
+		"boost_star": true,
 		"code": "39011",
 		"faction_code": "encounter",
 		"name": "Stage Fright",
@@ -258,7 +263,7 @@
 	},
 	{
 		"attack": null,
-		"attack_text": "<b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
+		"attack_star": true,
 		"back_link": "39012b",
 		"code": "39012a",
 		"double_sided": true,
@@ -276,13 +281,13 @@
 		"set_code": "spiral",
 		"set_position": 1,
 		"stage": 1,
-		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.",
+		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.\n[star] <b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
 		"traits": "Escaped. Mystic.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
+		"attack_star": true,
 		"code": "39012b",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -297,17 +302,17 @@
 		"position": 12,
 		"quantity": 1,
 		"scheme": 1,
-		"scheme_text": "<b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
+		"scheme_star": true,
 		"set_code": "spiral",
 		"set_position": 1,
 		"stage": 1,
-		"text": "If there are at least 3[per_hero] teleport counters here, remove all of them and flip Spiral.",
+		"text": "If there are at least 3[per_hero] teleport counters here, remove all of them and flip Spiral.\n[star] <b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
 		"traits": "Cornered. Mystic.",
 		"type_code": "villain"
 	},
 	{
 		"attack": null,
-		"attack_text": "<b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
+		"attack_star": true,
 		"back_link": "39013b",
 		"code": "39013a",
 		"double_sided": true,
@@ -325,13 +330,13 @@
 		"set_code": "spiral",
 		"set_position": 2,
 		"stage": 2,
-		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.",
+		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.\n[star] <b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
 		"traits": "Escaped. Mystic.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
+		"attack_star": true,
 		"code": "39013b",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -346,17 +351,17 @@
 		"position": 13,
 		"quantity": 1,
 		"scheme": 2,
-		"scheme_text": "<b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
+		"scheme_star": true,
 		"set_code": "spiral",
 		"set_position": 2,
 		"stage": 2,
-		"text": "If there are at least 2[per_hero] teleport counters here, remove all of them and flip Spiral.",
+		"text": "If there are at least 2[per_hero] teleport counters here, remove all of them and flip Spiral.\n[star] <b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
 		"traits": "Cornered. Mystic.",
 		"type_code": "villain"
 	},
 	{
 		"attack": null,
-		"attack_text": "<b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
+		"attack_star": true,
 		"back_link": "39014b",
 		"code": "39014a",
 		"double_sided": true,
@@ -374,13 +379,13 @@
 		"set_code": "spiral",
 		"set_position": 3,
 		"stage": 3,
-		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.",
+		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.\n[star] <b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
 		"traits": "Escaped. Mystic.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
+		"attack_star": true,
 		"code": "39014b",
 		"double_sided": true,
 		"faction_code": "encounter",
@@ -395,11 +400,10 @@
 		"position": 14,
 		"quantity": 1,
 		"scheme": 2,
-		"scheme_text": "<b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
 		"set_code": "spiral",
 		"set_position": 3,
 		"stage": 3,
-		"text": "If there are at least 3[per_hero] teleport counters here, remove all of them and flip Spiral.\n<b>When Revealed</b>: Spiral attacks each player in player order <i>(even in alter-ego form)</i>.",
+		"text": "If there are at least 3[per_hero] teleport counters here, remove all of them and flip Spiral.\n<b>When Revealed</b>: Spiral attacks each player in player order <i>(even in alter-ego form)</i>.\n[star] <b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
 		"traits": "Cornered. Mystic.",
 		"type_code": "villain"
 	},
@@ -468,6 +472,7 @@
 		"type_code": "treachery"
 	},
 	{
+		"attack_star": true,
 		"boost": 3,
 		"code": "39018",
 		"faction_code": "encounter",
@@ -478,7 +483,7 @@
 		"quantity": 2,
 		"set_code": "spiral",
 		"set_position": 7,
-		"text": "Attach to Spiral.\nUses (3 sword counters).",
+		"text": "Attach to Spiral.\nUses (3 sword counters).\n[star] Spiral gets +1 ATK for each sword counter on this card.\n<b>Hero Action</b>: If Spiral is on her [[Cornered]] side, spend [physical] [physical] resources \u2192 remove 1 sword counter from this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -657,7 +662,7 @@
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Response</b>: After Mojo attacks, discard cards from the encounter deck equal to the amount of damage dealt by that attack.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "39027",
 		"faction_code": "encounter",
@@ -671,11 +676,12 @@
 		"scheme": 1,
 		"set_code": "mojo",
 		"set_position": 6,
-		"text": "Attach to Mojo.\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
+		"text": "Attach to Mojo.\n[star] <b>Forced Response</b>: After Mojo attacks, discard cards from the encounter deck equal to the amount of damage dealt by that attack.\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
 		"traits": "Persona.",
 		"type_code": "attachment"
 	},
 	{
+		"boost_star": true,
 		"code": "39028",
 		"faction_code": "encounter",
 		"name": "Stinger Tail",
@@ -691,7 +697,9 @@
 	},
 	{
 		"attack": 1,
+		"attack_star": true,
 		"boost": 1,
+		"boost_star": true,
 		"code": "39029",
 		"faction_code": "encounter",
 		"health": 6,
@@ -701,8 +709,10 @@
 		"position": 29,
 		"quantity": 2,
 		"scheme": 1,
+		"scheme_star": true,
 		"set_code": "mojo",
 		"set_position": 8,
+		"text": "[star] <b>Forced Response</b>: After Supporting Actor activates against you, place 2 threat here.\n<hr />\n<b>Boost</b>: Place 1 threat on each character you control.",
 		"traits": "Robot. Thespyan.",
 		"type_code": "minion"
 	},
@@ -738,6 +748,7 @@
 		"type_code": "side_scheme"
 	},
 	{
+		"boost_star": true,
 		"code": "39032",
 		"faction_code": "encounter",
 		"name": "Curtain Call",
@@ -763,6 +774,7 @@
 		"type_code": "treachery"
 	},
 	{
+		"boost_star": true,
 		"code": "39034",
 		"faction_code": "encounter",
 		"name": "Top Billing",
@@ -933,6 +945,7 @@
 	},
 	{
 		"base_threat": 6,
+		"boost_star": true,
 		"code": "39045",
 		"faction_code": "encounter",
 		"name": "Fetch Quest",
@@ -946,6 +959,7 @@
 		"type_code": "side_scheme"
 	},
 	{
+		"boost_star": true,
 		"code": "39046",
 		"faction_code": "encounter",
 		"name": "Mana Drain",
@@ -988,9 +1002,11 @@
 	},
 	{
 		"attack": 1,
+		"attack_star": true,
 		"boost": 1,
 		"code": "39049",
 		"faction_code": "encounter",
+		"flavor": "\"Release the kraken!\"",
 		"health": 4,
 		"name": "Cultist",
 		"octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039049",
@@ -998,16 +1014,20 @@
 		"position": 49,
 		"quantity": 1,
 		"scheme": 1,
+		"scheme_star": true,
 		"set_code": "horror",
 		"set_position": 3,
+		"text": "[star] <b>Forced Response</b>: After Cultist activates against you, search the encounter deck and discard pile for The Kraken and put it into play engaged with you. <i>(Shuffle.)</i> Then, discard Cultist.",
 		"traits": "Mystic.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
+		"attack_star": true,
 		"boost": 3,
 		"code": "39050",
 		"faction_code": "encounter",
+		"flavor": "\"Rraaarhh!\"",
 		"health": 6,
 		"health_per_hero": true,
 		"is_unique": true,
@@ -1017,8 +1037,10 @@
 		"position": 50,
 		"quantity": 1,
 		"scheme": 0,
+		"scheme_star": true,
 		"set_code": "horror",
 		"set_position": 4,
+		"text": "[star] <b>Forced Response</b>: After The Kraker activates, each other character takes 1 damage.\n<b>When Defeated</b>: Each friendly character heals 1 damage.",
 		"traits": "Creature. Elite.",
 		"type_code": "minion"
 	},
@@ -1074,6 +1096,7 @@
 	{
 		"attack": 3,
 		"boost": 1,
+		"boost_star": true,
 		"code": "39054",
 		"faction_code": "encounter",
 		"health": 5,
@@ -1091,6 +1114,7 @@
 	{
 		"attack": 1,
 		"boost": 1,
+		"boost_star": true,
 		"code": "39055",
 		"faction_code": "encounter",
 		"health": 6,
@@ -1107,6 +1131,7 @@
 	},
 	{
 		"attack": 1,
+		"attack_star": true,
 		"boost": 3,
 		"code": "39056",
 		"faction_code": "encounter",
@@ -1117,6 +1142,7 @@
 		"position": 56,
 		"quantity": 1,
 		"scheme": 1,
+		"scheme_star": true,
 		"set_code": "sci-fi",
 		"set_position": 4,
 		"text": "Villainous.",
@@ -1125,6 +1151,8 @@
 	},
 	{
 		"attack": 2,
+		"attack_star": true,
+		"boost_star": true,
 		"code": "39057",
 		"faction_code": "encounter",
 		"health": 4,
@@ -1281,6 +1309,7 @@
 	},
 	{
 		"attack": 3,
+		"attack_star": true,
 		"boost": 3,
 		"code": "39068",
 		"faction_code": "encounter",
@@ -1329,6 +1358,7 @@
 	},
 	{
 		"attack": 2,
+		"attack_star": true,
 		"code": "39071",
 		"faction_code": "encounter",
 		"health": 3,

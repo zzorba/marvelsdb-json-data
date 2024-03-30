@@ -6,17 +6,15 @@
 		"text": "[star] <b>Forced Response</b>: After step one of the villain phase, place 1 threat on each side scheme. Move the active counter to the villain whose scheme has the most threat. <i>(If there is a tie, the first player chooses.)</i>\n<b>If this stage is completed, the players lose the game</b>"
 	},
 	{
-		"attack_text": "While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
 		"code": "07002",
 		"name": "Wrecker",
-		"scheme_text": "When Wrecker schemes, place the threat on his side scheme instead of the main scheme.",
+		"text": "[star] When Wrecker schemes, place the threat on his side scheme instead of the main scheme.\n[star] While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
 		"traits": "Wrecking Crew."
 	},
 	{
-		"attack_text": "While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
 		"code": "07003",
 		"name": "Wrecker",
-		"scheme_text": "When Wrecker schemes, place the threat on his side scheme instead of the main scheme.",
+		"text": "[star] When Wrecker schemes, place the threat on his side scheme instead of the main scheme.\n[star] While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
 		"traits": "Wrecking Crew."
 	},
 	{
@@ -30,16 +28,14 @@
 		"text": "Attach to the active villain's side scheme.\nThreat cannot be removed from attacked scheme by thwarting.\n<b>Hero Action</b>: The villain corresponding to the attached side scheme attacks you. Then discard this card."
 	},
 	{
-		"attack_text": "<b>Forced Response</b>: After Wrecker attacks, place 1 threat on the side scheme with the least threat.",
 		"code": "07006",
 		"name": "Magic Crowbar",
-		"text": "Attach to Wrecker.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card."
+		"text": "Attach to Wrecker.\n[star] <b>Forced Response</b>: After Wrecker attacks, place 1 threat on the side scheme with the least threat.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card."
 	},
 	{
 		"code": "07007",
 		"name": "Wrecker's Command",
-		"scheme_text": "<b>Forced Response</b>: After Wrecker schemes, place 1 threat on each other villain's side scheme.",
-		"text": "Attach to Wrecker.\n<b>Hero Action</b>: Spend [physical] [physical] resources → discard this card."
+		"text": "Attach to Wrecker.\n[star] <b>Forced Response</b>: After Wrecker schemes, place 1 threat on each other villain's side scheme.\n<b>Hero Action</b>: Spend [physical] [physical] resources → discard this card."
 	},
 	{
 		"code": "07008",
@@ -48,23 +44,20 @@
 		"traits": "Traitor."
 	},
 	{
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"code": "07009",
 		"name": "Escaped Convict",
-		"text": "Surge",
+		"text": "Surge\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"traits": "Criminal."
 	},
 	{
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat.",
 		"code": "07010",
 		"name": "Buddy System",
-		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play)."
+		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat."
 	},
 	{
-		"boost_text": "If this attack is undefended, discard an upgrade you control.",
 		"code": "07011",
 		"name": "Chaos In the Prison",
-		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge."
+		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge.\n<hr />\n[star] <b>Boost</b>: If this attack is undefended, discard an upgrade you control."
 	},
 	{
 		"code": "07012",
@@ -77,16 +70,14 @@
 		"text": "<b>When Revealed (Alter-Ego)</b>: The villain whose side scheme has the most threat schemes.\n<b>When Revealed (Hero)</b>: The villain whose side scheme has the least threat attacks you."
 	},
 	{
-		"boost_text": "Move the active counter to the villain with the least threat on his side scheme. That villain schemes.",
 		"code": "07014",
 		"name": "I've Been Waiting For This!",
-		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card."
+		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card.\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain with the least threat on his side scheme. That villain schemes."
 	},
 	{
-		"boost_text": "Wrecker gets +3 ATK for this activation unless you place 2 threat on his side scheme.",
 		"code": "07015",
 		"name": "Mystical Link",
-		"text": "<b>When Revealed</b>: Place 2 threat on each side scheme."
+		"text": "<b>When Revealed</b>: Place 2 threat on each side scheme.\n[star] <b>Boost</b>: Wrecker gets +3 ATK for this activation unless you place 2 threat on his side scheme."
 	},
 	{
 		"code": "07016",
@@ -94,17 +85,15 @@
 		"text": "<b>When Revealed</b>: Deal 1 damage to the hero or ally with the fewest remaining hit points. If that character is defeated this way, place 3 threat on Wrecker's side scheme."
 	},
 	{
-		"attack_text": "<b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
 		"code": "07017",
 		"name": "Thunderball",
-		"scheme_text": "When Thunderball schemes, place the threat on his side scheme instead of the main scheme.",
+		"text": "[star] When Thunderball schemes, place the threat on his side scheme instead of the main scheme.\n[star] <b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
 		"traits": "Wrecking Crew."
 	},
 	{
-		"attack_text": "<b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
 		"code": "07018",
 		"name": "Thunderball",
-		"scheme_text": "When Thunderball schemes, place the threat on his side scheme instead of the main scheme.",
+		"text": "[star] When Thunderball schemes, place the threat on his side scheme instead of the main scheme.\n[star] <b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
 		"traits": "Wrecking Crew."
 	},
 	{
@@ -113,10 +102,9 @@
 		"text": "<b>Thunderball's Side Scheme.</b>\nThis card cannot leave play while Thunderball is in play.\nGamma Blast -- <b>Forced Response</b>: After threat is placed here, if there is 10 or more threat here, stun each friendly character. Remove all but 3 threat from this scheme."
 	},
 	{
-		"attack_text": "<b>Forced Response</b>: After Thunderball attacks, place 1 threat on the main scheme.",
 		"code": "07020",
 		"name": "Ball and Chain",
-		"text": "Attach to Thunderball.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
+		"text": "Attach to Thunderball.\n[star] <b>Forced Response</b>: After Thunderball attacks, place 1 threat on the main scheme.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
 		"traits": "Weapon."
 	},
 	{
@@ -125,10 +113,9 @@
 		"text": "Attach to the active villain's side scheme.\nThreat cannot be removed from attached scheme by thwarting.\n<b>Hero Action</b>: The villain corresponding to the attached side scheme attacks you. Then, discard this card."
 	},
 	{
-		"attack_text": "<b>Forced Response</b>: After Thunderball attacks, discard this card.",
 		"code": "07022",
 		"name": "Radioactive Buildup",
-		"text": "Attach to Thunderball.\nExcess damage dealt by Thunderball is placed as threat on his corresponding side scheme.",
+		"text": "Attach to Thunderball.\nExcess damage dealt by Thunderball is placed as threat on his corresponding side scheme.\n[star] <b>Forced Response</b>: After Thunderball attacks, discard this card.",
 		"traits": "Condition."
 	},
 	{
@@ -138,29 +125,25 @@
 		"traits": "Traitor."
 	},
 	{
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"code": "07024",
 		"name": "Escaped Convict",
-		"text": "Surge",
+		"text": "Surge\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"traits": "Criminal."
 	},
 	{
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat.",
 		"code": "07025",
 		"name": "Buddy System",
-		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play)."
+		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat."
 	},
 	{
-		"boost_text": "If this attack is undefended, discard an upgrade you control.",
 		"code": "07026",
 		"name": "Chaos In the Prison",
-		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge."
+		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge.\n<hr />\n[star] <b>Boost</b>: If this attack is undefended, discard an upgrade you control."
 	},
 	{
-		"boost_text": "Deal 1 damage to the defending character.",
 		"code": "07027",
 		"name": "Energy Projectiles",
-		"text": "<b>When Revealed</b>: Deal 1 damage to each friendly character you control."
+		"text": "<b>When Revealed</b>: Deal 1 damage to each friendly character you control.\n<hr />\n[star] <b>Boost</b>: Deal 1 damage to the defending character."
 	},
 	{
 		"code": "07028",
@@ -168,10 +151,9 @@
 		"text": "<b>When Revealed (Alter-Ego)</b>: The villain whose side scheme has the most threat schemes.\n<b>When Revealed (Hero)</b>: The villain whose side scheme has the least threat attacks you."
 	},
 	{
-		"boost_text": "Move the active counter to the villain with the least threat on his side scheme. That villain schemes.",
 		"code": "07029",
 		"name": "I've Been Waiting For This!",
-		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card."
+		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card.\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain with the least threat on his side scheme. That villain schemes."
 	},
 	{
 		"code": "07030",
@@ -186,15 +168,13 @@
 	{
 		"code": "07032",
 		"name": "Piledriver",
-		"scheme_text": "When Piledriver schemes, place the threat on his side scheme instead of the main scheme.",
-		"text": "Retaliate 1.",
+		"text": "Retaliate 1.\n[star] When Piledriver schemes, place the threat on his side scheme instead of the main scheme.",
 		"traits": "Wrecking Crew."
 	},
 	{
 		"code": "07033",
 		"name": "Piledriver",
-		"scheme_text": "When Wrecker schemes, place the threat on his side scheme instead of the main scheme.",
-		"text": "Retaliate 1.",
+		"text": "Retaliate 1.\n[star] When Piledriver schemes, place the threat on his side scheme instead of the main scheme.",
 		"traits": "Wrecking Crew."
 	},
 	{
@@ -219,17 +199,15 @@
 		"traits": "Traitor."
 	},
 	{
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"code": "07038",
 		"name": "Escaped Convict",
-		"text": "Surge",
+		"text": "Surge.\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"traits": "Criminal."
 	},
 	{
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat.",
 		"code": "07039",
 		"name": "Buddy System",
-		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play)."
+		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat."
 	},
 	{
 		"code": "07040",
@@ -237,22 +215,19 @@
 		"text": "<b>When Revealed (Alter-Ego)</b>: The villain whose side scheme has the most threat schemes.\n<b>When Revealed (Hero)</b>: The villain whose side scheme has the least threat attacks you."
 	},
 	{
-		"boost_text": "Move the active counter to the villain with the least threat on his side scheme. That villain schemes.",
 		"code": "07041",
 		"name": "I've Been Waiting For This!",
-		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card."
+		"text": "<b>When Revealed</b>: The active villain heals 3 hit points. Give that villain a tough status card.\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain with the least threat on his side scheme. That villain schemes."
 	},
 	{
-		"boost_text": "Discard a support you control.",
 		"code": "07042",
 		"name": "Oversized Hands",
-		"text": "<b>When Revealed</b>: Discard the support you control with the highest cost. If no support was discarded this way, place 2 threat on the active villain's scheme."
+		"text": "<b>When Revealed</b>: Discard the support you control with the highest cost. If no support was discarded this way, place 2 threat on the active villain's scheme.\n<hr />\n[star] <b>Boost</b>: Discard a support you control."
 	},
 	{
-		"boost_text": "Give the active villain a tough status card. If they already have a tough status card, place 2 threat on their scheme.",
 		"code": "07043",
 		"name": "Escape Plan",
-		"text": "<b>When Revealed</b>: You are confused. If you are already confused, Piledriver schemes."
+		"text": "<b>When Revealed</b>: You are confused. If you are already confused, Piledriver schemes.\n<hr />\n[star] <b>Boost</b>: Give the active villain a tough status card. If they already have a tough status card, place 2 threat on their scheme."
 	},
 	{
 		"code": "07044",
@@ -260,23 +235,20 @@
 		"text": "<b>When Revealed (Alter-Ego)</b>: Piledriver schemes. If Piledriver is tough, he gets +2 SCH for this activation.\n<b>When Revealed (Hero)</b>: Piledriver attacks you. If Piledriver is tough, he gets +2 ATK for this activation."
 	},
 	{
-		"boost_text": "You are confused.",
 		"code": "07045",
 		"name": "Uncanny Resilience",
-		"text": "<b>When Revealed</b>: Remove each stunned and confused status card from each villain. If no status cards were removed, this card gains surge."
+		"text": "<b>When Revealed</b>: Remove each stunned and confused status card from each villain. If no status cards were removed, this card gains surge.\n<hr />\n[star] <b>Boost</b>: You are confused."
 	},
 	{
-		"attack_text": "<b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
 		"code": "07046",
 		"name": "Bulldozer",
-		"scheme_text": "When Piledriver schemes, place the threat on his side scheme instead of the main scheme.",
+		"text": "[star] When Bulldozer schemes, place the threat on his side scheme instead of the main scheme.\n[star] <b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
 		"traits": "Wrecking Crew."
 	},
 	{
-		"attack_text": "<b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
 		"code": "07047",
 		"name": "Bulldozer",
-		"scheme_text": "When Bulldozer schemes, place the threat on his side scheme instead of the main scheme.",
+		"text": "[star] When Bulldozer schemes, place the threat on his side scheme instead of the main scheme.\n[star] <b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
 		"traits": "Wrecking Crew."
 	},
 	{
@@ -285,10 +257,9 @@
 		"text": "<b>Bulldozer's Side Scheme.</b>\nThis card cannot leave play while Bulldozer is in play.\nCharge! -- <b>Forced Response</b>: After threat is placed here, if there is 10 or more threat here, each player must discard the top 10 cards of their deck. Remove all but 3 threat from this scheme."
 	},
 	{
-		"attack_text": "<b>Forced Response</b>: After Bulldozer attacks you, discard 1 card from the top of your deck for each point of damage dealt by this attack.",
 		"code": "07049",
 		"name": "Bulldozer's Helmet",
-		"text": "Attach to Bulldozer.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
+		"text": "Attach to Bulldozer.\n[star] <b>Forced Response</b>: After Bulldozer attacks you, discard 1 card from the top of your deck for each point of damage dealt by this attack.\n<b>Hero Action</b>: Exhaust your hero and discard 1 card at random from your hand → discard this card.",
 		"traits": "Armor."
 	},
 	{
@@ -297,10 +268,9 @@
 		"text": "Attach to the active villain side scheme.\nThreat cannot be removed from attached scheme by thwarting.\n<b>Hero Action</b>: The villain corresponding to the attached side scheme attacks you. Then, discard this card."
 	},
 	{
-		"attack_text": "<b>Forced Interrupt</b>: When Bulldozer attacks you, you must defend against Bulldozer's attacks with an ally you control, if able.\n<b>Forced Response</b>: After Bulldozer attacks you, discard this card.",
 		"code": "07051",
 		"name": "Ramming Speed",
-		"text": "Attach to Bulldozer.",
+		"text": "Attach to Bulldozer.\n[star] <b>Forced Interrupt</b>: When Bulldozer attacks you, you must defend against Bulldozer's attacks with an ally you control, if able.\n[star] <b>Forced Response</b>: After Bulldozer attacks you, discard this card.",
 		"traits": "Condition."
 	},
 	{
@@ -310,17 +280,15 @@
 		"traits": "Traitor."
 	},
 	{
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"code": "07053",
 		"name": "Escaped Convict",
-		"text": "Surge",
+		"text": "Surge.\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat. If you are in hero form, that villain attacks you after this attack. That attack does not get a boost card.",
 		"traits": "Criminal."
 	},
 	{
-		"boost_text": "Move the active counter to the villain whose side scheme has the least threat.",
 		"code": "07054",
 		"name": "Buddy System",
-		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play)."
+		"text": "<b>When Revealed</b>: Choose the villain whose side scheme has the least threat. Reveal the top card of his deck (top 2 cards instead if he is the only villain in play).\n<hr />\n[star] <b>Boost</b>: Move the active counter to the villain whose side scheme has the least threat."
 	},
 	{
 		"code": "07055",
@@ -328,10 +296,9 @@
 		"text": "<b>When Revealed (Alter-Ego)</b>: Bulldozer schemes. Discard the top card of your deck for each threat placed by this activation.\n<b>When Revealed (Hero)</b>: Bulldozer attacks you. Discard the top card of your deck for each damage dealt by this attack."
 	},
 	{
-		"boost_text": "If this attack is undefended, discard an upgrade you control.",
 		"code": "07056",
 		"name": "Chaos In the Prison",
-		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge."
+		"text": "<b>When Revealed</b>: Choose to either discard an upgrade you control or place 1 threat on the active villain's side scheme for each upgrade you control. If you do not control any upgrades, this card gains surge.\n<hr />\n[star] <b>Boost</b>: If this attack is undefended, discard an upgrade you control."
 	},
 	{
 		"code": "07057",

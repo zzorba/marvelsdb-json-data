@@ -22,9 +22,8 @@
 			"minimum": 0,
 			"type": "integer"
 		},
-		"attack_text": {
-			"minLength": 1,
-			"type": "string"
+		"attack_star": {
+			"type": "boolean"
 		},
 		"back_flavor": {
 			"minLength": 1,
@@ -52,9 +51,8 @@
 			"minimum": 1,
 			"type": "integer"
 		},
-		"boost_text": {
-			"minLength": 1,
-			"type": "string"
+		"boost_star": {
+			"type": "boolean"
 		},
 		"code": {
 			"pattern": "^[0-9]{5}[abcdef]?$",
@@ -78,6 +76,9 @@
 			"minimum": 0,
 			"type": "integer"
 		},
+		"defense_star": {
+			"type": "boolean"
+		},
 		"double_sided": {
 			"type": "boolean"
 		},
@@ -88,6 +89,12 @@
 		"escalation_threat": {
 			"minimum": -1,
 			"type": "integer"
+		},
+		"escalation_threat_fixed": {
+			"type": "boolean"
+		},
+		"escalation_threat_star": {
+			"type": "boolean"
 		},
 		"faction_code": {
 			"minLength": 1,
@@ -106,6 +113,9 @@
 			"type": "integer"
 		},
 		"health_per_hero": {
+			"type": "boolean"
+		},
+		"health_star": {
 			"type": "boolean"
 		},
 		"illustrator": {
@@ -146,6 +156,9 @@
 			"minimum": 0,
 			"type": "integer"
 		},
+		"recover_star": {
+			"type": "boolean"
+		},
 		"resource_energy": {
 			"minimum": 0,
 			"type": "integer"
@@ -177,6 +190,9 @@
 		"scheme_hazard": {
 			"minimum": 1,
 			"type": "integer"
+		},
+		"scheme_star": {
+			"type": "boolean"
 		},
 		"set_code": {
 			"minLength": 1,
@@ -215,6 +231,9 @@
 		"threat_fixed": {
 			"type": "boolean"
 		},
+		"threat_star": {
+			"type": "boolean"
+		},
 		"thwart": {
 			"oneOf": [
 				{
@@ -230,9 +249,8 @@
 			"minimum": 0,
 			"type": "integer"
 		},
-		"thwart_text": {
-			"minLength": 1,
-			"type": "string"
+		"thwart_star": {
+			"type": "boolean"
 		},
 		"traits": {
 			"minLength": 0,
