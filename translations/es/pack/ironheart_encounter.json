@@ -8,7 +8,7 @@
 		"code": "29029",
 		"flavor": "Lucia von Bardas ha tomado el control de Latveria y no se detendrá ante nada con tal de dejar patente el poderío de esta nación.",
 		"name": "Gobernar por la fuerza",
-		"scheme_text": "Mientras Lucia von Bardas esté en juego, esta carta gana un icono de Riesgo.\nMientras Lucia von Bardas no esté en juego, esta carta gana un icono de Aceleración."
+		"text": "Mientras Lucia von Bardas esté en juego, esta carta gana un icono de Riesgo.\nMientras Lucia von Bardas no esté en juego, esta carta gana un icono de Aceleración."
 	},
 	{
 		"code": "29030",
@@ -17,10 +17,9 @@
 		"traits": "Criminal. Cíborg. Élite."
 	},
 	{
-		"boost_text": "Quédate esta carta como carta de Encuentro boca abajo",
 		"code": "29031",
 		"name": "Tecnología cíborg",
-		"text": "Vincula esta carta al Esbirro que tenga más [[Rasgos]]. Si no es posible, esta carta gana Oleada.\nEl Esbirro vinculado recibe +3 de Vida y gana Represalia 1.",
+		"text": "Vincula esta carta al Esbirro que tenga más [[Rasgos]]. Si no es posible, esta carta gana Oleada.\nEl Esbirro vinculado recibe +3 de Vida y gana Represalia 1.\n<hr />\n[star] <b>Aumento</b>: Quédate esta carta como carta de Encuentro boca abajo.",
 		"traits": "Tecnología."
 	},
 	{
@@ -33,14 +32,12 @@
 		"code": "29036",
 		"flavor": "¡Zzzax controla el suministro eléctrico de la ciudad y está sembrando el caos en el sistema!",
 		"name": "Bucle de retroalimentación",
-		"scheme_text": "<b>Whem Revealed:</b> Each player must place threat here equal to the total number [energy] resources in their hand and on cards they control",
 		"text": "<b>Cuando se muestre esta carta:</b> cada jugador debe colocar tanta Amenaza sobre esta carta como el número total de recursos [energy] que haya en las cartas de su mano y en las cartas que controle."
 	},
 	{
-		"boost_text": "Si tienes al menos [energy][energy] entre los recursos de las cartas de tu mano, pon en juego a Zzzax enfrentado a ti.",
 		"code": "29037",
 		"name": "Zzzax",
-		"text": "Zzzax recibe +X ATQ y +X de Vida, siendo X igual al número total de recursos [energy] que haya en las cartas controladas por el jugador enfrentado.",
+		"text": "[star] Zzzax recibe +X ATQ y +X de Vida, siendo X igual al número total de recursos [energy] que haya en las cartas controladas por el jugador enfrentado.\n<hr />\n[star] <b>Aumento</b>: Si tienes al menos [energy][energy] entre los recursos de las cartas de tu mano, pon en juego a Zzzax enfrentado a ti.",
 		"traits": "Criminal."
 	},
 	{

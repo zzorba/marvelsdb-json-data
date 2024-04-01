@@ -10,11 +10,12 @@
 		"position": 28,
 		"quantity": 1,
 		"set_code": "warm",
-		"text": "<b><i>Give to the James Rhodes player.</i></b>\nYou may flip to your alter-ego form. Choose:\n- Exhaust James Rhodes → remove Equipment Malfunction from the game.\n- Remove all ammo counters from your identity. If 2 or fewer ammo counters were removed this way, this card gains surge. Discard this obligation.",
+		"text": "<b><i>Give to the James Rhodes player.</i></b>\nYou may flip to your alter-ego form. Choose:\n\u2022 Exhaust James Rhodes → remove Equipment Malfunction from the game.\n\u2022 Remove all ammo counters from your identity. If 2 or fewer ammo counters were removed this way, this card gains surge. Discard this obligation.",
 		"type_code": "obligation"
 	},
 	{
 		"attack": 2,
+		"attack_star": true,
 		"boost": 2,
 		"code": "23029",
 		"faction_code": "encounter",
@@ -54,7 +55,7 @@
 	},
 	{
 		"boost": 1,
-		"boost_text": "<b>Boost</b>: If this resolves during an undefended attack, discard an upgrade you control.",
+		"boost_star": true,
 		"code": "23031",
 		"faction_code": "encounter",
 		"name": "Laser Strike",
@@ -64,7 +65,7 @@
 		"quantity": 3,
 		"set_code": "warm_nemesis",
 		"set_position": 3,
-		"text": "<b>When Revealed:</b> Discard an upgrade you control. If you cannot, this card gains surge.",
+		"text": "<b>When Revealed</b>: Discard an upgrade you control. If you cannot, this card gains surge.\n<hr />\n[star] <b>Boost</b>: If this resolves during an undefended attack, discard an upgrade you control.",
 		"type_code": "treachery"
 	}
 ]

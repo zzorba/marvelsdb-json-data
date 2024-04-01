@@ -4,7 +4,6 @@
         "back_link": "43001b",
         "code": "43001a",
         "defense": 2,
-        "double_sided": true,
         "faction_code": "hero",
         "flavor": "\"The Facility created me to kill, but I choose to fight to protect life.\"",
         "hand_size": 5,
@@ -14,8 +13,8 @@
         "meta": {
             "colors": [
                 "#19191e",
-                "#d09c25",
                 "#4b4a44",
+                "#d09c25",
                 "#fffffd"
             ],
             "offset": "-38px -33px"
@@ -33,7 +32,6 @@
     },
     {
         "code": "43001b",
-        "double_sided": true,
         "faction_code": "hero",
         "hand_size": 6,
         "health": 10,
@@ -286,6 +284,7 @@
     {
         "attack": 2,
         "attack_cost": 1,
+        "attack_star": true,
         "code": "43014",
         "cost": 3,
         "deck_limit": 1,
@@ -308,6 +307,7 @@
     {
         "attack": 2,
         "attack_cost": 1,
+        "attack_star": true,
         "code": "43015",
         "cost": 4,
         "deck_limit": 1,
@@ -322,7 +322,7 @@
         "quantity": 1,
         "resource_mental": 1,
         "subname": "Gaveedra Seven",
-        "text": "[star] <b>Interrupt</b>: When Shatterstar attacks a minion, engage that minion. If you are already engaged with that minion, Shatterstar gets +1 ATK from this attack.",
+        "text": "[star] <b>Interrupt</b>: When Shatterstar attacks a minion, engage that minion. If you are already engaged with that minion, Shatterstar gets +1 ATK for this attack.",
         "thwart": 2,
         "thwart_cost": 2,
         "traits": "X-Force.",

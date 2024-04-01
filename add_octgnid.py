@@ -1,8 +1,8 @@
 import json
 import uuid
 
-runFile = 'deadpool_encounter.json'
-pack_code = 'deadpool'
+runFile = 'aoa_encounter.json'
+pack_code = 'aoa'
 
 with open('./packs.json') as json_file:
     pack_data = json.load(json_file)

@@ -10,13 +10,13 @@
 		"position": 26,
 		"quantity": 1,
 		"set_code": "hawkeye",
-		"text": "<b><i>Give to the Clint Barton Player.</i></b>\nYou may flip to alter-ego form. Choose:\n- Exhaust Clint Barton → remove this card from the game.\n- Discard Hawkeye's Bow from play. Discard this obligation.\n",
+		"text": "<b><i>Give to the Clint Barton Player.</i></b>\nYou may flip to alter-ego form. Choose:\n\u2022 Exhaust Clint Barton → remove this card from the game.\n\u2022 Discard Hawkeye's Bow from play. Discard this obligation.\n",
 		"type_code": "obligation"
 	},
 	{
 		"attack": 2,
-		"attack_text": "Crossfire's attacks gain piercing.",
-		"boost_text": "If this boost resolves during an attack, the attack gains piercing.",
+		"attack_star": true,
+		"boost_star": true,
 		"code": "04027",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -31,7 +31,7 @@
 		"scheme": 1,
 		"set_code": "hawkeye_nemesis",
 		"set_position": 1,
-		"text": "Quickstrike.\n",
+		"text": "Quickstrike.\nCrossfire's attacks gain piercing.\n<hr />\n[star] <b>Boost</b>: If this boost resolves during an attack, the attack gains piercing.",
 		"traits": "Mercenary.",
 		"type_code": "minion"
 	},
@@ -56,7 +56,7 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "When attached enemy attacks, the attack gains ranged.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "04029",
 		"deck_limit": 1,
@@ -70,7 +70,7 @@
 		"quantity": 1,
 		"set_code": "hawkeye_nemesis",
 		"set_position": 3,
-		"text": "Attach to Crossfire. Otherwise, attach to the villain.\n<b>Hero Action:</b> Exhaust your hero and spend a [wild] resource → discard Crossfire's Rifle.",
+		"text": "Attach to Crossfire. Otherwise, attach to the villain.\n[star] When attached enemy attacks, the attack gains ranged.\n<b>Hero Action:</b> Exhaust your hero and spend a [wild] resource → discard Crossfire's Rifle.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -101,7 +101,7 @@
 		"position": 53,
 		"quantity": 1,
 		"set_code": "spider_woman",
-		"text": "<b><i>Give to the Jessica Drew Player.</i></b>\n- Exhaust Jessica Drew → remove Uncertain Loyalties from the game.\n- Place 3 threat on the main scheme. Discard this obligation.\n",
+		"text": "<b><i>Give to the Jessica Drew Player.</i></b>\n\u2022 Exhaust Jessica Drew → remove Uncertain Loyalties from the game.\n\u2022 Place 3 threat on the main scheme. Discard this obligation.\n",
 		"type_code": "obligation"
 	},
 	{
@@ -182,7 +182,7 @@
 	},
 	{
 		"attack": 1,
-		"attack_text": "While Crossbones has a [[Weapon]] attachment, his attacks gain piercing. <i>(Discard any tough status cards from the target before dealing damage.)</i>",
+		"attack_star": true,
 		"code": "04058",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -200,12 +200,13 @@
 		"set_code": "crossbones",
 		"set_position": 1,
 		"stage": 1,
+		"text": "[star] While Crossbones has a [[Weapon]] attachment, his attacks gain piercing. <i>(Discard any tough status cards from the target before dealing damage.)</i>",
 		"traits": "Hydra. Mercenary.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 2,
-		"attack_text": "While Crossbones has a [[Weapon]] attachment, his attacks gain piercing.",
+		"attack_star": true,
 		"code": "04059",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -222,13 +223,13 @@
 		"set_code": "crossbones",
 		"set_position": 2,
 		"stage": 2,
-		"text": "<b>When Revealed:</b> Search the encounter deck and discard pile for Crossbone's Machine Gun and attach it to Crossbones. Shuffle the encounter deck.",
+		"text": "[star] While Crossbones has a [[Weapon]] attachment, his attacks gain piercing.\n<b>When Revealed</b>: Search the encounter deck and discard pile for Crossbone's Machine Gun and attach it to Crossbones. Shuffle the encounter deck.",
 		"traits": "Hydra. Mercenary.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 3,
-		"attack_text": "While Crossbones has a [[Weapon]] attachment, his attacks gain piercing.",
+		"attack_star": true,
 		"code": "04060",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -246,7 +247,7 @@
 		"set_code": "crossbones",
 		"set_position": 3,
 		"stage": 3,
-		"text": "<b>When Revealed:</b> Reveal the top card of the Experimental Weapons deck.",
+		"text": "[star] While Crossbones has a [[Weapon]] attachment, his attacks gain piercing.\n<b>When Revealed</b>: Reveal the top card of the Experimental Weapons deck.",
 		"traits": "Hydra. Mercenary.",
 		"type_code": "villain"
 	},
@@ -319,7 +320,7 @@
 	},
 	{
 		"attack": 0,
-		"attack_text": "<b>Forced Interrupt:</b> When Crossbones attacks you, remove 1 ammo counter from this card and discard the top card of the encounter deck → take indirect damage equal to the number of boost icons on the discarded card.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "04064",
 		"deck_limit": 1,
@@ -333,7 +334,7 @@
 		"quantity": 1,
 		"set_code": "crossbones",
 		"set_position": 7,
-		"text": "Attach to Crossbones. Uses (2[per_hero] ammo counters).",
+		"text": "Attach to Crossbones. Uses (2[per_hero] ammo counters).\n[star] <b>Forced Interrupt</b>: When Crossbones attacks you, remove 1 ammo counter from this card and discard the top card of the encounter deck → take indirect damage equal to the number of boost icons on the discarded card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -394,7 +395,7 @@
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "Give the villain a tough status card. If you cannot, heal 3 damage from it instead.",
+		"boost_star": true,
 		"code": "04068",
 		"deck_limit": 2,
 		"faction_code": "encounter",
@@ -406,7 +407,7 @@
 		"quantity": 2,
 		"set_code": "crossbones",
 		"set_position": 13,
-		"text": "<b>When Revealed:</b> Give the villain a tough status card. If you cannot, heal 3 damage from it instead.",
+		"text": "<b>When Revealed:</b> Give the villain a tough status card. If you cannot, heal 3 damage from it instead.\n<hr />\n[star] <b>Boost</b>: Give the villain a tough status card. If you cannot, heal 3 damage from it instead.",
 		"type_code": "treachery"
 	},
 	{
@@ -466,7 +467,7 @@
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Interrupt:</b> When attached villain attacks, the attack gains ranged.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "04072",
 		"deck_limit": 1,
@@ -479,7 +480,7 @@
 		"quantity": 1,
 		"set_code": "exper_weapon",
 		"set_position": 1,
-		"text": "Attach to the Villain.\n<b>Hero Action:</b> Spend [energy][physical] resources → discard this card.",
+		"text": "Attach to the Villain.\n[star] <b>Forced Interrupt:</b> When attached villain attacks, the attack gains ranged.\n<b>Hero Action:</b> Spend [energy][physical] resources → discard this card.",
 		"traits": "Experimental. Weapon.",
 		"type_code": "attachment"
 	},
@@ -503,7 +504,7 @@
 	},
 	{
 		"attack": 0,
-		"attack_text": "<b>Forced Response:</b> After the attached villain attacks and damages you, discard 1 card from your hand.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "04074",
 		"deck_limit": 1,
@@ -516,7 +517,7 @@
 		"quantity": 1,
 		"set_code": "exper_weapon",
 		"set_position": 3,
-		"text": "Attach to the Villain.\n<b>Hero Action:</b> Spend [mental][physical] resources → discard this card.",
+		"text": "Attach to the Villain.\n[star] <b>Forced Response:</b> After the attached villain attacks and damages you, discard 1 card from your hand.\n<b>Hero Action:</b> Spend [mental][physical] resources → discard this card.",
 		"traits": "Experimental. Weapon.",
 		"type_code": "attachment"
 	},
@@ -585,7 +586,7 @@
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Response:</b> After Absorbing Man activates against you, if he has the:\n- [[Ice]] or [[Stone]] trait, place 1 threat on the main scheme.\n- [[Metal]] or [[Wood]] trait, take 1 indirect damage.",
+		"attack_star": true,
 		"code": "04078",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -599,11 +600,11 @@
 		"position": 78,
 		"quantity": 1,
 		"scheme": 2,
-		"scheme_text": "<b>Forced Response:</b> After Absorbing Man activates against you, if he has the:\n- [[Ice]] or [[Stone]] trait, place 1 threat on the main scheme.\n- [[Metal]] or [[Wood]] trait, take 1 indirect damage.",
+		"scheme_star": true,
 		"set_code": "absorbing_man",
 		"set_position": 3,
 		"stage": 3,
-		"text": "Absorbing Man gains the trait of each environment in play.\n",
+		"text": "Absorbing Man gains the trait of each environment in play.\n[star] <b>Forced Response</b>: After Absorbing Man activates against you, if he has the:\n\u2022 [[Ice]] or [[Stone]] trait, place 1 threat on the main scheme.\n\u2022 [[Metal]] or [[Wood]] trait, take 1 indirect damage.",
 		"traits": "Brute.",
 		"type_code": "villain"
 	},
@@ -615,6 +616,7 @@
 		"deck_limit": 1,
 		"double_sided": true,
 		"escalation_threat": 1,
+		"escalation_threat_star": true,
 		"faction_code": "encounter",
 		"illustrator": "Christopher Jones",
 		"name": "None Shall Pass",
@@ -625,12 +627,12 @@
 		"set_code": "absorbing_man",
 		"set_position": 4,
 		"stage": 1,
-		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, place 1 delay counter here.\n<b>Forced Interrupt:</b> When an environment enters play, discard each other environment card in play.\n<b>If this stage is completed, the players lose the game.</b>\n",
+		"text": "[star] <b>Forced Response</b>: After resolving step one of the villain phase, place 1 delay counter here.\n<b>Forced Interrupt</b>: When an environment enters play, discard each other environment card in play.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 12,
 		"type_code": "main_scheme"
 	},
 	{
-		"boost_text": "Put this card into play.",
+		"boost_star": true,
 		"code": "04080",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -642,12 +644,12 @@
 		"quantity": 1,
 		"set_code": "absorbing_man",
 		"set_position": 5,
-		"text": "Surge.\n<b>Forced Response:</b> After Absorbing Man makes an undefended attack against you, take 1 indirect damage (2 indirect damage instead if there are 5 or more delay counters on the main scheme).",
+		"text": "Surge.\n<b>Forced Response:</b> After Absorbing Man makes an undefended attack against you, take 1 indirect damage (2 indirect damage instead if there are 5 or more delay counters on the main scheme).\n<hr />\n[star] <b>Boost</b>: Put this card into play.",
 		"traits": "Wood.",
 		"type_code": "environment"
 	},
 	{
-		"boost_text": "Put this card into play.",
+		"boost_star": true,
 		"code": "04081",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -659,12 +661,12 @@
 		"quantity": 1,
 		"set_code": "absorbing_man",
 		"set_position": 6,
-		"text": "Surge.\n<b>Forced Response:</b> After Absorbing Man makes an undefended attack against you, place 1 threat on the main scheme (2 threat instead if there are 5 or more delay counters on the main scheme).",
+		"text": "Surge.\n<b>Forced Response:</b> After Absorbing Man makes an undefended attack against you, place 1 threat on the main scheme (2 threat instead if there are 5 or more delay counters on the main scheme).\n<hr />\n[star] <b>Boost</b>: Put this card into play.",
 		"traits": "Ice.",
 		"type_code": "environment"
 	},
 	{
-		"boost_text": "Put this card into play.",
+		"boost_star": true,
 		"code": "04082",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -676,12 +678,12 @@
 		"quantity": 1,
 		"set_code": "absorbing_man",
 		"set_position": 7,
-		"text": "Surge.\n<b>Forced Response:</b> After Absorbing Man makes an undefended attack against you, heal 1 damage from him (2 damage instead if there are 5 or more delay counters on the main scheme).",
+		"text": "Surge.\n<b>Forced Response:</b> After Absorbing Man makes an undefended attack against you, heal 1 damage from him (2 damage instead if there are 5 or more delay counters on the main scheme).\n<hr />\n[star] <b>Boost</b>: Put this card into play.",
 		"traits": "Stone.",
 		"type_code": "environment"
 	},
 	{
-		"boost_text": "Put this card into play.",
+		"boost_star": true,
 		"code": "04083",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -693,13 +695,13 @@
 		"quantity": 1,
 		"set_code": "absorbing_man",
 		"set_position": 8,
-		"text": "Surge.\n<b>Forced Response:</b> After Absorbing Man makes an undefended attack against you, discard 1 resource icon from your hand (2 resources instead if there are 5 or more delay counters on the main scheme).",
+		"text": "Surge.\n<b>Forced Response:</b> After Absorbing Man makes an undefended attack against you, discard 1 resource icon from your hand (2 resources instead if there are 5 or more delay counters on the main scheme).\n<hr />\n[star] <b>Boost</b>: Put this card into play.",
 		"traits": "Metal.",
 		"type_code": "environment"
 	},
 	{
 		"attack": 1,
-		"boost_text": "Reveal this card.",
+		"boost_star": true,
 		"code": "04084",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -713,12 +715,12 @@
 		"scheme": 1,
 		"set_code": "absorbing_man",
 		"set_position": 9,
-		"text": "Attach to Absorbing Man.\n<b>Hero Action:</b> Spend a [physical] resource → shuffle this card into the encounter deck.",
+		"text": "Attach to Absorbing Man.\n<b>Hero Action:</b> Spend a [physical] resource → shuffle this card into the encounter deck.\n<hr />\n[star] <b>Boost</b>: Reveal this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
 	{
-		"boost_text": "If there are 5 or more delay counters on the main scheme, take 1 indirect damage.",
+		"boost_star": true,
 		"code": "04085",
 		"deck_limit": 2,
 		"faction_code": "encounter",
@@ -730,7 +732,7 @@
 		"quantity": 2,
 		"set_code": "absorbing_man",
 		"set_position": 10,
-		"text": "<b>When Revealed:</b> Place 1 threat on the main scheme for every 2 delay counters on the main scheme. If no threat was placed this way, this card gains surge.",
+		"text": "<b>When Revealed:</b> Place 1 threat on the main scheme for every 2 delay counters on the main scheme. If no threat was placed this way, this card gains surge.\n<hr />\n[star] <b>Boost</b>: If there are 5 or more delay counters on the main scheme, take 1 indirect damage.",
 		"type_code": "treachery"
 	},
 	{
@@ -767,7 +769,7 @@
 	},
 	{
 		"boost": 1,
-		"boost_text": "If Absorbing Man has the [[Stone]] or [[Wood]] trait, you are stunned.",
+		"boost_star": true,
 		"code": "04088",
 		"deck_limit": 2,
 		"faction_code": "encounter",
@@ -779,7 +781,7 @@
 		"quantity": 2,
 		"set_code": "absorbing_man",
 		"set_position": 16,
-		"text": "<b>When Revealed:</b> Discard 1 card at random from your hand. If Absorbing Man has the [[Wood]] trait, discard 1 card you control.",
+		"text": "<b>When Revealed:</b> Discard 1 card at random from your hand. If Absorbing Man has the [[Wood]] trait, discard 1 card you control.\n<hr />\n[star] <b>Boost</b>: If Absorbing Man has the [[Stone]] or [[Wood]] trait, you are stunned.",
 		"type_code": "treachery"
 	},
 	{
@@ -800,7 +802,7 @@
 	},
 	{
 		"boost": 2,
-		"boost_text": "If Absorbing Man has the [[Ice]] or [[Metal]] trait, give him a tough status card.",
+		"boost_star": true,
 		"code": "04090",
 		"deck_limit": 2,
 		"faction_code": "encounter",
@@ -812,7 +814,7 @@
 		"quantity": 2,
 		"set_code": "absorbing_man",
 		"set_position": 21,
-		"text": "<b>When Revealed:</b> You are stunned. If Absorbing Man has the [[Ice]] trait, take 2 indirect damage.",
+		"text": "<b>When Revealed:</b> You are stunned. If Absorbing Man has the [[Ice]] trait, take 2 indirect damage.\n<hr />\n[star] <b>Boost</b>: If Absorbing Man has the [[Ice]] or [[Metal]] trait, give him a tough status card.",
 		"type_code": "treachery"
 	},
 	{
@@ -835,7 +837,7 @@
 	},
 	{
 		"base_threat": 3,
-		"boost_text": "Reveal this card.",
+		"boost_star": true,
 		"code": "04092",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -848,7 +850,7 @@
 		"quantity": 1,
 		"set_code": "absorbing_man",
 		"set_position": 25,
-		"text": "Absorbing Man gains the [[Ice]], [[Metal]], [[Stone]], and [[Wood]] traits.",
+		"text": "Absorbing Man gains the [[Ice]], [[Metal]], [[Stone]], and [[Wood]] traits.\n<hr />\n[star] <b>Boost</b>: Reveal this card.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -923,6 +925,7 @@
 		"deck_limit": 1,
 		"double_sided": true,
 		"escalation_threat": 1,
+		"escalation_threat_star": true,
 		"faction_code": "encounter",
 		"flavor": "The notorious Taskmaster has been appointed by Hydra's chief of police. His top priority is hunting down the outlaw heroes.",
 		"illustrator": "Dennis Medri",
@@ -934,7 +937,7 @@
 		"set_code": "taskmaster",
 		"set_position": 4,
 		"stage": 1,
-		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, each player in hero form must choose to either place 1 threat here or take 1 damage.\n<b>If this stage is completed, the players lose the game.</b>",
+		"text": "[star] <b>Forced Response</b>: After resolving step one of the villain phase, each player in hero form must choose to either place 1 threat here or take 1 damage.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 12,
 		"type_code": "main_scheme"
 	},
@@ -1037,8 +1040,8 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "Hydra's Hunter's attacks gain piercing and ranged.",
-		"boost_text": "If you are in hero form, take 1 damage. Otherwise place 1 threat on the main scheme.",
+		"attack_star": true,
+		"boost_star": true,
 		"code": "04101",
 		"deck_limit": 2,
 		"faction_code": "encounter",
@@ -1052,12 +1055,13 @@
 		"scheme": 2,
 		"set_code": "taskmaster",
 		"set_position": 9,
+		"text": "[star] Hydra's Hunter's attacks gain piercing and ranged.\n<hr />\n[star] <b>Boost</b>: If you are in hero form, take 1 damage. Otherwise place 1 threat on the main scheme.",
 		"traits": "Hydra.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
-		"attack_text": "Taskmaster's attacks gain piercing.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "04102",
 		"deck_limit": 1,
@@ -1071,7 +1075,7 @@
 		"quantity": 1,
 		"set_code": "taskmaster",
 		"set_position": 11,
-		"text": "Attach to Taskmaster.\n<b>Hero Action:</b> Exhaust your hero and spend [mental][physical] resources → discard this card.",
+		"text": "Attach to Taskmaster.\n[star] Taskmaster's attacks gain piercing.\n<b>Hero Action:</b> Exhaust your hero and spend [mental][physical] resources → discard this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -1257,6 +1261,7 @@
 		"deck_limit": 1,
 		"double_sided": true,
 		"escalation_threat": 1,
+		"escalation_threat_star": true,
 		"faction_code": "encounter",
 		"illustrator": "Christopher Jones",
 		"name": "The Island of Dr. Zola",
@@ -1267,7 +1272,7 @@
 		"set_code": "zola",
 		"set_position": 4,
 		"stage": 1,
-		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, place 1 test counter here. Then, if there are 3 or more test counters here, discard cards from the top of the encounter deck until a minion is discarded. Put that minion into play engaged with the first player and remove 3 test counters from this scheme.",
+		"text": "[star] <b>Forced Response</b>: After resolving step one of the villain phase, place 1 test counter here. Then, if there are 3 or more test counters here, discard cards from the top of the encounter deck until a minion is discarded. Put that minion into play engaged with the first player and remove 3 test counters from this scheme.",
 		"threat": 6,
 		"type_code": "main_scheme"
 	},
@@ -1280,6 +1285,7 @@
 		"deck_limit": 1,
 		"double_sided": true,
 		"escalation_threat": 1,
+		"escalation_threat_star": true,
 		"faction_code": "encounter",
 		"illustrator": "Bryndon Everett",
 		"name": "The Mad Doctor",
@@ -1290,14 +1296,14 @@
 		"set_code": "zola",
 		"set_position": 5,
 		"stage": 2,
-		"text": "<b>[star] Forced Response:</b> After resolving step 1 of the villain phase, place 1 test counter here. Then, if there are 3 or more test counters here, discard cards from the top of the encounter deck until a minion is discarded. Put that minion into play engaged with the first player and remove 3 test counters from this scheme.\n<b>If this scheme is completed, the players lose the game.</b>",
+		"text": "[star] <b>Forced Response</b>: After resolving step 1 of the villain phase, place 1 test counter here. Then, if there are 3 or more test counters here, discard cards from the top of the encounter deck until a minion is discarded. Put that minion into play engaged with the first player and remove 3 test counters from this scheme.\n<b>If this scheme is completed, the players lose the game.</b>",
 		"threat": 8,
 		"type_code": "main_scheme"
 	},
 	{
 		"attack": 1,
-		"attack_text": "Ultimate Bio-Servant gets +1 ATK for each attachment on it.",
-		"boost_text": "Give the villain a tough status card.",
+		"attack_star": true,
+		"boost_star": true,
 		"code": "04114",
 		"deck_limit": 4,
 		"faction_code": "encounter",
@@ -1311,13 +1317,13 @@
 		"scheme": 1,
 		"set_code": "zola",
 		"set_position": 6,
-		"text": "Toughness.",
+		"text": "Toughness.\n[star] Ultimate Bio-Servant gets +1 ATK for each attachment on it.\n<hr />\n[star] <b>Boost</b>: Give the villain a tough status card.",
 		"traits": "Hydra. Mutate.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"boost_text": "Shuffle Zola's Mutate into the encounter deck.",
+		"boost_star": true,
 		"code": "04115",
 		"deck_limit": 3,
 		"faction_code": "encounter",
@@ -1331,13 +1337,13 @@
 		"scheme": 1,
 		"set_code": "zola",
 		"set_position": 10,
-		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a [[Tech]] attachment is discarded. Attach that card to Zola's Mutate.",
+		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a [[Tech]] attachment is discarded. Attach that card to Zola's Mutate.\n<hr />\n[star] <b>Boost</b>: Shuffle Zola's Mutate into the encounter deck.",
 		"traits": "Hydra. Mutate.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"boost_text": "Place 1 test counter on the main scheme. For each test counter on the main scheme, Zola gets +1 SCH and +1 ATK for this activation.",
+		"boost_star": true,
 		"code": "04116",
 		"deck_limit": 3,
 		"faction_code": "encounter",
@@ -1351,7 +1357,7 @@
 		"scheme": 0,
 		"set_code": "zola",
 		"set_position": 13,
-		"text": "Quickstrike.",
+		"text": "Quickstrike.\n<hr />\n[star] <b>Boost</b>: Place 1 test counter on the main scheme. For each test counter on the main scheme, Zola gets +1 SCH and +1 ATK for this activation.",
 		"traits": "Hydra. Mutate.",
 		"type_code": "minion"
 	},
@@ -1426,7 +1432,7 @@
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "Place 1 test counter on the main scheme.",
+		"boost_star": true,
 		"code": "04121",
 		"deck_limit": 2,
 		"faction_code": "encounter",
@@ -1438,7 +1444,7 @@
 		"quantity": 2,
 		"set_code": "zola",
 		"set_position": 26,
-		"text": "Incite 1.\n<b>When Revealed:</b> Place 1 test counter on the main scheme.",
+		"text": "Incite 1.\n<b>When Revealed:</b> Place 1 test counter on the main scheme.\n<hr />\n[star] <b>Boost</b>: Place 1 test counter on the main scheme.",
 		"type_code": "treachery"
 	},
 	{
@@ -1498,7 +1504,7 @@
 	},
 	{
 		"attack": 0,
-		"attack_text": "Red Skull gets +1 ATK for each side scheme in play.",
+		"attack_star": true,
 		"code": "04125",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -1516,12 +1522,13 @@
 		"set_code": "red_skull",
 		"set_position": 1,
 		"stage": 1,
+		"text": "[star] Red Skull gets +1 ATK for each side scheme in play.",
 		"traits": "Hydra.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 1,
-		"attack_text": "Red Skull gets +1 ATK for each side scheme in play.",
+		"attack_star": true,
 		"code": "04126",
 		"faction_code": "encounter",
 		"flavor": "\"No one will stand in the way of my plans!\"",
@@ -1538,13 +1545,13 @@
 		"set_code": "red_skull",
 		"set_position": 2,
 		"stage": 2,
-		"text": "<b>When Revealed:</b> Deal each player an encounter card.",
+		"text": "[star] Red Skull gets +1 ATK for each side scheme in play.\n<b>When Revealed:</b> Deal each player an encounter card.",
 		"traits": "Hydra.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 2,
-		"attack_text": "Red Skull gets +1 ATK for each side scheme in play.",
+		"attack_star": true,
 		"code": "04127",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -1562,7 +1569,7 @@
 		"set_code": "red_skull",
 		"set_position": 3,
 		"stage": 3,
-		"text": "<b>When Revealed:</b> Deal each player an encounter card.",
+		"text": "[star] Red Skull gets +1 ATK for each side scheme in play.\n<b>When Revealed:</b> Deal each player an encounter card.",
 		"traits": "Hydra.",
 		"type_code": "villain"
 	},
@@ -1575,6 +1582,7 @@
 		"deck_limit": 1,
 		"double_sided": true,
 		"escalation_threat": 1,
+		"escalation_threat_star": true,
 		"faction_code": "encounter",
 		"flavor": "Red Skull plans to conquer the world with the power of the Reality Stone. He uses his strategic genius to keep you busy while he works towards his goal.",
 		"illustrator": "Dennis Medri",
@@ -1586,7 +1594,7 @@
 		"set_code": "red_skull",
 		"set_position": 4,
 		"stage": 1,
-		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, reveal the top of the side-scheme deck and put it into play.",
+		"text": "[star] <b>Forced Response</b>: After resolving step one of the villain phase, reveal the top of the side-scheme deck and put it into play.",
 		"threat": 8,
 		"type_code": "main_scheme"
 	},
@@ -1599,6 +1607,7 @@
 		"deck_limit": 1,
 		"double_sided": true,
 		"escalation_threat": 1,
+		"escalation_threat_star": true,
 		"faction_code": "encounter",
 		"illustrator": "Scott Drummond",
 		"name": "New World Hydra",
@@ -1609,7 +1618,7 @@
 		"set_code": "red_skull",
 		"set_position": 5,
 		"stage": 2,
-		"text": "<b>[star] Forced Response:</b> After resolving step one of the villain phase, reveal the top card of the side-scheme deck and put it into play.\n<b>If this scheme is completed, the players lose the game.</b>",
+		"text": "[star] <b>Forced Response</b>: After resolving step one of the villain phase, reveal the top card of the side-scheme deck and put it into play.\n<b>If this scheme is completed, the players lose the game.</b>",
 		"threat": 11,
 		"type_code": "main_scheme"
 	},
@@ -1637,7 +1646,7 @@
 	},
 	{
 		"attack": 2,
-		"boost_text": "Give the villain a tough status card and another boost card.",
+		"boost_star": true,
 		"code": "04131",
 		"deck_limit": 3,
 		"faction_code": "encounter",
@@ -1652,14 +1661,14 @@
 		"scheme": 2,
 		"set_code": "red_skull",
 		"set_position": 7,
-		"text": "Toughness.",
+		"text": "Toughness.\n<hr />\n[star] <b>Boost</b>: Give the villain a tough status card and another boost card.",
 		"traits": "Hydra.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 1,
-		"attack_text": "Red Skull's attacks gain piercing and ranged.",
-		"boost_text": "Attach to Red Skull.",
+		"attack_star": true,
+		"boost_star": true,
 		"code": "04132",
 		"deck_limit": 1,
 		"faction_code": "encounter",
@@ -1673,7 +1682,7 @@
 		"scheme": 1,
 		"set_code": "red_skull",
 		"set_position": 10,
-		"text": "Attach to Red Skull.\n<b>Hero Action:</b> Spend [energy][mental][physical] resource → discard this card.",
+		"text": "Attach to Red Skull.\n[star] Red Skull's attacks gain piercing and ranged.\n<b>Hero Action:</b> Spend [energy] [mental] [physical] resources → discard this card.\n<hr />\n[star] <b>Boost</b>: Attach to Red Skull.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -1696,7 +1705,7 @@
 		"type_code": "attachment"
 	},
 	{
-		"attack_text": "<b>Forced Interrupt:</b> When Red Skull activates, give him an additional boost card for each side scheme in play. Then, discard this card. (Max once per activation.)",
+		"attack_star": true,
 		"boost": 2,
 		"code": "04134",
 		"deck_limit": 2,
@@ -1708,10 +1717,10 @@
 		"pack_code": "trors",
 		"position": 134,
 		"quantity": 2,
-		"scheme_text": "<b>Forced Interrupt:</b> When Red Skull activates, give him an additional boost card for each side scheme in play. Then, discard this card. (Max once per activation.)",
+		"scheme_star": true,
 		"set_code": "red_skull",
 		"set_position": 13,
-		"text": "Attach to Red Skull.",
+		"text": "Attach to Red Skull.\n[star] <b>Forced Interrupt</b>: When Red Skull activates, give him an additional boost card for each side scheme in play. Then, discard this card. (Max once per activation.)",
 		"traits": "Skill.",
 		"type_code": "attachment"
 	},
@@ -1734,7 +1743,7 @@
 		"type_code": "attachment"
 	},
 	{
-		"boost_text": "Exhaust a character you control.",
+		"boost_star": true,
 		"code": "04136",
 		"deck_limit": 2,
 		"faction_code": "encounter",
@@ -1747,12 +1756,12 @@
 		"quantity": 2,
 		"set_code": "red_skull",
 		"set_position": 17,
-		"text": "<b>When Revealed:</b> Exhaust a character you control for each side scheme in play.",
+		"text": "<b>When Revealed:</b> Exhaust a character you control for each side scheme in play.\n<hr />\n[star] <b>Boost</b>: Exhaust a character you control.",
 		"type_code": "treachery"
 	},
 	{
 		"boost": 1,
-		"boost_text": "Give Red Skull a tough status card.",
+		"boost_star": true,
 		"code": "04137",
 		"deck_limit": 2,
 		"faction_code": "encounter",
@@ -1765,7 +1774,7 @@
 		"quantity": 2,
 		"set_code": "red_skull",
 		"set_position": 19,
-		"text": "<b>When Revealed:</b> Place 2 threat on each scheme in play.",
+		"text": "<b>When Revealed:</b> Place 2 threat on each scheme in play.\n<hr />\n[star] <b>Boost</b>: Give Red Skull a tough status card.",
 		"type_code": "treachery"
 	},
 	{
@@ -1892,8 +1901,8 @@
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Response:</b> After Hydra Flame-Soldier makes an undefended attack against you, discard a support you control.",
-		"boost_text": "If this card resolves during an undefended attack, discard a support you control.",
+		"attack_star": true,
+		"boost_star": true,
 		"code": "04145",
 		"deck_limit": 3,
 		"faction_code": "encounter",
@@ -1907,12 +1916,13 @@
 		"scheme": 1,
 		"set_code": "hydra_assault",
 		"set_position": 1,
+		"text": "[star] <b>Forced Response:</b> After Hydra Flame-Soldier makes an undefended attack against you, discard a support you control.\n<hr />\n[star] <b>Boost</b>: If this card resolves during an undefended attack, discard a support you control.",
 		"traits": "Hydra.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"boost_text": "If you are in hero form, the villain attacks you after this activation. Do not deal any boost cards for that attack.",
+		"boost_star": true,
 		"code": "04146",
 		"deck_limit": 2,
 		"faction_code": "encounter",
@@ -1926,7 +1936,7 @@
 		"scheme": 0,
 		"set_code": "hydra_assault",
 		"set_position": 4,
-		"text": "Quickstrike.",
+		"text": "Quickstrike.\n<hr />\n[star] <b>Boost</b>: If you are in hero form, the villain attacks you after this activation. Do not deal any boost cards for that attack.",
 		"traits": "Hydra.",
 		"type_code": "minion"
 	},
@@ -1947,7 +1957,7 @@
 	},
 	{
 		"attack": 1,
-		"attack_text": "Attached villain's attacks gain piercing.",
+		"attack_star": true,
 		"boost": 1,
 		"code": "04148",
 		"deck_limit": 1,
@@ -1960,13 +1970,13 @@
 		"quantity": 1,
 		"set_code": "weap_master",
 		"set_position": 1,
-		"text": "Attach to the villain.\n<b>Hero Action:</b> Spend [mental][physical] resources → discard this card.",
+		"text": "Attach to the villain.\n[star] Attached villain's attacks gain piercing.\n<b>Hero Action:</b> Spend [mental][physical] resources → discard this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Interrupt:</b> When attached villain attacks, the attack gains ranged.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "04149",
 		"deck_limit": 1,
@@ -1979,7 +1989,7 @@
 		"quantity": 1,
 		"set_code": "weap_master",
 		"set_position": 2,
-		"text": "Attach to the Villain.\n<b>Hero Action:</b> Spend [mental][physical] resources → discard this card.",
+		"text": "Attach to the Villain.\n[star] <b>Forced Interrupt:</b> When attached villain attacks, the attack gains ranged.\n<b>Hero Action:</b> Spend [mental][physical] resources → discard this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
