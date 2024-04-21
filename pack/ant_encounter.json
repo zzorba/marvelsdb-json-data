@@ -11,7 +11,7 @@
 		"position": 25,
 		"quantity": 1,
 		"set_code": "ant",
-		"text": "<b><i>Give to the Scott Lang player.</i></b>\nYou may flip to alter-ego form. Choose:\n- Exhaust Scott Lang → remove Care for Cassie from the game.\n- Choose and discard 1 card from your hand. You cannot change form until your next turn ends. Discard this obligation.",
+		"text": "<b><i>Give to the Scott Lang player.</i></b>\nYou may flip to alter-ego form. Choose:\n\u2022 Exhaust Scott Lang → remove Care for Cassie from the game.\n\u2022 Choose and discard 1 card from your hand. You cannot change form until your next turn ends. Discard this obligation.",
 		"type_code": "obligation"
 	},
 	{
@@ -52,7 +52,7 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Response:</b> After attached enemy activates, remove 1 size counter from here.",
+		"attack_star": true,
 		"code": "12028",
 		"deck_limit": 2,
 		"faction_code": "encounter",
@@ -64,7 +64,7 @@
 		"scheme": 2,
 		"set_code": "ant_nemesis",
 		"set_position": 3,
-		"text": "Attach to Yellowjacket, if able. If you cannot, attach to the villain.\nUses (3 counters).",
+		"text": "Attach to Yellowjacket, if able. If you cannot, attach to the villain.\nUses (3 counters).\n[star] <b>Forced Response:</b> After attached enemy activates, remove 1 size counter from here.",
 		"type_code": "attachment"
 	},
 	{

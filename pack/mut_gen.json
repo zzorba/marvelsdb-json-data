@@ -293,18 +293,11 @@
 	},
 	{
 		"code": "32016",
-		"cost": 1,
-		"deck_limit": 3,
-		"faction_code": "protection",
-		"name": "Perseverance",
+		"duplicate_of": "13033",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032016",
 		"pack_code": "mut_gen",
 		"position": 16,
-		"quantity": 3,
-		"resource_mental": 1,
-		"text": "<b>Hero Response</b>: After you change form, give your hero a tough status card.",
-		"traits": "Tactic.",
-		"type_code": "event"
+		"quantity": 3
 	},
 	{
 		"code": "32017",
@@ -658,6 +651,7 @@
 	{
 		"attack": 3,
 		"attack_cost": 2,
+		"attack_star": true,
 		"code": "32041",
 		"cost": 4,
 		"deck_limit": 1,
@@ -811,18 +805,11 @@
 	},
 	{
 		"code": "32051",
-		"cost": 1,
-		"deck_limit": 3,
-		"faction_code": "basic",
-		"name": "Ready to Rumble",
+		"duplicate_of": "21022",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032051",
 		"pack_code": "mut_gen",
 		"position": 51,
-		"quantity": 3,
-		"resource_energy": 1,
-		"text": "Play under any player's control. Max 1 per player.\n<b>Hero Response</b>: After you change form, discard this card → ready your hero.",
-		"traits": "Condition.",
-		"type_code": "upgrade"
+		"quantity": 3
 	},
 	{
 		"code": "32052",
@@ -897,6 +884,7 @@
 	{
 		"attack": 3,
 		"attack_cost": 1,
+		"attack_star": true,
 		"code": "32172b",
 		"double_sided": true,
 		"faction_code": "campaign",

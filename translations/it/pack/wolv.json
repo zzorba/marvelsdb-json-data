@@ -1,148 +1,155 @@
 [
-	{
-		"code": "35001a",
-		"name": "Wolverine",
-		"text": "<i>Healing Factor</i> - <b>Response</b>: After the player phase begins, heal 2 damage.",
-		"traits": "X-Men."
-	},
-	{
-		"code": "35001b",
-		"name": "Logan",
-		"text": "<i>Snikt!</i> - <b>Setup</b>: Search your deck and discard pile for the Wolverine's Claws upgrade and put it into play.",
-		"traits": "Mutant."
-	},
-	{
-		"code": "35002",
-		"name": "Wolverine's Claws",
-		"text": "Permanent.\n<b>Hero Action</b>: Exhaust Wolverine's Claws, choose en [[ATTACK]] event in your hand, and take damage equal to its printed cost → play that event, ignoring its resource cost. That attack gains piercing.",
-		"traits": "Weapon."
-	},
-	{
-		"code": "35003",
-		"name": "Jubilee",
-		"subname": "Jubilation Lee",
-		"text": "<b>Response</b>: After Jubilee enters play, choose an enemy. Until the end of the phase, while Wolverine or Jubilee is making a basic attack against that enemy, they get +2 ATK for that attack.",
-		"traits": "X-Men."
-	},
-	{
-		"code": "35004",
-		"name": "Adamantium Skeleton",
-		"text": "You get +4 hit points.\nWolverine gets +1 ATK and his basic attacks gain piercing."
-	},
-	{
-		"code": "35005",
-		"name": "Berserker Frenzy",
-		"text": "<b>Hero Response</b>: After Wolverine takes any amount of damage from an enemy attack, draw 1 card.\n<b>Forced Response</b>: After you flip to alter-ego form, discard this card.",
-		"traits": "Condition."
-	},
-	{
-		"code": "35006",
-		"name": "\"I Got Better\"",
-		"text": "<b>Interrupt</b>: When you would be defeated by an enemy attack, instead set your hit point dial to 5, ready your identity, and discard this card.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "35007",
-		"name": "Logan's Cabin",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Logan's Cabin → shuffle 1 Wolverine card from you discard pile into your deck.",
-		"traits": "Location."
-	},
-	{
-		"code": "35008",
-		"name": "Berserker Barrage",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. If this attack defeats an enemy, you may take 2 damage → repeat this ability.",
-		"traits": "Attack."
-	},
-	{
-		"code": "35009",
-		"name": "Slice and Dice",
-		"text": "<b>Hero Action</b>: Make the following 2 attacks in order:\n• Deal 3 damage to an enemy.\n• Deal 3 damage to an enemy.",
-		"traits": "Attack."
-	},
-	{
-		"code": "35010",
-		"name": "Lunging Strike",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 8 damage to an enemy. If you exhausted Wolverine's Claws to play this card, this attack gains overkill.",
-		"traits": "Attack."
-	},
-	{
-		"code": "35011",
-		"name": "Track by Scent",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. If this removes the last threat from that scheme, draw 2 cards.",
-		"traits": "Superpower. Thwart."
-	},
-	{
-		"code": "35012",
-		"name": "Regenerative Healing",
-		"text": "<b>Action</b>: Choose:\n• Heal 4 damage from your identity.\n• Discard each stunned and confused status card from your identity.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "35013",
-		"name": "Psylocke",
-		"subname": "Betsy Braddock",
-		"text": "Psylocke enters play with 2 psionic counters on her.\n[star] <b>Interrupt</b>: When Psylocke attacks an enemy, remove 1 psionic counter from her → confuse that enemy and deal 1 damage to it.",
-		"traits": "Psionic. X-Men."
-	},
-	{
-		"code": "35014",
-		"name": "Sunfire",
-		"subname": "Shiro Yoshida",
-		"text": "<b>Response</b>: After you play Sunfire from your hand, spend a [energy] resource → choose an attachment with the text \"<b>Hero Action</b>\" or \"<b>Hero Response</b>\" and discard it.",
-		"traits": "X-Men."
-	},
-	{
-		"code": "35015",
-		"name": "Battle Fury",
-		"text": "Play under any player's control. Max 1 per player.\n<b>Response</b>: After your hero attacks and defeats a minion, deal 1 damage to your hero and discard Battle Fury → ready your hero.",
-		"traits": "Condition."
-	},
-	{
-		"code": "35016",
-		"name": "Warrior Skill",
-		"text": "Uses (3 warrior counters). Max 1 per player.\n<b>Interrupt</b>: When your hero attacks, remove 1 counter from here → that attacks deals 1 additional damage.",
-		"traits": "Skill."
-	},
-	{
-		"code": "35017",
-		"name": "Outta My Way!",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 3 damage to an enemy (5 damage instead if that enemy has the guard or patrol keyword).",
-		"traits": "Attack."
-	},
-	{
-		"code": "35018",
-		"name": "Precision Strike",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 2 damage to an enemy. If this attack defeats that enemy, heal 2 damage from your hero.",
-		"traits": "Attack."
-	},
-	{
-		"code": "35019",
-		"name": "Mean Swing",
-		"text": "<b>Hero Interrupt</b>: When your hero makes a basic attack, exhaust a [[WEAPON]] upgrade on your hero → your hero gets +3 ATK for this attack.",
-		"traits": "Skill."
-	},
-	{
-		"code": "35022",
-		"name": "Weapon X",
-		"text": "Play only if your identity has the [[MUTANT]] trait.\n<b>Alter-Ego Action</b>: Exhaust Weapon X and take 1 damage → discard cards from your deck until you discard an identity-specific card, then add that card to your hand.",
-		"traits": "Location."
-	},
-	{
-		"code": "35023",
-		"name": "Fastball Special",
-		"text": "Team-Up (Colossus and Wolverine). Max 1 per deck.\n<b>Hero Action</b> <i>(attack)</i>: Deal X damage to an enemy, where X is the total ATK of Colossus and Wolverine. This attack gains overkill and piercing.",
-		"traits": "Aerial. Attack."
-	},
-	{
-		"code": "35032",
-		"name": "Command Center",
-		"text": "Max 1 per player.\n<b>Response</b>: After an ally thwarts and defeats a side scheme, exhaust Command Center → deal 2 damage to an enemy.",
-		"traits": "Location."
-	},
-	{
-		"code": "35033",
-		"name": "Longshot",
-		"text": "Play only if your identity has the [[X-MEN]] trait.\n[star] <b>Response</b>: After Longshot attacks a non-[[ELITE]] minion, discard the top card of the encounter deck. If that card has a star icon ([star]) in the boost area, defeat the attacked minion.",
-		"traits": "X-Men."
-	}
+    {
+        "code": "35001a",
+        "flavor": "\"Sono il migliore in quello che faccio, ma quello che faccio non è piacevole.\"",
+        "name": "Wolverine",
+        "text": "<i>Fattore Rigenerante</i> - <b>Risposta</b>: Dopo che la Fase dei Giocatori è iniziata, curati 2 danni.",
+        "traits": "X-Men."
+    },
+    {
+        "code": "35001b",
+        "flavor": "\"Sono canadese, cocco. E fiero di esserlo!\"",
+        "name": "Logan",
+        "text": "<i>Snikt!</i> - <b>Preparazione</b>: Cerca nel tuo mazzo e nella tua pila degli scarti la miglioria Artigli di Wolverine e mettila in gioco.",
+        "traits": "Mutante."
+    },
+    {
+        "code": "35002",
+        "name": "Artigli di Wolverine",
+        "text": "Permanente.\n<b>Azione Eroe</b>: Esaurisci Artigli di Wolverine, scegli 1 evento [[ATTACCO]] nella tua mano e subisci un ammontare di danni pari al suo costo stampato → gioca quell'evento, ignorando il suo costo in risorse. Quell'attacco ottiene Perforante.",
+        "traits": "Arma."
+    },
+    {
+        "code": "35003",
+        "name": "Jubilee",
+        "subname": "Jubilation Lee",
+        "text": "<b>Risposta</b>: Dopo che Jubilee è entrata in gioco, scegli 1 nemico. Fino alla fine della fase, mentre Wolverine o Jubilee effettua un attacco base contro quel nemico, riceve +2 ATT per quell'attacco.",
+        "traits": "X-Men."
+    },
+    {
+        "code": "35004",
+        "flavor": "Le ossa di Wolverine sono rivestite di adamantio, un materiale che le rende indistruttibili.",
+        "name": "Scheletro di Adamantio",
+        "text": "Ricevi +4 punti ferita.\nWolverine riceve +1 ATT e i suoi attacchi ottengono Perforante."
+    },
+    {
+        "code": "35005",
+        "name": "Furia Berseker",
+        "text": "<b>Risposta Eroe</b>: Dopo che Wolverine ha subito un qualsiasi ammontare di danni da un attacco nemico, pesca 1 carta.\n<b>Risposta Obbligata</b>: Dopo che hai assunto la sembianza di alter ego, scarta questa carta.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "35006",
+        "name": "\"Ho Visto di Peggio\"",
+        "text": "<b>Interruzione</b>: Quando stai per essere sconfitto da un attacco nemico, regola invece il tuo indicatore dei punti ferita a 5, ripristina la tua identità e scarta questa carta.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "35007",
+        "name": "Capanno di Logan",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Capanno di Logan → mescola nel tuo mazzo 1 carta dal set Wolverine dalla tua pila degli scarti.",
+        "traits": "Luogo."
+    },
+    {
+        "code": "35008",
+        "flavor": "\"Non hai visto la vera furia finché non mi hai visto perdere il controllo!\" - Wolverine",
+        "name": "Sfuriata del Berseker",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 4 danni a un nemico. Se questo attacco sconfigge un nemico, puoi subire 2 danni → ripeti questa capacità.",
+        "traits": "Attacco."
+    },
+    {
+        "code": "35009",
+        "name": "Squarcia e Lacera",
+        "text": "<b>Azione Eroe</b>: Effettua i 2 attacchi seguenti in quest'ordine:\n• Infliggi 3 danni a un nemico.\n• Infliggi 3 danni a un nemico.",
+        "traits": "Attacco."
+    },
+    {
+        "code": "35010",
+        "flavor": "\"Non ti eri scordato del vecchietto, vero?\" - Wolverine",
+        "name": "Colpo in Balzo",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 8 danni a un nemico. Se hai esaurito Artigli di Wolverine per giocare questa carta, questo attacco ottiene Sopraffazione.",
+        "traits": "Attacco."
+    },
+    {
+        "code": "35011",
+        "flavor": "\"Una volta fiutati, posso seguirli ovunque.\" - Wolverine",
+        "name": "Fiutare la Pista",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 3 minacce da una trama. Se farlo rimuove l'ultima minaccia da quella trama, pesca 2 carte.",
+        "traits": "Superpotere. Intervento."
+    },
+    {
+        "code": "35012",
+        "name": "Guarigione Rigenerativa",
+        "text": "<b>Azione</b>: Scegli 1 effetto tra:\n• Cura 4 danni alla tua identità.\n• Scarta ogni carta status Stordito e Confuso dalla tua identità.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "35013",
+        "name": "Psylocke",
+        "subname": "Betsy Braddock",
+        "text": "Psylocke entra in gioco con 2 gettoni psionico su di essa.\n[star] <b>Interruzione</b>: Quando Psylocke attacca un nemico, rimuovi 1 gettone psionico da essa → confondi quel nemico e infliggigli 1 danno.",
+        "traits": "Psionico. X-Men."
+    },
+    {
+        "code": "35014",
+        "name": "Sole Ardente",
+        "subname": "Shiro Yoshida",
+        "text": "<b>Risposta</b>: Dopo che hai giocato Sole Ardente dalla tua mano, spendi [energy] → scegli 1 aggiunta con il testo \"<b>Azione Eroe</b>\" o \"<b>Risposta Eroe</b>\" e scartala.",
+        "traits": "X-Men."
+    },
+    {
+        "code": "35015",
+        "name": "Furia della Battaglia",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\n<b>Risposta</b>: Dopo che il tuo eroe ha attaccato e sconfitto un gregario, infliggi 1 danno al tuo eroe e scarta Furia della Battaglia → ripristina il tuo eroe.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "35016",
+        "name": "Abilità da Guerriero",
+        "text": "Uso (3 gettoni guerriero). Massimo 1 per giocatore.\n<b>Interruzione</b>: Quando il tuo eroe attacca, rimuovi 1 gettone guerriero da questa carta → quell'attacco infligge 1 danno aggiuntivo.",
+        "traits": "Abilità."
+    },
+    {
+        "code": "35017",
+        "name": "Levati di Mezzo!",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 3 danni a un nemico (5 danni se invece ha la parola chiave Guardia o Pattuglia).",
+        "traits": "Attacco."
+    },
+    {
+        "code": "35018",
+        "name": "Colpo Accurato",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 2 danni a un nemico. Se questo attacco sconfigge quel nemico, cura 2 danni al tuo eroe.",
+        "traits": "Attacco."
+    },
+    {
+        "code": "35019",
+        "flavor": "SLASH!",
+        "name": "Impatto Micidiale",
+        "text": "<b>Interruzione Eroe</b>: Quando il tuo eroe effettua un attacco base, esaurisci 1 miglioria [[ARMA]] sul tuo eroe → il tuo eroe riceve +3 ATT per questo attacco.",
+        "traits": "Abilità."
+    },
+    {
+        "code": "35022",
+        "name": "Arma X",
+        "text": "Gioca solo se la tua identità possiede il tratto [[MUTANTE]].\n<b>Azione Alter Ego</b>: Esaurisci Arma X e subisci 1 danno → scarta carte dalla cima del tuo mazzo finché non scarti 1 carta specifica di identità, poi aggiungila alla tua mano.",
+        "traits": "Luogo."
+    },
+    {
+        "code": "35023",
+        "name": "Palla Veloce",
+        "text": "Team-Up (Colosso e Wolverine). Massimo 1 per mazzo.\n<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi X danni a un nemico, dove X è pari all'ATT totale di Colosso e Wolverine. Questo attacco ottiene Perforante e Sopraffazione.",
+        "traits": "Aereo. Attacco."
+    },
+    {
+        "code": "35032",
+        "name": "Centro di Comando",
+        "text": "Massimo 1 per giocatore.\n<b>Risposta</b>: Dopo che un alleato è intervenuto e ha sconfitto una trama secondaria, esaurisci Centro di Comando → infliggi 2 danni a un nemico.",
+        "traits": "Luogo."
+    },
+    {
+        "code": "35033",
+        "name": "Longshot",
+        "text": "Gioca solo se la tua identità possiede il tratto [[X-MEN]].\n[star] <b>Risposta</b>: Dopo che Longshot ha attaccato un gregario non [[ELITE]], scarta 1 carta dalla cima del mazzo degli incontri. Se quella carta possiede un'icona stella ([star]) nel campo di potenziamento, sconfiggi il gregario attaccato.",
+        "traits": "X-Men."
+    }
 ]

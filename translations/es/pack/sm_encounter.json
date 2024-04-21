@@ -47,11 +47,10 @@
 		"traits": "Criminal."
 	},
 	{
-		"attack_text": "Los ataques del Esbirro vinculado ganan Penetrante.",
 		"code": "27059",
 		"flavor": "Garras diseñadas para triturar acero.",
 		"name": "Garras afiladas",
-		"text": "Vincula esta carta al Esbirro que tenga el valor impreso más alto de Vida. Si no es posible, esta carta gana Oleada.",
+		"text": "Vincula esta carta al Esbirro que tenga el valor impreso más alto de Vida. Si no es posible, esta carta gana Oleada.\n[star] Los ataques del Esbirro vinculado ganan Penetrante.",
 		"traits": "Arma."
 	},
 	{
@@ -79,11 +78,11 @@
 		"traits": "Criminal."
 	},
 	{
+		"back_text": "<b>Contenido: </b> Hombre de Arena (I) y Hombre de Arena (II). <i>(Hombre de Arena (II) y Hombre de Arena (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros del Hombre de Arena, Caos en la ciudad y Normal. Un conjunto de Encuentros modular <i>Con los pies en la tierra.</i>\n <b>Preparación: </b>busca la carta de Entorno Calles de la ciudad en el mazo de Encuentros y ponla en juego. Colócale encima 4 contadores de Arena.",
 		"code": "27064",
 		"flavor": "\"¡El Hombre de Arena inunda las calles de la ciudad con un torrente de arena poniendo en grave peligro a los inocentes transeúntes!\"",
 		"name": "Peatones indefensos",
-		"scheme_text": "<b>Respuesta obligada:</b> después de que se coloque una ficha de Aceleración sobre este Plan, inflige 3 de Daño indirecto al jugador inicial.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
-		"text": "<b>Contenido: </b> Hombre de Arena (I) y Hombre de Arena (II). <i>(Hombre de Arena (II) y Hombre de Arena (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros del Hombre de Arena, Caos en la ciudad y Normal. Un conjunto de Encuentros modular <i>Con los pies en la tierra.</i>\n <b>Preparación: </b>busca la carta de Entorno Calles de la ciudad en el mazo de Encuentros y ponla en juego. Colócale encima 4 contadores de Arena."
+		"text": "<b>Respuesta obligada:</b> después de que se coloque una ficha de Aceleración sobre este Plan, inflige 3 de Daño indirecto al jugador inicial.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
 	},
 	{
 		"code": "27065",
@@ -92,10 +91,9 @@
 		"traits": "Lugar."
 	},
 	{
-		"boost_text": "Muestra esta carta.",
 		"code": "27066",
 		"name": "Forma arenosa",
-		"text": "Vincula esta carta al Hombre de Arena.\n <b>Interrupción obligada:</b> cuando vayass a infligir cualquier cantidad de Daño al Hombre de Arena, en vez de eso descarta Forma arenosa → resuelve la capacidad <i>\"Acumulación de arena\"</i> de Calles de la ciudad.",
+		"text": "Vincula esta carta al Hombre de Arena.\n <b>Interrupción obligada:</b> cuando vayass a infligir cualquier cantidad de Daño al Hombre de Arena, en vez de eso descarta Forma arenosa → resuelve la capacidad <i>\"Acumulación de arena\"</i> de Calles de la ciudad.\n<hr />\n[star] <b>Aumento</b>: Muestra esta carta.",
 		"traits": "Alteración."
 	},
 	{
@@ -108,18 +106,17 @@
 		"code": "27068",
 		"flavor": "\"Una tromba de color marrón inunda las calles a vuestro alrededor. No importa hacia dónde avancéis, el Hombre de Arena siempre está ahí, esperando.",
 		"name": "Trampa de tierra",
-		"scheme_text": "<b>Cuando se derrote esta carta:</b> resuelve la capacidad <i>\"Acumulación de arena\"</i> de Calles de la ciudad. Vuelve a resolverla."
+		"text": "<b>Cuando se derrote esta carta:</b> resuelve la capacidad <i>\"Acumulación de arena\"</i> de Calles de la ciudad. Vuelve a resolverla."
 	},
 	{
 		"code": "27069",
 		"name": "Marea arenosa",
-		"scheme_text": "<b>Cuando se muestre esta carta:</b> coloca X de Amenaza adicional sobre esta carta, siendo X igual al número de contadores de Arena que haya sobre Calles de la ciudad."
+		"text": "<b>Cuando se muestre esta carta:</b> coloca X de Amenaza adicional sobre esta carta, siendo X igual al número de contadores de Arena que haya sobre Calles de la ciudad."
 	},
 	{
-		"boost_text": "Resuelve la capacidad \"<b>Cuando se muestre esta carta</b>\" de esta carta.",
 		"code": "27070",
 		"name": "Avalancha de arena",
-		"text": "<b>Cuando se muestre esta carta:</b> coloca 2 contadores de Arena sobre Calles de la ciudad, luego resuelve su capacidad <i>\"Acumulación de arena\"</i>. Si se descarta al menos 1 carta del Hombre de Arena de este modo, quedas aturdido."
+		"text": "<b>Cuando se muestre esta carta:</b> coloca 2 contadores de Arena sobre Calles de la ciudad, luego resuelve su capacidad <i>\"Acumulación de arena\"</i>. Si se descarta al menos 1 carta del Hombre de Arena de este modo, quedas aturdido.\n<hr />\n[star] <b>Aumento</b>: Resuelve la capacidad \"<b>Cuando se muestre esta carta</b>\" de esta carta."
 	},
 	{
 		"code": "27071",
@@ -154,14 +151,14 @@
 		"code": "27076a",
 		"flavor": "Nada más veros, Veneno enloquece de furia y os araca sin descanso, dejando un rastro de destrucción por toda la ciudad.",
 		"name": "\"¡Dejadnos en paz!\"",
-		"scheme_text": "<b>Interrupción obligada: </b>cuando Veneno se active contra ti, trasládale todas las cartas de aumento que haya boca abajo sobre tu Superhéroe.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
+		"text": "<b>Interrupción obligada: </b>cuando Veneno se active contra ti, trasládale todas las cartas de aumento que haya boca abajo sobre tu Superhéroe.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
 		"text": "<b>Contenido: </b> Veneno (I) y Veneno (II). <i>(Veneno (II) y Veneno (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros de Veneno, Fuerza simbiótica y Normal. Un conjunto de Encuentros modular <i>(Con los pies en la tierra).</i>\n <b>Preparación: </b>pon en juego la carta de Entorno Campanario, con la cara de [[En silencio]] boca arriba."
 	},
 	{
 		"code": "27076b",
 		"flavor": "Nada más veros, Veneno enloquece de furia y os araca sin descanso, dejando un rastro de destrucción por toda la ciudad.",
 		"name": "\"¡Dejadnos en paz!\"",
-		"scheme_text": "<b>Interrupción obligada: </b>cuando Veneno se active contra ti, trasládale todas las cartas de aumento que haya boca abajo sobre tu Superhéroe.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
+		"text": "<b>Interrupción obligada: </b>cuando Veneno se active contra ti, trasládale todas las cartas de aumento que haya boca abajo sobre tu Superhéroe.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
 		"text": "<b>Contenido: </b> Veneno (I) y Veneno (II). <i>(Veneno (II) y Veneno (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros de Veneno, Fuerza simbiótica y Normal. Un conjunto de Encuentros modular <i>(Con los pies en la tierra).</i>\n <b>Preparación: </b>pon en juego la carta de Entorno Campanario, con la cara de [[En silencio]] boca arriba."
 	},
 	{
@@ -178,40 +175,35 @@
 		"traits": "Lugar. Sonando."
 	},
 	{
-		"boost_text": "Muestra esta carta.",
 		"code": "27078",
 		"name": "\"¡Ahora si que nos hemos enfadado!\"",
-		"text": "Vincula esta carta a Veneno.\n Usos (2 contadores de Ira).\n [star] Los ataques de Veneno ganan Brutalidad.\n <b>Respuesta obligada: </b>después de que Veneno sufra cualquier cantidad de Daño a consecuencia de un ataque, quita 1 contador de Ira de esta carta.",
+		"text": "Vincula esta carta a Veneno.\n Usos (2 contadores de Ira).\n [star] Los ataques de Veneno ganan Brutalidad.\n <b>Respuesta obligada: </b>después de que Veneno sufra cualquier cantidad de Daño a consecuencia de un ataque, quita 1 contador de Ira de esta carta.\n<hr />\n[star] <b>Aumento</b>: Muestra esta carta.",
 		"traits": "Alteración."
 	},
 	{
 		"code": "27079",
 		"name": "Defensa del campanario",
-		"scheme_text": "El texto de reglas impreso del Campanario se trata como si estuviese en blanco <i>(a excepción de los [[rasgos]])</i>.\n <b>Cuando se muestre esta carta: </b>quita todos los contadores de Campanada del Campanario y dale la vuelta para dejar boca arriba su cara de [[en silencio]]."
+		"text": "El texto de reglas impreso del Campanario se trata como si estuviese en blanco <i>(a excepción de los [[rasgos]])</i>.\n <b>Cuando se muestre esta carta: </b>quita todos los contadores de Campanada del Campanario y dale la vuelta para dejar boca arriba su cara de [[en silencio]]."
 	},
 	{
-		"boost_text": "si esta activación es un ataque, sufres 2 de Daño indirecto.",
 		"code": "27080",
 		"name": "Dando guerra",
-		"scheme_text": "<b>Respuesta: </b>después de que Veneno sufra cualquier cantidad de Daño a consecuencia de un ataque, quita esa misma cantidad de Amenaza de esta carta."
+		"text": "<b>Respuesta: </b>después de que Veneno sufra cualquier cantidad de Daño a consecuencia de un ataque, quita esa misma cantidad de Amenaza de esta carta.\n<hr />\n[star] <b>Aumento</b>: si esta activación es un ataque, sufres 2 de Daño indirecto."
 	},
 	{
-		"boost_text": "si esta activación es un ataque, gana Penetrante.",
 		"code": "27081",
 		"name": "Con uñas y dientes",
-		"scheme_text": "<b>Respuesta: </b>después de que Veneno sufra cualquier cantidad de Daño a consecuencia de un ataque, quita esa misma cantidad de Amenaza de esta carta."
+		"text": "<b>Respuesta: </b>después de que Veneno sufra cualquier cantidad de Daño a consecuencia de un ataque, quita esa misma cantidad de Amenaza de esta carta.\n<hr />\n[star] <b>Aumento</b>: si esta activación es un ataque, gana Penetrante."
 	},
 	{
-		"boost_text": "quita 1 contador de Campanada del Campanario.",
 		"code": "27082",
 		"name": "Réplica mordaz",
-		"text": "<b>Cuando se muestre esta carta: </b>Veneno se activa contra ti. Cada carta de aumento que se ponga boca arriba durante esa activación recibe +1 icono de Aumento [boost]."
+		"text": "<b>Cuando se muestre esta carta: </b>Veneno se activa contra ti. Cada carta de aumento que se ponga boca arriba durante esa activación recibe +1 icono de Aumento [boost].\n<hr />\n[star] <b>Aumento</b>: quita 1 contador de Campanada del Campanario."
 	},
 	{
-		"boost_text": "Resuelve la capacidad \"<b>Cuando se muestre esta carta </b>\" de esta carta.",
 		"code": "27083",
 		"name": "Por quién doblan las campanas",
-		"text": "<b>Cuando se muestre esta carta: </b>quita 2 contadores de Campanada del Campanario. Si el Campanario tiene boca arriba su cara de [[En silencio]], sufres 1 de Daño. Si tiene boca arriba su cara de [[sonando]], quita 1 de Amenaza del Plan principal."
+		"text": "<b>Cuando se muestre esta carta: </b>quita 2 contadores de Campanada del Campanario. Si el Campanario tiene boca arriba su cara de [[En silencio]], sufres 1 de Daño. Si tiene boca arriba su cara de [[sonando]], quita 1 de Amenaza del Plan principal.\n<hr />\n[star] <b>Aumento</b>: Resuelve la capacidad \"<b>Cuando se muestre esta carta </b>\" de esta carta."
 	},
 	{
 		"code": "27084",
@@ -237,14 +229,14 @@
 		"code": "27087",
 		"flavor": "En cada recodo del camino aparecen innumerables copias vuestras. Los cristales rotos se vuelven a recompone, y pese a todos vuestros intentos por buscar la salida del laberinto, sólo conseguís adentraros aún más en él. Tal vez el único modo de escapar sea derrotar a Mysterio.",
 		"name": "Laberinto de espejos",
-		"scheme_text": "<b>Contenido: </b> Mysterio (I) y Mysterio (II). <i>(Mysterio (II) y Mysterio (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros de Mysterio, Pesadilla personal y Normal. Un conjunto de Encuentros modular <i>(Susurros paranoides.)</i>\n<b> Preparación: </b>pon en juego un Esbirro Aparición omnipresente efrentado a cada jugador. <i>(Baraja el mazo.)</i>"
+		"text": "<b>Contenido: </b> Mysterio (I) y Mysterio (II). <i>(Mysterio (II) y Mysterio (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros de Mysterio, Pesadilla personal y Normal. Un conjunto de Encuentros modular <i>(Susurros paranoides.)</i>\n<b> Preparación: </b>pon en juego un Esbirro Aparición omnipresente efrentado a cada jugador. <i>(Baraja el mazo.)</i>"
 	},
 	{
 		"back_text": "<b>Interrupción oblligada: </b>cuando vayas a robar o descartar una carta de Encuentro de tu mazo, quédatela como carta de Encuentro boca abajo → roba 1 carta.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
 		"code": "27088",
 		"flavor": "¡Si no os dais prisa, las alucinaciones podrían acabar convirtiéndose en una parte permanente de vuestra psique y quedaríais atrapados en una pesadilla eterna!",
 		"name": "Los límites de la realidad",
-		"scheme_text": "<b>Cuando se muestre esta carta:</b> siguiendo el orden de jugadores, añade las 2 primeras cartas del mazo de Encuentros al mazo de cada jugador y barájalo."
+		"text": "<b>Cuando se muestre esta carta:</b> siguiendo el orden de jugadores, añade las 2 primeras cartas del mazo de Encuentros al mazo de cada jugador y barájalo."
 	},
 	{
 		"code": "27089",
@@ -254,10 +246,9 @@
 		"traits": "Ilusión."
 	},
 	{
-		"boost_text": "dale a Mysterio 1 carta de aumento adicional para esta activación.",
 		"code": "27090",
 		"name": "Espejismo magistral",
-		"text": "Vincula esta carta a Mysterio.\n<b>Interrupción obligada:</b> cuando vayas a infligir cualquier cantidad de Daño a Mysterio, en vez de eso descarta las 4 primeras cartas de la parte superior de tu mazo. Descarta esta carta.",
+		"text": "Vincula esta carta a Mysterio.\n<b>Interrupción obligada:</b> cuando vayas a infligir cualquier cantidad de Daño a Mysterio, en vez de eso descarta las 4 primeras cartas de la parte superior de tu mazo. Descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: dale a Mysterio 1 carta de aumento adicional para esta activación.",
 		"traits": "Ilusión."
 	},
 	{
@@ -267,16 +258,14 @@
 		"traits": "Ilusión."
 	},
 	{
-		"boost_text": "Muestra esta carta.",
 		"code": "27092",
 		"name": "Reminiscencia",
-		"text": "Peligro. </i>(Mientras estés resolviendo esta carta, los demás jugadores no podrán ayudarte.)<i>\n<b>Cuando se muestre esta carta: </b>elige entre sufrir 1 de Daño o colocar 1 de Amenaza sobre el Plan principal. Añade  Reminiscencia al mazo de cualquier jugador y barájalo."
+		"text": "Peligro. </i>(Mientras estés resolviendo esta carta, los demás jugadores no podrán ayudarte.)<i>\n<b>Cuando se muestre esta carta: </b>elige entre sufrir 1 de Daño o colocar 1 de Amenaza sobre el Plan principal. Añade  Reminiscencia al mazo de cualquier jugador y barájalo.\n<hr />\n[star] <b>Aumento</b>: Muestra esta carta."
 	},
 	{
-		"boost_text": "elige entre gastar recursos [mental][mental] o bien quedarte esta carta como carta de Encuentro boca abajo.",
 		"code": "27093",
 		"name": "Maestro del terror",
-		"text": "Oleada.\n <b>Cuando se muestre esta carta: </b>descarta tu mano de cartas. Roba cartas hasta restablecer el tamaño de tu mano."
+		"text": "Oleada.\n <b>Cuando se muestre esta carta: </b>descarta tu mano de cartas. Roba cartas hasta restablecer el tamaño de tu mano.\n<hr />\n[star] <b>Aumento</b>: elige entre gastar recursos [mental][mental] o bien quedarte esta carta como carta de Encuentro boca abajo."
 	},
 	{
 		"code": "27094",
@@ -315,10 +304,10 @@
 		"traits": "Orden de activación 6"
 	},
 	{
+		"back_text": "<b>Contenido: </b>Doctor Octopus, Electro, Duende, Kraven el Cazador, Escorpión y Buitre. Conjuntos de Encuentros de Los seis siniestros, Tácticas de guerrilla y Normal.\n <b>Preparación: </b>elige X Villanos al azar, siendo X 1 más que el número de jugadores. Pon en juego esos Villanos, coloca el contador de Villano activo sobre el Villano que tenga la puntuación más baja en el orden de activación y aparta a un lado los demás Villanos. Pon en juego el Plan secundario La luz al final del túnel, con la cara de [[¡trampa!]] boca arriba.",
 		"code": "27100",
 		"name": "Sincronización siniestra",
-		"scheme_text": "¡Emboscada! — <b>Especial: </b>elige al azar un Villano que esté apartado, ponlo en juego y colócale encima el contador de Villano activo. (En modo Experto, coloca 2 de Amenaza sobre La luz al final del túnel).\n <b>Interrupción obligada: </b>cuando vaya a activarse un Villano, si no hay ninguno en juego, resuelve la capacidad \"¡Emboscada!\" de esta carta. Reanuda esa activación.",
-		"text": "<b>Contenido: </b>Doctor Octopus, Electro, Duende, Kraven el Cazador, Escorpión y Buitre. Conjuntos de Encuentros de Los seis siniestros, Tácticas de guerrilla y Normal.\n <b>Preparación: </b>elige X Villanos al azar, siendo X 1 más que el número de jugadores. Pon en juego esos Villanos, coloca el contador de Villano activo sobre el Villano que tenga la puntuación más baja en el orden de activación y aparta a un lado los demás Villanos. Pon en juego el Plan secundario La luz al final del túnel, con la cara de [[¡trampa!]] boca arriba."
+		"text": "¡Emboscada! — <b>Especial: </b>elige al azar un Villano que esté apartado, ponlo en juego y colócale encima el contador de Villano activo. (En modo Experto, coloca 2 de Amenaza sobre La luz al final del túnel).\n <b>Interrupción obligada: </b>cuando vaya a activarse un Villano, si no hay ninguno en juego, resuelve la capacidad \"¡Emboscada!\" de esta carta. Reanuda esa activación."
 	},
 	{
 		"code": "27101a",
@@ -367,10 +356,9 @@
 		"text": "Vincula esta carta al Villano que tenga la puntuación más alta de ATQ. Si no es posible, resuelve la capacidad \"¡Emboscada!\" del Plan principal y luego vincula esta carta al Villano activo.\nNo puedes atacar a Villanos que no tengan vinculada una copia de Sacrificio por el equipo."
 	},
 	{
-		"boost_text": "Dale al Villano 1 carta de aumento adicional para esta activación.",
 		"code": "27107",
 		"name": "Barrera de fuerza bruta",
-		"text": "Victoria 1. (Cuando esta carta sea derrotada, añádela a la zona de victoria.)\nNo puede quitarse Amenaza de otros Planes secundarios."
+		"text": "Victoria 1. (Cuando esta carta sea derrotada, añádela a la zona de victoria.)\nNo puede quitarse Amenaza de otros Planes secundarios.\n<hr />\n[star] <b>Aumento</b>: Dale al Villano 1 carta de aumento adicional para esta activación."
 	},
 	{
 		"code": "27108",
@@ -469,56 +457,47 @@
 		"text": "Vincula esta carta al Duende Veneno.\n <b>Acción de Héroe: </b>gasta recursos impresos [energy][mental][physical] → descarta esta carta."
 	},
 	{
-		"boost_text": "traslada el contador de Planeador al Plan principal que tenga más Amenaza. Coloca 1 de Amenaza sobre ese Plan.",
 		"code": "27121",
 		"name": "Simbionte enloquecido",
-		"text": "Mientras haya en juego un Entorno [[simbionte]], el Simbionte enloquecido gana Ataque veloz.",
+		"text": "[star] Mientras haya en juego un Entorno [[simbionte]], el Simbionte enloquecido gana Ataque veloz.\n<hr />\n[star] <b>Aumento</b>: traslada el contador de Planeador al Plan principal que tenga más Amenaza. Coloca 1 de Amenaza sobre ese Plan.",
 		"traits": "Simbionte."
 	},
 	{
-		"attack_text": "Mientras haya en juego un Entorno [[simbionte]], la Monstruosidad simbiótica recibe +3 de Vida.",
-		"boost_text": "si esta activación es un ataque, inflige Daño indirecto.",
 		"code": "27122",
 		"name": "Monstruosidad simbiótica",
-		"text": "Represalia 1. Tesón. Dureza.",
+		"text": "Represalia 1. Tesón. Dureza.\n[star] Mientras haya en juego un Entorno [[simbionte]], la Monstruosidad simbiótica recibe +3 de Vida.\n<hr />\n[star] <b>Aumento</b>: si esta activación es un ataque, inflige Daño indirecto.",
 		"traits": "Élite. Simbionte."
 	},
 	{
-		"boost_text": "coloca 1 de Amenaza sobre cada Plan principal que no tenga asignado el contador de Planeador.",
 		"code": "27123",
 		"name": "Esclavo simbiótico",
-		"text": "Guardia.\nMientras haya en juego un Entorno [[simbionte]], el Esclavo simbiótico gana Patrulla.",
+		"text": "Guardia.\nMientras haya en juego un Entorno [[simbionte]], el Esclavo simbiótico gana Patrulla.\n<hr />\n[star] <b>Aumento</b>: coloca 1 de Amenaza sobre cada Plan principal que no tenga asignado el contador de Planeador.",
 		"traits": "Simbionte."
 	},
 	{
-		"boost_text": "muestra esta carta.",
 		"code": "27124",
 		"name": "Masa infecciosa",
-		"scheme_text": "While there are no other [[symbiote]] environments in play, this card is considered a [[symbiote]] environment.",
-		"text": "Mientras haya en juego un Entorno [[simbionte]], esta carta se considera un Entorno [[simbionte]]."
+		"text": "Mientras haya en juego un Entorno [[simbionte]], esta carta se considera un Entorno [[simbionte]].\n<hr />\n[star] <b>Aumento</b>: muestra esta carta."
 	},
 	{
 		"code": "27125",
 		"name": "Escapada aérea",
-		"scheme_text": "Hinder 2[per_hero].\n <b> When Revealed: </b> Move the glider token to the main scheme with the most threat. Resolve thats schemes <b>Special</b> ability.",
 		"text": "Complicación 2[per_hero].\n<b>Cuando se muestre esta carta:</b> traslada el contador de Planeador al Plan principal que tenga más Amenaza. Resuelve la capacidad \"<b>Especial:</b>\" de ese Plan."
 	},
 	{
-		"boost_text": "resuelve la capacidad \"<b>Especial:</b>\" del Plan que tenga asignado el contador de Planeador.",
 		"code": "27126",
 		"name": "Sembrar el pánico",
-		"text": "<b>Cuando se muestre esta carta:</b> resuelve la capacidad \"<b>Especial:</b>\" del Plan que tenga asignado el contador de Planeador."
+		"text": "<b>Cuando se muestre esta carta:</b> resuelve la capacidad \"<b>Especial:</b>\" del Plan que tenga asignado el contador de Planeador.\n<hr />\n[star] <b>Aumento</b>: resuelve la capacidad \"<b>Especial:</b>\" del Plan que tenga asignado el contador de Planeador."
 	},
 	{
 		"code": "27127",
 		"name": "Pánico en las calles",
-		"scheme_text": "El texto de reglas impreso de todos los Apoyos [[lugar]] e [[individuo]] se trata como si estuviese en blanco (a excepción de los [[rasgos]])."
+		"text": "El texto de reglas impreso de todos los Apoyos [[lugar]] e [[individuo]] se trata como si estuviese en blanco (a excepción de los [[rasgos]])."
 	},
 	{
-		"attack_text": "Los ataques del Rino ganan Brutalidad y Penetrante.",
 		"code": "27128",
 		"name": "Rino",
-		"text": "Tesón. (Un personaje con Tesón requiere 2 cartas de Estado del mismo tipo para quedar aturdido o confundido.)",
+		"text": "Tesón. (Un personaje con Tesón requiere 2 cartas de Estado del mismo tipo para quedar aturdido o confundido.)\n[star] Los ataques del Rino ganan Brutalidad y Penetrante.",
 		"traits": "Criminal. Élite."
 	},
 	{
@@ -547,7 +526,7 @@
 	{
 		"code": "27133",
 		"name": "Voluntariado",
-		"scheme_text": "No se puede intervenir contra este Plan.\n<b>Acción de Alter ego:</b> gasta 2 recursos de cualquier tipo → quita tanta Amenaza de este Plan como la puntuación de REC de tu Alter ego. Si tu Superhéroe tiene el rasgo [[civil]], roba 1 carta."
+		"text": "No se puede intervenir contra este Plan.\n<b>Acción de Alter ego:</b> gasta 2 recursos de cualquier tipo → quita tanta Amenaza de este Plan como la puntuación de REC de tu Alter ego. Si tu Superhéroe tiene el rasgo [[civil]], roba 1 carta."
 	},
 	{
 		"code": "27134",
@@ -591,37 +570,32 @@
 		"code": "27140",
 		"flavor": "Norman Osborn ha estado muy atareado fabricado y almacenando dispositivos tecnológicos, y ahora tanto él como sus compinches disponen de un cuantioso arsenal de armas y artilugios.",
 		"name": "Suministro ilimitado",
-		"scheme_text": "Todos los Accesorios [[tecnología]] ganan Oleada."
+		"text": "Todos los Accesorios [[tecnología]] ganan Oleada."
 	},
 	{
-		"boost_text": "dale al Villano 2 cartas de aumento adicionales para esta activación.",
 		"code": "27141",
 		"name": "Control remoto",
-		"text": "<b>Cuando se muestre esta carta: </b>si está en juego el Planeador avanzado, el Villano se activa contra ti. Si no está en juego, busca el Planeador avanzado en el mazo y la pila de descartes de Encuentros y muéstralo."
+		"text": "<b>Cuando se muestre esta carta: </b>si está en juego el Planeador avanzado, el Villano se activa contra ti. Si no está en juego, busca el Planeador avanzado en el mazo y la pila de descartes de Encuentros y muéstralo.\n<hr />\n[star] <b>Aumento</b>: dale al Villano 2 cartas de aumento adicionales para esta activación."
 	},
 	{
-		"boost_text": "pon en juego este Esbirro enfrentado a ti.",
 		"code": "27142",
 		"name": "Señuelo en tamaño real",
-		"text": "En modo Experto, el Señuelo en tamaño real gana Dureza.\nEl juegador enfrentado no puede intervenir contra Planes secundarios."
+		"text": "En modo Experto, el Señuelo en tamaño real gana Dureza.\nEl juegador enfrentado no puede intervenir contra Planes secundarios.\n<hr />\n[star] <b>Aumento</b>: pon en juego este Esbirro enfrentado a ti."
 	},
 	{
-		"boost_text": "coloca 1 de Amenaza sobre cada Plan. (En modo Experto, coloca 1 de Amenaza adicional sobre el Plan principal.)",
 		"code": "27143",
 		"name": "Esfuerzo coordinado",
-		"scheme_text": "Cada enemigo gana 1 icono de Aceleración."
+		"text": "Cada enemigo gana 1 icono de Aceleración ([acceleration]).\n<hr />\n[star] <b>Aumento</b>: coloca 1 de Amenaza sobre cada Plan. (En modo Experto, coloca 1 de Amenaza adicional sobre el Plan principal.)"
 	},
 	{
-		"boost_text": "inflige 1 de Daño indirecto a cada jugador. (en modo Experto, inflige 1 de Daño indirecto adicional al jugador inicial.)",
 		"code": "27144",
 		"name": "Oculto entre las sombras",
-		"scheme_text": "Cada enemigo gana 1 icono de Riesgo."
+		"text": "Cada enemigo gana 1 icono de Riesgo ([hazard]).\n<hr />\n[star] <b>Aumento</b>: inflige 1 de Daño indirecto a cada jugador. (en modo Experto, inflige 1 de Daño indirecto adicional al jugador inicial.)"
 	},
 	{
-		"boost_text": "en modo Experto, esta carta recibe +2 iconos de Aumento ([boost][boost]) para esta activación.",
 		"code": "27145",
 		"name": "La unión hace la fuerza",
-		"scheme_text": "Cada enemigo recibe +1 PLA y +1 ATQ."
+		"text": "Cada enemigo recibe +1 PLA y +1 ATQ.\n<hr />\n[star] <b>Aumento</b>: en modo Experto, esta carta recibe +2 iconos de Aumento ([boost][boost]) para esta activación."
 	},
 	{
 		"code": "27146",
@@ -672,22 +646,21 @@
 		"traits": "Ilusión."
 	},
 	{
-		"boost_text": "roba 3 cartas. Descarta 3 cartas de tu mano al azar.",
 		"code": "27154",
 		"name": "Doble malvado",
-		"text": "El Doble malvado recibe +X PLA y +X ATQ, siendo X igual al número de cartas específicas de Superhéroes que haya en la mano del jugador enfrentado..",
+		"text": "El Doble malvado recibe +X PLA y +X ATQ, siendo X igual al número de cartas específicas de Superhéroes que haya en la mano del jugador enfrentado.\n<hr />\n[star] <b>Aumento</b>: roba 3 cartas. Descarta 3 cartas de tu mano al azar.",
 		"traits": "Ilusión."
 	},
 	{
 		"code": "27155",
 		"name": "En las nubes",
-		"scheme_text": "Victoria 1. (Cuando esta carta sea derrotada, añádela a la zona de victoria.)\nCada Superhéroe recibe +2 al tamaño de su mano."
+		"text": "Victoria 1. (Cuando esta carta sea derrotada, añádela a la zona de victoria.)\nCada Superhéroe recibe +2 al tamaño de su mano."
 	},
 	{
 		"code": "27156",
 		"flavor": "Mysterio es un maestro del terror capaz de identificar las fobias de sus víctimas estudiando hasta el menor de sus respingos.",
 		"name": "Debilidad interior",
-		"scheme_text": "<b>Cuando se muestre esta carta: </b>coloca 1 de Amenaza adicional sobre esta carta por cada carta que tengas en la mano."
+		"text": "<b>Cuando se muestre esta carta: </b>coloca 1 de Amenaza adicional sobre esta carta por cada carta que tengas en la mano."
 	},
 	{
 		"code": "27157",
@@ -749,17 +722,15 @@
 		"traits": "Alteración."
 	},
 	{
-		"boost_text": "quedas aturdido. Si ya estabas aturdido, sufres 2 de Daño.",
 		"code": "27166",
 		"name": "Envuelto en telaraña",
-		"text": "Vincula esta carta a tu Superhéroe.\n<b>Interrupción obligada:</b> cuando tu Héroe vaya a atacar, en vez de eso descarta Envuelto en telaraña. Luego quedas aturdido.",
+		"text": "Vincula esta carta a tu Superhéroe.\n<b>Interrupción obligada:</b> cuando tu Héroe vaya a atacar, en vez de eso descarta Envuelto en telaraña. Luego quedas aturdido.\n<hr />\n[star] <b>Aumento</b>: quedas aturdido. Si ya estabas aturdido, sufres 2 de Daño.",
 		"traits": "Alteración."
 	},
 	{
-		"boost_text": "pon en juego al Simbionte rabioso enfrentado a ti.",
 		"code": "27167",
 		"name": "Simbionte rabioso",
-		"text": "Guardia. Patrulla. (Mientras este Esbirro esté enfrentado a ti, no podrás intervenir en el Plan principal.)",
+		"text": "Guardia. Patrulla. (Mientras este Esbirro esté enfrentado a ti, no podrás intervenir en el Plan principal.)\n<hr />\n[star] <b>Aumento</b>: pon en juego al Simbionte rabioso enfrentado a ti.",
 		"traits": "Simbionte."
 	},
 	{
@@ -769,16 +740,14 @@
 		"text": "<b>Cuando se muestre esta carta (Alter ego): </b>cambia a tu identidad de Héroe. El Villano te ataca.\n<b>Cuando se muestre esta carta (Héroe): </b>el Villano te ataca. Dale al Villano 1 carta de aumento adicional para esa activación."
 	},
 	{
-		"boost_text": "si esta activación es un ataque, esta carta recibe +2 iconos de Aumento ([boost][boost]) para este ataque, y además este ataque gana Brutalidad.",
 		"code": "27169",
 		"name": "Inteligencia inestable",
-		"text": "Oleada.\n<b>Cuando se muestre esta carta:</b> dale al Villano 1 carta de aumento boca abajo."
+		"text": "Oleada.\n<b>Cuando se muestre esta carta:</b> dale al Villano 1 carta de aumento boca abajo.\n<hr />\n[star] <b>Aumento</b>: si esta activación es un ataque, esta carta recibe +2 iconos de Aumento ([boost][boost]) para este ataque, y además este ataque gana Brutalidad."
 	},
 	{
-		"boost_text": "si este ataque derrota a un Aliado, sufres tanto Daño indirecto como el coste impreso de ese Aliado.",
 		"code": "27170",
 		"name": "Manía persecutoria",
-		"text": "Vincula esta carta a tu Superhéroe.\nNo puedes preparar Aliados ni tampoco Apoyos [[individuo]] que controles.\n<b>Acción de Alter ego:</b> descarta un Aliado o un Apoyo [[individuo]] que controles → descarta esta carta.",
+		"text": "Vincula esta carta a tu Superhéroe.\nNo puedes preparar Aliados ni tampoco Apoyos [[individuo]] que controles.\n<b>Acción de Alter ego:</b> descarta un Aliado o un Apoyo [[individuo]] que controles → descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: si este ataque derrota a un Aliado, sufres tanto Daño indirecto como el coste impreso de ese Aliado.",
 		"traits": "Ilusión."
 	},
 	{
@@ -788,15 +757,14 @@
 		"traits": "Ilusión."
 	},
 	{
-		"boost_text": "inflige 1 de Daño a cada personaje que controles.",
 		"code": "27172",
 		"name": "Vieja rencilla",
-		"text": "El Esbirro vinculado recibe +1 de Vida.\n<b>Cuando se muestre esta carta:</b> busca a tu Esbirro Archienemigo en el mazo de Encuentros, en su pila de descartes y en la zona de cartas apartadas, y luego muestra a ese Esbirro. Vincúlale la Vieja rencilla. (Baraja el mazo.)",
+		"text": "El Esbirro vinculado recibe +1 de Vida.\n<b>Cuando se muestre esta carta:</b> busca a tu Esbirro Archienemigo en el mazo de Encuentros, en su pila de descartes y en la zona de cartas apartadas, y luego muestra a ese Esbirro. Vincúlale la Vieja rencilla. (Baraja el mazo.)\n<hr />\n[star] <b>Aumento</b>: inflige 1 de Daño a cada personaje que controles.",
 		"traits": "Ilusión."
 	},
 	{
 		"code": "27173",
 		"name": "Paralizados por la duda",
-		"scheme_text": "<b>Cuando se muestre esta carta: </b>busca el Plan secundario de tu Archienemigo en el mazo de Encuentros, en su pila de descartes y en la zona de cartas apartadas, y luego muéstralo. Coloca X de Amenaza adicional sobre esta carta, siendo X igual a la cantidad de Amenaza que haya sobre ese Plan secundario."
+		"text": "<b>Cuando se muestre esta carta: </b>busca el Plan secundario de tu Archienemigo en el mazo de Encuentros, en su pila de descartes y en la zona de cartas apartadas, y luego muéstralo. Coloca X de Amenaza adicional sobre esta carta, siendo X igual a la cantidad de Amenaza que haya sobre ese Plan secundario."
 	}
 ]

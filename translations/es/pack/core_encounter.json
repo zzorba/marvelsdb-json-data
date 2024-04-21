@@ -34,10 +34,9 @@
 		"traits": "Armadura."
 	},
 	{
-		"attack_text": "<b>Interrupción obligada:</b> cuando el Rino ataca, su ataque gana Brutalidad. Al final de este ataque, descarta la Embestida.",
 		"code": "01099",
 		"name": "Embestida",
-		"text": "Vincula esta carta al Rino.",
+		"text": "Vincula esta carta al Rino.\n[star] <b>Interrupción obligada:</b> cuando el Rino ataca, su ataque gana Brutalidad. Al final de este ataque, descarta la Embestida.",
 		"traits": "Arma."
 	},
 	{
@@ -121,24 +120,22 @@
 		"text": "<b>Cuando se muestre esta carta:</b> quedas confundido. Si ya estabas confundido, esta carta gana Oleada."
 	},
 	{
-		"attack_text": "<b>Interrupción obligada:</b> cuando Klaw ataque, dale 1 carta de aumento adicional para esta activación.",
 		"code": "01113",
 		"flavor": "\"¡Enfréntate a la muerte!\"",
 		"name": "Klaw",
+		"text": "[star] <b>Interrupción obligada:</b> cuando Klaw ataque, dale 1 carta de aumento adicional para esta activación.",
 		"traits": "Señores del Mal."
 	},
 	{
-		"attack_text": "<b>Interrupción obligada:</b> cuando Klaw ataque, dale 1 carta de aumento adicional para esta activación.",
 		"code": "01114",
 		"name": "Klaw",
-		"text": "<b>Cuando se muestre esta carta:</b> busca la carta Klaw \"el inmortal\" en el mazo de Encuentros y en su pila de descartes y muéstrala. Baraja el mazo de Encuentros.",
+		"text": "<b>Cuando se muestre esta carta:</b> busca la carta Klaw \"el inmortal\" en el mazo de Encuentros y en su pila de descartes y muéstrala. Baraja el mazo de Encuentros.\n[star] <b>Interrupción obligada:</b> cuando Klaw ataque, dale 1 carta de aumento adicional para esta activación.",
 		"traits": "Señores del Mal."
 	},
 	{
-		"attack_text": "<b>Interrupción obligada:</b> cuando Klaw ataque, dale 1 carta de aumento adicional para esta activación.",
 		"code": "01115",
 		"name": "Klaw",
-		"text": "Dureza",
+		"text": "Dureza\n[star] <b>Interrupción obligada:</b> cuando Klaw ataque, dale 1 carta de aumento adicional para esta activación.",
 		"traits": "Señores del Mal."
 	},
 	{
@@ -158,10 +155,9 @@
 		"text": "<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
 	},
 	{
-		"attack_text": "<b>Respuesta obligada:</b> después de que Klaw ataque y cause Daño a un personaje, aturde a ese personaje.",
 		"code": "01118",
 		"name": "Transformador sónico",
-		"text": "Vincula esta carta a Klaw.\n<b>Acción de Héroe:</b> gasta recursos [energy] [mental] [physical] → descarta esta carta.",
+		"text": "Vincula esta carta a Klaw.\n[star] <b>Respuesta obligada:</b> después de que Klaw ataque y cause Daño a un personaje, aturde a ese personaje.\n<b>Acción de Héroe:</b> gasta recursos [energy] [mental] [physical] → descarta esta carta.",
 		"traits": "Arma."
 	},
 	{
@@ -177,10 +173,9 @@
 		"traits": "Mercenario."
 	},
 	{
-		"boost_text": "Pon en juego al Traficante de armas enfrentado a ti.",
 		"code": "01121",
 		"name": "Traficante de armas",
-		"text": "Oleada.",
+		"text": "Oleada.\n<hr />\n[star] <b>Aumento</b>: Pon en juego al Traficante de armas enfrentado a ti.",
 		"traits": "Mercenario."
 	},
 	{
@@ -189,10 +184,9 @@
 		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> descarta 1 carta de tu mano al azar.\n<b>Cuando se muestre esta carta (Héroe):</b> Klaw te ataca. Si este ataque inflige Dañol, coloca 1 de Amenaza sobre el Plan principal."
 	},
 	{
-		"boost_text": "Si esta activación te inflige Daño, agota a tu Héroe.",
 		"code": "01123",
 		"name": "Estallido sónico",
-		"text": "<b>Cuando se muestre esta carta:</b> elige entre gastar recursos [energy] [mental] [physical] o bien agotar todos los personajes que controles."
+		"text": "<b>Cuando se muestre esta carta:</b> elige entre gastar recursos [energy] [mental] [physical] o bien agotar todos los personajes que controles.\n<hr />\n[star] <b>Aumento</b>: Si esta activación te inflige Daño, agota a tu Héroe."
 	},
 	{
 		"code": "01124",
@@ -224,31 +218,27 @@
 		"text": "<b>Cuando se muestre esta carta:</b> descarta cartas del mazo de Encuentros hasta que se descarte un Esbirro [[Señores del Mal]]. Pon en juego ese Esbirro enfrentado al jugador inicial."
 	},
 	{
-		"attack_text": "<b>Respuesta obligada:</b> después de que el Hombre Radiactivo te ataque, descarta 1 carta de tu mano al azar.",
-		"boost_text": "Descarta 1 carta de tu mano al azar.",
 		"code": "01129",
 		"name": "Hombre Radiactivo",
+		"text": "[star] <b>Respuesta obligada:</b> después de que el Hombre Radiactivo te ataque, descarta 1 carta de tu mano al azar.\n<hr />\n[star] <b>Aumento</b>: Descarta 1 carta de tu mano al azar.",
 		"traits": "Élite. Señores del Mal."
 	},
 	{
-		"attack_text": "<b>Interrupción obligada:</b> cuando Torbellino te ataque, resuelve su ataque también contra todos los demás Héroes.",
-		"boost_text": "Inflige 1 de Daño a cada Héroe.",
 		"code": "01130",
 		"name": "Torbellino",
+		"text": "[star] <b>Interrupción obligada:</b> cuando Torbellino te ataque, resuelve su ataque también contra todos los demás Héroes.\n<hr />\n[star] <b>Aumento</b>: Inflige 1 de Daño a cada Héroe.",
 		"traits": "Señores del Mal."
 	},
 	{
-		"attack_text": "<b>Respuesta obligada:</b> después de que Tiburón Tigre ataque, dale una carta de Estado \"Duro\".",
-		"boost_text": "Dale al Villano una carta de Estado \"Duro\".",
 		"code": "01131",
 		"name": "Tiburón Tigre",
+		"text": "[star] <b>Respuesta obligada:</b> después de que Tiburón Tigre ataque, dale una carta de Estado \"Duro\".\n<hr />\n[star] <b>Aumento</b>: Dale al Villano una carta de Estado \"Duro\".",
 		"traits": "Señores del Mal."
 	},
 	{
-		"attack_text": "El jugador enfrentado debe defender contra los ataques de Fundidor con un Aliado que controle (si puede).",
-		"boost_text": "Agota todos los Aliados que controles.",
 		"code": "01132",
 		"name": "Fundidor",
+		"text": "[star] El jugador enfrentado debe defender contra los ataques de Fundidor con un Aliado que controle (si puede).\n<hr />\n[star] <b>Aumento</b>: Agota todos los Aliados que controles.",
 		"traits": "Señores del Mal."
 	},
 	{
@@ -257,15 +247,15 @@
 		"text": "<b>Cuando se muestre esta carta:</b> cada Esbirro [[Señores del Mal]] ataca al Héroe con el que esté enfrentado. Si no se efectúa ningún ataque de este modo, busca un Esbirro [[Señores del Mal]] en el mazo de Encuentros y en su pila de descartes y ponlo en juego enfrentado a ti; luego baraja el mazo de Encuentros."
 	},
 	{
-		"attack_text": "<b>Respuesta obligada:</b> después e que Ultrón te ataque, elige entre colocar 1 de Amenaza sobre el Plan principal o bien poner en juego la primera carta de tu mazo enfrentada a tu boca abajo como un Esbirro [[Dron]].",
 		"code": "01134",
 		"name": "Ultrón",
+		"text": "[star] <b>Respuesta obligada:</b> después e que Ultrón te ataque, elige entre colocar 1 de Amenaza sobre el Plan principal o bien poner en juego la primera carta de tu mazo enfrentada a tu boca abajo como un Esbirro [[Dron]].",
 		"traits": "Androide."
 	},
 	{
-		"attack_text": "<b>Interrupción obligada:</b> cuando Ultrón te ataque, pon en juego la primera carta de tu mazo enfrentada a ti boca abajo como un Esbirro [[Dron]]. Hasta el final de este ataque, Ultrón recibe +1 ATQ por cada Esbirro [[Dron]] que esté enfrentado a ti.",
 		"code": "01135",
 		"name": "Ultrón",
+		"text": "[star] <b>Interrupción obligada:</b> cuando Ultrón te ataque, pon en juego la primera carta de tu mazo enfrentada a ti boca abajo como un Esbirro [[Dron]]. Hasta el final de este ataque, Ultrón recibe +1 ATQ por cada Esbirro [[Dron]] que esté enfrentado a ti.",
 		"traits": "Androide."
 	},
 	{
@@ -306,8 +296,7 @@
 	{
 		"code": "01141",
 		"name": "Transmisor de programa",
-		"scheme_text": "<b>Respuesta obligada:</b> después de que Ultrón ejecute el Plan, coloca 1 de Amenaza sobre cada Plan secundario.",
-		"text": "Vincula esta carta a Ultrón.\n<b>Acción de Héroe:</b> agota tu Héroe y gasta recursos [mental] [mental] → descarta esta carta.",
+		"text": "Vincula esta carta a Ultrón.\n[star] <b>Respuesta obligada:</b> después de que Ultrón ejecute el Plan, coloca 1 de Amenaza sobre cada Plan secundario.\n<b>Acción de Héroe:</b> agota tu Héroe y gasta recursos [mental] [mental] → descarta esta carta.",
 		"traits": "Objeto. Tecnología."
 	},
 	{
@@ -323,22 +312,19 @@
 		"traits": "Dron."
 	},
 	{
-		"boost_text": "Elige entre gastar un recurso [energy] o bien poner en juego la primera carta de tu mazo boca abajo y enfrentada a tu como un Esbirro [[Dron]]",
 		"code": "01144a",
 		"name": "Eficacia androide",
-		"text": "<b>Cuando se muestre esta carta:</b> cada jugador pone en juego la primera carta de su mazo boca abajo y enfrentada a él como un Esbirro [[Dron]]."
+		"text": "<b>Cuando se muestre esta carta:</b> cada jugador pone en juego la primera carta de su mazo boca abajo y enfrentada a él como un Esbirro [[Dron]].\n<hr />\n[star] <b>Aumento</b>: Elige entre gastar un recurso [energy] o bien poner en juego la primera carta de tu mazo boca abajo y enfrentada a tu como un Esbirro [[Dron]]"
 	},
 	{
-		"boost_text": "Elige entre gastar un recurso [mental] o bien poner en juego la primera carta de tu mazo boca abajo y enfrentada a tu como un Esbirro [[Dron]]",
 		"code": "01144b",
 		"name": "Eficacia androide",
-		"text": "<b>Cuando se muestre esta carta:</b> cada jugador pone en juego la primera carta de su mazo boca abajo y enfrentada a él como un Esbirro [[Dron]]."
+		"text": "<b>Cuando se muestre esta carta:</b> cada jugador pone en juego la primera carta de su mazo boca abajo y enfrentada a él como un Esbirro [[Dron]].\n<hr />\n[star] <b>Aumento</b>: Elige entre gastar un recurso [mental] o bien poner en juego la primera carta de tu mazo boca abajo y enfrentada a tu como un Esbirro [[Dron]]"
 	},
 	{
-		"boost_text": "Elige entre gastar un recurso [physical] o bien poner en juego la primera carta de tu mazo boca abajo y enfrentada a tu como un Esbirro [[Dron]]",
 		"code": "01144c",
 		"name": "Eficacia androide",
-		"text": "<b>Cuando se muestre esta carta:</b> cada jugador pone en juego la primera carta de su mazo boca abajo y enfrentada a él como un Esbirro [[Dron]]."
+		"text": "<b>Cuando se muestre esta carta:</b> cada jugador pone en juego la primera carta de su mazo boca abajo y enfrentada a él como un Esbirro [[Dron]].\n<hr />\n[star] <b>Aumento</b>: Elige entre gastar un recurso [physical] o bien poner en juego la primera carta de tu mazo boca abajo y enfrentada a tu como un Esbirro [[Dron]]"
 	},
 	{
 		"code": "01145",
@@ -346,10 +332,9 @@
 		"text": "<b>Cuando se muestre esta carta (Alter ego):</b> Ultrón ejecuta el Plan. Descarta tantas cartas de la parte superior de tu mazo como la cantidad de Amenaza que se coloque de este modo.\n<b>Cuando se muestre esta carta (Héroe):</b> Ultrón te ataca. Descarta tantas cartas de la parte superior de tu mazo como la cantida de Daño que inflija este ataque."
 	},
 	{
-		"boost_text": "Ultrón se cura 1 de Daño por cada Esbirro [[Dron]] que esté enfrentado a ti.",
 		"code": "01146",
 		"name": "Secuencia de reparación",
-		"text": "<b>Cuando se muestre esta carta:</b> Ultrón se cura 2 de Daño por cada Esbirro [[Dron]] que esté enfrentado a ti. Si no se cura Daño de este modo, esta carta gana Oleada."
+		"text": "<b>Cuando se muestre esta carta:</b> Ultrón se cura 2 de Daño por cada Esbirro [[Dron]] que esté enfrentado a ti. Si no se cura Daño de este modo, esta carta gana Oleada.\n<hr />\n[star] <b>Aumento</b>: Ultrón se cura 1 de Daño por cada Esbirro [[Dron]] que esté enfrentado a ti."
 	},
 	{
 		"code": "01147",
@@ -392,10 +377,9 @@
 		"traits": "Arma."
 	},
 	{
-		"boost_text": "Inflige 1 de Daño a cada personaje que controles.",
 		"code": "01154",
 		"name": "Descarga fulminante",
-		"text": "<b>Cuando se muestre esta carta:</b> inflige 1 de Daño a cada personaje amigo."
+		"text": "<b>Cuando se muestre esta carta:</b> inflige 1 de Daño a cada personaje amigo.\n<hr />\n[star] <b>Aumento</b>: Inflige 1 de Daño a cada personaje que controles."
 	},
 	{
 		"code": "01155",
@@ -415,10 +399,9 @@
 		"traits": "Asesino. Élite. Mercenario."
 	},
 	{
-		"boost_text": "Dale al Villano una carta de Estado \"Duro\".",
 		"code": "01158",
 		"name": "Hierba con forma de corazón",
-		"text": "Oleada.\n<b>Cuando se muestre esta carta:</b> dales una carta de Estado \"Duro\" al Villano y a todos los Esbirros que estén enfrentados a ti."
+		"text": "Oleada.\n<b>Cuando se muestre esta carta:</b> dales una carta de Estado \"Duro\" al Villano y a todos los Esbirros que estén enfrentados a ti.\n<hr />\n[star] <b>Aumento</b>: Dale al Villano una carta de Estado \"Duro\"."
 	},
 	{
 		"code": "01159",
@@ -450,10 +433,9 @@
 		"traits": "Alteración."
 	},
 	{
-		"boost_text": "Dale al Villano 1 carta de aumento adicional para esta activación.",
 		"code": "01164",
 		"name": "La furia de Titania",
-		"text": "<b>Cuando se muestre esta carta:</b> Titania ataca a tu Héroe. Si Titania no ha atacado, cura todo el Daño de Titania y esta carta gana Oleada."
+		"text": "<b>Cuando se muestre esta carta:</b> Titania ataca a tu Héroe. Si Titania no ha atacado, cura todo el Daño de Titania y esta carta gana Oleada.\n<hr />\n[star] <b>Aumento</b>: Dale al Villano 1 carta de aumento adicional para esta activación."
 	},
 	{
 		"code": "01165",
@@ -473,10 +455,9 @@
 		"traits": "Criminal."
 	},
 	{
-		"boost_text": "Si esta activación inflige Daño a un personaje amigo, aturde a ese personaje.",
 		"code": "01168",
 		"name": "Picado arrollador",
-		"text": "<b>Cuando se muestre esta carta:</b> atarude a tu Héroe. Si el Buitre está en juego, esta carta gana Oleada."
+		"text": "<b>Cuando se muestre esta carta:</b> atarude a tu Héroe. Si el Buitre está en juego, esta carta gana Oleada.\n<hr />\n[star] <b>Aumento</b>: Si esta activación inflige Daño a un personaje amigo, aturde a ese personaje."
 	},
 	{
 		"code": "01169",
@@ -502,10 +483,9 @@
 		"text": "Represalia 1."
 	},
 	{
-		"boost_text": "Si el Villano está efectuando un ataque no defendido, elige y descarta una Mejora que controles.",
 		"code": "01173",
 		"name": "Azote de electrolátigo",
-		"text": "<b>Cuando se muestre esta carta:</b> elige entre infligir 1 de Daño a tu Héroe por cada Mejora que controles, o bien elegir y descartar una Mejora que controles."
+		"text": "<b>Cuando se muestre esta carta:</b> elige entre infligir 1 de Daño a tu Héroe por cada Mejora que controles, o bien elegir y descartar una Mejora que controles.\n<hr />\n[star] <b>Aumento</b>: Si el Villano está efectuando un ataque no defendido, elige y descarta una Mejora que controles."
 	},
 	{
 		"code": "01174",
@@ -522,20 +502,19 @@
 		"code": "01176",
 		"flavor": "El psicomagnetrón es un dispositivo kree que tiene el poder de hacer realidad los pensamientos. En manos de Yon-Rogg sería un arma devastadora.",
 		"name": "El psicomagnetrón",
-		"text": "<b>Cuando se muestre esta carta:</b> coloca 1 [per_hero] de Amenaza adicional sobre esta carta."
+		"text": "<b>Cuando se muestre esta carta:</b> coloca 1[per_hero] de Amenaza adicional sobre esta carta."
 	},
 	{
-		"attack_text": "<b>Respuesta obligada:</b> después de que Yon-Rogg ataque, coloca 1 de Amenaza sobre El psicomagnetrón.",
 		"code": "01177",
 		"flavor": "\"No es auténtico poder a menos que te teman.\"",
 		"name": "Yon-Rogg",
+		"text": "[star] <b>Respuesta obligada:</b> después de que Yon-Rogg ataque, coloca 1 de Amenaza sobre El psicomagnetrón.",
 		"traits": "Elite. Kree."
 	},
 	{
-		"boost_text": "Si el villano está efectuando un ataque no defendido, coloca 1 de Amenaza sobre el Plan principal.",
 		"code": "01178",
 		"name": "Manipulador kree",
-		"text": "Oleada.\n<b>Cuando se muestre esta carta:</b> coloca 1 de Amenaza sobre el Plan principal."
+		"text": "Oleada.\n<b>Cuando se muestre esta carta:</b> coloca 1 de Amenaza sobre el Plan principal.\n<hr />\n[star] <b>Aumento</b>: Si el villano está efectuando un ataque no defendido, coloca 1 de Amenaza sobre el Plan principal."
 	},
 	{
 		"code": "01179",
@@ -549,11 +528,9 @@
 		"text": "<b>Cuando se muestre esta carta:</b> si Madame Hydra no está en juego, busca a Madame Hydra en el mazo de Encuentros y en su pila de descartes y ponla en juego enfrentada a ti; luego baraja el mazo de Encuentros. Coloca 2 de Amenaza adicional sobre esta carta por cada enemigo [[Hydra]] que haya en el juego."
 	},
 	{
-		"attack_text": "<b>Respuesta obligada:</b> después de que Madame Hydra ejecute el Plan o ataque, coloca 2 de Amenaza sobre el Plan secundario Legiones de Hydra.",
 		"code": "01181",
 		"name": "Madame Hydra",
-		"scheme_text": "<b>Respuesta obligada:</b> después de que Madame Hydra ejecute el Plan o ataque, coloca 2 de Amenaza sobre el Plan secundario Legiones de Hydra.",
-		"text": "Madame Hydra no puede sufrir Daño mientras esté en juego el Plan secundario Legiones de Hydra.",
+		"text": "Madame Hydra no puede sufrir Daño mientras esté en juego el Plan secundario Legiones de Hydra.\n[star] <b>Respuesta obligada:</b> después de que Madame Hydra ejecute el Plan o ataque, coloca 2 de Amenaza sobre el Plan secundario Legiones de Hydra.",
 		"traits": "Élite. Hydra."
 	},
 	{

@@ -34,10 +34,9 @@
 		"traits": "Armatura."
 	},
 	{
-		"attack_text": "<b>Interruzione Obbligata</b>: Quando Rhino attacca, l'attacco ottiene sopraffazione. <i>(in questo attacco, i danni in eccesso a un alleato vengono inflitti al controllore di quell'alleato.)</i> Alla fine di questo attacco, scarta Carica.",
 		"code": "01099",
 		"name": "Carica",
-		"text": "Assegna a Rhino."
+		"text": "Assegna a Rhino.\n[star] <b>Interruzione Obbligata</b>: Quando Rhino attacca, l'attacco ottiene sopraffazione. <i>(in questo attacco, i danni in eccesso a un alleato vengono inflitti al controllore di quell'alleato.)</i> Alla fine di questo attacco, scarta Carica."
 	},
 	{
 		"code": "01100",
@@ -120,24 +119,22 @@
 		"text": "<b>Quando Rivelata</b>: Sei confuso. Se sei già confuso, questa carta ottiene Impulso."
 	},
 	{
-		"attack_text": "<b>Interruzione Obbligata</b>: Quando Klaw attacca, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione..",
 		"code": "01113",
 		"flavor": "\"Vieni ad Affrontare il tuo destino!\"",
 		"name": "Klaw",
+		"text": "[star] <b>Interruzione Obbligata</b>: Quando Klaw attacca, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione..",
 		"traits": "Signore del Male."
 	},
 	{
-		"attack_text": "<b>Interruzione Obbligata</b>: Quando Klaw attacca, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione..",
 		"code": "01114",
 		"name": "Klaw",
-		"text": "<b>Quando Rivelata</b>: Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Klaw l'Immortale e rivelalo. Mescola il mazzo degli incontri.",
+		"text": "<b>Quando Rivelata</b>: Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Klaw l'Immortale e rivelalo. Mescola il mazzo degli incontri.\n[star] <b>Interruzione Obbligata</b>: Quando Klaw attacca, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione.",
 		"traits": "Signore del Male."
 	},
 	{
-		"attack_text": "<b>Interruzione Obbligata</b>: Quando Klaw attacca, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione..",
 		"code": "01115",
 		"name": "Klaw",
-		"text": "Robustezza. <i>(Questo personaggio entra in gioco con 1 carta status Robusto.)</i>",
+		"text": "Robustezza. <i>(Questo personaggio entra in gioco con 1 carta status Robusto.)</i>\n[star] <b>Interruzione Obbligata</b>: Quando Klaw attacca, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione.",
 		"traits": "Signore del Male."
 	},
 	{
@@ -157,10 +154,9 @@
 		"text": "<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
 	},
 	{
-		"attack_text": "<b>Risposta Obbligata</b>: Dopo che Klaw ha attaccato e danneggiato un personaggio, stordisci quel personaggio.",
 		"code": "01118",
 		"name": "Convertitore Sonico",
-		"text": "Assegna a Klaw.\n<b>Azione Eroe</b>: Spendi [energy] [mental] [physical] → scarta questa carta.",
+		"text": "Assegna a Klaw.\n[star] <b>Risposta Obbligata</b>: Dopo che Klaw ha attaccato e danneggiato un personaggio, stordisci quel personaggio.\n<b>Azione Eroe</b>: Spendi [energy] [mental] [physical] → scarta questa carta.",
 		"traits": "Arma."
 	},
 	{
@@ -176,10 +172,9 @@
 		"traits": "Mercenario."
 	},
 	{
-		"boost_text": "<b>Potenziamento</b>: Metti in gioco Trafficante d'Armi impegnato con te.",
 		"code": "01121",
 		"name": "Trafficante d'Armi",
-		"text": "Impulso. <i>(Dopo che questa carta è stata rivelata, rivela 1 carta incontro aggiuntiva.)</i>",
+		"text": "Impulso. <i>(Dopo che questa carta è stata rivelata, rivela 1 carta incontro aggiuntiva.)</i>\n<hr />\n[star] <b>Potenziamento</b>: Metti in gioco Trafficante d'Armi impegnato con te.",
 		"traits": "Mercenario."
 	},
 	{
@@ -188,10 +183,9 @@
 		"text": "<b>Quando Rivelata (Alter Ego)</b>:Scarta 1 carta casuale dalla tua mano.\n<b>Quando Rivelata (Eroe)</b>: Klaw ti attacca. se questo attacco infligge danni, colloca 1 minaccia sulla trama principale."
 	},
 	{
-		"boost_text": "<b>Potenziamento</b>: Se questa attivazione ti infligge danni, esaurisci il tuo eroe.",
 		"code": "01123",
 		"name": "Boato Sonico",
-		"text": "<b>Quando Rivelata</b>: Scegli se spendere [energy] [mental] [physical] oppure esaurire ogni personaggio che controlli."
+		"text": "<b>Quando Rivelata</b>: Scegli se spendere [energy] [mental] [physical] oppure esaurire ogni personaggio che controlli.\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione ti infligge danni, esaurisci il tuo eroe."
 	},
 	{
 		"code": "01124",
@@ -223,31 +217,27 @@
 		"text": "<b>Quando Rivelata</b>: Scarta carte dal mazzo degli incontri finchè non scarti 1 gregario [[Signore del Male]]. Metti in gioco quel gregario impegnato con il primo giocatore."
 	},
 	{
-		"attack_text": "<b>Risposta Obbligata</b>: Dopo che Uomo Radioattivo ti ha attaccato, scarta 1 carta casuale dalla tua mano.",
-		"boost_text": "<b>Potenziamento</b>: Scarta 1 carta casuale dalla tua mano.",
 		"code": "01129",
 		"name": "Uomo Radioattivo",
+		"text": "[star] <b>Risposta Obbligata</b>: Dopo che Uomo Radioattivo ti ha attaccato, scarta 1 carta casuale dalla tua mano.\n<hr />\n[star] <b>Potenziamento</b>: Scarta 1 carta casuale dalla tua mano.",
 		"traits": "Elite. Signore del Male."
 	},
 	{
-		"attack_text": "<b>Risposta Obbligata</b>: Quando Turbine ti attacca, risolvi il suo attacco anche contro ogni altro eroe.",
-		"boost_text": "<b>Potenziamento</b>: Infliggi 1 danno a ogni altro eroe.",
 		"code": "01130",
 		"name": "Turbine",
+		"text": "[star] <b>Risposta Obbligata</b>: Quando Turbine ti attacca, risolvi il suo attacco anche contro ogni altro eroe.\n<hr />\n[star] <b>Potenziamento</b>: Infliggi 1 danno a ogni altro eroe.",
 		"traits": "Signore del Male."
 	},
 	{
-		"attack_text": "<b>Risposta Obbligata</b>: Dopo che Squalo Tigre ti ha attaccato, irrobustiscilo.",
-		"boost_text": "<b>Potenziamento</b>: Irrobustisci il criminale.",
 		"code": "01131",
 		"name": "Squalo Tigre",
+		"text": "[star] <b>Risposta Obbligata</b>: Dopo che Squalo Tigre ti ha attaccato, irrobustiscilo.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci il criminale.",
 		"traits": "Signore del Male."
 	},
 	{
-		"attack_text": "Il giocatore impegnato deve difendere dagli attacchi di Melter con un alleato, se possibile.",
-		"boost_text": "<b>Potenziamento</b>: Esaurisci ogni alleato che controlli.",
 		"code": "01132",
 		"name": "Melter",
+		"text": "[star] Il giocatore impegnato deve difendere dagli attacchi di Melter con un alleato, se possibile.\n<hr />\n[star] <b>Potenziamento</b>: Esaurisci ogni alleato che controlli.",
 		"traits": "Signore del Male."
 	},
 	{
@@ -256,15 +246,15 @@
 		"text": "<b>Quando Rivelata</b>: ogni gregario [Signore del Male]] attacca l'eroe con cui è impegnato. Se nessun attacco è stato effettuato in questo modo, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario [[Signore del Male]] e mettilo in gioco impegnato con te, poi mescola il mazzo degli incontri."
 	},
 	{
-		"attack_text": "<b>Risposta Obbligata</b>: Dopo che Ultron ti ha attaccato, scegli se collocare 1 minaccia sulla trama principale oppure mettere in gioco a faccia in giù 1 carta dalla cima del tuo mazzo, impegnata con te come gregario [[Drone]].",
 		"code": "01134",
 		"name": "Ultron",
+		"text": "[star] <b>Risposta Obbligata</b>: Dopo che Ultron ti ha attaccato, scegli se collocare 1 minaccia sulla trama principale oppure mettere in gioco a faccia in giù 1 carta dalla cima del tuo mazzo, impegnata con te come gregario [[Drone]].",
 		"traits": "Androide."
 	},
 	{
-		"attack_text": "<b>Interruzione Obbligata</b>: Quando Ultron ti attacca, metti in gioco a faccia in giù 1 carta dalla cima del tuo mazzo, impegnata con te come gregario [[Drone]]. Fino alla fine di questo attacco, Ultron riceve +1 ATT per ogni gregario [[Drone]] impegnato con te.",
 		"code": "01135",
 		"name": "Ultron",
+		"text": "[star] <b>Interruzione Obbligata</b>: Quando Ultron ti attacca, metti in gioco a faccia in giù 1 carta dalla cima del tuo mazzo, impegnata con te come gregario [[Drone]]. Fino alla fine di questo attacco, Ultron riceve +1 ATT per ogni gregario [[Drone]] impegnato con te.",
 		"traits": "Androide."
 	},
 	{
@@ -305,8 +295,7 @@
 	{
 		"code": "01141",
 		"name": "Trasmettitore di Codice",
-		"scheme_text": "<b>Risposta Obbligata</b>: Dopo che Ultron ha tramato, colloca 1 minaccia su ogni trama secondaria.",
-		"text": "Assegna a Ultron\n<b>Azione Eroe</b>: Esaurisci il tuo eroe e spendi [mental] [mental] → scarta questa carta.",
+		"text": "Assegna a Ultron\n[star] <b>Risposta Obbligata</b>: Dopo che Ultron ha tramato, colloca 1 minaccia su ogni trama secondaria.\n<b>Azione Eroe</b>: Esaurisci il tuo eroe e spendi [mental] [mental] → scarta questa carta.",
 		"traits": "Oggetto. Tecnologia."
 	},
 	{
@@ -322,22 +311,19 @@
 		"traits": "Drone."
 	},
 	{
-		"boost_text": "Scegli se spendere [energy] oppure mettere in gioco a faccia in giù 1 carta dalla cima del tuo mazzo, impegnata con te come gregario [[Drone]].",
 		"code": "01144a",
 		"name": "Efficienza Androide",
-		"text": "<b>Quando Rivelata</b>: Ogni giocatore mette in gioco a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]]."
+		"text": "<b>Quando Rivelata</b>: Ogni giocatore mette in gioco a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]].\n<hr />\n[star] <b>Potenziamento</b>: Scegli se spendere [energy] oppure mettere in gioco a faccia in giù 1 carta dalla cima del tuo mazzo, impegnata con te come gregario [[Drone]]."
 	},
 	{
-		"boost_text": "Scegli se spendere [mental] oppure mettere in gioco a faccia in giù 1 carta dalla cima del tuo mazzo, impegnata con te come gregario [[Drone]].",
 		"code": "01144b",
 		"name": "Efficienza Androide",
-		"text": "<b>Quando Rivelata</b>: Ogni giocatore mette in gioco a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]]."
+		"text": "<b>Quando Rivelata</b>: Ogni giocatore mette in gioco a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]].\n<hr />\n[star] <b>Potenziamento</b>: Scegli se spendere [mental] oppure mettere in gioco a faccia in giù 1 carta dalla cima del tuo mazzo, impegnata con te come gregario [[Drone]]."
 	},
 	{
-		"boost_text": "Scegli se spendere [physical] oppure mettere in gioco a faccia in giù 1 carta dalla cima del tuo mazzo, impegnata con te come gregario [[Drone]].",
 		"code": "01144c",
 		"name": "Efficienza Androide",
-		"text": "<b>Quando Rivelata</b>: Ogni giocatore mette in gioco a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]]."
+		"text": "<b>Quando Rivelata</b>: Ogni giocatore mette in gioco a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]].\n<hr />\n[star] <b>Potenziamento</b>: Scegli se spendere [physical] oppure mettere in gioco a faccia in giù 1 carta dalla cima del tuo mazzo, impegnata con te come gregario [[Drone]]."
 	},
 	{
 		"code": "01145",
@@ -345,10 +331,9 @@
 		"text": "<b>Quando Rivelata (Alter Ego)</b>: Ultron trama.Scarta 1 carta dalla cima del tuo mazzo per ogni minaccia collocata in questo modo.\n<b>Quando Rivelata (Eroe)</b>: Ultron ti attacca.Scarta 1 carta dalla cima del tuo mazzo per ogni danno inflitto da questo attacco."
 	},
 	{
-		"boost_text": "Ultron si cura 1 danno per ogni gregario [[Drone]] impegnato con te.",
 		"code": "01146",
 		"name": "Sequenza di Riparazione",
-		"text": "<b>Quando Rivelata</b>: Ultron si cura 2 danni per ogni gregario [[Drone]] impegnato con te. Se nessun danno è stato curato in questo modo, questa carta ottiene Impulso."
+		"text": "<b>Quando Rivelata</b>: Ultron si cura 2 danni per ogni gregario [[Drone]] impegnato con te. Se nessun danno è stato curato in questo modo, questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Ultron si cura 1 danno per ogni gregario [[Drone]] impegnato con te."
 	},
 	{
 		"code": "01147",
@@ -391,10 +376,9 @@
 		"traits": "Arma."
 	},
 	{
-		"boost_text": "Infliggi 1 danno a ogni personaggio che controlli.",
 		"code": "01154",
 		"name": "Scarica concussiva",
-		"text": "<b>Quando Rivelata</b>: Infliggi 1 danno a ogni personaggio amico."
+		"text": "<b>Quando Rivelata</b>: Infliggi 1 danno a ogni personaggio amico.\n<hr />\n[star] <b>Potenziamento</b>: Infliggi 1 danno a ogni personaggio che controlli."
 	},
 	{
 		"code": "01155",
@@ -414,10 +398,9 @@
 		"traits": "Assassino. Elite. Mercenario."
 	},
 	{
-		"boost_text": "Irrobustisci il criminale.",
 		"code": "01158",
 		"name": "Erba a Foglia di Cuore",
-		"text": "Impulso. <i>(Dopo che questa carta è stata rivelata, rivela 1 carta incontro aggiuntiva.)</i>\n<b>Quando Rivelata</b>: Irrobustisci il criminale e ogni gregario impegnato con te."
+		"text": "Impulso. <i>(Dopo che questa carta è stata rivelata, rivela 1 carta incontro aggiuntiva.)</i>\n<b>Quando Rivelata</b>: Irrobustisci il criminale e ogni gregario impegnato con te.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci il criminale."
 	},
 	{
 		"code": "01159",
@@ -449,10 +432,9 @@
 		"traits": "Condizione."
 	},
 	{
-		"boost_text": "Fai ricevere 1 carta potenziamento aggiuntiva al criminale per questa attivazione.",
 		"code": "01164",
 		"name": "Furia di Titania",
-		"text": "<b>Quando Rivelata</b>: Titania attacca il tuo eroe. Se Titania non ha attaccato, cura tutti i danni a Titania e questa carta ottiene Impulso."
+		"text": "<b>Quando Rivelata</b>: Titania attacca il tuo eroe. Se Titania non ha attaccato, cura tutti i danni a Titania e questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Fai ricevere 1 carta potenziamento aggiuntiva al criminale per questa attivazione."
 	},
 	{
 		"code": "01165",
@@ -472,10 +454,9 @@
 		"traits": "Criminale."
 	},
 	{
-		"boost_text": "Se questa attivazione infligge danni a un personaggio amico, stordisci quel personaggio.",
 		"code": "01168",
 		"name": "Attacco in Picchiata",
-		"text": "<b>Quando Rivelata</b>: Stordisci il tuo eroe. Se Avvoltoio è in gioco, questa carta ottiene Impulso."
+		"text": "<b>Quando Rivelata</b>: Stordisci il tuo eroe. Se Avvoltoio è in gioco, questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione infligge danni a un personaggio amico, stordisci quel personaggio."
 	},
 	{
 		"code": "01169",
@@ -502,10 +483,9 @@
 		"traits": "Criminale"
 	},
 	{
-		"boost_text": "<b>Potenziamento</b>:Se il criminale effettua un attacco non difeso, scegli e scarta 1 miglioria che controlli.",
 		"code": "01173",
 		"name": "Frustata Elettrica",
-		"text": "<b>Quando Rivelata</b>: Scegli se infliggere 1 danno al tuo eroe per ogni miglioria che controlli oppure scegliere e scartare 1 miglioria che controlli."
+		"text": "<b>Quando Rivelata</b>: Scegli se infliggere 1 danno al tuo eroe per ogni miglioria che controlli oppure scegliere e scartare 1 miglioria che controlli.\n<hr />\n[star] <b>Potenziamento</b>:Se il criminale effettua un attacco non difeso, scegli e scarta 1 miglioria che controlli."
 	},
 	{
 		"code": "01174",
@@ -525,17 +505,16 @@
 		"text": "<b>Quando Rivelata</b>: Colloca 1 minaccia [per_hero] aggiuntiva su questa carta."
 	},
 	{
-		"attack_text": "<b>Risposta Obbligata</b>: Dopo che Yon-Rogg ha attaccato, colloca 1 minaccia su Psico-Magnitron.",
 		"code": "01177",
 		"flavor": "\"Non è vero potere finchè non ti temono.\"",
 		"name": "Yon-Rogg",
+		"text": "[star] <b>Risposta Obbligata</b>: Dopo che Yon-Rogg ha attaccato, colloca 1 minaccia su Psico-Magnitron.",
 		"traits": "Elite. Kree."
 	},
 	{
-		"boost_text": "Se il criminale effettua un attacco non difeso, colloca 1 minaccia sulla trama principale.",
 		"code": "01178",
 		"name": "Manipolatore Kree",
-		"text": "Impulso. <i>(Dopo che questa carta è stata rivelata, rivela 1 carta incontro aggiuntiva.)</i>\n<b>Quando Rivelata</b>: Colloca 1 minaccia sulla trama principale."
+		"text": "Impulso. <i>(Dopo che questa carta è stata rivelata, rivela 1 carta incontro aggiuntiva.)</i>\n<b>Quando Rivelata</b>: Colloca 1 minaccia sulla trama principale.\n<hr />\n[star] <b>Potenziamento</b>: Se il criminale effettua un attacco non difeso, colloca 1 minaccia sulla trama principale."
 	},
 	{
 		"code": "01179",
@@ -549,11 +528,9 @@
 		"text": "<b>Quando Rivelata</b>: Se Madame hydra non è in gioco, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Madame Hydra e mettila in gioco impegnata con te, poi mescola il mazzo degli incontri. Colloca 2 minacce aggiuntive su questa carta per ogni nemico [[Hydra]] in gioco."
 	},
 	{
-		"attack_text": "<b>Risposta Obbligata</b>: Dopo che Madame Hydra ha tramato o attaccato, colloca 2 minacce sulla trama secondaria Legioni dell'Hydra.",
 		"code": "01181",
 		"name": "Madame Hydra",
-		"scheme_text": "<b>Risposta Obbligata</b>: Dopo che Madame Hydra ha tramato o attaccato, colloca 2 minacce sulla trama secondaria Legioni dell'Hydra.",
-		"text": "Mentre la trama secondaria Legioni dell'Hydra è in gioco, Madame Hydra non può subire danni.",
+		"text": "Mentre la trama secondaria Legioni dell'Hydra è in gioco, Madame Hydra non può subire danni.\n[star] <b>Risposta Obbligata</b>: Dopo che Madame Hydra ha tramato o attaccato, colloca 2 minacce sulla trama secondaria Legioni dell'Hydra.",
 		"traits": "Elite. Hydra."
 	},
 	{

@@ -1,165 +1,191 @@
 [
-	{
-		"code": "34001a",
-		"name": "Phoenix",
-		"text": "<i>Psionic Bond</i> - <b>Hero Resource</b>: Remove 1 power counter from Phoenix Force → generate a [wild] resource. (Limit once per phase).",
-		"traits": "Psionic. X-Men."
-	},
-	{
-		"code": "34001b",
-		"name": "Jean Grey",
-		"text": "<b>Setup</b>: Put your Phoenix Force upgrade into play,  [[RESTRAINED]] side faceup. Place 4 power counters on it.\n[star]<b>Response</b>: After you make a basic recovery, place 1 power counter on Phoenix Force.",
-		"traits": "Mutant. Psionic."
-	},
-	{
-		"code": "34002a",
-		"name": "Phoenix Force A",
-		"text": "Permanent.\nYou gain the [[RESTRAINED]] trait.\n<b>Forced Response</b>: After the last power counter is removed from here, flip this card.",
-		"traits": "Restrained."
-	},
-	{
-		"code": "34002b",
-		"name": "Phoenix Force B",
-		"text": "Permanent.\nYou gain the [[UNLEASHED]] trait.\nPhoenix gets -2 THW and +2 ATK.\n<b>Forced Response</b>: After a power counter is placed here, if there are 4 or more power counters here, flip this card.",
-		"traits": "Unleashed."
-	},
-	{
-		"code": "34003",
-		"name": "Cyclops",
-		"text": "<b>Response</b>: After Cyclops enters play, place 2 power counters on Phoenix Force.\n<b>Response</b>: When Cyclops leaves play, remove 2 power counters from Phoenix Force.",
-		"traits": "X-Men."
-	},
-	{
-		"code": "34004",
-		"name": "White Hot Room",
-		"text": "<b>Alter-Ego Action</b>: Exhaust White Hot Room → choose:\\• Place 1 power counter on Phoenix Force.\n• Heal 2 damage from Jean Grey.",
-		"traits": "Location. Phoenix."
-	},
-	{
-		"code": "34005",
-		"name": "Phoenix Suit",
-		"text": "Phoenix gains the [[AERIAL]] trait.\nWhile you have the [[RESTRAINED]] trait, you gain steady.\nWhile you have the [[UNLEASHED]] trait, you gain retaliate 1.",
-		"traits": "Item."
-	},
-	{
-		"code": "34006",
-		"name": "Rise from the Ashes",
-		"text": "<b>Interrupt</b>: When you would be defeated, remove this card from the game → ready your identity and restore it to its printed hit point value instead. Remove each power counter from Phoenix Force.",
-		"traits": "Phoenix."
-	},
-	{
-		"code": "34007",
-		"name": "Telekinetic Shield",
-		"text": "Attach to a friendly character.\n<b>Forced Interrupt</b>: When attached character would take damage from an enemy attack, place that damage here instead. Then, if there is at least 5 damage here, discard Telekinetic Shield.",
-		"traits": "Psionic."
-	},
-	{
-		"code": "34008",
-		"name": "Mental Paralysis",
-		"text": "Hero form only. Attach to a non-[[ELITE]] minion.\nAttached minion cannot activate.\n<b>Forced Interrupt</b>: After you flip to alter-ego form, discard this card.",
-		"traits": "Psionic."
-	},
-	{
-		"code": "34009",
-		"name": "Mind Control",
-		"text": "Attach to a non-[[ELITE]] minion.\nTake control of attached minion and treat it as a [[CONTROLLED]] ally with a blank text box. Its THW is equal to its printed SCH and it takes 1 consequential damage after it thwarts or attacks.",
-		"traits": "Condition. Psionic."
-	},
-	{
-		"code": "34010",
-		"name": "Telekinetic Attack",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 7 damage to an enemy. If you have the [[UNLEASHED]] trait, this attack deals 2 additional damage and gains overkill.",
-		"traits": "Attack. Psionic."
-	},
-	{
-		"code": "34011",
-		"name": "Psychic Blast",
-		"text": "<b>Hero Action</b>: Deal 4 damage to the villain. If you have the [[UNLEASHED]] trait, deal 4 damage to each minion engaged with you.",
-		"traits": "Psionic."
-	},
-	{
-		"code": "34012",
-		"name": "Telepathic Trickery",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 4 threat from a scheme. If you have the [[UNLEASHED]] trait, stun and confuse an enemy.",
-		"traits": "Psionic. Thwart."
-	},
-	{
-		"code": "34013",
-		"name": "Phoenix Firebird",
-		"text": "<b>Hero Action</b>: Choose:\\• Remove 1 power counter from Phoenix Force → ready Phoenix.\n• Place 2 power counters on Phoenix Force.",
-		"traits": "Phoenix."
-	},
-	{
-		"code": "34014",
-		"name": "Banshee",
-		"subname": "Sean Cassidy",
-		"text": "[star]<b>Response</b>: After Banshee thwarts, confuse a minion.",
-		"traits": "Aerial. X-Men."
-	},
-	{
-		"code": "34015",
-		"name": "Marvel Girl",
-		"subname": "Rachel Summers",
-		"text": "[star]<b>Interrupt</b>: When Marvel Girl Attacks a minion, remove X threat from the main scheme, where X is that minion's printed SCH.",
-		"traits": "Psionic. X-Men."
-	},
-	{
-		"code": "34016",
-		"name": "Mission Training",
-		"text": "Attach to an [[X-MEN]] ally. Max 1 [[TRAINING]] upgrade per ally.\nAttached ally gets +1 THW point and +2 hit points.",
-		"traits": "Training."
-	},
-	{
-		"code": "34017",
-		"name": "Psychic Manipulation",
-		"text": "Play only if your identity has the [[PSIONIC]] trait.<b>Interrupt</b> <i>(thwart)</i>: When the villain schemes, this activation removes threat instead of placing it.",
-		"traits": "Psionic. Thwart."
-	},
-	{
-		"code": "34018",
-		"name": "Mutant Peacekeepers",
-		"text": "Play only if your identity has the [[X-MEN]] trait.<b>Hero Action</b> <i>(thwart)</i>: Exhaust your hero and any number of [[X-MEN]] allies → remove X threat from among schemes in play, where X is the total THW of those characters.",
-		"traits": "Thwart."
-	},
-	{
-		"code": "34020",
-		"name": "Passion for Justice",
-		"text": "Max 2 per deck.\n<b>Interrupt</b>: When you spend this card to play a [[THWART]] event, that event removes 1 additional threat."
-	},
-	{
-		"code": "34021",
-		"name": "Storm",
-		"subname": "Ororo Munroe",
-		"text": "Reduce the cost to play Storm by 1 if your identity has the [[MUTANT]] or [[X-MEN]] trait.\n[star]<b>Interrupt</b>: When Storm thwarts a scheme, move 2 threat from that scheme to another scheme.",
-		"traits": "Aerial. X-Men."
-	},
-	{
-		"code": "34022",
-		"name": "Cerebro",
-		"text": "Play only if your identity has the [[MUTANT]] trait.\n<b>Alter-Ego Action</b>: Exhaust Cerebro → search the top 5 cards of your deck for an [[X-MEN]] ally (search your whole deck instead if you control a [[PSIONIC]] character) and add that ally to your hand. <i>(Shuffle.)</i>",
-		"traits": "Location. X-Men."
-	},
-	{
-		"code": "34032",
-		"name": "Psychic Assault",
-		"text": "Play only if your identity has the [[PSIONIC]] trait.\n<b>Hero Action</b> <i>(attack)</i>: Deal 3 damage to an enemy. Confuse that enemy.",
-		"traits": "Attack. Psionic."
-	},
-	{
-		"code": "34033",
-		"name": "Psychic Misdirection",
-		"text": "Play only if your identity has the [[PSIONIC]] trait.\n<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks you, choose a different enemy → damage from that attack is dealt to the chosen enemy instead of you.",
-		"traits": "Defense. Psionic."
-	},
-	{
-		"code": "34034",
-		"name": "Psychic Kicker",
-		"text": "Play only if your identity has the [[PSIONIC]] trait.\n<b>Hero Action</b>: Ready an ally. That ally gets +2 THW and +2 ATK for its next basic thwart or attack action this phase.",
-		"traits": "Psionic."
-	},
-	{
-		"code": "34035",
-		"name": "Soul Sisters",
-		"text": "Team-Up (Phoenix and Storm). Max 1 per deck.\n<b>Hero Action</b>: Ready Phoenix and Storm. Heal 2 damage from each of them."
-	}
+    {
+        "code": "34001a",
+        "name": "Fenice",
+        "text": "<i>Legame Psionico</i> - <b>Risposta Eroe</b>: Rimuovi 1 gettone potere da Forza Fenice → genera [wild]. (Limite di una volta per fase).",
+        "traits": "Psionico. X-Men.",
+        "flavor": "\"La Fenice mi ha scelta, ma solo io posso decidere chi sono!\""
+    },
+    {
+        "code": "34001b",
+        "name": "Jean Grey",
+        "text": "<b>Preparazione</b>: Metti in gioco la tua miglioria Forza Fenice, con il lato [[VINCOLATA]] a faccia in su. Colloca 4 gettoni potere su di essa.\n[star]<b>Risposta</b>: Dopo che hai effettuato un recupero base, colloca 1 gettone potere su Forza Fenice.",
+        "traits": "Mutante. Psionico."
+    },
+    {
+        "code": "34002a",
+        "name": "Forza Fenice",
+        "text": "Permanente.\nOttieni il tratto [[VINCOLATA]].\n<b>Risposta Obbligata</b>: Dopo che l'ultimo gettone potere è stato rimosso da questa carta, girala.",
+        "traits": "Vincolata."
+    },
+    {
+        "code": "34002b",
+        "name": "Forza Fenice",
+        "text": "Permanente.\nOttiene il tratto [[SCATENATA]].\nFenice riceve -2 INT e +2 ATT.\n<b>Risposta Obbligata</b>: Dopo che 1 o più gettoni potere sono stati collocati su questa carta, se ci sono 4 o più gettoni potere su questa carta, girala.",
+        "traits": "Scatenata."
+    },
+    {
+        "code": 34003,
+        "name": "Ciclope",
+        "text": "<b>Risposta</b>: Dopo che Ciclope è entrato in gioco, colloca 2 gettoni potere su Forza Fenice.\n<b>Risposta</b>: Quando Ciclope esce dal gioco, rimuovi 2 gettoni potere da Forza Fenice.",
+        "traits": "X-Men.",
+        "subname": "Scott Summers"
+    },
+    {
+        "code": 34004,
+        "name": "Stanza Incandescente",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Stanza Incandescente → scegli un effetto tra:\n• Colloca 1 gettone potere su Forza Fenice.\n• Cura 2 danni a Jean Grey.",
+        "traits": "Fenice. Luogo."
+    },
+    {
+        "code": 34005,
+        "name": "Tuta della Fenice",
+        "text": "Fenice ottiene il tratto [[AEREO]].\nMentre possiedi il tratto [[VINCOLATA]], ottieni Tempra.\nMentre possiedi il tratto [[SCATENATA]], ottieni Ritorsione 1.",
+        "traits": "Oggetto."
+    },
+    {
+        "code": 34006,
+        "name": "Sorgere dalle Ceneri",
+        "text": "<b>Interruzione</b>: Quando stai per essere sconfitto, rimuovi dal gioco questa carta → ripristina invece la tua identità e regola i tuoi punti ferita al valore stampato. Rimuovi ogni gettone potere da Forza Fenice.",
+        "traits": "Fenice."
+    },
+    {
+        "code": 34007,
+        "name": "Scudo Telecinetico",
+        "text": "Assegna a un personaggio amico.\n<b>Interruzione Obbligata</b>: Quando il personaggio con questa miglioria sta per subire danni da un attacco nemico, colloca invece quei danni su questa carta. Poi, se ci sono 5 o più danni su questa carta, scarta Scudo Telecinetico.",
+        "traits": "Psionico."
+    },
+    {
+        "code": 34008,
+        "name": "Paralisi Mentale",
+        "text": "Solo sembianza di eroe. Assegna a un gregario non [[ELITE]].\nIl gregario con questa miglioria non può attivarsi..\n<b>Risposta Obbligata</b>: Dopo che hai assunto la sembianza di alter ego, scarta questa carta.",
+        "traits": "Psionico."
+    },
+    {
+        "code": 34009,
+        "name": "Controllo Mentale",
+        "text": "Assegna a un gregario non [[ELITE]].\nPrendi il controllo del gregario con questa miglioria e consideralo un alleato [[CONTROLLATO]] con un riquadro di testo vuoto. Il suo INT è pari alla sua TRA stampata e subisce 1 danno conseguente dopo che è intervenuto o ha attaccato.",
+        "traits": "Condizione. Psionico."
+    },
+    {
+        "code": 34010,
+        "name": "Attacco Telecinetico",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 7 danni a un nemico. Se possiedi il tratto [[SCATENATA]], questo attacco infligge 2 danni aggiuntivi e ottiene Sopraffazione.",
+        "traits": "Attacco. Psionico.",
+        "flavor": "\"Povero sciocco, non hai idea di quanto disperatamente tu sia in svantaggio!\" — Fenice"
+    },
+    {
+        "code": 34011,
+        "name": "Scarica Psichica",
+        "text": "<b>Azione Eroe</b>: Infliggi 4 danni al criminale. Se possiedi il tratto [[SCATENATA]], infliggi 4 danni a ogni gregario impegnato con te.",
+        "traits": "Psionico.",
+        "flavor": "\"Combattiamo su campi di battaglia differenti: la tua forza fisica non ti sarà di aiuto nel mio.\" — Fenice"
+    },
+    {
+        "code": 34012,
+        "name": "Trucchetto Telepatico",
+        "text": "<b>Azione Eroe</b> <i>(Intervento)</i>: Rimuovi 4 minacce da una trama. Se possiedi il tratto [[SCATENATA]], stordisci e confondi 1 nemico.",
+        "traits": "Psionico. Intervento.",
+        "flavor": "\"Non possono vederci perchè non glielo permetto.\" — Fenice"
+    },
+    {
+        "code": 34013,
+        "name": "Rapace di Fuoco",
+        "text": "<b>Azione Eroe</b>: Scegli 1 effetto tra:\n• Rimuovi 1 gettone potere da Forza Fenice → ripristina Fenice.\n• Colloca 2 gettoni potere su Forza Fenice.",
+        "traits": "Fenice."
+    },
+    {
+        "code": 34014,
+        "name": "Banshee",
+        "text": "[star]<b>Risposta</b>: Dopo che Banshee è intervenuto, confondi 1 gregario.",
+        "traits": "Aereo. X-Men.",
+        "subname": "Sean Cassidy",
+        "flavor": "\"Mi sa che farete meglio a coprirvi le orecchie, ragazzi... Farà male!\""
+    },
+    {
+        "code": 34015,
+        "name": "Marvel Girl",
+        "text": "[star]<b>Interruzione</b>: Quando Marvel Girl attacca un gregario, rimuovi X minacce dalla trama principale, dove X è pari alla TRA stampata di quel gregario..",
+        "traits": "Psionico. X-Men.",
+        "subname": "Rachel Summers",
+        "flavor": "\"Qualsiasi cosa tu stia tramando, ora è finita.\""
+    },
+    {
+        "code": 34016,
+        "name": "Addestramento alla \nMissione",
+        "text": "Assegna a un alleato [[X-MEN]]. Massimo 1 miglioria [[ADDESTRAMENTO]] per alleato.\nL'alleato con questa miglioria riceve +1 INT e +2 punti ferita.",
+        "traits": "Addestramento."
+    },
+    {
+        "code": 34017,
+        "name": "Manipolazione Psichica",
+        "text": "Gioca solo se la tua identità possiede il tratto [[PSIONICO]].\r\n<b>Interruzione</b> <i>(intervento)</i>: Quando il criminale trama, quell'attivazione rimuove minacce invece di collocarle.",
+        "traits": "Psionico. Intervento."
+    },
+    {
+        "code": 34018,
+        "name": "Pacificatori Mutanti",
+        "text": "Gioca solo se la tua identità possiede il tratto [[X-MEN]].<b>Azione Eroe</b> <i>(intervento)</i>:Esaurisci il tuo eroe e un qualsiasi numero di alleati [[X-MEN]] → rimuovi un totale di X minacce dalle trame in gioco, dove X è pari all'INT totale di quei personaggi.",
+        "traits": "Intervento."
+    },
+    {
+        "code": 34019,
+        "name": "Rappresaglia Fulminea",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Il criminale trama. Infliggi 4 danni al criminale.",
+        "traits": "Attacco.",
+        "flavor": "\"Hanno preso ciò che non gli apparteneva. Che ne pensi se ce lo andiamo a riprendere, mon ami?\" —Gambit"
+    },
+    {
+        "code": 34020,
+        "name": "Passione per la Giustizia",
+        "text": "Massimo 2 per mazzo.\n<b>Interruzione</b>: Quando hai speso le risorse di questa carta per giocare un evento [[INTERVENTO]] quell'evento rimuove 1 minaccia aggiuntiva."
+    },
+    {
+        "code": 34021,
+        "name": "Tempesta",
+        "text": "Se la tua identità possiede il tratto [[MUTANTE]] o [[X-MEN]] riduci di 1 il costo per giocare Tempesta.\n[star]<b>Interruzione</b>: Quando Tempesta interviene su una trama, sposta 2 minacce da quella trama a un'altra trama.",
+        "traits": "Aereo. X-Men.",
+        "subname": "Ororo Munroe"
+    },
+    {
+        "code": 34022,
+        "name": "Cerebro",
+        "text": "Gioca solo se la tua identità possiede il tratto [[MUTANT]].\n<b>Azione Alter Ego</b>: Esaurisci Cerebro → cerca tra le 5 carte in cima al tuo mazzo 1 alleato [[X-MEN]] (cerca invece nel tuo mazzo se controlli personaggi [[PSIONICO]]) e aggiungi quell'alleato alla tua mano. <i>(Mescola.)</i>",
+        "traits": "Luogo. X-Men."
+    },
+    {
+        "code": 34023,
+        "name": "Relazione Psichica",
+        "text": "Team-Up (Ciclope e Fenice). Massimo 1 per mazzo.\n<b>Azione Eroe</b>: Ripristina Ciclope e Fenice. Scegli se rimettere nella tua mano 1 carta del set Ciclope dalla tua pila degli scarti oppure collocare 2 gettoni potere su Forza Fenice."
+    },
+    {
+        "code": 34024,
+        "name": "Pausa Pranzo",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\nIl tuo alter ego riceve +2 REC.",
+        "traits": "Condizione.",
+        "flavor": "\"Dovremmo farlo più spesso.\""
+    },
+    {
+        "code": 34032,
+        "name": "Assalto Psichico ",
+        "text": "Gioca solo se la tua identità possiede il tratto [[PSIONICO]].\n<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 3 danni a un nemico. Confondi quel nemico.",
+        "traits": "Attacco. Psionico."
+    },
+    {
+        "code": 34033,
+        "name": "Depistaggio Psichico",
+        "text": "Gioca solo se la tua identità possiede il tratto [[PSIONICO]].\n<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando un nemico ti attacca, scegli 1 nemico diverso → i danni di quell'attacco vengono invece inflitti al nemico scelto.",
+        "traits": "Difesa. Psionico."
+    },
+    {
+        "code": 34034,
+        "name": "Slancio Psichico",
+        "text": "Gioca solo se la tua identità possiede il tratto [[PSIONICO]].\n<b>Azione Eroe</b>: Ripristina 1 alleato. Quell'alleato riceve +2 INT e +2 ATT per il suo prossimo intervento base o attacco base in questa fase.",
+        "traits": "Psionico."
+    },
+    {
+        "code": 34035,
+        "name": "Anime Gemelle",
+        "text": "Team-Up (Fenice e Tempesta). Massimo 1 per mazzo.\n<b>Azione Eroe</b>: Ripristina Fenice e Tempesta. Cura 2 danni a ognuna di esse."
+    }
 ]
