@@ -1,0 +1,963 @@
+[
+    {
+        "code": "45025",
+        "name": "Craindre l'Avenir",
+        "text": "<b><i>Donnez cette carte au joueur de Bishop.</i></b>\nVous pouvez passer sous forme d'alter ego. Choisissez :\n- Inclinez Lucas Bishop → retirez Craindre l'Avenir de la partie.\n- Défaussez cette obligation et chaque carte Ressource de votre main. Si aucune carte Ressource n'est défaussée par cet effet, cette obligation gagne Renfort."
+    },
+    {
+        "code": "45026",
+        "name": "Trevor Fitzroy",
+        "text": "Coup Rapide.\n<b>Réponse forcée</b> : après que Trevor Fitzroy a attaqué et vaincu un allié, placez 2 menaces sur le Portail à Travers le Temps s'il est en jeu. Sinon, trouvez cette manigance annexe et révélez-la.\n<i>(Sbire Némésis de Bishop.)</i>",
+        "traits": "Élite. Temporel."
+    },
+    {
+        "code": "45027",
+        "flavor": "Trevor Fitzroy utilise ses portails temporels pour commettre des crimes et échapper à la justice.",
+        "name": "Portail à Travers le Temps",
+        "text": "<b>Interruption forcée</b> : quand une carte [[TEMPOREL]] est révélée, elle gagne Renfort. (Limite d'une fois par phase.)"
+    },
+    {
+        "code": "45028",
+        "flavor": "\"Il est temps de partir, Trevor.\"",
+        "name": "Bantam",
+        "text": "<b>Une fois révélée</b> : placez 2 menaces sur le Portail à Travers le Temps s'il est en jeu. Sinon, trouvez cette manigance annexe et révélez-la.",
+        "traits": "Temporel."
+    },
+    {
+        "code": "45029",
+        "flavor": "\"Voilà pourquoi j'aime les voyages temporels : on peut cambrioler la même banque encore et encore et ils ont toujours l'air surpris.\" — Trevor Fitzroy",
+        "name": "Tromperie Temporelle",
+        "text": "<b>Une fois révélée</b> : défaussez une carte de votre main ayant le plus d'icônes de ressource imprimées. Placez 1 menace sur chaque manigance pour chaque icône de ressource de la carte défaussée.",
+        "traits": "Temporel."
+    },
+    {
+        "code": "45053",
+        "name": "Darkchilde",
+        "text": "<b><i>Donnez cette carte au joueur d'Illyana Rasputin.</i></b>\nVous pouvez passer sous forme d'alter ego. Choisissez :\n- Inclinez Illyana Rasputin → retirez Darkchilde de la partie.\n- Infligez 1 dégât à chaque personnage que vous contrôlez. Défaussez cette obligation."
+    },
+    {
+        "code": "45054",
+        "name": "Belasco",
+        "text": "Vilenie.\n[star] <b>Réponse forcée</b> : après que Belasco s'est activé contre vous, défaussez les 3 cartes du dessus de votre deck. Si Maître des Limbes est en jeu, attachez-lui ces cartes, face cachée.\n<i>(Sbire Némésis de Magik.)</i>",
+        "traits": "Élite. Les Limbes."
+    },
+    {
+        "code": "45055",
+        "name": "Maître des Limbes",
+        "text": "Aucune menace ne peut être retirée de cette manigance tant que Belasco est en jeu.\n<b>Une fois révélée</b> : le joueur d'Illyana Rasputin trouve la carte \"Les Limbes\" et l'attache ici, face cachée. Quand cette manigance est déjouée, mettez Les Limbes en jeu sous le contrôle de son propriétaire."
+    },
+    {
+        "code": "45056",
+        "flavor": "\"Le boss dit qu'il n'en peut plus de te voir mettre ton nez partout.\"",
+        "name": "S'ym",
+        "text": "Garde.\n<b>Une fois révélée</b> : si Maître des Limbes est en jeu, placez 2 menaces dessus. Sinon, placez 2 menaces sur la manigance principale.",
+        "traits": "Les Limbes."
+    },
+    {
+        "code": "45057",
+        "flavor": "\"Les Limbes sont mon héritage !\"",
+        "name": "Witchfire",
+        "text": "Coup Rapide.\n<b>Réponse forcée</b> : après que Witchfire a attaqué et vaincu un allié, placez 1 menace sur Maître des Limbes. Sinon, placez 1 menace sur la manigance principale.",
+        "traits": "Les Limbes."
+    },
+    {
+        "code": "45058",
+        "name": "Bataille des Limbes",
+        "text": "<b>Une fois révélée</b> : chaque sbire [[LES LIMBES]] en jeu s'active contre le joueur avec lequel il est engagé. Si aucune sbire [[LES LIMBES]] n'est activé par cete effet, cette carte gagne Renfort.\n<hr />\n[star] <b>Boost</b> : si Maître des Limbes est en jeu, placez 2 menaces dessus."
+    },
+    {
+        "code": "45059",
+        "name": "Unus",
+        "text": "Ténacité.\nSi la quantité de menaces sur la Réserve de Gènes est au moins égale à :\n- 3 — Unus gagne Riposte 1.\n- 6 — Unus gagne également Robuste.\n- 9 — Unus gagne également une icône [amplify].",
+        "traits": "Prélat."
+    },
+    {
+        "code": "45060",
+        "name": "Unus",
+        "text": "Ténacité.\nSi la quantité de menaces sur la Réserve de Gènes est au moins égale à :\n- 3 — Unus gagne Riposte 1.\n- 6 — Unus gagne également Robuste.\n- 9 — Unus gagne également une icône [amplify].",
+        "traits": "Prélat."
+    },
+    {
+        "code": "45061",
+        "name": "Unus",
+        "text": "Ténacité.\nSi la quantité de menaces sur la Réserve de Gènes est au moins égale à :\n- 3 — Unus gagne Riposte 1.\n- 6 — Unus gagne également Robuste.\n- 9 — Unus gagne également une icône [amplify].",
+        "traits": "Prélat."
+    },
+    {
+        "code": "45062",
+        "back_text": "<b>Contenu</b> : Unus (I) et Unus (II). <i>(Unus (II) et Unus (III) à la place en mode expert.)</i> Les sets de rencontre Unus, Infinis et Standard. Un set de rencontre modulaire <i>(Cauchemar Dystopique)</i>.\n<b>Mise en place</b> : révélez la manigance annexe Réserve de Gènes. En mode expert, attribuez à chaque joueur une carte Rencontre face cachée.",
+        "flavor": "Le Prélat Unus et son escouade d'Infinis ont envahi les ruines du Manoir X à la recherche des ennemis d'Apocalypse.",
+        "name": "Traquer les Traîtres Génétiques",
+        "text": "[star] <b>Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, placez 1 menace sur Réserve de Gènes.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+    },
+    {
+        "code": "45063",
+        "name": "Arme de Poing de Prélat",
+        "text": "Attachez cette carte à Unus.\n[star] <b>Réponse forcée</b> : après qu'Unus a attaqué et vaincu un allié, placez 1 menace sur Réserve de Gènes.\n<b>Réponse de héros</b> : après que vous avez effectué une attaque de base contre Unus, dépensez les ressources suivantes : [energy] [physical] → défaussez cette carte.",
+        "traits": "Arme."
+    },
+    {
+        "code": "45064",
+        "name": "Armure de Prélat",
+        "text": "Attachez cette carte à Unus.\n[star] <b>Réponse forcée</b> : après qu'Unus a manigancé, donnez-lui une carte d'état Tenace.\n<b>Réponse de héros</b> : après que vous avez effectué une attaque de base contre Unus, dépensez les ressources suivantes : [mental] [physical] → défaussez cette carte.",
+        "traits": "Armure."
+    },
+    {
+        "code": "45065",
+        "name": "Chasseur Infini",
+        "text": "<b>Une fois révélée</b> : infligez 3 dégâts à un allié que vous contrôlez.\n<hr />\n[star] <b>Boost</b> : choisissez : soit vous placez 2 menaces sur la Réserve de Gènes, soit l'ennemi actif gagne +2 MNG et +2 ATQ pour cette activation.",
+        "traits": "Infini."
+    },
+    {
+        "code": "45066",
+        "name": "Expérimentations Génétiques",
+        "text": "Attachez cette carte à un sbire [[INFINI]]. Sinon, cette carte gagne Renfort.\nLe sbire attaché gagne +2 points de vie.\n<b>Interruption forcée</b> : quand le sbire attaché est vaincu, placez 2 menaces sur la Réserve de Gènes.\n<hr />\n[star] <b>Boost</b> : attachez cette carte à un sbire [[INFINI]].",
+        "traits": "Condition."
+    },
+    {
+        "code": "45067",
+        "name": "Prélat Infini",
+        "text": "<b>Une fois révélée</b> : Unus s'active contre vous. Si la quantité de menaces sur la Réserve de Gènes est au moins égale à :\n- 3 — Donnez une carte d'état Tenace à Unus.\n- 6 — Soignez également 3 dégâts d'Unus.\n- 9 — Donnez également à Unus une carte de boost supplémentaire pour cette activation."
+    },
+    {
+        "code": "45068",
+        "flavor": "Les Infinis sont fidèles à leur nom : plus vous en détruisez et plus il y en a.",
+        "name": "Renforts Illimités",
+        "text": "<b>Une fois déjouée</b> : placez 3 menaces sur Réserve de Gènes."
+    },
+    {
+        "code": "45069",
+        "name": "Soldat de l'Infini",
+        "text": "Garde.\nSi la quantité de menaces sur Réserve de Gènes est au moins égale à :\n- 3 — Ce sbire gagne Coup Rapide.\n- 6 — Ce sbire gagne également Renfort.\n- 9 — Ce sbire gagne également +3 points de vie.",
+        "traits": "Infini."
+    },
+    {
+        "flavor": "Les Infinis ont été créés pour réaliser la volonté d'Apocalypse : les faibles doivent périr.",
+        "code": "45070",
+        "name": "Abattre les Faibles",
+        "text": "<b>Une fois révélée</b> : placez 4 menaces sur Réserve de Gènes.\n<hr />\n[star] <b>Boost</b> : Placez 2 menaces sur Réserve de Gènes."
+    },
+    {
+        "code": "45071",
+        "flavor": "Apocalypse utilise le matériel génétique brut de ses victimes pour créer les Infinis.",
+        "name": "Réserve de Gènes",
+        "text": "Permanent. Mise en Place.\n<b>Réponse forcée</b> : après qu'un allié a été vaincu par tout autre moyen que des dégâts consécutifs, placez 3 menaces sur cette manigance."
+    },
+    {
+        "code": "45072",
+        "name": "Traqués",
+        "text": "<b>Action d'alter ego</b> : défaussez une carte de votre main → défaussez cette obligation."
+    },
+    {
+        "code": "45073",
+        "name": "De Guerre Lasse",
+        "text": "<b>Une fois révélée</b> : vous êtes sonné. Si vous êtes déjà sonné, subissez 2 dégâts à la place.\n<hr />\n[star] <b>Boost</b> : vous êtes sonné. Si vous êtes déjà sonné, subissez 2 dégâts à la place."
+    },
+    {
+        "code": "45074",
+        "flavor": "Les Infinis traquent tous ceux que leur maître juge indignes.",
+        "name": "Cible à Exterminer",
+        "text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance désoriente son identité."
+    },
+    {
+        "code": "45075a",
+        "name": "Poursuivi par le passé",
+        "text": "Permanent. Mise en Place.\n<b>Réponse forcée</b> : après avoir placé un jeton Poursuite sur cet environnement, si le nombre de jetons Poursuite qui est dessus est au moins égal à 3 plus le nombre de joueurs, retirez chaque jeton de cette carte → si votre sbire Némésis est en jeu, il s'active contre vous. Sinon, retournez cet environnement."
+    },
+    {
+        "code": "45075b",
+        "name": "Poursuivi par le passé",
+        "text": "Permanent.\n<b>Réponse forcée</b> : après avoir retourné cet environnement sur cette face, trouvez votre sbire Némésis et révélez-le. Cherchez votre manigance annexe Némésis dans la zone \"mis de côté\" et révélez-la. Mélangez dans le deck Rencontre les cartes restantes de votre set de rencontre Némésis mis de côté. Retournez cet environnement."
+    },
+    {
+        "code": "45076",
+        "name": "Sombres Desseins",
+        "text": "<b>Une fois révélée</b> : placez 1 jeton Poursuite sur Poursuivi par le passé. Ensuite, s'il y a au moins un jeton dessus, le méchant manigance.\n<hr />\n[star] <b>Boost</b> : après la résolution de cette activation, placez 1 jeton Poursuite sur Poursuivi par le passé."
+    },
+    {
+        "code": "45077",
+        "name": "Sinistre Frappe",
+        "text": "<b>Une fois révélée (alter ego)</b> : placez 1 jeton Poursuite sur Poursuivi par le passé. Ensuite, s'il y a au moins un jeton dessus, cette carte gagne Renfort.\n<b>Une fois révélée (héros)</b> : placez 1 jeton Poursuite sur Poursuivi par le passé. Ensuite, s'il y a au moins un jeton dessus, le méchant vous attaque."
+    },
+    {
+        "code": "45078",
+        "name": "Alliance Maléfique",
+        "text": "<b>Une fois révélée</b> : chaque sbire Némésis en jeu s'active contre vous. Si aucun sbire n'a été activé par cet effet, placez 3 jetons Poursuite sur Poursuivi par le passé.\n<hr />\n[star] <b>Boost</b> : après la résolution de cette activation, placez 1 jeton Poursuite sur Poursuivi par le passé."
+    },
+    {
+        "code": "45079",
+        "name": "Nul n'est à l'Abri",
+        "text": "<b>Une fois révélée</b> : placez 1 jeton Poursuite sur Poursuivi par le passé. Ensuite, s'il y a au moins un jeton dessus, défaussez une amélioration ou un soutien que vous contrôlez.\n<hr />\n[star] <b>Boost</b> : après la résolution de cette activation, placez 1 jeton Poursuite sur Poursuivi par le passé."
+    },
+    {
+        "code": "45080",
+        "name": "Se Rapprocher",
+        "text": "<b>Réponse forcée</b> : après le début de votre tour, défaussez la carte du dessus de votre deck. Placez 1 jeton Poursuite sur Poursuivi par le passé pour chaque icône de ressource imprimée ainsi défaussée.\n<b>Action d'alter ego</b> : défaussez de votre main une carte spécifique à l'identité → défaussez cette obligation."
+    },
+    {
+        "code": "45081a",
+        "name": "Guerre",
+        "text": "[star] <b>Réponse forcée</b> : après que Guerre vous a attaqué, s'il a au moins 1 point de vie, défaussez une amélioration ou un soutien que vous contrôlez.\n<b>Guerre ne peut pas être vaincu tant qu'un autre méchant a au moins 1 point de vie.</b>",
+        "traits": "Cavaliers."
+    },
+    {
+        "code": "45081b",
+        "name": "Guerre",
+        "text": "[star] <b>Réponse forcée</b> : après que Guerre vous a attaqué, s'il a au moins 1 point de vie, défaussez une amélioration ou un soutien que vous contrôlez.\n<b>Guerre ne peut pas être vaincu tant qu'un autre méchant a au moins 1 point de vie.</b>",
+        "traits": "Cavaliers."
+    },
+    {
+        "code": "45082a",
+        "name": "Famine",
+        "text": "[star] <b>Réponse forcée</b> : après que Famine vous a attaqué, si elle a au moins 1 point de vie, défaussez les 10 cartes du dessus de votre deck.\n<b>Famine ne peut pas être vaincue tant qu'un autre méchant a au moins 1 point de vie.</b>",
+        "traits": "Cavaliers."
+    },
+    {
+        "code": "45082b",
+        "name": "Famine",
+        "text": "[star] <b>Réponse forcée</b> : après que Famine vous a attaqué, si elle a au moins 1 point de vie, défaussez les 10 cartes du dessus de votre deck.\n<b>Famine ne peut pas être vaincue tant qu'un autre méchant a au moins 1 point de vie.</b>",
+        "traits": "Cavaliers."
+    },
+    {
+        "code": "45083a",
+        "name": "Pestilence",
+        "text": "[star] <b>Réponse forcée</b> : après que Pestilence vous a attaqué, si elle a au moins 1 point de vie, considérez la boîte de texte de votre identité comme étant vide <i>(sauf les [[TRAITS]])</i> jusqu'au début de la prochaine phase du Méchant.\n<b>Pestilence ne peut pas être vaincue tant qu'un autre méchant a au moins 1 point de vie.</b>",
+        "traits": "Cavaliers."
+    },
+    {
+        "code": "45083b",
+        "name": "Pestilence",
+        "text": "[star] <b>Réponse forcée</b> : après que Pestilence vous a attaqué, si elle a au moins 1 point de vie, considérez la boîte de texte de votre identité comme étant vide <i>(sauf les [[TRAITS]])</i> jusqu'au début de la prochaine phase du Méchant.\n<b>Pestilence ne peut pas être vaincue tant qu'un autre méchant a au moins 1 point de vie.</b>",
+        "traits": "Cavaliers."
+    },
+    {
+        "code": "45084a",
+        "name": "Mort",
+        "text": "[star] <b>Réponse forcée</b> : après que Mort vous a attaqué, s'il a au moins 1 point de vie, infligez 1 dégât à chaque personnage que vous contrôlez.\n<b>Mort ne peut pas être vaincu tant qu'un autre méchant a au moins 1 point de vie.</b>",
+        "traits": "Aérien. Cavaliers."
+    },
+    {
+        "code": "45084b",
+        "name": "Mort",
+        "text": "[star] <b>Réponse forcée</b> : après que Mort vous a attaqué, s'il a au moins 1 point de vie, infligez 1 dégât à chaque personnage que vous contrôlez.\n<b>Mort ne peut pas être vaincu tant qu'un autre méchant a au moins 1 point de vie.</b>",
+        "traits": "Aérien. Cavaliers."
+    },
+    {
+        "code": "45085",
+        "back_text": "<b>Contenu</b> : Guerre (A), Famine (A), Pestilence (A), Mort (A). Les sets Quatre Cavaliers, Standard et deux sets modulaires <i>(Cauchemar Dystopique et Chiens de Chasse)</i>.\n<b>Mise en place</b> : mélangez les quatre méchants [[CAVALIERS]], puis révélez-les les uns après les autres, en les alignant de gauche à droite. Placez le jeton Actif sur le méchant le plus à gauche (voir livret de règles). Chaque joueur révèle une manigance annexe prise au hasard dans le set de rencontre Quatre Cavaliers.",
+        "flavor": "Les Quatre Cavaliers sont les plus violents serviteurs d'Apocalypse. Ils frappent à tour de rôle, en utilisant leurs pouvoirs collectivement.",
+        "name": "Les Cavaliers d'Apocalypse",
+        "text": "<b>Réponse forcée</b> : après qu'un méchant s'est activé, déplacez le jeton Actif vers le prochain méchant.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+    },
+    {
+        "code": "45086",
+        "name": "Les Ravages de la Guerre",
+        "flavor": "Avec ses bras, Guerre produit des ondes de choc qu'il utilise pour désorienter ses adversaires.",
+        "text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance défausse une amélioration ou un soutien qu'il contrôle."
+    },
+    {
+        "code": "45087",
+        "name": "Le Temps de la Famine",
+        "flavor": "Un simple contact avec Famine suffit pour affaiblir le plus fort des mutants.",
+        "text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance défausse les 10 cartes du dessus de son deck."
+    },
+    {
+        "code": "45088",
+        "name": "Peste et Pestilence",
+        "flavor": "Pestilence utilise son pouvoir pour accabler ses ennemis de maladies infectieuses.",
+        "text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance considère la boîte de texte de son identité comme étant vide <i>(sauf les [[TRAITS]])</i> jusqu'au début de la prochaine phase du Méchant."
+    },
+    {
+        "code": "45089",
+        "name": "Le Spectre de la Mort",
+        "flavor": "L'ombre de la Mort instille la peur dans le cœur des malheureux qu'elle traque.",
+        "text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance inflige 1 dégât à chaque personnage qu'il contrôle."
+    },
+    {
+        "code": "45090",
+        "name": "Cheval Doré",
+        "text": "Attachez cette carte au méchant ayant le moins de points de vie et qui n'a pas le trait [[AÉRIEN]].\nLe méchant attaché gagne le trait [[AÉRIEN]] et est considéré comme ayant au moins 1 point de vie.\n<b>Réponse de héros</b> : après que vous avez attaqué le méchant attaché, résolvez sa \"<b>Réponse forcée</b>\" comme s'il venait de vous attaquer → défaussez cette carte.",
+        "traits": "Objet. Tech."
+    },
+    {
+        "code": "45091",
+        "name": "Ailes Métalliques",
+        "text": "Attachez cette carte à Mort et déplacez le jeton Actif sur lui.\nMort gagne Riposte 1 et est considéré comme ayant au moins 1 point de vie.\n<b>Réponse de héros</b> : après que vous avez attaqué Mort, résolvez sa \"<b>Réponse forcée</b>\" comme s'il venait de vous attaquer → défaussez cette carte.",
+        "traits": "Objet. Tech."
+    },
+    {
+        "code": "45092",
+        "name": "Cavalier de la Guerre",
+        "text": "<b>Une fois révélée</b> : soignez 2 dégâts de Guerre et donnez-lui une carte d'état Tenace. Il s'active contre vous.\n<hr />\n[star] <b>Boost</b> : après cette activation, Guerre s'active contre vous. Ne donnez pas de carte de boost à Guerre pour cette activation."
+    },
+    {
+        "code": "45093",
+        "name": "Cavalier de la Famine",
+        "text": "<b>Une fois révélée</b> : soignez 2 dégâts de Famine et donnez-lui une carte d'état Tenace. Elle s'active contre vous.\n<hr />\n[star] <b>Boost</b> : après cette activation, Famine s'active contre vous. Ne donnez pas de carte de boost à Famine pour cette activation."
+    },
+    {
+        "code": "45094",
+        "name": "Cavalier de la Pestilence",
+        "text": "<b>Une fois révélée</b> : soignez 2 dégâts de Pestilence et donnez-lui une carte d'état Tenace. Elle s'active contre vous.\n<hr />\n[star] <b>Boost</b> : après cette activation, Pestilence s'active contre vous. Ne donnez pas de carte de boost à Pestilence pour cette activation."
+    },
+    {
+        "code": "45095",
+        "name": "Cavalier de la Mort",
+        "text": "<b>Une fois révélée</b> : soignez 2 dégâts de Mort et donnez-lui une carte d'état Tenace. Il s'active contre vous.\n<hr />\n[star] <b>Boost</b> : après cette activation, Mort s'active contre vous. Ne donnez pas de carte de boost à Mort pour cette activation."
+    },
+    {
+        "code": "45096",
+        "name": "Cavaliers Destructeurs",
+        "text": "<b>Une fois révélée</b> : résolvez la \"<b>Réponse forcée</b>\" du méchant actif comme s'il avait au moins 1 point de vie et qu'il vous avait attaqué. Déplacez le jeton Actif vers le prochain méchant et résolvez sa \"<b>Réponse forcée</b>\" de la même façon."
+    },
+    {
+        "code": "45097",
+        "flavor": "\"Tu ne pourras pas m'échapper, mutant.\"",
+        "name": "Ahab",
+        "text": "Ténacité.\n<b>Une fois révélée</b> : si Lâcher les Chiens est en jeu, placez 3 menaces dessus. Sinon, trouvez la manigance annexe Lâcher les Chiens et révélez-la.",
+        "traits": "Cyborg. Traqueur."
+    },
+    {
+        "code": "45098",
+        "flavor": "Les limiers d'Ahab sont des mutants privés de libre arbitre et contraints à traquer leur propre espèce.",
+        "name": "Limier",
+        "text": "Garde.\n<b>Une fois révélée</b> : sous vous êtes sous forme de héros, le Limier vous attaque. Sinon, votre identité passe sous forme de héros.",
+        "traits": "Traqueur."
+    },
+    {
+        "code": "45099",
+        "name": "Lance Énergétique d'Ahab",
+        "text": "Attachez cette carte à Ahab. Sinon, attachez-la au méchant.\n[star] <b>Interruption forcée</b> : quand l'ennemi attaché vous attaque, cette attaque gagne Déferlement et Perçant. À la fin de cette attaque, défaussez la Lance Énergétique d'Ahab.",
+        "traits": "Arme."
+    },
+    {
+        "code": "45100",
+        "flavor": "Ahab prend beaucoup de plaisir à traquer les mutants à l'aide de ses limiers.",
+        "name": "Lâcher les Chiens",
+        "text": "Le premier exemplaire de Limier révélé à chaque phase gagne Renfort.\n<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance cherche 1 exemplaire de Limier dans le deck Rencontre ou la pile de défausse Rencontre et se l'attribue en tant que carte Rencontre face cachée.",
+        "traits": "Traqueur."
+    },
+    {
+        "code": "45101a",
+        "flavor": "\"Défiez-moi et vous saurez pourquoi Apocalypse règne sans partage.\"",
+        "name": "Apocalypse",
+        "text": "Ténacité.\n<b>Interruption forcée</b> : quand la manigance principale est achevée, retirez toutes les menaces qui sont dessus (<i>en ignorant toute icône de crise ([crisis])</i>). Retournez cette carte et révélez Apocalypse (II).",
+        "traits": "Mutant."
+    },
+    {
+        "code": "45101b",
+        "flavor": "\"Vous êtes fou d'oser vous opposer à moi !\"",
+        "name": "Apocalypse",
+        "text": "Solide. Ténacité.\n<b>Interruption forcée</b> : quand la manigance principale est achevée, retirez toutes les menaces qui sont dessus (<i>en ignorant toute icône de crise ([crisis])</i>). Retirez cette carte de la partie et révélez Apocalypse (III).",
+        "traits": "Mutant."
+    },
+    {
+        "code": "45102a",
+        "flavor": "\"Ce monde m'appartient et je le partage avec ceux que j'en juge dignes.\"",
+        "name": "Apocalypse",
+        "text": "Solide. Ténacité.\n<b>Interruption forcée</b> : quand la manigance principale est achevée, retirez toutes les menaces qui sont dessus (<i>en ignorant toute icône de crise ([crisis])</i>). Retournez cette carte et révélez Apocalypse (IV).",
+        "traits": "Mutant."
+    },
+    {
+        "code": "45102b",
+        "flavor": "\"Je purifierai ce monde par le feu. Seuls les forts survivront.\"",
+        "name": "Apocalypse",
+        "text": "Robuste. Ténacité.\n[star] L'attaque d'Apocalypse gagne Déferlement.\n<b>Interruption forcée</b> : quand la manigance principale est achevée, les joueurs perdent la partie.",
+        "traits": "Mutant."
+    },
+    {
+        "code": "45103",
+        "back_text": "<b>Contenu</b> : Apocalypse (II) et Apocalypse (III). <i>(Apocalypse (III) seulement en mode expert.)</i> Les sets Apocalypse, Prélats et Standard. Deux sets modulaires <i>(Dark Riders et Infinis.)</i>\n<b>Mise en place</b> : mettez de côté chaque carte Méchant inutilisée, chaque sbire [[PRÉLAT]] et la manigance annexe Le Trône du Tyran. Révélez la manigance annexe Cœur de l'Empire. Le premier joueur révèle aléatoirement un sbire [[PRÉLAT]] mis de côté.",
+        "flavor": "L'heure est venue d'affronter directement Apocalypse dans sa majestueuse citadelle.",
+        "name": "L'Ère d'Apocalypse",
+        "text": "X est la valeur numérique imprimée des points de vie d'Apocalypse.\n<b>Interruption forcée</b> : quand Apocalypse est censé être vaincu, défaussez chacun de ses attachements et soignez-le de tous ses dégâts à la place. Retirez X menaces de cette manigance (<i>en ignorant toute icône de crise ([crisis])</i>)."
+    },
+    {
+        "code": "45104a",
+        "flavor": "Avant de pouvoir défier Apocalypse, vous devez rejoindre sa tour.",
+        "name": "Cœur de l'Empire",
+        "text": "Aucune menace ne peut être retirée de cette manigance tant qu'un sbire [[PRÉLAT]] est en jeu.\n<b>Une fois déjouée</b> : le premier joueur révèle aléatoirement un sbire [[PRÉLAT]] mis de côté. Attribuez une carte Rencontre à chaque autre joueur. Retournez cette manigance."
+    },
+    {
+        "code": "45104b",
+        "name": "La Majestueuse Citadelle",
+        "text": "Aucune menace ne peut être retirée de cette manigance tant qu'un sbire [[PRÉLAT]] est en jeu.\n<b>Une fois déjouée</b> : le premier joueur révèle aléatoirement un sbire [[PRÉLAT]] mis de côté. Attribuez une carte Rencontre à chaque autre joueur. Révélez la manigance annexe Le Trône du Tyran et retirez La Majestueuse Citadelle de la partie."
+    },
+    {
+        "code": "45105a",
+        "name": "Le Trône du Tyran",
+        "text": "Aucune menace ne peut être retirée de cette manigance tant qu'un sbire [[PRÉLAT]] est en jeu.\n<b>Une fois déjouée</b> : le premier joueur révèle aléatoirement un sbire [[PRÉLAT]] mis de côté. Attribuez une carte Rencontre à chaque autre joueur. Retournez cette manigance pour révéler Devenu Digne."
+    },
+    {
+        "code": "45105b",
+        "name": "Devenu Digne",
+        "text": "Attachez cette carte à Apocalypse et soignez-le de 5[per_hero] points de vie. Il ne peut pas subir de dégâts tant qu'un sbire [[PRÉLAT]] est en jeu.\nIgnorez l'effet \"<b>Interruption forcée</b>\" de la manigance principale.\n<b>Interruption forcée</b> : quand Apocalypse est vaincu, les joueurs gagnent la partie.",
+        "traits": "Condition."
+    },
+    {
+        "code": "45106",
+        "name": "Cyberpathie",
+        "text": "Attachez cette carte à Apocalypse.\n[star] <b>Réponse forcée</b> : après qu'Apocalypse a manigancé, placez 1 menace sur chaque manigance annexe.\n<hr />\n[star] <b>Boost</b> : attachez cette carte à Apocalypse.",
+        "traits": "Super-pouvoir."
+    },
+    {
+        "code": "45107",
+        "name": "Biomorphisme",
+        "text": "Attachez cette carte à Apocalypse.\n[star] Les attaques d'Apocalypse gagnent Déferlement.\n<hr />\n[star] <b>Boost</b> : attachez cette carte à Apocalypse.",
+        "traits": "Super-pouvoir."
+    },
+    {
+        "code": "45108",
+        "flavor": "Le pouvoir d'Apocalypse lui permet de contrôler chaque molécule de son corps, ce qui fait de lui un ennemi très imprévisible.",
+        "name": "Contrôle Moléculaire",
+        "text": "Attachez cette carte à Apocalypse.\nApocalypse gagne Riposte 1 et Robuste.\n<hr />\n[star] <b>Boost</b> : attachez cette carte à Apocalypse.",
+        "traits": "Super-pouvoir."
+    },
+    {
+        "code": "45109",
+        "flavor": "Apocalypse choisit ses prélats avec soin : seuls les plus forts et les plus violents peuvent rejoindre leurs rangs.",
+        "name": "Le Plus Fort",
+        "text": "Attachez cette carte au sbire ayant la valeur de points de vie imprimée la plus élevée et donnez-lui une carte d'état Tenace. Sinon, cette carte gagne Renfort.\nL'ennemi attaché gagne +5 points de vie.",
+        "traits": "Condition."
+    },
+    {
+        "code": "45110",
+        "name": "Un Loup Dans la Bergerie",
+        "text": "<b>Une fois révélée</b> : le sbire [[PRÉLAT]] s'active contre vous. Sinon, Apocalypse s'active contre vous.\n<hr />\n[star] <b>Boost</b> : donnez une carte d'état Tenace au sbire [[PRÉLAT]]. Sinon, donnez une carte d'état tenace à Apocalypse."    
+    },
+    {
+        "code": "45111",
+        "flavor": "Apocalypse préfèrerait détruire son royaume de ses propres mains plutôt que d'abandonner son trône.",
+        "name": "La Solution Apocalypse",
+        "text": "<b>Une fois déjouée</b> : défaussez les X cartes du dessus du deck Rencontre, X étant la valeur numérique imprimée des points de vie d'Apocalypse."    
+    },
+    {
+        "code": "45112",
+        "flavor": "\"Tu veux te débarrasser de quelqu'un ? Recrute les Dark Riders.\"",
+        "name": "Gauntlet",
+        "text": "Collaboration ([[DARK RIDERS]]).\n[star] <b>Réponse forcée</b> : après que Gauntlet vous a attaqué, défaussez une amélioration que vous contrôlez.",
+        "traits": "Dark Riders."  
+    },
+    {
+        "code": "45113",
+        "flavor": "\"Quand quelqu'un s'appelle Barrage, on peut s'attendre à ce qu'il ne soit pas très regardant sur le choix de ses cibles\" — Cyclope",
+        "name": "Barrage",
+        "text": "Collaboration ([[DARK RIDERS]]).\n[star] <b>Réponse forcée</b> : après que Barrage vous a attaqué, infligez 1 dégât à chaque personnage que vous contrôlez.",
+        "traits": "Dark Riders."  
+    },
+    {
+        "code": "45114",
+        "flavor": "\"Je viens de terminer mon scan. Prêt pour le saut.\"",
+        "name": "Hard-Drive",
+        "text": "Collaboration ([[DARK RIDERS]]).\n[star] <b>Réponse forcée</b> : après que Hard-Drive vous a attaqué, placez 1 menace sur chaque manigance.",
+        "traits": "Dark Riders."  
+    },
+    {
+        "code": "45115",
+        "name": "Tusk",
+        "text": "Collaboration ([[DARK RIDERS]]).\n[star] <b>Réponse forcée</b> : après que Tusk vous a attaqué, vous êtes sonné.\n<hr />\n[star] <b>Boost</b> : vous êtes sonné.",
+        "traits": "Dark Riders."  
+    },
+    {
+        "code": "45116",
+        "name": "Synapse",
+        "text": "Collaboration ([[DARK RIDERS]]).\n[star] <b>Réponse forcée</b> : après que Tusk vous a attaqué, vous êtes désorienté.\n<hr />\n[star] <b>Boost</b> : vous êtes désorienté.",
+        "traits": "Dark Riders."  
+    },
+    {
+        "code": "45117",
+        "flavor": "\"Je viens de terminer mon scan. Prêt pour le saut.\"",
+        "name": "Les Darks Riders",
+        "text": "Entrave 1[per_hero].\nChaque sbire [[DARK RIDERS]] gagne Ténacité.\n<b>Une fois révélée</b> : défaussez des cartes du deck Rencontre jusqu'à ce qu'un sbire [[DARK RIDERS]] soit défaussé et révélez-le.",
+        "traits": "Dark Riders."  
+    },
+    {
+        "code": "45118",
+        "flavor": "Un génie ne dort jamais !",
+        "name": "Le Fauve Noir",
+        "text": "[star] <b>Interruption forcée</b> : quand le Fauve Noir vous attaque, résolvez la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]].\n<b>Une fois révélée</b> : révélez aléatoirement un environnement mis de côté et mélangez le reste de son set de rencontre dans le deck Rencontre.",
+        "traits": "Brute. Génie."   
+    },
+    {
+        "code": "45119",
+        "name": "Le Fauve Noir",
+        "text": "[star] <b>Interruption forcée</b> : quand le Fauve Noir vous attaque, résolvez la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]].\n<b>Une fois révélée</b> : révélez aléatoirement un environnement mis de côté et mélangez le reste de son set de rencontre dans le deck Rencontre. Attribuez une carte Rencontre à chaque joueur.",
+        "traits": "Brute. Génie."   
+    },
+    {
+        "code": "45120",
+        "name": "Le Fauve Noir",
+        "text": "[star] <b>Interruption forcée</b> : quand le Fauve Noir vous attaque, résolvez la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]].\n<b>Une fois révélée</b> : révélez aléatoirement un environnement mis de côté et mélangez le reste de son set de rencontre dans le deck Rencontre. Attribuez une carte Rencontre à chaque joueur.",
+        "traits": "Brute. Génie."   
+    },
+    {
+        "code": "45121",
+        "back_text": "<b>Contenu</b> : Le Fauve Noir (I) et Le Fauve Noir (II). <i>(Le Fauve Noir (II) et Le Fauve Noir (III) en mode expert.)</i> Les sets Fauve Noir, Lune Bleue, Génosha, Terre Sauvage et Standard. Un set modulaire <i>(Cauchemar Dystopique.)</i>\n<b>Mise en place</b> : mettez de côté les sets Lune Bleue, Génosha et Terre Sauvage <i>(y compris chaque carte Environnement de ces sets)</i>. En mode expert, révélez l'attachement Lunettes High-Tech.",
+        "flavor": "Le Fauve Noir active sa machine à voyager dans le temps pour garantir le retour d'Apocalypse, mais votre initiative a ruiné ses plans. Vous luttez pour prendre le contrôle de l'appareil pendant qu'il vous transporte en d'autres temps et en d'autres lieux !",
+        "name": "L'Ère d'Apocalypse",
+        "text": "<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+    },
+    {
+        "code": "45122",
+        "name": "Lunettes High-Tech",
+        "text": "Attachez cette carte au Fauve Noir.\n<b>Action de héros</b> : inclinez votre héros et résolvez la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]] → défaussez cet attachement.\n<hr />\n[star] <b>Boost</b> : attachez cette carte au Fauve Noir.",
+        "traits": "Tech."   
+    },
+    {
+        "code": "45123",
+        "name": "Amélioration Génétique",
+        "text": "Attachez cette carte au Fauve Noir.\n<b>Action de héros</b> : inclinez votre héros et résolvez la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]] → défaussez cet attachement.\n<hr />\n[star] <b>Boost</b> : attachez cette carte au Fauve Noir.",
+        "traits": "Condition."   
+    },
+    {
+        "code": "45124",
+        "flavor": "\"Je pourrais l'anesthésier bien sûr, mais cela gâcherait le plaisir n'est-ce pas ?\" — Le Fauve Noir",
+        "name": "Cruelle Expérience",
+        "text": "Le sbire attaché gagne +2 points de vie et Garde.\n<b>Une fois révélée</b> : défaussez des cartes du dessus du deck Rencontre jusqu'à ce que vous défaussiez un sbire. Révélez-le et attachez-lui Cruelle Expérience.",
+        "traits": "Condition."   
+    },
+    {
+        "code": "45125",
+        "name": "Génie du Mal",
+        "text": "<b>Une fois révélée (alter ego)</b> : Le Fauve Noir manigance. Donnez-lui une carte d'état Tenace.\n<b>Une fois révélée (héros)</b> : Le Fauve Noir vous attaque. Donnez-lui une carte de boost supplémentaire pour cette attaque."
+    },
+    {
+        "code": "45126",
+        "name": "Rebondissements Temporels",
+        "text": "<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance défausse des cartes du dessus du deck Rencontre jusqu'à ce qu'il défausse une carte appartenant au même set de rencontre que l'environnement [[SITUATION]] et révèle la carte tout juste défaussée."
+    },
+    {
+        "code": "45127",
+        "name": "La Terre Sauvage",
+        "text": "Mise en place.\nLe Méchant gagne Riposte 1.\n<b>Spécial</b> : défaussez les 3 cartes du dessus de votre deck.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu.",
+        "traits": "Lieu. Situation."
+    },
+    {
+        "code": "45128",
+        "name": "Ptérosaure",
+        "text": "<b>Une fois révélée</b> : résolvez la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]].\n<hr />\n[star] <b>Boost</b> : si La Terre Sauvage est en jeu, attribuez-vous le Ptérosaure en tant que carte Rencontre face cachée.",
+        "traits": "Aérien. Créature."
+    },
+    {
+        "code": "45129",
+        "name": "Vélociraptor",
+        "text": "Coup Rapide.\n[star] <b>Interruption forcée</b> : quand le Vélociraptor vous attaque, défaussez la carte du dessus de votre deck. Le vélociraptor gagne +1 ATQ pour cette attaque pour chaque icône de ressource ainsi défaussée.",
+        "traits": "Créature."
+    },
+    {
+        "code": "45130",
+        "flavor": "\"Voilà pourquoi il ne faut pas leur jeter de cacahuètes !\" — Jubilé",
+        "name": "Singe Géant",
+        "text": "Garde.\n<b>Une fois vaincu</b> : le joueur qui a vaincu le Singe Géant résout la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]].",
+        "traits": "Créature."
+    },
+    {
+        "code": "45131",
+        "flavor": "La Terre Sauvage est exactement ce qu'on imaginerait d'une jungle préhistorique perdue au milieu de l'Antarctique.",
+        "name": "Contrée Hors du Temps",
+        "text": "<b>Une fois révélée</b> : si La Terre Sauvage est en jeu, résolvez sa capacité <b>\"Spécial\"</b> et subissez 1 dégât indirect pour chaque icône de ressource des cartes défaussées. Sinon, trouvez La Terre Sauvage et révélez-la."
+    },
+    {
+        "code": "45132",
+        "flavor": "\"Nous devons protéger le village contre ces dinosaures ! (Jamais je n'aurais pensé dire ça un jour.)\" — Malicia",
+        "name": "Village Attaqué",
+        "text": "Entrave 1[per_hero].\n<b>Une fois révélée</b> : chaque joueur résout la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]]."
+    },
+    {
+        "code": "45133",
+        "name": "Génosha",
+        "text": "Mise en place.\nLe Méchant gagne Solide.\n<b>Spécial</b> : placez 1 menace sur la manigance principale.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu.",
+        "traits": "Lieu. Situation."
+    },
+    {
+        "code": "45134",
+        "name": "Magistrat",
+        "text": "Patrouille.\n<b>Une fois vaincu</b> : le joueur qui a vaincu ce sbire trouve le Mutant en Cavale et l'attache à son identité.\n<hr />\n[star] <b>Boost</b> : si le Mutant en Cavale est attaché à votre identité, Magistrat gagne [boost][boost][boost].",
+        "traits": "Génosha."
+    },
+    {
+        "code": "45135",
+        "flavor": "\"J'ai capté un signal des mutants. Mobilisation pour interception.\"",
+        "name": "Monocycle Blindé",
+        "text": "Le Monocycle Blindé engage le joueur qui a le Mutant en Cavale attaché, si possible.\n[star] <b>Réponse forcée</b> : après que le Monocycle Blindé a attaqué, résolvez la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]].",
+        "traits": "Génosha. Véhicule."
+    },
+    {
+        "code": "45136",
+        "flavor": "\"Leurs armures sont conçues pour contrer nos pouvoirs\" — Tornade",
+        "name": "Méca Génoshéen",
+        "text": "Garde. Ténacité.\n[star] <b>Réponse forcée</b> : après que le Méca Génoshéen a attaqué et vaincu un de vos alliés, résolvez deux fois la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]].",
+        "traits": "Génosha. Véhicule."
+    },
+    {
+        "code": "45137",
+        "flavor": "Les mutants qui souhaitent s'enfuir de Génosha doivent trouver un moyen d'échapper à la vigilance des magistrats.",
+        "name": "Mutant en Cavale",
+        "text": "Attachez cette carte à votre identité.\nChaque sbire [[GÉNOSHA]] qui vous engage gagne Coup Rapide.\n<b>Action d'alter ego</b> : résolvez la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]] → défaussez cet attachement."
+    },
+    {
+        "code": "45138",
+        "flavor": "Génosha est devenue prospère en exploitant la population mutante.",
+        "name": "État Policier",
+        "text": "Entrave 1[per_hero].\n<b>Une fois déjouée</b> : le joueur qui a déjoué cette manigance trouve le Mutant en Cavale et le révèle."
+    },
+    {
+        "code": "45139",
+        "name": "Zone Bleue de la Lune",
+        "text": "Mise en place.\nChaque sbire gagne Garde.\n<b>Spécial</b> : infligez 1 dégât à votre identité.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu.",
+        "traits": "Lieu. Situation."
+    },
+    {
+        "code": "45140",
+        "name": "Gladiator",
+        "text": "Collaboration ([[GARDE IMPÉRIALE]]).\nTant que Jugement par les Armes est en jeu, Gladiator ne peut pas subir de dégâts.\n<hr />\n[star] <b>Boost</b> : si Jugement par les Armes est en jeu, attribuez-vous Gladiator en tant que carte Rencontre face cachée.",
+        "traits": "Élite. Garde Impériale."
+    },
+    {
+        "code": "45141",
+        "flavor": "\"Ce n'est pas un combat que vous pouvez gagner.\"",
+        "name": "Oracle",
+        "text": "Collaboration ([[GARDE IMPÉRIALE]]).\n<b>Une fois révélée</b> : vous êtes désorienté. Si vous êtes déjà désorienté, résolvez la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]].",
+        "traits": "Garde Impériale."
+    },
+    {
+        "code": "45142",
+        "flavor": "\"Unglãublich ! Je ne vois plus rien !\" — Diablo",
+        "name": "Manta",
+        "text": "Collaboration ([[GARDE IMPÉRIALE]]).\n<b>Une fois révélée</b> : vous êtes sonné. Si vous êtes déjà sonné, résolvez la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]].",
+        "traits": "Garde Impériale."
+    },
+    {
+        "code": "45143",
+        "flavor": "\"Je vais vous faire trembler !\"",
+        "name": "Earthquake",
+        "text": "Collaboration ([[GARDE IMPÉRIALE]]).\n<b>Une fois révélée</b> : inclinez votre identité. Si vous êtes déjà incliné, résolvez la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]].",
+        "traits": "Garde Impériale."
+    },
+    {
+        "code": "45144",
+        "name": "Warstar",
+        "text": "Collaboration ([[GARDE IMPÉRIALE]]).\n<b>Une fois révélée</b> : défaussez la carte du dessus du deck Rencontre. Si cette carte est un sbire [[GARDE IMPÉRIALE]], révélez-le. Sinon, résolvez la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]].",
+        "traits": "Garde Impériale."
+    },
+    {
+        "code": "45145",
+        "name": "Garde Impérial",
+        "text": "Attachez cette carte à un sbire. Sinon, cette carte gagne Renfort.\n Le sbire attaché gagne +4 points de vie et le trait [[GARDE IMPÉRIALE]].\n<b>Interruption forcée</b> : quand le sbire attaché est vaincu, résolvez la capacité <b>\"Spécial\"</b> de l'environnement [[SITUATION]].",
+        "traits": "Titre."
+    },
+    {
+        "code": "45146",
+        "flavor": "La loi de Shi'ar donne aux accusés l'opportunité de se défendre, mais por cela, ils doivent battre la Garde Impériale.",
+        "name": "Jugement par les Armes",
+        "text": "Entrave 1[per_hero].\n<b>Une fois déjouée</b> : mélangez dans le deck Rencontre chaque sbire [[GARDE IMPÉRIALE]] de la pile de défausse Rencontre."
+    },
+    {
+        "code": "45147",
+        "flavor": "Au cœur de cette pyramide de haute technologie, Apocalypse prépare son avènement.",
+        "back_text": "<b>Contenu</b> : Apocalypse (I) et Apocalypse (II). (Apocalypse (II) et Apocalypse (III) en mode expert.) Les sets En Sabah Nur et Standard. Deux sets modulaires (Technologie Céleste et Clan Akkaba).\n<b>Mise en place</b> : Apocalypse commence la partie sous forme [[BIOMORPHE]]. Attribuez à chaque joueur une carte Rencontre face cachée.",
+        "name": "Pyramide d'En Sabah Nur",
+        "text": "[star] <b>Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, placez 1 jeton Pouvoir sur cette manigance. Si elle a au moins 4 jetons Pouvoir, le premier joueur en retire 4 et défausse des cartes du dessus du deck Rencontre jusqu'à ce qu'une carte [[SUPER-POUVOIR]] soit défaussée, il la révèle."
+    },
+    {
+        "code": "45148",
+        "back_flavor": "Vous avez vu à quoi ressemblera le futur si personne n'empêche Apocalypse d'étendre son influence. Il vous appartient d'arrêter ce mégalomane ici et maintenant !",
+        "back_text": "<b>Une fois révélée</b> : le premier joueur défausse des cartes du dessus du deck Rencontre jusqu'à ce qu'une carte [[SUPER-POUVOIR]] soit défaussée, il la révèle.",
+        "name": "L'Avènement d'Apocalypse",
+        "text": "[star] <b>Réponse forcée</b> : après avoir résolu l'étape 1 de la phase du Méchant, placez 1 jeton Pouvoir sur cette manigance. Si elle a au moins 4 jetons Pouvoir, le premier joueur en retire 4 et défausse des cartes du dessus du deck Rencontre jusqu'à ce qu'une carte [[SUPER-POUVOIR]] soit défaussée, il la révèle.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+    },
+    {
+        "code": "45149",
+        "name": "Force Ahurissante",
+        "text": "Attachez cette carte à Apocalypse et faites-le passer sous forme de [[GÉANT]].\n[star] <b>Interruption forcée</b> : quand Apocalypse vous attaque, vous êtes sonné. Défaussez cette carte après cette activation.\n<hr />\n[star] <b>Boost</b> : après cette activation, révélez cette carte.",
+        "traits": "Super-pouvoir."
+    },
+    {
+        "code": "45150",
+        "name": "Rayon Biomorphe",
+        "text": "<b>Une fois révélée</b> : si Apocalypse est sous forme de [[BIOMORPHE]], il s'active contre vous. Sinon, faites-le passer sous forme de [[BIOMORPHE]] et placez 1 jeton Pouvoir sur la manigance principale.\n<hr />\n[star] <b>Boost</b> : après cette activation, faites passer Apocalypse sous forme de [[BIOMORPHE]].",
+        "traits": "Super-pouvoir."
+    },
+    {
+        "code": "45151",
+        "name": "Interface Technologique",
+        "text": "<b>Une fois révélée</b> : si Apocalypse est sous forme de [[CYBERPATHE]], il s'active contre vous. Sinon, faites-le passer sous forme de [[CYBERPATHE]] et placez 1 jeton Pouvoir sur la manigance principale.\n<hr />\n[star] <b>Boost</b> : après cette activation, faites passer Apocalypse sous forme de [[CYBERPATHE]].",
+        "traits": "Super-pouvoir."
+    },
+    {
+        "code": "45152",
+        "name": "Despote Titanesque",
+        "text": "<b>Une fois révélée</b> : si Apocalypse est sous forme de [[GÉANT]], il s'active contre vous. Sinon, faites-le passer sous forme de [[GÉANT]] et placez 1 jeton Pouvoir sur la manigance principale.\n<hr />\n[star] <b>Boost</b> : après cette activation, faites passer Apocalypse sous forme de [[GÉANT]].",
+        "traits": "Super-pouvoir."
+    },
+    {
+        "code": "45153",
+        "name": "Source de Puissance",
+        "text": "<b>Une fois déjouée</b> : si Apocalypse est sous forme de [[BIOMORPHE]], il s'active contre le joueur qui a déjoué cette manigance. Sinon, faites-le passer sous forme de [[BIOMORPHE]] et donnez-lui une carte d'état Tenace.",
+        "traits": "Super-pouvoir."
+    },
+    {
+        "code": "45154",
+        "name": "Connecté",
+        "text": "<b>Une fois déjouée</b> : si Apocalypse est sous forme de [[CYBERPATHE]], il s'active contre le joueur qui a déjoué cette manigance. Sinon, faites-le passer sous forme de [[CYBERPATHE]] et donnez-lui une carte d'état Tenace.",
+        "traits": "Super-pouvoir."
+    },
+    {
+        "code": "45155",
+        "name": "Croissance Gigantesque",
+        "text": "<b>Une fois déjouée</b> : si Apocalypse est sous forme de [[GÉANT]], il s'active contre le joueur qui a déjoué cette manigance. Sinon, faites-le passer sous forme de [[GÉANT]] et donnez-lui une carte d'état Tenace.",
+        "traits": "Super-pouvoir."
+    },
+    {
+        "code": "45156",
+        "name": "Armure Céleste",
+        "text": "Attachez cette carte au méchant.\n[star] <b>Interruption forcée</b> : quand le méchant manigance contre vous, défaussez la carte du dessus de votre deck. Si cette carte a comme ressource :\n[energy] — Soignez 2 dégâts du méchant.\n[mental] — Vous êtes désorienté. Défaussez cet attachement.\n[physical] — Donnez une carte d'état Tenace au méchant.\n[wild] — Effectuez toutes les options ci-dessus.",
+        "traits": "Armure. Céleste."
+    },
+    {
+        "code": "45157",
+        "name": "Arme Céleste",
+        "text": "Attachez cette carte au méchant.\n[star] <b>Interruption forcée</b> : quand le méchant vous attaque, défaussez la carte du dessus de votre deck. Si cette carte a comme ressource :\n[energy] — Infligez 2 dégâts à votre identité.\n[mental] — Défaussez une carte de votre main.\n[physical] — Vous êtes sonné. Défaussez cet attachement.\n[wild] — Effectuez toutes les options ci-dessus.",
+        "traits": "Arme. Céleste."
+    },
+    {
+        "code": "45158",
+        "name": "Technologie Céleste",
+        "text": "<b>Une fois révélée</b> : pour chaque attachement [[CÉLESTE]] en jeu, résolvez son effet comme si le méchant attaché venait juste de manigancer et de vous attaquer. S'il n'y a pas d'attachement [[CÉLESTE]] sur le méchant, cherchez un attachement [[CÉLESTE]] dans le deck Rencontre ou la pile de défausse Rencontre et révélez-le. <i>(Mélangez.)</i>"
+    },
+    {
+        "code": "45159",
+        "name": "Ozymandias",
+        "text": "Ténacité. Vilenie.\n[star] Quand Ozymandias manigance, placez la menace sur le Rituel Antique.\n<hr />\n[star] <b>Boost</b> : choisissez : soit vous placez 3 menaces sur le Rituel Antique, soit Ozymandias gagne [boost][boost][boost].",
+        "traits": "Clan Akkaba. Élite."
+    },
+    {
+        "code": "45160",
+        "name": "Scarab",
+        "text": "Coup Rapide.\n[star] <b>Réponse forcée</b> : après que Scarab a attaqué, placez 1 menace sur le Rituel Antique (3 menaces à la place si l'attaque a vaincu un allié).",
+        "traits": "Clan Akkaba."
+    },
+    {
+        "code": "45161",
+        "name": "Zélote du Clan Akkaba",
+        "text": "Garde.\n<b>Une fois vaincu</b> : placez 2 menaces sur le Rituel Antique.\n<hr />\n[star] <b>Boost</b> : placez 1 menace sur le Rituel Antique.",
+        "traits": "Clan Akkaba."
+    },
+    {
+        "code": "45162",
+        "flavor": "Le clan Akkaba a voué toute son existence à la doctrine de son impitoyable seigneur.",
+        "name": "Adoration du Tyran",
+        "text": "<b>Une fois révélée</b> : placez 5 menaces sur le Rituel Antique.\n<hr />\n[star] <b>Boost</b> : choisissez : soit vous placez 3 menaces sur le Rituel Antique, soit cette traîtrise gagne [boost][boost][boost]."
+    },
+    {
+        "code": "45163",
+        "flavor": "\"Je ne suis pas certain de comprendre ce qu'ils font, mais je suis sûr que ça ne présage rien de bon.\" — Iceberg",
+        "name": "Rituel Antique",
+        "text": "Permanent. Mise en Place.\n<b>Réponse forcée</b> : après que de la menace a été placée sur cette manigance, s'il y a au moins 10 menaces dessus, retirez-en 5 et attribuez à chaque joueur une carte Rencontre face cachée."
+    },
+    {
+        "code": "45164",
+        "name": "Agent d'Apocalypse",
+        "text": "Garde.\n<b>Une fois révélée</b> : choisissez : soit vous ajoutez l'Agent d'Apocalypse à la zone de mission, soit il s'active contre vous.\n<hr />\n[star] <b>Boost</b> : infligez 1 dégât à un allié en mission. Donnez une carte de boost supplémentaire à l'ennemi actif.",
+        "traits": "Clan Akkaba."
+    },
+    {
+        "code": "45165",
+        "name": "Crise Mondiale",
+        "text": "<b>Une fois révélée</b> : choisissez : soit vous placez 3 menaces sur la manigance annexe [[MISSION]], soit vous subissez 1 dégât et cette carte gagne Renfort.\n<hr />\n[star] <b>Boost</b> : placez 1 menace sur la manigance annexe [[MISSION]]. Donnez une carte de boost supplémentaire à l'ennemi actif."
+    },
+    {
+        "code": "45166a",
+        "name": "Libérer le Noyau de Seattle",
+        "text": "<b>Réponse forcée</b> : après avoir résolu une tentative de mission, placez sur cette manigance 1 jeton Tentative et infligez 1 dégât à chaque allié en mission. S'il y a 4 jetons Tentative sur cette manigance, retirez de la partie Équipe de Mission et retournez cette carte.\n<b>Une fois déjouée</b> : mélangez dans le deck de son propriétaire chaque carte Joueur en mission. Retournez cette manigance et Équipe de Mission.",
+        "traits": "Mission."   
+    },
+    {
+        "code": "45166b",
+        "name": "Libérer le Noyau de Seattle",
+        "text": "<b>Réponse forcée</b> : après avoir retourné cette carte sur cette face, retirez de la partie chaque carte dans la zone de mission et faites ce qui suit :\n- Si la mission n'a pas été déjouée, placez 2[per_hero] menaces sur la manigance principale.\n- Si la mission a été déjouée, chaque joueur ajoute à sa main 1 exemplaire de l'amélioration Mesures Désespérées.",
+        "traits": "Terminée."   
+    },
+    {
+        "code": "45167a",
+        "name": "Évacuer les Survivants",
+        "text": "<b>Réponse forcée</b> : après avoir résolu une tentative de mission, placez sur cette manigance 1 jeton Tentative et infligez 1 dégât à chaque allié en mission. S'il y a 4 jetons Tentative sur cette manigance, retirez de la partie Équipe de Mission et retournez cette carte.\n<b>Une fois déjouée</b> : mélangez dans le deck de son propriétaire chaque carte Joueur en mission. Retournez cette manigance et Équipe de Mission.",
+        "traits": "Mission."   
+    },
+    {
+        "code": "45167b",
+        "name": "Évacuer les Survivants",
+        "text": "<b>Réponse forcée</b> : après avoir retourné cette carte sur cette face, retirez de la partie chaque carte dans la zone de mission et faites ce qui suit :\n- Si la mission n'a pas été déjouée, attribuez à chaque joueur une carte Rencontre face cachée.\n- Si la mission a été déjouée, chaque joueur cherche 1 carte dans son deck ou sa pile de défausse et l'ajoute à sa main.",
+        "traits": "Terminée."   
+    },
+    {
+        "code": "45168a",
+        "name": "Saboter la Digue",
+        "text": "<b>Réponse forcée</b> : après avoir résolu une tentative de mission, placez sur cette manigance 1 jeton Tentative et infligez 1 dégât à chaque allié en mission. S'il y a 4 jetons Tentative sur cette manigance, retirez de la partie Équipe de Mission et retournez cette carte.\n<b>Une fois déjouée</b> : mélangez dans le deck de son propriétaire chaque carte Joueur en mission. Retournez cette manigance et Équipe de Mission.",
+        "traits": "Mission."   
+    },
+    {
+        "code": "45168b",
+        "name": "Saboter la Digue",
+        "text": "<b>Réponse forcée</b> : après avoir retourné cette carte sur cette face, retirez de la partie chaque carte dans la zone de mission et faites ce qui suit :\n- Si la mission n'a pas été déjouée, trouvez la Digue Nord-Américaine et révélez-la. <i>(Mélangez.)</i>\n- Si la mission a été déjouée, trouvez la Digue Nord-Américaine, retirez-la de la partie et chaque joueur inflige 3 dégâts à un ennemi.",
+        "traits": "Terminée."   
+    },
+    {
+        "code": "45169a",
+        "name": "Trouver les Mutants Perdus",
+        "text": "<b>Réponse forcée</b> : après avoir résolu une tentative de mission, placez sur cette manigance 1 jeton Tentative et infligez 1 dégât à chaque allié en mission. S'il y a 4 jetons Tentative sur cette manigance, retirez de la partie Équipe de Mission et retournez cette carte.\n<b>Une fois déjouée</b> : mélangez dans le deck de son propriétaire chaque carte Joueur en mission. Retournez cette manigance et Équipe de Mission.",
+        "traits": "Mission."   
+    },
+    {
+        "code": "45169b",
+        "name": "Trouver les Mutants Perdus",
+        "text": "<b>Réponse forcée</b> : après avoir retourné cette carte sur cette face, retirez de la partie chaque carte dans la zone de mission et faites ce qui suit :\n- Si la mission n'a pas été déjouée, chaque joueur défausse 1 carte de sa main.\n- Si la mission a été déjouée, chaque joueur ajoute à sa main un allié de campagne mis de côté.",
+        "traits": "Terminée."   
+    },
+    {
+        "code": "45170a",
+        "name": "Protéger le Professeur",
+        "text": "<b>Réponse forcée</b> : après avoir résolu une tentative de mission, placez sur cette manigance 1 jeton Tentative et infligez 1 dégât à chaque allié en mission. S'il y a 4 jetons Tentative sur cette manigance, retirez de la partie Équipe de Mission et retournez cette carte.\n<b>Une fois déjouée</b> : mélangez dans le deck de son propriétaire chaque carte Joueur en mission. Retournez cette manigance et Équipe de Mission.",
+        "traits": "Mission."   
+    },
+    {
+        "code": "45170b",
+        "name": "Protéger le Professeur",
+        "text": "<b>Réponse forcée</b> : après avoir retourné cette carte sur cette face, retirez de la partie chaque carte dans la zone de mission et faites ce qui suit :\n- Si la mission n'a pas été déjouée, les joueurs perdent la partie.\n- Si la mission a été déjouée, chaque joueur cherche un allié dans son deck ou sa pile de défausse et l'ajoute à sa main.",
+        "traits": "Terminée."   
+    },
+    {
+        "code": "45177",
+        "flavor": "Le mur high-tech qu'Apocalypse a érigé face à la mer protège la frontière orientale de son royaume.",
+        "name": "Digue Nord-Américaine",
+        "text": "Entrave 2[per_hero]. Renfort. Victoire 2.\nLe méchant ne peut pas subir de dégât.\n<hr />\n[star] <b>Boost</b> : attribuez-vous cette carte en tant que carte Rencontre face cachée."
+    },
+    {
+        "code": "45178",
+        "name": "Réfugiés en Détresse",
+        "text": "<b>Réponse forcée</b> : après que cette carte est entrée dans votre main, révélez-la. Ensuite, piochez 1 carte.\n<b>Action d'alter ego</b> : inclinez votre identité → défaussez cette obligation de la partie."
+    },
+    {
+        "code": "45179a",
+        "name": "Mister Sinistre",
+        "text": "Victoire 5.\nNe peut pas subir de dégâts tant qu'un autre sbire est en mission.\nLes joueurs ne peuvent pas attribuer de cartes ayant la même icône de ressource <i>([energy], [mental], [physical] ou [wild])</i> à plus d'un allié lors de chaque tentative de mission.",
+        "traits": "Élite. Hiérarque."   
+    },
+    {
+        "code": "45179b",
+        "name": "Mister Sinistre",
+        "text": "Riposte 1. Ténacité. Vilenie.\nVictoire 3.\nMister Sinistre engage le premier joueur.",
+        "traits": "Élite. Prélat."   
+    },
+    {
+        "code": "45180a",
+        "name": "Le Roi d'Ombre",
+        "text": "Victoire 5.\nNe peut pas subir de dégâts tant qu'un autre sbire est en mission.\n<b>Réponse de mission</b> : après que vous avez défaussé des cartes, placez 2 menaces sur la manigance annexe [[MISSION]] pour chaque ressource mentale ([mental]) défaussée.",
+        "traits": "Élite. Hiérarque."   
+    },
+    {
+        "code": "45180b",
+        "name": "Le Roi d'Ombre",
+        "text": "Ténacité. Victoire 3.\nLe Roi d'Ombre engage le premier joueur.\n[star] <b>Réponse forcée</b> : après que le Roi d'Ombre vous a attaqué, choisissez un allié que vous contrôlez ayant la CTR la plus élevée. Soit vous défaussez cet allié, soit vous placez sur la manigance principale un nombre de menaces égal à sa CTR.",
+        "traits": "Élite. Prélat."   
+    },
+    {
+        "code": "45181a",
+        "name": "Abyss",
+        "text": "Victoire 5.\nNe peut pas subir de dégâts tant qu'un autre sbire est en mission.\n<b>Réponse de mission</b> : après que vous avez défaussé des cartes, attachez à Abyss chaque carte défaussée ayant une ressource libre ([wild]), face cachée. <i>(Elles ne peuvent pas être utilisées pour la tentative de mission.)</i>",
+        "traits": "Élite. Hiérarque."   
+    },
+    {
+        "code": "45181b",
+        "name": "Abyss",
+        "text": "Ténacité. Victoire 3.\nAbyss gagne +2 points de vie pour chaque carte face cachée qui lui est attachée et engage le premier joueur.\n[star] <b>Réponse forcée</b> : après qu'Abyss s'est activé contre vous, attachez-lui la carte du dessus de votre deck, face cachée.",
+        "traits": "Élite. Prélat."   
+    },
+    {
+        "code": "45182a",
+        "name": "Le Confiseur",
+        "text": "Victoire 5.\nNe peut pas subir de dégâts tant qu'un autre sbire est en mission.\n<b>Réponse de mission</b> : après que vous avez défaussé des cartes, soignez 3 dégâts du Confiseur pour chaque ressource physique ([physical]) défaussée.</i>",
+        "traits": "Élite. Hiérarque."   
+    },
+    {
+        "code": "45182b",
+        "name": "Le Confiseur",
+        "text": "Ténacité. Victoire 3.\nLe Confiseur engage le premier joueur.\n[star] <b>Interruption forcée</b> : quand le Confiseur attaque, cette attaque gagne Perçant. Si un personnage est vaincu par cette attaque, soignez 5 dégâts du Confiseur.",
+        "traits": "Élite. Prélat."   
+    },
+    {
+        "code": "45183a",
+        "name": "Mikhail Rasputin",
+        "text": "Victoire 5.\nNe peut pas subir de dégâts tant qu'un autre sbire est en mission.\n<b>Réponse de mission</b> : après que vous avez défaussé des cartes, infligez 1 dégât à un allié en mission pour chaque ressource énergie ([energy]) défaussée.</i>",
+        "traits": "Élite. Hiérarque."   
+    },
+    {
+        "code": "45183b",
+        "name": "Mikhail Rasputin",
+        "text": "Ténacité. Victoire 3.\nMikhail Rasputin engage le premier joueur.\n[star] <b>Interruption forcée</b> : quand Mikhail Rasputin vous attaque, infligez 1 dégât à votre identité.",
+        "traits": "Élite. Prélat."   
+    },
+    {
+        "code": "45184a",
+        "flavor": "\"À cet instant, je m'empare de mon destin !\"",
+        "name": "Apocalypse",
+        "text": "[star] Les attaques d'Apocalypse gagnent Déferlement.\n<b>Réponse forcée</b> : après qu'Apocalypse est passé sous cette forme, infligez 1 dégât indirect à chaque joueur.",
+        "traits": "Mutant. Biomorphe."   
+    },
+    {
+        "code": "45184b",
+        "flavor": "\"Je vous ai jugé et vous déclare imparfait !\"",
+        "name": "Apocalypse",
+        "text": "Riposte 1.\n<b>Réponse forcée</b> : après qu'Apocalypse est passé sous cette forme, infligez 1 menace sur chaque manigance en jeu.",
+        "traits": "Mutant. Cyberpathe."   
+    },
+    {
+        "code": "45184c",
+        "flavor": "\"Sur l'échelle de l'évolution, je suis aux mutants ce que les mutants sont aux humains.\"",
+        "name": "Apocalypse",
+        "text": "Robuste.\n<b>Réponse forcée</b> : après qu'Apocalypse est passé sous cette forme, soignez-le de 1 dégât.",
+        "traits": "Mutant. Géant."   
+    },
+    {
+        "code": "45185a",
+        "flavor": "\"À cet instant, je m'empare de mon destin !\"",
+        "name": "Apocalypse",
+        "text": "[star] Les attaques d'Apocalypse gagnent Déferlement.\n<b>Réponse forcée</b> : après qu'Apocalypse est passé sous cette forme, infligez 2 dégâts indirects à chaque joueur.",
+        "traits": "Mutant. Biomorphe."   
+    },
+    {
+        "code": "45185b",
+	"flavor": "\"Je vous ai jugé et vous déclare imparfait !\"",
+        "name": "Apocalypse",
+        "text": "Riposte 1.\n<b>Réponse forcée</b> : après qu'Apocalypse est passé sous cette forme, infligez 2 menaces sur chaque manigance en jeu.",
+        "traits": "Mutant. Cyberpathe."   
+    },
+    {
+        "code": "45185c",
+        "flavor": "\"Sur l'échelle de l'évolution, je suis aux mutants ce que les mutants sont aux humains.\"",
+        "name": "Apocalypse",
+        "text": "Robuste.\n<b>Réponse forcée</b> : après qu'Apocalypse est passé sous cette forme, soignez-le de 2 dégâts.",
+        "traits": "Mutant. Géant."   
+    },
+    {
+        "code": "45186a",
+        "flavor": "\"À cet instant, je m'empare de mon destin !\"",
+        "name": "Apocalypse",
+        "text": "[star] Les attaques d'Apocalypse gagnent Déferlement.\n<b>Réponse forcée</b> : après qu'Apocalypse est passé sous cette forme, infligez 3 dégâts indirects à chaque joueur.",
+        "traits": "Mutant. Biomorphe."   
+    },
+    {
+        "code": "45186b",
+        "flavor": "\"Je vous ai jugé et vous déclare imparfait !\"",
+        "name": "Apocalypse",
+        "text": "Riposte 1.\n<b>Réponse forcée</b> : après qu'Apocalypse est passé sous cette forme, infligez 3 menaces sur chaque manigance en jeu.",
+        "traits": "Mutant. Cyberpathe."   
+    },
+    {
+        "code": "45186c",
+        "flavor": "\"Sur l'échelle de l'évolution, je suis aux mutants ce que les mutants sont aux humains.\"",
+        "name": "Apocalypse",
+        "text": "Robuste.\n<b>Réponse forcée</b> : après qu'Apocalypse est passé sous cette forme, soignez-le de 3 dégâts.",
+        "traits": "Mutant. Géant."   
+    }
+]
