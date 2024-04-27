@@ -1,52 +1,11 @@
 [
 	{
-		"code": "29001a",
-		"flavor": "\"Direi che è ora di testare questo affare...\"",
-		"name": "Ironheart",
-		"text": "<i>Aumento di Livello!</i> — <b>Azione</b>: Rimuovi 6 gettoni progresso da Ironheart → ripristinala e scambiala con Ironheart [[Versione 2]].",
-		"traits": "Champion. Versione 1."
-	},
-	{
-		"code": "29001b",
-		"name": "Riri Williams",
-		"text": "Inizia la partita con questa carta. Metti da parte le tue altre identità. <i>(vedi l'inserto.)</i>\n<i>Bambina Prodigio</i> — <b>Azione</b>: Spendi [mental] → colloca 1 gettone progresso su Riri Williams (Limite di una volta per round.)",
-		"traits": "Genio."
-	},
-	{
-		"code": "29002a",
-		"flavor": "\"E' Ironheart, zio.\"",
-		"name": "Ironheart",
-		"text": "<i>Aumento di Livello!</i> — <b>Azione</b>: Rimuovi 6 gettoni progresso da Ironheart → ripristinala, irrobusticila e scambiala con Ironheart [[Versione 3]].",
-		"traits": "Aereo. Champion. Versione 2."
-	},
-	{
-		"code": "29002b",
-		"flavor": "\"Devo solo finire questo aggeggio, poi avrò tutto il tempo di mangiare e divertirmi e quel che è.\"",
-		"name": "Riri Williams",
-		"text": "<i>Bambina Prodigio</i> — <b>Azione</b>: Spendi [mental] oppure 2 risorse di qualsiasi tipo → colloca 1 gettone progresso su Riri Williams (Limite di una volta per round.)",
-		"traits": "Genio."
-	},
-	{
-		"code": "29003a",
-		"flavor": "\"Oh, vuole giocare, signor criminale? E allora giochiamo.\"",
-		"name": "Ironheart",
-		"text": "<i>Massima Efficienza </i> — <b>Azione Eroe</b>: Rimuovi 1 gettone progresso di Ironhart → infliggi 2 danni a un nemico.",
-		"traits": "Aereo. Champion. Versione 3."
-	},
-	{
-		"code": "29003b",
-		"flavor": "\"Posso creare qualcosa di più leggero, più veloce e più forte\"",
-		"name": "Riri Williams",
-		"text": "<i>Bambina Prodigio</i> — <b>Azione</b>: Spendi 1risorsa di qualsiasi tipo → colloca 1 gettone progresso su Riri Williams (Limite di una volta per round.)",
-		"traits": "Genio."
-	},
-	{
 		"code": 29004,
 		"flavor": "\"No, non sono Banner. Sono meglio di Banner\"",
 		"name": "Brawn",
+		"subname": "Amadeus Cho",
 		"text": "Mentre è esaurito, Brawn ottiene: \"<b>Risorsa</b>\": Genera [mental]. (Limite di una volta per fase.)\"",
-		"traits": "Champion. Gamma.",
-		"subname": "Amadeus Cho"
+		"traits": "Champion. Gamma."
 	},
 	{
 		"code": 29005,
@@ -106,25 +65,25 @@
 	{
 		"code": 29014,
 		"name": "Cloud 9",
+		"subname": "Abby Boylen",
 		"text": "<b>Azione Eroe</b>: Esaurisci Cloud 9 → scegli 1 giocatore. Fino alla fine della fase, ogni personaggio [[Aereo]] controllato da quel giocatore riceve +1 INT.",
-		"traits": "Aereo. Champion.",
-		"subname": "Abby Boylen"
+		"traits": "Aereo. Champion."
 	},
 	{
 		"code": 29015,
 		"flavor": "\"Ehi, ehm...sono Joaquìn. Sono qui per Salvarti. Insomma...è una buona notizia, no?\"",
 		"name": "Falcon",
+		"subname": "Joaquin Torres",
 		"text": "<b>Risposta Eroe</b>: Dopo che Falcon ha attaccato o è intervenuto, spendi [energy] → ripristina 1 altro personaggio [[Champion]] che controlli.",
-		"traits": "Aereo. Champion.",
-		"subname": "Joaquin Torres"
+		"traits": "Aereo. Champion."
 	},
 	{
 		"code": 29016,
 		"flavor": "\"Sono circondato da chi rischia la vita per principi che molte persone danno per scontati.\"",
 		"name": "Patriot",
+		"subname": "Rayshaun Lucas",
 		"text": "<b>Risposta Eroe</b>: Dopo che Patriot è entrato in gioco, scegli 1 personaggio [[champion]] → quel peronaggio riceve +1 a ognuno dei suoi poiteri base fino alla fine del round.",
-		"traits": "Champion.",
-		"subname": "Rayshaun Lucas"
+		"traits": "Champion."
 	},
 	{
 		"code": 29017,
@@ -147,9 +106,9 @@
 	{
 		"code": 29023,
 		"name": "Snowguard",
+		"subname": "Amka Aliyak",
 		"text": "<b>Risposta</b>: Dopo che Snowguard è entrata in gioco, colloca fino a 3 gettoni transizione su di essa. Mentre i gettoni transizione su questa carta sono pari a (X), Snowguard riceve:\n(1) +3 ATT e i suoi attacchi ottengono Sopraffazione.\n(2) +3 INT e ottiene il tratto [[AEREO]].\n(3) +5 punti ferita e ottiene Ritorsione 1.",
-		"traits": "Champion.",
-		"subname": "Amka Aliyak"
+		"traits": "Champion."
 	},
 	{
 		"code": 29024,
@@ -189,5 +148,46 @@
 		"subname": "Qureshi Gupta",
 		"text": "Gioca solo se la tua identità possiede il tratto[[champion]].\n<b>Interruzione Eroe</b>: Quando una cata giocatore in gioco sta per essre collocata in una pila degli scarti, esaurisci Pinpoint → mescola invece quella carta nel mazzo del suo proprietario.",
 		"traits": "Champion."
+	},
+	{
+		"code": "29001a",
+		"flavor": "\"Direi che è ora di testare questo affare...\"",
+		"name": "Ironheart",
+		"text": "<i>Aumento di Livello!</i> — <b>Azione</b>: Rimuovi 6 gettoni progresso da Ironheart → ripristinala e scambiala con Ironheart [[Versione 2]].",
+		"traits": "Champion. Versione 1."
+	},
+	{
+		"code": "29001b",
+		"name": "Riri Williams",
+		"text": "Inizia la partita con questa carta. Metti da parte le tue altre identità. <i>(vedi l'inserto.)</i>\n<i>Bambina Prodigio</i> — <b>Azione</b>: Spendi [mental] → colloca 1 gettone progresso su Riri Williams (Limite di una volta per round.)",
+		"traits": "Genio."
+	},
+	{
+		"code": "29002a",
+		"flavor": "\"E' Ironheart, zio.\"",
+		"name": "Ironheart",
+		"text": "<i>Aumento di Livello!</i> — <b>Azione</b>: Rimuovi 6 gettoni progresso da Ironheart → ripristinala, irrobusticila e scambiala con Ironheart [[Versione 3]].",
+		"traits": "Aereo. Champion. Versione 2."
+	},
+	{
+		"code": "29002b",
+		"flavor": "\"Devo solo finire questo aggeggio, poi avrò tutto il tempo di mangiare e divertirmi e quel che è.\"",
+		"name": "Riri Williams",
+		"text": "<i>Bambina Prodigio</i> — <b>Azione</b>: Spendi [mental] oppure 2 risorse di qualsiasi tipo → colloca 1 gettone progresso su Riri Williams (Limite di una volta per round.)",
+		"traits": "Genio."
+	},
+	{
+		"code": "29003a",
+		"flavor": "\"Oh, vuole giocare, signor criminale? E allora giochiamo.\"",
+		"name": "Ironheart",
+		"text": "<i>Massima Efficienza </i> — <b>Azione Eroe</b>: Rimuovi 1 gettone progresso di Ironhart → infliggi 2 danni a un nemico.",
+		"traits": "Aereo. Champion. Versione 3."
+	},
+	{
+		"code": "29003b",
+		"flavor": "\"Posso creare qualcosa di più leggero, più veloce e più forte\"",
+		"name": "Riri Williams",
+		"text": "<i>Bambina Prodigio</i> — <b>Azione</b>: Spendi 1risorsa di qualsiasi tipo → colloca 1 gettone progresso su Riri Williams (Limite di una volta per round.)",
+		"traits": "Genio."
 	}
 ]

@@ -1,18 +1,5 @@
 [
 	{
-		"code": "43001a",
-		"flavor": "\"Facility mi ha creata per uccidere, ma io ho deciso di combattere per proteggere le persone.\"",
-		"name": "X-23",
-		"text": "<i>Arma Vivente</i> — <b>Risposta</b>: Dopo che X-23 ha subito un qualsiasi ammontare di danni, ripristinala. (Limite di una volta per fase.)",
-		"traits": "X-Force."
-	},
-	{
-		"code": "43001b",
-		"name": "Laura Kinney",
-		"text": "<i>Shhnk!</i> — <b>Preparazione</b>: Metti in gioco artigli di X-23.\n<b>Azione</b>: Mescola nel tuo mazzo l'alleato Honey Badger oppure l'evento Legame Sororale dalla tua pila degli scarti → pesca 1 carta. (Limite di una volta per round)",
-		"traits": "Mutante."
-	},
-	{
 		"code": 43002,
 		"name": "Artigli di X-23",
 		"text": "Permanente.\n<b>Azione Eroe</b>: Esaurisci Artigli di X-23 e subisci 2 danni → X-23 riceve +2 ATT fino alla fine del round.",
@@ -22,9 +9,9 @@
 		"code": 43003,
 		"flavor": "\"Non mi fai paura! E non ti permettere più di fare del male ai miei amici!\"",
 		"name": "Honey Badger",
+		"subname": "Gabby Kinney",
 		"text": "<b>Risposta Eroe</b>: Dopo che Honey Badger ha subito un qualsiasi ammontare di danni, ripristina X-23.",
-		"traits": "X-Men.",
-		"subname": "Gabby Kinney"
+		"traits": "X-Men."
 	},
 	{
 		"code": 43004,
@@ -90,24 +77,24 @@
 		"code": 43013,
 		"flavor": "\"Tic...Tac...Tic...\"",
 		"name": "Boom Boom",
+		"subname": "Tabitha Smith",
 		"text": "<b>Azione</b>: Esaurisci Boom Boom → colloca 1 gettone boom su di essa. Poi puoi scartare Boom Boom per infliggere 1 danno a ogni nemico per ogni gettone boom su di essa.",
-		"traits": "X-Force.",
-		"subname": "Tabitha Smith"
+		"traits": "X-Force."
 	},
 	{
 		"code": 43014,
 		"name": "Rictor",
+		"subname": "Julio Richter",
 		"text": "[star] <b>Risposta</b>: Dopo che Rictor ha attaccato, scarta 1 carta dalla cima del tuo mazzo. Infliggi 1 danno a ogni gregario impegnato con te per ogni icona risorsa stampata in questo modo.",
-		"traits": "X-Force.",
-		"subname": "Julio Richter"
+		"traits": "X-Force."
 	},
 	{
 		"code": 43015,
 		"flavor": "Esperto spadaccino, Shatterstar può persino tagliare dei varchi nello spazio per coprire ampie distanze teletrasportandosi. ",
 		"name": "Shatterstar",
+		"subname": "Gaveedra Seven",
 		"text": "[star] <b>Interruzione</b>: Quando Shatterstar attacca un gregario, impegna quel gregario. Se sei già impegnato con quel gregario, Shatterstar riceve +1 ATT per questo attacco.",
-		"traits": "X-Force.",
-		"subname": "Gaveedra Seven"
+		"traits": "X-Force."
 	},
 	{
 		"code": 43016,
@@ -176,5 +163,18 @@
 		"name": "Attacco Anticipato",
 		"text": "Gioca solo se ci sono trame secondarie nella galleria delle vittorie.\n<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando un nemico lancia un attacco, irrobustisci il tuo eroe.",
 		"traits": "Difesa."
+	},
+	{
+		"code": "43001a",
+		"flavor": "\"Facility mi ha creata per uccidere, ma io ho deciso di combattere per proteggere le persone.\"",
+		"name": "X-23",
+		"text": "<i>Arma Vivente</i> — <b>Risposta</b>: Dopo che X-23 ha subito un qualsiasi ammontare di danni, ripristinala. (Limite di una volta per fase.)",
+		"traits": "X-Force."
+	},
+	{
+		"code": "43001b",
+		"name": "Laura Kinney",
+		"text": "<i>Shhnk!</i> — <b>Preparazione</b>: Metti in gioco artigli di X-23.\n<b>Azione</b>: Mescola nel tuo mazzo l'alleato Honey Badger oppure l'evento Legame Sororale dalla tua pila degli scarti → pesca 1 carta. (Limite di una volta per round)",
+		"traits": "Mutante."
 	}
 ]
