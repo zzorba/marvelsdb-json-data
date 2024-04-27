@@ -76,7 +76,6 @@
 		"pack_code": "core",
 		"position": 97,
 		"quantity": 1,
-		"scheme_crisis": 1,
 		"set_code": "rhino",
 		"set_position": 4,
 		"stage": 1,
@@ -100,7 +99,7 @@
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Interrupt</b>: When Rhino attacks, the attack gains overkill. <i>(Excess damage to any ally from this attack is dealt to that ally's controller.)</i> At the end of this attack, discard Charge.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "01099",
 		"faction_code": "encounter",
@@ -111,7 +110,7 @@
 		"quantity": 2,
 		"set_code": "rhino",
 		"set_position": 6,
-		"text": "Attach to Rhino.",
+		"text": "Attach to Rhino.\n[star] <b>Forced Interrupt</b>: When Rhino attacks, the attack gains overkill. <i>(Excess damage to an ally from this attack is dealt to that ally's controller.)</i> At the end of this attack, discard Charge.",
 		"type_code": "attachment"
 	},
 	{
@@ -334,7 +333,7 @@
 	},
 	{
 		"attack": 0,
-		"attack_text": "<b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
+		"attack_star": true,
 		"code": "01113",
 		"faction_code": "encounter",
 		"flavor": "\"Come meet your doom!\"",
@@ -350,12 +349,13 @@
 		"set_code": "klaw",
 		"set_position": 1,
 		"stage": 1,
+		"text": "[star] <b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"traits": "Masters of Evil.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
+		"attack_star": true,
 		"code": "01114",
 		"faction_code": "encounter",
 		"health": 18,
@@ -370,13 +370,13 @@
 		"set_code": "klaw",
 		"set_position": 2,
 		"stage": 2,
-		"text": "<b>When Revealed</b>: Search the encounter deck and discard pile for The \"Immortal\" Klaw and reveal it. Shuffle the encounter deck.",
+		"text": "<b>When Revealed</b>: Search the encounter deck and discard pile for The \"Immortal\" Klaw and reveal it. Shuffle the encounter deck.\n[star] <b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"traits": "Masters of Evil.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
+		"attack_star": true,
 		"code": "01115",
 		"faction_code": "encounter",
 		"health": 22,
@@ -391,7 +391,7 @@
 		"set_code": "klaw",
 		"set_position": 3,
 		"stage": 3,
-		"text": "Toughness. <i>(This character enters play with a tough status card.)</i>",
+		"text": "Toughness. <i>(This character enters play with a tough status card.)</i>\n[star] <b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"traits": "Masters of Evil.",
 		"type_code": "villain"
 	},
@@ -442,7 +442,7 @@
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Response</b>: After Klaw attacks and damages a character, stun that character.",
+		"attack_star": true,
 		"boost": 3,
 		"code": "01118",
 		"faction_code": "encounter",
@@ -454,7 +454,7 @@
 		"quantity": 1,
 		"set_code": "klaw",
 		"set_position": 6,
-		"text": "Attach to Klaw.\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
+		"text": "Attach to Klaw.\n[star] <b>Forced Response</b>: After Klaw attacks and damages a character, stun that character.\n<b>Hero Action</b>: Spend [energy] [mental] [physical] resources → discard this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -493,7 +493,7 @@
 	},
 	{
 		"attack": 1,
-		"boost_text": "Put Weapons Runner into play engaged with you.",
+		"boost_star": true,
 		"code": "01121",
 		"faction_code": "encounter",
 		"health": 2,
@@ -505,7 +505,7 @@
 		"scheme": 1,
 		"set_code": "klaw",
 		"set_position": 11,
-		"text": "Surge. <i>(After this card is revealed, reveal 1 additional encounter card.)</i>",
+		"text": "Surge. <i>(After this card is revealed, reveal 1 additional encounter card.)</i>\n<hr />\n[star] <b>Boost</b>: Put Weapons Runner into play engaged with you.",
 		"traits": "Mercenary.",
 		"type_code": "minion"
 	},
@@ -524,7 +524,7 @@
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "If this activation deals damage to you, exhaust your hero.",
+		"boost_star": true,
 		"code": "01123",
 		"faction_code": "encounter",
 		"name": "Sonic Boom",
@@ -534,7 +534,7 @@
 		"quantity": 2,
 		"set_code": "klaw",
 		"set_position": 15,
-		"text": "<b>When Revealed</b>: Either spend [energy] [mental] [physical] or exhaust each character you control.",
+		"text": "<b>When Revealed</b>: Either spend [energy] [mental] [physical] resources or exhaust each character you control.\n<hr />\n[star] <b>Boost</b>: If this activation deals damage to you, exhaust your hero.",
 		"type_code": "treachery"
 	},
 	{
@@ -622,8 +622,8 @@
 	},
 	{
 		"attack": 1,
-		"attack_text": "<b>Forced Response</b>: After Radioactive Man attacks you, discard 1 card at random from your hand.",
-		"boost_text": "Discard 1 card at random from your hand.",
+		"attack_star": true,
+		"boost_star": true,
 		"code": "01129",
 		"faction_code": "encounter",
 		"health": 7,
@@ -636,13 +636,14 @@
 		"scheme": 1,
 		"set_code": "masters_of_evil",
 		"set_position": 2,
+		"text": "[star] <b>Forced Response</b>: After Radioactive Man attacks you, discard 1 card at random from your hand.\n<hr />\n[star] <b>Boost</b>: Discard 1 card at random from your hand.",
 		"traits": "Elite. Masters of Evil.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Interrupt</b>: When Whirlwind attacks you, also resolve his attack against each other hero.",
-		"boost_text": "Deal 1 damage to each hero.",
+		"attack_star": true,
+		"boost_star": true,
 		"code": "01130",
 		"faction_code": "encounter",
 		"health": 6,
@@ -655,13 +656,14 @@
 		"scheme": 1,
 		"set_code": "masters_of_evil",
 		"set_position": 3,
+		"text": "[star] <b>Forced Interrupt</b>: When Whirlwind attacks you, also resolve his attack against each other hero.\n<hr />\n[star] <b>Boost</b>: Deal 1 damage to each hero.",
 		"traits": "Masters of Evil.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Response</b>: After Tiger Shark attacks, give him a tough status card.",
-		"boost_text": "Give the villain a tough status card.",
+		"attack_star": true,
+		"boost_star": true,
 		"code": "01131",
 		"faction_code": "encounter",
 		"health": 6,
@@ -674,13 +676,14 @@
 		"scheme": 1,
 		"set_code": "masters_of_evil",
 		"set_position": 4,
+		"text": "[star] <b>Forced Response</b>: After Tiger Shark attacks, give him a tough status card.\n<hr />\n[star] <b>Boost</b>: Give the villain a tough status card.",
 		"traits": "Masters of Evil.",
 		"type_code": "minion"
 	},
 	{
 		"attack": 3,
-		"attack_text": "The engaged player must defend against Melter's attacks with an ally they control, if able.",
-		"boost_text": "Exhaust each ally you control.",
+		"attack_star": true,
+		"boost_star": true,
 		"code": "01132",
 		"faction_code": "encounter",
 		"health": 5,
@@ -693,6 +696,7 @@
 		"scheme": 1,
 		"set_code": "masters_of_evil",
 		"set_position": 5,
+		"text": "[star] The engaged player must defend against Melter's attacks with an ally they control, if able.\n<hr />\n[star] <b>Boost</b>: Exhaust each ally you control.",
 		"traits": "Masters of Evil.",
 		"type_code": "minion"
 	},
@@ -712,7 +716,7 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Response</b>: After Ultron attacks you, choose to either place 1 threat on the main scheme or put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion.",
+		"attack_star": true,
 		"code": "01134",
 		"faction_code": "encounter",
 		"health": 17,
@@ -727,12 +731,13 @@
 		"set_code": "ultron",
 		"set_position": 1,
 		"stage": 1,
+		"text": "[star] <b>Forced Response</b>: After Ultron attacks you, choose to either place 1 threat on the main scheme or put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"traits": "Android.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Interrupt</b>: When Ultron attacks you, put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion. Until the end of his attack, Ultron gets +1 ATK for each [[Drone]] minion engaged with you.",
+		"attack_star": true,
 		"code": "01135",
 		"faction_code": "encounter",
 		"health": 22,
@@ -747,6 +752,7 @@
 		"set_code": "ultron",
 		"set_position": 2,
 		"stage": 2,
+		"text": "[star] <b>Forced Interrupt</b>: When Ultron attacks you, put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion. Until the end of his attack, Ultron gets +1 ATK for each [[Drone]] minion engaged with you.",
 		"traits": "Android.",
 		"type_code": "villain"
 	},
@@ -861,10 +867,10 @@
 		"position": 141,
 		"quantity": 1,
 		"scheme": 1,
-		"scheme_text": "<b>Forced Response</b>: After Ultron schemes, place 1 threat on each side scheme.",
+		"scheme_star": true,
 		"set_code": "ultron",
 		"set_position": 8,
-		"text": "Attach to Ultron.\n<b>Hero Action</b>: Exhaust your hero and spend [mental] [mental] resources → discard this card.",
+		"text": "Attach to Ultron.\n[star] <b>Forced Response</b>: After Ultron schemes, place 1 threat on each side scheme.\n<b>Hero Action</b>: Exhaust your hero and spend [mental] [mental] resources → discard this card.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
@@ -901,7 +907,7 @@
 		"type_code": "minion"
 	},
 	{
-		"boost_text": "Choose to either spend a [energy] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion.",
+		"boost_star": true,
 		"code": "01144a",
 		"faction_code": "encounter",
 		"name": "Android Efficiency",
@@ -911,11 +917,11 @@
 		"quantity": 1,
 		"set_code": "ultron",
 		"set_position": 14,
-		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
+		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.\n<hr />\n[star] <b>Boost</b>: Choose to either spend a [energy] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "Choose to either spend a [mental] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion.",
+		"boost_star": true,
 		"code": "01144b",
 		"faction_code": "encounter",
 		"name": "Android Efficiency",
@@ -925,11 +931,11 @@
 		"quantity": 1,
 		"set_code": "ultron",
 		"set_position": 15,
-		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
+		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.\n<hr />\n[star] <b>Boost</b>: Choose to either spend a [mental] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"type_code": "treachery"
 	},
 	{
-		"boost_text": "Choose to either spend a [physical] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion.",
+		"boost_star": true,
 		"code": "01144c",
 		"faction_code": "encounter",
 		"name": "Android Efficiency",
@@ -939,7 +945,7 @@
 		"quantity": 1,
 		"set_code": "ultron",
 		"set_position": 16,
-		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
+		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.\n<hr />\n[star] <b>Boost</b>: Choose to either spend a [physical] resource or put the top card of the deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"type_code": "treachery"
 	},
 	{
@@ -958,7 +964,7 @@
 	},
 	{
 		"boost": 1,
-		"boost_text": "Ultron heals 1 damage for each [[Drone]] minion engaged with you.",
+		"boost_star": true,
 		"code": "01146",
 		"faction_code": "encounter",
 		"name": "Repair Sequence",
@@ -968,7 +974,7 @@
 		"quantity": 2,
 		"set_code": "ultron",
 		"set_position": 19,
-		"text": "<b>When Revealed</b>: Ultron heals 2 damage for each [[Drone]] minion engaged with you. If no damage was healed this way, this card gains surge.",
+		"text": "<b>When Revealed</b>: Ultron heals 2 damage for each [[Drone]] minion engaged with you. If no damage was healed this way, this card gains surge.\n<hr />\n[star] <b>Boost</b>: Ultron heals 1 damage for each [[Drone]] minion engaged with you.",
 		"type_code": "treachery"
 	},
 	{
@@ -1085,7 +1091,7 @@
 		"type_code": "attachment"
 	},
 	{
-		"boost_text": "Deal 1 damage to each character you control.",
+		"boost_star": true,
 		"code": "01154",
 		"faction_code": "encounter",
 		"name": "Concussive Blast",
@@ -1095,7 +1101,7 @@
 		"quantity": 2,
 		"set_code": "under_attack",
 		"set_position": 4,
-		"text": "<b>When Revealed</b>: Deal 1 damage to each friendly character.",
+		"text": "<b>When Revealed</b>: Deal 1 damage to each friendly character.\n<hr />\n[star] <b>Boost</b>: Deal 1 damage to each character you control.",
 		"type_code": "treachery"
 	},
 	{
@@ -1108,7 +1114,7 @@
 		"position": 155,
 		"quantity": 1,
 		"set_code": "black_panther",
-		"text": "<b><i>Give to the T'Challa player.</i></b>\nYou may flip to your alter-ego form. Choose:\n- Exhaust T'Challa → remove Affairs of State from the game.\n- Choose and discard a [[Black Panther]] upgrade you control. Discard this obligation.",
+		"text": "<b><i>Give to the T'Challa player.</i></b>\nYou may flip to alter-ego form. Choose:\n\u2022 Exhaust T'Challa → remove Affairs of State from the game.\n\u2022 Choose and discard a [[Black Panther]] upgrade you control. Discard this obligation.",
 		"type_code": "obligation"
 	},
 	{
@@ -1149,7 +1155,7 @@
 	},
 	{
 		"boost": 1,
-		"boost_text": "Give the villain a tough status card.",
+		"boost_star": true,
 		"code": "01158",
 		"faction_code": "encounter",
 		"name": "Heart-Shaped Herb",
@@ -1159,7 +1165,7 @@
 		"quantity": 1,
 		"set_code": "black_panther_nemesis",
 		"set_position": 3,
-		"text": "Surge <i>(After this card resolves, reveal 1 additional encounter card)</i>\n<b>When Revealed</b>: Give the villain and each minion engaged with you a tough status card.",
+		"text": "Surge <i>(After this card resolves, reveal 1 additional encounter card)</i>\n<b>When Revealed</b>: Give the villain and each minion engaged with you a tough status card.\n<hr />\n[star] <b>Boost</b>: Give the villain a tough status card.",
 		"type_code": "treachery"
 	},
 	{
@@ -1180,13 +1186,14 @@
 		"boost": 2,
 		"code": "01160",
 		"faction_code": "encounter",
+		"illustrator": "Andrea Di Vito & Laura Villari",
 		"name": "Legal Work",
 		"octgn_id": "215756dd-e34d-4d10-be2e-7d972ade0e36",
 		"pack_code": "core",
 		"position": 160,
 		"quantity": 1,
 		"set_code": "she_hulk",
-		"text": "<b><i>Give to the Jennifer Walters player.</i></b>\nYou may flip to your alter-ego form. Choose:\n- Exhaust Jennifer Walters → remove Legal Work from the game.\n- Give the main scheme 1 acceleration token. Discard this obligation.",
+		"text": "<b><i>Give to the Jennifer Walters player.</i></b>\nYou may flip to alter-ego form. Choose:\n\u2022 Exhaust Jennifer Walters → remove Legal Work from the game.\n\u2022 Give the main scheme 1 acceleration token. Discard this obligation.",
 		"type_code": "obligation"
 	},
 	{
@@ -1244,7 +1251,7 @@
 	},
 	{
 		"boost": 1,
-		"boost_text": "Give the villain 1 additional boost card for this activation.",
+		"boost_star": true,
 		"code": "01164",
 		"faction_code": "encounter",
 		"name": "Titania's Fury",
@@ -1254,7 +1261,7 @@
 		"quantity": 2,
 		"set_code": "she_hulk_nemesis",
 		"set_position": 4,
-		"text": "<b>When Revealed</b>: Titania attacks your hero. If Titania did not attack, heal all damage from Titania and this card gains surge.",
+		"text": "<b>When Revealed</b>: Titania attacks your hero. If Titania did not attack, heal all damage from Titania and this card gains surge.\n<hr />\n[star] <b>Boost</b>: Give the villain 1 additional boost card for this activation.",
 		"type_code": "treachery"
 	},
 	{
@@ -1267,7 +1274,7 @@
 		"position": 165,
 		"quantity": 1,
 		"set_code": "spider_man",
-		"text": "<b><i>Give to the Peter Parker player.</i></b>\nYou may flip to your alter-ego form. Choose:\n- Exhaust Peter Parker → remove Eviction Notice from the game.\n- Discard 1 card at random from your hand. This card gains surge. Discard this obligation.",
+		"text": "<b><i>Give to the Peter Parker player.</i></b>\nYou may flip to alter-ego form. Choose:\n\u2022 Exhaust Peter Parker → remove Eviction Notice from the game.\n\u2022 Discard 1 card at random from your hand. This card gains surge. Discard this obligation.",
 		"type_code": "obligation"
 	},
 	{
@@ -1307,7 +1314,7 @@
 		"type_code": "minion"
 	},
 	{
-		"boost_text": "If this activation deals damage to a friendly character, stun that character.",
+		"boost_star": true,
 		"code": "01168",
 		"faction_code": "encounter",
 		"name": "Sweeping Swoop",
@@ -1317,7 +1324,7 @@
 		"quantity": 2,
 		"set_code": "spider_man_nemesis",
 		"set_position": 3,
-		"text": "<b>When Revealed</b>: Stun your hero. If Vulture is in play, this card gains surge.",
+		"text": "<b>When Revealed</b>: Stun your hero. If Vulture is in play, this card gains surge.\n<hr />\n[star] <b>Boost</b>: If this activation deals damage to a friendly character, stun that character.",
 		"type_code": "treachery"
 	},
 	{
@@ -1345,7 +1352,7 @@
 		"position": 170,
 		"quantity": 1,
 		"set_code": "iron_man",
-		"text": "<b><i>Give to the Tony Stark player.</i></b>\nYou may flip to your alter-ego form. Choose:\n- Exhaust Tony Stark → remove Business Problems from the game.\n- Exhaust each upgrade you control. Discard this obligation.",
+		"text": "<b><i>Give to the Tony Stark player.</i></b>\nYou may flip to alter-ego form. Choose:\n\u2022 Exhaust Tony Stark → remove Business Problems from the game.\n\u2022 Exhaust each upgrade you control. Discard this obligation.",
 		"type_code": "obligation"
 	},
 	{
@@ -1386,7 +1393,7 @@
 		"type_code": "minion"
 	},
 	{
-		"boost_text": "If the villain is making an undefended attack, choose and discard an upgrade you control.",
+		"boost_star": true,
 		"code": "01173",
 		"faction_code": "encounter",
 		"name": "Electric Whip Attack",
@@ -1396,7 +1403,7 @@
 		"quantity": 2,
 		"set_code": "iron_man_nemesis",
 		"set_position": 3,
-		"text": "<b>When Revealed</b>: Choose to either deal 1 damage to your hero for each upgrade you control or choose and discard an upgrade you control.",
+		"text": "<b>When Revealed</b>: Choose to either deal 1 damage to your hero for each upgrade you control or choose and discard an upgrade you control.\n<hr />\n[star] <b>Boost</b>: If the villain is making an undefended attack, choose and discard an upgrade you control.",
 		"type_code": "treachery"
 	},
 	{
@@ -1424,7 +1431,7 @@
 		"position": 175,
 		"quantity": 1,
 		"set_code": "captain_marvel",
-		"text": "<b><i>Give to the Carol Danvers player.</i></b>\nYou may flip to your alter-ego form. Choose:\n- Exhaust Carol Danvers → remove Family Emergency from the game.\n- You are stunned. This card gains surge. Discard this obligation.",
+		"text": "<b><i>Give to the Carol Danvers player.</i></b>\nYou may flip to alter-ego form. Choose:\n\u2022 Exhaust Carol Danvers → remove Family Emergency from the game.\n\u2022 You are stunned. This card gains surge. Discard this obligation.",
 		"type_code": "obligation"
 	},
 	{
@@ -1433,8 +1440,8 @@
 		"boost": 3,
 		"code": "01176",
 		"faction_code": "encounter",
-		"flavor": "The Psych-Magnitron is a Kree device with the power to turn thoughts into reality. In the hands of Yon-Rogg, it would be a devastating weapon.",
-		"name": "The Psych-Magnitron",
+		"flavor": "The Psyche-Magnitron is a Kree device with the power to turn thoughts into reality. In the hands of Yon-Rogg, it would be a devastating weapon.",
+		"name": "The Psyche-Magnitron",
 		"octgn_id": "78ea09d6-bdd6-4133-b1b4-446ae53a68f6",
 		"pack_code": "core",
 		"position": 176,
@@ -1442,16 +1449,16 @@
 		"scheme_hazard": 1,
 		"set_code": "captain_marvel_nemesis",
 		"set_position": 1,
-		"text": "<b>When Revealed</b>: Place an additional 1 [per_hero] threat here.",
+		"text": "<b>When Revealed</b>: Place an additional 1[per_hero] threat here.",
 		"type_code": "side_scheme"
 	},
 	{
 		"attack": 3,
-		"attack_text": "<b>Forced Response</b>: After Yon-Rogg attacks, place 1 threat on The Psych-Magnitron.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "01177",
 		"faction_code": "encounter",
-		"flavor": "\"It isn't real power unless they fear you\"",
+		"flavor": "\"It isn't real power unless they fear you.\"",
 		"health": 5,
 		"is_unique": true,
 		"name": "Yon-Rogg",
@@ -1462,11 +1469,12 @@
 		"scheme": 2,
 		"set_code": "captain_marvel_nemesis",
 		"set_position": 2,
+		"text": "[star] <b>Forced Response</b>: After Yon-Rogg attacks, place 1 threat on The Psyche-Magnitron.",
 		"traits": "Elite. Kree.",
 		"type_code": "minion"
 	},
 	{
-		"boost_text": "If the villain is making an undefended attack, place 1 threat on the main scheme.",
+		"boost_star": true,
 		"code": "01178",
 		"faction_code": "encounter",
 		"name": "Kree Manipulator",
@@ -1476,7 +1484,7 @@
 		"quantity": 2,
 		"set_code": "captain_marvel_nemesis",
 		"set_position": 3,
-		"text": "Surge. <i>(After this card resolves, reveal 1 additional encounter card.)</i>\n<b>When Revealed</b>: Place 1 threat on the main scheme.",
+		"text": "Surge. <i>(After this card resolves, reveal 1 additional encounter card.)</i>\n<b>When Revealed</b>: Place 1 threat on the main scheme.\n<hr />\n[star] <b>Boost</b>: If the villain is making an undefended attack, place 1 threat on the main scheme.",
 		"type_code": "treachery"
 	},
 	{
@@ -1513,7 +1521,7 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Response</b>: After Madame Hydra schemes or attacks, place 2 threat on the Legions of Hydra side scheme.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "01181",
 		"faction_code": "encounter",
@@ -1525,10 +1533,10 @@
 		"position": 181,
 		"quantity": 1,
 		"scheme": 2,
-		"scheme_text": "<b>Forced Response</b>: After Madame Hydra schemes or attacks, place 2 threat on the Legions of Hydra side scheme.",
+		"scheme_star": true,
 		"set_code": "legions_of_hydra",
 		"set_position": 3,
-		"text": "Madame Hydra cannot take damage while the Legions of Hydra side scheme is in play.",
+		"text": "Madame Hydra cannot take damage while the Legions of Hydra side scheme is in play.\n[star] <b>Forced Response</b>: After Madame Hydra schemes or attacks, place 2 threat on the Legions of Hydra side scheme.",
 		"traits": "Elite. Hydra.",
 		"type_code": "minion"
 	},

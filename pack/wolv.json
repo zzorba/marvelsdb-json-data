@@ -10,7 +10,7 @@
 		"health": 10,
 		"illustrator": "Joey Vazquez",
 		"is_unique": true,
-      "meta": {
+		"meta": {
 			"colors": [
 				"#e6b12c",
 				"#141b23",
@@ -255,6 +255,7 @@
 	{
 		"attack": 1,
 		"attack_cost": 1,
+		"attack_star": true,
 		"code": "35013",
 		"cost": 4,
 		"deck_limit": 1,
@@ -298,18 +299,11 @@
 	},
 	{
 		"code": "35015",
-		"cost": 1,
-		"deck_limit": 3,
-		"faction_code": "aggression",
-		"name": "Battle Fury",
+		"duplicate_of": "06018",
 		"octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035015",
 		"pack_code": "wolv",
 		"position": 15,
-		"quantity": 3,
-		"resource_energy": 1,
-		"text": "Play under any player's control. Max 1 per player.\n<b>Response</b>: After your hero attacks and defeats a minion, deal 1 damage to your hero and discard Battle Fury → ready your hero.",
-		"traits": "Condition.",
-		"type_code": "upgrade"
+		"quantity": 3
 	},
 	{
 		"code": "35016",
@@ -322,7 +316,7 @@
 		"position": 16,
 		"quantity": 3,
 		"resource_mental": 1,
-		"text": "Uses (3 warrior counters). Max 1 per player.\n<b>Interrupt</b>: When your hero attacks, remove 1 counter from here → that attacks deals 1 additional damage.",
+		"text": "Uses (3 warrior counters). Max 1 per player.\n<b>Interrupt</b>: When your hero attacks, remove 1 counter from here → that attack deals 1 additional damage.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -358,18 +352,12 @@
 	},
 	{
 		"code": "35019",
-		"cost": 0,
-		"deck_limit": 3,
-		"faction_code": "aggression",
-		"name": "Mean Swing",
+		"duplicate_of": "06015",
+		"flavor": "SLASH!",
 		"octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035019",
 		"pack_code": "wolv",
 		"position": 19,
-		"quantity": 3,
-		"resource_physical": 1,
-		"text": "<b>Hero Interrupt</b>: When your hero makes a basic attack, exhaust a [[WEAPON]] upgrade on your hero → your hero gets +3 ATK for this attack.",
-		"traits": "Skill.",
-		"type_code": "event"
+		"quantity": 3
 	},
 	{
 		"code": "35020",
@@ -461,6 +449,7 @@
 	{
 		"attack": 2,
 		"attack_cost": 1,
+		"attack_star": true,
 		"code": "35033",
 		"cost": 4,
 		"deck_limit": 1,

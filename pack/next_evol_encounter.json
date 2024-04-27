@@ -53,7 +53,7 @@
     },
     {
         "boost": 1,
-        "boost_text": "Attach this card to the activating enemy.",
+        "boost_star": true,
         "code": "40034",
         "faction_code": "encounter",
         "illustrator": "Eduardo Mello",
@@ -64,12 +64,12 @@
         "quantity": 1,
         "set_code": "cable_nemesis",
         "set_position": 3,
-        "text": "Attach to Stryfe. Otherwise, attach to the villain.\n<b>Forced Interrupt</b>: When attached character would take any amount of damage, prevent that damage. If 2 or more damage was prevented this way, discard this card.",
+        "text": "Attach to Stryfe. Otherwise, attach to the villain.\n<b>Forced Interrupt</b>: When attached character would take any amount of damage, prevent that damage. If 2 or more damage was prevented this way, discard this card.\n<hr />\n[star] <b>Boost</b>: Attach this card to the activating enemy.",
         "traits": "Psionic.",
         "type_code": "attachment"
     },
     {
-        "boost_text": "You are confused.",
+        "boost_star": true,
         "code": "40035",
         "faction_code": "encounter",
         "illustrator": "Eduardo Mello",
@@ -80,12 +80,12 @@
         "quantity": 1,
         "set_code": "cable_nemesis",
         "set_position": 4,
-        "text": "<b>When Revealed</b>: Place 2 threat on the main scheme. Place 1 additional threat on the main scheme for each side scheme in the victory display.",
+        "text": "<b>When Revealed</b>: Place 2 threat on the main scheme. Place 1 additional threat on the main scheme for each side scheme in the victory display.\n<hr />\n[star] <b>Boost</b>: You are confused.",
         "traits": "Psionic.",
         "type_code": "treachery"
     },
     {
-        "boost_text": "You are stunned.",
+        "boost_star": true,
         "code": "40036",
         "faction_code": "encounter",
         "illustrator": "Eduardo Mello",
@@ -96,7 +96,7 @@
         "quantity": 1,
         "set_code": "cable_nemesis",
         "set_position": 5,
-        "text": "<b>When Revealed</b>: Take 2 damage. Take 1 additional damage for each side scheme in the victory display.",
+        "text": "<b>When Revealed</b>: Take 2 damage. Take 1 additional damage for each side scheme in the victory display.\n<hr />\n[star] <b>Boost</b>: You are stunned.",
         "traits": "Psionic.",
         "type_code": "treachery"
     },
@@ -160,7 +160,7 @@
         "faction_code": "encounter",
         "flavor": "Domino's good luck is Prototype's misfortune, and her suffering strengthens him.",
         "health": 1,
-        "health_text": "Prototype gets +1 hit points for each luck counter on him.",
+        "health_star": true,
         "illustrator": "Ivan Fiorelli",
         "is_unique": true,
         "name": "Prototype",
@@ -171,7 +171,7 @@
         "scheme": 2,
         "set_code": "domino_nemesis",
         "set_position": 3,
-        "text": "<b>When Revealed</b>: Place luck counters on Prototype equal to the amount of damage your identity has sustained.",
+        "text": "[star] Prototype gets +1 hit points for each luck counter on him.\n<b>When Revealed</b>: Place luck counters on Prototype equal to the amount of damage your identity has sustained.",
         "traits": "Mutant.",
         "type_code": "minion"
     },
@@ -192,7 +192,7 @@
     },
     {
         "attack": 1,
-        "attack_text": "<b>Forced Interrupt</b>: When Arclight attacks you or an ally you control, choose:\n\u2022 Confuse a character you control.\n\u2022 Arclight gets +2 ATK for this attack.",
+        "attack_star": true,
         "back_link": "40070b",
         "code": "40070a",
         "double_sided": true,
@@ -210,12 +210,13 @@
         "set_code": "marauders",
         "set_position": 1,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Arclight attacks you or an ally you control, choose:\n\u2022 Confuse a character you control.\n\u2022 Arclight gets +2 ATK for this attack.",
         "traits": "Brute. Marauder.",
         "type_code": "villain"
     },
     {
         "attack": 2,
-        "attack_text": "<b>Forced Interrupt</b>: When Arclight attacks you or an ally you control, choose:\n\u2022 Confuse the character you control with the highest THW.\n\u2022 Arclight gets +2 ATK for this attack.",
+        "attack_star": true,
         "code": "40070b",
         "double_sided": true,
         "faction_code": "encounter",
@@ -233,12 +234,13 @@
         "set_code": "marauders",
         "set_position": 1,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Arclight attacks you or an ally you control, choose:\n\u2022 Confuse the character you control with the highest THW.\n\u2022 Arclight gets +2 ATK for this attack.",
         "traits": "Brute. Marauder.",
         "type_code": "villain"
     },
     {
         "attack": 2,
-        "attack_text": "<b>Forced Interrupt</b>: When Blockbuster attacks you or an ally you control, choose:\n\u2022 Give Blockbuster a tough status card.\n\u2022 Blockbuster gets +2 ATK for this attack.",
+        "attack_star": true,
         "back_link": "40071b",
         "code": "40071a",
         "double_sided": true,
@@ -256,12 +258,13 @@
         "set_code": "marauders",
         "set_position": 2,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Blockbuster attacks you or an ally you control, choose:\n\u2022 Give Blockbuster a tough status card.\n\u2022 Blockbuster gets +2 ATK for this attack.",
         "traits": "Brute. Marauder.",
         "type_code": "villain"
     },
     {
         "attack": 3,
-        "attack_text": "<b>Forced Interrupt</b>: When Blockbuster attacks you or an ally you control, choose:\n\u2022 Give Blockbuster a tough status card.\n\u2022 Blockbuster gets +2 ATK for this attack and this attack gains overkill.",
+        "attack_star": true,
         "code": "40071b",
         "double_sided": true,
         "faction_code": "encounter",
@@ -279,12 +282,13 @@
         "set_code": "marauders",
         "set_position": 2,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Blockbuster attacks you or an ally you control, choose:\n\u2022 Give Blockbuster a tough status card.\n\u2022 Blockbuster gets +2 ATK for this attack and this attack gains overkill.",
         "traits": "Brute. Marauder.",
         "type_code": "villain"
     },
     {
         "attack": 1,
-        "attack_text": "<b>Forced Interrupt</b>: When Chimera attacks you or an ally you control, choose:\n\u2022 Spend a [mental] resource.\n\u2022 Chimera gets +2 ATK for this attack.",
+        "attack_star": true,
         "back_link": "40072b",
         "code": "40072a",
         "double_sided": true,
@@ -302,12 +306,13 @@
         "set_code": "marauders",
         "set_position": 3,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Chimera attacks you or an ally you control, choose:\n\u2022 Spend a [mental] resource.\n\u2022 Chimera gets +2 ATK for this attack.",
         "traits": "Marauder. Psionic.",
         "type_code": "villain"
     },
     {
         "attack": 2,
-        "attack_text": "<b>Forced Interrupt</b>: When Chimera attacks you or an ally you control, choose:\n\u2022 Spend [mental][mental] resources.\n\u2022 Chimera gets +2 ATK for this attack.",
+        "attack_star": true,
         "code": "40072b",
         "double_sided": true,
         "faction_code": "encounter",
@@ -325,12 +330,13 @@
         "set_code": "marauders",
         "set_position": 3,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Chimera attacks you or an ally you control, choose:\n\u2022 Spend [mental][mental] resources.\n\u2022 Chimera gets +2 ATK for this attack.",
         "traits": "Marauder. Psionic.",
         "type_code": "villain"
     },
     {
         "attack": 1,
-        "attack_text": "<b>Forced Interrupt</b>: When Greycrow attacks you or an ally you control, choose:\n\u2022 Discard the highest-cost card you control.\n\u2022 Greycrow gets +X ATK for this attack, where X is the printed cost of the highest-cost card you control.",
+        "attack_star": true,
         "back_link": "40073b",
         "code": "40073a",
         "double_sided": true,
@@ -348,12 +354,13 @@
         "set_code": "marauders",
         "set_position": 4,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Greycrow attacks you or an ally you control, choose:\n\u2022 Discard the highest-cost card you control.\n\u2022 Greycrow gets +X ATK for this attack, where X is the printed cost of the highest-cost card you control.",
         "traits": "Marauder. Mercenary.",
         "type_code": "villain"
     },
     {
         "attack": 2,
-        "attack_text": "<b>Forced Interrupt</b>: When Greycrow attacks you or an ally you control, choose:\n\u2022 Discard each card you control with the highest cost.\n\u2022 Greycrow gets +X ATK for this attack, where X is the printed cost of the highest-cost card you control.",
+        "attack_star": true,
         "code": "40073b",
         "double_sided": true,
         "faction_code": "encounter",
@@ -371,12 +378,13 @@
         "set_code": "marauders",
         "set_position": 4,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Greycrow attacks you or an ally you control, choose:\n\u2022 Discard each card you control with the highest cost.\n\u2022 Greycrow gets +X ATK for this attack, where X is the printed cost of the highest-cost card you control.",
         "traits": "Marauder. Mercenary.",
         "type_code": "villain"
     },
     {
         "attack": 2,
-        "attack_text": "<b>Forced Interrupt</b>: When Harpoon attacks you or an ally you control, choose:\n\u2022 Take 2 indirect damage.\n\u2022 Give Harpoon 1 additional facedown boost card for this attack.",
+        "attack_star": true,
         "back_link": "40074b",
         "code": "40074a",
         "double_sided": true,
@@ -394,12 +402,13 @@
         "set_code": "marauders",
         "set_position": 5,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Harpoon attacks you or an ally you control, choose:\n\u2022 Take 2 indirect damage.\n\u2022 Give Harpoon 1 additional facedown boost card for this attack.",
         "traits": "Brute. Marauder.",
         "type_code": "villain"
     },
     {
         "attack": 3,
-        "attack_text": "<b>Forced Interrupt</b>: When Harpoon attacks you or an ally you control, choose:\n\u2022 Take 3 indirect damage.\n\u2022 Give Harpoon 1 additional facedown boost card for this attack. This attack gains overkill.",
+        "attack_star": true,
         "code": "40074b",
         "double_sided": true,
         "faction_code": "encounter",
@@ -417,12 +426,13 @@
         "set_code": "marauders",
         "set_position": 5,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Harpoon attacks you or an ally you control, choose:\n\u2022 Take 3 indirect damage.\n\u2022 Give Harpoon 1 additional facedown boost card for this attack. This attack gains overkill.",
         "traits": "Brute. Marauder.",
         "type_code": "villain"
     },
     {
         "attack": 1,
-        "attack_text": "<b>Forced Interrupt</b>: When Riptide attacks you or an ally you control, choose:\n\u2022 Place 2 threat on the main scheme and 1 threat on each side scheme.\n\u2022 Riptide gets +2 ATK for this attack.",
+        "attack_star": true,
         "back_link": "40075b",
         "code": "40075a",
         "double_sided": true,
@@ -440,12 +450,13 @@
         "set_code": "marauders",
         "set_position": 6,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Riptide attacks you or an ally you control, choose:\n\u2022 Place 2 threat on the main scheme and 1 threat on each side scheme.\n\u2022 Riptide gets +2 ATK for this attack.",
         "traits": "Assassin. Marauder.",
         "type_code": "villain"
     },
     {
         "attack": 2,
-        "attack_text": "<b>Forced Interrupt</b>: When Riptide attacks you or an ally you control, choose:\n\u2022 Place 3 threat on the main scheme and 1 threat on each side scheme.\n\u2022 Riptide gets +2 ATK for this attack and this attack gains ranged and piercing.",
+        "attack_star": true,
         "code": "40075b",
         "double_sided": true,
         "faction_code": "encounter",
@@ -463,12 +474,13 @@
         "set_code": "marauders",
         "set_position": 6,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Riptide attacks you or an ally you control, choose:\n\u2022 Place 3 threat on the main scheme and 1 threat on each side scheme.\n\u2022 Riptide gets +2 ATK for this attack and this attack gains ranged and piercing.",
         "traits": "Assassin. Marauder.",
         "type_code": "villain"
     },
     {
         "attack": 0,
-        "attack_text": "<b>Forced Interrupt</b>: When Vertigo attacks you or an ally you control, choose:\n\u2022 Stun a character you control.\n\u2022 Vertigo gets +2 ATK for this attack.",
+        "attack_star": true,
         "back_link": "40076b",
         "code": "40076a",
         "double_sided": true,
@@ -486,12 +498,13 @@
         "set_code": "marauders",
         "set_position": 7,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Vertigo attacks you or an ally you control, choose:\n\u2022 Stun a character you control.\n\u2022 Vertigo gets +2 ATK for this attack.",
         "traits": "Marauder. Mutate.",
         "type_code": "villain"
     },
     {
         "attack": 1,
-        "attack_text": "<b>Forced Interrupt</b>: When Vertigo attacks you or an ally you control, choose:\n\u2022 Stun the character you control with the highest ATK.\n\u2022 Vertigo gets +2 ATK for this attack.",
+        "attack_star": true,
         "code": "40076b",
         "double_sided": true,
         "faction_code": "encounter",
@@ -509,6 +522,7 @@
         "set_code": "marauders",
         "set_position": 7,
         "stage": null,
+        "text": "[star] <b>Forced Interrupt</b>: When Vertigo attacks you or an ally you control, choose:\n\u2022 Stun the character you control with the highest ATK.\n\u2022 Vertigo gets +2 ATK for this attack.",
         "traits": "Marauder. Mutate.",
         "type_code": "villain"
     },
@@ -519,6 +533,7 @@
         "deck_limit": 1,
         "double_sided": true,
         "escalation_threat": 1,
+        "escalation_threat_star": true,
         "faction_code": "encounter",
         "illustrator": "Facundo Moyano",
         "name": "Knock, Knock",
@@ -575,7 +590,7 @@
         "type_code": "ally"
     },
     {
-        "boost_text": "Give 1 [[MORLOCK]] ally a tough status card. Give the villain 1 additional boost card for this activation.",
+        "boost_star": true,
         "code": "40080",
         "faction_code": "encounter",
         "illustrator": "Facundo Moyano",
@@ -586,7 +601,7 @@
         "quantity": 1,
         "set_code": "morlock_siege",
         "set_position": 7,
-        "text": "Surge.\n<b>When Revealed</b>: Give 1 [[MORLOCK]] ally a tough status card.",
+        "text": "Surge.\n<b>When Revealed</b>: Give 1 [[MORLOCK]] ally a tough status card.\n<hr />\n[star] <b>Boost</b>: Give 1 [[MORLOCK]] ally a tough status card. Give the villain 1 additional boost card for this activation.",
         "type_code": "treachery"
     },
     {
@@ -624,7 +639,7 @@
     {
         "attack": 1,
         "boost": 1,
-        "boost_text": "This card gets +X boost icons ([boost]), where X is the number of villains under Routed.",
+        "boost_star": true,
         "code": "40082",
         "faction_code": "encounter",
         "illustrator": "Eleonora Carlini",
@@ -636,7 +651,7 @@
         "scheme": 1,
         "set_code": "morlock_siege",
         "set_position": 9,
-        "text": "Attach to the villain.\n<b>Hero Action</b>: Exhaust a character you control and spend X resources of any type, where X is the number of villains under Routed \u2192 discard this card.",
+        "text": "Attach to the villain.\n<b>Hero Action</b>: Exhaust a character you control and spend X resources of any type, where X is the number of villains under Routed \u2192 discard this card.\n<hr />\n[star] <b>Boost</b>: This card gets +X boost icons ([boost]), where X is the number of villains under Routed.",
         "traits": "Condition.",
         "type_code": "attachment"
     },
@@ -729,7 +744,7 @@
     },
     {
         "boost": 1,
-        "boost_text": "If you control a Morlock ally, choose to either deal 1 damage to it or spend 1 resource of any type.",
+        "boost_star": true,
         "code": "40088",
         "faction_code": "encounter",
         "illustrator": "Emanuele Simoncini",
@@ -740,12 +755,12 @@
         "quantity": 2,
         "set_code": "morlock_siege",
         "set_position": 15,
-        "text": "<b>When Revealed</b>: Give the villain a tough status card. Place threat on the main scheme equal to the number of villains under Routed.",
+        "text": "<b>When Revealed</b>: Give the villain a tough status card. Place threat on the main scheme equal to the number of villains under Routed.\n<hr />\n[star] <b>Boost</b>: If you control a Morlock ally, choose to either deal 1 damage to it or spend 1 resource of any type.",
         "type_code": "treachery"
     },
     {
         "boost": 1,
-        "boost_text": "If this activation is an attack, it gains overkill.",
+        "boost_star": true,
         "code": "40089",
         "faction_code": "encounter",
         "illustrator": "Facundo Moyano",
@@ -756,7 +771,7 @@
         "quantity": 3,
         "set_code": "morlock_siege",
         "set_position": 17,
-        "text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: The villain attacks you. If there is at least 1 villain under Routed, this attack gains overkill.",
+        "text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: The villain attacks you. If there is at least 1 villain under Routed, this attack gains overkill.\n<hr />\n[star] <b>Boost</b>: If this activation is an attack, it gains overkill.",
         "type_code": "treachery"
     },
     {
@@ -828,6 +843,7 @@
     },
     {
         "attack": 1,
+        "attack_star": true,
         "boost": 1,
         "code": "40094",
         "faction_code": "encounter",
@@ -848,6 +864,7 @@
     },
     {
         "attack": 2,
+        "attack_star": true,
         "boost": 2,
         "code": "40095",
         "faction_code": "encounter",
@@ -868,6 +885,7 @@
     },
     {
         "attack": 1,
+        "attack_star": true,
         "boost": 3,
         "code": "40096",
         "faction_code": "encounter",
@@ -887,6 +905,7 @@
     },
     {
         "attack": 1,
+        "attack_star": true,
         "boost": 3,
         "code": "40097",
         "faction_code": "encounter",
@@ -906,6 +925,7 @@
     },
     {
         "attack": 2,
+        "attack_star": true,
         "boost": 1,
         "code": "40098",
         "faction_code": "encounter",
@@ -926,6 +946,7 @@
     },
     {
         "attack": 1,
+        "attack_star": true,
         "boost": 1,
         "code": "40099",
         "faction_code": "encounter",
@@ -946,6 +967,7 @@
     },
     {
         "attack": 0,
+        "attack_star": true,
         "boost": 2,
         "code": "40100",
         "faction_code": "encounter",
@@ -1036,6 +1058,7 @@
         "type_code": "main_scheme"
     },
     {
+        "attack_star": true,
         "back_link": "40105b",
         "code": "40105a",
         "double_sided": true,
@@ -1055,6 +1078,7 @@
     },
     {
         "attack": 1,
+        "attack_star": true,
         "code": "40105b",
         "double_sided": true,
         "faction_code": "encounter",
@@ -1091,6 +1115,7 @@
     },
     {
         "attack": 1,
+        "attack_star": true,
         "code": "40107",
         "faction_code": "encounter",
         "name": "Favored Weapon",
@@ -1171,8 +1196,9 @@
     },
     {
         "attack": 2,
+        "attack_star": true,
         "boost": 1,
-        "boost_text": "Exhaust a character you control.",
+        "boost_star": true,
         "code": "40112",
         "faction_code": "encounter",
         "health": 4,
@@ -1186,14 +1212,14 @@
         "scheme": 1,
         "set_code": "nasty_boys",
         "set_position": 1,
-        "text": "Teamwork ([[NASTY BOY]]).\n[star] <b>Forced Interrupt</b>: When Gorgeous George attacks you, exhaust a character you control.",
+        "text": "Teamwork ([[NASTY BOY]]).\n[star] <b>Forced Interrupt</b>: When Gorgeous George attacks you, exhaust a character you control.\n<hr />\n[star] <b>Boost</b>: Exhaust a character you control.",
         "traits": "Nasty Boy.",
         "type_code": "minion"
     },
     {
         "attack": 2,
         "boost": 2,
-        "boost_text": "After this activation, shuffle Hairbag into the encounter deck.",
+        "boost_star": true,
         "code": "40113",
         "faction_code": "encounter",
         "health": 3,
@@ -1207,14 +1233,15 @@
         "scheme": 1,
         "set_code": "nasty_boys",
         "set_position": 2,
-        "text": "Surge. Teamwork ([[NASTY BOY]]).",
+        "text": "Surge. Teamwork ([[NASTY BOY]]).\n<hr />\n[star] <b>Boost</b>: After this activation, shuffle Hairbag into the encounter deck.",
         "traits": "Nasty Boy.",
         "type_code": "minion"
     },
     {
         "attack": 2,
+        "attack_star": true,
         "boost": 1,
-        "boost_text": "If the villain is attacking, this attack gains piercing.",
+        "boost_star": true,
         "code": "40114",
         "faction_code": "encounter",
         "health": 4,
@@ -1228,14 +1255,14 @@
         "scheme": 1,
         "set_code": "nasty_boys",
         "set_position": 3,
-        "text": "Retaliate 1. Teamwork ([[NASTY BOY]]).\n[star] Ramrod's attacks gain piercing.",
+        "text": "Retaliate 1. Teamwork ([[NASTY BOY]]).\n[star] Ramrod's attacks gain piercing.\n<hr />\n[star] <b>Boost</b>: If the villain is attacking, this attack gains piercing.",
         "traits": "Nasty Boy.",
         "type_code": "minion"
     },
     {
         "attack": 1,
         "boost": 1,
-        "boost_text": "You are stunned.",
+        "boost_star": true,
         "code": "40115",
         "faction_code": "encounter",
         "health": 3,
@@ -1249,12 +1276,13 @@
         "scheme": 2,
         "set_code": "nasty_boys",
         "set_position": 4,
-        "text": "Teamwork ([[NASTY BOY]]).\n<b>When Revealed</b>: Stun each character you control.",
+        "text": "Teamwork ([[NASTY BOY]]).\n<b>When Revealed</b>: Stun each character you control.\n<hr />\n[star] <b>Boost</b>: You are stunned.",
         "traits": "Nasty Boy.",
         "type_code": "minion"
     },
     {
         "attack": 1,
+        "attack_star": true,
         "boost": 2,
         "code": "40116",
         "faction_code": "encounter",
@@ -1292,7 +1320,7 @@
     },
     {
         "attack": 2,
-        "attack_text": "Juggernaut gets +1 ATK for each momentum counter here.",
+        "attack_star": true,
         "code": "40118",
         "faction_code": "encounter",
         "flavor": "\"Ain't nothin'\u2014ain't nobody\u2014can beat me!\"",
@@ -1309,13 +1337,13 @@
         "set_code": "juggernaut",
         "set_position": 1,
         "stage": 1,
-        "text": "<b>When Revealed</b>: Place 1 momentum counter here. Give Juggernaut a tough status card.",
+        "text": "[star] Juggernaut gets +1 ATK for each momentum counter here.\n<b>When Revealed</b>: Place 1 momentum counter here. Give Juggernaut a tough status card.",
         "traits": "Brute.",
         "type_code": "villain"
     },
     {
         "attack": 3,
-        "attack_text": "Juggernaut gets +1 ATK for each momentum counter here.",
+        "attack_star": true,
         "code": "40119",
         "faction_code": "encounter",
         "health": 21,
@@ -1331,13 +1359,13 @@
         "set_code": "juggernaut",
         "set_position": 2,
         "stage": 2,
-        "text": "<b>When Revealed</b>: Place 1 momentum counter here. If Juggernaut Exposed is in play, flip it. Otherwise, give Juggernaut a tough status card.",
+        "text": "[star] Juggernaut gets +1 ATK for each momentum counter here.\n<b>When Revealed</b>: Place 1 momentum counter here. If Juggernaut Exposed is in play, flip it. Otherwise, give Juggernaut a tough status card.",
         "traits": "Brute.",
         "type_code": "villain"
     },
     {
         "attack": 4,
-        "attack_text": "Juggernaut gets +1 ATK for each momentum counter here.",
+        "attack_star": true,
         "code": "40120",
         "faction_code": "encounter",
         "health": 25,
@@ -1353,7 +1381,7 @@
         "set_code": "juggernaut",
         "set_position": 3,
         "stage": 3,
-        "text": "<b>When Revealed</b>: Search the encounter deck and discard pile for Head of Steam and reveal it. <i>(Shuffle.)</i> If Juggernaut Exposed is in play, flip it. Otherwise, give Juggernaut a tough status card.",
+        "text": "[star] Juggernaut gets +1 ATK for each momentum counter here.\n<b>When Revealed</b>: Search the encounter deck and discard pile for Head of Steam and reveal it. <i>(Shuffle.)</i> If Juggernaut Exposed is in play, flip it. Otherwise, give Juggernaut a tough status card.",
         "traits": "Brute.",
         "type_code": "villain"
     },
@@ -1375,6 +1403,7 @@
         "stage": 1,
         "text": "[star] <b>Forced Interrupt</b>: When this scheme would be completed, instead do each of the following:\n1. Remove all threat from here.\n2. If Juggernaut Exposed is in play, flip it.\n3. Place 1 momentum counter on Juggernaut.\n4. Juggernaut attacks each player in player order <i>(even if they are in alter-ego form)</i>.",
         "threat": 7,
+        "threat_star": true,
         "type_code": "main_scheme"
     },
     {
@@ -1407,6 +1436,7 @@
         "permanent": true,
         "position": 122,
         "quantity": 1,
+        "scheme_star": true,
         "set_code": "juggernaut",
         "set_position": 5,
         "text": "Permanent. Attach to Juggernaut.\nJuggernaut takes 1 additional damage from each card with a printed [mental] resource.\n[star] <b>Forced Response</b>: After Juggernaut schemes, place 1 momentum counter on Juggernaut. Flip this card.",
@@ -1459,7 +1489,7 @@
     },
     {
         "boost": 1,
-        "boost_text": "Give Juggernaut a tough status card.",
+        "boost_star": true,
         "code": "40126",
         "faction_code": "encounter",
         "name": "Flatten",
@@ -1469,12 +1499,12 @@
         "quantity": 2,
         "set_code": "juggernaut",
         "set_position": 10,
-        "text": "<b>When Revealed</b>: Choose to either take damage equal to Juggernaut's ATK or place 1 momentum counter on him.",
+        "text": "<b>When Revealed</b>: Choose to either take damage equal to Juggernaut's ATK or place 1 momentum counter on him.\n<hr />\n[star] <b>Boost</b>: Give Juggernaut a tough status card.",
         "type_code": "treachery"
     },
     {
         "boost": 1,
-        "boost_text": "Take 1 indirect damage.",
+        "boost_star": true,
         "code": "40127",
         "faction_code": "encounter",
         "name": "Ground Pound",
@@ -1484,12 +1514,12 @@
         "quantity": 2,
         "set_code": "juggernaut",
         "set_position": 12,
-        "text": "<b>When Revealed</b>: The players as a group take indirect damage equal to Juggernaut's ATK.",
+        "text": "<b>When Revealed</b>: The players as a group take indirect damage equal to Juggernaut's ATK.\n<hr />\n[star] <b>Boost</b>: Take 1 indirect damage.",
         "type_code": "treachery"
     },
     {
         "boost": 1,
-        "boost_text": "Deal 1 damage to an ally you control.",
+        "boost_star": true,
         "code": "40128",
         "faction_code": "encounter",
         "name": "Trample",
@@ -1499,7 +1529,7 @@
         "quantity": 2,
         "set_code": "juggernaut",
         "set_position": 14,
-        "text": "<b>When Revealed (Alter-Ego)</b>: Take 2 indirect damage.\n<b>When Revealed (Hero)</b>: Juggernaut attacks the ally with the fewest remaining hit points.",
+        "text": "<b>When Revealed (Alter-Ego)</b>: Take 2 indirect damage.\n<b>When Revealed (Hero)</b>: Juggernaut attacks the ally with the fewest remaining hit points.\n<hr />\n[star] <b>Boost</b>: Deal 1 damage to an ally you control.",
         "type_code": "treachery"
     },
     {
@@ -1518,6 +1548,7 @@
     },
     {
         "attack": null,
+        "attack_star": true,
         "code": "40130",
         "faction_code": "encounter",
         "health": 3,
@@ -1533,6 +1564,7 @@
         "set_position": 1,
         "text": "Setup. The first player controls Hope Summers. Hope Summers does not count against your ally limit.\n[star] Hope Summer's base THW and base ATK are equal to the THW and ATK of your hero.\n<b>If Hope Summers leaves play, the players lose the game.</b>",
         "thwart": null,
+        "thwart_star": true,
         "traits": "Psionic. X-Force. X-Men.",
         "type_code": "ally"
     },
@@ -1576,9 +1608,9 @@
     },
     {
         "attack": 1,
-        "attack_text": "<b>Forced Response</b>: After Creeping Willow attacks and damages a character, stun that character.",
+        "attack_star": true,
         "boost": 1,
-        "boost_text": "You are stunned.",
+        "boost_star": true,
         "code": "40133",
         "faction_code": "encounter",
         "health": 3,
@@ -1591,7 +1623,7 @@
         "scheme": 0,
         "set_code": "black_tom_cassidy",
         "set_position": 2,
-        "text": "Guard. Quickstrike.",
+        "text": "Guard. Quickstrike.\n[star] <b>Forced Response</b>: After Creeping Willow attacks and damages a character, stun that character.\n<hr />\n[star] <b>Boost</b>: You are stunned.",
         "traits": "Wood.",
         "type_code": "minion"
     },
@@ -1806,7 +1838,8 @@
     },
     {
         "attack": 1,
-        "boost_text": "For this activation, Mister Sinister gets +1 SCH and +1 ATK for each [[SUPERPOWER]] attachment on him.",
+        "attack_star": true,
+        "boost_star": true,
         "code": "40145",
         "faction_code": "encounter",
         "health": 5,
@@ -1817,9 +1850,10 @@
         "position": 145,
         "quantity": 2,
         "scheme": 1,
+        "scheme_star": true,
         "set_code": "mister_sinister",
         "set_position": 10,
-        "text": "[star] Sinister Soldier gets +1 SCH and +1 ATK for each [[SUPERPOWER]] attachment on Minister Sinister.",
+        "text": "[star] Sinister Soldier gets +1 SCH and +1 ATK for each [[SUPERPOWER]] attachment on Minister Sinister.\n<hr />\n[star] <b>Boost</b>: For this activation, Mister Sinister gets +1 SCH and +1 ATK for each [[SUPERPOWER]] attachment on him.",
         "traits": "Clone.",
         "type_code": "minion"
     },
@@ -1856,7 +1890,7 @@
     },
     {
         "boost": 1,
-        "boost_text": "Give Mister Sinister a tough status card.",
+        "boost_star": true,
         "code": "40148",
         "faction_code": "encounter",
         "name": "Molecular Control",
@@ -1866,12 +1900,12 @@
         "quantity": 1,
         "set_code": "mister_sinister",
         "set_position": 15,
-        "text": "<b>When Revealed</b>: Give Mister Sinister a tough status card. If he has the [[BRUTE]] trait, he heals 4 damage.",
+        "text": "<b>When Revealed</b>: Give Mister Sinister a tough status card. If he has the [[BRUTE]] trait, he heals 4 damage.\n<hr />\n[star] <b>Boost</b>: Give Mister Sinister a tough status card.",
         "type_code": "treachery"
     },
     {
         "boost": 1,
-        "boost_text": "You are confused.",
+        "boost_star": true,
         "code": "40149",
         "faction_code": "encounter",
         "name": "Sinister Schemes",
@@ -1881,12 +1915,12 @@
         "quantity": 1,
         "set_code": "mister_sinister",
         "set_position": 16,
-        "text": "<b>When Revealed</b>: Mister Sinister schemes. If he has the [[PSIONIC]] trait, you are confused.",
+        "text": "<b>When Revealed</b>: Mister Sinister schemes. If he has the [[PSIONIC]] trait, you are confused.\n<hr />\n[star] <b>Boost</b>: You are confused.",
         "type_code": "treachery"
     },
     {
         "boost": 1,
-        "boost_text": "You are stunned.",
+        "boost_star": true,
         "code": "40150",
         "faction_code": "encounter",
         "name": "Sinister Strike",
@@ -1896,11 +1930,12 @@
         "quantity": 1,
         "set_code": "mister_sinister",
         "set_position": 17,
-        "text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: Mister Sinister attacks you. If he has the [[AERIAL]] trait, you are stunned.",
+        "text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: Mister Sinister attacks you. If he has the [[AERIAL]] trait, you are stunned.\n<hr />\n[star] <b>Boost</b>: You are stunned.",
         "type_code": "treachery"
     },
     {
         "attack": 1,
+        "attack_star": true,
         "code": "40151",
         "faction_code": "encounter",
         "illustrator": "Andrea Di Vito & Laura Villari",
@@ -1917,6 +1952,7 @@
         "type_code": "attachment"
     },
     {
+        "attack_star": true,
         "boost": 2,
         "code": "40152",
         "faction_code": "encounter",
@@ -1950,7 +1986,7 @@
     },
     {
         "boost": 1,
-        "boost_text": "If the villain is attacking, this attack gains piercing.",
+        "boost_star": true,
         "code": "40154",
         "faction_code": "encounter",
         "name": "High Ground",
@@ -1960,7 +1996,7 @@
         "quantity": 2,
         "set_code": "flight",
         "set_position": 4,
-        "text": "<b>When Revealed</b>: Discard each tough status card from each friendly character. The players as a group take 2 indirect damage (4 indirect damage instead if the villain has the [[BRUTE]] trait).",
+        "text": "<b>When Revealed</b>: Discard each tough status card from each friendly character. The players as a group take 2 indirect damage (4 indirect damage instead if the villain has the [[BRUTE]] trait).\n<hr />\n[star] <b>Boost</b>: If the villain is attacking, this attack gains piercing.",
         "type_code": "attachment"
     },
     {
@@ -1996,6 +2032,7 @@
     },
     {
         "attack": 3,
+        "attack_star": true,
         "boost": 3,
         "code": "40157",
         "faction_code": "encounter",
@@ -2076,7 +2113,7 @@
     },
     {
         "boost": 1,
-        "boost_text": "If the villain is attacking, this attack gains overkill.",
+        "boost_star": true,
         "code": "40162",
         "faction_code": "encounter",
         "illustrator": "Pasquale Qualano & Rod Fernandes",
@@ -2087,11 +2124,12 @@
         "quantity": 2,
         "set_code": "telepathy",
         "set_position": 4,
-        "text": "<b>When Revealed</b>: Discard 1 random card from your hand (2 random cards instead if the villain has the [[AERIAL]] trait).",
+        "text": "<b>When Revealed</b>: Discard 1 random card from your hand (2 random cards instead if the villain has the [[AERIAL]] trait).\n<hr />\n[star] <b>Boost</b>: If the villain is attacking, this attack gains overkill.",
         "type_code": "treachery"
     },
     {
         "attack": 0,
+        "attack_star": true,
         "code": "40163",
         "faction_code": "encounter",
         "flavor": "\"Kneel before your superior!\"",
@@ -2114,6 +2152,7 @@
     },
     {
         "attack": 1,
+        "attack_star": true,
         "code": "40164",
         "faction_code": "encounter",
         "health": 17,
@@ -2135,6 +2174,7 @@
     },
     {
         "attack": 1,
+        "attack_star": true,
         "code": "40165",
         "faction_code": "encounter",
         "health": 20,
@@ -2161,6 +2201,7 @@
         "code": "40166",
         "double_sided": true,
         "escalation_threat": 0,
+        "escalation_threat_star": true,
         "faction_code": "encounter",
         "flavor": "Hope tries to mimic Stryfe's abilities, but is quickly overwhelmed by the power.",
         "name": "Uncontrollable Power",
@@ -2390,7 +2431,7 @@
     },
     {
         "boost": 1,
-        "boost_text": "Discard 1 card from your hand. Then, draw 1 card.",
+        "boost_star": true,
         "code": "40178",
         "faction_code": "encounter",
         "illustrator": "Ario Anindito & Annalisa Leoni",
@@ -2401,13 +2442,13 @@
         "quantity": 2,
         "set_code": "stryfe",
         "set_position": 17,
-        "text": "<b>When Revealed</b>: Choose a card type, then discard each card from your hand that is not of that type. Draw up to your hand size. Place 1 threat on the main scheme for each card of the chosen type in your hand.",
+        "text": "<b>When Revealed</b>: Choose a card type, then discard each card from your hand that is not of that type. Draw up to your hand size. Place 1 threat on the main scheme for each card of the chosen type in your hand.\n<hr />\n[star] <b>Boost</b>: Discard 1 card from your hand. Then, draw 1 card.",
         "traits": "Psionic.",
         "type_code": "treachery"
     },
     {
         "boost": 1,
-        "boost_text": "If you have at least 3 cards in your hand that share a type, place 3 threat on the main scheme.",
+        "boost_star": true,
         "code": "40179",
         "faction_code": "encounter",
         "illustrator": "Ivan Fiorelli",
@@ -2418,7 +2459,7 @@
         "quantity": 3,
         "set_code": "stryfe",
         "set_position": 19,
-        "text": "<b>When Revealed</b>: Return an upgrade or support you control to your hand. Stryfe activates against you.",
+        "text": "<b>When Revealed</b>: Return an upgrade or support you control to your hand. Stryfe activates against you.\n<hr />\n[star] <b>Boost</b>: If you have at least 3 cards in your hand that share a type, place 3 threat on the main scheme.",
         "traits": "Psionic.",
         "type_code": "treachery"
     },
@@ -2444,6 +2485,7 @@
     },
     {
         "attack": 1,
+        "attack_star": true,
         "code": "40181",
         "faction_code": "encounter",
         "health": 5,
@@ -2454,6 +2496,7 @@
         "position": 181,
         "quantity": 1,
         "scheme": 1,
+        "scheme_star": true,
         "set_code": "extreme_measures",
         "set_position": 2,
         "text": "While Tempo is engaged with you, you get +1 hand size.\n[star] <b>Forced Response</b>: After Tempo activates against you, discard cards from the top of your deck equal to twice the number of cards in your hand.",
@@ -2517,6 +2560,7 @@
     },
     {
         "attack": 1,
+        "attack_star": true,
         "boost": 2,
         "code": "40185",
         "faction_code": "encounter",
@@ -2528,6 +2572,7 @@
         "position": 185,
         "quantity": 1,
         "scheme": 1,
+        "scheme_star": true,
         "set_code": "mutant_insurrection",
         "set_position": 1,
         "text": "[star] <b>Forced Interrupt</b>: When Dragoness activates against you, she gets +X SCH and +X ATK for that activation, where X is the number of [energy] resources in your hand.",
@@ -2536,6 +2581,7 @@
     },
     {
         "attack": 4,
+        "attack_star": true,
         "boost": 4,
         "code": "40186",
         "faction_code": "encounter",
@@ -2556,6 +2602,7 @@
     },
     {
         "attack": 2,
+        "attack_star": true,
         "boost": 2,
         "code": "40187",
         "faction_code": "encounter",
@@ -2576,6 +2623,7 @@
     },
     {
         "attack": 2,
+        "attack_star": true,
         "boost": 2,
         "code": "40188",
         "faction_code": "encounter",
@@ -2612,7 +2660,7 @@
     {
         "attack": 1,
         "boost": 2,
-        "boost_text": "Discard an event from your hand.",
+        "boost_star": true,
         "code": "40198",
         "faction_code": "campaign",
         "health": 3,
@@ -2625,7 +2673,7 @@
         "scheme": 1,
         "set_code": "next_evol_campaign",
         "set_position": 12,
-        "text": "Surge.\n<b>When Revealed</b>: Take X damage, where X is the printed cost of the event in your hand with the highest cost.",
+        "text": "Surge.\n<b>When Revealed</b>: Take X damage, where X is the printed cost of the event in your hand with the highest cost.\n<hr />\n[star] <b>Boost</b>: Discard an event from your hand.",
         "traits": "Marauder.",
         "type_code": "minion"
     },
@@ -2671,7 +2719,7 @@
     {
         "attack": 1,
         "boost": 2,
-        "boost_text": "Return the support you control with the highest cost to your hand.",
+        "boost_star": true,
         "code": "40201",
         "faction_code": "campaign",
         "health": 3,
@@ -2684,7 +2732,7 @@
         "scheme": 1,
         "set_code": "next_evol_campaign",
         "set_position": 15,
-        "text": "Surge.\n<b>When Revealed</b>: Return the support you control with the highest cost to your hand.",
+        "text": "Surge.\n<b>When Revealed</b>: Return the support you control with the highest cost to your hand.\n<hr />\n[star] <b>Boost</b>: Return the support you control with the highest cost to your hand.",
         "traits": "Marauder.",
         "type_code": "minion"
     },
@@ -2692,7 +2740,7 @@
         "base_threat": 6,
         "base_threat_fixed": true,
         "boost": 2,
-        "boost_text": "Give the villain 1 additional boost card for this activation.",
+        "boost_star": true,
         "code": "40202",
         "faction_code": "campaign",
         "name": "Under Pressure",
@@ -2703,12 +2751,12 @@
         "scheme_amplify": 1,
         "set_code": "next_evol_campaign",
         "set_position": 16,
-        "text": "Surge.",
+        "text": "Surge.\n<hr />\n[star] <b>Boost</b>: Give the villain 1 additional boost card for this activation.",
         "type_code": "side_scheme"
     },
     {
         "boost": 1,
-        "boost_text": "Choose to either discard 1 resource card from your hand or take 2 damage.",
+        "boost_star": true,
         "code": "40203",
         "faction_code": "campaign",
         "illustrator": "Ario Murti & Indra Setiawan",
@@ -2719,7 +2767,7 @@
         "quantity": 1,
         "set_code": "next_evol_campaign",
         "set_position": 17,
-        "text": "Surge.\n<b>When Revealed</b>: Choose to either discard 1 resource card from your hand or take 2 damage.",
+        "text": "Surge.\n<b>When Revealed</b>: Choose to either discard 1 resource card from your hand or take 2 damage.\n<hr />\n[star] <b>Boost</b>: Choose to either discard 1 resource card from your hand or take 2 damage.",
         "type_code": "treachery"
     }
 ]

@@ -9,7 +9,7 @@ mkdirp = require 'mkdirp'
 
 i18nDir = path.join __dirname, 'translations'
 things = ['factions', 'packs', 'packtypes', 'sets', 'subtypes', 'types']
-textProperties = ['attack_text', 'back_flavor', 'back_text', 'boost_text', 'code', 'flavor', 'name', 'scheme_text', 'subname', 'text', 'traits']
+textProperties = ['back_flavor', 'back_text', 'code', 'flavor', 'name', 'subname', 'text', 'traits']
 
 stripProps = (json, props) ->
     _.map json, (item) ->

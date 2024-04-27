@@ -15,7 +15,7 @@
 	{
 		"attack": 1,
 		"boost": 2,
-		"boost_text": "You are stunned. If you are already stunned, take 2 damage.",
+		"boost_star": true,
 		"code": "33028",
 		"faction_code": "encounter",
 		"health": 6,
@@ -28,7 +28,7 @@
 		"scheme": 1,
 		"set_code": "cyclops_nemesis",
 		"set_position": 1,
-		"text": "Stalwart. Toughness. Villainous.",
+		"text": "Stalwart. Toughness. Villainous.\n<hr />\n[star] <b>Boost</b>: You are stunned. If you are already stunned, take 2 damage.",
 		"traits": "Elite. Marauder.",
 		"type_code": "minion"
 	},
@@ -50,7 +50,7 @@
 	},
 	{
 		"attack": 2,
-		"attack_text": "<b>Forced Interrupt</b>: When attached enemy attacks, the attack gains overkill and piercing. At the end of this attack, discard Gene Therapy.",
+		"attack_star": true,
 		"boost": 2,
 		"code": "33030",
 		"faction_code": "encounter",
@@ -61,7 +61,7 @@
 		"quantity": 2,
 		"set_code": "cyclops_nemesis",
 		"set_position": 3,
-		"text": "Attach to the enemy with the lowest printed ATK without a copy of Gene Therapy attached. Otherwise, this card gains surge.",
+		"text": "Attach to the enemy with the lowest printed ATK without a copy of Gene Therapy attached. Otherwise, this card gains surge.\n[star] <b>Forced Interrupt</b>: When attached enemy attacks, the attack gains overkill and piercing. At the end of this attack, discard Gene Therapy.",
 		"type_code": "attachment"
 	},
 	{
