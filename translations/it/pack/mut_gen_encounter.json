@@ -6,16 +6,16 @@
     },
     {
         "code": "32026",
+		"flavor": "<i>\"Niente può fermare il Fenomeno!\"</i>",
         "name": "Fenomeno",
         "text": "Robustezza. Stabile.\n<hr />\n[star] <b>Boost</b>: Se questa attivazione è un attacco, questo attacco ottiene Perforante e Sopraffazione.",
-        "flavor": "<i>\"Niente può fermare il Fenomeno!\"</i>",
         "traits": "Bruto. Elite."
     },
     {
         "code": "32027",
+		"flavor": "<i>Il Fenomeno possiede il potere di Cyttorak. Ma è quel potere che gli fa perdere completamente il controllo.</i>",
         "name": "Fenomeno Scatenato",
-        "text": "<b>Quando Rivelata</b>: Scarta ogni carta status Robusto da ogni personaggio amico. Colloca 2 minacce su questa carta per ogni carta status Robusto scartata in questo modo.",
-        "flavor": "<i>Il Fenomeno possiede il potere di Cyttorak. Ma è quel potere che gli fa perdere completamente il controllo.</i>"
+		"text": "<b>Quando Rivelata</b>: Scarta ogni carta status Robusto da ogni personaggio amico. Colloca 2 minacce su questa carta per ogni carta status Robusto scartata in questo modo."
     },
     {
         "code": "32028",
@@ -24,9 +24,9 @@
     },
     {
         "code": "32029",
+		"flavor": "<i>\"Non lo sai chi sono io?\" - Fenomeno</i>",
         "name": "Schiantato",
-        "text": "<b>Quando Rivelata</b>: Sei stordito. Se eri già stordito, subisci 2 danni.\n<hr />\n[star] <b>Potenziamento</b>: Rivela questa carta.",
-        "flavor": "<i>\"Non lo sai chi sono io?\" - Fenomeno</i>"
+		"text": "<b>Quando Rivelata</b>: Sei stordito. Se eri già stordito, subisci 2 danni.\n<hr />\n[star] <b>Potenziamento</b>: Rivela questa carta."
     },
     {
         "code": "32055",
@@ -519,6 +519,7 @@
     },
     {
         "code": "32125b",
+		"flavor": "<i>La Confraternita dei Mutanti ha lanciato un attacco contro l'Istituto Xavier!</i>",
         "name": "La Confraternita Colpisce!",
         "text": "<b>Quando Rivelata</b>: Distribuisci 1 carta incontro a faccia in giù a ogni giocatore. Proseguire con la prossima carta nel mazzo delle trame principali. Colloca questa carta nella galleria delle vittorie.",
         "flavor": "<i>La Confraternita dei Mutanti ha lanciato un attacco contro l'Istituto Xavier!</i>"
@@ -636,6 +637,12 @@
         "code": "32141b",
         "name": "Asteroide M",
         "text": "<b>Risposta Obbligata</b>: Dopo che hai collocato 1 o più gettoni magnete su questa trama, se ci sono 3 o più gettoni magnete su questa carta, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 carta [[MAGNETICO]]. Rivela quella carta, poi rimuovi 3 gettoni magnete da questa trama."
+    },
+	{
+		"back_text": "<b>When Revealed</b>: Place 1 magnet counter here. If Sabotage Master Mold is not in the victory display, the first player searches the encounter deck and discard pile for a copy of the M-Type Sentinel minion and reveals it.",
+		"code": "32142",
+		"name": "Factory Online",
+		"text": "<b>Forced Response</b>: After you place a magnet counter on this scheme, if there are at least 3 magnet counters here, discard cards from the encounter deck until a [[Magnetic]] card is discarded. Reveal that card, then remove 3 magnet counters from this scheme."
     },
     {
         "code": "32142a",
