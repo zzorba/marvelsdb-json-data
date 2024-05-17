@@ -1,8 +1,8 @@
 import json
 import uuid
 
-runFile = 'aoa_encounter.json'
-pack_code = 'aoa'
+runFile = 'iceman.json'
+pack_code = 'iceman'
 
 with open('./packs.json') as json_file:
     pack_data = json.load(json_file)
