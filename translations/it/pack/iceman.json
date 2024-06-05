@@ -1,0 +1,140 @@
+[
+	{
+		"code": "46001a",
+		"flavor": "\"Here comes the coolest hero on the team!\"",
+		"name": "Iceman",
+		"text": "<i>\"Freeze!\"</i> — <b>Interrupt</b>: When Iceman makes a basic attack or defense against an enemy, attach a set-aside copy of Frostbite to that enemy.",
+		"traits": "Ice. X-Men."
+	},
+	{
+		"code": "46001b",
+		"name": "Bobby Drake",
+		"text": "Bobby Drake begins the game with 6 Frostbite upgrades set aside.\n<i>Cool Off</i> — <b>Response</b>: After you change to this form, shuffle 1 [[Ice]] card from your discard pile into your deck for each copy of Frostbite in play.",
+		"traits": "Mutant."
+	},
+	{
+		"code": "46002",
+		"name": "Frostbite",
+		"text": "Permanent.\nAttached enemy gets -1 SCH and -1 ATK.\n<b>Forced Response</b>: After attached enemy activates or leaves play, set this card aside.",
+		"traits": "Condition. Ice."
+	},
+	{
+		"code": "46003",
+		"flavor": "\"You could say he's got an icy demeanor.\" — Iceman",
+		"name": "Snow Clone",
+		"text": "Cannot have upgrades attached.\n[star] Snow Clone takes -1 consequential damage ([cost]) after it attacks an enemy with Frostbite attached.",
+		"traits": "Ice. X-Men."
+	},
+	{
+		"code": "46004",
+		"flavor": "Beast made this high-tech belt to help Iceman better control his powers.",
+		"name": "Power Belt",
+		"text": "You get +3 hit points.\n<b>Hero Resource</b>: Exhaust Power Belt → generate a [wild] resource for an [[Ice]] card.",
+		"traits": "Item. Tech."
+	},
+	{
+		"code": "46005",
+		"flavor": "\"Anyone remember when I used to throw snowballs at Magneto?\" —Iceman",
+		"name": "Cryokinetic Perception",
+		"text": "<b>Hero Response</b>: After you resolve your <i>\"Freeze!\"</i> ability, exhaust this card → draw 1 card. If that card has an [[Ice]] trait, ready Iceman.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "46006",
+		"name": "Ice Slide",
+		"text": "Iceman gets +1 THW, +1 ATK, and +1 DEF, and gains the [[Aerial]] trait.\n<b>Forced Response</b>: After you change to alter-ego form, shuffle this card into your deck.",
+		"traits": "Ice. Superpower."
+	},
+	{
+		"code": "46007",
+		"name": "Frozen Solid",
+		"text": "Hero form only. Attach to an enemy. Max 1 per enemy.\n<b>Forced Interrupt</b>: When attached enemy would activate, discard Frozen Solid instead. Then, attach a set-aside copy of Frostbite to that enemy.",
+		"traits": "Condition. Ice."
+	},
+	{
+		"code": "46008",
+		"name": "Ice Wall",
+		"text": "<b>Forced Interrupt</b>: When an identity would take any amount of damage from an enemy attack, place that damage here instead. Then, if there is at least 8 damage here, discard this card and attach a set-aside copy of Frostbite to the enemy that just attacked.",
+		"traits": "Ice."
+	},
+	{
+		"code": "46009",
+		"name": "Arctic Attack",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Choose:\n• Deal 4 damage to an enemy and attach a set-aside copy of Frostbite to it.\n• Deal 6 damage to an enemy with Frostbite attached.",
+		"traits": "Attack. Ice. Superpower."
+	},
+	{
+		"code": "46010",
+		"flavor": "\"Time to put these guys on ice.\" —Iceman",
+		"name": "Ice Blast",
+		"text": "<b>Hero Action</b>: Choose a player. Attach a set-aside copy of Frostbite to the villain and each minion engaged with that player. Deal 3 damage to each enemy with a copy of Frostbite attached.",
+		"traits": "Ice. Superpower."
+	},
+	{
+		"code": "46011",
+		"flavor": "\"Seriously, dude. I'm all out of ice puns.\" —Iceman",
+		"name": "Chill Out!",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. Attach a set-aside copy of Frostbite to an enemy.",
+		"traits": "Ice. Superpower. Thwart."
+	},
+	{
+		"code": "46012",
+		"flavor": "The only thing scarier than a ravenous teenager is one who can turn into a shark.",
+		"name": "Shark-Girl",
+		"subname": "Iara Dos Santos",
+		"text": "[star] While Shark-Girl is attacking an enemy, she gets +1 ATK for each upgrade attached to that enemy.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "46013",
+		"name": "Glob",
+		"subname": "Robert Herman",
+		"text": "Play only if your identity has the [[X-Men]] trait.\n<b>Response</b>: After Glob enters play, deal 2 damage to an enemy with an upgrade attached.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "46014",
+		"name": "Suppressing Fire",
+		"text": "Attach to a minion. Max 1 per minion.\n<b>Hero Interrupt</b>: When you attack and defeat attached minion, heal 2 damage from your hero.",
+		"traits": "Tactic."
+	},
+	{
+		"code": "46015",
+		"name": "Surprise Move",
+		"text": "<b>Hero Interrupt</b>: When you make a basic attack against an enemy with an upgrade attached, you get +2 ATK for this attack. If this attack defeats that enemy, ready your hero.",
+		"traits": "Tactic."
+	},
+	{
+		"code": "46016",
+		"flavor": "\"And don't come back!\" —Magik",
+		"name": "Take That!",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 7 damage to an enemy with an upgrade attached.",
+		"traits": "Attack."
+	},
+	{
+		"code": "46017",
+		"name": "Looking for Trouble",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Discard cards from the top of the encounter deck until you discard a minion. Put that minion into play engaged with you → remove 3 threat from the main scheme.",
+		"traits": "Thwart."
+	},
+	{
+		"code": "46018",
+		"name": "Keep Up the Pressure",
+		"text": "Victory 0.\n<b>When Defeated</b>: Each player may search their deck and discard pile for an [[Attack]] event and add it to their hand. <i>(Shuffle.)</i> Until the end of the phase, each [[Attack]] event deals 1 additional damage."
+	},
+	{
+		"code": "46019",
+		"name": "Shadowcat",
+		"subname": "Kitty Pryde",
+		"text": "Play only if your identity has the [[X-Men]] trait.\n<b>Response</b>: After you play Shadowcat from your hand, choose a side scheme in play → that scheme loses each [acceleration], [amplify], [crisis], and [hazard] icon until the end of the round.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "46020",
+		"flavor": "\"I'm not really strong and I don't shoot death-rays, but I am good at making friends.\"",
+		"name": "Beak",
+		"subname": "Barnell Bohusk",
+		"text": "<b>Response</b>: After you play Beak from your hand, remove 1 threat from a scheme for each [[X-Men]] ally you control.",
+		"traits": "X-Men."
+	}
+]
