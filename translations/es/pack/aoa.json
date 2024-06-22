@@ -1,0 +1,386 @@
+[
+    {
+        "back_link": "45001b",
+        "code": "45001a",
+        "name": "Bishop",
+        "text": "<i>Absorción de energía</i> \u2014 <b>Respuesta</b>: después de que de que Bishop sufra cualquier cantidad de Daño a consecuencia de un ataque, descarta esa misma cantidad de cartas de la parte superior de tu mazo. Añade a tu mano todas las cartas de Recurso que se hayan descartado de este modo.",
+        "traits": "Temporal. Patrulla-X."
+    },
+    {
+        "code": "45001b",
+        "flavor": "\"Esto no es lo que tenía en mente cuando viajé al pasado para salvar mi futuro.\"",
+        "name": "Lucas Bishop",
+        "text": "<i>Desplazado en el tiempo</i> \u2014 <b>Respuesta</b>: después de que de que cambies a esta identidad, coge una carta [[TEMPORAL]] de tu pila de descartes y añádela a tu mano.",
+        "traits": "Mutante. Temporal."
+    },
+    {
+        "code": "45002",
+        "flavor": "\"Múltiples contactos. Voy a por ellos.\"",
+        "name": "Malcolm",
+        "text": "<b>Acción</b>: descarta una carta de Recurso de tu mano \u2192 prepara a Malcolm. Si esa carta tiene impreso un icono [physical], cura 1 de Daño a Malcolm. (Límite una vez por fase.)",
+        "traits": "Temporal. Patrulla-X."
+    },
+    {
+        "code": "45003",
+        "flavor": "\"Estamos contigo, jefe. Hasta el final.\"",
+        "name": "Randall",
+        "text": "<b>Acción</b>: descarta una carta de Recurso de tu mano \u2192 prepara a Randall. Si esa carta tiene impreso un icono [energy], cura 1 de Daño a Randall. (Límite una vez por fase.)",
+        "traits": "Temporal. Patrulla-X."
+    },
+    {
+        "code": "45004",
+        "name": "Fusil de Bishop",
+        "text": "Restringida.\n<b>Acción de Héroe</b> <i>(ataque)</i>: Agota el Fusil de Bishop y elige un enemigo \u2192 inflige 1 de Daño a ese enemigo por cada Recurso que tengas en la mano. Este ataque gana A distancia.",
+        "traits": "Temporal. Arma."
+    },
+    {
+        "code": "45005",
+        "name": "Uniforme de Bishop",
+        "text": "<b>Respuesta</b>: después de que de que resuelvas la capacidad <i>\"Absorción de energía\"</i> de Bishop, agota el Uniforme de Bishop \u2192 cura 1 de Daño a Bishop por cada carta de Recurso que tengas en la mano.",
+        "traits": "Objeto. Temporal."
+    },
+    {
+        "code": "45006",
+        "name": "Supercargado",
+        "text": "<b>Acción</b>: descarta una carta de Recurso de tu mano \u2192 coloca 1 contador de Carga sobre esta carta por cada icono de recurso que haya en la carta descartada.\n<b>Interrupción de Héroe</b>: cuando realices un ataque básico, descarta Supercargado \u2192 recibes +2 ATQ para este ataque por cada contador de Carga que haya sobre esta carta (hasta un máximo de +8 ATQ).",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "45007",
+        "flavor": "El poder de Bishop le permite absorber energía y liberarla en forma de poderosas descargas.",
+        "name": "Descarga fulminante",
+        "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 6 de Daño a un enemigo. Si has pagado el coste de este Evento usando una carta de Recurso, prepara a Bishop.",
+        "traits": "Ataque. Superpoder."
+    },
+    {
+        "code": "45008",
+        "flavor": "\"¡Todos conmigo!\" \u2014Bishop",
+        "name": "Asumir el mando",
+        "text": "<b>Acción de Héroe</b> <i>(intervención)</i>: quita 3 de Amenaza de un Plan. Si has pagado el coste de este Evento usando una carta de Recurso, roba 1 carta.",
+        "traits": "Intervención."
+    },
+    {
+        "code": "45009",
+        "name": "Conversión de energía",
+        "text": "<b>Interrupción de Héroe</b> <i>(defensa)</i>: cuando un enemigo ataque, devuelve a tu mazo todas las cartas de Recurso que tengas en tu pila de descartes y barájalo. No puedes sufrir mas de 3 puntos de Daño a consecuencia de este ataque.",
+        "traits": "Defensa."
+    },
+    {
+        "code": "45010",
+        "flavor": "\"¡Cuanto más me golpees, más duro será mi contraataque!\" \u2014Bishop",
+        "name": "Energía acumulada",
+        "traits": "Temporal."
+    },
+    {
+        "code": "45011",
+        "flavor": "\"Sé demasiado bien lo que nos depara el futuro.\"",
+        "name": "Cable",
+        "subname": "Nathan Summers",
+        "text": "<b>Respuesta</b>: después de que Cable intervenga y derrote un Plan secundario, roba 1 carta.",
+        "traits": "Psiónico. X-Force."
+    },
+    {
+        "code": "45012",
+        "flavor": "\"¡Vuelve a llamarme 'mujer Lobezno' si te atreves!\"",
+        "name": "X-23",
+        "subname": "Laura Kinney",
+        "text": "<b>Respuesta</b>: después de que X-23 ataque y derrote a un enemigo, prepárala.",
+        "traits": "X-Force."
+    },
+    {
+        "code": "45013",
+        "duplicate_of": "04016",
+        "pack_code": "aoa",
+        "position": 13,
+        "quantity": 3
+    },
+    {
+        "code": "45014",
+        "name": "Traje avanzado",
+        "text": "Vincula esta carta a un Aliado [[X-FORCE]] o [[PATRULLA-X]]. Máximo de 1 por Aliado.\n<b>Respuesta</b>: después de que attached ally defeats a minion o side scheme, descarta 1 card desde tu mano \u2192 cura 1 de Daño a attached ally for each resource on that card.",
+        "traits": "Armadura. Objeto."
+    },
+    {
+        "code": "45015",
+        "name": "Ayudante",
+        "text": "Vincula esta carta a un Aliado específico de Superhéroe que controles. Máximo de 1 por mazo.\nEl Aliado vinculado recibe +2 de Vida y es tu \"ayudante.\"\n<b>Respuesta</b>: después de que realices una recuperación básica, cura 2 de Daño al Aliado vinculado.",
+        "traits": "Título."
+    },
+    {
+        "code": "45016",
+        "name": "Espalda contra espalda",
+        "text": "<b>Acción de Héroe</b>: prepara a tu ayudante \u2192 prepara tu Héroe y elige una opción:\n\u2022 Curar 1 de Daño a ambos personajes.\n\u2022 Ambos personajes reciben +1 INT y +1 ATQ hasta el final de la fase."
+    },
+    {
+        "code": "45017",
+        "name": "Ponerse los trajes",
+        "text": "<b>Acción de Alter ego</b>: busca en tu mazo y tu pila de descartes un Aliado y una Mejora que pueda vincularse a ese Aliado. Añade ambas cartas a tu mano. <i>(Baraja el mazo.)</i>"
+    },
+    {
+        "code": "45018",
+        "duplicate_of": "01070",
+        "pack_code": "aoa",
+        "position": 18,
+        "quantity": 3
+    },
+    {
+        "code": "45019",
+        "duplicate_of": "01072",
+        "pack_code": "aoa",
+        "position": 19,
+        "quantity": 2
+    },
+    {
+        "code": "45020",
+        "name": "Legión",
+        "subname": "David Haller",
+        "text": "[star] <b>Respuesta</b>: después de que Legion use un atributo básico, descarta la primera carta de la parte superior de tu mazo. Si el recurso impreso de esa carta tiene:\n[energy] \u2014 inflige 2 de Daño a un enemigo.\n[mental] \u2014 quita 2 de Amenaza de un Plan.\n[physical] \u2014 Cura 2 de Daño a Legión.",
+        "traits": "Psiónico. Patrulla-X."
+    },
+    {
+        "code": "45021",
+        "flavor": "\"¡Como te coja, despídete de esa cara bonita!\"",
+        "name": "Médula",
+        "subname": "Sarah",
+        "text": "Juega esta carta sólo si tienes los rasgos [[X-FORCE]] o [[PATRULLA-X]].\n<b>Respuesta</b>: después de que Médula entre en juego, inflige 2 de Daño a un enemigo.",
+        "traits": "X-Force."
+    },
+    {
+        "code": "45022",
+        "duplicate_of": "01088",
+        "pack_code": "aoa",
+        "position": 22,
+        "quantity": 1
+    },
+    {
+        "code": "45023",
+        "duplicate_of": "01089",
+        "pack_code": "aoa",
+        "position": 23,
+        "quantity": 1
+    },
+    {
+        "code": "45024",
+        "duplicate_of": "01090",
+        "pack_code": "aoa",
+        "position": 24,
+        "quantity": 1
+    },
+    {
+        "back_link": "45030b",
+        "code": "45030a",
+        "flavor": "\"No hay copos de nieve en el Limbo.\"",
+        "name": "Magik",
+        "text": "Juega con la primera carta de la parte superior de tu mazo boca arriba.\nUna vez por fase, puedes jugar la primera carta de la parte superior de tu mazo como si estuviese en tu mano, reduciendo en 1 su coste en recursos.",
+        "traits": "Místico. Patrulla-X."
+    },
+    {
+        "code": "45030b",
+        "flavor": "\"¡Ahora mismo vendería lo que queda de mi alma por un bocata de tortilla!\"",
+        "name": "Illyana Rasputin",
+        "text": "<b>Interrupción</b>: cuando cambies a tu identidad de Héroe, elige un [[HECHIZO]] que esté en tu pila de descartes y colócalo en la parte superior de tu mazo. (Límite una vez por fase.)",
+        "traits": "Mutante. Místico."
+    },
+    {
+        "code": "45031",
+        "flavor": "\"Siempre te protegeré, copo de nieve.\"",
+        "name": "Coloso",
+        "subname": "Piotr Rasputin",
+        "text": "Dureza.\n<b>Interrupción</b>: cuando un enemigo te ataque, juega a Coloso desde tu mano (pagando su coste en recursos) y decláralo defensor sin agotarlo.",
+        "traits": "Patrulla-X."
+    },
+    {
+        "code": "45032",
+        "name": "Limbo",
+        "text": "<b>Respuesta</b>: después de que empiece la fase del Villano, agota Limbo \u2192 intercambia una carta de tu mano por la primera carta de la parte superior de tu mazo.\n<b>Acción</b>: Agota Limbo \u2192 intercambia una carta de tu mano por la primera carta de la parte superior de tu mazo.",
+        "traits": "Dimensión."
+    },
+    {
+        "code": "45033",
+        "flavor": "Magik se ha criado en el Limbo y está destinada a usurpar el trono del hombre que la llevó a esa dimensión.",
+        "name": "Corona de Magik",
+        "text": "Magik gana Tesón.\nMientras la primera carta de la parte superior de tu mazo tenga un icono de recurso [mental] o [wild], Magik recibe +1 INT.",
+        "traits": "Objeto."
+    },
+    {
+        "code": "45034",
+        "name": "Espada Alma",
+        "text": "Restringida.\nLos ataques básicos de Magik ganan Penetrante.\nMientras la primera carta de la parte superior de tu mazo tenga un icono de recurso [physical] o [wild], Magik recibe +1 ATQ.",
+        "traits": "Arma."
+    },
+    {
+        "code": "45035",
+        "flavor": "Para ir a la moda en el Limbo.",
+        "name": "Armadura mística",
+        "text": "Magik gana Represalia 1.\nMientras la primera carta de la parte superior de tu mazo tenga un icono de recurso [energy] o [wild], Magik recibe +1 DEF.",
+        "traits": "Armadura."
+    },
+    {
+        "code": "45036",
+        "flavor": "\"Sí, he visto tu futuro. No, no te lo voy a contar.\"\u2014Magik",
+        "name": "Adivinación",
+        "text": "<b>Acción</b>: mira las 3 primeras cartas de tu mazo. Roba una, descarta una y devuelve una a la parte superior de tu mazo.",
+        "traits": "Hechizo."
+    },
+    {
+        "code": "45037",
+        "flavor": "Magik's teleportation discs can sufre her anywhere by opening a portal through Limbo.",
+        "name": "Disco de salto",
+        "text": "<b>Acción de Héroe</b>: prepara tu Héroe. Elige una carta de Magik que éste en tu pila de descartes y no se llame Disco de salto, y colócala en la parte superior de tu mazo.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "45038",
+        "flavor": "\"He purgado el mal en tu interior.\" \u2014Magik",
+        "name": "Exorcismo",
+        "text": "<b>Acción de Héroe</b> <i>(intervención)</i>: quita 4 de Amenaza de un Plan. Si la primera carta de la parte superior de tu mazo tiene un icono de recurso [mental] o [wild], confunde al Villano.",
+        "traits": "Hechizo. Intervención."
+    },
+    {
+        "code": "45039",
+        "flavor": "\"Very well. Feel the bite of my Espada Alma!\" \u2014Magik",
+        "name": "Golpear con el alma",
+        "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 4 de Daño a un enemigo. Si la primera carta de la parte superior de tu mazo tiene un icono de recurso [physical] o [wild], aturde a ese enemigo.",
+        "traits": "Ataque. Hechizo."
+    },
+    {
+        "code": "45040",
+        "name": "Barrera Mágica",
+        "text": "<b>Interrupción de Héroe</b> <i>(defensa)</i>: cuando un enemigo inicie un ataque, evita 3 de Daño de este ataque. Si la primera carta de la parte superior de tu mazo tiene un icono de recurso [energy] o [wild], inflige 3 de Dañoal enemigo atacante.",
+        "traits": "Defensa. Hechizo."
+    },
+    {
+        "code": "45041",
+        "flavor": "\"Yo no escogí el nombre.\"",
+        "name": "Bolas Doradas",
+        "subname": "Fabio Medina",
+        "text": "[star] <b>Interrupción</b>: cuando Bolas Doradas ataque, descarta un máximo de 3 cartas de la parte superior de tu mazo \u2192 Bolas Doradas recibe +X ATQ para este ataque, siendo X el número de cartas descartado de este modo.",
+        "traits": "Patrulla-X."
+    },
+    {
+        "code": "45042",
+        "name": "Tempus",
+        "subname": "Eva Bell",
+        "text": "Juega esta carta sólo si tu Héroe tiene el rasgo [[PATRULLA-X]].\n<b>Interrupción</b>: cuando al Villano vaya a ejecutar el Plan, descarta a Tempus \u2192 cancela esa activación. Coge 1 carta de Encuentro boca abajo.",
+        "traits": "Patrulla-X."
+    },
+    {
+        "code": "45043",
+        "name": "Furia sanguinaria",
+        "text": "Maximo de 1 por jugador.\n<b>Respuesta</b>: después de que derrotes a un enemigo con un ataque básico, agota Furia sanguinaria y sufre 1 de Daño \u2192 roba 1 carta.",
+        "traits": "Alteración."
+    },
+    {
+        "code": "45044",
+        "name": "Tantear las defensas",
+        "text": "Maximo de 1 por jugador.\n<b>Respuesta</b>: después de que juegues un Evento de [[ATAQUE]], coloca 1 contador de Tanteo sobre esta carta. Si hay al menos 5 contadores de Tanteo sobre ella, descarta esta carta para infligir 5 de Daño a un enemigo.",
+        "traits": "Habilidad."
+    },
+    {
+        "code": "45045",
+        "flavor": "\"¡Abre paso, tovarisch!\"\u2014Coloso",
+        "name": "Embestida arrolladora",
+        "text": "<b>Acción de Héroe</b> <i>(ataque)</i>: inflige 8 de Daño a un enemigo. Si la vida restante de tu Héroe es inferior a la mitad de su Vida inicial, este ataque gana Brutalidad.",
+        "traits": "Ataque."
+    },
+    {
+        "code": "45046",
+        "duplicate_of": "18012",
+        "flavor": "\"Qué bien sienta zurrar a ninjas otra vez.\" \u2014Mariposa Mental",
+        "pack_code": "aoa",
+        "position": 46,
+        "quantity": 3
+    },
+    {
+        "code": "45047",
+        "duplicate_of": "01055",
+        "pack_code": "aoa",
+        "position": 47,
+        "quantity": 2
+    },
+    {
+        "code": "45048",
+        "flavor": "\"Déjame que le eche un vistazo a eso.\"",
+        "name": "Triage",
+        "subname": "Christopher Muse",
+        "text": "<b>Respuesta</b>: después de que Triage entre en juego, cura 2 de Daño a un personaje [[Patrulla-X]].",
+        "traits": "Patrulla-X."
+    },
+    {
+        "code": "45049",
+        "name": "Cucos de Stepford",
+        "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[PATRULLA X]]. Usos (3 contadores Psíquicos).\n<b>Interrupción</b>: cuando un jugador muestre una carta de Perfidia, agota a las Cucos de Stepford y quítales 1 contador Psíquico \u2192 anula los efectos de esa carta y descártala. Ese jugador muestra otra carta de Encuentro.",
+        "traits": "Individuo. Psiónico."
+    },
+    {
+        "code": "45050",
+        "name": "Gema de sangre",
+        "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[MÍSTICO]]. Máximo de 1 por mazo.\n<b>Recurso</b>: Agota la Gema de sangre y sufre 2 de Daño \u2192 genera un recurso [wild].",
+        "traits": "Objeto."
+    },
+    {
+        "code": "45051",
+        "name": "Basic Hechizo",
+        "text": "Juega esta carta sólo si tu Superhéroe tiene el rasgo [[MÍSTICO]].\n<b>Acción de Héroe</b>: Elige una opción:\n\u2022 Cura 3 de Daño a un Superhéroe.\n\u2022 Quita 3 de Amenaza de un Plan.\n\u2022 Inflige 3 de Daño a un enemigo.",
+        "traits": "Hechizo."
+    },
+    {
+        "code": "45052",
+        "duplicate_of": "15019",
+        "pack_code": "aoa",
+        "position": 52,
+        "quantity": 3
+    },
+    {
+        "back_link": "45171b",
+        "code": "45171a",
+        "name": "Equipo para la misión",
+        "text": "Esta carta no puede descartarse y está bajo el control del jugador inicial.\n<b>Acción</b>: Agota Equipo para la misión \u2192 elige una opción:\n\u2022 Reduce en 2 el coste del siguiente Aliado que se juegue en la zona de misión.\n\u2022 Realiza un intento por completar la misión.",
+        "traits": "Misión."
+    },
+    {
+        "code": "45171b",
+        "flavor": "\"Otra misión completada con éxito.¡Espero que esta vez no nos demanden por daños y perjuicios!\" \u2014Polaris",
+        "name": "Equipo para la misión",
+        "text": "Esta carta no puede descartarse y está bajo el control del jugador inicial.\n<b>Acción</b>: Agota Equipo para la misión \u2192 elige un jugador para que robe 1 carta.",
+        "traits": "Finished."
+    },
+    {
+        "code": "45172",
+		"flavor": "\"Aventajar a tu enemigo es un juego de niños cuando conoces el futuro.\"",
+        "name": "Destino",
+        "subname": "Irene Adler",
+        "text": "<b>Respuesta</b>: después de que Destino entre en tu mano, quita 2 de Amenaza del Plan principal.",
+        "traits": "Patrulla-X."
+    },
+    {
+        "code": "45173",
+        "flavor": "\"Me llamo Destello. ¿Cuál de los dos crees que va a ser más rápido?\"",
+        "name": "Destello",
+        "subname": "Clarice Ferguson",
+        "text": "<b>Respuesta</b>: después de que Destello entre en tu mano, inflige 2 de Daño to al Villano.",
+        "traits": "Patrulla-X."
+    },
+    {
+        "code": "45174",
+        "flavor": "\"¿A qué viene tanto aspaviento, nene?\"",
+        "name": "Morfo",
+        "subname": "Kevin Sydney",
+        "text": "<b>Respuesta</b>: después de que Morfo entre en tu mano, confunde al Villano.",
+        "traits": "Patrulla-X."
+    },
+    {
+        "code": "45175",
+        "flavor": "\"¡Los inocentes estarán a salvo mientras yo pueda decir algo al respecto!\"",
+        "name": "Hombre-X",
+        "subname": "Nate Grey",
+        "text": "<b>Respuesta</b>: después de que Hombre-X entre en tu mano, dale a tu Superhéroe una carta de Estado \"Duro\".",
+        "traits": "Patrulla-X."
+    },
+    {
+        "code": "45176",        
+        "flavor": "\"My brother will never stop.\" \u2014Magik",
+        "name": "Medidas desesperadas",
+        "text": "Vincula esta carta a un Aliado. Límite de 1 por Aliado.\nEl Aliado vinculado recibe +1 INT, +1 ATQ, +1 de Vida, y se considera que tiene un icono de recurso Universal ([wild]) además de su icono de recurso impreso."
+    }
+]
