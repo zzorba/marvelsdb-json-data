@@ -1,0 +1,980 @@
+[
+    {
+        "code": "45025",
+        "name": "Miedo al futuro",
+        "text": "<b><i>Dale esta carta al jugador que lleva a Lucas Bishop.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n\u2022 Agota a Lucas Bishop \u2192 retira Miedo al futuro de la partida.\n\u2022 Descarta esta carta y todas las cartas de Recurso desde tu mano. Si no se descarta ninguna carta de Recurso de este modo, esta carta gana Oleada."
+    },
+    {
+        "code": "45026",
+        "name": "Trevor Fitzroy",
+        "text": "Ataque veloz.\n<b>Respuesta obligada</b>: después de que Trevor Fitzroy ataque y derrote a un Aliado, Si esta en juego Portal en el tiempo, colócale encima 2 de Amenaza. De no ser posible, localízalo y muéstralo.\n<i>(Esbirro Archienemigo de Bishop.)</i>",
+        "traits": "Élite. Temporal."
+    },
+    {
+        "code": "45027",
+        "flavor": "Trevor Fitzroy utiliza portales temporales para cometer delitos y escapar de la justicia.",
+        "name": "Portal en el tiempo",
+        "text": "<b>Interrupción obligada</b>: cuando se muestre una carta [[TEMPORAL]], gana Oleada. (Límite de una vez por fase.)"
+    },
+    {
+        "code": "45028",
+        "flavor": "\"Es hora de irse, Trevor.\"",
+        "name": "Bantam",
+        "text": "<b>Cuando se muestre esta carta</b>: Si está en juego Portal en el tiempo, colócale 2 de Amenaza. De no ser así, localiza Portal en el tiempo y muéstralo.",
+        "traits": "Temporal."
+    },
+    {
+        "code": "45029",
+        "flavor": "\"Por eso me encantan los viajes en el tiempo: no importa cuántas veces atraco este banco, siempre se sorprenden.\" \u2014Trevor Fitzroy",
+        "name": "Artimañas temporales",
+        "text": "<b>Cuando se muestre esta carta</b>: descarta una carta de tu mano que tenga el mayor número de iconos de recurso impresos. Coloca 1 de Amenaza sobre cada Plan por cada icono de recurso que hubiera en esta carta.",
+        "traits": "Temporal."
+    },
+    {
+        "code": "45053",
+        "name": "La Niña Oscura",
+        "text": "<b><i>Dale esta carta al jugador que lleva a Illyana Rasputin.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n\u2022 Agota a Illyana Rasputin \u2192 retira de la partida La Niña Oscura .\n\u2022 Inflige 1 de Daño a cada personaje que controles. Descarta esta Obligación."
+    },
+    {
+        "code": "45054",
+        "name": "Belasco",
+        "text": "Infame.\n[star] <b>Respuesta obligada</b>: después de que Belasco se active contra ti, descarta las 3 primeras cartas de la parte superior de tu mazo. Si está en juego Soberano del Limbo, vincúlale esas cartas boca abajo.\n<i>(Esbirro Archienemigo de Magik.)</i>",
+        "traits": "Élite. Limbo."
+    },
+    {
+        "code": "45055",
+        "name": "Soberano del Limbo",
+        "text": "No puede quitarse Amenaza de este Plan mientras Belasco esté en juego.\n<b>Cuando se muestre esta carta</b>: el jugador que lleva a Illyana Rasputin localiza Limbo y lo vincula Boca abajo sobre esta carta. Cuando se derrote este Plan, pon en juego Limbo controlado por su propietario."
+    },
+    {
+        "code": "45056",
+        "flavor": "\"El jefe dice que está harto de que interfieras en sus planes.\"",
+        "name": "S'ym",
+        "text": "Guardia.\n<b>Cuando se muestre esta carta</b>: Si está en juego Soberano del Limbo, colócale encima 2 de Amenaza. De no ser así, coloca 2 de Amenaza sobre el Plan principal.",
+        "traits": "Limbo."
+    },
+    {
+        "code": "45057",
+        "flavor": "\"¡El Limbo me pertenece por legítimo derecho!\"",
+        "name": "Fuego Brujo",
+        "text": "Ataque veloz.\n<b>Respuesta obligada</b>: después de que Fuego Brujo ataque y derrote a un Aliado, coloca 1 de Amenaza sobre Soberano del Limbo. De no ser así, coloca 1 de Amenaza sobre el Plan principal.",
+        "traits": "Limbo."
+    },
+    {
+		"code": "45058",
+        "name": "Batalla por el Limbo",
+        "text": "<b>Cuando se muestre esta carta</b>: cada Esbirro [[LIMBO]] que esté en juego se activa contra el jugador al que esté enfrentado. Si no se activa ningún Esbirro [[LIMBO]] de este modo, esta carta gana Oleada.\n<hr />\n[star] <b>Aumento</b>: si está en juego Soberano del Limbo, colócale encima 2 de Amenaza."
+    },
+    {
+        "code": "45059",
+        "name": "Unus",
+        "text": "Dureza.\nSi la cantidad de Amenaza que hay sobre Acervo genético es de al menos:\n\u2022 3 \u2014 Unus gana Represalia 1.\n\u2022 6 \u2014 Unus gana también Firmeza.\n\u2022 9 \u2014 Unus gana también un icono [amplify].",
+        "traits": "Prelado."
+    },
+    {
+        "code": "45060",
+        "name": "Unus",
+        "text": "Dureza.\nSi la cantidad de Amenaza que hay sobre Acervo genético es de al menos:\n\u2022 3 \u2014 Unus gana Represalia 1.\n\u2022 6 \u2014 Unus gana también Firmeza.\n\u2022 9 \u2014 Unus gana también un icono [amplify].",
+        "traits": "Prelado."
+    },
+    {
+        "code": "45061",
+        "name": "Unus",
+        "text": "Dureza.\nSi la cantidad de Amenaza que hay sobre Acervo genético es de al menos:\n\u2022 3 \u2014 Unus gana Represalia 1.\n\u2022 6 \u2014 Unus gana también Firmeza.\n\u2022 9 \u2014 Unus gana también un icono [amplify].",
+        "traits": "Prelado."
+    },
+    {
+        "back_text": "<b>Contenido</b>: Unus (I) y Unus (II). <i>(Unus (II) y Unus (III) para jugar en modo Experto.)</i> Unus, Infinitos, y Normal. Un conjunto de Encuentros modular <i>(Pesadilla distópica)</i>.\n<b>Preparación</b>: Muestra Acervo genético Plan secundario. En modo Experto, reparte a cada jugador 1 carta de Encuentro boca abajo.",
+        "code": "45062",
+        "flavor": "Prelado Unus y his squad of Infinitos scour the ruins of the X-Mansion for the enemies of Apocalipsis.",
+        "name": "Cacería de traidores a la raza",
+        "text": "[star] <b>Respuesta obligada</b>: después de resolver el paso uno de la fase del Villano, coloca 1 de Amenaza sobre Acervo genético.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+    },
+    {
+        "code": "45063",
+        "name": "Pistola de prelado",
+        "text": "Vincula esta carta a Unus.\n[star] <b>Respuesta obligada</b>: después de que Unus ataque y derrote a un Aliado, coloca 1 de Amenaza sobre Acervo genético.\n<b>Respuesta de Héroe</b>: después de que realices un ataque básico contra Unus, gasta recursos [energy] [physical] \u2192 descarta esta carta.",
+        "traits": "Arma."
+    },
+    {
+        "code": "45064",
+        "name": "Armadura de prelado",
+		"text": "Vincula esta carta a Unus.\n[star] <b>Respuesta obligada</b>: después de que Unus ejecuta el Plan, dale una carta de Estado \"Duro\".\n<b>Respuesta de Héroe</b>: después de que realices un ataque básico contra Unus, gasta recursos [mental] [physical] \u2192 descarta esta carta.",
+        "traits": "Armadura."
+    },
+    {
+        "code": "45065",
+        "name": "Cazador Infinito",
+        "text": "<b>Cuando se muestre esta carta</b>: inflige 3 de Daño a un Aliado que controles.\n<hr />\n[star] <b>Aumento</b>: elige entre colocar 2 de Amenaza sobre Acervo genético o que el enemigo activado reciba +2 PLA y +2 ATQ para esta activación.",
+        "traits": "Infinito."
+    },
+    {
+        "code": "45066",
+        "name": "Experimentos genéticos",
+        "text": "Vincula esta carta a un Esbirro [[Infinito]]. De no ser posible, esta carta gana Oleada.\nEl Esbirro vinculado recibe +2 de Vida.\n<b>Interrupción obligada</b>: cuando el Esbirro vinculado sea derrotado, coloca 2 de Amenaza sobre Acervo genético.\n<hr />\n[star] <b>Aumento</b>: vincula esta carta a un Esbirro [[Infinito]].",
+        "traits": "Alteración."
+    },
+    {
+        "code": "45067",
+        "name": "Prelado Infinito",
+        "text": "<b>Cuando se muestre esta carta</b>: Unus se activa contra ti. Si la cantidad de Amenaza que hay sobre Acervo genético es de al menos:\n\u2022 3 \u2014 Dale a Unus una carta de Estado \"Duro\".\n\u2022 6 \u2014 Cura 3 de Daño a Unus también.\n\u2022 9 \u2014 Dale a Unus también una carta de aumento adicional para esta activación."
+    },
+    {
+        "code": "45068",
+        "flavor": "The Infinitos live up to their name: no matter how many you defeat, they keep making more.",
+        "name": "Huestes interminables",
+        "text": "<b>Cuando se derrote esta carta</b>: Coloca 3 de Amenaza sobre Acervo genético."
+    },
+    {
+        "code": "45069",
+        "name": "Soldado Infinito",
+        "text": "Guardia.\nSi la cantidad de Amenaza que hay sobre Acervo genético es de al menos:\n\u2022 3 \u2014 Este Esbirro gana Ataque veloz.\n\u2022 6 \u2014 Este Esbirro gana también Oleada.\n\u2022 9 \u2014 Este Esbirro recibe también +3 de Vida.",
+        "traits": "Infinito."
+    },
+    {
+        "code": "45070",
+        "flavor": "The Infinitos were created to enforce the mandate of Apocalipsis: the weak must perish.",
+        "name": "Diezmar a los débiles",
+        "text": "<b>Cuando se muestre esta carta</b>: Coloca 4 de Amenaza sobre Acervo genético.\n<hr />\n[star] <b>Aumento</b>: Coloca 2 de Amenaza sobre Acervo genético."
+    },
+    {
+        "code": "45071",
+        "flavor": "Apocalipsis utiliza el material genético de sus víctimas para crear a los Infinitos.",
+        "name": "Acervo genético",
+        "text": "Permanente. Inicio.\n<b>Respuesta obligada</b>: después de que un Aliado sea derrotado por cualquier motivo que no sea Daño derivado, coloca 3 de Amenaza sobre esta carta."
+    },
+    {
+        "code": "45072",
+        "name": "Perseguido",
+        "text": "<b>Acción de Alter ego</b>: descarta una carta de tu mano \u2192 descarta esta carta."
+    },
+    {
+        "code": "45073",
+        "name": "Cansado de luchar",
+        "text": "<b>Cuando se muestre esta carta</b>: quedas aturdido. Si ya estabas aturdido, en vez de eso sufres 2 de Daño.\n<hr />\n[star] <b>Aumento</b>: quedas aturdido. Si ya estabas aturdido, en vez de eso sufres 2 de Daño."
+    },
+    {
+        "code": "45074",
+        "flavor": "The Infinitos hunt down those whom their master deems unworthy.",
+        "name": "Exterminio selectivo",
+        "text": "<b>Cuando se derrote esta carta</b>: el jugador que haya derrotado este Plan confunde a su Superhéroe."
+    },
+    {
+        "back_link": "45075b",
+        "code": "45075a",
+        "name": "Perseguido por el pasado",
+        "text": "Permanente. Inicio.\n<b>Respuesta obligada</b>: después de que coloques un contador de Persecución sobre esta carta, si el número de contadores de Persecución que hay sobre ella es como mínimo 3 más que el número de jugadores, quita todos los contadores \u2192 si tu Esbirro Archienemigo está en juego, se activa contra ti. De no ser así, dale la vuelta a esta carta."
+    },
+    {
+        "code": "45075b",
+        "name": "Perseguido por el pasado",
+        "text": "Permanente.\n<b>Respuesta obligada</b>: después de que pongas boca arriba esta cara, localiza tu Esbirro Archienemigo y muéstralo. Busca el Plan secundario de tu Archienemigo en la zona apartada y muéstralo. Añade el resto del conjunto de tu Archienemigo de la zona apartada al mazo de Encuentros y barájalo. Dale la vuelta a esta carta."
+    },
+    {
+        "code": "45076",
+        "name": "Designios siniestros",
+        "text": "<b>Cuando se muestre esta carta</b>: Coloca 1 contador de Persecución sobre Perseguido por el pasado. Luego, si tiene algún contador encima, el Villano ejecuta el Plan.\n[star] <b>Aumento</b>: después de que se resuelva esta activación, coloca 1 contador de Persecución sobre Perseguido por el pasado."
+    },
+    {
+        "code": "45077",
+        "name": "Descarga siniestra",
+        "text": "<b>Cuando se muestre esta carta (Alter ego)</b>: Coloca 1 contador de Persecución sobre Perseguido por el pasado. Luego, si tiene algún contador encima, esta carta gana Oleada.\n<b>Cuando se muestre esta carta (Héroe)</b>: Coloca 1 contador de Persecución sobre Perseguido por el pasado. Luego, si tiene algún contador encima, el Villano te ataca."
+    },
+    {
+        "code": "45078",
+        "name": "Alianza maligna",
+        "text": "<b>Cuando se muestre esta carta</b>: todos los Esbirros Archienemigos que estén en juego se activan contra ti. Si no no se ha activado ningún Esbirro de este modo, coloca 3 contadores de Persecución sobre Perseguido por el pasado.\n[star] <b>Aumento</b>: después de que se resuelva esta activación, coloca 1 contador de Persecución sobre Perseguido por el pasado."
+    },
+    {
+        "code": "45079",
+        "name": "Ningún sitio es seguro",
+        "text": "<b>Cuando se muestre esta carta</b>: Coloca 1 contador de Persecución sobre Perseguido por el pasado. Luego, si tiene algún contador encima, descarta una Mejora o Apoyo que controles.\n<hr />\n[star] <b>Aumento</b>: después de que se resuelva esta activación, coloca 1 contador de Persecución sobre Perseguido por el pasado."
+    },
+    {
+        "code": "45080",
+        "name": "Cada vez más cerca",
+        "text": "<b>Respuesta obligada</b>: después de que empiece tu turno, descarta la primera carta de la parte superior de tu mazo. Coloca 1 contador de Persecución sobre Perseguido por el pasado por cada icono de recurso que haya impreso en esa carta.\n<b>Acción de Alter ego</b>: Descarta una carta específica de tu Superhéroe de tu mano \u2192 descarta esta carta."
+    },
+    {
+        "back_link": "45081b",
+        "code": "45081a",
+        "name": "Guerra",
+        "text": "[star] <b>Respuesta obligada</b>: después de que Guerra te ataque, si tiene al menos 1 de Vida, descarta una Mejora o Apoyo que controles.\n<b>Guerra no puede ser derrotado mientras otro Villano tenga al menos 1 de Vida.</b>",
+        "traits": "Jinetes."
+    },
+    {
+        "code": "45081b",
+        "name": "Guerra",
+        "text": "[star] <b>Respuesta obligada</b>: después de que Guerra te ataque, si tiene al menos 1 de Vida, descarta una Mejora o Apoyo que controles.\n<b>Guerra no puede ser derrotado mientras otro Villano tenga al menos 1 de Vida.</b>",
+        "traits": "Jinetes."
+    },
+    {
+        "back_link": "45082b",
+        "code": "45082a",
+        "name": "Hambre",
+        "text": "[star] <b>Respuesta obligada</b>: después de que Hambre te ataque, si tiene al menos 1 de Vida, descarta las 10 primeras cartas de la parte superior de tu mazo.\n<b>Hambre no puede ser derrotado mientras otro Villano tenga al menos 1 de Vida.</b>",
+        "traits": "Jinetes."
+    },
+    {
+        "code": "45082b",
+        "name": "Hambre",
+        "text": "[star] <b>Respuesta obligada</b>: después de que Hambre te ataque, si tiene al menos 1 de Vida, descarta las 10 primeras cartas de la parte superior de tu mazo.\n<b>Hambre no puede ser derrotado mientras otro Villano tenga al menos 1 de Vida.</b>",
+        "traits": "Jinetes."
+    },
+    {
+        "back_link": "45083b",
+        "code": "45083a",
+        "name": "Peste",
+        "text": "[star] <b>Respuesta obligada</b>: después de que Peste te ataque, si tiene al menos 1 de Vida, el texto de reglas de tu Superhéroe se trata como si estuviese en blanco <i>(a excepción de los [[Rasgos]])</i> hasta que empiece la siguiente fase del Villano.\n<b>Peste no puede ser derrotado mientras otro Villano tenga al menos 1 de Vida.</b>",
+        "traits": "Jinetes."
+    },
+    {
+        "code": "45083b",
+        "name": "Peste",
+        "text": "[star] <b>Respuesta obligada</b>: después de que Peste te ataque, si tiene al menos 1 de Vida, el texto de reglas de tu Superhéroe se trata como si estuviese en blanco <i>(a excepción de los [[Rasgos]])</i> hasta que empiece la siguiente fase del Villano.\n<b>Peste no puede ser derrotado mientras otro Villano tenga al menos 1 de Vida.</b>",
+        "traits": "Jinetes."
+    },
+    {
+        "back_link": "45084b",
+        "code": "45084a",
+        "name": "Muerte",
+        "text": "[star] <b>Respuesta obligada</b>: después de que Muerte te ataque, si tiene al menos 1 de Vida, inflige 1 de Daño a cada personaje que controles.\n<b>Muerte no puede ser derrotado mientras otro Villano tenga al menos 1 de Vida.</b>",
+        "traits": "Aéreo. Jinetes."
+    },
+    {
+        "code": "45084b",
+        "name": "Muerte",
+        "text": "[star] <b>Respuesta obligada</b>: después de que Muerte te ataque, si tiene al menos 1 de Vida, inflige 1 de Daño a cada personaje que controles.\n<b>Muerte no puede ser derrotado mientras otro Villano tenga al menos 1 de Vida.</b>",
+        "traits": "Aéreo. Jinetes."
+    },
+    {
+        "back_text": "<b>Contenido</b>: Guerra (A), Hambre (A), Peste (A), Muerte (A), los Cuatro jinetes, Normal, y dos conjuntos modulares <i>(Pesadilla distópica y Sabuesos)</i>.\n<b>Preparación</b>: Baraja los cuatro Villanos [[Jinetes]], luego muéstralos y colócalos formando una fila de izquierda a derecha. Coloca el contador de Villano activo sobre el Villano del extremo izquierdo (ver cuaderno de reglas). Cada jugador muestra un Plan secundario aleatorio del conjunto de Encuentros de los Cuatro jinetes.",
+        "code": "45085",
+        "flavor": "Los Cuatro jinetes son los siervos más brutrales de Apocalipsis. They strike in turn, using their powers as a team.",
+        "name": "Los Jinetes de Apocalipsis",
+        "text": "<b>Respuesta obligada</b>: después de que un Villano se active, traslada el contador del Villano activo al siguiente Villano.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+    },
+    {
+        "code": "45086",
+        "flavor": "Guerra uses the shockwaves created by his arms to keep his opponents off balance.",
+        "name": "Los estragos de la guerra",
+        "text": "<b>Cuando se derrote esta carta</b>: El jugador que haya derrotado este Plan descarta una Mejora o Apoyo que controle."
+    },
+    {
+        "code": "45087",
+        "flavor": "The mere touch of Hambre leaves even the strongest mutant enfeebled.",
+        "name": "Hambruna",
+        "text": "<b>Cuando se derrote esta carta</b>: El jugador que haya derrotado este Plan descarta las 10 primeras cartas de la parte superior de su mazo."
+    },
+    {
+        "code": "45088",
+        "flavor": "Peste uses her power to make her enemies sick y helpless.",
+        "name": "Plaga y pestilencia",
+        "text": "<b>Cuando se derrote esta carta</b>: El jugador que haya derrotado este Plan trata el texto de reglas de su Superhéroe como si estuviese en blanco (a excepción de los [[Rasgos]]) hasta que empiece la siguiente fase del Villano."
+    },
+    {
+        "code": "45089",
+        "flavor": "The shadow of Muerte drives fear into the hearts of those he hunts.",
+        "name": "El espectro de la muerte",
+        "text": "<b>Cuando se derrote esta carta</b>: El jugador que haya derrotado este Plan inflige 1 de Daño a cada personaje que controle."
+    },
+    {
+        "code": "45090",
+        "name": "Caballo dorado",
+        "text": "Vincula esta carta al Villano que tenga menos Vida y que no tenga el rasgo [[Aéreo]].\nEl Villano gana el rasgo [[Aéreo]] y se considera que tiene al menos 1 de Vida.\n<b>Respuesta de Héroe</b>: después de que ataques al Villano vinculado, resuelve su \"<b>Respuesta obligada</b>\" como si acabase de atacarte \u2192 descarta esta carta.",
+        "traits": "Objeto. Tecnología."
+    },
+    {
+        "code": "45091",
+        "name": "Alas de Metal",
+        "text": "Vincula esta carta a Muerte y trasládale el contador de Villano activo.\nMuerte gana Represalia 1 y se considera que tiene al menos 1 de Vida restante.\n<b>Respuesta de Héroe</b>: después de que ataques a Muerte, resuelve su \"<b>Respuesta obligada</b>\" como si acabase de atacarte \u2192 descarta esta carta.",
+        "traits": "Objeto. Tecnología."
+    },
+    {
+        "code": "45092",
+        "name": "Jinete de la Guerra",
+        "text": "<b>Cuando se muestre esta carta</b>: Cura 2 de Daño a Guerra y dale una carta de Estado \"Duro\". Se activa contra ti.\n<hr />\n[star] <b>Aumento</b>: después de esta activación, Guerra se activa contra ti. No des una carta de aumento a Guerra para esta activación."
+    },
+    {
+        "code": "45093",
+        "name": "Jinete del Hambre",
+        "text": "<b>Cuando se muestre esta carta</b>: Cura 2 de Daño a Hambre y dale una carta de Estado \"Duro\". Se activa contra ti.\n<hr />\n[star] <b>Aumento</b>: después de esta activación, Hambre se activa contra ti. No des una carta de aumento a Hambre para esta activación."
+    },
+    {
+        "code": "45094",
+        "name": "Jinete de la Peste",
+        "text": "<b>Cuando se muestre esta carta</b>: Cura 2 de Daño a Peste y dale una carta de Estado \"Duro\". Se activa contra ti.\n<hr />\n[star] <b>Aumento</b>: después de esta activación, Peste se activa contra ti. No des una carta de aumento a Peste para esta activación."
+    },
+    {
+        "code": "45095",
+        "name": "Jinete de la Muerte",
+        "text": "<b>Cuando se muestre esta carta</b>: Cura 2 de Daño a Muerte y dale una carta de Estado \"Duro\". He se active contra ti.\n<hr />\n[star] <b>Aumento</b>: después de esta activación, Muerte se activa contra ti. No des una carta de aumento a Muerte para esta activación."
+    },
+    {
+        "code": "45096",
+        "name": "Caballería apocalíptica",
+        "text": "<b>Cuando se muestre esta carta</b>: resuelve la \"<b>Respuesta obligada</b>\" del Villano activo como si tuviese al menos 1 de Vida y te hubiera atacado. Traslada el contador del Villano activo al siguiente Villano y resuelve su \"<b>Respuesta obligada</b>\" del mismo modo."
+    },
+    {
+        "code": "45097",
+        "flavor": "\"You no puede hide from me, mutant.\"",
+        "name": "Acab",
+        "text": "Dureza.\n<b>Cuando se muestre esta carta</b>: si está en juego Soltar los perros, colócale encima 3 de Amenaza. De no ser así, localiza el Plan secundario Soltar los perros  y muéstralo.",
+        "traits": "Cíborg. Rastreador."
+    },
+    {
+        "code": "45098",
+        "flavor": "Acab's hounds are mutants stripped of free will y forced to hunt their own kind.",
+        "name": "Sabueso",
+        "text": "Guardia.\n<b>Cuando se muestre esta carta</b>: Si tienes adoptada tu identidad de Héroe, Sabueso te ataca. De no ser así, cambia a tu identidad de Héroe.",
+        "traits": "Rastreador."
+    },
+    {
+        "code": "45099",
+        "name": "Lanza de energía de Acab",
+        "text": "Vincula esta carta a Acab. De no ser posible, vincula esta carta al Villano.\n[star] <b>Interrupción obligada</b>: cuando el enemigo vinculado te ataque, este ataque gana Brutalidad y Penetrante. Al final de este ataque, descarta la Lanza de energía de Acab.",
+        "traits": "Arma."
+    },
+    {
+        "code": "45100",
+        "flavor": "Acab takes pleasure in hunting mutants with the help of his hounds.",
+        "name": "Soltar los perros",
+        "text": "La primera carta de un Sabueso que se muestre en cada fase gana Oleada.\n<b>Cuando se derrote esta carta</b>: El jugador que haya derrotado este Plan busca una copia de un Sabueso en el mazo de Encuentros y en su pila de descartes,y se la queda como carta de Encuentro boca abajo."
+    },
+    {
+        "back_link": "45101b",
+        "code": "45101a",
+        "flavor": "\"Challenge me y be reminded why Apocalipsis reigns supreme.\"",
+        "name": "Apocalipsis",
+        "text": "Dureza.\n<b>Interrupción obligada</b>: cuando se complete el Plan principal, quítale toda la Amenaza <i>(ignorando los iconos de Crisis ([crisis]))</i>. Dale la vuelta a esta carta y muestra Apocalipsis (II).",
+        "traits": "Mutante."
+    },
+    {
+        "code": "45101b",
+        "name": "Apocalipsis",
+        "text": "Tesón. Dureza.\n<b>Interrupción obligada</b>: cuando se complete el Plan principal, quítale toda la Amenaza <i>(ignorando los iconos de Crisis ([crisis]))</i>. Retira esta carta de la partida y muestra Apocalipsis (III).",
+        "traits": "Mutante."
+    },
+    {
+        "back_link": "45102b",
+        "code": "45102a",
+        "flavor": "\"This world belongs to me y those I deem worthy.\"",
+        "name": "Apocalipsis",
+        "text": "Tesón. Dureza.\n<b>Interrupción obligada</b>: cuando se complete el Plan principal, quítale toda la Amenaza <i>(ignorando los iconos de Crisis ([crisis]))</i>. Dale la vuelta a esta carta y muestra Apocalipsis (IV).",
+        "traits": "Mutante."
+    },
+    {
+        "code": "45102b",
+        "flavor": "\"I will cleanse este world with fire. Only the strong will survive.\"",
+        "name": "Apocalipsis",
+        "text": "Firmeza. Dureza.\n[star] Los ataques de Apocalipsis ganan Brutalidad.\n<b>Interrupción obligada</b>: cuando se complete el Plan principal, los jugadores pierden la partida.",
+        "traits": "Mutante."
+    },
+    {
+        "back_text": "<b>Contenido</b>: Apocalipsis (II) y Apocalipsis (III). <i>(Apocalipsis (III) para jugar en modo Experto.)</i> Apocalipsis, Prelados, y Normal. Dos conjuntos de Encuentros modulares <i>(Jinetes oscuros e Infinitos)</i>.\n<b>Preparación</b>: aparta a un lado todas las cartas de Villano sin usar, todos los Esbirros [[Prelado]], y el Plan secundario El trono del tirano. Muestra el Plan secundario El corazón del imperio. El jugador inicial muestra un Esbirro [[Prelado]] aleatorio que esté apartado.",
+        "code": "45103",
+        "flavor": "The time has come for a direct assault sobre Apocalipsis in his towering citadel.",
+        "name": "La era de Apocalipsis",
+        "text": "X es el valor númerico de Vida impreso en la carta de Apocalipsis.\n<b>Interrupción obligada</b>: cuando Apocalipsis vaya a ser derrotado, en vez de eso descarta todos los Accesorios que tenga vinculados y cúrale tod el Daño. Quita X de Amenaza de este Plan <i>(ignorando los iconos de Crisis ([crisis]))</i>."
+    },
+    {
+        "back_link": "45105b",
+        "code": "45104a",
+        "flavor": "Before you can challenge Apocalipsis, you must fight your way through his tower.",
+        "name": "El corazón del imperio",
+        "text": "No puede quitarse Amenaza de este Plan mientras haya en juego un Esbirro [[Prelado]].\n<b>Cuando se derrote esta carta</b>: El jugador inicial muestra un Esbirro [[Prelado]] aleatorio que esté apartado. Reparte una carta de Encuentro a todos los demás jugadores. Dale la vuelta a esta carta."
+    },
+    {
+        "code": "45104b",
+        "name": "La ciudadela titánica",
+        "text": "No puede quitarse Amenaza de este Plan mientras haya en juego un Esbirro [[Prelado]].\n<b>Cuando se derrote esta carta</b>: El jugador inicial muestra un Esbirro [[Prelado]] aleatorio que esté apartado. Reparte una carta de Encuentro a todos los demás jugadores. Muestra el Plan secundario El trono del tirano y retira esta carta de la partida."
+    },
+    {
+        "back_link": "45105b",
+        "code": "45105a",
+        "name": "El trono del tirano",
+        "text": "No puede quitarse Amenaza de este Plan mientras haya en juego un Esbirro [[Prelado]].\n<b>Cuando se derrote esta carta</b>: El jugador inicial muestra un Esbirro [[Prelado]] aleatorio que esté apartado. Reparte una carta de Encuentro a todos los demás jugadores. Dale la vuelta a esta carta y muestra Caido en desgracia."
+    },
+    {
+        "code": "45105b",
+        "name": "Caído en desgracia",
+        "text": "Vincula esta carta a Apocalipsis y cúrale 5[per_hero] de Vida. No puede sufrir Daño mientras haya en juego un Esbirro [[Prelado]].\nIgnora la \"<b>Interrupción obligada</b>\" del Plan principal.\n<b>Interrupción obligada</b>: cuando Apocalipsis sea derrotado, los jugadores ganan la partida.",
+        "traits": "Alteración."
+    },
+    {
+        "code": "45106",
+        "name": "Ciberpatía",
+        "text": "Vincula esta carta a Apocalipsis.\n[star] <b>Respuesta obligada</b>: después de que Apocalipsis ejecuta el Plan, coloca 1 de Amenaza sobre cada Plan secundario.\n<hr />\n[star] <b>Aumento</b>: vincula esta carta a Apocalipsis.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "45107",
+        "name": "Biomorfismo",
+        "text": "Vincula esta carta a Apocalipsis.\n[star] Los ataques de Apocalipsis ganan Brutalidad.\n<hr/>\n[star] <b>Aumento</b>: vincula esta carta a Apocalipsis.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "45108",
+        "flavor": "Apocalipsis's power to control every molecule in his body makes him una unpredictable foe.",
+        "name": "Control Molecular",
+        "text": "Vincula esta carta a Apocalipsis.\nApocalipsis gana Represalia 1 y Firmeza.\n<hr />\n[star] <b>Aumento</b>: vincula esta carta a Apocalipsis.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "45109",
+        "flavor": "Apocalipsis promotes only the strongest y most ruthless mutants to the rank of Prelado.",
+        "name": "El más apto",
+        "text": "Vincula esta carta al Esbirro que tenga el valor impreso de Vida más alto y dale una carta de Estado \"Duro\". De no ser posible, esta carta gana Oleada.\nEl enemigo vinculado recibe +5 de Vida.",
+        "traits": "Alteración."
+    },
+    {
+        "code": "45110",
+        "name": "Un lobo entre corderos",
+        "text": "<b>Cuando se muestre esta carta</b>: el Esbirro [[Prelado]] se activa contra ti. De no ser posible, Apocalipsis se activa contra ti.\n<hr />\n[star] <b>Aumento</b>: dale al Esbirro [[Prelado]] una carta de Estado \"Duro\". De no ser posible, dale a Apocalipsis una carta de Estado \"Duro\"."
+    },
+    {
+        "code": "45111",
+        "flavor": "Apocalipsis would rather burn his kingdom to the ground than surrender his rule.",
+        "name": "La solución de Apocalipsis",
+        "text": "<b>Cuando se derrote esta carta</b>: descarta las X primeras cartas de la parte superior del mazo de Encuentros, siendo X el valor númerico de Vida impreso en la carta de Apocalipsis."
+    },
+    {
+        "code": "45112",
+        "flavor": "\"You want someone gone? You hire the Jinetes oscuros.\"",
+        "name": "Guantelete",
+        "text": "Trabajo en equipo ([[Jinetes oscuros]]).\n[star] <b>Respuesta obligada</b>: después de que Guantelete te ataque, descarta una Mejora que controles.",
+        "traits": "Jinetes oscuros."
+    },
+    {
+        "code": "45113",
+        "flavor": "\"Don't expect someone named 'Andanada' to be picky with their targets.\" \u2014Ciclope",
+        "name": "Andanada",
+        "text": "Trabajo en equipo ([[Jinetes oscuros]]).\n[star] <b>Respuesta obligada</b>: después de que Andanada te ataque, inflige 1 de Daño a cada personaje que controles.",
+        "traits": "Jinetes oscuros."
+    },
+    {
+        "code": "45114",
+        "flavor": "\"I've finished my scan. prepara a to jump.\"",
+        "name": "Hardrive",
+        "text": "Trabajo en equipo ([[Jinetes oscuros]]).\n[star] <b>Respuesta obligada</b>: después de que Hardrive te ataque, coloca 1 de Amenaza sobre cada Plan.",
+        "traits": "Jinetes oscuros."
+    },
+    {
+        "code": "45115",
+        "name": "Colmillo",
+        "text": "Trabajo en equipo ([[Jinetes oscuros]]).\n[star] <b>Respuesta obligada</b>: después de que Colmillo te ataque, quedas aturdido.\n<hr />\n[star] <b>Aumento</b>: quedas aturdido.",
+        "traits": "Jinetes oscuros."
+    },
+    {
+        "code": "45116",
+        "name": "Psinapsis",
+        "text": "Trabajo en equipo ([[Jinetes oscuros]]).\n[star] <b>Respuesta obligada</b>: después de que Psinapsis te ataque, quedas confundido.\n<hr />\n[star] <b>Aumento</b>: quedas confundido.",
+        "traits": "Jinetes oscuros."
+    },
+    {
+        "code": "45117",
+        "flavor": "Jinetes oscuros live by the axiom: The weak must perish.",
+        "name": "Los Jinetes Oscuros",
+        "text": "Complicación 1[per_hero].\nCada Esbirro de los [[Jinetes oscuros]] gana Dureza.\n<b>Cuando se muestre esta carta</b>: descarta cartas del mazo de Encuentros hasta que se descarte un Esbirro de los [[Jinetes oscuros]] y muéstralo."
+    },
+    {
+        "code": "45118",
+        "flavor": "\"A Villano's work is never done!\"",
+        "name": "Bestia Oscura",
+        "text": "[star] <b>Interrupción obligada</b>: cuando Bestia Oscura te ataque, resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]].\n<b>Cuando se muestre esta carta</b>: muestra una carta de Entorno aleatoria de las que están apartadas, devuelve el resto de su conjunto de Encuentros al mazo de Encuentros y barájalo.",
+        "traits": "Bruto. Genio."
+    },
+    {
+        "code": "45119",
+        "name": "Bestia Oscura",
+        "text": "[star] <b>Interrupción obligada</b>: cuando Bestia Oscura te ataque, resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]].\n<b>Cuando se muestre esta carta</b>: muestra una carta de Entorno aleatoria de las que están apartadas, devuelve el resto de su conjunto de Encuentros al mazo de Encuentros y barájalo. Dale una carta de Encuentro a cada jugador.",
+        "traits": "Bruto. Genio."
+    },
+    {
+        "code": "45120",
+        "name": "Bestia Oscura",
+        "text": "[star] <b>Interrupción obligada</b>: cuando Bestia Oscura te ataque, resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]].\n<b>Cuando se muestre esta carta</b>: muestra una carta de Entorno aleatoria de las que están apartadas, devuelve el resto de su conjunto de Encuentros al mazo de Encuentros y barájalo. Dale una carta de Encuentro a cada jugador.",
+        "traits": "Bruto. Genio."
+    },
+    {
+        "back_text": "<b>Contenido</b>: Bestia Oscura (I) y Bestia Oscura (II). <i>(Bestia Oscura (II) y Bestia Oscura (III) para jugar en modo Experto.)</i> Bestia Oscura, Luna azul, Genosha, Tierra Salvaje, y Normal. Un conjunto de Encuentros modular <i>(Pesadilla distópica)</i>.\n<b>Preparación</b>: aparta los conjuntos Luna azul, Genosha y Tierra Salvaje <i>(incluyendo todas las cartas de Entorno de esos conjuntos)</i>. En modo Experto, muestra la carta de Accesorio Visor de tecnología punta.",
+        "code": "45121",
+        "flavor": "Bestia Oscura activates his time machine to ensure the rise of Apocalipsis, but your quick action ruins his calculations. You wrestle for control of the device as it transports you through time y space!",
+        "name": "El alucinante viaje de la Bestia Oscura",
+        "text": "<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+    },
+    {
+        "code": "45122",
+        "name": "Visor de tecnología punta",
+        "text": "Vincula esta carta a la Bestia Oscura.\n<b>Acción de Héroe</b>: agota tu Héroe y resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]] \u2192 descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: vincula esta carta a la Bestia Oscura.",
+        "traits": "Tecnología."
+    },
+    {
+        "code": "45123",
+        "name": "Aumento genético",
+        "text": "Vincula esta carta a la Bestia Oscura.\n<b>Acción de Héroe</b>: agota tu Héroe y resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]] \u2192 descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: vincula esta carta a la Bestia Oscura.",
+        "traits": "Alteración."
+    },
+    {
+        "code": "45124",
+        "flavor": "\"I could do este with anesthesia, but what fun would that be?\" \u2014Dark Beast",
+        "name": "Experimento cruel",
+        "text": "El Esbirro vinculado recibe +2 de Vida y gana Guardia.\n<b>Cuando se muestre esta carta</b>: descarta cartas de la parte superior del mazo de Encuentros hasta que descartes un Esbirro. Muestra ese Esbirro y vincúlale Experimento cruel.",
+        "traits": "Alteración."
+    },
+    {
+        "code": "45125",
+        "name": "Genio maligno",
+        "text": "<b>Cuando se muestre esta carta (Alter ego)</b>: la Bestia Oscura ejecuta el Plan. Dale una carta de Estado \"Duro\".\n<b>Cuando se muestre esta carta (Héroe)</b>: la Bestia Oscura te ataca. Dale una carta de aumento adicional para este ataque."
+    },
+    {
+        "code": "45126",
+        "name": "Peripecias temporales",
+        "text": "<b>Cuando se derrote esta carta</b>: El jugador que haya derrotado este Plan descarta cartas de la parte superior del mazo de Encuentros hasta que descarte una carta del mismo conjunto de Encuentros que el Entorno [[Ubicación]] y muestra la carta que acaba de descartar."
+    },
+    {
+        "code": "45127",
+        "name": "La Tierra Salvaje",
+        "text": "Inicio.\nEl Villano gana Represalia 1.\n<b>Especial</b>: descarta las 3 primeras cartas de tu mazo.\n<b>Cuando se muestre esta carta</b>: descarta todos los demás Entornos [[Ubicación]] que haya en juego.",
+        "traits": "Lugar. Ubicación."
+    },
+    {
+        "code": "45128",
+        "name": "Pterosaurio",
+        "text": "<b>Cuando se muestre esta carta</b>: resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]].\n<hr />\n[star] <b>Aumento</b>: Si está en juego La Tierra Salvaje, quédate el Pterosaurio como carta de Encuentro boca abajo.",
+        "traits": "Aéreo. Criatura."
+    },
+    {
+        "code": "45129",
+        "name": "Velocirraptor",
+        "text": "Ataque veloz.\n[star] <b>Interrupción obligada</b>: cuando Velocirraptor te ataque, descarta la primera carta de tu mazo. El Velocirraptor recibe +1 ATQ para este ataque por cada icono de recurso que se haya descartado de este modo.",
+        "traits": "Criatura."
+    },
+    {
+        "code": "45130",
+        "flavor": "\"This is why you don't feed the animals!\" \u2014Jubilee",
+        "name": "Simio gigante",
+        "text": "Guardia.\n<b>Cuando se derrote esta carta</b>: el jugador que haya derrotado al Simio gigante resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]].",
+        "traits": "Criatura."
+    },
+    {
+        "code": "45131",
+        "flavor": "La Tierra Salvaje is exactly what you'd expect from a prehistoric jungle in the middle of Antarctica.",
+        "name": "Una tierra de otro tiempo",
+        "text": "<b>Cuando se muestre esta carta</b>: si está en juego La Tierra Salvaje, resuelve su capacidad \"<b>Especial</b>\" y sufre 1 de Daño indirecto por cada icono de recurso que se haya en las cartas descartadas. De no ser así, localiza La Tierra Salvaje y muéstrala."
+    },
+    {
+        "code": "45132",
+        "flavor": "\"We need ta save the village from those dinosaurs! (is something Ah never imagined saying.)\" \u2014Rogue",
+        "name": "Aldea atacada",
+        "text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta</b>: cada jugador resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]]."
+    },
+    {
+        "code": "45133",
+        "name": "Genosha",
+        "text": "Inicio.\nEl Villano gana Tesón.\n<b>Especial</b>: coloca 1 de Amenaza sobre el Plan principal.\n<b>Cuando se muestre esta carta</b>: descarta todos los demás Entornos [[Ubicación]] que haya en juego.",
+        "traits": "Lugar. Ubicación."
+    },
+    {
+        "code": "45134",
+        "name": "Magistrado",
+        "text": "Patrulla.\n<b>Cuando se derrote esta carta</b>: el jugador que la ha derrotado localiza Mutante fugado y lo vincula a su Superhéroe.\n<hr />\n[star] <b>Aumento</b>: Si Mutante fugado está vinculado a tu Superhéroe, esta carta gana [boost][boost][boost].",
+        "traits": "Genosha."
+    },
+    {
+        "code": "45135",
+        "flavor": "\"I have the mutant's signal. Moving to intercept.\"",
+        "name": "Uniciclo blindado",
+        "text": "Uniciclo blindado se enfrenta al jugador que tenga vinculado Mutante fugado (si es posible).\n[star] <b>Respuesta obligada</b>: después de que Uniciclo blindado ataque, resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]].",
+        "traits": "Genosha. Vehículo."
+    },
+    {
+        "code": "45136",
+        "flavor": "\"Their suits are built to contador de our powers.\" \u2014Storm",
+        "name": "Guardia mecanizado de Genosha",
+        "text": "Guardia. Dureza.\n[star] <b>Respuesta obligada</b>: después de que Guardia mecanizado de Genosha ataque y derrote a uno de tus Aliados, resuelve dos veces la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]].",
+        "traits": "Genosha. Vehículo."
+    },
+    {
+        "code": "45137",
+        "flavor": "Mutants who wish to escape Genosha must localiza a way to evade the magistrate.",
+        "name": "Mutante fugado",
+        "text": "Vincula esta carta a tu Superhéroe.\nTodo Esbirro [[Genosha]] que se enfrente a ti gana Ataque veloz.\n<b>Acción de Alter ego</b>: resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]] \u2192 descarta esta carta."
+    },
+    {
+        "code": "45138",
+        "flavor": "Genosha built its wealth by exploiting its mutant population.",
+        "name": "Estado policial",
+         "text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta</b>: El jugador que haya derrotado este Plan localiza la carta de Accesorio Mutante fugado y la muestra."
+    },
+    {
+        "code": "45139",
+        "name": "Zona Azul de la Luna",
+        "text": "Inicio.\nTodos los Esbirros gana Guardia.\n<b>Especial</b>: inflige 1 de Daño a tu Superhéroe.\n<b>Cuando se muestre esta carta</b>: descarta todos los demás Entornos [[Ubicación]] que haya en juego.",
+        "traits": "Lugar. Ubicación."
+    },
+    {
+        "code": "45140",
+        "name": "Gladiador",
+        "text": "Trabajo en equipo ([[Guardia imperial]]).\nMientras esté en juego Juicio por combate, Gladiador no puede sufrir Daño.\n<hr />\n[star] <b>Aumento</b>: Si está en juego Juicio por combate, quédate Gladiador como carta de Encuentro boca abajo.",
+        "traits": "Élite. Guardia imperial."
+    },
+    {
+        "code": "45141",
+        "flavor": "\"This is not a fight you can win.\"",
+        "name": "Oráculo",
+        "text": "Trabajo en equipo ([[Guardia imperial]]).\n<b>Cuando se muestre esta carta</b>: quedas confundido. Si ya estabas confundido, resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]].",
+        "traits": "Guardia imperial."
+    },
+    {
+        "code": "45142",
+        "name": "Manta",
+        "text": "Trabajo en equipo ([[Guardia imperial]]).\n<b>Cuando se muestre esta carta</b>: quedas aturdido. Si ya estabas aturdido, resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]].",
+        "traits": "Guardia imperial."
+    },
+    {
+        "code": "45143",
+        "flavor": "\"Let me shake things up!\"",
+        "name": "Terremoto",
+        "text": "Trabajo en equipo ([[Guardia imperial]]).\n<b>Cuando se muestre esta carta</b>: agota tu carta de Superhéroe. Si ya estaba agotada, resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]].",
+        "traits": "Guardia imperial."
+    },
+    {
+        "code": "45144",
+        "name": "Estrella de Guerra",
+        "text": "Trabajo en equipo ([[Guardia imperial]]).\n<b>Cuando se muestre esta carta</b>: descarta la primera carta del mazo de Encuentros. Si esa carta es un Esbirro [[Guardia imperial]], muéstralo. De no ser así, resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]].",
+        "traits": "Guardia imperial."
+    },
+    {
+        "code": "45145",
+        "name": "Miembro de la Guardia Imperial",
+        "text": "Vincula esta carta a un Esbirro. De no ser posible, esta carta gana Oleada.\nEl Esbirro vinculado recibe +4 de Vida y gana el rasgo [[Guardia imperial]].\n<b>Interrupción obligada</b>: cuando el Esbirro vinculado sea derrotado, resuelve la capacidad \"<b>Especial</b>\" del Entorno [[Ubicación]].",
+        "traits": "Título."
+    },
+    {
+        "code": "45146",
+        "flavor": "Shi'ar law grants the accused una opportunity to defend themselves, but they must battle the Guardia imperial.",
+        "name": "Juicio por combate",
+        "text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta</b>: devuelve al mazo de Encuentros todos los Esbirros [[Guardia imperial]] que haya en su pila de descartes y baraja el mazo."
+    },
+    {
+        "back_text": "<b>Contenido</b>: Apocalipsis (I) y Apocalipsis (II). <i>(Apocalipsis (II) y Apocalipsis (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros de En Sabah Nur y Normal. Dos conjuntos de Encuentros modulares <i>(Tecnología Celestial y Clan Akkaba)</i>.\n<b>Preparación</b>: Apocalipsis empieza la partida con su identidad [[Biomorfo]]. Reparte a cada jugador 1 carta de Encuentro boca abajo.",
+        "code": "45147",
+        "flavor": "Within his high-tech pyramid, Apocalipsis prepares for his ascension.",
+        "name": "La pirámide de En Sabah Nur",
+        "text": "[star] <b>Respuesta obligada</b>: después de resolver el paso uno de la fase del Villano, coloca 1 contador de Poder sobre esta carta. Si hay al menos 4 contadores de Poder sobre ella, el jugador inicial quita 4 contadores y descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte una carta [[Superpoder]], y muestra esa carta."
+    },
+    {
+        "back_flavor": "You've seen what the future looks like if Apocalipsis's influence is allowed to grow. It's up to you to stop the megalomaniac sobre esta carta y now!",
+        "back_text": "<b>Cuando se muestre esta carta</b>: El jugador inicial descarta cartas de la parte superior del mazo de Encuentros until a [[Superpoder]] card is descartado y la muestra.",
+        "code": "45148",
+        "name": "La ascensión de Apocalipsis",
+        "text": "[star] <b>Respuesta obligada</b>: después de resolver el paso uno de la fase del Villano, coloca 1 contador de Poder sobre esta carta. Si hay al menos 4 contadores de Poder sobre ella, el jugador inicial quita 4 contadores y descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte una carta [[Superpoder]], y muestra esa carta.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+    },
+    {
+        "code": "45149",
+        "name": "Fuerza descomunal",
+        "text": "Vincula esta carta a Apocalipsis y cambia a su identidad [[Gigante]].\n[star] <b>Interrupción obligada</b>: cuando Apocalipsis te ataque, quedas aturdido. Descarta esta carta después de esta activación.\n<hr />\n[star] <b>Aumento</b>: después de esta activación, muestra esta carta.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "45150",
+        "name": "Rayo biomórfico",
+        "text": "<b>Cuando se muestre esta carta</b>: Si Apocalipsis tiene adoptada su identidad [[Biomorfo]], se activa contra ti. De no ser así, Apocalipsis cambia a su identidad [[Biomorfo]] y colocas 1 contador de Poder sobre el Plan principal.\n<hr />\n[star] <b>Aumento</b>: después de esta activación, Apocalipsis cambia a su identidad [[Biomorfo]].",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "45151",
+        "name": "Interfaz tecnológica",
+        "text": "<b>Cuando se muestre esta carta</b>: si Apocalipsis tiene adoptada su identidad [[Ciberpático]], se activa contra ti. De no ser así, Apocalipsis cambia a su identidad [[Ciberpático]] y colocas 1 contador de Poder sobre el Plan principal.\n<hr />\n[star] <b>Aumento</b>: después de esta activación, Apocalipsis cambia a su identidad [[Ciberpático]].",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "45152",
+        "name": "Déspota colosal",
+        "text": "<b>Cuando se muestre esta carta</b>: si Apocalipsis tiene adoptada su identidad [[Gigante]], se activa contra ti. De no ser así, Apocalipsis cambia a su identidad [[Gigante]] y colocas 1 contador de Poder sobre el Plan principal.\n<hr />\n[star] <b>Aumento</b>: después de esta activación, Apocalipsis cambia a su identidad [[Gigante]].",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "45153",
+        "name": "Fuente de poder",
+        "text": "<b>Cuando se derrote esta carta</b>: Si Apocalipsis tiene adoptada su identidad [[Biomorfo]], se activa contra el jugador que haya derrotado este Plan. De no ser así, Apocalipsis cambia a su identidad [[Biomorfo]] y le das una carta de Estado \"Duro\".",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "45154",
+        "name": "Conectado",
+        "text": "<b>Cuando se derrote esta carta</b>: si Apocalipsis tiene adoptada su identidad [[Ciberpático]], se activa contra el jugador que haya derrotado este Plan. De no ser así, Apocalipsis cambia a su identidad [[Ciberpático]] y le das una carta de Estado \"Duro\".",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "45155",
+        "name": "Agigantamiento",
+        "text": "<b>Cuando se derrote esta carta</b>: si Apocalipsis tiene adoptada su identidad [[Gigante]], se activa contra el jugador que haya derrotado este Plan. De no ser así, Apocalipsis cambia a su identidad [[Gigante]] y le das una carta de Estado \"Duro\".",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "45156",
+        "name": "Armadura Celestial",
+        "text": "Vincula esta carta al Villano.\n[star] <b>Interrupción obligada</b>: cuando al Villano ejecute el Plan contra ti, descarta la primera carta de la parte superior de tu mazo. Si el recurso de esa carta tiene:\n[energy] \u2014 Cura 2 de Daño al Villano.\n[mental] \u2014 Quedas confundido. Descarta esta carta.\n[physical] \u2014 Dale al Villano una carta de Estado \"Duro\".\n[wild] \u2014 Aplica todo lo anterior.",
+        "traits": "Armadura. Celestial."
+    },
+    {
+        "code": "45157",
+        "name": "Arma Celestial",
+        "text": "Vincula esta carta al Villano.\n[star] <b>Interrupción obligada</b>: cuando el Villano te ataca, descarta la primera carta de la parte superior de tu mazo. Si el recurso de esa carta tiene:\n[energy] \u2014 Inflige 2 de Daño a tu Superhéroe.\n[mental] \u2014 Descarta una carta de tu mano.\n[physical] \u2014 Quedas aturdido. Descarta esta carta.\n[wild] \u2014 Aplica todo lo anterior.",
+        "traits": "Celestial. Arma."
+    },
+    {
+        "code": "45158",
+        "name": "Tecnología Celestial",
+        "text": "<b>Cuando se muestre esta carta</b>: por cada Accesorio [[Celestial]] que haya en juego, resuelve su efecto como si el Villano vinculado acabase de ejecutar el Plan contra ti y también acabase de atacarte. Si el Villano no tiene vinculado nigún Accesorio [[Celestial]], busca un Accesorio [[Celestial]] en el mazo de Encuentros y en su pila de descartes y muéstralo. <i>(Baraja el mazo.)</i>"
+    },
+    {
+        "code": "45159",
+        "name": "Ozymandias",
+        "text": "Dureza. Infame.\n[star] Cuando Ozymandias ejecuta el Plan, coloca la Amenaza sobre Ritual antiguo.\n<hr />\n[star] <b>Aumento</b>: elige entre colocar 3 de Amenaza sobre Ritual antiguo o que esta carta gane [boost][boost][boost].",
+        "traits": "Clan Akkaba. Élite."
+    },
+    {
+        "code": "45160",
+        "name": "Escarabeo",
+        "text": "Ataque veloz.\n[star] <b>Respuesta obligada</b>: después de que Escarabeo ataque, coloca 1 de Amenaza sobre Ritual antiguo (3 de Amenaza si el ataque ha derrotado a un Aliado).",
+        "traits": "Clan Akkaba."
+    },
+    {
+        "code": "45161",
+        "name": "Fanático del clan Akkaba",
+        "text": "Guardia.\n<b>Cuando se derrote esta carta</b>: coloca 2 de Amenaza sobre Ritual antiguo.\n<hr />\n[star] <b>Aumento</b>: coloca 1 de Amenaza sobre Ritual antiguo.",
+        "traits": "Clan Akkaba."
+    },
+    {
+        "code": "45162",
+        "flavor": "Clan Akkaba has dedicated itself completely to its lord's merciless doctrine.",
+        "name": "Veneración por el tirano",
+        "text": "<b>Cuando se muestre esta carta</b>: coloca 5 de Amenaza sobre Ritual antiguo.\n<hr />\n[star] <b>Aumento</b>: elige entre colocar 3 de Amenaza sobre Ritual antiguo o que esta carta gane [boost][boost][boost]."
+    },
+    {
+        "code": "45163",
+        "flavor": "\"Not sure what they're doing, but I'm sure it's not good.\" \u2014Iceman",
+        "name": "Ritual antiguo",
+        "text": "Permanente. Inicio.\n<b>Respuesta obligada</b>: después de que se coloque Amenaza sobre esta carta, si hay al menos 10 de Amenaza sobre ella, quita 5 de Amenaza de este Plan y reparte a cada jugador una carta de Encuentro boca abajo."
+    },
+    {
+        "code": "45164",
+        "name": "Agente de Apocalipsis",
+        "text": "Guardia.\n<b>Cuando se muestre esta carta</b>: elige entre añadir el Agente de Apocalipsis a la zona de misión o que se active contra ti.\n<hr />\n[star] <b>Aumento</b>: inflige 1 de Daño a un Aliado que esté en la misión. Dale al enemigo una carta de aumento adicional.",
+        "traits": "Clan Akkaba."
+    },
+    {
+        "code": "45165",
+        "name": "Crisis global",
+        "text": "<b>Cuando se muestre esta carta</b>: elige entre colocar 3 de Amenaza sobre el Plan secundario [[Misión]], o bien sufrir 1 de Daño y que esta carta gane Oleada.\n<hr />\n[star] <b>Aumento</b>: coloca 1 de Amenaza sobre el Plan secundario [[Misión]]. Dale al enemigo activado una carta de aumento adicional."
+    },
+    {
+        "back_link": "45166b",
+        "code": "45166a",
+        "name": "Liberar el Núcleo de Seattle",
+        "text": "<b>Respuesta obligada</b>: después de que resuelvas un intento por completar la misión, coloca 1 contador de Intento sobre esta carta e inflige 1 de Daño a cada Aliado que haya en la misión. Si hay 4 contadores de Intento sobre esta carta, retira de la partida Equipo para la misión y dale la vuelta a esta carta.\n<b>Cuando se derrote esta carta</b>: devuelve todas las cartas de Jugador que haya en la misión a los mazos de sus propietarios y barájalos. Dale la vuelta a Equipo para la misión y a esta carta.",
+        "traits": "Misión."
+    },
+    {
+        "code": "45166b",
+        "name": "Liberar el Núcleo de Seattle",
+        "text": "<b>Respuesta obligada</b>: después de que pongas boca arriba esta cara, retira de la partida todas las cartas que haya en la zona de misión y haz lo siguiente:\n\u2022 Si la misión no ha sido derrotada, coloca 2[per_hero] de Amenaza sobre el Plan principal.\n\u2022 Si la misión ha sido derrotada, cada jugador añade a su mano 1 copia de la Mejora Medidas desesperadas.",
+        "traits": "Finalizada."
+    },
+    {
+        "back_link": "45167b",
+        "code": "45167a",
+        "name": "Evacuar a los supervivientes",
+        "text": "<b>Respuesta obligada</b>: después de que resuelvas un intento por completar la misión, coloca 1 contador de Intento sobre esta carta e inflige 1 de Daño a cada Aliado que haya en la misión. Si hay 4 contadores de Intento sobre esta carta, retira de la partida Equipo para la misión y dale la vuelta a esta carta.\n<b>Cuando se derrote esta carta</b>: devuelve todas las cartas de Jugador que haya en la misión a los mazos de sus propietarios y barájalos. Dale la vuelta a Equipo para la misión y a esta carta.",
+        "traits": "Misión."
+    },
+    {
+        "code": "45167b",
+        "name": "Evacuar a los supervivientes",
+        "text": "<b>Respuesta obligada</b>: después de que pongas boca arriba esta cara, retira de la partida todas las cartas que haya en la zona de misión y haz lo siguiente:\n\u2022 Si la misión no ha sido derrotada, inflige cada jugador una carta de Encuentro boca abajo.\n\u2022 Si la misión ha sido derrotada, cada jugador busca 1 carta en su mazo y en su pila de descartes, y la añade a su mano.",
+        "traits": "Finalizada."
+    },
+    {
+        "back_link": "45168b",
+        "code": "45168a",
+        "name": "Sabotear la Muralla Marina",
+        "text": "<b>Respuesta obligada</b>: después de que resuelvas un intento por completar la misión, coloca 1 contador de Intento sobre esta carta e inflige 1 de Daño a cada Aliado que haya en la misión. Si hay 4 contadores de Intento sobre esta carta, retira de la partida Equipo para la misión y dale la vuelta a esta carta.\n<b>Cuando se derrote esta carta</b>: devuelve todas las cartas de Jugador que haya en la misión a los mazos de sus propietarios y barájalos. Dale la vuelta a Equipo para la misión y a esta carta.",
+        "traits": "Misión."
+    },
+    {
+        "code": "45168b",
+        "name": "Sabotear la Muralla Marina",
+        "text": "<b>Respuesta obligada</b>: después de que pongas boca arriba esta cara, retira de la partida todas las cartas que haya en la zona de misión y haz lo siguiente:\n\u2022 Si la misión no ha sido derrotada, localiza La Muralla Marina de Norteamérica y muéstrala. <i>(Baraja el mazo.)</i>\n\u2022 Si la misión ha sido derrotada, localiza La Muralla Marina de Norteamérica, retírala de la partida, y cada jugador inflige 3 de Daño a un enemigo.",
+        "traits": "Finalizada."
+    },
+    {
+        "back_link": "45169b",
+        "code": "45169a",
+        "name": "Encontrar a los mutantes desaparecidos",
+        "text": "<b>Respuesta obligada</b>: después de que resuelvas un intento por completar la misión, coloca 1 contador de Intento sobre esta carta e inflige 1 de Daño a cada Aliado que haya en la misión. Si hay 4 contadores de Intento sobre esta carta, retira de la partida Equipo para la misión y dale la vuelta a esta carta.\n<b>Cuando se derrote esta carta</b>: devuelve todas las cartas de Jugador que haya en la misión a los mazos de sus propietarios y barájalos. Dale la vuelta a Equipo para la misión y a esta carta.",
+        "traits": "Misión."
+    },
+    {
+        "code": "45169b",
+        "name": "Encontrar a los mutantes desaparecidos",
+        "text": "<b>Respuesta obligada</b>: después de que pongas boca arriba esta cara, retira de la partida todas las cartas que haya en la zona de misión y haz lo siguiente:\n\u2022 Si la misión no ha sido derrotada, cada jugador descarta 1 card de su mano.\n\u2022 Si la misión ha sido derrotada, cada jugador añade a su mano un Aliado de Campaña que esté apartado.",
+        "traits": "Finalizada."
+    },
+    {
+        "back_link": "45170b",
+        "code": "45170a",
+        "name": "Proteger al Profesor",
+        "text": "<b>Respuesta obligada</b>: después de que resuelvas un intento por completar la misión, coloca 1 contador de Intento sobre esta carta e inflige 1 de Daño a cada Aliado que haya en la misión. Si hay 4 contadores de Intento sobre esta carta, retira de la partida Equipo para la misión y dale la vuelta a esta carta.\n<b>Cuando se derrote esta carta</b>: devuelve todas las cartas de Jugador que haya en la misión a los mazos de sus propietarios y barájalos. Dale la vuelta a Equipo para la misión y a esta carta.",
+        "traits": "Misión."
+    },
+    {
+        "code": "45170b",
+        "name": "Proteger al Profesor",
+        "text": "<b>Respuesta obligada</b>: después de que pongas boca arriba esta cara, retira de la partida todas las cartas que haya en la zona de misión y haz lo siguiente:\n\u2022 Si la misión no ha sido derrotada, los jugadores pierden la partida.\n\u2022 Si la misión ha sido derrotada, cada jugador busca un Aliado en su mazo y en su pila de descartes, y lo añade a su mano.",
+        "traits": "Finalizada."
+    },
+    {
+        "code": "45177",
+        "flavor": "Apocalipsis's high-tech sea wall protects the eastern frontier of his realm.",
+        "name": "La Muralla Marina de Norteamérica",
+        "text": "Complicación 2[per_hero]. Oleada. Victoria 2.\nEl Villano no puede sufrir Daño.\n<hr />\n[star] <b>Aumento</b>: quédate esta carta como carta de Encuentro boca abajo."
+    },
+    {
+        "code": "45178",
+        "name": "Refugiados Asustados",
+        "text": "<b>Respuesta obligada</b>: después de que esta carta entre en tu mano, muéstrala. Luego, roba 1 carta.\n<b>Acción de Alter ego</b>: Agota tu carta de Superhéroe \u2192 retira esta carta de la partida."
+    },
+    {
+        "back_link": "45179b",
+        "code": "45179a",
+        "name": "Mister Siniestro",
+        "text": "Victoria 5.\nNo puede sufrir Daño mientras haya otro Esbirro en la misión.\nLos jugadores no pueden asignar cartas con el mismo icono de recurso ([energy], [mental], [physical], o [wild]) ta más de un Aliadoen cada intento por completar una misión.",
+        "traits": "Élite. Capataz."
+    },
+    {
+        "code": "45179b",
+        "name": "Mister Siniestro",
+        "text": "Represalia 1. Dureza. Infame. Victoria 3.\nMister Sinister se enfrenta al jugador inicial.",
+        "traits": "Élite. Prelado."
+    },
+    {
+        "back_link": "45180b",
+        "code": "45180a",
+        "name": "El Rey Sombra",
+        "text": "Victoria 5.\nNo puede sufrir Daño mientras haya otro Esbirro en la misión.\n<b>Respuesta de misión</b>: después de que descartes cartas, coloca 2 de Amenaza sobre el Plan secundario [[Misión] por cada Recurso mental ([mental]) descartado.",
+        "traits": "Élite. Capataz."
+    },
+    {
+        "code": "45180b",
+        "name": "El Rey Sombra",
+        "text": "Dureza. Victoria 3.\nEl Rey Sombra se enfrenta al jugador inicial.\n[star] <b>Respuesta obligada</b>: después de que El Rey Sombra te ataque, elige un Aliado que controles que tenga la puntación mas alta de INT. Elige entre descartar ese Aliado, o bien colocar tanta Amenaza como su INT sobre el Plan principal.",
+        "traits": "Élite. Prelado."
+    },
+    {
+        "back_link": "45181b",
+        "code": "45181a",
+        "name": "Abismo",
+		"text": "Victoria 5.\nNo puede sufrir Daño mientras haya otro Esbirro en la misión.\n<b>Respuesta de misión</b>: después de que descartes cartas, vincula a Abismo boca abajo cada carta con un recurso Universal [wild] descartado. <i>(No pueden utilizarse par el intento por completar la misión.)</i>",
+        "traits": "Élite. Capataz."
+    },
+    {
+        "code": "45181b",
+        "name": "Abismo",
+        "text": "Dureza. Victoria 3.\nAbismo recibe +2 de Vida por cada carta que tenga vinculada boca abajo y se enfrenta al jugador inicial.\n[star] <b>Respuesta obligada</b>: después de que Abismo se active contra ti, vincúlale boca abajo la primera carta de la parte superior de tu mazo.",
+        "traits": "Élite. Prelado."
+    },
+    {
+        "back_link": "45182b",
+        "code": "45182a",
+        "name": "Hombre de Azúcar",
+        "text": "Victoria 5.\nNo puede sufrir Daño mientras haya otro Esbirro en la misión.\n<b>Respuesta de misión</b>: después de que descartes cartas, cura 3 de Daño al Hombre de Azúcar por cada recurso Físico ([physical]) descartado.",
+        "traits": "Élite. Capataz."
+    },
+    {
+        "code": "45182b",
+        "name": "Hombre de Azúcar",
+        "text": "Dureza. Victoria 3.\nHombre de Azúcar se enfrenta al jugador inicial.\n[star] <b>Interrupción obligada</b>: cuando Hombre de Azúcar ataque, este ataque gana Penetrante. Si este ataque derrota a un personaje, cura 5 de Daño al Hombre de Azúcar.",
+        "traits": "Élite. Prelado."
+    },
+    {
+        "back_link": "45183b",
+        "code": "45183a",
+        "name": "Mikhail Rasputin",
+		"text": "Victoria 5.\nNo puede sufrir Daño mientras haya otro Esbirro en la misión.\n<b>Respuesta de misión</b>: después de que descartes cartas, inflige 1 de Daño a un Aliado que esté en la misión por cada recurso Energía [energy] descartado.",
+        "traits": "Élite. Capataz."
+    },
+    {
+        "code": "45183b",
+        "name": "Mikhail Rasputin",
+        "text": "Dureza. Victoria 3.\nMikhail Rasputin se enfrenta al jugador inicial.\n[star] <b>Interrupción obligada</b>: cuando Mikhail Rasputin te ataque, inflige 1 de Daño a tu Superhéroe.",
+        "traits": "Élite. Prelado."
+    },
+    {
+        "code": "45184a",
+        "flavor": "\"Now I claim my destiny!\"",
+        "name": "Apocalipsis",
+        "text": "[star] Los ataques de Apocalipsis ganan Brutalidad.\n<b>Respuesta obligada</b>: después de que Apocalipsis cambie a esta identidad, inflige 1 de Daño indirecto a cada jugador.",
+        "traits": "Mutante. Biomorfo."
+    },
+    {
+        "code": "45184b",
+        "flavor": "\"I have judged you y found you wanting.\"",
+        "name": "Apocalipsis",
+        "text": "Represalia 1.\n<b>Respuesta obligada</b>: después de que Apocalipsis cambie a esta identidad, coloca 1 de Amenaza sobre cada Plan que haya en juego.",
+        "traits": "Mutante. Ciberpático."
+    },
+    {
+        "code": "45184c",
+        "flavor": "\"I am as far beyond mutants as they are above humans.\"",
+        "name": "Apocalipsis",
+        "text": "Firmeza.\n<b>Respuesta obligada</b>: después de que Apocalipsis cambie a esta identidad, se cura 1 de Daño.",
+        "traits": "Mutante. Gigante."
+    },
+    {
+        "back_link": "45185b",
+        "code": "45185a",
+        "flavor": "\"Now I claim my destiny!\"",
+        "name": "Apocalipsis",
+        "text": "[star] Los ataques de Apocalipsis ganan Brutalidad.\n<b>Respuesta obligada</b>: después de que Apocalipsis cambie a esta identidad, inflige 2 de Daño indirecto a cada jugador.",
+        "traits": "Mutante. Biomorfo."
+    },
+    {
+        "code": "45185b",
+        "flavor": "\"I have judged you y found you wanting.\"",
+        "name": "Apocalipsis",
+        "text": "Represalia 1.\n<b>Respuesta obligada</b>: después de que Apocalipsis cambie a esta identidad, coloca 2 de Amenaza sobre cada Plan que haya en juego.",
+        "traits": "Mutante. Ciberpático."
+    },
+    {
+        "code": "45185c",
+        "flavor": "\"I am as far beyond mutants as they are above humans.\"",
+        "name": "Apocalipsis",
+        "text": "Firmeza.\n<b>Respuesta obligada</b>: después de que Apocalipsis cambie a esta identidad, se cura 2 de Daño.",
+        "traits": "Mutante. Gigante."
+    },
+    {
+        "back_link": "45186b",
+        "code": "45186a",
+        "flavor": "\"Now I claim my destiny!\"",
+        "name": "Apocalipsis",
+        "text": "[star] Los ataques de Apocalipsis ganan Brutalidad.\n<b>Respuesta obligada</b>: después de que Apocalipsis cambie a esta identidad, inflige 3 de Daño indirecto a cada jugador.",
+        "traits": "Mutante. Biomorfo."
+    },
+    {
+        "code": "45186b",
+        "flavor": "\"I have judged you y found you wanting.\"",
+        "name": "Apocalipsis",
+        "text": "Represalia 1.\n<b>Respuesta obligada</b>: después de que Apocalipsis cambie a esta identidad, coloca 3 de Amenaza sobre cada Plan que haya en juego.",
+        "traits": "Mutante. Ciberpático."
+    },
+    {
+        "code": "45186c",
+        "flavor": "\"I am as far beyond mutants as they are above humans.\"",
+        "name": "Apocalipsis",
+        "text": "Firmeza.\n<b>Respuesta obligada</b>: después de que Apocalipsis cambie a esta identidad, se cura 3 de Daño.",
+        "traits": "Mutante. Gigante."
+    }
+]
