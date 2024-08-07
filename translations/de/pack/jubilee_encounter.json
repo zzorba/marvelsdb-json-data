@@ -1,64 +1,32 @@
 [
     {
         "code": "47023",
-        "name": "Castigada",
-        "text": "<b><i>Dale esta carta al jugador que lleva a Jubilation Lee.</i></b>\nComo coste adicional para cambiar a tu identidad de Héroe durante tu turno, debes gastar 2 recursos del mismo tipo.\n<b>Cuando se muestre esta carta</b>: cambia a la identidad de tu Alter ego.\n<b>Respuesta</b>: después de que juegues un Evento de Júbilo, retira esta carta de la partida."
+        "name": "Hausarrest",
+        "text": "<b><i>Gib dies dem Spieler von Jubilation Lee.</i></b>\nAls zusätzliche Kosten, um während deines Zuges in die Heldengestalt zu wechseln, musst du 2 Ressourcen desselben Typs ausgeben.\n<b>Sobald aufgedeckt</b>: Wechsle in deine Alter-Ego-Gestalt.\n<b>Reaktion</b>: Nachdem du ein Jubilee-Ereignis Gespielt hast, entferne diese Karte aus dem Spiel."
     },
     {
         "code": "47024",
         "name": "Nanny",
-        "text": "Dureza.\n[star] <b>Respuesta obligada</b>: después de que Nanny te ataque, si controlas al menos 1 Aliado, busca una copia de Niño \"perdido\" en el mazo de Encuentros, en su pila de descartes y en la zona apartada, y muéstrala.",
-        "traits": "Mutante."
+        "text": "Zähigkeit.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Nanny dich angegriffen hat und falls 1 oder mehr Verbündete unter deiner Kontrolle sind, durchsuche das Begegnungsdeck, den Ablagestapel und die beiseitegelegten Karten nach 1 Anhang \"Verlorenes\" Kind und decke ihn auf.",
+        "traits": "Mutant."
     },
     {
         "code": "47025",
-        "flavor": "Nanny cruza constantemente la línea que separa el \"rescate\" del \"secuestro\".",
-        "name": "Niños traviesos",
-        "text": "<b>Cuando se muestre esta carta</b>: coloca 1 de Amenaza sobre esta carta por cada tipo de recurso distinto <i>([energy], [mental], [physical], y [wild])</i> que haya en las cartas que tienes en la mano."
+        "flavor": "Nanny überschreitet oftmals die Grenze zwischen \"Rettung\" und \"Entführung\".",
+        "name": "Ungezogene Kinder",
+        "text": "<b>Sobald aufgedeckt</b>: Platziere hier für jeden unterschiedlichen Ressourcentyp <i>([energy], [mental], [physical], y [wild])</i> auf deinen Handkarten 1 Bedrohung."
     },
     {
         "code": "47026",
-        "flavor": "El diseño de la armadura de combate de Nanny encubre sus verdaderas capacidades.",
-        "name": "Armadura de combate",
-        "text": "Vincula esta carta al Esbirro que tenga menos Vida restante. De no ser posible, esta carta gana Oleada.\nEl Esbirro vinculado recibe +3 de Vida y gana el rasgo [[Aéreo]].",
-        "traits": "Armadura."
+        "flavor": "Das Design von Nannys Kampfanzug täuscht über seine wahren Fähigkeiten hinweg.",
+        "name": "Kampfanzug",
+        "text": "Hänge diese Karte an den Schergen mit den wenigsten verbleibenden Lebenspunkten an. Ansonsten erhält diese Karte Nachrüsten.\nDer Scherge mit diesem Anhang bekommt +3 Lebenspunkte und erhält das Merkmal [[FLIEGEND]].",
+        "traits": "Rüstung."
     },
     {
         "code": "47027",
-        "name": "Niño \"perdido\"",
-        "text": "El Aliado vinculado se considera un Esbirro [[Devuelto]] con el texto de reglas en blanco. La puntuación de PLA del Esbirro vinculado es igual a su puntuación impresa de INT, y no sufre Daño derivado.\n<b>Cuando se muestre esta carta</b>: vincula esta carta al Aliado que tenga el coste más alto y no tenga ya vinculada una copia de Niño \"perdido\". El Aliado vinculado se enfrenta al jugador que lo controla. De no ser posible, esta carta gana Oleada.",
-        "traits": "Armadura."
-    },
-    {
-        "code": "47030",
-        "flavor": "\"¡Cuánto me alegro de que mis mercenarios os hayan convencido de venir!\"",
-        "name": "Arcade",
-        "text": "Arcade no puede sufrir Daño mientras haya un Plan secundario [[¡Trampa!]] en juego.\n<b>Cuando se muestre esta carta</b>: descarta cartas de la parte superior del mazo de Encuentros hasxta que se descarte un Plan secundario [[¡Trampa!]] y muéstralo.",
-        "traits": "Asesino."
-    },
-    {
-        "code": "47031",
-        "flavor": "\"¡Estas  atracciones son para morirse!\" \u2014Arcade",
-        "name": "Bienvenidos a Mundo Asesino",
-        "text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta</b>: el jugador que hata derrotado este Plan secundario sufre 2 de Daño.",
-        "traits": "¡Trampa!"
-    },
-    {
-        "code": "47032",
-        "name": "Salón recreativo de Arcade",
-        "text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta</b>: el jugador que hata derrotado este Plan secundario queda aturdido. Si ya estaba aturdido, descarta un Aliado o Mejora que controle.",
-        "traits": "¡Trampa!"
-    },
-    {
-        "code": "47033",
-        "name": "Laberintos de espejos",
-        "text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta</b>: el jugador que hata derrotado este Plan secundario queda confundido. Si ya estaba confundido, coloca 2 de Amenaza sobre el Plan principal.",
-        "traits": "¡Trampa!"
-    },
-    {
-        "code": "47034",
-        "flavor": "\"Mejor que sobre y no que falte.\" \u2014Arcade",
-        "name": "Trampa elaborada",
-        "text": "<b>Cuando se muestre esta carta</b>: resuelve la capacidad \"<b>Cuando se derrote esta carta</b>\" de todos los Planes secundarios [[¡Trampa!]] como si los hubieses derrotado tú. Si no se resuelve ninguna capacidad de este modo, descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Plan secundario [[¡Trampa!]] y muéstralo."
+        "name": "\"Verlorenes\" Kind",
+        "text": "Behandle den Verbündeten mit diesem Anhang als einen [[Zurückentwickelt]]-Schergen mit leerem Textfeld. Sein PLA-Wert entspricht dem aufgedruckten WID-Wert und er nimmt keinerlei Folgeschaden.\n<b>Sobald aufgedeckt</b>: änge diese Karte an den Verbündeten mit den höchsten Kosten und ohne \"Verlorenes\" Kind an. Er verwickelt seinen kontrollierenden Spieler in einen Kampf. Ansonsten erhält diese Karte Nachrüsten.",
+        "traits": "Rüstung."
     }
 ]
