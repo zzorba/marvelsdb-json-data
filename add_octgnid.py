@@ -1,8 +1,8 @@
 import json
 import uuid
 
-runFile = 'nightcrawler.json'
-pack_code = 'nightcrawler'
+runFile = 'ncrawler.json'
+pack_code = 'ncrawler'
 
 with open('./packs.json') as json_file:
     pack_data = json.load(json_file)
