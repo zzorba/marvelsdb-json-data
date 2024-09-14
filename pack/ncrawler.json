@@ -327,6 +327,13 @@
         "type_code": "event"
     },
     {
+        "code": "48017",
+        "duplicate_of": "32014",
+        "pack_code": "ncrawler",
+        "position": 17,
+        "quantity": 3
+    },
+    {
         "code": "48018",
         "cost": 1,
         "deck_limit": 3,
@@ -340,6 +347,13 @@
         "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When your hero defends against an attack, it gets +2 DEF for that attack. If you take no damage from that attack, deal 3 damage to the attacking enemy.",
         "traits": "Defense.",
         "type_code": "event"
+    },
+    {
+        "code": "48019",
+        "duplicate_of": "01079",
+        "pack_code": "ncrawler",
+        "position": 19,
+        "quantity": 2
     },
     {
         "base_threat": 5,
@@ -379,5 +393,63 @@
         "thwart_cost": 1,
         "traits": "Thief. X-Men.",
         "type_code": "ally"
+    },
+    {
+        "code": "48022",
+        "duplicate_of": "38018",
+        "pack_code": "ncrawler",
+        "position": 22,
+        "quantity": 1
+    },
+    {
+        "code": "48023",
+        "duplicate_of": "01088",
+        "pack_code": "ncrawler",
+        "position": 23,
+        "quantity": 1
+    },
+    {
+        "code": "48024",
+        "duplicate_of": "01089",
+        "pack_code": "ncrawler",
+        "position": 24,
+        "quantity": 1
+    },
+    {
+        "code": "48025",
+        "duplicate_of": "01090",
+        "pack_code": "ncrawler",
+        "position": 25,
+        "quantity": 1
+    },
+    {
+        "code": "48031",
+        "cost": 1,
+        "deck_limit": 3,
+        "faction_code": "aggression",
+        "flavor": "\"Boy, did you ever choose the wrong mutants on the wrong day!\"\u2014Cyclops",
+        "name": "Combine Forces",
+        "octgn_id": "65f91d01-99db-4c7e-814f-28ddf0048031",
+        "pack_code": "ncrawler",
+        "position": 31,
+        "quantity": 3,
+        "resource_energy": 1,
+        "text": "Alliance.\n<b>Hero Action</b>: Exhaust an [[X-Force]] character and an [[X-Men]] character \u2192 defeat a non-[[Elite]] minion.",
+        "type_code": "event"
+    },
+    {
+        "code": "48032",
+        "cost": 1,
+        "deck_limit": 3,
+        "faction_code": "justice",
+        "name": "Gunboat Diplomacy",
+        "octgn_id": "65f91d01-99db-4c7e-814f-28ddf0048032",
+        "pack_code": "ncrawler",
+        "position": 32,
+        "quantity": 3,
+        "resource_energy": 1,
+        "text": "Alliance.\n<b>Hero Action</b> <i>(attack/thwart)</i>: Exhaust an [[X-Force]] character and an [[X-Men]] character \u2192 remove X threat from among schemes in play and deal X damage among enemies in play, where X is the combined THW of the two exhausted characters.",
+        "traits": "Attack. Thwart.",
+        "type_code": "event"
     }
 ]
