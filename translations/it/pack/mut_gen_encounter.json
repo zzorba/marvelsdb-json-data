@@ -1,838 +1,925 @@
 [
-    {
-        "code": "32025",
-        "name": "Nostalgia di Casa",
-        "text": "<b><i>Fai ricevere al giocatore Piotr Rasputin.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli un effetto tra:\n- Esaurisci Piotr Rasputin → rimuovi dal gioco Nostalgia di Casa.\n- Scarta questa carta e ogni carta status Robusto dalla tua identità. Se non hai scartato alcuna carta status Robusto in questo modo, questa carta ottiene Impulso."
-    },
-    {
-        "code": "32026",
-        "name": "Fenomeno",
-        "text": "Robustezza. Stabile.\n<hr />\n[star] <b>Boost</b>: Se questa attivazione è un attacco, questo attacco ottiene Perforante e Sopraffazione.",
-        "flavor": "<i>\"Niente può fermare il Fenomeno!\"</i>",
-        "traits": "Bruto. Elite."
-    },
-    {
-        "code": "32027",
-        "name": "Fenomeno Scatenato",
-        "text": "<b>Quando Rivelata</b>: Scarta ogni carta status Robusto da ogni personaggio amico. Colloca 2 minacce su questa carta per ogni carta status Robusto scartata in questo modo.",
-        "flavor": "<i>Il Fenomeno possiede il potere di Cyttorak. Ma è quel potere che gli fa perdere completamente il controllo.</i>"
-    },
-    {
-        "code": "32028",
-        "name": "Inarrestabile",
-        "text": "Assegna al nemico con più ATT stampato e senza altri Inarrestabile assegnati a esso. Se non puoi farlo, questa carta ottiene Impulso.\n[star] <b>Risposta Obbligata</b>: Quando il nemico con questa aggiunta attacca, l'attacco ottiene Perforante e Sopraffazione. Alla fine di questo attacco, scarta Inarrestabile."
-    },
-    {
-        "code": "32029",
-        "name": "Schiantato",
-        "text": "<b>Quando Rivelata</b>: Sei stordito. Se eri già stordito, subisci 2 danni.\n<hr />\n[star] <b>Potenziamento</b>: Rivela questa carta.",
-        "flavor": "<i>\"Non lo sai chi sono io?\" - Fenomeno</i>"
-    },
-    {
-        "code": "32055",
-        "name": "Incorporeità Permanente",
-        "text": "<b><i>Fai ricevere al giocatore Kitty Pryde.</i></b>\nAssumi la tua sembianza di massa Incorporea. Non puoi attaccare, difendere o cambiare sembianza di massa.\n<b>Azione Alter Ego</b>: Esaurisci Kitty Pryde → rimuovi dal gioco Incorporeità Permanente."
-    },
-    {
-        "code": "32056",
-        "name": "Regina Bianca",
-        "text": "Criminoso.\nMentre Regina Bianca è impegnata con te, sei confuso.\n<i>(Gregario nemesi di Shadowcat.)</i>\n<hr />\n[star] <b>Potenziamento</b>: Sei confuso.",
-        "traits": "Elite. Psionico."
-    },
-    {
-        "code": "32057",
-        "name": "Club Infernale",
-        "text": "<b>Quando sconfitta</b>: Il giocatore che ha sconfitto questa trama cerca nel mazzo degli incontri, nella pila degli scarti degli incontri e nelle carte messe da parte 1 gregario Pedone Infernale e lo mette in gioco impegnato con lui. <i>(Mescola.)</i>"
-    },
-    {
-        "code": "32058",
-        "name": "Pedone Infernale",
-        "text": "Guardia. Impulso. Pattuglia.\n<hr />\n[star] <b>Potenziamento</b>: Metti in gioco Pedone Infernale impegnato con te.",
-        "traits": "Club Infernale."
-    },
-    {
-        "code": "32059",
-        "name": "Vincolo Telepatico",
-        "text": "Assegna alla tua identità.\nMentre Vincolo Telepatico è assegnato alla tua identità, sei stordito.\n<b>Azione</b>: Spendi [mental] [mental] → scarta questa carta.",
-        "flavor": "<i>\"Fai il bravo e non muoverti... né parlare. Molto meglio così.\" - Regina Bianca</i>",
-        "traits": "Condizione."
-    },
-    {
-        "code": "32060",
-        "name": "Sabretooth I",
-        "flavor": "<i>\"Ti strapperò le budella!\"</i>",
-        "traits": "Confraternita dei Mutanti.",
-        "text": "[star] <b>Risposta Obbligata</b>: Dopo che Sabretooth si è attivato contro di te, scarta 1 carta dalla cima del mazzo degli incontri. Cura a Sabretooth un ammontare di danni pari al numero di icone potenziamento ([boost]) scartate in questo modo."
-    },
-    {
-        "code": "32061",
-        "name": "Sabretooth II",
-        "text": "Robustezza.\n[star] <b>Risposta Obbligata</b>: Dopo che Sabretooth si è attivato contro di te, scarta 1 carta dalla cima del mazzo degli incontri. Cura a Sabretooth un ammontare di danni pari al numero di icone potenziamento ([boost]) scartate in questo modo.",
-        "traits": "Confraternita dei Mutanti."
-    },
-    {
-        "code": "32062",
-        "name": "Sabretooth III",
-        "text": "Ritorsione 1. Robustezza.\n[star] <b>Risposta Obbligata</b>: Dopo che Sabretooth si è attivato contro di te, scarta 1 carta dalla cima del mazzo degli incontri. Cura a Sabretooth un ammontare di danni pari al numero di icone potenziamento ([boost]) scartate in questo modo.",
-        "traits": "Confraternita dei Mutanti."
-    },
-    {
-        "code": "32063a",
-        "name": "La Preda di Sabretooth ",
-        "text": "<b>Contenuto:</b> Sabretooth (I) e Sabretooth (II). <i>(Sabretooth (II) e Sabretooth (III) per la modalità esperto.)</i> Set di incontri Sabretooth e Standard. 2 set di incontri modulari (<i>Confraternita</i> e <i>Mystica</i>).\n<b>Preparazione:</b> Metti in gioco la trama secondaria Trovare il Senatore. Assegnale l'alleato Robert Kelly. Mentre è assegnato a Trovare il Senatore, Robert Kelly è in gioco ma non è sotto il controllo di alcun giocatore."
-    },
-    {
-        "code": "32063b",
-        "name": "La Preda di Sabretooth ",
-        "text": "<b>[star] Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, infliggi 2 danni a Robert Kelly (3 danni se invece ci sono 6[per_hero] o più minacce su questa carta).\nMentre Robert Kelly è assegnato a Trovare il Senatore, considera il suo riquadro di testo come se fosse vuoto.\n<b>Se Robert Kelly esce dal gioco, i giocatori perdono la partita.</b>"
-    },
-    {
-        "code": "32064a",
-        "name": "Il Senatore Ferito ",
-        "text": "<b>Quando Rivelata</b>: Distribuisci 1 carta incontro a faccia in giù a ogni giocatore.",
-        "flavor": "<i>Sabretooth ha ferito il Senatore Kelly, e sembra del tutto intenzionato a continuare la sua caccia!</i>"
-    },
-    {
-        "code": "32064b",
-        "name": "Il Senatore Ferito ",
-        "text": "<b>Quando Completata</b>: Sconfiggi Robert Kelly.\n<b>Se Robert Kelly esce dal gioco, i giocatori perdono la partita.</b>",
-        "flavor": "<i>Portate Robert Kelly al sicuro prima che Sabretooth possa finire il lavoro.</i>"
-    },
-    {
-        "code": "32065a",
-        "name": "Trovare il Senatore",
-        "text": "Robert Kelly non può essere curato dagli effetti delle carte giocatore e a lui non possono essere assegnate migliorie.\n<b>Quando Sconfitta</b>: Il primo giocatore disassegna Robert Kelly da questa trama e ne prende il controllo. Proseguire con la trama principale 2A. Gira questa carta e collocala accanto alla trama principale."
-    },
-    {
-        "code": "32065b",
-        "name": "Proteggere il Senatore",
-        "text": "Robert Kelly non può essere curato dagli effetti delle carte giocatore e a lui non possono essere assegnate migliorie.\n<b>Risposta Eroe</b>: Dopo che il tuo eroe ha difeso da un attacco di Sabretooth, spendi 2 risorse di qualsiasi tipo → ripristina il tuo eroe. Solo il giocatore che controlla Robert Kelly può innescare questa capacità.",
-        "traits": "Missione."
-    },
-    {
-        "code": "32066",
-        "name": "Robert Kelly",
-        "text": "Il primo giocatore controlla Robert Kelly. Non conta al fine di determinare il limite di alleati e a lui non possono essere assegnate carte giocatore.\n<b>Interruzione Obbligata</b>: Quando un nemico risolve un attacco non difeso contro di te, infliggi i danni di quell'attacco a Robert Kelly.",
-        "traits": "Senatore."
-    },
-    {
-        "code": "32067",
-        "name": "Artigli di Adamantio",
-        "text": "Assegna a Sabretooth.\n[star] Gli attacchi di Sabretooth ottengono Perforante.\n<b>Azione Eroe</b>: Spendi [energy] [mental] [physical] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta a Sabretooth.",
-        "traits": "Arma"
-    },
-    {
-        "code": "32068",
-        "name": "Ferocia Animalesca",
-        "text": "Assegna a Sabretooth.\nSabretooth ottiene Stabile. <i>(Questo personaggio non può essere stordito o confuso.)</i>\n<b>Azione Eroe</b>: Spendi [energy] [mental] [physical] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta a Sabretooth.",
-        "traits": "Condizione."
-    },
-    {
-        "code": "32069",
-        "name": "Sabretooth Colpisce",
-        "text": "<b>Quando Rivelata</b>: Infliggi 1 danno a Robert Kelly. Puoi esaurire il tuo eroe per prevenire questo effetto.\n<hr />\n[star] <b>Potenziamento</b>: Se questo attacco sconfigge un alleato, colloca 2 minacce sulla trama principale."
-    },
-    {
-        "code": "32070",
-        "name": "Ferocia Implacabile",
-        "text": "<b>Quando Rivelata (Alter Ego)</b>: Sabretooth trama. Se non ha danni sostenuti, riceve +1 TRA per questa attivazione.\n<b>Quando Rivelata (Eroe)</b>: Sabretooth ti attacca. Se non ha danni sostenuti, riceve +1 ATT per questa attivazione."
-    },
-    {
-        "code": "32071",
-        "name": "Emergenza Medica",
-        "text": "Ostacolo 2[per_hero]. <i>(Quando Rivelata, colloca 2[per_hero] minacce su questa carta.)</i>\nVittoria 1. <i>(Quando Sconfitta, colloca questa carta nella galleria delle vittorie.)</i>\r\n<b>Quando Sconfitta</b>: Cura 2 danni a Robert Kelly."
-    },
-    {
-        "code": "32072",
-        "name": "Furia Ferina",
-        "text": "<b>Quando Sconfitta</b>: Sabretooth attacca il giocatore che ha sconfitto questa trama <i>(anche se quel giocatore è nella sembianza di alter ego).</i>",
-        "flavor": "<i>Sabretooth non vede altro che la preda della sua caccia: Robert Kelly. Dovete distogliere la sua attenzione dal Senatore!</i>"
-    },
-    {
-        "code": "32073",
-        "name": "Valanga",
-        "traits": "Confraternita dei Mutanti.",
-        "text": "<b>Risposta Obbligata</b>: Dopo che Valanga ti ha attaccato, esaurisci 1 personaggio che controlli.\n<hr />\n[star] <b>Potenziamento</b>: Esaurisci 1 personaggio che controlli."
-    },
-    {
-        "code": "32074",
-        "name": "Blob",
-        "text": "Guardia.\n[star] <b>Risposta Obbligata</b>: Dopo che Blob ha attaccato e danneggiato un personaggio, stordisci quel personaggio.",
-        "flavor": "<i>\"Nulla può spostare il Blob!\"<i/>",
-        "traits": "Confraternita dei Mutanti."
-    },
-    {
-        "code": "32075",
-        "name": "Pyro",
-        "flavor": "<i>\"Io gioco sempre con il fuoco, e non mi brucio mai!\"<i/>",
-        "traits": "Confraternita dei Mutanti.",
-        "text": "<b>Risposta Obbligata</b>: Dopo che Pyro ti ha attaccato, scarta 2 carte dalla cima del tuo mazzo. Subisci 1 danno indiretto per ogni icona risorsa stampata scartata in questo modo."
-    },
-    {
-        "code": "32076",
-        "name": "Toad",
-        "text": "<b>Risposta Obbligata</b>: Dopo che Toad ha attaccato e danneggiato un personaggio che controlli, scarta 1 carta casuale dalla tua mano.\n<hr />\n[star] <b>Potenziamento</b>: Scarta 1 carta casuale dalla tua mano.",
-        "traits": "Confraternita dei Mutanti."
-    },
-    {
-        "code": "32077",
-        "name": "Homo Superior",
-        "text": "Assegna a un gregario e irrobustiscilo. Se non puoi farlo, questa carta ottiene Impulso.\nIl gregario con questa aggiunta riceve +5 punti ferita.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta a un gregario e irrobustiscilo.",
-        "traits": "Condizione."
-    },
-    {
-        "code": "32078",
-        "name": "Terroristi Mutanti",
-        "text": "<b>Quando Rivelata</b>: Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri la trama secondaria La Confraternita e rivelala. <i>(Mescola.)</i> Se non è entrata in gioco in questo modo, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario [[CONFRATERNITA DEI MUTANTI]] e rivelalo."
-    },
-    {
-        "code": "32079",
-        "name": "La Confraternita",
-        "text": "Ostacolo 2[per_hero]. <i>(Quando rivelata, colloca 2[per_hero] minacce su questa carta.)</i>\nOgni gregario [[CONFRATERNITA DEI MUTANTI]] ottiene Colpo Rapido.",
-        "flavor": "<i>Magneto ha messo insieme la Confraternita dei Mutanti per portare avanti il suo piano: il dominio mutante sul genere umano.</i>"
-    },
-    {
-        "code": "32080",
-        "name": "Mystica",
-        "text": "Robustezza.\nI giocatori non possono attaccare il criminale.\n[star] La TRA di Mystica è pari alla TRA del criminale e il suo ATT è pari all'ATT del criminale.",
-        "flavor": "<i>\"Non sono una donna da sottovalutare!\"</i>",
-        "traits": "Confraternita dei Mutanti. Elite."
-    },
-    {
-        "code": "32081",
-        "name": "Caos Cangiante",
-        "text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama mescola nel proprio mazzo ogni carta [[MUTAFORMA]] dalla pila degli scarti degli incontri.",
-        "flavor": "<i>La capacità di Mystica di alterare il suo aspetto le permette di creare guai di ogni genere.</i>"
-    },
-    {
-        "code": "32082",
-        "name": "Infiltrazione",
-        "text": "<b>Quando Rivelata</b>: Mescola questa carta nel tuo mazzo. Questa carta ottiene Impulso.\n<b>Risposta Obbligata</b>: Dopo che questa carta è stata aggiunta alla tua mano, scarta 1 alleato o supporto che controlli. <i>(Alla fine della Fase dei Giocatori, puoi scartare questa carta dalla tua mano come una qualsiasi altra carta.)</i>",
-        "traits": "Mutaforma."
-    },
-    {
-        "code": "32083",
-        "name": "Sorpresa Metamorfica",
-        "text": "<b>Quando Rivelata</b>: Mescola questa carta nel tuo mazzo. Questa carta ottiene Impulso.\n<b>Risposta Obbligata</b>: Dopo che questa carta è stata aggiunta alla tua mano, Mystica si attiva contro di te. Se non può farlo, cerca Mystica nel mazzo degli incontri e nella pila degli scarti degli incontri e rivelala.",
-        "traits": "Mutaforma."
-    },
-    {
-        "code": "32084",
-        "name": "Sentinella I",
-        "text": "Robustezza.\r\n<b>Quando Rivelata</b>: Il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 trama secondaria Protocolli di Cattura e la rivela. <i>(Mescola.)</i>",
-        "flavor": "<i>\"MUTANTE RILEVATO. AVVIARE SEQUENZA DI CATTURA.\"</i>",
-        "traits": "Sentinella."
-    },
-    {
-        "code": "32085",
-        "name": "Sentinella II",
-        "text": "Robustezza. Tempra.\r\n<b>Quando Rivelata</b>: Il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 trama secondaria Protocolli di Cattura e la rivela. <i>(Mescola.)</i> Distribuisci una carta incontro a faccia in giù a ogni altro giocatore.",
-        "traits": "Sentinella."
-    },
-    {
-        "code": "32086",
-        "name": "Sentinella III",
-        "text": "Robustezza. Stabile.\r\n<b>Quando Rivelata</b>: Il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 trama secondaria Protocolli di Cattura e la rivela. <i>(Mescola.)</i> Distribuisci una carta incontro a faccia in giù a ogni giocatore.",
-        "traits": "Sentinella."
-    },
-    {
-        "code": "32087a",
-        "name": "La Notte delle Sentinelle",
-        "text": "<b>Contenuto:</b> Sentinella (I) e Sentinella (II). <i>(Sentinella (II) e Sentinella (III) per la modalità esperto.)</i> Set di incontri Progetto Risveglio, Tolleranza Zero e Standard. 1 set di incontri modulare (<i>Sentinelle</i>).\n<b>Preparazione:</b> Metti da parte ogni alleato [[PRIGIONIERO]]. Rivela le trame secondarie Operanzione Tolleranza Zero e Mutanti al Centro Commerciale."
-    },
-    {
-        "code": "32087b",
-        "name": "La Notte delle Sentinelle",
-        "text": "Operazione Tolleranza Zero ottiene Permanente.\n<b>Risposta Obbligata</b>: Dopo che 1 o più minacce sono state collocate su questa trama, se ci sono 5[per_hero] o più minacce su questa trama, il primo giocatore colloca 1 carta dalla cima del suo mazzo a faccia in giù sotto Operazione Tolleranza Zero. Poi rimuovi 5[per_hero] minacce da questa trama."
-    },
-    {
-        "code": "32088a",
-        "name": "Mutanti al Centro Commerciale",
-        "text": "<b>Quando Sconfitta</b>: Il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario [[SENTINELLA]] e lo rivela. Gira questa carta e metti in gioco Jubilee, scartando dal gioco ogni altra versione di Jubilee."
-    },
-    {
-        "code": "32088b",
-        "name": "Jubilee",
-        "text": "Vittoria -1.\nIl primo giocatore controlla Jubilee. Non conta al fine di determinare il limite di alleati.\n<b>Azione</b>: Esaurisci Jubilee e spendi [energy] → infliggi 2 danni a un nemico.",
-        "traits": "X-Men.",
-        "subname": "Jubilation Lee"
-    },
-    {
-        "code": "32089",
-        "name": "Rictor",
-        "text": "[star] <b>Risposta</b>:Dopo che Rictor ha attaccato, infliggi 1 danno al criminale e a ogni gregario impegnato con te.",
-        "flavor": "<i>\"Amico...hai davanti una vita così strana che nemmeno te la immagini.\"</i>",
-        "traits": "Prigioniero. X-Men.",
-        "subname": "Julio Richter"
-    },
-    {
-        "code": "32090",
-        "name": "Boom Boom",
-        "text": "[star] <b>Risposta</b>: Dopo che Boom Boom ha attaccato un nemico, colloca 1 gettone bomba su di esso. Alla fine della Fase dei Giocatori rimuovi dal gioco tutti i gettoni bomba e infliggi 2 danni a ogni nemico per ogni gettone bomba rimosso da esso in questo modo.",
-        "traits": "Prigioniero. X-Men.",
-        "subname": "Tabitha Smith"
-    },
-    {
-        "code": "32091",
-        "name": "Cannonball",
-        "text": "[star] Dopo che ha attaccato e sconfitto un gregario, Cannonball subisce -1 danno conseguente.",
-        "flavor": "<i>\"Sono praticamente invulnerabile quando mi sparo contro qualcosa.\"</i>",
-        "traits": "Prigioniero. X-Men.",
-        "subname": "Sam Guthrie"
-    },
-    {
-        "code": "32092",
-        "name": "Wolfsbane",
-        "text": "[star] Gli attacchi di Wolfbane ottengono Perforante.",
-        "flavor": "<i>\"Non so perché lo stai facendo, ma se fai del male ai miei amici ti cambio i connotati!\"</i>",
-        "traits": "Prigioniero. X-Men.",
-        "subname": "Rahne Sinclair"
-    },
-    {
-        "code": "32093",
-        "name": "Sentinella Mark IV",
-        "text": "Guardia. Pattuglia. <i>(Mentre questo gregario è impegnato con te, non puoi intervenire sulla trama principale.)</i>\n<hr />\n[star] <b>Potenziamento</b>: Metti in gioco Sentinella Mark IV impegnata con te.",
-        "traits": "Sentinella."
-    },
-    {
-        "code": "32094",
-        "name": "Raggio da Guanto",
-        "text": "Assegna al criminale.\n[star] Gli attacchi del criminale ottengono Distanza e Perforante.\n<b>Azione Eroe</b>: Spendi [physical] [physical] [physical] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Esaurisci la tua identità.",
-        "traits": "Sentinella. Tecnologia."
-    },
-    {
-        "code": "32095",
-        "name": "Apprendimento I.A.",
-        "text": "Assegna al criminale.\nIl criminale ottiene Ritorsione 1.\n<b>Azione Eroe</b>: Spendi [mental] [mental] [mental] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta al criminale.",
-        "traits": "Sentinella. Tecnologia."
-    },
-    {
-        "code": "32096",
-        "name": "Armatura Adattiva",
-        "text": "Assegna al criminale.\nIl criminale riceve +8 punti ferita.\n<b>Azione Eroe</b>: Spendi [energy] [energy] [energy] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta al criminale.",
-        "traits": "Sentinella. Tecnologia."
-    },
-    {
-        "code": "32097",
-        "name": "Autoriparazione",
-        "text": "<b>Quando Rivelata</b>: Scarta ogni carta status dal criminale. Irrobustisci il criminale e curagli 5 danni.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci il criminale."
-    },
-    {
-        "code": "32098",
-        "name": "Mutante Individuato",
-        "text": "<b>Quando Rivelata</b>: Scegli 1 effetto tra:\n- Colloca 1 carta dalla cima del tuo mazzo a faccia in giù sotto Operazione Tolleranza Zero.\n- Il criminale e ogni gregario impegnato con te ti attaccano <i>(anche se sei nella sembianza di alter ego)</i>."
-    },
-    {
-        "code": "32099",
-        "name": "Avvisare gli Altri",
-        "text": "<b>Risposta Obbligata</b>: Dopo che il tuo turno è terminato, colloca questa carta a faccia in giù sotto Operazione Tolleranza Zero.\n<b>Azione Alter Ego</b>: Esaurisci la tua identità → scarta questa carta.",
-        "flavor": "<i>\"Li cattureranno di sicuro se non li raggiungiamo per primi! - Uomo Ghiaccio\"</i>"
-    },
-    {
-        "code": "32100",
-        "name": "Protocolli di Cattura",
-        "text": "Ostacolo 2[per_hero]. Vittoria 2.\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama prende 1 alleato [[PRIGIONIERO]] casuale messo da parte e lo mette in gioco sotto il suo controllo."
-    },
-    {
-        "code": "32101",
-        "name": "Sentinella Mark II",
-        "text": "<b>Quando Rivelata</b>: Se Operazione Tolleranza Zero è in gioco, Sentinella Mark II ottiene Impulso. Altrimenti, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri la trama secondaria Operazione Tolleranza Zero e rivelala. <i>(Mescola.)</i>",
-        "traits": "Sentinella."
-    },
-    {
-        "code": "32102",
-        "name": "Sentinella Mark III",
-        "text": "Robustezza.\n<b>Quando Rivelata</b>: Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta Barriera Energetica e assegnala a questo gregario.\n<hr />\n[star] <b>Potenziamento</b>: Sei stordito. Se eri già stordito, subisci 2 danni.",
-        "traits": "Sentinella."
-    },
-    {
-        "code": "32103",
-        "name": "Barrierra Energetica",
-        "text": "Assegna a un gregario [[SENTINELLA]] senza altre Barriera Energetica assegnate a esso e irrobustiscilo. Se non puoi farlo, questa carta ottiene Impulso.\n[star] <b>Risposta Obbligata</b>: Dopo che il gregario con questa aggiunta ha attaccato, irrobustiscilo.",
-        "traits": "Sentinella. Tecnologia."
-    },
-    {
-        "code": "32104",
-        "name": "Operazione Tolleranza Zero",
-        "text": "<b>Risposta Obbligata</b>: Dopo che un nemico ha attaccato e sconfitto un alleato, colloca quell'alleato a faccia in giù sotto questa trama.\n<b>Se ci sono X carte a faccia in giù sotto questa trama, i giocatori perdono la partita. X è pari al numero di giocatori +3.</b>"
-    },
-    {
-        "code": "32105",
-        "name": "Sentinella Mark V",
-        "text": "<b>Quando Rivelata</b>: Se Designato per l'Eliminazione è assegnato alla tua identità, Sentinella Mark V ti attacca <i>(anche se ti trovi nella sembianza di alter ego).</i> Altrimenti, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta Designato per l'Eliminazione e rivelala.",
-        "traits": "Sentinella."
-    },
-    {
-        "code": "32106",
-        "name": "Sentinella Mark VI",
-        "text": "Colpo Rapido.\n<hr />\n[star] <b>Potenziamento</b>: Se Designato per l'Eliminazione è assegnato a un'identità, distribuisci questa carta come carta incontro a faccia in giù a quel giocatore.",
-        "traits": "Sentinella."
-    },
-    {
-        "code": "32107",
-        "name": "Designato per l'Eliminazione",
-        "text": "Se non ci sono altri Designato per l'Eliminazione assegnati alla tua identità, assegnalo alla tua identità. Altrimenti, questa carta ottiene Impulso.\nMentre sei impegnato con un gregario [[SENTINELLA]], se sei nella sembianza di eroe, non puoi assumere la sembianza di alter ego.\n<b>Azione</b>: Esaurisci la tua identià → scarta questa carta."
-    },
-    {
-        "code": "32108",
-        "name": "Robot Implacabili",
-        "text": "Ogni giocatore impegnato con un gregario [[SENTINELLA]] non può intervenire su questa trama.",
-        "flavor": "<i>Le Sentinelle sono state costruite con il solo scopo di dare la caccia ai mutanti. Non sentono la stanchezza, e non si fermeranno finché non avranno catturato il loro bersaglio.</i>"
-    },
-    {
-        "code": "32109",
-        "name": "Master Mold I",
-        "text": "Robustezza. Stabile.\n[star] <b>Interruzione Obbligata</b>: Quando Master Mold trama contro di te, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario [[SENTINELLA]]. Metti in gioco quel gregario impegnato con te. Non far ricevere la carta potenziamento a Master Mold per questa attivazione.",
-        "traits": "Sentinella."
-    },
-    {
-        "code": "32110",
-        "name": "Master Mold II",
-        "text": "Robustezza. Stabile.\n[star] <b>Interruzione Obbligata</b>: Quando Master Mold trama contro di te, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario [[SENTINELLA]]. Metti in gioco quel gregario impegnato con te. Non far ricevere la carta potenziamento a Master Mold per questa attivazione.",
-        "traits": "Sentinella."
-    },
-    {
-        "code": "32111",
-        "name": "Master Mold III",
-        "text": "Robustezza. Stabile.\n[star] <b>Interruzione Obbligata</b>: Quando Master Mold trama contro di te, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario [[SENTINELLA]]. Metti in gioco quel gregario impegnato con te. Non far ricevere la carta potenziamento a Master Mold per questa attivazione.",
-        "traits": "Sentinella."
-    },
-    {
-        "code": "32112a",
-        "name": "La Fabbrica delle Sentinelle",
-        "text": "<b>Contenuto:</b> Master Mold (I) e Master Mold (II). <i>(Master Mold (II) e Master Mold (III) per la modalità esperto.)</i> Set di incontri Master Mold, Sentinelle e Standard. 1 set di incontri modulare (<i>Tolleranza Zero</i>).\n<b>Preparazione:</b> Metti in gioco l'alleato Magneto (172B) sotto il controllo del primo giocatore."
-    },
-    {
-        "code": "32112b",
-        "name": "La Fabbrica delle Sentinelle",
-        "text": "Ogni gregario [[SENTINELLA]] ottiene Guardia.\n<b>Quando Rivelata</b>: Ogni giocatore scarta carte dalla cima del mazzo degli incontri finché non scarta 1 gregario [[SENTINELLA]], poi lo mette in gioco impegnato con lui."
-    },
-    {
-        "code": "32113a",
-        "name": "Il Piano di Master Mold",
-        "text": "<b>Quando Rivelata</b>: Mescola la pila degli scarti degli incontri nel mazzo degli incontri. Ogni giocatore scarta carte dalla cima del mazzo degli incontri finché non scarta 1 gregario [[SENTINELLA]], poi lo mette in gioco impegnato con lui."
-    },
-    {
-        "code": "32113b",
-        "name": "Il Piano di Master Mold",
-        "text": "Ogni gregario [[SENTINELLA]] ottiene Guardia.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>",
-        "flavor": "<i>L'I.A. di Master Mold si è ritorta contro i suoi creatori! Riconoscendo che i mutanti discendono dagli umani, l'enorme Sentinella sta programmando i suoi \"figli\" affinché sottomettano ogni abitante della Terra!</i>"
-    },
-    {
-        "code": "32114",
-        "name": "Sentinella Mark VIII",
-        "text": "<b>Risposta Obbligata</b>: Dopo che questo gregario ti ha impegnato, assegna la prima aggiunta [[SENTINELLA]] dalla cima della pila degli scarti degli incontri a questo gregario.",
-        "flavor": "\"Hanno potenziato la loro armatura!\" - Ciclope",
-        "traits": "Sentinella."
-    },
-    {
-        "code": "32115",
-        "name": "Aggiornamento dell Unità",
-        "text": "Assegna a un gregario [[SENTINELLA]]. Se non puoi farlo, questa carta ottiene Impulso.\nIl gregario con questa aggiunta riceve +2 punti ferita e ottiene Ritorsione 1.\n<hr />\n[star] <b>Potenziamento</b>: Assegna a un gregario [[SENTINELLA]].",
-        "traits": "Sentinella. Tecnologia."
-    },
-    {
-        "code": "32116",
-        "name": "Raggio Stordente",
-        "text": "Assegna a un gregario [[SENTINELLA]] senza altri Raggio Stordente assegnati a esso. Se non puoi farlo, questa carta ottiene Impulso.\n[star] <b>Risposta Obbligata</b>: Dopo che il gregario con questa aggiunta ha attaccato e danneggiato un personaggio, stordisci quel personaggio.",
-        "traits": "Sentinella. Tecnologia."
-    },
-    {
-        "code": "32117",
-        "name": "Figli di Master Mold",
-        "text": "<b>Quando Rivelata (Alter Ego)</b>: Ogni gregario impegnato con te trama. Se non ci sono gregari impegnati con te, Master Mold trama.\n<b>Quando Rivelata (Eroe)</b>: Ogni gregario impegnato con te ti attacca. Se non ci sono gregari impegnati con te, Master Mold ti attacca."
-    },
-    {
-        "code": "32118",
-        "name": "Scudi Alzati",
-        "text": "<b>Quando Rivelata</b>: Irrobustisci ogni gregario [[SENTINELLA]] impegnato con te. Se non puoi farlo, questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci il criminale."
-    },
-    {
-        "code": "32119",
-        "name": "Allarme Intrusi!",
-        "text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama scarta carte dalla cima del mazzo degli incontri finché non scarta 1 gregario [[SENTINELLA]], poi lo mette in gioco impegnato con lui."
-    },
-    {
-        "code": "32120",
-        "name": "Scaricare il Virus",
-        "text": "Ostacolo 2[per_hero]. Vittoria 1.\n<b>Quando Sconfitta</b>: Infliggi 2 danni a ogni nemico [[SENTINELLA]].",
-        "flavor": "<i>Se riusciste a scaricare un virus informatico nel mainframe di Master Mold, potreste indebolirlo dall'interno.</i>"
-    },
-    {
-        "code": "32121a",
-        "name": "Valanga A",
-        "text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Valanga ti ha attaccato, esaurisci 1 alleato che controlli.",
-        "flavor": "<i>\"Vieni fuori e combatti, o butterò giù l'intero edificio!\"</i>",
-        "traits": "Confraternita dei Mutanti."
-    },
-    {
-        "code": "32121b",
-        "name": "Valanga B",
-        "text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Valanga ti ha attaccato, esaurisci 1 alleato che controlli.",
-        "flavor": "<i>\"Vieni fuori e combatti, o butterò giù l'intero edificio!\"</i>",
-        "traits": "Confraternita dei Mutanti."
-    },
-    {
-        "code": "32122a",
-        "name": "Blob A",
-        "text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Blob ha attaccato e danneggiato un personaggio, stordisci quel personaggio.",
-        "flavor": "<i>\"Prima vi schiaccerò! E poi vi svuoterò il frigorifero!\"</i>",
-        "traits": "Confraternita dei Mutanti."
-    },
-    {
-        "code": "32122b",
-        "name": "Blob B",
-        "text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Blob ha attaccato e danneggiato un personaggio, stordisci quel personaggio.",
-        "flavor": "<i>\"Prima vi schiaccerò! E poi vi svuoterò il frigorifero!\"</i>",
-        "traits": "Confraternita dei Mutanti."
-    },
-    {
-        "code": "32123a",
-        "name": "Pyro A",
-        "text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Pyro ti ha attaccato, scarta 2 carte dalla cima del tuo mazzo. Subisci 1 danno indiretto per ogni icona risorsa stampata scartata in questo modo.",
-        "traits": "Confraternita dei Mutanti."
-    },
-    {
-        "code": "32123b",
-        "name": "Pyro B",
-        "text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Pyro ti ha attaccato, scarta 2 carte dalla cima del tuo mazzo. Subisci 1 danno indiretto per ogni icona risorsa stampata scartata in questo modo.",
-        "traits": "Confraternita dei Mutanti."
-    },
-    {
-        "code": "32124a",
-        "name": "Toad A",
-        "text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Toad ha attaccato e danneggiato un personaggio che controlli, scarta 1 carta casuale dalla tua mano.",
-        "flavor": "<i>\"Voi X-Men pensate di essere migliori di me! Vi mostrerò di cosa sono capace!\"</i>",
-        "traits": "Confraternita dei Mutanti."
-    },
-    {
-        "code": "32124b",
-        "name": "Toad B",
-        "text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Toad ha attaccato e danneggiato un personaggio che controlli, scarta 1 carta casuale dalla tua mano.",
-        "flavor": "<i>\"Voi X-Men pensate di essere migliori di me! Vi mostrerò di cosa sono capace!\"</i>",
-        "traits": "Confraternita dei Mutanti."
-    },
-    {
-        "code": "32125a",
-        "name": "La Confraternita Colpisce!",
-        "text": "<b>Contenuto:</b> Valanga (A), Blob (A), Pyro (A) e Toad (A). <i>(Usare i loro lati (B) per la modalità esperto.)</i> Set di Incontri Attacco alla Scuola, Confraternita e Standard. 1 set di incontri modulare (<i>Mystica</i>).\n<b>Preparazione:</b> Metti in gioco l'ambiente Salvare la Scuola. Mescola tutte le copie della trama principale 2A e impilale sotto questa trama. Mescola i criminali <i>(senza guardarli)</i> per creare il mazzo dei criminali. La carta in cima a questo mazzo è in gioco."
-    },
-    {
-        "code": "32125b",
-        "name": "La Confraternita Colpisce!",
-        "text": "<b>Quando Rivelata</b>: Distribuisci 1 carta incontro a faccia in giù a ogni giocatore. Proseguire con la prossima carta nel mazzo delle trame principali. Colloca questa carta nella galleria delle vittorie.",
-        "flavor": "<i>La Confraternita dei Mutanti ha lanciato un attacco contro l'Istituto Xavier!</i>"
-    },
-    {
-        "code": "32126a",
-        "name": "Attacco all'Istituto Xavier",
-        "text": "<b>Quando Rivelata</b>: Gira questa carta.",
-        "flavor": "<i>La Confraternita colpisce all'unisono, concentrando il proprio assalto su...</i>"
-    },
-    {
-        "code": "32126b",
-        "name": "L'Atrio",
-        "text": "Ogni personaggio ottiene Tempra.\n<b>Quando Completata</b>: Colloca questa trama nella galleria delle vittorie. Proseguire con la prossima carta nel mazzo delle trame principali.\n<b>Se ci sono 3 trame principali nella galleria delle vittorie, i giocatori perdono la partita.</b>"
-    },
-    {
-        "code": "32127a",
-        "name": "Attacco all'Istituto Xavier",
-        "text": "<b>Quando Rivelata</b>: Gira questa carta.",
-        "flavor": "<i>La Confraternita colpisce all'unisono, concentrando il proprio assalto su...</i>"
-    },
-    {
-        "code": "32127b",
-        "name": "La Mensa",
-        "text": "Ogni personaggio ottiene Ritorsione 1.\n<b>Quando Completata</b>: Colloca questa trama nella galleria delle vittorie. Proseguire con la prossima carta nel mazzo delle trame principali.\n<b>Se ci sono 3 trame principali nella galleria delle vittorie, i giocatori perdono la partita.</b>"
-    },
-    {
-        "code": "32128a",
-        "name": "Attacco all'Istituto Xavier",
-        "text": "<b>Quando Rivelata</b>: Gira questa carta.",
-        "flavor": "<i>La Confraternita colpisce all'unisono, concentrando il proprio assalto su...</i>"
-    },
-    {
-        "code": "32128b",
-        "name": "Il Campo da Basket",
-        "text": "Ogni alleato e ogni gregario ottengono Robustezza.\n<b>Quando Completata</b>: Colloca questa trama nella galleria delle vittorie. Proseguire con la prossima carta nel mazzo delle trame principali.\n<b>Se ci sono 3 trame principali nella galleria delle vittorie, i giocatori perdono la partita.</b>"
-    },
-    {
-        "code": "32129a",
-        "name": "Attacco all'Istituto Xavier",
-        "text": "<b>Quando Rivelata</b>: Gira questa carta.",
-        "flavor": "<i>La Confraternita colpisce all'unisono, concentrando il proprio assalto su...</i>"
-    },
-    {
-        "code": "32129b",
-        "name": "Il Cortile",
-        "text": "Ogni personaggio ottiene +1 ATT.\n<b>Quando Completata</b>: Colloca questa trama nella galleria delle vittorie. Proseguire con la prossima carta nel mazzo delle trame principali.\n<b>Se ci sono 3 trame principali nella galleria delle vittorie, i giocatori perdono la partita.</b>"
-    },
-    {
-        "code": "32130",
-        "name": "Salvare la Scuola",
-        "text": "<b>Risposta Obbligata</b>: Dopo che il criminale è stato sconfitto, se ci sono X criminali nella galleria delle vittorie, i giocatori vincono la partita. (Vedi il regolamento). Altrimenti, distribuisci 1 carta incontro a faccia in giù a ogni giocatore e rivela il prossimo criminale. Se ci sono gregari con lo stesso nome del nuovo criminale impegnati con un giocatore, scarta quei gregari e il criminale si attiva contro quel giocatore."
-    },
-    {
-        "code": "32131",
-        "name": "Pestaggio della Confraternita",
-        "text": "<b>Quando Rivelata</b>: Se in gioco c'è il nemico:\n- Valanga, esaurisci la tua identità.\n- Blob, sei stordito.\n- Pyro, subisci 2 danni indiretti.\n- Toad, scarta 1 carta casuale dalla tua mano."
-    },
-    {
-        "code": "32132",
-        "name": "Onda Sismica",
-        "text": "<b>Quando Rivelata</b>: Valanga si attiva contro di te. Se non è in gioco, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri il gregario Valanga e rivelalo.\n<hr />\n[star] <b>Potenziamento</b>: Se il criminale è Valanga, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione."
-    },
-    {
-        "code": "32133",
-        "name": "Incrollabile",
-        "text": "<b>Quando Rivelata</b>: Blob si attiva contro di te. Se non è in gioco, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri il gregario Blob e rivelalo.\n<hr />\n[star] <b>Potenziamento</b>: Se il criminale è Blob, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione."
-    },
-    {
-        "code": "32134",
-        "name": "Piromane",
-        "text": "<b>Quando Rivelata</b>: Pyro si attiva contro di te. Se non è in gioco, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri il gregario Pyro e rivelalo.\n<hr />\n[star] <b>Potenziamento</b>: Se il criminale è Pyro, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione."
-    },
-    {
-        "code": "32135",
-        "name": "Balzi Pazzeschi",
-        "text": "<b>Quando Rivelata</b>: Toad si attiva contro di te. Se non è in gioco, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri il gregario Toad e rivelalo.\n<hr />\n[star] <b>Potenziamento</b>: Se il criminale è Toad, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione."
-    },
-    {
-        "code": "32136",
-        "name": "Proteggere gli Studenti",
-        "text": "Ostacolo 2[per_hero].\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama cerca nel suo mazzo e nella sua pila degli scarti 1 alleato e lo aggiunge alla sua mano."
-    },
-    {
-        "code": "32137",
-        "name": "Sotto Assedio",
-        "text": "<b>Quando Rivelata</b>: Colloca 3 minacce su questa trama per ogni personaggio [[CONFRATERNITA DEI MUTANTI]] in gioco."
-    },
-    {
-        "code": "32138",
-        "name": "Magneto I",
-        "text": "Robustezza. Tempra.\n[star] <b>Risposta Obbligata</b>: Dopo che Magneto ti ha attaccato, colloca 1 gettone magnete sulla trama principale.",
-        "flavor": "<i>\"Opporsi al Signore del Magnetismo è invocare la propria distruzione!\"</i>",
-        "traits": "Confraternita dei Mutanti"
-    },
-    {
-        "code": "32139",
-        "name": "Magneto II",
-        "text": "Robustezza. Tempra.\r\n<b>Quando Rivelata</b>: Distribuisci 1 carta incontro a faccia in giù a ogni giocatore.\n[star] <b>Risposta Obbligata</b>: Dopo che Magneto ti ha attaccato, colloca 1 gettone magnete sulla trama principale.",
-        "traits": "Confraternita dei Mutanti"
-    },
-    {
-        "code": "32140",
-        "name": "Magneto III",
-        "text": "Robustezza. Tempra.\r\n<b>Quando Rivelata</b>: Distribuisci 1 carta incontro a faccia in giù a ogni giocatore.\n[star] <b>Risposta Obbligata</b>: Dopo che Magneto ti ha attaccato, colloca 1 gettone magnete sulla trama principale.",
-        "traits": "Confraternita dei Mutanti"
-    },
-    {
-        "code": "32141a",
-        "name": "Asteroide M",
-        "text": "<b>Contenuto:</b> Magneto (I) e Magneto (II). <i>(Magneto (II) e Magneto (III) per la modalità esperto.)</i> Set di incontri Magneto e Standard. 1 set di incontri modulare (<i>Accoliti</i>).\n<b>Preparazione:</b> Metti da parte la trama secondaria Decadimento Orbitale. Rivela la trama secondaria Squadra d'Abbordaggio.",
-        "flavor": "<i>Magneto fluttua attorno alla Terra sul suo rifugio orbitale.</i>"
-    },
-    {
-        "code": "32141b",
-        "name": "Asteroide M",
-        "text": "<b>Risposta Obbligata</b>: Dopo che hai collocato 1 o più gettoni magnete su questa trama, se ci sono 3 o più gettoni magnete su questa carta, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 carta [[MAGNETICO]]. Rivela quella carta, poi rimuovi 3 gettoni magnete da questa trama."
-    },
-    {
-        "code": "32142a",
-        "name": "Fabbrica Operativa",
-        "text": "<b>Quando Rivelata</b>: Colloca 1 gettone magnete su questa carta. Se Sabotare Master Mold non è nella galleria delle vittorie, il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 copia del gregario Sentinella Modello-M e la rivela."
-    },
-    {
-        "code": "32142b",
-        "name": "Fabbrica Operativa",
-        "text": "<b>Risposta Obbligata</b>: Dopo che hai collocato 1 o più gettoni magnete su questa trama, se ci sono 3 o più gettoni magnete su questa carta, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 carta [[MAGNETICO]]. Rivela quella carta, poi rimuovi 3 gettoni magnete da questa trama."
-    },
-    {
-        "code": "32143a",
-        "name": "Il Regno di Magnus",
-        "text": "<b>Quando Rivelata</b>: Colloca 2 gettoni magnete su questa carta. Se Sforzo Estenuante non è assegnato a Magneto, il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta [[MAGNETICO]] e la rivela."
-    },
-    {
-        "code": "32143b",
-        "name": "Il Regno di Magnus",
-        "text": "<b>Risposta Obbligata</b>: Dopo che hai collocato 1 o più gettoni magnete su questa trama, se ci sono 3 o più gettoni magnete su questa carta, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 carta [[MAGNETICO]]. Rivela quella carta, poi rimuovi 3 gettoni magnete da questa trama.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
-    },
-    {
-        "code": "32144a",
-        "name": "Squadra d'Abbordaggio",
-        "text": "Magneto non può avere più di 6[per_hero] danni sostenuti.\n<b>Quando Sconfitta</b>: Gira questa carta e rivela Sabotare Master Mold.",
-        "flavor": "<i>Per poter fermare il malvagio piano di Magneto, dovrete prima salire a bordo dell'Asteroide M.</i>"
-    },
-    {
-        "code": "32144b",
-        "name": "Sabotare Master Mold",
-        "text": "Magneto non può avere più di 12[per_hero] danni sostenuti.\n<b>Quando Sconfitta</b>: Rivela la trama secondaria Decadimento Orbitale messa da parte. Colloca questa carta nella galleria delle vittorie.",
-        "flavor": "<i>Master Mold è stato riprogrammato. Dovete riuscire a disattivarlo prima che possa creare delle Sentinelle cacciatrici di umani!</i>"
-    },
-    {
-        "code": "32145a",
-        "name": "Decadimento Orbitale",
-        "text": "Magneto non può avere più di 18[per_hero] danni sostenuti.\n<b>Quando Sconfitta</b>: Gira questa carta e rivela Sforzo Estenuante.",
-        "flavor": "<i>Magneto è un avversario indomito. L'unico modo per assicurarsi la sua sconfitta è distruggere la sua base orbitale facedola schiantare sulla Terra.</i>"
-    },
-    {
-        "code": "32145b",
-        "name": "Sforzo Estenuante",
-        "text": "Assegna a Magneto.\nPermanente.\nMagneto perde Tempra.",
-        "flavor": "<i>Mentre l'Asteroide M comincia a precipitare inesorabilmente, Magneto sfrutta tutto il suo potere per tenerlo in orbita senza smettere di affrontarvi!</i>",
-        "traits": "Condizione."
-    },
-    {
-        "code": "32146",
-        "name": "Sentinella Modello-M",
-        "text": "Guardia.\r\n<b>Quando Sconfitta</b>: Irrobustisci Magneto.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci Magneto e fagli ricevere 1 carta potenziamento a faccia in giù.",
-        "traits": "Sentinella."
-    },
-    {
-        "code": "32147",
-        "name": "Elmo di Magneto",
-        "text": "Assegna a Magneto.\nMagneto non può essere confuso.\n<b>Risposta Eroe</b>: Dopo che il tuo eroe ha effettuato un attacco base contro Magneto, spendi [energy] [mental] [physical] → scarta questa carta. ",
-        "flavor": "<i>Magneto ha progettato il suo elmo per proteggersi dai poteri telepatici di Xavier.</i>",
-        "traits": "Armatura. Magnetico."
-    },
-    {
-        "code": "32148",
-        "name": "Armatura di Magneto",
-        "text": "Assegna a Magneto.\nMagneto non può essere stordito.\n<b>Risposta Eroe</b>: Dopo che il tuo eroe ha effettuato un attacco base contro Magneto, spendi [energy] [mental] [physical] → scarta questa carta. ",
-        "flavor": "<i>L'armatura di Magneto è abbastanza resistente da permettergli di sopravvivere a un colpo diretto di un raggio di guanto delle Sentinelle.</i>",
-        "traits": "Armatura. Magnetico."
-    },
-    {
-        "code": "32149",
-        "name": "Bolla Magnetica",
-        "text": "Assegna a Magneto.\nMagneto ottiene Ritorsione 1.\n<b>Interruzione Obbligata</b>: Quando Magneto sta per subire un qualsiasi ammontare di danni, collocalo invece su questa carta. Poi, se ci sono 8 o più danni su questa carta, scartala.",
-        "traits": "Magnetico."
-    },
-    {
-        "code": "32150",
-        "name": "Avvolto nel Metallo",
-        "text": "Assegna alla tua identità. Massimo 1 per identità.\nL'identità con questa aggiunta non può intervenire, attaccare, difendere o recuperare.\n<b>Azione</b>: Esaurisci la tua identità e spendi [physical] → scarta questa carta. ",
-        "flavor": "<i>\"Beh... questa non ci voleva.\" - Arcangelo</i>",
-        "traits": "Magnetico."
-    },
-    {
-        "code": "32151",
-        "name": "Signore del Magnetismo",
-        "text": "<b>Quando Rivelata</b>: Prendi la prima carta [[MAGNETICO]] dalla cima della pila degli scarti degli incontri e falla ricevere a Magneto come carta potenziamento a faccia in giù. Magneto si attiva contro di te.",
-        "flavor": "<i>\"Né i vostri poteri né le vostre capacità potranno salvarvi dalla mia ira!\" - Magneto</i>"
-    },
-    {
-        "code": "32152",
-        "name": "Scossa Elettrica",
-        "text": "<b>Quando Rivelata (Alter Ego)</b>: Sei confuso. Colloca 1 minaccia sulla trama principale per ogni gettone magnete su di essa.\n<b>Quando Rivelata (Eroe)</b>: Sei stordito. Subisci 1 danno per ogni gettone magnete sulla trama principale.",
-        "traits": "Magnetico."
-    },
-    {
-        "code": "32153",
-        "name": "Scarica Elettromagnetica",
-        "text": "<b>Quando Rivelata</b>: Esaurisci ogni miglioria e supporto che controlli. Colloca 1 gettone magnete sulla trama principale.\n<hr />\n[star] <b>Potenziamento</b>: Esaurisci la tua identità.",
-        "traits": "Magnetico."
-    },
-    {
-        "code": "32154",
-        "name": "Schegge Metalliche",
-        "text": "<b>Quando Rivelata</b>: Infliggi 1 danno a ogni personaggio che controlli. Colloca 1 gettone magnete sulla trama principale.\n<hr />\n[star] <b>Potenziamento</b>: Se questo attacco sconfigge un alleato, colloca 1 gettone magnete sulla trama principale.",
-        "traits": "Magnetico."
-    },
-    {
-        "code": "32155",
-        "name": "Missile Magnetico",
-        "text": "Impulso.\n<b>Quando Rivelata</b>: Sconfiggi 1 gregario [[SENTINELLA]] in gioco. Poi subisci 5 danni. Puoi scartare X carte dalla tua mano per prevenire X di quei danni.",
-        "flavor": "<i>\"Avrei dovuto aspettarmelo!\" - Ciclope</i>",
-        "traits": "Magnetico."
-    },
-    {
-        "code": "32156",
-        "name": "Caos Magnetico",
-        "text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama scarta 4 carte dalla cima del mazzo degli incontri. Quel giocatore colloca 1 gettone magnete sulla trama principale per ogni carta [[MAGNETICO]] scartata in questo modo.",
-        "traits": "Magnetico."
-    },
-    {
-        "code": "32157",
-        "name": "Sigillato Magneticamente",
-        "text": "<b>Quando Rivelata</b>: Colloca 2 minacce aggiuntive su questa carta per ogni alleato in gioco.\n<hr />\n[star] <b>Potenziamento</b>: Esaurisci ogni alleato che controlli.",
-        "traits": "Magnetico."
-    },
-    {
-        "code": "32158",
-        "name": "Preso!",
-        "text": "<b>Quando Rivelata</b>: Ogni giocatore colloca 6 carte dalla cima del proprio mazzo a faccia in giù sotto questa carta.\n<b>Quando Sconfitta</b>: Magneto si attiva contro il giocatore che ha sconfitto questa trama. <i>(Scarta le carte sotto questa carta.)</i>",
-        "traits": "Magnetico."
-    },
-    {
-        "code": "32159",
-        "name": "Fabian Cortez",
-        "text": "Criminoso. Lavoro di Squadra ([[ACCOLITO]]).\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto Fabian Cortez scarta carte dalla cima del mazzo degli incontri finché non scarta 1 gregario [[ACCOLITO]], poi mette in gioco quel gregario impegnato con lui.",
-        "traits": "Accolito. Elite."
-    },
-    {
-        "code": "32160",
-        "name": "Amelia Voght",
-        "text": "Lavoro di Squadra ([[ACCOLITO]]). Stabile.\r\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto Amelia Voght è confuso. Se era già confuso, colloca 2 minacce sulla trama principale.",
-        "traits": "Accolito."
-    },
-    {
-        "code": "32161",
-        "name": "Senyaka",
-        "text": "Lavoro di Squadra ([[ACCOLITO]]).\n[star] Gli attacchi di Senyaka ottengono Perforante.\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto Senyaka è stordito. Se era già stordito, subisce 3 danni.",
-        "traits": "Accolito."
-    },
-    {
-        "code": "32162",
-        "name": "Delgado",
-        "text": "Lavoro di Squadra ([[ACCOLITO]]). Ritorsione 1.\n<b>Quando Sconfitta</b>: Scarta ogni carta status Stordito e Confuso dal criminale e fagli ricevere 1 carta potenziamento a faccia in giù.",
-        "traits": "Accolito."
-    },
-    {
-        "code": "32163",
-        "name": "Unuscione",
-        "text": "Lavoro di Squadra ([[ACCOLITO]]). Robustezza.\n<b>Quando Sconfitta</b>: Irrobustisci il criminale. Se il criminale era già robusto, curagli 4 danni.",
-        "traits": "Accolito."
-    },
-    {
-        "code": "32164",
-        "name": "Zelo per la Causa",
-        "text": "<b>Quando Rivelata</b>: Risolvi la capacità \"<b>Quando Sconfitta</b>\" di ogni gregario [[ACCOLITO]] impegnato con te. Se non ci sono gregari [[ACCOLITO]] impegnati con te, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario, poi rivelalo."
-    },
-    {
-        "code": "32165",
-        "name": "Gli Accoliti",
-        "text": "Ogni gregario [[ACCOLITO]] ottiene Guardia.\n<hr />\n[star] <b>Potenziamento</b>: Mescola ogni gregario [[ACCOLITO]] dalla pila degli scarti degli incontri nel mazzo degli incontri."
-    },
-    {
-        "code": "32166",
-        "name": "Nimrod",
-        "text": "Stabile. Vittoria 1.\nNimrod non può subire più di 3 danni in ogni fase.",
-        "flavor": "<i>\"Sono tornato.\"</i>",
-        "traits": "Elite. Sentinella."
-    },
-    {
-        "code": "32167",
-        "name": "Bastion",
-        "text": "Criminoso. Robustezza. Vittoria 1.\n<hr />\n[star] <b>Potenziamento</b>: Distribuisci questa carta come carta incontro a faccia in giù a te stesso.",
-        "flavor": "<i>\"Per assicurare un futuro all'umanità, distruggerò la specie mutante.\"</i>",
-        "traits": "Elite. Sentinella."
-    },
-    {
-        "code": "32168",
-        "name": "Portale di Nimrod",
-        "text": "Vittoria 1.\n<b>Quando Sconfitta</b>: In ordine di gioco, ogni giocatore scarta 2 carte dalla cima del mazzo degli incontri e subisce un ammontare di danni indiretti pari al numero di icone potenziamento ([boost]) scartate in questo modo."
-    },
-    {
-        "code": "32169",
-        "name": "Macchinazioni di Bastion",
-        "text": "Vittoria 1.\n<b>Quando Rivelata</b>: Ogni giocatore colloca 9 carte dalla cima del proprio mazzo a faccia in giù sotto questa carta.",
-        "flavor": "Bastion manipola gli eventi del presente per piantare i semi del futuro da cui proviene."
-    },
-    {
-        "code": "32170",
-        "name": "Tecnologia delle Nano-Sentinelle",
-        "text": "Vittoria 1.\nIl gregario con questa aggiunta riceve +4 punti ferita e ottiene il tratto [[SENTINELLA]]. \n<b>Quando Rivelata</b>: cerca nel mazzo degli incontri, nella pila degli scarti degli incontri e nelle carte messe da parte il tuo gregario nemesi. Mettilo in gioco impegnato con te e assegnagli questa carta.",
-        "traits": "Sentinella. Tecnologia."
-    }
+	{
+		"code": "32025",
+		"name": "Nostalgia di Casa",
+		"text": "<b><i>Fai ricevere al giocatore Piotr Rasputin.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli un effetto tra:\n- Esaurisci Piotr Rasputin → rimuovi dal gioco Nostalgia di Casa.\n- Scarta questa carta e ogni carta status Robusto dalla tua identità. Se non hai scartato alcuna carta status Robusto in questo modo, questa carta ottiene Impulso."
+	},
+	{
+		"code": "32026",
+		"flavor": "<i>\"Niente può fermare il Fenomeno!\"</i>",
+		"name": "Fenomeno",
+		"text": "Robustezza. Stabile.\n<hr />\n[star] <b>Boost</b>: Se questa attivazione è un attacco, questo attacco ottiene Perforante e Sopraffazione.",
+		"traits": "Bruto. Elite."
+	},
+	{
+		"code": "32027",
+		"flavor": "<i>Il Fenomeno possiede il potere di Cyttorak. Ma è quel potere che gli fa perdere completamente il controllo.</i>",
+		"name": "Fenomeno Scatenato",
+		"text": "<b>Quando Rivelata</b>: Scarta ogni carta status Robusto da ogni personaggio amico. Colloca 2 minacce su questa carta per ogni carta status Robusto scartata in questo modo."
+	},
+	{
+		"code": "32028",
+		"name": "Inarrestabile",
+		"text": "Assegna al nemico con più ATT stampato e senza altri Inarrestabile assegnati a esso. Se non puoi farlo, questa carta ottiene Impulso.\n[star] <b>Risposta Obbligata</b>: Quando il nemico con questa aggiunta attacca, l'attacco ottiene Perforante e Sopraffazione. Alla fine di questo attacco, scarta Inarrestabile."
+	},
+	{
+		"code": "32029",
+		"flavor": "<i>\"Non lo sai chi sono io?\" - Fenomeno</i>",
+		"name": "Schiantato",
+		"text": "<b>Quando Rivelata</b>: Sei stordito. Se eri già stordito, subisci 2 danni.\n<hr />\n[star] <b>Potenziamento</b>: Rivela questa carta."
+	},
+	{
+		"code": "32055",
+		"name": "Incorporeità Permanente",
+		"text": "<b><i>Fai ricevere al giocatore Kitty Pryde.</i></b>\nAssumi la tua sembianza di massa Incorporea. Non puoi attaccare, difendere o cambiare sembianza di massa.\n<b>Azione Alter Ego</b>: Esaurisci Kitty Pryde → rimuovi dal gioco Incorporeità Permanente."
+	},
+	{
+		"code": "32056",
+		"name": "Regina Bianca",
+		"text": "Criminoso.\nMentre Regina Bianca è impegnata con te, sei confuso.\n<i>(Gregario nemesi di Shadowcat.)</i>\n<hr />\n[star] <b>Potenziamento</b>: Sei confuso.",
+		"traits": "Elite. Psionico."
+	},
+	{
+		"code": "32057",
+		"name": "Club Infernale",
+		"text": "<b>Quando sconfitta</b>: Il giocatore che ha sconfitto questa trama cerca nel mazzo degli incontri, nella pila degli scarti degli incontri e nelle carte messe da parte 1 gregario Pedone Infernale e lo mette in gioco impegnato con lui. <i>(Mescola.)</i>"
+	},
+	{
+		"code": "32058",
+		"name": "Pedone Infernale",
+		"text": "Guardia. Impulso. Pattuglia.\n<hr />\n[star] <b>Potenziamento</b>: Metti in gioco Pedone Infernale impegnato con te.",
+		"traits": "Club Infernale."
+	},
+	{
+		"code": "32059",
+		"flavor": "<i>\"Fai il bravo e non muoverti... né parlare. Molto meglio così.\" - Regina Bianca</i>",
+		"name": "Vincolo Telepatico",
+		"text": "Assegna alla tua identità.\nMentre Vincolo Telepatico è assegnato alla tua identità, sei stordito.\n<b>Azione</b>: Spendi [mental] [mental] → scarta questa carta.",
+		"traits": "Condizione."
+	},
+	{
+		"code": "32060",
+		"flavor": "<i>\"Ti strapperò le budella!\"</i>",
+		"name": "Sabretooth I",
+		"text": "[star] <b>Risposta Obbligata</b>: Dopo che Sabretooth si è attivato contro di te, scarta 1 carta dalla cima del mazzo degli incontri. Cura a Sabretooth un ammontare di danni pari al numero di icone potenziamento ([boost]) scartate in questo modo.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"code": "32061",
+		"name": "Sabretooth II",
+		"text": "Robustezza.\n[star] <b>Risposta Obbligata</b>: Dopo che Sabretooth si è attivato contro di te, scarta 1 carta dalla cima del mazzo degli incontri. Cura a Sabretooth un ammontare di danni pari al numero di icone potenziamento ([boost]) scartate in questo modo.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"code": "32062",
+		"name": "Sabretooth III",
+		"text": "Ritorsione 1. Robustezza.\n[star] <b>Risposta Obbligata</b>: Dopo che Sabretooth si è attivato contro di te, scarta 1 carta dalla cima del mazzo degli incontri. Cura a Sabretooth un ammontare di danni pari al numero di icone potenziamento ([boost]) scartate in questo modo.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"back_text": "<b>Contents:</b> Sabretooth (I) and Sabretooth (II). <i>(Sabretooth (II) and Sabretooth (III) for expert mode.)</i> Sabretooth and Standard sets. Two modular sets (<i>Brotherhood</i> and <i>Mystique</i>).\n<b>Setup:</b> Put the Find the Senator side scheme into play. Attach the Robert Kelly to it. While attached to Find the Senator, Robert Kelly is in play but under no player's control.",
+		"code": "32063",
+		"name": "Stalked by Sabretooth",
+		"text": "[star] <b>Forced Response</b>: After resolving step 1 of the villain phase, deal 2 damage to Robert Kelly (3 damage instead if there is at least 6[per_hero] threat here).\nWhile Robert Kelly is attached to Find the Senator, treat his text box as if it were blank.\n<b>If Robert Kelly leaves play, the players lose the game.</b>"
+	},
+	{
+		"code": "32063a",
+		"name": "La Preda di Sabretooth ",
+		"text": "<b>Contenuto:</b> Sabretooth (I) e Sabretooth (II). <i>(Sabretooth (II) e Sabretooth (III) per la modalità esperto.)</i> Set di incontri Sabretooth e Standard. 2 set di incontri modulari (<i>Confraternita</i> e <i>Mystica</i>).\n<b>Preparazione:</b> Metti in gioco la trama secondaria Trovare il Senatore. Assegnale l'alleato Robert Kelly. Mentre è assegnato a Trovare il Senatore, Robert Kelly è in gioco ma non è sotto il controllo di alcun giocatore."
+	},
+	{
+		"code": "32063b",
+		"name": "La Preda di Sabretooth ",
+		"text": "<b>[star] Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, infliggi 2 danni a Robert Kelly (3 danni se invece ci sono 6[per_hero] o più minacce su questa carta).\nMentre Robert Kelly è assegnato a Trovare il Senatore, considera il suo riquadro di testo come se fosse vuoto.\n<b>Se Robert Kelly esce dal gioco, i giocatori perdono la partita.</b>"
+	},
+	{
+		"back_flavor": "Sabretooth has wounded Senator Kelly and continues to hound him!",
+		"back_text": "<b>When Revealed</b>: Deal each player a facedown encounter card.",
+		"code": "32064",
+		"flavor": "Get Robert Kelly to safety before Sabretooth finishes the job.",
+		"name": "The Injured Senator",
+		"text": "<b>When Completed</b>: Defeat Robert Kelly.\n<b>If Robert Kelly leaves play, the players lose the game.</b>"
+	},
+	{
+		"code": "32064a",
+		"flavor": "<i>Sabretooth ha ferito il Senatore Kelly, e sembra del tutto intenzionato a continuare la sua caccia!</i>",
+		"name": "Il Senatore Ferito ",
+		"text": "<b>Quando Rivelata</b>: Distribuisci 1 carta incontro a faccia in giù a ogni giocatore."
+	},
+	{
+		"code": "32064b",
+		"flavor": "<i>Portate Robert Kelly al sicuro prima che Sabretooth possa finire il lavoro.</i>",
+		"name": "Il Senatore Ferito ",
+		"text": "<b>Quando Completata</b>: Sconfiggi Robert Kelly.\n<b>Se Robert Kelly esce dal gioco, i giocatori perdono la partita.</b>"
+	},
+	{
+		"code": "32065a",
+		"name": "Trovare il Senatore",
+		"text": "Robert Kelly non può essere curato dagli effetti delle carte giocatore e a lui non possono essere assegnate migliorie.\n<b>Quando Sconfitta</b>: Il primo giocatore disassegna Robert Kelly da questa trama e ne prende il controllo. Proseguire con la trama principale 2A. Gira questa carta e collocala accanto alla trama principale."
+	},
+	{
+		"code": "32065b",
+		"name": "Proteggere il Senatore",
+		"text": "Robert Kelly non può essere curato dagli effetti delle carte giocatore e a lui non possono essere assegnate migliorie.\n<b>Risposta Eroe</b>: Dopo che il tuo eroe ha difeso da un attacco di Sabretooth, spendi 2 risorse di qualsiasi tipo → ripristina il tuo eroe. Solo il giocatore che controlla Robert Kelly può innescare questa capacità.",
+		"traits": "Missione."
+	},
+	{
+		"code": "32066",
+		"name": "Robert Kelly",
+		"text": "Il primo giocatore controlla Robert Kelly. Non conta al fine di determinare il limite di alleati e a lui non possono essere assegnate carte giocatore.\n<b>Interruzione Obbligata</b>: Quando un nemico risolve un attacco non difeso contro di te, infliggi i danni di quell'attacco a Robert Kelly.",
+		"traits": "Senatore."
+	},
+	{
+		"code": "32067",
+		"name": "Artigli di Adamantio",
+		"text": "Assegna a Sabretooth.\n[star] Gli attacchi di Sabretooth ottengono Perforante.\n<b>Azione Eroe</b>: Spendi [energy] [mental] [physical] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta a Sabretooth.",
+		"traits": "Arma"
+	},
+	{
+		"code": "32068",
+		"name": "Ferocia Animalesca",
+		"text": "Assegna a Sabretooth.\nSabretooth ottiene Stabile. <i>(Questo personaggio non può essere stordito o confuso.)</i>\n<b>Azione Eroe</b>: Spendi [energy] [mental] [physical] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta a Sabretooth.",
+		"traits": "Condizione."
+	},
+	{
+		"code": "32069",
+		"name": "Sabretooth Colpisce",
+		"text": "<b>Quando Rivelata</b>: Infliggi 1 danno a Robert Kelly. Puoi esaurire il tuo eroe per prevenire questo effetto.\n<hr />\n[star] <b>Potenziamento</b>: Se questo attacco sconfigge un alleato, colloca 2 minacce sulla trama principale."
+	},
+	{
+		"code": "32070",
+		"name": "Ferocia Implacabile",
+		"text": "<b>Quando Rivelata (Alter Ego)</b>: Sabretooth trama. Se non ha danni sostenuti, riceve +1 TRA per questa attivazione.\n<b>Quando Rivelata (Eroe)</b>: Sabretooth ti attacca. Se non ha danni sostenuti, riceve +1 ATT per questa attivazione."
+	},
+	{
+		"code": "32071",
+		"name": "Emergenza Medica",
+		"text": "Ostacolo 2[per_hero]. <i>(Quando Rivelata, colloca 2[per_hero] minacce su questa carta.)</i>\nVittoria 1. <i>(Quando Sconfitta, colloca questa carta nella galleria delle vittorie.)</i>\r\n<b>Quando Sconfitta</b>: Cura 2 danni a Robert Kelly."
+	},
+	{
+		"code": "32072",
+		"flavor": "<i>Sabretooth non vede altro che la preda della sua caccia: Robert Kelly. Dovete distogliere la sua attenzione dal Senatore!</i>",
+		"name": "Furia Ferina",
+		"text": "<b>Quando Sconfitta</b>: Sabretooth attacca il giocatore che ha sconfitto questa trama <i>(anche se quel giocatore è nella sembianza di alter ego).</i>"
+	},
+	{
+		"code": "32073",
+		"name": "Valanga",
+		"text": "<b>Risposta Obbligata</b>: Dopo che Valanga ti ha attaccato, esaurisci 1 personaggio che controlli.\n<hr />\n[star] <b>Potenziamento</b>: Esaurisci 1 personaggio che controlli.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"code": "32074",
+		"flavor": "<i>\"Nulla può spostare il Blob!\"<i/>",
+		"name": "Blob",
+		"text": "Guardia.\n[star] <b>Risposta Obbligata</b>: Dopo che Blob ha attaccato e danneggiato un personaggio, stordisci quel personaggio.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"code": "32075",
+		"flavor": "<i>\"Io gioco sempre con il fuoco, e non mi brucio mai!\"<i/>",
+		"name": "Pyro",
+		"text": "<b>Risposta Obbligata</b>: Dopo che Pyro ti ha attaccato, scarta 2 carte dalla cima del tuo mazzo. Subisci 1 danno indiretto per ogni icona risorsa stampata scartata in questo modo.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"code": "32076",
+		"name": "Toad",
+		"text": "<b>Risposta Obbligata</b>: Dopo che Toad ha attaccato e danneggiato un personaggio che controlli, scarta 1 carta casuale dalla tua mano.\n<hr />\n[star] <b>Potenziamento</b>: Scarta 1 carta casuale dalla tua mano.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"code": "32077",
+		"name": "Homo Superior",
+		"text": "Assegna a un gregario e irrobustiscilo. Se non puoi farlo, questa carta ottiene Impulso.\nIl gregario con questa aggiunta riceve +5 punti ferita.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta a un gregario e irrobustiscilo.",
+		"traits": "Condizione."
+	},
+	{
+		"code": "32078",
+		"name": "Terroristi Mutanti",
+		"text": "<b>Quando Rivelata</b>: Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri la trama secondaria La Confraternita e rivelala. <i>(Mescola.)</i> Se non è entrata in gioco in questo modo, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario [[CONFRATERNITA DEI MUTANTI]] e rivelalo."
+	},
+	{
+		"code": "32079",
+		"flavor": "<i>Magneto ha messo insieme la Confraternita dei Mutanti per portare avanti il suo piano: il dominio mutante sul genere umano.</i>",
+		"name": "La Confraternita",
+		"text": "Ostacolo 2[per_hero]. <i>(Quando rivelata, colloca 2[per_hero] minacce su questa carta.)</i>\nOgni gregario [[CONFRATERNITA DEI MUTANTI]] ottiene Colpo Rapido."
+	},
+	{
+		"code": "32080",
+		"flavor": "<i>\"Non sono una donna da sottovalutare!\"</i>",
+		"name": "Mystica",
+		"text": "Robustezza.\nI giocatori non possono attaccare il criminale.\n[star] La TRA di Mystica è pari alla TRA del criminale e il suo ATT è pari all'ATT del criminale.",
+		"traits": "Confraternita dei Mutanti. Elite."
+	},
+	{
+		"code": "32081",
+		"flavor": "<i>La capacità di Mystica di alterare il suo aspetto le permette di creare guai di ogni genere.</i>",
+		"name": "Caos Cangiante",
+		"text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama mescola nel proprio mazzo ogni carta [[MUTAFORMA]] dalla pila degli scarti degli incontri."
+	},
+	{
+		"code": "32082",
+		"name": "Infiltrazione",
+		"text": "<b>Quando Rivelata</b>: Mescola questa carta nel tuo mazzo. Questa carta ottiene Impulso.\n<b>Risposta Obbligata</b>: Dopo che questa carta è stata aggiunta alla tua mano, scarta 1 alleato o supporto che controlli. <i>(Alla fine della Fase dei Giocatori, puoi scartare questa carta dalla tua mano come una qualsiasi altra carta.)</i>",
+		"traits": "Mutaforma."
+	},
+	{
+		"code": "32083",
+		"name": "Sorpresa Metamorfica",
+		"text": "<b>Quando Rivelata</b>: Mescola questa carta nel tuo mazzo. Questa carta ottiene Impulso.\n<b>Risposta Obbligata</b>: Dopo che questa carta è stata aggiunta alla tua mano, Mystica si attiva contro di te. Se non può farlo, cerca Mystica nel mazzo degli incontri e nella pila degli scarti degli incontri e rivelala.",
+		"traits": "Mutaforma."
+	},
+	{
+		"code": "32084",
+		"name": "Sentinella I",
+		"text": "Robustezza.\r\n<b>Quando Rivelata</b>: Il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 trama secondaria Protocolli di Cattura e la rivela. <i>(Mescola.)</i>",
+		"traits": "Sentinella.",
+		"flavor": "<i>\"MUTANTE RILEVATO. AVVIARE SEQUENZA DI CATTURA.\"</i>"
+	},
+	{
+		"code": "32085",
+		"name": "Sentinella II",
+		"text": "Robustezza. Tempra.\r\n<b>Quando Rivelata</b>: Il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 trama secondaria Protocolli di Cattura e la rivela. <i>(Mescola.)</i> Distribuisci una carta incontro a faccia in giù a ogni altro giocatore.",
+		"traits": "Sentinella."
+	},
+	{
+		"code": "32086",
+		"name": "Sentinella III",
+		"text": "Robustezza. Stabile.\r\n<b>Quando Rivelata</b>: Il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 trama secondaria Protocolli di Cattura e la rivela. <i>(Mescola.)</i> Distribuisci una carta incontro a faccia in giù a ogni giocatore.",
+		"traits": "Sentinella."
+	},
+	{
+		"back_text": "<b>Contents:</b> Sentinel (I) and Sentinel (II). <i>(Sentinel (II) and Sentinel (III) for expert mode.)</i> Project Wideawake, Zero Tolerance, and Standard sets. One modular set (<i>Sentinels</i>).\n<b>Setup:</b> Set each [[Captive]] ally aside. Reveal the Operation Zero Tolerance and Mutants at the Mall side schemes.",
+		"code": "32087",
+		"name": "Night of the Sentinels",
+		"text": "Operation Zero Tolerance gains permanent.\n<b>Forced Response</b>: After threat is placed here, if there is at least 5[per_hero] threat here, the first player places the top card of their deck facedown under Operation Zero Tolerance. Then, remove 5[per_hero] threat from this scheme."
+	},
+	{
+		"code": "32087a",
+		"name": "La Notte delle Sentinelle",
+		"text": "<b>Contenuto:</b> Sentinella (I) e Sentinella (II). <i>(Sentinella (II) e Sentinella (III) per la modalità esperto.)</i> Set di incontri Progetto Risveglio, Tolleranza Zero e Standard. 1 set di incontri modulare (<i>Sentinelle</i>).\n<b>Preparazione:</b> Metti da parte ogni alleato [[PRIGIONIERO]]. Rivela le trame secondarie Operanzione Tolleranza Zero e Mutanti al Centro Commerciale."
+	},
+	{
+		"code": "32087b",
+		"name": "La Notte delle Sentinelle",
+		"text": "Operazione Tolleranza Zero ottiene Permanente.\n<b>Risposta Obbligata</b>: Dopo che 1 o più minacce sono state collocate su questa trama, se ci sono 5[per_hero] o più minacce su questa trama, il primo giocatore colloca 1 carta dalla cima del suo mazzo a faccia in giù sotto Operazione Tolleranza Zero. Poi rimuovi 5[per_hero] minacce da questa trama."
+	},
+	{
+		"code": "32088a",
+		"name": "Mutanti al Centro Commerciale",
+		"text": "<b>Quando Sconfitta</b>: Il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario [[SENTINELLA]] e lo rivela. Gira questa carta e metti in gioco Jubilee, scartando dal gioco ogni altra versione di Jubilee."
+	},
+	{
+		"code": "32088b",
+		"name": "Jubilee",
+		"subname": "Jubilation Lee",
+		"text": "Vittoria -1.\nIl primo giocatore controlla Jubilee. Non conta al fine di determinare il limite di alleati.\n<b>Azione</b>: Esaurisci Jubilee e spendi [energy] → infliggi 2 danni a un nemico.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "32089",
+		"flavor": "<i>\"Amico...hai davanti una vita così strana che nemmeno te la immagini.\"</i>",
+		"name": "Rictor",
+		"subname": "Julio Richter",
+		"text": "[star] <b>Risposta</b>:Dopo che Rictor ha attaccato, infliggi 1 danno al criminale e a ogni gregario impegnato con te.",
+		"traits": "Prigioniero. X-Men."
+	},
+	{
+		"code": "32090",
+		"name": "Boom Boom",
+		"subname": "Tabitha Smith",
+		"text": "[star] <b>Risposta</b>: Dopo che Boom Boom ha attaccato un nemico, colloca 1 gettone bomba su di esso. Alla fine della Fase dei Giocatori rimuovi dal gioco tutti i gettoni bomba e infliggi 2 danni a ogni nemico per ogni gettone bomba rimosso da esso in questo modo.",
+		"traits": "Prigioniero. X-Men."
+	},
+	{
+		"code": "32091",
+		"flavor": "<i>\"Sono praticamente invulnerabile quando mi sparo contro qualcosa.\"</i>",
+		"name": "Cannonball",
+		"subname": "Sam Guthrie",
+		"text": "[star] Dopo che ha attaccato e sconfitto un gregario, Cannonball subisce -1 danno conseguente.",
+		"traits": "Prigioniero. X-Men."
+	},
+	{
+		"code": "32092",
+		"flavor": "<i>\"Non so perché lo stai facendo, ma se fai del male ai miei amici ti cambio i connotati!\"</i>",
+		"name": "Wolfsbane",
+		"subname": "Rahne Sinclair",
+		"text": "[star] Gli attacchi di Wolfbane ottengono Perforante.",
+		"traits": "Prigioniero. X-Men."
+	},
+	{
+		"code": "32093",
+		"name": "Sentinella Mark IV",
+		"text": "Guardia. Pattuglia. <i>(Mentre questo gregario è impegnato con te, non puoi intervenire sulla trama principale.)</i>\n<hr />\n[star] <b>Potenziamento</b>: Metti in gioco Sentinella Mark IV impegnata con te.",
+		"traits": "Sentinella."
+	},
+	{
+		"code": "32094",
+		"name": "Raggio da Guanto",
+		"text": "Assegna al criminale.\n[star] Gli attacchi del criminale ottengono Distanza e Perforante.\n<b>Azione Eroe</b>: Spendi [physical] [physical] [physical] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Esaurisci la tua identità.",
+		"traits": "Sentinella. Tecnologia."
+	},
+	{
+		"code": "32095",
+		"name": "Apprendimento I.A.",
+		"text": "Assegna al criminale.\nIl criminale ottiene Ritorsione 1.\n<b>Azione Eroe</b>: Spendi [mental] [mental] [mental] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta al criminale.",
+		"traits": "Sentinella. Tecnologia."
+	},
+	{
+		"code": "32096",
+		"name": "Armatura Adattiva",
+		"text": "Assegna al criminale.\nIl criminale riceve +8 punti ferita.\n<b>Azione Eroe</b>: Spendi [energy] [energy] [energy] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta al criminale.",
+		"traits": "Sentinella. Tecnologia."
+	},
+	{
+		"code": "32097",
+		"name": "Autoriparazione",
+		"text": "<b>Quando Rivelata</b>: Scarta ogni carta status dal criminale. Irrobustisci il criminale e curagli 5 danni.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci il criminale."
+	},
+	{
+		"code": "32098",
+		"name": "Mutante Individuato",
+		"text": "<b>Quando Rivelata</b>: Scegli 1 effetto tra:\n- Colloca 1 carta dalla cima del tuo mazzo a faccia in giù sotto Operazione Tolleranza Zero.\n- Il criminale e ogni gregario impegnato con te ti attaccano <i>(anche se sei nella sembianza di alter ego)</i>."
+	},
+	{
+		"code": "32099",
+		"flavor": "<i>\"Li cattureranno di sicuro se non li raggiungiamo per primi! - Uomo Ghiaccio\"</i>",
+		"name": "Avvisare gli Altri",
+		"text": "<b>Risposta Obbligata</b>: Dopo che il tuo turno è terminato, colloca questa carta a faccia in giù sotto Operazione Tolleranza Zero.\n<b>Azione Alter Ego</b>: Esaurisci la tua identità → scarta questa carta."
+	},
+	{
+		"code": "32100",
+		"name": "Protocolli di Cattura",
+		"text": "Ostacolo 2[per_hero]. Vittoria 2.\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama prende 1 alleato [[PRIGIONIERO]] casuale messo da parte e lo mette in gioco sotto il suo controllo."
+	},
+	{
+		"code": "32101",
+		"name": "Sentinella Mark II",
+		"text": "<b>Quando Rivelata</b>: Se Operazione Tolleranza Zero è in gioco, Sentinella Mark II ottiene Impulso. Altrimenti, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri la trama secondaria Operazione Tolleranza Zero e rivelala. <i>(Mescola.)</i>",
+		"traits": "Sentinella."
+	},
+	{
+		"code": "32102",
+		"name": "Sentinella Mark III",
+		"text": "Robustezza.\n<b>Quando Rivelata</b>: Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta Barriera Energetica e assegnala a questo gregario.\n<hr />\n[star] <b>Potenziamento</b>: Sei stordito. Se eri già stordito, subisci 2 danni.",
+		"traits": "Sentinella."
+	},
+	{
+		"code": "32103",
+		"name": "Barrierra Energetica",
+		"text": "Assegna a un gregario [[SENTINELLA]] senza altre Barriera Energetica assegnate a esso e irrobustiscilo. Se non puoi farlo, questa carta ottiene Impulso.\n[star] <b>Risposta Obbligata</b>: Dopo che il gregario con questa aggiunta ha attaccato, irrobustiscilo.",
+		"traits": "Sentinella. Tecnologia."
+	},
+	{
+		"code": "32104",
+		"name": "Operazione Tolleranza Zero",
+		"text": "<b>Risposta Obbligata</b>: Dopo che un nemico ha attaccato e sconfitto un alleato, colloca quell'alleato a faccia in giù sotto questa trama.\n<b>Se ci sono X carte a faccia in giù sotto questa trama, i giocatori perdono la partita. X è pari al numero di giocatori +3.</b>"
+	},
+	{
+		"code": "32105",
+		"name": "Sentinella Mark V",
+		"text": "<b>Quando Rivelata</b>: Se Designato per l'Eliminazione è assegnato alla tua identità, Sentinella Mark V ti attacca <i>(anche se ti trovi nella sembianza di alter ego).</i> Altrimenti, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta Designato per l'Eliminazione e rivelala.",
+		"traits": "Sentinella."
+	},
+	{
+		"code": "32106",
+		"name": "Sentinella Mark VI",
+		"text": "Colpo Rapido.\n<hr />\n[star] <b>Potenziamento</b>: Se Designato per l'Eliminazione è assegnato a un'identità, distribuisci questa carta come carta incontro a faccia in giù a quel giocatore.",
+		"traits": "Sentinella."
+	},
+	{
+		"code": "32107",
+		"name": "Designato per l'Eliminazione",
+		"text": "Se non ci sono altri Designato per l'Eliminazione assegnati alla tua identità, assegnalo alla tua identità. Altrimenti, questa carta ottiene Impulso.\nMentre sei impegnato con un gregario [[SENTINELLA]], se sei nella sembianza di eroe, non puoi assumere la sembianza di alter ego.\n<b>Azione</b>: Esaurisci la tua identià → scarta questa carta."
+	},
+	{
+		"code": "32108",
+		"flavor": "<i>Le Sentinelle sono state costruite con il solo scopo di dare la caccia ai mutanti. Non sentono la stanchezza, e non si fermeranno finché non avranno catturato il loro bersaglio.</i>",
+		"name": "Robot Implacabili",
+		"text": "Ogni giocatore impegnato con un gregario [[SENTINELLA]] non può intervenire su questa trama."
+	},
+	{
+		"code": "32109",
+		"name": "Master Mold I",
+		"text": "Robustezza. Stabile.\n[star] <b>Interruzione Obbligata</b>: Quando Master Mold trama contro di te, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario [[SENTINELLA]]. Metti in gioco quel gregario impegnato con te. Non far ricevere la carta potenziamento a Master Mold per questa attivazione.",
+		"traits": "Sentinella."
+	},
+	{
+		"code": "32110",
+		"name": "Master Mold II",
+		"text": "Robustezza. Stabile.\n[star] <b>Interruzione Obbligata</b>: Quando Master Mold trama contro di te, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario [[SENTINELLA]]. Metti in gioco quel gregario impegnato con te. Non far ricevere la carta potenziamento a Master Mold per questa attivazione.",
+		"traits": "Sentinella."
+	},
+	{
+		"code": "32111",
+		"name": "Master Mold III",
+		"text": "Robustezza. Stabile.\n[star] <b>Interruzione Obbligata</b>: Quando Master Mold trama contro di te, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario [[SENTINELLA]]. Metti in gioco quel gregario impegnato con te. Non far ricevere la carta potenziamento a Master Mold per questa attivazione.",
+		"traits": "Sentinella."
+	},
+	{
+		"back_text": "<b>Contents:</b> Master Mold (I) and Master Mold (II). <i>(Master Mold (II) and Master Mold (III) for expert mode.)</i> Master Mold, Sentinels, and Standard sets. One modular set (<i>Zero Tolerance</i>).\n<b>Setup:</b> Put the Magneto Ally (172B) into play under the first player's control.",
+		"code": "32112",
+		"name": "The Sentinel Factory",
+		"text": "Each [[Sentinel]] minion gains guard.\n<b>When Revealed</b>: Each player discards cards from the encounter deck until they discard a [[Sentinel]] minion, then puts it into play engaged with them."
+	},
+	{
+		"code": "32112a",
+		"name": "La Fabbrica delle Sentinelle",
+		"text": "<b>Contenuto:</b> Master Mold (I) e Master Mold (II). <i>(Master Mold (II) e Master Mold (III) per la modalità esperto.)</i> Set di incontri Master Mold, Sentinelle e Standard. 1 set di incontri modulare (<i>Tolleranza Zero</i>).\n<b>Preparazione:</b> Metti in gioco l'alleato Magneto (172B) sotto il controllo del primo giocatore."
+	},
+	{
+		"code": "32112b",
+		"name": "La Fabbrica delle Sentinelle",
+		"text": "Ogni gregario [[SENTINELLA]] ottiene Guardia.\n<b>Quando Rivelata</b>: Ogni giocatore scarta carte dalla cima del mazzo degli incontri finché non scarta 1 gregario [[SENTINELLA]], poi lo mette in gioco impegnato con lui."
+	},
+	{
+		"back_text": "<b>When Revealed</b>: Shuffle the encounter discard pile into the encounter deck. Each player discards cards from the encounter deck until they discard a [[Sentinel]] minion, then puts it into play engaged with them.",
+		"code": "32113",
+		"flavor": "Master Mold's programming has backfired! Recognizing that mutants come from humans, the giant Sentinel is programming its 'offspring' to subdue everyone on Earth!",
+		"name": "Master Mold's Agenda",
+		"text": "Each [[Sentinel]] minion gains guard.\n<b>If this stage is completed, the players lose the game.</b>"
+	},
+	{
+		"code": "32113a",
+		"name": "Il Piano di Master Mold",
+		"text": "<b>Quando Rivelata</b>: Mescola la pila degli scarti degli incontri nel mazzo degli incontri. Ogni giocatore scarta carte dalla cima del mazzo degli incontri finché non scarta 1 gregario [[SENTINELLA]], poi lo mette in gioco impegnato con lui."
+	},
+	{
+		"code": "32113b",
+		"flavor": "<i>L'I.A. di Master Mold si è ritorta contro i suoi creatori! Riconoscendo che i mutanti discendono dagli umani, l'enorme Sentinella sta programmando i suoi \"figli\" affinché sottomettano ogni abitante della Terra!</i>",
+		"name": "Il Piano di Master Mold",
+		"text": "Ogni gregario [[SENTINELLA]] ottiene Guardia.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+	},
+	{
+		"code": "32114",
+		"flavor": "\"Hanno potenziato la loro armatura!\" - Ciclope",
+		"name": "Sentinella Mark VIII",
+		"text": "<b>Risposta Obbligata</b>: Dopo che questo gregario ti ha impegnato, assegna la prima aggiunta [[SENTINELLA]] dalla cima della pila degli scarti degli incontri a questo gregario.",
+		"traits": "Sentinella."
+	},
+	{
+		"code": "32115",
+		"name": "Aggiornamento dell Unità",
+		"text": "Assegna a un gregario [[SENTINELLA]]. Se non puoi farlo, questa carta ottiene Impulso.\nIl gregario con questa aggiunta riceve +2 punti ferita e ottiene Ritorsione 1.\n<hr />\n[star] <b>Potenziamento</b>: Assegna a un gregario [[SENTINELLA]].",
+		"traits": "Sentinella. Tecnologia."
+	},
+	{
+		"code": "32116",
+		"name": "Raggio Stordente",
+		"text": "Assegna a un gregario [[SENTINELLA]] senza altri Raggio Stordente assegnati a esso. Se non puoi farlo, questa carta ottiene Impulso.\n[star] <b>Risposta Obbligata</b>: Dopo che il gregario con questa aggiunta ha attaccato e danneggiato un personaggio, stordisci quel personaggio.",
+		"traits": "Sentinella. Tecnologia."
+	},
+	{
+		"code": "32117",
+		"name": "Figli di Master Mold",
+		"text": "<b>Quando Rivelata (Alter Ego)</b>: Ogni gregario impegnato con te trama. Se non ci sono gregari impegnati con te, Master Mold trama.\n<b>Quando Rivelata (Eroe)</b>: Ogni gregario impegnato con te ti attacca. Se non ci sono gregari impegnati con te, Master Mold ti attacca."
+	},
+	{
+		"code": "32118",
+		"name": "Scudi Alzati",
+		"text": "<b>Quando Rivelata</b>: Irrobustisci ogni gregario [[SENTINELLA]] impegnato con te. Se non puoi farlo, questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci il criminale."
+	},
+	{
+		"code": "32119",
+		"name": "Allarme Intrusi!",
+		"text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama scarta carte dalla cima del mazzo degli incontri finché non scarta 1 gregario [[SENTINELLA]], poi lo mette in gioco impegnato con lui."
+	},
+	{
+		"code": "32120",
+		"flavor": "<i>Se riusciste a scaricare un virus informatico nel mainframe di Master Mold, potreste indebolirlo dall'interno.</i>",
+		"name": "Scaricare il Virus",
+		"text": "Ostacolo 2[per_hero]. Vittoria 1.\n<b>Quando Sconfitta</b>: Infliggi 2 danni a ogni nemico [[SENTINELLA]]."
+	},
+	{
+		"code": "32121a",
+		"flavor": "<i>\"Vieni fuori e combatti, o butterò giù l'intero edificio!\"</i>",
+		"name": "Valanga A",
+		"text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Valanga ti ha attaccato, esaurisci 1 alleato che controlli.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"code": "32121b",
+		"flavor": "<i>\"Vieni fuori e combatti, o butterò giù l'intero edificio!\"</i>",
+		"name": "Valanga B",
+		"text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Valanga ti ha attaccato, esaurisci 1 alleato che controlli.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"code": "32122a",
+		"flavor": "<i>\"Prima vi schiaccerò! E poi vi svuoterò il frigorifero!\"</i>",
+		"name": "Blob A",
+		"text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Blob ha attaccato e danneggiato un personaggio, stordisci quel personaggio.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"code": "32122b",
+		"flavor": "<i>\"Prima vi schiaccerò! E poi vi svuoterò il frigorifero!\"</i>",
+		"name": "Blob B",
+		"text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Blob ha attaccato e danneggiato un personaggio, stordisci quel personaggio.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"code": "32123a",
+		"name": "Pyro A",
+		"text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Pyro ti ha attaccato, scarta 2 carte dalla cima del tuo mazzo. Subisci 1 danno indiretto per ogni icona risorsa stampata scartata in questo modo.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"code": "32123b",
+		"name": "Pyro B",
+		"text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Pyro ti ha attaccato, scarta 2 carte dalla cima del tuo mazzo. Subisci 1 danno indiretto per ogni icona risorsa stampata scartata in questo modo.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"code": "32124a",
+		"flavor": "<i>\"Voi X-Men pensate di essere migliori di me! Vi mostrerò di cosa sono capace!\"</i>",
+		"name": "Toad A",
+		"text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Toad ha attaccato e danneggiato un personaggio che controlli, scarta 1 carta casuale dalla tua mano.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"code": "32124b",
+		"flavor": "<i>\"Voi X-Men pensate di essere migliori di me! Vi mostrerò di cosa sono capace!\"</i>",
+		"name": "Toad B",
+		"text": "Robustezza. Vittoria 2.\n[star] <b>Risposta Obbligata</b>: Dopo che Toad ha attaccato e danneggiato un personaggio che controlli, scarta 1 carta casuale dalla tua mano.",
+		"traits": "Confraternita dei Mutanti."
+	},
+	{
+		"back_text": "<b>Contents:</b> Avalanche (A), Blob (A), Pyro (A), and Toad (A). <i>(Use their (B) sides for expert mode.)</i> Mansion Attack, Brotherhood, and Standard sets. One modular set (<i>Mystique</i>).\n<b>Setup:</b> Put the Save the School environment into play. Shuffle all copies of main scheme 2A and stack them under this scheme. Shuffle the villains together <i>(without looking)</i> to create the villain deck. The top card of this deck is in play.",
+		"code": "32125",
+		"flavor": "The Xavier Institute is under attack by the Brotherhood of Mutants!",
+		"name": "The Brotherhood Strikes!",
+		"text": "<b>When Revealed</b>: Deal each player a facedown encounter card. Advance to the next card in the main scheme deck. Add this card to the victory display."
+	},
+	{
+		"code": "32125a",
+		"name": "La Confraternita Colpisce!",
+		"text": "<b>Contenuto:</b> Valanga (A), Blob (A), Pyro (A) e Toad (A). <i>(Usare i loro lati (B) per la modalità esperto.)</i> Set di Incontri Attacco alla Scuola, Confraternita e Standard. 1 set di incontri modulare (<i>Mystica</i>).\n<b>Preparazione:</b> Metti in gioco l'ambiente Salvare la Scuola. Mescola tutte le copie della trama principale 2A e impilale sotto questa trama. Mescola i criminali <i>(senza guardarli)</i> per creare il mazzo dei criminali. La carta in cima a questo mazzo è in gioco."
+	},
+	{
+		"code": "32125b",
+		"flavor": "<i>La Confraternita dei Mutanti ha lanciato un attacco contro l'Istituto Xavier!</i>",
+		"name": "La Confraternita Colpisce!",
+		"text": "<b>Quando Rivelata</b>: Distribuisci 1 carta incontro a faccia in giù a ogni giocatore. Proseguire con la prossima carta nel mazzo delle trame principali. Colloca questa carta nella galleria delle vittorie."
+	},
+	{
+		"back_flavor": "The Brotherhood strike in unison, focusing their attack on...",
+		"back_text": "<b>When Revealed</b>: Flip this card.",
+		"code": "32126",
+		"name": "The Atrium",
+		"text": "Each character gains steady.\n<b>When Completed</b>: Add this scheme to the victory display. Advance to the next card in the main scheme deck.\n <b>If there are 3 main schemes in the victory display, the players lose the game.</b>"
+	},
+	{
+		"code": "32126a",
+		"flavor": "<i>La Confraternita colpisce all'unisono, concentrando il proprio assalto su...</i>",
+		"name": "Attacco all'Istituto Xavier",
+		"text": "<b>Quando Rivelata</b>: Gira questa carta."
+	},
+	{
+		"code": "32126b",
+		"name": "L'Atrio",
+		"text": "Ogni personaggio ottiene Tempra.\n<b>Quando Completata</b>: Colloca questa trama nella galleria delle vittorie. Proseguire con la prossima carta nel mazzo delle trame principali.\n<b>Se ci sono 3 trame principali nella galleria delle vittorie, i giocatori perdono la partita.</b>"
+	},
+	{
+		"back_flavor": "The Brotherhood strike in unison, focusing their attack on...",
+		"back_text": "<b>When Revealed</b>: Flip this card.",
+		"code": "32127",
+		"name": "The Cafeteria",
+		"text": "Each character gains retaliate 1.\n<b>When Completed</b>: Add this scheme to the victory display. Advance to the next card in the main scheme deck.\n <b>If there are 3 main schemes in the victory display, the players lose the game.</b>"
+	},
+	{
+		"code": "32127a",
+		"flavor": "<i>La Confraternita colpisce all'unisono, concentrando il proprio assalto su...</i>",
+		"name": "Attacco all'Istituto Xavier",
+		"text": "<b>Quando Rivelata</b>: Gira questa carta."
+	},
+	{
+		"code": "32127b",
+		"name": "La Mensa",
+		"text": "Ogni personaggio ottiene Ritorsione 1.\n<b>Quando Completata</b>: Colloca questa trama nella galleria delle vittorie. Proseguire con la prossima carta nel mazzo delle trame principali.\n<b>Se ci sono 3 trame principali nella galleria delle vittorie, i giocatori perdono la partita.</b>"
+	},
+	{
+		"back_flavor": "The Brotherhood strike in unison, focusing their attack on...",
+		"back_text": "<b>When Revealed</b>: Flip this card.",
+		"code": "32128",
+		"name": "The Basketball Court",
+		"text": "Each ally and minion gains toughness.\n<b>When Completed</b>: Add this scheme to the victory display. Advance to the next card in the main scheme deck.\n <b>If there are 3 main schemes in the victory display, the players lose the game.</b>"
+	},
+	{
+		"code": "32128a",
+		"flavor": "<i>La Confraternita colpisce all'unisono, concentrando il proprio assalto su...</i>",
+		"name": "Attacco all'Istituto Xavier",
+		"text": "<b>Quando Rivelata</b>: Gira questa carta."
+	},
+	{
+		"code": "32128b",
+		"name": "Il Campo da Basket",
+		"text": "Ogni alleato e ogni gregario ottengono Robustezza.\n<b>Quando Completata</b>: Colloca questa trama nella galleria delle vittorie. Proseguire con la prossima carta nel mazzo delle trame principali.\n<b>Se ci sono 3 trame principali nella galleria delle vittorie, i giocatori perdono la partita.</b>"
+	},
+	{
+		"back_flavor": "The Brotherhood strike in unison, focusing their attack on...",
+		"back_text": "<b>When Revealed</b>: Flip this card.",
+		"code": "32129",
+		"name": "The Courtyard",
+		"text": "Each character gains +1 ATK.\n<b>When Completed</b>: Add this scheme to the victory display. Advance to the next card in the main scheme deck.\n <b>If there are 3 main schemes in the victory display, the players lose the game.</b>"
+	},
+	{
+		"code": "32129a",
+		"flavor": "<i>La Confraternita colpisce all'unisono, concentrando il proprio assalto su...</i>",
+		"name": "Attacco all'Istituto Xavier",
+		"text": "<b>Quando Rivelata</b>: Gira questa carta."
+	},
+	{
+		"code": "32129b",
+		"name": "Il Cortile",
+		"text": "Ogni personaggio ottiene +1 ATT.\n<b>Quando Completata</b>: Colloca questa trama nella galleria delle vittorie. Proseguire con la prossima carta nel mazzo delle trame principali.\n<b>Se ci sono 3 trame principali nella galleria delle vittorie, i giocatori perdono la partita.</b>"
+	},
+	{
+		"code": "32130",
+		"name": "Salvare la Scuola",
+		"text": "<b>Risposta Obbligata</b>: Dopo che il criminale è stato sconfitto, se ci sono X criminali nella galleria delle vittorie, i giocatori vincono la partita. (Vedi il regolamento). Altrimenti, distribuisci 1 carta incontro a faccia in giù a ogni giocatore e rivela il prossimo criminale. Se ci sono gregari con lo stesso nome del nuovo criminale impegnati con un giocatore, scarta quei gregari e il criminale si attiva contro quel giocatore."
+	},
+	{
+		"code": "32131",
+		"name": "Pestaggio della Confraternita",
+		"text": "<b>Quando Rivelata</b>: Se in gioco c'è il nemico:\n- Valanga, esaurisci la tua identità.\n- Blob, sei stordito.\n- Pyro, subisci 2 danni indiretti.\n- Toad, scarta 1 carta casuale dalla tua mano."
+	},
+	{
+		"code": "32132",
+		"name": "Onda Sismica",
+		"text": "<b>Quando Rivelata</b>: Valanga si attiva contro di te. Se non è in gioco, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri il gregario Valanga e rivelalo.\n<hr />\n[star] <b>Potenziamento</b>: Se il criminale è Valanga, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione."
+	},
+	{
+		"code": "32133",
+		"name": "Incrollabile",
+		"text": "<b>Quando Rivelata</b>: Blob si attiva contro di te. Se non è in gioco, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri il gregario Blob e rivelalo.\n<hr />\n[star] <b>Potenziamento</b>: Se il criminale è Blob, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione."
+	},
+	{
+		"code": "32134",
+		"name": "Piromane",
+		"text": "<b>Quando Rivelata</b>: Pyro si attiva contro di te. Se non è in gioco, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri il gregario Pyro e rivelalo.\n<hr />\n[star] <b>Potenziamento</b>: Se il criminale è Pyro, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione."
+	},
+	{
+		"code": "32135",
+		"name": "Balzi Pazzeschi",
+		"text": "<b>Quando Rivelata</b>: Toad si attiva contro di te. Se non è in gioco, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri il gregario Toad e rivelalo.\n<hr />\n[star] <b>Potenziamento</b>: Se il criminale è Toad, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione."
+	},
+	{
+		"code": "32136",
+		"name": "Proteggere gli Studenti",
+		"text": "Ostacolo 2[per_hero].\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama cerca nel suo mazzo e nella sua pila degli scarti 1 alleato e lo aggiunge alla sua mano."
+	},
+	{
+		"code": "32137",
+		"name": "Sotto Assedio",
+		"text": "<b>Quando Rivelata</b>: Colloca 3 minacce su questa trama per ogni personaggio [[CONFRATERNITA DEI MUTANTI]] in gioco."
+	},
+	{
+		"code": "32138",
+		"flavor": "<i>\"Opporsi al Signore del Magnetismo è invocare la propria distruzione!\"</i>",
+		"name": "Magneto I",
+		"text": "Robustezza. Tempra.\n[star] <b>Risposta Obbligata</b>: Dopo che Magneto ti ha attaccato, colloca 1 gettone magnete sulla trama principale.",
+		"traits": "Confraternita dei Mutanti"
+	},
+	{
+		"code": "32139",
+		"name": "Magneto II",
+		"text": "Robustezza. Tempra.\r\n<b>Quando Rivelata</b>: Distribuisci 1 carta incontro a faccia in giù a ogni giocatore.\n[star] <b>Risposta Obbligata</b>: Dopo che Magneto ti ha attaccato, colloca 1 gettone magnete sulla trama principale.",
+		"traits": "Confraternita dei Mutanti"
+	},
+	{
+		"code": "32140",
+		"name": "Magneto III",
+		"text": "Robustezza. Tempra.\r\n<b>Quando Rivelata</b>: Distribuisci 1 carta incontro a faccia in giù a ogni giocatore.\n[star] <b>Risposta Obbligata</b>: Dopo che Magneto ti ha attaccato, colloca 1 gettone magnete sulla trama principale.",
+		"traits": "Confraternita dei Mutanti"
+	},
+	{
+		"back_flavor": "Magneto floats above the Earth in his orbital sanctuary.",
+		"back_text": "<b>Contents:</b> Magneto (I) and Magneto (II). <i>(Magneto (II) and Magneto (III) for expert mode.)</i> Magneto and Standard sets. One modular set (<i>Acolytes</i>).\n<b>Setup:</b> Set the Orbital Decay side scheme aside. Reveal the Boarding Party side scheme.",
+		"code": "32141",
+		"name": "Asteroid M",
+		"text": "<b>Forced Response</b>: After you place a magnet counter on this scheme, if there are at least 3 magnet counters here, discard cards from the encounter deck until a [[Magnetic]] card is discarded. Reveal that card, then remove 3 magnet counters from this scheme."
+	},
+	{
+		"code": "32141a",
+		"flavor": "<i>Magneto fluttua attorno alla Terra sul suo rifugio orbitale.</i>",
+		"name": "Asteroide M",
+		"text": "<b>Contenuto:</b> Magneto (I) e Magneto (II). <i>(Magneto (II) e Magneto (III) per la modalità esperto.)</i> Set di incontri Magneto e Standard. 1 set di incontri modulare (<i>Accoliti</i>).\n<b>Preparazione:</b> Metti da parte la trama secondaria Decadimento Orbitale. Rivela la trama secondaria Squadra d'Abbordaggio."
+	},
+	{
+		"code": "32141b",
+		"name": "Asteroide M",
+		"text": "<b>Risposta Obbligata</b>: Dopo che hai collocato 1 o più gettoni magnete su questa trama, se ci sono 3 o più gettoni magnete su questa carta, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 carta [[MAGNETICO]]. Rivela quella carta, poi rimuovi 3 gettoni magnete da questa trama."
+	},
+	{
+		"back_text": "<b>When Revealed</b>: Place 1 magnet counter here. If Sabotage Master Mold is not in the victory display, the first player searches the encounter deck and discard pile for a copy of the M-Type Sentinel minion and reveals it.",
+		"code": "32142",
+		"name": "Factory Online",
+		"text": "<b>Forced Response</b>: After you place a magnet counter on this scheme, if there are at least 3 magnet counters here, discard cards from the encounter deck until a [[Magnetic]] card is discarded. Reveal that card, then remove 3 magnet counters from this scheme."
+	},
+	{
+		"code": "32142a",
+		"name": "Fabbrica Operativa",
+		"text": "<b>Quando Rivelata</b>: Colloca 1 gettone magnete su questa carta. Se Sabotare Master Mold non è nella galleria delle vittorie, il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 copia del gregario Sentinella Modello-M e la rivela."
+	},
+	{
+		"code": "32142b",
+		"name": "Fabbrica Operativa",
+		"text": "<b>Risposta Obbligata</b>: Dopo che hai collocato 1 o più gettoni magnete su questa trama, se ci sono 3 o più gettoni magnete su questa carta, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 carta [[MAGNETICO]]. Rivela quella carta, poi rimuovi 3 gettoni magnete da questa trama."
+	},
+	{
+		"back_text": "<b>When Revealed</b>: Place 2 magnet counters here. If Physical Strain is not attached to Magneto, the first player searches the encounter deck and discard pile for a [[Magnetic]] attachement and reveals it.",
+		"code": "32143",
+		"name": "The Rule of Magnus",
+		"text": "<b>Forced Response</b>: After you place a magnet counter on this scheme, if there are at least 3 magnet counters here, discard cards from the encounter deck until a [[Magnetic]] card is discarded. Reveal that card, then remove 3 magnet counters from this scheme.\n<b>If this stage is completed, the players lose the game.</b>"
+	},
+	{
+		"code": "32143a",
+		"name": "Il Regno di Magnus",
+		"text": "<b>Quando Rivelata</b>: Colloca 2 gettoni magnete su questa carta. Se Sforzo Estenuante non è assegnato a Magneto, il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta [[MAGNETICO]] e la rivela."
+	},
+	{
+		"code": "32143b",
+		"name": "Il Regno di Magnus",
+		"text": "<b>Risposta Obbligata</b>: Dopo che hai collocato 1 o più gettoni magnete su questa trama, se ci sono 3 o più gettoni magnete su questa carta, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 carta [[MAGNETICO]]. Rivela quella carta, poi rimuovi 3 gettoni magnete da questa trama.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+	},
+	{
+		"code": "32144a",
+		"flavor": "<i>Per poter fermare il malvagio piano di Magneto, dovrete prima salire a bordo dell'Asteroide M.</i>",
+		"name": "Squadra d'Abbordaggio",
+		"text": "Magneto non può avere più di 6[per_hero] danni sostenuti.\n<b>Quando Sconfitta</b>: Gira questa carta e rivela Sabotare Master Mold."
+	},
+	{
+		"code": "32144b",
+		"flavor": "<i>Master Mold è stato riprogrammato. Dovete riuscire a disattivarlo prima che possa creare delle Sentinelle cacciatrici di umani!</i>",
+		"name": "Sabotare Master Mold",
+		"text": "Magneto non può avere più di 12[per_hero] danni sostenuti.\n<b>Quando Sconfitta</b>: Rivela la trama secondaria Decadimento Orbitale messa da parte. Colloca questa carta nella galleria delle vittorie."
+	},
+	{
+		"code": "32145a",
+		"flavor": "<i>Magneto è un avversario indomito. L'unico modo per assicurarsi la sua sconfitta è distruggere la sua base orbitale facedola schiantare sulla Terra.</i>",
+		"name": "Decadimento Orbitale",
+		"text": "Magneto non può avere più di 18[per_hero] danni sostenuti.\n<b>Quando Sconfitta</b>: Gira questa carta e rivela Sforzo Estenuante."
+	},
+	{
+		"code": "32145b",
+		"flavor": "<i>Mentre l'Asteroide M comincia a precipitare inesorabilmente, Magneto sfrutta tutto il suo potere per tenerlo in orbita senza smettere di affrontarvi!</i>",
+		"name": "Sforzo Estenuante",
+		"text": "Assegna a Magneto.\nPermanente.\nMagneto perde Tempra.",
+		"traits": "Condizione."
+	},
+	{
+		"code": "32146",
+		"name": "Sentinella Modello-M",
+		"text": "Guardia.\r\n<b>Quando Sconfitta</b>: Irrobustisci Magneto.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci Magneto e fagli ricevere 1 carta potenziamento a faccia in giù.",
+		"traits": "Sentinella."
+	},
+	{
+		"code": "32147",
+		"flavor": "<i>Magneto ha progettato il suo elmo per proteggersi dai poteri telepatici di Xavier.</i>",
+		"name": "Elmo di Magneto",
+		"text": "Assegna a Magneto.\nMagneto non può essere confuso.\n<b>Risposta Eroe</b>: Dopo che il tuo eroe ha effettuato un attacco base contro Magneto, spendi [energy] [mental] [physical] → scarta questa carta. ",
+		"traits": "Armatura. Magnetico."
+	},
+	{
+		"code": "32148",
+		"flavor": "<i>L'armatura di Magneto è abbastanza resistente da permettergli di sopravvivere a un colpo diretto di un raggio di guanto delle Sentinelle.</i>",
+		"name": "Armatura di Magneto",
+		"text": "Assegna a Magneto.\nMagneto non può essere stordito.\n<b>Risposta Eroe</b>: Dopo che il tuo eroe ha effettuato un attacco base contro Magneto, spendi [energy] [mental] [physical] → scarta questa carta. ",
+		"traits": "Armatura. Magnetico."
+	},
+	{
+		"code": "32149",
+		"name": "Bolla Magnetica",
+		"text": "Assegna a Magneto.\nMagneto ottiene Ritorsione 1.\n<b>Interruzione Obbligata</b>: Quando Magneto sta per subire un qualsiasi ammontare di danni, collocalo invece su questa carta. Poi, se ci sono 8 o più danni su questa carta, scartala.",
+		"traits": "Magnetico."
+	},
+	{
+		"code": "32150",
+		"flavor": "<i>\"Beh... questa non ci voleva.\" - Arcangelo</i>",
+		"name": "Avvolto nel Metallo",
+		"text": "Assegna alla tua identità. Massimo 1 per identità.\nL'identità con questa aggiunta non può intervenire, attaccare, difendere o recuperare.\n<b>Azione</b>: Esaurisci la tua identità e spendi [physical] → scarta questa carta. ",
+		"traits": "Magnetico."
+	},
+	{
+		"code": "32151",
+		"flavor": "<i>\"Né i vostri poteri né le vostre capacità potranno salvarvi dalla mia ira!\" - Magneto</i>",
+		"name": "Signore del Magnetismo",
+		"text": "<b>Quando Rivelata</b>: Prendi la prima carta [[MAGNETICO]] dalla cima della pila degli scarti degli incontri e falla ricevere a Magneto come carta potenziamento a faccia in giù. Magneto si attiva contro di te."
+	},
+	{
+		"code": "32152",
+		"name": "Scossa Elettrica",
+		"text": "<b>Quando Rivelata (Alter Ego)</b>: Sei confuso. Colloca 1 minaccia sulla trama principale per ogni gettone magnete su di essa.\n<b>Quando Rivelata (Eroe)</b>: Sei stordito. Subisci 1 danno per ogni gettone magnete sulla trama principale.",
+		"traits": "Magnetico."
+	},
+	{
+		"code": "32153",
+		"name": "Scarica Elettromagnetica",
+		"text": "<b>Quando Rivelata</b>: Esaurisci ogni miglioria e supporto che controlli. Colloca 1 gettone magnete sulla trama principale.\n<hr />\n[star] <b>Potenziamento</b>: Esaurisci la tua identità.",
+		"traits": "Magnetico."
+	},
+	{
+		"code": "32154",
+		"name": "Schegge Metalliche",
+		"text": "<b>Quando Rivelata</b>: Infliggi 1 danno a ogni personaggio che controlli. Colloca 1 gettone magnete sulla trama principale.\n<hr />\n[star] <b>Potenziamento</b>: Se questo attacco sconfigge un alleato, colloca 1 gettone magnete sulla trama principale.",
+		"traits": "Magnetico."
+	},
+	{
+		"code": "32155",
+		"flavor": "<i>\"Avrei dovuto aspettarmelo!\" - Ciclope</i>",
+		"name": "Missile Magnetico",
+		"text": "Impulso.\n<b>Quando Rivelata</b>: Sconfiggi 1 gregario [[SENTINELLA]] in gioco. Poi subisci 5 danni. Puoi scartare X carte dalla tua mano per prevenire X di quei danni.",
+		"traits": "Magnetico."
+	},
+	{
+		"code": "32156",
+		"name": "Caos Magnetico",
+		"text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama scarta 4 carte dalla cima del mazzo degli incontri. Quel giocatore colloca 1 gettone magnete sulla trama principale per ogni carta [[MAGNETICO]] scartata in questo modo.",
+		"traits": "Magnetico."
+	},
+	{
+		"code": "32157",
+		"name": "Sigillato Magneticamente",
+		"text": "<b>Quando Rivelata</b>: Colloca 2 minacce aggiuntive su questa carta per ogni alleato in gioco.\n<hr />\n[star] <b>Potenziamento</b>: Esaurisci ogni alleato che controlli.",
+		"traits": "Magnetico."
+	},
+	{
+		"code": "32158",
+		"name": "Preso!",
+		"text": "<b>Quando Rivelata</b>: Ogni giocatore colloca 6 carte dalla cima del proprio mazzo a faccia in giù sotto questa carta.\n<b>Quando Sconfitta</b>: Magneto si attiva contro il giocatore che ha sconfitto questa trama. <i>(Scarta le carte sotto questa carta.)</i>",
+		"traits": "Magnetico."
+	},
+	{
+		"code": "32159",
+		"name": "Fabian Cortez",
+		"text": "Criminoso. Lavoro di Squadra ([[ACCOLITO]]).\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto Fabian Cortez scarta carte dalla cima del mazzo degli incontri finché non scarta 1 gregario [[ACCOLITO]], poi mette in gioco quel gregario impegnato con lui.",
+		"traits": "Accolito. Elite."
+	},
+	{
+		"code": "32160",
+		"name": "Amelia Voght",
+		"text": "Lavoro di Squadra ([[ACCOLITO]]). Stabile.\r\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto Amelia Voght è confuso. Se era già confuso, colloca 2 minacce sulla trama principale.",
+		"traits": "Accolito."
+	},
+	{
+		"code": "32161",
+		"name": "Senyaka",
+		"text": "Lavoro di Squadra ([[ACCOLITO]]).\n[star] Gli attacchi di Senyaka ottengono Perforante.\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto Senyaka è stordito. Se era già stordito, subisce 3 danni.",
+		"traits": "Accolito."
+	},
+	{
+		"code": "32162",
+		"name": "Delgado",
+		"text": "Lavoro di Squadra ([[ACCOLITO]]). Ritorsione 1.\n<b>Quando Sconfitta</b>: Scarta ogni carta status Stordito e Confuso dal criminale e fagli ricevere 1 carta potenziamento a faccia in giù.",
+		"traits": "Accolito."
+	},
+	{
+		"code": "32163",
+		"name": "Unuscione",
+		"text": "Lavoro di Squadra ([[ACCOLITO]]). Robustezza.\n<b>Quando Sconfitta</b>: Irrobustisci il criminale. Se il criminale era già robusto, curagli 4 danni.",
+		"traits": "Accolito."
+	},
+	{
+		"code": "32164",
+		"name": "Zelo per la Causa",
+		"text": "<b>Quando Rivelata</b>: Risolvi la capacità \"<b>Quando Sconfitta</b>\" di ogni gregario [[ACCOLITO]] impegnato con te. Se non ci sono gregari [[ACCOLITO]] impegnati con te, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario, poi rivelalo."
+	},
+	{
+		"code": "32165",
+		"name": "Gli Accoliti",
+		"text": "Ogni gregario [[ACCOLITO]] ottiene Guardia.\n<hr />\n[star] <b>Potenziamento</b>: Mescola ogni gregario [[ACCOLITO]] dalla pila degli scarti degli incontri nel mazzo degli incontri."
+	},
+	{
+		"code": "32166",
+		"flavor": "<i>\"Sono tornato.\"</i>",
+		"name": "Nimrod",
+		"text": "Stabile. Vittoria 1.\nNimrod non può subire più di 3 danni in ogni fase.",
+		"traits": "Elite. Sentinella."
+	},
+	{
+		"code": "32167",
+		"flavor": "<i>\"Per assicurare un futuro all'umanità, distruggerò la specie mutante.\"</i>",
+		"name": "Bastion",
+		"text": "Criminoso. Robustezza. Vittoria 1.\n<hr />\n[star] <b>Potenziamento</b>: Distribuisci questa carta come carta incontro a faccia in giù a te stesso.",
+		"traits": "Elite. Sentinella."
+	},
+	{
+		"code": "32168",
+		"name": "Portale di Nimrod",
+		"text": "Vittoria 1.\n<b>Quando Sconfitta</b>: In ordine di gioco, ogni giocatore scarta 2 carte dalla cima del mazzo degli incontri e subisce un ammontare di danni indiretti pari al numero di icone potenziamento ([boost]) scartate in questo modo."
+	},
+	{
+		"code": "32169",
+		"flavor": "Bastion manipola gli eventi del presente per piantare i semi del futuro da cui proviene.",
+		"name": "Macchinazioni di Bastion",
+		"text": "Vittoria 1.\n<b>Quando Rivelata</b>: Ogni giocatore colloca 9 carte dalla cima del proprio mazzo a faccia in giù sotto questa carta."
+	},
+	{
+		"code": "32170",
+		"name": "Tecnologia delle Nano-Sentinelle",
+		"text": "Vittoria 1.\nIl gregario con questa aggiunta riceve +4 punti ferita e ottiene il tratto [[SENTINELLA]]. \n<b>Quando Rivelata</b>: cerca nel mazzo degli incontri, nella pila degli scarti degli incontri e nelle carte messe da parte il tuo gregario nemesi. Mettilo in gioco impegnato con te e assegnagli questa carta.",
+		"traits": "Sentinella. Tecnologia."
+	}
 ]
