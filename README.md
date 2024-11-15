@@ -144,6 +144,7 @@ To check and apply formatting to JSON files:
   * `main_scheme`
   * `minion`
   * `obligation`
+  * `player_side_scheme`
   * `resource`
   * `side_scheme`
   * `support`
@@ -172,9 +173,13 @@ To have text spanning multiple lines, use `\n` to separate them. To have quotes 
 
 These can be used in a card's `text` section. It will get converted to the appropriate icon.
 
+* `[acceleration]`
+* `[amplify]`
 * `[boost]`
 * `[cost]`
+* `[crisis]`
 * `[energy]`
+* `[hazard]`
 * `[mental]`
 * `[per_hero]`
 * `[physical]`
