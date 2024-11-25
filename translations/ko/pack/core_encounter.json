@@ -20,9 +20,13 @@
 		"traits": "Brute. Criminal."
 	},
 	{
-		"back_flavor": "Rhino is attacking a S.H.I.E.L.D. facility!",
-		"back_text": "<b>Contents</b>: Rhino (I) and Rhino (II). (Rhino (II) and Rhino (III) instead for expert mode.) Rhino and Standard encounter sets. One modular encounter set <i>(recommended: Bomb Scare)</i>.\n<b>Setup</b>: Advance to stage 1B.",
-		"code": "01097",
+		"code": "01097a",
+		"flavor": "Rhino is attacking a S.H.I.E.L.D. facility!",
+		"name": "The Break-In!",
+		"text": "<b>Contents</b>: Rhino (I) and Rhino (II). (Rhino (II) and Rhino (III) instead for expert mode.) Rhino and Standard encounter sets. One modular encounter set <i>(recommended: Bomb Scare)</i>.\n<b>Setup</b>: Advance to stage 1B."
+	},
+	{
+		"code": "01097b",
 		"flavor": "Rhino is trying to smash through the facility wall and steal a shipment of vibranium. You must stop him!",
 		"name": "The Break-In!",
 		"text": "<b>If this stage is completed, the players lose the game.</b>"
@@ -138,17 +142,25 @@
 		"traits": "Masters of Evil."
 	},
 	{
-		"back_flavor": "The attack on the S.H.I.E.L.D. facility has been linked to an underground weapons network.",
-		"back_text": "<b>Contents</b>: Klaw (I) and Klaw (II). <i>(Klaw (II) and Klaw (III) instead for expert mode.)</i> Klaw and Standard encounter sets. One modular encounter set <i>(recommended: Masters of Evil)</i>\n<b>Setup</b>: Search the encounter deck for the Defense Network side scheme and reveal it. Shuffle the encounter deck. Advance to stage 1B.",
-		"code": "01116",
+		"code": "01116a",
+		"flavor": "The attack on the S.H.I.E.L.D. facility has been linked to an underground weapons network.",
+		"name": "Underground Distribution",
+		"text": "<b>Contents</b>: Klaw (I) and Klaw (II). <i>(Klaw (II) and Klaw (III) instead for expert mode.)</i> Klaw and Standard encounter sets. One modular encounter set <i>(recommended: Masters of Evil)</i>\n<b>Setup</b>: Search the encounter deck for the Defense Network side scheme and reveal it. Shuffle the encounter deck. Advance to stage 1B."
+	},
+	{
+		"code": "01116b",
 		"flavor": "Your investigation reveals that the criminal enterprise is operated by Klaw, an old rival of the Avengers!",
 		"name": "Underground Distribution",
 		"text": "<b>When Revealed</b>: Discard cards from the encounter deck until a minion is discarded. Put that minion into play engaged with the first player."
 	},
 	{
-		"back_flavor": "Klaw has found a buyer for his illegal weapons. It's up to you to stop the sale but the meeting is surrounded by Klaw's cronies.",
-		"back_text": "<b>When Revealed</b>: Discard cards from the encounter deck until a minion is discarded. Put that minion into play engaged with the first player. Advance to stage 2B",
-		"code": "01117",
+		"code": "01117a",
+		"flavor": "Klaw has found a buyer for his illegal weapons. It's up to you to stop the sale but the meeting is surrounded by Klaw's cronies.",
+		"name": "Secret Rendezvous",
+		"text": "<b>When Revealed</b>: Discard cards from the encounter deck until a minion is discarded. Put that minion into play engaged with the first player. Advance to stage 2B"
+	},
+	{
+		"code": "01117b",
 		"flavor": "Klaw is meeting with the Crimson Cowl. Klaw and the mysterious figure dart into the shadows when you confront them, and Klaw's minions move to cover their escape.",
 		"name": "Secret Rendezvous",
 		"text": "<b>If this stage is completed, the players lose the game.</b>"
@@ -264,25 +276,37 @@
 		"traits": "Android."
 	},
 	{
-		"back_flavor": "Klaw's mysterious, red-hooded employer is really the genocidal android Ultron.",
-		"back_text": "<b>Contents</b>: Ultron (I) and Ultron (II). <i>(Ultron (II) and Ultron (III) instead for expert mode.)</i> Ultron and Standard encounter sets. One modular encounter set <i>(recommended: Under Attack).</i>\n<b>Setup</b>: Put the Ultron Drones environment into play. Shuffle the encounter deck. Advanced to stage 1B.",
-		"code": "01137",
+		"code": "01137a",
+		"flavor": "Klaw's mysterious, red-hooded employer is really the genocidal android Ultron.",
+		"name": "The Crimson Cowl",
+		"text": "<b>Contents</b>: Ultron (I) and Ultron (II). <i>(Ultron (II) and Ultron (III) instead for expert mode.)</i> Ultron and Standard encounter sets. One modular encounter set <i>(recommended: Under Attack).</i>\n<b>Setup</b>: Put the Ultron Drones environment into play. Shuffle the encounter deck. Advanced to stage 1B."
+	},
+	{
+		"code": "01137b",
 		"flavor": "Ultron is using the components Klaw delivered in order to build an army of Ultron drones.",
 		"name": "The Crimson Cowl",
 		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion."
 	},
 	{
-		"back_flavor": "As you pursue Ultron, you receive a distress call from the North American Aerospace Defense Command in Colorado. They are besieged by an army of Ultron drones!",
-		"back_text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion. Advance to stage 2B.",
-		"code": "01138",
+		"code": "01138a",
+		"flavor": "As you pursue Ultron, you receive a distress call from the North American Aerospace Defense Command in Colorado. They are besieged by an army of Ultron drones!",
+		"name": "Assault on NORAD",
+		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion. Advance to stage 2B."
+	},
+	{
+		"code": "01138b",
 		"flavor": "If Ultron gains control of NORAD, he will have access to the United States' ballistic missile command!",
 		"name": "Assault on NORAD",
 		"text": "<b>Forced Response</b>: After placing threat here during step one of the villain phase, each player must choose to either place 2 threat here or put the top card of their deck into play facedown, engaged with them as a [[Drone]] minion."
 	},
 	{
-		"back_flavor": "Ultron has seized control of NORAD. It's only a matter of time before he overcomes the command safeguards and launches the nuclear arsenal.",
-		"back_text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion. Advance to stage 3B.",
-		"code": "01139",
+		"code": "01139a",
+		"flavor": "Ultron has seized control of NORAD. It's only a matter of time before he overcomes the command safeguards and launches the nuclear arsenal.",
+		"name": "Countdown to Oblivion",
+		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion. Advance to stage 3B."
+	},
+	{
+		"code": "01139b",
 		"flavor": "It's up to you to save the world from nuclear armageddon!",
 		"name": "Countdown to Oblivion",
 		"text": "Threat cannot be removed from this scheme.\n<b>If this stage is completed, the players lose the game</b>"

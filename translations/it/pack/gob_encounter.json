@@ -36,16 +36,24 @@
 		"traits": "Goblin."
 	},
 	{
-		"back_text": "<b>Contenuto</b>: Norman Osborn (I) e Norman Osborn (II). <i>(Norman Osborn (II) e Norman Osborn (III) invece per la modalità esperto.)</i> Set di incontri Affari Rischiosi e Standard. 1 set di incontri modulare <i>(consigliato: Trucchi di Goblin)</i>.\n<b>Preparazione</b>: Metti in gioco l'ambiente Organizzazione Criminale. Mescola il mazzo degli incontri. Proseguire con lo stadio 1B.",
-		"code": "02004",
+		"code": "02004a",
+		"name": "Acquisizione Ostile",
+		"text": "<b>Contenuto</b>: Norman Osborn (I) e Norman Osborn (II). <i>(Norman Osborn (II) e Norman Osborn (III) invece per la modalità esperto.)</i> Set di incontri Affari Rischiosi e Standard. 1 set di incontri modulare <i>(consigliato: Trucchi di Goblin)</i>.\n<b>Preparazione</b>: Metti in gioco l'ambiente Organizzazione Criminale. Mescola il mazzo degli incontri. Proseguire con lo stadio 1B."
+	},
+	{
+		"code": "02004b",
 		"flavor": "Norman Osborn ha indetto una riunione del consiglio di amministrazione, con l'intezione di impadronirsi di una branca delle Startk Industries",
 		"name": "Acquisizione Ostile",
 		"text": "<b>Quando Completata</b>: Colloca1[per_hero] gettone infamia su Organizzazione Criminale, poi scarta 1 carta dal mazzo di ogni giocatore per ogni gettore infamia su Organizzazione Criminale."
 	},
 	{
-		"back_flavor": "Ora che una branca della Stark Industries è sotto il suo controllo, Norman Osborn potrà accedere a varie tecnologie letali e quadruplicare il flusso di produzione della Oscorp",
-		"back_text": "<b>Quando Rivelata</b>: Proseguire con lo stadio 2B.",
-		"code": "02005",
+		"code": "02005a",
+		"flavor": "Ora che una branca della Stark Industries è sotto il suo controllo, Norman Osborn potrà accedere a varie tecnologie letali e quadruplicare il flusso di produzione della Oscorp",
+		"name": "Acquisizione Corporativa",
+		"text": "<b>Quando Rivelata</b>: Proseguire con lo stadio 2B."
+	},
+	{
+		"code": "02005b",
 		"flavor": "Se Norman Osborn ha successo, nulla potrà impedirgli di raggiungere la supremazia tecnologica",
 		"name": "Acquisizione Corporativa",
 		"text": "<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
@@ -120,16 +128,24 @@
 		"traits": "Goblin."
 	},
 	{
-		"back_text": "<b>Contenuto</b>: Goblin (I) e Goblin (II). <i>(Goblin (II) e Goblin (III) invece per la modalità esperto.)</i> Set di incontri Formula Mutagena e Standard. 1 set di incontri modulare <i>(Consigliato: Trucchi Goblin)</i>.\n<b>Preparazione</b>: Metti in gioco 1 gregario Servitore Goblin impegnato con ogni giocatore. Mescola il mazzo degli incontri. Proseguire con lo stadio 1B.",
-		"code": "02017",
+		"code": "02017a",
+		"name": "Scatenare il Mutageno",
+		"text": "<b>Contenuto</b>: Goblin (I) e Goblin (II). <i>(Goblin (II) e Goblin (III) invece per la modalità esperto.)</i> Set di incontri Formula Mutagena e Standard. 1 set di incontri modulare <i>(Consigliato: Trucchi Goblin)</i>.\n<b>Preparazione</b>: Metti in gioco 1 gregario Servitore Goblin impegnato con ogni giocatore. Mescola il mazzo degli incontri. Proseguire con lo stadio 1B."
+	},
+	{
+		"code": "02017b",
 		"flavor": "Goblin ha diffuso una nube di gas mutageno tossico su New York.",
 		"name": "Scatenare il Mutageno",
 		"text": "<b>Quando Completata</b>: In ordine di gioco, ogni giocatore non impegnato con un gregario [[Goblin]] scarta 3 carte dal mazzo degli incontri e mette in gioco il primo gregario [[Goblin]] scartato in questo modoimpegnato con lui."
 	},
 	{
-		"back_flavor": "Mentre la nube avviluppa la città, chi è stato tanto sfortunato da rimanere immerso nei suoi vapori è scosso da brividi e inizia a mutare in un'orrenda creatura goblinoide",
-		"back_text": "<b>Quando Rivalata</b>: Proseguire con lo stadio 2B.",
-		"code": "02018",
+		"code": "02018a",
+		"flavor": "Mentre la nube avviluppa la città, chi è stato tanto sfortunato da rimanere immerso nei suoi vapori è scosso da brividi e inizia a mutare in un'orrenda creatura goblinoide",
+		"name": "Nube Mutagena",
+		"text": "<b>Quando Rivalata</b>: Proseguire con lo stadio 2B."
+	},
+	{
+		"code": "02018b",
 		"flavor": "Le creature goblinoidi obbediscono a ogni comando di Goblin. Bisogna fermarlo prima che il suo mostruoso esercito invada la città!",
 		"name": "Nube Mutagena",
 		"text": "X è pari al numero dei nemici [[Goblin]] in gioco (Incluso Green Goblin stesso).\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
