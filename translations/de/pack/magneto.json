@@ -34,6 +34,25 @@
         "traits": "Armor. Magnetic."
     },
     {
+        "code": "49005",
+        "name": "Magneto's Cape",
+        "text": "Magneto gains the [[Aerial]] trait.\n<b>Response</b>: After you resolve your <i>\"Magnetic Pull\"</i> ability, exhaust Magneto's Cape \u2192 ready Magneto.",
+        "traits": "Armor. Magnetic."
+    },
+    {
+        "code": "49006",
+        "name": "Magnetic Bubble",
+        "text": "Magneto gains retaliate 1.\n<b>Forced Interrupt</b>: When you would take any amount of damage, place it here. Then, if there is at least 6 damage here, discard Magnetic Bubble.",
+        "traits": "Magnetic. Superpower."
+    },
+    {
+        "code": "49007",
+        "flavor": "\"Your power is no match for the Master of Magnetism!\"\u2014Magneto",
+        "name": "Wrapped in Metal",
+        "text": "Hero form only. Attach to a non-[[ELITE]] minion.\nAttached minion cannot activate. Treat its printed text box as if it were blank.",
+        "traits": "Magnetic."
+    },
+    {
         "code": "49008",
         "name": "Electromagnetic Blast",
         "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. If this removes the last threat from that scheme, you may discard an attachment with the text <b>\"Hero Action\"</b> or <b>\"Hero Response.\"</b>",
@@ -45,6 +64,34 @@
         "name": "Metal Shards",
         "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 7 damage to an enemy. If this attack defeats that enemy, gain a tough status card.",
         "traits": "Attack. Magnetic. Superpower."
+    },
+    {
+        "code": "49010",
+        "flavor": "\"I have heard your threats, and here is my reply.\"\u2014Magneto",
+        "name": "Magnetic Missile",
+        "text": "<b>Hero Action</b>: Discard a minion with Wrapped in Metal attached \u2192 deal 5 damage to an enemy and stun it.",
+        "traits": "Magnetic. Superpower."
+    },
+    {
+        "code": "49011",
+        "flavor": "Magneto's power renders conventional firearms useless against him.",
+        "name": "Master of Magnetism",
+        "traits": "Magnetic."
+    },
+    {
+        "code": "49012",
+        "flavor": "\"I don't mind being a bull in a china shop.\"",
+        "name": "M",
+        "subname": "Monet St. Croix",
+        "text": "<b>Response</b>: After M enters play, defeat a minion with fewer remaining hit points than M.",
+        "traits": "Psionic. X-Men."
+    },
+    {
+        "code": "49013",
+        "name": "Kid Omega",
+        "subname": "Quentin Quire",
+        "text": "<b>Response</b>: After Kid Omega enters play, choose:\n\u2022 Spend a [energy] resource \u2192 deal 1 damage to each enemy.\n\u2022 Spend a [mental] resource \u2192 remove 1 threat from each scheme.",
+        "traits": "Psionic. X-Men."
     },
     {
         "code": "49014",
@@ -69,10 +116,23 @@
         "traits": "Condition."
     },
     {
+        "code": "49017",
+        "flavor": "\"Let's do this.\" \u2014M",
+        "name": "Squared Off",
+        "text": "<b>Hero Action</b>: Discard cards from the encounter deck until you discard a minion. Put that minion into play engaged with you \u2192 play an ally from your hand, reducing its cost by 3.",
+        "traits": "Tactic."
+    },
+    {
         "code": "49018",
         "flavor": "\"Don't wait for me. Go!\" \u2014X-23",
         "name": "Noble Sacrifice",
         "text": "<b>Hero Action</b>: Discard an ally you control \u2192 heal damage from your hero equal to that ally's printed hit points and give your hero a tough status card.",
+        "traits": "Tactic."
+    },
+    {
+        "code": "49019",
+        "name": "\"You Got This!\"",
+        "text": "<b>Hero Response</b>: After you exhaust your hero to make a basic thwart or attack, discard an ally you control \u2192 add that ally's matching power to your hero's power for this use. Ready your hero.",
         "traits": "Tactic."
     },
     {
@@ -82,9 +142,41 @@
         "text": "Victory 0.\nPlay only if your identity has the [[X-Men]] trait.\n<b>When Defeated</b>: Each player chooses 1 set-aside [[New]] ally and adds it to their hand."
     },
     {
+        "code": "49021",
+        "flavor": "\"Oh darling, I hardly need psionic powers to manipulate you.\"",
+        "name": "White Queen",
+        "subname": "Emma Frost",
+        "text": "Play only if your identity has the [[X-Force]] or [[X-Men]] trait.\n<b>Response</b>: After White Queen enters play, discard a status card from a character.",
+        "traits": "Psionic. X-Men."
+    },
+    {
+        "code": "49022",
+        "name": "Face the Past",
+        "text": "Max 1 per deck.\n<b>Hero Action</b>: Search the encounter deck, discard pile, and set-aside area for your nemesis minion and reveal it \u2192 ready your hero and draw 3 cards. You cannot attack the villain this phase. Remove this card from the game."
+    },
+    {
         "code": "49023",
-        "duplicate_of": "16024",
-        "pack_code": "magneto"
+        "duplicate_of": "16024"
+    },
+    {
+        "code": "49024",
+        "duplicate_of": "01088"
+    },
+    {
+        "code": "49025",
+        "duplicate_of": "01089"
+    },
+    {
+        "code": "49026",
+        "duplicate_of": "01090"
+    },
+    {
+        "code": "49033",
+        "flavor": "\"Touch my friends and you get 10,000 volts!\"",
+        "name": "Surge",
+        "subname": "Noriko Ashida",
+        "text": "Linked (New Recruits).\nIf you have the [[Mutant]] or [[X-Men]] trait, Surge gets +1 ATK and does not count against your ally limit.",
+        "traits": "New. X-Men."
     },
     {
         "code": "49034",
@@ -93,5 +185,26 @@
         "subname": "Victor Borkowski",
         "text": "Linked (New Recruits).\nIf you have the [[Mutant]] or [[X-Men]] trait, Anole gets +1 THW and does not count against your ally limit.",
         "traits": "New. X-Men."
+    },
+    {
+        "code": "49035",
+        "flavor": "\"This school sucks!\"",
+        "name": "Bling!",
+        "subname": "Roxanne Washington",
+        "text": "Linked (New Recruits).\nIf you have the [[Mutant]] or [[X-Men]] trait, Bling! gains toughness and does not count against your ally limit.",
+        "traits": "New. X-Men."
+    },
+    {
+        "code": "49036",
+        "flavor": "\"I have seen atrocities done to mutants. No more!\"",
+        "name": "Indra",
+        "subname": "Paras Gavaskar",
+        "text": "Linked (New Recruits).\nIf you have the [[Mutant]] or [[X-Men]] trait, Indra gets +2 hit points and does not count against your ally limit.",
+        "traits": "New. X-Men."
+    },
+    {
+        "code": "49037",
+        "name": "Children of the Atom",
+        "text": "Play under any player's control. Max 1 per player.\nEach [[X-Factor]], [[X-Force]], and [[X-Men]] character you control gains the [[X-Factor]], [[X-Force]], and [[X-Men]] traits."
     }
 ]
