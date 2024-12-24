@@ -172,6 +172,7 @@
 		"type_code": "attachment"
 	},
 	{
+		"attack": 1,
 		"boost_star": true,
 		"code": "39006",
 		"faction_code": "encounter",
@@ -180,6 +181,7 @@
 		"pack_code": "mojo",
 		"position": 6,
 		"quantity": 1,
+		"scheme": 1,
 		"set_code": "magog",
 		"set_position": 6,
 		"text": "Attach to MaGog.\n<b>Forced Response</b>: After MaGog's hit points are reset, place 1[per_hero] ratings counters on The Challengers and discard this card.\n<hr />\n[star] <b>Boost</b>: Reveal this card.",
@@ -1028,7 +1030,7 @@
 		"quantity": 1,
 		"set_code": "horror",
 		"set_position": 1,
-		"text": "Each minion gains quickstrike.\nEach ally takes -1 consequential damage ([consequential]) after attacking a minion.\n<b>When Revealed</b>: Discard each other [[Setting]] environment in play. If this card was revealed from the encounter deck, it gains surge.",
+		"text": "Each minion gains quickstrike.\nEach ally takes -1 consequential damage ([cost]) after attacking a minion.\n<b>When Revealed</b>: Discard each other [[Setting]] environment in play. If this card was revealed from the encounter deck, it gains surge.",
 		"traits": "Setting. Show.",
 		"type_code": "environment"
 	},
