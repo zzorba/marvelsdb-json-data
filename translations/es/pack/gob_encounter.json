@@ -36,16 +36,24 @@
 		"traits": "Duende."
 	},
 	{
-		"back_text": "<b>Contenido:</b> Norman Osborn (I) y Norman Osborn (II). <i>(Norman Osborn (II) y Norman Osborn (III) para jugar en modo Experto.)</i> Conjuntos de Encuentro normales y de Negocios arriesgados. Un conjunto de Encuentros modular <i>(recomendado: Trucos de duende)</i>.\n<b>Preparación:</b> pon en juego la carta de Entorno Empresa criminal. Baraja el mazo de Encuentros. Avanza a la etapa 1B.",
-		"code": "02004",
+		"code": "02004a",
+		"name": "OPA hostil",
+		"text": "<b>Contenido:</b> Norman Osborn (I) y Norman Osborn (II). <i>(Norman Osborn (II) y Norman Osborn (III) para jugar en modo Experto.)</i> Conjuntos de Encuentro normales y de Negocios arriesgados. Un conjunto de Encuentros modular <i>(recomendado: Trucos de duende)</i>.\n<b>Preparación:</b> pon en juego la carta de Entorno Empresa criminal. Baraja el mazo de Encuentros. Avanza a la etapa 1B."
+	},
+	{
+		"code": "02004b",
 		"flavor": "Norman Osborn se ha reunido con la junta directiva para planificar la adquisición de una filial de Industrias Stark.",
 		"name": "OPA hostil",
 		"text": "<b>Cuando se complete esta etapa:</b> coloca 1 [per_hero] contadores de Infamia sobre Empresa criminal. Luego descarta 1 carta del mazo de cada jugador por cada contador de Infamia que haya sobre Empresa criminal."
 	},
 	{
-		"back_flavor": "Ahora que controla una filial de Industrias Stark, Norman Osborn obtendrá acceso a tecnologías mortíferas y cuadruplicará la producción de Oscorp.",
-		"back_text": "<b>Cuando se muestre esta carta:</b> avanza a la etapa 2B.",
-		"code": "02005",
+		"code": "02005a",
+		"flavor": "Ahora que controla una filial de Industrias Stark, Norman Osborn obtendrá acceso a tecnologías mortíferas y cuadruplicará la producción de Oscorp.",
+		"name": "Adquisición corporativa",
+		"text": "<b>Cuando se muestre esta carta:</b> avanza a la etapa 2B."
+	},
+	{
+		"code": "02005b",
 		"flavor": "Si Norman Osborn triunfa, nada se interpondrá en su camino hacia la supremacía tecnológica.",
 		"name": "Adquisición corporativa",
 		"text": "<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
@@ -121,16 +129,24 @@
 		"traits": "Duende."
 	},
 	{
-		"back_text": "<b>Contenido:</b> Duende Verde (I) y Duende Verde (II). <i>(Duende Verde (II) y Duende Verde (III) para jugar en modo Experto.)</i> Conjuntos de Encuentro normales y de La fórmula mutagénica. Un conjunto de Encuentros modular <i>(recomendado: Trucos de duende)</i>.\n<b>Preparación:</b> pon en juego un Esbirro Esclavo duende enfrentado a cada jugador. Baraja el mazo de Encuentros. Avanza a la etapa 1B.",
-		"code": "02017",
+		"code": "02017a",
+		"name": "Liberar el mutágeno",
+		"text": "<b>Contenido:</b> Duende Verde (I) y Duende Verde (II). <i>(Duende Verde (II) y Duende Verde (III) para jugar en modo Experto.)</i> Conjuntos de Encuentro normales y de La fórmula mutagénica. Un conjunto de Encuentros modular <i>(recomendado: Trucos de duende)</i>.\n<b>Preparación:</b> pon en juego un Esbirro Esclavo duende enfrentado a cada jugador. Baraja el mazo de Encuentros. Avanza a la etapa 1B."
+	},
+	{
+		"code": "02017b",
 		"flavor": "El Duende Verde ha liberado un mutágeno tóxico en forma de gas sobre la ciudad de Nueva York.",
 		"name": "Liberar el mutágeno",
 		"text": "<b>Cuando se complete esta etapa:</b> siguiendo el orden de jugadores, cada jugador que no esté enfrentado a un Esbirro [[Duende]] debe descartar 3 cartas del mazo de Encuentros y poner en juego enfrentado a él el primer Esbirro [[Duende]] descartado de este modo."
 	},
 	{
-		"back_flavor": "La nube se propaga por la ciudad, y quienes tienen la desgracia de verse atrapados por el gas empiezan a convulsionarse y a cambiar, transformándose en horribles criaturas semejantes a duendes.",
-		"back_text": "<b>Cuando se muestre esta carta:</b> avanza a la etapa 2B.",
-		"code": "02018",
+		"code": "02018a",
+		"flavor": "La nube se propaga por la ciudad, y quienes tienen la desgracia de verse atrapados por el gas empiezan a convulsionarse y a cambiar, transformándose en horribles criaturas semejantes a duendes.",
+		"name": "Nube de mutágeno",
+		"text": "<b>Cuando se muestre esta carta:</b> avanza a la etapa 2B."
+	},
+	{
+		"code": "02018b",
 		"flavor": "Las criaturas transfiguradas obedecen todas las órdenes del Duende Verde. ¡Tenéis que detener al villano antes de que su monstruosa milicia invada la ciudad!",
 		"name": "Nube de mutágeno",
 		"text": "X es igual al número de enemigos [[Duende]] <i>(incluido el Duende Verde)</i> que haya en juego.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"

@@ -78,21 +78,33 @@
 		"traits": "Hydra. Mercenario."
 	},
 	{
-		"back_text": "<b>Contenido:</b> Calavera (I) y Calavera (II). Conjuntos de Encuentros de Calavera, Armas experimentales y Normal. Tres conjuntos de Encuentros modulares <em>(Asalto de Hydra, Maestro de armas y Legiones de Hydra).</em>\n<b>Preparación:</b> crea el mazo de Armas experimentales y colócalo junto al mazo del Plan principal. <em>(ver página 5 del cuaderno de reglas.)</em>",
-		"code": "04061",
+		"code": "04061a",
+		"name": "Ataque al monte Atenea",
+		"text": "<b>Contenido:</b> Calavera (I) y Calavera (II). Conjuntos de Encuentros de Calavera, Armas experimentales y Normal. Tres conjuntos de Encuentros modulares <em>(Asalto de Hydra, Maestro de armas y Legiones de Hydra).</em>\n<b>Preparación:</b> crea el mazo de Armas experimentales y colócalo junto al mazo del Plan principal. <em>(ver página 5 del cuaderno de reglas.)</em>"
+	},
+	{
+		"code": "04061b",
 		"flavor": "Calavera lidera un contingente de soldados de Hydra en una ofensiva directa contra las instalaciones del Proyecto Pegaso en las montañas de Adirondack.",
 		"name": "Ataque al monte Atenea",
 		"text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Armas experimentales."
 	},
 	{
-		"back_flavor": "En el interior del complejo del Proyecto Pegaso, los agentes de S.H.I.E.L.D. libran una batalla desesperada para evitar que Hydra se apodere de la Gema de la Realidad.",
-		"code": "04062",
+		"code": "04062a",
+		"flavor": "En el interior del complejo del Proyecto Pegaso, los agentes de S.H.I.E.L.D. libran una batalla desesperada para evitar que Hydra se apodere de la Gema de la Realidad.",
+		"name": "La piedra del infinito"
+	},
+	{
+		"code": "04062b",
 		"name": "La piedra del infinito",
 		"text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Armas experimentales."
 	},
 	{
-		"back_flavor": "Hydra se ha apoderado de la piedra del infinito y Calavera ha ordenado la retirada. ¡Tenéis que detenerlos antes de que se escapen!",
-		"code": "04063",
+		"code": "04063a",
+		"flavor": "Hydra se ha apoderado de la piedra del infinito y Calavera ha ordenado la retirada. ¡Tenéis que detenerlos antes de que se escapen!",
+		"name": "La huida"
+	},
+	{
+		"code": "04063b",
 		"name": "La huida",
 		"text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Armas experimentales.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
 	},
@@ -188,8 +200,12 @@
 		"traits": "Bruto."
 	},
 	{
-		"back_text": "<b>Contenido:</b> Hombre Absorbente (I) y Hombre Absorbente (II). Conjuntos de Encuentros del Hombre Absorbente y Normal. Un conjunto de Encuentros modular <em>(Patrulla de Hydra).</em>\n<b>Preparación:</b> descarta cartas del mazo de Encuentros hasta que se descarte un Entorno. Pon en juego esa carta y baraja el mazo de Encuentros junto con su pila de descartes.",
-		"code": "04079",
+		"code": "04079a",
+		"name": "Por aquí no pasa nadie",
+		"text": "<b>Contenido:</b> Hombre Absorbente (I) y Hombre Absorbente (II). Conjuntos de Encuentros del Hombre Absorbente y Normal. Un conjunto de Encuentros modular <em>(Patrulla de Hydra).</em>\n<b>Preparación:</b> descarta cartas del mazo de Encuentros hasta que se descarte un Entorno. Pon en juego esa carta y baraja el mazo de Encuentros junto con su pila de descartes."
+	},
+	{
+		"code": "04079b",
 		"name": "Por aquí no pasa nadie",
 		"text": "[star] <b>Respuesta obligada</b>: después de resolver el paso uno de la fase del Villano, coloca 1 contador de Demora sobre esta carta.\n<b>Interrupción obligada</b>: cuando entre en juego un Entorno, descarta todos los demás Entornos que haya en juego.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
 	},
@@ -284,8 +300,12 @@
 		"traits": "Hydra. Mercenario."
 	},
 	{
-		"back_text": "<b>Contenido:</b> Supervisor (I) y Supervisor (II). Conjuntos de Encuentros del Supervisor, Patrulla de Hydra y Normal. Un conjunto de Encuentros modular <em>(Maestro de armas).</em>\n<b>Preparación:</b> aparta todos los Aliados [[CAUTIVO]] a un lado, fuera del juego. Busca la carta Patrulla de Hydra en el mazo de Encuentros y ponla en juego. Baraja el mazo de Encuentros.",
-		"code": "04096",
+		"code": "04096a",
+		"name": "A la caza del héroe",
+		"text": "<b>Contenido:</b> Supervisor (I) y Supervisor (II). Conjuntos de Encuentros del Supervisor, Patrulla de Hydra y Normal. Un conjunto de Encuentros modular <em>(Maestro de armas).</em>\n<b>Preparación:</b> aparta todos los Aliados [[CAUTIVO]] a un lado, fuera del juego. Busca la carta Patrulla de Hydra en el mazo de Encuentros y ponla en juego. Baraja el mazo de Encuentros."
+	},
+	{
+		"code": "04096b",
 		"flavor": "El infame Supervisor ha sido nombrado jefe de policía en el nuevo régimen de Hydra. Su principal prioridad consiste en dar caza a los héroes proscritos.",
 		"name": "A la caza del héroe",
 		"text": "[star] <b>Respuesta obligada</b>: después de resolver el paso uno de la fase del Villano, cada jugador que tenga adoptada su identidad de Héroe debe elegir entre colocar 1 de Amenaza sobre esta carta o bien sufrir 1 de Daño.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
@@ -386,15 +406,23 @@
 		"traits": "Androide. Hydra."
 	},
 	{
-		"back_text": "<b>Contenido:</b> Zola (I) y Zola (II). Conjuntos de Encuentros de Zola y Normal. Un conjunto de Encuentros modular <em>(Civiles en peligro).</em>\n<b>Preparación:</b> busca la carta Prisión de Hydra en el mazo de Encuentros y muéstrala. Cada jugador busca en el mazo de Encuentros una copia del Biosiervo definitivo y la pone en juego enfrentada a él. Baraja el mazo de Encuentros.",
-		"code": "04112",
+		"code": "04112a",
+		"name": "La isla del doctor Zola",
+		"text": "<b>Contenido:</b> Zola (I) y Zola (II). Conjuntos de Encuentros de Zola y Normal. Un conjunto de Encuentros modular <em>(Civiles en peligro).</em>\n<b>Preparación:</b> busca la carta Prisión de Hydra en el mazo de Encuentros y muéstrala. Cada jugador busca en el mazo de Encuentros una copia del Biosiervo definitivo y la pone en juego enfrentada a él. Baraja el mazo de Encuentros."
+	},
+	{
+		"code": "04112b",
 		"name": "La isla del doctor Zola",
 		"text": "[star] <b>Respuesta obligada</b>: después de resolver el paso uno de la fase del Villano, coloca 1 contador de Prueba sobre esta carta. Luego, si hay al menos 3 contadores de Prueba sobre esta carta, descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Esbirro. Pon en juego ese Esbirro enfrentado al jugador inicial y quita 3 contadores de Prueba de este Plan."
 	},
 	{
-		"back_flavor": "Los mutados de Zola os atacan con obediencia ciega y furia salvaje. ¡De vosotros depende poner fin a esta pesadilla antes de que el científico loco la desate sobre el mundo!",
-		"back_text": "<b>Cuando se muestre esta carta:</b> cada jugador busca un Esbirro en el mazo y la pila de descartes de Encuentros y lo muestra. Baraja el mazo de Encuentros.",
-		"code": "04113",
+		"code": "04113a",
+		"flavor": "Los mutados de Zola os atacan con obediencia ciega y furia salvaje. ¡De vosotros depende poner fin a esta pesadilla antes de que el científico loco la desate sobre el mundo!",
+		"name": "El científico loco",
+		"text": "<b>Cuando se muestre esta carta:</b> cada jugador busca un Esbirro en el mazo y la pila de descartes de Encuentros y lo muestra. Baraja el mazo de Encuentros."
+	},
+	{
+		"code": "04113b",
 		"name": "El científico loco",
 		"text": "[star] <b>Respuesta obligada</b>: después de resolver el paso uno de la fase del Villano, coloca 1 contador de Prueba sobre esta carta. Luego, si hay al menos 3 contadores de Prueba sobre esta carta, descarta cartas de la parte superior del mazo de Encuentros hasta que se descarte un Esbirro. Pon en juego ese Esbirro enfrentado al jugador inicial y quita 3 contadores de Prueba de este Plan..\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
 	},
@@ -484,16 +512,24 @@
 		"traits": "Hydra."
 	},
 	{
-		"back_text": "<b>Contenido:</b> Cráneo Rojo (I) y Cráneo Rojo (II). Conjuntos de Encuentros de Cráneo Rojo y Normal. Dos conjuntos de Encuentros modulares <em>(Asalto de Hydra y Patrulla de Hydra).</em>\n<b>Preparación:</b> pon en juego La Casa Roja. Añade todos los demás Planes secundarios al mazo de Planes secundarios, barájalo y colócalo junto al mazo de Encuentros (ver cuaderno de reglas).\nAparta El Durmiente a un lado, fuera del juego.",
-		"code": "04128",
+		"code": "04128a",
+		"name": "La tiranía de Cráneo Rojo",
+		"text": "<b>Contenido:</b> Cráneo Rojo (I) y Cráneo Rojo (II). Conjuntos de Encuentros de Cráneo Rojo y Normal. Dos conjuntos de Encuentros modulares <em>(Asalto de Hydra y Patrulla de Hydra).</em>\n<b>Preparación:</b> pon en juego La Casa Roja. Añade todos los demás Planes secundarios al mazo de Planes secundarios, barájalo y colócalo junto al mazo de Encuentros (ver cuaderno de reglas).\nAparta El Durmiente a un lado, fuera del juego."
+	},
+	{
+		"code": "04128b",
 		"flavor": "Cráneo Rojo planea conquistar el mundo con el poder de la Gema de la Realidad. El villano emplea sus excepcionales dotes de estratega para manteneros ocupados mientras él pone en marcha sus planes.",
 		"name": "La tiranía de Cráneo Rojo",
 		"text": "[star] <b>Respuesta obligada</b>: después de resolver el paso uno de la fase del Villano, muestra la primera carta del mazo de Planes secundarios y ponla en juego."
 	},
 	{
-		"back_flavor": "Cráneo Rojo está un paso más cerca de dominar el poder de la piedra del infinito en toda su plenitud. Tenéis que detenerlo antes de que lo consiga y moldee la realidad a su maligna voluntad.",
-		"back_text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Planes secundarios y ponla en juego.",
-		"code": "04129",
+		"code": "04129a",
+		"flavor": "Cráneo Rojo está un paso más cerca de dominar el poder de la piedra del infinito en toda su plenitud. Tenéis que detenerlo antes de que lo consiga y moldee la realidad a su maligna voluntad.",
+		"name": "El nuevo mundo de Hydra",
+		"text": "<b>Cuando se muestre esta carta:</b> muestra la primera carta del mazo de Planes secundarios y ponla en juego."
+	},
+	{
+		"code": "04129b",
 		"name": "El nuevo mundo de Hydra",
 		"text": "[star] <b>Respuesta obligada</b>: después de resolver el paso uno de la fase del Villano, muestra la primera carta del mazo de Planes secundarios y ponla en juego.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
 	},
