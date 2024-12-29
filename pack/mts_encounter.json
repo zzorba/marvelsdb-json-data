@@ -740,11 +740,8 @@
 		"type_code": "main_scheme"
 	},
 	{
-		"back_name": "Avengers Tower",
-		"back_text": "The unique rule does not apply to Avengers Tower.\n<b>Forced Response:</b> After damage is placed here, if there is at least 9[per_hero] damage here, remove all of it. Then flip Avenger's Tower over.",
-		"back_traits": "Stronghold.",
-		"code": "21100",
-		"double_sided": true,
+		"back_link": "21100b",
+		"code": "21100a",
 		"faction_code": "encounter",
 		"name": "Avengers Tower",
 		"octgn_id": "5feae2d4-9f22-4145-a07d-4bd0f873a569",
@@ -753,7 +750,22 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 9,
-		"text": "<b>When Revealed:</b> Discard each other Avengers Tower from play.\n<b>Forced Response:</b> After damage is placed here, if there is at least 9[per player] damage here, the players lose the game.",
+		"text": "The unique rule does not apply to Avengers Tower.\n<b>Forced Response:</b> After damage is placed here, if there is at least 9[per_hero] damage here, remove all of it. Then flip Avengers Tower over.",
+		"traits": "Stronghold.",
+		"type_code": "environment"
+	},
+	{
+		"code": "21100b",
+		"faction_code": "encounter",
+		"hidden": true,
+		"name": "Avengers Tower",
+		"octgn_id": "5feae2d4-9f22-4145-a07d-4bd0f873a569",
+		"pack_code": "mts",
+		"position": 100,
+		"quantity": 1,
+		"set_code": "tower_defense",
+		"set_position": 9,
+		"text": "<b>When Revealed:</b> Discard each other Avengers Tower from play.\n<b>Forced Response:</b> After damage is placed here, if there is at least 9[per_hero] damage here, the players lose the game.",
 		"traits": "Damaged.",
 		"type_code": "environment"
 	},
