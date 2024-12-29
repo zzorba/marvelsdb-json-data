@@ -890,10 +890,8 @@
 		"type_code": "treachery"
 	},
 	{
-		"back_name": "Formidable Foe",
-		"back_text": "<b><i>Expert Mode Only.</i></b>\nPermanent. Setup.\nEach enemy gains steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>",
-		"code": "24049",
-		"double_sided": true,
+		"back_link": "24049b",
+		"code": "24049a",
 		"faction_code": "encounter",
 		"name": "Formidable Foe",
 		"octgn_id": "9d1cc110-1771-49b6-807f-c414f8483e6e",
@@ -904,6 +902,22 @@
 		"set_code": "standard_ii",
 		"set_position": 1,
 		"text": "<b><i>Standard Mode Only.</i></b>\nPermanent. Setup.\nThe villain gains steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>",
+		"type_code": "environment"
+	},
+	{
+		"code": "24049b",
+		"faction_code": "encounter",
+		"hidden": true,
+		"name": "Formidable Foe",
+		"octgn_id": "9d1cc110-1771-49b6-807f-c414f8483e6e",
+		"pack_code": "hood",
+		"permanent": true,
+		"position": 49,
+		"quantity": 1,
+		"scheme_acceleration": 1,
+		"set_code": "standard_ii",
+		"set_position": 1,
+		"text": "<b><i>Expert Mode Only.</i></b>\nPermanent. Setup.\nEach enemy gains steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>",
 		"type_code": "environment"
 	},
 	{
