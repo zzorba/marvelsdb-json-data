@@ -52,12 +52,9 @@
 		"type_code": "alter_ego"
 	},
 	{
-		"back_name": "Dense",
-		"back_text": "Mass form. Permanent.\nWhile in hero form, Vision gets +2 ATK and +2 DEF.\n<b>Response:</b> After you change to this mass form, draw 1 card.",
-		"code": "26002",
-		"cost": 0,
+		"back_link": "26002b",
+		"code": "26002a",
 		"deck_limit": 1,
-		"double_sided": true,
 		"faction_code": "hero",
 		"illustrator": "Juan Santacruz",
 		"name": "Intangible",
@@ -69,6 +66,23 @@
 		"set_code": "vision",
 		"set_position": 1,
 		"text": "Mass form. Permanent.\nVision cannot attack or defend.\nReduce the amount of damage Vision takes from each attack by 2.",
+		"type_code": "upgrade"
+	},
+	{
+		"code": "26002b",
+		"deck_limit": 1,
+		"faction_code": "hero",
+		"hidden": true,
+		"illustrator": "Staz Johnson",
+		"name": "Dense",
+		"octgn_id": "c7f3cb05-1e4d-4599-a0ae-2e727ae3e40b",
+		"pack_code": "vision",
+		"permanent": true,
+		"position": 2,
+		"quantity": 1,
+		"set_code": "vision",
+		"set_position": 1,
+		"text": "Mass form. Permanent.\nWhile in hero form, Vision gets +2 ATK and +2 DEF.\n<b>Response:</b> After you change to this mass form, draw 1 card.",
 		"type_code": "upgrade"
 	},
 	{
