@@ -113,9 +113,10 @@ To check and apply formatting to JSON files:
 * **recover** - Character's recover value
 * **recover_star** - Whether a star appears in the recover field indicating a special ability
 * **resource_[energy|mental|physical|wild]** - Amount of resources of the given type
-* **scheme_acceleration** - The acceleration amount on schemes
-* **scheme_crisis** - The number of crisis icons on a scheme
-* **scheme_hazard** - The number of hazard icons on a scheme
+* **scheme_acceleration** - The number of acceleration icons
+* **scheme_amplify** - The number of amplify icons
+* **scheme_crisis** - The number of crisis icons
+* **scheme_hazard** - The number of hazard icons
 * **scheme_star** - Whether a star appears in the scheme field indicating a special ability
 * **set_code** - The code for the card's set. Possible values found in `sets.json`.
 * **set_position** - The position of the card in the set
