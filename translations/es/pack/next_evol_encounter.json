@@ -158,14 +158,22 @@
         "traits": "Merodeadores. Mutado."
     },
     {
-        "back_text": "<b>Contenido</b>: Merodeadores por la cara A <i>(usa sus caras B para jugar en modo Experto)</i>. Conjunto de Encuentros de Asedio Morlock y Normal. Dos conjuntos de Encuentros modulares <i>(Arsenal militar y Asesinos de mutantes)</i>.\n<b>Preparación</b>: pon en juego la carta de Entorno Vencidos. Aparta a un lado la carta de perfidia ¡Escondeos! y todas las cartas de Aliado Morlock. Baraja los Villanos <i>(sin mirarlos)</i> para crear el mazo de Villanos. La carta que quede en la parte superior de este mazo está en juego.",
-        "code": "40077",
+        "code": "40077a",
+        "name": "Toc, Toc",
+        "text": "<b>Contenido</b>: Merodeadores por la cara A <i>(usa sus caras B para jugar en modo Experto)</i>. Conjunto de Encuentros de Asedio Morlock y Normal. Dos conjuntos de Encuentros modulares <i>(Arsenal militar y Asesinos de mutantes)</i>.\n<b>Preparación</b>: pon en juego la carta de Entorno Vencidos. Aparta a un lado la carta de perfidia ¡Escondeos! y todas las cartas de Aliado Morlock. Baraja los Villanos <i>(sin mirarlos)</i> para crear el mazo de Villanos. La carta que quede en la parte superior de este mazo está en juego."
+    },
+    {
+        "code": "40077b",
         "name": "Toc, Toc",
         "text": "[star] <b>Respuesta obligada</b>: después de resolver el paso uno de la fase del Villano, coloca 1 contador de Llamada sobre esta carta. Si hay al menos 3 contadores de Llamada sobre esta carta, avanza a la etapa 2A.\n<b>Si hay 3 Villanos debajo de Vencidos, los jugadores ganan la partida.</b>"
     },
     {
-        "back_text": "<b>Cuando se muestre esta carta</b>: cada jugador coge 1 Aliado Morlock que esté apartado y lo pone en juego bajo su control(2 Aliados Morlock si es una partida en solitario). Añade la carta de Perfidia ¡Escondeos! al mazo de Encuentros. Si la etapa previa avanzó a consecuencia de los contadores de Llamada, dale a cada Aliado Morlock una carta de Estado \"Duro\".",
-        "code": "40078",
+        "code": "40078a",
+        "name": "Masacre mutante",
+        "text": "<b>Cuando se muestre esta carta</b>: cada jugador coge 1 Aliado Morlock que esté apartado y lo pone en juego bajo su control(2 Aliados Morlock si es una partida en solitario). Añade la carta de Perfidia ¡Escondeos! al mazo de Encuentros. Si la etapa previa avanzó a consecuencia de los contadores de Llamada, dale a cada Aliado Morlock una carta de Estado \"Duro\"."
+    },
+    {
+        "code": "40078b",
         "name": "Masacre mutante",
         "text": "<b>Acción</b>: agota un Aliado [[MORLOCK]] \u2192 coge ¡Escondeos! de la pila de descartes, añádela al mazo de Encuentros y barájalo.\n<b>Si hay 3 Villanos debajo de Vencidos, los jugadores ganan la partida.\nSi se completa esta etapa o no quedan Aliados Morlock en juego, los jugadores pierden la partida.</b>"
     },
@@ -310,15 +318,23 @@
         "text": "<b>Cuando se muestre esta carta</b>: descarta cartas del mazo de Encuentros hasta que se descarte un Esbirro de los [[MERODEADORES]]que no se llame igual que una carta que ya esté en juego. Pon en juego ese Esbirro enfrentado a ti."
     },
     {
-        "back_text": "<b>Contenido</b>: Merodeadores por la cara A <i>(usa sus caras B para jugar en modo Experto)</i>. Conjuntos de Encuentros de A la fuga, Asesinos de mutantes, y Normal. Dos conjuntos de Encuentros modulares <i>(Arsenal militar y Chicos Malos)</i>.\n<b>Preparación</b>: pon en juego 1 Villano de los [[MERODEADORES]] aleatorio. Retira de la partida al Esbirro que se llame igual que el Villano, junto con todos los demás Villanos. Vincula al Villano el Accesorio Secuestrador de Hope, con la cara [[CONFIADO]] boca arriba.",
-        "code": "40103",
+        "code": "40103a",
+        "name": "Larguémonos de aquí",
+        "text": "<b>Contenido</b>: Merodeadores por la cara A <i>(usa sus caras B para jugar en modo Experto)</i>. Conjuntos de Encuentros de A la fuga, Asesinos de mutantes, y Normal. Dos conjuntos de Encuentros modulares <i>(Arsenal militar y Chicos Malos)</i>.\n<b>Preparación</b>: pon en juego 1 Villano de los [[MERODEADORES]] aleatorio. Retira de la partida al Esbirro que se llame igual que el Villano, junto con todos los demás Villanos. Vincula al Villano el Accesorio Secuestrador de Hope, con la cara [[CONFIADO]] boca arriba."
+    },
+    {
+        "code": "40103b",
         "name": "Larguémonos de aquí",
         "text": "Todos los Esbirros [[MERODEADORES]] ganan Tesón. En modo Experto, el Villano también gana Tesón.\n<b>Cuando se muestre esta carta</b>: cada jugador busca un Esbirro de los [[MERODEADORES]] en el mazo de Encuentros y lo pone en juego enfrentado a él. <i>(Baraja el mazo.)</i>\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
     },
     {
-        "back_flavor": "Having taken a pounding, the Merodeadores redouble their efforts to escape with their captive.",
-        "back_text": "<b>Cuando se muestre esta carta</b>: cada jugador busca un Esbirro de los [[MERODEADORES]] en el mazo de Encuentros y lo pone en juego enfrentado a él. <i>(Baraja el mazo.)</i> Dale una carta de Estado \"Duro\" a cada enemigo [[MERODEADORES]].",
-        "code": "40104",
+        "code": "40104a",
+        "flavor": "Having taken a pounding, the Merodeadores redouble their efforts to escape with their captive.",
+        "name": "Escapar con Hope",
+        "text": "<b>Cuando se muestre esta carta</b>: cada jugador busca un Esbirro de los [[MERODEADORES]] en el mazo de Encuentros y lo pone en juego enfrentado a él. <i>(Baraja el mazo.)</i> Dale una carta de Estado \"Duro\" a cada enemigo [[MERODEADORES]]."
+    },
+    {
+        "code": "40104b",
         "name": "Escapar con Hope",
         "text": "Todos los Esbirros [[MERODEADORES]] ganan Guardia y Tesón. En modo Experto, el Villano también gana Tesón.\n<b>Si el Villano es derrotado, los jugadores ganan la partida.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
     },
@@ -422,8 +438,12 @@
         "traits": "Bruto."
     },
     {
-        "back_text": "<b>Contenido</b>: Juggernaut (I) y Juggernaut (II) <i>(Juggernaut (II) y Juggernaut (III) para jugar modo Experto)</i>. Conjuntos de Encuentros de Juggernaut, Hope Summers y Normal. Un conjunto de Encuentros modular <i>(Tom Cassidy el Negro)</i>.\n<b>Preparación</b>: vincula el Casco de Juggernaut a Juggernaut. Pon en juego a Hope Summers controlada por el jugador inicial.",
-        "code": "40121",
+        "code": "40121a",
+        "name": "El imparable Juggernaut",
+        "text": "<b>Contenido</b>: Juggernaut (I) y Juggernaut (II) <i>(Juggernaut (II) y Juggernaut (III) para jugar modo Experto)</i>. Conjuntos de Encuentros de Juggernaut, Hope Summers y Normal. Un conjunto de Encuentros modular <i>(Tom Cassidy el Negro)</i>.\n<b>Preparación</b>: vincula el Casco de Juggernaut a Juggernaut. Pon en juego a Hope Summers controlada por el jugador inicial."
+    },
+    {
+        "code": "40121b",
         "name": "El imparable Juggernaut",
         "text": "[star] <b>Interrupción obligada</b>: cuando vaya a completarse este Plan, en vez de eso haz todo lo siguiente:\n1. Quita toda la Amenaza de esta carta.\n2. Si está en juego Juggernaut desprotegido, dale la vuelta.\n3. Coloca 1 contador de Inercia sobre Juggernaut.\n4. Juggernaut ataca a todos los jugadores en orden de jugadores <i>(incluso aunque tengan adoptadala identidad de sus Alter egos)</i>."
     },
@@ -529,34 +549,54 @@
         "traits": "Genio."
     },
     {
-        "back_text": "<b>Contenido</b>: Mister Siniestro (I) y Mister Siniestro (II) <i>(Mister Siniestro (II) y Mister Siniestro (III) para jugar modo Experto)</i>. Conjuntos de Encuentros de Mister Siniestro, Vuelo, Superfuerza, Telepatía, Hope Summers y Normal. Un conjunto de Encuentros modular <i>(Chicos Malos)</i>.\n<b>Preparación</b>: aparta a un lado los conjuntos de Encuentros de Vuelo, Superfuerza y Telepatía. Pon en juego a Hope Summers controlada por el jugador inicial.",
-        "code": "40139",
+        "code": "40139a",
+        "name": "Intenciones siniestras",
+        "text": "<b>Contenido</b>: Mister Siniestro (I) y Mister Siniestro (II) <i>(Mister Siniestro (II) y Mister Siniestro (III) para jugar modo Experto)</i>. Conjuntos de Encuentros de Mister Siniestro, Vuelo, Superfuerza, Telepatía, Hope Summers y Normal. Un conjunto de Encuentros modular <i>(Chicos Malos)</i>.\n<b>Preparación</b>: aparta a un lado los conjuntos de Encuentros de Vuelo, Superfuerza y Telepatía. Pon en juego a Hope Summers controlada por el jugador inicial."
+    },
+    {
+        "code": "40139b",
         "flavor": "The secret laboratory hidden deep below the abandoned orphanage is filled with vats containing innocent mutants, subjects of Siniestro's experiments.",
         "name": "Intenciones siniestras",
         "text": "<b>Cuando se muestre esta carta</b>: retira de la partida 1 etapa 2 aleatoria. Luego avanza a una etapa 2A aleatoria."
     },
     {
-        "back_flavor": "Mister Siniestro pretende incorporar el ADN de otro mutante a su propio genoma.",
-        "code": "40140",
+        "code": "40140a",
+        "flavor": "Mister Siniestro pretende incorporar el ADN de otro mutante a su propio genoma.",
+        "name": "Remontar el vuelo"
+    },
+    {
+        "code": "40140b",
         "name": "Remontar el vuelo",
         "text": "<b>Cuando se muestre esta carta</b>: vincula el Accesorio Vuelo a Mister Siniestro, añade el resto del conjunto de Vuelo al mazo de Encuentros y barájalo.\n<b>Cuando se complete esta etapa</b>: avanza a la otra etapa 2A. Si no es posible, avanza a la etapa 3A."
     },
     {
-        "back_flavor": "Mister Siniestro pretende incorporar el ADN de otro mutante a su propio genoma.",
-        "code": "40141",
+        "code": "40141a",
+        "flavor": "Mister Siniestro pretende incorporar el ADN de otro mutante a su propio genoma.",
+        "name": "Aumentar la musculatura"
+    },
+    {
+        "code": "40141b",
         "name": "Aumentar la musculatura",
         "text": "<b>Cuando se muestre esta carta</b>: vincula el Accesorio Superfuerza a Mister Siniestro, añade el resto del conjunto de Superfuerza al mazo de Encuentros y barájalo.\n<b>Cuando se complete esta etapa</b>: avanza a la otra etapa 2A. Si no es posible, avanza a la etapa 3A."
     },
     {
-        "back_flavor": "Mister Siniestro pretende incorporar el ADN de otro mutante a su propio genoma.",
-        "code": "40142",
+        "code": "40142a",
+        "flavor": "Mister Siniestro pretende incorporar el ADN de otro mutante a su propio genoma.",
+        "name": "Agudizar la concentración"
+    },
+    {
+        "code": "40142b",
         "name": "Agudizar la concentración",
         "text": "<b>Cuando se muestre esta carta</b>: vincula el Accesorio Telepatía a Mister Siniestro, añade el resto del conjunto de Telepatía al mazo de Encuentros y barájalo.\n<b>Cuando se complete esta etapa</b>: avanza a la otra etapa 2A. Si no es posible, avanza a la etapa 3A."
     },
     {
-        "back_flavor": "\"Gaze upon my power y despair!\" Siniestro cackles. \"Once I add Hope's mutation into my genetic code, I will be capable of mimicking any mutant's powers, y thus will have attained perfection!\"",
-        "back_text": "<b>Cuando se muestre esta carta</b>: reparte a cada jugador 1 carta de Encuentro boca abajo.",
-        "code": "40143",
+        "code": "40143a",
+        "flavor": "\"Gaze upon my power y despair!\" Siniestro cackles. \"Once I add Hope's mutation into my genetic code, I will be capable of mimicking any mutant's powers, y thus will have attained perfection!\"",
+        "name": "Fines siniestros",
+        "text": "<b>Cuando se muestre esta carta</b>: reparte a cada jugador 1 carta de Encuentro boca abajo."
+    },
+    {
+        "code": "40143b",
         "flavor": "\"I should thank you,\" Siniestro sneers. \"You've done what my bumbling flunkies could not: You brought me Hope.\"",
         "name": "Fines siniestros",
         "text": "<b>Interrupción obligada</b>: cuando Mister Siniestro ataque, en vez de eso ataca a Hope Summers. <i>(Otros personajes pueden defender contra este ataque.)</i>\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
@@ -685,15 +725,23 @@
         "traits": "Frente mutante de liberación. Psiónico."
     },
     {
-        "back_text": "<b>Contenido</b>: Dyscordia (I) y Dyscordia (II) <i>(Dyscordia (II) y Dyscordia (III) para jugar modo Experto)</i>. Conjuntos de Encuentros de Dyscordia, Hope Summers y Normal. Dos conjuntos de Encuentros modulares <i>(Medidas extremas e Insurrección mutante)</i>.\n<b>Preparación</b>: pon en juego a Hope Summers controlada por el jugador inicial. Muestra En las garras de Dyscordia.",
-        "code": "40166",
+        "code": "40166a",
+        "name": "Poder incontrolable",
+        "text": "<b>Contenido</b>: Dyscordia (I) y Dyscordia (II) <i>(Dyscordia (II) y Dyscordia (III) para jugar modo Experto)</i>. Conjuntos de Encuentros de Dyscordia, Hope Summers y Normal. Dos conjuntos de Encuentros modulares <i>(Medidas extremas e Insurrección mutante)</i>.\n<b>Preparación</b>: pon en juego a Hope Summers controlada por el jugador inicial. Muestra En las garras de Dyscordia."
+    },
+    {
+        "code": "40166b",
         "flavor": "Hope tries to mimic Dyscordia's abilities, but is quickly overwhelmed by the power.",
         "name": "Poder incontrolable",
         "text": "[star] <b>Respuesta obligada</b>: después de resolver el paso uno de la fase del Villano, cada jugador coloca X de Amenaza sobre esta carta, siendo X el número de cartas del tipo más común que haya en sus respectivas mano. Cada jugador puede descartar 1 carta de su mano antes de calcular el valor de X.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
     },
     {
-        "back_flavor": "Hope breaks free from Dyscordia's grasp, but she struggles to contain his powerful psionic energies.\n\"I will leave Hope to finish the job of killing you all,\" Dyscordia laughs. \"I have work to do bringing about the Apocalypse!\"",
-        "code": "40167",
+        "code": "40167a",
+        "flavor": "Hope breaks free from Dyscordia's grasp, but she struggles to contain his powerful psionic energies.\n\"I will leave Hope to finish the job of killing you all,\" Dyscordia laughs. \"I have work to do bringing about the Apocalypse!\"",
+        "name": "Abandonados a vuestra suerte"
+    },
+    {
+        "code": "40167b",
 		"flavor": "Dyscordia is attempting to escape into the past. Who knows what havoc he will wreak?",
         "name": "Abandonados a vuestra suerte",
         "text": "Dyscordia gana Firmeza.\nCada Superhéroe recibe +2 al tamaño de su mano. El coste en recursos para jugar cada carta de Jugador aumenta en 1.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"

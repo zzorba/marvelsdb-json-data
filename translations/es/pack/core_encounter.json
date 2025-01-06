@@ -20,9 +20,13 @@
 		"traits": "Bruto. Criminal."
 	},
 	{
-		"back_flavor": "¡El Rino está atacando unas instalaciones de S.H.I.E.L.D.!",
-		"back_text": "<b>Contenido:</b> Rino (I) y Rino (II). <i>(Rino (II) y Rino (III) para jugar en modo Experto.)</i> Conjuntos de Encuentro normales y del Rino. Un conjunto de Encuentros modular <i>(recomendado: Amenaza de bomba)</i>.\n<b>Preparación:</b> Avanza a la etapa 1B.",
-		"code": "01097",
+		"code": "01097a",
+		"flavor": "¡El Rino está atacando unas instalaciones de S.H.I.E.L.D.!",
+		"name": "¡Allanamiento!",
+		"text": "<b>Contenido:</b> Rino (I) y Rino (II). <i>(Rino (II) y Rino (III) para jugar en modo Experto.)</i> Conjuntos de Encuentro normales y del Rino. Un conjunto de Encuentros modular <i>(recomendado: Amenaza de bomba)</i>.\n<b>Preparación:</b> Avanza a la etapa 1B."
+	},
+	{
+		"code": "01097b",
 		"flavor": "El Rino pretende derribar los muros del complejo y robar un cargamento de vibránium. ¡Tenéis que detenerlo!",
 		"name": "¡Allanamiento!",
 		"text": "<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
@@ -139,17 +143,25 @@
 		"traits": "Señores del Mal."
 	},
 	{
-		"back_flavor": "El ataque a las instalaciones de S.H.I.E.L.D. se ha atribuido a una red clandestina de tráfico de armas.",
-		"back_text": "<b>Contenido:</b> Klaw (I) y Klaw (II). <i>(Klaw (II) y Klaw (III) para jugar en modo Experto).</i> Conjuntos de Encuentros normales y de Klaw. Un conjunto de Encuentros modular <i>(recomendado: Señores del Mal)</i>.\n<b>Preparación:</b> busca en el mazo de Encuentros el Plan secundario \"Red de defensa\" y muéstralo. Baraja el mazo de Encuentros. Avanza a la etapa 1B.",
-		"code": "01116",
+		"code": "01116a",
+		"flavor": "El ataque a las instalaciones de S.H.I.E.L.D. se ha atribuido a una red clandestina de tráfico de armas.",
+		"name": "Distribución clandestina",
+		"text": "<b>Contenido:</b> Klaw (I) y Klaw (II). <i>(Klaw (II) y Klaw (III) para jugar en modo Experto).</i> Conjuntos de Encuentros normales y de Klaw. Un conjunto de Encuentros modular <i>(recomendado: Señores del Mal)</i>.\n<b>Preparación:</b> busca en el mazo de Encuentros el Plan secundario \"Red de defensa\" y muéstralo. Baraja el mazo de Encuentros. Avanza a la etapa 1B."
+	},
+	{
+		"code": "01116b",
 		"flavor": "¡Vuestra investigación ha revelado que el jefe de esta organización criminal es Klaw, un viejo enemigo de los Vengadores!",
 		"name": "Distribución clandestina",
 		"text": "<b>Cuando se muestre esta carta:</b> descarta cartas del mazo de Encuentros hasta que se descarte un Esbirro. Pon en juego ese Esbirro enfrentado al jugador inicial."
 	},
 	{
-		"back_flavor": "Klaw ha encontrado un comprado interesado en su armamento ilegal. De vosotros depende impedir la transacción, pero el lugar del encuentro está custodiado por los secuaces de Klaw.",
-		"back_text": "<b>Cuando se muestre esta carta:</b> descarta cartas del mazo de Encuentros hasta que se descarte un Esbirro. Pon en juego ese Esbirro enfrentado al jugador inicial. Avanza a la etapa 2B.",
-		"code": "01117",
+		"code": "01117a",
+		"flavor": "Klaw ha encontrado un comprado interesado en su armamento ilegal. De vosotros depende impedir la transacción, pero el lugar del encuentro está custodiado por los secuaces de Klaw.",
+		"name": "Reunión secreta",
+		"text": "<b>Cuando se muestre esta carta:</b> descarta cartas del mazo de Encuentros hasta que se descarte un Esbirro. Pon en juego ese Esbirro enfrentado al jugador inicial. Avanza a la etapa 2B."
+	},
+	{
+		"code": "01117b",
 		"flavor": "Klaw se ha reunido con la Capucha Carmesí. El amo del sonido y la misteriosa figura se escabullen entre las sombras cuando les hacéis frente, y los esbirros de Klaw se interponen en vuestro camino para cubrir su fuga.",
 		"name": "Reunión secreta",
 		"text": "<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
@@ -265,25 +277,37 @@
 		"traits": "Androide."
 	},
 	{
-		"back_flavor": "El misterioso cliente encapuchado de Klaw es en realidad el androide genocida Ultrón.",
-		"back_text": "<b>Contenido:</b> Ultrón (I) y Ultrón (II). <i>(Ultrón (II) y Ultrón (III) para jugar en modo Experto).</i> Conjuntos de Encuentros normales y de Ultrón. Un conjunto de Encuentros modular <i>(recomendado: Civiles en peligro)</i>.\n<b>Preparación:</b> pon en juego la carta de Entorno Drones de Ultrón. Baraja el mazo de Encuentros. Avanza a la etapa 1B.",
-		"code": "01137",
+		"code": "01137a",
+		"flavor": "El misterioso cliente encapuchado de Klaw es en realidad el androide genocida Ultrón.",
+		"name": "La Capucha Carmesí",
+		"text": "<b>Contenido:</b> Ultrón (I) y Ultrón (II). <i>(Ultrón (II) y Ultrón (III) para jugar en modo Experto).</i> Conjuntos de Encuentros normales y de Ultrón. Un conjunto de Encuentros modular <i>(recomendado: Civiles en peligro)</i>.\n<b>Preparación:</b> pon en juego la carta de Entorno Drones de Ultrón. Baraja el mazo de Encuentros. Avanza a la etapa 1B."
+	},
+	{
+		"code": "01137b",
 		"flavor": "Ultrón está usando las piezas suministradas por Klaw para construir un ejército de drones robóticos.",
 		"name": "La Capucha Carmesí",
 		"text": "<b>Cuando se muestre esta carta:</b> cada jugador pone en juego la primera carta de su mazo boca abajo y enfrentada a él como un Esbirro [[Dron]]."
 	},
 	{
-		"back_flavor": "Mientras seguís el rastro de Ultrón, recibís una llamada de socorro procedente del Mando Norteamericano de Defensa Aeroespacial situado en Colorado. ¡Un ejército de drones de Ultrón los tiene bajo asedio!",
-		"back_text": "<b>Cuando se muestre esta carta:</b> cada jugador pone en juego la primera carta de su mazo boca abajo y enfrentada a él como un Esbirro [[Dron]]. Avanza a la etapa 2B.",
-		"code": "01138",
+		"code": "01138a",
+		"flavor": "Mientras seguís el rastro de Ultrón, recibís una llamada de socorro procedente del Mando Norteamericano de Defensa Aeroespacial situado en Colorado. ¡Un ejército de drones de Ultrón los tiene bajo asedio!",
+		"name": "Ataque al NORAD",
+		"text": "<b>Cuando se muestre esta carta:</b> cada jugador pone en juego la primera carta de su mazo boca abajo y enfrentada a él como un Esbirro [[Dron]]. Avanza a la etapa 2B."
+	},
+	{
+		"code": "01138b",
 		"flavor": "¡Si Ultrón toma el control del NORAD, tendrá acceso a todos los misiles balísticos de Estados Unidos!",
 		"name": "Ataque al NORAD",
 		"text": "<b>Respuesta obligada:</b> después de que se coloque Amenaza sobre esta carta durante el paso uno de la fase del Villano, cada jugador debe elegir entre colocar 2 de Amenaza sobre esta carta o bien poner en juego la primera carta de su mazo boca abajo y enfrentada a él como un Esbirro [[Dron]]."
 	},
 	{
-		"back_flavor": "Ultrón ha tomado el control del NORAD. Es sólo cuestión de tiempo que supere las medidas de seguridad y lance todo el arsenal nuclear.",
-		"back_text": "<b>Cuando se muestre esta carta:</b> cada jugador pone en juego la primera carta de su mazo boca abajo y enfrentada a él como un Esbirro [[Dron]]. Avanza a la etapa 3B.",
-		"code": "01139",
+		"code": "01139a",
+		"flavor": "Ultrón ha tomado el control del NORAD. Es sólo cuestión de tiempo que supere las medidas de seguridad y lance todo el arsenal nuclear.",
+		"name": "Cuenta atrás para el olvido",
+		"text": "<b>Cuando se muestre esta carta:</b> cada jugador pone en juego la primera carta de su mazo boca abajo y enfrentada a él como un Esbirro [[Dron]]. Avanza a la etapa 3B."
+	},
+	{
+		"code": "01139b",
 		"flavor": "¡Sóis los únicos que podéis slavar el mundo del holocausto nuclear!",
 		"name": "Cuenta atrás para el olvido",
 		"text": "No puede quitarse Amenaza de este Plan.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
@@ -509,7 +533,7 @@
 		"flavor": "\"No es auténtico poder a menos que te teman.\"",
 		"name": "Yon-Rogg",
 		"text": "[star] <b>Respuesta obligada:</b> después de que Yon-Rogg ataque, coloca 1 de Amenaza sobre El psicomagnetrón.",
-		"traits": "Elite. Kree."
+		"traits": "Élite. Kree."
 	},
 	{
 		"code": "01178",

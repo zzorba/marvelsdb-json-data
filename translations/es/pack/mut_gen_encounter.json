@@ -77,15 +77,23 @@
 		"traits": "Hermandad de mutantes"
 	},
 	{
-		"back_text": "<b>Contenido:</b> Dientes de Sable (I) y Dientes de Sable (II). (Dientes de Sable [II] y Dientes de Sable [III] para jugar en modo Experto.) Conjuntos de Encuentros de Dientes de Sable y Normal. Dos conjuntos de Encuentros modulares (Hermandad y Mística).\n<b>Preparación:</b> pon en juego el Plan secundario Buscar al senador. Vincúlale la carta de Aliado de Robert Kelly. Mientras esté vinculado a Buscar al senador, Robert Kelly está en juego pero no lo controla ningún jugador.",
-		"code": "32063",
+		"code": "32063a",
+		"name": "Acosado por Dientes de Sable",
+		"text": "<b>Contenido:</b> Dientes de Sable (I) y Dientes de Sable (II). (Dientes de Sable [II] y Dientes de Sable [III] para jugar en modo Experto.) Conjuntos de Encuentros de Dientes de Sable y Normal. Dos conjuntos de Encuentros modulares (Hermandad y Mística).\n<b>Preparación:</b> pon en juego el Plan secundario Buscar al senador. Vincúlale la carta de Aliado de Robert Kelly. Mientras esté vinculado a Buscar al senador, Robert Kelly está en juego pero no lo controla ningún jugador."
+	},
+	{
+		"code": "32063b",
 		"name": "Acosado por Dientes de Sable",
 		"text": "[star] <b>Respuesta obligada:</b> después deresolver el paso uno de la fase de Villano, inflige 2 de Daño a Robert Kelly (3 de Daño si hay al menos 6[per_hero] de Amenaza sobre esta carta).\nMientras Robert Kelly esté vinculado a Buscar al senador, trata su texto de reglas como si estuviese en blanco.\n<b>Si Robert Kelly abandona el juego, los jugadores pierden la partida.</b>"
 	},
 	{
-		"back_flavor": "Sabretooth has wounded Senator Kelly y continues to hound him!",
-		"back_text": "<b>Cuando se muestre esta carta:</b> reparte a cada jugador 1 carta de Encuentro boca abajo.",
-		"code": "32064",
+		"code": "32064a",
+		"name": "El Senador herido",
+		"flavor": "Sabretooth has wounded Senator Kelly y continues to hound him!",
+		"text": "<b>Cuando se muestre esta carta:</b> reparte a cada jugador 1 carta de Encuentro boca abajo."
+	},
+	{
+		"code": "32064b",
 		"name": "El Senador herido",
 		"flavor": "\"¡Dientes de Sable ha herido al senador Kelly y continúa hostigándolo!\"",
 		"text": "<b>Cuando se complete esta carta:</b> derrota a Robert Kelly.\n<b>Si Robert Kelly abandona el juego, los jugadores pierden la partida.</b>"
@@ -226,8 +234,12 @@
 		"traits": "Centinela."
 	},
 	{
-		"back_text": "<b>Contenido:</b> Centinela (I) y Centinela (II). (Centinela [II] y Centinela [III] para jugar en modo Experto.) Conjuntos de Encuentros del Proyecto Despertar, Tolerancia Cero y Normal. Un conjunto de Encuentros modular (Centinelas).\n<b>Preparación:</b> aparta a un lado todos los Aliados ([Cautivo]). Muestra los Planes Tolerancia Cero y Mutantes en el centro comercial.",
-		"code": "32087",
+		"code": "32087a",
+		"name": "Noche de los centinelas",
+		"text": "<b>Contenido:</b> Centinela (I) y Centinela (II). (Centinela [II] y Centinela [III] para jugar en modo Experto.) Conjuntos de Encuentros del Proyecto Despertar, Tolerancia Cero y Normal. Un conjunto de Encuentros modular (Centinelas).\n<b>Preparación:</b> aparta a un lado todos los Aliados ([Cautivo]). Muestra los Planes Tolerancia Cero y Mutantes en el centro comercial."
+	},
+	{
+		"code": "32087b",
 		"name": "Noche de los centinelas",
 		"text": "Operación Tolerancia Cero gana Permanente.\n<b>Respuesta obligada:</b> después de que se coloque Amenaza sobre esta carta, si hay al menos 5[per_hero] de Amenaza sobre ella, el jugador inicial coge la primera carta de su mazo y la coloca boca abajo debajo de Operación Tolerancia Cero. Luego retira 5[per_hero] de Amenaza de este Plan."
 	},
@@ -380,14 +392,22 @@
 		"traits": "Centinela."
 	},
 	{
-		"back_text": "<b>Contenido:</b> Molde Maestro (I) y Molde Maestro (II). (Molde Maestro [II] y Molde Maestro [III] para jugar en modo Experto.) Conjuntos de Encuentros del Molde Maestro, Centinelas y Normal. Un conjunto de Encuentros modular (Tolerancia Cero).\n<b>Preparación:</b> pon en juego el Aliado Magneto (172B) controlado por el jugador inicial.",
-		"code": "32112",
+		"code": "32112a",
+		"name": "La fábrica de centinelas",
+		"text": "<b>Contenido:</b> Molde Maestro (I) y Molde Maestro (II). (Molde Maestro [II] y Molde Maestro [III] para jugar en modo Experto.) Conjuntos de Encuentros del Molde Maestro, Centinelas y Normal. Un conjunto de Encuentros modular (Tolerancia Cero).\n<b>Preparación:</b> pon en juego el Aliado Magneto (172B) controlado por el jugador inicial."
+	},
+	{
+		"code": "32112b",
 		"name": "La fábrica de centinelas",
 		"text": "Todos los Esbirros [[CENTINELA]] ganan Guardia.\n<b>Cuando se muestre esta carta:</b> cada jugador descarta cartas del mazo de Encuentros hasta que se descarte un Esbirro [[CENTINELA]], luego lo pone en juego enfrentado a él."
 	},
 	{
-		"back_text": "<b>Cuando se muestre esta carta:</b> baraja el mazo de Encuentros junto con su pila de descartes. Cada jugador descarta cartas del mazo de Encuentros hasta que descarte un Esbirro [[CENTINELA]], luego lo pone en juego enfrentado a él.",
-		"code": "32113",
+		"code": "32113a",
+		"name": "El plan del Molde Maestro",
+		"text": "<b>Cuando se muestre esta carta:</b> baraja el mazo de Encuentros junto con su pila de descartes. Cada jugador descarta cartas del mazo de Encuentros hasta que descarte un Esbirro [[CENTINELA]], luego lo pone en juego enfrentado a él."
+	},
+	{
+		"code": "32113b",
 		"flavor": "Master Mold's programming has backfired! Recognizing that mutants come from humans, the giant Sentinel is programming its 'offspring' to subdue everyone on Earth!",
 		"name": "El plan del Molde Maestro",
 		"text": "Todos los Esbirros [[CENTINELA]] ganan Guardia\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>."
@@ -482,37 +502,57 @@
 		"traits": "Hermandad de mutantes."
 	},
 	{
-		"back_text": "<b>Contenido:</b> Avalancha (A), Mole (A), Piros (A) y Sapo (A). <i>(Usa sus caras (B) para jugar en modo Experto.)</i> Conjuntos de Encuentros de Ataque a la mansión, Hermandad y Normal. Un conjunto de Encuentros modular (<i>Mística</i>).\n<b>Preparación:</b> pon en juego la carta de Entorno Salvar el instituto. Baraja todas las copias del Plan principal 2A y amontónalas debajo de este Plan. Baraja los Villanos <i>(sin mirarlos)</i> para crear el mazo de Villanos. La carta que quede en la parte superior de este mazo está en juego.",
-		"code": "32125",
+		"code": "32125a",
+		"name": "¡La Hermandad ataca!",
+		"text": "<b>Contenido:</b> Avalancha (A), Mole (A), Piros (A) y Sapo (A). <i>(Usa sus caras (B) para jugar en modo Experto.)</i> Conjuntos de Encuentros de Ataque a la mansión, Hermandad y Normal. Un conjunto de Encuentros modular (<i>Mística</i>).\n<b>Preparación:</b> pon en juego la carta de Entorno Salvar el instituto. Baraja todas las copias del Plan principal 2A y amontónalas debajo de este Plan. Baraja los Villanos <i>(sin mirarlos)</i> para crear el mazo de Villanos. La carta que quede en la parte superior de este mazo está en juego."
+	},
+	{
+		"code": "32125b",
 		"flavor": "¡La hermandad de Mutantes está atacando el Instituto Xavier!",
 		"name": "¡La Hermandad ataca!",
 		"text": "<b>Cuando se muestre esta carta</b>: reparte a cada jugador 1 carta de Encuentro boca abajo. Avanza a la siguiente carta del mazo del Plan principal. Añade esta carta a la zona de victoria."
 	},
 	{
-		"back_flavor": "Los miembros de la Hermandad atacan todos a una, concentrando su ofensiva en...",
-		"back_text": "<b>Cuando se muestre esta carta</b>: dale la vuelta a esta carta.",
-		"code": "32126",
+		"code": "32126a",
+		"flavor": "Los miembros de la Hermandad atacan todos a una, concentrando su ofensiva en...",
+		"name": "El vestíbulo",
+		"text": "<b>Cuando se muestre esta carta</b>: dale la vuelta a esta carta."
+	},
+	{
+		"code": "32126b",
 		"name": "El vestíbulo",
 		"text": "Todos los personajes ganan Tesón.\n<b>cuando se complete esta etapa</b>: añade este Plan a la zona de victoria. Avanza a la siguiente carta del mazo del Plan principal.\n <b>Si hay 3 Planes principales en la zona de victoria, los jugadores pierden la partida.</b>"
 	},
 	{
-		"back_flavor": "Los miembros de la Hermandad atacan todos a una, concentrando su ofensiva en...",
-		"back_text": "<b>Cuando se muestre esta carta</b>: dale la vuelta a esta carta.",
-		"code": "32127",
+		"code": "32127a",
+		"flavor": "Los miembros de la Hermandad atacan todos a una, concentrando su ofensiva en...",
+		"name": "La cafetería",
+		"text": "<b>Cuando se muestre esta carta</b>: dale la vuelta a esta carta."
+	},
+	{
+		"code": "32127b",
 		"name": "La cafetería",
 		"text": "Todos los personajes ganan Represalia 1.\n<b>cuando se complete esta etapa</b>: añade este Plan a la zona de victoria. Avanza a la siguiente carta del mazo del Plan principal.\n <b>Si hay 3 Planes principales en la zona de victoria, los jugadores pierden la partida.</b>"
 	},
 	{
-		"back_flavor": "Los miembros de la Hermandad atacan todos a una, concentrando su ofensiva en...",
-		"back_text": "<b>Cuando se muestre esta carta</b>: dale la vuelta a esta carta.",
-		"code": "32128",
+		"code": "32128a",
+		"flavor": "Los miembros de la Hermandad atacan todos a una, concentrando su ofensiva en...",
+		"name": "La cancha de baloncesto",
+		"text": "<b>Cuando se muestre esta carta</b>: dale la vuelta a esta carta."
+	},
+	{
+		"code": "32128b",
 		"name": "La cancha de baloncesto",
 		"text": "Todos los Aliados y Esbirros ganan Dureza.\n<b>cuando se complete esta etapa</b>: añade este Plan a la zona de victoria. Avanza a la siguiente carta del mazo del Plan principal.\n <b>Si hay 3 Planes principales en la zona de victoria, los jugadores pierden la partida.</b>"
 	},
 	{
-		"back_flavor": "Los miembros de la Hermandad atacan todos a una, concentrando su ofensiva en...",
-		"back_text": "<b>Cuando se muestre esta carta</b>: dale la vuelta a esta carta.",
-		"code": "32129",
+		"code": "32129a",
+		"flavor": "Los miembros de la Hermandad atacan todos a una, concentrando su ofensiva en...",
+		"name": "El patio",
+		"text": "<b>Cuando se muestre esta carta</b>: dale la vuelta a esta carta."
+	},
+	{
+		"code": "32129b",
 		"name": "El patio",
 		"text": "Todos los personajes ganan +1 ATQ.\n<b>cuando se complete esta etapa</b>: añade este Plan a la zona de victoria. Avanza a la siguiente carta del mazo del Plan principal.\n <b>Si hay 3 Planes principales en la zona de victoria, los jugadores pierden la partida.</b>"
 	},
@@ -575,21 +615,33 @@
 		"traits": "Hermandad de mutantes."
 	},
 	{
-		"back_flavor": "Magneto floats above the Earth in his orbital sanctuary.",
-		"back_text": "<b>Contenido:</b> Magneto (I) y Magneto (II). <i>(Magneto (II) y Magneto (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros de Magneto y Normal. Un conjunto de Encuentros modular (<i>Acólitos</i>).\n<b>Preparación:</b> aparta a un lado el Plan secundario Caída de órbita. Muestra el Plan secundario Misión de abordaje.",
-		"code": "32141",
+		"code": "32141a",
+		"flavor": "Magneto floats above the Earth in his orbital sanctuary.",
+		"name": "Asteroide M",
+		"text": "<b>Contenido:</b> Magneto (I) y Magneto (II). <i>(Magneto (II) y Magneto (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros de Magneto y Normal. Un conjunto de Encuentros modular (<i>Acólitos</i>).\n<b>Preparación:</b> aparta a un lado el Plan secundario Caída de órbita. Muestra el Plan secundario Misión de abordaje."
+	},
+	{
+		"code": "32141b",
 		"name": "Asteroide M",
 		"text": "<b>Respuesta obligada</b>: después de que coloques un contador de Magnetismo sobre este Plan, si hay al menos 3 contadores de magnetismo aquí, descarta cartas del mazo de Encuentros hasta que se descarte una con el rasgo [[Magnético]]. Muestra esa carta, luego quita 3 contadores de Magnetismo de este Plan."
 	},
 	{
-		"back_text": "<b>Cuando se muestre esta carta</b>: coloca 1 contador de Magnetismo sobre esta carta. Si Sabotear el Molde Maestro no esta en la zona de victoria, el jugador inicial busca una copia del Esbirro Centinela tipo M en el mazo y la pila de descartes de Encuentros y lo muestra.",
-		"code": "32142",
+		"code": "32142a",
+		"name": "Fábrica operativa",
+		"text": "<b>Cuando se muestre esta carta</b>: coloca 1 contador de Magnetismo sobre esta carta. Si Sabotear el Molde Maestro no esta en la zona de victoria, el jugador inicial busca una copia del Esbirro Centinela tipo M en el mazo y la pila de descartes de Encuentros y lo muestra."
+	},
+	{
+		"code": "32142b",
 		"name": "Fábrica operativa",
 		"text": "<b>Respuesta obligada</b>: después de que coloques un contador de Magnetismo sobre este Plan, si hay al menos 3 contadores de magnetismo aquí, descarta cartas del mazo de Encuentros hasta que se descarte una con el rasgo [[Magnético]]. Muestra esa carta, luego quita 3 contadores de Magnetismo de este Plan."
 	},
 	{
-		"back_text": "<b>Cuando se muestre esta carta</b>: coloca 2 contadores de Magnetismo sobre esta carta. Si Magneto no tiene vunculado Esfuerzo físico, el jugador inicial busca un Accesorio [[Magnético]] en el mazo y la pila de descartes de Encuentros y lo muestra.",
-		"code": "32143",
+		"code": "32143a",
+		"name": "La dictadura de Magnus",
+		"text": "<b>Cuando se muestre esta carta</b>: coloca 2 contadores de Magnetismo sobre esta carta. Si Magneto no tiene vunculado Esfuerzo físico, el jugador inicial busca un Accesorio [[Magnético]] en el mazo y la pila de descartes de Encuentros y lo muestra."
+	},
+	{
+		"code": "32143b",
 		"name": "La dictadura de Magnus",
 		"text": "<b>Respuesta obligada</b>: después de que coloques un contador de Magnetismo sobre este Plan, si hay al menos 3 contadores de magnetismo aquí, descarta cartas del mazo de Encuentros hasta que se descarte una con el rasgo [[Magnético]]. Muestra esa carta, luego quita 3 contadores de Magnetismo de este Plan.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
 	},
