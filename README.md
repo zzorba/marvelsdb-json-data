@@ -103,6 +103,7 @@ To check and apply formatting to JSON files:
 * **health** - Character's health. By default, it is fixed.
 * **health_per_hero** - Whether the **health** is per hero
 * **health_star** - Whether a star appears in the health field indicating a special ability
+* **hidden** - Whether the card should be hidden from views. This is normally used for the B side of a **back_link** card.
 * **illustrator** - The name(s) of the artist(s) on the card
 * **is_unique** - Whether the card is unique
 * **name** - The name of the card
