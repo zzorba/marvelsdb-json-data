@@ -721,7 +721,7 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 8,
-		"stage": 1,
+		"stage": 2,
 		"text": "<b>When Revealed:</b> Put the Avengers Tower environment into play, [[stronghold]] side faceup. Put the Focused Defense attachment into play attached to this stage. Each player searches the encounter deck for a copy of Black Order Besieger and puts it into play engaged with them. Shuffle the encounter deck.",
 		"type_code": "main_scheme"
 	},
@@ -738,7 +738,7 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 8,
-		"stage": 1,
+		"stage": 2,
 		"text": "<b><i>Corvus Glaive's Scheme.</i></b>\n<b>Forced Interrupt:</b> When this stage would be completed, remove all the threat from this stage instead. Then, deal each player 1 facedown encounter card.",
 		"threat": 6,
 		"type_code": "main_scheme"
@@ -1000,7 +1000,7 @@
 		"set_code": "thanos",
 		"set_position": 4,
 		"stage": 1,
-		"text": "<b>When Revealed:</b> Put the top card of the [[infinity stone]] deck into play. Search the encounter deck for the Sanctuary side scheme and reveal it. <i>(Shuffle the encounter deck.)</i>",
+		"text": "<b>Contents:</b> Thanos I and Thanos II <i>(Thanos II and Thanos III for expert mode)</i>. Thanos, Infinity Gaultlet and Standard sets. Two modular sets <i>(Black Order and Children of Thanos)</i>. See rules insert for The Infinity Gauntlet rules.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -1008,6 +1008,7 @@
 		"code": "21114b",
 		"escalation_threat": 1,
 		"faction_code": "encounter",
+		"flavor": "Thanos has gathered all six infinity Stones into the Infinity Gauntlet. He has only to master its power in order to enact his genocidal plan.",
 		"hidden": true,
 		"name": "The Infinity Stones",
 		"octgn_id": "2986f3a3-e1cd-437b-9ee7-f90a71ec0fa9",
@@ -1017,7 +1018,7 @@
 		"set_code": "thanos",
 		"set_position": 4,
 		"stage": 1,
-		"text": "<b>Contents:</b> Thanos I and Thanos II <i>(Thanos II and Thanos III for expert mode)</i>. Thanos, Infinity Gauntlet and Standard sets. Two modular sets <i>(Black Order and Children of Thanos)</i>. See rules insert for The Infinity Gauntlet rules.",
+		"text": "<b>When Revealed:</b> Put the top card of the [[infinity stone]] deck into play. Search the encounter deck for the Sanctuary side scheme and reveal it. <i>(Shuffle the encounter deck.)</i>",		
 		"threat": 12,
 		"type_code": "main_scheme"
 	},
