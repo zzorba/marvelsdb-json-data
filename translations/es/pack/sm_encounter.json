@@ -78,8 +78,12 @@
 		"traits": "Criminal."
 	},
 	{
-		"back_text": "<b>Contenido: </b> Hombre de Arena (I) y Hombre de Arena (II). <i>(Hombre de Arena (II) y Hombre de Arena (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros del Hombre de Arena, Caos en la ciudad y Normal. Un conjunto de Encuentros modular <i>Con los pies en la tierra.</i>\n <b>Preparación: </b>busca la carta de Entorno Calles de la ciudad en el mazo de Encuentros y ponla en juego. Colócale encima 4 contadores de Arena.",
-		"code": "27064",
+		"code": "27064a",
+		"name": "Peatones indefensos",
+		"text": "<b>Contenido: </b> Hombre de Arena (I) y Hombre de Arena (II). <i>(Hombre de Arena (II) y Hombre de Arena (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros del Hombre de Arena, Caos en la ciudad y Normal. Un conjunto de Encuentros modular <i>Con los pies en la tierra.</i>\n <b>Preparación: </b>busca la carta de Entorno Calles de la ciudad en el mazo de Encuentros y ponla en juego. Colócale encima 4 contadores de Arena."
+	},
+	{
+		"code": "27064b",
 		"flavor": "\"¡El Hombre de Arena inunda las calles de la ciudad con un torrente de arena poniendo en grave peligro a los inocentes transeúntes!\"",
 		"name": "Peatones indefensos",
 		"text": "<b>Respuesta obligada:</b> después de que se coloque una ficha de Aceleración sobre este Plan, inflige 3 de Daño indirecto al jugador inicial.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
@@ -225,15 +229,23 @@
 		"traits": "Criminal."
 	},
 	{
-		"back_text": "<b>Interrupción obligada: </b>cuando vayas a robar o descartar una carta de Encuentro de tu mazo, quédatela como carta de Encuentro boca abajo → roba 1 carta.",
-		"code": "27087",
+		"code": "27087a",
+		"name": "Laberinto de espejos",
+		"text": "<b>Interrupción obligada: </b>cuando vayas a robar o descartar una carta de Encuentro de tu mazo, quédatela como carta de Encuentro boca abajo → roba 1 carta."
+	},
+	{
+		"code": "27087b",
 		"flavor": "En cada recodo del camino aparecen innumerables copias vuestras. Los cristales rotos se vuelven a recompone, y pese a todos vuestros intentos por buscar la salida del laberinto, sólo conseguís adentraros aún más en él. Tal vez el único modo de escapar sea derrotar a Mysterio.",
 		"name": "Laberinto de espejos",
 		"text": "<b>Contenido: </b> Mysterio (I) y Mysterio (II). <i>(Mysterio (II) y Mysterio (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros de Mysterio, Pesadilla personal y Normal. Un conjunto de Encuentros modular <i>(Susurros paranoides.)</i>\n<b> Preparación: </b>pon en juego un Esbirro Aparición omnipresente efrentado a cada jugador. <i>(Baraja el mazo.)</i>"
 	},
 	{
-		"back_text": "<b>Interrupción oblligada: </b>cuando vayas a robar o descartar una carta de Encuentro de tu mazo, quédatela como carta de Encuentro boca abajo → roba 1 carta.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>",
-		"code": "27088",
+		"code": "27088a",
+		"name": "Los límites de la realidad",
+		"text": "<b>Interrupción oblligada: </b>cuando vayas a robar o descartar una carta de Encuentro de tu mazo, quédatela como carta de Encuentro boca abajo → roba 1 carta.\n <b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+	},
+	{
+		"code": "27088b",
 		"flavor": "¡Si no os dais prisa, las alucinaciones podrían acabar convirtiéndose en una parte permanente de vuestra psique y quedaríais atrapados en una pesadilla eterna!",
 		"name": "Los límites de la realidad",
 		"text": "<b>Cuando se muestre esta carta:</b> siguiendo el orden de jugadores, añade las 2 primeras cartas del mazo de Encuentros al mazo de cada jugador y barájalo."
@@ -304,8 +316,12 @@
 		"traits": "Orden de activación 6"
 	},
 	{
-		"back_text": "<b>Contenido: </b>Doctor Octopus, Electro, Duende, Kraven el Cazador, Escorpión y Buitre. Conjuntos de Encuentros de Los seis siniestros, Tácticas de guerrilla y Normal.\n <b>Preparación: </b>elige X Villanos al azar, siendo X 1 más que el número de jugadores. Pon en juego esos Villanos, coloca el contador de Villano activo sobre el Villano que tenga la puntuación más baja en el orden de activación y aparta a un lado los demás Villanos. Pon en juego el Plan secundario La luz al final del túnel, con la cara de [[¡trampa!]] boca arriba.",
-		"code": "27100",
+		"code": "27100a",
+		"name": "Sincronización siniestra",
+		"text": "<b>Contenido: </b>Doctor Octopus, Electro, Duende, Kraven el Cazador, Escorpión y Buitre. Conjuntos de Encuentros de Los seis siniestros, Tácticas de guerrilla y Normal.\n <b>Preparación: </b>elige X Villanos al azar, siendo X 1 más que el número de jugadores. Pon en juego esos Villanos, coloca el contador de Villano activo sobre el Villano que tenga la puntuación más baja en el orden de activación y aparta a un lado los demás Villanos. Pon en juego el Plan secundario La luz al final del túnel, con la cara de [[¡trampa!]] boca arriba."
+	},
+	{
+		"code": "27100b",
 		"name": "Sincronización siniestra",
 		"text": "¡Emboscada! — <b>Especial: </b>elige al azar un Villano que esté apartado, ponlo en juego y colócale encima el contador de Villano activo. (En modo Experto, coloca 2 de Amenaza sobre La luz al final del túnel).\n <b>Interrupción obligada: </b>cuando vaya a activarse un Villano, si no hay ninguno en juego, resuelve la capacidad \"¡Emboscada!\" de esta carta. Reanuda esa activación."
 	},

@@ -59,8 +59,9 @@ To check and apply formatting to JSON files:
   * 0+: Shows up as the given integer
 * **attack_cost** - Cost for the character to attack (commonly, the amount of consequential damage)
 * **attack_star** - Whether a star appears in the attack field indicating a special ability
-* **back_flavor** - The flavor text on the back of a card
-* **back_text** - The text on the back of a card
+* **back_flavor** - The flavor text on the back of a card (pair with **double_sided**)
+* **back_link** - link to the code of the back side of the card (incompatible with the **double_sided** method). Do not forget to set the back card to **hidden**
+* **back_text** - The text on the back of a card (pair with **double_sided**)
 * **base_threat** - The starting threat on a card. By default, it is per hero.
 * **base_threat_fixed** - Whether the **base_threat** is fixed and not per hero
 * **boost** - The number of boost icons on a card
@@ -80,7 +81,7 @@ To check and apply formatting to JSON files:
   ```
 * **defense** - Character's defense value
 * **defense_star** - Whether a star appears in the defense field indicating a special ability
-* **double_sided** - Whether the card is a double sided card
+* **double_sided** - Whether the card is a double sided card (incompatible with the **back_link** method)
 * **duplicate_of** - A link to the original card code for duplicate cards in other packs
 * **escalation_threat** - The acceleration threat to apply to main/side schemes. By default, it is per hero. Possible values:
   * -1: Shows up as X
@@ -102,6 +103,7 @@ To check and apply formatting to JSON files:
 * **health** - Character's health. By default, it is fixed.
 * **health_per_hero** - Whether the **health** is per hero
 * **health_star** - Whether a star appears in the health field indicating a special ability
+* **hidden** - Whether the card should be hidden from views. This is normally used for the B side of a **back_link** card.
 * **illustrator** - The name(s) of the artist(s) on the card
 * **is_unique** - Whether the card is unique
 * **name** - The name of the card
@@ -144,6 +146,7 @@ To check and apply formatting to JSON files:
   * `main_scheme`
   * `minion`
   * `obligation`
+  * `player_side_scheme`
   * `resource`
   * `side_scheme`
   * `support`
@@ -172,9 +175,13 @@ To have text spanning multiple lines, use `\n` to separate them. To have quotes 
 
 These can be used in a card's `text` section. It will get converted to the appropriate icon.
 
+* `[acceleration]`
+* `[amplify]`
 * `[boost]`
 * `[cost]`
+* `[crisis]`
 * `[energy]`
+* `[hazard]`
 * `[mental]`
 * `[per_hero]`
 * `[physical]`

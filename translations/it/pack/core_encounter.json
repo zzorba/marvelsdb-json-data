@@ -20,9 +20,13 @@
 		"traits": "Bruto. Malvivente."
 	},
 	{
-		"back_flavor": "Rhino sta attaccando una struttura dello S.H.I.E.L.D.!",
-		"back_text": "<b>Contenuti</b>: Rhino (I) e Rhino (II). (Rhino (II) e Rhino (III) invece per la modalità esperto.) Set di incontri Rhino e Standard. 1 set di incontri modulare <i>(consigliato: Panico da Bomba)</i>.\n<b>Preparazione</b>:Prosegui con lo stadio 1B.",
-		"code": "01097",
+		"code": "01097a",
+		"flavor": "Rhino sta attaccando una struttura dello S.H.I.E.L.D.!",
+		"name": "Irruzione",
+		"text": "<b>Contenuti</b>: Rhino (I) e Rhino (II). (Rhino (II) e Rhino (III) invece per la modalità esperto.) Set di incontri Rhino e Standard. 1 set di incontri modulare <i>(consigliato: Panico da Bomba)</i>.\n<b>Preparazione</b>:Prosegui con lo stadio 1B."
+	},
+	{
+		"code": "01097b",
 		"flavor": "Rhino cerca di sfondare il muro della struttura per rubare un carico di vibranio. Dovete fermarlo!",
 		"name": "Irruzione",
 		"text": "<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
@@ -138,17 +142,25 @@
 		"traits": "Signore del Male."
 	},
 	{
-		"back_flavor": "L'attacco alla struttura dello S.H.I.E.L.D. è stato attribuito a una rete clandestina di trafficanti d'armi",
-		"back_text": "<b>Contenuto</b>: Klaw (I) e Klaw (II). <i>(Klaw (II) e Klaw (III) invece per la modalità esperto.)</i> Set di incontri Klaw e Standard. 1 set di incontri modularet <i>(consigliato: Signori del Male)</i>\n<b>Preparazione</b>: Cerca nel mazzo degli incontri la trama secondaria Rete Difensiva e rivelala. Mescola il mazzo degli incontri. Proseguire con lo stadio 1B.",
-		"code": "01116",
+		"code": "01116a",
+		"flavor": "L'attacco alla struttura dello S.H.I.E.L.D. è stato attribuito a una rete clandestina di trafficanti d'armi",
+		"name": "Distribuzione Clandestina",
+		"text": "<b>Contenuto</b>: Klaw (I) e Klaw (II). <i>(Klaw (II) e Klaw (III) invece per la modalità esperto.)</i> Set di incontri Klaw e Standard. 1 set di incontri modularet <i>(consigliato: Signori del Male)</i>\n<b>Preparazione</b>: Cerca nel mazzo degli incontri la trama secondaria Rete Difensiva e rivelala. Mescola il mazzo degli incontri. Proseguire con lo stadio 1B."
+	},
+	{
+		"code": "01116b",
 		"flavor": "Le vostre indagini rivelano che l'organizzazione criminale è gestita da Klaw, un vecchio rivale degli Avengers!",
 		"name": "Distribuzione Clandestina",
 		"text": "<b>Quando Rivelata</b>: Scarta carte dal mazzo degli incontri finchè non scarti 1 gregario. Metti in gioco quel gregario impegnato con il primo giocatore."
 	},
 	{
-		"back_flavor": "Klaw ha trovato un compratore per le sue armi illegali. Tocca a voi impedire la vendita, ma il luogo dell'incontro è pattugliato dai suoi scagnozzi",
-		"back_text": "<b>Quando Rivelata</b>: Scarta carte dal mazzo degli incontri finchè non scarti 1 gregario. Metti in gioco quel gregario impegnato con il primo giocatore. Proseguire con lo stadio 2B.",
-		"code": "01117",
+		"code": "01117a",
+		"flavor": "Klaw ha trovato un compratore per le sue armi illegali. Tocca a voi impedire la vendita, ma il luogo dell'incontro è pattugliato dai suoi scagnozzi",
+		"name": "Rendez-Vous Segreto",
+		"text": "<b>Quando Rivelata</b>: Scarta carte dal mazzo degli incontri finchè non scarti 1 gregario. Metti in gioco quel gregario impegnato con il primo giocatore. Proseguire con lo stadio 2B."
+	},
+	{
+		"code": "01117b",
 		"flavor": "Klaw si incontra con l'Incappucciata, poi i due si tuffano tra le ombre quando ti fai avanti per affrontarli. Nel frattempo gli sgherri di Klaw si affannano a coprire la loro fuga.",
 		"name": "Rendez-Vous Segreto",
 		"text": "<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
@@ -264,25 +276,37 @@
 		"traits": "Androide."
 	},
 	{
-		"back_flavor": "Sotto il cappuccio rosso del misterioso datore di lavoro di Klaw si cela in realtà l'androide genocida Ultron.",
-		"back_text": "<b>Contenuto</b>: Ultron (I) e Ultron (II). <i>(Ultron (II) e Ultron (III) invece per la modalità esperto.)</i> Set di incontri Ultron e Standard. 1 set di incontri modulare <i>(consigliato: Sotto Attacco).</i>\n<b>Preparazione</b>: Metti in gioco l'ambiente Droni di Ultron. Mescola il mazzo degli incontri. Proseguire con lo stadio 1B.",
-		"code": "01137",
+		"code": "01137a",
+		"flavor": "Sotto il cappuccio rosso del misterioso datore di lavoro di Klaw si cela in realtà l'androide genocida Ultron.",
+		"name": "L'Incappucciata",
+		"text": "<b>Contenuto</b>: Ultron (I) e Ultron (II). <i>(Ultron (II) e Ultron (III) invece per la modalità esperto.)</i> Set di incontri Ultron e Standard. 1 set di incontri modulare <i>(consigliato: Sotto Attacco).</i>\n<b>Preparazione</b>: Metti in gioco l'ambiente Droni di Ultron. Mescola il mazzo degli incontri. Proseguire con lo stadio 1B."
+	},
+	{
+		"code": "01137b",
 		"flavor": "Ultron vuole usare i materiali consegnati da Klaw per costruire un suo esercito di droni",
 		"name": "L'Incappucciata",
 		"text": "<b>Quando Rivelata</b>: Ogni giocatore mette in gioco a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]]."
 	},
 	{
-		"back_flavor": "Mentre inseguite Ultron, ricevete una richiesta di soccorso dal Comando di Difesa Aerospaziale del Nord America. Sono assediati da un esercito di droni di Ultron!",
-		"back_text": "<b>Quando Rivelata</b>: Ogni giocatore mette in gioco a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]]. Proseguire con lo stadio 2B",
-		"code": "01138",
+		"code": "01138a",
+		"flavor": "Mentre inseguite Ultron, ricevete una richiesta di soccorso dal Comando di Difesa Aerospaziale del Nord America. Sono assediati da un esercito di droni di Ultron!",
+		"name": "Assalto al NORAD",
+		"text": "<b>Quando Rivelata</b>: Ogni giocatore mette in gioco a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]]. Proseguire con lo stadio 2B"
+	},
+	{
+		"code": "01138b",
 		"flavor": "Se Ultron ottiene il controllo del NORAD, potrà accedere al comando dei missili balistici degli Stati Uniti!",
 		"name": "Assalto al NORAD",
 		"text": "<b>Risposta Obbligata</b>: Dopo aver collocato le minacce su questa carta durante il passo 1 del Criminale, ogni giocatore sceglie se collocare 2 minacce su questa carta oppure mettere in gioco a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]]."
 	},
 	{
-		"back_flavor": "Ultron ha preso il controllo del NORAD. Ora è solo questione di tempo prima che superi le protezioni a difesa dei comandi e ordini il lancio dell'arsenale nucleare.",
-		"back_text": "<b>Quando Rivelata</b>: Ogni giocatore mette in gioco a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]]. Proseguire con lo stadio 3B",
-		"code": "01139",
+		"code": "01139a",
+		"flavor": "Ultron ha preso il controllo del NORAD. Ora è solo questione di tempo prima che superi le protezioni a difesa dei comandi e ordini il lancio dell'arsenale nucleare.",
+		"name": "Conto alla Rovescia per l'Oblio",
+		"text": "<b>Quando Rivelata</b>: Ogni giocatore mette in gioco a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]]. Proseguire con lo stadio 3B"
+	},
+	{
+		"code": "01139b",
 		"flavor": "Tocca a voi salvare il mondo dall'armageddon nucleare!",
 		"name": "Conto alla Rovescia per l'Oblio",
 		"text": "Non è possibile rimuovere minacce da questa trama.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
