@@ -886,6 +886,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "bad_publicity",
 		"set_position": 1,
+		"text": "<b><i>Standard Mode Only.</i></b>\nVictory 1. Uses (2[per_hero] notoriety counters).\n<b>Response</b>: After a minion or side scheme is defeated, remove 1 notoriety counter from here.",
 		"traits": "Standard Mode Only.",
 		"type_code": "environment"
 	},
@@ -901,6 +902,7 @@
 		"scheme_hazard": 1,
 		"set_code": "bad_publicity",
 		"set_position": 1,
+		"text": "<b><i>Expert Mode Only.</i></b>\nVictory 1. Uses (3[per_hero] notoriety counters).\n<b>Response</b>: After a minion or side scheme is defeated, remove 1 notoriety counter from here.",
 		"traits": "Expert Mode Only.",
 		"type_code": "environment"
 	},
@@ -915,6 +917,7 @@
 		"quantity": 1,
 		"set_code": "bad_publicity",
 		"set_position": 2,
+		"text": "In expert mode, this card gains surge.\n<b>When Revealed</b>: If Public Outcry is in play, place 2 notoriety counters on it, then remove this card from the game. If Public Outcry is not in play, place 2 threat on the main scheme.",
 		"type_code": "treachery"
 	},
 	{
@@ -929,6 +932,7 @@
 		"quantity": 1,
 		"set_code": "community_service",
 		"set_position": 1,
+		"text": "Surge.\nVictory 1. <i>(When defeated, add this to the victory display.)</i>\n<b>Forced Response</b>: After you thwart this scheme, choose to either spend a [physical] resource or discard 1 random card from your hand.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -943,6 +947,7 @@
 		"quantity": 1,
 		"set_code": "community_service",
 		"set_position": 2,
+		"text": "Surge.\nVictory 1. <i>(When defeated, add this to the victory display.)</i>\nAs an additional cost to thwart this scheme, take 2 indirect damage.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -957,6 +962,7 @@
 		"quantity": 1,
 		"set_code": "community_service",
 		"set_position": 3,
+		"text": "Surge.\nVictory 1. <i>(When defeated, add this to the victory display.)</i>\n<b>Forced Response</b>: After any amount of threat is removed from this scheme, place an equal amount of threat on the main scheme.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -971,6 +977,7 @@
 		"quantity": 1,
 		"set_code": "community_service",
 		"set_position": 4,
+		"text": "Surge.\nVictory 1. <i>(When defeated, add this to the victory display.)</i>\n<b>Forced Interrupt</b>: When the villain phase begins, place 1 speed counter here. If there are at least 2 speed counters here, remove this card from the game and discard the top 3 cards of each player's deck.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -985,6 +992,7 @@
 		"quantity": 1,
 		"set_code": "community_service",
 		"set_position": 5,
+		"text": "Surge.\nVictory 1. <i>(When defeated, add this to the victory display.)</i>\n<b>Interrupt</b>: When a character makes a basic thwart against this side scheme, <i>(they may)</i> use their ATK instead of their THW.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -998,6 +1006,7 @@
 		"quantity": 1,
 		"set_code": "snitches_get_stitches",
 		"set_position": 1,
+		"text": "Victory -1.\nAttach to Venom (Eddie Brock). If you cannot this card gains surge.\n<b>Forced Interrupt</b>: When a villain attacks, it attacks Venom. If that attack defeats Venom, add Venom and this card to the victory display.\n<b>Action</b>: Exhaust Venom and spend 2 resources of the same type \u2192 discard this card.",
 		"type_code": "attachment"
 	},
 	{
@@ -1007,10 +1016,12 @@
 		"name": "Compact Darts",
 		"octgn_id": "01273b97-c9bf-49f8-bab7-cfc2ad127f3a",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 182,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 1,
+		"text": "Setup. Permanent.\n<b>Hero Response</b>: After your hero attacks, remove 1 dart counter from here \u2192 deal 1 damage to an enemy.\n<b>Alter-Ego Action</b>: Spend 1 resource of any type \u2192 place 3 dart counters here. (Limit once per round.)",
 		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1021,10 +1032,12 @@
 		"name": "Compact Darts",
 		"octgn_id": "01273b97-c9bf-49f8-bab7-cfc2ad127f3a",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 182,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 1,
+		"text": "Permanent.\n<b>Hero Response</b>: After your hero attacks, remove 1 dart counter from here \u2192 deal 1 damage to up to 2 different enemies.\n<b>Alter-Ego Action</b>: Spend 1 resource of any type \u2192 place 3 dart counters here. (Limit once per round.)",
 		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1035,10 +1048,12 @@
 		"name": "Impact-Dampening Suit",
 		"octgn_id": "cff4327f-deae-46a2-97a4-2eae84eef5ed",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 183,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 2,
+		"text": "Setup. Permanent.\nYour identity gets +2 hit points.\n<b>Hero Interrupt</b>: When the villain phase begins, spend 1 resource of any type \u2192 until the end of the phase, reduce the amount of damage your hero takes from each enemy attack by 1.",
 		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1053,6 +1068,7 @@
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 2,
+		"text": "Permanent.\nYour identity gets +3 hit points.\n<b>Hero Interrupt</b>: When your hero would take any amount of damage from an enemy attack, discard the top card of your deck \u2192 prevent 1 of that damage.",
 		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1063,10 +1079,12 @@
 		"name": "Laser Goggles",
 		"octgn_id": "6f9ce064-3f42-409c-9f2b-d657f4fda83e",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 184,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 3,
+		"text": "Setup. Permanent.\nYour hero gets -1 THW.\nYour hero gets +1 ATK, and your hero's basic attacks gain overkill.",
 		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1077,10 +1095,12 @@
 		"name": "Laser Goggles",
 		"octgn_id": "6f9ce064-3f42-409c-9f2b-d657f4fda83e",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 184,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 3,
+		"text": "Permanent.\nYour hero gets -1 THW.\nYour hero gets +2 ATK, and your hero's basic attacks gain overkill and piercing.",
 		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1091,10 +1111,12 @@
 		"name": "Propulsion Gauntlet",
 		"octgn_id": "cd5f15c5-1d35-4582-b664-5b03cb7e44f2",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 185,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 4,
+		"text": "Setup. Permanent.\n<b>Hero Action</b>: Exhaust Propulsion Gauntlet and take 2 indirect damage \u2192 ready your hero.",
 		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1105,10 +1127,12 @@
 		"name": "Propulsion Gauntlet",
 		"octgn_id": "cd5f15c5-1d35-4582-b664-5b03cb7e44f2",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 185,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 4,
+		"text": "Permanent.\n<b>Hero Action</b>: Exhaust Propulsion Gauntlet and take 2 indirect damage \u2192 ready your hero. Your hero gets +1 THW, +1 ATK, and +1 DEF until the end of the phase.",
 		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1119,10 +1143,12 @@
 		"name": "Retinal Display",
 		"octgn_id": "a9fcdf47-3a27-465b-a751-2d5d462d4cdd",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 186,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 5,
+		"text": "Setup. Permanent.\nYour hero's basic thwart power <i>(THW)</i> can only remove threat from the scheme with the most threat.\nYour hero gets +1 THW, and your hero's basic thwarts ignore the crisis icon <i>([crisis])</i>.",
 		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1133,10 +1159,12 @@
 		"name": "Retinal Display",
 		"octgn_id": "a9fcdf47-3a27-465b-a751-2d5d462d4cdd",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 186,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 5,
+		"text": "Permanent.\nYour hero's basic thwart power <i>(THW)</i> can only remove threat from the scheme with the most threat.\nYour hero gets +2 THW, and your hero's basic thwarts ignore the crisis icon <i>([crisis])</i> and the patrol keyword.",
 		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1147,10 +1175,12 @@
 		"name": "Shock Knuckles",
 		"octgn_id": "0862fbbf-4b8b-4cf9-80cd-cb00efddcbbb",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 187,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 6,
+		"text": "Setup. Permanent.\n<b>Hero Response</b>: After your hero makes a basic attack against an enemy, discard the top card of the encounter deck. If no boost icons <i>([boost])</i> were discarded this way, stun that enemy.",
 		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1161,10 +1191,12 @@
 		"name": "Shock Knuckles",
 		"octgn_id": "0862fbbf-4b8b-4cf9-80cd-cb00efddcbbb",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 187,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 6,
+		"text": "Permanent.\nYour hero gets +1 ATK.\n<b>Hero Response</b>: After your hero makes a basic attack against an enemy, discard the top card of the encounter deck. If 1 or fewer boost icons <i>([boost])</i> were discarded this way, stun that enemy.",
 		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1175,10 +1207,12 @@
 		"name": "Wave Bracers",
 		"octgn_id": "83a5b8aa-b0a8-4ee7-a1ea-f34ad22e6737",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 188,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 7,
+		"text": "Setup. Permanent.\nYour hero gets -1 ATK.\nYour hero gets +1 DEF, and gains retaliate 1 and steady.",
 		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1189,10 +1223,12 @@
 		"name": "Wave Bracers",
 		"octgn_id": "83a5b8aa-b0a8-4ee7-a1ea-f34ad22e6737",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 188,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 7,
+		"text": "Permanent.\nYour hero gets -1 ATK.\nYour hero gets +2 DEF, and gains retaliate 1 and stalwart.",
 		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1203,10 +1239,12 @@
 		"name": "Wrist Navigators",
 		"octgn_id": "9b19aec4-ff1e-4b26-b85d-17c15f4ba81f",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 189,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 8,
+		"text": "Setup. Permanent.\n<b>Forced Response</b>: After a minion or side scheme enters play, attach Wrist Navigator to it.\n<b>Interrupt</b>: When the attached card is defeated, draw 1 card. <i>(Return this card to your play area.)</i>",
 		"traits": "S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
@@ -1217,10 +1255,12 @@
 		"name": "Wrist Navigators",
 		"octgn_id": "9b19aec4-ff1e-4b26-b85d-17c15f4ba81f",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 189,
 		"quantity": 1,
 		"set_code": "shield_tech",
 		"set_position": 8,
+		"text": "Permanent.\n<b>Forced Response</b>: After a minion or side scheme enters play, attach Wrist Navigator to it.\n<b>Interrupt</b>: When the attached card is defeated, draw 2 cards, then discard 1 card from your hand.",
 		"traits": "Enhanced. S.H.I.E.L.D. Tech.",
 		"type_code": "upgrade"
 	},
