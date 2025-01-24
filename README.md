@@ -191,10 +191,24 @@ These can be used in a card's `text` section. It will get converted to the appro
 
 #### Translations
 
-To merge new changes in default language in all locales, run the CoffeeScript script `update_locales`.
+To merge new changes in default language in all locales, run the CoffeeScript script `update_locales`. You could install dependency locally or you could use docker.
 
+##### Local installation
 Pre-requisites:
  * `node` and `npm` installed
  * `npm -g install coffee-script`
 
-Usage: `coffee update_locales.coffee`
+Usage: 
+
+`coffee update_locales.coffee`
+
+##### Docker
+Pre-requisites:
+ * [Docker](https://www.docker.com/)
+
+Usage:
+
+```
+docker run -it --rm -v "$PWD":/usr/src/app  -w /usr/src/app node:22 npm install
+docker run -it --rm -v "$PWD":/usr/src/app  -w /usr/src/app node:22 ./node_modules/coffee-script/bin/coffee update_locales.coffee
+```
