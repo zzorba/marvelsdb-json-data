@@ -1060,6 +1060,7 @@
 		"base_threat_fixed": true,
 		"boost": 3,
 		"code": "21116",
+		"erratum": "Added “from player cards”. (RRG 1.6)",
 		"faction_code": "encounter",
 		"name": "Sanctuary",
 		"octgn_id": "a8e9ed1b-e91b-4546-bdbe-fb7150aad9a8",
@@ -1068,7 +1069,7 @@
 		"quantity": 1,
 		"set_code": "thanos",
 		"set_position": 6,
-		"text": "Hinder 1[per_hero]. Victory 1.\nThanos cannot take damage.\n<b>When Defeated:</b> Each player may spend up to 3 [physical] resources from their hand. Deal 2 damage to Thanos for each [physical] resource spent this way. This damage ignores the tough status card.",
+		"text": "Hinder 1[per_hero]. Victory 1.\nThanos cannot take damage from player cards.\n<b>When Defeated:</b> Each player may spend up to 3 [physical] resources from their hand. Deal 2 damage to Thanos for each [physical] resource spent this way. This damage ignores the tough status card.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1272,6 +1273,7 @@
 		"attack": 1,
 		"attack_star": true,
 		"code": "21129",
+		"erratum": "Added “against you”. (RRG 1.5)",
 		"faction_code": "encounter",
 		"is_unique": true,
 		"name": "Infinity Gauntlet",
@@ -1283,7 +1285,7 @@
 		"scheme_star": true,
 		"set_code": "infinity_gauntlet",
 		"set_position": 1,
-		"text": "Permanent. setup\n[star] <b>Forced Response</b>: After attached villain activates, resolve the <b> Special </b> ability of each [[infinity stone]] in play. Otherwise, put the top card of the [[infinity stone]] deck into play.",
+		"text": "Permanent. setup\n[star] <b>Forced Response</b>: After attached villain activates against you, resolve the <b> Special </b> ability of each [[infinity stone]] in play. Otherwise, put the top card of the [[infinity stone]] deck into play.",
 		"traits": "Artifact. Weapon.",
 		"type_code": "attachment"
 	},

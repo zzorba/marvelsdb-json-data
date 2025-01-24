@@ -444,6 +444,7 @@
 	{
 		"base_threat": 3,
 		"code": "39016",
+		"erratum": "Added cost arrow. (RRG 1.5)",
 		"faction_code": "encounter",
 		"flavor": "Spiral is hiding in one of the numerous television programs Mojo is producing.",
 		"illustrator": "Allison Preswick",
@@ -454,7 +455,7 @@
 		"quantity": 1,
 		"set_code": "spiral",
 		"set_position": 5,
-		"text": "Permanent.\n<b>Forced Interrupt</b>: After the last threat is removed from here, the player who removed that threat reveals the top card of the show deck and places 3 [per_hero] threat here.\n<b>Hero Action</b>: Take 2 damage. Remove 3 threat from here.",
+		"text": "Permanent.\n<b>Forced Interrupt</b>: After the last threat is removed from here, the player who removed that threat reveals the top card of the show deck and places 3 [per_hero] threat here.\n<b>Hero Action</b>: Take 2 damage → Remove 3 threat from here.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -973,6 +974,7 @@
 		"base_threat": 6,
 		"boost_star": true,
 		"code": "39045",
+		"erratum": "Replaced “for free” with “ignoring its resource cost”. (RRG 1.5)",
 		"faction_code": "encounter",
 		"flavor": "\"Bring me a shrubbery!\" — Sir Mojo",
 		"name": "Fetch Quest",
@@ -982,7 +984,7 @@
 		"quantity": 1,
 		"set_code": "fantasy",
 		"set_position": 5,
-		"text": "Surge.\n<b>When Defeated</b>: In player order, each player may search their deck for a card and play that card for free. <i>(Shuffle.)</i>\n<hr />\n[star] <b>Boost</b>: Put this card into play.",
+		"text": "Surge.\n<b>When Defeated</b>: In player order, each player may search their deck for a card and play that card, ignoring its resource cost. <i>(Shuffle.)</i>\n<hr />\n[star] <b>Boost</b>: Put this card into play.",
 		"type_code": "side_scheme"
 	},
 	{
