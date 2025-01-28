@@ -31,6 +31,7 @@
 	},
 	{
 		"code": "35001b",
+		"erratum": "Simplification of the “Setup” ability. (RRG 1.5)",
 		"faction_code": "hero",
 		"hand_size": 6,
 		"health": 10,
@@ -44,7 +45,7 @@
 		"quantity": 1,
 		"recover": 6,
 		"set_code": "wolverine",
-		"text": "<i>Snikt!</i> - <b>Setup</b>: Search your deck and discard pile for the Wolverine's Claws upgrade and put it into play.",
+		"text": "<i>Snikt!</i> - <b>Setup</b>: Put Wolverine's Claws into play.",
 		"traits": "Mutant.",
 		"type_code": "alter_ego"
 	},
@@ -166,6 +167,7 @@
 		"code": "35008",
 		"cost": 2,
 		"deck_limit": 2,
+		"erratum": "Replaced cost arrow with “to”. (RRG 1.5)",
 		"faction_code": "hero",
 		"name": "Berserker Barrage",
 		"octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035008",
@@ -175,7 +177,7 @@
 		"resource_physical": 1,
 		"set_code": "wolverine",
 		"set_position": 7,
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. If this attack defeats an enemy, you may take 2 damage → repeat this ability.",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. If this attack defeats an enemy, you may take 2 damage to repeat this ability.",
 		"traits": "Attack.",
 		"type_code": "event"
 	},
