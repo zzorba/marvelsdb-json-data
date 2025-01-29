@@ -1,8 +1,8 @@
 import json
 import uuid
 
-runFile = 'magneto.json'
-pack_code = 'magneto'
+runFile = 'bp.json'
+pack_code = 'bp'
 
 with open('./packs.json') as json_file:
     pack_data = json.load(json_file)
