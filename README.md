@@ -70,6 +70,7 @@ To check and apply formatting to JSON files:
 * **cost** - Play cost of the card. Relevant for most cards. Possible values:
   * -1: Shows up as X
   * 0+: Shows up as the given integer
+* **cost_per_hero** - Whether the **cost** is per hero
 * **deck_limit** - The max number of the given card that can be in a deck
 * **deck_requirements** - Alter-ego/hero only - describes the character's requirements for an investigator. e.g.:
   ```json
