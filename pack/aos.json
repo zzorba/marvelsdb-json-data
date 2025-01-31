@@ -8,7 +8,7 @@
             {
                 "name_limit": 3,
                 "trait": [
-                    "S.H.I.E.L.D"
+                    "S.H.I.E.L.D."
                 ],
                 "type": [
                     "support"
@@ -288,7 +288,7 @@
         "quantity": 1,
         "resource_mental": 1,
         "text": "Play under any player's control. Max 1 [[Team]] card per player.\nIf each of your characters has the [[S.H.I.E.L.D.]] trait, this card gains: \"<b>Interrupt</b>: When you reveal an encounter card, exhaust this card \u2192 cancel the effects of that card and discard it. Then, reveal another card from the encounter deck.\"",
-        "traits": "Team",
+        "traits": "Team.",
         "type_code": "support"
     },
     {
@@ -311,6 +311,38 @@
         "quantity": 1,
         "resource_physical": 1,
         "text": "Uses (2 deploy counters).\n<b>Action</b>: Exhaust The Circe, remove 1 deploy counter from it, and choose a player \u2192 that player puts an ally into play from their hand.",
+        "traits": "S.H.I.E.L.D. Vehicle.",
+        "type_code": "support"
+    },
+    {
+        "code": "50018",
+        "cost": 6,
+        "deck_limit": 1,
+        "faction_code": "aggression",
+        "is_unique": true,
+        "name": "The Bellerophon",
+        "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050018",
+        "pack_code": "aos",
+        "position": 18,
+        "quantity": 1,
+        "resource_energy": 1,
+        "text": "Uses (3 missile counters).\n<b>Action</b>: Exhaust The Bellerophon, remove 1 missile counter from it, and choose a player \u2192 deal 3 damage to the villain and each minion engaged with that player, discarding all tough status cards from those enemies first.",
+        "traits": "S.H.I.E.L.D. Vehicle.",
+        "type_code": "support"
+    },
+    {
+        "code": "50019",
+        "cost": 6,
+        "deck_limit": 1,
+        "faction_code": "justice",
+        "is_unique": true,
+        "name": "The Douglass",
+        "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050019",
+        "pack_code": "aos",
+        "position": 19,
+        "quantity": 1,
+        "resource_mental": 1,
+        "text": "Uses (3 operation counters).\n<b>Action</b>: Exhaust The Douglass and remove 1 operational counter from it \u2192 remove 2 threat from each scheme, ignoring any crisis icons ([crisis]) in play.",
         "traits": "S.H.I.E.L.D. Vehicle.",
         "type_code": "support"
     },
@@ -571,6 +603,25 @@
         "type_code": "support"
     },
     {
+        "code": "50041",
+        "cost": 1,
+        "deck_limit": 1,
+        "faction_code": "hero",
+        "illustrator": "Ivan Fiorelli",
+        "is_unique": true,
+        "name": "Safe House #221",
+        "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050041",
+        "pack_code": "aos",
+        "position": 41,
+        "quantity": 1,
+        "resource_mental": 1,
+        "set_code": "nick_fury",
+        "set_position": 11,
+        "text": "<b>Alter-Ego Action</b>: Exhaust Safe House #221 \u2192 choose:\n\u2022 Heal 2 damage from Nick Fury.\n\u2022 Place 1 threat on your suit form upgrade.",
+        "traits": "Location. S.H.I.E.L.D.",
+        "type_code": "support"
+    },
+    {
         "code": "50042",
         "cost": 2,
         "deck_limit": 1,
@@ -621,6 +672,23 @@
         "set_position": 14,
         "text": "<b>Resource</b>: Exhaust Fury's Watch and remove up to 2 threat from your suit form upgrade \u2192 generate a [mental] resource for each threat you removed this way.",
         "traits": "Item. Tech.",
+        "type_code": "upgrade"
+    },
+    {
+        "code": "50045",
+        "cost": 0,
+        "deck_limit": 1,
+        "faction_code": "hero",
+        "name": "Intelligence Analysis",
+        "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050045",
+        "pack_code": "aos",
+        "position": 45,
+        "quantity": 1,
+        "resource_mental": 1,
+        "set_code": "nick_fury",
+        "set_position": 15,
+        "text": "<b>Interrupt</b>: When you reveal a treachery, discard Intelligence Analysis and remove 1 threat from your suit form upgrade \u2192 cancel the effects of that treachery and discard it.",
+        "traits": "Preparation. Skill.",
         "type_code": "upgrade"
     },
     {

@@ -70,7 +70,16 @@ To check and apply formatting to JSON files:
   * -1: Shows up as X
   * 0+: Shows up as the given integer
 * **deck_limit** - The max number of the given card that can be in a deck
-* **deck_requirements** - Alter-ego/hero only - describes the character's requirements for an investigator. e.g.:
+* **deck_options** - Alter-ego/hero only - describes the options while deck building a hero. e.g.:
+  ```json
+  "deck_options": [
+    {
+      "limit": 2,
+      "type": ["ally"]
+    }
+  ]
+  ```
+* **deck_requirements** - Alter-ego/hero only - describes the requirements while deck building a hero. e.g.:
   ```json
   "deck_requirements": [
     {
