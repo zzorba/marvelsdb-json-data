@@ -115,6 +115,7 @@
 		"type_code": "minion"
 	},
 	{
+		"attack": 2,
 		"boost": 2,
 		"code": "16056",
 		"faction_code": "encounter",
@@ -1295,6 +1296,7 @@
 		"type_code": "environment"
 	},
 	{
+		"attack": 1,
 		"boost_star": true,
 		"code": "16109",
 		"faction_code": "encounter",
@@ -1304,6 +1306,7 @@
 		"pack_code": "gmw",
 		"position": 109,
 		"quantity": 1,
+		"scheme": 1,
 		"set_code": "ronan",
 		"set_position": 7,
 		"text": "Attach to Ronan the Accuser.\nRonan the Accuser gains stalwart.\n<b>Hero Action:</b> Take 2 damage and deal yourself 1 facedown encounter card → shuffle Universal Weapon into the encounter deck.\n<hr />\n[star] <b>Boost</b>: Attach Universal Weapon to Ronan the Accuser.",
@@ -1968,6 +1971,7 @@
 		"type_code": "treachery"
 	},
 	{
+		"attack": 1,
 		"code": "16149",
 		"faction_code": "encounter",
 		"is_unique": true,
@@ -1976,10 +1980,12 @@
 		"pack_code": "gmw",
 		"position": 149,
 		"quantity": 1,
+		"scheme": 1,
 		"set_code": "power_stone",
 		"set_position": 1,
 		"text": "Setup. Attach to the villain.\nPermanent.\n<b>Forced Response:</b> After a hero or villain deals 3 or more damage to attached character with a single attack, attach Power Stone to the attacking hero or villain.",
 		"traits": "Infinity Stone.",
+		"thwart": 1,
 		"type_code": "attachment"
 	},
 	{
