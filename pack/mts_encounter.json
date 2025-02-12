@@ -1498,6 +1498,7 @@
 	},
 	{
 		"attack": 3,
+		"attack_cost": 2,
 		"back_link": "21139b",
 		"code": "21139a",
 		"cost": 0,
@@ -1511,13 +1512,16 @@
 		"quantity": 1,
 		"set_code": "hela",
 		"set_position": 4,
-		"text": "While Odin is not attached to the main scheme, he gains: The first player gains control of Odin. Odin cannot have cards attached and does not count against ally limit.\n<b> If Odin leaves play, the player lose the game. <b>",
+		"subname": "All-Father",
+		"text": "While Odin is not attached to the main scheme, he gains: \"The first player gains control of Odin. Odin cannot have cards attached and does not count against ally limit.\"\n<b>If Odin leaves play, the players lose the game.</b>",
 		"thwart": 2,
+		"thwart_cost": 2,
 		"traits": "Asgard. Captive.",
 		"type_code": "ally"
 	},
 	{
 		"attack": 4,
+		"attack_cost": 2,
 		"code": "21139b",
 		"cost": 0,
 		"faction_code": "encounter",
@@ -1531,8 +1535,10 @@
 		"quantity": 1,
 		"set_code": "hela",
 		"set_position": 4,
-		"text": "The first player gains control of Odin.\nOdin cannot have encounter cards attached and does not count against the ally limit.\n<b> Forced Interrupt: </b> When Odin leaves play, remove him from the game",
+		"subname": "All-Father",
+		"text": "The first player gains control of Odin.\nOdin cannot have encounter cards attached and does not count against the ally limit.\n<b>Forced Interrupt</b>: When Odin leaves play, remove him from the game.",
 		"thwart": 3,
+		"thwart_cost": 2,
 		"traits": "Asgard. King.",
 		"type_code": "ally"
 	},
