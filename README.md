@@ -55,21 +55,25 @@ To check and apply formatting to JSON files:
 
 * **attack** - Character's attack value. Format is integer or `null`. Possible values:
   * `null`: Shows up as dash or a star if **attack_star** is defined
-  * -1: Shows up as X
-  * 0+: Shows up as the given integer
+  * `99`: Shows up as X
+  * N: Shows up as the given integer
 * **attack_cost** - Cost for the character to attack (commonly, the amount of consequential damage)
 * **attack_star** - Whether a star appears in the attack field indicating a special ability
 * **back_flavor** - The flavor text on the back of a card (pair with **double_sided**)
 * **back_link** - link to the code of the back side of the card (incompatible with the **double_sided** method). Do not forget to set the back card to **hidden**
 * **back_text** - The text on the back of a card (pair with **double_sided**)
-* **base_threat** - The starting threat on a card. By default, it is per hero.
+* **base_threat** - The starting threat on a card. By default, it is per hero. Possible values:
+  * `null`: Shows up as dash
+  * `99`: Shows up as X
+  * N: Shows up as the given integer
 * **base_threat_fixed** - Whether the **base_threat** is fixed and not per hero
 * **boost** - The number of boost icons on a card
 * **boost_star** - Whether a star appears in the boost field indicating a special ability
 * **code** - 5 digit card identifier. Consists of two zero-padded numbers: first two digits are the cycle position, last three are position of the card within the cycle (printed on the card).
 * **cost** - Play cost of the card. Relevant for most cards. Possible values:
-  * -1: Shows up as X
-  * 0+: Shows up as the given integer
+  * `null`: Shows up as dash
+  * `99`: Shows up as X
+  * N: Shows up as the given integer
 * **deck_limit** - The max number of the given card that can be in a deck
 * **deck_requirements** - Alter-ego/hero only - describes the character's requirements for an investigator. e.g.:
   ```json
@@ -84,8 +88,9 @@ To check and apply formatting to JSON files:
 * **double_sided** - Whether the card is a double sided card (incompatible with the **back_link** method)
 * **duplicate_of** - A link to the original card code for duplicate cards in other packs
 * **escalation_threat** - The acceleration threat to apply to main/side schemes. By default, it is per hero. Possible values:
-  * -1: Shows up as X
-  * 0+: Shows up as the given number
+  * `null`: Shows up as dash or a star if **escalation_threat_star** is defined
+  * `99`: Shows up as X
+  * N: Shows up as the given number
 * **escalation_threat_fixed** - Whether the **escalation_threat** is fixed and not per hero
 * **escalation_threat_star** - Whether a star appears in the escalation threat field indicating a special ability
 * **faction_code** - The faction code type for a card. Possible values:
@@ -115,6 +120,10 @@ To check and apply formatting to JSON files:
 * **recover** - Character's recover value
 * **recover_star** - Whether a star appears in the recover field indicating a special ability
 * **resource_[energy|mental|physical|wild]** - Amount of resources of the given type
+* **scheme** - Character's scheme value. Possible values:
+  * `null`: Shows up as dash or a star if **scheme_star** is defined
+  * `99`: Shows up as X
+  * N: Shows up as the given number
 * **scheme_acceleration** - The acceleration amount on schemes
 * **scheme_crisis** - The number of crisis icons on a scheme
 * **scheme_hazard** - The number of hazard icons on a scheme
@@ -131,8 +140,8 @@ To check and apply formatting to JSON files:
 * **threat_star** - Whether a star appears in the threat field indicating a special ability
 * **thwart** - Character's thwart value. Possible values:
   * `null`: Shows up as dash or a star if **thwart_star** is defined
-  * -1: Shows up as X
-  * 0+: Shows up as the given integer
+  * 99: Shows up as X
+  * N: Shows up as the given integer
 * **thwart_cost** - Cost for the character to thwart (commonly, the amount of consequential damage)
 * **thwart_star** - Whether a star appears in the thwart field indicating a special ability
 * **traits** - List of traits following the pattern `Trait1. Trait2.`
