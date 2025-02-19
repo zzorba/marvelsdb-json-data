@@ -62,6 +62,32 @@
         "type_code": "alter_ego"
     },
     {
+        "attack": 2,
+        "attack_cost": 1,
+        "attack_star": true,
+        "code": "50002",
+        "cost": 4,
+        "deck_limit": 1,
+        "faction_code": "hero",
+        "flavor": "\"I put my best agent on the case.\" \u2014Maria Hill",
+        "health": 3,
+        "is_unique": true,
+        "name": "Nick Fury",
+        "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050002",
+        "pack_code": "aos",
+        "position": 2,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "maria_hill",
+        "set_position": 1,
+        "text": "[star] <b>Response</b>: After Nick Fury uses a basic power, place 1 all-purpose counter on a [[S.H.I.E.L.D.]] support.",
+        "thwart": 2,
+        "thwart_cost": 1,
+        "thwart_star": true,
+        "traits": "S.H.I.E.L.D.",
+        "type_code": "ally"
+    },
+    {
         "code": "50003",
         "cost": 2,
         "deck_limit": 2,
@@ -265,13 +291,13 @@
     },
     {
         "code": "50014",
-        "deck_limit": 1,
+        "deck_limit": 3,
         "faction_code": "leadership",
         "name": "Organizational Support",
         "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050014",
         "pack_code": "aos",
         "position": 14,
-        "quantity": 1,
+        "quantity": 3,
         "resource_mental": 1,
         "text": "<b>Interrupt</b>: When you spend this card, exhaust up to 3 allies and/or supports you control that share a [[Trait]] with your identity \u2192 generate the printed resources on each card exhausted this way.",
         "type_code": "resource"
@@ -279,13 +305,13 @@
     {
         "code": "50015",
         "cost": 3,
-        "deck_limit": 1,
+        "deck_limit": 3,
         "faction_code": "leadership",
         "name": "Agents of S.H.I.E.L.D.",
         "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050015",
         "pack_code": "aos",
         "position": 15,
-        "quantity": 1,
+        "quantity": 3,
         "resource_mental": 1,
         "text": "Play under any player's control. Max 1 [[Team]] card per player.\nIf each of your characters has the [[S.H.I.E.L.D.]] trait, this card gains: \"<b>Interrupt</b>: When you reveal an encounter card, exhaust this card \u2192 cancel the effects of that card and discard it. Then, reveal another card from the encounter deck.\"",
         "traits": "Team.",
@@ -364,6 +390,13 @@
         "type_code": "support"
     },
     {
+        "code": "50021",
+        "duplicate_of": "27047",
+        "pack_code": "aos",
+        "position": 21,
+        "quantity": 1
+    },
+    {
         "attack": 2,
         "attack_cost": 1,
         "code": "50022",
@@ -419,10 +452,31 @@
         "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050024",
         "pack_code": "aos",
         "position": 24,
-        "quantity": 1,
+        "quantity": 2,
         "resource_wild": 1,
         "text": "Team-Up (Maria Hill and Nick Fury). Max 1 per deck.\n<b>Hero Action</b>: Place a total of 3 all-purpose counters and/or threat tokens on [[S.H.I.E.L.D.]] supports and/or suit form upgrades.",
         "type_code": "event"
+    },
+    {
+        "code": "50025",
+        "duplicate_of": "01088",
+        "pack_code": "aos",
+        "position": 25,
+        "quantity": 1
+    },
+    {
+        "code": "50026",
+        "duplicate_of": "01089",
+        "pack_code": "aos",
+        "position": 26,
+        "quantity": 1
+    },
+    {
+        "code": "50027",
+        "duplicate_of": "01090",
+        "pack_code": "aos",
+        "position": 27,
+        "quantity": 1
     },
     {
         "code": "50028",
@@ -529,16 +583,41 @@
         "type_code": "upgrade"
     },
     {
+        "attack": 1,
+        "attack_cost": 1,
+        "code": "50036",
+        "cost": 3,
+        "deck_limit": 1,
+        "faction_code": "hero",
+        "flavor": "\"Now that's how you make an exit!\"",
+        "health": 3,
+        "is_unique": true,
+        "name": "Maria Hill",
+        "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050036",
+        "pack_code": "aos",
+        "position": 36,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "nick_fury",
+        "set_position": 2,
+        "text": "[star] <b>Interrupt</b>: When Maria Hill thwarts, place the removed threat on your suit form upgrade.",
+        "thwart": 2,
+        "thwart_cost": 1,
+        "thwart_star": true,
+        "traits": "S.H.I.E.L.D.",
+        "type_code": "ally"
+    },
+    {
         "code": "50037",
         "cost": 2,
-        "deck_limit": 3,
+        "deck_limit": 2,
         "faction_code": "hero",
         "illustrator": "Bruno Frenda",
         "name": "Concentrated Fire",
         "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050037",
         "pack_code": "aos",
         "position": 37,
-        "quantity": 3,
+        "quantity": 2,
         "resource_energy": 1,
         "set_code": "nick_fury",
         "set_position": 3,
@@ -549,17 +628,17 @@
     {
         "code": "50038",
         "cost": 1,
-        "deck_limit": 2,
+        "deck_limit": 3,
         "faction_code": "hero",
         "illustrator": "Andrea Di Vito & Laura Villari",
         "name": "Covert Surveillance",
         "octgn_id": "bddee479-23cf-4576-b33c-c95ee9050038",
         "pack_code": "aos",
         "position": 38,
-        "quantity": 2,
+        "quantity": 3,
         "resource_mental": 1,
         "set_code": "nick_fury",
-        "set_position": 6,
+        "set_position": 5,
         "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from a scheme. If you are in Stealth suit form, you may place that threat on your suit form upgrade. Otherwise, you may change to Stealth suit form.",
         "traits": "Thwart.",
         "type_code": "event"
@@ -710,6 +789,27 @@
         "type_code": "upgrade"
     },
     {
+        "code": "50047",
+        "duplicate_of": "08011",
+        "pack_code": "aos",
+        "position": 47,
+        "quantity": 1
+    },
+    {
+        "code": "50048",
+        "duplicate_of": "08012",
+        "pack_code": "aos",
+        "position": 48,
+        "quantity": 1
+    },
+    {
+        "code": "50049",
+        "duplicate_of": "27043",
+        "pack_code": "aos",
+        "position": 49,
+        "quantity": 3
+    },
+    {
         "code": "50050",
         "cost": 1,
         "deck_limit": 3,
@@ -755,6 +855,13 @@
         "text": "Max 1 per player.\n<b>Hero Response</b> <i>(attack)</i>: After a minion enters play, discard Prism Dust \u2192 confuse that minion and deal 2 damage to it.",
         "traits": "Preparation. Tech.",
         "type_code": "upgrade"
+    },
+    {
+        "code": "50053",
+        "duplicate_of": "06031",
+        "pack_code": "aos",
+        "position": 53,
+        "quantity": 3
     },
     {
         "attack": 2,
@@ -809,6 +916,13 @@
         "text": "Reduce the cost to play Leo Fitz by 2 if your identity has the [[S.H.I.E.L.D.]] trait.\n<b>Alter-Ego Action</b>: Exhaust Leo Fitz \u2192 search you deck for a [[Tech]] card and add it to your hand. <i>(Shuffle.)</i>",
         "traits": "Persona. S.H.I.E.L.D.",
         "type_code": "support"
+    },
+    {
+        "code": "50057",
+        "duplicate_of": "27055",
+        "pack_code": "aos",
+        "position": 57,
+        "quantity": 1
     },
     {
         "code": "50058",
