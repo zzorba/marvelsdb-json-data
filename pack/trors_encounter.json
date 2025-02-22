@@ -38,6 +38,7 @@
 		"base_threat_fixed": true,
 		"boost": 3,
 		"code": "04028",
+		"errata": "Changed “stage” to “scheme”. (RRG 1.4)",
 		"faction_code": "encounter",
 		"illustrator": "Paul Renaud",
 		"name": "Marked for Death",
@@ -160,6 +161,7 @@
 	{
 		"boost": 2,
 		"code": "04057",
+		"errata": "Changed the shuffle ability to only occur if the encounter deck is searched. (RRG 1.4)",
 		"faction_code": "encounter",
 		"name": "Hail Hydra!",
 		"octgn_id": "57f7cb6f-05b3-4b8e-80dc-b37d52e34c9d",
@@ -168,7 +170,7 @@
 		"quantity": 1,
 		"set_code": "spider_woman_nemesis",
 		"set_position": 5,
-		"text": "<b>When Revealed:</b> Each [[Hydra]] minion engaged with a hero attacks that hero. Each player who was not attacked this way searches the encounter deck and discard pile for a [[Hydra]] minion and puts it into play engaged with them. Shuffle the encounter deck.",
+		"text": "<b>When Revealed:</b> Each [[Hydra]] minion engaged with a hero attacks that hero. Each player who was not attacked this way searches the encounter deck and discard pile for a [[Hydra]] minion and puts it into play engaged with them. Shuffle the encounter deck if it was searched.",
 		"type_code": "treachery"
 	},
 	{
@@ -242,6 +244,7 @@
 	{
 		"back_link": "04061b",
 		"code": "04061a",
+		"errata": "Changed “Hydra Patrol” to “Hydra Assault”. (RRG 1.4)",
 		"faction_code": "encounter",
 		"illustrator": "Denis Medri",
 		"name": "Attack on Mount Athena",
@@ -1773,6 +1776,7 @@
 	{
 		"boost": 2,
 		"code": "04135",
+		"errata": "Changed “Forced Response” to “Forced Interrupt”. (RRG 1.6)",
 		"faction_code": "encounter",
 		"flavor": "The Infinity Stone gives Red Skull the power to bend reality to his will.",
 		"illustrator": "John Cassidy & Laura Martin",
@@ -1783,7 +1787,7 @@
 		"quantity": 2,
 		"set_code": "red_skull",
 		"set_position": 15,
-		"text": "Incite 1.\nAttach to a side scheme.\n<b>Forced Response:</b> When attached side scheme is defeated, deal the first player an encounter card.",
+		"text": "Incite 1.\nAttach to a side scheme.\n<b>Forced Interrupt:</b> When attached side scheme is defeated, deal the first player an encounter card.",
 		"traits": "Condition.",
 		"type_code": "attachment"
 	},
@@ -1978,6 +1982,7 @@
 	{
 		"boost": 2,
 		"code": "04147",
+		"errata": "Changed the shuffle ability to only occur if the encounter deck is searched. (RRG 1.4)",
 		"faction_code": "encounter",
 		"name": "Hail Hydra!",
 		"octgn_id": "f8dc79a0-e9c8-4d1c-810b-0a5ed92aa5b7",
@@ -1986,7 +1991,7 @@
 		"quantity": 1,
 		"set_code": "hydra_assault",
 		"set_position": 6,
-		"text": "<b>When Revealed:</b> Each [[Hydra]] minion engaged with a hero makes an attack against that hero. Each player who was not attacked this way searches the encounter deck and discard pile for a [[Hydra]] minion, puts it into play engaged with them, and shuffles the encounter deck.",
+		"text": "<b>When Revealed:</b> Each [[Hydra]] minion engaged with a hero attacks that hero. Each player who was not attacked this way searches the encounter deck and discard pile for a [[Hydra]] minion and puts it into play engaged with them. Shuffle the encounter deck if it was searched.",
 		"type_code": "treachery"
 	},
 	{

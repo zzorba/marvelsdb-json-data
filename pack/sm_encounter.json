@@ -2,6 +2,7 @@
 	{
 		"boost": 2,
 		"code": "27025",
+		"errata": "Attaches George Stacy to itself instead of setting him aside and attaching to him. (RRG 1.6)",
 		"faction_code": "encounter",
 		"name": "Worried Father",
 		"octgn_id": "03cf5ddd-09c8-46cb-b506-8cd7e22e5392",
@@ -9,7 +10,7 @@
 		"position": 25,
 		"quantity": 1,
 		"set_code": "ghost_spider",
-		"text": "<b>Give to the Gwen Stacy player.</b>\nSearch your deck, hand, discard pile, and play area for George Stacy and set him aside. Attach this obligation to him.\n<b>Alter-Ego Action</b>: Exhaust Gwen Stacy and remove this obligation from the game → add George Stacy to your hand.",
+		"text": "<b>Give to the Gwen Stacy player.</b>\nSearch your deck, hand, discard pile, and play area for George Stacy and attach him facedown to this card.\n<b>Alter-Ego Action</b>: Exhaust Gwen Stacy and remove this obligation from the game → add George Stacy to your hand.",
 		"type_code": "obligation"
 	},
 	{
@@ -383,6 +384,7 @@
 	{
 		"attack": 2,
 		"code": "27073",
+		"errata": "Changed “you attack and damage Venom with a card you control” to “you or an ally you control attacks and damages Venom”. (RRG 1.6)",
 		"faction_code": "encounter",
 		"health": 17,
 		"health_per_hero": true,
@@ -396,13 +398,14 @@
 		"set_code": "venom",
 		"set_position": 1,
 		"stage": 1,
-		"text": "Toughness. (This character enters play with a tough status card.)\n<i>Vengeance</i> — <b>Forced Response</b>: After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
+		"text": "Toughness. (This character enters play with a tough status card.)\n<i>Vengeance</i> — <b>Forced Response</b>: After you or an ally you control attacks and damages Venom, place 1 facedown boost card on your identity.",
 		"traits": "Symbiote.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 2,
 		"code": "27074",
+		"errata": "Changed “you attack and damage Venom with a card you control” to “you or an ally you control attacks and damages Venom”. (RRG 1.6)",
 		"faction_code": "encounter",
 		"health": 18,
 		"health_per_hero": true,
@@ -416,13 +419,14 @@
 		"set_code": "venom",
 		"set_position": 2,
 		"stage": 2,
-		"text": "Toughness. Steady.\n<b>When Revealed</b>: Search the encounter deck and discard pile for the Tooth and Nail side scheme and put it into play. <i>(Shuffle.)</i>\n<i>Vengeance</i> — <b>Forced Response</b>: After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
+		"text": "Toughness. Steady.\n<b>When Revealed</b>: Search the encounter deck and discard pile for the Tooth and Nail side scheme and put it into play. <i>(Shuffle.)</i>\n<i>Vengeance</i> — <b>Forced Response</b>: After you or an ally you control attacks and damages Venom, place 1 facedown boost card on your identity.",
 		"traits": "Symbiote.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 3,
 		"code": "27075",
+		"errata": "Changed “you attack and damage Venom with a card you control” to “you or an ally you control attacks and damages Venom”. (RRG 1.6)",
 		"faction_code": "encounter",
 		"health": 20,
 		"health_per_hero": true,
@@ -436,7 +440,7 @@
 		"set_code": "venom",
 		"set_position": 3,
 		"stage": 3,
-		"text": "Retaliate 1. Steady. Toughness.\n<b>When Revealed</b>: Place 2 facedown boost cards on each identity.\n<i>Retribution</i> — <b>Forced Response</b>: After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity (2 facedown boost cards instead if this is the first attack this turn).",
+		"text": "Retaliate 1. Steady. Toughness.\n<b>When Revealed</b>: Place 2 facedown boost cards on each identity.\n<i>Retribution</i> — <b>Forced Response</b>: After you or an ally you control attacks and damages Venom, place 1 facedown boost card on your identity (2 facedown boost cards instead if this is the first attack this turn).",
 		"traits": "Symbiote.",
 		"type_code": "villain"
 	},
@@ -2236,6 +2240,7 @@
 	{
 		"boost": 2,
 		"code": "27171",
+		"errata": "Added “Attached ally engages its controller.” (RRG 1.5)",
 		"faction_code": "encounter",
 		"name": "Manipulated Mind",
 		"octgn_id": "edd2d216-02d1-47f5-890b-ad360a506c71",
@@ -2244,7 +2249,7 @@
 		"quantity": 1,
 		"set_code": "whispers_of_paranoia",
 		"set_position": 3,
-		"text": "Treat attached ally as a minion with a blank text box (except for [[traits]]). Attach minion's SCH is equal to its printed THW and it does not take consequential damage.\n<b>When Revealed</b>: Attach to the ally you control with the lowest cost. If you cannot, this card gains surge.",
+		"text": "Treat attached ally as a minion with a blank text box (except for [[traits]]). Attach minion's SCH is equal to its printed THW and it does not take consequential damage.\n<b>When Revealed</b>: Attach to the ally you control with the lowest cost. Attached ally engages its controller. Otherwise, this card gains surge.",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},

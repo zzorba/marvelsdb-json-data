@@ -133,6 +133,10 @@
 			"pattern": "^[0-9a-z]{5}[0-9a-z]?$",
 			"type": "string"
 		},
+		"errata": {
+			"minLength": 1,
+			"type": "string"
+		},
 		"escalation_threat": {
 			"minimum": -1,
 			"type": "integer"

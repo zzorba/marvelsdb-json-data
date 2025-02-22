@@ -154,6 +154,7 @@
 		"code": "25007",
 		"cost": 2,
 		"deck_limit": 1,
+		"errata": "Changed “Valkyrie” to “You”. (RRG 1.5)",
 		"faction_code": "hero",
 		"flavor": "\"A fearless beast. If by his life or death he can save us all, he will.\" —Valkyrie",
 		"illustrator": "Ted Brandt & Ro Stein",
@@ -166,7 +167,7 @@
 		"resource_mental": 1,
 		"set_code": "valk",
 		"set_position": 6,
-		"text": "Valkyrie gets +4 hit points and gains the [[aerial]] trait.",
+		"text": "You get +4 hit points and gains the [[aerial]] trait.",
 		"traits": "Asgard. Creature.",
 		"type_code": "upgrade"
 	},
@@ -228,6 +229,7 @@
 		"code": "25011",
 		"cost": 1,
 		"deck_limit": 2,
+		"errata": "Added “(defense)” and DEFENSE trait. (RRG 1.5)",
 		"faction_code": "hero",
 		"illustrator": "Ted Brandt & Ro Stein",
 		"name": "Shieldmaiden",
@@ -238,7 +240,8 @@
 		"resource_physical": 1,
 		"set_code": "valk",
 		"set_position": 12,
-		"text": "<b>Hero Interrupt</b>: When the enemy with Death-Glow attached attacks, declare Valkyrie the defender without exhausting her. She gets +2 DEF for this attack.",
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When the enemy with Death-Glow attached attacks, declare Valkyrie the defender without exhausting her. She gets +2 DEF for this attack.",
+		"traits": "Defense.",
 		"type_code": "event"
 	},
 	{
