@@ -92,6 +92,7 @@ To check and apply formatting to JSON files:
 * **defense_star** - Whether a star appears in the defense field indicating a special ability
 * **double_sided** - Whether the card is a double sided card (incompatible with the **back_link** method)
 * **duplicate_of** - A link to the original card code for duplicate cards in other packs
+* **erratum** - A description of the changes applied to the card by the official Rules Reference
 * **escalation_threat** - The acceleration threat to apply to main/side schemes. By default, it is per hero. Possible values:
   * -1: Shows up as X
   * 0+: Shows up as the given number
