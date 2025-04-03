@@ -62,14 +62,64 @@
 			"minimum": -1,
 			"type": "integer"
 		},
+		"cost_per_hero": {
+			"type": "boolean"
+		},
 		"deck_limit": {
 			"minimum": 1,
 			"type": "integer"
 		},
 		"deck_options": {
+			"items": {
+				"properties": {
+					"limit": {
+						"minimum": 1,
+						"type": "integer"
+					},
+					"name_limit": {
+						"minimum": 1,
+						"type": "integer"
+					},
+					"trait": {
+						"items": {
+							"minlength": 1,
+							"type": "string"
+						},
+						"minItems": 1,
+						"type": "array"
+					},
+					"type": {
+						"items": {
+							"minlength": 1,
+							"type": "string"
+						},
+						"minItems": 1,
+						"type": "array"
+					},
+					"use_deck_limit": {
+						"type": "boolean"
+					}
+				},
+				"type": "object"
+			},
+			"minItems": 1,
 			"type": "array"
 		},
 		"deck_requirements": {
+			"items": {
+				"properties": {
+					"aspects": {
+						"minimum": 1,
+						"type": "integer"
+					},
+					"limit": {
+						"minimum": 1,
+						"type": "integer"
+					}
+				},
+				"type": "object"
+			},
+			"minItems": 1,
 			"type": "array"
 		},
 		"defense": {
@@ -84,6 +134,10 @@
 		},
 		"duplicate_of": {
 			"pattern": "^[0-9a-z]{5}[0-9a-z]?$",
+			"type": "string"
+		},
+		"errata": {
+			"minLength": 1,
 			"type": "string"
 		},
 		"escalation_threat": {
