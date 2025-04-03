@@ -59,20 +59,20 @@
 	},
 	{
 		"code": "32060",
-		"name": "Dientes de Sable I",
+		"name": "Dientes de Sable",
 		"flavor": "\"¡Te voy a arrancar las tripas!\"",
 		"text": "[star] <b>Respuesta obligada:</b> después de que Dientes de Sable se active contra ti, descarta la primera carta del mazo de Encuentros. Cura a Dientes de Sable tanto Daño como el número de iconos de Aumento ([boost]) que se hayan descartado de este modo.",
 		"traits": "Hermandad de mutantes"
 	},
 	{
 		"code": "32061",
-		"name": "Dientes de Sable II",
+		"name": "Dientes de Sable",
 		"text": "Dureza.\n[star] <b>Respuesta obligada:</b> después de que Dientes de Sable se active contra ti, descarta la primera carta del mazo de Encuentros. Cura a Dientes de Sable tanto Daño como el número de iconos de Aumento ([boost]) que se hayan descartado de este modo.",
 		"traits": "Hermandad de mutantes"
 	},
 	{
 		"code": "32062",
-		"name": "Dientes de Sable III",
+		"name": "Dientes de Sable",
 		"text": "Represalia 1. Dureza.\n[star] <b>Respuesta obligada:</b> después de que Dientes de Sable se active contra ti, descarta la primera carta del mazo de Encuentros. Cura a Dientes de Sable tanto Daño como el número de iconos de Aumento ([boost]) que se hayan descartado de este modo.",
 		"traits": "Hermandad de mutantes"
 	},
@@ -84,18 +84,18 @@
 	{
 		"code": "32063b",
 		"name": "Acosado por Dientes de Sable",
-		"text": "[star] <b>Respuesta obligada:</b> después deresolver el paso uno de la fase de Villano, inflige 2 de Daño a Robert Kelly (3 de Daño si hay al menos 6[per_hero] de Amenaza sobre esta carta).\nMientras Robert Kelly esté vinculado a Buscar al senador, trata su texto de reglas como si estuviese en blanco.\n<b>Si Robert Kelly abandona el juego, los jugadores pierden la partida.</b>"
+		"text": "[star] <b>Respuesta obligada:</b> después de resolver el paso uno de la fase de Villano, inflige 2 de Daño a Robert Kelly (3 de Daño si hay al menos 6[per_hero] de Amenaza sobre esta carta).\nMientras Robert Kelly esté vinculado a Buscar al senador, trata su texto de reglas como si estuviese en blanco.\n<b>Si Robert Kelly abandona el juego, los jugadores pierden la partida.</b>"
 	},
 	{
 		"code": "32064a",
 		"name": "El Senador herido",
-		"flavor": "Sabretooth has wounded Senator Kelly y continues to hound him!",
+		"flavor": "\"¡Dientes de Sable ha herido al senador Kelly y continúa hostigándolo!\"",
 		"text": "<b>Cuando se muestre esta carta:</b> reparte a cada jugador 1 carta de Encuentro boca abajo."
 	},
 	{
 		"code": "32064b",
 		"name": "El Senador herido",
-		"flavor": "\"¡Dientes de Sable ha herido al senador Kelly y continúa hostigándolo!\"",
+		"flavor": "Poned a salvo a Robert Kelly antes de que Dientes de Sable termine el trabajo.",
 		"text": "<b>Cuando se complete esta carta:</b> derrota a Robert Kelly.\n<b>Si Robert Kelly abandona el juego, los jugadores pierden la partida.</b>"
 	},
 	{
@@ -146,7 +146,7 @@
 	{
 		"code": "32072",
 		"name": "Rabia salvaje",
-		"flavor": "\"La caza de Kelly ha inducido un frenesí rabioso en Dientes de Sable. ¡Teneís qué desviar su atención del senador!\"",
+		"flavor": "\"La caza de Kelly ha inducido un frenesí rabioso en Dientes de Sable. ¡Tenéis qué desviar su atención del senador!\"",
 		"text": "<b>Cuando se derrote esta carta:</b> Dientes de Sable ataca al jugador que haya derrotado este Plan (incluso aunque tenga adoptada la identidad de su Alter ego)."
 	},
 	{
@@ -195,12 +195,14 @@
 	{
 		"code": "32080",
 		"name": "Mística",
+		"flavor": "\"¡Conmigo no se juega!\"",
 		"text": "Dureza.\nLos jugadores no pueden atacar al Villano.\n[star] El valor de PLA de Mística es igual al PLA del Villano, y su ATQ es igual al ATQ del Villano.",
 		"traits": "Hermandad de mutantes. Élite."
 	},
 	{
 		"code": "32081",
 		"name": "Malicia metamórfica",
+		"flavor": "El poder de Mística para adoptar cualquier apariencia la convierte en una enemiga impredecible.",
 		"text": "<b>Cuando se derrote esta carta:</b> el jugador que haya derrotado este Plan coge todas las cartas [[Cambiaformas]] que haya en la pila de descartes del mazo de Encuentros, las añade a su mazo y lo baraja."
 	},
 	{
@@ -217,19 +219,20 @@
 	},
 	{
 		"code": "32084",
-		"name": "Centinela I",
+		"name": "Centinela",
+		"flavor": "\"MUTANTE DETECTADO, INICIANDO SECUENCIA DE CAPTURA.\"",
 		"text": "Dureza.\n<b>Cuando se muestre esta carta:</b> el jugador inicial busca en el mazo y la pila de descartes de Encuentros una copia del Plan secundario Protocolos de captura y lo muestra.(Baraja el mazo.)",
 		"traits": "Centinela."
 	},
 	{
 		"code": "32085",
-		"name": "Centinela II",
+		"name": "Centinela",
 		"text": "Tesón. Dureza.\n<b>Cuando se muestre esta carta:</b> el jugador inicial busca en el mazo y la pila de descartes de Encuentros una copia del Plan secundario Protocolos de captura y lo muestra (Baraja el mazo.) Reparte a los demás jugadores 1 carta de Encuentro boca abajo a cada uno.",
 		"traits": "Centinela."
 	},
 	{
 		"code": "32086",
-		"name": "Centinela III",
+		"name": "Centinela",
 		"text": "Firmeza. Dureza.\n<b>Cuando se muestre esta carta:</b> el jugador inicial busca en el mazo y la pila de descartes de Encuentros una copia del Plan secundario Protocolos de captura y lo muestra (Baraja el mazo.) Reparte a los demás jugadores 1 carta de Encuentro boca abajo a cada uno.",
 		"traits": "Centinela."
 	},
@@ -260,6 +263,7 @@
 		"code": "32089",
 		"name": "Rictor",
 		"subname": "Julio Richter",
+		"flavor": "\"Tío...qué vida tan rara te espera.\"",
 		"text": "<b>Respuesta:</b> después de que Rictor ataque, inflige 1 de Daño al Villano y a cada Esbirro que esté enfrentado a ti.",
 		"traits": "Cautivo. Patrulla-X."
 	},
@@ -274,6 +278,7 @@
 		"code": "32091",
 		"name": "Bala de Cañón",
 		"subname": "Sam Guthrie",
+		"flavor": "\"Buen intento, pero cuando despego, soy casi invulnerable.\"",
 		"text": "[star] Bala de Cañon sufre -1 de Daño derivado después de que ataque y derrote a un Esbirro.",
 		"traits": "Cautivo. Patrulla-X."
 	},
@@ -281,6 +286,7 @@
 		"code": "32092",
 		"name": "Loba Venenosa",
 		"subname": "Rahne Sinclair",
+		"flavor": "\"No sé por qué haces esto. ¡Pero como lastimes a mis amigos, vas a saber lo que es el dolor!\"",
 		"text": "[star] Los ataques de Loba Venenosa ganan Penetrante.",
 		"traits": "Cautivo. Patrulla-X."
 	},
@@ -321,6 +327,7 @@
 	{
 		"code": "32099",
 		"name": "Avisar a los demás",
+		"flavor": "\"¡Si no encontramos primero a nuestros amigos, los capturarán a todos!\"-Hombre de Hielo",
 		"text": "<b>Respuesta obligada:</b> después de que termine tu turno, coloca esta carta boca abajo debajo de Operación Tolerancia Cero.\n<b>Respuesta obligada:</b> agota tu Superhéroe \u2192 descarta esta carta."
 	},
 	{
@@ -371,23 +378,24 @@
 	{
 		"code": "32108",
 		"name": "Robots implacables",
+		"flavor": "Los centinelas se construyeron con el único propósito de cazar mutantes. No se cansan. No se detendrán hasta haber capturado a su objetivo.",
 		"text": "Ningún jugador que esté enfrentado a un Esbirro [[CENTINELA]] puede intervenir este Plan."
 	},
 	{
 		"code": "32109",
-		"name": "Molde Maestro I",
+		"name": "Molde Maestro",
 		"text": "Firmeza. Dureza.\n[star] <b>Interrupción obligada:</b> cuando el Molde Maestro ejecute el Plan contra ti, descarta cartas del mazo de Encuentros hasta que se descarte un Esbirro [[CENTINELA]]. Pon en juego ese Esbirro enfrentado a ti. No des una carta de aumento al Molde Maestro para esta activación.",
 		"traits": "Centinela."
 	},
 	{
 		"code": "32110",
-		"name": "Molde Maestro II",
+		"name": "Molde Maestro",
 		"text": "Firmeza. Dureza.\n[star] <b>Interrupción obligada:</b> cuando el Molde Maestro ejecute el Plan contra ti, descarta cartas del mazo de Encuentros hasta que se descarte un Esbirro [[CENTINELA]]. Pon en juego ese Esbirro enfrentado a ti. No des una carta de aumento al Molde Maestro para esta activación.",
 		"traits": "Centinela."
 	},
 	{
 		"code": "32111",
-		"name": "Molde Maestro III",
+		"name": "Molde Maestro",
 		"text": "Firmeza. Dureza.\n[star] <b>Interrupción obligada:</b> cuando el Molde Maestro ejecute el Plan contra ti, descarta cartas del mazo de Encuentros hasta que se descarte un Esbirro [[CENTINELA]]. Pon en juego ese Esbirro enfrentado a ti. No des una carta de aumento al Molde Maestro para esta activación.",
 		"traits": "Centinela."
 	},
@@ -408,13 +416,14 @@
 	},
 	{
 		"code": "32113b",
-		"flavor": "Master Mold's programming has backfired! Recognizing that mutants come from humans, the giant Sentinel is programming its 'offspring' to subdue everyone on Earth!",
+		"flavor": "¡La programación del Molde Maestro lo ha vuelto contra sus creadores! ¡Tras concluir que los mutantes proceden de los humanos, el gigantesco centinela está programando a su \"prole\" para someter a todos los habitantes del planeta!",
 		"name": "El plan del Molde Maestro",
 		"text": "Todos los Esbirros [[CENTINELA]] ganan Guardia\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>."
 	},
 	{
 		"code": "32114",
 		"name": "Centinela Mark VIII",
+		"flavor": "\"¡Han mejorado su blindaje!\"-Cíclope",
 		"text": "<b>Respuesta obligada:</b> después de que este Esbirro se enfrente a ti, vincúlale el primer Accesorio [[CENTINELA]] que hata en la parte superior de la pila de descartes.",
 		"traits": "Centinela."
 	},
@@ -448,31 +457,38 @@
 	{
 		"code": "32120",
 		"name": "Cargar virus informático",
+		"flavor": "Si lográis introducir un virus informático en el ordenador central del Molde Maestro, lo debilitaréis desde dentro.",
 		"text": "Complicación 2[per_hero]. Victoria 1.\n<b>Cuando se derrote esta carta:</b> inflige 2 de Daño a cada enemigo [[CENTINELA]]."
 	},
 	{
 		"back_link": "32121b",
 		"code": "32121a",
 		"name": "Avalancha A",
+		"flavor": "\"¡Salid a pelear o derribaré el edificio entero!\"",
 		"text": "Dureza. Victoria 2.\n<b>Respuesta obligada:</b> después de que Avalacha te ataque, agota un Aliado que controles.",
 		"traits": "Hermandad de mutantes."
 	},
 	{
 		"code": "32121b",
 		"name": "Avalancha B",
+		"flavor": "\"¡Salid a pelear o derribaré el edificio entero!\"",
 		"text": "Dureza. Victoria 2.\n<b>Respuesta obligada:</b> después de que Avalacha te ataque, agota un Aliado que controles.",
 		"traits": "Hermandad de mutantes."
 	},
 	{
 		"back_link": "32122b",
 		"code": "32122a",
+		"errata": "Deberia ser \"y cause Daño\" en vez de \"e inflija Daño\".",
 		"name": "Mole A",
+		"flavor": "\"¡Primero os voy a aplastar!¡Y luego os vaciaré la nevera!\"",
 		"text": "Dureza. Victoria 2.\n<b>Respuesta obligada:</b> después de que Mole te ataque e inflija Daño, aturde a ese personaje.",
 		"traits": "Hermandad de mutantes."
 	},
 	{
 		"code": "32122b",
+		"errata": "Deberia ser \"y cause Daño\" en vez de \"e inflija Daño\".",
 		"name": "Mole B",
+		"flavor": "\"¡Primero os voy a aplastar!¡Y luego os vaciaré la nevera!\"",
 		"text": "Dureza. Victoria 2.\n<b>Respuesta obligada:</b> después de que Mole te ataque e inflija Daño, aturde a ese personaje.",
 		"traits": "Hermandad de mutantes."
 	},
@@ -491,13 +507,17 @@
 	{
 		"back_link": "32124b",
 		"code": "32124a",
+		"errata": "Deberia ser \"y cause Daño\" en vez de \"e inflija Daño\".",
 		"name": "Sapo A",
+		"flavor": "\"¡En la Patrulla-X todos os creéis mejores que yo!¡Pues os vais a enterar!\"",
 		"text": "Dureza. Victoria 2.\n<b>Respuesta obligada:</b> después de que Sapo te ataque e inflija Daño a un personaje que controles, descarta 1 carta de tu mano al azar.",
 		"traits": "Hermandad de mutantes."
 	},
 	{
 		"code": "32124b",
+		"errata": "Deberia ser \"y cause Daño\" en vez de \"e inflija Daño\".",
 		"name": "Sapo B",
+		"flavor": "\"¡En la Patrulla-X todos os creéis mejores que yo!¡Pues os vais a enterar!\"",
 		"text": "Dureza. Victoria 2.\n<b>Respuesta obligada:</b> después de que Sapo te ataque e inflija Daño a un personaje que controles, descarta 1 carta de tu mano al azar.",
 		"traits": "Hermandad de mutantes."
 	},
@@ -598,25 +618,26 @@
 	},
 	{
 		"code": "32138",
-		"name": "Magneto I",
+		"name": "Magneto",
+		"flavor": "\"¡Oponerse al Amo del Magnetismo es una invitación para ser destruido!\"",
 		"text": "Tesón. Dureza.\n[star] <b>Respuesta obligada:</b> después de que Magneto te ataque, coloca 1 contador de Magnetismo sobre el Plan principal.",
 		"traits": "Hermandad de mutantes."
 	},
 	{
 		"code": "32139",
-		"name": "Magneto II",
+		"name": "Magneto",
 		"text": "Tesón. Dureza.\n<b>Cuando se muestre esta carta</b>: reparte a cada jugador 1 carta de Encuentro boca abajo.\n[star] <b>Respuesta obligada:</b> después de que Magneto te ataque, coloca 1 contador de Magnetismo sobre el Plan principal.",
 		"traits": "Hermandad de mutantes."
 	},
 	{
 		"code": "32140",
-		"name": "Magneto III",
+		"name": "Magneto",
 		"text": "Tesón. Dureza.\n<b>Cuando se muestre esta carta</b>: reparte a cada jugador 1 carta de Encuentro boca abajo.\n[star] <b>Respuesta obligada:</b> después de que Magneto te ataque, coloca 1 contador de Magnetismo sobre el Plan principal.",
 		"traits": "Hermandad de mutantes."
 	},
 	{
 		"code": "32141a",
-		"flavor": "Magneto floats above the Earth in his orbital sanctuary.",
+		"flavor": "El santuario orbital de Magneto flota alrededor de la Tierra.",
 		"name": "Asteroide M",
 		"text": "<b>Contenido:</b> Magneto (I) y Magneto (II). <i>(Magneto (II) y Magneto (III) para jugar en modo Experto.)</i> Conjuntos de Encuentros de Magneto y Normal. Un conjunto de Encuentros modular (<i>Acólitos</i>).\n<b>Preparación:</b> aparta a un lado el Plan secundario Caída de órbita. Muestra el Plan secundario Misión de abordaje."
 	},
@@ -648,25 +669,26 @@
 	{
 		"back_link": "32144b",
 		"code": "32144a",
-		"flavor": "To stop Magneto's nefarious plan, you must first board Asteroid M.",
+		"flavor": "Para frustar los malignos planes de Magneto, primero debéis subir a bordo del Asteroide M.",
 		"name": "Misión de abordaje",
 		"text": "Magneto no puede tener más de 6[per_hero] de Daño acumulado.\n<b>Cuando se derrote esta carta:</b> dale la vuelta a esta carta y muestra Sabotear el Molde Maestro."
 	},
 	{
 		"code": "32144b",
-		"flavor": "Master Mold has been reprogrammed. You must take it offline before it can create human-hunting Sentinels!",
+		"flavor": "El Molde Maestro ha sido reprogramado.¡Tenéis que desconectarlo antes de que logre fabricar centinelas cazadores de humanos!",
 		"name": "Sabotear el Molde Maestro",
 		"text": "Magneto no puede tener más de 12[per_hero] de Daño acumulado.\n<b>Cuando se derrote esta carta:</b> muestra el Plan secundario Caída de órbita que está apartado. Añade esta carta a la zona de victoria."
 	},
 	{
 		"back_link": "32145b",
 		"code": "32145a",
-		"flavor": "Magneto is an indomitable foe. The only way to ensure his defeat is to destroy his asteroid bas by crashing it to Earth.",
+		"flavor": "Magneto es un adversario indómito. El único modo de garantizar su derrota consiste en destruir su base orbital haciendo que se estrelle contra la Tierra.",
 		"name": "Caída de Órbita",
 		"text": "Magneto no puede tener más de 18[per_hero] de Daño acumulado.\n<b>Cuando se derrote esta carta:</b> dale la vuelta a esta carta y muestra Esfuerzo físico."
 	},
 	{
 		"code": "32145b",
+		"flavor": "¡Cuando el Asteroide M se precipita fuerade control hacia la superficie del planeta, Magneto emplea su poder para evitar que se desintegre mientras lucha contra vosotros!",
 		"name": "Esfuerzo Físico",
 		"text": "Vincula esta carta a Magneto.\nPermanente.\nMagneto pierde Tesón.",
 		"traits": "Alteración."
@@ -679,13 +701,15 @@
 	},
 	{
 		"code": "32147",
+		"flavor": "Magneto diseñó su casco para protegerse de los poderes telepáticos de Xavier.",
 		"name": "Casco de Magneto",
 		"text": "Vincula esta carta a Magneto.\nMagneto no puede quedar confundido.\n<b>Respuesta de Héroe:</b> después de que tu Héroe realice un ataque básico contra Magneto, gasta recursos [energy][mental][physical] \u2192 descarta esta carta.",
 		"traits": "Armadura. Magnético."
 	},
 	{
 		"code": "32148",
-		"name": "Magneto's Armadura",
+		"flavor": "La armadura de Magneto es lo bastante resistente como para sobrevivir al impacto directo del rayo de un centinela.",
+		"name": "Armadura de Magneto",
 		"text": "Vincula esta carta a Magneto.\nMagneto no puede quedar aturdido.\n<b>Respuesta de Héroe:</b> después de que tu Héroe realice un ataque básico contra Magneto, gasta recursos [energy][mental][physical] \u2192 descarta esta carta.",
 		"traits": "Armadura. Magnético."
 	},
@@ -697,13 +721,14 @@
 	},
 	{
 		"code": "32150",
-		"flavor": "Vaya, esto no es bueno —Arcángel",
+		"flavor": "\"Vaya, esto no es bueno\"—Arcángel",
 		"name": "Envoltura Metálica",
 		"text": "Vincula esta carta a tu Superhéroe.\nEl Superhéroe vinculado no puede intervenir, atacar, defender ni recuperarse.\n<b>Acción:</b> agota a tu Superhéroe y gasta un recurso [physical] \u2192 descarta esta carta.",
 		"traits": "Magnético."
 	},
 	{
 		"code": "32151",
+		"flavor": "\"¡Ni siquiera vuestros poderes podrán salvaros de mi cólera!\"—Magneto",
 		"name": "El amo del magnetismo",
 		"text": "<b>Cuando se muestre esta carta:</b> coge la primera carta [[Magnético]] que haya en la parte superior de la pila de descartes del mazo de Encuentros y dáserla a Magneto como carta de aumento boca abajo. Magneto se activa contra ti.",
 		"traits": "Magnético."
@@ -728,6 +753,7 @@
 	},
 	{
 		"code": "32155",
+		"flavor": "\"¡Debería haberlo visto venir!\"—Cíclope",
 		"name": "Proyectil magnético",
 		"text": "Oleada.\n<b>Cuando se muestre esta carta:</b> derrota a un Esbirro [[CENTINELA]] que esté en juego. Luego sufres 5 de Daño. Puedes descartar X cartas de tu mano para evitar X de ese Daño.",
 		"traits": "Magnético."
@@ -792,12 +818,14 @@
 	},
 	{
 		"code": "32166",
+		"flavor": "\"He regresado.\"",
 		"name": "Nimrod",
 		"text": "Firmeza. Victoria 1.\nNimrod no puede sufrir más de 3 de Daño en cada fase.",
 		"traits": "Élite. Centinela."
 	},
 	{
 		"code": "32167",
+		"flavor": "\"Debo destruir a los mutantes para salvaguardar el futuro de la humanidad.\"",
 		"name": "Bastión",
 		"text": "Dureza. Infame. Victoria 1.\n<hr />\n[star] <b>Aumento</b>: quédate esta carta como carta de Encuentro boca abajo.",
 		"traits": "Élite. Centinela."
@@ -809,6 +837,7 @@
 	},
 	{
 		"code": "32169",
+		"flavor": "Bastión ha manipulado el curso de los acontecimientos para hacer realidad el futuro del que procede.",
 		"name": "Las maquinaciones de Bastión",
 		"text": "Victoria 1.\n<b>Cuando se muestre esta carta:</b> cada jugador coloca las 9 primeras cartas de su mazo debajo de esta carta, boca abajo."
 	},
