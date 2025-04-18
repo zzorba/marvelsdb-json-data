@@ -116,6 +116,24 @@
         "type_code": "event"
     },
     {
+        "code": "51005",
+        "cost": 1,
+        "deck_limit": 1,
+        "faction_code": "hero",
+        "flavor": "\"It is more than a battlecry. It is a promise.\" —Black Panther",
+        "name": "Wakanda Forever!",
+        "octgn_id": "4010e194-df1c-477e-852e-3a2adf051005",
+        "pack_code": "bp",
+        "position": 5,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "black_panther_shuri",
+        "set_position": 6,
+        "text": "<b>Hero Action</b>: Resolve the \"<b>Special</b>\" ability on each [[Black Panther]] upgrade you control in any order.",
+        "traits": "Tactic.",
+        "type_code": "event"
+    },
+    {
         "code": "51006",
         "deck_limit": 2,
         "faction_code": "hero",
@@ -315,6 +333,24 @@
         "type_code": "player_side_scheme"
     },
     {
+        "base_threat": 6,
+        "base_threat_fixed": true,
+        "code": "51017",
+        "cost": 0,
+        "deck_limit": 1,
+        "faction_code": "justice",
+        "illustrator": "Denis Medri",
+        "is_unique": true,
+        "name": "Show of Empathy",
+        "octgn_id": "4010e194-df1c-477e-852e-3a2adf051017",
+        "pack_code": "bp",
+        "position": 17,
+        "quantity": 1,
+        "resource_energy": 1,
+        "text": "Victory 0.\n<b>Forced Interrupt</b>: When threat is removed from this scheme, place that threat on a non-[[Elite]] minion. If that minion has threat on it equal to or greater than its remaining hit points, add Show of Empathy to the victory display and attach 1 set-aside copy of Redemption to that minion.",
+        "type_code": "player_side_scheme"
+    },
+    {
         "code": "51018",
         "cost": 2,
         "deck_limit": 1,
@@ -346,6 +382,13 @@
         "traits": "Item. Tech.",
         "type_code": "upgrade"
     },
+	{
+		"code": "51020",
+		"duplicate_of": "20015",
+		"pack_code": "bp",
+		"position": 20,
+		"quantity": 3
+	},
     {
         "code": "51021",
         "cost": 2,
@@ -448,6 +491,34 @@
         "traits": "Wakanda.",
         "type_code": "event"
     },
+	{
+		"code": "51026",
+		"duplicate_of": "40027",
+		"pack_code": "bp",
+		"position": 26,
+		"quantity": 1
+	},
+	{
+		"code": "51027",
+		"duplicate_of": "01088",
+		"pack_code": "bp",
+		"position": 27,
+		"quantity": 1
+	},
+	{
+		"code": "51028",
+		"duplicate_of": "01089",
+		"pack_code": "bp",
+		"position": 28,
+		"quantity": 1
+	},
+	{
+		"code": "51029",
+		"duplicate_of": "01090",
+		"pack_code": "bp",
+		"position": 29,
+		"quantity": 1
+	},
     {
         "code": "51030",
         "cost": 3,
