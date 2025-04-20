@@ -120,7 +120,7 @@
         "cost": 1,
         "deck_limit": 1,
         "faction_code": "hero",
-        "flavor": "\"It is more than a battlecry. It is a promise.\" —Black Panther",
+        "flavor": "\"It is more than a battlecry. It is a promise.\" \u2014Black Panther",
         "name": "Wakanda Forever!",
         "octgn_id": "4010e194-df1c-477e-852e-3a2adf051005",
         "pack_code": "bp",
@@ -382,13 +382,13 @@
         "traits": "Item. Tech.",
         "type_code": "upgrade"
     },
-	{
-		"code": "51020",
-		"duplicate_of": "20015",
-		"pack_code": "bp",
-		"position": 20,
-		"quantity": 3
-	},
+    {
+        "code": "51020",
+        "duplicate_of": "20015",
+        "pack_code": "bp",
+        "position": 20,
+        "quantity": 3
+    },
     {
         "code": "51021",
         "cost": 2,
@@ -491,34 +491,34 @@
         "traits": "Wakanda.",
         "type_code": "event"
     },
-	{
-		"code": "51026",
-		"duplicate_of": "40027",
-		"pack_code": "bp",
-		"position": 26,
-		"quantity": 1
-	},
-	{
-		"code": "51027",
-		"duplicate_of": "01088",
-		"pack_code": "bp",
-		"position": 27,
-		"quantity": 1
-	},
-	{
-		"code": "51028",
-		"duplicate_of": "01089",
-		"pack_code": "bp",
-		"position": 28,
-		"quantity": 1
-	},
-	{
-		"code": "51029",
-		"duplicate_of": "01090",
-		"pack_code": "bp",
-		"position": 29,
-		"quantity": 1
-	},
+    {
+        "code": "51026",
+        "duplicate_of": "40027",
+        "pack_code": "bp",
+        "position": 26,
+        "quantity": 1
+    },
+    {
+        "code": "51027",
+        "duplicate_of": "01088",
+        "pack_code": "bp",
+        "position": 27,
+        "quantity": 1
+    },
+    {
+        "code": "51028",
+        "duplicate_of": "01089",
+        "pack_code": "bp",
+        "position": 28,
+        "quantity": 1
+    },
+    {
+        "code": "51029",
+        "duplicate_of": "01090",
+        "pack_code": "bp",
+        "position": 29,
+        "quantity": 1
+    },
     {
         "code": "51030",
         "cost": 3,
@@ -534,6 +534,44 @@
         "text": "Ignore this card's resource cost if your identity has the [[Wakanda]] trait.\n<b>Action</b>: Exhaust Dora Milaje \u2192 resolve the \"<b>Special</b>\" ability on 1 [[Dora Milaje]] ally and heal 1 damage from that ally.",
         "traits": "Wakanda.",
         "type_code": "support"
+    },
+    {
+        "code": "51036",
+        "deck_limit": 0,
+        "faction_code": "justice",
+        "name": "Redemption",
+        "octgn_id": "4010e194-df1c-477e-852e-3a2adf051036",
+        "pack_code": "bp",
+        "position": 36,
+        "quantity": 1,
+        "resource_mental": 1,
+        "text": "Linked (Show of Empathy). Victory 0.\nTake control of attached minion and treat it as a [[Redeemed]] ally with a blank text box. Its THW is equal to its printed SCH and it takes 1 consequential damage after it thwarts or attacks.",
+        "traits": "Condition.",
+        "type_code": "upgrade"
+    },
+    {
+        "attack": 2,
+        "attack_cost": 0,
+        "attack_star": true,
+        "code": "51037",
+        "cost": 3,
+        "deck_limit": 1,
+        "faction_code": "leadership",
+        "flavor": "As a member of Wakanda's secret police, the Hatut Zeraze, the White Wolf is willing to use extreme methods to defend his adopted home nation.",
+        "health": 3,
+        "is_unique": true,
+        "name": "White Wolf",
+        "octgn_id": "4010e194-df1c-477e-852e-3a2adf051037",
+        "pack_code": "bp",
+        "position": 37,
+        "quantity": 1,
+        "resource_physical": 1,
+        "subname": "Hunter",
+        "text": "[star] <b>Forced Response</b>: After White Wolf attacks, place 1 threat on the main scheme.",
+        "thwart": 2,
+        "thwart_cost": 2,
+        "traits": "Wakanda.",
+        "type_code": "ally"
     },
     {
         "code": "51038",
