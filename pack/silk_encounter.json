@@ -1,5 +1,19 @@
 [
     {
+        "boost": 2,
+        "code": "52028",
+        "faction_code": "encounter",
+        "illustrator": "Allie Preswick",
+        "name": "Silk Sense Overload",
+        "octgn_id": "25cf07ae-e8ab-4443-8040-672bd2052028",
+        "pack_code": "silk",
+        "position": 28,
+        "quantity": 1,
+        "set_code": "silk",
+        "text": "<b><i>Give to the Cindy Moon player.</i></b>\n<b>Forced Interrupt</b>: When a card would be tucked under your identity by a player card effect, tuck it under here instead. Then, if there are 2 tucked cards here, you may discard this card (remove it from the game instead if there are 3 or more tucked cards here).",
+        "type_code": "obligation"
+    },
+    {
         "attack": 1,
         "attack_star": true,
         "boost": 3,
@@ -101,10 +115,25 @@
         "octgn_id": "25cf07ae-e8ab-4443-8040-672bd2052037",
         "pack_code": "silk",
         "position": 37,
-        "quantity": 1,
+        "quantity": 2,
         "set_code": "growing_strong",
-        "set_position": 4,
+        "set_position": 3,
         "text": "<b>When Revealed</b>: Find Atlas and reveal him. <i>(If he is already in play, he engages you.)</i> Atlas activates against you. If no enemy activated this way, this card gains surge.\n<hr />\n[star] <b>Boost</b>: Give the activating enemy a tough status card.",
+        "type_code": "treachery"
+    },
+    {
+        "boost": 1,
+        "boost_star": true,
+        "code": "52038",
+        "faction_code": "encounter",
+        "name": "Titanic Proportions",
+        "octgn_id": "25cf07ae-e8ab-4443-8040-672bd2052038",
+        "pack_code": "silk",
+        "position": 38,
+        "quantity": 2,
+        "set_code": "growing_strong",
+        "set_position": 5,
+        "text": "<b>When Revealed</b>: The players as a group take X indirect damage, where X is the number of growth counters on Atlas. If X is less than 3, this card gains surge.\n<hr />\n[star] <b>Boost</b>: If Atlas is in play, place 1 growth counter on him.",
         "type_code": "treachery"
     }
 ]
