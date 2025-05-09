@@ -248,8 +248,14 @@
 		"text": "<b><i>Plan de Corvus Glaive.</i></b>\n<b>Interrupción obligada:</b> cuando vaya a completarse esta etapa, en vez de eso quita toda la Amenaza que haya sobre esta etapa. Luego dale a cada jugador 1 carta de Encuentro boca abajo."
 	},
 	{
-		"back_text": "La regla de las cartas únicas no se aplica a la Torre de los Vengadores.\n<b>Respuesta obligada:</b> después de que se coloque Daño sobre esta carta, si hay al menos 9[per_hero] de Daño sobre ella, quítalo todo. Luego dale la vuelta a la Torre de los Vengadores.",
-		"code": "21100",
+		"back_link": "21100b",
+		"code": "21100a",
+		"name": "Torre de los Vengadores",
+		"text": "La regla de las cartas únicas no se aplica a la Torre de los Vengadores.\n<b>Respuesta obligada:</b> después de que se coloque Daño sobre esta carta, si hay al menos 9[per_hero] de Daño sobre ella, quítalo todo. Luego dale la vuelta a la Torre de los Vengadores.",
+		"traits": "Fortaleza."
+	},
+	{
+		"code": "21100b",
 		"name": "Torre de los Vengadores",
 		"text": "<b>Cuando se muestre esta carta:</b> descarta del juego todas las demás cartas de Torre de los Vengadores.\n<b>Respuesta obligada:</b> después de que se coloque Daño sobre esta carta, si hay al menos 9[per_hero] de Daño sobre ella, los jugadores pierden la partida.",
 		"traits": "Dañado."
