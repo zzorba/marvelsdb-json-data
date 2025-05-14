@@ -68,7 +68,7 @@
     {
         "is_unique": true,
         "name": "Teen Abomination",
-        "text": "Teen Abomination enters play with 4 rage counters on him.\n<b>Forced Response</b>: After Teen Abomination attacks, remove 1 rage counter from him.\n[star] Teen Abomination gets +1 ATK for each rage counter token here. \n<i>\u201cXXXX.\u201d</i>",
+        "text": "Teen Abomination enters play with 4 rage counters on him.\n<b>Forced Response</b>: After Teen Abomination attacks, remove 1 rage counter from him.\n[star] Teen Abomination gets +1 ATK for each rage counter token here.",
         "type_code": "ally",
         "faction_code": "hero",
         "set_code": "superior_iron_man_by_merlin",
@@ -139,6 +139,7 @@
         "cost": 0,
         "position": 6,
         "quantity": 1,
+        "traits": "Persona.",
         "resource_mental": 1,
         "set_position": 5,
         "deck_limit": 1
@@ -234,6 +235,7 @@
     },
     {
         "name": "Spectacular Save",
+        "text": "<b>Hero Interrupt </b>(<i>defense/thwart</i>): When a friendly character would take any amount of damage, prevent 3 of that damage. Remove 1 threat from a scheme.\n<i>\u201cDo you know how to swim?\u201d \u2014Iron Man</i>",
         "type_code": "event",
         "faction_code": "hero",
         "set_code": "superior_iron_man_by_merlin",
@@ -243,6 +245,7 @@
         "cost": 1,
         "position": 12,
         "quantity": 2,
+        "traits": "Defense. Superpower. Thwart.",
         "resource_energy": 1,
         "set_position": 13,
         "deck_limit": 2
