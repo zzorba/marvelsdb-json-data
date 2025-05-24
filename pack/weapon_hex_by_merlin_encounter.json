@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Protect My Sister",
+        "text": "<b>Alter-Ego Action</b>: Exhaust Laura Kinney \u2192 remove Protect My Sister from the game.\n[hazard]",
+        "type_code": "obligation",
+        "faction_code": "encounter",
+        "set_code": "weapon_hex_by_merlin",
+        "pack_code": "weapon_hex_by_merlin",
+        "code": "60518",
+        "octgn_id": "a609960e-607c-5889-921f-5e725e000018",
+        "position": 13,
+        "quantity": 1,
+        "boost": 2
+    },
+    {
+        "is_unique": true,
+        "name": "Hellhound",
+        "text": "Quickstrike.\n<b>When Revealed</b>: Exhaust your identity.\n<i>(Weapon Hex\u2019s nemesis minion.)</i>",
+        "type_code": "minion",
+        "faction_code": "encounter",
+        "set_code": "weapon_hex_by_merlin_nemesis",
+        "pack_code": "weapon_hex_by_merlin",
+        "code": "60519",
+        "octgn_id": "a609960e-607c-5889-921f-5e725e000019",
+        "attack": 3,
+        "health": 5,
+        "scheme": 1,
+        "position": 14,
+        "quantity": 1,
+        "traits": "Demon. Elite.",
+        "set_position": 1,
+        "boost": 2
+    },
+    {
+        "name": "Save My Sister and Others",
+        "text": "<i>\u201cIf you are fast with your magic, mine is better.\u201d</i>\u2014<i>Hellhound\n</i>Hinder 2[per_hero].\n<b>When Revealed</b>: Each player searches their deck, discard pile and hand for a hero-specific ally and places it facedown beneath this scheme. \n<b>When Defeated</b>: Return each ally beneath it to its owner's hand.",
+        "type_code": "side_scheme",
+        "faction_code": "encounter",
+        "set_code": "weapon_hex_by_merlin_nemesis",
+        "pack_code": "weapon_hex_by_merlin",
+        "code": "60520",
+        "octgn_id": "a609960e-607c-5889-921f-5e725e000020",
+        "position": 15,
+        "quantity": 1,
+        "set_position": 2,
+        "boost": 3
+    },
+    {
+        "name": "Repressed Animosity",
+        "text": "<b>When Revealed (Alter-Ego)</b>: Search Hellhound in the encounter deck and put her into play engaged with you. If you cannot, this card gains surge.\n<b>When Revealed (hero)</b>: Hellhound attacks you. If Hellhound is not in play, this card gains surge.",
+        "type_code": "treachery",
+        "faction_code": "encounter",
+        "set_code": "weapon_hex_by_merlin_nemesis",
+        "pack_code": "weapon_hex_by_merlin",
+        "code": "60521",
+        "octgn_id": "a609960e-607c-5889-921f-5e725e000021",
+        "position": 16,
+        "quantity": 3,
+        "set_position": 3,
+        "boost": 2
+    }
+]
