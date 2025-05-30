@@ -1,24 +1,45 @@
 [
-     {
-        "code": "52028",
-        "name": "Silk-Sinn-Überreizung",
-        "text": "<b><i>Gib dies dem Spieler von Cindy Moon.</b></i>\n<b>Erzwungene Unterbrechung</b> : Sobald eine Karte durch den Effekt einer Spielerkarte unter deine Identität geschoben werden würde, schiebe sie stattdessen hier unter. Falls hier dann 2 Karten untergeschoben sind, darfst du diese Karte ablegen (entferne sie stattdessen aus dem Spiel, falls 3 oder mehr Karten untergeschoben sind)."
-    },
-    {
-        "code": "52029",
-        "name": "Morlun",
-        "text": "[star] Morlun bekommt für jede unter eine Identität geschobene Begegnungskarte +1 PLA und +1 ANG.\n<b>Sobald besiegt</b>: Lege jedes Exemplar von Jagd auf die Spinnenbraut ab, das unter eine Identität geschoben ist.<i>(Silks Erzfeind-Scherge.)</i>",
-        "traits": "Elite. Inheritor."
-    },
-    {
-        "code": "52030",
-        "flavor": "\"Du bist da. Die Spinne im Zentrum des Netzes. Es ist so weit. Also beginnt die große Jagd.\" \u2014Morlun",
-        "name": "Die Große Jagd",
-        "text": "<b>Sobald aufgedeckt</b>: Platziere hier für jede unter eine Identität geschobene Karte 1 zusätzliche Bedrohung."
-    },
-    {
-        "code": "52031",
-        "name": "Jagd auf die Spinnenbraut",
-        "text": "Nachrüsten.\n<b>Sobald aufgedeckt</b>: Falls unter deine Identität 4 Karten geschoben sind, lege 1 zufällige Karte davon ab. Schiebe diese Karte unter deine Identität.\n<b>Erzwungene Reaktion</b>: Nachdem ein Spielerkarteneffekt diese Karte von unter einer Identität abgelegt hat, nimmt die Identität 2 Schaden."
-    }
+	{
+		"code": "52028",
+		"name": "Silk-Sinn-Überreizung",
+		"text": "<b><i>Gib dies dem Spieler von Cindy Moon.</b></i>\n<b>Erzwungene Unterbrechung</b> : Sobald eine Karte durch den Effekt einer Spielerkarte unter deine Identität geschoben werden würde, schiebe sie stattdessen hier unter. Falls hier dann 2 Karten untergeschoben sind, darfst du diese Karte ablegen (entferne sie stattdessen aus dem Spiel, falls 3 oder mehr Karten untergeschoben sind)."
+	},
+	{
+		"code": "52029",
+		"name": "Morlun",
+		"text": "[star] Morlun bekommt für jede unter eine Identität geschobene Begegnungskarte +1 PLA und +1 ANG.\n<b>Sobald besiegt</b>: Lege jedes Exemplar von Jagd auf die Spinnenbraut ab, das unter eine Identität geschoben ist.<i>(Silks Erzfeind-Scherge.)</i>",
+		"traits": "Elite. Inheritor."
+	},
+	{
+		"code": "52030",
+		"flavor": "\"Du bist da. Die Spinne im Zentrum des Netzes. Es ist so weit. Also beginnt die große Jagd.\" —Morlun",
+		"name": "Die Große Jagd",
+		"text": "<b>Sobald aufgedeckt</b>: Platziere hier für jede unter eine Identität geschobene Karte 1 zusätzliche Bedrohung."
+	},
+	{
+		"code": "52031",
+		"name": "Jagd auf die Spinnenbraut",
+		"text": "Nachrüsten.\n<b>Sobald aufgedeckt</b>: Falls unter deine Identität 4 Karten geschoben sind, lege 1 zufällige Karte davon ab. Schiebe diese Karte unter deine Identität.\n<b>Erzwungene Reaktion</b>: Nachdem ein Spielerkarteneffekt diese Karte von unter einer Identität abgelegt hat, nimmt die Identität 2 Schaden."
+	},
+	{
+		"code": "52035",
+		"name": "Atlas",
+		"text": "Villainous. Victory 1.\n[star] Atlas gets +2 hit points for each growth counter on him.\n<b>Forced Response</b>: After the villain phase ends, place 1 growth counter on Atlas.",
+		"traits": "Elite. Thunderbolt."
+	},
+	{
+		"code": "52036",
+		"name": "Grow Invulnerable",
+		"text": "<b>When Revealed</b>: Place 1 additional threat here for each growth counter on Atlas.\n<b>If Atlas has 10 or more growth counters on him, the players lose the game.</b>"
+	},
+	{
+		"code": "52037",
+		"name": "Growing Strong",
+		"text": "<b>When Revealed</b>: Find Atlas and reveal him. <i>(If he is already in play, he engages you.)</i> Atlas activates against you. If no enemy activated this way, this card gains surge.\n<hr />\n[star] <b>Boost</b>: Give the activating enemy a tough status card."
+	},
+	{
+		"code": "52038",
+		"name": "Titanic Proportions",
+		"text": "<b>When Revealed</b>: The players as a group take X indirect damage, where X is the number of growth counters on Atlas. If X is less than 3, this card gains surge.\n<hr />\n[star] <b>Boost</b>: If Atlas is in play, place 1 growth counter on him."
+	}
 ]

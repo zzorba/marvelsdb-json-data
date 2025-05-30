@@ -1,47 +1,54 @@
 [
-   {
-      "code": "37025",
-      "name": "Der Gilde Verpflichtet",
-      "text": "<b><i>Gib dies dem Spieler von Remy LeBeau. </i></b>\n<b>Alter Ego - Aktion</b>: Erschöpfe Remy LeBeau und gib eine [energy]-Ressource aus → entferne Der Gilde verpflichtet aus dem Spiel. "
-   },
-   {
-      "code": "37026",
-      "name": "Belladonna",
-      "traits": "Attentäter. Elite.",
-      "text": "Erstschlag. Zähigkeit.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Belladonna einen Charakter angegriffen und besiegt hat, platziere 2 Bedrohung auf dem Hauptplan.\n<i>(Gambits Erzfeind-Scherge.)</i>"
-   },
-   {
-      "code": "37027",
-      "flavor": "\"Die Assassinengilde hat geschworen, Gambit und den Rest der Diebesgilde zu töten.\"",
-      "name": "Die Assassinengilde",
-      "text": "<b>Erzwungene Reaktion</b>: Nachdem ein [[ATTENTÄTER]]-Scherge einen Charakter angegriffen und besiegt hat, platziere hier 2 Bedrohung."
-   },
-   {
-      "code": "37028",
-      "name": "Assassine der Gilde ",
-      "traits": "Attentäter.",
-      "text": "Erstschlag.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Assassine der Gilde einen Charakter angegriffen und besiegt hat, platziere 1 Bedrohung auf dem Hauptplan."
-   },
-   {
-      "code": "37029",
-      "name": "Attentatsversuch",
-      "text": "<b>Sobald aufgedeckt</b>: Jeder [[ATTENTÄTER]]-Scherge greift dich an (sellst wenn du in deiner Alter-Ego-Gestalt bist). Falls keine [[ATTENTÄTER]]-Schergen im Spiel sind, durchsuche das Begegnungsdeck und den Ablagestapel nach einem [[ATTENTÄTER]]-Schergen und decke ihn auf. "
-   },
-   {
-      "code": "37032",
-      "name": "Exodus",
-      "text": "Vergeltung 1. Schurkisch."
-   },
-   {
-      "code": "37033",
-      "name": "Herald of Avalon"
-   },
-   {
-      "code": "37034",
-      "name": "Psionic Shield"
-   },
-   {
-      "code": "37035",
-      "name": "Acolyte Frenzy"
-   }
+	{
+		"code": "37025",
+		"name": "Der Gilde Verpflichtet",
+		"text": "<b><i>Gib dies dem Spieler von Remy LeBeau. </i></b>\n<b>Alter Ego - Aktion</b>: Erschöpfe Remy LeBeau und gib eine [energy]-Ressource aus → entferne Der Gilde verpflichtet aus dem Spiel. "
+	},
+	{
+		"code": "37026",
+		"name": "Belladonna",
+		"text": "Erstschlag. Zähigkeit.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Belladonna einen Charakter angegriffen und besiegt hat, platziere 2 Bedrohung auf dem Hauptplan.\n<i>(Gambits Erzfeind-Scherge.)</i>",
+		"traits": "Attentäter. Elite."
+	},
+	{
+		"code": "37027",
+		"flavor": "\"Die Assassinengilde hat geschworen, Gambit und den Rest der Diebesgilde zu töten.\"",
+		"name": "Die Assassinengilde",
+		"text": "<b>Erzwungene Reaktion</b>: Nachdem ein [[ATTENTÄTER]]-Scherge einen Charakter angegriffen und besiegt hat, platziere hier 2 Bedrohung."
+	},
+	{
+		"code": "37028",
+		"name": "Assassine der Gilde ",
+		"text": "Erstschlag.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Assassine der Gilde einen Charakter angegriffen und besiegt hat, platziere 1 Bedrohung auf dem Hauptplan.",
+		"traits": "Attentäter."
+	},
+	{
+		"code": "37029",
+		"name": "Attentatsversuch",
+		"text": "<b>Sobald aufgedeckt</b>: Jeder [[ATTENTÄTER]]-Scherge greift dich an (sellst wenn du in deiner Alter-Ego-Gestalt bist). Falls keine [[ATTENTÄTER]]-Schergen im Spiel sind, durchsuche das Begegnungsdeck und den Ablagestapel nach einem [[ATTENTÄTER]]-Schergen und decke ihn auf. "
+	},
+	{
+		"code": "37032",
+		"flavor": "\"I serve proudly in the house and name of Magneto!\"",
+		"name": "Exodus",
+		"text": "Vergeltung 1. Schurkisch.",
+		"traits": "Acolyte. Elite. Psionic."
+	},
+	{
+		"code": "37033",
+		"flavor": "Exodus sees Magneto as the savior of mutantkind and serves as his herald.",
+		"name": "Herald of Avalon",
+		"text": "<b>When Defeated</b>: The player who defeated this scheme searches the encounter deck and discard pile for Exodus and reveals him. <i>(Shuffle.)</i>"
+	},
+	{
+		"code": "37034",
+		"name": "Psionic Shield",
+		"text": "Attach to a minion. Otherwise, Psionic Shield gains surge.\n<b>Forced Interrupt</b>: When attached minion would leave play, instead heal all damage from that minion. Then, discard this attachment.",
+		"traits": "Psionic."
+	},
+	{
+		"code": "37035",
+		"name": "Acolyte Frenzy",
+		"text": "<b>When Revealed</b>: Each [[ACOLYTE]] minion engaged with you activates against you. If you are not engaged with an [[ACOLYTE]] minion, this card gains surge.\n<hr />\n[star] <b>Boost</b>: You are stunned and confused."
+	}
 ]

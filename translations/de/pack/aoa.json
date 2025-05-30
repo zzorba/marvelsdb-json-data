@@ -1,272 +1,323 @@
 [
-    {
-        "code": "45001a",
-        "name": "Bishop",
-        "text": "<i>Energieabsorption</i> — <b>Reaktion</b> : Nachdem Bishop durch einen Angriff eine beliebige Menge an Schaden genommen hat, lege genauso viele Karten von deinem Deck ab. Nimm jede auf diese Weise abgelegte Ressourcenkarte auf deine Hand.",
-        "traits": "Temporal. X-Men."
-    },
-    {
-        "code": "45001b",
-        "name": "Lucas Bishop",
-        "flavor": "\"Als ich in die Vergangenheit reiste, um meine Zukunft zu retten, hatte ich mir das anders vorgestellt.\"",
-        "text": "<i>Zeitversetzt</i> — <b>Reaktion</b> : Nachdem du in diese Gestalt gewechselt bist, nimm eine [[Temporal]]-Karte aus deinem Ablagestapel auf deine Hand.",
-        "traits": "Mutant. Temporal."
-    },
-    {
-        "code": "45002",
-        "name": "Malcolm",
-        "flavor": "Mehrere Feindkontakte. Greife an.",
-        "text": "<b>Aktion</b> : Lege eine Ressourcenkarte von deiner Hand ab → mache Malcolm spielbereit. Falls die Karte ein aufgedrucktes [physical]-Symbol hat, heile 1 Schaden von Malcolm. (Nur ein Mal pro Phase.)",
-        "traits": "Temporal. X-Men."
-    },
-    {
-        "code": "45003",
-        "name": "Randall",
-        "flavor": "Wir stehen an deiner Seite, Boss. Bis zum bitteren Ende.",
-        "text": "<b>Aktion</b> : Lege eine Ressourcenkarte von deiner Hand ab → mache Randall spielbereit. Falls die Karte ein aufgedrucktes [energy]-Symbol hat, heile 1 Schaden von Randall. (Nur ein Mal pro Phase.)",
-        "traits": "Temporal. X-Men."
-    },
-    {
-        "code": "45004",
-        "name": "Bishops Gewehr",
-        "text": "Eingeschränkt.\n<b>Held - Aktion</b> <i>(Angriff)</i> : Erschöpfe Bishops Gewehr und wähle einen Gegner → füge dem Gegner für jede Ressourcenkarte auf deiner Hand 1 Schaden zu. Dieser Angriff erhält Fernkampf.",
-        "traits": "Temporal. Waffe."
-    },
-    {
-        "code": "45005",
-        "name": "Bishops Uniform",
-        "text": "<b>Reaktion</b> : Nachdem du Bishops Fahigkeit <i>\"Energieabsorption\"</i> abgehandelt hast, erschöpfe Bishops Uniform → heile für jede Ressourcenkarte auf deiner Hand 1 Schaden von Bishop.",
-        "traits": "Gegenstand. Temporal."
-    },
-    {
-        "code": "45006",
-        "name": "Volle Aufladung",
-        "text": "<b>Aktion</b> : Lege eine Ressourcenkarte von deiner Hand ab → platziere hier 1 Ladungsmarker für jedes Ressourcensymbol auf der Karte.\n<b>Held - Unterbrechung</b> : Sobald du einen Basisangriff durchführst, lege Volle Aufladung ab → du bekommst für den Angriff +2 ANG für jeden Ladungsmarker hier (bis zu einem Maximum von +8 ANG).",
-        "traits": "Superkraft."
-    },
-    {
-        "code": "45007",
-        "name": "Erschütternder Stoss",
-        "flavor": "Bishops Kräfte erlauben es ihm, Energie zu absorbieren und sie in mächtige Energiestöße umzuwandeln.",
-        "text": "<b>Held - Aktion</b> <i>(Angriff)</i> : Füge einem Gegner 6 Schaden zu. Falls du für dieses Ereignis mit einer Ressourcenkarte bezahlt hast, mache Bishop spielbereit.",
-        "traits": "Angriff. Superkraft."
-    },
-    {
-        "code": "45008",
-        "flavor": "\"Alle mir nach !\" — Bishop",
-        "name": "Befehlsgewalte",
-        "text": "<b>Held - Aktion</b> <i>(Widerstand)</i> : Entferne 3 Bedrohung von einem Plan. Falls du für dieses Ereignis mit einer Ressourcenkarte bezahlt hast, ziehe 1 Karte.",
-        "traits": "Widerstand."
-    },
-    {
-        "code": "45009",
-        "name": "Energieumwandlung",
-        "text": "<b>Held - Unterbrechung</b> <i>(Verteidigung)</i> : Sobald ein Gegner angreift, mische jede Ressourcenkarte in deinem Ablagestapel in dein Deck. Du kannst durch diesen Angriff nicht mehr als 3 Schaden nehmen.",
-        "traits": "Verteidigung."
-    },
-    {
-        "code": "45010",
-        "name": "Gespeicherte Energie",
-        "flavor": "\"Je mehr du mich triffst, desto härter schlage ich zurück !\" — Bishop",
-        "traits": "Temporal."
-    },
-    {
-        "code": "45011",
-        "flavor": "\"Ich weiß zu viel darüber, was die Zukunft bringt.\"",
-        "name": "Cable",
-        "subname": "Nathan Summers",
-        "text": "<b>Reaktion</b> : Nachdem Cable gegen einen Nebenplan Widerstand geleistet und ihn besiegt hat, ziehe 1 Karte.",
-        "traits": "Psionisch. X-Force."
-    },
-    {
-        "code": "45012",
-        "name": "X-23",
-        "subname": "Laura Kinney",
-        "flavor": "\"Wage es nicht noch mal, mich \"Lady Wolverine\" zu nennen !\"",
-        "text": "<b>Reaktion</b> : Nachdem X-23 einen Gegner angegriffen und besiegt hat, mache sie spielbereit",
-        "traits": "X-Force."
-    },
-    {
-        "code": "45014",
-        "name": "Verbesserter Anzug",
-        "text": "Hänge diese Karte an einen [[X-FORCE]]- oder [[X-MEN]]-Verbündeten an. Max. 1 pro Verbündeten.\n<b>Reaktion</b> : Nachdem der Verbündete mit diesem Upgrade einen Schergen oder Nebenplan besiegt hat, lege 1 Karte von deiner Hand ab → heile für jede Ressource auf ihr 1 Schaden von dem Verbündeten.",
-        "traits": "Gegenstand. Rüstung."
-    },
-    {
-        "code": "45015",
-        "name": "Sidekick",
-        "text": "Hänge diese Karte an einen identitäts-spezifischen Verbündeten unter deiner Kontrolle an. Max. 1 pro Deck.\nDer Verbündete mit diesem Upgrade bekommt +2 Lebenspunkte und ist dein \"Sidekick\".\n<b>Reaktion</b> : Nachdem du deine Basiskraft Erholung verwendet hast, heile 2 Schaden von dem Verbündeten mit diesem Upgrade.",
-        "traits": "Titel."
-    },
-    {
-        "code": "45016",
-        "name": "Seite An Seite",
-        "text": "<b>Held - Aktion</b> : Mache deinen Sidekick spielbereit → mache deinen Helden spielbereit und wähle eines :\n-   Heile je 1 Schaden von beiden Charakteren.\n- Beide Charaktere bekommen bis zum Ende der Phase +1 WID und +1 ANG."
-    },
-    {
-        "code": "45017",
-        "name": "Für den Kampf rüsten",
-        "text": "<b>Alter Ego - Aktion</b> : Durchsuche dein Deck und deinen Ablagestapel nach einem Verbündeten und einem Upgrade, das an den Verbündeten angehängt werden kann. Nimm beide Karten auf deine Hand. <i>(Mische.)</i>"		
-    },
-    {
-        "code": "45020",
-        "name": "Legion",
-        "subname": "David Haller",
-        "text": "[star] <b>Reaktion</b> : Nachdem Legion eine Basiskraft verwendet hat, lege die oberste Karte deines Decks ab. Falls auf der Karte folgende Ressource aufgedruckt ist : \n[energy] — Füge einem Gegner 2 Schaden zu.\n[mental] — Entferne 2 Bedrohung von einem Plan.\n[physical] — Heile 2 Schaden von Legion.",
-        "traits": "Psionisch. X-Men."
-    },
-    {
-        "code": "45021",
-        "flavor": "\"Wenn ich dich in die Finger kriege, wirst du nicht mehr so hübsch aussehen!\"",
-        "name": "Marrow",
-        "subname": "Sarah",
-        "text": "Spiele diese Karte nur, falls du das Merkmal [[X-FORCE]] oder [[X-MEN]] hast.\n<b>Reaktion</b> : Nachdem Marrow ins Spiel gekommen ist, füge einem Gegner 2 Schaden zu.",
-        "traits": "X-Force."
-    },
-    {
-        "code": "45030a",
-        "flavor": "\"Im Limbo gibt es keine Schneeflocken.\"",
-        "name": "Magik",
-        "text": "Spiele mit der obersten Karte deines Decks auf der offenen Seite.\nEin Mal pro Phase darfst du die oberste Karte deines Decks spielen, als ob sie auf deiner Hand wäre. Senke dabei ihre Ressourcenkosten um 1.",
-        "traits": "Mystiker. X-Men"
-    },
-    {
-        "code": "45030b",
-        "flavor": "\"Ich würde das letzte Stück meiner Seele für eine Frühlingsrolle verkaufen !\"",
-        "name": "Illyana Rasputin",
-        "text": "<b>Unterbrechung</b> : Sobald du in deine Helden-gestalt wechselst, wähle einen [[ZAUBER]] in deinem Ablagestapel und lege ihn oben auf dein Deck. (Nur ein Mal pro Phase.)",
-        "traits": "Mutant. Mystiker."
-    },
-    {
-        "code": "45031"	,
-        "flavor": "\"Ich werde dich immer beschützen, kleine Schneeflocke.\"",
-        "name": "Colossus",
-        "subname": "Piotr Rasputin",
-        "text": "Zähigkeit.\n<b>Unterbrechung</b> : Sobald dich ein Gegner angreift, spiele Colossus von deiner Hand (bezahle seine Ressourcenkosten) und bestimme ihn als Verteidiger, ohne ihn zu erschöpfen.",
-        "traits": "X-Men."
-    },
-    {
-        "code": "45032",
-        "name": "Limbo",
-        "text": "<b>Reaktion</b> : Nachdem die Schurkenphase begonnen hat, erschöpfe Limbo → tausche eine Karte auf deiner Hand mit der obersten Karte deines Decks.\n<b>Aktion</b> : Erschöpfe Limbo → tausche eine Karte auf deiner Hand mit der obersten Karte deines Decks.",
-        "traits": "Dimension."
-    },
-    {
-        "code": "45033",
-        "flavor": "Magik ist im Limbo aufgewachsen und dazu bestimmt, dem Mann, der sie dorthin gebracht hat, die Herrschaft zu entreißen.",
-        "name": "Magiks Krone",
-        "text": "Magik erhält Standhaft.\nSolange die oberste Karte deines Decks ein [mental]- oder [wild]-Ressourcensymbol hat, bekommt Magik +1 WID.",
-        "traits": "Gegenstand."
-    },
-    {
-        "code": "45034",
-        "name": "Seelenschwert",
-        "text": "Eingeschränkt.\nMagiks Basisangriffe erhalten Durchdringend.\nSolange die oberste Karte deines Decks ein [physical]- oder [wild]-Ressourcensymbol hat, bekommt Magik +1 ANG.",
-        "traits": "Waffe."
-    },
-    {
-        "code": "45035",
-        "flavor": "Ist im Limbo gerade sehr in Mode.",
-        "name": "Mystische Rüstung",
-        "text": "Magik erhält Vergeltung 1.\nSolange die oberste Karte deines Decks ein [energy]- oder [wild]-Ressourcensymbol hat, bekommt Magik +1 VER.",
-        "traits": "Rüstung."
-    },
-    {
-        "code": "45036",
-        "flavor": "\"Ja, ich habe deine Zukunft gesehen. Nein, ich werde sie dir nicht verraten.\" — Magik",
-        "name": "Vorhersehung",
-        "text": "<b>Aktion</b> : Sieh dir die obersten 3 Karten deines Decks an. Ziehe 1 davon, lege 1 ab und lege 1 oben auf dein Deck zurück.",
-        "traits": "Zauber."
-    },
-    {
-        "code": "45037",
-        "flavor": "Magik kann mithilfe ihrer Teleportscheiben überall hingelangen, indem sie ein Portal durch den Limbo öffnet.",
-        "name": "Schrittscheibe",
-        "text": "<b>Held - Aktion</b> : Mache deinen Helden spielbereit. Wähle eine Magik-Karte in deinem Ablagestapel, die keine Schrittscheibe ist, und lege sie oben auf dein Deck.",
-        "traits": "Superkraft."
-    },
-    {
-        "code": "45038",
-        "flavor": "\"Ich habe das Böse in dir ausgetrieben.\" — Magik",
-        "name": "Exorzismus",
-        "text": "<b>Held - Aktion </b> <i>(Widerstand)</i> : Entferne 4 Bedrohung von einem Plan. Falls die oberste Karte deines Decks ein [mental]- oder [wild]-Ressourcensymbol hat, verwirre den Schurken.",
-        "traits": "Widerstand. Zauber."
-    },
-    {
-        "code": "45039",
-        "flavor": "\"Du wolltest es nicht anders. Dann spüre jetzt die Macht meines Seelenschwerts !\" — Magik",
-        "name": "Seelenschlag",
-        "text": "<b>Held - Aktion</b> <i>(Angriff)</i> : Füge einem Gegner 4 Schaden zu. Falls die oberste Karte deines Decks ein [physical]- oder [wild]-Ressourcensymbol hat, betäube den Gegner.",
-        "traits": "Angriff. Zauber."
-    },
-    {
-        "code": "45040",
-        "name": "Magische Barriere",
-        "text": "<b>Held - Unterbrechung</b> <i>(Verteidigung)</i> : Sobald ein Gegner einen Angriff einleitet, verhindere 3 Schaden durch den Angriff. Falls die oberste Karte deines Decks ein [energy]- oder [wild]-Ressourcensymbol hat, füge dem angreifenden Gegner 3 Schaden zu.",
-        "traits": "Verteidigung. Zauber."
-    },
-    {
-        "code": "45041"	,
-        "flavor": "\"Ich hab mir den Namen nicht ausgesucht.\"",
-        "name": "Goldballs",
-        "subname": "Fabio Médina",
-        "text": "[star] <b>Unterbrechung</b> : Sobald Goldballs angreift, lege bis zu 3 Karten von deinem Deck ab → Goldballs bekommt für diesen Angriff +X ANG. X ist die Anzahl der auf diese Weise abgelegten Karten.",
-        "traits": "X-Men."
-    },
-    {
-        "code": "45042"	,
-        "name": "Tempus",
-        "subname": "Eva Bell",
-        "text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[X-MEN]] hat.\n<b>Unterbrechung</b> : Sobald der Schurke den Plan vorantreiben würde, lege Tempus ab → hebe die Aktivierung auf. Teile dir selbst 1 verdeckte Begegnungskarte zu.",
-        "traits": "X-Men."
-    },
-    {
-        "code": "45043"	,
-        "name": "Blutrausch",
-        "text": "Max. 1 pro Spieler.\n<b>Reaktion</b> : : Nachdem du einen Gegner mit einem Basisangriff besiegt hast, erschöpfe Blutrausch und nimm 1 Schaden → ziehe 1 Karte.",
-        "traits": "Zustand."
-    },
-    {
-        "code": "45044",
-        "name": "Die Abwehr austesten",
-        "text": "Max. 1 pro Spieler.\n<b>Reaktion</b> : Nachdem du ein [[ANGRIFF]]- Ereignis gespielt hast, platziere hier 1 Versuchsmarker. Falls hier 5 Versuchsmarker liegen, lege diese Karte ab und füge einem Gegner 5 Schaden zu.",
-        "traits": "Fertigkeit."
-    },
-    {
-        "code": "45045",
-        "flavor": "\"Aus dem Weg, Towarischtsch !\" — Colossus",
-        "name": "Ansturm Mit Voller Kraft",
-        "text": "<b>Held - Aktion</b> <i>(Angriff)</i> : Füge einem Gegner 8 Schaden zu. Falls dein Held weniger als die Hälfte seiner Anfangslebenspunkte hat, erhält dieser Angriff Overkill.",
-        "traits": "Angriff."
-    },
-    {
-        "code": "45046",
-        "flavor": "\"Fühlt sich gut an, wieder Ninjas verprügeln zu können.\" — Psylocke"
-    },
-    {
-        "code": "45048",
-        "flavor": "\"Lass mich das mal ansehen.\"",
-        "name": "Triage",
-        "subname": "Christopher Muse",
-        "text": "<b>Reaktion</b> : Nachdem Triage ins Spiel gekommen ist, heile 2 Schaden von einem [[X-MEN]]-Charakter.",
-        "traits": "X-Men."
-    },
-    {
-        "code": "45049",
-        "name": "Stepford Cuckoos",
-        "text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[X-MEN]] hat. Anwendungen (3 Psi-Marker).\n<b>Unterbrechung</b> : qSobald ein Spieler einen Verrat aufdeckt, erschöpfe Stepford Cuckoos und entferne 1 Psi-Marker von hier → hebe die Effekte des Verrats auf und lege ihn ab. Der Spieler deckt eine weitere Begegnungskarte auf.",
-        "traits": "Person. Psionisch."
-    },
-    {
-        "code": "45050",
-        "name": "Blutstein",
-        "text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[MYSTIKER]]. Max. 1 pro Deck.\n<b>Ressource</b> : Erschöpfe Blutstein und nimm 2 Schaden → erzeuge eine [wild]-Ressource.",
-        "traits": "Gegenstand."
-    },
-    {
-        "code": "45051",
-        "name": "Universal-Zauber",
-        "text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[MYSTIKER]] hat.\n <b>Held - Aktion</b> : Wähle eines :\n- Heile 3 Schaden von einer Identität.\n- Entferne 3 Bedrohung von einem Plan.\n- Füge einem Gegner 3 Schaden zu.",
-        "traits": "Zauber."
-    }
+	{
+		"code": "45001a",
+		"name": "Bishop",
+		"text": "<i>Energieabsorption</i> — <b>Reaktion</b> : Nachdem Bishop durch einen Angriff eine beliebige Menge an Schaden genommen hat, lege genauso viele Karten von deinem Deck ab. Nimm jede auf diese Weise abgelegte Ressourcenkarte auf deine Hand.",
+		"traits": "Temporal. X-Men."
+	},
+	{
+		"code": "45001b",
+		"flavor": "\"Als ich in die Vergangenheit reiste, um meine Zukunft zu retten, hatte ich mir das anders vorgestellt.\"",
+		"name": "Lucas Bishop",
+		"text": "<i>Zeitversetzt</i> — <b>Reaktion</b> : Nachdem du in diese Gestalt gewechselt bist, nimm eine [[Temporal]]-Karte aus deinem Ablagestapel auf deine Hand.",
+		"traits": "Mutant. Temporal."
+	},
+	{
+		"code": "45002",
+		"flavor": "Mehrere Feindkontakte. Greife an.",
+		"name": "Malcolm",
+		"text": "<b>Aktion</b> : Lege eine Ressourcenkarte von deiner Hand ab → mache Malcolm spielbereit. Falls die Karte ein aufgedrucktes [physical]-Symbol hat, heile 1 Schaden von Malcolm. (Nur ein Mal pro Phase.)",
+		"traits": "Temporal. X-Men."
+	},
+	{
+		"code": "45003",
+		"flavor": "Wir stehen an deiner Seite, Boss. Bis zum bitteren Ende.",
+		"name": "Randall",
+		"text": "<b>Aktion</b> : Lege eine Ressourcenkarte von deiner Hand ab → mache Randall spielbereit. Falls die Karte ein aufgedrucktes [energy]-Symbol hat, heile 1 Schaden von Randall. (Nur ein Mal pro Phase.)",
+		"traits": "Temporal. X-Men."
+	},
+	{
+		"code": "45004",
+		"name": "Bishops Gewehr",
+		"text": "Eingeschränkt.\n<b>Held - Aktion</b> <i>(Angriff)</i> : Erschöpfe Bishops Gewehr und wähle einen Gegner → füge dem Gegner für jede Ressourcenkarte auf deiner Hand 1 Schaden zu. Dieser Angriff erhält Fernkampf.",
+		"traits": "Temporal. Waffe."
+	},
+	{
+		"code": "45005",
+		"name": "Bishops Uniform",
+		"text": "<b>Reaktion</b> : Nachdem du Bishops Fahigkeit <i>\"Energieabsorption\"</i> abgehandelt hast, erschöpfe Bishops Uniform → heile für jede Ressourcenkarte auf deiner Hand 1 Schaden von Bishop.",
+		"traits": "Gegenstand. Temporal."
+	},
+	{
+		"code": "45006",
+		"name": "Volle Aufladung",
+		"text": "<b>Aktion</b> : Lege eine Ressourcenkarte von deiner Hand ab → platziere hier 1 Ladungsmarker für jedes Ressourcensymbol auf der Karte.\n<b>Held - Unterbrechung</b> : Sobald du einen Basisangriff durchführst, lege Volle Aufladung ab → du bekommst für den Angriff +2 ANG für jeden Ladungsmarker hier (bis zu einem Maximum von +8 ANG).",
+		"traits": "Superkraft."
+	},
+	{
+		"code": "45007",
+		"flavor": "Bishops Kräfte erlauben es ihm, Energie zu absorbieren und sie in mächtige Energiestöße umzuwandeln.",
+		"name": "Erschütternder Stoss",
+		"text": "<b>Held - Aktion</b> <i>(Angriff)</i> : Füge einem Gegner 6 Schaden zu. Falls du für dieses Ereignis mit einer Ressourcenkarte bezahlt hast, mache Bishop spielbereit.",
+		"traits": "Angriff. Superkraft."
+	},
+	{
+		"code": "45008",
+		"flavor": "\"Alle mir nach !\" — Bishop",
+		"name": "Befehlsgewalte",
+		"text": "<b>Held - Aktion</b> <i>(Widerstand)</i> : Entferne 3 Bedrohung von einem Plan. Falls du für dieses Ereignis mit einer Ressourcenkarte bezahlt hast, ziehe 1 Karte.",
+		"traits": "Widerstand."
+	},
+	{
+		"code": "45009",
+		"name": "Energieumwandlung",
+		"text": "<b>Held - Unterbrechung</b> <i>(Verteidigung)</i> : Sobald ein Gegner angreift, mische jede Ressourcenkarte in deinem Ablagestapel in dein Deck. Du kannst durch diesen Angriff nicht mehr als 3 Schaden nehmen.",
+		"traits": "Verteidigung."
+	},
+	{
+		"code": "45010",
+		"flavor": "\"Je mehr du mich triffst, desto härter schlage ich zurück !\" — Bishop",
+		"name": "Gespeicherte Energie",
+		"traits": "Temporal."
+	},
+	{
+		"code": "45011",
+		"flavor": "\"Ich weiß zu viel darüber, was die Zukunft bringt.\"",
+		"name": "Cable",
+		"subname": "Nathan Summers",
+		"text": "<b>Reaktion</b> : Nachdem Cable gegen einen Nebenplan Widerstand geleistet und ihn besiegt hat, ziehe 1 Karte.",
+		"traits": "Psionisch. X-Force."
+	},
+	{
+		"code": "45012",
+		"flavor": "\"Wage es nicht noch mal, mich \"Lady Wolverine\" zu nennen !\"",
+		"name": "X-23",
+		"subname": "Laura Kinney",
+		"text": "<b>Reaktion</b> : Nachdem X-23 einen Gegner angegriffen und besiegt hat, mache sie spielbereit",
+		"traits": "X-Force."
+	},
+	{
+		"code": "45014",
+		"name": "Verbesserter Anzug",
+		"text": "Hänge diese Karte an einen [[X-FORCE]]- oder [[X-MEN]]-Verbündeten an. Max. 1 pro Verbündeten.\n<b>Reaktion</b> : Nachdem der Verbündete mit diesem Upgrade einen Schergen oder Nebenplan besiegt hat, lege 1 Karte von deiner Hand ab → heile für jede Ressource auf ihr 1 Schaden von dem Verbündeten.",
+		"traits": "Gegenstand. Rüstung."
+	},
+	{
+		"code": "45015",
+		"name": "Sidekick",
+		"text": "Hänge diese Karte an einen identitäts-spezifischen Verbündeten unter deiner Kontrolle an. Max. 1 pro Deck.\nDer Verbündete mit diesem Upgrade bekommt +2 Lebenspunkte und ist dein \"Sidekick\".\n<b>Reaktion</b> : Nachdem du deine Basiskraft Erholung verwendet hast, heile 2 Schaden von dem Verbündeten mit diesem Upgrade.",
+		"traits": "Titel."
+	},
+	{
+		"code": "45016",
+		"name": "Seite An Seite",
+		"text": "<b>Held - Aktion</b> : Mache deinen Sidekick spielbereit → mache deinen Helden spielbereit und wähle eines :\n-   Heile je 1 Schaden von beiden Charakteren.\n- Beide Charaktere bekommen bis zum Ende der Phase +1 WID und +1 ANG."
+	},
+	{
+		"code": "45017",
+		"name": "Für den Kampf rüsten",
+		"text": "<b>Alter Ego - Aktion</b> : Durchsuche dein Deck und deinen Ablagestapel nach einem Verbündeten und einem Upgrade, das an den Verbündeten angehängt werden kann. Nimm beide Karten auf deine Hand. <i>(Mische.)</i>"
+	},
+	{
+		"code": "45020",
+		"name": "Legion",
+		"subname": "David Haller",
+		"text": "[star] <b>Reaktion</b> : Nachdem Legion eine Basiskraft verwendet hat, lege die oberste Karte deines Decks ab. Falls auf der Karte folgende Ressource aufgedruckt ist : \n[energy] — Füge einem Gegner 2 Schaden zu.\n[mental] — Entferne 2 Bedrohung von einem Plan.\n[physical] — Heile 2 Schaden von Legion.",
+		"traits": "Psionisch. X-Men."
+	},
+	{
+		"code": "45021",
+		"flavor": "\"Wenn ich dich in die Finger kriege, wirst du nicht mehr so hübsch aussehen!\"",
+		"name": "Marrow",
+		"subname": "Sarah",
+		"text": "Spiele diese Karte nur, falls du das Merkmal [[X-FORCE]] oder [[X-MEN]] hast.\n<b>Reaktion</b> : Nachdem Marrow ins Spiel gekommen ist, füge einem Gegner 2 Schaden zu.",
+		"traits": "X-Force."
+	},
+	{
+		"code": "45030a",
+		"flavor": "\"Im Limbo gibt es keine Schneeflocken.\"",
+		"name": "Magik",
+		"text": "Spiele mit der obersten Karte deines Decks auf der offenen Seite.\nEin Mal pro Phase darfst du die oberste Karte deines Decks spielen, als ob sie auf deiner Hand wäre. Senke dabei ihre Ressourcenkosten um 1.",
+		"traits": "Mystiker. X-Men"
+	},
+	{
+		"code": "45030b",
+		"flavor": "\"Ich würde das letzte Stück meiner Seele für eine Frühlingsrolle verkaufen !\"",
+		"name": "Illyana Rasputin",
+		"text": "<b>Unterbrechung</b> : Sobald du in deine Helden-gestalt wechselst, wähle einen [[ZAUBER]] in deinem Ablagestapel und lege ihn oben auf dein Deck. (Nur ein Mal pro Phase.)",
+		"traits": "Mutant. Mystiker."
+	},
+	{
+		"code": "45031",
+		"flavor": "\"Ich werde dich immer beschützen, kleine Schneeflocke.\"",
+		"name": "Colossus",
+		"subname": "Piotr Rasputin",
+		"text": "Zähigkeit.\n<b>Unterbrechung</b> : Sobald dich ein Gegner angreift, spiele Colossus von deiner Hand (bezahle seine Ressourcenkosten) und bestimme ihn als Verteidiger, ohne ihn zu erschöpfen.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45032",
+		"name": "Limbo",
+		"text": "<b>Reaktion</b> : Nachdem die Schurkenphase begonnen hat, erschöpfe Limbo → tausche eine Karte auf deiner Hand mit der obersten Karte deines Decks.\n<b>Aktion</b> : Erschöpfe Limbo → tausche eine Karte auf deiner Hand mit der obersten Karte deines Decks.",
+		"traits": "Dimension."
+	},
+	{
+		"code": "45033",
+		"flavor": "Magik ist im Limbo aufgewachsen und dazu bestimmt, dem Mann, der sie dorthin gebracht hat, die Herrschaft zu entreißen.",
+		"name": "Magiks Krone",
+		"text": "Magik erhält Standhaft.\nSolange die oberste Karte deines Decks ein [mental]- oder [wild]-Ressourcensymbol hat, bekommt Magik +1 WID.",
+		"traits": "Gegenstand."
+	},
+	{
+		"code": "45034",
+		"name": "Seelenschwert",
+		"text": "Eingeschränkt.\nMagiks Basisangriffe erhalten Durchdringend.\nSolange die oberste Karte deines Decks ein [physical]- oder [wild]-Ressourcensymbol hat, bekommt Magik +1 ANG.",
+		"traits": "Waffe."
+	},
+	{
+		"code": "45035",
+		"flavor": "Ist im Limbo gerade sehr in Mode.",
+		"name": "Mystische Rüstung",
+		"text": "Magik erhält Vergeltung 1.\nSolange die oberste Karte deines Decks ein [energy]- oder [wild]-Ressourcensymbol hat, bekommt Magik +1 VER.",
+		"traits": "Rüstung."
+	},
+	{
+		"code": "45036",
+		"flavor": "\"Ja, ich habe deine Zukunft gesehen. Nein, ich werde sie dir nicht verraten.\" — Magik",
+		"name": "Vorhersehung",
+		"text": "<b>Aktion</b> : Sieh dir die obersten 3 Karten deines Decks an. Ziehe 1 davon, lege 1 ab und lege 1 oben auf dein Deck zurück.",
+		"traits": "Zauber."
+	},
+	{
+		"code": "45037",
+		"flavor": "Magik kann mithilfe ihrer Teleportscheiben überall hingelangen, indem sie ein Portal durch den Limbo öffnet.",
+		"name": "Schrittscheibe",
+		"text": "<b>Held - Aktion</b> : Mache deinen Helden spielbereit. Wähle eine Magik-Karte in deinem Ablagestapel, die keine Schrittscheibe ist, und lege sie oben auf dein Deck.",
+		"traits": "Superkraft."
+	},
+	{
+		"code": "45038",
+		"flavor": "\"Ich habe das Böse in dir ausgetrieben.\" — Magik",
+		"name": "Exorzismus",
+		"text": "<b>Held - Aktion </b> <i>(Widerstand)</i> : Entferne 4 Bedrohung von einem Plan. Falls die oberste Karte deines Decks ein [mental]- oder [wild]-Ressourcensymbol hat, verwirre den Schurken.",
+		"traits": "Widerstand. Zauber."
+	},
+	{
+		"code": "45039",
+		"flavor": "\"Du wolltest es nicht anders. Dann spüre jetzt die Macht meines Seelenschwerts !\" — Magik",
+		"name": "Seelenschlag",
+		"text": "<b>Held - Aktion</b> <i>(Angriff)</i> : Füge einem Gegner 4 Schaden zu. Falls die oberste Karte deines Decks ein [physical]- oder [wild]-Ressourcensymbol hat, betäube den Gegner.",
+		"traits": "Angriff. Zauber."
+	},
+	{
+		"code": "45040",
+		"name": "Magische Barriere",
+		"text": "<b>Held - Unterbrechung</b> <i>(Verteidigung)</i> : Sobald ein Gegner einen Angriff einleitet, verhindere 3 Schaden durch den Angriff. Falls die oberste Karte deines Decks ein [energy]- oder [wild]-Ressourcensymbol hat, füge dem angreifenden Gegner 3 Schaden zu.",
+		"traits": "Verteidigung. Zauber."
+	},
+	{
+		"code": "45041",
+		"flavor": "\"Ich hab mir den Namen nicht ausgesucht.\"",
+		"name": "Goldballs",
+		"subname": "Fabio Médina",
+		"text": "[star] <b>Unterbrechung</b> : Sobald Goldballs angreift, lege bis zu 3 Karten von deinem Deck ab → Goldballs bekommt für diesen Angriff +X ANG. X ist die Anzahl der auf diese Weise abgelegten Karten.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45042",
+		"name": "Tempus",
+		"subname": "Eva Bell",
+		"text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[X-MEN]] hat.\n<b>Unterbrechung</b> : Sobald der Schurke den Plan vorantreiben würde, lege Tempus ab → hebe die Aktivierung auf. Teile dir selbst 1 verdeckte Begegnungskarte zu.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45043",
+		"name": "Blutrausch",
+		"text": "Max. 1 pro Spieler.\n<b>Reaktion</b> : : Nachdem du einen Gegner mit einem Basisangriff besiegt hast, erschöpfe Blutrausch und nimm 1 Schaden → ziehe 1 Karte.",
+		"traits": "Zustand."
+	},
+	{
+		"code": "45044",
+		"name": "Die Abwehr austesten",
+		"text": "Max. 1 pro Spieler.\n<b>Reaktion</b> : Nachdem du ein [[ANGRIFF]]- Ereignis gespielt hast, platziere hier 1 Versuchsmarker. Falls hier 5 Versuchsmarker liegen, lege diese Karte ab und füge einem Gegner 5 Schaden zu.",
+		"traits": "Fertigkeit."
+	},
+	{
+		"code": "45045",
+		"flavor": "\"Aus dem Weg, Towarischtsch !\" — Colossus",
+		"name": "Ansturm Mit Voller Kraft",
+		"text": "<b>Held - Aktion</b> <i>(Angriff)</i> : Füge einem Gegner 8 Schaden zu. Falls dein Held weniger als die Hälfte seiner Anfangslebenspunkte hat, erhält dieser Angriff Overkill.",
+		"traits": "Angriff."
+	},
+	{
+		"code": "45046",
+		"flavor": "\"Fühlt sich gut an, wieder Ninjas verprügeln zu können.\" — Psylocke"
+	},
+	{
+		"code": "45048",
+		"flavor": "\"Lass mich das mal ansehen.\"",
+		"name": "Triage",
+		"subname": "Christopher Muse",
+		"text": "<b>Reaktion</b> : Nachdem Triage ins Spiel gekommen ist, heile 2 Schaden von einem [[X-MEN]]-Charakter.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45049",
+		"name": "Stepford Cuckoos",
+		"text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[X-MEN]] hat. Anwendungen (3 Psi-Marker).\n<b>Unterbrechung</b> : qSobald ein Spieler einen Verrat aufdeckt, erschöpfe Stepford Cuckoos und entferne 1 Psi-Marker von hier → hebe die Effekte des Verrats auf und lege ihn ab. Der Spieler deckt eine weitere Begegnungskarte auf.",
+		"traits": "Person. Psionisch."
+	},
+	{
+		"code": "45050",
+		"name": "Blutstein",
+		"text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[MYSTIKER]]. Max. 1 pro Deck.\n<b>Ressource</b> : Erschöpfe Blutstein und nimm 2 Schaden → erzeuge eine [wild]-Ressource.",
+		"traits": "Gegenstand."
+	},
+	{
+		"code": "45051",
+		"name": "Universal-Zauber",
+		"text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[MYSTIKER]] hat.\n <b>Held - Aktion</b> : Wähle eines :\n- Heile 3 Schaden von einer Identität.\n- Entferne 3 Bedrohung von einem Plan.\n- Füge einem Gegner 3 Schaden zu.",
+		"traits": "Zauber."
+	},
+	{
+		"code": "45171a",
+		"name": "Mission Team",
+		"text": "Mission Team cannot be discarded and the first player gains control of it.\n<b>Action</b>: Exhaust Mission Team → choose:\n• Reduce the cost of the next ally played to the mission this phase by 2.\n• Make a mission attempt.",
+		"traits": "Mission."
+	},
+	{
+		"code": "45171b",
+		"flavor": "\"Another successful mission. Hopefully this time they don't sue for damages!\" —Polaris",
+		"name": "Mission Team",
+		"text": "Mission Team cannot be discarded and the first player gains control of it.\n<b>Action</b>: Exhaust Mission Team → choose a player to draw 1 card.",
+		"traits": "Finished."
+	},
+	{
+		"code": "45172",
+		"flavor": "\"Outsmarting your opponent is child's play when you know the future.\"",
+		"name": "Destiny",
+		"subname": "Irene Adler",
+		"text": "<b>Response</b>: After Destiny enters your hand, remove 2 threat from the main scheme.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45173",
+		"flavor": "\"My name's Blink. Who do you think is faster?\"",
+		"name": "Blink",
+		"subname": "Clarice Ferguson",
+		"text": "<b>Response</b>: After Blink enters your hand, deal 2 damage to the villain.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45174",
+		"flavor": "\"What's all the hubbub, bub?\"",
+		"name": "Morph",
+		"subname": "Kevin Sydney",
+		"text": "<b>Response</b>: After Morph enters your hand, confuse the villain.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45175",
+		"flavor": "\"The innocent are safe so long as I have anything to say!\"",
+		"name": "X-Man",
+		"subname": "Nate Grey",
+		"text": "<b>Response</b>: After X-Man enters your hand, give your identity a tough status card.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45176",
+		"flavor": "\"My brother will never stop.\" —Magik",
+		"name": "Desperate Measures",
+		"text": "Attach to an ally. Limit 1 per ally.\nAttached ally gets +1 THW, +1 ATK, +1 hit point, and is considered to have a wild ([wild]) resource icon in addition to its printed resource icon."
+	}
 ]

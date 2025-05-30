@@ -1,0 +1,319 @@
+[
+	{
+		"code": "45001a",
+		"name": "Bishop",
+		"text": "<i>Energy Absorption</i> — <b>Response</b>: After Bishop takes any amount of damage from an attack, discard an equal number of cards from the top of your deck. Add each resource card discarded this way to your hand.",
+		"traits": "Temporal. X-Men."
+	},
+	{
+		"code": "45001b",
+		"flavor": "\"When I journeyed to the past to save my future, this was not what I had in mind.\"",
+		"name": "Lucas Bishop",
+		"text": "<i>Temporally Displaced</i> — <b>Response</b>: After you change to this form, add a [[TEMPORAL]] card in your discard pile to your hand.",
+		"traits": "Mutant. Temporal."
+	},
+	{
+		"code": "45002",
+		"flavor": "\"Multiple contacts. Engaging.\"",
+		"name": "Malcolm",
+		"text": "<b>Action</b>: Discard a resource card from your hand → ready Malcolm. If that card has a printed [physical] icon, heal 1 damage from Malcolm. (Limit once per phase.)",
+		"traits": "Temporal. X-Men."
+	},
+	{
+		"code": "45003",
+		"flavor": "\"We're with you, boss. All the way.\"",
+		"name": "Randall",
+		"text": "<b>Action</b>: Discard a resource card from your hand → ready Randall. If that card has a printed [energy] icon, heal 1 damage from Randall. (Limit once per phase.)",
+		"traits": "Temporal. X-Men."
+	},
+	{
+		"code": "45004",
+		"name": "Bishop's Rifle",
+		"text": "Restricted.\n<b>Hero Action</b> <i>(attack)</i>: Exhaust Bishop's Rifle and choose an enemy → deal 1 damage to that enemy for each resource card in your hand. This attack gains ranged.",
+		"traits": "Temporal. Weapon."
+	},
+	{
+		"code": "45005",
+		"name": "Bishop's Uniform",
+		"text": "<b>Response</b>: After you resolve Bishop's <i>\"Energy Absorption\"</i> ability, exhaust Bishop's Uniform → heal 1 damage from Bishop for each resource card in your hand.",
+		"traits": "Item. Temporal."
+	},
+	{
+		"code": "45006",
+		"name": "Super-Charged",
+		"text": "<b>Action</b>: Discard a resource card from your hand → place 1 charge counter here for each resource icon on that card.\n<b>Hero Interrupt</b>: When you make a basic attack, discard Super-Charged → you get +2 ATK for this attack for each charge counter here (to a maximum of +8 ATK).",
+		"traits": "Superpower."
+	},
+	{
+		"code": "45007",
+		"flavor": "Bishop's power allows him to absorb energy and rechannel it into powerful blasts.",
+		"name": "Concussive Blast",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. If you paid for this event with a resource card, ready Bishop.",
+		"traits": "Attack. Superpower."
+	},
+	{
+		"code": "45008",
+		"flavor": "\"Everyone, on me!\" —Bishop",
+		"name": "Command Authority",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. If you paid for this event with a resource card, draw 1 card.",
+		"traits": "Thwart."
+	},
+	{
+		"code": "45009",
+		"name": "Energy Conversion",
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, shuffle each resource card in your discard pile into your deck. You cannot take more than 3 damage from this attack.",
+		"traits": "Defense."
+	},
+	{
+		"code": "45010",
+		"flavor": "\"The more you hit me, the harder I hit back!\" —Bishop",
+		"name": "Stored Energy",
+		"traits": "Temporal."
+	},
+	{
+		"code": "45011",
+		"flavor": "\"I know too much about what the future holds.\"",
+		"name": "Cable",
+		"subname": "Nathan Summers",
+		"text": "<b>Response</b>: After Cable thwarts and defeats a side scheme, draw 1 card.",
+		"traits": "Psionic. X-Force."
+	},
+	{
+		"code": "45012",
+		"flavor": "\"Call me 'Lady-Wolverine' one more time - I dare you!\"",
+		"name": "X-23",
+		"subname": "Laura Kinney",
+		"text": "<b>Response</b>: After X-23 attacks and defeats an enemy, ready her.",
+		"traits": "X-Force."
+	},
+	{
+		"code": "45014",
+		"name": "Advanced Suit",
+		"text": "Attach to an [[X-FORCE]] or [[X-MEN]] ally. Max 1 per ally.\n<b>Response</b>: After attached ally defeats a minion or side scheme, discard 1 card from your hand → heal 1 damage from attached ally for each resource on that card.",
+		"traits": "Armor. Item."
+	},
+	{
+		"code": "45015",
+		"name": "Sidekick",
+		"text": "Attach to an identity-specific ally you control. Max 1 per deck.\nAttached ally gets +2 hit points and is your \"sidekick.\"\n<b>Response</b>: After you make a basic recovery, heal 2 damage from attached ally.",
+		"traits": "Title."
+	},
+	{
+		"code": "45016",
+		"name": "Side-by-Side",
+		"text": "<b>Hero Action</b>: Ready your sidekick → ready your hero and choose one:\n• Heal 1 damage from both characters.\n• Both characters get +1 THW and +1 ATK until the end of the phase."
+	},
+	{
+		"code": "45017",
+		"name": "Suit Up",
+		"text": "<b>Alter-Ego Action</b>: Search your deck and discard pile for an ally and an upgrade that can be attached to that ally. Add them to your hand. <i>(Shuffle.)</i>"
+	},
+	{
+		"code": "45020",
+		"name": "Legion",
+		"subname": "David Haller",
+		"text": "[star] <b>Response</b>: After Legion uses a basic power, discard the top card of your deck. If that card's printed resource has:\n[energy] — Deal 2 damage to an enemy.\n[mental] — Remove 2 threat from a scheme.\n[physical] — Heal 2 damage from Legion.",
+		"traits": "Psionic. X-Men."
+	},
+	{
+		"code": "45021",
+		"flavor": "\"You won't look so pretty once I get you!\"",
+		"name": "Marrow",
+		"subname": "Sarah",
+		"text": "Play only if you have the [[X-FORCE]] or [[X-MEN]] trait.\n<b>Response</b>: After Marrow enters play, deal 2 damage to an enemy.",
+		"traits": "X-Force."
+	},
+	{
+		"code": "45030a",
+		"flavor": "\"There are no snowflakes in Limbo.\"",
+		"name": "Magik",
+		"text": "Play with the top card of your deck faceup.\nOnce per phase, you may play the top card of your deck as if it was in your hand, reducing its resource cost by 1.",
+		"traits": "Mystic. X-Men."
+	},
+	{
+		"code": "45030b",
+		"flavor": "\"I would sell the last piece of my soul for an egg roll right now!\"",
+		"name": "Illyana Rasputin",
+		"text": "<b>Interrupt</b>: When you change to hero form, choose a [[SPELL]] in your discard pile and put it on top of your deck. (Limit once per phase.)",
+		"traits": "Mutant. Mystic."
+	},
+	{
+		"code": "45031",
+		"flavor": "\"I will always protect you, little Snowflake.\"",
+		"name": "Colossus",
+		"subname": "Piotr Rasputin",
+		"text": "Toughness.\n<b>Interrupt</b>: When an enemy attacks you, play Colossus from your hand (paying his resource cost) and declare him the defender without exhausting him.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45032",
+		"name": "Limbo",
+		"text": "<b>Response</b>: After the villain phase begins, exhaust Limbo → swap a card in your hand with the top card of your deck.\n<b>Action</b>: Exhaust Limbo → swap a card in your hand with the top card of your deck.",
+		"traits": "Dimension."
+	},
+	{
+		"code": "45033",
+		"flavor": "Raised in Limbo, Magik is destined to usurp its rule from the man who brought her there.",
+		"name": "Magik's Crown",
+		"text": "Magik gains steady.\nWhile the top card of your deck has a [mental] or [wild] resource icon, Magik gets +1 THW.",
+		"traits": "Item."
+	},
+	{
+		"code": "45034",
+		"name": "Soulsword",
+		"text": "Restricted.\nMagik's basic attacks gain piercing.\nWhile the top card of your deck has a [physical] or [wild] resource icon, Magik gets +1 ATK.",
+		"traits": "Weapon."
+	},
+	{
+		"code": "45035",
+		"flavor": "It's very fashionable in Limbo.",
+		"name": "Mystical Armor",
+		"text": "Magik gains retaliate 1.\nWhile the top card of your deck has a [energy] or [wild] resource icon, Magik gets +1 DEF.",
+		"traits": "Armor."
+	},
+	{
+		"code": "45036",
+		"flavor": "\"Yes, I've seen your future. No, I will not tell you.\"—Magik",
+		"name": "Scrying",
+		"text": "<b>Action</b>: Look at the top 3 cards of your deck. Draw one, discard one, and put one back on top of your deck.",
+		"traits": "Spell."
+	},
+	{
+		"code": "45037",
+		"flavor": "Magik's teleportation discs can take her anywhere by opening a portal through Limbo.",
+		"name": "Stepping Disc",
+		"text": "<b>Hero Action</b>: Ready your hero. Choose a Magik card in your discard pile not named Stepping Disc and put it on top of your deck.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "45038",
+		"flavor": "\"I have purged the evil from within you.\" —Magik",
+		"name": "Exorcism",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 4 threat from a scheme. If the top card of your deck has a [mental] or [wild] resource icon, confuse the villain.",
+		"traits": "Spell. Thwart."
+	},
+	{
+		"code": "45039",
+		"flavor": "\"Very well. Feel the bite of my Soulsword!\" —Magik",
+		"name": "Soul Strike",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. If the top card of your deck has a [physical] or [wild] resource icon, stun that enemy.",
+		"traits": "Attack. Spell."
+	},
+	{
+		"code": "45040",
+		"name": "Magic Barrier",
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy initiates an attack, prevent 3 damage from this attack. If the top card of your deck has a [energy] or [wild] resource icon, deal 3 damage to the attacking enemy.",
+		"traits": "Defense. Spell."
+	},
+	{
+		"code": "45041",
+		"flavor": "\"I didn't choose the name.\"",
+		"name": "Goldballs",
+		"subname": "Fabio Medina",
+		"text": "[star] <b>Interrupt</b>: When Goldballs attacks, discard up to 3 cards from the top of your deck → Goldballs gets +X ATK for this attack, where X is the number of cards discarded this way.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45042",
+		"name": "Tempus",
+		"subname": "Eva Bell",
+		"text": "Play only if your identity has the [[X-MEN]] trait.\n<b>Interrupt</b>: When the villain would scheme, discard Tempus → cancel that activation. Deal yourself 1 facedown encounter card.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45043",
+		"name": "Blood Rage",
+		"text": "Max 1 per player.\n<b>Response</b>: After you defeat an enemy with a basic attack, exhaust Blood Rage and take 1 damage → draw 1 card.",
+		"traits": "Condition."
+	},
+	{
+		"code": "45044",
+		"name": "Test the Defense",
+		"text": "Max 1 per player.\n<b>Response</b>: After you play an [[ATTACK]] event, place 1 test counter here. If there are 5 test counters here, discard this card to deal 5 damage to an enemy.",
+		"traits": "Skill."
+	},
+	{
+		"code": "45045",
+		"flavor": "\"Coming through, tovarisch!\"—Colossus",
+		"name": "Full-Body Charge",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 8 damage to an enemy. If your hero's remaining hit points are less than half your hero's starting hit points, this attack gains overkill.",
+		"traits": "Attack."
+	},
+	{
+		"code": "45048",
+		"flavor": "\"Let me have a look at that.\"",
+		"name": "Triage",
+		"subname": "Christopher Muse",
+		"text": "<b>Response</b>: After Triage enters play, heal 2 damage from an [[X-Men]] character.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45049",
+		"name": "Stepford Cuckoos",
+		"text": "Play only if your identity has the [[X-Men]] trait. Uses (3 psi counters).\n<b>Interrupt</b>: When a player reveals a treachery, exhaust Stepford Cuckoos and remove 1 psi counter here → cancel the effects of that card and discard it. That player reveals another encounter card.",
+		"traits": "Persona. Psionic."
+	},
+	{
+		"code": "45050",
+		"name": "Bloodgem",
+		"text": "Play only if your identity has the [[MYSTIC]] trait. Max 1 per deck.\n<b>Resource</b>: Exhaust Bloodgem and take 2 damage → generate a [wild] resource.",
+		"traits": "Item."
+	},
+	{
+		"code": "45051",
+		"name": "Basic Spell",
+		"text": "Play only if your identity has the [[MYSTIC]] trait.\n<b>Hero Action</b>: Choose one:\n• Heal 3 damage from an identity.\n• Remove 3 threat from a scheme.\n• Deal 3 damage to an enemy.",
+		"traits": "Spell."
+	},
+	{
+		"code": "45171a",
+		"name": "Mission Team",
+		"text": "Mission Team cannot be discarded and the first player gains control of it.\n<b>Action</b>: Exhaust Mission Team → choose:\n• Reduce the cost of the next ally played to the mission this phase by 2.\n• Make a mission attempt.",
+		"traits": "Mission."
+	},
+	{
+		"code": "45171b",
+		"flavor": "\"Another successful mission. Hopefully this time they don't sue for damages!\" —Polaris",
+		"name": "Mission Team",
+		"text": "Mission Team cannot be discarded and the first player gains control of it.\n<b>Action</b>: Exhaust Mission Team → choose a player to draw 1 card.",
+		"traits": "Finished."
+	},
+	{
+		"code": "45172",
+		"flavor": "\"Outsmarting your opponent is child's play when you know the future.\"",
+		"name": "Destiny",
+		"subname": "Irene Adler",
+		"text": "<b>Response</b>: After Destiny enters your hand, remove 2 threat from the main scheme.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45173",
+		"flavor": "\"My name's Blink. Who do you think is faster?\"",
+		"name": "Blink",
+		"subname": "Clarice Ferguson",
+		"text": "<b>Response</b>: After Blink enters your hand, deal 2 damage to the villain.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45174",
+		"flavor": "\"What's all the hubbub, bub?\"",
+		"name": "Morph",
+		"subname": "Kevin Sydney",
+		"text": "<b>Response</b>: After Morph enters your hand, confuse the villain.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45175",
+		"flavor": "\"The innocent are safe so long as I have anything to say!\"",
+		"name": "X-Man",
+		"subname": "Nate Grey",
+		"text": "<b>Response</b>: After X-Man enters your hand, give your identity a tough status card.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "45176",
+		"flavor": "\"My brother will never stop.\" —Magik",
+		"name": "Desperate Measures",
+		"text": "Attach to an ally. Limit 1 per ally.\nAttached ally gets +1 THW, +1 ATK, +1 hit point, and is considered to have a wild ([wild]) resource icon in addition to its printed resource icon."
+	}
+]

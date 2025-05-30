@@ -104,6 +104,7 @@
 	},
 	{
 		"code": "21016",
+		"flavor": "\"All together now!\" —Captain Marvel",
 		"name": "Mass Attack",
 		"text": "<b>Hero Action</b>: Exhaust 3 allies you control that shares a Trait with your hero → deal X damage to an enemy, where X is the total ATK of those allies and your hero.",
 		"traits": "Attack."
@@ -296,91 +297,122 @@
 	},
 	{
 		"code": "21180a",
-		"name": "Secure the Landing Pad"
+		"flavor": "Cosmo and the Knowhere Corps do their best to prevent more Black Order forces from landing on the station, but they need help!",
+		"name": "Secure the Landing Pad",
+		"text": "Hinder 1[per_hero].\n<b>When Defeated</b>: Flip this card over."
 	},
 	{
 		"code": "21180b",
 		"name": "Cosmo",
+		"text": "The first player gains control of Cosmo.\nCosmo does not count against the ally limit.\n<b>Forced Interrupt</b>: When Cosmo leaves play, remove him from the game.",
 		"traits": "Guardian."
 	},
 	{
 		"code": "21181",
-		"name": "Security Breach"
+		"name": "Security Breach",
+		"text": "Hinder 2[per_hero]. Victory 2.\n<b>When Revealed</b>: Each player places a random card from their hand facedown here.\n<b>When Defeated</b>: Return each facedown card here to its owner's hand."
 	},
 	{
 		"code": "21182a",
-		"name": "Save the Shawarma Place"
+		"flavor": "Black Order soldiers run rampant through the city around Avengers Tower, threatening the heroes' favorite restaurant.",
+		"name": "Save the Shawarma Place",
+		"text": "Hinder 1[per_hero].\n<b>When Defeated</b>: Each player shuffles 1 copy of Shawarma into their deck. Flip this card over."
 	},
 	{
 		"code": "21182b",
+		"flavor": "\"Everything dies.\"",
 		"name": "Black Swan",
+		"text": "Toughness. Victory 2.\nBlack Swan engages the first player.\n<b>Forced Response</b>: After Black Swan engages you, discard 1 card from your hand.",
 		"traits": "Black Order. Elite."
 	},
 	{
 		"code": "21183",
+		"flavor": "\"Have any of you ever tried shawarma?\" —Tony Stark",
 		"name": "Shawarma"
 	},
 	{
 		"code": "21184a",
-		"name": "Hack Sanctuary's Computer"
+		"flavor": "In order to defeat Thanos, you must deactivate his ship's many defenses.",
+		"name": "Hack Sanctuary's Computer",
+		"text": "Hinder 1[per_hero].\n<b>When Defeated</b>: Each player searches their deck and discard pile for 1 card, adds it to their hand, and shuffles their deck. Flip this card over."
 	},
 	{
 		"code": "21184b",
-		"name": "Defensive Protocols"
+		"flavor": "You've accidentally tripped Sanctuary's failsafe program!",
+		"name": "Defensive Protocols",
+		"text": "Hinder 2[per_hero]. Victory 2.\n<b>Forced Interrupt</b>: When the player phase ends, place 1 crash counter here. If there are 2 crash counters here, each player adds 1 copy of the System Shock obligation card to their hand. Remove this card from the game."
 	},
 	{
 		"code": "21185",
-		"name": "System Shock"
+		"name": "System Shock",
+		"text": "You cannot choose to discard this card from your hand.\nWhile this card is in your hand, it gains: \"<b>Alter-Ego Action</b>: Spend a [mental] resource → remove this card from the game.\""
 	},
 	{
 		"code": "21186a",
-		"name": "Find the Norn Stones"
+		"name": "Find the Norn Stones",
+		"text": "Threat cannot be removed from this scheme unless Hela has the [[Wounded]] trait.\n<b>When Defeated</b>: Each player puts a copy of the Norn Stone upgrade into play under their control on its setup side. Flip this card over."
 	},
 	{
 		"code": "21186b",
-		"name": "Retrieve Odin's Armor"
+		"flavor": "You've rescued Odin, but Hela still holds his armor in a secure vault.",
+		"name": "Retrieve Odin's Armor",
+		"text": "Hinder 2[per_hero]. Victory 1.\nThreat cannot be removed from this scheme unless the first player controls Odin.\n<b>When Defeated</b>: Heal all damage from Odin and flip him to his [[King]] side."
 	},
 	{
 		"code": "21187a",
 		"name": "Norn Stone",
+		"text": "Permanent. Setup.\nYour hero gets +1 THW, +1 ATK, and +1 DEF.\n<b>Hero Action</b>: Ready your hero. Flip this card over.",
 		"traits": "Asgard. Artifact."
 	},
 	{
 		"code": "21187b",
 		"name": "Norn Stone",
+		"text": "Permanent.\nYour hero gets +1 THW, +1 ATK, and +1 DEF.\n<b>Alter-Ego Action</b>: Exhaust Norn Stone to heal 1 damage from your identity.",
 		"traits": "Asgard. Artifact."
 	},
 	{
 		"code": "21188",
-		"name": "Summoned Back"
+		"name": "Summoned Back",
+		"text": "Peril. Surge.\n<b>When Revealed</b>: Search the encounter deck, discard pile, and set-aside area for your nemesis minion and put it into play engaged with you. Shuffle the encounter deck."
 	},
 	{
 		"code": "21189a",
-		"name": "Open the Dungeons"
+		"flavor": "Sif and the Warriors Three have been imprisoned by the usurper, Loki. They would be valuable allies if rescued!",
+		"name": "Open the Dungeons",
+		"text": "<b>When Defeated</b>: Each player chooses 1 [[Captive]] ally from the campaign set and puts it into play under their control. Flip this card over."
 	},
 	{
 		"code": "21189b",
 		"name": "Jormungand",
+		"text": "Attach to Loki.\nLoki gets +4[per_hero] hit points.\n<b>Forced Interrupt</b>: When Loki is defeated, remove this card from the game.",
 		"traits": "Dragon."
 	},
 	{
 		"code": "21190",
+		"flavor": "\"Was ever a maiden faced with a problem such as this?\"",
 		"name": "Lady Sif",
+		"text": "<b>Action</b>: Spend a [physical] resource → ready Lady Sif.",
 		"traits": "Asgard. Captive."
 	},
 	{
 		"code": "21191",
+		"flavor": "\"Though I hold life most dear, I will answer Loki for what he has done.\"",
 		"name": "Fandral",
+		"text": "[star] When Fandral uses his basic THW, ignore any crisis icons ([crisis]) in play.",
 		"traits": "Asgard. Captive."
 	},
 	{
 		"code": "21192",
+		"flavor": "\"Loki has gone too far this time. He must be ended.\"",
 		"name": "Hogun",
+		"text": "[star] Hogun's attacks gain piercing.",
 		"traits": "Asgard. Captive."
 	},
 	{
 		"code": "21193",
+		"flavor": "\"The mighty Volstagg will right these wrongs!\"",
 		"name": "Volstagg",
+		"text": "Retaliate 1. <i>(After this character is attacked, deal 1 damage to the attacking character.)</i> \nToughness. <i>(This character enters play with a tough status card.)</i>",
 		"traits": "Asgard. Captive."
 	}
 ]

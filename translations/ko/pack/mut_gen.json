@@ -1,0 +1,442 @@
+[
+	{
+		"code": "32001a",
+		"name": "Colossus",
+		"text": "Colossus can have 1 additional tough status card.\n<i>Steel Skin</i> - <b>Response</b>: After you change to this form, give Colossus a tough status card.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "32001b",
+		"name": "Piotr Rasputin",
+		"text": "<b>Setup</b>: Search your deck for a copy of Organic Steel and add it to your hand.\n<i>Aspiring Artist</i> - <b>Response</b>: After you change to this form, shuffle a Colossus card from your discard pile into your deck.",
+		"traits": "Mutant."
+	},
+	{
+		"code": "32002",
+		"name": "Shadowcat",
+		"subname": "Kitty Pryde",
+		"text": "Shadowcat ignores the guard and patrol keywords, and any crisis icons ([crisis]) in play.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "32003",
+		"name": "Piotr's Studio",
+		"text": "<b>Alter-Ego Action</b>: Exhaust Piotr's Studio → discard cards from your deck until you discard a Colossus card. Add that card to your hand.",
+		"traits": "Location."
+	},
+	{
+		"code": "32004",
+		"name": "Iron Will",
+		"text": "Colossus gets +1 THW.\n<b>Response</b>: After a tough status card is discarded from Colossus, draw 1 card.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "32005",
+		"name": "Titanium Muscles",
+		"text": "Colossus gets +1 ATK.\n<b>Hero Resource</b>: Exhaust this card → generate a [physical] resource for each tough status card on Colossus.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "32006",
+		"name": "Organic Steel",
+		"text": "Uses (2 steel counters).\n<b>Hero Response</b>: After a tough status card is discarded from Colossus, exhaust this card and remove 1 steel counter from it → give Colossus a tough status card.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "32007",
+		"name": "Made of Rage",
+		"text": "<b>Hero Interrupt</b>: When you make a basic attack, discard a tough status card from your hero → you get +6 ATK for that attack. That attack gains overkill.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "32008",
+		"name": "Steel Fist",
+		"text": "<b>Hero Action</b>: Deal 5 damage to an enemy. You may discard a tough status card from your hero to stun and confuse that enemy.",
+		"traits": "Attack. Superpower."
+	},
+	{
+		"code": "32009",
+		"name": "Bulletproof Protector",
+		"text": "<b>Hero Action</b>: Discard a tough status card from your hero → choose:\n• Give your hero 2 tough status cards.\n• Ready your hero.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "32010",
+		"name": "Armor Up",
+		"text": "<b>Alter-Ego Interrupt</b>: When the villain would activate, change to hero form.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "32011",
+		"name": "Nightcrawler",
+		"subname": "Kurt Wagner",
+		"text": "<b>Interrupt</b>: When an [[X-MEN]] character would take any amount of damage from an enemy attack, spend a [energy] resource and return Nightcrawler to your hand → prevent all of that damage.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "32012",
+		"name": "Polaris",
+		"subname": "Lorna Dane",
+		"text": "<b>Response</b>: After Polaris enters play, give an [[X-MEN]] character a tough status card.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "32013",
+		"name": "Protective Training",
+		"text": "Attach to an [[X-MEN]] ally. Max 1 [[Training]] upgrade per ally.\nAttached ally gets +3 hit points.",
+		"traits": "Training."
+	},
+	{
+		"code": "32014",
+		"name": "Powerful Punch",
+		"text": "<b>Hero Interrupt</b> <i>(attack/defense)</i>: When an enemy initiates an attack, deal 4 damage to that enemy.",
+		"traits": "Attack. Defense."
+	},
+	{
+		"code": "32017",
+		"name": "Mutant Protectors",
+		"text": "Play only if your identity has the [[X-MEN]] trait.\n<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, put an [[X-MEN]] ally into play from your hand. Exhaust it and declare it the defender for this attack.",
+		"traits": "Defense."
+	},
+	{
+		"code": "32018",
+		"name": "Defensive Energy",
+		"text": "Max 2 per deck.\n<b>Hero Interrupt</b>: When you spend this card to play a [[Defense]] event, draw 1 card."
+	},
+	{
+		"code": "32019",
+		"name": "Professor X",
+		"subname": "Charles Xavier",
+		"text": "<b>Forced Response</b>: After Professor X enters play, choose one: confuse the villain, stun a minion, or ready an [[X-MEN]] character. At the end of the round, if Professor X is still in play, discard him.",
+		"traits": "Psionic. X-Men."
+	},
+	{
+		"code": "32020",
+		"name": "The X-Jet",
+		"text": "<b>Resource</b>: Exhaust The X-Jet → generate a [wild] resource for a player whose identity has the [[X-MEN]] trait.",
+		"traits": "Vehicle. X-Men."
+	},
+	{
+		"code": "32021",
+		"name": "Shadow and Steel",
+		"text": "Team-Up (Colossus and Shadowcat).\nMax 1 per deck.\n<b>Hero Interrupt</b> <i>(attack/defense)</i>: When an enemy attacks, prevent all damage from that attack and deal 4 damage to the attacking enemy.",
+		"traits": "Attack. Defense."
+	},
+	{
+		"code": "32030a",
+		"name": "Shadowcat",
+		"text": "<i>Selective Intangibility</i> - While you are in Phased mass form, Shadowcat ignores the guard and patrol keywords, and any crisis icons ([crisis]) in play.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "32030b",
+		"name": "Kitty Pryde",
+		"text": "<b>Setup</b>: Put your mass form upgrade into play, Solid side faceup.\n<i>Phase Control</i> - <b>Action</b>: Flip your mass form upgrade. (Limit once per round.)",
+		"traits": "Mutant."
+	},
+	{
+		"code": "32031a",
+		"name": "Solid",
+		"text": "Mass form. Permanent.\n<b>Hero Resource</b>: Exhaust this card → generate a [physical] resource for an [[attack]] or [[defense]] event.\n<b>Response</b>: After you attack or defend in Solid mass form, flip this card."
+	},
+	{
+		"code": "32031b",
+		"name": "Phased",
+		"text": "Mass form. Permanent.\nWhile Shadowcat is defending, she cannot take damage.\n<b>Forced Response</b>: After you attack or defend in Phased mass form, flip this card."
+	},
+	{
+		"code": "32032",
+		"name": "Lockheed",
+		"text": "<b>Response</b>: After Lockheed enters play, if you are in:\n• Solid mass form, deal 2 damage to an enemy.\n• Phased mass form, remove 2 threat from a scheme.",
+		"traits": "Dragon. X-Men."
+	},
+	{
+		"code": "32033",
+		"name": "Kitty's Room",
+		"text": "<b>Alter-Ego Action</b>: Exhaust Kitty's Room → if you are in:\n• Solid mass form, heal 2 damage from Kitty Pryde.\n• Phased mass form, draw 1 card.",
+		"traits": "Location."
+	},
+	{
+		"code": "32034",
+		"name": "Acute Control",
+		"text": "<b>Hero Response</b>: After you ignore the guard or patrol keyword on a minion, exhaust Acute Control → deal 2 damage to that minion.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "32035",
+		"name": "Intangible Interference",
+		"text": "<b>Hero Response</b>: After you ignore the crisis icon ([crisis]) on a scheme, exhaust Intangible Interference → remove 2 threat from that scheme.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "32036",
+		"name": "Phased and Confused",
+		"text": "Hero form only. Attach to an enemy. Max 1 per enemy.\n<b>Forced Interrupt</b>: When attached enemy would attack, discard this card instead. Then, confuse that enemy.",
+		"traits": "Condition."
+	},
+	{
+		"code": "32037",
+		"name": "Shadowcat Surprise",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 3 damage to an enemy. Ready your hero.",
+		"traits": "Attack. Superpower."
+	},
+	{
+		"code": "32038",
+		"name": "Phase Strike",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. If you are in Phased mass form, you may discard an attachment with the text \"<b>Hero Action</b>\" or \"<b>Hero Response</b>\" from that enemy.",
+		"traits": "Attack. Superpower."
+	},
+	{
+		"code": "32039",
+		"name": "Airwalk",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 2 threat from a scheme (4 threat instead if you are in Phased mass form).",
+		"traits": "Superpower. Thwart."
+	},
+	{
+		"code": "32040",
+		"name": "Quick Shift",
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, if you are in:\n• Solid mass form, change to Phased mass form.\n• Phased mass form, draw 2 cards.",
+		"traits": "Defense. Superpower."
+	},
+	{
+		"code": "32041",
+		"name": "Wolverine",
+		"subname": "Logan",
+		"text": "[star] Wolverine's attacks gain piercing.\n<b>Response</b>: After your turn begins, heal 1 damage from Wolverine.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "32042",
+		"name": "Magik",
+		"subname": "Illyana Rasputin",
+		"text": "<b>Response</b>: After you play Magik from your hand, spend a [mental] resource → choose a non-[[Elite]] minion engaged with an [[X-MEN]] hero. Shuffle that minion into the encounter deck.",
+		"traits": "Mystic. X-Men."
+	},
+	{
+		"code": "32043",
+		"name": "Attack Training",
+		"text": "Attach to an [[X-MEN]] ally. Max 1 [[Training]] upgrade per ally.\nAttached ally gets +1 ATK and +2 hit points.",
+		"traits": "Training."
+	},
+	{
+		"code": "32044",
+		"name": "Gatekeeper",
+		"text": "Attach to a minion.\nAttached minion gets +2 hit points and gains patrol.\n<b>Interrupt</b>: When attached minion is defeated, remove 4 threat from the main scheme.",
+		"traits": "Condition."
+	},
+	{
+		"code": "32045",
+		"name": "Team Strike",
+		"text": "Play only if your identity has the [[X-MEN]] trait.\n<b>Hero Action</b> <i>(attack)</i>: Exhaust your hero and any number of [[X-MEN]] allies → deal X damage among enemies in play, where X is the total ATK of the characters you exhausted this way.",
+		"traits": "Attack."
+	},
+	{
+		"code": "32047",
+		"name": "Aggressive Energy",
+		"text": "Max 2 per deck.\n<b>Hero Interrupt</b>: When you spend this card to play a [[Attack]] event, that event deals 1 additional damage."
+	},
+	{
+		"code": "32048",
+		"name": "Colossus",
+		"text": "Reduce the cost to play Colossus by 1 if your identity has the [[MUTANT]] or [[X-MEN]] trait.\nToughness.",
+		"traits": "X-Men."
+	},
+	{
+		"code": "32049",
+		"name": "X-Mansion",
+		"text": "<b>Alter-Ego Action</b>: Exhaust X-Mansion → heal 1 damage from a [[MUTANT]] or [[X-MEN]] character. Any player whose alter-ego has the [[MUTANT]] trait may trigger this ability.",
+		"traits": "Location. X-Men."
+	},
+	{
+		"code": "32171a",
+		"flavor": "In the midst of the chaos, the police have confused the X-Men with the enemy.",
+		"name": "Frightened Police",
+		"text": "<b>When Defeated</b>: Shuffle the top card of the Future Past deck into the encounter deck. Flip this card and put Metro P.D. into play."
+	},
+	{
+		"code": "32171b",
+		"name": "Metro P.D.",
+		"text": "Permanent.\nThe first player controls Metro P.D.\n<b>Action</b>: Exhaust Metro P.D. → choose to either deal 1 damage to an enemy or remove 1 threat from a scheme.",
+		"traits": "Persona."
+	},
+	{
+		"code": "32172a",
+		"flavor": "Magneto also fights to protect vulnerable mutants from the Sentinels.",
+		"name": "Enemy of My Enemy",
+		"text": "<b>When Defeated</b>: Shuffle the top card of the Future Past deck into the encounter deck. Flip this card and put Magneto into play under the first player's control."
+	},
+	{
+		"code": "32172b",
+		"name": "Magneto",
+		"subname": "Erik Lehnsherr",
+		"text": "Victory 1.\nThe first player controls Magneto. He does not count against your ally limit.\n[star] <b>Response</b>: After Magneto attacks and defeats a [[SENTINEL]] minion, heal 1 damage from Magneto.",
+		"traits": "Brotherhood of Mutants."
+	},
+	{
+		"code": "32173a",
+		"name": "Find the Prisoners",
+		"text": "<b>When Revealed</b>: Each player searches their deck for an ally and places it facedown under here.\n<b>When Defeated</b>: Shuffle the top card of the Future Past deck into the encounter deck. Flip this card and reveal Rescue Captives. <i>(Keep facedown cards unduer Rescue Captives.)</i>"
+	},
+	{
+		"code": "32173b",
+		"flavor": "The mutants seized by the Sentinels have been located inside Master Mold's facility.",
+		"name": "Rescue Captives",
+		"text": "<b>Response</b>: After you defeat a [[Sentinel]] minion, spend 1 resource of any type → choose a facedown ally under this card and put it into play under your control. <i>(Any player may trigger this ability.)</i>",
+		"traits": "Mission."
+	},
+	{
+		"code": "32174a",
+		"name": "Surprise Attack",
+		"text": "<b>When Defeated</b>: Shuffle the top card of the Future Past deck into the encounter deck. The player who defeated this scheme flips this card and puts Reactivate Defenses into their play area."
+	},
+	{
+		"code": "32174b",
+		"flavor": "The Brotherhood's surprise attack caught you off-guard, but if you can activate the X-Mansion's defense systems, you can turn the tide of battle.",
+		"name": "Reactive Defense",
+		"text": "<b>Alter-Ego Action</b>: Spend [energy] [mental] [physical] resources → deal 5 damage to each enemy in play. Remove this card from the game."
+	},
+	{
+		"code": "32175a",
+		"flavor": "Magneto has fortified his asteroid sanctuary in anticipation of your assault.",
+		"name": "Magneto's Fortress",
+		"text": "<b>When Defeated</b>: Shuffle the top card of the Future Past deck into the encounter deck. Flip this card."
+	},
+	{
+		"code": "32175b",
+		"flavor": "\"Mine is the power to destroy. And to reshape the world in my image!\" —Magneto",
+		"name": "Magneto's Power",
+		"text": "Attach to Magneto.\nPermanent.",
+		"traits": "Condition."
+	},
+	{
+		"code": "32176",
+		"flavor": "\"Tally-ho!\" —Nightcrawler",
+		"name": "Coup de Grâce",
+		"text": "<b>Hero Interrupt</b>: When you attack, this attack deals 3 additional damage and gains overkill. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32177",
+		"flavor": "\"Go ahead, bub. Make our day!\" —Wolverine",
+		"name": "Swagger",
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When you make a basic defense, you get +3 DEF. Ready your hero. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32178",
+		"name": "Brazen Defense",
+		"text": "<b>Hero Interrupt</b> <i>(attack/defense)</i>: When an enemy attacks, spend 1 resource of any type → prevent 3 damage from this attack and deal 3 damage to that enemy. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32179",
+		"name": "Ferocious Attack",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Spend 3 resources of any type → deal 6 damage to an enemy and ready your hero. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32180",
+		"flavor": "\"Rrrrrrraaaaargh!\" —Wolverine",
+		"name": "War Cry",
+		"text": "<b>Hero Resource</b>: Generate [wild][wild] resources for an [[Attack]] or [[Defense]] event. Gain a tough status card. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32181",
+		"flavor": "\"Tally-ho!\" —Nightcrawler",
+		"name": "Coup de Grâce",
+		"text": "<b>Hero Interrupt</b>: When you attack, this attack deals 3 additional damage and gains overkill. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32182",
+		"flavor": "\"We've all been there, son.\" —Cyclops",
+		"name": "Compassion",
+		"text": "<b>Alter-Ego Response</b>: After you recover, heal 3 damage from among characters you control and draw 1 card. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32183",
+		"name": "Group Assault",
+		"text": "<b>Hero Action</b>: Until the end of the phase, prevent all consequential damage each ally would take from attacking. Remove this card from the game and the campaign pool.",
+		"traits": "Skill. Tactic."
+	},
+	{
+		"code": "32184",
+		"name": "Shock and Awe",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Spend 3 resources of any type → deal 6 damage to an enemy and ready each ally you control. Remove this card from the game and the campaign pool.",
+		"traits": "Skill. Tactic."
+	},
+	{
+		"code": "32185",
+		"name": "Improvisation",
+		"text": "<b>Hero Resource</b>: Generate [wild][wild] resources for an [[Attack]] or [[Tactic]] event. Ready an ally and heal 2 damage from it. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32186",
+		"flavor": "\"Go ahead, bub. Make our day!\" —Wolverine",
+		"name": "Swagger",
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When you make a basic defense, you get +3 DEF. Ready your hero. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32187",
+		"flavor": "\"Guten Tag!\" —Nightcrawler",
+		"name": "Surprise!",
+		"text": "<b>Hero Reponse</b>: After you thwart, remove 3 threat from among schemes in play. Confuse an enemy. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32188",
+		"name": "Heroic Intervention",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Spend 3 resources of any type → remove 5 threat from among schemes in play. You gain a tough status card. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32189",
+		"name": "Determined Defense",
+		"text": "<b>Hero Interrupt</b> <i>(defense/thwart)</i>: When you defend against an attack, spend 2 resources of any type → that attack removes threat from the main scheme instead of dealing damage. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32190",
+		"flavor": "\"Back off.\" —Cyclops",
+		"name": "Bodyguard",
+		"text": "<b>Hero Resource</b>: Generate [wild][wild] resources for a [[Defense]] or [[Thwart]] event. Draw 1 card. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32191",
+		"flavor": "\"Guten Tag!\" —Nightcrawler",
+		"name": "Surprise!",
+		"text": "<b>Hero Reponse</b>: After you thwart, remove 3 threat from among schemes in play. Confuse an enemy. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32192",
+		"flavor": "\"We've all been there, son.\" —Cyclops",
+		"name": "Compassion",
+		"text": "<b>Alter-Ego Response</b>: After you recover, heal 3 damage from among characters you control and draw 1 card. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	},
+	{
+		"code": "32193",
+		"name": "Rescue Operation",
+		"text": "<b>Hero Action</b>: Until the end of the phase, prevent all consequential damage each ally would take from thwarting. Remove this card from the game and the campaign pool.",
+		"traits": "Skill. Tactic."
+	},
+	{
+		"code": "32194",
+		"name": "Mentorship",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Spend 3 resources of any type → remove 5 threat from among schemes in play. Ready each ally you control. Remove this card from the game and the campaign pool.",
+		"traits": "Skill. Tactic."
+	},
+	{
+		"code": "32195",
+		"flavor": "\"Bozhe moi!\" —Colossus",
+		"name": "Fortitude",
+		"text": "<b>Hero Resource</b>: Generate [wild][wild] resources for a [[Tactic]] or [[Thwart]] event. Stun an enemy. Remove this card from the game and the campaign pool.",
+		"traits": "Skill."
+	}
+]

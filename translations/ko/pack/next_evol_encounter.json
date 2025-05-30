@@ -1,0 +1,908 @@
+[
+	{
+		"code": "40031",
+		"name": "Technovirus Resurgence",
+		"text": "<b><i>Give to the Nathan Summers player.</i></b>\n<b>When Revealed</b>: Search your deck, discard pile, hand, and victory display for Technovirus Purge and put it into play. <i>(Shuffle.)</i> Attach this card to Technovirus Purge. If you cannot, discard this card and deal yourself 1 facedown encounter card."
+	},
+	{
+		"code": "40032",
+		"flavor": "\"Regardless of who is the clone, Cable, it is my power that is superior!\"",
+		"name": "Stryfe",
+		"text": "Villainous.\n<b>Forced Interrupt</b>: When a player plays a [[PSIONIC]] event, cancel the effects of that event and deal 1 damage to Stryfe.",
+		"traits": "Mutant Liberation Front. Psionic."
+	},
+	{
+		"code": "40033",
+		"name": "Back to the Future",
+		"text": "The Cable player cannot remove threat from schemes other than Back to the Future. Other players cannot remove threat from Back to the Future.\nThe Cable player cannot damage enemies not engaged with them. Other players cannot damage minions engaged with the Cable player."
+	},
+	{
+		"code": "40034",
+		"name": "Telekinetic Force Field",
+		"text": "Attach to Stryfe. Otherwise, attach to the villain.\n<b>Forced Interrupt</b>: When attached character would take any amount of damage, prevent that damage. If 2 or more damage was prevented this way, discard this card.\n<hr />\n[star] <b>Boost</b>: Attach this card to the activating enemy.",
+		"traits": "Psionic."
+	},
+	{
+		"code": "40035",
+		"name": "Mind Scan",
+		"text": "<b>When Revealed</b>: Place 2 threat on the main scheme. Place 1 additional threat on the main scheme for each side scheme in the victory display.\n<hr />\n[star] <b>Boost</b>: You are confused.",
+		"traits": "Psionic."
+	},
+	{
+		"code": "40036",
+		"name": "Telekinetic Blast",
+		"text": "<b>When Revealed</b>: Take 2 damage. Take 1 additional damage for each side scheme in the victory display.\n<hr />\n[star] <b>Boost</b>: You are stunned.",
+		"traits": "Psionic."
+	},
+	{
+		"code": "40065",
+		"flavor": "As a child, Neena was used as a lab rat in the super-soldier program known as Project Armageddon.",
+		"name": "Memories of Armageddon",
+		"text": "<b><i>Give to the Neena Thurman player.</i></b>\nTreat your identity's printed text box as if it were blank <i>(except for [[TRAITS]])</i>.\n<b>Alter-Ego Action</b>: Exhaust your identity → discard Memories of Armageddon."
+	},
+	{
+		"code": "40066",
+		"flavor": "Topaz is able to affect other mutants' abilities, either amplifying them or nullifying them.",
+		"name": "Topaz",
+		"text": "<b>When Revealed</b>: Search the encounter deck, discard pile, and set aside area for 1 copy of Superpower Feedback and attach it to your identity. <i>(Shuffle.)</i>\n<i>(Domino's nemesis minion.)</i>",
+		"traits": "Mutant."
+	},
+	{
+		"code": "40067",
+		"flavor": "Domino is having a terrible, horrible, no good, very bad day.",
+		"name": "Not My Lucky Day",
+		"text": "<b>When Revealed</b>: Each player must either take 1 damage or place 2 threat here."
+	},
+	{
+		"code": "40068",
+		"flavor": "Domino's good luck is Prototype's misfortune, and her suffering strengthens him.",
+		"name": "Prototype",
+		"text": "[star] Prototype gets +1 hit points for each luck counter on him.\n<b>When Revealed</b>: Place luck counters on Prototype equal to the amount of damage your identity has sustained.",
+		"traits": "Mutant."
+	},
+	{
+		"code": "40069",
+		"name": "Superpower Feedback",
+		"text": "Attach to your identity.\n<b>Forced Response</b>: After you resolve an ability on your identity or an identity-specific card, take 1 damage.\n<b>Alter-Ego Action</b>: Discard 1 identity-specific card from your hand → discard this card.",
+		"traits": "Condition."
+	},
+	{
+		"code": "40070a",
+		"name": "Arclight",
+		"text": "[star] <b>Forced Interrupt</b>: When Arclight attacks you or an ally you control, choose:\n• Confuse a character you control.\n• Arclight gets +2 ATK for this attack.",
+		"traits": "Brute. Marauder."
+	},
+	{
+		"code": "40070b",
+		"name": "Arclight",
+		"text": "[star] <b>Forced Interrupt</b>: When Arclight attacks you or an ally you control, choose:\n• Confuse the character you control with the highest THW.\n• Arclight gets +2 ATK for this attack.",
+		"traits": "Brute. Marauder."
+	},
+	{
+		"code": "40071a",
+		"name": "Blockbuster",
+		"text": "[star] <b>Forced Interrupt</b>: When Blockbuster attacks you or an ally you control, choose:\n• Give Blockbuster a tough status card.\n• Blockbuster gets +2 ATK for this attack.",
+		"traits": "Brute. Marauder."
+	},
+	{
+		"code": "40071b",
+		"name": "Blockbuster",
+		"text": "[star] <b>Forced Interrupt</b>: When Blockbuster attacks you or an ally you control, choose:\n• Give Blockbuster a tough status card.\n• Blockbuster gets +2 ATK for this attack and this attack gains overkill.",
+		"traits": "Brute. Marauder."
+	},
+	{
+		"code": "40072a",
+		"name": "Chimera",
+		"text": "[star] <b>Forced Interrupt</b>: When Chimera attacks you or an ally you control, choose:\n• Spend a [mental] resource.\n• Chimera gets +2 ATK for this attack.",
+		"traits": "Marauder. Psionic."
+	},
+	{
+		"code": "40072b",
+		"name": "Chimera",
+		"text": "[star] <b>Forced Interrupt</b>: When Chimera attacks you or an ally you control, choose:\n• Spend [mental][mental] resources.\n• Chimera gets +2 ATK for this attack.",
+		"traits": "Marauder. Psionic."
+	},
+	{
+		"code": "40073a",
+		"name": "Greycrow",
+		"text": "[star] <b>Forced Interrupt</b>: When Greycrow attacks you or an ally you control, choose:\n• Discard the highest-cost card you control.\n• Greycrow gets +X ATK for this attack, where X is the printed cost of the highest-cost card you control.",
+		"traits": "Marauder. Mercenary."
+	},
+	{
+		"code": "40073b",
+		"name": "Greycrow",
+		"text": "[star] <b>Forced Interrupt</b>: When Greycrow attacks you or an ally you control, choose:\n• Discard each card you control with the highest cost.\n• Greycrow gets +X ATK for this attack, where X is the printed cost of the highest-cost card you control.",
+		"traits": "Marauder. Mercenary."
+	},
+	{
+		"code": "40074a",
+		"name": "Harpoon",
+		"text": "[star] <b>Forced Interrupt</b>: When Harpoon attacks you or an ally you control, choose:\n• Take 2 indirect damage.\n• Give Harpoon 1 additional facedown boost card for this attack.",
+		"traits": "Brute. Marauder."
+	},
+	{
+		"code": "40074b",
+		"name": "Harpoon",
+		"text": "[star] <b>Forced Interrupt</b>: When Harpoon attacks you or an ally you control, choose:\n• Take 3 indirect damage.\n• Give Harpoon 1 additional facedown boost card for this attack. This attack gains overkill.",
+		"traits": "Brute. Marauder."
+	},
+	{
+		"code": "40075a",
+		"name": "Riptide",
+		"text": "[star] <b>Forced Interrupt</b>: When Riptide attacks you or an ally you control, choose:\n• Place 2 threat on the main scheme and 1 threat on each side scheme.\n• Riptide gets +2 ATK for this attack.",
+		"traits": "Assassin. Marauder."
+	},
+	{
+		"code": "40075b",
+		"name": "Riptide",
+		"text": "[star] <b>Forced Interrupt</b>: When Riptide attacks you or an ally you control, choose:\n• Place 3 threat on the main scheme and 1 threat on each side scheme.\n• Riptide gets +2 ATK for this attack and this attack gains ranged and piercing.",
+		"traits": "Assassin. Marauder."
+	},
+	{
+		"code": "40076a",
+		"name": "Vertigo",
+		"text": "[star] <b>Forced Interrupt</b>: When Vertigo attacks you or an ally you control, choose:\n• Stun a character you control.\n• Vertigo gets +2 ATK for this attack.",
+		"traits": "Marauder. Mutate."
+	},
+	{
+		"code": "40076b",
+		"name": "Vertigo",
+		"text": "[star] <b>Forced Interrupt</b>: When Vertigo attacks you or an ally you control, choose:\n• Stun the character you control with the highest ATK.\n• Vertigo gets +2 ATK for this attack.",
+		"traits": "Marauder. Mutate."
+	},
+	{
+		"code": "40077a",
+		"name": "Knock, Knock",
+		"text": "<b>Contents</b>: Marauders on side A <i>(side B for expert mode)</i>. Morlock Siege and Standard encounter sets. Two modular encounter sets <i>(Military Grade and Mutant Slayers)</i>.\n<b>Setup</b>: Put the Routed environment into play. Set the Hide! treachery and each Morlock ally aside. Shuffle the villains together <i>(without looking)</i> to create the villain deck. The top card of this deck is in play."
+	},
+	{
+		"code": "40077b",
+		"name": "Knock, Knock",
+		"text": "[star] <b>Forced Response</b>: After resolving step one of the villain phase, place 1 knock counter here. If there are at least 3 knock counters here, advance to stage 2A.\n<b>If there are 3 villains under Routed, the players win the game.</b>"
+	},
+	{
+		"code": "40078a",
+		"name": "Mutant Massacre",
+		"text": "<b>When Revealed</b>: Each player puts 1 set-aside Morlock ally into play under their control (2 set-aside Morlock allies instead if this is a single-player game). Shuffle the Hide! treachery into the encounter deck. If the previous stage was advanced by knock counters, give each Morlock ally a tough status card."
+	},
+	{
+		"code": "40078b",
+		"name": "Mutant Massacre",
+		"text": "<b>Action</b>: Exhaust a [[MORLOCK]] ally → shuffle Hide! from the encounter discard pile into the encounter deck.\n<b>If there are 3 villains under Routed, the players win the game.\nIf this stage is completed or there are no Morlock allies in play, the players lose the game.</b>"
+	},
+	{
+		"code": "40079",
+		"name": "Morlock",
+		"text": "Victory -1.\nDoes not count against your ally limit. Card abilities cannot remove this ally from play.\n<b>Forced Interrupt</b>: When an enemy attacks you, it attacks a Morlock you control instead.",
+		"traits": "Morlock. Mutant."
+	},
+	{
+		"code": "40080",
+		"name": "Hide!",
+		"text": "Surge.\n<b>When Revealed</b>: Give 1 [[MORLOCK]] ally a tough status card.\n<hr />\n[star] <b>Boost</b>: Give 1 [[MORLOCK]] ally a tough status card. Give the villain 1 additional boost card for this activation."
+	},
+	{
+		"code": "40081a",
+		"name": "Routed",
+		"text": "<b>Standard Mode Only.</b>\nCards under here are not in play.\n<b>Forced Response</b>: After the villain is defeated, put it under here. Discard each minion that shares a title with the top villain of the villain deck. <i>(That villain is in play.)</i> The villain activates against each player in player order."
+	},
+	{
+		"code": "40081b",
+		"name": "Routed",
+		"text": "<b>Expert Mode Only.</b>\nCards under here are not in play. The villain gains retaliate 1 for each card under here.\n<b>Forced Response</b>: After the villain is defeated, put it under here. Discard each minion that shares a title with the top villain of the villain deck. <i>(That villain is in play.)</i> The villain activates against each player in player order."
+	},
+	{
+		"code": "40082",
+		"name": "Bolstered by Wrath",
+		"text": "Attach to the villain.\n<b>Hero Action</b>: Exhaust a character you control and spend X resources of any type, where X is the number of villains under Routed → discard this card.\n<hr />\n[star] <b>Boost</b>: This card gets +X boost icons ([boost]), where X is the number of villains under Routed.",
+		"traits": "Condition."
+	},
+	{
+		"code": "40083",
+		"name": "Pushed to the Limit",
+		"text": "Attach to the villain.\nWhile there is exactly 1 villain under Routed, attached villain gains steady.\nWhile there are exactly 2 villains under Routed, attached villain gains stalwart.\n<b>Hero Action</b>: Attached villain attacks you → discard this card.",
+		"traits": "Condition."
+	},
+	{
+		"code": "40084",
+		"name": "By Any Means",
+		"text": "<b>When Revealed</b>: Place 1[per_hero] additional threat here for each villain under Routed."
+	},
+	{
+		"code": "40085",
+		"name": "In the Midst of Chaos",
+		"text": "<b>When Revealed</b>: Place 1[per_hero] additional threat here for each villain under Routed."
+	},
+	{
+		"code": "40086",
+		"name": "Maraudin' Ain't Easy",
+		"text": "<b>When Revealed</b>: Place 1[per_hero] additional threat here for each villain under Routed."
+	},
+	{
+		"code": "40087",
+		"name": "Territorial Control",
+		"text": "Assault. <i>(Basic thwarts against this scheme use ATK instead of THW.)</i>\n<b>When Revealed</b>: Place 1[per_hero] additional threat here for each villain under Routed."
+	},
+	{
+		"code": "40088",
+		"name": "Back in Action",
+		"text": "<b>When Revealed</b>: Give the villain a tough status card. Place threat on the main scheme equal to the number of villains under Routed.\n<hr />\n[star] <b>Boost</b>: If you control a Morlock ally, choose to either deal 1 damage to it or spend 1 resource of any type."
+	},
+	{
+		"code": "40089",
+		"name": "Seek the Weak",
+		"text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: The villain attacks you. If there is at least 1 villain under Routed, this attack gains overkill.\n<hr />\n[star] <b>Boost</b>: If this activation is an attack, it gains overkill."
+	},
+	{
+		"code": "40090",
+		"name": "Heavy Armament",
+		"text": "Attach to the enemy with the highest ATK.\nAttached enemy gains retaliate 2.\n<b>Hero Response</b>: After you attack the attached enemy, spend 2 resources of the same type → discard this card.",
+		"traits": "Weapon."
+	},
+	{
+		"code": "40091",
+		"name": "Titanium Exoskeleton",
+		"text": "Attach to the enemy with the fewest remaining hit points.\nAttached enemy cannot take more than 2 damage from a single attack.\n<b>Hero Action</b>: Choose to either spend 3 resources of any type or remove a confused or stunned status card from attached enemy → discard this card.",
+		"traits": "Armor. Tech."
+	},
+	{
+		"code": "40092",
+		"name": "Inhibitor Collar",
+		"text": "Attach to your identity.\nTreat your identity's printed text box as if it were blank <i>(except for traits)</i>.\n<b>Action</b>: Choose to either exhaust a character you control or take 3 damage → discard this card. Any player can do this.",
+		"traits": "Tech."
+	},
+	{
+		"code": "40093",
+		"flavor": "This kind of hardware isn't found on the black market. Someone high up in the U. S. government must be supplying it.",
+		"name": "The Senator's Support",
+		"text": "Hinder 1[per_hero].\n<b>When Defeated</b>: The first player discard cards from the top of the encounter deck until an attachment is discarded and reveals that card."
+	},
+	{
+		"code": "40094",
+		"name": "Arclight",
+		"text": "Retaliate 1.\n[star] <b>Forced Interrupt</b>: When Arclight attacks you or an ally you control, choose:\n• Confuse a character you control.\n• Arclight gets +2 ATK for this attack.",
+		"traits": "Brute. Marauder."
+	},
+	{
+		"code": "40095",
+		"name": "Blockbuster",
+		"text": "Guard.\n[star] <b>Forced Interrupt</b>: When Blockbuster attacks you or an ally you control, choose:\n• Give Blockbuster a tough status card.\n• Blockbuster gets +2 ATK for this attack.",
+		"traits": "Brute. Marauder."
+	},
+	{
+		"code": "40096",
+		"name": "Chimera",
+		"text": "Patrol.\n[star] <b>Forced Interrupt</b>: When Chimera attacks you or an ally you control, choose:\n• Spend a [mental] resource.\n• Chimera gets +2 ATK for this attack.",
+		"traits": "Marauder. Psionic."
+	},
+	{
+		"code": "40097",
+		"name": "Greycrow",
+		"text": "Retaliate 1.\n[star] <b>Forced Interrupt</b>: When Greycrow attacks you or an ally you control, choose:\n• Discard the highest-cost card you control.\n• Greycrow gets +X ATK for this attack, where X is the printed cost of the highest-cost card you control.",
+		"traits": "Marauder. Mercenary."
+	},
+	{
+		"code": "40098",
+		"name": "Harpoon",
+		"text": "Guard.\n[star] <b>Forced Interrupt</b>: When Harpoon attacks you or an ally you control, choose:\n• Take 2 indirect damage.\n• Harpoon gets +2 ATK for this attack and this attack gains piercing.",
+		"traits": "Brute. Marauder."
+	},
+	{
+		"code": "40099",
+		"name": "Riptide",
+		"text": "Patrol.\n[star] <b>Forced Interrupt</b>: When Riptide attacks you or an ally you control, choose:\n• Place 2 threat on the main scheme and 1 threat on each side scheme.\n• Riptide gets +2 ATK for this attack.",
+		"traits": "Assassin. Marauder."
+	},
+	{
+		"code": "40100",
+		"name": "Vertigo",
+		"text": "Guard.\n[star] <b>Forced Interrupt</b>: When Vertigo attacks you or an ally you control, choose:\n• Stun a character you control.\n• Vertigo gets +2 ATK for this attack.",
+		"traits": "Marauder. Mutate."
+	},
+	{
+		"code": "40101",
+		"name": "Mutant Slayers",
+		"text": "Each [[MARAUDER]] minion gains quickstrike.\n<b>When Revealed</b>: Place 1 additional threat here for each character in play with 1 or more of the following traits: [[MUTANT]], [[X-FACTOR]], [[X-FORCE]], or [[X-MEN]]."
+	},
+	{
+		"code": "40102",
+		"name": "Bound by Business",
+		"text": "<b>When Revealed</b>: Discard cards from the encounter deck until a [[MARAUDER]] minion that does not share a title with a card in play is discarded. Put that minion into play engaged with you."
+	},
+	{
+		"code": "40103a",
+		"name": "Gotta Get Away",
+		"text": "<b>Contents</b>: Marauders on side A <i>(side B for expert mode)</i>. On the Run, Mutant Slayers, and Standard encounter sets. Two modular encounter sets <i>(Military Grade and Nasty Boys)</i>.\n<b>Setup</b>: Put 1 random [[MARAUDER]] villain into play. Remove the minion with the same title as the villain, along with each other villain, from the game. Attach the Hope's Captor attachment to the villain, [[CONFIDENT]] side up."
+	},
+	{
+		"code": "40103b",
+		"name": "Gotta Get Away",
+		"text": "Each [[MARAUDER]] minion gains steady.\n<b>When Revealed</b>: Each player searches the encounter deck for a [[MARAUDER]] minion and puts it into play engaged with them. <i>(Shuffle.)</i>\n<b>If this stage is completed, the players lose the game.</b>"
+	},
+	{
+		"code": "40104a",
+		"flavor": "Having taken a pounding, the Marauders redouble their efforts to escape with their captive.",
+		"name": "Escaping with Hope",
+		"text": "<b>When Revealed</b>: Each player searches the encounter deck and discard pile for a [[MARAUDER]] minion and puts that minion into play engaged with them. <i>(Shuffle.)</i> Give each [[MARAUDER]] enemy a tough status card."
+	},
+	{
+		"code": "40104b",
+		"name": "Escaping with Hope",
+		"text": "Each [[MARAUDER]] minion gains guard and steady. In expert mode, the villain gains steady.\n<b>If the villain is defeated, the players win the game.</b>\n<b>If this stage is completed, the players lose the game.</b>"
+	},
+	{
+		"code": "40105a",
+		"name": "Hope's Captor",
+		"text": "Permanent.\n[star] <b>Forced Interrupt</b>: When the villain would attack you, if a [[MARAUDER]] minion is engaged with you, the villain schemes instead.\n<b>Forced Interrupt</b>: When the villain would be defeated, reset attached villain's hit points to its printed hit point value instead. Flip this card and reveal it.",
+		"traits": "Confident."
+	},
+	{
+		"code": "40105b",
+		"name": "Hope's Captor",
+		"text": "Permanent.\nThe villain gets +6[per_hero] hit points.\n<b>When Revealed</b>: Advance the main scheme to stage 2A. This effect cannot be canceled.\n[star] <b>Forced Interrupt</b>: When the villain would attack you, if a [[MARAUDER]] minion is engaged with you, the villain schemes instead.",
+		"traits": "Desperate."
+	},
+	{
+		"code": "40106",
+		"name": "Hidden in the Clutter",
+		"text": "Attach to the enemy with the fewest remaining hit points.\n<b>Forced Interrupt</b>: When any amount of damage would be dealt to attached enemy, place it here instead. If there is at least 3 damage here, attached enemy attacks the player who dealt the damage just placed here. Then, discard this card.",
+		"traits": "Condition."
+	},
+	{
+		"code": "40107",
+		"name": "Favored Weapon",
+		"text": "Attach to Greycrow or Harpoon. Otherwise, attach to the [[MARAUDER]] enemy with the lowest ATK.\n[star] Attached enemy's attacks gain overkill, piercing, and ranged.\n<b>Hero Response</b>: After your hero defends against an attack from attached enemy and takes no damage → discard this card.",
+		"traits": "Weapon."
+	},
+	{
+		"code": "40108",
+		"name": "Bushwhack",
+		"text": "<b>When Defeated</b>: The player who defeated this scheme searches the encounter deck and discard pile for a [[MARAUDER]] minion and puts that minion into play engaged with them. <i>(Shuffle.)</i>"
+	},
+	{
+		"code": "40109",
+		"name": "Pure Force",
+		"text": "While Blockbuster is in play, this scheme gains the crisis icon ([crisis]).\nWhile Chimera is in play, this scheme gains the amplify icon ([amplify])."
+	},
+	{
+		"code": "40110",
+		"name": "Dizzying Deeds",
+		"text": "<b>When Revealed</b>: Exhaust a character you control. If the following enemies are in play:\n• Arclight — Stun a character you control.\n• Riptide — Take 3 indirect damage.\n• Vertigo — Confuse a character you control."
+	},
+	{
+		"code": "40111",
+		"name": "Tag Team",
+		"text": "<b>When Revealed</b>: Choose:\n• Each [[MARAUDER]] minion engaged with you activates against you.\n• Discard 7 cards from the top of the encounter deck. Put the topmost [[MARAUDER]] minion in the encounter discard pile into play engaged with you."
+	},
+	{
+		"code": "40112",
+		"name": "Gorgeous George",
+		"text": "Teamwork ([[NASTY BOY]]).\n[star] <b>Forced Interrupt</b>: When Gorgeous George attacks you, exhaust a character you control.\n<hr />\n[star] <b>Boost</b>: Exhaust a character you control.",
+		"traits": "Nasty Boy."
+	},
+	{
+		"code": "40113",
+		"name": "Hairbag",
+		"text": "Surge. Teamwork ([[NASTY BOY]]).\n<hr />\n[star] <b>Boost</b>: After this activation, shuffle Hairbag into the encounter deck.",
+		"traits": "Nasty Boy."
+	},
+	{
+		"code": "40114",
+		"name": "Ramrod",
+		"text": "Retaliate 1. Teamwork ([[NASTY BOY]]).\n[star] Ramrod's attacks gain piercing.\n<hr />\n[star] <b>Boost</b>: If the villain is attacking, this attack gains piercing.",
+		"traits": "Nasty Boy."
+	},
+	{
+		"code": "40115",
+		"name": "Ruckus",
+		"text": "Teamwork ([[NASTY BOY]]).\n<b>When Revealed</b>: Stun each character you control.\n<hr />\n[star] <b>Boost</b>: You are stunned.",
+		"traits": "Nasty Boy."
+	},
+	{
+		"code": "40116",
+		"name": "Slab",
+		"text": "Teamwork ([[NASTY BOY]]). Toughness.\n[star] <b>Forced Interrupt</b>: When Slab attacks, place 1 growth counter on him. Slab gets +1 ATK for each growth counter on him for this attack.",
+		"traits": "Nasty Boy."
+	},
+	{
+		"code": "40117",
+		"name": "Get Nasty",
+		"text": "Each minion gets +1 ATK.\n<b>When Revealed</b>: Place 1 threat here for each minion in play (2 threat instead for each [[NASTY BOY]]). Search the encounter deck and discard pile for a [[NASTY BOY]] minion and reveal it. <i>(Shuffle.)</i>"
+	},
+	{
+		"code": "40118",
+		"flavor": "\"Ain't nothin'—ain't nobody—can beat me!\"",
+		"name": "Juggernaut",
+		"text": "[star] Juggernaut gets +1 ATK for each momentum counter here.\n<b>When Revealed</b>: Place 1 momentum counter here. Give Juggernaut a tough status card.",
+		"traits": "Brute."
+	},
+	{
+		"code": "40119",
+		"name": "Juggernaut",
+		"text": "[star] Juggernaut gets +1 ATK for each momentum counter here.\n<b>When Revealed</b>: Place 1 momentum counter here. If Juggernaut Exposed is in play, flip it. Otherwise, give Juggernaut a tough status card.",
+		"traits": "Brute."
+	},
+	{
+		"code": "40120",
+		"name": "Juggernaut",
+		"text": "[star] Juggernaut gets +1 ATK for each momentum counter here.\n<b>When Revealed</b>: Search the encounter deck and discard pile for Head of Steam and reveal it. <i>(Shuffle.)</i> If Juggernaut Exposed is in play, flip it. Otherwise, give Juggernaut a tough status card.",
+		"traits": "Brute."
+	},
+	{
+		"code": "40121a",
+		"name": "The Unstoppable Juggernaut",
+		"text": "<b>Contents</b>: Juggernaut (I) and Juggernaut (II) <i>(Juggernaut (II) and Juggernaut (III) instead for expert mode)</i>. Juggernaut, Hope Summers, and Standard encounter sets. One modular encounter set <i>(Black Tom Cassidy)</i>.\n<b>Setup</b>: Attach Juggernaut's Helmet to Juggernaut. Put Home Summers into play under the first player's control."
+	},
+	{
+		"code": "40121b",
+		"name": "The Unstoppable Juggernaut",
+		"text": "[star] <b>Forced Interrupt</b>: When this scheme would be completed, instead do each of the following:\n1. Remove all threat from here.\n2. If Juggernaut Exposed is in play, flip it.\n3. Place 1 momentum counter on Juggernaut.\n4. Juggernaut attacks each player in player order <i>(even if they are in alter-ego form)</i>."
+	},
+	{
+		"code": "40122a",
+		"name": "Juggernaut's Helmet",
+		"text": "Permanent. Attach to Juggernaut.\nJuggernaut gains stalwart and his attacks gain overkill.\n<b>Hero Action</b>: Spend 3 resources of the same type → remove each momentum counter from Juggernaut. Flip this card.",
+		"traits": "Armor."
+	},
+	{
+		"code": "40122b",
+		"name": "Juggernaut Exposed",
+		"text": "Permanent. Attach to Juggernaut.\nJuggernaut takes 1 additional damage from each card with a printed [mental] resource.\n[star] <b>Forced Response</b>: After Juggernaut schemes, place 1 momentum counter on Juggernaut. Flip this card."
+	},
+	{
+		"code": "40123",
+		"name": "Head of Steam",
+		"text": "Juggernaut gains retaliate X, where X is the number of momentum counters on Juggernaut.\n<b>When Revealed</b>: Attach Head of Steam to Juggernaut and place 1 momentum counter on him.\n<b>Hero Response</b>: After Juggernaut attacks you, spend 1 resource for each damage dealt by that attack → discard this card."
+	},
+	{
+		"code": "40124",
+		"name": "Building Momentum",
+		"text": "<b>Hero Response</b>: After you defend against an attack from Juggernaut, remove 1 threat from this scheme."
+	},
+	{
+		"code": "40125",
+		"flavor": "\"Oh, yeah!\" —Juggernaut",
+		"name": "Breakthrough",
+		"text": "<b>When Revealed</b>: Choose:\n• Take damage equal to Juggernaut's ATK.\n• Discard the highest-cost upgrade or support you control."
+	},
+	{
+		"code": "40126",
+		"name": "Flatten",
+		"text": "<b>When Revealed</b>: Choose to either take damage equal to Juggernaut's ATK or place 1 momentum counter on him.\n<hr />\n[star] <b>Boost</b>: Give Juggernaut a tough status card."
+	},
+	{
+		"code": "40127",
+		"name": "Ground Pound",
+		"text": "<b>When Revealed</b>: The players as a group take indirect damage equal to Juggernaut's ATK.\n<hr />\n[star] <b>Boost</b>: Take 1 indirect damage."
+	},
+	{
+		"code": "40128",
+		"name": "Trample",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Take 2 indirect damage.\n<b>When Revealed (Hero)</b>: Juggernaut attacks the ally with the fewest remaining hit points.\n<hr />\n[star] <b>Boost</b>: Deal 1 damage to an ally you control."
+	},
+	{
+		"code": "40129",
+		"name": "Cyttorak's Exemplar",
+		"text": "In expert mode, this card gains incite 1.\n<b>When Revealed</b>: If Juggernaut Exposed is in play, flip it and place 1 momentum counter on Juggernaut. Otherwise, place threat on the main scheme equal to Juggernaut's ATK."
+	},
+	{
+		"code": "40130",
+		"name": "Hope Summers",
+		"text": "Setup. The first player controls Hope Summers. Hope Summers does not count against your ally limit.\n[star] Hope Summer's base THW and base ATK are equal to the THW and ATK of your hero.\n<b>If Hope Summers leaves play, the players lose the game.</b>",
+		"traits": "Psionic. X-Force. X-Men."
+	},
+	{
+		"code": "40131",
+		"flavor": "\"Alright, alright. I know the deal,\" Hope grumbles to her captor. \"This isn't my first time being captured, you know.\"",
+		"name": "Captive Hope",
+		"text": "Hope Summers cannot ready.\n<b>When Revealed</b>: Exhaust Hope Summers."
+	},
+	{
+		"code": "40132",
+		"name": "Black Tom Cassidy",
+		"text": "Villainous.\nBlack Tom Cassidy cannot take damage while Creeping Willow is in play.\n<b>When Revealed</b>: Search the encounter deck and discard pile for 1 copy of Creeping Willow and put it into play engaged with you. <i>(Shuffle.)</i>",
+		"traits": "Criminal. Elite."
+	},
+	{
+		"code": "40133",
+		"name": "Creeping Willow",
+		"text": "Guard. Quickstrike.\n[star] <b>Forced Response</b>: After Creeping Willow attacks and damages a character, stun that character.\n<hr />\n[star] <b>Boost</b>: You are stunned.",
+		"traits": "Wood."
+	},
+	{
+		"code": "40134",
+		"name": "Making Green",
+		"text": "Hinder 2[per_hero].\nEach copy of Creeping Willow gains surge."
+	},
+	{
+		"code": "40135",
+		"name": "A Sound Thrashing",
+		"text": "<b>When Revealed</b>: Each copy of Creeping Willow attacks the player it is engaged with <i>(even if that player is in alter-ego form)</i>. If you were not attacked this way, search the encounter deck and discard pile for a copy of Creeping Willow and reveal it. <i>(Shuffle.)</i>"
+	},
+	{
+		"code": "40136",
+		"flavor": "\"Visionary, savior, madman. It doesn't matter. I am SINISTER.\"",
+		"name": "Mister Sinister",
+		"text": "<b>Forced Response</b>: After a status card is placed on Mister Sinister, place 1 threat on the main scheme.",
+		"traits": "Genius."
+	},
+	{
+		"code": "40137",
+		"name": "Mister Sinister",
+		"text": "<b>When Revealed</b>: Place 1[per_hero] threat on the main scheme (2[per_hero] threat instead if Mister Sinister has fewer than 2 [[SUPERPOWER]] attachments).\n<b>Forced Response</b>: After a status card is placed on Mister Sinister, place 2 threat on the main scheme.",
+		"traits": "Genius."
+	},
+	{
+		"code": "40138",
+		"name": "Mister Sinister",
+		"text": "<b>When Revealed</b>: Place 2[per_hero] threat on the main scheme (3[per_hero] threat instead if Mister Sinister has fewer than 2 [[SUPERPOWER]] attachments).\n<b>Forced Response</b>: After a status card is placed on Mister Sinister, place 3 threat on the main scheme.",
+		"traits": "Genius."
+	},
+	{
+		"code": "40139a",
+		"name": "Sinister Intent",
+		"text": "<b>Contents</b>: Mister Sinister (I) and Mister Sinister (II) <i>(Mister Sinister (II) and Mister Sinister (III) instead for expert mode)</i>. Mister Sinister, Flight, Super Strength, Telepathy, Hope Summers, and Standard encounter sets. One modular encounter set <i>(Nasty Boys)</i>.\n<b>Setup</b>: Set aside the Flight, Super Strength, and Telepathy encounter sets. Put Hope Summers into play under the first player's control."
+	},
+	{
+		"code": "40139b",
+		"flavor": "The secret laboratory hidden deep below the abandoned orphanage is filled with vats containing innocent mutants, subjects of Sinister's experiments.",
+		"name": "Sinister Intent",
+		"text": "<b>When Revealed</b>: Remove 1 random stage 2 from the game. Then advance to a random stage 2A."
+	},
+	{
+		"code": "40140a",
+		"flavor": "Mister Sinister sets about incorporating another mutant's DNA into his own genome.",
+		"name": "Taking Off"
+	},
+	{
+		"code": "40140b",
+		"name": "Taking Off",
+		"text": "<b>When Revealed</b>: Attach the Flight attachment to Mister Sinister and shuffle the rest of the Flight encounter set into the encounter deck.\n<b>When Completed</b>: Advance to the other stage 2A. If you cannot, advance to stage 3A."
+	},
+	{
+		"code": "40141a",
+		"flavor": "Mister Sinister sets about incorporating another mutant's DNA into his own genome.",
+		"name": "Bulking Up"
+	},
+	{
+		"code": "40141b",
+		"name": "Bulking Up",
+		"text": "<b>When Revealed</b>: Attach the Super Strength attachment to Mister Sinister and shuffle the rest of the Super Strength encounter set into the encounter deck.\n<b>When Completed</b>: Advance to the other stage 2A. If you cannot, advance to stage 3A."
+	},
+	{
+		"code": "40142a",
+		"flavor": "Mister Sinister sets about incorporating another mutant's DNA into his own genome.",
+		"name": "Focusing In"
+	},
+	{
+		"code": "40142b",
+		"name": "Focusing In",
+		"text": "<b>When Revealed</b>: Attach the Telepathy attachment to Mister Sinister and shuffle the rest of the Telepathy encounter set into the encounter deck.\n<b>When Completed</b>: Advance to the other stage 2A. If you cannot, advance to stage 3A."
+	},
+	{
+		"code": "40143a",
+		"flavor": "\"Gaze upon my power and despair!\" Sinister cackles. \"Once I add Hope's mutation into my genetic code, I will be capable of mimicking any mutant's powers, and thus will have attained perfection!\"",
+		"name": "Sinister Ends",
+		"text": "<b>When Revealed</b>: Deal each player 1 facedown encounter card."
+	},
+	{
+		"code": "40143b",
+		"flavor": "\"I should thank you,\" Sinister sneers. \"You've done what my bumbling flunkies could not: You brought me Hope.\"",
+		"name": "Sinister Ends",
+		"text": "<b>Forced Interrupt</b>: When Mister Sinister attacks, he attacks Hope Summers instead. <i>(Other characters may defend the attack.)</i>\n<b>If this stage is completed, the players lose the game.</b>"
+	},
+	{
+		"code": "40144",
+		"name": "Sinister Disguise",
+		"text": "Attach to Minister Sinister.\n<b>Forced Interrupt</b>: When a player would deal damage to Minister Sinister, that player may spend [mental][mental] resources. If they do not, they deal that damage to the friendly character with the fewest remaining hit points instead. Discard this card <i>(whether the resources were spent or not)</i>.",
+		"traits": "Condition."
+	},
+	{
+		"code": "40145",
+		"name": "Sinister Soldier",
+		"text": "[star] Sinister Soldier gets +1 SCH and +1 ATK for each [[SUPERPOWER]] attachment on Minister Sinister.\n<hr />\n[star] <b>Boost</b>: For this activation, Mister Sinister gets +1 SCH and +1 ATK for each [[SUPERPOWER]] attachment on him.",
+		"traits": "Clone."
+	},
+	{
+		"code": "40146",
+		"name": "Teleported Away",
+		"text": "Hinder 1[per_hero].\nMister Sinister cannot take damage.\n<b>Forced Interrupt</b>: When Mister Sinister would attack, he schemes instead."
+	},
+	{
+		"code": "40147",
+		"name": "Genetic Mastery",
+		"text": "<b>When Revealed</b>: If Mister Sinister has the following traits:\n• [[AERIAL]] — Take 2 indirect damage.\n• [[BRUTE]] — Exhaust your identity.\n• [[PSIONIC]] — Place 2 threat on the main scheme."
+	},
+	{
+		"code": "40148",
+		"name": "Molecular Control",
+		"text": "<b>When Revealed</b>: Give Mister Sinister a tough status card. If he has the [[BRUTE]] trait, he heals 4 damage.\n<hr />\n[star] <b>Boost</b>: Give Mister Sinister a tough status card."
+	},
+	{
+		"code": "40149",
+		"name": "Sinister Schemes",
+		"text": "<b>When Revealed</b>: Mister Sinister schemes. If he has the [[PSIONIC]] trait, you are confused.\n<hr />\n[star] <b>Boost</b>: You are confused."
+	},
+	{
+		"code": "40150",
+		"name": "Sinister Strike",
+		"text": "<b>When Revealed (Alter-Ego)</b>: This card gains surge.\n<b>When Revealed (Hero)</b>: Mister Sinister attacks you. If he has the [[AERIAL]] trait, you are stunned.\n<hr />\n[star] <b>Boost</b>: You are stunned."
+	},
+	{
+		"code": "40151",
+		"name": "Flight",
+		"text": "Setup. Attach to the villain.\nPermanent.\nAttached villain gains the [[AERIAL]] trait.\n[star] Attached villain's attacks gain overkill.",
+		"traits": "Superpower."
+	},
+	{
+		"code": "40152",
+		"name": "Aerial Bombardment",
+		"text": "Attach to the villain.\n[star] Attached villain gets +1 ATK and ignores the retaliate keyword while attacking a non-[[AERIAL]] character.\n<b>Hero Action</b>: Exhaust your hero and spend [mental][mental] resources → discard this card.",
+		"traits": "Condition."
+	},
+	{
+		"code": "40153",
+		"name": "Out of Reach",
+		"text": "Attach to the villain.\nThe villain cannot take damage unless the attacker or attack has the [[AERIAL]] trait, or the attack has ranged.\n<b>Hero Action</b>: Exhaust your hero and spend [energy][energy] resources → discard this card.",
+		"traits": "Condition."
+	},
+	{
+		"code": "40154",
+		"name": "High Ground",
+		"text": "<b>When Revealed</b>: Discard each tough status card from each friendly character. The players as a group take 2 indirect damage (4 indirect damage instead if the villain has the [[BRUTE]] trait).\n<hr />\n[star] <b>Boost</b>: If the villain is attacking, this attack gains piercing."
+	},
+	{
+		"code": "40155",
+		"name": "Super Strength",
+		"text": "Setup. Attach to the villain.\nPermanent.\nAttached villain gains the [[BRUTE]] trait and steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>",
+		"traits": "Superpower."
+	},
+	{
+		"code": "40156",
+		"name": "Impervious",
+		"text": "Attach to the villain.\nReduce the amount of damage attached villain takes from each attack by 1.\n<b>Hero Action</b>: Spend [physical][physical] resources → give the villain a tough status card and discard this card."
+	},
+	{
+		"code": "40157",
+		"name": "Thrown Object",
+		"text": "Attach to the villain.\n[star] Attached villain's attacks gain ranged.\n[star] <b>Forced Response</b>: After the villain attacks, discard this card.",
+		"traits": "Item."
+	},
+	{
+		"code": "40158",
+		"name": "\"I'll Take That\"",
+		"text": "<b>When Revealed</b>: Discard the upgrade you control with the lowest cost (highest cost instead if the villain has the [[PSIONIC]] trait). If no upgrade was discarded this way, this card gains surge."
+	},
+	{
+		"code": "40159",
+		"name": "Telepathy",
+		"text": "Setup. Attach to the villain.\nPermanent.\nAttached villain gains the [[PSIONIC]] trait and retaliate 1. <i>(After this character is attacked, deal 1 damage to the attacking character.)</i>",
+		"traits": "Superpower."
+	},
+	{
+		"code": "40160",
+		"name": "Manufactured Drama",
+		"text": "Supports you control cannot ready.\n<b>When Revealed</b>: Exhaust each support you control. If no supports were exhausted this way, this card gains surge.\n<b>Alter-Ego Action</b>: Exhaust your identity and discard 1 card from the top of your deck for each support you control → discard this card."
+	},
+	{
+		"code": "40161",
+		"flavor": "\"I dare you to call me 'Peaches' again!\" —Domino",
+		"name": "Sowing Discord",
+		"text": "Allies you control cannot ready.\n<b>When Revealed</b>: Exhaust each ally you control. If no allies were exhausted this way, this card gains surge.\n<b>Alter-Ego Action</b>: Spend [mental][mental] resources → discard this card."
+	},
+	{
+		"code": "40162",
+		"name": "One Step Ahead",
+		"text": "<b>When Revealed</b>: Discard 1 random card from your hand (2 random cards instead if the villain has the [[AERIAL]] trait).\n<hr />\n[star] <b>Boost</b>: If the villain is attacking, this attack gains overkill."
+	},
+	{
+		"code": "40163",
+		"flavor": "\"Kneel before your superior!\"",
+		"name": "Stryfe",
+		"text": "[star] While Stryfe is attacking you, he gets +X ATK, where X is the number of cards of the most common type in your hand.",
+		"traits": "Mutant Liberation Front. Psionic."
+	},
+	{
+		"code": "40164",
+		"name": "Stryfe",
+		"text": "[star] While Stryfe is attacking you, he gets +X ATK, where X is the number of cards of the most common type in your hand.\n<b>When Revealed</b>: Each player discards cards from the top of the encounter deck until a [[PSIONIC]] attachment is discarded and reveals that card.",
+		"traits": "Mutant Liberation Front. Psionic."
+	},
+	{
+		"code": "40165",
+		"name": "Stryfe",
+		"text": "[star] While Stryfe is attacking you, he gets +X ATK, where X is the number of cards of the most common type in your hand.\n<b>Forced Response</b>: After you attack Stryfe, take X damage, where X is the number of cards of the most common type in your hand.",
+		"traits": "Mutant Liberation Front. Psionic."
+	},
+	{
+		"code": "40166a",
+		"name": "Uncontrollable Power",
+		"text": "<b>Contents</b>: Stryfe (I) and Stryfe (II) <i>(Stryfe (II) and Stryfe (III) instead for expert mode)</i>. Stryfe, Hope Summers, and Standard encounter sets. Two modular encounter sets <i>(Extreme Measures and Mutant Insurrection)</i>.\n<b>Setup</b>: Put Hope Summers into play under the first player's control. Reveal Stryfe's Grasp."
+	},
+	{
+		"code": "40166b",
+		"flavor": "Hope tries to mimic Stryfe's abilities, but is quickly overwhelmed by the power.",
+		"name": "Uncontrollable Power",
+		"text": "[star] <b>Forced Response</b>: After resolving step one of the villain phase, each player places X threat here, where X is the number of cards of the most common type in their hand. Each player may discard 1 card from their hand before calculating the value of X.\n<b>If this stage is completed, the players lose the game.</b>"
+	},
+	{
+		"code": "40167a",
+		"flavor": "Hope breaks free from Stryfe's grasp, but she struggles to contain his powerful psionic energies.\n\"I will leave Hope to finish the job of killing you all,\" Stryfe laughs. \"I have work to do bringing about the Apocalypse!\"",
+		"name": "Left to Your Fate"
+	},
+	{
+		"code": "40167b",
+		"flavor": "Stryfe is attempting to escape into the past. Who knows what havoc he will wreak?",
+		"name": "Left to Your Fate",
+		"text": "Stryfe gains stalwart.\nEach identity gets +2 hand size. Increase the resource cost to play each player card by 1.\n<b>If this stage is completed, the players lose the game.</b>"
+	},
+	{
+		"code": "40168a",
+		"name": "Stryfe's Grasp",
+		"text": "Permanent. Hinder 6[per_hero].\nHope Summers can attack only Stryfe and can thwart only this scheme.\n<b>Forced Response</b>: After Stryfe is defeated or the last threat is removed from this scheme, flip this card and reveal Living Bomb. Place any threat here on Living Bomb."
+	},
+	{
+		"code": "40168b",
+		"flavor": "Mimicking Stryfe's power is too much for Hope to control and threatens to overwhelm her...with explosive results!",
+		"name": "Living Bomb",
+		"text": "Victory 1.\nStryfe cannot be defeated.\n<b>When Revealed</b>: Advance the main scheme to stage 2A. This effect cannot be canceled."
+	},
+	{
+		"code": "40169",
+		"name": "Mental Transferal",
+		"text": "If Stryfe's Grasp is in play, attach to Hope Summers. Otherwise, attach to your identity.\n<b>Forced Response</b>: After Stryfe takes any amount of damage, attached character takes an equal amount of damage. Discard this card.",
+		"traits": "Condition. Psionic."
+	},
+	{
+		"code": "40170",
+		"name": "Mind Alteration",
+		"text": "Attach to your identify.\n<b>Forced Response</b>: After you play an event or upgrade, take 1 damage.\n<b>Response</b>: After you recover, spend a [mental] resource → discard this card.",
+		"traits": "Condition. Psionic."
+	},
+	{
+		"code": "40171",
+		"name": "Mind Trap",
+		"text": "Attach to your identify.\nYour allies, upgrades, and supports enter play exhausted.\n<b>Alter-Ego Action</b>: Exhaust 3 cards you control → discard this card.",
+		"traits": "Condition. Psionic."
+	},
+	{
+		"code": "40172",
+		"name": "Psionic Amnesia",
+		"text": "Attach to your identify.\nIncrease the resource cost of each ally and support you play by 2.\n<b>Response</b>: After you play an ally or support, exhaust your identity → discard this card.",
+		"traits": "Condition. Psionic."
+	},
+	{
+		"code": "40173",
+		"flavor": "\"It is...as if...something...is holding...Caliban back!\" —Caliban",
+		"name": "Psychic Inertia",
+		"text": "Attach to your identify.\n<b>Hero Action</b>: If your hero attacked and thwarted this phase → discard this card.",
+		"traits": "Condition. Psionic."
+	},
+	{
+		"code": "40174",
+		"name": "Zero",
+		"text": "Guard. Patrol. Toughness.\n<b>When Defeated</b>: If the player who defeated Zero does not have at least 3 cards of the same type in their hand, shuffle Zero into the encounter deck.",
+		"traits": "Mutant Liberation Front."
+	},
+	{
+		"code": "40175",
+		"name": "Cerebral Erasure",
+		"text": "<b>When Revealed</b>: Return an upgrade or support you control to its owner's hand.\n<b>When Defeated</b>: The player who defeated this scheme returns an upgrade or support they control to its owner's hand."
+	},
+	{
+		"code": "40176",
+		"name": "Telepathic Camouflage",
+		"text": "<b>When Revealed</b>: Each player places X threat here, where X is the number of cards of the most common type in their hand."
+	},
+	{
+		"code": "40177",
+		"name": "Psionic Surge",
+		"text": "<b>When Revealed</b>: Discard the top X cards of the encounter deck, where X is the number of cards of the most common type in your hand. Deal each [[PSIONIC]] card discarded this way to yourself as a facedown encounter card."
+	},
+	{
+		"code": "40178",
+		"name": "Psychic Override",
+		"text": "<b>When Revealed</b>: Choose a card type, then discard each card from your hand that is not of that type. Draw up to your hand size. Place 1 threat on the main scheme for each card of the chosen type in your hand.\n<hr />\n[star] <b>Boost</b>: Discard 1 card from your hand. Then, draw 1 card.",
+		"traits": "Psionic."
+	},
+	{
+		"code": "40179",
+		"name": "Telekinetic Wave",
+		"text": "<b>When Revealed</b>: Return an upgrade or support you control to your hand. Stryfe activates against you.\n<hr />\n[star] <b>Boost</b>: If you have at least 3 cards in your hand that share a type, place 3 threat on the main scheme.",
+		"traits": "Psionic."
+	},
+	{
+		"code": "40180",
+		"name": "Strobe",
+		"text": "Patrol.\n<b>When Revealed</b>: Choose:\n• Stun each character you control.\n• Deal 1 damage to each character you control.",
+		"traits": "Mutant Liberation Front."
+	},
+	{
+		"code": "40181",
+		"name": "Tempo",
+		"text": "While Tempo is engaged with you, you get +1 hand size.\n[star] <b>Forced Response</b>: After Tempo activates against you, discard cards from the top of your deck equal to twice the number of cards in your hand.",
+		"traits": "Mutant Liberation Front."
+	},
+	{
+		"code": "40182",
+		"name": "Thumbelina",
+		"text": "Reduce the amount of damage Thumbelina takes from each attack by 1 unless the attacker has the [[TINY]] trait.\n<b>When Revealed</b>: Return the highest-cost upgrade you control to its owner's hand.",
+		"traits": "Mutant Liberation Front."
+	},
+	{
+		"code": "40183",
+		"name": "Wildside",
+		"text": "<b>When Revealed</b>: Choose:\n• Wildside attacks you.\n• Return the highest-cost support you control to its owner's hand.",
+		"traits": "Mutant Liberation Front."
+	},
+	{
+		"code": "40184",
+		"name": "Extreme Measures",
+		"text": "Hinder 2[per_hero].\n<b>Forced Response</b>: After a player card enters play, its controller takes indirect damage equal to that card's printed cost."
+	},
+	{
+		"code": "40185",
+		"name": "Dragoness",
+		"text": "[star] <b>Forced Interrupt</b>: When Dragoness activates against you, she gets +X SCH and +X ATK for that activation, where X is the number of [energy] resources in your hand.",
+		"traits": "Mutant Liberation Front."
+	},
+	{
+		"code": "40186",
+		"flavor": "\"They call me Forearm because I give good back rubs.\"",
+		"name": "Forearm",
+		"text": "[star] <b>Forced Response</b>: After Forearm attacks you, discard X cards from the top of your deck, where X is the number of [physical] resources in your hand.",
+		"traits": "Mutant Liberation Front."
+	},
+	{
+		"code": "40187",
+		"name": "Reaper",
+		"text": "[star] <b>Forced Interrupt</b>: When Reaper attacks you, if you have at least:\n• [mental][mental] resources in your hand, stun your identity.\n• [mental][mental][mental][mental] resources in your hand, exhaust your identity.",
+		"traits": "Mutant Liberation Front."
+	},
+	{
+		"code": "40188",
+		"name": "Samurai",
+		"text": "[star] <b>Forced Response</b>: After Samarai attacks you, place 1 charge counter here. Choose:\n• Take damage equal to the number of charge counters on Samurai.\n• Discard 1 card you control with printed cost equal to or greater than the number of charge counters on Samurai.",
+		"traits": "Mutant Liberation Front."
+	},
+	{
+		"code": "40189",
+		"name": "Mutant Insurrection",
+		"text": "Assault. <i>(Basic thwarts against this scheme use ATK instead of THW.)</i>\nEach minion gains toughness.\n<b>When Revealed</b>: Place 2 additional threat here for each [[MUTANT LIBERATION FRONT]] character in play. If no additional threat was placed this way, this card gains surge."
+	},
+	{
+		"code": "40198",
+		"name": "Lady Mastermind",
+		"text": "Surge.\n<b>When Revealed</b>: Take X damage, where X is the printed cost of the event in your hand with the highest cost.\n<hr />\n[star] <b>Boost</b>: Discard an event from your hand.",
+		"traits": "Marauder."
+	},
+	{
+		"code": "40199",
+		"name": "Malice",
+		"text": "Surge.\n<b>When Defeated</b>: Attach Malice to the non-[[PSIONIC]] ally with the highest cost. Attached ally engages its controller. Threat attached ally as a [[POSSESSED]] minion with a blank text box <i>(except for [[TRAITS]])</i>. Attached minion's SCH is equal to its THW and it does not take consequential damage.",
+		"traits": "Marauder."
+	},
+	{
+		"code": "40200",
+		"flavor": "\"Not so tough with your powers turned off, are you?\"",
+		"name": "Scrambler",
+		"text": "Surge.\n<b>When Revealed</b>: Discard an upgrade you control.",
+		"traits": "Marauder."
+	},
+	{
+		"code": "40201",
+		"name": "Vanisher",
+		"text": "Surge.\n<b>When Revealed</b>: Return the support you control with the highest cost to your hand.\n<hr />\n[star] <b>Boost</b>: Return the support you control with the highest cost to your hand.",
+		"traits": "Marauder."
+	},
+	{
+		"code": "40202",
+		"name": "Under Pressure",
+		"text": "Surge.\n<hr />\n[star] <b>Boost</b>: Give the villain 1 additional boost card for this activation."
+	},
+	{
+		"code": "40203",
+		"name": "Overburdened",
+		"text": "Surge.\n<b>When Revealed</b>: Choose to either discard 1 resource card from your hand or take 2 damage.\n<hr />\n[star] <b>Boost</b>: Choose to either discard 1 resource card from your hand or take 2 damage."
+	}
+]

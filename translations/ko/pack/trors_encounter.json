@@ -2,7 +2,7 @@
 	{
 		"code": "04026",
 		"name": "범죄 이력",
-		"text": "<b><i>Clint Barton 플레이어에게 이 카드를 줍니다.</i></b>\n당신은 일상 형태로 카드를 뒤집어도 됩니다. 다음 중 하나를 선택합니다.\n\u2022 Clint Barton를 소진 → 이 카드를 게임에서 제거.\n\u2022 플레이 영역에서 Hawkeye 활을 버립니다. 이 의무 카드를 버립니다.\n"
+		"text": "<b><i>Clint Barton 플레이어에게 이 카드를 줍니다.</i></b>\n당신은 일상 형태로 카드를 뒤집어도 됩니다. 다음 중 하나를 선택합니다.\n• Clint Barton를 소진 → 이 카드를 게임에서 제거.\n• 플레이 영역에서 Hawkeye 활을 버립니다. 이 의무 카드를 버립니다.\n"
 	},
 	{
 		"code": "04027",
@@ -30,7 +30,7 @@
 	{
 		"code": "04053",
 		"name": "변동하는 충성심",
-		"text": "<b><i>Jessica Drew 플레이어에게 이 카드를 줍니다.</i></b>\n\u2022 Jessica Drew를 소진 → 변동하는 충성심을 게임에서 제거.\n\u2022 주요 음모에 위협을 3만큼 놓습니다. 이 의무 카드를 버립니다.\n"
+		"text": "<b><i>Jessica Drew 플레이어에게 이 카드를 줍니다.</i></b>\n• Jessica Drew를 소진 → 변동하는 충성심을 게임에서 제거.\n• 주요 음모에 위협을 3만큼 놓습니다. 이 의무 카드를 버립니다.\n"
 	},
 	{
 		"code": "04054",
@@ -79,7 +79,8 @@
 	},
 	{
 		"code": "04061a",
-		"name": "Attack on Mount Athena"
+		"name": "Attack on Mount Athena",
+		"text": "<b>Contents:</b> Crossbones (I) and Crossbones (II). Crossbones, Experimental Weapons, and Standard Encounter sets. Three modular sets <i>(Hydra Assault, Weapon Master, and Legions of Hydra).</i>\n<b>Setup:</b> Create the Experimental Weapons deck and set it next to the main scheme deck. <i>(see rulebook page 5.)</i>"
 	},
 	{
 		"code": "04061b",
@@ -114,6 +115,7 @@
 	},
 	{
 		"code": "04065",
+		"flavor": "\"Bask in the glow, babe.\" —Crossbones",
 		"name": "Crossbones' Armor",
 		"text": "Attach to Crossbones.\n<b>Forced Interrupt:</b> When Crossbones would take any amount of damage, place it here instead. If there is 5 or more damage here, discard Crossbones' Armor.",
 		"traits": "Armor."
@@ -194,7 +196,7 @@
 	{
 		"code": "04078",
 		"name": "Absorbing Man",
-		"text": "Absorbing Man gains the trait of each environment in play.\n[star] <b>Forced Response:</b> After Absorbing Man activates against you, if he has the:\n\u2022 [[Ice]] or [[Stone]] trait, place 1 threat on the main scheme.\n\u2022 [[Metal]] or [[Wood]] trait, take 1 indirect damage.",
+		"text": "Absorbing Man gains the trait of each environment in play.\n[star] <b>Forced Response:</b> After Absorbing Man activates against you, if he has the:\n• [[Ice]] or [[Stone]] trait, place 1 threat on the main scheme.\n• [[Metal]] or [[Wood]] trait, take 1 indirect damage.",
 		"traits": "Brute."
 	},
 	{
@@ -318,12 +320,14 @@
 	},
 	{
 		"code": "04098",
+		"flavor": "\"A Hydra strike team raided my house while I was meditating. I showed them out, but there were two more teams waiting outside.\"",
 		"name": "Shang-Chi",
 		"text": "<b>Response:</b> After you play Shang-Chi from your hand, spend a [energy] resource → stun an enemy.",
 		"traits": "Captive. Hero for Hire."
 	},
 	{
 		"code": "04099",
+		"flavor": "\"After Hydra took over and outlawed superheroes, a neighbor called the new chief of police to report me.\"",
 		"name": "White Tiger",
 		"subname": "Angela Del Toro",
 		"text": "<b>Response:</b> After you play White Tiger from your hand, spend [mental] resource → remove 3 threat from a scheme.",

@@ -24,8 +24,36 @@
 	},
 	{
 		"code": "29032",
-		"flavor": "\"Gratulation zu eurem Durchhaltevermögen und eurem amerikanischen Kampfgeist. Die meisten von euch sollten längst tot sein.\"",
 		"name": "Politische Vergeltung",
-		"text": "<b>Sobald aufgedeckt</b>: Falls Lucia von Bardas im Spiel ist, treibt sie den Plan voran. Falls der Nebenplan Gewaltherrschaft im Spiel ist, platziere 3 Bedrohung auf ihm. Falls keine von beiden Karten im Spiel ist, erhält diese Karte Nachrüsten."
+		"text": "<b>Sobald aufgedeckt</b>: Falls Lucia von Bardas im Spiel ist, treibt sie den Plan voran. Falls der Nebenplan Gewaltherrschaft im Spiel ist, platziere 3 Bedrohung auf ihm. Falls keine von beiden Karten im Spiel ist, erhält diese Karte Nachrüsten.",
+		"flavor": "\"Gratulation zu eurem Durchhaltevermögen und eurem amerikanischen Kampfgeist. Die meisten von euch sollten längst tot sein.\""
+	},
+	{
+		"code": "29036",
+		"name": "Feedback Loop",
+		"text": "<b>When Revealed</b>: Each player must place threat here equal to the total number [energy] resources in their hand and on cards they control"
+	},
+	{
+		"code": "29037",
+		"name": "Zzzax",
+		"text": "[star] Zzzax gets +X ATK and +X hit points, where X is equal to the total number of [energy] resources on cards the engaged player controls.\n<hr />\n[star] <b>Boost</b>: If you have at least [energy] [energy] resources in your hand, put Zzzax into play engaged with you.",
+		"traits": "Criminal."
+	},
+	{
+		"code": "29038",
+		"name": "Haywire",
+		"text": "Attach to your identity.\nTreat the printed resource of each card in your hand as if it were [energy].\n<b>Hero Action</b>: Choose to either discard a card you control with a printed [energy] resource or take 2 indirect damage → discard this card."
+	},
+	{
+		"code": "29039",
+		"name": "Air Static",
+		"text": "<b>Forced Interrupt</b>: When the villain phase begins, deal 2 indirect damage to each player with a [energy] resource in their hand and/or on a card they control.\n<b>Hero Action</b>: Choose to either discard a card you control with a printed [energy] resource or take 2 indirect damage → discard this card.",
+		"traits": "Condition."
+	},
+	{
+		"code": "29040",
+		"flavor": "\"Me Zzzax! You zzzap!\"",
+		"name": "Zzzap!",
+		"text": "<b>When Revealed</b>: Take indirect damage equal to the total number of [energy] resources in your hand. If your identity was dealt 1 or fewer damage this way, this card gains surge."
 	}
 ]

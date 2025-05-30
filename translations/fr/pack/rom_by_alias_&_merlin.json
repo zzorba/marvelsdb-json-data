@@ -1,0 +1,101 @@
+[
+	{
+		"code": "60401a",
+		"name": "ROM",
+		"text": "<i>Dire Wraith Search</i> — <b>Action</b>: Spend a [energy] resource and discard an ally in play → look at the top 5 cards of your deck. add X event to your hand (to a maximum of 3) where X is the number of printed health point of the ally (Limit once per round).",
+		"traits": "Android. Space Knight."
+	},
+	{
+		"code": "60401b",
+		"name": "ROM",
+		"text": "<b>Setup: </b>Find Leader of the Space Knight upgrade and put it into play.<i>\nHelp</i> — <b>Action</b>: Choose a [[space knight]] ally in your discard pile and attach it facedown to Leader of the Space Knight upgrade (Limit once per round).\n<i>“I offered my life to save Galador.” </i>— <i>ROM</i>",
+		"traits": "Civilian."
+	},
+	{
+		"code": "60402",
+		"name": "Leader of the Space Knight",
+		"text": "Permanent. Setup.\n<b>Setup</b>: Find Starshine, Pulsar and Terminator and attach them facedown to this card. \nAllies attached to this card may be played as if they were in your hand.",
+		"traits": "Title."
+	},
+	{
+		"code": "60403",
+		"name": "Starshine",
+		"subname": "Landra",
+		"text": "<b>Hero Action</b>: Exhaust Starshine → choose a basic power. ROM gets +1 to that power until the end of the round (limit once per round). \n<i>“The memory of my humanity is so strong that I forgot what I have become.”</i>",
+		"traits": "Aerial. Android. Space Knight."
+	},
+	{
+		"code": "60404",
+		"name": "Terminator",
+		"subname": "Balin",
+		"text": "<b>Response</b>: After Terminator enters play, deal 2 damage to an enemy. \n<i>“I enjoy their scream when I banish the Wraiths to the void.”</i>",
+		"traits": "Aerial. Android. Space Knight."
+	},
+	{
+		"code": "60405",
+		"name": "Pulsar",
+		"subname": "Plor",
+		"text": "<b>Response</b>: After Pulsar enters play, remove 2 threat from a scheme. \n<i>“Rom decided to stand against this horror, alone.” (Rom Annual #2)</i>",
+		"traits": "Aerial. Android. Space Knight."
+	},
+	{
+		"code": "60406",
+		"name": "Energy Analyser",
+		"text": "<b>Hero Resource</b>: Exhaust Energy Analyser → generate a [energy] resource for your \"<i>Dire Wraith Search</i>\" ability.\n<i>“This analyser will reveal the creatures as they are.” </i>—<i>ROM</i>",
+		"traits": "Item. Tech."
+	},
+	{
+		"code": "60407",
+		"name": "Neutralizer",
+		"text": "<b>Hero Resource</b>: Exhaust Neutralizer → generate a [physical] resource for an [[attack]] event. (2 resources for Neutralization event).\n<i>“The analyser is replaced by the Neutralizer to send back the Wraiths to the void.” </i>—<i>ROM</i>",
+		"traits": "Item. Tech."
+	},
+	{
+		"code": "60408",
+		"name": "Translator",
+		"text": "<b>Hero Resource</b>: Exhaust Translator → generate a [mental] resource for a [[thwart]] event. (2 resources for Assess the Threat event).\n<i>“This analyser will reveal the creatures as they are.” </i>—<i>ROM</i>",
+		"traits": "Item. Tech."
+	},
+	{
+		"code": "60409",
+		"name": "Plandanium Armor",
+		"text": "You get +3 hit points and gain steady.\n<i>“My armor can fulfill all my needs for 5 years.” </i>—<i>ROM</i>",
+		"traits": "Armor. Tech."
+	},
+	{
+		"code": "60410",
+		"name": "Rocket Pods",
+		"text": "You gain the [[aerial]] trait.\n<b>Hero Action</b>: Exhaust Rocket Pods → ready ROM.\n<i>“Duty drives us.”</i>",
+		"traits": "Item. Tech."
+	},
+	{
+		"code": "60411",
+		"name": "Brandy Clark",
+		"text": "<b>Alter-Ego Action</b>: Exhaust Brandy Clark → choose 1 identity-specific card in your discard pile and shuffle it into your deck.\n<i>“Why did you kill all these innocent people? I knew them since school...” (ROM I)</i>",
+		"traits": "Persona."
+	},
+	{
+		"code": "60412",
+		"name": "Steve Jackson",
+		"text": "<b>Interrupt </b>: When ROM would be defeated by an attack, cancel all damage and draw 2 cards. Remove this card from the game.\n<i>“So Brandy, you really believe all this robot is telling you? It's bullshit!\"</i>",
+		"traits": "Persona."
+	},
+	{
+		"code": "60413",
+		"name": "Neutralization",
+		"text": "<b>Hero Action</b> (<i>attack</i>): deal 4 damage to an enemy. If you paid for this card using only [physical] resources, deal 3 additional damage for each [physical] resource you overpaid for this card to a maximum of 6.\n\"What Dire Wraiths fear the most is to be banished.",
+		"traits": "Attack."
+	},
+	{
+		"code": "60416",
+		"name": "Assess the Threat",
+		"text": "<b>Hero Action</b> (<i>thwart</i>): Remove 3 threat from a scheme. If you paid for this card using only [mental] resources, remove 2 additional threat for each [mental] resource you overpaid for this card to a maximum of 4.",
+		"traits": "Thwart."
+	},
+	{
+		"code": "60418",
+		"name": "Solar Charge",
+		"text": "<b>Hero Action</b> (<i>attack</i>): Deal 2 damage to an enemy.\n<b>Hero Interrupt </b>(<i>defense</i>): When you would take any amount of damage, prevent 2 of that damage.",
+		"traits": "Attack. Defense."
+	}
+]

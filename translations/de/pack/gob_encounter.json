@@ -1,30 +1,39 @@
 [
 	{
 		"code": "02001a",
+		"name": "Norman Osborn",
 		"text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Norman Osborn angreifen würde, platziere stattdessen 1 Verrufenheits- marker auf Kriminelle Geschäfte.\n<b>Erzwungene Unterbrechung</b>: Sobald Norman Osborn eine beliebige Menge an Schaden nehmen würde, entferne stattdessen so viele Verrufenheitsmarker von Kriminelle Geschäfte.",
 		"traits": "Genie. Unternehmer."
 	},
 	{
 		"code": "02001b",
-		"text": "<b>Sobald aufgedeckt</b>: Füge jedem Spieler in Heldengestalt 3 indirekten Schaden zu.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Green Goblin den Plan vorantreiben würde, entferne stattdessen 1 Wahnsinnsmarker von Wachsender Wahnsinn."
+		"name": "Green Goblin",
+		"text": "<b>Sobald aufgedeckt</b>: Füge jedem Spieler in Heldengestalt 3 indirekten Schaden zu.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Green Goblin den Plan vorantreiben würde, entferne stattdessen 1 Wahnsinnsmarker von Wachsender Wahnsinn.",
+		"traits": "Goblin."
 	},
 	{
 		"code": "02002a",
+		"name": "Norman Osborn",
 		"text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Norman Osborn angreifen würde, platziere stattdessen 2 Verrufenheits- marker auf Kriminelle Geschäfte.\n<b>Erzwungene Unterbrechung</b>: Sobald Norman Osborn eine beliebige Menge an Schaden nehmen würde, entferne stattdessen so viele Verrufenheitsmarker von Kriminelle Geschäfte.",
 		"traits": "Genie. Unternehmer."
 	},
 	{
 		"code": "02002b",
-		"text": "<b>Sobald aufgedeckt</b>: Füge jedem Spieler 4 indirekten Schaden zu.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Green Goblin den Plan vorantreiben würde, entferne stattdessen 1 Wahnsinnsmarker von Wachsender Wahnsinn."
+		"name": "Green Goblin",
+		"text": "<b>Sobald aufgedeckt</b>: Füge jedem Spieler 4 indirekten Schaden zu.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Green Goblin den Plan vorantreiben würde, entferne stattdessen 1 Wahnsinnsmarker von Wachsender Wahnsinn.",
+		"traits": "Goblin."
 	},
 	{
 		"code": "02003a",
+		"name": "Norman Osborn",
 		"text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Norman Osborn angreifen würde, platziere stattdessen 3 Verrufenheits- marker auf Kriminelle Geschäfte.\n<b>Erzwungene Unterbrechung</b>: Sobald Norman Osborn eine beliebige Menge an Schaden nehmen würde, entferne stattdessen so viele Verrufenheitsmarker von Kriminelle Geschäfte.",
 		"traits": "Genie. Unternehmer."
 	},
 	{
 		"code": "02003b",
-		"text": "<b>Sobald aufgedeckt</b>: Füge jedem Spieler 4 Schaden zu.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Green Goblin den Plan vorantreiben würde, entferne stattdessen 2 Wahnsinnsmarker von Wachsender Wahnsinn."
+		"name": "Green Goblin",
+		"text": "<b>Sobald aufgedeckt</b>: Füge jedem Spieler 4 Schaden zu.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Green Goblin den Plan vorantreiben würde, entferne stattdessen 2 Wahnsinnsmarker von Wachsender Wahnsinn.",
+		"traits": "Goblin."
 	},
 	{
 		"back_text": "<b>Inhalt</b>: Norman Osborn (I) und Norman Osborn (II) <i>(stattdessen Norman Osborn (II) und Norman Osborn (III) im Expertenmodus).</i> \"Riskantes Geschäft\"- und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(empfohlen: Goblin-Tricks)</i>.\n<b>Spielaufbau</b>: Bringe die Umgebung Kriminelle Geschäfte ins Spiel. Mische das Begegnungsdeck. Rücke zu Abschnitt 1B vor.",
@@ -34,12 +43,35 @@
 		"text": "<b>Sobald vollendet</b>: Platziere 1[per_hero] Verrufenheitsmarker auf Kriminelle Geschäfte. Lege dann für jeden Verrufenheits- marker auf Kriminelle Geschäfte 1 Karte vom Deck jedes Spielers ab."
 	},
 	{
+		"code": "02004a",
+		"name": "Hostile Takeover",
+		"text": "<b>Contents</b>: Norman Osborn (I) and Norman Osborn (II). <i>(Norman Osborn (II) and Norman Osborn (III) instead for expert mode.)</i> Risky Business and Standard encounter sets. One modular encounter set <i>(recommended: Goblin Gimmicks)</i>.\n<b>Setup</b>: Put the Criminal Enterprise environment into play. Shuffle the encounter deck. Advance to stage 1B."
+	},
+	{
+		"code": "02004b",
+		"flavor": "Norman Osborn holds a board meeting planning to take over a branch of Stark Industries.",
+		"name": "Hostile Takeover",
+		"text": "<b>When Completed</b>: Place 1[per_hero] infamy counters on Criminal Enterprise. Then discard 1 card from each player's deck for each infamy counter on Criminal Enterprise."
+	},
+	{
 		"back_flavor": "Nun, da ein Zweig von Stark Industries unter seiner Kontrolle steht, hat Norman Osborn Zugriff auf tödliche Technologien und kann die Produktions- kapazitäten von Oscorp vervierfachen.",
 		"back_text": "<b>Sobald aufgedeckt</b>: Rücke zu Abschnitt 2B vor.",
 		"code": "02005",
 		"flavor": "Sollte Norman Osborn Erfolg haben, steht seiner technologischen Vorherrschaft nichts mehr im Wege.",
 		"name": "Unternehmensakquisition",
 		"text": "<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+	},
+	{
+		"code": "02005a",
+		"flavor": "With a branch of Stark Industries under his control, Norman Osborn will gain access to deadly technologies and quadruple the manufacturing capabilities of Oscorp.",
+		"name": "Corporate Acquisition",
+		"text": "<b>When Revealed</b>: Advance to stage 2B."
+	},
+	{
+		"code": "02005b",
+		"flavor": "If Norman Osborn succeeds, nothing will stand in the way of his technological domination.",
+		"name": "Corporate Acquisition",
+		"text": "<b>If this stage is completed, the players lose the game.</b>"
 	},
 	{
 		"code": "02006a",
@@ -73,6 +105,7 @@
 	{
 		"code": "02010",
 		"flavor": "Trotz der Einwände der Aktionäre produziert Oscorp nun ausschließlich hoch entwickelte Militärwaffen.",
+		"name": "Oscorp Manufacturing",
 		"text": "<b>Sobald aufgedeckt (Norman Osborn)</b>: Platziere hier zusätzlich 1[per_hero] Bedrohung."
 	},
 	{
@@ -93,15 +126,21 @@
 	{
 		"code": "02014",
 		"flavor": "\"Hast du wirklich geglaubt, dass der Green Goblin dich am Leben lässt?!\"",
-		"text": "[star] <b>Erzwungene Reaktion</b>: Nachdem Green Goblin angegriffen und dir Schaden zugefügt hat, platziere 1 Bedrohung auf dem Hauptplan."
+		"name": "Green Goblin",
+		"text": "[star] <b>Erzwungene Reaktion</b>: Nachdem Green Goblin angegriffen und dir Schaden zugefügt hat, platziere 1 Bedrohung auf dem Hauptplan.",
+		"traits": "Goblin."
 	},
 	{
 		"code": "02015",
-		"text": "<b>Sobald aufgedeckt</b>: Teile jedem Spieler 2 Begegnungskarten zu.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Green Goblin angegriffen und dir Schaden zugefügt hat, platziere 1 Bedrohung auf dem Hauptplan."
+		"name": "Green Goblin",
+		"text": "<b>Sobald aufgedeckt</b>: Teile jedem Spieler 2 Begegnungskarten zu.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Green Goblin angegriffen und dir Schaden zugefügt hat, platziere 1 Bedrohung auf dem Hauptplan.",
+		"traits": "Goblin."
 	},
 	{
 		"code": "02016",
-		"text": "<b>Sobald aufgedeckt</b>: Teile jedem Spieler 3 Begegnungskarten zu.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Green Goblin angegriffen und dir Schaden zugefügt hat, platziere 2 Bedrohung auf dem Hauptplan."
+		"name": "Green Goblin",
+		"text": "<b>Sobald aufgedeckt</b>: Teile jedem Spieler 3 Begegnungskarten zu.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Green Goblin angegriffen und dir Schaden zugefügt hat, platziere 2 Bedrohung auf dem Hauptplan.",
+		"traits": "Goblin."
 	},
 	{
 		"back_text": "<b>Inhalt</b>: Green Goblin (I) und Green Goblin (II) <i>(stattdessen Green Goblin (II) und Green Goblin (III) im Expertenmodus)</i>. Mutagen-Formel- und Standard- Begegnungssets. Ein modulares Begegnungsset <i>(empfohlen: Goblin-Tricks)</i>.\n<b>Spielaufbau</b>: Bringe für jeden Spieler einen Schergen Goblin-Lakai im Kampf mit dem Spieler ins Spiel. Mische das Begegnungsdeck. Rücke zu Abschnitt 1B vor.",
@@ -111,12 +150,35 @@
 		"text": "<b>Sobald vollendet</b>: In Spieler- reihenfolge muss jeder Spieler, der nicht mit einem [[Goblin]]-Schergen im Kampf ist, 3 Karten vom Begegnungsdeck ablegen und den ersten [[Goblin]]-Schergen, den er auf diese Weise abgelegt hat, mit sich im Kampf ins Spiel bringen."
 	},
 	{
+		"code": "02017a",
+		"name": "Unleashing the Mutagen",
+		"text": "<b>Contents</b>: Green Goblin (I) and Green Goblin (II). <i>(Green Goblin (II) and Green Goblin (III) instead for expert mode.)</i> Mutagen Formula and Standard encounter sets. One modular encounter set <i>(recommended: Goblin Gimmicks)</i>.\n<b>Setup</b>: Put a Goblin Thrall minion into play engaged with each player. Shuffle the encounter deck. Advance to stage 1B."
+	},
+	{
+		"code": "02017b",
+		"flavor": "Green Goblin has released a toxic mutagen gas on New York City.",
+		"name": "Unleashing the Mutagen",
+		"text": "<b>When Completed</b>: In player order, each player not engaged with a [[Goblin]] minion must discard 3 cards from the encounter deck and put the first [[Goblin]] minion they discarded this way into play engaged with them."
+	},
+	{
 		"back_flavor": "Als sich die Wolke in der Stadt ausbreitet, beginnen die Unglücklichen, die den Dämpfen nicht entkommen können, zu zittern, sich zu krümmen und zu schrecklichen Goblin-Kreaturen zu mutieren.",
 		"back_text": "<b>Sobald aufgedeckt</b>: Rücke zu Abschnitt 2B vor.",
 		"code": "02018",
 		"flavor": "Die Goblin-Kreaturen gehorchen willenlos allen Befehlen von Green Goblin. Haltet Green Goblin auf, bevor seine Monster- Miliz die Stadt überrennt!",
 		"name": "Mutagen-Wolke",
 		"text": "X ist die Anzahl an [[Goblin]]-Gegnern im Spiel (einschließlich Green Goblin).\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+	},
+	{
+		"code": "02018a",
+		"flavor": "As the cloud engulfs the city, those unfortunate enough to be caught in the vapors begin to shiver and shift, mutating into hideous goblin creatures.",
+		"name": "Mutagen Cloud",
+		"text": "<b>When Revealed</b>: Advance to stage 2B."
+	},
+	{
+		"code": "02018b",
+		"flavor": "The goblin creatures serve Green Goblin's every command. Stop Green Goblin before his monstrous militia overruns the city!",
+		"name": "Mutagen Cloud",
+		"text": "X is equal to the number of [[Goblin]] enemies (including Green Goblin) in play.\n<b>If this stage is completed, the players lose the game.</b>"
 	},
 	{
 		"code": "02019",
@@ -138,21 +200,27 @@
 	},
 	{
 		"code": "02022",
-		"text": "[star] <b>Erzwungene Reaktion</b>: Nachdem Goblin Knight dich angegriffen hat, lege 1 Karte vom Begegnungsdeck ab. Falls die Karte ein [[Goblin]]-Scherge ist, bringe ihn mit dir im Kampf ins Spiel.\n<hr />\n[star] <b>Boost</b>: Nachdem diese Aktivierung beendet worden ist, mische diese Karte ins Begegnungsdeck."
+		"name": "Goblin Knight",
+		"text": "[star] <b>Erzwungene Reaktion</b>: Nachdem Goblin Knight dich angegriffen hat, lege 1 Karte vom Begegnungsdeck ab. Falls die Karte ein [[Goblin]]-Scherge ist, bringe ihn mit dir im Kampf ins Spiel.\n<hr />\n[star] <b>Boost</b>: Nachdem diese Aktivierung beendet worden ist, mische diese Karte ins Begegnungsdeck.",
+		"traits": "Elite. Goblin."
 	},
 	{
 		"code": "02023",
 		"name": "Goblin Soldat",
-		"text": "<b>Sobald besiegt</b>: Füge dem Spieler, der mit Goblin-Soldat im Kampf ist, 1 Schaden zu.\n<hr />\n[star] <b>Boost</b>: Bringe Goblin-Soldat mit dir im Kampf ins Spiel."
+		"text": "<b>Sobald besiegt</b>: Füge dem Spieler, der mit Goblin-Soldat im Kampf ist, 1 Schaden zu.\n<hr />\n[star] <b>Boost</b>: Bringe Goblin-Soldat mit dir im Kampf ins Spiel.",
+		"traits": "Goblin."
 	},
 	{
 		"code": "02024",
 		"name": "Goblin-Lakai",
-		"text": "Wache. <i>(Solange dieser Scherge mit dir im Kampf ist, kannst du den Schurken nicht angreifen.)</i>\n<hr />\n[star] <b>Boost</b>: Bringe Goblin-Lakai mit dir im Kampf ins Spiel."
+		"text": "Wache. <i>(Solange dieser Scherge mit dir im Kampf ist, kannst du den Schurken nicht angreifen.)</i>\n<hr />\n[star] <b>Boost</b>: Bringe Goblin-Lakai mit dir im Kampf ins Spiel.",
+		"traits": "Goblin."
 	},
 	{
 		"code": "02025",
-		"text": "<b>Sobald aufgedeckt</b>: Du wirst betäubt. Falls du bereits betäubt bist, nimm 2 Schaden.\n<hr />\n[star] <b>Boost</b>: Nachdem diese Aktivierung beendet worden ist, mische diese Karte ins Begegnungsdeck."
+		"name": "Monster",
+		"text": "<b>Sobald aufgedeckt</b>: Du wirst betäubt. Falls du bereits betäubt bist, nimm 2 Schaden.\n<hr />\n[star] <b>Boost</b>: Nachdem diese Aktivierung beendet worden ist, mische diese Karte ins Begegnungsdeck.",
+		"traits": "Elite. Goblin."
 	},
 	{
 		"code": "02026",
@@ -163,6 +231,7 @@
 	{
 		"code": "02027",
 		"flavor": "\"Wir sind keine Bande. Wir sind so viel mehr. Wir sind eine Familie. Ein Imperium! Ein Pantheon! Und ich? Ich bin der Goblin King!\" — Green Goblin",
+		"name": "Goblin Nation",
 		"text": "Jeder [[Goblin]]-Gegner bekommt +1 ANG <i>(einschließlich Green Goblin)</i>.\n<hr />\n[star] <b>Boost</b>: Bringe Goblin Nation ins Spiel."
 	},
 	{
@@ -211,7 +280,7 @@
 		"code": "02036",
 		"name": "Regenerative Heilung",
 		"text": "<b>Sobald aufgedeckt: Der Schurke heilt X Schaden, wobei X die doppelte Abschnittsnummer des Schurken ist. Falls auf diese Weise kein Schaden geheilt wurde, erhält diese Karte Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Der Schurke heilt 2 Schaden."
-	}, 
+	},
 	{
 		"code": "02037",
 		"flavor": "Scorpion wütet durch das Geschäfts- viertel und verursacht dabei so viel Chaos wie möglich.",
@@ -221,6 +290,7 @@
 	{
 		"code": "02038",
 		"flavor": "\"Ich werde dich zerquetschen, Spider-Man!\"",
+		"name": "Scorpion",
 		"text": "Erstschlag. <i>(Nachdem dieser Scherge deinen Helden in einen Kampf verwickelt hat, greift er an.)</i>\n[star] <b>Erzwungene Reaktion</b>: Nachdem Scorpion einen Charakter angegriffen und ihm Schaden zugefügt hat, betäube den Charakter."
 	},
 	{
@@ -232,7 +302,7 @@
 		"code": "02040",
 		"name": "Schwanzfeger",
 		"text": "<b>Sobald aufgedeckt</b>: Scorpion greift deinen Helden an. Falls auf diese Weise kein Angriff durchgeführt wurde, wirst du betäubt.\n<hr />\n[star] <b>Boost</b>: Du wirst betäubt."
-	}, 
+	},
 	{
 		"code": "02041",
 		"name": "Energieentzug",
@@ -240,6 +310,7 @@
 	},
 	{
 		"code": "02042",
+		"name": "Electro",
 		"text": "[star] <b>Erzwungene Reaktion</b>: Nachdem Electro dich angegriffen hat, lege 1 Karte vom Begegnungsdeck ab. Nimm 1 indirekten Schaden für jedes auf diese Weise abgelegte Boost-Symbol.\n<hr />\n[star] <b>Boost</b>: Lege 3 Karten vom Begegnungsdeck ab.",
 		"traits": "Krimineller."
 	},
@@ -263,16 +334,15 @@
 		"name": "Ablenkungsmanöver",
 		"text": "<b>Sobald aufgedeckt</b>: Jeder Spieler muss wählen, ob er entweder [mental] [physical]-Ressourcen ausgibt oder hier 2 Bedrohung platziert."
 	},
-
 	{
 		"code": "02047",
+		"name": "Tombstone",
 		"text": "[star] <b>Erzwungene Reaktion<b>: Nachdem Tombstone angegriffen und dir Schaden zugefügt hat, lege eine [mental]- oder eine [physical]-Ressource von deiner Hand ab, falls möglich.",
 		"traits": "Krimineller."
 	},
 	{
 		"code": "02048",
 		"name": "Fest Verschnürrt",
-		"set_position": 3,
 		"text": "Hänge diese Karte an deine Identitätskarte an.\nDu kannst deinen Charakter nicht spielbereit machen oder die Gestalt wechseln.\n<b>Aktion</b>: Gib [mental] [physical]-Ressourcen aus → lege diese Karte ab."
 	},
 	{

@@ -3,31 +3,65 @@
 		"code": "44032",
 		"flavor": "\"Hab ich was Falsches gesagt?\" — Deadpool",
 		"name": "Der Söldner mit der grossen Klappe",
-		"text" : "<b><i>Gib dies dem Spieler von Wade Wilson.</i></b>\nErschöpfe jeden Verbündeten unter deiner Kontrolle. Verbündete unter deiner Kontrolle können nicht spielbereit gemacht werden. Andere Spieler können während deines Zuges keine Spielerkartenfähigkeiten abhandeln.\n<b>Erzwungene Reaktion</b> : Nachdem die Spielerphase beendet ist und falls du während dieser Phase nicht geredet hast, lege diese Karte ab."
+		"text": "<b><i>Gib dies dem Spieler von Wade Wilson.</i></b>\nErschöpfe jeden Verbündeten unter deiner Kontrolle. Verbündete unter deiner Kontrolle können nicht spielbereit gemacht werden. Andere Spieler können während deines Zuges keine Spielerkartenfähigkeiten abhandeln.\n<b>Erzwungene Reaktion</b> : Nachdem die Spielerphase beendet ist und falls du während dieser Phase nicht geredet hast, lege diese Karte ab."
 	},
 	{
 		"code": "44033",
 		"name": "Butler",
-		"text" : "[star] <b>Erzwungene Unterbrechung</b> : Sobald Butler den Plan vorantreibt, platziere die Bedrohung auf Unfreiwillige Operationen, falls möglich.\n<i>(Deadpools Erzfeind-Scherge.)</i>\n<hr />\n[star] <b>Boost</b>: Du wirst verwirrt.",
+		"text": "[star] <b>Erzwungene Unterbrechung</b> : Sobald Butler den Plan vorantreibt, platziere die Bedrohung auf Unfreiwillige Operationen, falls möglich.\n<i>(Deadpools Erzfeind-Scherge.)</i>\n<hr />\n[star] <b>Boost</b>: Du wirst verwirrt.",
 		"traits": "Wissenschaftler."
 	},
 	{
 		"code": "44034",
 		"flavor": "Butler versucht, die Krebserkrankung seiner Schwester mit Hilfe von Deadpools Regenerationskräften zu heilen.",
 		"name": "Unfreiwillige Operationen",
-		"text" : "<b>Erzwungene Reaktion</b> : Nachdem Deadpool eine beliebige Menge an Schaden genommen hat, platziere hier 1 Bedrohung. Falls hier dann 10 oder mehr Bedrohung liegt, entferne diese Karte aus dem Spiel."
+		"text": "<b>Erzwungene Reaktion</b> : Nachdem Deadpool eine beliebige Menge an Schaden genommen hat, platziere hier 1 Bedrohung. Falls hier dann 10 oder mehr Bedrohung liegt, entferne diese Karte aus dem Spiel."
 	},
 	{
 		"code": "44035",
 		"flavor": "Butler löschte mit dieser Droge Deadpools Erinnerungen an seine medizinischen Experimente.",
 		"name": "Tabula Rasa 16",
-		"text" : "Hänge diese Karte an deine Identität an.\nBehandle das aufgedruckte Textfeld deiner Identität, als ob es leer wäre <i>(mit Ausnahme von [[MERKMALEN]])</i>.\n<b>Alter Ego - Aktion</b> : Gib [mental][mental]-Ressourcen aus → lege diese Karte ab.\n<hr />\n[star] <b>Boost</b>: Hänge Tabula Rasa 16 an deine Identität an."
+		"text": "Hänge diese Karte an deine Identität an.\nBehandle das aufgedruckte Textfeld deiner Identität, als ob es leer wäre <i>(mit Ausnahme von [[MERKMALEN]])</i>.\n<b>Alter Ego - Aktion</b> : Gib [mental][mental]-Ressourcen aus → lege diese Karte ab.\n<hr />\n[star] <b>Boost</b>: Hänge Tabula Rasa 16 an deine Identität an."
 	},
 	{
 		"code": "44036",
 		"flavor": "Butler finanzierte seine Forschung, indem er Supersoldaten für ausländische Regierungen entwickelte.",
 		"name": "Mutierter Soldat",
-		"text" : "Zähigkeit.\n[star] <b>Erzwungene Reaktion</b> : Nachdem Mutierter Soldat aktiviert worden ist, heile allen Schaden von ihm.",
+		"text": "Zähigkeit.\n[star] <b>Erzwungene Reaktion</b> : Nachdem Mutierter Soldat aktiviert worden ist, heile allen Schaden von ihm.",
 		"traits": "Mutation. Soldat."
+	},
+	{
+		"code": "44037",
+		"name": "Crisis of Infinite Deadpools",
+		"text": "<b>When Revealed</b>: Reveal the set-aside Dreadpool minion and Dreadful Deeds side scheme. Shuffle the rest of the set-aside Dreadpool encounter set into the encounter deck. Remove this card from the game."
+	},
+	{
+		"code": "44038",
+		"flavor": "\"What I do...I do for the cause. But I still feel bad about it...usually.\"",
+		"name": "Dreadpool",
+		"text": "Dreadpool engages the first player.\n<b>When Defeated</b>: Deal Dreadpool to the player who defeated him as a facedown encounter card.",
+		"traits": "Assassin. Elite."
+	},
+	{
+		"code": "44039",
+		"flavor": "Dreadpool believes the only way to end his suffering is to kill every being in all of the multiverse.",
+		"name": "Dreadful Deeds",
+		"text": "<b>When Revealed</b>: Place 2 threat here for each player who controls 1 or more 'Pool (pink) cards."
+	},
+	{
+		"code": "44040",
+		"name": "Anti-Regeneration Ray",
+		"text": "Attach to Dreadpool. Otherwise, attach to the villain.\n<b>Forced Interrupt</b>: When attached character attacks a non-villain character, treat the attacked character's text box as if it were blank (except for [[TRAITS]]) until the end of the attack.\n<b>Hero Action</b>: Spend [energy][mental][physical] resources → attach this card to your identity.",
+		"traits": "Weapon."
+	},
+	{
+		"code": "44041",
+		"name": "'Pool-ized",
+		"text": "Treat attached ally as a [['POOL]] minion with a blank text box. Attached minion's SCH is equal to its printed THW and it does not take consequential damage.\n<b>When Revealed</b>: Attach to the ally with the highest cost without 'Pool-ized attached. Attached ally engages its controller. Otherwise, this card gains surge."
+	},
+	{
+		"code": "44042",
+		"name": "Metacidal Tendencies",
+		"text": "<b>When Revealed</b>: Deal 2 damage to each [[DEADPOOL CORPS]] character (3 damage instead if Dreadpool is in play). If no damage was dealt this way, place 1 acceleration token on the main scheme."
 	}
 ]

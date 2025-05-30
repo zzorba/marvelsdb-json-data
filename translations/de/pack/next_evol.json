@@ -11,12 +11,12 @@
 		"name": "Nathan Summers",
 		"text": "Du darfst Spieler-Nebenpläne beliebiger Aspekte in dein Deck aufnehmen.\n<i>Soldat X</i> — <b>Spielaufbau</b> : Durchsuche dein Deck und deinen Ablagestapel nach einem Spieler-Nebenplan und bringe ihn ins Spiel. <i>(Mische.)</i>",
 		"traits": "Mutant. Soldat."
-	},	
+	},
 	{
 		"code": "40002",
-		"flavor": "\"Bodyslide für zwei.\" — Cable",
 		"name": "Bodyslide",
-		"text": "<b>Aktion</b> : Wechsle deine Gestalt. Jeder andere Spieler darf in die Gestalt wechseln, in der du dich jetzt befindest."
+		"text": "<b>Aktion</b> : Wechsle deine Gestalt. Jeder andere Spieler darf in die Gestalt wechseln, in der du dich jetzt befindest.",
+		"flavor": "\"Bodyslide für zwei.\" — Cable"
 	},
 	{
 		"code": "40003",
@@ -102,9 +102,9 @@
 	{
 		"code": "40016",
 		"name": "Sunspot",
-      		"subname": "Bobby Da Costa",
+		"subname": "Bobby Da Costa",
 		"text": "<b>Reaktion</b> : Nachdem du Sunspot von deiner Hand gespielt hast, wähle einen Spieler → füge für jede [energy]-Ressource, die du verwendet hast, um für Sunspot zu bezahlen, dem Schurken und jedem Schergen, der mit dem gewählten Spieler im Kampf ist, 1 Schaden zu.",
-    	 	"traits": "Fliegend. X-Force."
+		"traits": "Fliegend. X-Force."
 	},
 	{
 		"code": "40017",
@@ -113,19 +113,19 @@
 	},
 	{
 		"code": "40018",
-    	  	"flavor": "\"Team Blau, wir treffen uns an meinem Standort!\" — Bishop",
+		"flavor": "\"Team Blau, wir treffen uns an meinem Standort!\" — Bishop",
 		"name": "Verstärkung anfordern",
 		"text": "Sieg 0.\n<b>Sobald besiegt</b> : Jeder Spieler darf sein Deck und seinen Ablagestapel nach einem Verbündeten durchsuchen und ihn ins Spiel bringen. <i>(Mische.)</i>"
 	},
 	{
 		"code": "40019",
-     	 	"flavor": "\"Wir brauchen Waffen. Jede Menge Waffen.\" — Cable",
+		"flavor": "\"Wir brauchen Waffen. Jede Menge Waffen.\" — Cable",
 		"name": "Laden Und Entsichern",
 		"text": "Victoire 0.\n<b>Sobald besiegt</b> : Jeder Spieler darf sein Deck und seinen Ablagestapel nach einem [[WAFFE]]-Upgrade mit Kosten von 3 oder weniger durchsuchen und es ins Spiel bringen. <i>(Mische.)</i>"
 	},
 	{
 		"code": "40020",
-      		"flavor": "\"Keine Angst, Kinder. Durch mich kommen Sie nicht durch!\" — Armor",
+		"flavor": "\"Keine Angst, Kinder. Durch mich kommen Sie nicht durch!\" — Armor",
 		"name": "Schutzzone Einrichten",
 		"text": "Sieg 0.\n<b>Sobald besiegt</b> : Sobald besiegt: Gib jeder Identität eine Zäh-Statuskarte."
 	},
@@ -187,8 +187,8 @@
 	},
 	{
 		"code": "40030",
-		"name": "Handfeuerwaffe",
 		"flavor": "\"Diese Waffe ist nicht annähernd so gefährlich wie der Mann, der sie führt.\" — Cable",
+		"name": "Handfeuerwaffe",
 		"text": "Hänge diese Karte an einen Verbündeten an. Max. 1 pro Verbündeten.\nDer Verbündete mit diesem Upgrade bekommt +1 ANG und seine Angriffe erhalten Fernkampf.",
 		"traits": "Waffe."
 	},
@@ -200,10 +200,10 @@
 	},
 	{
 		"code": "40037b",
-		"flavor": "\"Was sagt man dazu? Schon wieder gewonnen.\"",
 		"name": "Neena Thurman",
 		"text": "<b>Action</b> : Wähle eine Karte auf deiner Hand. Tausche die Karte mit der obersten Karte deines Ablagestapels. (Nur ein Mal pro Runde.)",
-		"traits": "Mutant."
+		"traits": "Mutant.",
+		"flavor": "\"Was sagt man dazu? Schon wieder gewonnen.\""
 	},
 	{
 		"code": "40038",
@@ -345,9 +345,82 @@
 		"traits": "Fertigkeit."
 	},
 	{
+		"code": "40190a",
+		"name": "Assemble the Team",
+		"text": "This scheme does not count against the player side scheme limit.\n<b>When Defeated</b>: Flip this card and put Team Assembled into play.\n<i>(The ability on Team Assembled allows each player to play an ally from their deck for free.)</i>"
+	},
+	{
+		"code": "40190b",
+		"name": "Team Assembled",
+		"text": "Enters play with 1 assembly counter on it.\n<b>Action</b>: Remove 1 assembly counter from here → each player may search their deck and discard pile for an ally with a printed cost of 3 or less and put it into play. <i>(Any player can do this.)</i>"
+	},
+	{
+		"code": "40191a",
+		"name": "Establish Safehouse",
+		"text": "This scheme does not count against the player side scheme limit.\n<b>When Defeated</b>: Flip this card and put Safehouse Established into play.\n<i>(The ability on Safehouse Established gains the players the Safehouse support card.)</i>"
+	},
+	{
+		"code": "40191b",
+		"name": "Safehouse Established",
+		"text": "Enters play with 1 safehouse counter on it.\n<b>Action</b>: Remove 1 safehouse counter from here → the first player puts the Safehouse support into play under their control. <i>(Safehouse is a campaign card.)</i>"
+	},
+	{
+		"code": "40192a",
+		"name": "Gear Up",
+		"text": "This scheme does not count against the player side scheme limit.\n<b>When Defeated</b>: Flip this card and put Geared Up into play.\n<i>(The ability on Geared Up gains each player a Pouches resource card.)</i>"
+	},
+	{
+		"code": "40192b",
+		"name": "Geared Up",
+		"text": "Enters play with 1 pouch counter on it.\n<b>Action</b>: Remove 1 pouch counter from here → each player shuffles 1 copy of the Pouches resource card into their deck. <i>(Pouches is a campaign card.)</i>"
+	},
+	{
+		"code": "40193a",
+		"name": "Mission Prep",
+		"text": "This scheme does not count against the player side scheme limit.\n<b>When Defeated</b>: Flip this card and put Mission Prepped into play.\n<i>(The ability on Mission Prepped allows each player to play an upgrade from their deck for free.)</i>"
+	},
+	{
+		"code": "40193b",
+		"name": "Mission Prepped",
+		"text": "Enters play with 1 prep counter on it.\n<b>Action</b>: Remove 1 prep counter from here → each player searches their deck and discard pile for 1 upgrade with a printed cost of 2 or less and puts it into play. <i>(Any player can do this.)</i>"
+	},
+	{
+		"code": "40194a",
+		"name": "Practice Maneuvers",
+		"text": "This scheme does not count against the player side scheme limit.\n<b>When Defeated</b>: Flip this card and put Practiced Maneuvers into play.\n<i>(The ability on Practiced Maneuvers provides the players a permanent discount on high-cost event cards.)</i>"
+	},
+	{
+		"code": "40194b",
+		"flavor": "\"Last one through the course does the laundry for a month!\" —Sunspot",
+		"name": "Practiced Maneuvers",
+		"text": "Reduce the cost to play each event with a printed cost of 3 or more by 1."
+	},
+	{
+		"code": "40195a",
+		"name": "Prepare Defenses",
+		"text": "This scheme does not count against the player side scheme limit.\n<b>When Defeated</b>: Flip this card and put Prepared Defenses into play.\n<i>(The ability on Prepared Defenses gains each player a permanent +1 DEF and retaliate 1.)</i>"
+	},
+	{
+		"code": "40195b",
+		"flavor": "\"We've got incoming!\"\n\"They can each my high-velocity diamond shards.\"\n— Rockslide and Bling!",
+		"name": "Prepared Defenses",
+		"text": "Each hero gets +1 DEF and gains retaliate 1."
+	},
+	{
+		"code": "40196",
+		"flavor": "\"I can never remember where I put anything.\" —Deadpool",
+		"name": "Pouches"
+	},
+	{
+		"code": "40197",
+		"name": "Safehouse",
+		"text": "<b>Alter-Ego Action</b>: Choose:\n• Heal 2 damage from your identity.\n• Draw 1 card.\nAny player may trigger this ability. (Limit once per round per player.)",
+		"traits": "Location."
+	},
+	{
 		"code": "40204",
 		"name": "Hope Summers",
 		"text": "Hope Summers erhält jedes [[MERKMAL]] deiner Identität.\n<b>Reaktion:</b> : Nachdem du Hope Summers von deiner Hand gespielt hast, durchsuche dein Deck nach einer [[SUPERKRAFT]]-Karte und nimm sie auf deine Hand. <i>(Mische.)</i>",
 		"traits": "X-Force."
-    	}
+	}
 ]
