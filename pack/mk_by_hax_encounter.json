@@ -1,5 +1,5 @@
 [
- {	
+{	
 	"boost": 1,
 	"code": "10337",
 	"deck_limit": 1,
@@ -10,11 +10,12 @@
 	"position": 12,
 	"quantity": 1,
 	"set_code": "moon_knight_by_hax_nemesis",
+	"text": "<b>Give to the Marc Spector player.</b>\nYou may flip to Marc Spector. Choose:\n. Discard Steven Grant and Jake Lockley from the [[IDENTITY]] stack \u2192 remove Seek Help from the game.\n    . Take 2 indirect damage \u2192 discard this obligation.",
 	"type_code": "obligation"
 },	
 {	
 	"attack": 2,
-	"attack_star": 1,
+	"attack_star": true,
 	"boost": 2,
 	"code": "10338",
 	"deck_limit": 1,
@@ -28,6 +29,7 @@
 	"quantity": 1,
 	"set_code": "moon_knight_by_hax_nemesis",
 	"set_position": 1,
+	"text": "<b>Forced Interrupt</b>: When Bushman would be defeated, if there is no madness counter here, heal all damage from Bushman and put a madness counter on him instead.\nBushman gets +2 ATK if there is a madness counter here.",
 	"thwart": 1,
 	"traits": "Mercenary.",
 	"type_code": "minion"
@@ -45,6 +47,7 @@
 	"quantity": 1,
 	"set_code": "moon_knight_by_hax_nemesis",
 	"set_position": 2,
+	"text": "<i>Bushman is hellbent on defeating Marc Spector. Deescalate the situation quickly!</i>\nMoon Knight and Mr. Knight get -1 ATK.",
 	"type_code": "side_scheme"
 },	
 {	
@@ -52,6 +55,7 @@
 	"code": "10340",
 	"deck_limit": 2,
 	"faction_code": "encounter",
+	"flavor": "\"This one will serve as a lesson to the others!\"",
 	"name": "Cull the Weak",
 	"octgn_id": "fb5e24e2-4df6-4512-9638-fd3503031015",
 	"pack_code": "mk_by_hax",
@@ -59,6 +63,7 @@
 	"quantity": 2,
 	"set_code": "moon_knight_by_hax_nemesis",
 	"set_position": 3,
+	"text": "<b>When Revealed</b>: Discard the ally you control with the least remaining hit points. If you cannot, take 2 damage instead.",
 	"type_code": "treachery"
 },	
 {	
@@ -73,9 +78,11 @@
 	"quantity": 1,
 	"set_code": "moon_knight_by_hax_nemesis",
 	"set_position": 4,
+	"text": "Attach to Bushman, if able. If you cannot, attach to the minion with the most remaining hit points.\n[star] Attached character's attacks gain piercing.\n<b>Hero Action</b>: Spend a resource \u2192 discard this card.",
 	"traits": "Weapon.",
 	"type_code": "attachment"
 }
+
 
 
 ]
