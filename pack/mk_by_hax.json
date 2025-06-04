@@ -20,7 +20,15 @@
 	"text": "<i>a good offense</i> — Reduce the cost of Agression (<i>red</i>) cards you play by 1.",
 	"thwart": 2,
 	"traits": "Avenger. Identity.",
-	"type_code": "hero"
+	"type_code": "hero",
+    "deck_requirements": [
+			{
+				"aspects": 4,
+				"aspect_card_min": 4,
+				"cost_limit": 2,
+				"aspect_equal": false 	 		
+			}
+    ]
 },	
 {	
 	"code": "10326b",
