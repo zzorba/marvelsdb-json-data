@@ -1,8 +1,8 @@
 import json
 import uuid
 
-runFile = 'mk_by_hax.json'
-pack_code = 'mk_by_hax'
+runFile = 'yondu_by_hax.json'
+pack_code = 'yondu_by_hax'
 
 with open('./packs_fanmade.json') as json_file:
     pack_data = json.load(json_file)
