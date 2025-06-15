@@ -1,0 +1,69 @@
+[
+    {
+        "attack": 2,
+        "back_link": "999901b",
+        "code": "999901a",
+        "deck_limit": 1,
+        "defense": 2,
+        "faction_code": "hero",
+        "hand_size": 5,
+        "health": 10,
+        "is_unique": true,
+        "meta": {
+            "colors": [
+                "#7386de",
+                "#b88663",
+                "#f2bf4f",
+                "#f2bf4f"
+            ],
+            "offset": "-35px -33px"
+        },
+        "name": "Stan Lee",
+        "pack_code": "stan_lee_by_ekaugust",
+        "position": 1,
+        "quantity": 1,
+        "set_code": "stanlee_by_ekaugust",
+        "text": "Stan Lee has the text boxes of each hero used by the Marvelous ability.",
+        "thwart": 2,
+        "traits": "True beliver.",
+        "type_code": "hero",
+        "deck_options": [
+			{
+				"aspect_limit" : 6
+			}
+        ]
+    },
+    {
+        "code": "999901b",
+        "deck_limit": 1,
+        "faction_code": "hero",
+        "hand_size": 5,
+        "health": 10,
+        "hidden": true,
+        "name": "Stan Lee",
+        "pack_code": "stan_lee_by_ekaugust",
+        "position": 1,
+        "quantity": 1,
+        "recover": 3,
+       "set_code": "stanlee_by_ekaugust",
+        "text": "Stan Lee has the text boxes of eac alter-ego used by te Marvelous ability.\n<i>Marvelous</i> - During deck-building, your decks must include the heros cards from the chosen hero set.",
+        "traits": "Civilian",
+        "type_code": "alter_ego"
+    },
+    {
+        "name": "Dummy card",
+        "text": "replace that card.",
+        "type_code": "event",
+        "faction_code": "hero",
+        "set_code": "stanlee_by_ekaugust",
+        "pack_code": "stan_lee_by_ekaugust",
+        "code": "999902",
+        "cost": -1,
+        "position": 2,
+        "quantity": 15,
+        "traits": "Dummy",
+        "set_position": 2,
+        "deck_limit": 15
+    }
+    
+]
