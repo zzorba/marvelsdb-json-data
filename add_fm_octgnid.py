@@ -1,7 +1,7 @@
 import json
 import uuid
 
-runFile = 'yondu_by_hax.json'
+runFile = 'yondu_by_hax_encounter.json'
 pack_code = 'yondu_by_hax'
 
 with open('./packs_fanmade.json') as json_file:
