@@ -1,8 +1,8 @@
 import json
 import uuid
 
-runFile = 'silk.json'
-pack_code = 'silk'
+runFile = 'falcon.json'
+pack_code = 'falcon'
 
 with open('./packs.json') as json_file:
     pack_data = json.load(json_file)
