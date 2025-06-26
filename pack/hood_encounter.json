@@ -16,8 +16,8 @@
 		"scheme": 1,
 		"set_code": "the_hood",
 		"set_position": 1,
-		"stage": 1,
-		"text": "<i>Foul Play</i> - <b>Special:</b> Discard the top card of the encounter deck. If that card does not belong to The Hood encounter set, deal it to yourself as a facedown encounter card.",
+		"stage": "I",
+		"text": "<i>Foul Play</i> - <b>Special</b>: Discard the top card of the encounter deck. If that card does not belong to The Hood encounter set, deal it to yourself as a facedown encounter card.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -37,8 +37,8 @@
 		"scheme": 2,
 		"set_code": "the_hood",
 		"set_position": 2,
-		"stage": 2,
-		"text": "<b>When Revealed:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck.\n<i>Foul Play</i> - <b>Special:</b> Discard the top 2 cards of the encounter deck. Deal the first card discarded this way that does not belong to The Hood encounter set to yourself as a facedown encounter card.",
+		"stage": "II",
+		"text": "<b>When Revealed</b>: Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck.\n<i>Foul Play</i> - <b>Special</b>: Discard the top 2 cards of the encounter deck. Deal the first card discarded this way that does not belong to The Hood encounter set to yourself as a facedown encounter card.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -58,8 +58,8 @@
 		"scheme": 3,
 		"set_code": "the_hood",
 		"set_position": 3,
-		"stage": 3,
-		"text": "<b>When Revealed:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck.\n<i>Foul Play</i> - <b>Special:</b> Discard the top 2 cards of the encounter deck. Deal each card discarded this way that does not belong to The Hood encounter set to yourself as a facedown encounter card.",
+		"stage": "III",
+		"text": "<b>When Revealed</b>: Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck.\n<i>Foul Play</i> - <b>Special</b>: Discard the top 2 cards of the encounter deck. Deal each card discarded this way that does not belong to The Hood encounter set to yourself as a facedown encounter card.",
 		"traits": "Criminal.",
 		"type_code": "villain"
 	},
@@ -74,8 +74,8 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 4,
-		"stage": 1,
-		"text": "<b>Contents:</b> The Hood (I) and The Hood (II). <i>(The Hood (II) and The Hood(III) instead for expert mode.)</i> The Hood and Standard encounter sets.\n<b>Setup:</b> Choose 7 modular encounter sets and set them aside (you may choose randomly). Choose 1 of those sets at random, then shuffle it intro the encounter deck.",
+		"stage": "1A",
+		"text": "<b>Contents</b>: The Hood (I) and The Hood (II). <i>(The Hood (II) and The Hood(III) instead for expert mode.)</i> The Hood and Standard encounter sets.\n<b>Setup</b>: Choose 7 modular encounter sets and set them aside (you may choose randomly). Choose 1 of those sets at random, then shuffle it intro the encounter deck.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -92,8 +92,8 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 4,
-		"stage": 1,
-		"text": "<b>When Revealed:</b> Each player must resolve The Hood's \"Foul Play\" ability in player order.",
+		"stage": "1B",
+		"text": "<b>When Revealed</b>: Each player must resolve The Hood's \"Foul Play\" ability in player order.",
 		"threat": 5,
 		"type_code": "main_scheme"
 	},
@@ -109,8 +109,8 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 5,
-		"stage": 2,
-		"text": "<b>When Revealed:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck. Place 1 acceleration token on the main scheme.",
+		"stage": "2A",
+		"text": "<b>When Revealed</b>: Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck. Place 1 acceleration token on the main scheme.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -126,8 +126,8 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 5,
-		"stage": 2,
-		"text": "<b>When Revealed:</b> Each player must resolve The Hood's \"Foul Play\" ability in player order. For each player who was not dealt at least 1 facedown encounter card this way, place 2 threat here.",
+		"stage": "2B",
+		"text": "<b>When Revealed</b>: Each player must resolve The Hood's \"Foul Play\" ability in player order. For each player who was not dealt at least 1 facedown encounter card this way, place 2 threat here.",
 		"threat": 8,
 		"type_code": "main_scheme"
 	},
@@ -143,8 +143,8 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 6,
-		"stage": 3,
-		"text": "<b>When Revealed:</b> Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck. Place 1 acceleration token on the main scheme. Each player must resolve The Hood's \"Foul Play\" ability in player order.",
+		"stage": "3A",
+		"text": "<b>When Revealed</b>: Choose 1 set-aside modular encounter set at random, then shuffle it into the encounter deck. Place 1 acceleration token on the main scheme. Each player must resolve The Hood's \"Foul Play\" ability in player order.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -161,7 +161,7 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 6,
-		"stage": 3,
+		"stage": "3B",
 		"text": "[star] <b>Forced Response</b>: After resolving step one of the villain phase, each player must resolve The Hood's <i>\"Foul Play\"</i> ability in player order.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 10,
 		"type_code": "main_scheme"
@@ -177,7 +177,7 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 7,
-		"text": "Attach to your identity.\n<b>Forced Response:</b> After The Hood activates against you, resolve his \"Foul Play\" ability\n<b>Alter-Ego Action:</b> Exhaust your identity and place 2 threat on the main scheme → discard this card.",
+		"text": "Attach to your identity.\n<b>Forced Response</b>: After The Hood activates against you, resolve his \"Foul Play\" ability\n<b>Alter-Ego Action</b>: Exhaust your identity and place 2 threat on the main scheme → discard this card.",
 		"type_code": "attachment"
 	},
 	{
@@ -190,7 +190,7 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 8,
-		"text": "Attach to The Hood.\nThe Hood gains retaliate 1 and steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>\n<b>Hero Action:</b> Spend [energy][mental][physical] resources → discard this card.",
+		"text": "Attach to The Hood.\nThe Hood gains retaliate 1 and steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>\n<b>Hero Action</b>: Spend [energy][mental][physical] resources → discard this card.",
 		"traits": "Armor.",
 		"type_code": "attachment"
 	},
@@ -207,7 +207,7 @@
 		"scheme": 1,
 		"set_code": "the_hood",
 		"set_position": 9,
-		"text": "Attach to The Hood.\n<b>Hero Action:</b> Spend [mental][physical] resources → discard this card.\n<hr />\n[star] <b>Boost</b>: Reveal this card.",
+		"text": "Attach to The Hood.\n<b>Hero Action</b>: Spend [mental][physical] resources → discard this card.\n<hr />\n[star] <b>Boost</b>: Reveal this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -226,7 +226,7 @@
 		"scheme": 1,
 		"set_code": "the_hood",
 		"set_position": 11,
-		"text": "Guard.\n<b>When Revealed:</b> Resolve The Hood's \"Foul Play\" ability.\n<b>When Defeated:</b> The defeating player must resolve The Hood's \"Foul Play\" ability.",
+		"text": "Guard.\n<b>When Revealed</b>: Resolve The Hood's \"Foul Play\" ability.\n<b>When Defeated</b>: The defeating player must resolve The Hood's \"Foul Play\" ability.",
 		"traits": "Criminal. Masters of Evil.",
 		"type_code": "minion"
 	},
@@ -243,7 +243,7 @@
 		"quantity": 1,
 		"set_code": "the_hood",
 		"set_position": 12,
-		"text": "Hinder 2[per_hero]. <i>(When revealed, place 2[per_hero] threat here.)</i>\n<b>Forced Interrupt:</b> When the villain phase begins, each player must resolve The Hood's \"Foul Play\" ability in player order.",
+		"text": "Hinder 2[per_hero]. <i>(When revealed, place 2[per_hero] threat here.)</i>\n<b>Forced Interrupt</b>: When the villain phase begins, each player must resolve The Hood's \"Foul Play\" ability in player order.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -272,7 +272,7 @@
 		"quantity": 3,
 		"set_code": "the_hood",
 		"set_position": 14,
-		"text": "<b>When Revealed (Alter-Ego):</b> The Hood schemes. Resolve The Hood's \"Foul Play\" ability.\n<b>When Revealed (Hero):</b> The Hood attacks you. Resolve The Hood's \"Foul Play\" ability.",
+		"text": "<b>When Revealed (Alter-Ego)</b>: The Hood schemes. Resolve The Hood's \"Foul Play\" ability.\n<b>When Revealed (Hero)</b>: The Hood attacks you. Resolve The Hood's \"Foul Play\" ability.",
 		"type_code": "treachery"
 	},
 	{
@@ -288,7 +288,7 @@
 		"quantity": 1,
 		"set_code": "beasty_boys",
 		"set_position": 1,
-		"text": "<b>Forced Interrupt:</b> When a stunned or confused friendly character would take any amount of damage, increase that amount by 1.",
+		"text": "<b>Forced Interrupt</b>: When a stunned or confused friendly character would take any amount of damage, increase that amount by 1.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -307,7 +307,7 @@
 		"scheme": 1,
 		"set_code": "beasty_boys",
 		"set_position": 2,
-		"text": "Quickstrike.\n[star] <b>Forced Response</b>: After Griffin attacks and damages a character, stun that character.\n<b>When Defeated:</b> If there is a stunned friendly character in play, shuffle Griffin into the encounter deck.",
+		"text": "Quickstrike.\n[star] <b>Forced Response</b>: After Griffin attacks and damages a character, stun that character.\n<b>When Defeated</b>: If there is a stunned friendly character in play, shuffle Griffin into the encounter deck.",
 		"traits": "Brute. Masters of Evil.",
 		"type_code": "minion"
 	},
@@ -327,7 +327,7 @@
 		"scheme": 2,
 		"set_code": "beasty_boys",
 		"set_position": 3,
-		"text": "Mandrill gains retaliate X, where X is equal to the number of confused characters <i>(friendly or enemy)</i> in play.\n<b>When Revealed:</b> Confuse each character you control.",
+		"text": "Mandrill gains retaliate X, where X is equal to the number of confused characters <i>(friendly or enemy)</i> in play.\n<b>When Revealed</b>: Confuse each character you control.",
 		"traits": "Brute. Crossfire's Crew.",
 		"type_code": "minion"
 	},
@@ -452,7 +452,7 @@
 		"scheme_hazard": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 1,
-		"text": "<b>When Revealed:</b> Deal 1 damage to the friendly character with the fewest remaining hit points. If that character is defeated this way, repeat this effect.\n<hr />\n[star] <b>Boost</b>: Resolve this card's \"<b>When Revealed</b>\" ability.",
+		"text": "<b>When Revealed</b>: Deal 1 damage to the friendly character with the fewest remaining hit points. If that character is defeated this way, repeat this effect.\n<hr />\n[star] <b>Boost</b>: Resolve this card's \"<b>When Revealed</b>\" ability.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -472,7 +472,7 @@
 		"scheme": 2,
 		"set_code": "crossfire_crew",
 		"set_position": 2,
-		"text": "[star] <b>Forced Interrupt:</b> When Controller's attack would deal any amount of damage to a character, increase that amount by that character's ATK.",
+		"text": "[star] <b>Forced Interrupt</b>: When Controller's attack would deal any amount of damage to a character, increase that amount by that character's ATK.",
 		"traits": "Brute. Crossfire's Crew.",
 		"type_code": "minion"
 	},
@@ -492,7 +492,7 @@
 		"scheme": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 3,
-		"text": "<b>When Revealed:</b> Exhaust each ally you control. Place 1 threat on the main scheme for each ally exhausted this way.\n<hr />\n[star] <b>Boost</b>: Choose and exhaust a character you control.",
+		"text": "<b>When Revealed</b>: Exhaust each ally you control. Place 1 threat on the main scheme for each ally exhausted this way.\n<hr />\n[star] <b>Boost</b>: Choose and exhaust a character you control.",
 		"traits": "Criminal. Crossfire's Crew.",
 		"type_code": "minion"
 	},
@@ -548,7 +548,7 @@
 		"quantity": 1,
 		"set_code": "crossfire_crew",
 		"set_position": 6,
-		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a [[Crossfire's Crew]] minion is discarded. Reveal that minion. Take indirect damage equal to the number of [[Crossfire's Crew]] minions in play.",
+		"text": "<b>When Revealed</b>: Discard cards from the top of the encounter deck until a [[Crossfire's Crew]] minion is discarded. Reveal that minion. Take indirect damage equal to the number of [[Crossfire's Crew]] minions in play.",
 		"type_code": "treachery"
 	},
 	{
@@ -620,7 +620,7 @@
 		"quantity": 1,
 		"set_code": "mister_hyde",
 		"set_position": 1,
-		"text": "<b>When Revealed:</b> Search the encounter deck and discard pile for Mister Hyde and reveal him. <i>(Shuffle.)</i>\n<b>Forced Interrupt:</b> When a [[Brute]] enemy would take any amount of damage, remove that much threat from this scheme instead.",
+		"text": "<b>When Revealed</b>: Search the encounter deck and discard pile for Mister Hyde and reveal him. <i>(Shuffle.)</i>\n<b>Forced Interrupt</b>: When a [[Brute]] enemy would take any amount of damage, remove that much threat from this scheme instead.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -638,7 +638,7 @@
 		"scheme": 3,
 		"set_code": "mister_hyde",
 		"set_position": 2,
-		"text": "<b>When Revealed:</b> If Mister Hyde is in play, discard this card → Mister Hyde attacks you with +2 ATK. That attack gains overkill.\n<b>When Defeated:</b> Search the encounter deck and discard pile for Mister Hyde and put him into play engaged with the player who was engaged with Calvin Zabo.",
+		"text": "<b>When Revealed</b>: If Mister Hyde is in play, discard this card → Mister Hyde attacks you with +2 ATK. That attack gains overkill.\n<b>When Defeated</b>: Search the encounter deck and discard pile for Mister Hyde and put him into play engaged with the player who was engaged with Calvin Zabo.",
 		"traits": "Elite. Masters of Evil.",
 		"type_code": "minion"
 	},
@@ -658,7 +658,7 @@
 		"scheme": 1,
 		"set_code": "mister_hyde",
 		"set_position": 3,
-		"text": "<b>When Revealed:</b> If Calvin Zabo is engaged with a player, discard Calvin Zabo → Mister Hyde engages that player. Give Mister Hyde a tough status card and deal 1 damage to each hero and ally in play.",
+		"text": "<b>When Revealed</b>: If Calvin Zabo is engaged with a player, discard Calvin Zabo → Mister Hyde engages that player. Give Mister Hyde a tough status card and deal 1 damage to each hero and ally in play.",
 		"traits": "Brute. Elite. Masters of Evil.",
 		"type_code": "minion"
 	},
@@ -673,7 +673,7 @@
 		"quantity": 1,
 		"set_code": "mister_hyde",
 		"set_position": 4,
-		"text": "<b>When Revealed:</b> If Calvin Zabo is in play, he schemes with +3 SCH, then he takes 4 damage. If Mister Hyde is in play, give him a tough status card and he attacks you <i>(even if you are in alter-ego form)</i>. If neither is in play, this card gains surge.",
+		"text": "<b>When Revealed</b>: If Calvin Zabo is in play, he schemes with +3 SCH, then he takes 4 damage. If Mister Hyde is in play, give him a tough status card and he attacks you <i>(even if you are in alter-ego form)</i>. If neither is in play, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
@@ -722,7 +722,7 @@
 		"quantity": 2,
 		"set_code": "ransacked_armory",
 		"set_position": 3,
-		"text": "Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.\n<b>Forced Interrupt:</b> When attached minion would take any amount of damage from an attack, discard the top card of the encounter deck. Reduce damage from that attack by the number of boost icons ([boost]) discarded this way.",
+		"text": "Attach to the minion with the most remaining hit points. If you cannot, this card gains surge.\n<b>Forced Interrupt</b>: When attached minion would take any amount of damage from an attack, discard the top card of the encounter deck. Reduce damage from that attack by the number of boost icons ([boost]) discarded this way.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
@@ -816,7 +816,7 @@
 		"scheme": 2,
 		"set_code": "sinister_syndicate",
 		"set_position": 3,
-		"text": "[star] <b>Forced Response:</b> After Boomerang attacks you, deal 1 damage to each ally you control.\n<hr />\n[star] <b>Boost</b>: Deal 2 damage to an ally you control.",
+		"text": "[star] <b>Forced Response</b>: After Boomerang attacks you, deal 1 damage to each ally you control.\n<hr />\n[star] <b>Boost</b>: Deal 2 damage to an ally you control.",
 		"traits": "Criminal. Masters of Evil.",
 		"type_code": "minion"
 	},
@@ -835,7 +835,7 @@
 		"scheme": 1,
 		"set_code": "sinister_syndicate",
 		"set_position": 4,
-		"text": "<b>Forced Response:</b> After Shocker is attacked, stun the attacking character.\n<hr />\n[star] <b>Boost</b>: Stun the character you control with the highest ATK value.",
+		"text": "<b>Forced Response</b>: After Shocker is attacked, stun the attacking character.\n<hr />\n[star] <b>Boost</b>: Stun the character you control with the highest ATK value.",
 		"traits": "Criminal. Masters of Evil.",
 		"type_code": "minion"
 	},
@@ -854,7 +854,7 @@
 		"scheme": 1,
 		"set_code": "sinister_syndicate",
 		"set_position": 5,
-		"text": "<b>Forced Interrupt:</b> When a character attacks Speed Demon, Speed Demon attacks that character. <i>(Resolve Speed Demon's attack first.)</i>\n<hr />\n[star] <b>Boost</b>: Discard the lowest-cost support you control.",
+		"text": "<b>Forced Interrupt</b>: When a character attacks Speed Demon, Speed Demon attacks that character. <i>(Resolve Speed Demon's attack first.)</i>\n<hr />\n[star] <b>Boost</b>: Discard the lowest-cost support you control.",
 		"traits": "Criminal.",
 		"type_code": "minion"
 	},
@@ -889,7 +889,7 @@
 		"quantity": 1,
 		"set_code": "sinister_syndicate",
 		"set_position": 7,
-		"text": "<b>When Revealed (Alter-Ego):</b> Each [[Criminal]] enemy in play schemes. If no enemy schemed this way, this card gains surge.\n<b>When Revealed (Hero):</b> Each [[Criminal]] enemy in play attacks you. If no enemy attacked this way, this card gains surge.",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Each [[Criminal]] enemy in play schemes. If no enemy schemed this way, this card gains surge.\n<b>When Revealed (Hero)</b>: Each [[Criminal]] enemy in play attacks you. If no enemy attacked this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
@@ -949,7 +949,7 @@
 		"quantity": 1,
 		"set_code": "standard_ii",
 		"set_position": 4,
-		"text": "<b>When Revealed (Alter-Ego):</b> Discard the top 7 cards from the encounter deck. Put the first minion discarded this way into play engaged with you.\n<b>When Revealed (Hero):</b> The villain and each minion engaged with you attacks you. This card gains surge.",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Discard the top 7 cards from the encounter deck. Put the first minion discarded this way into play engaged with you.\n<b>When Revealed (Hero)</b>: The villain and each minion engaged with you attacks you. This card gains surge.",
 		"type_code": "treachery"
 	},
 	{
@@ -1011,7 +1011,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "state_of_emergency",
 		"set_position": 1,
-		"text": "<b>When Revealed:</b> Discard the highest-cost card from your hand.",
+		"text": "<b>When Revealed</b>: Discard the highest-cost card from your hand.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1028,7 +1028,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "state_of_emergency",
 		"set_position": 2,
-		"text": "<b>When Revealed:</b> Take 3 indirect damage.",
+		"text": "<b>When Revealed</b>: Take 3 indirect damage.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1045,7 +1045,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "state_of_emergency",
 		"set_position": 3,
-		"text": "<b>When Revealed:</b> Discard the lowest-cost card you control.",
+		"text": "<b>When Revealed</b>: Discard the lowest-cost card you control.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1061,7 +1061,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "state_of_emergency",
 		"set_position": 4,
-		"text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a minion is discard. Put that minion into play engaged with you.",
+		"text": "<b>When Revealed</b>: Discard cards from the top of the encounter deck until a minion is discard. Put that minion into play engaged with you.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1075,7 +1075,7 @@
 		"quantity": 2,
 		"set_code": "state_of_emergency",
 		"set_position": 5,
-		"text": "<b>When Revealed:</b> Resolve each \"<b>When Revealed</b>\" ability on each side scheme in play. If no \"<b>When Revealed</b>\" ability was resolved this way, place 2 threat on each scheme.\n<hr />\n[star] <b>Boost</b>: Resolve this card's \"<b>When Revealed</b>\" ability.",
+		"text": "<b>When Revealed</b>: Resolve each \"<b>When Revealed</b>\" ability on each side scheme in play. If no \"<b>When Revealed</b>\" ability was resolved this way, place 2 threat on each scheme.\n<hr />\n[star] <b>Boost</b>: Resolve this card's \"<b>When Revealed</b>\" ability.",
 		"type_code": "treachery"
 	},
 	{
@@ -1089,7 +1089,7 @@
 		"quantity": 1,
 		"set_code": "streets_of_mayhem",
 		"set_position": 1,
-		"text": "Surge.<b>When Revealed:</b> Discard each other [[Setting]] environment in play.\nEach character in play gets +1 ATK.",
+		"text": "Surge.<b>When Revealed</b>: Discard each other [[Setting]] environment in play.\nEach character in play gets +1 ATK.",
 		"traits": "Location. Setting.",
 		"type_code": "environment"
 	},
@@ -1104,7 +1104,7 @@
 		"quantity": 1,
 		"set_code": "streets_of_mayhem",
 		"set_position": 2,
-		"text": "Surge.<b>When Revealed:</b> Discard each other [[Setting]] environment in play.\nEach enemy in play gains 1 acceleration icon ([acceleration]).\nEach hero and ally in play gets +1 THW.",
+		"text": "Surge.<b>When Revealed</b>: Discard each other [[Setting]] environment in play.\nEach enemy in play gains 1 acceleration icon ([acceleration]).\nEach hero and ally in play gets +1 THW.",
 		"traits": "Location. Setting.",
 		"type_code": "environment"
 	},
@@ -1120,7 +1120,7 @@
 		"quantity": 1,
 		"set_code": "streets_of_mayhem",
 		"set_position": 3,
-		"text": "Surge.<b>When Revealed:</b> Discard each other [[Setting]] environment in play.\nEach character in play gains retaliate 1.",
+		"text": "Surge.<b>When Revealed</b>: Discard each other [[Setting]] environment in play.\nEach character in play gains retaliate 1.",
 		"traits": "Location. Setting.",
 		"type_code": "environment"
 	},
@@ -1135,7 +1135,7 @@
 		"quantity": 1,
 		"set_code": "streets_of_mayhem",
 		"set_position": 4,
-		"text": "Surge.<b>When Revealed:</b> Discard each other [[Setting]] environment in play.\nEach character in play gains steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>",
+		"text": "Surge.<b>When Revealed</b>: Discard each other [[Setting]] environment in play.\nEach character in play gains steady. <i>(Steady characters require 2 status cards of the same type to be stunned or confused.)</i>",
 		"traits": "Location. Setting.",
 		"type_code": "environment"
 	},
@@ -1251,7 +1251,7 @@
 		"quantity": 1,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 6,
-		"text": "<b>When Revealed:</b> Each [[Elite]] minion in play activates against the player it is engaged with. If no minion activated this way, this card gains surge.\n<hr />\n[star] <b>Boost</b>: For each [[Elite]] minion in play, this card gets +1 boost icon ([boost]) for this activation.",
+		"text": "<b>When Revealed</b>: Each [[Elite]] minion in play activates against the player it is engaged with. If no minion activated this way, this card gains surge.\n<hr />\n[star] <b>Boost</b>: For each [[Elite]] minion in play, this card gets +1 boost icon ([boost]) for this activation.",
 		"type_code": "treachery"
 	},
 	{
@@ -1266,7 +1266,7 @@
 		"quantity": 1,
 		"set_code": "wrecking_crew_modular",
 		"set_position": 7,
-		"text": "<b>When Revealed:</b> Give each [[Brute]] enemy in play a tough status card. If no tough status card was given this way, discard cards from the top of the encounter deck until a [[Brute]] minion is discarded and reveal that minion.",
+		"text": "<b>When Revealed</b>: Give each [[Brute]] enemy in play a tough status card. If no tough status card was given this way, discard cards from the top of the encounter deck until a [[Brute]] minion is discarded and reveal that minion.",
 		"type_code": "treachery"
 	}
 ]

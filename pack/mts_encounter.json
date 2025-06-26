@@ -178,7 +178,7 @@
 		"scheme_star": true,
 		"set_code": "ebony_maw",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "[star] <b>Forced Interrupt</b>: When Ebony Maw activates against you, remove an invocation counter from each [[Spell]] card in your play area.",
 		"traits": "Black Order. Mystic.",
 		"type_code": "villain"
@@ -200,8 +200,8 @@
 		"scheme_star": true,
 		"set_code": "ebony_maw",
 		"set_position": 2,
-		"stage": 2,
-		"text": "[star] <b>Forced Interrupt</b>: When Ebony Maw activates against you, remove an invocation counter from each [[Spell]] card in your play area.\n<b>When Revealed:</b> Each player discards cards from the top of the encounter deck until they discard a [[Spell]] card and puts that card into play in their play area.",
+		"stage": "II",
+		"text": "[star] <b>Forced Interrupt</b>: When Ebony Maw activates against you, remove an invocation counter from each [[Spell]] card in your play area.\n<b>When Revealed</b>: Each player discards cards from the top of the encounter deck until they discard a [[Spell]] card and puts that card into play in their play area.",
 		"traits": "Black Order. Mystic.",
 		"type_code": "villain"
 	},
@@ -222,8 +222,8 @@
 		"scheme_star": true,
 		"set_code": "ebony_maw",
 		"set_position": 3,
-		"stage": 3,
-		"text": "[star] <b>Forced Interrupt</b>: When Ebony Maw activates against you, remove an invocation counter from each [[Spell]] card in your play area.\n<b>When Revealed:</b> Each player discards cards from the top of the encounter deck until they discard a [[Spell]] card and puts that card into play in their play area.",
+		"stage": "III",
+		"text": "[star] <b>Forced Interrupt</b>: When Ebony Maw activates against you, remove an invocation counter from each [[Spell]] card in your play area.\n<b>When Revealed</b>: Each player discards cards from the top of the encounter deck until they discard a [[Spell]] card and puts that card into play in their play area.",
 		"traits": "Black Order. Mystic.",
 		"type_code": "villain"
 	},
@@ -238,8 +238,8 @@
 		"quantity": 1,
 		"set_code": "ebony_maw",
 		"set_position": 4,
-		"stage": 1,
-		"text": "<b>Contents:</b> Ebony Maw (I) and Ebony Maw (II). <i>(Ebony Maw (II) and Ebony Maw (III) instead for expert mode.)</i> Ebony Maw and Standard encounter sets. Two modular encounter set <i>(Armies of Titan and Black Order).</i>",
+		"stage": "1A",
+		"text": "<b>Contents</b>: Ebony Maw (I) and Ebony Maw (II). <i>(Ebony Maw (II) and Ebony Maw (III) instead for expert mode.)</i> Ebony Maw and Standard encounter sets. Two modular encounter set <i>(Armies of Titan and Black Order).</i>",
 		"type_code": "main_scheme"
 	},
 	{
@@ -255,8 +255,8 @@
 		"quantity": 1,
 		"set_code": "ebony_maw",
 		"set_position": 4,
-		"stage": 1,
-		"text": "<b>When Revealed:</b> Each player discards cards from the top of the encounter deck until they discard a [[Spell]] card and puts that card into play in their play area. Shuffle the encounter discard pile into the encounter deck.",
+		"stage": "1B",
+		"text": "<b>When Revealed</b>: Each player discards cards from the top of the encounter deck until they discard a [[Spell]] card and puts that card into play in their play area. Shuffle the encounter discard pile into the encounter deck.",
 		"threat": 6,
 		"type_code": "main_scheme"
 	},
@@ -271,8 +271,8 @@
 		"quantity": 1,
 		"set_code": "ebony_maw",
 		"set_position": 5,
-		"stage": 2,
-		"text": "<b>When Revealed:</b> Shuffle the encounter discard pile into the encounter deck. Each player discards cards from the top of the encounter deck until they discard a [[Spell]] card and puts that card into play in their play area.",
+		"stage": "2A",
+		"text": "<b>When Revealed</b>: Shuffle the encounter discard pile into the encounter deck. Each player discards cards from the top of the encounter deck until they discard a [[Spell]] card and puts that card into play in their play area.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -289,7 +289,7 @@
 		"quantity": 1,
 		"set_code": "ebony_maw",
 		"set_position": 5,
-		"stage": 2,
+		"stage": "2B",
 		"text": "<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 9,
 		"type_code": "main_scheme"
@@ -305,7 +305,7 @@
 		"quantity": 2,
 		"set_code": "ebony_maw",
 		"set_position": 6,
-		"text": "Surge.\nEnters play with 4 invocation counters on it.\n<b>Forced Response:</b> After the last invocation counter is removed from Fireball, discard it → deal 4 damage to your identity.",
+		"text": "Surge.\nEnters play with 4 invocation counters on it.\n<b>Forced Response</b>: After the last invocation counter is removed from Fireball, discard it → deal 4 damage to your identity.",
 		"traits": "Spell.",
 		"type_code": "environment"
 	},
@@ -320,7 +320,7 @@
 		"quantity": 2,
 		"set_code": "ebony_maw",
 		"set_position": 8,
-		"text": "Surge.\nEnters play with 2 invocation counters on it.\n<b>Forced Response:</b> After the last invocation counter is removed from Manipulation, discard it → discard 1 card at random from your hand. You are confused.",
+		"text": "Surge.\nEnters play with 2 invocation counters on it.\n<b>Forced Response</b>: After the last invocation counter is removed from Manipulation, discard it → discard 1 card at random from your hand. You are confused.",
 		"traits": "Spell.",
 		"type_code": "environment"
 	},
@@ -335,7 +335,7 @@
 		"quantity": 2,
 		"set_code": "ebony_maw",
 		"set_position": 10,
-		"text": "Surge.\nEnters play with 3 invocation counters on it.\n<b>Forced Response:</b> After the last invocation counter is removed from Pacification, discard it → exhaust each upgrade you control. You are stunned.",
+		"text": "Surge.\nEnters play with 3 invocation counters on it.\n<b>Forced Response</b>: After the last invocation counter is removed from Pacification, discard it → exhaust each upgrade you control. You are stunned.",
 		"traits": "Spell.",
 		"type_code": "environment"
 	},
@@ -350,7 +350,7 @@
 		"quantity": 2,
 		"set_code": "ebony_maw",
 		"set_position": 12,
-		"text": "Surge.\nEnters play with 3 invocation counters on it.\n<b>Forced Response:</b> After the last invocation counter is removed from Rubblestorm, discard it → deal 2 damage to each character you control.",
+		"text": "Surge.\nEnters play with 3 invocation counters on it.\n<b>Forced Response</b>: After the last invocation counter is removed from Rubblestorm, discard it → deal 2 damage to each character you control.",
 		"traits": "Spell.",
 		"type_code": "environment"
 	},
@@ -365,7 +365,7 @@
 		"quantity": 2,
 		"set_code": "ebony_maw",
 		"set_position": 14,
-		"text": "<b>When Revealed (Alter-Ego):</b> Place 1 threat on the main scheme for each [[Spell]] environment in your play area. If you place no threat this way, this card gains surge.\n<b>When Revealed (Hero):</b> Deal 1 damage to your hero for each [[Spell]] environment in your play area. If you take no damage this way, this card gains surge.",
+		"text": "<b>When Revealed (Alter-Ego)</b>: Place 1 threat on the main scheme for each [[Spell]] environment in your play area. If you place no threat this way, this card gains surge.\n<b>When Revealed (Hero)</b>: Deal 1 damage to your hero for each [[Spell]] environment in your play area. If you take no damage this way, this card gains surge.",
 		"type_code": "treachery"
 	},
 	{
@@ -379,7 +379,7 @@
 		"quantity": 3,
 		"set_code": "ebony_maw",
 		"set_position": 16,
-		"text": "<b>When Revealed:</b> Remove 1 invocation counter from each [[Spell]] environment in your play area. If you have no [[Spell]] environments in your play area, discard cards from the top of the encounter deck until a [[Spell]] environment is discarded. Put that card into play in your play area.",
+		"text": "<b>When Revealed</b>: Remove 1 invocation counter from each [[Spell]] environment in your play area. If you have no [[Spell]] environments in your play area, discard cards from the top of the encounter deck until a [[Spell]] environment is discarded. Put that card into play in your play area.",
 		"type_code": "treachery"
 	},
 	{
@@ -393,7 +393,7 @@
 		"quantity": 1,
 		"set_code": "ebony_maw",
 		"set_position": 19,
-		"text": "Attach to Ebony Maw.\nPrevent all damage to Ebony Maw.\n<b>Forced Response:</b> After Abjuration prevents 2 or more damage from a single attack, discard it.",
+		"text": "Attach to Ebony Maw.\nPrevent all damage to Ebony Maw.\n<b>Forced Response</b>: After Abjuration prevents 2 or more damage from a single attack, discard it.",
 		"type_code": "attachment"
 	},
 	{
@@ -408,7 +408,7 @@
 		"quantity": 1,
 		"set_code": "ebony_maw",
 		"set_position": 20,
-		"text": "Attach to a friendly character with the highest ATK and exhaust it.\nAttached character cannot ready.\n<b>Hero Action:</b> Spend [energy][physical] resources → discard this card.",
+		"text": "Attach to a friendly character with the highest ATK and exhaust it.\nAttached character cannot ready.\n<b>Hero Action</b>: Spend [energy][physical] resources → discard this card.",
 		"type_code": "attachment"
 	},
 	{
@@ -426,7 +426,7 @@
 		"scheme_crisis": 1,
 		"set_code": "ebony_maw",
 		"set_position": 21,
-		"text": "<b>When Revealed:</b> Each player must choose to either take 2 damage or place 2 threat here.",
+		"text": "<b>When Revealed</b>: Each player must choose to either take 2 damage or place 2 threat here.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -465,7 +465,7 @@
 		"scheme": 2,
 		"set_code": "black_order",
 		"set_position": 2,
-		"text": "Quickstrike.\n[star] <b>Forced Response:</b> After supergiant attacks and damages a character, that character is stunned.",
+		"text": "Quickstrike.\n[star] <b>Forced Response</b>: After supergiant attacks and damages a character, that character is stunned.",
 		"traits": "Black Order. Elite.",
 		"type_code": "minion"
 	},
@@ -496,7 +496,7 @@
 		"quantity": 1,
 		"set_code": "black_order",
 		"set_position": 4,
-		"text": "<b>When Revealed:</b> Each minion engaged with a player activates against that player. Each player who is not engaged with a minion searches the encounter deck and discard pile for a [[Black Order]] minion and puts it into play engaged with them. Shuffle the encounter deck.",
+		"text": "<b>When Revealed</b>: Each minion engaged with a player activates against that player. Each player who is not engaged with a minion searches the encounter deck and discard pile for a [[Black Order]] minion and puts it into play engaged with them. Shuffle the encounter deck.",
 		"type_code": "treachery"
 	},
 	{
@@ -513,7 +513,7 @@
 		"scheme": 1,
 		"set_code": "armies_of_titan",
 		"set_position": 1,
-		"text": "Guard.\n<b>When Defeated:</b> Give the villain a tough status card.\n<hr />\n[star] <b>Boost</b>: Give the villain a tough status card.",
+		"text": "Guard.\n<b>When Defeated</b>: Give the villain a tough status card.\n<hr />\n[star] <b>Boost</b>: Give the villain a tough status card.",
 		"traits": "Black Order.",
 		"type_code": "minion"
 	},
@@ -531,7 +531,7 @@
 		"scheme": 1,
 		"set_code": "armies_of_titan",
 		"set_position": 3,
-		"text": "<b>When Revealed:</b> Discard 1 card at random from your hand.\n<hr />\n[star] <b>Boost</b>: Discard 1 card at random from your hand.",
+		"text": "<b>When Revealed</b>: Discard 1 card at random from your hand.\n<hr />\n[star] <b>Boost</b>: Discard 1 card at random from your hand.",
 		"traits": "Black Order.",
 		"type_code": "minion"
 	},
@@ -548,7 +548,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "armies_of_titan",
 		"set_position": 5,
-		"text": "<b>When Defeated:</b> Discard cards from the top of the encounter deck until a minion is discarded. Put that minion into play engaged with the player who defeated this scheme.",
+		"text": "<b>When Defeated</b>: Discard cards from the top of the encounter deck until a minion is discarded. Put that minion into play engaged with the player who defeated this scheme.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -567,8 +567,8 @@
 		"scheme": 1,
 		"set_code": "tower_defense",
 		"set_position": 1,
-		"stage": 1,
-		"text": "[star] <b>Forced Interrupt:</b> When Proxima Midnight attacks you, choose to either deal 1 damage to Avenger's Tower, or Proxima Midnight gets +2 ATK for this attack.\n<b>Proxima Midnight cannot be defeated while Corvus Glaive has any hit points remaining.</b>",
+		"stage": "I",
+		"text": "[star] <b>Forced Interrupt</b>: When Proxima Midnight attacks you, choose to either deal 1 damage to Avenger's Tower, or Proxima Midnight gets +2 ATK for this attack.\n<b>Proxima Midnight cannot be defeated while Corvus Glaive has any hit points remaining.</b>",
 		"traits": "Black Order.",
 		"type_code": "villain"
 	},
@@ -588,7 +588,7 @@
 		"scheme": 1,
 		"set_code": "tower_defense",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "II",
 		"text": "[star] <b>Forced Interrupt</b>: When Proxima Midnight attacks you, choose to either deal 1 damage to Avenger's Tower, or Proxima Midnight gets +2 ATK for this attack.\n<b> Proxima Midnight cannot be defeated while Corvus Glaive has any hit points remaining </b>",
 		"traits": "Black Order.",
 		"type_code": "villain"
@@ -609,7 +609,7 @@
 		"scheme": 2,
 		"set_code": "tower_defense",
 		"set_position": 3,
-		"stage": 3,
+		"stage": "III",
 		"text": "[star] <b>Forced Interrupt</b>: When Proxima Midnight attacks you, choose to either deal 1 damage to Avenger's Tower, or Proxima Midnight gets +2 ATK for this attack.\n<b> Proxima Midnight cannot be defeated while Corvus Glaive has any hit points remaining </b>",
 		"traits": "Black Order.",
 		"type_code": "villain"
@@ -630,7 +630,7 @@
 		"scheme": 2,
 		"set_code": "tower_defense",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "I",
 		"text": "[star] <b>Forced Interrupt</b>: After Corvus Glaive makes an undefended attack, discard the top card of the encounter deck → deal 1 damage to Avenger's Tower for each boost icon ([boost]) on that card.\n<b>Corvus Glaive cannot be defeated while Proxima Midnight has any hit points remaining.</b>",
 		"traits": "Black Order.",
 		"type_code": "villain"
@@ -651,7 +651,7 @@
 		"scheme": 2,
 		"set_code": "tower_defense",
 		"set_position": 5,
-		"stage": 2,
+		"stage": "II",
 		"text": "[star] <b>Forced Interrupt</b>: After Corvus Glaive makes an undefended attack, discard the top card of the encounter deck → deal 1 damage to Avenger's Tower for each boost icon [[boost]] on that card.\n<b> Corvus Glaive cannot be defeated while Proxima Midnight has any hit points remaining </b>",
 		"traits": "Black Order.",
 		"type_code": "villain"
@@ -672,7 +672,7 @@
 		"scheme": 3,
 		"set_code": "tower_defense",
 		"set_position": 6,
-		"stage": 3,
+		"stage": "III",
 		"text": "[star] <b>Forced Interrupt</b>: After Corvus Glaive makes an undefended attack, discard the top card of the encounter deck → deal 1 damage to Avenger's Tower for each boost icon [[boost]] on that card.\n<b> Corvus Glaive cannot be defeated while Proxima Midnight has any hit points remaining </b>",
 		"traits": "Black Order.",
 		"type_code": "villain"
@@ -688,8 +688,8 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 7,
-		"stage": 1,
-		"text": "<b>Contents:</b> Proxima Midnight I and II <i>(stages (II) and (III) instead for expert mode)</i>. Corvus Glaive I and II <i>(stages (II) and (III) instead for expert mode)</i>. Tower Defense and Standard sets. One modular encounter set <i>(Armies of Titan)</i>.\n<b>Setup:</b> Reveal stage 2A and put it into play next to this stage so there are two main schemes and two villains in play.",
+		"stage": "1A",
+		"text": "<b>Contents</b>: Proxima Midnight I and II <i>(stages (II) and (III) instead for expert mode)</i>. Corvus Glaive I and II <i>(stages (II) and (III) instead for expert mode)</i>. Tower Defense and Standard sets. One modular encounter set <i>(Armies of Titan)</i>.\n<b>Setup</b>: Reveal stage 2A and put it into play next to this stage so there are two main schemes and two villains in play.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -705,8 +705,8 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 7,
-		"stage": 1,
-		"text": "<b><i>Proxima Midnight's Scheme.</i></b>\n<b>Forced Interrupt:</b> When this stage would be completed, remove all the threat from this stage instead. Then, deal 6[per_hero] damage to Avengers Tower.",
+		"stage": "1B",
+		"text": "<b><i>Proxima Midnight's Scheme.</i></b>\n<b>Forced Interrupt</b>: When this stage would be completed, remove all the threat from this stage instead. Then, deal 6[per_hero] damage to Avengers Tower.",
 		"threat": 6,
 		"type_code": "main_scheme"
 	},
@@ -721,8 +721,8 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 8,
-		"stage": 2,
-		"text": "<b>When Revealed:</b> Put the Avengers Tower environment into play, [[stronghold]] side faceup. Put the Focused Defense attachment into play attached to this stage. Each player searches the encounter deck for a copy of Black Order Besieger and puts it into play engaged with them. Shuffle the encounter deck.",
+		"stage": "2A",
+		"text": "<b>When Revealed</b>: Put the Avengers Tower environment into play, [[stronghold]] side faceup. Put the Focused Defense attachment into play attached to this stage. Each player searches the encounter deck for a copy of Black Order Besieger and puts it into play engaged with them. Shuffle the encounter deck.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -738,8 +738,8 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 8,
-		"stage": 2,
-		"text": "<b><i>Corvus Glaive's Scheme.</i></b>\n<b>Forced Interrupt:</b> When this stage would be completed, remove all the threat from this stage instead. Then, deal each player 1 facedown encounter card.",
+		"stage": "2B",
+		"text": "<b><i>Corvus Glaive's Scheme.</i></b>\n<b>Forced Interrupt</b>: When this stage would be completed, remove all the threat from this stage instead. Then, deal each player 1 facedown encounter card.",
 		"threat": 6,
 		"type_code": "main_scheme"
 	},
@@ -754,7 +754,7 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 9,
-		"text": "The unique rule does not apply to Avengers Tower.\n<b>Forced Response:</b> After damage is placed here, if there is at least 9[per_hero] damage here, remove all of it. Then flip Avengers Tower over.",
+		"text": "The unique rule does not apply to Avengers Tower.\n<b>Forced Response</b>: After damage is placed here, if there is at least 9[per_hero] damage here, remove all of it. Then flip Avengers Tower over.",
 		"traits": "Stronghold.",
 		"type_code": "environment"
 	},
@@ -769,7 +769,7 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 9,
-		"text": "<b>When Revealed:</b> Discard each other Avengers Tower from play.\n<b>Forced Response:</b> After damage is placed here, if there is at least 9[per_hero] damage here, the players lose the game.",
+		"text": "<b>When Revealed</b>: Discard each other Avengers Tower from play.\n<b>Forced Response</b>: After damage is placed here, if there is at least 9[per_hero] damage here, the players lose the game.",
 		"traits": "Damaged.",
 		"type_code": "environment"
 	},
@@ -784,7 +784,7 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 10,
-		"text": "Permanent.\nThe villain who matches the attached scheme is the active villain.\n<b>Forced Response:</b> After the player phase ends, attach this card to the other main scheme.",
+		"text": "Permanent.\nThe villain who matches the attached scheme is the active villain.\n<b>Forced Response</b>: After the player phase ends, attach this card to the other main scheme.",
 		"type_code": "attachment"
 	},
 	{
@@ -801,7 +801,7 @@
 		"scheme": 1,
 		"set_code": "tower_defense",
 		"set_position": 11,
-		"text": "<b>Forced Response:</b> After Black Order Besieger engages you, choose to either deal 1 damage to Avengers Tower or deal 2 damage to your identity.",
+		"text": "<b>Forced Response</b>: After Black Order Besieger engages you, choose to either deal 1 damage to Avengers Tower or deal 2 damage to your identity.",
 		"traits": "Black Order.",
 		"type_code": "minion"
 	},
@@ -819,7 +819,7 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 15,
-		"text": "Attach to Proxima Midnight.\n[star] Proxima Midnight's attacks gain overkill and piercing.\n<b>Hero Action:</b> Take 1 damage and spend [energy] [mental] resources → discard this card.",
+		"text": "Attach to Proxima Midnight.\n[star] Proxima Midnight's attacks gain overkill and piercing.\n<b>Hero Action</b>: Take 1 damage and spend [energy] [mental] resources → discard this card.",
 		"traits": "Weapon.",
 		"type_code": "attachment"
 	},
@@ -867,7 +867,7 @@
 		"quantity": 2,
 		"set_code": "tower_defense",
 		"set_position": 19,
-		"text": "<b>When Revealed:</b> Proxima Midnight activates against you.\n<hr />\n[star] <b>Boost</b>: Add the other villain's SCH and ATK to this villain's SCH and ATK for this activation.",
+		"text": "<b>When Revealed</b>: Proxima Midnight activates against you.\n<hr />\n[star] <b>Boost</b>: Add the other villain's SCH and ATK to this villain's SCH and ATK for this activation.",
 		"type_code": "treachery"
 	},
 	{
@@ -881,7 +881,7 @@
 		"quantity": 2,
 		"set_code": "tower_defense",
 		"set_position": 21,
-		"text": "<b>When Revealed:</b> Corvus Glaive activates against you.\n<hr />\n[star] <b>Boost</b>: Add the other villain's SCH and ATK to this villain's SCH and ATK for this activation.",
+		"text": "<b>When Revealed</b>: Corvus Glaive activates against you.\n<hr />\n[star] <b>Boost</b>: Add the other villain's SCH and ATK to this villain's SCH and ATK for this activation.",
 		"type_code": "treachery"
 	},
 	{
@@ -895,7 +895,7 @@
 		"quantity": 1,
 		"set_code": "tower_defense",
 		"set_position": 23,
-		"text": "<b>When Revealed:</b> Heal 2 damage from each villain. Give each villain a tough status card.\n<hr />\n[star] <b>Boost</b>: Heal 2 damage from the active villain and give it a tough status card.",
+		"text": "<b>When Revealed</b>: Heal 2 damage from each villain. Give each villain a tough status card.\n<hr />\n[star] <b>Boost</b>: Heal 2 damage from the active villain and give it a tough status card.",
 		"type_code": "treachery"
 	},
 	{
@@ -926,7 +926,7 @@
 		"scheme_crisis": 1,
 		"set_code": "tower_defense",
 		"set_position": 26,
-		"text": "Hinder 1[per_hero].\n<b>When Defeated:</b> The player who defeated this scheme draws 1 card.",
+		"text": "Hinder 1[per_hero].\n<b>When Defeated</b>: The player who defeated this scheme draws 1 card.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -944,8 +944,8 @@
 		"scheme": 1,
 		"set_code": "thanos",
 		"set_position": 1,
-		"stage": 1,
-		"text": "Stalwart. <i>(This character cannot be stunned or confused.)</i>\n<b>Forced Response:</b> After the [[infinity stone]] deck runs out, give Thanos 1 facedown boost card.",
+		"stage": "I",
+		"text": "Stalwart. <i>(This character cannot be stunned or confused.)</i>\n<b>Forced Response</b>: After the [[infinity stone]] deck runs out, give Thanos 1 facedown boost card.",
 		"traits": "Black Order. Titan.",
 		"type_code": "villain"
 	},
@@ -964,8 +964,8 @@
 		"scheme": 2,
 		"set_code": "thanos",
 		"set_position": 2,
-		"stage": 2,
-		"text": "Stalwart. Toughness.\n<b>When Revealed:</b> Search the encounter deck and discard pile for Thanos's Helmet and reveal it. <i>(Shuffle.)</i>\n<b>Forced Response:</b> After the [[infinity stone]] deck runs out, give Thanos 1 facedown boost card.",
+		"stage": "II",
+		"text": "Stalwart. Toughness.\n<b>When Revealed</b>: Search the encounter deck and discard pile for Thanos's Helmet and reveal it. <i>(Shuffle.)</i>\n<b>Forced Response</b>: After the [[infinity stone]] deck runs out, give Thanos 1 facedown boost card.",
 		"traits": "Black Order. Titan.",
 		"type_code": "villain"
 	},
@@ -984,8 +984,8 @@
 		"scheme": 2,
 		"set_code": "thanos",
 		"set_position": 3,
-		"stage": 3,
-		"text": "Stalwart. Toughness.\n<b>When Revealed:</b> Search the encounter deck and discard pile for Thanos's Helmet and reveal it. <i>(Shuffle.)</i>\n<b>Forced Response:</b> After the [[infinity stone]] deck runs out, give Thanos 1 facedown boost card.",
+		"stage": "III",
+		"text": "Stalwart. Toughness.\n<b>When Revealed</b>: Search the encounter deck and discard pile for Thanos's Helmet and reveal it. <i>(Shuffle.)</i>\n<b>Forced Response</b>: After the [[infinity stone]] deck runs out, give Thanos 1 facedown boost card.",
 		"traits": "Black Order. Titan.",
 		"type_code": "villain"
 	},
@@ -1000,8 +1000,8 @@
 		"quantity": 1,
 		"set_code": "thanos",
 		"set_position": 4,
-		"stage": 1,
-		"text": "<b>Contents:</b> Thanos I and Thanos II <i>(Thanos II and Thanos III for expert mode)</i>. Thanos, Infinity Gaultlet and Standard sets. Two modular sets <i>(Black Order and Children of Thanos)</i>. See rules insert for The Infinity Gauntlet rules.",
+		"stage": "1A",
+		"text": "<b>Contents</b>: Thanos I and Thanos II <i>(Thanos II and Thanos III for expert mode)</i>. Thanos, Infinity Gaultlet and Standard sets. Two modular sets <i>(Black Order and Children of Thanos)</i>. See rules insert for The Infinity Gauntlet rules.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -1018,8 +1018,8 @@
 		"quantity": 1,
 		"set_code": "thanos",
 		"set_position": 4,
-		"stage": 1,
-		"text": "<b>When Revealed:</b> Put the top card of the [[infinity stone]] deck into play. Search the encounter deck for the Sanctuary side scheme and reveal it. <i>(Shuffle the encounter deck.)</i>",
+		"stage": "1B",
+		"text": "<b>When Revealed</b>: Put the top card of the [[infinity stone]] deck into play. Search the encounter deck for the Sanctuary side scheme and reveal it. <i>(Shuffle the encounter deck.)</i>",
 		"threat": 12,
 		"type_code": "main_scheme"
 	},
@@ -1034,7 +1034,7 @@
 		"quantity": 1,
 		"set_code": "thanos",
 		"set_position": 5,
-		"stage": 2,
+		"stage": "2A",
 		"text": "<b>If this stage is completed, the players lose the game.</b>",
 		"type_code": "main_scheme"
 	},
@@ -1051,8 +1051,8 @@
 		"quantity": 1,
 		"set_code": "thanos",
 		"set_position": 5,
-		"stage": 2,
-		"text": "<b>When Revealed:</b> Each player shuffles their discard pile into their deck. Each player removes the top half of their deck (rounded down) from the game.",
+		"stage": "2B",
+		"text": "<b>When Revealed</b>: Each player shuffles their discard pile into their deck. Each player removes the top half of their deck (rounded down) from the game.",
 		"threat": 12,
 		"type_code": "main_scheme"
 	},
@@ -1070,7 +1070,7 @@
 		"quantity": 1,
 		"set_code": "thanos",
 		"set_position": 6,
-		"text": "Hinder 1[per_hero]. Victory 1.\nThanos cannot take damage from player cards.\n<b>When Defeated:</b> Each player may spend up to 3 [physical] resources from their hand. Deal 2 damage to Thanos for each [physical] resource spent this way. This damage ignores the tough status card.",
+		"text": "Hinder 1[per_hero]. Victory 1.\nThanos cannot take damage from player cards.\n<b>When Defeated</b>: Each player may spend up to 3 [physical] resources from their hand. Deal 2 damage to Thanos for each [physical] resource spent this way. This damage ignores the tough status card.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1085,7 +1085,7 @@
 		"quantity": 1,
 		"set_code": "thanos",
 		"set_position": 7,
-		"text": "Attach to Thanos.\n<b>Forced Interrupt</b>: When Thanos would take any amount of damage, reduce that amount by 1.\n<b>Hero Response:<b> After a hero makes a basic attack against Thanos, spend [energy] [physical] resources → discard this card.",
+		"text": "Attach to Thanos.\n<b>Forced Interrupt</b>: When Thanos would take any amount of damage, reduce that amount by 1.\n<b>Hero Response</b>: After a hero makes a basic attack against Thanos, spend [energy] [physical] resources → discard this card.",
 		"traits": "Armor.",
 		"type_code": "attachment"
 	},
@@ -1120,7 +1120,7 @@
 		"scheme_star": true,
 		"set_code": "thanos",
 		"set_position": 9,
-		"text": "Attach to Thanos. [star] <b>Forced Interrupt:</b> When Thanos activates, put the top card of the [[infinity stone]] deck into play. At the end of this activation, discard Master of the Stones.",
+		"text": "Attach to Thanos. [star] <b>Forced Interrupt</b>: When Thanos activates, put the top card of the [[infinity stone]] deck into play. At the end of this activation, discard Master of the Stones.",
 		"type_code": "attachment"
 	},
 	{
@@ -1162,7 +1162,7 @@
 		"quantity": 2,
 		"set_code": "thanos",
 		"set_position": 15,
-		"text": "<b>When Revealed:</b>Give Thanos 1 facedown boost card.\n<hr />\n[star] <b>Boost</b>: Discard the top card of the [[infinity stone]] deck. Apply its boost icons ([boost]) for this activation as if it were a boost card.",
+		"text": "<b>When Revealed</b>:Give Thanos 1 facedown boost card.\n<hr />\n[star] <b>Boost</b>: Discard the top card of the [[infinity stone]] deck. Apply its boost icons ([boost]) for this activation as if it were a boost card.",
 		"type_code": "treachery"
 	},
 	{
@@ -1176,7 +1176,7 @@
 		"quantity": 2,
 		"set_code": "thanos",
 		"set_position": 17,
-		"text": "<b>When Revealed:</b> Put the top card of the infinity stone deck into play.\n<hr />\n[star] <b>Boost</b>: If damage from this attack defeats an ally, put the top card of the infinity stone deck into play",
+		"text": "<b>When Revealed</b>: Put the top card of the infinity stone deck into play.\n<hr />\n[star] <b>Boost</b>: If damage from this attack defeats an ally, put the top card of the infinity stone deck into play",
 		"type_code": "treachery"
 	},
 	{
@@ -1192,7 +1192,7 @@
 		"scheme_amplify": 1,
 		"set_code": "thanos",
 		"set_position": 19,
-		"text": "<b>When Revealed:</b> Put the top card of the [[infinity stone]] deck into play.",
+		"text": "<b>When Revealed</b>: Put the top card of the [[infinity stone]] deck into play.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1267,7 +1267,7 @@
 		"scheme_crisis": 1,
 		"set_code": "children_of_thanos",
 		"set_position": 4,
-		"text": "<b>When Defeated:</b> Deal the player who defeated this scheme a facedown encounter card",
+		"text": "<b>When Defeated</b>: Deal the player who defeated this scheme a facedown encounter card",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1399,7 +1399,7 @@
 		"scheme_star": true,
 		"set_code": "hela",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "A1",
 		"text": "[star] Hela gets +1 SCH, +1 ATK and +2[per_hero] hit points for each side scheme in victory display.\n<b> When Hela is defeated, if Odin is not attached to the main scheme, you win the game </b>",
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
@@ -1419,7 +1419,7 @@
 		"scheme": 0,
 		"set_code": "hela",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "A2",
 		"text": "Hela cannot be defeated.\n<b>Forced Response</b>: After a side scheme is defeated, flip Hela to her [[mystic]] side.",
 		"traits": "Asgard. Wounded.",
 		"type_code": "villain"
@@ -1442,7 +1442,7 @@
 		"scheme_star": true,
 		"set_code": "hela",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "B1",
 		"text": "[star] Hela gets +1 SCH, +1 ATK and +3[per_hero] hit points for each side scheme in victory display.\n<b> When Hela is defeated, if Odin is not attached to the main scheme, you win the game </b>",
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
@@ -1462,7 +1462,7 @@
 		"scheme": 1,
 		"set_code": "hela",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "B2",
 		"text": "Hela cannot be defeated.\n<b>Forced Response</b>: After a side scheme is defeated, flip Hela to her [[mystic]] side.",
 		"traits": "Asgard. Wounded.",
 		"type_code": "villain"
@@ -1478,7 +1478,7 @@
 		"quantity": 1,
 		"set_code": "hela",
 		"set_position": 3,
-		"stage": 1,
+		"stage": "1A",
 		"text": "<b> Contents: </b> Villain deck Hela A (Hela B instead for expert mode). Hela and standard sets. Two modular encounter sets (Legions of Hel and Frost Giants).\n<b> Setup: </b> Attach Odin to the main scheme, [[captive]] side faceup. Reveal Gnipahellir and Garm. Set Gjallerbru, Skurge, Hall of Nastrond, and Nidhogg aside, out of play. Shuffle the encounter deck.",
 		"type_code": "main_scheme"
 	},
@@ -1495,7 +1495,7 @@
 		"quantity": 1,
 		"set_code": "hela",
 		"set_position": 3,
-		"stage": 1,
+		"stage": "1B",
 		"text": "<b> Forced Interrupt: </b> When Hela would be defeated, if Odin is attached to this scheme, discard each attachment from Hela and flip her to her [[wounded]] side instead.\n<b> If this scheme is completed, the players lose the game. </b>",
 		"threat": 18,
 		"type_code": "main_scheme"
@@ -1768,7 +1768,7 @@
 		"scheme": 1,
 		"set_code": "legions_of_hel",
 		"set_position": 1,
-		"text": "Guard.\n<b> When Revealed:</b> Choose to either take 1 damage or place 1 threat on the main scheme.",
+		"text": "Guard.\n<b> When Revealed</b>: Choose to either take 1 damage or place 1 threat on the main scheme.",
 		"traits": "Undead.",
 		"type_code": "minion"
 	},
@@ -1834,7 +1834,7 @@
 		"scheme": 2,
 		"set_code": "frost_giants",
 		"set_position": 1,
-		"text": "Toughness.\n[star] <b>Forced Response:</b> After Laufey attacks and damages a character, stun that character.",
+		"text": "Toughness.\n[star] <b>Forced Response</b>: After Laufey attacks and damages a character, stun that character.",
 		"traits": "Elite. Giant.",
 		"type_code": "minion"
 	},
@@ -1884,7 +1884,7 @@
 		"quantity": 1,
 		"set_code": "frost_giants",
 		"set_position": 6,
-		"text": "Heroes and allies cannot be readied by player card effects.\n<b> When Revealed:</b> Exhaust each ally in play.",
+		"text": "Heroes and allies cannot be readied by player card effects.\n<b> When Revealed</b>: Exhaust each ally in play.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -1902,7 +1902,7 @@
 		"scheme": 2,
 		"set_code": "loki",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "Victory 1.\nLoki cannot take damage while a side scheme is in play.\n<b> When Defeated: </b> Discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that side scheme.",
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
@@ -1922,7 +1922,7 @@
 		"scheme": 2,
 		"set_code": "loki",
 		"set_position": 2,
-		"stage": 1,
+		"stage": "I",
 		"text": "Retaliate 1. Victory 1.\n<b> When Defeated: </b> Discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that side scheme.",
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
@@ -1942,7 +1942,7 @@
 		"scheme": 1,
 		"set_code": "loki",
 		"set_position": 3,
-		"stage": 1,
+		"stage": "I",
 		"text": "Stalwart. Victory 1.\n<b> When Defeated: </b> Discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that side scheme.",
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
@@ -1962,7 +1962,7 @@
 		"scheme": 3,
 		"set_code": "loki",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "I",
 		"text": "Stalwart. Victory 1.\n<b> When Defeated: </b> Discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that side scheme.",
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
@@ -1983,7 +1983,7 @@
 		"scheme": 1,
 		"set_code": "loki",
 		"set_position": 5,
-		"stage": 1,
+		"stage": "I",
 		"text": "Victory 1.\n[star] Loki's attacks gain piercing.\n<b> When Defeated: </b> Discard cards from the top of the encounter deck until a side scheme is discarded. Reveal that side scheme.",
 		"traits": "Asgard. Mystic.",
 		"type_code": "villain"
@@ -1999,8 +1999,8 @@
 		"quantity": 1,
 		"set_code": "loki",
 		"set_position": 6,
-		"stage": 1,
-		"text": "<b>Contents</b>: Loki, Infinity Gauntlet, and Standard encounter sets. Two modular encounter sets. <i>(Enchantress and Frost Giants).</i>\n<b>Setup:</b> Set each copy of the Loki villain aside, out of play. Put the War in Asgard side scheme into play. Shuffle the encounter deck. Reveal 1 set-aside Loki villain at random. Reveal the top card of the [[infinity stone]] deck.",
+		"stage": "1A",
+		"text": "<b>Contents</b>: Loki, Infinity Gauntlet, and Standard encounter sets. Two modular encounter sets. <i>(Enchantress and Frost Giants).</i>\n<b>Setup</b>: Set each copy of the Loki villain aside, out of play. Put the War in Asgard side scheme into play. Shuffle the encounter deck. Reveal 1 set-aside Loki villain at random. Reveal the top card of the [[infinity stone]] deck.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -2016,7 +2016,7 @@
 		"quantity": 1,
 		"set_code": "loki",
 		"set_position": 6,
-		"stage": 1,
+		"stage": "1B",
 		"text": "<b>Forced Interrupt</b>: When Loki is defeated, advance to a random set-aside Loki villain.\n<b> If the number of Lokis in the victory display is equal to the victory condition, the players win the game. (See rule insert.) If this stage is completed, the players lose the game.</b>",
 		"threat": 12,
 		"type_code": "main_scheme"
