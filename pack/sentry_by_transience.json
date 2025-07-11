@@ -91,7 +91,7 @@
         "cost": 2,
         "position": 4,
         "quantity": 2,
-        "traits": "Attaque. Super-pouvoir.",		
+        "traits": "Super-pouvoir.",		
         "resource_physical": 1,
         "set_position": 4,
         "deck_limit": 2
@@ -114,7 +114,7 @@
     },
     {
         "name": "Moment de lucidité",
-        "text": "<b>Action</b> : retirez jusqu'&#224; 2 jetons Ombre de Ennemi int&#233;rieur.",
+        "text": "<b>Action</b> : retirez jusqu'&#224; 3 jetons Ombre de Ennemi int&#233;rieur.",
         "type_code": "event",
         "faction_code": "hero",
         "set_code": "sentry_by_transience",
@@ -130,7 +130,7 @@
     },
     {
         "name": "Rayonnement solaire",
-        "text": "<b>Action de h&#233;ros</b> <i>(contre)</i> : ajoutez X jetons Ombre sur Ennemi int&#233;rieur (jusqu'&#224; un maximum de 3). Retirez 2 menaces pour chaque jeton ajout&#233; parmi les manigances de votre choix en ignorant les icônes de Crise ([[crisis]]).",
+        "text": "<b>Action de h&#233;ros</b> <i>(contre)</i> : ajoutez X jetons Ombre sur Ennemi int&#233;rieur (jusqu'&#224; un maximum de 3). Retirez 2 menaces pour chaque jeton ajout&#233; parmi les manigances de votre choix en ignorant les icônes de Crise ([crisis]).",
         "type_code": "event",
         "faction_code": "hero",
         "set_code": "sentry_by_transience",
@@ -142,7 +142,8 @@
         "quantity": 2,
         "resource_energy": 1,
         "set_position": 9,
-        "deck_limit": 2
+        "deck_limit": 2,
+        "traits": "Contre. Super-pouvoir."
     },
     {
         "name": "Sauvetage in extremis",
@@ -158,7 +159,9 @@
         "quantity": 1,
         "resource_wild": 1,
         "set_position": 11,
-        "deck_limit": 1
+        "deck_limit": 1,
+        "traits": "Super-pouvoir."
+
     },			
     {
         "is_unique": true,
@@ -191,7 +194,7 @@
         "attack": 0,
         "health": 1,
         "thwart": 0,
-        "cost": 2,
+        "cost": 1,
         "position": 10,
         "quantity": 1,
         "traits": "Civil.",
@@ -237,7 +240,7 @@
     },
     {
         "name": "Résister à l'Obscurité;",
-        "text": "<b>R&#233;ponse forc&#233;e</b> : Quand cette carte entre dans votre pile de d&#233;fausse \u2192 ajoutez 2 jetons Ombre sur Ennemi int&#233;rieur.\n<b>Action</b> : ajoutez 1 jeton Ombre sur Ennemi int&#233;rieur \u2192 redressez votre identit&#233;.<br>\nEnsuite, m&#233;langez cette carte dans votre deck.\n",
+        "text": "<b>Action</b> : Choisissez une option parmi les suivantes :\n - redressez votre identit&#233; \u2192 Ajoutez 1 jeton Ombre sur Ennemi int&#233;rieur.\n - retirez 2 jetons Ombre sur Ennemi intérieur.\n\nEnsuite, m&#233;langez cette carte dans votre deck.\n\n<b>R&#233;ponse forc&#233;e</b> : Quand cette carte entre dans votre pile de d&#233;fausse <code>-</code> ajoutez 1 jeton Ombre sur Ennemi int&#233;rieur.",
         "type_code": "event",
         "faction_code": "hero",
         "set_code": "sentry_by_transience",
