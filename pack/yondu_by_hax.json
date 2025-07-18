@@ -151,8 +151,9 @@
         "resource_wild": 1,
         "set_code": "yondu_by_hax",
         "set_position": 10,
-        "text": "<b>Response</b>: After you spend this card, treat the next card you spend as if it has double the resources.",
-        "type_code": "resource"
+        "text": "<b>Response</b>: After you spend this card, treat the next card you spend this phase as if it has double the resources.",
+        "type_code": "resource",
+        "errata" : "added \"this phase\" (Prout/Hax)"
     },
     {
         "code": "201308",
@@ -200,9 +201,10 @@
         "resource_mental": 1,
         "set_code": "yondu_by_hax",
         "set_position": 13,
-        "text": "<b>Hero Response</b>: After the Yaka Arrow upgrade is attached to a minion, exhaust Ravage \u2192 that minion gains fragile. <i>(Attacks against fragile minions gain overkill.)</i>",
+        "text": "<b>Hero Response</b>: After the Yaka Arrow upgrade is attached to a minion, exhaust Ravage \u2192 that minion gains fragile until the end of the round. <i>(Attacks against fragile minions gain overkill.)</i>",
         "traits": "Skill. Tactic.",
-        "type_code": "upgrade"
+        "type_code": "upgrade",
+        "errata" : "added \"until the end of the round\" (Marvellous)"
     },
     {
         "code": "201311",
