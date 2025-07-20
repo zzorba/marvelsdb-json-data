@@ -20,7 +20,7 @@
     {
         "is_unique": true,
         "name": "Surge",
-        "text": "<i>Uncontrolled Surge</i> \u2014 <b>Forced Response</b>: After you play a card with a printed [energy] resource, draw 1 card. If a card with a printed [energy] resource was drawn this way, take 1 damage. (Limit once per phase.)",
+        "text": "<i>Uncontrolled Surge</i> \u2014 <b>Forced Response</b>: After you play a card with a printed [energy] resource, ready your identity and draw 1 card. If a card with a printed [energy] resource was drawn this way, take 1 damage. (Limit once per phase.)",
         "type_code": "hero",
         "faction_code": "hero",
         "set_code": "surge_by_xb",
@@ -44,18 +44,12 @@
             ],
             "offset": "-35px -33px"
         },
-        "traits": "X-Men.",
-        "deck_options": [
-			{
-				"limit": 5,
-				"ressource" : "resource_energy"
-  			}
-		]
+        "traits": "X-Men."
     },
     {
         "is_unique": true,
         "name": "Prodigy",
-        "text": "<i>Mimic </i>\u2014 <b>Response</b>: After a character you control makes a basic thwart, Prodigy gets +1 THW until the end of the phase (to a maximum of +3 THW).",
+        "text": "<i>Mimic </i>\u2014 <b>Response</b>: After a character you control thwarts, Prodigy gets +1 THW until the end of the phase (to a maximum of +3 THW).",
         "type_code": "ally",
         "faction_code": "hero",
         "set_code": "surge_by_xb",
@@ -64,7 +58,7 @@
         "octgn_id": "1c7b60ea-0ca6-574b-9cd5-254b7a000002",
         "attack": 1,
         "health": 3,
-        "thwart": 1,
+        "thwart": 2,
         "cost": 3,
         "position": 2,
         "quantity": 1,
@@ -78,7 +72,7 @@
     },
     {
         "name": "Gauntlets",
-        "text": "<b>Hero Interrupt</b>: When your \u201c<i>Uncontrolled Surge</i>\u201c<b> </b>ability would resolve, cancel that effect.\n<b>Response</b>: After you play a card with a printed [energy] resource, exhaust Gauntlets \u2192 draw 1 card.",
+        "text": "<b>Forced Interrupt</b>: When you would take damage from \u201c<i>Uncontrolled Surge</i>\u201c, cancel that damage.\n<b>Action</b>: Exhaust Gauntlets \u2192 shuffle 1 identity-specific card from your discard pile into your deck.",
         "type_code": "upgrade",
         "faction_code": "hero",
         "set_code": "surge_by_xb",
@@ -95,14 +89,14 @@
     },
     {
         "name": "Double Strike",
-        "text": "<b>Hero Response</b>: After you play a card with a printed [energy] resource, exhaust Double Strike \u2192 ready your identity.",
+        "text": "<b>Hero Action</b>: Discard 1 card from your hand \u2192 deal 1 damage to an enemy.\n<b>Hero Response</b>: After you discard a card with a printed [energy] resource, deal 1 damage to an enemy.",
         "type_code": "upgrade",
         "faction_code": "hero",
         "set_code": "surge_by_xb",
         "pack_code": "surge_by_xb",
         "code": "250104",
         "octgn_id": "1c7b60ea-0ca6-574b-9cd5-254b7a000004",
-        "cost": 2,
+        "cost": 1,
         "position": 4,
         "quantity": 1,
         "traits": "Skill.",
@@ -129,7 +123,7 @@
     },
     {
         "name": "Intense Training",
-        "text": "<b>Action</b>: Exhaust your identity and an ally you control \u2192 choose up to 3 identity specific cards in your discard pile and place them on the top of your deck. Draw 1 card.",
+        "text": "<b>Action</b>: Exhaust your identity and an ally you control \u2192 shuffle up to 3 identity specific cards from your discard pile into your deck. Draw 2 cards. If you are in hero form, discard 1 card from your hand.",
         "type_code": "support",
         "faction_code": "hero",
         "set_code": "surge_by_xb",
@@ -146,7 +140,7 @@
     },
     {
         "name": "Keep At Bay",
-        "text": "<b>Hero Interrupt</b><i> (defense)</i>: When a friendly character would take any amount of damage from an attack, prevent 3 of that damage. If you paid for this card using a [energy] resource, prevent 2 additional damage and deal 2 damage to the attacker.",
+        "text": "<b>Hero Interrupt</b><i> (defense)</i>: When a friendly character would take any amount of damage from an attack, prevent 3 of that damage. If you paid for this card using a [energy] resource, deal 3 damage to the attacker.",
         "type_code": "event",
         "faction_code": "hero",
         "set_code": "surge_by_xb",
@@ -180,7 +174,7 @@
     },
     {
         "name": "Situation Control",
-        "text": "<b>Hero Action </b><i>(thwart)</i>: Remove 3 threat from a scheme. You may exhaust an ally you control to remove 2 threat from a scheme.",
+        "text": "<b>Hero Action </b><i>(thwart)</i>: Remove 3 threat from a scheme. You may exhaust an ally you control to remove 3 threat from a scheme.",
         "type_code": "event",
         "faction_code": "hero",
         "set_code": "surge_by_xb",
@@ -214,7 +208,7 @@
     },
     {
         "name": "Lead the Team",
-        "text": "<b>Hero Action</b>: Ready your identity. For each [energy] resource you overpaid for Lead the Team\u2019s cost, ready a card with a printed [energy] resource.",
+        "text": "<b>Hero Action</b>: Ready your identity. Return the topmost ally with a printed [energy] resource in your discard pile to your hand.",
         "type_code": "event",
         "faction_code": "hero",
         "set_code": "surge_by_xb",
