@@ -49,7 +49,7 @@
     {
         "is_unique": true,
         "name": "Havok",
-        "text": "<b>Response</b>: After Havok attacks, put each copy of Magnetized Debris in your discard pile on top of your deck (limit once per round).\n<i>\"... this is what I have been most afraid of, ever since I first manifested my powers - using it to kill.\"</i>",
+        "text": "<b>Response</b>: After Havok attacks, put each copy of Magnetized Debris in your discard pile on top of your deck (limit once per phase).\n<i>\"... this is what I have been most afraid of, ever since I first manifested my powers - using it to kill.\"</i>",
         "type_code": "ally",
         "faction_code": "hero",
         "set_code": "polaris_by_jackhkp",
@@ -243,17 +243,19 @@
         "deck_limit": 1
     },
     {
-        "name": "Energetic Duo",
-        "text": "Team-Up (Havok and Polaris). Max 1 per deck.\n<b>Hero Response</b>: After Havok deals any amount of damage, each player who controls Havok or Polaris may search their deck for an identity-specific card (up to 2 identity-specific cards instead if they control both) and add them to their hand.",
+        "name": "Magnetic Poles",
+        "text": "Team-Up (Magneto and Polaris). Max 1 per deck.\n<b>Hero Action</b>: Search your deck for a [[magnetic]] card and add it to your hand. Remove this card from the game.",
         "type_code": "event",
         "faction_code": "basic",
         "pack_code": "polaris_by_jackhkp",
-        "code": "200423",
-        "octgn_id": "ab4e6448-4f17-5734-8f18-f41e30000023",
-        "cost": 1,
-        "position": 17,
+        "code": "200424",
+        "octgn_id": "ab4e6448-4f17-5734-8f18-f41e30000024",
+        "cost": 0,
+        "position": 18,
         "quantity": 1,
         "deck_limit": 1,
-        "resource_energy": 1
+        "traits": " Magnetic.",
+        "resource_mental": 1
     }
+
 ]
