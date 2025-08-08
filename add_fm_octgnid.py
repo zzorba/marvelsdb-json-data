@@ -1,8 +1,8 @@
 import json
 import uuid
 
-runFile = 'yondu_by_hax_encounter.json'
-pack_code = 'yondu_by_hax'
+runFile = 'hunting_season_by_nugget_encounter.json'
+pack_code = 'hunting_season_by_nugget'
 
 with open('./packs_fanmade.json') as json_file:
     pack_data = json.load(json_file)
