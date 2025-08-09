@@ -22,14 +22,14 @@
 	},
 	{
 		"code": "39002b",
-		"flavor": "Teleported into a bizarre arena, you must fight for the audience's entertainment...y your lives!",
+		"flavor": "¡Habeís sido teletransportados a un extraño coliseo en el que deberéis luchar por la diversión del público... y por vuestras vidas!",
 		"name": "El coliseo de Mojo (1B)",
 		"text": "Los jugadores no pueden ganar la partida a menos que deleiten al público como Los aspirantes.\n[star] <b>Interrupción obligada</b>: cuando vaya a completarse este Plan, coloca 2[per_hero] contadores de Audiencia sobre El campeón y quita toda la Amenaza de esta carta."
 	},
 	{
 		"back_link": "39003b",
 		"code": "39003a",
-		"flavor": "\"In this corner, we have your ninety-nine time defending Mojoverse champion, the mighty MaGog!\"",
+		"flavor": "\"¡En este rincón tenemos al noventa y nueve veces invicto campeón del Mojoverso, el poderoso MaGog!\" — Mojo",
 		"name": "El campeón",
 		"text": "Si hay al menos 5[per_hero] contadores de Audiencia sobre esta carta, dale la vuelta a este Entorno <i>(sin quitarle los contadores de Audiencia)</i>.",
 		"traits": "Abucheos."
@@ -43,7 +43,7 @@
 	{
 		"back_link": "39004b",
 		"code": "39004a",
-		"flavor": "\"And in this corner, hailing from the tiny, insignificant planet of Earth, we have our challengers!\" — Mojo",
+		"flavor": "\"¡Y en el otro rincón, procedentes de un planetucho insignificante llamado Tierra, tenemos a los aspirantes!\" — Mojo",
 		"name": "Los aspirantes",
 		"text": "Si hay al menos 5[per_hero] contadores de Audiencia sobre esta carta, dale la vuelta a este Entorno <i>(sin quitarle los contadores de Audiencia)</i>.\n<i>(Los jugadores deleitan al público colocando contadores de Audiencia sobre esta carta.)</i>",
 		"traits": "Abucheos."
@@ -62,6 +62,7 @@
 	},
 	{
 		"code": "39006",
+		"flavor": "\"¡Quédate quieto para que pueda machacarte!\" — MaGog",
 		"name": "Arrebato de violencia",
 		"text": "Vincula esta carta a MaGog.\n<b>Respuesta obligada</b>: después de que se restablezca la Vida de MaGog, coloca 1[per_hero] contadores de Audiencia sobre Los aspirantes y descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: muestra esta carta.",
 		"traits": "Alteración."
@@ -74,6 +75,7 @@
 	},
 	{
 		"code": "39008",
+		"flavor": "\"¡Va por vosotros!\" — MaGog",
 		"name": "Animar al público",
 		"text": "<b>Cuando se muestre esta carta</b>: si El campeón tiene boca arriba su cara de [[VÍTORES]], coloca 1[per_hero] contador de Amenaza adicional sobre esta carta.\n<b>Cuando se derrote esta carta</b>: coloca 1[per_hero] contadores de Audiencia sobre Los aspirantes."
 	},
@@ -84,6 +86,7 @@
 	},
 	{
 		"code": "39010",
+		"flavor": "\"¡¿Os habéis divertido?!\" — MaGog",
 		"name": "Defender el título",
 		"text": "<b>Cuando se muestre esta carta (Alter ego)</b>: coloca 2 contadores de Audencia sobre El campeón.\n<b>Cuando se muestre esta carta (Héroe)</b>: MaGog te ataca. Si un Héroe defiende contra este ataque y no sufre Daño, coloca 2 contadores de Audencia sobre Los aspirantes."
 	},
@@ -139,12 +142,13 @@
 	},
 	{
 		"code": "39015b",
-		"flavor": "If you want to return home, you'll need the help of the teleporting sorceress, Espiral. But she will need some convincing.",
+		"flavor": "Si queréis volver a casa, necesitaréis la ayuda de Espiral y su don mágico para el teletransporte. Pero no será fácil convencerla.",
 		"name": "Viaje por el Mojoverso (1B)",
 		"text": "<b>Interrupción obligada</b>: cuando vaya a descartarse un Entorno [[SERIE]], en vez de eso colócalo en la parte inferior del mazo de Series.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
 	},
 	{
 		"code": "39016",
+		"flavor": "Espiral se oculta en una de las numerosas series de televisión producidas por Mojo",
 		"name": "La búsqueda de Espiral",
 		"text": "Permanente.\n<b>Respuesta obligada</b>: después de que se quite la última ficha de Amenaza de esta carta, el jugador que la haya quitado muestra la primera carta de la parte superior del mazo de Series y coloca 3[per_hero] de Amenaza sobre esta carta.\n<b>Acción de Héroe</b>: sufres 2 de Daño. Quita 3 de Amenaza de esta carta."
 	},
@@ -233,6 +237,7 @@
 	},
 	{
 		"code": "39029",
+		"flavor": "\"Salen más baratos que los actores de verdad.\" — Mojo",
 		"name": "Actor de reparto",
 		"text": "[star] <b>Respuesta obligada</b>: después de que Actor de reparto se active contra ti, coloca 2 de Amenaza sobre esta carta.\n<hr />\n<b>Aumento</b>: coloca 1 de Amenaza sobre cada personaje que controles.",
 		"traits": "Robot. Figurante."
@@ -323,6 +328,7 @@
 	},
 	{
 		"code": "39045",
+		"flavor": "\"¡Traedme una almáciga!\" — Sir Mojo",
 		"name": "Gesta de recaderos",
 		"text": "Oleada.\n<b>Cuando se derrote esta carta:</b> siguiendo el orden de jugadores, cada jugador puede buscar una carta de su mazo y jugarla gratis. (Baraja el mazo.)\n<hr />\n<b>Aumento</b>: pon en juego esta carta."
 	},
@@ -333,7 +339,7 @@
 	},
 	{
 		"code": "39047",
-		"name": "The Mojo Files",
+		"name": "Expediente Mojo",
 		"text": "Todos los Esbirros ganan Ataque veloz.\nCada Aliado sufre -1 de Daño derivado después de atacar a un Esbirro.\n<b>Cuando se muestre esta carta</b>: descarta todos los demás Entornos [[Ubicación]] que haya en juego. Si esta carta se ha mostrado desde el mazo de Encuentros, gana Oleada.",
 		"traits": "Ubicación. Serie."
 	},
@@ -371,30 +377,35 @@
 	},
 	{
 		"code": "39053",
+		"flavor": "\">Contraseña admitida. Estableciendo conexión con el servidor.\n>¡Bienvenido a MojoCorp! Todas sus actividades serán monitorizadas.\"",
 		"name": "CiberMojo",
 		"text": "Todos los Esbirros y Aliados ganan Dureza.\n<b>Cuando se muestre esta carta</b>: descarta todos los demás Entornos [[Ubicación]] que haya en juego. Si esta carta se ha mostrado desde el mazo de Encuentros, gana Oleada.",
 		"traits": "Ubicación. Serie."
 	},
 	{
 		"code": "39054",
+		"flavor": "\">Anulando ciclos de CPU de proceso no identificado.\"",
 		"name": "Avalancha 9.0",
 		"text": "<b>Respuesta obligada</b>: después de que Avalancha 9.0 se enfrente a ti, agota un personaje que controles e inflige 1 de Daño a ese personaje.\n<hr />\n<b>Aumento</b>: agota un personaje que controles.",
 		"traits": "Programa."
 	},
 	{
 		"code": "39055",
+		"flavor": "\">Almacenando en memoria intermedia...\n>Almacenando en memoria intermedia...\n>Almacenando en memoria intermedia...\"",
 		"name": "Mole 3.14",
 		"text": "La Mole 3.14 no puede sufrir más de 2 de Daño de cada ataque.\n<hr />\n<b>Aumento</b>: quedas aturdido.",
 		"traits": "Programa."
 	},
 	{
 		"code": "39056",
+		"flavor": "\">Reformateando disco infectado.\"",
 		"name": "Magneto 2.6",
 		"text": "Infame.\n[star] <b>Respuesta obligada</b>: después de que Magneto 2.6 se active contra ti, colócale encima 1 contador de Magnetismo. Luego elige y descarta 1 carta de tu mano por cada contador de Magnetismo que haya sobre Magneto 2.6.",
 		"traits": "Programa."
 	},
 	{
 		"code": "39057",
+		"flavor": "\">Purgando programa desconocido.\"",
 		"name": "Piros 4.0",
 		"text": "<b>Interrupción obligada</b>: cuando Piros 4.0 te ataque, sufres 2 de Daño indirecto.\n<hr />\n<b>Aumento</b>: sufres 2 de Daño indirecto.",
 		"traits": "Programa."
@@ -407,6 +418,7 @@
 	},
 	{
 		"code": "39059",
+		"flavor": "\">Programas intrusos detectados.\n>Desplegando Algoritmo de Intercepción de Subrutinas.\"",
 		"name": "AISteroide M",
 		"text": "Todos los Esbirros ganan Guardia y Patrulla.\n<b>Interrupción obligada</b>: al final de la ronda <i>(después de ceder la ficha de Jugador inicial)</i>, el jugador inicial busca un Esbirro en el mazo y la pila de descartes de Encuentros y lo pone en juego enfrentado a él <i>(Baraja el mazo.)</i>."
 	},
@@ -418,16 +430,19 @@
 	},
 	{
 		"code": "39061",
+		"flavor": "\"¡Nunca seré como tú!\"\n\"¡Si eres un clon de mí!\" —X-23 y Lobezno",
 		"name": "Enredos de familia",
 		"text": "Trata el texto de reglas impreso de todos los Apoyos que controles como si estuviese en blanco (a excepción de los [rasgos]).\n<b>Acción de Alter ego</b>: agota tu Superhéroe y todos los Apoyos que controles \u2192 descarta esta Obligación."
 	},
 	{
 		"code": "39062",
+		"flavor": "\"¡No ha sido culpa mía!\" —Hope Summers",
 		"name": "Los problemas crecen",
 		"text": "El coste para jugar todas tus Mejoras aumenta en 2.\n<b>Acción de Alter ego</b>: descarta una Mejora que controles o bien descarta una Mejora de tu mano. Si tienes más Mejoras en tu pila de descartes que en juego, descarta esta Obligación."
 	},
 	{
 		"code": "39063",
+		"flavor": "\"Ya lo recogeré luego.\" —Júbilo",
 		"name": "La extraña pareja",
 		"text": "Tu límite de Aliados se reduce en 2.\n<b>Acción de Alter ego</b>: agota 2 personajes que controles \u2192 coge un Aliado de tu pila de descartes, añadelo a tu mazo, barájalo y descarta esta Obligación."
 	},
@@ -438,6 +453,7 @@
 	},
 	{
 		"code": "39065",
+		"flavor": "\"¿Cómo que 'jugar' y 'poner en juego' no significan lo mismo?\" —Masacre",
 		"name": "Miradme jugar",
 		"text": "Incitar 3. Peligro.\n<b>Interrupción obligada</b>: cuando tengas que consultar cómo funciona una regla del juego, quedas confundido.\n<b>Acción de Alter ego</b>: agota tu Superhéroe y descarta una carta de Estado \"Confundido\" que tenga \u2192 descarta esta Obligación."
 	},
@@ -455,18 +471,21 @@
 	},
 	{
 		"code": "39068",
+		"flavor": "Lo único que hace es nadar, comer y desplumarte jugando a las cartas.",
 		"name": "Tiburón tahúr",
 		"text": "[star] <b>Respuesta obligada</b>: después de que el Tiburón tahúr te ataque, descarta las 3 primeras cartas de tu mazo. Sufres tanto Daño indirecto como el número de tipos de recursos impresos distintos ([energy],[mental],[physical] o [wild]) que se hayan descartado de este modo.",
 		"traits": "Criatura. Élite."
 	},
 	{
 		"code": "39069",
+		"flavor": "\"¡Desenfunda!\"",
 		"name": "Pistolero",
 		"text": "Ataque veloz.\n<b>Interrupción obligada</b>: cuando este Esbirro se enfrente a ti <i>(antes de resolver su Ataque veloz)</i>, puedes gastar recursos [energy][energy]. Si lo haces, inflige tanto Daño a este Esbirro como el ATQ de tu Héroe.",
 		"traits": "Proscrito."
 	},
 	{
 		"code": "39070",
+		"flavor": "Cuando se juega a un juego de cartas, sólo se puede ganar o perder. No hay puntos intermedios.",
 		"name": "Mano de póquer",
 		"text": "<b>Cuando se muestre esta carta</b>: roba 5 cartas. Elige 5 cartas de tu mano y descártalas. Por cada tipo de recurso impreso distinto ([energy],[mental],[physical] o [wild]) que se haya descartado de este modo, descarta una Mejora o Apoyo que controles."
 	},
