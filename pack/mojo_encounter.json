@@ -17,7 +17,7 @@
 		"scheme": 1,
 		"set_code": "magog",
 		"set_position": 1,
-		"stage": null,
+		"stage": "A",
 		"text": "[star] <b>Forced Response</b>: After MaGog attacks and damages a character, place 1 ratings counter on The Champion.\n<b>Forced Interrupt</b>: When MaGog would be defeated, reset his hit points to 10[per_hero] instead. Place 3[per_hero] ratings counters on The Challengers and deal each player 1 facedown encounter card.",
 		"traits": "Brute.",
 		"type_code": "villain"
@@ -40,7 +40,7 @@
 		"scheme": 1,
 		"set_code": "magog",
 		"set_position": 1,
-		"stage": null,
+		"stage": "B",
 		"text": "[star] <b>Forced Response</b>: After MaGog attacks and damages a character, place 2 ratings counters on The Champion.\n<b>Forced Interrupt</b>: When MaGog would be defeated, reset his hit points to 10[per_hero] instead. Place 2[per_hero] ratings counters on The Challengers and deal each player 1 facedown encounter card.",
 		"traits": "Brute.",
 		"type_code": "villain"
@@ -57,7 +57,7 @@
 		"quantity": 1,
 		"set_code": "magog",
 		"set_position": 2,
-		"stage": 1,
+		"stage": "1A",
 		"text": "<b>Contents</b>: MaGog (A) <i>(MaGog (B) instead for expert mode)</i>. MaGog and Standard encounter sets. One modular encounter set <i>(1 random modular set from the</i> MojoMania <i>scenario pack)</i>.\n<b>Setup</b>: Put The Champion environment card and The Challengers environment card into play, each with its [[BOOING CROWD]] side faceup.",
 		"threat": null,
 		"type_code": "main_scheme"
@@ -76,7 +76,7 @@
 		"quantity": 1,
 		"set_code": "magog",
 		"set_position": 2,
-		"stage": 1,
+		"stage": "1B",
 		"text": "The players cannot win the game unless they wow the crowd as The Challengers.\n[star] <b>Forced Interrupt</b>: When this scheme would be completed, place 2[per_hero] ratings counters on The Champion and remove all threat from here instead.",
 		"threat": 6,
 		"threat_star": true,
@@ -283,7 +283,7 @@
 		"scheme": 1,
 		"set_code": "spiral",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.\n[star] <b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
 		"traits": "Escaped. Mystic.",
 		"type_code": "villain"
@@ -307,7 +307,7 @@
 		"scheme_star": true,
 		"set_code": "spiral",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "If there are at least 3[per_hero] teleport counters here, remove all of them and flip Spiral.\n[star] <b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
 		"traits": "Cornered. Mystic.",
 		"type_code": "villain"
@@ -330,7 +330,7 @@
 		"scheme": 2,
 		"set_code": "spiral",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "II",
 		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.\n[star] <b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
 		"traits": "Escaped. Mystic.",
 		"type_code": "villain"
@@ -354,7 +354,7 @@
 		"scheme_star": true,
 		"set_code": "spiral",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "II",
 		"text": "If there are at least 2[per_hero] teleport counters here, remove all of them and flip Spiral.\n[star] <b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
 		"traits": "Cornered. Mystic.",
 		"type_code": "villain"
@@ -377,7 +377,7 @@
 		"scheme": 2,
 		"set_code": "spiral",
 		"set_position": 3,
-		"stage": 3,
+		"stage": "III",
 		"text": "Spiral cannot take damage or be stunned. Threat cannot be removed from the main scheme.\n[star] <b>Forced Interrupt</b>: When Spiral would attack, she schemes instead.",
 		"traits": "Escaped. Mystic.",
 		"type_code": "villain"
@@ -400,7 +400,7 @@
 		"scheme": 2,
 		"set_code": "spiral",
 		"set_position": 3,
-		"stage": 3,
+		"stage": "III",
 		"text": "If there are at least 3[per_hero] teleport counters here, remove all of them and flip Spiral.\n<b>When Revealed</b>: Spiral attacks each player in player order <i>(even in alter-ego form)</i>.\n[star] <b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
 		"traits": "Cornered. Mystic.",
 		"type_code": "villain"
@@ -417,7 +417,7 @@
 		"quantity": 1,
 		"set_code": "spiral",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1A",
 		"text": "<b>Contents</b>: Spiral (I) and Spiral (II) <i>(Spiral (II) and Spiral (III) instead for expert mode)</i>. Spiral and Standard encounter sets. Three modular encounter sets from the MojoMania scenario pack.\n<b>Setup</b>: Put The Search for Spiral side scheme and 1 random [[SHOW]] environment into play. Shuffle each other [[SHOW]] environment together with the Cornered! treachery to create the show deck. <i>(See rulebook p. 11)</i>. Flip Spiral to her [[ESCAPED]] side.",
 		"threat": null,
 		"type_code": "main_scheme"
@@ -436,7 +436,7 @@
 		"quantity": 1,
 		"set_code": "spiral",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1B",
 		"text": "<b>Forced Interrupt</b>: When a [[SHOW]] environment would be discarded, place it on the bottom of the show deck instead.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 15,
 		"type_code": "main_scheme"
@@ -550,7 +550,7 @@
 		"scheme": 2,
 		"set_code": "mojo",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "<b>Forced Response (Hero)</b>: After your turn ends, discard the top 3 cards of the encounter deck. Place 1 threat on your hero for each card discarded this way that does not belong to the Mojo encounter set.",
 		"traits": "Spineless.",
 		"type_code": "villain"
@@ -571,7 +571,7 @@
 		"scheme": 3,
 		"set_code": "mojo",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "II",
 		"text": "<b>When Revealed</b>: Place 2 threat on each friendly character.\n<b>Forced Response (Hero)</b>: After your turn ends, discard the top 4 cards of the encounter deck. Place 1 threat on your hero for each card discarded this way that does not belong to the Mojo encounter set.",
 		"traits": "Spineless.",
 		"type_code": "villain"
@@ -592,7 +592,7 @@
 		"scheme": 4,
 		"set_code": "mojo",
 		"set_position": 3,
-		"stage": 3,
+		"stage": "III",
 		"text": "<b>When Revealed</b>: Place 3 threat on each friendly character.\n<b>Forced Response (Hero)</b>: After your turn ends, discard the top 5 cards of the encounter deck. Place 1 threat on your hero for each card discarded this way that does not belong to the Mojo encounter set.",
 		"traits": "Spineless.",
 		"type_code": "villain"
@@ -609,7 +609,7 @@
 		"quantity": 1,
 		"set_code": "mojo",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1A",
 		"text": "<b>Contents</b>: Mojo (I) and Mojo (II) <i>(Mojo (II) and Mojo (III) instead for expert mode)</i>. Mojo and Standard encounter sets.\n<b>Setup</b>: Choose 1 modular set, plus 1[per_hero] additional modular sets, from the MojoMania scenario pack and set them aside. Put the Wheel of Genres environment into play, [[SPINNING]] side faceup.",
 		"threat": null,
 		"type_code": "main_scheme"
@@ -627,7 +627,7 @@
 		"quantity": 1,
 		"set_code": "mojo",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1B",
 		"text": "<b>When Revealed</b>: Choose 1 set-aside encounter set at random, reveal its [[SHOW]] environment and shuffle its remaining cards into the encounter deck.\n<b>Forced Interrupt</b>: When a character flips or leaves play, move all threat from that character to this scheme.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 25,
 		"type_code": "main_scheme"
@@ -1450,7 +1450,7 @@
 		"resource_wild": 1,
 		"set_code": "longshot",
 		"set_position": 1,
-		"text": "[star] Longshot's attacks gain piercing.\nLongshot does not count against your ally limit.\n<b>When Revealed:</b> Put Longshot into play under your control. This card gains surge. This effect cannot be canceled.",
+		"text": "[star] Longshot's attacks gain piercing.\nLongshot does not count against your ally limit.\n<b>When Revealed</b>: Put Longshot into play under your control. This card gains surge. This effect cannot be canceled.",
 		"traits": "X-Men.",
 		"thwart": 2,
 		"thwart_cost": 1,

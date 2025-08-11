@@ -15,7 +15,7 @@
 		"scheme": 1,
 		"set_code": "rhino",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"traits": "Brute. Criminal.",
 		"type_code": "villain"
 	},
@@ -35,7 +35,7 @@
 		"scheme": 1,
 		"set_code": "rhino",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "II",
 		"text": "<b>When Revealed</b>: Search the encounter deck and discard pile for the Breakin' & Takin' side scheme and reveal it. Shuffle the encounter deck.",
 		"traits": "Brute. Criminal.",
 		"type_code": "villain"
@@ -56,7 +56,7 @@
 		"scheme": 1,
 		"set_code": "rhino",
 		"set_position": 3,
-		"stage": 3,
+		"stage": "III",
 		"text": "Toughness. <i>(This character enter play with a tough status card.)</i>\n<b>When Revealed</b>: Stun each hero.",
 		"traits": "Brute. Criminal.",
 		"type_code": "villain"
@@ -73,7 +73,7 @@
 		"quantity": 1,
 		"set_code": "rhino",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1A",
 		"text": "<b>Contents</b>: Rhino (I) and Rhino (II). (Rhino (II) and Rhino (III) instead for expert mode.) Rhino and Standard encounter sets. One modular encounter set <i>(recommended: Bomb Scare)</i>.\n<b>Setup</b>: Advance to stage 1B.",
 		"type_code": "main_scheme"
 	},
@@ -92,7 +92,7 @@
 		"quantity": 1,
 		"set_code": "rhino",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1B",
 		"text": "<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 7,
 		"type_code": "main_scheme"
@@ -362,7 +362,7 @@
 		"scheme": 2,
 		"set_code": "klaw",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "[star] <b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"traits": "Masters of Evil.",
 		"type_code": "villain"
@@ -383,7 +383,7 @@
 		"scheme": 2,
 		"set_code": "klaw",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "II",
 		"text": "<b>When Revealed</b>: Search the encounter deck and discard pile for The \"Immortal\" Klaw and reveal it. Shuffle the encounter deck.\n[star] <b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"traits": "Masters of Evil.",
 		"type_code": "villain"
@@ -404,7 +404,7 @@
 		"scheme": 3,
 		"set_code": "klaw",
 		"set_position": 3,
-		"stage": 3,
+		"stage": "III",
 		"text": "Toughness. <i>(This character enters play with a tough status card.)</i>\n[star] <b>Forced Interrupt</b>: When Klaw attacks, give him 1 additional boost card for this activation.",
 		"traits": "Masters of Evil.",
 		"type_code": "villain"
@@ -421,7 +421,7 @@
 		"quantity": 1,
 		"set_code": "klaw",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1A",
 		"text": "<b>Contents</b>: Klaw (I) and Klaw (II). <i>(Klaw (II) and Klaw (III) instead for expert mode.)</i> Klaw and Standard encounter sets. One modular encounter set <i>(recommended: Masters of Evil)</i>\n<b>Setup</b>: Search the encounter deck for the Defense Network side scheme and reveal it. Shuffle the encounter deck. Advance to stage 1B.",
 		"type_code": "main_scheme"
 	},
@@ -440,7 +440,7 @@
 		"quantity": 1,
 		"set_code": "klaw",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1B",
 		"text": "<b>When Revealed</b>: Discard cards from the encounter deck until a minion is discarded. Put that minion into play engaged with the first player.",
 		"threat": 6,
 		"type_code": "main_scheme"
@@ -457,7 +457,7 @@
 		"quantity": 1,
 		"set_code": "klaw",
 		"set_position": 5,
-		"stage": 2,
+		"stage": "2A",
 		"text": "<b>When Revealed</b>: Discard cards from the encounter deck until a minion is discarded. Put that minion into play engaged with the first player. Advance to stage 2B",
 		"type_code": "main_scheme"
 	},
@@ -476,7 +476,7 @@
 		"quantity": 1,
 		"set_code": "klaw",
 		"set_position": 5,
-		"stage": 2,
+		"stage": "2B",
 		"text": "<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 8,
 		"type_code": "main_scheme"
@@ -771,7 +771,7 @@
 		"scheme": 1,
 		"set_code": "ultron",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "[star] <b>Forced Response</b>: After Ultron attacks you, choose to either place 1 threat on the main scheme or put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion.",
 		"traits": "Android.",
 		"type_code": "villain"
@@ -792,7 +792,7 @@
 		"scheme": 2,
 		"set_code": "ultron",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "II",
 		"text": "[star] <b>Forced Interrupt</b>: When Ultron attacks you, put the top card of your deck into play facedown, engaged with you as a [[Drone]] minion. Until the end of his attack, Ultron gets +1 ATK for each [[Drone]] minion engaged with you.",
 		"traits": "Android.",
 		"type_code": "villain"
@@ -812,7 +812,7 @@
 		"scheme": 2,
 		"set_code": "ultron",
 		"set_position": 3,
-		"stage": 3,
+		"stage": "III",
 		"text": "Each [[Drone]] minion gets +1 ATK and +1 hit point. Ultron cannot take damage while a [[Drone]] minion is in play.\n<b>When Revealed</b>: Search the encounter deck and discard pile for the Ultron's Imperative side scheme and reveal it. Then shuffle the encounter deck.",
 		"traits": "Android.",
 		"type_code": "villain"
@@ -829,7 +829,7 @@
 		"quantity": 1,
 		"set_code": "ultron",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1A",
 		"text": "<b>Contents</b>: Ultron (I) and Ultron (II). <i>(Ultron (II) and Ultron (III) instead for expert mode.)</i> Ultron and Standard encounter sets. One modular encounter set <i>(recommended: Under Attack).</i>\n<b>Setup</b>: Put the Ultron Drones environment into play. Shuffle the encounter deck. Advanced to stage 1B.",
 		"type_code": "main_scheme"
 	},
@@ -848,7 +848,7 @@
 		"quantity": 1,
 		"set_code": "ultron",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1B",
 		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
 		"threat": 3,
 		"type_code": "main_scheme"
@@ -865,7 +865,7 @@
 		"quantity": 1,
 		"set_code": "ultron",
 		"set_position": 5,
-		"stage": 2,
+		"stage": "2A",
 		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion. Advance to stage 2B.",
 		"type_code": "main_scheme"
 	},
@@ -884,7 +884,7 @@
 		"quantity": 1,
 		"set_code": "ultron",
 		"set_position": 5,
-		"stage": 2,
+		"stage": "2B",
 		"text": "<b>Forced Response</b>: After placing threat here during step one of the villain phase, each player must choose to either place 2 threat here or put the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.",
 		"threat": 10,
 		"type_code": "main_scheme"
@@ -901,7 +901,7 @@
 		"quantity": 1,
 		"set_code": "ultron",
 		"set_position": 6,
-		"stage": 3,
+		"stage": "3A",
 		"text": "<b>When Revealed</b>: Each player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion. Advance to stage 3B.",
 		"type_code": "main_scheme"
 	},
@@ -920,7 +920,7 @@
 		"quantity": 1,
 		"set_code": "ultron",
 		"set_position": 6,
-		"stage": 3,
+		"stage": "3B",
 		"text": "Threat cannot be removed from this scheme.\n<b>If this stage is completed, the players lose the game</b>",
 		"threat": 5,
 		"type_code": "main_scheme"
