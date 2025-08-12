@@ -192,46 +192,7 @@
 		"traits": "?",
 		"type_code": "event"
 	},
-
-    {	"code": "55013",
-		"cost": 3,
-		"deck_limit": 3,
-		"faction_code": "aggression",
-		"name": "Aggressive Conditioning",
-		"pack_code": "civil_war_spoiler",
-		"position": 13,
-		"quantity": 3,
-		"resource_physical": 1,
-		"traits": "Condition.",
-		"type_code": "upgrade"
-	},
-    {
-		"code": "55017",
-		"cost": 3,
-		"deck_limit": 3,
-		"faction_code": "aggression",
-		"name": "Savage Strike",
-		"pack_code": "civil_war_spoiler",
-		"position": 17,
-		"quantity": 3,
-		"resource_physical": 1,
-		"traits": "Skill.",
-		"type_code": "event"
-	},
-    {
-		"code": "55016",
-		"cost": 2,
-		"deck_limit": 3,
-		"faction_code": "aggression",
-		"name": "Coup de Grâce",
-		"pack_code": "civil_war_spoiler",
-		"position": 16,
-		"quantity": 3,
-		"resource_mental": 1,
-		"traits": "Attack.",
-		"type_code": "event"
-	},
-    {
+	 {
 		"attack": 2,
 		"attack_cost": 1,
 		"attack_star": true,
@@ -251,6 +212,60 @@
 		"thwart_cost": 1,
 		"traits": "Avenger.",
 		"type_code": "ally"
+	},
+
+	{	"code": "55012",
+		"cost": 1,
+		"deck_limit": 3,
+		"faction_code": "aggression",
+		"name": "Air Cover",
+		"pack_code": "civil_war_spoiler",
+		"position": 12,
+		"quantity": 3,
+		"resource_energy": 1,
+		"traits": "tech.",
+		"type_code": "support"
+	},
+
+    {	"code": "55013",
+		"cost": 3,
+		"deck_limit": 3,
+		"faction_code": "aggression",
+		"name": "Aggressive Conditioning",
+		"pack_code": "civil_war_spoiler",
+		"position": 13,
+		"quantity": 3,
+		"resource_physical": 1,
+		"traits": "Condition.",
+		"type_code": "upgrade"
+	},
+	{
+		"code": "55016",
+		"cost": 2,
+		"deck_limit": 3,
+		"faction_code": "aggression",
+		"name": "Coup de Grâce",
+		"pack_code": "civil_war_spoiler",
+		"position": 16,
+		"quantity": 3,
+		"resource_mental": 1,
+		"traits": "Attack.",
+		"type_code": "event"
+	},
+    {
+		"code": "55017",
+		"cost": 3,
+		"deck_limit": 3,
+		"faction_code": "aggression",
+		"name": "Savage Strike",
+		"pack_code": "civil_war_spoiler",
+		"position": 17,
+		"quantity": 3,
+		"resource_physical": 1,
+		"traits": "Skill.",
+		"type_code": "event"
 	}
+    
+   
 
 ]
