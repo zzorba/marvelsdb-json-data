@@ -3,7 +3,6 @@
     "pack_code": "snowbird_by_hax",
     "set_code": "snowbird_by_hax",
     "faction_code": "hero",
-    "meta": "{  \"colors\": [  \"#8a246d\", \"#0090c5\", \"#e29d38\", \"#0090c5\"  ], \"offset\": \"-35px -33px\"  }",
     "position": 1,
     "code": "201601a",
     "back_link": "201601b",
@@ -13,14 +12,15 @@
     "traits": "Alpha Flight. Mystic.",
     "quantity": 1,
     "deck_limit": 1,
-    "is_unique": "true",
+    "is_unique": true,
     "hand_size": 5,
     "health": 14,
     "text": "Creature forms enter play facedown.\n<i>Great Beasts</i> - <b>Action</b>: Spend a resource of any type → flip each faceup creature form. Then, choose a facedown creature form and flip it. Snowbird gains each <b><i>TRAIT</i></b> on that creature form.",
     "thwart": 2,
     "attack": 2,
     "defense": 2,
-    "octgn_id": "68071830-cf71-4497-a47d-19c19f016001"
+    "octgn_id": "68071830-cf71-4497-a47d-19c19f016001",
+    "meta": {  "colors": [  "#a3dcef", "#238db4", "#fdfef0", "#238db4"  ], "offset": "-35px -33px"  }
   },
   {
     "pack_code": "snowbird_by_hax",
@@ -34,12 +34,12 @@
     "traits": "Mystic. Officer.",
     "quantity": 1,
     "deck_limit": 1,
-    "is_unique": "true",
+    "is_unique": true,
     "hand_size": 6,
     "health": 14,
     "text": "Creature forms enter play facedown.\n<i>Demigoddess</i> - <b>Response</b>: After Narya heals, for each point of excess damage healed beyond her maximum hit points, heal 1 damage from a friendly character.",
     "recover": 4,
-    "hidden": "true",
+    "hidden": true,
     "octgn_id": "68071830-cf71-4497-a47d-19c19f016001"
   },
   {
@@ -56,7 +56,7 @@
     "cost": 4,
     "quantity": 1,
     "deck_limit": 1,
-    "is_unique": "true",
+    "is_unique": true,
     "health": 3,
     "text": "<b>Hero Action</b>: Exhaust Shaman and deal 1 damage to him → draw 1 card.",
     "flavor": "\"There is a richness to life that ou have not yet begun even to suspect, Narya. Do not deny yourself this fullness.\"",
@@ -271,7 +271,7 @@
     "deck_limit": 1,
     "text": "Permanent. Setup.\n<b>Forced Response</b>: After the villain phase ends, place a permanence counter on your faceup creature form. Then, if there are 4 permanence counters on it, flip this card.\n<b>Force Interrupt</b>: When you flip  this car of flip a creature form facedown, remoce each permance counter from it.",
     "resource_physical": 1,
-    "permanent": "true",
+    "permanent": true,
     "octgn_id": "68071830-cf71-4497-a47d-19c19f016014"
   },
   {
@@ -288,7 +288,7 @@
     "quantity": 1,
     "deck_limit": 1,
     "text": "You cannot resolve  Snowbird's \"<i>Great Beasts</i>\" ability. Your faceup creature form and stuck! gain permanent.\n<b>When Revealed</b>: Summon each non permanent creature form and remove them from the game. Treat each number 1 on the faceup creature card as a number 2 instead.",
-    "hidden": "true",
+    "hidden": true,
     "octgn_id": "68071830-cf71-4497-a47d-19c19f016014"
   }
 ]

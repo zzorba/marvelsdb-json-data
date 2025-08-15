@@ -3,7 +3,6 @@
     "pack_code": "manifold_by_bluehg",
     "set_code": "manifold_by_bluehg",
     "faction_code": "hero",
-    "meta": "{  \"colors\": [  \"#8a246d\", \"#0090c5\", \"#e29d38\", \"#0090c5\"  ], \"offset\": \"-35px -33px\"  }",
     "position": 1,
     "code": "201701a",
     "back_link": "201701b",
@@ -13,14 +12,15 @@
     "traits": "S.W.O.R.D.",
     "quantity": 1,
     "deck_limit": 1,
-    "is_unique": "true",
+    "is_unique": true,
     "hand_size": 5,
     "health": 9,
     "text": "<i>The Universe Speaks</i> - <b>Response</b>: After you change to this form, flip the Battlefield support to Its <b><i>TRAVELED </i></b>side.\n<b>Forced Response</b>: At the end of the round, flip each <b><i>TRAVELED</i></b> support to its <b><i>UNTRAVELED</i></b> side.",
     "thwart": 1,
     "attack": 1,
     "defense": 2,
-    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017001"
+    "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017001",
+    "meta": {  "colors": [  "#f3bd51", "#010101", " #ede8e4", "#010101"  ], "offset": "-35px -33px"  }
   },
   {
     "pack_code": "manifold_by_bluehg",
@@ -38,7 +38,7 @@
     "health": 9,
     "text": "<i>Traveler</i> - <b>Response</b>: After you change to this form, flip a non-Battlefield <b><i>UNTRAVELED </i></b>support to its <b><i>TRAVELED</i></b> support to its <b><i>UNTRAVELED</i></b> side.\n<b>Forced Response</b>: At the end of the round, flip each <b><i>TRAVELED </i></b>support to its <b><i>UNTRAVELED </i></b>side.",
     "recover": 3,
-    "hidden": "true",
+    "hidden": true,
     "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017001"
   },
   {
@@ -73,7 +73,7 @@
     "quantity": 1,
     "deck_limit": 1,
     "text": "Permanent.\n<b>When Revealed</b>: Choose ATK, THW, or DEF. Manifold gets +1 to the chosen power until the end of the round. (Max twice per round) \n<b>Forced Response</b>: When you flip to your alter-ego form, flip this card.",
-    "hidden": "true",
+    "hidden": true,
     "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017002"
   },
   {
@@ -109,7 +109,7 @@
     "deck_limit": 1,
     "text": "Permanent. Eden Fesi gets +1 REC.\n<b>When Revealed</b>: Heal 2 damage from Eden Fesi.",
     "flavor": "<i>“This is where I was born. We're on country.” - Manifold</i>",
-    "hidden": "true",
+    "hidden": true,
     "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017003"
   },
   {
@@ -145,7 +145,7 @@
     "deck_limit": 1,
     "text": "Permanent. Manifold gains retaliate 1.\n<b>When Revealed</b>: Ready Eden Fesi.",
     "flavor": "<i>“They made up these three laws. Know what the third one is? 'Respect this sacred land.' They're okay.” - Manifold</i>",
-    "hidden": "true",
+    "hidden": true,
     "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017004"
   },
   {
@@ -181,7 +181,7 @@
     "deck_limit": 1,
     "text": "Permanent.\nManifold gets +1 hand size.\n<b>When Revealed</b>: You may shuffle 1 card from your discard pile into your deck.",
     "flavor": "<i>“S.W.O.R.D. has to speak for Sol.” - Abigail Brand</i>",
-    "hidden": "true",
+    "hidden": true,
     "octgn_id": "0a6276d1-079f-4b56-83f6-da46aa017005"
   },
   {
@@ -211,7 +211,7 @@
     "type_code": "event",
     "name": "Folding Space",
     "traits": "Superpower.",
-    "cost": "\"0\"",
+    "cost": 0,
     "quantity": 4,
     "deck_limit": 4,
     "text": "<b>Action</b>: Change your form. Draw 1 card.",
@@ -283,7 +283,7 @@
     "cost": 1,
     "quantity": 1,
     "deck_limit": 1,
-    "is_unique": "true",
+    "is_unique": true,
     "text": "You get +2 hit points.\n<b><i>Alter-Ego Action</i></b>: Exhaust Gateway → flip to your hero form.",
     "flavor": "<i>“He's your elder. You remeber what he said. You wanna go somewhere, you gotta know where you started from” - Baz</i>",
     "resource_wild": 1,
@@ -299,6 +299,7 @@
     "type_code": "upgrade",
     "name": "Bending Light",
     "traits": "Condition. Superpower.",
+    "cost": 0,
     "quantity": 2,
     "deck_limit": 2,
     "text": "Max 1[per_hero].\nManifold gets +2 THW and cannot attack.\n<b>Forced Interrupt</b>: When an enemy would initate an attack against you, it schemes instead.\n<b>Forced Interrupt</b>: When the round ends, discard Bending Light",
@@ -318,7 +319,7 @@
     "cost": 3,
     "quantity": 1,
     "deck_limit": 1,
-    "is_unique": "true",
+    "is_unique": true,
     "text": "Manifold gets +1 ATK.\n<b>Hero Action</b>: Exhaust Manifold's Staff → ready Manifold.",
     "flavor": "<i>“What? Where am I going? Ah, you know. Where I always go. Everywhere” - Manifold</i>",
     "resource_physical": 1,
