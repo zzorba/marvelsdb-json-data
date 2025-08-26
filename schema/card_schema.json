@@ -47,6 +47,9 @@
 		"base_threat_fixed": {
 			"type": "boolean"
 		},
+		"base_threat_per_group": {
+			"type": "boolean"
+		},
 		"boost": {
 			"minimum": 1,
 			"type": "integer"
@@ -166,6 +169,9 @@
 			"minimum": 0,
 			"type": "integer"
 		},
+		"health_per_group": {
+			"type": "boolean"
+		},
 		"health_per_hero": {
 			"type": "boolean"
 		},
@@ -283,6 +289,9 @@
 			]
 		},
 		"threat_fixed": {
+			"type": "boolean"
+		},
+		"threat_per_group": {
 			"type": "boolean"
 		},
 		"threat_star": {
