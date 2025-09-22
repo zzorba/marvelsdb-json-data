@@ -16,7 +16,7 @@
 		"scheme": 2,
 		"set_code": "risky_business",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "[star] <b>Forced Interrupt</b>: When Norman Osborn would attack, place 1 infamy counter on Criminal Enterprise instead.\n<b>Forced Interrupt</b>: When Norman Osborn would take any amount of damage, remove that many infamy counters from Criminal Enterprise instead.",
 		"traits": "Businessman. Genius.",
 		"type_code": "villain"
@@ -38,7 +38,7 @@
 		"scheme_star": true,
 		"set_code": "risky_business",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "<b>When Revealed</b>: Deal 3 indirect damage to each player in hero form.\n[star] <b>Forced Interrupt</b>: When Green Goblin would scheme, remove 1 madness counter from State of Madness instead.",
 		"traits": "Goblin.",
 		"type_code": "villain"
@@ -60,7 +60,7 @@
 		"scheme": 2,
 		"set_code": "risky_business",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "II",
 		"text": "[star] <b>Forced Interrupt</b>: When Norman Osborn would attack, place 2 infamy counter on Criminal Enterprise instead.\n<b>Forced Interrupt</b>: When Norman Osborn would take any amount of damage, remove that many infamy counters from Criminal Enterprise instead.",
 		"traits": "Businessman. Genius.",
 		"type_code": "villain"
@@ -82,7 +82,7 @@
 		"scheme_star": true,
 		"set_code": "risky_business",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "II",
 		"text": "<b>When Revealed</b>: Deal 3 indirect damage to each player.\n[star] <b>Forced Interrupt</b>: When Green Goblin would scheme, remove 1 madness counter from State of Madness instead.",
 		"traits": "Goblin.",
 		"type_code": "villain"
@@ -104,7 +104,7 @@
 		"scheme": 3,
 		"set_code": "risky_business",
 		"set_position": 3,
-		"stage": 3,
+		"stage": "III",
 		"text": "[star] <b>Forced Interrupt</b>: When Norman Osborn would attack, place 3 infamy counter on Criminal Enterprise instead.\n<b>Forced Interrupt</b>: When Norman Osborn would take any amount of damage, remove that many infamy counters from Criminal Enterprise instead.",
 		"traits": "Businessman. Genius.",
 		"type_code": "villain"
@@ -126,7 +126,7 @@
 		"scheme_star": true,
 		"set_code": "risky_business",
 		"set_position": 3,
-		"stage": 3,
+		"stage": "III",
 		"text": "<b>When Revealed</b>: Deal 4 damage to each player.\n[star] <b>Forced Interrupt</b>: When Green Goblin would scheme, remove 2 madness counters from State of Madness instead.",
 		"traits": "Goblin.",
 		"type_code": "villain"
@@ -142,7 +142,7 @@
 		"quantity": 1,
 		"set_code": "risky_business",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1A",
 		"text": "<b>Contents</b>: Norman Osborn (I) and Norman Osborn (II). <i>(Norman Osborn (II) and Norman Osborn (III) instead for expert mode.)</i> Risky Business and Standard encounter sets. One modular encounter set <i>(recommended: Goblin Gimmicks)</i>.\n<b>Setup</b>: Put the Criminal Enterprise environment into play. Shuffle the encounter deck. Advance to stage 1B.",
 		"type_code": "main_scheme"
 	},
@@ -160,7 +160,7 @@
 		"quantity": 1,
 		"set_code": "risky_business",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1B",
 		"text": "<b>When Completed</b>: Place 1[per_hero] infamy counters on Criminal Enterprise. Then discard 1 card from each player's deck for each infamy counter on Criminal Enterprise.",
 		"threat": 7,
 		"type_code": "main_scheme"
@@ -177,7 +177,7 @@
 		"quantity": 1,
 		"set_code": "risky_business",
 		"set_position": 5,
-		"stage": 2,
+		"stage": "2A",
 		"text": "<b>When Revealed</b>: Advance to stage 2B.",
 		"type_code": "main_scheme"
 	},
@@ -196,7 +196,7 @@
 		"scheme_hazard": 1,
 		"set_code": "risky_business",
 		"set_position": 5,
-		"stage": 2,
+		"stage": "2B",
 		"text": "<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 10,
 		"type_code": "main_scheme"
@@ -365,7 +365,7 @@
 		"scheme": 1,
 		"set_code": "mutagen_formula",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "[star] <b>Forced Response</b>: After Green Goblin attacks and damages you, place 1 threat on the main scheme.",
 		"traits": "Goblin.",
 		"type_code": "villain"
@@ -387,7 +387,7 @@
 		"scheme": 2,
 		"set_code": "mutagen_formula",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "II",
 		"text": "<b>When Revealed</b>: Deal 2 encounter cards to each player.\n[star] <b>Forced Response</b>: After Green Goblin attacks and damages you, place 1 threat on the main scheme.",
 		"traits": "Goblin.",
 		"type_code": "villain"
@@ -409,7 +409,7 @@
 		"scheme": 2,
 		"set_code": "mutagen_formula",
 		"set_position": 3,
-		"stage": 3,
+		"stage": "III",
 		"text": "<b>When Revealed</b>: Deal 3 encounter cards to each player.\n[star] <b>Forced Response</b>: After Green Goblin attacks and damages you, place 2 threat on the main scheme.",
 		"traits": "Goblin.",
 		"type_code": "villain"
@@ -425,7 +425,7 @@
 		"quantity": 1,
 		"set_code": "mutagen_formula",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1A",
 		"text": "<b>Contents</b>: Green Goblin (I) and Green Goblin (II). <i>(Green Goblin (II) and Green Goblin (III) instead for expert mode.)</i> Mutagen Formula and Standard encounter sets. One modular encounter set <i>(recommended: Goblin Gimmicks)</i>.\n<b>Setup</b>: Put a Goblin Thrall minion into play engaged with each player. Shuffle the encounter deck. Advance to stage 1B.",
 		"type_code": "main_scheme"
 	},
@@ -443,7 +443,7 @@
 		"quantity": 1,
 		"set_code": "mutagen_formula",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1B",
 		"text": "<b>When Completed</b>: In player order, each player not engaged with a [[Goblin]] minion must discard 3 cards from the encounter deck and put the first [[Goblin]] minion they discarded this way into play engaged with them.",
 		"threat": 7,
 		"type_code": "main_scheme"
@@ -460,7 +460,7 @@
 		"quantity": 1,
 		"set_code": "mutagen_formula",
 		"set_position": 5,
-		"stage": 2,
+		"stage": "2A",
 		"text": "<b>When Revealed</b>: Advance to stage 2B.",
 		"type_code": "main_scheme"
 	},
@@ -479,7 +479,7 @@
 		"quantity": 1,
 		"set_code": "mutagen_formula",
 		"set_position": 5,
-		"stage": 2,
+		"stage": "2B",
 		"text": "X is equal to the number of [[Goblin]] enemies (including Green Goblin) in play.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 11,
 		"type_code": "main_scheme"
