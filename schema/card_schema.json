@@ -144,8 +144,15 @@
 			"type": "string"
 		},
 		"escalation_threat": {
-			"minimum": -1,
-			"type": "integer"
+			"oneOf": [
+				{
+					"minimum": -1,
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
 		},
 		"escalation_threat_fixed": {
 			"type": "boolean"
