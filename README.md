@@ -134,9 +134,7 @@ To check and apply formatting to JSON files:
 * **scheme_star** - Whether a star appears in the scheme field indicating a special ability
 * **set_code** - The code for the card's set. Possible values found in `sets.json`.
 * **set_position** - The position of the card in the set
-* **stage** - The stage number on a villain or main scheme. Possible values:
-  * `null`: There is no stage for the villain or main scheme
-  * 0+: Shows up as the given integer
+* **stage** - The stage of the villain or main scheme
 * **subname** - Subname associated with a character (e.g. `Carol Danvers` is a subname for `Captain Marvel`)
 * **text** - The text on a card
 * **threat** - The target threat on a card before it advances. By default, it is per hero.

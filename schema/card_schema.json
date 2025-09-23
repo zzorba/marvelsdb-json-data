@@ -259,15 +259,8 @@
 			"type": "string"
 		},
 		"stage": {
-			"oneOf": [
-				{
-					"minimum": 0,
-					"type": "integer"
-				},
-				{
-					"type": "null"
-				}
-			]
+			"minLength": 1,
+			"type": "string"
 		},
 		"subname": {
 			"minLength": 1,
