@@ -177,7 +177,7 @@
         "scheme": 2,
         "set_code": "black_widow_villain",
         "set_position": 1,
-        "stage": 1,
+        "stage": "I",
         "text": "<b>Forced Interrupt</b>: When a character you control attacks Black Widow, remove 1 threat from the main scheme <i>(ignoring any crisis icons in play)</i> \u2192 discard the top card of the encounter deck and resolve each \"<b>Preparation</b>\" ability on that card.",
         "traits": "Spy.",
         "type_code": "villain"
@@ -198,7 +198,7 @@
         "scheme": 2,
         "set_code": "black_widow_villain",
         "set_position": 2,
-        "stage": 2,
+        "stage": "II",
         "text": "<b>When Revealed</b>: Place 2[per_hero] threat on the main scheme.\n<b>Forced Interrupt</b>: When a character you control attacks Black Widow, remove 1 threat from the main scheme \u2192 discard the top card of the encounter deck and resolve each \"<b>Preparation</b>\" ability on that card.",
         "traits": "Spy.",
         "type_code": "villain"
@@ -219,7 +219,7 @@
         "scheme": 3,
         "set_code": "black_widow_villain",
         "set_position": 3,
-        "stage": 3,
+        "stage": "III",
         "text": "<b>When Revealed</b>: Place 3[per_hero] threat on the main scheme.\n<b>Forced Interrupt</b>: When a character you control attacks Black Widow, remove 1 threat from the main scheme \u2192 discard the top card of the encounter deck and resolve each \"<b>Preparation</b>\" ability on that card.",
         "traits": "Spy.",
         "type_code": "villain"
@@ -236,7 +236,7 @@
         "quantity": 1,
         "set_code": "black_widow_villain",
         "set_position": 4,
-        "stage": 1,
+        "stage": "1A",
         "text": "<b>Contents</b>: Black Widow (I) and Black Widow (II). <i>(Black Widow (II) and Black Widow (III) instead for expert mode.)</i> Black Widow and Standard encounter sets. Two modular encounter sets <i>(A.I.M. Abduction and A.I.M. Science)</i>.\n<b>Setup</b>: Each player searches the encounter deck for a minion and puts it into play engaged with them. <i>(Shuffle.)</i>",
         "type_code": "main_scheme"
     },
@@ -255,7 +255,7 @@
         "quantity": 1,
         "set_code": "black_widow_villain",
         "set_position": 4,
-        "stage": 1,
+        "stage": "1B",
         "text": "X is Black Widow's stage number.\n<b>If this stage is completed, the players lose the game.</b>",
         "threat": 10,
         "type_code": "main_scheme"
@@ -580,6 +580,7 @@
         "scheme": 1,
         "set_code": "batroc",
         "set_position": 1,
+        "stage": "A",
         "text": "[star] <b>Forced Response</b>: After Batroc attacks, place 1 threat on Alert Level.\n<b>Forced Interrupt</b>: When Batroc would be defeated, reset his hit points to 8 instead. Then, remove 6 threat from the main scheme.",
         "traits": "Batroc's Brigade. Mercenary.",
         "type_code": "villain"
@@ -601,6 +602,7 @@
         "scheme": 2,
         "set_code": "batroc",
         "set_position": 1,
+        "stage": "B",
         "text": "[star] <b>Forced Response</b>: After Batroc attacks, place 1 threat on Alert Level.\n<b>Forced Interrupt</b>: When Batroc would be defeated, reset his hit points to 12 instead. Then, remove 6 threat from the main scheme.",
         "traits": "Batroc's Brigade. Mercenary.",
         "type_code": "villain"
@@ -617,7 +619,7 @@
         "quantity": 1,
         "set_code": "batroc",
         "set_position": 2,
-        "stage": 1,
+        "stage": "1A",
         "text": "<b>Contents</b>: Batroc (A). <i>(Batroc (B) instead for expert mode.)</i> Batroc and Standard encounter sets. Two modular encounter sets <i>(A.I.M. Science and Batrocs's Brigade)</i>.\n<b>Setup</b>: Set each Rescued Captive ally aside. Put the Alert Level environment into play, [[Low]] side faceup. In expert mode, place 2[per_hero] threat on Alert Level.",
         "type_code": "main_scheme"
     },
@@ -636,7 +638,7 @@
         "quantity": 1,
         "set_code": "batroc",
         "set_position": 2,
-        "stage": 1,
+        "stage": "1B",
         "text": "<b>Forced Interrupt</b>: When the last threat is removed from this scheme, advance to stage 2A <i>(the players win by advancing)</i>.\n<b>If this stage is completed, the players lose the game.</b>",
         "threat": 12,
         "type_code": "main_scheme"
@@ -653,7 +655,7 @@
         "quantity": 1,
         "set_code": "batroc",
         "set_position": 3,
-        "stage": 2,
+        "stage": "2A",
         "type_code": "main_scheme"
     },
     {
@@ -669,7 +671,7 @@
         "quantity": 1,
         "set_code": "batroc",
         "set_position": 3,
-        "stage": 2,
+        "stage": "2B",
         "text": "<b>Forced Interrupt</b>: When the last threat is removed from this scheme, put 1 set-aside Rescued Captive ally into play exhausted under any player's control. The players may advance to stage 3A. If they do not advance, place 3[per_hero] threat here. <i>(The players win by advancing, but will need at least 1 Rescued Captive to survive.)</i>\n<b>If this stage is completed, the players lose the game.</b>",
         "threat": 10,
         "type_code": "main_scheme"
@@ -687,7 +689,7 @@
         "quantity": 1,
         "set_code": "batroc",
         "set_position": 4,
-        "stage": 3,
+        "stage": "3A",
         "text": "<b>When Revealed</b>: If the Alert Level is on its [[High]] side, deal each player 1 facedown encounter card. Otherwise, remove all threat from Alert Level and flip it to its [[High]] side. In either case, in expert mode, place 2[per_hero] threat on Alert Level.",
         "type_code": "main_scheme"
     },
@@ -705,7 +707,7 @@
         "quantity": 1,
         "set_code": "batroc",
         "set_position": 4,
-        "stage": 3,
+        "stage": "3B",
         "text": "In expert mode, each minion gains quickstrike.\n<b>Forced Interrupt</b>: When an enemy attacks, it attacks a Rescued Captive instead.\n<b>If there is no threat here, the players win the game.</b>\n<b>If this stage is completed or there are no Rescued Captive allies in play, the players lose the game.</b>",
         "threat": 18,
         "type_code": "main_scheme"
@@ -970,6 +972,7 @@
         "scheme": 2,
         "set_code": "m.o.d.o.k.",
         "set_position": 1,
+        "stage": "A",
         "text": "Retaliate 1.\n<b>Forced Interrupt</b>: When M.O.D.O.K. would be defeated, if a Holding Cell is in play, remove 2 lock counters from it and reset M.O.D.O.K.'s hit points to 10 instead. Otherwise, <b>the players win the game</b>.",
         "traits": "Aerial. Cyborg. Psionic.",
         "type_code": "villain"
@@ -990,6 +993,7 @@
         "scheme": 3,
         "set_code": "m.o.d.o.k.",
         "set_position": 1,
+        "stage": "B",
         "text": "Retaliate 2. Steady.\n<b>Forced Interrupt</b>: When M.O.D.O.K. would be defeated, if a Holding Cell is in play, remove 2 lock counters from it and reset M.O.D.O.K.'s hit points to 14 instead. Otherwise, <b>the players win the game</b>.",
         "traits": "Aerial. Cyborg. Psionic.",
         "type_code": "villain"
@@ -1006,7 +1010,7 @@
         "quantity": 1,
         "set_code": "m.o.d.o.k.",
         "set_position": 2,
-        "stage": 1,
+        "stage": "1A",
         "text": "<b>Contents</b>: M.O.D.O.K. (A). <i>(M.O.D.O.K. (B) instead for expert mode.)</i> M.O.D.O.K. and Standard encounter sets. One modular encounter set <i>(Scientist Supreme)</i>.\n<b>Setup</b>: Create the Holding Cell deck <i>(see rulebook p. 13)</i>. Put 1 random [[Adaptoid]] environment into play (2 environments instead in expert mode) and set the others aside. Each player searches the encounter deck for a copy of Adaptoid and reveals it.",
         "type_code": "main_scheme"
     },
@@ -1024,7 +1028,7 @@
         "quantity": 1,
         "set_code": "m.o.d.o.k.",
         "set_position": 2,
-        "stage": 1,
+        "stage": "1B",
         "text": "<b>Forced Interrupt</b>: When this stage would be completed, put 1 random set-aside [[Adaptoid]] environment into play instead. Then, <b>if there are no set-aside [[Adaptoid]] environments, the players lose the game</b>. Otherwise, remove all threat from here and shuffle each Adaptoid minion from the encounter discard pile into the encounter deck.",
         "threat": 7,
         "type_code": "main_scheme"
@@ -1544,6 +1548,7 @@
         "scheme_star": true,
         "set_code": "thunderbolts",
         "set_position": 1,
+        "stage": "A",
         "text": "Citizen V cannot be defeated unless there are at least 1[per_hero] [[Thunderbolt]] minions in the victory display.\n[star] <b>Forced Interrupt</b>: When Citizen V would activate against you during step two of the villain phase, if you are engaged with a [[Thunderbolt]] minion, Citizen V does not activate and heals 4 damage instead.",
         "traits": "Thunderbolt.",
         "type_code": "villain"
@@ -1567,6 +1572,7 @@
         "scheme_star": true,
         "set_code": "thunderbolts",
         "set_position": 1,
+        "stage": "B",
         "text": "Citizen V cannot be defeated unless there are at least 1[per_hero] [[Thunderbolt]] minions in the victory display.\n[star] <b>Forced Interrupt</b>: When Citizen V would activate against you during step two of the villain phase, if you are engaged with a [[Thunderbolt]] minion, Citizen V does not activate and heals 6 damage instead.",
         "traits": "Thunderbolt.",
         "type_code": "villain"
@@ -1583,7 +1589,7 @@
         "quantity": 1,
         "set_code": "thunderbolts",
         "set_position": 2,
-        "stage": 1,
+        "stage": "1A",
         "text": "<b>Contents</b>: Citizen V (A). <i>(Citizen V (B) instead for expert mode.)</i> Thunderbolts and Standard encounter sets.\n<b>Setup</b>: Choose 1 modular set, plus 1[per_hero] additional modular sets, each with an [[Elite]], [[Thunderbolt]] minion. Set each of those minions aside and shuffle the rest of their encounter sets into the encounter deck. Reveal the Justice, Like Lightning environment.",
         "type_code": "main_scheme"
     },
@@ -1602,7 +1608,7 @@
         "quantity": 1,
         "set_code": "thunderbolts",
         "set_position": 2,
-        "stage": 1,
+        "stage": "1B",
         "text": "Each [[Thunderbolt]] minion gains guard.\n<b>Forced Response</b>: After a player attacks a [[Thunderbolt]] minion, that minion engages that player.\n<b>If this stage is completed, the players lose the game.</b>",
         "threat": 11,
         "type_code": "main_scheme"
@@ -2230,7 +2236,7 @@
         "scheme": 3,
         "set_code": "baron_zemo",
         "set_position": 1,
-        "stage": 1,
+        "stage": "A1",
         "text": "<b>Forced Interrupt</b>: When Baron Zemo would be defeated, reset his hit points to 12 instead. Remove 3 secret counters from among [[Board Member]] environments.",
         "traits": "Thunderbolt.",
         "type_code": "villain"
@@ -2254,7 +2260,7 @@
         "scheme_star": true,
         "set_code": "baron_zemo",
         "set_position": 1,
-        "stage": 2,
+        "stage": "A2",
         "text": "[star] <b>Forced Interrupt</b>: When Baron Zemo activates against you, either place 1 secret counter on a [[Board Member]] card or give Baron Zemo an additional boost card for this activation.",
         "traits": "Thunderbolt. Unmasked.",
         "type_code": "villain"
@@ -2276,7 +2282,7 @@
         "scheme": 4,
         "set_code": "baron_zemo",
         "set_position": 2,
-        "stage": 1,
+        "stage": "B1",
         "text": "<b>Forced Interrupt</b>: When Baron Zemo would be defeated, reset his hit points to 16 instead. Remove 3 secret counters from among [[Board Member]] environments.",
         "traits": "Thunderbolt.",
         "type_code": "villain"
@@ -2300,7 +2306,7 @@
         "scheme_star": true,
         "set_code": "baron_zemo",
         "set_position": 2,
-        "stage": 2,
+        "stage": "B2",
         "text": "Steady.\n[star] <b>Forced Interrupt</b>: When Baron Zemo activates against you, either place 2 secret counters on a [[Board Member]] card or give Baron Zemo an additional boost card for this activation.",
         "traits": "Thunderbolt. Unmasked.",
         "type_code": "villain"
@@ -2317,7 +2323,7 @@
         "quantity": 1,
         "set_code": "baron_zemo",
         "set_position": 3,
-        "stage": 1,
+        "stage": "1A",
         "text": "<b>Contents</b>: Baron Zemo (A1). <i>(Baron Zemo (B1) instead for expert mode.)</i> Baron Zemo, S.H.I.E.L.D. Executive Board, Executive Board Evidence, and Standard encounter sets. Two modular encounter sets <i>(Scientist Supreme and S.H.I.E.L.D.)</i>.\n<b>Setup</b>: Prepare the evidence <i>(see rulebook p. 18)</i>. Put each [[Board Member]] environment into play. If not playing campaign mode, place 2 secret counters on each [[Board Member]] environment.",
         "type_code": "main_scheme"
     },
@@ -2335,7 +2341,7 @@
         "quantity": 1,
         "set_code": "baron_zemo",
         "set_position": 3,
-        "stage": 1,
+        "stage": "1B",
         "text": "<b>Response</b>: After the player phase ends, the first player may place 2 secret counters on a [[Board Member]] environment that has no secret counters on it to gain 2 cards from the S.H.I.E.L.D. envelope (1 card instead in campaign mode). The players may advance to stage 2A to make their accusation.\n<b>If this stage is completed, the players lose the game.</b>",
         "threat": 12,
         "type_code": "main_scheme"
@@ -2353,7 +2359,7 @@
         "quantity": 1,
         "set_code": "baron_zemo",
         "set_position": 4,
-        "stage": 2,
+        "stage": "2A",
         "text": "<b>When Revealed</b>: Make an accusation by guessing a means, a motive, and an opportunity, along with the board member associated with that combination in the campaign log. This board member is the accused. <i>(See \"The Accusation\" on p. 19 of the rulebook.)</i>",
         "type_code": "main_scheme"
     },
@@ -2369,7 +2375,7 @@
         "quantity": 1,
         "set_code": "baron_zemo",
         "set_position": 4,
-        "stage": 2,
+        "stage": "2B",
         "text": "<b>When Revealed</b>: Do the following:\n1. Use the cards in the A.I.M. envelope to identify the mole.\n2. For each guess you got wrong, place 1 secret counter on each [[Board Member]] card.\n3. If you accused the wrong board member, place 3 secret counters on the accused.\n4. Advance to stage 3A.",
         "type_code": "main_scheme"
     },
@@ -2385,7 +2391,7 @@
         "quantity": 1,
         "set_code": "baron_zemo",
         "set_position": 5,
-        "stage": 3,
+        "stage": "3A",
         "text": "<b>When Revealed</b>: Flip Baron Zemo to his [[Unmasked]] side and reset his hit points to his printed hit point value. Find Baron Zemo's Sword and attach it to him.",
         "type_code": "main_scheme"
     },
@@ -2404,7 +2410,7 @@
         "quantity": 1,
         "set_code": "baron_zemo",
         "set_position": 5,
-        "stage": 3,
+        "stage": "3B",
         "text": "<b>When Revealed</b>: Flip the mole to its attachment side and attach it to Baron Zemo. Place 1[per_hero] threat here for each secret counter on each [[Board Member]] attachment.\n<b>If this stage is completed, the players lose the game.</b>",
         "threat": 12,
         "type_code": "main_scheme"
