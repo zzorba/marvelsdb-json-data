@@ -226,6 +226,13 @@
         "type_code": "ally"
     },
     {
+        "code": "56011",
+        "duplicate_of": "04040",
+        "pack_code": "cw",
+        "position": 11,
+        "quantity": 1
+    },
+    {
         "code": "56012",
         "cost": 1,
         "deck_limit": 3,
@@ -258,9 +265,15 @@
     {
         "code": "56014",
         "duplicate_of": "46014",
-        "flavor": "\"Is that all you got?\" \u2014Captain America",
         "pack_code": "cw",
         "position": 14,
+        "quantity": 3
+    },
+    {
+        "code": "56015",
+        "duplicate_of": "19030",
+        "pack_code": "cw",
+        "position": 15,
         "quantity": 3
     },
     {
@@ -296,6 +309,13 @@
         "type_code": "event"
     },
     {
+        "code": "56018",
+        "duplicate_of": "21046",
+        "pack_code": "cw",
+        "position": 18,
+        "quantity": 1
+    },
+    {
         "attack": 2,
         "attack_cost": 2,
         "code": "56019",
@@ -317,6 +337,27 @@
         "thwart_cost": 2,
         "traits": "Avenger.",
         "type_code": "ally"
+    },
+    {
+        "code": "56020",
+        "duplicate_of": "01088",
+        "pack_code": "cw",
+        "position": 20,
+        "quantity": 1
+    },
+    {
+        "code": "56021",
+        "duplicate_of": "01089",
+        "pack_code": "cw",
+        "position": 21,
+        "quantity": 1
+    },
+    {
+        "code": "56022",
+        "duplicate_of": "01090",
+        "pack_code": "cw",
+        "position": 22,
+        "quantity": 1
     },
     {
         "attack": 1,
@@ -594,6 +635,13 @@
         "type_code": "ally"
     },
     {
+        "code": "56042",
+        "duplicate_of": "09012",
+        "pack_code": "cw",
+        "position": 42,
+        "quantity": 1
+    },
+    {
         "code": "56043",
         "cost": 2,
         "deck_limit": 1,
@@ -608,6 +656,13 @@
         "text": "Uses (3 stronghold counters).\n<b>Alter-Ego Response</b>: After you change form, exhaust Hidden Base and remove 1 stronghold counter from it \u2192 give your identity a tough status card.",
         "traits": "Location.",
         "type_code": "support"
+    },
+    {
+        "code": "56044",
+        "duplicate_of": "09019",
+        "pack_code": "cw",
+        "position": 44,
+        "quantity": 1
     },
     {
         "code": "56045",
@@ -664,6 +719,13 @@
         "quantity": 3
     },
     {
+        "code": "56049",
+        "duplicate_of": "05015",
+        "pack_code": "cw",
+        "position": 49,
+        "quantity": 3
+    },
+    {
         "code": "56050",
         "cost": 0,
         "deck_limit": 3,
@@ -678,6 +740,13 @@
         "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, you gain retaliate 1 until the end of the phase.",
         "traits": "Defense.",
         "type_code": "event"
+    },
+    {
+        "code": "56051",
+        "duplicate_of": "21064",
+        "pack_code": "cw",
+        "position": 51,
+        "quantity": 1
     },
     {
         "attack": 1,
@@ -703,5 +772,242 @@
         "thwart_star": true,
         "traits": "Avenger.",
         "type_code": "ally"
+    },
+    {
+        "code": "56053",
+        "duplicate_of": "12033",
+        "pack_code": "cw",
+        "position": 53,
+        "quantity": 3
+    },
+    {
+        "code": "56129",
+        "cost": 2,
+        "faction_code": "basic",
+        "flavor": "\"Steve's thinking is stuck in the past. This is the future, whether he likes it or not.\" \u2014Iron Man",
+        "name": "The Futurist",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056129",
+        "pack_code": "cw",
+        "position": 129,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "iron_man_leader",
+        "text": "<b>Action</b>: Your Iron Man leader schemes. Do not give him a boost card for this activation.",
+        "type_code": "event"
+    },
+    {
+        "code": "56130",
+        "cost": 2,
+        "faction_code": "basic",
+        "name": "Target Lock",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056130",
+        "pack_code": "cw",
+        "position": 130,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "iron_man_leader",
+        "text": "<b>Action</b>: Your Iron Man leader attacks the enemy leader. If you spent a [mental] resource to pay for this event, choose an attachment on the enemy leader with the text \"<b>Hero Response</b>\" or \"<b>Hero Interrupt</b>\" and discard it.",
+        "type_code": "event"
+    },
+    {
+        "code": "56131",
+        "cost": 1,
+        "faction_code": "basic",
+        "name": "High-Tech Suit",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056131",
+        "pack_code": "cw",
+        "position": 131,
+        "quantity": 1,
+        "resource_wild": 1,
+        "scheme_acceleration": 1,
+        "set_code": "iron_man_leader",
+        "text": "Attach to your Iron Man leader. Counts as a [[Tech]] attachment.\n<b>Hero Action</b>: Spend [energy] [mental] resources \u2192 discard this card. Any player may trigger this ability.",
+        "type_code": "upgrade"
+    },
+    {
+        "code": "56132",
+        "faction_code": "basic",
+        "name": "Suit Up",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056132",
+        "pack_code": "cw",
+        "position": 132,
+        "quantity": 1,
+        "resource_wild": 2,
+        "set_code": "iron_man_leader",
+        "text": "<b>Hero Response</b>: After you spend this resource, give your Iron Man leader a tough status card.",
+        "type_code": "resource"
+    },
+    {
+        "code": "56133",
+        "cost": 0,
+        "faction_code": "basic",
+        "name": "Provoked Response",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056133",
+        "pack_code": "cw",
+        "position": 133,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "captain_marvel_leader",
+        "text": "<b>Forced Interrupt</b>: When the enemy leader would attack you, it attacks your Captain Marvel leader instead. She cannot take more than 3 damage from this attack. Discard this card.",
+        "type_code": "upgrade"
+    },
+    {
+        "code": "56134",
+        "cost": 2,
+        "faction_code": "basic",
+        "flavor": "\"You should've known this was coming!\" \u2014Captain Marvel",
+        "name": "You Started This",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056134",
+        "pack_code": "cw",
+        "position": 134,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "captain_marvel_leader",
+        "text": "<b>Action</b>: Your Captain Marvel leader attacks the enemy leader. If you spent a [energy] resource to pay for this event, confuse the enemy leader.",
+        "type_code": "event"
+    },
+    {
+        "code": "56135",
+        "cost": 0,
+        "faction_code": "basic",
+        "name": "Alpha Flight Recruit",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056135",
+        "pack_code": "cw",
+        "position": 135,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "captain_marvel_leader",
+        "text": "Attach to an ally.\n<b>Response</b>: After any number of energy counters are placed on your Captain Marvel leader's Energy Channel attachment, heal 1 damage from attached ally.",
+        "traits": "Title.",
+        "type_code": "upgrade"
+    },
+    {
+        "code": "56136",
+        "faction_code": "basic",
+        "name": "Raw Power",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056136",
+        "pack_code": "cw",
+        "position": 136,
+        "quantity": 1,
+        "resource_wild": 2,
+        "set_code": "captain_marvel_leader",
+        "text": "<b>Hero Response</b>: After you spend this resource, place 2 energy counters on your Captain Marvel leader's Energy Channel attachment.",
+        "type_code": "resource"
+    },
+    {
+        "code": "56207",
+        "cost": 0,
+        "faction_code": "basic",
+        "name": "No, You Move!",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056207",
+        "pack_code": "cw",
+        "position": 207,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "captain_america_leader",
+        "text": "<b>Forced Interrupt</b>: When the enemy leader would attack you, attach Cap's Shield to your Captain America leader and resolve this attack against him instead. Discard this card.",
+        "type_code": "upgrade"
+    },
+    {
+        "code": "56208",
+        "cost": 2,
+        "faction_code": "basic",
+        "flavor": "\"Things are different this time. Now I'm fighting dirty.\" \u2014Captain America",
+        "name": "Fighting Dirty",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056208",
+        "pack_code": "cw",
+        "position": 208,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "captain_america_leader",
+        "text": "<b>Action</b>: Your Captain America leader attacks the enemy leader. If you spent a [physical] resource to pay for this event, stun the enemy leader.",
+        "type_code": "event"
+    },
+    {
+        "code": "56209",
+        "cost": 3,
+        "faction_code": "basic",
+        "flavor": "\"We're glad to have you on our side.\" \u2014Captain America",
+        "illustrator": "Andrea Di Vito & Laura Villari",
+        "name": "Recruited by Cap",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056209",
+        "pack_code": "cw",
+        "position": 209,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "captain_america_leader",
+        "text": "<b>Action<b/>: Choose a minion engaged with you and choose a player on the enemy team. That minion engages that player.",
+        "type_code": "event"
+    },
+    {
+        "code": "56210",
+        "faction_code": "basic",
+        "name": "The People's Hero",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056210",
+        "pack_code": "cw",
+        "position": 210,
+        "quantity": 1,
+        "resource_wild": 2,
+        "set_code": "captain_america_leader",
+        "text": "<b>Hero Response</b>: After you spend this resource, give your Captain America leader a facedown boost card.",
+        "type_code": "resource"
+    },
+    {
+        "code": "56211",
+        "cost": 2,
+        "faction_code": "basic",
+        "flavor": "\"When someone targets one of us, they answer to all of us.\" \u2014Spider-Woman",
+        "name": "Double Agent",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056211",
+        "pack_code": "cw",
+        "position": 211,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "spider_woman_leader",
+        "text": "<b>Action</b>: Remove 2 threat from the main scheme. Place 2 threat on your leader's main scheme.",
+        "type_code": "event"
+    },
+    {
+        "code": "56212",
+        "cost": 2,
+        "faction_code": "basic",
+        "flavor": "\"From now on Spider-Woman fights back!\" \u2014Spider-Woman",
+        "name": "Spider-Blast",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056212",
+        "pack_code": "cw",
+        "position": 212,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "spider_woman_leader",
+        "text": "<b>Action</b>: Your Spider-Woman leader attacks the enemy leader. If you spent a [mental] resource to pay for this event, confuse the enemy leader.",
+        "type_code": "event"
+    },
+    {
+        "code": "56213",
+        "cost": 1,
+        "faction_code": "basic",
+        "name": "Hard to Hit",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056213",
+        "pack_code": "cw",
+        "position": 213,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "spider_woman_leader",
+        "text": "Attach to your Spider-Woman leader and give her a tough status card.\n<b>Forced Response</b>: After attached Spider-Woman resolves an attack, place 2 skill counters on her Finesse attachment. Discard this card.",
+        "traits": "Skill.",
+        "type_code": "upgrade"
+    },
+    {
+        "code": "56214",
+        "faction_code": "basic",
+        "name": "Secret Contact",
+        "octgn_id": "e4e959c3-c409-44ea-8bba-46addf056214",
+        "pack_code": "cw",
+        "position": 214,
+        "quantity": 1,
+        "resource_wild": 2,
+        "set_code": "spider_woman_leader",
+        "text": "<b>Hero Response</b>: After you spend this resource, place 2 skill counters on your Spider-Woman leader's Finesse attachment.",
+        "type_code": "resource"
     }
 ]
