@@ -47,6 +47,9 @@
 		"base_threat_fixed": {
 			"type": "boolean"
 		},
+		"base_threat_per_group": {
+			"type": "boolean"
+		},
 		"boost": {
 			"minimum": 1,
 			"type": "integer"
@@ -141,8 +144,15 @@
 			"type": "string"
 		},
 		"escalation_threat": {
-			"minimum": -1,
-			"type": "integer"
+			"oneOf": [
+				{
+					"minimum": -1,
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
 		},
 		"escalation_threat_fixed": {
 			"type": "boolean"
@@ -165,6 +175,9 @@
 		"health": {
 			"minimum": 0,
 			"type": "integer"
+		},
+		"health_per_group": {
+			"type": "boolean"
 		},
 		"health_per_hero": {
 			"type": "boolean"
@@ -276,6 +289,9 @@
 			]
 		},
 		"threat_fixed": {
+			"type": "boolean"
+		},
+		"threat_per_group": {
 			"type": "boolean"
 		},
 		"threat_star": {
