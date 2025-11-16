@@ -2,6 +2,7 @@
 	{
 		"boost": 2,
 		"code": "27025",
+		"errata": "Attaches George Stacy to itself instead of setting him aside and attaching to him. (RRG 1.6)",
 		"faction_code": "encounter",
 		"name": "Worried Father",
 		"octgn_id": "03cf5ddd-09c8-46cb-b506-8cd7e22e5392",
@@ -9,7 +10,7 @@
 		"position": 25,
 		"quantity": 1,
 		"set_code": "ghost_spider",
-		"text": "<b>Give to the Gwen Stacy player.</b>\nSearch your deck, hand, discard pile, and play area for George Stacy and set him aside. Attach this obligation to him.\n<b>Alter-Ego Action</b>: Exhaust Gwen Stacy and remove this obligation from the game → add George Stacy to your hand.",
+		"text": "<b>Give to the Gwen Stacy player.</b>\nSearch your deck, hand, discard pile, and play area for George Stacy and attach him facedown to this card.\n<b>Alter-Ego Action</b>: Exhaust Gwen Stacy and remove this obligation from the game → add George Stacy to your hand.",
 		"type_code": "obligation"
 	},
 	{
@@ -66,7 +67,7 @@
 		"boost": 1,
 		"code": "27029",
 		"faction_code": "encounter",
-		"flavor": "\"Fresh meat...\" — The Lizard",
+		"flavor": "\"Fresh meat...\" —The Lizard",
 		"name": "In Cold Blood",
 		"octgn_id": "e1af91a1-1775-4b5c-a02a-ec9eae2c5259",
 		"pack_code": "sm",
@@ -176,7 +177,7 @@
 		"scheme": 1,
 		"set_code": "sandman",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "<i>Sand Blast</i> — [star] <b>Forced Interrupt</b>: When Sandman attacks you, that attack deals indirect damage. If your identity takes any amount of damage from that attack, resolve the \"<i>Surging Sands</i>\" ability on City Streets.",
 		"traits": "Criminal.",
 		"type_code": "villain"
@@ -197,7 +198,7 @@
 		"scheme": 1,
 		"set_code": "sandman",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "II",
 		"text": "<b>When Revealed</b>: Resolve the \"<i>Surging Sands</i>\" ability on City Streets.\n<i>Sand Blast</i> — [star] <b>Forced Interrupt</b>: When Sandman attacks you, that attack deals indirect damage. If your identity takes any amount of damage from that attack, resolve the \"<i>Surging Sands</i>\" ability on City Streets.",
 		"traits": "Criminal.",
 		"type_code": "villain"
@@ -218,7 +219,7 @@
 		"scheme": 1,
 		"set_code": "sandman",
 		"set_position": 3,
-		"stage": 3,
+		"stage": "III",
 		"text": "<b>When Revealed</b>: Place 1 sand counter on City Streets. Resolve its \"<i>Surging Sands</i>\" ability.\n<i>Sand Wave</i> — [star] <b>Forced Interrupt</b>: When Sandman attacks you, that attack gains overkill. If your identity takes any amount of damage from that attack, resolve the \"<i>Surging Sands</i>\" ability on City Streets.",
 		"traits": "Criminal.",
 		"type_code": "villain"
@@ -234,7 +235,7 @@
 		"quantity": 1,
 		"set_code": "sandman",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1A",
 		"text": "<b>Contents</b>: Sandman (I) and Sandman (II). <i>(Sandman (II) and Sandman (III) instead for expert mode.)</i> Sandman, City in Chaos, and Standard encounter sets. One modular encounter set <i>(Down to Earth)</i>.\n<b>Setup</b>: Search the encounter deck for the City Streets environment and put it into play. Place 4 sand counters on it.",
 		"type_code": "main_scheme"
 	},
@@ -251,7 +252,7 @@
 		"quantity": 1,
 		"set_code": "sandman",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1B",
 		"text": "<b>Forced Response</b>: After an acceleration token is placed on this scheme, deal 3 indirect damage to the first player.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 9,
 		"type_code": "main_scheme"
@@ -289,7 +290,7 @@
 		"attack": -1,
 		"code": "27067",
 		"faction_code": "encounter",
-		"flavor": "\"If you wanna get to me, you gotta go through... ME!\" — Sandman",
+		"flavor": "\"If you wanna get to me, you gotta go through... ME!\" —Sandman",
 		"health": 3,
 		"name": "Sand Clone",
 		"octgn_id": "80f402fc-9c39-4553-91ed-a66aef5091c4",
@@ -383,6 +384,7 @@
 	{
 		"attack": 2,
 		"code": "27073",
+		"errata": "Changed “you attack and damage Venom with a card you control” to “you or an ally you control attacks and damages Venom”. (RRG 1.6)",
 		"faction_code": "encounter",
 		"health": 17,
 		"health_per_hero": true,
@@ -395,14 +397,15 @@
 		"scheme": 1,
 		"set_code": "venom",
 		"set_position": 1,
-		"stage": 1,
-		"text": "Toughness. (This character enters play with a tough status card.)\n<i>Vengeance</i> — <b>Forced Response</b>: After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
+		"stage": "I",
+		"text": "Toughness. (This character enters play with a tough status card.)\n<i>Vengeance</i> — <b>Forced Response</b>: After you or an ally you control attacks and damages Venom, place 1 facedown boost card on your identity.",
 		"traits": "Symbiote.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 2,
 		"code": "27074",
+		"errata": "Changed “you attack and damage Venom with a card you control” to “you or an ally you control attacks and damages Venom”. (RRG 1.6)",
 		"faction_code": "encounter",
 		"health": 18,
 		"health_per_hero": true,
@@ -415,14 +418,15 @@
 		"scheme": 2,
 		"set_code": "venom",
 		"set_position": 2,
-		"stage": 2,
-		"text": "Toughness. Steady.\n<b>When Revealed</b>: Search the encounter deck and discard pile for the Tooth and Nail side scheme and put it into play. <i>(Shuffle.)</i>\n<i>Vengeance</i> — <b>Forced Response</b>: After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity.",
+		"stage": "II",
+		"text": "Toughness. Steady.\n<b>When Revealed</b>: Search the encounter deck and discard pile for the Tooth and Nail side scheme and put it into play. <i>(Shuffle.)</i>\n<i>Vengeance</i> — <b>Forced Response</b>: After you or an ally you control attacks and damages Venom, place 1 facedown boost card on your identity.",
 		"traits": "Symbiote.",
 		"type_code": "villain"
 	},
 	{
 		"attack": 3,
 		"code": "27075",
+		"errata": "Changed “you attack and damage Venom with a card you control” to “you or an ally you control attacks and damages Venom”. (RRG 1.6)",
 		"faction_code": "encounter",
 		"health": 20,
 		"health_per_hero": true,
@@ -435,8 +439,8 @@
 		"scheme": 2,
 		"set_code": "venom",
 		"set_position": 3,
-		"stage": 3,
-		"text": "Retaliate 1. Steady. Toughness.\n<b>When Revealed</b>: Place 2 facedown boost cards on each identity.\n<i>Retribution</i> — <b>Forced Response</b>: After you attack and damage Venom with a card you control, place 1 facedown boost card on your identity (2 facedown boost cards instead if this is the first attack this turn).",
+		"stage": "III",
+		"text": "Retaliate 1. Steady. Toughness.\n<b>When Revealed</b>: Place 2 facedown boost cards on each identity.\n<i>Retribution</i> — <b>Forced Response</b>: After you or an ally you control attacks and damages Venom, place 1 facedown boost card on your identity (2 facedown boost cards instead if this is the first attack this turn).",
 		"traits": "Symbiote.",
 		"type_code": "villain"
 	},
@@ -452,7 +456,7 @@
 		"quantity": 1,
 		"set_code": "venom",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1A",
 		"text": "<b>Contents</b>: Venom (I) and Venom (II). <i>(Venom (II) and Venom (III) instead for expert mode.)</i> Venom, Symbiotic Strength, and Standard encounter sets. One modular encounter set <i>(Down to Earth.)</i>\n<b>Setup</b>: Put the Bell Tower environment into play, [[QUIET]] side faceup.",
 		"threat": null,
 		"type_code": "main_scheme"
@@ -470,7 +474,7 @@
 		"quantity": 1,
 		"set_code": "venom",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1B",
 		"text": "<b>Forced Interrupt</b>: When Venom activates against you, move each facedown boost card from your identity to Venom.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 10,
 		"type_code": "main_scheme"
@@ -621,7 +625,7 @@
 		"scheme_star": true,
 		"set_code": "mysterio",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "<i>Seeds of Fear</i> — [star] <b>Forced Response</b>: After you resolve a boost card during Mysterio's activation, place that card in your discard pile if it has the [[illusion]] trait.",
 		"traits": "Criminal.",
 		"type_code": "villain"
@@ -644,7 +648,7 @@
 		"scheme_star": true,
 		"set_code": "mysterio",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "II",
 		"text": "<b>When Revealed</b>: In player order, shuffle the top card of the encounter deck into each player's deck.\n<i>Creeping Fear</i> — [star] <b>Forced Response</b>: After you resolve a boost card during Mysterio's activation, place that card on the bottom of your deck if it has the [[illusion]] trait.",
 		"traits": "Criminal.",
 		"type_code": "villain"
@@ -667,7 +671,7 @@
 		"scheme_star": true,
 		"set_code": "mysterio",
 		"set_position": 3,
-		"stage": 3,
+		"stage": "III",
 		"text": "<b>When Revealed</b>: Discard the top 5 cards of each player's deck.\n<i>Bound by Fear</i> — [star] <b>Forced Response</b>: After you resolve a boost card during Mysterio's activation, place that card on the top of your deck if it has the [[illusion]] trait.",
 		"traits": "Criminal.",
 		"type_code": "villain"
@@ -684,7 +688,7 @@
 		"quantity": 1,
 		"set_code": "mysterio",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1A",
 		"text": "<b>Contents</b>: Mysterio (I) and Mysterio (II). <i>(Mysterio (II) and Mysterio (III) instead for expert mode.)</i> Mysterio, Personal Nightmare, and Standard encounter sets. One modular encounter set <i>(Whispers of Paranoia.)</i>\n<b>Setup</b>: Put a shifting Apparition minion into play engaged with each player. <i>(Shuffle.)</i>",
 		"type_code": "main_scheme"
 	},
@@ -702,7 +706,7 @@
 		"quantity": 1,
 		"set_code": "mysterio",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "1B",
 		"text": "<b>Forced Interrupt</b>: When you would draw or discard an encounter card from your deck, deal it to yourself as a facedown encounter card → draw 1 card.",
 		"threat": 8,
 		"type_code": "main_scheme"
@@ -719,7 +723,7 @@
 		"quantity": 1,
 		"set_code": "mysterio",
 		"set_position": 5,
-		"stage": 2,
+		"stage": "2A",
 		"text": "<b>When Revealed</b>: In player order, shuffle the top 2 cards of the encounter deck into each player's deck.",
 		"type_code": "main_scheme"
 	},
@@ -737,7 +741,7 @@
 		"quantity": 1,
 		"set_code": "mysterio",
 		"set_position": 5,
-		"stage": 2,
+		"stage": "2B",
 		"text": "<b>Forced Interrupt</b>: When you would draw or discard an encounter card from your deck, deal it to yourself as a facedown encounter card → draw 1 card.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 9,
 		"type_code": "main_scheme"
@@ -835,7 +839,7 @@
 		"scheme": 2,
 		"set_code": "sinister_six",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "[star] <b>Forced Response</b>: After Doctor Octopus attacks and damages you, place 1 threat on each scheme. Move the active counter to the next villain in the activation order.\n<b>When Defeated</b>: Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 1",
 		"type_code": "villain"
@@ -856,7 +860,7 @@
 		"scheme": 2,
 		"set_code": "sinister_six",
 		"set_position": 2,
-		"stage": 1,
+		"stage": "I",
 		"text": "[star] <b>Forced Response</b>: After Electro attacks and damages you, discard the top 7 cards of your deck. Move the active counter to the next villain in the activation order.\n<b>When Defeated</b>: Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 2",
 		"type_code": "villain"
@@ -877,7 +881,7 @@
 		"scheme": 2,
 		"set_code": "sinister_six",
 		"set_position": 3,
-		"stage": 1,
+		"stage": "I",
 		"text": "[star] <b>Forced Response</b>: After Hobgoblin attacks and damages you, take 2 indirect damage. Move the active counter to the next villain in the activation order.\n<b>When Defeated</b>: Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 3",
 		"type_code": "villain"
@@ -898,7 +902,7 @@
 		"scheme": 1,
 		"set_code": "sinister_six",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "I",
 		"text": "[star] <b>Forced Response</b>: After Kraven the Hunter attacks and damages you, choose and discard 1 support or upgrade you control. Move the active counter to the next villain in the activation order.\n<b>When Defeated</b>: Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 4",
 		"type_code": "villain"
@@ -919,7 +923,7 @@
 		"scheme": 0,
 		"set_code": "sinister_six",
 		"set_position": 5,
-		"stage": 1,
+		"stage": "I",
 		"text": "[star] <b>Forced Response</b>: After Scorpion attacks and damages you, stun a character you control. Move the active counter to the next villain in the activation order.\n<b>When Defeated</b>: Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 5",
 		"type_code": "villain"
@@ -940,7 +944,7 @@
 		"scheme": 1,
 		"set_code": "sinister_six",
 		"set_position": 6,
-		"stage": 1,
+		"stage": "I",
 		"text": "[star] <b>Forced Response</b>: After Vulture attacks and damages you, choose and discard 1 card from your hand. Move the active counter to the next villain in the activation order.\n<b>When Defeated</b>: Remove 4 threat from a side scheme (7 threat instead if no other villain is in play). Set this villain aside.",
 		"traits": "Activation Order 6",
 		"type_code": "villain"
@@ -957,7 +961,7 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 7,
-		"stage": 1,
+		"stage": "1A",
 		"text": "<b>Contents</b>: Doctor Octopus, Electro, Hobgoblin, Kraven the Hunter, Scorpion, and Vulture. The Sinister Six, Guerrilla Tactics, and Standard encounter sets.\n<b>Setup</b>: Choose X villains at random, where X is 1 more than the number of players. Put those villains into play, place the active counter on the villain with the lowest activation order value, and set the other villains aside. Put the Light at the End side scheme into play, [[trap!]] side faceup.",
 		"type_code": "main_scheme"
 	},
@@ -975,7 +979,7 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 7,
-		"stage": 1,
+		"stage": "1B",
 		"text": "Ambush! — <b>Special</b>: Choose a set-aside villain at random, put that villain into play, and place the active counter on it. (In expert mode, place 2 threat on Light at the End).\n<b>Forced Interrupt</b>: When a villain would activate, if no villain is in play, resolve this card's \"<i>Ambush!</i>\" ability. Continue that activation.",
 		"threat": 8,
 		"type_code": "main_scheme"
@@ -992,7 +996,7 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 8,
-		"stage": 2,
+		"stage": "2A",
 		"text": "<b>When Revealed</b>: Choose a set-aside villain at random, put that villain into play, and place the active counter on it <i>(even if another villain has the counter)</i>. If no villain was put into play this way or this is expert mode, deal the first player 1 facedown encounter card.",
 		"threat": null,
 		"type_code": "main_scheme"
@@ -1010,7 +1014,7 @@
 		"quantity": 1,
 		"set_code": "sinister_six",
 		"set_position": 8,
-		"stage": 2,
+		"stage": "2B",
 		"text": "<i>Ambush!</i> — <b>Special</b>: Choose a set-aside villain at random, put that villain into play, and place the active counter on it. (In expert mode, place 2 threat on Light at the End).\n<b>Forced Interrupt</b> When a villain would activate, if no villain is in play, resolve this card's \"<i>Ambush!</i>\" ability. Continue that activation.\n<b>If this stage is completed, the players lose the game.</b>",
 		"threat": 7,
 		"type_code": "main_scheme"
@@ -1024,6 +1028,7 @@
 		"name": "Light at the End",
 		"octgn_id": "6c1142d0-3fb7-4303-85b3-bec275ad8d5e",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 102,
 		"quantity": 1,
 		"set_code": "sinister_six",
@@ -1041,6 +1046,7 @@
 		"name": "Light at the End",
 		"octgn_id": "6c1142d0-3fb7-4303-85b3-bec275ad8d5e",
 		"pack_code": "sm",
+		"permanent": true,
 		"position": 102,
 		"quantity": 1,
 		"scheme_amplify": 1,
@@ -1214,7 +1220,7 @@
 		"scheme_star": true,
 		"set_code": "venom_goblin",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "I",
 		"text": "Steady.\n<i>Infest the City</i> — [star] <b>Forced Response</b>: After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Choose to either place 2 threat on that scheme or resolve its \"<b>Special</b>\" ability.",
 		"traits": "Goblin. Symbiote.",
 		"type_code": "villain"
@@ -1236,7 +1242,7 @@
 		"scheme_star": true,
 		"set_code": "venom_goblin",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "II",
 		"text": "Steady. Toughness.\n<b>When Revealed</b>: Deal 2 facedown encounter cards to each player.\n<i>Claim the Throne</i> — [star] <b>Forced Response</b>: After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Resolve its \"<b>Special</b>\" ability.",
 		"traits": "Goblin. Symbiote.",
 		"type_code": "villain"
@@ -1258,7 +1264,7 @@
 		"scheme_star": true,
 		"set_code": "venom_goblin",
 		"set_position": 3,
-		"stage": 3,
+		"stage": "III",
 		"text": "Retaliate 1. Stalwart. Toughness.\n<b>When Revealed</b>: Deal 3 facedown encounter cards to each player.\n<i>Reign of Terror</i> — [star] <b>Forced Response</b>: After Venom Goblin activates against you, move the glider counter to the main scheme with the least threat. Place 1 threat on that scheme and resolve its \"<b>Special</b>\" ability.",
 		"traits": "Goblin. Symbiote.",
 		"type_code": "villain"
@@ -1275,7 +1281,7 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 4,
-		"stage": 1,
+		"stage": "A",
 		"text": "<b>Contents</b>: Venom Goblin (I) and Venom Goblin (II) <i>(Venom Goblin (II) and Venom Goblin (III) for expert mode.)</i> Venom Goblin, Symbiotic Strength, and Standard encounter sets. One modular encounter set <i>(Goblin Gear)</i>.\n<b>Setup</b>: Put the Lower Manhattan, Midtown Manhattan, and Upper Manhattan main schemes into play. Place the glider counter on Midtown Manhattan. Flip this card and set it aside.",
 		"threat": null,
 		"type_code": "main_scheme"
@@ -1307,7 +1313,7 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 5,
-		"stage": null,
+		"stage": "B",
 		"text": "<b>Special</b>: Place 1 threat on each scheme. If a [[symbiote]] environment is in play, place 1 additional threat on this scheme.",
 		"threat": 11,
 		"type_code": "main_scheme"
@@ -1340,7 +1346,7 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 6,
-		"stage": null,
+		"stage": "C",
 		"text": "<b>Special</b>: Take 2 indirect damage. If a [[symbiote]] environment is in play, take 1 additional indirect damage.",
 		"threat": 12,
 		"type_code": "main_scheme"
@@ -1374,7 +1380,7 @@
 		"quantity": 1,
 		"set_code": "venom_goblin",
 		"set_position": 7,
-		"stage": null,
+		"stage": "D",
 		"text": "<b>Special</b>: Discard 1 card from your hand. If a [[symbiote]] environment is in play, discard the top 4 cards of your deck.",
 		"threat": 10,
 		"type_code": "main_scheme"
@@ -1441,7 +1447,7 @@
 		"octgn_id": "4dc840fa-521c-409d-b57c-d0b63bd3b22c",
 		"pack_code": "sm",
 		"position": 122,
-		"quantity": 2,
+		"quantity": 1,
 		"scheme": 2,
 		"set_code": "venom_goblin",
 		"set_position": 11,
@@ -1667,7 +1673,7 @@
 		"scheme_star": true,
 		"set_code": "goblin_gear",
 		"set_position": 1,
-		"text": "Attach to the villain.\n<b>Forced Response</b>: After attached villain activates against you, it activates against you again. (Limit once per round per player).\n<b> Hero Action: </b> Discard any number of [[attack]] cards from your hand with a combined resource cost of 3 or more → discard this card.",
+		"text": "Attach to the villain.\n<b>Forced Response</b>: After attached villain activates against you, it activates against you again. (Limit once per round per player).\n<b>Hero Action</b>: Discard any number of [[attack]] cards from your hand with a combined resource cost of 3 or more → discard this card.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
@@ -1839,6 +1845,7 @@
 		"boost": 3,
 		"code": "27147",
 		"faction_code": "encounter",
+		"illustrator": "Julian Lopez Velarde",
 		"name": "Arm Cannon",
 		"octgn_id": "5ad0d535-b853-4236-b122-5b033f1c4ef1",
 		"pack_code": "sm",
@@ -1846,7 +1853,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 1,
-		"text": "Surge.\nAttach to the villain\n[star] Attached villain's attacks gain overkill and piercing. <b> Hero Action: </b> Discard the highest cost upgrade you control → discard this card.",
+		"text": "Surge.\nAttach to the villain.\n[star] Attached villain's attacks gain overkill and piercing.\n<b>Hero Action</b>: Discard the highest-cost upgrade you control → discard this card.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -1855,6 +1862,7 @@
 		"boost": 3,
 		"code": "27148",
 		"faction_code": "encounter",
+		"illustrator": "Andrea Di Vito & Laura Villari",
 		"name": "Ionic Boots",
 		"octgn_id": "b49e759e-e1c0-433e-bead-a0abc6dbebae",
 		"pack_code": "sm",
@@ -1862,7 +1870,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 2,
-		"text": "Surge.\nAttach to the villain\n[star] <b>Forced Response</b>: After attached villain attacks and damages your identity, place 2 threat on the main scheme.\n<b> Hero Action: </b> Spend [energy] [mental][physical] resources → discard this card.",
+		"text": "Surge.\nAttach to the villain.\n[star] <b>Forced Response</b>: After attached villain attacks and damages your identity, place 2 threat on the main scheme.\n<b>Hero Action</b>: Spend [energy] [mental][physical] resources → discard this card.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
@@ -1870,6 +1878,7 @@
 		"boost": 3,
 		"code": "27149",
 		"faction_code": "encounter",
+		"illustrator": "William Sliney",
 		"name": "Kinetic Armor",
 		"octgn_id": "30bb4f04-dcb8-41e1-aa97-08442de39d41",
 		"pack_code": "sm",
@@ -1877,7 +1886,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 3,
-		"text": "Surge.\nAttach to the villain\nAttached villain gains retaliate 1.\n<b> Hero Action: </b> Take 3 indirect damage → discard this card.",
+		"text": "Surge.\nAttach to the villain.\nAttached villain gains retaliate 1.\n<b>Hero Action</b>: Take 3 indirect damage → discard this card.",
 		"traits": "Armor. Tech.",
 		"type_code": "attachment"
 	},
@@ -1885,6 +1894,7 @@
 		"boost": 3,
 		"code": "27150",
 		"faction_code": "encounter",
+		"illustrator": "Andrea Di Vito & Laura Villari",
 		"name": "Neocarbon Scales",
 		"octgn_id": "6533c147-41d9-4fd3-960d-3d33b2095a23",
 		"pack_code": "sm",
@@ -1892,14 +1902,16 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 4,
-		"text": "Surge.\nAttach to the villain\nReduce the amount of damage attached villain takes from each attack by 1.\n<b> Hero Action: </b> Give the villain a tough status card and 1 facedown boost card → discard this card.",
+		"text": "Surge.\nAttach to the villain.\nReduce the amount of damage attached villain takes from each attack by 1.\n<b>Hero Action</b>: Give the villain a tough status card and 1 facedown boost card → discard this card.",
 		"traits": "Armor. Tech.",
 		"type_code": "attachment"
 	},
 	{
+		"attack": 1,
 		"boost": 3,
 		"code": "27151",
 		"faction_code": "encounter",
+		"illustrator": "Andrea Di Vito & Laura Villari",
 		"name": "Spiked Gauntlet",
 		"octgn_id": "741bff7c-eddb-4b30-aaa7-73b1eefb5f64",
 		"pack_code": "sm",
@@ -1907,7 +1919,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 5,
-		"text": "Surge.\nAttach to the villain.\n<b> Hero Action: </b> The villain attacks you. After that attack ends, if your identity took no damage from that attack, discard this card.",
+		"text": "Surge.\nAttach to the villain.\n<b>Hero Action</b>: The villain attacks you. After that attack ends, if your identity took no damage from that attack, discard this card.",
 		"traits": "Tech. Weapon.",
 		"type_code": "attachment"
 	},
@@ -1916,6 +1928,7 @@
 		"boost": 3,
 		"code": "27152",
 		"faction_code": "encounter",
+		"illustrator": "Julian Lopez Velarde",
 		"name": "Tracking Display",
 		"octgn_id": "14b0a5c7-0c6b-4587-a807-82a894f9212b",
 		"pack_code": "sm",
@@ -1923,7 +1936,7 @@
 		"quantity": 1,
 		"set_code": "osborn_tech",
 		"set_position": 6,
-		"text": "Surge .\nAttach to the villain.\n[star] Each character cannot defend against attached villain's attack.\n<b> Hero Action: </b> Exhaust a character you control and discard 1 random card from your hand → discard this card.",
+		"text": "Surge .\nAttach to the villain.\n[star] Each character cannot defend against attached villain's attacks.\n<b>Hero Action</b>: Exhaust a character you control and discard 1 random card from your hand → discard this card.",
 		"traits": "Item. Tech.",
 		"type_code": "attachment"
 	},
@@ -2138,7 +2151,7 @@
 		"scheme_amplify": 1,
 		"set_code": "symbiotic_strength",
 		"set_position": 1,
-		"text": "Attach to the villain.\n<b> Hero Action: </b> Spend [mental][physical][energy] resources → discard this card.",
+		"text": "Attach to the villain.\n<b>Hero Action</b>: Spend [mental][physical][energy] resources → discard this card.",
 		"type_code": "attachment"
 	},
 	{
@@ -2236,6 +2249,7 @@
 	{
 		"boost": 2,
 		"code": "27171",
+		"errata": "Added “Attached ally engages its controller.” (RRG 1.5)",
 		"faction_code": "encounter",
 		"name": "Manipulated Mind",
 		"octgn_id": "edd2d216-02d1-47f5-890b-ad360a506c71",
@@ -2244,7 +2258,7 @@
 		"quantity": 1,
 		"set_code": "whispers_of_paranoia",
 		"set_position": 3,
-		"text": "Treat attached ally as a minion with a blank text box (except for [[traits]]). Attach minion's SCH is equal to its printed THW and it does not take consequential damage.\n<b>When Revealed</b>: Attach to the ally you control with the lowest cost. If you cannot, this card gains surge.",
+		"text": "Treat attached ally as a minion with a blank text box (except for [[traits]]). Attach minion's SCH is equal to its printed THW and it does not take consequential damage.\n<b>When Revealed</b>: Attach to the ally you control with the lowest cost. Attached ally engages its controller. Otherwise, this card gains surge.",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},
@@ -2260,7 +2274,7 @@
 		"quantity": 1,
 		"set_code": "whispers_of_paranoia",
 		"set_position": 4,
-		"text": "Attached minion gets +1 hit point.\n<b>When Revealed</b>: Search the encounter deck, discard pile, and set-aside area for your nemesis minion, then reveal that minion. Attach old Grudge to it (Shuffle.)\n<hr />\n[star] <b>Boost</b>: Deal 1 damage to each character you control.",
+		"text": "Attached minion gets +1 hit point.\n<b>When Revealed</b>: Search the encounter deck, discard pile, and set-aside area for your nemesis minion, then reveal that minion. Attach Old Grudge to it. (Shuffle.)\n<hr />\n[star] <b>Boost</b>: Deal 1 damage to each character you control.",
 		"traits": "Illusion.",
 		"type_code": "attachment"
 	},

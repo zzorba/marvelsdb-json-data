@@ -1,473 +1,473 @@
 [
-	{
-		"code": 32002,
-		"name": "Shadowcat",
-		"subname": "Kitty Pryde",
-		"text": "Shadowcat ignora le parole chiave Guardia e Pattuglia e le icone crisi ([crisis]) in gioco.",
-		"traits": "X-Men.",
-		"flavor": "<i>\"Forza Peter, grosso zoticone! È il tuo corpo a essere fatto di metallo, non il tuo cervello!\"</i>"
-	},
-	{
-		"code": 32003,
-		"name": "Studio di Piotr",
-		"text": "<b>Azione Alter Ego</b>: Esaurisci Studio di Piotr → scarta carte dalla cima del tuo mazzo finché non scarti 1 carta del set Colosso, aggiungi quella carta alla tua mano.",
-		"traits": "Luogo.",
-		"flavor": "<i>Sotto quella pelle d'acciaio batte il cuore di un artista che preferirebbe dipingere piuttosto che combattere.</i>"
-	},
-	{
-		"code": 32004,
-		"name": "Volontà di Ferro",
-		"text": "Colosso riceve +1 INT.\n<b>Risposta</b>: Dopo che una carta status Robusto è stata scartata da Colosso, pesca 1 carta.",
-		"traits": "Superpotere.",
-		"flavor": "<i>\"Pete ha una volontà forte quanto la sua pelle corazzata. Non molla mica.\" - Wolverine</i>"
-	},
-	{
-		"code": 32005,
-		"name": "Muscoli di Titanio",
-		"text": "Colosso ottiene +1 ATT.\n<b>Risorsa eroe</b>: Esaurisci questa carta → genera 1 [physical] per ogni carta status Robusto su Colosso.",
-		"traits": "Superpotere."
-	},
-	{
-		"code": 32006,
-		"name": "Acciaio Organico",
-		"text": "Utilizzo (2 gettoni acciaio).\n<b>Risposta Eroe</b>: Dopo che una carta status Robusto è stata scartata da Colosso, esaurisci questa carta e rimuovi 1 gettone acciaio da essa → irrobustisci Colosso.",
-		"traits": "Superpotere."
-	},
-	{
-		"code": 32007,
-		"name": "Scolpito nella Rabbia",
-		"text": "<b>Interruzione Eroe</b>: Quando effettui un attacco base, scarta 1 carta status Robusto dal tuo eroe → ricevi +6 ATT per questo attacco. Questo attacco ottiene Sopraffazione.",
-		"traits": "Superpotere.",
-		"flavor": "\"Aaarrrrrhhhhhh!\" - Colosso"
-	},
-	{
-		"code": 32008,
-		"name": "Pugno d'Acciaio",
-		"text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 5 danni a un nemico. Puoi scartare 1 carta status Robusto dal tuo eroe → stordisci e confondi quel nemico.",
-		"traits": "Attacco. Superpotere.",
-		"flavor": "<i>\"Compagni! Poniamo fine a questa battaglia una volta per tutte!\" - Colosso</i>"
-	},
-	{
-		"code": 32009,
-		"name": "Guardiano Antiproiettile",
-		"text": "<b>Azione Eroe</b>: Scarta 1 carta status Robusto dal tuo eroe → scegli 1 effetto tra:\n• Irrobustisci 2 volte il tuo eroe.\n• Ripristina il tuo eroe.",
-		"traits": "Superpotere."
-	},
-	{
-		"code": 32010,
-		"name": "Corazza Vivente",
-		"text": "<b>Interruzione Alter Ego</b>: Quando il criminale si attiva, assumi la sembianza di eroe.",
-		"traits": "Superpotere.",
-		"flavor": "<i>\"Ti sei preso gioco di me quando avresti dovuto uccidermi, concedendomi il tempo di cambiare da Piotr Rasputin... a Colosso!\" - Colosso</i>"
-	},
-	{
-		"code": 32011,
-		"name": "Nightcrawler",
-		"subname": "Kurt Wagner",
-		"text": "<b>Interruzione</b>: Quando un personaggio [[X-MEN]] sta per subire un qualsiasi ammontare di danni da un attacco nemico, spendi [energy] e rimetti Nightcrawler nella tua mano → previeni tutti quei danni.",
-		"traits": "X-Men."
-	},
-	{
-		"code": 32012,
-		"name": "Polaris",
-		"subname": "Lorna Dane",
-		"text": "<b>Risposta</b>: Dopo che Polaris è entrata in gioco, irrobustisci 1 personaggio [[X-MEN]].",
-		"traits": "X-Men.",
-		"flavor": "<i>\"Voglio bene a mio padre. Ma mentre lui cerca di dominare gli altri, io combatto per proteggerli.\"</i>"
-	},
-	{
-		"code": 32013,
-		"name": "Addestramento Protettivo",
-		"text": "Assegna a un alleato [[X-MEN]]. Massimo 1 miglioria [[ADDESTRAMENTO]] per alleato.\nL'alleato con questa miglioria riceve +3 punti ferita.",
-		"traits": "Addestramento.",
-		"flavor": "<i>Difensori giurati di un mondo che li odia e li teme, gli X-Men si addestrano costantemente.</i>"
-	},
-	{
-		"code": 32014,
-		"name": "Pugno Devastante",
-		"text": "<b>Interruzione Eroe</b> <i>(attacco/difesa)</i>: Quando un nemico lancia un attacco, infliggi 4 danni a quel nemico.",
-		"traits": "Attacco. Difesa.",
-		"flavor": "<i>\"Lo vuoi un bel sandwich di cazzotti?!\" - Shadowcat</i>"
-	},
-	{
-		"code": 32016,
-		"flavor": "<i>\"Piantala di agitarti. Ti ho salvato la pellaccia, no?\" - Wolverine</i>",
-		"name": "Perseveranza",
-		"text": "<b>Risposta Eroe</b>: Dopo che hai cambiato sembianza, irrobustisci il tuo eroe.",
-		"traits": "Tattica."
-	},
-	{
-		"code": 32017,
-		"name": "Guardiani Mutanti",
-		"text": "Gioca solo se la tua identità possiede il tratto [[X-MEN]].\n<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando un nemico attacca, metti in gioco 1 alleato [[X-MEN]] dalla tua mano. Esauriscilo e dichiaralo come difensore per questo attacco.",
-		"traits": "Difesa."
-	},
-	{
-		"code": 32018,
-		"name": "Energia Difensiva",
-		"text": "Massimo 2 per mazzo.\n<b>Interruzione Eroe</b>: Quando hai speso le risorse di questa carta per giocare un evento [[DIFESA]], pesca 1 carta."
-	},
-	{
-		"code": 32019,
-		"name": "Professor X",
-		"subname": "Charles Xavier",
-		"text": "<b>Risposta Obbligata</b>: Dopo che Professor X è entrato in gioco, scegli 1 effetto tra: confondi il criminale; stordisci 1 gregario; ripristina 1 personaggio [[X-MEN]]. Alla fine del round, se Professor X è ancora in gioco, scartalo.",
-		"traits": "Psionico. X-Men."
-	},
-	{
-		"code": 32020,
-		"name": "X-Jet",
-		"text": "<b>Risorsa</b>: Esaurisci X-Jet → genera [wild] per un giocatore la cui identità possiede il tratto [[X-MEN]].",
-		"traits": "Veicolo. X-Men.",
-		"flavor": "<i>\"Forge si è davvero superato con questa bellezza!\" - Bestia</i>"
-	},
-	{
-		"code": 32021,
-		"name": "Ombra e Acciaio",
-		"text": "Team-Up (Colosso e Shadowcat).\nMassimo 1 per mazzo.\n<b>Interruzione Eroe</b> <i>(attacco/difesa)</i>: Quando un nemico attacca, previeni tutti i danni di quell'attacco e infliggi 4 danni al nemico attaccante.",
-		"traits": "Attacco. Difesa."
-	},
-	{
-		"code": 32032,
-		"name": "Lockheed",
-		"text": "<b>Risposta</b>: Dopo che Lockheed è entrato in gioco, se sei nella:\n• Sembianza di massa Solida, infliggi 2 danni a un nemico.\n• Sembianza di massa Incorporea, rimuovi 2 minacce da una trama.",
-		"traits": "Drago. X-Men."
-	},
-	{
-		"code": 32033,
-		"name": "Stanza di Kitty",
-		"text": "<b>Azione Alter Ego</b>: Esaurisci Stanza di Kitty → se sei nella:\n• Sembianza di massa Solida, cura 2 danni a Kitty Pryde.\n• Sembianza di massa Incorporea, pesca 1 carta.",
-		"traits": "Luogo."
-	},
-	{
-		"code": 32034,
-		"name": "Controllo Totale",
-		"text": "<b>Risposta Eroe</b>: Dopo che hai ignorato la parola chiave Guardia o Pattuglia su un gregario, esaurisci Controllo Totale → infliggi 2 danni a quel gregario.",
-		"traits": "Superpotere.",
-		"flavor": "<i>\"Hai idea di quanta concentrazione ci voglia per rendere incorporeo soltanto un piede?\" - Shadowcat</i>"
-	},
-	{
-		"code": 32035,
-		"name": "Interferenza Intangibile",
-		"text": "<b>Risposta Eroe</b>: Dopo che hai ignorato l'icona crisi ([crisis]) su una trama, esaurisci Interferenza Intangibile  → rimuovi 2 minacce da quella trama.",
-		"traits": "Superpotere.",
-		"flavor": "<i>La capacità di Shadowcat di rendersi intangibile ha un effetto devastante sui dispositivi elettronici.</i>"
-	},
-	{
-		"code": 32036,
-		"name": "Confuso e Sfasato",
-		"text": "Solo sembianza di eroe. Assegna a un nemico. Massimo 1 per nemico.\n<b>Interruzione Obbligata</b>: Quando il nemico con questa miglioria sta per attaccare, scarta invece questa carta. Poi confondi quel nemico.",
-		"traits": "Condizione."
-	},
-	{
-		"code": 32037,
-		"name": "Sorpresa di Shadowcat",
-		"text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 3 danni a un nemico. Ripristina il tuo eroe.",
-		"traits": "Attacco. Superpotere.",
-		"flavor": "<i>\"State per assistere a un altro trucco, anche se probabilmente non siete ancora pronti.\" - Shadowcat</i>"
-	},
-	{
-		"code": 32038,
-		"name": "Colpo Incorporeo",
-		"text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 6 danni a un nemico. Se sei nella sembianza di massa Incorporea, puoi scartare 1 aggiunta con il testo \"<b>Azione Eroe</b>\" o \"<b>Risposta Eroe</b>\" da quel nemico.",
-		"traits": "Attacco. Superpotere."
-	},
-	{
-		"code": 32039,
-		"name": "Camminare nell'Aria",
-		"text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 2 minacce da una trama (4 minacce invece se sei nella sembianza di massa Incorporea).",
-		"traits": "Intervento. Superpotere.",
-		"flavor": "<i>\"Per citare il rapper: 'You can't touch this'!\" - Shadowcat</i>"
-	},
-	{
-		"code": 32040,
-		"name": "Transizione Rapida",
-		"text": "<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando un nemico attacca, se sei nella:\n• Sembianza di massa Solida, assumi la sembianza di massa Incorporea.\n• Sembianza di massa Incorporea, pesca 2 carte.",
-		"traits": "Difesa. Superpotere."
-	},
-	{
-		"code": 32041,
-		"name": "Wolverine",
-		"subname": "Logan",
-		"text": "[star] Gli attacchi di Wolverine ottengono Perforante.\n<b>Risposta</b>: Dopo che il tuo turno è iniziato, cura 1 danno a Wolverine.",
-		"traits": "X-Men.",
-		"flavor": "<i>\"Ti senti fortunato, cocco?\"</i>"
-	},
-	{
-		"code": 32042,
-		"name": "Magik",
-		"subname": "Illyana Rasputin",
-		"text": "<b>Risposta</b>: Dopo che hai giocato Magik dalla tua mano, spendi [mental] → scegli un gregario non [[ELITE]] impegnato con un eroe [[X-MEN]]. Mescola quel gregario nel mazzo degli incontri.",
-		"traits": "Mistico. X-Men."
-	},
-	{
-		"code": 32043,
-		"name": "Addestramento d'Attacco",
-		"text": "Assegna a un alleato [[X-MEN]]. Massimo 1 miglioria [[ADDESTRAMENTO]] per alleato.\nL'alleato con questa miglioria riceve +1 ATT e +2 punti ferita.",
-		"traits": "Addestramento."
-	},
-	{
-		"code": 32044,
-		"name": "Custode",
-		"text": "Assegna a un gregario.\nIl gregario con questa miglioria riceve +2 punti ferita e ottiene Pattuglia.\n<b>Interruzione</b>: Quando il gregario con questa miglioria è sconfitto, rimuovi 4 minacce dalla trama principale.",
-		"traits": "Condizione."
-	},
-	{
-		"code": 32045,
-		"name": "Colpo di Squadra",
-		"text": "Gioca solo se la tua identità possiede il tratto [[X-MEN]].\n<b>Azione Eroe</b> <i>(attacco)</i>: Esaurisci il tuo eroe e un qualsiasi numero di alleati [[X-MEN]] → infliggi un totale di X danni ai nemici in gioco, dove X è pari all'ATT totale dei personaggi che hai esaurito in questo modo.",
-		"traits": "Attacco."
-	},
-	{
-		"code": 32047,
-		"name": "Energia Offensiva",
-		"text": "Massimo 2 per mazzo.\n<b>Interruzione Eroe</b>: Quando hai speso le risorse di questa carta per giocare un evento [[ATTACCO]], quell'evento infligge 1 danno aggiuntivo."
-	},
-	{
-		"code": 32048,
-		"name": "Colosso",
-		"text": "Se la tua identità possiede il tratto [[MUTANTE]] o [[X-MEN]], riduci di 1 il costo per giocare Colosso.\nRobustezza.",
-		"traits": "X-Men.",
-		"flavor": "<i>\"Dietro di me, tovarisch!\"</i>",
-		"subname": "Piotr Rasputin"
-	},
-	{
-		"code": 32049,
-		"name": "Villa-X",
-		"text": "<b>Azione Alter Ego</b>: Esaurisci Villa-X → cura 1 danno a un personaggio [[MUTANTE]] o [[X-MEN]]. Qualsiasi giocatore il cui alter ego possiede il tratto [[MUTANTE]] può innnescare questa capacità.",
-		"traits": "Luogo. X-Men."
-	},
-	{
-		"code": 32051,
-		"name": "Pronto a Darci Dentro",
-		"text": "Gioca sotto il controllo di un qualsiasi giocatore.\nMassimo 1 per giocatore.\n<b>Risposta Eroe</b>: Dopo che hai cambiato sembianza, scarta questa carta → ripristina il tuo eroe.",
-		"traits": "Condizione."
-	},
-	{
-		"code": 32176,
-		"name": "Colpo di Grazia",
-		"traits": "Abilità.",
-		"flavor": "<i>\"In guardia!\" - Nightcrawler</i>",
-		"text": "<b>Interruzione Eroe</b>: Quando attacchi, questo attacco infligge 3 danni aggiuntivi e ottiene Sopraffazione. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32177,
-		"name": "Spavalderia",
-		"traits": "Abilità.",
-		"flavor": "<i>\"Forza, cocco. Facci divertire!\" - Wolverine</i>",
-		"text": "<b>Interruzione Eroe</b><i>(difesa)</i>: Quando effettui una difesa base, ricevi +3 DIF. Ripristina il tuo eroe. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32178,
-		"name": "Difesa Sfrontata",
-		"traits": "Abilità.",
-		"text": "<b>Interruzione Eroe</b><i>(attacco/difesa)</i>: Quando un nemico attacca, spendi 1 risorsa di qualsiasi tipo → previeni 3 danni da questo attacco e infliggi 3 danni a quel nemico. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32179,
-		"name": "Attacco Efferrato",
-		"traits": "Abilità.",
-		"text": "<b>Azione Eroe</b><i>(attacco)</i>: Spendi 3 risorse di qualsiasi tipo → infliggi 6 danni a un nemico e ripristina il tuo eroe. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32180,
-		"name": "Grido di Guerra",
-		"traits": "Abilità.",
-		"flavor": "<i>\"Rrrrrrraaaaargh!\" - Wolverine</i>",
-		"text": "<b>Risorsa Eroe</b>: Genera [jolly] [jolly] per un evento [[ATTACCO]] o [[DIFESA]]. Irrobustisciti. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32181,
-		"name": "Colpo di Grazia",
-		"traits": "Abilità.",
-		"flavor": "<i>\"In guardia!\" - Nightcrawler</i>",
-		"text": "<b>Interruzione Eroe</b>: Quando attacchi, questo attacco infligge 3 danni aggiuntivi e ottiene Sopraffazione. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32182,
-		"name": "Compassione",
-		"traits": "Abilità.",
-		"flavor": "<i>\"Ci siamo passati tutti, figliolo.\" - Ciclope</i>",
-		"text": "<b>Risposta Alter Ego</b>: Dopo che hai recuperato, cura un totale di 3 danni ai personaggi che controlli e pesca 1 carta. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32183,
-		"name": "Assalto di Gruppo",
-		"traits": "Abilità. Tattica.",
-		"text": "<b>Azione Eroe</b>: Fino alla fine della fase, quando un alleato sta per subire danni consequenti da un attacco, previeni quei danni. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32184,
-		"name": "Colpisci e Terrorizza",
-		"traits": "Abilità. Tattica.",
-		"text": "<b>Azione Eroe</b><i>(attacco)</i>: Spendi 3 risorse di qualsiasi tipo → infliggi 6 danni a un nemico e ripristina ogni alleato che controlli. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32185,
-		"name": "Improvvisazione",
-		"traits": "Abilità.",
-		"text": "<b>Risorsa Eroe</b>: Genera [jolly] [jolly] per un evento [[ATTACCO]] o [[TATTICA]]. Ripristina 1 alleato e curagli 2 danni. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32186,
-		"name": "Spavalderia",
-		"traits": "Abilità.",
-		"flavor": "<i>\"Forza, cocco. Facci divertire!\" - Wolverine</i>",
-		"text": "<b>Interruzione Eroe</b><i>(difesa)</i>: Quando effettui una difesa base, ricevi +3 DIF. Ripristina il tuo eroe. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32187,
-		"name": "Sorpresa!",
-		"traits": "Abilità.",
-		"flavor": "<i>\"Guten Tag!\" - Nightcrawler</i>",
-		"text": "<b>Risposta Eroe</b>: Dopo che sei intervenuto, rimuovi un totale di 3 minacce dalle trame in gioco. Confondi 1 nemico. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32188,
-		"name": "Intervento Eroico",
-		"traits": "Abilità.",
-		"text": "<b>Azione Eroe</b><i>(intervento)</i>: Spendi 3 risorse di qualsiasi tipo → rimuovi un totale di 5 minacce dalle trame in gioco. Irrobustisciti. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32189,
-		"name": "Difesa Determinata",
-		"traits": "Abilità.",
-		"text": "<b>Interruzione Eroe</b><i>(difesa/intervento)</i>: Quando difendi da un attacco, spendi 2 risorse di qualsiasi tipo → quell'attacco rimuove minacce dalla trama principale invece di infliggere danni. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32190,
-		"name": "Guardia del Corpo",
-		"traits": "Abilità.",
-		"flavor": "<i>\"Fatti da parte.\" - Ciclope</i>",
-		"text": "<b>Risorsa Eroe</b>: Genera [jolly] [jolly] per un evento [[DIFESA]] o [[INTERVENTO]]. Pesca 1 carta. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32191,
-		"name": "Sorpresa!",
-		"traits": "Abilità.",
-		"flavor": "<i>\"Guten Tag!\" - Nightcrawler</i>",
-		"text": "<b>Risposta Eroe</b>: Dopo che sei intervenuto, rimuovi un totale di 3 minacce dalle trame in gioco. Confondi 1 nemico. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32192,
-		"name": "Compassione",
-		"traits": "Abilità.",
-		"flavor": "<i>\"Ci siamo passati tutti, figliolo.\" - Ciclope</i>",
-		"text": "<b>Risposta Alter Ego</b>: Dopo che hai recuperato, cura un totale di 3 danni ai personaggi che controlli e pesca 1 carta. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32193,
-		"name": "Operazione di Salvataggio",
-		"traits": "Abilità. Tattica.",
-		"text": "<b>Azione Eroe</b>: Fino alla fine della fase, quando un alleato sta per subire danni consequenti da un intervento, previeni quei danni. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32194,
-		"name": "Tutoraggio",
-		"traits": "Abilità. Tattica.",
-		"text": "<b>Azione Eroe</b><i>(intervento)</i>: Spendi 3 risorse di qualsiasi tipo → rimuovi un totale di 5 minacce dalle trame in gioco. Ripristina ogni alleato che controlli. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": 32195,
-		"name": "Vigore",
-		"traits": "Abilità.",
-		"flavor": "<i>\"Bozhe moi!\" - Colosso</i>",
-		"text": "<b>Risorsa Eroe</b>: Genera [jolly] [jolly] per un evento [[TATTICA]] o [[INTERVENTO]]. Stordisci 1 nemico. Rimuovi dal gioco e dalla riserva della campagna questa carta."
-	},
-	{
-		"code": "32001a",
-		"name": "Colosso",
-		"text": "Colosso può avere 1 carta status Robusto aggiuntiva.\n<i>Pelle d'Acciaio</i> - <b>Risposta</b>: Dopo che hai assunto questa sembianza, irrobustisci Colosso.",
-		"traits": "X-Men."
-	},
-	{
-		"code": "32001b",
-		"name": "Piotr Rasputin",
-		"text": "<b>Preparazione</b>: Cerca nel tuo mazzo 1 miglioria Acciaio Organico e aggiungila alla tua mano.\n<i>Aspirante Artista</i> - <b>Risposta</b>: Dopo che hai assunto questa sembianza, mescola nel tuo mazzo 1 carta del set Colosso dalla tua pila degli scarti.",
-		"traits": "Mutante."
-	},
-	{
-		"code": "32030a",
-		"name": "Shadowcat",
-		"text": "<i>Intangibilità Selettiva</i> - Mentre sei nella sembianza di massa Incorporea, Shadowcat ignora le parole chiave Guardia e Pattuglia e le icone crisi ([crisis]) in gioco.",
-		"traits": "X-Men.",
-		"flavor": "<i>\"Non puoi fermare ciò che non puoi afferrare!\"</i>"
-	},
-	{
-		"code": "32030b",
-		"name": "Kitty Pride",
-		"text": "<b>Preparazione</b>: Metti in gioco la tua miglioria sembianza di massa, con il lato Solida a faccia in su.\n<i>Controllo della Fase</i> - <b>Azione</b>: Assumi la tua altra sembianza di massa. (Limite di una volta per round.)",
-		"traits": "Mutante."
-	},
-	{
-		"code": "32031a",
-		"name": "Solida",
-		"text": "Permanente. Sembianza di Massa.\n<b>Risorsa Eroe</b>: Esaurisci questa carta → genera [physical] per un evento [[ATTACCO]] o [[DIFESA]].\n<b>Risposta</b>: Dopo che hai attaccato o difeso mentre sei nella sembianza di massa Solida, gira questa carta."
-	},
-	{
-		"code": "32031b",
-		"name": "Incorporea",
-		"text": "Permanente. Sembianza di Massa.\nMentre Shadowcat sta difendendo, non può subire danni.\n<b>Risposta Obbligata</b>: Dopo che hai attaccato o difeso mentre sei nella sembianza di massa Incorporea, gira questa carta."
-	},
-	{
-		"code": "32171a",
-		"name": "Polizia nel Panico",
-		"flavor": "<i>A causa della baraonda, la polizia si è covinta che gli X-Men stiano con il nemico.</i>",
-		"text": "<b>Quando Sconfitta</b>: Mescola 1 carta dalla cima del mazzo del futuro passato nel mazzo degli incontri. Gira questa carta e metti in gioco Polizia Metropolitana."
-	},
-	{
-		"code": "32171b",
-		"name": "Polizia Metropolitana",
-		"text": "Permanente.\nIl primo giocatore controlla Polizia Metropolitana.\r\n<b>Azione</b>: Esaurisci Polizia Metropolitana → scegli se infliggere 1 danno a un nemico oppure rimuovere 1 minaccia da una trama.",
-		"traits": "Persona."
-	},
-	{
-		"code": "32172a",
-		"name": "Il Nemico del Mio Nemico",
-		"flavor": "<i>Anche Magneto combatte per proteggere dalle Sentinelle i mutanti indifesi.</i>",
-		"text": "<b>Quando Sconfitta</b>: Mescola 1 carta dalla cima del mazzo del futuro passato nel mazzo degli incontri. Gira questa carta e metti in gioco Magneto sotto il controllo del primo giocatore."
-	},
-	{
-		"code": "32172b",
-		"name": "Magneto",
-		"subname": "Erik Lensherr",
-		"text": "Vittoria.\nIl primo giocatore controlla Magneto. Non conta al fine di determinare il limite di alleati.\n[star] <b>Risposta</b>: Dopo che Magneto ha attaccato e sconfitto un gregario [[SENTINELLA]], cura 1 danno a Magneto.\"",
-		"traits": "Confraternita dei Mutanti."
-	},
-	{
-		"code": "32173a",
-		"name": "Trovare i Prigionieri",
-		"text": "<b>Quando Rivelata</b>: Ogni giocatore cerca nel proprio mazzo 1 alleato e lo colloca a faccia in giù sotto questa carta.\n<b>Quando Sconfitta</b>: Mescola 1 carta dalla cima del mazzo del futuro passato nel mazzo degli incontri. Gira questa carta e rivela Salvare gli Ostaggi. <i>(Conserva le carte a faccia in giù sotto Salvare gli Ostaggi.)</i>"
-	},
-	{
-		"code": "32173b",
-		"name": "Salvare gli Ostaggi",
-		"traits": "Missione.",
-		"flavor": "<i>I mutanti rapiti dalle Sentinelle sono stati individuati all'interno della struttura di Master Mold.</i>",
-		"text": "<b>Risposta</b>: Dopo che hai sconfitto un gregario [[SENTINELLA]], spendi 1 risorsa di qualsiasi tipo → scegli 1 alleato a faccia in giù sotto questa carta e mettilo in gioco sotto il tuo controllo. <i>(Un qualsiasi giocatore può innescare questa capacità.)</i>"
-	},
-	{
-		"code": "32174a",
-		"name": "Attacco a Sorpresa",
-		"text": "<b>Quando Sconfitta</b>: Mescola 1 carta dalla cima del mazzo del futuro passato nel mazzo degli incontri. Il giocatore che ha sconfitto questa trama gira questa carta e mette Riattivare le Difese nella propria area di gioco."
-	},
-	{
-		"code": "32174b",
-		"name": "Riattivare le Difese",
-		"flavor": "<i>L'attacco a sorpresa della Confraternita vi ha presi alla sprovvista. Se riusciste ad attivare il sistema di difesa di Villa-X, potreste capovolgere le sorti della battaglia.</i>",
-		"text": "<b>Azione Alter Ego</b>: Spendi [energy][mental][physical] → infliggi 5 danni a ogni nemico in gioco, Rimuovi dal gioco questa carta."
-	},
-	{
-		"code": "32175a",
-		"name": "La Fortezza di Magneto",
-		"flavor": "<i>Sicuro che foste pronti a colpire, Magneto ha fortificato il suo rifugio.</i>",
-		"text": "<b>Quando Sconfitta</b>: Mescola 1 carta dalla cima del mazzo del futuro passato nel mazzo degli incontri. Gira questa carta."
-	},
-	{
-		"code": "32175b",
-		"name": "Potere di Magneto",
-		"text": "Assegna a Magneto.\nPermanente.",
-		"traits": "Condizione.",
-		"flavor": "<i>\"Io ho il potere di distruggere. E di plasmare il mondo a mia immagine!\" - Magneto</i>"
-	}
+    {
+        "code": "32001a",
+        "name": "Colosso",
+        "text": "Colosso può avere 1 carta status Robusto aggiuntiva.\n<i>Pelle d'Acciaio</i> - <b>Risposta</b>: Dopo che hai assunto questa sembianza, irrobustisci Colosso.",
+        "traits": "X-Men."
+    },
+    {
+        "code": "32001b",
+        "name": "Piotr Rasputin",
+        "text": "<b>Preparazione</b>: Cerca nel tuo mazzo 1 miglioria Acciaio Organico e aggiungila alla tua mano.\n<i>Aspirante Artista</i> - <b>Risposta</b>: Dopo che hai assunto questa sembianza, mescola nel tuo mazzo 1 carta del set Colosso dalla tua pila degli scarti.",
+        "traits": "Mutante."
+    },
+    {
+        "code": 32002,
+        "name": "Shadowcat",
+        "text": "Shadowcat ignora le parole chiave Guardia e Pattuglia e le icone crisi ([crisis]) in gioco.",
+        "traits": "X-Men.",
+        "subname": "Kitty Pryde",
+        "flavor": "<i>\"Forza Peter, grosso zoticone! È il tuo corpo a essere fatto di metallo, non il tuo cervello!\"</i>"
+    },
+    {
+        "code": 32003,
+        "name": "Studio di Piotr",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Studio di Piotr → scarta carte dalla cima del tuo mazzo finché non scarti 1 carta del set Colosso, aggiungi quella carta alla tua mano.",
+        "traits": "Luogo.",
+        "flavor": "<i>Sotto quella pelle d'acciaio batte il cuore di un artista che preferirebbe dipingere piuttosto che combattere.</i>"
+    },
+    {
+        "code": 32004,
+        "name": "Volontà di Ferro",
+        "text": "Colosso riceve +1 INT.\n<b>Risposta</b>: Dopo che una carta status Robusto è stata scartata da Colosso, pesca 1 carta.",
+        "traits": "Superpotere.",
+        "flavor": "<i>\"Pete ha una volontà forte quanto la sua pelle corazzata. Non molla mica.\" - Wolverine</i>"
+    },
+    {
+        "code": 32005,
+        "name": "Muscoli di Titanio",
+        "text": "Colosso ottiene +1 ATT.\n<b>Risorsa eroe</b>: Esaurisci questa carta → genera 1 [physical] per ogni carta status Robusto su Colosso.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": 32006,
+        "name": "Acciaio Organico",
+        "text": "Utilizzo (2 gettoni acciaio).\n<b>Risposta Eroe</b>: Dopo che una carta status Robusto è stata scartata da Colosso, esaurisci questa carta e rimuovi 1 gettone acciaio da essa → irrobustisci Colosso.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": 32007,
+        "name": "Scolpito nella Rabbia",
+        "text": "<b>Interruzione Eroe</b>: Quando effettui un attacco base, scarta 1 carta status Robusto dal tuo eroe → ricevi +6 ATT per questo attacco. Questo attacco ottiene Sopraffazione.",
+        "traits": "Superpotere.",
+        "flavor": "\"Aaarrrrrhhhhhh!\" - Colosso"
+    },
+    {
+        "code": 32008,
+        "name": "Pugno d'Acciaio",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 5 danni a un nemico. Puoi scartare 1 carta status Robusto dal tuo eroe → stordisci e confondi quel nemico.",
+        "traits": "Attacco. Superpotere.",
+        "flavor": "<i>\"Compagni! Poniamo fine a questa battaglia una volta per tutte!\" - Colosso</i>"
+    },
+    {
+        "code": 32009,
+        "name": "Guardiano Antiproiettile",
+        "text": "<b>Azione Eroe</b>: Scarta 1 carta status Robusto dal tuo eroe → scegli 1 effetto tra:\n• Irrobustisci 2 volte il tuo eroe.\n• Ripristina il tuo eroe.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": 32010,
+        "name": "Corazza Vivente",
+        "text": "<b>Interruzione Alter Ego</b>: Quando il criminale si attiva, assumi la sembianza di eroe.",
+        "traits": "Superpotere.",
+        "flavor": "<i>\"Ti sei preso gioco di me quando avresti dovuto uccidermi, concedendomi il tempo di cambiare da Piotr Rasputin... a Colosso!\" - Colosso</i>"
+    },
+    {
+        "code": 32011,
+        "name": "Nightcrawler",
+        "text": "<b>Interruzione</b>: Quando un personaggio [[X-MEN]] sta per subire un qualsiasi ammontare di danni da un attacco nemico, spendi [energy] e rimetti Nightcrawler nella tua mano → previeni tutti quei danni.",
+        "traits": "X-Men.",
+        "subname": "Kurt Wagner"
+    },
+    {
+        "code": 32012,
+        "name": "Polaris",
+        "text": "<b>Risposta</b>: Dopo che Polaris è entrata in gioco, irrobustisci 1 personaggio [[X-MEN]].",
+        "traits": "X-Men.",
+        "subname": "Lorna Dane",
+        "flavor": "<i>\"Voglio bene a mio padre. Ma mentre lui cerca di dominare gli altri, io combatto per proteggerli.\"</i>"
+    },
+    {
+        "code": 32013,
+        "name": "Addestramento Protettivo",
+        "text": "Assegna a un alleato [[X-MEN]]. Massimo 1 miglioria [[ADDESTRAMENTO]] per alleato.\nL'alleato con questa miglioria riceve +3 punti ferita.",
+        "traits": "Addestramento.",
+        "flavor": "<i>Difensori giurati di un mondo che li odia e li teme, gli X-Men si addestrano costantemente.</i>"
+    },
+    {
+        "code": 32014,
+        "name": "Pugno Devastante",
+        "text": "<b>Interruzione Eroe</b> <i>(attacco/difesa)</i>: Quando un nemico lancia un attacco, infliggi 4 danni a quel nemico.",
+        "traits": "Attacco. Difesa.",
+        "flavor": "<i>\"Lo vuoi un bel sandwich di cazzotti?!\" - Shadowcat</i>"
+    },
+    {
+        "code": 32016,
+        "name": "Perseveranza",
+        "text": "<b>Risposta Eroe</b>: Dopo che hai cambiato sembianza, irrobustisci il tuo eroe.",
+        "traits": "Tattica.",
+        "flavor": "<i>\"Piantala di agitarti. Ti ho salvato la pellaccia, no?\" - Wolverine</i>"
+    },
+    {
+        "code": 32017,
+        "name": "Guardiani Mutanti",
+        "text": "Gioca solo se la tua identità possiede il tratto [[X-MEN]].\n<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando un nemico attacca, metti in gioco 1 alleato [[X-MEN]] dalla tua mano. Esauriscilo e dichiaralo come difensore per questo attacco.",
+        "traits": "Difesa."
+    },
+    {
+        "code": 32018,
+        "name": "Energia Difensiva",
+        "text": "Massimo 2 per mazzo.\n<b>Interruzione Eroe</b>: Quando hai speso le risorse di questa carta per giocare un evento [[DIFESA]], pesca 1 carta."
+    },
+    {
+        "code": 32019,
+        "name": "Professor X",
+        "text": "<b>Risposta Obbligata</b>: Dopo che Professor X è entrato in gioco, scegli 1 effetto tra: confondi il criminale; stordisci 1 gregario; ripristina 1 personaggio [[X-MEN]]. Alla fine del round, se Professor X è ancora in gioco, scartalo.",
+        "traits": "Psionico. X-Men.",
+        "subname": "Charles Xavier"
+    },
+    {
+        "code": 32020,
+        "name": "X-Jet",
+        "text": "<b>Risorsa</b>: Esaurisci X-Jet → genera [wild] per un giocatore la cui identità possiede il tratto [[X-MEN]].",
+        "traits": "Veicolo. X-Men.",
+        "flavor": "<i>\"Forge si è davvero superato con questa bellezza!\" - Bestia</i>"
+    },
+    {
+        "code": 32021,
+        "name": "Ombra e Acciaio",
+        "text": "Team-Up (Colosso e Shadowcat).\nMassimo 1 per mazzo.\n<b>Interruzione Eroe</b> <i>(attacco/difesa)</i>: Quando un nemico attacca, previeni tutti i danni di quell'attacco e infliggi 4 danni al nemico attaccante.",
+        "traits": "Attacco. Difesa."
+    },
+    {
+        "code": "32030a",
+        "name": "Shadowcat",
+        "text": "<i>Intangibilità Selettiva</i> - Mentre sei nella sembianza di massa Incorporea, Shadowcat ignora le parole chiave Guardia e Pattuglia e le icone crisi ([crisis]) in gioco.",
+        "traits": "X-Men.",
+        "flavor": "<i>\"Non puoi fermare ciò che non puoi afferrare!\"</i>"
+    },
+    {
+        "code": "32030b",
+        "name": "Kitty Pryde",
+        "text": "<b>Preparazione</b>: Metti in gioco la tua miglioria sembianza di massa, con il lato Solida a faccia in su.\n<i>Controllo della Fase</i> - <b>Azione</b>: Assumi la tua altra sembianza di massa. (Limite di una volta per round.)",
+        "traits": "Mutante."
+    },
+    {
+        "code": "32031a",
+        "name": "Solida",
+        "text": "Permanente. Sembianza di Massa.\n<b>Risorsa Eroe</b>: Esaurisci questa carta → genera [physical] per un evento [[ATTACCO]] o [[DIFESA]].\n<b>Risposta</b>: Dopo che hai attaccato o difeso mentre sei nella sembianza di massa Solida, gira questa carta."
+    },
+    {
+        "code": "32031b",
+        "name": "Incorporea",
+        "text": "Permanente. Sembianza di Massa.\nMentre Shadowcat sta difendendo, non può subire danni.\n<b>Risposta Obbligata</b>: Dopo che hai attaccato o difeso mentre sei nella sembianza di massa Incorporea, gira questa carta."
+    },
+    {
+        "code": 32032,
+        "name": "Lockheed",
+        "text": "<b>Risposta</b>: Dopo che Lockheed è entrato in gioco, se sei nella:\n• Sembianza di massa Solida, infliggi 2 danni a un nemico.\n• Sembianza di massa Incorporea, rimuovi 2 minacce da una trama.",
+        "traits": "Drago. X-Men."
+    },
+    {
+        "code": 32033,
+        "name": "Stanza di Kitty",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Stanza di Kitty → se sei nella:\n• Sembianza di massa Solida, cura 2 danni a Kitty Pryde.\n• Sembianza di massa Incorporea, pesca 1 carta.",
+        "traits": "Luogo."
+    },
+    {
+        "code": 32034,
+        "name": "Controllo Totale",
+        "text": "<b>Risposta Eroe</b>: Dopo che hai ignorato la parola chiave Guardia o Pattuglia su un gregario, esaurisci Controllo Totale → infliggi 2 danni a quel gregario.",
+        "traits": "Superpotere.",
+        "flavor": "<i>\"Hai idea di quanta concentrazione ci voglia per rendere incorporeo soltanto un piede?\" - Shadowcat</i>"
+    },
+    {
+        "code": 32035,
+        "name": "Interferenza Intangibile",
+        "text": "<b>Risposta Eroe</b>: Dopo che hai ignorato l'icona crisi ([crisis]) su una trama, esaurisci Interferenza Intangibile  → rimuovi 2 minacce da quella trama.",
+        "traits": "Superpotere.",
+        "flavor": "<i>La capacità di Shadowcat di rendersi intangibile ha un effetto devastante sui dispositivi elettronici.</i>"
+    },
+    {
+        "code": 32036,
+        "name": "Confuso e Sfasato",
+        "text": "Solo sembianza di eroe. Assegna a un nemico. Massimo 1 per nemico.\n<b>Interruzione Obbligata</b>: Quando il nemico con questa miglioria sta per attaccare, scarta invece questa carta. Poi confondi quel nemico.",
+        "traits": "Condizione."
+    },
+    {
+        "code": 32037,
+        "name": "Sorpresa di Shadowcat",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 3 danni a un nemico. Ripristina il tuo eroe.",
+        "traits": "Attacco. Superpotere.",
+        "flavor": "<i>\"State per assistere a un altro trucco, anche se probabilmente non siete ancora pronti.\" - Shadowcat</i>"
+    },
+    {
+        "code": 32038,
+        "name": "Colpo Incorporeo",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 6 danni a un nemico. Se sei nella sembianza di massa Incorporea, puoi scartare 1 aggiunta con il testo \"<b>Azione Eroe</b>\" o \"<b>Risposta Eroe</b>\" da quel nemico.",
+        "traits": "Attacco. Superpotere."
+    },
+    {
+        "code": 32039,
+        "name": "Camminare nell'Aria",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 2 minacce da una trama (4 minacce invece se sei nella sembianza di massa Incorporea).",
+        "traits": "Intervento. Superpotere.",
+        "flavor": "<i>\"Per citare il rapper: 'You can't touch this'!\" - Shadowcat</i>"
+    },
+    {
+        "code": 32040,
+        "name": "Transizione Rapida",
+        "text": "<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando un nemico attacca, se sei nella:\n• Sembianza di massa Solida, assumi la sembianza di massa Incorporea.\n• Sembianza di massa Incorporea, pesca 2 carte.",
+        "traits": "Difesa. Superpotere."
+    },
+    {
+        "code": 32041,
+        "name": "Wolverine",
+        "text": "[star] Gli attacchi di Wolverine ottengono Perforante.\n<b>Risposta</b>: Dopo che il tuo turno è iniziato, cura 1 danno a Wolverine.",
+        "traits": "X-Men.",
+        "subname": "Logan",
+        "flavor": "<i>\"Ti senti fortunato, cocco?\"</i>"
+    },
+    {
+        "code": 32042,
+        "name": "Magik",
+        "text": "<b>Risposta</b>: Dopo che hai giocato Magik dalla tua mano, spendi [mental] → scegli un gregario non [[ELITE]] impegnato con un eroe [[X-MEN]]. Mescola quel gregario nel mazzo degli incontri.",
+        "traits": "Mistico. X-Men.",
+        "subname": "Illyana Rasputin"
+    },
+    {
+        "code": 32043,
+        "name": "Addestramento d'Attacco",
+        "text": "Assegna a un alleato [[X-MEN]]. Massimo 1 miglioria [[ADDESTRAMENTO]] per alleato.\nL'alleato con questa miglioria riceve +1 ATT e +2 punti ferita.",
+        "traits": "Addestramento."
+    },
+    {
+        "code": 32044,
+        "name": "Custode",
+        "text": "Assegna a un gregario.\nIl gregario con questa miglioria riceve +2 punti ferita e ottiene Pattuglia.\n<b>Interruzione</b>: Quando il gregario con questa miglioria è sconfitto, rimuovi 4 minacce dalla trama principale.",
+        "traits": "Condizione."
+    },
+    {
+        "code": 32045,
+        "name": "Colpo di Squadra",
+        "text": "Gioca solo se la tua identità possiede il tratto [[X-MEN]].\n<b>Azione Eroe</b> <i>(attacco)</i>: Esaurisci il tuo eroe e un qualsiasi numero di alleati [[X-MEN]] → infliggi un totale di X danni ai nemici in gioco, dove X è pari all'ATT totale dei personaggi che hai esaurito in questo modo.",
+        "traits": "Attacco."
+    },
+    {
+        "code": 32047,
+        "name": "Energia Offensiva",
+        "text": "Massimo 2 per mazzo.\n<b>Interruzione Eroe</b>: Quando hai speso le risorse di questa carta per giocare un evento [[ATTACCO]], quell'evento infligge 1 danno aggiuntivo."
+    },
+    {
+        "code": 32048,
+        "name": "Colosso",
+        "text": "Se la tua identità possiede il tratto [[MUTANTE]] o [[X-MEN]], riduci di 1 il costo per giocare Colosso.\nRobustezza.",
+        "traits": "X-Men.",
+        "subname": "Piotr Rasputin",
+        "flavor": "<i>\"Dietro di me, tovarisch!\"</i>"
+    },
+    {
+        "code": 32049,
+        "name": "Villa-X",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Villa-X → cura 1 danno a un personaggio [[MUTANTE]] o [[X-MEN]]. Qualsiasi giocatore il cui alter ego possiede il tratto [[MUTANTE]] può innnescare questa capacità.",
+        "traits": "Luogo. X-Men."
+    },
+    {
+        "code": 32051,
+        "name": "Pronto a Darci Dentro",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore.\nMassimo 1 per giocatore.\n<b>Risposta Eroe</b>: Dopo che hai cambiato sembianza, scarta questa carta → ripristina il tuo eroe.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "32171a",
+        "name": "Polizia nel Panico",
+        "text": "<b>Quando Sconfitta</b>: Mescola 1 carta dalla cima del mazzo del futuro passato nel mazzo degli incontri. Gira questa carta e metti in gioco Polizia Metropolitana.",
+        "flavor": "<i>A causa della baraonda, la polizia si è covinta che gli X-Men stiano con il nemico.</i>"
+    },
+    {
+        "code": "32171b",
+        "name": "Polizia Metropolitana",
+        "text": "Permanente.\nIl primo giocatore controlla Polizia Metropolitana.\r\n<b>Azione</b>: Esaurisci Polizia Metropolitana → scegli se infliggere 1 danno a un nemico oppure rimuovere 1 minaccia da una trama.",
+        "traits": "Persona."
+    },
+    {
+        "code": "32172a",
+        "name": "Il Nemico del Mio Nemico",
+        "text": "<b>Quando Sconfitta</b>: Mescola 1 carta dalla cima del mazzo del futuro passato nel mazzo degli incontri. Gira questa carta e metti in gioco Magneto sotto il controllo del primo giocatore.",
+        "flavor": "<i>Anche Magneto combatte per proteggere dalle Sentinelle i mutanti indifesi.</i>"
+    },
+    {
+        "code": "32172b",
+        "name": "Magneto",
+        "text": "Vittoria.\nIl primo giocatore controlla Magneto. Non conta al fine di determinare il limite di alleati.\n[star] <b>Risposta</b>: Dopo che Magneto ha attaccato e sconfitto un gregario [[SENTINELLA]], cura 1 danno a Magneto.\"",
+        "traits": "Confraternita dei Mutanti.",
+        "subname": "Erik Lensherr"
+    },
+    {
+        "code": "32173a",
+        "name": "Trovare i Prigionieri",
+        "text": "<b>Quando Rivelata</b>: Ogni giocatore cerca nel proprio mazzo 1 alleato e lo colloca a faccia in giù sotto questa carta.\n<b>Quando Sconfitta</b>: Mescola 1 carta dalla cima del mazzo del futuro passato nel mazzo degli incontri. Gira questa carta e rivela Salvare gli Ostaggi. <i>(Conserva le carte a faccia in giù sotto Salvare gli Ostaggi.)</i>"
+    },
+    {
+        "code": "32173b",
+        "name": "Salvare gli Ostaggi",
+        "text": "<b>Risposta</b>: Dopo che hai sconfitto un gregario [[SENTINELLA]], spendi 1 risorsa di qualsiasi tipo → scegli 1 alleato a faccia in giù sotto questa carta e mettilo in gioco sotto il tuo controllo. <i>(Un qualsiasi giocatore può innescare questa capacità.)</i>",
+        "traits": "Missione.",
+        "flavor": "<i>I mutanti rapiti dalle Sentinelle sono stati individuati all'interno della struttura di Master Mold.</i>"
+    },
+    {
+        "code": "32174a",
+        "name": "Attacco a Sorpresa",
+        "text": "<b>Quando Sconfitta</b>: Mescola 1 carta dalla cima del mazzo del futuro passato nel mazzo degli incontri. Il giocatore che ha sconfitto questa trama gira questa carta e mette Riattivare le Difese nella propria area di gioco."
+    },
+    {
+        "code": "32174b",
+        "name": "Riattivare le Difese",
+        "text": "<b>Azione Alter Ego</b>: Spendi [energy][mental][physical] → infliggi 5 danni a ogni nemico in gioco, Rimuovi dal gioco questa carta.",
+        "flavor": "<i>L'attacco a sorpresa della Confraternita vi ha presi alla sprovvista. Se riusciste ad attivare il sistema di difesa di Villa-X, potreste capovolgere le sorti della battaglia.</i>"
+    },
+    {
+        "code": "32175a",
+        "name": "La Fortezza di Magneto",
+        "text": "<b>Quando Sconfitta</b>: Mescola 1 carta dalla cima del mazzo del futuro passato nel mazzo degli incontri. Gira questa carta.",
+        "flavor": "<i>Sicuro che foste pronti a colpire, Magneto ha fortificato il suo rifugio.</i>"
+    },
+    {
+        "code": "32175b",
+        "name": "Potere di Magneto",
+        "text": "Assegna a Magneto.\nPermanente.",
+        "traits": "Condizione.",
+        "flavor": "<i>\"Io ho il potere di distruggere. E di plasmare il mondo a mia immagine!\" - Magneto</i>"
+    },
+    {
+        "code": 32176,
+        "name": "Colpo di Grazia",
+        "text": "<b>Interruzione Eroe</b>: Quando attacchi, questo attacco infligge 3 danni aggiuntivi e ottiene Sopraffazione. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità.",
+        "flavor": "<i>\"In guardia!\" - Nightcrawler</i>"
+    },
+    {
+        "code": 32177,
+        "name": "Spavalderia",
+        "text": "<b>Interruzione Eroe</b><i>(difesa)</i>: Quando effettui una difesa base, ricevi +3 DIF. Ripristina il tuo eroe. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità.",
+        "flavor": "<i>\"Forza, cocco. Facci divertire!\" - Wolverine</i>"
+    },
+    {
+        "code": 32178,
+        "name": "Difesa Sfrontata",
+        "text": "<b>Interruzione Eroe</b><i>(attacco/difesa)</i>: Quando un nemico attacca, spendi 1 risorsa di qualsiasi tipo → previeni 3 danni da questo attacco e infliggi 3 danni a quel nemico. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità."
+    },
+    {
+        "code": 32179,
+        "name": "Attacco Efferrato",
+        "text": "<b>Azione Eroe</b><i>(attacco)</i>: Spendi 3 risorse di qualsiasi tipo → infliggi 6 danni a un nemico e ripristina il tuo eroe. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità."
+    },
+    {
+        "code": 32180,
+        "name": "Grido di Guerra",
+        "text": "<b>Risorsa Eroe</b>: Genera [jolly] [jolly] per un evento [[ATTACCO]] o [[DIFESA]]. Irrobustisciti. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità.",
+        "flavor": "<i>\"Rrrrrrraaaaargh!\" - Wolverine</i>"
+    },
+    {
+        "code": 32181,
+        "name": "Colpo di Grazia",
+        "text": "<b>Interruzione Eroe</b>: Quando attacchi, questo attacco infligge 3 danni aggiuntivi e ottiene Sopraffazione. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità.",
+        "flavor": "<i>\"In guardia!\" - Nightcrawler</i>"
+    },
+    {
+        "code": 32182,
+        "name": "Compassione",
+        "text": "<b>Risposta Alter Ego</b>: Dopo che hai recuperato, cura un totale di 3 danni ai personaggi che controlli e pesca 1 carta. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità.",
+        "flavor": "<i>\"Ci siamo passati tutti, figliolo.\" - Ciclope</i>"
+    },
+    {
+        "code": 32183,
+        "name": "Assalto di Gruppo",
+        "text": "<b>Azione Eroe</b>: Fino alla fine della fase, quando un alleato sta per subire danni consequenti da un attacco, previeni quei danni. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità. Tattica."
+    },
+    {
+        "code": 32184,
+        "name": "Colpisci e Terrorizza",
+        "text": "<b>Azione Eroe</b><i>(attacco)</i>: Spendi 3 risorse di qualsiasi tipo → infliggi 6 danni a un nemico e ripristina ogni alleato che controlli. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità. Tattica."
+    },
+    {
+        "code": 32185,
+        "name": "Improvvisazione",
+        "text": "<b>Risorsa Eroe</b>: Genera [jolly] [jolly] per un evento [[ATTACCO]] o [[TATTICA]]. Ripristina 1 alleato e curagli 2 danni. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità."
+    },
+    {
+        "code": 32186,
+        "name": "Spavalderia",
+        "text": "<b>Interruzione Eroe</b><i>(difesa)</i>: Quando effettui una difesa base, ricevi +3 DIF. Ripristina il tuo eroe. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità.",
+        "flavor": "<i>\"Forza, cocco. Facci divertire!\" - Wolverine</i>"
+    },
+    {
+        "code": 32187,
+        "name": "Sorpresa!",
+        "text": "<b>Risposta Eroe</b>: Dopo che sei intervenuto, rimuovi un totale di 3 minacce dalle trame in gioco. Confondi 1 nemico. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità.",
+        "flavor": "<i>\"Guten Tag!\" - Nightcrawler</i>"
+    },
+    {
+        "code": 32188,
+        "name": "Intervento Eroico",
+        "text": "<b>Azione Eroe</b><i>(intervento)</i>: Spendi 3 risorse di qualsiasi tipo → rimuovi un totale di 5 minacce dalle trame in gioco. Irrobustisciti. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità."
+    },
+    {
+        "code": 32189,
+        "name": "Difesa Determinata",
+        "text": "<b>Interruzione Eroe</b><i>(difesa/intervento)</i>: Quando difendi da un attacco, spendi 2 risorse di qualsiasi tipo → quell'attacco rimuove minacce dalla trama principale invece di infliggere danni. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità."
+    },
+    {
+        "code": 32190,
+        "name": "Guardia del Corpo",
+        "text": "<b>Risorsa Eroe</b>: Genera [jolly] [jolly] per un evento [[DIFESA]] o [[INTERVENTO]]. Pesca 1 carta. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità.",
+        "flavor": "<i>\"Fatti da parte.\" - Ciclope</i>"
+    },
+    {
+        "code": 32191,
+        "name": "Sorpresa!",
+        "text": "<b>Risposta Eroe</b>: Dopo che sei intervenuto, rimuovi un totale di 3 minacce dalle trame in gioco. Confondi 1 nemico. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità.",
+        "flavor": "<i>\"Guten Tag!\" - Nightcrawler</i>"
+    },
+    {
+        "code": 32192,
+        "name": "Compassione",
+        "text": "<b>Risposta Alter Ego</b>: Dopo che hai recuperato, cura un totale di 3 danni ai personaggi che controlli e pesca 1 carta. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità.",
+        "flavor": "<i>\"Ci siamo passati tutti, figliolo.\" - Ciclope</i>"
+    },
+    {
+        "code": 32193,
+        "name": "Operazione di Salvataggio",
+        "text": "<b>Azione Eroe</b>: Fino alla fine della fase, quando un alleato sta per subire danni consequenti da un intervento, previeni quei danni. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità. Tattica."
+    },
+    {
+        "code": 32194,
+        "name": "Tutoraggio",
+        "text": "<b>Azione Eroe</b><i>(intervento)</i>: Spendi 3 risorse di qualsiasi tipo → rimuovi un totale di 5 minacce dalle trame in gioco. Ripristina ogni alleato che controlli. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità. Tattica."
+    },
+    {
+        "code": 32195,
+        "name": "Vigore",
+        "text": "<b>Risorsa Eroe</b>: Genera [jolly] [jolly] per un evento [[TATTICA]] o [[INTERVENTO]]. Stordisci 1 nemico. Rimuovi dal gioco e dalla riserva della campagna questa carta.",
+        "traits": "Abilità.",
+        "flavor": "<i>\"Bozhe moi!\" - Colosso</i>"
+    }
 ]

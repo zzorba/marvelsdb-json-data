@@ -64,14 +64,25 @@ To check and apply formatting to JSON files:
 * **back_text** - The text on the back of a card (pair with **double_sided**)
 * **base_threat** - The starting threat on a card. By default, it is per hero.
 * **base_threat_fixed** - Whether the **base_threat** is fixed and not per hero
+* **base_threat_per_group** - Whether the **base_threat** is multipled by the number of groups that began the scenario in the pod
 * **boost** - The number of boost icons on a card
 * **boost_star** - Whether a star appears in the boost field indicating a special ability
 * **code** - 5 digit card identifier. Consists of two zero-padded numbers: first two digits are the cycle position, last three are position of the card within the cycle (printed on the card).
 * **cost** - Play cost of the card. Relevant for most cards. Possible values:
   * -1: Shows up as X
   * 0+: Shows up as the given integer
+* **cost_per_hero** - Whether the **cost** is per hero
 * **deck_limit** - The max number of the given card that can be in a deck
-* **deck_requirements** - Alter-ego/hero only - describes the character's requirements for an investigator. e.g.:
+* **deck_options** - Alter-ego/hero only - describes the options while deck building a hero. e.g.:
+  ```json
+  "deck_options": [
+    {
+      "limit": 2,
+      "type": ["ally"]
+    }
+  ]
+  ```
+* **deck_requirements** - Alter-ego/hero only - describes the requirements while deck building a hero. e.g.:
   ```json
   "deck_requirements": [
     {
@@ -83,6 +94,7 @@ To check and apply formatting to JSON files:
 * **defense_star** - Whether a star appears in the defense field indicating a special ability
 * **double_sided** - Whether the card is a double sided card (incompatible with the **back_link** method)
 * **duplicate_of** - A link to the original card code for duplicate cards in other packs
+* **errata** - A description of the changes applied to the card by the official Rules Reference
 * **escalation_threat** - The acceleration threat to apply to main/side schemes. By default, it is per hero. Possible values:
   * -1: Shows up as X
   * 0+: Shows up as the given number
@@ -101,6 +113,7 @@ To check and apply formatting to JSON files:
 * **flavor** - The flavor text on a card
 * **hand_size** - Character's hand size
 * **health** - Character's health. By default, it is fixed.
+* **health_per_group** - Whether the **health** is multipled by the number of groups that began the scenario in the pod
 * **health_per_hero** - Whether the **health** is per hero
 * **health_star** - Whether a star appears in the health field indicating a special ability
 * **hidden** - Whether the card should be hidden from views. This is normally used for the B side of a **back_link** card.
@@ -121,13 +134,12 @@ To check and apply formatting to JSON files:
 * **scheme_star** - Whether a star appears in the scheme field indicating a special ability
 * **set_code** - The code for the card's set. Possible values found in `sets.json`.
 * **set_position** - The position of the card in the set
-* **stage** - The stage number on a villain or main scheme. Possible values:
-  * `null`: There is no stage for the villain or main scheme
-  * 0+: Shows up as the given integer
+* **stage** - The stage of the villain or main scheme
 * **subname** - Subname associated with a character (e.g. `Carol Danvers` is a subname for `Captain Marvel`)
 * **text** - The text on a card
 * **threat** - The target threat on a card before it advances. By default, it is per hero.
 * **threat_fixed** - Whether the **threat** is fixed and not per hero
+* **threat_per_group** - Whether the **threat** is multipled by the number of groups that began the scenario in the pod
 * **threat_star** - Whether a star appears in the threat field indicating a special ability
 * **thwart** - Character's thwart value. Possible values:
   * `null`: Shows up as dash or a star if **thwart_star** is defined
@@ -166,10 +178,10 @@ To get the 4-letter hexcode of a UTF-8 symbol (or look up what a particular hexc
 
 #### Quotes and breaking text into multiple lines
 
-To have text spanning multiple lines, use `\n` to separate them. To have quotes as part of the text, use `\"`.  For example, `"flavor": "\"I'd run if I were you.\"\n - Scott Lang",` results in following flavor text:
+To have text spanning multiple lines, use `\n` to separate them. To have quotes as part of the text, use `\"`.  For example, `"flavor": "\"I'd run if I were you.\"\n —Scott Lang",` results in following flavor text:
 
 > *"I'd run if I were you."*
-> *- Scott Lang*
+> *—Scott Lang*
 
 #### Game Symbols
 
@@ -183,6 +195,7 @@ These can be used in a card's `text` section. It will get converted to the appro
 * `[energy]`
 * `[hazard]`
 * `[mental]`
+* `[per_group]`
 * `[per_hero]`
 * `[physical]`
 * `[star]`

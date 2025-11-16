@@ -47,6 +47,9 @@
 		"base_threat_fixed": {
 			"type": "boolean"
 		},
+		"base_threat_per_group": {
+			"type": "boolean"
+		},
 		"boost": {
 			"minimum": 1,
 			"type": "integer"
@@ -62,14 +65,64 @@
 			"minimum": -1,
 			"type": "integer"
 		},
+		"cost_per_hero": {
+			"type": "boolean"
+		},
 		"deck_limit": {
 			"minimum": 1,
 			"type": "integer"
 		},
 		"deck_options": {
+			"items": {
+				"properties": {
+					"limit": {
+						"minimum": 1,
+						"type": "integer"
+					},
+					"name_limit": {
+						"minimum": 1,
+						"type": "integer"
+					},
+					"trait": {
+						"items": {
+							"minlength": 1,
+							"type": "string"
+						},
+						"minItems": 1,
+						"type": "array"
+					},
+					"type": {
+						"items": {
+							"minlength": 1,
+							"type": "string"
+						},
+						"minItems": 1,
+						"type": "array"
+					},
+					"use_deck_limit": {
+						"type": "boolean"
+					}
+				},
+				"type": "object"
+			},
+			"minItems": 1,
 			"type": "array"
 		},
 		"deck_requirements": {
+			"items": {
+				"properties": {
+					"aspects": {
+						"minimum": 1,
+						"type": "integer"
+					},
+					"limit": {
+						"minimum": 1,
+						"type": "integer"
+					}
+				},
+				"type": "object"
+			},
+			"minItems": 1,
 			"type": "array"
 		},
 		"defense": {
@@ -86,9 +139,20 @@
 			"pattern": "^[0-9a-z]{5}[0-9a-z]?$",
 			"type": "string"
 		},
+		"errata": {
+			"minLength": 1,
+			"type": "string"
+		},
 		"escalation_threat": {
-			"minimum": -1,
-			"type": "integer"
+			"oneOf": [
+				{
+					"minimum": -1,
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
 		},
 		"escalation_threat_fixed": {
 			"type": "boolean"
@@ -111,6 +175,9 @@
 		"health": {
 			"minimum": 0,
 			"type": "integer"
+		},
+		"health_per_group": {
+			"type": "boolean"
 		},
 		"health_per_hero": {
 			"type": "boolean"
@@ -199,15 +266,8 @@
 			"type": "string"
 		},
 		"stage": {
-			"oneOf": [
-				{
-					"minimum": 0,
-					"type": "integer"
-				},
-				{
-					"type": "null"
-				}
-			]
+			"minLength": 1,
+			"type": "string"
 		},
 		"subname": {
 			"minLength": 1,
@@ -229,6 +289,9 @@
 			]
 		},
 		"threat_fixed": {
+			"type": "boolean"
+		},
+		"threat_per_group": {
 			"type": "boolean"
 		},
 		"threat_star": {

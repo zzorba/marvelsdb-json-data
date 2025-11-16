@@ -215,7 +215,7 @@
         "scheme": 1,
         "set_code": "unus",
         "set_position": 1,
-        "stage": 1,
+        "stage": "I",
         "text": "Toughness.\nIf the amount of threat on Gene Pool is at least:\n\u2022 3 \u2014 Unus gains retaliate 1.\n\u2022 6 \u2014 Unus also gains stalwart.\n\u2022 9 \u2014 Unus also gains a [amplify] icon.",
         "traits": "Prelate.",
         "type_code": "villain"
@@ -236,7 +236,7 @@
         "scheme": 2,
         "set_code": "unus",
         "set_position": 2,
-        "stage": 2,
+        "stage": "II",
         "text": "Toughness.\nIf the amount of threat on Gene Pool is at least:\n\u2022 3 \u2014 Unus gains retaliate 1.\n\u2022 6 \u2014 Unus also gains stalwart.\n\u2022 9 \u2014 Unus also gains a [amplify] icon.",
         "traits": "Prelate.",
         "type_code": "villain"
@@ -257,7 +257,7 @@
         "scheme": 2,
         "set_code": "unus",
         "set_position": 3,
-        "stage": 3,
+        "stage": "III",
         "text": "Toughness.\nIf the amount of threat on Gene Pool is at least:\n\u2022 3 \u2014 Unus gains retaliate 1.\n\u2022 6 \u2014 Unus also gains stalwart.\n\u2022 9 \u2014 Unus also gains a [amplify] icon.",
         "traits": "Prelate.",
         "type_code": "villain"
@@ -274,7 +274,7 @@
         "quantity": 1,
         "set_code": "unus",
         "set_position": 4,
-        "stage": 1,
+        "stage": "1A",
         "text": "<b>Contents</b>: Unus (I) and Unus (II). <i>(Unus (II) and Unus (III) instead for expert mode.)</i> Unus, Infinites, and Standard sets. One modular set <i>(Dystopian Nightmare)</i>.\n<b>Setup</b>: Reveal the Gene Pool side scheme. In expert mode, deal each player a facedown encounter card.",
         "type_code": "main_scheme"
     },
@@ -295,7 +295,7 @@
         "quantity": 1,
         "set_code": "unus",
         "set_position": 4,
-        "stage": 1,
+        "stage": "1B",
         "text": "[star] <b>Forced Response</b>: After resolving step one of the villain phase, place 1 threat on Gene Pool.\n<b>If this scheme is completed, the players lose the game.</b>",
         "threat": 11,
         "type_code": "main_scheme"
@@ -546,7 +546,7 @@
         "boost_star": true,
         "code": "45076",
         "faction_code": "encounter",
-        "name": "Dark Design",
+        "name": "Dark Designs",
         "octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3a045076",
         "pack_code": "aoa",
         "position": 76,
@@ -630,6 +630,7 @@
         "scheme": 1,
         "set_code": "four_horsemen",
         "set_position": 1,
+        "stage": "A",
         "text": "[star] <b>Forced Response</b>: After War attacks you, if he has at least 1 hit point, discard an upgrade or support you control.\n<b>War cannot be defeated while another villain has at least 1 hit point.</b>",
         "traits": "Horsemen.",
         "type_code": "villain"
@@ -652,6 +653,7 @@
         "scheme": 2,
         "set_code": "four_horsemen",
         "set_position": 1,
+        "stage": "B",
         "text": "[star] <b>Forced Response</b>: After War attacks you, if he has at least 1 hit point, discard an upgrade or support you control.\n<b>War cannot be defeated while another villain has at least 1 hit point.</b>",
         "traits": "Horsemen.",
         "type_code": "villain"
@@ -674,6 +676,7 @@
         "scheme": 2,
         "set_code": "four_horsemen",
         "set_position": 2,
+        "stage": "A",
         "text": "[star] <b>Forced Response</b>: After Famine attacks you, if she has at least 1 hit point, discard the top 10 cards of your deck.\n<b>Famine cannot be defeated while another villain has at least 1 hit point.</b>",
         "traits": "Horsemen.",
         "type_code": "villain"
@@ -696,6 +699,7 @@
         "scheme": 3,
         "set_code": "four_horsemen",
         "set_position": 2,
+        "stage": "B",
         "text": "[star] <b>Forced Response</b>: After Famine attacks you, if she has at least 1 hit point, discard the top 10 cards of your deck.\n<b>Famine cannot be defeated while another villain has at least 1 hit point.</b>",
         "traits": "Horsemen.",
         "type_code": "villain"
@@ -718,6 +722,7 @@
         "scheme": 2,
         "set_code": "four_horsemen",
         "set_position": 3,
+        "stage": "A",
         "text": "[star] <b>Forced Response</b>: After Pestilence attacks you, if she has at least 1 hit point, treat your identity's text box as if it were blank <i>(except for [[Traits]])</i> until the next villain phase begins.\n<b>Pestilence cannot be defeated while another villain has at least 1 hit point.</b>",
         "traits": "Horsemen.",
         "type_code": "villain"
@@ -740,6 +745,7 @@
         "scheme": 3,
         "set_code": "four_horsemen",
         "set_position": 3,
+        "stage": "B",
         "text": "[star] <b>Forced Response</b>: After Pestilence attacks you, if she has at least 1 hit point, treat your identity's text box as if it were blank <i>(except for [[Traits]])</i> until the next villain phase begins.\n<b>Pestilence cannot be defeated while another villain has at least 1 hit point.</b>",
         "traits": "Horsemen.",
         "type_code": "villain"
@@ -762,6 +768,7 @@
         "scheme": 1,
         "set_code": "four_horsemen",
         "set_position": 4,
+        "stage": "A",
         "text": "[star] <b>Forced Response</b>: After Death attacks you, if he has at least 1 hit point, deal 1 damage to each character you control.\n<b>Death cannot be defeated while another villain has at least 1 hit point.</b>",
         "traits": "Aerial. Horsemen.",
         "type_code": "villain"
@@ -784,6 +791,7 @@
         "scheme": 2,
         "set_code": "four_horsemen",
         "set_position": 4,
+        "stage": "B",
         "text": "[star] <b>Forced Response</b>: After Death attacks you, if he has at least 1 hit point, deal 1 damage to each character you control.\n<b>Death cannot be defeated while another villain has at least 1 hit point.</b>",
         "traits": "Aerial. Horsemen.",
         "type_code": "villain"
@@ -800,7 +808,7 @@
         "quantity": 1,
         "set_code": "four_horsemen",
         "set_position": 5,
-        "stage": 1,
+        "stage": "1A",
         "text": "<b>Contents</b>: War (A), Famine (A), Pestilence (A), Death (A), Four Horsemen, Standard, and two modular sets <i>(Dystopian Nightmare and Hounds)</i>.\n<b>Setup</b>: Shuffle the four [[Horsemen]] villains, then reveal them in a row from left to right. Place the active counter on the leftmost villain (see rulebook). Each player reveals a random side scheme from the Four Horsemen encounter set.",
         "type_code": "main_scheme"
     },
@@ -820,7 +828,7 @@
         "quantity": 1,
         "set_code": "four_horsemen",
         "set_position": 5,
-        "stage": 1,
+        "stage": "1B",
         "text": "<b>Forced Response</b>: After a villain activates, move the active counter to the next villain.\n<b>If this stage is completed, the players lose the game.</b>",
         "threat": 12,
         "type_code": "main_scheme"
@@ -1103,7 +1111,7 @@
         "scheme": 1,
         "set_code": "apocalypse",
         "set_position": 1,
-        "stage": 1,
+        "stage": "I",
         "text": "Toughness.\n<b>Forced Interrupt</b>: When the main scheme is completed, remove all threat from it <i>(ignoring any crisis ([crisis]) icons)</i>. Flip this card and reveal Apocalypse (II).",
         "traits": "Mutant.",
         "type_code": "villain"
@@ -1126,7 +1134,7 @@
         "scheme": 2,
         "set_code": "apocalypse",
         "set_position": 1,
-        "stage": 2,
+        "stage": "II",
         "text": "Steady. Toughness.\n<b>Forced Interrupt</b>: When the main scheme is completed, remove all threat from it <i>(ignoring any crisis ([crisis]) icons)</i>. Remove this card from the game and reveal Apocalypse (III).",
         "traits": "Mutant.",
         "type_code": "villain"
@@ -1149,7 +1157,7 @@
         "scheme": 2,
         "set_code": "apocalypse",
         "set_position": 2,
-        "stage": 3,
+        "stage": "III",
         "text": "Steady. Toughness.\n<b>Forced Interrupt</b>: When the main scheme is completed, remove all threat from it <i>(ignoring any crisis ([crisis]) icons)</i>. Flip this card and reveal Apocalypse (IV).",
         "traits": "Mutant.",
         "type_code": "villain"
@@ -1173,7 +1181,7 @@
         "scheme": 3,
         "set_code": "apocalypse",
         "set_position": 2,
-        "stage": 4,
+        "stage": "IV",
         "text": "Stalwart. Toughness.\n[star] Apocalypse's attacks gain overkill.\n<b>Forced Interrupt</b>: When the main scheme is completed, the players lose the game.",
         "traits": "Mutant.",
         "type_code": "villain"
@@ -1190,7 +1198,7 @@
         "quantity": 1,
         "set_code": "apocalypse",
         "set_position": 3,
-        "stage": 1,
+        "stage": "1A",
         "text": "<b>Contents</b>: Apocalypse (II) and Apocalypse (III). <i>(Apocalypse (III) only for expert mode.)</i> Apocalypse, Prelates, and Standard sets. Two modular sets <i>(Dark Riders and Infinites)</i>.\n<b>Setup</b>: Set aside each unused villain card, each [[Prelate]] minion, and The Tyrant's Throne side scheme. Reveal the Heart of the Empire side scheme. The first player reveals a random, set-aside [[Prelate]] minion.",
         "type_code": "main_scheme"
     },
@@ -1209,7 +1217,7 @@
         "quantity": 1,
         "set_code": "apocalypse",
         "set_position": 3,
-        "stage": 1,
+        "stage": "1B",
         "text": "X is the numeral in Apocalypse's printed hit point value.\n<b>Forced Interrupt</b>: When Apocalypse would be defeated, discard each attachment from him and heal all damage from him instead. Remove X threat from this scheme <i>(ignoring any crisis ([crisis]) icons)</i>.",
         "threat": -1,
         "type_code": "main_scheme"
@@ -1529,7 +1537,7 @@
         "scheme": 2,
         "set_code": "dark_beast",
         "set_position": 1,
-        "stage": 1,
+        "stage": "I",
         "text": "[star] <b>Forced Interrupt</b>: When Dark Beast attacks you, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.\n<b>When Revealed</b>: Reveal a random set-aside environment and shuffle the rest of its encounter set into the encounter deck.",
         "traits": "Brute. Genius.",
         "type_code": "villain"
@@ -1551,7 +1559,7 @@
         "scheme": 2,
         "set_code": "dark_beast",
         "set_position": 2,
-        "stage": 2,
+        "stage": "II",
         "text": "[star] <b>Forced Interrupt</b>: When Dark Beast attacks you, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.\n<b>When Revealed</b>: Reveal a random set-aside environment and shuffle the rest of its encounter set into the encounter deck. Deal each player an encounter card.",
         "traits": "Brute. Genius.",
         "type_code": "villain"
@@ -1573,7 +1581,7 @@
         "scheme": 3,
         "set_code": "dark_beast",
         "set_position": 3,
-        "stage": 3,
+        "stage": "III",
         "text": "[star] <b>Forced Interrupt</b>: When Dark Beast attacks you, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.\n<b>When Revealed</b>: Reveal a random set-aside environment and shuffle the rest of its encounter set into the encounter deck. Deal each player an encounter card.",
         "traits": "Brute. Genius.",
         "type_code": "villain"
@@ -1590,7 +1598,7 @@
         "quantity": 1,
         "set_code": "dark_beast",
         "set_position": 4,
-        "stage": 1,
+        "stage": "1A",
         "text": "<b>Contents</b>: Dark Beast (I) and Dark Beast (II). <i>(Dark Beast (II) and Dark Beast (III) for expert mode.)</i> Dark Beast, Blue Moon, Genosha, Savage Land, and Standard sets. One modular set <i>(Dystopian Nightmare)</i>.\n<b>Setup</b>: Set the Blue Moon, Genosha, and Savage Land sets aside <i>(including each environment card in those sets)</i>. In expert mode, reveal the High-Tech Goggles attachment.",
         "type_code": "main_scheme"
     },
@@ -1609,7 +1617,7 @@
         "quantity": 1,
         "set_code": "dark_beast",
         "set_position": 4,
-        "stage": 1,
+        "stage": "1B",
         "text": "<b>If this stage is completed, the players lose the game.</b>",
         "threat": 10,
         "type_code": "main_scheme"
@@ -1831,7 +1839,7 @@
         "octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3a045134",
         "pack_code": "aoa",
         "position": 134,
-        "quantity": 3,
+        "quantity": 2,
         "scheme": 2,
         "set_code": "genosha",
         "set_position": 2,
@@ -1852,10 +1860,10 @@
         "octgn_id": "1ab538aa-6ad1-4d9d-83a6-3ebc3a045135",
         "pack_code": "aoa",
         "position": 135,
-        "quantity": 1,
+        "quantity": 2,
         "scheme": 1,
         "set_code": "genosha",
-        "set_position": 5,
+        "set_position": 4,
         "text": "Armored Unibike engages the player with Escaped Mutant attached, if able.\n[star] <b>Forced Response</b>: After Armored Unibike attacks, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.",
         "traits": "Genosha. Vehicle.",
         "type_code": "minion"
@@ -1898,6 +1906,8 @@
         "type_code": "attachment"
     },
     {
+        "base_threat": 2,
+        "base_threat_fixed": true,
         "boost": 2,
         "code": "45138",
         "faction_code": "encounter",
@@ -2076,7 +2086,7 @@
         "quantity": 1,
         "set_code": "en_sabah_nur",
         "set_position": 4,
-        "stage": 1,
+        "stage": "1A",
         "text": "<b>Contents</b>: Apocalypse (I) and Apocalypse (II). <i>(Apocalypse (II) and Apocalypse (III) for expert mode.)</i> En Sabah Nur and Standard sets. Two modular sets <i>(Celestial Tech and Clan Akkaba)</i>.\n<b>Setup</b>: Apocalypse begins the game in [[Biomorph]] form. Deal each player a facedown encounter card.",
         "type_code": "main_scheme"
     },
@@ -2096,7 +2106,7 @@
         "quantity": 1,
         "set_code": "en_sabah_nur",
         "set_position": 4,
-        "stage": 1,
+        "stage": "1B",
         "text": "[star] <b>Forced Response</b>: After resolving step 1 of the villain phase, place 1 power counter here. If there are at least 4 power counters here, the first player removes 4 of them and discards cards from the top of the encounter deck until a [[Superpower]] card is discarded and reveal it.",
         "threat": 8,
         "type_code": "main_scheme"
@@ -2114,7 +2124,7 @@
         "quantity": 1,
         "set_code": "en_sabah_nur",
         "set_position": 5,
-        "stage": 2,
+        "stage": "2A",
         "text": "<b>When Revealed</b>: The first player discards cards from the top of the encounter deck until a [[Superpower]] card is discarded and reveals it.",
         "type_code": "main_scheme"
     },
@@ -2133,7 +2143,7 @@
         "quantity": 1,
         "set_code": "en_sabah_nur",
         "set_position": 5,
-        "stage": 2,
+        "stage": "2B",
         "text": "[star] <b>Forced Response</b>: After resolving step 1 of the villain phase, place 1 power counter here. If there are at least 4 power counters here, the first player removes 4 of them and discards cards from the top of the encounter deck until a [[Superpower]] card is discarded and reveals it.\n<b>If this scheme is completed, the players lose the game.</b>",
         "threat": 10,
         "type_code": "main_scheme"
@@ -2452,6 +2462,7 @@
         "type_code": "side_scheme"
     },
     {
+        "base_threat_fixed": true,
         "code": "45166b",
         "faction_code": "encounter",
         "hidden": true,
@@ -2485,6 +2496,7 @@
         "type_code": "side_scheme"
     },
     {
+        "base_threat_fixed": true,
         "code": "45167b",
         "faction_code": "encounter",
         "hidden": true,
@@ -2518,6 +2530,7 @@
         "type_code": "side_scheme"
     },
     {
+        "base_threat_fixed": true,
         "code": "45168b",
         "faction_code": "encounter",
         "hidden": true,
@@ -2551,6 +2564,7 @@
         "type_code": "side_scheme"
     },
     {
+        "base_threat_fixed": true,
         "code": "45169b",
         "faction_code": "encounter",
         "hidden": true,
@@ -2584,6 +2598,7 @@
         "type_code": "side_scheme"
     },
     {
+        "base_threat_fixed": true,
         "code": "45170b",
         "faction_code": "encounter",
         "hidden": true,
@@ -2861,7 +2876,7 @@
         "scheme": 1,
         "set_code": "en_sabah_nur",
         "set_position": 1,
-        "stage": 1,
+        "stage": "I",
         "text": "[star] Apocalypse's attacks gain overkill.\n<b>Forced Response</b>: After Apocalypse changes to this form, deal 1 indirect damage to each player.",
         "traits": "Mutant. Biomorph.",
         "type_code": "villain"
@@ -2884,7 +2899,7 @@
         "scheme": 2,
         "set_code": "en_sabah_nur",
         "set_position": 1,
-        "stage": 1,
+        "stage": "I",
         "text": "Retaliate 1.\n<b>Forced Response</b>: After Apocalypse changes to this form, place 1 threat on each scheme in play.",
         "traits": "Mutant. Cyberpath.",
         "type_code": "villain"
@@ -2906,7 +2921,7 @@
         "scheme": 2,
         "set_code": "en_sabah_nur",
         "set_position": 1,
-        "stage": 1,
+        "stage": "I",
         "text": "Stalwart.\n<b>Forced Response</b>: After Apocalypse changes to this form, heal 1 damage from him.",
         "traits": "Mutant. Giant.",
         "type_code": "villain"
@@ -2930,7 +2945,7 @@
         "scheme": 1,
         "set_code": "en_sabah_nur",
         "set_position": 2,
-        "stage": 2,
+        "stage": "II",
         "text": "[star] Apocalypse's attacks gain overkill.\n<b>Forced Response</b>: After Apocalypse changes to this form, deal 2 indirect damage to each player.",
         "traits": "Mutant. Biomorph.",
         "type_code": "villain"
@@ -2953,7 +2968,7 @@
         "scheme": 3,
         "set_code": "en_sabah_nur",
         "set_position": 2,
-        "stage": 2,
+        "stage": "II",
         "text": "Retaliate 1.\n<b>Forced Response</b>: After Apocalypse changes to this form, place 2 threat on each scheme in play.",
         "traits": "Mutant. Cyberpath.",
         "type_code": "villain"
@@ -2975,7 +2990,7 @@
         "scheme": 2,
         "set_code": "en_sabah_nur",
         "set_position": 2,
-        "stage": 2,
+        "stage": "II",
         "text": "Stalwart.\n<b>Forced Response</b>: After Apocalypse changes to this form, heal 2 damage from him.",
         "traits": "Mutant. Giant.",
         "type_code": "villain"
@@ -2999,7 +3014,7 @@
         "scheme": 2,
         "set_code": "en_sabah_nur",
         "set_position": 3,
-        "stage": 3,
+        "stage": "III",
         "text": "[star] Apocalypse's attacks gain overkill.\n<b>Forced Response</b>: After Apocalypse changes to this form, deal 3 indirect damage to each player.",
         "traits": "Mutant. Biomorph.",
         "type_code": "villain"
@@ -3022,7 +3037,7 @@
         "scheme": 3,
         "set_code": "en_sabah_nur",
         "set_position": 3,
-        "stage": 3,
+        "stage": "III",
         "text": "Retaliate 1.\n<b>Forced Response</b>: After Apocalypse changes to this form, place 3 threat on each scheme in play.",
         "traits": "Mutant. Cyberpath.",
         "type_code": "villain"
@@ -3044,7 +3059,7 @@
         "scheme": 3,
         "set_code": "en_sabah_nur",
         "set_position": 3,
-        "stage": 3,
+        "stage": "III",
         "text": "Stalwart.\n<b>Forced Response</b>: After Apocalypse changes to this form, heal 3 damage from him.",
         "traits": "Mutant. Giant.",
         "type_code": "villain"

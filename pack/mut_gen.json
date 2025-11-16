@@ -160,6 +160,7 @@
 		"code": "32008",
 		"cost": 2,
 		"deck_limit": 3,
+		"errata": "Replaced cost arrow with “to”. (RRG 1.5)",
 		"faction_code": "hero",
 		"name": "Steel Fist",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032008",
@@ -169,7 +170,7 @@
 		"resource_physical": 1,
 		"set_code": "colossus",
 		"set_position": 9,
-		"text": "<b>Hero Action</b>: Deal 5 damage to an enemy. You may discard a tough status card from your hero → stun and confuse that enemy.",
+		"text": "<b>Hero Action</b>: Deal 5 damage to an enemy. You may discard a tough status card from your hero to stun and confuse that enemy.",
 		"traits": "Attack. Superpower.",
 		"type_code": "event"
 	},
@@ -194,6 +195,7 @@
 		"code": "32010",
 		"cost": 0,
 		"deck_limit": 2,
+		"errata": "Added “would”. (RRG 1.5)",
 		"faction_code": "hero",
 		"name": "Armor Up",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032010",
@@ -203,7 +205,7 @@
 		"resource_physical": 1,
 		"set_code": "colossus",
 		"set_position": 14,
-		"text": "<b>Alter-Ego Interrupt</b>: When the villain activates, change to hero form.",
+		"text": "<b>Alter-Ego Interrupt</b>: When the villain would activate, change to hero form.",
 		"traits": "Superpower.",
 		"type_code": "event"
 	},
@@ -438,7 +440,7 @@
 		"health": 9,
 		"hidden": true,
 		"is_unique": true,
-		"name": "Kitty Pride",
+		"name": "Kitty Pryde",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032030",
 		"pack_code": "mut_gen",
 		"position": 30,
@@ -474,6 +476,7 @@
 		"name": "Phased",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032031",
 		"pack_code": "mut_gen",
+		"permanent": true,
 		"position": 31,
 		"quantity": 1,
 		"resource_mental": 1,
@@ -832,6 +835,7 @@
 		"boost": 3,
 		"code": "32171a",
 		"faction_code": "campaign",
+		"flavor": "In the midst of the chaos, the police have confused the X-Men with the enemy.",
 		"name": "Frightened Police",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032171",
 		"pack_code": "mut_gen",
@@ -840,6 +844,7 @@
 		"scheme_crisis": 1,
 		"set_code": "mut_gen_campaign",
 		"set_position": 1,
+		"text": "<b>When Defeated</b>: Shuffle the top card of the Future Past deck into the encounter deck. Flip this card and put Metro P.D. into play.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -849,12 +854,13 @@
 		"name": "Metro P.D.",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032171",
 		"pack_code": "mut_gen",
+		"permanent": true,
 		"position": 171,
 		"quantity": 1,
 		"resource_mental": 1,
 		"set_code": "mut_gen_campaign",
 		"set_position": 1,
-		"text": "Permanent.\nThe first player controls Metro P.D.",
+		"text": "Permanent.\nThe first player controls Metro P.D.\n<b>Action</b>: Exhaust Metro P.D. \u2192 choose to either deal 1 damage to an enemy or remove 1 threat from a scheme.",
 		"traits": "Persona.",
 		"type_code": "support"
 	},
@@ -863,6 +869,7 @@
 		"base_threat": 3,
 		"code": "32172a",
 		"faction_code": "campaign",
+		"flavor": "Magneto also fights to protect vulnerable mutants from the Sentinels.",
 		"name": "Enemy of My Enemy",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032172",
 		"pack_code": "mut_gen",
@@ -871,6 +878,7 @@
 		"scheme_acceleration": 1,
 		"set_code": "mut_gen_campaign",
 		"set_position": 2,
+		"text": "<b>When Defeated</b>: Shuffle the top card of the Future Past deck into the encounter deck. Flip this card and put Magneto into play under the first player's control.",
 		"type_code": "side_scheme"
 	},
 	{
@@ -910,12 +918,14 @@
 		"quantity": 1,
 		"set_code": "mut_gen_campaign",
 		"set_position": 3,
+		"text": "<b>When Revealed</b>: Each player searches their deck for an ally and places it facedown under here.\n<b>When Defeated</b>: Shuffle the top card of the Future Past deck into the encounter deck. Flip this card and reveal Rescue Captives. <i>(Keep facedown cards under Rescue Captives.)</i>",
 		"type_code": "side_scheme"
 	},
 	{
 		"boost": 2,
 		"code": "32173b",
 		"faction_code": "campaign",
+		"flavor": "The mutants seized by the Sentinels have been located inside Master Mold's facility.",
 		"hidden": true,
 		"name": "Rescue Captives",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032173",
@@ -924,6 +934,7 @@
 		"quantity": 1,
 		"set_code": "mut_gen_campaign",
 		"set_position": 3,
+		"text": "<b>Response</b>: After you defeat a [[Sentinel]] minion, spend 1 resource of any type \u2192 choose a facedown ally under this card and put it into play under your control. <i>(Any player may trigger this ability.)</i>",
 		"traits": "Mission.",
 		"type_code": "environment"
 	},
@@ -941,12 +952,14 @@
 		"scheme_hazard": 1,
 		"set_code": "mut_gen_campaign",
 		"set_position": 4,
+		"text": "<b>When Defeated</b>: Shuffle the top card of the Future Past deck into the encounter deck. The player who defeated this scheme flips this card and puts Reactivate Defenses into their play area.",
 		"type_code": "side_scheme"
 	},
 	{
 		"boost": 2,
 		"code": "32174b",
 		"faction_code": "campaign",
+		"flavor": "The Brotherhood's surprise attack caught you off-guard, but if you can activate the X-Mansion's defense systems, you can turn the tide of battle.",
 		"hidden": true,
 		"name": "Reactive Defense",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032174",
@@ -955,6 +968,7 @@
 		"quantity": 1,
 		"set_code": "mut_gen_campaign",
 		"set_position": 4,
+		"text": "<b>Alter-Ego Action</b>: Spend [energy] [mental] [physical] resources \u2192 deal 5 damage to each enemy in play. Remove this card from the game.",
 		"type_code": "obligation"
 	},
 	{
@@ -963,6 +977,7 @@
 		"boost": 3,
 		"code": "32175a",
 		"faction_code": "campaign",
+		"flavor": "Magneto has fortified his asteroid sanctuary in anticipation of your assault.",
 		"name": "Magneto's Fortress",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032175",
 		"pack_code": "mut_gen",
@@ -971,17 +986,22 @@
 		"scheme_crisis": 1,
 		"set_code": "mut_gen_campaign",
 		"set_position": 5,
+		"text": "<b>When Defeated</b>: Shuffle the top card of the Future Past deck into the encounter deck. Flip this card.",
 		"type_code": "side_scheme"
 	},
 	{
+		"attack": 1,
 		"code": "32175b",
 		"faction_code": "campaign",
+		"flavor": "\"Mine is the power to destroy. And to reshape the world in my image!\" —Magneto",
 		"hidden": true,
 		"name": "Magneto's Power",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032175",
 		"pack_code": "mut_gen",
+		"permanent": true,
 		"position": 175,
 		"quantity": 1,
+		"scheme": 1,
 		"set_code": "mut_gen_campaign",
 		"set_position": 5,
 		"text": "Attach to Magneto.\nPermanent.",
@@ -992,6 +1012,7 @@
 		"code": "32176",
 		"cost": 0,
 		"faction_code": "campaign",
+		"flavor": "\"Tally-ho!\" —Nightcrawler",
 		"name": "Coup de Grâce",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032176",
 		"pack_code": "mut_gen",
@@ -1000,6 +1021,7 @@
 		"resource_wild": 1,
 		"set_code": "brawler",
 		"set_position": 1,
+		"text": "<b>Hero Interrupt</b>: When you attack, this attack deals 3 additional damage and gains overkill. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1007,6 +1029,7 @@
 		"code": "32177",
 		"cost": 0,
 		"faction_code": "campaign",
+		"flavor": "\"Go ahead, bub. Make our day!\" —Wolverine",
 		"name": "Swagger",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032177",
 		"pack_code": "mut_gen",
@@ -1015,6 +1038,7 @@
 		"resource_wild": 1,
 		"set_code": "brawler",
 		"set_position": 2,
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When you make a basic defense, you get +3 DEF. Ready your hero. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1030,6 +1054,7 @@
 		"resource_wild": 1,
 		"set_code": "brawler",
 		"set_position": 3,
+		"text": "<b>Hero Interrupt</b> <i>(attack/defense)</i>: When an enemy attacks, spend 1 resource of any type \u2192 prevent 3 damage from this attack and deal 3 damage to that enemy. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1045,6 +1070,7 @@
 		"resource_wild": 1,
 		"set_code": "brawler",
 		"set_position": 4,
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Spend 3 resources of any type \u2192 deal 6 damage to an enemy and ready your hero. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1052,6 +1078,7 @@
 		"code": "32180",
 		"cost": 0,
 		"faction_code": "campaign",
+		"flavor": "\"Rrrrrrraaaaargh!\" —Wolverine",
 		"name": "War Cry",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032180",
 		"pack_code": "mut_gen",
@@ -1060,6 +1087,7 @@
 		"resource_wild": 1,
 		"set_code": "brawler",
 		"set_position": 5,
+		"text": "<b>Hero Resource</b>: Generate [wild][wild] resources for an [[Attack]] or [[Defense]] event. Gain a tough status card. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1067,6 +1095,7 @@
 		"code": "32181",
 		"cost": 0,
 		"faction_code": "campaign",
+		"flavor": "\"Tally-ho!\" —Nightcrawler",
 		"name": "Coup de Grâce",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032181",
 		"pack_code": "mut_gen",
@@ -1075,6 +1104,7 @@
 		"resource_wild": 1,
 		"set_code": "commander",
 		"set_position": 1,
+		"text": "<b>Hero Interrupt</b>: When you attack, this attack deals 3 additional damage and gains overkill. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1082,6 +1112,7 @@
 		"code": "32182",
 		"cost": 0,
 		"faction_code": "campaign",
+		"flavor": "\"We've all been there, son.\" —Cyclops",
 		"name": "Compassion",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032182",
 		"pack_code": "mut_gen",
@@ -1090,6 +1121,7 @@
 		"resource_wild": 1,
 		"set_code": "commander",
 		"set_position": 2,
+		"text": "<b>Alter-Ego Response</b>: After you recover, heal 3 damage from among characters you control and draw 1 card. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1105,7 +1137,8 @@
 		"resource_wild": 1,
 		"set_code": "commander",
 		"set_position": 3,
-		"traits": "Skill.",
+		"text": "<b>Hero Action</b>: Until the end of the phase, prevent all consequential damage each ally would take from attacking. Remove this card from the game and the campaign pool.",
+		"traits": "Skill. Tactic.",
 		"type_code": "upgrade"
 	},
 	{
@@ -1120,7 +1153,8 @@
 		"resource_wild": 1,
 		"set_code": "commander",
 		"set_position": 4,
-		"traits": "Skill.",
+		"text": "<b>Hero Action</b> <i>(attack)</i>: Spend 3 resources of any type \u2192 deal 6 damage to an enemy and ready each ally you control. Remove this card from the game and the campaign pool.",
+		"traits": "Skill. Tactic.",
 		"type_code": "upgrade"
 	},
 	{
@@ -1135,6 +1169,7 @@
 		"resource_wild": 1,
 		"set_code": "commander",
 		"set_position": 5,
+		"text": "<b>Hero Resource</b>: Generate [wild][wild] resources for an [[Attack]] or [[Tactic]] event. Ready an ally and heal 2 damage from it. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1142,6 +1177,7 @@
 		"code": "32186",
 		"cost": 0,
 		"faction_code": "campaign",
+		"flavor": "\"Go ahead, bub. Make our day!\" —Wolverine",
 		"name": "Swagger",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032186",
 		"pack_code": "mut_gen",
@@ -1150,6 +1186,7 @@
 		"resource_wild": 1,
 		"set_code": "defender",
 		"set_position": 1,
+		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When you make a basic defense, you get +3 DEF. Ready your hero. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1157,6 +1194,7 @@
 		"code": "32187",
 		"cost": 0,
 		"faction_code": "campaign",
+		"flavor": "\"Guten Tag!\" —Nightcrawler",
 		"name": "Surprise!",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032187",
 		"pack_code": "mut_gen",
@@ -1165,6 +1203,7 @@
 		"resource_wild": 1,
 		"set_code": "defender",
 		"set_position": 2,
+		"text": "<b>Hero Reponse</b>: After you thwart, remove 3 threat from among schemes in play. Confuse an enemy. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1180,6 +1219,7 @@
 		"resource_wild": 1,
 		"set_code": "defender",
 		"set_position": 3,
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Spend 3 resources of any type \u2192 remove 5 threat from among schemes in play. You gain a tough status card. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1195,6 +1235,7 @@
 		"resource_wild": 1,
 		"set_code": "defender",
 		"set_position": 4,
+		"text": "<b>Hero Interrupt</b> <i>(defense/thwart)</i>: When you defend against an attack, spend 2 resources of any type \u2192 that attack removes threat from the main scheme instead of dealing damage. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1202,6 +1243,7 @@
 		"code": "32190",
 		"cost": 0,
 		"faction_code": "campaign",
+		"flavor": "\"Back off.\" —Cyclops",
 		"name": "Bodyguard",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032190",
 		"pack_code": "mut_gen",
@@ -1210,6 +1252,7 @@
 		"resource_wild": 1,
 		"set_code": "defender",
 		"set_position": 5,
+		"text": "<b>Hero Resource</b>: Generate [wild][wild] resources for a [[Defense]] or [[Thwart]] event. Draw 1 card. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1217,6 +1260,7 @@
 		"code": "32191",
 		"cost": 0,
 		"faction_code": "campaign",
+		"flavor": "\"Guten Tag!\" —Nightcrawler",
 		"name": "Surprise!",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032191",
 		"pack_code": "mut_gen",
@@ -1225,6 +1269,7 @@
 		"resource_wild": 1,
 		"set_code": "peacekeeper",
 		"set_position": 1,
+		"text": "<b>Hero Reponse</b>: After you thwart, remove 3 threat from among schemes in play. Confuse an enemy. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1232,6 +1277,7 @@
 		"code": "32192",
 		"cost": 0,
 		"faction_code": "campaign",
+		"flavor": "\"We've all been there, son.\" —Cyclops",
 		"name": "Compassion",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032192",
 		"pack_code": "mut_gen",
@@ -1240,6 +1286,7 @@
 		"resource_wild": 1,
 		"set_code": "peacekeeper",
 		"set_position": 2,
+		"text": "<b>Alter-Ego Response</b>: After you recover, heal 3 damage from among characters you control and draw 1 card. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	},
@@ -1255,7 +1302,8 @@
 		"resource_wild": 1,
 		"set_code": "peacekeeper",
 		"set_position": 3,
-		"traits": "Skill.",
+		"text": "<b>Hero Action</b>: Until the end of the phase, prevent all consequential damage each ally would take from thwarting. Remove this card from the game and the campaign pool.",
+		"traits": "Skill. Tactic.",
 		"type_code": "upgrade"
 	},
 	{
@@ -1270,13 +1318,15 @@
 		"resource_wild": 1,
 		"set_code": "peacekeeper",
 		"set_position": 4,
-		"traits": "Skill.",
+		"text": "<b>Hero Action</b> <i>(thwart)</i>: Spend 3 resources of any type \u2192 remove 5 threat from among schemes in play. Ready each ally you control. Remove this card from the game and the campaign pool.",
+		"traits": "Skill. Tactic.",
 		"type_code": "upgrade"
 	},
 	{
 		"code": "32195",
 		"cost": 0,
 		"faction_code": "campaign",
+		"flavor": "\"Bozhe moi!\" —Colossus",
 		"name": "Fortitude",
 		"octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032195",
 		"pack_code": "mut_gen",
@@ -1285,6 +1335,7 @@
 		"resource_wild": 1,
 		"set_code": "peacekeeper",
 		"set_position": 5,
+		"text": "<b>Hero Resource</b>: Generate [wild][wild] resources for a [[Tactic]] or [[Thwart]] event. Stun an enemy. Remove this card from the game and the campaign pool.",
 		"traits": "Skill.",
 		"type_code": "upgrade"
 	}

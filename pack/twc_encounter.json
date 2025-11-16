@@ -10,8 +10,8 @@
 		"quantity": 1,
 		"set_code": "wrecking_crew",
 		"set_position": 1,
-		"stage": 1,
-		"text": "<b>Scenario Contents</b>: Wrecher A, Thunderball A, Piledriver A, and Bulldozer A as villains. <i>(Version B for increased difficulty.)</i> Wrecker, Thunderball, Piledriver, and Bulldozer encounter decks.\n<b>Setup</b>: Put the Day of Reckoning, Thunderstruck, Pile It On!, and Clear the Road side schemes into play. Place the active counter on Wrecker. Advance to stage 1B.",
+		"stage": "1A",
+		"text": "<b>Scenario Contents</b>: Wrecker A, Thunderball A, Piledriver A, and Bulldozer A as villains. <i>(Version B for increased difficulty.)</i> Wrecker, Thunderball, Piledriver, and Bulldozer encounter decks.\n<b>Setup</b>: Put the Day of Reckoning, Thunderstruck, Pile It On!, and Clear the Road side schemes into play. Place the active counter on Wrecker. Advance to stage 1B.",
 		"type_code": "main_scheme"
 	},
 	{
@@ -30,7 +30,7 @@
 		"quantity": 1,
 		"set_code": "wrecking_crew",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "1B",
 		"text": "[star] <b>Forced Response</b>: After step one of the villain phase, place 1 threat on each side scheme. Move the active counter to the villain whose scheme has the most threat. <i>(If there is a tie, the first player chooses.)</i>\n<b>If this stage is completed, the players lose the game</b>",
 		"threat": 6,
 		"type_code": "main_scheme"
@@ -52,7 +52,7 @@
 		"scheme_star": true,
 		"set_code": "wrecker",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "A",
 		"text": "[star] When Wrecker schemes, place the threat on his side scheme instead of the main scheme.\n[star] While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
@@ -74,7 +74,7 @@
 		"scheme_star": true,
 		"set_code": "wrecker",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "B",
 		"text": "[star] When Wrecker schemes, place the threat on his side scheme instead of the main scheme.\n[star] While Wrecker is attacking, he gets +2 ATK if the attack is undefended.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
@@ -292,7 +292,7 @@
 		"scheme_star": true,
 		"set_code": "thunderball",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "A",
 		"text": "[star] When Thunderball schemes, place the threat on his side scheme instead of the main scheme.\n[star] <b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
@@ -314,7 +314,7 @@
 		"scheme_star": true,
 		"set_code": "thunderball",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "B",
 		"text": "[star] When Thunderball schemes, place the threat on his side scheme instead of the main scheme.\n[star] <b>Forced Response</b>: After Thunderball attacks you, deal 1 damage to each character you control.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
@@ -454,7 +454,7 @@
 		"octgn_id": "d3f20142-1d74-4f21-8485-5057a602e5bf",
 		"pack_code": "twc",
 		"position": 27,
-		"quantity": 1,
+		"quantity": 2,
 		"set_code": "thunderball",
 		"set_position": 11,
 		"text": "<b>When Revealed</b>: Deal 1 damage to each friendly character you control.\n<hr />\n[star] <b>Boost</b>: Deal 1 damage to the defending character.",
@@ -532,7 +532,7 @@
 		"scheme_star": true,
 		"set_code": "piledriver",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "A",
 		"text": "Retaliate 1.\n[star] When Piledriver schemes, place the threat on his side scheme instead of the main scheme.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
@@ -553,7 +553,7 @@
 		"scheme_star": true,
 		"set_code": "piledriver",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "B",
 		"text": "Retaliate 1.\n[star] When Piledriver schemes, place the threat on his side scheme instead of the main scheme.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
@@ -667,6 +667,7 @@
 	{
 		"boost_star": true,
 		"code": "07041",
+		"errata": "Changed “gains” to “heals”. (RRG 1.4)",
 		"faction_code": "encounter",
 		"name": "I've Been Waiting For This!",
 		"octgn_id": "9bb310d7-9a46-49cc-9bc5-0de5585a2922",
@@ -751,7 +752,7 @@
 		"scheme_star": true,
 		"set_code": "bulldozer",
 		"set_position": 1,
-		"stage": 1,
+		"stage": "A",
 		"text": "[star] When Bulldozer schemes, place the threat on his side scheme instead of the main scheme.\n[star] <b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
@@ -773,7 +774,7 @@
 		"scheme_star": true,
 		"set_code": "bulldozer",
 		"set_position": 2,
-		"stage": 2,
+		"stage": "B",
 		"text": "[star] When Bulldozer schemes, place the threat on his side scheme instead of the main scheme.\n[star] <b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains overkill.",
 		"traits": "Wrecking Crew.",
 		"type_code": "villain"
