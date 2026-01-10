@@ -1,488 +1,506 @@
 [
-   {
-      "code": "39001a",
-      "name": "MaGog (A)",
-      "text" : "[star] <b>Réponse forcée</b> : après que MaGog a attaqué et blessé un personnage, placez 1 jeton Audimat sur Le Champion.\n<b>Interruption forcée</b> : quand MaGog est censé être vaincu, réinitialisez ses points de vie à 10[per_hero] à la place. Placez 3[per_hero] jetons Audimat sur Les Challengeurs et attribuez 1 carte Rencontre face cachée à chaque joueur.",
-      "traits": "Brute."
-   },
-   {
-      "code": "39001b",
-      "name": "MaGog (B)",
-      "text" : "[star] <b>Réponse forcée</b> : après que MaGog a attaqué et blessé un personnage, placez 2 jetons Audimat sur Le Champion.\n<b>Interruption forcée</b> : quand MaGog est censé être vaincu, réinitialisez ses points de vie à 10[per_hero] à la place. Placez 2[per_hero] jetons Audimat sur Les Challengeurs et attribuez 1 carte Rencontre face cachée à chaque joueur.",
-      "traits": "Brute."
-   },
-   {
-      "code": "39002a",
-      "name": "Rixe au Mojo-seum",
-      "text": "<b>Contenu</b> : MaGog (A) <i>(MaGog (B) à la place en mode expert)</i>. Les sets de rencontre MaGog et Standard. Un set de rencontre modulaire <i>(1 set modulaire pris au hasard dans le Paquet Scénario</i> MojoMania).\n<b>Mise en place</b> : placez en jeu l'environnement Le Champion et l'environnement Les Challengeurs, avec leur face [[FOULE MÉCONTENTE]] visible."
-   },
-   {
-      "code": "39002b",
-      "flavor": "Téléporté dans une arène improbable, vous devez vous battre pour divertir les spectateurs... et sauver votre vie !",
-      "name": "Rixe au Mojo-seum",
-      "text": "Les joueurs ne peuvent pas gagner la partie à moins \"d'impressionner la foule\", car ils sont Les Challengeurs dans cette compétition.\n[star] <b>Interruption forcée</b> : quand ce stade 1B est censé être achevé, placez 2[per_hero] jetons Audimat sur Le Champion et retirez toutes les menaces qui sont sur Rixe au Mojo-seum à la place."
-   },
-   {
-      "code": "39003a",
-      "name": "Le Champion",
-      "flavor" : "\"À ma droite, quatre-vingt-dix-neuf fois invaincu, notre champion, le défenseur du Mojovers, le puissant MaGog ! \" — Mojo",
-      "text" : "S'il y a au moins 5[per_hero] jetons Audimat sur cette carte, retournez-la <i>(sans retirer les jetons Audimat)</i>.",
-      "traits": "Foule Mécontente."
-   },
-   {
-      "code": "39003b",
-      "name": "Le Champion",
-      "text" : "<i>Perdu d'Avance</i> — <b>Réponse forcée</b> : après que la carte Le Champion a été retournée sur cette face, chaque joueur pioche 1 joueur.\n<b>S'il y a au moins 10[per_hero] jetons Audimat sur cette carte, MaGog reste le vainqueur incontesté et les joueurs perdent la partie.</b>",
-      "traits": "Foule en délire."
-   },
-   {
-      "code": "39004a",
-      "name": "Les Challengeurs",
-      "flavor" : "\"Et à ma gauche, venus d'une petite planète insignifiante nommée la Terre, voici nos challengeurs !\" — Mojo",
-      "text" : "S'il y a au moins 5[per_hero] jetons Audimat sur cette carte, retournez-la <i>(sans retirer les jetons Audimat)</i>.\n<i>(C'est en plaçant des jetons Audimat sur cette carte que les joueurs vont impressionner la foule.)</i>",
-      "traits": "Foule Mécontente."
-   },
-   {
-      "code": "39004b",
-      "name": "Les Challengeurs",
-      "text" : "<i>Équipe B</i> — <b>Réponse forcée</b> : après que la carte Les Challengeurs a été retournée sur cette face, cherchez le Participant Surprise dans le deck Rencontre ou la pile de défausse Rencontre et placez-le en jeu engagé avec le premier joueur. S'il est déjà en jeu, donnez-lui une carte d'état Tenace.\n<b>S'il y a au moins 10[per_hero] jetons Audimat sur cette carte, vous avez impressionné la foule ! Les joueurs gagnent la partie.</b>",
-      "traits": "Foule en délire."
-   },
-   {
-      "code": "39005",
-      "name": "Montée d'Adrénaline",
-      "text": "Attachez cette carte à MaGog.\nMagog gagne Riposte 1 et Robuste.\n<b>Réponse forcée</b> : après que les points de vie de MaGog ont été réinitialisés, placez 1[per_hero] jeton Audimat sur Les Challengeurs et défaussez cet attachement.\n<hr />\n[star] <b>Boost</b>: révélez cette carte.",
-      "traits": "Condition."
-   },
-   {
-      "code": "39006",
-      "flavor" : "\"Reste Tranquille, que je puisse t'écraser !\" — MaGog",
-      "name": "Pulsion Agressive",
-      "text": "Attachez cette carte à MaGog.\n<b>Réponse forcée</b> : après que les points de vie de MaGog ont été réinitialisés, placez 1[per_hero] jeton Audimat sur Les Challengeurs et défaussez cet attachement.\n<hr />\n[star] <b>Boost</b>: révélez cette carte.",
-      "traits": "Condition."
-   },
-   {
-      "code": "39007",
-      "name": "Participant Surprise",
-      "text": "Vilenie.\n[star] <b>Réponse forcée</b> : après que le Participant Surprise a attaqué et blessé un personnage, placez 1[per_hero] jeton Audimat sur Le Champion.\n<b>Une fois vaincu</b> : placez 2[per_hero] jetons Audimat sur Les Challengeurs.",
-      "traits": "Clone. Élite."
-   },
-   {
-      "code": "39008",
-      "name": "Attiser la Foule",
-      "flavor" : "\"Attendez de voir ce que MaGog vous prépare !\" — MaGog",
-      "text" : "<b>Une fois révélée</b> : si Le Champion est sur sa face [[FOULE EN DÉLIRE]] visible, placez 1[per_hero] menace supplémentaire sur cette menace.\n<b>Une fois déjouée</b> : placez 1[per_hero] jeton Audimat sur Les Challengeurs."
-   },
-   {
-      "code": "39009",
-      "name": "Jambe Cassée",
-      "text": "<b>Une fois révélée</b> : vous êtes sonné. Subissez 2 dégâts (4 dégâts à la place s'il y a plus de jetons Audimat sur Les Challengeurs que sur Le Champion). Vous pouvez placer n'importe quel nombre de jetons Audimat sur Le Champion pour réduire ces dégâts de 1 pour chaque jeton ainsi placé."
-   },
-   {
-      "code": "39010",
-      "flavor": "\"Vous êtes satisfaits du spectacle ?!?\" — MaGog",
-      "name": "Défendre le Titre",
-      "text": "<b>Une fois révélée (alter ego)</b> : placez 2 jetons Audimat sur Le Champion.\n<b>Une fois révélée (héros)</b> : MaGog vous attaque. Si un héros défend contre cette attaque sans subir de dégâts, placez 2 jetons Audimat sur Les Challengeurs."
-   },
-   {
-      "code": "39011",
-      "name": "Un Peu de Trac",
-      "text": "<b>Une fois révélée</b> : vous êtes désorienté. Placez 2 menaces sur la manigance principale (4 menaces à la place s'il y a plus de jetons Audimat sur Les Challengeurs que sur Le Champion).\n<hr />\n[star] <b>Boost</b>: vous êtes désorienté."
-   },
-   {
-      "code": "39012a",
-      "name": "Spirale",
-      "text": "Spirale ne peut ni subir de dégât ni être sonnée. Aucune menace ne peut être retirée de la manigance principale.\n[star] <b>Interruption forcée</b> : quand Spirale est censée attaquer, elle manigance à la place.",
-      "traits": "En fuite. Mystique."
-   },
-   {
-      "code": "39012B",
-      "name": "Spirale",
-      "text": "S'il y a au moins 3[per_hero] jetons Téléportation sur cette carte, retirez-les tous et retournez Spirale.\n[star] <b>Réponse forcée</b> : après que Spirale s'est activée, placez 1 jeton Téléportation sur elle.",
-      "traits": "Acculée. Mystique."
-   },
-   {
-      "code": "39013a",
-      "name": "Spirale",
-      "text": "Spirale ne peut ni subir de dégât ni être sonnée. Aucune menace ne peut être retirée de la manigance principale.\n[star] <b>Interruption forcée</b> : quand Spirale est censée attaquer, elle manigance à la place.",
-      "traits": "En fuite. Mystique."
-   },
-   {
-      "code": "39013B",
-      "name": "Spirale",
-      "text": "S'il y a au moins 2[per_hero] jetons Téléportation sur cette carte, retirez-les tous et retournez Spirale.\n[star] <b>Réponse forcée</b> : après que Spirale s'est activée, placez 1 jeton Téléportation sur elle.",
-      "traits": "Acculée. Mystique."
-   },
-   {
-      "code": "39014a",
-      "name": "Spirale",
-      "text": "Spirale ne peut ni subir de dégât ni être sonnée. Aucune menace ne peut être retirée de la manigance principale.\n[star] <b>Interruption forcée</b> : quand Spirale est censée attaquer, elle manigance à la place.",
-      "traits": "En fuite. Mystique."
-   },
-   {
-      "code": "39014B",
-      "name": "Spirale",
-      "text": "S'il y a au moins 3[per_hero] jetons Téléportation sur cette carte, retirez-les tous et retournez Spirale.\n<b>Une fois révélée</b> : Spirale attaque chaque joueur dans l'ordre des joueurs <i>(même s'il est sous forme d'alter ego)</i>.\n[star] <b>Réponse forcée</b> : après que Spirale s'est activée, placez 1 jeton Téléportation sur elle.",
-      "traits": "Acculée. Mystique."
-   },
-   {
-      "code": "39015a",
-      "name": "Aux Quatre coins du Mojovers",
-      "text": "<b>Contenu</b> : Spirale (I) et Spirale (II) <i>(Spirale (II) et Spirale (III) à la place en mode expert)</i>. Les sets de rencontre Spirale et Standard. Trois sets de rencontre modulaire du Paquet Scénario <i>MojoMania</i>.\n<b>Mise en place</b> : mettez en jeu la manigance annexe À La Recherche de Spirale et 1 environnement [[SPECTACLE]] pris au hasard. Mélangez tous les autres environnements [[SPECTACLE]] avec la traîtrise Acculée ! pour constituer le deck Spectacle. <i>(Voir livret de règles, p. 11.)</i> Placez Spirale, face [[EN FUITE]] visible."
-   },
-   {
-      "code": "39015b",
-      "flavor": "Pour espérer retourner chez vous, vous aurez besoin de l'aide de Spirale, une sorcière qui maîtrise la téléportation. Bien sûr, elle ne se laissera pas aisément convaincre.",
-      "name": "Aux Quatre coins du Mojovers",
-      "text": "<b>Interruption forcée</b> : quand un environnement [[SPECTACLE]] est censé être défaussé, placez-le sous le deck Spectacle à la place.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
-   },
-   {
-      "code": "39016",
-      "flavor": "Spirale se cache dans l'un des nombreux programmes télévisés produits par Mojo.",
-      "name": "À La Recherche de Spirale",
-      "text": "Permanent.\n<b>Réponse forcée</b> : après que la dernière menace a été retirée de cette manigance, le joueur qui l'a retirée révèle la carte du dessus du deck Spectable et place 3[per_hero] menaces sur À La Recherche de Spirale.\n<b>Action de héros</b> : subissez 2 dégâts. Retirez 3 menaces de cette manigance."
-   },
-   {
-      "code": "39017",
-      "flavor": "\"Mais, vous allez me laisser tranquille ?!?\" — Spirale",
-      "name": "Acculée !",
-      "text": "<b>Une fois révélée</b> : retournez Spirale pour que sa face [[ACCULÉE]] soit visible. <i>(Cela provoquera la résolution de son effet</i><b>\"Une fois révélée\"</b><i>, si elle en a un.)</i> Révélez la carte du dessus du deck Spectacle. Mélangez cette traîtrise dans le deck Spectacle. Cet effet ne peut pas être annulé."
-   },
-   {
-      "code": "39018",
-      "flavor": "\"Je ne sais pas comment elle fait pour ne pas se trancher un bras.\" — Gambit",
-      "name": "Épées de Spirale",
-      "text": "Attachez cette carte à Spirale.\nUtilisations (3 jetons Épée).\n[star] Spirale gagne +1 ATQ pour chaque jeton Épée sur cette carte.\n<b>Action de héros</b> : si Spirale est face [[ACCULÉE]] visible, dépensez les ressources suivantes : [physical][physical] → retirez 1 jeton Épée de cette carte.",
-      "traits": "Arme."
-   },
-   {
-      "code": "39019",
-      "name": "Téléportation Hasardeuse",
-      "text": "Renfort.\n<b>Une fois révélée</b> : si Spirale est face [[ACCULÉE]] visible, placez 1 jeton Téléportation sur elle. Si Spirale est face [[EN FUITE]] visible, vous pouvez dépenser une ressource [mental] pour regarder la carte du dessus du deck Spectacle et la replacer sur ou sous ce deck."
-   },
-   {
-      "code": "39020",
-      "name": "Le Spectacle Doit Continuer",
-      "text": "<b>Une fois révélée</b> : chaque joueur cherche dans le deck Rencontre ou la pile de défausse Rencontre une carte du même set de rencontre que l'environnement [[SPECTACLE]] qui est en jeu et s'attribue cette carte en tant que carte Rencontre face cachée. <i>(Mélangez.)</i>"
-   },
-   {
-      "code": "39021",
-      "name": "Fière à Bras",
-      "text": "<b>Une fois révélée</b> : si un exemplaire des Épées de Spirale est attaché à Spirale, elle vous attaque <i>(même si vous êtes sous forme d'alter ego)</i>. Sinon, cherchez un exemplaire des Épées de Spirale dans le deck Rencontre ou la pile de défausse Rencontre et attachez-le à Spirale. <i>(Mélangez.)</i>"
-   },
-   {
-      "code": "39022",
-      "name": "Mojo",
-      "text": "<b>Réponse forcée (héros)</b> : après la fin de votre tour, défaussez les 3 cartes du dessus du deck Rencontre. Placez 1 menace sur votre héros pour chaque carte ainsi défaussée qui n'appartient pas au set de Rencontre Mojo.",
-      "traits": "Invertébré."
-   },
-   {
-      "code": "39023",
-      "name": "Mojo",
-      "text": "<b>Une fois révélée</b> : placez 2 menaces sur chaque personnage ami.\n<b>Réponse forcée (héros)</b> : après la fin de votre tour, défaussez les 4 cartes du dessus du deck Rencontre. Placez 1 menace sur votre héros pour chaque carte ainsi défaussée qui n'appartient pas au set de Rencontre Mojo.",
-      "traits": "Invertébré."
-   },
-   {
-      "code": "39024",
-      "name": "Mojo",
-      "text": "<b>Une fois révélée</b> : placez 3 menaces sur chaque personnage ami.\n<b>Réponse forcée (héros)</b> : après la fin de votre tour, défaussez les 5 cartes du dessus du deck Rencontre. Placez 1 menace sur votre héros pour chaque carte ainsi défaussée qui n'appartient pas au set de Rencontre Mojo.",
-      "traits": "Invertébré."
-   },
-   {
-      "code": "39025a",
-      "name": "MojoMania",
-      "text": "<b>Contenu</b> : Mojo (I) et Mojo (II) <i>(Mojo (II) et Mojo (III) à la place en mode expert)</i>. Les sets de rencontre Mojo et Standard.\n<b>Mise en place</b> : choisissez 1 set modulaire, plus 1[per_hero] set modulaire supplémentaire, du Paquet Scénario <i>MojoMania</i> et mettez-les de côté. Mettez en jeu l'environnement La Roue Des Genres, face [[EN ROTATION]] visible."
-   },
-   {
-      "code": "39025b",
-      "name": "MojoMania",
-      "text": "<b>Une fois révélée</b> : choisissez aléatoirement 1 set de Rencontre mis de côté, révélez son environnement [[SPECTACLE]] et mélangez ses cartes restantes dans le deck Rencontre.\n<b>Interruption forcée</b> : quand un personnage est retourné sur son autre face ou quitte le jeu, déplacez toutes les menaces de ce personnage vers cette manigance.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
-   },
-   {
-      "code": "39026a",
-      "flavor": "\"L'audimat ne bouge plus. Faisons swinguer tout ça avec un épisode crossover !\" — Mojo",
-      "name": "La Roue des Genres",
-      "text": "<b>Réponse forcée</b> : après que le deck Rencontre a été réinitialisé, <b>s'il ne reste pas de set de rencontre modulaire mis de côté, les joueurs perdent la partie.</b> Sinon, retournez cet environnement.",
-      "traits": "En rotation."
-   },
-   {
-      "code": "39026b",
-      "name": "La Roue des Genres",
-      "text": "<b>Interruption forcée</b> : au début de l'étape 3 de la phase du Méchant <i>(attribution des cartes Rencontre)</i>, choisissez aléatoirement 1 set modulaire mis de côté et révélez son environnement [[SPECTACLE]]. Mélangez les cartes restantes de ce set modulaire et placez-les sur le deck Rencontre. Attribuez 2 cartes de rencontre face cachée au premier joueur et retournez cet environnement.",
-      "traits": "Arrêtée."
-   },
-   {
-      "code": "39027",
-      "flavor": "\"Je ne vis que pour vous servir, Votre Suprême Invertébré.\"",
-      "name": "Major Domo",
-      "text": "Attachez cette carte à Mojo.\n[star] <b>Réponse forcée</b> : après que Mojo a attaqué, défaussez un nombre de cartes du deck Rencontre égal à la quantité de dégâts infligés par cette attaque.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy][mental][physical] → défaussez cette carte.",
-      "traits": "Individu."
-   },
-   {
-      "code": "39028",
-      "name": "Queue de Scorpion",
-      "text": "Attachez cette carte à Mojo.\nMojo gagne Riposte 2.\n<b>Interruption forcée</b> : quand n'importe quelle quantité de dégâts est censée être infligée à Mojo, placez-les sur cette carte à la place. Ensuite, s'il y a au moins 5 dégâts sur la Queue de Scorpion, défaussez-la.\n<hr />\n[star] <b>Boost</b>: attachez cette carte à Mojo",
-      "traits": "Arme."
-   },
-   {
-      "code": "39029",
-      "flavor": "\"Ils sont moins chers que de véritables acteurs.\" — Mojo",
-      "name": "Figurant",
-      "text": "[star] <b>Réponse forcée</b> : après que le Figurant s'est activé contre vous, placez 2 menaces sur lui.\n<hr />\n[star] <b>Boost</b>: placez 1 menace sur chaque personnage que vous contrôlez.",
-      "traits": "Robot. Comédien."
-   },
-   {
-      "code": "39030",
-      "name": "Paparazzi",
-      "text": "Entrave 10.\n<b>Action</b> : choisissez : soit vous inclinez un personnage que vous contrôlez, soit vous défaussez 1 carte de votre main → retirez 2 menaces de Paparazzi (3 menaces à la place si vous êtes sous forme d'alter ego).\n<b>Interruption forcée</b> : quand votre tour se termine, déplacez toutes les menaces de cette obligation vers la manigance principale et défaussez Paparazzi."
-   },
-   {
-      "code": "39031",
-      "flavor": "\"Ils ne me reconnaîtront jamais.\" — Mojo",
-      "name": "Mojo Incognito",
-      "text": "Entrave 2[per_hero].\n<b>Interruption forcée</b> : quand Mojo est censé subir n'importe quelle quantité de dégâts, retirez une quantité égale de menaces de cette manigance à la place."
-   },
-   {
-      "code": "39032",
-      "name": "Rappel",
-      "text": "<b>Une fois révélée</b> : déplacez vers la manigance principale toutes les menaces qui sont sur le personnage ayant le plus de menaces sur lui. Si aucune menace n'a été déplacée par cet effet, placez 1 menace sur chaque personnage que vous contrôlez.\n<hr />\n[star] <b>Boost</b>: révélez cette carte."
-   },
-   {
-      "code": "39033",
-      "name": "Directives du Réalisateur",
-      "text": "<b>Une fois révélée</b> : choisissez :\n- Dépensez 2 ressources différentes.\n- Mojo manigance.\n- Subissez 1 dégât pour chaque menace sur votre identité. Si vous subissez moins de 2 dégâts par cet effet, cette carte gagne Renfort."
-   },
-   {
-      "code": "39034",
-      "name": "Têtes d'Affiche",
-      "text": "<b>Une fois révélée</b> : soignez 1 dégât de chaque personnage que vous contrôlez. Placez 2 menaces sur chaque personnage que vous contrôlez.\n<hr />\n[star] <b>Boost</b>: placez 1 menace sur chaque personnage que vous contrôlez."
-   },
-   {
-      "code": "39035",
-      "name": "Le Crime Était Presque Mojo",
-      "text": "Chaque autre carte Rencontre gagne Incitation 1.\n Chaque personnage ami gagne +1 CTR.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu. Si cette carte a été révélée du deck Recontre, elle gagne Renfort.",
-      "traits": "Situation. Spectacle."
-   },
-   {
-      "code": "39036",
-      "name": "Poursuivre l'Enquête",
-      "text": "<b>Réponse forcée (héros)</b> : après qu'une manigance annexe a été déjouée, placez 1 jeton Indice sur cette obligation. Ensuite, s'il y a au moins 3 jetons Indice dessus, défaussez-la."
-   },
-   {
-      "code": "39037",
-      "flavor": "\"On dirait que la victime n'a pas eu de chance.\"\n\" Je pense qu'on pourrait dire qu'elle... a perdu son mojo.\" — Inspecteurs Domo et Mojo",
-      "name": "Étudier la Scène de Crime",
-      "text": "Entrave 1[per_hero]. <i>(Quand cette carte est révélée, placez 1[per_hero] menaces dessus.)</i>\nLes menaces ne peuvent pas être retirées des autres manigances.\n<b>Action de héros</b> : dépensez X ressources [mental] → retirez X menaces de cette manigance."
-   },
-   {
-      "code": "39038",
-      "flavor": "\"Je me comdamne pour outrage à la cour ! Oui, mes deux moi, là !\" — Juge Mojo",
-      "name": "La Loi et l'Ordre",
-      "text": "Entrave 1[per_hero]. <i>(Quand cette carte est révélée, placez 1[per_hero] menaces dessus.)</i>\nChaque personnage ami a -2 ATK.\n<b>Action de héros</b> : dépensez X ressources [energy] → retirez X menaces de cette manigance."
-   },
-   {
-      "code": "39039",
-      "flavor": "\"Vous ne m'avez jamais vu.\" — Chef Mojo",
-      "name": "Dragnet",
-      "text": "Entrave 1[per_hero]. <i>(Quand cette carte est révélée, placez 1[per_hero] menaces dessus.)</i>\nLe méchant ne peut pas subir de dégâts.\n<b>Action de héros</b> : dépensez X ressources [physical] → retirez X menaces de cette manigance."
-   },
-   {
-      "code": "39040",
-      "name": "\"Élémentaire, Mon Cher Mojo\"",
-      "text": "<b>Une fois révélée</b> : choisissez :\n- Déplacez toutes les menaces d'une manigance annexe vers la manigance principale. <i>(Cette manigance annexe est déjouée.)</i>\n- Défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'une manigance annexe soit défaussée. Révélez cette carte."
-   },
-   {
-      "code": "39041",
-      "name": "Le Trône de Mojo",
-      "text": "La taille de main de chaque joueur gagne +1.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu. Si cette carte a été révélée du deck Recontre, elle gagne Renfort.",
-      "traits": "Situation. Spectacle."
-   },
-   {
-      "code": "39042",
-      "name": "Dragon",
-      "text": "Riposte 1. Ténacité.\nDoublez la quantité de dégâts que subit ce sbire lorsqu'ils sont infligés par des cartes avec une ressource [energy] imprimée.\n<b>Une fois vaincu</b> : chaque joueur pioche 4 cartes.",
-      "traits": "Dragon. Élite."
-   },
-   {
-      "code": "39043",
-      "name": "Gobelin",
-      "text": "Renfort.\nCe sbire ne peut subir des dégâts que s'ils sont infligés par des cartes ayant une ressource [physical] imprimée.\n<b>Une fois vaincu</b> : retirez 2 menaces d'une manigance.",
-      "traits": "Gobelin."
-   },
-   {
-      "code": "39044",
-      "name": "Troll",
-      "text": "Ténacité.\n Ce sbire subit 1 dégât supplémentaire de chaque carte ayant une ressource [mental] imprimée.\n<b>Une fois vaincu</b> : le joueur qui a vaincu ce sbire peut mettre en jeu 1 allié de sa pile de défausse.",
-      "traits": "Brute. Troll."
-   },
-   {
-      "code": "39045",
-      "flavor": "\"Apportez-moi un jardinet !\" — sir Mojo",
-      "name": "Quête Secondaire",
-      "text": "Renfort.\n<b>Une fois vaincu</b> : dans l'ordre des joueurs, chaque joueur peut chercher une carte dans son deck et la jouer gratuitement. <i>(Mélangez.)</i>\n<hr />\n[star] <b>Boost</b>: mettez cette carte en jeu."
-   },
-   {
-      "code": "39046",
-      "name": "Drain de Mana",
-      "text": "<b>Une fois révélée</b> : choisissez un type de ressource non-libre (non-[wild]), puis chaque joueur pioche 2 cartes. Chaque joueur doit défausser chaque carte de sa main ayant le type de ressource choisi.\n<hr />\n[star] <b>Boost</b>: défaussez une carte de votre main."
-   },
-   {
-      "code": "39047",
-      "name": "Aux Frontières du Mojo",
-      "text": "Chaque sbire gagne Coup Rapide.\nChaque allié subit -1 dégât de conséquence ([consequential]) après qu'il a attaqué un sbire.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu. Si cette carte a été révélée du deck Recontre, elle gagne Renfort.",
-      "traits": "Situation. Spectacle."
-   },
-   {
-      "code": "39048",
-      "name": "Pieux en Bandoulière",
-      "text": "Renfort. Utilisations (3 jetons Pieu).\n<b>Une fois révélée</b> : vous pouvez dépenser 1 ressource de n'importe quel type pour attacher cette carte à votre identité. Sinon défaussez cette carte.\n<b>Interruption de héros</b> : quand votre héros effectue une attaque de base, retirez 1 jeton Pieu de cette carte → votre héros gagne +1 ATQ pour cette attaque et elle gagne Perçant.",
-      "traits": "Objet."
-   },
-   {
-      "code": "39049",
-      "flavor": "\"Libérez le Kraken !\"",
-      "name": "Cultiste",
-      "text": "[star] <b>Réponse forcée</b> : après que le Cultiste s'est activé contre vous, cherchez le Kraken dans le deck Rencontre ou la pile de défausse Rencontre et mettez-le en jeu engagé avec vous. <i>(Mélangez.)</i> Ensuite, défaussez le Cultiste.",
-      "traits": "Mystique."
-   },
-   {
-      "code": "39050",
-      "flavor": "\"Rraaarhh !\"",
-      "name": "Le Kraken",
-      "text": "[star] <b>Réponse forcée</b> : après que Le Kraken s'est activé, chaque autre personnage subit 1 dégât.\n<b>Une fois vaincu</b> : chaque personnage ami se soigne de 1 dégât.",
-      "traits": "Créature. Élite."
-   },
-   {
-      "code": "39051",
-      "name": "Vampire",
-      "text": "Doublez le nombre de dégâts infligés au Vampire par des attaques ayant Perçant.\n[star] <b>Réponse forcée</b> : après que le Vampire a attaqué et blessé un personnage, soignez tous les dégâts sur le Vampire. Si aucun dégât n'est soigné par cet effet, donnez une carte d'état Tenace au Vampire.",
-      "traits": "Vampire."
-   },
-   {
-      "code": "39052",
-      "name": "Meute de Loups-Garous",
-      "text": "<b>Une fois révélée</b> : vainquez un allié que vous contrôlez et placez-le face cachée sous la Meute de Loups-Garous.\n<b>Interruption forcée</b> : quand la Meute de Loups-Garous est censée être vaincue, défaussez un allié qui est sous cette carte à la place. Ensuite, soignez tous les dégâts sur la Meute de Loups-Garous.",
-      "traits": "Loup-Garou."
-   },
-   {
-      "code": "39053",
-      "flavor": ">Mot de Passe accepté. Accès au serveur.\nBienvenue à MojoCorp ! Vos activités sont désormais surveillées",
-      "name": "Mojo Runner",
-      "text": "Tous les sbires et alliés gagnent Ténacité.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu. Si cette carte a été révélée du deck Recontre, elle gagne Renfort.",
-      "traits": "Situation. Spectacle."
-   },
-   {
-      "code": "39054",
-      "flavor": ">Cycles processeur annulés. Processus non identifié.",
-      "name": "Avalanche 9.0",
-      "text": "<b>Réponse forcée</b> : après qu'Avalanche 9.0 vous a engagé, inclinez un personnage que vous contrôlez et infligez 1 dégât à ce personnage.\n<hr />\n[star] <b>Boost</b>: inclinez un personnage que vous contrôlez.",
-      "traits": "Programme."
-   },
-   {
-      "code": "39055",
-      "flavor": ">Mise en mémoire tampon...\n>Mise en mémoire tampon...\n>Mise en mémoire tampon...",
-      "name": "Le Colosse 3.14",
-      "text": "Le Colosse 3.14 ne peut pas subir plus de 2 dégâts de chaque attaque.",
-      "traits": "Programme."
-   },
-   {
-      "code": "39056",
-      "flavor": ">Reformatage du disque dur infecté.",
-      "name": "Magnéto 2.6",
-      "text": "Vilenie.\n[star] <b>Réponse forcée</b> : après que Magnéto 2.6 s'est activé contre vous, placez 1 jeton Magnétique sur lui. Ensuite, choisissez et défaussez 1 carte de votre main pour chaque jeton Magnétique sur Magnéto 2.6.",
-      "traits": "Programme."
-   },
-   {
-      "code": "39057",
-      "flavor": ">Suppression du programme étranger.",
-      "name": "Pyro 4.0",
-      "text": "[star] <b>Interruption forcée</b> : quand Pyro 4.0 vous attaque, subissez 2 dégâts indirects.\n<hr />\n[star] <b>Boost</b>: subissez 2 dégâts indirects.",
-      "traits": "Programme."
-   },
-   {
-      "code": "39058",
-      "flavor": ">Sous-routine dangeureuse placée en quarantaine.",
-      "name": "Le Crapaud 2.0",
-      "text": "<b>Réponse forcée</b> : après que Le Crapaud 2.0 vous a engagé, placez dessous 1 amélioration que vous contrôlez, face cachée.\n<b>Une fois vaincu</b> : renvoyez chaque carte sous Le Crapaud 2.0 dans la main de son propriétaire.",
-      "traits": "Programme."
-   },
-   {
-      "code": "39059",
-      "flavor": ">Programmes invasifs détectés.\n>Contre-mesures électroniques activées.",
-      "name": "Glaçoïde M",
-      "text": "Chaque sbire gagne Garde et Patrouille.\n<b>Interruption forcée</b> : à la fin du round <i>(après avoir passé le pion Premier joueur)</i>, le premier joueur cherche un sbire dans le deck Rencontre ou la pile de défausse Rencontre et le met en jeu engagé avec lui. <i>(Mélangez.)</i>"
-   },
-   {
-      "code": "39060",
-      "name": "Mojo (in the Middle)",
-      "text": "Chaque obligation gagne 1 icône d'accélération ([Acceleration]).\n<b>Réponse</b> : après qu'un joueur a défaussé une obligation, il pioche une carte.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu. Si cette carte a été révélée du deck Recontre, elle gagne Renfort.",
-      "traits": "Situation. Spectacle."
-   },
-   {
-      "code": "39061",
-      "flavor": "\"Je ne serai jamais comme toi !\"\n\"Tu es mon clone !\" — X-23 et Wolverine",
-      "name": "La Vie de Famille",
-      "text": "Chaque soutien que vous contrôlez perd le texte imprimé dans sa boîte de texte <i>(sauf les [[TRAITS]])</i>.\n<b>Action d'alter ego</b> : inclinez votre identité et chaque soutien que vous contrôlez → défaussez cette obligation."
-   },
-   {
-      "code": "39062",
-      "flavor": "\"C'est pas ma faute !\" — Hope Summers",
-      "name": "Quoi de Neuf Docteur ?",
-      "text": "Augmentez de 2 le coût pour jouer chacune de vos améliorations.\n<b>Action d'alter ego</b> : défaussez une amélioration que vous contrôlez ou défaussez une amélioration de votre main. Si vous avez plus d'améliorations dans votre pile de défausse que d'améliorations en jeu, défaussez cette obligation."
-   },
-   {
-      "code": "39063",
-      "flavor": "\"Je nettoierai tout ça plus tard.\" — Jubilé",
-      "name": "Drôle de Couple",
-      "text": "Réduisez de 2 votre limite d'alliés.\n<b>Action d'alter ego</b> : inclinez 2 personnages que vous contrôlez → mélangez dans votre deck un allié de votre pile de défausse et défaussez cette obligation."
-   },
-   {
-      "code": "39064",
-      "name": "L'Épisode de la Séparation",
-      "text": "Chaque carte Rencontre gagne Péril.\n<b>Action d'alter ego</b> : défaussez 3 cartes de votre main et choisissez un joueur → le joueur choisi pioche 1 carte et vous défaussez cette obligation."
-   },
-   {
-      "code": "39065",
-      "flavor": "\"Qu'est-ce que ce jeu entend par \"vous\" déjà ?!\" — Deadpool",
-      "name": "Regarde-Moi Jouer",
-      "text": "Incitation 3. Péril.\n<b>Interruption forcée</b> : lorsque vous vérifiez un point de règle, vous êtes désorienté.\n<b>Action d'alter ego</b> : inclinez votre identité et défaussez une carte d'état Désorienté qui est sur elle → défaussez cette obligation."
-   },
-   {
-      "code": "39066",
-      "name": "Les Mojos de l'Ouest",
-      "text": "Chaque attaque ennemie gagne Déferlement.\n<b>Interruption forcée</b> : quand un personnage subit au moins 1 dégât, augmentez de 1 ces dégâts.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu. Si cette carte a été révélée du deck Recontre, elle gagne Renfort.",
-      "traits": "Situation. Spectacle."
-   },
-   {
-      "code": "39067",
-      "name": "Mort ou Vif",
-      "text": "Attachez cette carte au sbire ayant le plus de points de vie imprimés. Si vous ne pouvez pas, cette carte gagne Renfort.\nLe sbire attaché gagne +3[per_hero] points de vie.\n<b>Interruption forcée</b> : quand le sbire attaché est vaincu, chaque joueur ajoute à sa main 1 carte de sa pile de défausse.",
-      "traits": "Prime."
-   },
-   {
-      "code": "39068",
-      "flavor": "Il passe son temps à nager, manger et gagner aux cartes.",
-      "name": "Requin du Poker",
-      "text": "[star] <b>Réponse forcée</b> : après que le Requin du Poker vous a attaqué, défaussez les 3 cartes du dessus de votre deck. Subissez un nombre de dégâts indirects égal au nombre de types de ressoure imprimée différents ([energy],[mental],[physical],[wild]) ainsi défaussés.",
-      "traits": "Créature. Élite."
-   },
-   {
-      "code": "39069",
-      "flavor": "\"Dégaine !\"",
-      "name": "Pistoléro",
-      "text": "Coup Rapide.\n<b>Interruption forcée</b> : quand ce sbire vous engage <i>(et avant de résoudre Coup Rapide)</i>, vous pouvez dépenser les ressources suivantes : [energy][energy]. Si vous le faites, infligez à ce sbire un nombre de dégâts égal à l'ATQ de votre héros.",
-      "traits": "Hors-la-loi."
-   },
-   {
-      "code": "39070",
-      "flavor": "Quand on joue aux cartes, on gagne ou... on perd !",
-      "name": "Un Jeu de Cartes",
-      "text": "<b>Une fois révélée</b> : piochez 5 cartes. Choisissez et défaussez 5 cartes de votre main. Pour chaque type de ressource imprimée différent ([energy],[mental],[physical],[wild]) ainsi défaussée, défaussez une amélioration ou un soutien que vous contrôlez."
-   },
-   {
-      "code": "39071",
-      "name": "Longshot",
-      "text": "[star] Les attaques de Longshot gagnent Perçant.\nLongshot ne compte pas dans votre limité d'alliés.\n<b>Une fois révélée</b> : mettez en jeu Longshot sous votre contrôle. Cette carte gagne Renfort. Cet effet ne peut pas être annulé.",
-      "traits": "X-Men."
-   }
+	{
+		"code": "39001a",
+		"name": "MaGog (A)",
+		"text": "[star] <b>Réponse forcée</b> : après que MaGog a attaqué et blessé un personnage, placez 1 jeton Audimat sur Le Champion.\n<b>Interruption forcée</b> : quand MaGog est censé être vaincu, réinitialisez ses points de vie à 10[per_hero] à la place. Placez 3[per_hero] jetons Audimat sur Les Challengeurs et attribuez 1 carte Rencontre face cachée à chaque joueur.",
+		"traits": "Brute."
+	},
+	{
+		"code": "39001b",
+		"name": "MaGog (B)",
+		"text": "[star] <b>Réponse forcée</b> : après que MaGog a attaqué et blessé un personnage, placez 2 jetons Audimat sur Le Champion.\n<b>Interruption forcée</b> : quand MaGog est censé être vaincu, réinitialisez ses points de vie à 10[per_hero] à la place. Placez 2[per_hero] jetons Audimat sur Les Challengeurs et attribuez 1 carte Rencontre face cachée à chaque joueur.",
+		"traits": "Brute."
+	},
+	{
+		"code": "39002a",
+		"name": "Rixe au Mojo-seum",
+		"text": "<b>Contenu</b> : MaGog (A) <i>(MaGog (B) à la place en mode expert)</i>. Les sets de rencontre MaGog et Standard. Un set de rencontre modulaire <i>(1 set modulaire pris au hasard dans le Paquet Scénario</i> MojoMania).\n<b>Mise en place</b> : placez en jeu l'environnement Le Champion et l'environnement Les Challengeurs, avec leur face [[FOULE MÉCONTENTE]] visible."
+	},
+	{
+		"code": "39002b",
+		"flavor": "Téléporté dans une arène improbable, vous devez vous battre pour divertir les spectateurs... et sauver votre vie !",
+		"name": "Rixe au Mojo-seum",
+		"text": "Les joueurs ne peuvent pas gagner la partie à moins \"d'impressionner la foule\", car ils sont Les Challengeurs dans cette compétition.\n[star] <b>Interruption forcée</b> : quand ce stade 1B est censé être achevé, placez 2[per_hero] jetons Audimat sur Le Champion et retirez toutes les menaces qui sont sur Rixe au Mojo-seum à la place."
+	},
+	{
+		"code": "39003a",
+		"flavor": "\"À ma droite, quatre-vingt-dix-neuf fois invaincu, notre champion, le défenseur du Mojovers, le puissant MaGog ! \" — Mojo",
+		"name": "Le Champion",
+		"text": "S'il y a au moins 5[per_hero] jetons Audimat sur cette carte, retournez-la <i>(sans retirer les jetons Audimat)</i>.",
+		"traits": "Foule Mécontente."
+	},
+	{
+		"code": "39003b",
+		"name": "Le Champion",
+		"text": "<i>Perdu d'Avance</i> — <b>Réponse forcée</b> : après que la carte Le Champion a été retournée sur cette face, chaque joueur pioche 1 joueur.\n<b>S'il y a au moins 10[per_hero] jetons Audimat sur cette carte, MaGog reste le vainqueur incontesté et les joueurs perdent la partie.</b>",
+		"traits": "Foule en délire."
+	},
+	{
+		"code": "39004a",
+		"flavor": "\"Et à ma gauche, venus d'une petite planète insignifiante nommée la Terre, voici nos challengeurs !\" — Mojo",
+		"name": "Les Challengeurs",
+		"text": "S'il y a au moins 5[per_hero] jetons Audimat sur cette carte, retournez-la <i>(sans retirer les jetons Audimat)</i>.\n<i>(C'est en plaçant des jetons Audimat sur cette carte que les joueurs vont impressionner la foule.)</i>",
+		"traits": "Foule Mécontente."
+	},
+	{
+		"code": "39004b",
+		"name": "Les Challengeurs",
+		"text": "<i>Équipe B</i> — <b>Réponse forcée</b> : après que la carte Les Challengeurs a été retournée sur cette face, cherchez le Participant Surprise dans le deck Rencontre ou la pile de défausse Rencontre et placez-le en jeu engagé avec le premier joueur. S'il est déjà en jeu, donnez-lui une carte d'état Tenace.\n<b>S'il y a au moins 10[per_hero] jetons Audimat sur cette carte, vous avez impressionné la foule ! Les joueurs gagnent la partie.</b>",
+		"traits": "Foule en délire."
+	},
+	{
+		"code": "39005",
+		"name": "Montée d'Adrénaline",
+		"text": "Attachez cette carte à MaGog.\nMagog gagne Riposte 1 et Robuste.\n<b>Réponse forcée</b> : après que les points de vie de MaGog ont été réinitialisés, placez 1[per_hero] jeton Audimat sur Les Challengeurs et défaussez cet attachement.\n<hr />\n[star] <b>Boost</b>: révélez cette carte.",
+		"traits": "Condition."
+	},
+	{
+		"code": "39006",
+		"name": "Pulsion Agressive",
+		"text": "Attachez cette carte à MaGog.\n<b>Réponse forcée</b> : après que les points de vie de MaGog ont été réinitialisés, placez 1[per_hero] jeton Audimat sur Les Challengeurs et défaussez cet attachement.\n<hr />\n[star] <b>Boost</b>: révélez cette carte.",
+		"traits": "Condition.",
+		"flavor": "\"Reste Tranquille, que je puisse t'écraser !\" — MaGog"
+	},
+	{
+		"code": "39007",
+		"name": "Participant Surprise",
+		"text": "Vilenie.\n[star] <b>Réponse forcée</b> : après que le Participant Surprise a attaqué et blessé un personnage, placez 1[per_hero] jeton Audimat sur Le Champion.\n<b>Une fois vaincu</b> : placez 2[per_hero] jetons Audimat sur Les Challengeurs.",
+		"traits": "Clone. Élite."
+	},
+	{
+		"code": "39008",
+		"flavor": "\"Attendez de voir ce que MaGog vous prépare !\" — MaGog",
+		"name": "Attiser la Foule",
+		"text": "<b>Une fois révélée</b> : si Le Champion est sur sa face [[FOULE EN DÉLIRE]] visible, placez 1[per_hero] menace supplémentaire sur cette menace.\n<b>Une fois déjouée</b> : placez 1[per_hero] jeton Audimat sur Les Challengeurs."
+	},
+	{
+		"code": "39009",
+		"name": "Jambe Cassée",
+		"text": "<b>Une fois révélée</b> : vous êtes sonné. Subissez 2 dégâts (4 dégâts à la place s'il y a plus de jetons Audimat sur Les Challengeurs que sur Le Champion). Vous pouvez placer n'importe quel nombre de jetons Audimat sur Le Champion pour réduire ces dégâts de 1 pour chaque jeton ainsi placé."
+	},
+	{
+		"code": "39010",
+		"flavor": "\"Vous êtes satisfaits du spectacle ?!?\" — MaGog",
+		"name": "Défendre le Titre",
+		"text": "<b>Une fois révélée (alter ego)</b> : placez 2 jetons Audimat sur Le Champion.\n<b>Une fois révélée (héros)</b> : MaGog vous attaque. Si un héros défend contre cette attaque sans subir de dégâts, placez 2 jetons Audimat sur Les Challengeurs."
+	},
+	{
+		"code": "39011",
+		"name": "Un Peu de Trac",
+		"text": "<b>Une fois révélée</b> : vous êtes désorienté. Placez 2 menaces sur la manigance principale (4 menaces à la place s'il y a plus de jetons Audimat sur Les Challengeurs que sur Le Champion).\n<hr />\n[star] <b>Boost</b>: vous êtes désorienté."
+	},
+	{
+		"code": "39012B",
+		"name": "Spirale",
+		"text": "S'il y a au moins 3[per_hero] jetons Téléportation sur cette carte, retirez-les tous et retournez Spirale.\n[star] <b>Réponse forcée</b> : après que Spirale s'est activée, placez 1 jeton Téléportation sur elle.",
+		"traits": "Acculée. Mystique."
+	},
+	{
+		"code": "39012a",
+		"name": "Spirale",
+		"text": "Spirale ne peut ni subir de dégât ni être sonnée. Aucune menace ne peut être retirée de la manigance principale.\n[star] <b>Interruption forcée</b> : quand Spirale est censée attaquer, elle manigance à la place.",
+		"traits": "En fuite. Mystique."
+	},
+	{
+		"code": "39012b",
+		"name": "Spiral",
+		"text": "If there are at least 3[per_hero] teleport counters here, remove all of them and flip Spiral.\n[star] <b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
+		"traits": "Cornered. Mystic."
+	},
+	{
+		"code": "39013B",
+		"name": "Spirale",
+		"text": "S'il y a au moins 2[per_hero] jetons Téléportation sur cette carte, retirez-les tous et retournez Spirale.\n[star] <b>Réponse forcée</b> : après que Spirale s'est activée, placez 1 jeton Téléportation sur elle.",
+		"traits": "Acculée. Mystique."
+	},
+	{
+		"code": "39013a",
+		"name": "Spirale",
+		"text": "Spirale ne peut ni subir de dégât ni être sonnée. Aucune menace ne peut être retirée de la manigance principale.\n[star] <b>Interruption forcée</b> : quand Spirale est censée attaquer, elle manigance à la place.",
+		"traits": "En fuite. Mystique."
+	},
+	{
+		"code": "39013b",
+		"name": "Spiral",
+		"text": "If there are at least 2[per_hero] teleport counters here, remove all of them and flip Spiral.\n[star] <b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
+		"traits": "Cornered. Mystic."
+	},
+	{
+		"code": "39014B",
+		"name": "Spirale",
+		"text": "S'il y a au moins 3[per_hero] jetons Téléportation sur cette carte, retirez-les tous et retournez Spirale.\n<b>Une fois révélée</b> : Spirale attaque chaque joueur dans l'ordre des joueurs <i>(même s'il est sous forme d'alter ego)</i>.\n[star] <b>Réponse forcée</b> : après que Spirale s'est activée, placez 1 jeton Téléportation sur elle.",
+		"traits": "Acculée. Mystique."
+	},
+	{
+		"code": "39014a",
+		"name": "Spirale",
+		"text": "Spirale ne peut ni subir de dégât ni être sonnée. Aucune menace ne peut être retirée de la manigance principale.\n[star] <b>Interruption forcée</b> : quand Spirale est censée attaquer, elle manigance à la place.",
+		"traits": "En fuite. Mystique."
+	},
+	{
+		"code": "39014b",
+		"name": "Spiral",
+		"text": "If there are at least 3[per_hero] teleport counters here, remove all of them and flip Spiral.\n<b>When Revealed</b>: Spiral attacks each player in player order <i>(even in alter-ego form)</i>.\n[star] <b>Forced Response</b>: After Spiral activates, place 1 teleport counter here.",
+		"traits": "Cornered. Mystic."
+	},
+	{
+		"code": "39015a",
+		"name": "Aux Quatre coins du Mojovers",
+		"text": "<b>Contenu</b> : Spirale (I) et Spirale (II) <i>(Spirale (II) et Spirale (III) à la place en mode expert)</i>. Les sets de rencontre Spirale et Standard. Trois sets de rencontre modulaire du Paquet Scénario <i>MojoMania</i>.\n<b>Mise en place</b> : mettez en jeu la manigance annexe À La Recherche de Spirale et 1 environnement [[SPECTACLE]] pris au hasard. Mélangez tous les autres environnements [[SPECTACLE]] avec la traîtrise Acculée ! pour constituer le deck Spectacle. <i>(Voir livret de règles, p. 11.)</i> Placez Spirale, face [[EN FUITE]] visible."
+	},
+	{
+		"code": "39015b",
+		"flavor": "Pour espérer retourner chez vous, vous aurez besoin de l'aide de Spirale, une sorcière qui maîtrise la téléportation. Bien sûr, elle ne se laissera pas aisément convaincre.",
+		"name": "Aux Quatre coins du Mojovers",
+		"text": "<b>Interruption forcée</b> : quand un environnement [[SPECTACLE]] est censé être défaussé, placez-le sous le deck Spectacle à la place.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+	},
+	{
+		"code": "39016",
+		"flavor": "Spirale se cache dans l'un des nombreux programmes télévisés produits par Mojo.",
+		"name": "À La Recherche de Spirale",
+		"text": "Permanent.\n<b>Réponse forcée</b> : après que la dernière menace a été retirée de cette manigance, le joueur qui l'a retirée révèle la carte du dessus du deck Spectable et place 3[per_hero] menaces sur À La Recherche de Spirale.\n<b>Action de héros</b> : subissez 2 dégâts. Retirez 3 menaces de cette manigance."
+	},
+	{
+		"code": "39017",
+		"flavor": "\"Mais, vous allez me laisser tranquille ?!?\" — Spirale",
+		"name": "Acculée !",
+		"text": "<b>Une fois révélée</b> : retournez Spirale pour que sa face [[ACCULÉE]] soit visible. <i>(Cela provoquera la résolution de son effet</i><b>\"Une fois révélée\"</b><i>, si elle en a un.)</i> Révélez la carte du dessus du deck Spectacle. Mélangez cette traîtrise dans le deck Spectacle. Cet effet ne peut pas être annulé."
+	},
+	{
+		"code": "39018",
+		"flavor": "\"Je ne sais pas comment elle fait pour ne pas se trancher un bras.\" — Gambit",
+		"name": "Épées de Spirale",
+		"text": "Attachez cette carte à Spirale.\nUtilisations (3 jetons Épée).\n[star] Spirale gagne +1 ATQ pour chaque jeton Épée sur cette carte.\n<b>Action de héros</b> : si Spirale est face [[ACCULÉE]] visible, dépensez les ressources suivantes : [physical][physical] → retirez 1 jeton Épée de cette carte.",
+		"traits": "Arme."
+	},
+	{
+		"code": "39019",
+		"name": "Téléportation Hasardeuse",
+		"text": "Renfort.\n<b>Une fois révélée</b> : si Spirale est face [[ACCULÉE]] visible, placez 1 jeton Téléportation sur elle. Si Spirale est face [[EN FUITE]] visible, vous pouvez dépenser une ressource [mental] pour regarder la carte du dessus du deck Spectacle et la replacer sur ou sous ce deck."
+	},
+	{
+		"code": "39020",
+		"name": "Le Spectacle Doit Continuer",
+		"text": "<b>Une fois révélée</b> : chaque joueur cherche dans le deck Rencontre ou la pile de défausse Rencontre une carte du même set de rencontre que l'environnement [[SPECTACLE]] qui est en jeu et s'attribue cette carte en tant que carte Rencontre face cachée. <i>(Mélangez.)</i>"
+	},
+	{
+		"code": "39021",
+		"name": "Fière à Bras",
+		"text": "<b>Une fois révélée</b> : si un exemplaire des Épées de Spirale est attaché à Spirale, elle vous attaque <i>(même si vous êtes sous forme d'alter ego)</i>. Sinon, cherchez un exemplaire des Épées de Spirale dans le deck Rencontre ou la pile de défausse Rencontre et attachez-le à Spirale. <i>(Mélangez.)</i>"
+	},
+	{
+		"code": "39022",
+		"name": "Mojo",
+		"text": "<b>Réponse forcée (héros)</b> : après la fin de votre tour, défaussez les 3 cartes du dessus du deck Rencontre. Placez 1 menace sur votre héros pour chaque carte ainsi défaussée qui n'appartient pas au set de Rencontre Mojo.",
+		"traits": "Invertébré."
+	},
+	{
+		"code": "39023",
+		"name": "Mojo",
+		"text": "<b>Une fois révélée</b> : placez 2 menaces sur chaque personnage ami.\n<b>Réponse forcée (héros)</b> : après la fin de votre tour, défaussez les 4 cartes du dessus du deck Rencontre. Placez 1 menace sur votre héros pour chaque carte ainsi défaussée qui n'appartient pas au set de Rencontre Mojo.",
+		"traits": "Invertébré."
+	},
+	{
+		"code": "39024",
+		"name": "Mojo",
+		"text": "<b>Une fois révélée</b> : placez 3 menaces sur chaque personnage ami.\n<b>Réponse forcée (héros)</b> : après la fin de votre tour, défaussez les 5 cartes du dessus du deck Rencontre. Placez 1 menace sur votre héros pour chaque carte ainsi défaussée qui n'appartient pas au set de Rencontre Mojo.",
+		"traits": "Invertébré."
+	},
+	{
+		"code": "39025a",
+		"name": "MojoMania",
+		"text": "<b>Contenu</b> : Mojo (I) et Mojo (II) <i>(Mojo (II) et Mojo (III) à la place en mode expert)</i>. Les sets de rencontre Mojo et Standard.\n<b>Mise en place</b> : choisissez 1 set modulaire, plus 1[per_hero] set modulaire supplémentaire, du Paquet Scénario <i>MojoMania</i> et mettez-les de côté. Mettez en jeu l'environnement La Roue Des Genres, face [[EN ROTATION]] visible."
+	},
+	{
+		"code": "39025b",
+		"name": "MojoMania",
+		"text": "<b>Une fois révélée</b> : choisissez aléatoirement 1 set de Rencontre mis de côté, révélez son environnement [[SPECTACLE]] et mélangez ses cartes restantes dans le deck Rencontre.\n<b>Interruption forcée</b> : quand un personnage est retourné sur son autre face ou quitte le jeu, déplacez toutes les menaces de ce personnage vers cette manigance.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+	},
+	{
+		"code": "39026a",
+		"flavor": "\"L'audimat ne bouge plus. Faisons swinguer tout ça avec un épisode crossover !\" — Mojo",
+		"name": "La Roue des Genres",
+		"text": "<b>Réponse forcée</b> : après que le deck Rencontre a été réinitialisé, <b>s'il ne reste pas de set de rencontre modulaire mis de côté, les joueurs perdent la partie.</b> Sinon, retournez cet environnement.",
+		"traits": "En rotation."
+	},
+	{
+		"code": "39026b",
+		"name": "La Roue des Genres",
+		"text": "<b>Interruption forcée</b> : au début de l'étape 3 de la phase du Méchant <i>(attribution des cartes Rencontre)</i>, choisissez aléatoirement 1 set modulaire mis de côté et révélez son environnement [[SPECTACLE]]. Mélangez les cartes restantes de ce set modulaire et placez-les sur le deck Rencontre. Attribuez 2 cartes de rencontre face cachée au premier joueur et retournez cet environnement.",
+		"traits": "Arrêtée."
+	},
+	{
+		"code": "39027",
+		"flavor": "\"Je ne vis que pour vous servir, Votre Suprême Invertébré.\"",
+		"name": "Major Domo",
+		"text": "Attachez cette carte à Mojo.\n[star] <b>Réponse forcée</b> : après que Mojo a attaqué, défaussez un nombre de cartes du deck Rencontre égal à la quantité de dégâts infligés par cette attaque.\n<b>Action de héros</b> : dépensez les ressources suivantes : [energy][mental][physical] → défaussez cette carte.",
+		"traits": "Individu."
+	},
+	{
+		"code": "39028",
+		"name": "Queue de Scorpion",
+		"text": "Attachez cette carte à Mojo.\nMojo gagne Riposte 2.\n<b>Interruption forcée</b> : quand n'importe quelle quantité de dégâts est censée être infligée à Mojo, placez-les sur cette carte à la place. Ensuite, s'il y a au moins 5 dégâts sur la Queue de Scorpion, défaussez-la.\n<hr />\n[star] <b>Boost</b>: attachez cette carte à Mojo",
+		"traits": "Arme."
+	},
+	{
+		"code": "39029",
+		"flavor": "\"Ils sont moins chers que de véritables acteurs.\" — Mojo",
+		"name": "Figurant",
+		"text": "[star] <b>Réponse forcée</b> : après que le Figurant s'est activé contre vous, placez 2 menaces sur lui.\n<hr />\n[star] <b>Boost</b>: placez 1 menace sur chaque personnage que vous contrôlez.",
+		"traits": "Robot. Comédien."
+	},
+	{
+		"code": "39030",
+		"name": "Paparazzi",
+		"text": "Entrave 10.\n<b>Action</b> : choisissez : soit vous inclinez un personnage que vous contrôlez, soit vous défaussez 1 carte de votre main → retirez 2 menaces de Paparazzi (3 menaces à la place si vous êtes sous forme d'alter ego).\n<b>Interruption forcée</b> : quand votre tour se termine, déplacez toutes les menaces de cette obligation vers la manigance principale et défaussez Paparazzi."
+	},
+	{
+		"code": "39031",
+		"flavor": "\"Ils ne me reconnaîtront jamais.\" — Mojo",
+		"name": "Mojo Incognito",
+		"text": "Entrave 2[per_hero].\n<b>Interruption forcée</b> : quand Mojo est censé subir n'importe quelle quantité de dégâts, retirez une quantité égale de menaces de cette manigance à la place."
+	},
+	{
+		"code": "39032",
+		"name": "Rappel",
+		"text": "<b>Une fois révélée</b> : déplacez vers la manigance principale toutes les menaces qui sont sur le personnage ayant le plus de menaces sur lui. Si aucune menace n'a été déplacée par cet effet, placez 1 menace sur chaque personnage que vous contrôlez.\n<hr />\n[star] <b>Boost</b>: révélez cette carte."
+	},
+	{
+		"code": "39033",
+		"name": "Directives du Réalisateur",
+		"text": "<b>Une fois révélée</b> : choisissez :\n- Dépensez 2 ressources différentes.\n- Mojo manigance.\n- Subissez 1 dégât pour chaque menace sur votre identité. Si vous subissez moins de 2 dégâts par cet effet, cette carte gagne Renfort."
+	},
+	{
+		"code": "39034",
+		"name": "Têtes d'Affiche",
+		"text": "<b>Une fois révélée</b> : soignez 1 dégât de chaque personnage que vous contrôlez. Placez 2 menaces sur chaque personnage que vous contrôlez.\n<hr />\n[star] <b>Boost</b>: placez 1 menace sur chaque personnage que vous contrôlez."
+	},
+	{
+		"code": "39035",
+		"name": "Le Crime Était Presque Mojo",
+		"text": "Chaque autre carte Rencontre gagne Incitation 1.\n Chaque personnage ami gagne +1 CTR.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu. Si cette carte a été révélée du deck Recontre, elle gagne Renfort.",
+		"traits": "Situation. Spectacle."
+	},
+	{
+		"code": "39036",
+		"name": "Poursuivre l'Enquête",
+		"text": "<b>Réponse forcée (héros)</b> : après qu'une manigance annexe a été déjouée, placez 1 jeton Indice sur cette obligation. Ensuite, s'il y a au moins 3 jetons Indice dessus, défaussez-la."
+	},
+	{
+		"code": "39037",
+		"flavor": "\"On dirait que la victime n'a pas eu de chance.\"\n\" Je pense qu'on pourrait dire qu'elle... a perdu son mojo.\" — Inspecteurs Domo et Mojo",
+		"name": "Étudier la Scène de Crime",
+		"text": "Entrave 1[per_hero]. <i>(Quand cette carte est révélée, placez 1[per_hero] menaces dessus.)</i>\nLes menaces ne peuvent pas être retirées des autres manigances.\n<b>Action de héros</b> : dépensez X ressources [mental] → retirez X menaces de cette manigance."
+	},
+	{
+		"code": "39038",
+		"flavor": "\"Je me comdamne pour outrage à la cour ! Oui, mes deux moi, là !\" — Juge Mojo",
+		"name": "La Loi et l'Ordre",
+		"text": "Entrave 1[per_hero]. <i>(Quand cette carte est révélée, placez 1[per_hero] menaces dessus.)</i>\nChaque personnage ami a -2 ATK.\n<b>Action de héros</b> : dépensez X ressources [energy] → retirez X menaces de cette manigance."
+	},
+	{
+		"code": "39039",
+		"flavor": "\"Vous ne m'avez jamais vu.\" — Chef Mojo",
+		"name": "Dragnet",
+		"text": "Entrave 1[per_hero]. <i>(Quand cette carte est révélée, placez 1[per_hero] menaces dessus.)</i>\nLe méchant ne peut pas subir de dégâts.\n<b>Action de héros</b> : dépensez X ressources [physical] → retirez X menaces de cette manigance."
+	},
+	{
+		"code": "39040",
+		"name": "\"Élémentaire, Mon Cher Mojo\"",
+		"text": "<b>Une fois révélée</b> : choisissez :\n- Déplacez toutes les menaces d'une manigance annexe vers la manigance principale. <i>(Cette manigance annexe est déjouée.)</i>\n- Défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'une manigance annexe soit défaussée. Révélez cette carte."
+	},
+	{
+		"code": "39041",
+		"name": "Le Trône de Mojo",
+		"text": "La taille de main de chaque joueur gagne +1.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu. Si cette carte a été révélée du deck Recontre, elle gagne Renfort.",
+		"traits": "Situation. Spectacle."
+	},
+	{
+		"code": "39042",
+		"name": "Dragon",
+		"text": "Riposte 1. Ténacité.\nDoublez la quantité de dégâts que subit ce sbire lorsqu'ils sont infligés par des cartes avec une ressource [energy] imprimée.\n<b>Une fois vaincu</b> : chaque joueur pioche 4 cartes.",
+		"traits": "Dragon. Élite."
+	},
+	{
+		"code": "39043",
+		"name": "Gobelin",
+		"text": "Renfort.\nCe sbire ne peut subir des dégâts que s'ils sont infligés par des cartes ayant une ressource [physical] imprimée.\n<b>Une fois vaincu</b> : retirez 2 menaces d'une manigance.",
+		"traits": "Gobelin."
+	},
+	{
+		"code": "39044",
+		"name": "Troll",
+		"text": "Ténacité.\n Ce sbire subit 1 dégât supplémentaire de chaque carte ayant une ressource [mental] imprimée.\n<b>Une fois vaincu</b> : le joueur qui a vaincu ce sbire peut mettre en jeu 1 allié de sa pile de défausse.",
+		"traits": "Brute. Troll."
+	},
+	{
+		"code": "39045",
+		"flavor": "\"Apportez-moi un jardinet !\" — sir Mojo",
+		"name": "Quête Secondaire",
+		"text": "Renfort.\n<b>Une fois vaincu</b> : dans l'ordre des joueurs, chaque joueur peut chercher une carte dans son deck et la jouer gratuitement. <i>(Mélangez.)</i>\n<hr />\n[star] <b>Boost</b>: mettez cette carte en jeu."
+	},
+	{
+		"code": "39046",
+		"name": "Drain de Mana",
+		"text": "<b>Une fois révélée</b> : choisissez un type de ressource non-libre (non-[wild]), puis chaque joueur pioche 2 cartes. Chaque joueur doit défausser chaque carte de sa main ayant le type de ressource choisi.\n<hr />\n[star] <b>Boost</b>: défaussez une carte de votre main."
+	},
+	{
+		"code": "39047",
+		"name": "Aux Frontières du Mojo",
+		"text": "Chaque sbire gagne Coup Rapide.\nChaque allié subit -1 dégât de conséquence ([consequential]) après qu'il a attaqué un sbire.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu. Si cette carte a été révélée du deck Recontre, elle gagne Renfort.",
+		"traits": "Situation. Spectacle."
+	},
+	{
+		"code": "39048",
+		"name": "Pieux en Bandoulière",
+		"text": "Renfort. Utilisations (3 jetons Pieu).\n<b>Une fois révélée</b> : vous pouvez dépenser 1 ressource de n'importe quel type pour attacher cette carte à votre identité. Sinon défaussez cette carte.\n<b>Interruption de héros</b> : quand votre héros effectue une attaque de base, retirez 1 jeton Pieu de cette carte → votre héros gagne +1 ATQ pour cette attaque et elle gagne Perçant.",
+		"traits": "Objet."
+	},
+	{
+		"code": "39049",
+		"flavor": "\"Libérez le Kraken !\"",
+		"name": "Cultiste",
+		"text": "[star] <b>Réponse forcée</b> : après que le Cultiste s'est activé contre vous, cherchez le Kraken dans le deck Rencontre ou la pile de défausse Rencontre et mettez-le en jeu engagé avec vous. <i>(Mélangez.)</i> Ensuite, défaussez le Cultiste.",
+		"traits": "Mystique."
+	},
+	{
+		"code": "39050",
+		"flavor": "\"Rraaarhh !\"",
+		"name": "Le Kraken",
+		"text": "[star] <b>Réponse forcée</b> : après que Le Kraken s'est activé, chaque autre personnage subit 1 dégât.\n<b>Une fois vaincu</b> : chaque personnage ami se soigne de 1 dégât.",
+		"traits": "Créature. Élite."
+	},
+	{
+		"code": "39051",
+		"name": "Vampire",
+		"text": "Doublez le nombre de dégâts infligés au Vampire par des attaques ayant Perçant.\n[star] <b>Réponse forcée</b> : après que le Vampire a attaqué et blessé un personnage, soignez tous les dégâts sur le Vampire. Si aucun dégât n'est soigné par cet effet, donnez une carte d'état Tenace au Vampire.",
+		"traits": "Vampire."
+	},
+	{
+		"code": "39052",
+		"name": "Meute de Loups-Garous",
+		"text": "<b>Une fois révélée</b> : vainquez un allié que vous contrôlez et placez-le face cachée sous la Meute de Loups-Garous.\n<b>Interruption forcée</b> : quand la Meute de Loups-Garous est censée être vaincue, défaussez un allié qui est sous cette carte à la place. Ensuite, soignez tous les dégâts sur la Meute de Loups-Garous.",
+		"traits": "Loup-Garou."
+	},
+	{
+		"code": "39053",
+		"flavor": ">Mot de Passe accepté. Accès au serveur.\nBienvenue à MojoCorp ! Vos activités sont désormais surveillées",
+		"name": "Mojo Runner",
+		"text": "Tous les sbires et alliés gagnent Ténacité.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu. Si cette carte a été révélée du deck Recontre, elle gagne Renfort.",
+		"traits": "Situation. Spectacle."
+	},
+	{
+		"code": "39054",
+		"flavor": ">Cycles processeur annulés. Processus non identifié.",
+		"name": "Avalanche 9.0",
+		"text": "<b>Réponse forcée</b> : après qu'Avalanche 9.0 vous a engagé, inclinez un personnage que vous contrôlez et infligez 1 dégât à ce personnage.\n<hr />\n[star] <b>Boost</b>: inclinez un personnage que vous contrôlez.",
+		"traits": "Programme."
+	},
+	{
+		"code": "39055",
+		"flavor": ">Mise en mémoire tampon...\n>Mise en mémoire tampon...\n>Mise en mémoire tampon...",
+		"name": "Le Colosse 3.14",
+		"text": "Le Colosse 3.14 ne peut pas subir plus de 2 dégâts de chaque attaque.",
+		"traits": "Programme."
+	},
+	{
+		"code": "39056",
+		"flavor": ">Reformatage du disque dur infecté.",
+		"name": "Magnéto 2.6",
+		"text": "Vilenie.\n[star] <b>Réponse forcée</b> : après que Magnéto 2.6 s'est activé contre vous, placez 1 jeton Magnétique sur lui. Ensuite, choisissez et défaussez 1 carte de votre main pour chaque jeton Magnétique sur Magnéto 2.6.",
+		"traits": "Programme."
+	},
+	{
+		"code": "39057",
+		"flavor": ">Suppression du programme étranger.",
+		"name": "Pyro 4.0",
+		"text": "[star] <b>Interruption forcée</b> : quand Pyro 4.0 vous attaque, subissez 2 dégâts indirects.\n<hr />\n[star] <b>Boost</b>: subissez 2 dégâts indirects.",
+		"traits": "Programme."
+	},
+	{
+		"code": "39058",
+		"flavor": ">Sous-routine dangeureuse placée en quarantaine.",
+		"name": "Le Crapaud 2.0",
+		"text": "<b>Réponse forcée</b> : après que Le Crapaud 2.0 vous a engagé, placez dessous 1 amélioration que vous contrôlez, face cachée.\n<b>Une fois vaincu</b> : renvoyez chaque carte sous Le Crapaud 2.0 dans la main de son propriétaire.",
+		"traits": "Programme."
+	},
+	{
+		"code": "39059",
+		"flavor": ">Programmes invasifs détectés.\n>Contre-mesures électroniques activées.",
+		"name": "Glaçoïde M",
+		"text": "Chaque sbire gagne Garde et Patrouille.\n<b>Interruption forcée</b> : à la fin du round <i>(après avoir passé le pion Premier joueur)</i>, le premier joueur cherche un sbire dans le deck Rencontre ou la pile de défausse Rencontre et le met en jeu engagé avec lui. <i>(Mélangez.)</i>"
+	},
+	{
+		"code": "39060",
+		"name": "Mojo (in the Middle)",
+		"text": "Chaque obligation gagne 1 icône d'accélération ([Acceleration]).\n<b>Réponse</b> : après qu'un joueur a défaussé une obligation, il pioche une carte.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu. Si cette carte a été révélée du deck Recontre, elle gagne Renfort.",
+		"traits": "Situation. Spectacle."
+	},
+	{
+		"code": "39061",
+		"flavor": "\"Je ne serai jamais comme toi !\"\n\"Tu es mon clone !\" — X-23 et Wolverine",
+		"name": "La Vie de Famille",
+		"text": "Chaque soutien que vous contrôlez perd le texte imprimé dans sa boîte de texte <i>(sauf les [[TRAITS]])</i>.\n<b>Action d'alter ego</b> : inclinez votre identité et chaque soutien que vous contrôlez → défaussez cette obligation."
+	},
+	{
+		"code": "39062",
+		"flavor": "\"C'est pas ma faute !\" — Hope Summers",
+		"name": "Quoi de Neuf Docteur ?",
+		"text": "Augmentez de 2 le coût pour jouer chacune de vos améliorations.\n<b>Action d'alter ego</b> : défaussez une amélioration que vous contrôlez ou défaussez une amélioration de votre main. Si vous avez plus d'améliorations dans votre pile de défausse que d'améliorations en jeu, défaussez cette obligation."
+	},
+	{
+		"code": "39063",
+		"flavor": "\"Je nettoierai tout ça plus tard.\" — Jubilé",
+		"name": "Drôle de Couple",
+		"text": "Réduisez de 2 votre limite d'alliés.\n<b>Action d'alter ego</b> : inclinez 2 personnages que vous contrôlez → mélangez dans votre deck un allié de votre pile de défausse et défaussez cette obligation."
+	},
+	{
+		"code": "39064",
+		"name": "L'Épisode de la Séparation",
+		"text": "Chaque carte Rencontre gagne Péril.\n<b>Action d'alter ego</b> : défaussez 3 cartes de votre main et choisissez un joueur → le joueur choisi pioche 1 carte et vous défaussez cette obligation."
+	},
+	{
+		"code": "39065",
+		"flavor": "\"Qu'est-ce que ce jeu entend par \"vous\" déjà ?!\" — Deadpool",
+		"name": "Regarde-Moi Jouer",
+		"text": "Incitation 3. Péril.\n<b>Interruption forcée</b> : lorsque vous vérifiez un point de règle, vous êtes désorienté.\n<b>Action d'alter ego</b> : inclinez votre identité et défaussez une carte d'état Désorienté qui est sur elle → défaussez cette obligation."
+	},
+	{
+		"code": "39066",
+		"name": "Les Mojos de l'Ouest",
+		"text": "Chaque attaque ennemie gagne Déferlement.\n<b>Interruption forcée</b> : quand un personnage subit au moins 1 dégât, augmentez de 1 ces dégâts.\n<b>Une fois révélée</b> : défaussez chaque autre environnement [[SITUATION]] en jeu. Si cette carte a été révélée du deck Recontre, elle gagne Renfort.",
+		"traits": "Situation. Spectacle."
+	},
+	{
+		"code": "39067",
+		"name": "Mort ou Vif",
+		"text": "Attachez cette carte au sbire ayant le plus de points de vie imprimés. Si vous ne pouvez pas, cette carte gagne Renfort.\nLe sbire attaché gagne +3[per_hero] points de vie.\n<b>Interruption forcée</b> : quand le sbire attaché est vaincu, chaque joueur ajoute à sa main 1 carte de sa pile de défausse.",
+		"traits": "Prime."
+	},
+	{
+		"code": "39068",
+		"flavor": "Il passe son temps à nager, manger et gagner aux cartes.",
+		"name": "Requin du Poker",
+		"text": "[star] <b>Réponse forcée</b> : après que le Requin du Poker vous a attaqué, défaussez les 3 cartes du dessus de votre deck. Subissez un nombre de dégâts indirects égal au nombre de types de ressoure imprimée différents ([energy],[mental],[physical],[wild]) ainsi défaussés.",
+		"traits": "Créature. Élite."
+	},
+	{
+		"code": "39069",
+		"flavor": "\"Dégaine !\"",
+		"name": "Pistoléro",
+		"text": "Coup Rapide.\n<b>Interruption forcée</b> : quand ce sbire vous engage <i>(et avant de résoudre Coup Rapide)</i>, vous pouvez dépenser les ressources suivantes : [energy][energy]. Si vous le faites, infligez à ce sbire un nombre de dégâts égal à l'ATQ de votre héros.",
+		"traits": "Hors-la-loi."
+	},
+	{
+		"code": "39070",
+		"flavor": "Quand on joue aux cartes, on gagne ou... on perd !",
+		"name": "Un Jeu de Cartes",
+		"text": "<b>Une fois révélée</b> : piochez 5 cartes. Choisissez et défaussez 5 cartes de votre main. Pour chaque type de ressource imprimée différent ([energy],[mental],[physical],[wild]) ainsi défaussée, défaussez une amélioration ou un soutien que vous contrôlez."
+	},
+	{
+		"code": "39071",
+		"name": "Longshot",
+		"text": "[star] Les attaques de Longshot gagnent Perçant.\nLongshot ne compte pas dans votre limité d'alliés.\n<b>Une fois révélée</b> : mettez en jeu Longshot sous votre contrôle. Cette carte gagne Renfort. Cet effet ne peut pas être annulé.",
+		"traits": "X-Men."
+	}
 ]

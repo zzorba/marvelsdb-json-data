@@ -22,9 +22,9 @@
 	},
 	{
 		"code": "21030",
-		"flavor": "\"Vous ne pouvez pas gagner ce combat.\" - L'Homme-Radioactif",
 		"name": "Rayon Radioactif",
-		"text": "<b>Une fois rélélée (alter ego) </b>: placez 2 menaces sur la manigance principale.\n<b>Une fois révélée (héros) </b>: subissez 2 dégâts."
+		"text": "<b>Une fois rélélée (alter ego) </b>: placez 2 menaces sur la manigance principale.\n<b>Une fois révélée (héros) </b>: subissez 2 dégâts.",
+		"flavor": "\"Vous ne pouvez pas gagner ce combat.\" - L'Homme-Radioactif"
 	},
 	{
 		"code": "21066",
@@ -74,9 +74,9 @@
 	},
 	{
 		"code": "21074a",
-		"flavor": "<b><i>Mâchoire d'Ébène mène un assaut sur Nulle -Part afin de récupérer la Pierre du Pouvoir qui y est gardée.</i></b>",
 		"name": "Attaque sur Nulle-Part",
-		"text": "<b>Contenu</b> : Mâchoire d'Ébène (I) et Mâchoire d'Ébène (II). <i>(Mâchoire d'Ébène (II) et Mâchoire d'Ébène (III) à la place en mode expert.)</i> Les sets de rencontre Mâchoire d'Ébène et Standard. Deux sets de rencontre modulaires (<i>Armées du Titan</i>) et <i>L'Ordre Noir</i>)."
+		"text": "<b>Contenu</b> : Mâchoire d'Ébène (I) et Mâchoire d'Ébène (II). <i>(Mâchoire d'Ébène (II) et Mâchoire d'Ébène (III) à la place en mode expert.)</i> Les sets de rencontre Mâchoire d'Ébène et Standard. Deux sets de rencontre modulaires (<i>Armées du Titan</i>) et <i>L'Ordre Noir</i>).",
+		"flavor": "<b><i>Mâchoire d'Ébène mène un assaut sur Nulle -Part afin de récupérer la Pierre du Pouvoir qui y est gardée.</i></b>"
 	},
 	{
 		"code": "21074b",
@@ -147,23 +147,23 @@
 	},
 	{
 		"code": "21085",
-		"flavor": "\"Le Nain Noir est quelque peu obtus, mais il a son utilité.\" - Thanos",
 		"name": "Nain Noir",
 		"text": "[star] Les attaques du Nain Noir gagnent Déferlement.",
-		"traits": "Ordre Noir. Élite."
+		"traits": "Ordre Noir. Élite.",
+		"flavor": "\"Le Nain Noir est quelque peu obtus, mais il a son utilité.\" - Thanos"
 	},
 	{
 		"code": "21086",
-		"flavor": "\"Ils disent que j'ai perdu l'esprit, mais peu importe : je peux dévorer le vôtre.\"",
 		"name": "Supergéante",
 		"text": "Coup Rapide.\n[star] <b>Réponse forcée</b> : après que Supergéante a attaqué et blessé un personnage, sonnez ce personnage.",
-		"traits": "Ordre Noir. Élite."
+		"traits": "Ordre Noir. Élite.",
+		"flavor": "\"Ils disent que j'ai perdu l'esprit, mais peu importe : je peux dévorer le vôtre.\""
 	},
 	{
 		"code": "21087",
-		"flavor": "Thanos a recruté les mercenaires le plus dangereux de la galaxie pour former L'Ordre Noir.",
 		"name": "L'Ordre Noir",
-		"text": "Tant qu'un sbire [[ORDRE NOIR]] est en jeu, aucune menace ne peut être retirée de cette manigance annexe."
+		"text": "Tant qu'un sbire [[ORDRE NOIR]] est en jeu, aucune menace ne peut être retirée de cette manigance annexe.",
+		"flavor": "Thanos a recruté les mercenaires le plus dangereux de la galaxie pour former L'Ordre Noir."
 	},
 	{
 		"code": "21088",
@@ -178,10 +178,10 @@
 	},
 	{
 		"code": "21090",
-		"flavor": "ces éclaireurs sont des créatures modifiées génétiquemet pour être entièrement dévouées à leur créateur.",
 		"name": "Éclaireur",
 		"text": "<b>Une fois révélée</b> : défaussez 1 carte prise au hasard dans votre main.\n<hr />\n[star] <b>Boost</b>: défaussez 1 carte prise au hasard dans votre main.",
-		"traits": "Ordre Noir."
+		"traits": "Ordre Noir.",
+		"flavor": "ces éclaireurs sont des créatures modifiées génétiquemet pour être entièrement dévouées à leur créateur."
 	},
 	{
 		"code": "21091",
@@ -231,9 +231,9 @@
 	},
 	{
 		"code": "21098b",
-		"flavor": "Proxima Minuit mène une attaque de l'Ordre noir contre la tour des Avengers.",
 		"name": "Under Siege",
-		"text": "<b>Manigance de Proxima Minuit.</b>\n<b>Interruption forcée</b> : quand ce stade est censé être achevé, retirez toutes les menaces à la place. Ensuite, infligez 6[per_hero] dégâts à la Tour des Avengers."
+		"text": "<b>Manigance de Proxima Minuit.</b>\n<b>Interruption forcée</b> : quand ce stade est censé être achevé, retirez toutes les menaces à la place. Ensuite, infligez 6[per_hero] dégâts à la Tour des Avengers.",
+		"flavor": "Proxima Minuit mène une attaque de l'Ordre noir contre la tour des Avengers."
 	},
 	{
 		"code": "21099a",
@@ -242,18 +242,28 @@
 	},
 	{
 		"code": "21099b",
-		"flavor": "Corvus Glaive donne des ordres en première ligne, utilisant son expérience de stratège pour contrer la défense des Avengers.",
 		"name": "Les Armées de Thanos",
-		"text": "<b>Manigance de Corvus Glaive.</b>\n<b>Interruption forcée</b> : quand ce stade est censé être achevé, retirez-en toutes les menaces à la place. Ensuite, attribuez 1 carte Rencontre face cachéeà chaque joueur."
+		"text": "<b>Manigance de Corvus Glaive.</b>\n<b>Interruption forcée</b> : quand ce stade est censé être achevé, retirez-en toutes les menaces à la place. Ensuite, attribuez 1 carte Rencontre face cachéeà chaque joueur.",
+		"flavor": "Corvus Glaive donne des ordres en première ligne, utilisant son expérience de stratège pour contrer la défense des Avengers."
 	},
 	{
-		"back_name": "Tour des Avengers",
 		"back_text": "La règle d'unicité ne s'applique pas à la Tour des Avengers.\n<b>Réponse forcée</b> : après qu'au moins un dégât a été placé sur cette carte, s'il y a au moins 9[per_hero] dégâts dessus, retirez-les tous. Ensuite, retournez la Tour des Avengers.",
-		"back_traits": "Place Forte.",
 		"code": "21100",
 		"name": "Tour des Avengers",
 		"text": "<b>Une fois révélée</b> : défaussez chaque autre Tour des Avengers en jeu.\n<b>Réponse forcée</b> : après qu'au moins un dégât a été placé sur cette carte, s'il y a au moins 9[per_hero] dégâts dessus, les joueurs perdent la partie.",
 		"traits": "Endommagé."
+	},
+	{
+		"code": "21100a",
+		"name": "Avengers Tower",
+		"text": "The unique rule does not apply to Avengers Tower.\n<b>Forced Response</b>: After damage is placed here, if there is at least 9[per_hero] damage here, remove all of it. Then flip Avengers Tower over.",
+		"traits": "Stronghold."
+	},
+	{
+		"code": "21100b",
+		"name": "Avengers Tower",
+		"text": "<b>When Revealed</b>: Discard each other Avengers Tower from play.\n<b>Forced Response</b>: After damage is placed here, if there is at least 9[per_hero] damage here, the players lose the game.",
+		"traits": "Damaged."
 	},
 	{
 		"code": "21101",
@@ -286,15 +296,15 @@
 	},
 	{
 		"code": "21106",
-		"flavor": "\"Au nom de Thanos ! MEURS !\" - Proxima Minuit",
 		"name": "La Puissance de Proxima",
-		"text": "<b>Une fois révélée</b> : Proxima Minuit s'active contre vous.\n<hr />\n[star] <b>Boost</b>: ajoutez la MNG et l'ATQ de l'autre méchant à la MNG et l'ATQ de ce méchant pour cette activation."
+		"text": "<b>Une fois révélée</b> : Proxima Minuit s'active contre vous.\n<hr />\n[star] <b>Boost</b>: ajoutez la MNG et l'ATQ de l'autre méchant à la MNG et l'ATQ de ce méchant pour cette activation.",
+		"flavor": "\"Au nom de Thanos ! MEURS !\" - Proxima Minuit"
 	},
 	{
 		"code": "21107",
-		"flavor": "\"Voilà ton tribut, Thanos.\" - Corvus Glaive",
 		"name": "La Ruse de Corvus",
-		"text": "<b>Une fois révélée</b> : Corvus Glaive s'active contre vous.\n<hr />\n[star] <b>Boost</b>: ajoutez la MNG et l'ATQ de l'autre méchant à la MNG et l'ATQ de ce méchant pour cette activation"
+		"text": "<b>Une fois révélée</b> : Corvus Glaive s'active contre vous.\n<hr />\n[star] <b>Boost</b>: ajoutez la MNG et l'ATQ de l'autre méchant à la MNG et l'ATQ de ce méchant pour cette activation",
+		"flavor": "\"Voilà ton tribut, Thanos.\" - Corvus Glaive"
 	},
 	{
 		"code": "21108",
@@ -308,16 +318,16 @@
 	},
 	{
 		"code": "21110",
-		"flavor": "Corvus ordonne à un de ses régiments d'attaquer New York afin de faire sortir les Avengers.",
 		"name": "La Ville est Attaquée",
-		"text": "Entrave 1[per_hero].\n<b>une fois déjouée</b> : le joueur qui a déjoué cette manigance pioche 1 carte."
+		"text": "Entrave 1[per_hero].\n<b>une fois déjouée</b> : le joueur qui a déjoué cette manigance pioche 1 carte.",
+		"flavor": "Corvus ordonne à un de ses régiments d'attaquer New York afin de faire sortir les Avengers."
 	},
 	{
 		"code": "21111",
-		"flavor": "\"Bientôt, vous saurez ce que cela fait de perdre.\"",
 		"name": "Thanos",
 		"text": "Robuste. <i>(Ce personnage ne peut être ni sonné ni désorienté.)</i>\n<b>Réponse forcée</b> : après que le deck [[PIERRE D'INFINITÉ]] est tombé à court de carte, donnez 1 carte de boost face cachée à Thanos.",
-		"traits": "Ordre Noir. Titan."
+		"traits": "Ordre Noir. Titan.",
+		"flavor": "\"Bientôt, vous saurez ce que cela fait de perdre.\""
 	},
 	{
 		"code": "21112",
@@ -349,9 +359,9 @@
 	},
 	{
 		"code": "21115b",
-		"flavor": "D'un claquement de doigts, Thanos a éliminé la moitié de toute vie dans l'univers. Si vous parvenez à arracher son gant au Titan Fou, peut-être pourrez-vous utiliser son pouvoir pour inverser le processus. Mais si vous échouez, il ne restera plus personne pour se dresser contre lui.",
 		"name": "Équilibrer la Balance",
-		"text": "<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+		"text": "<b>Si ce stade est achevé, les joueurs perdent la partie.</b>",
+		"flavor": "D'un claquement de doigts, Thanos a éliminé la moitié de toute vie dans l'univers. Si vous parvenez à arracher son gant au Titan Fou, peut-être pourrez-vous utiliser son pouvoir pour inverser le processus. Mais si vous échouez, il ne restera plus personne pour se dresser contre lui."
 	},
 	{
 		"code": "21116",
@@ -372,15 +382,15 @@
 	},
 	{
 		"code": "21119",
-		"flavor": "\"L'univers m'appartient.\" - Thanos",
 		"name": "Maître des Pierres",
-		"text": "Attachez cette carte à Thanos.\n[star] <b>Interruption forcée</b> : quand Thanos s'active, mettez en jeu la carte du dessus du deck [[PIERRE D'INFINITÉ]]. À la fin de cette activation, défaussez Maître des Pierres."
+		"text": "Attachez cette carte à Thanos.\n[star] <b>Interruption forcée</b> : quand Thanos s'active, mettez en jeu la carte du dessus du deck [[PIERRE D'INFINITÉ]]. À la fin de cette activation, défaussez Maître des Pierres.",
+		"flavor": "\"L'univers m'appartient.\" - Thanos"
 	},
 	{
 		"code": "21120",
-		"flavor": "\"Fuis-la. Cache-toi d'elle. La mort finira toujours par te trouver.\" - Thanos",
 		"name": "Avatar de la Mort",
-		"text": "<b>Une fois révélée (alter ego)</b> : Thanos manigance.\n<b>Une fois révélée (héros)</b> : Thanos vous attaque. Cette attaque gagne Déferlement et Perçant."
+		"text": "<b>Une fois révélée (alter ego)</b> : Thanos manigance.\n<b>Une fois révélée (héros)</b> : Thanos vous attaque. Cette attaque gagne Déferlement et Perçant.",
+		"flavor": "\"Fuis-la. Cache-toi d'elle. La mort finira toujours par te trouver.\" - Thanos"
 	},
 	{
 		"code": "21121",
@@ -394,91 +404,91 @@
 	},
 	{
 		"code": "21123",
-		"flavor": "\"Je suis Thanos ! Et vous... vous n'êtes rien.\" - Thanos",
 		"name": "Le Titan Fou",
-		"text": "<b>Une fois révélée</b> : mettez en jeu la carte du dessus du deck [[PIERRE D'INFINITÉ]].\n<hr />\n[star] <b>Boost</b>: si un allié est vaincu par les dégâts de cette attaque, mettez en jeu la carte du dessus du deck [[PIERRE D'INFINITÉ]]."
+		"text": "<b>Une fois révélée</b> : mettez en jeu la carte du dessus du deck [[PIERRE D'INFINITÉ]].\n<hr />\n[star] <b>Boost</b>: si un allié est vaincu par les dégâts de cette attaque, mettez en jeu la carte du dessus du deck [[PIERRE D'INFINITÉ]].",
+		"flavor": "\"Je suis Thanos ! Et vous... vous n'êtes rien.\" - Thanos"
 	},
 	{
 		"code": "21124",
-		"flavor": "Depuis sa salle du trône au fin fond du Sanctuaire, Thanos planifie la destruction de toute chose.",
 		"name": "Le Trône du Titan",
-		"text": "<b>Une fois déjouée</b> : choisissez et défaussez une [[PIERRE D'INFINITÉ]] qui est en jeu."
+		"text": "<b>Une fois déjouée</b> : choisissez et défaussez une [[PIERRE D'INFINITÉ]] qui est en jeu.",
+		"flavor": "Depuis sa salle du trône au fin fond du Sanctuaire, Thanos planifie la destruction de toute chose."
 	},
 	{
 		"code": "21125",
-		"flavor": "\"Je sers mon maître Thanos, le destructeur de mmondes. Je suis Corvus Glaive, l'un des cinq élus.\"",
 		"name": "Corvus Glaive",
 		"text": "Riposte 1. Ténacité.\n<hr />\n[star] <b>Boost</b>: défaussez un allié ou un soutien que vous contrôlez.",
-		"traits": "Ordre Noir. Élite."
+		"traits": "Ordre Noir. Élite.",
+		"flavor": "\"Je sers mon maître Thanos, le destructeur de mmondes. Je suis Corvus Glaive, l'un des cinq élus.\""
 	},
 	{
 		"code": "21126",
-		"flavor": "Luttez, fuyez, rendez-vous ; cela n'a aucune importance. Ce monde appartient désormais à Thanos.",
 		"name": "Proxima Minuit",
 		"text": "[star] Les attaques de Proxima Minuit gagnent Perçant.\n<hr />\n[star] <b>Boost</b>: défaussez un allié ou une amélioration que vous contrôlez.",
-		"traits": "Ordre Noir. Élite."
+		"traits": "Ordre Noir. Élite.",
+		"flavor": "Luttez, fuyez, rendez-vous ; cela n'a aucune importance. Ce monde appartient désormais à Thanos."
 	},
 	{
 		"code": "21127",
-		"flavor": "\"Cessez d'imaginer de pauvres fins pour cemonde... Une fin très réelle est proche.\"",
 		"name": "Mâchoire d'Ébène",
 		"text": "Vilenie (<i>Quand ce sbire s'active, donnez-lui une carte de boost.</i>)\n<hr />\n[star] <b>Boost</b>: donnez 1 carte de boost supplémentaire à cet ennemi.",
-		"traits": "Ordre Noir. Élite."
+		"traits": "Ordre Noir. Élite.",
+		"flavor": "\"Cessez d'imaginer de pauvres fins pour cemonde... Une fin très réelle est proche.\""
 	},
 	{
 		"code": "21128",
-		"flavor": "L'Ordre Noir vénère la mort et exige un tribut de ceux qu'il conquiert.",
 		"name": "Tribut",
-		"text": "<b>Une fois déjouée</b> : attribuez une carte de rencontre face cachée au joueur qui a déjoué cette manigance."
+		"text": "<b>Une fois déjouée</b> : attribuez une carte de rencontre face cachée au joueur qui a déjoué cette manigance.",
+		"flavor": "L'Ordre Noir vénère la mort et exige un tribut de ceux qu'il conquiert."
 	},
 	{
 		"code": "21129",
-		"flavor": "\"Je détiens un pouvoir infini entre mes doigts.\" - Thanos",
 		"name": "Gant de l'Infini",
 		"text": "Permanent. Mise en Place.\n[star] <b>Réponse forcée</b> : après que le méchant attaché s'est activé, résolvez la capacité \"<b>Spécial</b>\" de chaque [[PIERRE D'INFINITÉ]] en jeu.Sinon, mettez en jeu la carte du dessus du deck [[PIERRE D'INFINITÉ]].",
-		"traits": "Artefact. Arme."
+		"traits": "Artefact. Arme.",
+		"flavor": "\"Je détiens un pouvoir infini entre mes doigts.\" - Thanos"
 	},
 	{
 		"code": "21130",
-		"flavor": "La Pierre de l'esprit confère à son porteur des capacités psioniques quasi illimitées.",
 		"name": "Pierre de l'Esprit",
 		"text": "<b>Spécial</b> : vous êtes désorienté. Si vous étiez déjà désorienté, défaussez 1 carte prise au hasard dans votre main. Placez cette carte dans la pile de défausse du deck [[PIERRE D'INFINITÉ]].",
-		"traits": "Pierre d'infinité."
+		"traits": "Pierre d'infinité.",
+		"flavor": "La Pierre de l'esprit confère à son porteur des capacités psioniques quasi illimitées."
 	},
 	{
 		"code": "21131",
-		"flavor": "La Pierre du Pouvoir augmente la force et la résistance de son porteur et augment toute capacité surhumaine qu'il possède.",
 		"name": "Pierre du Pouvoir",
 		"text": "<b>Spécial</b> : vous êtes sonné. Si vous êtiez déjà sonné, subissez 3 dégâts. Placez cette carte dans la pile de défausse du deck [[PIERRE D'INFINITÉ]].",
-		"traits": "Pierre d'infinité."
+		"traits": "Pierre d'infinité.",
+		"flavor": "La Pierre du Pouvoir augmente la force et la résistance de son porteur et augment toute capacité surhumaine qu'il possède."
 	},
 	{
 		"code": "21132",
-		"flavor": "La réalité est soumise au pouvoir de la Pierre de la Réalité et à la volonté de son porteur.",
 		"name": "Pierre de la Réalité",
 		"text": "<b>Spécial</b> : défaussez un allié, une amélioration ou un soutien que vous contrôlez. Placez cette carte dans la pile de défausse du deck [[PIERRE D'INFINITÉ]].",
-		"traits": "Pierre d'Infinité."
+		"traits": "Pierre d'Infinité.",
+		"flavor": "La réalité est soumise au pouvoir de la Pierre de la Réalité et à la volonté de son porteur."
 	},
 	{
 		"code": "21133",
-		"flavor": "La Pierre de l'Âme imprègne son porteur d'une force spirituelle incommensurable et de la capacité d'améliorer sa condition naturelle.",
 		"name": "Pierre de l'Âme",
 		"text": "<b>Spécial</b> : soignez 3 dégâts du méchant et donnez-lui une carte boost face cachée. Placez cette carte dans la pile de défausse du deck [[PIERRE D'INFINITÉ]].",
-		"traits": "Pierre d'Infinité."
+		"traits": "Pierre d'Infinité.",
+		"flavor": "La Pierre de l'Âme imprègne son porteur d'une force spirituelle incommensurable et de la capacité d'améliorer sa condition naturelle."
 	},
 	{
 		"code": "21134",
-		"flavor": "La Pierre de l'Espace permet à son porteur de se téléporter instantanément, lui et d'autres personnes, à travers les vastes étendues de l'univers.",
 		"name": "Pierre de l'Espace",
 		"text": "<b>Spécial</b> : défaussez des cartes du dessus du deck rencontre jusqu'à ce qu'un sbire soit défaussé → mettez ce sbire en jeu engagé avec vous. Placez cette carte dans la pile de défausse du deck [[PIERRE D'INFINITÉ]].",
-		"traits": "Pierre d'Infinité."
+		"traits": "Pierre d'Infinité.",
+		"flavor": "La Pierre de l'Espace permet à son porteur de se téléporter instantanément, lui et d'autres personnes, à travers les vastes étendues de l'univers."
 	},
 	{
 		"code": "21135",
-		"flavor": "Le porteur de la Pierre du Temps peut plier le temps à sa volonté : l'accélérer, le ralentir ou même inverser son cours.",
 		"name": "Pierre du Temps",
 		"text": "<b>Spécial</b> : défaussez les 4 cartes du dessus de votre deck et placez 1 menace sur la manigance principale pour chaque type de carte différent ainsi défaussé. Placez cette carte dans la pile de défausse du deck [[PIERRE D'INFINITÉ]].",
-		"traits": "Pierre d'Infinité."
+		"traits": "Pierre d'Infinité.",
+		"flavor": "Le porteur de la Pierre du Temps peut plier le temps à sa volonté : l'accélérer, le ralentir ou même inverser son cours."
 	},
 	{
 		"code": "21136a",
@@ -488,10 +498,10 @@
 	},
 	{
 		"code": "21136b",
-		"flavor": "\"Nul ne peut tuer la déesse de la mort !\"",
 		"name": "Hela",
 		"text": "Hela ne peut pas être vaincue.\n<b>Réponse forcée</b> : après qu'une manigance annexe a été déjouée, retournez Hela sur sa face [[MYSTIQUE]].",
-		"traits": "Asgard. Blessé."
+		"traits": "Asgard. Blessé.",
+		"flavor": "\"Nul ne peut tuer la déesse de la mort !\""
 	},
 	{
 		"code": "21137a",
@@ -501,10 +511,10 @@
 	},
 	{
 		"code": "21137b",
-		"flavor": "\"Nul ne peut tuer la déesse de la mort !\"",
 		"name": "Hela",
 		"text": "Hela ne peut pas être vaincue.\n<b>Réponse forcée</b> : après qu'une manigance annexe a été déjouée, retournez Hela sur sa face [[MYSTIQUE]].",
-		"traits": "Asgard. Blessé."
+		"traits": "Asgard. Blessé.",
+		"flavor": "\"Nul ne peut tuer la déesse de la mort !\""
 	},
 	{
 		"code": "21138a",
@@ -513,9 +523,9 @@
 	},
 	{
 		"code": "21138b",
-		"flavor": "Afin de secourir Odin, vous devez entreprendre un périlleux voyage à travers Hel.",
 		"name": "Le Tourment d'Odin",
-		"text": "<b>Interruption forcée</b> : quand Hela est censée être vaincue, si Odin est attaché à cette manigance, défaussez chaque attachement d'Hela et retournez-la sur sa face [[BLESSÉ]] à la place.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>"
+		"text": "<b>Interruption forcée</b> : quand Hela est censée être vaincue, si Odin est attaché à cette manigance, défaussez chaque attachement d'Hela et retournez-la sur sa face [[BLESSÉ]] à la place.\n<b>Si ce stade est achevé, les joueurs perdent la partie.</b>",
+		"flavor": "Afin de secourir Odin, vous devez entreprendre un périlleux voyage à travers Hel."
 	},
 	{
 		"code": "21139a",
@@ -538,20 +548,20 @@
 	},
 	{
 		"code": "21141",
-		"name": "Gjallerbru",
-		"text": "Entrave 1[per_hero]. Victoire 3.\n<b>Une fois déjouée</b> : le premier joueur révèle la Forteresse de Nastrond et Nidhogg et les met en jeu. Attribuez 1 carte Rencontre face cachée à chaque autre joueur."
-	},
-	{
-		"code": "21141",
 		"name": "Forteresse de Nastrond",
 		"text": "Entrave 1[per_hero]. Victoire 4.\n<b>Une fois déjouée</b> : le premier joueur détache Odin de la manigance principale et en prend le contrôle. Attribuez 1 carte Rencontre face cachée à chaque joueur."
 	},
 	{
+		"code": "21142",
+		"name": "Gjallerbru",
+		"text": "Hinder 1[per_hero]. Victory 3.\n<b> When Defeated: </b> The first player reveals Hall of Nastrond and Nidhogg, and puts them into play. Deal each other player 1 facedown encounter card."
+	},
+	{
 		"code": "21143",
-		"flavor": "Ce molosse infernal garde l'entrée du monde des morts.",
 		"name": "Garm",
 		"text": "Ténacité. Victoire 2.\nGarm engage le premier joueur.\n<b>Les menaces ne peuvent pas être retirées de Gnipahellir.</b>",
-		"traits": "Créature. Élite."
+		"traits": "Créature. Élite.",
+		"flavor": "Ce molosse infernal garde l'entrée du monde des morts."
 	},
 	{
 		"code": "21144",
@@ -567,10 +577,10 @@
 	},
 	{
 		"code": "21146",
-		"flavor": "Nombre de héros sont tombés sous les coups de l'épée maudite d'Hela.",
 		"name": "Épée de la Nuit",
 		"text": "Attachez cette carte à Hela.\n[star] Les attaques de Hela gagnent Perçant.\n<hr />\n[star] <b>Boost</b>: attachez l'Épée de la Nuit à Hela.",
-		"traits": "Arme."
+		"traits": "Arme.",
+		"flavor": "Nombre de héros sont tombés sous les coups de l'épée maudite d'Hela."
 	},
 	{
 		"code": "21147",
@@ -580,10 +590,10 @@
 	},
 	{
 		"code": "21148",
-		"flavor": "\"Hela n'est pas une guerrière ordinaire, et mes armes ne sont pas des armes ordinaires !\" - Hela",
 		"name": "Cape d'Hela",
 		"text": "Attachez cette carte à Hela.\nHela gagne Robuste.\n<hr />\n[star] <b>Boost</b>: attachez la Cape d'Hela à Hela.",
-		"traits": "Armure."
+		"traits": "Armure.",
+		"flavor": "\"Hela n'est pas une guerrière ordinaire, et mes armes ne sont pas des armes ordinaires !\" - Hela"
 	},
 	{
 		"code": "21149",
@@ -602,10 +612,10 @@
 	},
 	{
 		"code": "21152",
-		"flavor": "Les Draugr sont des guerriers tombés au combat condamnés à servir Hela pour l'éternité.",
 		"name": "Draugr",
 		"text": "Garde.\n<b>Une fois révélée</b> : choisissez : soit vous subissez 1 dégât, soit vous placez 1 menace sur la manigance principale.",
-		"traits": "Mort-Vivant."
+		"traits": "Mort-Vivant.",
+		"flavor": "Les Draugr sont des guerriers tombés au combat condamnés à servir Hela pour l'éternité."
 	},
 	{
 		"code": "21153",
@@ -620,16 +630,16 @@
 	},
 	{
 		"code": "21155",
-		"flavor": "Les légions de Hel se renforcent à chaque soldat qui tombe au combat",
 		"name": "Légions de Hel",
-		"text": "<b>Une fois révélée</b> : placez 2 menaces supplémentaires sur cette carte pour chaque sbire [[MORT-VIVANT]] en jeu. S'il n'y a pas de sbire [[MORT-VIVANT]] en jeu, cette carte gagne Renfort."
+		"text": "<b>Une fois révélée</b> : placez 2 menaces supplémentaires sur cette carte pour chaque sbire [[MORT-VIVANT]] en jeu. S'il n'y a pas de sbire [[MORT-VIVANT]] en jeu, cette carte gagne Renfort.",
+		"flavor": "Les légions de Hel se renforcent à chaque soldat qui tombe au combat"
 	},
 	{
 		"code": "21156",
-		"flavor": "Laufey est le roi de Jotunheim et le père de Loki. Son coeur est aussi froid que son royaume.",
 		"name": "Laufey",
 		"text": "Ténacité.\n[star] <b>Réponse forcée</b> : après que Laufey a attaqué et blessé un personnage, sonnez ce personnage.",
-		"traits": "Élite. Géant."
+		"traits": "Élite. Géant.",
+		"flavor": "Laufey est le roi de Jotunheim et le père de Loki. Son coeur est aussi froid que son royaume."
 	},
 	{
 		"code": "21157",
@@ -639,16 +649,16 @@
 	},
 	{
 		"code": "21158",
-		"flavor": "\"Le froid ne m'a jamais dérangé.\" - Loki",
 		"name": "Gelé",
 		"text": "Attachez cette carte à votre identité.\nL'identité attachée ne peut pas se redresser.\n<b>Action d'alter ego</b> : dépensez les ressources suivantes : [energy][physical] → défaussez cette carte.",
-		"traits": "Condition."
+		"traits": "Condition.",
+		"flavor": "\"Le froid ne m'a jamais dérangé.\" - Loki"
 	},
 	{
 		"code": "21159",
-		"flavor": "Le froid mortel de Jotunheim peut immobiliser le plus vaillant des héros.",
 		"name": "Tempête Surnaturelle",
-		"text": "Les héros et les alliés ne peuvent pas être redressés par des effets de carte Joueur.\n<b>Une fois révélée</b> : inclinez chaque allié en jeu."
+		"text": "Les héros et les alliés ne peuvent pas être redressés par des effets de carte Joueur.\n<b>Une fois révélée</b> : inclinez chaque allié en jeu.",
+		"flavor": "Le froid mortel de Jotunheim peut immobiliser le plus vaillant des héros."
 	},
 	{
 		"code": "21160",
@@ -658,24 +668,24 @@
 	},
 	{
 		"code": "21161",
-		"flavor": "\"Si c'est la guerre que vous voulez, vous allez l'avoir !\"",
 		"name": "Loki",
 		"text": "Riposte 1. Victoire 1.\n<b>Une fois vaincu</b> : défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'une manigance annexe soit défaussée. Révélez cette manigance annexe.",
-		"traits": "Asgard. Mystique."
+		"traits": "Asgard. Mystique.",
+		"flavor": "\"Si c'est la guerre que vous voulez, vous allez l'avoir !\""
 	},
 	{
 		"code": "21162",
-		"flavor": "\"Tous les royaumes sauront bientôt que Loki est né pour régner !\"",
 		"name": "Loki",
 		"text": "Robuste. Victoire 1.\n<b>Une fois vaincu</b> : défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'une manigance annexe soit défaussée. Révélez cette manigance annexe.",
-		"traits": "Asgard. Mystique."
+		"traits": "Asgard. Mystique.",
+		"flavor": "\"Tous les royaumes sauront bientôt que Loki est né pour régner !\""
 	},
 	{
 		"code": "21163",
-		"flavor": "\"Semez la tromperie, le temps venu vous récolterez le chaos.\"",
 		"name": "Loki",
 		"text": "Robuste. Victoire 1.\n<b>Une fois vaincu</b> : défaussez des cartes du dessus du deck Rencontre jusqu'à ce qu'une manigance annexe soit défaussée. Révélez cette manigance annexe.",
-		"traits": "Asgard. Mystique."
+		"traits": "Asgard. Mystique.",
+		"flavor": "\"Semez la tromperie, le temps venu vous récolterez le chaos.\""
 	},
 	{
 		"code": "21164",
@@ -695,27 +705,27 @@
 	},
 	{
 		"code": "21166",
-		"flavor": "Loki a pillé l'armurie d'Odin et y a découvert l'antique arme des Géants de Glace.",
 		"name": "Écrin des Hivers d'Antant",
-		"text": "Entrave 1[per_hero].\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard."
+		"text": "Entrave 1[per_hero].\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard.",
+		"flavor": "Loki a pillé l'armurie d'Odin et y a découvert l'antique arme des Géants de Glace."
 	},
 	{
 		"code": "21167",
-		"flavor": "Les partisans de Loki affrontent ceux qui sont encore loyaux à Odin.",
 		"name": "Guerre sur Asgard",
-		"text": "Entrave 1[per_hero].\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard."
+		"text": "Entrave 1[per_hero].\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard.",
+		"flavor": "Les partisans de Loki affrontent ceux qui sont encore loyaux à Odin."
 	},
 	{
 		"code": "21168",
-		"flavor": "Le Dieu de la Malice répand le chaos sur Terre pour son simple amusement.",
 		"name": "Folie sur Midgard",
-		"text": "Entrave 1[per_hero]\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard."
+		"text": "Entrave 1[per_hero]\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard.",
+		"flavor": "Le Dieu de la Malice répand le chaos sur Terre pour son simple amusement."
 	},
 	{
 		"code": "21169",
-		"flavor": "Loki utilise le Bifrost pour délacer ses troupes entre les Neuf Royaumes.",
 		"name": "Ouvrir le Bifrost",
-		"text": "Entrave 1[per_hero]\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard."
+		"text": "Entrave 1[per_hero]\n<b>Une fois déjouée</b> : révélez la carte du dessus du deck [[PIERRE D'INFINITÉ]]. Échangez Loki avec l'un des méchants Loki mis de côté pris au hasard.",
+		"flavor": "Loki utilise le Bifrost pour délacer ses troupes entre les Neuf Royaumes."
 	},
 	{
 		"code": "21170",
@@ -737,10 +747,10 @@
 	},
 	{
 		"code": "21173",
-		"flavor": "\"Parviendras-tu un jour à ne plus tomber dans le panneau ?\" - Loki",
 		"name": "Maître des Illusions",
 		"text": "Attachez cette carte à Loki.\n<b>Interruption forcée</b> : quand Loki est censé subir n'importe quelle quantité de dégâts d'une attaque, défaussez la carte du dessus du deck Rencontre. Si cette carte est une traîtrise, prévenez tous les dégâts de cette attaque et défaussez cette attachement.",
-		"traits": "Condition."
+		"traits": "Condition.",
+		"flavor": "\"Parviendras-tu un jour à ne plus tomber dans le panneau ?\" - Loki"
 	},
 	{
 		"code": "21174",
@@ -759,10 +769,10 @@
 	},
 	{
 		"code": "21177",
-		"flavor": "\"Tu ne peux pas combattre celle que tu désires.\"",
 		"name": "Enchanteresse",
 		"text": "<b>Une fois révélée</b> : cherchez un exemplaire de Séduit dans le deck Rencontre, la pile de défausse Rencontre ou parmi les cartes mises de côté et attachez-le à votre identité. (<i>Mélangez le deck Rencontre.</i>)",
-		"traits": "Asgard. Élite."
+		"traits": "Asgard. Élite.",
+		"flavor": "\"Tu ne peux pas combattre celle que tu désires.\""
 	},
 	{
 		"code": "21178",
@@ -772,9 +782,9 @@
 	},
 	{
 		"code": "21179",
-		"flavor": "\"Tu m'aimes, n'est-ce pas ?\" - L'Enchanteresse",
 		"name": "Séduit",
 		"text": "Attachez cette carte à votre identité.\nVous ne pouvez ni effectuer d'attaque de base ni jouer d'événements [[ATTAQUE]].\n<b>Action d'alter ego</b> : dépensez les ressources suivantes : [energy][mental] → défaussez cette carte.",
-		"traits": "Condition."
+		"traits": "Condition.",
+		"flavor": "\"Tu m'aimes, n'est-ce pas ?\" - L'Enchanteresse"
 	}
 ]
