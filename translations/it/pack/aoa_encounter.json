@@ -1,984 +1,961 @@
 [
-	{
-		"code": "45025",
-		"name": "Fear the Future",
-		"text": "<b><i>Give to the Lucas Bishop player.</i></b>\nYou may flip to alter-ego form. Choose:\n• Exhaust Lucas Bishop → remove Fear the Future from the game.\n• Discard this card and each resource card from your hand. If no resource cards are discarded this way, this card gains surge."
-	},
-	{
-		"code": "45026",
-		"name": "Trevor Fitzroy",
-		"text": "Quickstrike.\n<b>Forced Response</b>: After Trevor Fitzroy attacks and defeats an ally, if Portal Through Time is in play, place 2 threat on it. Otherwise, find it and reveal it.\n<i>(Bishop's nemesis minion.)</i>",
-		"traits": "Elite. Temporal."
-	},
-	{
-		"code": "45027",
-		"flavor": "Trevor Fitzroy uses his time portals to commit crimes and escape justice.",
-		"name": "Portal Through Time",
-		"text": "<b>Forced Interrupt</b>: When a [[Temporal]] card is revealed, it gains surge. (Limit once per phase.)"
-	},
-	{
-		"code": "45028",
-		"flavor": "\"Time to go, Trevor.\"",
-		"name": "Bantam",
-		"text": "<b>When Revealed</b>: If Portal Through Time is in play, place 2 threat on it. Otherwise, find Portal Through Time and reveal it.",
-		"traits": "Temporal."
-	},
-	{
-		"code": "45029",
-		"flavor": "\"That's why I love time travel no matter how many times I rob this bank, they're always surprised.\" —Trevor Fitzroy",
-		"name": "Temporal Trickery",
-		"text": "<b>When Revealed</b>: Discard a card in your hand with the most printed resource icons. Place 1 threat on each scheme for each resource icon on that card.",
-		"traits": "Temporal."
-	},
-	{
-		"code": "45053",
-		"name": "Darkchilde",
-		"text": "<b><i>Give to the Illyana Rasputin player.</i></b>\nYou may flip to alter-ego form. Choose:\n• Exhaust Illyana Rasputin → remove Darkchilde from the game.\n• Deal 1 damage to each character you control. Discard this obligation."
-	},
-	{
-		"code": "45054",
-		"name": "Belasco",
-		"text": "Villainous.\n[star] <b>Forced Response</b>: After Belasco activates against you, discard the top 3 cards of your deck. If Ruler of Limbo is in play, attach those cards to it facedown.\n<i>(Magik's nemesis minion.)</i>",
-		"traits": "Elite. Limbo."
-	},
-	{
-		"code": "45055",
-		"name": "Ruler of Limbo",
-		"text": "Threat cannot be removed from this scheme while Belasco is in play.\n<b>When Revealed</b>: The Illyana Rasputin player finds Limbo and attaches it facedown here. When this scheme is defeated, put Limbo into play under its owner's control."
-	},
-	{
-		"code": "45056",
-		"flavor": "\"The boss says he's had enough of your constant meddling.\"",
-		"name": "S'ym",
-		"text": "Guard.\n<b>When Revealed</b>: If Ruler of Limbo is in play, place 2 threat on it. Otherwise, place 2 threat on the main scheme.",
-		"traits": "Limbo."
-	},
-	{
-		"code": "45057",
-		"flavor": "\"Limbo is my birthright!\"",
-		"name": "Witchfire",
-		"text": "Quickstrike.\n<b>Forced Response</b>: After Witchfire attacks and defeats an ally, place 1 threat on Ruler of Limbo. Otherwise, place 1 threat on the main scheme.",
-		"traits": "Limbo."
-	},
-	{
-		"code": "45058",
-		"name": "Battle for Limbo",
-		"text": "<b>When Revealed</b>: Each [[Limbo]] minion in play activates against the player it is engaged with. If no [[Limbo]] minion activated this way, this card gains surge.\n<hr />\n[star] <b>Boost</b>: If Ruler of Limbo is in play, place 2 threat on it."
-	},
-	{
-		"code": "45059",
-		"name": "Unus",
-		"text": "Toughness.\nIf the amount of threat on Gene Pool is at least:\n• 3 — Unus gains retaliate 1.\n• 6 — Unus also gains stalwart.\n• 9 — Unus also gains a [amplify] icon.",
-		"traits": "Prelate."
-	},
-	{
-		"code": "45060",
-		"name": "Unus",
-		"text": "Toughness.\nIf the amount of threat on Gene Pool is at least:\n• 3 — Unus gains retaliate 1.\n• 6 — Unus also gains stalwart.\n• 9 — Unus also gains a [amplify] icon.",
-		"traits": "Prelate."
-	},
-	{
-		"code": "45061",
-		"name": "Unus",
-		"text": "Toughness.\nIf the amount of threat on Gene Pool is at least:\n• 3 — Unus gains retaliate 1.\n• 6 — Unus also gains stalwart.\n• 9 — Unus also gains a [amplify] icon.",
-		"traits": "Prelate."
-	},
-	{
-		"code": "45062a",
-		"name": "Hunting Gene Traitors",
-		"text": "<b>Contents</b>: Unus (I) and Unus (II). <i>(Unus (II) and Unus (III) instead for expert mode.)</i> Unus, Infinites, and Standard sets. One modular set <i>(Dystopian Nightmare)</i>.\n<b>Setup</b>: Reveal the Gene Pool side scheme. In expert mode, deal each player a facedown encounter card."
-	},
-	{
-		"code": "45062b",
-		"flavor": "Prelate Unus and his squad of Infinites scour the ruins of the X-Mansion for the enemies of Apocalypse.",
-		"name": "Hunting Gene Traitors",
-		"text": "[star] <b>Forced Response</b>: After resolving step one of the villain phase, place 1 threat on Gene Pool.\n<b>If this scheme is completed, the players lose the game.</b>"
-	},
-	{
-		"code": "45063",
-		"name": "Prelate Sidearm",
-		"text": "Attach to Unus.\n[star] <b>Forced Response</b>: After Unus attacks and defeats an ally, place 1 threat on Gene Pool.\n<b>Hero Response</b>: After you make a basic attack against Unus, spend [energy] [physical] resources → discard this card.",
-		"traits": "Weapon."
-	},
-	{
-		"code": "45064",
-		"name": "Prelate Armor",
-		"text": "Attach to Unus.\n[star] <b>Forced Response</b>: After Unus schemes, give him a tough status card.\n<b>Hero Response</b>: After you make a basic attack against Unus, spend [mental] [physical] resources → discard this card.",
-		"traits": "Armor."
-	},
-	{
-		"code": "45065",
-		"name": "Infinite Hunter",
-		"text": "<b>When Revealed</b>: Deal 3 damage to an ally you control.\n<hr />\n[star] <b>Boost</b>: Choose to either place 2 threat on Gene Pool, or the activating enemy gets +2 SCH and +2 ATK for this activation.",
-		"traits": "Infinite."
-	},
-	{
-		"code": "45066",
-		"name": "Genetic Experiments",
-		"text": "Attach to an [[Infinite]] minion. Otherwise, this card gains surge.\nAttached minion gets +2 hit points.\n<b>Forced Interrupt</b>: When attached minion is defeated, place 2 threat on Gene Pool.\n<hr />\n[star] <b>Boost</b>: Attach this card to an [[Infinite]] minion.",
-		"traits": "Condition."
-	},
-	{
-		"code": "45067",
-		"name": "Infinite Prelate",
-		"text": "<b>When Revealed</b>: Unus activates against you. If the amount of threat on Gene Pool is at least:\n• 3 — Give Unus a tough status card.\n• 6 — Heal 3 damage from Unus as well.\n• 9 — Give Unus an additional boost card for this activation as well."
-	},
-	{
-		"code": "45068",
-		"flavor": "The Infinites live up to their name: no matter how many you defeat, they keep making more.",
-		"name": "Endless Ranks",
-		"text": "<b>When Defeated</b>: Place 3 threat on Gene Pool."
-	},
-	{
-		"code": "45069",
-		"name": "Infinite Soldier",
-		"text": "Guard.\nIf the amount of threat on Gene Pool is at least:\n• 3 — This minion gains quickstrike.\n• 6 — This minion also gains surge.\n• 9 — This minion also gets +3 hit points.",
-		"traits": "Infinite."
-	},
-	{
-		"code": "45070",
-		"flavor": "The Infinites were created to enforce the mandate of Apocalypse: the weak must perish.",
-		"name": "Culling the Weak",
-		"text": "<b>When Revealed</b>: Place 4 threat on Gene Pool.\n<hr />\n[star] <b>Boost</b>: Place 2 threat on Gene Pool."
-	},
-	{
-		"code": "45071",
-		"flavor": "Apocalypse uses the raw genetic material of his victims to create the Infinites.",
-		"name": "Gene Pool",
-		"text": "Permanent. Setup.\n<b>Forced Response</b>: After an ally is defeated by anything other than consequential damage, place 3 threat here."
-	},
-	{
-		"code": "45072",
-		"name": "Hunted",
-		"text": "<b>Alter-Ego Action</b>: Discard a card from your hand → discard this card."
-	},
-	{
-		"code": "45073",
-		"name": "War-Weary",
-		"text": "<b>When Revealed</b>: You are stunned. If you were already stunned, take 2 damage instead.\n<hr />\n[star] <b>Boost</b>: You are stunned. If you were already stunned, take 2 damage instead."
-	},
-	{
-		"code": "45074",
-		"flavor": "The Infinites hunt down those whom their master deems unworthy.",
-		"name": "Targeted for Extermination",
-		"text": "<b>When Defeated</b>: The player who defeated this scheme confuses their identity."
-	},
-	{
-		"code": "45075a",
-		"name": "Pursued by the Past",
-		"text": "Permanent. Setup.\n<b>Forced Response</b>: After you place a pursuit counter here, if the number of counters here is at least 3 more than the number of players, remove each counter here → if your nemesis minion is in play, it activates against you. Otherwise, flip this card over."
-	},
-	{
-		"code": "45075b",
-		"name": "Pursued by the Past",
-		"text": "Permanent.\n<b>Forced Response</b>: After you flip to this side, find your nemesis minion and reveal it. Search the set-aside area for your nemesis side scheme and reveal it. Shuffle your remaining set-aside nemesis set into the encounter deck. Flip this card over."
-	},
-	{
-		"code": "45076",
-		"name": "Dark Design",
-		"text": "<b>When Revealed</b>: Place 1 pursuit counter on Pursued by the Past. Then, if it has any counters on it, the villain schemes.\n[star] <b>Boost</b>: After this activation resolves, place 1 pursuit counter on Pursued by the Past."
-	},
-	{
-		"code": "45077",
-		"name": "Sinister Strike",
-		"text": "<b>When Revealed (Alter-Ego)</b>: Place 1 pursuit counter on Pursued by the Past. Then, if it has any counters on it, this card gains surge.\n<b>When Revealed (Hero)</b>: Place 1 pursuit counter on Pursued by the Past. Then, if it has any counters on it, the villain attacks you."
-	},
-	{
-		"code": "45078",
-		"name": "Evil Alliance",
-		"text": "<b>When Revealed</b>: Each nemesis minion in play activates against you. If no minions activated this way, place 3 pursuit counters on Pursued by the Past.\n[star] <b>Boost</b>: After this activation resolves, place 1 pursuit counter on Pursued by the Past."
-	},
-	{
-		"code": "45079",
-		"name": "Nowhere is Safe",
-		"text": "<b>When Revealed</b>: Place 1 pursuit counter on Pursued by the Past. Then, if it has any counters on it, discard an upgrade or support you control.\n<hr />\n[star] <b>Boost</b>: After this activation resolves, place 1 pursuit counter on Pursued by the Past."
-	},
-	{
-		"code": "45080",
-		"name": "Drawing Near",
-		"text": "<b>Forced Response</b>: After your turn begins, discard the top card of your deck. Place 1 pursuit counter on Pursued by the Past for each printed resource icon on that card.\n<b>Alter-Ego Action</b>: Discard an identity-specific card from your hand → discard this card."
-	},
-	{
-		"code": "45081a",
-		"name": "War",
-		"text": "[star] <b>Forced Response</b>: After War attacks you, if he has at least 1 hit point, discard an upgrade or support you control.\n<b>War cannot be defeated while another villain has at least 1 hit point.</b>",
-		"traits": "Horsemen."
-	},
-	{
-		"code": "45081b",
-		"name": "War",
-		"text": "[star] <b>Forced Response</b>: After War attacks you, if he has at least 1 hit point, discard an upgrade or support you control.\n<b>War cannot be defeated while another villain has at least 1 hit point.</b>",
-		"traits": "Horsemen."
-	},
-	{
-		"code": "45082a",
-		"name": "Famine",
-		"text": "[star] <b>Forced Response</b>: After Famine attacks you, if she has at least 1 hit point, discard the top 10 cards of your deck.\n<b>Famine cannot be defeated while another villain has at least 1 hit point.</b>",
-		"traits": "Horsemen."
-	},
-	{
-		"code": "45082b",
-		"name": "Famine",
-		"text": "[star] <b>Forced Response</b>: After Famine attacks you, if she has at least 1 hit point, discard the top 10 cards of your deck.\n<b>Famine cannot be defeated while another villain has at least 1 hit point.</b>",
-		"traits": "Horsemen."
-	},
-	{
-		"code": "45083a",
-		"name": "Pestilence",
-		"text": "[star] <b>Forced Response</b>: After Pestilence attacks you, if she has at least 1 hit point, treat your identity's text box as if it were blank <i>(except for [[Traits]])</i> until the next villain phase begins.\n<b>Pestilence cannot be defeated while another villain has at least 1 hit point.</b>",
-		"traits": "Horsemen."
-	},
-	{
-		"code": "45083b",
-		"name": "Pestilence",
-		"text": "[star] <b>Forced Response</b>: After Pestilence attacks you, if she has at least 1 hit point, treat your identity's text box as if it were blank <i>(except for [[Traits]])</i> until the next villain phase begins.\n<b>Pestilence cannot be defeated while another villain has at least 1 hit point.</b>",
-		"traits": "Horsemen."
-	},
-	{
-		"code": "45084a",
-		"name": "Death",
-		"text": "[star] <b>Forced Response</b>: After Death attacks you, if he has at least 1 hit point, deal 1 damage to each character you control.\n<b>Death cannot be defeated while another villain has at least 1 hit point.</b>",
-		"traits": "Aerial. Horsemen."
-	},
-	{
-		"code": "45084b",
-		"name": "Death",
-		"text": "[star] <b>Forced Response</b>: After Death attacks you, if he has at least 1 hit point, deal 1 damage to each character you control.\n<b>Death cannot be defeated while another villain has at least 1 hit point.</b>",
-		"traits": "Aerial. Horsemen."
-	},
-	{
-		"code": "45085a",
-		"name": "The Horsemen of Apocalypse",
-		"text": "<b>Contents</b>: War (A), Famine (A), Pestilence (A), Death (A), Four Horsemen, Standard, and two modular sets <i>(Dystopian Nightmare and Hounds)</i>.\n<b>Setup</b>: Shuffle the four [[Horsemen]] villains, then reveal them in a row from left to right. Place the active counter on the leftmost villain (see rulebook). Each player reveals a random side scheme from the Four Horsemen encounter set."
-	},
-	{
-		"code": "45085b",
-		"flavor": "The Four Horsemen are the most brutal servants of Apocalypse. They strike in turn, using their powers as a team.",
-		"name": "The Horsemen of Apocalypse",
-		"text": "<b>Forced Response</b>: After a villain activates, move the active counter to the next villain.\n<b>If this stage is completed, the players lose the game.</b>"
-	},
-	{
-		"code": "45086",
-		"flavor": "War uses the shockwaves created by his arms to keep his opponents off balance.",
-		"name": "The Ravages of War",
-		"text": "<b>When Defeated</b>: The player who defeated this scheme discards an upgrade or support they control."
-	},
-	{
-		"code": "45087",
-		"flavor": "The mere touch of Famine leaves even the strongest mutant enfeebled.",
-		"name": "A Time of Famine",
-		"text": "<b>When Defeated</b>: The player who defeated this scheme discards the top 10 cards of their deck."
-	},
-	{
-		"code": "45088",
-		"flavor": "Pestilence uses her power to make her enemies sick and helpless.",
-		"name": "Plague and Pestilence",
-		"text": "<b>When Defeated</b>: The player who defeated this scheme treats their identity's text box as if it were blank (except for [[Traits]]) until the next villain phase begins."
-	},
-	{
-		"code": "45089",
-		"flavor": "The shadow of Death drives fear into the hearts of those he hunts.",
-		"name": "The Specter of Death",
-		"text": "<b>When Defeated</b>: The player who defeated this scheme deals 1 damage to each character they control."
-	},
-	{
-		"code": "45090",
-		"name": "Golden Horse",
-		"text": "Attach to the villain with the fewest hit points without the [[Aerial]] trait.\nAttached villain gains the [[Aerial]] trait and is considered to have at least 1 hit point.\n<b>Hero Response</b>: After you attack attached villain, resolve its \"<b>Forced Response</b>\" as if it just attacked you → discard this card.",
-		"traits": "Item. Tech."
-	},
-	{
-		"code": "45091",
-		"name": "Metal Wings",
-		"text": "Attach to Death and move the active counter to him.\nDeath gains retaliate 1 and is considered to have at least 1 hit point remaining.\n<b>Hero Response</b>: After you attack Death, resolve his \"<b>Forced Response</b>\" as if he just attacked you → discard this card.",
-		"traits": "Item. Tech."
-	},
-	{
-		"code": "45092",
-		"name": "Horseman of War",
-		"text": "<b>When Revealed</b>: Heal 2 damage from War and give him a tough status card. He activates against you.\n<hr />\n[star] <b>Boost</b>: After this activation, War activates against you. Do not give War a boost card for that activation."
-	},
-	{
-		"code": "45093",
-		"name": "Horseman of Famine",
-		"text": "<b>When Revealed</b>: Heal 2 damage from Famine and give her a tough status card. She activates against you.\n<hr />\n[star] <b>Boost</b>: After this activation, Famine activates against you. Do not give Famine a boost card for that activation."
-	},
-	{
-		"code": "45094",
-		"name": "Horseman of Pestilence",
-		"text": "<b>When Revealed</b>: Heal 2 damage from Pestilence and give her a tough status card. She activates against you.\n<hr />\n[star] <b>Boost</b>: After this activation, Pestilence activates against you. Do not give Pestilence a boost card for that activation."
-	},
-	{
-		"code": "45095",
-		"name": "Horseman of Death",
-		"text": "<b>When Revealed</b>: Heal 2 damage from Death and give him a tough status card. He activates against you.\n<hr />\n[star] <b>Boost</b>: After this activation, Death activates against you. Do not give Death a boost card for that activation."
-	},
-	{
-		"code": "45096",
-		"name": "Rough Riders",
-		"text": "<b>When Revealed</b>: Resolve the \"<b>Forced Response</b>\" on the active villain as if it has at least 1 hit point and attacked you. Move the active counter to the next villain and resolve its \"<b>Forced Response</b>\" the same way."
-	},
-	{
-		"code": "45097",
-		"flavor": "\"You cannot hide from me, mutant.\"",
-		"name": "Ahab",
-		"text": "Toughness.\n<b>When Revealed</b>: If Release the Hounds is in play, place 3 threat on it. Otherwise, find the Release the Hounds side scheme and reveal it.",
-		"traits": "Cyborg. Tracker."
-	},
-	{
-		"code": "45098",
-		"flavor": "Ahab's hounds are mutants stripped of free will and forced to hunt their own kind.",
-		"name": "Hound",
-		"text": "Guard.\n<b>When Revealed</b>: If you are in hero form, Hound attacks you. Otherwise, change your identity to hero form.",
-		"traits": "Tracker."
-	},
-	{
-		"code": "45099",
-		"name": "Ahab's Energy Spear",
-		"text": "Attach to Ahab. Otherwise, attach to the villain.\n[star] <b>Forced Interrupt</b>: When attached enemy attacks you, this attack gains overkill and piercing. At the end of this attack, discard Ahab's Energy Spear.",
-		"traits": "Weapon."
-	},
-	{
-		"code": "45100",
-		"flavor": "Ahab takes pleasure in hunting mutants with the help of his hounds.",
-		"name": "Release the Hounds",
-		"text": "The first copy of Hound revealed each phase gains surge.\n<b>When Defeated</b>: The player who defeated this scheme searches the encounter deck and discard pile for a copy of Hound and deals it to themself as a facedown encounter card."
-	},
-	{
-		"code": "45101a",
-		"flavor": "\"Challenge me and be reminded why Apocalypse reigns supreme.\"",
-		"name": "Apocalypse",
-		"text": "Toughness.\n<b>Forced Interrupt</b>: When the main scheme is completed, remove all threat from it <i>(ignoring any crisis ([crisis]) icons)</i>. Flip this card and reveal Apocalypse (II).",
-		"traits": "Mutant."
-	},
-	{
-		"code": "45101b",
-		"flavor": "\"You are foolish to oppose me.\"",
-		"name": "Apocalypse",
-		"text": "Steady. Toughness.\n<b>Forced Interrupt</b>: When the main scheme is completed, remove all threat from it <i>(ignoring any crisis ([crisis]) icons)</i>. Remove this card from the game and reveal Apocalypse (III).",
-		"traits": "Mutant."
-	},
-	{
-		"code": "45102a",
-		"flavor": "\"This world belongs to me and those I deem worthy.\"",
-		"name": "Apocalypse",
-		"text": "Steady. Toughness.\n<b>Forced Interrupt</b>: When the main scheme is completed, remove all threat from it <i>(ignoring any crisis ([crisis]) icons)</i>. Flip this card and reveal Apocalypse (IV).",
-		"traits": "Mutant."
-	},
-	{
-		"code": "45102b",
-		"flavor": "\"I will cleanse this world with fire. Only the strong will survive.\"",
-		"name": "Apocalypse",
-		"text": "Stalwart. Toughness.\n[star] Apocalypse's attacks gain overkill.\n<b>Forced Interrupt</b>: When the main scheme is completed, the players lose the game.",
-		"traits": "Mutant."
-	},
-	{
-		"code": "45103a",
-		"name": "The Age of Apocalypse",
-		"text": "<b>Contents</b>: Apocalypse (II) and Apocalypse (III). <i>(Apocalypse (III) only for expert mode.)</i> Apocalypse, Prelates, and Standard sets. Two modular sets <i>(Dark Riders and Infinites)</i>.\n<b>Setup</b>: Set aside each unused villain card, each [[Prelate]] minion, and The Tyrant's Throne side scheme. Reveal the Heart of the Empire side scheme. The first player reveals a random, set-aside [[Prelate]] minion."
-	},
-	{
-		"code": "45103b",
-		"flavor": "The time has come for a direct assault on Apocalypse in his towering citadel.",
-		"name": "The Age of Apocalypse",
-		"text": "X is the numeral in Apocalypse's printed hit point value.\n<b>Forced Interrupt</b>: When Apocalypse would be defeated, discard each attachment from him and heal all damage from him instead. Remove X threat from this scheme <i>(ignoring any crisis ([crisis]) icons)</i>."
-	},
-	{
-		"code": "45104a",
-		"flavor": "Before you can challenge Apocalypse, you must fight your way through his tower.",
-		"name": "Heart of the Empire",
-		"text": "Threat cannot be removed from this scheme while a [[Prelate]] minion is in play.\n<b>When Defeated</b>: The first player reveals a random set-aside [[Prelate]] minion. Deal each other player an encounter card. Flip this card over."
-	},
-	{
-		"code": "45104b",
-		"name": "The Towering Citadel",
-		"text": "Threat cannot be removed from this scheme while a [[Prelate]] minion is in play.\n<b>When Defeated</b>: The first player reveals a random set-aside [[Prelate]] minion. Deal each other player an encounter card. Reveal The Tyrant's Throne side scheme and remove this card from the game."
-	},
-	{
-		"code": "45105a",
-		"name": "The Tyrant's Throne",
-		"text": "Threat cannot be removed from this scheme while a [[Prelate]] minion is in play.\n<b>When Defeated</b>: The first player reveals a random set-aside [[Prelate]] minion. Deal each other player an encounter card. Flip this card over and reveal No Longer Worthy."
-	},
-	{
-		"code": "45105b",
-		"name": "No Longer Worthy",
-		"text": "Attach to Apocalypse and heal 5[per_hero] hit points from him. He cannot take damage while a [[Prelate]] minion is in play.\nIgnore the \"<b>Forced Interrupt</b>\" on the main scheme.\n<b>Forced Interrupt</b>: When Apocalypse is defeated, the players win the game.",
-		"traits": "Condition."
-	},
-	{
-		"code": "45106",
-		"name": "Cyberpathy",
-		"text": "Attach to Apocalypse.\n[star] <b>Forced Response</b>: After Apocalypse schemes, place 1 threat on each side scheme.\n<hr />\n[star] <b>Boost</b>: Attach this card to Apocalypse.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "45107",
-		"name": "Biomorphing",
-		"text": "Attach to Apocalypse.\n[star] Apocalypse's attacks gain overkill.\n<hr />\n[star] <b>Boost</b>: Attach this card to Apocalypse.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "45108",
-		"flavor": "Apocalypse's power to control every molecule in his body makes him an unpredictable foe.",
-		"name": "Molecular Control",
-		"text": "Attach to Apocalypse.\nApocalypse gains retaliate 1 and stalwart.\n<hr />\n[star] <b>Boost</b>: Attach this card to Apocalypse.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "45109",
-		"flavor": "Apocalypse promotes only the strongest and most ruthless mutants to the rank of Prelate.",
-		"name": "The Fittest",
-		"text": "Attach to the minion with the highest printed hit points and give it a tough status card. Otherwise, this card gains surge.\nAttached enemy gets +5 hit points.",
-		"traits": "Condition."
-	},
-	{
-		"code": "45110",
-		"name": "Wolf Among Sheep",
-		"text": "<b>When Revealed</b>: The [[Prelate]] minion activates against you. Otherwise, Apocalypse activates against you.\n<hr />\n[star] <b>Boost</b>: Give the [[Prelate]] minion a tough status card. Otherwise, give Apocalypse a tough status card."
-	},
-	{
-		"code": "45111",
-		"flavor": "Apocalypse would rather burn his kingdom to the ground than surrender his rule.",
-		"name": "The Apocalypse Solution",
-		"text": "<b>When Defeated</b>: Discard the top X cards of the encounter deck, where X is the numeral in Apocalypse's printed hit point value."
-	},
-	{
-		"code": "45112",
-		"flavor": "\"You want someone gone? You hire the Dark Riders.\"",
-		"name": "Gauntlet",
-		"text": "Teamwork ([[Dark Riders]]).\n[star] <b>Forced Response</b>: After Gauntlet attacks you, discard an upgrade you control.",
-		"traits": "Dark Riders."
-	},
-	{
-		"code": "45113",
-		"flavor": "\"Don't expect someone named 'Barrage' to be picky with their targets.\" —Cyclops",
-		"name": "Barrage",
-		"text": "Teamwork ([[Dark Riders]]).\n[star] <b>Forced Response</b>: After Barrage attacks you, deal 1 damage to each character you control.",
-		"traits": "Dark Riders."
-	},
-	{
-		"code": "45114",
-		"flavor": "\"I've finished my scan. Ready to jump.\"",
-		"name": "Hard-Drive",
-		"text": "Teamwork ([[Dark Riders]]).\n[star] <b>Forced Response</b>: After Hard-Drive attacks you, place 1 threat on each scheme.",
-		"traits": "Dark Riders."
-	},
-	{
-		"code": "45115",
-		"name": "Tusk",
-		"text": "Teamwork ([[Dark Riders]]).\n[star] <b>Forced Response</b>: After Tusk attacks you, you are stunned.\n<hr />\n[star] <b>Boost</b>: You are stunned.",
-		"traits": "Dark Riders."
-	},
-	{
-		"code": "45116",
-		"name": "Psynapse",
-		"text": "Teamwork ([[Dark Riders]]).\n[star] <b>Forced Response</b>: After Psynapse attacks you, you are confused.\n<hr />\n[star] <b>Boost</b>: You are confused.",
-		"traits": "Dark Riders."
-	},
-	{
-		"code": "45117",
-		"flavor": "Dark Riders live by the axiom: The weak must perish.",
-		"name": "The Dark Riders",
-		"text": "Hinder 1[per_hero].\nEach [[Dark Riders]] minion gains toughness.\n<b>When Revealed</b>: Discard cards from the encounter deck until a [[Dark Riders]] minion is discarded and reveal it."
-	},
-	{
-		"code": "45118",
-		"flavor": "\"A villain's work is never done!\"",
-		"name": "Dark Beast",
-		"text": "[star] <b>Forced Interrupt</b>: When Dark Beast attacks you, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.\n<b>When Revealed</b>: Reveal a random set-aside environment and shuffle the rest of its encounter set into the encounter deck.",
-		"traits": "Brute. Genius."
-	},
-	{
-		"code": "45119",
-		"name": "Dark Beast",
-		"text": "[star] <b>Forced Interrupt</b>: When Dark Beast attacks you, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.\n<b>When Revealed</b>: Reveal a random set-aside environment and shuffle the rest of its encounter set into the encounter deck. Deal each player an encounter card.",
-		"traits": "Brute. Genius."
-	},
-	{
-		"code": "45120",
-		"name": "Dark Beast",
-		"text": "[star] <b>Forced Interrupt</b>: When Dark Beast attacks you, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.\n<b>When Revealed</b>: Reveal a random set-aside environment and shuffle the rest of its encounter set into the encounter deck. Deal each player an encounter card.",
-		"traits": "Brute. Genius."
-	},
-	{
-		"code": "45121a",
-		"name": "Dark Beast's Bogus Journey",
-		"text": "<b>Contents</b>: Dark Beast (I) and Dark Beast (II). <i>(Dark Beast (II) and Dark Beast (III) for expert mode.)</i> Dark Beast, Blue Moon, Genosha, Savage Land, and Standard sets. One modular set <i>(Dystopian Nightmare)</i>.\n<b>Setup</b>: Set the Blue Moon, Genosha, and Savage Land sets aside <i>(including each environment card in those sets)</i>. In expert mode, reveal the High-Tech Goggles attachment."
-	},
-	{
-		"code": "45121b",
-		"flavor": "Dark Beast activates his time machine to ensure the rise of Apocalypse, but your quick action ruins his calculations. You wrestle for control of the device as it transports you through time and space!",
-		"name": "Dark Beast's Bogus Journey",
-		"text": "<b>If this stage is completed, the players lose the game.</b>"
-	},
-	{
-		"code": "45122",
-		"name": "High-Tech Goggles",
-		"text": "Attach to Dark Beast.\n<b>Hero Action</b>: Exhaust your hero and resolve the \"<b>Special</b>\" ability on the [[Setting]] environment. → discard this card.\n<hr />\n[star] <b>Boost</b>: Attach this card to Dark Beast.",
-		"traits": "Tech."
-	},
-	{
-		"code": "45123",
-		"name": "Genetic Enhancement",
-		"text": "Attach to Dark Beast.\n<b>Hero Action</b>: Exhaust your hero and resolve the \"<b>Special</b>\" ability on the [[Setting]] environment. → discard this card.\n<hr />\n[star] <b>Boost</b>: Attach this card to Dark Beast.",
-		"traits": "Condition."
-	},
-	{
-		"code": "45124",
-		"flavor": "\"I could do this with anesthesia, but what fun would that be?\" —Dark Beast",
-		"name": "Cruel Experiment",
-		"text": "Attached minion gets +2 hit points and gains guard.\n<b>When Revealed</b>: Discard cards from the top of the encounter deck until you discard a minion. Reveal that minion and attach Cruel Experiment to it.",
-		"traits": "Condition."
-	},
-	{
-		"code": "45125",
-		"name": "Evil Genius",
-		"text": "<b>When Revealed (Alter-Ego)</b>: Dark Beast schemes. Give him a tough status card.\n<b>When Revealed (Hero)</b>: Dark Beast attacks you. Give him an additional boost card for this attacks."
-	},
-	{
-		"code": "45126",
-		"name": "Time-Travel Shenanigans",
-		"text": "<b>When Defeated</b>: The player who defeated this scheme discards cards from the top of the encounter deck until they discard a card from the same encounter set as the [[Setting]] environment and reveals the just-discarded card."
-	},
-	{
-		"code": "45127",
-		"name": "The Savage Land",
-		"text": "Setup.\nThe villain gains retaliate 1.\n<b>Special</b>: Discard the top 3 cards of your deck.\n<b>When Revealed</b>: Discard each other [[Setting]] environment in play.",
-		"traits": "Location. Setting."
-	},
-	{
-		"code": "45128",
-		"name": "Pterosaur",
-		"text": "<b>When Revealed</b>: Resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.\n<hr />\n[star] <b>Boost</b>: If The Savage Land is in play, deal Pterosaur to yourself as a facedown encounter card.",
-		"traits": "Aerial. Creature."
-	},
-	{
-		"code": "45129",
-		"name": "Velociraptor",
-		"text": "Quickstrike.\n[star] <b>Forced Interrupt</b>: When Velociraptor attacks you, discard the top card of your deck. Velociraptor gets +1 ATK for this attack for each resource icon discarded this way.",
-		"traits": "Creature."
-	},
-	{
-		"code": "45130",
-		"flavor": "\"This is why you don't feed the animals!\" —Jubilee",
-		"name": "Giant Ape",
-		"text": "Guard.\n<b>When Defeated</b>: The player who defeated Giant Ape resolves the \"<b>Special</b>\" ability on the [[Setting]] environment.",
-		"traits": "Creature."
-	},
-	{
-		"code": "45131",
-		"flavor": "The Savage Land is exactly what you'd expect from a prehistoric jungle in the middle of Antarctica.",
-		"name": "Land Out of Time",
-		"text": "<b>When Revealed</b>: If the Savage Land is in play, resolve its \"<b>Special</b>\" ability and take 1 indirect damage for each resource icon on the discarded cards. Otherwise, find The Savage Land and reveal it."
-	},
-	{
-		"code": "45132",
-		"flavor": "\"We need ta save the village from those dinosaurs! (is something Ah never imagined saying.)\" —Rogue",
-		"name": "Village Under Attack",
-		"text": "Hinder 1[per_hero].\n<b>When Defeated</b>: Each player resolves the \"<b>Special</b>\" ability on the [[Setting]] environment."
-	},
-	{
-		"code": "45133",
-		"name": "Genosha",
-		"text": "Setup.\nThe villain gains steady.\n<b>Special</b>: Place 1 threat on the main scheme.\n<b>When Revealed</b>: Discard each other [[Setting]] environment in play.",
-		"traits": "Location. Setting."
-	},
-	{
-		"code": "45134",
-		"name": "Magistrate",
-		"text": "Patrol.\n<b>When Defeated</b>: The defeating player finds Escaped Mutant and attaches it to their identity.\n<hr />\n[star] <b>Boost</b>: If Escaped Mutant is attached to your identity, this card gains [boost][boost][boost].",
-		"traits": "Genosha."
-	},
-	{
-		"code": "45135",
-		"flavor": "\"I have the mutant's signal. Moving to intercept.\"",
-		"name": "Armored Unibike",
-		"text": "Armored Unibike engages the player with Escaped Mutant attached, if able.\n[star] <b>Forced Response</b>: After Armored Unibike attacks, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.",
-		"traits": "Genosha. Vehicle."
-	},
-	{
-		"code": "45136",
-		"flavor": "\"Their suits are built to counter our powers.\" —Storm",
-		"name": "Genoshan Mech",
-		"text": "Guard. Toughness.\n[star] <b>Forced Response</b>: After Genoshan Mech attacks and defeats one of your allies, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment twice.",
-		"traits": "Genosha. Vehicle."
-	},
-	{
-		"code": "45137",
-		"flavor": "Mutants who wish to escape Genosha must find a way to evade the magistrate.",
-		"name": "Escaped Mutant",
-		"text": "Attach to your identity.\nEach [[Genosha]] minion that engages you gains quickstrike.\n<b>Alter-Ego Action</b>: Resolve the \"<b>Special</b>\" ability on the [[Setting]] environment → discard this card."
-	},
-	{
-		"code": "45138",
-		"flavor": "Genosha built its wealth by exploiting its mutant population.",
-		"name": "Police State",
-		"text": "Hinder 1[per_hero].\n<b>When Defeated</b>: The player who defeated this scheme finds the Escaped Mutant attachment and reveals it."
-	},
-	{
-		"code": "45139",
-		"name": "Blue Area of the Moon",
-		"text": "Setup.\nEach minion gains guard.\n<b>Special</b>: Deal 1 damage to your identity.\n<b>When Revealed</b>: Discard each other [[Setting]] environment in play.",
-		"traits": "Location. Setting."
-	},
-	{
-		"code": "45140",
-		"name": "Gladiator",
-		"text": "Teamwork ([[Imperial Guard]]).\nWhile Trial by Combat is in play, Gladiator cannot take damage.\n<hr />\n[star] <b>Boost</b>: If Trial by Combat is in play, deal Gladiator by yourself as a facedown encounter card.",
-		"traits": "Elite. Imperial Guard."
-	},
-	{
-		"code": "45141",
-		"flavor": "\"This is not a fight you can win.\"",
-		"name": "Oracle",
-		"text": "Teamwork ([[Imperial Guard]]).\n<b>When Revealed</b>: You are confused. If you were already confused, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.",
-		"traits": "Imperial Guard."
-	},
-	{
-		"code": "45142",
-		"name": "Manta",
-		"text": "Teamwork ([[Imperial Guard]]).\n<b>When Revealed</b>: You are stunned. If you were already stunned, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.",
-		"traits": "Imperial Guard."
-	},
-	{
-		"code": "45143",
-		"flavor": "\"Let me shake things up!\"",
-		"name": "Earthquake",
-		"text": "Teamwork ([[Imperial Guard]]).\n<b>When Revealed</b>: Exhaust your identity. If you were already exhausted, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.",
-		"traits": "Imperial Guard."
-	},
-	{
-		"code": "45144",
-		"name": "Warstar",
-		"text": "Teamwork ([[Imperial Guard]]).\n<b>When Revealed</b>: Discard the top card of the encounter deck. If that card is an [[Imperial Guard]] minion, reveal it. Otherwise, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.",
-		"traits": "Imperial Guard."
-	},
-	{
-		"code": "45145",
-		"name": "Imperial Guardsman",
-		"text": "Attach to a minion. Otherwise, this card gains surge.\nAttached minion gets +4 hit points and gains the [[Imperial Guard]] trait.\n<b>Forced Interrupt</b>: When attached minion is defeated, resolve the \"<b>Special</b>\" ability on the [[Setting]] environment.",
-		"traits": "Title."
-	},
-	{
-		"code": "45146",
-		"flavor": "Shi'ar law grants the accused an opportunity to defend themselves, but they must battle the Imperial Guard.",
-		"name": "Trial by Combat",
-		"text": "Hinder 1[per_hero].\n<b>When Defeated</b>: Shuffle each [[Imperial Guard]] minion in the encounter discard pile into the encounter deck."
-	},
-	{
-		"code": "45147a",
-		"name": "En Sabah Nur's Pyramid",
-		"text": "<b>Contents</b>: Apocalypse (I) and Apocalypse (II). <i>(Apocalypse (II) and Apocalypse (III) for expert mode.)</i> En Sabah Nur and Standard sets. Two modular sets <i>(Celestial Tech and Clan Akkaba)</i>.\n<b>Setup</b>: Apocalypse begins the game in [[Biomorph]] form. Deal each player a facedown encounter card."
-	},
-	{
-		"code": "45147b",
-		"flavor": "Within his high-tech pyramid, Apocalypse prepares for his ascension.",
-		"name": "En Sabah Nur's Pyramid",
-		"text": "[star] <b>Forced Response</b>: After resolving step 1 of the villain phase, place 1 power counter here. If there are at least 4 power counters here, the first player removes 4 of them and discards cards from the top of the encounter deck until a [[Superpower]] card is discarded and reveal it."
-	},
-	{
-		"code": "45148a",
-		"flavor": "You've seen what the future looks like if Apocalypse's influence is allowed to grow. It's up to you to stop the megalomaniac here and now!",
-		"name": "The Rise of Apocalypse",
-		"text": "<b>When Revealed</b>: The first player discards cards from the top of the encounter deck until a [[Superpower]] card is discarded and reveals it."
-	},
-	{
-		"code": "45148b",
-		"name": "The Rise of Apocalypse",
-		"text": "[star] <b>Forced Response</b>: After resolving step 1 of the villain phase, place 1 power counter here. If there are at least 4 power counters here, the first player removes 4 of them and discards cards from the top of the encounter deck until a [[Superpower]] card is discarded and reveals it.\n<b>If this scheme is completed, the players lose the game.</b>"
-	},
-	{
-		"code": "45149",
-		"name": "Staggering Strength",
-		"text": "Attach to Apocalypse and change him to [[Giant]] form.\n[star] <b>Forced Interrupt</b>: When Apocalypse attacks you, you are stunned. Discard this card after this activation.\n<hr />\n[star] <b>Boost</b>: After this activation, reveal this card.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "45150",
-		"name": "Biomorphic Blast",
-		"text": "<b>When Revealed</b>: If Apocalypse is in [[Biomorph]] form, he activates against you. Otherwise, change Apocalypse to [[Biomorph]] form and place 1 power counter on the main scheme.\n<hr />\n[star] <b>Boost</b>: After this activation, change Apocalypse to [[Biomorph]] form.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "45151",
-		"name": "Technological Interface",
-		"text": "<b>When Revealed</b>: If Apocalypse is in [[Cyberpath]] form, he activates against you. Otherwise, change Apocalypse to [[Cyberpath]] form and place 1 power counter on the main scheme.\n<hr />\n[star] <b>Boost</b>: After this activation, change Apocalypse to [[Cyberpath]] form.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "45152",
-		"name": "Giant-Sized Despot",
-		"text": "<b>When Revealed</b>: If Apocalypse is in [[Giant]] form, he activates against you. Otherwise, change Apocalypse to [[Giant]] form and place 1 power counter on the main scheme.\n<hr />\n[star] <b>Boost</b>: After this activation, change Apocalypse to [[Giant]] form.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "45153",
-		"name": "Source of Power",
-		"text": "<b>When Defeated</b>: If Apocalypse is in [[Biomorph]] form, he activates against the player who defeated this scheme. Otherwise, change Apocalypse to [[Biomorph]] form and give him a tough status card.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "45154",
-		"name": "Plugged In",
-		"text": "<b>When Defeated</b>: If Apocalypse is in [[Cyberpath]] form, he activates against the player who defeated this scheme. Otherwise, change Apocalypse to [[Cyberpath]] form and give him a tough status card.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "45155",
-		"name": "Giant Growth",
-		"text": "<b>When Defeated</b>: If Apocalypse is in [[Giant]] form, he activates against the player who defeated this scheme. Otherwise, change Apocalypse to [[Giant]] form and give him a tough status card.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "45156",
-		"name": "Celestial Armor",
-		"text": "Attach to the villain.\n[star] <b>Forced Interrupt</b>: When the villain schemes against you, discard the top card of your deck. If that card's resource has:\n[energy] — Heal 2 damage from the villain.\n[mental] — You are confused. Discard this card.\n[physical] — Give the villain a tough status card.\n[wild] — Do all of the above.",
-		"traits": "Armor. Celestial."
-	},
-	{
-		"code": "45157",
-		"name": "Celestial Weapon",
-		"text": "Attach to the villain.\n[star] <b>Forced Interrupt</b>: When the villain attacks you, discard the top card of your deck. If that card's resource has:\n[energy] — Deal 2 damage to your identity.\n[mental] — Discard a card from your hand.\n[physical] — You are stunned. Discard this card.\n[wild] — Do all of the above.",
-		"traits": "Celestial. Weapon."
-	},
-	{
-		"code": "45158",
-		"name": "Celestial Tech",
-		"text": "<b>When Revealed</b>: For each [[Celestial]] attachment in play, resolve its effect as if the attached villain just schemed against you and attacked you. If there are no [[Celestial]] attachments on the villain, search the encounter deck and discard pile for a [[Celestial]] attachment and reveal it. <i>(Shuffle.)</i>"
-	},
-	{
-		"code": "45159",
-		"name": "Ozymandias",
-		"text": "Toughness. Villainous.\n[star] When Ozymandias schemes, place the threat on Ancient Ritual.\n<hr />\n[star] <b>Boost</b>: Choose: Either place 3 threat on Ancient Ritual, or this card gains [boost][boost][boost].",
-		"traits": "Clan Akkaba. Elite."
-	},
-	{
-		"code": "45160",
-		"name": "Scarab",
-		"text": "Quickstrike.\n[star] <b>Forced Response</b>: After Scarab attacks, place 1 threat on Ancient Ritual (3 threat instead if the attack defeated an ally).",
-		"traits": "Clan Akkaba."
-	},
-	{
-		"code": "45161",
-		"name": "Clan Akkaba Zealot",
-		"text": "Guard.\n<b>When Defeated</b>: Place 2 threat on Ancient Ritual.\n<hr />\n[star] <b>Boost</b>: Place 1 threat on Ancient Ritual.",
-		"traits": "Clan Akkaba."
-	},
-	{
-		"code": "45162",
-		"flavor": "Clan Akkaba has dedicated itself completely to its lord's merciless doctrine.",
-		"name": "Tyrant Worship",
-		"text": "<b>When Revealed</b>: Place 5 threat on Ancient Ritual.\n<hr />\n[star] <b>Boost</b>: Choose: Either place 3 threat on Ancient Ritual, or this card gains [boost][boost][boost]."
-	},
-	{
-		"code": "45163",
-		"flavor": "\"Not sure what they're doing, but I'm sure it's not good.\" —Iceman",
-		"name": "Ancient Ritual",
-		"text": "Permanent. Setup.\n<b>Forced Response</b>: After threat is placed here, if there is at least 10 threat here, remove 5 threat from this scheme and deal each player a facedown encounter card."
-	},
-	{
-		"code": "45164",
-		"name": "Agent of Apocalypse",
-		"text": "Guard.\n<b>When Revealed</b>: Choose: Either add Agent of Apocalypse to the mission area, or it activates against you.\n<hr />\n[star] <b>Boost</b>: Deal 1 damage to an ally at the mission. Give the activating enemy an additional boost card.",
-		"traits": "Clan Akkaba."
-	},
-	{
-		"code": "45165",
-		"name": "Worldwide Crisis",
-		"text": "<b>When Revealed</b>: Choose: Either place 3 threat on the [[Mission]] side scheme, or take 1 damage and this card gains surge.\n<hr />\n[star] <b>Boost</b>: Place 1 threat on the [[Mission]] side scheme. Give the activating enemy an additional boost card."
-	},
-	{
-		"code": "45166a",
-		"name": "Liberate the Seattle Core",
-		"text": "<b>Forced Response</b>: After you resolve a mission attempt, place 1 attempt counter here and deal 1 damage to each ally at the mission. If there are 4 attempt counters here, remove Mission Team from the game and flip this card over.\n<b>When Defeated</b>: Shuffle each player card at the mission into its owner's deck. Flip Mission Team and this card over.",
-		"traits": "Mission."
-	},
-	{
-		"code": "45166b",
-		"name": "Liberate the Seattle Core",
-		"text": "<b>Forced Response</b>: After you flip to this side, remove each card in the mission area from the game and do the following:\n• If the mission was not defeated, place 2[per_hero] threat on the main scheme.\n• If the mission was defeated, each player adds 1 copy of the Desperate Measures upgrade to their hand.",
-		"traits": "Finished."
-	},
-	{
-		"code": "45167a",
-		"name": "Evacuate Survivors",
-		"text": "<b>Forced Response</b>: After you resolve a mission attempt, place 1 attempt counter here and deal 1 damage to each ally at the mission. If there are 4 attempt counters here, remove Mission Team from the game and flip this card over.\n<b>When Defeated</b>: Shuffle each player card at the mission into its owner's deck. Flip Mission Team and this card over.",
-		"traits": "Mission."
-	},
-	{
-		"code": "45167b",
-		"name": "Evacuate Survivors",
-		"text": "<b>Forced Response</b>: After you flip to this side, remove each card in the mission area from the game and do the following:\n• If the mission was not defeated, deal each player a facedown encounter card.\n• If the mission was defeated, each player searches their deck and discard pile for 1 card and adds it to their hand.",
-		"traits": "Finished."
-	},
-	{
-		"code": "45168a",
-		"name": "Sabotage the Sea Wall",
-		"text": "<b>Forced Response</b>: After you resolve a mission attempt, place 1 attempt counter here and deal 1 damage to each ally at the mission. If there are 4 attempt counters here, remove Mission Team from the game and flip this card over.\n<b>When Defeated</b>: Shuffle each player card at the mission into its owner's deck. Flip Mission Team and this card over.",
-		"traits": "Mission."
-	},
-	{
-		"code": "45168b",
-		"name": "Sabotage the Sea Wall",
-		"text": "<b>Forced Response</b>: After you flip to this side, remove each card in the mission area from the game and do the following:\n• If the mission was not defeated, find North American Sea Wall and reveal it. <i>(Shuffle.)</i>\n• If the mission was defeated, find North American Sea Wall, remove it from the game, and each player deals 3 damage to an enemy.",
-		"traits": "Finished."
-	},
-	{
-		"code": "45169a",
-		"name": "Find Lost Mutants",
-		"text": "<b>Forced Response</b>: After you resolve a mission attempt, place 1 attempt counter here and deal 1 damage to each ally at the mission. If there are 4 attempt counters here, remove Mission Team from the game and flip this card over.\n<b>When Defeated</b>: Shuffle each player card at the mission into its owner's deck. Flip Mission Team and this card over.",
-		"traits": "Mission."
-	},
-	{
-		"code": "45169b",
-		"name": "Find Lost Mutants",
-		"text": "<b>Forced Response</b>: After you flip to this side, remove each card in the mission area from the game and do the following:\n• If the mission was not defeated, each player discards 1 card from their hand.\n• If the mission was defeated, each player adds one set-aside campaign ally to their hand.",
-		"traits": "Finished."
-	},
-	{
-		"code": "45170a",
-		"name": "Protect the Professor",
-		"text": "<b>Forced Response</b>: After you resolve a mission attempt, place 1 attempt counter here and deal 1 damage to each ally at the mission. If there are 4 attempt counters here, remove Mission Team from the game and flip this card over.\n<b>When Defeated</b>: Shuffle each player card at the mission into its owner's deck. Flip Mission Team and this card over.",
-		"traits": "Mission."
-	},
-	{
-		"code": "45170b",
-		"name": "Protect the Professor",
-		"text": "<b>Forced Response</b>: After you flip to this side, remove each card in the mission area from the game and do the following:\n• If the mission was not defeated, the players lose the game.\n• If the mission was defeated, each player searches their deck and discard pile for an ally and adds it to their hand.",
-		"traits": "Finished."
-	},
-	{
-		"code": "45177",
-		"flavor": "Apocalypse's high-tech sea wall protects the eastern frontier of his realm.",
-		"name": "North American Sea Wall",
-		"text": "Hinder 2[per_hero]. Surge. Victory 2.\nThe villain cannot take damage.\n<hr />\n[star] <b>Boost</b>: Deal this card to yourself as a facedown encounter card."
-	},
-	{
-		"code": "45178",
-		"name": "Panicked Refugees",
-		"text": "<b>Forced Response</b>: After this card enters your hand, reveal it. Then, draw 1 card.\n<b>Alter-Ego Action</b>: Exhaust your identity → remove this card from the game."
-	},
-	{
-		"code": "45179a",
-		"name": "Mister Sinister",
-		"text": "Victory 5.\nCannot take damage while another minion is at the mission.\nPlayers cannot assign cards with the same resource icon ([energy], [mental], [physical], or [wild]) to more than one ally each mission attempt.",
-		"traits": "Elite. Overseer."
-	},
-	{
-		"code": "45179b",
-		"name": "Mister Sinister",
-		"text": "Retaliate 1. Toughness. Villainous. Victory 3.\nMister Sinister engages the first player.",
-		"traits": "Elite. Prelate."
-	},
-	{
-		"code": "45180a",
-		"name": "The Shadow King",
-		"text": "Victory 5.\nCannot take damage while another minion is at the mission.\n<b>Mission Response</b>: After you discard cards, place 2 threat on the [[Mission]] side scheme for each mental resource ([mental]) discarded.",
-		"traits": "Elite. Overseer."
-	},
-	{
-		"code": "45180b",
-		"name": "The Shadow King",
-		"text": "Toughness. Victory 3.\nShadow King engages the first player.\n[star] <b>Forced Response</b>: After The Shadow King attacks you, choose an ally you control with the highest THW. Either discard that ally, or place threat on the main scheme equal to its THW.",
-		"traits": "Elite. Prelate."
-	},
-	{
-		"code": "45181a",
-		"name": "Abyss",
-		"text": "Victory 5.\nCannot take damage while another minion is at the mission.\n<b>Mission Response</b>: After you discard cards, attach each card with a wild resource ([wild]) discarded to Abyss facedown. <i>(They cannot be used for the mission attempt.)</i>",
-		"traits": "Elite. Overseer."
-	},
-	{
-		"code": "45181b",
-		"name": "Abyss",
-		"text": "Toughness. Victory 3.\nAbyss gets +2 hit points for each facedown card attached to him and engages the first player.\n[star] <b>Forced Response</b>: After Abyss activates against you, attach the top card of your deck to him, facedown.",
-		"traits": "Elite. Prelate."
-	},
-	{
-		"code": "45182a",
-		"name": "Sugar Man",
-		"text": "Victory 5.\nCannot take damage while another minion is at the mission.\n<b>Mission Response</b>: After you discard cards, heal 3 damage from Sugar Man for each physical resource ([physical]) discarded.",
-		"traits": "Elite. Overseer."
-	},
-	{
-		"code": "45182b",
-		"name": "Sugar Man",
-		"text": "Toughness. Victory 3.\nSugar Man engages the first player.\n[star] <b>Forced Interrupt</b>: When Sugar Man attacks, this attack gains piercing. If this attack defeats a character, heal 5 damage from Sugar Man.",
-		"traits": "Elite. Prelate."
-	},
-	{
-		"code": "45183a",
-		"name": "Mikhail Rasputin",
-		"text": "Victory 5.\nCannot take damage while another minion is at the mission.\n<b>Mission Response</b>: After you discard cards, deal 1 damage to an ally at the mission for each energy resource ([energy]) discarded.",
-		"traits": "Elite. Overseer."
-	},
-	{
-		"code": "45183b",
-		"name": "Mikhail Rasputin",
-		"text": "Toughness. Victory 3.\nMikhail Rasputin engages the first player.\n[star] <b>Forced Interrupt</b>: When Mikhail Rasputin attacks you, deal 1 damage to your identity.",
-		"traits": "Elite. Prelate."
-	},
-	{
-		"code": "45184a",
-		"flavor": "\"Now I claim my destiny!\"",
-		"name": "Apocalypse",
-		"text": "[star] Apocalypse's attacks gain overkill.\n<b>Forced Response</b>: After Apocalypse changes to this form, deal 1 indirect damage to each player.",
-		"traits": "Mutant. Biomorph."
-	},
-	{
-		"code": "45184b",
-		"flavor": "\"I have judged you and found you wanting.\"",
-		"name": "Apocalypse",
-		"text": "Retaliate 1.\n<b>Forced Response</b>: After Apocalypse changes to this form, place 1 threat on each scheme in play.",
-		"traits": "Mutant. Cyberpath."
-	},
-	{
-		"code": "45184c",
-		"flavor": "\"I am as far beyond mutants as they are above humans.\"",
-		"name": "Apocalypse",
-		"text": "Stalwart.\n<b>Forced Response</b>: After Apocalypse changes to this form, heal 1 damage from him.",
-		"traits": "Mutant. Giant."
-	},
-	{
-		"code": "45185a",
-		"flavor": "\"Now I claim my destiny!\"",
-		"name": "Apocalypse",
-		"text": "[star] Apocalypse's attacks gain overkill.\n<b>Forced Response</b>: After Apocalypse changes to this form, deal 2 indirect damage to each player.",
-		"traits": "Mutant. Biomorph."
-	},
-	{
-		"code": "45185b",
-		"flavor": "\"I have judged you and found you wanting.\"",
-		"name": "Apocalypse",
-		"text": "Retaliate 1.\n<b>Forced Response</b>: After Apocalypse changes to this form, place 2 threat on each scheme in play.",
-		"traits": "Mutant. Cyberpath."
-	},
-	{
-		"code": "45185c",
-		"flavor": "\"I am as far beyond mutants as they are above humans.\"",
-		"name": "Apocalypse",
-		"text": "Stalwart.\n<b>Forced Response</b>: After Apocalypse changes to this form, heal 2 damage from him.",
-		"traits": "Mutant. Giant."
-	},
-	{
-		"code": "45186a",
-		"flavor": "\"Now I claim my destiny!\"",
-		"name": "Apocalypse",
-		"text": "[star] Apocalypse's attacks gain overkill.\n<b>Forced Response</b>: After Apocalypse changes to this form, deal 3 indirect damage to each player.",
-		"traits": "Mutant. Biomorph."
-	},
-	{
-		"code": "45186b",
-		"flavor": "\"I have judged you and found you wanting.\"",
-		"name": "Apocalypse",
-		"text": "Retaliate 1.\n<b>Forced Response</b>: After Apocalypse changes to this form, place 3 threat on each scheme in play.",
-		"traits": "Mutant. Cyberpath."
-	},
-	{
-		"code": "45186c",
-		"flavor": "\"I am as far beyond mutants as they are above humans.\"",
-		"name": "Apocalypse",
-		"text": "Stalwart.\n<b>Forced Response</b>: After Apocalypse changes to this form, heal 3 damage from him.",
-		"traits": "Mutant. Giant."
-	}
+    {
+        "code": "45025",
+        "name": "Temere il Futuro",
+        "text": "<b><i>Fai riceve al giocatore Lucas Bishop.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n• Esaurisci Lucas Bishop → rimuovi dal gioco Temere il Futuro.\n• Scarta questa carta e ogni carta risorsa dalla tua mano. Se nessuna carta risorsa viene scartata in questo modo, questa carta ottiene Impulso."
+    },
+    {
+        "code": "45026",
+        "name": "Trevor Fitzroy",
+        "text": "Colpo Rapido.\n<b>Risposta Obbligata</b>: Dopo che Trevor Fitzroy ha attaccato e sconfitto un alleato, se Portale Attraverso il Tempo è in gioco, colloca 2 minacce su di esso. Altrimenti, trovalo e rivelalo.\n<i>(Gregario nemesi di Alfiere.)</i>",
+        "traits": "Elite. Temporale."
+    },
+    {
+        "code": "45027",
+        "flavor": "Trevor Fitzroy sfrutti i suoi portali temporali per commettere crimini e sfuggire alla giustizia.",
+        "name": "Portale Attraverso il Tempo",
+        "text": "<b>Interruzione Obbligata</b>: Quando viene rivelata una carta [[TEMPORALE]], ottiene Impulso. (Limite di una volta per fase.)"
+    },
+    {
+        "code": "45028",
+        "flavor": "\"È tempo di andare, Trevor.\"",
+        "name": "Bantam",
+        "text": "<b>Quando Rivelata</b>: Se Portale Attraverso il Tempo è in gioco, colloca 2 minacce su di esso. Altrimenti, trovalo e rivelalo.",
+        "traits": "Temporale."
+    },
+    {
+        "code": "45029",
+        "flavor": "\"Ecco perché amo i viaggi nel tempo: potrei rapinare questa banca altre mille volte e avrebbero sempre la stessa espressione sorpresa.\" — Trevor Fitzroy",
+        "name": "Trucchetto Temporale",
+        "text": "<b>Quando Rivelata</b>: Scarta dalla tua mano la carta con più icone risorsa stampate. Colloca su ogni trama 1 minaccia per ogni icona risorsa stampata su quella carta.",
+        "traits": "Temporale."
+    },
+    {
+        "code": "45053",
+        "name": "Darkchilde",
+        "text": "<b><i>Fai ricevere al giocatore Illyana Rasputin.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n• Esaurisci Illyana Rasputin → rimuovi dal gioco Darkchilde.\n• Infliggi 1 danno a ogni personaggio che controlli. Scarta questa incombenza."
+    },
+    {
+        "code": "45054",
+        "name": "Belasco",
+        "text": "Criminoso.\n[star] <b>Risposta Obbligata</b>: Dopo che Belasco si è attivato contro di te, scarta 3 carte dalla cima del tuo mazzo. Se Regnante del Limbo è in gioco, assegna a faccia in giù quelle carte a esso.\n<i>(Gregario nemesi di Magik.)</i>",
+        "traits": "Elite. Limbo."
+    },
+    {
+        "code": "45055",
+        "name": "Regnante del Limbo",
+        "text": "Mentre Belasco è in gioco, non è possibile rimuovere minacce da questa trama.\n<b>Quando Rivelata</b>: Il giocatore Illyana Rasputin trova Limbo e lo assegna a faccia in giù a questa carta. Quando questa trama è sconfitta, metti in gioco Limbo sotto il controllo del suo proprietario."
+    },
+    {
+        "code": "45056",
+        "flavor": "\"Il capo ha detto che non ne può più di vederti ficcare il naso in giro.\"",
+        "name": "S'ym",
+        "text": "Guardia.\n<b>Quando Rivelata</b>: Se Regnante del Limbo è in gioco, colloca 2 minacce su di essa. Altrimenti, colloca 2 minacce sulla trama principale.",
+        "traits": "Limbo."
+    },
+    {
+        "code": "45057",
+        "flavor": "\"Il Limbo è mio di diritto!\"",
+        "name": "Witchfire",
+        "text": "Colpo Rapido.\n<b>Risposta Obbligata</b>: Dopo che Witchfire ha attaccato e sconfitto 1 alleato, colloca 1 minaccia su Regnante del Limbo. Altrimenti, colloca 1 minaccia sulla trama principale.",
+        "traits": "Limbo."
+    },
+    {
+        "code": "45058",
+        "name": "Battaglia per il Limbo",
+        "text": "<b>Quando Rivelata</b>: Ogni gregario [[LIMBO]] in gioco si attiva contro il giocatore con cui è impegnato. Se nessun gregario [[LIMBO]] si è attivato in questo modo, questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Se Regnante del Limbo è in gioco, colloca 2 minacce su di essa."
+    },
+    {
+        "code": "45059",
+        "name": "Unus (I)",
+        "text": "Robustezza.\nSe l'ammontare di minacce su Patrimonio Genetico è pari o superiore a:\n• 3 — Unus ottiene Ritorsione 1.\n• 6 — Unus ottiene anche Stabile.\n• 9 — Unus ottiene anche 1 icona [amplify].",
+        "traits": "Prelato."
+    },
+    {
+        "code": "45060",
+        "name": "Unus (II)",
+        "text": "Robustezza.\nSe l'ammontare di minacce su Patrimonio Genetico è pari o superiore a:\n• 3 — Unus ottiene Ritorsione 1.\n• 6 — Unus ottiene anche Stabile.\n• 9 — Unus ottiene anche 1 icona [amplify].",
+        "traits": "Prelato."
+    },
+    {
+        "code": "45061",
+        "name": "Unus (III)",
+        "text": "Robustezza.\nSe l'ammontare di minacce su Patrimonio Genetico è pari o superiore a:\n• 3 — Unus ottiene Ritorsione 1.\n• 6 — Unus ottiene anche Stabile.\n• 9 — Unus ottiene anche 1 icona [amplify].",
+        "traits": "Prelato."
+    },
+    {
+        "back_text": "<b>Contenuto</b>: Unus (I) e Unus (II). <i>(Unus (II) e Unus (III) invece per la modalità esperto.)</i> Set di incontri Unus, Infiniti, e Standard. 1 set di incontri modulare <i>(Incubo Distopico)</i>.\n<b>Preparazione</b>: Rivela la trama secondaria Patrimonio Genetico. In modalità esperto, distribuisci 1 carta incontro a faccia in giù a ogni giocatore.",
+        "code": "45062",
+        "flavor": "Il Prelato Unus e la sua squadra di Infiniti setacciano le rovine di Villa-X in cerca dei nemici di Apocalisse.",
+        "name": "Caccia ai Traditori Genetici",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo aver risolto il passo 1 della Fase del Criminale, colloca 1 minaccia su Patrimonio Genetico.\n<b>Se questa trama è completata, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "45063",
+        "name": "Arma Secondaria del Prelato",
+        "text": "Assegna a Unus.\n[star] <b>Risposta Obbligata</b>: Dopo che Unus ha attaccato e sconfitto un alleato, colloca 1 minaccia su Patrimonio Genetico.\n<b>Risposta Eroe</b>: Dopo che hai effettuato un attacco base contro Unus, spendi [energy] [physical] → scarta questa carta.",
+        "traits": "Arma."
+    },
+    {
+        "code": "45064",
+        "name": "Armatura del Prelato",
+        "text": "Assegna a Unus.\n[star] <b>Risposta Obbligata</b>: Dopo che Unus ha tramato, irrobustiscilo.\n<b>Risposta Eroe</b>: Dopo che hai effettuato un attacco base contro Unus, spendi [mental] [physical] → scarta questa carta.",
+        "traits": "Armatura."
+    },
+    {
+        "code": "45065",
+        "name": "Cacciatore Infinito",
+        "text": "<b>Quando Rivelata</b>: Infliggi 3 danni a un alleato che controlli.\n<hr />\n[star] <b>Potenziamento</b>: Scegli se collocare 2 minacce su Patrimonio Genetico oppure far ricevere al nemico che si sta attivando +2 TRA e +2 ATT per questa attivazione.",
+        "traits": "Infinito."
+    },
+    {
+        "code": "45066",
+        "name": "Esperimenti Genetici",
+        "text": "Assegna a un gregario [[INFINITO]]. Altrimenti, questa carta ottiene Impulso.\nIl gregario con questa aggiunta riceve +2 punti ferita.\n<b>Interruzione Obbligata</b>: Quando il gregario con questa aggiunta è sconfitto, colloca 2 minacce su Patrimonio Genetico.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta a un gregario [[INFINITO]].",
+        "traits": "Condizione."
+    },
+    {
+        "code": "45067",
+        "name": "Prelato Infinito",
+        "text": "<b>Quando Rivelata</b>: Unus si attiva contro di te. Se l'ammontare di minacce su Patrimonio Genetico è pari o superiore a:\n• 3 — Irrobustisci Unus.\n• 6 — Curagli anche 2 danni.\n• 9 — Fagli anche ricevere 1 carta potenziamento aggiuntiva per questa attivazione."
+    },
+    {
+        "code": "45068",
+        "flavor": "Gli Infiniti sono degni del nome che portano: non importa quanti ne vengano sconfitti, continuano ad arrivarne altri.",
+        "name": "Ranghi Senza Fine",
+        "text": "<b>Quando Sconfitta</b>: Colloca 3 minacce su Patrimonio Genetico."
+    },
+    {
+        "code": "45069",
+        "name": "Soldato Infinito",
+        "text": "Guardia.\nSe l'ammontare di minacce su Patrimonio Genetico è pari o superiore a:\n• 3 — Questo gregario ottiene Colpo Rapido.\n• 6 — Questo gregario ottiene anche Impulso.\n• 9 — Questo gregario riceve anche +3 punti ferita.",
+        "traits": "Infinito."
+    },
+    {
+        "code": "45070",
+        "flavor": "Gli Infiniti sono stati creati per far rispettare la legge di Apocalisse: i deboli devono morire.",
+        "name": "Eliminare i Deboli",
+        "text": "<b>Quando Rivelata</b>: Colloca 4 minacce su Patrimonio Genetico.\n<hr />\n[star] <b>Potenziamento</b>: Colloca 2 minacce su Patrimonio Genetico."
+    },
+    {
+        "code": "45071",
+        "flavor": "Apocalisse sfrutta il materiale genetico grezzo delle sue vittime per creare gli Infiniti.",
+        "name": "Patrimonio Genetico",
+        "text": "Permanente. Preparazione.\n<b>Risposta Obbligata</b>: Dopo che un alleato è stato sconfitto, a meno che non sia stato sconfitto per aver subito danni conseguenti, colloca 3 minacce su questa trama."
+    },
+    {
+        "code": "45072",
+        "name": "Braccato",
+        "text": "<b>Azione Alter Ego</b>: Scarta 1 carta dalla tua mano → scarta questa carta."
+    },
+    {
+        "code": "45073",
+        "name": "Stremato dalla Guerra",
+        "text": "<b>Quando Rivelata</b>: Sei stordito. Se eri già stordito, subisci 2 danni.\n<hr />\n[star] <b>Potenziamento</b>: Sei stordito. Se eri già stordito, subisci 2 danni."
+    },
+    {
+        "code": "45074",
+        "flavor": "Gli infiniti danno la caccia a chiunque il loro padrone consideri indegno.",
+        "name": "Designato allo Sterminio",
+        "text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama confonde la sua identità."
+    },
+    {
+        "code": "45075a",
+        "name": "Inseguito dal Passato",
+        "text": "Permanente. Preparazione.\n<b>Risposta Obbligata</b>: Dopo che hai collocato un gettone inseguimento su questa carta, se il numero di gettoni su questa carta è pari o superiore al numero dei giocatori +3, rimuovi ogni gettone da questa carta → se il tuo gregario nemesi è in gioco, si attiva contro di te. Altrimenti, gira questa carta."
+    },
+    {
+        "code": "45075b",
+        "name": "Inseguito dal Passato",
+        "text": "Permanente.\n<b>Risposta Obbligata</b>: Dopo che hai girato questa carta su questo lato, trova il tuo gregario nemesi e rivelalo. Cerca nelle carte messe da parte la tua trama secondaria nemesi e rivelala. Mescola il resto del tuo set nemesi messo da parte nel mazzo degli incontri. Gira questa carta."
+    },
+    {
+        "code": "45076",
+        "name": "Oscuri Propositi",
+        "text": "<b>Quando Rivelata</b>: Colloca 1 gettone inseguimento su Inseguito dal Passato. Poi, se ci sono gettoni su di esso, il criminale trama.\n[star] <b>Potenziamento</b>: Dopo che questa attivazione è stata risolta, colloca 1 gettone inseguimento su Inseguito dal Passato."
+    },
+    {
+        "code": "45077",
+        "name": "Assalto Subdolo",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Colloca 1 gettone inseguimento su Inseguito dal Passato. Poi, se ci sono gettoni su di esso, questa carta ottiene Impulso.\n<b>Quando Rivelata (Eroe)</b>: Colloca 1 gettone inseguimento su Inseguito dal Passato. Poi, se ci sono gettoni su di esso, il criminale ti attacca."
+    },
+    {
+        "code": "45078",
+        "name": "Alleanza Malvagia",
+        "text": "<b>Quando Rivelata</b>: Ogni gregario nemesi in gioco si attiva contro di te. Se nessun gregario si è attivato in questo modo, colloca 3 gettoni inseguimento su Inseguito dal Passato.\n[star] <b>Potenziamento</b>: Dopo che questa attivazione è stata risolta, colloca 1 gettone inseguimento su Inseguito dal Passato."
+    },
+    {
+        "code": "45079",
+        "name": "Inutile Nascondersi",
+        "text": "<b>Quando Rivelata</b>: Colloca 1 gettone inseguimento su Inseguito dal Passato. Poi, se ci sono gettoni su di esso, scarta 1 miglioria o supporto che controlli.\n<hr />\n[star] <b>Potenziamento</b>: Dopo che questa attivazione è stata risolta, colloca 1 gettone inseguimento su Inseguito dal Passato."
+    },
+    {
+        "code": "45080",
+        "name": "Sempre Più Vicino",
+        "text": "<b>Risposta Obbligata</b>: Dopo che il tuo turno è iniziato, scarta 1 carta dalla cima del tuo mazzo. Colloca 1 gettone inseguimento su Inseguito dal Passato per ogni icona risorsa stampata su quella carta.\n<b>Azione Alter Ego</b>: Scarta 1 carta specifica d'identità dalla tua mano → scarta questa carta."
+    },
+    {
+        "code": "45081a",
+        "name": "Guerra (A)",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che Guerra ti ha attaccato, se possiede punti ferita rimanenti, scarta 1 carta miglioria o supporto che controlli.\n<b>Mentre un altro criminale possiede punti ferita rimanenti, Guerra non può essere sconfitto.</b>",
+        "traits": "Cavaliere."
+    },
+    {
+        "code": "45081b",
+        "name": "Guerra (B)",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che Guerra ti ha attaccato, se possiede punti ferita rimanenti, scarta 1 carta miglioria o supporto che controlli.\n<b>Mentre un altro criminale possiede punti ferita rimanenti, Guerra non può essere sconfitto.</b>",
+        "traits": "Cavaliere."
+    },
+    {
+        "code": "45082a",
+        "name": "Carestia (A)",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che Carestia ti ha attaccato, se possiede punti ferita rimanenti, scarta 10 carte dalla cima del tuo mazzo.\n<b>Mentre un altro criminale possiede punti ferita rimanenti, Carestia non può essere sconfitta.</b>",
+        "traits": "Cavaliere."
+    },
+    {
+        "code": "45082b",
+        "name": "Carestia (B)",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che Carestia ti ha attaccato, se possiede punti ferita rimanenti, scarta 10 carte dalla cima del tuo mazzo.\n<b>Mentre un altro criminale possiede punti ferita rimanenti, Carestia non può essere sconfitta.</b>",
+        "traits": "Cavaliere."
+    },
+    {
+        "code": "45083a",
+        "name": "Pestilenza (A)",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che Pestilenza ti ha attaccato, se possiede punti ferita rimanenti, considera il riquadro di testo stampato della tua identità come se fosse vuoto <i>([[TRATTI]] esclusi)</i> fino all'inizio della prossima Fase del Criminale.\n<b>Mentre un altro criminale possiede punti ferita rimanenti, Pestilenza non può essere sconfitta.</b>",
+        "traits": "Cavaliere."
+    },
+    {
+        "code": "45083b",
+        "name": "Pestilenza (B)",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che Pestilenza ti ha attaccato, se possiede punti ferita rimanenti, considera il riquadro di testo stampato della tua identità come se fosse vuoto <i>([[TRATTI]] esclusi)</i> fino all'inizio della prossima Fase del Criminale.\n<b>Mentre un altro criminale possiede punti ferita rimanenti, Pestilenza non può essere sconfitta.</b>",
+        "traits": "Cavaliere."
+    },
+    {
+        "code": "45084a",
+        "name": "Morte (A)",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che Morte ti ha attaccato, se possiede punti ferita rimanenti, infliggi 1 danno a ogni personaggio che controlli.\n<b>Mentre un altro criminale possiede punti ferita rimanenti, Morte non può essere sconfitto.</b>",
+        "traits": "Aereo. Cavaliere."
+    },
+    {
+        "code": "45084b",
+        "name": "Morte (B)",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che Morte ti ha attaccato, se possiede punti ferita rimanenti, infliggi 1 danno a ogni personaggio che controlli.\n<b>Mentre un altro criminale possiede punti ferita rimanenti, Morte non può essere sconfitto.</b>",
+        "traits": "Aereo. Cavaliere."
+    },
+    {
+        "back_text": "<b>Contenuto</b>: Guerra (A), Carestia (A), Pestilenza (A), e Morte (A). Set di incontri I Quattro Cavalieri e Standard. 2 set di incontri modulari <i>(Incubo Distopico e Segugi)</i>.\n<b>Preparazione</b>: Mescola i 4 criminali [[CAVALIERE]], poi rivelali disponendoli in una fila da sinistra a destra. Colloca il gettone attivo sul criminale più a sinistra (vedi il regolamento). Ogni giocatore rivela 1 trama secondaria casuale dal set di incontri I Quattro Cavalieri.",
+        "code": "45085",
+        "flavor": "I Quattro Cavalieri sono i servitori più brutali di Apocalisse. Una squadra che unisce i propri poteri per colpire come un sol uomo.",
+        "name": "I Cavalieri di Apocalisse",
+        "text": "<b>Risposta Obbligata</b>: Dopo che un criminale si è attivato, sposta il gettone attivo sul criminale successivo.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "45086",
+        "flavor": "Guerra sfrutta le onde d'urto create dalle sue braccia per sbilanciare i suoi avversari.",
+        "name": "Le Devastazioni della Guerra",
+        "text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama scarta 1 carta miglioria o supporto che controlla."
+    },
+    {
+        "code": "45087",
+        "flavor": "A Carestia basta un tocco per prosciugare le energie del più forte dei mutanti.",
+        "name": "Tempo di Carestia",
+        "text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama scarta 10 carte dalla cima del suo mazzo."
+    },
+    {
+        "code": "45088",
+        "flavor": "Pestilenza sfrutta il suo potere per rendere i suoi nemici deboli e impotenti.",
+        "name": "Piaga e Pestilenza",
+        "text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama considera il riquadro di testo stampato della sua identità come se fosse vuoto ([[TRATTI]] esclusi) fino all'inizio della prossima Fase del Criminale."
+    },
+    {
+        "code": "45089",
+        "flavor": "L'ombra di Morte semina il terrore nei cuori delle sue prede.",
+        "name": "Lo Spettro della Morte",
+        "text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama infligge 1 danno a ogni personaggio che controlla."
+    },
+    {
+        "code": "45090",
+        "name": "Cavallo Dorato",
+        "text": "Assegna al criminale con meno punti ferita senza il tratto [[AEREO]].\nIl criminale con questa aggiunta ottiene il tratto [[AEREO]] ed è considerato possedere punti ferita rimanenti.\n<b>Risposta Eroe</b>: Dopo che hai attaccato il criminale con questa aggiunta, risolvi la sua \"<b>Risposta Obbligata</b>\" come se ti avesse appena attaccato → scarta questa carta.",
+        "traits": "Oggetto. Tecnologia."
+    },
+    {
+        "code": "45091",
+        "name": "Ali Metalliche",
+        "text": "Assegna a Morte e sposta il gettone attivo su di lui.\nMorte ottiene Ritorsione 1 ed è considerato possedere punti ferita rimanenti.\n<b>Risposta Eroe</b>: Dopo che hai attaccato Morte, risolvi la sua \"<b>Risposta Obbligata</b>\" come se ti avesse appena attaccato → scarta questa carta.",
+        "traits": "Oggetto. Tecnologia."
+    },
+    {
+        "code": "45092",
+        "name": "Cavaliere della Guerra",
+        "text": "<b>Quando Rivelata</b>: Cura 2 danni a Guerra e irrobustiscilo. Si attiva contro di te.\n<hr />\n[star] <b>Potenziamento</b>: Dopo questa attivazione, Guerra si attiva contro di te. Non far ricevere la carta potenziamento a Guerra per questa attivazione."
+    },
+    {
+        "code": "45093",
+        "name": "Cavaliere della Carestia",
+        "text": "<b>Quando Rivelata</b>: Cura 2 danni a Carestia e irrobustiscila. Si attiva contro di te.\n<hr />\n[star] <b>Potenziamento</b>: Dopo questa attivazione, Carestia si attiva contro di te. Non far ricevere la carta potenziamento a Carestia per questa attivazione."
+    },
+    {
+        "code": "45094",
+        "name": "Cavaliere della Pestilenza",
+        "text": "<b>Quando Rivelata</b>: Cura 2 danni a Pestilenza e irrobustiscila. Si attiva contro di te.\n<hr />\n[star] <b>Potenziamento</b>: Dopo questa attivazione, Pestilenza si attiva contro di te. Non far ricevere la carta potenziamento a Pestilenza per questa attivazione."
+    },
+    {
+        "code": "45095",
+        "name": "Cavaliere della Morte",
+        "text": "<b>Quando Rivelata</b>: Cura 2 danni a Morte e irrobustiscilo. Si attiva contro di te.\n<hr />\n[star] <b>Potenziamento</b>: Dopo questa attivazione, Morte si attiva contro di te. Non far ricevere la carta potenziamento a Morte per questa attivazione."
+    },
+    {
+        "code": "45096",
+        "name": "Cavalieri Inarrestabili",
+        "text": "<b>Quando Rivelata</b>: Risolvi la \"<b>Risposta Obbligata</b>\" del criminale attivo come se possedesse punti ferita rimanenti e ti avesse appena attaccato. Sposta il gettone attivazione sul criminale successivo e risolvine la \"<b>Risposta Obbligata</b>\" allo stesso modo."
+    },
+    {
+        "code": "45097",
+        "flavor": "\"Non puoi sfuggirmi, mutante.\"",
+        "name": "Ahab",
+        "text": "Robustezza.\n<b>Quando Rivelata</b>: Se Sguinzagliare i Segugi è in gioco, colloca 3 minacce su di essa. Altrimenti, trova la trama secondaria Sguinzagliare i Segugi e rivelala.",
+        "traits": "Cacciatore. Cyborg."
+    },
+    {
+        "code": "45098",
+        "flavor": "I segugi di Ahab sono mutanti, privati del libero arbitrio, costretti a dare la caccia ai loro simili.",
+        "name": "Segugio",
+        "text": "Guardia.\n<b>Quando Rivelata</b>: Se sei nella sembianza di eroe, Segugio ti attacca. Altrimenti, assumi la sembianza di eroe.",
+        "traits": "Cacciatore."
+    },
+    {
+        "code": "45099",
+        "name": "Lancia a Energia di Ahab",
+        "text": "Assegna a Ahab. Altrimenti, assegna al criminale.\n[star] <b>Interruzione Obbligata</b>: Quando il nemico con questa aggiunta ti attacca, questo attacco ottiene Perforante e Sopraffazione. Alla fine di questo attacco, scarta Lancia a Energia di Ahab.",
+        "traits": "Arma."
+    },
+    {
+        "code": "45100",
+        "flavor": "Ahab trae un profondo piacere nel dare la caccia ai mutanti con l'aiuto dei suoi Segugi.",
+        "name": "Sguinzagliare i Segugi",
+        "text": "La prima copia di Segugio rivelata ogni fase ottiene Impulso.\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 Segugio e lo distribuisce come carta incontro a faccia in giù a sé stesso."
+    },
+    {
+        "code": "45101a",
+        "flavor": "\"Osi sfidarmi? Ti ricorderò perché Apocalisse regna supremo.\"",
+        "name": "Apocalisse (I)",
+        "text": "Robustezza.\n<b>Interruzione Obbligata</b>: Quando la trama principale è completata, rimuovi tutte le minacce da essa <i>(ignorando le icone crisi ([crisis]))</i>. Gira questa carta e rivela Apocalisse (II).",
+        "traits": "Mutante."
+    },
+    {
+        "code": "45101b",
+        "flavor": "\"Solo uno sciocco cercherebbe di opporsi a me.\"",
+        "name": "Apocalisse (II)",
+        "text": "Tempra. Robustezza.\n<b>Interruzione Obbligata</b>: Quando la trama principale è completata, rimuovi tutte le minacce da essa <i>(ignorando le icone crisi ([crisis]))</i>. Rimuovi dal gioco questa carta e rivela Apocalisse (III).",
+        "traits": "Mutante."
+    },
+    {
+        "code": "45102a",
+        "flavor": "\"Questo mondo appartiene a me e a chiunque io ritenga degno.\"",
+        "name": "Apocalisse (III)",
+        "text": "Tempra. Robustezza.\n<b>Interruzione Obbligata</b>: Quando la trama principale è completata, rimuovi tutte le minacce da essa <i>(ignorando le icone crisi ([crisis]))</i>. Gira questa carta e rivela Apocalisse (IV).",
+        "traits": "Mutante."
+    },
+    {
+        "code": "45102b",
+        "flavor": "\"Purificherò questo mondo con il fuoco. Solo i forti sopravvivranno.\"",
+        "name": "Apocalisse (IV)",
+        "text": "Stabile. Robustezza.\n[star] Gli attacchi di Apocalisse ottengono Sopraffazione.\n<b>Interruzione Obbligata</b>: Quando la trama principale è completata, i giocatori perdono la partita.",
+        "traits": "Mutante."
+    },
+    {
+        "back_text": "<b>Contenuto</b>: Apocalisse (II) e Apocalisse (III). <i>(solo Apocalisse (III) invece per la modalità esperto).</i> Set di incontri Apocalisse, Prelati e Standard. 2 set di incontri modulari <i>(Cavalieri Oscuri e Infiniti)</i>.\n<b>Preparazione</b>: Metti da parte ogni carta criminale inutilizzata, ogni gregario [[PRELATO]] e la trama secondaria Il Trono del Tiranno. Rivela la trama secondaria Il Cuore dell'Impero. Il primo giocatore rivela 1 gregario [[PRELATO]] messo da parte casuale.",
+        "code": "45103",
+        "flavor": "È giunto il momento di sferrare un assalto diretto alla cittadella torreggiante di Apocalisse.",
+        "name": "L'Era di Apocalisse",
+        "text": "X è pari al valore numerico di punti ferita stampati di Apocalisse.\n<b>Interruzione Obbligata</b>: Quando Apocalisse sta per essere sconfitto, scarta ogni aggiunta da lui e curagli invece tutti i danni. Rimuovi X minacce da questa trama <i>(ignorando le icone crisi ([crisis]))</i>."
+    },
+    {
+        "code": "45104a",
+        "flavor": "Prima che possiate sfidare Apocalisse, dovrete farvi strada combattendo fino alla sua torre.",
+        "name": "Il Cuore dell'Impero",
+        "text": "Mentre ci sono gregari [[PRELATO]] in gioco, non è possibile rimuovere minacce da questa trama.\n<b>Quando Sconfitta</b>: Il primo giocatore rivela 1 gregario [[PRELATO]] messo da parte casuale. Distribuisci 1 carta incontro a ogni altro giocatore. Gira questa carta."
+    },
+    {
+        "code": "45104b",
+        "name": "La Cittadella Troneggiante",
+        "text": "Mentre ci sono gregari [[PRELATO]] in gioco, non è possibile rimuovere minacce da questa trama.\n<b>Quando Sconfitta</b>: Il primo giocatore rivela 1 gregario [[PRELATO]] messo da parte casuale. Distribuisci 1 carta incontro a ogni altro giocatore. Rivela la trama secondaria Il Trono del Tiranno e rimuovi dal gioco questa carta."
+    },
+    {
+        "code": "45105a",
+        "name": "Il Trono del Tiranno",
+        "text": "Mentre ci sono gregari [[PRELATO]] in gioco, non è possibile rimuovere minacce da questa trama.\n<b>Quando Sconfitta</b>: Il primo giocatore rivela 1 gregario [[PRELATO]] messo da parte casuale. Distribuisci 1 carta incontro a ogni altro giocatore. Gira questa carta e rivela Non più Degno."
+    },
+    {
+        "code": "45105b",
+        "name": "Non Più Degno",
+        "text": "Assegna ad Apocalisse e curagli 5[per_hero] danni. Mentre ci sono gregari [[PRELATO]] in gioco, Apocalisse non può subire danni.\nIgnora la capacità \"<b>Interruzione Obbligata</b>\" sulla trama principale.\n<b>Interruzione Obbligata</b>: Quando Apocalisse è sconfitto, i giocatori vincono la partita.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "45106",
+        "name": "Cyberpatia",
+        "text": "Assegna ad Apocalisse.\n[star] <b>Risposta Obbligata</b>: Dopo che Apocalisse ha tramato, colloca 1 minaccia su ogni trama secondaria.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta ad Apocalisse.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "45107",
+        "name": "Biomorfia",
+        "text": "Assegna ad Apocalisse.\n[star] Gli attacchi di Apocalisse ottengono Sopraffazione.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta ad Apocalisse.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "45108",
+        "flavor": "Il potere di Apocalisse di controllare ogni molecola del suo corpo lo rende un avversario formidabile.",
+        "name": "Controllo Molecolare",
+        "text": "Assegna ad Apocalisse.\nApocalisse ottiene Ritorsione 1 e Stabile.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta ad Apocalisse.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "45109",
+        "flavor": "Apocalisse promuove solo i mutanti più forti e spietati al rango di Prelato.",
+        "name": "Più Forte",
+        "text": "Assegna al gregario con più punti ferita stampati e irrobustiscilo. Altrimenti, questa carta ottiene Impulso.\nIl nemico con questa aggiunta riceve +5 punti ferita.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "45110",
+        "name": "Lupo tra le Pecore",
+        "text": "<b>Quando Rivelata</b>: Il gregario [[PRELATO]] si attiva contro di te. Altrimenti, Apocalisse si attiva contro di te.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci il gregario [[PRELATO]]. Altrimenti, irrobustisci Apocalisse."
+    },
+    {
+        "code": "45111",
+        "flavor": "Apocalisse preferirebbe dare alle fiamme il suo regno piuttosto che cederne il controllo.",
+        "name": "La Soluzione di Apocalisse",
+        "text": "<b>Quando Sconfitta</b>: Scarta X carte dalla cima del mazzo degli incontri, dove X è pari al valore numerico di punti ferita stampati di Apocalisse."
+    },
+    {
+        "code": "45112",
+        "flavor": "\"Vuoi liberarti di qualcuno? I Cavalieri Oscuri fanno al caso tuo.\"",
+        "name": "Guanto",
+        "text": "Lavoro di Squadra ([[CAVALIERE OSCURO]]).\n[star] <b>Risposta Obbligata</b>: Dopo che Guanto ti ha attaccato, scarta 1 miglioria che controlli.",
+        "traits": "Cavaliere Oscuro."
+    },
+    {
+        "code": "45113",
+        "flavor": "\"Il suo nome vuol dire 'bombardamento a tappeto'? Meglio non aspettarsi che scelga i suoi bersagli con attenzione.\" — Ciclope",
+        "name": "Barrage",
+        "text": "Lavoro di Squadra ([[CAVALIERE OSCURO]]).\n[star] <b>Risposta Obbligata</b>: Dopo che Barrage ti ha attaccato, infliggi 1 danno a ogni personaggio che controlli.",
+        "traits": "Cavaliere Oscuro."
+    },
+    {
+        "code": "45114",
+        "flavor": "\"Scansione completata. Pronti al salto.\"",
+        "name": "Harddrive",
+        "text": "Lavoro di Squadra ([[CAVALIERE OSCURO]]).\n[star] <b>Risposta Obbligata</b>: Dopo che Harddrive ti ha attaccato, colloca 1 minaccia su ogni trama.",
+        "traits": "Cavaliere Oscuro."
+    },
+    {
+        "code": "45115",
+        "name": "Tusk",
+        "text": "Lavoro di Squadra ([[CAVALIERE OSCURO]]).\n[star] <b>Risposta Obbligata</b>: Dopo che Tusk ti ha attaccato, sei stordito.\n<hr />\n[star] <b>Potenziamento</b>: Sei stordito.",
+        "traits": "Cavaliere Oscuro."
+    },
+    {
+        "code": "45116",
+        "name": "Psinapsi",
+        "text": "Lavoro di Squadra ([[CAVALIERE OSCURO]]).\n[star] <b>Risposta Obbligata</b>: Dopo che Psinapsi ti ha attaccato, sei confuso.\n<hr />\n[star] <b>Potenziamento</b>: Sei confuso.",
+        "traits": "Cavaliere Oscuro."
+    },
+    {
+        "code": "45117",
+        "flavor": "I Cavalieri Oscuri conoscono un unico assioma: i deboli devono morire.",
+        "name": "I Cavalieri Oscuri",
+        "text": "Ostacolo 1[per_hero].\nOgni gregario [[CAVALIERE OSCURO]] ottiene Robustezza.\n<b>Quando Rivelata</b>: Scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario [[CAVALIERE OSCURO]] e rivelalo."
+    },
+    {
+        "code": "45118",
+        "flavor": "\"Il male non dorme mai!\"",
+        "name": "Bestia Nera (I)",
+        "text": "[star] <b>Interruzione Obbligata</b>: Quando Bestia Nera ti attacca, risolvi la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]].\n<b>Quando Rivelata</b>: Rivela 1 ambiente messo da parte casuale e mescola nel mazzo degli incontri il resto del suo set di incontri.",
+        "traits": "Bruto. Genio."
+    },
+    {
+        "code": "45119",
+        "name": "Bestia Nera (II)",
+        "text": "[star] <b>Interruzione Obbligata</b>: Quando Bestia Nera ti attacca, risolvi la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]].\n<b>Quando Rivelata</b>: Rivela 1 ambiente messo da parte casuale e mescola nel mazzo degli incontri il resto del suo set di incontri. Distribuisci 1 carta incontro a ogni giocatore.",
+        "traits": "Bruto. Genio."
+    },
+    {
+        "code": "45120",
+        "name": "Bestia Nera (III)",
+        "text": "[star] <b>Interruzione Obbligata</b>: Quando Bestia Nera ti attacca, risolvi la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]].\n<b>Quando Rivelata</b>: Rivela 1 ambiente messo da parte casuale e mescola nel mazzo degli incontri il resto del suo set di incontri. Distribuisci 1 carta incontro a ogni giocatore.",
+        "traits": "Bruto. Genio."
+    },
+    {
+        "back_text": "<b>Contenuto</b>: Bestia Nera (I) e Bestia Nera (II). <i>(Bestia Nera (II) e Bestia Nera (III) invece per la modalità esperto.)</i> Set di incontri Bestia Nera, Luna Blu, Genosha, Terra Selvaggia e Standard. 1 set di incontri modulare <i>(Incubo Distopico)</i>.\n<b>Preparazione</b>: Metti da parte i set Luna Blu, Genosha e Terra Selvaggia <i>(incluse le carte ambiente di ognuno di quei set)</i>. In modalità esperto, rivela l'aggiunta Occhiali High-Tech.",
+        "code": "45121",
+        "flavor": "Bestia Nera attiva la sua macchina del tempo per assicurare il ritorno al potere di Apocalisse, ma riuscite a intervenire abbastanza in fretta da mandare in rovina i suoi calcoli. Cercate di strappargli il dispositivo di mano, ma non è semplice mentre viaggiate nel tempo e nello spazio!",
+        "name": "L'Assurdo Viaggio di Bestia Nera",
+        "text": "<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "45122",
+        "name": "Occhiali High-Tech",
+        "text": "Assegna a Bestia Nera.\n<b>Azione Eroe</b>: Esaurisci il tuo eroe e risolvi la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta a Bestia Nera.",
+        "traits": "Tecnologia."
+    },
+    {
+        "code": "45123",
+        "name": "Potenziamento Genetico",
+        "text": "Assegna a Bestia Nera.\n<b>Azione Eroe</b>: Esaurisci il tuo eroe e risolvi la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta a Bestia Nera.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "45124",
+        "flavor": "\"Potrei farlo con l'anestesia, ma dove sarebbe il divertimento?\" — Bestia Nera",
+        "name": "Esperimento Crudele",
+        "text": "Il gregario con questa aggiunta riceve +2 punti ferita e ottiene Guardia.\n<b>Quando Rivelata</b>: Scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 gregario. Rivela quel gregario e assegnagli Esperimento Crudele.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "45125",
+        "name": "Genio del Male",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Bestia Nera trama. Irrobustiscilo.\n<b>Quando Rivelata (Eroe)</b>: Bestia Nera ti attacca. Fagli ricevere 1 carta potenziamento aggiuntiva per questo attacco."
+    },
+    {
+        "code": "45126",
+        "name": "Trucchetti da Viaggio nel Tempo",
+        "text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama scarta carte dalla cima del mazzo degli incontri finché non scarta 1 carta dello stesso set di incontri dell'ambiente [[SCENA]] e la rivela."
+    },
+    {
+        "code": "45127",
+        "name": "Terra Selvaggia",
+        "text": "Preparazione.\nIl criminale ottiene Ritorsione 1.\n<b>Speciale</b>: Scarta 3 carte dalla cima del tuo mazzo.\n<b>Quando Rivelata</b>: Scarta ogni altro ambiente [[SCENA]] in gioco.",
+        "traits": "Luogo. Scena."
+    },
+    {
+        "code": "45128",
+        "name": "Pterosauro",
+        "text": "<b>Quando Rivelata</b>: Risolvi la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]].\n<hr />\n[star] <b>Potenziamento</b>: Se Terra Selvaggia è in gioco, distribuisci Pterosauro come carta incontro a faccia in giù a te stesso.",
+        "traits": "Aereo. Creatura."
+    },
+    {
+        "code": "45129",
+        "name": "Velociraptor",
+        "text": "Colpo Rapido.\n[star] <b>Interruzione Obbligata</b>: Quando Velociraptor ti attacca, scarta 1 carta dalla cima del tuo mazzo. Velociraptor riceve +1 ATT per questo attacco per ogni icona risorsa stampata scartata in questo modo.",
+        "traits": "Creatura."
+    },
+    {
+        "code": "45130",
+        "flavor": "\"Ecco perché non si deve dare da mangiare agli animali!\" — Jubilee",
+        "name": "Gorilla Gigante",
+        "text": "Guardia.\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto Gorilla Gigante risolve la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]].",
+        "traits": "Creatura."
+    },
+    {
+        "code": "45131",
+        "flavor": "Terra Selvaggia è esattamente quello che ci si può aspettare da una giungla preistorica nel mezzo dell'Antartide.",
+        "name": "Terra Fuori dal Tempo",
+        "text": "<b>Quando Rivelata</b>: Se Terra Selvaggia è in gioco, risolvi la sua capacità \"<b>Speciale</b>\" e subisci 1 danno indiretto per ogni icona risorsa stampata sulle carte scartate. Altrimenti, trova Terra Selvaggia e rivelala."
+    },
+    {
+        "code": "45132",
+        "flavor": "\"Dobbiamo salvare il villaggio da quei dinosauri! (No, questo non mi sarei mai aspettata di dirlo.)\" — Rogue",
+        "name": "Villaggio Sotto Attacco",
+        "text": "Ostacolo 1[per_hero].\n<b>Quando Sconfitta</b>: Ogni giocatore risolve la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]]."
+    },
+    {
+        "code": "45133",
+        "name": "Genosha",
+        "text": "Preparazione.\nIl criminale ottiene Tempra.\n<b>Speciale</b>: Colloca 1 minaccia sulla trama principale.\n<b>Quando Rivelata</b>: Scarta ogni altro ambiente [[SCENA]] in gioco.",
+        "traits": "Luogo. Scena."
+    },
+    {
+        "code": "45134",
+        "name": "Magistrato",
+        "text": "Pattuglia.\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questo gregario trova l'aggiunta Mutante Fuggitivo e la rivela.\n<hr />\n[star] <b>Potenziamento</b>: Se Mutante Fuggitivo è assegnato alla tua identità, questa carta ottiene [boost][boost][boost].",
+        "traits": "Genosha."
+    },
+    {
+        "code": "45135",
+        "flavor": "\"Ho il segnale del mutante. In rotta d'intercettazione.\"",
+        "name": "Unibike Corazzata",
+        "text": "Unibike Corazzata impegna il giocatore con Mutante Fuggitivo assegnato, se possibile.\n[star] <b>Risposta Obbligata</b>:Dopo che Unibike Corazzata ha attaccato, risolvi la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]].",
+        "traits": "Genosha. Veicolo."
+    },
+    {
+        "code": "45136",
+        "flavor": "\"Le loro armature sono progettate per contrastare i nostri poteri.\" — Tempesta",
+        "name": "Mech di Genoshan",
+        "text": "Guardia. Robustezza.\n[star] <b>Risposta Obbligata</b>: Dopo che Mech di Genoshan ha attaccato e sconfitto un tuo alleato, risolvi due volte la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]].",
+        "traits": "Genosha. Veicolo."
+    },
+    {
+        "code": "45137",
+        "flavor": "I mutanti che vogliono fuggire da Genosha devono trovare un modo per eludere i magistrati.",
+        "name": "Mutante Fuggitivo",
+        "text": "Assegna alla tua identità.\nOgni gregario [[GENOSHA]] che ti impegna ottiene Colpo Rapido.\n<b>Azione Alter Ego</b>: Risolvi la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]] → scarta questa carta."
+    },
+    {
+        "code": "45138",
+        "flavor": "Genosha ha accumulato le sue ricchezze sfruttando la sua popolazione mutante.",
+        "name": "Stato di Polizia",
+        "text": "Ostacolo 1[per_hero].\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama trova l'aggiunta Mutante Fuggitivo e la rivela."
+    },
+    {
+        "code": "45139",
+        "name": "Area Blu della Luna",
+        "text": "Preparazione.\nOgni gregario ottiene Guardia.\n<b>Speciale</b>: Infliggi 1 danno alla tua identità.\n<b>Quando Rivelata</b>: Scarta ogni altro ambiente [[SCENA]] in gioco.",
+        "traits": "Luogo. Scena."
+    },
+    {
+        "code": "45140",
+        "name": "Gladiatore",
+        "text": "Lavoro di Squadra ([[GUARDIA IMPERIALE]]).\nMentre Processo per Combattimento è in gioco, Gladiatore non può subire danni.\n<hr />\n[star] <b>Potenziamento</b>: Se Processo per Combattimento è in gioco distribuisci Gladiatore come carta incontro a faccia in giù a te stesso.",
+        "traits": "Elite. Guardia Imperiale."
+    },
+    {
+        "code": "45141",
+        "flavor": "\"Questo non è uno scontro che puoi vincere.\"",
+        "name": "Oracolo",
+        "text": "Lavoro di Squadra ([[GUARDIA IMPERIALE]]).\n<b>Quando Rivelata</b>: Sei confuso. Se eri già confuso, risolvi la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]].",
+        "traits": "Guardia Imperiale."
+    },
+    {
+        "code": "45142",
+        "flavor": "\"Unglaublich! Non ci vedo!\" — Nightcrawler",
+        "name": "Manta",
+        "text": "Lavoro di Squadra ([[GUARDIA IMPERIALE]]).\n<b>Quando Rivelata</b>: Sei stordito. Se eri già stordito, risolvi la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]]..",
+        "traits": "Guardia Imperiale."
+    },
+    {
+        "code": "45143",
+        "flavor": "\"Diamo una scossa alla situazione!\"",
+        "name": "Earthquake",
+        "text": "Lavoro di Squadra ([[GUARDIA IMPERIALE]]).\n<b>Quando Rivelata</b>: Esaurisci la tua identità. Se era già esaurita, risolvi la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]].",
+        "traits": "Guardia Imperiale."
+    },
+    {
+        "code": "45144",
+        "name": "Warstar",
+        "text": "Lavoro di Squadra ([[GUARDIA IMPERIALE]]).\n<b>Quando Rivelata</b>: Scarta 1 carta dalla cima del mazzo degli incontri. Se quella carta è un gregario [[GUARDIA IMPERIALE]], rivelalo. Altrimenti, risolvi la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]].",
+        "traits": "Guardia Imperiale."
+    },
+    {
+        "code": "45145",
+        "name": "Sentinella Imperiale",
+        "text": "Assegna a un gregario. Altrimenti, questa carta ottiene Impulso.\nIl gregario con questa aggiunta riceve +4 punti ferita e ottiene il tratto [[GUARDIA IMPERIALE]].\n<b>Interruzione Obbligata</b>: Quando il gregario con questa aggiunta è sconfitto, risolvi la capacità \"<b>Speciale</b>\" sull'ambiente [[SCENA]].",
+        "traits": "Titolo."
+    },
+    {
+        "code": "45146",
+        "flavor": "La legge degli Shi'ar concede all'accusato la possibilità di difendersi. Per farlo, però, dovrà affrontare la Guardia Imperiale.",
+        "name": "Processo per Combattimento",
+        "text": "Ostacolo 1[per_hero].\n<b>Quando Sconfitta</b>: Mescola nel mazzo degli incontri ogni gregario [[GUARDIA IMPERIALE]] dalla pila degli scarti degli incontri."
+    },
+    {
+        "back_text": "<b>Contenuto</b>: Apocalisse (I) e Apocalisse (II). <i>(Apocalisse (II) e Apocalisse (III) invece per la modalità esperto.)</i> Set di incontri En Sabah Nur e Standard. 2 set di incontri modulari <i>(Tecnologie Celestiali e Clan Akkaba)</i>.\n<b>Preparazione</b>: Apocalisse inizia la partita nella sembianza [[BIOMORFO]]. Distribuisci 1 carta incontro a faccia in giù a ogni giocatore.",
+        "code": "45147",
+        "flavor": "Protetto dalla sua piramide high-tech, Apocalisse si prepara alla sua ascesa.",
+        "name": "La Piramide di En Sabah Nur",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo aver risolto il passo 1 della Fase del Criminale, colloca 1 gettone potere su questa carta. Se ci sono 4 o più gettoni potere su questa carta, il primo giocatore ne rimuove 4 e scarta carte dalla cima del mazzo degli incontri finché non scarta 1 carta [[SUPERPOTERE]] e la rivela."
+    },
+    {
+        "back_flavor": "Avete visto a quale futuro andreste incontro se Apocalisse riuscisse ad estendere la sua influenza. Sta a voi fermare quel megalomane e non avrete una seconda possibilità!",
+        "back_text": "<b>Quando Rivelata</b>:  Il primo giocatore scarta carte dalla cima del mazzo degli incontri finchè non scarta 1 carta [[SUPERPOTERE]] e la rivela.",
+        "code": "45148",
+        "name": "L'Ascesa di Apocalisse",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo aver risolto il passo 1 della Fase del Criminale, colloca 1 gettone potere su questa carta. Se ci sono 4 o più gettoni potere su questa carta, il primo giocatore ne rimuove 4 e scarta carte dalla cima del mazzo degli incontri finché non scarta 1 carta [[SUPERPOTERE]] e la rivela.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "45149",
+        "name": "Forza Sconcertante",
+        "text": "Assegna ad Apocalisse e fagli assumere la sembianza [[GIGANTE]].\n[star] <b>Interruzione Obbligata</b>: Quando Apocalisse ti attacca, sei stordito. Dopo questa attivazione, scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Dopo questa attivazione, rivela questa carta.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "45150",
+        "name": "Raggio Biomorfico",
+        "text": "<b>Quando Rivelata</b>: Se Apocalisse è nella sembianza [[BIOMORFO]], si attiva contro di te. Altrimenti, fagli assumere la sembianza [[BIOMORFO]] e colloca 1 gettone potere sulla trama principale.\n<hr />\n[star] <b>Potenziamento</b>: Dopo questa attivazione, fai assumere ad Apocalisse la sembianza [[BIOMORFO]].",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "45151",
+        "name": "Interfaccia Tecnologica",
+        "text": "<b>Quando Rivelata</b>: Se Apocalisse è nella sembianza [[CYBERPATE]], si attiva contro di te. Altrimenti, fagli assumere la sembianza [[CYBERPATE]] e colloca 1 gettone potere sulla trama principale.\n<hr />\n[star] <b>Potenziamento</b>: Dopo questa attivazione, fai assumere ad Apocalisse la sembianza [[CYBERPATE]].",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "45152",
+        "name": "Despota Gigantesco",
+        "text": "<b>Quando Rivelata</b>: Se Apocalisse è nella sembianza [[GIGANTE]], si attiva contro di te. Altrimenti, fagli assumere la sembianza [[GIGANTE]] e colloca 1 gettone potere sulla trama principale.\n<hr />\n[star] <b>Potenziamento</b>: Dopo questa attivazione, fai assumere ad Apocalisse la sembianza [[GIGANTE]].",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "45153",
+        "name": "Fonte di Potere",
+        "text": "<b>Quando Sconfitta</b>: Se Apocalisse è nella sembianza [[BIOMORFO]], si attiva contro il giocatore che ha sconfitto questa trama. Altrimenti, fagli assumere la sembianza [[BIOMORFO]] e irrobustiscilo.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "45154",
+        "name": "Collegato",
+        "text": "<b>Quando Sconfitta</b>: Se Apocalisse è nella sembianza [[CYBERPATE]], si attiva contro il giocatore che ha sconfitto questa trama. Altrimenti, fagli assumere la sembianza [[CYBERPATE]] e irrobustiscilo.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "45155",
+        "name": "Crescita Gigante",
+        "text": "<b>Quando Sconfitta</b>: Se Apocalisse è nella sembianza [[GIGANTE]], si attiva contro il giocatore che ha sconfitto questa trama. Altrimenti, fagli assumere la sembianza [[GIGANTE]] e irrobustiscilo.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "45156",
+        "name": "Armatura Celestiale",
+        "text": "Assegna al criminale.\n[star] <b>Interruzione Obbligata</b>: Quando il criminale trama contro di te, scarta 1 carta dalla cima del tuo mazzo. Se quella carta possiede come risorse:\n[energy] — Cura 2 danni al criminale.\n[mental] — Sei confuso. Scarta questa carta.\n[physical] — Irrobustisci il criminale.\n[wild] — Tutti gli effetti soprastanti.",
+        "traits": "Armatura. Celestiale."
+    },
+    {
+        "code": "45157",
+        "name": "Arma Celestiale",
+        "text": "Assegna al criminale.\n[star] <b>Interruzione Obbligata</b>: Quando il criminale ti attacca, scarta 1 carta dalla cima del tuo mazzo. Se quella carta possiede come risorse:\n[energy] — infliggi 2 danni alla tua identità.\n[mental] — Scarta 1 carta dalla tua mano.\n[physical] — Sei stordito. Scarta questa carta.\n[wild] — Tutti gli effetti soprastanti.",
+        "traits": "Arma. Celestiale."
+    },
+    {
+        "code": "45158",
+        "name": "Tecnologie Celestiali",
+        "text": "<b>Quando Rivelata</b>: Per ogni aggiunta [[CELESTIALE]] in gioco, risolvine l'effetto come se il criminale a cui è assegnata avesse appena tramato contro di te e ti avesse appena attaccato. Se non ci sono aggiunte [[CELESTIALE]] assegnate al criminale, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta [[CELESTIALE]] e rivelala. <i>(Mescola.)</i>"
+    },
+    {
+        "code": "45159",
+        "name": "Ozymandias",
+        "text": "Robustezza. Criminoso.\n[star] Quando Ozymandias trama, colloca quelle minacce su L'Antico Rituale.\n<hr />\n[star] <b>Potenziamento</b>: Scegli se collocare 3 minacce su L'Antico Rituale oppure questa carta ottiene [boost][boost][boost].",
+        "traits": "Clan Akkaba. Elite."
+    },
+    {
+        "code": "45160",
+        "name": "Scarabeo",
+        "text": "Colpo Rapido.\n[star] <b>Risposta Obbligata</b>: Dopo che Scarabeo ha attaccato, colloca 1 minaccia su L'Antico Rituale (3 minacce se invece l'attacco ha sconfitto un alleato).",
+        "traits": "Clan Akkaba."
+    },
+    {
+        "code": "45161",
+        "name": "Zelota del Clan Akkaba",
+        "text": "Guardia.\n<b>Quando Sconfitta</b>: Colloca 2 minacce su L'Antico Rituale.\n<hr />\n[star] <b>Potenziamento</b>: Colloca 1 minaccia su L'Antico Rituale.",
+        "traits": "Clan Akkaba."
+    },
+    {
+        "code": "45162",
+        "flavor": "I membri del Clan Akkaba dedicano le loro vite alla spietata dottrina del loro padrone.",
+        "name": "Venerare il Tiranno",
+        "text": "<b>Quando Rivelata</b>: Colloca 5 minacce su L'Antico Rituale.\n<hr />\n[star] <b>Potenziamento</b>: Scegli se collocare 3 minacce su L'Antico Rituale oppure questa carta ottiene [boost][boost][boost]."
+    },
+    {
+        "code": "45163",
+        "flavor": "\"Non son sicuro di cosa stiano facendo, ma sono sicuro che non sia nulla di buono.\" — Uomo Ghiaccio",
+        "name": "L'Antico Rituale",
+        "text": "Permanente. Preparazione.\n<b>Risposta Obbligata</b>: Dopo che sono state collocate minacce su questa carta, se ci sono 10 o più minacce su questa carta, rimuovi 5 minacce da questa trama e distribuisci 1 carta incontro a faccia in giù a ogni giocatore."
+    },
+    {
+        "code": "45164",
+        "name": "Agente di Apocalisse",
+        "text": "Guardia.\n<b>Quando Rivelata</b>: Scegli se collocare Agente di Apocalisse nell'area di missione oppure farlo attivare contro di te.\n<hr />\n[star] <b>Potenziamento</b>: Infliggi 1 danno a un alleato nella missione. Fai ricevere 1 carta potenziamento aggiuntiva al nemico che si sta attivando.",
+        "traits": "Clan Akkaba."
+    },
+    {
+        "code": "45165",
+        "name": "Crisi Globale",
+        "text": "<b>Quando Rivelata</b>: Scegli se collocare 3 minacce sulla trama secondaria [[MISSIONE]], oppure subire 1 danno e questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Colloca 1 minaccia sulla trama secondaria [[MISSIONE]]. Fai ricevere 1 carta potenziamento aggiuntiva al nemico che si sta attivando."
+    },
+    {
+        "code": "45166a",
+        "name": "Liberare Seattle Core",
+        "text": "<b>Risposta Obbligata</b>: Dopo che hai risolto un tentativo di missione, colloca 1 gettone tentativo su questa carta e infliggi 1 danno a ogni alleato nella missione. Se ci sono 4 gettoni tentativo su questa carta, rimuovi dal gioco Squadra della Missione e gira questa carta.\n<b>Quando Sconfitta</b>: Mescola nel mazzo del suo proprietario ogni carta giocatore nella missione. Gira Squadra della Missione e questa carta.",
+        "traits": "Missione."
+    },
+    {
+        "code": "45166b",
+        "name": "Liberare Seattle Core",
+        "text": "<b>Risposta Obbligata</b>: Dopo che hai girato questa carta su questo lato, rimuovi dal gioco ogni carta nell'area di missione e svolgi i passi seguenti:\n• Se la missione non è stata sconfitta, colloca 2[per_hero] minacce sulla trama principale.\n• Se la missione è stata sconfitta, ogni giocatore aggiunge 1 miglioria Rimedi Disperati alla sua mano.",
+        "traits": "Conclusione."
+    },
+    {
+        "code": "45167a",
+        "name": "Evacuare i Sopravvissuti",
+        "text": "<b>Risposta Obbligata</b>: Dopo che hai risolto un tentativo di missione, colloca 1 gettone tentativo su questa carta e infliggi 1 danno a ogni alleato nella missione. Se ci sono 4 gettoni tentativo su questa carta, rimuovi dal gioco Squadra della Missione e gira questa carta.\n<b>Quando Sconfitta</b>: Mescola nel mazzo del suo proprietario ogni carta giocatore nella missione. Gira Squadra della Missione e questa carta.",
+        "traits": "Missione."
+    },
+    {
+        "code": "45167b",
+        "name": "Evacuare i Sopravvissuti",
+        "text": "<b>Risposta Obbligata</b>: Dopo che hai girato questa carta su questo lato, rimuovi dal gioco ogni carta nell'area di missione e svolgi i passi seguenti:\n• Se la missione non è stata sconfitta, distribuisci 1 carta incontro a faccia in giù a ogni giocatore.\n• Se la missione è stata sconfitta, ogni giocatore cerca nel suo mazzo e nella sua pila degli scarti 1 carta e la aggiunge alla sua mano.",
+        "traits": "Conclusione."
+    },
+    {
+        "code": "45168a",
+        "name": "Sabotare la Diga",
+        "text": "<b>Risposta Obbligata</b>: Dopo che hai risolto un tentativo di missione, colloca 1 gettone tentativo su questa carta e infliggi 1 danno a ogni alleato nella missione. Se ci sono 4 gettoni tentativo su questa carta, rimuovi dal gioco Squadra della Missione e gira questa carta.\n<b>Quando Sconfitta</b>: Mescola nel mazzo del suo proprietario ogni carta giocatore nella missione. Gira Squadra della Missione e questa carta.",
+        "traits": "Missione."
+    },
+    {
+        "code": "45168b",
+        "name": "Sabotare la Diga",
+        "text": "<b>Risposta Obbligata</b>: Dopo che hai girato questa carta su questo lato, rimuovi dal gioco ogni carta nell'area di missione e svolgi i passi seguenti:\n• Se la missione non è stata sconfitta, trova Diga del Nordamerica e rivelala. <i>(Mescola.)</i>\n• Se la missione è stata sconfitta, trova Diga del Nordamerica, rimuovila dal gioco e ogni giocatore infligge 3 danni a un nemico.",
+        "traits": "Conclusione."
+    },
+    {
+        "code": "45169a",
+        "name": "Trovare i Mutanti Dispersi",
+        "text": "<b>Risposta Obbligata</b>: Dopo che hai risolto un tentativo di missione, colloca 1 gettone tentativo su questa carta e infliggi 1 danno a ogni alleato nella missione. Se ci sono 4 gettoni tentativo su questa carta, rimuovi dal gioco Squadra della Missione e gira questa carta.\n<b>Quando Sconfitta</b>: Mescola nel mazzo del suo proprietario ogni carta giocatore nella missione. Gira Squadra della Missione e questa carta.",
+        "traits": "Missione."
+    },
+    {
+        "code": "45169b",
+        "name": "Trovare i Mutanti Dispersi",
+        "text": "<b>Risposta Obbligata</b>: Dopo che hai girato questa carta su questo lato, rimuovi dal gioco ogni carta nell'area di missione e svolgi i passi seguenti:\n• Se la missione non è stata sconfitta, ogni giocatore scarta 1 carta dalla sua mano.\n• Se la missione è stata sconfitta, ogni giocatore aggiunge 1 alleato campagna messo da parte alla sua mano.",
+        "traits": "Conclusione."
+    },
+    {
+        "code": "45170a",
+        "name": "Proteggere il Professore",
+        "text": "<b>Risposta Obbligata</b>: Dopo che hai risolto un tentativo di missione, colloca 1 gettone tentativo su questa carta e infliggi 1 danno a ogni alleato nella missione. Se ci sono 4 gettoni tentativo su questa carta, rimuovi dal gioco Squadra della Missione e gira questa carta.\n<b>Quando Sconfitta</b>: Mescola nel mazzo del suo proprietario ogni carta giocatore nella missione. Gira Squadra della Missione e questa carta.",
+        "traits": "Missione."
+    },
+    {
+        "code": "45170b",
+        "name": "Proteggere il Professore",
+        "text": "<b>Risposta Obbligata</b>: Dopo che hai girato questa carta su questo lato, rimuovi dal gioco ogni carta nell'area di missione e svolgi i passi seguenti:\n• Se la missione non è stata sconfitta, i giocatori perdono la partita.\n• Se la missione è stata sconfitta, ogni giocatore cerca nel suo mazzo e nella sua pila degli scarti 1 alleato e lo aggiunge alla sua mano.",
+        "traits": "Conclusione."
+    },
+    {
+        "code": "45177",
+        "flavor": "La diga high-tech di Apocalisse protegge la frontiera orientale del suo regno.",
+        "name": "Diga del Nordamerica",
+        "text": "Impulso. Ostacolo 2[per_hero]. Vittoria 2.\nIl criminale non può subire danni.\n<hr />\n[star] <b>Potenziamento</b>: Distribuisci questa carta come carta incontro a faccia in giù a te stesso."
+    },
+    {
+        "code": "45178",
+        "name": "Rifugiati Terrorizzati",
+        "text": "<b>Risposta Obbligata</b>: Dopo che questa carta è entrata nella tua mano, rivelala. Poi pesca 1 carta.\n<b>Azione Alter Ego</b>: Esaurisci la tua identità → rimuovi dal gioco questa carta."
+    },
+    {
+        "code": "45179a",
+        "name": "Sinistro",
+        "text": "Vittoria 5.\nMentre ci sono gregari nella missione, Sinistro non può subire danni.\nI giocatori non possono assegnare carte con la stessa icona risorsa ([energy], [mental], [physical], o [wild]) a più di un alleato in ogni tentativo di missione.",
+        "traits": "Elite. Sorvegliante."
+    },
+    {
+        "code": "45179b",
+        "name": "Sinistro",
+        "text": "Criminoso. Ritorsione 1. Robustezza. Vittoria 3.\nSinistro impegna il primo giocatore.",
+        "traits": "Elite. Prelato."
+    },
+    {
+        "code": "45180a",
+        "name": "Re delle Ombre",
+        "text": "Vittoria 5.\nMentre ci sono gregari nella missione, Re delle Ombre non può subire danni.\n<b>Risposta Missione</b>: Dopo che hai scartato le carte, colloca 2 minacce sulla trama secondaria [[MISSIONE] per ogni risorsa mentale ([mental]) scartata.",
+        "traits": "Elite. Sorvegliante."
+    },
+    {
+        "code": "45180b",
+        "name": "Re delle Ombre",
+        "text": "Robustezza. Vittoria 3.\nRe delle Ombre impegna il primo giocatore.\n[star] <b>Risposta Obbligata</b>: Dopo che Re delle Ombre ti ha attaccato, scegli 1 alleato con più INT che controlli. Scarta quell'alleato oppure colloca un ammontare di minacce sulla trama principale pari al suo INT.",
+        "traits": "Elite. Prelato."
+    },
+    {
+        "code": "45181a",
+        "name": "Abyss",
+        "text": "Vittoria 5.\nMentre ci sono gregari nella missione, Abyss non può subire danni.\n<b>Risposta Missione</b>: Dopo che hai scartato le carte, assegna a faccia in giù ogni carta con una risorsa jolly ([wold]) ad Abyss <i>(non possono essere utilizzate per il tentativo di missione)</i>.",
+        "traits": "Elite. Sorvegliante."
+    },
+    {
+        "code": "45181b",
+        "name": "Abyss",
+        "text": "Robustezza. Vittoria 3.\nAbyss riceve +2 punti ferita per ogni carta a faccia in giù assegnata a lui e impegna il primo giocatore.\n[star] <b>Risposta Obbligata</b>: Dopo che Abyss si è attivato contro di te, assegnagli a faccia in giù 1 carta dalla cima del tuo mazzo.",
+        "traits": "Elite. Prelato."
+    },
+    {
+        "code": "45182a",
+        "name": "Sugar Man",
+        "text": "Vittoria 5.\nMentre ci sono gregari nella missione, Sugar Man non può subire danni.\n<b>Risposta Missione</b>: Dopo che hai scartato le carte, cura 3 danni a Sugar Man per ogni risorsa fisico ([physical]) scartata.",
+        "traits": "Elite. Sorvegliante."
+    },
+    {
+        "code": "45182b",
+        "name": "Sugar Man",
+        "text": "Robustezza. Vittoria 3.\nSugar Man impegna il primo giocatore.\n[star] <b>Interruzione Obbligata</b>: Quando Sugar Man attacca, questo attacco ottiene Perforante. Se questo attacco sconfigge un personaggio, cura 5 danni a Sugar Man.",
+        "traits": "Elite. Prelato."
+    },
+    {
+        "code": "45183a",
+        "name": "Mikhail Rasputin",
+        "text": "Vittoria 5.\nMentre ci sono gregari nella missione, Mikhail Rasputin non può subire danni.\n<b>Risposta Missione</b>: Dopo che hai scartato le carte, infliggi 1 danno a un alleato nella missione per ogni risorsa energia ([energy]) scartata.",
+        "traits": "Elite. Sorvegliante."
+    },
+    {
+        "code": "45183b",
+        "name": "Mikhail Rasputin",
+        "text": "Robustezza. Vittoria 3.\nMikhail Rasputin impegna il primo giocatore.\n[star] <b>Interruzione Obbligata</b>: Quando Mikhail Rasputin ti attacca, infliggi 1 danno alla tua identità.",
+        "traits": "Elite. Prelato."
+    },
+    {
+        "code": "45184a",
+        "flavor": "\"È il momento di reclamare il mio destino!\"",
+        "name": "Apocalisse (I)",
+        "text": "[star] Gli attacchi di Apocalisse ottengono Sopraffazione.\n<b>Risposta Obbligata</b>: Dopo che Apocalisse ha assunto questa sembianza, infliggi 1 danno indiretto a ogni giocatore.",
+        "traits": "Biomorfo. Mutante."
+    },
+    {
+        "code": "45184b",
+        "flavor": "\"Vi ho giudicati e vi ho trovati indegni.\"",
+        "name": "Apocalisse (I)",
+        "text": "Ritorsione 1.\n<b>Risposta Obbligata</b>: Dopo che Apocalisse ha assunto questa sembianza, colloca 1 minaccia su ogni trama in gioco.",
+        "traits": "Cyberpate. Mutante."
+    },
+    {
+        "code": "45184c",
+        "flavor": "\"Sono superiore ai mutanti quanto loro lo sono agli umani.\"",
+        "name": "Apocalisse (I)",
+        "text": "Stabile.\n<b>Risposta Obbligata</b>: Dopo che Apocalisse ha assunto questa sembianza, curagli 1 danno.",
+        "traits": "Gigante. Mutante."
+    },
+    {
+        "code": "45185a",
+        "flavor": "\"È il momento di reclamare il mio destino!\"",
+        "name": "Apocalisse (II)",
+        "text": "[star] Gli attacchi di Apocalisse ottengono Sopraffazione.\n<b>Risposta Obbligata</b>: Dopo che Apocalisse ha assunto questa sembianza, infliggi 2 danni indiretti a ogni giocatore.",
+        "traits": "Biomorfo. Mutante."
+    },
+    {
+        "code": "45185b",
+        "flavor": "\"Vi ho giudicati e vi ho trovati indegni.\"",
+        "name": "Apocalisse (II)",
+        "text": "Ritorsione 1.\n<b>Risposta Obbligata</b>: Dopo che Apocalisse ha assunto questa sembianza, colloca 2 minacce su ogni trama in gioco.",
+        "traits": "Cyberpate. Mutante."
+    },
+    {
+        "code": "45185c",
+        "flavor": "\"Sono superiore ai mutanti quanto loro lo sono agli umani.\"",
+        "name": "Apocalisse (II)",
+        "text": "Stabile.\n<b>Risposta Obbligata</b>: Dopo che Apocalisse ha assunto questa sembianza, curagli 2 danni.",
+        "traits": "Gigante. Mutante."
+    },
+    {
+        "code": "45186a",
+        "flavor": "\"È il momento di reclamare il mio destino!\"",
+        "name": "Apocalisse (III)",
+        "text": "[star] Gli attacchi di Apocalisse ottengono Sopraffazione.\n<b>Risposta Obbligata</b>: Dopo che Apocalisse ha assunto questa sembianza, infliggi 3 danni indiretti a ogni giocatore.",
+        "traits": "Biomorfo. Mutante."
+    },
+    {
+        "code": "45186b",
+        "flavor": "\"Vi ho giudicati e vi ho trovati indegni.\"",
+        "name": "Apocalisse (III)",
+        "text": "Ritorsione 1.\n<b>Risposta Obbligata</b>: Dopo che Apocalisse ha assunto questa sembianza, colloca 3 minacce su ogni trama in gioco.",
+        "traits": "Cyberpate. Mutante."
+    },
+    {
+        "code": "45186c",
+        "flavor": "\"Sono superiore ai mutanti quanto loro lo sono agli umani.\"",
+        "name": "Apocalisse (III)",
+        "text": "Stabile.\n<b>Risposta Obbligata</b>: Dopo che Apocalisse ha assunto questa sembianza, curagli 3 danni.",
+        "traits": "Gigante. Mutante."
+    }
 ]

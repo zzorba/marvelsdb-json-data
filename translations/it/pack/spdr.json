@@ -21,14 +21,14 @@
     {
         "code": "31002b",
         "name": "SP//dr",
-        "text": "Permanente. Il riquadro di testo di queta carta non può essere considerato come se fosse vuoto.\n<i>In Azione!</i> — <b>Interruzione Obbligata:</b> Quando giri queta carta su questo lato, gira Tuta SP//dr sul suo lato [[Attivo]]. Assegna questa carta a Tuta SP//dr, spostando tutti i gettoni da questa carta e dalle carte ad essa assegnate a Tuta SP//dr.",
+        "text": "Permanente. Il riquadro di testo di questa carta non può essere considerato come se fosse vuoto.\n<i>In Azione!</i> — <b>Interruzione Obbligata:</b> Quando giri queta carta su questo lato, gira Tuta SP//dr sul suo lato [[Attivo]]. Assegna questa carta a Tuta SP//dr, spostando tutti i gettoni da questa carta e dalle carte ad essa assegnate a Tuta SP//dr.",
         "traits": "Interfaccia. Pilota."
     },
     {
         "code": "31003",
         "name": "VEN#m",
-        "text": "[star] VEN#m riceve +1 INT e +1 ATT per ogni gettone sym su di lei.\n<b>Risposta Eroe:</b> Dopo che VEN#m è entrata in gioco, colloca 1 gettone sym su di lei per ogni risorsa generata con la capacità  <i>\"Coefficiente di Sincronizzazione\"</i> di Tuta Sp//dr che hai usato per pagare questa carta.",
-        "subname": "Addy Brock"
+        "subname": "Addy Brock",
+        "text": "[star] VEN#m riceve +1 INT e +1 ATT per ogni gettone sym su di lei.\n<b>Risposta Eroe:</b> Dopo che VEN#m è entrata in gioco, colloca 1 gettone sym su di lei per ogni risorsa generata con la capacità  <i>\"Coefficiente di Sincronizzazione\"</i> di Tuta Sp//dr che hai usato per pagare questa carta."
     },
     {
         "code": "31004",
@@ -65,7 +65,7 @@
     {
         "code": "31009",
         "flavor": "\"Peni,ascolta i nostri ordini con molta attenzione\"",
-        "name": "Centro di Comando SP//dr ",
+        "name": "Centro di Comando SP//dr",
         "text": "<b>Azione Eroe:</b> Esaurisci Centro di Comando SP//dr e 1 miglioria [[Interfaccia]]  → pesca 1 carta.\n<b>Azione Eroe:</b> Esaurisci Centro di Comando SP//dr, scegli e scarta 1 carta dalla tua mano → ripristina 1 miglioria [[Interfaccia]].",
         "traits": "Luogo."
     },
@@ -118,7 +118,7 @@
     {
         "code": "31017",
         "flavor": "\"Adesso avrai tutto il pomeriggio per poter riflettere sulle scelte che hai fatto nella vita. Non ringraziarmi.\" — Spider-Man",
-        "name": "Thwip Thwip!",
+        "name": "Thwip! Thwip!",
         "text": "<b>Azione Eroe:</b> Infliggi 1 danno a 1 personaggio [[Web-Warrior]] che controlli → stordisci un totale di 2 volte fino a 2 nemici.",
         "traits": "Superpotere."
     },
@@ -137,16 +137,16 @@
     {
         "code": "31021",
         "name": "Spider-Ham",
-        "text": "Gioca solo se controlli carte [[Web-Warrior]].\n[star] <b>Risposta Obbligata:</b> Dopo che Spider-Ham ha attaccato o è intervenuto, scarta 1 carta dalla cima del mazzo degli incontri. Per ogni icona potenziamento ([boost]) scartata in questo modo, infliggi 1 danno a Spider-Ham.",
-        "traits": "Cartone Animato. Web-Warrior.",
-        "subname": "Peter Porker"
+        "subname": "Peter Porker",
+        "text": "Gioca solo se controlli carte [[Web-Warrior]].\n[star]<b>Risposta Obbligata:</b> Dopo che Spider-Ham ha attaccato o è intervenuto, scarta 1 carta dalla cima del mazzo degli incontri. Per ogni icona potenziamento ([boost]) scartata in questo modo, infliggi 1 danno a Spider-Ham.",
+        "traits": "Cartone Animato. Web-Warrior."
     },
     {
         "code": "31022",
         "name": "Spider-Man",
+        "subname": "Otto Octavius",
         "text": "Gioca solo se controlli carte [[Web-Warrior]].\n<b>Risposta:</b> Dopo che hai giocato Spider-Man dalla tua mano, ripristina 1 miglioria che controlli. Se quella miglioria possiede il tratto [[Tecnologia]], pesca 1 carta.",
-        "traits": "Web-Warrior.",
-        "subname": "Otto Octavius"
+        "traits": "Web-Warrior."
     },
     {
         "code": "31023",

@@ -7,18 +7,18 @@
     },
     {
         "code": "44001b",
+        "flavor": "\"A volte sono un mutante, altre no. Dipende a chi lo chiedete.\"",
         "name": "Wade Wilson",
         "text": "<i>Infrangere la Quarta Parete</i> — <b>Azione</b>: Scarta 1 carta dalla tua mano → cerca nel tuo mazzo 1 evento del set Deadpool e aggiungilo alla tua mano. (Limite di una volta per round.)",
-        "traits": "Mercenario. Mutante.",
-        "flavor": "\"A volte sono un mutante, altre no. Dipende a chi lo chiedete.\""
+        "traits": "Mercenario. Mutante."
     },
     {
         "code": "44002",
-        "name": "Cable",
-        "text": "[star] Cable riceve +1 INT and +1 ATT per ogni gettone accelerazione sulla trama principale (fino a un massimo di +3 INT e +3 ATT.)",
-        "traits": "Psionico. X-Force.",
         "flavor": "\"Wade, sei il migliore!\"",
-        "subname": "Nathan Summers"
+        "name": "Cable",
+        "subname": "Nathan Summers",
+        "text": "[star] Cable riceve +1 INT and +1 ATT per ogni gettone accelerazione sulla trama principale (fino a un massimo di +3 INT e +3 ATT.)",
+        "traits": "Psionico. X-Force."
     },
     {
         "code": "44003",
@@ -27,23 +27,23 @@
     },
     {
         "code": "44004",
+        "flavor": "\"Farà male a me e farà malissimo a te.\" — Deadpool",
         "name": "Massimo Sforzo",
         "text": "<b>Azione</b> <i>(attacco)</i>: TSubisci un qualsiasi ammontare di danni (fino a un massimo di danni pari ai tuoi punti ferita rimanenti) → infliggi un pari ammontare di danni a un nemico.",
-        "traits": "Attacco.",
-        "flavor": "\"Farà male a me e farà malissimo a te.\" — Deadpool"
+        "traits": "Attacco."
     },
     {
         "code": "44005",
+        "flavor": "\"Qui dice che per sconfiggerti basta smutandarti.\" — Deadpool",
         "name": "Conoscenza del Meta",
-        "text": "<b>Interruzione Eroe</b>: Quando viene rivelata una carta incontro, annulla tutti i suoi effetti e scartala. Subisci 1 danno per ogni icona ([star] and [boost]) nel campo di potenziamento di quella carta.",
-        "flavor": "\"Qui dice che per sconfiggerti basta smutandarti.\" — Deadpool"
+        "text": "<b>Interruzione Eroe</b>: Quando viene rivelata una carta incontro, annulla tutti i suoi effetti e scartala. Subisci 1 danno per ogni icona ([star] and [boost]) nel campo di potenziamento di quella carta."
     },
     {
         "code": "44006",
+        "flavor": "\"Ragazzi! Vi dispiace se mi unisco a voi?\" — Deadpool",
         "name": "\"Ehilààà!\"",
         "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Subisci un qualsiasi ammontare di danni (fino a un massimo di danni pari ai tuoi punti ferita rimanenti) → rimuovi un pari ammontare di minacce da una trama.",
-        "traits": "Intervento.",
-        "flavor": "\"Ragazzi! Vi dispiace se mi unisco a voi?\" — Deadpool"
+        "traits": "Intervento."
     },
     {
         "code": "44007",
@@ -52,10 +52,10 @@
     },
     {
         "code": "44008",
+        "flavor": "\"Qualcuno ha detto 'Chimichanga'?! Ah, no, scusate. Era solo il suono del mio cervello che rigenerava un pezzo.\" — Deadpool",
         "name": "Furgoncino dei Chimichanga",
         "text": "<b>Risposta</b>:Dopo che un'identità ha effettuato un recupero base, esaurisci Furgoncino dei Chimichanga → ripristina quell'identità.",
-        "traits": "Luogo.",
-        "flavor": "\"Qualcuno ha detto 'Chimichanga'?! Ah, no, scusate. Era solo il suono del mio cervello che rigenerava un pezzo.\" — Deadpool"
+        "traits": "Luogo."
     },
     {
         "code": "44009",
@@ -70,10 +70,10 @@
     },
     {
         "code": "44011",
+        "flavor": "\"E' proprio lì che ti volevo.\" — Deadpool",
         "name": "Non è Finita...",
         "text": "Assegnala alla trama principale.\nAumenta di 2 il valore di minaccia bersaglio della trama con questa miglioria per ogni gettone accelerazione su di essa.",
-        "traits": "Condizione.",
-        "flavor": "\"E' proprio lì che ti volevo.\" — Deadpool"
+        "traits": "Condizione."
     },
     {
         "code": "44012",
@@ -84,31 +84,31 @@
     {
         "code": "44013",
         "name": "Dogpool",
+        "subname": "Wilson",
         "text": "Ritorsione 1. Robustezza.\n<b>Quando Sconfitta</b>: Infliggi 1 danno a un nemico.",
-        "traits": "Deadpool Corps.",
-        "subname": "Wilson"
+        "traits": "Deadpool Corps."
     },
     {
         "code": "44014",
         "name": "Headpool",
+        "subname": "Wade \"Shorty\" Wilson",
         "text": "[star] <b>Risposta</b>: Dopo che Headpool ha attaccato e danneggiato un gregario, quel gregario attacca un altro nemico a tua scelta.",
-        "traits": "Deadpool Corps. Zombie.",
-        "subname": "Wade \"Shorty\" Wilson"
+        "traits": "Deadpool Corps. Zombie."
     },
     {
         "code": "44015",
-        "name": "Kidpool",
-        "text": "[star] Gli attacchi di Kidpool ottengono Perforante.",
-        "traits": "Deadpool Corps.",
         "flavor": "\"Congratulazioni per avermi messo nel mazzo.\"",
-        "subname": "Wade \"Tito\" Wilson"
+        "name": "Kidpool",
+        "subname": "Wade \"Tito\" Wilson",
+        "text": "[star] Gli attacchi di Kidpool ottengono Perforante.",
+        "traits": "Deadpool Corps."
     },
     {
         "code": "44016",
         "name": "Lady Deadpool",
+        "subname": "Wanda Wilson",
         "text": "<b>Quando Sconfitta</b>: Sconfiggi 1 gregario non [[ELITE]].",
-        "traits": "Deadpool Corps.",
-        "subname": "Wanda Wilson"
+        "traits": "Deadpool Corps."
     },
     {
         "code": "44017",
@@ -118,10 +118,10 @@
     },
     {
         "code": "44018",
+        "flavor": "BOING!",
         "name": "Smontante",
         "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 5 danni a un nemico. Stordisci quel nemico.",
-        "traits": "Attacco.",
-        "flavor": "BOING!"
+        "traits": "Attacco."
     },
     {
         "code": "44019",
@@ -130,9 +130,9 @@
     },
     {
         "code": "44020",
+        "flavor": "\"E quella la chiami trazione?\" — Sergente Deadpool",
         "name": "Preparrabbiatevi",
-        "text": "Massimo 1 per mazzo.\n<b>Azione</b>: Ripristina 1 alleato. Quell'alleato riceve +1 ATT fino alla fine della fase",
-        "flavor": "\"E quella la chiami trazione?\" — Sergente Deadpool"
+        "text": "Massimo 1 per mazzo.\n<b>Azione</b>: Ripristina 1 alleato. Quell'alleato riceve +1 ATT fino alla fine della fase"
     },
     {
         "code": "44021",
@@ -146,16 +146,16 @@
     },
     {
         "code": "44023",
+        "flavor": "\"A chi toccava pool-ire la piscina questa settimana?!\" — Deadpool",
         "name": "Pool-izie di Primavera",
         "text": "Massimo 1 per mazzo.\n<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 5 minacce dalla trama principale, ignorando l'icona crisi ([crisis]). Rimuovi 1 minaccia da ogni trama per ogni [crisis], [acceleration], [amplify], e [hazard] in gioco.",
-        "traits": "Intervento.",
-        "flavor": "\"A chi toccava pool-ire la piscina questa settimana?!\" — Deadpool"
+        "traits": "Intervento."
     },
     {
         "code": "44024",
+        "flavor": "\"♫ Voglio una vita... spericolata! Anche se sento... arrivar la tranvata! ♪\" — Deadpool",
         "name": "Vita Spericolata",
-        "text": "Vittoria 0.\nOgni identità riceve +2 limite di mano.",
-        "flavor": "\"♫ Voglio una vita... spericolata! Anche se sento... arrivar la tranvata! ♪\" — Deadpool"
+        "text": "Vittoria 0.\nOgni identità riceve +2 limite di mano."
     },
     {
         "code": "44025",
@@ -179,17 +179,17 @@
     },
     {
         "code": "44029",
+        "flavor": "\"Adesso sono io il migliore in tutto quello che fa Wolverine.\" — Deadpool",
         "name": "Fattore Rigenerante",
         "text": "Massimo 1 per giocatore.\n<b>Risposta</b>: Dopo che la Fase dei Giocatori è iniziata, esaurisci Fattore Rigenerante → cura 2 danni alla tua identità.",
-        "traits": "Superpotere.",
-        "flavor": "\"Adesso sono io il migliore in tutto quello che fa Wolverine.\" — Deadpool"
+        "traits": "Superpotere."
     },
     {
         "code": "44030",
+        "flavor": "\"Accondisc-che? Non conosco il significato di quella parola.\" — Deadpool",
         "name": "Appiccicacia",
         "text": "Massimo 1 per mazzo.\n<b>Azione Eroe</b>: Spendi [physical] ed esaurisci questa carta → ripristina il tuo eroe.",
-        "traits": "Condizione.",
-        "flavor": "\"Accondisc-che? Non conosco il significato di quella parola.\" — Deadpool"
+        "traits": "Condizione."
     },
     {
         "code": "44031",
@@ -200,23 +200,23 @@
     {
         "code": "44043",
         "name": "Bob, Agente dell' Hydra",
+        "subname": "Bob Dobalina",
         "text": "<b>Risposta</b>: Dopo che Bob, Agente dell'Hydra è entrato in gioco, infliggi 2 danni a un nemico oppure rimuovi 1 minaccia da una trama.",
-        "traits": "Hydra.",
-        "subname": "Bob Dobalina"
+        "traits": "Hydra."
     },
     {
         "code": "44044",
         "name": "Testata Negasonica Mutante",
+        "subname": "Ellie Phimister",
         "text": "<b>Interruzione</b>: Quando viene rivelata un'insidia, infliggi 2 danni a Testata Negasonica Mutante → annulla gli effetti \"<b>Quando Rivelata</b>\" di quell'insidia.",
-        "traits": "Psionico. X-Force.",
-        "subname": "Ellie Phimister"
+        "traits": "Psionico. X-Force."
     },
     {
         "code": "44045",
+        "flavor": "Cos'è bianco e nero e tutto rosso?",
         "name": "Pandapool",
         "text": "Robustezza.",
-        "traits": "Deadpool Corps.",
-        "flavor": "Cos'è bianco e nero e tutto rosso?"
+        "traits": "Deadpool Corps."
     },
     {
         "code": "44046",
@@ -230,16 +230,16 @@
     },
     {
         "code": "44048",
+        "flavor": "\"Questa mano potrebbe essere molto meglio!\" — Deadpool",
         "name": "Mulligan",
-        "text": "Se hai giocato un'altra carta in questa fase non puoi giocare questa carta..\n<b>Azione</b>: Scarta la tua mano. Pesca una nuova mano. <i>(pesca fino al tuo limite di mano.)</i>",
-        "flavor": "\"Questa mano potrebbe essere molto meglio!\" — Deadpool"
+        "text": "Se hai giocato un'altra carta in questa fase non puoi giocare questa carta..\n<b>Azione</b>: Scarta la tua mano. Pesca una nuova mano. <i>(pesca fino al tuo limite di mano.)</i>"
     },
     {
         "code": "44049",
+        "flavor": "Questa astronave è la base operativa mobile dei Deadpool Corps'.",
         "name": "Nave dei Deadpool Corps",
         "text": "<b>Azione</b>: Esaurisci Nave dei Deadpool Corps e distribuisci 1 carta incontro a faccia in giù a te stesso → metti in gioco 1 alleato 'Pool dalla tua mano.",
-        "traits": "Veicolo.",
-        "flavor": "Questa astronave è la base operativa mobile dei Deadpool Corps'."
+        "traits": "Veicolo."
     },
     {
         "code": "44050",
@@ -271,10 +271,10 @@
     },
     {
         "code": "44055",
+        "flavor": "\"Fwoom, Ksh! Fwoom, Kssssh!\" — Kidpool",
         "name": "Lame Laser",
         "text": "Conta come 2 carte con Restrizione. Massimo 1 per mazzo.\nIl tuo eroe riceve +ATT per ogni [crisis], [acceleration], [amplify], e [hazard] in gioco (fino a un massimo di +4 ATT).",
-        "traits": "Arma.",
-        "flavor": "\"Fwoom, Ksh! Fwoom, Kssssh!\" — Kidpool"
+        "traits": "Arma."
     },
     {
         "code": "44056",
