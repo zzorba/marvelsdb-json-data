@@ -1,186 +1,156 @@
 [
-	{
-		"code": "03001a",
-		"flavor": "\"Il mio dovere verso la nazione viene prima, costi quel che costi!\"",
-		"name": "Capitan America",
-		"subname": "",
-		"text": "\"Ho tutto il giorno libero!\" — <b>Azione</b>: Scarta una carta dalla tua mano → ripristina Capitan America. (Limite di una volta per round.)",
-		"traits": "Avenger. Soldato."
-	},
-	{
-		"code": "03001b",
-		"flavor": "",
-		"name": "Steve Rogers",
-		"subname": "",
-		"text": "Leggenda Vivente — Riduci di 1 il costo del primo alleato giocato ogni round.\n<b>Preparazione</b>: Cerca nel tuo mazzo e nella tua pila degli scarti la miglioria Scudo di Capitan America e aggiungila alla tua mano. Mescola il tuo mazzo.",
-		"traits": "S.H.I.E.L.D. Soldato."
-	},
-	{
-		"code": "03002",
-		"flavor": "\"Cap, hai detto che dovevamo combattere come una squadra! Voglio venire con te!\"",
-		"name": "Agente 13",
-		"subname": "Sharon Carter",
-		"text": "<b>Risposta</b>: Dopo che Agente 13 è entrata in gioco, rimuovi 2 minacce da una trama.",
-		"traits": "S.H.I.E.L.D."
-	},
-	{
-		"code": "03003",
-		"flavor": "\"Nessuno muore mentre sono di guardia.\" -- Capitan America",
-		"name": "Determinazione Ardente",
-		"subname": "",
-		"text": "<b>Azione Eroe</b>: Capitan America riceve +1 INT fino alla fine della fase. Pesca 1 carta.",
-		"traits": "Superpotere."
-	},
-	{
-		"code": "03004",
-		"flavor": "\"No, spostati tu.\" -- Capitan America",
-		"name": "Colpo Eroico",
-		"subname": "",
-		"text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 6 danni a un nemico. Se hai pagato questa carta usando almeno una [physical], stordisci quel nemico.",
-		"traits": "Attacco."
-	},
-	{
-		"code": "03005",
-		"flavor": "\"Tutto qui quello che sai fare?\" -- Capitan America",
-		"name": "Parata di Scudo",
-		"subname": "",
-		"text": "<b>Interruzione</b> <i>(difesa)</i>: Quando stai per subire un qualsiasi ammontare di danni, esaurisci Scudo di Capitan America → previeni tutti quei danni.",
-		"traits": "Difesa."
-	},
-	{
-		"code": "03006",
-		"flavor": "\"Sharon! Abbassati!\" -- Capitan America",
-		"name": "Lancio dello Scudo",
-		"subname": "",
-		"text": "<b>Azione Eroe</b> <i>(attacco)</i>: Scarta X carte dalla tua mano, poi rimetti Scudo di Capitan America dal gioco nella tua mano → infliggi 4 danni a X nemici.",
-		"traits": "Attacco. Superpotere."
-	},
-	{
-		"code": "03007",
-		"flavor": "Anche Capitan America ha bisogno di un posto dove stare tranquillo e riposare.",
-		"name": "Appartamento di Steve",
-		"subname": "",
-		"text": "<b>Azione Alter Ego</b>: Esaurisci Appartamento di Steve → pesca 1 carta e cura 1 danno a Steve Rogers.",
-		"traits": "Luogo."
-	},
-	{
-		"code": "03008",
-		"flavor": "\"Un soldato, anche un super-soldato, è forte soltanto quanto i suoi ideali.\" -- Steve Rogers",
-		"name": "Elmo di Capitan America",
-		"subname": "",
-		"text": "<b>Interruzione</b>: Quando Capitan America sta per essere sconfitto, regola invece il suo indicatore dei punti ferita a 1. Poi scarta questa carta.",
-		"traits": "Armatura."
-	},
-	{
-		"code": "03009",
-		"flavor": "\"Questo scudo è un simbolo di libertà.\" -- Capitan America",
-		"name": "Scudo di Capitan America",
-		"subname": "",
-		"text": "Restrizione. <i>(Massimo 2 carte con Restrizione per ogni giocatore.)</i>\nCapitan America riceve +1 DIF e ottiene ritorsione 1.",
-		"traits": "Oggetto."
-	},
-	{
-		"code": "03010",
-		"flavor": "\"Il siero ha dato a Cap la sua super-forza. Ma il suo cuore, la sua ferrea determinazione -- Steve li possedeva già fin da prima che impugnasse lo scudo\" -- Sharon Carter",
-		"name": "Siero del Super-Soldato",
-		"subname": "",
-		"text": "<b>Risorsa</b>: Esaurisci Siero del Super-Soldato → genera [physical].",
-		"traits": "Item."
-	},
-	{
-		"code": "03011",
-		"flavor": "",
-		"name": "Falcon",
-		"subname": "Sam Wilson",
-		"text": "<b>Risposta</b>: Dopo che Falcon è entrato in gioco, guarda 3 carte dalla cima del mazzo incontri. Per ogni insidia guardata in questo modo, rimuovi 1 minaccia da una trama.",
-		"traits": "Aereo. Avenger."
-	},
-	{
-		"code": "03013",
-		"flavor": "Avanti, scoiattoli, tutti addosso!.",
-		"name": "Squirrel Girl",
-		"subname": "Doreen Green",
-		"text": "<b>Risposta</b>: Dopo che Squirrel Girl è entrata in gioco, infliggi 1 danno a ogni nemico.",
-		"traits": "Avenger."
-	},
-	{
-		"code": "03014",
-		"flavor": "È l'ora della resa dei conti!.",
-		"name": "Wonder Man",
-		"subname": "Simon Williams",
-		"text": "[star] Come costo aggiuntivo per attaccare con Wonder Man, devi scartare 1 carta dalla tua mano.",
-		"traits": "Avenger."
-	},
-	{
-		"code": "03015",
-		"flavor": "",
-		"name": "Avengers Uniti!",
-		"subname": "",
-		"text": "Massimo 1 per round.\n<b>Azione Eroe</b></i>: Ripristina ogni personaggio [[Avenger]] che controlli. Fino alla fine della fase, ogni personaggio [[Avenger]] in gioco riceve +1 INT e +1 ATT.",
-		"traits": ""
-	},
-	{
-		"code": "03017",
-		"flavor": "\"Per fortuna ho portato degli amici.\" -- Capitan America",
-		"name": "L'Unione Fa la Forza",
-		"subname": "",
-		"text": "<b>Azione</b>: Esaurisci un qualsiasi numero di alleati che controlli → pesca 1 carta per ogni alleato esaurito in questo modo.",
-		"traits": ""
-	},
-	{
-		"code": "03019",
-		"flavor": "",
-		"name": "Quinjet",
-		"subname": "",
-		"text": "<b>Risposta:</b> Dopo che il tuo turno è iniziato, colloca 1 gettone tempo su Quinjet.\n<b>Azione:</b> Metti in gioco dalla tua mano 1 alleato [[Avenger]] dal costo stampato pari o inferiore al numero di gettoni tempo su Quinjet. Poi scarta questa carta.",
-		"traits": "Avenger. Veicolo."
-	},
-	{
-		"code": "03024",
-		"flavor": "",
-		"name": "Torre degli Avengers",
-		"subname": "",
-		"text": "Se ogni tuo alleato possiede il tratto [[Avenger]], aumenta di 1 il tuo limite di alleati.\n<b>Azione:</b> Esaurisci Torre degli Avengers → riduci di 1 il costo del successivo alleato [[Avenger]] giocato in questa fase.",
-		"traits": "Avenger. Luogo."
-	},
-	{
-		"code": "03025",
-		"flavor": "",
-		"name": "Avenger Onorario",
-		"subname": "",
-		"text": "Gioca solo se la tua identità possiede il tratto [[Avenger]].\nAssegna a un personaggio amico.\nIl personaggio con questa miglioria riceve +1 punti ferita e ottiene il tratto [[Avenger]].",
-		"traits": "Titolo."
-	},
-	{
-		"code": "03031",
-		"flavor": "\"Devo preoccuparmi di lui?\" -- Spider-Man",
-		"name": "Infuriato",
-		"subname": "",
-		"text": "Assegna a un alleato. Massimo 1 per alleato.\nL'alleato con questa miglioria riceve +2 ATT e subisce +1 danno conseguente dopo che ha attaccato.",
-		"traits": "Condizione."
-	},
-	{
-		"code": "03032",
-		"flavor": "",
-		"name": "Pedinato",
-		"subname": "",
-		"text": "Assegna a una trama secondaria. Massimo 1 per trama.\n<b>Risposta</b>: Quando la trama con questa miglioria è sconfitta, infliggi 4 danni a un nemico.",
-		"traits": ""
-	},
-	{
-		"code": "03033",
-		"flavor": "\"Ma non le finiscono mai le munizioni?\" -- Capitan America",
-		"name": "Difesa Esperta",
-		"subname": "",
-		"text": "<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando il tuo eroe difende da un attacco, riceve +3 DIF per quell'attacco.",
-		"traits": "Difesa."
-	},
-	{
-		"code": "03034",
-		"flavor": "",
-		"name": "Consapevolezza Potenziata",
-		"subname": "",
-		"text": "Utilizzo (3 gettoni mente).\n<b>Risorsa Eroe</b>: Esaurisci Consapevolezza Potenziata e rimuovi 1 gettone mente da essa → genera [mental].",
-		"traits": "Condizione."
-	}
+    {
+        "code": "03001a",
+        "flavor": "\"Il mio dovere verso la nazione viene prima, costi quel che costi!\"",
+        "name": "Capitan America",
+        "text": "\"Ho tutto il giorno libero!\" — <b>Azione</b>: Scarta una carta dalla tua mano → ripristina Capitan America. (Limite di una volta per round.)",
+        "traits": "Avenger. Soldato."
+    },
+    {
+        "code": "03001b",
+        "name": "Steve Rogers",
+        "text": "Leggenda Vivente — Riduci di 1 il costo del primo alleato giocato ogni round.\n<b>Preparazione</b>: Cerca nel tuo mazzo e nella tua pila degli scarti la miglioria Scudo di Capitan America e aggiungila alla tua mano. Mescola il tuo mazzo.",
+        "traits": "S.H.I.E.L.D. Soldato."
+    },
+    {
+        "code": "3002",
+        "flavor": "\"Cap, hai detto che dovevamo combattere come una squadra! Voglio venire con te!\"",
+        "name": "Agente 13",
+        "subname": "Sharon Carter",
+        "text": "<b>Risposta</b>: Dopo che Agente 13 è entrata in gioco, rimuovi 2 minacce da una trama.",
+        "traits": "S.H.I.E.L.D."
+    },
+    {
+        "code": "3003",
+        "flavor": "\"Nessuno muore mentre sono di guardia.\" -- Capitan America",
+        "name": "Determinazione Ardente",
+        "text": "<b>Azione Eroe</b>: Capitan America riceve +1 INT fino alla fine della fase. Pesca 1 carta.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "3004",
+        "flavor": "\"No, spostati tu.\" -- Capitan America",
+        "name": "Colpo Eroico",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 6 danni a un nemico. Se hai pagato questa carta usando almeno una [physical], stordisci quel nemico.",
+        "traits": "Attacco."
+    },
+    {
+        "code": "3005",
+        "flavor": "\"Tutto qui quello che sai fare?\" -- Capitan America",
+        "name": "Parata di Scudo",
+        "text": "<b>Interruzione</b> <i>(difesa)</i>: Quando stai per subire un qualsiasi ammontare di danni, esaurisci Scudo di Capitan America → previeni tutti quei danni.",
+        "traits": "Difesa."
+    },
+    {
+        "code": "3006",
+        "flavor": "\"Sharon! Abbassati!\" -- Capitan America",
+        "name": "Lancio dello Scudo",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Scarta X carte dalla tua mano, poi rimetti Scudo di Capitan America dal gioco nella tua mano → infliggi 4 danni a X nemici.",
+        "traits": "Attacco. Superpotere."
+    },
+    {
+        "code": "3007",
+        "flavor": "Anche Capitan America ha bisogno di un posto dove stare tranquillo e riposare.",
+        "name": "Appartamento di Steve",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Appartamento di Steve → pesca 1 carta e cura 1 danno a Steve Rogers.",
+        "traits": "Luogo."
+    },
+    {
+        "code": "3008",
+        "flavor": "\"Un soldato, anche un super-soldato, è forte soltanto quanto i suoi ideali.\" -- Steve Rogers",
+        "name": "Elmo di Capitan America",
+        "text": "<b>Interruzione</b>: Quando Capitan America sta per essere sconfitto, regola invece il suo indicatore dei punti ferita a 1. Poi scarta questa carta.",
+        "traits": "Armatura."
+    },
+    {
+        "code": "3009",
+        "flavor": "\"Questo scudo è un simbolo di libertà.\" -- Capitan America",
+        "name": "Scudo di Capitan America",
+        "text": "Restrizione. <i>(Massimo 2 carte con Restrizione per ogni giocatore.)</i>\nCapitan America riceve +1 DIF e ottiene ritorsione 1.",
+        "traits": "Oggetto."
+    },
+    {
+        "code": "3010",
+        "flavor": "\"Il siero ha dato a Cap la sua super-forza. Ma il suo cuore, la sua ferrea determinazione -- Steve li possedeva già fin da prima che impugnasse lo scudo\" -- Sharon Carter",
+        "name": "Siero del Super-Soldato",
+        "text": "<b>Risorsa</b>: Esaurisci Siero del Super-Soldato → genera [physical].",
+        "traits": "Item."
+    },
+    {
+        "code": "3011",
+        "name": "Falcon",
+        "subname": "Sam Wilson",
+        "text": "<b>Risposta</b>: Dopo che Falcon è entrato in gioco, guarda 3 carte dalla cima del mazzo incontri. Per ogni insidia guardata in questo modo, rimuovi 1 minaccia da una trama.",
+        "traits": "Aereo. Avenger."
+    },
+    {
+        "code": "3013",
+        "flavor": "Avanti, scoiattoli, tutti addosso!.",
+        "name": "Squirrel Girl",
+        "subname": "Doreen Green",
+        "text": "<b>Risposta</b>: Dopo che Squirrel Girl è entrata in gioco, infliggi 1 danno a ogni nemico.",
+        "traits": "Avenger."
+    },
+    {
+        "attack_text": "Come costo aggiuntivo per attaccare con Wonder Man, devi scartare 1 carta dalla tua mano.",
+        "code": "3014",
+        "flavor": "È l'ora della resa dei conti!.",
+        "name": "Wonder Man",
+        "subname": "Simon Williams",
+        "traits": "Avenger."
+    },
+    {
+        "code": "3015",
+        "name": "Avengers Uniti!",
+        "text": "Massimo 1 per round.\n<b>Azione Eroe</b></i>: Ripristina ogni personaggio [[Avenger]] che controlli. Fino alla fine della fase, ogni personaggio [[Avenger]] in gioco riceve +1 INT e +1 ATT."
+    },
+    {
+        "code": "3017",
+        "flavor": "\"Per fortuna ho portato degli amici.\" -- Capitan America",
+        "name": "L'Unione Fa la Forza",
+        "text": "<b>Azione</b>: Esaurisci un qualsiasi numero di alleati che controlli → pesca 1 carta per ogni alleato esaurito in questo modo."
+    },
+    {
+        "code": "3019",
+        "name": "Quinjet",
+        "text": "<b>Risposta:</b> Dopo che il tuo turno è iniziato, colloca 1 gettone tempo su Quinjet.\n<b>Azione:</b> Metti in gioco dalla tua mano 1 alleato [[Avenger]] dal costo stampato pari o inferiore al numero di gettoni tempo su Quinjet. Poi scarta questa carta.",
+        "traits": "Avenger. Veicolo."
+    },
+    {
+        "code": "3024",
+        "name": "Torre degli Avengers",
+        "text": "Se ogni tuo alleato possiede il tratto [[Avenger]], aumenta di 1 il tuo limite di alleati.\n<b>Azione:</b> Esaurisci Torre degli Avengers → riduci di 1 il costo del successivo alleato [[Avenger]] giocato in questa fase.",
+        "traits": "Avenger. Luogo."
+    },
+    {
+        "code": "3025",
+        "name": "Avenger Onorario",
+        "text": "Gioca solo se la tua identità possiede il tratto [[Avenger]].\nAssegna a un personaggio amico.\nIl personaggio con questa miglioria riceve +1 punti ferita e ottiene il tratto [[Avenger]].",
+        "traits": "Titolo."
+    },
+    {
+        "code": "3031",
+        "flavor": "\"Devo preoccuparmi di lui?\" -- Spider-Man",
+        "name": "Infuriato",
+        "text": "Assegna a un alleato. Massimo 1 per alleato.\nL'alleato con questa miglioria riceve +2 ATT e subisce +1 danno conseguente dopo che ha attaccato.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "3032",
+        "name": "Pedinato",
+        "text": "Assegna a una trama secondaria. Massimo 1 per trama.\n<b>Risposta</b>: Quando la trama con questa miglioria è sconfitta, infliggi 4 danni a un nemico."
+    },
+    {
+        "code": "3033",
+        "flavor": "\"Ma non le finiscono mai le munizioni?\" -- Capitan America",
+        "name": "Difesa Esperta",
+        "text": "<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando il tuo eroe difende da un attacco, riceve +3 DIF per quell'attacco.",
+        "traits": "Difesa."
+    },
+    {
+        "code": "3034",
+        "name": "Consapevolezza Potenziata",
+        "text": "Utilizzo (3 gettoni mente).\n<b>Risorsa Eroe</b>: Esaurisci Consapevolezza Potenziata e rimuovi 1 gettone mente da essa → genera [mental].",
+        "traits": "Condizione."
+    }
 ]

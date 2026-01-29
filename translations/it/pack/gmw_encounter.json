@@ -1,738 +1,692 @@
 [
-	{
-		"code": "16025",
-		"name": "Avvizzimento",
-		"text": "<b><i>Fai ricevere al giocatore Groot.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n\u2022 Esaurisci il tuo alter ego → rimuovi dal gioco Avvizzimento.\n\u2022 Rimuovi 3 gettoni crescita da Groot. Se nessun gettone crescita è stato rimosso in questo modo, questa carta ottiene Impulso. Scarta questa incombenza."
-	},
-	{
-		"code": "16026",
-		"flavor": "Furnax infuria sul pianeta d'origine di Groot, il Pianeta X, seminando morte e distruzione con un semplice tocco.",
-		"name": "Incendio Devastante",
-		"text": "<b>Risposta Obbligata:</b> Dopo che la Fase del Criminale è iniziata, infliggi 2 danni indiretti a ogni giocatore."
-	},
-	{
-		"code": "16027",
-		"name": "Furnax",
-		"text": "[star] <b>Risposta Obbligata:</b> Dopo che Furnax si è attivato, infliggi 2 danni indiretti a ogni giocatore.\n<i>(Gregario nemesi di Groot.)</i>",
-		"traits": "Leviathon."
-	},
-	{
-		"code": "16028",
-		"name": "Soffiare sulle Fiamme",
-		"text": "<b>Quando Rivelata:</b> Subisci 2 danni indiretti. Se Incendio Devastante è in gioco, subisci 1 danno indiretto aggiuntivo. Se Furnax è in gioco, subisci 1 danno indiretto aggiuntivo."
-	},
-	{
-		"code": "16053",
-		"name": "Crisi su Mezzomondo",
-		"text": "<b><i>Fai ricevere al giocatore Rocket Raccoon.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n\u2022 Esaurisci il tuo alter ego → rimuovi dal gioco Crisi su Mezzomondo.\n\u2022 Scarta la miglioria dal costo più alto che controlli. Se nessuna miglioria è stata scartata in questo modo, questa carta ottiene Impulso. Scarta questa incombenza."
-	},
-	{
-		"code": "16054",
-		"flavor": "\"Lo so che odi quella parola. Ma ehi, se sembra una papera, starnazza come una papera e cammina come una papera... è un procione!\" - Blackjack O'Hare",
-		"name": "Vendetta"
-	},
-	{
-		"code": "16055",
-		"flavor": "Hahahahahahahahahahahahahaha!",
-		"name": "Blackjack O'Hare",
-		"text": "Colpo Rapido.\nCriminoso. (Quando questo gregario si attiva, fagli ricevere 1 carta potenziamento.)\n<i>(Gregario nemesi di Rocket Raccoon.)</i>",
-		"traits": "Criminal."
-	},
-	{
-		"code": "16056",
-		"name": "Bazooka di Blackjack",
-		"text": "Assegna a Blackjack O'Hare. Se non puoi farlo, assegna al criminale.\n<b>Azione Eroe:</b> Spendi [mental][mental][mental] → scarta questa carta.",
-		"traits": "Arma. Tecnologia."
-	},
-	{
-		"code": "16057",
-		"flavor": "\"E tu pensi di poterci fare qualcosa?!\" - Blackjack O'Hare",
-		"name": "Invasione Planetaria",
-		"text": "<b>Quando Rivelata:</b> Scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario. Rivela quel gregario, poi irrobustiscilo."
-	},
-	{
-		"code": "16058",
-		"flavor": "<b><i>\"Arrendetevi alla potenza dei Badoon!\"</i></b>",
-		"name": "Drang",
-		"text": "[star] <b>Risposta Obbligata</b>: Dopo che Drang ha tramato, risolvi la capacità \"Caricamento\" di Nave Badoon.",
-		"traits": "Badoon."
-	},
-	{
-		"code": "16059",
-		"name": "Drang",
-		"text": "<b>Quando Rivelata:</b> Se Lancia di Drang è in gioco, fai ricevere 1 carta potenziamento a faccia in giù a Drang; altrimenti, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Lancia di Drang, rivelala e mescola il mazzo degli incontri.\n[star] <b>Risposta Obbligata</b>: Dopo che Drang ha tramato, risolvi la capacità \"Caricamento\" di Nave Badoon.",
-		"traits": "Badoon."
-	},
-	{
-		"code": "16060",
-		"name": "Drang",
-		"text": "<b>Quando Rivelata:</b> Scarta 4[per_hero] carte dalla cima del mazzo degli incontri. Ogni volta che un gregario viene scartato in questo modo, mettilo in gioco impegnato con il giocatore impegnato con meno gregari.\n[star] <b>Risposta Obbligata</b>: Dopo che Drang ha tramato, risolvi la capacità \"Caricamento\" di Nave Badoon.",
-		"traits": "Badoon."
-	},
-	{
-		"code": "16061a",
-		"flavor": "<i>Le soverchianti forze di Drang hanno lanciato un attacco a sorpresa contro la Terra!</i>",
-		"name": "Invasione Terrestre",
-		"text": "<b>Contenuto:</b> Drang (I) e Drang (II). (Drang (II) e Drang(III) invece per la modalità esperto.) Set di incontri Confraternita di Badoon, Comando della Nave, e Standard. 1 set di incontri modulare (Banda di Badoon).\n<b>Preparazione:</b> Metti in gioco l'ambiente Nave di Badoon e il supporto Milano."
-	},
-	{
-		"code": "16061b",
-		"name": "Invasione Terrestre",
-		"text": "[star] <b>Risposta Obbligata</b>: Dopo aver risolto il passo 1 della Fase del Criminale, risolvi la capacità \"Caricamento\" di Nave Badoon.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
-	},
-	{
-		"code": "16062a",
-		"flavor": "<i>I Badoon hanno penetrato le difese della Terra! Vanno respinti prima che sia troppo tardi.</i>",
-		"name": "Proteggere il Pianeta",
-		"text": "<b>Quando Rivelata:</b> Risolvi la capacità \"Caricamento\" di Nave Badoon."
-	},
-	{
-		"code": "16062b",
-		"name": "Proteggere il Pianeta",
-		"text": "[star] <b>Risposta Obbligata</b>: Dopo aver risolto il passo 1 della Fase del Criminale, risolvi la capacità \"Caricamento\" di Nave Badoon.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → scegli se rimuovere 3 minacce da questa trama oppure infliggere 3 danni a un gregario.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
-	},
-	{
-		"code": "16063",
-		"flavor": "<b><i>La nave della Confraternita di Badoon sta caricando i suoi cannoni per un attacco devastante contro gli eroi sotto di essa.</i></b>",
-		"name": "Nave Badoon",
-		"text": "<i>Caricamento</i> — <b>Speciale:</b> Colloca 1 gettone sbarramento su questa carta. Poi, se ci sono 4 o più gettoni sbarramento su questa carta, infliggi 2 danni indiretti a ogni giocatore e rimuovi tutti i gettoni sbarramento da questa carta.",
-		"traits": "Aereo. Veicolo."
-	},
-	{
-		"code": "16064",
-		"name": "Lancia di Drang",
-		"text": "Assegna a Drang.\nDrang ottiene Stabile. (Non può essere stordito o confuso.)\n<b>Azione Eroe:</b> Spendi [mental][physical][physical] → scarta questa carta.",
-		"traits": "Arma."
-	},
-	{
-		"code": "16065",
-		"name": "Ingegnere Badoon",
-		"text": "[star] <b>Risposta Obbligata</b>: Dopo che Ingegnere Badoon ti ha impegnato o si è attivato contro di te, risolvi la capacità \"Caricamento\" di Nave Badoon.\n<hr />\n[star] <b>Potenziamento</b>: Risolvi la capacità \"Caricamento\" di Nave Badoon.",
-		"traits": "Badoon."
-	},
-	{
-		"code": "16066",
-		"name": "Assedio Planetario",
-		"text": "Ostacolo 2[per_hero]. <i>(Quando questa carta viene rivelata, colloca 2[per_hero] minacce su di essa.)</i>\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
-	},
-	{
-		"code": "16067",
-		"name": "Bombardamento",
-		"text": "<b>Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, risolvi la capacità \"Caricamento\" di Nave Badoon.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
-	},
-	{
-		"code": "16068",
-		"name": "Flotta Oppressiva",
-		"text": "Ostacolo 3[per_hero]. <i>Quando questa carta viene rivelata, colloca 3[per_hero] minacce su di essa.)</i>\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
-	},
-	{
-		"code": "16069",
-		"name": "Posizionamento Spaziale",
-		"text": "<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
-	},
-	{
-		"code": "16070",
-		"flavor": "<b><i>\"Ho già una teca pronta ad accogliere le nostre nuove acquisizioni!\"</i></b>",
-		"name": "Collezionista",
-		"text": "<b>Interruzione Obbligata:</b> Quando una carta <i>(giocatore o incontro)</i> in gioco sta per essere collocata in una pila degli scarti, mettila invece nella Collezione a faccia in su.",
-		"traits": "Antico dell'Universo."
-	},
-	{
-		"code": "16071",
-		"name": "Collezionista ",
-		"text": "<b>Quando Rivelata:</b> In ordine di gioco, ogni giocatore deve scegliere se mettere nella Collezione a faccia in su 1 carta dalla cima del suo mazzo oppure subire 3 danni.\n<b>Interruzione Obbligata:</b> Quando una carta <i>(giocatore o incontro)</i> in gioco sta per essere collocata in una pila degli scarti, mettila invece nella Collezione a faccia in su.",
-		"traits": "Antico dell'Universo."
-	},
-	{
-		"code": "16072",
-		"name": "Collezionista",
-		"text": "<b>Quando Rivelata:</b> Metti nella Collezione a faccia in su 1 carta dalla cima del mazzo di ogni giocatore. Colloca 1 minaccia sulla trama principale per ogni carta nella Collezione.\n<b>Interruzione Obbligata:</b> Quando una carta in gioco sta per essere collocata in una pila degli scarti, mettila invece nella Collezione a faccia in su, poi colloca 1 minaccia sulla trama principale.",
-		"traits": "Antico dell'Universo."
-	},
-	{
-		"code": "16073a",
-		"name": "La Grande Collezione",
-		"text": "<b>Contenuto:</b> Collezionista (I) e Collezionista (II). <i>(Collezionista (II) and Collezionista (III) invece per la modalità esperto.)</i> Set di incontri Infiltrarsi nel Museo, Artefatti Galattici e Standard. 1 set di incontri modulare <i>(Guazzabuglio nel Serraglio).</i>\n<b>Preparazione:</b> Crea la zona di gioco Collezione <i>(vedi il regolamento).</i> Metti nella Collezione a faccia in su 1 carta dalla cima del mazzo di ogni giocatore."
-	},
-	{
-		"code": "16073b",
-		"name": "La Grande Collezione",
-		"text": "<b>Azione Eroe:</b> Scegli se esaurire il tuo eroe oppure spendere 2 risorse di qualsiasi tipo → scarta 1 carta dalla Collezione <i>(nella pila degli scarti del suo proprietario).</i> (Limite di una volta per round per giocatore.)\n<b>Se ci sono 5[per_hero] o più carte nella Collezione o se questo stadio è completato, i giocatori perdono la partita.</b>"
-	},
-	{
-		"code": "16074",
-		"name": "Immagine Biogramma",
-		"text": "Assegna a Collezionista.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per subire un qualsiasi ammontare di danni, metti nella Collezione a faccia in su questa carta → previeni tutti quei danni, poi colloca sulla trama principale un ammontare di minacce pari ai danni prevenuti in questo modo.\n<hr />\n[star] <b>Potenziamento</b>: Dopo che questa attivazione è terminata, rivela questa carta.",
-		"traits": "Illusione."
-	},
-	{
-		"code": "16075",
-		"flavor": "<b>\"Nessuno può nascondersi da me.\"</b>",
-		"name": "Monark Starstalker",
-		"text": "Criminoso. <i>(Quando questo gregario si attiva, fagli ricevere 1 carta potenziamento.)</i>",
-		"traits": "Cacciatore di taglie."
-	},
-	{
-		"code": "16076",
-		"name": "Scatola Anonima",
-		"text": "<b>Quando Rivelata:</b> Metti nella Collezione a faccia in su la carta dal costo più basso che controlli. Se non puoi farlo, questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Se ci sono 3[per_hero] o meno carte nella Collezione, metti nella Collezione a faccia in su 1 carta dalla cima del tuo mazzo."
-	},
-	{
-		"code": "16077",
-		"name": "Visione del Cosmo",
-		"text": "<b>Quando Rivelata:</b> Scegli 1 effetto tra:\n- Metti nella Collezione a faccia in su la carta dal costo più alto nella tua mano.\n- Scarta la carta dal costo più alto dalla tua mano, poi colloca sulla trama principale un ammontare di minacce pari al suo costo stampato."
-	},
-	{
-		"code": "16078",
-		"name": "Fermati un Attimo",
-		"text": "<b>Quando Rivelata (Alter Ego):</b> Scegli se spendere [physical][physical] oppure mettere nella Collezione a faccia in su 1 carta dalla cima del tuo mazzo.\n<b>Quando Rivelata (Eroe):</b> Collezionista ti attacca con +1 ATT. Se subisci un qualsiasi ammontare di danni da quell'attacco, metti nella Collezione a faccia in su 1 carta dalla cima del tuo mazzo."
-	},
-	{
-		"code": "16079",
-		"name": "Colto alla Sprovvista",
-		"text": "<b>Quando Rivelata:</b> Scarta 1 miglioria o supporto che controlli. Se nessuna carta è stata scartata in questo modo, questa carta ottiene Impulso."
-	},
-	{
-		"code": "16080a",
-		"name": "Collezionista",
-		"traits": "Antico dell'Universo.",
-		"text": "[star] Collezionista riceve +X TRA e +X ATT, dove X è pari al numero di stadio attuale della trama principale.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per essere sconfitto, rimuovi invece 3[per_hero] minacce dalla trama principale e gira questa carta."
-	},
-	{
-		"code": "16080b",
-		"flavor": "<b>\"Sei più ingegnoso di quanto pensassi. Non importa. Riproviamoci.\"</b>",
-		"name": "Collezionista",
-		"text": "Collezionista non può essere sconfitto.\n<b>Interruzione Obbligata:</b> Quando il round termina, gira questa carta, poi regola l'indicatore dei punti ferita di Collezionista al suo valore di punti ferita stampato.",
-		"traits": "Antico dell'Universo. Ferito."
-	},
-	{
-		"code": "16081a",
-		"name": "Collezionista",
-		"traits": "Antico dell'Universo.",
-		"text": "[star] Collezionista riceve +X TRA e +X ATT, dove X è pari al numero di stadio attuale della trama principale.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per essere sconfitto, rimuovi invece 3[per_hero] minacce dalla trama principale e gira questa carta."
-	},
-	{
-		"code": "16081b",
-		"flavor": "<b>\"Sei più ingegnoso di quanto pensassi. Non importa. Riproviamoci.\"</b>",
-		"name": "Collezionista",
-		"text": "Collezionista non può essere sconfitto.\n<b>Interruzione Obbligata:</b> Quando il round termina, gira questa carta, poi regola l'indicatore dei punti ferita di Collezionista al suo valore di punti ferita stampato.",
-		"traits": "Antico dell'Universo. Ferito."
-	},
-	{
-		"code": "16082a",
-		"name": "La Milano è Scomparsa",
-		"text": "<b>Contentuto:</b> Collezionista (A1)  <i>(Collezionista (B1) invece per la modalità esperto.)</i> Set di incontri Fuga dal Museo, Artefatti Galattici, Comando della Nave e Standard. 1 set di incontri modulare <i>(Guazzabuglio nel Serraglio).</i>\n<b>Preparazione:</b> Metti in gioco l'ambiente Labirinto della Biblioteca. Metti da parte il set di incontri modulare Comando della Nave."
-	},
-	{
-		"code": "16082b",
-		"flavor": "<b><i>Siete intrappolati nel museo del Collezionista. Prima di poter fuggire, però, dovete trovare la Milano.</i></b>",
-		"name": "La Milano è Scomparsa",
-		"text": "<b>Interruzione Obbligata:</b> Quando l'ultima minaccia è rimossa da questa trama, proseguire con lo stadio 2A <i>(i giocatori vincono proseguendo).</i>\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
-	},
-	{
-		"code": "16083a",
-		"flavor": "<b><i>La Milano è rinchiusa in un gigantesco contenitore. Tentate di forzare il pannello laterale, ma alla fine decidete di spaccare il vetro con tutta la forza di cui siete capaci.</i></b>",
-		"name": "Smarriti nel Museo",
-		"text": "<b>Quando Rivelata:</b> Metti in gioco il supporto Milano dal set di incontri Comando della Nave messo da parte sotto il controllo del primo giocatore."
-	},
-	{
-		"code": "16083b",
-		"flavor": "<b><i>Ora che avete tirato fuori la Milano dalla sua gabbia, usatela per trovare la porta d'ingresso!</i></b>",
-		"name": "Smarriti nel Museo",
-		"text": "<b>Interruzione Obbligata:</b> Quando l'ultima minaccia è rimossa da questa trama, proseguire con lo stadio 3A <i>(i giocatori vincono proseguendo).</i>\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
-	},
-	{
-		"code": "16084a",
-		"flavor": "<b><i>Avete trovato l'uscita! Quando la Milano sfreccia nello spazio e dà potenza ai suoi propulsori, vedete i cannoni della Nave Museo che iniziano a caricarsi.</i></b>",
-		"name": "La Grande Fuga",
-		"text": "<b>Quando Rivelata:</b> Gira Labirinto della Biblioteca. Colloca 1 gettone accelerazione sulla trama principale. Mescola le carte rimanenti del set di incontri Comando della Nave messo da parte nel mazzo degli incontri."
-	},
-	{
-		"code": "16084b",
-		"flavor": "<b><i>La via è quasi sgombra! Sfuggite al fuoco dei cannoni della Nave Museo e sarà fatta!</i></b>",
-		"name": "La Grande Fuga",
-		"text": "<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa carta.\n<b>Se su questa carta non ci sono minacce, i giocatori vincono la partita.</b>\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
-	},
-	{
-		"code": "16085a",
-		"flavor": "<b><i>Il museo del Collezionista è un labirinto di reperti culturali di ogni genere e inermi creature provenienti da ogni parte della galassia.</i></b>",
-		"name": "Labirinto della Biblioteca",
-		"text": "\"<i>Da questa parte?</i>\" - <b>Azione Eroe:</b> Distribuisci 1 carta incontro a faccia in giù a te stesso → rimuovi 5 minacce dalla trama principale. (Limite di una volta per round per giocatore.)",
-		"traits": "Luogo."
-	},
-	{
-		"code": "16085b",
-		"name": "Nave Museo",
-		"text": "\"<i>Chiappe strette, si parte!</i>\" - <b>Interruzione Obbligata:</b> Quando la Fase del Criminale inizia, scegli 1 effetto tra:\n- Esaurisci Milano → assegna 2[per_hero] danni indiretti tra i giocatori.\n- Assegna un totale di 3[per_hero] danni indiretti tra i giocatori.",
-		"traits": "Aereo. Veicolo."
-	},
-	{
-		"code": "16086",
-		"name": "\"Ora Siete Miei!\"",
-		"text": "<b>Quando Rivelata (Alter Ego):</b> Esaurisci la tua identità. Collezionista trama.\n<b>Quando Rivelata (Eroe):</b> Sei stordito. Collezionista ti attacca.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci Collezionista."
-	},
-	{
-		"code": "16087",
-		"flavor": "<b><i>\"Io… sono… Groot???\" - Groot</i></b>",
-		"name": "Geometria Impossibile",
-		"text": "Incitazione 1. <i>(Quando questa carta viene rivelata, colloca 1 minaccia sulla trama principale.)</i>\n<b>Quando Rivelata:</b> Sei confuso. Se eri già confuso, scegli e scarta 1 carta che controlli."
-	},
-	{
-		"code": "16088",
-		"name": "Nebula",
-		"text": "La prima aggiunta [[Tecnica]] rivelata ogni round ottiene Impulso.\n[star]<b>Interruzione Obbligata:</b> Quando Nebula lancia un'attivazione contro te, risolvi la capacità \"<b>Speciale</b>\" su ogni aggiunta [[Tecnica]] in gioco, poi scarta ognuna di quelle aggiunte.",
-		"traits": "Malvivente."
-	},
-	{
-		"code": "16089",
-		"name": "Nebula",
-		"text": "La prima aggiunta [[Tecnica]] che ogni giocatore rivela ogni round ottiene Impulso.\n[star]<b>Interruzione Obbligata:</b> Quando Nebula lancia un'attivazione contro di te, risolvi la capacità \"<b>Speciale</b>\" su ogni aggiunta [[Tecnica]] in gioco, poi scegli e scarta 1 di quelle aggiunte.",
-		"traits": "Malvivente."
-	},
-	{
-		"code": "16090",
-		"name": "Nebula",
-		"text": "La prima aggiunta [[Tecnica]] che ogni giocatore rivela ogni round ottiene Impulso.\n[star]<b>Interruzione Obbligata:</b> Quando Nebula lancia un'attivazione contro di te, risolvi la capacità \"<b>Speciale</b>\" su ogni aggiunta [[Tecnica]] in gioco. Poi, puoi rimuovere dal gioco 1 carta dalla cima del tuo mazzo per scegliere e scartare 1 di quelle aggiunte.",
-		"traits": "Malvivente."
-	},
-	{
-		"code": "16091a",
-		"name": "L'arte dell'Elusione",
-		"text": "<b>Contenuto:</b> Nebula (I) e Nebula (II). <i>(Nebula (II) e Nebula (III) invece per la modalità esperto.)</i> Set di incontri Nebula, Gemma del Potere, Comando della Nave, e Standard. 1 set di incontri modulare <i>(Pirati Spaziali).</i>\n<b>Preparazione:</b> Metti in gioco l'ambiente Nave di Nebula e il supporto Milano. Assegna Gemma del Potere a Nebula. Scarta 2[per_hero] carte dalla cima del mazzo degli incontri, poi assegna ogni aggiunta [[Tecnica]] scartata in questo modo a Nebula."
-	},
-	{
-		"code": "16091b",
-		"flavor": "<b><i>Nonostante tenti disperatamente di dileguarsi, avete scoperto dove si trova Nebula. Forse questa è la vostra ultima possibilità di strapparle la Gemma del Potere.</i></b>",
-		"name": "L'arte dell'Elusione",
-		"text": "X è pari al numero di gettoni elusione su Nave di Nebula."
-	},
-	{
-		"code": "16092a",
-		"flavor": "<b><i>Con la precisione di un pilota esperto, la nave di Nebula schiva e scatta in avanti, surclassando la manovrabilità della Milano e portando Nebula a una distanza tale da offrirle l'opportunità di fuggire una volta per tutte.</i></b>",
-		"name": "Avvio del Motore Warp",
-		"text": "<b>Quando Rivelata:</b> Colloca 2 gettoni elusione su Nave di Nebula. Per ogni gettone elusione su Nave di Nebula, scarta 2 carte dalla cima del mazzo di ogni giocatore e del mazzo degli incontri."
-	},
-	{
-		"code": "16092b",
-		"flavor": "<b><i>I motori della nave di Nebula sono attivi e pronti a rombare. Toglieteli di mezzo prima che compia il salto warp!</i></b>",
-		"name": "Avvio del Motore Warp",
-		"text": "X è pari al numero di gettoni elusione su Nave di Nebula.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
-	},
-	{
-		"code": "16093",
-		"name": "Nave di Nebula",
-		"text": "<b>Interruzione Obbligata:</b> Quando la Fase del Criminale inizia, colloca 1 gettone elusione su questa carta.\n<i>Spara ai Propulsori!</i> - <b>Azione Primo Giocatore:</b> Esaurisci Milano e spendi fino a 2 risorse di qualsiasi tipo → rimuovi 1 gettone elusione da questa carta per ogni risorsa spesa in questo modo.",
-		"traits": "Aereo. Veicolo."
-	},
-	{
-		"code": "16094",
-		"name": "Ambizione del Tagliagole",
-		"text": "Assegna a Nebula.\nNebula non può subire più di 5 danni da un singolo attacco.\n<b>Speciale:</b> Colloca 1 minaccia sulla trama principale.\n<hr />\n[star] <b>Potenziamento</b>: Dopo che questa attivazione è terminata, assegna questa carta a Nebula e risolvi la sua capacità <b>\"Speciale\"</b>",
-		"traits": "Tecnica."
-	},
-	{
-		"code": "16095",
-		"name": "Manovre Elusive",
-		"text": "Assegna a Nebula.\nNebula ottiene Stabile.\n<b>Speciale:</b> Sei stordito. Se eri già stordito, fai ricevere 1 carta potenziamento a faccia in giù a Nebula.\n<hr />\n[star] <b>Potenziamento</b>: Dopo che questa attivazione è terminata, assegna questa carta a Nebula e risolvi la sua capacità <b>\"Speciale\"</b>",
-		"traits": "Tecnica."
-	},
-	{
-		"code": "16096",
-		"name": "Persistenza Irriducibile",
-		"text": "Assegna a Nebula.\nNebula ottiene Stabile.\n<b>Speciale:</b> Irrobustisci Nebula. Se Nebula era già robusta, fai ricevere 1 carta potenziamento a faccia in giù a Nebula.\n<hr />\n[star] <b>Potenziamento</b>: Dopo che questa attivazione è terminata, assegna questa carta a Nebula e risolvi la sua capacità <b>\"Speciale\"</b>",
-		"traits": "Tecnica."
-	},
-	{
-		"code": "16097",
-		"name": "Maestria nelle Armi",
-		"text": "Assegna a Nebula.\nNebula ottiene Ritorsione 1.\n<b>Speciale:</b> Subisci 1 danno.\n<hr />\n[star] <b>Potenziamento</b>: Dopo che questa attivazione è terminata, assegna questa carta a Nebula e risolvi la sua capacità <b>\"Speciale\"</b>",
-		"traits": "Tecnica."
-	},
-	{
-		"code": "16098",
-		"name": "Posizione di Guardia",
-		"text": "Assegna a Nebula.\nRiduci di 1 l'ammontare di danni che Nebula subisce da ogni attacco.\n<b>Speciale:</b> Scarta 1 carta casuale dalla tua mano.\n<hr />\n[star] <b>Potenziamento</b>: Dopo che questa attivazione è terminata, assegna questa carta a Nebula e risolvi la sua capacità <b>\"Speciale\"</b>",
-		"traits": "Tecnica."
-	},
-	{
-		"code": "16099",
-		"name": "Intenti Letali",
-		"text": "<b>Quando Rivelata:</b> Scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 aggiunta [[Tecnica]]. Rivela quella carta."
-	},
-	{
-		"code": "16100",
-		"name": "Avvitamento",
-		"text": "Impulso. Incitazione 1.\n<b>Quando Rivelata:</b> Colloca 1 gettone elusione su Nave di Nebula.\n<hr />\n[star] <b>Potenziamento</b>: Colloca 1 gettone elusione su Nave di Nebula."
-	},
-	{
-		"code": "16101",
-		"flavor": "<b><i>\"Non sarà mai finita finchè non otterrò quello che voglio.\" - Nebula</i></b>",
-		"name": "Pronta al Combattimento",
-		"text": "<b>Quando Rivelata:</b> Scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 aggiunta [[Tecnica]]. Rivela quella carta, poi risolvi la sua capacità <b>\"Speciale\"</b>."
-	},
-	{
-		"code": "16102",
-		"name": "Senza Pietà",
-		"text": "<b>Quando Rivelata (Alter Ego):</b> Nebula trama. Se 1 o più minacce vengono collocate da questa attivazione, colloca 1 gettone elusione su Nave di Nebula.\n<b>Quando Rivelata (Eroe):</b> Nebula ti attacca. Se 1 o più danni vengono inflitti da questa attivazione, colloca 1 gettone elusione su Nave di Nebula."
-	},
-	{
-		"code": "16103",
-		"flavor": "<b><i>\"Non c'è nessuna discussione, nessun dibattito. Siete colpevoli.\"</i></b>",
-		"name": "Ronan L'Accusatore",
-		"text": "Robustezza.\n[star]<b>Interruzione Obbligata:</b> Quando Ronan l'Accusatore si attiva contro di te, se controlli Gemma del Potere, fagli ricevere 1 carta potenziamento aggiuntiva.",
-		"traits": "Corpo degli Accusatori. Kree."
-	},
-	{
-		"code": "16104",
-		"name": "Ronan L'Accusatore",
-		"text": "Robustezza.\n<b>Quando Rivelata:</b> Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri la trama secondaria Interrompere l'Energia e rivelala. <i>(Mescola.)</i>\n[star]<b>Interruzione Obbligata:</b> Quando Ronan l'Accusatore si attiva contro di te, se controlli Gemma del Potere, fagli ricevere 1 carta potenziamento aggiuntiva.",
-		"traits": "Corpo degli Accusatori. Kree."
-	},
-	{
-		"code": "16105",
-		"name": "Ronan L'Accusatore",
-		"text": "Ritorsione 1. Robustezza.\n<b>Quando Rivelata:</b> Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri la trama secondaria Tattiche Superiori e rivelala. <i>(Mescola.)</i>\n[star]<b>Interruzione Obbligata:</b> Quando Ronan l'Accusatore si attiva contro di te, se controlli Gemma del Potere, fagli ricevere 1 carta potenziamento aggiuntiva.",
-		"traits": "Corpo degli Accusatori. Kree."
-	},
-	{
-		"code": "16106a",
-		"name": "Intercettazione Imminente",
-		"text": "<b>Contenuto:</b> Ronan l'Accusatore (I) e Ronan l'Accusatore (II). <i>(Ronan l'Accusatore (II) e Ronan l'Accusatore (III) invece per la modalità esperto.)</i> Set di incontri Ronan l'Accusatore, Gemma del Potere, Comando della Nave e Standard. 1 set di incontri modulare <i>(Militanti Kree).</i>\n<b>Preparazione:</b> Metti in gioco l'ambiente Nave di Comando Kree e il supporto Milano. Assegna Arma Universale a Ronan l'Accusatore. Assegna Gemma del Potere al primo giocatore."
-	},
-	{
-		"code": "16106b",
-		"flavor": "<b><i>Le forze di Ronan l'Accusatore hanno teso un'imboscata alla Milano con l'obiettivo di rubare la Gemma del Potere. Con un po' di prontezza di spirito e qualche manovra esperta, potreste riuscire a fermare la loro avanzata.</i></b>",
-		"name": "Intercettazione Imminente",
-		"text": "<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
-	},
-	{
-		"code": "16107a",
-		"flavor": "<b><i>La nave di Ronan l'Accusatore si è agganciata alla vostra. Una volta abbordata la Milano, gli basta un colpo della sua Arma Universale per sbaragliarvi. Prima che possiate riprendervi, afferra la Gemma del Potere.</i></b>",
-		"name": "\"Prenderò Ciò che è Mio\"",
-		"text": "<b>Quando Rivelata:</b> Assegna Gemma del Potere a Ronan l'Accusatore. Se è già assegnata a esso, fagli ricevere 1 carta potenziamento a faccia in giù."
-	},
-	{
-		"code": "16107b",
-		"flavor": "<b><i>Ronan l'Accusatore è in possesso della Gemma del Potere! Strappalo al suo controllo prima che sia troppo tardi.</i></b>",
-		"name": "\"Prenderò Ciò che è Mio\"",
-		"text": "Mentre Gemma del Potere è assegnata a Ronan l'Accusatore, non è possibile rimuovere minacce da questa trama.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
-	},
-	{
-		"code": "16108",
-		"name": "Nave di Comando Kree",
-		"text": "<b>Interruzione Primo Giocatore:</b> Quando viene rivelata una carta insidia dal mazzo degli incontri, esaurisci Milano e spendi 1 risorsa di qualsiasi tipo → annulla gli effetti <b>\"Quando Rivelata\" di quella carta.",
-		"traits": "Aereo. Veicolo."
-	},
-	{
-		"code": "16109",
-		"name": "Arma Universale",
-		"text": "Assegna a Ronan l'Accusatore.\nRonan l'Accusatore ottiene Stabile.\n<b>Azione Eroe:</b> Subisci 2 danni e distribuisci 1 carta incontro a faccia in giù a te stesso → rimescola Arma Universale nel mazzo degli incontri.\n<hr />\n[star] <b>Potenziamento</b>: Assegna Arma Universale a Ronan l'Accusatore.",
-		"traits": "Arma."
-	},
-	{
-		"code": "16110",
-		"name": "Fanatismo",
-		"text": "Impulso.\nAssegna a Ronan l'Accusatore. Utilizzo (1 gettone furia, più 1[per_hero] gettoni furia aggiuntivi).\n[star]<b>Interruzione Obbligata:</b> Quando Ronan l'Accusatore ti attacca, quell'attacco ottiene Perforante e Sopraffazione. Alla fine di quell'attacco, rimuovi 1 gettone furia da questa carta.",
-		"traits": "Condizione."
-	},
-	{
-		"code": "16111",
-		"name": "Interrompere l'Energia",
-		"text": "[star] <b>Potenziamento</b>: Scegli se esaurire Milano oppure collocare 2 minacce sulla trama principale."
-	},
-	{
-		"code": "16112",
-		"name": "Manovra a Tenaglia",
-		"text": "Ostacolo 2[per_hero] <i>(Quando questa carta viene rivelata, colloca 2[per_hero] minacce da questa trama.)</i>.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
-	},
-	{
-		"code": "16113",
-		"flavor": "<b><i>L'avanzato addestramento Kree di Ronan l'Accusatore e la sua fanatica determinazione fanno di lui un avversario come nessun altro.</i></b>",
-		"name": "Tattiche Superiori",
-		"text": "Gemma del Potere non può essere disassegnata da Ronan l'Accusatore.\n<b>Quando Rivelata:</b> Assegna Gemma del Potere a Ronan l'Accusatore. Se è già assegnata a esso, colloca 1[per_hero] minacce su questa carta."
-	},
-	{
-		"code": "16114",
-		"name": "Furia Ossessiva",
-		"text": "<b>Quando Rivelata:</b> Ronan l'Accusatore attacca il giocatore che controlla Gemma del Potere <i>(anche se quel giocatore è nella sembianza di alter ego).</i> Se nessun attacco è stato effettuato in questo modo, questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Assegna Gemma del Potere a Ronan l'Accusatore."
-	},
-	{
-		"code": "16115",
-		"flavor": "<b><i>\"Inginocchiati di fronte a me!\" - Ronan l'Accusatore</i></b>",
-		"name": "Fisiologia Kree",
-		"text": "Impulso.\n<b>Quando Rivelata:</b> Irrobustisci Ronan l'Accusatore. Se è già robusto, subisci 1 danno."
-	},
-	{
-		"code": "16116",
-		"name": "\"Sei Accusato!\"",
-		"text": "<b>Quando Rivelata (Alter Ego):</b> Ronan l'Accusatore trama con +1 TRA.\n<b>Quando Rivelata (Eroe):</b> Ronan l'Accusatore ti attacca con +1 ATT.\n<hr />\n[star] <b>Potenziamento</b>: Fai ricevere 1 carta potenziamento aggiuntiva al criminale per questa attivazione."
-	},
-	{
-		"code": "16117",
-		"name": "Assassino Badoon",
-		"text": "<b>Risposta Obbligata:</b> Dopo che Assassino Badoon ha impegnato il tuo eroe, ti attacca con +2 ATT.\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, questo attacco ottiene Distanza, Perforante e Sopraffazione.",
-		"traits": "Badoon."
-	},
-	{
-		"code": "16118",
-		"name": "Recluta Badoon",
-		"text": "<b>Risposta Obbligata:</b> Dopo che Recluta Badoon ti ha impegnato, se non ci sono altri gregari impegnati con te, distribuisci 1 carta incontro a faccia in giù a te stesso.\n<hr />\n[star] <b>Potenziamento</b>: Metti in gioco Recluta Badoon impegnata con te.",
-		"traits": "Badoon."
-	},
-	{
-		"code": "16119",
-		"name": "Tenente Badoon",
-		"text": "Pattuglia. <i>(Mentre questo gregario è impegnato con te, non puoi intervenire sulla trama principale.)</i>\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è una trama, questa carta riceve +2 icone potenziamento ([boost][boost]) per questa attivazione.",
-		"traits": "Badoon."
-	},
-	{
-		"code": "16120",
-		"name": "Sentinella Badoon",
-		"text": "Ritorsione 1.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci il criminale. Se il criminale è già robusto, questa carta riceve + 2 icone potenziamento ([boost][boost]) per questa attivazione.",
-		"traits": "Badoon."
-	},
-	{
-		"code": "16121",
-		"name": "Signore della Guerra Badoon",
-		"text": "[star] Gli attacchi di Signore della Guerra Badoon ottengono Sopraffazione.\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, questa carta riceve +2 icone potenziamento ([boost][boost]) per questa attivazione.",
-		"traits": "Badoon."
-	},
-	{
-		"code": "16122",
-		"flavor": "<b><i>Il mantello del leggendario eroe Ercole. Chi è tanto fortunato da indossarlo riceve una forza sovrumana.</i></b>",
-		"name": "Mantello di Ercole",
-		"text": "Assegna al nemico con meno ATT.\n<b>Azione Eroe:</b> Spendi [physical][physical][physical] → scarta questa carta.",
-		"traits": "Artefatto."
-	},
-	{
-		"code": "16123",
-		"name": "Pozione di Obbedienza",
-		"text": "Assegna alla tua identità.\nIl personaggio con questa aggiunta riceve -1 INT, -1 ATT e -1 DIF.\n<b>Azione Eroe:</b> Subisci 1 danno e spendi [mental][mental] → scarta questa carta. <i>(Qualsiasi giocatore può farlo.)</i>",
-		"traits": "Artefatto."
-	},
-	{
-		"code": "16124",
-		"name": "Blazer dell'Arcano",
-		"text": "Assegna al nemico con più TRA.\n<b>Azione Eore:</b> Colloca 2 minacce sulla trama principale e spendi 2 risorse dello stesso tipo → scarta questa carta.",
-		"traits": "Artefatto."
-	},
-	{
-		"code": "16125",
-		"flavor": "<b><i>La tossina più letale della galassia.</i></b>",
-		"name": "Veleno",
-		"text": "Assegna alla tua identità.\n<b>Interruzione Obbligata:</b> Quando il tuo turno inizia, colloca 1 gettone veleno su questa carta, poi subisci 1 danno per ogni gettone veleno su questa carta.\n<b>Azione Eroe:</b> Spendi 3 risorse di tipo diverso → scarta questa carta. <i>(Qualsiasi giocatore può farlo.)</i>",
-		"traits": "Artefatto."
-	},
-	{
-		"code": "16126",
-		"name": "Bacchetta del Potere Vandariana",
-		"text": "Assegna al nemico con meno TRA.\n<b>Azione Eroe:</b> Spendi [energy][energy][energy] → scarta questa carta.",
-		"traits": "Artefatto."
-	},
-	{
-		"code": "16127",
-		"name": "Uovo del Monarca Hujahdariano",
-		"text": "Ostacolo 2[per_hero]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può ripristinare la sua identità."
-	},
-	{
-		"code": "16128",
-		"name": "Teiera Magica",
-		"text": "Ostacolo 2[per_hero]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può curare 4 danni alla sua identità."
-	},
-	{
-		"code": "16129",
-		"name": "Pietra Filosofale",
-		"text": "Ostacolo 2[per_hero]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può pescare 2 carte."
-	},
-	{
-		"code": "16130",
-		"name": "Sfera di Cristallo",
-		"text": "Ostacolo 2[per_hero]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può giocare 1 carta dalla sua mano, riducendo di 3 il suo costo in risorse."
-	},
-	{
-		"code": "16131",
-		"name": "Armatura da Combattimento Kree",
-		"text": "Assegna al nemico con più ATT.\nRiduci di 1 l'ammontare di danni che il personaggio con questa aggiunta subisce da ogni attacco.\n<b>Azione Eroe:</b> Spendi 3 risorse dello stesso tipo → scarta questa carta.",
-		"traits": "Armatura."
-	},
-	{
-		"code": "16132",
-		"name": "Commando Kree",
-		"text": "Pattuglia. <i>(Mentre questo gregario è impegnato con te, non puoi intervenire sulla trama principale.)</i>\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, questo attacco ottiene Perforante.",
-		"traits": "Kree. Soldato."
-	},
-	{
-		"code": "16133",
-		"name": "Tenente Kree",
-		"text": "Guardia. Stabile. <i>(Questo personaggio non può essere stordito o confuso.)</i>\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, questa carta riceve +3 icone potenziamento ([boost][boost][boost]) per questa attivazione.",
-		"traits": "Kree. Soldato."
-	},
-	{
-		"code": "16134",
-		"name": "Soldato Semplice Kree",
-		"text": "Colpo Rapido. <i>(Dopo che questo gregario ha impegnato il tuo eroe, ti attacca.)</i>\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, questo attacco ottiene Sopraffazione.",
-		"traits": "Kree. Soldato."
-	},
-	{
-		"code": "16135",
-		"name": "Fantasma Psionico",
-		"text": "<b>Quando Rivelata:</b> Sei confuso. Se sei già confuso, subisci 1 danno.\n<hr />\n[star] <b>Potenziamento</b>: Metti in gioco Fantasma Psionico impegnato con te.",
-		"traits": "Fantasma."
-	},
-	{
-		"code": "16136",
-		"flavor": "<b><i>\"TROVARE. GLI. INTRUSI.\"</i></b>",
-		"name": "Bot Servitore",
-		"text": "Guardia. <i>(Mentre questo gregario è impegnato con te, non puoi attaccare il criminale.)</i>\nPattuglia. <i>(Mentre questo gregario è impegnato con te, non puoi intervenire sulla trama principale.)</i>",
-		"traits": "Robot."
-	},
-	{
-		"code": "16137",
-		"name": "Squalo Stellare",
-		"text": "Colpo Rapido.\n[star] Gli attacchi di Squalo Stellare infliggono danni indiretti.\n<hr />\n[star] <b>Potenziamento</b>: Infliggi 1 danno a ogni personaggio che controlli.",
-		"traits": "Creatura. Elite."
-	},
-	{
-		"code": "16138",
-		"name": "Comandante Pirata",
-		"text": "Colpo Rapido.\n[star] <b>Risposta Obbligata:</b> Dopo che questo gregario ti ha attaccato e danneggiato, rimuovi dal gioco 1 carta casuale dalla tua mano.\n<hr />\n[star] <b>Potenziamento</b>: Fai ricevere 1 carta potenziamento aggiuntiva al criminale per questa attivazione.",
-		"traits": "Malvivente."
-	},
-	{
-		"code": "16139",
-		"name": "Lacchè Pirata",
-		"text": "Colpo Rapido.\n[star] <b>Risposta Obbligata:</b> Dopo che questo gregario ti ha attaccato e danneggiato, rimuovi dal gioco 1 carta dalla cima del tuo mazzo.\n<hr />\n[star] <b>Potenziamento</b>: Fai ricevere 1 carta potenziamento aggiuntiva al criminale per questa attivazione.",
-		"traits": "Malvivente."
-	},
-	{
-		"code": "16140",
-		"name": "Suonare l'Allarme",
-		"text": "Ogni nemico riceve + 1 ATT.\n<hr />\n[star] <b>Potenziamento</b>: Rivela questa carta."
-	},
-	{
-		"code": "16141",
-		"flavor": "<b><i>La famiglia che ruba unita resta unita.</i></b>",
-		"name": "Onore tra Ladri",
-		"text": "<b>Quando Rivelata:</b> Scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 gregario [[Malvivente]]. Rivela quel gregario, poi irrobustiscilo e fai ricevere 1 carta potenziamento a faccia in giù al criminale."
-	},
-	{
-		"code": "16142",
-		"name": "Milano",
-		"text": "Permanente. Preparazione.\nIl primo giocatore controlla Milano.\n<i>Pilotaggio</i> - <b>Risorsa:</b> Esaurisci Milano → genera [wild] per un qualsiasi giocatore.",
-		"traits": "Aereo. Veicolo."
-	},
-	{
-		"code": "16143",
-		"name": "Vascello Fuorilegge",
-		"text": "Impulso.\nb>Interruzione Obbligata:</b> Quando la Fase del Criminale termina, infliggi 1 danno a ogni giocatore.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano e spendi 2 risorse di qualsiasi tipo → scarta questa carta.",
-		"traits": "Aereo. Veicolo."
-	},
-	{
-		"code": "16144",
-		"name": "Cannoneggiamento",
-		"text": "Ostacolo 3[per_hero] <i>(Quando questa carta viene rivelata, colloca 3[per_hero] minacce su di essa.)</i>.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
-	},
-	{
-		"code": "16145",
-		"name": "Punto Cieco",
-		"text": "Isolamento. <i>(Mentre risolvi questa carta, gli altri giocatori non possono aiutarti.)</i>\n<b>Quando Rivelata:</b> Scegli 1 effetto tra:\n- Esaurisci Milano.\n- Spendi [physical][physical].\n- Stordisci il primo giocatore."
-	},
-	{
-		"code": "16146",
-		"name": "Breccia sullo Scafo",
-		"text": "Isolamento. <i>(Mentre risolvi questa carta, gli altri giocatori non possono aiutarti.)</i>\n<b>Quando Rivelata:</b> Scegli 1 effetto tra:\n- Esaurisci Milano.\n- Spendi [mental][mental].\n- Infliggi 3 danni al primo giocatore."
-	},
-	{
-		"code": "16147",
-		"name": "Calo di Potenza",
-		"text": "Isolamento. <i>(Mentre risolvi questa carta, gli altri giocatori non possono aiutarti.)</i>\n<b>Quando Rivelata:</b> Scegli 1 effetto tra:\n- Esaurisci Milano.\n- Spendi [energy][energy].\n- Scarta 1 carta casuale dalla mano del primo giocatore."
-	},
-	{
-		"code": "16148",
-		"name": "Consegna Speciale",
-		"text": "<b>Quando Rivelata (Alter Ego):</b> Puoi esaurire Milano. Se non lo fai, il criminale trama con +1 TRA.\n<b>Quando Rivelata (Eroe):</b> Puoi esaurire Milano. Se non lo fai, il criminale ti attacca con +1 ATT."
-	},
-	{
-		"code": "16149",
-		"name": "Gemma del Potere",
-		"text": "Permanente. Preparazione.\nAssegna al criminale.\n<b>Risposta Obbligata:</b> Dopo che un eroe o un criminale ha inflitto 3 o più danni con un singolo attacco al personaggio con questa aggiunta, assegna Gemma del Potere all'eroe o al criminale attaccante.",
-		"traits": "Gemma dell'Infinito."
-	},
-	{
-		"code": "16178a",
-		"name": "Blitz dei Badoon",
-		"text": "<b>Solo Modalità Standard.</b>\nOstacolo 3[per_hero]. <i>(Quando questa carta viene rivelata, colloca 3[per_hero] minacce su di essa.)</i>\nVittoria 1. <i>(Quando questa carta è sconfitta, collocala nalla galleria delle vittorie.)</i>\n<b>Quando Sconfitta</b>: Ogni giocatore può pescare 1 carta."
-	},
-	{
-		"code": "16178b",
-		"name": "Blitz dei Badoon",
-		"text": "<b>Solo Modalità Esperto.</b>\nOstacolo 4[per_hero]. Vittoria 1.\n<b>Quando Sconfitta</b>: Ogni giocatore deve scegliere e scartare 1 carta dalla sua mano."
-	},
-	{
-		"code": "16179a",
-		"name": "Galleria dello Splendore",
-		"text": "<b>Solo Modalità Standard.</b>\nOstacolo 3[per_hero]. Vittoria 1.\n<b>Quando Sconfitta</b>: Colloca nella Collezione a faccia in su 1 carta dalla cima del mazzo di ogni giocatore."
-	},
-	{
-		"code": "16179b",
-		"name": "Galleria dello Splendore",
-		"text": "<b>Solo Modalità Esperto.</b>\nOstacolo 4[per_hero]. Vittoria 1.\n<b>Quando Sconfitta</b>: Ogni giocatore colloca nella Collezione a faccia in su 1 carta casuale dalla sua mano."
-	},
-	{
-		"code": "16180a",
-		"name": "\"Non c'è Via di Scampo\"",
-		"text": "<b>Solo Modalità Standard.</b>\nOstacolo 3[per_hero]. Vittoria 1.\n<b>Quando Sconfitta</b>: Infliggi 1 danno a ogni giocatore."
-	},
-	{
-		"code": "16180b",
-		"name": "\"Non c'è Via di Scampo\"",
-		"text": "<b>Solo Modalità Esperto.</b>\nOstacolo 4[per_hero]. Vittoria 1.\n<b>Quando Sconfitta</b>: Infliggi 2 danni a ogni giocatore."
-	},
-	{
-		"code": "16181a",
-		"name": "Tattiche di Guerriglia",
-		"text": "<b>Solo Modalità Standard.</b>\nOstacolo 3[per_hero]. Vittoria 1.\n<b>Quando Sconfitta</b>: Colloca 2 gettoni elusione su Nave di Nebula."
-	},
-	{
-		"code": "16181b",
-		"name": "Tattiche di Guerriglia",
-		"text": "<b>Solo Modalità Esperto.</b>\nOstacolo 4[per_hero]. Vittoria 1.\n<b>Quando Sconfitta</b>: Colloca 3 gettoni elusione su Nave di Nebula."
-	},
-	{
-		"code": "16182a",
-		"name": "Supremazia Kree",
-		"text": "<b>Solo Modalità Standard.</b>\nOstacolo 3[per_hero]. Vittoria 1."
-	},
-	{
-		"code": "16182b",
-		"name": "Supremazia Kree",
-		"text": "<b>Solo Modalità Esperto.</b>\nOstacolo 4[per_hero]. Vittoria 1."
-	},
-	{
-		"code": "16183",
-		"name": "Cacciatore di Teste Badoon",
-		"text": "Vittoria 2. <i>(Quando questa carta è sconfitta, collocala nella galleria delle vittorie.)</i>\nCriminoso. <i>(Quando questo gregario si attiva, fagli ricevere 1 carta potenziamento.)</i>\n<hr />\n[star] <b>Potenziamento</b>: Metti in gioco Cacciatore di Teste Badoon impegnato con te.",
-		"traits": "Badoon."
-	},
-	{
-		"code": "16184",
-		"name": "A Caccia",
-		"text": "Impulso.\n<b>Quando Rivelata</b>: Scegli se subire 2 danni oppure scartare 1 carta casuale dalla tua mano.\n<hr />\n[star] <b>Potenziamento</b>: Fai ricevere 1 carta potenziamento aggiuntiva al criminale per questa attivazione."
-	},
-	{
-		"code": "16185",
-		"name": "Colto in Flagrante",
-		"text": "Impulso.\n<b>Quando Rivelata</b>: Esaurisci la tua identità. Se non puoi farlo, colloca 2 minacce sulla trama principale.\n<hr />\n[star] <b>Potenziamento</b>: Fai ricevere 1 carta potenziamento aggiuntiva al criminale per questa attivazione."
-	},
-	{
-		"code": "16186",
-		"name": "Sgherro del Cacciatore di Teste",
-		"text": "Impulso. Pattuglia. <i>(Mentre questo gregario è impegnato con te, non puoi intervenire sulla trama principale.)</i>",
-		"traits": "Badoon."
-	},
-	{
-		"code": "16187",
-		"name": "Recupero dei Fuggitivi",
-		"text": "Impulso.\nOstacolo 3[per_hero]. <i>(Quando questa carta viene rivelata, colloca 3[per_hero] minacce su di essa.)</i>"
-	}
+    {
+        "code": "16025",
+        "name": "Avvizzimento",
+        "text": "<b><i>Fai ricevere al giocatore Groot.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n- Esaurisci il tuo alter ego → rimuovi dal gioco Avvizzimento.\n- Rimuovi 3 gettoni crescita da Groot. Se nessun gettone crescita è stato rimosso in questo modo, questa carta ottiene Impulso. Scarta questa incombenza."
+    },
+    {
+        "code": "16026",
+        "flavor": "Furnax infuria sul pianeta d'origine di Groot, il Pianeta X, seminando morte e distruzione con un semplice tocco.",
+        "name": "Incendio Devastante",
+        "text": "<b>Risposta Obbligata:</b> Dopo che la Fase del Criminale è iniziata, infliggi 2 danni indiretti a ogni giocatore."
+    },
+    {
+        "attack_text": "<b>Risposta Obbligata:</b> Dopo che Furnax si è attivato, infliggi 2 danni indiretti a ogni giocatore.",
+        "code": "16027",
+        "name": "Furnax",
+        "text": "<i>(Gregario nemesi di Groot.)</i>",
+        "traits": "Leviathon."
+    },
+    {
+        "code": "16028",
+        "name": "Soffiare sulle Fiamme",
+        "text": "<b>Quando Rivelata:</b> Subisci 2 danni indiretti. Se Incendio Devastante è in gioco, subisci 1 danno indiretto aggiuntivo. Se Furnax è in gioco, subisci 1 danno indiretto aggiuntivo."
+    },
+    {
+        "code": "16053",
+        "name": "Crisi su Mezzomondo",
+        "text": "<b><i>Fai ricevere al giocatore Rocket Raccoon.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n- Esaurisci il tuo alter ego → rimuovi dal gioco Crisi su Mezzomondo.\n- Scarta la miglioria dal costo più alto che controlli. Se nessuna miglioria è stata scartata in questo modo, questa carta ottiene Impulso. Scarta questa incombenza."
+    },
+    {
+        "code": "16054",
+        "flavor": "\"Lo so che odi quella parola. Ma ehi, se sembra una papera, starnazza come una papera e cammina come una papera... è un procione!\" - Blackjack O'Hare",
+        "name": "Vendetta"
+    },
+    {
+        "code": "16055",
+        "flavor": "Hahahahahahahahahahahahahaha!",
+        "name": "Blackjack O'Hare",
+        "text": "Colpo Rapido.\nCriminoso. (Quando questo gregario si attiva, fagli ricevere 1 carta potenziamento.)\n<i>(Gregario nemesi di Rocket Raccoon.)</i>",
+        "traits": "Criminal."
+    },
+    {
+        "code": "16056",
+        "name": "Bazooka di Blackjack",
+        "text": "Assegna a Blackjack O'Hare. Se non puoi farlo, assegna al criminale.\n<b>Azione Eroe:</b> Spendi [mental][mental][mental] → scarta questa carta.",
+        "traits": "Arma. Tecnologia."
+    },
+    {
+        "code": "16057",
+        "flavor": "\"E tu pensi di poterci fare qualcosa?!\" - Blackjack O'Hare",
+        "name": "Invasione Planetaria",
+        "text": "<b>Quando Rivelata:</b> Scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario. Rivela quel gregario, poi irrobustiscilo."
+    },
+    {
+        "code": "16058",
+        "flavor": "<b><i>\"Arrendetevi alla potenza dei Badoon!\"</i></b>",
+        "name": "Drang",
+        "text": "<b>[star] Risposta Obbligata:</b> Dopo che Drang ha tramato, risolvi la capacità \"Caricamento\" di Nave Badoon.",
+        "traits": "Badoon."
+    },
+    {
+        "code": "16059",
+        "name": "Drang",
+        "text": "<b>Quando Rivelata:</b> Se Lancia di Drang è in gioco, fai ricevere 1 carta potenziamento a faccia in giù a Drang; altrimenti, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri Lancia di Drang, rivelala e mescola il mazzo degli incontri.\n<b>[star] Risposta Obbligata:</b> Dopo che Drang ha tramato, risolvi la capacità \"Caricamento\" di Nave Badoon.",
+        "traits": "Badoon."
+    },
+    {
+        "code": "16060",
+        "name": "Drang",
+        "text": "<b>Quando Rivelata:</b> Scarta 4[per_hero] carte dalla cima del mazzo degli incontri. Ogni volta che un gregario viene scartato in questo modo, mettilo in gioco impegnato con il giocatore impegnato con meno gregari.\n<b>[star] Risposta Obbligata:</b> Dopo che Drang ha tramato, risolvi la capacità \"Caricamento\" di Nave Badoon.",
+        "traits": "Badoon."
+    },
+    {
+        "code": "16061a",
+        "flavor": "<i>Le soverchianti forze di Drang hanno lanciato un attacco a sorpresa contro la Terra!</i>",
+        "name": "Invasione Terrestre",
+        "text": "<b>Contenuto:</b> Drang (I) e Drang (II). (Drang (II) e Drang(III) invece per la modalità esperto.) Set di incontri Confraternita di Badoon, Comando della Nave, e Standard. 1 set di incontri modulare (Banda di Badoon).\n<b>Preparazione:</b> Metti in gioco l'ambiente Nave di Badoon e il supporto Milano."
+    },
+    {
+        "code": "16061b",
+        "name": "Invasione Terrestre",
+        "text": "<b>[star] Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, risolvi la capacità \"Caricamento\" di Nave Badoon.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
+    },
+    {
+        "code": "16062a",
+        "flavor": "<i>I Badoon hanno penetrato le difese della Terra! Vanno respinti prima che sia troppo tardi.</i>",
+        "name": "Proteggere il Pianeta",
+        "text": "<b>Quando Rivelata:</b> Risolvi la capacità \"Caricamento\" di Nave Badoon."
+    },
+    {
+        "code": "16062b",
+        "name": "Proteggere il Pianeta",
+        "text": "<b>[star] Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, risolvi la capacità \"Caricamento\" di Nave Badoon.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → scegli se rimuovere 3 minacce da questa trama oppure infliggere 3 danni a un gregario.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "16063",
+        "flavor": "<b><i>La nave della Confraternita di Badoon sta caricando i suoi cannoni per un attacco devastante contro gli eroi sotto di essa.</i></b>",
+        "name": "Nave Badoon",
+        "text": "<i>Caricamento</i> — <b>Speciale:</b> Colloca 1 gettone sbarramento su questa carta. Poi, se ci sono 4 o più gettoni sbarramento su questa carta, infliggi 2 danni indiretti a ogni giocatore e rimuovi tutti i gettoni sbarramento da questa carta.",
+        "traits": "Aereo. Veicolo."
+    },
+    {
+        "code": "16064",
+        "name": "Lancia di Drang",
+        "text": "Assegna a Drang.\nDrang ottiene Stabile. (Non può essere stordito o confuso.)\n<b>Azione Eroe:</b> Spendi [mental][physical][physical] → scarta questa carta.",
+        "traits": "Arma."
+    },
+    {
+        "boost_text": "Risolvi la capacità \"Caricamento\" di Nave Badoon.",
+        "code": "16065",
+        "name": "Ingegnere Badoon",
+        "text": "<b>[star] Risposta Obbligata:</b> Dopo che Ingegnere Badoon ti ha impegnato o si è attivato contro di te, risolvi la capacità \"Caricamento\" di Nave Badoon.",
+        "traits": "Badoon."
+    },
+    {
+        "code": "16066",
+        "name": "Assedio Planetario",
+        "text": "Ostacolo 2[per_hero]. <i>(Quando questa carta viene rivelata, colloca 2[per_hero] minacce su di essa.)</i>\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
+    },
+    {
+        "code": "16067",
+        "name": "Bombardamento",
+        "text": "<b>Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, risolvi la capacità \"Caricamento\" di Nave Badoon.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
+    },
+    {
+        "code": "16068",
+        "name": "Flotta Oppressiva",
+        "text": "Ostacolo 3[per_hero]. <i>Quando questa carta viene rivelata, colloca 3[per_hero] minacce su di essa.)</i>\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
+    },
+    {
+        "code": "16069",
+        "name": "Posizionamento Spaziale",
+        "text": "<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
+    },
+    {
+        "code": "16070",
+        "flavor": "<b><i>\"Ho già una teca pronta ad accogliere le nostre nuove acquisizioni!\"</i></b>",
+        "name": "Collezionista",
+        "text": "<b>Interruzione Obbligata:</b> Quando una carta <i>(giocatore o incontro)</i> in gioco sta per essere collocata in una pila degli scarti, mettila invece nella Collezione a faccia in su.",
+        "traits": "Antico dell'Universo."
+    },
+    {
+        "code": "16071",
+        "name": "Collezionista ",
+        "text": "<b>Quando Rivelata:</b> In ordine di gioco, ogni giocatore deve scegliere se mettere nella Collezione a faccia in su 1 carta dalla cima del suo mazzo oppure subire 3 danni.\n<b>Interruzione Obbligata:</b> Quando una carta <i>(giocatore o incontro)</i> in gioco sta per essere collocata in una pila degli scarti, mettila invece nella Collezione a faccia in su.",
+        "traits": "Antico dell'Universo."
+    },
+    {
+        "code": "16072",
+        "name": "Collezionista",
+        "text": "<b>Quando Rivelata:</b> Metti nella Collezione a faccia in su 1 carta dalla cima del mazzo di ogni giocatore. Colloca 1 minaccia sulla trama principale per ogni carta nella Collezione.\n<b>Interruzione Obbligata:</b> Quando una carta in gioco sta per essere collocata in una pila degli scarti, mettila invece nella Collezione a faccia in su, poi colloca 1 minaccia sulla trama principale.",
+        "traits": "Antico dell'Universo."
+    },
+    {
+        "code": "16073a",
+        "name": "La Grande Collezione",
+        "text": "<b>Contenuto:</b> Collezionista (I) e Collezionista (II). <i>(Collezionista (II) and Collezionista (III) invece per la modalità esperto.)</i> Set di incontri Infiltrarsi nel Museo, Artefatti Galattici e Standard. 1 set di incontri modulare <i>(Guazzabuglio nel Serraglio).</i>\n<b>Preparazione:</b> Crea la zona di gioco Collezione <i>(vedi il regolamento).</i> Metti nella Collezione a faccia in su 1 carta dalla cima del mazzo di ogni giocatore."
+    },
+    {
+        "code": "16073b",
+        "name": "La Grande Collezione",
+        "text": "<b>Azione Eroe:</b> Scegli se esaurire il tuo eroe oppure spendere 2 risorse di qualsiasi tipo → scarta 1 carta dalla Collezione <i>(nella pila degli scarti del suo proprietario).</i> (Limite di una volta per round per giocatore.)\n<b>Se ci sono 5[per_hero] o più carte nella Collezione o se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "boost_text": "Dopo che questa attivazione è terminata, rivela questa carta.",
+        "code": "16074",
+        "name": "Immagine Biogramma",
+        "text": "Assegna a Collezionista.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per subire un qualsiasi ammontare di danni, metti nella Collezione a faccia in su questa carta → previeni tutti quei danni, poi colloca sulla trama principale un ammontare di minacce pari ai danni prevenuti in questo modo.",
+        "traits": "Illusione."
+    },
+    {
+        "code": "16075",
+        "flavor": "<b>\"Nessuno può nascondersi da me.\"</b>",
+        "name": "Monark Starstalker",
+        "text": "Criminoso. <i>(Quando questo gregario si attiva, fagli ricevere 1 carta potenziamento.)</i>",
+        "traits": "Cacciatore di taglie."
+    },
+    {
+        "boost_text": "Se ci sono 3[per_hero] o meno carte nella Collezione, metti nella Collezione a faccia in su 1 carta dalla cima del tuo mazzo.",
+        "code": "16076",
+        "name": "Scatola Anonima",
+        "text": "<b>Quando Rivelata:</b> Metti nella Collezione a faccia in su la carta dal costo più basso che controlli. Se non puoi farlo, questa carta ottiene Impulso."
+    },
+    {
+        "code": "16077",
+        "name": "Visione del Cosmo",
+        "text": "<b>Quando Rivelata:</b> Scegli 1 effetto tra:\n- Metti nella Collezione a faccia in su la carta dal costo più alto nella tua mano.\n- Scarta la carta dal costo più alto dalla tua mano, poi colloca sulla trama principale un ammontare di minacce pari al suo costo stampato."
+    },
+    {
+        "code": "16078",
+        "name": "Fermati un Attimo",
+        "text": "<b>Quando Rivelata (Alter Ego):</b> Scegli se spendere [physical][physical] oppure mettere nella Collezione a faccia in su 1 carta dalla cima del tuo mazzo.\n<b>Quando Rivelata (Eroe):</b> Collezionista ti attacca con +1 ATT. Se subisci un qualsiasi ammontare di danni da quell'attacco, metti nella Collezione a faccia in su 1 carta dalla cima del tuo mazzo."
+    },
+    {
+        "code": "16079",
+        "name": "Colto alla Sprovvista",
+        "text": "<b>Quando Rivelata:</b> Scarta 1 miglioria o supporto che controlli. Se nessuna carta è stata scartata in questo modo, questa carta ottiene Impulso."
+    },
+    {
+        "attack_text": "Collezionista riceve +X TRA e +X ATT, dove X è pari al numero di stadio attuale della trama principale.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per essere sconfitto, rimuovi invece 3[per_hero] minacce dalla trama principale e gira questa carta.",
+        "code": "16080a",
+        "name": "Collezionista",
+        "scheme_text": "Collezionista riceve +X TRA e +X ATT, dove X è pari al numero di stadio attuale della trama principale.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per essere sconfitto, rimuovi invece 3[per_hero] minacce dalla trama principale e gira questa carta.",
+        "text": "[star] Collezionista riceve +X TRA e +X ATT, dove X è pari al numero di stadio attuale della trama principale.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per essere sconfitto, rimuovi invece 3[per_hero] minacce dalla trama principale e gira questa carta.",
+        "traits": "Antico dell'Universo."
+    },
+    {
+        "code": "16080b",
+        "flavor": "<b>\"Sei più ingegnoso di quanto pensassi. Non importa. Riproviamoci.\"</b>",
+        "name": "Collezionista",
+        "text": "Collezionista non può essere sconfitto.\n<b>Interruzione Obbligata:</b> Quando il round termina, gira questa carta, poi regola l'indicatore dei punti ferita di Collezionista al suo valore di punti ferita stampato.",
+        "traits": "Antico dell'Universo. Ferito."
+    },
+    {
+        "attack_text": "Collezionista riceve +X TRA e +X ATT, dove X è pari al numero di stadio attuale della trama principale.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per essere sconfitto, rimuovi invece 3[per_hero] minacce dalla trama principale e gira questa carta.",
+        "code": "16081a",
+        "name": "Collezionista",
+        "scheme_text": "Collezionista riceve +X TRA e +X ATT, dove X è pari al numero di stadio attuale della trama principale.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per essere sconfitto, rimuovi invece 3[per_hero] minacce dalla trama principale e gira questa carta.",
+        "text": "[star] Collezionista riceve +X TRA e +X ATT, dove X è pari al numero di stadio attuale della trama principale.\n<b>Interruzione Obbligata:</b> Quando Collezionista sta per essere sconfitto, rimuovi invece 3[per_hero] minacce dalla trama principale e gira questa carta.",
+        "traits": "Antico dell'Universo."
+    },
+    {
+        "code": "16081b",
+        "flavor": "<b>\"Sei più ingegnoso di quanto pensassi. Non importa. Riproviamoci.\"</b>",
+        "name": "Collezionista",
+        "text": "Collezionista non può essere sconfitto.\n<b>Interruzione Obbligata:</b> Quando il round termina, gira questa carta, poi regola l'indicatore dei punti ferita di Collezionista al suo valore di punti ferita stampato.",
+        "traits": "Antico dell'Universo. Ferito."
+    },
+    {
+        "code": "16082a",
+        "name": "La Milano è Scomparsa",
+        "text": "<b>Contenuto:</b> Collezionista (A1)  <i>(Collezionista (B1) invece per la modalità esperto.)</i> Set di incontri Fuga dal Museo, Artefatti Galattici, Comando della Nave e Standard. 1 set di incontri modulare <i>(Guazzabuglio nel Serraglio).</i>\n<b>Preparazione:</b> Metti in gioco l'ambiente Labirinto della Biblioteca. Metti da parte il set di incontri modulare Comando della Nave."
+    },
+    {
+        "code": "16082b",
+        "flavor": "<b><i>Siete intrappolati nel museo del Collezionista. Prima di poter fuggire, però, dovete trovare la Milano.</i></b>",
+        "name": "La Milano è Scomparsa",
+        "text": "<b>Interruzione Obbligata:</b> Quando l'ultima minaccia è rimossa da questa trama, proseguire con lo stadio 2A <i>(i giocatori vincono proseguendo).</i>\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "16083a",
+        "flavor": "<b><i>La Milano è rinchiusa in un gigantesco contenitore. Tentate di forzare il pannello laterale, ma alla fine decidete di spaccare il vetro con tutta la forza di cui siete capaci.</i></b>",
+        "name": "Smarriti nel Museo",
+        "text": "<b>Quando Rivelata:</b> Metti in gioco il supporto Milano dal set di incontri Comando della Nave messo da parte sotto il controllo del primo giocatore."
+    },
+    {
+        "code": "16083b",
+        "flavor": "<b><i>Ora che avete tirato fuori la Milano dalla sua gabbia, usatela per trovare la porta d'ingresso!</i></b>",
+        "name": "Smarriti nel Museo",
+        "text": "<b>Interruzione Obbligata:</b> Quando l'ultima minaccia è rimossa da questa trama, proseguire con lo stadio 3A <i>(i giocatori vincono proseguendo).</i>\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "16084a",
+        "flavor": "<b><i>Avete trovato l'uscita! Quando la Milano sfreccia nello spazio e dà potenza ai suoi propulsori, vedete i cannoni della Nave Museo che iniziano a caricarsi.</i></b>",
+        "name": "La Grande Fuga",
+        "text": "<b>Quando Rivelata:</b> Gira Labirinto della Biblioteca. Colloca 1 gettone accelerazione sulla trama principale. Mescola le carte rimanenti del set di incontri Comando della Nave messo da parte nel mazzo degli incontri."
+    },
+    {
+        "code": "16084b",
+        "flavor": "<b><i>La via è quasi sgombra! Sfuggite al fuoco dei cannoni della Nave Museo e sarà fatta!</i></b>",
+        "name": "La Grande Fuga",
+        "text": "<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa carta.\n<b>Se su questa carta non ci sono minacce, i giocatori vincono la partita.</b>\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "16085a",
+        "flavor": "<b><i>Il museo del Collezionista è un labirinto di reperti culturali di ogni genere e inermi creature provenienti da ogni parte della galassia.</i></b>",
+        "name": "Labirinto della Biblioteca",
+        "text": "\"<i>Da questa parte?</i>\" - <b>Azione Eroe:</b> Distribuisci 1 carta incontro a faccia in giù a te stesso → rimuovi 5 minacce dalla trama principale. (Limite di una volta per round per giocatore.)",
+        "traits": "Luogo."
+    },
+    {
+        "code": "16085b",
+        "name": "Nave Museo",
+        "text": "\"<i>Chiappe strette, si parte!</i>\" - <b>Interruzione Obbligata:</b> Quando la Fase del Criminale inizia, scegli 1 effetto tra:\n- Esaurisci Milano → assegna 2[per_hero] danni indiretti tra i giocatori.\n- Assegna un totale di 3[per_hero] danni indiretti tra i giocatori.",
+        "traits": "Aereo. Veicolo."
+    },
+    {
+        "boost_text": "Irrobustisci Collezionista.",
+        "code": "16086",
+        "name": "\"Ora Siete Miei!\"",
+        "text": "<b>Quando Rivelata (Alter Ego):</b> Esaurisci la tua identità. Collezionista trama.\n<b>Quando Rivelata (Eroe):</b> Sei stordito. Collezionista ti attacca."
+    },
+    {
+        "code": "16087",
+        "flavor": "<b><i>\"Io… sono… Groot???\" - Groot</i></b>",
+        "name": "Geometria Impossibile",
+        "text": "Incitazione 1. <i>(Quando questa carta viene rivelata, colloca 1 minaccia sulla trama principale.)</i>\n<b>Quando Rivelata:</b> Sei confuso. Se eri già confuso, scegli e scarta 1 carta che controlli."
+    },
+    {
+        "code": "16088",
+        "name": "Nebula",
+        "text": "La prima aggiunta [[Tecnica]] rivelata ogni round ottiene Impulso.\n[star]<b>Interruzione Obbligata:</b> Quando Nebula lancia un'attivazione contro te, risolvi la capacità \"<b>Speciale</b>\" su ogni aggiunta [[Tecnica]] in gioco, poi scarta ognuna di quelle aggiunte.",
+        "traits": "Malvivente."
+    },
+    {
+        "code": "16089",
+        "name": "Nebula",
+        "text": "La prima aggiunta [[Tecnica]] che ogni giocatore rivela ogni round ottiene Impulso.\n[star]<b>Interruzione Obbligata:</b> Quando Nebula lancia un'attivazione contro di te, risolvi la capacità \"<b>Speciale</b>\" su ogni aggiunta [[Tecnica]] in gioco, poi scegli e scarta 1 di quelle aggiunte.",
+        "traits": "Malvivente."
+    },
+    {
+        "code": "16090",
+        "name": "Nebula",
+        "text": "La prima aggiunta [[Tecnica]] che ogni giocatore rivela ogni round ottiene Impulso.\n[star]<b>Interruzione Obbligata:</b> Quando Nebula lancia un'attivazione contro di te, risolvi la capacità \"<b>Speciale</b>\" su ogni aggiunta [[Tecnica]] in gioco. Poi, puoi rimuovere dal gioco 1 carta dalla cima del tuo mazzo per scegliere e scartare 1 di quelle aggiunte.",
+        "traits": "Malvivente."
+    },
+    {
+        "code": "16091a",
+        "name": "L'arte dell'Elusione",
+        "text": "<b>Contenuto:</b> Nebula (I) e Nebula (II). <i>(Nebula (II) e Nebula (III) invece per la modalità esperto.)</i> Set di incontri Nebula, Gemma del Potere, Comando della Nave, e Standard. 1 set di incontri modulare <i>(Pirati Spaziali).</i>\n<b>Preparazione:</b> Metti in gioco l'ambiente Nave di Nebula e il supporto Milano. Assegna Gemma del Potere a Nebula. Scarta 2[per_hero] carte dalla cima del mazzo degli incontri, poi assegna ogni aggiunta [[Tecnica]] scartata in questo modo a Nebula."
+    },
+    {
+        "code": "16091b",
+        "flavor": "<b><i>Nonostante tenti disperatamente di dileguarsi, avete scoperto dove si trova Nebula. Forse questa è la vostra ultima possibilità di strapparle la Gemma del Potere.</i></b>",
+        "name": "L'arte dell'Elusione",
+        "text": "X è pari al numero di gettoni elusione su Nave di Nebula."
+    },
+    {
+        "code": "16092a",
+        "flavor": "<b><i>Con la precisione di un pilota esperto, la nave di Nebula schiva e scatta in avanti, surclassando la manovrabilità della Milano e portando Nebula a una distanza tale da offrirle l'opportunità di fuggire una volta per tutte.</i></b>",
+        "name": "Avvio del Motore Warp",
+        "text": "<b>Quando Rivelata:</b> Colloca 2 gettoni elusione su Nave di Nebula. Per ogni gettone elusione su Nave di Nebula, scarta 2 carte dalla cima del mazzo di ogni giocatore e del mazzo degli incontri."
+    },
+    {
+        "code": "16092b",
+        "flavor": "<b><i>I motori della nave di Nebula sono attivi e pronti a rombare. Toglieteli di mezzo prima che compia il salto warp!</i></b>",
+        "name": "Avvio del Motore Warp",
+        "text": "X è pari al numero di gettoni elusione su Nave di Nebula.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "16093",
+        "name": "Nave di Nebula",
+        "text": "<b>Interruzione Obbligata:</b> Quando la Fase del Criminale inizia, colloca 1 gettone elusione su questa carta.\n<i>Spara ai Propulsori!</i> - <b>Azione Primo Giocatore:</b> Esaurisci Milano e spendi fino a 2 risorse di qualsiasi tipo → rimuovi 1 gettone elusione da questa carta per ogni risorsa spesa in questo modo.",
+        "traits": "Aereo. Veicolo."
+    },
+    {
+        "boost_text": "Dopo che questa attivazione è terminata, assegna questa carta a Nebula e risolvi la sua capacità <b>\"Speciale\"</b>",
+        "code": "16094",
+        "name": "Ambizione del Tagliagole",
+        "text": "Assegna a Nebula.\nNebula non può subire più di 5 danni da un singolo attacco.\n<b>Speciale:</b> Colloca 1 minaccia sulla trama principale.",
+        "traits": "Tecnica."
+    },
+    {
+        "boost_text": "Dopo che questa attivazione è terminata, assegna questa carta a Nebula e risolvi la sua capacità <b>\"Speciale\"</b>",
+        "code": "16095",
+        "name": "Manovre Elusive",
+        "text": "Assegna a Nebula.\nNebula ottiene Stabile.\n<b>Speciale:</b> Sei stordito. Se eri già stordito, fai ricevere 1 carta potenziamento a faccia in giù a Nebula.",
+        "traits": "Tecnica."
+    },
+    {
+        "boost_text": "Dopo che questa attivazione è terminata, assegna questa carta a Nebula e risolvi la sua capacità <b>\"Speciale\"</b>",
+        "code": "16096",
+        "name": "Persistenza Irriducibile",
+        "text": "Assegna a Nebula.\nNebula ottiene Stabile.\n<b>Speciale:</b> Irrobustisci Nebula. Se Nebula era già robusta, fai ricevere 1 carta potenziamento a faccia in giù a Nebula.",
+        "traits": "Tecnica."
+    },
+    {
+        "boost_text": "Dopo che questa attivazione è terminata, assegna questa carta a Nebula e risolvi la sua capacità <b>\"Speciale\"</b>",
+        "code": "16097",
+        "name": "Maestria nelle Armi",
+        "text": "Assegna a Nebula.\nNebula ottiene Ritorsione 1.\n<b>Speciale:</b> Subisci 1 danno.",
+        "traits": "Tecnica."
+    },
+    {
+        "boost_text": "Dopo che questa attivazione è terminata, assegna questa carta a Nebula e risolvi la sua capacità <b>\"Speciale\"</b>",
+        "code": "16098",
+        "name": "Posizione di Guardia",
+        "text": "Assegna a Nebula.\nRiduci di 1 l'ammontare di danni che Nebula subisce da ogni attacco.\n<b>Speciale:</b> Scarta 1 carta casuale dalla tua mano.",
+        "traits": "Tecnica."
+    },
+    {
+        "code": "16099",
+        "name": "Intenti Letali",
+        "text": "<b>Quando Rivelata:</b> Scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 aggiunta [[Tecnica]]. Rivela quella carta."
+    },
+    {
+        "boost_text": "Colloca 1 gettone elusione su Nave di Nebula.",
+        "code": "16100",
+        "name": "Avvitamento",
+        "text": "Impulso. Incitazione 1.\n<b>Quando Rivelata:</b> Colloca 1 gettone elusione su Nave di Nebula."
+    },
+    {
+        "code": "16101",
+        "flavor": "<b><i>\"Non sarà mai finita finchè non otterrò quello che voglio.\" - Nebula</i></b>",
+        "name": "Pronta al Combattimento",
+        "text": "<b>Quando Rivelata:</b> Scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 aggiunta [[Tecnica]]. Rivela quella carta, poi risolvi la sua capacità <b>\"Speciale\"</b>."
+    },
+    {
+        "code": "16102",
+        "name": "Senza Pietà",
+        "text": "<b>Quando Rivelata (Alter Ego):</b> Nebula trama. Se 1 o più minacce vengono collocate da questa attivazione, colloca 1 gettone elusione su Nave di Nebula.\n<b>Quando Rivelata (Eroe):</b> Nebula ti attacca. Se 1 o più danni vengono inflitti da questa attivazione, colloca 1 gettone elusione su Nave di Nebula."
+    },
+    {
+        "code": "16103",
+        "flavor": "<b><i>\"Non c'è nessuna discussione, nessun dibattito. Siete colpevoli.\"</i></b>",
+        "name": "Ronan L'Accusatore",
+        "text": "Robustezza.\n[star]<b>Interruzione Obbligata:</b> Quando Ronan l'Accusatore si attiva contro di te, se controlli Gemma del Potere, fagli ricevere 1 carta potenziamento aggiuntiva.",
+        "traits": "Corpo degli Accusatori. Kree."
+    },
+    {
+        "code": "16104",
+        "name": "Ronan L'Accusatore",
+        "text": "Robustezza.\n<b>Quando Rivelata:</b> Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri la trama secondaria Interrompere l'Energia e rivelala. <i>(Mescola.)</i>\n[star]<b>Interruzione Obbligata:</b> Quando Ronan l'Accusatore si attiva contro di te, se controlli Gemma del Potere, fagli ricevere 1 carta potenziamento aggiuntiva.",
+        "traits": "Corpo degli Accusatori. Kree."
+    },
+    {
+        "code": "16105",
+        "name": "Ronan L'Accusatore",
+        "text": "Ritorsione 1. Robustezza.\n<b>Quando Rivelata:</b> Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri la trama secondaria Tattiche Superiori e rivelala. <i>(Mescola.)</i>\n[star]<b>Interruzione Obbligata:</b> Quando Ronan l'Accusatore si attiva contro di te, se controlli Gemma del Potere, fagli ricevere 1 carta potenziamento aggiuntiva.",
+        "traits": "Corpo degli Accusatori. Kree."
+    },
+    {
+        "code": "16106a",
+        "name": "Intercettazione Imminente",
+        "text": "<b>Contenuto:</b> Ronan l'Accusatore (I) e Ronan l'Accusatore (II). <i>(Ronan l'Accusatore (II) e Ronan l'Accusatore (III) invece per la modalità esperto.)</i> Set di incontri Ronan l'Accusatore, Gemma del Potere, Comando della Nave e Standard. 1 set di incontri modulare <i>(Militanti Kree).</i>\n<b>Preparazione:</b> Metti in gioco l'ambiente Nave di Comando Kree e il supporto Milano. Assegna Arma Universale a Ronan l'Accusatore. Assegna Gemma del Potere al primo giocatore."
+    },
+    {
+        "code": "16106b",
+        "flavor": "<b><i>Le forze di Ronan l'Accusatore hanno teso un'imboscata alla Milano con l'obiettivo di rubare la Gemma del Potere. Con un po' di prontezza di spirito e qualche manovra esperta, potreste riuscire a fermare la loro avanzata.</i></b>",
+        "name": "Intercettazione Imminente",
+        "text": "<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
+    },
+    {
+        "code": "16107a",
+        "flavor": "<b><i>La nave di Ronan l'Accusatore si è agganciata alla vostra. Una volta abbordata la Milano, gli basta un colpo della sua Arma Universale per sbaragliarvi. Prima che possiate riprendervi, afferra la Gemma del Potere.</i></b>",
+        "name": "\"Prenderò Ciò che è Mio\"",
+        "text": "<b>Quando Rivelata:</b> Assegna Gemma del Potere a Ronan l'Accusatore. Se è già assegnata a esso, fagli ricevere 1 carta potenziamento a faccia in giù."
+    },
+    {
+        "code": "16107b",
+        "flavor": "<b><i>Ronan l'Accusatore è in possesso della Gemma del Potere! Strappalo al suo controllo prima che sia troppo tardi.</i></b>",
+        "name": "\"Prenderò Ciò che è Mio\"",
+        "text": "Mentre Gemma del Potere è assegnata a Ronan l'Accusatore, non è possibile rimuovere minacce da questa trama.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "16108",
+        "name": "Nave di Comando Kree",
+        "text": "<b>Interruzione Primo Giocatore:</b> Quando viene rivelata una carta insidia dal mazzo degli incontri, esaurisci Milano e spendi 1 risorsa di qualsiasi tipo → annulla gli effetti <b>\"Quando Rivelata\" di quella carta.",
+        "traits": "Aereo. Veicolo."
+    },
+    {
+        "boost_text": "Assegna Arma Universale a Ronan l'Accusatore.",
+        "code": "16109",
+        "name": "Arma Universale",
+        "text": "Assegna a Ronan l'Accusatore.\nRonan l'Accusatore ottiene Stabile.\n<b>Azione Eroe:</b> Subisci 2 danni e distribuisci 1 carta incontro a faccia in giù a te stesso → rimescola Arma Universale nel mazzo degli incontri.",
+        "traits": "Arma."
+    },
+    {
+        "code": "16110",
+        "name": "Fanatismo",
+        "text": "Impulso.\nAssegna a Ronan l'Accusatore. Utilizzo (1 gettone furia, più 1[per_hero] gettoni furia aggiuntivi).\n[star]<b>Interruzione Obbligata:</b> Quando Ronan l'Accusatore ti attacca, quell'attacco ottiene Perforante e Sopraffazione. Alla fine di quell'attacco, rimuovi 1 gettone furia da questa carta.",
+        "traits": "Condizione."
+    },
+    {
+        "boost_text": "Scegli se esaurire Milano oppure collocare 2 minacce sulla trama principale.",
+        "code": "16111",
+        "name": "Interrompere l'Energia"
+    },
+    {
+        "code": "16112",
+        "name": "Manovra a Tenaglia",
+        "text": "Ostacolo 2[per_hero] <i>(Quando questa carta viene rivelata, colloca 2[per_hero] minacce da questa trama.)</i>.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
+    },
+    {
+        "code": "16113",
+        "flavor": "<b><i>L'avanzato addestramento Kree di Ronan l'Accusatore e la sua fanatica determinazione fanno di lui un avversario come nessun altro.</i></b>",
+        "name": "Tattiche Superiori",
+        "text": "Gemma del Potere non può essere disassegnata da Ronan l'Accusatore.\n<b>Quando Rivelata:</b> Assegna Gemma del Potere a Ronan l'Accusatore. Se è già assegnata a esso, colloca 1[per_hero] minacce su questa carta."
+    },
+    {
+        "boost_text": "Assegna Gemma del Potere a Ronan l'Accusatore.",
+        "code": "16114",
+        "name": "Furia Ossessiva",
+        "text": "<b>Quando Rivelata:</b> Ronan l'Accusatore attacca il giocatore che controlla Gemma del Potere <i>(anche se quel giocatore è nella sembianza di alter ego).</i> Se nessun attacco è stato effettuato in questo modo, questa carta ottiene Impulso."
+    },
+    {
+        "code": "16115",
+        "flavor": "<b><i>\"Inginocchiati di fronte a me!\" - Ronan l'Accusatore</i></b>",
+        "name": "Fisiologia Kree",
+        "text": "Impulso.\n<b>Quando Rivelata:</b> Irrobustisci Ronan l'Accusatore. Se è già robusto, subisci 1 danno."
+    },
+    {
+        "boost_text": "Fai ricevere 1 carta potenziamento aggiuntiva al criminale per questa attivazione.",
+        "code": "16116",
+        "name": "\"Sei Accusato!\"",
+        "text": "<b>Quando Rivelata (Alter Ego):</b> Ronan l'Accusatore trama con +1 TRA.\n<b>Quando Rivelata (Eroe):</b> Ronan l'Accusatore ti attacca con +1 ATT."
+    },
+    {
+        "boost_text": "Se questa attivazione è un attacco, questo attacco ottiene Distanza, Perforante e Sopraffazione.",
+        "code": "16117",
+        "name": "Assassino Badoon",
+        "text": "<b>Risposta Obbligata:</b> Dopo che Assassino Badoon ha impegnato il tuo eroe, ti attacca con +2 ATT.",
+        "traits": "Badoon."
+    },
+    {
+        "boost_text": "Metti in gioco Recluta Badoon impegnata con te.",
+        "code": "16118",
+        "name": "Recluta Badoon",
+        "text": "<b>Risposta Obbligata:</b> Dopo che Recluta Badoon ti ha impegnato, se non ci sono altri gregari impegnati con te, distribuisci 1 carta incontro a faccia in giù a te stesso.",
+        "traits": "Badoon."
+    },
+    {
+        "boost_text": "Se questa attivazione è una trama, questa carta riceve +2 icone potenziamento ([boost][boost]) per questa attivazione.",
+        "code": "16119",
+        "name": "Tenente Badoon",
+        "text": "Pattuglia. <i>(Mentre questo gregario è impegnato con te, non puoi intervenire sulla trama principale.)</i>",
+        "traits": "Badoon."
+    },
+    {
+        "boost_text": "Irrobustisci il criminale. Se il criminale è già robusto, questa carta riceve + 2 icone potenziamento ([boost][boost]) per questa attivazione.",
+        "code": "16120",
+        "name": "Sentinella Badoon",
+        "text": "Ritorsione 1.",
+        "traits": "Badoon."
+    },
+    {
+        "boost_text": "Se questa attivazione è un attacco, questa carta riceve +2 icone potenziamento ([boost][boost]) per questa attivazione.",
+        "code": "16121",
+        "name": "Signore della Guerra Badoon",
+        "text": "[star] Gli attacchi di Signore della Guerra Badoon ottengono Sopraffazione.",
+        "traits": "Badoon."
+    },
+    {
+        "code": "16122",
+        "flavor": "<b><i>Il mantello del leggendario eroe Ercole. Chi è tanto fortunato da indossarlo riceve una forza sovrumana.</i></b>",
+        "name": "Mantello di Ercole",
+        "text": "Assegna al nemico con meno ATT.\n<b>Azione Eroe:</b> Spendi [physical][physical][physical] → scarta questa carta.",
+        "traits": "Artefatto."
+    },
+    {
+        "code": "16123",
+        "name": "Pozione di Obbedienza",
+        "text": "Assegna alla tua identità.\nIl personaggio con questa aggiunta riceve -1 INT, -1 ATT e -1 DIF.\n<b>Azione Eroe:</b> Subisci 1 danno e spendi [mental][mental] → scarta questa carta. <i>(Qualsiasi giocatore può farlo.)</i>",
+        "traits": "Artefatto."
+    },
+    {
+        "code": "16124",
+        "name": "Blazer dell'Arcano",
+        "text": "Assegna al nemico con più TRA.\n<b>Azione Eore:</b> Colloca 2 minacce sulla trama principale e spendi 2 risorse dello stesso tipo → scarta questa carta.",
+        "traits": "Artefatto."
+    },
+    {
+        "code": "16125",
+        "flavor": "<b><i>La tossina più letale della galassia.</i></b>",
+        "name": "Veleno",
+        "text": "Assegna alla tua identità.\n<b>Interruzione Obbligata:</b> Quando il tuo turno inizia, colloca 1 gettone veleno su questa carta, poi subisci 1 danno per ogni gettone veleno su questa carta.\n<b>Azione Eroe:</b> Spendi 3 risorse di tipo diverso → scarta questa carta. <i>(Qualsiasi giocatore può farlo.)</i>",
+        "traits": "Artefatto."
+    },
+    {
+        "code": "16126",
+        "name": "Bacchetta del Potere Vandariana",
+        "text": "Assegna al nemico con meno TRA.\n<b>Azione Eroe:</b> Spendi [energy][energy][energy] → scarta questa carta.",
+        "traits": "Artefatto."
+    },
+    {
+        "code": "16127",
+        "name": "Uovo del Monarca Hujahdariano",
+        "text": "Ostacolo 2[per_hero]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può ripristinare la sua identità."
+    },
+    {
+        "code": "16128",
+        "name": "Teiera Magica",
+        "text": "Ostacolo 2[per_hero]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può curare 4 danni alla sua identità."
+    },
+    {
+        "code": "16129",
+        "name": "Pietra Filosofale",
+        "text": "Ostacolo 2[per_hero]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può pescare 2 carte."
+    },
+    {
+        "code": "16130",
+        "name": "Sfera di Cristallo",
+        "text": "Ostacolo 2[per_hero]. Vittoria 0.\n<b>Quando Sconfitta:</b> Il giocatore che ha sconfitto questa trama può giocare 1 carta dalla sua mano, riducendo di 3 il suo costo in risorse."
+    },
+    {
+        "code": "16131",
+        "name": "Armatura da Combattimento Kree",
+        "text": "Assegna al nemico con più ATT.\nRiduci di 1 l'ammontare di danni che il personaggio con questa aggiunta subisce da ogni attacco.\n<b>Azione Eroe:</b> Spendi 3 risorse dello stesso tipo → scarta questa carta.",
+        "traits": "Armatura."
+    },
+    {
+        "boost_text": "Se questa attivazione è un attacco, questo attacco ottiene Perforante.",
+        "code": "16132",
+        "name": "Commando Kree",
+        "text": "Pattuglia. <i>(Mentre questo gregario è impegnato con te, non puoi intervenire sulla trama principale.)</i>",
+        "traits": "Kree. Soldato."
+    },
+    {
+        "boost_text": "Se questa attivazione è un attacco, questa carta riceve +3 icone potenziamento ([boost][boost][boost]) per questa attivazione.",
+        "code": "16133",
+        "name": "Tenente Kree",
+        "text": "Guardia. Stabile. <i>(Questo personaggio non può essere stordito o confuso.)</i>",
+        "traits": "Kree. Soldato."
+    },
+    {
+        "boost_text": "Se questa attivazione è un attacco, questo attacco ottiene Sopraffazione.",
+        "code": "16134",
+        "name": "Soldato Semplice Kree",
+        "text": "Colpo Rapido. <i>(Dopo che questo gregario ha impegnato il tuo eroe, ti attacca.)</i>",
+        "traits": "Kree. Soldato."
+    },
+    {
+        "boost_text": "Metti in gioco Fantasma Psionico impegnato con te.",
+        "code": "16135",
+        "name": "Fantasma Psionico",
+        "text": "<b>Quando Rivelata:</b> Sei confuso. Se sei già confuso, subisci 1 danno.",
+        "traits": "Fantasma."
+    },
+    {
+        "code": "16136",
+        "flavor": "<b><i>\"TROVARE. GLI. INTRUSI.\"</i></b>",
+        "name": "Bot Servitore",
+        "text": "Guardia. <i>(Mentre questo gregario è impegnato con te, non puoi attaccare il criminale.)</i>\nPattuglia. <i>(Mentre questo gregario è impegnato con te, non puoi intervenire sulla trama principale.)</i>",
+        "traits": "Robot."
+    },
+    {
+        "boost_text": "Infliggi 1 danno a ogni personaggio che controlli.",
+        "code": "16137",
+        "name": "Squalo Stellare",
+        "text": "Colpo Rapido.\n[star] Gli attacchi di Squalo Stellare infliggono danni indiretti.",
+        "traits": "Creatura. Elite."
+    },
+    {
+        "boost_text": "Fai ricevere 1 carta potenziamento aggiuntiva al criminale per questa attivazione.",
+        "code": "16138",
+        "name": "Comandante Pirata",
+        "text": "Colpo Rapido.\n[star] <b>Risposta Obbligata:</b> Dopo che questo gregario ti ha attaccato e danneggiato, rimuovi dal gioco 1 carta casuale dalla tua mano.",
+        "traits": "Malvivente."
+    },
+    {
+        "boost_text": "Fai ricevere 1 carta potenziamento aggiuntiva al criminale per questa attivazione.",
+        "code": "16139",
+        "name": "Lacchè Pirata",
+        "text": "Colpo Rapido.\n[star] <b>Risposta Obbligata:</b> Dopo che questo gregario ti ha attaccato e danneggiato, rimuovi dal gioco 1 carta dalla cima del tuo mazzo.",
+        "traits": "Malvivente."
+    },
+    {
+        "boost_text": "Rivela questa carta.",
+        "code": "16140",
+        "name": "Suonare l'Allarme",
+        "text": "Ogni nemico riceve + 1 ATT."
+    },
+    {
+        "code": "16141",
+        "flavor": "<b><i>La famiglia che ruba unita resta unita.</i></b>",
+        "name": "Onore tra Ladri",
+        "text": "<b>Quando Rivelata:</b> Scarta carte dalla cima del mazzo degli incontri finchè non scarti 1 gregario [[Malvivente]]. Rivela quel gregario, poi irrobustiscilo e fai ricevere 1 carta potenziamento a faccia in giù al criminale."
+    },
+    {
+        "code": "16142",
+        "name": "Milano",
+        "text": "Permanente. Preparazione.\nIl primo giocatore controlla Milano.\n<i>Pilotaggio</i> - <b>Risorsa:</b> Esaurisci Milano → genera [wild] per un qualsiasi giocatore.",
+        "traits": "Aereo. Veicolo."
+    },
+    {
+        "code": "16143",
+        "name": "Vascello Fuorilegge",
+        "text": "Impulso.\nb>Interruzione Obbligata:</b> Quando la Fase del Criminale termina, infliggi 1 danno a ogni giocatore.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano e spendi 2 risorse di qualsiasi tipo → scarta questa carta.",
+        "traits": "Aereo. Veicolo."
+    },
+    {
+        "code": "16144",
+        "name": "Cannoneggiamento",
+        "text": "Ostacolo 3[per_hero] <i>(Quando questa carta viene rivelata, colloca 3[per_hero] minacce su di essa.)</i>.\n<b>Azione Primo Giocatore:</b> Esaurisci Milano → rimuovi 3 minacce da questa trama."
+    },
+    {
+        "code": "16145",
+        "name": "Punto Cieco",
+        "text": "Isolamento. <i>(Mentre risolvi questa carta, gli altri giocatori non possono aiutarti.)</i>\n<b>Quando Rivelata:</b> Scegli 1 effetto tra:\n- Esaurisci Milano.\n- Spendi [physical][physical].\n- Stordisci il primo giocatore."
+    },
+    {
+        "code": "16146",
+        "name": "Breccia sullo Scafo",
+        "text": "Isolamento. <i>(Mentre risolvi questa carta, gli altri giocatori non possono aiutarti.)</i>\n<b>Quando Rivelata:</b> Scegli 1 effetto tra:\n- Esaurisci Milano.\n- Spendi [mental][mental].\n- Infliggi 3 danni al primo giocatore."
+    },
+    {
+        "code": "16147",
+        "name": "Calo di Potenza",
+        "text": "Isolamento. <i>(Mentre risolvi questa carta, gli altri giocatori non possono aiutarti.)</i>\n<b>Quando Rivelata:</b> Scegli 1 effetto tra:\n- Esaurisci Milano.\n- Spendi [energy][energy].\n- Scarta 1 carta casuale dalla mano del primo giocatore."
+    },
+    {
+        "code": "16148",
+        "name": "Consegna Speciale",
+        "text": "<b>Quando Rivelata (Alter Ego):</b> Puoi esaurire Milano. Se non lo fai, il criminale trama con +1 TRA.\n<b>Quando Rivelata (Eroe):</b> Puoi esaurire Milano. Se non lo fai, il criminale ti attacca con +1 ATT."
+    },
+    {
+        "code": "16149",
+        "name": "Gemma del Potere",
+        "text": "Permanente. Preparazione.\nAssegna al criminale.\n<b>Risposta Obbligata:</b> Dopo che un eroe o un criminale ha inflitto 3 o più danni con un singolo attacco al personaggio con questa aggiunta, assegna Gemma del Potere all'eroe o al criminale attaccante.",
+        "traits": "Gemma dell'Infinito."
+    }
 ]
