@@ -2,19 +2,19 @@
     {
         "code": "31025",
         "name": "Onere Ereditario",
-        "text": "<b><i>Fai ricevere al giocatore Peni Parker.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n\u2022 Esaurisci Peni Parker → rimuovi dal gioco Onere Ereditario.\n\u2022 Scegli e scarta 1 miglioria [[Interfaccia]] che controlli. Scarta questa incombenza."
+        "text": "<b><i>Fai ricevere al giocatore Peni Parker.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n- Esaurisci Peni Parker → rimuovi dal gioco Onere Ereditario.\n- Scegli e scarta 1 miglioria [[Interfaccia]] che controlli. Scarta questa incombenza."
     },
     {
         "code": "31026",
+        "flavor": "M.O.R.B.I.U.S. ha messo sotto assedio la città: sta seminando distruzione e prosciugando energia dalla rete elettrica.",
         "name": "Attacco del Mostro Gigante",
-        "text": "come costo aggiuntivo per intervenire su questa trama, devi spendere [[energy]].",
-        "flavor": "M.O.R.B.I.U.S. ha messo sotto assedio la città: sta seminando distruzione e prosciugando energia dalla rete elettrica."
+        "text": "come costo aggiuntivo per intervenire su questa trama, devi spendere [[energy]]."
     },
     {
         "code": "31027",
+        "flavor": "\"Si tratta di una minaccia come non ne hai mai affrontate prima!\" —Zio Ben",
         "name": "M.O.R.B.I.U.S.",
         "text": "<b>Risposta Obbligata:</b> Dopo che l'eroe impegnato ha generato un qualsiasi numero di risorse, infliggi un pari ammontare di danni a quell'eroe.\n<i>(Gregario nemesi di SP//dr.)</i>",
-        "flavor": "\"Si tratta di una minaccia come non ne hai mai affrontate prima!\" —Zio Ben",
         "traits": "Creatura."
     },
     {
@@ -24,14 +24,15 @@
     },
     {
         "code": "31030",
+        "flavor": "I Sinistri Sei di Iron Spider sono scatenati e stanno rapinando qualsiasi attività su cui riescano a mettere mano.",
         "name": "Ondata di Furti",
-        "text": "Mentre ci sono gregari [[Criminale]] in gioco, non è possibile rimuovere minacce da questa trama.",
-        "flavor": "I Sinistri Sei di Iron Spider sono scatenati e stanno rapinando qualsiasi attività su cui riescano a mettere mano."
+        "text": "Mentre ci sono gregari [[Criminale]] in gioco, non è possibile rimuovere minacce da questa trama."
     },
     {
+        "attack_text": "Suddividi i danni degli attacchi di Bombshell tra tutti i personaggi controllati dal giocatore attaccato il più equamente possibile.",
+        "boost_text": "Infliggi 1 danno indiretto a ogni giocatore. Esaurisci ogni personaggio danneggiato in questo modo.",
         "code": "31031",
         "name": "Bombshell",
-        "text": "[star] Suddividi i danni degli attacchi di Bombshell tra tutti i personaggi controllati dal giocatore attaccato il più equamente possibile.\n<hr />\n[star] <b>Potenziamento</b>: Infliggi 1 danno indiretto a ogni giocatore. Esaurisci ogni personaggio danneggiato in questo modo.",
         "traits": "Criminale."
     },
     {
@@ -41,28 +42,31 @@
         "traits": "Criminale."
     },
     {
+        "attack_text": "<b>Interruzione Obbligata:</b> Quando Hobgoblin sta per attaccarti, scarta invece un ammontare di carte dalla cima del mazzo degli incontri pari all'ATT di Hobgoblin. Subisci 1 danno indiretto per ogni icona potenziamento ([boost]) scartata in questo modo.",
         "code": "31033",
         "name": "Hobgoblin",
-        "text": "[star] <b>Interruzione Obbligata:</b> Quando Hobgoblin sta per attaccarti, scarta invece un ammontare di carte dalla cima del mazzo degli incontri pari all'ATT di Hobgoblin. Subisci 1 danno indiretto per ogni icona potenziamento ([boost]) scartata in questo modo.",
         "traits": "Criminale."
     },
     {
+        "attack_text": "Gli attacchi di Iron Spider ottengono Sopraffazione.",
         "code": "31034",
-        "name": "Iron Spider",
-        "text": "Guardia. Pattuglia. Ritorsione 1. Robustezza.\n[star] Gli attacchi di Iron Spider ottengono Sopraffazione.",
         "flavor": "\"Non costringermi a sculacciarti\"",
+        "name": "Iron Spider",
+        "text": "Guardia. Pattuglia. Ritorsione 1. Robustezza.",
         "traits": "Criminale. Elite."
     },
     {
+        "boost_text": "Scarta 7 carte dalla cima del mazzo degli incontri.",
         "code": "31035",
         "name": "Uomo Sabbia",
-        "text": "<b>Risposta Obbligata:</b> Dopo che Uomo Sabbia ha subito un qualsiasi ammontare di danni da un attacco, scarta 7 carte dalla cima del mazzo degli incontri.\n<hr />\n[star] <b>Potenziamento</b>: Scarta 7 carte dalla cima del mazzo degli incontri.",
+        "text": "<b>Risposta Obbligata:</b> Dopo che Uomo Sabbia ha subito un qualsiasi ammontare di danni da un attacco, scarta 7 carte dalla cima del mazzo degli incontri.",
         "traits": "Criminale."
     },
     {
+        "boost_text": "Metti in gioco questo gregario impegnato con te.",
         "code": "31036",
         "name": "Macchia",
-        "text": "<b>Quando Sconfitta:</b> Se Macchia è stato sconfitto senza danni in eccesso, rimescolalo nel mazzo degli incontri.\n<hr />\n[star] <b>Potenziamento</b>: Metti in gioco questo gregario impegnato con te.",
+        "text": "<b>Quando Sconfitta:</b> Se Macchia è stato sconfitto senza danni in eccesso, rimescolalo nel mazzo degli incontri.",
         "traits": "Criminale."
     },
     {

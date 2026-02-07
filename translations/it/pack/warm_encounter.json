@@ -1,25 +1,26 @@
 [
-	{
-		"code": 23028,
-		"name": "Equipaggiamento Difettoso",
-		"text": "<b><i>Fai ricevere al giocatore James Rhodes.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n\u2022 Esaurisci James Rhodes → rimuovi dal gioco Equipaggiamento Difettoso.\n\u2022 Rimuovi tutti i gettoni munizione dalla tua identità. Se hai rimosso 2 o meno gettoni munizione in questo modo, questa carta ottiene Impulso. Scarta questa incombenza."
-	},
-	{
-		"code": 23029,
-		"flavor": "\"Tu e Stark... ve la siete cercata tutti e due!\"",
-		"name": "Laser Vivente",
-		"text": "Colpo Rapido.\n[star] L'attacco di Laser Vivente ottiene Perforante.\n<i>(Gregario nemesi di War Machine.)</i>",
-		"traits": "Malvivente."
-	},
-	{
-		"code": 23030,
-		"flavor": "<b><i>Il Laser Vivente sta attaccando gli uffici governativi. Gli impiegati all'interno hanno bisogno di aiuto!</i></b>",
-		"name": "Spettacolo di Luci Letale",
-		"text": "Ostacolo 1[per_hero]\n<b>Quando Sconfitta:</b> Infliggi 1 danno a ogni identità."
-	},
-	{
-		"code": 23031,
-		"name": "Colpo di Laser",
-		"text": "<b>Quando Rivelata</b>: Scarta 1 miglioria che controlli. Se non puoi farlo, questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Se questa capacità è risolta durante un attacco non difeso, scarta 1 miglioria che controlli."
-	}
+    {
+        "code": "23028",
+        "name": "Equipaggiamento Difettoso",
+        "text": "<b><i>Fai ricevere al giocatore James Rhodes.</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n- Esaurisci James Rhodes → rimuovi dal gioco Equipaggiamento Difettoso.\n- Rimuovi tutti i gettoni munizione dalla tua identità. Se hai rimosso 2 o meno gettoni munizione in questo modo, questa carta ottiene Impulso. Scarta questa incombenza."
+    },
+    {
+        "code": "23029",
+        "flavor": "\"Tu e Stark... ve la siete cercata tutti e due!\"",
+        "name": "Laser Vivente",
+        "text": "Colpo Rapido.\n[star] L'attacco di Laser Vivente ottiene Perforante.\n<i>(Gregario nemesi di War Machine.)</i>",
+        "traits": "Malvivente."
+    },
+    {
+        "code": "23030",
+        "flavor": "<b><i>Il Laser Vivente sta attaccando gli uffici governativi. Gli impiegati all'interno hanno bisogno di aiuto!</i></b>",
+        "name": "Spettacolo di Luci Letale",
+        "text": "Ostacolo 1[per_player]\n<b>Quando Sconfitta:</b> Infliggi 1 danno a ogni identità."
+    },
+    {
+        "boost_text": "<b>Boost</b>: Se questa capacità è risolta durante un attacco non difeso, scarta 1 miglioria che controlli.",
+        "code": "23031",
+        "name": "Colpo di Laser",
+        "text": "<b>Quando Rivelata:</b> Scarta 1 miglioria che controlli. Se non puoi farlo, questa carta ottiene Impulso."
+    }
 ]
