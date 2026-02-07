@@ -1,0 +1,994 @@
+[
+    {
+        "code": "56023",
+        "name": "Demasiado implicada",
+        "text": "<b><i>Dale esta carta al jugador que lleva a Greer Nelson.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n\u2022 agota a Greer Nelson \u2192 retira de la partida Demasiado implicada.\n\u2022 Cada Esbirro que esté enfrentado a ti se activa contra ti. Si no se activa ningún Esbirro de este modo, Demasiado implicada gana Oleada. Descarta esta carta."
+    },
+    {
+        "code": "56024",
+        "name": "El Encapuchado",
+        "text": "Tesón. Infame.\n[star] <b>Respuesta obligada</b>: después de que El Encapuchado ataque, coloca 1 de Amenaza sobre el Plan secundario Bajos fondos.\n<i>(Esbirro Archienemigo de Tigra.)</i>",
+        "traits": "Criminal."
+    },
+    {
+        "code": "56025",
+        "flavor": "El Encapuchado has gathered the disparate elements of the criminal underworld together in one unified gang.",
+        "name": "Bajos fondos",
+        "text": "Ningún Esbirro [[Criminal]] puede sufrir Daño."
+    },
+    {
+        "code": "56026",
+        "name": "Capa del Encapuchado",
+        "text": "Vincula esta carta a El Encapuchado. De no ser posible, vincula esta carta al Villano.\n<b>Respuesta de Héroe</b>: después de que realices un ataque básico contra el enemigo vinculado, gasta recursos [energy] [physical] \u2192 descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: vincula esta carta a El Encapuchado. De no ser posible, vincula esta carta al Villano.",
+        "traits": "Armadura."
+    },
+    {
+        "code": "56027",
+        "name": "Madame Máscara",
+        "text": "<b>Cuando se muestre esta carta</b>: coloca 2 de Amenaza sobre el Plan secundario Bajos fondos. De no ser posible, localiza Bajos fondos y muéstralo.\n<hr />\n[star] <b>Aumento</b>: coloca 2 de Amenaza sobre el Plan secundario Bajos fondos. De no ser posible, esta carta gana [boost][boost].",
+        "traits": "Criminal."
+    },
+    {
+        "code": "56028",
+        "flavor": "\"¡Gata mala!\"",
+        "name": "Puzzle",
+        "text": "Ataque veloz.\n[star] <b>Respuesta obligada</b>: después de que Puzzle ataque e inflija Daño a un personaje, coloca 2 de Amenaza sobre el Plan secundario Bajos fondos.",
+        "traits": "Criminal."
+    },
+    {
+        "code": "56054",
+        "name": "Un origen complicado",
+        "text": "<b><i>Dale esta carta al jugador que lleva a Teddy Altman.</i></b>\nPuedes adoptar la identidad de tu Alter ego. Elige una opción:\n\u2022 agota a Teddy Altman \u2192 retira de la partida Un origen complicado.\n\u2022 Descarta todas las Mejora [[Cambio de forma]] que controles. Descarta esta carta."
+    },
+    {
+        "code": "56055",
+        "name": "Superskrull",
+        "text": "[star] <b>Interrupción obligada</b>: cuando el Superskrull te ataca, descarta la primera carta de tu mazo. Si el recurso impreso de esa carta tiene:\n[energy] \u2013 El Superskrull recibe +2 ATQ para este ataque.\n[mental] \u2013 Descarta 1 carta de tu mano.\n[physical] \u2013 Dale al Superskrull una carta de Estado \"Duro\".\n[wild] \u2013 Descarta una Mejora que controles.",
+        "traits": "Élite. Skrull."
+    },
+    {
+        "code": "56056",
+        "flavor": "Superskrull was sent to abduct Hulkling after his true heritage was revealed.",
+        "name": "Asunto de los Skrulls",
+        "text": "<b>Respuesta obligada</b>: después de que se descarte cualquier cantidad de cartas de la parte superior del mazo de un jugador, coloca esas cartas boca abajo debajo de este Plan."
+    },
+    {
+        "code": "56057",
+        "name": "Poderes fantásticos",
+        "text": "El Esbirro vinculado recibe +3 de Vida y gana Represalia 1.\n<b>Cuando se muestre esta carta</b>: localiza al Superskrull. Ponlo en juego enfrentado a ti y vincúlale Poderes fantásticos. Si tienes adoptada la identidad de Héroe, Superskrull te ataca.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "56058",
+        "name": "¡Te vienes conmigo!",
+        "text": "<b>Cuando se muestre esta carta (Alter ego)</b>: descarta las 3 primeras cartas de tu mazo. Coloca 1 de Amenaza sobre el Plan principal por cada icono de recurso distinto que haya en las cartas descartadas.\n<b>Cuando se muestre esta carta (Héroe)</b>: descarta las 3 primeras cartas de tu mazo. Sufres 1 de Daño por cada icono de recurso distinto que haya en las cartas descartadas <i>([energy], [mental], [physical], o [wild])</i>."
+    },
+    {
+        "code": "56059",
+        "name": "Iron Man",
+        "text": "[star] Iron Man recibe +1 PLA por cada Accesorio [[Tecnología]] que tenga vinculado (hasta un máximo de +3 PLA).\n<b>Preparación</b>: el equipo enemigo busca un Accesorio de Iron Man en el mazo de Encuentros y tu equipo lo muestra.",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56060",
+        "name": "Iron Man",
+        "text": "Tesón.\n[star] Iron Man recibe +1 PLA por cada Accesorio [[Tecnología]] que tenga vinculado (hasta un máximo de +3 PLA).\n<b>Cuando se muestre esta carta</b>: dale una carta de Encuentro a cada jugador. Iron Man no puede sufrir Daño en esta fase.",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56061",
+        "name": "Iron Man",
+        "text": "[star] Iron Man recibe +1 PLA por cada Accesorio [[Tecnología]] que tenga vinculado (hasta un máximo de +3 PLA).\n<b>Cuando se muestre esta carta</b>: el equipo enemigo busca un Accesorio de Iron Man en el mazo de Encuentros y tu equipo lo muestra.",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56062",
+        "name": "Iron Man",
+        "text": "Tesón.\n[star] Iron Man recibe +1 PLA por cada Accesorio [[Tecnología]] que tenga vinculado (hasta un máximo de +3 PLA).\n<b>Cuando se muestre esta carta</b>: dale una carta de Encuentro a cada jugador. Iron Man no puede sufrir Daño en esta fase.",
+        "traits": "Vengador."
+    },
+    {
+        "back_link": "56063b",
+        "code": "56063a",
+        "name": "Ley de Registro de Superhumanos",
+        "text": "<b>Contenido</b>: Líder escogido I y II <i>(III y IV para jugar en modo Experto)</i>. Conjunto de Encuentros del Líder escogido, Normal, y 3\u20134 conjuntos modulares.\n<b>Preparación</b>: En el modo Competitivo, el equipo enemigo localiza el Plan secundario Escoger un Bando y tu equipo lo muestra. En el modo Cooperativo, localiza el Plan secundario del Líder escogido y muéstralo."
+    },
+    {
+        "code": "56063b",
+        "flavor": "\"Society will no longer tolerate superheroes who operate outside the law.\" \u2014Hulka",
+        "name": "Retirar el apoyo",
+        "text": "Si hay más de 1 jugador en tu equipo, esta etapa gana Complicación 2[per_hero].\n<b>Interrupción obligada</b>: cuando un jugador muestre una carta de Perfidia, coloca 1 de Amenaza sobre esta carta. (Límite de una vez por fase y jugador.)"
+    },
+    {
+        "back_link": "56064b",
+        "code": "56064a",
+        "flavor": "Iron Man y sus Vengadores tienen orden de capturar a todo individuo con superpoderes que se niege a inscribirse en el registro de S.H.I.E.L.D. Esto incluye a antiguos compañeros de equipo como el Capitán América y Spiderwoman.",
+        "name": "Medidas para el registro"
+    },
+    {
+        "code": "56064b",
+        "name": "Prisión en la Zona Negativa",
+        "text": "[star] El umbral de Amenaza de este Plan se reduce en 1 por cada carta boca abajo que tenga debajo.\n<b>Respuesta obligada</b>: después de que un Aliado sea derrotado por un ataque enemigo, coloca ese Aliado boca abajo debajo de este Plan.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+    },
+    {
+        "code": "56065",
+        "name": "Guanteletes potenciados",
+        "text": "Vincula esta carta a Iron Man.\n[star] Los ataques de Iron Man ganan A distancia.\n<b>Respuesta de Héroe</b>: después de que realices un ataque básico contra Iron Man, gasta recursos [energy] [physical] \u2192 descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: muestra esta carta.",
+        "traits": "Armadura. Tecnología."
+    },
+    {
+        "code": "56066",
+        "name": "Botas propulsoras",
+        "text": "Vincula esta carta a Iron Man.\nIron Man gana el rasgo [[Aéreo]].\n<b>Respuesta de Héroe</b>: después de que realices un ataque básico contra Iron Man, gasta recursos [energy] [physical] \u2192 descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: muestra esta carta.",
+        "traits": "Armadura. Tecnología."
+    },
+    {
+        "code": "56067",
+        "name": "Casco Mark V",
+        "text": "Vincula esta carta a Iron Man y dale una carta de Estado \"Duro\".\nIron Man gana Firmeza.\n<b>Respuesta de Héroe</b>: después de que realices un ataque básico contra Iron Man, gasta recursos [mental] [physical] \u2192 descarta esta carta.",
+        "traits": "Armadura. Tecnología."
+    },
+    {
+        "code": "56068",
+        "name": "Reactor ARK",
+        "text": "Vincula esta carta a Iron Man y dale una carta de Estado \"Duro\".\nIron Man gana Represalia 1.\n<b>Respuesta de Héroe</b>: después de que realices un ataque básico contra Iron Man, gasta recursos [mental] [physical] \u2192 descarta esta carta.",
+        "traits": "Armadura. Tecnología."
+    },
+    {
+        "code": "56069",
+        "name": "Armadura Mark V",
+        "text": "Vincula esta carta a Iron Man.\n<b>Respuesta obligada</b>: cuando Iron Man vaya a sufrir cualquier cantidad de Daño, en vez de eso coloca ese Daño sobre esta carta. Luego, si hay al menos 5 de Daño sobre esta carta, descártala.\n<hr />\n[star] <b>Aumento</b>: muestra esta carta.",
+        "traits": "Armadura. Tecnología."
+    },
+    {
+        "code": "56070",
+        "name": "Rayo repulsor",
+        "text": "<b>Cuando se muestre esta carta (Alter ego)</b>: descarta una Mejora o Apoyo que controles.\n<b>Cuando se muestre esta carta (Héroe)</b>: descarta las 4 primeras cartas de tu mazo. Por cada recurso [energy] y [wild] impreso que se haya descartado de este modo, inflige 1 de Daño a tu Héroe."
+    },
+    {
+        "code": "56071",
+        "flavor": "\"Ese's it. Now I'm mad!\" \u2014Iron Man",
+        "name": "Puñetazo supersónico",
+        "text": "<b>Cuando se muestre esta carta (Alter ego)</b>: Iron Man ejecuta el Plan. Si tiene un Accesorio [[Tecnología]], quedas confundido.\n<b>Cuando se muestre esta carta (Héroe)</b>: Iron Man te ataca. Si tiene un Accesorio [[Tecnología]], este ataque gana Penetrante."
+    },
+    {
+        "code": "56072",
+        "flavor": "Iron Man's vast wealth gives his Avengers a significant advantage over Capitán América's outlaws.",
+        "name": "Torre Stark",
+        "text": "<b>Cuando se derrote esta carta</b>: el equipo enemigo busca un Accesorio de Iron Man en el mazo y la pila de descartes de Encuentros y tu equipo lo muestra."
+    },
+    {
+        "code": "56073",
+        "name": "Chaqueta Amarilla",
+        "text": "Dureza.\n<b>Cuando se muestre esta carta</b>: dale al Líder enemigo una carta de Estado \"Duro\".\n<hr />\n[star] <b>Aumento</b>: dale al Líder enemigo una carta de Estado \"Duro\".",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56074",
+        "name": "Avispa",
+        "text": "Trabajo en equipo ([[Vengador]]).\n<b>Cuando se muestre esta carta</b>: coloca 1 de Amenaza sobre el Plan principal.\n<hr />\n[star] <b>Aumento</b>: coloca 1 de Amenaza sobre el Plan principal.",
+        "traits": "Aéreo. Vengador."
+    },
+    {
+        "code": "56075",
+        "name": "USAgente",
+        "text": "Represalia 1. Dureza.\n<b>Cuando se muestre esta carta</b>: inflige 1 de Daño a tu Superhéroe.\n<hr />\n[star] <b>Aumento</b>: inflige 1 de Daño a tu Superhéroe.",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56076",
+        "flavor": "\"Do us all a favor y stay down!\" \u2014Doc Samson",
+        "name": "Poderosos vengadores",
+        "text": "<b>Cuando se muestre esta carta</b>: resuelve las capacidades del tipo \"<b>Cuando se muestre esta carta</b>\" de todos los Esbirros que haya en juego. Si no se resuelve de este modo ninguna capacidad del tipo \"<b>Cuando se muestre esta carta</b>\", esta carta gana Oleada."
+    },
+    {
+        "code": "56077",
+        "flavor": "\"We've got you outnumbered y outgunned.\" \u2014Iron Man",
+        "name": "Los héroes más poderosos de la Tierra",
+        "text": "Complicación 1[per_hero].\nCada Esbirro [[Vengador]] gana las palabras clave impresas de todos los demás Esbirro [[Vengador]]."
+    },
+    {
+        "code": "56078",
+        "name": "Doc Samson",
+        "text": "Guardia.\n<b>Cuando se muestre esta carta</b>: quedas confundido. Si ya estabas confundido, coloca 2 de Amenaza sobre el Plan principal.\n<hr />\n[star] <b>Aumento</b>: quedas confundido.",
+        "traits": "Vengador. Gamma."
+    },
+    {
+        "code": "56079",
+        "name": "Gata Infernal",
+        "text": "Ataque veloz.\n<b>Cuando se muestre esta carta</b>: quedas aturdido. Si ya estabas aturdido, sufres 2 de Daño indirecto.\n<hr />\n[star] <b>Aumento</b>: quedas aturdido.",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56080",
+        "name": "Alistado",
+        "text": "El Esbirro vinculado recibe +2 de Vida y gana el rasgo [[Vengador]].\n<b>Cuando se muestre esta carta</b>: En el modo Competitivo, el equipo enemigo vincula Alistado a un Esbirro que esté enfrentado a ellos y ese Esbirro se enfrenta a ti. De no ser posible, descarta cartas del mazo de Encuentros hasta que se descarte un Esbirro. Muestra ese Esbirro y vincúlale Alistado."
+    },
+    {
+        "code": "56081",
+        "flavor": "\"Do us all a favor y stay down!\" \u2014Doc Samson",
+        "name": "Poderosos vengadores",
+        "text": "<b>Cuando se muestre esta carta</b>: resuelve las capacidades del tipo \"<b>Cuando se muestre esta carta</b>\" de todos los Esbirros que haya en juego. Si no se resuelve de este modo ninguna capacidad del tipo \"<b>Cuando se muestre esta carta</b>\", esta carta gana Oleada."
+    },
+    {
+        "code": "56082",
+        "flavor": "S.H.I.E.L.D. wants each state to have its own government-sponsored super team.",
+        "name": "La Iniciativa de los Cincuenta Estados",
+        "text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta</b>: devuelve al mazo de Encuentros todos los Esbirros [[Vengador]] que haya en su pila de descartes y baraja el mazo."
+    },
+    {
+        "code": "56083",
+        "flavor": "\"It's S.H.I.E.L.D.'s mission to protect the world!\"",
+        "name": "Maria Hill",
+        "text": "Represalia 2.\n<b>Cuando se muestre esta carta</b>: el equipo enemigo busca una copia de Señuelo dotado de vida en el mazo y la pila de descartes de Encuentros y la vincula a Maria Hill.",
+        "traits": "Élite. S.H.I.E.L.D."
+    },
+    {
+        "code": "56084",
+        "name": "Señuelo dotado de vida",
+        "text": "El equipo enemigo vincula esta carta a un Esbirro o a su Líder. (Límite de 1 por personaje.)\nEl personaje vinculado gana Firmeza.\n<b>Interrupción obligada</b>: cuando el personaje vinculado vaya a sufrir cualquier cantidad de Daño a causa de un ataque, en vez de eso evita ese Daño y descarta esta carta.",
+        "traits": "Tecnología."
+    },
+    {
+        "code": "56085",
+        "flavor": "\"Stand down, Captain. You are NOT in command sobre esta carta!\" \u2014Maria Hill",
+        "name": "Orden ejecutiva",
+        "text": "<b>Cuando se muestre esta carta</b>: coloca 2 de Amenaza sobre cada Plan. Si Maria Hill está en juego, esta carta gana Oleada.\n<hr />\n[star] <b>Aumento</b>: si Maria Hill está en juego, esta carta gana [boost][boost][boost]."
+    },
+    {
+        "code": "56086",
+        "flavor": "S.H.I.E.L.D. exerts influence across the world by deploying its helicarriers.",
+        "name": "Helitransporte de S.H.I.E.L.D.",
+        "text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta</b>: el jugador que haya derrotado este Plan inflige 1 de Daño a cada personaje que controle y a cada Esbirro que esté enfrentado a él."
+    },
+    {
+        "code": "56087",
+        "flavor": "\"Just a bite! We won't kill them!\"",
+        "name": "Veneno",
+        "text": "[star] Los ataques de Veneno ganan Penetrante.\n<b>Cuando se muestre esta carta</b>: Veneno ataca a tu Líder. De no ser posible, Veneno se activa contra ti.",
+        "traits": "Thunderbolt."
+    },
+    {
+        "code": "56088",
+        "flavor": "\"This is too rich: I'm working for S.H.I.E.L.D. y Daredevil's the outlaw!\"",
+        "name": "Bullseye",
+        "text": "<b>Cuando se muestre esta carta</b>: el equipo enemigo descarta un Accesorio de tu Líder. De no ser posible, descarta una Mejora que controles.",
+        "traits": "Thunderbolt."
+    },
+    {
+        "code": "56089",
+        "flavor": "\"We're all guilty. This is justice!\" \u2014Penance",
+        "name": "La justicia, como el rayo",
+        "text": "<b>Cuando se muestre esta carta</b>: cada Esbirro se activa contra el jugador al que esté enfrentado. De no ser posible, el Líder enemigo se activa contra ti. No le des una carta de aumento para esta activación."
+    },
+    {
+        "code": "56090",
+        "name": "Fuerza excesiva",
+        "text": "<b>Cuando se muestre esta carta</b>: coloca 1 de Amenaza sobre el Plan principal por cada Esbirro que haya en juego. De no ser posible, esta carta gana Oleada.\n<hr />\n[star] <b>Aumento</b>: el Líder enemigo ataca a tu Líder <i>(después de esta activación)</i>. No le des una carta de aumento para ese ataque."
+    },
+    {
+        "code": "56091",
+        "flavor": "\"They've all been fitted with explosive implants to ensure their compliance.\" \u2014Maria Hill",
+        "name": "Reclutas peligrosos",
+        "text": "Complicación 1[per_hero].\n<b>Interrupción obligada</b>: cuando un Esbirro sea derrotado, dáselo al Líder enemigo como carta de aumento boca abajo."
+    },
+    {
+        "code": "56092",
+        "name": "Capitana Marvel",
+        "text": "<b>Preparación</b>: el equipo enemigo localiza Canalizar energía y la vincula a la Capitana Marvel.\n<b>Respuesta obligada</b>: después de que la Capitana Marvel ataque y derrote a un personaje, coloca 1 contador de Energía sobre Canalizar energía.",
+        "traits": "Aéreo. Vengador."
+    },
+    {
+        "code": "56093",
+        "name": "Capitana Marvel",
+        "text": "Tesón.\n<b>Cuando se muestre esta carta</b>: dale una carta de Encuentro a cada jugador. La Capitana Marvel no puede sufrir Daño en esta fase.\n<b>Respuesta obligada</b>: después de que la Capitana Marvel ataque y derrote a un personaje, coloca 1 contador de Energía sobre Canalizar energía.",
+        "traits": "Aéreo. Vengador."
+    },
+    {
+        "code": "56094",
+        "name": "Capitana Marvel",
+        "text": "<b>Preparación</b>: el equipo enemigo localiza Canalizar energía y la vincula a la Capitana Marvel.\n<b>Respuesta obligada</b>: después de que la Capitana Marvel ataque y derrote a un personaje, coloca 1 contador de Energía sobre Canalizar energía.",
+        "traits": "Aéreo. Vengador."
+    },
+    {
+        "code": "56095",
+        "name": "Capitana Marvel",
+        "text": "Tesón.\n<b>Cuando se muestre esta carta</b>: dale una carta de Encuentro a cada jugador. La Capitana Marvel no puede sufrir Daño en esta fase.\n<b>Respuesta obligada</b>: después de que la Capitana Marvel ataque y derrote a un personaje, coloca 1 contador de Energía sobre Canalizar energía.",
+        "traits": "Aéreo. Vengador."
+    },
+    {
+        "back_link": "56096b",
+        "code": "56096a",
+        "name": "Ley de Registro de Superhumanos",
+        "text": "<b>Contenido</b>: Líder escogido I y II <i>(III y IV para jugar en modo Experto)</i>. Conjunto de Encuentros del Líder escogido, Normal, y 3\u20134 conjuntos modulares.\n<b>Preparación</b>: En el modo Competitivo, el equipo enemigo localiza el Plan secundario Escoger un Bando y tu equipo lo muestra. En el modo Cooperativo, localiza el Plan secundario del Líder escogido y muéstralo."
+    },
+    {
+        "code": "56096b",
+        "name": "Reclutas de S.H.I.E.L.D.",
+        "text": "Si hay más de 1 jugador en tu equipo, esta etapa gana Complicación 2[per_hero].\n<b>Cuando se muestre esta carta</b>: el equipo enemigo busca 1[per_hero] Esbirros en el mazo de Encuentros y reparte uno a cada jugador de tu equipo como carta de Encuentro boca abajo."
+    },
+    {
+        "back_link": "56097b",
+        "code": "56097a",
+        "flavor": "Iron Man y his Avengers are ordered to apprehend any superpowered individuals who refuse to register with S.H.I.E.L.D. Ese includes former teammates such as Capitán América y Spiderwoman.",
+        "name": "Medidas para el registro"
+    },
+    {
+        "code": "56097b",
+        "name": "Caza de hérroes rebeldes",
+        "text": "Cada Héroe gana el rasgo rasgo [[No registrado]].\n<b>Respuesta obligada</b>: después de que se muestre otra carta que otorgue el rasgo [[No registrado]] por lo menos a 1 Héroe, inflige 2 de Daño a cada uno de esos Héroes.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+    },
+    {
+        "code": "56098",
+        "name": "Canalizar energía",
+        "text": "Permanente.\n<b>Respuesta obligada</b>: después de que un Líder, Héroe o Aliado ataque a la Capitana Marvel, coloca 1 contador de Energía sobre esta carta. Luego, si hay al menos 4 contadores de Energía sobre esta carta, quítalos todos \u2192 la Capitana Marvel ataca a ese personaje. Este ataque gana Brutalidad.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "56099",
+        "name": "Casco de la Capitana Marvel",
+        "text": "Vincula esta carta a la Capitana Marvel.\nLa Capitana Marvel gana Firmeza.\n<b>Respuesta de Héroe</b>: después de que realices un ataque básico contra la Capitana Marvel, gasta 3 recursos del mismo tipo \u2192 descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: muestra esta carta.",
+        "traits": "Armadura. Tecnología."
+    },
+    {
+        "code": "56100",
+        "name": "Vuelo cósmico",
+        "text": "Vincula esta carta a la Capitana Marvel.\n<b>Interrupción obligada</b>: cuando la Capitana Marvel vaya a sufrir más de 3 de Daño a causa de un ataque, reduce esa cantidad a 3. Luego descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: muestra esta carta.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "56101",
+        "name": "Rayo fotónico",
+        "text": "<b>Cuando se muestre esta carta (Alter ego)</b>: descarta un Aliado o Apoyo que controles.\n<b>Cuando se muestre esta carta (Héroe)</b>: la Capitana Marvel te ataca. Coloca 1 contador de Energía sobre Canalizar energía."
+    },
+    {
+        "code": "56102",
+        "name": "Evitar una crisis",
+        "text": "<b>Cuando se muestre esta carta (Alter ego)</b>: la Capitana Marvel ejecuta el Plan. Coloca 1 contador de Energía sobre Canalizar energía.\n<b>Cuando se muestre esta carta (Héroe)</b>: coloca 2 de Amenaza sobre cada Plan."
+    },
+    {
+        "code": "56103",
+        "name": "Absorción de Energía",
+        "text": "<b>Cuando se muestre esta carta</b>: coloca 1 contador de Energía sobre Canalizar energía. cura 1 de Daño a la Capitana Marvel por cada contador de Energía sobre Canalizar energía.\n<hr />\n[star] <b>Aumento</b>: coloca 1 contador de Energía sobre Canalizar energía."
+    },
+    {
+        "code": "56104",
+        "flavor": "\"Keep your sensors locked sobre North America. I want to know the location of Cap's headquarters.\" \u2014Captain Marvel",
+        "name": "Base orbital de Alpha Flight",
+        "text": "<b>Cuando se derrote esta carta</b>: coloca 3 contadores de Energía sobre Canalizar energía."
+    },
+    {
+        "code": "56105",
+        "flavor": "S.H.I.E.L.D. formed an elite unit to confront y capture renegade superheroes.",
+        "name": "Matacapas",
+        "text": "Ataque veloz.\n[star] <b>Interrupción obligada</b>: cuando Matacapas ataque a un Superhéroe que tenga el rasgo [[No registrado]], recibe +2 ATQ para este ataque.",
+        "traits": "S.H.I.E.L.D."
+    },
+    {
+        "code": "56106",
+        "name": "Superhumano no registrado",
+        "text": "Tu Superhéroe gana el rasgo [[No registrado]].\n<b>Acción de Alter ego</b>: descarta una carta específica de Superhéroe de tu mano \u2192 descarta esta carta."
+    },
+    {
+        "code": "56107",
+        "name": "Encerradlos",
+        "text": "<b>Cuando se muestre esta carta</b>: agota a todos los Superhéroes que tengan el rasgo [[No registrado]]. De no ser posible, el equipo enemigo busca una copia de Superhumano no registrado en el mazo de Encuentros y en su pila de descartes,y te la da como carta de Encuentro boca abajo."
+    },
+    {
+        "code": "56108",
+        "flavor": "\"Look what happens when you break the law!\" \u2014S.H.I.E.L.D. Officer",
+        "name": "Orden de arresto",
+        "text": "<b>Cuando se derrote esta carta</b>: el jugador que la ha derrotado toma el primer Esbirro [[S.H.I.E.L.D.]] que haya en la pila de descartes del mazo de Encuentros y se la queda como carta de Encuentro boca abajo."
+    },
+    {
+        "code": "56109",
+        "name": "Soldado de S.H.I.E.L.D.",
+        "text": "<b>Cuando se muestre esta carta</b>: coge el primer Esbirro [[S.H.I.E.L.D.]] que haya en la pila de descartes del mazo de Encuentros y ponlo en juego enfrentado a ti.\n<hr />\n[star] <b>Aumento</b>: pon en juego este Esbirro enfrentado a ti.",
+        "traits": "S.H.I.E.L.D."
+    },
+    {
+        "code": "56110",
+        "name": "Respuesta rápida",
+        "text": "<b>Cuando se muestre esta carta</b>: descarta cartas del mazo de Encuentros hasta que se descarte un Esbirro. Si tienes adoptada tu identidad de:\n\u2022 Alter ego, coloca tanta Amenaza sobre el Plan principal como el PLA de ese Esbirro.\n\u2022 Héroe, inflige tanto Daño a tu Héroe como el ATQ de ese Esbirro."
+    },
+    {
+        "code": "56111",
+        "flavor": "\"Stay alert. Cap's Avengers were last seen in this area.\" \u2014S.H.I.E.L.D. Officer",
+        "name": "Patrulla de S.H.I.E.L.D.",
+        "text": "Complicación 1[per_hero].\nTodos los Esbirros ganan Guardia."
+    },
+    {
+        "code": "56112",
+        "flavor": "\"I don't like hunting down our friends, but it's better us than the Thunderbolts.\"",
+        "name": "Colleen Wing",
+        "text": "<b>Cuando se muestre esta carta</b>: elige un Aliado que controles (si tienes el rasgo [[No registrado]], el equipo enemigo elige por ti). Descarta ese Aliado.",
+        "traits": "Héroe de alquiler."
+    },
+    {
+        "code": "56113",
+        "flavor": "\"There is no shame in a righteous cause.\"",
+        "name": "Shang-Chi",
+        "text": "<b>Cuando se muestre esta carta</b>: elige una Mejora que controles (si tienes el rasgo [[No registrado]], el equipo enemigo elige por ti). Descarta esa Mejora.",
+        "traits": "Héroe de alquiler."
+    },
+    {
+        "code": "56114",
+        "name": "Superhumano no registrado",
+        "text": "Tu Superhéroe gana el rasgo [[No registrado]].\n<b>Acción de Alter ego</b>: descarta una carta específica de Superhéroe desde tu mano \u2192 descarta esta carta."
+    },
+    {
+        "code": "56115",
+        "flavor": "\"I'm glad you guys went rogue; it's gonna be a big payday for me.\" \u2014Paladin",
+        "name": "Caza de recompensas",
+        "text": "<b>Cuando se muestre esta carta</b>: descarta 1 carta desde tu mano (al azar si tienes el rasgo [[No registrado]]). Coloca 1 de Amenaza sobre el Plan principal por cada icono de recurso que hubiera en esa carta."
+    },
+    {
+        "code": "56116",
+        "name": "Héroes de alquiler",
+        "text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta</b>: el equipo enemigo busca una copia de Superhumano no registrado en el mazo de Encuentros y en su pila de descartes, y se la da como carta de Encuentro boca abajo al jugador que ha derrotado esta carta."
+    },
+    {
+        "code": "56117",
+        "flavor": "\"I'm not in this for your political agenda. I'm in it for the money.\"",
+        "name": "Paladín",
+        "text": "Ataque veloz. Dureza.\n<b>Cuando se muestre esta carta</b>: descarta 1 carta desde tu mano (al azar si tienes el rasgo [[No registrado]]).",
+        "traits": "Élite. Héroe de alquiler."
+    },
+    {
+        "code": "56118",
+        "name": "Pistola del Paladín",
+        "text": "Vincula esta carta al Paladín. De no ser posible, vincula esta carta al Líder enemigo.\n[star] <b>Interrupción obligada</b>: cuando el personaje vinculado ataque, este ataque gana A distancia y Brutalidad. Descarta esta carta después de este ataque.",
+        "traits": "Arma."
+    },
+    {
+        "code": "56119",
+        "flavor": "\"I'm glad you guys went rogue; it's gonna be a big payday for me.\" \u2014Paladin",
+        "name": "Caza de recompensas",
+        "text": "<b>Cuando se muestre esta carta</b>: descarta 1 carta desde tu mano (al azar si tienes el rasgo [[No registrado]]). Coloca 1 de Amenaza sobre el Plan principal por cada icono de recurso que hubiera en esa carta."
+    },
+    {
+        "code": "56120",
+        "flavor": "cuando el Capitán América took his resistance underground, Iron Man contracted Paladín y the Héroes de alquiler to track him down.",
+        "name": "Contratistas del gobierno",
+        "text": "Complicación 1[per_hero].\nTodos los Superhéroes gana el rasgo [[No registrado]]."
+    },
+    {
+        "back_link": "56121b",
+        "code": "56121a",
+        "name": "Ley de Registro de Superhumanos",
+        "text": "<b>Contenido</b>: Líder escogido I y II <i>(III y IV para jugar en modo Experto)</i>. Conjunto de Encuentros del Líder escogido, Normal, y 3\u20134 conjuntos modulares.\n<b>Preparación</b>: En el modo Competitivo, el equipo enemigo localiza el Plan secundario Escoger un Bando y tu equipo lo muestra. En el modo Cooperativo, localiza el Plan secundario del Líder escogido y muéstralo."
+    },
+    {
+        "code": "56121b",
+        "flavor": "With armed S.H.I.E.L.D. units patrolling the streets, crime rates have fallen to record lows.",
+        "name": "Seguridad Nacional",
+        "text": "Si hay más de 1 jugador en tu equipo, esta etapa gana Complicación 2[per_hero].\nTodos los Esbirros ganan Guardia."
+    },
+    {
+        "back_link": "56122b",
+        "code": "56122a",
+        "name": "Ley de Registro de Superhumanos",
+        "text": "<b>Contenido</b>: Líder escogido I y II <i>(III y IV para jugar en modo Experto)</i>. Conjunto de Encuentros del Líder escogido, Normal, y 3\u20134 conjuntos modulares.\n<b>Preparación</b>: En el modo Competitivo, el equipo enemigo localiza el Plan secundario Escoger un Bando y tu equipo lo muestra. En el modo Cooperativo, localiza el Plan secundario del Líder escogido y muéstralo."
+    },
+    {
+        "code": "56122b",
+        "flavor": "\"I can't believe Capitán América has turned contra his country!\" \u2014J. Jonah Jameson",
+        "name": "Indignación pública",
+        "text": "Si hay más de 1 jugador en tu equipo, esta etapa gana Complicación 2[per_hero].\n[star] <b>Respuesta obligada</b>: después de resolver el paso 1 de la fase del Villano, cada jugador descarta las 3 primeras cartas de su mazo."
+    },
+    {
+        "back_link": "56123b",
+        "code": "56123a",
+        "flavor": "Iron Man y his Avengers are ordered to apprehend any superpowered individuals who refuse to register with S.H.I.E.L.D. Ese includes former teammates such as Capitán América y Spiderwoman.",
+        "name": "Medidas para el registro"
+    },
+    {
+        "code": "56123b",
+        "flavor": "\"Wait until they see our plans to protect the midwest.\" \u2014Yellowjacket",
+        "name": "La Iniciativa",
+        "text": "<b>Cuando se muestre esta carta</b>: el equipo enemigo busca 1[per_hero] Planes secundarios en el mazo de Encuentros y en su pila de descartes y reparte uno a cada jugador de tu equipo como carta de Encuentro boca abajo.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+    },
+    {
+        "back_link": "56124b",
+        "code": "56124a",
+        "flavor": "Iron Man y his Avengers are ordered to apprehend any superpowered individuals who refuse to register with S.H.I.E.L.D. Ese includes former teammates such as Capitán América y Spiderwoman.",
+        "name": "Medidas para el registro"
+    },
+    {
+        "code": "56124b",
+        "flavor": "\"There's no more amnesty for Cap y his renegades. It's gone too far!\" \u2014Hulka",
+        "name": "No hay vuleta atrás",
+        "text": "Los Aliados entran en juego agotados.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+    },
+    {
+        "code": "56125",
+        "flavor": "\"I was a double agent for years. There's not much I won't do for a just cause.\" \u2014Spiderwoman",
+        "name": "Una causa justa",
+        "text": "<b>Cuando se muestre esta carta</b>: el Líder enemigo ejecuta el Plan. Si hay más de 1 jugador en tu equipo, dale al Líder enemigo una carta de aumento adicional para esta activación."
+    },
+    {
+        "code": "56126",
+        "flavor": "\"I'm sobre target. Commence ataque.\" \u2014Captain Marvel",
+        "name": "Lo que haga falta",
+        "text": "<b>Cuando se muestre esta carta (Alter ego)</b>: el Líder enemigo ataca a tu Líder.\n<b>Cuando se muestre esta carta (Héroe)</b>: el Líder enemigo te ataca."
+    },
+    {
+        "code": "56127",
+        "name": "Ataque dirigido",
+        "text": "<b>Cuando se muestre esta carta</b>: el equipo enemigo busca una carta entre las 5 primeras cartas del mazo de Encuentros y te la da como carta de Encuentro boca abajo.\n<hr />\n[star] <b>Aumento</b>: esta carta gana [boost] por cada jugador que haya en tu equipo."
+    },
+    {
+        "back_link": "56128b",
+        "code": "56128a",
+        "name": "Escoger un bando",
+        "text": "Permanente.\nEl Líder enemigo no puede sufrir más de 2 de Daño de cada ataque.\n<b>Respuesta obligada</b>: después de que se quite la última ficha de Amenaza de esta carta, el equipo enemigo busca 1[per_hero] cartas de Encuentro entre las 5 primeras cartas del mazo de Encuentros y reparte una a cada jugador como carta de Encuentro boca abajo. Dale la vuelta a esta carta."
+    },
+    {
+        "code": "56128b",
+        "name": "Ahora es personal",
+        "text": "<b><i>Dale esta carta al jugador inicial.</i></b>\n<b>Acción</b>: retira esta carta de la partida \u2192 cada jugador de tu equipo elige 2 cartas de Jugador de tu Líder que estén apartadas y las añade a su mano."
+    },
+    {
+        "code": "56137",
+        "flavor": "\"Just because it's the law doesn't mean it's right.\"",
+        "name": "Capitán América",
+        "text": "<b>Preparación</b>: el equipo enemigo localiza el Escudo del Capi y la vincula al Capitán América.\n<b>Respuesta obligada</b>: después de que Escudo del Capi se vincule al Capitán América, dale una carta de Estado \"Duro\".",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56138",
+        "name": "Capitán América",
+        "text": "Tesón.\n<b>Cuando se muestre esta carta</b>: dale una carta de Encuentro a cada jugador. El Capitán América no puede sufrir Daño en esta fase.\n<b>Respuesta obligada</b>: después de que Escudo del Capi se vincule al Capitán América, dale una carta de Estado \"Duro\".",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56139",
+        "flavor": "\"Just because it's the law doesn't mean it's right.\"",
+        "name": "Capitán América",
+        "text": "<b>Preparación</b>: el equipo enemigo localiza el Escudo del Capi y la vincula al Capitán América.\n<b>Respuesta obligada</b>: después de que Escudo del Capi se vincule al Capitán América, dale una carta de Estado \"Duro\".",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56140",
+        "name": "Capitán América",
+        "text": "Tesón.\n<b>Cuando se muestre esta carta</b>: dale una carta de Encuentro a cada jugador. El Capitán América no puede sufrir Daño en esta fase.\n<b>Respuesta obligada</b>: después de que Escudo del Capi se vincule al Capitán América, dale una carta de Estado \"Duro\".",
+        "traits": "Vengador."
+    },
+    {
+        "back_link": "56141b",
+        "code": "56141a",
+        "name": "Resistencia superheroica",
+        "text": "<b>Contenido</b>: Líder escogido I y II <i>(III y IV para jugar en modo Experto)</i>. Conjunto de Encuentros del Líder escogido, Normal, y 3\u20134 conjuntos modulares.\n<b>Preparación</b>: en modo Competitivo, el equipo enemigo localiza el Plan secundario Escoger un Bando y tu equipo lo muestra. En el modo Cooperativo, localiza el Plan secundario del Líder escogido y muéstralo."
+    },
+    {
+        "code": "56141b",
+        "name": "Obtener apoyo",
+        "text": "Si hay más de 1 jugador en tu equipo, esta etapa gana Complicación 2[per_hero].\n<b>Cuando se muestre esta carta</b>: el equipo enemigo busca 1[per_hero] Esbirros en el mazo de Encuentros y reparte uno a cada jugador de tu equipo como carta de Encuentro boca abajo."
+    },
+    {
+        "back_link": "56142b",
+        "code": "56142a",
+        "flavor": "Capitán América y his Avengers are forced to go underground o face arrest for refusing to register with S.H.I.E.L.D. cuando Iron Man y Capitana Marvel start rounding up their superpowered friends, the resistance decides to fight back.",
+        "name": "Actos de resistencia"
+    },
+    {
+        "code": "56142b",
+        "flavor": "Capitán América's Avengers continue to fight crime a their secret hideout.",
+        "name": "Vengadores Secretos",
+        "text": "El Líder enemigo recibe +1 ATQ mientras esté atacando (+2 ATQ si es un ataque no defendido).\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+    },
+    {
+        "code": "56143",
+        "name": "Escudo del Capi",
+        "text": "Permanente. Vincula esta carta al Capitán América.\nEl personaje vinculado gana Represalia 1 y todos los ataques efectuados contra él pierden Penetrante.\n<b>Respuesta obligada</b>: después de que un Héroe o el Líder Capitán América use su atributo básico de ATQ para atacar e inflija Daño al personaje vinculado, vincula el Escudo del Capi al atacante.",
+        "traits": "Objeto."
+    },
+    {
+        "code": "56144",
+        "name": "Casco del Capi",
+        "text": "Vincula esta carta al Capitán América.\nEl Capitán América gana Firmeza.\n<b>Respuesta de Héroe</b>: después de que realices un ataque básico contra el Capitán América, gasta 3 recursos del mismo tipo \u2192 descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: muestra esta carta.",
+        "traits": "Armadura."
+    },
+    {
+        "code": "56145",
+        "name": "Suero de supersoldado",
+        "text": "Vincula esta carta al Capitán América.\n[star] <b>Interrupción obligada</b>: cuando el Capitán América ataca, este ataque gana Brutalidad. Al final de este ataque, descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: muestra esta carta.",
+        "traits": "Objeto."
+    },
+    {
+        "code": "56146",
+        "flavor": "\"sufres your best shot!\" \u2014Capitán América",
+        "name": "Bloqueo de escudo",
+        "text": "<b>Cuando se muestre esta carta</b>: si el Escudo del Capi está vinculado al Capitán América, dale una carta de Estado \"Duro\" y una carta de aumento boca abajo. De no ser así, vincúlale el Escudo del Capi y dale una carta de aumento boca abajo."
+    },
+    {
+        "code": "56147",
+        "name": "Lanzamiento de escudo",
+        "text": "<b>Cuando se muestre esta carta (Alter ego)</b>: el Capitán América ejecuta el Plan.\n<b>Cuando se muestre esta carta (Héroe)</b>: si el Escudo del Capi está vinculado al Capitán América, inflige 2 de Daño a cada personaje que controles. De no ser así, vincula el Escudo del Capi al Capitán América."
+    },
+    {
+        "code": "56148",
+        "name": "Golpe heroico",
+        "text": "<b>Cuando se muestre esta carta (Alter ego)</b>: descarta un Aliado o Mejora que controles.\n<b>Cuando se muestre esta carta (Héroe)</b>: el Capitán América te ataca. Si este ataque inflige Daño a un personaje, aturde a ese personaje."
+    },
+    {
+        "code": "56149",
+        "flavor": "Capitán América's stand contra the Ley de Registro de Superhumanos gives other heroes a figure to rally behind.",
+        "name": "Determinación audaz",
+        "text": "<b>Cuando se derrote esta carta</b>: vincula el Escudo del Capi al Capitán América. El Capitán América se activa contra el jugador que haya derrotado este Plan."
+    },
+    {
+        "code": "56150",
+        "name": "Halcón",
+        "text": "Trabajo en equipo ([[Vengador]]).\n<b>Cuando se derrote esta carta</b>: dale esta carta al Líder enemigo como carta de aumento boca abajo.\n<hr />\n[star] <b>Aumento</b>: quedas confundido. Si ya estabas confundido, esta carta gana [boost][boost].",
+        "traits": "Aéreo. Vengador."
+    },
+    {
+        "code": "56151",
+        "name": "Hércules",
+        "text": "Trabajo en equipo ([[Vengador]]).\n<b>Cuando se derrote esta carta</b>: dale esta carta al Líder enemigo como carta de aumento boca abajo.\n<hr />\n[star] <b>Aumento</b>: quedas aturdido. Si ya estabas aturdido, esta carta gana [boost][boost].",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56152",
+        "name": "Goliat",
+        "text": "Trabajo en equipo ([[Vengador]]).\n<b>Cuando se derrote esta carta</b>: dale esta carta al Líder enemigo como carta de aumento boca abajo.\n<hr />\n[star] <b>Aumento</b>: dale al Líder enemigo una carta de Estado \"Duro\". Si ya era Duro, esta carta gana [boost][boost].",
+        "traits": "Vengador. Gigante."
+    },
+    {
+        "code": "56153",
+        "name": "Luchadores por la libertad",
+        "text": "<b>Cuando se muestre esta carta</b>: resuelve las capacidades de \"<b>Aumento</b>\" de todos los Esbirros que haya en juego. Si no se resuelve ninguna capacidad de \"<b>Aumento</b>\" de este modo, esta carta gana Oleada.\n<hr />\n[star] <b>Aumento</b>: resuelve la capacidad \"<b>Aumento</b>\" de todos los Esbirros que estén enfrentado a ti."
+    },
+    {
+        "code": "56154",
+        "flavor": "\"Tony's team is in for a big surprise!\" \u2014Capitán América",
+        "name": "Nuevos vengadores",
+        "text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta</b>: devuelve al mazo de Encuentros todos los Esbirros que haya en su pila de descartes y baraja el mazo."
+    },
+    {
+        "code": "56155",
+        "name": "Pantera Negra",
+        "text": "Trabajo en equipo ([[Vengador]]).\n<b>Cuando se derrote esta carta</b>: dale esta carta al Líder enemigo como carta de aumento boca abajo.\n<hr />\n[star] <b>Aumento</b>: agota todas las Mejoras que controles.",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56156",
+        "name": "Spectrum",
+        "text": "Trabajo en equipo ([[Vengador]]).\n<b>Cuando se derrote esta carta</b>: dale esta carta al Líder enemigo como carta de aumento boca abajo.\n<hr />\n[star] <b>Aumento</b>: agota un personaje que controles.",
+        "traits": "Aéreo. Vengador."
+    },
+    {
+        "code": "56157",
+        "name": "Luchadores por la libertad",
+        "text": "<b>Cuando se muestre esta carta</b>: resuelve las capacidades de \"<b>Aumento</b>\" de todos los Esbirros que haya en juego. Si no se resuelve ninguna capacidad de \"<b>Aumento</b>\" de este modo, esta carta gana Oleada.\n<hr />\n[star] <b>Aumento</b>: resuelve la capacidad \"<b>Aumento</b>\" de todos los Esbirros que estén enfrentado a ti"
+    },
+    {
+        "code": "56158",
+        "name": "Cambiar de bando",
+        "text": "<b>Cuando se muestre esta carta</b>: descarta un Aliado que controles. En el modo Competitivo, cualquier jugador del equipo enemigo puede gastar tantos recursos como el coste de ese Aliado para ponerlo en juego bajo su control. Si ningún Aliado abandona el juego de este modo, esta carta gana Oleada."
+    },
+    {
+        "code": "56159",
+        "name": "Vengadores Secretos",
+        "text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta</b>: el equipo enemigo busca una carta entre las 5 primeras cartas de l mazo de Encuentros. Dale esa carta al Líder enemigo como carta de aumento boca abajo."
+    },
+    {
+        "code": "56160",
+        "flavor": "\"Once more, the surface-dwellers' war has injured my Atlanteans y the Sub-Mariner must avenge them.\"",
+        "name": "Namor",
+        "text": "Firmeza. Dureza. Infame.\n<b>Cuando se muestre esta carta</b>: Namor se activa contra ti.",
+        "traits": "Atlantis. Élite."
+    },
+    {
+        "code": "56161",
+        "name": "Tridente de Neptuno",
+        "text": "Vincula esta carta a Namor. De no ser posible, vincula esta carta al Líder enemigo.\n[star] Los ataques del personaje vinculado ganan Penetrante.\n<b>Acción de Héroe</b>: gasta recursos [energy] [physical] \u2192 descarta esta carta.",
+        "traits": "Arma."
+    },
+    {
+        "code": "56162",
+        "name": "Cuerno de Proteo",
+        "text": "Vincula esta carta a Namor. De no ser posible, vincula esta carta al Líder enemigo.\n[star] <b>Interrupción obligada</b>: cuando el personaje vinculado ejecute el Plan, dale una carta de Estado \"Duro\".\n<b>Acción de Héroe</b>: gasta recursos [mental] [physical] \u2192 descarta esta carta.",
+        "traits": "Objeto."
+    },
+    {
+        "code": "56163",
+        "name": "¡Imperius Rex!",
+        "text": "<b>Cuando se muestre esta carta</b>: si Namor está en juego, se activa contra ti. De no ser posible, el Líder enemigo se activa contra ti.\n<hr />\n[star] <b>Aumento</b>: dale al enemigo activado una carta de aumento adicional."
+    },
+    {
+        "code": "56164",
+        "flavor": "\"There is nothing Namor will not dare o do to defend his people.\" \u2014Namor",
+        "name": "Monarca de Atlantis",
+        "text": "Complicación 1[per_hero].\nNingún Esbirro [[Atlantis]] puede sufrir Daño."
+    },
+    {
+        "code": "56165",
+        "flavor": "\"For Namor y the glory of Atlantis!\"",
+        "name": "Guardia Atlante",
+        "text": "Guardia.\n<b>Cuando se muestre esta carta</b>: descarta las 3 primeras cartas de tu mazo.",
+        "traits": "Atlantis."
+    },
+    {
+        "code": "56166",
+        "name": "Atlantes",
+        "text": "<b>Cuando se muestre esta carta</b>: descarta las 3 primeras cartas de tu mazo. Si tienes adoptada tu identidad de:\n\u2022 Alter ego, coloca 1 de Amenaza sobre el Plan principal por cada tipo de carta distinto que se haya descartado de este modo.\n\u2022 Héroe, sufres 1 de Daño indirecto por cada tipo de carta distinto que se haya descartado de este modo."
+    },
+    {
+        "code": "56167",
+        "flavor": "The Atlanteans as a people share a deep mistrust of surface-dwellers y enmity for the pollution of their waters.",
+        "name": "Atlantis ataca",
+        "text": "Complicación 1[per_hero].\n<b>Cuando se muestre esta carta</b>: descarta las 1[per_hero] primeras cartas de tu mazo. Coloca 1 ficha de Aceleración sobre esta carta por cada tipo de carta distinto que se haya descartado de este modo."
+    },
+    {
+        "code": "56168",
+        "name": "Spiderwoman",
+        "text": "<b>Preparación</b>: el equipo enemigo localiza Sutileza y la vincula a Spiderwoman.\n[star] <b>Interrupción obligada</b>: cuando Spiderwoman ataca, recibe +1 ATQ para este ataque por cada contador de Habilidad que haya sobre Sutileza. Quita todos los contador de Habilidad que haya sobre Sutileza.",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56169",
+        "name": "Spiderwoman",
+        "text": "Tesón.\n<b>Cuando se muestre esta carta</b>: dale una carta de Encuentro a cada jugador. Spiderwoman no puede sufrir Daño en esta fase.\n[star] <b>Interrupción obligada</b>: cuando Spiderwoman ataca, recibe +1 ATQ para este ataque por cada contador de Habilidad que haya sobre Sutileza. Quita todos los contador de Habilidad que haya sobre Sutileza.",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56170",
+        "name": "Spiderwoman",
+        "text": "<b>Preparación</b>: el equipo enemigo localiza Sutileza y la vincula a Spiderwoman.\n[star] <b>Interrupción obligada</b>: cuando Spiderwoman ataca, recibe +1 ATQ para este ataque por cada contador de Habilidad que haya sobre Sutileza. Quita todos los contador de Habilidad que haya sobre Sutileza.",
+        "traits": "Vengador."
+    },
+    {
+        "code": "56171",
+        "name": "Spiderwoman",
+        "text": "Tesón.\n<b>Cuando se muestre esta carta</b>: dale una carta de Encuentro a cada jugador. Spiderwoman no puede sufrir Daño en esta fase.\n[star] <b>Interrupción obligada</b>: cuando Spiderwoman ataca, recibe +1 ATQ para este ataque por cada contador de Habilidad que haya sobre Sutileza. Quita todos los contador de Habilidad que haya sobre Sutileza.",
+        "traits": "Vengador."
+    },
+    {
+        "back_link": "56172b",
+        "code": "56172a",
+        "name": "Resistencia superheroica",
+        "text": "<b>Contenido</b>: Líder escogido I y II <i>(III y IV para jugar en modo Experto)</i>. Conjunto de Encuentros del Líder escogido, Normal, y 3\u20134 conjuntos modulares.\n<b>Preparación</b>: En el modo Competitivo, el equipo enemigo localiza el Plan secundario Escoger un Bando y tu equipo lo muestra. En el modo Cooperativo, localiza el Plan secundario del Líder escogido y muéstralo."
+    },
+    {
+        "code": "56172b",
+        "flavor": "\"Why don't you chase after the REAL bad guys?\" \u2014Hulkling",
+        "name": "Rebelión abierta",
+        "text": "Si hay más de 1 jugador en tu equipo, esta etapa gana Complicación 2[per_hero].\n<b>Interrupción obligada</b>: cuando un jugador muestre una carta de Perfidia, coloca 1 de Amenaza sobre esta carta. (Límite de una vez por fase y jugador.)"
+    },
+    {
+        "back_link": "56173b",
+        "code": "56173a",
+        "flavor": "Capitán América y his Avengers are forced to go underground o face arrest for refusing to register with S.H.I.E.L.D. cuando Iron Man y Capitana Marvel start rounding up their superpowered friends, the resistance decides to fight back.",
+        "name": "Actos de resistencia"
+    },
+    {
+        "code": "56173b",
+        "flavor": "\"Does anyone else see the irony in outlaw heroes fighting crime?\" \u2014Chief of Policía",
+        "name": "Protectores del barrio",
+        "text": "<b>Cuando se muestre esta carta</b>: el equipo enemigo busca 1[per_hero] Planes secundarios en el mazo de Encuentros y en su pila de descartes y reparte uno a cada jugador de tu equipo como carta de Encuentro boca abajo.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+    },
+    {
+        "code": "56174",
+        "name": "Sutileza",
+        "text": "Permanente.\nMáximo de 3 contadores de Habilidad sobre esta carta.\n<b>Interrupción obligada</b>: cuando se muestre una carta de Perfidia, coloca 1 contador de Habilidad sobre esta carta.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "56175",
+        "name": "Inmunidad a toxinas",
+        "text": "Vincula esta carta a Spiderwoman.\n<b>Interrupción obligada</b>: cuando Spiderwoman vaya a quedar aturdida o confundida, en vez de eso descarta esta carta. Dale una carta de Estado \"Duro\".\n<hr />\n[star] <b>Aumento</b>: muestra esta carta.",
+        "traits": "Superpoder."
+    },
+    {
+        "code": "56176",
+        "name": "Feromonas",
+        "text": "<b>Cuando se muestre esta carta</b>: quedas aturdido y confundido. Coloca 1 contador de Habilidad sobre Sutileza.\n<hr />\n[star] <b>Aumento</b>: quedas aturdido. De no ser posible, quedas confundido."
+    },
+    {
+        "code": "56177",
+        "name": "Rayo venenoso",
+        "text": "<b>Cuando se muestre esta carta (Alter ego)</b>: esta carta gana Oleada.\n<b>Cuando se muestre esta carta (Héroe)</b>: Spiderwoman te ataca. Si este ataque quita los siguientes contadores de Habilidad de la carta Sutileza:\n\u2022 Al menos 1, este ataque gana A distancia.\n\u2022 Al menos 2, este ataque gana Penetrante.\n\u2022 Al menos 3, este ataque gana Brutalidad."
+    },
+    {
+        "code": "56178",
+        "name": "Pasar desapercibida",
+        "text": "<b>Cuando se muestre esta carta</b>: elige una opción:\n\u2022 descarta la carta con el coste más alto que controles\n\u2022 Spiderwoman ejecuta el Plan.\n<hr />\n[star] <b>Aumento</b>: esta carta gana [boost] por cada carta de Estado que tenga tu Superhéroe."
+    },
+    {
+        "code": "56179",
+        "flavor": "\"I've made a career out of staying one step ahead of S.H.I.E.L.D.\" \u2014Spiderwoman",
+        "name": "Planeo controlado",
+        "text": "<b>Interrupción obligada</b>: cuando Spiderwoman vaya a sufrir Daño a causa de un ataque, la cantidad de Daño que sufre se reduce en 1 por cada contador de Habilidad que haya sobre la carta Sutileza."
+    },
+    {
+        "code": "56180",
+        "name": "Spiderman",
+        "text": "<b>Cuando se muestre esta carta</b>: Spiderman ataca a todos los personajes que tengan vinculada una copia de Enredado. Si no se realiza nigún ataque de este modo, el equipo enemigo busca una copia de Enredado en el mazo y la pila de descartes de Encuentros, y te la da como carta de Encuentro boca abajo.",
+        "traits": "Vengador. Élite."
+    },
+    {
+        "code": "56181",
+        "name": "Enredado",
+        "text": "Vincula esta carta a tu Líder. De no ser posible, vincula esta carta a tu Héroe.\n<b>Interrupción obligada</b>: cuando el personaje vinculado vaya a ejecutar el Plan, intervenir o atacar, en vez de eso descarta esta carta.\n<hr />\n[star] <b>Aumento</b>: si está en juego el Esbirro Spiderman, muestra esta carta.",
+        "traits": "Alteración."
+    },
+    {
+        "code": "56182",
+        "flavor": "\"Friendly neighborhood Spiderman swinging through!\" \u2014Spider-Man",
+        "name": "¡Espectacular!",
+        "text": "<b>Cuando se muestre esta carta</b>: coloca 2 de Amenaza sobre el Plan principal. En el modo Competitivo, quita 2 de Amenaza del Plan principal de tu Líder."
+    },
+    {
+        "code": "56183",
+        "flavor": "\"This isn't about politics; it's about saving lives!\" \u2014Spider-Man",
+        "name": "Héroe del barrio",
+        "text": "<b>Cuando se muestre esta carta</b>: en el modo Competitivo, traslada 2 de Amenaza desde el Plan principal de tu Líder hasta este Plan. De no ser posible, coloca 2[per_hero] de Amenaza sobre esta carta."
+    },
+    {
+        "code": "56184",
+        "flavor": "\"You S.H.I.E.L.D. boys better get out of my face.\"",
+        "name": "Luke Cage",
+        "text": "<b>Cuando se muestre esta carta</b>: aturde a tu Líder. De no ser posible, quedas aturdido.\n<hr />\n[star] <b>Aumento</b>: aturde a tu Líder. De no ser posible, quedas aturdido.",
+        "traits": "Defensor."
+    },
+    {
+        "code": "56185",
+        "flavor": "\"I thought I was done with all this superhero crap.\"",
+        "name": "Jessica Jones",
+        "text": "<b>Cuando se muestre esta carta</b>: confunde a tu Líder. De no ser posible, quedas confundido.\n<hr />\n[star] <b>Aumento</b>: confunde a tu Líder. De no ser posible, quedas confundido.",
+        "traits": "Defensor."
+    },
+    {
+        "code": "56186",
+        "flavor": "\"Since when is it illegal to save lives?\" \u2014Daredevil",
+        "name": "Proteger a los inocentes",
+        "text": "<b>Cuando se muestre esta carta</b>: dale una carta de Estado \"Duro\" al Líder enemigo y a todos los Esbirros. Si el Líder enemigo ya era Duro, esta carta gana Oleada."
+    },
+    {
+        "code": "56187",
+        "name": "Defensores callejeros",
+        "text": "<b>Cuando se muestre esta carta</b>: cada Esbirro se activa contra el jugador al que esté enfrentado. De no ser posible, el Líder enemigo se activa contra ti. No le des una carta de aumento para esta activación."
+    },
+    {
+        "code": "56188",
+        "flavor": "Los Defensores were formed to protect people often overlooked by the Avengers.",
+        "name": "Los Defensores",
+        "text": "Complicación 1[per_hero].\nTodos los Esbirros ganan Guardia."
+    },
+    {
+        "code": "56189",
+        "flavor": "\"My respect for the law doesn't blind my sense of right y wrong.\"",
+        "name": "Daredevil",
+        "text": "<b>Cuando se muestre esta carta</b>: el equipo enemigo agota un personaje que controles.\n<hr />\n[star] <b>Aumento</b>: agota un personaje que controles.",
+        "traits": "Defensor."
+    },
+    {
+        "code": "56190",
+        "name": "Puño de Hierro",
+        "text": "<b>Cuando se muestre esta carta</b>: Puño de Hierro ataca a tu Líder. De no ser posible, Puño de Hierro se activa contra ti.\n<hr />\n[star] <b>Aumento</b>: el Líder enemigo ataca a tu Líder <i>(después de esta activación)</i>. No le des una carta de aumento para este ataque.",
+        "traits": "Defensor."
+    },
+    {
+        "code": "56191",
+        "name": "Miembro de la resistencia",
+        "text": "Vincula esta carta a un Esbirro elegido por el equipo enemigo. De no ser posible, esta carta gana Oleada.\nEl Esbirro vinculado recibe +4 de Vida y gana Firmeza.\n<hr />\n[star] <b>Aumento</b>: vincula esta carta a un Esbirro que esté enfrentado a ti.",
+        "traits": "Alteración."
+    },
+    {
+        "code": "56192",
+        "name": "Defensores callejeros",
+        "text": "<b>Cuando se muestre esta carta</b>: cada Esbirro se activa contra el jugador al que esté enfrentado. De no ser posible, el Líder enemigo se activa contra ti. No le des una carta de aumento para esta activación."
+    },
+    {
+        "code": "56193",
+        "flavor": "\"Tell S.H.I.E.L.D. to pull back. This city is debajo our protection.\" \u2014Daredevil",
+        "name": "Defender la Cocina del Infierno",
+        "text": "Complicación 1[per_hero].\nNo puede quitarse Amenaza de este Plan mientras haya en juego un Esbirro [[Defensor]]."
+    },
+    {
+        "code": "56194",
+        "name": "Capa",
+        "text": "<b>Cuando se muestre esta carta</b>: coloca 2 de Amenaza sobre un Plan. En el modo Competitivo, quita 2 de Amenaza del Plan principal de tu Líder.\n<hr />\n[star] <b>Aumento</b>: si Puñal está en juego, muestra a Capa. De no ser así, coloca 1 de Amenaza sobre un Plan.",
+        "traits": "Defensor."
+    },
+    {
+        "code": "56195",
+        "name": "Puñal",
+        "text": "<b>Cuando se muestre esta carta</b>: cura 2 de Daño al Líder enemigo. Inflige 2 de Daño a un personaje que controles.\n<hr />\n[star] <b>Aumento</b>: si Capa está en juego, muestra a Puñal. De no ser así, inflige 1 de Daño a un personaje que controles.",
+        "traits": "Defensor."
+    },
+    {
+        "code": "56196",
+        "name": "Fuerza oscura",
+        "text": "Vincula esta carta al Líder enemigo y dale una carta de Estado \"Duro\".\n[star] <b>Respuesta obligada</b>: después de que el Líder vinculado ejecute el Plan y coloque Amenaza sobre el Plan principal, quita esa misma cantidad de Amenaza del Plan principal de tu Líder. Descarta esta carta."
+    },
+    {
+        "code": "56197",
+        "flavor": "\"Maybe my daggers will help them see the light!\" \u2014Dagger",
+        "name": "Fuerza luminosa",
+        "text": "<b>Cuando se muestre esta carta</b>: cura 3 de Daño al Líder enemigo. Sufres 3 de Daño indirecto."
+    },
+    {
+        "code": "56198",
+        "flavor": "Capa y Puñal were among the first to join Capitán América's superhero resistance.",
+        "name": "Capa y Puñal",
+        "text": "Complicación 1[per_hero].\n<b>Cuando se derrote esta carta</b>: cura 3 de Daño al Líder enemigo y dale una carta de Estado \"Duro\"."
+    },
+    {
+        "back_link": "56199b",
+        "code": "56199a",
+        "name": "Resistencia superheroica",
+        "text": "<b>Contenido</b>: Líder escogido I y II <i>(III y IV para jugar en modo Experto)</i>. Conjunto de Encuentros del Líder escogido, Normal, y 3\u20134 conjuntos modulares.\n<b>Preparación</b>: En el modo Competitivo, el equipo enemigo localiza el Plan secundario Escoger un Bando y tu equipo lo muestra. En el modo Cooperativo, localiza el Plan secundario del Líder escogido y muéstralo."
+    },
+    {
+        "code": "56199b",
+        "flavor": "Capitán América's public denouncement of the Ley de Registro de Superhumanos drew many allies to his side.",
+        "name": "Llamamiento",
+        "text": "Si hay más de 1 jugador en tu equipo, esta etapa gana Complicación 2[per_hero].\nTodos los Esbirros ganan Guardia."
+    },
+    {
+        "back_link": "56200b",
+        "code": "56200a",
+        "name": "Resistencia superheroica",
+        "text": "<b>Contenido</b>: Líder escogido I y II <i>(III y IV para jugar en modo Experto)</i>. Conjunto de Encuentros del Líder escogido, Normal, y 3\u20134 conjuntos modulares.\n<b>Preparación</b>: En el modo Competitivo, el equipo enemigo localiza el Plan secundario Escoger un Bando y tu equipo lo muestra. En el modo Cooperativo, localiza el Plan secundario del Líder escogido y muéstralo."
+    },
+    {
+        "code": "56200b",
+        "flavor": "\"I forgot how exhausting it is to be undercover!\" \u2014Spiderwoman",
+        "name": "Pasar a la clandestinidad",
+        "text": "Si hay más de 1 jugador en tu equipo, esta etapa gana Complicación 2[per_hero].\nEl Líder enemigo gana Tesón."
+    },
+    {
+        "back_link": "56201b",
+        "code": "56201a",
+        "flavor": "Capitán América y his Avengers are forced to go underground o face arrest for refusing to register with S.H.I.E.L.D. cuando Iron Man y Capitana Marvel start rounding up their superpowered friends, the resistance decides to fight back.",
+        "name": "Actos de resistencia"
+    },
+    {
+        "code": "56201b",
+        "flavor": "The goal of the resistance is to wear S.H.I.E.L.D. down until the Superhero Registration law is overturned.",
+        "name": "Guerra de Guerillas",
+        "text": "<b>Respuesta obligada</b>: después de que se coloque una carta de Estado sobre el Líder enemigo, coloca 1 de Amenaza sobre esta carta.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+    },
+    {
+        "back_link": "56202b",
+        "code": "56202a",
+        "flavor": "Capitán América y his Avengers are forced to go underground o face arrest for refusing to register with S.H.I.E.L.D. cuando Iron Man y Capitana Marvel start rounding up their superpowered friends, the resistance decides to fight back.",
+        "name": "Actos de resistencia"
+    },
+    {
+        "code": "56202b",
+        "name": "Fuga de Superhéroes",
+        "text": "[star] <b>Respuesta obligada</b>: después de resolver el paso 1 de la fase del Villano, cada jugador descarta la primera carta del mazo de Encuentros. Cada jugador que haya descartado un Esbirro de este modo lo pone en juego enfrentado a él.\n<b>Si se completa esta etapa, los jugadores pierden la partida.</b>"
+    },
+    {
+        "code": "56203",
+        "flavor": "\"I was a double agent for years. There's not much I won't do for a just cause.\" \u2014Spiderwoman",
+        "name": "Una causa justa",
+        "text": "<b>Cuando se muestre esta carta</b>: el Líder enemigo ejecuta el Plan. Si hay más de 1 jugador en tu equipo, dale al Líder enemigo una carta de aumento adicional para esta activación."
+    },
+    {
+        "code": "56204",
+        "flavor": "\"I'm sobre target. Commence ataque.\" \u2014Captain Marvel",
+        "name": "Lo que haga falta",
+        "text": "<b>Cuando se muestre esta carta (Alter ego)</b>: el Líder enemigo ataca a tu Líder.\n<b>Cuando se muestre esta carta (Héroe)</b>: el Líder enemigo te ataca."
+    },
+    {
+        "code": "56205",
+        "name": "Ataque dirigido",
+        "text": "<b>Cuando se muestre esta carta</b>: el equipo enemigo busca una carta entre las 5 primeras cartas del mazo de Encuentros y te la da como carta de Encuentro boca abajo.\n<hr />\n[star] <b>Aumento</b>: esta carta gana [boost] por cada jugador que haya en tu equipo."
+    },
+    {
+        "back_link": "56206b",
+        "code": "56206a",
+        "name": "Escoger un bando",
+        "text": "Permanente.\nEl Líder enemigo no puede sufrir más de 2 de Daño de cada ataque.\n<b>Respuesta obligada</b>: después de que se quite la última ficha de Amenaza de esta carta, el equipo enemigo busca 1[per_hero] cartas de Encuentro entre las 5 primeras cartas del mazo de Encuentros y reparte una a cada jugador como carta de Encuentro boca abajo. Dale la vuelta a esta carta."
+    },
+    {
+        "code": "56206b",
+        "name": "Ahora es personal",
+        "text": "<b><i>Dale esta carta al jugador inicial.</i></b>\n<b>Acción</b>: retira esta carta de la partida \u2192 cada jugador de tu equipo elige 2 cartas de Jugador de tu Líder que estén apartadas y las añade a su mano."
+    }
+]
