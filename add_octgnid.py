@@ -1,8 +1,8 @@
 import json
 import uuid
 
-runFile = 'tt_encounter.json'
-pack_code = 'tt'
+runFile = 'hercules.json'
+pack_code = 'hercules'
 
 with open('./packs.json') as json_file:
     pack_data = json.load(json_file)
@@ -32,16 +32,16 @@ with open('./pack/' + runFile) as json_file:
             if 'duplicate_of' not in item.keys():
                 item['octgn_id'] = pack_octgn_id + pack_id + str('00' + str(item['position']))[-3:]
         except KeyError:
-            print("An exception occurred: " + item['name'])
+            print("An exception occurred: " + item['code'])
 
-    for item in updated_data:
+    for item1 in updated_data:
         try:
-            if len(item['code']) > 5 and str(item['code'])[4:5] != 'a':
-                for items in updated_data:
-                    if items['code'] == str(item['code'])[0:5] + 'a':
-                        item['octgn_id'] = items['octgn_id']
+            if 'duplicate_of' not in item1.keys() and len(item1['code']) > 5 and str(item1['code'])[4:5] != 'a':
+                for item2 in updated_data:
+                    if item2['code'] == str(item1['code'])[0:5] + 'a':
+                        item1['octgn_id'] = item2['octgn_id']
         except KeyError:
-            print("An exception occurred: " + item['name'])
+            print("An exception occurred: " + item1['code'])
 
 
 with open('./pack/' + runFile, 'w') as outfile:

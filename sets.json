@@ -200,9 +200,10 @@
 		"card_set_type_code": "hero"
 	},
 	{
-		"code": "invocation",
+		"card_set_type_code": "hero_special",
+		"code": "doctor_strange_invocation_deck",
 		"name": "Invocation",
-		"card_set_type_code": "hero"
+		"parent_code": "doctor_strange"
 	},
 	{
 		"code": "doctor_strange_nemesis",
@@ -995,9 +996,10 @@
 		"card_set_type_code": "hero"
 	},
 	{
-		"code": "weather",
-		"name": "Weather",
-		"card_set_type_code": "hero"
+		"card_set_type_code": "hero_special",
+		"code": "storm_weather_deck",
+		"name": "Weather Deck",
+		"parent_code": "storm"
 	},
 	{
 		"code": "storm_nemesis",
@@ -1370,9 +1372,10 @@
 		"card_set_type_code": "hero"
 	},
 	{
-		"code": "frostbite",
+		"card_set_type_code": "hero_special",
+		"code": "iceman_frostbite",
 		"name": "Frostbite",
-		"card_set_type_code": "hero"
+		"parent_code": "iceman"
 	},
 	{
 		"code": "iceman_nemesis",
@@ -1600,6 +1603,21 @@
 		"card_set_type_code": "modular"
 	},
 	{
+		"code": "enchantress_villain",
+		"name": "Enchantress",
+		"card_set_type_code": "villain"
+	},
+	{
+		"code": "god_of_lies",
+		"name": "God of Lies",
+		"card_set_type_code": "villain"
+	},
+	{
+		"code": "trickster_magic",
+		"name": "Trickster Magic",
+		"card_set_type_code": "modular"
+	},
+	{
 		"code": "tigra",
 		"name": "Tigra",
 		"card_set_type_code": "hero"
@@ -1735,18 +1753,100 @@
 		"card_set_type_code": "modular"
 	},
 	{
-		"code": "enchantress_villain",
-		"name": "Enchantress",
-		"card_set_type_code": "villain"
+		"card_set_type_code": "leader",
+		"code": "she_hulk_leader",
+		"name": "She-Hulk"
 	},
 	{
-		"code": "god_of_lies",
-		"name": "God of Lies",
-		"card_set_type_code": "villain"
+		"card_set_type_code": "main_scheme",
+		"code": "synthezoid_registration",
+		"name": "Registration"
 	},
 	{
-		"code": "trickster_magic",
-		"name": "Trickster Magic",
-		"card_set_type_code": "modular"
+		"card_set_type_code": "modular",
+		"code": "shield_ops",
+		"name": "S.H.I.E.L.D. Ops"
+	},
+	{
+		"card_set_type_code": "modular",
+		"code": "thunderbolts_modular",
+		"name": "Thunderbolts"
+	},
+	{
+		"card_set_type_code": "modular",
+		"code": "taskmaster_modular",
+		"name": "Taskmaster"
+	},
+	{
+		"card_set_type_code": "modular",
+		"code": "deadly_duo",
+		"name": "Deadly Duo"
+	},
+	{
+		"card_set_type_code": "leader",
+		"code": "vision_leader",
+		"name": "Vision"
+	},
+	{
+		"card_set_type_code": "main_scheme",
+		"code": "synthezoid_resistance",
+		"name": "Resistance"
+	},
+	{
+		"card_set_type_code": "modular",
+		"code": "young_avengers",
+		"name": "Young Avengers"
+	},
+	{
+		"card_set_type_code": "modular",
+		"code": "scarlet_twins",
+		"name": "Scarlet Twins"
+	},
+	{
+		"card_set_type_code": "modular",
+		"code": "moon_knight_modular",
+		"name": "Moon Knight"
+	},
+	{
+		"card_set_type_code": "modular",
+		"code": "royal_guard",
+		"name": "Royal Guard"
+	},
+	{
+		"card_set_type_code": "hero",
+		"code": "wonder_man",
+		"name": "Wonder Man"
+	},
+	{
+		"card_set_type_code": "nemesis",
+		"code": "wonder_man_nemesis",
+		"name": "Wonder Man Nemesis"
+	},
+	{
+		"card_set_type_code": "hero",
+		"code": "hercules",
+		"name": "Hercules"
+	},
+	{
+		"card_set_type_code": "hero_special",
+		"code": "hercules_labor_deck",
+		"name": "Labor Deck",
+		"parent_code": "hercules"
+	},
+	{
+		"card_set_type_code": "hero_special",
+		"code": "hercules_gift_deck",
+		"name": "Gift Deck",
+		"parent_code": "hercules"
+	},
+	{
+		"card_set_type_code": "nemesis",
+		"code": "hercules_nemesis",
+		"name": "Hercules Nemesis"
+	},
+	{
+		"card_set_type_code": "modular",
+		"code": "all_versus_all",
+		"name": "All Versus All"
 	}
 ]
