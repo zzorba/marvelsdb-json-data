@@ -25,7 +25,7 @@
         "quantity": 1,
         "resource_wild": 1,
         "set_code": "she_hulk_leader",
-        "text": "<b>Action</b>: Your She-Hulk leader attacks the enemy leader. If you spent a [physical] resource to pay for this event, stun the enmey leader.",
+        "text": "<b>Action</b>: Your She-Hulk leader attacks the enemy leader. If you spent a [physical] resource to pay for this event, stun the enemy leader.",
         "type_code": "event"
     },
     {
@@ -71,6 +71,20 @@
         "type_code": "event"
     },
     {
+        "code": "57075",
+        "cost": 2,
+        "faction_code": "basic",
+        "name": "Synthezoid Strike",
+        "octgn_id": "2b778323-b4d9-4567-999d-42e7de057075",
+        "pack_code": "synthezoid",
+        "position": 75,
+        "quantity": 1,
+        "resource_wild": 1,
+        "set_code": "vision_leader",
+        "text": "<b>Action</b>: Your Vision leader attacks the enemy leader. If Vision's mass form attachment is:\n\u2022 Dense, Vision gets +1 ATK for this attack and this attack gains piercing.\n\u2022 Intangible, flip it to Dense before resolving this attack.",
+        "type_code": "event"
+    },
+    {
         "code": "57076",
         "cost": 0,
         "faction_code": "basic",
@@ -84,5 +98,18 @@
         "set_code": "vision_leader",
         "text": "<b>Action</b>: Choose an attachment on the enemy leader with the text <b>\"Hero Response\"</b> or <b>\"Hero Interrupt\"</b> and discard it.",
         "type_code": "event"
+    },
+    {
+        "code": "57077",
+        "faction_code": "basic",
+        "name": "Android Assistance",
+        "octgn_id": "2b778323-b4d9-4567-999d-42e7de057077",
+        "pack_code": "synthezoid",
+        "position": 77,
+        "quantity": 1,
+        "resource_wild": 2,
+        "set_code": "vision_leader",
+        "text": "<b>Hero Interrupt</b>: When you spend this resource, flip your Vision leader's mass form attachment.",
+        "type_code": "resource"
     }
 ]

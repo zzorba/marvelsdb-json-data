@@ -431,6 +431,13 @@
         "type_code": "ally"
     },
     {
+        "code": "58023",
+        "duplicate_of": "01088",
+        "pack_code": "wonder_man",
+        "position": 23,
+        "quantity": 1
+    },
+    {
         "code": "58024",
         "cost": 2,
         "deck_limit": 1,
@@ -477,7 +484,7 @@
         "code": "58032",
         "cost": 0,
         "deck_limit": 3,
-        "faction_code": "aggression",
+        "faction_code": "leadership",
         "name": "Coordinated Effort",
         "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058032",
         "pack_code": "wonder_man",
@@ -502,5 +509,21 @@
         "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When your hero defends against an attack, it gets +2 DEF for that attack. If you take no damage from that attack, discard an attachment on the attacking enemy with the text \"<b>Hero Action</b>\" or \"<b>Hero Response</b>\".",
         "traits": "Defense.",
         "type_code": "event"
+    },
+    {
+        "code": "58034",
+        "cost": 0,
+        "deck_limit": 1,
+        "faction_code": "basic",
+        "illustrator": "Facundo Moyano",
+        "name": "Avengers Compound",
+        "octgn_id": "7eb46497-8915-4be9-b31d-7bee67058034",
+        "pack_code": "wonder_man",
+        "position": 34,
+        "quantity": 1,
+        "resource_mental": 1,
+        "text": "Play only if your identity has the [[Avenger]] trait. Max 1 per deck.\n<b>Action</b>: Exhaust Avengers Compound \u2192 choose: tuck 1 ally from your hand here if there is no ally tucked here, or play the ally tucked here as if it were in your hand.",
+        "traits": "Avenger. Location.",
+        "type_code": "support"
     }
 ]

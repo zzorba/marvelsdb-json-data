@@ -50,7 +50,6 @@
     },
     {
         "code": "59002",
-        "deck_limit": 1,
         "faction_code": "hero",
         "illustrator": "Andrea Di Vito & Laura Villari",
         "name": "Defeat the Hydra",
@@ -66,7 +65,6 @@
     },
     {
         "code": "59003",
-        "deck_limit": 1,
         "faction_code": "hero",
         "illustrator": "Andrea Di Vito & Laura Villari",
         "name": "Embody Pathos",
@@ -82,7 +80,6 @@
     },
     {
         "code": "59004",
-        "deck_limit": 1,
         "faction_code": "hero",
         "illustrator": "Andrea Di Vito & Laura Villari",
         "name": "Protect Humanity",
@@ -98,7 +95,6 @@
     },
     {
         "code": "59005",
-        "deck_limit": 1,
         "faction_code": "hero",
         "illustrator": "Andrea Di Vito & Laura Villari",
         "is_unique": true,
@@ -116,7 +112,6 @@
     },
     {
         "code": "59006",
-        "deck_limit": 1,
         "faction_code": "hero",
         "illustrator": "Andrea Di Vito & Laura Villari",
         "is_unique": true,
@@ -134,7 +129,6 @@
     },
     {
         "code": "59007",
-        "deck_limit": 1,
         "faction_code": "hero",
         "illustrator": "Andrea Di Vito & Laura Villari",
         "is_unique": true,
@@ -265,6 +259,24 @@
         "type_code": "upgrade"
     },
     {
+        "code": "59014",
+        "cost": 1,
+        "deck_limit": 1,
+        "faction_code": "hero",
+        "is_unique": true,
+        "name": "Golden Mace",
+        "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059014",
+        "pack_code": "hercules",
+        "position": 14,
+        "quantity": 1,
+        "resource_physical": 1,
+        "set_code": "hercules",
+        "set_position": 11,
+        "text": "Restricted.\n<b>Hero Interrupt</b>: When Hercules makes a basic attack, exhaust Golden Mace \u2192 Hercules gets +1 ATK for this attack for each [[Gift]] card you control. This attack gains overkill.",
+        "traits": "Olympus. Weapon.",
+        "type_code": "upgrade"
+    },
+    {
         "code": "59015",
         "cost": 0,
         "deck_limit": 1,
@@ -285,19 +297,37 @@
     {
         "code": "59016",
         "cost": 0,
-        "deck_limit": 1,
+        "deck_limit": 2,
         "faction_code": "hero",
         "flavor": "Like the mighty lions native to ancient Greece, the ferocity of Hercules is incredible.",
         "name": "Lion of Olympus",
         "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059016",
         "pack_code": "hercules",
         "position": 16,
-        "quantity": 1,
+        "quantity": 2,
         "resource_physical": 1,
         "set_code": "hercules",
         "set_position": 13,
         "text": "Temporary. <i>(Discard this card at the end of the round.)</i>\nYour hero gets +1 THW, +1 ATK, and +1 DEF.",
         "traits": "Olympus.",
+        "type_code": "upgrade"
+    },
+    {
+        "code": "59017",
+        "cost": 1,
+        "deck_limit": 1,
+        "faction_code": "hero",
+        "is_unique": true,
+        "name": "Prince of Power",
+        "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059017",
+        "pack_code": "hercules",
+        "position": 17,
+        "quantity": 1,
+        "resource_physical": 1,
+        "set_code": "hercules",
+        "set_position": 15,
+        "text": "<b>Hero Response</b>: After Hercules attacks and defeats an enemy, exhaust Prince of Power \u2192 heal 1 damage from Hercules for each point of excess damage dealt to that enemy by that attack.",
+        "traits": "Olympus. Title.",
         "type_code": "upgrade"
     },
     {
@@ -324,6 +354,30 @@
         "type_code": "ally"
     },
     {
+        "attack": 2,
+        "attack_cost": 1,
+        "code": "59019",
+        "cost": 4,
+        "deck_limit": 1,
+        "faction_code": "leadership",
+        "flavor": "\"I've heard she can beat Captain Marvel in an arm wrestling contest.\" \u2014Gorilla-Man",
+        "health": 4,
+        "health_star": true,
+        "is_unique": true,
+        "name": "Namora",
+        "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059019",
+        "pack_code": "hercules",
+        "position": 19,
+        "quantity": 1,
+        "resource_physical": 1,
+        "subname": "Aquaria Neptunia",
+        "text": "[star] Namora gets +1 hit point for each other ally you control.",
+        "thwart": 2,
+        "thwart_cost": 2,
+        "traits": "Agent of Atlas. Atlantis.",
+        "type_code": "ally"
+    },
+    {
         "attack": 3,
         "attack_cost": 2,
         "code": "59020",
@@ -347,12 +401,34 @@
         "type_code": "ally"
     },
     {
+        "code": "59021",
+        "duplicate_of": "06032",
+        "pack_code": "hercules",
+        "position": 21,
+        "quantity": 3
+    },
+    {
         "code": "59022",
         "duplicate_of": "40018",
         "flavor": "\"I already regret this.\" \u2014Rocket Raccoon",
         "pack_code": "hercules",
         "position": 22,
-        "quantity": 3
+        "quantity": 1
+    },
+    {
+        "code": "59023",
+        "cost": 3,
+        "deck_limit": 3,
+        "faction_code": "leadership",
+        "illustrator": "Facundo Moyano",
+        "name": "Recruitment Drive",
+        "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059023",
+        "pack_code": "hercules",
+        "position": 23,
+        "quantity": 3,
+        "resource_mental": 1,
+        "text": "Alter-ego form only.\n<b>Action</b>: Discard Recruitment Drive and choose a player \u2192 reduce the resource cost of the next ally that player plays this phase to 0.",
+        "type_code": "support"
     },
     {
         "code": "59024",
@@ -370,6 +446,29 @@
         "type_code": "upgrade"
     },
     {
+        "attack": 3,
+        "attack_cost": 2,
+        "code": "59025",
+        "cost": 3,
+        "deck_limit": 1,
+        "faction_code": "basic",
+        "flavor": "Having lived for around a million years, even Gilgamesh had once forgotten who he was.",
+        "health": 6,
+        "illustrator": "Afif Khaled",
+        "is_unique": true,
+        "name": "Gilgamesh",
+        "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059025",
+        "pack_code": "hercules",
+        "position": 25,
+        "quantity": 1,
+        "resource_physical": 1,
+        "text": "As an additional cost to play this card, if you do not have the [[Eternal]] trait, confuse your identity.",
+        "thwart": 2,
+        "thwart_cost": 2,
+        "traits": "Eternal.",
+        "type_code": "ally"
+    },
+    {
         "code": "59026",
         "cost": 1,
         "deck_limit": 1,
@@ -379,26 +478,77 @@
         "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059026",
         "pack_code": "hercules",
         "position": 26,
-        "quantity": 1,
+        "quantity": 2,
         "resource_wild": 1,
         "text": "Team-Up (Hercules and Thor). Max 1 per deck.\n<b>Hero Action</b>: Search your discard pile for an identity-specific upgrade and add it to your hand. Ready Hercules and Thor.",
         "traits": "Asgard. Olympus.",
         "type_code": "event"
     },
     {
-        "code": "59032",
-        "cost": 0,
+        "code": "59027",
+        "duplicate_of": "31023",
+        "flavor": "\"What, you think this fight is almost over?! That was just warm-up practice.\" \u2014Thor",
+        "pack_code": "hercules",
+        "position": 27,
+        "quantity": 3
+    },
+    {
+        "base_threat": 2,
+        "code": "59028",
+        "cost": 1,
         "deck_limit": 1,
         "faction_code": "basic",
-        "illustrator": "Facundo Moyano",
-        "name": "Avengers Compound",
-        "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059032",
+        "illustrator": "Sebasti\u00e1n Guidobono",
+        "is_unique": true,
+        "name": "Evaluate Threat",
+        "octgn_id": "01625c2e-06c7-4321-bfd4-9abdc6059028",
         "pack_code": "hercules",
-        "position": 32,
+        "position": 28,
         "quantity": 1,
         "resource_mental": 1,
-        "text": "Play only if your identity has the [[Avenger]] trait. Max 1 per deck.\n<b>Action</b>: Exhaust Avengers Compound \u2192 choose: tuck 1 ally from your hand here if there is no ally tucked here, or play the ally tucked here as if it were in your hand.",
-        "traits": "Avenger. Location.",
-        "type_code": "support"
+        "text": "Victory 0.\nPlay only if your identity has the [[Avenger]] or [[S.H.I.E.L.D.]] trait.\n<b>When Defeated</b>: Each player may search their deck and discard pile for an [[Avenger]] or [[S.H.I.E.L.D.]] card and add it to their hand. <i>(Shuffle.)</i> Reduce the cost to play each of those cards by 2 until the end of the phase.",
+        "type_code": "player_side_scheme"
+    },
+    {
+        "code": "59029",
+        "duplicate_of": "01088",
+        "pack_code": "hercules",
+        "position": 29,
+        "quantity": 1
+    },
+    {
+        "code": "59030",
+        "duplicate_of": "01089",
+        "pack_code": "hercules",
+        "position": 30,
+        "quantity": 1
+    },
+    {
+        "code": "59031",
+        "duplicate_of": "01090",
+        "pack_code": "hercules",
+        "position": 31,
+        "quantity": 1
+    },
+    {
+        "code": "59032",
+        "duplicate_of": "58034",
+        "pack_code": "hercules",
+        "position": 32,
+        "quantity": 1
+    },
+    {
+        "code": "59033",
+        "duplicate_of": "01092",
+        "pack_code": "hercules",
+        "position": 33,
+        "quantity": 1
+    },
+    {
+        "code": "59034",
+        "duplicate_of": "08023",
+        "pack_code": "hercules",
+        "position": 34,
+        "quantity": 1
     }
 ]
