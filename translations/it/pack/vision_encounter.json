@@ -1,29 +1,30 @@
 [
-	{
-		"code": 26028,
-		"name": "Programmazione Corrotta",
-		"text": "<b><i>Fai ricevere al giocatore Visione.</i></b>\nConsidera il riquadrodi testo della tua miglioria sembianza di massa come se fosse vuoto <i>(parole chiave escluse)</i>.\n<b>Azione Alter Ego:</b> Esaurisci la tua identità → rimuovi dal gioco Programmazione Corrotta."
-	},
-	{
-		"code": 26029,
-		"name": "Ultron",
-		"text": "Robustezza.\n[star] <b>Interruzione Obbligata</b>: Quando Ultron ti attacca, se Droni di Ultron è in gioco, metti in gioco a faccia in giù 1 carta dalla cima del tuo mazzo, impegnata con te come gregario [[Drone]].",
-		"traits": "Androide. Elite."
-	},
-	{
-		"code": 26030,
-		"name": "Ultron Scatenato",
-		"text": "<b>Quando Rivelata:</b> Cerca nel mazzo degli incontri, nella pila degli scarti degli incontri e nelle carte messe da parte l'ambiente Droni di Ultron e mettilo in gioco. Mescola il mazzo degli incontri. Ogni giocatore mette a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]]."
-	},
-	{
-		"code": 26031,
-		"name": "Droni di Ultron",
-		"text": "Ogni gregario [[Drone]] a faccia in giù impegnato con un giocatore possiede TRA base pari a 1, ATT base pari a 1 e punti ferita base pari a 1.\n<b>Risposta Obbligata</b>: Dopo che un gregario [[Drone]] a faccia in giù è stato sconfitto, colloca quella carta nella pila degli scarti del suo proprietario."
-	},
-	{
-		"code": 26032,
-		"flavor": "\"L'innovazione è l'arma suprema.\" - Ultron",
-		"name": "Androide Implacabile",
-		"text": "<b>Quando Rivelata:</b> Se Droni di Ultron è in gioco, metti in gioco a faccia in giù 2 carte dalla cima del tuo mazzo, impegnate con te come gregari [[Drone]]. Altrimenti, scarta 2 carte casuali dalla tua mano."
-	}
+    {
+        "code": "26028",
+        "name": "Programmazione Corrotta",
+        "text": "<b><i>Fai ricevere al giocatore Visione.</i></b>\nConsidera il riquadrodi testo della tua miglioria sembianza di massa come se fosse vuoto <i>(parole chiave escluse)</i>.\n<b>Azione Alter Ego:</b> Esaurisci la tua identità → rimuovi dal gioco Programmazione Corrotta."
+    },
+    {
+        "attack_text": "<b>Interruzione Obbligata:</b> Quando Ultron ti attacca, se Droni di Ultron è in gioco, metti in gioco a faccia in giù 1 carta dalla cima del tuo mazzo, impegnata con te come gregario [[Drone]].",
+        "code": "26029",
+        "name": "Ultron",
+        "text": "Robustezza.",
+        "traits": "Androide. Elite."
+    },
+    {
+        "code": "26030",
+        "name": "Ultron Scatenato",
+        "text": "<b>Quando Rivelata:</b> Cerca nel mazzo degli incontri, nella pila degli scarti degli incontri e nelle carte messe da parte l'ambiente Droni di Ultron e mettilo in gioco. Mescola il mazzo degli incontri. Ogni giocatore mette a faccia in giù 1 carta dalla cima del suo mazzo, impegnata con lui come gregario [[Drone]]."
+    },
+    {
+        "code": "26031",
+        "name": "Droni di Ultron",
+        "text": "Ogni gregario [[Drone]] a faccia in giù impegnato con un giocatore possiede TRA base pari a 1, ATT base pari a 1 e punti ferita base pari a 1.\n<b>Risposta Obbligata</b>: Dopo che un gregario [[Drone]] a faccia in giù è stato sconfitto, colloca quella carta nella pila degli scarti del suo proprietario."
+    },
+    {
+        "code": "26032",
+        "flavor": "\"L'innovazione è l'arma suprema.\" - Ultron",
+        "name": "Androide Implacabile",
+        "text": "<b>Quando Rivelata:</b> Se Droni di Ultron è in gioco, metti in gioco a faccia in giù 2 carte dalla cima del tuo mazzo, impegnate con te come gregari [[Drone]]. Altrimenti, scarta 2 carte casuali dalla tua mano."
+    }
 ]

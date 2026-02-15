@@ -1,146 +1,142 @@
 [
-	{
-		"code": "22001a",
-		"name": "Nebula",
-		"text": "<i>Protocolli da Combattimento</i> — <b>Risposta Obbligata</b>: Dopo che il tuo turno è iniziato, risolvi la capacità  \"<b>Speciale</b>\" di ogni miglioria [[Tecnica]] che controlli, poi scarta ogni miglioria [[Tecnica]] risolta in questo modo.",
-		"traits": "Guardiano."
-	},
-	{
-		"code": "22001b",
-		"flavor": "\"Thanos mi ha creata per un solo scopo: uccidere. Presto scoprirà che è stata una pessima decisione.\"",
-		"name": "Nebula",
-		"text": "<i>Migliorie Cibernetiche</i> — <b>Risposta</b>: Dopo che hai giocato una miglioria [[Tecnica]], pesca 2 carte. (Limite di una volta per round.)",
-		"traits": "Fuorilegge."
-	},
-	{
-		"code": "22002",
-		"flavor": "\"Thanos ci ha addestrate entrambe per lo stesso scopo.\"",
-		"name": "Gamora",
-		"text": "<b>Risposta</b>: Dopo che hai giocato Gamora, scegli 1 miglioria [[Tecnica]] che controlli, poi risolvi la sua capacità \"<b>Speciale</b>\".",
-		"traits": "Guardiano."
-	},
-	{
-		"code": "22003",
-		"flavor": "\"Mi piaceva di più quando ero io a bersagliare la sua nave.\" -- Gamora",
-		"name": "Nave di Nebula",
-		"text": "<b>Risorsa</b>: Esaurisci Nave di Nebula → genera [wild].",
-		"traits": "Veicolo."
-	},
-	{
-		"code": "22004",
-		"flavor": "\"Sono una guerriera pari a te in tutto!\" -- Nebula",
-		"name": "Ambizione del Tagliagole",
-		"text": "Mentre Nebula è nella sembianza di eroe, i suoi attacchi ottengono Perforante e Sopraffazione.\n<b>Speciale</b> <i>(intervento)</i>: Rimuovi 3 minacce da una trama.",
-		"traits": "Tecnica."
-	},
-	{
-		"code": "22005",
-		"name": "Manovre Elusive",
-		"text": "Mentre è nella sembianza di eroe, Nebula ignora la parola chiave Guardia, la parola chiave Pattuglia e l'icona crisi ([crisis]).\n <b>Speciale</b>: Scegli se stordire oppure confondere 1 nemico.",
-		"traits": "Tecnica."
-	},
-	{
-		"code": "22006",
-		"name": "Persistenza Irriducibile",
-		"text": "Mentre è nella sembianza di eroe, Nebula riceve +1 INT, +1 ATT e ottiene Stabile.\n<b>Speciale</b>: Irrobustisci Nebula.",
-		"traits": "Tecnica."
-	},
-	{
-		"code": "22007",
-		"name": "Maestria nelle Armi",
-		"text": "Mentre è nella sembianza di eroe, Nebula ottiene Ritorsione 1.\n<b>Speciale</b> <i>(attacco)</i>: Infliggi 4 danni a un nemico.",
-		"traits": "Tecnica."
-	},
-	{
-		"code": "22008",
-		"name": "Posizione di Guardia",
-		"text": "Mentre Nebula è nella sembianza di eroe, riduci di 1 l'ammontare di danni che subisce da ogni attacco.\n<b>Speciale</b>: Guarda 3 carte dalla cima del mazzo degli incontri. Scartane 1 e rimetti le altre in cima al mazzo nell'ordine che preferisci.",
-		"traits": "Tecnica."
-	},
-	{
-		"code": "22009",
-		"name": "Pronta al Combattimento",
-		"text": "<b>Azione Alter Ego</b>: Scagli 1 effetto tra:\n- Mescola nel tuo mazzo fino a 2 migliorie [[Tecnica]] dalla tua pila degli scarti.\n- Scarta carte dalla cima del tuo mazzo finchè non scarti 1 miglioria [[Tecnica]]. Metti in gioco quella miglioria, poi risolvi la sua capacità \"<b>Speciale</b>\".",
-		"traits": "Abilità."
-	},
-	{
-		"code": "22010",
-		"flavor": "\"I Guardiani facevano bene a temermi e hanno fatto ancora meglio a ingaggiarmi.\" -- Nebula",
-		"name": "Intenti Letali",
-		"text": "<b>Azione Eroe</b>: Scegli fino a X migliorie [[Tecnica]] che controlli. Risolvi ogni loro capacità \"<b>Speciale</b>\" <i>(nell'ordine che preferisci)</i>.",
-		"traits": ""
-	},
-	{
-		"code": "22011",
-		"flavor": "\"Non sarà facile, ma salveremo questo universo... proteggeremo questa galassia.\"",
-		"name": "Eros",
-		"text": "<b>Risposta</b>: Dopo che hai giocato Eros dalla tua mano, confondi 1 gregario per ogni [mental] che hai usato per pagare questa carta.",
-		"traits": "Guardiano."
-	},
-	{
-		"code": "22012",
-		"flavor": "\"Non disperarti: il destino fa di tutti noi degli schiavi.\"",
-		"name": "Fantasma",
-		"subname": "Zak-Del",
-		"text": "<b>Interruzione Eroe</b>: Quando una carta potenziamento viene girata a faccia in su, esaurisci Fantasma e infliggigli 1 danno → annulla l'effetto \"<b>Potenziamento</b>\" di quella carta.",
-		"traits": "Guardiano."
-	},
-	{
-		"code": "22013",
-		"flavor": "\"Tanti saluti alla possibilità di farcela in modo facile.\"",
-		"name": "Venom",
-		"subname": "Flash Thompson",
-		"text": "Mentre non ci sono minacce sulla trama principale, riduci di 1 tutti i danni conseguenti subiti da Venom.",
-		"traits": "Guardiano."
-	},
-	{
-		"code": "22014",
-		"name": "Giustizia Servita",
-		"text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\n<b>Risposta Eroe</b>: Dopo che sei intervenuto e hai rimosso l'ultima minaccia da una trama, scarta Giustizia Servita → ripristina il tuo eroe.",
-		"traits": ""
-	},
-	{
-		"code": "22015",
-		"name": "In un Modo o nell'Altro",
-		"text": "Massimo 1 per round.\n<b>Azione Eroe</b>: Cerca nel mazzo degli incontri 1 trama secondaria. Rivela quella trama secondaria → pesca 3 carte. <i>(Mescola il mazzo degli incontri.)</i>",
-		"traits": ""
-	},
-	{
-		"code": "22018",
-		"flavor": "Nonostante la sua incredibile forza, Spider-Man spesso trionfa superando i suoi nemici in astuzia.",
-		"name": "Mente contro Muscoli",
-		"text": "<b>Risposta Eroe</b> <i>(attacco)</i>: Dopo che il tuo eroe ha effettuato un intervento base, infliggi a un nemico un ammontare di danni pari all'INT del tuo eroe.",
-		"traits": "Attacco."
-	},
-	{
-		"code": "22022",
-		"flavor": "\"Da piccole, Thanos ci aizzò una contro l'altra, ma ora siamo sorelle. Finalmente siamo unite.\" -- Gamora",
-		"name": "Figlie di Thanos",
-		"text": "Team-Up (Gamora e Nebula). Massimo 1 per mazzo.\n<b>Azione Eroe</b>: Pesca 3 carte.",
-		"traits": ""
-	},
-	{
-		"code": "22032",
-		"name": "Lancia di Energia",
-		"text": "Assegna a un alleato [[Guardiano]]. Massimo 1 per alleato.\nL'alleato con questa miglioria riceve +2 ATT e i suoi attacchi ottengono Perforante.",
-		"traits": "Arma."
-	},
-	{
-		"code": "22033",
-		"name": "Guardiani della Galassia",
-		"text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 carta [[Squadra]] per ogni giocatore.\nSe ogni tuo personaggio possiede il tratto [[Guardiano]], questa carta ottiene \"<b>Risposta</b>: Dopo che hai giocato una miglioria su un alleato, pesca 1 carta\".",
-		"traits": "Squadra."
-	},
-	{
-		"code": "22034",
-		"name": "Addestramento Difensivo",
-		"text": "Massimo 2 per mazzo. Utilizzo (2 gettoni addestramento).\n<b>Azione Alter Ego</b>: Esaurisci questa carta e rimuovi 1 gettone addestramento da essa → scegli 1 evento Protezione <i>(verde)</i> dalla tua pila degli scarti e mescolalo nel tuo mazzo. ",
-		"traits": "Condizione."
-	},
-	{
-		"code": "22035",
-		"name": "Guardiano Onorario",
-		"text": "Gioca solo se la tua identità possiede il tratto [[Guardiano]].\nAssegna a un personaggio amico. Massimo 1 per personaggio.\nIl personaggio con questa miglioria riceve +1 punti ferita e ottiene il tratto [[Guardiano]].",
-		"traits": "Titolo."
-	}
+    {
+        "code": "22001a",
+        "name": "Nebula",
+        "text": "<i>Protocolli da Combattimento</i> — <b>Risposta Obbligata</b>: Dopo che il tuo turno è iniziato, risolvi la capacità  \"<b>Speciale</b>\" di ogni miglioria [[Tecnica]] che controlli, poi scarta ogni miglioria [[Tecnica]] risolta in questo modo.",
+        "traits": "Guardiano."
+    },
+    {
+        "code": "22001b",
+        "flavor": "\"Thanos mi ha creata per un solo scopo: uccidere. Presto scoprirà che è stata una pessima decisione.\"",
+        "name": "Nebula",
+        "text": "<i>Migliorie Cibernetiche</i> — <b>Risposta</b>: Dopo che hai giocato una miglioria [[Tecnica]], pesca 2 carte. (Limite di una volta per round.)",
+        "traits": "Fuorilegge."
+    },
+    {
+        "code": "22002",
+        "flavor": "\"Thanos ci ha addestrate entrambe per lo stesso scopo.\"",
+        "name": "Gamora",
+        "text": "<b>Risposta</b>: Dopo che hai giocato Gamora, scegli 1 miglioria [[Tecnica]] che controlli, poi risolvi la sua capacità \"<b>Speciale</b>\".",
+        "traits": "Guardiano."
+    },
+    {
+        "code": "22003",
+        "flavor": "\"Mi piaceva di più quando ero io a bersagliare la sua nave.\" -- Gamora",
+        "name": "Nave di Nebula",
+        "text": "<b>Risorsa</b>: Esaurisci Nave di Nebula → genera [wild].",
+        "traits": "Veicolo."
+    },
+    {
+        "code": "22004",
+        "flavor": "\"Sono una guerriera pari a te in tutto!\" -- Nebula",
+        "name": "Ambizione del Tagliagole",
+        "text": "Mentre Nebula è nella sembianza di eroe, i suoi attacchi ottengono Perforante e Sopraffazione.\n<b>Speciale</b> <i>(intervento)</i>: Rimuovi 3 minacce da una trama.",
+        "traits": "Tecnica."
+    },
+    {
+        "code": "22005",
+        "name": "Manovre Elusive",
+        "text": "Mentre è nella sembianza di eroe, Nebula ignora la parola chiave Guardia, la parola chiave Pattuglia e l'icona crisi ([crisis]).\n <b>Speciale</b>: Scegli se stordire oppure confondere 1 nemico.",
+        "traits": "Tecnica."
+    },
+    {
+        "code": "22006",
+        "name": "Persistenza Irriducibile",
+        "text": "Mentre è nella sembianza di eroe, Nebula riceve +1 INT, +1 ATT e ottiene Stabile.\n<b>Speciale</b>: Irrobustisci Nebula.",
+        "traits": "Tecnica."
+    },
+    {
+        "code": "22007",
+        "name": "Maestria nelle Armi",
+        "text": "Mentre è nella sembianza di eroe, Nebula ottiene Ritorsione 1.\n<b>Speciale</b> <i>(attacco)</i>: Infliggi 4 danni a un nemico.",
+        "traits": "Tecnica."
+    },
+    {
+        "code": "22008",
+        "name": "Posizione di Guardia",
+        "text": "Mentre Nebula è nella sembianza di eroe, riduci di 1 l'ammontare di danni che subisce da ogni attacco.\n<b>Speciale</b>: Guarda 3 carte dalla cima del mazzo degli incontri. Scartane 1 e rimetti le altre in cima al mazzo nell'ordine che preferisci.",
+        "traits": "Tecnica."
+    },
+    {
+        "code": "22009",
+        "name": "Pronta al Combattimento",
+        "text": "<b>Azione Alter Ego</b>: Scagli 1 effetto tra:\n- Mescola nel tuo mazzo fino a 2 migliorie [[Tecnica]] dalla tua pila degli scarti.\n- Scarta carte dalla cima del tuo mazzo finchè non scarti 1 miglioria [[Tecnica]]. Metti in gioco quella miglioria, poi risolvi la sua capacità \"<b>Speciale</b>\".",
+        "traits": "Abilità."
+    },
+    {
+        "code": "22010",
+        "flavor": "\"I Guardiani facevano bene a temermi e hanno fatto ancora meglio a ingaggiarmi.\" -- Nebula",
+        "name": "Intenti Letali",
+        "text": "<b>Azione Eroe</b>: Scegli fino a X migliorie [[Tecnica]] che controlli. Risolvi ogni loro capacità \"<b>Speciale</b>\" <i>(nell'ordine che preferisci)</i>."
+    },
+    {
+        "code": "22011",
+        "flavor": "\"Non sarà facile, ma salveremo questo universo... proteggeremo questa galassia.\"",
+        "name": "Eros",
+        "text": "<b>Risposta</b>: Dopo che hai giocato Eros dalla tua mano, confondi 1 gregario per ogni [mental] che hai usato per pagare questa carta.",
+        "traits": "Guardiano."
+    },
+    {
+        "code": "22012",
+        "flavor": "\"Non disperarti: il destino fa di tutti noi degli schiavi.\"",
+        "name": "Fantasma",
+        "subname": "Zak-Del",
+        "text": "<b>Interruzione Eroe</b>: Quando una carta potenziamento viene girata a faccia in su, esaurisci Fantasma e infliggigli 1 danno → annulla l'effetto \"<b>Potenziamento</b>\" di quella carta.",
+        "traits": "Guardiano."
+    },
+    {
+        "code": "22013",
+        "flavor": "\"Tanti saluti alla possibilità di farcela in modo facile.\"",
+        "name": "Venom",
+        "subname": "Flash Thompson",
+        "text": "Mentre non ci sono minacce sulla trama principale, riduci di 1 tutti i danni conseguenti subiti da Venom.",
+        "traits": "Guardiano."
+    },
+    {
+        "code": "22014",
+        "name": "Giustizia Servita",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\n<b>Risposta Eroe</b>: Dopo che sei intervenuto e hai rimosso l'ultima minaccia da una trama, scarta Giustizia Servita → ripristina il tuo eroe."
+    },
+    {
+        "code": "22015",
+        "name": "In un Modo o nell'Altro",
+        "text": "Massimo 1 per round.\n<b>Azione Eroe</b>: Cerca nel mazzo degli incontri 1 trama secondaria. Rivela quella trama secondaria → pesca 3 carte. <i>(Mescola il mazzo degli incontri.)</i>"
+    },
+    {
+        "code": "22018",
+        "flavor": "Nonostante la sua incredibile forza, Spider-Man spesso trionfa superando i suoi nemici in astuzia.",
+        "name": "Mente contro Muscoli",
+        "text": "<b>Risposta Eroe</b> <i>(attacco)</i>: Dopo che il tuo eroe ha effettuato un intervento base, infliggi a un nemico un ammontare di danni pari all'INT del tuo eroe.",
+        "traits": "Attacco."
+    },
+    {
+        "code": "22022",
+        "flavor": "\"Da piccole, Thanos ci aizzò una contro l'altra, ma ora siamo sorelle. Finalmente siamo unite.\" -- Gamora",
+        "name": "Figlie di Thanos",
+        "text": "Team-Up (Gamora e Nebula). Massimo 1 per mazzo.\n<b>Azione Eroe</b>: Pesca 3 carte."
+    },
+    {
+        "code": "22032",
+        "name": "Lancia di Energia",
+        "text": "Assegna a un alleato [[Guardiano]]. Massimo 1 per alleato.\nL'alleato con questa miglioria riceve +2 ATT e i suoi attacchi ottengono Perforante.",
+        "traits": "Arma."
+    },
+    {
+        "code": "22033",
+        "name": "Guardiani della Galassia",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 carta [[Squadra]] per ogni giocatore.\nSe ogni tuo personaggio possiede il tratto [[Guardiano]], questa carta ottiene \"<b>Risposta</b>: Dopo che hai giocato una miglioria su un alleato, pesca 1 carta\".",
+        "traits": "Squadra."
+    },
+    {
+        "code": "22034",
+        "name": "Addestramento Difensivo",
+        "text": "Massimo 2 per mazzo. Utilizzo (2 gettoni addestramento).\n<b>Azione Alter Ego</b>: Esaurisci questa carta e rimuovi 1 gettone addestramento da essa → scegli 1 evento Protezione <i>(verde)</i> dalla tua pila degli scarti e mescolalo nel tuo mazzo. ",
+        "traits": "Condizione."
+    },
+    {
+        "code": "22035",
+        "name": "Guardiano Onorario",
+        "text": "Gioca solo se la tua identità possiede il tratto [[Guardiano]].\nAssegna a un personaggio amico. Massimo 1 per personaggio.\nIl personaggio con questa miglioria riceve +1 punti ferita e ottiene il tratto [[Guardiano]].",
+        "traits": "Titolo."
+    }
 ]

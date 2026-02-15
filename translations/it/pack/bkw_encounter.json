@@ -1,30 +1,33 @@
 [
-	{
-		"code": "08025",
-		"name": "Notifica di Inaffidabilità",
-		"text": "<b><i>Fai ricevere al giocatore Natasha Romanoff</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n\u2022 Esaurisci Natasha Romanoff → Rimuovi dal gioco Notifica di Inaffidabilità.\n\u2022 Scarta la carta [[Preparativi]] dal costo più alto che controlli. Se non puoi farlo, questa carta ottiene Impulso. Scarta questa incombenza."
-	},
-	{
-		"code": "08026",
-		"name": "Taskmaster",
-		"text": "[star] Taskmaster riceve +1 TRA and +1 ATT per ogni miglioria che controlli.\n<i>(Gregario nemesi di Vedova Nera.)</i>\n<hr />\n[star] <b>Potenziamento</b>: Per questa attivazione, il criminale riceve +1 TRA and +1 ATT per ogni miglioria che controlli.",
-		"traits": "Elite. Hydra"
-	},
-	{
-		"code": "08027",
-		"name": "Assassino a Pagamento",
-		"text": "<b>Quando rivelata</b>: colloca 1[per_hero] minacce aggiuntive su questa carta."
-	},
-	{
-		"code": "08028",
-		"flavor": "\"Che sta facendo l'Hydra qui?\" -- Carol Danvers",
-		"name": "Mercenario dell'Hydra",
-		"text": "Guardia. <i>(Mentre questo gregario è impegnato con te, non puoi attaccare il criminale.)</i>",
-		"traits": "Hydra."
-	},
-	{
-		"code": "08029",
-		"name": "Tiro Letale",
-		"text": "<b>Quando rivelata (Alter Ego)</b>: Scarta 1 miglioria che controlli e colloca 1 minaccia sulla trama principale.\n<b>Quando rivelata (Eroe)</b>: Scarta 1 miglioria che controlli e subisci 1 danno."
-	}
+    {
+        "code": "8025",
+        "name": "Notifica di Inaffidabilità",
+        "text": "<b><i>Fai ricevere al giocatore Natasha Romanoff</i></b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n- Esaurisci Natasha Romanoff → Rimuovi dal gioco Notifica di Inaffidabilità.\n- Scarta la carta [[Preparativi]] dal costo più alto che controlli. Se non puoi farlo, questa carta ottiene Impulso. Scarta questa incombenza."
+    },
+    {
+        "attack_text": "Taskmaster riceve +1 TRA and +1 ATT per ogni miglioria che controlli.",
+        "boost_text": "Per questa attivazione, il criminale riceve +1 TRA and +1 ATT per ogni miglioria che controlli.",
+        "code": "8026",
+        "name": "Taskmaster",
+        "scheme_text": "Taskmaster riceve +1 TRA and +1 ATT per ogni miglioria che controlli.",
+        "text": "<i>(Gregario nemesi di Vedova Nera.)</i>",
+        "traits": "Elite. Hydra"
+    },
+    {
+        "code": "8027",
+        "name": "Assassino a Pagamento",
+        "text": "<b>Quando rivelata</b>: colloca 1[per_hero] minacce aggiuntive su questa carta."
+    },
+    {
+        "code": "8028",
+        "flavor": "\"Che sta facendo l'Hydra qui?\" -- Carol Danvers",
+        "name": "Mercenario dell'Hydra",
+        "text": "Guardia. <i>(Mentre questo gregario è impegnato con te, non puoi attaccare il criminale.)</i>",
+        "traits": "Hydra."
+    },
+    {
+        "code": "8029",
+        "name": "Tiro Letale",
+        "text": "<b>Quando rivelata (Alter Ego)</b>: Scarta 1 miglioria che controlli e colloca 1 minaccia sulla trama principale.\n<b>Quando rivelata (Eroe)</b>: Scarta 1 miglioria che controlli e subisci 1 danno."
+    }
 ]

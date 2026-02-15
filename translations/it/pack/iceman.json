@@ -1,134 +1,135 @@
 [
-	{
-		"code": "46001a",
-		"flavor": "\"Here comes the coolest hero on the team!\"",
-		"name": "Iceman",
-		"text": "<i>\"Freeze!\"</i> — <b>Interrupt</b>: When Iceman makes a basic attack or defense against an enemy, attach a set-aside copy of Frostbite to that enemy.",
-		"traits": "Ice. X-Men."
-	},
-	{
-		"code": "46001b",
-		"name": "Bobby Drake",
-		"text": "Bobby Drake begins the game with 6 Frostbite upgrades set aside.\n<i>Cool Off</i> — <b>Response</b>: After you change to this form, shuffle 1 [[Ice]] card from your discard pile into your deck for each copy of Frostbite in play.",
-		"traits": "Mutant."
-	},
-	{
-		"code": "46002",
-		"name": "Frostbite",
-		"text": "Permanent.\nAttached enemy gets -1 SCH and -1 ATK.\n<b>Forced Response</b>: After attached enemy activates or leaves play, set this card aside.",
-		"traits": "Condition. Ice."
-	},
-	{
-		"code": "46003",
-		"flavor": "\"You could say he's got an icy demeanor.\" — Iceman",
-		"name": "Snow Clone",
-		"text": "Cannot have upgrades attached.\n[star] Snow Clone takes -1 consequential damage ([cost]) after it attacks an enemy with Frostbite attached.",
-		"traits": "Ice. X-Men."
-	},
-	{
-		"code": "46004",
-		"flavor": "Beast made this high-tech belt to help Iceman better control his powers.",
-		"name": "Power Belt",
-		"text": "You get +3 hit points.\n<b>Hero Resource</b>: Exhaust Power Belt → generate a [wild] resource for an [[Ice]] card.",
-		"traits": "Item. Tech."
-	},
-	{
-		"code": "46005",
-		"flavor": "\"Anyone remember when I used to throw snowballs at Magneto?\" —Iceman",
-		"name": "Cryokinetic Perception",
-		"text": "<b>Hero Response</b>: After you resolve your <i>\"Freeze!\"</i> ability, exhaust this card → draw 1 card. If that card has an [[Ice]] trait, ready Iceman.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "46006",
-		"name": "Ice Slide",
-		"text": "Iceman gets +1 THW, +1 ATK, and +1 DEF, and gains the [[Aerial]] trait.\n<b>Forced Response</b>: After you change to alter-ego form, shuffle this card into your deck.",
-		"traits": "Ice. Superpower."
-	},
-	{
-		"code": "46007",
-		"name": "Frozen Solid",
-		"text": "Hero form only. Attach to an enemy. Max 1 per enemy.\n<b>Forced Interrupt</b>: When attached enemy would activate, discard Frozen Solid instead. Then, attach a set-aside copy of Frostbite to that enemy.",
-		"traits": "Condition. Ice."
-	},
-	{
-		"code": "46008",
-		"name": "Ice Wall",
-		"text": "<b>Forced Interrupt</b>: When an identity would take any amount of damage from an enemy attack, place that damage here instead. Then, if there is at least 8 damage here, discard this card and attach a set-aside copy of Frostbite to the enemy that just attacked.",
-		"traits": "Ice."
-	},
-	{
-		"code": "46009",
-		"name": "Arctic Attack",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Choose:\n• Deal 4 damage to an enemy and attach a set-aside copy of Frostbite to it.\n• Deal 6 damage to an enemy with Frostbite attached.",
-		"traits": "Attack. Ice. Superpower."
-	},
-	{
-		"code": "46010",
-		"flavor": "\"Time to put these guys on ice.\" —Iceman",
-		"name": "Ice Blast",
-		"text": "<b>Hero Action</b>: Choose a player. Attach a set-aside copy of Frostbite to the villain and each minion engaged with that player. Deal 3 damage to each enemy with a copy of Frostbite attached.",
-		"traits": "Ice. Superpower."
-	},
-	{
-		"code": "46011",
-		"flavor": "\"Seriously, dude. I'm all out of ice puns.\" —Iceman",
-		"name": "Chill Out!",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. Attach a set-aside copy of Frostbite to an enemy.",
-		"traits": "Ice. Superpower. Thwart."
-	},
-	{
-		"code": "46012",
-		"flavor": "The only thing scarier than a ravenous teenager is one who can turn into a shark.",
-		"name": "Shark-Girl",
-		"subname": "Iara Dos Santos",
-		"text": "[star] While Shark-Girl is attacking an enemy, she gets +1 ATK for each upgrade attached to that enemy.",
-		"traits": "X-Men."
-	},
-	{
-		"code": "46013",
-		"name": "Glob",
-		"subname": "Robert Herman",
-		"text": "Play only if your identity has the [[X-Men]] trait.\n<b>Response</b>: After Glob enters play, deal 2 damage to an enemy with an upgrade attached.",
-		"traits": "X-Men."
-	},
-	{
-		"code": "46014",
-		"name": "Suppressing Fire",
-		"text": "Attach to a minion. Max 1 per minion.\n<b>Hero Interrupt</b>: When you attack and defeat attached minion, heal 2 damage from your hero.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "46015",
-		"name": "Surprise Move",
-		"text": "<b>Hero Interrupt</b>: When you make a basic attack against an enemy with an upgrade attached, you get +2 ATK for this attack. If this attack defeats that enemy, ready your hero.",
-		"traits": "Tactic."
-	},
-	{
-		"code": "46016",
-		"flavor": "\"And don't come back!\" —Magik",
-		"name": "Take That!",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 7 damage to an enemy with an upgrade attached.",
-		"traits": "Attack."
-	},
-	{
-		"code": "46018",
-		"name": "Keep Up the Pressure",
-		"text": "Victory 0.\n<b>When Defeated</b>: Each player may search their deck and discard pile for an [[Attack]] event and add it to their hand. <i>(Shuffle.)</i> Until the end of the phase, each [[Attack]] event deals 1 additional damage."
-	},
-	{
-		"code": "46019",
-		"name": "Shadowcat",
-		"subname": "Kitty Pryde",
-		"text": "Play only if your identity has the [[X-Men]] trait.\n<b>Response</b>: After you play Shadowcat from your hand, choose a side scheme in play → that scheme loses each [acceleration], [amplify], [crisis], and [hazard] icon until the end of the round.",
-		"traits": "X-Men."
-	},
-	{
-		"code": "46020",
-		"flavor": "\"I'm not really strong and I don't shoot death-rays, but I am good at making friends.\"",
-		"name": "Beak",
-		"subname": "Barnell Bohusk",
-		"text": "<b>Response</b>: After you play Beak from your hand, remove 1 threat from a scheme for each [[X-Men]] ally you control.",
-		"traits": "X-Men."
-	}
+    {
+        "code": "46001a",
+        "flavor": "\"Ecco che arriva l'eroe più... frigo della squadra!\"",
+        "name": "Uomo Ghiaccio",
+        "text": "<i>\"Freddato!\"</i> — <b>Interruzione</b>: Quando Uomo Ghiaccio effettua un attacco o una difesa base contro un nemico, assegna 1 Assiderato messo da parte a quel nemico.",
+        "traits": "Ghiaccio. X-Men."
+    },
+    {
+        "code": "46001b",
+        "name": "Bobby Drake",
+        "text": "Bobby Drake inizia la partita con 6 migliorie Assiderato messe da parte.\n<i>Refrigerio</i> — <b>Risposta</b>: Dopo che hai assunto questa sembianza, mescola nel tuo mazzo 1 carta [[GHIACCIO]] dalla tua pila degli scarti per ogni Assiderato in gioco.",
+        "traits": "Mutante."
+    },
+    {
+        "code": "46002",
+        "name": "Assiderato",
+        "text": "Permanente.\nIl nemico con questa miglioria riceve -1 TRA e -1 ATT.\n<b>Risposta Obbligata</b>: Dopo che il nemico con questa miglioria si è attivato o è uscito dal gioco, metti da parte questa carta.",
+        "traits": "Condizione. Ghiaccio."
+    },
+    {
+        "code": "46003",
+        "flavor": "\"C'è chi dice abbia un carattere gelido.\" — Uomo Ghiaccio",
+        "name": "Clone di Neve",
+        "text": "A Clone di Neve non possono essere assegnate migliorie.\n[star] Dopo che ha attaccato un nemico con Assiderato, Clone di Neve subisce -1 danno conseguente ([cost]).",
+        "traits": "Ghiaccio. X-Men."
+    },
+    {
+        "code": "46004",
+        "flavor": "Bestia ha progettato questa cintura all'avanguardia per aiutare l'Uomo Ghiaccio a controllare i suoi poteri",
+        "name": "Cintura Inibitrice",
+        "text": "Ricevi +3 punti ferita.\n<b>Risorsa Eroe</b>: Esaurisci Cintura Inibitrice → genera [wild] per una carta [[GHIACCIO]].",
+        "traits": "Oggetto. Tecnologia."
+    },
+    {
+        "code": "46005",
+        "flavor": "\"Nessuno si ricorda di quando lanciavo palle di neve a Magneto?\" — Uomo Ghiaccio",
+        "name": "Percezione Criocinetica",
+        "text": "<b>Risposta Eroe</b>: Dopo che hai risolto la tua capacità <i>\"Freddato!\"</i>, esaurisci questa carta → pesca 1 carta. Se quella carta possiede il tratto [[GHIACCIO]], ripristina Uomo Ghiaccio.",
+        "traits": "Superpotere."
+    },
+    {
+        "code": "46006",
+        "name": "Scivolo di Ghiaccio",
+        "text": "Uomo Ghiaccio riceve +1 INT, +1 ATT, and +1 DIF, e ottiene il tratto [[AEREO]].\n<b>Risposta Obbligata</b>: Dopo che hai assunto la sembianza di alter ego, mescola questa carta nel tuo mazzo.",
+        "traits": "Ghiaccio. Superpotere."
+    },
+    {
+        "code": "46007",
+        "name": "Ibernato",
+        "text": "Solo sembianza di eroe. Assegna a un nemico. Massimo 1 per nemico.\n<b>Interruzione Obbligata</b>: Quando il nemico con questa miglioria sta per attivarsi, scarta invece Ibernato. Poi, assegna 1 Assiderato messo da parte a quel nemico.",
+        "traits": "Condizione. Ghiaccio."
+    },
+    {
+        "code": "46008",
+        "name": "Muro di Ghiaccio",
+        "text": "<b>Interruzione Obbligata</b>: Quando un'identità sta per subire un qualsiasi ammontare di danni da un attacco nemico, colloca invece quei danni su questa carta. Poi, se ci sono 8 o più danni su questa carta, scartala e assegna 1 Assiderato messo da parte al nemico che ha appena attaccato.",
+        "traits": "Ghiaccio."
+    },
+    {
+        "code": "46009",
+        "name": "Attacco Artico",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Scegli 1 effetto tra:\n• Infliggi 4 danni a un nemico e assegnagli 1 Assiderato messo da parte.\n• Infliggi 6 danni a un nemico con Assiderato.",
+        "traits": "Attacco. Ghiaccio. Superpotere."
+    },
+    {
+        "code": "46010",
+        "flavor": "\"È tempo di mettere questi tizi al fresco.\" — Uomo Ghiaccio",
+        "name": "Scarica Ghiacciata",
+        "text": "<b>Azione Eroe</b>: Scegli 1 giocatore. Assegna 1 Assiderato messo da parte al criminale e a ogni gregario impegnato con quel giocatore. Infliggi 3 danni a ogni nemico con Assiderato.",
+        "traits": "Ghiaccio. Superpotere."
+    },
+    {
+        "code": "46011",
+        "flavor": "\"Sul serio amico, ho finito le freddure\" — Uomo Ghiaccio",
+        "name": "\"Non Scaldarti Troppo\"",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 3 minacce da una trama. Assegna 1 Assiderato messo da parte a un nemico.",
+        "traits": "Ghiaccio. Intervento. Superpotere."
+    },
+    {
+        "code": "46012",
+        "flavor": "L'unica cosa più spaventosa di un'adolescente vorace è un'adolescente vorace che può trasformarsi in uno squalo.",
+        "name": "Shark-Girl",
+        "subname": "Iara Dos Santos",
+        "text": "[star] Mentre Shark-Girl sta attaccando un nemico, riceve +1 ATT per ogni miglioria assegnata a quel nemico.",
+        "traits": "X-Men."
+    },
+    {
+        "code": "46013",
+        "name": "Glob",
+        "subname": "Robert Herman",
+        "text": "Gioca solo se la tua identità possiede il tratto [[X-MEN]].\n<b>Risposta</b>: Dopo che Glob è entrato in gioco, infliggi 2 danni a un nemico con una miglioria assegnata.",
+        "traits": "X-Men."
+    },
+    {
+        "code": "46014",
+        "name": "Fuoco di Soppressione",
+        "text": "Assegna a un gregario. Massimo 1 per gregario.\n<b>Interruzione Eroe</b>: Quando attacchi e sconfiggi il gregario con questa miglioria, cura 2 danni al tuo eroe.",
+        "traits": "Tattica."
+    },
+    {
+        "code": "46015",
+        "name": "Mossa a Sorpresa",
+        "text": "<b>Interruzione Eroe</b>: Quando effettui un attacco base contro un nemico con una miglioria, ricevi +2 ATT per questo attacco. Se questo attacco sconfigge quel nemico, ripristina il tuo eroe.",
+        "traits": "Tattica."
+    },
+    {
+        "code": "46016",
+        "flavor": "\"E non farti più vedere!\" — Magik",
+        "name": "Prendi Questo!",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 7 danni a un nemico con una miglioria.",
+        "traits": "Attacco."
+    },
+    {
+        "code": "46018",
+        "name": "Tenere Alta la Pressione",
+        "text": "Vittoria 0.\n<b>Quando Sconfitta</b>: Ogni giocatore può cercare nel suo mazzo e nella sua pila degli scarti 1 evento [[ATTACCO]] e aggiungerlo alla sua mano. <i>(Mescola.)</i> Fino alla fine della fase, ogni evento [[ATTACCO]] infligge 1 danno aggiuntivo.",
+        "traits": "Intervento."
+    },
+    {
+        "code": "46019",
+        "name": "Shadowcat",
+        "subname": "Kitty Pryde",
+        "text": "Gioca solo se la tua identità possiede il tratto [[X-MEN]].\n<b>Risposta</b>: Dopo che hai giocato Shadowcat dalla tua mano, scegli una trama secondaria in gioco → quella trama perde ogni icona [acceleration], [amplify], [crisis], e [hazard] fino alla fine del round.",
+        "traits": "X-Men."
+    },
+    {
+        "code": "46020",
+        "flavor": "\"Non sono poi cosi forte e non sparo reggi della morte, ma sono bravo a farmi nuovi amici.\"",
+        "name": "Becco",
+        "subname": "Barnell Bohusk",
+        "text": "<b>Risposta</b>: Dopo che hai giocato Becco dalla tua mano, rimuovi 1 minaccia da una trama per ogni alleato [[X-MEN]] che controlli.",
+        "traits": "X-Men."
+    }
 ]
