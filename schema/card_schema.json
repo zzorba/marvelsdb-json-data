@@ -83,6 +83,14 @@
 						"minimum": 1,
 						"type": "integer"
 					},
+					"resource": {
+						"items": {
+							"minlength": 1,
+							"type": "string"
+						},
+						"minItems": 1,
+						"type": "array"
+					},
 					"trait": {
 						"items": {
 							"minlength": 1,
