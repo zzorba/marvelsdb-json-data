@@ -69,16 +69,16 @@
     },
     {
         "code": "59011",
-        "flavor": "\"Zounds! Is that you, oh sister of mine?\" \u2014Hércules",
-        "name": "Wisdom of Athena",
-        "text": "El coste para jugar esta carta se reduce en 1 por cada carta de [[Don]] que controles.\n<b>Acción de Héroe</b> <i>(thwart)</i>: Remove 4 de Amenaza from a scheme.",
-        "traits": "Thwart."
+        "flavor": "\"'¡Diantre! ¿Eres tú, hermana mia?\" \u2014Hércules",
+        "name": "Sabiduría de Atenea",
+        "text": "El coste para jugar esta carta se reduce en 1 por cada carta de [[Don]] que controles.\n<b>Acción de Héroe</b> <i>(intervención)</i>: quita 4 de Amenaza de un Plan.",
+        "traits": "Intervención."
     },
     {
         "code": "59012",
-        "flavor": "Although Olimpo's influence may have waned since the Hellenistic period, the celebrating has not.",
+        "flavor": "Aunque el influjo del Olimpo haya mermado desde el periodo helenístico, la intensidad de sus bacanales no ha decaído en lo más mínimo.",
         "name": "Olimpo",
-        "text": "<b>Resource</b>: agota a Olimpo \u2192 generate a [wild] resource por cada carta de [[Don]] que controles.",
+        "text": "<b>Recurso</b>: agota el Olimpo \u2192 genera un recurso [wild] por cada carta de [[Don]] que controles.",
         "traits": "Lugar. Olimpo."
     },
     {
@@ -89,8 +89,8 @@
     },
     {
         "code": "59014",
-        "name": "Golden Mace",
-        "text": "Restringida.\n<b>Interrupción de Héroe</b>: cuando Hércules realice un ataque básico, agota Golden Mace \u2192 Hércules recibe +1 ATQ para este ataque por cada carta de [[Don]] que controles. This ataque gana Brutalidad.",
+        "name": "Maza dorada",
+        "text": "Restringida.\n<b>Interrupción de Héroe</b>: cuando Hércules realice un ataque básico, agota la Maza dorada \u2192 Hércules recibe +1 ATQ para este ataque por cada carta de [[Don]] que controles. Este ataque gana Brutalidad.",
         "traits": "Olimpo. Arma."
     },
     {
@@ -103,15 +103,15 @@
     {
         "code": "59016",
         "flavor": "Igual que los poderosos leones nativos de la antigua Grecia, Hércules está dotado de una ferocidad increible.",
-        "name": "Lion of Olimpo",
+        "name": "León del Olimpo",
         "text": "Temporal. <i>(Descarta esta carta al final de la ronda.)</i>\nTu Héroe recibe +1 INT, +1 ATQ, y +1 DEF.",
         "traits": "Olimpo."
     },
     {
         "code": "59017",
-        "name": "Prince of Power",
-        "text": "<b>Respuesta de Héroe</b>: después de que Hércules ataca y defeats an enemy, agota Prince of Power \u2192 heal 1 de Daño from Hércules por cada point of excess de Daño dealt to that enemy by that ataque.",
-        "traits": "Olimpo. Title."
+        "name": "Príncipe del Poder",
+        "text": "<b>Respuesta de Héroe</b>: después de que Hércules ataque y derrote a un enemigo, agota Príncipe del Poder \u2192 cura 1 de Daño a Hércules por cada punto de Daño sobrante infligido a ese enemigo mediante ese ataque.",
+        "traits": "Olimpo. Título."
     },
     {
         "code": "59018",
@@ -122,11 +122,11 @@
     },
     {
         "code": "59019",
-        "flavor": "\"I've heard she can beat Captain Marvel in an arm wrestling contest.\" \u2014Gorilla-Man",
+        "flavor": "\"Dicen que puede ganar en un pulso a la Capitana Marvel.\" \u2014Hombre Gorila",
         "name": "Namora",
         "subname": "Aquaria Neptunia",
-        "text": "[star] Namora recibe +1 de Vida por cada other Aliado que controles.",
-        "traits": "Agent of Atlas. Atlantis."
+        "text": "[star] Namora recibe +1 de Vida por cada Aliado que controles además de ella.",
+        "traits": "Agente de Atlas. Atlantis."
     },
     {
         "code": "59020",
@@ -152,8 +152,8 @@
     },
     {
         "code": "59023",
-        "name": "Recruitment Drive",
-        "text": "Alter ego only.\n<b>Acción</b>: Discard Recruitment Drive y elige a jugador \u2192 reduce the resource cost of the next Aliado that jugador plays this phase to 0."
+        "name": "Campaña de reclutamiento",
+        "text": "Solo identidad de Alter ego.\n<b>Acción</b>: descarta Campaña de reclutamiento y elige un jugador \u2192 reduce a 0 el coste en recursos del próximo Aliado que juegue ese jugador en esta fase."
     },
     {
         "code": "59024",
@@ -163,9 +163,9 @@
     },
     {
         "code": "59025",
-        "flavor": "Having lived por around a million years, even Gilgamesh had once forgotten who he was.",
+        "flavor": "Habiendo vivido alrededor de un millón de años, incluso Gilgamesh olvidó una vez quién era.",
         "name": "Gilgamesh",
-        "text": "As an additional cost to play esta carta, si you do not have the [[Eternal]] trait, confuse a tu Superhéroe.",
+        "text": "Como coste adicional para jugar esta carta, si no tienes el rasgo [[Eterno]], confunde a tu Superhéroe.",
         "traits": "Eternal."
     },
     {
@@ -177,15 +177,15 @@
     {
         "code": "59027",
         "duplicate_of": "31023",
-        "flavor": "\"What, you think this fight is almost over?! That was just warm-up practice.\" \u2014Thor",
+        "flavor": "\"¿Qué pasa, te crees que la pelea se ha acabado? Eso sólo ha sido el calentamiento.\" \u2014Thor",
         "pack_code": "hercules",
         "position": 27,
         "quantity": 3
     },
     {
         "code": "59028",
-        "name": "Evaluate Threat",
-        "text": "Victoria 0.\nJuega esta carta sólo si tu Superhéroe tiene el rasgo [[Vengador]] o [[S.H.I.E.L.D.]].\n<b>Cuando se derrote esta carta</b>: cada jugador may search their deck y descarta pile por an [[Vengador]] o [[S.H.I.E.L.D.]] carta y add it to their hand. <i>(Shuffle.)</i> Reduce the cost to play cada of those cartas by 2 until the end of the phase."
+        "name": "Evaluación de amenazas",
+        "text": "Victoria 0.\nJuega esta carta sólo si tu Superhéroe tiene el rasgo [[Vengador]] o [[S.H.I.E.L.D.]].\n<b>Cuando se derrote esta carta</b>: cada jugador puede buscar una carta [[Vengador]] o [[S.H.I.E.L.D.]] en su mazo y su pila de descartes y añadirla a su mano. <i>(Baraja el mazo.)</i> El coste para jugar cada una de esas cartas se reduce en 2 hasta el final de la fase."
     },
     {
         "code": "59029",
