@@ -1,159 +1,159 @@
 [
-	{
-		"code": "54001a",
-		"flavor": "\"The Red Room trained me to do terrible things. I use those skills to safeguard others now.\"",
-		"name": "Winter Soldier",
-		"text": "<i>Lethal Protector</i> — <b>Response</b>: After you attack and defeat an enemy, remove 2 threat from a scheme.",
-		"traits": "S.H.I.E.L.D. Soldier."
-	},
-	{
-		"code": "54001b",
-		"flavor": "\"Not bad for a ninety-nine-year-old veteran.\"",
-		"name": "Bucky Barnes",
-		"text": "<i>Cybernetically Enhanced</i> — <b>Action</b>: Spend 1 resource of any type → search your deck and discard pile for Cybernetic Arm and put it into play. <i>(Shuffle.)</i>",
-		"traits": "S.H.I.E.L.D. Soldier."
-	},
-	{
-		"code": "54002",
-		"flavor": "\"Bucky was a skilled fighter before the arm. With it, he's downright scary.\" —Steve Rogers",
-		"name": "Cybernetic Arm",
-		"text": "<b>Resource</b>: Exhaust Cybernetic Arm → generate a [wild] resource for an [[Attack]] event. That event deals 1 additional damage.",
-		"traits": "Item. Tech."
-	},
-	{
-		"code": "54003",
-		"name": "Black Widow",
-		"subname": "Natasha Romanoff",
-		"text": "<b>Response</b>: After you play Black Widow from your hand, return an [[Attack]] event from your discard pile to your hand.",
-		"traits": "S.H.I.E.L.D. Spy."
-	},
-	{
-		"code": "54004",
-		"name": "Arm Block",
-		"text": "<b>Hero Interrupt</b> <i>(attack/defense)</i>: When an enemy attacks, deal 3 damage to it. If you exhausted Cybernetic Arm to pay for this event, prevent all damage from that enemy's attack.",
-		"traits": "Attack. Defense."
-	},
-	{
-		"code": "54005",
-		"name": "Metal Punch",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 7 damage to en enemy. If you exhausted Cybernetic Arm to pay for this event, this attack gains overkill.",
-		"traits": "Attack."
-	},
-	{
-		"code": "54006",
-		"flavor": "\"They'd be just as shocked if you showed them your high school photo.\" —Black Widow",
-		"name": "Electrical Discharge",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. If you paid for this event using a [energy] resource, stun that enemy.",
-		"traits": "Attack."
-	},
-	{
-		"code": "54007",
-		"flavor": "\"You'll never guess who moved in next door.\" —Bucky Barnes",
-		"name": "Safe House #30",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Safe House #30 → search the encounter deck for a minion and put it into play engaged with you. <i>(Shuffle.)</i> Then, draw 1 card.",
-		"traits": "Location. S.H.I.E.L.D."
-	},
-	{
-		"code": "54008",
-		"flavor": "\"They'll never know what hit 'em.\" —Winter Soldier",
-		"name": "Silent Infiltration",
-		"text": "<b>Hero Response</b>: After you attack and defeat an enemy, discard this card → ready your hero and confuse an enemy.",
-		"traits": "Preparation."
-	},
-	{
-		"code": "54009",
-		"flavor": "\"The arm may be bulletproof, but the rest of me is still flesh and blood.\" —Winter Soldier",
-		"name": "Winter Armor",
-		"text": "You get +3 hit points and gain steady.",
-		"traits": "Armor."
-	},
-	{
-		"code": "54010",
-		"name": "Winter Mask",
-		"text": "You gain the [[Spy]] trait.\n<b>Hero Response</b>: After you attack and defeat an enemy, exhaust Winter Mask → draw 1 card.",
-		"traits": "Item. Tech."
-	},
-	{
-		"code": "54011",
-		"name": "Winter Rifle",
-		"text": "Restricted.\n<b>Hero Interrupt</b>: When Winter Soldier makes a basic attack, exhaust Winter Rifle → Winter Soldier gets +2 ATK for this attack. This attack gains piercing and ranged.",
-		"traits": "Weapon."
-	},
-	{
-		"code": "54012",
-		"flavor": "\"On your feet, soldier!\"",
-		"name": "Captain America",
-		"subname": "Steve Rogers",
-		"text": "Toughness.\n<b>Response</b>: After Captain America enters play, ready a [[S.H.I.E.L.D.]] character.",
-		"traits": "S.H.I.E.L.D. Soldier."
-	},
-	{
-		"code": "54013",
-		"flavor": "\"My body is infused with high-tech, mind-controlled weaponry.\"",
-		"name": "Deathlok",
-		"subname": "Henry Hayes",
-		"text": "<b>Response</b>: After Deathlok enters play, search your deck and discard pile for a copy of S.H.I.E.L.D. Sidearm and attach it to him. <i>(Shuffle.)</i>",
-		"traits": "Cyborg. S.H.I.E.L.D."
-	},
-	{
-		"code": "54014",
-		"name": "Firepower",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust up to 3 [[Weapon]] upgrades you control → for each weapon upgrade exhausted this way, choose an enemy and deal 3 damage to it. This attack gains ranged.",
-		"traits": "Attack."
-	},
-	{
-		"code": "54016",
-		"name": "Spoiling for a Fight",
-		"text": "<b>Hero Action</b>: Discard cards from the top of the encounter deck until you discard a minion. Put that minion into play engaged with you → ready your hero."
-	},
-	{
-		"code": "54017",
-		"name": "Aggressive Stance",
-		"text": "Max 1 per player.\n<b>Hero Response</b>: After you engage a minion, discard this card → search your deck for an [[Attack]] event and add it to your hand. <i>(Shuffle.)</i>",
-		"traits": "Preparation."
-	},
-	{
-		"code": "54018",
-		"name": "Bambino",
-		"text": "Attach to a [[S.H.I.E.L.D.]] character. While attached to an identity, this card gains restricted. Uses (3 ammo counters).\n<b>Interrupt</b>: When attached character makes a basic attack, remove 1 ammo counter from here → this attack deals 3 additional damage and gains overkill.",
-		"traits": "Tech. Weapon."
-	},
-	{
-		"code": "54019",
-		"name": "Man on the Wall",
-		"text": "Play only if your identity has the [[Soldier]] trait.\n<b>Hero Action</b>: Exhaust Man on the Wall → reduce the cost of the next card you play this phase by 1 for each minion engaged with you.",
-		"traits": "Title."
-	},
-	{
-		"code": "54020",
-		"name": "S.H.I.E.L.D. Sidearm",
-		"text": "Attach to a [[S.H.I.E.L.D.]] character. Limit 1 per character. Uses (3 ammo counters).\n<b>Interrupt</b>: When attached character makes a basic attack, exhaust S.H.I.E.L.D. Sidearm and remove 1 ammo counter from it → deal 1 damage to an enemy.",
-		"traits": "Weapon."
-	},
-	{
-		"code": "54022",
-		"name": "Super-Soldiers",
-		"text": "Team-Up (Captain America and Winter Soldier). Max 1 per deck.\n<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. Give Captain America and Winter Soldier each a tough status card.",
-		"traits": "Attack."
-	},
-	{
-		"code": "54023",
-		"name": "Winter, Widow, Soldier, Spy",
-		"text": "Team-Up (Black Widow and Winter Soldier). Max 1 per deck.\n<b>Hero Action</b> <i>(attack)</i>: Put a [[Preparation]] upgrade from your discard pile into play. Deal 4 damage to an enemy.",
-		"traits": "Attack."
-	},
-	{
-		"code": "54032",
-		"flavor": "\"Surprise.\"",
-		"name": "White Widow",
-		"subname": "Yelena Belova",
-		"text": "<b>Response</b>: After you resolve the ability of a [[Preparation]] card you control, heal damage from White Widow equal to that card's printed resource cost.",
-		"traits": "S.H.I.E.L.D. Spy."
-	},
-	{
-		"code": "54033",
-		"name": "S.H.I.E.L.D. Deputy",
-		"text": "Play only if your identity has the [[S.H.I.E.L.D.]] trait.\nAttach to a friendly character.\nAttached character gets +1 hit point and gains the [[S.H.I.E.L.D.]] trait.",
-		"traits": "Title."
-	}
+    {
+        "code": "54001a",
+        "flavor": "\"The Red Room trained me to do terrible things. I use those skills to safeguard others now.\"",
+        "name": "Winter Soldier",
+        "text": "<i>Lethal Protector</i> — <b>Response</b>: After you attack and defeat an enemy, remove 2 threat from a scheme.",
+        "traits": "S.H.I.E.L.D. Soldier."
+    },
+    {
+        "code": "54001b",
+        "flavor": "\"Not bad for a ninety-nine-year-old veteran.\"",
+        "name": "Bucky Barnes",
+        "text": "<i>Cybernetically Enhanced</i> — <b>Action</b>: Spend 1 resource of any type → search your deck and discard pile for Cybernetic Arm and put it into play. <i>(Shuffle.)</i>",
+        "traits": "S.H.I.E.L.D. Soldier."
+    },
+    {
+        "code": "54002",
+        "flavor": "\"Bucky was a skilled fighter before the arm. With it, he's downright scary.\" —Steve Rogers",
+        "name": "Cybernetic Arm",
+        "text": "<b>Resource</b>: Exhaust Cybernetic Arm → generate a [wild] resource for an [[Attack]] event. That event deals 1 additional damage.",
+        "traits": "Item. Tech."
+    },
+    {
+        "code": "54003",
+        "name": "Black Widow",
+        "subname": "Natasha Romanoff",
+        "text": "<b>Response</b>: After you play Black Widow from your hand, return an [[Attack]] event from your discard pile to your hand.",
+        "traits": "S.H.I.E.L.D. Spy."
+    },
+    {
+        "code": "54004",
+        "name": "Arm Block",
+        "text": "<b>Hero Interrupt</b> <i>(attack/defense)</i>: When an enemy attacks, deal 3 damage to it. If you exhausted Cybernetic Arm to pay for this event, prevent all damage from that enemy's attack.",
+        "traits": "Attack. Defense."
+    },
+    {
+        "code": "54005",
+        "name": "Metal Punch",
+        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 7 damage to en enemy. If you exhausted Cybernetic Arm to pay for this event, this attack gains overkill.",
+        "traits": "Attack."
+    },
+    {
+        "code": "54006",
+        "flavor": "\"They'd be just as shocked if you showed them your high school photo.\" —Black Widow",
+        "name": "Electrical Discharge",
+        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. If you paid for this event using a [energy] resource, stun that enemy.",
+        "traits": "Attack."
+    },
+    {
+        "code": "54007",
+        "flavor": "\"You'll never guess who moved in next door.\" —Bucky Barnes",
+        "name": "Safe House #30",
+        "text": "<b>Alter-Ego Action</b>: Exhaust Safe House #30 → search the encounter deck for a minion and put it into play engaged with you. <i>(Shuffle.)</i> Then, draw 1 card.",
+        "traits": "Location. S.H.I.E.L.D."
+    },
+    {
+        "code": "54008",
+        "flavor": "\"They'll never know what hit 'em.\" —Winter Soldier",
+        "name": "Silent Infiltration",
+        "text": "<b>Hero Response</b>: After you attack and defeat an enemy, discard this card → ready your hero and confuse an enemy.",
+        "traits": "Preparation."
+    },
+    {
+        "code": "54009",
+        "flavor": "\"The arm may be bulletproof, but the rest of me is still flesh and blood.\" —Winter Soldier",
+        "name": "Winter Armor",
+        "text": "You get +3 hit points and gain steady.",
+        "traits": "Armor."
+    },
+    {
+        "code": "54010",
+        "name": "Winter Mask",
+        "text": "You gain the [[Spy]] trait.\n<b>Hero Response</b>: After you attack and defeat an enemy, exhaust Winter Mask → draw 1 card.",
+        "traits": "Item. Tech."
+    },
+    {
+        "code": "54011",
+        "name": "Winter Rifle",
+        "text": "Restricted.\n<b>Hero Interrupt</b>: When Winter Soldier makes a basic attack, exhaust Winter Rifle → Winter Soldier gets +2 ATK for this attack. This attack gains piercing and ranged.",
+        "traits": "Weapon."
+    },
+    {
+        "code": "54012",
+        "flavor": "\"On your feet, soldier!\"",
+        "name": "Captain America",
+        "subname": "Steve Rogers",
+        "text": "Toughness.\n<b>Response</b>: After Captain America enters play, ready a [[S.H.I.E.L.D.]] character.",
+        "traits": "S.H.I.E.L.D. Soldier."
+    },
+    {
+        "code": "54013",
+        "flavor": "\"My body is infused with high-tech, mind-controlled weaponry.\"",
+        "name": "Deathlok",
+        "subname": "Henry Hayes",
+        "text": "<b>Response</b>: After Deathlok enters play, search your deck and discard pile for a copy of S.H.I.E.L.D. Sidearm and attach it to him. <i>(Shuffle.)</i>",
+        "traits": "Cyborg. S.H.I.E.L.D."
+    },
+    {
+        "code": "54014",
+        "name": "Firepower",
+        "text": "<b>Hero Action</b> <i>(attack)</i>: Exhaust up to 3 [[Weapon]] upgrades you control → for each weapon upgrade exhausted this way, choose an enemy and deal 3 damage to it. This attack gains ranged.",
+        "traits": "Attack."
+    },
+    {
+        "code": "54016",
+        "name": "Spoiling for a Fight",
+        "text": "<b>Hero Action</b>: Discard cards from the top of the encounter deck until you discard a minion. Put that minion into play engaged with you → ready your hero."
+    },
+    {
+        "code": "54017",
+        "name": "Aggressive Stance",
+        "text": "Max 1 per player.\n<b>Hero Response</b>: After you engage a minion, discard this card → search your deck for an [[Attack]] event and add it to your hand. <i>(Shuffle.)</i>",
+        "traits": "Preparation."
+    },
+    {
+        "code": "54018",
+        "name": "Bambino",
+        "text": "Attach to a [[S.H.I.E.L.D.]] character. While attached to an identity, this card gains restricted. Uses (3 ammo counters).\n<b>Interrupt</b>: When attached character makes a basic attack, remove 1 ammo counter from here → this attack deals 3 additional damage and gains overkill.",
+        "traits": "Tech. Weapon."
+    },
+    {
+        "code": "54019",
+        "name": "Man on the Wall",
+        "text": "Play only if your identity has the [[Soldier]] trait.\n<b>Hero Action</b>: Exhaust Man on the Wall → reduce the cost of the next card you play this phase by 1 for each minion engaged with you.",
+        "traits": "Title."
+    },
+    {
+        "code": "54020",
+        "name": "S.H.I.E.L.D. Sidearm",
+        "text": "Attach to a [[S.H.I.E.L.D.]] character. Limit 1 per character. Uses (3 ammo counters).\n<b>Interrupt</b>: When attached character makes a basic attack, exhaust S.H.I.E.L.D. Sidearm and remove 1 ammo counter from it → deal 1 damage to an enemy.",
+        "traits": "Weapon."
+    },
+    {
+        "code": "54022",
+        "name": "Super-Soldiers",
+        "text": "Team-Up (Captain America and Winter Soldier). Max 1 per deck.\n<b>Hero Action</b> <i>(attack)</i>: Deal 6 damage to an enemy. Give Captain America and Winter Soldier each a tough status card.",
+        "traits": "Attack."
+    },
+    {
+        "code": "54023",
+        "name": "Winter, Widow, Soldier, Spy",
+        "text": "Team-Up (Black Widow and Winter Soldier). Max 1 per deck.\n<b>Hero Action</b> <i>(attack)</i>: Put a [[Preparation]] upgrade from your discard pile into play. Deal 4 damage to an enemy.",
+        "traits": "Attack."
+    },
+    {
+        "code": "54032",
+        "flavor": "\"Surprise.\"",
+        "name": "White Widow",
+        "subname": "Yelena Belova",
+        "text": "<b>Response</b>: After you resolve the ability of a [[Preparation]] card you control, heal damage from White Widow equal to that card's printed resource cost.",
+        "traits": "S.H.I.E.L.D. Spy."
+    },
+    {
+        "code": "54033",
+        "name": "S.H.I.E.L.D. Deputy",
+        "text": "Play only if your identity has the [[S.H.I.E.L.D.]] trait.\nAttach to a friendly character.\nAttached character gets +1 hit point and gains the [[S.H.I.E.L.D.]] trait.",
+        "traits": "Title."
+    }
 ]

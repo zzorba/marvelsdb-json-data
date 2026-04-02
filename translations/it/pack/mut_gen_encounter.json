@@ -77,16 +77,23 @@
         "traits": "Confraternita dei Mutanti."
     },
     {
-        "back_text": "<b>Contenuto:</b> Sabretooth (I) e Sabretooth (II). <i>(Sabretooth (II) e Sabretooth (III) per la modalità esperto.)</i> Set di incontri Sabretooth e Standard. 2 set di incontri modulari (<i>Confraternita</i> e <i>Mystica</i>).\n<b>Preparazione:</b> Metti in gioco la trama secondaria Trovare il Senatore. Assegnale l'alleato Robert Kelly. Mentre è assegnato a Trovare il Senatore, Robert Kelly è in gioco ma non è sotto il controllo di alcun giocatore.",
-        "code": "32063",
+        "code": "32063a",
+        "name": "La Preda di Sabretooth ",
+        "text": "<b>Contenuto:</b> Sabretooth (I) e Sabretooth (II). <i>(Sabretooth (II) e Sabretooth (III) per la modalità esperto.)</i> Set di incontri Sabretooth e Standard. 2 set di incontri modulari (<i>Confraternita</i> e <i>Mystica</i>).\n<b>Preparazione:</b> Metti in gioco la trama secondaria Trovare il Senatore. Assegnale l'alleato Robert Kelly. Mentre è assegnato a Trovare il Senatore, Robert Kelly è in gioco ma non è sotto il controllo di alcun giocatore."
+    },
+    {
+        "code": "32063b",
         "name": "La Preda di Sabretooth ",
         "text": "<b>[star] Risposta Obbligata:</b> Dopo aver risolto il passo 1 della Fase del Criminale, infliggi 2 danni a Robert Kelly (3 danni se invece ci sono 6[per_hero] o più minacce su questa carta).\nMentre Robert Kelly è assegnato a Trovare il Senatore, considera il suo riquadro di testo come se fosse vuoto.\n<b>Se Robert Kelly esce dal gioco, i giocatori perdono la partita.</b>"
     },
     {
-        "back_flavor": "<i>Sabretooth ha ferito il Senatore Kelly, e sembra del tutto intenzionato a continuare la sua caccia!</i>",
-        "back_text": "<b>Quando Rivelata</b>: Distribuisci 1 carta incontro a faccia in giù a ogni giocatore.",
-        "code": "32064",
+        "code": "32064a",
         "flavor": "<i>Portate Robert Kelly al sicuro prima che Sabretooth possa finire il lavoro.</i>",
+        "name": "Il Senatore Ferito ",
+        "text": "<b>Quando Rivelata</b>: Distribuisci 1 carta incontro a faccia in giù a ogni giocatore."
+    },
+    {
+        "code": "32064b",
         "name": "Il Senatore Ferito ",
         "text": "<b>Quando Completata</b>: Sconfiggi Robert Kelly.\n<b>Se Robert Kelly esce dal gioco, i giocatori perdono la partita.</b>"
     },
@@ -228,8 +235,12 @@
         "traits": "Sentinella."
     },
     {
-        "back_text": "<b>Contenuto:</b> Sentinella (I) e Sentinella (II). <i>(Sentinella (II) e Sentinella (III) per la modalità esperto.)</i> Set di incontri Progetto Risveglio, Tolleranza Zero e Standard. 1 set di incontri modulare (<i>Sentinelle</i>).\n<b>Preparazione:</b> Metti da parte ogni alleato [[PRIGIONIERO]]. Rivela le trame secondarie Operanzione Tolleranza Zero e Mutanti al Centro Commerciale.",
-        "code": "32087",
+        "code": "32087a",
+        "name": "La Notte delle Sentinelle",
+        "text": "<b>Contenuto:</b> Sentinella (I) e Sentinella (II). <i>(Sentinella (II) e Sentinella (III) per la modalità esperto.)</i> Set di incontri Progetto Risveglio, Tolleranza Zero e Standard. 1 set di incontri modulare (<i>Sentinelle</i>).\n<b>Preparazione:</b> Metti da parte ogni alleato [[PRIGIONIERO]]. Rivela le trame secondarie Operanzione Tolleranza Zero e Mutanti al Centro Commerciale."
+    },
+    {
+        "code": "32087b",
         "name": "La Notte delle Sentinelle",
         "text": "Operazione Tolleranza Zero ottiene Permanente.\n<b>Risposta Obbligata</b>: Dopo che 1 o più minacce sono state collocate su questa trama, se ci sono 5[per_hero] o più minacce su questa trama, il primo giocatore colloca 1 carta dalla cima del suo mazzo a faccia in giù sotto Operazione Tolleranza Zero. Poi rimuovi 5[per_hero] minacce da questa trama."
     },
@@ -386,15 +397,23 @@
         "traits": "Sentinella."
     },
     {
-        "back_text": "<b>Contenuto:</b> Master Mold (I) e Master Mold (II). <i>(Master Mold (II) e Master Mold (III) per la modalità esperto.)</i> Set di incontri Master Mold, Sentinelle e Standard. 1 set di incontri modulare (<i>Tolleranza Zero</i>).\n<b>Preparazione:</b> Metti in gioco l'alleato Magneto (172B) sotto il controllo del primo giocatore.",
-        "code": "32112",
+        "code": "32112a",
+        "name": "La Fabbrica delle Sentinelle",
+        "text": "<b>Contenuto:</b> Master Mold (I) e Master Mold (II). <i>(Master Mold (II) e Master Mold (III) per la modalità esperto.)</i> Set di incontri Master Mold, Sentinelle e Standard. 1 set di incontri modulare (<i>Tolleranza Zero</i>).\n<b>Preparazione:</b> Metti in gioco l'alleato Magneto (172B) sotto il controllo del primo giocatore."
+    },
+    {
+        "code": "32112b",
         "name": "La Fabbrica delle Sentinelle",
         "text": "Ogni gregario [[SENTINELLA]] ottiene Guardia.\n<b>Quando Rivelata</b>: Ogni giocatore scarta carte dalla cima del mazzo degli incontri finché non scarta 1 gregario [[SENTINELLA]], poi lo mette in gioco impegnato con lui."
     },
     {
-        "back_text": "<b>Quando Rivelata</b>: Mescola la pila degli scarti degli incontri nel mazzo degli incontri. Ogni giocatore scarta carte dalla cima del mazzo degli incontri finché non scarta 1 gregario [[SENTINELLA]], poi lo mette in gioco impegnato con lui.",
-        "code": "32113",
+        "code": "32113a",
         "flavor": "<i>L'I.A. di Master Mold si è ritorta contro i suoi creatori! Riconoscendo che i mutanti discendono dagli umani, l'enorme Sentinella sta programmando i suoi \"figli\" affinché sottomettano ogni abitante della Terra!</i>",
+        "name": "Il Piano di Master Mold",
+        "text": "<b>Quando Rivelata</b>: Mescola la pila degli scarti degli incontri nel mazzo degli incontri. Ogni giocatore scarta carte dalla cima del mazzo degli incontri finché non scarta 1 gregario [[SENTINELLA]], poi lo mette in gioco impegnato con lui."
+    },
+    {
+        "code": "32113b",
         "name": "Il Piano di Master Mold",
         "text": "Ogni gregario [[SENTINELLA]] ottiene Guardia.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
     },
@@ -493,37 +512,57 @@
         "traits": "Confraternita dei Mutanti."
     },
     {
-        "back_text": "<b>Contenuto:</b> Valanga (A), Blob (A), Pyro (A) e Toad (A). <i>(Usare i loro lati (B) per la modalità esperto.)</i> Set di Incontri Attacco alla Scuola, Confraternita e Standard. 1 set di incontri modulare (<i>Mystica</i>).\n<b>Preparazione:</b> Metti in gioco l'ambiente Salvare la Scuola. Mescola tutte le copie della trama principale 2A e impilale sotto questa trama. Mescola i criminali <i>(senza guardarli)</i> per creare il mazzo dei criminali. La carta in cima a questo mazzo è in gioco.",
-        "code": "32125",
+        "code": "32125a",
         "flavor": "<i>La Confraternita dei Mutanti ha lanciato un attacco contro l'Istituto Xavier!</i>",
+        "name": "La Confraternita Colpisce!",
+        "text": "<b>Contenuto:</b> Valanga (A), Blob (A), Pyro (A) e Toad (A). <i>(Usare i loro lati (B) per la modalità esperto.)</i> Set di Incontri Attacco alla Scuola, Confraternita e Standard. 1 set di incontri modulare (<i>Mystica</i>).\n<b>Preparazione:</b> Metti in gioco l'ambiente Salvare la Scuola. Mescola tutte le copie della trama principale 2A e impilale sotto questa trama. Mescola i criminali <i>(senza guardarli)</i> per creare il mazzo dei criminali. La carta in cima a questo mazzo è in gioco."
+    },
+    {
+        "code": "32125b",
         "name": "La Confraternita Colpisce!",
         "text": "<b>Quando Rivelata</b>: Distribuisci 1 carta incontro a faccia in giù a ogni giocatore. Proseguire con la prossima carta nel mazzo delle trame principali. Colloca questa carta nella galleria delle vittorie."
     },
     {
-        "back_flavor": "<i>La Confraternita colpisce all'unisono, concentrando il proprio assalto su...</i>",
-        "back_text": "<b>Quando Rivelata</b>: Gira questa carta.",
-        "code": "32126",
+        "code": "32126a",
+        "flavor": "The Brotherhood strike in unison, focusing their attack on...",
+        "name": "L'Atrio",
+        "text": "<b>Quando Rivelata</b>: Gira questa carta."
+    },
+    {
+        "code": "32126b",
         "name": "L'Atrio",
         "text": "Ogni personaggio ottiene Tempra.\n<b>Quando Completata</b>: Colloca questa trama nella galleria delle vittorie. Proseguire con la prossima carta nel mazzo delle trame principali.\n<b>Se ci sono 3 trame principali nella galleria delle vittorie, i giocatori perdono la partita.</b>"
     },
     {
-        "back_flavor": "<i>La Confraternita colpisce all'unisono, concentrando il proprio assalto su...</i>",
-        "back_text": "<b>Quando Rivelata</b>: Gira questa carta.",
-        "code": "32127",
+        "code": "32127a",
+        "flavor": "The Brotherhood strike in unison, focusing their attack on...",
+        "name": "La Mensa",
+        "text": "<b>Quando Rivelata</b>: Gira questa carta."
+    },
+    {
+        "code": "32127b",
         "name": "La Mensa",
         "text": "Ogni personaggio ottiene Ritorsione 1.\n<b>Quando Completata</b>: Colloca questa trama nella galleria delle vittorie. Proseguire con la prossima carta nel mazzo delle trame principali.\n<b>Se ci sono 3 trame principali nella galleria delle vittorie, i giocatori perdono la partita.</b>"
     },
     {
-        "back_flavor": "<i>La Confraternita colpisce all'unisono, concentrando il proprio assalto su...</i>",
-        "back_text": "<b>Quando Rivelata</b>: Gira questa carta.",
-        "code": "32128",
+        "code": "32128a",
+        "flavor": "The Brotherhood strike in unison, focusing their attack on...",
+        "name": "Il Campo da Basket",
+        "text": "<b>Quando Rivelata</b>: Gira questa carta."
+    },
+    {
+        "code": "32128b",
         "name": "Il Campo da Basket",
         "text": "Ogni alleato e ogni gregario ottengono Robustezza.\n<b>Quando Completata</b>: Colloca questa trama nella galleria delle vittorie. Proseguire con la prossima carta nel mazzo delle trame principali.\n<b>Se ci sono 3 trame principali nella galleria delle vittorie, i giocatori perdono la partita.</b>"
     },
     {
-        "back_flavor": "<i>La Confraternita colpisce all'unisono, concentrando il proprio assalto su...</i>",
-        "back_text": "<b>Quando Rivelata</b>: Gira questa carta.",
-        "code": "32129",
+        "code": "32129a",
+        "flavor": "The Brotherhood strike in unison, focusing their attack on...",
+        "name": "Il Cortile",
+        "text": "<b>Quando Rivelata</b>: Gira questa carta."
+    },
+    {
+        "code": "32129b",
         "name": "Il Cortile",
         "text": "Ogni personaggio ottiene +1 ATT.\n<b>Quando Completata</b>: Colloca questa trama nella galleria delle vittorie. Proseguire con la prossima carta nel mazzo delle trame principali.\n<b>Se ci sono 3 trame principali nella galleria delle vittorie, i giocatori perdono la partita.</b>"
     },
@@ -587,21 +626,33 @@
         "traits": "Confraternita dei Mutanti"
     },
     {
-        "back_flavor": "<i>Magneto fluttua attorno alla Terra sul suo rifugio orbitale.</i>",
-        "back_text": "<b>Contenuto:</b> Magneto (I) e Magneto (II). <i>(Magneto (II) e Magneto (III) per la modalità esperto.)</i> Set di incontri Magneto e Standard. 1 set di incontri modulare (<i>Accoliti</i>).\n<b>Preparazione:</b> Metti da parte la trama secondaria Decadimento Orbitale. Rivela la trama secondaria Squadra d'Abbordaggio.",
-        "code": "32141",
+        "code": "32141a",
+        "flavor": "Magneto floats above the Earth in his orbital sanctuary.",
+        "name": "Asteroide M",
+        "text": "<b>Contenuto:</b> Magneto (I) e Magneto (II). <i>(Magneto (II) e Magneto (III) per la modalità esperto.)</i> Set di incontri Magneto e Standard. 1 set di incontri modulare (<i>Accoliti</i>).\n<b>Preparazione:</b> Metti da parte la trama secondaria Decadimento Orbitale. Rivela la trama secondaria Squadra d'Abbordaggio."
+    },
+    {
+        "code": "32141b",
         "name": "Asteroide M",
         "text": "<b>Risposta Obbligata</b>: Dopo che hai collocato 1 o più gettoni magnete su questa trama, se ci sono 3 o più gettoni magnete su questa carta, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 carta [[MAGNETICO]]. Rivela quella carta, poi rimuovi 3 gettoni magnete da questa trama."
     },
     {
-        "back_text": "<b>Quando Rivelata</b>: Colloca 1 gettone magnete su questa carta. Se Sabotare Master Mold non è nella galleria delle vittorie, il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 copia del gregario Sentinella Modello-M e la rivela.",
-        "code": "32142",
+        "code": "32142a",
+        "name": "Fabbrica Operativa",
+        "text": "<b>Quando Rivelata</b>: Colloca 1 gettone magnete su questa carta. Se Sabotare Master Mold non è nella galleria delle vittorie, il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 copia del gregario Sentinella Modello-M e la rivela."
+    },
+    {
+        "code": "32142b",
         "name": "Fabbrica Operativa",
         "text": "<b>Risposta Obbligata</b>: Dopo che hai collocato 1 o più gettoni magnete su questa trama, se ci sono 3 o più gettoni magnete su questa carta, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 carta [[MAGNETICO]]. Rivela quella carta, poi rimuovi 3 gettoni magnete da questa trama."
     },
     {
-        "back_text": "<b>Quando Rivelata</b>: Colloca 2 gettoni magnete su questa carta. Se Sforzo Estenuante non è assegnato a Magneto, il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta [[MAGNETICO]] e la rivela.",
-        "code": "32143",
+        "code": "32143a",
+        "name": "Il Regno di Magnus",
+        "text": "<b>Quando Rivelata</b>: Colloca 2 gettoni magnete su questa carta. Se Sforzo Estenuante non è assegnato a Magneto, il primo giocatore cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta [[MAGNETICO]] e la rivela."
+    },
+    {
+        "code": "32143b",
         "name": "Il Regno di Magnus",
         "text": "<b>Risposta Obbligata</b>: Dopo che hai collocato 1 o più gettoni magnete su questa trama, se ci sono 3 o più gettoni magnete su questa carta, scarta carte dalla cima del mazzo degli incontri finché non scarti 1 carta [[MAGNETICO]]. Rivela quella carta, poi rimuovi 3 gettoni magnete da questa trama.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
     },

@@ -5,11 +5,9 @@
         "text": "<b>Fai ricevere al giocatore Monica Rambeau.</b>\nNon puoi cambiare sembianza di energia.\n<b>Azione Alter Ego</b>: Esaurisci Monica Rambeau -> rimuovi dal gioco Perdita di Controllo."
     },
     {
-        "attack_text": "<b>Risposta Obbligata</b>: Dopo che Uomo Radioattivo si è attivato contro di te, infliggi 1 danno a ogni personaggio che controlli.",
-        "boost_text": "<b>Potenziamento</b>: Infliggi 1 danno a ogni personaggio che controlli.",
         "code": "21027",
         "name": "Uomo Radioattivo",
-        "scheme_text": "<b>Risposta Obbligata</b>: Dopo che Uomo Radioattivo si è attivato contro di te, infliggi 1 danno a ogni personaggio che controlli.",
+        "text": "[star]<b>Risposta Obbligata</b>: Dopo che Uomo Radioattivo si è attivato contro di te, infliggi 1 danno a ogni personaggio che controlli.\n\n<hr />[star] <b>Boost</b>: <b>Potenziamento</b>: Infliggi 1 danno a ogni personaggio che controlli.",
         "traits": "Elite. Genio."
     },
     {
@@ -35,24 +33,20 @@
         "text": "<b>Fai ricevere al giocatore Adam Warlock.</b>\nPuoi assumere la sembianza di alter ego. Scegli 1 effetto tra:\n-Esaurisci il tuo alter ego -> rimuovi dal gioco questa incombenza.\n-Scarta 5 carte dalla cima del tuo mazzo. Colloca 1 minaccia sulla trama principale per ogni aspetto diverso scartato in questo modo. Scarta questa incombenza."
     },
     {
-        "attack_text": "<b>Risposta Obbligata</b>: Dopo che Magus si è attivato contro di te, scarta 5 carte dalla cima del tuo mazzo.",
         "code": "21067",
         "name": "Magus",
-        "scheme_text": "(Gregario nemesi di Adam Warlock.)",
-        "text": "Colpo Rapido. Robustezza.",
+        "text": "[star](Gregario nemesi di Adam Warlock.)\n[star]<b>Risposta Obbligata</b>: Dopo che Magus si è attivato contro di te, scarta 5 carte dalla cima del tuo mazzo.\nColpo Rapido. Robustezza.",
         "traits": "Elite. Mistico."
     },
     {
-        "boost_text": "<b>Potenziamento</b>: Rivela questa carta.",
         "code": "21068",
         "name": "Chiesa Universale della Verità",
-        "text": "<b>Risposta Obbligata</b>: Dopo che un giocatore ha ricomposto il suo mazzo, esaurisci l'identità di quel giocatore e stordiscila."
+        "text": "<b>Risposta Obbligata</b>: Dopo che un giocatore ha ricomposto il suo mazzo, esaurisci l'identità di quel giocatore e stordiscila.\n<hr />[star] <b>Boost</b>: <b>Potenziamento</b>: Rivela questa carta."
     },
     {
-        "boost_text": "<b>Potenziamento</b>: Metti in gioco Zelota della Verità impegnato con te.",
         "code": "21069",
         "name": "Zelota della Verità",
-        "text": "Non è possibile rimuovere minacce dalla trama secondaria Chiesa Universale della Verità.",
+        "text": "Non è possibile rimuovere minacce dalla trama secondaria Chiesa Universale della Verità.\n<hr />[star] <b>Boost</b>: <b>Potenziamento</b>: Metti in gioco Zelota della Verità impegnato con te.",
         "traits": "Mistico."
     },
     {
@@ -80,16 +74,24 @@
         "traits": "Mistico. Ordine Nero."
     },
     {
-        "back_text": "<b>Contenuto:</b> Fauce d'Ebano (I) e Fauce d'Ebano (II). <i>(Fauce d'Ebano (II) e Fauce d'Ebano (III) invece per la modalità esperto.)</i> Set di incontri Fauce d'Ebano e Standard. 2 set di incontri modulari <i>(Eserciti del Titano e Ordine Nero).</i>",
-        "code": "21074",
+        "code": "21074a",
         "flavor": "<b>Fauce d'Ebano guida un assalto a Ovunque nel tentativo di catturare la Gemma del Potere custodita al suo interno.</b>",
+        "name": "Attacco a Ovunque",
+        "text": "<b>Contenuto:</b> Fauce d'Ebano (I) e Fauce d'Ebano (II). <i>(Fauce d'Ebano (II) e Fauce d'Ebano (III) invece per la modalità esperto.)</i> Set di incontri Fauce d'Ebano e Standard. 2 set di incontri modulari <i>(Eserciti del Titano e Ordine Nero).</i>"
+    },
+    {
+        "code": "21074b",
         "name": "Attacco a Ovunque",
         "text": "<b>Quando Rivelata:</b> Ogni giocatore scarta carte dalla cima del mazzo degli incontri finché non scarta 1 ambiente [[Incantesimo]] e mette in gioco quell'ambiente nella sua area di gioco. Rimescola la pila degli scarti degli incontri nel mazzo degli incontri."
     },
     {
-        "back_text": "<b>Quando Rivelata:</b> Rimescola la pila degli scarti degli incontri nel mazzo degli incontri. Ogni giocatore scarta carte dalla cima del mazzo degli incontri finché non scarta 1 ambiente [[Incantesimo]] e mette in gioco quell'ambiente nella sua area di gioco.",
-        "code": "21075",
+        "code": "21075a",
         "flavor": "<b>Fauce d'Ebano usa la sua potente magia per tenervi occupati mentre i suoi agenti vanno alla ricerca della Gemma del Potere.</b>",
+        "name": "La Gemma del Potere",
+        "text": "<b>Quando Rivelata:</b> Rimescola la pila degli scarti degli incontri nel mazzo degli incontri. Ogni giocatore scarta carte dalla cima del mazzo degli incontri finché non scarta 1 ambiente [[Incantesimo]] e mette in gioco quell'ambiente nella sua area di gioco."
+    },
+    {
+        "code": "21075b",
         "name": "La Gemma del Potere",
         "text": "<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
     },
@@ -170,18 +172,16 @@
         "text": "<b>Quando Rivelata:</b> Ogni gregario impegnato con un giocatore si attiva contro quel giocatore. Ogni giocatore che non è impegnato con un gregario cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario [[Ordine Nero]] e lo mette in gioco impegnato con lui. Mescola il mazzo degli incontri."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Irrobustisci il criminale.",
         "code": "21089",
         "name": "Fanteria dell'Ordine Nero",
-        "text": "Guardia.                                                                                                                                                                                                                                                                                                                                                                                      <b>Quando Sconfitta:</b> Irrobustisci il criminale.",
+        "text": "Guardia.                                                                                                                                                                                                                                                                                                                                                                                      <b>Quando Sconfitta:</b> Irrobustisci il criminale.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Irrobustisci il criminale.",
         "traits": "Ordine Nero."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Scarta 1 carta casuale dalla tua mano.",
         "code": "21090",
         "flavor": "<b><i>Gli esternauti sono creature geneticamente modificate per essere totalmente fedeli al loro creatore.</i></b>",
         "name": "Esternauta",
-        "text": "<b>Quando Rivelata:</b> Scarta 1 carta casuale dalla tua mano.",
+        "text": "<b>Quando Rivelata:</b> Scarta 1 carta casuale dalla tua mano.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Scarta 1 carta casuale dalla tua mano.",
         "traits": "Ordine Nero."
     },
     {
@@ -226,25 +226,38 @@
         "traits": "Ordine Nero."
     },
     {
-        "back_text": "<b>Contenuto:</b> Proxima Media Nox I e II <i>(Proxima Media Nox II e III invece per modalità esperto)</i> Gamma Corvi I e II <i>(Gamma Corvi II e III invece per la modalità esperto). Set di incontri Difesa della Torre e Standard. 1 set di incontri modulare <i>(Eserciti del Titano).</i>                                                                                                                                                                                                                                                                                                                                   <b>Preparazione:</b> Rivela lo stadio 2A e mettilo in gioco accanto a questo stadioin modo che ci siano 2 trame principali e 2 criminali in gioco.",
-        "code": "21098",
+        "code": "21098a",
         "flavor": "<b><i>Proxima Media Nox guida l'Ordine Nero in un assalto diretto alla Torre degli Avengers.</i></b>",
+        "name": "Sotto Assedio",
+        "text": "<b>Contenuto:</b> Proxima Media Nox I e II <i>(Proxima Media Nox II e III invece per modalità esperto)</i> Gamma Corvi I e II <i>(Gamma Corvi II e III invece per la modalità esperto). Set di incontri Difesa della Torre e Standard. 1 set di incontri modulare <i>(Eserciti del Titano).</i>                                                                                                                                                                                                                                                                                                                                   <b>Preparazione:</b> Rivela lo stadio 2A e mettilo in gioco accanto a questo stadioin modo che ci siano 2 trame principali e 2 criminali in gioco."
+    },
+    {
+        "code": "21098b",
         "name": "Sotto Assedio",
         "text": "<b>Trama di Proxima Media Nox</b>                                                                                                                                                                                                                                                                                                                                 <b>Interruzione Obbligata:</b> Quando questo stadio sta per essere completato, rimuovi invece tutte le minacce da questo stadio. Poi infliggi 6[per_hero] danni a Torre degli Avengers."
     },
     {
-        "back_text": "<b>Quando Rivelata:</b> Metti in gioco l'ambiente Torre degli Avengers, con il lato [[fortezza]] a faccia in su. Metti in gioco l'aggiunta Difesa Concentrata assegnata a questo stadio. Ogni giocatore cerca nel mazzo degli incontri 1 Assediante dell'Ordine Nero e lo mette in gioco impegnato con lui. Mescola il mazzo degli incontri.",
-        "code": "21099",
+        "code": "21099a",
         "flavor": "<b><i>Gamma Corvi guida le sue forze in un attacco frontale, usando il suo genio tattico per contrastare le difese degli Avengers.</i></b>",
+        "name": "Eserciti di Thanos",
+        "text": "<b>Quando Rivelata:</b> Metti in gioco l'ambiente Torre degli Avengers, con il lato [[fortezza]] a faccia in su. Metti in gioco l'aggiunta Difesa Concentrata assegnata a questo stadio. Ogni giocatore cerca nel mazzo degli incontri 1 Assediante dell'Ordine Nero e lo mette in gioco impegnato con lui. Mescola il mazzo degli incontri."
+    },
+    {
+        "code": "21099b",
         "name": "Eserciti di Thanos",
         "text": "<b>Trama di Gamma Corvi</b>                                                                                                                                                                                                                                                                                                                                                      <b>Interruzione Obbligata:</b> Quando questo stadio sta per essere completato, rimuovi invece tutte le minacce da questo stadio. Poi distribuisci 1 carta a faccia in giù a ogni giocatore."
     },
     {
-        "back_text": "La regola \"Unico\" non si applica a Torre degli Avengers.                                                                                                                                                                                                                                                                                                   <b>Risposta Obbligata:</b> Dopo che 1 o più danni sono stati collocati su questa carta, se ci sono 9[per_hero] o più danni su questa carta, rimuovili tutti. Poi gira Torre degli Avengers.",
-        "code": "21100",
+        "code": "21100a",
+        "name": "Torre degli Avengers",
+        "text": "La regola \"Unico\" non si applica a Torre degli Avengers.                                                                                                                                                                                                                                                                                                   <b>Risposta Obbligata:</b> Dopo che 1 o più danni sono stati collocati su questa carta, se ci sono 9[per_hero] o più danni su questa carta, rimuovili tutti. Poi gira Torre degli Avengers.",
+        "traits": "Stronghold."
+    },
+    {
+        "code": "21100b",
         "name": "Torre degli Avengers",
         "text": "<b>Quando rivelata:</b> Scarta dal gioco ogni altra carta Torre degli Avengers.\n<b>Risposta Obbligata:</b> Dopo che 1 o più danni sono stati collocati su questa carta, se ci sono 9[per_hero] o più danni su questa carta, i giocatori perdono la partita.",
-        "traits": "Danneggiato."
+        "traits": "Damaged."
     },
     {
         "code": "21101",
@@ -323,9 +336,13 @@
         "traits": "Ordine Nero. Titano."
     },
     {
-        "back_text": "<b>Contenuto:</b> Thanos I e II <i>(Thanos II e III invece per modalità esperto).</i> Set di incontri Thanos, Guanto dell'Infinito e Standard. 2 set modulari <i>(Ordine Nero e Figli di Thanos).</i> Vedi l'inserto delle regole per le regole relative al Guanto dell'Infinito.",
-        "code": "21114",
+        "code": "21114a",
         "flavor": "<b><i>Thanos ha incorporato tutte e sei le Gemme dell'Infinito nel Guanto dell'Infinito. Ora deve solo padroneggiare il potere per mettere in atto il suo piano genocida.</i></b>",
+        "name": "Le Gemme dell'Infinito",
+        "text": "<b>Contenuto:</b> Thanos I e II <i>(Thanos II e III invece per modalità esperto).</i> Set di incontri Thanos, Guanto dell'Infinito e Standard. 2 set modulari <i>(Ordine Nero e Figli di Thanos).</i> Vedi l'inserto delle regole per le regole relative al Guanto dell'Infinito."
+    },
+    {
+        "code": "21114b",
         "name": "Le Gemme dell'Infinito",
         "text": "<b>Quando Rivelata:</b> Metti in gioco 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Cerca nel mazzo degli incontri la trama secondaria Santuario e rivelala. <i>(Mescola il mazzo degli incontri.)</i>"
     },
@@ -334,6 +351,16 @@
         "flavor": "<b><i>Con uno schiocco delle dita, Thanos ha spazzato via metà delle forme di vita dell'universo. Se riuscite a strappare il Guanto al Titano Folle, forse potrete usare il suo potere per annullare questa tragedia. Ma se fallite, non resterà nessuno a opporsi a lui.</i></b>                                                                                                                                                                                                                                                                                                                            <b>Se questo stadio è completato, i giocatori perdono la partita.</b>",
         "name": "Riportare l'Equilibrio",
         "text": "<b>Quando Rivelata:</b> Ogni giocatore mescola la sua pila degli scarti nel suo mazzo. Ogni giocatore rimuove dal gioco la metà superiore del suo mazzo (arrotondando per difetto)."
+    },
+    {
+        "code": "21115a",
+        "name": "Balance the Scales",
+        "text": "<b>If this stage is completed, the players lose the game.</b>"
+    },
+    {
+        "code": "21115b",
+        "name": "Balance the Scales",
+        "text": "<b>When Revealed</b>: Each player shuffles their discard pile into their deck. Each player removes the top half of their deck (rounded down) from the game."
     },
     {
         "code": "21116",
@@ -365,23 +392,20 @@
         "text": "<b>Quando Rivelata (Alter Ego):</b> Thanos trama.                                                                                                                                                                                                                                                                                                                 <b>Quando Rivelata (Eroe):</b> Thanos ti attacca. Quell'attacco ottiene Perforante e Sopraffazione."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Irrobustisci Thanos.",
         "code": "21121",
         "name": "Sindrome dei Devianti",
-        "text": "Incitazione 1.                                                                                                                                                                                                                                                                                                                                                                                                        <b>Quando Rivelata:</b> Irrobustisci Thanos. Se non puoi farlo, colloca 2 minacce sulla trama principale."
+        "text": "Incitazione 1.                                                                                                                                                                                                                                                                                                                                                                                                        <b>Quando Rivelata:</b> Irrobustisci Thanos. Se non puoi farlo, colloca 2 minacce sulla trama principale.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Irrobustisci Thanos."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Scarta 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Applica le sue icone potenziamento ([boost]) per questa attivazionecome se fosse una carta potenziamento.",
         "code": "21122",
         "name": "\"Io Sono Ineluttabile\"",
-        "text": "<b>Quando Rivelata:</b> Fai ricevere a Thanos 1 carta potenziamento a faccia in giù."
+        "text": "<b>Quando Rivelata:</b> Fai ricevere a Thanos 1 carta potenziamento a faccia in giù.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Scarta 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Applica le sue icone potenziamento ([boost]) per questa attivazionecome se fosse una carta potenziamento."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Se i danni di questo attacco sconfiggono un alleato, metti in gioco 1 carta dall cima del mazzo delle Gemme dell'Infinito.",
         "code": "21123",
         "flavor": "<b><i>\"Io sono Thanos! E tu... non sei niente.\" -Thanos</i></b>",
         "name": "Il Titano Folle",
-        "text": "<b>Quando Rivelata:</b> Metti in gioco 1 carta dalla cime del mazzo delle Gemme dell'Infinito."
+        "text": "<b>Quando Rivelata:</b> Metti in gioco 1 carta dalla cime del mazzo delle Gemme dell'Infinito.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Se i danni di questo attacco sconfiggono un alleato, metti in gioco 1 carta dall cima del mazzo delle Gemme dell'Infinito."
     },
     {
         "code": "21124",
@@ -390,27 +414,24 @@
         "text": "<b>Quando Sconfitta:</b> Scegli e scarta 1 carta <b>GEMMA DELL'INFINITO</b> dal gioco."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Scarta 1 alleato o supporto che controlli.",
         "code": "21125",
         "flavor": "<b><i>\"Io sono un servitore del mio padrone, Thanos... un distruttore di mondi. Io sono uno dei cinque, Gamma Corvi.\"</i></b>",
         "name": "Gamma Corvi",
-        "text": "Ritorsione 1. Robustezza.",
+        "text": "Ritorsione 1. Robustezza.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Scarta 1 alleato o supporto che controlli.",
         "traits": "Elite. Ordine Nero."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Scarta 1 alleato o supporto che controlli.",
         "code": "21126",
         "flavor": "<b><i>\"Combatti, fuggi, arrenditi... non ha importanza. Questo mondo ora appartiene a Thanos.\"</i></b>",
         "name": "Proxima Media Nox",
-        "text": "[star] Gli attacchi di Proxima Media Nox ottengono Perforante.",
+        "text": "[star] Gli attacchi di Proxima Media Nox ottengono Perforante.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Scarta 1 alleato o supporto che controlli.",
         "traits": "Elite. Ordine Nero."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Fai ricevere 1 carta potenziamento aggiuntiva a questo nemico.",
         "code": "21127",
         "flavor": "<b><i>\"Smettete di immaginare una triste fine per questo mondo... Quella vera arriverà presto.\"</i></b>",
         "name": "Fauce d'Ebano",
-        "text": "Criminoso. <i>Quando questo gregario si attiva, fagli ricevere 1 carta potenziamento.)</i>",
+        "text": "Criminoso. <i>Quando questo gregario si attiva, fagli ricevere 1 carta potenziamento.)</i>\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Fai ricevere 1 carta potenziamento aggiuntiva a questo nemico.",
         "traits": "Elite. Ordine Nero."
     },
     {
@@ -495,22 +516,27 @@
         "traits": "Asgard. Ferito."
     },
     {
-        "back_text": "<b>Contenuto:</b> Hela A (Hela B invece per modalità esperto). Set di incontri Hela e Standard. 2 set di incontri modulari <i>(Legioni di Hel e Giganti di Ghiaccio).</i>",
-        "code": "21138",
+        "code": "21138a",
         "flavor": "<b><i>Se volete salvare Odino, dovrete intraprendere un pericoloso viaggio attraverso Hel.</i></b>",
         "name": "Il Tormento di Odino",
-        "scheme_text": "<b>Interruzione Obbligata:</b> Quando Hela sta per essere sconfitta, se Odino è assegnato a questa trama, scarta ogni aggiunta da Hela e girala invece sul suo lato <b>FERITO</b>.                                                                                                                                                                                                                                                                      <b>Se questa trama è completata, i giocatori perdono la partita.</b>",
-        "text": "<b>Preparazione:</b> Assegna Odino alla trama principale, con il lato <b>PRIGIONIERO</b> a faccia in su. Rivela Gnipahellir e Garm. Metti da parte Gjallerbru, Skurge, Palazza di Nastrond e Nidhogg, fuori dal gioco. Mescola il mazzo degli incontri."
+        "text": "<b>Contenuto:</b> Hela A (Hela B invece per modalità esperto). Set di incontri Hela e Standard. 2 set di incontri modulari <i>(Legioni di Hel e Giganti di Ghiaccio).</i>"
+    },
+    {
+        "code": "21138b",
+        "name": "Il Tormento di Odino",
+        "text": "[star]<b>Interruzione Obbligata:</b> Quando Hela sta per essere sconfitta, se Odino è assegnato a questa trama, scarta ogni aggiunta da Hela e girala invece sul suo lato <b>FERITO</b>.                                                                                                                                                                                                                                                                      <b>Se questa trama è completata, i giocatori perdono la partita.</b>\n<b>Preparazione:</b> Assegna Odino alla trama principale, con il lato <b>PRIGIONIERO</b> a faccia in su. Rivela Gnipahellir e Garm. Metti da parte Gjallerbru, Skurge, Palazza di Nastrond e Nidhogg, fuori dal gioco. Mescola il mazzo degli incontri."
     },
     {
         "code": "21139a",
         "name": "Odino",
+        "subname": "All-Father",
         "text": "Mentre Odino non è assegnato alla trama principale, il primo giocatore ottiene il controllo di Odino. A Odino non possono essere assegnate carte e non conta al fine di determinare il limite di alleati.                                                                                        <b>Se Odino esce dal gioco, i giocatori perdono la partita.</b>",
         "traits": "Asgard. Prigioniero."
     },
     {
         "code": "21139b",
         "name": "Odino",
+        "subname": "All-Father",
         "text": "Il primo giocatore ottiene il controllo di Odino.                                                                                                                                                                                                                                                                                                                                                  A Odino non possono essere assegnate carte e non conta al fine di determinare il limite di alleati.                                                                                                                                                                                                                                                                 <b>Interruzione Obbligata:</b> Qaundo Odino esce dal gioco, rimuovilo dal gioco.",
         "traits": "Asgard. Re."
     },
@@ -549,33 +575,29 @@
         "traits": "Creature. Elite."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Assegna Spada della Notte a Hela.",
         "code": "21146",
         "flavor": "<b><i>Molti eroi sono caduti sotto i colpi della spada maledetta di Hela.</i></b>",
         "name": "Spada della Notte",
-        "text": "Assegna a Hela.                                                                                                                                                                                                                                                                                                                                                                               [star] Gli attacchi di Hela ottengono Perforante.",
+        "text": "Assegna a Hela.                                                                                                                                                                                                                                                                                                                                                                               [star] Gli attacchi di Hela ottengono Perforante.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Assegna Spada della Notte a Hela.",
         "traits": "Arma."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Assegna Corona di Hela a Hela.",
         "code": "21147",
         "name": "Corona di Hela",
-        "text": "Assegna a Hela.                                                                                                                                                                                                                                                                                                                                                                          [star] <b>Risposta Obbligata:</b> Dopo che Hela ha tramato, falle ricevere 1 carta potenziamento a faccia in giù. ",
+        "text": "Assegna a Hela.                                                                                                                                                                                                                                                                                                                                                                          [star] <b>Risposta Obbligata:</b> Dopo che Hela ha tramato, falle ricevere 1 carta potenziamento a faccia in giù. \n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Assegna Corona di Hela a Hela.",
         "traits": "Oggetto."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Assegna Mantello di Hela a Hela.",
         "code": "21148",
         "flavor": "<b><i>\"Hela non è una guerriera comune e le mie non sono armi comuni! -Hela</i></b>",
         "name": "Mantello di Hela",
-        "text": "Assegna a Hela.                                                                                                                                                                                                                                                                                                                                                                                                  Hela ottiene Stabile.",
+        "text": "Assegna a Hela.                                                                                                                                                                                                                                                                                                                                                                                                  Hela ottiene Stabile.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Assegna Mantello di Hela a Hela.",
         "traits": "Armatura."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Se i danni di questo attacco sconfiggono un alleato, colloca 2 minacce sulla trama principale.",
         "code": "21149",
         "name": "Dominio di Hela",
-        "text": "<b>Quando Rivelata:</b> Colloca 1 minaccia sulla trama principale. Colloca 1 minaccia aggiuntiva sulla trama principale per ogni trama secondaria nella galleria delle vittorie."
+        "text": "<b>Quando Rivelata:</b> Colloca 1 minaccia sulla trama principale. Colloca 1 minaccia aggiuntiva sulla trama principale per ogni trama secondaria nella galleria delle vittorie.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Se i danni di questo attacco sconfiggono un alleato, colloca 2 minacce sulla trama principale."
     },
     {
         "code": "21150",
@@ -583,10 +605,9 @@
         "text": "<b>Quando Rivelata (Alter Ego):</b> Hela trama. Colloca 1 minaccia su ogni trama secondaria.\n<b>Quando Rivelata (Eroe):</b> Hela ti attacca. Colloca 1 minaccia su ogni trama secondaria."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Questa carta ottiene un ammontare di icone potenziamento ([boost]) pari al numero di trame secondarie nella galleria delle vittorie.",
         "code": "21151",
         "name": "Desolazioni di Niffleheim",
-        "text": "<b>Quando Rivelata:</b> Subisci 1 danno indiretto. Subisci 1 danno indiretto aggiuntivo per ogni trama secondaria nella galleria delle vittorie."
+        "text": "<b>Quando Rivelata:</b> Subisci 1 danno indiretto. Subisci 1 danno indiretto aggiuntivo per ogni trama secondaria nella galleria delle vittorie.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Questa carta ottiene un ammontare di icone potenziamento ([boost]) pari al numero di trame secondarie nella galleria delle vittorie."
     },
     {
         "code": "21152",
@@ -620,10 +641,9 @@
         "traits": "Elite. Gigante."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Se il criminale attacca e questo attacco infligge danni a un personaggio, stordisci quel personaggio.",
         "code": "21157",
         "name": "Gigante di Ghiaccio",
-        "text": "Robustezza. <i>(Questo personaggio entra in gioco con 1 carta status Robusto.)</i>",
+        "text": "Robustezza. <i>(Questo personaggio entra in gioco con 1 carta status Robusto.)</i>\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Se il criminale attacca e questo attacco infligge danni a un personaggio, stordisci quel personaggio.",
         "traits": "Gigante."
     },
     {
@@ -673,11 +693,14 @@
         "traits": "Asgard. Mistico."
     },
     {
-        "back_text": "<b>Contenuto:</b> Set di incontri Loki, Guanto dell'Infinito e Standard. 2 set di incontri modulari <i>(Incantatrice e Giganti di Ghiaccio).</i>",
-        "code": "21165",
+        "code": "21165a",
         "name": "Lunga Vita a Re Loki",
-        "scheme_text": "<b>Interruzione Obbligata:</b> Quando Loki è sconfitto, prosegui con 1 criminale Loki casuale messo da parte.                                                                                                                                                                                                                                                                      <b>Se il numero di Loki nella galleria delle vittorie è pari alla condizione di vittoria, i giocatori vincono la partita (vedi il regolamento). Se questo stadio è completato, i giocatori perdono la partita.</b>",
-        "text": "<b>Preparazione:</b> Metti da parte ogni copia del criminale Loki, fuori dal gioco. Metti in gioco la trama secondaria Guerra ad Asgard. Mescola il mazzo degli incontri. Rivela 1 criminale Loki messo da parte casuale. Rivela 1 carta dalla cima del mazzo delle Gemme dell'Infinito."
+        "text": "<b>Contenuto:</b> Set di incontri Loki, Guanto dell'Infinito e Standard. 2 set di incontri modulari <i>(Incantatrice e Giganti di Ghiaccio).</i>"
+    },
+    {
+        "code": "21165b",
+        "name": "Lunga Vita a Re Loki",
+        "text": "[star]<b>Interruzione Obbligata:</b> Quando Loki è sconfitto, prosegui con 1 criminale Loki casuale messo da parte.                                                                                                                                                                                                                                                                      <b>Se il numero di Loki nella galleria delle vittorie è pari alla condizione di vittoria, i giocatori vincono la partita (vedi il regolamento). Se questo stadio è completato, i giocatori perdono la partita.</b>\n<b>Preparazione:</b> Metti da parte ogni copia del criminale Loki, fuori dal gioco. Metti in gioco la trama secondaria Guerra ad Asgard. Mescola il mazzo degli incontri. Rivela 1 criminale Loki messo da parte casuale. Rivela 1 carta dalla cima del mazzo delle Gemme dell'Infinito."
     },
     {
         "code": "21166",
@@ -704,17 +727,15 @@
         "text": "Ostacolo 1[per_player].                                                                                                                                                                                                                                                                                                                                                                  <b>Quando Sconfitta:</b> Rivela 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Scambia Loki con 1 criminale Loki messo da parte casuale."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Assegna questa carta a Loki.",
         "code": "21170",
         "name": "Bastone di Loki",
-        "text": "Assegna a Loki.                                                                                                                                                                                                                                                                                                                                                                               <b>Risposta Eroe:</b> Dopo che hai effettuato un attacco base contro Loki, spendi [energy][physical] → scarta questa carta.",
+        "text": "Assegna a Loki.                                                                                                                                                                                                                                                                                                                                                                               <b>Risposta Eroe:</b> Dopo che hai effettuato un attacco base contro Loki, spendi [energy][physical] → scarta questa carta.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Assegna questa carta a Loki.",
         "traits": "Arma."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Assegna questa carta a Loki.",
         "code": "21171",
         "name": "Corona di Loki",
-        "text": "Assegna a Loki.                                                                                                                                                                                                                                                                                                                                                                               <b>Risposta Eroe:</b> Dopo che hai effettuato un attacco base contro Loki, spendi [mental][physical] → scarta questa carta.",
+        "text": "Assegna a Loki.                                                                                                                                                                                                                                                                                                                                                                               <b>Risposta Eroe:</b> Dopo che hai effettuato un attacco base contro Loki, spendi [mental][physical] → scarta questa carta.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Assegna questa carta a Loki.",
         "traits": "Oggetto."
     },
     {
@@ -736,16 +757,14 @@
         "text": "<b>Quando Rivelata (Alter Ego):</b> Sei stordito. Se eri già stordito, colloca 2 minacce sulla trama principale.\n<b>Quando Rivelata (Eroe):</b> Sei stordito. Se eri già stordito, subisci 2 danni."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Scarta 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Applica le sue icone potenziamento ([boost]) per questa attivazione come se fosse una carta potenziamento.",
         "code": "21175",
         "name": "Inganni Infiniti",
-        "text": "<b>Quando Rivelata:</b> Rimescola la pila degli scarti del mazzo delle Gemme dell'Infinito nel mazzo delle Gemme dell'Infinito e rivela 1 carta dalla cima di quel mazzo."
+        "text": "<b>Quando Rivelata:</b> Rimescola la pila degli scarti del mazzo delle Gemme dell'Infinito nel mazzo delle Gemme dell'Infinito e rivela 1 carta dalla cima di quel mazzo.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Scarta 1 carta dalla cima del mazzo delle Gemme dell'Infinito. Applica le sue icone potenziamento ([boost]) per questa attivazione come se fosse una carta potenziamento."
     },
     {
-        "boost_text": "[star]<b>Potenziamento:</b> Fai ricevere a Loki 1 carta potenziamento aggiuntiva e irrobustiscilo.",
         "code": "21176",
         "name": "Dio dell'Inganno",
-        "text": "<b>Quando Rivelata:</b> Scambia Loki con 1 criminale Loki messo da parte casuale. Loki si attiva contro di te."
+        "text": "<b>Quando Rivelata:</b> Scambia Loki con 1 criminale Loki messo da parte casuale. Loki si attiva contro di te.\n<hr />[star] <b>Boost</b>: [star]<b>Potenziamento:</b> Fai ricevere a Loki 1 carta potenziamento aggiuntiva e irrobustiscilo."
     },
     {
         "code": "21177",
