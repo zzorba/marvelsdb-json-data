@@ -1,329 +1,329 @@
 [
-	{
-		"code": "56001a",
-		"name": "Tigra",
-		"text": "Each minion with a copy of Hunted attached loses guard.\n<i>On the Hunt</i> — <b>Response</b>: After the player phase begins, draw 1 card for each minion engaged with you (to a maximum of 3).",
-		"traits": "Avenger."
-	},
-	{
-		"code": "56001b",
-		"flavor": "\"You don't have to be an Avenger to protect others.\"",
-		"name": "Greer Nelson",
-		"text": "<i>Undercover Work</i> — <b>Action</b>: Search your deck and discard pile for a copy of Hunted and add it to your hand. (Limit once per round.)",
-		"traits": "Police."
-	},
-	{
-		"code": "56002",
-		"flavor": "\"Hey, Greer, look what I found!\"",
-		"name": "Moon Knight",
-		"subname": "Marc Spector",
-		"text": "<b>Forced Response</b>: After Moon Knight enters play, search the encounter deck and discard pile for a minion and put it into play engaged with you. Stun and confuse that minion.",
-		"traits": "Avenger."
-	},
-	{
-		"code": "56003",
-		"flavor": "\"Save your threats, mister. My friends are a lot scarier than yours.\" —Greer Nelson",
-		"name": "Precinct HQ",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Precinct HQ → remove 1 threat from a scheme. Remove 1 additional threat for each minion engaged with you.",
-		"traits": "Location."
-	},
-	{
-		"code": "56004",
-		"flavor": "Tigra's amulet allows her to change between her feline and human forms.",
-		"name": "Cat's Head Amulet",
-		"text": "<b>Resource</b>: Exhaust Cat's Head Amulet → generate a [physical] resource for each minion engaged with you (to a maximum of [physical] [physical] [physical]).",
-		"traits": "Artifact. Item."
-	},
-	{
-		"code": "56005",
-		"name": "Sharp Claws",
-		"text": "<b>Interrupt</b>: When you make a basic attack, exhaust Sharp Claws → Tigra gets +1 ATK for this attack. Choose:\n• This attack gains overkill.\n• This attack gains piercing.",
-		"traits": "Weapon."
-	},
-	{
-		"code": "56006",
-		"name": "Cat-Like Reflexes",
-		"text": "<b>Hero Interrupt</b>: When you would take any amount of damage, discard Cat-Like Reflexes → prevent 3 of that damage. You may confuse a minion engaged with you.",
-		"traits": "Superpower."
-	},
-	{
-		"code": "56007",
-		"name": "Hunted",
-		"text": "[star] As an additional cost to play this upgrade, search the encounter deck and discard pile for a minion and put it into play engaged with you. Attach Hunted to that minion and stun it.\n<b>Interrupt</b>: When attached minion is defeated, ready Tigra.",
-		"traits": "Condition."
-	},
-	{
-		"code": "56008",
-		"name": "Tooth and Claw",
-		"text": "Reduce the cost to play this event by 1 for each minion engaged with you.\n<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. Deal 4 damage to an enemy.",
-		"traits": "Attack. Superpower."
-	},
-	{
-		"code": "56009",
-		"flavor": "\"It's just instinct. This cat's got to hunt.\" —Tigra",
-		"name": "Feline Senses",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. If this removes the last threat from that scheme, stun a minion.",
-		"traits": "Superpower. Thwart."
-	},
-	{
-		"code": "56010",
-		"flavor": "\"Alright fellas, say when.\"",
-		"name": "Two-Gun Kid",
-		"subname": "Matthew Hawk",
-		"text": "[star] <b>Interrupt</b>: When Two-Gun Kid makes a basic attack, choose 2 enemies instead of 1 and resolve this attack against each of them.",
-		"traits": "Avenger."
-	},
-	{
-		"code": "56012",
-		"name": "Air Cover",
-		"text": "Uses (2 fuel counters). Max 1 per player.\n<b>Response</b>: After a minion enters play, exhaust this card and remove 1 fuel counter from it → search your deck and discard pile for a [[Tactic]] upgrade that can be attached to that minion and add it to your hand.",
-		"traits": "Tech."
-	},
-	{
-		"code": "56013",
-		"name": "Aggressive Conditioning",
-		"text": "Play under any player's control. Max 1 per player.\nYou get +3 hit points and your hero gets +1 ATK.",
-		"traits": "Condition."
-	},
-	{
-		"code": "56016",
-		"flavor": "\"I'm putting an end to this – right now!\" —Black Knight",
-		"name": "Coup de Grâce",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Defeat a non-[[Elite]] minion with an upgrade attached. Ignore any \"<b>When Defeated</b>\" abilities on that minion.",
-		"traits": "Attack."
-	},
-	{
-		"code": "56017",
-		"flavor": "KRACK!",
-		"name": "Savage Strike",
-		"text": "<b>Hero Interrupt</b>: When you make a basic attack, you get +6 ATK for this attack. This attack gains piercing.",
-		"traits": "Skill."
-	},
-	{
-		"code": "56019",
-		"flavor": "\"I know what I have to do.\"",
-		"name": "Yellow Jacket",
-		"subname": "Hank Pym",
-		"text": "Play only if you have the [[Avenger]] trait.\n<b>Response</b>: After Yellow Jacket enters play, search the top 5 cards of your deck for an upgrade and add it to your hand.",
-		"traits": "Avenger."
-	},
-	{
-		"code": "56029a",
-		"name": "Hulkling",
-		"text": "<i>Chosen Shape</i> — <b>Forced Response</b>: After a [[Shapeshift]] upgrade enters play under your control, discard each other [[Shapeshift]] upgrade you control and ready Hulkling.",
-		"traits": "Avenger. Kree. Skrull."
-	},
-	{
-		"code": "56029b",
-		"name": "Teddy Altman",
-		"text": "You cannot have more than 1 [[Shapeshift]] upgrade in play.\n<i>Shape-Changer</i> — <b>Action</b>: Search your deck and discard pile for a [[Shapeshift]] upgrade and add it to your hand. (Limit once per round.)",
-		"traits": "Kree. Skrull."
-	},
-	{
-		"code": "56030",
-		"flavor": "\"Hang on, Teddy! I got your back!\"",
-		"name": "Wiccan",
-		"subname": "William Kaplan",
-		"text": "<b>Response</b>: After you play Wiccan from your hand, search your deck and discard pile for an identity-specific event and add it to your hand. <i>(Shuffle.)</i>",
-		"traits": "Avenger. Mystic."
-	},
-	{
-		"code": "56031",
-		"name": "Altman Residence",
-		"text": "<b>Alter-Ego Action</b>: Exhaust Altman Residence → heal 2 damage from Teddy Altman and shuffle 1 Hulkling card from your discard pile into your deck.",
-		"traits": "Location."
-	},
-	{
-		"code": "56032",
-		"name": "Winged Shape",
-		"text": "Hulkling gets +1 THW, +1 ATK, +1 DEF, and gains the [[Aerial]] trait.\n<b>Hero Response</b>: After you play an event, exhaust Winged Shape → remove 2 threat from a scheme.",
-		"traits": "Shapeshift."
-	},
-	{
-		"code": "56033",
-		"name": "Hulk Shape",
-		"text": "Hulkling gets +2 ATK and +1 DEF.\n<b>Hero Response</b>: After you play an event, exhaust Hulk Shape → deal 2 damage to an enemy.",
-		"traits": "Shapeshift."
-	},
-	{
-		"code": "56034",
-		"name": "Armored Shape",
-		"text": "Hulkling gets +1 ATK, +2 DEF, and gains retaliate 1.\n<b>Hero Response</b>: After you play an event, exhaust Armored Shape → heal 2 damage from Hulkling.",
-		"traits": "Shapeshift."
-	},
-	{
-		"code": "56035",
-		"name": "Imitation Shape",
-		"text": "Hulkling gets +2 THW.\n<b>Forced Interrupt</b>: When an enemy would attack you, it schemes instead.\n<b>Hero Response</b>: After you play an event, exhaust Imitation Shape → draw 1 card.",
-		"traits": "Shapeshift."
-	},
-	{
-		"code": "56036",
-		"flavor": "\"When I first discovered my powers, I thought I was a mutant. But it turns out I'm an alien!\"",
-		"name": "Alien Physiology",
-		"text": "<b>Resource</b>: Exhaust Alien Physiology → generate a [wild] resource ([wild] [wild] resources instead if paying for a Hulkling card).",
-		"traits": "Superpower."
-	},
-	{
-		"code": "56037",
-		"flavor": "\"You don't touch my friends!\" —Hulkling",
-		"name": "Shapeshifter Strike",
-		"text": "<b>Hero Action</b> <i>(attack)</i>: Deal 5 damage to an enemy. Ready your [[Shapeshift]] upgrade.",
-		"traits": "Attack. Superpower."
-	},
-	{
-		"code": "56038",
-		"name": "Armored Defense",
-		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, deal damage to it equal to your DEF. After this attack, give Hulkling a tough status card.",
-		"traits": "Defense. Superpower."
-	},
-	{
-		"code": "56039",
-		"flavor": "\"I'm the Young Avengers' resident shape-changer.\" —Hulkling",
-		"name": "Impersonation",
-		"text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 4 threat from a scheme. If this removes the last threat from that scheme, you may change to alter-ego form.",
-		"traits": "Superpower. Thwart."
-	},
-	{
-		"code": "56040",
-		"flavor": "\"Didn't see that coming, did you?\" —Hulkling",
-		"name": "Shapeshifter",
-		"text": "<b>Hero Action</b>: Search your deck and discard pile for a [[Shapeshift]] upgrade and add it to your hand. <i>(Shuffle.)</i>",
-		"traits": "Superpower."
-	},
-	{
-		"code": "56041",
-		"flavor": "\"I'm ready for anything.\"",
-		"name": "Patriot",
-		"subname": "Elijah Bradley",
-		"text": "<b>Response</b>: After you engage a minion, give Patriot a tough status card.",
-		"traits": "Avenger."
-	},
-	{
-		"code": "56043",
-		"name": "Hidden Base",
-		"text": "Uses (3 stronghold counters).\n<b>Alter-Ego Response</b>: After you change form, exhaust Hidden Base and remove 1 stronghold counter from it → give your identity a tough status card.",
-		"traits": "Location."
-	},
-	{
-		"code": "56045",
-		"name": "Excelsior",
-		"text": "Restricted. <i>(Max 2 restricted cards per player.)</i>\n<b>Response</b>: After your hero defends against an enemy attack, spend a [energy] resource → deal 2 damage to an enemy.",
-		"traits": "Kree. Skrull. Weapon."
-	},
-	{
-		"code": "56046",
-		"name": "Defensive Conditioning",
-		"text": "Play under any player's control. Max 1 per player.\nYou get +3 hit points and your hero gets +1 DEF.",
-		"traits": "Condition."
-	},
-	{
-		"code": "56047",
-		"name": "\"I Can Do This All Day\"",
-		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, declare your hero as the defender without exhausting them.",
-		"traits": "Defense."
-	},
-	{
-		"code": "56050",
-		"flavor": "\"Two can play that game!\" —Wiccan",
-		"name": "Cuts Both Ways",
-		"text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, you gain retaliate 1 until the end of the phase.",
-		"traits": "Defense."
-	},
-	{
-		"code": "56052",
-		"flavor": "\"We became Young Avengers for a reason.\"",
-		"name": "Iron Lad",
-		"subname": "Nathaniel Richards",
-		"text": "[star] <b>Interrupt</b>: When Iron Lad uses a basic power, exhaust another [[Avenger]] ally you control → add that ally's matching power to Iron Lad's power for this use.",
-		"traits": "Avenger."
-	},
-	{
-		"code": "56129",
-		"flavor": "\"Steve's thinking is stuck in the past. This is the future, whether he likes it or not.\" —Iron Man",
-		"name": "The Futurist",
-		"text": "<b>Action</b>: Your Iron Man leader schemes. Do not give him a boost card for this activation."
-	},
-	{
-		"code": "56130",
-		"name": "Target Lock",
-		"text": "<b>Action</b>: Your Iron Man leader attacks the enemy leader. If you spent a [mental] resource to pay for this event, choose an attachment on the enemy leader with the text \"<b>Hero Response</b>\" or \"<b>Hero Interrupt</b>\" and discard it."
-	},
-	{
-		"code": "56131",
-		"name": "High-Tech Suit",
-		"text": "Attach to your Iron Man leader. Counts as a [[Tech]] attachment.\n<b>Hero Action</b>: Spend [energy] [mental] resources → discard this card. Any player may trigger this ability."
-	},
-	{
-		"code": "56132",
-		"name": "Suit Up",
-		"text": "<b>Hero Response</b>: After you spend this resource, give your Iron Man leader a tough status card."
-	},
-	{
-		"code": "56133",
-		"name": "Provoked Response",
-		"text": "<b>Forced Interrupt</b>: When the enemy leader would attack you, it attacks your Captain Marvel leader instead. She cannot take more than 3 damage from this attack. Discard this card."
-	},
-	{
-		"code": "56134",
-		"flavor": "\"You should've known this was coming!\" —Captain Marvel",
-		"name": "You Started This",
-		"text": "<b>Action</b>: Your Captain Marvel leader attacks the enemy leader. If you spent a [energy] resource to pay for this event, confuse the enemy leader."
-	},
-	{
-		"code": "56135",
-		"name": "Alpha Flight Recruit",
-		"text": "Attach to an ally.\n<b>Response</b>: After any number of energy counters are placed on your Captain Marvel leader's Energy Channel attachment, heal 1 damage from attached ally.",
-		"traits": "Title."
-	},
-	{
-		"code": "56136",
-		"name": "Raw Power",
-		"text": "<b>Hero Response</b>: After you spend this resource, place 2 energy counters on your Captain Marvel leader's Energy Channel attachment."
-	},
-	{
-		"code": "56207",
-		"name": "No, You Move!",
-		"text": "<b>Forced Interrupt</b>: When the enemy leader would attack you, attach Cap's Shield to your Captain America leader and resolve this attack against him instead. Discard this card."
-	},
-	{
-		"code": "56208",
-		"flavor": "\"Things are different this time. Now I'm fighting dirty.\" —Captain America",
-		"name": "Fighting Dirty",
-		"text": "<b>Action</b>: Your Captain America leader attacks the enemy leader. If you spent a [physical] resource to pay for this event, stun the enemy leader."
-	},
-	{
-		"code": "56209",
-		"flavor": "\"We're glad to have you on our side.\" —Captain America",
-		"name": "Recruited by Cap",
-		"text": "<b>Action<b/>: Choose a minion engaged with you and choose a player on the enemy team. That minion engages that player."
-	},
-	{
-		"code": "56210",
-		"name": "The People's Hero",
-		"text": "<b>Hero Response</b>: After you spend this resource, give your Captain America leader a facedown boost card."
-	},
-	{
-		"code": "56211",
-		"flavor": "\"When someone targets one of us, they answer to all of us.\" —Spider-Woman",
-		"name": "Double Agent",
-		"text": "<b>Action</b>: Remove 2 threat from the main scheme. Place 2 threat on your leader's main scheme."
-	},
-	{
-		"code": "56212",
-		"flavor": "\"From now on Spider-Woman fights back!\" —Spider-Woman",
-		"name": "Spider-Blast",
-		"text": "<b>Action</b>: Your Spider-Woman leader attacks the enemy leader. If you spent a [mental] resource to pay for this event, confuse the enemy leader."
-	},
-	{
-		"code": "56213",
-		"name": "Hard to Hit",
-		"text": "Attach to your Spider-Woman leader and give her a tough status card.\n<b>Forced Response</b>: After attached Spider-Woman resolves an attack, place 2 skill counters on her Finesse attachment. Discard this card.",
-		"traits": "Skill."
-	},
-	{
-		"code": "56214",
-		"name": "Secret Contact",
-		"text": "<b>Hero Response</b>: After you spend this resource, place 2 skill counters on your Spider-Woman leader's Finesse attachment."
-	}
+    {
+        "code": "56001a",
+        "name": "Tigra",
+        "text": "Each minion with a copy of Hunted attached loses guard.\n<i>On the Hunt</i> — <b>Response</b>: After the player phase begins, draw 1 card for each minion engaged with you (to a maximum of 3).",
+        "traits": "Avenger."
+    },
+    {
+        "code": "56001b",
+        "flavor": "\"You don't have to be an Avenger to protect others.\"",
+        "name": "Greer Nelson",
+        "text": "<i>Undercover Work</i> — <b>Action</b>: Search your deck and discard pile for a copy of Hunted and add it to your hand. (Limit once per round.)",
+        "traits": "Police."
+    },
+    {
+        "code": "56002",
+        "flavor": "\"Hey, Greer, look what I found!\"",
+        "name": "Moon Knight",
+        "subname": "Marc Spector",
+        "text": "<b>Forced Response</b>: After Moon Knight enters play, search the encounter deck and discard pile for a minion and put it into play engaged with you. Stun and confuse that minion.",
+        "traits": "Avenger."
+    },
+    {
+        "code": "56003",
+        "flavor": "\"Save your threats, mister. My friends are a lot scarier than yours.\" —Greer Nelson",
+        "name": "Precinct HQ",
+        "text": "<b>Alter-Ego Action</b>: Exhaust Precinct HQ → remove 1 threat from a scheme. Remove 1 additional threat for each minion engaged with you.",
+        "traits": "Location."
+    },
+    {
+        "code": "56004",
+        "flavor": "Tigra's amulet allows her to change between her feline and human forms.",
+        "name": "Cat's Head Amulet",
+        "text": "<b>Resource</b>: Exhaust Cat's Head Amulet → generate a [physical] resource for each minion engaged with you (to a maximum of [physical] [physical] [physical]).",
+        "traits": "Artifact. Item."
+    },
+    {
+        "code": "56005",
+        "name": "Sharp Claws",
+        "text": "<b>Interrupt</b>: When you make a basic attack, exhaust Sharp Claws → Tigra gets +1 ATK for this attack. Choose:\n• This attack gains overkill.\n• This attack gains piercing.",
+        "traits": "Weapon."
+    },
+    {
+        "code": "56006",
+        "name": "Cat-Like Reflexes",
+        "text": "<b>Hero Interrupt</b>: When you would take any amount of damage, discard Cat-Like Reflexes → prevent 3 of that damage. You may confuse a minion engaged with you.",
+        "traits": "Superpower."
+    },
+    {
+        "code": "56007",
+        "name": "Hunted",
+        "text": "[star] As an additional cost to play this upgrade, search the encounter deck and discard pile for a minion and put it into play engaged with you. Attach Hunted to that minion and stun it.\n<b>Interrupt</b>: When attached minion is defeated, ready Tigra.",
+        "traits": "Condition."
+    },
+    {
+        "code": "56008",
+        "name": "Tooth and Claw",
+        "text": "Reduce the cost to play this event by 1 for each minion engaged with you.\n<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. Deal 4 damage to an enemy.",
+        "traits": "Attack. Superpower."
+    },
+    {
+        "code": "56009",
+        "flavor": "\"It's just instinct. This cat's got to hunt.\" —Tigra",
+        "name": "Feline Senses",
+        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. If this removes the last threat from that scheme, stun a minion.",
+        "traits": "Superpower. Thwart."
+    },
+    {
+        "code": "56010",
+        "flavor": "\"Alright fellas, say when.\"",
+        "name": "Two-Gun Kid",
+        "subname": "Matthew Hawk",
+        "text": "[star] <b>Interrupt</b>: When Two-Gun Kid makes a basic attack, choose 2 enemies instead of 1 and resolve this attack against each of them.",
+        "traits": "Avenger."
+    },
+    {
+        "code": "56012",
+        "name": "Air Cover",
+        "text": "Uses (2 fuel counters). Max 1 per player.\n<b>Response</b>: After a minion enters play, exhaust this card and remove 1 fuel counter from it → search your deck and discard pile for a [[Tactic]] upgrade that can be attached to that minion and add it to your hand.",
+        "traits": "Tech."
+    },
+    {
+        "code": "56013",
+        "name": "Aggressive Conditioning",
+        "text": "Play under any player's control. Max 1 per player.\nYou get +3 hit points and your hero gets +1 ATK.",
+        "traits": "Condition."
+    },
+    {
+        "code": "56016",
+        "flavor": "\"I'm putting an end to this – right now!\" —Black Knight",
+        "name": "Coup de Grâce",
+        "text": "<b>Hero Action</b> <i>(attack)</i>: Defeat a non-[[Elite]] minion with an upgrade attached. Ignore any \"<b>When Defeated</b>\" abilities on that minion.",
+        "traits": "Attack."
+    },
+    {
+        "code": "56017",
+        "flavor": "KRACK!",
+        "name": "Savage Strike",
+        "text": "<b>Hero Interrupt</b>: When you make a basic attack, you get +6 ATK for this attack. This attack gains piercing.",
+        "traits": "Skill."
+    },
+    {
+        "code": "56019",
+        "flavor": "\"I know what I have to do.\"",
+        "name": "Yellow Jacket",
+        "subname": "Hank Pym",
+        "text": "Play only if you have the [[Avenger]] trait.\n<b>Response</b>: After Yellow Jacket enters play, search the top 5 cards of your deck for an upgrade and add it to your hand.",
+        "traits": "Avenger."
+    },
+    {
+        "code": "56029a",
+        "name": "Hulkling",
+        "text": "<i>Chosen Shape</i> — <b>Forced Response</b>: After a [[Shapeshift]] upgrade enters play under your control, discard each other [[Shapeshift]] upgrade you control and ready Hulkling.",
+        "traits": "Avenger. Kree. Skrull."
+    },
+    {
+        "code": "56029b",
+        "name": "Teddy Altman",
+        "text": "You cannot have more than 1 [[Shapeshift]] upgrade in play.\n<i>Shape-Changer</i> — <b>Action</b>: Search your deck and discard pile for a [[Shapeshift]] upgrade and add it to your hand. (Limit once per round.)",
+        "traits": "Kree. Skrull."
+    },
+    {
+        "code": "56030",
+        "flavor": "\"Hang on, Teddy! I got your back!\"",
+        "name": "Wiccan",
+        "subname": "William Kaplan",
+        "text": "<b>Response</b>: After you play Wiccan from your hand, search your deck and discard pile for an identity-specific event and add it to your hand. <i>(Shuffle.)</i>",
+        "traits": "Avenger. Mystic."
+    },
+    {
+        "code": "56031",
+        "name": "Altman Residence",
+        "text": "<b>Alter-Ego Action</b>: Exhaust Altman Residence → heal 2 damage from Teddy Altman and shuffle 1 Hulkling card from your discard pile into your deck.",
+        "traits": "Location."
+    },
+    {
+        "code": "56032",
+        "name": "Winged Shape",
+        "text": "Hulkling gets +1 THW, +1 ATK, +1 DEF, and gains the [[Aerial]] trait.\n<b>Hero Response</b>: After you play an event, exhaust Winged Shape → remove 2 threat from a scheme.",
+        "traits": "Shapeshift."
+    },
+    {
+        "code": "56033",
+        "name": "Hulk Shape",
+        "text": "Hulkling gets +2 ATK and +1 DEF.\n<b>Hero Response</b>: After you play an event, exhaust Hulk Shape → deal 2 damage to an enemy.",
+        "traits": "Shapeshift."
+    },
+    {
+        "code": "56034",
+        "name": "Armored Shape",
+        "text": "Hulkling gets +1 ATK, +2 DEF, and gains retaliate 1.\n<b>Hero Response</b>: After you play an event, exhaust Armored Shape → heal 2 damage from Hulkling.",
+        "traits": "Shapeshift."
+    },
+    {
+        "code": "56035",
+        "name": "Imitation Shape",
+        "text": "Hulkling gets +2 THW.\n<b>Forced Interrupt</b>: When an enemy would attack you, it schemes instead.\n<b>Hero Response</b>: After you play an event, exhaust Imitation Shape → draw 1 card.",
+        "traits": "Shapeshift."
+    },
+    {
+        "code": "56036",
+        "flavor": "\"When I first discovered my powers, I thought I was a mutant. But it turns out I'm an alien!\"",
+        "name": "Alien Physiology",
+        "text": "<b>Resource</b>: Exhaust Alien Physiology → generate a [wild] resource ([wild] [wild] resources instead if paying for a Hulkling card).",
+        "traits": "Superpower."
+    },
+    {
+        "code": "56037",
+        "flavor": "\"You don't touch my friends!\" —Hulkling",
+        "name": "Shapeshifter Strike",
+        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 5 damage to an enemy. Ready your [[Shapeshift]] upgrade.",
+        "traits": "Attack. Superpower."
+    },
+    {
+        "code": "56038",
+        "name": "Armored Defense",
+        "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, deal damage to it equal to your DEF. After this attack, give Hulkling a tough status card.",
+        "traits": "Defense. Superpower."
+    },
+    {
+        "code": "56039",
+        "flavor": "\"I'm the Young Avengers' resident shape-changer.\" —Hulkling",
+        "name": "Impersonation",
+        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 4 threat from a scheme. If this removes the last threat from that scheme, you may change to alter-ego form.",
+        "traits": "Superpower. Thwart."
+    },
+    {
+        "code": "56040",
+        "flavor": "\"Didn't see that coming, did you?\" —Hulkling",
+        "name": "Shapeshifter",
+        "text": "<b>Hero Action</b>: Search your deck and discard pile for a [[Shapeshift]] upgrade and add it to your hand. <i>(Shuffle.)</i>",
+        "traits": "Superpower."
+    },
+    {
+        "code": "56041",
+        "flavor": "\"I'm ready for anything.\"",
+        "name": "Patriot",
+        "subname": "Elijah Bradley",
+        "text": "<b>Response</b>: After you engage a minion, give Patriot a tough status card.",
+        "traits": "Avenger."
+    },
+    {
+        "code": "56043",
+        "name": "Hidden Base",
+        "text": "Uses (3 stronghold counters).\n<b>Alter-Ego Response</b>: After you change form, exhaust Hidden Base and remove 1 stronghold counter from it → give your identity a tough status card.",
+        "traits": "Location."
+    },
+    {
+        "code": "56045",
+        "name": "Excelsior",
+        "text": "Restricted. <i>(Max 2 restricted cards per player.)</i>\n<b>Response</b>: After your hero defends against an enemy attack, spend a [energy] resource → deal 2 damage to an enemy.",
+        "traits": "Kree. Skrull. Weapon."
+    },
+    {
+        "code": "56046",
+        "name": "Defensive Conditioning",
+        "text": "Play under any player's control. Max 1 per player.\nYou get +3 hit points and your hero gets +1 DEF.",
+        "traits": "Condition."
+    },
+    {
+        "code": "56047",
+        "name": "\"I Can Do This All Day\"",
+        "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, declare your hero as the defender without exhausting them.",
+        "traits": "Defense."
+    },
+    {
+        "code": "56050",
+        "flavor": "\"Two can play that game!\" —Wiccan",
+        "name": "Cuts Both Ways",
+        "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, you gain retaliate 1 until the end of the phase.",
+        "traits": "Defense."
+    },
+    {
+        "code": "56052",
+        "flavor": "\"We became Young Avengers for a reason.\"",
+        "name": "Iron Lad",
+        "subname": "Nathaniel Richards",
+        "text": "[star] <b>Interrupt</b>: When Iron Lad uses a basic power, exhaust another [[Avenger]] ally you control → add that ally's matching power to Iron Lad's power for this use.",
+        "traits": "Avenger."
+    },
+    {
+        "code": "56129",
+        "flavor": "\"Steve's thinking is stuck in the past. This is the future, whether he likes it or not.\" —Iron Man",
+        "name": "The Futurist",
+        "text": "<b>Action</b>: Your Iron Man leader schemes. Do not give him a boost card for this activation."
+    },
+    {
+        "code": "56130",
+        "name": "Target Lock",
+        "text": "<b>Action</b>: Your Iron Man leader attacks the enemy leader. If you spent a [mental] resource to pay for this event, choose an attachment on the enemy leader with the text \"<b>Hero Response</b>\" or \"<b>Hero Interrupt</b>\" and discard it."
+    },
+    {
+        "code": "56131",
+        "name": "High-Tech Suit",
+        "text": "Attach to your Iron Man leader. Counts as a [[Tech]] attachment.\n<b>Hero Action</b>: Spend [energy] [mental] resources → discard this card. Any player may trigger this ability."
+    },
+    {
+        "code": "56132",
+        "name": "Suit Up",
+        "text": "<b>Hero Response</b>: After you spend this resource, give your Iron Man leader a tough status card."
+    },
+    {
+        "code": "56133",
+        "name": "Provoked Response",
+        "text": "<b>Forced Interrupt</b>: When the enemy leader would attack you, it attacks your Captain Marvel leader instead. She cannot take more than 3 damage from this attack. Discard this card."
+    },
+    {
+        "code": "56134",
+        "flavor": "\"You should've known this was coming!\" —Captain Marvel",
+        "name": "You Started This",
+        "text": "<b>Action</b>: Your Captain Marvel leader attacks the enemy leader. If you spent a [energy] resource to pay for this event, confuse the enemy leader."
+    },
+    {
+        "code": "56135",
+        "name": "Alpha Flight Recruit",
+        "text": "Attach to an ally.\n<b>Response</b>: After any number of energy counters are placed on your Captain Marvel leader's Energy Channel attachment, heal 1 damage from attached ally.",
+        "traits": "Title."
+    },
+    {
+        "code": "56136",
+        "name": "Raw Power",
+        "text": "<b>Hero Response</b>: After you spend this resource, place 2 energy counters on your Captain Marvel leader's Energy Channel attachment."
+    },
+    {
+        "code": "56207",
+        "name": "No, You Move!",
+        "text": "<b>Forced Interrupt</b>: When the enemy leader would attack you, attach Cap's Shield to your Captain America leader and resolve this attack against him instead. Discard this card."
+    },
+    {
+        "code": "56208",
+        "flavor": "\"Things are different this time. Now I'm fighting dirty.\" —Captain America",
+        "name": "Fighting Dirty",
+        "text": "<b>Action</b>: Your Captain America leader attacks the enemy leader. If you spent a [physical] resource to pay for this event, stun the enemy leader."
+    },
+    {
+        "code": "56209",
+        "flavor": "\"We're glad to have you on our side.\" —Captain America",
+        "name": "Recruited by Cap",
+        "text": "<b>Action<b/>: Choose a minion engaged with you and choose a player on the enemy team. That minion engages that player."
+    },
+    {
+        "code": "56210",
+        "name": "The People's Hero",
+        "text": "<b>Hero Response</b>: After you spend this resource, give your Captain America leader a facedown boost card."
+    },
+    {
+        "code": "56211",
+        "flavor": "\"When someone targets one of us, they answer to all of us.\" —Spider-Woman",
+        "name": "Double Agent",
+        "text": "<b>Action</b>: Remove 2 threat from the main scheme. Place 2 threat on your leader's main scheme."
+    },
+    {
+        "code": "56212",
+        "flavor": "\"From now on Spider-Woman fights back!\" —Spider-Woman",
+        "name": "Spider-Blast",
+        "text": "<b>Action</b>: Your Spider-Woman leader attacks the enemy leader. If you spent a [mental] resource to pay for this event, confuse the enemy leader."
+    },
+    {
+        "code": "56213",
+        "name": "Hard to Hit",
+        "text": "Attach to your Spider-Woman leader and give her a tough status card.\n<b>Forced Response</b>: After attached Spider-Woman resolves an attack, place 2 skill counters on her Finesse attachment. Discard this card.",
+        "traits": "Skill."
+    },
+    {
+        "code": "56214",
+        "name": "Secret Contact",
+        "text": "<b>Hero Response</b>: After you spend this resource, place 2 skill counters on your Spider-Woman leader's Finesse attachment."
+    }
 ]
