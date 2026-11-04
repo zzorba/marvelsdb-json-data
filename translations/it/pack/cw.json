@@ -2,328 +2,330 @@
     {
         "code": "56001a",
         "name": "Tigra",
-        "text": "Each minion with a copy of Hunted attached loses guard.\n<i>On the Hunt</i> — <b>Response</b>: After the player phase begins, draw 1 card for each minion engaged with you (to a maximum of 3).",
+        "text": "Ogni gregario con Braccato perde Guardia.\n<i>A Caccia</i> — <b>Risposta</b>: Dopo che la Fase dei Giocatori è iniziata, pesca 1 carta per ogni gregario impegnato con te (fino a un massimo 3).",
         "traits": "Avenger."
     },
     {
         "code": "56001b",
-        "flavor": "\"You don't have to be an Avenger to protect others.\"",
         "name": "Greer Nelson",
-        "text": "<i>Undercover Work</i> — <b>Action</b>: Search your deck and discard pile for a copy of Hunted and add it to your hand. (Limit once per round.)",
-        "traits": "Police."
+        "text": "<i>Operazione Sotto Copertura</i> — <b>Azione</b>: Cerca nel tuo mazzo e nella tua pila degli scarti 1 Braccato e aggiungilo alla tua mano. (Limite di una volta per round.)",
+        "traits": "Polizia.",
+        "flavor": "\"Non devi per forza essere un Avenger per proteggere gli altri.\""
     },
     {
         "code": "56002",
-        "flavor": "\"Hey, Greer, look what I found!\"",
         "name": "Moon Knight",
-        "subname": "Marc Spector",
-        "text": "<b>Forced Response</b>: After Moon Knight enters play, search the encounter deck and discard pile for a minion and put it into play engaged with you. Stun and confuse that minion.",
-        "traits": "Avenger."
+        "text": "<b>Risposta Obbligata</b>: Dopo che Moon Knight è entrato in gioco, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario e mettilo in gioco impegnato con te. Stordisci e confondi quel gregario.",
+        "traits": "Avenger.",
+        "flavor": "\"Ehi, Greer, vieni a vedere che ho trovato!\"",
+        "subname": "Marc Spector"
     },
     {
         "code": "56003",
-        "flavor": "\"Save your threats, mister. My friends are a lot scarier than yours.\" —Greer Nelson",
-        "name": "Precinct HQ",
-        "text": "<b>Alter-Ego Action</b>: Exhaust Precinct HQ → remove 1 threat from a scheme. Remove 1 additional threat for each minion engaged with you.",
-        "traits": "Location."
+        "name": "Centrale del Distretto",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Centrale del Distretto → rimuovi 1 minaccia da una trama. Rimuovi 1 minaccia aggiuntiva per ogni gregario impegnato con te.",
+        "traits": "Luogo.",
+        "flavor": "\"Si risparmi le minacce, signore. I miei amici sono molto più spaventosi di lei.\" —Greer Nelson"
     },
     {
         "code": "56004",
-        "flavor": "Tigra's amulet allows her to change between her feline and human forms.",
-        "name": "Cat's Head Amulet",
-        "text": "<b>Resource</b>: Exhaust Cat's Head Amulet → generate a [physical] resource for each minion engaged with you (to a maximum of [physical] [physical] [physical]).",
-        "traits": "Artifact. Item."
+        "name": "Amuleto della Testa di Gatto",
+        "text": "<b>Risorsa</b>: Esaurisci Amuleto della Testa di Gatto → genera [physical] per ogni gregario impegnato con te (fino a un massimo di [physical] [physical] [physical]).",
+        "traits": "Artefatto. Oggetto.",
+        "flavor": "L'amuleto di Tigra le permette di passare dalla forma felina a quella umana e viceversa."
     },
     {
         "code": "56005",
-        "name": "Sharp Claws",
-        "text": "<b>Interrupt</b>: When you make a basic attack, exhaust Sharp Claws → Tigra gets +1 ATK for this attack. Choose:\n• This attack gains overkill.\n• This attack gains piercing.",
-        "traits": "Weapon."
+        "name": "Artigli Taglienti",
+        "text": "<b>Interruzione</b>: Quando effettui un attacco base, esaurisci Artigli Taglienti → Tigra riceve +1 ATT per questo attacco. Scegli 1 effetto tra:\n• Questo attacco ottiene Sopraffazione.\n• Questo attacco ottiene Perforante.",
+        "traits": "Arma."
     },
     {
         "code": "56006",
-        "name": "Cat-Like Reflexes",
-        "text": "<b>Hero Interrupt</b>: When you would take any amount of damage, discard Cat-Like Reflexes → prevent 3 of that damage. You may confuse a minion engaged with you.",
-        "traits": "Superpower."
+        "name": "Riflessi da Gatto",
+        "text": "<b>Interruzione Eroe</b>: Quando stai per subire un qualsiasi ammontare di danni, scarta Riflessi da Gatto → previeni 3 di quei danni. Puoi confondere 1 gregario impegnato con te.",
+        "traits": "Superpotere."
     },
     {
         "code": "56007",
-        "name": "Hunted",
-        "text": "[star] As an additional cost to play this upgrade, search the encounter deck and discard pile for a minion and put it into play engaged with you. Attach Hunted to that minion and stun it.\n<b>Interrupt</b>: When attached minion is defeated, ready Tigra.",
-        "traits": "Condition."
+        "name": "Braccato",
+        "text": "[star] Come costo aggiuntivo per giocare questa miglioria, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario e mettilo in gioco impegnato con te. Assegnagli Braccato e stordiscilo.\n<b>Interruzione</b>: Quando il gregario con questa miglioria è sconfitto, ripristina Tigra.",
+        "traits": "Condizione."
     },
     {
         "code": "56008",
-        "name": "Tooth and Claw",
-        "text": "Reduce the cost to play this event by 1 for each minion engaged with you.\n<b>Hero Action</b> <i>(attack)</i>: Deal 4 damage to an enemy. Deal 4 damage to an enemy.",
-        "traits": "Attack. Superpower."
+        "name": "Zanne e Unghie",
+        "text": "Riduci il costo per giocare questo evento di 1 per ogni gregario impegnato con te.\n<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 4 danni a un nemico. Infliggi 4 danni a un nemico.",
+        "traits": "Attacco. Superpotere."
     },
     {
         "code": "56009",
-        "flavor": "\"It's just instinct. This cat's got to hunt.\" —Tigra",
-        "name": "Feline Senses",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 3 threat from a scheme. If this removes the last threat from that scheme, stun a minion.",
-        "traits": "Superpower. Thwart."
+        "name": "Sensi Felini",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 3 minacce da una trama. Se farlo rimuove l'ultima minaccia da quella trama, stordisci 1 gregario.",
+        "traits": "Intervento. Superpotere.",
+        "flavor": "\"È solo istinto: una gatta sente il bisogno di cacciare.\" —Tigra"
     },
     {
         "code": "56010",
-        "flavor": "\"Alright fellas, say when.\"",
-        "name": "Two-Gun Kid",
-        "subname": "Matthew Hawk",
-        "text": "[star] <b>Interrupt</b>: When Two-Gun Kid makes a basic attack, choose 2 enemies instead of 1 and resolve this attack against each of them.",
-        "traits": "Avenger."
+        "name": "Kid Due Pistole",
+        "text": "[star] <b>Interruzione</b>: Quando Kid Due Pistole effettua un attacco base, scegli 2 nemici invece di 1 e risolvi questo attacco contro ognuno di essi.",
+        "traits": "Avenger.",
+        "flavor": "\"Bene gente, al vostro segnale.\"",
+        "subname": "Matthew Hawk"
     },
     {
         "code": "56012",
-        "name": "Air Cover",
-        "text": "Uses (2 fuel counters). Max 1 per player.\n<b>Response</b>: After a minion enters play, exhaust this card and remove 1 fuel counter from it → search your deck and discard pile for a [[Tactic]] upgrade that can be attached to that minion and add it to your hand.",
-        "traits": "Tech."
+        "name": "Copertura Aerea",
+        "text": "Utilizzo (2 gettoni carburante). Massimo 1 per giocatore.\n<b>Risposta</b>: Dopo che un gregario è entrato in gioco, esaurisci questa carta e rimuovi 1 gettone carburante da essa → cerca nel tuo mazzo e nella tua pila degli scarti 1 miglioria [[Tattica]] che possa essere assegnata a quel gregario e aggiungila alla tua mano.",
+        "traits": "Tecnologia."
     },
     {
         "code": "56013",
-        "name": "Aggressive Conditioning",
-        "text": "Play under any player's control. Max 1 per player.\nYou get +3 hit points and your hero gets +1 ATK.",
-        "traits": "Condition."
+        "name": "Condizionamento Offensivo",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\nRicevi +3 punti ferita e il tuo eroe riceve +1 ATT.",
+        "traits": "Condizione."
     },
     {
         "code": "56016",
-        "flavor": "\"I'm putting an end to this – right now!\" —Black Knight",
-        "name": "Coup de Grâce",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Defeat a non-[[Elite]] minion with an upgrade attached. Ignore any \"<b>When Defeated</b>\" abilities on that minion.",
-        "traits": "Attack."
+        "name": "Colpo di Grazia",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Sconfiggi 1 gregario non [[Elite]] con una miglioria. Ignora ogni capacità \"<b>Quando Sconfitta</b>\" su quel gregario.",
+        "traits": "Attacco.",
+        "flavor": "\"Intendo porre fine a tutto questo... immediatamente!\" —Cavaliere Nero"
     },
     {
         "code": "56017",
-        "flavor": "KRACK!",
-        "name": "Savage Strike",
-        "text": "<b>Hero Interrupt</b>: When you make a basic attack, you get +6 ATK for this attack. This attack gains piercing.",
-        "traits": "Skill."
+        "name": "Colpo Selvaggio",
+        "text": "<b>Interruzione Eroe</b>: Quando effettui un attacco base, ricevi +6 ATT per questo attacco. Questo attacco ottiene Perforante.",
+        "traits": "Abilità.",
+        "flavor": "KRACK!"
     },
     {
         "code": "56019",
-        "flavor": "\"I know what I have to do.\"",
-        "name": "Yellow Jacket",
-        "subname": "Hank Pym",
-        "text": "Play only if you have the [[Avenger]] trait.\n<b>Response</b>: After Yellow Jacket enters play, search the top 5 cards of your deck for an upgrade and add it to your hand.",
-        "traits": "Avenger."
+        "name": "Calabrone",
+        "text": "Gioca solo se possiedi il tratto [[Avenger]].\n<b>Risposta</b>: Dopo che Calabrone è entrato in gioco, cerca tra le 5 carte in cima al tuo mazzo 1 miglioria e aggiungila alla tua mano.",
+        "traits": "Avenger.",
+        "flavor": "\"So quello che devo fare.\"",
+        "subname": "Hank Pym"
     },
     {
         "code": "56029a",
         "name": "Hulkling",
-        "text": "<i>Chosen Shape</i> — <b>Forced Response</b>: After a [[Shapeshift]] upgrade enters play under your control, discard each other [[Shapeshift]] upgrade you control and ready Hulkling.",
-        "traits": "Avenger. Kree. Skrull."
+        "text": "<i>Forma Preferita</i> — <b>Risposta Obbligata</b>: Dopo che una miglioria [[Metamorfosi]] è entrata in gioco sotto il tuo controllo, scarta ogni altra miglioria [[Metamorfosi]] che controlli e ripristina Hulkling.",
+        "traits": "Avenger. Kree. Skrull.",
+        "flavor": "\"Che forza!\""
     },
     {
         "code": "56029b",
         "name": "Teddy Altman",
-        "text": "You cannot have more than 1 [[Shapeshift]] upgrade in play.\n<i>Shape-Changer</i> — <b>Action</b>: Search your deck and discard pile for a [[Shapeshift]] upgrade and add it to your hand. (Limit once per round.)",
+        "text": "Non puoi avere più di 1 miglioria [[Metamorfosi]] in gioco.\n<i>Nuova Forma</i> — <b>Azione</b>: Cerca nel tuo mazzo e nella tua pila degli scarti 1 miglioria [[Metamorfosi]] e aggiungila alla tua mano. (Limite di una volta per round.)",
         "traits": "Kree. Skrull."
     },
     {
         "code": "56030",
-        "flavor": "\"Hang on, Teddy! I got your back!\"",
         "name": "Wiccan",
-        "subname": "William Kaplan",
-        "text": "<b>Response</b>: After you play Wiccan from your hand, search your deck and discard pile for an identity-specific event and add it to your hand. <i>(Shuffle.)</i>",
-        "traits": "Avenger. Mystic."
+        "text": "<b>Risposta</b>: Dopo che hai giocato Wiccan dalla tua mano, cerca nel tuo mazzo e nella tua pila degli scarti 1 evento specifico di identità e aggiungilo alla tua mano. <i>(Mescola.)</i>",
+        "traits": "Avenger. Mistico.",
+        "flavor": "\"Tieni duro, Teddy! Puoi contare su di me!\"",
+        "subname": "William Kaplan"
     },
     {
         "code": "56031",
-        "name": "Altman Residence",
-        "text": "<b>Alter-Ego Action</b>: Exhaust Altman Residence → heal 2 damage from Teddy Altman and shuffle 1 Hulkling card from your discard pile into your deck.",
-        "traits": "Location."
+        "name": "Residenza degli Altman",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci Residenza degli Altman → cura 2 danni a Teddy Altman e mescola nel tuo mazzo 1 carta del set Hulkling dalla tua pila degli scarti.",
+        "traits": "Luogo.",
+        "flavor": "Per nascondere le sue vere origini, Teddy è stato affidato alle cure della signora Altman sin da neonato."
     },
     {
         "code": "56032",
-        "name": "Winged Shape",
-        "text": "Hulkling gets +1 THW, +1 ATK, +1 DEF, and gains the [[Aerial]] trait.\n<b>Hero Response</b>: After you play an event, exhaust Winged Shape → remove 2 threat from a scheme.",
-        "traits": "Shapeshift."
+        "name": "Forma Alata",
+        "text": "Hulkling riceve +1 INT, +1 ATT, +1 DIF e ottiene il tratto [[Aereo]].\n<b>Risposta Eroe</b>: Dopo che hai giocato un evento, esaurisci Forma Alata → rimuovi 2 minacce da una trama.",
+        "traits": "Metamorfosi."
     },
     {
         "code": "56033",
-        "name": "Hulk Shape",
-        "text": "Hulkling gets +2 ATK and +1 DEF.\n<b>Hero Response</b>: After you play an event, exhaust Hulk Shape → deal 2 damage to an enemy.",
-        "traits": "Shapeshift."
+        "name": "Forma da Hulk",
+        "text": "Hulkling riceve +2 ATT e +1 DIF.\n<b>Risposta Eroe</b>: Dopo che hai giocato un evento, esaurisci Forma da Hulk → infliggi 2 danni a un nemico.",
+        "traits": "Metamorfosi."
     },
     {
         "code": "56034",
-        "name": "Armored Shape",
-        "text": "Hulkling gets +1 ATK, +2 DEF, and gains retaliate 1.\n<b>Hero Response</b>: After you play an event, exhaust Armored Shape → heal 2 damage from Hulkling.",
-        "traits": "Shapeshift."
+        "name": "Forma Corazzata",
+        "text": "Hulkling riceve +1 ATT, +2 DIF e ottiene Ritorsione 1.\n<b>Risposta Eroe</b>: Dopo che hai giocato un evento, esaurisci Forma Corazzata → cura 2 danni a Hulkling.",
+        "traits": "Metamorfosi."
     },
     {
         "code": "56035",
-        "name": "Imitation Shape",
-        "text": "Hulkling gets +2 THW.\n<b>Forced Interrupt</b>: When an enemy would attack you, it schemes instead.\n<b>Hero Response</b>: After you play an event, exhaust Imitation Shape → draw 1 card.",
-        "traits": "Shapeshift."
+        "name": "Forma Imitatrice",
+        "text": "Hulkling riceve +2 INT.\n<b>Interruzione Obbligata</b>: Quando un nemico sta per attaccarti, invece trama.\n<b>Risposta Eroe</b>: Dopo che hai giocato un evento, esaurisci Forma Imitatrice → pesca 1 carta.",
+        "traits": "Metamorfosi."
     },
     {
         "code": "56036",
-        "flavor": "\"When I first discovered my powers, I thought I was a mutant. But it turns out I'm an alien!\"",
-        "name": "Alien Physiology",
-        "text": "<b>Resource</b>: Exhaust Alien Physiology → generate a [wild] resource ([wild] [wild] resources instead if paying for a Hulkling card).",
-        "traits": "Superpower."
+        "name": "Fisiologia Aliena",
+        "text": "<b>Risorsa</b>: Esaurisci Fisiologia Aliena → genera [wild] ([wild] [wild] se invece stai pagando per una carta del set Hulkling).",
+        "traits": "Superpotere.",
+        "flavor": "\"Non appena ho scoperto di avere dei poteri, ho pensato di essere un mutante... Ma a quanto pare sono un alieno!\""
     },
     {
         "code": "56037",
-        "flavor": "\"You don't touch my friends!\" —Hulkling",
-        "name": "Shapeshifter Strike",
-        "text": "<b>Hero Action</b> <i>(attack)</i>: Deal 5 damage to an enemy. Ready your [[Shapeshift]] upgrade.",
-        "traits": "Attack. Superpower."
+        "name": "Colpo del Mutaforma",
+        "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 5 danni a un nemico. Ripristina la tua miglioria [[Metamorfosi]].",
+        "traits": "Attacco. Superpotere.",
+        "flavor": "\"Giù le mani dai miei amici!\" —Hulkling"
     },
     {
         "code": "56038",
-        "name": "Armored Defense",
-        "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, deal damage to it equal to your DEF. After this attack, give Hulkling a tough status card.",
-        "traits": "Defense. Superpower."
+        "name": "Difesa Corazzata",
+        "text": "<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando un nemico attacca, infliggigli un ammontare di danni pari alla tua DIF. Dopo questo attacco, irrobustisci Hulkling.",
+        "traits": "Difesa. Superpotere."
     },
     {
         "code": "56039",
-        "flavor": "\"I'm the Young Avengers' resident shape-changer.\" —Hulkling",
-        "name": "Impersonation",
-        "text": "<b>Hero Action</b> <i>(thwart)</i>: Remove 4 threat from a scheme. If this removes the last threat from that scheme, you may change to alter-ego form.",
-        "traits": "Superpower. Thwart."
+        "name": "Emulazione",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 4 minacce da una trama. Se farlo rimuove l'ultima minaccia da quella trama, puoi assumere la sembianza di alter ego.",
+        "traits": "Intervento. Superpotere.",
+        "flavor": "\"Sono il mutaforma a chilometro zero degli Young Avengers.\" —Hulkling"
     },
     {
         "code": "56040",
-        "flavor": "\"Didn't see that coming, did you?\" —Hulkling",
-        "name": "Shapeshifter",
-        "text": "<b>Hero Action</b>: Search your deck and discard pile for a [[Shapeshift]] upgrade and add it to your hand. <i>(Shuffle.)</i>",
-        "traits": "Superpower."
+        "name": "Mutaforma",
+        "text": "<b>Azione Eroe</b>: Cerca nel tuo mazzo e nella tua pila degli scarti 1 miglioria [[Metamorfosi]] e aggiungila alla tua mano. <i>(Mescola.)</i>",
+        "traits": "Superpotere.",
+        "flavor": "\"Non te l'aspettavi, eh?\" —Hulkling"
     },
     {
         "code": "56041",
-        "flavor": "\"I'm ready for anything.\"",
         "name": "Patriot",
-        "subname": "Elijah Bradley",
-        "text": "<b>Response</b>: After you engage a minion, give Patriot a tough status card.",
-        "traits": "Avenger."
+        "text": "<b>Risposta</b>: Dopo che hai impegnato un gregario, irrobustisci Patriot.",
+        "traits": "Avenger.",
+        "flavor": "\"Sono pronto a tutto.\"",
+        "subname": "Elijah Bradley"
     },
     {
         "code": "56043",
-        "name": "Hidden Base",
-        "text": "Uses (3 stronghold counters).\n<b>Alter-Ego Response</b>: After you change form, exhaust Hidden Base and remove 1 stronghold counter from it → give your identity a tough status card.",
-        "traits": "Location."
+        "name": "Base Segreta",
+        "text": "Utilizzo (3 gettoni roccaforte).\n<b>Risposta Alter Ego</b>: Dopo che hai cambiato sembianza, esaurisci Base Segreta e rimuovi 1 gettone roccaforte da essa → irrobustisci la tua identità.",
+        "traits": "Luogo."
     },
     {
         "code": "56045",
         "name": "Excelsior",
-        "text": "Restricted. <i>(Max 2 restricted cards per player.)</i>\n<b>Response</b>: After your hero defends against an enemy attack, spend a [energy] resource → deal 2 damage to an enemy.",
-        "traits": "Kree. Skrull. Weapon."
+        "text": "Restrizione. <i>(Massimo 2 carte con Restrizione per ogni giocatore.)</i>\n<b>Risposta</b>: Dopo che il tuo eroe ha difeso contro un attacco nemico, spendi [energy] → infliggi 2 danni a un nemico.",
+        "traits": "Arma. Kree. Skrull."
     },
     {
         "code": "56046",
-        "name": "Defensive Conditioning",
-        "text": "Play under any player's control. Max 1 per player.\nYou get +3 hit points and your hero gets +1 DEF.",
-        "traits": "Condition."
+        "name": "Condizionamento Difensivo",
+        "text": "Gioca sotto il controllo di un qualsiasi giocatore. Massimo 1 per giocatore.\nRicevi +3 punti ferita e il tuo eroe riceve +1 DIF.",
+        "traits": "Condizione."
     },
     {
         "code": "56047",
-        "name": "\"I Can Do This All Day\"",
-        "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, declare your hero as the defender without exhausting them.",
-        "traits": "Defense."
+        "name": "\"Ho tutto il giorno libero!\"",
+        "text": "<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando un nemico attacca, dichiara il tuo eroe come difensore senza esaurirlo.",
+        "traits": "Difesa."
     },
     {
         "code": "56050",
-        "flavor": "\"Two can play that game!\" —Wiccan",
-        "name": "Cuts Both Ways",
-        "text": "<b>Hero Interrupt</b> <i>(defense)</i>: When an enemy attacks, you gain retaliate 1 until the end of the phase.",
-        "traits": "Defense."
+        "name": "Lama a Doppio Taglio",
+        "text": "<b>Interruzione Eroe</b> <i>(difesa)</i>: Quando un nemico attacca, ottieni Ritorsione 1 fino alla fine della fase.",
+        "traits": "Difesa.",
+        "flavor": "\"Chi la fa l'aspetti!\" —Wiccan"
     },
     {
         "code": "56052",
-        "flavor": "\"We became Young Avengers for a reason.\"",
         "name": "Iron Lad",
-        "subname": "Nathaniel Richards",
-        "text": "[star] <b>Interrupt</b>: When Iron Lad uses a basic power, exhaust another [[Avenger]] ally you control → add that ally's matching power to Iron Lad's power for this use.",
-        "traits": "Avenger."
+        "text": "[star] <b>Interruzione</b>: Quando Iron Lad usa un potere base, esaurisci 1 altro alleato [[Avenger]] che controlli → aggiungi il suo potere corrispondente al potere di Iron Lad per questo uso.",
+        "traits": "Avenger.",
+        "flavor": "\"C'è un motivo se siamo diventati gli Young Avengers.\"",
+        "subname": "Nathaniel Richards"
     },
     {
         "code": "56129",
-        "flavor": "\"Steve's thinking is stuck in the past. This is the future, whether he likes it or not.\" —Iron Man",
-        "name": "The Futurist",
-        "text": "<b>Action</b>: Your Iron Man leader schemes. Do not give him a boost card for this activation."
+        "name": "Futurologo",
+        "text": "<b>Azione</b>: Il tuo leader Iron Man trama. Non fargli ricevere la carta potenziamento per questa attivazione.",
+        "flavor": "\"Steve non pensa in modo moderno. Questo è il futuro, che gli piaccia o no.\" —Iron Man"
     },
     {
         "code": "56130",
-        "name": "Target Lock",
-        "text": "<b>Action</b>: Your Iron Man leader attacks the enemy leader. If you spent a [mental] resource to pay for this event, choose an attachment on the enemy leader with the text \"<b>Hero Response</b>\" or \"<b>Hero Interrupt</b>\" and discard it."
+        "name": "Mirino sul Bersaglio",
+        "text": "<b>Azione</b>: Il tuo leader Iron Man attacca il leader nemico. Se hai speso [mental] per pagare questo evento, scegli 1 aggiunta sul leader nemico con il testo \"<b>Risposta Eroe</b>\" o \"<b>Interruzione Eroe</b>\" e scartala."
     },
     {
         "code": "56131",
-        "name": "High-Tech Suit",
-        "text": "Attach to your Iron Man leader. Counts as a [[Tech]] attachment.\n<b>Hero Action</b>: Spend [energy] [mental] resources → discard this card. Any player may trigger this ability."
+        "name": "Tuta High-Tech",
+        "text": "Assegna al tuo leader Iron Man. Conta come un'aggiunta [[Tecnologia]].\n<b>Azione Eroe</b>: Spendi [energy] [mental] → scarta questa carta. Qualsiasi giocatore può innescare questa capacità."
     },
     {
         "code": "56132",
-        "name": "Suit Up",
-        "text": "<b>Hero Response</b>: After you spend this resource, give your Iron Man leader a tough status card."
+        "name": "Vestizione",
+        "text": "<b>Risposta Eroe</b>: Dopo che hai speso questa risorsa, irrobustisci il tuo leader Iron Man."
     },
     {
         "code": "56133",
-        "name": "Provoked Response",
-        "text": "<b>Forced Interrupt</b>: When the enemy leader would attack you, it attacks your Captain Marvel leader instead. She cannot take more than 3 damage from this attack. Discard this card."
+        "name": "Provocare una Reazione",
+        "text": "<b>Interruzione Obbligata</b>: Quando il leader nemico sta per attaccarti, attacca invece il tuo leader Capitan Marvel. Capitan Marvel non può subire più di 3 danni da questo attacco. Scarta questa carta."
     },
     {
         "code": "56134",
-        "flavor": "\"You should've known this was coming!\" —Captain Marvel",
-        "name": "You Started This",
-        "text": "<b>Action</b>: Your Captain Marvel leader attacks the enemy leader. If you spent a [energy] resource to pay for this event, confuse the enemy leader."
+        "name": "\"L'Hai Voluto Tu\"",
+        "text": "<b>Azione</b>: Il tuo leader Capitan Marvel attacca il leader nemico. Se hai speso [energy] per pagare questo evento, confondi il leader nemico.",
+        "flavor": "\"Te lo saresti dovuto aspettare!\" —Capitan Marvel"
     },
     {
         "code": "56135",
-        "name": "Alpha Flight Recruit",
-        "text": "Attach to an ally.\n<b>Response</b>: After any number of energy counters are placed on your Captain Marvel leader's Energy Channel attachment, heal 1 damage from attached ally.",
-        "traits": "Title."
+        "name": "Recluta dell'Alpha Flight",
+        "text": "Assegna a un alleato.\n<b>Risposta</b>: Dopo che sono stati collocati 1 o più gettoni energia sull'aggiunta Incanalare Energia del tuo leader Capitan Marvel, cura 1 danno all'alleato con questa miglioria.",
+        "traits": "Titolo."
     },
     {
         "code": "56136",
-        "name": "Raw Power",
-        "text": "<b>Hero Response</b>: After you spend this resource, place 2 energy counters on your Captain Marvel leader's Energy Channel attachment."
+        "name": "Potere allo Stato Puro",
+        "text": "<b>Risposta Eroe</b>: Dopo che hai speso questa risorsa, colloca 2 gettoni energia sull'aggiunta Incanalare Energia del tuo leader Capitan Marvel."
     },
     {
         "code": "56207",
-        "name": "No, You Move!",
-        "text": "<b>Forced Interrupt</b>: When the enemy leader would attack you, attach Cap's Shield to your Captain America leader and resolve this attack against him instead. Discard this card."
+        "name": "No, Spostati Tu!",
+        "text": "<b>Interruzione Obbligata</b>: Quando il leader nemico sta per attaccarti, assegna Scudo di Cap al tuo leader Capitan America e risolvi invece questo attacco contro di lui. Scarta questa carta."
     },
     {
         "code": "56208",
-        "flavor": "\"Things are different this time. Now I'm fighting dirty.\" —Captain America",
-        "name": "Fighting Dirty",
-        "text": "<b>Action</b>: Your Captain America leader attacks the enemy leader. If you spent a [physical] resource to pay for this event, stun the enemy leader."
+        "name": "Giocare Sporco",
+        "text": "<b>Azione</b>: Il tuo leader Capitan America attacca il leader nemico. Se hai speso [physical] per pagare questo evento, stordisci il leader nemico.",
+        "flavor": "\"Questa volta è diverso. Ora gioco sporco.\" —Capitan America"
     },
     {
         "code": "56209",
-        "flavor": "\"We're glad to have you on our side.\" —Captain America",
-        "name": "Recruited by Cap",
-        "text": "<b>Action<b/>: Choose a minion engaged with you and choose a player on the enemy team. That minion engages that player."
+        "name": "Reclutato da Cap",
+        "text": "<b>Azione</b>: Scegli 1 gregario impegnato con te e 1 giocatore nella squadra nemica. Quel gregario impegna quel giocatore.",
+        "flavor": "\"Siamo felici di averti dalla nostra parte.\" —Capitan America"
     },
     {
         "code": "56210",
-        "name": "The People's Hero",
-        "text": "<b>Hero Response</b>: After you spend this resource, give your Captain America leader a facedown boost card."
+        "name": "Eroe del Popolo",
+        "text": "<b>Risposta Eroe</b>: Dopo che hai speso questa risorsa, fai ricevere 1 carta potenziamento a faccia in giù al tuo leader Capitan America."
     },
     {
         "code": "56211",
-        "flavor": "\"When someone targets one of us, they answer to all of us.\" —Spider-Woman",
-        "name": "Double Agent",
-        "text": "<b>Action</b>: Remove 2 threat from the main scheme. Place 2 threat on your leader's main scheme."
+        "name": "Agente Doppiogiochista",
+        "text": "<b>Azione</b>: Rimuovi 2 minacce dalla trama principale. Colloca 2 minacce sulla trama principale del tuo leader.",
+        "flavor": "\"Quando qualcuno prende di mira uno dei nostri, dovrà risponderne a tutti noi.\" —Spider-Woman"
     },
     {
         "code": "56212",
-        "flavor": "\"From now on Spider-Woman fights back!\" —Spider-Woman",
-        "name": "Spider-Blast",
-        "text": "<b>Action</b>: Your Spider-Woman leader attacks the enemy leader. If you spent a [mental] resource to pay for this event, confuse the enemy leader."
+        "name": "Spider-Scarica",
+        "text": "<b>Azione</b>: Il tuo leader Spider-Woman attacca il leader nemico. Se hai speso [mental] per pagare questo evento, confondi il leader nemico.",
+        "flavor": "\"D'ora in avanti, Spider-Woman reagirà!\" —Spider-Woman"
     },
     {
         "code": "56213",
-        "name": "Hard to Hit",
-        "text": "Attach to your Spider-Woman leader and give her a tough status card.\n<b>Forced Response</b>: After attached Spider-Woman resolves an attack, place 2 skill counters on her Finesse attachment. Discard this card.",
-        "traits": "Skill."
+        "name": "Difficile da Colpire",
+        "text": "Assegna al tuo leader Spider-Woman e irrobustiscila.\n<b>Risposta Obbligata</b>: Dopo che Spider-Woman con questa miglioria ha risolto un attacco, colloca 2 gettoni abilità sulla sua aggiunta Grazia. Scarta questa carta.",
+        "traits": "Abilità."
     },
     {
         "code": "56214",
-        "name": "Secret Contact",
-        "text": "<b>Hero Response</b>: After you spend this resource, place 2 skill counters on your Spider-Woman leader's Finesse attachment."
+        "name": "Contatto Segreto",
+        "text": "<b>Risposta Eroe</b>: Dopo che hai speso questa risorsa, colloca 2 gettoni abilità sull'aggiunta Grazia del tuo leader Spider-Woman."
     }
 ]
