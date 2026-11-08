@@ -61,6 +61,7 @@ To check and apply formatting to JSON files:
 * **attack_star** - Whether a star appears in the attack field indicating a special ability
 * **back_flavor** - The flavor text on the back of a card (pair with **double_sided**)
 * **back_link** - link to the code of the back side of the card (incompatible with the **double_sided** method). Do not forget to set the back card to **hidden**
+* **back_name** - The name on the back of a card (pair with **double_sided**)
 * **back_text** - The text on the back of a card (pair with **double_sided**)
 * **base_threat** - The starting threat on a card. By default, it is per hero.
 * **base_threat_fixed** - Whether the **base_threat** is fixed and not per hero

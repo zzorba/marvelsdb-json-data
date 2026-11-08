@@ -27,10 +27,17 @@
 		},
 		"back_flavor": {
 			"minLength": 1,
+			"translatable": true,
+			"type": "string"
+		},
+		"back_name": {
+			"minLength": 1,
+			"translatable": true,
 			"type": "string"
 		},
 		"back_text": {
 			"minLength": 1,
+			"translatable": true,
 			"type": "string"
 		},
 		"base_threat": {
@@ -180,6 +187,7 @@
 		},
 		"flavor": {
 			"minLength": 0,
+			"translatable": true,
 			"type": "string"
 		},
 		"hand_size": {
@@ -215,6 +223,7 @@
 		},
 		"name": {
 			"minLength": 1,
+			"translatable": true,
 			"type": "string"
 		},
 		"pack_code": {
@@ -285,10 +294,12 @@
 		},
 		"subname": {
 			"minLength": 1,
+			"translatable": true,
 			"type": "string"
 		},
 		"text": {
 			"minLength": 1,
+			"translatable": true,
 			"type": "string"
 		},
 		"threat": {
@@ -331,6 +342,7 @@
 		},
 		"traits": {
 			"minLength": 0,
+			"translatable": true,
 			"type": "string"
 		},
 		"type_code": {
