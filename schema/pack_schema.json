@@ -1,5 +1,8 @@
 {
 	"additionalProperties": false,
+	"items": {
+		"$ref": "#"
+	},
 	"properties": {
 		"cgdb_id": {
 			"oneOf": [
@@ -62,5 +65,8 @@
 		"date_release",
 		"size"
 	],
-	"type": "object"
+	"type": [
+		"object",
+		"array"
+	]
 }
