@@ -1,17 +1,17 @@
 [
     {
         "code": "42001a",
-        "flavor": "\"Mi sento davvero libero solo mentre volo!\"",
         "name": "Angelo",
         "text": "<i>Angelo della Vita</i> — <b>Risposta</b>: Dopo che hai giocato un evento [[AEREO]], pesca 1 carta. (Limite di una volta per fase.)",
-        "traits": "Aereo. X-Force."
+        "traits": "Aereo. X-Force.",
+        "flavor": "\"Mi sento davvero libero solo mentre volo!\""
     },
     {
         "code": "42001b",
-        "flavor": "\"Per poter vivere in questa società devo tenere legate le mie ali e nascondere chi sono davvero.\"",
         "name": "Warren Worthington III",
         "text": "<i>Ricrescita</i> — <b>Azione</b>: Cura 1 danno a Warren Worthington III. (Limite di una volta per round.)",
-        "traits": "Mutante."
+        "traits": "Mutante.",
+        "flavor": "\"Per poter vivere in questa società devo tenere legate le mie ali e nascondere chi sono davvero.\""
     },
     {
         "code": "42001c",
@@ -22,14 +22,14 @@
     {
         "code": "42002",
         "name": "Psylocke",
-        "subname": "Betsy Braddock",
         "text": "[star] <b>Risposta Eroe</b>: Dopo che Psylocke ha attaccato, se sei:\n• Angelo, cura 1 danno a Psylocke.\n• Arcangelo, ripristina il tuo eroe.",
-        "traits": "Psionico. X-Force."
+        "traits": "Psionico. X-Force.",
+        "subname": "Betsy Braddock"
     },
     {
         "code": "42003",
         "name": "Piumaggio Adattivo",
-        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Se sei Angelo, rimuovi 3 minacce da una trama e confondi 1 nemico.\n<b>Azione Eroe</b> <i>(attacco)</i>: Se sei Arcangelo, ingliffi 4 danni a un nemico e stordiscilo.",
+        "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Se sei Angelo, rimuovi 3 minacce da una trama e confondi 1 nemico.\n<b>Azione Eroe</b> <i>(attacco)</i>: Se sei Arcangelo, infliggi 4 danni a un nemico e stordiscilo.",
         "traits": "Aereo. Attacco. Intervento."
     },
     {
@@ -46,17 +46,17 @@
     },
     {
         "code": "42006",
-        "flavor": "\"Rilassati, pensa solo a goderti il volo.\" — Angelo",
         "name": "Volo Naturale",
         "text": "<b>Azione Eroe</b> <i>(intervento)</i>: Rimuovi 4 minacce da una trama. Se sei Angelo, questo intervento ignora l'icona crisi ([crisis]) e la parola chiave Pattuglia.",
-        "traits": "Aereo. Intervento."
+        "traits": "Aereo. Intervento.",
+        "flavor": "\"Rilassati, pensa solo a goderti il volo.\" — Angelo"
     },
     {
         "code": "42007",
-        "flavor": "Apocalisse ha sostituito le ali naturali di Angelo con una variante tecno-organica affilata come un rasoio.",
         "name": "Tuffo Affilato",
         "text": "<b>Azione Eroe</b> <i>(attacco)</i>: Infliggi 6 danni a un nemico. Se sei Arcangelo, questo attacco ottiene Perforante e Sopraffazione.",
-        "traits": "Aereo. Attacco."
+        "traits": "Aereo. Attacco.",
+        "flavor": "Apocalisse ha sostituito le ali naturali di Angelo con una variante tecno-organica affilata come un rasoio."
     },
     {
         "code": "42008",
@@ -65,38 +65,38 @@
     },
     {
         "code": "42009",
-        "flavor": "In quanto amministratore delegato, Warren ha a sua disposizione le immense risorse delle Industrie Worthington, l'azienda della sua famiglia.",
         "name": "Industrie Worthington",
         "text": "<b>Azione</b>: Esaurisci Industrie Worthington → mescola nel tuo mazzo 1 carta [[AEREO]] dalla tua pila degli scarti. Se sei nella sembianza di alter ego, pesca 1 carta.",
-        "traits": "Luogo. "
+        "traits": "Luogo. ",
+        "flavor": "In quanto amministratore delegato, Warren ha a sua disposizione le immense risorse delle Industrie Worthington, l'azienda della sua famiglia."
     },
     {
         "code": "42010",
         "name": "Ali Tecno-Organiche",
-        "text": "<b>Azione Eroe</b>: Esaurisci Ali Tecni-Organiche → se sei:\n• Angelo, ripristina il tuo eroe.\n• Arcangelo, riduci di 2 il costo in risorse del prossimo evento [[AEREO]] che giochi dalla tua mano in questa fase.",
+        "text": "<b>Azione Eroe</b>: Esaurisci Ali Tecno-Organiche → se sei:\n• Angelo, ripristina il tuo eroe.\n• Arcangelo, riduci di 2 il costo in risorse del prossimo evento [[AEREO]] che giochi dalla tua mano in questa fase.",
         "traits": "Superpotere. Tecnologia."
     },
     {
         "code": "42011",
         "name": "Elixir",
-        "subname": "Josh Foley",
         "text": "Gioca solo se la tua identità possiede il tratto [[X-FORCE]] o [[X-MEN]]. [star] <b>Risposta</b>: Dopo che Elixir ha attaccato o è intervenuto, cura 1 danno a un altro personaggio amico.",
-        "traits": "X-Force."
+        "traits": "X-Force.",
+        "subname": "Josh Foley"
     },
     {
         "code": "42012",
-        "flavor": "\"IIIIIIIIIIIIIIIIIIIIIIIIIIHHH!\"",
         "name": "Siryn",
-        "subname": "Theresa Cassidy",
         "text": "[star] <b>Risposta</b>: Dopo che Siryn ha attaccato, stordisci 1 gregario.",
-        "traits": "Aereo. X-Force."
+        "traits": "Aereo. X-Force.",
+        "flavor": "\"IIIIIIIIIIIIIIIIIIIIIIIIIIHHH!\"",
+        "subname": "Theresa Cassidy"
     },
     {
         "code": "42013",
         "name": "Warpath",
-        "subname": "James Proudstar",
         "text": "Robustezza.\n<b>Risposta Eroe</b>: Dopo che Warpath ha difeso da un attacco, gioca dalla tua mano 1 evento con una capacità \"<b>Azione Eroe</b>\" <i>(pagandone il costo)</i>.",
-        "traits": "Aereo. X-Force."
+        "traits": "Aereo. X-Force.",
+        "subname": "James Proudstar"
     },
     {
         "code": "42014",
@@ -106,23 +106,23 @@
     },
     {
         "code": "42015",
-        "flavor": "\"Faccio tutto come se fossi un falco\" — Arcangelo",
         "name": "Sempre Vigile",
         "text": "Gioca solo se la tua identità possiede il tratto [[AEREO]].\n<b>Azione Eroe</b>: Ripristina il tuo eroe e rimuovi 2 minacce dalla trama principale.",
-        "traits": "Aereo. Abilità."
+        "traits": "Aereo. Abilità.",
+        "flavor": "\"Faccio tutto come se fossi un falco\" — Arcangelo"
     },
     {
         "code": "42016",
-        "flavor": "\"Hey! Fido! Chi ti ha tolto il guinzaglio?\" — Jubilee",
         "name": "Provocazione",
         "text": "<b>Azione Eroe</b>: Il criminale ti attacca. Gli altri personaggi non possono difendere da questo attacco. Pesca 3 carte.",
-        "traits": "Tattica."
+        "traits": "Tattica.",
+        "flavor": "\"Hey! Fido! Chi ti ha tolto il guinzaglio?\" — Jubilee"
     },
     {
         "code": "42017",
-        "flavor": "\"Portate i casi più gravi alla villa. Riceveranno le cure necessarie.\" — Bestia",
         "name": "Prestare Soccorso Medico",
-        "text": "Vittoria 0.\n<b>Quando Sconfitta</b>: Ogni giocatore cura un totale di 5 danni ai personaggi che controlla."
+        "text": "Vittoria 0.\n<b>Quando Sconfitta</b>: Ogni giocatore cura un totale di 5 danni ai personaggi che controlla.",
+        "flavor": "\"Portate i casi più gravi alla villa. Riceveranno le cure necessarie.\" — Bestia"
     },
     {
         "code": "42018",
@@ -138,11 +138,11 @@
     },
     {
         "code": "42020",
-        "flavor": "\"Vedete di farvi da parte quando parto col botto!\"",
         "name": "Cannonball",
-        "subname": "Sam Guthrie",
         "text": "<b>Interruzione</b>: Quando Cannonball sta per subire un qualsiasi ammontare di danni conseguenti, riduci di X quell'ammontare, dove X è pari al numero di carte [[AEREO]] nella tua mano.",
-        "traits": "Aereo. X-Force."
+        "traits": "Aereo. X-Force.",
+        "flavor": "\"Vedete di farvi da parte quando parto col botto!\"",
+        "subname": "Sam Guthrie"
     },
     {
         "code": "42022",
@@ -169,10 +169,10 @@
     },
     {
         "code": "42031",
-        "flavor": "\"Bobby, in formazione, con me!\" — Arcangelo",
         "name": "Formazione di Volo",
         "text": "Alleanza. <i>(I giocatori possono pagare i costi di questa carta come gruppo.)</i>\n<b>Azione Eroe</b>: Ripristina fino a 3 personaggi [[AEREO]].",
-        "traits": "Aereo. Tattica."
+        "traits": "Aereo. Tattica.",
+        "flavor": "\"Bobby, in formazione, con me!\" — Arcangelo"
     },
     {
         "code": "42032",
