@@ -1,10 +1,28 @@
 {
-	"additionalProperties": true,
+	"additionalProperties": false,
+	"anyOf": [
+		{
+			"required": [
+				"duplicate_of"
+			]
+		},
+		{
+			"required": [
+				"faction_code",
+				"name",
+				"octgn_id",
+				"type_code"
+			]
+		}
+	],
 	"dependencies": {
 		"name": [
 			"faction_code",
 			"type_code"
 		]
+	},
+	"items": {
+		"$ref": "#"
 	},
 	"properties": {
 		"attack": {
@@ -26,6 +44,14 @@
 			"type": "boolean"
 		},
 		"back_flavor": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"back_link": {
+			"pattern": "^[0-9]{5}[abcdef]?$",
+			"type": "string"
+		},
+		"back_name": {
 			"minLength": 1,
 			"type": "string"
 		},
@@ -91,7 +117,7 @@
 					},
 					"resource": {
 						"items": {
-							"minlength": 1,
+							"minLength": 1,
 							"type": "string"
 						},
 						"minItems": 1,
@@ -99,7 +125,7 @@
 					},
 					"trait": {
 						"items": {
-							"minlength": 1,
+							"minLength": 1,
 							"type": "string"
 						},
 						"minItems": 1,
@@ -107,7 +133,7 @@
 					},
 					"type": {
 						"items": {
-							"minlength": 1,
+							"minLength": 1,
 							"type": "string"
 						},
 						"minItems": 1,
@@ -199,12 +225,15 @@
 		"health_star": {
 			"type": "boolean"
 		},
+		"hidden": {
+			"type": "boolean"
+		},
 		"illustrator": {
 			"pattern": ".*",
 			"type": "string"
 		},
 		"is_unique": {
-			"oneof": [
+			"oneOf": [
 				{
 					"type": "boolean"
 				},
@@ -213,8 +242,34 @@
 				}
 			]
 		},
+		"meta": {
+			"oneOf": [
+				{
+					"additionalProperties": false,
+					"properties": {
+						"colors": {
+							"items": {
+								"type": "string"
+							},
+							"type": "array"
+						},
+						"offset": {
+							"type": "string"
+						}
+					},
+					"type": "object"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
 		"name": {
 			"minLength": 1,
+			"type": "string"
+		},
+		"octgn_id": {
+			"pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})?$",
 			"type": "string"
 		},
 		"pack_code": {
@@ -260,7 +315,22 @@
 			"minLength": 1,
 			"type": "string"
 		},
+		"scheme": {
+			"oneOf": [
+				{
+					"minimum": -1,
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
 		"scheme_acceleration": {
+			"minimum": 1,
+			"type": "integer"
+		},
+		"scheme_amplify": {
 			"minimum": 1,
 			"type": "integer"
 		},
@@ -278,6 +348,10 @@
 		"set_code": {
 			"minLength": 1,
 			"type": "string"
+		},
+		"set_position": {
+			"minimum": 1,
+			"type": "integer"
 		},
 		"stage": {
 			"minLength": 1,
@@ -344,5 +418,8 @@
 		"position",
 		"quantity"
 	],
-	"type": "object"
+	"type": [
+		"object",
+		"array"
+	]
 }

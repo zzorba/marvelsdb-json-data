@@ -1,5 +1,8 @@
 {
 	"additionalProperties": false,
+	"items": {
+		"$ref": "#"
+	},
 	"properties": {
 		"code": {
 			"minLength": 1,
@@ -13,9 +16,8 @@
 			"type": "string"
 		},
 		"octgn_id": {
-			"oneof": [
+			"oneOf": [
 				{
-					"minLength": 1,
 					"type": "integer"
 				},
 				{
@@ -28,5 +30,8 @@
 		"code",
 		"name"
 	],
-	"type": "object"
+	"type": [
+		"object",
+		"array"
+	]
 }
