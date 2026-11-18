@@ -1,0 +1,999 @@
+[
+    {
+        "code": "60032",
+        "name": "Sovraccarico Sensoriale",
+        "text": "<b><i>Fai ricevere al giocatore Matt Murdock.</i></b>\n<b>Risposta Obbligata</b>: Dopo che una miglioria [[Senso]] è entrata in gioco, subisci 1 danno.\n<b>Risposta Alter Ego</b>: Dopo che hai recuperato, scarta questa carta.",
+        "flavor": "I sensi aumentati di Daredevil lo rendono vulnerabile agli stimoli intensi."
+    },
+    {
+        "code": "60033",
+        "name": "Bullseye",
+        "text": "<b>Quando Rivelata</b>: Scegli 1 effetto tra:\n• Scarta 1 supporto [[Persona]] che controlli.\n• Bullseye ti attacca <i<(anche se sei nella sembianza di alter ego)</i>.",
+        "traits": "Assassino.",
+        "flavor": "\"Nelle mie mani, qualsiasi cosa può essere un'arma letale!\""
+    },
+    {
+        "code": "60034",
+        "name": "L'Uomo più Letale del Mondo",
+        "text": "<b>Interruzione Obbligata</b>: Quando Bullseye attacca, fagli ricevere 1 carta potenziamento a faccia in giù.",
+        "flavor": "\"Forza, testa cornuta, diamo un po' di spettacolo per il pubblico!\" —Bullseye"
+    },
+    {
+        "code": "60035",
+        "name": "Sai Rubato",
+        "text": "Assegna al nemico con più ATT.\n[star] Gli attacchi del personaggio con questa aggiunta ottengono Perforante.\n<b>Azione Eroe</b>: Spendi [physical] [physical] → scegli se assegnare questa carta a Elektra oppure scartare questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, ottiene Perforante.",
+        "traits": "Arma."
+    },
+    {
+        "code": "60036",
+        "name": "Occhi sul Bersaglio",
+        "text": "<b>Quando Rivelata</b>: Scegli 1 effetto tra:\n• Rimuovi dal gioco 1 supporto [[Persona]] o alleato che controlli.\n• Bullseye ti attacca <i>(anche se sei nella sembianza di alter ego)</i>. Se non è in gioco, trovalo e rivelalo.",
+        "flavor": "\"Prendi!\" —Bullseye"
+    },
+    {
+        "code": "60060",
+        "name": "Cresciuta da Kingpin",
+        "text": "<b><i>Fai ricevere al giocatore Maya Lopez.</i></b>\nNon puoi infliggere danni a Kingpin.\n<b>Quando Rivelata</b>: Trova Kingpin e mettilo in gioco impegnato con te.\n<b>Risposta</b>: Dopo che sei intervenuto, colloca su questa carta le minacce rimosse con questo intervento. Se ci sono 4 o più minacce su questa carta, rimuovi dal gioco questa carta."
+    },
+    {
+        "code": "60061",
+        "name": "Kingpin",
+        "text": "<b>Interruzione Obbligata</b>: Quando Kingpin sta per attaccare il giocatore Maya Lopez, trama invece.\n<i>(Gregario nemesi di Echo.)</i>",
+        "traits": "Malvivente.",
+        "flavor": "\"Ho imparato a prendermi cura di te, Maya, anche se a modo mio. Ti ho voluto bene come una figlia. E ancora te ne voglio.\""
+    },
+    {
+        "code": "60062",
+        "name": "Manipolatore Esperto",
+        "text": "Kingpin non può subire danni.\n<b>Quando Rivelata</b>: Trova Kingpin e mettilo in gioco impegnato con te.\n<hr />\n[star] <b>Potenziamento</b>: Se Kingpin è in gioco, rivela questa trama.",
+        "flavor": "\"Sfiorami anche solo con un dito, e te ne pentirai.\" —Kingpin"
+    },
+    {
+        "code": "60063",
+        "name": "Sgherro di Kingpin",
+        "text": "Guardia.\nKingpin non può subire danni.",
+        "traits": "Malvivente.",
+        "flavor": "\"Mr. Fisk vorrebbe fare quattro chiacchiere con voi.\""
+    },
+    {
+        "code": "60064",
+        "name": "Pedina di Kingpin",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Se Kingpin è in gioco, esso trama. Altrimenti, questa carta ottiene Impulso.\n<b>Quando Rivelata (Eroe)</b>: Infliggi a un eroe un ammontare di danni pari all'ATT del tuo eroe.",
+        "flavor": "Kingpin convinse Echo che fu Daredevil, e non lo stesso Kingpin, a uccidere suo padre."
+    },
+    {
+        "code": "60065",
+        "name": "Bullseye",
+        "text": "<b>Quando Rivelata</b>: Metti da parte Spina Dorsale Rivestita di Adamantio (68A).\n[star] <b>Interruzione Obbligata</b>: Quando Bullseye si attiva, ogni sua carta potenziamento ottiene [Boost]. Se questa attivazione è un attacco, ottiene Distanza.",
+        "traits": "Assassino. Tirapiedi"
+    },
+    {
+        "code": "60066",
+        "name": "Bullseye",
+        "text": "<b>Quando Rivelata</b>: Trova Spina Dorsale Rivestita di Adamantio e assegnala a Bullseye.\n[star] <b>Interruzione Obbligata</b>: Quando Bullseye si attiva, ogni sua carta potenziamento ottiene [Boost]. Se questa attivazione è un attacco, ottiene Distanza.",
+        "traits": "Assassino. Tirapiedi"
+    },
+    {
+        "code": "60067",
+        "name": "Bullseye",
+        "text": "<b>Quando Rivelata</b>: Trova Folle Sete di Sangue e rivelala.\n[star] <b>Interruzione Obbligata</b>: Quando Bullseye si attiva, ogni sua carta potenziamento ottiene [Boost]. Se questa attivazione è un attacco, ottiene Distanza.",
+        "traits": "Assassino. Tirapiedi"
+    },
+    {
+        "code": "60068a",
+        "name": "Spina Dorsale Rivestita di Adamantio",
+        "text": "Permanente.\n<b>Interruzione Obbligata</b>: Quando Bullseye sta per subire un qualsiasi ammontare di danni, previenili tutti tranne 3. Colloca i danni prevenuti su questa carta. Poi, se ci sono 6 o più danni su questa carta, girala.",
+        "traits": "Tecnologia."
+    },
+    {
+        "code": "60068b",
+        "name": "Spina Dorsale Lesionata",
+        "text": "Permanente.\n[star] <b>Risposta Obbligata</b>: Dopo che Bullseye ha tramato, rimuovi 3 danni da questa carta. Poi, se non ci sono danni su questa carta, girala."
+    },
+    {
+        "code": "60069",
+        "name": "Alzare la Posta in Gioco",
+        "text": "Assegna a Bullseye.\n[star] <b>Interruzione Obbligata</b>: Quando Bullseye attacca, fagli ricevere 1 carta potenziamento aggiuntiva per questo attacco. Se questo attacco sconfigge un personaggio amico, rimuovi dal gioco quel personaggio e questa carta. Altrimenti, mescola questa carta nel mazzo degli incontri.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "60070",
+        "name": "Sai Letale",
+        "text": "Assegna a Bullseye.\n[star] Gli attacchi di Bullseye perdono Distanza e ottengono Perforante.\n<b>Risposta Eroe</b>: Dopo che il tuo eroe ha difeso da un attacco di Bullseye, spendi 2 risorse diverse → scarta questa carta.",
+        "traits": "Arma."
+    },
+    {
+        "code": "60071",
+        "name": "Inseguimento incessante",
+        "text": "Assegna a un alleato senza altre Inseguimento Incessante. Altrimenti, questa carta ottiene Impulso.\n<b>Interruzione Obbligata</b>: Quando il criminale sta per attaccarti, esso attacca invece l'alleato con questa aggiunta e l'attacco ottiene Sopraffazione. Se questo attacco sconfigge l'alleato con questa aggiunta, rimuovilo dal gioco.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "60072",
+        "name": "Lady Bullseye",
+        "text": "Criminoso. <i>(Quando questo gregario si attiva, fagli ricevere 1 carta potenziamento.)</i>\n[star] <b>Interruzione Obbligata</b>: Quando risolvi le carte potenziamento durante un attacco di Lady Bullseye, se quell'attacco è non difeso, falle ricevere 1 carta potenziamento aggiuntiva per questo attacco.",
+        "traits": "Assassino. Mano."
+    },
+    {
+        "code": "60073",
+        "name": "Folle Sete di Sangue",
+        "text": "<b>Quando Rivelata</b>: Colloca su questa carta un ammontare di minacce aggiuntive pari al numero dello stadio di Bullseye.\n<hr />\n[star] <b>Potenziamento</b>: Dopo questa attivazione, rivela questa carta."
+    },
+    {
+        "code": "60074",
+        "name": "Tutto È un'Arma",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Subisci 2 danni indiretti.\n<b>Quando Rivelata (Eroe)</b>: Scegli se far attivare Bullseye contro di te oppure rimuovere dal gioco 1 alleato che controlli.\n<hr />\n[star] <b>Potenziamento</b>: Se Bullseye sta attaccando, fagli ricevere 1 carta potenziamento aggiuntiva e questo attacco ottiene Perforante."
+    },
+    {
+        "code": "60075",
+        "name": "Desiderio Impeccabile",
+        "text": "<b>Quando Rivelata</b>: Scegli se distribuire questa carta al criminale come carta potenziamento a faccia in giù oppure rimuovere dal gioco 1 supporto [[Persona]] che controlli.\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, ottiene Sopraffazione."
+    },
+    {
+        "code": "60076",
+        "name": "Electro",
+        "text": "<b>Quando Rivelata</b>: Trova Carica Elettrica, assegnala a Electro e colloca 2[per_hero] gettoni carica su di essa.\n[star] <b>Risposta Obbligata</b>: Dopo che Electro ha tramato, colloca 1 gettone carica su Carica Elettrica.",
+        "traits": "Malvivente. Tirapiedi"
+    },
+    {
+        "code": "60077",
+        "name": "Electro",
+        "text": "<b>Quando Rivelata</b>: Trova Carica Elettrica, assegnala a Electro e colloca 2[per_hero] gettoni carica su di essa.\n[star] <b>Risposta Obbligata</b>: Dopo che Electro ha tramato, colloca 1 gettone carica su Carica Elettrica.",
+        "traits": "Malvivente. Tirapiedi"
+    },
+    {
+        "code": "60078",
+        "name": "Electro",
+        "text": "<b>Quando Rivelata</b>: Colloca 3[per_hero] gettoni carica su Carica Elettrica.\n[star] <b>Risposta Obbligata</b>: Dopo che Electro ha tramato, colloca 2 gettoni carica su Carica Elettrica.",
+        "traits": "Malvivente. Tirapiedi"
+    },
+    {
+        "code": "60079",
+        "name": "Carica Elettrica",
+        "text": "Permanente.\n[star] <b>Interruzione Obbligata</b>: Quando Electro attacca, rimuovi 1 gettone carica da questa carta → fai ricevere a Electro 1 carta potenziamento aggiuntiva per questo attacco. Questo attacco ottiene Sopraffazione.\n<b>Azione Eroe</b>: Spendi [energy] oppure 2 risorse di qualsiasi tipo → rimuovi 1 gettone carica da questa carta.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "60080",
+        "name": "Alimentazione Prosciugata",
+        "text": "Utilizzo (3 gettoni prosciugamento).\n<b>Quando Rivelata</b>: Assegna alla tua identità ed esaurisci ogni miglioria che controlli.\n<b>Interruzione Obbligata</b>: Quando una miglioria che controlli sta per ripristinarsi, puoi spendere [energy] oppure 2 risorse di qualsiasi tipo. Se lo fai, rimuovi 1 gettone prosciugamento da questa carta <i>(e ripristina quella miglioria)</i>. Altrimenti, quella miglioria non si ripristina.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "60081",
+        "name": "Whiplash",
+        "text": "<b>Interruzione Obbligata</b>: Quando Whiplash viene attaccato, rimuovi 1 gettone carica da Carica Elettrica → scarta 1 carta dalla cima del mazzo degli incontri. Infliggi 1 danno all'attaccante per ogni icona potenziamento <i>([Boost])</i> sulla carta scartata.",
+        "traits": "Malvivente.",
+        "flavor": "\"Elettrizzato all'idea divedermi?\""
+    },
+    {
+        "code": "60082",
+        "name": "Caricamento",
+        "text": "<b>Quando Sconfitta</b>: Colloca 3 gettoni carica su Carica Elettrica.",
+        "flavor": "Electro sta facendo incetta di energia dalla rete elettrica. Dovete impedirglielo!"
+    },
+    {
+        "code": "60083",
+        "name": "Fulmine a Catena",
+        "text": "<b>Quando Rivelata</b>: Per ogni personaggio che controlli, scegli 1 effetto tra:\n• Esaurisci quel personaggio.\n• Infliggi 1 danno a quel personaggio (3 danni se invece ci sono 1 o più gettoni carica su Carica Elettrica). Rimuovi 1 gettone carica da Carica Elettrica."
+    },
+    {
+        "code": "60084",
+        "name": "Sovraccarico di Energia",
+        "text": "<b>Quando Rivelata</b>: Se non hai carte con [energy] stampate nella tua mano, questa carta ottiene Impulso. Altrimenti, per ogni carta con [energy] stampate nella tua mano, scegli 1 effetto tra:\n• Scarta quella carta.\n• Stordisci 1 personaggio che controlli."
+    },
+    {
+        "code": "60085",
+        "name": "Rivelazione Scioccante",
+        "text": "<b>Quando Rivelata</b>: Scarta 1 carta dalla cima del tuo mazzo per ogni carta che controlli. Per ogni carta con [energy] stampate scartata in questo modo, scegli 1 effetto tra:\n• Subisci 1 danno indiretto.\n• Colloca 1 gettone carica su Carica Elettrica."
+    },
+    {
+        "code": "60086",
+        "name": "Testa di Martello",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che Testa di Martello ha attaccato e danneggiato un personaggio, stordisci quel personaggio. Se quel personaggio era già stordito, infliggigli 1 danno.",
+        "traits": "Malvivente. Maggia. Tirapiedi.",
+        "flavor": "\"Quella sì che è una testa dura!\" —Luke Cage"
+    },
+    {
+        "code": "60087",
+        "name": "Testa di Martello",
+        "text": "Ritorsione 1. Robustezza.\n[star] <b>Risposta Obbligata</b>: Dopo che Testa di Martello ha attaccato e danneggiato un personaggio, stordisci quel personaggio. Se quel personaggio era già stordito, infliggigli 1 danno.",
+        "traits": "Malvivente. Maggia. Tirapiedi.",
+        "flavor": "\"Quella sì che è una testa dura!\" —Luke Cage"
+    },
+    {
+        "code": "60088",
+        "name": "Testa di Martello",
+        "text": "Ritorsione 2. Robustezza.\n[star] <b>Risposta Obbligata</b>: Dopo che Testa di Martello ha attaccato e danneggiato un personaggio, stordisci quel personaggio. Se quel personaggio era già stordito, infliggigli 2 danni.",
+        "traits": "Malvivente. Maggia. Tirapiedi.",
+        "flavor": "\"Quella sì che è una testa dura!\" —Luke Cage"
+    },
+    {
+        "code": "60089",
+        "name": "Mitragliatrice a Energia",
+        "text": "Assegna a Testa di Martello.\n<b>Risposta Obbligata</b>: Dopo che Testa di Martello ha attaccato, se il personaggio attaccato non è stato sconfitto, scarta questa carta → Testa di Martello attacca di nuovo quel personaggio.",
+        "traits": "Tecnologia.",
+        "flavor": "\"Usa la modalità stordimento, così dopo ci posso parlare.\" —Testa di Martello"
+    },
+    {
+        "code": "60090",
+        "name": "Testa Dura",
+        "text": "Assegna a Testa di Martello.\nTesta di Martello ottiene Stabile.\n<b>Azione Eroe</b>: Spendi [energy] [mental] [physical] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci il nemico che si sta attivando.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "60091",
+        "name": "Camaleonte",
+        "text": "[star] Camaleonte riceve +X TRA, dove X è pari all'INT più alto tra i personaggi in gioco.\n<b>Quando Rivelata</b>: Camaleonte trama.",
+        "traits": "Maggia. Malvivente.",
+        "flavor": "\"Sono invisibile perché sono la stessa cosa che vedi in ogni tua orribile, monotona giornata.\""
+    },
+    {
+        "code": "60092",
+        "name": "Sicari dei Maggia",
+        "text": "Guardia.\n[star] La TRA di Sicari dei Maggia è pari al numero di nemici [[Maggia]] in gioco <i>(incluso questo)</i>.",
+        "traits": "Maggia. Malvivente.",
+        "flavor": "\"Prima di mettere in piedi la mia gang ero un sicario dei Maggia.\" —Testa di Martello"
+    },
+    {
+        "code": "60093",
+        "name": "Viceboss dei Maggia",
+        "text": "Criminoso.\n[star] <b>Interruzione Obbligata</b>: Quando Viceboss dei Maggia si attiva contro di te, se sei stordito, fagli ricevere 1 carta potenziamento aggiuntiva per questa attivazione.",
+        "traits": "Maggia. Malvivente.",
+        "flavor": "\"Dove gli altri vedono debolezza, io vedo opportunità.\""
+    },
+    {
+        "code": "60094",
+        "name": "Consolidare il Potere",
+        "text": "<b>Risposta Obbligata</b>: Dopo che un gregario è stato sconfitto, distribuiscilo al criminale come carta potenziamento a faccia in giù.",
+        "flavor": "\"Benvenuti tra i vincenti.\" —Testa di Martello"
+    },
+    {
+        "code": "60095",
+        "name": "Lotta per il Potere",
+        "text": "<b>Quando Rivelata</b>: Sconfiggi il gregario in gioco con meno punti ferita rimanenti. Scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario. Rivela quel gregario."
+    },
+    {
+        "code": "60096",
+        "name": "\"Usa la Testa!\"",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Questa carta ottiene Impulso.\n<b>Quando Rivelata (Eroe)</b>: Testa di Martello ti attacca. Se sei stordito, Testa di Martello riceve +2 ATT per questo attacco e questo attacco ottiene Sopraffazione.",
+        "flavor": "\"Sai come sono arrivato così in alto?\" —Testa di Martello"
+    },
+    {
+        "code": "60097",
+        "name": "Uomo Porpora",
+        "text": "Ogni gregario [[Soggiogato]] ottiene Guardia.\nOgni carta potenziamento del set di incontri Uomo Porpora ottiene: \"[star] <b>Potenziamento</b>: Dopo questa attivazione, distribuisci questa carta come carta incontro a faccia in giù a te stesso.\"",
+        "traits": "Psionico. Tirapiedi."
+    },
+    {
+        "code": "60098",
+        "name": "Uomo Porpora",
+        "text": "Ogni gregario [[Soggiogato]] ottiene Criminoso e Guardia.\nOgni carta potenziamento del set di incontri Uomo Porpora ottiene: \"[star] <b>Potenziamento</b>: Dopo questa attivazione, distribuisci questa carta come carta incontro a faccia in giù a te stesso.\"",
+        "traits": "Psionico. Tirapiedi."
+    },
+    {
+        "code": "60099",
+        "name": "Uomo Porpora",
+        "text": "Ogni gregario [[Soggiogato]] ottiene Criminoso, Guardia e Pattuglia.\n Ogni carta potenziamento del set di incontri Uomo Porpora ottiene: \"[star] <b>Potenziamento</b>: Dopo questa attivazione, distribuisci questa carta come carta incontro a faccia in giù a te stesso.\"",
+        "traits": "Psionico. Tirapiedi."
+    },
+    {
+        "code": "60100",
+        "name": "Convertito",
+        "text": "Considera l'alleato con questa aggiunta come se fosse un gregario [[Soggiogato]] con un riquadro di testo vuoto. La TRA del gregario con questa aggiunta è pari al suo INT base e non subisce danni conseguenti.\n<b>Quando Rivelata</b>: Assegna all'alleato dal costo più alto che controlli e impegnalo. Altrimenti, questa carta ottiene Impulso.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "60101",
+        "name": "Vigile del Fuoco",
+        "text": "Vulnerabile. <i>(Se viene stordito o confuso, scarta questo personaggio.)</i>\n[star] Gli attacchi di Vigile del Fuoco ottengono Perforante.\n<b>Quando Sconfitta</b>: Scarta dal gioco il supporto o la miglioria dal costo più alto.",
+        "traits": "Civile. Soggiogato."
+    },
+    {
+        "code": "60102",
+        "name": "Giudice",
+        "text": "Vulnerabile. <i>(Se viene stordito o confuso, scarta questo personaggio.)</i>\n<b>Quando Sconfitta</b>: Colloca 3 minacce sulla trama principale.",
+        "traits": "Civile. Soggiogato.",
+        "flavor": "\"Dica un'altra parola su Mr. Killgrave e la farò arrestare per oltraggio alla corte!\""
+    },
+    {
+        "code": "60103",
+        "name": "Guardia di Sicurezza",
+        "text": "Pattuglia. Vulnerabile. <i>(Se viene stordito o confuso, scarta questo personaggio.)</i>\n<b>Quando Sconfitta</b>: Scarta l'alleato con più ATT <i>(tra gli alleati)</i> in gioco.",
+        "traits": "Civile. Soggiogato.",
+        "flavor": "\"Il sospettato è in manette.\""
+    },
+    {
+        "code": "60104",
+        "name": "Teppista con lo Skateboard",
+        "text": "Vulnerabile. <i>(Se viene stordito o confuso, scarta questo personaggio.)</i>\n<b>Quando Sconfitta</b>: Infliggi 3 danni all'identità del giocatore che ha sconfitto questo gregario.",
+        "traits": "Civile. Soggiogato.",
+        "flavor": "\"In realtà mi piace più il post-punk.\""
+    },
+    {
+        "code": "60105",
+        "name": "\"Combatti.\"",
+        "text": "Utilizzo (3 gettoni comando).\n<b>Azione Obbligata</b>: Esaurisci questa carta e rimuovi 1 gettone comando da essa → infliggi 2 danni a un eroe o a un alleato.",
+        "flavor": "\"Amore e odio non sono forse due facce della stessa medaglia?\" —Uomo Porpora"
+    },
+    {
+        "code": "60106",
+        "name": "\"Proteggi.\"",
+        "text": "Utilizzo (3 gettoni comando).\n<b>Azione Obbligata</b>: Esaurisci questa carta e rimuovi 1 gettone comando da essa → irrobustisci il criminale.",
+        "flavor": "\"Tu mi scorterai... ovunque io vada\" —Uomo Porpora"
+    },
+    {
+        "code": "60107",
+        "name": "\"Servi.\"",
+        "text": "Utilizzo (3 gettoni comando).\n<b>Azione Obbligata</b>: Esaurisci questa carta e rimuovi 1 gettone comando da essa → colloca 2 minacce sulla trama principale.",
+        "flavor": "\"Annulla ogni tuo impegno. Ora sono io la tua priorità numero uno.\" —Uomo Porpora"
+    },
+    {
+        "code": "60108",
+        "name": "Potere della Suggestione",
+        "text": "[star] Ostacolo 3[per_hero].\nOgni gregario ottiene il tratto [[Soggiogato]].",
+        "flavor": "\"Senti la mia volontà imporsi sulla tua.\" —Uomo Porpora"
+    },
+    {
+        "code": "60109",
+        "name": "Influenzare le Masse",
+        "text": "<b>Quando Rivelata</b>: Scegli 1 gregario [[Soggiogato]] dalla pila degli scarti degli incontri e rivelalo. Altrimenti, questa carta ottiene Impulso.",
+        "flavor": "Non c'è nulla di più pericoloso di un uomo convincente con un megafono."
+    },
+    {
+        "code": "60110a",
+        "name": "Typhoid Mary",
+        "text": "<b>Interruzione Obbligata</b>: Quando Typhoid Mary sta per essere sconfitta, colloca invece 1 segnalino danno su Psiche Disturbata e regola il suo indicatore punti ferita a 10[per_hero].",
+        "traits": "Mutante. Psionico. Tirapiedi.",
+        "flavor": "\"È il momento che vi racconti la mia storia. La mia vita. E la racconterò a modo mio.\""
+    },
+    {
+        "code": "60110b",
+        "name": "Bloody Mary",
+        "text": "<b>Interruzione Obbligata</b>: Quando Bloody Mary sta per essere sconfitta, colloca invece 1 segnalino danno su Psiche Disturbata e regola il suo indicatore punti ferita a 10[per_hero].",
+        "traits": "Mutante. Psionico. Tirapiedi.",
+        "flavor": "\"Non permetterò più a nessuno di farci del male.\""
+    },
+    {
+        "code": "60111a",
+        "name": "Typhoid Mary",
+        "text": "Robustezza.\n<b>Interruzione Obbligata</b>: Quando Typhoid Mary sta per essere sconfitta, colloca invece 1 segnalino danno su Psiche Disturbata e regola il suo indicatore punti ferita a 13per_hero].",
+        "traits": "Mutante. Psionico. Tirapiedi.",
+        "flavor": "\"È il momento che vi racconti la mia storia. La mia vita. E la racconterò a modo mio.\""
+    },
+    {
+        "code": "60111b",
+        "name": "Bloody Mary",
+        "text": "<b>Quando Rivelata</b>: Infliggi 1 danno a ogni identità.\n<b>Interruzione Obbligata</b>: Quando Bloody Mary sta per essere sconfitta, colloca invece 1 segnalino danno su Psiche Disturbata e regola il suo indicatore punti ferita a 13[per_hero].",
+        "traits": "Mutante. Psionico. Tirapiedi.",
+        "flavor": "\"Non permetterò più a nessuno di farci del male.\""
+    },
+    {
+        "code": "60112",
+        "name": "Psiche Disturbata",
+        "text": "Preparazione.\n<b>Preparazione</b>: Metti in gioco il criminale girato su un lato casuale <i>(e rivelalo)</i>.\n<b>Interruzione Obbligata</b>: Quando la Fase del Criminale termina, gira il criminale.\n<b>Se ci sono 3 o più segnalini su questa carta, i giocatori vincono la partita!</b>"
+    },
+    {
+        "code": "60113a",
+        "name": "Instaurare Fiducia",
+        "text": "Permanente. Preparazione.\n[star] In modalità esperto, questa carta ottiene Ostacolo 3[per_hero].\n<b>Quando Sconfitta</b>: Colloca 1 segnalino minaccia su Psiche Disturbata. Gira questa carta.",
+        "flavor": "\"Mary, sono io. Non intendo combattere con te.\" —Matt Murdock"
+    },
+    {
+        "code": "60113b",
+        "name": "Mary Walker",
+        "text": "Assegna al criminale. Permanente.\n[star] Il criminale con questa aggiunta non può attivarsi.\n<b>Risposta Obbligata</b>: Dopo che il criminale ha subito danni o che il round è terminato, distribuisci 1 carta incontro a faccia in giù a ogni giocatore e gira questa carta.",
+        "traits": "Persona.",
+        "flavor": "\"Una di noi è dolce, un'altra no e l'ultima vuole vendetta.\""
+    },
+    {
+        "code": "60114",
+        "name": "Telecinesi",
+        "text": "Assegna al criminale.\n<b>Azione Eroe</b>: Spendi [mental] [mental] → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Se Typhoid Mary si sta attivando, subisci 3 danni indiretti. Esaurisci ogni personaggio danneggiato in questo modo.",
+        "traits": "Psionico. Superpotere."
+    },
+    {
+        "code": "60115",
+        "name": "Taglio Psionico",
+        "text": "<b>Quando Rivelata</b>: Se l'aggiunta Mary Walker è in gioco, girala e rivela Instaurare Fiducia. Il criminale trama.\n<hr />\n[star] <b>Potenziamento</b>: Se Typhoid Mary si sta attivando, infliggi 3 danni a un alleato che controlli."
+    },
+    {
+        "code": "60116",
+        "name": "Nova Psionica",
+        "text": "<b>Quando Rivelata</b>: Infliggi 1 danno a ogni personaggio che controlli. Sei stordito.\n<hr />\n[star] <b>Potenziamento</b>: Se Typhoid Mary si sta attivando, sei stordito.",
+        "flavor": "\"ORA BASTA!\" —Typhoid Mary"
+    },
+    {
+        "code": "60117",
+        "name": "Armatura Assemblata",
+        "text": "Assegna al criminale.\n<b>Interruzione Obbligata</b>: Quando il criminale sta per subire un qualsiasi ammontare di danni, collocalo invece su questa carta. Poi, se ci sono 5 o più danni su questa carta (8 o più in modalità esperto), scartala.\n<hr />\n[star] <b>Potenziamento</b>: Se Bloody Mary si sta attivando, sei confuso.",
+        "traits": "Armatura."
+    },
+    {
+        "code": "60118",
+        "name": "Pioggia di Lame",
+        "text": "<b>Quando Rivelata</b>: Se l'aggiunta Mary Walker è in gioco, girala e rivela Instaurare Fiducia. Il criminale ti attacca <i>(anche se sei nella sembianza di alter ego)</i>.\n<hr />\n[star] <b>Potenziamento</b>: Se Bloody Mary si sta attivando, subisci 2 danni."
+    },
+    {
+        "code": "60119",
+        "name": "Bastione di Rottami",
+        "text": "Impulso.\n<b>Quando Rivelata</b>: Irrobustisci il criminale.\n<hr />\n[star] <b>Potenziamento</b>: Se Bloody Mary si sta attivando, irrobustiscila.",
+        "flavor": "\"Se ci avvolgeremo nell'armatura più spessa possibile... non potranno più toccarci.\" —Bloody Mary"
+    },
+    {
+        "code": "60120",
+        "name": "Vedetta della Mano",
+        "text": "Guardia. Robustezza.\n<hr />\n[star] <b>Potenziamento</b>: Fai ricevere 1 carta potenziamento aggiuntiva al nemico che si sta attivando.",
+        "traits": "Mano. Ninja.",
+        "flavor": "\"Copriamoci le spalle a vicenda. È l'unico modo per sopravvivere a questa città.\" —Typhoid Mary"
+    },
+    {
+        "code": "60121a",
+        "name": "Rapina al Museo d'Arte",
+        "text": "<b>Contenuto</b>: Criminale [[Tirapiedi]] scelto <i>(vedi pagina 5 del regolamento)</i>. Set di incontri del criminale scelto, Rapina al Museo d'Arte e Standard. 2 set di incontri modulari <i>(Poliziotti e Il Gufo)</i>.\n<b>Preparazione</b>: Trova le 4 aggiunte [[Arte]] di questo set di incontri e assegnane 1 casuale al criminale. Mescola nel mazzo degli incontri le altre 3."
+    },
+    {
+        "code": "60121b",
+        "name": "Rapina al Museo d'Arte",
+        "text": "[star] X è pari al numero di aggiunte [[Arte]] sul criminale +1.\n<b>Risposta Obbligata</b>: Dopo che un nemico ha effettuato un attacco non difeso contro un'identità, assegna al criminale 1 aggiunta [[Arte]] assegnata a quell'identità.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "60122",
+        "name": "Oggetto Impossibile",
+        "text": "Impulso.\nAssegna al criminale.\n<b>Risposta Obbligata</b>: Dopo che questa carta è stata assegnata a un personaggio, confondi quel personaggio.\n<b>Azione Eroe</b>: Spendi [mental] oppure esaurisci il tuo eroe → assegna questa carta al tuo eroe.",
+        "traits": "Arte."
+    },
+    {
+        "code": "60123",
+        "name": "Vasellame Suggestivo",
+        "text": "Impulso.\nAssegna al criminale.\nIl personaggio con questa aggiunta ottiene Stabile.\n<b>Azione Eroe</b>: Spendi [wild] oppure esaurisci il tuo eroe → assegna questa carta al tuo eroe.",
+        "traits": "Arte."
+    },
+    {
+        "code": "60124",
+        "name": "Replica dello Scudo",
+        "text": "Impulso.\nAssegna al criminale.\n<b>Risposta Obbligata</b>: Dopo che questa carta è stata assegnata a un personaggio, irrobustisci quel personaggio.\n<b>Azione Eroe</b>: Spendi [physical] oppure esaurisci il tuo eroe → assegna questa carta al tuo eroe.",
+        "traits": "Arte."
+    },
+    {
+        "code": "60125",
+        "name": "Panorama Mozzafiato",
+        "text": "Impulso.\nAssegna al criminale.\n<b>Risposta Obbligata</b>: Dopo che questa carta è stata assegnata a un personaggio, stordisci quel personaggio.\n<b>Azione Eroe</b>: Spendi [energy] oppure esaurisci il tuo eroe → assegna questa carta al tuo eroe.",
+        "traits": "Arte."
+    },
+    {
+        "code": "60126",
+        "name": "Ladra d'Arte",
+        "text": "<b>Quando Rivelata</b>: Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta [[Arte]] e assegnala al criminale. Se non puoi farlo, sposta 1 aggiunta [[Arte]] da un'identità al criminale.\n<hr />\n[star] <b>Potenziamento</b>: Sposta 1 aggiunta [Arte]] da un'identità al criminale.",
+        "traits": "Ladro."
+    },
+    {
+        "code": "60127",
+        "name": "Tiro alla Fune",
+        "text": "<b>Quando Rivelata</b>: Puoi spendere [physical] [physical] [physical] per spostare 1 aggiunta [[Arte]] dal criminale alla tua identità.\nAltrimenti, sposta 1 aggiunta [[Arte]] da un'identità al criminale e questa carta ottiene Impulso."
+    },
+    {
+        "code": "60128a",
+        "name": "L'Inseguimento",
+        "text": "<b>Contenuto</b>: <b>Contenuto</b>: Criminale [[Tirapiedi]] scelto <i>(vedi pagina 5 del regolamento)</i>. Set di incontri del criminale scelto, L'Inseguimento e Standard. 2 set di incontri modulari <i>(Poliziotti e Guida)</i>.\n<b>Preparazione</b>: Colloca 1 gettone velocità su questa carta (2 gettoni invece in modalità esperto). Assegna l'aggiunta In Testa <i>(129A)</i> al criminale."
+    },
+    {
+        "code": "60128b",
+        "name": "L'Inseguimento",
+        "text": "<b>Interruzione Obbligata</b>: Quando il round termina, se ci sono 1 o più minacce su questa carta, risolvi i passi seguenti:\n1. Colloca 1 gettone velocità su questa carta.\n2. Se Affiancato è in gioco, giralo sul lato In Testa. Altrimenti, colloca 1 gettone velocità aggiuntivo su questa carta.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "60129a",
+        "name": "In Testa",
+        "text": "Permanente. Assegna al criminale.\nSe non ci sono minacce sulla trama principale, gira questa carta.\n[star] Gli attacchi del criminale con questa aggiunta ottengono Distanza.\n<b>Interruzione Obbligata</b>: Quando il criminale sta per subire un qualsiasi ammontare di danni, rimuovi invece un pari ammontare di minacce dalla trama principale <i>(ignorando le icone crisi ([crisis]))</i>."
+    },
+    {
+        "code": "60129b",
+        "name": "Affiancato",
+        "text": "Permanente.\n<b>Quando Rivelata</b>: Ogni giocatore subisce 1 danno indiretto. Il criminale subisce 2[per_hero] danni.",
+        "flavor": "Il traffico di New York è brutale."
+    },
+    {
+        "code": "60130",
+        "name": "Veicolo della Scorta",
+        "text": "Guardia. Pattuglia.\nSe il numero di gettoni velocità sulla trama principale è pari o superiore a:\n• 3 - Questo gregario ottiene Robustezza.\n• 6 - Questo gregario ottiene anche Colpo Rapido.\n• 9 - Questo gregario ottiene anche Impulso.",
+        "traits": "Veicolo."
+    },
+    {
+        "code": "60131",
+        "name": "Autocisterna di Traverso",
+        "text": "[star] Ostacolo 1[per_hero].\nNon è possibile infliggere danni al criminale.",
+        "flavor": "\"Guarda e rosica, Johnny Blaze!\" —Echo"
+    },
+    {
+        "code": "60132",
+        "name": "Sgommata",
+        "text": "<b>Quando Rivelata</b>: Per ogni gettone velocità sulla trama principale, scegli 1 effetto tra:\n• Spendi 1 risorsa di qualsiasi tipo.\n• Colloca 1 minaccia sulla trama principale.",
+        "flavor": "Skreeeeeee!"
+    },
+    {
+        "code": "60133",
+        "name": "Pedoni",
+        "text": "<b>Quando Rivelata</b>: Per ogni gettone velocità sulla trama principale, scegli 1 effetto tra:\n• Esaurisci 1 personaggio che controlli.\n• Subisci 1 danno indiretto.",
+        "flavor": "\"Spero vi siate allacciati le cinture di sicurezza!\" —Iron Fist"
+    },
+    {
+        "code": "60134a",
+        "name": "Racket di Protezione",
+        "text": "<b>Contenuto</b>: Criminale [[Tirapiedi]] scelto <i>(vedi pagina 5 del regolamento)</i>. Set di incontri del criminale scelto, Racket di Protezione e Standard. 2 set di incontri modulari <i>(Disastri e Mafiosi in Tuta)</i>.\n<b>Preparazione</b>: Ogni giocatore sceglie 1 trama principale Racket di Protezione (casuale in modalità esperto), la colloca nella sua area di gioco e la gira sul suo lato 1B. Metti da parte, fuori dal gioco, ogni trama principale inutilizzata."
+    },
+    {
+        "code": "60134b",
+        "name": "Scontro nel Market",
+        "text": "<b>Risposta Obbligata</b>: Dopo che un personaggio in questa area di gioco è stato attaccato, infliggi 1 danno all'attaccante e colloca 1 minaccia su questa carta. (Limite di una volta per fase in modalità standard.)\n<b>Se una qualsiasi trama principale è completata o un qualsiasi giocatore è eliminato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "60135a",
+        "name": "Racket di Protezione",
+        "text": "<b>Contenuto</b>: Criminale [[Tirapiedi]] scelto <i>(vedi pagina 5 del regolamento)</i>. Set di incontri del criminale scelto, Racket di Protezione e Standard. 2 set di incontri modulari <i>(Disastri e Mafiosi in Tuta)</i>.\n<b>Preparazione</b>: Ogni giocatore sceglie 1 trama principale Racket di Protezione (casuale in modalità esperto), la colloca nella sua area di gioco e la gira sul suo lato 1B. Metti da parte, fuori dal gioco, ogni trama principale inutilizzata."
+    },
+    {
+        "code": "60135b",
+        "name": "Come un Toro nel Negozio di Antiquariato",
+        "text": "<b>Interruzione Obbligata</b>: Quando vengono inflitti danni in eccesso a un alleato (a un alleato o a un gregario in modalità esperto) in questa area di gioco, colloca un pari ammontare di minacce su questa trama.\n<b>Se una qualsiasi trama principale è completata o un qualsiasi giocatore è eliminato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "60136a",
+        "name": "Racket di Protezione",
+        "text": "<b>Contenuto</b>: Criminale [[Tirapiedi]] scelto <i>(vedi pagina 5 del regolamento)</i>. Set di incontri del criminale scelto, Racket di Protezione e Standard. 2 set di incontri modulari <i>(Disastri e Mafiosi in Tuta)</i>.\n<b>Preparazione</b>: Ogni giocatore sceglie 1 trama principale Racket di Protezione (casuale in modalità esperto), la colloca nella sua area di gioco e la gira sul suo lato 1B. Metti da parte, fuori dal gioco, ogni trama principale inutilizzata."
+    },
+    {
+        "code": "60136b",
+        "name": "Appeso ad Asciugare",
+        "text": "<b>Risposta Obbligata</b>: Dopo che un personaggio è entrato in gioco in questa area di gioco, infliggigli 1 danno e colloca 1 minaccia su questa carta.\n<b>Se una qualsiasi trama principale è completata o un qualsiasi giocatore è eliminato, i giocatori perdono la partita.</b>",
+        "flavor": "\"Falla finita, è il ciclo per delicati.\" —Jessica Jones"
+    },
+    {
+        "code": "60137a",
+        "name": "Racket di Protezione",
+        "text": "<b>Contenuto</b>: Criminale [[Tirapiedi]] scelto <i>(vedi pagina 5 del regolamento)</i>. Set di incontri del criminale scelto, Racket di Protezione e Standard. 2 set di incontri modulari <i>(Disastri e Mafiosi in Tuta)</i>.\n<b>Preparazione</b>: Ogni giocatore sceglie 1 trama principale Racket di Protezione (casuale in modalità esperto), la colloca nella sua area di gioco e la gira sul suo lato 1B. Metti da parte, fuori dal gioco, ogni trama principale inutilizzata."
+    },
+    {
+        "code": "60137b",
+        "name": "Sfida nel Banco dei Pegni",
+        "text": "Riduci di 1 il costo della prima miglioria giocata in questa area di gioco ogni round.\n<b>Risposta Obbligata</b>: Dopo che un'aggiunta o una miglioria è entrata in gioco in questa area di gioco, colloca 1 minaccia su questa carta.\n<b>Se una qualsiasi trama principale è completata o un qualsiasi giocatore è eliminato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "60138a",
+        "name": "Racket di Protezione",
+        "text": "<b>Contenuto</b>: Criminale [[Tirapiedi]] scelto <i>(vedi pagina 5 del regolamento)</i>. Set di incontri del criminale scelto, Racket di Protezione e Standard. 2 set di incontri modulari <i>(Disastri e Mafiosi in Tuta)</i>.\n<b>Preparazione</b>: Ogni giocatore sceglie 1 trama principale Racket di Protezione (casuale in modalità esperto), la colloca nella sua area di gioco e la gira sul suo lato 1B. Metti da parte, fuori dal gioco, ogni trama principale inutilizzata."
+    },
+    {
+        "code": "60138b",
+        "name": "Uno Spicchio di Pizza",
+        "text": "<b>Risposta Obbligata</b>: Dopo che un personaggio in questa area di gioco ha sconfitto un altro personaggio o una trama secondaria <i>(in qualsiasi area di gioco)</i>, cura 1 danno al personaggio che ha sconfitto il personaggio o la trama secondaria e colloca 1 minaccia su questa carta.\n<b>Se una qualsiasi trama principale è completata o un qualsiasi giocatore è eliminato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "60139",
+        "name": "Proprietario del Negozio",
+        "text": "<b>Quando Rivelata</b>: Metti in gioco Proprietario del Negozio sotto il tuo controllo. Questa carta ottiene Impulso.\n <b>Interruzione Obbligata</b>: Quando questo alleato esce dal gioco, colloca 4 minacce sulla trama principale nella tua area di gioco.",
+        "traits": "Civile."
+    },
+    {
+        "code": "60140",
+        "name": "Man-Bull",
+        "text": "[star] <b>Risposta Obbligata</b>: Dopo che Man-Bull ha attaccato, colloca sulla trama principale un ammontare di minacce pari ai danni in eccesso inflitti da questo attacco.\n <hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, colloca sulla trama principale un ammontare di minacce pari ai danni in eccesso inflitti da questo attacco.",
+        "traits": "Bruto."
+    },
+    {
+        "code": "60141",
+        "name": "Cambiare Sede",
+        "text": "Impulso.\n<b>Quando Rivelata</b>: Scambia la tua trama principale con 1 trama principale casuale messa da parte. Colloca sulla nuova trama le minacce che erano sulla trama precedente.\n<hr />\n[star] <b>Potenziamento</b>: Risolvi la capacità \"<b>Quando Rivelata</b>\" di questa carta."
+    },
+    {
+        "code": "60142a",
+        "name": "Evasione dal Raft",
+        "text": "<b>Contenuto</b>: Criminale [[Tirapiedi]] scelto <i>(vedi pagina 5 del regolamento)</i>. Set di incontri del criminale scelto, Evasione dal Raft e Standard. 2 set di incontri modulari <i>(Il Gufo e Lapide)</i>.\n<b>Preparazione</b>: Assegna Passe-Partout al criminale. Ogni giocatore scarta carte dalla cima del mazzo degli incontri finché non scarta 1 gregario [[Detenuto]] e rivela quel gregario."
+    },
+    {
+        "code": "60142b",
+        "name": "Evasione dal Raft",
+        "text": "Ogni gregario ottiene: \"<b>Quando Sconfitta</b>: Rimuovi 1 minaccia dalla trama principale (2 minacce se invece questo gregario possiede il tratto [[Elite]]).\"\n <b>Se questo stadio è completato, i giocatori perdono la partita.</b>",
+        "flavor": "\"Va' là fuori e spargi il caos!\" —Proxima Midnight"
+    },
+    {
+        "code": "60143",
+        "name": "Passe-Partout",
+        "text": "Assegna al criminale.\nPermanente.\n[star] <b>Risposta Obbligata</b>: Dopo che il criminale ha tramato contro di te, distribuisci ogni carta potenziamento di quell'attivazione che era un gregario come carta incontro a faccia in giù a te stesso.",
+        "traits": "Oggetto.",
+        "flavor": ">Sicurezza bypassata.\n>Serrature celle disattivate."
+    },
+    {
+        "code": "60144",
+        "name": "Uomo Assorbente",
+        "text": "Criminoso.\n[star] <b>Interruzione Obbligata</b>: Quando Uomo Assorbente ti attacca, fai scorrere sotto di lui 1 carta dalla cima del tuo mazzo. Uomo Assorbente riceve +1 ATT per ogni tipo di risorsa diverso <i>([energy], [mental], [physical], e [wild])</i> sulle carte sotto di lui per questo attacco.",
+        "traits": "Bruto. Detenuto. Elite."
+    },
+    {
+        "code": "60145",
+        "name": "Barone Zemo",
+        "text": "Criminoso.\nConsidera ogni alleato con 1 o più minacce su di esso come se fosse un gregario [[Raggirato]] con un riquadro di testo vuoto. La sua TRA è pari al suo INT base e non subisce danni conseguenti.\n<b>Quando Rivelata</b>: Colloca 1 minaccia su un alleato senza minacce su di esso. Quell'alleato impegna il suo controllore.",
+        "traits": "Detenuto. Elite. Hydra."
+    },
+    {
+        "code": "60146",
+        "name": "Drang",
+        "text": "Criminoso.\n[star] <b>Risposta Obbligata</b>: Dopo che Drang ti ha attaccato, colloca 1 gettone sbarramento su di lui. Poi subisci 1 danno indiretto per ogni gettone sbarramento su Drang.",
+        "traits": "Badoon. Detenuto. Elite. ",
+        "flavor": "\"Nave, colpite alle mie coordinate!\""
+    },
+    {
+        "code": "60147",
+        "name": "Mysterio",
+        "text": "Criminoso.\n[star] <b>Risposta Obbligata</b>: Dopo che Mysterio ti ha attaccato, distribuisci ogni carta potenziamento di quell'attivazione che era un'insidia come carta incontro a faccia in giù a te stesso.",
+        "traits": "Detenuto. Elite. Malvivente."
+    },
+    {
+        "code": "60148",
+        "name": "Proxima Midnight",
+        "text": "Criminoso.\n[star] <b>Interruzione Obbligata</b>: Quando Proxima Midnight ti attacca, scegli se collocare 1 minaccia sulla trama principale oppure Proxima Midnight riceve +2 ATT per questo attacco.",
+        "traits": "Detenuto. Elite. Ordine Nero."
+    },
+    {
+        "code": "60149",
+        "name": "Rhino",
+        "text": "Robustezza. Criminoso.\n[star] Gli attacchi di Rhino ottengono Sopraffazione.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci il nemico che si sta attivando.",
+        "traits": "Bruto. Detenuto. Elite."
+    },
+    {
+        "code": "60150",
+        "name": "Imprigionato",
+        "text": "Non puoi intervenire, attaccare o assumere la sembianza di alter ego.\n<b>Azione Eroe</b>: Spendi 3 risorse di qualsiasi tipo oppure esaurisci personaggi che controlli con INT totale pari o superiore a 3 → scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Rivela questa carta."
+    },
+    {
+        "code": "60151a",
+        "name": "Fermate la Stampa!",
+        "text": "<b>Contenuto</b>: Criminale [[Tirapiedi]] scelto <i>(vedi pagina 5 del regolamento)</i>. Set di incontri del criminale scelto, Fermate la Stampa! e Standard. 2 set di incontri modulari <i>(Lapide e Mafiosi in Tuta)</i>.\n<b>Preparazione</b>: Metti in gioco l'ambiente Daily Bugle. Ogni giocatore mette in gioco 1 supporto [[Daily Bugle]] casuale da questo set di incontri sotto il suo controllo. Rimuovi dal gioco ogni supporto [[Daily Bugle]] rimanente."
+    },
+    {
+        "code": "60151b",
+        "name": "Fermate la Stampa!",
+        "text": "<b>Risposta Obbligata</b>: Dopo che un nemico ha effettuato un attacco non difeso contro di te, scegli 1 effetto tra:\n• Colloca 2 minacce su questa carta (3 minacce invece in modalità esperto).\n• Rimuovi 1 gettone resistenza da un supporto [[Daily Bugle]] che controlli.\n<b>Se un supporto [[Daily Bugle]] esce dal gioco o questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "60152",
+        "name": "Daily Bugle",
+        "text": "<b>Azione Alter Ego</b>: Esaurisci 1 supporto [[Daily Bugle]] che controlli → colloca 1 gettone resistenza su quel supporto. <i>(Qualsiasi giocatore può farlo.)</i>",
+        "flavor": "Sotto la direzione di J. Jonah Jameson, il Daily Bugle è diventato uno dei quotidiani più letti in tutti gli Stati Uniti."
+    },
+    {
+        "code": "60153",
+        "name": "Ben Urich",
+        "text": "Utilizzo (3 gettoni resistenza).\n<b>Azione</b>: Esaurisci Ben Esaurisci Ben Urich e rimuovi 1 gettone resistenza da lui → guarda 2 carte dalla cima del mazzo degli incontri. Puoi scartarne 1. <i>(Rimetti le altre in cima al mazzo nello stesso ordine.)</i>",
+        "traits": "Daily Bugle. Persona."
+    },
+    {
+        "code": "60154",
+        "name": "Betty Brant",
+        "text": "Utilizzo (3 gettoni resistenza).\n<b>Interruzione</b>: Quando una carta potenziamento viene girata a faccia in su, esaurisci Betty Brant e rimuovi 1 gettone resistenza da lei → annulla le icone potenziamento e la capacità \"<b>Potenziamento</b>\" di quella carta. Fai ricevere 1 altra carta potenziamento al nemico che si sta attivando per questa attivazione.",
+        "traits": "Daily Bugle. Persona."
+    },
+    {
+        "code": "60155",
+        "name": "J. Jonah Jameson",
+        "text": "Utilizzo (3 gettoni resistenza).\n<b>Azione</b>: Esaurisci J. Jonah Jameson, rimuovi 1 gettone resistenza da lui e distribuisci 1 carta incontro a faccia in giù a te stesso → pesca 2 carte.",
+        "traits": "Daily Bugle. Persona."
+    },
+    {
+        "code": "60156",
+        "name": "Robbie Robertson",
+        "text": "Utilizzo (3 gettoni resistenza).\n<b>Risposta</b>: Dopo che a un giocatore è stata distribuita una carta incontro a faccia in giù, esaurisci Robbie Robertson e rimuovi 1 gettone resistenza da lui → guarda  quella carta incontro. Puoi scartarla e distribuire 1 altra carta incontro a faccia in giù a quel giocatore.",
+        "traits": "Daily Bugle. Persona."
+    },
+    {
+        "code": "60157",
+        "name": "Intervista Esclusiva",
+        "text": "I supporti [[Daily Bugle]] non possono ripristinarsi.\n<b>Quando Rivelata</b>: Esaurisci ogni supporto [[Daily Bugle]].",
+        "flavor": "\"Mi piacerebbe far sentire al pubblico la mia versione della storia. Dunque, da dove comincio...?\""
+    },
+    {
+        "code": "60158",
+        "name": "Edizione Straordinaria",
+        "text": "Scegli 1 effetto tra:\n• Esaurisci 1 supporto [[Daily Bugle]] <i>(sotto il controllo di un qualsiasi giocatore)</i> e rimuovi 1 gettone resistenza da esso.\n• Colloca 2 minacce sulla trama principale.\n<hr />\n[star] <b>Potenziamento</b>: Esaurisci 1 supporto [[Daily Bugle]] <i>(sotto il controllo di un qualsiasi giocatore)</i>."
+    },
+    {
+        "code": "60159a",
+        "name": "Kingpin",
+        "text": "Stabile.\nNon possono essere inflitti danni o assegnate migliorie a Kingpin. <i>(I giocatori devono conquistare il Sostegno Pubblico per affrontarlo faccia a faccia.)</i>\n[star] <b>Interruzione Obbligata</b>: Quando Kingpin sta per attaccarti, invece trama.",
+        "traits": "Malvivente."
+    },
+    {
+        "code": "60159b",
+        "name": "Kingpin",
+        "text": "Tempra.\n[star] <b>Interruzione Obbligata</b>: Quando Kingpin si attiva contro di te, se non ci sono gregari impegnati con te, fai ricevere a Kingpin 1 carta potenziamento aggiuntiva per questa attivazione.",
+        "traits": "Malvivente. Marzialista."
+    },
+    {
+        "code": "60160a",
+        "name": "Kingpin",
+        "text": "Stabile.\nNon possono essere inflitti danni o assegnate migliorie a Kingpin. <i>(I giocatori devono conquistare il Sostegno Pubblico per affrontarlo faccia a faccia.)</i>\n[star] <b>Interruzione Obbligata</b>: Quando Kingpin sta per attaccarti, invece trama.",
+        "traits": "Malvivente."
+    },
+    {
+        "code": "60160b",
+        "name": "Kingpin",
+        "text": "Tempra.\n[star] <b>Interruzione Obbligata</b>: Quando Kingpin si attiva contro di te, se non ci sono gregari impegnati con te, fai ricevere a Kingpin 1 carta potenziamento aggiuntiva per questa attivazione.",
+        "traits": "Malvivente. Marzialista."
+    },
+    {
+        "code": "60161a",
+        "name": "L'Azzardo del Re",
+        "text": "<b>Contenuto</b>: Kingpin (A1). <i>(Kingpin (B1) invece per la modalità esperto.)</i> Set di incontri Kingpin. 2 set di incontri modulari <i>(Lapide e Mafiosi in Tuta)</i>.\n<b>Preparazione</b>: Ogni giocatore rivela il suo gregario nemesi messo da parte. Ogni giocatore il cui gregario nemesi condivide un nome con un personaggio in gioco rimuove invece dal gioco il suo gregario nemesi, poi trova 1 gregario [[Tirapiedi]] che non sia in gioco e lo rivela."
+    },
+    {
+        "code": "60161b",
+        "name": "L'Azzardo del Re",
+        "text": "<b>Quando Rivelata</b>: Metti in gioco Sostegno Pubblico, con il lato [[Basso]] a faccia in su.\n<b>Azione Eroe</b>: Rimuovi 5 minacce da questa carta (4 minacce invece in modalità esperto). Mescola nel mazzo degli incontri la pila degli scarti degli incontri, poi scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario e rivelalo.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>"
+    },
+    {
+        "code": "60162a",
+        "name": "Fine dei Giochi",
+        "text": "<b>Quando Rivelata</b>: Ogni giocatore trova il suo gregario nemesi messo da parte e lo rivela. Ogni giocatore il cui gregario nemesi non è entrato in gioco in questo modo trova 1 gregario [[Tirapiedi]] che non sia in gioco e lo rivela. In modalità esperto, il primo giocatore trova e rivela la trama secondaria Crimine Organizzato.",
+        "flavor": "\"Basta coi giochetti. Voglio che mi liberiate da questi buoni samaritani... Permanentemente!\" —Kingpin"
+    },
+    {
+        "code": "60162b",
+        "name": "Fine dei Giochi",
+        "text": "Ogni gregario ottiene Guardia.\n<b>Se questo stadio è completato, i giocatori perdono la partita.</b>",
+        "flavor": "\"Voi che vi chiamate eroi siete stati una spina nel mio fianco per troppo tempo. Insieme, vi distruggeremo e prenderemo il controllo di questa città!\" —Kingpin"
+    },
+    {
+        "code": "60163a",
+        "name": "Sostegno Pubblico",
+        "text": "<b>Risposta Obbligata</b>: Dopo che un gregario è stato sconfitto, colloca 1 gettone supporto su questa carta.\n<b>Interruzione Obbligata</b>: Quando la Fase del Criminale inizia, se ci sono 2[per_hero]+2 o più gettoni supporto su questa carta, gira Kingpin e prosegui con lo stadio 2A della trama principale. Poi gira questa carta.",
+        "traits": "Basso."
+    },
+    {
+        "code": "60163b",
+        "name": "Sostegno Pubblico",
+        "text": "<b>Interruzione</b>: Quando sta per essere distribuita una carta potenziamento a faccia in giù a un nemico, rimuovi invece 1[per_hero] gettoni supporto da questa carta.\n<b>Risposta Obbligata</b>: Dopo che un gregario è stato sconfitto, colloca 1 gettone supporto su questa carta.",
+        "traits": "Alto.",
+        "flavor": "\"Gentile da parte loro mostrare un po' di gratitudine una volta tanto!\" —Jessica Jones"
+    },
+    {
+        "code": "60164",
+        "name": "Abbraccio dell'Orso",
+        "text": "Se Kingpin possiede il tratto [[Marzialista]] assegna al tuo eroe. Altrimenti, questa carta ottiene Impulso.\nUtilizzo (3 gettoni stretta).\nNon puoi assumere la sembianza di alter ego.\n<b>Interruzione Obbligata</b>: Quando stai per intervenire o attaccare, rimuovi invece 1 gettone stretta da questa carta.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "60165",
+        "name": "James Wesley",
+        "text": "<b>Quando Rivelata</b>: Assegna a Kingpin e fagli ricevere 1 carta potenziamento a faccia in giù.\n<b>Azione Eroe</b>: Scarta 1 evento [[Intervento]] dalla tua mano → scarta James Wesley. Kingpin trama.\n<hr />\n[star] <b>Potenziamento</b>: Assegna questa carta a Kingpin.",
+        "traits": "Persona."
+    },
+    {
+        "code": "60166",
+        "name": "Bastone di Kingpin",
+        "text": "<b>Quando Rivelata</b>: Assegna a Kingpin. Sei stordito.\n<b>Risposta Obbligata</b>: Dopo che Kingpin ha attaccato e danneggiato un eroe, stordisci quell'eroe. Se un eroe viene stordito in questo modo, scarta questa carta.\n<hr />\n[star] <b>Potenziamento</b>: Sei stordito. Se eri già stordito, subisci 1 danno.",
+        "traits": "Arma."
+    },
+    {
+        "code": "60167",
+        "name": "Montagna di Muscoli",
+        "text": "Se Kingpin possiede il tratto [[Marzialista]], assegna a Kingpin. Altrimenti, questa carta ottiene Impulso.\nKingpin ottiene Ritorsione 1.\n<b>Interruzione Obbligata</b>: Quando Kingpin sta per subire un qualsiasi ammontare di danni, collocalo invece su questa carta. Poi, se ci sono 8 o più danni su questa carta, scartala.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "60168",
+        "name": "Vanessa Fisk",
+        "text": "<b>Quando Rivelata</b>: Assegna a Kingpin. Sei confuso.\n<b>Azione Eroe</b>: Scarta 1 evento [[Attacco]] dalla tua mano → scarta Vanessa Fisk. Kingpin ti attacca.\n<hr />\n[star] <b>Potenziamento</b>: Sei confuso. Se eri già confuso, colloca 1 minaccia sulla trama principale.",
+        "traits": "Persona."
+    },
+    {
+        "code": "60169",
+        "name": "Gatta Nera",
+        "text": "Criminoso.\nMentre ci sono 4 minacce su questa carta, considera Gatta Nera come se fosse un alleato che subisce 2 danni conseguenti dopo che ha attaccato o è intervenuto.\n<b>Azione Eroe</b>: Spendi [mental] → colloca 1 minaccia su questa carta. Se ci sono 4 minacce su questa carta, prendi il controllo di Gatta Nera e considerala un alleato.",
+        "traits": "Ladro. Tirapiedi."
+    },
+    {
+        "code": "60170",
+        "name": "Diamondback",
+        "text": "Criminoso.\n[star] <b>Interruzione Obbligata</b>: Quando Diamondback ti attacca, subisci 1 danno.\n<hr />\n[star] <b>Potenziamento</b>: Subisci 1 danno.",
+        "traits": "Malvivente. Tirapiedi."
+    },
+    {
+        "code": "60171",
+        "name": "Macchia",
+        "text": "Entra in gioco con 1 gettone macchia su di esso.\n<b>Interruzione Obbligata</b>: Quando Macchia sta per subire un qualsiasi ammontare di danni da un attacco, se ci sono 1 o più gettoni macchia su questa carta, rimuovi 1 gettone macchia da questa carta e infliggi invece quei danni all'attaccante. Altrimenti, colloca 1 gettone macchia su questa carta.",
+        "traits": "Malvivente. Tirapiedi."
+    },
+    {
+        "code": "60172",
+        "name": "Stilt-Man",
+        "text": "Entra in gioco con 2 gettoni trampoli su di esso.\n[star] Stilt-Man riceve +1 TRA e +1 ATT per ogni gettone trampoli su di esso.\n<b>Interruzione Obbligata</b>: Quando Stilt-Man sta per subire un qualsiasi ammontare di danni, rimuovi invece 1 gettone trampoli da esso.",
+        "traits": "Malvivente. Tirapiedi."
+    },
+    {
+        "code": "60173",
+        "name": "Influenza di Kingpin",
+        "text": "<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questa trama colloca 3 minacce sulla sua trama secondaria nemesi. Se non è in gioco, la trova e la rivela.",
+        "flavor": "Kingpin sfrutta una combinazione di bugie, mazzette e minacce per piegare gli altri alla sua volontà."
+    },
+    {
+        "code": "60174",
+        "name": "Crimine Organizzato",
+        "text": "Ogni gregario riceve +2 punti ferita.",
+        "flavor": "\"Quando collaboriamo siamo più forti.\" —Kingpin"
+    },
+    {
+        "code": "60175",
+        "name": "Sacca dei Trucchi",
+        "text": "<b>Quando Rivelata</b>: Rivela 1 carta casuale del tuo set nemesi messo da parte. Se non sono state rivelate carte in questo modo, questa carta ottiene Impulso.\n<hr />\n[star] <b>Potenziamento</b>: Fai ricevere a questo personaggio 1 carta casuale del tuo set nemesi messo da parte come carta potenziamento aggiuntiva."
+    },
+    {
+        "code": "60176",
+        "name": "Odio Implacabile",
+        "text": "<b>Quando Rivelata</b>: Il tuo gregario nemesi si attiva contro di te. Se il tuo gregario nemesi non è in gioco, trovalo e rivelalo. Se non puoi trovarlo, trova 1 gregario [[Tirapiedi]] che non sia in gioco e rivelalo.\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, ottiene Sopraffazione."
+    },
+    {
+        "code": "60177",
+        "name": "Incursione Mistica",
+        "text": "Utilizzo (2 gettoni civile).\n<b>Azione Eroe</b>: Spendi [mental] [mental] oppure esaurisci 1 eroe o 1 alleato che controlli → rimuovi 1 gettone civile da questa carta (2 gettoni se invece hai esaurito un personaggio [[Mistico]]).",
+        "traits": "Disastro."
+    },
+    {
+        "code": "60178",
+        "name": "Affondamento",
+        "text": "Utilizzo (2 gettoni civile).\n<b>Azione Eroe</b>: Spendi [energy] [energy] oppure esaurisci 1 eroe o 1 alleato che controlli → rimuovi 1 gettone civile da questa carta (2 gettoni se invece hai esaurito un personaggio [[Aereo]]).",
+        "traits": "Disastro."
+    },
+    {
+        "code": "60179",
+        "name": "Inferno di Cristallo",
+        "text": "Utilizzo (2 gettoni civile).\n<b>Azione Eroe</b>: Spendi [physical] [physical] oppure esaurisci 1 eroe o 1 alleato che controlli → rimuovi 1 gettone civile da questa carta (2 gettoni se invece hai esaurito un personaggio robusto).",
+        "traits": "Disastro."
+    },
+    {
+        "code": "60180",
+        "name": "Ponte Crollato",
+        "text": "[star] Ostacolo 2[per_hero].\n<b>Risposta Obbligata</b>: Dopo che un qualsiasi ammontare di minacce è stato rimosso da Ponte Crollato, colloca 1 minaccia su questa carta."
+    },
+    {
+        "code": "60181",
+        "name": "Passanti in pericolo",
+        "text": "Isolamento.\n<b>Quando Rivelata</b>: Colloca 1 gettone civile su un ambiente [[Disastro]] Se non sono stati collocati gettoni in questo modo, cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 ambiente [[Disastro]] e rivelalo.\n<hr />\n[star] <b>Potenziamento</b>: Colloca 1 gettone civile su un ambiente [[Disastro]]."
+    },
+    {
+        "code": "60182",
+        "name": "Poliziotto",
+        "text": "Colpo Rapido. Vulnerabile.\n[star] <b>Interruzione Obbligata</b>: Quando Poliziotto sta per tramare, attacca invece il criminale.\n<b>Quando Sconfitta</b>: Colloca 2 minacce sulla trama principale.",
+        "traits": "Polizia.",
+        "flavor": "\"Non ti muovere!\""
+    },
+    {
+        "code": "60183",
+        "name": "Poliziotto Corrotto",
+        "text": "Colpo Rapido. Vulnerabile.\n<b>Quando Sconfitta</b>: Il giocatore che ha sconfitto questo gregario distribuisce 1 carta incontro a faccia in giù a sé stesso.\n<hr />\n[star] <b>Potenziamento</b>: Subisci 2 danni indiretti.",
+        "traits": "Malvivente. Polizia."
+    },
+    {
+        "code": "60184",
+        "name": "Ricercato",
+        "text": "<b>Azione Eroe</b>: Scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario [[Polizia]] e mettilo in gioco impegnato con te. Scarta questa carta."
+    },
+    {
+        "code": "60185",
+        "name": "Cordone della Polizia",
+        "text": "[star] Ostacolo 1[per_hero].\nOgni gregario [[Polizia]] ottiene Guardia e Pattuglia.\n<b>Quando Rivelata</b>: Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 gregario [[Polizia]] e rivelalo.",
+        "flavor": "\"State indietro! Questa è una scena del crimine.\" —Agente di polizia"
+    },
+    {
+        "code": "60186",
+        "name": "Auto Sportiva",
+        "text": "Assegna al nemico con più ATT senza altre aggiunte [[Veicolo]]. Altrimenti, questa carta ottiene Impulso.\n<b>Interruzione Obbligata</b>: Quando il personaggio con questa aggiunta sta per subire un qualsiasi ammontare di danni, collocalo invece su questa carta. Se ci sono 4 o più danni su questa carta, scartala.",
+        "traits": "Veicolo."
+    },
+    {
+        "code": "60187",
+        "name": "Moto",
+        "text": "Assegna al nemico con più TRA senza altre aggiunte [[Veicolo]]. Altrimenti, questa carta ottiene Impulso.\n<b>Interruzione Obbligata</b>: Quando il personaggio con questa aggiunta sta per subire un qualsiasi ammontare di danni, collocalo invece su questa carta. Se ci sono 3 o più danni su questa carta, scartala.",
+        "traits": "Veicolo."
+    },
+    {
+        "code": "60188",
+        "name": "Furgoncino",
+        "text": "Assegna al nemico con meno punti ferita rimanenti senza altre aggiunte [[Veicolo]]. Altrimenti, questa carta ottiene Impulso.\n<b>Interruzione Obbligata</b>: Quando il personaggio con questa aggiunta sta per subire un qualsiasi ammontare di danni, collocalo invece su questa carta. Se ci sono 6 o più danni su questa carta, scartala.",
+        "traits": "Veicolo."
+    },
+    {
+        "code": "60189",
+        "name": "Ingorgo",
+        "text": "[star] Ostacolo 2[per_hero].\n<b>Interruzione Obbligata</b>: Quando un personaggio con un'aggiunta [[Veicolo]] sta per:\n• Collocare minacce su una trama, quelle minacce vengono invece collocate su questa carta.\n• Rimuovere minacce da una trama, quelle minacce vengono invece rimosse da questa carta."
+    },
+    {
+        "code": "60190",
+        "name": "Furto d'Auto",
+        "text": "<b>Quando Rivelata</b>: Scarta carte dalla cima del mazzo degli incontri finché non scarti 1 aggiunta [[Veicolo]] e rivelala. Se la tua identità non ha aggiunte [[Veicolo]], puoi spendere 3 risorse dello stesso tipo per assegnare invece alla tua identità l'aggiunta scartata."
+    },
+    {
+        "code": "60191",
+        "name": "Siero del Volo",
+        "text": "Assegna a un nemico non [[Aereo]]. Altrimenti, questa carta ottiene Impulso.\nIl nemico con questa aggiunta ottiene il tratto [[Aereo]].\n<b>Azione Eroe</b>: Scarta 1 evento [[Attacco]] dalla tua mano → scarta questa carta.",
+        "traits": "Superpotere.",
+        "flavor": "\"Combattiamo nel mio territorio: il cielo!\" —Il Gufo"
+    },
+    {
+        "code": "60192",
+        "name": "Mister Fish",
+        "text": "[star] Gli attacchi di Mister Fish ottengono Distanza e Perforante.\n<b>Quando Rivelata</b>: Mister Fish impegna il giocatore la cui identità ha meno punti ferita rimanenti.",
+        "traits": "Maggia. Malvivente.",
+        "flavor": "\"Nessuno ride in faccia a Mister Fish!\""
+    },
+    {
+        "code": "60193",
+        "name": "Gufo",
+        "text": "Colpo Rapido.\n[star] Gli attacchi di Gufo ottengono Perforante.\n<hr />\n[star] <b>Potenziamento</b>: Se questa attivazione è un attacco, ottiene Perforante.",
+        "traits": "Aereo. Malvivente."
+    },
+    {
+        "code": "60194",
+        "name": "Piombare dal Cielo",
+        "text": "<b>Quando Rivelata (Alter Ego)</b>: Il criminale e ogni gregario impegnato con te tramano. Ogni nemico [[Aereo]] riceve +2 TRA per la sua attivazione.\n<b>Quando Rivelata (Eroe)</b>: Il criminale e ogni gregario impegnato con te ti attaccano. Ogni nemico [[Aereo]] riceve +2 ATT per la sua attivazione."
+    },
+    {
+        "code": "60195",
+        "name": "Freddo Come il Ghiaccio",
+        "text": "Assegna al gregario con più punti ferita base e irrobustiscilo. Altrimenti, questa carta ottiene Impulso.\n[star] <b>Risposta Obbligata</b>: Dopo che il gregario con questa aggiunta ha tramato, confondi l'identità del primo giocatore e scarta Freddo Come il Ghiaccio.",
+        "flavor": "\"Lo farò parlare io.\" —Lapide"
+    },
+    {
+        "code": "60196",
+        "name": "Duro Come il Marmo",
+        "text": "Assegna al gregario con più punti ferita base e irrobustiscilo. Altrimenti, questa carta ottiene Impulso.\n[star] <b>Risposta Obbligata</b>: Dopo che il gregario con questa aggiunta ha attaccato, stordisci il personaggio attaccato e scarta Duro Come il Marmo."
+    },
+    {
+        "code": "60197",
+        "name": "Scarabeo",
+        "text": "Criminoso.\n<b>Quando Rivelata</b>: Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 aggiunta che possa essere assegnata a un gregario e assegnala a Scarabeo.",
+        "traits": "Aereo. Malvivente."
+    },
+    {
+        "code": "60198",
+        "name": "Lapide",
+        "text": "Colpo Rapido.\n<hr />\n[star] <b>Potenziamento</b>: Irrobustisci il criminale.",
+        "traits": "Malvivente.",
+        "flavor": "\"Alla fine della fiera non c'è nulla che ami più di una bella rissa!\""
+    },
+    {
+        "code": "60199",
+        "name": "Lista Nera",
+        "text": "<b>Risposta Obbligata</b>: Dopo che la Fase del Criminale è iniziata, infliggi 3 danni indiretti al primo giocatore. Per ogni alleato sconfitto in questo modo, rimuovi 1[per_hero] minacce da Lista Nera."
+    },
+    {
+        "code": "60200",
+        "name": "Ivan Banionis",
+        "text": "Lavoro di Squadra ([[Tuta]]).\n<b>Quando Rivelata</b>: Colloca 1 segnalino accelerazione su questa carta.\n[star] <b>Risposta Obbligata</b>: Dopo che Ivan Banionis ha tramato, colloca 1 segnalino accelerazione su questa carta.",
+        "traits": "Malvivente. Tuta."
+    },
+    {
+        "code": "60201",
+        "name": "Clown",
+        "text": "Criminoso. Lavoro di Squadra ([[Tuta]]).\n[star] <b>Risposta Obbligata</b>: Dopo che Clown ha tramato, fagli ricevere 1 carta potenziamento a faccia in giù.",
+        "traits": "Assassino. Tuta.",
+        "flavor": "\"...\""
+    },
+    {
+        "code": "60202",
+        "name": "Mafioso in Tuta",
+        "text": "Lavoro di Squadra ([[Tuta]]). Ritorsione 2. Vulnerabile.\n<b>Quando Sconfitta</b>: Fai scorrere questa carta sotto la trama secondaria Mafiosi in Tuta. Altrimenti, stordisci e confondi il personaggio che ha sconfitto Mafioso in Tuta.",
+        "traits": "Malvivente. Tuta."
+    },
+    {
+        "code": "60203",
+        "name": "Bro in Tuta",
+        "text": "Lavoro di Squadra ([[Tuta]]). Vulnerabile.\n<b>Quando Sconfitta</b>: Fai scorrere questa carta sotto la trama secondaria Mafiosi in Tuta. Altrimenti, mescola questa carta nel mazzo degli incontri.",
+        "traits": "Malvivente. Tuta.",
+        "flavor": "\"Bro.\""
+    },
+    {
+        "code": "60204",
+        "name": "Mafiosi in Tuta",
+        "text": "<b>Quando Rivelata</b>: Scarta carte dalla cima del mazzo degli incontri finché non scarti 1 gregario [[Tuta]] e fallo scorrere sotto questa carta.\n<b>Risposta Obbligata</b>: Dopo che un giocatore ha rivelato un gregario [[Tuta]] dal mazzo degli incontri, quel giocatore rivela 1 gregario da sotto questa carta."
+    }
+]
